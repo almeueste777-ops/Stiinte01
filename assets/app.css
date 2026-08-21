@@ -334,6 +334,7 @@
   --tabbar-h:          66px;
   --tabbar-h-compact:  60px;   /* măsurat 58,55px + margine */
   --tabbar-pad:         6px;   /* rama de sticlă din jurul tab-urilor */
+  --rail-w:            96px;   /* lățimea barei verticale de pe desktop (≥1024px) */
 
   /* Alias-uri de rază (numele folosite în stratul de componente) ------------ */
   --r-sm: var(--r-1);
@@ -431,6 +432,8 @@ html{
   -webkit-text-size-adjust:100%;
   /* topbar-ul e fix, deci ancorele nu trebuie să intre sub el */
   scroll-padding-top:calc(var(--topbar-h) + var(--safe-t) + var(--sp-5));
+  /* pe desktop, apariția barei de derulare nu mai mută coloana centrată */
+  scrollbar-gutter:stable;
 }
 body{
   min-height:100svh;
@@ -438,14 +441,20 @@ body{
   font:var(--fs-300)/var(--lh-base) var(--font-sans);
   -webkit-font-smoothing:antialiased;
   text-rendering:optimizeLegibility;
-  /* lumină caldă, joasă — și „materia primă” pe care o estompează sticla */
   background:var(--surface-base);
-  background-image:var(--ambient);
-  background-attachment:fixed;
-  background-repeat:no-repeat;
   /* spațiu pentru cromul plutitor: sus bara fixă, jos bara-pilulă */
   padding-top:calc(var(--topbar-h) + var(--safe-t));
   padding-bottom:calc(var(--tabbar-h) + var(--safe-b) + var(--sp-7));
+}
+/* Lumina caldă, joasă — și „materia primă” pe care o estompează sticla.
+   Strat fix propriu, NU background-attachment:fixed pe body: atașamentul fix
+   forțează repictarea gradientului la fiecare cadru de derulare (și e ignorat
+   de iOS Safari). Un pseudo-element fix se compune o singură dată pe GPU. */
+body::before{
+  content:""; position:fixed; inset:0; z-index:-1;
+  background:var(--surface-base);
+  background-image:var(--ambient);
+  pointer-events:none;
 }
 
 /* animăm poziția indicatorului de tab ca număr, nu ca salt discret */
@@ -459,7 +468,7 @@ body{
   position:fixed; top:0; left:0; right:0; z-index:var(--z-chrome);
   display:flex; align-items:center; gap:var(--sp-5);
   height:calc(var(--topbar-h) + var(--safe-t));
-  padding:var(--safe-t) var(--sp-6) 0;
+  padding:var(--safe-t) calc(var(--sp-6) + var(--safe-r)) 0 calc(var(--sp-6) + var(--safe-l));
   color:var(--ink);
   background:var(--glass-bg);
   -webkit-backdrop-filter:var(--glass-blur);
@@ -518,7 +527,9 @@ body{
 
 .view{
   width:100%; max-width:var(--view-max); margin:0 auto;
-  padding:var(--sp-6) var(--sp-6) var(--sp-4);
+  /* safe-area stânga/dreapta: pe telefon în peisaj, decupajul camerei
+     nu mai mușcă din conținut */
+  padding:var(--sp-6) calc(var(--sp-6) + var(--safe-r)) var(--sp-4) calc(var(--sp-6) + var(--safe-l));
   outline:none;
 }
 .view:focus,.view:focus-visible{outline:none} /* focus programatic, nu-l inelăm */
@@ -565,15 +576,18 @@ code{
 .card.tap:active{box-shadow:var(--nm-pressed)}   /* scalarea o dă stratul 3 */
 
 /* săgeată de navigare doar pe cardurile-listă (nu pe dalele din .grid2) */
-.view > .card.tap{padding-right:calc(var(--sp-6) + 16px)}
-.view > .card.tap::after{
+.view > .card.tap,
+.grid-cards > .card.tap{padding-right:calc(var(--sp-6) + 16px)}
+.view > .card.tap::after,
+.grid-cards > .card.tap::after{
   content:""; position:absolute; right:var(--sp-6); top:50%;
   width:8px; height:8px; margin-top:-4px;
   border-right:2px solid var(--ink-muted); border-top:2px solid var(--ink-muted);
   border-radius:1px; transform:rotate(45deg); opacity:.65;
   transition:transform var(--dur-fast) var(--ease-ios);
 }
-.view > .card.tap:active::after{transform:rotate(45deg) translate(2px,-2px)}
+.view > .card.tap:active::after,
+.grid-cards > .card.tap:active::after{transform:rotate(45deg) translate(2px,-2px)}
 
 /* ── 6. Rânduri, grile, liste ───────────────────────────────── */
 
@@ -583,6 +597,17 @@ code{
 .grid2{display:grid; grid-template-columns:1fr 1fr; gap:var(--sp-5); align-items:stretch}
 .grid2 > .card{margin:0; height:100%}
 .grid2 > .btn{margin-top:0; width:100%}
+
+/* Grilă de carduri-listă: o coloană pe telefon, 2–3 coloane pe ecrane late.
+   `minmax(0,1fr)` — nu `1fr` — altfel un cuvânt lung ar lărgi coloana. */
+.grid-cards{display:grid; grid-template-columns:minmax(0,1fr); gap:var(--sp-5); margin:0 0 var(--sp-5); align-items:stretch}
+.grid-cards > .card{margin:0}
+.grid-cards > .plan-sec{min-width:0}
+.plan-sec > .card{margin:0}
+
+/* Lecția pe ecran lat: textul la stânga, notițele la dreapta (≥900px). */
+.two-col{display:grid; grid-template-columns:minmax(0,1fr); gap:0 var(--sp-6); align-items:start}
+.two-col > .card{margin:0 0 var(--sp-5)}
 
 ul.clean{list-style:none; margin:var(--sp-5) 0 0; padding:0; display:grid; gap:var(--sp-4)}
 ul.clean li{position:relative; padding-left:1.55em}
@@ -915,11 +940,29 @@ textarea:focus{outline:none; box-shadow:var(--nm-inset), var(--focus-ring)}
   .topbar,.tabbar,.flash,.icon-btn{background:var(--surface-overlay)}
 }
 
-/* ── 19. Responsiv ──────────────────────────────────────────── */
+/* ── 19. Responsiv ──────────────────────────────────────────────
+   Scara completă, de jos în sus:
+     ≤340   ceas-de-buzunar: totul se strânge cu o treaptă
+     ≤380   telefoane înguste
+     ≥700   listele de carduri trec pe 2 coloane
+     ≥768   tabletă: mai mult aer, aceeași coloană
+     ≥900   lecția pe 2 coloane (text + notițe), planul pe 2 coloane
+     peisaj scund: cromul se subțiază
+     ≥1024  bara de taburi devine RAIL vertical la stânga, coloana se lărgește
+     ≥1440  3 coloane pentru liste, coloană și mai lată
+   Rail-ul vine DUPĂ blocul de peisaj: pe un laptop scund câștigă rail-ul.
+   ─────────────────────────────────────────────────────────────── */
+
+/* telefoane minuscule (≤340px): scara de tipuri coboară o jumătate de treaptă */
+@media (max-width:340px){
+  html{font-size:15px}
+  .tab-label{font-size:.58rem}
+  .topbar h1{font-size:1rem}
+}
 
 /* telefoane foarte înguste (≤380px) */
 @media (max-width:380px){
-  .view{padding:var(--sp-5) var(--sp-5) var(--sp-4)}
+  .view{padding:var(--sp-5) calc(var(--sp-5) + var(--safe-r)) var(--sp-4) calc(var(--sp-5) + var(--safe-l))}
   .card{padding:var(--sp-5)}
   .card > table{width:calc(100% + var(--sp-5) * 2); margin:calc(var(--sp-5) * -1)}
   th,td{padding:var(--sp-4) var(--sp-5)}
@@ -929,9 +972,15 @@ textarea:focus{outline:none; box-shadow:var(--nm-inset), var(--focus-ring)}
   .tabbar{width:calc(100% - var(--sp-6) * 2)}
 }
 
+/* ecrane late de la 700px: listele de carduri respiră pe 2 coloane.
+   Planul (.plan-grid) NU: tabelele lui au nevoie de lățime — pragul lui e 900. */
+@media (min-width:700px){
+  .grid-cards:not(.plan-grid){grid-template-columns:repeat(2,minmax(0,1fr)); gap:var(--sp-6)}
+}
+
 /* tabletă / desktop: mai mult aer, aceeași coloană de 760px */
 @media (min-width:768px){
-  .view{padding:var(--sp-8) var(--sp-7) var(--sp-6)}
+  .view{padding:var(--sp-8) calc(var(--sp-7) + var(--safe-r)) var(--sp-6) calc(var(--sp-7) + var(--safe-l))}
   .card{padding:var(--sp-7); border-radius:var(--r-xl)}
   .card > table{width:calc(100% + var(--sp-7) * 2); margin:calc(var(--sp-7) * -1)}
   th,td{padding:var(--sp-5) var(--sp-7)}
@@ -940,6 +989,15 @@ textarea:focus{outline:none; box-shadow:var(--nm-inset), var(--focus-ring)}
   .topbar h1{font-size:1.15rem}
   .flash{min-height:320px; font-size:1.35rem}
   .btn{min-height:52px}
+}
+
+/* ≥900px: lecția devine text + notițe alături; planul, clase pe 2 coloane */
+@media (min-width:900px){
+  .two-col{grid-template-columns:minmax(0,3fr) minmax(0,2fr)}
+  .two-col > .two-col-side{
+    position:sticky; top:calc(var(--topbar-h) + var(--safe-t) + var(--sp-6));
+  }
+  .grid-cards.plan-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
 
 /* telefon în peisaj: cromul se subțiază, cardul nu mai umple ecranul */
@@ -955,6 +1013,37 @@ textarea:focus{outline:none; box-shadow:var(--nm-inset), var(--focus-ring)}
   .tabbar{bottom:calc(var(--safe-b) + var(--sp-4))}
   .flash{min-height:150px; padding:var(--sp-6); font-size:1.05rem}
   h2{margin-top:var(--sp-6)}
+  /* pe fereastră lată dar scundă, sticky-ul notițelor urmează topbarul compact */
+  .two-col > .two-col-side{top:calc(var(--topbar-h-compact) + var(--safe-t) + var(--sp-5))}
+}
+
+/* ≥1024px: bara de taburi devine rail vertical, ancorat la stânga.
+   Conținutul se lărgește și se centrează în spațiul rămas — ca pe iPadOS. */
+@media (min-width:1024px){
+  :root{--view-max:900px}
+  body{
+    padding-left:calc(var(--rail-w) + var(--sp-8) + var(--safe-l));
+    padding-right:var(--sp-8);
+    padding-bottom:var(--sp-10);
+  }
+  .tabbar{
+    left:calc(var(--sp-6) + var(--safe-l)); right:auto;
+    top:50%; bottom:auto;
+    transform:translateY(-50%);
+    width:var(--rail-w);
+    grid-template-columns:1fr;
+  }
+  .tab{min-height:64px; gap:4px; font-size:.68rem}
+  .tab[aria-selected="true"] .ico{transform:translateY(-1px) scale(1.08)}
+  /* Geometria verticală a pastilei indicatoare e în STRATUL 3 (§7):
+     stilul de bază al .tab-ind stă acolo, mai jos în fișier, deci o
+     suprascriere de aici ar pierde la ordinea din cascadă. */
+}
+
+/* ≥1440px: ecran mare de tot — liste pe 3 coloane, coloană de 1000px */
+@media (min-width:1440px){
+  :root{--view-max:1000px}
+  .grid-cards:not(.plan-grid){grid-template-columns:repeat(3,minmax(0,1fr))}
 }
 
 /* ══════════════════════════════════════════════════════════════════════════
@@ -1237,6 +1326,17 @@ textarea:focus{outline:none; box-shadow:var(--nm-inset), var(--focus-ring)}
 }
 .tab .ico.pop{ animation:icon-pop 420ms var(--ease-spring) }
 
+/* ≥1024px bara e RAIL vertical (vezi §19 din stratul 2): pastila își schimbă
+   axa — umple lățimea și alunecă pe verticală, cu aceleași --tab-i/--tab-count. */
+@media (min-width:1024px){
+  .tab-ind{
+    top:var(--tabbar-pad); left:var(--tabbar-pad); right:var(--tabbar-pad); bottom:auto;
+    width:auto;
+    height:calc((100% - var(--tabbar-pad) * 2) / var(--tab-count,5));
+    transform:translate3d(0,calc(var(--tab-i,0) * 100%),0);
+  }
+}
+
 /* ─────────────────────────────────────────────────────────────────────────
    8. FEEDBACK LA TEST
    ───────────────────────────────────────────────────────────────────────── */
@@ -1371,5 +1471,5 @@ textarea:focus{outline:none; box-shadow:var(--nm-inset), var(--focus-ring)}
 
    ✔ .view-ghost are contain:layout paint style — clona există ~340ms și nu
      trebuie să polueze layout-ul paginii reale. JS o limitează și la ecrane
-     sub 400 de noduri (vezi spawnGhost).
+     sub 2000 de noduri (vezi spawnGhost).
    ══════════════════════════════════════════════════════════════════════════ */

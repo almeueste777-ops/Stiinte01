@@ -28,6 +28,13 @@ while (i < src.length) {
     if (j >= src.length) { erori.push(`linia ${linie}: șir neînchis`); break; }
     i = j + 1; continue;
   }
+  // Ghilimele tipografice în pozitie de cod (in comentarii sunt firesti):
+  // `content:\u201d\u201d` se parseaza ca ident invalid, declaratia dispare tacut
+  // si nimic nu crapa vizibil. Bug real, gasit de verificatorul-cod la v02.
+  if (c === '\u201c' || c === '\u201d' || c === '\u2018' || c === '\u2019') {
+    erori.push(`linia ${linie}: ghilimea tipografica (U+${c.codePointAt(0).toString(16).toUpperCase()}) in afara comentariilor - foloseste \x22 sau '`);
+    i++; continue;
+  }
   if (c === '{') { stiva.push(linie); adancime++; }
   else if (c === '}') {
     if (!adancime) erori.push(`linia ${linie}: acoladă „}” în plus`);

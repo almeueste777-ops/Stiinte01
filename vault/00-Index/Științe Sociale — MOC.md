@@ -30,6 +30,7 @@ Punctul de intrare în **jumătatea scrisă de mână** a vault-ului: cum e făc
 ## Aplicația
 
 - [[Arhitectura aplicației]] — fișiere, rutare, date, service worker
+- [[Responsivitate și viteză]] — scara de ecrane (v02) și de ce reacția e instantanee
 - [[Versiuni]] — istoricul versiunilor aplicației
 
 ## Sistemul de design — versiunea 01
@@ -42,7 +43,9 @@ Punctul de intrare în **jumătatea scrisă de mână** a vault-ului: cum e făc
 
 ## Proces
 
+- [[Jurnal 2026-08-21 — Responsiv v02]] — responsiv pe toate ecranele + viteză
 - [[Jurnal 2026-08-21 — Design v01]] — ce s-a făcut, în ordine
+- [[Raport verificare v02]] — echipa de agenți a rulării v02
 - [[Raport verificare v01]] — verificarea independentă, în locul auditului
 
 ## Conținutul de studiu (jumătatea generată)
