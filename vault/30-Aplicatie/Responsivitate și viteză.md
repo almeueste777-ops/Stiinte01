@@ -66,3 +66,25 @@ Empiric, nu citind codul: capturi Playwright pe scara completă de viewporturi �
 ambele teme × toate ecranele, cu măsurători automate (fără derulare orizontală,
 rail/pilulă pe poziție, ținte ≥44px). Procedura completă e în agentul
 `.claude/agents/verificator-ui.md`; rezultatele rulării v02: [[Raport verificare v02]].
+
+## Straturile de cache — cine ce ține (v02.1)
+
+Bug real din producție: HTML nou + CSS vechi de 7 zile = pagină nestilizată.
+Regula rezultată: **un singur strat are voie să țină fișierele mult timp — cel
+versionat.** Adică service worker-ul, al cărui nume de cache (`stiinte01-vN`)
+crește la fiecare release.
+
+| Strat | Politica | De ce |
+|---|---|---|
+| cache-ul SW (`stiinte01-vN`) | cache-first, șters integral la bump | singurul strat versionat — el dă viteza |
+| precache la instalare | `new Request(u, {cache:'reload'})` | altfel addAll „precacha" fișiere vechi din cache-ul HTTP |
+| revalidări de fundal | `fetch(req, {cache:'no-cache'})` | cerere condiționată: 304 dacă nu s-a schimbat |
+| cache-ul HTTP: `/assets/*`, `/data/*`, `index.html`, `sw.js` | `no-cache` | fișiere fără amprentă în nume nu au voie la max-age lung |
+| cache-ul HTTP: `/icons/*` | `max-age` lung | se schimbă rar și nu strică layoutul dacă rămân vechi |
+| URL-uri versionate: `app.css?v=N`, `app.js?v=N` | `N` crește odată cu `CACHE`; CI verifică sincronizarea | sparge intrările VECHI de cache (inclusiv la browsere fără SW), pe care noul `no-cache` nu le poate atinge |
+| `controllerchange` în app.js | o reîncărcare unică, cu gardă | nimeni nu rămâne pe amestec de versiuni până la următorul refresh |
+
+Reîncărcarea automată e **politicoasă**: pe ecranele cu stare nepersistată (test
+în desfășurare, pachet de carduri, notițe în tastare) se amână până la următoarea
+navigare sau până când tab-ul trece în fundal — un update nu calcă peste munca
+elevului. Ciclul complet e verificabil empiric cu `tools/test-sw.mjs`.

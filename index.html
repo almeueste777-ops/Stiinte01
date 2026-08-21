@@ -19,7 +19,10 @@
 <link rel="apple-touch-icon" href="./icons/icon-192.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<link rel="stylesheet" href="./assets/app.css">
+<!-- ?v= sparge intrările vechi din cache-ul HTTP (fișierele nu au amprentă în
+     nume, iar înainte de v02.1 aveau max-age de 7 zile). Se crește ODATĂ cu
+     versiunea CACHE din sw.js — CI-ul verifică sincronizarea. -->
+<link rel="stylesheet" href="./assets/app.css?v=4">
 </head>
 <body>
 <header class="topbar">
@@ -100,6 +103,6 @@
   </button>
 </nav>
 
-<script src="./assets/app.js"></script>
+<script src="./assets/app.js?v=4"></script>
 </body>
 </html>

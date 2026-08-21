@@ -79,3 +79,19 @@ precache), capturi Playwright pe **8 viewporturi × 2 teme × 7 ecrane** cu măs
 automate (fără derulare orizontală, rail corect poziționat, ținte ≥44px), test de
 interacțiune cap-coadă, plus **doi agenți independenți** — unul adversarial pe cod,
 unul empiric pe interfață. Rezultatul lor: [[Raport verificare v02]].
+
+## Post-scriptum, aceeași zi — v02.1
+
+Primul utilizator real a deschis `stiinte01.pages.dev` și a primit pagina
+**nestilizată**: HTML-ul nou cu **CSS-ul din prima zi a aplicației**, ținut de
+browser 7 zile (`/assets/*` avea `max-age=604800`, iar fișierele nu au amprentă
+în nume). Echipa de verificare nu avea cum să-l vadă: rula cu service worker
+blocat și profiluri curate — bug-ul cere un cache cu istoric.
+
+Reparat pe trei straturi (detalii în [[Responsivitate și viteză]]): precache-ul
+SW ocolește cache-ul HTTP (`cache:'reload'`, CACHE `v4`), revalidările devin
+cereri condiționate (`no-cache`), pagina se reîncarcă singură o dată când un SW
+nou preia controlul, iar `_headers` dă `/assets/*` pe `no-cache`. Verificat cu
+SW **activ**: zero reîncărcări la instalare, exact una la update, stabil după.
+Lecția rămâne în jurnal (§32–35): verificarea trebuie să acopere și **drumul
+dintre versiuni**, nu doar versiunea.

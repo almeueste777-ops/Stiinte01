@@ -364,17 +364,22 @@
     const ta = view.querySelector('#nota');
     const stare = view.querySelector('#nota-stare');
     let t;
+    const salveazaNota = () => {
+      if (ta.value.trim()) state.notite[l.id] = ta.value; else delete state.notite[l.id];
+      save();
+      /* Reținem NODUL, nu selectorul: dacă între timp s-a schimbat lecția,
+         o re-interogare ar scrie „Salvat.” pe linia de stare a lecției
+         următoare, care nu a salvat nimic. */
+      if (stare.isConnected) stare.textContent = 'Salvat.';
+    };
     ta.oninput = () => {
       clearTimeout(t);
-      t = setTimeout(() => {
-        if (ta.value.trim()) state.notite[l.id] = ta.value; else delete state.notite[l.id];
-        save();
-        /* Reținem NODUL, nu selectorul: dacă între timp s-a schimbat lecția,
-           o re-interogare ar scrie „Salvat.” pe linia de stare a lecției
-           următoare, care nu a salvat nimic. */
-        if (stare.isConnected) stare.textContent = 'Salvat.';
-      }, 400);
+      t = setTimeout(salveazaNota, 400);
     };
+    /* La părăsirea câmpului se salvează IMEDIAT: debounce-ul se resetează la
+       fiecare tastă, deci fără flush o reîncărcare (inclusiv cea automată,
+       la update de SW) putea pierde ultimele secunde de tastare. */
+    ta.onblur = () => { clearTimeout(t); salveazaNota(); };
     view.querySelector('#marcheaza').onclick = () => {
       clearTimeout(t);
       if (ta.value.trim()) state.notite[l.id] = ta.value; else delete state.notite[l.id];
@@ -569,5 +574,33 @@
 
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js').catch(() => {}));
+    /* Când un SW NOU preia controlul (skipWaiting + claim), pagina curentă a
+       fost randată cu resursele versiunii vechi — un amestec HTML nou/CSS vechi
+       e posibil (s-a întâmplat în producție). O reîncărcare unică realiniază
+       totul. Garda: la PRIMA instalare controller-ul trece din null în SW și
+       nu trebuie reîncărcat nimic; iar flagul previne orice buclă.
+
+       DAR nu aruncăm munca omului: un test în desfășurare, un pachet de
+       carduri sau notițele în curs de tastare trăiesc doar în memorie. În
+       aceste ecrane reload-ul se AMÂNĂ până la următoarea navigare sau până
+       când tab-ul trece în fundal. */
+    const stareNepersistata = () =>
+      /^#\/(test|carduri)/.test(location.hash || '') ||
+      (document.activeElement && document.activeElement.id === 'nota');
+    let reloadAmanat = false;
+    const incearcaReload = () => {
+      if (!reloadAmanat) return;
+      if (stareNepersistata() && document.visibilityState === 'visible') return;
+      reloadAmanat = false;
+      location.reload();
+    };
+    let aveaController = !!navigator.serviceWorker.controller;
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+      if (!aveaController) { aveaController = true; return; }
+      reloadAmanat = true;
+      incearcaReload();
+    });
+    window.addEventListener('hashchange', incearcaReload);
+    document.addEventListener('visibilitychange', incearcaReload);
   }
 })();

@@ -716,3 +716,75 @@ rămâne valabilă în paralel: dacă proiectul `stiinte01.pages.dev` a fost leg
 merge-ul de azi l-a republicat deja automat.) Nici adresa publică nu poate fi deschisă
 de aici — proxy-ul mediului nu lasă `*.github.io` — deci confirmarea vizuală finală
 rămâne primul lucru de bifat la deschiderea linkului.
+
+---
+
+## 2026-08-21, noaptea — v02.1: primul utilizator real găsește ce n-a găsit echipa
+
+**Raportul:** la deschiderea linkului `stiinte01.pages.dev`, pagină nestilizată —
+fundal bleumarin, iconițe SVG uriașe, totul stivuit. Adică exact ce nu arătase
+niciuna dintre cele câteva zeci de capturi de verificare.
+
+### 32 · Diagnoza, făcută pe serverul live
+
+Fetch pe fișierele publicate (printr-un serviciu extern, fiindcă proxy-ul mediului
+nu lasă accesul direct): **CSS-ul de pe server e cel nou, corect** — conține
+`--rail-w`, `body::before`, tot v02-ul. Deci Cloudflare e conectat și publică
+automat din `main`; serverul e nevinovat.
+
+Vinovatul e **amestecul de versiuni din cache-ul browserului**: `index.html` e
+`no-cache` (mereu proaspăt), dar `_headers` dădea `/assets/*` cu
+`max-age=604800` — 7 zile — iar fișierele nu au amprentă în nume. Un browser
+care văzuse aplicația în prima ei zi (v00, paleta rece bleumarin) a primit azi
+HTML-ul v02 cu **CSS-ul v00 din cache**: stilurile vechi nu cunosc SVG-urile și
+clasele noi, deci iconițele explodează la mărimea naturală, pe fundal navy.
+Mai rău: `caches.addAll()` al unui service worker nou trece tot prin cache-ul
+HTTP, deci putea „precacha" solemn fișiere vechi în numele versiunii noi.
+
+### 33 · De ce nu l-a prins echipa
+
+Bateria de verificare rula cu service worker-ul **blocat** și cu profiluri de
+browser **curate** — adică exact scenariul în care bug-ul nu poate apărea.
+Amestecul de versiuni cere un istoric: un cache de acum câteva ore. Lecția:
+verificarea trebuie să acopere și **drumul dintre versiuni**, nu doar versiunea.
+
+### 34 · Reparația, pe trei straturi
+
+1. **`sw.js` (CACHE v4):** precache-ul folosește `new Request(u, {cache:'reload'})`
+   — ocolește cache-ul HTTP; revalidările de fundal folosesc `{cache:'no-cache'}`
+   (cerere condiționată, 304 dacă nu s-a schimbat nimic).
+2. **`app.js`:** când un SW nou preia controlul, pagina se **reîncarcă singură o
+   dată** (gardă anti-buclă; la prima instalare nu se reîncarcă nimic). Nimeni nu
+   mai rămâne pe un amestec HTML nou + CSS vechi nici măcar până la următorul F5.
+3. **`_headers`:** `/assets/*` trece pe `no-cache`. Viteza n-o pierdem: o dă
+   service worker-ul, care e cache-first; stratul HTTP doar revalidează.
+
+### 35 · Verificatorul de cod, pe reparație: trei constatări, toate încorporate
+
+1. **Reload-ul automat ar fi aruncat munca omului** — un test la întrebarea
+   10/12, un pachet de carduri, notițele în curs de tastare trăiesc doar în
+   memorie. Acum reload-ul se **amână** pe ecranele cu stare (test, carduri,
+   textarea focalizat) până la următoarea navigare sau până când tab-ul trece
+   în fundal; iar notițele se salvează imediat la părăsirea câmpului, nu doar
+   după pauza de 400ms.
+2. **Browserele fără service worker** ar fi rămas pe CSS-ul vechi până la 7
+   zile: intrarea de cache existentă nu află niciodată de noul `no-cache`.
+   Spart cu versionarea URL-urilor: `app.css?v=4` / `app.js?v=4`, crescute
+   odată cu `CACHE` — iar CI-ul verifică de-acum **sincronizarea** celor trei
+   locuri (`sw.js` CACHE, `sw.js` ASSETS, `index.html`).
+3. **Jurnalul afirma o unealtă care nu era în repo** — clasa istorică de
+   greșeală „afirmații neverificabile în documentație". Testul de ciclu de
+   viață al SW-ului e acum `tools/test-sw.mjs`, rulabil de oricine.
+
+### 36 · Verificat cu service worker ACTIV, de data asta
+
+`tools/test-sw.mjs`: prima instalare — zero reîncărcări; aplicația stilizată și
+funcțională sub SW; un release simulat (bump de CACHE în fișierul servit) —
+**exact o reîncărcare** pe un ecran fără stare, apoi stabil; zero erori JS. Și
+testul de amânare: update-ul sosit **în mijlocul unui test grilă** nu reîncarcă
+nimic (feedback-ul întrebării rămâne pe ecran), iar la părăsirea ecranului
+reload-ul se execută o singură dată. Plus verificatorii locali, ca de obicei.
+
+**Pentru cine vede încă pagina stricată:** un singur refresh forțat
+(Ctrl+Shift+R / Cmd+Shift+R) o repară definitiv; din v02.1, realinierea se face
+singură — la momentul potrivit, nu peste munca omului.

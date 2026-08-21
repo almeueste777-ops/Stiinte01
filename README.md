@@ -102,8 +102,10 @@ Editezi `data/continut.json`. Nu e nevoie să atingi codul.
 
 `corect` este **indexul** răspunsului corect, numărat de la 0 (deci `1` = a doua variantă).
 
-După orice modificare a fișierelor, **crește versiunea din `sw.js`** (de exemplu `stiinte01-v2` → `stiinte01-v3`),
+După orice modificare a fișierelor, **crește versiunea din `sw.js`** (de exemplu `stiinte01-v3` → `stiinte01-v4`),
 altfel utilizatorii care au deja aplicația instalată vor primi în continuare versiunea veche din cache.
+Dacă ai modificat `assets/app.css` sau `assets/app.js`, crește la **același număr** și `?v=` din
+`index.html` și din lista `ASSETS` a `sw.js` — CI-ul pică dacă cele trei locuri nu sunt sincronizate.
 
 ## Vault Obsidian (`vault/`)
 
