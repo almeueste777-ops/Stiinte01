@@ -1,6 +1,16 @@
 # Publică aplicația pe GitHub Pages la fiecare push pe main.
 # Aplicația nu are pas de build: se publică rădăcina depozitului ca atare.
 # Adresa rezultată: https://almeueste777-ops.github.io/Stiinte01/
+#
+# Metoda: ramura `gh-pages`, pe care GitHub Pages o servește automat.
+# Varianta cu actions/deploy-pages a fost încercată prima și a picat la
+# `configure-pages` cu „Resource not accessible by integration": GITHUB_TOKEN
+# nu are voie să CREEZE situl Pages, doar un admin poate. Push-ul pe `gh-pages`
+# nu are nevoie de situl preexistent — îl activează el însuși.
+#
+# `.nojekyll` e obligatoriu: fără el, Pages trece totul prin Jekyll, care
+# aruncă fișierele cu underscore (_headers) și poate pica pe conținutul
+# markdown din vault.
 name: Publicare GitHub Pages
 
 on:
@@ -9,9 +19,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
   group: pages
@@ -20,20 +28,15 @@ concurrency:
 jobs:
   publica:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
-      # `enablement: true` activează Pages la prima rulare, dacă nu e deja activ.
-      - uses: actions/configure-pages@v5
-        with:
-          enablement: true
-
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: .
-
-      - id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Publică pe ramura gh-pages
+        run: |
+          touch .nojekyll
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan gh-pages
+          git add -A
+          git commit -m "Publicare din main @ ${GITHUB_SHA}"
+          git push --force origin gh-pages
