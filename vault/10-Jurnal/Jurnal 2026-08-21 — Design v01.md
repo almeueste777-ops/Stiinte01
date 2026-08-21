@@ -1,11 +1,4 @@
 ---
-titlu: Jurnal 2026-08-21 — Design v01
-tip: jurnal
-data: 2026-08-21
-versiune: "01"
-tags: [jurnal, design, v01, proces]
----
-
 # Jurnal 2026-08-21 — Design v01
 
 Oglinda intrării din `jurnal.md` (rădăcina depozitului). Jurnalul e sursa cronologică;
@@ -480,3 +473,70 @@ Am scris atunci `tools/verifica-css.mjs`: verifică echilibrul acoladelor ignor�
 folosește, deci apariția ei înseamnă aproape sigur o acoladă uitată. Am reprodus greșeala
 originală pe o copie: unealta o prinde, cu linia exactă. Am adăugat-o în CI, ca să nu mai
 depindă de norocul cuiva care se uită la o matrice.
+
+## 18 · Publicarea
+
+Ordinea: ramura de lucru → verificare automată verde → `main` → verificare automată verde.
+
+- Ramura `claude/app-design-aesthetic-v01-z15j8c`, trei commituri: redesignul, luciul
+  specular, corecturile de la verificatori. Verificarea automată de pe GitHub: **verde**.
+- `main` avansat prin *fast-forward*, fără commit de îmbinare. Verificarea automată pe `main`:
+  **verde** (rulare #6 — JSON valid, sintaxă JS, **structură CSS**, fișiere PWA, precache complet).
+
+**Despre „live”, exact:** fiecare `git push` pe `main` declanșează republicarea automată pe
+Cloudflare Pages — asta e legătura descrisă în `docs/PLAN.md`, Etapa 5. Push-ul e făcut și
+verificarea e verde, deci partea care ține de depozit e completă.
+
+**Nu am putut confirma pagina publică din acest mediu**, fiindcă accesul la internet de aici e
+limitat la o listă de gazde permise, iar `*.pages.dev` nu e pe ea. Verificarea vizuală rămâne
+de făcut la deschiderea adresei. Dacă pagina nu s-a schimbat, singura cauză plauzibilă e că
+proiectul Cloudflare Pages nu a fost încă legat de depozit — pașii sunt în `docs/PLAN.md`,
+Etapa 5, și se fac o singură dată.
+
+**Pentru cine are deja aplicația instalată pe telefon:** versiunea din `sw.js` a fost crescută
+la `stiinte01-v2`, deci noul design ajunge la ei singur, la următoarea deschidere. Fără acest
+pas ar fi rămas pe stilurile vechi din cache, la nesfârșit.
+
+> **De reținut pentru mai târziu:** în depozit mai există o ramură,
+> `claude/pwa-social-sciences-app-yzli16`, care conține un generator separat de vault Obsidian
+> (`tools/graphify.py`, un vault de 79 de note generate din `data/`). Nu e pe `main` și nu a
+> fost atinsă aici, dar dacă va fi îmbinată vreodată, cele două vaulturi se vor ciocni pe
+> același folder. Atunci trebuie decis care rămâne: al meu e scris de mână și descrie
+> *sistemul de design*; celălalt e generat automat și descrie *conținutul de studiu*.
+> Se pot păstra amândouă, în foldere diferite.
+
+---
+
+## Bilanț — versiunea 01, „Sticlă caldă” — vezi și [[Versiuni]]
+
+**Ce s-a livrat, faza 1 (doar design, cum s-a cerut):**
+
+| | |
+|---|---|
+| Sistem de design | 1375 de linii CSS, patru straturi, 114 tokeni, toți declarați |
+| Paletă | 58 de culori opace, toate în arcul cald 4°–45° (plus 4 verzi semantice). Zero culori reci |
+| Temă întunecată | espresso cald, umbre neomorfice recalculate, fiecare token de culoare acoperit |
+| Mișcare | 9 curbe iOS cu rol declarat, tranziții push/pop cu parallax, cascade, rotire 3D |
+| Iconițe | 6 SVG inline + 3 PNG regenerabile din sursă, cu *maskable* verificat pixel cu pixel |
+| Accesibilitate | contrast AA peste tot, ținte ≥44px, inel de focus cald, 4 preferințe de sistem tratate |
+| Documentație | jurnal + vault Obsidian de 10 note, validat automat |
+| Unelte noi | verificator de structură CSS (în CI) + generator de iconițe |
+
+**Ce nu s-a atins, intenționat:** conținutul din `data/`, logica de progres și de notare, și
+cheia de `localStorage` — deci progresul elevilor care folosesc deja aplicația e intact.
+
+**Despre verificare.** Cerința era ca tot ce se creează să fie verificat, ca să nu mai fie
+nevoie de audit. Trei verificatori independenți au găsit **7 defecte majore** pe care nu le
+prinsesem: unul rescria raza fiecărui element focalizat, unul făcea bara de progres invizibilă
+pe tema deschisă, unul anula rezerva pentru browserele vechi, unul strica animația la cea mai
+frecventă navigare din aplicație, unul întorcea direcția greșită la navigare, unul ștergea
+întrebarea și răspunsul din arborele de accesibilitate, și unul rupea propria regulă a
+sistemului. Plus ~14 minore și ~15 erori factuale în documentație.
+
+Toate sunt corectate și **reverificate empiric**, nu doar declarate rezolvate.
+
+Onest, două lucruri pe care le-am greșit eu și care merită reținute mai mult decât lista de
+corecturi: am scris cifre în documentație fără să le recalculez, și am rupt tăcut foaia de
+stil ștergând o acoladă — iar propria mea baterie de teste a trecut fără să observe. Prima
+greșeală a fost prinsă de un verificator; a doua, de o unealtă pe care am scris-o abia după
+ce s-a întâmplat. Amândouă rulează acum automat, la fiecare push.
