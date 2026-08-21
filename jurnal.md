@@ -698,3 +698,21 @@ Toate corectate și **reverificate empiric** — mesh-ul se vede acum pe captur�
 `verifica-css.mjs` detectează de-acum ghilimelele tipografice în afara comentariilor,
 în CI, ca eroare. Clasa de bug e închisă definitiv. Detalii:
 `vault/40-Verificare/Raport verificare v02.md`.
+
+### 31 · Publicarea — totul automat, minus un clic care nu poate fi al meu
+
+Prima variantă de workflow (actions/deploy-pages) a picat exact cum anticipase
+verificatorul de cod: `GITHUB_TOKEN` nu poate CREA situl Pages — „Resource not
+accessible by integration". A doua variantă împinge ramura clasică `gh-pages` (cu
+`.nojekyll`, ca Jekyll să nu arunce fișierele cu underscore și să nu proceseze
+markdown-ul din vault): rulează verde, ramura există și se reîmprospătează la fiecare
+push pe `main`.
+
+Ce nu se poate face din acest mediu: activarea inițială a sitului, care e un drept de
+administrator — un clic în **Settings → Pages → Source: Deploy from a branch →
+`gh-pages`**. După el, adresa e `https://almeueste777-ops.github.io/Stiinte01/` și nu
+mai atinge nimeni nimic manual. (Alternativa Cloudflare din `docs/PLAN.md`, Etapa 5,
+rămâne valabilă în paralel: dacă proiectul `stiinte01.pages.dev` a fost legat de depozit,
+merge-ul de azi l-a republicat deja automat.) Nici adresa publică nu poate fi deschisă
+de aici — proxy-ul mediului nu lasă `*.github.io` — deci confirmarea vizuală finală
+rămâne primul lucru de bifat la deschiderea linkului.
