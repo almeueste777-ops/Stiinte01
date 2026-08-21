@@ -9,6 +9,97 @@
   const backBtn = document.getElementById('btn-back');
   const netBadge = document.getElementById('net-badge');
 
+  /* ---------- infrastructură de mișcare (stratul 3 din app.css) ---------- */
+  const stage  = document.getElementById('stage');
+  const tabbar = document.querySelector('.tabbar');
+  const tabs   = Array.prototype.slice.call(document.querySelectorAll('.tab'));
+  tabbar.style.setProperty('--tab-count', tabs.length);
+
+  const reduced = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  const ROOT_ROUTES = ['acasa', 'materii', 'carduri', 'test', 'plan'];
+
+  /* Stiva de navigație = semantica lui UINavigationController.
+     Goală la start: prima randare iese mereu ca „fade” + cascadă. */
+  let navStack = [];
+  let ghost = null;
+  let lastTabIdx = -1;
+
+  /* Adâncimea rutei: rădăcină fără argumente = 0; orice argument adaugă 1. */
+  function routeDepth(hash) {
+    const parts = String(hash).replace(/^#\/?/, '').split('/').filter(Boolean);
+    const name = parts[0] || 'acasa';
+    return (ROOT_ROUTES.indexOf(name) > -1 ? 0 : 1) + Math.max(0, parts.length - 1);
+  }
+
+  /* Direcția: 'push' | 'pop' | 'fade' | 'replace'.
+     Stiva e mai fiabilă decât simpla comparație de adâncime, fiindcă prinde
+     corect și butonul „înapoi” al browserului. Adâncimea rămâne plasă de
+     siguranță pentru linkuri directe care nu există în stivă. */
+  function navDirection(hash) {
+    if (!navStack.length) { navStack = [hash]; return 'fade'; }        // prima randare
+    const top = navStack[navStack.length - 1];
+    if (hash === top) return 'replace';                                // re-randare
+    const i = navStack.lastIndexOf(hash);
+    if (i > -1) { navStack.length = i + 1; return 'pop'; }             // înapoi în stivă
+    if (routeDepth(hash) === 0) { navStack = [hash]; return 'fade'; }  // tab = fără slide
+    if (routeDepth(hash) < routeDepth(top)) { navStack = [hash]; return 'pop'; }
+    navStack.push(hash); return 'push';
+  }
+
+  /* Clonează ecranul care pleacă și îl animează în paralel cu cel care intră.
+     Fără clonă nu există parallax, iar parallaxul e jumătate din senzația iOS. */
+  function spawnGhost(dir) {
+    if (dir === 'replace' || reduced() || !view.firstChild) return;
+    if (ghost) { ghost.remove(); ghost = null; }
+    if (view.querySelectorAll('*').length > 400) return;   // ecran greu (Plan) → fără clonă
+    const g = view.cloneNode(true);
+    g.removeAttribute('id');
+    g.querySelectorAll('[id]').forEach(n => n.removeAttribute('id'));  // fără ID-uri duble
+    g.removeAttribute('tabindex');
+    g.setAttribute('aria-hidden', 'true');
+    g.inert = true;
+    g.classList.remove('stagger');
+    g.classList.add('view-ghost', 'nav-' + dir);
+    g.style.setProperty('--ghost-y', (-window.scrollY) + 'px');  // păstrează scrollul
+    g.style.willChange = 'transform, opacity';
+    ghost = g;
+    stage.appendChild(g);
+    g.addEventListener('animationend', () => {
+      g.remove(); if (ghost === g) ghost = null;
+    }, { once: true });
+  }
+
+  /* Repornește animația de intrare pe #view. Fără reflow-ul din mijloc,
+     re-adăugarea aceleiași clase NU repornește animația. */
+  function playViewAnim(dir) {
+    view.classList.remove('nav-push', 'nav-pop', 'nav-fade', 'nav-replace', 'stagger');
+    view.style.willChange = 'transform, opacity';
+    void view.offsetWidth;                        // reflow forțat = restart
+    view.classList.add('nav-' + dir);
+    if (dir === 'fade') view.classList.add('stagger');   // cascadă doar la tab / prima randare
+    view.addEventListener('animationend', () => { view.style.willChange = 'auto'; },
+      { once: true });
+  }
+
+  /* Numerotează elementele de nivel 1 pentru cascadă (--i) și le marchează (.enter).
+     `restagger` repornește cascada fără schimbare de rută (întrebarea următoare,
+     cardul următor din pachet). */
+  const STAGGER_SEL = ':scope > p, :scope > h2, :scope > .card, :scope > .chips, ' +
+                      ':scope > .grid2, :scope > .btn, :scope > .flip, ' +
+                      ':scope > #opt > .opt, :scope > #card-actions';
+  function paint(restagger) {
+    view.querySelectorAll(STAGGER_SEL).forEach((el, i) => {
+      el.style.setProperty('--i', i);
+      el.classList.add('enter');
+    });
+    if (restagger) {
+      view.classList.remove('stagger');
+      void view.offsetWidth;
+      view.classList.add('stagger');
+    }
+  }
+
   let DB = null;          // continut.json
   let CUR = null;         // curriculum.json
   let state = load();
@@ -60,19 +151,46 @@
   }
 
   function render() {
+    const hash = location.hash || '#/acasa';
+    const dir = navDirection(hash);
+    spawnGhost(dir);                        // ÎNAINTE de a goli #view
+
     const { name, args } = parseHash();
     const fn = routes[name] || viewAcasa;
+    const prevTitle = title.textContent;
+
     view.innerHTML = '';
     fn(...args);
-    const isRoot = ['acasa', 'materii', 'carduri', 'test', 'plan'].includes(name);
+
+    const isRoot = ROOT_ROUTES.includes(name);
     backBtn.hidden = isRoot;
-    document.querySelectorAll('.tab').forEach(t => {
+
+    tabs.forEach(t => {
       const active = t.dataset.route === name ||
         (name === 'materie' && t.dataset.route === 'materii') ||
         (name === 'lectie' && t.dataset.route === 'materii');
       t.setAttribute('aria-selected', String(active));
     });
-    window.scrollTo(0, 0);
+
+    /* Pastila indicatoare + pocnitul iconiței pe tab-ul nou selectat. */
+    const idx = tabs.findIndex(t => t.getAttribute('aria-selected') === 'true');
+    if (idx > -1) {
+      tabbar.style.setProperty('--tab-i', idx);
+      if (idx !== lastTabIdx && !reduced()) {
+        const ic = tabs[idx].querySelector('.ico');
+        if (ic) { ic.classList.remove('pop'); void ic.offsetWidth; ic.classList.add('pop'); }
+      }
+      lastTabIdx = idx;
+    }
+
+    /* Titlul din topbar face fade doar dacă s-a schimbat efectiv. */
+    if (title.textContent !== prevTitle) {
+      title.classList.remove('swap'); void title.offsetWidth; title.classList.add('swap');
+    }
+
+    window.scrollTo(0, 0);                  // după ce --ghost-y a fost deja capturat
+    playViewAnim(dir);
+    paint();
     view.focus({ preventScroll: true });
   }
 
@@ -88,7 +206,7 @@
     view.innerHTML = `
       <div class="card">
         <div class="row"><h3>Progres general</h3><span class="pill soft">${citite()}/${totalLectii()} lecții</span></div>
-        <div class="bar"><i style="width:${pct}%"></i></div>
+        <div class="bar"><i style="--p:${pct / 100}"></i></div>
         <p class="muted" style="margin-top:10px">
           ${CUR.parcurs.specializare} · ${CUR.parcurs.profil} · ${CUR.parcurs.forma}<br>
           ${esc(CUR.scoala.nume)}, ${esc(CUR.scoala.localitate)}
@@ -149,7 +267,7 @@
         return `<button class="card tap" data-go="#/materie/${m.id}">
           <div class="row"><h3>${esc(m.materie)}</h3><span class="pill soft">${esc(m.clasa)}</span></div>
           <p class="muted">${esc(m.descriere)}</p>
-          <div class="bar"><i style="width:${Math.round(done / m.lectii.length * 100)}%"></i></div>
+          <div class="bar"><i style="--p:${done / m.lectii.length}"></i></div>
           <p class="muted" style="margin:8px 0 0">${done}/${m.lectii.length} lecții · ${m.flashcards.length} carduri · ${m.quiz.length} întrebări</p>
         </button>`;
       }).join('')}`;
@@ -188,7 +306,7 @@
       </div>
       <div class="card">
         <h3>Notițele mele</h3>
-        <textarea id="nota" rows="4" style="width:100%;font:inherit;padding:10px;border-radius:10px;border:1px solid var(--line);background:transparent;color:inherit" placeholder="Scrie aici...">${esc(nota)}</textarea>
+        <textarea id="nota" rows="4" placeholder="Scrie aici...">${esc(nota)}</textarea>
         <p class="muted" id="nota-stare" style="margin:6px 0 0">Salvate automat pe acest dispozitiv.</p>
       </div>
       <button class="btn" id="marcheaza">${state.lectiiCitite[l.id] ? '✓ Marcată ca citită — anulează' : 'Marchează drept citită'}</button>`;
@@ -226,35 +344,70 @@
     drawCard();
   }
 
+  /* Ambele fețe există simultan în DOM și se suprapun în aceeași celulă de
+     grid, altfel rotirea 3D e imposibilă (înainte, întoarcerea se făcea prin
+     re-randare). `flipped` nu mai declanșează randare: e doar o gardă
+     împotriva dublei apăsări. */
   function drawCard() {
     if (deckPos >= deck.length) {
       view.innerHTML = `<div class="card"><h3>Sesiune încheiată</h3>
         <p class="muted">Ai parcurs ${deck.length} carduri.</p>
         <button class="btn" id="din-nou">Încă o rundă</button></div>`;
-      view.querySelector('#din-nou').onclick = () => { deck = shuffle(deck); deckPos = 0; flipped = false; drawCard(); };
+      view.querySelector('#din-nou').onclick = () => {
+        deck = shuffle(deck); deckPos = 0; flipped = false; drawCard();
+      };
+      paint(true);
       return;
     }
+
     const c = deck[deckPos];
     view.innerHTML = `
       <p class="muted">Cardul ${deckPos + 1} din ${deck.length} · ${esc(c.materie)}</p>
-      <div class="card flash" id="fata">${esc(flipped ? c.v : c.f)}</div>
-      ${flipped
-        ? `<div class="grid2">
-             <button class="btn ghost" data-ans="greu">Mai repet</button>
-             <button class="btn" data-ans="usor">Știu</button>
-           </div>`
-        : `<button class="btn" id="intoarce">Arată răspunsul</button>`}`;
-    if (!flipped) {
-      const go = () => { flipped = true; drawCard(); };
-      view.querySelector('#intoarce').onclick = go;
-      view.querySelector('#fata').onclick = go;
-    } else {
-      view.querySelectorAll('[data-ans]').forEach(b => b.onclick = () => {
-        const st = state.carduri[c.key] || { usor: 0, greu: 0 };
-        st[b.dataset.ans]++; state.carduri[c.key] = st; save();
-        deckPos++; flipped = false; drawCard();
-      });
-    }
+      <div class="flip" id="flip" role="button" tabindex="0" aria-label="Arată răspunsul">
+        <div class="flip-inner">
+          <div class="card flash face front">${esc(c.f)}</div>
+          <div class="card flash face back" aria-hidden="true">${esc(c.v)}</div>
+        </div>
+      </div>
+      <div id="card-actions"><button class="btn" id="intoarce">Arată răspunsul</button></div>`;
+
+    const flip    = view.querySelector('#flip');
+    const actions = view.querySelector('#card-actions');
+    const front   = view.querySelector('.face.front');
+    const back    = view.querySelector('.face.back');
+
+    const reveal = () => {
+      if (flipped) return;
+      flipped = true;
+      flip.classList.add('is-flipped');
+      flip.setAttribute('aria-label', 'Răspuns afișat');
+      back.removeAttribute('aria-hidden');          // răspunsul devine citibil...
+      front.setAttribute('aria-hidden', 'true');    // ...abia după întoarcere
+
+      /* Butoanele se schimbă la jumătatea rotirii, când cardul e „pe muchie”. */
+      const swapDelay = reduced() ? 0 : 190;
+      setTimeout(() => {
+        if (!flip.isConnected) return;              // ecranul a fost deja înlocuit
+        actions.classList.add('swapped');
+        actions.innerHTML = `
+          <div class="grid2">
+            <button class="btn ghost" data-ans="greu">Mai repet</button>
+            <button class="btn" data-ans="usor">Știu</button>
+          </div>`;
+        actions.querySelectorAll('[data-ans]').forEach(b => b.onclick = () => {
+          const st = state.carduri[c.key] || { usor: 0, greu: 0 };
+          st[b.dataset.ans]++; state.carduri[c.key] = st; save();
+          deckPos++; flipped = false; drawCard();
+        });
+      }, swapDelay);
+    };
+
+    view.querySelector('#intoarce').onclick = reveal;
+    flip.onclick = reveal;
+    flip.onkeydown = e => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); reveal(); }
+    };
+    paint(true);                                    // cardul următor intră cu cascadă proprie
   }
 
   /* ---------- test grilă ---------- */
@@ -277,13 +430,14 @@
       state.teste[qId] = { procent, cand: Date.now() }; save();
       view.innerHTML = `<div class="card">
         <h3>Rezultat: ${qScor}/${quiz.length} (${procent}%)</h3>
-        <div class="bar"><i style="width:${procent}%"></i></div>
+        <div class="bar"><i style="--p:${procent / 100}"></i></div>
         ${prec ? `<p class="muted" style="margin-top:10px">Anterior: ${prec.procent}%</p>` : ''}
         <button class="btn" id="reia">Reia testul</button>
         <button class="btn ghost" data-go="#/acasa">Acasă</button>
       </div>`;
       view.querySelector('#reia').onclick = () => viewTest(qId === 'toate' ? undefined : qId);
       bindGo();
+      paint(true);
       return;
     }
     const q = quiz[qPos];
@@ -296,6 +450,9 @@
       const i = Number(b.dataset.i);
       view.querySelectorAll('.opt').forEach((x, xi) => {
         x.disabled = true;
+        /* .enter trebuie scos ÎNAINTE de .correct/.wrong: animația de cascadă,
+           încă activă cu fill-mode both, ar bloca pulsul și scuturatul. */
+        x.classList.remove('enter');
         if (xi === q.corect) x.classList.add('correct');
         else if (xi === i) x.classList.add('wrong');
       });
@@ -305,6 +462,7 @@
          <button class="btn" id="next">${qPos + 1 === quiz.length ? 'Vezi rezultatul' : 'Următoarea'}</button></div>`;
       view.querySelector('#next').onclick = () => { qPos++; drawQ(); };
     });
+    paint(true);          // întrebarea următoare intră în cascadă, fără schimbare de rută
   }
 
   /* ---------- plan de învățământ ---------- */
@@ -335,7 +493,7 @@
     view.querySelectorAll('[data-go]').forEach(b => b.onclick = () => { location.hash = b.dataset.go; });
   }
 
-  document.querySelectorAll('.tab').forEach(t => t.onclick = () => { location.hash = '#/' + t.dataset.route; });
+  tabs.forEach(t => t.onclick = () => { location.hash = '#/' + t.dataset.route; });
   backBtn.onclick = () => history.back();
   window.addEventListener('hashchange', render);
 

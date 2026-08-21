@@ -16,6 +16,24 @@ editabil și poate fi adaptat oricărei alte școli.
 - **Progres** — câte lecții ai parcurs, media la teste.
 - **Funcționează complet offline** și se instalează pe telefon ca aplicație.
 
+## Designul — versiunea 01, „Sticlă caldă”
+
+Aplicația are un sistem de design propriu: **glassmorphism cald + neomorfism**, cu animații
+în stil iOS. Regula care ține totul laolaltă:
+
+> **Adâncimea aparține conținutului. Transparența aparține cadrului.**
+> Ce plutește *peste* conținut e sticlă mată (bara de sus, bara de taburi).
+> Ce *este* conținut e relief neomorfic (carduri, butoane, chipsuri, opțiuni).
+> Niciodată amândouă pe același element.
+
+Paleta e caldă — nisip, smântână, lut, teracotă, chihlimbar — cu o temă întunecată tot caldă
+(espresso, nu negru-albăstrui). Tot contrastul de text e verificat la nivel WCAG AA.
+Mișcarea folosește curbele reale din iOS, iar `prefers-reduced-motion`,
+`prefers-contrast: more` și `prefers-reduced-transparency` sunt tratate explicit.
+
+Documentația completă a sistemului e în vaultul Obsidian din [`vault/`](vault/) — vezi
+`vault/20-Design/`. Jurnalul de lucru e în [`jurnal.md`](jurnal.md).
+
 ## Tehnologii
 
 HTML + CSS + JavaScript simplu. **Zero dependențe, zero pas de build.** Fișierele din repo
@@ -36,15 +54,18 @@ python3 -m http.server 8765
 | Cale | Rol |
 |---|---|
 | `index.html` | scheletul paginii și bara de navigare |
-| `assets/app.css` | stilurile (temă deschisă și întunecată automat) |
+| `assets/app.css` | stilurile, în patru straturi: tokeni → tokeni derivați → componente → mișcare |
 | `assets/app.js` | toată logica: rutare, lecții, carduri, test, progres |
 | `sw.js` | service worker — cache offline |
 | `manifest.webmanifest` | metadatele de instalare (nume, icoane, culori) |
-| `icons/` | icoanele aplicației |
+| `icons/` | icoanele aplicației (PNG generate din `icon-source.svg`) |
 | `data/curriculum.json` | planul de învățământ: clase și discipline |
 | `data/continut.json` | lecțiile, cardurile și întrebările de test |
 | `_headers` | anteturi HTTP pentru Cloudflare Pages |
 | `docs/PLAN.md` | planul complet de realizare și pașii de publicare |
+| `jurnal.md` | jurnalul de lucru: ce s-a făcut, de ce, cu ce rezultat |
+| `vault/` | vault Obsidian: sistemul de design, arhitectura, verificările |
+| `icons/icon-source.svg` | sursa vectorială din care se regenerează iconițele |
 
 ## Cum adaugi conținut
 
@@ -64,7 +85,7 @@ Editezi `data/continut.json`. Nu e nevoie să atingi codul.
 
 `corect` este **indexul** răspunsului corect, numărat de la 0 (deci `1` = a doua variantă).
 
-După orice modificare a fișierelor, **crește versiunea din `sw.js`** (`stiinte01-v1` → `stiinte01-v2`),
+După orice modificare a fișierelor, **crește versiunea din `sw.js`** (de exemplu `stiinte01-v2` → `stiinte01-v3`),
 altfel utilizatorii care au deja aplicația instalată vor primi în continuare versiunea veche din cache.
 
 ## Publicare

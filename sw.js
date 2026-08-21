@@ -1,6 +1,6 @@
 /* Service worker: precache + strategii de cache.
    IMPORTANT: crește CACHE la fiecare modificare a fișierelor, ca utilizatorii să primească versiunea nouă. */
-const CACHE = 'stiinte01-v1';
+const CACHE = 'stiinte01-v2';   // v01 „Sticlă caldă” — redesign complet
 const ASSETS = [
   './',
   './index.html',

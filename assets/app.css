@@ -1,92 +1,1342 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   ȘTIINȚE SOCIALE — foaia de stil a aplicației.  Versiunea 01, „Sticlă caldă”.
+
+   Fișierul e împărțit în patru straturi, în ordinea în care trebuie citite.
+   Ordinea NU e decorativă: stratul 3 suprascrie intenționat câteva reguli
+   din stratul 2, deci trebuie să rămână ultimul.
+
+     1   TOKENI          paleta caldă, sticla, relieful, tipografia, spațierea
+     1b  TOKENI DERIVAȚI puntea dintre paletă și componente (fără culori noi)
+     2   COMPONENTE      fiecare element vizibil al aplicației
+     3   MIȘCARE         curbele, tranzițiile de ecran, feedbackul la atingere
+
+   Regula care ține totul laolaltă:
+     „Adâncimea aparține conținutului. Transparența aparține cadrului.”
+     Ce plutește PESTE conținut e sticlă (bara de sus, bara de taburi).
+     Ce ESTE conținut e relief neomorfic (carduri, butoane, chipsuri).
+     Niciodată amândouă pe același element.
+
+   Fără dependențe, fără pas de build, fără fonturi externe, fără imagini.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* ============================================================================
+   STRAT 1 — TOKENI · „Lumină de după-amiază” (glassmorphism cald + neumorfism)
+   Fără dependențe, fără build, fără fonturi externe, fără imagini.
+
+   ── REGULA HIBRIDĂ (obligatorie, nu opțională) ─────────────────────────────
+   STICLĂ  = doar suprafețele care PLUTESC PESTE conținut și trebuie să lase
+             conținutul să se ghicească dedesubt: .topbar, .tabbar, foi, overlay-uri.
+   NEUMORF = doar suprafețele care SUNT conținut, stau ÎN pagină și se apasă:
+             .card, .btn, .chip, .opt, .bar, .flash, celule de tabel.
+   NICIODATĂ amândouă pe același element. Sticla se justifică doar dacă are ce
+   să estompeze (de aici gradientul ambiental). Neumorfismul se citește ca
+   „apăsabil” tocmai pentru că e OPAC și nemișcat.
+
+   ── CONTRAST (motivul pentru care neumorfismul nu pică la accesibilitate) ──
+   Adâncimea neumorfică descrie DOAR conturul containerului. Lizibilitatea o
+   duce exclusiv perechea ink/surface: --ink pe orice suprafață ≥ 12:1,
+   --ink-muted pe orice suprafață ≥ 4.7:1. Nu se scrie text pe umbre.
+   ========================================================================= */
+
 :root{
-  --bg:#f4f6f9; --card:#ffffff; --ink:#12202e; --muted:#5b6b7c;
-  --line:#dde4ec; --brand:#1c3d5a; --brand-ink:#ffffff;
-  --accent:#c2703a; --ok:#1f7a4d; --bad:#b3261e;
-  --radius:14px; --shadow:0 1px 2px rgba(16,32,48,.06),0 4px 14px rgba(16,32,48,.06);
-  --safe-b:env(safe-area-inset-bottom,0px);
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     1. PALETA CALDĂ — TEMA LUMINOASĂ
+     Nisip / lut / teracotă / chihlimbar / smântână. Zero navy, zero gri-rece:
+     fiecare neutru are hue 25–40° (portocaliu-cald), nu 210° (albastru).
+     ───────────────────────────────────────────────────────────────────────── */
+
+  /* Suprafețe (trei niveluri: îngropat < bază < ridicat) */
+  --surface-base:    #F7EEE2;  /* nisip — fundalul paginii */
+  --surface-raised:  #FDF6EC;  /* smântână — carduri, butoane, foi */
+  --surface-sunken:  #EDE0CE;  /* lut spălat — câmpuri, tracks, zone inactive */
+  --surface-overlay: #FBF2E6;  /* opac de rezervă când sticla nu e disponibilă */
+
+  /* Cerneală */
+  --ink:        #2A1C12;  /* espresso — text principal */
+  --ink-muted:  #6E5847;  /* lut cenușiu cald — text secundar, .muted, th */
+  --ink-faint:  #9A8271;  /* doar decorativ */
+
+  /* Linii */
+  --hairline:        #E0CDB6;  /* 1px cald, nu gri */
+  --hairline-strong: #D2B896;  /* pentru prefers-contrast: more */
+
+  /* Culori de brand și semantice */
+  --brand:       #9E4119;  /* teracotă arsă — identitatea aplicației */
+  --brand-ink:   #FFF7EF;  /* text pe fundal de brand */
+  --brand-soft:  rgba(158,65,25,.10);
+  --accent:      #B4761A;  /* chihlimbar — umpluturi, .pill, .badge */
+  --accent-text: #8A5410;  /* varianta SIGURĂ pentru text pe suprafață */
+  --accent-ink:  #241004;  /* text pe umplutură de chihlimbar */
+  --accent-soft: rgba(180,118,26,.12);
+  --ok:          #3F6B2E;  /* mușchi cald — corect, progres */
+  --ok-ink:      #FFFFFF;
+  --ok-soft:     rgba(63,107,46,.14);
+  --bad:         #A32218;  /* roșu-rugină — greșit, erori */
+  --bad-ink:     #FFFFFF;
+  --bad-soft:    rgba(163,34,24,.12);
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     2. FUNDAL AMBIENTAL (mesh pur CSS)
+     Rol dublu: căldura vizuală + „materia primă” pe care o estompează sticla.
+     `fixed` e important: la scroll, sticla vede pete diferite → pare reală.
+     ───────────────────────────────────────────────────────────────────────── */
+  --ambient:
+    radial-gradient(1100px 640px at  6% -8%, #FFE9C6 0%, rgba(255,233,198,0) 62%),
+    radial-gradient( 920px 720px at 104%  2%, #F6D3B4 0%, rgba(246,211,180,0) 58%),
+    radial-gradient( 780px 640px at  48% 106%, #F3DCC0 0%, rgba(243,220,192,0) 60%),
+    linear-gradient(180deg, #FAF2E7 0%, #F5EADB 100%);
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     3. NEUMORFISM — umbrele DERIVĂ din culoarea suprafeței
+     Sursa de lumină: stânga-sus (offset negativ = lumină, pozitiv = umbră).
+     Triplete RGB, ca să le putem re-alfa în blocurile de temă.
+     ───────────────────────────────────────────────────────────────────────── */
+  --nm-l: 255,253,247;   /* #FFFDF7 */
+  --nm-d: 172,133,90;    /* #AC855A — umbră CALDĂ, niciodată neagră */
+
+  --nm-raised:
+      -7px -7px 16px rgba(var(--nm-l),.95),
+       7px  7px 18px rgba(var(--nm-d),.22);
+  --nm-subtle:
+      -3px -3px  8px rgba(var(--nm-l),.85),
+       3px  3px  9px rgba(var(--nm-d),.15);
+  --nm-pressed:
+      inset -4px -4px 10px rgba(var(--nm-l),.70),
+      inset  5px  5px 12px rgba(var(--nm-d),.30);
+  --nm-flat:
+      0 0 0 1px var(--hairline),
+      0 1px 2px rgba(var(--nm-d),.10);
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     4. GLASSMORPHISM
+     ───────────────────────────────────────────────────────────────────────── */
+  --glass-bg:       rgba(255,247,236,.62);   /* tentă caldă semi-transparentă */
+  --glass-bg-solid: var(--surface-overlay);  /* echivalentul OPAC de rezervă  */
+  --glass-blur:     blur(20px) saturate(180%);
+  --glass-border:   rgba(255,252,246,.72);   /* 1px care „vinde” sticla       */
+  --glass-shadow:
+      0 8px 30px rgba(90,58,32,.14),
+      inset 0 1px 0 rgba(255,255,255,.62);   /* muchia luminoasă de sus       */
+  --glass-specular:
+      linear-gradient(155deg,
+        rgba(255,255,255,.55)  0%,
+        rgba(255,255,255,.12) 36%,
+        rgba(255,255,255,0)   62%);
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     5. TIPOGRAFIE — doar fonturi de sistem, -apple-system primul (senzație iOS)
+     Scară modulară, rație 1.2 (minor third), bază 16px.
+     ───────────────────────────────────────────────────────────────────────── */
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui,
+               "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas,
+               "Liberation Mono", monospace;
+
+  --fs-100: 0.694rem;  /* 11.1px — micro-etichete, .tab, .pill */
+  --fs-200: 0.833rem;  /* 13.3px — .muted, th, legende */
+  --fs-250: 0.900rem;  /* 14.4px — tabele, .btn.sm */
+  --fs-300: 1rem;      /*   16px — corp de text (nu coborî sub atât) */
+  --fs-400: 1.200rem;  /* 19.2px — h3, text de card flash */
+  --fs-500: 1.440rem;  /*   23px — h2 */
+  --fs-600: 1.728rem;  /* 27.6px — h1 / titluri de ecran */
+  --fs-700: 2.074rem;  /* 33.2px — cifre-erou (scor, procent) */
+
+  --lh-tight: 1.22;    /* titluri */
+  --lh-snug:  1.38;    /* subtitluri, butoane */
+  --lh-base:  1.55;    /* corp */
+  --lh-loose: 1.7;     /* pasaje lungi de lecție */
+
+  --fw-regular: 400;
+  --fw-medium:  520;
+  --fw-semi:    620;
+  --fw-bold:    720;
+
+  --track-tight: -0.015em;  /* titluri mari — iOS strânge tracking-ul */
+  --track-base:   0;
+  --track-wide:   0.045em;  /* etichete majuscule, th */
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     6. SPAȚIERE — grilă de 4px, cu două trepte fine sub ea
+     ───────────────────────────────────────────────────────────────────────── */
+  --sp-0:  0;      --sp-1:  2px;   --sp-2:  4px;   --sp-3:  6px;
+  --sp-4:  8px;    --sp-5: 12px;   --sp-6: 16px;   --sp-7: 20px;
+  --sp-8: 24px;    --sp-9: 32px;   --sp-10:40px;   --sp-11:48px;
+  --sp-12:64px;
+
+  --gutter:    var(--sp-6);   /* marginea laterală a ecranului */
+  --stack:     var(--sp-5);   /* distanța verticală dintre carduri */
+  --pad-card:  var(--sp-7);   /* interiorul unui card neumorfic */
+  --measure:   68ch;          /* lungime maximă de rând pentru lecții */
+  --view-max:  760px;
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     7. RAZE — colțuri iOS, continue și generoase
+     Regulă de imbricare: raza_interioară = raza_exterioară − padding.
+     ───────────────────────────────────────────────────────────────────────── */
+  --r-1:  10px;   /* elemente mici în interiorul cardurilor */
+  --r-2:  14px;   /* .btn.sm, .badge */
+  --r-3:  18px;   /* .btn, .opt */
+  --r-4:  24px;   /* .card — raza „semnătură” */
+  --r-5:  30px;   /* .flash, carduri-erou */
+  --r-6:  38px;   /* foi modale, tabbar flotant */
+  --r-pill: 999px;/* .chip, .pill, .bar */
+  --r-squircle: var(--r-5);
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     8. STRATURI ȘI ZONE SIGURE (curbele de mișcare sunt în stratul 3)
+     ───────────────────────────────────────────────────────────────────────── */
+  --z-base: 0; --z-raised: 10; --z-chrome: 20; --z-sheet: 30; --z-toast: 40;
+
+  --safe-t: env(safe-area-inset-top,0px);
+  --safe-b: env(safe-area-inset-bottom,0px);
+  --safe-l: env(safe-area-inset-left,0px);
+  --safe-r: env(safe-area-inset-right,0px);
+
+  --focus-ring: 0 0 0 3px rgba(158,65,25,.34), 0 0 0 1px var(--brand);
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     9. PUNTE DE COMPATIBILITATE cu numele vechi din app.css
+     ───────────────────────────────────────────────────────────────────────── */
+  --bg:     var(--surface-base);
+  --card:   var(--surface-raised);
+  --muted:  var(--ink-muted);
+  --line:   var(--hairline);
+  --radius: var(--r-4);
+  --shadow: var(--nm-raised);
 }
-@media (prefers-color-scheme:dark){
+
+/* ===========================================================================
+   10. TEMA ÎNTUNECATĂ — cărbune cald / espresso, NU negru-albastru.
+   Fiecare neutru păstrează hue ~25°. Umbrele neumorfice se RECALCULEAZĂ:
+   pe întuneric „lumina” nu mai e albă, ci o ridicare caldă slabă.
+   =========================================================================== */
+@media (prefers-color-scheme: dark){
   :root{
-    --bg:#0f1720; --card:#18222e; --ink:#e8eef5; --muted:#9fb0c2;
-    --line:#263444; --brand:#7fb2dd; --brand-ink:#0f1720;
-    --accent:#e0955e; --ok:#5fd39b; --bad:#ff8a80;
-    --shadow:0 1px 2px rgba(0,0,0,.4),0 4px 14px rgba(0,0,0,.3);
+    --surface-base:    #191310;   /* espresso */
+    --surface-raised:  #241B15;   /* cafea cu lapte foarte închisă */
+    --surface-sunken:  #120D0A;   /* aproape negru, dar cald */
+    --surface-overlay: #281E17;
+
+    --ink:        #F4E7D6;   /* smântână */
+    --ink-muted:  #B49A80;   /* lut deschis */
+    --ink-faint:  #8A735E;
+
+    --hairline:        #3A2A20;
+    --hairline-strong: #57402F;
+
+    --brand:       #EE9068;   /* teracota se deschide ca să reziste pe fundal închis */
+    --brand-ink:   #2A1206;
+    --brand-soft:  rgba(238,144,104,.14);
+    --accent:      #E7B267;
+    --accent-text: #E7B267;
+    --accent-ink:  #23150A;
+    --accent-soft: rgba(231,178,103,.14);
+    --ok:          #8CC96E;
+    --ok-ink:      #16240E;
+    --ok-soft:     rgba(140,201,110,.16);
+    --bad:         #FF9C85;
+    --bad-ink:     #2E0C05;
+    --bad-soft:    rgba(255,156,133,.15);
+
+    /* Mesh ambiental nocturn: aceleași centre, jar în loc de soare */
+    --ambient:
+      radial-gradient(1100px 640px at  6% -8%, #2E2016 0%, rgba(46,32,22,0) 62%),
+      radial-gradient( 920px 720px at 104%  2%, #2B1B18 0%, rgba(43,27,24,0) 58%),
+      radial-gradient( 780px 640px at  48% 106%, #241A13 0%, rgba(36,26,19,0) 60%),
+      linear-gradient(180deg, #1B1411 0%, #140F0C 100%);
+
+    /* Neumorfism recalculat pentru suprafața #241B15 */
+    --nm-l: 92,70,52;      /* #5C4634 — ridicare caldă, nu alb */
+    --nm-d: 0,0,0;         /* umbra pe întuneric e beznă curată */
+    --nm-raised:
+        -7px -7px 16px rgba(var(--nm-l),.36),
+         7px  7px 18px rgba(var(--nm-d),.58);
+    --nm-subtle:
+        -3px -3px  8px rgba(var(--nm-l),.28),
+         3px  3px  9px rgba(var(--nm-d),.45);
+    --nm-pressed:
+        inset -4px -4px 10px rgba(var(--nm-l),.30),
+        inset  5px  5px 12px rgba(var(--nm-d),.62);
+    --nm-flat:
+        0 0 0 1px var(--hairline),
+        0 1px 2px rgba(var(--nm-d),.40);
+
+    /* Sticlă nocturnă: tentă de espresso, muchie chihlimbarie foarte discretă */
+    --glass-bg:     rgba(46,34,26,.58);
+    --glass-blur:   blur(22px) saturate(160%);
+    --glass-border: rgba(255,214,170,.16);
+    --glass-shadow:
+        0 10px 34px rgba(0,0,0,.52),
+        inset 0 1px 0 rgba(255,222,186,.10);
+    --glass-specular:
+        linear-gradient(155deg,
+          rgba(255,224,188,.14)  0%,
+          rgba(255,224,188,.04) 34%,
+          rgba(255,224,188,0)   60%);
+
+    --focus-ring: 0 0 0 3px rgba(238,144,104,.34), 0 0 0 1px var(--brand);
   }
 }
+
+/* ===========================================================================
+   11. FALLBACK STICLĂ — browsere fără backdrop-filter.
+   Sticla devine o suprafață caldă OPACĂ. Nu se pierde ierarhia, fiindcă
+   separarea o duc muchia + umbra, nu transparența.
+   =========================================================================== */
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))){
+  :root{
+    --glass-bg:       var(--glass-bg-solid);
+    --glass-blur:     none;
+    --glass-specular: none;
+    --glass-shadow:   0 6px 22px rgba(90,58,32,.16);
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --glass-shadow: 0 8px 26px rgba(0,0,0,.55); }
+  }
+}
+
+/* ===========================================================================
+   12. TRANSPARENȚĂ REDUSĂ — utilizatorul a cerut explicit suprafețe opace.
+   =========================================================================== */
+@media (prefers-reduced-transparency: reduce){
+  :root{
+    --glass-bg:       var(--glass-bg-solid);
+    --glass-blur:     none;
+    --glass-specular: none;
+    --glass-border:   var(--hairline);
+    --glass-shadow:   0 4px 18px rgba(90,58,32,.14);
+    --ambient:        none;   /* fundal plat: nu mai are ce estompa */
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --glass-shadow: 0 6px 20px rgba(0,0,0,.55); }
+  }
+}
+
+/* ===========================================================================
+   13. CONTRAST RIDICAT — aici neumorfismul cedează primul.
+   Umbrele moi dispar, granițele devin linii de 1px reale, textul secundar urcă.
+   =========================================================================== */
+@media (prefers-contrast: more){
+  :root{
+    --ink-muted:  #5A4536;                 /* 7.82:1 pe nisip */
+    --hairline:   var(--hairline-strong);
+    --nm-raised:  0 0 0 1px var(--hairline), 0 2px 6px rgba(var(--nm-d),.18);
+    --nm-subtle:  0 0 0 1px var(--hairline);
+    --nm-pressed: inset 0 0 0 2px var(--hairline);
+    --nm-flat:    0 0 0 1px var(--hairline);
+    --glass-bg:       var(--glass-bg-solid);
+    --glass-blur:     none;
+    --glass-specular: none;
+    --glass-border:   var(--hairline-strong);
+    --ambient:        none;
+    --focus-ring: 0 0 0 3px var(--surface-base), 0 0 0 6px var(--brand);
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --ink-muted: #D2BCA2;                /* 10.03:1 pe espresso */
+    }
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   STRAT 1b — TOKENI DERIVAȚI (puntea dintre paletă și componente)
+   Cei trei designeri au lucrat în paralel, cu convenții de nume diferite.
+   Aici totul se reduce la o singură sursă de adevăr: paleta din stratul 1.
+   Nicio culoare nouă nu se inventează aici — doar variante și opacități
+   derivate din tokenurile canonice de mai sus.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+:root{
+  /* Dimensiunile cromului plutitor ------------------------------------------ */
+  --topbar-h:          56px;
+  --topbar-h-compact:  46px;   /* telefon în peisaj */
+  --tabbar-h:          66px;
+  --tabbar-h-compact:  54px;
+  --tabbar-pad:         6px;   /* rama de sticlă din jurul tab-urilor */
+
+  /* Alias-uri de rază (numele folosite în stratul de componente) ------------ */
+  --r-sm: var(--r-1);
+  --r-md: var(--r-3);
+  --r-lg: var(--r-4);
+  --r-xl: var(--r-5);
+
+  /* Alias-uri de relief ----------------------------------------------------- */
+  --nm-inset: var(--nm-pressed);
+  --surface:  var(--surface-overlay);   /* suprafața opacă de rezervă */
+
+  /* Sticlă: variantele cerute de componente --------------------------------- */
+  --glass-bg-strong:   rgba(255,248,238,.78);  /* sticlă mai densă: card, buton-icoană */
+  --glass-highlight:   rgba(255,255,255,.62);  /* firul de lumină din muchia de sus */
+  --glass-inner-shadow:rgba(120,80,45,.10);    /* muchia de jos, dinspre interior */
+
+  /* Trepte deschise de gradient + halouri ----------------------------------- */
+  --brand-2:  #B24E22;                 /* capătul luminos al gradientului de brand */
+  --brand-glow: rgba(158,65,25,.55);
+  --accent-2: #D18F2B;                 /* capătul luminos al chihlimbarului */
+  --accent-glow: rgba(180,118,26,.40);
+  --accent-halo: rgba(180,118,26,.16);
+  --amber:    #E9B45C;                 /* capătul cald al barei de progres */
+
+  /* Stări semantice — fundal, contur, halou, text ---------------------------
+     Textul NU e --ok-ink/--bad-ink (alea sunt pentru umplutură plină), ci o
+     variantă închisă, verificată pe fundalul compus.                        */
+  --ok-bg:    rgba(63,107,46,.13);
+  --ok-line:  rgba(63,107,46,.42);
+  --ok-glow:  rgba(63,107,46,.45);
+  --ok-halo:  rgba(63,107,46,.18);
+  --ok-text:  #2F5222;                 /* 6.95:1 pe --ok-bg compus */
+
+  --bad-bg:   rgba(163,34,24,.11);
+  --bad-line: rgba(163,34,24,.38);
+  --bad-glow: rgba(163,34,24,.45);
+  --bad-halo: rgba(163,34,24,.16);
+  --bad-text: #7E1A12;                 /* 7.99:1 pe --bad-bg compus */
+
+  /* Umbre profunde, tentă de hover, focus ----------------------------------- */
+  --shadow-deep: rgba(90,58,32,.50);
+  --hover-tint:  rgba(158,65,25,.05);
+  --focus:       var(--brand);
+}
+
+@media (prefers-color-scheme: dark){
+  :root{
+    --glass-bg-strong:   rgba(52,39,30,.80);
+    --glass-highlight:   rgba(255,222,186,.11);
+    --glass-inner-shadow:rgba(0,0,0,.32);
+
+    --brand-2:  #F5A882;
+    --brand-glow: rgba(238,144,104,.42);
+    --accent-2: #F2C685;
+    --accent-glow: rgba(231,178,103,.32);
+    --accent-halo: rgba(231,178,103,.14);
+    --amber:    #F3CE8E;
+
+    --ok-bg:    rgba(140,201,110,.15);
+    --ok-line:  rgba(140,201,110,.40);
+    --ok-glow:  rgba(140,201,110,.40);
+    --ok-halo:  rgba(140,201,110,.20);
+    --ok-text:  #B9DFA0;               /* 8.42:1 pe --ok-bg compus */
+
+    --bad-bg:   rgba(255,156,133,.15);
+    --bad-line: rgba(255,156,133,.38);
+    --bad-glow: rgba(255,156,133,.38);
+    --bad-halo: rgba(255,156,133,.20);
+    --bad-text: #FFB9A8;               /* 7.63:1 pe --bad-bg compus */
+
+    --shadow-deep: rgba(0,0,0,.70);
+    --hover-tint:  rgba(238,144,104,.07);
+  }
+}
+
+/* La transparență redusă și la contrast ridicat sticla „densă” devine opacă. */
+@media (prefers-reduced-transparency: reduce){
+  :root{ --glass-bg-strong: var(--surface-raised) }
+}
+@media (prefers-contrast: more){
+  :root{ --glass-bg-strong: var(--surface-raised); --glass-highlight: transparent }
+}
+/* ═══════════════════════════════════════════════════════════════
+   STRAT 2 — COMPONENTE
+   Sticlă caldă (cromul plutitor) + relief neumorfic (conținutul).
+   Vine DUPĂ stratul de tokeni. Înlocuiește integral vechile reguli.
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ── 0. Bază ─────────────────────────────────────────────────── */
+
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
+html{
+  -webkit-text-size-adjust:100%;
+  /* topbar-ul e fix, deci ancorele nu trebuie să intre sub el */
+  scroll-padding-top:calc(var(--topbar-h) + var(--safe-t) + var(--sp-5));
+}
 body{
-  background:var(--bg); color:var(--ink);
-  font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  min-height:100svh;
+  color:var(--ink);
+  font:var(--fs-300)/var(--lh-base) var(--font-sans);
   -webkit-font-smoothing:antialiased;
-  padding-bottom:calc(74px + var(--safe-b));
+  text-rendering:optimizeLegibility;
+  /* lumină caldă, joasă — și „materia primă” pe care o estompează sticla */
+  background:var(--surface-base);
+  background-image:var(--ambient);
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  /* spațiu pentru cromul plutitor: sus bara fixă, jos bara-pilulă */
+  padding-top:calc(var(--topbar-h) + var(--safe-t));
+  padding-bottom:calc(var(--tabbar-h) + var(--safe-b) + var(--sp-7));
 }
+
+/* animăm poziția indicatorului de tab ca număr, nu ca salt discret */
+@property --tab-i{ syntax:"<number>"; inherits:true; initial-value:0; }
+
+/* ── 1. Topbar — sticlă mată, conținutul curge pe dedesubt ────── */
+/* Concept: o lamelă de sticlă caldă lipită de marginea de sus;
+   pagina trece pe sub ea, iar un fir de lumină îi marchează muchia. */
+
 .topbar{
-  position:sticky; top:0; z-index:10; display:flex; align-items:center; gap:10px;
-  padding:14px 16px calc(14px + env(safe-area-inset-top,0px));
-  padding-top:calc(14px + env(safe-area-inset-top,0px));
-  background:var(--brand); color:var(--brand-ink);
+  position:fixed; top:0; left:0; right:0; z-index:var(--z-chrome);
+  display:flex; align-items:center; gap:var(--sp-5);
+  height:calc(var(--topbar-h) + var(--safe-t));
+  padding:var(--safe-t) var(--sp-6) 0;
+  color:var(--ink);
+  background:var(--glass-bg);
+  -webkit-backdrop-filter:var(--glass-blur);
+          backdrop-filter:var(--glass-blur);
+  border-bottom:1px solid var(--glass-border);
+  box-shadow:var(--glass-shadow);
 }
-.topbar h1{font-size:1.05rem; margin:0; font-weight:650; letter-spacing:.2px; flex:1}
+.topbar h1{
+  flex:1 1 auto; min-width:0; margin:0;
+  font-size:1.0625rem; font-weight:var(--fw-semi); letter-spacing:var(--track-tight);
+  white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+
+/* ── 2. Buton-icoană (înapoi) — pastilă de sticlă, țintă 44×44 ── */
+
 .icon-btn{
-  background:rgba(255,255,255,.15); color:inherit; border:0; border-radius:9px;
-  width:34px; height:34px; font-size:1.1rem; cursor:pointer;
+  flex:0 0 auto; display:grid; place-items:center;
+  width:44px; height:44px; margin-left:calc(var(--sp-4) * -1);
+  padding:0; border:1px solid var(--glass-border); border-radius:var(--r-pill);
+  background:var(--glass-bg-strong); color:var(--ink);
+  box-shadow:var(--nm-subtle);
+  font:inherit; cursor:pointer; -webkit-tap-highlight-color:transparent;
+  transition:transform var(--dur-fast) var(--ease-ios),
+             box-shadow var(--dur-fast) var(--ease-ios);
 }
-.badge{background:var(--accent); color:#fff; font-size:.7rem; padding:3px 8px; border-radius:99px; font-weight:600}
-.view{padding:16px; max-width:760px; margin:0 auto; outline:none}
-h2{font-size:1.15rem; margin:22px 0 10px}
-h2:first-child{margin-top:4px}
-h3{font-size:1rem; margin:0 0 6px}
-p{margin:0 0 10px}
-.muted{color:var(--muted); font-size:.87rem}
+.icon-btn svg{width:22px;height:22px;display:block}
+.icon-btn:active{transform:scale(.9); box-shadow:var(--nm-pressed)}
+.icon-btn[hidden]{display:none}   /* [hidden] trebuie să bată display:grid */
+
+/* ── 3. Badge „offline” — pastilă de chihlimbar cu punct pulsant ─ */
+
+.badge{
+  flex:0 0 auto; display:inline-flex; align-items:center; gap:.42em;
+  min-height:26px; padding:0 .72em;
+  border-radius:var(--r-pill);
+  font-size:var(--fs-100); font-weight:var(--fw-bold);
+  letter-spacing:var(--track-wide); text-transform:uppercase;
+  color:var(--accent-ink);
+  background:linear-gradient(180deg,var(--accent-2),var(--accent));
+  box-shadow:0 1px 0 var(--glass-highlight) inset, 0 3px 10px var(--accent-glow);
+}
+.badge::before{
+  content:""; width:6px; height:6px; border-radius:50%;
+  background:currentColor; opacity:.85;
+  animation:pulse 2.4s var(--ease-ios) infinite;
+}
+@keyframes pulse{0%,100%{opacity:.85}50%{opacity:.3}}
+.badge[hidden]{display:none}
+
+/* ── 4. Coloana de conținut + tipografie ─────────────────────── */
+
+.view{
+  width:100%; max-width:var(--view-max); margin:0 auto;
+  padding:var(--sp-6) var(--sp-6) var(--sp-4);
+  outline:none;
+}
+.view:focus,.view:focus-visible{outline:none} /* focus programatic, nu-l inelăm */
+
+/* h2 = antet de secțiune în stil „grouped list” iOS */
+h2{
+  margin:var(--sp-8) 0 var(--sp-5);
+  font-size:.78rem; font-weight:var(--fw-bold);
+  letter-spacing:.1em; text-transform:uppercase;
+  color:var(--ink-muted);
+}
+h2:first-child{margin-top:var(--sp-2)}
+h3{margin:0 0 var(--sp-2); font-size:var(--fs-300); font-weight:var(--fw-semi); letter-spacing:-.008em}
+p{margin:0 0 var(--sp-5)}
+.muted{color:var(--ink-muted); font-size:var(--fs-200)}
+a{color:var(--brand); text-underline-offset:3px; text-decoration-thickness:1.5px}
+code{
+  padding:.12em .42em; border-radius:var(--r-sm);
+  background:var(--surface-sunken); box-shadow:var(--nm-inset);
+  font-size:.88em; font-family:var(--font-mono);
+}
+/* subtitlul de deasupra unui ecran (contor de card / întrebare) */
+.view > p.muted:first-child{margin:0 0 var(--sp-5); font-size:.82rem}
+
+/* ── 5. Card — placă neumorfică ridicată, cu luciu în muchia de sus */
+
 .card{
-  background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
-  padding:15px; margin:0 0 12px; box-shadow:var(--shadow);
+  position:relative;
+  margin:0 0 var(--sp-5); padding:var(--sp-6);
+  border:1px solid var(--line); border-radius:var(--r-lg);
+  background-color:var(--surface-raised);
+  background-image:linear-gradient(180deg,var(--glass-highlight) 0%,transparent 38%);
+  box-shadow:var(--nm-raised);
 }
-.card.tap{cursor:pointer; display:block; width:100%; text-align:left; font:inherit; color:inherit}
-.card.tap:active{transform:scale(.995)}
-.row{display:flex; align-items:center; gap:10px; justify-content:space-between}
-.chips{display:flex; flex-wrap:wrap; gap:7px; margin:10px 0}
+.card > :last-child{margin-bottom:0}
+
+/* card apăsabil: se scufundă, nu clipește */
+.card.tap{
+  display:block; width:100%; text-align:left; font:inherit; color:inherit;
+  cursor:pointer; -webkit-tap-highlight-color:transparent;
+  transition:transform var(--dur-fast) var(--ease-ios),
+             box-shadow var(--dur-fast) var(--ease-ios);
+}
+.card.tap:active{transform:scale(.978); box-shadow:var(--nm-pressed)}
+
+/* săgeată de navigare doar pe cardurile-listă (nu pe dalele din .grid2) */
+.view > .card.tap{padding-right:calc(var(--sp-6) + 16px)}
+.view > .card.tap::after{
+  content:""; position:absolute; right:var(--sp-6); top:50%;
+  width:8px; height:8px; margin-top:-4px;
+  border-right:2px solid var(--ink-muted); border-top:2px solid var(--ink-muted);
+  border-radius:1px; transform:rotate(45deg); opacity:.65;
+  transition:transform var(--dur-fast) var(--ease-ios);
+}
+.view > .card.tap:active::after{transform:rotate(45deg) translate(2px,-2px)}
+
+/* ── 6. Rânduri, grile, liste ───────────────────────────────── */
+
+.row{display:flex; align-items:center; gap:var(--sp-5); justify-content:space-between; flex-wrap:wrap}
+.row h3{margin:0; flex:1 1 auto; min-width:0}
+
+.grid2{display:grid; grid-template-columns:1fr 1fr; gap:var(--sp-5); align-items:stretch}
+.grid2 > .card{margin:0; height:100%}
+.grid2 > .btn{margin-top:0; width:100%}
+
+ul.clean{list-style:none; margin:var(--sp-5) 0 0; padding:0; display:grid; gap:var(--sp-4)}
+ul.clean li{position:relative; padding-left:1.55em}
+ul.clean li::before{         /* bulină de teracotă cu halou cald */
+  content:""; position:absolute; left:.28em; top:.6em;
+  width:7px; height:7px; border-radius:50%;
+  background:linear-gradient(180deg,var(--accent-2),var(--accent));
+  box-shadow:0 0 0 3px var(--accent-halo);
+}
+
+/* ── 7. Chips — pastile neumorfice; selectată = apăsată în brand ─ */
+
+.chips{display:flex; flex-wrap:wrap; gap:var(--sp-4); margin:var(--sp-5) 0}
 .chip{
-  border:1px solid var(--line); background:var(--card); color:var(--ink);
-  border-radius:99px; padding:6px 13px; font-size:.85rem; cursor:pointer;
+  display:inline-flex; align-items:center; min-height:44px; padding:0 var(--sp-6);
+  border:1px solid var(--line); border-radius:var(--r-pill);
+  background-color:var(--surface-raised);
+  background-image:linear-gradient(180deg,var(--glass-highlight),transparent 46%);
+  color:var(--ink); font:inherit; font-size:.9rem; font-weight:var(--fw-semi);
+  box-shadow:var(--nm-subtle); cursor:pointer; -webkit-tap-highlight-color:transparent;
+  transition:transform var(--dur-fast) var(--ease-ios),
+             box-shadow var(--dur-fast) var(--ease-ios),
+             color var(--dur-fast) var(--ease-ios);
 }
-.chip[aria-pressed="true"]{background:var(--brand); color:var(--brand-ink); border-color:var(--brand)}
-.pill{display:inline-block; font-size:.7rem; font-weight:700; padding:2px 8px; border-radius:99px;
-  background:var(--accent); color:#fff; letter-spacing:.3px}
-.pill.soft{background:transparent; color:var(--muted); border:1px solid var(--line)}
+.chip:active{transform:scale(.96); box-shadow:var(--nm-pressed)}
+.chip[aria-pressed="true"]{
+  border-color:transparent; color:var(--brand-ink);
+  background-image:linear-gradient(180deg,var(--brand-2),var(--brand));
+  box-shadow:0 1px 0 var(--glass-highlight) inset, 0 6px 16px -6px var(--brand-glow);
+}
+
+/* ── 8. Pill — insigna BAC (plină) și varianta soft (scufundată) ─ */
+
+.pill{
+  display:inline-flex; align-items:center; vertical-align:middle; translate:0 -1px;
+  padding:.3em .62em; border-radius:var(--r-pill);
+  font-size:.66rem; font-weight:800; letter-spacing:.09em; text-transform:uppercase;
+  color:var(--accent-ink);
+  background:linear-gradient(180deg,var(--accent-2),var(--accent));
+  box-shadow:0 1px 0 var(--glass-highlight) inset, 0 2px 7px var(--accent-glow);
+}
+.pill.soft{
+  padding:.34em .72em;
+  font-size:.72rem; font-weight:700; letter-spacing:.01em; text-transform:none;
+  color:var(--ink-muted); background:var(--surface-sunken);
+  box-shadow:var(--nm-inset);
+}
+
+/* ── 9. Butoane — relief ridicat; apăsarea le împinge în suprafață */
+
 .btn{
-  appearance:none; border:0; border-radius:11px; padding:12px 16px; font:inherit; font-weight:600;
-  background:var(--brand); color:var(--brand-ink); cursor:pointer; width:100%; margin-top:8px;
+  appearance:none; -webkit-appearance:none;
+  display:inline-flex; align-items:center; justify-content:center; gap:var(--sp-4);
+  width:100%; min-height:50px; margin-top:var(--sp-5);
+  padding:var(--sp-5) var(--sp-6);
+  border:0; border-radius:var(--r-md);
+  font:inherit; font-weight:var(--fw-semi); letter-spacing:.005em;
+  color:var(--brand-ink);
+  background-image:linear-gradient(180deg,var(--brand-2),var(--brand));
+  box-shadow:0 1px 0 var(--glass-highlight) inset, var(--nm-raised),
+             0 10px 22px -12px var(--brand-glow);
+  cursor:pointer; -webkit-tap-highlight-color:transparent;
+  transition:transform var(--dur-fast) var(--ease-ios),
+             box-shadow var(--dur-fast) var(--ease-ios),
+             filter var(--dur-fast) var(--ease-ios);
 }
-.btn.ghost{background:transparent; color:var(--ink); border:1px solid var(--line)}
-.btn.sm{width:auto; padding:8px 14px; font-size:.88rem}
-.grid2{display:grid; grid-template-columns:1fr 1fr; gap:10px}
-ul.clean{margin:8px 0 0; padding-left:20px}
-ul.clean li{margin-bottom:5px}
-.bar{height:8px; background:var(--line); border-radius:99px; overflow:hidden; margin-top:8px}
-.bar > i{display:block; height:100%; background:var(--ok); border-radius:99px; transition:width .3s}
-.flash{min-height:180px; display:flex; align-items:center; justify-content:center; text-align:center;
-  font-size:1.1rem; line-height:1.5; padding:24px 16px}
+.btn:active{transform:translateY(1px) scale(.985); box-shadow:var(--nm-pressed); filter:brightness(.96)}
+.btn.ghost{
+  color:var(--ink); border:1px solid var(--line);
+  background-color:var(--surface-raised);
+  background-image:linear-gradient(180deg,var(--glass-highlight),transparent 44%);
+  box-shadow:var(--nm-raised);
+}
+.btn.ghost:active{box-shadow:var(--nm-pressed)}
+.btn.sm{width:auto; min-height:40px; padding:0 var(--sp-6); font-size:.9rem}
+.btn + .btn{margin-top:var(--sp-4)}
+
+/* ── 10. Bara de progres — șanț neumorfic + umplere de chihlimbar ─ */
+
+.bar{
+  position:relative; height:12px; margin-top:var(--sp-5); overflow:hidden;
+  border-radius:var(--r-pill);
+  background:var(--surface-sunken);
+  box-shadow:var(--nm-inset);
+}
+.bar > i{
+  position:relative; display:block; height:100%; border-radius:inherit;
+  width:calc(var(--p,1) * 100%);
+  background:linear-gradient(90deg,var(--accent) 0%,var(--accent-2) 55%,var(--amber) 100%);
+  box-shadow:0 0 14px var(--accent-glow), 0 1px 0 var(--glass-highlight) inset;
+}
+.bar > i::after{            /* sclipire pe jumătatea de sus a umplerii */
+  content:""; position:absolute; inset:0 0 auto 0; height:48%; border-radius:inherit;
+  background:linear-gradient(180deg,var(--glass-highlight),transparent);
+}
+
+/* ── 11. Opțiuni de test — ridicate, apoi apăsate, apoi rezolvate ─ */
+
 .opt{
-  display:block; width:100%; text-align:left; font:inherit; color:inherit; cursor:pointer;
-  background:var(--card); border:1.5px solid var(--line); border-radius:11px; padding:12px 14px; margin-bottom:8px;
+  display:flex; align-items:center; gap:var(--sp-5);
+  width:100%; min-height:52px; margin-bottom:var(--sp-4);
+  padding:var(--sp-5) var(--sp-6);
+  border:1px solid var(--line); border-radius:var(--r-md);
+  background-color:var(--surface-raised);
+  background-image:linear-gradient(180deg,var(--glass-highlight),transparent 44%);
+  box-shadow:var(--nm-raised);
+  font:inherit; color:inherit; text-align:left; overflow-wrap:anywhere;
+  cursor:pointer; -webkit-tap-highlight-color:transparent;
+  transition:transform var(--dur-fast) var(--ease-ios),
+             box-shadow var(--dur-fast) var(--ease-ios),
+             background-color var(--dur-med) var(--ease-ios),
+             border-color var(--dur-med) var(--ease-ios);
 }
-.opt.correct{border-color:var(--ok); background:color-mix(in srgb,var(--ok) 12%,transparent)}
-.opt.wrong{border-color:var(--bad); background:color-mix(in srgb,var(--bad) 12%,transparent)}
+.opt::before{               /* bulinuță scufundată, ca un buton radio tactil */
+  content:""; flex:0 0 auto; width:20px; height:20px; border-radius:50%;
+  background:var(--surface-sunken); box-shadow:var(--nm-inset);
+  transition:background-color var(--dur-med) var(--ease-ios),
+             box-shadow var(--dur-med) var(--ease-ios);
+}
+.opt:active:not(:disabled){transform:scale(.99); box-shadow:var(--nm-pressed); background-image:none}
 .opt:disabled{cursor:default}
+.opt:disabled:not(.correct):not(.wrong){opacity:.5; box-shadow:var(--nm-flat)}
+
+/* corect: salvie caldă, nu verde de neon */
+.opt.correct{
+  border-color:var(--ok-line); background-color:var(--ok-bg); color:var(--ok-text);
+  box-shadow:var(--nm-raised), 0 10px 24px -14px var(--ok-glow);
+}
+.opt.correct::before{background:var(--ok); box-shadow:0 0 0 3px var(--ok-halo)}
+.opt.correct::after{         /* bifă desenată din două muchii */
+  content:""; flex:0 0 auto; margin-left:auto; width:9px; height:16px;
+  border-right:2.2px solid var(--ok); border-bottom:2.2px solid var(--ok);
+  border-radius:1px; transform:rotate(42deg) translateY(-2px);
+}
+/* greșit: lut ars, nu roșu de alarmă */
+.opt.wrong{
+  border-color:var(--bad-line); background-color:var(--bad-bg); color:var(--bad-text);
+  box-shadow:var(--nm-raised), 0 10px 24px -14px var(--bad-glow);
+}
+.opt.wrong::before{background:var(--bad); box-shadow:0 0 0 3px var(--bad-halo)}
+.opt.wrong::after{           /* X din două gradiente liniare */
+  content:""; flex:0 0 auto; margin-left:auto; width:15px; height:15px;
+  background:
+    linear-gradient(45deg,transparent 44%,var(--bad) 44% 56%,transparent 56%),
+    linear-gradient(-45deg,transparent 44%,var(--bad) 44% 56%,transparent 56%);
+}
+
+/* ── 12. Cardul de memorare — sticlă înaltă cu reflex diagonal ── */
+
+.flash{
+  position:relative; overflow:hidden; cursor:pointer;
+  min-height:min(46svh,300px);
+  display:flex; align-items:center; justify-content:center; text-align:center;
+  padding:var(--sp-8) var(--sp-7);
+  font-size:1.22rem; line-height:1.45; font-weight:500; letter-spacing:-.01em;
+  border:1px solid var(--glass-border); border-radius:var(--r-xl);
+  background:var(--glass-bg-strong);
+  -webkit-backdrop-filter:var(--glass-blur);
+          backdrop-filter:var(--glass-blur);
+  box-shadow:var(--nm-raised), 0 26px 50px -26px var(--shadow-deep);
+  transition:transform var(--dur-fast) var(--ease-ios), box-shadow var(--dur-fast) var(--ease-ios);
+}
+.flash::before{             /* reflex specular, oblic, ca pe sticlă lustruită */
+  content:""; position:absolute; inset:-42% -20% auto -20%; height:92%;
+  transform:rotate(-8deg); pointer-events:none;
+  background:linear-gradient(160deg,var(--glass-highlight) 0%,transparent 62%);
+}
+.flash::after{              /* muchie interioară luminoasă + căldură jos */
+  content:""; position:absolute; inset:0; border-radius:inherit; pointer-events:none;
+  box-shadow:inset 0 1px 0 var(--glass-highlight),
+             inset 0 -34px 64px -34px var(--accent-halo);
+}
+.flash:active{transform:scale(.985); box-shadow:var(--nm-pressed)}
+
+/* ── 13. Tabele — rânduri aerisite pe o placă, antet lipicios ───
+   Marginile negative anulează exact padding-ul cardului, ca rândurile
+   să atingă muchiile; astfel antetul lipit stă fix pe marginea plăcii. */
+
+.card:has(> table){overflow:clip}   /* clip, NU hidden: hidden ar ucide sticky */
+.card > table{
+  width:calc(100% + var(--sp-6) * 2);
+  margin:calc(var(--sp-6) * -1);
+}
+table{border-collapse:separate; border-spacing:0; width:100%; font-size:var(--fs-250)}
+th,td{
+  text-align:left; vertical-align:top; overflow-wrap:anywhere;
+  padding:var(--sp-5) var(--sp-6);
+}
+th{
+  position:sticky; top:calc(var(--topbar-h) + var(--safe-t)); z-index:2;
+  padding-top:var(--sp-4); padding-bottom:var(--sp-4);
+  font-size:.68rem; font-weight:800; letter-spacing:.1em; text-transform:uppercase;
+  color:var(--ink-muted); background:var(--surface-sunken);
+  box-shadow:inset 0 -1px 0 var(--line);
+}
+tr:not(:last-child) td{box-shadow:inset 0 -1px 0 var(--hairline)}
+td:first-child{font-weight:600; color:var(--ink); padding-right:var(--sp-4)}
+td.muted{font-weight:400; font-size:.86rem}
+@media (hover:hover) and (pointer:fine){
+  table tr:hover td{background:var(--hover-tint)}
+}
+
+/* ── 14. Textarea — puț neumorfic pentru notițe ─────────────── */
+
+textarea{
+  display:block; width:100%; min-height:120px; resize:vertical;
+  margin-top:var(--sp-4); padding:var(--sp-5) var(--sp-6);
+  border:1px solid transparent; border-radius:var(--r-md);
+  font:inherit; color:var(--ink);
+  background:var(--surface-sunken); box-shadow:var(--nm-inset);
+  -webkit-appearance:none;
+}
+textarea::placeholder{color:var(--ink-muted); opacity:.75}
+textarea:focus{outline:none; box-shadow:var(--nm-inset), var(--focus-ring)}
+
+/* ── 15. Stări goale, cardul-notă și cardul de rezultat ─────── */
+
+/* card cu un singur paragraf simplu = stare goală, centrată */
+.card > p:only-child:not(.muted),
+.card.empty > p{
+  margin:0; padding:var(--sp-8) var(--sp-5);
+  text-align:center; color:var(--ink-muted); font-size:var(--fs-300); line-height:1.5;
+}
+/* card cu un singur paragraf „muted” = notă liniștită, cu riglă caldă */
+.card > p.muted:only-child{
+  margin:0; padding-left:var(--sp-5);
+  border-left:3px solid var(--accent); border-radius:2px;
+}
+/* Rezultatul testului: singurul card care are ȘI .bar ȘI butoane. */
+.card:has(> .bar):has(> .btn),
+.card.score{
+  text-align:center; padding:var(--sp-7) var(--sp-6);
+  background-image:
+    radial-gradient(120% 90% at 50% -20%,var(--accent-halo) 0%,transparent 62%),
+    linear-gradient(180deg,var(--glass-highlight),transparent 40%);
+}
+.card:has(> .bar):has(> .btn) > h3,
+.card.score > h3{
+  margin:0 0 var(--sp-5);
+  font-size:1.45rem; font-weight:740; letter-spacing:-.02em;
+}
+.card:has(> .bar):has(> .btn) > .bar,
+.card.score > .bar{height:14px; margin-bottom:var(--sp-6)}
+
+/* ── 16. Tabbar — piesa de semnătură ────────────────────────────
+   Pilulă de sticlă mată, desprinsă de marginile ecranului, ridicată
+   deasupra zonei sigure; indicatorul brand glisează după aria-selected. */
+
 .tabbar{
-  position:fixed; left:0; right:0; bottom:0; z-index:20; display:grid; grid-template-columns:repeat(5,1fr);
-  background:var(--card); border-top:1px solid var(--line);
-  padding-bottom:var(--safe-b);
+  position:fixed; z-index:var(--z-sheet); left:50%;
+  bottom:calc(var(--safe-b) + var(--sp-5));
+  transform:translateX(-50%);
+  width:min(calc(100% - var(--sp-7) * 2), 430px);
+  display:grid; grid-template-columns:repeat(5,1fr);
+  padding:var(--tabbar-pad); border-radius:var(--r-pill);
+  border:1px solid var(--glass-border);
+  background:var(--glass-bg);
+  -webkit-backdrop-filter:var(--glass-blur);
+          backdrop-filter:var(--glass-blur);
+  box-shadow:
+    0 -1px 0 var(--glass-inner-shadow) inset,
+    var(--glass-shadow);
 }
+/* Indicatorul glisant e elementul .tab-ind — stilul lui e în stratul 3
+   (mișcare), fiindcă poziția lui e o chestiune de animație, nu de formă. */
+
 .tab{
-  background:none; border:0; padding:9px 2px 10px; font:inherit; font-size:.68rem; font-weight:600;
-  color:var(--muted); cursor:pointer; display:flex; flex-direction:column; align-items:center; gap:3px;
+  position:relative; z-index:1;
+  display:flex; flex-direction:column; align-items:center; justify-content:center; gap:3px;
+  min-height:52px; padding:6px 2px;
+  border:0; border-radius:var(--r-pill); background:none;
+  font:inherit; font-size:.66rem; font-weight:var(--fw-semi); white-space:nowrap;
+  color:var(--ink-muted); cursor:pointer; -webkit-tap-highlight-color:transparent;
+  transition:color var(--dur-med) var(--ease-ios);
 }
-.tab span{font-size:1.1rem; line-height:1}
-.tab[aria-selected="true"]{color:var(--brand)}
-table{width:100%; border-collapse:collapse; font-size:.9rem}
-th,td{text-align:left; padding:7px 6px; border-bottom:1px solid var(--line); vertical-align:top}
-th{color:var(--muted); font-weight:600; font-size:.78rem; text-transform:uppercase; letter-spacing:.4px}
-a{color:var(--brand)}
+.tab .ico{
+  width:24px; height:24px; display:block;
+  transition:transform var(--dur-med) var(--ease-spring), stroke-width var(--dur-med) var(--ease-ios);
+}
+.tab .tab-label{font-size:inherit; line-height:1.1}
+.tab[aria-selected="true"]{color:var(--brand-ink)}
+.tab[aria-selected="true"] .ico{transform:translateY(-1px) scale(1.05); stroke-width:2}
+.tab:active .ico{transform:scale(.88)}
+
+/* ── 17. Accesibilitate: inel de focus cald, niciodată albastru ─ */
+
+:focus-visible{
+  outline:2.5px solid var(--focus);
+  outline-offset:3px;
+  border-radius:var(--r-md);
+}
+.btn:focus-visible,.btn.ghost:focus-visible{box-shadow:var(--nm-raised), var(--focus-ring)}
+.chip:focus-visible,.icon-btn:focus-visible{box-shadow:var(--nm-subtle), var(--focus-ring)}
+.opt:focus-visible,.card.tap:focus-visible,.flash:focus-visible{box-shadow:var(--nm-raised), var(--focus-ring)}
+.tab:focus-visible{outline-offset:-2px}
+
+@media (prefers-contrast:more){
+  .card,.opt,.chip{border-color:var(--ink)}
+  .muted,td.muted{color:var(--ink)}
+}
+
+/* ── 18. Rezerve: fără backdrop-filter → suprafețe opace ──────── */
+
+@supports not ((backdrop-filter:blur(2px)) or (-webkit-backdrop-filter:blur(2px))){
+  .topbar,.tabbar,.flash,.icon-btn{background:var(--surface-overlay)}
+}
+
+/* ── 19. Responsiv ──────────────────────────────────────────── */
+
+/* telefoane foarte înguste (≤380px) */
+@media (max-width:380px){
+  .view{padding:var(--sp-5) var(--sp-5) var(--sp-4)}
+  .card{padding:var(--sp-5)}
+  .card > table{width:calc(100% + var(--sp-5) * 2); margin:calc(var(--sp-5) * -1)}
+  th,td{padding:var(--sp-4) var(--sp-5)}
+  table{font-size:.86rem}
+  .grid2{gap:var(--sp-4)}
+  .tab{font-size:.6rem}
+  .tabbar{width:calc(100% - var(--sp-6) * 2)}
+}
+
+/* tabletă / desktop: mai mult aer, aceeași coloană de 760px */
+@media (min-width:768px){
+  .view{padding:var(--sp-8) var(--sp-7) var(--sp-6)}
+  .card{padding:var(--sp-7); border-radius:var(--r-xl)}
+  .card > table{width:calc(100% + var(--sp-7) * 2); margin:calc(var(--sp-7) * -1)}
+  th,td{padding:var(--sp-5) var(--sp-7)}
+  .grid2{gap:var(--sp-6)}
+  h2{font-size:.82rem}
+  .topbar h1{font-size:1.15rem}
+  .flash{min-height:320px; font-size:1.35rem}
+  .btn{min-height:52px}
+}
+
+/* telefon în peisaj: cromul se subțiază, cardul nu mai umple ecranul */
+@media (orientation:landscape) and (max-height:520px){
+  body{
+    padding-top:calc(var(--topbar-h-compact) + var(--safe-t));
+    padding-bottom:calc(var(--tabbar-h-compact) + var(--safe-b) + var(--sp-6));
+  }
+  .topbar{height:calc(var(--topbar-h-compact) + var(--safe-t))}
+  th{top:calc(var(--topbar-h-compact) + var(--safe-t))}
+  .tab{min-height:40px; gap:1px; font-size:.6rem}
+  .tab .ico{width:21px; height:21px}
+  .tabbar{bottom:calc(var(--safe-b) + var(--sp-4))}
+  .flash{min-height:150px; padding:var(--sp-6); font-size:1.05rem}
+  h2{margin-top:var(--sp-6)}
+}
+
+/* ══════════════════════════════════════════════════════════════════════════
+   STRAT 3 — MIȘCARE „iOS”
+   Trebuie să rămână ULTIMUL bloc din fișier: suprascrie intenționat câteva
+   tranziții din stratul de componente (apăsarea, iconița de tab, bara).
+
+   REGULA DE AUR: animăm doar `transform` și `opacity`.
+   Singurele excepții, ambele deliberate și documentate mai jos:
+     • background-color pe .opt.correct/.opt.wrong — o dată per întrebare;
+     • width pe .bar > i — o dată la intrarea în ecran, ca să nu se turtească
+       capătul rotund al pilulei (scaleX ar fi fost mai ieftin, dar urât).
+   ══════════════════════════════════════════════════════════════════════════ */
+
+/* ─────────────────────────────────────────────────────────────────────────
+   1. TOKENI — curbe și durate
+   ───────────────────────────────────────────────────────────────────────── */
+:root{
+  /* Curba implicită Core Animation (kCAMediaTimingFunctionDefault).
+     Pentru schimbări neutre de stare: culoare, opacitate, borduri. */
+  --ease-ios:         cubic-bezier(.25,.1,.25,1);
+
+  /* UIView.AnimationCurve.easeInOut — simetrică. Doar pentru mișcări scurte
+     care încep și se termină pe ecran (nu pentru intrări/ieșiri). */
+  --ease-in-out-ios:  cubic-bezier(.42,0,.58,1);
+
+  /* Curba de navigație și de bottom-sheet din iOS 13+. Consumă ~70% din
+     distanță în primele ~30% din timp, apoi alunecă lin la oprire.
+     Aceasta este curba care „sună” a iOS. Push/pop de ecran, sheet-uri. */
+  --ease-nav:         cubic-bezier(.32,.72,0,1);
+
+  /* Decelerare pură — INTRĂRI (elementul vine din afară și se așază). */
+  --ease-out-ios:     cubic-bezier(.16,1,.3,1);
+
+  /* Accelerare pură (UIView.AnimationCurve.easeIn) — IEȘIRI. */
+  --ease-in-ios:      cubic-bezier(.42,0,1,1);
+
+  /* Arc cu depășire ~7%, aproximativ UISpringTimingParameters(damping .72).
+     O SINGURĂ oscilație. Tab-uri, pastilă, revenire din apăsare, progres. */
+  --ease-spring:      cubic-bezier(.34,1.56,.64,1);
+
+  /* Arc mai blând (depășire ~3%) pentru suprafețe mari — cardul care se rotește.
+     Pe o suprafață lată, 7% depășire se citește „elastic”, nu „solid”. */
+  --ease-spring-soft: cubic-bezier(.22,1.2,.36,1);
+
+  /* Micro-interacțiuni: răspuns imediat, fără depășire (easeOutQuad). */
+  --ease-snap:        cubic-bezier(.25,.46,.45,.94);
+
+  /* Apăsare (down): aproape liniară la început, ca degetul să „prindă” elementul. */
+  --ease-press:       cubic-bezier(.4,0,.6,1);
+
+  /* Durate — iOS este rapid. */
+  --dur-instant: 100ms;  /* highlight, dezactivare */
+  --dur-micro:   140ms;  /* apăsare (down) */
+  --dur-fast:    180ms;  /* eliberare (up), chip-uri, comutatoare */
+  --dur-base:    240ms;  /* cross-fade, intrare element de listă */
+  --dur-nav:     340ms;  /* push/pop de ecran (UINavigationController = .35s) */
+  --dur-shake:   400ms;  /* scuturat „cod greșit” */
+  --dur-flip:    460ms;  /* întoarcere card 3D */
+  --dur-sheet:   480ms;  /* bottom sheet */
+  --dur-bar:     560ms;  /* umplerea barei de progres */
+
+  /* Alias-urile folosite de stratul de componente. */
+  --dur-med:  var(--dur-base);
+  --dur-slow: var(--dur-nav);
+
+  /* Cascadă de listă: pasul dintre elemente și PLAFONUL total.
+     8 × 32ms = 256ms, deci o listă de 40 de elemente nu durează 1,3 secunde. */
+  --stagger-step: 32ms;
+  --stagger-max:  256ms;
+
+  /* Geometria tranziției de ecran. */
+  --nav-shift:    18%;
+  --nav-parallax:  7%;   /* ecranul care pleacă se mișcă ~40% din --nav-shift */
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   2. SCENA DE NAVIGAȚIE
+   #stage decupează ecranele care intră/ies; .view-ghost e clona ecranului
+   care pleacă (creată din JS), animată în paralel cu cel care intră.
+   ───────────────────────────────────────────────────────────────────────── */
+.stage{
+  position:relative;
+  overflow-x:hidden;      /* rezervă pentru browsere fără `clip` */
+  overflow-x:clip;        /* `clip` nu creează container de scroll → sticky merge */
+}
+.view-ghost{
+  position:absolute; top:0; left:0; right:0;
+  margin-inline:auto;
+  pointer-events:none;
+  z-index:1;
+  --ghost-y:0px;          /* compensarea poziției de scroll, pusă din JS */
+  contain:layout paint style;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   3. KEYFRAMES DE NAVIGAȚIE
+   ───────────────────────────────────────────────────────────────────────── */
+/* PUSH — înainte (mai adânc): intră din dreapta, cu fade + scalare subtilă. */
+@keyframes nav-push-in{
+  from{ opacity:0; transform:translate3d(var(--nav-shift),0,0) scale(.99) }
+  to  { opacity:1; transform:translate3d(0,0,0) scale(1) }
+}
+/* Ecranul care pleacă face parallax spre stânga — semnătura UINavigationController. */
+@keyframes nav-push-out{
+  from{ opacity:1; transform:translate3d(0,var(--ghost-y),0) scale(1) }
+  to  { opacity:0; transform:translate3d(calc(var(--nav-parallax) * -1),var(--ghost-y),0) scale(.98) }
+}
+/* POP — înapoi: intră din stânga, cel vechi pleacă spre dreapta. */
+@keyframes nav-pop-in{
+  from{ opacity:0; transform:translate3d(calc(var(--nav-shift) * -1),0,0) scale(.99) }
+  to  { opacity:1; transform:translate3d(0,0,0) scale(1) }
+}
+@keyframes nav-pop-out{
+  from{ opacity:1; transform:translate3d(0,var(--ghost-y),0) scale(1) }
+  to  { opacity:0; transform:translate3d(var(--nav-shift),var(--ghost-y),0) scale(1) }
+}
+/* FADE — schimbare de tab (rădăcină → rădăcină): NU alunecă lateral.
+   Cel vechi se stinge urcând ușor; cel nou urcă în cascadă (vezi §4). */
+@keyframes nav-fade-out{
+  from{ opacity:1; transform:translate3d(0,var(--ghost-y),0) scale(1) }
+  to  { opacity:0; transform:translate3d(0,calc(var(--ghost-y) - 6px),0) scale(1.01) }
+}
+/* REPLACE — re-randare pe același hash (bifat „citit”, schimbat clasa).
+   Doar opacitate: nimic nu s-a „navigat”, deci nimic nu trebuie să alunece. */
+@keyframes nav-replace-in{ from{opacity:0} to{opacity:1} }
+
+#view.nav-push    { animation:nav-push-in    var(--dur-nav)   var(--ease-nav) both }
+#view.nav-pop     { animation:nav-pop-in     var(--dur-nav)   var(--ease-nav) both }
+#view.nav-replace { animation:nav-replace-in var(--dur-micro) var(--ease-ios) both }
+/* La „fade” containerul NU se animează — copiii poartă mișcarea (cascada). */
+#view.nav-fade    { animation:none }
+
+.view-ghost.nav-push { animation:nav-push-out var(--dur-nav)  var(--ease-nav)    both }
+.view-ghost.nav-pop  { animation:nav-pop-out  var(--dur-nav)  var(--ease-nav)    both }
+.view-ghost.nav-fade { animation:nav-fade-out var(--dur-base) var(--ease-in-ios) both }
+
+/* ─────────────────────────────────────────────────────────────────────────
+   4. CASCADĂ DE LISTĂ (stagger)
+   JS pune clasa .enter și variabila --i pe fiecare element de nivel 1.
+   Se aplică DOAR la fade / la prima randare: în push/pop conținutul se
+   mișcă deja ca un bloc unitar, exact ca pe iOS.
+   ───────────────────────────────────────────────────────────────────────── */
+@keyframes list-in{
+  from{ opacity:0; transform:translate3d(0,12px,0) scale(.985) }
+  to  { opacity:1; transform:none }
+}
+.view.stagger .enter{
+  animation:list-in var(--dur-base) var(--ease-out-ios) both;
+  /* min() = plafonul care împiedică lista de 40 de elemente să dureze 4s */
+  animation-delay:min(calc(var(--i,0) * var(--stagger-step)), var(--stagger-max));
+}
+/* Blocuri injectate după randare (feedback quiz, butoane card): intrare proprie. */
+@keyframes swap-in{
+  from{ opacity:0; transform:translate3d(0,8px,0) }
+  to  { opacity:1; transform:none }
+}
+#fb > .card              { animation:swap-in var(--dur-base) var(--ease-out-ios) both }
+#card-actions.swapped > *{ animation:swap-in var(--dur-fast) var(--ease-out-ios) both }
+
+/* ─────────────────────────────────────────────────────────────────────────
+   5. FEEDBACK LA ATINGERE
+   Asimetrie: apăsarea cade instantaneu (--dur-micro, --ease-press),
+   eliberarea revine cu arc (--dur-fast, --ease-spring). Aici e tot trucul.
+   ───────────────────────────────────────────────────────────────────────── */
+.card.tap,.btn,.chip,.opt,.tab,.icon-btn{
+  -webkit-tap-highlight-color:transparent;   /* fără dreptunghi gri pe Android/iOS */
+  -webkit-touch-callout:none;                /* fără meniu la apăsare lungă */
+  touch-action:manipulation;                 /* elimină întârzierea de 300ms */
+  user-select:none;
+}
+.card.tap,.btn,.chip,.opt,.icon-btn{
+  transition:transform  var(--dur-fast) var(--ease-spring),
+             box-shadow var(--dur-fast) var(--ease-ios),
+             opacity    var(--dur-fast) var(--ease-ios),
+             background-color var(--dur-fast) var(--ease-ios),
+             border-color     var(--dur-fast) var(--ease-ios);
+}
+/* Scala scade cu cât suprafața e mai mare: 4% pe un card lat pare deja prea mult. */
+.card.tap:active{ transform:scale(.98) }
+.btn:active     { transform:scale(.96) }
+.opt:active:not(:disabled){ transform:scale(.985) }
+.chip:active    { transform:scale(.94) }
+.icon-btn:active{ transform:scale(.92) }
+.tab:active .ico{ transform:scale(.88) }
+.card.tap:active,.btn:active,.opt:active,.chip:active,.icon-btn:active,.tab:active .ico{
+  transition-duration:var(--dur-micro);
+  transition-timing-function:var(--ease-press);
+}
+.opt:disabled{ transform:none }
+/* Hover DOAR pe mouse — altfel starea rămâne „lipită” după atingere pe telefon. */
+@media (hover:hover) and (pointer:fine){
+  .card.tap:hover{ transform:translate3d(0,-1px,0) }
+  .chip:hover,.btn:hover{ opacity:.92 }
+}
+
+/* Chevronul „înapoi” din topbar intră când devine vizibil. */
+@keyframes back-in{
+  from{ opacity:0; transform:translate3d(-8px,0,0) }
+  to  { opacity:1; transform:none }
+}
+#btn-back:not([hidden]){ animation:back-in var(--dur-base) var(--ease-out-ios) both }
+/* Titlul se schimbă printr-un fade scurt, nu instantaneu (clasa .swap vine din JS). */
+@keyframes title-swap{
+  from{ opacity:0; transform:translate3d(0,4px,0) }
+  to  { opacity:1; transform:none }
+}
+.topbar h1.swap{ animation:title-swap var(--dur-base) var(--ease-out-ios) both }
+
+/* ─────────────────────────────────────────────────────────────────────────
+   6. CARD CU ÎNTOARCERE 3D
+   Ambele fețe există simultan în DOM și sunt suprapuse în aceeași celulă de
+   grid — astfel containerul are înălțimea celei mai înalte fețe.
+   ───────────────────────────────────────────────────────────────────────── */
+.flip{
+  perspective:1200px;
+  margin:0 0 var(--sp-5);
+  cursor:pointer;
+  -webkit-tap-highlight-color:transparent;
+  touch-action:manipulation;
+}
+.flip-inner{
+  display:grid;                      /* suprapune fețele, păstrează înălțimea max. */
+  transform-style:preserve-3d;
+  transition:transform var(--dur-flip) var(--ease-spring-soft);
+  will-change:transform;             /* UTIL: un singur element, se rotește des */
+}
+.flip.is-flipped .flip-inner{ transform:rotateY(180deg) }
+.face{
+  grid-area:1/1;
+  margin:0;
+  backface-visibility:hidden;
+  -webkit-backface-visibility:hidden;
+}
+.face.back{ transform:rotateY(180deg) }
+.flip:active .flip-inner{ transform:scale(.985) }
+.flip.is-flipped:active .flip-inner{ transform:rotateY(180deg) scale(.985) }
+
+/* ─────────────────────────────────────────────────────────────────────────
+   7. BARA DE TAB-URI
+   Pastila indicatoare alunecă între sloturi cu arc; iconița „pocnește”.
+   .tab-ind e absolut poziționat, deci NU intră în grila de 5 coloane.
+   ───────────────────────────────────────────────────────────────────────── */
+.tab-ind{
+  position:absolute; z-index:0;
+  top:var(--tabbar-pad); bottom:var(--tabbar-pad); left:var(--tabbar-pad);
+  width:calc((100% - var(--tabbar-pad) * 2) / var(--tab-count,5));
+  border-radius:var(--r-pill);
+  background:linear-gradient(180deg,var(--brand-2),var(--brand));
+  box-shadow:0 1px 0 var(--glass-highlight) inset, 0 8px 18px -8px var(--brand-glow);
+  transform:translate3d(calc(var(--tab-i,0) * 100%),0,0);
+  transition:transform var(--dur-base) var(--ease-spring);
+  pointer-events:none;
+  will-change:transform;             /* UTIL: un singur element, animat la fiecare tab */
+}
+@keyframes icon-pop{
+  0%  { transform:scale(1) }
+  35% { transform:scale(.86) }
+  100%{ transform:scale(1) }
+}
+.tab .ico.pop{ animation:icon-pop 420ms var(--ease-spring) }
+
+/* ─────────────────────────────────────────────────────────────────────────
+   8. FEEDBACK LA TEST
+   ───────────────────────────────────────────────────────────────────────── */
+/* CORECT: puls verde blând + inel care se stinge.
+   Inelul e un al doilea pseudo-element? Nu — ::after e deja bifa. Îl facem
+   din box-shadow animat, ca să nu ne batem cu stratul de componente. */
+@keyframes opt-correct{
+  0%  { transform:scale(1) }
+  32% { transform:scale(1.018) }
+  100%{ transform:scale(1) }
+}
+.opt.correct{ animation:opt-correct 520ms var(--ease-out-ios) both }
+
+/* GREȘIT: scuturatul de la codul de acces iOS — 3 oscilații, amplitudine
+   descrescătoare, ~400ms. Amortizarea e ce îl face să pară fizic. */
+@keyframes shake-ios{
+  0%,100%{ transform:translate3d(0,0,0) }
+  15%{ transform:translate3d(-8px,0,0) }
+  30%{ transform:translate3d( 7px,0,0) }
+  45%{ transform:translate3d(-5px,0,0) }
+  60%{ transform:translate3d( 4px,0,0) }
+  75%{ transform:translate3d(-2px,0,0) }
+  90%{ transform:translate3d( 1px,0,0) }
+}
+.opt.wrong{ animation:shake-ios var(--dur-shake) var(--ease-ios) both }
+
+/* BARA DE PROGRES: crește de la zero cu arc. `--p` e un număr 0…1, pus din JS. */
+@keyframes bar-grow{
+  from{ width:0 }
+  to  { width:calc(var(--p,1) * 100%) }
+}
+.bar > i{ animation:bar-grow var(--dur-bar) var(--ease-spring) both }
+
+/* ─────────────────────────────────────────────────────────────────────────
+   9. BOTTOM SHEET / MODAL (pregătit pentru versiunile următoare)
+   ───────────────────────────────────────────────────────────────────────── */
+@keyframes sheet-in { from{ transform:translate3d(0,100%,0) } to{ transform:translate3d(0,0,0) } }
+@keyframes sheet-out{ from{ transform:translate3d(0,0,0) }   to{ transform:translate3d(0,100%,0) } }
+@keyframes scrim-in { from{ opacity:0 } to{ opacity:1 } }
+.scrim{
+  position:fixed; inset:0; z-index:var(--z-sheet);
+  background:rgba(42,28,18,.42);     /* umbra e caldă, ca tot restul */
+  -webkit-backdrop-filter:blur(2px); backdrop-filter:blur(2px);
+  animation:scrim-in var(--dur-base) var(--ease-ios) both;
+}
+.sheet{
+  position:fixed; left:0; right:0; bottom:0; z-index:calc(var(--z-sheet) + 1);
+  max-width:var(--view-max); margin-inline:auto;
+  border-radius:var(--r-6) var(--r-6) 0 0;
+  background:var(--surface-raised);
+  padding:var(--sp-6) var(--sp-6) calc(var(--sp-6) + var(--safe-b));
+  box-shadow:var(--glass-shadow);
+  animation:sheet-in var(--dur-sheet) var(--ease-nav) both;  /* curba nativă de sheet */
+}
+.sheet.closing{ animation:sheet-out 260ms var(--ease-in-ios) both }
+.scrim.closing{ animation:scrim-in  260ms var(--ease-in-ios) reverse both }
+
+/* ─────────────────────────────────────────────────────────────────────────
+   10. prefers-reduced-motion — OBLIGATORIU
+   Zero translații, zero scalări, zero rotații, zero scuturat.
+   Rămân doar fade-urile de opacitate, scurtate.
+   ───────────────────────────────────────────────────────────────────────── */
+@media (prefers-reduced-motion:reduce){
+
+  @keyframes rm-fade{ from{opacity:0} to{opacity:1} }
+
+  #view.nav-push,#view.nav-pop,#view.nav-fade,#view.nav-replace,
+  .view.stagger .enter,
+  #fb > .card,#card-actions.swapped > *,
+  #btn-back:not([hidden]),.topbar h1.swap,
+  .sheet,.scrim{
+    animation:rm-fade var(--dur-fast) linear both !important;
+    animation-delay:0ms !important;       /* fără cascadă: totul apare odată */
+    transform:none !important;
+  }
+  .view-ghost{ display:none !important }  /* fără parallax, fără clonă */
+
+  /* Apăsarea nu mai scalează — devine o estompare. */
+  .card.tap,.btn,.chip,.opt,.tab,.icon-btn,.tab .ico,.flip-inner,.tab-ind{
+    transition:opacity var(--dur-micro) linear !important;
+  }
+  .card.tap:active,.btn:active,.opt:active,.chip:active,
+  .icon-btn:active,.tab:active .ico,.card.tap:hover{
+    transform:none !important;
+    opacity:.6;
+  }
+
+  /* Cardul nu se mai rotește: cross-fade între fețe, în același loc. */
+  .flip-inner{ transform:none !important; will-change:auto }
+  .face{
+    backface-visibility:visible; -webkit-backface-visibility:visible;
+    transform:none !important;
+    transition:opacity var(--dur-micro) linear;
+  }
+  .face.front{ z-index:2; opacity:1 }
+  .face.back { z-index:1; opacity:0 }
+  .flip.is-flipped .face.front{ opacity:0; pointer-events:none }
+  .flip.is-flipped .face.back { opacity:1 }
+
+  /* Fără scuturat și fără puls: culoarea și conturul rămân, statice. */
+  .opt.wrong,.opt.correct{ animation:none !important; transform:none !important }
+
+  /* Bara de progres sare direct la valoare. */
+  .bar > i{ animation:none !important }
+  .tab-ind{ transition:none !important }
+  .tab .ico.pop{ animation:none !important }
+}
+
+/* ══════════════════════════════════════════════════════════════════════════
+   NOTE DE PERFORMANȚĂ (pentru cine întreține fișierul)
+
+   ✔ Animăm aproape exclusiv transform și opacity → totul rulează pe
+     compozitor, fără layout și fără repaint.
+   ✔ Excepțiile sunt două, ambele o singură dată per interacțiune:
+     background-color la .opt.correct/.wrong și width la .bar > i.
+
+   will-change AJUTĂ (element unic, animat repetat):
+     • .flip-inner  — un singur card pe ecran, se rotește la fiecare card
+     • .tab-ind     — un singur element, se mișcă la fiecare schimbare de tab
+     • #view și .view-ghost — DOAR pe durata tranziției, pus și șters din JS
+
+   will-change STRICĂ:
+     • pe .card / .opt / .chip — o listă de 40 de carduri ar deveni 40 de
+       straturi de compozitor; pe telefoane ieftine memoria GPU se termină
+       și derularea începe să sară.
+     • pe elemente cu text care se scalează: stratul promovat e rasterizat o
+       dată, deci textul apare neclar în timpul scalării. De aceea scalările
+       de apăsare sunt mici (≤4%) și scurte.
+     • pus în :active e inutil — ajunge prea târziu ca să pregătească ceva.
+
+   ✔ .view-ghost are contain:layout paint style — clona există ~340ms și nu
+     trebuie să polueze layout-ul paginii reale. JS o limitează și la ecrane
+     sub 400 de noduri (vezi spawnGhost).
+   ══════════════════════════════════════════════════════════════════════════ */
