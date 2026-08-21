@@ -45,6 +45,9 @@ python3 -m http.server 8765
 | `data/continut.json` | lecțiile, cardurile și întrebările de test |
 | `_headers` | anteturi HTTP pentru Cloudflare Pages |
 | `docs/PLAN.md` | planul complet de realizare și pașii de publicare |
+| `tools/graphify.py` | generatorul vault-ului Obsidian din datele aplicației |
+| `tools/verifica_vault.py` | verifică legăturile din vault (rulează în CI) |
+| `vault/` | vault Obsidian generat automat — vezi mai jos |
 
 ## Cum adaugi conținut
 
@@ -66,6 +69,30 @@ Editezi `data/continut.json`. Nu e nevoie să atingi codul.
 
 După orice modificare a fișierelor, **crește versiunea din `sw.js`** (`stiinte01-v1` → `stiinte01-v2`),
 altfel utilizatorii care au deja aplicația instalată vor primi în continuare versiunea veche din cache.
+
+## Vault Obsidian (`vault/`)
+
+Aceleași date, într-o a doua formă: un vault [Obsidian](https://obsidian.md) cu note Markdown
+legate între ele, în care Graph View arată tot parcursul — parcurs → clase → arii → materii → lecții,
+plus cardurile și testele.
+
+```bash
+python3 tools/graphify.py        # regenerează vault-ul din data/*.json
+python3 tools/verifica_vault.py  # verifică legăturile (0 rupte, 0 orfane)
+```
+
+Ca să-l deschizi: în Obsidian, *Open folder as vault* → alege folderul `vault`.
+
+Generarea este **distructivă pentru folderele generate** (`Curriculum/`, `Materii/`, `Lecții/`,
+`Carduri/`, `Teste/`) — nu edita notele de acolo, fiindcă se rescriu. Două lucruri se păstrează:
+
+- ce scrii sub titlul **„## Notițele mele”** din fiecare lecție (recuperat după `id`, deci
+  rezistă și la redenumirea lecției);
+- orice notă nouă creată în afara folderelor de mai sus.
+
+Workflow-ul [`Graphify`](.github/workflows/graphify.yml) regenerează vault-ul pe GitHub la fiecare
+modificare a datelor și îl comite înapoi, așa că `vault/` din repo e mereu la zi. Fiecare rulare
+publică și o arhivă `vault-obsidian` descărcabilă din pagina Actions.
 
 ## Publicare
 
