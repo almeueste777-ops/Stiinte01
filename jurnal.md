@@ -281,3 +281,57 @@ zero derulare orizontală, bara de taburi în ecran, **zero ținte de atingere s
 **e) La `prefers-contrast: more`** neomorfismul cedează primul, exact cum a fost proiectat:
 umbrele moi devin contururi de 1px, sticla devine opacă, fundalul ambiental dispare.
 
+**f) Funcționarea offline**, verificată efectiv, nu presupusă: service worker activat,
+cache `stiinte01-v2` cu 10 intrări, rețea tăiată, pagină reîncărcată — aplicația se randează
+integral, cu stilurile noi, insigna „offline” apare, zero erori JS.
+
+### 11 · Verificarea independentă — trei agenți, câte unul pe zonă
+
+Cerința era ca tot ce se creează să fie verificat de un agent separat, ca să nu mai fie
+nevoie de audit. Am împărțit verificarea pe trei zone care nu se suprapun, fiecare cu
+instrucțiunea explicită de a fi **adversarial** și de a nu da o aprobare de complezență:
+
+1. **Verificator CSS** — tokeni nedefiniți, completitudinea temei întunecate, respectarea
+   regulii hibride, urme de culori reci, ordinea straturilor și dacă suprascrierile chiar
+   câștigă, degradarea funcțiilor moderne (`:has()`, `@property`, `overflow:clip`, `100svh`,
+   `color-mix`), capcane de layout, selectori care nu se potrivesc cu markupul real,
+   recalcularea contrastelor și cod mort.
+2. **Verificator JavaScript** — scurgeri de ascultători și clone orfane, temporizatoare
+   rămase după demontarea ecranului, corectitudinea stivei de navigație pe secvențe concrete,
+   ID-uri duplicate în clonă, accesul de la tastatură la card, regresii în logica testului,
+   păstrarea formatului din `localStorage`, aritmetica barelor, corectitudinea PWA și
+   rularea reală a verificărilor din CI.
+3. **Verificator documentație** — **acuratețea factuală** a fiecărei cifre din jurnal și din
+   vault (recalculate independent, nu preluate pe încredere), validitatea vaultului Obsidian
+   (JSON, frontmatter YAML, `[[wikilink]]`-uri care chiar rezolvă, note orfane), consistența
+   dintre jurnal și oglinda lui, prospețimea README-ului, diacriticele corecte
+   (ș/ț cu virgulă, nu cu sedilă) și supra-afirmațiile.
+
+### 12 · Două verificări proprii, în plus, cât rulau verificatorii
+
+**Ocluziunea cromului plutitor.** Cu bara de sus și cea de taburi devenite `position:fixed`,
+riscul real e ca o bucată de conținut să rămână permanent ascunsă sub ele. Am măsurat
+automat, pe 4 formate (peisaj 844×390, portret 390×844, îngust 360×740, tabletă 834×1112)
+× 6 rute: la derulare 0 primul element de conținut e sub bara de sus, iar la derulare maximă
+ultimul element e deasupra barei de taburi. **Zero ocluziune reală.**
+
+> Prima variantă a acestui test raporta 16 „suprapuneri” cu bara de sus. Testul era greșit,
+> nu codul: conținutul care curge pe sub sticla translucidă *este* intenția designului.
+> Am refăcut verificarea ca să măsoare exact ce contează — capetele de derulare.
+
+**Navigarea de la tastatură.** Parcurgere cu `Tab` prin ecranul de test: fiecare element
+focalizat primește un inel `2px solid rgb(158, 65, 25)` — teracotă. **Niciun inel albastru
+implicit nicăieri.** Ordinea de focus e corectă, iar `#view` (cu `tabindex="-1"`) nu intră în
+parcurgere, fiindcă primește focus doar programatic, la schimbarea ecranului.
+
+### 13 · Documentația, adusă la zi
+
+- `README.md` — secțiune nouă despre sistemul de design v01, tabelul de structură completat
+  cu `jurnal.md`, `vault/` și `icons/icon-source.svg`, exemplul de creștere a cache-ului
+  actualizat la versiunea reală.
+- `docs/PLAN.md` — ramura de dezvoltare corectată (indica încă ramura versiunii anterioare),
+  exemplul de cache actualizat, iar lista de verificare din Etapa 4 completată cu **șapte
+  puncte noi**, scrise pentru cineva care verifică cu ochiul: sticla translucidă, pastila
+  care alunecă, alunecarea ecranelor, rotirea cardului, scuturatul la răspuns greșit, tema
+  întunecată caldă și comportamentul cu „Reduce motion” activat.
+

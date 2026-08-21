@@ -104,7 +104,7 @@ copiază tokenul și folosește-l în loc de parolă.
 Dacă lucrezi pe ramura de dezvoltare a acestui proiect:
 
 ```bash
-git checkout claude/pwa-social-sciences-app-yzli16
+git checkout claude/app-design-aesthetic-v01-z15j8c
 ```
 
 ---
@@ -122,6 +122,16 @@ Deschide <http://localhost:8765> în browser și verifică:
 - [ ] **Carduri** → „Arată răspunsul” → „Știu” / „Mai repet”.
 - [ ] **Test** → răspunzi la întrebări → primești scorul.
 - [ ] **Plan** → apar toate clasele, de la a IX-a la a XIII-a.
+
+Din versiunea 01 („Sticlă caldă”) merită verificate și acestea:
+
+- [ ] Bara de sus și bara de taburi sunt **translucide** — la derulare se vede conținutul estompat pe dedesubt.
+- [ ] Bara de taburi e o **pilulă flotantă**, desprinsă de marginile ecranului, iar pastila colorată **alunecă** de la un tab la altul.
+- [ ] Intrarea într-o materie **alunecă din dreapta**, iar „înapoi” alunecă invers.
+- [ ] Cardul de memorare **se rotește în 3D** când apeși „Arată răspunsul”.
+- [ ] Un răspuns greșit la test **se scutură** scurt; unul corect pulsează.
+- [ ] Cu tema întunecată a sistemului, aplicația e **caldă** (espresso), nu albastru-închis.
+- [ ] Cu „Reduce motion” activat în sistem, animațiile dispar, dar aplicația rămâne complet utilizabilă.
 
 Verifică apoi că funcționează offline: `F12` → tab-ul **Application** → **Service Workers**
 (trebuie să apară `sw.js` ca „activated and running”) → bifează **Offline** → reîncarcă pagina.
@@ -182,7 +192,7 @@ Adaugi o lecție nouă, un card sau o întrebare:
 # 1. editezi data/continut.json în editor
 
 # 2. crești versiunea cache-ului în sw.js:
-#    const CACHE = 'stiinte01-v1';  →  'stiinte01-v2'
+#    const CACHE = 'stiinte01-v2';  →  'stiinte01-v3'
 #    (pas obligatoriu, altfel telefoanele rămân pe versiunea veche)
 
 # 3. verifici local

@@ -486,6 +486,11 @@ body{
   border-bottom:1px solid var(--glass-border);
   box-shadow:var(--glass-shadow);
 }
+.topbar::before{           /* sclipirea diagonală: fără ea, sticla e doar un dreptunghi cețos */
+  content:""; position:absolute; inset:0; pointer-events:none;
+  background:var(--glass-specular);
+}
+.topbar > *{position:relative}   /* conținutul stă peste luciu, nu sub el */
 .topbar h1{
   flex:1 1 auto; min-width:0; margin:0;
   font-size:1.0625rem; font-weight:var(--fw-semi); letter-spacing:var(--track-tight);
@@ -762,7 +767,7 @@ ul.clean li::before{         /* bulină de teracotă cu halou cald */
 .flash::before{             /* reflex specular, oblic, ca pe sticlă lustruită */
   content:""; position:absolute; inset:-42% -20% auto -20%; height:92%;
   transform:rotate(-8deg); pointer-events:none;
-  background:linear-gradient(160deg,var(--glass-highlight) 0%,transparent 62%);
+  background:var(--glass-specular);
 }
 .flash::after{              /* muchie interioară luminoasă + căldură jos */
   content:""; position:absolute; inset:0; border-radius:inherit; pointer-events:none;
