@@ -31,7 +31,7 @@ Paleta e caldă — nisip, smântână, lut, teracotă, chihlimbar — cu o tem�
 Mișcarea folosește curbele reale din iOS, iar `prefers-reduced-motion`,
 `prefers-contrast: more` și `prefers-reduced-transparency` sunt tratate explicit.
 
-Documentația completă a sistemului e în vaultul Obsidian din [`vault/`](vault/) — vezi
+Documentația completă a sistemului e în vaultul Obsidian din [`vault/`](vault/), în
 `vault/20-Design/`. Jurnalul de lucru e în [`jurnal.md`](jurnal.md).
 
 ## Tehnologii
@@ -65,10 +65,13 @@ python3 -m http.server 8765
 | `_headers` | anteturi HTTP pentru Cloudflare Pages |
 | `docs/PLAN.md` | planul complet de realizare și pașii de publicare |
 | `jurnal.md` | jurnalul de lucru: ce s-a făcut, de ce, cu ce rezultat |
-| `vault/` | vault Obsidian: sistemul de design, arhitectura, verificările |
+| `vault/` | vault Obsidian — vezi mai jos |
+| `tools/graphify.py` | generează jumătatea de *conținut* a vault-ului din `data/` |
+| `tools/verifica_vault.py` | verifică legăturile din vault (rulează în CI) |
 | `tools/verifica-css.mjs` | verifică structura foii de stil (acolade, imbricări nedorite) |
 | `tools/genereaza-iconite.mjs` | regenerează iconițele PWA din sursa SVG |
-| `.github/workflows/verificare.yml` | verificare automată la fiecare push: JSON valid, sintaxă JS, structură CSS, fișiere PWA, precache complet |
+| `.github/workflows/verificare.yml` | verificare automată: JSON valid, sintaxă JS, structură CSS, fișiere PWA, precache complet |
+| `.github/workflows/graphify.yml` | regenerează vault-ul când se schimbă datele și îl comite înapoi |
 
 ## Cum adaugi conținut
 
@@ -90,6 +93,38 @@ Editezi `data/continut.json`. Nu e nevoie să atingi codul.
 
 După orice modificare a fișierelor, **crește versiunea din `sw.js`** (de exemplu `stiinte01-v2` → `stiinte01-v3`),
 altfel utilizatorii care au deja aplicația instalată vor primi în continuare versiunea veche din cache.
+
+## Vault Obsidian (`vault/`)
+
+Un singur vault [Obsidian](https://obsidian.md), cu **două jumătăți** care nu se calcă:
+
+| Jumătate | Foldere | Cine o scrie |
+|---|---|---|
+| **Conținutul de studiu** — parcurs → clase → arii → materii → lecții, plus carduri și teste | `Curriculum/`, `Materii/`, `Lecții/`, `Carduri/`, `Teste/` | generată din `data/*.json` de `tools/graphify.py` |
+| **Documentația proiectului** — sistemul de design, arhitectura, jurnalul de lucru, rapoartele de verificare | `00-Index/`, `10-Jurnal/`, `20-Design/`, `30-Aplicatie/`, `40-Verificare/` | scrisă de mână |
+
+Puncte de intrare: **„00 Start aici”** pentru conținut, **„Științe Sociale — MOC”** pentru
+documentație. Fiecare trimite la cealaltă, iar Graph View arată tot.
+
+```bash
+python3 tools/graphify.py        # regenerează jumătatea de conținut din data/*.json
+python3 tools/verifica_vault.py  # verifică legăturile din tot vault-ul (0 rupte, 0 orfane)
+```
+
+Ca să-l deschizi: în Obsidian, *Open folder as vault* → alege folderul `vault`.
+
+Generarea e **distructivă pentru folderele generate** (`Curriculum/`, `Materii/`, `Lecții/`,
+`Carduri/`, `Teste/`) — nu edita notele de acolo, fiindcă se rescriu. Trei lucruri se păstrează:
+
+- ce scrii sub titlul **„## Notițele mele”** din fiecare lecție (recuperat după `id`, deci
+  rezistă și la redenumirea lecției);
+- **folderele numerotate**, cu documentația scrisă de mână — generatorul nici nu le atinge;
+- **configurația `.obsidian`** — se scrie doar dacă lipsește, ca reglajele de graf și de
+  aspect să nu se piardă la fiecare regenerare.
+
+Workflow-ul [`Graphify`](.github/workflows/graphify.yml) regenerează vault-ul pe GitHub la fiecare
+modificare a datelor și îl comite înapoi, așa că `vault/` din repo e mereu la zi. Fiecare rulare
+publică și o arhivă `vault-obsidian` descărcabilă din pagina Actions.
 
 ## Publicare
 

@@ -30,9 +30,11 @@ fie CSS pur și SVG inline*, fără fonturi externe și fără biblioteci de ani
 | `data/continut.json` | 8 module: lecții, carduri, întrebări |
 | `_headers` | anteturi HTTP pentru Cloudflare Pages |
 | `jurnal.md` | jurnalul de lucru (oglindit în [[Jurnal 2026-08-21 — Design v01]]) |
-| `vault/` | acest vault Obsidian |
+| `vault/` | acest vault Obsidian, cu două jumătăți — vezi [[Științe Sociale — MOC]] |
 | `tools/verifica-css.mjs` | verifică structura foii de stil (rulat și în CI) |
 | `tools/genereaza-iconite.mjs` | regenerează iconițele PWA din sursa SVG |
+| `tools/graphify.py` | generează jumătatea de conținut a vaultului din `data/` |
+| `tools/verifica_vault.py` | verifică legăturile din tot vaultul (rulat în CI) |
 
 ## Rutare
 

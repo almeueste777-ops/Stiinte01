@@ -8,7 +8,18 @@ tags: [moc, stiinte-sociale, pwa]
 
 # Științe Sociale — hartă de conținut
 
-Punctul de intrare în vault. Totul pornește de aici.
+Punctul de intrare în **jumătatea scrisă de mână** a vault-ului: cum e făcută aplicația.
+
+> [!abstract] Vault-ul are două jumătăți
+> **Aceasta** — documentația proiectului: sistemul de design, arhitectura, jurnalul de lucru,
+> rapoartele de verificare. Scrisă de mână, în folderele numerotate.
+>
+> **Cealaltă** — [[00 Start aici|conținutul de studiu]]: parcurs → clase → arii → materii →
+> lecții, plus carduri și teste. **Generată automat** din `data/*.json` de
+> `tools/graphify.py`, deci nu se editează direct.
+>
+> Generatorul curăță doar folderele lui (`Curriculum`, `Materii`, `Lecții`, `Carduri`,
+> `Teste`) și nu scrie peste configurația `.obsidian`. Cele două jumătăți nu se calcă.
 
 > [!info] Aplicația
 > PWA de studiu pentru liceu, filiera teoretică, profil umanist, specializarea
@@ -34,14 +45,25 @@ Punctul de intrare în vault. Totul pornește de aici.
 - [[Jurnal 2026-08-21 — Design v01]] — ce s-a făcut, în ordine
 - [[Raport verificare v01]] — verificarea independentă, în locul auditului
 
+## Conținutul de studiu (jumătatea generată)
+
+- [[00 Start aici]] — nota de start a conținutului: clase, materii, cifre
+- [[Hartă de învățare]] — ordinea recomandată de parcurgere
+- [[Parcurs școlar]] · [[Școala]] · [[Bacalaureat]]
+
 ## Convenții în acest vault
 
-| Folder | Ce conține |
-|---|---|
-| `00-Index` | hărți de conținut |
-| `10-Jurnal` | jurnalul de lucru, cronologic |
-| `20-Design` | sistemul de design |
-| `30-Aplicatie` | arhitectură, versiuni, decizii tehnice |
-| `40-Verificare` | rapoartele agenților de verificare |
+| Folder | Ce conține | Scris de |
+|---|---|---|
+| `00-Index` | hărți de conținut | mână |
+| `10-Jurnal` | jurnalul de lucru, cronologic | mână |
+| `20-Design` | sistemul de design | mână |
+| `30-Aplicatie` | arhitectură, versiuni, decizii tehnice | mână |
+| `40-Verificare` | rapoartele agenților de verificare | mână |
+| `Curriculum` | parcurs, școală, clase, arii curriculare | `graphify.py` |
+| `Materii` | câte o notă per disciplină | `graphify.py` |
+| `Lecții` | cele 25 de lecții, cu „Notițele mele” păstrate | `graphify.py` |
+| `Carduri` | cardurile de memorare, per materie | `graphify.py` |
+| `Teste` | întrebările de test, per materie | `graphify.py` |
 
 Notele sunt legate cu `[[wikilink]]`. Fiecare notă are frontmatter cu `tip`, `versiune`, `tags`.

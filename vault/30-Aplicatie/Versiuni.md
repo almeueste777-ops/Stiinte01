@@ -34,6 +34,13 @@ Prima versiune cu identitate vizuală proprie. Faza 1: **doar design**, fără f
 
 **Verificare:** vezi [[Raport verificare v01]].
 
+**După v01 — unificarea vaultului.** Ramura care conținea generatorul de vault
+(`tools/graphify.py`) a fost îmbinată în `main`. Vaultul are acum **două jumătăți** în același
+folder: conținutul de studiu, generat din `data/`, și documentația proiectului, scrisă de mână.
+Generatorul a fost ajustat ca să nu suprascrie configurația `.obsidian`, iar verificatorul lui
+ca să nu mai raporteze drept legături rupte wikilink-urile scrise în cod inline.
+Total: **89 de note**, zero legături rupte, zero orfane. Vezi [[Științe Sociale — MOC]].
+
 ## v00 — punct de plecare
 
 Aplicația funcțională, fără identitate vizuală: paletă rece bleumarin/gri, carduri plate,

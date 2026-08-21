@@ -496,14 +496,6 @@ Etapa 5, și se fac o singură dată.
 la `stiinte01-v2`, deci noul design ajunge la ei singur, la următoarea deschidere. Fără acest
 pas ar fi rămas pe stilurile vechi din cache, la nesfârșit.
 
-> **De reținut pentru mai târziu:** în depozit mai există o ramură,
-> `claude/pwa-social-sciences-app-yzli16`, care conține un generator separat de vault Obsidian
-> (`tools/graphify.py`, un vault de 79 de note generate din `data/`). Nu e pe `main` și nu a
-> fost atinsă aici, dar dacă va fi îmbinată vreodată, cele două vaulturi se vor ciocni pe
-> același folder. Atunci trebuie decis care rămâne: al meu e scris de mână și descrie
-> *sistemul de design*; celălalt e generat automat și descrie *conținutul de studiu*.
-> Se pot păstra amândouă, în foldere diferite.
-
 ---
 
 ## Bilanț — versiunea 01, „Sticlă caldă”
@@ -539,3 +531,72 @@ corecturi: am scris cifre în documentație fără să le recalculez, și am rup
 stil ștergând o acoladă — iar propria mea baterie de teste a trecut fără să observe. Prima
 greșeală a fost prinsă de un verificator; a doua, de o unealtă pe care am scris-o abia după
 ce s-a întâmplat. Amândouă rulează acum automat, la fiecare push.
+
+---
+
+## 2026-08-21, mai târziu — Unificarea vaultului
+
+**Observația care a declanșat asta:** notasem cealaltă ramură ca pe o „ciocnire viitoare” și
+o lăsasem acolo. Corect era invers — asta e chiar logica lui git: ce se lucrează pe o ramură
+se îmbină în `main`. Un avertisment lăsat în jurnal nu e o soluție, e o amânare.
+
+### 19 · Ce era pe cealaltă ramură
+
+`claude/pwa-social-sciences-app-yzli16`, un singur commit: `tools/graphify.py`, un generator
+care transformă `data/curriculum.json` și `data/continut.json` într-un vault Obsidian de
+**79 de note** legate prin wikilink-uri — parcurs → clase → arii curriculare → materii →
+lecții, plus câte o notă de carduri și una de test pentru fiecare materie. Plus
+`tools/verifica_vault.py` și un workflow care regenerează vaultul când se schimbă datele.
+
+### 20 · Suprafața reală de conflict — mult mai mică decât părea
+
+Am măsurat-o înainte de a atinge ceva. Din 87 de fișiere adăugate, se suprapuneau **cinci**:
+
+| Cale | De ce |
+|---|---|
+| `README.md` | ambele ramuri au modificat tabelul de structură |
+| `vault/.obsidian/*.json` (×4) | ambele au creat configurația vaultului |
+
+**Restul stă în foldere diferite.** Jumătatea mea: `00-Index`, `10-Jurnal`, `20-Design`,
+`30-Aplicatie`, `40-Verificare`. Jumătatea generată: `Curriculum`, `Materii`, `Lecții`,
+`Carduri`, `Teste`. Deci nu erau două vaulturi concurente, ci **două jumătăți ale aceluiași
+vault**: una descrie cum e făcută aplicația, cealaltă descrie ce se învață din ea.
+
+### 21 · Riscul real, verificat înainte de îmbinare
+
+Generatorul face `shutil.rmtree` pe foldere din `vault/`. Dacă ar fi șters tot, notele mele ar
+fi dispărut la prima regenerare de pe GitHub — tăcut, printr-un commit al robotului.
+
+Am citit codul înainte: șterge **doar cele cinci foldere ale lui**, cu comentariu explicit că
+notele proprii rămân. Deci convieţuirea era posibilă. Două lucruri au trebuit totuși reparate:
+
+1. **Suprascria configurația `.obsidian` la fiecare rulare.** Culorile grafului și lista de
+   plugin-uri sunt reglate acum pentru amândouă jumătățile; o rescriere le-ar fi pierdut de
+   fiecare dată. Acum scrie doar fișierele care **lipsesc** — adică la prima generare, sau
+   dacă cineva le șterge intenționat ca să le refacă.
+2. **`verifica_vault.py` raporta trei legături rupte care nu existau.** Notele mele conțin
+   literalul `[[wikilink]]` scris în cod inline, ca explicație a convenției. Un link în
+   interiorul unui bloc de cod nu e un link — Obsidian nu-l interpretează. Am reparat
+   **verificatorul**, nu textul: ignoră acum blocurile de cod și codul inline, exact cum face
+   și verificatorul meu.
+
+### 22 · Legarea celor două jumătăți
+
+Nota de start a jumătății generate se rescrie la fiecare rulare, deci legătura către
+documentație nu putea fi pusă în fișier — ar fi dispărut. Am pus-o **în generator**, așa că
+supraviețuiește oricărei regenerări. Invers, harta de conținut scrisă de mână trimite la nota
+de start și își enumeră acum și folderele generate, cu mențiunea cine le scrie.
+
+### 23 · Verificare după îmbinare
+
+- **Regenerare de probă:** am rulat generatorul pe vaultul unificat. Cele 10 note scrise de
+  mână au supraviețuit intacte, iar configurația a păstrat accentul cald.
+- **Ambii verificatori, pe tot vaultul:** 89 de note, 632 de wikilink-uri, **zero legături
+  rupte, zero note orfane**. Al meu confirmă în plus: JSON valid, frontmatter valid,
+  diacritice cu virgulă, tabele consecvente, blocuri de cod echilibrate.
+- **Aplicația nu a fost atinsă** de îmbinare — niciun fișier din `assets/`, `data/`, `icons/`,
+  `index.html`, `sw.js`, `manifest.webmanifest`. Am rulat oricum toată bateria: capturi pe
+  toate ecranele, testul de interacțiune, verificările din CI. Totul verde.
+
+**Rezultat:** un singur vault, 89 de note, două jumătăți care nu se calcă, cu două puncte de
+intrare care trimit una la alta. Și ambele unelte de verificare rulează în CI.
