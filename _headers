@@ -12,8 +12,11 @@
 /data/*
   Cache-Control: no-cache
 
+# no-cache = revalidare la fiecare cerere (304 dacă nu s-a schimbat), NU „fără cache".
+# Fișierele nu au amprentă în nume, deci un max-age lung servea CSS/JS vechi
+# lângă HTML nou timp de 7 zile. Viteza o dă oricum service worker-ul (cache-first).
 /assets/*
-  Cache-Control: public, max-age=604800
+  Cache-Control: no-cache
 
 /icons/*
   Cache-Control: public, max-age=2592000

@@ -1,11 +1,13 @@
 /* Service worker: precache + strategii de cache.
    IMPORTANT: crește CACHE la fiecare modificare a fișierelor, ca utilizatorii să primească versiunea nouă. */
-const CACHE = 'stiinte01-v3';   // v02 „Responsiv total” — layout adaptiv + pornire instantanee
+const CACHE = 'stiinte01-v4';   // v02.1 — precache-ul ocolește cache-ul HTTP (fix amestec de versiuni)
 const ASSETS = [
   './',
   './index.html',
-  './assets/app.css',
-  './assets/app.js',
+  /* ?v= trebuie să fie IDENTIC cu cel din index.html (cache-ul SW potrivește
+     URL-ul exact, cu tot cu query) — CI-ul verifică sincronizarea. */
+  './assets/app.css?v=4',
+  './assets/app.js?v=4',
   './manifest.webmanifest',
   './data/curriculum.json',
   './data/continut.json',
@@ -17,7 +19,11 @@ const ASSETS = [
 self.addEventListener('install', e => {
   e.waitUntil(
     caches.open(CACHE)
-      .then(c => c.addAll(ASSETS))
+      /* `cache:'reload'` OCOLEȘTE cache-ul HTTP al browserului. Fără el,
+         addAll poate umple precache-ul noii versiuni cu fișiere VECHI luate
+         din cache-ul HTTP (assets aveau max-age de 7 zile și nu au amprentă
+         în nume) — exact bug-ul „HTML nou + CSS vechi” văzut în producție. */
+      .then(c => c.addAll(ASSETS.map(u => new Request(u, { cache: 'reload' }))))
       .then(() => self.skipWaiting())
   );
 });
@@ -52,7 +58,7 @@ self.addEventListener('fetch', e => {
     }
     e.respondWith(
       caches.match('./').then(hit => {
-        const net = fetch(req).then(res => {
+        const net = fetch(req, { cache: 'no-cache' }).then(res => {
           if (res && res.ok && !res.redirected) {
             const copy = res.clone();
             caches.open(CACHE).then(c => c.put('./', copy));
@@ -68,7 +74,10 @@ self.addEventListener('fetch', e => {
   // Restul: cache-first, cu revalidare în fundal.
   e.respondWith(
     caches.match(req).then(hit => {
-      const net = fetch(req).then(res => {
+      /* Revalidarea de fundal ocolește cache-ul HTTP: condiționată (304 =
+         ieftin) când există validatori, descărcare completă altfel. Fără ea
+         s-ar citi tot din cache-ul HTTP și s-ar rămâne veșnic pe vechi. */
+      const net = fetch(req, { cache: 'no-cache' }).then(res => {
         if (res && res.ok) {
           const copy = res.clone();
           caches.open(CACHE).then(c => c.put(req, copy));

@@ -41,6 +41,10 @@ codul), înainte de merge:
    **și** într-o notă nouă în **`vault/10-Jurnal/`**, legată din MOC.
 4. La **orice modificare** a fișierelor publicate, crește versiunea `CACHE` din `sw.js`
    (`stiinte01-vN` → `vN+1`), altfel utilizatorii rămân pe versiunea veche din cache.
+   Dacă s-a schimbat `app.css`/`app.js`, crește la același `N` și `?v=` din `index.html`
+   și din `ASSETS` (CI-ul verifică sincronizarea). La modificări de SW, rulează și
+   `node tools/test-sw.mjs` (cu serverul local pornit) — testează ciclul de update
+   cu service worker activ.
 5. Push pe `main` republică automat aplicația (GitHub Pages + Cloudflare Pages, dacă e
    conectat). Workflow-urile din `.github/workflows/` verifică și publică.
 

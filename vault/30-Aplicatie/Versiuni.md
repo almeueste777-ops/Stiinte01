@@ -32,6 +32,11 @@ Aplicația devine utilizabilă pe **orice dimensiune de ecran** și pornește in
 **Ce NU s-a schimbat** — datele, logica de progres, cheia `localStorage`, estetica
 v01 (doar se întinde pe toate ecranele). Cache SW: `stiinte01-v3`.
 
+**v02.1, aceeași zi** — reparat amestecul de versiuni din cache găsit de primul
+utilizator real (HTML nou + CSS vechi de 7 zile): precache cu `cache:'reload'`,
+`/assets/*` pe `no-cache`, reîncărcare automată unică la preluarea controlului de
+către un SW nou. Cache SW: `stiinte01-v4`. Detalii: [[Responsivitate și viteză]].
+
 Detalii: [[Responsivitate și viteză]] · [[Jurnal 2026-08-21 — Responsiv v02]] ·
 [[Raport verificare v02]]
 
