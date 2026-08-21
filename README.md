@@ -140,7 +140,13 @@ publică și o arhivă `vault-obsidian` descărcabilă din pagina Actions.
 ## Publicare
 
 **Aplicația live:** <https://almeueste777-ops.github.io/Stiinte01/> — republicată automat
-de GitHub Actions la fiecare push pe `main`.
+de GitHub Actions la fiecare push pe `main` (workflow-ul împinge ramura `gh-pages`).
+
+> **O singură dată, la prima publicare:** un administrator al depozitului trebuie să
+> activeze situl din **Settings → Pages → Build and deployment → Source: „Deploy from
+> a branch" → Branch: `gh-pages` / `/ (root)` → Save**. Tokenul din Actions nu are voie
+> să creeze situl Pages — doar să-l actualizeze după activare. După acest clic, totul
+> e automat, pentru totdeauna.
 
 Pentru varianta Cloudflare Pages (opțională, `stiinte01.pages.dev`), vezi
 [`docs/PLAN.md`](docs/PLAN.md) — pașii exacți pentru GitHub și Cloudflare Pages.
