@@ -600,3 +600,101 @@ de start și își enumeră acum și folderele generate, cu mențiunea cine le s
 
 **Rezultat:** un singur vault, 89 de note, două jumătăți care nu se calcă, cu două puncte de
 intrare care trimit una la alta. Și ambele unelte de verificare rulează în CI.
+
+---
+
+## 2026-08-21, seara — Versiunea 02, „Responsiv total"
+
+**Cerința:** aplicația să fie utilizabilă pe toate dimensiunile de ecran, foarte
+responsivă, cu viteză de reacție foarte mare. Plus proces permanent: branch → merge în
+`main`, jurnal + vault la fiecare livrare, echipă de agenți care verifică la fiecare
+rulare, iar la final — linkul aplicației.
+
+### 24 · Diagnoza: o coloană de telefon, oriunde ai deschide-o
+
+V01 arăta impecabil pe telefon, dar era *doar* un telefon: aceeași coloană de 760px
+pe un monitor de 27", cu bara de taburi jos, în stil telefon, și spațiu gol în rest.
+Iar la pornire, service worker-ul cerea întâi rețeaua — pe o conexiune proastă,
+aplicația „instalată" se deschidea cu întârziere vizibilă.
+
+### 25 · Scara de layout, treaptă cu treaptă
+
+Nicio schimbare de estetică — v01 rămâne intactă vizual — doar întinsă corect:
+
+| Prag | Schimbarea |
+|---|---|
+| ≤340px | baza tipografică coboară la 15px; nimic nu se rupe pe Galaxy Fold închis |
+| ≥700px | listele de carduri trec pe 2 coloane (`.grid-cards`, `minmax(0,1fr)`) |
+| ≥900px | lecția: text la stânga, notițe lipicioase la dreapta; planul pe 2 coloane |
+| ≥1024px | bara de taburi devine **rail vertical** la stânga, ca pe iPadOS; coloană de 900px |
+| ≥1440px | 3 coloane pentru liste, coloană de 1000px |
+
+Rail-ul refolosește întreaga mecanică a pilulei: JS-ul pune aceleași `--tab-i` și
+`--tab-count`, doar axa transformării se schimbă în CSS. Plus safe-area pe toate
+laturile (decupajul camerei în peisaj) și `orientation: any` în manifest — pastila
+de instalare nu mai blochează peisajul, ceea ce ar fi contrazis tot restul.
+
+### 26 · Viteza: patru mutări, fiecare cu motivul ei
+
+1. **Cache-first la navigare** în `sw.js`: pornire instantanee din cache, revalidare
+   în fundal. Prospețimea reală o dă oricum bump-ul de `CACHE` (acum `v3`).
+2. **Preload pentru ambele JSON-uri** în `<head>`, cu `crossorigin` — fără atribut,
+   preload-ul nu s-ar potrivi cu `fetch()`-ul (mod CORS) și totul s-ar descărca dublu.
+3. **Delegare de evenimente**: un ascultător pe `#view` pentru tot `[data-go]`, în
+   locul re-legării la fiecare randare. `bindGo()` a dispărut cu totul.
+4. **Schimbarea clasei pe Acasă** rescrie doar panoul cu tabelul: **80ms măsurat**,
+   fără repornirea animațiilor de intrare, fără săritura de scroll a re-randării.
+
+Și una de fond: fundalul ambiental stătea pe `background-attachment: fixed`, care
+forțează repictarea gradientului la fiecare cadru de derulare și e ignorat de iOS
+Safari. Acum e un `body::before` fix — compus o singură dată pe GPU.
+
+### 27 · Bug-ul rulării: pastila care a slăbit
+
+Prima variantă punea geometria verticală a pastilei `.tab-ind` în secțiunea
+responsivă a stratului 2. Dar stilul de bază al pastilei e în stratul 3, mai jos în
+fișier — la specificitate egală câștiga el, iar pastila rămânea o fâșie de 17px care
+glisa orizontal peste rail. Capturile automate au prins-o din prima rulare; mutarea
+suprascrierii în stratul 3, cu comentariu care explică de ce, a închis-o. Avertismentul
+din capul fișierului — „ordinea straturilor NU e decorativă" — s-a dovedit din nou.
+
+### 28 · Procesul devine instituție
+
+- **`CLAUDE.md`** nou la rădăcină. Regula nr. 1: *cine citește CLAUDE.md citește și
+  vault-ul Obsidian* — MOC-ul plus ultima notă de jurnal. Regula nr. 2: *echipa de
+  verificare la fiecare rulare* — nimic nu se îmbină neverificat.
+- **`.claude/agents/`**: `verificator-cod` (adversarial, pe diff) și `verificator-ui`
+  (empiric, cu capturi pe toată scara de ecrane). Definiți în repo, deci disponibili
+  oricărei rulări viitoare.
+- **`publicare-pages.yml`**: fiecare push pe `main` publică aplicația pe GitHub Pages —
+  un link public care nu depinde de configurarea manuală a Cloudflare.
+
+### 29 · Verificarea
+
+Bateria proprie: verificatorii din CI local (JSON, sintaxă, structură CSS, precache),
+apoi capturi Playwright pe **8 viewporturi × 2 teme × 7 ecrane**, cu măsurători
+automate: fără derulare orizontală nicăieri, rail-ul vertical exact de la 1024px,
+pilula orizontală sub, toate țintele ≥44px, interacțiunea cap-coadă (navigare,
+întoarcere de card, test, schimbare de clasă). Apoi **doi agenți independenți** —
+unul pe cod, unul pe interfață — ale căror constatări sunt în
+`vault/40-Verificare/Raport verificare v02.md`.
+
+### 30 · Ce a găsit echipa — și de ce a meritat
+
+Verificatorul de cod a găsit **un blocant** pe care bateria mea nu-l prinsese:
+`content:""` de pe `body::before` ajunsese în fișier cu ghilimele **tipografice**
+(U+201D) — unealta de editare „înfrumusețase" ghilimelele într-un fișier plin de
+comentarii românești. Declarația invalidă era aruncată tăcut, deci fundalul ambiental
+— exact funcția mutată în acest commit — nu se mai desena deloc, în ambele teme. A
+trecut prin verificatorul de CSS (care număra doar acolade) și prin toate capturile
+anterioare (care arătau fundal plat fără să știe că trebuia mesh). Plus un
+**important**: cache-first-ul de la navigare putea stoca un răspuns `redirected`,
+care pe Cloudflare Pages (308 la `/index.html`) ar fi blocat pornirea aplicației la
+fiecare deschidere. Verificatorul de UI a confirmat empiric toată scara (48 de
+combinații viewport × rută, zero scroll orizontal, zero erori JS) și a prins pragul
+greșit al planului (700 în loc de 900).
+
+Toate corectate și **reverificate empiric** — mesh-ul se vede acum pe captură, iar
+`verifica-css.mjs` detectează de-acum ghilimelele tipografice în afara comentariilor,
+în CI, ca eroare. Clasa de bug e închisă definitiv. Detalii:
+`vault/40-Verificare/Raport verificare v02.md`.

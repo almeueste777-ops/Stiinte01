@@ -451,7 +451,7 @@ body{
    forțează repictarea gradientului la fiecare cadru de derulare (și e ignorat
    de iOS Safari). Un pseudo-element fix se compune o singură dată pe GPU. */
 body::before{
-  content:””; position:fixed; inset:0; z-index:-1;
+  content:""; position:fixed; inset:0; z-index:-1;
   background:var(--surface-base);
   background-image:var(--ambient);
   pointer-events:none;
@@ -972,9 +972,10 @@ textarea:focus{outline:none; box-shadow:var(--nm-inset), var(--focus-ring)}
   .tabbar{width:calc(100% - var(--sp-6) * 2)}
 }
 
-/* ecrane late de la 700px: listele de carduri respiră pe 2 coloane */
+/* ecrane late de la 700px: listele de carduri respiră pe 2 coloane.
+   Planul (.plan-grid) NU: tabelele lui au nevoie de lățime — pragul lui e 900. */
 @media (min-width:700px){
-  .grid-cards{grid-template-columns:repeat(2,minmax(0,1fr)); gap:var(--sp-6)}
+  .grid-cards:not(.plan-grid){grid-template-columns:repeat(2,minmax(0,1fr)); gap:var(--sp-6)}
 }
 
 /* tabletă / desktop: mai mult aer, aceeași coloană de 760px */
@@ -1012,6 +1013,8 @@ textarea:focus{outline:none; box-shadow:var(--nm-inset), var(--focus-ring)}
   .tabbar{bottom:calc(var(--safe-b) + var(--sp-4))}
   .flash{min-height:150px; padding:var(--sp-6); font-size:1.05rem}
   h2{margin-top:var(--sp-6)}
+  /* pe fereastră lată dar scundă, sticky-ul notițelor urmează topbarul compact */
+  .two-col > .two-col-side{top:calc(var(--topbar-h-compact) + var(--safe-t) + var(--sp-5))}
 }
 
 /* ≥1024px: bara de taburi devine rail vertical, ancorat la stânga.
@@ -1468,5 +1471,5 @@ textarea:focus{outline:none; box-shadow:var(--nm-inset), var(--focus-ring)}
 
    ✔ .view-ghost are contain:layout paint style — clona există ~340ms și nu
      trebuie să polueze layout-ul paginii reale. JS o limitează și la ecrane
-     sub 400 de noduri (vezi spawnGhost).
+     sub 2000 de noduri (vezi spawnGhost).
    ══════════════════════════════════════════════════════════════════════════ */

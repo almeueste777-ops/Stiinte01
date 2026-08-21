@@ -31,6 +31,14 @@ Paleta e caldă — nisip, smântână, lut, teracotă, chihlimbar — cu o tem�
 Mișcarea folosește curbele reale din iOS, iar `prefers-reduced-motion`,
 `prefers-contrast: more` și `prefers-reduced-transparency` sunt tratate explicit.
 
+## Responsiv — versiunea 02, „Responsiv total"
+
+Aplicația e utilizabilă pe **orice dimensiune de ecran**, de la Galaxy Fold închis la
+monitor de 27": liste pe 2–3 coloane de la 700px, lecția cu notițe lipicioase alături
+de la 900px, **rail vertical de navigare** pe desktop (≥1024px), safe-area pe toate
+laturile în peisaj. Și pornește **instantaneu**: service worker cache-first, date
+preîncărcate, actualizări de ecran parțiale acolo unde contează.
+
 Documentația completă a sistemului e în vaultul Obsidian din [`vault/`](vault/), în
 `vault/20-Design/`. Jurnalul de lucru e în [`jurnal.md`](jurnal.md).
 
@@ -65,6 +73,9 @@ python3 -m http.server 8765
 | `_headers` | anteturi HTTP pentru Cloudflare Pages |
 | `docs/PLAN.md` | planul complet de realizare și pașii de publicare |
 | `jurnal.md` | jurnalul de lucru: ce s-a făcut, de ce, cu ce rezultat |
+| `CLAUDE.md` | ghidul de lucru pentru Claude: regula CLAUDE.md ⇒ Obsidian, echipa de verificare, procesul de livrare |
+| `.claude/agents/` | agenții verificatori (`verificator-cod`, `verificator-ui`), lansați la fiecare rulare |
+| `.github/workflows/publicare-pages.yml` | publică aplicația pe GitHub Pages la fiecare push pe `main` |
 | `vault/` | vault Obsidian — vezi mai jos |
 | `tools/graphify.py` | generează jumătatea de *conținut* a vault-ului din `data/` |
 | `tools/verifica_vault.py` | verifică legăturile din vault (rulează în CI) |
@@ -128,7 +139,11 @@ publică și o arhivă `vault-obsidian` descărcabilă din pagina Actions.
 
 ## Publicare
 
-Vezi [`docs/PLAN.md`](docs/PLAN.md) — pașii exacți pentru GitHub și Cloudflare Pages.
+**Aplicația live:** <https://almeueste777-ops.github.io/Stiinte01/> — republicată automat
+de GitHub Actions la fiecare push pe `main`.
+
+Pentru varianta Cloudflare Pages (opțională, `stiinte01.pages.dev`), vezi
+[`docs/PLAN.md`](docs/PLAN.md) — pașii exacți pentru GitHub și Cloudflare Pages.
 
 ## Surse pentru planul de învățământ
 

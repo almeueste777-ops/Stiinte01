@@ -14,6 +14,27 @@ Schema de numerotare: **versiunea aplicației** (`01`, `02`, …) marchează o e
 pentru utilizator. Ea este independentă de versiunea cache-ului din `sw.js`, care crește la
 *fiecare* modificare de fișiere, oricât de mică.
 
+## v02 — 2026-08-21 · „Responsiv total”
+
+Aplicația devine utilizabilă pe **orice dimensiune de ecran** și pornește instantaneu.
+
+**Ce s-a schimbat**
+- Scara completă de layout: grile pe 2–3 coloane de la 700px, lecția pe două coloane
+  cu notițe lipicioase de la 900px, **rail vertical de navigare** pe desktop (≥1024px),
+  treaptă pentru ecrane minuscule (≤340px), safe-area pe toate laturile.
+- Viteză: service worker **cache-first la navigare** (pornire instantanee), preload
+  pentru date, delegare de evenimente, schimbarea clasei fără re-randare completă,
+  fundal ambiental mutat pe strat fix compus pe GPU.
+- Manifest: `orientation: any` — instalarea nu mai blochează peisajul.
+- Proces: `CLAUDE.md` cu regula „CLAUDE.md ⇒ Obsidian”, agenți verificatori în
+  `.claude/agents/`, publicare automată pe GitHub Pages.
+
+**Ce NU s-a schimbat** — datele, logica de progres, cheia `localStorage`, estetica
+v01 (doar se întinde pe toate ecranele). Cache SW: `stiinte01-v3`.
+
+Detalii: [[Responsivitate și viteză]] · [[Jurnal 2026-08-21 — Responsiv v02]] ·
+[[Raport verificare v02]]
+
 ## v01 — 2026-08-21 · „Sticlă caldă”
 
 Prima versiune cu identitate vizuală proprie. Faza 1: **doar design**, fără funcționalități noi.

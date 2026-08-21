@@ -34,17 +34,28 @@ self.addEventListener('fetch', e => {
   const req = e.request;
   if (req.method !== 'GET' || new URL(req.url).origin !== location.origin) return;
 
-  // Navigări: CACHE-FIRST, cu revalidare în fundal. Aplicația pornește
-  // instantaneu din cache (chiar și pe rețea proastă), iar versiunea nouă —
-  // dacă există — se descarcă în spate și se vede la următoarea deschidere.
-  // Prospețimea reală o dă oricum bump-ul de versiune CACHE la fiecare release.
+  // Navigări către shell (/ sau /index.html): CACHE-FIRST, cu revalidare în
+  // fundal. Aplicația pornește instantaneu din cache (chiar și pe rețea
+  // proastă), iar versiunea nouă se descarcă în spate și se vede la următoarea
+  // deschidere. Prospețimea reală o dă oricum bump-ul de CACHE la release.
+  // Cheia de cache e './', NU './index.html': Cloudflare Pages redirecționează
+  // 308 /index.html -> /, iar un răspuns `redirected` servit unei navigări e
+  // respins de browser cu eroare de rețea — aplicația n-ar mai porni deloc.
+  // Din același motiv, un răspuns redirected nu se stochează niciodată.
   if (req.mode === 'navigate') {
+    const cale = new URL(req.url).pathname;
+    if (!(cale.endsWith('/') || cale.endsWith('/index.html'))) {
+      // fișier deschis direct într-un tab (ex. data/continut.json):
+      // rețeaua întâi, shell-ul din cache doar ca rezervă offline
+      e.respondWith(fetch(req).catch(() => caches.match('./')));
+      return;
+    }
     e.respondWith(
-      caches.match('./index.html').then(hit => {
+      caches.match('./').then(hit => {
         const net = fetch(req).then(res => {
-          if (res && res.ok) {
+          if (res && res.ok && !res.redirected) {
             const copy = res.clone();
-            caches.open(CACHE).then(c => c.put('./index.html', copy));
+            caches.open(CACHE).then(c => c.put('./', copy));
           }
           return res;
         }).catch(() => hit);

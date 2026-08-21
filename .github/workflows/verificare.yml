@@ -29,6 +29,9 @@ jobs:
       - name: Verifică structura foii de stil
         run: node tools/verifica-css.mjs assets/app.css
 
+      - name: Verifică legăturile din vaultul Obsidian
+        run: python3 tools/verifica_vault.py
+
       - name: Verifică fișierele obligatorii ale PWA
         run: |
           for f in index.html manifest.webmanifest sw.js tools/verifica-css.mjs \
