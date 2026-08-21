@@ -112,7 +112,8 @@
      cardul următor din pachet). */
   const STAGGER_SEL = ':scope > p, :scope > h2, :scope > .card, :scope > .chips, ' +
                       ':scope > .grid2, :scope > .btn, :scope > .flip, ' +
-                      ':scope > #opt > .opt, :scope > #card-actions';
+                      ':scope > #opt > .opt, :scope > #card-actions, ' +
+                      ':scope > .grid-cards > *, :scope > .two-col > *, :scope > #clasa-panou > *';
   function paint(restagger) {
     view.querySelectorAll(STAGGER_SEL).forEach((el, i) => {
       el.style.setProperty('--i', i);
@@ -257,17 +258,24 @@
       </div>
 
       <h2>Continuă unde ai rămas</h2>
-      ${nextLectiiHTML()}
+      <div class="grid-cards">${nextLectiiHTML()}</div>
 
       <h2>Materiile anului</h2>
       <div class="chips">${
         CUR.clase.map(c => `<button class="chip" data-clasa="${esc(c.clasa)}" aria-pressed="${c.clasa === state.clasa}">${esc(c.clasa)}</button>`).join('')
       }</div>
-      ${materiiClasaHTML(state.clasa)}
+      <div id="clasa-panou">${materiiClasaHTML(state.clasa)}</div>
     `;
-    bindGo();
+    /* Schimbarea clasei NU mai re-randează tot ecranul: se rescrie doar
+       panoul cu tabelul. Răspuns instantaneu, fără repornirea animațiilor
+       și fără pierderea poziției de derulare. */
     view.querySelectorAll('[data-clasa]').forEach(b => b.onclick = () => {
-      state.clasa = b.dataset.clasa; save(); render();
+      if (state.clasa === b.dataset.clasa) return;
+      state.clasa = b.dataset.clasa; save();
+      view.querySelectorAll('[data-clasa]').forEach(x =>
+        x.setAttribute('aria-pressed', String(x.dataset.clasa === state.clasa)));
+      const panou = view.querySelector('#clasa-panou');
+      if (panou) panou.innerHTML = materiiClasaHTML(state.clasa);
     });
   }
 
@@ -300,7 +308,7 @@
     title.textContent = 'Materii';
     view.innerHTML = `
       <p class="muted">Module de studiu cu lecții, carduri și test pentru fiecare disciplină.</p>
-      ${DB.module.map(m => {
+      <div class="grid-cards">${DB.module.map(m => {
         const done = m.lectii.filter(l => state.lectiiCitite[l.id]).length;
         return `<button class="card tap" data-go="#/materie/${m.id}">
           <div class="row"><h3>${esc(m.materie)}</h3><span class="pill soft">${esc(m.clasa)}</span></div>
@@ -308,8 +316,7 @@
           <div class="bar"><i style="--p:${m.lectii.length ? done / m.lectii.length : 0}"></i></div>
           <p class="muted" style="margin:8px 0 0">${done}/${m.lectii.length} lecții · ${m.flashcards.length} carduri · ${m.quiz.length} întrebări</p>
         </button>`;
-      }).join('')}`;
-    bindGo();
+      }).join('')}</div>`;
   }
 
   function viewMaterie(id) {
@@ -319,14 +326,13 @@
     view.innerHTML = `
       <div class="card"><p>${esc(m.descriere)}</p><p class="muted">Clasa ${esc(m.clasa)}</p></div>
       <h2>Lecții</h2>
-      ${m.lectii.map(l => `<button class="card tap" data-go="#/lectie/${m.id}/${l.id}">
+      <div class="grid-cards">${m.lectii.map(l => `<button class="card tap" data-go="#/lectie/${m.id}/${l.id}">
         <div class="row"><h3>${esc(l.titlu)}</h3>${state.lectiiCitite[l.id] ? '<span class="pill soft">✓ citit</span>' : ''}</div>
-      </button>`).join('')}
+      </button>`).join('')}</div>
       <div class="grid2" style="margin-top:12px">
         <button class="btn" data-go="#/carduri/${m.id}">Carduri</button>
         <button class="btn ghost" data-go="#/test/${m.id}">Test</button>
       </div>`;
-    bindGo();
   }
 
   function viewLectie(modId, lecId) {
@@ -335,19 +341,25 @@
     if (!l) return viewMaterii();
     title.textContent = m.materie;
     const nota = state.notite[l.id] || '';
+    /* .two-col: pe telefon curge normal; ≥900px textul stă la stânga,
+       notițele la dreapta (lipicioase), ca să nu derulezi ca să notezi. */
     view.innerHTML = `
-      <div class="card">
-        <h3>${esc(l.titlu)}</h3>
-        <p>${esc(l.rezumat)}</p>
-        <h3 style="margin-top:14px">Idei-cheie</h3>
-        <ul class="clean">${l.ideiCheie.map(i => `<li>${esc(i)}</li>`).join('')}</ul>
-      </div>
-      <div class="card">
-        <h3>Notițele mele</h3>
-        <textarea id="nota" rows="4" placeholder="Scrie aici...">${esc(nota)}</textarea>
-        <p class="muted" id="nota-stare" style="margin:6px 0 0">Salvate automat pe acest dispozitiv.</p>
-      </div>
-      <button class="btn" id="marcheaza">${state.lectiiCitite[l.id] ? '✓ Marcată ca citită — anulează' : 'Marchează drept citită'}</button>`;
+      <div class="two-col">
+        <div class="card">
+          <h3>${esc(l.titlu)}</h3>
+          <p>${esc(l.rezumat)}</p>
+          <h3 style="margin-top:14px">Idei-cheie</h3>
+          <ul class="clean">${l.ideiCheie.map(i => `<li>${esc(i)}</li>`).join('')}</ul>
+        </div>
+        <div class="two-col-side">
+          <div class="card">
+            <h3>Notițele mele</h3>
+            <textarea id="nota" rows="4" placeholder="Scrie aici...">${esc(nota)}</textarea>
+            <p class="muted" id="nota-stare" style="margin:6px 0 0">Salvate automat pe acest dispozitiv.</p>
+          </div>
+          <button class="btn" id="marcheaza">${state.lectiiCitite[l.id] ? '✓ Marcată ca citită — anulează' : 'Marchează drept citită'}</button>
+        </div>
+      </div>`;
 
     const ta = view.querySelector('#nota');
     const stare = view.querySelector('#nota-stare');
@@ -476,7 +488,6 @@
         <button class="btn ghost" data-go="#/acasa">Acasă</button>
       </div>`;
       view.querySelector('#reia').onclick = () => viewTest(qId === 'toate' ? undefined : qId);
-      bindGo();
       paint(true);
       return;
     }
@@ -516,12 +527,14 @@
         <span class="muted">${esc(CUR.parcurs.forma)} — ${esc(CUR.parcurs.durata)}</span></p>
       </div>
       <div class="card"><p class="muted">${esc(CUR.parcurs.observatie)}</p></div>
-      ${CUR.clase.map(c => `
-        <h2>Clasa ${esc(c.clasa)}</h2>
-        <div class="card"><table>
-          <tr><th>Disciplina</th><th>Arie</th></tr>
-          ${c.materii.map(m => `<tr><td>${esc(m.nume)} ${m.bac ? '<span class="pill">BAC</span>' : ''}</td><td class="muted">${esc(m.arie)}</td></tr>`).join('')}
-        </table></div>`).join('')}
+      <div class="grid-cards plan-grid">${CUR.clase.map(c => `
+        <section class="plan-sec">
+          <h2>Clasa ${esc(c.clasa)}</h2>
+          <div class="card"><table>
+            <tr><th>Disciplina</th><th>Arie</th></tr>
+            ${c.materii.map(m => `<tr><td>${esc(m.nume)} ${m.bac ? '<span class="pill">BAC</span>' : ''}</td><td class="muted">${esc(m.arie)}</td></tr>`).join('')}
+          </table></div>
+        </section>`).join('')}</div>
       <h2>Probele de bacalaureat</h2>
       <div class="card"><table>
         ${Object.entries(CUR.bacalaureat).map(([k, v]) => `<tr><td><strong>${esc(k.replace('proba', 'Proba '))}</strong></td><td>${esc(v)}</td></tr>`).join('')}
@@ -529,9 +542,12 @@
   }
 
   /* ---------- glue ---------- */
-  function bindGo() {
-    view.querySelectorAll('[data-go]').forEach(b => b.onclick = () => { location.hash = b.dataset.go; });
-  }
+  /* UN SINGUR ascultător delegat pentru toată navigarea [data-go], atașat o
+     dată la pornire: nicio muncă per-randare, niciun handler de uitat. */
+  view.addEventListener('click', e => {
+    const go = e.target.closest('[data-go]');
+    if (go) location.hash = go.dataset.go;
+  });
 
   tabs.forEach(t => t.onclick = () => { location.hash = '#/' + t.dataset.route; });
   backBtn.onclick = () => history.back();

@@ -10,6 +10,11 @@
 <meta name="theme-color" content="#F7EEE2" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#191310" media="(prefers-color-scheme: dark)">
 <link rel="manifest" href="./manifest.webmanifest">
+<!-- Datele pornesc la drum odată cu CSS-ul, nu abia după ce rulează JS-ul.
+     `crossorigin` e obligatoriu: fetch()-ul din app.js e în mod CORS, iar un
+     preload fără atribut nu s-ar potrivi și s-ar descărca totul de două ori. -->
+<link rel="preload" href="./data/curriculum.json" as="fetch" crossorigin>
+<link rel="preload" href="./data/continut.json" as="fetch" crossorigin>
 <link rel="icon" href="./icons/icon-192.png" sizes="192x192" type="image/png">
 <link rel="apple-touch-icon" href="./icons/icon-192.png">
 <meta name="apple-mobile-web-app-capable" content="yes">

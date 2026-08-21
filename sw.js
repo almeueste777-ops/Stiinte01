@@ -1,6 +1,6 @@
 /* Service worker: precache + strategii de cache.
    IMPORTANT: crește CACHE la fiecare modificare a fișierelor, ca utilizatorii să primească versiunea nouă. */
-const CACHE = 'stiinte01-v2';   // v01 „Sticlă caldă” — redesign complet
+const CACHE = 'stiinte01-v3';   // v02 „Responsiv total” — layout adaptiv + pornire instantanee
 const ASSETS = [
   './',
   './index.html',
@@ -34,10 +34,22 @@ self.addEventListener('fetch', e => {
   const req = e.request;
   if (req.method !== 'GET' || new URL(req.url).origin !== location.origin) return;
 
-  // Navigări: network-first, cu index.html din cache ca rezervă (aplicație offline).
+  // Navigări: CACHE-FIRST, cu revalidare în fundal. Aplicația pornește
+  // instantaneu din cache (chiar și pe rețea proastă), iar versiunea nouă —
+  // dacă există — se descarcă în spate și se vede la următoarea deschidere.
+  // Prospețimea reală o dă oricum bump-ul de versiune CACHE la fiecare release.
   if (req.mode === 'navigate') {
     e.respondWith(
-      fetch(req).catch(() => caches.match('./index.html'))
+      caches.match('./index.html').then(hit => {
+        const net = fetch(req).then(res => {
+          if (res && res.ok) {
+            const copy = res.clone();
+            caches.open(CACHE).then(c => c.put('./index.html', copy));
+          }
+          return res;
+        }).catch(() => hit);
+        return hit || net;
+      })
     );
     return;
   }
