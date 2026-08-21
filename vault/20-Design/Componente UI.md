@@ -24,7 +24,7 @@ ridicată deasupra zonei sigure (`env(safe-area-inset-bottom)`), cu o pastilă d
 alunecă sub tabul selectat.
 
 Detalii care contează:
-- lățime `min(100% − 24px, 430px)` — pe tabletă nu se întinde absurd;
+- lățime `min(100% − 40px, 430px)` — pe tabletă nu se întinde absurd;
 - `.tab-ind` e `position:absolute`, deci **nu intră** în grila de 5 coloane;
 - poziția vine din `--tab-i`, scris din `app.js` — fără dependență de `:has()`;
 - la `prefers-reduced-motion` pastila sare, nu alunecă.
@@ -36,7 +36,7 @@ Sticlă translucidă, `position:fixed`, conținutul curge pe dedesubt. `body` pr
 
 ## Iconițele
 
-Caracterele unicode geometrice (`●`, `☰`, `▣`, `✓`, `▩`) au fost înlocuite cu **SVG inline**,
+Caracterele unicode geometrice (`●`, `☰`, `▣`, `✓`, `▦`) au fost înlocuite cu **SVG inline**,
 24×24, `stroke="currentColor"`, grosime 1,75, capete rotunde, fără umplere — geometrie în
 spiritul SF Symbols.
 
@@ -63,12 +63,12 @@ Plus un chevron pentru butonul „înapoi”. Fiindcă moștenesc `currentColor`
 | `.card.tap` | se **scufundă** la apăsare (`--nm-pressed`), nu clipește; chevron doar pe cardurile-listă, nu pe dalele din `.grid2` |
 | `.chip` | pastilă neumorfică; selectată = umplută cu gradient de brand |
 | `.pill` | insigna BAC, chihlimbar plin; `.pill.soft` = pastilă scufundată |
-| `.btn` | relief ridicat; apăsarea îl împinge în suprafață (`translateY(1px)` + inset) |
-| `.bar` | șanț neumorfic + umplere de chihlimbar cu halou și sclipire pe jumătatea de sus |
+| `.btn` | relief ridicat; apăsarea îl scufundă — `scale(.96)` plus umbră `inset` |
+| `.bar` | șanț neumorfic + umplere de chihlimbar cu halou, sclipire pe jumătatea de sus și **contur de 1px** — fără el, muchia umplerii dădea 1,23:1 pe tema deschisă, adică era invizibilă |
 | `.opt` | ridicat → apăsat → rezolvat; bulinuță scufundată ca un buton radio tactil |
 | `.opt.correct` | salvie caldă + bifă desenată din două muchii de bordură |
 | `.opt.wrong` | lut ars + X din două gradiente liniare |
-| `.flash` | sticlă înaltă cu reflex specular oblic și căldură în muchia de jos |
+| `.flash` | sticlă înaltă (curată, fără relief) cu reflex specular oblic și căldură în muchia de jos |
 | `textarea` | puț neumorfic scufundat |
 | tabele | rânduri aerisite pe o placă, antet lipicios sub bara de sus |
 
@@ -104,6 +104,8 @@ Fără să atingem `app.js`, trei stări sunt detectate din forma DOM-ului:
 ## Accesibilitate
 
 - Inel de focus **cald** (`outline` de 2,5px în teracotă + halou), niciodată albastrul implicit.
+  Regula de focus **nu** atinge `border-radius`: având aceeași specificitate ca `.chip`/`.tab`,
+  ar rescrie raza fiecărui element focalizat — pastilele s-ar pătrățoși exact la focus.
 - Ținte de atingere ≥ 44×44px — verificat automat pe toate ecranele și toate lățimile.
 - Contrastul textului e păstrat și peste sticlă (vezi [[Palete și tokenuri]]).
 - La `prefers-contrast: more`, cardurile, opțiunile și chipsurile primesc contur de cerneală,

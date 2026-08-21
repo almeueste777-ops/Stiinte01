@@ -25,11 +25,12 @@
   let ghost = null;
   let lastTabIdx = -1;
 
-  /* Adâncimea rutei: rădăcină fără argumente = 0; orice argument adaugă 1. */
+  /* Adâncimea rutei = numărul de argumente. Uniform pentru toate rutele:
+     altfel `#/carduri/filosofie` (1 argument) ar ieși mai „puțin adânc” decât
+     `#/materie/filosofie`, deși ambele sunt un pas în jos. */
   function routeDepth(hash) {
     const parts = String(hash).replace(/^#\/?/, '').split('/').filter(Boolean);
-    const name = parts[0] || 'acasa';
-    return (ROOT_ROUTES.indexOf(name) > -1 ? 0 : 1) + Math.max(0, parts.length - 1);
+    return Math.max(0, parts.length - 1);
   }
 
   /* Direcția: 'push' | 'pop' | 'fade' | 'replace'.
@@ -40,34 +41,58 @@
     if (!navStack.length) { navStack = [hash]; return 'fade'; }        // prima randare
     const top = navStack[navStack.length - 1];
     if (hash === top) return 'replace';                                // re-randare
+    /* Rădăcina se testează PRIMA: un tab nu alunecă niciodată lateral, nici
+       dacă ecranul lui se mai află undeva în stivă. */
+    if (routeDepth(hash) === 0) { navStack = [hash]; return 'fade'; }
     const i = navStack.lastIndexOf(hash);
     if (i > -1) { navStack.length = i + 1; return 'pop'; }             // înapoi în stivă
-    if (routeDepth(hash) === 0) { navStack = [hash]; return 'fade'; }  // tab = fără slide
-    if (routeDepth(hash) < routeDepth(top)) { navStack = [hash]; return 'pop'; }
-    navStack.push(hash); return 'push';
+    /* Mai sus în ierarhie, dar fără urmă în stivă: înlocuim vârful, nu golim
+       stiva — altfel următorul „înapoi” al browserului ar ieși ca „push”. */
+    if (routeDepth(hash) < routeDepth(top)) { navStack[navStack.length - 1] = hash; return 'pop'; }
+    navStack.push(hash);
+    if (navStack.length > 32) navStack.splice(0, navStack.length - 32);  // plafon de siguranță
+    return 'push';
   }
 
   /* Clonează ecranul care pleacă și îl animează în paralel cu cel care intră.
      Fără clonă nu există parallax, iar parallaxul e jumătate din senzația iOS. */
   function spawnGhost(dir) {
-    if (dir === 'replace' || reduced() || !view.firstChild) return;
+    /* Curățarea vine ÎNAINTEA oricărui `return`: dacă utilizatorul activează
+       „mișcare redusă” în timpul unei tranziții, `.view-ghost{display:none}`
+       ANULEAZĂ animația, deci `animationend` nu mai vine niciodată, iar clona
+       ar rămâne agățată în DOM la infinit. */
     if (ghost) { ghost.remove(); ghost = null; }
-    if (view.querySelectorAll('*').length > 400) return;   // ecran greu (Plan) → fără clonă
+    if (dir === 'replace' || reduced() || !view.firstChild) return;
+    if (view.querySelectorAll('*').length > 2000) return;   // plasă de siguranță; niciun ecran actual nu o atinge
     const g = view.cloneNode(true);
     g.removeAttribute('id');
     g.querySelectorAll('[id]').forEach(n => n.removeAttribute('id'));  // fără ID-uri duble
     g.removeAttribute('tabindex');
     g.setAttribute('aria-hidden', 'true');
     g.inert = true;
-    g.classList.remove('stagger');
+    /* `inert` cere Safari 15.5+ / Firefox 112+. Pe motoare mai vechi atribuirea
+       e o simplă proprietate inertă, iar butoanele clonei ar rămâne în ordinea
+       Tab sub un `aria-hidden` — exact violarea clasică. Le scoatem explicit. */
+    g.querySelectorAll('button,a,input,textarea,select,[tabindex]')
+     .forEach(el => el.setAttribute('tabindex', '-1'));
+    /* Barele de progres din clonă ar reporni `bar-grow` de la zero și s-ar
+       vedea cum se golesc în timp ce ecranul pleacă. */
+    g.querySelectorAll('.bar > i').forEach(el => { el.style.animation = 'none'; });
+    /* Clasa de navigație a randării anterioare încă e pe #view în acest moment.
+       Două clase `nav-*` pe același element se decid pe ordinea din CSS, nu pe
+       intenție — deci trebuie scoase toate, nu doar `stagger`. */
+    g.classList.remove('stagger', 'nav-push', 'nav-pop', 'nav-fade', 'nav-replace');
     g.classList.add('view-ghost', 'nav-' + dir);
     g.style.setProperty('--ghost-y', (-window.scrollY) + 'px');  // păstrează scrollul
     g.style.willChange = 'transform, opacity';
     ghost = g;
     stage.appendChild(g);
-    g.addEventListener('animationend', () => {
+    const gata = e => {
+      if (e && e.target !== g) return;      // `animationend` bulează din copii
       g.remove(); if (ghost === g) ghost = null;
-    }, { once: true });
+    };
+    g.addEventListener('animationend', gata, { once: true });
+    g.addEventListener('animationcancel', gata, { once: true });
   }
 
   /* Repornește animația de intrare pe #view. Fără reflow-ul din mijloc,
@@ -147,13 +172,26 @@
   function parseHash() {
     const raw = (location.hash || '#/acasa').replace(/^#\/?/, '');
     const parts = raw.split('/').filter(Boolean);
-    return { name: parts[0] || 'acasa', args: parts.slice(1).map(decodeURIComponent) };
+    /* O rută necunoscută cade pe „acasă” cu totul — inclusiv argumentele.
+       Altfel bara de taburi rămânea cu pastila sub tabul anterior. */
+    if (!parts.length || !routes[parts[0]]) return { name: 'acasa', args: [] };
+    return { name: parts[0], args: parts.slice(1).map(decodeURIComponent) };
   }
 
   function render() {
     const hash = location.hash || '#/acasa';
     const dir = navDirection(hash);
     spawnGhost(dir);                        // ÎNAINTE de a goli #view
+
+    /* Fără date nu există ecran de randat. Fără această gardă, o apăsare de tab
+       după o încărcare eșuată golea #view și arunca pe `DB.module` — adică
+       ștergea inclusiv mesajul de eroare și bloca aplicația până la reîncărcare. */
+    if (!DB || !CUR) {
+      view.innerHTML = '<div class="card"><h3>Nu s-au putut încărca datele</h3>' +
+        '<p class="muted">Verifică fișierele din folderul <code>data/</code> ' +
+        'și reîncarcă pagina.</p></div>';
+      return;
+    }
 
     const { name, args } = parseHash();
     const fn = routes[name] || viewAcasa;
@@ -162,7 +200,7 @@
     view.innerHTML = '';
     fn(...args);
 
-    const isRoot = ROOT_ROUTES.includes(name);
+    const isRoot = ROOT_ROUTES.includes(name) && args.length === 0;
     backBtn.hidden = isRoot;
 
     tabs.forEach(t => {
@@ -267,7 +305,7 @@
         return `<button class="card tap" data-go="#/materie/${m.id}">
           <div class="row"><h3>${esc(m.materie)}</h3><span class="pill soft">${esc(m.clasa)}</span></div>
           <p class="muted">${esc(m.descriere)}</p>
-          <div class="bar"><i style="--p:${done / m.lectii.length}"></i></div>
+          <div class="bar"><i style="--p:${m.lectii.length ? done / m.lectii.length : 0}"></i></div>
           <p class="muted" style="margin:8px 0 0">${done}/${m.lectii.length} lecții · ${m.flashcards.length} carduri · ${m.quiz.length} întrebări</p>
         </button>`;
       }).join('')}`;
@@ -312,15 +350,17 @@
       <button class="btn" id="marcheaza">${state.lectiiCitite[l.id] ? '✓ Marcată ca citită — anulează' : 'Marchează drept citită'}</button>`;
 
     const ta = view.querySelector('#nota');
+    const stare = view.querySelector('#nota-stare');
     let t;
     ta.oninput = () => {
       clearTimeout(t);
       t = setTimeout(() => {
         if (ta.value.trim()) state.notite[l.id] = ta.value; else delete state.notite[l.id];
         save();
-        // ecranul poate fi deja înlocuit când se scurge temporizatorul
-        const stare = view.querySelector('#nota-stare');
-        if (stare) stare.textContent = 'Salvat.';
+        /* Reținem NODUL, nu selectorul: dacă între timp s-a schimbat lecția,
+           o re-interogare ar scrie „Salvat.” pe linia de stare a lecției
+           următoare, care nu a salvat nimic. */
+        if (stare.isConnected) stare.textContent = 'Salvat.';
       }, 400);
     };
     view.querySelector('#marcheaza').onclick = () => {
@@ -363,7 +403,7 @@
     const c = deck[deckPos];
     view.innerHTML = `
       <p class="muted">Cardul ${deckPos + 1} din ${deck.length} · ${esc(c.materie)}</p>
-      <div class="flip" id="flip" role="button" tabindex="0" aria-label="Arată răspunsul">
+      <div class="flip" id="flip">
         <div class="flip-inner">
           <div class="card flash face front">${esc(c.f)}</div>
           <div class="card flash face back" aria-hidden="true">${esc(c.v)}</div>
@@ -380,7 +420,6 @@
       if (flipped) return;
       flipped = true;
       flip.classList.add('is-flipped');
-      flip.setAttribute('aria-label', 'Răspuns afișat');
       back.removeAttribute('aria-hidden');          // răspunsul devine citibil...
       front.setAttribute('aria-hidden', 'true');    // ...abia după întoarcere
 
@@ -402,11 +441,12 @@
       }, swapDelay);
     };
 
+    /* Cardul rămâne apăsabil cu degetul, dar NU e un buton: `role="button"` ar
+       face conținutul prezentațional, iar `aria-label` ar acoperi textul —
+       adică întrebarea și răspunsul ar dispărea pentru cititoarele de ecran.
+       Controlul accesibil e butonul `#intoarce`, care acoperă și tastatura. */
     view.querySelector('#intoarce').onclick = reveal;
     flip.onclick = reveal;
-    flip.onkeydown = e => {
-      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); reveal(); }
-    };
     paint(true);                                    // cardul următor intră cu cascadă proprie
   }
 
@@ -428,7 +468,7 @@
       const procent = Math.round(qScor / quiz.length * 100);
       const prec = state.teste[qId];
       state.teste[qId] = { procent, cand: Date.now() }; save();
-      view.innerHTML = `<div class="card">
+      view.innerHTML = `<div class="card score">
         <h3>Rezultat: ${qScor}/${quiz.length} (${procent}%)</h3>
         <div class="bar"><i style="--p:${procent / 100}"></i></div>
         ${prec ? `<p class="muted" style="margin-top:10px">Anterior: ${prec.procent}%</p>` : ''}

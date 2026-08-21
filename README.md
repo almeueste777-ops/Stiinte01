@@ -59,13 +59,16 @@ python3 -m http.server 8765
 | `sw.js` | service worker — cache offline |
 | `manifest.webmanifest` | metadatele de instalare (nume, icoane, culori) |
 | `icons/` | icoanele aplicației (PNG generate din `icon-source.svg`) |
+| `icons/icon-source.svg` | sursa vectorială a iconițelor |
 | `data/curriculum.json` | planul de învățământ: clase și discipline |
 | `data/continut.json` | lecțiile, cardurile și întrebările de test |
 | `_headers` | anteturi HTTP pentru Cloudflare Pages |
 | `docs/PLAN.md` | planul complet de realizare și pașii de publicare |
 | `jurnal.md` | jurnalul de lucru: ce s-a făcut, de ce, cu ce rezultat |
 | `vault/` | vault Obsidian: sistemul de design, arhitectura, verificările |
-| `icons/icon-source.svg` | sursa vectorială din care se regenerează iconițele |
+| `tools/verifica-css.mjs` | verifică structura foii de stil (acolade, imbricări nedorite) |
+| `tools/genereaza-iconite.mjs` | regenerează iconițele PWA din sursa SVG |
+| `.github/workflows/verificare.yml` | verificare automată la fiecare push: JSON valid, sintaxă JS, structură CSS, fișiere PWA, precache complet |
 
 ## Cum adaugi conținut
 

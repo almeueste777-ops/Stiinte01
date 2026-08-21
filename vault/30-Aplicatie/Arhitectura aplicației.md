@@ -29,8 +29,10 @@ fie CSS pur și SVG inline*, fără fonturi externe și fără biblioteci de ani
 | `data/curriculum.json` | planul de învățământ: 5 clase, discipline, probe bac |
 | `data/continut.json` | 8 module: lecții, carduri, întrebări |
 | `_headers` | anteturi HTTP pentru Cloudflare Pages |
-| `jurnal.md` | jurnalul de lucru (oglindit în [[10-Jurnal]]) |
+| `jurnal.md` | jurnalul de lucru (oglindit în [[Jurnal 2026-08-21 — Design v01]]) |
 | `vault/` | acest vault Obsidian |
+| `tools/verifica-css.mjs` | verifică structura foii de stil (rulat și în CI) |
+| `tools/genereaza-iconite.mjs` | regenerează iconițele PWA din sursa SVG |
 
 ## Rutare
 

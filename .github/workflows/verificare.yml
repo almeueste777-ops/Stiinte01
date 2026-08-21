@@ -26,9 +26,12 @@ jobs:
           node --check assets/app.js && echo "OK  assets/app.js"
           node --check sw.js         && echo "OK  sw.js"
 
+      - name: Verifică structura foii de stil
+        run: node tools/verifica-css.mjs assets/app.css
+
       - name: Verifică fișierele obligatorii ale PWA
         run: |
-          for f in index.html manifest.webmanifest sw.js \
+          for f in index.html manifest.webmanifest sw.js tools/verifica-css.mjs \
                    icons/icon-192.png icons/icon-512.png icons/icon-maskable-512.png; do
             test -f "$f" && echo "OK  $f" || { echo "LIPSEȘTE $f"; exit 1; }
           done

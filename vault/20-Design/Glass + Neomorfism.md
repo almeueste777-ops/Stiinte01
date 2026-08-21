@@ -27,11 +27,22 @@ umbră moale colo. Rezultatul e zgomot. Aici există **o singură regulă**, apl
 |---|---|
 | `.topbar` | `.card` |
 | `.tabbar` | `.btn`, `.btn.ghost` |
-| foi modale / overlay | `.chip` |
-| `.badge` (stare de rețea, plutește) | `.opt` (opțiunile testului) |
-| — | `.bar` (șanț îngropat) |
-| — | `.flash` (cardul de memorare) |
+| `.icon-btn` (butonul „înapoi”, stă *în* bara de sus) | `.chip` |
+| `.flash` (cardul de memorare — vezi mai jos) | `.opt` (opțiunile testului) |
+| foi modale / overlay | `.bar` (șanț îngropat) |
 | — | `textarea` (puț îngropat) |
+
+`.pill` și `.badge` nu sunt în niciuna dintre coloane: sunt **umpluturi pline** de chihlimbar,
+fără transparență și fără relief. Un al treilea registru, deliberat — o etichetă nu e nici
+cadru, nici suprafață apăsabilă.
+
+> [!info] De ce e `.flash` sticlă și nu relief
+> Cardul de memorare e singurul element de conținut care trebuie citit ca **obiect ridicat
+> deasupra paginii**, nu ca suprafață așezată în ea — de aceea cade de partea cadrului.
+> Important: e sticlă **curată**. Prima versiune îl făcuse sticlă *și* relief, adică exact
+> lucrul pe care regula îl interzice; verificarea independentă a prins contradicția și
+> umbrele neomorfice au fost înlocuite cu umbra de sticlă. Aspectul e același, regula a
+> rămas absolută.
 
 ## De ce regula asta și nu alta
 
@@ -44,8 +55,9 @@ Justificarea nu e stilistică, ci **fizică și de performanță**:
    semi-transparent care își schimbă fundalul la derulare nu mai pare un obiect solid, deci
    nu mai pare că se poate apăsa.
 3. **Costul de randare stă unde trebuie.** Sticla e scumpă (estompare pe fiecare cadru), dar
-   se aplică doar la **două** elemente fixe. Neomorfismul e ieftin (umbre statice), și se
-   aplică la zecile de carduri care se derulează.
+   se aplică la doar patru selectori — dintre care **două** sunt elemente fixe care nu se
+   derulează niciodată (bara de sus, bara de taburi). Neomorfismul e ieftin (umbre statice),
+   și se aplică la zecile de carduri care chiar se derulează.
 
 ## Anatomia sticlei
 

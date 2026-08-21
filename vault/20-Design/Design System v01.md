@@ -34,14 +34,22 @@ Patru straturi, **cu ordine impusă** — stratul 3 suprascrie intenționat regu
 
 ```
 1   TOKENI            paleta caldă, sticla, relieful, tipografia, spațierea
-1b  TOKENI DERIVAȚI   puntea dintre paletă și componente (fără culori noi)
+1b  TOKENI DERIVAȚI   puntea dintre paletă și componente
 2   COMPONENTE        fiecare element vizibil
 3   MIȘCARE           curbele, tranzițiile de ecran, feedbackul la atingere
 ```
 
-**1342 de linii**, toate comentate în română. O verificare automată confirmă că toți cei
-113 tokeni folosiți sunt declarați; singurele excepții sunt cele patru variabile puse din JS
+**1375 de linii**, toate comentate în română. O verificare automată confirmă că toți cei
+114 tokeni folosiți sunt declarați; singurele excepții sunt cele patru variabile puse din JS
 (`--p`, `--i`, `--tab-i`, `--tab-count`), fiecare cu valoare de rezervă în CSS.
+
+Stratul 1b nu e doar redenumire: pe lângă variante și opacități derivate, el introduce
+treptele luminoase de gradient (`--brand-2`, `--accent-2`, `--amber`), muchia barei de progres
+(`--bar-edge`) și perechile de text ale stărilor (`--ok-text`, `--bad-text`) — valori noi,
+calculate și verificate, nu culori alese liber.
+
+Structura foii de stil e verificată automat de `tools/verifica-css.mjs`, rulat și în CI.
+Vezi de ce, în [[Raport verificare v01]].
 
 ## Regula care ține totul laolaltă
 

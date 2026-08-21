@@ -28,7 +28,7 @@ Ierarhia de adâncime se face din **culoare**, nu din umbră. Umbra doar o confi
 | ridicat | `--surface-raised` | `#FDF6EC` | `#241B15` | carduri, butoane, foi |
 | rezervă opacă | `--surface-overlay` | `#FBF2E6` | `#281E17` | ce devine sticla când nu există `backdrop-filter` |
 
-Fiecare neutru are **hue 25–40°** (portocaliu-cald). Niciunul nu are hue 210° (albastru).
+Fiecare neutru are **hue 20–40°** (portocaliu-cald). Niciunul nu are hue 210° (albastru).
 Aceasta e diferența dintre „gri cu un strop de cald” și *chiar* cald.
 
 ## Cerneală, linii, brand
@@ -47,10 +47,14 @@ Aceasta e diferența dintre „gri cu un strop de cald” și *chiar* cald.
 ```
 
 > [!warning] Capcana chihlimbarului
-> `--accent` (#B4761A) dă doar **3.53:1** ca text pe smântână — sub pragul AA.
-> De aceea are un frate dedicat, `--accent-text` (#8A5410, **5.83:1**), iar `--accent`
+> `--accent` (#B4761A) dă doar **3,53:1** ca text pe smântână — sub pragul AA.
+> De aceea are un frate dedicat, `--accent-text` (#8A5410, **5,83:1**), iar `--accent`
 > rămâne **exclusiv culoare de umplutură**. Fără această despărțire, aplicația ar fi arătat
 > bine și ar fi picat la audit.
+>
+> Astăzi `--accent-text` nu e folosit ca text nicăieri: e o valoare **rezervată**, pusă acolo
+> ca următorul care are nevoie de chihlimbar pe text să nu ia varianta greșită. Aceeași
+> capcană a fost prinsă a doua oară, la stările testului — vezi [[Design System v01]].
 
 ## Contrast măsurat
 
@@ -61,15 +65,17 @@ Calculat pe valorile hex reale (luminanță relativă sRGB). Pragul AA pentru te
 | `--ink` pe fundal | 14.36 | 15.10 |
 | `--ink` pe card | 15.37 | 13.88 |
 | `--ink-muted` pe card | 6.21 | 6.34 |
-| `--ink` peste sticlă (compus real) | 14.18 | 13.01 |
-| `--ink-muted` peste sticlă | 5.73 | 5.94 |
+| `--ink` peste sticlă (compus pe cel mai defavorabil punct) | ≥13,96 | ≥12,81 |
+| `--ink-muted` peste sticlă (idem) | ≥5,64 | ≥5,85 |
 | `--brand` ca text pe card | 6.07 | 7.10 |
-| `--ok` pe fundal | 5.45 | 8.61 |
-| `--bad` pe fundal | 6.53 | 8.33 |
+| `--ok` pe fundalul paginii | 5,45 | 9,37 |
+| `--bad` pe fundalul paginii | 6,53 | 9,06 |
 | `--ink-muted` la `prefers-contrast: more` | 7.82 (AAA) | 10.03 (AAA) |
 
-Valorile pentru sticlă sunt **compuneri alfa reale** peste cel mai defavorabil punct al
-gradientului ambiental — nu tokenul plat. Altfel cifra ar fi fost o minciună confortabilă.
+Valorile pentru sticlă sunt **compuneri alfa** peste cel mai defavorabil punct al
+gradientului ambiental — nu tokenul plat. Sunt deci **limite inferioare**: în practică ies mai
+bine, fiindcă estomparea amestecă punctele extreme. Altfel cifra ar fi fost o minciună
+confortabilă.
 
 ## Fundalul ambiental
 
@@ -102,6 +108,9 @@ Pe întuneric, aceleași centre, dar jar în loc de soare.
 
 ## Punte de compatibilitate
 
-Numele vechi (`--bg`, `--card`, `--muted`, `--line`, `--radius`, `--shadow`) sunt păstrate ca
-alias-uri către tokenurile noi. Motivul: `app.js` scrie stiluri inline care le folosesc, iar
-o migrare „big-bang” ar fi rupt ecrane fără să se vadă imediat.
+Numele vechi (`--bg`, `--card`, `--muted`, `--line`, `--radius`, `--shadow`) fuseseră
+păstrate inițial ca alias-uri, fiindcă `app.js` scria un stil inline cu `var(--line)`.
+Redesignul a scos acel stil inline, deci motivul a dispărut — iar cinci din cele șase
+alias-uri nu mai erau citite de nimeni. **Au fost șterse**, iar utilizările lui `--line` au
+trecut pe numele canonic `--hairline`. `app.js` nu mai scrie azi nicio variabilă CSS în afară
+de `--p`, `--i`, `--tab-i` și `--tab-count`.

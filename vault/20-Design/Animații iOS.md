@@ -67,8 +67,15 @@ iOS e rapid. `--dur-micro` 140ms (apăsare) · `--dur-fast` 180ms (eliberare) ·
 > face parallax. Soluția: `spawnGhost()` clonează `#view` *înainte* de golire, îi scoate
 > `id`-urile (ca să nu existe duplicate), îl marchează `inert` + `aria-hidden`, îi
 > compensează poziția de scroll prin `--ghost-y`, și îl animează în paralel.
-> Clona se autodistruge la `animationend`. Ecranele grele (peste 400 de noduri — Planul)
-> sar peste clonă și fac fade: parallaxul nu merită costul acolo.
+> Clona se autodistruge la `animationend` **și la `animationcancel`** — altfel, dacă
+> utilizatorul activează „mișcare redusă” în timpul unei tranziții, `display:none` anulează
+> animația, `animationend` nu mai vine niciodată și clona rămâne agățată în DOM pentru
+> totdeauna. Din același motiv, curățarea clonei precedente se face **înaintea** oricărui
+> `return`, nu după.
+>
+> Clona primește și `max-height:100dvh`: fără asta, ieșirea din „Plan” lăsa documentul
+> derulabil pe ~6000px sub un ecran de 800px, pe toată durata tranziției — `contain`
+> decupează pictarea, nu contribuția cutiei la overflow.
 
 ## Plafonul cascadei
 
@@ -93,9 +100,12 @@ Blocul dezactivează **explicit** fiecare translație, scalare, rotire și scutu
 
 Se animează aproape exclusiv `transform` și `opacity` → totul rulează pe compozitor.
 
-**Două excepții, ambele o singură dată per interacțiune:**
-1. `background-color` la `.opt.correct/.wrong` — o dată per întrebare;
-2. `width` la `.bar > i` — abatere deliberată de la propunerea inițială (`scaleX`), fiindcă
+**Trei excepții deliberate:**
+1. `box-shadow` la apăsare — **cea mai frecventă**, se retranșează la fiecare atingere.
+   E intrinsecă neomorfismului: relieful ridicat devine `inset`. Fără ea, apăsarea nu mai are
+   adâncime, adică dispare tot conceptul. Costul e acceptat conștient.
+2. `background-color` la `.opt.correct/.wrong` — o dată per întrebare;
+3. `width` la `.bar > i` — abatere deliberată de la propunerea inițială (`scaleX`), fiindcă
    `scaleX` turtește capătul rotund al pilulei și deformează haloul. Aspectul a câștigat.
 
 `will-change` ajută pe `.flip-inner` și `.tab-ind` (elemente unice, animate repetat) și

@@ -30,7 +30,7 @@ Am citit tot codul înainte de a schimba ceva. Starea de plecare:
 
 | Fișier | Rol | Stare inițială |
 |---|---|---|
-| `index.html` | schelet + bară de navigare | 30 de linii, iconițe unicode geometrice (`●`, `☰`, `▣`) |
+| `index.html` | schelet + bară de navigare | 35 de linii, iconițe unicode geometrice (`●`, `☰`, `▣`, `✓`, `▦`) |
 | `assets/app.css` | stiluri | 92 de linii, paletă **rece** (bleumarin `#1c3d5a`, gri-albastru), plat, fără animații |
 | `assets/app.js` | rutare + toate ecranele | 359 de linii, IIFE, router pe `location.hash`, randare prin `innerHTML` |
 | `sw.js` | service worker | precache `stiinte01-v1` |
@@ -128,17 +128,17 @@ Rezultatul măsurat (raport de contrast WCAG 2.1, calculat pe valorile hex reale
 | `--ink` pe fundalul paginii | 14.36 | 15.10 |
 | `--ink` pe card | 15.37 | 13.88 |
 | `--ink-muted` pe card | 6.21 | 6.34 |
-| `--ink` peste sticlă (compus real, nu tokenul plat) | 14.18 | 13.01 |
-| `--ink-muted` peste sticlă | 5.73 | 5.94 |
+| `--ink` peste sticlă (compus pe cel mai defavorabil punct) | ≥13,96 | ≥12,81 |
+| `--ink-muted` peste sticlă (idem) | ≥5,64 | ≥5,85 |
 | `--brand` ca text pe card | 6.07 | 7.10 |
-| `--ok` / `--bad` pe fundal | 5.45 / 6.53 | 8.61 / 8.33 |
+| `--ok` / `--bad` pe fundalul paginii | 5,45 / 6,53 | 9,37 / 9,06 |
 
 O singură culoare nu trece ca text: chihlimbarul `--accent` (#B4761A) dă 3.53:1 pe smântână.
 De aceea are un frate dedicat, `--accent-text` (#8A5410, 5.83:1), iar `--accent` rămâne
 **doar culoare de umplutură**. Aceasta e genul de detaliu care, altfel, ar fi ieșit la audit.
 
 **Ce mai conține stratul:** paleta pe trei niveluri de suprafață (îngropat / bază / ridicat),
-gradientul ambiental mesh din patru `radial-gradient`-uri pure CSS, umbrele neomorfice derivate
+gradientul ambiental mesh din patru gradiente pure CSS (trei radiale și unul liniar), umbrele neomorfice derivate
 din culoarea suprafeței (umbră **caldă** `#AC855A`, nu neagră), tokenurile de sticlă cu muchia
 luminoasă de sus, scara tipografică modulară (rație 1.2), grila de spațiere de 4px, scara de
 raze în stil iOS (24px raza „semnătură” a cardului) și **temă întunecată caldă** — espresso
@@ -155,8 +155,8 @@ browserele fără estompare.
 Iconițele PWA erau un pătrat bleumarin plat cu o histogramă — se băteau cap în cap cu paleta caldă.
 Le-am regenerat: squircle cu gradient teracotă (nisip → `--brand` → teracotă adâncă), luciu
 specular în stânga-sus, muchie interioară luminoasă și coloanele în smântână și chihlimbar.
-Generatorul (`icons/icon-source.svg` + script Playwright) randează SVG-ul în Chromium și
-salvează PNG la dimensiune exactă — deci iconițele se pot regenera oricând din sursă, la orice
+Generatorul e versionat în depozit (`tools/genereaza-iconite.mjs` + `icons/icon-source.svg`):
+randează SVG-ul în Chromium și salvează PNG la dimensiune exactă — deci iconițele se pot regenera oricând din sursă, la orice
 dimensiune, fără editor grafic. Varianta *maskable* ține conținutul în cercul de siguranță de 80%.
 
 ## 7 · Motion Designer — sistemul de mișcare (livrat) — vezi [[Animații iOS]]
@@ -212,7 +212,7 @@ niciunuia să se conformeze altuia (asta ar fi serializat lucrul); am arbitrat l
 3. **`--ok-ink` / `--bad-ink`.** Art directorul le-a definit ca text **pe umplutură plină**
    (alb). UI designerul le-a folosit ca text **pe fundal difuz**. Alb pe verde-pal = ilizibil.
    *Decizie:* tokenuri noi, `--ok-text` / `--bad-text`, cu valori calculate și verificate
-   (6.95:1 și 7.99:1 pe fundalul compus real). **Acesta e exact genul de defect care ar fi
+   (minimum 5,37:1 și 6,20:1 pe fundalul real al opțiunii — care e pagina, nu un card). **Acesta e exact genul de defect care ar fi
    trecut nevăzut la o simplă privire și ar fi ieșit abia la audit.**
 4. **Indicatorul barei de taburi — două implementări concurente.** UI designerul: pseudo-element
    `::before` poziționat prin `:has()`. Motion designerul: element `<span class="tab-ind">`
@@ -233,7 +233,7 @@ niciunuia să se conformeze altuia (asta ar fi serializat lucrul); am arbitrat l
    un `*{animation-duration:.01ms}` global. *Decizie:* rămâne doar cel al motion designerului,
    care e specific și tratează inclusiv rotirea 3D.
 
-Rezultatul: `assets/app.css` = **1342 de linii**, în patru straturi cu ordine impusă
+Rezultatul: `assets/app.css` = **1375 de linii**, în patru straturi cu ordine impusă
 (tokeni → tokeni derivați → componente → mișcare), toate comentate în română.
 O verificare automată confirmă că **toți cei 113 tokeni folosiți sunt declarați** — singurele
 excepții sunt cele patru variabile puse din JS (`--p`, `--i`, `--tab-i`, `--tab-count`),
@@ -243,9 +243,9 @@ fiecare cu valoare de rezervă în CSS.
 
 | Fișier | Ce s-a schimbat |
 |---|---|
-| `assets/app.css` | rescris integral: 92 → **1342 de linii**, patru straturi |
-| `assets/app.js` | 15 349 → **22 162 de octeți**: infrastructura de mișcare, `render()` rescris, `drawCard()` rescris pentru rotire 3D, cascadă la test, bare pe `--p`, stil inline eliminat de pe `textarea` |
-| `index.html` | bara de sus și cea de taburi refăcute, **5 iconițe SVG inline** în locul caracterelor unicode, scena de tranziție `#stage`, pastila `.tab-ind`, `theme-color` pe temă |
+| `assets/app.css` | rescris integral: 92 → **1375 de linii**, patru straturi |
+| `assets/app.js` | 15 444 → **25 290 de octeți**: infrastructura de mișcare, `render()` rescris, `drawCard()` rescris pentru rotire 3D, cascadă la test, bare pe `--p`, stil inline eliminat de pe `textarea` |
+| `index.html` | bara de sus și cea de taburi refăcute, **6 iconițe SVG inline** (5 taburi + chevronul „înapoi”) în locul caracterelor unicode, scena de tranziție `#stage`, pastila `.tab-ind`, `theme-color` pe temă |
 | `icons/*.png` | regenerate în paleta caldă, din `icons/icon-source.svg` |
 | `manifest.webmanifest` | `theme_color` și `background_color` → nisip cald `#F7EEE2` |
 | `sw.js` | cache `stiinte01-v1` → `stiinte01-v2` (altfel telefoanele instalate rămâneau pe versiunea veche) |
@@ -288,3 +288,195 @@ zero derulare orizontală, bara de taburi în ecran, **zero ținte de atingere s
 
 **e) La `prefers-contrast: more`** neomorfismul cedează primul, exact cum a fost proiectat:
 umbrele moi devin contururi de 1px, sticla devine opacă, fundalul ambiental dispare.
+
+**f) Funcționarea offline**, verificată efectiv, nu presupusă: service worker activat,
+cache `stiinte01-v2` cu 10 intrări, rețea tăiată, pagină reîncărcată — aplicația se randează
+integral, cu stilurile noi, insigna „offline” apare, zero erori JS.
+
+## 11 · Verificarea independentă — trei agenți, câte unul pe zonă
+
+Cerința era ca tot ce se creează să fie verificat de un agent separat, ca să nu mai fie
+nevoie de audit. Am împărțit verificarea pe trei zone care nu se suprapun, fiecare cu
+instrucțiunea explicită de a fi **adversarial** și de a nu da o aprobare de complezență:
+
+1. **Verificator CSS** — tokeni nedefiniți, completitudinea temei întunecate, respectarea
+   regulii hibride, urme de culori reci, ordinea straturilor și dacă suprascrierile chiar
+   câștigă, degradarea funcțiilor moderne (`:has()`, `@property`, `overflow:clip`, `svh`, `inert`), capcane de layout, selectori care nu se potrivesc cu markupul real,
+   recalcularea contrastelor și cod mort.
+2. **Verificator JavaScript** — scurgeri de ascultători și clone orfane, temporizatoare
+   rămase după demontarea ecranului, corectitudinea stivei de navigație pe secvențe concrete,
+   ID-uri duplicate în clonă, accesul de la tastatură la card, regresii în logica testului,
+   păstrarea formatului din `localStorage`, aritmetica barelor, corectitudinea PWA și
+   rularea reală a verificărilor din CI.
+3. **Verificator documentație** — **acuratețea factuală** a fiecărei cifre din jurnal și din
+   vault (recalculate independent, nu preluate pe încredere), validitatea vaultului Obsidian
+   (JSON, frontmatter YAML, `[[wikilink]]`-uri care chiar rezolvă, note orfane), consistența
+   dintre jurnal și oglinda lui, prospețimea README-ului, diacriticele corecte
+   (ș/ț cu virgulă, nu cu sedilă) și supra-afirmațiile.
+
+## 12 · Două verificări proprii, în plus, cât rulau verificatorii
+
+**Ocluziunea cromului plutitor.** Cu bara de sus și cea de taburi devenite `position:fixed`,
+riscul real e ca o bucată de conținut să rămână permanent ascunsă sub ele. Am măsurat
+automat, pe 4 formate (peisaj 844×390, portret 390×844, îngust 360×740, tabletă 834×1112)
+× 6 rute (toate ecranele mai puțin `#/materie/{id}`, structural identic cu `#/materii`): la derulare 0 primul element de conținut e sub bara de sus, iar la derulare maximă
+ultimul element e deasupra barei de taburi. **Zero ocluziune reală.**
+
+> Prima variantă a acestui test raporta 16 „suprapuneri” cu bara de sus. Testul era greșit,
+> nu codul: conținutul care curge pe sub sticla translucidă *este* intenția designului.
+> Am refăcut verificarea ca să măsoare exact ce contează — capetele de derulare.
+
+**Navigarea de la tastatură.** Parcurgere cu `Tab` prin ecranul de test: fiecare element
+focalizat primește un contur declarat de 2,5px în `rgb(158, 65, 25)` — teracotă
+(browserul îl raportează rotunjit la 2px). **Niciun inel albastru
+implicit nicăieri.** Ordinea de focus e corectă, iar `#view` (cu `tabindex="-1"`) nu intră în
+parcurgere, fiindcă primește focus doar programatic, la schimbarea ecranului.
+
+## 13 · Documentația, adusă la zi
+
+- `README.md` — secțiune nouă despre sistemul de design v01, tabelul de structură completat
+  cu `jurnal.md`, `vault/` și `icons/icon-source.svg`, exemplul de creștere a cache-ului
+  actualizat la versiunea reală.
+- `docs/PLAN.md` — ramura de dezvoltare corectată (indica încă ramura versiunii anterioare),
+  exemplul de cache actualizat, iar lista de verificare din Etapa 4 completată cu **șapte
+  puncte noi**, scrise pentru cineva care verifică cu ochiul: sticla translucidă, pastila
+  care alunecă, alunecarea ecranelor, rotirea cardului, scuturatul la răspuns greșit, tema
+  întunecată caldă și comportamentul cu „Reduce motion” activat.
+
+## 14 · Două dovezi numerice despre paletă
+
+Cerința era „culori calde”. Am verificat-o ca număr, nu ca impresie.
+
+**Nuanțele tuturor celor 58 de culori opace din foaia de stil**, sortate:
+toate stau în arcul **4°–45°** (roșu-rugină → teracotă → chihlimbar → nisip → smântână),
+plus **patru** culori verzi la 96–104°, care sunt exact cele semantice pentru „răspuns corect”.
+**Nicio culoare în intervalul rece 170–290°** (albastru/violet) în tot fișierul. Vechea
+paletă avea bleumarinul `#1c3d5a` la 208°.
+
+**Completitudinea temei întunecate:** 155 de tokeni în tema deschisă, 56 redefiniți pe
+întuneric. Verificare automată: **fiecare token de culoare din tema deschisă are un
+corespondent pe întuneric.** Zero scăpări — deci nicio suprafață nu rămâne cu o valoare de
+zi pe fundal de espresso.
+
+## 15 · O inconsecvență găsită singur, înainte de verificatori
+
+`--glass-specular` era definit corect în stratul de tokeni — și stins corect în toate cele
+trei blocuri de rezervă (fără `backdrop-filter`, transparență redusă, contrast ridicat) —
+dar **nu-l folosea nimic**. Sticla avea trei ingrediente din patru.
+
+Am conectat luciul: bara de sus primește sclipirea diagonală printr-un pseudo-element,
+iar cardul de memorare trece de la un gradient scris de mână la tokenul de sistem — deci
+se stinge singur, odată cu celelalte, la preferințele de accesibilitate.
+
+Nota din vault despre anatomia sticlei descria patru ingrediente. Acum descrierea e adevărată.
+
+## 16 · Ce au găsit verificatorii independenți — raportul complet în [[Raport verificare v01]]
+
+Toți trei au întors verdict **„nu e bun așa cum e”**. Exact ce trebuia: dacă ar fi aprobat
+totul, verificarea n-ar fi însemnat nimic. Ce au găsit:
+
+### Verificatorul CSS — 4 defecte majore
+
+1. **`:focus-visible` rescria raza oricărui element focalizat.** Regula avea
+   `border-radius:var(--r-md)` și aceeași specificitate ca `.chip` / `.tab` / `.icon-btn`, dar
+   stătea mai jos în fișier — deci câștiga. Măsurat: butonul rotund „înapoi” trecea de la
+   999px la 18px **exact când primea focus**, apoi sărea înapoi la pierderea lui. Pentru un
+   utilizator de tastatură arăta ca un bug de randare. *Corectat:* linia a dispărut — browserul
+   urmează oricum raza proprie a elementului când desenează conturul.
+2. **Umplerea barei de progres era invizibilă pe tema deschisă.** Măsurat pe pixeli:
+   **1,23:1** între muchia umplerii și șanț, față de pragul de 3:1. Cauza e subtilă — gradientul
+   se întinde pe lățimea *umplerii*, deci capătul lui deschis (`--amber`) cădea mereu fix pe
+   muchia pe care ochiul o caută. Elevul nu putea vedea cât a parcurs, pe ecranul „Acasă”, pe
+   toate cele 8 carduri de materie și pe cardul de rezultat. *Corectat:* un contur de 1px în
+   chihlimbar închis, **4,81:1** față de șanț. Se vede acum la orice procent.
+3. **Rezerva pentru browserele fără `:has()` era anulată de propria ei scriere.** Regulile
+   erau scrise ca listă, `​.card:has(…), .card.score { … }` — dar **listele de selectori nu sunt
+   tolerante**: un selector nesuportat invalidează regula întreagă, inclusiv jumătatea scrisă
+   ca plasă de siguranță. *Corectat:* reguli separate, iar `app.js` chiar emite acum clasa
+   `.score` (înainte n-o emitea nimeni, deci rezerva era dublu moartă).
+4. **Butonul-icoană era sticlă și relief în același timp** — încălcarea propriei reguli.
+   *Corectat:* umbrele neomorfice au dispărut, a rămas sticlă curată.
+
+Plus opt observații minore, toate corectate: textul-fantomă din notițe la 3,14:1, variantele
+greșite de la test la 3,25:1 după răspuns (rămân de citit, deci trebuie lizibile),
+`.flash:focus-visible` care nu se potrivea cu nimic (focalizabil e `.flip`),
+`min(46svh,300px)` fără rezervă pentru motoarele fără `svh`, rezerva `overflow-x:hidden` care
+transforma `.stage` în container de derulare și omora antetul lipicios al tabelelor,
+animațiile de la test care câștigau doar fiindcă JS scotea o clasă întâi (CSS-ul nu era
+autonom), înălțimea barei de taburi în peisaj subestimată cu 4,5px, și bara de taburi pusă
+pe stratul foilor modale în loc de cel al cadrului.
+
+### Verificatorul JavaScript — 3 defecte majore
+
+1. **Clona ecranului care pleacă moștenea clasa de navigație a randării anterioare.**
+   `spawnGhost()` rulează la începutul lui `render()`, când `#view` încă poartă clasa veche;
+   `cloneNode` o copia, iar codul scotea doar `stagger`. Două clase `nav-*` pe același element
+   se decid pe **ordinea din CSS**, nu pe intenție. Măsurat: la cea mai obișnuită navigare din
+   aplicație — Materii → o materie — clona juca `nav-fade-out` în loc de `nav-push-out`.
+   Adică **parallaxul lipsea exact acolo unde se vede cel mai des**, iar cele două jumătăți se
+   desincronizau (240ms față de 340ms), deci ecranul vechi dispărea cu 100ms mai devreme.
+2. **`navDirection()` întorcea direcția greșită la cele mai frecvente două navigări.**
+   Trei erori suprapuse: ramura de stivă era testată înaintea celei de rădăcină (deci un tab
+   redevenea „înapoi” și pierdea cascada); adâncimea rutei era calculată inconsistent, așa că
+   `#/carduri/filosofie` ieșea *mai puțin adânc* decât `#/materie/filosofie`, deci intrarea în
+   carduri se anima ca ieșire; iar fiindcă ramura aceea golea stiva, următorul „înapoi” al
+   browserului se anima **înainte**.
+3. **Regresie de accesibilitate pe carduri.** Făcusem `.flip` un `role="button"` cu
+   `aria-label`. ARIA face copiii unui buton *prezentaționali*, iar `aria-label` bate numele
+   din conținut — deci **și întrebarea, și răspunsul dispăreau complet din arborele de
+   accesibilitate**. Măsurat cu `accessibility.snapshot()`: ecranul de carduri se reducea la
+   „Cardul 1 din 41” plus două butoane identice numite „Arată răspunsul”. Un elev nevăzător nu
+   mai putea învăța deloc de pe carduri. *Corectat:* cardul rămâne apăsabil cu degetul, dar nu
+   mai e buton; controlul accesibil e butonul propriu-zis, care acoperă și tastatura.
+
+Plus șase minore și patru observații, toate corectate: răspunsul se putea găsi cu Ctrl+F și
+selecta cu degetul **înainte** de întoarcere (adică jocul de memorare nu mai avea rost); o
+clonă rămânea agățată în DOM pentru totdeauna dacă utilizatorul activa „mișcare redusă” în
+timpul unei tranziții; o apăsare de tab după o încărcare eșuată a datelor golea ecranul și
+arunca, blocând aplicația până la reîncărcare; temporizatorul de autosalvare scria „Salvat.”
+pe linia de stare a **lecției următoare**; clona păstra înălțimea ecranului „Plan” (~6000px)
+în overflow-ul paginii pe toată durata tranziției; barele de progres din clonă reporneau
+animația și se vedeau golindu-se; `--p` putea deveni `NaN`, iar rezerva `var(--p,1)` randa o
+bară **plină**; `#/carduri/{modul}` nu arăta butonul „înapoi”; o rută necunoscută lăsa pastila
+sub tabul greșit; stiva de navigație nu avea plafon; iar `inert` — singurul lucru care ținea
+clona în afara ordinii Tab — nu există pe motoare mai vechi.
+
+### Verificatorul de documentație — ~15 erori factuale
+
+Aici a fost cel mai neplăcut, fiindcă erau greșeli în **propriile mele afirmații**:
+`index.html` avea 35 de linii, nu 30; cifrele de mărime a lui `app.js` erau caractere
+etichetate drept octeți; „o listă de 40 de elemente nu durează 4 secunde” — 40 × 32ms
+înseamnă 1,3 secunde, nu 4; „patru `radial-gradient`-uri” erau de fapt trei radiale și unul
+liniar; două rânduri din tabelul de contrast pentru tema întunecată fuseseră măsurate față de
+card, nu față de fundalul paginii; iconițele SVG erau 6, nu 5; caracterul unicode înlocuit pe
+tabul „Plan” era `▦`, nu `▩`; iar afirmația că iconițele „se pot regenera oricând din sursă”
+era falsă — **generatorul nu era în depozit**.
+
+A infirmat și o afirmație pe care o făcusem cu prea multă încredere: **iconița *maskable* nu
+încăpea în cercul de siguranță.** A decodat PNG-ul pixel cu pixel și a măsurat 84,3% diametru
+efectiv, cu 450 de pixeli în afara cercului de 80% — capetele barei de bază ar fi fost tăiate
+de măștile circulare. *Corectat:* marginea se calculează acum, nu se ghicește (colțurile cutiei
+de conținut trebuie să încapă în cerc, nu doar laturile ei), iar remăsurarea dă rază maximă
+196,7px față de un cerc de 204,8px — **zero pixeli în afară**.
+
+A greșit o singură dată: a susținut că stilul inline de pe `textarea` nu fusese eliminat
+niciodată. `git show 47fbda9:assets/app.js` arată că exista, iar acum nu mai există. Grep-ul
+lui pe fișierul curent întorcea zero **tocmai fiindcă** ștergerea se făcuse.
+
+## 17 · O greșeală proprie, prinsă de o unealtă pe care am scris-o după ea — vezi [[Raport verificare v01]]
+
+Corectând defectul cu inelul de focus, am șters din greșeală **acolada de închidere** a
+regulii. Chromium acceptă azi imbricarea CSS, așa că nu a raportat nicio eroare: pur și simplu
+a interpretat **tot restul fișierului** ca reguli imbricate în `:focus-visible`. Efectul —
+jumătate din stiluri se aplicau doar elementelor focalizate, iar rotirea 3D a cardului nu mai
+funcționa deloc.
+
+Toată bateria de teste a trecut și cu fișierul stricat: verifică erori JS, layout, ținte de
+atingere — nu structura foii de stil. Am prins-o doar fiindcă am observat că matricea 3D a
+cardului raportează `none` în loc de `rotateY(180deg)`.
+
+Am scris atunci `tools/verifica-css.mjs`: verifică echilibrul acoladelor ignorând comentariile
+și șirurile, și semnalează orice selector imbricat — fiindcă în acest proiect imbricarea nu se
+folosește, deci apariția ei înseamnă aproape sigur o acoladă uitată. Am reprodus greșeala
+originală pe o copie: unealta o prinde, cu linia exactă. Am adăugat-o în CI, ca să nu mai
+depindă de norocul cuiva care se uită la o matrice.
