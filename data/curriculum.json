@@ -1,0 +1,121 @@
+{
+  "scoala": {
+    "nume": "Colegiul Tehnic „Alexandru Ioan Cuza”",
+    "localitate": "Suceava",
+    "adresa": "Calea Unirii nr. 49, Suceava, 720119",
+    "telefonSecretariat": "0771 240 306",
+    "programSecretariat": "08:00 – 16:00",
+    "site": "https://www.ctalicuza.ro/",
+    "email": "ctalicuza@isj.sv.edu.ro"
+  },
+  "parcurs": {
+    "filiera": "Teoretică",
+    "profil": "Umanist",
+    "specializare": "Științe sociale",
+    "forma": "Frecvență redusă (FR)",
+    "durata": "5 ani (clasele a IX-a – a XIII-a)",
+    "locuriOferta20262027": 60,
+    "observatie": "La frecvență redusă liceul teoretic durează 5 ani. Conținuturile de la clasele IX–XI zi se parcurg în IX, X, XI și prima jumătate a clasei a XII-a; conținuturile clasei a XII-a zi se parcurg în a doua jumătate a clasei a XII-a și în clasa a XIII-a."
+  },
+  "bacalaureat": {
+    "probaEa": "Limba și literatura română",
+    "probaEb": "Limba modernă (competențe lingvistice)",
+    "probaEc": "Istorie SAU Matematică — la profil umanist, științe sociale se alege de regulă ISTORIE",
+    "probaEd": "Geografie / Logică / Psihologie / Sociologie / Filosofie / Economie (o disciplină la alegere)",
+    "probaA": "Competențe de comunicare în limba română",
+    "probaB": "Competențe lingvistice într-o limbă de circulație internațională",
+    "probaD": "Competențe digitale"
+  },
+  "clase": [
+    {
+      "clasa": "a IX-a",
+      "an": 1,
+      "materii": [
+        { "nume": "Limba și literatura română", "arie": "Limbă și comunicare", "bac": true },
+        { "nume": "Limba modernă 1 (Engleză)", "arie": "Limbă și comunicare", "bac": true },
+        { "nume": "Limba modernă 2 (Franceză)", "arie": "Limbă și comunicare", "bac": false },
+        { "nume": "Limba latină", "arie": "Limbă și comunicare", "bac": false },
+        { "nume": "Matematică", "arie": "Matematică și științe ale naturii", "bac": false },
+        { "nume": "Fizică", "arie": "Matematică și științe ale naturii", "bac": false },
+        { "nume": "Chimie", "arie": "Matematică și științe ale naturii", "bac": false },
+        { "nume": "Biologie", "arie": "Matematică și științe ale naturii", "bac": false },
+        { "nume": "Istorie", "arie": "Om și societate", "bac": true },
+        { "nume": "Geografie", "arie": "Om și societate", "bac": true },
+        { "nume": "Logică, argumentare și comunicare", "arie": "Om și societate", "bac": true, "socioUman": true },
+        { "nume": "Religie", "arie": "Om și societate", "bac": false },
+        { "nume": "Tehnologia informației și a comunicațiilor (TIC)", "arie": "Tehnologii", "bac": true }
+      ]
+    },
+    {
+      "clasa": "a X-a",
+      "an": 2,
+      "materii": [
+        { "nume": "Limba și literatura română", "arie": "Limbă și comunicare", "bac": true },
+        { "nume": "Limba modernă 1 (Engleză)", "arie": "Limbă și comunicare", "bac": true },
+        { "nume": "Limba modernă 2 (Franceză)", "arie": "Limbă și comunicare", "bac": false },
+        { "nume": "Limba latină", "arie": "Limbă și comunicare", "bac": false },
+        { "nume": "Matematică", "arie": "Matematică și științe ale naturii", "bac": false },
+        { "nume": "Fizică", "arie": "Matematică și științe ale naturii", "bac": false },
+        { "nume": "Chimie", "arie": "Matematică și științe ale naturii", "bac": false },
+        { "nume": "Biologie", "arie": "Matematică și științe ale naturii", "bac": false },
+        { "nume": "Istorie", "arie": "Om și societate", "bac": true },
+        { "nume": "Geografie", "arie": "Om și societate", "bac": true },
+        { "nume": "Psihologie", "arie": "Om și societate", "bac": true, "socioUman": true },
+        { "nume": "Religie", "arie": "Om și societate", "bac": false },
+        { "nume": "Tehnologia informației și a comunicațiilor (TIC)", "arie": "Tehnologii", "bac": true }
+      ]
+    },
+    {
+      "clasa": "a XI-a",
+      "an": 3,
+      "materii": [
+        { "nume": "Limba și literatura română", "arie": "Limbă și comunicare", "bac": true },
+        { "nume": "Limba modernă 1 (Engleză)", "arie": "Limbă și comunicare", "bac": true },
+        { "nume": "Limba modernă 2 (Franceză)", "arie": "Limbă și comunicare", "bac": false },
+        { "nume": "Istorie", "arie": "Om și societate", "bac": true },
+        { "nume": "Istoria evreilor. Holocaustul", "arie": "Om și societate", "bac": false },
+        { "nume": "Geografie", "arie": "Om și societate", "bac": true },
+        { "nume": "Sociologie", "arie": "Om și societate", "bac": true, "socioUman": true },
+        { "nume": "Studii sociale", "arie": "Om și societate", "bac": false },
+        { "nume": "Religie", "arie": "Om și societate", "bac": false },
+        { "nume": "Matematică aplicată în științele sociale", "arie": "Matematică și științe ale naturii", "bac": false },
+        { "nume": "ȘTIAM (științe integrate)", "arie": "Matematică și științe ale naturii", "bac": false },
+        { "nume": "Tehnologia informației și a comunicațiilor (TIC)", "arie": "Tehnologii", "bac": true }
+      ]
+    },
+    {
+      "clasa": "a XII-a",
+      "an": 4,
+      "materii": [
+        { "nume": "Limba și literatura română", "arie": "Limbă și comunicare", "bac": true },
+        { "nume": "Limba modernă 1 (Engleză)", "arie": "Limbă și comunicare", "bac": true },
+        { "nume": "Limba modernă 2 (Franceză)", "arie": "Limbă și comunicare", "bac": false },
+        { "nume": "Istorie", "arie": "Om și societate", "bac": true },
+        { "nume": "Geografie", "arie": "Om și societate", "bac": true },
+        { "nume": "Filosofie", "arie": "Om și societate", "bac": true, "socioUman": true },
+        { "nume": "Studii sociale", "arie": "Om și societate", "bac": false },
+        { "nume": "Religie", "arie": "Om și societate", "bac": false },
+        { "nume": "Matematică aplicată în științele sociale", "arie": "Matematică și științe ale naturii", "bac": false },
+        { "nume": "ȘTIAM (științe integrate)", "arie": "Matematică și științe ale naturii", "bac": false },
+        { "nume": "Tehnologia informației și a comunicațiilor (TIC)", "arie": "Tehnologii", "bac": true }
+      ]
+    },
+    {
+      "clasa": "a XIII-a",
+      "an": 5,
+      "materii": [
+        { "nume": "Limba și literatura română", "arie": "Limbă și comunicare", "bac": true },
+        { "nume": "Limba modernă 1 (Engleză)", "arie": "Limbă și comunicare", "bac": true },
+        { "nume": "Limba modernă 2 (Franceză)", "arie": "Limbă și comunicare", "bac": false },
+        { "nume": "Istorie", "arie": "Om și societate", "bac": true },
+        { "nume": "Istoria comunismului din România", "arie": "Om și societate", "bac": false },
+        { "nume": "Geografie", "arie": "Om și societate", "bac": true },
+        { "nume": "Economie și educație antreprenorială", "arie": "Om și societate", "bac": true, "socioUman": true },
+        { "nume": "Filosofie", "arie": "Om și societate", "bac": true },
+        { "nume": "Studii sociale", "arie": "Om și societate", "bac": false },
+        { "nume": "Religie", "arie": "Om și societate", "bac": false },
+        { "nume": "Pregătire pentru bacalaureat (CDEOȘ)", "arie": "Curriculum la decizia elevului", "bac": true }
+      ]
+    }
+  ]
+}

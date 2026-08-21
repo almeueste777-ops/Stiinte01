@@ -1,0 +1,418 @@
+{
+  "version": 1,
+  "actualizat": "2026-08-21",
+  "module": [
+    {
+      "id": "filosofie",
+      "materie": "Filosofie",
+      "clasa": "a XII-a",
+      "descriere": "Marile teme ale filosofiei: omul, cunoașterea, morala, politica.",
+      "lectii": [
+        {
+          "id": "filo-01",
+          "titlu": "Ce este filosofia?",
+          "rezumat": "Filosofia este cercetarea rațională, critică și sistematică a întrebărilor fundamentale despre existență, cunoaștere, valori și societate. Spre deosebire de știință, care răspunde la întrebări prin experiment, filosofia lucrează prin argumentare conceptuală. Ramuri principale: ontologia (existența), gnoseologia (cunoașterea), etica (binele), estetica (frumosul), filosofia politică (puterea și dreptatea).",
+          "ideiCheie": [
+            "Filosofia pune întrebări la care nu se poate răspunde exclusiv empiric.",
+            "Metoda filosofică = argumentare, analiză conceptuală, critică.",
+            "Ontologie, gnoseologie, etică, estetică, filosofie politică."
+          ]
+        },
+        {
+          "id": "filo-02",
+          "titlu": "Problema omului: natură vs. cultură",
+          "rezumat": "Omul este definit de tradiția filosofică drept „animal rațional” (Aristotel), „ființă care se face pe sine” (existențialismul) sau „ansamblul relațiilor sociale” (Marx). Distincția natură–cultură arată că omul are o zestre biologică, dar se împlinește prin cultură, limbaj și societate. Sartre: „existența precede esența” — omul nu are o natură dată, ci se construiește prin alegerile sale, de unde responsabilitatea și libertatea.",
+          "ideiCheie": [
+            "Aristotel: omul = animal rațional și politic (zoon politikon).",
+            "Sartre: existența precede esența; omul este condamnat să fie liber.",
+            "Cultura completează și transformă natura umană."
+          ]
+        },
+        {
+          "id": "filo-03",
+          "titlu": "Teoria cunoașterii: raționalism vs. empirism",
+          "rezumat": "Raționalismul (Descartes, Spinoza, Leibniz) susține că sursa cunoașterii certe este rațiunea, prin idei înnăscute și deducție. Empirismul (Locke, Berkeley, Hume) susține că mintea este la naștere o „tabula rasa”, iar toată cunoașterea provine din experiență. Kant realizează sinteza: cunoașterea începe cu experiența, dar nu provine în întregime din ea — intelectul aplică forme a priori (spațiu, timp, categorii).",
+          "ideiCheie": [
+            "Descartes: îndoiala metodică, «cogito ergo sum».",
+            "Locke: mintea este tabula rasa; nimic nu e în intelect fără să fi fost în simțuri.",
+            "Kant: judecăți sintetice a priori; revoluția copernicană în filosofie."
+          ]
+        },
+        {
+          "id": "filo-04",
+          "titlu": "Etica: datorie și utilitate",
+          "rezumat": "Etica deontologică (Kant) evaluează acțiunea după intenție și după conformitatea cu datoria morală: imperativul categoric cere să acționezi astfel încât maxima ta să poată deveni lege universală, și să tratezi umanitatea întotdeauna și ca scop, niciodată doar ca mijloc. Utilitarismul (Bentham, Mill) evaluează acțiunea după consecințe: bună este acțiunea care produce cea mai mare fericire pentru cel mai mare număr de oameni.",
+          "ideiCheie": [
+            "Kant: imperativ categoric, autonomie morală, valoare intrinsecă a persoanei.",
+            "Bentham/Mill: principiul utilității, calcul al consecințelor.",
+            "Deontologie = intenție; utilitarism = consecințe."
+          ]
+        },
+        {
+          "id": "filo-05",
+          "titlu": "Filosofie politică: contractul social",
+          "rezumat": "Hobbes pornește de la starea naturală ca „război al tuturor împotriva tuturor” și justifică un suveran absolut care garantează pacea. Locke consideră starea naturală guvernată de legea naturală, iar statul apare pentru a proteja drepturile la viață, libertate și proprietate; puterea este limitată și revocabilă. Rousseau vede contractul social ca supunere față de „voința generală”, prin care omul câștigă libertatea civilă.",
+          "ideiCheie": [
+            "Hobbes: homo homini lupus; Leviathanul.",
+            "Locke: drepturi naturale, guvernare limitată, dreptul la revoltă.",
+            "Rousseau: voința generală, suveranitate populară."
+          ]
+        }
+      ],
+      "flashcards": [
+        { "f": "Cine a formulat imperativul categoric?", "v": "Immanuel Kant." },
+        { "f": "Ce înseamnă „existența precede esența”?", "v": "Teza lui Sartre: omul nu are o natură prestabilită, ci se definește prin propriile alegeri." },
+        { "f": "Ce susține empirismul?", "v": "Că întreaga cunoaștere provine din experiența sensibilă; mintea este la naștere tabula rasa." },
+        { "f": "Care este principiul utilității?", "v": "Este morală acțiunea care produce cea mai mare fericire pentru cel mai mare număr de oameni." },
+        { "f": "Ce este starea naturală la Hobbes?", "v": "Războiul tuturor împotriva tuturor, în absența unei puteri comune." },
+        { "f": "Ce studiază ontologia?", "v": "Existența ca existență: ce există și în ce mod." },
+        { "f": "Ce este „voința generală” la Rousseau?", "v": "Voința corpului politic orientată spre binele comun, sursa suveranității legitime." }
+      ],
+      "quiz": [
+        { "intrebare": "Care filosof afirmă că mintea este la naștere o „tabula rasa”?", "optiuni": ["Descartes", "Locke", "Kant", "Platon"], "corect": 1, "explicatie": "John Locke, reprezentant al empirismului, respinge ideile înnăscute." },
+        { "intrebare": "Imperativul categoric aparține eticii:", "optiuni": ["utilitariste", "deontologice", "hedoniste", "relativiste"], "corect": 1, "explicatie": "Kant fundamentează o etică a datoriei (deontologică)." },
+        { "intrebare": "„Cogito ergo sum” aparține lui:", "optiuni": ["Hume", "Descartes", "Aristotel", "Mill"], "corect": 1, "explicatie": "Descartes, ca punct arhimedic al îndoielii metodice." },
+        { "intrebare": "Care autor justifică dreptul poporului de a se revolta împotriva guvernării abuzive?", "optiuni": ["Hobbes", "Locke", "Machiavelli", "Platon"], "corect": 1, "explicatie": "Locke: puterea politică este un mandat revocabil." },
+        { "intrebare": "Ramura filosofiei care studiază frumosul se numește:", "optiuni": ["etică", "estetică", "gnoseologie", "logică"], "corect": 1, "explicatie": "Estetica studiază frumosul și experiența artistică." }
+      ]
+    },
+    {
+      "id": "logica",
+      "materie": "Logică, argumentare și comunicare",
+      "clasa": "a IX-a",
+      "descriere": "Noțiuni, propoziții, raționamente, erori de argumentare.",
+      "lectii": [
+        {
+          "id": "log-01",
+          "titlu": "Noțiunea: sferă și conținut",
+          "rezumat": "Noțiunea este forma logică fundamentală care reflectă notele esențiale ale unei clase de obiecte. Conținutul (intensiunea) = totalitatea notelor caracteristice; sfera (extensiunea) = totalitatea obiectelor la care se aplică noțiunea. Legea raportului invers: cu cât conținutul este mai bogat, cu atât sfera este mai restrânsă.",
+          "ideiCheie": [
+            "Conținut = ce înseamnă noțiunea; sferă = la ce se aplică.",
+            "Raport invers între sferă și conținut.",
+            "Raporturi între noțiuni: identitate, încrucișare, ordonare, opoziție."
+          ]
+        },
+        {
+          "id": "log-02",
+          "titlu": "Propoziții categorice și pătratul logic",
+          "rezumat": "Cele patru tipuri de propoziții categorice: A (universal afirmativă – „Toți S sunt P”), E (universal negativă – „Niciun S nu este P”), I (particular afirmativă – „Unii S sunt P”), O (particular negativă – „Unii S nu sunt P”). Pătratul logic descrie raporturile: contradicție (A–O, E–I), contrarietate (A–E), subcontrarietate (I–O), subalternare (A–I, E–O).",
+          "ideiCheie": [
+            "A, E, I, O — cele patru forme categorice.",
+            "Contradictoriile nu pot fi nici ambele adevărate, nici ambele false.",
+            "Contrariile nu pot fi ambele adevărate, dar pot fi ambele false."
+          ]
+        },
+        {
+          "id": "log-03",
+          "titlu": "Silogismul",
+          "rezumat": "Silogismul este un raționament deductiv cu două premise și o concluzie, format din trei termeni: major (P), minor (S) și mediu (M). Figurile silogistice se disting după poziția termenului mediu. Reguli esențiale: termenul mediu trebuie distribuit cel puțin o dată; din două premise negative nu rezultă nimic; din două premise particulare nu rezultă nimic; concluzia urmează partea mai slabă.",
+          "ideiCheie": [
+            "Trei termeni: major, minor, mediu.",
+            "Patru figuri, determinate de poziția termenului mediu.",
+            "Validitatea ține de formă, nu de adevărul premiselor."
+          ]
+        },
+        {
+          "id": "log-04",
+          "titlu": "Erori de argumentare (sofisme)",
+          "rezumat": "Sofismele sunt argumente care par valide, dar nu sunt. Ad hominem — atacul persoanei în loc de argument. Ad populum — apel la opinia majorității. Ad verecundiam — apel nelegitim la autoritate. Petitio principii — presupunerea concluziei în premise. Falsa dilemă — reducerea artificială la două opțiuni. Panta alunecoasă — lanț nejustificat de consecințe.",
+          "ideiCheie": [
+            "Sofismul are aparență de validitate, dar încalcă regulile logicii.",
+            "Erorile formale țin de structură; cele informale, de conținut și context.",
+            "Recunoașterea sofismelor este esențială pentru gândirea critică."
+          ]
+        }
+      ],
+      "flashcards": [
+        { "f": "Ce este sfera unei noțiuni?", "v": "Totalitatea obiectelor la care se aplică noțiunea (extensiunea)." },
+        { "f": "Enunță legea raportului invers.", "v": "Cu cât conținutul unei noțiuni este mai bogat, cu atât sfera ei este mai restrânsă (și invers)." },
+        { "f": "Ce tip de propoziție este „Unii oameni nu sunt onești”?", "v": "O — particular negativă." },
+        { "f": "Ce raport există între A și O în pătratul logic?", "v": "Contradicție: una adevărată implică cealaltă falsă și invers." },
+        { "f": "Câți termeni are un silogism?", "v": "Trei: major, minor și mediu." },
+        { "f": "Ce este sofismul ad hominem?", "v": "Respingerea unei teze prin atacarea persoanei care o susține, nu a argumentelor ei." }
+      ],
+      "quiz": [
+        { "intrebare": "„Toți S sunt P” este o propoziție de tip:", "optiuni": ["A", "E", "I", "O"], "corect": 0, "explicatie": "A = universal afirmativă." },
+        { "intrebare": "Două propoziții contrare pot fi:", "optiuni": ["ambele adevărate", "ambele false", "nici adevărate, nici false", "întotdeauna echivalente"], "corect": 1, "explicatie": "Contrariile (A–E) nu pot fi ambele adevărate, dar pot fi ambele false." },
+        { "intrebare": "Termenul mediu într-un silogism valid trebuie:", "optiuni": ["să lipsească din concluzie și să fie distribuit cel puțin o dată", "să apară în concluzie", "să fie mereu subiect", "să fie particular"], "corect": 0, "explicatie": "Termenul mediu leagă premisele și nu apare în concluzie." },
+        { "intrebare": "„Ori ești cu noi, ori ești împotriva noastră” este:", "optiuni": ["ad populum", "falsă dilemă", "petitio principii", "ad verecundiam"], "corect": 1, "explicatie": "Reduce artificial realitatea la două opțiuni." }
+      ]
+    },
+    {
+      "id": "psihologie",
+      "materie": "Psihologie",
+      "clasa": "a X-a",
+      "descriere": "Procese psihice, personalitate, conduită.",
+      "lectii": [
+        {
+          "id": "psi-01",
+          "titlu": "Procesele psihice cognitive",
+          "rezumat": "Procesele cognitive senzoriale: senzația (reflectarea unei însușiri izolate), percepția (reflectarea obiectului în integralitatea lui), reprezentarea (imaginea în absența obiectului). Procesele cognitive superioare: gândirea (operează cu noțiuni, judecăți, raționamente), memoria (întipărire, păstrare, reactualizare), imaginația (crearea de imagini noi).",
+          "ideiCheie": [
+            "Senzație → percepție → reprezentare.",
+            "Gândirea operează prin analiză, sinteză, comparație, abstractizare, generalizare.",
+            "Memoria are trei procese: memorare, păstrare, reactualizare."
+          ]
+        },
+        {
+          "id": "psi-02",
+          "titlu": "Personalitatea",
+          "rezumat": "Personalitatea integrează temperamentul (latura dinamico-energetică, bazată pe tipul de sistem nervos), aptitudinile (însușiri care asigură succesul într-o activitate) și caracterul (sistemul de atitudini și trăsături morale). Tipologia clasică a temperamentelor: coleric, sangvinic, flegmatic, melancolic.",
+          "ideiCheie": [
+            "Temperament = cum reacționezi; caracter = ce valori ai; aptitudini = ce poți face.",
+            "Temperamentul este înnăscut, caracterul se educă.",
+            "Personalitatea este unitară, stabilă și dinamică."
+          ]
+        },
+        {
+          "id": "psi-03",
+          "titlu": "Motivația și afectivitatea",
+          "rezumat": "Motivația este ansamblul factorilor care declanșează, susțin și orientează comportamentul. Maslow ierarhizează trebuințele: fiziologice, de securitate, de apartenență, de stimă, de autorealizare. Motivația poate fi intrinsecă (plăcerea activității) sau extrinsecă (recompensă/pedeapsă). Procesele afective: afecte, emoții, dispoziții, sentimente, pasiuni.",
+          "ideiCheie": [
+            "Piramida lui Maslow: trebuințele inferioare se satisfac înaintea celor superioare.",
+            "Motivația optimă evită atât sub-motivarea, cât și supramotivarea (legea Yerkes-Dodson).",
+            "Sentimentele sunt stabile; emoțiile sunt de scurtă durată și intense."
+          ]
+        }
+      ],
+      "flashcards": [
+        { "f": "Diferența dintre senzație și percepție?", "v": "Senzația reflectă o însușire izolată, percepția reflectă obiectul ca întreg." },
+        { "f": "Care sunt componentele personalității?", "v": "Temperamentul, aptitudinile și caracterul." },
+        { "f": "Ce este motivația intrinsecă?", "v": "Motivația care provine din satisfacția oferită de activitatea însăși, nu din recompense externe." },
+        { "f": "Enumeră nivelurile piramidei lui Maslow.", "v": "Fiziologice, securitate, apartenență și dragoste, stimă, autorealizare." },
+        { "f": "Care sunt cele trei procese ale memoriei?", "v": "Memorarea (întipărirea), păstrarea și reactualizarea." }
+      ],
+      "quiz": [
+        { "intrebare": "Reprezentarea este:", "optiuni": ["reflectarea obiectului în prezența lui", "imaginea obiectului în absența acestuia", "o însușire izolată", "un raționament"], "corect": 1, "explicatie": "Reprezentarea este imaginea unui obiect perceput anterior, în absența lui." },
+        { "intrebare": "Latura dinamico-energetică a personalității este:", "optiuni": ["caracterul", "temperamentul", "aptitudinea", "motivația"], "corect": 1, "explicatie": "Temperamentul dă ritmul și intensitatea reacțiilor." },
+        { "intrebare": "În piramida lui Maslow, nevoia de stimă se află:", "optiuni": ["la bază", "deasupra nevoii de apartenență", "sub cea de securitate", "în afara piramidei"], "corect": 1, "explicatie": "Ordinea: fiziologice, securitate, apartenență, stimă, autorealizare." }
+      ]
+    },
+    {
+      "id": "sociologie",
+      "materie": "Sociologie",
+      "clasa": "a XI-a",
+      "descriere": "Societatea, grupurile, instituțiile, schimbarea socială.",
+      "lectii": [
+        {
+          "id": "soc-01",
+          "titlu": "Obiectul sociologiei",
+          "rezumat": "Sociologia studiază societatea ca sistem de relații, grupuri, instituții și procese. Auguste Comte îi dă numele; Émile Durkheim o întemeiază ca știință prin regula de a trata faptele sociale „ca lucruri”. Faptul social este exterior individului și exercită asupra lui o constrângere.",
+          "ideiCheie": [
+            "Comte — părintele termenului; Durkheim — întemeietorul metodei.",
+            "Faptul social: exterioritate + constrângere + generalitate.",
+            "Max Weber: sociologia comprehensivă, înțelegerea sensului acțiunii sociale."
+          ]
+        },
+        {
+          "id": "soc-02",
+          "titlu": "Grupuri sociale și socializare",
+          "rezumat": "Grupul social este un ansamblu de persoane între care există interacțiuni și un sentiment de apartenență. Grupuri primare (familia, grupul de prieteni) vs. secundare (organizații, instituții). Socializarea este procesul prin care individul interiorizează normele și valorile societății: primară (în copilărie, în familie) și secundară (școală, muncă, mass-media).",
+          "ideiCheie": [
+            "Grup primar: relații directe, afective, durabile.",
+            "Socializarea primară construiește identitatea de bază.",
+            "Resocializarea presupune înlocuirea unor modele deja interiorizate."
+          ]
+        },
+        {
+          "id": "soc-03",
+          "titlu": "Stratificare și mobilitate socială",
+          "rezumat": "Stratificarea socială este ierarhizarea indivizilor și grupurilor după criterii precum venitul, ocupația, educația, prestigiul. Sisteme: caste (închise), stări, clase (deschise). Mobilitatea socială poate fi verticală (ascendentă/descendentă) sau orizontală, intergenerațională sau intragenerațională.",
+          "ideiCheie": [
+            "Marx: clasele definite prin raportul față de mijloacele de producție.",
+            "Weber: clasă, statut, partid — trei dimensiuni ale stratificării.",
+            "Societatea modernă = sistem deschis, cu mobilitate ridicată."
+          ]
+        }
+      ],
+      "flashcards": [
+        { "f": "Cine a introdus termenul „sociologie”?", "v": "Auguste Comte." },
+        { "f": "Ce caracteristici are faptul social la Durkheim?", "v": "Exterioritate față de individ, constrângere și generalitate." },
+        { "f": "Ce este socializarea secundară?", "v": "Interiorizarea normelor unor sectoare specifice (școală, profesie, mass-media), după copilărie." },
+        { "f": "Ce este mobilitatea socială verticală?", "v": "Trecerea unui individ dintr-un strat social în altul, superior sau inferior." },
+        { "f": "Care sunt cele trei dimensiuni ale stratificării la Weber?", "v": "Clasa (economic), statutul (prestigiu) și partidul (putere)." }
+      ],
+      "quiz": [
+        { "intrebare": "Familia este un exemplu de grup:", "optiuni": ["secundar", "primar", "formal", "de referință negativă"], "corect": 1, "explicatie": "Relații directe, afective și durabile — grup primar." },
+        { "intrebare": "Sistemul de caste este:", "optiuni": ["deschis", "închis", "meritocratic", "temporar"], "corect": 1, "explicatie": "Poziția este atribuită la naștere și nu poate fi schimbată." },
+        { "intrebare": "„A trata faptele sociale ca lucruri” este regula lui:", "optiuni": ["Weber", "Durkheim", "Comte", "Marx"], "corect": 1, "explicatie": "Regulă centrală din „Regulile metodei sociologice”." }
+      ]
+    },
+    {
+      "id": "economie",
+      "materie": "Economie și educație antreprenorială",
+      "clasa": "a XIII-a",
+      "descriere": "Piață, cerere și ofertă, bani, firmă, antreprenoriat.",
+      "lectii": [
+        {
+          "id": "eco-01",
+          "titlu": "Nevoi, resurse, alegere",
+          "rezumat": "Economia studiază modul în care oamenii folosesc resurse limitate pentru a satisface nevoi nelimitate. Raritatea impune alegerea, iar orice alegere are un cost de oportunitate: valoarea celei mai bune alternative la care se renunță. Frontiera posibilităților de producție ilustrează grafic aceste constrângeri.",
+          "ideiCheie": [
+            "Raritate → alegere → cost de oportunitate.",
+            "Nevoile sunt nelimitate și regenerabile; resursele sunt limitate.",
+            "Eficiența economică = maxim de rezultat cu minim de resurse."
+          ]
+        },
+        {
+          "id": "eco-02",
+          "titlu": "Cererea și oferta",
+          "rezumat": "Legea cererii: la creșterea prețului, cantitatea cerută scade (ceteris paribus). Legea ofertei: la creșterea prețului, cantitatea oferită crește. Echilibrul pieței apare la prețul la care cantitatea cerută este egală cu cea oferită. Elasticitatea măsoară sensibilitatea cererii sau ofertei la variația prețului.",
+          "ideiCheie": [
+            "Curba cererii este descrescătoare; curba ofertei, crescătoare.",
+            "Preț de echilibru = intersecția cerere–ofertă.",
+            "Excedent la preț peste echilibru; penurie la preț sub echilibru."
+          ]
+        },
+        {
+          "id": "eco-03",
+          "titlu": "Antreprenoriatul",
+          "rezumat": "Antreprenorul identifică o oportunitate, combină factorii de producție și își asumă riscul unei afaceri, urmărind profitul. Planul de afaceri cuprinde descrierea ideii, analiza pieței și a concurenței, planul de marketing, planul operațional și proiecțiile financiare. Forme juridice frecvente în România: PFA, II, SRL.",
+          "ideiCheie": [
+            "Profit = venituri totale − costuri totale.",
+            "Riscul și inovarea sunt esența funcției antreprenoriale (Schumpeter).",
+            "Planul de afaceri = instrument de planificare și de finanțare."
+          ]
+        }
+      ],
+      "flashcards": [
+        { "f": "Ce este costul de oportunitate?", "v": "Valoarea celei mai bune alternative sacrificate atunci când faci o alegere." },
+        { "f": "Enunță legea cererii.", "v": "Ceteris paribus, când prețul crește, cantitatea cerută scade." },
+        { "f": "Ce este prețul de echilibru?", "v": "Prețul la care cantitatea cerută este egală cu cantitatea oferită." },
+        { "f": "Cum se calculează profitul?", "v": "Profit = venituri totale − costuri totale." },
+        { "f": "Ce se întâmplă când prețul este sub cel de echilibru?", "v": "Apare penuria: cantitatea cerută depășește cantitatea oferită." }
+      ],
+      "quiz": [
+        { "intrebare": "Raritatea resurselor impune:", "optiuni": ["inflația", "alegerea", "monopolul", "șomajul"], "corect": 1, "explicatie": "Resursele limitate obligă la alegere între utilizări alternative." },
+        { "intrebare": "Dacă prețul crește peste nivelul de echilibru, apare:", "optiuni": ["penurie", "excedent", "echilibru", "inflație"], "corect": 1, "explicatie": "Oferta depășește cererea — surplus de marfă." },
+        { "intrebare": "Cine a definit antreprenorul prin funcția de inovare?", "optiuni": ["Keynes", "Schumpeter", "Smith", "Ricardo"], "corect": 1, "explicatie": "Joseph Schumpeter: „distrugerea creatoare”." }
+      ]
+    },
+    {
+      "id": "romana",
+      "materie": "Limba și literatura română",
+      "clasa": "a XII-a",
+      "descriere": "Curente literare, texte canonice, structura eseului de bacalaureat.",
+      "lectii": [
+        {
+          "id": "rom-01",
+          "titlu": "Curente literare — repere",
+          "rezumat": "Clasicismul (echilibru, rațiune, modele antice), romantismul (sentiment, natură, geniu, evadare — Eminescu), realismul (observație socială, tipologii — Slavici, Rebreanu), simbolismul (sugestie, muzicalitate, corespondențe — Bacovia), modernismul (E. Lovinescu, sincronism — Arghezi, Barbu, Blaga), neomodernismul (Nichita Stănescu, Marin Sorescu), postmodernismul (Mircea Cărtărescu).",
+          "ideiCheie": [
+            "Romantism: antiteză, cosmogonie, mitul geniului.",
+            "Realism: veridicitate, cronologie, personaje tipice în situații tipice.",
+            "Modernism: ambiguitate, metaforă revelatorie, intelectualizarea emoției."
+          ]
+        },
+        {
+          "id": "rom-02",
+          "titlu": "Eseul de la proba E)a) — structură",
+          "rezumat": "Eseul structurat cere: încadrarea textului în curent/perioadă/specie, evidențierea a două trăsături care justifică încadrarea, comentarea a două elemente de structură/compoziție/limbaj (titlu, incipit, final, conflict, relații spațio-temporale, tehnici narative), susținerea unei opinii argumentate. Se punctează și redactarea: coerență, registru, ortografie, punctuație, așezare în pagină.",
+          "ideiCheie": [
+            "Structură fixă: încadrare → trăsături → elemente de construcție → opinie.",
+            "Fiecare afirmație trebuie susținută prin secvențe din text.",
+            "Redactarea aduce puncte separate — nu o neglija."
+          ]
+        }
+      ],
+      "flashcards": [
+        { "f": "Ce trăsătură definește simbolismul?", "v": "Sugestia și muzicalitatea; corespondențele dintre stările sufletești și elementele naturii." },
+        { "f": "Cine este teoreticianul sincronismului?", "v": "Eugen Lovinescu." },
+        { "f": "Ce presupune încadrarea într-un curent la eseu?", "v": "Menționarea curentului și demonstrarea lui prin două trăsături identificate în text." },
+        { "f": "Ce este metafora revelatorie?", "v": "Concept al lui Lucian Blaga: metafora care încearcă să reveleze un mister, nu doar să înlocuiască un termen." }
+      ],
+      "quiz": [
+        { "intrebare": "Romanul „Ion” de Liviu Rebreanu aparține:", "optiuni": ["romantismului", "realismului", "simbolismului", "clasicismului"], "corect": 1, "explicatie": "Realism obiectiv, cu tipologii și determinism social." },
+        { "intrebare": "Antiteza este procedeu specific:", "optiuni": ["realismului", "romantismului", "naturalismului", "postmodernismului"], "corect": 1, "explicatie": "Romantismul construiește pe opoziții: geniu–om comun, trecut–prezent." }
+      ]
+    },
+    {
+      "id": "istorie",
+      "materie": "Istorie",
+      "clasa": "a XII-a",
+      "descriere": "Teme pentru proba E)c): statul român modern, constituții, România în secolul XX.",
+      "lectii": [
+        {
+          "id": "ist-01",
+          "titlu": "Formarea statului român modern",
+          "rezumat": "1848 — revoluțiile din Țările Române formulează programul național. 1859 — dubla alegere a lui Alexandru Ioan Cuza la Iași (5 ianuarie) și București (24 ianuarie) realizează Unirea Principatelor. Reformele lui Cuza: secularizarea averilor mănăstirești (1863), reforma agrară și legea instrucțiunii publice (1864). 1866 — Carol I și prima Constituție. 1877–1878 — obținerea independenței. 1881 — proclamarea Regatului.",
+          "ideiCheie": [
+            "1859: dubla alegere; 1862: unificarea deplină, statul „România”.",
+            "1864: lovitura de stat a lui Cuza, Statutul Dezvoltător.",
+            "1877–1878: Războiul de Independență, Congresul de la Berlin."
+          ]
+        },
+        {
+          "id": "ist-02",
+          "titlu": "Constituțiile României",
+          "rezumat": "1866 — prima Constituție, inspirată de cea belgiană, monarhie constituțională, separația puterilor, drepturi și libertăți. 1923 — adaptată României Mari, vot universal masculin, proprietatea ca funcție socială. 1938 — Constituția autoritară a lui Carol al II-lea. 1948, 1952, 1965 — constituții comuniste. 1991 (revizuită în 2003) — republică semiprezidențială, stat de drept, pluralism politic.",
+          "ideiCheie": [
+            "1866 și 1923 — constituții liberale, democratice.",
+            "1938 — regim autoritar, concentrarea puterii la rege.",
+            "1991 — separația puterilor, drepturi fundamentale, Curtea Constituțională."
+          ]
+        },
+        {
+          "id": "ist-03",
+          "titlu": "România în perioada comunistă",
+          "rezumat": "1947 — abdicarea forțată a regelui Mihai și proclamarea Republicii Populare Române. Perioada Gheorghiu-Dej: sovietizare, colectivizare, represiune (Canalul Dunăre–Marea Neagră, Pitești, Sighet). Din 1965 — Nicolae Ceaușescu: relativă deschidere, apoi Tezele din iulie 1971 și instaurarea cultului personalității, sistematizare, penurie. Decembrie 1989 — Revoluția și căderea regimului.",
+          "ideiCheie": [
+            "1948: naționalizarea; 1949–1962: colectivizarea agriculturii.",
+            "1968: condamnarea invadării Cehoslovaciei — moment de prestigiu extern.",
+            "1989: Timișoara (16 decembrie) → București (21–22 decembrie)."
+          ]
+        }
+      ],
+      "flashcards": [
+        { "f": "În ce an și în ce orașe a fost ales domn Alexandru Ioan Cuza?", "v": "1859: la Iași pe 5 ianuarie și la București pe 24 ianuarie." },
+        { "f": "Ce a prevăzut secularizarea averilor mănăstirești (1863)?", "v": "Trecerea în proprietatea statului a averilor mănăstirilor închinate, cca un sfert din teritoriul țării." },
+        { "f": "După ce model a fost redactată Constituția din 1866?", "v": "După Constituția Belgiei din 1831." },
+        { "f": "Când a fost proclamat Regatul României?", "v": "În 1881." },
+        { "f": "Ce a marcat anul 1971 în România comunistă?", "v": "Tezele din iulie — revenirea la un control ideologic strict și cultul personalității." }
+      ],
+      "quiz": [
+        { "intrebare": "Independența României a fost recunoscută internațional la:", "optiuni": ["Congresul de la Viena", "Congresul de la Berlin (1878)", "Conferința de la Paris (1856)", "Tratatul de la Adrianopol"], "corect": 1, "explicatie": "Congresul de la Berlin, 1878, cu prețul cedării sudului Basarabiei." },
+        { "intrebare": "Prima Constituție a României a fost adoptată în:", "optiuni": ["1859", "1866", "1923", "1938"], "corect": 1, "explicatie": "1866, odată cu venirea lui Carol I." },
+        { "intrebare": "Marea Unire s-a desăvârșit la:", "optiuni": ["1 decembrie 1918, Alba Iulia", "27 martie 1918, Chișinău", "28 noiembrie 1918, Cernăuți", "24 ianuarie 1918"], "corect": 0, "explicatie": "Basarabia (martie), Bucovina (noiembrie) și Transilvania (1 decembrie 1918)." }
+      ]
+    },
+    {
+      "id": "geografie",
+      "materie": "Geografie",
+      "clasa": "a XII-a",
+      "descriere": "Europa, România, Uniunea Europeană — proba E)d).",
+      "lectii": [
+        {
+          "id": "geo-01",
+          "titlu": "Relieful României",
+          "rezumat": "Relieful este dispus concentric și în trepte: Carpații (Orientali, Meridionali, Occidentali) ocupă circa 31%, dealurile și podișurile 36%, câmpiile 33%. Vârful cel mai înalt: Moldoveanu (2544 m), în Munții Făgăraș. Depresiunea Colinară a Transilvaniei este încadrată de arcul carpatic. Delta Dunării este cea mai joasă și mai nouă unitate de relief.",
+          "ideiCheie": [
+            "Proporție aproximativ egală munte–deal–câmpie.",
+            "Moldoveanu 2544 m — altitudinea maximă.",
+            "Dispunere concentrică în jurul Depresiunii Transilvaniei."
+          ]
+        },
+        {
+          "id": "geo-02",
+          "titlu": "Uniunea Europeană",
+          "rezumat": "UE s-a format prin Tratatul de la Roma (1957, CEE) și a devenit Uniune prin Tratatul de la Maastricht (1992). România a aderat la 1 ianuarie 2007. Instituții principale: Parlamentul European (ales direct), Consiliul European, Consiliul UE, Comisia Europeană (executivul), Curtea de Justiție, Banca Centrală Europeană. Cele patru libertăți: circulația liberă a bunurilor, serviciilor, capitalurilor și persoanelor.",
+          "ideiCheie": [
+            "1957 Roma → 1992 Maastricht → 2007 aderarea României.",
+            "Comisia propune, Parlamentul și Consiliul decid.",
+            "Politica de coeziune reduce decalajele dintre regiuni."
+          ]
+        }
+      ],
+      "flashcards": [
+        { "f": "Care este cel mai înalt vârf din România?", "v": "Vârful Moldoveanu, 2544 m, Munții Făgăraș." },
+        { "f": "Când a aderat România la Uniunea Europeană?", "v": "La 1 ianuarie 2007." },
+        { "f": "Ce tratat a creat Uniunea Europeană?", "v": "Tratatul de la Maastricht, 1992." },
+        { "f": "Care sunt cele patru libertăți fundamentale ale pieței unice?", "v": "Libera circulație a mărfurilor, serviciilor, capitalurilor și persoanelor." }
+      ],
+      "quiz": [
+        { "intrebare": "Delta Dunării este:", "optiuni": ["cea mai veche unitate de relief", "cea mai nouă și mai joasă unitate de relief", "o unitate montană", "un podiș"], "corect": 1, "explicatie": "Formată prin depuneri recente, cu altitudini sub 10 m." },
+        { "intrebare": "Instituția executivă a Uniunii Europene este:", "optiuni": ["Parlamentul European", "Comisia Europeană", "Consiliul European", "Curtea de Conturi"], "corect": 1, "explicatie": "Comisia Europeană propune legislația și o pune în aplicare." }
+      ]
+    }
+  ]
+}

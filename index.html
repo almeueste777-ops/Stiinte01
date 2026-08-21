@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Științe Sociale — Liceu FR</title>
+<meta name="description" content="Aplicație PWA de studiu pentru liceu, filiera teoretică, profil umanist, specializarea Științe sociale, frecvență redusă.">
+<meta name="theme-color" content="#1c3d5a">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" href="./icons/icon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="./icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="stylesheet" href="./assets/app.css">
+</head>
+<body>
+<header class="topbar">
+  <button id="btn-back" class="icon-btn" hidden aria-label="Înapoi">&#8592;</button>
+  <h1 id="page-title">Științe Sociale</h1>
+  <span id="net-badge" class="badge" hidden>offline</span>
+</header>
+
+<main id="view" class="view" tabindex="-1"></main>
+
+<nav class="tabbar" role="tablist">
+  <button class="tab" data-route="acasa"   role="tab" aria-selected="true"><span>&#9679;</span>Acasă</button>
+  <button class="tab" data-route="materii" role="tab" aria-selected="false"><span>&#9776;</span>Materii</button>
+  <button class="tab" data-route="carduri" role="tab" aria-selected="false"><span>&#9635;</span>Carduri</button>
+  <button class="tab" data-route="test"    role="tab" aria-selected="false"><span>&#10003;</span>Test</button>
+  <button class="tab" data-route="plan"    role="tab" aria-selected="false"><span>&#9638;</span>Plan</button>
+</nav>
+
+<script src="./assets/app.js"></script>
+</body>
+</html>

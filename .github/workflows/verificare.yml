@@ -1,0 +1,50 @@
+name: Verificare
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+
+jobs:
+  verifica:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Validează fișierele JSON
+        run: |
+          for f in data/*.json manifest.webmanifest; do
+            node -e "JSON.parse(require('fs').readFileSync('$f','utf8'))" && echo "OK  $f"
+          done
+
+      - name: Verifică sintaxa JavaScript
+        run: |
+          node --check assets/app.js && echo "OK  assets/app.js"
+          node --check sw.js         && echo "OK  sw.js"
+
+      - name: Verifică fișierele obligatorii ale PWA
+        run: |
+          for f in index.html manifest.webmanifest sw.js \
+                   icons/icon-192.png icons/icon-512.png icons/icon-maskable-512.png; do
+            test -f "$f" && echo "OK  $f" || { echo "LIPSEȘTE $f"; exit 1; }
+          done
+
+      - name: Verifică fișierele din precache-ul service worker-ului
+        run: |
+          node -e "
+            const fs = require('fs');
+            const sw = fs.readFileSync('sw.js','utf8');
+            const lista = sw.match(/const ASSETS = \[([\s\S]*?)\]/)[1]
+              .split(',').map(s => s.trim().replace(/^['\"]|['\"]\$/g,'')).filter(Boolean);
+            let er = 0;
+            for (const p of lista) {
+              if (p === './') continue;
+              if (!fs.existsSync(p.replace(/^\.\//,''))) { console.error('LIPSEȘTE din repo: ' + p); er++; }
+              else console.log('OK  ' + p);
+            }
+            process.exit(er ? 1 : 0);
+          "
