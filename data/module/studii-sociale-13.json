@@ -1,0 +1,1073 @@
+{
+ "id": "studii-sociale-13",
+ "materie": "Studii sociale",
+ "clasa": "a XIII-a",
+ "an": 5,
+ "arie": "Om și societate",
+ "bac": false,
+ "descriere": "Competențe sociale și civice: democrația în practică, instituțiile statului, media și gândirea critică, proiectul civic.",
+ "capitole": [
+  {
+   "id": "ss13-c1",
+   "titlu": "Democrația în practică",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "ss13-01",
+     "titlu": "Statul de drept și separarea puterilor",
+     "rezumat": "Statul de drept înseamnă că puterea publică se exercită numai în limitele legii, iar legea se aplică tuturor, inclusiv guvernanților. Elementele lui: supremația Constituției, separarea și echilibrul puterilor, independența justiției, garantarea drepturilor fundamentale, controlul constituționalității legilor, accesul liber la justiție. Separarea puterilor, teoretizată de Montesquieu, distribuie autoritatea între legislativ (adoptă legi), executiv (le pune în aplicare) și judecătoresc (le aplică în cazuri concrete). Ea nu înseamnă izolare, ci control reciproc: Parlamentul poate retrage încrederea Guvernului, Președintele poate cere reexaminarea unei legi, Curtea Constituțională poate declara o lege neconstituțională, instanțele controlează actele administrative. Fără acest control reciproc, separarea rămâne formală.",
+     "ideiCheie": [
+      "Statul de drept: puterea se exercită în limitele legii, care se aplică tuturor.",
+      "Separarea puterilor: legislativ, executiv, judecătoresc.",
+      "Esențial este controlul reciproc, nu izolarea puterilor.",
+      "Curtea Constituțională verifică conformitatea legilor cu Constituția."
+     ],
+     "termeni": [
+      {
+       "t": "stat de drept",
+       "d": "sistem în care puterea publică se exercită numai în limitele legii"
+      },
+      {
+       "t": "control reciproc",
+       "d": "mecanismele prin care fiecare putere limitează abuzurile celorlalte"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce înseamnă statul de drept?",
+       "v": "Că puterea publică se exercită doar în limitele legii, care se aplică tuturor."
+      },
+      {
+       "f": "Care sunt cele trei puteri în stat?",
+       "v": "Legislativă, executivă și judecătorească."
+      },
+      {
+       "f": "De ce nu e suficientă simpla separare a puterilor?",
+       "v": "Pentru că fără control reciproc rămâne formală."
+      },
+      {
+       "f": "Ce face Curtea Constituțională?",
+       "v": "Verifică conformitatea legilor cu Constituția."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Separarea puterilor a fost teoretizată de:",
+       "optiuni": [
+        "Montesquieu",
+        "Rousseau",
+        "Locke",
+        "Hobbes"
+       ],
+       "corect": 0,
+       "explicatie": "În „Despre spiritul legilor” (1748)."
+      },
+      {
+       "intrebare": "Puterea judecătorească:",
+       "optiuni": [
+        "aplică legea în cazuri concrete",
+        "adoptă legile",
+        "pune legile în aplicare administrativ",
+        "numește guvernul"
+       ],
+       "corect": 0,
+       "explicatie": "Independența ei este condiția statului de drept."
+      },
+      {
+       "intrebare": "Controlul reciproc al puterilor înseamnă:",
+       "optiuni": [
+        "fiecare putere limitează abuzurile celorlalte",
+        "fiecare putere lucrează izolat",
+        "o putere le domină pe celelalte",
+        "puterile fuzionează"
+       ],
+       "corect": 0,
+       "explicatie": "Fără el, separarea rămâne formală."
+      },
+      {
+       "intrebare": "Supremația Constituției presupune că:",
+       "optiuni": [
+        "nicio lege nu poate contrazice Constituția",
+        "Constituția nu poate fi modificată",
+        "Parlamentul e mai presus de lege",
+        "justiția interpretează liber legile"
+       ],
+       "corect": 0,
+       "explicatie": "Curtea Constituțională verifică această conformitate."
+      }
+     ]
+    },
+    {
+     "id": "ss13-02",
+     "titlu": "Instituțiile statului român",
+     "rezumat": "România este republică semiprezidențială. Președintele este ales prin vot universal direct, pe cinci ani, cel mult două mandate; are rol de mediere între puterile statului, reprezintă statul în relațiile externe, este comandantul forțelor armate, desemnează candidatul la funcția de prim-ministru, promulgă legile și poate cere reexaminarea lor o singură dată. Parlamentul este bicameral: Camera Deputaților și Senatul, alese pe patru ani. Atribuții: adoptarea legilor, aprobarea bugetului, învestirea și controlul Guvernului, ratificarea tratatelor. Guvernul, condus de prim-ministru, realizează politica internă și externă și exercită conducerea generală a administrației publice. Autoritatea judecătorească cuprinde instanțele, Ministerul Public și Consiliul Superior al Magistraturii, garantul independenței justiției. Administrația locală: consilii locale și județene, primari, președinți de consiliu județean, aleși prin vot direct; prefectul reprezintă Guvernul în teritoriu.",
+     "ideiCheie": [
+      "România este republică semiprezidențială.",
+      "Președintele: cinci ani, cel mult două mandate, rol de mediere.",
+      "Parlamentul e bicameral, ales pe patru ani.",
+      "Administrația locală este aleasă direct; prefectul reprezintă Guvernul."
+     ],
+     "termeni": [
+      {
+       "t": "republică semiprezidențială",
+       "d": "regim în care președintele ales direct coexistă cu un guvern răspunzător în fața parlamentului"
+      },
+      {
+       "t": "Consiliul Superior al Magistraturii",
+       "d": "instituția care garantează independența justiției"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cât durează mandatul Președintelui României?",
+       "v": "Cinci ani, cu cel mult două mandate."
+      },
+      {
+       "f": "Din ce este format Parlamentul României?",
+       "v": "Din Camera Deputaților și Senat."
+      },
+      {
+       "f": "Ce instituție garantează independența justiției?",
+       "v": "Consiliul Superior al Magistraturii."
+      },
+      {
+       "f": "Cine reprezintă Guvernul în teritoriu?",
+       "v": "Prefectul."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Mandatul Parlamentului României este de:",
+       "optiuni": [
+        "patru ani",
+        "cinci ani",
+        "șase ani",
+        "trei ani"
+       ],
+       "corect": 0,
+       "explicatie": "Mandatul prezidențial este de cinci ani."
+      },
+      {
+       "intrebare": "Președintele României poate cere reexaminarea unei legi:",
+       "optiuni": [
+        "o singură dată",
+        "de două ori",
+        "de câte ori dorește",
+        "niciodată"
+       ],
+       "corect": 0,
+       "explicatie": "După reexaminare, promulgarea devine obligatorie."
+      },
+      {
+       "intrebare": "Primarul este:",
+       "optiuni": [
+        "ales prin vot direct de cetățenii localității",
+        "numit de prefect",
+        "numit de Guvern",
+        "ales de consiliul local"
+       ],
+       "corect": 0,
+       "explicatie": "Consilierii locali sunt aleși tot prin vot direct."
+      },
+      {
+       "intrebare": "Prefectul:",
+       "optiuni": [
+        "reprezintă Guvernul în județ",
+        "conduce consiliul județean",
+        "este ales de cetățeni",
+        "face parte din Parlament"
+       ],
+       "corect": 0,
+       "explicatie": "El poate ataca în contencios actele nelegale ale autorităților locale."
+      }
+     ]
+    },
+    {
+     "id": "ss13-03",
+     "titlu": "Alegeri, partide, societate civilă",
+     "rezumat": "Alegerile libere presupun: sufragiu universal, egal, direct, secret și liber exprimat; competiție reală între alternative; acces echitabil la mass-media; administrare imparțială; posibilitatea contestării. Sistemele electorale diferă: majoritar (câștigătorul ia tot, favorizează stabilitatea și partidele mari), proporțional (mandatele se împart proporțional cu voturile, reflectă mai fidel opțiunile, dar poate fragmenta parlamentul), mixt. Partidele politice agregă interese, formulează programe, selectează candidați și asigură alternativa de guvernare. Societatea civilă — asociații, fundații, sindicate, grupuri informale, presă independentă — completează democrația între alegeri: monitorizează, semnalează, propune, mobilizează. O democrație funcționează prost când partidele sunt slabe și societatea civilă absentă; abundența unei singure componente nu compensează lipsa celeilalte.",
+     "ideiCheie": [
+      "Alegeri libere: sufragiu universal, competiție reală, administrare imparțială, contestare posibilă.",
+      "Sistem majoritar (stabilitate) vs. proporțional (reprezentativitate).",
+      "Partidele agregă interese și asigură alternativa de guvernare.",
+      "Societatea civilă completează democrația între alegeri."
+     ],
+     "termeni": [
+      {
+       "t": "sistem electoral proporțional",
+       "d": "sistem în care mandatele se distribuie proporțional cu voturile obținute"
+      },
+      {
+       "t": "societate civilă",
+       "d": "ansamblul asociațiilor și grupurilor independente de stat și de piață"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt condițiile unor alegeri libere?",
+       "v": "Sufragiu universal și secret, competiție reală, acces echitabil la media, administrare imparțială, posibilitatea contestării."
+      },
+      {
+       "f": "Ce avantaj are sistemul proporțional?",
+       "v": "Reflectă mai fidel opțiunile alegătorilor."
+      },
+      {
+       "f": "Ce rol are societatea civilă?",
+       "v": "Monitorizează, semnalează, propune și mobilizează, între alegeri."
+      },
+      {
+       "f": "Ce funcții au partidele politice?",
+       "v": "Agregă interese, formulează programe, selectează candidați, asigură alternativa de guvernare."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Sistemul electoral majoritar favorizează:",
+       "optiuni": [
+        "stabilitatea guvernamentală și partidele mari",
+        "reprezentarea partidelor mici",
+        "fragmentarea parlamentului",
+        "coalițiile largi"
+       ],
+       "corect": 0,
+       "explicatie": "Sistemul proporțional favorizează reprezentativitatea."
+      },
+      {
+       "intrebare": "Votul secret garantează:",
+       "optiuni": [
+        "libertatea de exprimare a opțiunii, fără presiuni",
+        "corectitudinea numărării",
+        "prezența la vot",
+        "egalitatea candidaților"
+       ],
+       "corect": 0,
+       "explicatie": "El împiedică represaliile împotriva alegătorilor."
+      },
+      {
+       "intrebare": "Societatea civilă cuprinde:",
+       "optiuni": [
+        "asociații, fundații, sindicate, presă independentă",
+        "partidele politice",
+        "instituțiile statului",
+        "companiile private"
+       ],
+       "corect": 0,
+       "explicatie": "Ea este independentă atât de stat, cât și de piață."
+      },
+      {
+       "intrebare": "O democrație funcționează prost atunci când:",
+       "optiuni": [
+        "partidele sunt slabe și societatea civilă absentă",
+        "există multe partide",
+        "societatea civilă este activă",
+        "alegerile sunt frecvente"
+       ],
+       "corect": 0,
+       "explicatie": "Cele două componente nu se pot înlocui reciproc."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ss13-c2",
+   "titlu": "Media, informație, gândire critică",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "ss13-04",
+     "titlu": "Mass-media și rolul ei democratic",
+     "rezumat": "Mass-media are, într-o democrație, patru funcții: informarea, formarea opiniei, supravegherea puterii („câinele de pază”) și medierea dezbaterii publice. Independența editorială și pluralismul surselor sunt condițiile îndeplinirii lor. Concentrarea proprietății, dependența de finanțare politică sau comercială și presiunea audienței le erodează. Deosebirea esențială pentru cititor este între genurile jurnalistice: știrea (fapte verificabile, surse citate, separarea de opinie), reportajul, ancheta, interviul, editorialul și comentariul (opinie asumată). Amestecul deliberat dintre știre și opinie este una dintre formele frecvente de manipulare. Jurnalismul de calitate se recunoaște prin: surse identificate, verificare încrucișată, dreptul la replică, corectarea publică a erorilor, transparența finanțării.",
+     "ideiCheie": [
+      "Funcțiile mass-mediei: informare, formarea opiniei, supravegherea puterii, medierea dezbaterii.",
+      "Independența editorială și pluralismul sunt condițiile îndeplinirii lor.",
+      "Știrea prezintă fapte verificabile; editorialul, opinie asumată.",
+      "Jurnalismul de calitate: surse identificate, verificare, drept la replică, corectarea erorilor."
+     ],
+     "termeni": [
+      {
+       "t": "pluralism mediatic",
+       "d": "existența unor surse de informare diverse și independente"
+      },
+      {
+       "t": "drept la replică",
+       "d": "dreptul unei persoane vizate de a răspunde public unei afirmații despre ea"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt funcțiile democratice ale mass-mediei?",
+       "v": "Informarea, formarea opiniei, supravegherea puterii și medierea dezbaterii publice."
+      },
+      {
+       "f": "Ce deosebește știrea de editorial?",
+       "v": "Știrea prezintă fapte verificabile; editorialul exprimă o opinie asumată."
+      },
+      {
+       "f": "Cum se recunoaște jurnalismul de calitate?",
+       "v": "Prin surse identificate, verificare încrucișată, drept la replică, corectarea erorilor, transparența finanțării."
+      },
+      {
+       "f": "Ce erodează independența editorială?",
+       "v": "Concentrarea proprietății, dependența de finanțare politică sau comercială, presiunea audienței."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Funcția de „câine de pază” a presei înseamnă:",
+       "optiuni": [
+        "supravegherea modului în care este exercitată puterea",
+        "promovarea guvernului",
+        "divertismentul",
+        "publicitatea comercială"
+       ],
+       "corect": 0,
+       "explicatie": "Ea este esențială pentru responsabilizarea guvernanților."
+      },
+      {
+       "intrebare": "Amestecul deliberat dintre știre și opinie este:",
+       "optiuni": [
+        "o formă frecventă de manipulare",
+        "o practică jurnalistică normală",
+        "o cerință a echilibrului",
+        "o formă de pluralism"
+       ],
+       "corect": 0,
+       "explicatie": "Cititorul trebuie să poată distinge faptele de interpretări."
+      },
+      {
+       "intrebare": "Corectarea publică a erorilor este:",
+       "optiuni": [
+        "un semn de jurnalism responsabil",
+        "o dovadă de incompetență",
+        "o obligație legală în toate cazurile",
+        "o practică rară și inutilă"
+       ],
+       "corect": 0,
+       "explicatie": "Ea întărește, nu slăbește, credibilitatea."
+      },
+      {
+       "intrebare": "Pluralismul mediatic presupune:",
+       "optiuni": [
+        "surse de informare diverse și independente",
+        "un număr mare de publicații ale aceluiași proprietar",
+        "prezența statului în presă",
+        "uniformitatea mesajelor"
+       ],
+       "corect": 0,
+       "explicatie": "Diversitatea proprietății contează la fel de mult ca numărul titlurilor."
+      }
+     ]
+    },
+    {
+     "id": "ss13-05",
+     "titlu": "Dezinformare, verificarea informației",
+     "rezumat": "Dezinformarea este răspândirea intenționată a unor informații false, pentru a induce în eroare; informarea greșită (misinformation) este răspândirea neintenționată a unor informații false. Formele: știri complet false, conținut manipulat, context fals (imagine reală, context greșit), impostură (site care imită o publicație reală), satiră luată drept informație, conținut generat artificial. Verificarea are pași simpli și eficienți: identifică sursa primară și caută informația la alte surse independente; verifică autorul și data; caută imaginea prin căutare inversă; observă indiciile emoționale (titlurile care produc indignare imediată sunt construite pentru distribuire, nu pentru informare); verifică dacă afirmația e verificabilă sau doar plauzibilă. Rețelele sociale amplifică conținutul care produce reacție puternică, nu pe cel corect — de aici avantajul structural al dezinformării.",
+     "ideiCheie": [
+      "Dezinformarea e intenționată; informarea greșită, neintenționată.",
+      "Forme: știri false, conținut manipulat, context fals, impostură, conținut generat artificial.",
+      "Verificare: sursă primară, surse independente, autor și dată, căutare inversă de imagini.",
+      "Algoritmii amplifică ce produce reacție, nu ce este corect."
+     ],
+     "termeni": [
+      {
+       "t": "dezinformare",
+       "d": "răspândirea intenționată a unor informații false, pentru a induce în eroare"
+      },
+      {
+       "t": "căutare inversă de imagini",
+       "d": "metodă de a afla unde a mai apărut o imagine și în ce context"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care e deosebirea dintre dezinformare și informarea greșită?",
+       "v": "Dezinformarea este intenționată; informarea greșită, neintenționată."
+      },
+      {
+       "f": "Ce este contextul fals?",
+       "v": "Folosirea unei imagini sau a unei informații reale într-un context care schimbă sensul."
+      },
+      {
+       "f": "Care sunt pașii verificării unei informații?",
+       "v": "Sursa primară, surse independente, autorul și data, căutarea inversă de imagini."
+      },
+      {
+       "f": "De ce are dezinformarea un avantaj structural pe rețelele sociale?",
+       "v": "Pentru că algoritmii amplifică conținutul care produce reacție puternică, nu pe cel corect."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "O imagine reală folosită pentru un eveniment la care nu se referă este un caz de:",
+       "optiuni": [
+        "context fals",
+        "satiră",
+        "impostură",
+        "conținut generat artificial"
+       ],
+       "corect": 0,
+       "explicatie": "Este una dintre cele mai frecvente forme de dezinformare."
+      },
+      {
+       "intrebare": "Titlurile care produc indignare imediată sunt, de regulă:",
+       "optiuni": [
+        "construite pentru distribuire, nu pentru informare",
+        "semnul unei știri importante",
+        "garanția veridicității",
+        "rezultatul unei erori"
+       ],
+       "corect": 0,
+       "explicatie": "Emoția puternică scurtcircuitează verificarea."
+      },
+      {
+       "intrebare": "Căutarea inversă de imagini permite:",
+       "optiuni": [
+        "aflarea contextului original al unei imagini",
+        "verificarea autorului unui text",
+        "identificarea datei publicării",
+        "traducerea conținutului"
+       ],
+       "corect": 0,
+       "explicatie": "Este cel mai rapid test pentru contextul fals."
+      },
+      {
+       "intrebare": "Informarea greșită (misinformation) se deosebește de dezinformare prin:",
+       "optiuni": [
+        "absența intenției de a induce în eroare",
+        "gravitatea consecințelor",
+        "mediul de răspândire",
+        "numărul de persoane afectate"
+       ],
+       "corect": 0,
+       "explicatie": "Efectele pot fi însă la fel de grave."
+      }
+     ]
+    },
+    {
+     "id": "ss13-06",
+     "titlu": "Gândire critică și argumentare publică",
+     "rezumat": "Gândirea critică înseamnă evaluarea afirmațiilor pe baza temeiurilor, nu a sursei sau a impresiei. Pașii: identifică afirmația exactă; caută temeiurile aduse; verifică dacă temeiurile sunt adevărate; verifică dacă susțin chiar afirmația respectivă; caută obiecții și explicații alternative; abia apoi formulează o concluzie, cu gradul de certitudine potrivit. Distorsiunile cognitive frecvente: confirmarea (căutăm ce ne dă dreptate), disponibilitatea (judecăm după exemplele care ne vin ușor în minte), efectul de grup, ancorarea, iluzia consensului. Ele nu se elimină prin voință, ci prin procedură: expunerea deliberată la argumente contrare, cererea de dovezi, întârzierea concluziei, discuția cu cineva care gândește altfel. Semnul unei gândiri critice reale nu este suspiciunea generalizată, ci capacitatea de a-ți schimba opinia atunci când dovezile o cer.",
+     "ideiCheie": [
+      "Gândirea critică evaluează afirmațiile pe baza temeiurilor, nu a sursei.",
+      "Pașii: afirmație, temeiuri, adevărul lor, relevanța lor, obiecții, concluzie calibrată.",
+      "Distorsiuni: confirmare, disponibilitate, efect de grup, ancorare.",
+      "Semnul gândirii critice: schimbarea opiniei când dovezile o cer."
+     ],
+     "termeni": [
+      {
+       "t": "distorsiune de confirmare",
+       "d": "tendința de a căuta și de a reține doar informațiile care ne confirmă opinia"
+      },
+      {
+       "t": "concluzie calibrată",
+       "d": "concluzie formulată cu gradul de certitudine pe care îl susțin dovezile"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce înseamnă gândirea critică?",
+       "v": "Evaluarea afirmațiilor pe baza temeiurilor, nu a sursei sau a impresiei."
+      },
+      {
+       "f": "Ce este distorsiunea de confirmare?",
+       "v": "Tendința de a căuta și de a reține doar informațiile care ne dau dreptate."
+      },
+      {
+       "f": "Cum se combat distorsiunile cognitive?",
+       "v": "Prin procedură: expunere la argumente contrare, cerere de dovezi, întârzierea concluziei."
+      },
+      {
+       "f": "Care este semnul unei gândiri critice reale?",
+       "v": "Capacitatea de a-ți schimba opinia atunci când dovezile o cer."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Distorsiunea de disponibilitate înseamnă că:",
+       "optiuni": [
+        "judecăm după exemplele care ne vin ușor în minte",
+        "căutăm doar confirmări",
+        "ne aliniem la grup",
+        "ne fixăm pe prima cifră auzită"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea evenimentele mediatizate par mai frecvente decât sunt."
+      },
+      {
+       "intrebare": "Gândirea critică NU înseamnă:",
+       "optiuni": [
+        "suspiciune generalizată față de orice informație",
+        "evaluarea temeiurilor",
+        "căutarea obiecțiilor",
+        "calibrarea concluziei"
+       ],
+       "corect": 0,
+       "explicatie": "Scepticismul total este la fel de neproductiv ca încrederea oarbă."
+      },
+      {
+       "intrebare": "Cererea de dovezi este eficientă împotriva distorsiunilor pentru că:",
+       "optiuni": [
+        "înlocuiește impresia cu verificarea",
+        "elimină emoțiile",
+        "garantează adevărul",
+        "descurajează dialogul"
+       ],
+       "corect": 0,
+       "explicatie": "Procedura compensează limitele cognitive."
+      },
+      {
+       "intrebare": "O concluzie calibrată este aceea care:",
+       "optiuni": [
+        "exprimă gradul de certitudine pe care îl susțin dovezile",
+        "este formulată categoric",
+        "evită orice afirmație",
+        "repetă opinia inițială"
+       ],
+       "corect": 0,
+       "explicatie": "„Probabil” și „sigur” nu sunt interschimbabile."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ss13-c3",
+   "titlu": "Proiectul civic",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "ss13-07",
+     "titlu": "Identificarea unei probleme publice",
+     "rezumat": "O problemă publică este o situație care afectează un grup, este percepută colectiv ca inacceptabilă și poate fi ameliorată prin acțiune organizată. Identificarea ei corectă cere date, nu impresii: observație directă, chestionare, interviuri, statistici oficiale, rapoarte, consultarea celor afectați. Analiza cauzelor separă simptomele de cauze: gunoiul din parc este simptomul; cauzele pot fi lipsa coșurilor, frecvența redusă a colectării, absența educației, lipsa sancțiunilor. Instrumentul clasic este „arborele problemei”: rădăcinile sunt cauzele, trunchiul e problema, ramurile sunt efectele. Soluțiile eficiente atacă rădăcinile, nu ramurile — de aceea o campanie de afișe fără infrastructură schimbă rar ceva.",
+     "ideiCheie": [
+      "Problema publică afectează un grup, e percepută ca inacceptabilă și poate fi ameliorată.",
+      "Identificarea cere date: observație, chestionare, interviuri, statistici.",
+      "Arborele problemei: cauze (rădăcini), problemă (trunchi), efecte (ramuri).",
+      "Soluțiile eficiente atacă cauzele, nu simptomele."
+     ],
+     "termeni": [
+      {
+       "t": "problemă publică",
+       "d": "situație percepută colectiv ca inacceptabilă și ameliorabilă prin acțiune organizată"
+      },
+      {
+       "t": "arborele problemei",
+       "d": "instrument de analiză care distinge cauzele, problema centrală și efectele"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este o problemă publică?",
+       "v": "O situație care afectează un grup, e percepută ca inacceptabilă și poate fi ameliorată prin acțiune."
+      },
+      {
+       "f": "Ce distinge arborele problemei?",
+       "v": "Cauzele (rădăcini), problema centrală (trunchi) și efectele (ramuri)."
+      },
+      {
+       "f": "De ce e importantă separarea cauzelor de simptome?",
+       "v": "Pentru că soluțiile care atacă simptomele nu produc schimbare durabilă."
+      },
+      {
+       "f": "Cum se identifică o problemă cu date?",
+       "v": "Prin observație, chestionare, interviuri, statistici oficiale și consultarea celor afectați."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Într-un arbore al problemei, cauzele sunt reprezentate de:",
+       "optiuni": [
+        "rădăcini",
+        "trunchi",
+        "ramuri",
+        "frunze"
+       ],
+       "corect": 0,
+       "explicatie": "Efectele apar ca ramuri."
+      },
+      {
+       "intrebare": "O campanie de afișe fără măsuri de infrastructură:",
+       "optiuni": [
+        "atacă simptomul, nu cauza",
+        "rezolvă problema",
+        "este întotdeauna eficientă",
+        "înlocuiește analiza"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea produce rar schimbări durabile."
+      },
+      {
+       "intrebare": "Identificarea unei probleme publice trebuie să se sprijine pe:",
+       "optiuni": [
+        "date colectate, nu pe impresii",
+        "opinia unui singur grup",
+        "experiența personală",
+        "sugestiile din presă"
+       ],
+       "corect": 0,
+       "explicatie": "Datele fac problema verificabilă și argumentabilă."
+      },
+      {
+       "intrebare": "O situație devine problemă publică atunci când:",
+       "optiuni": [
+        "este percepută colectiv ca inacceptabilă și ameliorabilă",
+        "afectează o singură persoană",
+        "este menționată în presă",
+        "apare într-o lege"
+       ],
+       "corect": 0,
+       "explicatie": "Percepția colectivă este condiția."
+      }
+     ]
+    },
+    {
+     "id": "ss13-08",
+     "titlu": "Planificarea și implementarea unui proiect civic",
+     "rezumat": "Planificarea transformă intenția în plan verificabil. Elementele: obiectivul general și obiectivele specifice (măsurabile), grupul-țintă și beneficiarii, activitățile, calendarul, resursele (umane, materiale, financiare), responsabilii, partenerii, riscurile și măsurile de reducere a lor, indicatorii de rezultat. Implementarea cere disciplină: respectarea calendarului, comunicare constantă în echipă, adaptare la neprevăzut fără abandonarea obiectivului. Parteneriatele multiplică resursele: școala, primăria, ONG-urile locale, firmele, părinții. Comunicarea publică a proiectului nu este vanitate, ci parte din impact: ea atrage sprijin, responsabilizează instituțiile și oferă un model care poate fi reluat. Un jurnal de proiect — ce s-a făcut, când, cine, ce a mers și ce nu — este cel mai util document pentru evaluare.",
+     "ideiCheie": [
+      "Planul cuprinde obiective măsurabile, activități, calendar, resurse, responsabili, riscuri, indicatori.",
+      "Implementarea cere disciplină și adaptare fără abandonarea obiectivului.",
+      "Parteneriatele multiplică resursele disponibile.",
+      "Jurnalul de proiect este documentul cel mai util pentru evaluare."
+     ],
+     "termeni": [
+      {
+       "t": "obiectiv specific",
+       "d": "obiectiv concret și măsurabil, care contribuie la obiectivul general"
+      },
+      {
+       "t": "indicator de rezultat",
+       "d": "mărime prin care se verifică atingerea unui obiectiv"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce elemente cuprinde planul unui proiect civic?",
+       "v": "Obiective, grup-țintă, activități, calendar, resurse, responsabili, riscuri, indicatori."
+      },
+      {
+       "f": "De ce sunt utile parteneriatele?",
+       "v": "Pentru că multiplică resursele: instituții, organizații, firme, părinți."
+      },
+      {
+       "f": "Ce rol are comunicarea publică a proiectului?",
+       "v": "Atrage sprijin, responsabilizează instituțiile și oferă un model reluabil."
+      },
+      {
+       "f": "Ce conține un jurnal de proiect?",
+       "v": "Ce s-a făcut, când, cine, ce a mers și ce nu."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Un obiectiv specific trebuie să fie:",
+       "optiuni": [
+        "concret și măsurabil",
+        "general și ambițios",
+        "formulat la final",
+        "exprimat calitativ"
+       ],
+       "corect": 0,
+       "explicatie": "Altfel nu se poate verifica atingerea lui."
+      },
+      {
+       "intrebare": "Analiza riscurilor într-un plan de proiect servește la:",
+       "optiuni": [
+        "pregătirea din timp a măsurilor de reducere",
+        "descurajarea echipei",
+        "justificarea eșecului",
+        "creșterea bugetului"
+       ],
+       "corect": 0,
+       "explicatie": "Riscul anticipat costă mult mai puțin decât cel ignorat."
+      },
+      {
+       "intrebare": "Comunicarea publică a unui proiect civic:",
+       "optiuni": [
+        "face parte din impact, nu este doar promovare",
+        "este opțională și inutilă",
+        "ar trebui evitată",
+        "înlocuiește evaluarea"
+       ],
+       "corect": 0,
+       "explicatie": "Ea atrage sprijin și responsabilizează instituțiile."
+      },
+      {
+       "intrebare": "Adaptarea la neprevăzut, în implementare, înseamnă:",
+       "optiuni": [
+        "modificarea activităților, păstrând obiectivul",
+        "schimbarea obiectivului",
+        "abandonarea proiectului",
+        "amânarea nelimitată"
+       ],
+       "corect": 0,
+       "explicatie": "Obiectivul rămâne reperul."
+      }
+     ]
+    },
+    {
+     "id": "ss13-09",
+     "titlu": "Evaluare, impact și continuitate",
+     "rezumat": "Evaluarea răspunde la trei întrebări: ce s-a realizat față de ce s-a propus (rezultate), ce s-a schimbat efectiv pentru beneficiari (impact) și ce am învățat (lecții). Ea se sprijină pe indicatorii stabiliți la început; adăugarea unor indicatori după obținerea rezultatelor este o formă de auto-amăgire. Indicatorii pot fi cantitativi (număr de participanți, cantitate colectată, procent de creștere) și calitativi (mărturii, schimbări de comportament observate, calitatea relațiilor). Cei mai buni combină ambele tipuri. Continuitatea este proba finală: un proiect care se stinge odată cu echipa care l-a inițiat a produs un eveniment, nu o schimbare. Elementele care asigură continuitatea: implicarea beneficiarilor în conducere, parteneriate instituționale, documentarea procedurilor, formarea unor succesori și, uneori, o sursă proprie de finanțare.",
+     "ideiCheie": [
+      "Evaluarea privește rezultatele, impactul și lecțiile învățate.",
+      "Indicatorii se stabilesc înainte, nu după obținerea rezultatelor.",
+      "Se combină indicatori cantitativi și calitativi.",
+      "Continuitatea deosebește o schimbare reală de un simplu eveniment."
+     ],
+     "termeni": [
+      {
+       "t": "evaluare de impact",
+       "d": "analiza schimbărilor produse efectiv în viața beneficiarilor"
+      },
+      {
+       "t": "sustenabilitate a proiectului",
+       "d": "capacitatea proiectului de a continua după încheierea finanțării sau a implicării inițiale"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "La ce întrebări răspunde evaluarea unui proiect?",
+       "v": "Ce s-a realizat, ce s-a schimbat pentru beneficiari și ce am învățat."
+      },
+      {
+       "f": "De ce nu se adaugă indicatori după obținerea rezultatelor?",
+       "v": "Pentru că este o formă de auto-amăgire: se măsoară doar ce a ieșit bine."
+      },
+      {
+       "f": "Ce asigură continuitatea unui proiect?",
+       "v": "Implicarea beneficiarilor, parteneriate, documentarea procedurilor, formarea succesorilor, finanțare proprie."
+      },
+      {
+       "f": "Ce deosebește o schimbare de un simplu eveniment?",
+       "v": "Continuitatea: un proiect care se stinge odată cu echipa a produs doar un eveniment."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Indicatorii de evaluare trebuie stabiliți:",
+       "optiuni": [
+        "înainte de începerea proiectului",
+        "după obținerea rezultatelor",
+        "în timpul implementării",
+        "la cererea finanțatorului"
+       ],
+       "corect": 0,
+       "explicatie": "Altfel se măsoară doar ceea ce a ieșit bine."
+      },
+      {
+       "intrebare": "Evaluarea de impact analizează:",
+       "optiuni": [
+        "schimbările produse efectiv în viața beneficiarilor",
+        "numărul de activități realizate",
+        "bugetul cheltuit",
+        "durata proiectului"
+       ],
+       "corect": 0,
+       "explicatie": "Rezultatele imediate nu sunt același lucru cu impactul."
+      },
+      {
+       "intrebare": "Un proiect care se stinge odată cu echipa inițială:",
+       "optiuni": [
+        "a produs un eveniment, nu o schimbare durabilă",
+        "este un succes deplin",
+        "nu are valoare deloc",
+        "trebuie repetat identic"
+       ],
+       "corect": 0,
+       "explicatie": "Continuitatea se planifică din start."
+      },
+      {
+       "intrebare": "Cei mai buni indicatori de evaluare:",
+       "optiuni": [
+        "combină date cantitative și calitative",
+        "sunt exclusiv cantitativi",
+        "sunt exclusiv calitativi",
+        "se stabilesc la final"
+       ],
+       "corect": 0,
+       "explicatie": "Cifrele arată amploarea, mărturiile arată sensul."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "teze": [
+  {
+   "semestru": 1,
+   "test": [
+    {
+     "intrebare": "Statul de drept înseamnă că:",
+     "optiuni": [
+      "puterea se exercită numai în limitele legii, care se aplică tuturor",
+      "statul are întotdeauna dreptate",
+      "legea poate fi schimbată oricând",
+      "guvernanții sunt deasupra legii"
+     ],
+     "corect": 0,
+     "explicatie": "Supremația Constituției este elementul lui central."
+    },
+    {
+     "intrebare": "Separarea puterilor a fost teoretizată de:",
+     "optiuni": [
+      "Montesquieu",
+      "Rousseau",
+      "Locke",
+      "Hobbes"
+     ],
+     "corect": 0,
+     "explicatie": "În „Despre spiritul legilor”."
+    },
+    {
+     "intrebare": "Controlul reciproc al puterilor înseamnă:",
+     "optiuni": [
+      "fiecare putere limitează abuzurile celorlalte",
+      "puterile lucrează izolat",
+      "o putere le controlează pe toate",
+      "puterile fuzionează"
+     ],
+     "corect": 0,
+     "explicatie": "Fără el, separarea rămâne formală."
+    },
+    {
+     "intrebare": "Mandatul Președintelui României este de:",
+     "optiuni": [
+      "cinci ani",
+      "patru ani",
+      "șase ani",
+      "șapte ani"
+     ],
+     "corect": 0,
+     "explicatie": "Parlamentul are mandat de patru ani."
+    },
+    {
+     "intrebare": "Parlamentul României este:",
+     "optiuni": [
+      "bicameral",
+      "unicameral",
+      "tricameral",
+      "format doar din Senat"
+     ],
+     "corect": 0,
+     "explicatie": "Cuprinde Camera Deputaților și Senatul."
+    },
+    {
+     "intrebare": "Prefectul:",
+     "optiuni": [
+      "reprezintă Guvernul în teritoriu",
+      "este ales de cetățeni",
+      "conduce consiliul județean",
+      "face parte din Parlament"
+     ],
+     "corect": 0,
+     "explicatie": "El poate ataca actele nelegale ale autorităților locale."
+    },
+    {
+     "intrebare": "Sistemul electoral proporțional:",
+     "optiuni": [
+      "distribuie mandatele proporțional cu voturile",
+      "acordă toate mandatele câștigătorului",
+      "elimină partidele mici",
+      "garantează majorități stabile"
+     ],
+     "corect": 0,
+     "explicatie": "El reflectă mai fidel opțiunile alegătorilor."
+    },
+    {
+     "intrebare": "Societatea civilă cuprinde:",
+     "optiuni": [
+      "asociații, fundații, sindicate, presă independentă",
+      "partidele politice",
+      "instituțiile statului",
+      "companiile private"
+     ],
+     "corect": 0,
+     "explicatie": "Ea este independentă de stat și de piață."
+    },
+    {
+     "intrebare": "Funcția de „câine de pază” a presei înseamnă:",
+     "optiuni": [
+      "supravegherea exercitării puterii",
+      "promovarea guvernului",
+      "divertismentul",
+      "publicitatea"
+     ],
+     "corect": 0,
+     "explicatie": "Ea responsabilizează guvernanții."
+    },
+    {
+     "intrebare": "Știrea se deosebește de editorial prin:",
+     "optiuni": [
+      "prezentarea unor fapte verificabile, separate de opinie",
+      "lungimea textului",
+      "poziția în publicație",
+      "prezența imaginilor"
+     ],
+     "corect": 0,
+     "explicatie": "Amestecul lor deliberat este manipulare."
+    },
+    {
+     "intrebare": "Corectarea publică a erorilor de către o redacție:",
+     "optiuni": [
+      "întărește credibilitatea",
+      "o slăbește",
+      "este interzisă",
+      "este obligatorie legal în toate cazurile"
+     ],
+     "corect": 0,
+     "explicatie": "Este un semn de jurnalism responsabil."
+    },
+    {
+     "intrebare": "Pluralismul mediatic presupune:",
+     "optiuni": [
+      "surse diverse și independente",
+      "multe publicații ale aceluiași proprietar",
+      "controlul statului asupra presei",
+      "uniformitatea mesajelor"
+     ],
+     "corect": 0,
+     "explicatie": "Diversitatea proprietății contează la fel de mult ca numărul titlurilor."
+    }
+   ]
+  },
+  {
+   "semestru": 2,
+   "test": [
+    {
+     "intrebare": "Dezinformarea se deosebește de informarea greșită prin:",
+     "optiuni": [
+      "intenția de a induce în eroare",
+      "gravitatea efectelor",
+      "mediul de răspândire",
+      "numărul de persoane afectate"
+     ],
+     "corect": 0,
+     "explicatie": "Efectele pot fi însă la fel de grave."
+    },
+    {
+     "intrebare": "O imagine reală folosită pentru un alt eveniment este un caz de:",
+     "optiuni": [
+      "context fals",
+      "satiră",
+      "impostură",
+      "conținut generat artificial"
+     ],
+     "corect": 0,
+     "explicatie": "Este una dintre cele mai frecvente forme de dezinformare."
+    },
+    {
+     "intrebare": "Căutarea inversă de imagini permite:",
+     "optiuni": [
+      "aflarea contextului original al imaginii",
+      "verificarea autorului textului",
+      "traducerea conținutului",
+      "identificarea sursei de finanțare"
+     ],
+     "corect": 0,
+     "explicatie": "Este cel mai rapid test pentru contextul fals."
+    },
+    {
+     "intrebare": "Algoritmii rețelelor sociale amplifică, de regulă:",
+     "optiuni": [
+      "conținutul care produce reacție puternică",
+      "conținutul cel mai corect",
+      "sursele oficiale",
+      "textele lungi"
+     ],
+     "corect": 0,
+     "explicatie": "De aici avantajul structural al dezinformării."
+    },
+    {
+     "intrebare": "Distorsiunea de confirmare înseamnă:",
+     "optiuni": [
+      "căutarea informațiilor care ne dau dreptate",
+      "judecarea după exemple ușor de amintit",
+      "alinierea la grup",
+      "fixarea pe prima cifră auzită"
+     ],
+     "corect": 0,
+     "explicatie": "Ea se combate prin expunerea deliberată la argumente contrare."
+    },
+    {
+     "intrebare": "Semnul unei gândiri critice reale este:",
+     "optiuni": [
+      "schimbarea opiniei atunci când dovezile o cer",
+      "suspiciunea generalizată",
+      "respingerea oricărei autorități",
+      "fermitatea opiniei inițiale"
+     ],
+     "corect": 0,
+     "explicatie": "Scepticismul total e la fel de neproductiv ca încrederea oarbă."
+    },
+    {
+     "intrebare": "În arborele problemei, efectele sunt:",
+     "optiuni": [
+      "ramurile",
+      "rădăcinile",
+      "trunchiul",
+      "solul"
+     ],
+     "corect": 0,
+     "explicatie": "Cauzele sunt rădăcinile."
+    },
+    {
+     "intrebare": "Soluțiile eficiente atacă:",
+     "optiuni": [
+      "cauzele, nu simptomele",
+      "simptomele vizibile",
+      "efectele imediate",
+      "percepția publică"
+     ],
+     "corect": 0,
+     "explicatie": "Altfel problema reapare."
+    },
+    {
+     "intrebare": "Un obiectiv specific trebuie să fie:",
+     "optiuni": [
+      "concret și măsurabil",
+      "general și ambițios",
+      "exprimat calitativ",
+      "formulat la final"
+     ],
+     "corect": 0,
+     "explicatie": "Altfel atingerea lui nu poate fi verificată."
+    },
+    {
+     "intrebare": "Analiza riscurilor servește la:",
+     "optiuni": [
+      "pregătirea din timp a măsurilor de reducere",
+      "justificarea eșecului",
+      "creșterea bugetului",
+      "descurajarea echipei"
+     ],
+     "corect": 0,
+     "explicatie": "Riscul anticipat costă mult mai puțin."
+    },
+    {
+     "intrebare": "Indicatorii de evaluare se stabilesc:",
+     "optiuni": [
+      "înainte de începerea proiectului",
+      "după obținerea rezultatelor",
+      "la cererea finanțatorului",
+      "în timpul evaluării"
+     ],
+     "corect": 0,
+     "explicatie": "Altfel se măsoară doar ce a ieșit bine."
+    },
+    {
+     "intrebare": "Un proiect care se stinge odată cu echipa inițială:",
+     "optiuni": [
+      "a produs un eveniment, nu o schimbare durabilă",
+      "este un succes complet",
+      "nu are nicio valoare",
+      "trebuie repetat identic"
+     ],
+     "corect": 0,
+     "explicatie": "Continuitatea se planifică din start."
+    }
+   ]
+  }
+ ]
+}

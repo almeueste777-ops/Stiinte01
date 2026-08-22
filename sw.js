@@ -37,6 +37,7 @@ const ASSETS = [
   './data/module/economie-13.json',
   './data/module/geografie-13.json',
   './data/module/istorie-13.json',
+  './data/module/studii-sociale-13.json',
   './data/module/romana-13.json',
   /* MODULE:STOP */
   './icons/icon-192.png',

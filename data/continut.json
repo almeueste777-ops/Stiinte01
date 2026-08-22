@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 22,
-  "nrLectii": 238,
-  "nrCarduri": 952,
-  "nrIntrebari": 1484,
+  "nrModule": 23,
+  "nrLectii": 247,
+  "nrCarduri": 988,
+  "nrIntrebari": 1544,
   "module": [
     {
       "id": "geografie-9",
@@ -2048,6 +2048,88 @@
             {
               "id": "ist13-09",
               "titlu": "Eseul istoric structurat"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "studii-sociale-13",
+      "materie": "Studii sociale",
+      "clasa": "a XIII-a",
+      "an": 5,
+      "arie": "Om și societate",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Competențe sociale și civice: democrația în practică, instituțiile statului, media și gândirea critică, proiectul civic.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 60,
+      "capitole": [
+        {
+          "id": "ss13-c1",
+          "titlu": "Democrația în practică",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ss13-01",
+              "titlu": "Statul de drept și separarea puterilor"
+            },
+            {
+              "id": "ss13-02",
+              "titlu": "Instituțiile statului român"
+            },
+            {
+              "id": "ss13-03",
+              "titlu": "Alegeri, partide, societate civilă"
+            }
+          ]
+        },
+        {
+          "id": "ss13-c2",
+          "titlu": "Media, informație, gândire critică",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ss13-04",
+              "titlu": "Mass-media și rolul ei democratic"
+            },
+            {
+              "id": "ss13-05",
+              "titlu": "Dezinformare, verificarea informației"
+            },
+            {
+              "id": "ss13-06",
+              "titlu": "Gândire critică și argumentare publică"
+            }
+          ]
+        },
+        {
+          "id": "ss13-c3",
+          "titlu": "Proiectul civic",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ss13-07",
+              "titlu": "Identificarea unei probleme publice"
+            },
+            {
+              "id": "ss13-08",
+              "titlu": "Planificarea și implementarea unui proiect civic"
+            },
+            {
+              "id": "ss13-09",
+              "titlu": "Evaluare, impact și continuitate"
             }
           ]
         }
