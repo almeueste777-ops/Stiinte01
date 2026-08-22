@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 33,
-  "nrLectii": 337,
-  "nrCarduri": 1348,
-  "nrIntrebari": 2144,
+  "nrModule": 34,
+  "nrLectii": 346,
+  "nrCarduri": 1384,
+  "nrIntrebari": 2204,
   "module": [
     {
       "id": "geografie-9",
@@ -2868,6 +2868,88 @@
             {
               "id": "ss13-09",
               "titlu": "Evaluare, impact și continuitate"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "engleza-13",
+      "materie": "Limba modernă 1 (Engleză)",
+      "clasa": "a XIII-a",
+      "an": 5,
+      "arie": "Limbă și comunicare",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Recapitulare și consolidare: sistemul verbal, structurile-cheie, erorile tipice ale vorbitorilor de română și simularea probei de competențe.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 60,
+      "capitole": [
+        {
+          "id": "eng13-c1",
+          "titlu": "Recapitularea sistemului verbal",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "eng13-01",
+              "titlu": "Harta timpurilor verbale"
+            },
+            {
+              "id": "eng13-02",
+              "titlu": "Modalitatea și exprimarea probabilității"
+            },
+            {
+              "id": "eng13-03",
+              "titlu": "Erori tipice ale vorbitorilor de română"
+            }
+          ]
+        },
+        {
+          "id": "eng13-c2",
+          "titlu": "Consolidare pe competențe",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "eng13-04",
+              "titlu": "Citit: texte de examen"
+            },
+            {
+              "id": "eng13-05",
+              "titlu": "Scris: sarcinile de examen"
+            },
+            {
+              "id": "eng13-06",
+              "titlu": "Ascultare și vorbire: consolidare"
+            }
+          ]
+        },
+        {
+          "id": "eng13-c3",
+          "titlu": "Simulare și strategie finală",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "eng13-07",
+              "titlu": "Simularea probei complete"
+            },
+            {
+              "id": "eng13-08",
+              "titlu": "Gestionarea timpului și a emoției"
+            },
+            {
+              "id": "eng13-09",
+              "titlu": "Engleza după examen: învățare pe termen lung"
             }
           ]
         }
