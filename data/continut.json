@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 31,
-  "nrLectii": 319,
-  "nrCarduri": 1276,
-  "nrIntrebari": 2024,
+  "nrModule": 32,
+  "nrLectii": 328,
+  "nrCarduri": 1312,
+  "nrIntrebari": 2084,
   "module": [
     {
       "id": "geografie-9",
@@ -1527,6 +1527,88 @@
             {
               "id": "ss11-09",
               "titlu": "Proiect comunitar și acțiune civică"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "engleza-11",
+      "materie": "Limba modernă 1 (Engleză)",
+      "clasa": "a XI-a",
+      "an": 3,
+      "arie": "Limbă și comunicare",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Nivel intermediar-avansat: structuri complexe, vocabular tematic, texte de specialitate și competențe pentru proba de competențe lingvistice.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 60,
+      "capitole": [
+        {
+          "id": "eng11-c1",
+          "titlu": "Structuri avansate",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "eng11-01",
+              "titlu": "Inversiune, emfază, structuri cleft"
+            },
+            {
+              "id": "eng11-02",
+              "titlu": "Verbe frazale și expresii idiomatice"
+            },
+            {
+              "id": "eng11-03",
+              "titlu": "Registre, nuanțe, structuri formale"
+            }
+          ]
+        },
+        {
+          "id": "eng11-c2",
+          "titlu": "Vocabular tematic și texte",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "eng11-04",
+              "titlu": "Educație, muncă, tehnologie"
+            },
+            {
+              "id": "eng11-05",
+              "titlu": "Mediu, societate, sănătate"
+            },
+            {
+              "id": "eng11-06",
+              "titlu": "Cultură, literatură, media"
+            }
+          ]
+        },
+        {
+          "id": "eng11-c3",
+          "titlu": "Competențe de examen",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "eng11-07",
+              "titlu": "Înțelegerea textului scris"
+            },
+            {
+              "id": "eng11-08",
+              "titlu": "Producerea de mesaje scrise"
+            },
+            {
+              "id": "eng11-09",
+              "titlu": "Ascultare și interacțiune orală la examen"
             }
           ]
         }
