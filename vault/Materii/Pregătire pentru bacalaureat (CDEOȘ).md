@@ -12,9 +12,9 @@ cssclasses: fisa
 > **Se studiază în:** [[Clasa a XIII-a]]
 > **La bacalaureat:** da 🎓
 
-> [!todo] Fără conținut în aplicație
-> Materia apare în planul-cadru, dar încă nu are lecții în `data/continut.json`.
-> Adaugă un modul acolo și rulează din nou `graphify` ca să apară aici.
+## Anii de studiu
+
+- [[Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)|Clasa a XIII-a]] — 9 lecții, 36 carduri, 60 întrebări
 
 ## Legături
 - [[00 Start aici]]

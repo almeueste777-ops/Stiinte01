@@ -2,22 +2,26 @@
 tags:
   - lectie
   - materie/economie-si-educatie-antreprenoriala
-id: eco-01
+  - clasa/a-xiii-a
+id: eco13-01
 clasa: "a XIII-a"
 ---
 # Nevoi, resurse, alegere
 
-[[Economie și educație antreprenorială]] · [[Clasa a XIII-a]] · lecția 1 din 3
+[[Economie și educație antreprenorială (clasa a XIII-a)|Economie și educație antreprenorială]] · [[Clasa a XIII-a]] · lecția 1 din 12
+
+**Capitolul:** Economia și consumatorul — semestrul 1
 
 ## Rezumat
 
-Economia studiază modul în care oamenii folosesc resurse limitate pentru a satisface nevoi nelimitate. Raritatea impune alegerea, iar orice alegere are un cost de oportunitate: valoarea celei mai bune alternative la care se renunță. Frontiera posibilităților de producție ilustrează grafic aceste constrângeri.
+Economia studiază modul în care oamenii folosesc resurse limitate pentru a satisface nevoi practic nelimitate. Nevoile sunt ierarhizate (fiziologice, de securitate, sociale, de stimă, de autorealizare), regenerabile și în continuă creștere; resursele sunt rare, adică insuficiente în raport cu nevoile. Raritatea nu înseamnă lipsă absolută, ci insuficiență relativă — aurul e rar, dar și apa potabilă e rară acolo unde cererea o depășește. Din raritate decurge alegerea, iar din alegere decurge costul de oportunitate: valoarea celei mai bune alternative la care renunți. Dacă folosești o oră pentru a învăța, costul de oportunitate nu este „zero”, ci ceea ce ai fi obținut cel mai bine din acea oră. Acest concept explică de ce nicio decizie economică nu e gratuită. Frontiera posibilităților de producție reprezintă grafic combinațiile maxime de două bunuri pe care le poate produce o economie cu resursele date. Punctele de pe curbă înseamnă utilizare deplină, cele din interior — resurse nefolosite, cele din exterior — imposibile pe termen scurt. Deplasarea curbei spre exterior înseamnă creștere economică.
 
 ## Idei-cheie
 
-- Raritate → alegere → cost de oportunitate.
-- Nevoile sunt nelimitate și regenerabile; resursele sunt limitate.
-- Eficiența economică = maxim de rezultat cu minim de resurse.
+- Economia studiază folosirea resurselor rare pentru nevoi nelimitate.
+- Raritatea este insuficiență relativă, nu lipsă absolută.
+- Costul de oportunitate = valoarea celei mai bune alternative la care renunți.
+- Frontiera posibilităților de producție arată limita utilizării depline a resurselor.
 
 ## Notițele mele
 
@@ -25,6 +29,6 @@ Economia studiază modul în care oamenii folosesc resurse limitate pentru a sat
 
 ---
 
-[[Cererea și oferta]] ➡
+[[Consumatorul și cererea]] ➡
 
-Exersează: [[Carduri - Economie și educație antreprenorială]] · [[Test - Economie și educație antreprenorială]]
+Exersează: [[Carduri - Economie și educație antreprenorială (clasa a XIII-a)]] · [[Test - Economie și educație antreprenorială (clasa a XIII-a)]]

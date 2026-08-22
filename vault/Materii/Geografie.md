@@ -12,16 +12,13 @@ cssclasses: fisa
 > **Se studiază în:** [[Clasa a IX-a]], [[Clasa a X-a]], [[Clasa a XI-a]], [[Clasa a XII-a]], [[Clasa a XIII-a]]
 > **La bacalaureat:** da 🎓
 
-Europa, România, Uniunea Europeană — proba E)d).
+## Anii de studiu
 
-## Lecții (2)
-
-- [[Relieful României]]
-- [[Uniunea Europeană]]
-
-## Exersare
-- [[Carduri - Geografie]] — 4 carduri
-- [[Test - Geografie]] — 2 întrebări
+- [[Geografie (clasa a IX-a)|Clasa a IX-a]] — 10 lecții, 40 carduri, 64 întrebări
+- [[Geografie (clasa a X-a)|Clasa a X-a]] — 9 lecții, 36 carduri, 60 întrebări
+- [[Geografie (clasa a XI-a)|Clasa a XI-a]] — 9 lecții, 36 carduri, 60 întrebări
+- [[Geografie (clasa a XII-a)|Clasa a XII-a]] — 9 lecții, 36 carduri, 61 întrebări
+- [[Geografie (clasa a XIII-a)|Clasa a XIII-a]] — 9 lecții, 36 carduri, 60 întrebări
 
 ## Legături
 - [[00 Start aici]]

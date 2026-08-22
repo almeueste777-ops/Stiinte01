@@ -11,9 +11,10 @@ cssclasses: fisa
 > **Se studiază în:** [[Clasa a XI-a]], [[Clasa a XII-a]]
 > **La bacalaureat:** nu
 
-> [!todo] Fără conținut în aplicație
-> Materia apare în planul-cadru, dar încă nu are lecții în `data/continut.json`.
-> Adaugă un modul acolo și rulează din nou `graphify` ca să apară aici.
+## Anii de studiu
+
+- [[ȘTIAM (științe integrate) (clasa a XI-a)|Clasa a XI-a]] — 9 lecții, 36 carduri, 54 întrebări
+- [[ȘTIAM (științe integrate) (clasa a XII-a)|Clasa a XII-a]] — 9 lecții, 36 carduri, 54 întrebări
 
 ## Legături
 - [[00 Start aici]]

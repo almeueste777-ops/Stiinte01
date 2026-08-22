@@ -21,6 +21,22 @@ jobs:
             node -e "JSON.parse(require('fs').readFileSync('$f','utf8'))" && echo "OK  $f"
           done
 
+      - name: Validează modulele de conținut
+        run: |
+          for f in data/module/*.json; do
+            node -e "JSON.parse(require('fs').readFileSync('$f','utf8'))" || exit 1
+          done
+          echo "OK  $(ls data/module/*.json | wc -l) module JSON"
+
+      - name: Verifică structura conținutului
+        run: node tools/verifica-continut.mjs
+
+      - name: Verifică sincronizarea indexului cu modulele
+        run: |
+          node tools/construieste-index.mjs
+          git diff --exit-code -- data/continut.json sw.js \
+            || { echo "data/continut.json sau sw.js nu sunt regenerate; rulează tools/construieste-index.mjs"; exit 1; }
+
       - name: Verifică sintaxa JavaScript
         run: |
           node --check assets/app.js && echo "OK  assets/app.js"

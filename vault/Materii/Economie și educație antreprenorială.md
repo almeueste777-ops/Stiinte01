@@ -12,17 +12,9 @@ cssclasses: fisa
 > **Se studiază în:** [[Clasa a XIII-a]]
 > **La bacalaureat:** da 🎓
 
-Piață, cerere și ofertă, bani, firmă, antreprenoriat.
+## Anii de studiu
 
-## Lecții (3)
-
-- [[Nevoi, resurse, alegere]]
-- [[Cererea și oferta]]
-- [[Antreprenoriatul]]
-
-## Exersare
-- [[Carduri - Economie și educație antreprenorială]] — 5 carduri
-- [[Test - Economie și educație antreprenorială]] — 3 întrebări
+- [[Economie și educație antreprenorială (clasa a XIII-a)|Clasa a XIII-a]] — 12 lecții, 48 carduri, 73 întrebări
 
 ## Legături
 - [[00 Start aici]]

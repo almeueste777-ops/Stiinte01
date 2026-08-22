@@ -15,11 +15,12 @@ Punctul de intrare în **jumătatea scrisă de mână** a vault-ului: cum e făc
 > rapoartele de verificare. Scrisă de mână, în folderele numerotate.
 >
 > **Cealaltă** — [[00 Start aici|conținutul de studiu]]: parcurs → clase → arii → materii →
-> lecții, plus carduri și teste. **Generată automat** din `data/*.json` de
-> `tools/graphify.py`, deci nu se editează direct.
+> module → capitole → lecții, plus carduri și teste. **Generată automat** din
+> `data/curriculum.json` și `data/module/*.json` de `tools/graphify.py`, deci nu se
+> editează direct.
 >
-> Generatorul curăță doar folderele lui (`Curriculum`, `Materii`, `Lecții`, `Carduri`,
-> `Teste`) și nu scrie peste configurația `.obsidian`. Cele două jumătăți nu se calcă.
+> Generatorul curăță doar folderele lui (`Curriculum`, `Materii`, `Module`, `Lecții`,
+> `Carduri`, `Teste`) și nu scrie peste configurația `.obsidian`. Cele două jumătăți nu se calcă.
 
 > [!info] Aplicația
 > PWA de studiu pentru liceu, filiera teoretică, profil umanist, specializarea
@@ -64,9 +65,10 @@ Punctul de intrare în **jumătatea scrisă de mână** a vault-ului: cum e făc
 | `30-Aplicatie` | arhitectură, versiuni, decizii tehnice | mână |
 | `40-Verificare` | rapoartele agenților de verificare | mână |
 | `Curriculum` | parcurs, școală, clase, arii curriculare | `graphify.py` |
-| `Materii` | câte o notă per disciplină | `graphify.py` |
-| `Lecții` | cele 25 de lecții, cu „Notițele mele” păstrate | `graphify.py` |
-| `Carduri` | cardurile de memorare, per materie | `graphify.py` |
-| `Teste` | întrebările de test, per materie | `graphify.py` |
+| `Materii` | câte o notă-umbrelă per disciplină | `graphify.py` |
+| `Module` | o materie într-un an, cu capitolele ei | `graphify.py` |
+| `Lecții` | cele 580 de lecții, cu „Notițele mele” păstrate | `graphify.py` |
+| `Carduri` | cardurile de memorare, per modul | `graphify.py` |
+| `Teste` | întrebările de test și tezele, per modul | `graphify.py` |
 
 Notele sunt legate cu `[[wikilink]]`. Fiecare notă are frontmatter cu `tip`, `versiune`, `tags`.
