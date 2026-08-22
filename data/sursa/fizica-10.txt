@@ -1,0 +1,463 @@
+materie: Fizică
+clasa: a X-a
+an: 2
+arie: Matematică și științe ale naturii
+bac: nu
+descriere: Termodinamică, electricitate și magnetism, optică și unde: fenomene, legi și aplicații în viața de zi cu zi.
+
+## 1 | fiz10-c1 | Căldură și termodinamică
+### fiz10-01 | Temperatură, căldură, dilatare
+Temperatura măsoară agitația termică medie a particulelor unui corp, nu cantitatea de energie conținută: o scânteie are temperatură mai mare decât un cazan cu apă caldă, dar mult mai puțină energie. Scările de temperatură uzuale sunt Celsius și Kelvin; zero absolut, la aproximativ minus 273,15 grade Celsius, este limita inferioară teoretică, la care agitația termică ar înceta.
+Căldura este energie transferată între corpuri cu temperaturi diferite, întotdeauna de la cel cald la cel rece, până la echilibru termic. Transferul se face prin conducție (în solide, prin contact direct între particule), convecție (în fluide, prin deplasarea maselor de fluid) și radiație (prin unde electromagnetice, fără mediu). Dilatarea termică este creșterea dimensiunilor la încălzire; ea explică rosturile de dilatare de pe poduri și șine și funcționarea termometrului cu lichid. Apa face excepție între 0 și 4 grade, anomalie care permite viețuitoarelor să supraviețuiască sub gheața lacurilor.
+* Temperatura măsoară agitația termică medie, nu cantitatea de energie.
+* Căldura trece întotdeauna de la corpul cald spre cel rece.
+* Transferul termic se face prin conducție, convecție și radiație.
+* Anomalia apei între 0 și 4 grade permite viața sub gheață.
+= echilibru termic :: starea în care două corpuri în contact au aceeași temperatură
+= zero absolut :: temperatura minimă teoretică, aproximativ minus 273,15 grade Celsius
+@ Ce măsoară temperatura? :: Agitația termică medie a particulelor.
+@ Care sunt cele trei moduri de transfer termic? :: Conducția, convecția și radiația.
+@ De ce se pun rosturi de dilatare la poduri? :: Pentru că materialele își măresc dimensiunile la încălzire.
+@ De ce nu îngheață lacurile până la fund? :: Din cauza anomaliei apei: la 4 grade are densitatea maximă și se așază la fund.
+? Căldura se transmite:
++ de la corpul cald spre cel rece
+- de la corpul rece spre cel cald
+- în ambele sensuri egal
+- doar prin contact direct
+! Până la atingerea echilibrului termic.
+? Transferul de căldură prin unde electromagnetice se numește:
++ radiație
+- conducție
+- convecție
+- dilatare
+! Este singurul care nu are nevoie de mediu.
+? Zero absolut corespunde aproximativ la:
++ minus 273,15 grade Celsius
+- 0 grade Celsius
+- 100 grade Celsius
+- minus 100 grade Celsius
+! Este limita inferioară teoretică a temperaturii.
+? O scânteie are, față de un cazan cu apă caldă:
++ temperatură mai mare, dar energie mai mică
+- și temperatură, și energie mai mari
+- temperatură mai mică
+- aceeași energie
+! Temperatura și cantitatea de energie sunt mărimi diferite.
+
+### fiz10-02 | Gazul ideal și transformările lui
+Modelul gazului ideal presupune molecule punctiforme, fără interacțiuni la distanță, care se ciocnesc perfect elastic. Starea unui gaz este descrisă de presiune, volum și temperatură, legate prin ecuația de stare. Transformările simple păstrează câte un parametru constant: izotermă (temperatură constantă, legea Boyle-Mariotte, presiunea invers proporțională cu volumul), izobară (presiune constantă, volumul proporțional cu temperatura absolută) și izocoră (volum constant, presiunea proporțională cu temperatura absolută).
+Aplicațiile sunt peste tot: seringa care comprimă aerul, balonul care se umflă la căldură, oala sub presiune care fierbe apa peste 100 de grade, anvelopa care își crește presiunea după un drum lung. Presiunea unui gaz se explică microscopic prin ciocnirile moleculelor cu pereții vasului; cu cât temperatura e mai mare, cu atât viteza medie a moleculelor și numărul de ciocniri sunt mai mari.
+* Gazul ideal are molecule punctiforme, fără interacțiuni la distanță.
+* Starea gazului e dată de presiune, volum și temperatură.
+* Transformările simple: izotermă, izobară, izocoră.
+* Presiunea se explică microscopic prin ciocnirile moleculelor cu pereții.
+= gaz ideal :: model teoretic de gaz cu molecule punctiforme și ciocniri perfect elastice
+= transformare izotermă :: transformarea unui gaz la temperatură constantă
+@ Ce spune legea Boyle-Mariotte? :: La temperatură constantă, presiunea e invers proporțională cu volumul.
+@ Ce se păstrează constant într-o transformare izocoră? :: Volumul.
+@ Cum se explică microscopic presiunea unui gaz? :: Prin ciocnirile moleculelor cu pereții vasului.
+@ De ce crește presiunea în anvelope după un drum lung? :: Pentru că temperatura crește, iar la volum aproape constant presiunea crește odată cu ea.
+? Într-o transformare izotermă, dacă volumul se înjumătățește, presiunea:
++ se dublează
+- se înjumătățește
+- rămâne aceeași
+- se împătrește
+! Produsul presiune-volum rămâne constant.
+? Transformarea la presiune constantă se numește:
++ izobară
+- izotermă
+- izocoră
+- adiabatică
+! Izocora păstrează volumul constant.
+? Oala sub presiune permite fierberea apei:
++ peste 100 de grade
+- sub 100 de grade
+- exact la 100 de grade
+- fără încălzire
+! Presiunea ridicată crește temperatura de fierbere.
+? În modelul gazului ideal, ciocnirile moleculelor sunt:
++ perfect elastice
+- perfect plastice
+- inexistente
+- însoțite de pierdere de masă
+! Energia cinetică totală se păstrează.
+
+### fiz10-03 | Principiile termodinamicii
+Primul principiu al termodinamicii este legea conservării energiei aplicată sistemelor termice: variația energiei interne a unui sistem este egală cu căldura primită minus lucrul mecanic efectuat de sistem. El interzice mașinile care produc energie din nimic, adică perpetuum mobile de speța întâi.
+Al doilea principiu introduce un sens al proceselor: căldura nu trece spontan de la corpul rece la cel cald, iar entropia unui sistem izolat nu poate scădea. De aici rezultă că nicio mașină termică nu poate transforma integral căldura în lucru mecanic; randamentul maxim este dat de ciclul Carnot și depinde doar de temperaturile sursei calde și ale celei reci. Motoarele reale, cu ardere internă, au randamente de 25–40%, iar restul energiei se pierde ca și căldură. Al doilea principiu explică ireversibilitatea: paharul spart nu se reface, cafeaua nu se reîncălzește singură.
+* Primul principiu este conservarea energiei aplicată sistemelor termice.
+* Perpetuum mobile de speța întâi este interzis de primul principiu.
+* Al doilea principiu dă sens proceselor: entropia unui sistem izolat nu scade.
+* Randamentul maxim al unei mașini termice depinde doar de temperaturile surselor.
+= energie internă :: energia totală a agitației termice și a interacțiunilor din interiorul unui sistem
+= entropie :: mărime care măsoară gradul de dezordine sau numărul de stări microscopice posibile
+@ Ce afirmă primul principiu al termodinamicii? :: Variația energiei interne este căldura primită minus lucrul mecanic efectuat.
+@ De ce nu poate o mașină termică să transforme toată căldura în lucru mecanic? :: Din cauza celui de-al doilea principiu, care impune o sursă rece și pierderi.
+@ Ce spune al doilea principiu despre entropie? :: Că entropia unui sistem izolat nu poate scădea.
+@ Ce randament au motoarele cu ardere internă? :: Aproximativ 25–40%.
+? Perpetuum mobile de speța întâi este interzis de:
++ primul principiu al termodinamicii
+- al doilea principiu
+- legea lui Hooke
+- principiul lui Arhimede
+! Ar însemna crearea de energie din nimic.
+? Entropia unui sistem izolat:
++ nu poate scădea
+- scade întotdeauna
+- rămâne mereu constantă
+- poate lua valori negative
+! De aici ireversibilitatea proceselor.
+? Randamentul maxim al unei mașini termice depinde de:
++ temperaturile sursei calde și ale celei reci
+- masa combustibilului
+- presiunea atmosferică
+- volumul motorului
+! Este limita dată de ciclul Carnot.
+? Faptul că un pahar spart nu se reface singur ilustrează:
++ al doilea principiu al termodinamicii
+- primul principiu
+- principiul inerției
+- legea lui Pascal
+! Procesele naturale sunt ireversibile.
+
+## 1 | fiz10-c2 | Electricitate și magnetism
+### fiz10-04 | Sarcina electrică și curentul
+Sarcina electrică este o proprietate fundamentală a materiei, de două feluri: pozitivă și negativă. Sarcinile de același fel se resping, cele de fel opus se atrag, cu o forță descrisă de legea lui Coulomb, direct proporțională cu produsul sarcinilor și invers proporțională cu pătratul distanței. Sarcina electrică se conservă: ea nu se creează și nu se distruge, ci doar se transferă.
+Curentul electric este deplasarea ordonată a purtătorilor de sarcină, în metale electronii liberi. Intensitatea curentului este sarcina care trece printr-o secțiune în unitatea de timp și se măsoară în amperi. Tensiunea electrică este lucrul mecanic efectuat de câmp pentru a deplasa unitatea de sarcină și se măsoară în volți. Materialele se împart în conductoare (metale, soluții de electroliți), izolatoare (sticlă, cauciuc, plastic) și semiconductoare, acestea din urmă stând la baza întregii electronici moderne.
+* Sarcinile de același fel se resping, cele opuse se atrag.
+* Legea lui Coulomb: forța scade cu pătratul distanței.
+* Intensitatea curentului se măsoară în amperi, tensiunea în volți.
+* Semiconductoarele stau la baza electronicii moderne.
+= intensitate a curentului :: sarcina electrică ce traversează o secțiune în unitatea de timp
+= semiconductor :: material cu conductivitate intermediară, controlabilă, între conductor și izolator
+@ Cum acționează două sarcini de același semn? :: Se resping.
+@ Cum variază forța electrostatică cu distanța? :: Scade cu pătratul distanței.
+@ Care sunt purtătorii de sarcină în metale? :: Electronii liberi.
+@ În ce se măsoară tensiunea electrică? :: În volți.
+? Legea lui Coulomb spune că forța este:
++ invers proporțională cu pătratul distanței
+- direct proporțională cu distanța
+- independentă de distanță
+- invers proporțională cu distanța
+! Și direct proporțională cu produsul sarcinilor.
+? Intensitatea curentului se măsoară în:
++ amperi
+- volți
+- ohmi
+- wați
+! Voltul măsoară tensiunea.
+? Cauciucul este un:
++ izolator
+- conductor
+- semiconductor
+- supraconductor
+! De aceea se folosește la izolarea cablurilor.
+? Sarcina electrică:
++ se conservă
+- se creează prin frecare
+- dispare la contact
+- crește în circuite închise
+! Prin frecare se transferă, nu se creează.
+
+### fiz10-05 | Circuite electrice
+Legea lui Ohm leagă cele trei mărimi de bază: intensitatea curentului printr-un conductor este direct proporțională cu tensiunea aplicată și invers proporțională cu rezistența. Rezistența se măsoară în ohmi și depinde de material (prin rezistivitate), de lungime (direct proporțional) și de secțiune (invers proporțional); ea crește, la metale, cu temperatura.
+Rezistoarele se pot lega în serie, când rezistențele se adună și curentul este același prin toate, sau în paralel, când se adună inversele rezistențelor și tensiunea este aceeași. Instalațiile casnice folosesc legarea în paralel, ca fiecare consumator să primească aceeași tensiune și să poată fi oprit separat. Puterea electrică este produsul dintre tensiune și intensitate, iar efectul Joule transformă energia electrică în căldură — util la reșou și fier de călcat, periculos la cabluri subdimensionate. Siguranțele și întrerupătoarele diferențiale protejează instalația și oamenii.
+* Legea lui Ohm: intensitatea e direct proporțională cu tensiunea și invers cu rezistența.
+* Rezistența crește cu lungimea și scade cu secțiunea conductorului.
+* În serie se adună rezistențele; în paralel se adună inversele lor.
+* Efectul Joule transformă energia electrică în căldură.
+= rezistență electrică :: mărimea care exprimă opoziția unui conductor la trecerea curentului
+= efect Joule :: degajarea de căldură la trecerea curentului electric printr-un conductor
+@ Cum se enunță legea lui Ohm? :: Intensitatea este direct proporțională cu tensiunea și invers proporțională cu rezistența.
+@ De ce se leagă consumatorii casnici în paralel? :: Ca fiecare să primească aceeași tensiune și să poată fi oprit independent.
+@ Cum se calculează puterea electrică? :: Ca produs între tensiune și intensitate.
+@ Ce rol are siguranța dintr-un circuit? :: Întrerupe circuitul când curentul depășește o valoare periculoasă.
+? La legarea în serie a două rezistoare:
++ rezistențele se adună
+- inversele rezistențelor se adună
+- rezistența totală scade
+- tensiunea e aceeași pe fiecare
+! Curentul este același prin toate.
+? Rezistența unui conductor crește dacă:
++ îi crește lungimea
+- îi crește secțiunea
+- îi scade lungimea
+- scade temperatura, la metale
+! Secțiunea mai mare înseamnă rezistență mai mică.
+? Efectul Joule este util la:
++ reșou și fier de călcat
+- transformatoare
+- condensatoare
+- diode
+! La cabluri subdimensionate devine periculos.
+? Rezistența electrică se măsoară în:
++ ohmi
+- amperi
+- volți
+- jouli
+! Amperul măsoară intensitatea.
+
+### fiz10-06 | Magnetism și inducție electromagnetică
+Magneții au doi poli, nord și sud, care nu pot fi separați: tăind un magnet în două se obțin doi magneți compleți. Câmpul magnetic se reprezintă prin linii de câmp care ies din polul nord și intră în polul sud. Pământul are propriul câmp magnetic, care orientează busola și deviază particulele încărcate din vântul solar, protejând viața și producând aurorele polare.
+Oersted a descoperit că un curent electric produce câmp magnetic, iar Faraday, că un câmp magnetic variabil produce tensiune electromotoare — fenomenul inducției electromagnetice. Legea lui Lenz precizează sensul: curentul indus se opune cauzei care l-a produs. Pe inducție se bazează generatorul electric, transformatorul, plita cu inducție, cardul contactless și încărcarea fără fir. Motorul electric face drumul invers: transformă energia electrică în mișcare, prin forța care acționează asupra unui conductor parcurs de curent aflat în câmp magnetic.
+* Polii magnetici nu pot fi separați: orice bucată de magnet are ambii poli.
+* Curentul electric produce câmp magnetic (Oersted).
+* Un câmp magnetic variabil produce tensiune electromotoare (Faraday).
+* Legea lui Lenz: curentul indus se opune cauzei care l-a produs.
+= inducție electromagnetică :: apariția unei tensiuni electromotoare într-un circuit străbătut de un flux magnetic variabil
+= lege a lui Lenz :: regula după care curentul indus se opune variației care l-a generat
+@ Ce se întâmplă dacă tai un magnet în două? :: Obții doi magneți compleți, fiecare cu ambii poli.
+@ Ce a descoperit Oersted? :: Că un curent electric produce câmp magnetic.
+@ Pe ce se bazează transformatorul? :: Pe inducția electromagnetică.
+@ Ce spune legea lui Lenz? :: Curentul indus se opune cauzei care l-a produs.
+? Aurorele polare se produc pentru că:
++ câmpul magnetic terestru deviază particulele din vântul solar
+- atmosfera reflectă lumina solară
+- Soarele emite lumină colorată
+- gheața polară difuzează lumina
+! Particulele excită gazele din atmosfera înaltă.
+? Faraday a descoperit că:
++ un câmp magnetic variabil produce tensiune electromotoare
+- un curent produce câmp magnetic
+- sarcinile opuse se atrag
+- rezistența depinde de lungime
+! Oersted descoperise efectul invers.
+? Plita cu inducție funcționează pe baza:
++ inducției electromagnetice
+- efectului Joule direct în plită
+- radiației infraroșii
+- conducției termice
+! Curenții induși încălzesc vasul, nu plita.
+? Motorul electric transformă:
++ energia electrică în energie mecanică
+- energia mecanică în electrică
+- căldura în lucru mecanic
+- lumina în electricitate
+! Generatorul face transformarea inversă.
+
+## 2 | fiz10-c3 | Optică, unde, fizica modernă
+### fiz10-07 | Lumina și optica geometrică
+Lumina se propagă rectiliniu în medii omogene, cu viteza de aproximativ 300.000 de kilometri pe secundă în vid — limita superioară a oricărei viteze din univers. La întâlnirea unei suprafețe, lumina se reflectă după legea potrivit căreia unghiul de reflexie este egal cu unghiul de incidență, ambele măsurate față de normală. Oglinzile plane dau imagini virtuale, drepte, de aceeași mărime, simetrice față de suprafață.
+Refracția este schimbarea direcției la trecerea dintr-un mediu în altul, din cauza schimbării vitezei; ea explică bățul care pare frânt în apă și adâncimea aparentă mai mică a bazinelor. La trecerea dintr-un mediu mai dens într-unul mai puțin dens, peste un unghi-limită apare reflexia totală, principiul fibrei optice. Lentilele convergente formează imagini reale sau virtuale, după poziția obiectului, și corectează hipermetropia; cele divergente corectează miopia. Dispersia luminii albe prin prismă arată că ea este un amestec de culori, iar curcubeul este dispersie și reflexie în picăturile de apă.
+* Lumina se propagă rectiliniu, cu aproximativ 300.000 km/s în vid.
+* Unghiul de reflexie este egal cu unghiul de incidență.
+* Refracția vine din schimbarea vitezei luminii la trecerea între medii.
+* Reflexia totală stă la baza fibrei optice.
+= refracție :: schimbarea direcției de propagare a luminii la trecerea dintr-un mediu în altul
+= reflexie totală :: fenomenul prin care lumina se întoarce integral în mediul mai dens, peste unghiul-limită
+@ Care e viteza luminii în vid? :: Aproximativ 300.000 de kilometri pe secundă.
+@ De ce pare frânt un băț scufundat în apă? :: Din cauza refracției la suprafața de separare dintre apă și aer.
+@ Pe ce fenomen se bazează fibra optică? :: Pe reflexia totală.
+@ Ce arată dispersia luminii albe printr-o prismă? :: Că lumina albă e un amestec de culori.
+? Legea reflexiei spune că:
++ unghiul de reflexie este egal cu cel de incidență
+- unghiul de reflexie e dublul celui de incidență
+- reflexia nu depinde de unghi
+- lumina se oprește la suprafață
+! Ambele se măsoară față de normală.
+? Imaginea într-o oglindă plană este:
++ virtuală, dreaptă, de aceeași mărime
+- reală și răsturnată
+- virtuală și mărită
+- reală și micșorată
+! Este simetrică față de suprafața oglinzii.
+? Miopia se corectează cu lentile:
++ divergente
+- convergente
+- cilindrice exclusiv
+- fără dioptrii
+! Hipermetropia se corectează cu lentile convergente.
+? Curcubeul se formează prin:
++ dispersie și reflexie în picăturile de apă
+- reflexie totală în nori
+- difracție pe cristale de gheață
+- absorbția selectivă a luminii
+! Fiecare culoare se refractă sub un unghi ușor diferit.
+
+### fiz10-08 | Unde mecanice și sunetul
+O undă este propagarea unei perturbații într-un mediu, fără transport de substanță — dopul de pe apă urcă și coboară, dar nu se deplasează odată cu valul. Undele sunt transversale, când oscilația e perpendiculară pe direcția de propagare (unda de pe o coardă), sau longitudinale, când oscilația e paralelă cu propagarea (sunetul în aer). Mărimile caracteristice sunt lungimea de undă, frecvența, perioada și amplitudinea, legate prin relația dintre viteză, frecvență și lungime de undă.
+Sunetul este o undă longitudinală care are nevoie de mediu: în vid nu se propagă. Viteza lui în aer este de aproximativ 340 de metri pe secundă și crește în lichide și solide. Înălțimea sunetului e dată de frecvență, intensitatea de amplitudine, iar timbrul de armonice — de aceea aceeași notă sună diferit la vioară și la pian. Urechea umană aude între aproximativ 20 și 20.000 de hertzi; sub acest domeniu sunt infrasunetele, deasupra ultrasunetele, folosite în ecografie și sonar. Efectul Doppler explică schimbarea tonului unei sirene care se apropie și apoi se îndepărtează.
+* Unda propagă o perturbație, nu substanță.
+* Sunetul este o undă longitudinală și nu se propagă în vid.
+* Frecvența dă înălțimea, amplitudinea dă intensitatea, armonicele dau timbrul.
+* Efectul Doppler explică schimbarea tonului unei surse în mișcare.
+= undă longitudinală :: undă în care oscilația particulelor are loc pe direcția de propagare
+= efect Doppler :: modificarea frecvenței percepute când sursa sau observatorul se deplasează
+@ De ce nu se propagă sunetul în vid? :: Pentru că este o undă mecanică și are nevoie de un mediu material.
+@ Ce dă timbrul unui sunet? :: Compoziția în armonice.
+@ Care e domeniul de audibilitate al urechii umane? :: Aproximativ 20–20.000 de hertzi.
+@ Ce explică efectul Doppler? :: Schimbarea frecvenței percepute când sursa se apropie sau se îndepărtează.
+? Sunetul este o undă:
++ longitudinală
+- transversală
+- electromagnetică
+- staționară întotdeauna
+! Oscilația are loc pe direcția de propagare.
+? Viteza sunetului în aer este de aproximativ:
++ 340 m/s
+- 300.000 km/s
+- 34 m/s
+- 3.400 m/s
+! În solide este mult mai mare.
+? Ultrasunetele sunt folosite în:
++ ecografie și sonar
+- iluminat
+- transmisia radio
+- încălzirea locuințelor
+! Au frecvențe peste 20.000 Hz.
+? Înălțimea unui sunet este dată de:
++ frecvență
+- amplitudine
+- timbru
+- viteza de propagare
+! Amplitudinea dă intensitatea.
+
+### fiz10-09 | Elemente de fizică modernă
+La începutul secolului XX, fizica clasică s-a dovedit insuficientă. Planck a introdus ideea că energia se schimbă în porții discrete, numite cuante, iar Einstein a explicat efectul fotoelectric presupunând că lumina însăși este formată din fotoni. De aici dualismul undă-corpuscul: lumina și particulele au, în funcție de experiment, comportare de undă sau de corpuscul.
+Teoria relativității restrânse a lui Einstein pornește de la două postulate: legile fizicii sunt aceleași în toate sistemele inerțiale, iar viteza luminii în vid este aceeași pentru toți observatorii. Consecințele contrazic intuiția: dilatarea timpului, contracția lungimilor, echivalența dintre masă și energie. Fizica nucleară studiază nucleul: fisiunea (spargerea nucleelor grele, folosită în centralele nucleare) și fuziunea (unirea nucleelor ușoare, sursa energiei stelelor). Radioactivitatea are aplicații medicale și de datare, dar cere protecție riguroasă.
+* Planck a introdus cuantele; Einstein a explicat efectul fotoelectric prin fotoni.
+* Dualismul undă-corpuscul: comportarea depinde de experiment.
+* Relativitatea restrânsă pornește de la constanța vitezei luminii.
+* Fisiunea alimentează centralele nucleare; fuziunea alimentează stelele.
+= cuantă :: cea mai mică porție de energie care poate fi schimbată într-un proces fizic
+= fuziune nucleară :: unirea a două nuclee ușoare, cu eliberare de energie
+@ Ce a introdus Planck în fizică? :: Ideea că energia se schimbă în porții discrete, numite cuante.
+@ Ce este dualismul undă-corpuscul? :: Faptul că lumina și particulele se comportă, după experiment, ca unde sau ca particule.
+@ Care sunt cele două postulate ale relativității restrânse? :: Legile fizicii sunt aceleași în toate sistemele inerțiale și viteza luminii în vid e constantă.
+@ Ce reacție alimentează stelele? :: Fuziunea nucleară.
+? Efectul fotoelectric a fost explicat de:
++ Einstein, prin ipoteza fotonilor
+- Planck, prin unde continue
+- Newton, prin corpusculi
+- Faraday, prin inducție
+! I-a adus premiul Nobel.
+? Centralele nucleare actuale folosesc:
++ fisiunea
+- fuziunea
+- fotosinteza
+- efectul Joule
+! Fuziunea controlată e încă în cercetare.
+? Viteza luminii în vid, potrivit relativității, este:
++ aceeași pentru toți observatorii
+- diferită pentru fiecare observator
+- variabilă cu direcția
+- dependentă de sursa de lumină
+! Este al doilea postulat al teoriei.
+? Dilatarea timpului este o consecință a:
++ relativității restrânse
+- mecanicii cuantice
+- termodinamicii
+- electromagnetismului clasic
+! Apare la viteze apropiate de cea a luminii.
+
+%% teza 1
+? Temperatura măsoară:
++ agitația termică medie a particulelor
+- cantitatea totală de energie
+- masa corpului
+- densitatea corpului
+! O scânteie e fierbinte, dar are puțină energie.
+? Transferul de căldură prin deplasarea maselor de fluid se numește:
++ convecție
+- conducție
+- radiație
+- dilatare
+! Radiația nu are nevoie de mediu.
+? Legea Boyle-Mariotte descrie transformarea:
++ izotermă
+- izobară
+- izocoră
+- adiabatică
+! Presiunea e invers proporțională cu volumul.
+? Primul principiu al termodinamicii este:
++ conservarea energiei aplicată sistemelor termice
+- interdicția scăderii entropiei
+- legea gazului ideal
+- legea lui Ohm
+! Interzice perpetuum mobile de speța întâi.
+? Entropia unui sistem izolat:
++ nu poate scădea
+- scade mereu
+- este constantă mereu
+- poate fi negativă
+! De aici ireversibilitatea proceselor.
+? Sarcinile electrice de semn opus:
++ se atrag
+- se resping
+- nu interacționează
+- se anulează
+! Cele de același semn se resping.
+? Legea lui Ohm leagă:
++ intensitatea, tensiunea și rezistența
+- forța, masa și accelerația
+- presiunea, volumul și temperatura
+- energia, puterea și timpul
+! Intensitatea e direct proporțională cu tensiunea.
+? Consumatorii casnici se leagă:
++ în paralel
+- în serie
+- mixt, obligatoriu
+- fără schemă fixă
+! Ca fiecare să primească aceeași tensiune.
+? Efectul Joule înseamnă:
++ degajarea de căldură la trecerea curentului
+- producerea de câmp magnetic
+- inducerea unei tensiuni
+- dispersia luminii
+! E util la reșou și periculos la cabluri subțiri.
+
+%% teza 2
+? Oersted a descoperit că:
++ curentul electric produce câmp magnetic
+- câmpul magnetic variabil produce curent
+- sarcinile se conservă
+- lumina e formată din fotoni
+! Faraday a descoperit fenomenul invers.
+? Legea lui Lenz precizează:
++ sensul curentului indus
+- mărimea rezistenței
+- viteza luminii
+- randamentul Carnot
+! Curentul indus se opune cauzei care l-a produs.
+? Tăind un magnet în două se obțin:
++ doi magneți, fiecare cu ambii poli
+- un pol nord și un pol sud separate
+- un magnet și o bucată nemagnetică
+- doi magneți fără poli
+! Polii magnetici nu pot fi separați.
+? Unghiul de reflexie este:
++ egal cu unghiul de incidență
+- dublul unghiului de incidență
+- jumătatea unghiului de incidență
+- independent de incidență
+! Ambele se măsoară față de normală.
+? Fibra optică folosește:
++ reflexia totală
+- refracția simplă
+- dispersia
+- difracția
+! Lumina rămâne captivă în miez.
+? Sunetul nu se propagă:
++ în vid
+- în aer
+- în apă
+- în metale
+! Are nevoie de un mediu material.
+? Frecvența unui sunet determină:
++ înălțimea lui
+- intensitatea lui
+- timbrul lui
+- viteza lui
+! Amplitudinea determină intensitatea.
+? Fotonul a fost introdus pentru a explica:
++ efectul fotoelectric
+- inducția electromagnetică
+- dilatarea termică
+- legea lui Ohm
+! Einstein a preluat ideea cuantelor lui Planck.
+? Stelele produc energie prin:
++ fuziune nucleară
+- fisiune nucleară
+- ardere chimică
+- efect Joule
+! Nucleele ușoare se unesc, eliberând energie.

@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 39,
-  "nrLectii": 391,
-  "nrCarduri": 1564,
-  "nrIntrebari": 2480,
+  "nrModule": 41,
+  "nrLectii": 409,
+  "nrCarduri": 1636,
+  "nrIntrebari": 2588,
   "module": [
     {
       "id": "geografie-9",
@@ -656,6 +656,88 @@
         {
           "semestru": 2,
           "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "fizica-9",
+      "materie": "Fizică",
+      "clasa": "a IX-a",
+      "an": 1,
+      "arie": "Matematică și științe ale naturii",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Mecanica: mișcare și repaus, principiile dinamicii, lucru mecanic și energie, echilibru și mașini simple.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 54,
+      "capitole": [
+        {
+          "id": "fiz9-c1",
+          "titlu": "Mișcare și forțe",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fiz9-01",
+              "titlu": "Mișcare, repaus, sisteme de referință"
+            },
+            {
+              "id": "fiz9-02",
+              "titlu": "Mișcarea rectilinie uniformă și variată"
+            },
+            {
+              "id": "fiz9-03",
+              "titlu": "Principiile mecanicii"
+            }
+          ]
+        },
+        {
+          "id": "fiz9-c2",
+          "titlu": "Lucru mecanic și energie",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fiz9-04",
+              "titlu": "Tipuri de forțe"
+            },
+            {
+              "id": "fiz9-05",
+              "titlu": "Lucru mecanic, putere, randament"
+            },
+            {
+              "id": "fiz9-06",
+              "titlu": "Energia și conservarea ei"
+            }
+          ]
+        },
+        {
+          "id": "fiz9-c3",
+          "titlu": "Echilibru, presiune, aplicații",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "fiz9-07",
+              "titlu": "Echilibrul corpurilor"
+            },
+            {
+              "id": "fiz9-08",
+              "titlu": "Mașini simple"
+            },
+            {
+              "id": "fiz9-09",
+              "titlu": "Presiunea în solide, lichide și gaze"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
         }
       ]
     },
@@ -1394,6 +1476,88 @@
         {
           "semestru": 2,
           "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "fizica-10",
+      "materie": "Fizică",
+      "clasa": "a X-a",
+      "an": 2,
+      "arie": "Matematică și științe ale naturii",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Termodinamică, electricitate și magnetism, optică și unde: fenomene, legi și aplicații în viața de zi cu zi.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 54,
+      "capitole": [
+        {
+          "id": "fiz10-c1",
+          "titlu": "Căldură și termodinamică",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fiz10-01",
+              "titlu": "Temperatură, căldură, dilatare"
+            },
+            {
+              "id": "fiz10-02",
+              "titlu": "Gazul ideal și transformările lui"
+            },
+            {
+              "id": "fiz10-03",
+              "titlu": "Principiile termodinamicii"
+            }
+          ]
+        },
+        {
+          "id": "fiz10-c2",
+          "titlu": "Electricitate și magnetism",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fiz10-04",
+              "titlu": "Sarcina electrică și curentul"
+            },
+            {
+              "id": "fiz10-05",
+              "titlu": "Circuite electrice"
+            },
+            {
+              "id": "fiz10-06",
+              "titlu": "Magnetism și inducție electromagnetică"
+            }
+          ]
+        },
+        {
+          "id": "fiz10-c3",
+          "titlu": "Optică, unde, fizica modernă",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "fiz10-07",
+              "titlu": "Lumina și optica geometrică"
+            },
+            {
+              "id": "fiz10-08",
+              "titlu": "Unde mecanice și sunetul"
+            },
+            {
+              "id": "fiz10-09",
+              "titlu": "Elemente de fizică modernă"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
         }
       ]
     },
