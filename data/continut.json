@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 45,
-  "nrLectii": 445,
-  "nrCarduri": 1780,
-  "nrIntrebari": 2804,
+  "nrModule": 47,
+  "nrLectii": 463,
+  "nrCarduri": 1852,
+  "nrIntrebari": 2912,
   "module": [
     {
       "id": "geografie-9",
@@ -321,6 +321,88 @@
         {
           "semestru": 2,
           "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "religie-9",
+      "materie": "Religie",
+      "clasa": "a IX-a",
+      "an": 1,
+      "arie": "Om și societate",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Sfânta Scriptură și Sfânta Tradiție, revelația și credința, Vechiul Testament și învățătura despre om.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 54,
+      "capitole": [
+        {
+          "id": "rel9-c1",
+          "titlu": "Revelație, Scriptură, Tradiție",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rel9-01",
+              "titlu": "Religia și căutarea sensului"
+            },
+            {
+              "id": "rel9-02",
+              "titlu": "Sfânta Scriptură"
+            },
+            {
+              "id": "rel9-03",
+              "titlu": "Sfânta Tradiție"
+            }
+          ]
+        },
+        {
+          "id": "rel9-c2",
+          "titlu": "Vechiul Testament",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rel9-04",
+              "titlu": "Creația și omul"
+            },
+            {
+              "id": "rel9-05",
+              "titlu": "Patriarhii și Legea"
+            },
+            {
+              "id": "rel9-06",
+              "titlu": "Profeții și așteptarea lui Mesia"
+            }
+          ]
+        },
+        {
+          "id": "rel9-c3",
+          "titlu": "Credință și viață",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rel9-07",
+              "titlu": "Simbolul de credință"
+            },
+            {
+              "id": "rel9-08",
+              "titlu": "Rugăciunea și viața liturgică"
+            },
+            {
+              "id": "rel9-09",
+              "titlu": "Virtuți, conștiință, alegeri"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
         }
       ]
     },
@@ -1387,6 +1469,88 @@
         {
           "semestru": 2,
           "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "religie-10",
+      "materie": "Religie",
+      "clasa": "a X-a",
+      "an": 2,
+      "arie": "Om și societate",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Noul Testament: viața și învățătura lui Iisus Hristos, Biserica primară și răspândirea creștinismului.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 54,
+      "capitole": [
+        {
+          "id": "rel10-c1",
+          "titlu": "Iisus Hristos în Evanghelii",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rel10-01",
+              "titlu": "Evangheliile — izvor și mărturie"
+            },
+            {
+              "id": "rel10-02",
+              "titlu": "Nașterea, botezul, ispitirea"
+            },
+            {
+              "id": "rel10-03",
+              "titlu": "Predica de pe Munte și parabolele"
+            }
+          ]
+        },
+        {
+          "id": "rel10-c2",
+          "titlu": "Pătimirile, Învierea, Biserica",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rel10-04",
+              "titlu": "Minunile și semnele"
+            },
+            {
+              "id": "rel10-05",
+              "titlu": "Pătimirile și Învierea"
+            },
+            {
+              "id": "rel10-06",
+              "titlu": "Biserica primară"
+            }
+          ]
+        },
+        {
+          "id": "rel10-c3",
+          "titlu": "Creștinismul în lume",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rel10-07",
+              "titlu": "Persecuțiile și victoria credinței"
+            },
+            {
+              "id": "rel10-08",
+              "titlu": "Sinoadele și învățătura de credință"
+            },
+            {
+              "id": "rel10-09",
+              "titlu": "Creștinismul pe teritoriul românesc"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
         }
       ]
     },
