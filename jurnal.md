@@ -1158,3 +1158,18 @@ bine și ar fi picat la audit. Regula a ținut fiindcă exista deja.
 pe întunecat #191310 → #141F33, în cele două locuri care o scriu (bootstrap-ul din
 `index.html` și `app.js`). `data/versiuni.json`: intrare v05 nouă (cache 9),
 scrisă pentru elev, `curenta` → "05".
+
+**Reverificare.** Bateria locală trece integral. Echipa de agenți (lansată în
+paralel): verificatorul de cod a găsit **trei constatări reale** — cea mai
+importantă, un token de sticlă densă rămas espresso în tema întunecată
+(`--glass-bg-strong`), care făcea butonul „înapoi" și fața cardului de memorare
+să apară **maro pe fundal navy** în modul implicit; plus un comentariu de
+contrast învechit și iconița PWA rămasă pe brandul teracotă. Toate trei
+corectate: sticla densă pe navy (`rgba(30,44,70,.82)`), comentariul recalculat
+(8,99:1 pe bleumarin), iconița regenerată pe paleta v05. Corecția sticlei,
+reverificată empiric prin eșantionare DOM + captură pe cele două ecrane afectate:
+`rgba(30,44,70,.82)`, fără maro. Verificatorul vizual: **238 de capturi**, zero
+derulare orizontală, zero ținte sub 44px, `theme-color` corect, stările
+corect/greșit distincte și lizibile pe bleumarin în tema întunecată, preferințele
+de accesibilitate lizibile — **niciun defect vizual**. Raport complet:
+[[Raport verificare v05]] din vault.

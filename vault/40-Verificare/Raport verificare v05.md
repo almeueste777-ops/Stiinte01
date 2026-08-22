@@ -72,6 +72,32 @@ diff-ului + bateria locală) și `verificator-ui` (server local + capturi Playwr
 - În rest: toți verificatorii locali trec, versiunile sincronizate (v9 / cache 9 / `?v=9`),
   zero tokeni de culoare orfani, contrast recalculat independent — toate perechile AA.
 
-### verificator-ui
+### verificator-ui — curat, niciun defect vizual
 
-_(Se completează când raportează.)_
+**238 de capturi** (9 viewporturi × 2 teme × 9 ecrane statice = 162, plus flux interactiv,
+preferințe și comutare de temă), cu măsurători DOM pe fiecare. Rezultat:
+
+- Zero derulare orizontală (`scrollWidth − innerWidth = −15px` peste tot — doar jgheabul de
+  scrollbar), zero ținte sub 44px, zero overflow în carduri/tabele/liste.
+- Bara de taburi corectă: pilulă flotantă jos sub 1024px, rail vertical stânga (x=16, w=96)
+  la ≥1024px cu **overlap conținut = 0**. `meta[theme-color]` corect pe fiecare combinație
+  (#F7EEE2 / #141F33). Zero erori de consolă.
+- Contrast/lizibilitate confirmate pe capturi: butoane primare (navy în luminos / steel-blue
+  în întunecat) net distincte de cele ghost; **stările corect/greșit distincte și lizibile pe
+  fundalul bleumarin în tema întunecată** — exact preocuparea semnalată — cu redundanță de
+  iconuri (✓/×), nu doar culoare; chipsuri/badge-uri de aur lizibile; sticla cu muchie de aur
+  discretă, nu stridentă.
+- Preferințe (contrast ridicat, transparență redusă, ambele combinate) pe mai multe ecrane:
+  totul opac, cu hairline de 1px, lizibil; stările verde/roșu rămân distincte. Comutarea temei
+  live funcționează (fără reîncărcare, `theme-color` urmează tema).
+
+**Confirmarea corecției #1 (după fix).** Am reverificat empiric, pe starea corectată, cele
+două suprafețe afectate în tema întunecată: butonul „înapoi" (`.icon-btn`, ecran de materie
+și de lecție) și fața cardului de memorare (`#/carduri`) randează acum bleumarin
+`rgba(30,44,70,.82)` pe fundal bleumarin — verificat prin eșantionare DOM și captură. Fără
+maro.
+
+## Verdict
+
+Livrare curată. Toate constatările verificatorului de cod corectate și reverificate; zero
+defecte vizuale. Contrast AA peste tot, majoritatea AAA. Gata de îmbinare.
