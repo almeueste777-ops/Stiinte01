@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 18,
-  "nrLectii": 202,
-  "nrCarduri": 808,
-  "nrIntrebari": 1243,
+  "nrModule": 19,
+  "nrLectii": 211,
+  "nrCarduri": 844,
+  "nrIntrebari": 1304,
   "module": [
     {
       "id": "geografie-9",
@@ -1322,6 +1322,95 @@
             {
               "id": "fil12-14",
               "titlu": "Rolul filosofiei în viața socială"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 13
+        }
+      ]
+    },
+    {
+      "id": "geografie-12",
+      "materie": "Geografie",
+      "clasa": "a XII-a",
+      "an": 4,
+      "arie": "Om și societate",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Europa, România și Uniunea Europeană: relief, climă, ape, populație, așezări, economie și integrare — temele probei de bacalaureat.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 61,
+      "capitole": [
+        {
+          "id": "geo12-c1",
+          "titlu": "Europa și România: cadrul natural",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "geo12-01",
+              "titlu": "Poziția geografică și limitele Europei"
+            },
+            {
+              "id": "geo12-02",
+              "titlu": "Relieful Europei și al României"
+            },
+            {
+              "id": "geo12-03",
+              "titlu": "Clima, apele, vegetația și solurile"
+            }
+          ]
+        },
+        {
+          "id": "geo12-c2",
+          "titlu": "Populația și așezările",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "geo12-04",
+              "titlu": "Populația Europei și a României"
+            },
+            {
+              "id": "geo12-05",
+              "titlu": "Așezările și organizarea administrativă"
+            }
+          ]
+        },
+        {
+          "id": "geo12-c3",
+          "titlu": "Economia și mediul",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "geo12-06",
+              "titlu": "Resursele și industria"
+            },
+            {
+              "id": "geo12-07",
+              "titlu": "Agricultura, transporturile și turismul"
+            }
+          ]
+        },
+        {
+          "id": "geo12-c4",
+          "titlu": "Uniunea Europeană",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "geo12-08",
+              "titlu": "Construcția și instituțiile Uniunii Europene"
+            },
+            {
+              "id": "geo12-09",
+              "titlu": "România în Uniunea Europeană"
             }
           ]
         }
