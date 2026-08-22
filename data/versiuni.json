@@ -1,7 +1,23 @@
 {
-  "curenta": "03",
+  "curenta": "04",
   "actualizat": "2026-08-22",
   "versiuni": [
+    {
+      "v": "04",
+      "nume": "Antrenament și simulare de notă",
+      "data": "2026-08-22",
+      "cache": 8,
+      "schimbari": [
+        "Antrenament: o sesiune scurtă care amestecă grile, carduri, termeni, completări și explicații din mai multe lecții deodată — se învață mai bine decât o lecție pe rând.",
+        "Aplicația ține minte ce știi și îți dă fiecare lucru înapoi exact înainte să-l uiți; ce greșești revine mai des.",
+        "Înainte de fiecare răspuns te întreabă cât de sigur ești, iar la final îți arată de câte ori ai zis „sigur” și ai greșit.",
+        "Tipuri noi de exercițiu: scrii termenul care lipsește dintr-o definiție și explici ideea cu cuvintele tale.",
+        "Simulare de notă la fiecare materie: cinci puncte a câte 2 puncte, douăzeci de întrebări din toate capitolele. Punctajul obținut este nota.",
+        "Înainte de simulare îți spui singur ce notă crezi că iei, iar la final vezi cât de aproape ai fost.",
+        "După simulare vezi punctajul pe fiecare dintre cele cinci puncte și toate greșelile, cu explicații.",
+        "Ecranul Acasă și fiecare materie arată cât ai stăpânit și câte elemente ai de repetat azi."
+      ]
+    },
     {
       "v": "03",
       "nume": "Temă, setări, conținut complet",
