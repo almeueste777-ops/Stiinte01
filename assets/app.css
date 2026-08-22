@@ -41,9 +41,10 @@
 :root{
 
   /* ─────────────────────────────────────────────────────────────────────────
-     1. PALETA CALDĂ — TEMA LUMINOASĂ
-     Nisip / lut / teracotă / chihlimbar / smântână. Zero navy, zero gri-rece:
-     fiecare neutru are hue 25–40° (portocaliu-cald), nu 210° (albastru).
+     1. PALETA — TEMA LUMINOASĂ · „Nisip cald + bleumarin de miezul nopții”
+     Suprafețele rămân nisip / lut / smântână calde (hue 25–40°, zero gri-rece).
+     Bleumarinul intră DOAR ca brand (butoane, linkuri, focus); aurul/mierea e
+     accentul. Nisip + bleumarin + aur — combinația „perfect împreună” din paletă.
      ───────────────────────────────────────────────────────────────────────── */
 
   /* Suprafețe (trei niveluri: îngropat < bază < ridicat) */
@@ -62,11 +63,11 @@
   --hairline-strong: #D2B896;  /* pentru contrastul ridicat (§13) */
 
   /* Culori de brand și semantice */
-  --brand:       #9E4119;  /* teracotă arsă — identitatea aplicației */
-  --brand-ink:   #FFF7EF;  /* text pe fundal de brand */
-  --accent:      #B4761A;  /* chihlimbar — umpluturi, .pill, .badge */
+  --brand:       #234B6F;  /* bleumarin de miezul nopții — identitatea aplicației */
+  --brand-ink:   #F7F1E4;  /* nisip fildeș — text pe fundal de brand */
+  --accent:      #C8901E;  /* aur / miere — umpluturi, .pill, .badge */
   --accent-text: #8A5410;  /* varianta SIGURĂ pentru text pe suprafață */
-  --accent-ink:  #241004;  /* text pe umplutură de chihlimbar */
+  --accent-ink:  #241004;  /* text pe umplutură de aur */
   --ok:          #3F6B2E;  /* mușchi cald — corect, progres */
   --bad:         #A32218;  /* roșu-rugină — greșit, erori */
 
@@ -186,46 +187,47 @@
   --safe-l: env(safe-area-inset-left,0px);
   --safe-r: env(safe-area-inset-right,0px);
 
-  --focus-ring: 0 0 0 3px rgba(158,65,25,.34), 0 0 0 1px var(--brand);
+  --focus-ring: 0 0 0 3px rgba(35,75,111,.34), 0 0 0 1px var(--brand);
 
 }
 
 /* ===========================================================================
-   10. TEMA ÎNTUNECATĂ — cărbune cald / espresso, NU negru-albastru.
-   Fiecare neutru păstrează hue ~25°. Umbrele neumorfice se RECALCULEAZĂ:
-   pe întuneric „lumina” nu mai e albă, ci o ridicare caldă slabă.
+   10. TEMA ÎNTUNECATĂ — „Miezul nopții”: bleumarin adânc, NU negru neutru.
+   Suprafețele trec pe hue ~215° (bleumarin), cerneala rămâne nisip fildeș cald —
+   „adâncime și căldură”. Umbrele neumorfice se RECALCULEAZĂ: pe întuneric
+   „lumina” e o ridicare de oțel-bleu, nu albă și nici maro.
    =========================================================================== */
 :root:where([data-tema="intunecat"]){
-  --surface-base:    #191310;   /* espresso */
-  --surface-raised:  #241B15;   /* cafea cu lapte foarte închisă */
-  --surface-sunken:  #120D0A;   /* aproape negru, dar cald */
-  --surface-overlay: #281E17;
+  --surface-base:    #141F33;   /* bleumarin adânc — fundalul paginii */
+  --surface-raised:  #1E2C46;   /* bleumarin-cerneală — carduri, butoane, foi */
+  --surface-sunken:  #0E1626;   /* aproape negru-bleu — câmpuri, tracks */
+  --surface-overlay: #24334F;
 
-  --ink:        #F4E7D6;   /* smântână */
-  --ink-muted:  #B49A80;   /* lut deschis */
-  --ink-faint:  #8A735E;
+  --ink:        #F3ECDC;   /* nisip fildeș — cald pe bleumarin */
+  --ink-muted:  #BCA98E;   /* nisip-gri cald */
+  --ink-faint:  #8C7C68;
 
-  --hairline:        #3A2A20;
-  --hairline-strong: #57402F;
+  --hairline:        #2C3B54;
+  --hairline-strong: #45587A;
 
-  --brand:       #EE9068;   /* teracota se deschide ca să reziste pe fundal închis */
-  --brand-ink:   #2A1206;
-  --accent:      #E7B267;
-  --accent-text: #E7B267;
-  --accent-ink:  #23150A;
+  --brand:       #9DB6D2;   /* oțel-bleu deschis — rezistă pe fundalul închis */
+  --brand-ink:   #10192A;
+  --accent:      #E7B267;   /* aur cald — accentul comun cu tema luminoasă */
+  --accent-text: #E9BE79;
+  --accent-ink:  #201400;
   --ok:          #8CC96E;
   --bad:         #FF9C85;
 
   /* Mesh ambiental nocturn: aceleași centre, jar în loc de soare */
   --ambient:
-    radial-gradient(1100px 640px at  6% -8%, #2E2016 0%, rgba(46,32,22,0) 62%),
-    radial-gradient( 920px 720px at 104%  2%, #2B1B18 0%, rgba(43,27,24,0) 58%),
-    radial-gradient( 780px 640px at  48% 106%, #241A13 0%, rgba(36,26,19,0) 60%),
-    linear-gradient(180deg, #1B1411 0%, #140F0C 100%);
+    radial-gradient(1100px 640px at  6% -8%, #1E3352 0%, rgba(30,51,82,0) 62%),
+    radial-gradient( 920px 720px at 104%  2%, #1B2F4E 0%, rgba(27,47,78,0) 58%),
+    radial-gradient( 780px 640px at  48% 106%, #16273F 0%, rgba(22,39,63,0) 60%),
+    linear-gradient(180deg, #16223A 0%, #0F1826 100%);
 
-  /* Neumorfism recalculat pentru suprafața #241B15 */
-  --nm-l: 92,70,52;      /* #5C4634 — ridicare caldă, nu alb */
-  --nm-d: 0,0,0;         /* umbra pe întuneric e beznă curată */
+  /* Neumorfism recalculat pentru suprafața #1E2C46 (bleumarin) */
+  --nm-l: 62,84,116;     /* #3E5474 — ridicare de oțel-bleu, nu maro */
+  --nm-d: 5,9,16;        /* #050910 — umbra e bleumarin-beznă, nu maro */
   --nm-raised:
       -7px -7px 16px rgba(var(--nm-l),.36),
        7px  7px 18px rgba(var(--nm-d),.58);
@@ -239,20 +241,21 @@
       0 0 0 1px var(--hairline),
       0 1px 2px rgba(var(--nm-d),.40);
 
-  /* Sticlă nocturnă: tentă de espresso, muchie chihlimbarie foarte discretă */
-  --glass-bg:     rgba(46,34,26,.58);
+  /* Sticlă nocturnă: tentă de bleumarin, muchie de aur foarte discretă (ca liniile
+     aurii din paletă), firul de lumină de sus rece — „vinde” sticla pe fundal închis */
+  --glass-bg:     rgba(28,42,68,.58);
   --glass-blur:   blur(22px) saturate(160%);
-  --glass-border: rgba(255,214,170,.16);
+  --glass-border: rgba(231,178,103,.16);
   --glass-shadow:
       0 10px 34px rgba(0,0,0,.52),
-      inset 0 1px 0 rgba(255,222,186,.10);
+      inset 0 1px 0 rgba(214,228,246,.10);
   --glass-specular:
       linear-gradient(155deg,
-        rgba(255,224,188,.14)  0%,
-        rgba(255,224,188,.04) 34%,
-        rgba(255,224,188,0)   60%);
+        rgba(214,228,246,.14)  0%,
+        rgba(214,228,246,.04) 34%,
+        rgba(214,228,246,0)   60%);
 
-  --focus-ring: 0 0 0 3px rgba(238,144,104,.34), 0 0 0 1px var(--brand);
+  --focus-ring: 0 0 0 3px rgba(157,182,210,.34), 0 0 0 1px var(--brand);
 }
 
 /* ===========================================================================
@@ -339,11 +342,11 @@
   --glass-inner-shadow:rgba(120,80,45,.10);    /* muchia de jos, dinspre interior */
 
   /* Trepte deschise de gradient + halouri ----------------------------------- */
-  --brand-2:  #B24E22;                 /* capătul luminos al gradientului de brand */
-  --brand-glow: rgba(158,65,25,.55);
-  --accent-2: #D18F2B;                 /* capătul luminos al chihlimbarului */
-  --accent-glow: rgba(180,118,26,.40);
-  --accent-halo: rgba(180,118,26,.16);
+  --brand-2:  #2F5C87;                 /* capătul luminos al gradientului de brand (oțel-bleu) */
+  --brand-glow: rgba(35,75,111,.55);
+  --accent-2: #D9A521;                 /* capătul luminos al aurului */
+  --accent-glow: rgba(200,144,30,.40);
+  --accent-halo: rgba(200,144,30,.16);
   --amber:    #E9B45C;                 /* capătul cald al barei de progres */
 
   /* Stări semantice — fundal, contur, halou, text ---------------------------
@@ -363,18 +366,18 @@
 
   /* Umbre profunde, tentă de hover, focus ----------------------------------- */
   --shadow-deep: rgba(90,58,32,.50);
-  --hover-tint:  rgba(158,65,25,.05);
+  --hover-tint:  rgba(35,75,111,.05);
   --focus:       var(--brand);
   --bar-edge:    #8A5410;   /* muchia umplerii de progres: 4,81:1 față de șanț */
 }
 
 :root:where([data-tema="intunecat"]){
   --glass-bg-strong:   rgba(52,39,30,.80);
-  --glass-highlight:   rgba(255,222,186,.11);
+  --glass-highlight:   rgba(214,228,246,.11);
   --glass-inner-shadow:rgba(0,0,0,.32);
 
-  --brand-2:  #F5A882;
-  --brand-glow: rgba(238,144,104,.42);
+  --brand-2:  #B9CDE1;
+  --brand-glow: rgba(157,182,210,.42);
   --accent-2: #F2C685;
   --accent-glow: rgba(231,178,103,.32);
   --accent-halo: rgba(231,178,103,.14);
@@ -393,7 +396,7 @@
   --bad-text: #FFB9A8;               /* min. 7,02:1 pe fundalul real al opțiunii */
 
   --shadow-deep: rgba(0,0,0,.70);
-  --hover-tint:  rgba(238,144,104,.07);
+  --hover-tint:  rgba(157,182,210,.07);
   --bar-edge:    #F3CE8E;   /* pe întuneric muchia trebuie să fie mai deschisă decât șanțul */
 }
 

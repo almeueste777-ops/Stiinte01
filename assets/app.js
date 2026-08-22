@@ -335,7 +335,7 @@
     const tema = s.tema === 'auto' ? (MQ.tema.matches ? 'intunecat' : 'luminos') : s.tema;
     doc.setAttribute('data-tema', tema);
     doc.style.colorScheme = tema === 'intunecat' ? 'dark' : 'light';
-    if (metaTema) metaTema.setAttribute('content', tema === 'intunecat' ? '#191310' : '#F7EEE2');
+    if (metaTema) metaTema.setAttribute('content', tema === 'intunecat' ? '#141F33' : '#F7EEE2');
 
     doc.setAttribute('data-contrast',
       s.contrast === 'auto' ? (MQ.contrast.matches ? 'ridicat' : 'normal') : s.contrast);

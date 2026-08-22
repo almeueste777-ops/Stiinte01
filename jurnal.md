@@ -1096,3 +1096,65 @@ seturi de preferințe) — zero derulare orizontală, zero ecrane goale, zero
 suprapuneri, zero ținte sub 44px, zero erori de consolă. Simularea de notă,
 verificată cu cheia de răspuns citită din date: 20/20 → 10,00, **18/20 → 9,00**,
 14/20 → 7,00. Testul de service worker cu SW activ: trecut.
+
+## 2026-08-22, mai târziu — Versiunea 05, „Bleumarin de miezul nopții + nisip cald"
+
+Cererea: „caută și îmbunătățește aplicația cu culorile din imagini, schimbând
+doar cromatica și foarte puțin designul. Fă cele mai reușite combinații." Trei
+planșe de paletă atașate: **Midnight Navy + Warm Sand** (cu detalii de aur, sub
+eticheta *„perfect together — balance of depth and warmth"*), o scară de
+**neutre calde** (bej → espresso) și o scară de **auriu** (cream → bronz).
+
+O recolorare, deci, nu un redesign. Și fiindcă tot sistemul de culoare stă
+centralizat în stratul 1–1b din `app.css` — **zero hex-uri hardcodate după linia
+400**, verificat cu grep — schimbarea a fost curată: doar valori de tokeni, nicio
+regulă de componentă atinsă.
+
+**Cum s-au mapat planșele pe cele două teme.** Planșa 1 e vedeta, și se așază de
+la sine peste comutatorul luminos/întunecat al aplicației:
+
+- **Tema luminoasă = lumea „Warm Sand".** Suprafețele de nisip/smântână/lut erau
+  deja, la propriu, paleta „Warm Sand" din planșă (Light Sand, Ivory Sand, Soft
+  Beige) — au rămas neatinse. Cerneala rămâne espresso (planșa 2). **Bleumarinul
+  intră ca brand** în locul teracotei: `--brand` #9E4119 → **#234B6F**. **Aurul**
+  devine accentul: `--accent` #B4761A → **#C8901E**.
+- **Tema întunecată = lumea „Midnight Navy".** Suprafețele espresso devin
+  bleumarin de miezul nopții: `--surface-base` #191310 → **#141F33**, `raised`
+  #241B15 → **#1E2C46**, `sunken` #120D0A → **#0E1626**. Cerneala rămâne nisip
+  fildeș cald (#F3ECDC) — aici e „căldura" din „adâncime și căldură". Brandul
+  devine oțel-bleu deschis (#9DB6D2), ca să reziste pe fundal închis; accentul
+  rămâne aur (#E7B267).
+
+Aurul e firul comun al ambelor teme — exact rolul lui în planșa 1, unde liniile,
+busolele și ramele aurii leagă panoul bleumarin de cel de nisip.
+
+**Ce NU s-a atins, deliberat.** Cerneala de lectură pe lumină rămâne espresso, nu
+bleumarin: „espresso, niciodată gri" e teza, iar bleumarinul e culoare de
+*identitate* (butoane, linkuri, focus), nu de *lectură*. Rolurile tokenilor n-au
+migrat — h1/h2 folosesc tot `--ink`, nu brandul. Suprafețele de nisip ale temei
+luminoase fiind identice, neumorfismul cald al temei luminoase (`--nm-l`/`--nm-d`)
+a rămas neschimbat. Pe întuneric, în schimb, „lumina" neumorfică a trebuit
+recalculată: o ridicare maro (#5C4634) pe o suprafață bleumarin arată noroios, așa
+că a devenit oțel-bleu (#3E5474). La fel, mesh-ul ambiental nocturn și tenta
+sticlei nocturne au trecut pe bleumarin (cu o muchie de aur discretă, ca liniile
+din planșă).
+
+**Contrastul, recalculat, nu presupus.** Fiindcă s-au schimbat brandul (luminos)
+și suprafețele + cerneala + brandul (întunecat), am recalculat perechile critice
+pe valorile hex reale (luminanță sRGB, prag AA 4,5:1). Toate trec, majoritatea la
+AAA. Cea mai strânsă: `--brand-ink` pe capătul deschis al gradientului de buton,
+**6,22:1**. `--brand` ca text (linkuri, scorul de la simulare) urcă la 8,48:1 pe
+lumină și 6,69:1 pe întuneric. Stările corect/greșit din tema întunecată au fost
+verificate pe fundalul **compus** (tenta semantică peste noul bleumarin), nu pe
+tokenul plat: 6,88:1 și 6,38:1.
+
+**Capcana, a doua oară.** `--accent` #C8901E dă doar **2,54:1** ca text pe
+smântână — și mai jos decât chihlimbarul vechi (3,53:1). Fără regula „accentul e
+DOAR umplutură, cu fratele `--accent-text` pentru text", recolorarea ar fi arătat
+bine și ar fi picat la audit. Regula a ținut fiindcă exista deja.
+
+**Versionare.** `CACHE` `stiinte01-v8` → `v9`; `?v=8` → `?v=9` în `index.html` și
+`sw.js`, și pentru CSS și pentru JS (ambele s-au schimbat). `meta[theme-color]`
+pe întunecat #191310 → #141F33, în cele două locuri care o scriu (bootstrap-ul din
+`index.html` și `app.js`). `data/versiuni.json`: intrare v05 nouă (cache 9),
+scrisă pentru elev, `curenta` → "05".
