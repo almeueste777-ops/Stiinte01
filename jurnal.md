@@ -968,3 +968,86 @@ Un defect prins la reverificare, instructiv fiindcă e o repetare: „Înapoi" d
 câteva ore înainte la ecranul Setări. Prima corecție tratase suprapunerile ca
 mereu-intrare; a doua verifică întâi dacă ecranul e deja în stivă. Morala:
 **când corectezi un caz special, întreabă-te dacă e singurul din clasa lui.**
+
+---
+
+## 2026-08-22, mai târziu — Versiunea 04, „Antrenament și simulare de notă"
+
+Cerința: *un sistem de învățare nou, care să implice elemente din mai multe
+sisteme, cele mai bune* — plus *teste grilă cu punctul 1, 2, 3, 4, 5, câte două
+puncte de fiecare, care să calculeze dacă sunt elev de nota 9 sau mai puțin, la
+fiecare materie.*
+
+### 44 · Șapte mecanisme, nu șapte trucuri
+
+Aplicația avea două unelte separate: carduri și test grilă. Amândouă bune,
+amândouă incomplete — cardurile nu știau ce ai uitat, testul nu te învăța nimic,
+iar între ele nu exista nicio legătură.
+
+Antrenamentul le adună într-un sistem construit din șapte mecanisme, fiecare
+alese pentru un **mod concret în care învățatul obișnuit eșuează**, nu fiindcă
+sună bine:
+
+| Mecanism | Ce eșec repară |
+|---|---|
+| repetiție eșalonată | uiți exact ce n-ai mai atins |
+| recuperare activă | recitirea dă iluzia că știi |
+| intercalare | blocul „o lecție pe rând" se uită repede |
+| efect de generare | recunoști, dar nu poți produce |
+| calibrare | „credeam că știu" |
+| practică deliberată | repeți ce știi deja |
+| stăpânire cu prag | „am citit-o" ≠ „o știu" |
+
+Detaliile fiecăruia, cu matematica programării: [[Sistemul de învățare]] din vault.
+
+**Calibrarea e piesa care lipsește din aproape toate aplicațiile de învățare** și
+cea care schimbă cel mai mult rezultatul la teză. Elevul nu pică fiindcă nu știe
+nimic; pică fiindcă nu știe *ce* nu știe. „Îmi sună cunoscut" e produs de
+recunoaștere, nu de stăpânire, iar recitirea îl întărește fără să adauge nimic.
+Singurul mod de a sparge iluzia e s-o măsori: aplicația întreabă cât ești de
+sigur **înainte** de răspuns și îți spune la final de câte ori ai zis „sigur" și
+ai greșit.
+
+### 45 · Cinci tipuri de exercițiu, zero conținut nou
+
+Grilă, card, termen, completare, explicație — toate **derivate din conținutul
+existent**. `l.termeni` dă și „Termen → definiție" (recunoaștere), și
+„Completează" (producere, cu răspuns scris); `l.ideiCheie` dă „Explică".
+
+Deosebirea dintre grilă și completare e cea mai utilă informație din raport:
+grila se nimerește, completarea nu. 90% la grilă și 40% la completare înseamnă că
+elevul **recunoaște** materia fără s-o poată **produce** — exact diferența care
+se vede la un subiect cu răspuns scris.
+
+Completarea acceptă răspunsuri fără diacritice, fără majuscule și cu o literă
+greșită (Levenshtein 1 la cuvinte de peste 5 litere). Elevul nu e la un concurs
+de ortografie; dacă „constituţie" ar fi respins, mecanismul ar antrena frustrarea,
+nu materia.
+
+### 46 · Simularea de notă, exact pe structura cerută
+
+Cinci puncte, fiecare de 2 puncte, total 10. Fiecare punct are **4 întrebări a
+câte 0,5p** — și asta nu e o alegere estetică: cu un singur item de 2p pe punct,
+notele ar sări din 2 în 2 și **nota 9 n-ar fi accesibilă**, adică fix cifra pe
+care a cerut-o utilizatorul.
+
+Punctele trag din capitole diferite, prin cozi rotite pe capitol: proba acoperă
+materia, nu o lecție. Fără feedback până la final, ca la o teză adevărată.
+Punctajul obținut **este** nota. Grilele din simulare hrănesc și programarea
+eșalonată — o teză dată degeaba ar fi o ocazie ratată de învățare.
+
+Verificat cu cheia de răspuns citită din datele modulului: **20/20 → 10,00**,
+**18/20 → 9,00 „Ești elev de nota 9"**, **14/20 → 7,00**.
+
+### 47 · O regresie prinsă de măsurătoare, nu de privit
+
+`.grid2` era `1fr 1fr`. `1fr` înseamnă `minmax(auto, 1fr)`, iar `auto` nu coboară
+sub lățimea min-content. Cu etichetele noi, mai lungi, la 150% mărime text grila
+cerea **364px într-un ecran de 320**. Trecut pe
+`repeat(auto-fit, minmax(min(100%, 9rem), 1fr))`: la text mare trece singură pe o
+coloană.
+
+Instructiv e cum era să-mi scape: am măsurat întâi la mărimea implicită, am văzut
+zero depășiri și eram gata să pun rezultatul pe seama animației de intrare.
+Defectul apărea **doar** la 140–150%. **Când o măsurătoare contrazice un raport,
+verifici în condițiile raportului, nu în ale tale.**
