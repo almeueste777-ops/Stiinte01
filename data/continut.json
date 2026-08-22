@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 49,
-  "nrLectii": 481,
-  "nrCarduri": 1924,
-  "nrIntrebari": 3020,
+  "nrModule": 50,
+  "nrLectii": 490,
+  "nrCarduri": 1960,
+  "nrIntrebari": 3074,
   "module": [
     {
       "id": "geografie-9",
@@ -4028,6 +4028,88 @@
         {
           "semestru": 2,
           "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "religie-13",
+      "materie": "Religie",
+      "clasa": "a XIII-a",
+      "an": 5,
+      "arie": "Om și societate",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Sinteză: credința în lumea contemporană, spiritualitatea ortodoxă, patrimoniul creștin românesc și alegerile vieții de adult.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 54,
+      "capitole": [
+        {
+          "id": "rel13-c1",
+          "titlu": "Spiritualitatea ortodoxă",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rel13-01",
+              "titlu": "Rugăciunea inimii și isihasmul"
+            },
+            {
+              "id": "rel13-02",
+              "titlu": "Sfinții și modelele de viață"
+            },
+            {
+              "id": "rel13-03",
+              "titlu": "Suferința, moartea, nădejdea"
+            }
+          ]
+        },
+        {
+          "id": "rel13-c2",
+          "titlu": "Patrimoniu și cultură creștină",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rel13-04",
+              "titlu": "Biserica și cultura română"
+            },
+            {
+              "id": "rel13-05",
+              "titlu": "Creștinismul și arta europeană"
+            },
+            {
+              "id": "rel13-06",
+              "titlu": "Ecumenism și relații între confesiuni"
+            }
+          ]
+        },
+        {
+          "id": "rel13-c3",
+          "titlu": "Alegerile vieții de adult",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rel13-07",
+              "titlu": "Vocație, profesie, sens"
+            },
+            {
+              "id": "rel13-08",
+              "titlu": "Adevăr, informație, manipulare"
+            },
+            {
+              "id": "rel13-09",
+              "titlu": "Sinteză: ce rămâne"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
         }
       ]
     },

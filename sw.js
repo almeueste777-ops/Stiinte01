@@ -61,6 +61,7 @@ const ASSETS = [
   './data/module/filosofie-13.json',
   './data/module/geografie-13.json',
   './data/module/istorie-13.json',
+  './data/module/religie-13.json',
   './data/module/studii-sociale-13.json',
   './data/module/engleza-13.json',
   './data/module/romana-13.json',
