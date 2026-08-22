@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 41,
-  "nrLectii": 409,
-  "nrCarduri": 1636,
-  "nrIntrebari": 2588,
+  "nrModule": 43,
+  "nrLectii": 427,
+  "nrCarduri": 1708,
+  "nrIntrebari": 2696,
   "module": [
     {
       "id": "geografie-9",
@@ -656,6 +656,88 @@
         {
           "semestru": 2,
           "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "chimie-9",
+      "materie": "Chimie",
+      "clasa": "a IX-a",
+      "an": 1,
+      "arie": "Matematică și științe ale naturii",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Structura atomului, tabelul periodic, legături chimice, soluții și reacții chimice fundamentale.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 54,
+      "capitole": [
+        {
+          "id": "chi9-c1",
+          "titlu": "Atomul și sistemul periodic",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "chi9-01",
+              "titlu": "Structura atomului"
+            },
+            {
+              "id": "chi9-02",
+              "titlu": "Tabelul periodic"
+            },
+            {
+              "id": "chi9-03",
+              "titlu": "Legături chimice"
+            }
+          ]
+        },
+        {
+          "id": "chi9-c2",
+          "titlu": "Substanțe și soluții",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "chi9-04",
+              "titlu": "Substanțe pure și amestecuri"
+            },
+            {
+              "id": "chi9-05",
+              "titlu": "Soluții și concentrații"
+            },
+            {
+              "id": "chi9-06",
+              "titlu": "Mol, formule, calcule chimice"
+            }
+          ]
+        },
+        {
+          "id": "chi9-c3",
+          "titlu": "Reacții chimice",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "chi9-07",
+              "titlu": "Tipuri de reacții chimice"
+            },
+            {
+              "id": "chi9-08",
+              "titlu": "Acizi, baze, săruri"
+            },
+            {
+              "id": "chi9-09",
+              "titlu": "Viteza de reacție și chimia în viața de zi cu zi"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
         }
       ]
     },
@@ -1476,6 +1558,88 @@
         {
           "semestru": 2,
           "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "chimie-10",
+      "materie": "Chimie",
+      "clasa": "a X-a",
+      "an": 2,
+      "arie": "Matematică și științe ale naturii",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Chimie organică: hidrocarburi, compuși cu grupe funcționale, substanțe naturale și chimia vieții cotidiene.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 54,
+      "capitole": [
+        {
+          "id": "chi10-c1",
+          "titlu": "Hidrocarburi",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "chi10-01",
+              "titlu": "Carbonul și chimia organică"
+            },
+            {
+              "id": "chi10-02",
+              "titlu": "Alcani, alchene, alchine"
+            },
+            {
+              "id": "chi10-03",
+              "titlu": "Hidrocarburi aromatice"
+            }
+          ]
+        },
+        {
+          "id": "chi10-c2",
+          "titlu": "Compuși cu grupe funcționale",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "chi10-04",
+              "titlu": "Alcooli și fenoli"
+            },
+            {
+              "id": "chi10-05",
+              "titlu": "Acizi carboxilici, esteri, grăsimi"
+            },
+            {
+              "id": "chi10-06",
+              "titlu": "Amine, aminoacizi, proteine"
+            }
+          ]
+        },
+        {
+          "id": "chi10-c3",
+          "titlu": "Substanțe naturale și aplicații",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "chi10-07",
+              "titlu": "Zaharuri"
+            },
+            {
+              "id": "chi10-08",
+              "titlu": "Polimeri și materiale"
+            },
+            {
+              "id": "chi10-09",
+              "titlu": "Chimia în viața cotidiană"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
         }
       ]
     },

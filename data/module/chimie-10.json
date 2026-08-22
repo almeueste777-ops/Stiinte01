@@ -1,0 +1,1007 @@
+{
+ "id": "chimie-10",
+ "materie": "Chimie",
+ "clasa": "a X-a",
+ "an": 2,
+ "arie": "Matematică și științe ale naturii",
+ "bac": false,
+ "descriere": "Chimie organică: hidrocarburi, compuși cu grupe funcționale, substanțe naturale și chimia vieții cotidiene.",
+ "capitole": [
+  {
+   "id": "chi10-c1",
+   "titlu": "Hidrocarburi",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "chi10-01",
+     "titlu": "Carbonul și chimia organică",
+     "rezumat": "Chimia organică studiază compușii carbonului, cu excepția câtorva compuși simpli tratați tradițional ca anorganici. Numărul lor uriaș — milioane de substanțe — se explică prin proprietățile unice ale carbonului: are patru electroni de valență, deci formează patru legături covalente, se poate lega de el însuși în catene lungi, ramificate sau ciclice și poate forma legături simple, duble și triple. Formulele arată structura la niveluri diferite: formula moleculară dă doar numărul de atomi, cea structurală arată legăturile, cea condensată le prescurtează. Izomerii sunt substanțe cu aceeași formulă moleculară, dar structură și proprietăți diferite — de aceea butanul și izobutanul, ambele cu patru atomi de carbon și zece de hidrogen, se comportă diferit. Izomeria explică diversitatea imensă a compușilor organici și este esențială în biologie și farmacie, unde doi izomeri pot avea efecte complet diferite asupra organismului.",
+     "ideiCheie": [
+      "Carbonul formează patru legături covalente și catene lungi, ramificate sau ciclice.",
+      "Formulele pot fi moleculare, structurale sau condensate.",
+      "Izomerii au aceeași formulă moleculară, dar structuri diferite.",
+      "Doi izomeri pot avea efecte biologice complet diferite."
+     ],
+     "termeni": [
+      {
+       "t": "izomerie",
+       "d": "existența unor substanțe cu aceeași formulă moleculară și structuri diferite"
+      },
+      {
+       "t": "catenă",
+       "d": "lanțul de atomi de carbon legați între ei într-o moleculă organică"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "De ce formează carbonul atâția compuși?",
+       "v": "Pentru că are patru valențe și se leagă de el însuși în catene lungi, ramificate sau ciclice."
+      },
+      {
+       "f": "Ce sunt izomerii?",
+       "v": "Substanțe cu aceeași formulă moleculară, dar cu structuri și proprietăți diferite."
+      },
+      {
+       "f": "Ce arată formula structurală?",
+       "v": "Modul în care sunt legați atomii între ei."
+      },
+      {
+       "f": "De ce contează izomeria în farmacie?",
+       "v": "Pentru că doi izomeri pot avea efecte foarte diferite asupra organismului."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Carbonul formează:",
+       "optiuni": [
+        "patru legături covalente",
+        "două legături covalente",
+        "o legătură ionică",
+        "șase legături"
+       ],
+       "corect": 0,
+       "explicatie": "Are patru electroni de valență."
+      },
+      {
+       "intrebare": "Butanul și izobutanul sunt:",
+       "optiuni": [
+        "izomeri",
+        "izotopi",
+        "alotropi",
+        "polimeri"
+       ],
+       "corect": 0,
+       "explicatie": "Au aceeași formulă moleculară, structuri diferite."
+      },
+      {
+       "intrebare": "Chimia organică studiază compușii:",
+       "optiuni": [
+        "carbonului",
+        "oxigenului",
+        "azotului",
+        "metalelor"
+       ],
+       "corect": 0,
+       "explicatie": "Cu câteva excepții tradiționale."
+      },
+      {
+       "intrebare": "Formula moleculară arată:",
+       "optiuni": [
+        "numărul de atomi din moleculă",
+        "modul de legare al atomilor",
+        "geometria moleculei",
+        "proprietățile fizice"
+       ],
+       "corect": 0,
+       "explicatie": "Structura o dă formula structurală."
+      }
+     ]
+    },
+    {
+     "id": "chi10-02",
+     "titlu": "Alcani, alchene, alchine",
+     "rezumat": "Alcanii sunt hidrocarburi saturate, cu legături simple între atomii de carbon. Sunt puțin reactivi, participând mai ales la ardere și la substituție cu halogeni. Formează seria omoloagă metan, etan, propan, butan; primele patru sunt gaze, urmează lichide (benzina, motorina) și apoi solide (parafina). Gazul natural este format preponderent din metan, iar petrolul e un amestec complex separat prin distilare fracționată. Alchenele conțin o legătură dublă, iar alchinele o legătură triplă; ambele sunt nesaturate și mult mai reactive, participând la reacții de adiție (hidrogenare, halogenare, hidratare) și de polimerizare. Etena este materia primă a polietilenei, cel mai folosit plastic din lume, și hormonul vegetal care coace fructele; acetilena arde cu flacără foarte fierbinte, folosită la sudură. Nesaturarea explică și diferența dintre grăsimile saturate și cele nesaturate din alimentație.",
+     "ideiCheie": [
+      "Alcanii sunt saturați și puțin reactivi; dau ardere și substituție.",
+      "Alchenele au legătură dublă, alchinele legătură triplă; ambele sunt reactive.",
+      "Adiția și polimerizarea sunt reacțiile tipice ale nesaturaților.",
+      "Petrolul se separă prin distilare fracționată."
+     ],
+     "termeni": [
+      {
+       "t": "hidrocarbură saturată",
+       "d": "hidrocarbură cu legături simple între atomii de carbon"
+      },
+      {
+       "t": "polimerizare",
+       "d": "unirea unui număr mare de molecule mici în macromolecule"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce reacții dau alcanii?",
+       "v": "Ardere și substituție cu halogeni."
+      },
+      {
+       "f": "Ce este etena folosită în industrie?",
+       "v": "Materia primă a polietilenei și hormonul vegetal care coace fructele."
+      },
+      {
+       "f": "Cum se separă componentele petrolului?",
+       "v": "Prin distilare fracționată, după temperaturile de fierbere."
+      },
+      {
+       "f": "Ce deosebește alchenele de alchine?",
+       "v": "Alchenele au o legătură dublă, alchinele o legătură triplă."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Reacția tipică a alchenelor este:",
+       "optiuni": [
+        "adiția",
+        "substituția",
+        "neutralizarea",
+        "precipitarea"
+       ],
+       "corect": 0,
+       "explicatie": "Legătura dublă se desface și primește atomi noi."
+      },
+      {
+       "intrebare": "Gazul natural este format preponderent din:",
+       "optiuni": [
+        "metan",
+        "etenă",
+        "acetilenă",
+        "propan"
+       ],
+       "corect": 0,
+       "explicatie": "Este cel mai simplu alcan."
+      },
+      {
+       "intrebare": "Polietilena se obține din:",
+       "optiuni": [
+        "etenă, prin polimerizare",
+        "metan, prin ardere",
+        "acetilenă, prin substituție",
+        "petrol, prin decantare"
+       ],
+       "corect": 0,
+       "explicatie": "Este cel mai folosit plastic din lume."
+      },
+      {
+       "intrebare": "Alcanii sunt hidrocarburi:",
+       "optiuni": [
+        "saturate",
+        "nesaturate",
+        "aromatice",
+        "ciclice, obligatoriu"
+       ],
+       "corect": 0,
+       "explicatie": "Au doar legături simple carbon-carbon."
+      }
+     ]
+    },
+    {
+     "id": "chi10-03",
+     "titlu": "Hidrocarburi aromatice",
+     "rezumat": "Benzenul, descoperit de Faraday și cu structura ciclică propusă de Kekulé, are șase atomi de carbon într-un ciclu plan, cu electroni delocalizați pe tot inelul. Această delocalizare, numită aromaticitate, îi dă o stabilitate neobișnuită: deși pare nesaturat, benzenul dă reacții de substituție, nu de adiție, tocmai ca să-și păstreze inelul aromatic. Derivații benzenului sunt de importanță industrială majoră: toluenul (solvent și materie primă pentru explozivi), fenolul (dezinfectant și materie primă pentru rășini), anilina (coloranți), stirenul (polistiren). Multe medicamente, coloranți și materiale plastice conțin inele aromatice. Benzenul este însă toxic și cancerigen, motiv pentru care folosirea lui ca solvent uzual a fost restrânsă drastic; hidrocarburile aromatice policiclice din fumul de țigară și din arderile incomplete sunt printre cei mai cunoscuți agenți cancerigeni.",
+     "ideiCheie": [
+      "Benzenul are un ciclu plan cu electroni delocalizați — aromaticitate.",
+      "Aromaticitatea explică stabilitatea și preferința pentru substituție.",
+      "Derivații benzenului stau la baza medicamentelor, coloranților și plasticelor.",
+      "Benzenul și aromaticele policiclice sunt toxice și cancerigene."
+     ],
+     "termeni": [
+      {
+       "t": "aromaticitate",
+       "d": "stabilitatea deosebită dată de delocalizarea electronilor într-un ciclu plan"
+      },
+      {
+       "t": "substituție",
+       "d": "reacția în care un atom sau o grupă este înlocuită cu alta"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cine a propus structura ciclică a benzenului?",
+       "v": "Kekulé."
+      },
+      {
+       "f": "De ce dă benzenul substituție și nu adiție?",
+       "v": "Pentru că adiția i-ar distruge inelul aromatic stabil."
+      },
+      {
+       "f": "Ce derivați importanți ai benzenului cunoști?",
+       "v": "Toluenul, fenolul, anilina, stirenul."
+      },
+      {
+       "f": "De ce este restrânsă folosirea benzenului ca solvent?",
+       "v": "Pentru că este toxic și cancerigen."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Aromaticitatea se datorează:",
+       "optiuni": [
+        "delocalizării electronilor pe inel",
+        "legăturilor triple",
+        "catenelor ramificate",
+        "legăturilor de hidrogen"
+       ],
+       "corect": 0,
+       "explicatie": "Ea explică stabilitatea benzenului."
+      },
+      {
+       "intrebare": "Benzenul dă cu precădere reacții de:",
+       "optiuni": [
+        "substituție",
+        "adiție",
+        "polimerizare",
+        "neutralizare"
+       ],
+       "corect": 0,
+       "explicatie": "Adiția i-ar distruge caracterul aromatic."
+      },
+      {
+       "intrebare": "Stirenul este materia primă pentru:",
+       "optiuni": [
+        "polistiren",
+        "polietilenă",
+        "cauciuc natural",
+        "nailon"
+       ],
+       "corect": 0,
+       "explicatie": "Este un derivat aromatic al etenei."
+      },
+      {
+       "intrebare": "Hidrocarburile aromatice policiclice din fum sunt:",
+       "optiuni": [
+        "cancerigene",
+        "inofensive",
+        "nutritive",
+        "volatile și inerte"
+       ],
+       "corect": 0,
+       "explicatie": "Apar la arderi incomplete."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chi10-c2",
+   "titlu": "Compuși cu grupe funcționale",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "chi10-04",
+     "titlu": "Alcooli și fenoli",
+     "rezumat": "Alcoolii conțin grupa hidroxil legată de un atom de carbon saturat. Metanolul este toxic — provoacă orbire și moarte —, etanolul se obține prin fermentația zaharurilor și este alcoolul din băuturi, glicerolul, cu trei grupe hidroxil, se folosește în cosmetică și farmacie. Grupa hidroxil permite legături de hidrogen, de aceea alcoolii au temperaturi de fierbere mult mai mari decât hidrocarburile cu masă asemănătoare și se dizolvă bine în apă. Etanolul este un deprimant al sistemului nervos central; ficatul îl metabolizează cu viteză aproape constantă, indiferent de cantitatea consumată, motiv pentru care nu există metode de „trezire rapidă”. Consumul cronic afectează ficatul, creierul, sistemul cardiovascular și crește riscul de cancer. Fenolii au grupa hidroxil legată direct de un inel aromatic, ceea ce le dă caracter slab acid; sunt dezinfectanți și materii prime industriale.",
+     "ideiCheie": [
+      "Alcoolii conțin grupa hidroxil legată de un carbon saturat.",
+      "Legăturile de hidrogen explică solubilitatea în apă și punctele de fierbere mari.",
+      "Metanolul e toxic; etanolul e un deprimant al sistemului nervos.",
+      "Fenolii au grupa hidroxil pe inel aromatic și caracter slab acid."
+     ],
+     "termeni": [
+      {
+       "t": "grupă funcțională",
+       "d": "atomul sau grupul de atomi care determină proprietățile chimice ale unei clase de compuși"
+      },
+      {
+       "t": "fermentație alcoolică",
+       "d": "transformarea zaharurilor în etanol și dioxid de carbon sub acțiunea drojdiilor"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce grupă funcțională au alcoolii?",
+       "v": "Grupa hidroxil."
+      },
+      {
+       "f": "De ce sunt alcoolii solubili în apă?",
+       "v": "Pentru că formează legături de hidrogen cu moleculele de apă."
+      },
+      {
+       "f": "Cum se obține etanolul?",
+       "v": "Prin fermentația alcoolică a zaharurilor, sub acțiunea drojdiilor."
+      },
+      {
+       "f": "De ce nu funcționează metodele de „trezire rapidă”?",
+       "v": "Pentru că ficatul metabolizează etanolul cu viteză aproape constantă."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Metanolul este:",
+       "optiuni": [
+        "toxic, provocând orbire și moarte",
+        "inofensiv în cantități mici",
+        "identic cu etanolul",
+        "un fenol"
+       ],
+       "corect": 0,
+       "explicatie": "Nu trebuie confundat cu etanolul."
+      },
+      {
+       "intrebare": "Alcoolii au temperaturi de fierbere mai mari decât hidrocarburile similare din cauza:",
+       "optiuni": [
+        "legăturilor de hidrogen",
+        "masei moleculare mai mari",
+        "caracterului aromatic",
+        "structurii ionice"
+       ],
+       "corect": 0,
+       "explicatie": "Grupa hidroxil le face posibile."
+      },
+      {
+       "intrebare": "Fenolii se deosebesc de alcooli prin:",
+       "optiuni": [
+        "grupa hidroxil legată direct de inelul aromatic",
+        "absența grupei hidroxil",
+        "prezența unei grupe carboxil",
+        "caracterul bazic"
+       ],
+       "corect": 0,
+       "explicatie": "De aici caracterul lor slab acid."
+      },
+      {
+       "intrebare": "Etanolul acționează asupra sistemului nervos ca:",
+       "optiuni": [
+        "deprimant",
+        "stimulent",
+        "analgezic",
+        "antibiotic"
+       ],
+       "corect": 0,
+       "explicatie": "Efectul aparent de stimulare vine din dezinhibiție."
+      }
+     ]
+    },
+    {
+     "id": "chi10-05",
+     "titlu": "Acizi carboxilici, esteri, grăsimi",
+     "rezumat": "Acizii carboxilici conțin grupa carboxil și au caracter acid slab. Acidul acetic dă gustul oțetului, acidul citric se găsește în citrice, acidul formic în veninul furnicilor și al urzicilor, acidul lactic apare în mușchi la efort și în produsele lactate fermentate. Esterificarea este reacția dintre un acid carboxilic și un alcool, cu formare de ester și apă; ea este reversibilă, iar reacția inversă se numește hidroliză. Esterii cu masă mică au mirosuri plăcute, de fructe și flori, fiind folosiți ca arome și în parfumerie. Grăsimile și uleiurile sunt esteri ai glicerolului cu acizi grași: cele saturate sunt solide, de origine animală, cele nesaturate sunt lichide, de origine vegetală. Hidroliza bazică a grăsimilor produce săpun — reacția de saponificare, cunoscută de milenii. Hidrogenarea uleiurilor vegetale produce margarina, dar poate genera grăsimi trans, asociate cu risc cardiovascular crescut.",
+     "ideiCheie": [
+      "Acizii carboxilici au grupa carboxil și caracter acid slab.",
+      "Esterificarea unește un acid cu un alcool; hidroliza face drumul invers.",
+      "Grăsimile sunt esteri ai glicerolului cu acizi grași.",
+      "Saponificarea, hidroliza bazică a grăsimilor, produce săpun."
+     ],
+     "termeni": [
+      {
+       "t": "esterificare",
+       "d": "reacția dintre un acid carboxilic și un alcool, cu formare de ester și apă"
+      },
+      {
+       "t": "saponificare",
+       "d": "hidroliza bazică a grăsimilor, cu formare de săpun și glicerol"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce acid dă gustul oțetului?",
+       "v": "Acidul acetic."
+      },
+      {
+       "f": "Ce se obține prin esterificare?",
+       "v": "Un ester și apă."
+      },
+      {
+       "f": "Din ce sunt formate grăsimile?",
+       "v": "Din glicerol esterificat cu acizi grași."
+      },
+      {
+       "f": "Ce este saponificarea?",
+       "v": "Hidroliza bazică a grăsimilor, care produce săpun."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Esterii cu masă mică au:",
+       "optiuni": [
+        "mirosuri plăcute, de fructe și flori",
+        "miros înțepător",
+        "caracter puternic acid",
+        "structură ionică"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea se folosesc ca arome."
+      },
+      {
+       "intrebare": "Grăsimile nesaturate sunt, de regulă:",
+       "optiuni": [
+        "lichide și de origine vegetală",
+        "solide și de origine animală",
+        "gazoase",
+        "insolubile în orice solvent"
+       ],
+       "corect": 0,
+       "explicatie": "Legăturile duble împiedică împachetarea strânsă."
+      },
+      {
+       "intrebare": "Acidul lactic apare:",
+       "optiuni": [
+        "în mușchi la efort și în lactatele fermentate",
+        "în citrice",
+        "în veninul furnicilor",
+        "în oțet"
+       ],
+       "corect": 0,
+       "explicatie": "Acidul citric e cel din citrice."
+      },
+      {
+       "intrebare": "Grăsimile trans sunt asociate cu:",
+       "optiuni": [
+        "risc cardiovascular crescut",
+        "scăderea colesterolului",
+        "îmbunătățirea digestiei",
+        "creșterea imunității"
+       ],
+       "corect": 0,
+       "explicatie": "Apar la hidrogenarea parțială a uleiurilor."
+      }
+     ]
+    },
+    {
+     "id": "chi10-06",
+     "titlu": "Amine, aminoacizi, proteine",
+     "rezumat": "Aminele conțin azot și derivă formal de la amoniac prin înlocuirea hidrogenilor cu radicali organici; au caracter slab bazic. Aminoacizii au atât grupa amino, cât și grupa carboxil, ceea ce le dă caracter amfoter — se comportă și ca acizi, și ca baze. Din cei aproximativ douăzeci de aminoacizi proteinogeni, o parte sunt esențiali: organismul nu îi poate sintetiza și trebuie luați din alimentație. Proteinele sunt polimeri de aminoacizi legați prin legături peptidice. Structura lor are patru niveluri: primară (ordinea aminoacizilor), secundară (elice și foi pliate, stabilizate prin legături de hidrogen), terțiară (forma tridimensională) și cuaternară (asocierea mai multor lanțuri). Funcția depinde strict de formă, de aceea denaturarea prin căldură, acizi sau agitare distruge activitatea biologică — albușul care se albește la fierbere este proteină denaturată. Proteinele sunt enzime, hormoni, anticorpi, transportori și material de structură.",
+     "ideiCheie": [
+      "Aminoacizii sunt amfoteri: au și grupă amino, și grupă carboxil.",
+      "Aminoacizii esențiali trebuie luați din alimentație.",
+      "Proteinele sunt polimeri legați prin legături peptidice.",
+      "Denaturarea distruge forma și, odată cu ea, funcția proteinei."
+     ],
+     "termeni": [
+      {
+       "t": "legătură peptidică",
+       "d": "legătura dintre grupa carboxil a unui aminoacid și grupa amino a următorului"
+      },
+      {
+       "t": "denaturare",
+       "d": "pierderea structurii spațiale a unei proteine, cu pierderea funcției biologice"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "De ce sunt aminoacizii amfoteri?",
+       "v": "Pentru că au atât grupă acidă, cât și grupă bazică."
+      },
+      {
+       "f": "Ce sunt aminoacizii esențiali?",
+       "v": "Cei pe care organismul nu îi poate sintetiza și trebuie luați din hrană."
+      },
+      {
+       "f": "Ce leagă aminoacizii într-o proteină?",
+       "v": "Legăturile peptidice."
+      },
+      {
+       "f": "Ce se întâmplă la denaturarea unei proteine?",
+       "v": "Își pierde forma spațială și, odată cu ea, funcția biologică."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Albușul care se albește la fierbere ilustrează:",
+       "optiuni": [
+        "denaturarea proteinelor",
+        "polimerizarea",
+        "saponificarea",
+        "esterificarea"
+       ],
+       "corect": 0,
+       "explicatie": "Structura spațială se distruge ireversibil."
+      },
+      {
+       "intrebare": "Structura primară a unei proteine este:",
+       "optiuni": [
+        "ordinea aminoacizilor din lanț",
+        "forma tridimensională",
+        "asocierea mai multor lanțuri",
+        "elicea alfa"
+       ],
+       "corect": 0,
+       "explicatie": "Ea determină toate celelalte niveluri."
+      },
+      {
+       "intrebare": "Aminele au caracter:",
+       "optiuni": [
+        "slab bazic",
+        "puternic acid",
+        "neutru",
+        "amfoter"
+       ],
+       "corect": 0,
+       "explicatie": "Derivă formal de la amoniac."
+      },
+      {
+       "intrebare": "Funcția unei proteine depinde de:",
+       "optiuni": [
+        "forma ei tridimensională",
+        "masa moleculară",
+        "culoare",
+        "solubilitatea în alcool"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea denaturarea o anulează."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chi10-c3",
+   "titlu": "Substanțe naturale și aplicații",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "chi10-07",
+     "titlu": "Zaharuri",
+     "rezumat": "Zaharurile sunt compuși cu grupe hidroxil și o grupă carbonil. Monozaharidele — glucoza, fructoza, galactoza — nu se pot hidroliza mai departe; glucoza este combustibilul principal al celulelor și singurul acceptat direct de creier în condiții obișnuite. Dizaharidele se obțin prin unirea a două monozaharide: zaharoza (zahărul de masă) din glucoză și fructoză, lactoza din lapte, maltoza din amidon. Polizaharidele sunt polimeri: amidonul este forma de depozitare a energiei la plante, glicogenul la animale, iar celuloza este material de structură în pereții celulari vegetali. Deși toate trei sunt formate din glucoză, diferența de legături le schimbă complet rolul: omul digeră amidonul, dar nu și celuloza, care trece prin tub ca fibră alimentară, importantă pentru tranzit. Indicele glicemic măsoară cât de repede crește glicemia după consumul unui aliment, informație esențială în diabet.",
+     "ideiCheie": [
+      "Monozaharidele nu se pot hidroliza; glucoza e combustibilul principal al celulelor.",
+      "Zaharoza, lactoza și maltoza sunt dizaharide.",
+      "Amidonul, glicogenul și celuloza sunt polimeri ai glucozei cu roluri diferite.",
+      "Omul nu digeră celuloza; ea funcționează ca fibră alimentară."
+     ],
+     "termeni": [
+      {
+       "t": "monozaharidă",
+       "d": "zahar simplu care nu poate fi hidrolizat în unități mai mici"
+      },
+      {
+       "t": "indice glicemic",
+       "d": "măsura vitezei cu care un aliment crește glicemia"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care este combustibilul principal al celulelor?",
+       "v": "Glucoza."
+      },
+      {
+       "f": "Din ce este formată zaharoza?",
+       "v": "Din glucoză și fructoză."
+      },
+      {
+       "f": "De ce nu digerăm celuloza?",
+       "v": "Pentru că nu avem enzimele care să rupă tipul de legătură dintre unitățile ei de glucoză."
+      },
+      {
+       "f": "Ce arată indicele glicemic?",
+       "v": "Cât de repede crește glicemia după consumul unui aliment."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Forma de depozitare a energiei la animale este:",
+       "optiuni": [
+        "glicogenul",
+        "amidonul",
+        "celuloza",
+        "lactoza"
+       ],
+       "corect": 0,
+       "explicatie": "Amidonul îndeplinește acest rol la plante."
+      },
+      {
+       "intrebare": "Celuloza are rol:",
+       "optiuni": [
+        "de structură în pereții celulari vegetali",
+        "de rezervă energetică la animale",
+        "de transportor de oxigen",
+        "de catalizator"
+       ],
+       "corect": 0,
+       "explicatie": "La om funcționează ca fibră alimentară."
+      },
+      {
+       "intrebare": "Lactoza se găsește în:",
+       "optiuni": [
+        "lapte",
+        "fructe",
+        "cereale",
+        "miere"
+       ],
+       "corect": 0,
+       "explicatie": "Este o dizaharidă."
+      },
+      {
+       "intrebare": "Monozaharidele:",
+       "optiuni": [
+        "nu pot fi hidrolizate mai departe",
+        "se descompun în alte zaharuri",
+        "sunt polimeri",
+        "sunt insolubile în apă"
+       ],
+       "corect": 0,
+       "explicatie": "Glucoza și fructoza sunt exemple."
+      }
+     ]
+    },
+    {
+     "id": "chi10-08",
+     "titlu": "Polimeri și materiale",
+     "rezumat": "Polimerii sunt macromolecule formate prin unirea repetată a unor unități mici, monomerii. Polimerii naturali — celuloza, amidonul, proteinele, cauciucul natural, ADN-ul — există de când există viața. Polimerii sintetici au apărut în secolul XX și au schimbat civilizația: polietilena, polipropilena, policlorura de vinil, polistirenul, nailonul, poliesterul, teflonul. Proprietățile lor — ușurință, rezistență, izolare, prelucrabilitate — le fac de neînlocuit în ambalaje, construcții, medicină, textile și electronică. Prețul este durabilitatea în mediu: aceleași legături care le dau rezistență fac degradarea foarte lentă, iar deșeurile se fragmentează în microplastice care ajung în lanțul trofic. Soluțiile combină reducerea consumului, reutilizarea, reciclarea, polimerii biodegradabili și proiectarea produselor pentru dezasamblare. Codurile de reciclare de pe ambalaje indică tipul de polimer și îndrumă sortarea corectă.",
+     "ideiCheie": [
+      "Polimerii se formează prin unirea repetată a monomerilor.",
+      "Polimeri naturali: celuloza, amidonul, proteinele, cauciucul, ADN-ul.",
+      "Rezistența chimică a plasticelor le face greu degradabile în mediu.",
+      "Soluțiile: reducere, reutilizare, reciclare, polimeri biodegradabili."
+     ],
+     "termeni": [
+      {
+       "t": "monomer",
+       "d": "molecula mică din care, prin repetare, se construiește un polimer"
+      },
+      {
+       "t": "microplastic",
+       "d": "fragment de plastic sub cinci milimetri, rezultat din degradarea deșeurilor"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este un monomer?",
+       "v": "Molecula mică din care, prin repetare, se formează polimerul."
+      },
+      {
+       "f": "Dă trei exemple de polimeri naturali.",
+       "v": "Celuloza, proteinele, ADN-ul."
+      },
+      {
+       "f": "De ce se degradează greu plasticele în mediu?",
+       "v": "Pentru că legăturile care le dau rezistență sunt greu de rupt de organismele descompunătoare."
+      },
+      {
+       "f": "Ce indică codurile de reciclare de pe ambalaje?",
+       "v": "Tipul de polimer, pentru sortarea corectă."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Microplasticele sunt:",
+       "optiuni": [
+        "fragmente de plastic sub cinci milimetri",
+        "aditivi alimentari",
+        "polimeri biodegradabili",
+        "monomeri naturali"
+       ],
+       "corect": 0,
+       "explicatie": "Ajung în apă și în lanțul trofic."
+      },
+      {
+       "intrebare": "ADN-ul este:",
+       "optiuni": [
+        "un polimer natural",
+        "un polimer sintetic",
+        "un monomer",
+        "o proteină"
+       ],
+       "corect": 0,
+       "explicatie": "Unitățile lui repetate sunt nucleotidele."
+      },
+      {
+       "intrebare": "Teflonul, nailonul și polistirenul sunt:",
+       "optiuni": [
+        "polimeri sintetici",
+        "polimeri naturali",
+        "monomeri",
+        "amestecuri de hidrocarburi"
+       ],
+       "corect": 0,
+       "explicatie": "Au apărut în secolul XX."
+      },
+      {
+       "intrebare": "Cea mai eficientă soluție la problema deșeurilor plastice începe cu:",
+       "optiuni": [
+        "reducerea consumului",
+        "incinerarea",
+        "depozitarea",
+        "exportul"
+       ],
+       "corect": 0,
+       "explicatie": "Urmează reutilizarea și reciclarea."
+      }
+     ]
+    },
+    {
+     "id": "chi10-09",
+     "titlu": "Chimia în viața cotidiană",
+     "rezumat": "Chimia explică ce se întâmplă în bucătărie, în baie și în trusa de medicamente. Reacția Maillard, dintre zaharuri și proteine la temperaturi mari, dă crusta rumenă și aroma pâinii, a cărnii prăjite și a cafelei prăjite. Drojdia produce dioxid de carbon, care crește aluatul; bicarbonatul face același lucru mai repede, prin reacție cu un acid. Conservarea folosește sarea, zahărul, aciditatea, frigul sau lipsa aerului pentru a opri dezvoltarea microorganismelor. Detergenții au molecule cu un capăt polar și unul nepolar, care înconjoară murdăria grasă și o dispersează în apă. Cosmeticele combină emulgatori, conservanți și agenți activi. Medicamentele au substanță activă și excipienți; doza face diferența dintre remediu și otravă, iar interacțiunile dintre medicamente pot fi periculoase. Etichetele produselor și fișele de securitate conțin informații care merită citite: pictogramele de pericol, frazele de risc și instrucțiunile de prim ajutor.",
+     "ideiCheie": [
+      "Reacția Maillard dă aroma și culoarea alimentelor rumenite.",
+      "Conservarea oprește dezvoltarea microorganismelor prin sare, zahăr, aciditate, frig sau vid.",
+      "Detergenții acționează prin molecule cu capăt polar și capăt nepolar.",
+      "Doza face diferența dintre medicament și otravă."
+     ],
+     "termeni": [
+      {
+       "t": "reacție Maillard",
+       "d": "reacția dintre zaharuri și proteine la temperaturi mari, care dă aroma și culoarea alimentelor rumenite"
+      },
+      {
+       "t": "excipient",
+       "d": "substanța inactivă care însoțește substanța activă într-un medicament"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce dă crusta rumenă a pâinii?",
+       "v": "Reacția Maillard, dintre zaharuri și proteine."
+      },
+      {
+       "f": "Cum acționează detergenții?",
+       "v": "Prin molecule cu un capăt polar și unul nepolar, care dispersează grăsimea în apă."
+      },
+      {
+       "f": "De ce conservă sarea alimentele?",
+       "v": "Pentru că extrage apa și împiedică dezvoltarea microorganismelor."
+      },
+      {
+       "f": "Ce sunt excipienții?",
+       "v": "Substanțele inactive care însoțesc substanța activă dintr-un medicament."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Bicarbonatul face aluatul să crească prin:",
+       "optiuni": [
+        "degajare de dioxid de carbon în reacție cu un acid",
+        "fermentație alcoolică",
+        "evaporarea apei",
+        "reacție Maillard"
+       ],
+       "corect": 0,
+       "explicatie": "Drojdia produce același gaz, dar biologic."
+      },
+      {
+       "intrebare": "Reacția Maillard are loc:",
+       "optiuni": [
+        "la temperaturi mari, între zaharuri și proteine",
+        "la temperaturi scăzute",
+        "doar în prezența drojdiei",
+        "doar în mediu bazic"
+       ],
+       "corect": 0,
+       "explicatie": "Dă aroma cărnii prăjite și a cafelei."
+      },
+      {
+       "intrebare": "În privința medicamentelor, principiul de bază este că:",
+       "optiuni": [
+        "doza face diferența dintre remediu și otravă",
+        "substanțele naturale sunt mereu sigure",
+        "excipienții sunt cei activi",
+        "interacțiunile sunt neimportante"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea prospectul trebuie citit."
+      },
+      {
+       "intrebare": "Pictogramele de pe etichetele produselor chimice indică:",
+       "optiuni": [
+        "tipul de pericol",
+        "prețul produsului",
+        "termenul de valabilitate",
+        "producătorul"
+       ],
+       "corect": 0,
+       "explicatie": "Însoțesc frazele de risc și de prim ajutor."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "teze": [
+  {
+   "semestru": 1,
+   "test": [
+    {
+     "intrebare": "Carbonul are:",
+     "optiuni": [
+      "patru electroni de valență",
+      "doi electroni de valență",
+      "șase electroni de valență",
+      "un electron de valență"
+     ],
+     "corect": 0,
+     "explicatie": "De aici capacitatea de a forma catene."
+    },
+    {
+     "intrebare": "Izomerii au:",
+     "optiuni": [
+      "aceeași formulă moleculară și structuri diferite",
+      "aceeași structură și formule diferite",
+      "același număr de protoni",
+      "mase moleculare diferite"
+     ],
+     "corect": 0,
+     "explicatie": "Proprietățile lor pot fi foarte diferite."
+    },
+    {
+     "intrebare": "Alcanii dau reacții de:",
+     "optiuni": [
+      "ardere și substituție",
+      "adiție",
+      "polimerizare",
+      "neutralizare"
+     ],
+     "corect": 0,
+     "explicatie": "Sunt hidrocarburi saturate."
+    },
+    {
+     "intrebare": "Etena este materia primă pentru:",
+     "optiuni": [
+      "polietilenă",
+      "polistiren",
+      "nailon",
+      "teflon"
+     ],
+     "corect": 0,
+     "explicatie": "Se obține prin polimerizare."
+    },
+    {
+     "intrebare": "Benzenul preferă reacțiile de:",
+     "optiuni": [
+      "substituție",
+      "adiție",
+      "polimerizare",
+      "hidroliză"
+     ],
+     "corect": 0,
+     "explicatie": "Ca să-și păstreze inelul aromatic."
+    },
+    {
+     "intrebare": "Grupa funcțională a alcoolilor este:",
+     "optiuni": [
+      "hidroxil",
+      "carboxil",
+      "amino",
+      "carbonil"
+     ],
+     "corect": 0,
+     "explicatie": "La fenoli, ea e legată de inel aromatic."
+    },
+    {
+     "intrebare": "Etanolul se obține prin:",
+     "optiuni": [
+      "fermentația zaharurilor",
+      "distilarea petrolului",
+      "hidrogenarea etenei exclusiv",
+      "saponificare"
+     ],
+     "corect": 0,
+     "explicatie": "Drojdiile produc etanol și dioxid de carbon."
+    },
+    {
+     "intrebare": "Esterificarea are loc între:",
+     "optiuni": [
+      "un acid carboxilic și un alcool",
+      "doi alcooli",
+      "un acid și o bază",
+      "doi acizi"
+     ],
+     "corect": 0,
+     "explicatie": "Rezultă un ester și apă."
+    },
+    {
+     "intrebare": "Saponificarea produce:",
+     "optiuni": [
+      "săpun și glicerol",
+      "ester și apă",
+      "alcool și acid",
+      "sare și dioxid de carbon"
+     ],
+     "corect": 0,
+     "explicatie": "Este hidroliza bazică a grăsimilor."
+    }
+   ]
+  },
+  {
+   "semestru": 2,
+   "test": [
+    {
+     "intrebare": "Aminoacizii sunt amfoteri pentru că au:",
+     "optiuni": [
+      "și grupă amino, și grupă carboxil",
+      "doar grupă amino",
+      "doar grupă carboxil",
+      "două grupe hidroxil"
+     ],
+     "corect": 0,
+     "explicatie": "Se comportă și ca acizi, și ca baze."
+    },
+    {
+     "intrebare": "Legătura dintre doi aminoacizi se numește:",
+     "optiuni": [
+      "peptidică",
+      "ionică",
+      "de hidrogen",
+      "glicozidică"
+     ],
+     "corect": 0,
+     "explicatie": "Proteinele sunt polimeri de aminoacizi."
+    },
+    {
+     "intrebare": "Denaturarea unei proteine înseamnă:",
+     "optiuni": [
+      "pierderea structurii spațiale și a funcției",
+      "ruperea legăturilor peptidice",
+      "transformarea în aminoacizi",
+      "polimerizarea ei"
+     ],
+     "corect": 0,
+     "explicatie": "Albușul fiert e exemplul clasic."
+    },
+    {
+     "intrebare": "Glucoza este:",
+     "optiuni": [
+      "o monozaharidă",
+      "o dizaharidă",
+      "o polizaharidă",
+      "un aminoacid"
+     ],
+     "corect": 0,
+     "explicatie": "Este combustibilul principal al celulelor."
+    },
+    {
+     "intrebare": "Amidonul și celuloza sunt ambele formate din glucoză, dar diferă prin:",
+     "optiuni": [
+      "tipul legăturilor dintre unități",
+      "numărul de atomi de carbon din glucoză",
+      "prezența azotului",
+      "solubilitatea în alcool"
+     ],
+     "corect": 0,
+     "explicatie": "De aceea una se digeră, cealaltă nu."
+    },
+    {
+     "intrebare": "Un polimer se formează din:",
+     "optiuni": [
+      "monomeri, prin repetare",
+      "izomeri",
+      "izotopi",
+      "ioni"
+     ],
+     "corect": 0,
+     "explicatie": "Polietilena vine din etenă."
+    },
+    {
+     "intrebare": "Microplasticele ajung problematice pentru că:",
+     "optiuni": [
+      "intră în lanțul trofic",
+      "se descompun prea repede",
+      "sunt solubile în apă",
+      "ard complet"
+     ],
+     "corect": 0,
+     "explicatie": "Provin din fragmentarea deșeurilor."
+    },
+    {
+     "intrebare": "Reacția Maillard este responsabilă de:",
+     "optiuni": [
+      "aroma și culoarea alimentelor rumenite",
+      "creșterea aluatului",
+      "conservarea alimentelor",
+      "emulsionarea grăsimilor"
+     ],
+     "corect": 0,
+     "explicatie": "Are loc între zaharuri și proteine, la căldură."
+    },
+    {
+     "intrebare": "Detergenții acționează pentru că moleculele lor au:",
+     "optiuni": [
+      "un capăt polar și unul nepolar",
+      "doar capete polare",
+      "doar capete nepolare",
+      "structură ionică rigidă"
+     ],
+     "corect": 0,
+     "explicatie": "Astfel leagă grăsimea de apă."
+    }
+   ]
+  }
+ ]
+}
