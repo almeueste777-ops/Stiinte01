@@ -968,3 +968,131 @@ Un defect prins la reverificare, instructiv fiindcă e o repetare: „Înapoi" d
 câteva ore înainte la ecranul Setări. Prima corecție tratase suprapunerile ca
 mereu-intrare; a doua verifică întâi dacă ecranul e deja în stivă. Morala:
 **când corectezi un caz special, întreabă-te dacă e singurul din clasa lui.**
+
+---
+
+## 2026-08-22, mai târziu — Versiunea 04, „Antrenament și simulare de notă"
+
+Cerința: *un sistem de învățare nou, care să implice elemente din mai multe
+sisteme, cele mai bune* — plus *teste grilă cu punctul 1, 2, 3, 4, 5, câte două
+puncte de fiecare, care să calculeze dacă sunt elev de nota 9 sau mai puțin, la
+fiecare materie.*
+
+### 44 · Șapte mecanisme, nu șapte trucuri
+
+Aplicația avea două unelte separate: carduri și test grilă. Amândouă bune,
+amândouă incomplete — cardurile nu știau ce ai uitat, testul nu te învăța nimic,
+iar între ele nu exista nicio legătură.
+
+Antrenamentul le adună într-un sistem construit din șapte mecanisme, fiecare
+alese pentru un **mod concret în care învățatul obișnuit eșuează**, nu fiindcă
+sună bine:
+
+| Mecanism | Ce eșec repară |
+|---|---|
+| repetiție eșalonată | uiți exact ce n-ai mai atins |
+| recuperare activă | recitirea dă iluzia că știi |
+| intercalare | blocul „o lecție pe rând" se uită repede |
+| efect de generare | recunoști, dar nu poți produce |
+| calibrare | „credeam că știu" |
+| practică deliberată | repeți ce știi deja |
+| stăpânire cu prag | „am citit-o" ≠ „o știu" |
+
+Detaliile fiecăruia, cu matematica programării: [[Sistemul de învățare]] din vault.
+
+**Calibrarea e piesa care lipsește din aproape toate aplicațiile de învățare** și
+cea care schimbă cel mai mult rezultatul la teză. Elevul nu pică fiindcă nu știe
+nimic; pică fiindcă nu știe *ce* nu știe. „Îmi sună cunoscut" e produs de
+recunoaștere, nu de stăpânire, iar recitirea îl întărește fără să adauge nimic.
+Singurul mod de a sparge iluzia e s-o măsori: aplicația întreabă cât ești de
+sigur **înainte** de răspuns și îți spune la final de câte ori ai zis „sigur" și
+ai greșit.
+
+### 45 · Cinci tipuri de exercițiu, zero conținut nou
+
+Grilă, card, termen, completare, explicație — toate **derivate din conținutul
+existent**. `l.termeni` dă și „Termen → definiție" (recunoaștere), și
+„Completează" (producere, cu răspuns scris); `l.ideiCheie` dă „Explică".
+
+Deosebirea dintre grilă și completare e cea mai utilă informație din raport:
+grila se nimerește, completarea nu. 90% la grilă și 40% la completare înseamnă că
+elevul **recunoaște** materia fără s-o poată **produce** — exact diferența care
+se vede la un subiect cu răspuns scris.
+
+Completarea acceptă răspunsuri fără diacritice, fără majuscule și cu o literă
+greșită (Levenshtein 1 la cuvinte de peste 5 litere). Elevul nu e la un concurs
+de ortografie; dacă „constituţie" ar fi respins, mecanismul ar antrena frustrarea,
+nu materia.
+
+### 46 · Simularea de notă, exact pe structura cerută
+
+Cinci puncte, fiecare de 2 puncte, total 10. Fiecare punct are **4 întrebări a
+câte 0,5p** — și asta nu e o alegere estetică: cu un singur item de 2p pe punct,
+notele ar sări din 2 în 2 și **nota 9 n-ar fi accesibilă**, adică fix cifra pe
+care a cerut-o utilizatorul.
+
+Punctele trag din capitole diferite, prin cozi rotite pe capitol: proba acoperă
+materia, nu o lecție. Fără feedback până la final, ca la o teză adevărată.
+Punctajul obținut **este** nota. Grilele din simulare hrănesc și programarea
+eșalonată — o teză dată degeaba ar fi o ocazie ratată de învățare.
+
+Verificat cu cheia de răspuns citită din datele modulului: **20/20 → 10,00**,
+**18/20 → 9,00 „Ești elev de nota 9"**, **14/20 → 7,00**.
+
+### 47 · O regresie prinsă de măsurătoare, nu de privit
+
+`.grid2` era `1fr 1fr`. `1fr` înseamnă `minmax(auto, 1fr)`, iar `auto` nu coboară
+sub lățimea min-content. Cu etichetele noi, mai lungi, la 150% mărime text grila
+cerea **364px într-un ecran de 320**. Trecut pe
+`repeat(auto-fit, minmax(min(100%, 9rem), 1fr))`: la text mare trece singură pe o
+coloană.
+
+Instructiv e cum era să-mi scape: am măsurat întâi la mărimea implicită, am văzut
+zero depășiri și eram gata să pun rezultatul pe seama animației de intrare.
+Defectul apărea **doar** la 140–150%. **Când o măsurătoare contrazice un raport,
+verifici în condițiile raportului, nu în ale tale.**
+
+### 48 · Echipa de verificare: 25 de defecte, două lecții care se repetă
+
+Cei doi agenți au adus **25 de defecte reale** — 15 pe cod, 10 pe interfață.
+Toate corectate și reverificate în condițiile în care au fost raportate.
+Raportul complet, cu măsurătorile de dinainte și de după:
+[[Raport verificare v04]] din vault. Două merită repetate aici, fiindcă sunt
+clase de greșeală, nu accidente.
+
+**Refactorizarea „fără schimbări de comportament" avea una.** Extragerea lui
+`parcurge()` din `domeniu()` a transformat, la ramura tezei, o **adăugare** într-o
+**atribuire**: bazinul a scăzut de la 40 de întrebări la 12. Cu 12 în bazin și un
+test de 12, fiecare teză ar fi ieșit identică. Nu se vedea în cod — o linie
+aproape la fel — și nu se vedea în interfață, fiindcă numărul afișat e plafonat
+de setări. Agentul a prins-o pornind **două servere în paralel**, pe v03 și pe
+v04, și comparând aceeași rută. Morala: o refactorizare fără schimbări de
+comportament se **măsoară**, nu se declară.
+
+**Protecția scrisă la v03 nu funcționa.** Importul avea un `try/catch` care
+trebuia să readucă starea precedentă dacă randarea cădea. Dar `render()` e
+`async`: excepția devine promisiune respinsă, iar `catch`-ul sincron n-o prinde
+niciodată. Un fișier de import cu `"n": "9,50"` — șir în loc de număr — se
+salva, iar de la următoarea pornire ecranul Acasă rămânea gol la nesfârșit, cu
+`n.toFixed is not a function`. Recuperare doar prin golirea manuală a
+`localStorage`. Ironia: comentariul de deasupra declara clasa asta de bug
+reparată. Era, pe câmpurile vechi.
+
+Reparat pe două straturi, fiindcă unul singur nu ajunge: **sanitizare în
+adâncime** (fiecare câmp din `antren` și `note` clamp-uit la un interval valid,
+la fiecare citire) și rollback mutat pe lanțul de promisiuni. Prima e cea care
+contează — a doua e plasă.
+
+**Restul, pe scurt:** butoane de răspuns randate active dar inerte până
+răspundeai la calibrare; o cifră afișată („1744 de repetat") pe care sesiunea
+n-o folosea; trei componente noi cu contrast de 2,78:1, sub prag, pe care nici
+modul „contrast ridicat" nu le repara; câmpuri de scris la 15px, adică exact sub
+pragul de la care Safari pe iOS mărește singur pagina; `save()` care înghițea
+tăcut depășirea de cotă, deci un elev putea antrena o oră fără să se salveze
+nimic.
+
+**Reverificare finală:** 896 de combinații (7 viewporturi × 2 teme × 16 rute × 4
+seturi de preferințe) — zero derulare orizontală, zero ecrane goale, zero
+suprapuneri, zero ținte sub 44px, zero erori de consolă. Simularea de notă,
+verificată cu cheia de răspuns citită din date: 20/20 → 10,00, **18/20 → 9,00**,
+14/20 → 7,00. Testul de service worker cu SW activ: trecut.

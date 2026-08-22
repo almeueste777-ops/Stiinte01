@@ -1,14 +1,14 @@
 /* Service worker: precache + strategii de cache.
    IMPORTANT: crește CACHE la fiecare modificare a fișierelor, ca utilizatorii să primească versiunea nouă. */
-const CACHE = 'stiinte01-v7';   // v03 — temă comutabilă, setări, conținut pe module
+const CACHE = 'stiinte01-v8';   // v04 — sistemul de antrenament + simularea de notă
 /* Scheletul aplicației: FĂRĂ el aplicația nu pornește, deci se cere atomic. */
 const SHELL = [
   './',
   './index.html',
   /* ?v= trebuie să fie IDENTIC cu cel din index.html (cache-ul SW potrivește
      URL-ul exact, cu tot cu query) — CI-ul verifică sincronizarea. */
-  './assets/app.css?v=7',
-  './assets/app.js?v=7',
+  './assets/app.css?v=8',
+  './assets/app.js?v=8',
   './manifest.webmanifest',
   './data/curriculum.json',
   './data/continut.json',

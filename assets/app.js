@@ -35,7 +35,7 @@
      pe care îl folosește și CSS-ul. Așa nu pot ajunge niciodată în dezacord. */
   const reduced = () => doc.getAttribute('data-miscare') === 'redusa';
 
-  const ROOT_ROUTES = ['acasa', 'materii', 'carduri', 'test', 'plan'];
+  const ROOT_ROUTES = ['acasa', 'materii', 'antrenament', 'test', 'plan'];
 
   /* Stiva de navigație = semantica lui UINavigationController.
      Goală la start: prima randare iese mereu ca „fade” + cascadă. */
@@ -154,6 +154,8 @@
                       ':scope > #opt > .opt, :scope > #card-actions, ' +
                       ':scope > .grid-cards > *, :scope > .two-col > *, ' +
                       ':scope > #clasa-panou > *, ' +
+                      ':scope > .antren-bara, :scope > .antren-cap, ' +
+                      ':scope > .puncte-sir, :scope > #antren-actiuni, ' +
                       ':scope > #lista-materii > h2, ' +
                       ':scope > #lista-materii > .card, ' +
                       ':scope > #lista-materii > .grid-cards > *';
@@ -191,6 +193,9 @@
     amestecaOptiuni: true,
     feedbackImediat: true,
     cronometru: 0,                // minute; 0 = fără
+    /* antrenament */
+    nrAntrenament: 20,            // elemente într-o sesiune
+    calibrare: true,              // întreabă cât de sigur ești, înainte de răspuns
     /* carduri */
     nrCarduri: 20,                // 0 = toate
     ordineCarduri: 'aleatorie',   // aleatorie | ordine | grele
@@ -199,6 +204,9 @@
 
   const STARE_GOALA = () => ({
     lectiiCitite: {}, carduri: {}, teste: {}, notite: {},
+    /* `antren` = programarea eșalonată, un rând per element antrenabil.
+       `note`   = istoricul simulărilor de notă, per materie. */
+    antren: {}, note: {},
     clasa: 'a XII-a', zile: {}, ultima: '', setari: Object.assign({}, SETARI)
   });
 
@@ -218,7 +226,7 @@
   };
   const LIMITE = {                       // [min, max] pentru setările numerice
     marimeText: [80, 150], obiectivZilnic: [1, 20], nrIntrebari: [0, 40],
-    cronometru: [0, 60], nrCarduri: [0, 100]
+    cronometru: [0, 60], nrCarduri: [0, 100], nrAntrenament: [5, 60]
   };
 
   /* Curăță o stare venită din afară (localStorage sau fișier de import).
@@ -234,6 +242,39 @@
     s.teste = obiect(brut.teste);
     s.notite = obiect(brut.notite);
     s.zile = obiect(brut.zile);
+    /* `antren` și `note` NU se copiază pe încredere: un singur `n` nenumeric
+       dintr-un fișier de import spărgea permanent ecranul Acasă
+       (`n.toFixed is not a function`), iar un `d` de tip șir făcea elementul
+       să nu mai fie scadent niciodată. Ambele se filtrează element cu element,
+       nu doar la nivelul obiectului. */
+    const nr = (v, implicit, min, max) => {
+      const x = Number(v);
+      if (!isFinite(x)) return implicit;
+      return Math.min(max, Math.max(min, x));
+    };
+    const antren = obiect(brut.antren);
+    for (const k of Object.keys(antren)) {
+      const v = antren[k];
+      if (!v || typeof v !== 'object') continue;
+      s.antren[k] = {
+        i: nr(v.i, 0, 0, 365),
+        e: nr(v.e, 250, 130, 280),
+        d: nr(v.d, 0, 0, Number.MAX_SAFE_INTEGER),
+        r: nr(v.r, 0, 0, 9999),
+        g: nr(v.g, 0, 0, 9999)
+      };
+    }
+    const note = obiect(brut.note);
+    for (const k of Object.keys(note)) {
+      if (!Array.isArray(note[k])) continue;
+      const sir = note[k]
+        /* `typeof === 'number'`, nu `Number(x.n)`: `Number(null)` e 0, deci o
+           notă lipsă ar fi devenit „nota 0” în istoric și în medie. */
+        .filter(x => x && typeof x === 'object' && typeof x.n === 'number' && isFinite(x.n))
+        .map(x => ({ n: nr(x.n, 0, 0, 10), cand: nr(x.cand, 0, 0, Number.MAX_SAFE_INTEGER) }))
+        .slice(-20);
+      if (sir.length) s.note[k] = sir;
+    }
     if (typeof brut.clasa === 'string' && brut.clasa) s.clasa = brut.clasa;
     if (typeof brut.ultima === 'string') s.ultima = brut.ultima;
 
@@ -258,8 +299,22 @@
     try { return sanitizeaza(JSON.parse(localStorage.getItem(KEY) || '{}')); }
     catch { return STARE_GOALA(); }
   }
+  let avertizatCota = false;
   function save() {
-    try { localStorage.setItem(KEY, JSON.stringify(state)); } catch { /* quota/private mode */ }
+    try { localStorage.setItem(KEY, JSON.stringify(state)); avertizatCota = false; }
+    catch {
+      /* Mod privat sau cotă depășită. Tăcerea de dinainte era comodă, dar
+         însemna că un elev putea antrena o oră fără ca nimic să se salveze.
+         Anunțăm o singură dată, ca să nu devină o alarmă la fiecare răspuns. */
+      if (!avertizatCota) {
+        avertizatCota = true;
+        try {
+          alert('Nu am putut salva progresul pe acest dispozitiv — memoria browserului e plină ' +
+                'sau ești în navigare privată. Poți continua, dar sesiunea nu se va păstra. ' +
+                'În Setări → Datele mele poți șterge ce nu-ți mai trebuie.');
+        } catch {}
+      }
+    }
   }
 
   let state = load();
@@ -374,6 +429,11 @@
       if (p[0] === 'capitol' || p[0] === 'materie' || p[0] === 'teza') return module_.has(p[1]);
       return true;
     });
+    /* Cheile de antrenament sunt `<tip>:<idLecție>:<index>`; notele sunt pe
+       module. Ambele trebuie curățate din același motiv ca restul: altfel
+       „stăpânit 40%” s-ar calcula peste elemente care nu mai există. */
+    taie(state.antren, k => { const p = String(k).split(':'); return p.length === 3 && lectii.has(p[1]); });
+    taie(state.note, k => module_.has(k));
     if (sters) save();
   }
   const cititeDin = m => toateLectiile(m).filter(l => state.lectiiCitite[l.id]).length;
@@ -424,6 +484,9 @@
     capitol: viewCapitol,
     lectie: viewLectie,
     carduri: viewCarduri,
+    antrenament: viewAntrenament,
+    antren: viewAntrenament,
+    nota: viewNota,
     test: viewTest,
     plan: viewPlan,
     setari: viewSetari,
@@ -444,7 +507,12 @@
      titlurile sunt deja acolo, deci nu se așteaptă nicio rețea pentru ele. */
   function moduleNecesare(name, args) {
     if (name === 'lectie') return args[0] ? [args[0]] : [];
-    if (name === 'test' || name === 'carduri') {
+    /* Hubul de antrenament și cel de notă arată stăpânirea per materie, deci
+       au nevoie de modulele clasei încărcate; sesiunea propriu-zisă are nevoie
+       de domeniul ei. */
+    if (name === 'antrenament' && !args.length) return IDX ? modClasa(state.clasa).map(m => m.id) : [];
+    if (name === 'nota') return args[0] ? [args[0]] : (IDX ? modClasa(state.clasa).map(m => m.id) : []);
+    if (name === 'test' || name === 'carduri' || name === 'antren') {
       const [tip, a, b] = args;
       if (!tip) return [];
       if (tip === 'an') {
@@ -539,7 +607,8 @@
 
     /* Tabul activ: rutele „adânci” rămân sub tabul din care au pornit. */
     const TAB_PENTRU = {
-      an: 'materii', materie: 'materii', capitol: 'materii', lectie: 'materii'
+      an: 'materii', materie: 'materii', capitol: 'materii', lectie: 'materii',
+      antren: 'antrenament', nota: 'antrenament', carduri: 'antrenament'
     };
     const tabActiv = TAB_PENTRU[name] || name;
     tabs.forEach(t => t.setAttribute('aria-selected', String(t.dataset.route === tabActiv)));
@@ -582,6 +651,15 @@
     const stiute = Object.values(state.carduri).filter(c => c.usor > c.greu).length;
     const aziN = state.zile[azi()] || 0;
     const tinta = set('obiectivZilnic');
+    /* Cifrele de antrenament au nevoie de modulele clasei încărcate; pe Acasă
+       ele vin din prefetch, deci uneori încă nu sunt — atunci arătăm textul
+       neutru, nu un zero mincinos. */
+    const gataMod = IDX && modClasa(state.clasa).every(m => MOD.has(m.id));
+    const stAcasa = gataMod ? stapanireDomeniu('clasa') : null;
+    const deRepetat = stAcasa ? stAcasa.scadente : null;
+    const toateNotele = Object.values(state.note || {}).flat();
+    const notaUltima = toateNotele.length
+      ? toateNotele.sort((x, y) => y.cand - x.cand)[0].n : null;
     const s = serie();
 
     view.innerHTML = `
@@ -606,8 +684,11 @@
       </div>
 
       <div class="grid2">
-        <button class="card tap" data-go="#/carduri/clasa"><h3>Carduri</h3><p class="muted">Repetiție rapidă din materiile clasei.</p></button>
-        <button class="card tap" data-go="#/test/clasa"><h3>Test grilă</h3><p class="muted">${medie === null ? 'Niciun test dat încă.' : 'Medie: ' + medie + '%'}</p></button>
+        <button class="card tap" data-go="#/antren/clasa"><h3>Antrenament</h3><p class="muted">${
+          deRepetat === null ? 'Sesiune mixtă din materiile clasei.'
+          : deRepetat ? deRepetat + ' elemente de repetat azi' : 'Nimic scadent — poți lua înainte.'}</p></button>
+        <button class="card tap" data-go="#/nota"><h3>Simulare de notă</h3><p class="muted">${
+          notaUltima === null ? '5 puncte a câte 2 — vezi ce notă iei.' : 'Ultima notă: ' + notaRo(notaUltima)}</p></button>
       </div>
 
       <h2>Continuă unde ai rămas</h2>
@@ -769,7 +850,9 @@
       </div>
 
       <div class="grid2">
-        <button class="btn" data-go="#/carduri/materie/${encodeURIComponent(m.id)}">Carduri</button>
+        <button class="btn" data-go="#/antren/materie/${encodeURIComponent(m.id)}">Antrenament</button>
+        <button class="btn ghost" data-go="#/nota/${encodeURIComponent(m.id)}">Simulare de notă</button>
+        <button class="btn ghost" data-go="#/carduri/materie/${encodeURIComponent(m.id)}">Carduri</button>
         <button class="btn ghost" data-go="#/test/materie/${encodeURIComponent(m.id)}">Test din materie</button>
       </div>
 
@@ -779,7 +862,7 @@
         const rez = state.teste['teza:' + m.id + ':' + s];
         return `<button class="rand" data-go="#/test/teza/${encodeURIComponent(m.id)}/${s}">
           <div class="rand-txt"><strong>Teza — semestrul ${s === 1 ? 'I' : 'al II-lea'}</strong>
-          <span>${t ? t.nrIntrebari + ' întrebări de sinteză' : 'în pregătire'}${rez ? ' · ultimul rezultat ' + rez.procent + '%' : ''}</span></div>
+          <span>${t ? t.nrIntrebari + ' de sinteză + tot semestrul' : 'în pregătire'}${rez ? ' · ultimul rezultat ' + rez.procent + '%' : ''}</span></div>
           <span class="lec-sag" aria-hidden="true"></span></button>`;
       }).join('')}</div>
 
@@ -827,7 +910,8 @@
       <p class="crumb"><b>${esc(m.materie)}</b> › Semestrul ${c.semestru === 1 ? 'I' : 'al II-lea'}</p>
       ${capitolHTML(m, c, true)}
       <div class="grid2">
-        <button class="btn" data-go="#/carduri/capitol/${encodeURIComponent(m.id)}/${encodeURIComponent(c.id)}">Carduri</button>
+        <button class="btn" data-go="#/antren/capitol/${encodeURIComponent(m.id)}/${encodeURIComponent(c.id)}">Antrenament</button>
+        <button class="btn ghost" data-go="#/carduri/capitol/${encodeURIComponent(m.id)}/${encodeURIComponent(c.id)}">Carduri</button>
         <button class="btn ghost" data-go="#/test/capitol/${encodeURIComponent(m.id)}/${encodeURIComponent(c.id)}">Test</button>
       </div>`;
   }
@@ -885,6 +969,7 @@
           </div>
           <button class="btn" id="marcheaza">${state.lectiiCitite[lec.id] ? '✓ Marcată ca citită — anulează' : 'Marchează drept citită'}</button>
           <div class="grid2" style="margin-top:12px">
+            <button class="btn" data-go="#/antren/lectie/${encodeURIComponent(modId)}/${encodeURIComponent(lec.id)}">Antrenează lecția</button>
             <button class="btn ghost" data-go="#/test/lectie/${encodeURIComponent(modId)}/${encodeURIComponent(lec.id)}">Test din lecție</button>
             <button class="btn ghost" data-go="#/carduri/lectie/${encodeURIComponent(modId)}/${encodeURIComponent(lec.id)}">Carduri</button>
           </div>
@@ -924,12 +1009,13 @@
 
   /* ---------- adunarea conținutului dintr-un domeniu ---------- */
   /* `tip` = lectie | capitol | materie | an | clasa | (nimic = alegere) */
-  function domeniu(tip, a, b) {
-    const out = { titlu: '', cheie: '', carduri: [], intrebari: [] };
-    const dinLectie = (ixm, l) => {
-      (l.carduri || []).forEach((c, i) => out.carduri.push({ f: c.f, v: c.v, key: l.id + ':' + i, sursa: ixm.materie }));
-      (l.test || []).forEach(q => out.intrebari.push(Object.assign({}, q, { sursa: ixm.materie + ' · ' + l.titlu })));
-    };
+  function parcurge(tip, a, b, vizitator) {
+    /* Un singur parcurs al domeniului, folosit de TOATE motoarele: carduri,
+       test, antrenament, simulare de notă. Vizitatorul primește fiecare lecție
+       din domeniu, în ordinea din conținut, împreună cu modulul și capitolul
+       ei. Scrisă de două ori, traversarea s-ar despărți tăcut la prima
+       schimbare de structură a conținutului. */
+    const out = { titlu: '', cheie: '', modul: null, semestru: null };
     const dinModul = (id, filtruCap, filtruLec) => {
       const corp = MOD.get(id), ixm = mod(id);
       if (!corp || !ixm) return;
@@ -937,7 +1023,7 @@
         if (filtruCap && c.id !== filtruCap) continue;
         for (const l of c.lectii) {
           if (filtruLec && l.id !== filtruLec) continue;
-          dinLectie(ixm, l);
+          vizitator(ixm, l, c);
         }
       }
     };
@@ -945,28 +1031,26 @@
     if (tip === 'lectie') {
       const g = gasesteLectie(a, b);
       if (!g) return null;
-      out.titlu = g.lec.titlu; out.cheie = 'lectie:' + a + ':' + b;
+      out.titlu = g.lec.titlu; out.cheie = 'lectie:' + a + ':' + b; out.modul = a;
       dinModul(a, null, b);
     } else if (tip === 'capitol') {
       const ixm = mod(a); const c = ixm && ixm.capitole.find(x => x.id === b);
       if (!c) return null;
-      out.titlu = c.titlu; out.cheie = 'capitol:' + a + ':' + b;
+      out.titlu = c.titlu; out.cheie = 'capitol:' + a + ':' + b; out.modul = a;
       dinModul(a, b, null);
     } else if (tip === 'materie') {
       const ixm = mod(a);
       if (!ixm) return null;
-      out.titlu = ixm.materie; out.cheie = 'materie:' + a;
+      out.titlu = ixm.materie; out.cheie = 'materie:' + a; out.modul = a;
       dinModul(a, null, null);
     } else if (tip === 'teza') {
       const corp = MOD.get(a), ixm = mod(a);
-      const s = Number(b);
-      const t = corp && (corp.teze || []).find(x => x.semestru === s);
+      const sem = Number(b);
+      const t = corp && (corp.teze || []).find(x => x.semestru === sem);
       if (!t) return null;
-      out.titlu = 'Teza — semestrul ' + (s === 1 ? 'I' : 'al II-lea');
-      out.cheie = 'teza:' + a + ':' + s;
-      out.intrebari = (t.test || []).map(q => Object.assign({}, q, { sursa: ixm.materie }));
-      /* Cardurile tezei = toate cardurile capitolelor semestrului. */
-      for (const c of corp.capitole) if (c.semestru === s) for (const l of c.lectii) dinLectie(ixm, l);
+      out.titlu = 'Teza — semestrul ' + (sem === 1 ? 'I' : 'al II-lea');
+      out.cheie = 'teza:' + a + ':' + sem; out.modul = a; out.semestru = sem;
+      for (const c of corp.capitole) if (c.semestru === sem) for (const l of c.lectii) vizitator(ixm, l, c);
     } else if (tip === 'an' || tip === 'clasa') {
       /* Aceeași funcție ca la preîncărcare (`moduleNecesare`), ca domeniul și
          modulele aduse să nu poată diverge niciodată. */
@@ -977,6 +1061,27 @@
       lista.forEach(m => dinModul(m.id, null, null));
     } else {
       return null;
+    }
+    return out;
+  }
+
+  function domeniu(tip, a, b) {
+    const out = { titlu: '', cheie: '', carduri: [], intrebari: [] };
+    const meta = parcurge(tip, a, b, (ixm, l) => {
+      (l.carduri || []).forEach((c, i) => out.carduri.push({ f: c.f, v: c.v, key: l.id + ':' + i, sursa: ixm.materie }));
+      (l.test || []).forEach(q => out.intrebari.push(Object.assign({}, q, { sursa: ixm.materie + ' · ' + l.titlu })));
+    });
+    if (!meta) return null;
+    out.titlu = meta.titlu; out.cheie = meta.cheie;
+    /* Teza: întrebările de sinteză se ADAUGĂ peste cele ale lecțiilor din
+       semestru, nu le înlocuiesc. Bazinul e de câteva ori mai mare decât
+       numărul de întrebări dintr-o probă, altfel — cu 12 întrebări de sinteză
+       și un test de 12 — fiecare teză ar ieși identică. */
+    if (tip === 'teza') {
+      const corp = MOD.get(a), ixm = mod(a);
+      const t = corp && (corp.teze || []).find(x => x.semestru === Number(b));
+      out.intrebari = ((t && t.test) || []).map(q => Object.assign({}, q, { sursa: ixm.materie + ' · sinteză' }))
+        .concat(out.intrebari);
     }
     return out;
   }
@@ -1253,6 +1358,759 @@
       </table></div>`;
   }
 
+
+  /* ═══ §7b  sistemul de antrenament ══════════════════════════════════ */
+
+  /* Ce combină, și de ce fiecare piesă e acolo:
+
+     · REPETIȚIE EȘALONATĂ — reiei un element chiar înainte să-l uiți, la
+       intervale care cresc. Fiecare element are interval, ușurință și
+       scadență proprie (§ programare, mai jos).
+     · RECUPERARE ACTIVĂ — nu recitești, ci produci răspunsul din memorie.
+       Toate cele cinci tipuri de exercițiu cer producere, nu recunoaștere
+       pasivă.
+     · INTERCALARE — sesiunea amestecă lecții, capitole și tipuri de exercițiu.
+       Blocul „o lecție, apoi alta” dă impresia de progres, dar se uită mai
+       repede decât amestecul.
+     · EFECT DE GENERARE — „Completează” și „Explică” cer scris, nu ales.
+     · CALIBRARE — înainte de a vedea răspunsul, spui cât de sigur ești.
+       Supraîncrederea („credeam că știu”) e cauza obișnuită a notelor mici,
+       iar singurul mod de a o vedea e s-o măsori.
+     · PRACTICĂ DELIBERATĂ — ce greșești revine în aceeași sesiune și,
+       ulterior, mai des decât restul.
+     · ÎNVĂȚARE PÂNĂ LA STĂPÂNIRE — o lecție e „stăpânită” abia când
+       elementele ei au trecut pragul, nu când ai deschis-o o dată. */
+
+  const TIPURI = {
+    g: { nume: 'Grilă',       expl: 'Alege varianta corectă.' },
+    c: { nume: 'Card',        expl: 'Amintește-ți, apoi verifică.' },
+    t: { nume: 'Termen',      expl: 'Ce înseamnă termenul?' },
+    z: { nume: 'Completează', expl: 'Scrie cuvântul care lipsește.' },
+    x: { nume: 'Explică',     expl: 'Spune ideea cu cuvintele tale.' }
+  };
+
+  /* Toate elementele antrenabile dintr-un domeniu. Cheia e stabilă între
+     sesiuni — pe ea se sprijină programarea din `state.antren`. */
+  function elemente(tip, a, b) {
+    const out = [];
+    const meta = parcurge(tip, a, b, (ixm, l, cap) => {
+      const baza = { modul: ixm.id, materie: ixm.materie, lectie: l.id,
+                     lectieTitlu: l.titlu, capitol: cap.id };
+      (l.test || []).forEach((q, i) => out.push(Object.assign({
+        k: 'g:' + l.id + ':' + i, tip: 'g',
+        intrebare: q.intrebare, optiuni: q.optiuni, corect: q.corect, explicatie: q.explicatie
+      }, baza)));
+      (l.carduri || []).forEach((c, i) => out.push(Object.assign({
+        k: 'c:' + l.id + ':' + i, tip: 'c', f: c.f, v: c.v
+      }, baza)));
+      (l.termeni || []).forEach((t, i) => {
+        out.push(Object.assign({ k: 't:' + l.id + ':' + i, tip: 't', t: t.t, d: t.d }, baza));
+        /* „Completează” folosește aceeași pereche, dar în sens invers și cu
+           răspuns scris: recunoașterea și producerea sunt lucruri diferite. */
+        out.push(Object.assign({ k: 'z:' + l.id + ':' + i, tip: 'z', t: t.t, d: t.d }, baza));
+      });
+      (l.ideiCheie || []).forEach((idee, i) => out.push(Object.assign({
+        k: 'x:' + l.id + ':' + i, tip: 'x', idee
+      }, baza)));
+    });
+    if (!meta) return null;
+    return { titlu: meta.titlu, cheie: meta.cheie, elemente: out };
+  }
+
+  /* ── programarea eșalonată ──────────────────────────────────────────
+     Variantă simplificată de SM-2. Calificativele vin din răspuns, nu din
+     autoevaluare pură: la grilă și la completare le decide corectitudinea,
+     la card și la explică le dă elevul, dar numai DUPĂ ce a văzut răspunsul.
+     `e` (ușurința) e ținut ×100, ca să rămână întreg în localStorage. */
+  const ZI = 86400000;
+  const ANTREN_NOU = () => ({ i: 0, e: 250, d: 0, r: 0, g: 0 });
+
+  function programeaza(k, calificativ) {
+    const s = Object.assign(ANTREN_NOU(), state.antren[k]);
+    const acum = Date.now();
+    if (calificativ === 0) {
+      s.r = 0; s.g++; s.i = 0;
+      s.e = Math.max(130, s.e - 20);
+      s.d = acum;                       // revine în aceeași sesiune
+    } else {
+      if (calificativ === 1) { s.e = Math.max(130, s.e - 15); s.i = Math.max(1, Math.round(s.i * 1.2)); }
+      else if (calificativ === 3) { s.e = Math.min(280, s.e + 15); s.i = s.r === 0 ? 2 : Math.round(s.i * s.e / 100 * 1.3); }
+      else { s.i = s.r === 0 ? 1 : (s.r === 1 ? 3 : Math.round(s.i * s.e / 100)); }
+      s.i = Math.min(365, Math.max(1, s.i));
+      s.r++;
+      s.d = acum + s.i * ZI;
+    }
+    state.antren[k] = s;
+    return s;
+  }
+
+  const scadent = k => {
+    const s = state.antren[k];
+    return !s || s.d <= Date.now();
+  };
+  const nou = k => !state.antren[k];
+
+  /* Stăpânire: un element e stăpânit la 3 reușite consecutive și interval de
+     cel puțin o săptămână. Pragul e ales ca să nu se declare „știu” după o
+     singură nimereală. */
+  const stapanit = k => {
+    const s = state.antren[k];
+    return !!s && s.r >= 3 && s.i >= 7;
+  };
+
+  function stapanireDomeniu(tip, a, b) {
+    const e = elemente(tip, a, b);
+    if (!e || !e.elemente.length) return null;
+    const total = e.elemente.length;
+    let st = 0, inLucru = 0, scad = 0;
+    for (const x of e.elemente) {
+      if (stapanit(x.k)) st++;
+      else if (state.antren[x.k]) inLucru++;
+      /* Doar elementele ÎNCEPUTE și scadente: exact grupa pe care o ia
+         `alcatuiesteSesiune`. Numărând și pe cele niciodată văzute, hubul
+         anunța „1744 de repetat” lângă „1744 neîncepute” — o cifră pe care
+         sesiunea n-o folosea. */
+      if (!nou(x.k) && scadent(x.k)) scad++;
+    }
+    return { total, stapanite: st, inLucru, noi: total - st - inLucru, scadente: scad,
+             procent: Math.round(st / total * 100) };
+  }
+
+  /* ── alcătuirea sesiunii ────────────────────────────────────────────
+     Ordinea de prioritate: mai întâi ce e scadent (repetiția eșalonată își
+     face treaba doar dacă respecți scadențele), apoi elemente noi, ca să
+     avanseze materia. În fiecare grupă amestecăm — asta e intercalarea. */
+  function alcatuiesteSesiune(tip, a, b, cate) {
+    const e = elemente(tip, a, b);
+    if (!e || !e.elemente.length) return null;
+    const rest = e.elemente.filter(x => !nou(x.k) && scadent(x.k));
+    const noi = e.elemente.filter(x => nou(x.k));
+    const restante = shuffle(rest);
+    const proaspete = shuffle(noi);
+    /* Cel mult jumătate elemente noi: o sesiune numai din material nou nu
+       consolidează nimic, iar una numai din restanțe nu avansează. */
+    const nrNoi = Math.min(proaspete.length, Math.ceil(cate / 2));
+    const lista = restante.slice(0, Math.max(0, cate - nrNoi)).concat(proaspete.slice(0, nrNoi));
+    /* Dacă n-au ieșit destule (tot ce era scadent s-a epuizat), completăm cu
+       elemente nescadente — repetiția în avans e mai bună decât un ecran gol. */
+    if (lista.length < cate) {
+      const vazute = new Set(lista.map(x => x.k));
+      for (const x of shuffle(e.elemente)) {
+        if (lista.length >= cate) break;
+        if (!vazute.has(x.k)) { lista.push(x); vazute.add(x.k); }
+      }
+    }
+    return { titlu: e.titlu, cheie: e.cheie, lista: shuffle(lista) };
+  }
+
+  /* ── potrivirea răspunsurilor scrise ────────────────────────────────
+     Elevul nu e la un concurs de ortografie: comparăm fără diacritice, fără
+     majuscule și fără semne, iar la cuvintele lungi acceptăm o literă
+     greșită (distanță Levenshtein 1). Altfel „constituţie” ar fi respins. */
+  const normaliz = s => faraDiacritice(String(s))
+    .replace(/[^a-z0-9 ]+/g, ' ').replace(/\s+/g, ' ').trim();
+
+  function distanta(a, b) {
+    if (a === b) return 0;
+    const m = a.length, n = b.length;
+    if (Math.abs(m - n) > 1) return 2;      // ne interesează doar „≤1”
+    let rand = Array.from({ length: n + 1 }, (_, j) => j);
+    for (let i = 1; i <= m; i++) {
+      let prev = rand[0]; rand[0] = i;
+      for (let j = 1; j <= n; j++) {
+        const tmp = rand[j];
+        rand[j] = Math.min(rand[j] + 1, rand[j - 1] + 1, prev + (a[i - 1] === b[j - 1] ? 0 : 1));
+        prev = tmp;
+      }
+    }
+    return rand[n];
+  }
+
+  /* Articolul hotărât românesc e enclitic: „stat” → „statul”, „lege” → „legea”.
+     Elevul care scrie forma articulată a răspuns corect; fără curățarea asta,
+     „statul” față de „stat” dă distanță 2, adică respins — și, mai rău,
+     ușurința elementului scădea ca la o greșeală adevărată. */
+  const faraArticol = w => w
+    .replace(/(ul|ului|le|lui|lor|a|ua|ei|i)$/, '')
+    .replace(/\s+$/, '');
+
+  function raspunsPotrivit(dat, asteptat) {
+    const A = normaliz(dat), B = normaliz(asteptat);
+    if (!A) return false;
+    if (A === B) return true;
+    if (B.length >= 5 && distanta(A, B) <= 1) return true;
+
+    const variante = new Set([B]);
+    /* Definițiile au adesea un cuvânt de legătură în față. */
+    variante.add(B.replace(/^(un|o|de|la|in|pe|cu|prin|dupa)\s+/, ''));
+    /* Formele articulate, pe ultimul cuvânt, în ambele sensuri. */
+    const ultim = t => t.split(' ').slice(-1)[0];
+    const fara = t => t.split(' ').slice(0, -1).concat(faraArticol(ultim(t))).join(' ').trim();
+    variante.add(fara(B));
+    const A2 = fara(A);
+    for (const v of variante) {
+      if (!v) continue;
+      if (A === v || A2 === v) return true;
+      if (v.length >= 5 && (distanta(A, v) <= 1 || distanta(A2, v) <= 1)) return true;
+    }
+    return false;
+  }
+
+
+  /* ── rularea sesiunii ───────────────────────────────────────────────── */
+  let ses = null;
+
+  function viewAntrenament(tip, a, b) {
+    title.textContent = 'Antrenament';
+    if (!tip) { view.innerHTML = hubAntrenamentHTML(); legaHub(); return; }
+    const s = alcatuiesteSesiune(tip, a, b, set('nrAntrenament'));
+    if (!s || !s.lista.length) {
+      view.innerHTML = '<div class="card"><h3>Nimic de antrenat aici</h3>' +
+        '<p class="muted">Alege alt domeniu.</p>' +
+        '<button class="btn ghost" data-go="#/antrenament">Înapoi</button></div>';
+      return;
+    }
+    ses = { lista: s.lista, poz: 0, titlu: s.titlu, cheie: s.cheie, scop: [tip, a, b],
+            raspunsuri: [], faza: 'intrebare', incredere: null, reluate: 0, start: Date.now() };
+    deseneazaElement();
+  }
+
+  const INCREDERE = [
+    { v: 2, e: 'Sigur',    d: 'știu răspunsul' },
+    { v: 1, e: 'Cred',     d: 'îmi pare cunoscut' },
+    { v: 0, e: 'Ghicesc',  d: 'nu știu' }
+  ];
+
+  function deseneazaElement() {
+    if (ses.poz >= ses.lista.length) { deseneazaRaport(); return; }
+    const el = ses.lista[ses.poz];
+    const t = TIPURI[el.tip];
+    const st = state.antren[el.k];
+    const eticheta = stapanit(el.k) ? 'stăpânit' : (st ? 'în lucru' : 'nou');
+
+    view.innerHTML = `
+      <div class="antren-bara" aria-hidden="true"><i style="--p:${ses.poz / ses.lista.length}"></i></div>
+      <p class="muted">${ses.poz + 1} din ${ses.lista.length} · ${esc(el.materie)} · ${esc(el.lectieTitlu)}</p>
+      <div class="antren-cap">
+        <span class="pill soft">${esc(t.nume)}</span>
+        <span class="pill ${eticheta === 'stăpânit' ? '' : 'soft'}">${eticheta}</span>
+      </div>
+      <div class="card" id="corp">${corpElementHTML(el)}</div>
+      <div id="antren-actiuni"></div>`;
+
+    if (set('calibrare') && ses.faza === 'intrebare' && el.tip !== 'x') {
+      /* Controlul de răspuns se BLOCHEAZĂ cât timp se cere calibrarea. Altfel
+         butoanele de grilă erau randate active, deasupra întrebării „cât ești
+         de sigur”, iar prima atingere firească — pe răspuns — nu făcea nimic
+         și nu explica de ce. */
+      blocheazaRaspunsul(true);
+      deseneazaIncredere(el);
+    } else deseneazaActiuni(el);
+    paint(true);
+  }
+
+  function corpElementHTML(el) {
+    if (el.tip === 'g') {
+      const q = amestecaOptiuni(el);
+      ses.grilaCurenta = q;
+      return `<h3>${esc(q.intrebare)}</h3>
+        <div id="opt">${q.optiuni.map((o, i) =>
+          `<button class="opt" data-i="${i}">${esc(o)}</button>`).join('')}</div>`;
+    }
+    if (el.tip === 'c') return `<h3>${esc(el.f)}</h3><p class="muted">${TIPURI.c.expl}</p>`;
+    if (el.tip === 't') return `<h3>${esc(el.t)}</h3><p class="muted">${TIPURI.t.expl}</p>`;
+    if (el.tip === 'z') {
+      return `<p class="muted">Ce termen se potrivește definiției?</p>
+        <h3>${esc(el.d)}</h3>
+        <input class="camp" id="raspuns" type="text" autocomplete="off" autocapitalize="off"
+               spellcheck="false" placeholder="scrie termenul" aria-label="Termenul care lipsește">`;
+    }
+    return `<p class="muted">Scrie ideea cu cuvintele tale, apoi compară.</p>
+      <h3>${esc(el.lectieTitlu)}</h3>
+      <textarea class="camp camp-mare" id="raspuns" rows="4"
+                placeholder="explică pe scurt…" aria-label="Explicația ta"></textarea>`;
+  }
+
+  function blocheazaRaspunsul(blocat) {
+    view.querySelectorAll('#opt .opt').forEach(b => { b.disabled = blocat; });
+    const camp = view.querySelector('#raspuns');
+    if (camp) camp.disabled = blocat;
+    const corp = view.querySelector('#corp');
+    if (corp) corp.classList.toggle('in-asteptare', blocat);
+  }
+
+  function deseneazaIncredere(el) {
+    const z = view.querySelector('#antren-actiuni');
+    z.innerHTML = `<p class="muted antren-nota">Înainte de răspuns: cât de sigur ești?</p>
+      <div class="seg seg-larg" role="radiogroup" aria-label="Cât de sigur ești">
+        ${INCREDERE.map(x => `<button data-inc="${x.v}" role="radio" aria-checked="false">
+          <strong>${x.e}</strong><span>${x.d}</span></button>`).join('')}</div>`;
+    z.querySelectorAll('[data-inc]').forEach(btn => btn.onclick = () => {
+      ses.incredere = Number(btn.dataset.inc);
+      bate(6);
+      blocheazaRaspunsul(false);
+      deseneazaActiuni(el);
+    });
+  }
+
+  function deseneazaActiuni(el) {
+    const z = view.querySelector('#antren-actiuni');
+    if (el.tip === 'g') { legaGrila(el); z.innerHTML = ''; return; }
+    if (el.tip === 'z' || el.tip === 'x') {
+      z.innerHTML = `<button class="btn" id="verifica">${el.tip === 'z' ? 'Verifică' : 'Arată ideea'}</button>`;
+      const camp = view.querySelector('#raspuns');
+      if (camp) camp.focus({ preventScroll: true });
+      z.querySelector('#verifica').onclick = () => arataRaspuns(el, camp ? camp.value : '');
+      if (camp && el.tip === 'z') camp.onkeydown = e => { if (e.key === 'Enter') { e.preventDefault(); arataRaspuns(el, camp.value); } };
+      return;
+    }
+    z.innerHTML = '<button class="btn" id="verifica">Arată răspunsul</button>';
+    z.querySelector('#verifica').onclick = () => arataRaspuns(el, '');
+  }
+
+  function legaGrila(el) {
+    const q = ses.grilaCurenta;
+    view.querySelectorAll('#opt .opt').forEach(btn => btn.onclick = () => {
+      const i = Number(btn.dataset.i);
+      const bun = i === q.corect;
+      view.querySelectorAll('#opt .opt').forEach((x, j) => {
+        x.disabled = true;
+        if (j === q.corect) x.classList.add('correct');
+        else if (j === i) x.classList.add('wrong');
+      });
+      bate(bun ? 8 : 18);
+      inchideElement(el, bun ? 2 : 0, bun, q.optiuni[q.corect], el.explicatie);
+    });
+  }
+
+  function arataRaspuns(el, dat) {
+    if (el.tip === 'z') {
+      const bun = raspunsPotrivit(dat, el.t);
+      bate(bun ? 8 : 18);
+      inchideElement(el, bun ? 2 : 0, bun, el.t, 'Definiția: ' + el.d);
+      return;
+    }
+    /* Card, termen și explicație nu se pot corecta automat: elevul vede
+       răspunsul și se judecă singur. Autoevaluarea E metoda aici — dar numai
+       DUPĂ ce a încercat, altfel dispare tot efectul de recuperare. */
+    const cheie = el.tip === 'c' ? el.v : (el.tip === 't' ? el.d : el.idee);
+    inchideElement(el, null, null, cheie, el.tip === 'x' && dat.trim() ? 'Ce ai scris tu: „' + dat.trim() + '”' : '');
+  }
+
+  /* `calif === null` → cerem autoevaluarea; altfel știm deja rezultatul. */
+  function inchideElement(el, calif, corect, raspunsBun, notaJos) {
+    ses.faza = 'raspuns';
+    const corp = view.querySelector('#corp');
+    const z = view.querySelector('#antren-actiuni');
+
+    if (el.tip !== 'g') {
+      corp.insertAdjacentHTML('beforeend',
+        `<div class="raspuns-bun"><span class="rb-eticheta">Răspuns</span>
+          <p>${esc(raspunsBun)}</p></div>`);
+    }
+    if (notaJos) corp.insertAdjacentHTML('beforeend', `<p class="muted">${esc(notaJos)}</p>`);
+
+    const inchide = (c) => {
+      programeaza(el.k, c);
+      ses.raspunsuri.push({ k: el.k, tip: el.tip, calif: c, incredere: ses.incredere,
+                            corect: c >= 2, lectie: el.lectie, modul: el.modul,
+                            titlu: el.lectieTitlu, materie: el.materie });
+      /* Practică deliberată: ce ai greșit revine spre finalul aceleiași
+         sesiuni, o singură dată — de două ori ar transforma sesiunea în
+         buclă pe un element pe care evident nu-l știi încă. */
+      if (c === 0 && ses.reluate < Math.ceil(ses.lista.length / 4) && !el.reluat) {
+        const copie = Object.assign({}, el, { reluat: true });
+        ses.lista.splice(Math.min(ses.lista.length, ses.poz + 4), 0, copie);
+        ses.reluate++;
+      }
+      save();
+      ses.poz++; ses.faza = 'intrebare'; ses.incredere = null;
+      deseneazaElement();
+    };
+
+    if (calif === null) {
+      z.innerHTML = `<p class="muted antren-nota">Cât de bine ai știut?</p>
+        <div class="seg seg-larg" role="group" aria-label="Cât de bine ai știut">
+          <button data-c="0"><strong>Deloc</strong><span>reia curând</span></button>
+          <button data-c="1"><strong>Cu greu</strong><span>mai exersez</span></button>
+          <button data-c="2"><strong>Bine</strong><span>știam</span></button>
+          <button data-c="3"><strong>Ușor</strong><span>imediat</span></button>
+        </div>`;
+      z.querySelectorAll('[data-c]').forEach(btn => btn.onclick = () => { bate(6); inchide(Number(btn.dataset.c)); });
+    } else {
+      const semn = corect ? 'Corect' : 'Greșit';
+      z.innerHTML = `<p class="antren-verdict ${corect ? 'bun' : 'rau'}">${semn}</p>
+        <button class="btn" id="mai-departe">Mai departe</button>`;
+      z.querySelector('#mai-departe').onclick = () => inchide(calif);
+    }
+    paint();
+  }
+
+
+  /* ── raportul de final ──────────────────────────────────────────────── */
+  function deseneazaRaport() {
+    const r = ses.raspunsuri;
+    const n = r.length;
+    const bune = r.filter(x => x.corect).length;
+    const proc = n ? Math.round(bune / n * 100) : 0;
+    const minute = Math.max(1, Math.round((Date.now() - ses.start) / 60000));
+
+    /* CALIBRARE: din răspunsurile la care elevul a spus „Sigur”, câte au ieșit
+       greșite. Supraîncrederea e informația cea mai utilă din toată sesiunea —
+       arată exact unde crezi că știi, dar nu știi. */
+    const cuInc = r.filter(x => x.incredere !== null && x.incredere !== undefined);
+    const siguri = cuInc.filter(x => x.incredere === 2);
+    const sigurGresite = siguri.filter(x => !x.corect).length;
+    const ghicite = cuInc.filter(x => x.incredere === 0);
+    const ghicitBune = ghicite.filter(x => x.corect).length;
+
+    /* Pe tipuri de exercițiu: unde stai prost e adesea o metodă, nu o materie. */
+    const peTip = {};
+    r.forEach(x => {
+      const t = peTip[x.tip] || (peTip[x.tip] = { n: 0, b: 0 });
+      t.n++; if (x.corect) t.b++;
+    });
+
+    /* Lecțiile de recitit: cele cu cel puțin două greșeli în sesiune. */
+    const peLectie = {};
+    r.filter(x => !x.corect).forEach(x => {
+      const l = peLectie[x.lectie] || (peLectie[x.lectie] = { n: 0, titlu: x.titlu, modul: x.modul, materie: x.materie });
+      l.n++;
+    });
+    const slabe = Object.entries(peLectie).filter(([, v]) => v.n >= 2)
+      .sort((a, b2) => b2[1].n - a[1].n).slice(0, 5);
+
+    const st = stapanireDomeniu(ses.scop[0], ses.scop[1], ses.scop[2]);
+
+    view.innerHTML = `
+      <div class="card">
+        <div class="row"><h3>Sesiune încheiată</h3><span class="pill">${proc}%</span></div>
+        <p class="muted">${bune} din ${n} · „${esc(ses.titlu)}” · ${minute} min</p>
+        <div class="stats">
+          <div class="stat"><b>${bune}</b><span>reușite</span></div>
+          <div class="stat"><b>${n - bune}</b><span>de reluat</span></div>
+          <div class="stat"><b>${st ? st.procent + '%' : '—'}</b><span>stăpânit</span></div>
+          <div class="stat"><b>${minute}</b><span>minute</span></div>
+        </div>
+      </div>
+
+      ${cuInc.length ? `<div class="card">
+        <h3>Cât de bine te cunoști</h3>
+        ${!siguri.length && !ghicite.length ? `<p class="muted">Ai ales „cred” la toate.
+          Ca să afli dacă te cunoști, folosește și „sigur”, și „ghicesc”: diferența dintre
+          ce crezi că știi și ce știi e informația cea mai utilă de aici.</p>` : ''}
+        ${siguri.length ? `<p>Ai spus „sigur” de <strong>${siguri.length}</strong> ori
+          ${sigurGresite ? `și ai greșit de <strong>${sigurGresite}</strong>` : 'și n-ai greșit niciodată'}.</p>
+          <p class="muted">${sigurGresite === 0
+            ? 'Încrederea ta e bine calibrată. Ai voie să te bazezi pe ea când înveți singur.'
+            : sigurGresite / siguri.length > 0.2
+              ? 'Supraîncredere: crezi că știi lucruri pe care nu le știi. Astea sunt exact cele care te costă la teză — recitește-le, nu le sări.'
+              : 'Aproape calibrat. Cele câteva ratate merită o recitire.'}</p>` : ''}
+        ${ghicite.length ? `<p class="muted">Ai ghicit de ${ghicite.length} ori și ai nimerit de ${ghicitBune}.
+          ${ghicitBune > ghicite.length / 2 ? 'La grile, nimereala umflă scorul: verifică-le pe astea cu cardurile.' : ''}</p>` : ''}
+      </div>` : ''}
+
+      <div class="card">
+        <h3>Pe tipuri de exercițiu</h3>
+        <div class="lista lista-plata">
+          ${Object.keys(peTip).map(t => {
+            const v = peTip[t], p = Math.round(v.b / v.n * 100);
+            return `<div class="rand"><div class="rand-txt"><strong>${esc(TIPURI[t].nume)}</strong>
+              <span>${v.b} din ${v.n}</span></div>
+              <div class="rand-ctl"><div class="bar bar-mic"><i style="--p:${v.b / v.n}"></i></div>
+              <span class="pill soft">${p}%</span></div></div>`;
+          }).join('')}
+        </div>
+        <p class="muted">Grila se nimerește, cardul și completarea nu. Dacă stai bine la grilă
+          și slab la completare, recunoști materia fără s-o poți produce — la teză se vede.</p>
+      </div>
+
+      ${slabe.length ? `<div class="card">
+        <h3>De recitit</h3>
+        <div class="lista lista-plata">
+          ${slabe.map(([id, v]) => `<button class="rand" data-go="#/lectie/${encodeURIComponent(v.modul)}/${encodeURIComponent(id)}">
+            <div class="rand-txt"><strong>${esc(v.titlu)}</strong><span>${esc(v.materie)} · ${v.n} greșeli</span></div>
+            <span class="lec-sag" aria-hidden="true"></span></button>`).join('')}
+        </div>
+      </div>` : ''}
+
+      <button class="btn" id="inca">Încă o sesiune</button>
+      <button class="btn ghost" data-go="#/antrenament">Înapoi la antrenament</button>`;
+
+    view.querySelector('#inca').onclick = () => viewAntrenament(ses.scop[0], ses.scop[1], ses.scop[2]);
+    paint(true);
+  }
+
+  /* ── hubul de antrenament ───────────────────────────────────────────── */
+  function hubAntrenamentHTML() {
+    const lista = modClasa(state.clasa);
+    const gata = lista.every(m => MOD.has(m.id));
+    const stClasa = gata ? stapanireDomeniu('clasa') : null;
+
+    return `
+      <div class="card">
+        <div class="row"><h3>Antrenamentul de azi</h3>${stClasa ? `<span class="pill soft">${stClasa.scadente} de repetat</span>` : ''}</div>
+        <p class="muted">O sesiune scurtă, amestecată: grile, carduri, termeni, completări și
+          explicații din toată clasa. Elementele revin exact înainte să le uiți.</p>
+        ${stClasa ? `<div class="stats">
+          <div class="stat"><b>${stClasa.stapanite}</b><span>stăpânite</span></div>
+          <div class="stat"><b>${stClasa.inLucru}</b><span>în lucru</span></div>
+          <div class="stat"><b>${stClasa.noi}</b><span>neîncepute</span></div>
+          <div class="stat"><b>${stClasa.procent}%</b><span>din total</span></div>
+        </div>
+        <div class="bar"><i style="--p:${stClasa.stapanite / stClasa.total}"></i></div>` : ''}
+        <button class="btn" data-go="#/antren/clasa">Începe (${set('nrAntrenament')} elemente)</button>
+      </div>
+
+      <h2>Antrenează o materie</h2>
+      ${lista.length ? `<div class="lista">${lista.map(m => {
+        const s = MOD.has(m.id) ? stapanireDomeniu('materie', m.id) : null;
+        return `<button class="rand" data-go="#/antren/materie/${encodeURIComponent(m.id)}">
+          <div class="rand-txt"><strong>${esc(m.materie)}</strong>
+            <span>${s ? `${s.procent}% stăpânit · ${s.scadente} de repetat` : 'se încarcă la deschidere'}</span></div>
+          ${s ? `<div class="rand-ctl"><div class="bar bar-mic"><i style="--p:${s.stapanite / s.total}"></i></div></div>` : ''}
+          <span class="lec-sag" aria-hidden="true"></span></button>`;
+      }).join('')}</div>` : '<div class="card"><p class="muted">Nicio materie pentru clasa aleasă.</p></div>'}
+
+      <h2>Altfel</h2>
+      <div class="grid2">
+        <button class="card tap" data-go="#/carduri"><h3>Doar carduri</h3><p class="muted">Pachetul clasic, față-verso.</p></button>
+        <button class="card tap" data-go="#/nota"><h3>Simulare de notă</h3><p class="muted">5 puncte a câte 2 — vezi ce notă iei.</p></button>
+      </div>`;
+  }
+
+  function legaHub() { /* delegarea [data-go] din §9 face tot; păstrat pentru simetrie */ }
+
+
+  /* ── simularea de notă ──────────────────────────────────────────────
+     Structura cerută: cinci puncte, fiecare valorând 2 puncte, total 10.
+     Fiecare punct conține 4 grile a câte 0,5 puncte — altfel notele ar sări
+     din 2 în 2 și „nota 9” n-ar fi accesibilă. Punctele trag din capitole
+     diferite, ca la o teză adevărată, nu toate din aceeași lecție. */
+  const PUNCTE = 5, PE_PUNCT = 4, VAL_ITEM = 0.5;
+
+  let sim = null;
+
+  function viewNota(modulId) {
+    title.textContent = 'Simulare de notă';
+    if (!modulId) { view.innerHTML = alegereNotaHTML(); return; }
+    const ixm = mod(modulId);
+    if (!ixm) { view.innerHTML = '<div class="card"><p>Materia nu există.</p></div>'; return; }
+    const proba = construiesteProba(modulId);
+    if (!proba) {
+      view.innerHTML = '<div class="card"><h3>Prea puține întrebări</h3>' +
+        '<p class="muted">Materia asta nu are încă destule întrebări pentru o simulare completă.</p>' +
+        '<button class="btn ghost" data-go="#/nota">Alege altă materie</button></div>';
+      return;
+    }
+    sim = { modul: modulId, materie: ixm.materie, puncte: proba, poz: 0, raspunsuri: [],
+            start: Date.now(), predictie: null };
+    deseneazaPredictie();
+  }
+
+  /* Cele 20 de întrebări, împărțite pe 5 puncte, cu capitolele răsfirate. */
+  function construiesteProba(modulId) {
+    const e = elemente('materie', modulId);
+    if (!e) return null;
+    const grile = e.elemente.filter(x => x.tip === 'g');
+    if (grile.length < PUNCTE * PE_PUNCT) return null;
+
+    /* Grupăm pe capitole și luăm pe rând din fiecare: așa un punct nu iese
+       din aceeași lecție, iar proba acoperă toată materia. */
+    const peCapitol = {};
+    grile.forEach(g => (peCapitol[g.capitol] || (peCapitol[g.capitol] = [])).push(g));
+    const cozi = Object.keys(peCapitol).sort().map(c => shuffle(peCapitol[c]));
+    const alese = [];
+    let i = 0;
+    while (alese.length < PUNCTE * PE_PUNCT) {
+      const coada = cozi[i % cozi.length];
+      if (coada.length) alese.push(coada.shift());
+      i++;
+      if (i > 10000) break;                    // plasă: cozi golite simultan
+    }
+    const puncte = [];
+    for (let p = 0; p < PUNCTE; p++) {
+      puncte.push({
+        nr: p + 1,
+        intrebari: alese.slice(p * PE_PUNCT, (p + 1) * PE_PUNCT).map(g => amestecaOptiuni(g))
+      });
+    }
+    return puncte;
+  }
+
+  const toateIntrebarile = () => sim.puncte.reduce((a, p) => a.concat(p.intrebari), []);
+  const punctulLui = i => Math.floor(i / PE_PUNCT) + 1;
+
+  /* Calibrare, iarăși: îți ceri nota ÎNAINTE. Diferența dintre ce crezi că
+     iei și ce iei e cel mai util număr din tot ecranul. */
+  function deseneazaPredictie() {
+    view.innerHTML = `
+      <div class="card">
+        <h3>${esc(sim.materie)}</h3>
+        <p class="muted">Cinci puncte, fiecare valorând 2 puncte. Douăzeci de întrebări,
+          din toate capitolele. Punctajul obținut ESTE nota.</p>
+        <div class="stats">
+          <div class="stat"><b>${PUNCTE}</b><span>puncte</span></div>
+          <div class="stat"><b>2p</b><span>fiecare</span></div>
+          <div class="stat"><b>${PUNCTE * PE_PUNCT}</b><span>întrebări</span></div>
+          <div class="stat"><b>10</b><span>maxim</span></div>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Ce notă crezi că iei?</h3>
+        <p class="muted">Spune înainte. La final compari — diferența îți arată dacă te cunoști.</p>
+        <div class="note-grid">${[4,5,6,7,8,9,10].map(n =>
+          `<button class="nota-buton" data-pred="${n}">${n}</button>`).join('')}</div>
+        <button class="btn ghost" id="sar">Sar peste, începe direct</button>
+      </div>`;
+    view.querySelectorAll('[data-pred]').forEach(b => b.onclick = () => {
+      sim.predictie = Number(b.dataset.pred); bate(6); deseneazaIntrebareNota();
+    });
+    view.querySelector('#sar').onclick = () => deseneazaIntrebareNota();
+    paint(true);
+  }
+
+  function deseneazaIntrebareNota() {
+    const toate = toateIntrebarile();
+    if (sim.poz >= toate.length) { deseneazaRezultatNota(); return; }
+    const q = toate[sim.poz];
+    const p = punctulLui(sim.poz);
+    const inPunct = (sim.poz % PE_PUNCT) + 1;
+
+    view.innerHTML = `
+      <div class="antren-bara" aria-hidden="true"><i style="--p:${sim.poz / toate.length}"></i></div>
+      <div class="puncte-sir" role="img" aria-label="Punctul ${p} din ${PUNCTE}">
+        ${sim.puncte.map(x => `<span class="punct-bulina${x.nr < p ? ' gata' : (x.nr === p ? ' acum' : '')}">${x.nr}</span>`).join('')}
+      </div>
+      <p class="muted">Punctul ${p} (2p) · întrebarea ${inPunct} din ${PE_PUNCT} · ${esc(sim.materie)}</p>
+      <div class="card">
+        <h3>${esc(q.intrebare)}</h3>
+        <div id="opt">${q.optiuni.map((o, i) => `<button class="opt" data-i="${i}">${esc(o)}</button>`).join('')}</div>
+      </div>
+      <p class="muted antren-nota">Fără feedback până la final — ca la o teză adevărată.</p>`;
+
+    view.querySelectorAll('#opt .opt').forEach(btn => btn.onclick = () => {
+      const i = Number(btn.dataset.i);
+      sim.raspunsuri.push({ ales: i, corect: i === q.corect, q, punct: p });
+      /* Grilele din simulare hrănesc și programarea eșalonată: o teză dată
+         degeaba e o ocazie ratată de învățare. */
+      if (q.k) programeaza(q.k, i === q.corect ? 2 : 0);
+      bate(6);
+      sim.poz++;
+      deseneazaIntrebareNota();
+    });
+    paint(true);
+  }
+
+  const notaRo = n => n.toFixed(2).replace('.', ',');
+
+  function verdict(nota) {
+    if (nota >= 9.5) return { t: 'Ești elev de nota 10.', d: 'Materia e sub control. Ține repetițiile ca să rămână așa.' };
+    if (nota >= 8.5) return { t: 'Ești elev de nota 9.', d: 'Foarte bine. Diferența până la 10 stă în cele câteva puncte de mai jos.' };
+    if (nota >= 7.5) return { t: 'Ești elev de nota 8.', d: 'Bine, dar cu goluri clare. Antrenează punctele slabe, nu tot.' };
+    if (nota >= 6.5) return { t: 'Ești elev de nota 7.', d: 'Baza există. Recitește lecțiile de mai jos și repetă în zilele următoare.' };
+    if (nota >= 5.5) return { t: 'Ești elev de nota 6.', d: 'Treci, dar fără marjă. Ia capitolele slabe pe rând.' };
+    if (nota >= 4.5) return { t: 'Ești elev de nota 5.', d: 'La limită. Începe cu lecțiile din care ai greșit cel mai mult.' };
+    return { t: 'Sub 5.', d: 'Nu e o catastrofă, e un punct de plecare: ia o lecție pe zi, cu antrenament.' };
+  }
+
+  function deseneazaRezultatNota() {
+    const r = sim.raspunsuri;
+    const bune = r.filter(x => x.corect).length;
+    const nota = bune * VAL_ITEM;
+    const minute = Math.max(1, Math.round((Date.now() - sim.start) / 60000));
+    const v = verdict(nota);
+
+    /* Punctajul pe fiecare dintre cele cinci puncte. */
+    const pePunct = sim.puncte.map(p => {
+      const ale = r.filter(x => x.punct === p.nr);
+      const b = ale.filter(x => x.corect).length;
+      return { nr: p.nr, b, total: ale.length, p: b * VAL_ITEM };
+    });
+
+    const istoric = (state.note[sim.modul] || []).slice();
+    const anterior = istoric.length ? istoric[istoric.length - 1].n : null;
+    istoric.push({ n: nota, cand: Date.now() });
+    state.note[sim.modul] = istoric.slice(-20);
+    save();
+    const medie = istoric.reduce((a, x) => a + x.n, 0) / istoric.length;
+
+    const gresite = r.filter(x => !x.corect);
+
+    view.innerHTML = `
+      <div class="card nota-card">
+        <p class="muted">${esc(sim.materie)}</p>
+        <div class="nota-mare">${notaRo(nota)}</div>
+        <p class="nota-verdict">${esc(v.t)}</p>
+        <p class="muted">${esc(v.d)}</p>
+        <p class="muted">${bune} din ${r.length} întrebări · ${minute} min
+          ${anterior !== null ? ` · anterior ${notaRo(anterior)}` : ''}
+          ${istoric.length > 1 ? ` · media ta ${notaRo(medie)}` : ''}</p>
+      </div>
+
+      ${sim.predictie !== null ? `<div class="card">
+        <h3>Ai zis ${sim.predictie}, ai luat ${notaRo(nota)}</h3>
+        <p class="muted">${
+          Math.abs(sim.predictie - nota) <= 0.5
+            ? 'Te cunoști bine. Asta e mai valoros decât pare: poți avea încredere în propria evaluare când înveți singur.'
+            : sim.predictie > nota
+              ? 'Te-ai supraestimat. Nu e o problemă de inteligență, ci de calibrare: senzația de „îmi sună cunoscut” nu e același lucru cu a ști.'
+              : 'Te-ai subestimat. Știi mai mult decât crezi — emoția te costă mai mult decât materia.'
+        }</p>
+      </div>` : ''}
+
+      <div class="card">
+        <h3>Pe puncte</h3>
+        <div class="lista lista-plata">
+          ${pePunct.map(p => `<div class="rand">
+            <div class="rand-txt"><strong>Punctul ${p.nr}</strong><span>${p.b} din ${p.total} întrebări</span></div>
+            <div class="rand-ctl"><div class="bar bar-mic"><i style="--p:${p.total ? p.b / p.total : 0}"></i></div>
+              <span class="pill ${p.p >= 1.5 ? '' : 'soft'}">${notaRo(p.p)}p</span></div></div>`).join('')}
+        </div>
+        <p class="muted">Fiecare punct valorează 2p. Suma lor e nota.</p>
+      </div>
+
+      ${gresite.length ? `<div class="card">
+        <h3>Ce ai greșit (${gresite.length})</h3>
+        <ul class="rev">${gresite.map(x => `<li>
+          <p><strong>${esc(x.q.intrebare)}</strong></p>
+          <p class="muted">Ai ales: ${esc(x.q.optiuni[x.ales])}</p>
+          <p>Corect: <strong>${esc(x.q.optiuni[x.q.corect])}</strong></p>
+          ${x.q.explicatie ? `<p class="muted">${esc(x.q.explicatie)}</p>` : ''}
+        </li>`).join('')}</ul>
+      </div>` : '<div class="card"><h3>Zero greșeli</h3><p class="muted">Nimic de revăzut aici.</p></div>'}
+
+      <button class="btn" data-go="#/antren/materie/${encodeURIComponent(sim.modul)}">Antrenează ce ai greșit</button>
+      <button class="btn ghost" id="din-nou-nota">Încă o simulare</button>
+      <button class="btn ghost" data-go="#/nota">Altă materie</button>`;
+
+    const b = view.querySelector('#din-nou-nota');
+    if (b) b.onclick = () => viewNota(sim.modul);
+    paint(true);
+  }
+
+  function alegereNotaHTML() {
+    const lista = modClasa(state.clasa);
+    return `
+      <div class="card">
+        <h3>Simulare de notă</h3>
+        <p class="muted">Cinci puncte, fiecare de 2 puncte, douăzeci de întrebări din toate
+          capitolele materiei. Punctajul obținut este nota — 9 puncte înseamnă nota 9.</p>
+      </div>
+      <h2>Alege materia</h2>
+      ${lista.length ? `<div class="lista">${lista.map(m => {
+        const ist = state.note[m.id] || [];
+        const ult = ist.length ? ist[ist.length - 1].n : null;
+        const med = ist.length ? ist.reduce((a, x) => a + x.n, 0) / ist.length : null;
+        return `<button class="rand" data-go="#/nota/${encodeURIComponent(m.id)}">
+          <div class="rand-txt"><strong>${esc(m.materie)}</strong>
+            <span>${ult === null ? 'nicio simulare încă'
+              : `ultima ${notaRo(ult)} · media ${notaRo(med)} din ${ist.length}`}</span></div>
+          ${ult === null ? '' : `<div class="rand-ctl"><span class="pill ${ult >= 8.5 ? '' : 'soft'}">${notaRo(ult)}</span></div>`}
+          <span class="lec-sag" aria-hidden="true"></span></button>`;
+      }).join('')}</div>` : '<div class="card"><p class="muted">Nicio materie pentru clasa aleasă.</p></div>'}`;
+  }
+
   /* ═══ §8  ecranul de setări ═════════════════════════════════════════ */
 
   /* Construcție declarativă: fiecare control își poartă cheia din `setari`,
@@ -1372,6 +2230,12 @@
         ${randSwitch('doarBac', 'Doar materiile de bacalaureat', 'Ascunde disciplinele fără probă la BAC.')}
       </div>
 
+      <h2>Antrenament</h2>
+      <div class="lista">
+        ${randStepper('nrAntrenament', 'Elemente per sesiune', 'Cât durează o sesiune. 20 înseamnă circa 8–10 minute.', 5, 60, 5, '')}
+        ${randSwitch('calibrare', 'Întreabă cât de sigur sunt', 'Înainte de fiecare răspuns. Diferența dintre „sunt sigur” și corect e cea mai utilă cifră din raport.')}
+      </div>
+
       <h2>Test grilă</h2>
       <div class="lista">
         ${randStepper('nrIntrebari', 'Întrebări per test', '0 = toate întrebările din domeniu. Teza se dă mereu întreagă.', 0, 40, 4, '')}
@@ -1396,6 +2260,8 @@
         ${randActiune('reset-progres', 'Șterge progresul lecțiilor', 'Lecțiile devin din nou necitite.', true)}
         ${randActiune('reset-teste', 'Șterge rezultatele testelor', 'Media revine la zero.', true)}
         ${randActiune('reset-carduri', 'Șterge istoricul cardurilor', 'Se pierde ce ai marcat „știu”.', true)}
+        ${randActiune('reset-antren', 'Șterge antrenamentul', 'Toate scadențele și stăpânirea se pierd; materia se ia de la capăt.', true)}
+        ${randActiune('reset-note', 'Șterge simulările de notă', 'Istoricul notelor și mediile.', true)}
         ${randActiune('reset-notite', 'Șterge notițele', 'Toate notele din lecții.', true)}
         ${randActiune('reset-setari', 'Readu setările implicite', 'Doar setările, nu și progresul.', true)}
         ${randActiune('reset-tot', 'Șterge tot', 'Aplicația revine la starea de la prima pornire.', true)}
@@ -1495,17 +2361,22 @@
             nou = sanitizeaza(brut);
           } catch { alert('Fișierul nu conține o copie validă.'); return; }
 
+          /* `render()` e `async`: o excepție dinăuntrul ei devine promisiune
+             respinsă, deci un `try/catch` sincron n-o prinde niciodată — de
+             aceea salvarea trebuie să fie sigură ÎNAINTE, prin sanitizare,
+             nu recuperată după. `sanitizeaza()` garantează formele; aici doar
+             ne asigurăm că o randare căzută nu lasă starea nouă persistată. */
           const precedent = state;
-          try {
-            state = nou;
-            aplicaPreferinte();
-            render();
-            save();                       // abia după ce randarea a reușit
-          } catch {
-            state = precedent;
-            aplicaPreferinte(); render();
-            alert('Importul a eșuat; datele dinainte au rămas neatinse.');
-          }
+          state = nou;
+          aplicaPreferinte();
+          Promise.resolve()
+            .then(() => render())
+            .then(() => { save(); })
+            .catch(() => {
+              state = precedent;
+              aplicaPreferinte(); render();
+              alert('Importul a eșuat; datele dinainte au rămas neatinse.');
+            });
         };
         fr.readAsText(f);
       };
@@ -1536,9 +2407,11 @@
       'reset-progres': ['Ștergi progresul tuturor lecțiilor?', () => { state.lectiiCitite = {}; state.zile = {}; }],
       'reset-teste': ['Ștergi toate rezultatele testelor?', () => { state.teste = {}; }],
       'reset-carduri': ['Ștergi istoricul cardurilor?', () => { state.carduri = {}; }],
+      'reset-antren': ['Ștergi tot antrenamentul — scadențe și stăpânire?', () => { state.antren = {}; }],
+      'reset-note': ['Ștergi istoricul simulărilor de notă?', () => { state.note = {}; }],
       'reset-notite': ['Ștergi toate notițele din lecții?', () => { state.notite = {}; }],
       'reset-setari': ['Readuci toate setările la valorile implicite?', () => { state.setari = Object.assign({}, SETARI); }],
-      'reset-tot': ['Ștergi TOT: progres, teste, carduri, notițe și setări?', () => { state = STARE_GOALA(); }]
+      'reset-tot': ['Ștergi TOT: progres, teste, carduri, antrenament, note, notițe și setări?', () => { state = STARE_GOALA(); }]
     }[id];
     if (!sters) return;
     if (!cere(sters[0])) return;
@@ -1592,7 +2465,11 @@
     /* Prefetch discret: modulele clasei curente, ca deschiderea unei lecții să
        fie instantanee. Rulează în timpul mort, nu concurează cu prima pictură. */
     const inactiv = window.requestIdleCallback || (f => setTimeout(f, 800));
-    inactiv(() => { modClasa(state.clasa).slice(0, 8).forEach(m => ceriModul(m.id).catch(() => {})); });
+    /* TOATE modulele clasei, nu primele 8: ecranul Acasă și hubul de
+       antrenament arată stăpânirea pe clasă, iar cu 11–13 module în clasă
+       plafonul de 8 făcea ca acele cifre să nu apară niciodată la pornire.
+       Fișierele sunt oricum în precache, deci nu e trafic în plus. */
+    inactiv(() => { modClasa(state.clasa).forEach(m => ceriModul(m.id).catch(() => {})); });
   }).catch(() => { eroareDate(); });
 
   if ('serviceWorker' in navigator) {
@@ -1608,7 +2485,7 @@
        aceste ecrane reload-ul se AMÂNĂ până la următoarea navigare sau până
        când tab-ul trece în fundal. */
     const stareNepersistata = () =>
-      /^#\/(test|carduri)\/./.test(location.hash || '') ||
+      /^#\/(test|carduri|antren|nota)\/./.test(location.hash || '') ||
       (document.activeElement && document.activeElement.id === 'nota');
     let reloadAmanat = false;
     const incearcaReload = () => {
