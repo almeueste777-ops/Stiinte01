@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 19,
-  "nrLectii": 211,
-  "nrCarduri": 844,
-  "nrIntrebari": 1304,
+  "nrModule": 20,
+  "nrLectii": 220,
+  "nrCarduri": 880,
+  "nrIntrebari": 1364,
   "module": [
     {
       "id": "geografie-9",
@@ -1725,6 +1725,88 @@
         {
           "semestru": 2,
           "nrIntrebari": 13
+        }
+      ]
+    },
+    {
+      "id": "geografie-13",
+      "materie": "Geografie",
+      "clasa": "a XIII-a",
+      "an": 5,
+      "arie": "Om și societate",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Aprofundare pentru bacalaureat: regiunile Europei, analiza comparativă a statelor, harta de examen și metoda de lucru cu datele geografice.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 60,
+      "capitole": [
+        {
+          "id": "geo13-c1",
+          "titlu": "Regiunile Europei",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "geo13-01",
+              "titlu": "Europa Nordică și Europa Vestică"
+            },
+            {
+              "id": "geo13-02",
+              "titlu": "Europa Centrală, Sudică și Estică"
+            },
+            {
+              "id": "geo13-03",
+              "titlu": "România în context regional"
+            }
+          ]
+        },
+        {
+          "id": "geo13-c2",
+          "titlu": "Analiza comparativă și studiile de caz",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "geo13-04",
+              "titlu": "Metoda comparației în geografie"
+            },
+            {
+              "id": "geo13-05",
+              "titlu": "Studii de caz: state europene reprezentative"
+            },
+            {
+              "id": "geo13-06",
+              "titlu": "Mediul și dezvoltarea durabilă în Europa"
+            }
+          ]
+        },
+        {
+          "id": "geo13-c3",
+          "titlu": "Bacalaureatul la geografie",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "geo13-07",
+              "titlu": "Structura probei și harta de examen"
+            },
+            {
+              "id": "geo13-08",
+              "titlu": "Interpretarea graficelor și a tabelelor"
+            },
+            {
+              "id": "geo13-09",
+              "titlu": "Strategii de pregătire și greșeli frecvente"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
         }
       ]
     },
