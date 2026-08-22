@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 30,
-  "nrLectii": 310,
-  "nrCarduri": 1240,
-  "nrIntrebari": 1964,
+  "nrModule": 31,
+  "nrLectii": 319,
+  "nrCarduri": 1276,
+  "nrIntrebari": 2024,
   "module": [
     {
       "id": "geografie-9",
@@ -883,6 +883,88 @@
             {
               "id": "psi10-16",
               "titlu": "Relații interpersonale și conduite sociale"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "engleza-10",
+      "materie": "Limba modernă 1 (Engleză)",
+      "clasa": "a X-a",
+      "an": 2,
+      "arie": "Limbă și comunicare",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Structuri intermediare: timpuri perfecte, condiționale, pasiv, vorbire indirectă și competențe de comunicare aplicată.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 60,
+      "capitole": [
+        {
+          "id": "eng10-c1",
+          "titlu": "Timpuri și aspecte",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "eng10-01",
+              "titlu": "Present Perfect Simple și Continuous"
+            },
+            {
+              "id": "eng10-02",
+              "titlu": "Past Perfect și succesiunea timpurilor"
+            },
+            {
+              "id": "eng10-03",
+              "titlu": "Diateza pasivă"
+            }
+          ]
+        },
+        {
+          "id": "eng10-c2",
+          "titlu": "Structuri complexe",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "eng10-04",
+              "titlu": "Condiționalele"
+            },
+            {
+              "id": "eng10-05",
+              "titlu": "Vorbirea indirectă"
+            },
+            {
+              "id": "eng10-06",
+              "titlu": "Infinitiv, gerunziu, relative"
+            }
+          ]
+        },
+        {
+          "id": "eng10-c3",
+          "titlu": "Comunicare aplicată",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "eng10-07",
+              "titlu": "Text argumentativ și opinie"
+            },
+            {
+              "id": "eng10-08",
+              "titlu": "Ascultare, vorbire, interacțiune"
+            },
+            {
+              "id": "eng10-09",
+              "titlu": "Engleza pentru studiu și examene"
             }
           ]
         }
