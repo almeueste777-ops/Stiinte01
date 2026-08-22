@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 34,
-  "nrLectii": 346,
-  "nrCarduri": 1384,
-  "nrIntrebari": 2204,
+  "nrModule": 35,
+  "nrLectii": 355,
+  "nrCarduri": 1420,
+  "nrIntrebari": 2264,
   "module": [
     {
       "id": "geografie-9",
@@ -391,6 +391,88 @@
             {
               "id": "eng9-09",
               "titlu": "Citit, scris și strategii de învățare"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "franceza-9",
+      "materie": "Limba modernă 2 (Franceză)",
+      "clasa": "a IX-a",
+      "an": 1,
+      "arie": "Limbă și comunicare",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Bazele limbii franceze: pronunție, substantiv și articol, prezentul verbelor, comunicare elementară și vocabular cotidian.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 60,
+      "capitole": [
+        {
+          "id": "fra9-c1",
+          "titlu": "Sunete, articole, substantive",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fra9-01",
+              "titlu": "Pronunție și ortografie"
+            },
+            {
+              "id": "fra9-02",
+              "titlu": "Substantivul, genul, numărul, articolele"
+            },
+            {
+              "id": "fra9-03",
+              "titlu": "Adjectivul și acordul"
+            }
+          ]
+        },
+        {
+          "id": "fra9-c2",
+          "titlu": "Verbele la prezent",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "fra9-04",
+              "titlu": "Verbele de grupa I și a II-a"
+            },
+            {
+              "id": "fra9-05",
+              "titlu": "Verbele neregulate uzuale"
+            },
+            {
+              "id": "fra9-06",
+              "titlu": "Negația, interogația, pronumele"
+            }
+          ]
+        },
+        {
+          "id": "fra9-c3",
+          "titlu": "Comunicare și vocabular",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "fra9-07",
+              "titlu": "Vocabular tematic de bază"
+            },
+            {
+              "id": "fra9-08",
+              "titlu": "Situații de comunicare"
+            },
+            {
+              "id": "fra9-09",
+              "titlu": "Citit, scris și strategii"
             }
           ]
         }

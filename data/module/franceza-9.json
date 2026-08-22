@@ -1,0 +1,1073 @@
+{
+ "id": "franceza-9",
+ "materie": "Limba modernă 2 (Franceză)",
+ "clasa": "a IX-a",
+ "an": 1,
+ "arie": "Limbă și comunicare",
+ "bac": false,
+ "descriere": "Bazele limbii franceze: pronunție, substantiv și articol, prezentul verbelor, comunicare elementară și vocabular cotidian.",
+ "capitole": [
+  {
+   "id": "fra9-c1",
+   "titlu": "Sunete, articole, substantive",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "fra9-01",
+     "titlu": "Pronunție și ortografie",
+     "rezumat": "Franceza are o distanță mare între scriere și pronunție. Regulile de bază: consoanele finale sunt, de regulă, mute (petit, grand, vous), cu excepții (c, r, f, l — „careful”); „e” final nu se pronunță, dar face să se audă consoana dinainte (petit–petite); „h” nu se pronunță niciodată, dar „h aspirat” împiedică legătura și eliziunea. Grupurile de litere au valori fixe: „ou” = u, „au/eau” = o, „ai/ei” = e deschis, „oi” = ua, „eu/œu” = ö, „on/an/in/un” = vocale nazale. Legătura (liaison) leagă consoana finală mută de vocala următoare: „les amis” se citește „lezami”. Accentele schimbă sensul sau pronunția: é închis, è deschis, ê lung, ç = s înaintea lui a, o, u.",
+     "ideiCheie": [
+      "Consoanele finale sunt, de regulă, mute; „e” final face să se audă consoana dinainte.",
+      "Grupurile ou, au/eau, ai, oi, eu au valori fixe de pronunție.",
+      "Vocalele nazale: on, an, in, un.",
+      "Legătura leagă consoana finală mută de vocala următoare."
+     ],
+     "termeni": [
+      {
+       "t": "liaison",
+       "d": "legarea consoanei finale mute de vocala inițială a cuvântului următor"
+      },
+      {
+       "t": "voyelle nasale",
+       "d": "vocală pronunțată cu aer și pe nas, notată prin on, an, in, un"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se pronunță grupul „ou” în franceză?",
+       "v": "Ca „u” românesc."
+      },
+      {
+       "f": "Ce este liaison-ul?",
+       "v": "Legarea consoanei finale mute de vocala inițială a cuvântului următor."
+      },
+      {
+       "f": "Ce rol are „e” final?",
+       "v": "Nu se pronunță, dar face să se audă consoana dinaintea lui."
+      },
+      {
+       "f": "Ce sunt vocalele nazale?",
+       "v": "Vocalele pronunțate și pe nas, notate prin on, an, in, un."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "În „les amis”, legătura face să se audă:",
+       "optiuni": [
+        "consoana „s” ca „z”",
+        "consoana „s” ca „s”",
+        "niciun sunet suplimentar",
+        "o vocală nazală"
+       ],
+       "corect": 0,
+       "explicatie": "Este liaison-ul obligatoriu după articol."
+      },
+      {
+       "intrebare": "Grupul „eau” se pronunță:",
+       "optiuni": [
+        "o",
+        "e-a-u",
+        "ö",
+        "u"
+       ],
+       "corect": 0,
+       "explicatie": "La fel ca „au”."
+      },
+      {
+       "intrebare": "Litera „h” în franceză:",
+       "optiuni": [
+        "nu se pronunță niciodată",
+        "se pronunță ca în engleză",
+        "se pronunță doar la început de cuvânt",
+        "se pronunță ca „ș”"
+       ],
+       "corect": 0,
+       "explicatie": "„H aspirat” împiedică însă legătura."
+      },
+      {
+       "intrebare": "„ç” se folosește pentru a obține sunetul „s” înaintea lui:",
+       "optiuni": [
+        "a, o, u",
+        "e, i",
+        "toate vocalele",
+        "consoane"
+       ],
+       "corect": 0,
+       "explicatie": "Înaintea lui e și i, „c” se citește deja „s”."
+      }
+     ]
+    },
+    {
+     "id": "fra9-02",
+     "titlu": "Substantivul, genul, numărul, articolele",
+     "rezumat": "Substantivele franceze au două genuri: masculin și feminin. Genul nu coincide întotdeauna cu cel din română: „le problème” (masculin), „la voiture” (feminin), „le livre”, „la table”. Se învață împreună cu articolul. Femininul se formează, de regulă, prin adăugarea unui „e” (un étudiant – une étudiante), cu modificări ortografice (-er → -ère, -eur → -euse, -teur → -trice). Pluralul adaugă „s” mut; excepții: -al → -aux, -eau → -eaux, -ou → -oux la unele cuvinte. Articolele: hotărâte (le, la, l', les), nehotărâte (un, une, des) și partitive (du, de la, de l', des), acestea din urmă exprimând o cantitate nedeterminată: „je bois du café”, „je mange de la soupe”. La negativ, partitivul și nehotărâtul devin „de”: „je ne bois pas de café”.",
+     "ideiCheie": [
+      "Genul substantivelor franceze nu coincide cu cel românesc; se învață cu articolul.",
+      "Femininul adaugă, de regulă, „e”; pluralul adaugă „s” mut.",
+      "Articole hotărâte, nehotărâte și partitive.",
+      "La negativ, partitivul și nehotărâtul devin „de”."
+     ],
+     "termeni": [
+      {
+       "t": "article partitif",
+       "d": "articol care exprimă o cantitate nedeterminată (du, de la, des)"
+      },
+      {
+       "t": "genre",
+       "d": "categoria gramaticală masculin sau feminin a substantivului"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce exprimă articolul partitiv?",
+       "v": "O cantitate nedeterminată dintr-o materie."
+      },
+      {
+       "f": "Ce se întâmplă cu partitivul la negativ?",
+       "v": "Devine „de”: „je ne bois pas de café”."
+      },
+      {
+       "f": "Cum se formează, de regulă, femininul?",
+       "v": "Prin adăugarea unui „e” la forma de masculin."
+      },
+      {
+       "f": "De ce se învață substantivul împreună cu articolul?",
+       "v": "Pentru că genul nu coincide cu cel din română."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Je mange ______ pain.” Forma corectă este:",
+       "optiuni": [
+        "du",
+        "le",
+        "un",
+        "de"
+       ],
+       "corect": 0,
+       "explicatie": "Partitivul exprimă o cantitate nedeterminată."
+      },
+      {
+       "intrebare": "La negativ, „je mange du pain” devine:",
+       "optiuni": [
+        "„je ne mange pas de pain”",
+        "„je ne mange pas du pain”",
+        "„je ne mange pas le pain”",
+        "„je ne mange pas un pain”"
+       ],
+       "corect": 0,
+       "explicatie": "Partitivul devine „de” după negație."
+      },
+      {
+       "intrebare": "Pluralul lui „journal” este:",
+       "optiuni": [
+        "journaux",
+        "journals",
+        "journales",
+        "journaus"
+       ],
+       "corect": 0,
+       "explicatie": "Terminația -al devine -aux."
+      },
+      {
+       "intrebare": "„Problème” este un substantiv:",
+       "optiuni": [
+        "masculin",
+        "feminin",
+        "ambigen",
+        "invariabil"
+       ],
+       "corect": 0,
+       "explicatie": "Genul nu coincide cu cel din română."
+      }
+     ]
+    },
+    {
+     "id": "fra9-03",
+     "titlu": "Adjectivul și acordul",
+     "rezumat": "Adjectivul francez se acordă în gen și număr cu substantivul: „un livre intéressant”, „une histoire intéressante”, „des livres intéressants”. Femininul adaugă „e”; formele în -eux devin -euse, cele în -f devin -ve, cele în -er devin -ère. Unele adjective au forme neregulate: beau/belle, nouveau/nouvelle, vieux/vieille, blanc/blanche. Poziția adjectivului: majoritatea stau după substantiv („une voiture rouge”), dar un grup restrâns stă înainte: beau, bon, grand, gros, jeune, joli, mauvais, nouveau, petit, vieux. Unele adjective își schimbă sensul după poziție: „un grand homme” (un om mare prin valoare) față de „un homme grand” (un om înalt). Comparativul se formează cu plus/moins/aussi … que; superlativul, cu le/la/les plus (moins).",
+     "ideiCheie": [
+      "Adjectivul se acordă în gen și număr cu substantivul.",
+      "Majoritatea adjectivelor stau după substantiv; un grup restrâns, înainte.",
+      "Unele adjective își schimbă sensul după poziție.",
+      "Comparativ: plus/moins/aussi … que; superlativ: le plus / le moins."
+     ],
+     "termeni": [
+      {
+       "t": "accord",
+       "d": "acordul adjectivului în gen și număr cu substantivul determinat"
+      },
+      {
+       "t": "adjectif antéposé",
+       "d": "adjectiv plasat înaintea substantivului"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se acordă adjectivul francez?",
+       "v": "În gen și număr cu substantivul determinat."
+      },
+      {
+       "f": "Ce adjective stau înaintea substantivului?",
+       "v": "Beau, bon, grand, gros, jeune, joli, mauvais, nouveau, petit, vieux."
+      },
+      {
+       "f": "Ce înseamnă „un grand homme”?",
+       "v": "Un om mare prin valoare, spre deosebire de „un homme grand” — un om înalt."
+      },
+      {
+       "f": "Cum se formează superlativul?",
+       "v": "Cu „le/la/les plus” sau „le/la/les moins”."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Femininul lui „heureux” este:",
+       "optiuni": [
+        "heureuse",
+        "heureuxe",
+        "heureue",
+        "heureuse-e"
+       ],
+       "corect": 0,
+       "explicatie": "Terminația -eux devine -euse."
+      },
+      {
+       "intrebare": "„Un homme grand” înseamnă:",
+       "optiuni": [
+        "un om înalt",
+        "un om important",
+        "un om bătrân",
+        "un om puternic"
+       ],
+       "corect": 0,
+       "explicatie": "„Un grand homme” înseamnă un om de valoare."
+      },
+      {
+       "intrebare": "Comparativul de superioritate se formează cu:",
+       "optiuni": [
+        "plus … que",
+        "moins … que",
+        "aussi … que",
+        "le plus"
+       ],
+       "corect": 0,
+       "explicatie": "„Moins” exprimă inferioritatea, „aussi” egalitatea."
+      },
+      {
+       "intrebare": "Femininul lui „beau” este:",
+       "optiuni": [
+        "belle",
+        "beaue",
+        "beaux",
+        "bel"
+       ],
+       "corect": 0,
+       "explicatie": "„Bel” se folosește înaintea unei vocale, la masculin."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fra9-c2",
+   "titlu": "Verbele la prezent",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "fra9-04",
+     "titlu": "Verbele de grupa I și a II-a",
+     "rezumat": "Verbele franceze se împart în trei grupe. Grupa I cuprinde verbele în -er (parler, aimer, travailler) — cea mai numeroasă și cea mai regulată: se scoate -er și se adaugă terminațiile -e, -es, -e, -ons, -ez, -ent. Excepție notabilă: „aller”, care e neregulat. Grupa a II-a cuprinde verbele în -ir cu infix -iss- la plural (finir, choisir, réussir): je finis, tu finis, il finit, nous finissons, vous finissez, ils finissent. Recunoașterea grupei se face după infinitiv și după forma de persoana I plural. Verbele de grupa I cu particularități ortografice: cele în -ger adaugă „e” înaintea lui -ons (nous mangeons), cele în -cer primesc cedilă (nous commençons), cele în -yer schimbă y în i înaintea unui e mut.",
+     "ideiCheie": [
+      "Grupa I: verbe în -er, cu terminațiile -e, -es, -e, -ons, -ez, -ent.",
+      "Grupa a II-a: verbe în -ir cu infix -iss- la plural.",
+      "„Aller” este neregulat, deși se termină în -er.",
+      "Particularități ortografice la verbele în -ger, -cer, -yer."
+     ],
+     "termeni": [
+      {
+       "t": "premier groupe",
+       "d": "grupa verbelor franceze terminate în -er"
+      },
+      {
+       "t": "infixe -iss-",
+       "d": "elementul care apare la pluralul verbelor de grupa a II-a"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt terminațiile verbelor de grupa I la prezent?",
+       "v": "-e, -es, -e, -ons, -ez, -ent."
+      },
+      {
+       "f": "Cum se recunoaște un verb de grupa a II-a?",
+       "v": "Se termină în -ir și primește infixul -iss- la plural."
+      },
+      {
+       "f": "De ce scriem „nous mangeons”?",
+       "v": "Pentru a păstra sunetul „j” înaintea lui -ons."
+      },
+      {
+       "f": "Ce verb în -er este neregulat?",
+       "v": "„Aller”."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Nous ______ (commencer) le cours.”",
+       "optiuni": [
+        "commençons",
+        "commencons",
+        "commencions",
+        "commencerons"
+       ],
+       "corect": 0,
+       "explicatie": "Cedila păstrează sunetul „s”."
+      },
+      {
+       "intrebare": "Verbul „finir” la persoana I plural este:",
+       "optiuni": [
+        "nous finissons",
+        "nous finons",
+        "nous finirons",
+        "nous finissions"
+       ],
+       "corect": 0,
+       "explicatie": "Grupa a II-a primește infixul -iss-."
+      },
+      {
+       "intrebare": "Terminația persoanei a III-a plural, grupa I, este:",
+       "optiuni": [
+        "-ent",
+        "-ont",
+        "-ient",
+        "-ant"
+       ],
+       "corect": 0,
+       "explicatie": "Ea nu se pronunță."
+      },
+      {
+       "intrebare": "„Aller” aparține:",
+       "optiuni": [
+        "verbelor neregulate, deși se termină în -er",
+        "grupei I",
+        "grupei a II-a",
+        "grupei a III-a regulate"
+       ],
+       "corect": 0,
+       "explicatie": "Forma de prezent este je vais, tu vas, il va…"
+      }
+     ]
+    },
+    {
+     "id": "fra9-05",
+     "titlu": "Verbele neregulate uzuale",
+     "rezumat": "Grupa a III-a cuprinde verbele neregulate, puține ca număr, dar foarte frecvente: être (je suis, tu es, il est, nous sommes, vous êtes, ils sont), avoir (j'ai, tu as, il a, nous avons, vous avez, ils ont), aller (je vais, tu vas, il va, nous allons, vous allez, ils vont), faire (je fais, tu fais, il fait, nous faisons, vous faites, ils font). Alte verbe uzuale: pouvoir, vouloir, devoir, savoir, venir, prendre, mettre, dire, voir, partir, sortir, dormir. Ele se învață în context, prin expresii curente: „j'ai faim”, „il fait beau”, „je vais bien”, „on prend le bus”. Verbele „être” și „avoir” sunt esențiale și pentru că servesc drept auxiliare la timpurile compuse.",
+     "ideiCheie": [
+      "Grupa a III-a cuprinde verbele neregulate, puține, dar foarte frecvente.",
+      "Être, avoir, aller, faire sunt cele mai importante.",
+      "Ele se învață în context, prin expresii uzuale.",
+      "Être și avoir servesc drept auxiliare la timpurile compuse."
+     ],
+     "termeni": [
+      {
+       "t": "verbe irrégulier",
+       "d": "verb cu forme proprii, care nu urmează un tipar regulat"
+      },
+      {
+       "t": "auxiliaire",
+       "d": "verb ajutător folosit la formarea timpurilor compuse"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt formele prezentului pentru „être”?",
+       "v": "Je suis, tu es, il est, nous sommes, vous êtes, ils sont."
+      },
+      {
+       "f": "Care sunt formele prezentului pentru „avoir”?",
+       "v": "J'ai, tu as, il a, nous avons, vous avez, ils ont."
+      },
+      {
+       "f": "De ce sunt esențiale être și avoir?",
+       "v": "Pentru că servesc și ca auxiliare la timpurile compuse."
+      },
+      {
+       "f": "Cum se spune „mi-e foame”?",
+       "v": "„J'ai faim.”"
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Vous ______ (être) étudiants.”",
+       "optiuni": [
+        "êtes",
+        "estes",
+        "sont",
+        "êtez"
+       ],
+       "corect": 0,
+       "explicatie": "Persoana a II-a plural este neregulată."
+      },
+      {
+       "intrebare": "„Mi-e foame” se traduce prin:",
+       "optiuni": [
+        "„J'ai faim.”",
+        "„Je suis faim.”",
+        "„J'ai faim d'être.”",
+        "„Je fais faim.”"
+       ],
+       "corect": 0,
+       "explicatie": "Franceza folosește „avoir” pentru senzații."
+      },
+      {
+       "intrebare": "„Il fait beau” înseamnă:",
+       "optiuni": [
+        "este vreme frumoasă",
+        "el face frumos",
+        "el este frumos",
+        "el se face frumos"
+       ],
+       "corect": 0,
+       "explicatie": "Verbul „faire” se folosește impersonal pentru vreme."
+      },
+      {
+       "intrebare": "Verbele „être” și „avoir” sunt importante și pentru că:",
+       "optiuni": [
+        "servesc ca auxiliare la timpurile compuse",
+        "sunt cele mai lungi",
+        "se conjugă regulat",
+        "se folosesc doar la prezent"
+       ],
+       "corect": 0,
+       "explicatie": "Passé composé se formează cu ele."
+      }
+     ]
+    },
+    {
+     "id": "fra9-06",
+     "titlu": "Negația, interogația, pronumele",
+     "rezumat": "Negația franceză este dublă: „ne … pas” încadrează verbul conjugat („je ne parle pas”). Variante: ne … plus (nu mai), ne … jamais (niciodată), ne … rien (nimic), ne … personne (pe nimeni), ne … que (doar). În vorbirea curentă „ne” se omite adesea, dar în scris rămâne obligatoriu. Interogația are trei forme: prin intonație („Tu viens?”), cu „est-ce que” („Est-ce que tu viens?”) și prin inversiune („Viens-tu?”), ultima fiind cea mai formală. Cuvintele interogative: qui, que/quoi, où, quand, comment, pourquoi, combien, quel. Pronumele personale subiect: je, tu, il/elle/on, nous, vous, ils/elles; „on” înlocuiește frecvent „nous” în vorbirea curentă. Pronumele complement direct: me, te, le/la, nous, vous, les — plasate înaintea verbului.",
+     "ideiCheie": [
+      "Negația este dublă: ne … pas, cu variante pentru sensuri diferite.",
+      "Interogația: prin intonație, cu „est-ce que” sau prin inversiune.",
+      "„On” înlocuiește frecvent „nous” în vorbirea curentă.",
+      "Pronumele complement se plasează înaintea verbului."
+     ],
+     "termeni": [
+      {
+       "t": "négation double",
+       "d": "construcția „ne … pas”, care încadrează verbul conjugat"
+      },
+      {
+       "t": "est-ce que",
+       "d": "formulă care introduce o întrebare fără inversiune"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se formează negația în franceză?",
+       "v": "Cu „ne … pas”, care încadrează verbul conjugat."
+      },
+      {
+       "f": "Care sunt cele trei forme de interogație?",
+       "v": "Prin intonație, cu „est-ce que” și prin inversiune."
+      },
+      {
+       "f": "Ce înlocuiește „on” în vorbirea curentă?",
+       "v": "Pe „nous”."
+      },
+      {
+       "f": "Unde se plasează pronumele complement direct?",
+       "v": "Înaintea verbului."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Je ne mange ______ de viande” cu sensul „nu mai mănânc”:",
+       "optiuni": [
+        "plus",
+        "pas",
+        "jamais",
+        "rien"
+       ],
+       "corect": 0,
+       "explicatie": "„Ne … plus” exprimă încetarea."
+      },
+      {
+       "intrebare": "Forma cea mai formală de interogație este:",
+       "optiuni": [
+        "inversiunea",
+        "intonația",
+        "„est-ce que”",
+        "adăugarea lui „non?”"
+       ],
+       "corect": 0,
+       "explicatie": "„Viens-tu?” aparține registrului îngrijit."
+      },
+      {
+       "intrebare": "Pronumele complement direct se plasează:",
+       "optiuni": [
+        "înaintea verbului",
+        "după verb",
+        "la începutul propoziției",
+        "la sfârșitul propoziției"
+       ],
+       "corect": 0,
+       "explicatie": "„Je le vois”, nu „je vois le”."
+      },
+      {
+       "intrebare": "„Ne … que” exprimă:",
+       "optiuni": [
+        "restricția, echivalentul lui „doar”",
+        "negația totală",
+        "interdicția",
+        "îndoiala"
+       ],
+       "corect": 0,
+       "explicatie": "„Je n'ai que dix euros.”"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fra9-c3",
+   "titlu": "Comunicare și vocabular",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "fra9-07",
+     "titlu": "Vocabular tematic de bază",
+     "rezumat": "Câmpurile esențiale: identitatea (nom, prénom, âge, nationalité, adresse), familia (parents, frère, sœur, grands-parents), școala (école, lycée, classe, matière, professeur, devoirs, note), orașul (rue, place, magasin, gare, hôpital, mairie), timpul (jours, mois, saisons, heure), mâncarea, îmbrăcămintea, corpul, vremea, timpul liber. Numeralele: cardinalele până la o sută, cu particularitățile lui 70 (soixante-dix), 80 (quatre-vingts) și 90 (quatre-vingt-dix); ordinalele cu -ième, cu excepția lui „premier”. Ora se exprimă cu „il est … heures”, cu „et quart”, „et demie”, „moins le quart”. Data: „le 3 mars”, cu excepția lui „le premier”.",
+     "ideiCheie": [
+      "Câmpuri de bază: identitate, familie, școală, oraș, timp, mâncare, vreme.",
+      "Numeralele 70, 80, 90 au forme compuse specifice.",
+      "Ordinalele se formează cu -ième, cu excepția lui „premier”.",
+      "Ora și data au formule fixe."
+     ],
+     "termeni": [
+      {
+       "t": "numeral cardinal",
+       "d": "numeralul care exprimă cantitatea"
+      },
+      {
+       "t": "quatre-vingts",
+       "d": "forma franceză pentru optzeci, literal „patru douăzeci”"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se spune „șaptezeci” în franceză?",
+       "v": "„Soixante-dix.”"
+      },
+      {
+       "f": "Cum se spune „optzeci”?",
+       "v": "„Quatre-vingts.”"
+      },
+      {
+       "f": "Cum se formează ordinalele?",
+       "v": "Cu sufixul -ième, exceptând „premier”."
+      },
+      {
+       "f": "Cum se exprimă ora?",
+       "v": "Cu „il est … heures”, plus „et quart”, „et demie”, „moins le quart”."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Quatre-vingt-dix” înseamnă:",
+       "optiuni": [
+        "nouăzeci",
+        "optzeci",
+        "șaptezeci",
+        "o sută"
+       ],
+       "corect": 0,
+       "explicatie": "Literal, „patru douăzeci și zece”."
+      },
+      {
+       "intrebare": "Ordinalul de la „deux” este:",
+       "optiuni": [
+        "deuxième",
+        "deuxe",
+        "secondième",
+        "deuxeme"
+       ],
+       "corect": 0,
+       "explicatie": "„Premier” este excepția."
+      },
+      {
+       "intrebare": "„Il est trois heures et demie” înseamnă:",
+       "optiuni": [
+        "este trei și jumătate",
+        "este trei fără un sfert",
+        "este trei și un sfert",
+        "este trei fix"
+       ],
+       "corect": 0,
+       "explicatie": "„Et quart” înseamnă „și un sfert”."
+      },
+      {
+       "intrebare": "Data de 1 martie se scrie:",
+       "optiuni": [
+        "„le premier mars”",
+        "„le un mars”",
+        "„le une mars”",
+        "„le premier de mars”"
+       ],
+       "corect": 0,
+       "explicatie": "Doar prima zi a lunii folosește ordinalul."
+      }
+     ]
+    },
+    {
+     "id": "fra9-08",
+     "titlu": "Situații de comunicare",
+     "rezumat": "Funcțiile de bază: a saluta (bonjour, bonsoir, salut, au revoir), a te prezenta (je m'appelle, j'ai … ans, je viens de, j'habite à), a cere și a da informații (où est…?, comment aller à…?), a cumpăra (je voudrais, combien ça coûte?, ça fait combien?), a comanda la restaurant, a cere permisiunea (est-ce que je peux…?), a mulțumi și a răspunde (merci, de rien, je vous en prie). Politețea franceză este codificată: „vous” pentru necunoscuți, superiori și situații formale; „tu” pentru familie, prieteni, colegi de aceeași vârstă. Trecerea la „tu” se propune explicit („on peut se tutoyer?”). Formulele „s'il vous plaît”, „excusez-moi”, „pardon” sunt obligatorii; absența lor e resimțită ca nepolitețe, nu ca simplă neglijență.",
+     "ideiCheie": [
+      "Funcții de bază: salut, prezentare, informare, cumpărare, permisiune, mulțumire.",
+      "„Vous” pentru formal, „tu” pentru apropiați; trecerea se propune explicit.",
+      "„S'il vous plaît”, „excusez-moi”, „pardon” sunt obligatorii.",
+      "Absența formulelor de politețe este resimțită ca nepolitețe."
+     ],
+     "termeni": [
+      {
+       "t": "vouvoiement",
+       "d": "adresarea cu „vous”, marcă de politețe și de distanță"
+      },
+      {
+       "t": "tutoiement",
+       "d": "adresarea cu „tu”, marcă de familiaritate"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Când se folosește „vous”?",
+       "v": "Cu necunoscuți, superiori și în situații formale."
+      },
+      {
+       "f": "Cum se propune trecerea la „tu”?",
+       "v": "Explicit: „On peut se tutoyer?”"
+      },
+      {
+       "f": "Cum se cere ceva politicos?",
+       "v": "Cu „je voudrais…” și „s'il vous plaît”."
+      },
+      {
+       "f": "Cum se răspunde la „merci”?",
+       "v": "„De rien” sau „je vous en prie”."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Adresarea cu „tu” unui necunoscut adult:",
+       "optiuni": [
+        "este resimțită ca nepoliticoasă",
+        "este normală",
+        "este semn de prietenie",
+        "este obligatorie"
+       ],
+       "corect": 0,
+       "explicatie": "„Vous” este forma implicită în situații formale."
+      },
+      {
+       "intrebare": "„Je voudrais un café” este:",
+       "optiuni": [
+        "o cerere politicoasă",
+        "un ordin",
+        "o întrebare",
+        "o constatare"
+       ],
+       "corect": 0,
+       "explicatie": "„Je veux” ar fi resimțit ca brutal."
+      },
+      {
+       "intrebare": "Răspunsul potrivit la „merci” este:",
+       "optiuni": [
+        "„de rien”",
+        "„merci”",
+        "„pardon”",
+        "„s'il vous plaît”"
+       ],
+       "corect": 0,
+       "explicatie": "„Je vous en prie” e varianta formală."
+      },
+      {
+       "intrebare": "„S'il vous plaît” se folosește:",
+       "optiuni": [
+        "în adresarea formală",
+        "doar în scris",
+        "numai cu prietenii",
+        "doar la restaurant"
+       ],
+       "corect": 0,
+       "explicatie": "Varianta familiară este „s'il te plaît”."
+      }
+     ]
+    },
+    {
+     "id": "fra9-09",
+     "titlu": "Citit, scris și strategii",
+     "rezumat": "La nivel de început, citirea în franceză se sprijină pe transparența lexicală: mii de cuvinte seamănă cu cele românești, fiindcă ambele limbi sunt romanice („important”, „nature”, „question”, „exemple”). Această apropiere ajută enorm, dar are și capcane: „prétendre” înseamnă „a susține”, nu „a pretinde”; „actuellement” înseamnă „în prezent”, nu „actualmente” în sensul de „de fapt”. Scrierea de bază: mesajul scurt, cartea poștală, e-mailul informal, prezentarea personală, descrierea unei zile obișnuite. Structura simplă și corectă e preferabilă frazelor complicate cu greșeli. Strategiile de învățare: cuvintele se notează cu articolul (pentru gen), verbele cu prepoziția pe care o cer, expresiile în bloc. Ascultarea cu subtitrare în franceză antrenează simultan sunetul și forma scrisă — util într-o limbă cu ortografie atât de puțin fonetică.",
+     "ideiCheie": [
+      "Transparența lexicală ajută mult, dar produce și „falși prieteni”.",
+      "Structura simplă și corectă e preferabilă frazelor complicate cu greșeli.",
+      "Cuvintele se notează cu articol, verbele cu prepoziția lor.",
+      "Subtitrarea în franceză leagă sunetul de forma scrisă."
+     ],
+     "termeni": [
+      {
+       "t": "faux ami",
+       "d": "cuvânt asemănător ca formă în două limbi, dar cu sens diferit"
+      },
+      {
+       "t": "transparence lexicale",
+       "d": "asemănarea de formă și de sens între cuvinte din limbi înrudite"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este un „faux ami”?",
+       "v": "Un cuvânt asemănător ca formă cu unul românesc, dar cu sens diferit."
+      },
+      {
+       "f": "De ce se notează substantivele cu articol?",
+       "v": "Pentru a reține genul, care nu coincide cu cel românesc."
+      },
+      {
+       "f": "Ce înseamnă „actuellement”?",
+       "v": "„În prezent”, nu „de fapt”."
+      },
+      {
+       "f": "De ce ajută subtitrarea în franceză?",
+       "v": "Pentru că leagă sunetul de forma scrisă, într-o ortografie puțin fonetică."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Prétendre” înseamnă:",
+       "optiuni": [
+        "a susține, a afirma",
+        "a pretinde bani",
+        "a se preface",
+        "a cere"
+       ],
+       "corect": 0,
+       "explicatie": "Este un „faux ami” clasic."
+      },
+      {
+       "intrebare": "Transparența lexicală dintre română și franceză se explică prin:",
+       "optiuni": [
+        "originea latină comună",
+        "împrumuturi recente",
+        "vecinătatea geografică",
+        "influența engleză"
+       ],
+       "corect": 0,
+       "explicatie": "Ambele sunt limbi romanice."
+      },
+      {
+       "intrebare": "Substantivele franceze se notează cu articol pentru că:",
+       "optiuni": [
+        "genul nu coincide cu cel românesc",
+        "articolul e obligatoriu în vorbire",
+        "se pronunță împreună",
+        "așa cere dicționarul"
+       ],
+       "corect": 0,
+       "explicatie": "„Le problème” este masculin, deși în română e neutru."
+      },
+      {
+       "intrebare": "La nivel de început, o frază simplă și corectă:",
+       "optiuni": [
+        "este preferabilă uneia complicate cu greșeli",
+        "arată vocabular sărac",
+        "se punctează mai puțin",
+        "trebuie evitată"
+       ],
+       "corect": 0,
+       "explicatie": "Corectitudinea precedă complexitatea."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "teze": [
+  {
+   "semestru": 1,
+   "test": [
+    {
+     "intrebare": "Consoanele finale în franceză sunt, de regulă:",
+     "optiuni": [
+      "mute",
+      "pronunțate",
+      "dublate",
+      "nazalizate"
+     ],
+     "corect": 0,
+     "explicatie": "Excepțiile se rețin prin cuvântul „careful”."
+    },
+    {
+     "intrebare": "Grupul „eau” se pronunță:",
+     "optiuni": [
+      "o",
+      "e-a-u",
+      "ö",
+      "u"
+     ],
+     "corect": 0,
+     "explicatie": "La fel ca „au”."
+    },
+    {
+     "intrebare": "Litera „h” în franceză:",
+     "optiuni": [
+      "nu se pronunță niciodată",
+      "se pronunță ca în engleză",
+      "se pronunță la început de cuvânt",
+      "se pronunță ca „ș”"
+     ],
+     "corect": 0,
+     "explicatie": "„H aspirat” împiedică legătura."
+    },
+    {
+     "intrebare": "Articolul partitiv exprimă:",
+     "optiuni": [
+      "o cantitate nedeterminată",
+      "o cantitate precisă",
+      "o generalitate",
+      "o posesie"
+     ],
+     "corect": 0,
+     "explicatie": "„Du pain”, „de la soupe”."
+    },
+    {
+     "intrebare": "La negativ, „du” devine:",
+     "optiuni": [
+      "de",
+      "le",
+      "un",
+      "des"
+     ],
+     "corect": 0,
+     "explicatie": "„Je ne mange pas de pain.”"
+    },
+    {
+     "intrebare": "Pluralul lui „journal” este:",
+     "optiuni": [
+      "journaux",
+      "journals",
+      "journales",
+      "journalx"
+     ],
+     "corect": 0,
+     "explicatie": "Terminația -al devine -aux."
+    },
+    {
+     "intrebare": "Femininul lui „heureux” este:",
+     "optiuni": [
+      "heureuse",
+      "heureuxe",
+      "heureue",
+      "heureux"
+     ],
+     "corect": 0,
+     "explicatie": "-eux devine -euse."
+    },
+    {
+     "intrebare": "„Un homme grand” înseamnă:",
+     "optiuni": [
+      "un om înalt",
+      "un om important",
+      "un om puternic",
+      "un om bătrân"
+     ],
+     "corect": 0,
+     "explicatie": "Poziția adjectivului schimbă sensul."
+    },
+    {
+     "intrebare": "Terminațiile prezentului, grupa I, sunt:",
+     "optiuni": [
+      "-e, -es, -e, -ons, -ez, -ent",
+      "-is, -is, -it, -issons, -issez, -issent",
+      "-s, -s, -t, -ons, -ez, -ent",
+      "-ai, -as, -a, -ons, -ez, -ont"
+     ],
+     "corect": 0,
+     "explicatie": "Grupa a II-a primește infixul -iss-."
+    },
+    {
+     "intrebare": "„Nous commençons” se scrie cu cedilă pentru:",
+     "optiuni": [
+      "păstrarea sunetului „s”",
+      "respectarea accentului",
+      "marcarea pluralului",
+      "evitarea hiatului"
+     ],
+     "corect": 0,
+     "explicatie": "Înaintea lui „o”, „c” s-ar citi „k”."
+    },
+    {
+     "intrebare": "Formele prezentului pentru „être” la persoana a II-a plural sunt:",
+     "optiuni": [
+      "vous êtes",
+      "vous estes",
+      "vous êtez",
+      "vous sont"
+     ],
+     "corect": 0,
+     "explicatie": "Este o formă neregulată."
+    },
+    {
+     "intrebare": "„J'ai faim” înseamnă:",
+     "optiuni": [
+      "mi-e foame",
+      "sunt flămând de a fi",
+      "fac foame",
+      "am mâncare"
+     ],
+     "corect": 0,
+     "explicatie": "Franceza folosește „avoir” pentru senzații."
+    }
+   ]
+  },
+  {
+   "semestru": 2,
+   "test": [
+    {
+     "intrebare": "Negația franceză se construiește cu:",
+     "optiuni": [
+      "ne … pas",
+      "pas singur",
+      "non … pas",
+      "ne singur"
+     ],
+     "corect": 0,
+     "explicatie": "În scris, „ne” rămâne obligatoriu."
+    },
+    {
+     "intrebare": "„Ne … que” exprimă:",
+     "optiuni": [
+      "restricția („doar”)",
+      "negația totală",
+      "interdicția",
+      "îndoiala"
+     ],
+     "corect": 0,
+     "explicatie": "„Je n'ai que dix euros.”"
+    },
+    {
+     "intrebare": "Forma cea mai formală de interogație este:",
+     "optiuni": [
+      "inversiunea",
+      "intonația",
+      "„est-ce que”",
+      "adăugarea lui „non?”"
+     ],
+     "corect": 0,
+     "explicatie": "„Viens-tu?” aparține registrului îngrijit."
+    },
+    {
+     "intrebare": "Pronumele complement direct se plasează:",
+     "optiuni": [
+      "înaintea verbului",
+      "după verb",
+      "la începutul frazei",
+      "la sfârșitul frazei"
+     ],
+     "corect": 0,
+     "explicatie": "„Je le vois.”"
+    },
+    {
+     "intrebare": "„Soixante-dix” înseamnă:",
+     "optiuni": [
+      "șaptezeci",
+      "șaizeci",
+      "optzeci",
+      "nouăzeci"
+     ],
+     "corect": 0,
+     "explicatie": "Literal, „șaizeci și zece”."
+    },
+    {
+     "intrebare": "Ordinalul de la „deux” este:",
+     "optiuni": [
+      "deuxième",
+      "deuxe",
+      "second",
+      "deuxeme"
+     ],
+     "corect": 0,
+     "explicatie": "„Premier” este excepția."
+    },
+    {
+     "intrebare": "„Il est trois heures et demie” înseamnă:",
+     "optiuni": [
+      "trei și jumătate",
+      "trei fără un sfert",
+      "trei și un sfert",
+      "trei fix"
+     ],
+     "corect": 0,
+     "explicatie": "„Moins le quart” înseamnă „fără un sfert”."
+    },
+    {
+     "intrebare": "Data de 1 martie se scrie:",
+     "optiuni": [
+      "„le premier mars”",
+      "„le un mars”",
+      "„le une mars”",
+      "„le premier de mars”"
+     ],
+     "corect": 0,
+     "explicatie": "Doar prima zi a lunii folosește ordinalul."
+    },
+    {
+     "intrebare": "Adresarea cu „tu” unui necunoscut adult:",
+     "optiuni": [
+      "este resimțită ca nepoliticoasă",
+      "este normală",
+      "arată prietenie",
+      "este obligatorie"
+     ],
+     "corect": 0,
+     "explicatie": "„Vous” este forma implicită."
+    },
+    {
+     "intrebare": "„Je voudrais un café” este:",
+     "optiuni": [
+      "o cerere politicoasă",
+      "un ordin",
+      "o întrebare",
+      "o constatare"
+     ],
+     "corect": 0,
+     "explicatie": "„Je veux” ar fi brutal."
+    },
+    {
+     "intrebare": "„Prétendre” înseamnă:",
+     "optiuni": [
+      "a susține, a afirma",
+      "a pretinde bani",
+      "a se preface",
+      "a solicita"
+     ],
+     "corect": 0,
+     "explicatie": "Este un „faux ami”."
+    },
+    {
+     "intrebare": "Substantivele franceze se notează cu articol pentru că:",
+     "optiuni": [
+      "genul nu coincide cu cel din română",
+      "articolul e obligatoriu",
+      "se pronunță împreună",
+      "așa cere ortografia"
+     ],
+     "corect": 0,
+     "explicatie": "„Le problème” este masculin."
+    }
+   ]
+  }
+ ]
+}

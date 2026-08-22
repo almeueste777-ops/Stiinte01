@@ -20,6 +20,7 @@ const ASSETS = [
   './data/module/istorie-9.json',
   './data/module/logica-9.json',
   './data/module/engleza-9.json',
+  './data/module/franceza-9.json',
   './data/module/romana-9.json',
   './data/module/tic-9.json',
   './data/module/geografie-10.json',
