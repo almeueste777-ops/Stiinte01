@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 11,
-  "nrLectii": 137,
-  "nrCarduri": 548,
-  "nrIntrebari": 814,
+  "nrModule": 12,
+  "nrLectii": 146,
+  "nrCarduri": 584,
+  "nrIntrebari": 874,
   "module": [
     {
       "id": "istorie-9",
@@ -537,6 +537,95 @@
             {
               "id": "psi10-16",
               "titlu": "Relații interpersonale și conduite sociale"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "romana-10",
+      "materie": "Limba și literatura română",
+      "clasa": "a X-a",
+      "an": 2,
+      "arie": "Limbă și comunicare",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Genuri și specii literare ilustrate prin texte reprezentative: basmul, nuvela, romanul, poezia, comedia, plus stilistică și text nonliterar.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 60,
+      "capitole": [
+        {
+          "id": "rom10-c1",
+          "titlu": "Proza scurtă",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rom10-01",
+              "titlu": "Basmul cult: „Povestea lui Harap-Alb”"
+            },
+            {
+              "id": "rom10-02",
+              "titlu": "Nuvela psihologică: „Moara cu noroc”"
+            },
+            {
+              "id": "rom10-03",
+              "titlu": "Povestirea și schița"
+            }
+          ]
+        },
+        {
+          "id": "rom10-c2",
+          "titlu": "Romanul",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rom10-04",
+              "titlu": "Romanul realist obiectiv: „Ion”"
+            },
+            {
+              "id": "rom10-05",
+              "titlu": "Romanul subiectiv, de analiză: „Ultima noapte de dragoste, întâia noapte de război”"
+            },
+            {
+              "id": "rom10-06",
+              "titlu": "Romanul balzacian și cel postbelic: „Enigma Otiliei”, „Moromeții”"
+            }
+          ]
+        },
+        {
+          "id": "rom10-c3",
+          "titlu": "Poezia și teatrul",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rom10-07",
+              "titlu": "Poezia: de la pastel la meditație"
+            },
+            {
+              "id": "rom10-08",
+              "titlu": "Comedia: „O scrisoare pierdută”"
+            }
+          ]
+        },
+        {
+          "id": "rom10-c4",
+          "titlu": "Stil, text nonliterar, redactare",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rom10-09",
+              "titlu": "Stiluri funcționale și texte nonliterare"
             }
           ]
         }
