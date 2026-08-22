@@ -1299,7 +1299,7 @@
           [{ v: 'sistem', e: 'Sistem' }, { v: 'serif', e: 'Serif' }, { v: 'lizibil', e: 'Lizibil' }])}
         <div class="rand col">${randTxt('Mărimea textului', 'Se aplică peste mărimea din browser.')}
           <div class="rand-ctl">
-            <input class="range" id="fs" type="range" min="85" max="140" step="5"
+            <input class="range" id="fs" type="range" min="80" max="150" step="5"
                    value="${esc(s.marimeText)}" aria-label="Mărimea textului">
             <output id="fs-out" style="min-width:4em;text-align:right">${esc(s.marimeText)}%</output>
           </div></div>

@@ -705,7 +705,10 @@ ul.clean li::before{         /* bulină de teracotă cu halou cald */
 }
 .btn.ghost:active{box-shadow:var(--nm-pressed)}
 .btn.sm{width:auto; min-height:40px; padding:0 var(--sp-6); font-size:.9rem}
-.btn + .btn{margin-top:var(--sp-4)}
+/* `:not(.grid2 > *)`: regula stă mai jos în fișier decât `.grid2 > .btn`, deci
+   la specificitate egală câștiga ea și cobora al doilea buton din pereche cu
+   8px, lăsându-l și mai scund. Excluderea rezolvă fără să mutăm ordinea. */
+.btn + .btn:not(.grid2 > *){margin-top:var(--sp-4)}
 
 /* ── 10. Bara de progres — șanț neumorfic + umplere de chihlimbar ─ */
 
@@ -831,11 +834,19 @@ ul.clean li::before{         /* bulină de teracotă cu halou cald */
   width:calc(100% + var(--sp-6) * 2);
   margin:calc(var(--sp-6) * -1);
 }
+/* Marginea negativă de SUS are sens doar când tabelul e primul lucru din card.
+   Când urmează după un titlu („Termeni”), îl acoperea cu 16px — se vedea doar
+   jumătatea de sus a cuvântului. */
+.card > :not(table) + table{margin-top:var(--sp-4)}
 table{border-collapse:separate; border-spacing:0; width:100%; font-size:var(--fs-250)}
 th,td{
-  text-align:left; vertical-align:top; overflow-wrap:anywhere;
+  text-align:left; vertical-align:top;
   padding:var(--sp-5) var(--sp-6);
 }
+/* `anywhere` doar în celulele de date, unde apar definiții lungi fără spații.
+   Pe antet rupea cuvinte scurte în mijloc („TERME/N”), fără niciun câștig. */
+td{overflow-wrap:anywhere}
+th{overflow-wrap:break-word}
 th{
   position:sticky; top:calc(var(--topbar-h) + var(--safe-t)); z-index:2;
   padding-top:var(--sp-4); padding-bottom:var(--sp-4);
@@ -981,16 +992,22 @@ textarea:focus{outline:none; box-shadow:var(--nm-inset), var(--focus-ring)}
   box-shadow:var(--nm-raised);
 }
 .rand{
-  display:flex; align-items:center; gap:var(--sp-5);
+  /* `flex-wrap`: când eticheta și controlul nu mai încap pe un rând (320px,
+     text la 140%, densitate spațioasă), controlul coboară sub text în loc să
+     se suprapună peste el. `.rand.col` rezolva doar segmentele și cursorul. */
+  display:flex; align-items:center; gap:var(--sp-5); flex-wrap:wrap;
   width:100%; min-height:58px; padding:var(--sp-5) var(--sp-6);
   border:0; border-top:1px solid var(--hairline);
   background:transparent; color:inherit; font:inherit; text-align:left;
 }
 .rand:first-child{border-top:0}
-.rand-txt{flex:1 1 auto; min-width:0}
+.rand-txt{flex:1 1 12ch; min-width:0}
 .rand-txt strong{display:block; font-weight:var(--fw-semi)}
-.rand-txt span{display:block; margin-top:2px; color:var(--ink-muted); font-size:var(--fs-200)}
-.rand-ctl{flex:0 0 auto; display:flex; align-items:center; gap:var(--sp-4)}
+/* `:not(.pill)`: altfel `display:block` prindea și `<span class="pill">BAC</span>`
+   din interiorul lui `<strong>` și transforma pastila într-o bară aurie lată
+   cât rândul (806px la 1280px lățime). */
+.rand-txt span:not(.pill){display:block; margin-top:2px; color:var(--ink-muted); font-size:var(--fs-200)}
+.rand-ctl{flex:0 0 auto; display:flex; align-items:center; gap:var(--sp-4); margin-left:auto}
 /* Controlul lat (segmente, cursor) trece SUB etichetă, altfel se strivește. */
 .rand.col{flex-direction:column; align-items:stretch}
 .rand.col .rand-ctl{width:100%; margin-top:var(--sp-5)}
@@ -1010,18 +1027,27 @@ button.rand.grav .rand-txt strong{color:var(--bad-text)}
 }
 .switch::before{
   content:""; position:absolute; inset:6px 0; border-radius:var(--r-pill);
-  background:var(--surface-sunken); box-shadow:var(--nm-inset);
+  background:var(--surface-sunken);
+  /* Conturul explicit: fără el, pista oprită avea 1,07:1 față de suprafață
+     (măsurat pe pixeli), adică era practic invizibilă pe tema întunecată.
+     WCAG 1.4.11 cere ≥3:1 pentru componentele de interfață. `--hairline-strong`
+     ajungea doar la 1,8:1 — măsurat, nu presupus; `--ink-faint` trece pragul în
+     ambele teme fără să transforme comutatorul într-o cutie cu ramă groasă. */
+  box-shadow:var(--nm-inset), 0 0 0 1px var(--ink-faint);
   transition:background var(--dur-base) var(--ease-ios),
              box-shadow var(--dur-base) var(--ease-ios);
 }
 .switch::after{
   content:""; position:absolute; top:9px; left:4px; width:26px; height:26px;
   border-radius:50%;
-  background-color:var(--surface-raised);
+  background-color:var(--surface-overlay);
   background-image:linear-gradient(180deg,var(--glass-highlight),transparent 62%);
-  box-shadow:0 2px 7px rgba(90,58,32,.30), 0 0 0 1px var(--hairline);
-  transition:transform var(--dur-base) var(--ease-ios);
+  box-shadow:0 2px 7px rgba(90,58,32,.30), 0 0 0 1px var(--ink-faint);
+  transition:transform var(--dur-base) var(--ease-ios),
+             background-color var(--dur-base) var(--ease-ios);
 }
+/* Bila PORNITĂ rămâne deschisă, pe pistă colorată. */
+.switch[aria-checked="true"]::after{background-color:var(--surface-raised)}
 .switch[aria-checked="true"]::before{
   background-image:linear-gradient(180deg,var(--brand-2),var(--brand));
   box-shadow:0 1px 0 var(--glass-highlight) inset, 0 4px 12px -6px var(--brand-glow);
@@ -1039,11 +1065,17 @@ button.rand.grav .rand-txt strong{color:var(--bad-text)}
    iar eticheta cea mai lungă („Întunecat") se taie în timp ce vecinele au loc
    gol. Cu bază pe conținut, spațiul liber se împarte peste lățimea naturală. */
 .seg > button{
-  flex:1 1 auto; min-width:0; min-height:40px; padding:0 var(--sp-4);
+  /* 44px ținta reală, nu 40: padding-ul containerului nu e clicabil, deci
+     înălțimea butonului ESTE ținta. Măsurat cu elementFromPoint, nu dedus. */
+  flex:1 1 auto; min-width:0; min-height:44px; padding:6px var(--sp-3);
   border:0; border-radius:var(--r-pill);
   background:transparent; color:var(--ink-muted);
   font:inherit; font-size:.82rem; font-weight:var(--fw-semi);
-  white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+  /* Eticheta se rupe pe două rânduri în loc să se taie cu „…”: la 320px sau
+     la 140% mărime text, „Confortabil” și „Cele grele” nu încap pe un rând,
+     iar o etichetă tăiată nu se mai poate citi deloc. */
+  line-height:1.15; text-align:center;
+  overflow-wrap:break-word; hyphens:auto;
   cursor:pointer; -webkit-tap-highlight-color:transparent;
   transition:color var(--dur-fast) var(--ease-ios),
              box-shadow var(--dur-fast) var(--ease-ios);
@@ -1246,8 +1278,11 @@ button.cap-head:active{background:var(--hover-tint)}
   th,td{padding:var(--sp-4) var(--sp-5)}
   table{font-size:.86rem}
   .grid2{gap:var(--sp-4)}
-  .tab{font-size:.6rem}
-  .tabbar{width:calc(100% - var(--sp-6) * 2)}
+  .tab{font-size:.6rem; padding:6px 0}
+  /* Cinci taburi trebuie să încapă cu ≥44px fiecare: la 320px, marginile
+     laterale de 16px + rama de 6px lăsau doar 42px pe tab. Rama se subțiază
+     și marginea se strânge exact cât să treacă pragul. */
+  .tabbar{width:calc(100% - var(--sp-4) * 2); --tabbar-pad:3px}
 }
 
 /* ecrane late de la 700px: listele de carduri respiră pe 2 coloane.
@@ -1286,7 +1321,9 @@ button.cap-head:active{background:var(--hover-tint)}
   }
   .topbar{height:calc(var(--topbar-h-compact) + var(--safe-t))}
   th{top:calc(var(--topbar-h-compact) + var(--safe-t))}
-  .tab{min-height:40px; gap:1px; font-size:.6rem}
+  /* 44px, nu 40: pe peisaj + densitate compactă ținta cobora la 42px reali.
+     Măsurat pe 844×390 cu text 80%, nu presupus. */
+  .tab{min-height:44px; gap:1px; font-size:.6rem}
   .tab .ico{width:21px; height:21px}
   .tabbar{bottom:calc(var(--safe-b) + var(--sp-4))}
   .flash{min-height:150px; padding:var(--sp-6); font-size:1.05rem}

@@ -893,4 +893,48 @@ schimbe — adică indexul comis să fie chiar cel generat din module.
 
 `tools/test-sw.mjs`, cu service worker activ: prima instalare fără reîncărcare,
 60 de carduri de materii vizibile sub SW, exact o reîncărcare la update, stabil
-după, zero erori JS. Plus echipa de agenți, ca la fiecare rulare.
+după, zero erori JS.
+
+### 42 · Ce a găsit echipa de agenți — 20 de defecte reale
+
+Cei doi verificatori au adus 20 de defecte, toate corectate și **reverificate
+empiric**. Câteva merită reținute, fiindcă sunt clase de greșeală, nu accidente:
+
+**Migrarea tăcută.** `KEY` rămăsese `stiinte01:v1`, dar spațiul de id-uri se
+schimbase complet: `filo-01` devenise `filo12-01`, cheile de card și de test la
+fel. Intersecția cu v02: zero. Un elev venit de pe versiunea veche ar fi văzut
+„20/580 lecții citite" și o medie calculată din teste fără domeniu, în timp ce
+fiecare lecție apărea necitită. Nimic nu ar fi semnalat problema — nici o
+excepție, nici o eroare de consolă. Lecția: **când se schimbă forma datelor,
+cheia veche trebuie fie migrată, fie curățată; păstrată intactă e cea mai
+proastă dintre cele trei variante.**
+
+**Atomicitatea care se scumpește pe tăcute.** `addAll` peste ~10 fișiere și 150 KB
+era rezonabil la v02. Aceeași linie de cod, peste 70 de fișiere și 2,8 MB, a
+devenit o loterie: un singur timeout anula instalarea întregii versiuni, iar
+utilizatorul rămânea pe versiunea veche fără niciun semn. **Codul nu s-a
+schimbat; datele din jurul lui da — și asta a fost de ajuns.**
+
+**Ordinea scrie/validează.** Importul făcea `save()` înainte să se convingă că
+starea e utilizabilă. Un fișier cu `lectiiCitite: null` trecea de verificarea „e
+obiect", se persista, randarea arunca — iar de atunci înainte aplicația afișa la
+fiecare pornire „Nu s-au putut încărca datele. Verifică fișierele din `data/`",
+adică arăta cu degetul exact în direcția greșită. Recuperare doar prin golirea
+manuală a `localStorage`.
+
+**Eșecul totul-sau-nimic.** `Promise.all` peste 13 module: 12 sosite complet și
+unul căzut dădeau un ecran de eroare. Acum se randează ce există, cu un banner
+onest despre ce lipsește.
+
+**Regresii de layout pe care doar măsurătoarea le prinde.** Ținta segmentelor era
+de 40px, deși comentariul din CSS afirma ≥44 — afirmație nemăsurată, exact clasa
+de greșeală pe care jurnalul o critica la v02.1. Pastila „BAC" se întindea pe
+806px din 858, fiindcă o regulă `display:block` pentru textul secundar prindea și
+`<span class="pill">`. Titlul „Termeni" era acoperit de tabel cu 16px, pe toate
+cele 580 de lecții. Switch-ul oprit avea 1,07:1 față de fundal — practic
+invizibil, sub pragul WCAG de 3:1.
+
+**Reverificare finală:** 616 combinații (7 viewporturi × 2 teme × 11 rute × 4
+seturi de preferințe) — zero derulare orizontală, zero ecrane goale, zero
+suprapuneri, zero ținte sub 44px, zero erori de consolă. Detaliile, cu
+măsurătorile de dinainte și de după: [[Raport verificare v03]] (`vault/40-Verificare/`).
