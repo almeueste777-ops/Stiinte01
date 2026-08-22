@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 58,
-  "nrLectii": 562,
-  "nrCarduri": 2248,
-  "nrIntrebari": 3506,
+  "nrModule": 60,
+  "nrLectii": 580,
+  "nrCarduri": 2320,
+  "nrIntrebari": 3614,
   "module": [
     {
       "id": "geografie-9",
@@ -2389,6 +2389,88 @@
       ]
     },
     {
+      "id": "holocaust-11",
+      "materie": "Istoria evreilor. Holocaustul",
+      "clasa": "a XI-a",
+      "an": 3,
+      "arie": "Om și societate",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Istoria evreilor în Europa și în spațiul românesc, antisemitismul, Holocaustul și memoria lui.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 54,
+      "capitole": [
+        {
+          "id": "hol11-c1",
+          "titlu": "Evreii în istorie",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "hol11-01",
+              "titlu": "Originile și diaspora"
+            },
+            {
+              "id": "hol11-02",
+              "titlu": "Evreii în Europa medievală și modernă"
+            },
+            {
+              "id": "hol11-03",
+              "titlu": "Evreii în spațiul românesc"
+            }
+          ]
+        },
+        {
+          "id": "hol11-c2",
+          "titlu": "Antisemitismul și Holocaustul",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "hol11-04",
+              "titlu": "Antisemitismul modern"
+            },
+            {
+              "id": "hol11-05",
+              "titlu": "Holocaustul: desfășurare"
+            },
+            {
+              "id": "hol11-06",
+              "titlu": "Holocaustul în România"
+            }
+          ]
+        },
+        {
+          "id": "hol11-c3",
+          "titlu": "Memorie și responsabilitate",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "hol11-07",
+              "titlu": "Mărturii și memorie"
+            },
+            {
+              "id": "hol11-08",
+              "titlu": "Negaționismul și combaterea lui"
+            },
+            {
+              "id": "hol11-09",
+              "titlu": "Ce învățăm: drepturi, demnitate, responsabilitate"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
+        }
+      ]
+    },
+    {
       "id": "istorie-11",
       "materie": "Istorie",
       "clasa": "a XI-a",
@@ -4513,6 +4595,88 @@
         {
           "semestru": 2,
           "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "comunism-13",
+      "materie": "Istoria comunismului din România",
+      "clasa": "a XIII-a",
+      "an": 5,
+      "arie": "Om și societate",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Instaurarea, funcționarea și prăbușirea regimului comunist din România: represiune, economie, viață cotidiană și memorie.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 54,
+      "capitole": [
+        {
+          "id": "com13-c1",
+          "titlu": "Instaurarea regimului",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "com13-01",
+              "titlu": "Context internațional și preluarea puterii"
+            },
+            {
+              "id": "com13-02",
+              "titlu": "Sovietizarea societății"
+            },
+            {
+              "id": "com13-03",
+              "titlu": "Represiunea: aparat și victime"
+            }
+          ]
+        },
+        {
+          "id": "com13-c2",
+          "titlu": "Regimul în evoluție",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "com13-04",
+              "titlu": "Epoca Dej și destinderea aparentă"
+            },
+            {
+              "id": "com13-05",
+              "titlu": "Ceaușescu: de la deschidere la dictatură personală"
+            },
+            {
+              "id": "com13-06",
+              "titlu": "Economia și criza anilor '80"
+            }
+          ]
+        },
+        {
+          "id": "com13-c3",
+          "titlu": "Viața cotidiană, sfârșitul, memoria",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "com13-07",
+              "titlu": "Viața de zi cu zi"
+            },
+            {
+              "id": "com13-08",
+              "titlu": "Opoziție și prăbușirea regimului"
+            },
+            {
+              "id": "com13-09",
+              "titlu": "Memoria, justiția, lecțiile"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
         }
       ]
     },
