@@ -938,3 +938,33 @@ invizibil, sub pragul WCAG de 3:1.
 seturi de preferințe) — zero derulare orizontală, zero ecrane goale, zero
 suprapuneri, zero ținte sub 44px, zero erori de consolă. Detaliile, cu
 măsurătorile de dinainte și de după: [[Raport verificare v03]] (`vault/40-Verificare/`).
+
+### 43 · Al treilea jurnal: cel pe care îl citește elevul
+
+Până acum, o livrare se scria în două locuri — `jurnal.md`, pentru cine întreține
+codul, și vault, pentru memoria proiectului. Amândouă sunt scrise pentru noi.
+Utilizatorul aplicației nu are cum să afle ce s-a schimbat: deschide aplicația și
+găsește altceva decât ieri, fără nicio explicație.
+
+Al treilea jurnal e `data/versiuni.json`, arătat în aplicație la **Setări →
+Despre → „Ce s-a schimbat"**, chiar lângă *Caută o versiune nouă*. Regula lui e
+alta decât a celorlalte două: **se scrie pentru elev, nu pentru programator.**
+„Lecțiile se descarcă doar când sunt deschise, dar rămân salvate pe dispozitiv
+pentru offline" — nu „încărcare leneșă cu memoizare și token de randare".
+
+Fiind un fișier de date, nu cod, poate fi corectat fără atingerea aplicației, iar
+CI-ul îl verifică: versiunea `curenta` trebuie să fie prima din listă, câmpul
+`cache` al ei trebuie să fie **același număr** cu `CACHE` din `sw.js`, versiunea
+de sus trebuie să aibă schimbări scrise, iar datele trebuie să fie valide. Adică
+exact tipul de sincronizare care se pierde tăcut dacă nu o verifică nimic — vezi
+§35, unde jurnalul afirma o unealtă care nu exista în repo.
+
+`CLAUDE.md` are acum regula scrisă negru pe alb: **trei jurnale la fiecare
+livrare, toate trei, mereu** — plus îmbinarea în `main` ca pas automat, nu ca
+întrebare pusă de fiecare dată.
+
+Un defect prins la reverificare, instructiv fiindcă e o repetare: „Înapoi" din
+„Ce s-a schimbat" anima ca **intrare**, nu ca ieșire — exact bug-ul corectat cu
+câteva ore înainte la ecranul Setări. Prima corecție tratase suprapunerile ca
+mereu-intrare; a doua verifică întâi dacă ecranul e deja în stivă. Morala:
+**când corectezi un caz special, întreabă-te dacă e singurul din clasa lui.**

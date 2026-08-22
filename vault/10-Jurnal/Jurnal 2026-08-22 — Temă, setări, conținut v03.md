@@ -100,6 +100,30 @@ regrupat pe clase și arii.
 Vaultul are acum **811 note** și **5367 de wikilink-uri**, fără legături rupte și
 fără note orfane.
 
+## Post-scriptum — al treilea jurnal
+
+Livrările se scriau în două locuri, amândouă pentru noi: `jurnal.md` pentru cine întreține
+codul, vault-ul pentru memoria proiectului. Elevul care deschide aplicația și găsește
+altceva decât ieri nu avea de unde să afle ce s-a schimbat.
+
+Al treilea jurnal e **`data/versiuni.json`**, arătat în aplicație la *Setări → Despre →
+„Ce s-a schimbat"*, lângă *Caută o versiune nouă*. Regula lui e alta: **se scrie pentru
+elev.** „Lecțiile se descarcă doar când sunt deschise, dar rămân salvate pe dispozitiv" —
+nu „încărcare leneșă cu memoizare și token de randare".
+
+Un pas nou de CI verifică sincronizarea: `curenta` trebuie să fie prima intrare din listă,
+câmpul `cache` al ei trebuie să fie același număr cu `CACHE` din `sw.js`, iar versiunea de
+sus trebuie să aibă schimbări scrise. Fără verificare, tocmai asta se pierde tăcut.
+
+`CLAUDE.md` cuprinde acum regula: **trei jurnale la fiecare livrare — cod, vault,
+aplicație** — și îmbinarea în `main` ca pas automat.
+
+> [!warning] O repetare, prinsă la reverificare
+> „Înapoi" din „Ce s-a schimbat" anima ca **intrare**, nu ca ieșire — exact defectul
+> corectat cu câteva ore înainte la ecranul Setări. Prima corecție tratase suprapunerile
+> ca fiind mereu intrări; a doua verifică întâi dacă ecranul e deja în stivă.
+> **Când corectezi un caz special, întreabă-te dacă e singurul din clasa lui.**
+
 ## Verificare
 
 - Verificatorii locali: JSON, sintaxă JS, structură CSS, vault — toți trecuți.

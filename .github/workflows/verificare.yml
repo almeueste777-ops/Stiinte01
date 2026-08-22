@@ -37,6 +37,29 @@ jobs:
           git diff --exit-code -- data/continut.json sw.js \
             || { echo "data/continut.json sau sw.js nu sunt regenerate; rulează tools/construieste-index.mjs"; exit 1; }
 
+      - name: Verifică jurnalul de versiuni al aplicației
+        run: |
+          node -e "
+            const fs = require('fs');
+            const v = JSON.parse(fs.readFileSync('data/versiuni.json','utf8'));
+            const sw = fs.readFileSync('sw.js','utf8');
+            const cache = Number(sw.match(/const CACHE = 'stiinte01-v(\\d+)'/)[1]);
+            let er = 0;
+            const sus = v.versiuni[0];
+            if (v.curenta !== sus.v) { console.error('curenta (' + v.curenta + ') nu e prima din listă (' + sus.v + ')'); er++; }
+            if (sus.cache !== cache) { console.error('cache din versiuni.json (' + sus.cache + ') != CACHE din sw.js (' + cache + ')'); er++; }
+            if (!Array.isArray(sus.schimbari) || !sus.schimbari.length) { console.error('versiunea curentă nu are schimbări scrise'); er++; }
+            const vazute = new Set();
+            for (const x of v.versiuni) {
+              for (const c of ['v','nume','data','cache','schimbari']) if (!(c in x)) { console.error(x.v + ': lipsește ' + c); er++; }
+              if (vazute.has(x.v)) { console.error('versiune duplicată: ' + x.v); er++; }
+              vazute.add(x.v);
+              if (!/^\\d{4}-\\d{2}-\\d{2}\$/.test(x.data)) { console.error(x.v + ': dată invalidă ' + x.data); er++; }
+            }
+            console.log(er ? 'JURNAL DE VERSIUNI DESINCRONIZAT' : 'OK  jurnal de versiuni — v' + v.curenta + ' ↔ CACHE v' + cache);
+            process.exit(er ? 1 : 0);
+          "
+
       - name: Verifică sintaxa JavaScript
         run: |
           node --check assets/app.js && echo "OK  assets/app.js"

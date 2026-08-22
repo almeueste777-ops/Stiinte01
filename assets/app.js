@@ -59,13 +59,20 @@
      deschid peste ecranul curent, din rotița barei de sus, și „înapoi” trebuie
      să întoarcă exact acolo. Tratate ca rădăcină, goleau stiva, iar ecranul de
      dinainte reintra alunecând dinspre dreapta — adică fix pe dos. */
-  const esteSuprapunere = h => /^#\/setari(\/|$)/.test(String(h));
+  const esteSuprapunere = h => /^#\/(setari|noutati)(\/|$)/.test(String(h));
 
   function navDirection(hash) {
     if (!navStack.length) { navStack = [hash]; return 'fade'; }        // prima randare
     const top = navStack[navStack.length - 1];
     if (hash === top) return 'replace';                                // re-randare
-    if (esteSuprapunere(hash)) { navStack.push(hash); return 'push'; }
+    /* Suprapunerile: dacă ecranul e deja în stivă, e „înapoi”, nu o intrare
+       nouă. Fără testul ăsta, Setări → Ce s-a schimbat → Înapoi anima a doua
+       oară ca intrare — aceeași greșeală ca la prima variantă a Setărilor. */
+    if (esteSuprapunere(hash)) {
+      const j = navStack.lastIndexOf(hash);
+      if (j > -1) { navStack.length = j + 1; return 'pop'; }
+      navStack.push(hash); return 'push';
+    }
     /* Rădăcina se testează PRIMA: un tab nu alunecă niciodată lateral, nici
        dacă ecranul lui se mai află undeva în stivă. */
     if (routeDepth(hash) === 0) { navStack = [hash]; return 'fade'; }
@@ -301,6 +308,7 @@
 
   let IDX = null;          // data/continut.json — indexul ușor
   let CUR = null;          // data/curriculum.json
+  let VER = null;          // data/versiuni.json — jurnalul de versiuni al aplicației
   const MOD = new Map();   // id -> corpul modulului (încărcat la cerere)
   const cereri = new Map();
 
@@ -418,7 +426,8 @@
     carduri: viewCarduri,
     test: viewTest,
     plan: viewPlan,
-    setari: viewSetari
+    setari: viewSetari,
+    noutati: viewNoutati
   };
 
   function parseHash() {
@@ -1283,6 +1292,43 @@
     <button class="rand${grav ? ' grav' : ''}" data-act="${id}">${randTxt(t, d)}
       <span class="lec-sag" aria-hidden="true"></span></button>`;
 
+  const LUNI = ['ianuarie','februarie','martie','aprilie','mai','iunie',
+                'iulie','august','septembrie','octombrie','noiembrie','decembrie'];
+  /* „2026-08-22” → „22 august 2026”. Fără `new Date`: parsarea unui șir ISO
+     scurt e tratată ca UTC și, pe fusuri negative, sare o zi înapoi. */
+  function dataRo(iso) {
+    const p = String(iso || '').split('-');
+    if (p.length !== 3) return String(iso || '');
+    return Number(p[2]) + ' ' + (LUNI[Number(p[1]) - 1] || p[1]) + ' ' + p[0];
+  }
+  const actualaVer = () =>
+    (VER && VER.versiuni.find(x => x.v === VER.curenta)) || { nume: '', data: '' };
+
+  /* Jurnalul de versiuni al APLICAȚIEI (nu al conținutului): ce s-a schimbat
+     pentru cel care o folosește, scris fără jargon. Sursa: data/versiuni.json,
+     completat la fiecare livrare — vezi CLAUDE.md. */
+  function viewNoutati() {
+    title.textContent = 'Ce s-a schimbat';
+    if (!VER) {
+      view.innerHTML = `<div class="card"><h3>Jurnalul nu s-a putut încărca</h3>
+        <p class="muted">Încearcă din nou când ai internet.</p>
+        <button class="btn ghost" data-go="#/setari">Înapoi la setări</button></div>`;
+      return;
+    }
+    view.innerHTML = `
+      <p class="muted">Versiunea instalată acum: <strong>${esc(VER.curenta)}</strong>.</p>
+      ${VER.versiuni.map(v => `
+        <div class="card">
+          <div class="row">
+            <h3>${esc(v.nume)}</h3>
+            ${v.v === VER.curenta ? '<span class="pill">acum</span>' : ''}
+          </div>
+          <p class="muted">versiunea ${esc(v.v)} · ${esc(dataRo(v.data))}</p>
+          <ul class="noutati">${v.schimbari.map(x => `<li>${esc(x)}</li>`).join('')}</ul>
+        </div>`).join('')}
+      <button class="btn ghost" data-go="#/setari">Înapoi la setări</button>`;
+  }
+
   function viewSetari() {
     title.textContent = 'Setări';
     const s = state.setari;
@@ -1357,9 +1403,13 @@
 
       <h2>Despre</h2>
       <div class="lista">
+        ${VER ? `<div class="rand">${randTxt('Aplicația',
+          `versiunea ${esc(VER.curenta)} — „${esc(actualaVer().nume)}” · ${dataRo(actualaVer().data)}`)}</div>` : ''}
         <div class="rand">${randTxt('Conținut', `versiunea ${IDX.version} · actualizat ${IDX.actualizat}`)}</div>
         <div class="rand">${randTxt('Module', `${IDX.nrModule} module · ${IDX.nrLectii} lecții · ${IDX.nrCarduri} carduri · ${IDX.nrIntrebari} întrebări de lecție + ${IDX.nrIntrebariTeze} de teză`)}</div>
         <div class="rand">${randTxt('Stare', navigator.onLine ? 'online' : 'offline — aplicația merge din memorie')}</div>
+        ${VER ? `<button class="rand" data-go="#/noutati">${randTxt('Ce s-a schimbat',
+          'Jurnalul versiunilor aplicației.')}<span class="lec-sag" aria-hidden="true"></span></button>` : ''}
         ${randActiune('reimprospateaza', 'Caută o versiune nouă', 'Golește memoria locală a aplicației și reîncarcă.')}
       </div>
       <p class="muted">${esc(CUR.scoala.nume)} · ${esc(CUR.scoala.localitate)}</p>`;
@@ -1526,9 +1576,13 @@
 
   Promise.all([
     fetch('./data/curriculum.json').then(r => r.json()),
-    fetch('./data/continut.json').then(r => r.json())
-  ]).then(([cur, idx]) => {
-    CUR = cur; IDX = idx;
+    fetch('./data/continut.json').then(r => r.json()),
+    /* Jurnalul de versiuni: mic, dar cerut deja pe ecranul Setări. Un eșec al
+       lui nu are voie să oprească pornirea aplicației — de aceea `catch`, nu
+       poziția a treia într-un `all` care respinge. */
+    fetch('./data/versiuni.json').then(r => r.json()).catch(() => null)
+  ]).then(([cur, idx, ver]) => {
+    CUR = cur; IDX = idx; VER = ver;
     curataProgresulOrfan();
     const start = hashDePornire();
     /* `replaceState`, nu `location.replace`: al doilea ar declanșa un
