@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 23,
-  "nrLectii": 247,
-  "nrCarduri": 988,
-  "nrIntrebari": 1544,
+  "nrModule": 24,
+  "nrLectii": 256,
+  "nrCarduri": 1024,
+  "nrIntrebari": 1604,
   "module": [
     {
       "id": "geografie-9",
@@ -1889,6 +1889,88 @@
         {
           "semestru": 2,
           "nrIntrebari": 13
+        }
+      ]
+    },
+    {
+      "id": "filosofie-13",
+      "materie": "Filosofie",
+      "clasa": "a XIII-a",
+      "an": 5,
+      "arie": "Om și societate",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Aprofundare: metafizică și existență, filosofia religiei, estetica, filosofia științei, curente contemporane și metoda eseului filosofic.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 60,
+      "capitole": [
+        {
+          "id": "fil13-c1",
+          "titlu": "Existența și cunoașterea ei",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fil13-01",
+              "titlu": "Metafizica: ființă, substanță, devenire"
+            },
+            {
+              "id": "fil13-02",
+              "titlu": "Filosofia științei"
+            },
+            {
+              "id": "fil13-03",
+              "titlu": "Filosofia religiei"
+            }
+          ]
+        },
+        {
+          "id": "fil13-c2",
+          "titlu": "Valori și interpretare",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "fil13-04",
+              "titlu": "Estetica: frumosul, arta, gustul"
+            },
+            {
+              "id": "fil13-05",
+              "titlu": "Hermeneutica și problema interpretării"
+            },
+            {
+              "id": "fil13-06",
+              "titlu": "Curente filosofice contemporane"
+            }
+          ]
+        },
+        {
+          "id": "fil13-c3",
+          "titlu": "Eseul filosofic și bacalaureatul",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "fil13-07",
+              "titlu": "Structura probei și tipurile de cerințe"
+            },
+            {
+              "id": "fil13-08",
+              "titlu": "Cum se scrie un eseu filosofic"
+            },
+            {
+              "id": "fil13-09",
+              "titlu": "Teme recurente și pregătirea pentru examen"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
         }
       ]
     },
