@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 25,
-  "nrLectii": 265,
-  "nrCarduri": 1060,
-  "nrIntrebari": 1664,
+  "nrModule": 26,
+  "nrLectii": 274,
+  "nrCarduri": 1096,
+  "nrIntrebari": 1724,
   "module": [
     {
       "id": "geografie-9",
@@ -398,6 +398,88 @@
             {
               "id": "rom9-09",
               "titlu": "Redactarea textelor: rezumat, caracterizare, text argumentativ"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "tic-9",
+      "materie": "Tehnologia informației și a comunicațiilor (TIC)",
+      "clasa": "a IX-a",
+      "an": 1,
+      "arie": "Tehnologii",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Bazele informaticii aplicate: calculatorul, sistemul de operare, fișiere, editare de text și siguranța online.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 60,
+      "capitole": [
+        {
+          "id": "tic9-c1",
+          "titlu": "Calculatorul și sistemul de operare",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "tic9-01",
+              "titlu": "Componentele unui sistem de calcul"
+            },
+            {
+              "id": "tic9-02",
+              "titlu": "Sistemul de operare și gestionarea fișierelor"
+            },
+            {
+              "id": "tic9-03",
+              "titlu": "Rețele, internet și servicii web"
+            }
+          ]
+        },
+        {
+          "id": "tic9-c2",
+          "titlu": "Editare de text și prezentări",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "tic9-04",
+              "titlu": "Procesorul de text: formatare și structură"
+            },
+            {
+              "id": "tic9-05",
+              "titlu": "Prezentări electronice"
+            },
+            {
+              "id": "tic9-06",
+              "titlu": "Comunicare online și colaborare"
+            }
+          ]
+        },
+        {
+          "id": "tic9-c3",
+          "titlu": "Siguranță și responsabilitate digitală",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "tic9-07",
+              "titlu": "Securitate: parole, malware, actualizări"
+            },
+            {
+              "id": "tic9-08",
+              "titlu": "Date personale, urmă digitală și confidențialitate"
+            },
+            {
+              "id": "tic9-09",
+              "titlu": "Etică digitală, drepturi de autor, dezinformare"
             }
           ]
         }
