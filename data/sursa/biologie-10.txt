@@ -1,0 +1,463 @@
+materie: Biologie
+clasa: a X-a
+an: 2
+arie: Matematică și științe ale naturii
+bac: nu
+descriere: Genetică și evoluție, diversitatea lumii vii, ecologie și educație pentru sănătate.
+
+## 1 | bio10-c1 | Genetică și evoluție
+### bio10-01 | Legile eredității
+Gregor Mendel a descoperit, studiind mazărea, legile fundamentale ale eredității. Legea purității gameților spune că cei doi factori ereditari ai unei perechi se separă la formarea gameților, fiecare gamet primind doar unul. Legea segregării independente arată că perechile diferite de caractere se transmit independent, dacă genele lor se află pe cromozomi diferiți.
+O genă poate avea forme diferite, numite alele. Alela dominantă se exprimă și în prezența celeilalte; cea recesivă se exprimă doar în stare homozigotă. Un organism heterozigot poartă alela recesivă fără să o manifeste, ceea ce explică apariția unui caracter la copii când părinții nu îl aveau. Nu toate caracterele urmează modelul simplu: există dominanță incompletă, codominanță (grupele sangvine AB), alele multiple și caractere poligenice, precum înălțimea sau culoarea pielii, influențate și de mediu.
+* Legea purității gameților: factorii ereditari se separă la formarea gameților.
+* Alela dominantă se exprimă și în heterozigot; cea recesivă, doar în homozigot.
+* Heterozigoții pot transmite caractere pe care nu le manifestă.
+* Caracterele poligenice depind de mai multe gene și de mediu.
+= alelă :: una dintre formele posibile ale unei gene
+= heterozigot :: organism care poartă două alele diferite pentru aceeași genă
+@ Ce spune legea purității gameților? :: Cei doi factori ereditari ai unei perechi se separă, fiecare gamet primind doar unul.
+@ Când se manifestă o alelă recesivă? :: Doar în stare homozigotă.
+@ Ce este codominanța? :: Situația în care ambele alele se exprimă simultan, ca la grupa sangvină AB.
+@ De ce poate apărea un caracter la copil, deși părinții nu îl au? :: Pentru că ambii părinți erau heterozigoți purtători ai alelei recesive.
+? Un organism heterozigot are:
++ două alele diferite pentru aceeași genă
+- două alele identice
+- o singură alelă
+- trei alele
+! Manifestă alela dominantă.
+? Grupa sangvină AB este un exemplu de:
++ codominanță
+- dominanță completă
+- recesivitate
+- caracter poligenic
+! Ambele alele se exprimă.
+? Înălțimea omului este un caracter:
++ poligenic, influențat și de mediu
+- determinat de o singură genă
+- exclusiv recesiv
+- codominant
+! De aceea variază continuu.
+? Mendel a lucrat pe:
++ mazăre
+- muscă de oțet
+- șoareci
+- bacterii
+! Alesese o plantă cu caractere clar distincte.
+
+### bio10-02 | ADN, gene, biotehnologii
+Informația genetică este stocată în ADN sub forma succesiunii de baze azotate. Replicarea copiază ADN-ul înaintea diviziunii; transcripția produce ARN mesager după modelul ADN; translația citește ARN-ul la nivelul ribozomilor și construiește proteina, câte un aminoacid pentru fiecare grup de trei baze. Codul genetic este practic universal, ceea ce arată originea comună a viețuitoarelor și face posibile biotehnologiile.
+Mutațiile sunt modificări ale materialului genetic: pot fi genice, cromozomiale sau genomice. Cele mai multe sunt neutre sau dăunătoare, dar unele aduc avantaje și constituie materia primă a evoluției. Biotehnologiile moderne folosesc ADN recombinant pentru a produce insulină umană în bacterii, vaccinuri, enzime industriale și plante rezistente. Editarea genetică permite modificări precise, ridicând întrebări etice serioase despre limitele intervenției, mai ales asupra celulelor germinale umane.
+* ADN → ARN mesager → proteină: replicare, transcripție, translație.
+* Codul genetic este practic universal.
+* Mutațiile sunt materia primă a evoluției, deși majoritatea sunt neutre sau dăunătoare.
+* Biotehnologiile ridică întrebări etice, mai ales la editarea celulelor germinale.
+= transcripție :: sinteza unei molecule de ARN mesager după modelul unei secvențe de ADN
+= mutație :: modificare a materialului genetic, transmisibilă celulelor descendente
+@ Care sunt cele trei procese fundamentale ale informației genetice? :: Replicarea, transcripția și translația.
+@ De ce este importantă universalitatea codului genetic? :: Arată originea comună a viețuitoarelor și permite transferul de gene între specii.
+@ Ce rol au mutațiile în evoluție? :: Sunt sursa variabilității asupra căreia acționează selecția naturală.
+@ Ce produs medical major se obține prin ADN recombinant? :: Insulina umană, produsă de bacterii modificate.
+? Translația are loc la nivelul:
++ ribozomilor
+- nucleului
+- mitocondriilor
+- aparatului Golgi
+! Acolo se construiește proteina.
+? Un grup de trei baze din ARN codifică:
++ un aminoacid
+- o proteină întreagă
+- o genă
+- un cromozom
+! Se numește codon.
+? Majoritatea mutațiilor sunt:
++ neutre sau dăunătoare
+- benefice
+- letale întotdeauna
+- imposibil de detectat
+! Cele avantajoase sunt rare, dar decisive evolutiv.
+? Editarea genetică a celulelor germinale umane ridică:
++ probleme etice serioase
+- doar probleme tehnice
+- nicio problemă
+- exclusiv probleme economice
+! Modificările s-ar transmite generațiilor următoare.
+
+### bio10-03 | Evoluția
+Evoluția este schimbarea în timp a caracteristicilor ereditare ale populațiilor. Darwin a propus mecanismul selecției naturale: în orice populație există variabilitate, resursele sunt limitate, iar indivizii cu trăsături avantajoase supraviețuiesc și se reproduc mai mult, transmițându-le. Cu ADN-ul descoperit ulterior, sinteza modernă a explicat sursa variabilității: mutațiile și recombinarea genetică.
+Dovezile evoluției sunt multiple și convergente: fosilele arată forme intermediare și succesiunea în timp; anatomia comparată arată organe omoloage (aripa liliacului, laba pisicii, mâna omului) construite pe același plan; embriologia arată asemănări în dezvoltarea timpurie; biochimia și genetica arată gene comune. Speciația apare când populațiile se izolează reproductiv. Selecția artificială, practicată de om, a creat rasele de animale domestice și soiurile de plante. Rezistența bacteriilor la antibiotice este evoluție observabilă în timp real și un motiv serios de sănătate publică.
+* Selecția naturală acționează asupra variabilității ereditare a populațiilor.
+* Sursa variabilității: mutațiile și recombinarea genetică.
+* Dovezi: fosile, anatomie comparată, embriologie, biochimie, genetică.
+* Rezistența la antibiotice este evoluție observabilă în timp real.
+= selecție naturală :: procesul prin care indivizii cu trăsături avantajoase lasă mai mulți descendenți
+= organe omoloage :: organe cu aceeași origine și plan de construcție, dar cu funcții eventual diferite
+@ Ce a propus Darwin ca mecanism al evoluției? :: Selecția naturală.
+@ Ce sunt organele omoloage? :: Organe cu aceeași origine și același plan de construcție, chiar dacă au funcții diferite.
+@ De unde vine variabilitatea asupra căreia acționează selecția? :: Din mutații și din recombinarea genetică.
+@ De ce e importantă rezistența la antibiotice? :: E o dovadă de evoluție în timp real și o problemă majoră de sănătate publică.
+? Aripa liliacului și mâna omului sunt organe:
++ omoloage
+- analoage
+- rudimentare
+- fără legătură evolutivă
+! Au același plan de construcție.
+? Speciația apare când populațiile:
++ se izolează reproductiv
+- migrează împreună
+- au aceleași mutații
+- trăiesc în același areal
+! Izolarea permite divergența.
+? Selecția artificială a produs:
++ rasele de animale domestice și soiurile de plante
+- speciile sălbatice
+- mutațiile genetice
+- izolarea reproductivă
+! Omul alege trăsăturile pe care le înmulțește.
+? Fosilele constituie dovezi ale evoluției pentru că:
++ arată forme intermediare și succesiunea lor în timp
+- conțin ADN intact
+- se găsesc doar în anumite zone
+- sunt identice cu speciile actuale
+! Straturile geologice le datează.
+
+## 1 | bio10-c2 | Diversitatea lumii vii
+### bio10-04 | Clasificarea organismelor
+Clasificarea ordonează diversitatea vie. Sistemul binar, introdus de Linné, dă fiecărei specii un nume din două cuvinte: genul și epitetul specific — Homo sapiens, Quercus robur. Categoriile sistematice se cuprind ierarhic: specie, gen, familie, ordin, clasă, încrengătură, regn, domeniu. Specia este definită prin capacitatea indivizilor de a se reproduce între ei și de a lăsa descendenți fertili.
+Marile grupe sunt: bacteriile și arheele (procariote), protistele, ciupercile, plantele și animalele. Virusurile sunt un caz aparte: nu au structură celulară și se pot replica doar în celule-gazdă, ceea ce le plasează la granița dintre viu și neviu. Clasificarea modernă nu mai folosește doar asemănările de formă, ci și datele moleculare, care reconstituie înrudirile reale; de aceea unele grupări tradiționale au fost regândite complet.
+* Sistemul binar dă fiecărei specii un nume din gen și epitet specific.
+* Categoriile sistematice se cuprind ierarhic, de la specie la domeniu.
+* Specia se definește prin descendenți fertili.
+* Clasificarea modernă folosește și datele moleculare, nu doar forma.
+= nomenclatură binară :: sistemul de denumire a speciilor prin două cuvinte latinești
+= specie :: grup de organisme care se pot reproduce între ele și lasă descendenți fertili
+@ Cine a introdus nomenclatura binară? :: Carl Linné.
+@ Cum se definește specia? :: Prin capacitatea indivizilor de a se reproduce între ei și de a lăsa descendenți fertili.
+@ De ce sunt virusurile un caz aparte? :: Nu au structură celulară și se replică doar în interiorul unei celule-gazdă.
+@ Ce a schimbat în clasificare analiza moleculară? :: A dezvăluit înrudirile reale și a dus la regândirea unor grupări tradiționale.
+? Numele „Homo sapiens” este format din:
++ gen și epitet specific
+- familie și ordin
+- clasă și încrengătură
+- regn și domeniu
+! Este nomenclatura binară.
+? Virusurile:
++ se replică doar în celule-gazdă
+- au structură celulară proprie
+- se hrănesc independent
+- sunt bacterii mici
+! Sunt la granița dintre viu și neviu.
+? Categoria sistematică imediat superioară genului este:
++ familia
+- ordinul
+- specia
+- clasa
+! Ierarhia urcă spre domeniu.
+? Doi indivizi aparțin aceleiași specii dacă:
++ lasă împreună descendenți fertili
+- seamănă la înfățișare
+- trăiesc în același loc
+- au aceeași hrană
+! Criteriul e reproductiv, nu doar morfologic.
+
+### bio10-05 | Plantele
+Plantele sunt organisme autotrofe: își produc singure hrana prin fotosinteză, folosind lumina, apa și dioxidul de carbon, cu eliberare de oxigen. Ele stau la baza aproape tuturor lanțurilor trofice și au oxigenat atmosfera Pământului. Rădăcina absoarbe apa și sărurile minerale și fixează planta; tulpina susține și conduce seva prin vase; frunza este sediul fotosintezei, al transpirației și al schimbului de gaze prin stomate.
+Reproducerea poate fi asexuată (butași, bulbi, stoloni) sau sexuată, prin floare, fruct și sămânță. Polenizarea, făcută de vânt sau de animale — mai ales insecte —, este esențială pentru producția agricolă; declinul polenizatorilor este o problemă majoră. Marile grupe de plante sunt algele, briofitele (mușchii), pteridofitele (ferigile), gimnospermele (coniferele) și angiospermele (plantele cu flori), acestea din urmă fiind cele mai numeroase și diverse.
+* Plantele sunt autotrofe și produc oxigen prin fotosinteză.
+* Rădăcina absoarbe, tulpina conduce, frunza fotosintetizează.
+* Polenizarea, în mare parte făcută de insecte, e esențială pentru agricultură.
+* Angiospermele, plantele cu flori, sunt cel mai numeros grup.
+= autotrof :: organism care își sintetizează singur substanțele organice, folosind o sursă externă de energie
+= stomată :: deschidere microscopică din epiderma frunzei, prin care se fac schimburile de gaze
+@ Ce produce fotosinteza? :: Substanțe organice și oxigen, din apă și dioxid de carbon, folosind energia luminii.
+@ Ce rol au stomatele? :: Permit schimbul de gaze și transpirația la nivelul frunzei.
+@ De ce e importantă polenizarea pentru om? :: Pentru că de ea depinde producția majorității culturilor agricole.
+@ Care e cel mai numeros grup de plante? :: Angiospermele, plantele cu flori.
+? Fotosinteza eliberează:
++ oxigen
+- dioxid de carbon
+- azot
+- metan
+! Și produce substanțe organice.
+? Organul specializat pentru fotosinteză este:
++ frunza
+- rădăcina
+- tulpina
+- floarea
+! Rădăcina absoarbe apa și sărurile.
+? Coniferele fac parte din:
++ gimnosperme
+- angiosperme
+- pteridofite
+- briofite
+! Au semințe neînchise în fruct.
+? Declinul insectelor polenizatoare afectează direct:
++ producția agricolă
+- calitatea aerului
+- fertilitatea solului
+- ciclul apei
+! Multe culturi depind de ele.
+
+### bio10-06 | Animalele
+Animalele sunt heterotrofe: își procură hrana din alte organisme. Nevertebratele cuprind majoritatea speciilor: spongieri, celenterate, viermi, moluște, artropode (insecte, arahnide, crustacee, miriapode) și echinoderme. Insectele sunt cel mai divers grup de pe planetă, cu rol esențial în polenizare, descompunere și lanțurile trofice.
+Vertebratele au coloană vertebrală și cuprind peștii, amfibienii, reptilele, păsările și mamiferele. Evoluția lor arată adaptarea progresivă la viața terestră: respirația branhială devine pulmonară, oul cu înveliș protector eliberează reptilele de dependența de apă, homeotermia păsărilor și mamiferelor permite ocuparea mediilor extreme. Omul este mamifer, din ordinul primatelor, caracterizat prin poziție bipedă, mână prehensilă cu police opozabil, creier voluminos și limbaj articulat.
+* Animalele sunt heterotrofe: își procură hrana din alte organisme.
+* Insectele sunt cel mai divers grup de pe planetă.
+* Evoluția vertebratelor arată adaptarea progresivă la viața terestră.
+* Omul este un mamifer din ordinul primatelor.
+= heterotrof :: organism care își procură substanțele organice consumând alte organisme
+= homeotermie :: capacitatea de a menține constantă temperatura corpului
+@ Care este cel mai divers grup de animale? :: Insectele.
+@ Ce a permis reptilelor să se elibereze de dependența de apă? :: Oul cu înveliș protector.
+@ Ce înseamnă homeotermie? :: Menținerea constantă a temperaturii corpului, la păsări și mamifere.
+@ Din ce ordin de mamifere face parte omul? :: Din ordinul primatelor.
+? Artropodele cuprind:
++ insectele, arahnidele, crustaceele și miriapodele
+- doar insectele
+- moluștele și viermii
+- peștii și amfibienii
+! Au schelet extern și corp segmentat.
+? Homeotermia caracterizează:
++ păsările și mamiferele
+- reptilele
+- amfibienii
+- peștii
+! Le permite să ocupe medii extreme.
+? Trăsăturile distinctive ale omului includ:
++ bipedia, policele opozabil, creierul voluminos, limbajul articulat
+- respirația branhială
+- homeotermia exclusiv
+- reproducerea prin ouă
+! Toate țin de linia primatelor.
+? Animalele sunt organisme:
++ heterotrofe
+- autotrofe
+- fotosintetizante
+- chemosintetizante exclusiv
+! Își iau hrana din alte organisme.
+
+## 2 | bio10-c3 | Ecologie și sănătate
+### bio10-07 | Ecosisteme și fluxuri
+Ecosistemul cuprinde biotopul (mediul fizic) și biocenoza (totalitatea organismelor) și funcționează prin relațiile dintre ele. Energia intră prin producători, care o captează din lumină, trece la consumatori și se pierde în mare parte ca și căldură la fiecare nivel: doar aproximativ 10% se transferă mai departe, motiv pentru care lanțurile trofice au puține verigi și pentru care o dietă bazată pe plante e mai eficientă energetic.
+Descompunătorii — bacterii și ciuperci — reintroduc materia în circuit. Spre deosebire de energie, care curge într-un singur sens, materia circulă: ciclurile apei, carbonului, azotului și fosforului leagă viul de neviu. Relațiile dintre specii sunt de competiție, prădătorism, parazitism, comensalism și mutualism. Ecosistemele au capacitatea de a-și reveni după perturbări, dar peste un prag depășit schimbarea devine ireversibilă, iar biodiversitatea pierdută nu se mai recuperează.
+* Ecosistemul cuprinde biotopul și biocenoza.
+* Energia curge într-un singur sens; materia circulă în cicluri.
+* Doar circa 10% din energie trece la nivelul trofic următor.
+* Peste un prag, schimbarea ecosistemelor devine ireversibilă.
+= biocenoză :: totalitatea organismelor care conviețuiesc într-un anumit mediu
+= nivel trofic :: poziția unui organism în lanțul de transfer al energiei într-un ecosistem
+@ Din ce se compune un ecosistem? :: Din biotop, mediul fizic, și biocenoză, totalitatea organismelor.
+@ Cât din energie trece la nivelul trofic următor? :: Aproximativ 10%.
+@ Ce rol au descompunătorii? :: Reintroduc materia organică în circuitul substanțelor.
+@ Prin ce se deosebește circulația materiei de cea a energiei? :: Materia circulă în cicluri; energia curge într-un singur sens și se pierde ca și căldură.
+? Lanțurile trofice au puține verigi pentru că:
++ se pierde multă energie la fiecare transfer
+- speciile sunt puține
+- prădătorii lipsesc
+- materia nu circulă
+! Doar circa 10% ajunge la nivelul următor.
+? Mutualismul este o relație în care:
++ ambele specii au de câștigat
+- o specie câștigă, cealaltă pierde
+- o specie câștigă, cealaltă nu e afectată
+- ambele pierd
+! Parazitismul avantajează doar o parte.
+? Descompunătorii sunt, în principal:
++ bacterii și ciuperci
+- plante verzi
+- insecte prădătoare
+- animale erbivore
+! Ei închid circuitul materiei.
+? Biodiversitatea pierdută:
++ nu se mai recuperează
+- revine automat în câțiva ani
+- crește după perturbare
+- nu influențează ecosistemul
+! De aceea conservarea e preventivă.
+
+### bio10-08 | Omul și mediul
+Activitatea umană schimbă biosfera la scară planetară. Arderea combustibililor fosili crește concentrația gazelor cu efect de seră și determină încălzirea globală, cu efecte în lanț: topirea ghețarilor, creșterea nivelului mării, evenimente meteorologice extreme, deplasarea zonelor climatice. Defrișările reduc capacitatea de absorbție a carbonului și distrug habitate. Poluarea apei, aerului și solului afectează sănătatea, iar deșeurile, mai ales cele plastice, se acumulează în ecosisteme.
+Soluțiile există la toate nivelurile: energie regenerabilă, eficiență energetică, transport public, agricultură durabilă, reducerea risipei alimentare, reciclare, arii protejate, refacerea habitatelor. Deciziile individuale contează, dar politicile publice și acordurile internaționale au impactul cel mai mare. Educația ecologică formează cetățeni capabili să evalueze informația și să ia decizii în cunoștință de cauză, în loc să reacționeze la alarmism sau la negaționism.
+* Arderea combustibililor fosili determină încălzirea globală.
+* Defrișările reduc absorbția carbonului și distrug habitate.
+* Soluțiile există la nivel individual, dar politicile publice au impactul cel mai mare.
+* Educația ecologică formează capacitatea de a evalua informația.
+= efect de seră :: reținerea căldurii în atmosferă de către anumite gaze, ceea ce încălzește planeta
+= dezvoltare durabilă :: dezvoltarea care satisface nevoile prezentului fără a compromite nevoile generațiilor viitoare
+@ Ce determină încălzirea globală? :: Creșterea concentrației gazelor cu efect de seră, în special prin arderea combustibililor fosili.
+@ De ce sunt importante pădurile pentru climă? :: Absorb dioxid de carbon și adăpostesc o mare parte din biodiversitate.
+@ Ce este dezvoltarea durabilă? :: Dezvoltarea care satisface nevoile prezentului fără a compromite nevoile generațiilor viitoare.
+@ Cine are impactul cel mai mare asupra mediului: individul sau politicile publice? :: Politicile publice și acordurile internaționale, deși deciziile individuale contează.
+? Efectul de seră este produs de:
++ gaze care rețin căldura în atmosferă
+- particulele de praf
+- radiația ultravioletă
+- ozonul stratosferic
+! Dioxidul de carbon și metanul sunt principalele.
+? Defrișările contribuie la schimbările climatice pentru că:
++ reduc absorbția dioxidului de carbon
+- răcesc atmosfera
+- cresc umiditatea aerului
+- nu au efect asupra climei
+! Distrug totodată habitate.
+? Cea mai eficientă cale de reducere a impactului asupra mediului este:
++ combinarea deciziilor individuale cu politici publice
+- exclusiv reciclarea individuală
+- exclusiv tehnologia
+- așteptarea soluțiilor viitoare
+! Amploarea problemei cere ambele niveluri.
+? Educația ecologică urmărește:
++ capacitatea de a evalua informația și de a decide în cunoștință de cauză
+- memorarea cifrelor despre poluare
+- alarmismul
+- negarea problemelor
+! Deciziile bune cer informație verificată.
+
+### bio10-09 | Sănătate și stil de viață
+Sănătatea nu înseamnă doar absența bolii, ci și starea de bine fizică, psihică și socială. Alimentația echilibrată cuprinde toate grupele de alimente în proporții potrivite, cu legume, fructe și cereale integrale în prim-plan și cu limitarea zahărului adăugat, a sării și a grăsimilor saturate. Mișcarea regulată reduce riscul de boli cardiovasculare, diabet, obezitate și depresie. Somnul suficient consolidează memoria și reface organismul.
+Prevenția este mai eficientă decât tratarea: vaccinarea, igiena, controalele periodice, protecția solară. Consumul de tutun, alcool și droguri produce dependență și boli grave; dependența are bază neurobiologică, ceea ce explică de ce voința singură rareori e de ajuns și de ce ajutorul specializat funcționează. Sănătatea mintală merită aceeași atenție ca cea fizică: stresul cronic, anxietatea și depresia se pot trata, iar cererea de ajutor este un semn de responsabilitate, nu de slăbiciune. Informația medicală trebuie luată din surse verificate.
+* Sănătatea este stare de bine fizică, psihică și socială, nu doar absența bolii.
+* Prevenția — vaccinare, igienă, controale periodice — e mai eficientă decât tratarea.
+* Dependența are bază neurobiologică; ajutorul specializat funcționează.
+* Sănătatea mintală merită aceeași atenție ca cea fizică.
+= prevenție :: ansamblul măsurilor prin care se evită apariția bolilor
+= dependență :: stare în care consumul unei substanțe devine necesar, cu modificări neurobiologice durabile
+@ Cum se definește sănătatea? :: Ca stare de bine fizică, psihică și socială, nu doar absența bolii.
+@ De ce nu e suficientă voința în cazul dependenței? :: Pentru că dependența modifică circuitele neurobiologice ale recompensei.
+@ Ce măsuri de prevenție sunt cele mai eficiente? :: Vaccinarea, igiena, controalele periodice, alimentația și mișcarea.
+@ De ce contează sursa informației medicale? :: Pentru că informația greșită poate duce la decizii periculoase pentru sănătate.
+? Somnul suficient are rol în:
++ consolidarea memoriei și refacerea organismului
+- creșterea masei musculare exclusiv
+- reducerea apetitului
+- eliminarea toxinelor din intestin
+! Lipsa lui afectează atenția și starea de spirit.
+? Cererea de ajutor pentru o problemă de sănătate mintală este:
++ un semn de responsabilitate
+- un semn de slăbiciune
+- inutilă
+- necesară doar în cazuri extreme
+! Anxietatea și depresia se pot trata.
+? Prevenția, față de tratare, este:
++ mai eficientă și mai ieftină
+- mai costisitoare
+- la fel de eficientă
+- utilă doar la copii
+! Vaccinarea e exemplul clasic.
+? Alimentația echilibrată pune în prim-plan:
++ legumele, fructele și cerealele integrale
+- carnea roșie
+- produsele procesate
+- băuturile îndulcite
+! Zahărul adăugat și sarea se limitează.
+
+%% teza 1
+? Alela recesivă se manifestă:
++ doar în stare homozigotă
+- și în stare heterozigotă
+- niciodată
+- doar la prima generație
+! Heterozigotul o poartă fără să o arate.
+? Grupele sangvine AB ilustrează:
++ codominanța
+- dominanța completă
+- caracterul poligenic
+- mutația
+! Ambele alele se exprimă.
+? Sinteza proteinei pornind de la ARN mesager se numește:
++ translație
+- transcripție
+- replicare
+- mutație
+! Are loc la ribozomi.
+? Mutațiile sunt importante pentru evoluție pentru că:
++ sunt sursa variabilității ereditare
+- sunt întotdeauna benefice
+- apar doar în celulele somatice
+- opresc selecția naturală
+! Selecția acționează asupra variabilității.
+? Selecția naturală a fost propusă de:
++ Darwin
+- Mendel
+- Linné
+- Lamarck
+! Mendel a descoperit legile eredității.
+? Organele omoloage au:
++ aceeași origine și același plan de construcție
+- aceeași funcție, dar origini diferite
+- structură identică și funcție identică
+- doar asemănare superficială
+! Aripa liliacului și mâna omului sunt un exemplu.
+? Nomenclatura binară a fost introdusă de:
++ Linné
+- Darwin
+- Mendel
+- Pasteur
+! Fiecare specie primește gen și epitet specific.
+? Plantele sunt organisme:
++ autotrofe
+- heterotrofe
+- saprofite exclusiv
+- parazite
+! Își produc hrana prin fotosinteză.
+? Cel mai divers grup de animale este:
++ insectele
+- mamiferele
+- peștii
+- moluștele
+! Fac parte din artropode.
+
+%% teza 2
+? Ecosistemul este format din:
++ biotop și biocenoză
+- doar plante și animale
+- doar mediul fizic
+- doar lanțurile trofice
+! Relațiile dintre ele îl fac să funcționeze.
+? Energia dintr-un ecosistem:
++ curge într-un singur sens și se pierde ca și căldură
+- circulă în cicluri închise
+- se conservă integral la fiecare nivel
+- crește la fiecare nivel trofic
+! Materia, în schimb, circulă.
+? La fiecare nivel trofic se transferă aproximativ:
++ 10% din energie
+- 90%
+- 50%
+- 100%
+! De aceea lanțurile trofice sunt scurte.
+? Homeotermia este specifică:
++ păsărilor și mamiferelor
+- reptilelor
+- amfibienilor
+- peștilor
+! Permite ocuparea mediilor extreme.
+? Efectul de seră este amplificat mai ales de:
++ arderea combustibililor fosili
+- eroziunea solului
+- radiația ultravioletă
+- vânturile puternice
+! Crește concentrația gazelor care rețin căldura.
+? Dezvoltarea durabilă înseamnă:
++ satisfacerea nevoilor prezentului fără a compromite viitorul
+- creștere economică maximă
+- oprirea oricărei producții
+- exploatarea intensivă a resurselor
+! Îmbină economicul, socialul și mediul.
+? Sănătatea este definită ca:
++ stare de bine fizică, psihică și socială
+- absența bolii
+- capacitate fizică maximă
+- lipsa medicației
+! Include sănătatea mintală.
+? Dependența de substanțe:
++ are bază neurobiologică
+- ține exclusiv de voință
+- dispare de la sine
+- nu afectează creierul
+! De aceea ajutorul specializat funcționează.
+? Prevenția cuprinde:
++ vaccinarea, igiena și controalele periodice
+- doar tratamentul medicamentos
+- doar intervențiile chirurgicale
+- exclusiv dieta
+! Este mai eficientă decât tratarea.

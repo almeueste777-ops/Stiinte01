@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 43,
-  "nrLectii": 427,
-  "nrCarduri": 1708,
-  "nrIntrebari": 2696,
+  "nrModule": 45,
+  "nrLectii": 445,
+  "nrCarduri": 1780,
+  "nrIntrebari": 2804,
   "module": [
     {
       "id": "geografie-9",
@@ -656,6 +656,88 @@
         {
           "semestru": 2,
           "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "biologie-9",
+      "materie": "Biologie",
+      "clasa": "a IX-a",
+      "an": 1,
+      "arie": "Matematică și științe ale naturii",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Celula și țesuturile, anatomia și fiziologia omului: sistemele de relație, de nutriție și de reproducere.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 54,
+      "capitole": [
+        {
+          "id": "bio9-c1",
+          "titlu": "Celula și țesuturile",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "bio9-01",
+              "titlu": "Celula — unitatea vieții"
+            },
+            {
+              "id": "bio9-02",
+              "titlu": "Diviziunea celulară și ereditatea"
+            },
+            {
+              "id": "bio9-03",
+              "titlu": "Țesuturi și organizarea corpului"
+            }
+          ]
+        },
+        {
+          "id": "bio9-c2",
+          "titlu": "Funcțiile de relație",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "bio9-04",
+              "titlu": "Sistemul nervos"
+            },
+            {
+              "id": "bio9-05",
+              "titlu": "Analizatorii și sistemul endocrin"
+            },
+            {
+              "id": "bio9-06",
+              "titlu": "Sistemul locomotor"
+            }
+          ]
+        },
+        {
+          "id": "bio9-c3",
+          "titlu": "Funcțiile de nutriție și reproducere",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "bio9-07",
+              "titlu": "Digestia și respirația"
+            },
+            {
+              "id": "bio9-08",
+              "titlu": "Circulația și excreția"
+            },
+            {
+              "id": "bio9-09",
+              "titlu": "Reproducerea și sănătatea"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
         }
       ]
     },
@@ -1558,6 +1640,88 @@
         {
           "semestru": 2,
           "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "biologie-10",
+      "materie": "Biologie",
+      "clasa": "a X-a",
+      "an": 2,
+      "arie": "Matematică și științe ale naturii",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Genetică și evoluție, diversitatea lumii vii, ecologie și educație pentru sănătate.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 54,
+      "capitole": [
+        {
+          "id": "bio10-c1",
+          "titlu": "Genetică și evoluție",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "bio10-01",
+              "titlu": "Legile eredității"
+            },
+            {
+              "id": "bio10-02",
+              "titlu": "ADN, gene, biotehnologii"
+            },
+            {
+              "id": "bio10-03",
+              "titlu": "Evoluția"
+            }
+          ]
+        },
+        {
+          "id": "bio10-c2",
+          "titlu": "Diversitatea lumii vii",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "bio10-04",
+              "titlu": "Clasificarea organismelor"
+            },
+            {
+              "id": "bio10-05",
+              "titlu": "Plantele"
+            },
+            {
+              "id": "bio10-06",
+              "titlu": "Animalele"
+            }
+          ]
+        },
+        {
+          "id": "bio10-c3",
+          "titlu": "Ecologie și sănătate",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "bio10-07",
+              "titlu": "Ecosisteme și fluxuri"
+            },
+            {
+              "id": "bio10-08",
+              "titlu": "Omul și mediul"
+            },
+            {
+              "id": "bio10-09",
+              "titlu": "Sănătate și stil de viață"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
         }
       ]
     },
