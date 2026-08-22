@@ -17,6 +17,8 @@ const ASSETS = [
      `tools/construieste-index.mjs` — nu o edita de mână. */
   /* MODULE:START */
   './data/module/logica-9.json',
+  './data/module/psihologie-10.json',
+  './data/module/sociologie-11.json',
   /* MODULE:STOP */
   './icons/icon-192.png',
   './icons/icon-512.png',

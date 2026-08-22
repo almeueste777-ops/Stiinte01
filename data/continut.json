@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 1,
-  "nrLectii": 16,
-  "nrCarduri": 64,
-  "nrIntrebari": 88,
+  "nrModule": 3,
+  "nrLectii": 46,
+  "nrCarduri": 184,
+  "nrIntrebari": 256,
   "module": [
     {
       "id": "logica-9",
@@ -115,6 +115,260 @@
             {
               "id": "log9-16",
               "titlu": "Argumentarea în viața cotidiană"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "psihologie-10",
+      "materie": "Psihologie",
+      "clasa": "a X-a",
+      "an": 2,
+      "arie": "Om și societate",
+      "bac": true,
+      "socioUman": true,
+      "descriere": "Procesele psihice, personalitatea și conduita omului: cum percepem, gândim, simțim, ne motivăm și ne raportăm la ceilalți.",
+      "nrLectii": 16,
+      "nrCarduri": 64,
+      "nrIntrebari": 88,
+      "capitole": [
+        {
+          "id": "psi10-c1",
+          "titlu": "Psihologia ca știință",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "psi10-01",
+              "titlu": "Obiectul și problematica psihologiei"
+            },
+            {
+              "id": "psi10-02",
+              "titlu": "Metodele psihologiei"
+            },
+            {
+              "id": "psi10-03",
+              "titlu": "Ipostazele ființei umane"
+            }
+          ]
+        },
+        {
+          "id": "psi10-c2",
+          "titlu": "Procese cognitive senzoriale",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "psi10-04",
+              "titlu": "Senzațiile"
+            },
+            {
+              "id": "psi10-05",
+              "titlu": "Percepțiile"
+            },
+            {
+              "id": "psi10-06",
+              "titlu": "Reprezentările"
+            }
+          ]
+        },
+        {
+          "id": "psi10-c3",
+          "titlu": "Procese cognitive superioare",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "psi10-07",
+              "titlu": "Gândirea"
+            },
+            {
+              "id": "psi10-08",
+              "titlu": "Memoria"
+            },
+            {
+              "id": "psi10-09",
+              "titlu": "Imaginația și limbajul"
+            }
+          ]
+        },
+        {
+          "id": "psi10-c4",
+          "titlu": "Procese reglatorii",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "psi10-10",
+              "titlu": "Motivația"
+            },
+            {
+              "id": "psi10-11",
+              "titlu": "Afectivitatea"
+            },
+            {
+              "id": "psi10-12",
+              "titlu": "Voința și atenția"
+            }
+          ]
+        },
+        {
+          "id": "psi10-c5",
+          "titlu": "Personalitatea",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "psi10-13",
+              "titlu": "Temperamentul"
+            },
+            {
+              "id": "psi10-14",
+              "titlu": "Aptitudinile și creativitatea"
+            },
+            {
+              "id": "psi10-15",
+              "titlu": "Caracterul"
+            }
+          ]
+        },
+        {
+          "id": "psi10-c6",
+          "titlu": "Conduita psihosocială",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "psi10-16",
+              "titlu": "Relații interpersonale și conduite sociale"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "sociologie-11",
+      "materie": "Sociologie",
+      "clasa": "a XI-a",
+      "an": 3,
+      "arie": "Om și societate",
+      "bac": true,
+      "socioUman": true,
+      "descriere": "Societatea privită metodic: grupuri, instituții, statusuri și roluri, devianță, mobilitate și schimbare socială.",
+      "nrLectii": 14,
+      "nrCarduri": 56,
+      "nrIntrebari": 80,
+      "capitole": [
+        {
+          "id": "soc11-c1",
+          "titlu": "Perspectiva sociologică",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "soc11-01",
+              "titlu": "Sociologia ca știință a socialului"
+            },
+            {
+              "id": "soc11-02",
+              "titlu": "Metode de cercetare în sociologie"
+            }
+          ]
+        },
+        {
+          "id": "soc11-c2",
+          "titlu": "Grupuri, instituții, organizații",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "soc11-03",
+              "titlu": "Grupul social"
+            },
+            {
+              "id": "soc11-04",
+              "titlu": "Instituții și organizații sociale"
+            }
+          ]
+        },
+        {
+          "id": "soc11-c3",
+          "titlu": "Structura socială",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "soc11-05",
+              "titlu": "Statusuri și roluri"
+            },
+            {
+              "id": "soc11-06",
+              "titlu": "Stratificare socială și inegalitate"
+            },
+            {
+              "id": "soc11-07",
+              "titlu": "Mobilitatea socială"
+            }
+          ]
+        },
+        {
+          "id": "soc11-c4",
+          "titlu": "Socializare, normă, devianță",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "soc11-08",
+              "titlu": "Socializarea"
+            },
+            {
+              "id": "soc11-09",
+              "titlu": "Norme, valori, control social"
+            },
+            {
+              "id": "soc11-10",
+              "titlu": "Devianța și delincvența"
+            }
+          ]
+        },
+        {
+          "id": "soc11-c5",
+          "titlu": "Instituții fundamentale",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "soc11-11",
+              "titlu": "Familia"
+            },
+            {
+              "id": "soc11-12",
+              "titlu": "Educația și mass-media"
+            }
+          ]
+        },
+        {
+          "id": "soc11-c6",
+          "titlu": "Schimbare socială",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "soc11-13",
+              "titlu": "Schimbarea socială și modernizarea"
+            },
+            {
+              "id": "soc11-14",
+              "titlu": "Globalizarea și probleme sociale contemporane"
             }
           ]
         }
