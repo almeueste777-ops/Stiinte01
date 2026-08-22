@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 9,
-  "nrLectii": 119,
-  "nrCarduri": 476,
-  "nrIntrebari": 694,
+  "nrModule": 10,
+  "nrLectii": 128,
+  "nrCarduri": 512,
+  "nrIntrebari": 754,
   "module": [
     {
       "id": "istorie-9",
@@ -1005,6 +1005,95 @@
         {
           "semestru": 2,
           "nrIntrebari": 13
+        }
+      ]
+    },
+    {
+      "id": "istorie-13",
+      "materie": "Istorie",
+      "clasa": "a XIII-a",
+      "an": 5,
+      "arie": "Om și societate",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Sinteze pentru bacalaureat: ideologii și practici politice, biserică și școală, minorități, plus metoda de lucru cu sursele și eseul istoric.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 60,
+      "capitole": [
+        {
+          "id": "ist13-c1",
+          "titlu": "Oamenii, societatea și lumea ideilor",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ist13-01",
+              "titlu": "Ideologii politice moderne"
+            },
+            {
+              "id": "ist13-02",
+              "titlu": "Practici politice: democrație și totalitarism în Europa"
+            },
+            {
+              "id": "ist13-03",
+              "titlu": "Biserica și școala; diversitatea confesională"
+            }
+          ]
+        },
+        {
+          "id": "ist13-c2",
+          "titlu": "Popoare, migrații, minorități",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ist13-04",
+              "titlu": "Călători străini și imaginea spațiului românesc"
+            },
+            {
+              "id": "ist13-05",
+              "titlu": "Minorități naționale și diversitate în spațiul românesc"
+            }
+          ]
+        },
+        {
+          "id": "ist13-c3",
+          "titlu": "Statul și politica: aprofundări",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ist13-06",
+              "titlu": "Statul român modern: continuitate și ruptură"
+            },
+            {
+              "id": "ist13-07",
+              "titlu": "Represiune și rezistență în comunism"
+            }
+          ]
+        },
+        {
+          "id": "ist13-c4",
+          "titlu": "Metoda istorică și bacalaureatul",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ist13-08",
+              "titlu": "Lucrul cu sursele istorice la examen"
+            },
+            {
+              "id": "ist13-09",
+              "titlu": "Eseul istoric structurat"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
         }
       ]
     }

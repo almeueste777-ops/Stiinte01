@@ -25,6 +25,7 @@ const ASSETS = [
   './data/module/filosofie-12.json',
   './data/module/istorie-12.json',
   './data/module/economie-13.json',
+  './data/module/istorie-13.json',
   /* MODULE:STOP */
   './icons/icon-192.png',
   './icons/icon-512.png',
