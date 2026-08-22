@@ -783,6 +783,14 @@ ul.clean li::before{         /* bulină de teracotă cu halou cald */
     linear-gradient(-45deg,transparent 44%,var(--bad) 44% 56%,transparent 56%);
 }
 
+/* Fără corectură imediată: se marchează DOAR alegerea, fără să se dezvăluie
+   dacă e bună — corectura completă vine la finalul testului. */
+.opt.ales{
+  border-color:transparent; color:var(--brand-ink);
+  background-image:linear-gradient(180deg,var(--brand-2),var(--brand));
+  box-shadow:0 1px 0 var(--glass-highlight) inset, 0 6px 16px -8px var(--brand-glow);
+}
+
 /* ── 12. Cardul de memorare — sticlă înaltă cu reflex diagonal ── */
 
 .flash{
@@ -1023,15 +1031,18 @@ button.rand.grav .rand-txt strong{color:var(--bad-text)}
 
 /* Control segmentat — 2–4 opțiuni scurte, exclusive. */
 .seg{
-  display:flex; gap:2px; padding:4px;
+  display:flex; gap:2px; padding:4px; width:100%;
   border-radius:var(--r-pill);
   background:var(--surface-sunken); box-shadow:var(--nm-inset);
 }
+/* `flex:1 1 auto`, NU `1 1 0`: cu bază zero toate segmentele ies fix egale,
+   iar eticheta cea mai lungă („Întunecat") se taie în timp ce vecinele au loc
+   gol. Cu bază pe conținut, spațiul liber se împarte peste lățimea naturală. */
 .seg > button{
-  flex:1 1 0; min-width:0; min-height:40px; padding:0 var(--sp-5);
+  flex:1 1 auto; min-width:0; min-height:40px; padding:0 var(--sp-4);
   border:0; border-radius:var(--r-pill);
   background:transparent; color:var(--ink-muted);
-  font:inherit; font-size:.86rem; font-weight:var(--fw-semi);
+  font:inherit; font-size:.82rem; font-weight:var(--fw-semi);
   white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
   cursor:pointer; -webkit-tap-highlight-color:transparent;
   transition:color var(--dur-fast) var(--ease-ios),
@@ -1143,6 +1154,16 @@ button.rand.grav .rand-txt strong{color:var(--bad-text)}
   border-right:2px solid var(--ink-muted); border-top:2px solid var(--ink-muted);
   border-radius:1px; transform:rotate(45deg); opacity:.65;
 }
+
+/* Antetul de capitol e apăsabil în ecranul materiei (duce la capitol). */
+button.cap-head{
+  width:100%; padding:var(--sp-3) var(--sp-3); border:0;
+  background:transparent; color:inherit; font:inherit; text-align:left;
+  min-height:44px; cursor:pointer; -webkit-tap-highlight-color:transparent;
+  border-radius:var(--r-md);
+  transition:background var(--dur-fast) var(--ease-ios);
+}
+button.cap-head:active{background:var(--hover-tint)}
 
 /* Cifre-erou: 2–4 valori pe un rând, sub un card. */
 .stats{display:grid; grid-template-columns:repeat(auto-fit,minmax(84px,1fr)); gap:var(--sp-4); margin:var(--sp-5) 0}
@@ -1576,6 +1597,10 @@ button.rand.grav .rand-txt strong{color:var(--bad-text)}
   pointer-events:none;
   will-change:transform;             /* UTIL: un singur element, animat la fiecare tab */
 }
+/* Ecranul Setări nu are tab propriu: pastila ar rămâne agățată sub ultimul
+   tab vizitat, sugerând o secțiune care nu e deschisă. */
+.tabbar.fara-tab .tab-ind{opacity:0}
+
 @keyframes icon-pop{
   0%  { transform:scale(1) }
   35% { transform:scale(.86) }

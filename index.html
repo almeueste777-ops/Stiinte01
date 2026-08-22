@@ -6,9 +6,40 @@
 <title>Științe Sociale — Liceu FR</title>
 <meta name="description" content="Aplicație PWA de studiu pentru liceu, filiera teoretică, profil umanist, specializarea Științe sociale, frecvență redusă.">
 <meta name="color-scheme" content="light dark">
-<!-- Culoarea barei de stare urmează tema: nisip cald ziua, espresso noaptea. -->
-<meta name="theme-color" content="#F7EEE2" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#191310" media="(prefers-color-scheme: dark)">
+<!-- O SINGURĂ etichetă de culoare a barei de stare, pusă de bootstrap-ul de mai
+     jos: tema poate fi FORȚATĂ din Setări, iar `media=(prefers-color-scheme)`
+     ar rămâne agățat de preferința sistemului, nu de alegerea utilizatorului. -->
+<meta name="theme-color" id="meta-tema" content="#F7EEE2">
+
+<!-- ══ Bootstrap de temă — rulează ÎNAINTE de foaia de stil ═══════════════
+     Preferințele vizuale (temă, contrast, mișcare, transparență, densitate,
+     font, mărime) sunt atribute pe <html>. Le punem sincron, aici, ca prima
+     pictură să fie deja corectă: dacă am aștepta app.js, un utilizator cu
+     tema întunecată ar vedea o clipire albă la fiecare pornire.
+     Valoarea „automat” se rezolvă din preferința sistemului. -->
+<script>
+(function(){
+  var d = document.documentElement, s = {};
+  try { s = (JSON.parse(localStorage.getItem('stiinte01:v1') || '{}').setari) || {}; } catch (e) {}
+  var mq = function (q) { try { return matchMedia(q).matches; } catch (e) { return false; } };
+  var tema = s.tema === 'luminos' || s.tema === 'intunecat'
+      ? s.tema : (mq('(prefers-color-scheme: dark)') ? 'intunecat' : 'luminos');
+  d.setAttribute('data-tema', tema);
+  d.style.colorScheme = tema === 'intunecat' ? 'dark' : 'light';
+  d.setAttribute('data-contrast',
+      s.contrast === 'ridicat' || (s.contrast !== 'normal' && mq('(prefers-contrast: more)')) ? 'ridicat' : 'normal');
+  d.setAttribute('data-miscare',
+      s.miscare === 'redusa' || (s.miscare !== 'completa' && mq('(prefers-reduced-motion: reduce)')) ? 'redusa' : 'completa');
+  d.setAttribute('data-transparenta',
+      s.transparenta === 'redusa' || (s.transparenta !== 'completa' && mq('(prefers-reduced-transparency: reduce)')) ? 'redusa' : 'completa');
+  d.setAttribute('data-densitate', s.densitate || 'confortabil');
+  d.setAttribute('data-font', s.font || 'sistem');
+  var m = Number(s.marimeText);
+  if (m >= 80 && m <= 150) d.style.setProperty('--fs-scale', m / 100);
+  var meta = document.getElementById('meta-tema');
+  if (meta) meta.setAttribute('content', tema === 'intunecat' ? '#191310' : '#F7EEE2');
+})();
+</script>
 <link rel="manifest" href="./manifest.webmanifest">
 <!-- Datele pornesc la drum odată cu CSS-ul, nu abia după ce rulează JS-ul.
      `crossorigin` e obligatoriu: fetch()-ul din app.js e în mod CORS, iar un
@@ -22,7 +53,7 @@
 <!-- ?v= sparge intrările vechi din cache-ul HTTP (fișierele nu au amprentă în
      nume, iar înainte de v02.1 aveau max-age de 7 zile). Se crește ODATĂ cu
      versiunea CACHE din sw.js — CI-ul verifică sincronizarea. -->
-<link rel="stylesheet" href="./assets/app.css?v=4">
+<link rel="stylesheet" href="./assets/app.css?v=5">
 </head>
 <body>
 <header class="topbar">
@@ -34,6 +65,13 @@
   </button>
   <h1 id="page-title">Științe Sociale</h1>
   <span id="net-badge" class="badge" hidden>offline</span>
+  <button id="btn-setari" class="icon-btn end" aria-label="Setări">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"
+         stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+      <circle cx="12" cy="12" r="3.1"/>
+      <path d="M19.4 14.5a1.6 1.6 0 0 0 .32 1.77l.06.06a1.95 1.95 0 1 1-2.76 2.76l-.06-.06a1.6 1.6 0 0 0-1.77-.32 1.6 1.6 0 0 0-.97 1.47v.17a1.95 1.95 0 1 1-3.9 0v-.09a1.6 1.6 0 0 0-1.05-1.47 1.6 1.6 0 0 0-1.77.32l-.06.06a1.95 1.95 0 1 1-2.76-2.76l.06-.06a1.6 1.6 0 0 0 .32-1.77 1.6 1.6 0 0 0-1.47-.97H3.4a1.95 1.95 0 1 1 0-3.9h.09a1.6 1.6 0 0 0 1.47-1.05 1.6 1.6 0 0 0-.32-1.77l-.06-.06a1.95 1.95 0 1 1 2.76-2.76l.06.06a1.6 1.6 0 0 0 1.77.32h.08A1.6 1.6 0 0 0 10.22 3.6V3.4a1.95 1.95 0 1 1 3.9 0v.09a1.6 1.6 0 0 0 .97 1.47 1.6 1.6 0 0 0 1.77-.32l.06-.06a1.95 1.95 0 1 1 2.76 2.76l-.06.06a1.6 1.6 0 0 0-.32 1.77v.08a1.6 1.6 0 0 0 1.47.97h.17a1.95 1.95 0 1 1 0 3.9h-.09a1.6 1.6 0 0 0-1.45.98Z"/>
+    </svg>
+  </button>
 </header>
 
 <!-- .stage decupează ecranul care pleacă (clona) în timpul tranziției push/pop. -->
@@ -103,6 +141,6 @@
   </button>
 </nav>
 
-<script src="./assets/app.js?v=4"></script>
+<script src="./assets/app.js?v=5"></script>
 </body>
 </html>

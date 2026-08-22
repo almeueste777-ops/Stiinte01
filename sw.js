@@ -1,16 +1,23 @@
 /* Service worker: precache + strategii de cache.
    IMPORTANT: crește CACHE la fiecare modificare a fișierelor, ca utilizatorii să primească versiunea nouă. */
-const CACHE = 'stiinte01-v4';   // v02.1 — precache-ul ocolește cache-ul HTTP (fix amestec de versiuni)
+const CACHE = 'stiinte01-v5';   // v03 — temă comutabilă, setări, conținut pe module
 const ASSETS = [
   './',
   './index.html',
   /* ?v= trebuie să fie IDENTIC cu cel din index.html (cache-ul SW potrivește
      URL-ul exact, cu tot cu query) — CI-ul verifică sincronizarea. */
-  './assets/app.css?v=4',
-  './assets/app.js?v=4',
+  './assets/app.css?v=5',
+  './assets/app.js?v=5',
   './manifest.webmanifest',
   './data/curriculum.json',
   './data/continut.json',
+  /* Fișierele de modul (conținutul propriu-zis) se cer abia când e deschis
+     modulul, dar TREBUIE să fie în precache: altfel aplicația instalată ar
+     avea lecțiile doar cât timp există rețea. Lista o scrie
+     `tools/construieste-index.mjs` — nu o edita de mână. */
+  /* MODULE:START */
+  './data/module/logica-9.json',
+  /* MODULE:STOP */
   './icons/icon-192.png',
   './icons/icon-512.png',
   './icons/icon-maskable-512.png'
