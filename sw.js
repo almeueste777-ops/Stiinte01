@@ -20,8 +20,10 @@ const ASSETS = [
   './data/module/logica-9.json',
   './data/module/istorie-10.json',
   './data/module/psihologie-10.json',
+  './data/module/istorie-11.json',
   './data/module/sociologie-11.json',
   './data/module/filosofie-12.json',
+  './data/module/istorie-12.json',
   './data/module/economie-13.json',
   /* MODULE:STOP */
   './icons/icon-192.png',

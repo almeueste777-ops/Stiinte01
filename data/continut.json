@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 7,
-  "nrLectii": 96,
-  "nrCarduri": 384,
-  "nrIntrebari": 554,
+  "nrModule": 9,
+  "nrLectii": 119,
+  "nrCarduri": 476,
+  "nrIntrebari": 694,
   "module": [
     {
       "id": "istorie-9",
@@ -464,6 +464,103 @@
       ]
     },
     {
+      "id": "istorie-11",
+      "materie": "Istorie",
+      "clasa": "a XI-a",
+      "an": 3,
+      "arie": "Om și societate",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Secolul XX: războaie mondiale, democrație și totalitarism, Războiul Rece, decolonizare și construcția europeană.",
+      "nrLectii": 11,
+      "nrCarduri": 44,
+      "nrIntrebari": 68,
+      "capitole": [
+        {
+          "id": "ist11-c1",
+          "titlu": "Primul Război Mondial și lumea de după",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ist11-01",
+              "titlu": "Cauzele și desfășurarea Primului Război Mondial"
+            },
+            {
+              "id": "ist11-02",
+              "titlu": "România în Primul Război Mondial și Marea Unire"
+            },
+            {
+              "id": "ist11-03",
+              "titlu": "Ordinea de la Versailles și democrațiile interbelice"
+            }
+          ]
+        },
+        {
+          "id": "ist11-c2",
+          "titlu": "Democrație și totalitarism",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ist11-04",
+              "titlu": "Regimul totalitar: trăsături și tipuri"
+            },
+            {
+              "id": "ist11-05",
+              "titlu": "Comunismul sovietic"
+            },
+            {
+              "id": "ist11-06",
+              "titlu": "Fascismul și nazismul"
+            }
+          ]
+        },
+        {
+          "id": "ist11-c3",
+          "titlu": "Al Doilea Război Mondial și Războiul Rece",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ist11-07",
+              "titlu": "Al Doilea Război Mondial"
+            },
+            {
+              "id": "ist11-08",
+              "titlu": "Războiul Rece: blocuri, crize, coexistență"
+            },
+            {
+              "id": "ist11-09",
+              "titlu": "Decolonizarea și lumea a treia"
+            }
+          ]
+        },
+        {
+          "id": "ist11-c4",
+          "titlu": "Lumea contemporană",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ist11-10",
+              "titlu": "Construcția europeană"
+            },
+            {
+              "id": "ist11-11",
+              "titlu": "Lumea după 1991: globalizare, conflicte, provocări"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
       "id": "sociologie-11",
       "materie": "Sociologie",
       "clasa": "a XI-a",
@@ -699,6 +796,107 @@
         {
           "semestru": 2,
           "nrIntrebari": 13
+        }
+      ]
+    },
+    {
+      "id": "istorie-12",
+      "materie": "Istorie",
+      "clasa": "a XII-a",
+      "an": 4,
+      "arie": "Om și societate",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Istoria românilor pe temele de bacalaureat: romanitate, autonomii și instituții, statul modern, secolul XX, constituții și relații internaționale.",
+      "nrLectii": 12,
+      "nrCarduri": 48,
+      "nrIntrebari": 72,
+      "capitole": [
+        {
+          "id": "ist12-c1",
+          "titlu": "Popoare și spații istorice",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ist12-01",
+              "titlu": "Romanitatea românilor în viziunea istoricilor"
+            },
+            {
+              "id": "ist12-02",
+              "titlu": "Autonomii locale și instituții centrale (secolele IX–XVIII)"
+            }
+          ]
+        },
+        {
+          "id": "ist12-c2",
+          "titlu": "Statul român modern",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ist12-03",
+              "titlu": "Proiecte politice și reforme (1821–1848)"
+            },
+            {
+              "id": "ist12-04",
+              "titlu": "Unirea din 1859 și domnia lui Cuza"
+            },
+            {
+              "id": "ist12-05",
+              "titlu": "De la independență la România Mare"
+            }
+          ]
+        },
+        {
+          "id": "ist12-c3",
+          "titlu": "Secolul XX: ideologii, constituții, regimuri",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ist12-06",
+              "titlu": "Constituțiile României"
+            },
+            {
+              "id": "ist12-07",
+              "titlu": "România interbelică: democrație și autoritarism"
+            },
+            {
+              "id": "ist12-08",
+              "titlu": "România postbelică: stalinism, național-comunism, disidență"
+            },
+            {
+              "id": "ist12-09",
+              "titlu": "Construcția democrației după 1989"
+            }
+          ]
+        },
+        {
+          "id": "ist12-c4",
+          "titlu": "Relații internaționale",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ist12-10",
+              "titlu": "Spațiul românesc între diplomație și conflict (Evul Mediu–începutul modernității)"
+            },
+            {
+              "id": "ist12-11",
+              "titlu": "România și marile alianțe ale secolului XX"
+            },
+            {
+              "id": "ist12-12",
+              "titlu": "România în perioada Războiului Rece"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
         }
       ]
     },
