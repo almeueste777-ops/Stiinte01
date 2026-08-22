@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 17,
-  "nrLectii": 193,
-  "nrCarduri": 772,
-  "nrIntrebari": 1183,
+  "nrModule": 18,
+  "nrLectii": 202,
+  "nrCarduri": 808,
+  "nrIntrebari": 1243,
   "module": [
     {
       "id": "geografie-9",
@@ -808,6 +808,95 @@
             {
               "id": "rom10-09",
               "titlu": "Stiluri funcționale și texte nonliterare"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "geografie-11",
+      "materie": "Geografie",
+      "clasa": "a XI-a",
+      "an": 3,
+      "arie": "Om și societate",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Probleme fundamentale ale lumii contemporane: mediul, resursele, populația, sistemul urban, geopolitica și globalizarea.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 60,
+      "capitole": [
+        {
+          "id": "geo11-c1",
+          "titlu": "Mediul și resursele",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "geo11-01",
+              "titlu": "Mediul înconjurător ca sistem"
+            },
+            {
+              "id": "geo11-02",
+              "titlu": "Resurse, consum și limite ale creșterii"
+            },
+            {
+              "id": "geo11-03",
+              "titlu": "Schimbările climatice și hazardele"
+            }
+          ]
+        },
+        {
+          "id": "geo11-c2",
+          "titlu": "Populația și așezările în lumea contemporană",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "geo11-04",
+              "titlu": "Dinamica populației și provocările demografice"
+            },
+            {
+              "id": "geo11-05",
+              "titlu": "Sistemul urban mondial și orașele globale"
+            }
+          ]
+        },
+        {
+          "id": "geo11-c3",
+          "titlu": "Geopolitică și economie mondială",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "geo11-06",
+              "titlu": "Globalizarea și economia mondială"
+            },
+            {
+              "id": "geo11-07",
+              "titlu": "Geopolitică: puteri, resurse, conflicte"
+            },
+            {
+              "id": "geo11-08",
+              "titlu": "Regiuni și inegalități la scară mondială"
+            }
+          ]
+        },
+        {
+          "id": "geo11-c4",
+          "titlu": "Metode și instrumente",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "geo11-09",
+              "titlu": "Harta, GIS și interpretarea datelor geografice"
             }
           ]
         }
