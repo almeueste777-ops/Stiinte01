@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 54,
-  "nrLectii": 526,
-  "nrCarduri": 2104,
-  "nrIntrebari": 3290,
+  "nrModule": 56,
+  "nrLectii": 544,
+  "nrCarduri": 2176,
+  "nrIntrebari": 3398,
   "module": [
     {
       "id": "geografie-9",
@@ -3026,6 +3026,88 @@
       ]
     },
     {
+      "id": "mass-11",
+      "materie": "Matematică aplicată în științele sociale",
+      "clasa": "a XI-a",
+      "an": 3,
+      "arie": "Matematică și științe ale naturii",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Culegerea și reprezentarea datelor, indicatori statistici, elemente de probabilități și modele de creștere aplicate în social.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 54,
+      "capitole": [
+        {
+          "id": "mas11-c1",
+          "titlu": "Date și reprezentări",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "mas11-01",
+              "titlu": "Ce studiază statistica socială"
+            },
+            {
+              "id": "mas11-02",
+              "titlu": "Culegerea datelor"
+            },
+            {
+              "id": "mas11-03",
+              "titlu": "Reprezentări grafice"
+            }
+          ]
+        },
+        {
+          "id": "mas11-c2",
+          "titlu": "Indicatori și probabilități",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "mas11-04",
+              "titlu": "Indicatori de tendință centrală"
+            },
+            {
+              "id": "mas11-05",
+              "titlu": "Indicatori de împrăștiere"
+            },
+            {
+              "id": "mas11-06",
+              "titlu": "Probabilități în situații sociale"
+            }
+          ]
+        },
+        {
+          "id": "mas11-c3",
+          "titlu": "Modele și aplicații",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "mas11-07",
+              "titlu": "Creștere și evoluție"
+            },
+            {
+              "id": "mas11-08",
+              "titlu": "Procente, indici, comparații"
+            },
+            {
+              "id": "mas11-09",
+              "titlu": "Corelație, cauzalitate, decizie"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
+        }
+      ]
+    },
+    {
       "id": "tic-11",
       "materie": "Tehnologia informației și a comunicațiilor (TIC)",
       "clasa": "a XI-a",
@@ -3831,6 +3913,88 @@
         {
           "semestru": 2,
           "nrIntrebari": 13
+        }
+      ]
+    },
+    {
+      "id": "mass-12",
+      "materie": "Matematică aplicată în științele sociale",
+      "clasa": "a XII-a",
+      "an": 4,
+      "arie": "Matematică și științe ale naturii",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Modele matematice pentru decizie: matematici financiare, sondaje și eroare, teoria alegerii sociale, grafuri și rețele.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 54,
+      "capitole": [
+        {
+          "id": "mas12-c1",
+          "titlu": "Matematici financiare",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "mas12-01",
+              "titlu": "Dobândă, credit, economisire"
+            },
+            {
+              "id": "mas12-02",
+              "titlu": "Inflație, valoare în timp, investiții"
+            },
+            {
+              "id": "mas12-03",
+              "titlu": "Bugetul personal și decizia economică"
+            }
+          ]
+        },
+        {
+          "id": "mas12-c2",
+          "titlu": "Sondaje, alegeri, decizie colectivă",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "mas12-04",
+              "titlu": "Sondaje de opinie și marja de eroare"
+            },
+            {
+              "id": "mas12-05",
+              "titlu": "Sisteme de vot și paradoxuri"
+            },
+            {
+              "id": "mas12-06",
+              "titlu": "Teoria jocurilor și cooperarea"
+            }
+          ]
+        },
+        {
+          "id": "mas12-c3",
+          "titlu": "Rețele și decizie",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "mas12-07",
+              "titlu": "Grafuri și rețele sociale"
+            },
+            {
+              "id": "mas12-08",
+              "titlu": "Algoritmi, date, societate"
+            },
+            {
+              "id": "mas12-09",
+              "titlu": "Sinteză: gândirea cantitativă în viața publică"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
         }
       ]
     },

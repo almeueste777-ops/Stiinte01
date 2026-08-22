@@ -1,0 +1,463 @@
+materie: Matematică aplicată în științele sociale
+clasa: a XI-a
+an: 3
+arie: Matematică și științe ale naturii
+bac: nu
+descriere: Culegerea și reprezentarea datelor, indicatori statistici, elemente de probabilități și modele de creștere aplicate în social.
+
+## 1 | mas11-c1 | Date și reprezentări
+### mas11-01 | Ce studiază statistica socială
+Statistica aplicată în științele sociale transformă observațiile despre oameni în date analizabile. Populația statistică este mulțimea despre care vrem să tragem concluzii — toți elevii de liceu din România, toți alegătorii, toți angajații unei firme. Eșantionul este partea observată efectiv; el trebuie să fie reprezentativ, adică să reproducă structura populației în privința caracteristicilor relevante.
+Caracteristica studiată poate fi cantitativă, măsurabilă numeric (vârsta, venitul, numărul de ore de somn), sau calitativă, exprimată prin categorii (sexul, domiciliul, opinia). Cantitativele se împart în discrete, care iau valori izolate (numărul de frați), și continue, care pot lua orice valoare dintr-un interval (înălțimea). Tipul caracteristicii determină ce indicatori și ce grafice se pot folosi: media are sens pentru venituri, dar nu pentru culoarea ochilor.
+* Populația e mulțimea studiată; eșantionul, partea observată.
+* Eșantionul trebuie să fie reprezentativ pentru populație.
+* Caracteristicile sunt cantitative sau calitative.
+* Tipul caracteristicii determină ce indicatori și grafice sunt potrivite.
+= populație statistică :: mulțimea unităților despre care se trag concluzii într-o cercetare
+= eșantion reprezentativ :: parte a populației care reproduce structura acesteia în privința caracteristicilor relevante
+@ Care este diferența dintre populație și eșantion? :: Populația e mulțimea studiată, eșantionul e partea observată efectiv.
+@ Ce înseamnă că un eșantion e reprezentativ? :: Că reproduce structura populației în privința caracteristicilor relevante.
+@ Ce deosebește o caracteristică discretă de una continuă? :: Discreta ia valori izolate; continua poate lua orice valoare dintr-un interval.
+@ De ce nu se poate calcula media pentru orice caracteristică? :: Pentru că media are sens doar pentru date numerice, nu pentru categorii.
+? Sexul respondenților este o caracteristică:
++ calitativă
+- cantitativă continuă
+- cantitativă discretă
+- fără categorie
+! Nu se poate media.
+? Un eșantion nereprezentativ:
++ invalidează concluziile despre populație
+- afectează doar precizia
+- este acceptabil dacă e mare
+- se corectează prin calcule
+! Mărimea nu compensează lipsa de reprezentativitate.
+? Numărul de frați este o caracteristică:
++ cantitativă discretă
+- cantitativă continuă
+- calitativă
+- ordinală
+! Ia doar valori întregi izolate.
+? Concluziile unei cercetări privesc:
++ populația, pe baza eșantionului
+- doar eșantionul
+- doar respondenții amabili
+- doar cercetătorul
+! De aici importanța reprezentativității.
+
+### mas11-02 | Culegerea datelor
+Datele se culeg prin observație, experiment, anchetă pe bază de chestionar, interviu sau analiza documentelor. Fiecare metodă are limite: observația schimbă comportamentul observat, chestionarul depinde de formularea întrebărilor, interviul e influențat de relația cu operatorul, documentele reflectă doar ce a fost consemnat.
+Formularea întrebărilor este decisivă. Întrebările tendențioase sugerează răspunsul; cele duble amestecă două lucruri; cele vagi produc răspunsuri necomparabile; ordinea întrebărilor influențează răspunsurile ulterioare. Non-răspunsul este o problemă majoră: dacă cei care refuză diferă sistematic de cei care răspund, rezultatul e distorsionat. Eșantionarea aleatorie, în care fiecare unitate are aceeași șansă de a fi aleasă, este metoda de referință; eșantioanele de conveniență — cei aflați la îndemână — nu permit generalizarea.
+* Fiecare metodă de culegere a datelor are limite proprii.
+* Întrebările tendențioase, duble sau vagi distorsionează rezultatele.
+* Non-răspunsul distorsionează dacă cei care refuză diferă sistematic.
+* Eșantionarea aleatorie este metoda de referință.
+= eșantionare aleatorie :: procedeu în care fiecare unitate a populației are aceeași șansă de a fi selectată
+= întrebare tendențioasă :: întrebare formulată astfel încât sugerează răspunsul dorit
+@ Ce este eșantionarea aleatorie? :: Procedeul în care fiecare unitate din populație are aceeași șansă de a fi aleasă.
+@ De ce e problematic non-răspunsul? :: Pentru că, dacă cei care refuză diferă sistematic, rezultatul e distorsionat.
+@ Ce defecte pot avea întrebările dintr-un chestionar? :: Pot fi tendențioase, duble sau vagi, iar ordinea lor poate influența răspunsurile.
+@ De ce nu permite generalizarea un eșantion de conveniență? :: Pentru că nu reproduce structura populației: sunt aleși cei aflați la îndemână.
+? O întrebare dublă este cea care:
++ amestecă două lucruri într-o singură formulare
+- se pune de două ori
+- are două variante de răspuns
+- se adresează la doi respondenți
+! Răspunsul devine neinterpretabil.
+? Ordinea întrebărilor într-un chestionar:
++ poate influența răspunsurile ulterioare
+- nu are efect
+- contează doar la interviuri
+- se stabilește aleator
+! Este un efect documentat.
+? Observația directă are ca limită faptul că:
++ poate schimba comportamentul observat
+- e prea ieftină
+- nu produce date
+- nu se poate înregistra
+! Efectul e cunoscut în științele sociale.
+? Metoda de referință pentru selecția respondenților este:
++ eșantionarea aleatorie
+- alegerea celor disponibili
+- alegerea celor cunoscuți
+- autoselecția
+! Doar ea permite estimarea erorii.
+
+### mas11-03 | Reprezentări grafice
+Fiecare tip de date cere un grafic potrivit. Diagrama cu bare compară categorii; diagrama circulară arată structura unui întreg, dar devine ilizibilă cu prea multe felii; histograma reprezintă date numerice grupate pe intervale; poligonul frecvențelor și graficul cronologic arată evoluția în timp; norul de puncte arată relația dintre două variabile numerice.
+Un grafic poate induce în eroare chiar cu date corecte. Axa trunchiată, care nu pornește de la zero, exagerează diferențele mici; scara neuniformă distorsionează evoluțiile; alegerea intervalului de timp poate arăta creștere sau scădere din aceleași date; graficele tridimensionale deformează proporțiile. Citirea critică a unui grafic începe cu trei întrebări: ce arată axele, de unde pornesc și ce interval acoperă datele.
+* Fiecare tip de date cere un grafic potrivit.
+* Axa trunchiată exagerează diferențele mici.
+* Alegerea intervalului de timp poate schimba complet impresia.
+* Citirea critică începe cu axele, originea și intervalul acoperit.
+= histogramă :: reprezentare grafică a datelor numerice grupate pe intervale
+= axă trunchiată :: axă care nu pornește de la zero, exagerând vizual diferențele
+@ Ce grafic se folosește pentru date numerice grupate pe intervale? :: Histograma.
+@ Cum induce în eroare o axă trunchiată? :: Exagerează vizual diferențe mici, pentru că nu pornește de la zero.
+@ Ce arată un nor de puncte? :: Relația dintre două variabile numerice.
+@ Cu ce întrebări începe citirea critică a unui grafic? :: Ce arată axele, de unde pornesc și ce interval de timp acoperă datele.
+? Diagrama circulară devine ilizibilă când:
++ are prea multe felii
+- datele sunt numerice
+- valorile sunt mari
+- se folosește culoare
+! Ea arată structura unui întreg.
+? Alegerea intervalului de timp reprezentat:
++ poate arăta creștere sau scădere din aceleași date
+- nu influențează concluzia
+- e stabilită de reguli fixe
+- privește doar estetica
+! Este o formă frecventă de manipulare.
+? Graficele tridimensionale, în statistică:
++ deformează proporțiile
+- sunt mai precise
+- sunt recomandate
+- elimină erorile
+! Volumul induce în eroare privirea.
+? Norul de puncte se folosește pentru:
++ relația dintre două variabile numerice
+- structura unui întreg
+- compararea categoriilor
+- evoluția unei singure variabile
+! Sugerează existența unei corelații.
+
+## 1 | mas11-c2 | Indicatori și probabilități
+### mas11-04 | Indicatori de tendință centrală
+Media aritmetică este suma valorilor împărțită la numărul lor; ea folosește toate datele, dar este sensibilă la valori extreme. Mediana este valoarea de mijloc a seriei ordonate; ea împarte populația în două jumătăți egale și nu e afectată de extreme. Modul este valoarea cea mai frecventă și e singurul indicator utilizabil pentru date calitative.
+Alegerea între ele nu e tehnică, ci de fond. La venituri, media este trasă în sus de câțiva câștigători foarte mari: în multe societăți, majoritatea oamenilor câștigă sub media națională, ceea ce pare paradoxal doar dacă se confundă media cu „omul obișnuit”. Mediana descrie mai bine situația tipică. Rapoartele publice care prezintă doar media, fără mediană, ascund adesea tocmai inegalitatea. Media geometrică se folosește pentru rate de creștere, iar media ponderată, când valorile au importanță diferită.
+* Media folosește toate datele, dar e sensibilă la extreme.
+* Mediana împarte populația în două jumătăți egale și e robustă.
+* Modul e singurul indicator utilizabil pentru date calitative.
+* La venituri, mediana descrie mai bine situația tipică decât media.
+= mediană :: valoarea care împarte seria ordonată în două părți cu număr egal de termeni
+= medie ponderată :: media în care fiecare valoare intră cu o importanță proprie
+@ De ce e mediana preferabilă mediei la venituri? :: Pentru că nu e trasă de câștigurile foarte mari și descrie situația tipică.
+@ Care indicator se poate folosi pentru date calitative? :: Modul.
+@ Când se folosește media geometrică? :: Pentru rate de creștere.
+@ Ce ascunde adesea prezentarea doar a mediei? :: Inegalitatea distribuției.
+? Faptul că majoritatea oamenilor câștigă sub media națională:
++ e normal într-o distribuție asimetrică
+- e imposibil
+- arată o eroare de calcul
+- înseamnă că media e median
+! Câteva venituri foarte mari trag media în sus.
+? Modul unei serii este:
++ valoarea cea mai frecventă
+- valoarea de mijloc
+- media valorilor
+- diferența dintre extreme
+! Este singurul indicator pentru date calitative.
+? Media ponderată se folosește când:
++ valorile au importanță diferită
+- datele sunt calitative
+- seria e ordonată
+- valorile sunt egale
+! Ca la calculul unei medii școlare cu coeficienți.
+? Mediana este:
++ robustă la valori extreme
+- sensibilă la valori extreme
+- imposibil de calculat pe serii mari
+- identică mereu cu media
+! De aceea apare în rapoartele serioase.
+
+### mas11-05 | Indicatori de împrăștiere
+Aceeași medie poate ascunde realități complet diferite: două clase cu media 7 pot avea, una, note grupate între 6 și 8, alta, note între 3 și 10. De aceea tendința centrală trebuie însoțită de indicatori de împrăștiere. Amplitudinea este diferența dintre valoarea maximă și cea minimă — simplă, dar dependentă doar de extreme.
+Abaterea medie și abaterea standard măsoară cât se depărtează, în medie, valorile de la medie; abaterea standard este cea mai folosită. Cuartilele împart seria ordonată în patru părți egale, iar intervalul intercuartilic — diferența dintre a treia și prima cuartilă — descrie împrăștierea jumătății din mijloc, fiind robust la extreme. Coeficientul de variație, raportul dintre abaterea standard și medie, permite compararea împrăștierii unor serii cu unități diferite.
+* Aceeași medie poate ascunde împrăștieri foarte diferite.
+* Amplitudinea depinde doar de valorile extreme.
+* Abaterea standard măsoară depărtarea medie față de medie.
+* Intervalul intercuartilic e robust la valori extreme.
+= abatere standard :: indicator care măsoară împrăștierea medie a valorilor față de medie
+= cuartilă :: fiecare dintre valorile care împart seria ordonată în patru părți egale
+@ De ce nu e suficientă media? :: Pentru că aceeași medie poate ascunde împrăștieri foarte diferite.
+@ Ce măsoară abaterea standard? :: Cât se depărtează, în medie, valorile față de medie.
+@ Ce este intervalul intercuartilic? :: Diferența dintre a treia și prima cuartilă, descriind împrăștierea jumătății din mijloc.
+@ La ce servește coeficientul de variație? :: La compararea împrăștierii unor serii exprimate în unități diferite.
+? Amplitudinea are dezavantajul că:
++ depinde doar de valorile extreme
+- e greu de calculat
+- nu are unitate de măsură
+- nu se poate compara
+! De aceea se folosesc și alți indicatori.
+? Cuartilele împart seria în:
++ patru părți egale ca număr de termeni
+- două părți
+- zece părți
+- părți de mărime arbitrară
+! A doua cuartilă este mediana.
+? Coeficientul de variație permite:
++ compararea împrăștierii unor serii cu unități diferite
+- calculul mediei
+- ordonarea datelor
+- eliminarea extremelor
+! Este un raport adimensional.
+? Două clase cu aceeași medie:
++ pot avea împrăștieri complet diferite
+- au aceleași note
+- au aceeași abatere standard
+- au aceeași mediană
+! De aici necesitatea indicatorilor de împrăștiere.
+
+### mas11-06 | Probabilități în situații sociale
+Probabilitatea măsoară șansa de producere a unui eveniment. În aplicațiile sociale, ea apare la sondaje, asigurări, evaluarea riscurilor, testele medicale și deciziile publice. Probabilitatea condiționată — șansa unui eveniment dat fiind că altul s-a produs — este esențială și, totodată, sursa unor erori de raționament foarte răspândite.
+Cea mai cunoscută este confuzia dintre probabilitatea de a avea rezultat pozitiv la un test fiind bolnav și probabilitatea de a fi bolnav având rezultat pozitiv. Cele două sunt foarte diferite când boala e rară: la o boală care afectează un om din o mie, un test cu 99% acuratețe dă mai multe rezultate fals pozitive decât adevărate. Această eroare, numită neglijarea ratei de bază, apare constant în discuțiile publice despre teste, criminalitate și profilare, iar înțelegerea ei este una dintre cele mai utile competențe practice ale statisticii.
+* Probabilitatea condiționată este esențială în aplicațiile sociale.
+* Probabilitatea de test pozitiv dat fiind bolnav diferă de cea inversă.
+* La boli rare, testele bune produc multe fals pozitive.
+* Neglijarea ratei de bază e o eroare frecventă în discuțiile publice.
+= probabilitate condiționată :: probabilitatea unui eveniment, calculată știind că un alt eveniment s-a produs
+= rată de bază :: frecvența unui fenomen în populația generală, înainte de orice test sau informație suplimentară
+@ Ce este probabilitatea condiționată? :: Probabilitatea unui eveniment, știind că altul s-a produs.
+@ De ce dă un test bun multe fals pozitive la boli rare? :: Pentru că numărul de sănătoși e mult mai mare, deci și puținele erori se acumulează.
+@ Ce este neglijarea ratei de bază? :: Eroarea de a ignora cât de rar este fenomenul în populația generală.
+@ Unde apare frecvent această eroare? :: În discuțiile publice despre teste medicale, criminalitate și profilare.
+? La o boală rară, un test cu acuratețe mare:
++ poate produce mai multe fals pozitive decât adevărate
+- este întotdeauna concludent
+- elimină erorile
+- nu are sens
+! Numărul mare de sănătoși explică rezultatul.
+? Probabilitatea de a fi bolnav având test pozitiv:
++ diferă de probabilitatea de a avea test pozitiv fiind bolnav
+- este identică cu ea
+- nu se poate calcula
+- este mereu mai mare
+! Confuzia lor e o eroare clasică.
+? Rata de bază este:
++ frecvența fenomenului în populația generală
+- rata de eroare a testului
+- procentul de răspunsuri
+- media eșantionului
+! Ignorarea ei duce la concluzii false.
+? Probabilitatea unui eveniment este întotdeauna:
++ între 0 și 1
+- mai mare decât 1
+- negativă uneori
+- un număr întreg
+! 0 înseamnă imposibil, 1 înseamnă sigur.
+
+## 2 | mas11-c3 | Modele și aplicații
+### mas11-07 | Creștere și evoluție
+Fenomenele sociale evoluează după modele diferite. Creșterea liniară adaugă o cantitate constantă în fiecare perioadă; cea exponențială înmulțește cu un factor constant; cea logistică pornește exponențial și se apropie de un plafon. Recunoașterea modelului potrivit se face din date: diferențe succesive constante indică liniaritate, rapoarte succesive constante indică exponențialitate.
+Aplicațiile sunt directe: populația, prețurile, datoria publică, răspândirea unei tehnologii sau a unei boli. Confuzia dintre modele produce erori majore de anticipare: subestimarea creșterii exponențiale în faza inițială este un fenomen documentat, pentru că intuiția umană extrapolează liniar. Extrapolarea dincolo de intervalul observat este riscantă: nicio creștere exponențială nu continuă la nesfârșit, pentru că resursele sunt finite.
+* Creșterea liniară adaugă constant; cea exponențială înmulțește constant.
+* Creșterea logistică are un plafon: capacitatea de suport.
+* Intuiția umană extrapolează liniar și subestimează exponențialul.
+* Extrapolarea dincolo de datele observate este riscantă.
+= creștere exponențială :: creștere în care valoarea se înmulțește cu un factor constant la fiecare pas
+= extrapolare :: prelungirea unui model dincolo de intervalul de date observat
+@ Cum se recunoaște un model exponențial din date? :: Rapoartele succesive ale valorilor sunt aproximativ constante.
+@ De ce subestimează oamenii creșterea exponențială? :: Pentru că intuiția extrapolează liniar.
+@ Ce are în plus modelul logistic față de cel exponențial? :: Un plafon, capacitatea de suport.
+@ De ce e riscantă extrapolarea? :: Pentru că modelul poate fi valabil doar pe intervalul observat.
+? Diferențe succesive constante indică un model:
++ liniar
+- exponențial
+- logistic
+- aleatoriu
+! Rapoartele constante indică exponențialul.
+? Nicio creștere exponențială reală nu continuă la nesfârșit pentru că:
++ resursele sunt finite
+- modelul e greșit de la început
+- calculele devin imposibile
+- datele lipsesc
+! De aici modelul logistic.
+? Răspândirea inițială a unei epidemii se modelează, de regulă:
++ exponențial
+- liniar
+- logaritmic
+- constant
+! Apoi intervine plafonul.
+? Capacitatea de suport apare în modelul:
++ logistic
+- liniar
+- exponențial
+- ciclic
+! Este valoarea-plafon.
+
+### mas11-08 | Procente, indici, comparații
+Procentul este o fracție cu numitorul 100, dar folosirea lui produce erori frecvente. Creșterea cu p procente înseamnă înmulțirea cu (1 + p/100); două creșteri succesive nu se adună, ci se compun. O creștere de 50% urmată de o scădere de 50% lasă 75% din valoarea inițială. Diferența dintre puncte procentuale și procente este esențială: o creștere de la 2% la 3% înseamnă un punct procentual, dar 50% creștere relativă.
+Indicii permit compararea în timp: se alege o bază, egalată cu 100, și se raportează celelalte valori la ea. Indicele prețurilor de consum măsoară inflația, iar valorile în termeni reali se obțin corectând valorile nominale cu inflația. Comparațiile internaționale cer atenție la definiții: rata șomajului, sărăcia sau nivelul de educație se măsoară diferit de la o țară la alta, iar cifrele identice pot ascunde realități diferite.
+* Două creșteri procentuale succesive se compun, nu se adună.
+* Diferența dintre puncte procentuale și procente e esențială.
+* Indicii permit compararea în timp, raportând la o bază egalată cu 100.
+* Comparațiile internaționale cer atenție la definițiile folosite.
+= punct procentual :: unitatea de diferență dintre două valori exprimate în procente
+= valoare reală :: valoarea nominală corectată cu inflația
+@ Ce se întâmplă la două creșteri procentuale succesive? :: Se compun prin înmulțire, nu se adună.
+@ Ce diferență e între puncte procentuale și procente? :: De la 2% la 3% e un punct procentual, dar 50% creștere relativă.
+@ Cum se calculează valorile reale? :: Corectând valorile nominale cu rata inflației.
+@ De ce cer comparațiile internaționale prudență? :: Pentru că definițiile indicatorilor diferă de la o țară la alta.
+? O creștere de 50% urmată de o scădere de 50% lasă:
++ 75% din valoarea inițială
+- 100%
+- 50%
+- 125%
+! 1,5 înmulțit cu 0,5 dă 0,75.
+? Trecerea unui indicator de la 4% la 6% înseamnă:
++ două puncte procentuale, adică 50% creștere relativă
+- două procente
+- 2% creștere relativă
+- 6% creștere
+! Confuzia e frecventă în presă.
+? Un indice cu baza 100 permite:
++ compararea evoluției în timp
+- calculul mediei
+- eliminarea inflației automat
+- măsurarea împrăștierii
+! Baza se alege convențional.
+? Cifre identice din două țări pot ascunde realități diferite pentru că:
++ definițiile indicatorilor diferă
+- calculele sunt greșite
+- populațiile sunt egale
+- monedele sunt diferite
+! De aceea se citesc notele metodologice.
+
+### mas11-09 | Corelație, cauzalitate, decizie
+Corelația arată că două variabile evoluează împreună; ea se măsoară printr-un coeficient cuprins între −1 și 1. O corelație puternică nu dovedește însă cauzalitatea: legătura poate veni dintr-o a treia variabilă comună, din întâmplare sau din raportul invers de cauzalitate. Exemplele clasice sunt numeroase: vânzările de înghețată și înecurile cresc împreună, dar cauza comună este vara.
+Stabilirea cauzalității cere condiții suplimentare: anterioritatea cauzei, eliminarea explicațiilor alternative și, ideal, un experiment cu grup de control. În științele sociale, experimentul e adesea imposibil sau neetic, de aceea se folosesc metode statistice de control al variabilelor. Decizia publică bazată pe date presupune și evaluarea costurilor, a efectelor secundare și a distribuției lor: o măsură eficientă în medie poate lăsa în urmă anumite grupuri, iar media ascunde tocmai asta.
+* Corelația se măsoară printr-un coeficient între −1 și 1.
+* Corelația nu dovedește cauzalitatea.
+* Cauzalitatea cere anterioritate, eliminarea alternativelor și, ideal, experiment controlat.
+* O măsură eficientă în medie poate lăsa în urmă anumite grupuri.
+= corelație :: măsura în care două variabile evoluează împreună
+= grup de control :: grupul care nu primește intervenția, folosit pentru comparație într-un experiment
+@ Între ce valori se situează coeficientul de corelație? :: Între −1 și 1.
+@ De ce nu dovedește corelația cauzalitatea? :: Pentru că legătura poate veni dintr-o cauză comună, din întâmplare sau din cauzalitate inversă.
+@ Ce condiții cere stabilirea cauzalității? :: Anterioritatea cauzei, eliminarea explicațiilor alternative și, ideal, un experiment controlat.
+@ Ce ascunde eficiența „în medie” a unei măsuri publice? :: Faptul că anumite grupuri pot fi lăsate în urmă.
+? Vânzările de înghețată și numărul de înecuri sunt corelate pentru că:
++ ambele cresc vara
+- înghețata provoacă înecuri
+- înecurile cresc vânzările
+- este o coincidență pură
+! Este exemplul clasic de cauză comună.
+? Un coeficient de corelație de −0,9 arată:
++ o legătură inversă puternică
+- absența legăturii
+- o legătură directă slabă
+- o eroare de calcul
+! Semnul dă sensul, valoarea absolută dă tăria.
+? Experimentul cu grup de control este, în științele sociale:
++ adesea imposibil sau neetic
+- metoda standard
+- interzis complet
+- inutil
+! De aceea se folosesc controale statistice.
+? O politică publică eficientă în medie:
++ poate afecta negativ anumite grupuri
+- este bună pentru toți
+- nu are efecte secundare
+- nu necesită evaluare
+! Distribuția efectelor contează.
+
+%% teza 1
+? Eșantionul trebuie să fie:
++ reprezentativ pentru populație
+- cât mai mare, indiferent de structură
+- format din voluntari
+- ales de cercetător după preferință
+! Mărimea nu compensează nereprezentativitatea.
+? Culoarea ochilor este o caracteristică:
++ calitativă
+- cantitativă continuă
+- cantitativă discretă
+- ordinală numerică
+! Media nu are sens pentru ea.
+? O întrebare tendențioasă:
++ sugerează răspunsul dorit
+- are prea multe variante
+- e prea scurtă
+- se pune la final
+! Distorsionează rezultatele.
+? Non-răspunsul devine o problemă când:
++ cei care refuză diferă sistematic de cei care răspund
+- este sub 50%
+- apare la întrebări ușoare
+- privește date demografice
+! Atunci rezultatul e distorsionat.
+? Axa trunchiată a unui grafic:
++ exagerează vizual diferențele mici
+- le micșorează
+- nu are efect
+- e obligatorie
+! Citirea critică începe cu axele.
+? Media aritmetică este:
++ sensibilă la valori extreme
+- robustă la extreme
+- utilizabilă pentru date calitative
+- egală mereu cu mediana
+! Mediana e robustă.
+? Modul este:
++ singurul indicator utilizabil pentru date calitative
+- media valorilor
+- valoarea de mijloc
+- diferența extremelor
+! Este valoarea cea mai frecventă.
+? Abaterea standard măsoară:
++ împrăștierea față de medie
+- tendința centrală
+- numărul de observații
+- valoarea maximă
+! Media singură nu descrie datele.
+? Intervalul intercuartilic este:
++ robust la valori extreme
+- dependent de extreme
+- egal cu amplitudinea
+- imposibil de calculat
+! Descrie jumătatea din mijloc a datelor.
+
+%% teza 2
+? Probabilitatea condiționată este:
++ probabilitatea unui eveniment, știind că altul s-a produs
+- probabilitatea a două evenimente simultane
+- media probabilităților
+- inversa probabilității
+! Este esențială în interpretarea testelor.
+? Neglijarea ratei de bază înseamnă:
++ ignorarea frecvenței fenomenului în populația generală
+- ignorarea acurateței testului
+- folosirea unui eșantion mic
+- confundarea mediei cu mediana
+! Duce la supraestimarea rezultatelor pozitive.
+? Rapoarte succesive constante într-o serie indică:
++ creștere exponențială
+- creștere liniară
+- creștere logistică
+- absența unui model
+! Diferențele constante indică liniaritate.
+? Extrapolarea dincolo de datele observate:
++ este riscantă
+- este întotdeauna sigură
+- nu se practică
+- elimină incertitudinea
+! Modelul poate fi valabil doar local.
+? O creștere de 50% urmată de o scădere de 50% dă:
++ 75% din valoarea inițială
+- 100%
+- 50%
+- 25%
+! Procentele se compun, nu se adună.
+? Trecerea de la 2% la 3% înseamnă:
++ un punct procentual și 50% creștere relativă
+- un procent
+- 1% creștere relativă
+- 3 puncte procentuale
+! Confuzia e o sursă frecventă de manipulare.
+? Valorile reale se obțin din cele nominale:
++ prin corecție cu inflația
+- prin împărțire la populație
+- prin înmulțire cu indicele
+- fără nicio corecție
+! Altfel comparațiile în timp înșală.
+? Corelația dintre două variabile:
++ nu dovedește cauzalitatea
+- dovedește cauzalitatea
+- exclude cauzalitatea
+- înseamnă egalitate
+! Poate exista o cauză comună.
+? Grupul de control într-un experiment:
++ nu primește intervenția și servește la comparație
+- primește o intervenție mai puternică
+- este ales dintre cei mai buni
+- nu e necesar
+! În social e adesea imposibil de format.

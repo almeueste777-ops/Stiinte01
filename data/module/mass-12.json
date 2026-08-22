@@ -1,0 +1,1007 @@
+{
+ "id": "mass-12",
+ "materie": "Matematică aplicată în științele sociale",
+ "clasa": "a XII-a",
+ "an": 4,
+ "arie": "Matematică și științe ale naturii",
+ "bac": false,
+ "descriere": "Modele matematice pentru decizie: matematici financiare, sondaje și eroare, teoria alegerii sociale, grafuri și rețele.",
+ "capitole": [
+  {
+   "id": "mas12-c1",
+   "titlu": "Matematici financiare",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "mas12-01",
+     "titlu": "Dobândă, credit, economisire",
+     "rezumat": "Dobânda simplă se calculează mereu la suma inițială și crește aritmetic; dobânda compusă se calculează la suma acumulată și crește geometric. Diferența dintre ele devine dramatică în timp: o sumă plasată cu dobândă compusă se dublează într-un număr de ani aproximativ egal cu 72 împărțit la rata procentuală — regula practică a lui 72. La credite, indicatorul care permite comparația reală între oferte este dobânda anuală efectivă, pentru că include comisioanele, nu doar dobânda nominală. Rata lunară se calculează dintr-o formulă bazată pe progresii geometrice; în primii ani, cea mai mare parte din rată acoperă dobânda, nu principalul, ceea ce explică de ce rambursarea anticipată timpurie economisește mult. Creditul are costuri și riscuri: dobânda variabilă poate crește, iar veniturile pot scădea; regula prudenței spune că ratele nu ar trebui să depășească o treime din venit.",
+     "ideiCheie": [
+      "Dobânda simplă crește aritmetic; cea compusă, geometric.",
+      "Regula lui 72 estimează timpul de dublare a unei sume.",
+      "Dobânda anuală efectivă include comisioanele și permite comparația reală.",
+      "În primii ani, rata acoperă mai mult dobânda decât principalul."
+     ],
+     "termeni": [
+      {
+       "t": "dobândă anuală efectivă",
+       "d": "costul total anual al creditului, exprimat procentual, inclusiv comisioanele"
+      },
+      {
+       "t": "regula lui 72",
+       "d": "estimare practică a timpului de dublare, împărțind 72 la rata procentuală anuală"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum funcționează regula lui 72?",
+       "v": "Împărțind 72 la rata procentuală anuală, se obține aproximativ numărul de ani în care suma se dublează."
+      },
+      {
+       "f": "De ce se compară creditele după dobânda anuală efectivă?",
+       "v": "Pentru că include comisioanele, nu doar dobânda nominală."
+      },
+      {
+       "f": "De ce economisește mult rambursarea anticipată timpurie?",
+       "v": "Pentru că în primii ani rata acoperă mai ales dobânda."
+      },
+      {
+       "f": "Ce spune regula prudenței la credite?",
+       "v": "Că ratele nu ar trebui să depășească aproximativ o treime din venit."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "La o rată de 6% pe an, o sumă se dublează în aproximativ:",
+       "optiuni": [
+        "12 ani",
+        "6 ani",
+        "20 de ani",
+        "30 de ani"
+       ],
+       "corect": 0,
+       "explicatie": "72 împărțit la 6."
+      },
+      {
+       "intrebare": "Dobânda compusă crește:",
+       "optiuni": [
+        "geometric",
+        "aritmetic",
+        "liniar",
+        "constant"
+       ],
+       "corect": 0,
+       "explicatie": "Se aplică la suma acumulată."
+      },
+      {
+       "intrebare": "În primii ani ai unui credit imobiliar, rata acoperă mai ales:",
+       "optiuni": [
+        "dobânda",
+        "principalul",
+        "comisioanele",
+        "asigurarea"
+       ],
+       "corect": 0,
+       "explicatie": "De aici efectul rambursării anticipate."
+      },
+      {
+       "intrebare": "Dobânda nominală, față de cea efectivă:",
+       "optiuni": [
+        "nu include comisioanele",
+        "include toate costurile",
+        "este mai mare",
+        "este identică"
+       ],
+       "corect": 0,
+       "explicatie": "Compararea corectă se face după cea efectivă."
+      }
+     ]
+    },
+    {
+     "id": "mas12-02",
+     "titlu": "Inflație, valoare în timp, investiții",
+     "rezumat": "Inflația reduce puterea de cumpărare a banilor: aceeași sumă cumpără mai puțin peste un an. De aceea randamentul real al unei investiții este randamentul nominal minus rata inflației; o dobândă de 4% într-un an cu inflație de 6% înseamnă o pierdere reală. Valoarea în timp a banilor este principiul care spune că o sumă disponibilă azi valorează mai mult decât aceeași sumă peste un an. Actualizarea calculează valoarea de azi a unei sume viitoare, iar capitalizarea, valoarea viitoare a unei sume de azi. Aceste calcule stau la baza deciziilor de investiție și de economisire. Riscul și randamentul sunt legate: instrumentele cu randament potențial mare au și risc mare, iar promisiunile de randament ridicat fără risc sunt semnul distinctiv al fraudelor de tip piramidal. Diversificarea reduce riscul specific, fără a-l elimina pe cel de piață.",
+     "ideiCheie": [
+      "Randamentul real este randamentul nominal minus inflația.",
+      "O sumă disponibilă azi valorează mai mult decât aceeași sumă peste un an.",
+      "Riscul și randamentul sunt legate: randamentul mare vine cu risc mare.",
+      "Promisiunea de randament ridicat fără risc semnalează o fraudă."
+     ],
+     "termeni": [
+      {
+       "t": "randament real",
+       "d": "randamentul unei investiții după scăderea inflației"
+      },
+      {
+       "t": "diversificare",
+       "d": "repartizarea investiției pe mai multe active, pentru a reduce riscul specific"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se calculează randamentul real?",
+       "v": "Scăzând rata inflației din randamentul nominal."
+      },
+      {
+       "f": "Ce înseamnă valoarea în timp a banilor?",
+       "v": "Că o sumă disponibilă azi valorează mai mult decât aceeași sumă în viitor."
+      },
+      {
+       "f": "Ce semnalează promisiunea unui randament mare fără risc?",
+       "v": "O fraudă, adesea de tip piramidal."
+      },
+      {
+       "f": "Ce reduce diversificarea?",
+       "v": "Riscul specific, nu și riscul general de piață."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "O dobândă de 4% într-un an cu inflație de 6% înseamnă:",
+       "optiuni": [
+        "o pierdere reală",
+        "un câștig real",
+        "un randament neutru",
+        "un randament de 10%"
+       ],
+       "corect": 0,
+       "explicatie": "Randamentul real e negativ."
+      },
+      {
+       "intrebare": "Actualizarea calculează:",
+       "optiuni": [
+        "valoarea de azi a unei sume viitoare",
+        "valoarea viitoare a unei sume de azi",
+        "rata inflației",
+        "comisionul bancar"
+       ],
+       "corect": 0,
+       "explicatie": "Capitalizarea face operația inversă."
+      },
+      {
+       "intrebare": "Riscul și randamentul unei investiții sunt:",
+       "optiuni": [
+        "legate: randament mare, risc mare",
+        "independente",
+        "invers proporționale",
+        "fixate prin lege"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea nu există câștig sigur mare."
+      },
+      {
+       "intrebare": "Diversificarea:",
+       "optiuni": [
+        "reduce riscul specific, nu și pe cel de piață",
+        "elimină orice risc",
+        "crește riscul",
+        "garantează câștigul"
+       ],
+       "corect": 0,
+       "explicatie": "Este o măsură de prudență, nu o garanție."
+      }
+     ]
+    },
+    {
+     "id": "mas12-03",
+     "titlu": "Bugetul personal și decizia economică",
+     "rezumat": "Bugetul personal compară veniturile cu cheltuielile pe o perioadă dată. Cheltuielile se împart în fixe (chirie, abonamente, rate) și variabile (mâncare, transport, distracții), iar distincția între nevoi și dorințe este primul instrument de control. Regula practică a economisirii spune că o parte din venit se pune deoparte înainte de cheltuieli, nu din ce rămâne la sfârșit. Fondul de urgență, echivalent cu trei până la șase luni de cheltuieli, protejează împotriva șocurilor. Deciziile economice implică și noțiunea de cost de oportunitate: alegând un lucru renunți la altul, iar acest cost e real chiar dacă nu apare în factură. Erorile frecvente sunt subestimarea cheltuielilor mici recurente, efectul de ancorare la reduceri și eroarea costurilor deja făcute — continuarea unei investiții proaste pentru că s-a cheltuit deja mult.",
+     "ideiCheie": [
+      "Bugetul compară veniturile cu cheltuielile fixe și variabile.",
+      "Economisirea se face înaintea cheltuielilor, nu din ce rămâne.",
+      "Fondul de urgență acoperă trei până la șase luni de cheltuieli.",
+      "Costul de oportunitate e real, deși nu apare în factură."
+     ],
+     "termeni": [
+      {
+       "t": "cost de oportunitate",
+       "d": "valoarea celei mai bune alternative la care renunți printr-o alegere"
+      },
+      {
+       "t": "eroarea costurilor deja făcute",
+       "d": "tendința de a continua o acțiune nerentabilă pentru că s-a investit deja în ea"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este costul de oportunitate?",
+       "v": "Valoarea celei mai bune alternative la care renunți alegând altceva."
+      },
+      {
+       "f": "Cât ar trebui să acopere un fond de urgență?",
+       "v": "Trei până la șase luni de cheltuieli."
+      },
+      {
+       "f": "Care e regula practică a economisirii?",
+       "v": "Se pune deoparte înainte de cheltuieli, nu din ce rămâne."
+      },
+      {
+       "f": "Ce este eroarea costurilor deja făcute?",
+       "v": "Continuarea unei acțiuni nerentabile pentru că s-a investit deja mult în ea."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Cheltuielile fixe sunt:",
+       "optiuni": [
+        "chiria, abonamentele, ratele",
+        "mâncarea și distracțiile",
+        "cadourile",
+        "cheltuielile neprevăzute"
+       ],
+       "corect": 0,
+       "explicatie": "Variabilele se pot ajusta mai ușor."
+      },
+      {
+       "intrebare": "Eroarea costurilor deja făcute apare când:",
+       "optiuni": [
+        "continui ceva nerentabil pentru că ai investit deja",
+        "renunți prea devreme",
+        "calculezi greșit dobânda",
+        "economisești prea mult"
+       ],
+       "corect": 0,
+       "explicatie": "Banii cheltuiți nu se recuperează prin persistență."
+      },
+      {
+       "intrebare": "Efectul de ancorare la reduceri înseamnă:",
+       "optiuni": [
+        "raportarea la prețul inițial afișat, nu la valoarea reală",
+        "cumpărarea în rate",
+        "economisirea automată",
+        "compararea a două magazine"
+       ],
+       "corect": 0,
+       "explicatie": "Reducerea pare mai mare decât este."
+      },
+      {
+       "intrebare": "Costul de oportunitate:",
+       "optiuni": [
+        "e real, deși nu apare în factură",
+        "e o noțiune pur teoretică",
+        "apare în extrasul de cont",
+        "se aplică doar firmelor"
+       ],
+       "corect": 0,
+       "explicatie": "Orice alegere exclude alternativele."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mas12-c2",
+   "titlu": "Sondaje, alegeri, decizie colectivă",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "mas12-04",
+     "titlu": "Sondaje de opinie și marja de eroare",
+     "rezumat": "Un sondaj estimează opinia unei populații dintr-un eșantion. Precizia estimării depinde, mai ales, de mărimea eșantionului, nu de mărimea populației: un eșantion de circa o mie de persoane, corect construit, dă o marjă de eroare de aproximativ trei procente, indiferent dacă populația are cinci milioane sau o sută de milioane de oameni — rezultat contraintuitiv, dar demonstrabil. Marja de eroare se raportează la un nivel de încredere, de obicei 95%: înseamnă că, repetând sondajul de multe ori, în 95% din cazuri intervalul calculat ar conține valoarea reală. Marja se aplică fiecărui procent în parte, deci diferențele mici dintre doi candidați pot fi statistic nesemnificative. Erorile care nu apar în marja declarată sunt adesea mai importante: eșantionul prost construit, întrebările prost formulate, non-răspunsul, momentul sondajului și diferența dintre intenția declarată și comportamentul real.",
+     "ideiCheie": [
+      "Precizia unui sondaj depinde de mărimea eșantionului, nu de cea a populației.",
+      "Un eșantion de circa o mie de persoane dă o marjă de aproximativ trei procente.",
+      "Marja se aplică fiecărui procent, deci diferențele mici pot fi nesemnificative.",
+      "Erorile nemăsurate — eșantionare, formulare, non-răspuns — sunt adesea mai importante."
+     ],
+     "termeni": [
+      {
+       "t": "marjă de eroare",
+       "d": "intervalul în care se estimează că se află valoarea reală, la un nivel de încredere dat"
+      },
+      {
+       "t": "nivel de încredere",
+       "d": "probabilitatea ca intervalul calculat să conțină valoarea reală"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "De ce depinde precizia unui sondaj?",
+       "v": "Mai ales de mărimea eșantionului, nu de mărimea populației."
+      },
+      {
+       "f": "Ce marjă de eroare are un eșantion de circa o mie de persoane?",
+       "v": "Aproximativ trei procente."
+      },
+      {
+       "f": "Ce înseamnă un nivel de încredere de 95%?",
+       "v": "Că, repetând sondajul, în 95% din cazuri intervalul ar conține valoarea reală."
+      },
+      {
+       "f": "Ce erori nu apar în marja declarată?",
+       "v": "Eșantionarea proastă, formularea întrebărilor, non-răspunsul, momentul sondajului."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Un candidat cu 33% și altul cu 31%, la o marjă de trei procente:",
+       "optiuni": [
+        "nu pot fi departajați statistic",
+        "sunt clar departajați",
+        "au același scor",
+        "au un scor imposibil"
+       ],
+       "corect": 0,
+       "explicatie": "Intervalele lor se suprapun."
+      },
+      {
+       "intrebare": "Mărimea populației, pentru precizia sondajului:",
+       "optiuni": [
+        "are un rol neglijabil",
+        "este factorul principal",
+        "dublează marja",
+        "determină nivelul de încredere"
+       ],
+       "corect": 0,
+       "explicatie": "Contează mărimea eșantionului."
+      },
+      {
+       "intrebare": "Diferența dintre intenția declarată și comportamentul real:",
+       "optiuni": [
+        "este o sursă de eroare nemăsurată de marjă",
+        "este inclusă în marja de eroare",
+        "nu există",
+        "se corectează automat"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea sondajele pot rata rezultatul."
+      },
+      {
+       "intrebare": "Nivelul de încredere obișnuit este:",
+       "optiuni": [
+        "95%",
+        "50%",
+        "100%",
+        "75%"
+       ],
+       "corect": 0,
+       "explicatie": "El definește sensul marjei."
+      }
+     ]
+    },
+    {
+     "id": "mas12-05",
+     "titlu": "Sisteme de vot și paradoxuri",
+     "rezumat": "Un sistem de vot transformă preferințele individuale într-o decizie colectivă, dar rezultatul depinde de regula folosită. Majoritatea simplă alege opțiunea cu cele mai multe voturi, chiar dacă nu are majoritate absolută; scrutinul în două tururi elimină acest neajuns; votul preferențial cere ordonarea opțiunilor; metoda Borda acordă puncte după poziție. Aceleași preferințe pot da câștigători diferiți după regula aleasă, ceea ce arată că nu există un sistem „natural”. Paradoxul lui Condorcet arată că preferințele colective pot fi ciclice: A bate B, B bate C, iar C bate A. Teorema lui Arrow demonstrează matematic că niciun sistem de vot nu poate satisface simultan un set de condiții rezonabile de echitate. Concluzia practică nu e că votul e inutil, ci că alegerea regulii este ea însăși o decizie politică importantă.",
+     "ideiCheie": [
+      "Rezultatul unui vot depinde de regula folosită, nu doar de preferințe.",
+      "Paradoxul lui Condorcet arată că preferințele colective pot fi ciclice.",
+      "Teorema lui Arrow demonstrează limitele oricărui sistem de vot.",
+      "Alegerea regulii de vot este ea însăși o decizie politică."
+     ],
+     "termeni": [
+      {
+       "t": "paradoxul lui Condorcet",
+       "d": "situația în care preferințele colective devin ciclice, fără câștigător clar"
+      },
+      {
+       "t": "teorema lui Arrow",
+       "d": "rezultatul care arată că niciun sistem de vot nu satisface simultan toate condițiile rezonabile de echitate"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce arată paradoxul lui Condorcet?",
+       "v": "Că preferințele colective pot fi ciclice: A bate B, B bate C, iar C bate A."
+      },
+      {
+       "f": "Ce demonstrează teorema lui Arrow?",
+       "v": "Că niciun sistem de vot nu poate satisface simultan un set de condiții rezonabile de echitate."
+      },
+      {
+       "f": "De ce contează regula de vot?",
+       "v": "Pentru că aceleași preferințe pot da câștigători diferiți."
+      },
+      {
+       "f": "Ce este metoda Borda?",
+       "v": "Un sistem în care opțiunile primesc puncte după poziția în ordonarea fiecărui votant."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Aceleași preferințe individuale:",
+       "optiuni": [
+        "pot da câștigători diferiți după regula de vot",
+        "dau mereu același câștigător",
+        "nu pot fi agregate",
+        "se anulează reciproc"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea regula e o decizie politică."
+      },
+      {
+       "intrebare": "Majoritatea simplă poate alege o opțiune care:",
+       "optiuni": [
+        "nu are majoritate absolută",
+        "are peste 50% obligatoriu",
+        "e preferată de toți",
+        "e ultima clasată"
+       ],
+       "corect": 0,
+       "explicatie": "Scrutinul în două tururi corectează asta."
+      },
+      {
+       "intrebare": "Teorema lui Arrow spune că:",
+       "optiuni": [
+        "niciun sistem de vot nu satisface toate condițiile de echitate",
+        "votul majoritar e perfect",
+        "votul preferențial e ideal",
+        "votul e inutil"
+       ],
+       "corect": 0,
+       "explicatie": "Concluzia practică e prudența, nu resemnarea."
+      },
+      {
+       "intrebare": "Paradoxul lui Condorcet privește:",
+       "optiuni": [
+        "ciclicitatea preferințelor colective",
+        "eroarea de eșantionare",
+        "inflația",
+        "costul de oportunitate"
+       ],
+       "corect": 0,
+       "explicatie": "Nu există câștigător clar în astfel de cazuri."
+      }
+     ]
+    },
+    {
+     "id": "mas12-06",
+     "titlu": "Teoria jocurilor și cooperarea",
+     "rezumat": "Teoria jocurilor studiază deciziile în care rezultatul depinde și de alegerile celorlalți. Dilema prizonierului este exemplul central: doi participanți ar câștiga mai mult cooperând, dar fiecare are, individual, interesul să trădeze, iar rezultatul colectiv este mai prost pentru amândoi. Structura ei explică multe situații reale: cursa înarmărilor, poluarea, evaziunea fiscală, exploatarea resurselor comune. Repetarea jocului schimbă însă calculul: cooperarea devine rațională când interacțiunea continuă și reputația contează. Strategia „ochi pentru ochi” — cooperezi primul, apoi repeți ce a făcut celălalt — s-a dovedit surprinzător de eficientă în simulări. Alte modele explică formarea normelor, echilibrul într-o negociere sau problema pasagerului clandestin, cel care beneficiază de un bun public fără să contribuie. Aceste modele nu prezic comportamentul individual, dar clarifică structura stimulentelor.",
+     "ideiCheie": [
+      "Teoria jocurilor studiază decizii în care rezultatul depinde de alegerile celorlalți.",
+      "În dilema prizonierului, interesul individual duce la un rezultat colectiv prost.",
+      "Repetarea jocului face cooperarea rațională.",
+      "Pasagerul clandestin beneficiază de un bun public fără să contribuie."
+     ],
+     "termeni": [
+      {
+       "t": "dilema prizonierului",
+       "d": "situație în care alegerea rațională individuală duce la un rezultat colectiv mai prost"
+      },
+      {
+       "t": "pasager clandestin",
+       "d": "cel care beneficiază de un bun public fără să contribuie la costul lui"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce arată dilema prizonierului?",
+       "v": "Că alegerea rațională individuală poate duce la un rezultat colectiv mai prost pentru toți."
+      },
+      {
+       "f": "Ce schimbă repetarea jocului?",
+       "v": "Face cooperarea rațională, pentru că reputația și viitorul interacțiunii contează."
+      },
+      {
+       "f": "Ce este problema pasagerului clandestin?",
+       "v": "Situația celui care beneficiază de un bun public fără să contribuie la costul lui."
+      },
+      {
+       "f": "Ce strategie s-a dovedit eficientă în jocurile repetate?",
+       "v": "„Ochi pentru ochi”: cooperezi primul, apoi repeți ce a făcut celălalt."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Poluarea are structura:",
+       "optiuni": [
+        "unei dileme a prizonierului",
+        "unui joc cu sumă nulă pur",
+        "unei licitații",
+        "unui joc cooperativ perfect"
+       ],
+       "corect": 0,
+       "explicatie": "Fiecare are interesul să nu-și reducă emisiile."
+      },
+      {
+       "intrebare": "Cooperarea devine rațională când:",
+       "optiuni": [
+        "jocul se repetă și reputația contează",
+        "jocul e unic",
+        "participanții nu se cunosc",
+        "nu există comunicare"
+       ],
+       "corect": 0,
+       "explicatie": "Viitorul interacțiunii schimbă calculul."
+      },
+      {
+       "intrebare": "Pasagerul clandestin:",
+       "optiuni": [
+        "beneficiază fără să contribuie",
+        "contribuie fără să beneficieze",
+        "nu participă deloc",
+        "plătește dublu"
+       ],
+       "corect": 0,
+       "explicatie": "Problema apare la bunurile publice."
+      },
+      {
+       "intrebare": "Modelele teoriei jocurilor:",
+       "optiuni": [
+        "clarifică structura stimulentelor",
+        "prezic exact comportamentul individual",
+        "înlocuiesc datele empirice",
+        "se aplică doar în economie"
+       ],
+       "corect": 0,
+       "explicatie": "Sunt instrumente de analiză, nu profeții."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mas12-c3",
+   "titlu": "Rețele și decizie",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "mas12-07",
+     "titlu": "Grafuri și rețele sociale",
+     "rezumat": "Un graf este format din noduri și din muchii care le leagă. Rețelele sociale se modelează astfel: oamenii sunt noduri, relațiile sunt muchii. Gradul unui nod arată câte legături are; distanța dintre două noduri e numărul minim de pași care le separă. Fenomenul „lumii mici” arată că, în rețelele sociale reale, distanța medie e surprinzător de mică, de unde ideea celor șase grade de separare. Rețelele reale nu sunt uniforme: câteva noduri au foarte multe legături, majoritatea au puține. Aceste noduri centrale explică viteza de răspândire a informației, dar și vulnerabilitatea rețelei: eliminarea lor o fragmentează. Centralitatea, densitatea și existența comunităților sunt indicatori uzuali. Aplicațiile merg de la analiza răspândirii bolilor și a zvonurilor la organizarea transporturilor și la algoritmii care recomandă prieteni sau conținut.",
+     "ideiCheie": [
+      "Un graf are noduri și muchii; rețelele sociale se modelează astfel.",
+      "Fenomenul lumii mici: distanța medie într-o rețea socială e surprinzător de mică.",
+      "Câteva noduri centrale concentrează majoritatea legăturilor.",
+      "Nodurile centrale explică viteza de răspândire, dar și vulnerabilitatea rețelei."
+     ],
+     "termeni": [
+      {
+       "t": "graf",
+       "d": "structură formată din noduri și din legături între ele"
+      },
+      {
+       "t": "centralitate",
+       "d": "măsura importanței unui nod într-o rețea, după numărul și poziția legăturilor sale"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Din ce este format un graf?",
+       "v": "Din noduri și din muchii care le leagă."
+      },
+      {
+       "f": "Ce arată fenomenul lumii mici?",
+       "v": "Că distanța medie între doi oameni dintr-o rețea socială e surprinzător de mică."
+      },
+      {
+       "f": "De ce sunt importante nodurile centrale?",
+       "v": "Explică viteza de răspândire a informației și vulnerabilitatea rețelei."
+      },
+      {
+       "f": "Ce aplicații are analiza rețelelor?",
+       "v": "Răspândirea bolilor și a zvonurilor, transporturile, algoritmii de recomandare."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Într-o rețea socială reală, distribuția legăturilor este:",
+       "optiuni": [
+        "inegală: puține noduri au foarte multe legături",
+        "uniformă",
+        "aleatorie perfect",
+        "identică pentru toate nodurile"
+       ],
+       "corect": 0,
+       "explicatie": "De aici rolul nodurilor centrale."
+      },
+      {
+       "intrebare": "Eliminarea nodurilor centrale:",
+       "optiuni": [
+        "fragmentează rețeaua",
+        "nu are efect",
+        "o întărește",
+        "crește densitatea"
+       ],
+       "corect": 0,
+       "explicatie": "Este și o vulnerabilitate, și o strategie de intervenție."
+      },
+      {
+       "intrebare": "Gradul unui nod arată:",
+       "optiuni": [
+        "numărul de legături ale nodului",
+        "distanța până la centru",
+        "importanța lui absolută",
+        "vechimea lui în rețea"
+       ],
+       "corect": 0,
+       "explicatie": "Centralitatea ia în calcul și poziția."
+      },
+      {
+       "intrebare": "Ideea celor șase grade de separare vine din:",
+       "optiuni": [
+        "fenomenul lumii mici",
+        "teorema lui Arrow",
+        "dilema prizonierului",
+        "regula lui 72"
+       ],
+       "corect": 0,
+       "explicatie": "Distanța medie în rețelele sociale e mică."
+      }
+     ]
+    },
+    {
+     "id": "mas12-08",
+     "titlu": "Algoritmi, date, societate",
+     "rezumat": "Algoritmii iau tot mai multe decizii care privesc oamenii: ordonarea informației, recomandările, acordarea creditelor, trierea candidaturilor, evaluarea riscului. Un algoritm învață din date istorice, ceea ce înseamnă că reproduce, și uneori amplifică, tiparele existente, inclusiv discriminările din trecut — problema numită prejudecată algoritmică. Opacitatea complică lucrurile: multe sisteme nu pot explica de ce au dat un anumit rezultat, ceea ce face contestarea greu de făcut. Reglementarea europeană a introdus drepturi privind datele personale și deciziile automate. Alfabetizarea în acest domeniu presupune câteva întrebări practice: ce date au fost folosite, ce optimizează sistemul, cine verifică rezultatele, ce se întâmplă când greșește. Un algoritm nu e nici obiectiv, nici neutru: el încorporează alegerile celor care l-au construit.",
+     "ideiCheie": [
+      "Algoritmii învață din date istorice și pot reproduce discriminările din trecut.",
+      "Opacitatea sistemelor face contestarea deciziilor dificilă.",
+      "Reglementarea europeană a introdus drepturi privind datele și deciziile automate.",
+      "Un algoritm nu e neutru: încorporează alegerile celor care l-au construit."
+     ],
+     "termeni": [
+      {
+       "t": "prejudecată algoritmică",
+       "d": "reproducerea sau amplificarea unor discriminări existente de către un sistem automat"
+      },
+      {
+       "t": "decizie automată",
+       "d": "hotărâre luată de un sistem informatic, fără intervenție umană directă"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "De ce pot fi algoritmii discriminatorii?",
+       "v": "Pentru că învață din date istorice, care conțin tiparele și discriminările trecutului."
+      },
+      {
+       "f": "Ce problemă ridică opacitatea sistemelor?",
+       "v": "Face dificilă contestarea unei decizii, pentru că nu se poate explica de ce a fost luată."
+      },
+      {
+       "f": "Ce întrebări practice ajută la evaluarea unui algoritm?",
+       "v": "Ce date au fost folosite, ce optimizează, cine verifică rezultatele, ce se întâmplă când greșește."
+      },
+      {
+       "f": "Este un algoritm neutru?",
+       "v": "Nu; el încorporează alegerile celor care l-au construit."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Prejudecata algoritmică apare pentru că:",
+       "optiuni": [
+        "sistemul învață din date care conțin discriminări trecute",
+        "programatorii sunt răuvoitori",
+        "datele sunt prea puține",
+        "calculatoarele greșesc aleator"
+       ],
+       "corect": 0,
+       "explicatie": "Tiparul se reproduce și se amplifică."
+      },
+      {
+       "intrebare": "Opacitatea unui sistem automat:",
+       "optiuni": [
+        "îngreunează contestarea deciziilor",
+        "crește acuratețea",
+        "protejează utilizatorul",
+        "e cerută de lege"
+       ],
+       "corect": 0,
+       "explicatie": "De aici cerința de explicabilitate."
+      },
+      {
+       "intrebare": "Reglementarea europeană privind datele personale:",
+       "optiuni": [
+        "a introdus drepturi legate de deciziile automate",
+        "interzice orice algoritm",
+        "privește doar firmele mici",
+        "nu se aplică în România"
+       ],
+       "corect": 0,
+       "explicatie": "A devenit un reper mondial."
+      },
+      {
+       "intrebare": "Afirmația că un algoritm e „obiectiv” este:",
+       "optiuni": [
+        "falsă: el încorporează alegeri umane",
+        "adevărată",
+        "adevărată doar pentru date mari",
+        "imposibil de evaluat"
+       ],
+       "corect": 0,
+       "explicatie": "Alegerea datelor și a obiectivului sunt decizii."
+      }
+     ]
+    },
+    {
+     "id": "mas12-09",
+     "titlu": "Sinteză: gândirea cantitativă în viața publică",
+     "rezumat": "Gândirea cantitativă nu înseamnă calcul, ci capacitatea de a pune întrebările potrivite când întâlnești cifre. Câteva reflexe utile: cine a produs datele și cu ce interes; cât de mare e eșantionul și cum a fost ales; ce înseamnă exact indicatorul folosit; față de ce se face comparația; care e ordinul de mărime; ce lipsește din prezentare. Ordinul de mărime este un instrument subestimat: multe afirmații se pot verifica printr-o estimare grosieră, care arată imediat dacă cifra e plauzibilă. Distincția dintre valori absolute și relative, dintre medie și mediană, dintre corelație și cauzalitate elimină majoritatea erorilor de interpretare din discursul public. Iar recunoașterea propriei incertitudini — a ști ce nu știi — este ea însăși o competență: cifrele nu scutesc de judecată, ci o sprijină.",
+     "ideiCheie": [
+      "Gândirea cantitativă înseamnă a pune întrebările potrivite când întâlnești cifre.",
+      "Estimarea ordinului de mărime verifică rapid plauzibilitatea unei afirmații.",
+      "Distincțiile absolut/relativ, medie/mediană, corelație/cauzalitate elimină majoritatea erorilor.",
+      "Cifrele nu scutesc de judecată, ci o sprijină."
+     ],
+     "termeni": [
+      {
+       "t": "ordin de mărime",
+       "d": "aproximarea unei valori la puterea lui zece cea mai apropiată, folosită pentru verificări rapide"
+      },
+      {
+       "t": "gândire cantitativă",
+       "d": "capacitatea de a interpreta critic informația numerică"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce înseamnă gândirea cantitativă?",
+       "v": "Capacitatea de a pune întrebările potrivite când întâlnești cifre."
+      },
+      {
+       "f": "La ce servește estimarea ordinului de mărime?",
+       "v": "La verificarea rapidă a plauzibilității unei afirmații."
+      },
+      {
+       "f": "Ce distincții elimină majoritatea erorilor de interpretare?",
+       "v": "Absolut/relativ, medie/mediană, corelație/cauzalitate."
+      },
+      {
+       "f": "Scutesc cifrele de judecată?",
+       "v": "Nu; ele o sprijină, dar nu o înlocuiesc."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Prima întrebare în fața unei cifre din presă este:",
+       "optiuni": [
+        "cine a produs datele și cu ce interes",
+        "cât de mare este",
+        "dacă e rotunjită",
+        "dacă e recentă"
+       ],
+       "corect": 0,
+       "explicatie": "Urmează eșantionul și definiția indicatorului."
+      },
+      {
+       "intrebare": "Estimarea ordinului de mărime:",
+       "optiuni": [
+        "arată rapid dacă o cifră e plauzibilă",
+        "înlocuiește calculul exact",
+        "e utilă doar în fizică",
+        "necesită date complete"
+       ],
+       "corect": 0,
+       "explicatie": "Este un instrument subestimat."
+      },
+      {
+       "intrebare": "„Față de ce se face comparația” este o întrebare esențială pentru că:",
+       "optiuni": [
+        "o cifră fără termen de comparație nu spune nimic",
+        "comparațiile sunt interzise",
+        "toate comparațiile sunt valide",
+        "termenul e mereu evident"
+       ],
+       "corect": 0,
+       "explicatie": "Baza de comparație schimbă concluzia."
+      },
+      {
+       "intrebare": "A ști ce nu știi este:",
+       "optiuni": [
+        "o competență în sine",
+        "un semn de slăbiciune",
+        "irelevant statistic",
+        "o scuză"
+       ],
+       "corect": 0,
+       "explicatie": "Recunoașterea incertitudinii îmbunătățește decizia."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "teze": [
+  {
+   "semestru": 1,
+   "test": [
+    {
+     "intrebare": "Regula lui 72 estimează:",
+     "optiuni": [
+      "timpul de dublare a unei sume",
+      "rata inflației",
+      "marja de eroare",
+      "randamentul real"
+     ],
+     "corect": 0,
+     "explicatie": "Se împarte 72 la rata procentuală."
+    },
+    {
+     "intrebare": "Dobânda anuală efectivă:",
+     "optiuni": [
+      "include comisioanele",
+      "e mai mică decât cea nominală",
+      "exclude toate costurile",
+      "se aplică doar depozitelor"
+     ],
+     "corect": 0,
+     "explicatie": "De aceea permite comparația reală."
+    },
+    {
+     "intrebare": "Randamentul real se obține scăzând:",
+     "optiuni": [
+      "rata inflației",
+      "comisionul bancar",
+      "impozitul",
+      "dobânda nominală"
+     ],
+     "corect": 0,
+     "explicatie": "Poate fi negativ."
+    },
+    {
+     "intrebare": "Promisiunea unui randament mare fără risc semnalează:",
+     "optiuni": [
+      "o fraudă",
+      "o oportunitate rară",
+      "un produs bancar sigur",
+      "o investiție de stat"
+     ],
+     "corect": 0,
+     "explicatie": "Riscul și randamentul sunt legate."
+    },
+    {
+     "intrebare": "Fondul de urgență ar trebui să acopere:",
+     "optiuni": [
+      "trei până la șase luni de cheltuieli",
+      "o lună",
+      "doi ani",
+      "doar cheltuielile fixe"
+     ],
+     "corect": 0,
+     "explicatie": "Protejează împotriva șocurilor."
+    },
+    {
+     "intrebare": "Costul de oportunitate este:",
+     "optiuni": [
+      "valoarea celei mai bune alternative la care renunți",
+      "comisionul plătit",
+      "diferența de preț",
+      "pierderea din inflație"
+     ],
+     "corect": 0,
+     "explicatie": "Nu apare în factură, dar e real."
+    },
+    {
+     "intrebare": "Precizia unui sondaj depinde, în principal, de:",
+     "optiuni": [
+      "mărimea eșantionului",
+      "mărimea populației",
+      "numărul de întrebări",
+      "durata sondajului"
+     ],
+     "corect": 0,
+     "explicatie": "Rezultatul e contraintuitiv, dar demonstrabil."
+    },
+    {
+     "intrebare": "Un eșantion de circa o mie de persoane dă o marjă de aproximativ:",
+     "optiuni": [
+      "trei procente",
+      "zece procente",
+      "un procent",
+      "cincisprezece procente"
+     ],
+     "corect": 0,
+     "explicatie": "La un nivel de încredere de 95%."
+    },
+    {
+     "intrebare": "O diferență de două procente între doi candidați, la o marjă de trei procente:",
+     "optiuni": [
+      "nu este semnificativă statistic",
+      "este clară",
+      "înseamnă egalitate exactă",
+      "este imposibilă"
+     ],
+     "corect": 0,
+     "explicatie": "Intervalele se suprapun."
+    }
+   ]
+  },
+  {
+   "semestru": 2,
+   "test": [
+    {
+     "intrebare": "Paradoxul lui Condorcet arată că:",
+     "optiuni": [
+      "preferințele colective pot fi ciclice",
+      "votul majoritar e perfect",
+      "sondajele sunt inutile",
+      "eșantionul contează mai mult decât populația"
+     ],
+     "corect": 0,
+     "explicatie": "A bate B, B bate C, C bate A."
+    },
+    {
+     "intrebare": "Teorema lui Arrow demonstrează:",
+     "optiuni": [
+      "limitele oricărui sistem de vot",
+      "superioritatea votului preferențial",
+      "inutilitatea alegerilor",
+      "necesitatea a două tururi"
+     ],
+     "corect": 0,
+     "explicatie": "Niciun sistem nu satisface toate condițiile rezonabile."
+    },
+    {
+     "intrebare": "În dilema prizonierului:",
+     "optiuni": [
+      "alegerea rațională individuală duce la un rezultat colectiv mai prost",
+      "cooperarea e mereu aleasă",
+      "nu există soluție",
+      "rezultatul e mereu optim"
+     ],
+     "corect": 0,
+     "explicatie": "Structura explică poluarea și evaziunea."
+    },
+    {
+     "intrebare": "Cooperarea devine rațională când:",
+     "optiuni": [
+      "jocul se repetă",
+      "jocul e unic",
+      "participanții sunt anonimi",
+      "nu există sancțiuni"
+     ],
+     "corect": 0,
+     "explicatie": "Reputația schimbă calculul."
+    },
+    {
+     "intrebare": "Într-o rețea socială reală, legăturile sunt distribuite:",
+     "optiuni": [
+      "inegal, cu puține noduri foarte conectate",
+      "uniform",
+      "perfect aleatoriu",
+      "egal pentru toți"
+     ],
+     "corect": 0,
+     "explicatie": "De aici viteza de răspândire."
+    },
+    {
+     "intrebare": "Eliminarea nodurilor centrale dintr-o rețea:",
+     "optiuni": [
+      "o fragmentează",
+      "o consolidează",
+      "nu are efect",
+      "crește distanța medie doar puțin"
+     ],
+     "corect": 0,
+     "explicatie": "Este și o vulnerabilitate, și o pârghie de intervenție."
+    },
+    {
+     "intrebare": "Prejudecata algoritmică apare pentru că sistemele:",
+     "optiuni": [
+      "învață din date istorice care conțin discriminări",
+      "sunt programate răuvoitor",
+      "funcționează aleatoriu",
+      "nu folosesc date"
+     ],
+     "corect": 0,
+     "explicatie": "Tiparele trecutului se reproduc."
+    },
+    {
+     "intrebare": "Un algoritm este:",
+     "optiuni": [
+      "purtătorul alegerilor celor care l-au construit",
+      "obiectiv prin natura lui",
+      "neutru dacă folosește date mari",
+      "imposibil de evaluat"
+     ],
+     "corect": 0,
+     "explicatie": "Alegerea datelor și a obiectivului sunt decizii umane."
+    },
+    {
+     "intrebare": "Estimarea ordinului de mărime servește la:",
+     "optiuni": [
+      "verificarea rapidă a plauzibilității",
+      "calculul exact",
+      "eliminarea erorilor de măsurare",
+      "stabilirea marjei de eroare"
+     ],
+     "corect": 0,
+     "explicatie": "Multe afirmații cad la o estimare grosieră."
+    }
+   ]
+  }
+ ]
+}
