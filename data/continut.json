@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 32,
-  "nrLectii": 328,
-  "nrCarduri": 1312,
-  "nrIntrebari": 2084,
+  "nrModule": 33,
+  "nrLectii": 337,
+  "nrCarduri": 1348,
+  "nrIntrebari": 2144,
   "module": [
     {
       "id": "geografie-9",
@@ -2168,6 +2168,88 @@
             {
               "id": "ss12-09",
               "titlu": "Etică, corupție și integritate publică"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "engleza-12",
+      "materie": "Limba modernă 1 (Engleză)",
+      "clasa": "a XII-a",
+      "an": 4,
+      "arie": "Limbă și comunicare",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Engleză pentru examen și pentru viața profesională: text argumentativ, corespondență, prezentări, engleză academică și de afaceri.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 60,
+      "capitole": [
+        {
+          "id": "eng12-c1",
+          "titlu": "Scriere avansată",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "eng12-01",
+              "titlu": "Eseul argumentativ"
+            },
+            {
+              "id": "eng12-02",
+              "titlu": "Corespondență formală și documente profesionale"
+            },
+            {
+              "id": "eng12-03",
+              "titlu": "Rapoarte, recenzii, articole"
+            }
+          ]
+        },
+        {
+          "id": "eng12-c2",
+          "titlu": "Engleză academică și profesională",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "eng12-04",
+              "titlu": "Prezentări orale în engleză"
+            },
+            {
+              "id": "eng12-05",
+              "titlu": "Engleza academică: citare, parafrazare, obiectivitate"
+            },
+            {
+              "id": "eng12-06",
+              "titlu": "Engleza pentru afaceri și pentru interviu"
+            }
+          ]
+        },
+        {
+          "id": "eng12-c3",
+          "titlu": "Proba de competențe lingvistice",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "eng12-07",
+              "titlu": "Structura probei B"
+            },
+            {
+              "id": "eng12-08",
+              "titlu": "Strategii pentru fiecare dimensiune"
+            },
+            {
+              "id": "eng12-09",
+              "titlu": "Autonomia în învățarea limbii"
             }
           ]
         }
