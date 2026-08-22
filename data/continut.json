@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 47,
-  "nrLectii": 463,
-  "nrCarduri": 1852,
-  "nrIntrebari": 2912,
+  "nrModule": 49,
+  "nrLectii": 481,
+  "nrCarduri": 1924,
+  "nrIntrebari": 3020,
   "module": [
     {
       "id": "geografie-9",
@@ -2404,6 +2404,88 @@
       ]
     },
     {
+      "id": "religie-11",
+      "materie": "Religie",
+      "clasa": "a XI-a",
+      "an": 3,
+      "arie": "Om și societate",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Biserica: Sfintele Taine, cultul și arta liturgică, istoria creștinismului și relația credinței cu știința și cultura.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 54,
+      "capitole": [
+        {
+          "id": "rel11-c1",
+          "titlu": "Biserica și Sfintele Taine",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rel11-01",
+              "titlu": "Biserica — comuniune și instituție"
+            },
+            {
+              "id": "rel11-02",
+              "titlu": "Sfintele Taine ale inițierii"
+            },
+            {
+              "id": "rel11-03",
+              "titlu": "Celelalte Sfinte Taine"
+            }
+          ]
+        },
+        {
+          "id": "rel11-c2",
+          "titlu": "Cult, artă, sărbători",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rel11-04",
+              "titlu": "Sfânta Liturghie"
+            },
+            {
+              "id": "rel11-05",
+              "titlu": "Icoana și arta bisericească"
+            },
+            {
+              "id": "rel11-06",
+              "titlu": "Sărbătorile și posturile"
+            }
+          ]
+        },
+        {
+          "id": "rel11-c3",
+          "titlu": "Creștinismul, cultura și lumea",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rel11-07",
+              "titlu": "Marile momente ale istoriei creștine"
+            },
+            {
+              "id": "rel11-08",
+              "titlu": "Credință, rațiune, știință"
+            },
+            {
+              "id": "rel11-09",
+              "titlu": "Religiile lumii și dialogul"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
+        }
+      ]
+    },
+    {
       "id": "sociologie-11",
       "materie": "Sociologie",
       "clasa": "a XI-a",
@@ -3164,6 +3246,88 @@
         {
           "semestru": 2,
           "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "religie-12",
+      "materie": "Religie",
+      "clasa": "a XII-a",
+      "an": 4,
+      "arie": "Om și societate",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Morala creștină: conștiință și libertate, viața personală și de familie, responsabilitatea socială și bioetica.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 54,
+      "capitole": [
+        {
+          "id": "rel12-c1",
+          "titlu": "Temeiurile moralei creștine",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rel12-01",
+              "titlu": "Libertate, responsabilitate, conștiință"
+            },
+            {
+              "id": "rel12-02",
+              "titlu": "Legea morală și poruncile"
+            },
+            {
+              "id": "rel12-03",
+              "titlu": "Virtuți și patimi"
+            }
+          ]
+        },
+        {
+          "id": "rel12-c2",
+          "titlu": "Viața personală și familia",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rel12-04",
+              "titlu": "Demnitatea persoanei"
+            },
+            {
+              "id": "rel12-05",
+              "titlu": "Familia și relațiile"
+            },
+            {
+              "id": "rel12-06",
+              "titlu": "Munca, timpul, bunurile"
+            }
+          ]
+        },
+        {
+          "id": "rel12-c3",
+          "titlu": "Responsabilitate socială și bioetică",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rel12-07",
+              "titlu": "Creștinul în societate"
+            },
+            {
+              "id": "rel12-08",
+              "titlu": "Bioetica"
+            },
+            {
+              "id": "rel12-09",
+              "titlu": "Creștinismul și provocările contemporane"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
         }
       ]
     },
