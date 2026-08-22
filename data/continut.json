@@ -1,11 +1,104 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 15,
-  "nrLectii": 174,
-  "nrCarduri": 696,
-  "nrIntrebari": 1059,
+  "nrModule": 16,
+  "nrLectii": 184,
+  "nrCarduri": 736,
+  "nrIntrebari": 1123,
   "module": [
+    {
+      "id": "geografie-9",
+      "materie": "Geografie",
+      "clasa": "a IX-a",
+      "an": 1,
+      "arie": "Om și societate",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Geografie fizică generală: Pământul în Univers, relieful, atmosfera, apele, viețuitoarele și mediul înconjurător.",
+      "nrLectii": 10,
+      "nrCarduri": 40,
+      "nrIntrebari": 64,
+      "capitole": [
+        {
+          "id": "geo9-c1",
+          "titlu": "Pământul în Univers",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "geo9-01",
+              "titlu": "Sistemul Solar și Pământul ca planetă"
+            },
+            {
+              "id": "geo9-02",
+              "titlu": "Mișcările Pământului și consecințele lor"
+            }
+          ]
+        },
+        {
+          "id": "geo9-c2",
+          "titlu": "Relieful terestru",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "geo9-03",
+              "titlu": "Structura internă și tectonica plăcilor"
+            },
+            {
+              "id": "geo9-04",
+              "titlu": "Agenții interni și formele majore de relief"
+            },
+            {
+              "id": "geo9-05",
+              "titlu": "Agenții externi și modelarea reliefului"
+            }
+          ]
+        },
+        {
+          "id": "geo9-c3",
+          "titlu": "Atmosfera și hidrosfera",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "geo9-06",
+              "titlu": "Atmosfera: structură, temperatură, presiune, vânturi"
+            },
+            {
+              "id": "geo9-07",
+              "titlu": "Clima și zonele climatice"
+            },
+            {
+              "id": "geo9-08",
+              "titlu": "Hidrosfera: oceane, râuri, lacuri, ape subterane"
+            }
+          ]
+        },
+        {
+          "id": "geo9-c4",
+          "titlu": "Biosfera, solurile și mediul",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "geo9-09",
+              "titlu": "Biosfera, solurile și zonele biogeografice"
+            },
+            {
+              "id": "geo9-10",
+              "titlu": "Mediul înconjurător: hazarde, poluare, protecție"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
     {
       "id": "istorie-9",
       "materie": "Istorie",
