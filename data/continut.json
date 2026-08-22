@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 12,
-  "nrLectii": 146,
-  "nrCarduri": 584,
-  "nrIntrebari": 874,
+  "nrModule": 13,
+  "nrLectii": 155,
+  "nrCarduri": 620,
+  "nrIntrebari": 934,
   "module": [
     {
       "id": "istorie-9",
@@ -846,6 +846,95 @@
             {
               "id": "soc11-14",
               "titlu": "Globalizarea și probleme sociale contemporane"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "romana-11",
+      "materie": "Limba și literatura română",
+      "clasa": "a XI-a",
+      "an": 3,
+      "arie": "Limbă și comunicare",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Fundamentele culturii române și marile curente: umanism, iluminism, pașoptism, romantism, realism, simbolism, cu autorii canonici.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 60,
+      "capitole": [
+        {
+          "id": "rom11-c1",
+          "titlu": "Începuturile culturii scrise",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rom11-01",
+              "titlu": "Primele texte și cultura scrisă veche"
+            },
+            {
+              "id": "rom11-02",
+              "titlu": "Cronicarii și Dimitrie Cantemir"
+            }
+          ]
+        },
+        {
+          "id": "rom11-c2",
+          "titlu": "Curente culturale până la 1848",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rom11-03",
+              "titlu": "Umanismul și iluminismul românesc"
+            },
+            {
+              "id": "rom11-04",
+              "titlu": "Pașoptismul și romantismul românesc"
+            },
+            {
+              "id": "rom11-05",
+              "titlu": "Mihai Eminescu — romantismul înalt"
+            }
+          ]
+        },
+        {
+          "id": "rom11-c3",
+          "titlu": "Junimea, realismul, marii clasici",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rom11-06",
+              "titlu": "Junimea și Titu Maiorescu"
+            },
+            {
+              "id": "rom11-07",
+              "titlu": "Realismul: Slavici, Caragiale, Creangă"
+            }
+          ]
+        },
+        {
+          "id": "rom11-c4",
+          "titlu": "Modernitatea timpurie",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rom11-08",
+              "titlu": "Simbolismul și George Bacovia"
+            },
+            {
+              "id": "rom11-09",
+              "titlu": "Trecerea spre modernism: Macedonski, Coșbuc, Goga"
             }
           ]
         }
