@@ -788,3 +788,109 @@ reload-ul se execută o singură dată. Plus verificatorii locali, ca de obicei.
 **Pentru cine vede încă pagina stricată:** un singur refresh forțat
 (Ctrl+Shift+R / Cmd+Shift+R) o repară definitiv; din v02.1, realinierea se face
 singură — la momentul potrivit, nu peste munca omului.
+
+---
+
+## 2026-08-22 — Versiunea 03, „Temă, setări, conținut complet"
+
+Trei cerințe, formulate de utilizator: *aplicația am găsit-o pe modul dark, vreau
+să aibă și modul luminos*; *aplicația nu are setări, implementează tot felul de
+setări*; *vreau să lucrăm pe module — fiecare materie în parte, toate lecțiile pe
+capitole, în fiecare an, cât mai complex, apoi test din fiecare lecție și test pe
+semestru*.
+
+### 37 · Tema: din media query în atribut
+
+Paleta întunecată exista, dar era prizonieră în `@media (prefers-color-scheme:
+dark)` — adică urma exclusiv setarea sistemului, fără ca utilizatorul să poată
+alege. Toate blocurile de temă au trecut pe atribute puse pe `<html>`:
+
+```css
+:root:where([data-tema="intunecat"]) { /* aceeași paletă, altă poartă */ }
+```
+
+`:where()` nu adaugă specificitate, deci cascada a rămas bit cu bit aceeași — nu
+s-a rescris nicio componentă. Același tratament au primit `prefers-contrast`,
+`prefers-reduced-motion` și `prefers-reduced-transparency`, care sunt acum
+`data-contrast`, `data-miscare`, `data-transparenta` și au fiecare trei stări:
+automat (urmează sistemul), pornit, oprit.
+
+Capcana pe care am prins-o abia la a doua citire: câteva blocuri erau
+`@media (prefers-color-scheme: dark)` **imbricate** în `@supports` sau în alt
+media query. Desfăcute naiv, condiția exterioară dispărea în tăcere. Soluția:
+atribute combinate, `[data-transparenta="redusa"][data-tema="intunecat"]`.
+
+Ca prima pictură să fie deja corectă, temele se pun **înainte** de foaia de stil,
+dintr-un script inline din `<head>` care citește `localStorage` sincron. Fără el,
+un utilizator cu temă întunecată ar vedea o clipire albă la fiecare pornire.
+
+### 38 · Setări: un ecran, nu un meniu
+
+Ruta nouă `#/setari` (rotița din bara de sus) adună: **aspect** — temă, contrast,
+transparență, mișcare, densitate (compact / confortabil / spațios), font (sistem
+/ serif / lizibil), mărimea textului 80–150%; **studiu** — clasa implicită,
+amestecarea întrebărilor și a opțiunilor, afișarea explicațiilor, cronometru,
+numărul de întrebări; **date** — export și import JSON, plus resetări separate
+(progres, teste, carduri, notițe, setări, tot).
+
+Setările nu sunt decorative: densitatea rescrie scara de spațiere, fontul
+rescrie familia și înălțimea rândului, mărimea textului scalează `font-size` pe
+`html`. Fiind toate tokeni, se propagă în tot fișierul fără nicio excepție
+scrisă de mână.
+
+### 39 · Conținutul: DSL text -> JSON -> index generat
+
+Cerința a treia era, de departe, cea mai mare: **60 de module** (materie × an),
+adică toată matricea planului-cadru, cu lecțiile grupate pe capitole, test la
+fiecare lecție și teză la fiecare semestru.
+
+Un singur `data/continut.json` ar fi devenit un fișier de câțiva megaocteți,
+descărcat integral la fiecare pornire. Modelul e acum împărțit:
+
+| Fișier | Rol |
+|---|---|
+| `data/sursa/*.txt` | conținutul scris de om, într-un DSL de o pagină |
+| `data/module/<id>.json` | sursa de adevăr, un fișier per materie×an |
+| `data/continut.json` | **index generat**: titluri, cifre, structura capitolelor |
+| blocul `MODULE` din `sw.js` | **listă generată** de precache |
+
+`tools/text-in-modul.mjs` convertește DSL-ul, `tools/construieste-index.mjs`
+scrie indexul și rescrie blocul din `sw.js`, `tools/verifica-continut.mjs` refuză
+tot ce nu ține: materie care nu există în planul-cadru, id duplicat, întrebare
+sub 8 caractere, opțiuni identice, explicație lipsă, rezumat sub 120 de
+caractere, mai puțin de trei carduri sau trei întrebări, teză lipsă la un
+semestru. A prins, în timpul scrierii, exact ce trebuia să prindă: o teză cu o
+întrebare de șapte caractere și o grilă de franceză cu aceeași opțiune greșită
+scrisă de două ori.
+
+Aplicația cere modulul abia când e deschis (`ceriModul`, memoizat), cu un token
+de randare care anulează rezultatul dacă utilizatorul a navigat între timp, și
+cu un indicator de încărcare care apare doar după 400 ms — cât să nu clipească
+pe conexiuni bune. Toate cele 60 de fișiere rămân însă în precache: altfel
+aplicația instalată ar avea lecțiile doar cât timp există rețea.
+
+**Bilanț: 60 de module, 206 capitole, 580 de lecții, 2320 de carduri, 3614
+întrebări** — teste de lecție și teze semestriale.
+
+### 40 · Vaultul, adaptat la modelul pe module
+
+`tools/graphify.py` presupunea un modul per materie, cu `flashcards` și `quiz` la
+rădăcină. Acum citește `data/module/*.json`, aplatizează capitolele păstrând pe
+fiecare lecție capitolul din care vine, și cheia devine **materie + clasă** —
+altfel „Istorie" din clasa a IX-a și cea din a XII-a s-ar fi suprascris. Folder
+nou `vault/Module`, câte o notă per materie×an; nota de materie devine umbrelă,
+cu un rând per an. Harta mermaid, care ar fi avut 60 de noduri ilizibile, s-a
+regrupat pe clase și arii.
+
+Vaultul are acum **811 note** și **5367 de wikilink-uri**, fără legături rupte.
+
+### 41 · Verificare
+
+Verificatorii locali (JSON, sintaxă JS, CSS, vault), plus doi noi în CI:
+validarea celor 60 de module și `verifica-continut.mjs`. Un al treilea pas de CI
+rulează generatorul de index și cere ca `data/continut.json` și `sw.js` să nu se
+schimbe — adică indexul comis să fie chiar cel generat din module.
+
+`tools/test-sw.mjs`, cu service worker activ: prima instalare fără reîncărcare,
+60 de carduri de materii vizibile sub SW, exact o reîncărcare la update, stabil
+după, zero erori JS. Plus echipa de agenți, ca la fiecare rulare.
