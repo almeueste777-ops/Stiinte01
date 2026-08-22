@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 14,
-  "nrLectii": 165,
-  "nrCarduri": 660,
-  "nrIntrebari": 999,
+  "nrModule": 15,
+  "nrLectii": 174,
+  "nrCarduri": 696,
+  "nrIntrebari": 1059,
   "module": [
     {
       "id": "istorie-9",
@@ -1442,6 +1442,95 @@
             {
               "id": "ist13-09",
               "titlu": "Eseul istoric structurat"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "romana-13",
+      "materie": "Limba și literatura română",
+      "clasa": "a XIII-a",
+      "an": 5,
+      "arie": "Limbă și comunicare",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Pregătire pentru bacalaureat: structura probei, eseul structurat, caracterizarea, particularitățile textelor, plus limba română aplicată.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 60,
+      "capitole": [
+        {
+          "id": "rom13-c1",
+          "titlu": "Proba de bacalaureat: structură și cerințe",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rom13-01",
+              "titlu": "Structura probei scrise"
+            },
+            {
+              "id": "rom13-02",
+              "titlu": "Subiectul I: lucrul cu textul la prima vedere"
+            }
+          ]
+        },
+        {
+          "id": "rom13-c2",
+          "titlu": "Eseul structurat: tipuri și metodă",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rom13-03",
+              "titlu": "Tema și viziunea despre lume"
+            },
+            {
+              "id": "rom13-04",
+              "titlu": "Caracterizarea personajului și relația dintre personaje"
+            },
+            {
+              "id": "rom13-05",
+              "titlu": "Particularități ale textului narativ, liric și dramatic"
+            }
+          ]
+        },
+        {
+          "id": "rom13-c3",
+          "titlu": "Limba română aplicată",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rom13-06",
+              "titlu": "Norme actuale: ortografie și punctuație"
+            },
+            {
+              "id": "rom13-07",
+              "titlu": "Lexic, semantică și exprimare îngrijită"
+            }
+          ]
+        },
+        {
+          "id": "rom13-c4",
+          "titlu": "Recapitulare pe autori canonici",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rom13-08",
+              "titlu": "Autorii canonici și operele de referință"
+            },
+            {
+              "id": "rom13-09",
+              "titlu": "Strategii de examen și greșeli de evitat"
             }
           ]
         }
