@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 27,
-  "nrLectii": 283,
-  "nrCarduri": 1132,
-  "nrIntrebari": 1784,
+  "nrModule": 28,
+  "nrLectii": 292,
+  "nrCarduri": 1168,
+  "nrIntrebari": 1844,
   "module": [
     {
       "id": "geografie-9",
@@ -1452,6 +1452,88 @@
             {
               "id": "rom11-09",
               "titlu": "Trecerea spre modernism: Macedonski, Coșbuc, Goga"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "tic-11",
+      "materie": "Tehnologia informației și a comunicațiilor (TIC)",
+      "clasa": "a XI-a",
+      "an": 3,
+      "arie": "Tehnologii",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Web, multimedia și proiecte digitale: structura unei pagini, conținut vizual și audio, publicare și management de proiect.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 60,
+      "capitole": [
+        {
+          "id": "tic11-c1",
+          "titlu": "Web: structură și publicare",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "tic11-01",
+              "titlu": "Cum funcționează web-ul"
+            },
+            {
+              "id": "tic11-02",
+              "titlu": "Structura unei pagini: conținut, prezentare, comportament"
+            },
+            {
+              "id": "tic11-03",
+              "titlu": "Accesibilitate, optimizare, publicare"
+            }
+          ]
+        },
+        {
+          "id": "tic11-c2",
+          "titlu": "Multimedia",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "tic11-04",
+              "titlu": "Sunet digital"
+            },
+            {
+              "id": "tic11-05",
+              "titlu": "Imagine în mișcare și montaj"
+            },
+            {
+              "id": "tic11-06",
+              "titlu": "Design vizual pentru materiale digitale"
+            }
+          ]
+        },
+        {
+          "id": "tic11-c3",
+          "titlu": "Proiecte digitale",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "tic11-07",
+              "titlu": "Planificarea unui proiect digital"
+            },
+            {
+              "id": "tic11-08",
+              "titlu": "Testare, feedback, îmbunătățire"
+            },
+            {
+              "id": "tic11-09",
+              "titlu": "Prezentarea și documentarea unui produs digital"
             }
           ]
         }

@@ -1,0 +1,499 @@
+materie: Tehnologia informației și a comunicațiilor (TIC)
+clasa: a XI-a
+an: 3
+arie: Tehnologii
+bac: da
+descriere: Web, multimedia și proiecte digitale: structura unei pagini, conținut vizual și audio, publicare și management de proiect.
+
+## 1 | tic11-c1 | Web: structură și publicare
+### tic11-01 | Cum funcționează web-ul
+Web-ul funcționează pe modelul client–server: browserul (clientul) cere o resursă, serverul o trimite. Cererea folosește protocolul HTTP sau HTTPS; adresa (URL) cuprinde protocolul, numele de domeniu, calea și, eventual, parametrii. Numele de domeniu este tradus în adresă IP de sistemul DNS.
+Găzduirea (hosting) este serviciul care păstrează fișierele site-ului pe un server accesibil permanent. Site-urile pot fi statice (fișiere livrate ca atare) sau dinamice (paginile se generează la cerere, din baze de date). Sistemele de gestionare a conținutului permit administrarea unui site fără scrierea codului. Un site bine făcut este rapid, accesibil, adaptat ecranelor mici și corect indexat de motoarele de căutare.
+* Web-ul funcționează pe modelul client–server, prin HTTP/HTTPS.
+* URL-ul cuprinde protocolul, domeniul, calea și parametrii.
+* Site-uri statice (fișiere livrate ca atare) și dinamice (generate din baze de date).
+* Un site bun este rapid, accesibil, adaptat mobilului și indexabil.
+= URL :: adresa completă a unei resurse pe web
+= găzduire :: serviciul care păstrează fișierele unui site pe un server accesibil permanent
+@ Ce înseamnă modelul client–server? :: Clientul cere o resursă, serverul o furnizează.
+@ Ce cuprinde un URL? :: Protocolul, numele de domeniu, calea și eventualii parametri.
+@ Ce deosebește un site static de unul dinamic? :: Static livrează fișiere ca atare; dinamic generează paginile la cerere, din baze de date.
+@ Ce face găzduirea? :: Păstrează fișierele site-ului pe un server accesibil permanent.
+? În modelul client–server, browserul este:
++ clientul
+- serverul
+- protocolul
+- domeniul
+! Serverul furnizează resursa cerută.
+? Un site dinamic:
++ generează paginile la cerere, din baze de date
+- livrează fișiere neschimbate
+- funcționează fără server
+- nu poate fi actualizat
+! Un magazin online este un exemplu tipic.
+? Numele de domeniu este tradus în adresă IP de:
++ sistemul DNS
+- protocolul HTTP
+- browser
+- serverul de e-mail
+! Fără DNS ar trebui memorate adrese numerice.
+? Adaptarea unui site la ecrane mici este importantă deoarece:
++ majoritatea accesărilor se fac de pe dispozitive mobile
+- serverele o cer
+- reduce costurile de găzduire
+- crește securitatea
+! Un site neadaptat pierde majoritatea vizitatorilor.
+
+### tic11-02 | Structura unei pagini: conținut, prezentare, comportament
+O pagină web are trei straturi separate. Structura și conținutul sunt date de limbajul de marcare (HTML), care descrie ce este fiecare element: titlu, paragraf, listă, imagine, link, tabel, formular. Prezentarea este dată de foile de stil (CSS): culori, dimensiuni, așezare, spațiere, comportament la ecrane diferite. Comportamentul este dat de limbajul de scriptare (JavaScript): reacții la acțiunile utilizatorului, validări, conținut care se schimbă fără reîncărcarea paginii.
+Separarea celor trei straturi este principiul de bază: același conținut poate primi altă prezentare, iar modificarea aspectului nu strică sensul. Marcarea semantică — folosirea elementelor potrivite pentru rolul lor, nu pentru cum arată — face pagina inteligibilă pentru motoarele de căutare și pentru tehnologiile de asistență folosite de persoanele cu dizabilități.
+* Trei straturi: conținut (HTML), prezentare (CSS), comportament (JavaScript).
+* Separarea straturilor permite schimbarea aspectului fără a strica sensul.
+* Marcarea semantică folosește elementele pentru rolul lor, nu pentru aspect.
+* Semantica ajută motoarele de căutare și tehnologiile de asistență.
+= marcare semantică :: folosirea elementelor de structură potrivit rolului lor, nu aspectului dorit
+= foaie de stil :: fișier care descrie prezentarea vizuală a unei pagini web
+@ Care sunt cele trei straturi ale unei pagini web? :: Conținutul (HTML), prezentarea (CSS) și comportamentul (JavaScript).
+@ Ce este marcarea semantică? :: Folosirea elementelor potrivit rolului lor, nu aspectului dorit.
+@ De ce contează separarea straturilor? :: Pentru că permite schimbarea aspectului fără a afecta conținutul.
+@ Cine beneficiază de marcarea semantică? :: Motoarele de căutare și tehnologiile de asistență ale persoanelor cu dizabilități.
+? Culorile și așezarea elementelor unei pagini se stabilesc prin:
++ foile de stil
+- limbajul de marcare
+- limbajul de scriptare
+- protocolul HTTP
+! HTML descrie structura, nu aspectul.
+? Marcarea semantică înseamnă:
++ folosirea elementului potrivit rolului conținutului
+- folosirea celui mai scurt element
+- evitarea foilor de stil
+- reducerea numărului de etichete
+! Un titlu se marchează ca titlu, nu ca text îngroșat.
+? Validarea unui formular în pagină, fără reîncărcare, se face prin:
++ limbajul de scriptare
+- limbajul de marcare
+- foaia de stil
+- protocolul HTTP
+! JavaScript adaugă comportament paginii.
+? Separarea conținutului de prezentare permite:
++ schimbarea aspectului fără modificarea conținutului
+- reducerea numărului de fișiere
+- creșterea securității
+- eliminarea nevoii de server
+! Este principiul de bază al web-ului modern.
+
+### tic11-03 | Accesibilitate, optimizare, publicare
+Accesibilitatea web înseamnă că paginile pot fi folosite și de persoane cu deficiențe de vedere, de auz, motorii sau cognitive. Cerințe practice: text alternativ pentru imagini, contrast suficient între text și fundal, navigare completă de la tastatură, structură de titluri corectă, subtitrări pentru materialele video, formulare cu etichete asociate. Aceleași măsuri îmbunătățesc experiența tuturor utilizatorilor.
+Optimizarea privește viteza (imagini comprimate, cod redus, resurse încărcate la nevoie) și vizibilitatea în motoarele de căutare: titluri descriptive, adrese lizibile, conținut util și original, structură clară, legături relevante. Publicarea presupune alegerea unui nume de domeniu, a unui serviciu de găzduire, transferul fișierelor, configurarea certificatului de securitate și, ulterior, actualizarea periodică — un site nemodificat ani la rând pierde atât vizitatori, cât și securitate.
+* Accesibilitatea: text alternativ, contrast, navigare de la tastatură, subtitrări, etichete.
+* Măsurile de accesibilitate îmbunătățesc experiența tuturor utilizatorilor.
+* Optimizarea privește viteza și vizibilitatea în motoarele de căutare.
+* Publicarea cere domeniu, găzduire, certificat de securitate și actualizări periodice.
+= text alternativ :: descrierea unei imagini, citită de tehnologiile de asistență
+= certificat de securitate :: document digital care permite conexiunea criptată prin HTTPS
+@ Ce este textul alternativ al unei imagini? :: Descrierea citită de tehnologiile de asistență pentru cei care nu văd imaginea.
+@ Ce cerințe de accesibilitate sunt esențiale? :: Text alternativ, contrast suficient, navigare de la tastatură, subtitrări, etichete la formulare.
+@ Ce presupune optimizarea unui site? :: Viteză (imagini comprimate, cod redus) și vizibilitate în motoarele de căutare.
+@ De ce trebuie actualizat periodic un site? :: Pentru că pierde altfel vizitatori și devine vulnerabil din punct de vedere al securității.
+? Textul alternativ al unei imagini este util în primul rând pentru:
++ persoanele care folosesc cititoare de ecran
+- reducerea dimensiunii imaginii
+- creșterea vitezei de încărcare
+- protejarea drepturilor de autor
+! El este citit atunci când imaginea nu poate fi văzută.
+? Navigarea completă de la tastatură este necesară pentru:
++ utilizatorii care nu pot folosi mouse-ul
+- creșterea vitezei site-ului
+- optimizarea în căutări
+- reducerea codului
+! Este o cerință fundamentală de accesibilitate.
+? Un contrast insuficient între text și fundal:
++ face textul greu de citit pentru mulți utilizatori
+- crește eleganța paginii
+- nu afectează accesibilitatea
+- este recomandat pentru mobil
+! Există praguri minime recomandate de standarde.
+? Certificatul de securitate al unui site permite:
++ conexiunea criptată prin HTTPS
+- indexarea în motoarele de căutare
+- găzduirea gratuită
+- accesul de pe mobil
+! Fără el, browserele avertizează utilizatorii.
+
+## 2 | tic11-c2 | Multimedia
+### tic11-04 | Sunet digital
+Sunetul analogic devine digital prin eșantionare (măsurarea semnalului la intervale regulate) și cuantizare (aproximarea fiecărei valori). Frecvența de eșantionare (de exemplu 44,1 kHz) și adâncimea de biți (16 sau 24) determină fidelitatea. Formate: necomprimate (WAV), comprimate cu pierdere (MP3, AAC), comprimate fără pierdere (FLAC).
+Operațiile de bază: înregistrare, decupare, normalizare a volumului, eliminarea zgomotului de fond, aplicarea de efecte, mixarea mai multor piste. Pentru înregistrări de calitate contează mai mult condițiile decât echipamentul: o cameră liniștită, microfonul aproape de sursă și evitarea suprasaturării semnalului produc rezultate mai bune decât un microfon scump folosit prost.
+* Digitalizarea sunetului: eșantionare și cuantizare.
+* Fidelitatea depinde de frecvența de eșantionare și de adâncimea de biți.
+* Formate: WAV (necomprimat), MP3 și AAC (cu pierdere), FLAC (fără pierdere).
+* Condițiile de înregistrare contează mai mult decât echipamentul scump.
+= eșantionare :: măsurarea semnalului analogic la intervale regulate de timp
+= normalizare a volumului :: ajustarea nivelului semnalului la o valoare de referință
+@ Ce este eșantionarea? :: Măsurarea semnalului analogic la intervale regulate de timp.
+@ De ce depinde fidelitatea unei înregistrări digitale? :: De frecvența de eșantionare și de adâncimea de biți.
+@ Ce format audio este comprimat fără pierdere? :: FLAC.
+@ Ce contează cel mai mult pentru o înregistrare bună? :: Condițiile: cameră liniștită, microfon aproape de sursă, evitarea suprasaturării.
+? Formatul MP3 folosește:
++ comprimare cu pierdere
+- comprimare fără pierdere
+- format necomprimat
+- codare vectorială
+! FLAC comprimă fără pierdere.
+? Frecvența de eșantionare de 44,1 kHz înseamnă:
++ 44 100 de măsurători pe secundă
+- 44 de biți pe eșantion
+- 44 100 de biți pe secundă
+- 44 de secunde de înregistrare
+! Ea determină banda de frecvențe redată.
+? Suprasaturarea semnalului la înregistrare produce:
++ distorsiune ireversibilă
+- volum mai mare, fără efecte
+- reducerea zgomotului
+- creșterea fidelității
+! De aceea se lasă o rezervă de nivel.
+? Normalizarea volumului:
++ aduce nivelul semnalului la o valoare de referință
+- elimină zgomotul
+- taie frecvențele înalte
+- comprimă fișierul
+! Ea uniformizează volumul între înregistrări diferite.
+
+### tic11-05 | Imagine în mișcare și montaj
+Un material video este o succesiune de cadre; numărul de cadre pe secundă determină fluiditatea mișcării. Rezoluția (numărul de pixeli) și rata de biți determină calitatea și dimensiunea fișierului. Formate uzuale: MP4 cu codec H.264 sau H.265, WebM. Codecul comprimă și decomprimă; containerul (formatul de fișier) împachetează imaginea, sunetul și subtitrările.
+Montajul urmează o logică simplă: se stabilește mesajul, se scrie un scenariu sau o listă de secvențe, se selectează cadrele bune, se taie tot ce nu servește mesajului, se adaugă sunet, titluri și tranziții discrete. Regulile practice: tranzițiile complicate distrag; sunetul prost strică un material altfel bun, mai mult decât imaginea mediocră; durata scurtă și ritmul constant țin atenția. Subtitrările sunt obligatorii pentru accesibilitate și utile pentru vizionarea fără sunet.
+* Cadre pe secundă, rezoluție și rată de biți determină calitatea și dimensiunea.
+* Codecul comprimă; containerul împachetează imaginea, sunetul și subtitrările.
+* Montajul: mesaj, scenariu, selecție, tăiere, sunet, titluri, tranziții discrete.
+* Sunetul prost strică un material mai mult decât imaginea mediocră.
+= codec :: algoritm de comprimare și decomprimare a imaginii sau a sunetului
+= container :: format de fișier care împachetează fluxurile video, audio și de subtitrare
+@ Ce este un codec? :: Algoritmul care comprimă și decomprimă imaginea sau sunetul.
+@ Ce diferență e între codec și container? :: Codecul comprimă fluxurile; containerul le împachetează într-un fișier.
+@ Ce determină fluiditatea mișcării într-un video? :: Numărul de cadre pe secundă.
+@ De ce sunt importante subtitrările? :: Pentru accesibilitate și pentru vizionarea fără sunet.
+? Într-un fișier video, MP4 este:
++ containerul
+- codecul
+- rezoluția
+- rata de biți
+! H.264 și H.265 sunt codecuri.
+? Într-un material video, un sunet de proastă calitate:
++ afectează percepția mai mult decât o imagine mediocră
+- nu contează
+- se corectează automat
+- crește dimensiunea fișierului
+! Spectatorii tolerează mai ușor imaginea slabă decât sunetul prost.
+? Tranzițiile complicate între cadre:
++ distrag atenția de la mesaj
+- cresc profesionalismul
+- reduc dimensiunea fișierului
+- sunt obligatorii
+! Tăietura simplă este, de regulă, cea mai bună alegere.
+? Rata de biți influențează:
++ calitatea imaginii și dimensiunea fișierului
+- numărul de cadre pe secundă
+- durata materialului
+- formatul containerului
+! O rată prea mică produce artefacte vizibile.
+
+### tic11-06 | Design vizual pentru materiale digitale
+Principiile designului vizual se aplică oricărui material: afiș, prezentare, pagină, postare. Ierarhia vizuală ghidează privirea: elementul cel mai important trebuie să fie cel mai vizibil, prin dimensiune, contrast sau poziție. Alinierea creează ordine; gruparea elementelor înrudite arată relația dintre ele; spațiul liber nu este spațiu pierdut, ci element de compoziție care face conținutul lizibil.
+Culoarea se folosește cu economie: o culoare dominantă, una de accent și neutre. Contrastul dintre text și fundal trebuie să respecte praguri minime, altfel textul devine inaccesibil. Tipografia: maximum două familii de litere, dimensiuni clar diferite pentru niveluri diferite, rânduri de lungime rezonabilă. Consecvența — aceleași reguli aplicate peste tot — este ceea ce face diferența dintre un material amator și unul profesionist.
+* Ierarhia vizuală ghidează privirea spre elementul important.
+* Alinierea, gruparea și spațiul liber structurează compoziția.
+* Culoare: o dominantă, un accent, neutre; contrast suficient pentru text.
+* Consecvența separă materialul profesionist de cel amator.
+= ierarhie vizuală :: organizarea elementelor astfel încât importanța lor să fie evidentă la prima privire
+= spațiu liber :: zona necompletată dintr-o compoziție, care structurează și ușurează lectura
+@ Ce face ierarhia vizuală? :: Ghidează privirea spre elementul cel mai important.
+@ De ce este util spațiul liber? :: Pentru că structurează compoziția și face conținutul lizibil.
+@ Câte familii de litere se folosesc, de regulă, într-un material? :: Cel mult două.
+@ Ce separă un material profesionist de unul amator? :: Consecvența aplicării acelorași reguli în tot materialul.
+? Spațiul liber dintr-o compoziție este:
++ un element activ de structurare
+- spațiu pierdut
+- semn de conținut insuficient
+- de evitat
+! El face conținutul lizibil și ordonat.
+? Folosirea a cinci familii de litere într-un afiș:
++ produce dezordine vizuală
+- arată creativitate
+- îmbunătățește lizibilitatea
+- este recomandată
+! Regula practică este maximum două.
+? Ierarhia vizuală se obține prin:
++ dimensiune, contrast și poziție
+- numărul de culori
+- cantitatea de text
+- tipul de fișier
+! Elementul important trebuie să fie cel mai vizibil.
+? Contrastul insuficient dintre text și fundal:
++ face textul inaccesibil pentru mulți utilizatori
+- este o alegere estetică neutră
+- crește eleganța
+- nu are efecte
+! Există praguri minime recomandate.
+
+## 2 | tic11-c3 | Proiecte digitale
+### tic11-07 | Planificarea unui proiect digital
+Un proiect digital pornește de la definirea clară a produsului: ce este, pentru cine, ce problemă rezolvă, cum se va ști dacă a reușit. Urmează stabilirea cerințelor (ce trebuie să facă), a resurselor, a calendarului și a rolurilor în echipă. Împărțirea muncii pe sarcini mici, cu responsabil și termen, este singura care produce progres verificabil.
+Instrumentele de organizare: lista de sarcini cu stări (de făcut, în lucru, gata), calendarul partajat, documentele colaborative, sistemul de versionare pentru cod. Riscurile tipice: cerințe care se schimbă permanent, subestimarea timpului, dependența de o singură persoană, lipsa unui punct de verificare intermediar. Antidotul este livrarea în etape: o versiune minimă funcțională, testată, urmată de îmbunătățiri, în locul unui produs perfect promis pentru final.
+* Se definesc produsul, publicul, problema rezolvată și criteriul de succes.
+* Sarcini mici, cu responsabil și termen, produc progres verificabil.
+* Riscuri: cerințe schimbătoare, subestimarea timpului, dependența de o persoană.
+* Livrarea în etape, cu o versiune minimă funcțională, reduce riscul.
+= versiune minimă funcțională :: cea mai simplă variantă a produsului care rezolvă deja problema
+= sistem de versionare :: instrument care păstrează istoricul modificărilor unui proiect
+@ Ce trebuie definit la începutul unui proiect digital? :: Produsul, publicul, problema rezolvată și criteriul de succes.
+@ Ce este o versiune minimă funcțională? :: Cea mai simplă variantă care rezolvă deja problema și poate fi testată.
+@ Care sunt riscurile tipice ale unui proiect? :: Cerințe schimbătoare, subestimarea timpului, dependența de o persoană, lipsa verificărilor intermediare.
+@ La ce servește un sistem de versionare? :: La păstrarea istoricului modificărilor și la lucrul în echipă fără pierderi.
+? Împărțirea muncii pe sarcini mici, cu responsabil și termen:
++ face progresul verificabil
+- complică proiectul
+- încetinește echipa
+- este necesară doar la proiecte mari
+! Fără ea, întârzierile se descoperă prea târziu.
+? Livrarea în etape reduce riscul deoarece:
++ permite testarea și corectarea din mers
+- scurtează proiectul
+- elimină cerințele
+- reduce costurile de personal
+! Un produs testat devreme evită erorile costisitoare.
+? Dependența de o singură persoană într-un proiect este:
++ un risc major
+- o garanție de calitate
+- un avantaj de coordonare
+- irelevantă
+! Indisponibilitatea ei blochează întregul proiect.
+? Sistemul de versionare este util pentru că:
++ păstrează istoricul și permite revenirea la variante anterioare
+- comprimă fișierele
+- publică automat proiectul
+- generează documentația
+! El face posibil lucrul simultan al mai multor persoane.
+
+### tic11-08 | Testare, feedback, îmbunătățire
+Testarea unui produs digital verifică dacă face ce trebuie și dacă poate fi folosit. Testarea funcțională verifică cerințele; testarea de utilizabilitate verifică dacă un utilizator real reușește să ducă la capăt sarcinile, fără explicații suplimentare. Cinci utilizatori observați atent descoperă majoritatea problemelor majore de utilizabilitate.
+Regula testării cu utilizatori: se observă ce fac, nu se ascultă ce spun că ar face; nu se explică și nu se ajută în timpul testului, fiindcă produsul trebuie să funcționeze fără autor lângă utilizator. Feedbackul se colectează structurat, se grupează pe teme și se prioritizează după impact și efort. Nu toate sugestiile se implementează: un produs care încearcă să mulțumească pe toată lumea își pierde coerența.
+* Testarea funcțională verifică cerințele; cea de utilizabilitate, folosirea reală.
+* Cinci utilizatori observați descoperă majoritatea problemelor majore.
+* Se observă ce fac utilizatorii, nu ce spun că ar face.
+* Feedbackul se prioritizează după impact și efort; nu tot se implementează.
+= testare de utilizabilitate :: verificarea faptului că utilizatorii reali pot duce la capăt sarcinile
+= prioritizare :: ordonarea îmbunătățirilor după impact și efortul necesar
+@ Ce verifică testarea de utilizabilitate? :: Dacă utilizatorii reali reușesc să ducă la capăt sarcinile fără explicații.
+@ Câți utilizatori sunt, de regulă, suficienți pentru a descoperi problemele majore? :: Aproximativ cinci, observați atent.
+@ De ce nu se ajută utilizatorul în timpul testului? :: Pentru că produsul trebuie să funcționeze fără autor lângă utilizator.
+@ Cum se prioritizează feedbackul? :: După impactul asupra utilizatorilor și efortul necesar implementării.
+? În testarea cu utilizatori se urmărește:
++ ce fac efectiv utilizatorii
+- ce declară că le place
+- opinia echipei
+- numărul de sugestii
+! Comportamentul observat e mai fiabil decât declarațiile.
+? Implementarea tuturor sugestiilor primite:
++ duce la pierderea coerenței produsului
+- garantează succesul
+- este obligatorie
+- reduce timpul de dezvoltare
+! Prioritizarea este parte din decizia de produs.
+? Testarea funcțională verifică:
++ dacă produsul îndeplinește cerințele stabilite
+- dacă utilizatorii îl înțeleg
+- dacă aspectul este plăcut
+- dacă se încarcă rapid
+! Utilizabilitatea este o dimensiune distinctă.
+? Explicarea interfeței în timpul testului cu utilizatori:
++ invalidează rezultatul testului
+- îmbunătățește feedbackul
+- este necesară
+- economisește timp
+! Utilizatorul real nu are pe cine întreba.
+
+### tic11-09 | Prezentarea și documentarea unui produs digital
+Un produs digital nu se termină cu funcționarea lui: trebuie să poată fi înțeles, folosit și continuat de altcineva. Documentația minimă cuprinde: scopul produsului, publicul, instrucțiunile de instalare și de folosire, structura fișierelor, deciziile importante și limitele cunoscute. O documentație scurtă și exactă este mai valoroasă decât una lungă și vagă.
+Prezentarea publică a proiectului urmează o structură eficientă: problema (de ce contează), soluția (ce ați făcut), demonstrația (arătați, nu descrieți), rezultatele (ce s-a schimbat, cu date), lecțiile învățate și pașii următori. Demonstrația live este cea mai convingătoare, dar trebuie pregătită cu o variantă de rezervă — o înregistrare — pentru cazul în care ceva nu funcționează. Menționarea limitelor și a lucrurilor care nu au mers întărește credibilitatea, nu o slăbește.
+* Documentația minimă: scop, public, instalare, folosire, structură, decizii, limite.
+* O documentație scurtă și exactă bate una lungă și vagă.
+* Prezentarea: problemă, soluție, demonstrație, rezultate, lecții, pași următori.
+* Demonstrația live are nevoie de o variantă de rezervă înregistrată.
+= documentație :: ansamblul explicațiilor care permit altcuiva să înțeleagă și să folosească produsul
+= limite cunoscute :: problemele identificate și nerezolvate, menționate explicit în documentație
+@ Ce cuprinde documentația minimă a unui produs digital? :: Scopul, publicul, instalarea, folosirea, structura, deciziile importante și limitele cunoscute.
+@ Cum se structurează o prezentare de proiect? :: Problemă, soluție, demonstrație, rezultate, lecții învățate, pași următori.
+@ De ce se pregătește o variantă de rezervă pentru demonstrație? :: Pentru cazul în care demonstrația live nu funcționează.
+@ De ce se menționează limitele cunoscute? :: Pentru că întăresc credibilitatea și ajută pe cine continuă proiectul.
+? O documentație bună este:
++ scurtă și exactă
+- lungă și detaliată la maximum
+- opțională
+- scrisă doar pentru autor
+! Ea trebuie să permită altcuiva să folosească produsul.
+? Într-o prezentare de proiect, demonstrația:
++ este mai convingătoare decât descrierea
+- poate fi omisă
+- înlocuiește rezultatele
+- se face la final, dacă rămâne timp
+! „Arată, nu descrie” este regula practică.
+? Menționarea a ceea ce nu a funcționat:
++ întărește credibilitatea prezentării
+- o slăbește
+- trebuie evitată
+- se face doar la cerere
+! Ea arată capacitatea de evaluare critică.
+? Structura fișierelor este inclusă în documentație pentru că:
++ permite altcuiva să continue proiectul
+- reduce dimensiunea produsului
+- crește viteza
+- este cerută de lege
+! Continuitatea depinde de claritatea organizării.
+
+%% teza 1
+? În modelul client–server, browserul este:
++ clientul
+- serverul
+- protocolul
+- containerul
+! Serverul furnizează resursa cerută.
+? Sistemul DNS are rolul de a:
++ traduce numele de domenii în adrese IP
+- criptează traficul
+- găzduiește site-uri
+- comprimă imaginile
+! Fără el ar trebui memorate adrese numerice.
+? Un site dinamic:
++ generează paginile la cerere
+- livrează fișiere neschimbate
+- funcționează fără server
+- nu are baze de date
+! Magazinele online sunt exemple tipice.
+? Prezentarea vizuală a unei pagini se stabilește prin:
++ foile de stil
+- limbajul de marcare
+- limbajul de scriptare
+- protocolul de transfer
+! HTML descrie structura.
+? Marcarea semantică înseamnă:
++ folosirea elementului potrivit rolului conținutului
+- reducerea numărului de etichete
+- evitarea foilor de stil
+- folosirea elementelor scurte
+! Ea ajută motoarele de căutare și cititoarele de ecran.
+? Textul alternativ al imaginilor este necesar pentru:
++ accesibilitate
+- comprimarea imaginii
+- indexarea automată a fișierelor
+- protejarea drepturilor de autor
+! El este citit de cititoarele de ecran.
+? Certificatul de securitate permite:
++ conexiunea criptată prin HTTPS
+- găzduirea gratuită
+- indexarea rapidă
+- accesul de pe mobil
+! Fără el, browserele avertizează utilizatorii.
+? Eșantionarea este:
++ măsurarea semnalului la intervale regulate
+- comprimarea fișierului
+- eliminarea zgomotului
+- normalizarea volumului
+! Împreună cu cuantizarea, produce sunetul digital.
+? MP3 folosește:
++ comprimare cu pierdere
+- comprimare fără pierdere
+- format necomprimat
+- codare vectorială
+! FLAC comprimă fără pierdere.
+? Suprasaturarea semnalului audio produce:
++ distorsiune ireversibilă
+- volum mai mare, curat
+- reducerea zgomotului
+- creșterea fidelității
+! De aceea se lasă rezervă de nivel la înregistrare.
+? MP4 este:
++ un container
+- un codec
+- o rezoluție
+- o rată de biți
+! H.264 este un codec.
+? Într-un material video, sunetul prost:
++ deranjează mai mult decât imaginea mediocră
+- nu contează
+- se corectează automat
+- crește dimensiunea fișierului
+! Spectatorii abandonează mai repede din cauza sunetului.
+
+%% teza 2
+? Ierarhia vizuală se realizează prin:
++ dimensiune, contrast și poziție
+- numărul de culori
+- cantitatea de text
+- tipul de fișier
+! Elementul important trebuie să fie cel mai vizibil.
+? Spațiul liber într-o compoziție:
++ structurează și ușurează lectura
+- este spațiu pierdut
+- trebuie umplut
+- indică lipsa de conținut
+! El este un element activ de design.
+? Regula practică pentru familiile de litere într-un material este:
++ cel mult două
+- cel puțin cinci
+- una singură, obligatoriu
+- oricâte, pentru diversitate
+! Prea multe produc dezordine vizuală.
+? Un proiect digital începe cu:
++ definirea produsului, a publicului și a criteriului de succes
+- alegerea tehnologiei
+- stabilirea bugetului
+- crearea siglei
+! Fără criteriu de succes nu se poate evalua rezultatul.
+? Versiunea minimă funcțională este:
++ cea mai simplă variantă care rezolvă deja problema
+- prototipul nefuncțional
+- versiunea finală
+- documentația
+! Ea permite testarea timpurie.
+? Dependența de o singură persoană într-un proiect:
++ este un risc major
+- garantează coerența
+- ușurează coordonarea
+- nu contează
+! Indisponibilitatea ei blochează proiectul.
+? Sistemul de versionare:
++ păstrează istoricul și permite revenirea la variante anterioare
+- comprimă fișierele
+- publică proiectul
+- testează produsul
+! El face posibil lucrul simultan în echipă.
+? În testarea cu utilizatori se urmărește:
++ ce fac efectiv
+- ce declară că le place
+- opinia echipei
+- numărul de sugestii primite
+! Comportamentul observat e mai fiabil.
+? Numărul de utilizatori suficient pentru a descoperi majoritatea problemelor majore este, orientativ:
++ cinci
+- unu
+- cincizeci
+- o sută
+! Observarea atentă contează mai mult decât numărul.
+? Implementarea tuturor sugestiilor primite:
++ duce la pierderea coerenței produsului
+- garantează succesul
+- este obligatorie
+- reduce timpul de lucru
+! Prioritizarea face parte din decizia de produs.
+? Documentația minimă trebuie să includă:
++ scopul, folosirea, structura și limitele cunoscute
+- doar codul sursă
+- doar capturile de ecran
+- doar lista autorilor
+! Ea permite altcuiva să continue proiectul.
+? Într-o prezentare de proiect, menționarea limitelor:
++ întărește credibilitatea
+- o slăbește
+- trebuie evitată
+- este obligatorie prin regulament
+! Ea arată capacitate de evaluare critică.
