@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 20,
-  "nrLectii": 220,
-  "nrCarduri": 880,
-  "nrIntrebari": 1364,
+  "nrModule": 22,
+  "nrLectii": 238,
+  "nrCarduri": 952,
+  "nrIntrebari": 1484,
   "module": [
     {
       "id": "geografie-9",
@@ -1133,6 +1133,88 @@
       ]
     },
     {
+      "id": "studii-sociale-11",
+      "materie": "Studii sociale",
+      "clasa": "a XI-a",
+      "an": 3,
+      "arie": "Om și societate",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Educație interculturală și pentru drepturile omului: identitate, diversitate, stereotipuri, discriminare, drepturi și responsabilități.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 60,
+      "capitole": [
+        {
+          "id": "ss11-c1",
+          "titlu": "Identitate și diversitate culturală",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ss11-01",
+              "titlu": "Cultură, identitate, apartenență"
+            },
+            {
+              "id": "ss11-02",
+              "titlu": "Diversitate culturală și interculturalitate"
+            },
+            {
+              "id": "ss11-03",
+              "titlu": "Stereotipuri, prejudecăți, discriminare"
+            }
+          ]
+        },
+        {
+          "id": "ss11-c2",
+          "titlu": "Drepturile omului",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ss11-04",
+              "titlu": "Fundamentele și generațiile drepturilor"
+            },
+            {
+              "id": "ss11-05",
+              "titlu": "Drepturile copilului și drepturile elevului"
+            },
+            {
+              "id": "ss11-06",
+              "titlu": "Mecanisme de protecție și participare civică"
+            }
+          ]
+        },
+        {
+          "id": "ss11-c3",
+          "titlu": "Conflict, comunicare, comunitate",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ss11-07",
+              "titlu": "Conflictul și rezolvarea lui"
+            },
+            {
+              "id": "ss11-08",
+              "titlu": "Comunicarea în situații interculturale"
+            },
+            {
+              "id": "ss11-09",
+              "titlu": "Proiect comunitar și acțiune civică"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
       "id": "romana-11",
       "materie": "Limba și literatura română",
       "clasa": "a XI-a",
@@ -1512,6 +1594,88 @@
             {
               "id": "ist12-12",
               "titlu": "România în perioada Războiului Rece"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "studii-sociale-12",
+      "materie": "Studii sociale",
+      "clasa": "a XII-a",
+      "an": 4,
+      "arie": "Om și societate",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Educație economică și pentru dezvoltare: bugetul personal, consumatorul, munca, dezvoltarea durabilă și responsabilitatea socială.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 60,
+      "capitole": [
+        {
+          "id": "ss12-c1",
+          "titlu": "Educație financiară personală",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ss12-01",
+              "titlu": "Venituri, cheltuieli, buget personal"
+            },
+            {
+              "id": "ss12-02",
+              "titlu": "Economisire, credit, dobândă"
+            },
+            {
+              "id": "ss12-03",
+              "titlu": "Consumatorul: drepturi și decizii"
+            }
+          ]
+        },
+        {
+          "id": "ss12-c2",
+          "titlu": "Munca și cariera",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ss12-04",
+              "titlu": "Piața muncii și contractul de muncă"
+            },
+            {
+              "id": "ss12-05",
+              "titlu": "Orientare în carieră și competențe"
+            },
+            {
+              "id": "ss12-06",
+              "titlu": "Antreprenoriat social și economie socială"
+            }
+          ]
+        },
+        {
+          "id": "ss12-c3",
+          "titlu": "Dezvoltare și responsabilitate",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ss12-07",
+              "titlu": "Dezvoltarea durabilă și obiectivele globale"
+            },
+            {
+              "id": "ss12-08",
+              "titlu": "Responsabilitate socială și consum responsabil"
+            },
+            {
+              "id": "ss12-09",
+              "titlu": "Etică, corupție și integritate publică"
             }
           ]
         }
