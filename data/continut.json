@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 26,
-  "nrLectii": 274,
-  "nrCarduri": 1096,
-  "nrIntrebari": 1724,
+  "nrModule": 27,
+  "nrLectii": 283,
+  "nrCarduri": 1132,
+  "nrIntrebari": 1784,
   "module": [
     {
       "id": "geografie-9",
@@ -890,6 +890,88 @@
             {
               "id": "rom10-09",
               "titlu": "Stiluri funcționale și texte nonliterare"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "tic-10",
+      "materie": "Tehnologia informației și a comunicațiilor (TIC)",
+      "clasa": "a X-a",
+      "an": 2,
+      "arie": "Tehnologii",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Calcul tabelar, baze de date, prelucrarea imaginii și algoritmi: instrumentele digitale de lucru cu date.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 60,
+      "capitole": [
+        {
+          "id": "tic10-c1",
+          "titlu": "Calcul tabelar",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "tic10-01",
+              "titlu": "Foaia de calcul: structură și formule"
+            },
+            {
+              "id": "tic10-02",
+              "titlu": "Funcții și analiza datelor"
+            },
+            {
+              "id": "tic10-03",
+              "titlu": "Reprezentarea grafică a datelor"
+            }
+          ]
+        },
+        {
+          "id": "tic10-c2",
+          "titlu": "Baze de date și structurarea informației",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "tic10-04",
+              "titlu": "Concepte de bază de date"
+            },
+            {
+              "id": "tic10-05",
+              "titlu": "Interogări, formulare, rapoarte"
+            },
+            {
+              "id": "tic10-06",
+              "titlu": "Prelucrarea imaginii digitale"
+            }
+          ]
+        },
+        {
+          "id": "tic10-c3",
+          "titlu": "Algoritmi și gândire computațională",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "tic10-07",
+              "titlu": "Algoritmi: definiție, proprietăți, reprezentare"
+            },
+            {
+              "id": "tic10-08",
+              "titlu": "Structuri repetitive și prelucrarea datelor"
+            },
+            {
+              "id": "tic10-09",
+              "titlu": "Gândire computațională și rezolvarea problemelor"
             }
           ]
         }
