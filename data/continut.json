@@ -1,11 +1,112 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 5,
-  "nrLectii": 72,
-  "nrCarduri": 288,
-  "nrIntrebari": 410,
+  "nrModule": 7,
+  "nrLectii": 96,
+  "nrCarduri": 384,
+  "nrIntrebari": 554,
   "module": [
+    {
+      "id": "istorie-9",
+      "materie": "Istorie",
+      "clasa": "a IX-a",
+      "an": 1,
+      "arie": "Om și societate",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Antichitatea și Evul Mediu: popoare și spații istorice, forme de organizare politică, religie și relații internaționale.",
+      "nrLectii": 12,
+      "nrCarduri": 48,
+      "nrIntrebari": 72,
+      "capitole": [
+        {
+          "id": "ist9-c1",
+          "titlu": "Popoare și spații istorice în Antichitate",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ist9-01",
+              "titlu": "Izvoarele istorice și munca istoricului"
+            },
+            {
+              "id": "ist9-02",
+              "titlu": "Civilizațiile Orientului Antic"
+            },
+            {
+              "id": "ist9-03",
+              "titlu": "Grecia antică și moștenirea ei"
+            }
+          ]
+        },
+        {
+          "id": "ist9-c2",
+          "titlu": "Roma, romanitatea și lumea daco-romană",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ist9-04",
+              "titlu": "Roma: republică și imperiu"
+            },
+            {
+              "id": "ist9-05",
+              "titlu": "Geto-dacii și Dacia romană"
+            },
+            {
+              "id": "ist9-06",
+              "titlu": "Etnogeneza românească și romanitatea"
+            }
+          ]
+        },
+        {
+          "id": "ist9-c3",
+          "titlu": "Evul Mediu european",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ist9-07",
+              "titlu": "Societatea feudală și structurile ei"
+            },
+            {
+              "id": "ist9-08",
+              "titlu": "Biserica, cruciadele și cultura medievală"
+            },
+            {
+              "id": "ist9-09",
+              "titlu": "Statul medieval: monarhii, imperii, forme de guvernare"
+            }
+          ]
+        },
+        {
+          "id": "ist9-c4",
+          "titlu": "Spațiul românesc în Evul Mediu",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ist9-10",
+              "titlu": "Autonomii locale și întemeierea statelor medievale românești"
+            },
+            {
+              "id": "ist9-11",
+              "titlu": "Domnii și lupta antiotomană"
+            },
+            {
+              "id": "ist9-12",
+              "titlu": "Religia și cultura în spațiul românesc medieval"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
     {
       "id": "logica-9",
       "materie": "Logică, argumentare și comunicare",
@@ -115,6 +216,107 @@
             {
               "id": "log9-16",
               "titlu": "Argumentarea în viața cotidiană"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "istorie-10",
+      "materie": "Istorie",
+      "clasa": "a X-a",
+      "an": 2,
+      "arie": "Om și societate",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Epoca modernă: Renaștere și Reformă, revoluții politice și industriale, națiunile, Europa secolului al XIX-lea și spațiul românesc modern.",
+      "nrLectii": 12,
+      "nrCarduri": 48,
+      "nrIntrebari": 72,
+      "capitole": [
+        {
+          "id": "ist10-c1",
+          "titlu": "Nașterea lumii moderne",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ist10-01",
+              "titlu": "Renașterea și umanismul"
+            },
+            {
+              "id": "ist10-02",
+              "titlu": "Reforma religioasă și consecințele ei"
+            },
+            {
+              "id": "ist10-03",
+              "titlu": "Marile descoperiri geografice și primele imperii coloniale"
+            }
+          ]
+        },
+        {
+          "id": "ist10-c2",
+          "titlu": "Revoluțiile politice",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ist10-04",
+              "titlu": "Iluminismul și revoluția americană"
+            },
+            {
+              "id": "ist10-05",
+              "titlu": "Revoluția franceză și epoca napoleoniană"
+            },
+            {
+              "id": "ist10-06",
+              "titlu": "Revoluția industrială și societatea nouă"
+            }
+          ]
+        },
+        {
+          "id": "ist10-c3",
+          "titlu": "Națiuni și state în secolul al XIX-lea",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ist10-07",
+              "titlu": "Ideea națională și revoluțiile de la 1848"
+            },
+            {
+              "id": "ist10-08",
+              "titlu": "Marile puteri, imperialism și tensiuni"
+            }
+          ]
+        },
+        {
+          "id": "ist10-c4",
+          "titlu": "Spațiul românesc în epoca modernă",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ist10-09",
+              "titlu": "Reformele, 1821 și 1848 în spațiul românesc"
+            },
+            {
+              "id": "ist10-10",
+              "titlu": "Unirea Principatelor și reformele lui Cuza"
+            },
+            {
+              "id": "ist10-11",
+              "titlu": "Carol I, independența și România modernă"
+            },
+            {
+              "id": "ist10-12",
+              "titlu": "Cultura și societatea românească modernă"
             }
           ]
         }

@@ -16,7 +16,9 @@ const ASSETS = [
      avea lecțiile doar cât timp există rețea. Lista o scrie
      `tools/construieste-index.mjs` — nu o edita de mână. */
   /* MODULE:START */
+  './data/module/istorie-9.json',
   './data/module/logica-9.json',
+  './data/module/istorie-10.json',
   './data/module/psihologie-10.json',
   './data/module/sociologie-11.json',
   './data/module/filosofie-12.json',
