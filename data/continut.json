@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 35,
-  "nrLectii": 355,
-  "nrCarduri": 1420,
-  "nrIntrebari": 2264,
+  "nrModule": 37,
+  "nrLectii": 373,
+  "nrCarduri": 1492,
+  "nrIntrebari": 2372,
   "module": [
     {
       "id": "geografie-9",
@@ -321,6 +321,88 @@
         {
           "semestru": 2,
           "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "latina-9",
+      "materie": "Limba latină",
+      "clasa": "a IX-a",
+      "an": 1,
+      "arie": "Limbă și comunicare",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Bazele limbii latine: alfabet și pronunție, declinări, verbul la indicativ, sintaxa propoziției simple și vocabularul moștenit în română.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 54,
+      "capitole": [
+        {
+          "id": "lat9-c1",
+          "titlu": "Alfabet, pronunție, structura limbii",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "lat9-01",
+              "titlu": "Alfabetul latin și pronunția"
+            },
+            {
+              "id": "lat9-02",
+              "titlu": "Latina — limbă flexionară"
+            },
+            {
+              "id": "lat9-03",
+              "titlu": "Declinarea I și a II-a"
+            }
+          ]
+        },
+        {
+          "id": "lat9-c2",
+          "titlu": "Verbul latin la indicativ",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "lat9-04",
+              "titlu": "Conjugările și prezentul"
+            },
+            {
+              "id": "lat9-05",
+              "titlu": "Imperfectul, viitorul, perfectul"
+            },
+            {
+              "id": "lat9-06",
+              "titlu": "Diateza pasivă și verbele deponente"
+            }
+          ]
+        },
+        {
+          "id": "lat9-c3",
+          "titlu": "Sintaxă, vocabular, moștenire",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "lat9-07",
+              "titlu": "Propoziția simplă și acordul"
+            },
+            {
+              "id": "lat9-08",
+              "titlu": "Vocabular fundamental și derivare"
+            },
+            {
+              "id": "lat9-09",
+              "titlu": "Moștenirea latină în limba română"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
         }
       ]
     },
@@ -977,6 +1059,88 @@
         {
           "semestru": 2,
           "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "latina-10",
+      "materie": "Limba latină",
+      "clasa": "a X-a",
+      "an": 2,
+      "arie": "Limbă și comunicare",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Latina la nivel avansat: declinările a III-a–a V-a, moduri și subordonate, texte din autorii clasici și civilizația romană.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 54,
+      "capitole": [
+        {
+          "id": "lat10-c1",
+          "titlu": "Morfologie avansată",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "lat10-01",
+              "titlu": "Declinarea a III-a"
+            },
+            {
+              "id": "lat10-02",
+              "titlu": "Declinările a IV-a și a V-a"
+            },
+            {
+              "id": "lat10-03",
+              "titlu": "Pronumele și gradele de comparație"
+            }
+          ]
+        },
+        {
+          "id": "lat10-c2",
+          "titlu": "Sintaxa frazei",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "lat10-04",
+              "titlu": "Conjunctivul și valorile lui"
+            },
+            {
+              "id": "lat10-05",
+              "titlu": "Subordonatele principale"
+            },
+            {
+              "id": "lat10-06",
+              "titlu": "Construcții infinitivale și participiale"
+            }
+          ]
+        },
+        {
+          "id": "lat10-c3",
+          "titlu": "Texte și civilizație",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "lat10-07",
+              "titlu": "Autorii clasici"
+            },
+            {
+              "id": "lat10-08",
+              "titlu": "Societatea și instituțiile romane"
+            },
+            {
+              "id": "lat10-09",
+              "titlu": "Romanizarea și Dacia romană"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
         }
       ]
     },

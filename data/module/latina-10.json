@@ -1,0 +1,1007 @@
+{
+ "id": "latina-10",
+ "materie": "Limba latină",
+ "clasa": "a X-a",
+ "an": 2,
+ "arie": "Limbă și comunicare",
+ "bac": false,
+ "descriere": "Latina la nivel avansat: declinările a III-a–a V-a, moduri și subordonate, texte din autorii clasici și civilizația romană.",
+ "capitole": [
+  {
+   "id": "lat10-c1",
+   "titlu": "Morfologie avansată",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "lat10-01",
+     "titlu": "Declinarea a III-a",
+     "rezumat": "Declinarea a III-a este cea mai bogată și mai neregulată: cuprinde substantive de toate cele trei genuri, cu genitivul singular în -is. Nominativul singular are forme foarte variate (consul, lex, corpus, civis, mare), de aceea substantivul se învață obligatoriu prin două forme: nominativ și genitiv. Tema se obține scoțând -is din genitiv: lex, legis → tema leg-. Declinarea se împarte în două tipuri: consonantică (tema se termină în consoană: consul, consulis; corpus, corporis) și vocalică sau parisilabică (tema în -i: civis, civis; mare, maris). Diferența se vede la genitivul plural, -um la consonantice și -ium la vocalice, și la ablativul singular al neutrelor, -e față de -i. Multe substantive au tema modificată față de nominativ: iter, itineris; caput, capitis; corpus, corporis.",
+     "ideiCheie": [
+      "Declinarea a III-a are genitivul singular în -is și toate cele trei genuri.",
+      "Substantivul se învață prin nominativ plus genitiv, pentru că tema nu se citește din nominativ.",
+      "Tipul consonantic face genitivul plural în -um, cel vocalic în -ium.",
+      "Multe substantive au tema modificată: iter/itineris, caput/capitis."
+     ],
+     "termeni": [
+      {
+       "t": "temă consonantică",
+       "d": "tema unui substantiv de declinarea a III-a care se termină în consoană"
+      },
+      {
+       "t": "parisilabic",
+       "d": "substantiv cu același număr de silabe la nominativ și genitiv singular"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se obține tema unui substantiv de declinarea a III-a?",
+       "v": "Scoțând -is din genitivul singular."
+      },
+      {
+       "f": "Ce diferență face tipul vocalic la genitivul plural?",
+       "v": "Terminația este -ium, nu -um."
+      },
+      {
+       "f": "De ce se învață substantivul prin două forme?",
+       "v": "Pentru că nominativul nu arată tema: lex, legis; corpus, corporis."
+      },
+      {
+       "f": "Care este genitivul lui „caput”?",
+       "v": "Capitis."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Genitivul singular la declinarea a III-a este:",
+       "optiuni": [
+        "-is",
+        "-ae",
+        "-i",
+        "-us"
+       ],
+       "corect": 0,
+       "explicatie": "Este marca declinării."
+      },
+      {
+       "intrebare": "„Civis, civis” este un substantiv:",
+       "optiuni": [
+        "parisilabic",
+        "imparisilabic consonantic",
+        "de declinarea a II-a",
+        "neutru"
+       ],
+       "corect": 0,
+       "explicatie": "Are același număr de silabe la ambele cazuri."
+      },
+      {
+       "intrebare": "Genitivul plural al temelor consonantice este:",
+       "optiuni": [
+        "-um",
+        "-ium",
+        "-arum",
+        "-orum"
+       ],
+       "corect": 0,
+       "explicatie": "Temele vocalice fac -ium."
+      },
+      {
+       "intrebare": "Tema lui „iter” este:",
+       "optiuni": [
+        "itiner-",
+        "iter-",
+        "it-",
+        "itin-"
+       ],
+       "corect": 0,
+       "explicatie": "Genitivul „itineris” o arată."
+      }
+     ]
+    },
+    {
+     "id": "lat10-02",
+     "titlu": "Declinările a IV-a și a V-a",
+     "rezumat": "Declinarea a IV-a cuprinde substantive masculine și neutre cu genitivul singular în -us: manus, manus (mâna, feminin prin excepție); exercitus, exercitus (armata); cornu, cornus (cornul, neutru). Terminațiile la singular sunt -us, -us, -ui, -um, -us, -u; la plural -us, -uum, -ibus, -us, -us, -ibus. Neutrele fac nominativul în -u și pluralul în -ua, respectând regula neutrului. Declinarea a V-a este cea mai restrânsă: substantive majoritar feminine, cu genitivul în -ei: res, rei (lucrul); dies, diei (ziua, masculin când indică o zi anume, feminin când indică un termen). Doar „res” și „dies” au declinare completă la plural. Din declinarea a V-a provin expresii fixe intrate în limbile moderne: „de facto”, „res publica”, „fides”, „spes”.",
+     "ideiCheie": [
+      "Declinarea a IV-a: genitiv -us, masculine și neutre; „manus” e feminin prin excepție.",
+      "Neutrele de declinarea a IV-a fac nominativul în -u și pluralul în -ua.",
+      "Declinarea a V-a: genitiv -ei, majoritar feminine, foarte restrânsă.",
+      "Doar „res” și „dies” au declinare completă la plural în declinarea a V-a."
+     ],
+     "termeni": [
+      {
+       "t": "declinarea a IV-a",
+       "d": "grupul substantivelor cu genitivul singular în -us"
+      },
+      {
+       "t": "res publica",
+       "d": "„lucrul public” — statul, comunitatea politică romană"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care este genitivul singular la declinarea a IV-a?",
+       "v": "Terminația -us (manus, manus)."
+      },
+      {
+       "f": "Ce gen are „manus”?",
+       "v": "Feminin, prin excepție de la regula declinării a IV-a."
+      },
+      {
+       "f": "Care este genitivul singular la declinarea a V-a?",
+       "v": "Terminația -ei (res, rei)."
+      },
+      {
+       "f": "Ce substantive de declinarea a V-a au plural complet?",
+       "v": "Doar „res” și „dies”."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Cornu” este un substantiv:",
+       "optiuni": [
+        "neutru, de declinarea a IV-a",
+        "masculin, de declinarea a IV-a",
+        "neutru, de declinarea a II-a",
+        "feminin, de declinarea a V-a"
+       ],
+       "corect": 0,
+       "explicatie": "Pluralul lui este „cornua”."
+      },
+      {
+       "intrebare": "Genitivul lui „dies” este:",
+       "optiuni": [
+        "diei",
+        "diis",
+        "dies",
+        "dierum"
+       ],
+       "corect": 0,
+       "explicatie": "„Dierum” este genitiv plural."
+      },
+      {
+       "intrebare": "Declinarea a V-a cuprinde substantive majoritar:",
+       "optiuni": [
+        "feminine",
+        "masculine",
+        "neutre",
+        "de gen ambigen"
+       ],
+       "corect": 0,
+       "explicatie": "Excepția principală este „dies” cu sens de zi anume."
+      },
+      {
+       "intrebare": "Expresia „res publica” înseamnă literal:",
+       "optiuni": [
+        "lucrul public",
+        "republica modernă",
+        "adunarea poporului",
+        "legea cetății"
+       ],
+       "corect": 0,
+       "explicatie": "De aici termenul „republică”."
+      }
+     ]
+    },
+    {
+     "id": "lat10-03",
+     "titlu": "Pronumele și gradele de comparație",
+     "rezumat": "Pronumele personale latine sunt ego, tu, nos, vos, cu declinare proprie; pentru persoana a III-a se folosesc demonstrativele is, ea, id. Pronumele reflexiv „se” nu are nominativ și se folosește doar pentru persoana a III-a. Demonstrativele exprimă distanțe diferite: hic, haec, hoc (acesta, aproape de vorbitor), iste, ista, istud (acela, aproape de interlocutor), ille, illa, illud (acela, departe). Pronumele relativ qui, quae, quod introduce subordonatele atributive și se acordă cu antecedentul în gen și număr, dar își ia cazul din propoziția în care se află. Gradele de comparație ale adjectivului se formează cu sufixe: comparativul cu -ior (masculin/feminin) și -ius (neutru) — longus, longior, longius; superlativul cu -issimus — longissimus. Adjectivele în -er fac superlativul cu -rimus (celer, celerrimus), cele în -ilis cu -limus (facilis, facillimus). Câteva adjective au comparație neregulată, moștenită în limbile romanice: bonus, melior, optimus; malus, peior, pessimus; magnus, maior, maximus; parvus, minor, minimus.",
+     "ideiCheie": [
+      "Pentru persoana a III-a, latina folosește demonstrativul is, ea, id.",
+      "Demonstrativele hic, iste, ille marchează trei distanțe diferite.",
+      "Relativul se acordă în gen și număr cu antecedentul, dar ia cazul din propoziția lui.",
+      "Comparație neregulată: bonus/melior/optimus, magnus/maior/maximus."
+     ],
+     "termeni": [
+      {
+       "t": "antecedent",
+       "d": "substantivul din regentă la care trimite pronumele relativ"
+      },
+      {
+       "t": "grad de comparație",
+       "d": "forma adjectivului care exprimă intensitatea însușirii — pozitiv, comparativ, superlativ"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce distanță marchează „hic”?",
+       "v": "Apropierea de vorbitor: acesta, de aici."
+      },
+      {
+       "f": "Cum își ia cazul pronumele relativ?",
+       "v": "Din propoziția subordonată în care se află, nu de la antecedent."
+      },
+      {
+       "f": "Care este superlativul lui „bonus”?",
+       "v": "Optimus."
+      },
+      {
+       "f": "Cum se formează comparativul regulat?",
+       "v": "Cu sufixul -ior la masculin și feminin, -ius la neutru."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Pronumele reflexiv latin „se”:",
+       "optiuni": [
+        "nu are nominativ",
+        "se folosește la toate persoanele",
+        "are formă doar de plural",
+        "este identic cu „is”"
+       ],
+       "corect": 0,
+       "explicatie": "Se folosește doar pentru persoana a III-a."
+      },
+      {
+       "intrebare": "Comparativul lui „longus” este:",
+       "optiuni": [
+        "longior",
+        "longissimus",
+        "longus magis",
+        "longerus"
+       ],
+       "corect": 0,
+       "explicatie": "Superlativul este „longissimus”."
+      },
+      {
+       "intrebare": "Superlativul lui „facilis” este:",
+       "optiuni": [
+        "facillimus",
+        "facilissimus",
+        "facilior",
+        "facilrimus"
+       ],
+       "corect": 0,
+       "explicatie": "Adjectivele în -ilis fac superlativul cu -limus."
+      },
+      {
+       "intrebare": "Pronumele relativ se acordă cu antecedentul în:",
+       "optiuni": [
+        "gen și număr",
+        "gen, număr și caz",
+        "doar caz",
+        "doar număr"
+       ],
+       "corect": 0,
+       "explicatie": "Cazul îi vine din propoziția subordonată."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lat10-c2",
+   "titlu": "Sintaxa frazei",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "lat10-04",
+     "titlu": "Conjunctivul și valorile lui",
+     "rezumat": "Conjunctivul latin are patru timpuri: prezent, imperfect, perfect și mai-mult-ca-perfect. Prezentul se formează cu sufixul -e- la conjugarea I (laudem) și -a- la celelalte (moneam, legam, audiam); imperfectul se obține adăugând desinențele la infinitivul prezent (laudarem, legerem). Perfectul folosește sufixul -eri- pe tema perfectului (laudaverim), iar mai-mult-ca-perfectul, -isse- (laudavissem). În propoziția independentă, conjunctivul exprimă îndemnul (hortativ: „gaudeamus” — să ne bucurăm), dorința (optativ: „utinam veniat” — de-ar veni), posibilitatea (potențial: „dicat aliquis” — ar putea zice cineva) și interdicția („ne feceris” — să nu faci). În subordonate, conjunctivul este obligatoriu după majoritatea conjuncțiilor: ut (final și consecutiv), ne, cum (istoric și cauzal), quin, quominus.",
+     "ideiCheie": [
+      "Conjunctivul are patru timpuri: prezent, imperfect, perfect, mai-mult-ca-perfect.",
+      "Prezentul conjunctiv: sufix -e- la conjugarea I, -a- la restul.",
+      "În principală, conjunctivul exprimă îndemn, dorință, posibilitate, interdicție.",
+      "În subordonate e cerut de ut, ne, cum, quin, quominus."
+     ],
+     "termeni": [
+      {
+       "t": "conjunctiv hortativ",
+       "d": "conjunctivul care exprimă un îndemn adresat unei colectivități"
+      },
+      {
+       "t": "optativ",
+       "d": "valoarea conjunctivului care exprimă dorința, adesea cu „utinam”"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Câte timpuri are conjunctivul latin?",
+       "v": "Patru: prezent, imperfect, perfect, mai-mult-ca-perfect."
+      },
+      {
+       "f": "Cum se formează imperfectul conjunctiv?",
+       "v": "Adăugând desinențele personale la infinitivul prezent: laudarem."
+      },
+      {
+       "f": "Ce exprimă „gaudeamus”?",
+       "v": "Un îndemn — să ne bucurăm; este conjunctiv hortativ."
+      },
+      {
+       "f": "Ce particulă însoțește optativul?",
+       "v": "„Utinam”."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Sufixul prezentului conjunctiv la conjugarea I este:",
+       "optiuni": [
+        "-e-",
+        "-a-",
+        "-i-",
+        "-eri-"
+       ],
+       "corect": 0,
+       "explicatie": "Celelalte conjugări folosesc -a-."
+      },
+      {
+       "intrebare": "„Laudavissem” este:",
+       "optiuni": [
+        "mai-mult-ca-perfect conjunctiv",
+        "perfect conjunctiv",
+        "imperfect conjunctiv",
+        "perfect indicativ"
+       ],
+       "corect": 0,
+       "explicatie": "Sufixul -isse- îl marchează."
+      },
+      {
+       "intrebare": "„Utinam veniat” exprimă:",
+       "optiuni": [
+        "o dorință",
+        "o interdicție",
+        "o constatare",
+        "o consecință"
+       ],
+       "corect": 0,
+       "explicatie": "Este conjunctiv optativ."
+      },
+      {
+       "intrebare": "Conjuncția „ut” cere, de regulă:",
+       "optiuni": [
+        "conjunctivul",
+        "indicativul",
+        "infinitivul",
+        "participiul"
+       ],
+       "corect": 0,
+       "explicatie": "Introduce finale și consecutive."
+      }
+     ]
+    },
+    {
+     "id": "lat10-05",
+     "titlu": "Subordonatele principale",
+     "rezumat": "Subordonata completivă cu „ut” urmează verbelor de voință, rugăminte și poruncă: „rogo ut venias” (te rog să vii); negația se face cu „ne”. Finala, tot cu „ut”/„ne”, arată scopul: „venio ut videam” (vin ca să văd). Consecutiva, cu „ut” și cu un corelativ în regentă (tam, ita, sic, adeo, tantus), arată urmarea: „tam fortis est ut omnes vincat”. Cauzala se construiește cu „quod”, „quia”, „quoniam” plus indicativ ori cu „cum” plus conjunctiv. Temporalele folosesc „ubi”, „postquam”, „dum” cu indicativul, iar „cum” istoric cere conjunctivul imperfect sau mai-mult-ca-perfect: „cum Caesar venisset” (după ce/când venise Cezar). Condiționalele au trei tipuri: reală, cu indicativ („si vis, potes”), potențială, cu conjunctiv prezent („si velis, possis”) și ireală, cu conjunctiv imperfect sau mai-mult-ca-perfect („si velles, posses”). Concesiva folosește „quamquam” cu indicativ și „quamvis”, „etsi” cu conjunctiv.",
+     "ideiCheie": [
+      "Completiva cu „ut” urmează verbelor de voință; negația este „ne”.",
+      "Consecutiva cere un corelativ în regentă: tam, ita, sic, adeo, tantus.",
+      "„Cum” istoric cere conjunctivul imperfect sau mai-mult-ca-perfect.",
+      "Condiționala are trei tipuri: reală, potențială, ireală."
+     ],
+     "termeni": [
+      {
+       "t": "consecutivă",
+       "d": "subordonata care exprimă urmarea unei însușiri sau acțiuni din regentă"
+      },
+      {
+       "t": "cum istoric",
+       "d": "construcția cu „cum” și conjunctiv care situează acțiunea în trecut"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se neagă o completivă cu „ut”?",
+       "v": "Cu „ne”: „rogo ne venias”."
+      },
+      {
+       "f": "Ce marchează prezența lui „tam” sau „adeo” în regentă?",
+       "v": "Că urmează o subordonată consecutivă cu „ut”."
+      },
+      {
+       "f": "Ce mod cere „cum” istoric?",
+       "v": "Conjunctivul imperfect sau mai-mult-ca-perfect."
+      },
+      {
+       "f": "Care sunt cele trei tipuri de condiționale?",
+       "v": "Reală (indicativ), potențială (conjunctiv prezent), ireală (conjunctiv imperfect/mmcp)."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Venio ut videam” este o subordonată:",
+       "optiuni": [
+        "finală",
+        "consecutivă",
+        "cauzală",
+        "temporală"
+       ],
+       "corect": 0,
+       "explicatie": "Arată scopul venirii."
+      },
+      {
+       "intrebare": "Corelativul „adeo” în regentă anunță o:",
+       "optiuni": [
+        "consecutivă",
+        "finală",
+        "condițională",
+        "concesivă"
+       ],
+       "corect": 0,
+       "explicatie": "La fel „tam”, „ita”, „sic”, „tantus”."
+      },
+      {
+       "intrebare": "„Si velles, posses” exprimă o condiție:",
+       "optiuni": [
+        "ireală",
+        "reală",
+        "potențială",
+        "îndeplinită"
+       ],
+       "corect": 0,
+       "explicatie": "Conjunctivul imperfect marchează irealul."
+      },
+      {
+       "intrebare": "Conjuncția „quamquam” cere:",
+       "optiuni": [
+        "indicativul",
+        "conjunctivul prezent",
+        "infinitivul",
+        "participiul"
+       ],
+       "corect": 0,
+       "explicatie": "„Quamvis” și „etsi” cer conjunctivul."
+      }
+     ]
+    },
+    {
+     "id": "lat10-06",
+     "titlu": "Construcții infinitivale și participiale",
+     "rezumat": "Acuzativul cu infinitiv este construcția tipic latină pentru vorbirea indirectă: subiectul propoziției subordonate stă la acuzativ, iar predicatul la infinitiv — „dico Caesarem venire” (spun că Cezar vine). Timpul infinitivului arată raportul cu verbul regent: prezentul, simultaneitate; perfectul, anterioritate; viitorul, posterioritate. Construcția urmează verbelor de declarație, de opinie, de percepție și expresiilor impersonale. Ablativul absolut este o construcție participială independentă de sintaxa frazei: un substantiv la ablativ plus un participiu acordat, exprimând o circumstanță — „Caesare duce” (sub conducerea lui Cezar), „urbe capta” (după cucerirea orașului). Se traduce printr-o subordonată temporală, cauzală, condițională sau concesivă, după context. Participiul latin are trei forme: prezent activ (-ns, -ntis), perfect pasiv (-tus, -sus) și viitor activ (-turus), acesta din urmă intrând în conjugarea perifrastică: „dicturus sum” (am de gând să spun).",
+     "ideiCheie": [
+      "Acuzativul cu infinitiv exprimă vorbirea indirectă: subiect la acuzativ, predicat la infinitiv.",
+      "Timpul infinitivului arată simultaneitate, anterioritate sau posterioritate.",
+      "Ablativul absolut e o construcție participială independentă, tradusă prin subordonată.",
+      "Participiul are trei forme: prezent activ, perfect pasiv, viitor activ."
+     ],
+     "termeni": [
+      {
+       "t": "acuzativ cu infinitiv",
+       "d": "construcția în care subiectul subordonatei stă la acuzativ, iar predicatul la infinitiv"
+      },
+      {
+       "t": "ablativ absolut",
+       "d": "substantiv la ablativ plus participiu acordat, exprimând o circumstanță"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se traduce „dico Caesarem venire”?",
+       "v": "Spun că Cezar vine."
+      },
+      {
+       "f": "Ce este ablativul absolut?",
+       "v": "O construcție participială independentă, formată dintr-un substantiv la ablativ și un participiu acordat."
+      },
+      {
+       "f": "Ce arată infinitivul perfect într-o construcție de acuzativ cu infinitiv?",
+       "v": "Anterioritatea față de verbul regent."
+      },
+      {
+       "f": "Ce exprimă „dicturus sum”?",
+       "v": "Intenția sau iminența: am de gând să spun."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "În acuzativul cu infinitiv, subiectul subordonatei stă la:",
+       "optiuni": [
+        "acuzativ",
+        "nominativ",
+        "dativ",
+        "ablativ"
+       ],
+       "corect": 0,
+       "explicatie": "Predicatul stă la infinitiv."
+      },
+      {
+       "intrebare": "„Urbe capta” se traduce cel mai firesc prin:",
+       "optiuni": [
+        "după cucerirea orașului",
+        "orașul cucerit",
+        "orașul cucerește",
+        "pentru a cuceri orașul"
+       ],
+       "corect": 0,
+       "explicatie": "Este ablativ absolut cu valoare temporală."
+      },
+      {
+       "intrebare": "Participiul viitor activ se termină în:",
+       "optiuni": [
+        "-turus",
+        "-ns",
+        "-tus",
+        "-ndus"
+       ],
+       "corect": 0,
+       "explicatie": "Intră în conjugarea perifrastică activă."
+      },
+      {
+       "intrebare": "Acuzativul cu infinitiv urmează verbelor de:",
+       "optiuni": [
+        "declarație, opinie și percepție",
+        "mișcare",
+        "voință exclusiv",
+        "stare fizică"
+       ],
+       "corect": 0,
+       "explicatie": "„Dico, puto, video, audio”."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lat10-c3",
+   "titlu": "Texte și civilizație",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "lat10-07",
+     "titlu": "Autorii clasici",
+     "rezumat": "Perioada clasică a literaturii latine (secolul I î.Hr. – secolul I d.Hr.) cuprinde autorii studiați în școală. Cezar scrie proză istorică sobră în „De bello Gallico”, cu fraze scurte și vocabular limitat, ceea ce îl face autorul cu care începe, de obicei, traducerea. Cicero, cel mai mare orator roman, lasă discursuri („Catilinarele”), tratate filosofice și o corespondență bogată; perioadele lui ample sunt modelul prozei latine. Poezia are trei mari nume: Vergiliu, autorul „Eneidei”, epopeea originii Romei; Horațiu, poetul odelor și al artei poetice, de la care vin „carpe diem” și „aurea mediocritas”; Ovidiu, autorul „Metamorfozelor” și al „Tristelor”, scrise în exilul de la Tomis, primul mare text literar legat de spațiul românesc. Istoriografia are pe Titus Livius și Tacitus, iar Seneca reprezintă filosofia stoică în epoca imperială.",
+     "ideiCheie": [
+      "Cezar scrie proză istorică sobră, cea mai potrivită pentru începutul traducerii.",
+      "Cicero este modelul prozei oratorice și filosofice latine.",
+      "Vergiliu, Horațiu și Ovidiu sunt cei trei mari poeți ai epocii augustane.",
+      "Ovidiu a scris „Tristele” în exilul de la Tomis, pe teritoriul de azi al României."
+     ],
+     "termeni": [
+      {
+       "t": "epopee",
+       "d": "poem narativ amplu despre fapte eroice și originea unui popor"
+      },
+      {
+       "t": "epoca augustană",
+       "d": "perioada de vârf a literaturii latine, sub domnia lui Augustus"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cine a scris „De bello Gallico”?",
+       "v": "Iulius Caesar."
+      },
+      {
+       "f": "Ce operă a scris Vergiliu?",
+       "v": "„Eneida”, epopeea originii Romei."
+      },
+      {
+       "f": "Ce leagă Ovidiu de spațiul românesc?",
+       "v": "A scris „Tristele” și „Ponticele” în exilul de la Tomis, actuala Constanța."
+      },
+      {
+       "f": "De unde vine expresia „carpe diem”?",
+       "v": "Din odele lui Horațiu."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Eneida” este:",
+       "optiuni": [
+        "o epopee despre originea Romei",
+        "un discurs politic",
+        "un tratat filosofic",
+        "o culegere de scrisori"
+       ],
+       "corect": 0,
+       "explicatie": "O compune Vergiliu, în epoca lui Augustus."
+      },
+      {
+       "intrebare": "Autorul „Catilinarelor” este:",
+       "optiuni": [
+        "Cicero",
+        "Cezar",
+        "Seneca",
+        "Tacitus"
+       ],
+       "corect": 0,
+       "explicatie": "Sunt discursuri împotriva conspirației lui Catilina."
+      },
+      {
+       "intrebare": "Ovidiu și-a scris „Tristele”:",
+       "optiuni": [
+        "în exilul de la Tomis",
+        "la Roma",
+        "în Galia",
+        "în Grecia"
+       ],
+       "corect": 0,
+       "explicatie": "Tomis este actuala Constanță."
+      },
+      {
+       "intrebare": "Seneca reprezintă în literatura latină:",
+       "optiuni": [
+        "filosofia stoică",
+        "poezia epică",
+        "comedia",
+        "oratoria judiciară"
+       ],
+       "corect": 0,
+       "explicatie": "A trăit în epoca imperială timpurie."
+      }
+     ]
+    },
+    {
+     "id": "lat10-08",
+     "titlu": "Societatea și instituțiile romane",
+     "rezumat": "Societatea romană era ierarhizată: patricienii formau aristocrația de sânge, plebeii, majoritatea cetățenilor liberi, iar sclavii, lipsiți de personalitate juridică, făceau munca. Familia romană era condusă de „pater familias”, cu putere aproape absolută asupra membrilor. Clientela lega un cetățean influent (patronus) de dependenți (clientes) prin obligații reciproce de protecție și sprijin. Instituțiile republicii erau consulii (doi magistrați supremi, aleși anual), senatul (adunarea foștilor magistrați, cu autoritate morală și politică imensă), adunările poporului și tribunii plebei, care aveau drept de veto. Formula „Senatus Populusque Romanus” (SPQR) exprima suveranitatea comună. Dreptul roman, sistematizat mai târziu în „Corpus iuris civilis” al lui Iustinian, stă la baza sistemelor juridice europene: proprietatea, contractul, moștenirea, prezumția de nevinovăție.",
+     "ideiCheie": [
+      "Societatea romană cuprindea patricieni, plebei, sclavi și liberți.",
+      "„Pater familias” avea putere aproape absolută în familie.",
+      "Republica avea consuli, senat, adunări populare și tribuni ai plebei.",
+      "Dreptul roman stă la baza sistemelor juridice europene."
+     ],
+     "termeni": [
+      {
+       "t": "pater familias",
+       "d": "capul familiei romane, cu autoritate juridică asupra membrilor ei"
+      },
+      {
+       "t": "SPQR",
+       "d": "„Senatus Populusque Romanus”, formula care exprima suveranitatea comună a senatului și poporului"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cine erau clientes?",
+       "v": "Dependenții legați de un patron prin obligații reciproce de sprijin."
+      },
+      {
+       "f": "Câți consuli avea republica romană?",
+       "v": "Doi, aleși anual."
+      },
+      {
+       "f": "Ce drept aveau tribunii plebei?",
+       "v": "Dreptul de veto asupra hotărârilor magistraților."
+      },
+      {
+       "f": "Ce este „Corpus iuris civilis”?",
+       "v": "Sistematizarea dreptului roman făcută sub împăratul Iustinian."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Tribunii plebei aveau:",
+       "optiuni": [
+        "drept de veto",
+        "comanda armatei",
+        "puterea de a numi consuli",
+        "controlul finanțelor"
+       ],
+       "corect": 0,
+       "explicatie": "Le apărau plebeilor interesele."
+      },
+      {
+       "intrebare": "„Pater familias” desemna:",
+       "optiuni": [
+        "capul familiei, cu autoritate juridică",
+        "preotul cultului domestic",
+        "cel mai bătrân senator",
+        "proprietarul unui domeniu"
+       ],
+       "corect": 0,
+       "explicatie": "Autoritatea lui se numea „patria potestas”."
+      },
+      {
+       "intrebare": "Formula SPQR înseamnă:",
+       "optiuni": [
+        "Senatul și poporul roman",
+        "Republica romană unită",
+        "Senatul suprem al Romei",
+        "Poporul și armata Romei"
+       ],
+       "corect": 0,
+       "explicatie": "Apare pe standardele și monumentele romane."
+      },
+      {
+       "intrebare": "Dreptul roman a fost sistematizat sub:",
+       "optiuni": [
+        "Iustinian",
+        "Augustus",
+        "Traian",
+        "Cezar"
+       ],
+       "corect": 0,
+       "explicatie": "În secolul al VI-lea, la Constantinopol."
+      }
+     ]
+    },
+    {
+     "id": "lat10-09",
+     "titlu": "Romanizarea și Dacia romană",
+     "rezumat": "Romanizarea a fost procesul prin care populațiile cucerite au adoptat limba latină, instituțiile, dreptul și modul de viață roman. Factorii ei au fost administrația, armata (soldații se stabileau în provincii după eliberare), colonizarea cu veterani și civili, urbanizarea, drumurile, comerțul și religia. Cetățenia romană, extinsă treptat, a devenit universală în imperiu prin edictul lui Caracalla din 212. Dacia a fost cucerită de Traian în două războaie (101–102 și 105–106), consemnate pe Columna lui Traian de la Roma. Provincia a fost intens colonizată — „ex toto orbe Romano”, spune Eutropius — și a cunoscut o urbanizare rapidă: Ulpia Traiana Sarmizegetusa, Apulum, Napoca, Potaissa, Drobeta. Retragerea aureliană (271–275) a mutat administrația și armata la sud de Dunăre, dar populația romanizată a rămas, continuând procesul din care s-a format poporul român și limba română.",
+     "ideiCheie": [
+      "Romanizarea a însemnat adoptarea limbii, instituțiilor și modului de viață roman.",
+      "Factorii ei: administrație, armată, colonizare, urbanizare, drumuri, comerț.",
+      "Edictul lui Caracalla din 212 a extins cetățenia la toți locuitorii liberi ai imperiului.",
+      "Dacia a fost cucerită în 101–106 și părăsită administrativ în 271–275."
+     ],
+     "termeni": [
+      {
+       "t": "romanizare",
+       "d": "procesul de adoptare a limbii și civilizației romane de către populațiile cucerite"
+      },
+      {
+       "t": "retragere aureliană",
+       "d": "mutarea administrației și armatei romane la sud de Dunăre, sub împăratul Aurelian"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cine a cucerit Dacia și când?",
+       "v": "Împăratul Traian, în războaiele din 101–102 și 105–106."
+      },
+      {
+       "f": "Ce a stabilit edictul lui Caracalla din 212?",
+       "v": "A acordat cetățenia romană tuturor locuitorilor liberi ai imperiului."
+      },
+      {
+       "f": "Ce a însemnat retragerea aureliană?",
+       "v": "Mutarea administrației și armatei la sud de Dunăre, între 271 și 275, populația romanizată rămânând pe loc."
+      },
+      {
+       "f": "Care era capitala Daciei romane?",
+       "v": "Ulpia Traiana Sarmizegetusa."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Columna lui Traian consemnează:",
+       "optiuni": [
+        "războaiele dacice",
+        "cucerirea Galiei",
+        "războaiele punice",
+        "campania din Britania"
+       ],
+       "corect": 0,
+       "explicatie": "Se află la Roma și e o sursă istorică de prim rang."
+      },
+      {
+       "intrebare": "Edictul lui Caracalla din 212 a acordat:",
+       "optiuni": [
+        "cetățenia tuturor locuitorilor liberi ai imperiului",
+        "libertate sclavilor",
+        "autonomie provinciilor",
+        "scutire de impozite veteranilor"
+       ],
+       "corect": 0,
+       "explicatie": "A încheiat extinderea treptată a cetățeniei."
+      },
+      {
+       "intrebare": "Retragerea aureliană a avut loc în:",
+       "optiuni": [
+        "271–275",
+        "101–106",
+        "212",
+        "395"
+       ],
+       "corect": 0,
+       "explicatie": "Sub împăratul Aurelian."
+      },
+      {
+       "intrebare": "Un factor major al romanizării a fost:",
+       "optiuni": [
+        "armata și colonizarea cu veterani",
+        "interzicerea limbilor locale",
+        "mutarea forțată a populațiilor",
+        "desființarea orașelor"
+       ],
+       "corect": 0,
+       "explicatie": "Veteranii primeau pământ și se stabileau în provincii."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "teze": [
+  {
+   "semestru": 1,
+   "test": [
+    {
+     "intrebare": "Genitivul singular la declinarea a III-a este:",
+     "optiuni": [
+      "-is",
+      "-i",
+      "-ae",
+      "-us"
+     ],
+     "corect": 0,
+     "explicatie": "Din el se obține tema."
+    },
+    {
+     "intrebare": "Substantivele parisilabice fac genitivul plural în:",
+     "optiuni": [
+      "-ium",
+      "-um",
+      "-orum",
+      "-arum"
+     ],
+     "corect": 0,
+     "explicatie": "Cele consonantice fac -um."
+    },
+    {
+     "intrebare": "Genitivul singular la declinarea a IV-a este:",
+     "optiuni": [
+      "-us",
+      "-is",
+      "-ei",
+      "-i"
+     ],
+     "corect": 0,
+     "explicatie": "„Manus, manus”."
+    },
+    {
+     "intrebare": "Declinarea a V-a are genitivul în:",
+     "optiuni": [
+      "-ei",
+      "-us",
+      "-is",
+      "-ae"
+     ],
+     "corect": 0,
+     "explicatie": "„Res, rei”."
+    },
+    {
+     "intrebare": "Demonstrativul care arată apropierea de vorbitor este:",
+     "optiuni": [
+      "hic",
+      "iste",
+      "ille",
+      "is"
+     ],
+     "corect": 0,
+     "explicatie": "„Iste” trimite la interlocutor, „ille” la depărtare."
+    },
+    {
+     "intrebare": "Superlativul lui „magnus” este:",
+     "optiuni": [
+      "maximus",
+      "magnissimus",
+      "maior",
+      "optimus"
+     ],
+     "corect": 0,
+     "explicatie": "Comparativul este „maior”."
+    },
+    {
+     "intrebare": "Pronumele relativ „qui” își ia cazul:",
+     "optiuni": [
+      "din propoziția subordonată",
+      "de la antecedent",
+      "de la verbul regent",
+      "din context, liber"
+     ],
+     "corect": 0,
+     "explicatie": "Genul și numărul vin de la antecedent."
+    },
+    {
+     "intrebare": "Sufixul mai-mult-ca-perfectului conjunctiv este:",
+     "optiuni": [
+      "-isse-",
+      "-eri-",
+      "-ba-",
+      "-a-"
+     ],
+     "corect": 0,
+     "explicatie": "„Laudavissem”."
+    },
+    {
+     "intrebare": "Conjunctivul hortativ exprimă:",
+     "optiuni": [
+      "un îndemn",
+      "o constatare",
+      "o consecință",
+      "o condiție ireală"
+     ],
+     "corect": 0,
+     "explicatie": "„Gaudeamus” — să ne bucurăm."
+    }
+   ]
+  },
+  {
+   "semestru": 2,
+   "test": [
+    {
+     "intrebare": "Corelativul „tam” în regentă anunță o subordonată:",
+     "optiuni": [
+      "consecutivă",
+      "finală",
+      "cauzală",
+      "concesivă"
+     ],
+     "corect": 0,
+     "explicatie": "Consecutiva se leagă de un corelativ."
+    },
+    {
+     "intrebare": "„Cum” istoric cere:",
+     "optiuni": [
+      "conjunctivul imperfect sau mai-mult-ca-perfect",
+      "indicativul perfect",
+      "infinitivul",
+      "participiul"
+     ],
+     "corect": 0,
+     "explicatie": "Situează acțiunea într-un trecut narativ."
+    },
+    {
+     "intrebare": "Condiționala ireală se construiește cu:",
+     "optiuni": [
+      "conjunctiv imperfect sau mai-mult-ca-perfect",
+      "indicativ prezent",
+      "conjunctiv prezent",
+      "infinitiv"
+     ],
+     "corect": 0,
+     "explicatie": "„Si velles, posses”."
+    },
+    {
+     "intrebare": "În acuzativul cu infinitiv, predicatul subordonatei stă la:",
+     "optiuni": [
+      "infinitiv",
+      "conjunctiv",
+      "indicativ",
+      "participiu"
+     ],
+     "corect": 0,
+     "explicatie": "Subiectul stă la acuzativ."
+    },
+    {
+     "intrebare": "Ablativul absolut se traduce, de regulă, prin:",
+     "optiuni": [
+      "o subordonată circumstanțială",
+      "un complement direct",
+      "o propoziție principală",
+      "un atribut adjectival"
+     ],
+     "corect": 0,
+     "explicatie": "Valoarea exactă o dă contextul."
+    },
+    {
+     "intrebare": "Participiul perfect pasiv se termină în:",
+     "optiuni": [
+      "-tus sau -sus",
+      "-ns",
+      "-turus",
+      "-ndus"
+     ],
+     "corect": 0,
+     "explicatie": "Intră în formarea pasivului perfect."
+    },
+    {
+     "intrebare": "Autorul „De bello Gallico” este:",
+     "optiuni": [
+      "Cezar",
+      "Cicero",
+      "Tacitus",
+      "Titus Livius"
+     ],
+     "corect": 0,
+     "explicatie": "Proza lui sobră e ideală pentru începutul traducerii."
+    },
+    {
+     "intrebare": "Dacia a fost cucerită de Traian în:",
+     "optiuni": [
+      "101–106",
+      "271–275",
+      "212",
+      "395"
+     ],
+     "corect": 0,
+     "explicatie": "În două războaie succesive."
+    },
+    {
+     "intrebare": "Romanizarea a fost:",
+     "optiuni": [
+      "adoptarea limbii și civilizației romane de către populațiile cucerite",
+      "deportarea populațiilor locale",
+      "interzicerea religiilor locale",
+      "colonizarea exclusiv militară"
+     ],
+     "corect": 0,
+     "explicatie": "A avut factori administrativi, militari, urbani și economici."
+    }
+   ]
+  }
+ ]
+}

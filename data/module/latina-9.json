@@ -1,0 +1,1007 @@
+{
+ "id": "latina-9",
+ "materie": "Limba latină",
+ "clasa": "a IX-a",
+ "an": 1,
+ "arie": "Limbă și comunicare",
+ "bac": false,
+ "descriere": "Bazele limbii latine: alfabet și pronunție, declinări, verbul la indicativ, sintaxa propoziției simple și vocabularul moștenit în română.",
+ "capitole": [
+  {
+   "id": "lat9-c1",
+   "titlu": "Alfabet, pronunție, structura limbii",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "lat9-01",
+     "titlu": "Alfabetul latin și pronunția",
+     "rezumat": "Alfabetul latin clasic avea 23 de litere; literele J, U (distinct de V) și W au apărut mai târziu, în scrierea medievală și modernă. Latina se scria cu majuscule (capitala) în inscripții și cu litere cursive în scrierea de mână. Manualele românești folosesc pronunția tradițională (numită și „școlară”), în care „c” înaintea lui e, i, ae, oe se citește „ț” sau „c”, după tradiția didactică adoptată. În pronunția restituită, considerată apropiată de latina clasică, „c” se citește întotdeauna „k” (Cicero = Kikero), „v” se citește „u” semivocalic, „ae” se citește „ai”, iar „oe” se citește „oi”. Vocalele au cantitate: lungi și scurte. Cantitatea are valoare distinctivă: „malum” cu a scurt înseamnă „rău”, cu a lung înseamnă „măr”. Accentul latin nu cade niciodată pe ultima silabă: la cuvintele de două silabe cade pe prima, la cele de trei sau mai multe cade pe penultima dacă aceasta este lungă și pe antepenultima dacă penultima este scurtă.",
+     "ideiCheie": [
+      "Alfabetul latin clasic avea 23 de litere; J, U și W sunt adăugiri târzii.",
+      "Pronunția restituită citește „c” mereu „k”, „ae” = ai, „oe” = oi.",
+      "Vocalele au cantitate — lungă sau scurtă — cu valoare distinctivă.",
+      "Accentul nu cade niciodată pe ultima silabă."
+     ],
+     "termeni": [
+      {
+       "t": "cantitate vocalică",
+       "d": "durata unei vocale, lungă sau scurtă, cu valoare distinctivă în latină"
+      },
+      {
+       "t": "pronunție restituită",
+       "d": "reconstituirea pronunției latinei clasice, opusă pronunției tradiționale"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Câte litere avea alfabetul latin clasic?",
+       "v": "23; J, U și W au apărut mai târziu."
+      },
+      {
+       "f": "Cum se citește „Cicero” în pronunția restituită?",
+       "v": "Kikero."
+      },
+      {
+       "f": "Unde cade accentul într-un cuvânt latin de trei silabe cu penultima scurtă?",
+       "v": "Pe antepenultima silabă."
+      },
+      {
+       "f": "Ce înseamnă că vocalele latine au cantitate?",
+       "v": "Că pot fi lungi sau scurte, iar diferența poate schimba sensul."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "În pronunția restituită, grupul „ae” se citește:",
+       "optiuni": [
+        "ai",
+        "e",
+        "a",
+        "ae separat"
+       ],
+       "corect": 0,
+       "explicatie": "Pronunția tradițională îl citește „e”."
+      },
+      {
+       "intrebare": "Accentul latin poate cădea pe:",
+       "optiuni": [
+        "penultima sau antepenultima silabă",
+        "ultima silabă",
+        "orice silabă",
+        "prima silabă, întotdeauna"
+       ],
+       "corect": 0,
+       "explicatie": "Ultima silabă nu este niciodată accentuată în latina clasică."
+      },
+      {
+       "intrebare": "Cantitatea vocalică înseamnă:",
+       "optiuni": [
+        "durata lungă sau scurtă a vocalei",
+        "intensitatea vocalei",
+        "înălțimea muzicală a vocalei",
+        "numărul de vocale dintr-un cuvânt"
+       ],
+       "corect": 0,
+       "explicatie": "„Malum” scurt înseamnă rău, „mālum” lung înseamnă măr."
+      },
+      {
+       "intrebare": "Litera J în alfabetul latin clasic:",
+       "optiuni": [
+        "nu exista",
+        "exista și se citea „j”",
+        "exista și se citea „i”",
+        "se folosea doar în inscripții"
+       ],
+       "corect": 0,
+       "explicatie": "A fost introdusă în scrierea medievală, ca variantă grafică a lui I."
+      }
+     ]
+    },
+    {
+     "id": "lat9-02",
+     "titlu": "Latina — limbă flexionară",
+     "rezumat": "Latina este o limbă flexionară sintetică: relațiile dintre cuvinte se exprimă prin terminații (desinențe), nu prin prepoziții și topică, ca în română sau franceză. Un substantiv latin își schimbă terminația după funcția sintactică: „rosa” (subiect), „rosam” (complement direct), „rosae” (posesor). De aceea topica latină este liberă: „puella rosam amat” și „rosam puella amat” înseamnă același lucru. Categoriile flexionare ale substantivului sunt genul (masculin, feminin, neutru), numărul (singular, plural) și cazul. Latina are șase cazuri: nominativ (subiect, nume predicativ), genitiv (posesor, determinant), dativ (complement indirect), acuzativ (complement direct, după anumite prepoziții), vocativ (chemare) și ablativ (complemente circumstanțiale, după prepoziții). Verbul are persoană, număr, timp, mod și diateză, toate marcate prin terminații.",
+     "ideiCheie": [
+      "Latina este flexionară: funcția sintactică se citește din terminație.",
+      "Topica este liberă, pentru că desinențele poartă informația.",
+      "Substantivul are gen, număr și șase cazuri.",
+      "Verbul marchează prin terminații persoana, numărul, timpul, modul și diateza."
+     ],
+     "termeni": [
+      {
+       "t": "flexiune",
+       "d": "modificarea formei cuvântului prin terminații, pentru a exprima categorii gramaticale"
+      },
+      {
+       "t": "caz",
+       "d": "forma substantivului care indică funcția lui sintactică în propoziție"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce înseamnă că latina e o limbă flexionară?",
+       "v": "Funcția cuvintelor se exprimă prin terminații, nu prin topică."
+      },
+      {
+       "f": "Câte cazuri are latina?",
+       "v": "Șase: nominativ, genitiv, dativ, acuzativ, vocativ, ablativ."
+      },
+      {
+       "f": "De ce e liberă topica latină?",
+       "v": "Pentru că desinențele arată deja funcția sintactică a fiecărui cuvânt."
+      },
+      {
+       "f": "Ce exprimă cazul ablativ?",
+       "v": "Complemente circumstanțiale — loc, timp, mod, instrument — adesea după prepoziții."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Cazul care exprimă complementul direct este:",
+       "optiuni": [
+        "acuzativul",
+        "nominativul",
+        "dativul",
+        "ablativul"
+       ],
+       "corect": 0,
+       "explicatie": "Nominativul exprimă subiectul."
+      },
+      {
+       "intrebare": "Topica latină este liberă pentru că:",
+       "optiuni": [
+        "desinențele arată funcția sintactică",
+        "latina nu are reguli de sintaxă",
+        "verbul stă mereu la final",
+        "prepozițiile lipsesc"
+       ],
+       "corect": 0,
+       "explicatie": "Ordinea cuvintelor are doar valoare stilistică."
+      },
+      {
+       "intrebare": "Genitivul exprimă, de regulă:",
+       "optiuni": [
+        "posesorul sau determinantul",
+        "subiectul",
+        "complementul indirect",
+        "chemarea"
+       ],
+       "corect": 0,
+       "explicatie": "„Rosa puellae” înseamnă „trandafirul fetei”."
+      },
+      {
+       "intrebare": "Numărul cazurilor uzuale în declinarea latină este:",
+       "optiuni": [
+        "șase",
+        "cinci",
+        "patru",
+        "opt"
+       ],
+       "corect": 0,
+       "explicatie": "Unele manuale adaugă și locativul, cu folosire restrânsă."
+      }
+     ]
+    },
+    {
+     "id": "lat9-03",
+     "titlu": "Declinarea I și a II-a",
+     "rezumat": "Declinarea I cuprinde, în majoritate, substantive feminine terminate în -a la nominativ singular și -ae la genitiv singular: rosa, rosae. Desinențele la singular sunt -a, -ae, -ae, -am, -a, -ā; la plural: -ae, -arum, -is, -as, -ae, -is. Câteva substantive de declinarea I sunt masculine prin sens: agricola (agricultorul), nauta (marinarul), poeta (poetul). Declinarea a II-a cuprinde substantive masculine în -us sau -er și neutre în -um, cu genitivul în -i: dominus, domini; puer, pueri; bellum, belli. Substantivele neutre au o regulă generală valabilă la toate declinările: nominativul, acuzativul și vocativul sunt identice, iar la plural se termină în -a. Vocativul singular al masculinelor în -us este în -e: domine.",
+     "ideiCheie": [
+      "Declinarea I: nominativ -a, genitiv -ae, majoritar feminine.",
+      "Declinarea a II-a: masculine în -us/-er, neutre în -um, genitiv -i.",
+      "La neutre, nominativul, acuzativul și vocativul coincid; pluralul lor e în -a.",
+      "Vocativul singular al masculinelor în -us este în -e."
+     ],
+     "termeni": [
+      {
+       "t": "declinare",
+       "d": "grupul de substantive care primesc același set de terminații de caz"
+      },
+      {
+       "t": "regula neutrului",
+       "d": "la neutre, nominativul, acuzativul și vocativul sunt identice, iar pluralul se termină în -a"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care este genitivul singular la declinarea I?",
+       "v": "Terminația -ae (rosa, rosae)."
+      },
+      {
+       "f": "Ce substantive de declinarea I sunt masculine?",
+       "v": "Agricola, nauta, poeta — masculine prin sens."
+      },
+      {
+       "f": "Care e regula neutrului?",
+       "v": "Nominativ = acuzativ = vocativ, iar la plural terminația e -a."
+      },
+      {
+       "f": "Care este vocativul lui „dominus”?",
+       "v": "Domine."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Genitivul singular al lui „bellum” este:",
+       "optiuni": [
+        "belli",
+        "bellum",
+        "bello",
+        "bellae"
+       ],
+       "corect": 0,
+       "explicatie": "Declinarea a II-a are genitivul în -i."
+      },
+      {
+       "intrebare": "„Nauta” este un substantiv:",
+       "optiuni": [
+        "masculin, de declinarea I",
+        "feminin, de declinarea I",
+        "masculin, de declinarea a II-a",
+        "neutru"
+       ],
+       "corect": 0,
+       "explicatie": "Genul îl dă sensul, nu terminația."
+      },
+      {
+       "intrebare": "La plural, nominativul neutrelor se termină în:",
+       "optiuni": [
+        "-a",
+        "-i",
+        "-es",
+        "-us"
+       ],
+       "corect": 0,
+       "explicatie": "Este partea a doua a regulii neutrului."
+      },
+      {
+       "intrebare": "Acuzativul singular la declinarea I este:",
+       "optiuni": [
+        "-am",
+        "-ae",
+        "-a",
+        "-as"
+       ],
+       "corect": 0,
+       "explicatie": "„Rosam” este complement direct."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lat9-c2",
+   "titlu": "Verbul latin la indicativ",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "lat9-04",
+     "titlu": "Conjugările și prezentul",
+     "rezumat": "Verbul latin se împarte în patru conjugări, după vocala tematică a infinitivului prezent: I în -āre (laudare), a II-a în -ēre cu e lung (monere), a III-a în -ĕre cu e scurt (legere), a IV-a în -īre (audire). Dicționarele dau verbul prin patru forme principale: persoana I indicativ prezent, infinitivul prezent, perfectul și supinul — laudo, laudare, laudavi, laudatum. Indicativul prezent activ se formează din tema prezentului plus desinențele personale -o/-m, -s, -t, -mus, -tis, -nt: laudo, laudas, laudat, laudamus, laudatis, laudant. Conjugarea a III-a inserează o vocală de legătură: lego, legis, legit, legimus, legitis, legunt. Verbul „sum” (a fi) este neregulat: sum, es, est, sumus, estis, sunt.",
+     "ideiCheie": [
+      "Patru conjugări, după vocala infinitivului: -āre, -ēre, -ĕre, -īre.",
+      "Verbul se învață prin cele patru forme principale din dicționar.",
+      "Desinențele personale active: -o/-m, -s, -t, -mus, -tis, -nt.",
+      "„Sum” este neregulat: sum, es, est, sumus, estis, sunt."
+     ],
+     "termeni": [
+      {
+       "t": "temă verbală",
+       "d": "partea verbului la care se adaugă desinențele, obținută din formele principale"
+      },
+      {
+       "t": "desinență personală",
+       "d": "terminația care marchează persoana și numărul verbului"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Câte conjugări are verbul latin?",
+       "v": "Patru, după vocala tematică a infinitivului."
+      },
+      {
+       "f": "Care sunt cele patru forme principale ale verbului?",
+       "v": "Prezentul persoana I, infinitivul, perfectul și supinul."
+      },
+      {
+       "f": "Care sunt desinențele personale active?",
+       "v": "-o/-m, -s, -t, -mus, -tis, -nt."
+      },
+      {
+       "f": "Cum se conjugă „sum” la prezent?",
+       "v": "Sum, es, est, sumus, estis, sunt."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Verbul „audire” aparține conjugării:",
+       "optiuni": [
+        "a IV-a",
+        "I",
+        "a II-a",
+        "a III-a"
+       ],
+       "corect": 0,
+       "explicatie": "Infinitivul în -īre este marca ei."
+      },
+      {
+       "intrebare": "Persoana a III-a plural de la „legere” este:",
+       "optiuni": [
+        "legunt",
+        "legent",
+        "legint",
+        "legant"
+       ],
+       "corect": 0,
+       "explicatie": "Conjugarea a III-a folosește vocala de legătură u înaintea lui -nt."
+      },
+      {
+       "intrebare": "Formele principale ale unui verb latin sunt în număr de:",
+       "optiuni": [
+        "patru",
+        "două",
+        "trei",
+        "cinci"
+       ],
+       "corect": 0,
+       "explicatie": "Din ele se obțin toate temele verbale."
+      },
+      {
+       "intrebare": "„Estis” înseamnă:",
+       "optiuni": [
+        "voi sunteți",
+        "ei sunt",
+        "noi suntem",
+        "tu ești"
+       ],
+       "corect": 0,
+       "explicatie": "„Sunt” înseamnă „ei sunt”."
+      }
+     ]
+    },
+    {
+     "id": "lat9-05",
+     "titlu": "Imperfectul, viitorul, perfectul",
+     "rezumat": "Imperfectul indicativ exprimă o acțiune durativă sau repetată în trecut. Se formează cu sufixul -ba- la conjugările I și a II-a (laudabam, monebam) și -eba- la a III-a și a IV-a (legebam, audiebam). Verbul „sum” face „eram, eras, erat”. Viitorul I are două formări: -bo, -bis, -bit la conjugările I și a II-a (laudabo), respectiv -am, -es, -et la a III-a și a IV-a (legam, leges, leget). Perfectul indicativ exprimă o acțiune terminată în trecut și se formează din tema perfectului plus desinențele proprii -i, -isti, -it, -imus, -istis, -erunt: laudavi, laudavisti, laudavit. Tema perfectului se citește din a treia formă principală și poate fi obținută prin sufixul -v- (laudavi), prin -s- (scripsi), prin reduplicare (cucurri) sau prin alungirea vocalei (vidi, veni).",
+     "ideiCheie": [
+      "Imperfectul: sufix -ba-/-eba-, acțiune durativă în trecut.",
+      "Viitorul I: -bo la conjugările I–II, -am/-es la III–IV.",
+      "Perfectul are desinențe proprii: -i, -isti, -it, -imus, -istis, -erunt.",
+      "Tema perfectului se formează prin -v-, -s-, reduplicare sau alungire vocalică."
+     ],
+     "termeni": [
+      {
+       "t": "imperfect",
+       "d": "timpul care exprimă o acțiune durativă sau repetată în trecut"
+      },
+      {
+       "t": "temă a perfectului",
+       "d": "baza din care se formează perfectul, dată de a treia formă principală"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce sufix marchează imperfectul la conjugările I și a II-a?",
+       "v": "Sufixul -ba-."
+      },
+      {
+       "f": "Care sunt desinențele perfectului?",
+       "v": "-i, -isti, -it, -imus, -istis, -erunt."
+      },
+      {
+       "f": "Cum se formează viitorul la conjugarea a III-a?",
+       "v": "Cu -am la persoana I și -es, -et la celelalte."
+      },
+      {
+       "f": "Cum face „sum” la imperfect?",
+       "v": "Eram, eras, erat, eramus, eratis, erant."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Laudabam” este:",
+       "optiuni": [
+        "imperfect",
+        "perfect",
+        "viitor",
+        "prezent"
+       ],
+       "corect": 0,
+       "explicatie": "Sufixul -ba- este marca imperfectului."
+      },
+      {
+       "intrebare": "Persoana a III-a plural a perfectului se termină în:",
+       "optiuni": [
+        "-erunt",
+        "-unt",
+        "-ant",
+        "-ent"
+       ],
+       "corect": 0,
+       "explicatie": "Există și varianta poetică -ere."
+      },
+      {
+       "intrebare": "Viitorul lui „legere” la persoana a II-a singular este:",
+       "optiuni": [
+        "leges",
+        "legebis",
+        "legis",
+        "legabis"
+       ],
+       "corect": 0,
+       "explicatie": "Conjugările III–IV formează viitorul fără -b-."
+      },
+      {
+       "intrebare": "Perfectul „vidi” s-a format prin:",
+       "optiuni": [
+        "alungirea vocalei temei",
+        "sufixul -v-",
+        "sufixul -s-",
+        "reduplicare"
+       ],
+       "corect": 0,
+       "explicatie": "Comparați cu „video”, prezentul."
+      }
+     ]
+    },
+    {
+     "id": "lat9-06",
+     "titlu": "Diateza pasivă și verbele deponente",
+     "rezumat": "Diateza pasivă la timpurile temei prezentului se formează cu desinențe proprii: -r, -ris, -tur, -mur, -mini, -ntur. Astfel „laudo” (eu laud) devine „laudor” (eu sunt lăudat), „laudas” devine „laudaris”, „laudat” devine „laudatur”. Complementul de agent se exprimă prin „a/ab” plus ablativ când este o ființă (a magistro — de către profesor) și prin ablativ simplu când este un lucru. La timpurile temei perfectului, pasivul este analitic: participiul perfect acordat plus verbul „sum” — laudatus sum (am fost lăudat), laudati sunt (au fost lăudați). Verbele deponente au formă pasivă și înțeles activ: „hortor” (îndemn), „sequor” (urmez), „loquor” (vorbesc). Ele se recunosc din dicționar, unde primele forme sunt deja pasive: hortor, hortari, hortatus sum.",
+     "ideiCheie": [
+      "Pasivul temei prezentului are desinențe proprii: -r, -ris, -tur, -mur, -mini, -ntur.",
+      "Complementul de agent: „a/ab” + ablativ pentru ființe, ablativ simplu pentru lucruri.",
+      "La perfect, pasivul e analitic: participiu perfect + „sum”.",
+      "Verbele deponente au formă pasivă și sens activ."
+     ],
+     "termeni": [
+      {
+       "t": "verb deponent",
+       "d": "verb cu formă pasivă și înțeles activ, precum hortor sau sequor"
+      },
+      {
+       "t": "complement de agent",
+       "d": "cel care săvârșește acțiunea într-o construcție pasivă"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt desinențele pasive ale temei prezentului?",
+       "v": "-r, -ris, -tur, -mur, -mini, -ntur."
+      },
+      {
+       "f": "Cum se exprimă agentul când e ființă?",
+       "v": "Prin „a/ab” plus ablativ."
+      },
+      {
+       "f": "Cum se formează perfectul pasiv?",
+       "v": "Analitic: participiu perfect acordat plus verbul „sum”."
+      },
+      {
+       "f": "Ce este un verb deponent?",
+       "v": "Un verb cu formă pasivă și sens activ."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Laudatur” înseamnă:",
+       "optiuni": [
+        "este lăudat",
+        "laudă",
+        "va lăuda",
+        "a lăudat"
+       ],
+       "corect": 0,
+       "explicatie": "Desinența -tur marchează pasivul."
+      },
+      {
+       "intrebare": "„Laudatus est” este:",
+       "optiuni": [
+        "perfect pasiv",
+        "prezent pasiv",
+        "imperfect activ",
+        "viitor pasiv"
+       ],
+       "corect": 0,
+       "explicatie": "Pasivul perfect este analitic."
+      },
+      {
+       "intrebare": "„Sequor” este un verb:",
+       "optiuni": [
+        "deponent",
+        "pasiv",
+        "neregulat activ",
+        "impersonal"
+       ],
+       "corect": 0,
+       "explicatie": "Are formă pasivă, dar înseamnă „urmez”."
+      },
+      {
+       "intrebare": "Agentul-lucru într-o construcție pasivă se exprimă prin:",
+       "optiuni": [
+        "ablativ simplu",
+        "„a/ab” + ablativ",
+        "acuzativ",
+        "dativ"
+       ],
+       "corect": 0,
+       "explicatie": "Prepoziția se folosește doar pentru ființe."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lat9-c3",
+   "titlu": "Sintaxă, vocabular, moștenire",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "lat9-07",
+     "titlu": "Propoziția simplă și acordul",
+     "rezumat": "Propoziția latină simplă are subiect la nominativ și predicat acordat cu el în număr și persoană: „puella cantat” (fata cântă), „puellae cantant” (fetele cântă). Numele predicativ stă tot la nominativ și se acordă cu subiectul: „Roma magna est” (Roma este mare). Atributul adjectival se acordă cu substantivul determinat în gen, număr și caz: „rosam pulchram video”. Complementul direct stă la acuzativ, complementul indirect la dativ, iar complementele circumstanțiale la ablativ, adesea cu prepoziție: „in silva” (în pădure), „cum amico” (cu prietenul), „sine aqua” (fără apă). Prepozițiile latine cer un caz fix: „ad, ante, per, post, propter” cer acuzativul; „a/ab, cum, de, e/ex, sine, pro” cer ablativul; „in” și „sub” cer acuzativul pentru direcție și ablativul pentru loc.",
+     "ideiCheie": [
+      "Predicatul se acordă cu subiectul în număr și persoană.",
+      "Atributul adjectival se acordă în gen, număr și caz.",
+      "Prepozițiile latine cer un caz fix; „in” și „sub” cer două cazuri, după sens.",
+      "Complement direct la acuzativ, indirect la dativ, circumstanțial la ablativ."
+     ],
+     "termeni": [
+      {
+       "t": "acord",
+       "d": "potrivirea formelor între cuvinte legate sintactic"
+      },
+      {
+       "t": "regim prepozițional",
+       "d": "cazul cerut în mod obligatoriu de o prepoziție"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce caz cere prepoziția „cum”?",
+       "v": "Ablativul."
+      },
+      {
+       "f": "De ce „in” cere două cazuri?",
+       "v": "Acuzativul pentru direcție („in silvam” — în pădure, spre), ablativul pentru loc („in silva” — în pădure, unde)."
+      },
+      {
+       "f": "Cu ce se acordă atributul adjectival?",
+       "v": "Cu substantivul determinat, în gen, număr și caz."
+      },
+      {
+       "f": "La ce caz stă numele predicativ?",
+       "v": "La nominativ, acordat cu subiectul."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Ad” cere cazul:",
+       "optiuni": [
+        "acuzativ",
+        "ablativ",
+        "dativ",
+        "genitiv"
+       ],
+       "corect": 0,
+       "explicatie": "Ca și „ante, per, post, propter”."
+      },
+      {
+       "intrebare": "„In silvam” înseamnă:",
+       "optiuni": [
+        "spre pădure, în pădure (cu direcție)",
+        "în pădure (loc, fără mișcare)",
+        "din pădure",
+        "lângă pădure"
+       ],
+       "corect": 0,
+       "explicatie": "Acuzativul marchează direcția."
+      },
+      {
+       "intrebare": "Atributul adjectival se acordă cu substantivul în:",
+       "optiuni": [
+        "gen, număr și caz",
+        "doar gen",
+        "doar număr",
+        "doar caz"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea „rosam pulchram” are ambele cuvinte la acuzativ."
+      },
+      {
+       "intrebare": "Complementul indirect stă la:",
+       "optiuni": [
+        "dativ",
+        "acuzativ",
+        "ablativ",
+        "genitiv"
+       ],
+       "corect": 0,
+       "explicatie": "„Amico librum do” — îi dau prietenului o carte."
+      }
+     ]
+    },
+    {
+     "id": "lat9-08",
+     "titlu": "Vocabular fundamental și derivare",
+     "rezumat": "Vocabularul latin fundamental cuprinde câteva sute de cuvinte care acoperă majoritatea textelor didactice: substantive precum aqua, terra, vita, homo, tempus, verbum; adjective precum bonus, magnus, novus, longus; verbe precum esse, habere, facere, dicere, videre, venire. Cunoașterea lor face traducerea posibilă fără dicționar la texte adaptate. Latina formează cuvinte noi prin derivare cu prefixe (con-, de-, ex-, in-, prae-, re-, sub-, trans-) și sufixe (-tio, -tor, -bilis, -osus, -mentum). Din „ducere” (a conduce) se obțin „conducere”, „deducere”, „inducere”, „producere”, „reducere”. Compunerea unește două teme: „agricola” din „ager” și „colere”, „magnanimus” din „magnus” și „animus”. Aceste mecanisme explică transparent o mare parte din neologismele românești.",
+     "ideiCheie": [
+      "Câteva sute de cuvinte fundamentale acoperă textele didactice.",
+      "Derivarea folosește prefixe (con-, de-, ex-, prae-, re-) și sufixe (-tio, -tor, -bilis).",
+      "Compunerea unește două teme: agricola, magnanimus.",
+      "Mecanismele latine de formare explică neologismele românești."
+     ],
+     "termeni": [
+      {
+       "t": "derivare",
+       "d": "formarea de cuvinte noi cu prefixe și sufixe"
+      },
+      {
+       "t": "compunere",
+       "d": "formarea unui cuvânt prin unirea a două teme lexicale"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce înseamnă „aqua”?",
+       "v": "Apă."
+      },
+      {
+       "f": "Din ce cuvinte s-a format „agricola”?",
+       "v": "Din „ager” (câmp) și „colere” (a cultiva)."
+      },
+      {
+       "f": "Ce sufix formează nume de agent în latină?",
+       "v": "Sufixul -tor: doctor, actor, lector."
+      },
+      {
+       "f": "Ce înseamnă prefixul „prae-”?",
+       "v": "Înainte, în față — de unde „praefectus”, „prevedere”."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Sufixul -tio formează, de regulă:",
+       "optiuni": [
+        "nume de acțiune",
+        "nume de agent",
+        "adjective",
+        "adverbe"
+       ],
+       "corect": 0,
+       "explicatie": "De aici „actio”, „natio”, „lectio”."
+      },
+      {
+       "intrebare": "„Magnanimus” s-a format prin:",
+       "optiuni": [
+        "compunere",
+        "derivare cu prefix",
+        "derivare cu sufix",
+        "conversiune"
+       ],
+       "corect": 0,
+       "explicatie": "Unește „magnus” și „animus”."
+      },
+      {
+       "intrebare": "Verbul „facere” înseamnă:",
+       "optiuni": [
+        "a face",
+        "a spune",
+        "a vedea",
+        "a veni"
+       ],
+       "corect": 0,
+       "explicatie": "„Dicere” înseamnă a spune."
+      },
+      {
+       "intrebare": "Prefixul „trans-” înseamnă:",
+       "optiuni": [
+        "peste, dincolo de",
+        "înainte",
+        "sub",
+        "din nou"
+       ],
+       "corect": 0,
+       "explicatie": "De aici „transport”, „traduce”."
+      }
+     ]
+    },
+    {
+     "id": "lat9-09",
+     "titlu": "Moștenirea latină în limba română",
+     "rezumat": "Româna este o limbă romanică: fondul ei principal de cuvinte, structura gramaticală și modelul de flexiune provin din latina populară vorbită în Dacia romană și în Balcani. Cuvintele moștenite direct acoperă domeniile vieții de zi cu zi: om (homo), apă (aqua), pâine (panis), casă (casa), a face (facere), a vedea (videre), bun (bonus), lung (longus). Ele au suferit transformări fonetice regulate: „ct” a devenit „pt” (lactem — lapte, octo — opt), „gn” a devenit „mn” (lignum — lemn), „qu” a devenit „p” înaintea lui a (aqua — apă). Alături de cuvintele moștenite există neologismele latino-romanice, împrumutate cult începând cu secolul al XIX-lea: „lact-” dă „lactat”, „aqua” dă „acvatic”, „octo” dă „octogon”. Uneori același etimon a intrat de două ori, pe cale populară și pe cale savantă, formând dublete etimologice: apă/acvatic, lapte/lactat, drept/direct, greu/grav. Moștenirea explică și trăsături gramaticale: articolul hotărât enclitic din română continuă demonstrativul latin „ille”, iar cele trei genuri și cele două numere sunt tot moștenire latină.",
+     "ideiCheie": [
+      "Româna e limbă romanică: fondul lexical principal e moștenit din latina populară.",
+      "Transformări fonetice regulate: ct → pt, gn → mn, qu → p înaintea lui a.",
+      "Dubletele etimologice: același etimon intrat popular și savant (apă/acvatic).",
+      "Articolul hotărât enclitic continuă demonstrativul latin „ille”."
+     ],
+     "termeni": [
+      {
+       "t": "cuvânt moștenit",
+       "d": "cuvânt transmis neîntrerupt din latina populară în română"
+      },
+      {
+       "t": "dublet etimologic",
+       "d": "pereche de cuvinte provenite din același etimon, pe cale populară și pe cale savantă"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Din ce cuvânt latin provine „lapte”?",
+       "v": "Din „lactem”, prin transformarea ct → pt."
+      },
+      {
+       "f": "Ce este un dublet etimologic?",
+       "v": "O pereche de cuvinte din același etimon, intrate pe cale populară și savantă — apă/acvatic."
+      },
+      {
+       "f": "Ce continuă articolul hotărât enclitic românesc?",
+       "v": "Demonstrativul latin „ille”."
+      },
+      {
+       "f": "Ce transformare fonetică explică perechea „lignum” – „lemn”?",
+       "v": "Grupul gn a devenit mn."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Perechea „drept – direct” este:",
+       "optiuni": [
+        "un dublet etimologic",
+        "o pereche de sinonime neînrudite",
+        "un împrumut din franceză",
+        "o formă regională"
+       ],
+       "corect": 0,
+       "explicatie": "Ambele vin din „directus”, pe căi diferite."
+      },
+      {
+       "intrebare": "Transformarea „octo” → „opt” ilustrează:",
+       "optiuni": [
+        "trecerea ct → pt",
+        "trecerea gn → mn",
+        "trecerea qu → p",
+        "căderea vocalei finale"
+       ],
+       "corect": 0,
+       "explicatie": "Aceeași regulă explică „lactem” – „lapte”."
+      },
+      {
+       "intrebare": "Cuvintele moștenite din latină acoperă mai ales:",
+       "optiuni": [
+        "viața de zi cu zi",
+        "terminologia științifică",
+        "vocabularul administrativ modern",
+        "domeniul tehnologic"
+       ],
+       "corect": 0,
+       "explicatie": "Termenii științifici sunt neologisme culte."
+      },
+      {
+       "intrebare": "Româna este o limbă:",
+       "optiuni": [
+        "romanică",
+        "slavă",
+        "germanică",
+        "neînrudită cu latina"
+       ],
+       "corect": 0,
+       "explicatie": "Fondul principal și structura gramaticală provin din latină."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "teze": [
+  {
+   "semestru": 1,
+   "test": [
+    {
+     "intrebare": "Alfabetul latin clasic avea:",
+     "optiuni": [
+      "23 de litere",
+      "26 de litere",
+      "21 de litere",
+      "24 de litere"
+     ],
+     "corect": 0,
+     "explicatie": "J, U și W sunt adăugiri târzii."
+    },
+    {
+     "intrebare": "În pronunția restituită, „c” se citește:",
+     "optiuni": [
+      "mereu „k”",
+      "„ț” înaintea lui e, i",
+      "„ș” înaintea lui i",
+      "„c” doar la început de cuvânt"
+     ],
+     "corect": 0,
+     "explicatie": "De aceea Cicero se citește Kikero."
+    },
+    {
+     "intrebare": "Numărul cazurilor din declinarea latină este:",
+     "optiuni": [
+      "șase",
+      "patru",
+      "cinci",
+      "șapte"
+     ],
+     "corect": 0,
+     "explicatie": "Nominativ, genitiv, dativ, acuzativ, vocativ, ablativ."
+    },
+    {
+     "intrebare": "Genitivul singular al declinării I se termină în:",
+     "optiuni": [
+      "-ae",
+      "-a",
+      "-am",
+      "-i"
+     ],
+     "corect": 0,
+     "explicatie": "„Rosa, rosae”."
+    },
+    {
+     "intrebare": "Regula neutrului spune că:",
+     "optiuni": [
+      "nominativul, acuzativul și vocativul sunt identice",
+      "neutrele nu au plural",
+      "neutrele nu au genitiv",
+      "neutrele se declină ca femininele"
+     ],
+     "corect": 0,
+     "explicatie": "Iar pluralul lor se termină în -a."
+    },
+    {
+     "intrebare": "Verbul „monere” aparține conjugării:",
+     "optiuni": [
+      "a II-a",
+      "I",
+      "a III-a",
+      "a IV-a"
+     ],
+     "corect": 0,
+     "explicatie": "Are infinitivul în -ēre, cu e lung."
+    },
+    {
+     "intrebare": "Sufixul imperfectului la conjugările I și a II-a este:",
+     "optiuni": [
+      "-ba-",
+      "-eba-",
+      "-bo-",
+      "-er-"
+     ],
+     "corect": 0,
+     "explicatie": "„Laudabam, monebam”."
+    },
+    {
+     "intrebare": "Verbul „sum” la persoana a III-a plural, prezent, este:",
+     "optiuni": [
+      "sunt",
+      "est",
+      "estis",
+      "erant"
+     ],
+     "corect": 0,
+     "explicatie": "„Erant” este imperfect."
+    },
+    {
+     "intrebare": "Complementul direct latin stă la:",
+     "optiuni": [
+      "acuzativ",
+      "nominativ",
+      "dativ",
+      "ablativ"
+     ],
+     "corect": 0,
+     "explicatie": "Dativul exprimă complementul indirect."
+    }
+   ]
+  },
+  {
+   "semestru": 2,
+   "test": [
+    {
+     "intrebare": "Desinențele pasive ale temei prezentului sunt:",
+     "optiuni": [
+      "-r, -ris, -tur, -mur, -mini, -ntur",
+      "-o, -s, -t, -mus, -tis, -nt",
+      "-i, -isti, -it, -imus, -istis, -erunt",
+      "-m, -s, -t, -mus, -tis, -nt"
+     ],
+     "corect": 0,
+     "explicatie": "Cele active sunt -o, -s, -t, -mus, -tis, -nt."
+    },
+    {
+     "intrebare": "Un verb deponent are:",
+     "optiuni": [
+      "formă pasivă și sens activ",
+      "formă activă și sens pasiv",
+      "doar forme de perfect",
+      "doar forme impersonale"
+     ],
+     "corect": 0,
+     "explicatie": "„Sequor” înseamnă „urmez”."
+    },
+    {
+     "intrebare": "Perfectul pasiv „laudatus est” se formează:",
+     "optiuni": [
+      "analitic, cu participiu și „sum”",
+      "sintetic, cu desinențe proprii",
+      "cu sufixul -ba-",
+      "cu prefixul re-"
+     ],
+     "corect": 0,
+     "explicatie": "De aceea participiul se acordă cu subiectul."
+    },
+    {
+     "intrebare": "Prepoziția „in” cere acuzativul când exprimă:",
+     "optiuni": [
+      "direcția",
+      "locul static",
+      "instrumentul",
+      "timpul"
+     ],
+     "corect": 0,
+     "explicatie": "„In silvam” — spre pădure."
+    },
+    {
+     "intrebare": "Complementul de agent-ființă se exprimă prin:",
+     "optiuni": [
+      "„a/ab” + ablativ",
+      "ablativ simplu",
+      "dativ",
+      "acuzativ"
+     ],
+     "corect": 0,
+     "explicatie": "Agentul-lucru primește ablativ simplu."
+    },
+    {
+     "intrebare": "Sufixul -tor formează:",
+     "optiuni": [
+      "nume de agent",
+      "nume de acțiune",
+      "adjective de posibilitate",
+      "adverbe"
+     ],
+     "corect": 0,
+     "explicatie": "Doctor, actor, lector."
+    },
+    {
+     "intrebare": "Perechea „lapte – lactat” este:",
+     "optiuni": [
+      "un dublet etimologic",
+      "o pereche de omonime",
+      "un împrumut slav",
+      "o formă regională"
+     ],
+     "corect": 0,
+     "explicatie": "Unul e moștenit, celălalt împrumutat cult."
+    },
+    {
+     "intrebare": "Articolul hotărât enclitic din română continuă:",
+     "optiuni": [
+      "demonstrativul latin „ille”",
+      "articolul grecesc",
+      "un element slav",
+      "o inovație medievală"
+     ],
+     "corect": 0,
+     "explicatie": "De aici „omul”, „casa”."
+    },
+    {
+     "intrebare": "Accentul latin nu cade niciodată pe:",
+     "optiuni": [
+      "ultima silabă",
+      "penultima silabă",
+      "antepenultima silabă",
+      "prima silabă"
+     ],
+     "corect": 0,
+     "explicatie": "Regula penultimei stabilește restul."
+    }
+   ]
+  }
+ ]
+}
