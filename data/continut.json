@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 28,
-  "nrLectii": 292,
-  "nrCarduri": 1168,
-  "nrIntrebari": 1844,
+  "nrModule": 29,
+  "nrLectii": 301,
+  "nrCarduri": 1204,
+  "nrIntrebari": 1904,
   "module": [
     {
       "id": "geografie-9",
@@ -2027,6 +2027,88 @@
         {
           "semestru": 2,
           "nrIntrebari": 13
+        }
+      ]
+    },
+    {
+      "id": "tic-12",
+      "materie": "Tehnologia informației și a comunicațiilor (TIC)",
+      "clasa": "a XII-a",
+      "an": 4,
+      "arie": "Tehnologii",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Competențe digitale pentru bacalaureat și pentru viață: instrumente de birou, informație, securitate, identitate digitală și tehnologii emergente.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 60,
+      "capitole": [
+        {
+          "id": "tic12-c1",
+          "titlu": "Competențe digitale pentru examen",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "tic12-01",
+              "titlu": "Structura probei de competențe digitale"
+            },
+            {
+              "id": "tic12-02",
+              "titlu": "Documente complexe și lucru profesional cu textul"
+            },
+            {
+              "id": "tic12-03",
+              "titlu": "Calcul tabelar aplicat"
+            }
+          ]
+        },
+        {
+          "id": "tic12-c2",
+          "titlu": "Informație, securitate, identitate",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "tic12-04",
+              "titlu": "Căutarea și evaluarea informației"
+            },
+            {
+              "id": "tic12-05",
+              "titlu": "Securitate practică și amenințări curente"
+            },
+            {
+              "id": "tic12-06",
+              "titlu": "Identitate digitală și reputație online"
+            }
+          ]
+        },
+        {
+          "id": "tic12-c3",
+          "titlu": "Tehnologii și societate",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "tic12-07",
+              "titlu": "Cloud, mobilitate, colaborare"
+            },
+            {
+              "id": "tic12-08",
+              "titlu": "Automatizare, date mari, inteligență artificială"
+            },
+            {
+              "id": "tic12-09",
+              "titlu": "Etică digitală și responsabilitate"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
         }
       ]
     },

@@ -1,0 +1,499 @@
+materie: Tehnologia informației și a comunicațiilor (TIC)
+clasa: a XII-a
+an: 4
+arie: Tehnologii
+bac: da
+descriere: Competențe digitale pentru bacalaureat și pentru viață: instrumente de birou, informație, securitate, identitate digitală și tehnologii emergente.
+
+## 1 | tic12-c1 | Competențe digitale pentru examen
+### tic12-01 | Structura probei de competențe digitale
+Proba D evaluează competențele digitale prin sarcini practice rezolvate pe calculator, în timp limitat. Domeniile evaluate: utilizarea sistemului de operare și gestionarea fișierelor, editarea de text, calculul tabelar, prezentările, căutarea și evaluarea informației, comunicarea online și elemente de securitate.
+Rezultatul se exprimă în niveluri de competență, nu în note, dar susținerea probei este obligatorie pentru promovarea bacalaureatului. Evaluarea privește produsul final și pașii de rezolvare: se punctează salvarea corectă a fișierului, cu numele și în formatul cerut, aplicarea exactă a formatărilor solicitate, corectitudinea formulelor și respectarea tuturor cerințelor, nu doar a celor ușoare.
+* Proba D constă în sarcini practice, rezolvate pe calculator, în timp limitat.
+* Domenii: sistem de operare, text, calcul tabelar, prezentări, informație, comunicare, securitate.
+* Rezultatul se exprimă în niveluri de competență, nu în note.
+* Se punctează inclusiv salvarea corectă a fișierului, cu numele și formatul cerute.
+= sarcină practică :: cerință rezolvată efectiv pe calculator, nu prin răspuns teoretic
+= nivel de competență :: rezultatul probei D, exprimat pe o scară, nu prin notă
+@ Cum se evaluează proba D? :: Prin sarcini practice rezolvate pe calculator, cu rezultat exprimat în niveluri de competență.
+@ Ce domenii cuprinde proba D? :: Sistem de operare, editare de text, calcul tabelar, prezentări, informație, comunicare online, securitate.
+@ Ce se punctează, pe lângă rezultatul final? :: Salvarea corectă a fișierului, cu numele și formatul cerute, și respectarea tuturor cerințelor.
+@ Este proba D obligatorie? :: Da, susținerea ei este obligatorie pentru promovarea bacalaureatului.
+? Rezultatul probei D se exprimă:
++ în niveluri de competență
+- în note de la 1 la 10
+- prin admis sau respins
+- prin calificative
+! Susținerea rămâne obligatorie pentru promovare.
+? Salvarea fișierului cu alt nume decât cel cerut:
++ duce la pierderea punctajului aferent
+- nu are consecințe
+- se corectează automat
+- se punctează parțial
+! Cerințele de salvare fac parte din sarcină.
+? Proba D evaluează:
++ competențe practice, nu cunoștințe teoretice
+- definiții din manual
+- istoria informaticii
+- programarea avansată
+! Se rezolvă efectiv sarcini pe calculator.
+? Pregătirea eficientă pentru proba D presupune:
++ rezolvarea repetată a unor sarcini practice
+- memorarea meniurilor
+- citirea manualului
+- vizionarea de tutoriale
+! Competența se dovedește făcând, nu descriind.
+
+### tic12-02 | Documente complexe și lucru profesional cu textul
+Un document complex — lucrare, raport, proiect — cere instrumente pe care majoritatea utilizatorilor nu le folosesc: stiluri pentru toate nivelurile de titlu, cuprins generat automat, numerotare automată a capitolelor, note de subsol, referințe încrucișate, bibliografie gestionată prin instrumentul dedicat, secțiuni cu antete și numerotări diferite, tabele cu titluri repetate pe pagini.
+Regula profesională: nimic nu se numerotează, nu se aliniază și nu se formatează manual dacă programul o poate face automat. Motivul este practic: la o modificare, versiunea automată se actualizează singură, iar cea manuală trebuie refăcută integral, cu riscul erorilor. Verificarea finală: cuprins actualizat, numerotare continuă, imagini cu legendă și referire în text, bibliografie completă și consecventă, fără spații duble și fără rânduri goale folosite pentru poziționare.
+* Documentele complexe cer stiluri, cuprins automat, numerotare automată, referințe.
+* Nimic nu se face manual dacă programul o poate face automat.
+* Versiunile automate se actualizează singure la modificări.
+* Verificare finală: cuprins, numerotare, legende, bibliografie, spații.
+= referință încrucișată :: trimitere automată la un alt element din document, care se actualizează singură
+= secțiune :: parte a documentului cu formatare de pagină proprie (antet, numerotare, orientare)
+@ De ce se folosesc stilurile într-un document complex? :: Pentru cuprins automat, numerotare, navigare și modificări unitare.
+@ Ce este o referință încrucișată? :: O trimitere automată la un alt element din document, care se actualizează singură.
+@ De ce se evită formatarea manuală? :: Pentru că la fiecare modificare trebuie refăcută, cu risc de erori.
+@ Ce se verifică înainte de predarea unui document complex? :: Cuprinsul actualizat, numerotarea, legendele, bibliografia și spațierea.
+? Folosirea rândurilor goale pentru a împinge textul pe pagina următoare:
++ este o soluție fragilă, care se strică la orice modificare
+- este metoda recomandată
+- economisește timp
+- nu are dezavantaje
+! Există întrerupere de pagină exact pentru acest scop.
+? Cuprinsul generat automat se actualizează:
++ la comanda de actualizare, după modificări
+- niciodată
+- doar la salvare
+- doar la tipărire
+! De aceea trebuie actualizat înainte de predare.
+? Secțiunile dintr-un document permit:
++ antete și numerotări diferite pe părți diferite
+- schimbarea fontului implicit
+- protejarea cu parolă
+- comprimarea imaginilor
+! Ele sunt esențiale în lucrările lungi.
+? Bibliografia gestionată prin instrumentul dedicat:
++ păstrează consecvența și se actualizează automat
+- ocupă mai mult spațiu
+- nu poate fi modificată
+- se aplică doar la lucrări științifice
+! Ea evită erorile din listele scrise manual.
+
+### tic12-03 | Calcul tabelar aplicat
+La nivel aplicat, foaia de calcul rezolvă probleme reale: bugetul personal sau al unui proiect, evidența notelor și calculul mediilor, planificarea unei activități, analiza unui set de date, generarea unor facturi simple. Instrumentele necesare: funcții condiționale, funcții de căutare, validarea datelor, protejarea celulelor cu formule, formatarea condiționată, tabele pivot și grafice.
+Buna practică: separarea datelor de calcule (o zonă de intrare clar delimitată), evitarea valorilor scrise direct în formule (se pun în celule proprii, ca să poată fi modificate ușor), denumirea zonelor importante, documentarea foilor prin comentarii, verificarea rezultatelor prin calcule de control. O foaie de calcul în care nimeni nu mai înțelege de unde vine un număr este o sursă de erori, nu un instrument.
+* Aplicații reale: buget, evidențe, planificare, analiză de date.
+* Instrumente: funcții condiționale și de căutare, validare, protejare, pivot, grafice.
+* Se separă datele de calcule; valorile nu se scriu direct în formule.
+* Verificarea prin calcule de control previne erorile care trec neobservate.
+= validare a datelor :: restricționarea valorilor care pot fi introduse într-o celulă
+= calcul de control :: verificare independentă a unui rezultat, prin altă metodă
+@ De ce se separă datele de calcule? :: Pentru ca modificarea datelor să nu ceară rescrierea formulelor.
+@ De ce nu se scriu valorile direct în formule? :: Pentru că devin greu de găsit și de modificat.
+@ Ce face validarea datelor? :: Restricționează valorile care pot fi introduse într-o celulă.
+@ La ce servește un calcul de control? :: La verificarea independentă a unui rezultat, prin altă metodă.
+? Scrierea unei cote de impozit direct în formulă:
++ face modificarea ulterioară dificilă și predispusă la erori
+- este metoda recomandată
+- protejează formula
+- reduce dimensiunea fișierului
+! Valoarea se pune într-o celulă proprie, referită de formule.
+? Protejarea celulelor cu formule este utilă pentru:
++ a împiedica ștergerea accidentală a calculelor
+- a reduce dimensiunea fișierului
+- a accelera recalcularea
+- a ascunde datele
+! Zonele de introducere rămân editabile.
+? Validarea datelor previne:
++ introducerea unor valori nepermise
+- erorile de formulă
+- pierderea fișierului
+- ștergerea foii
+! De exemplu, o notă în afara intervalului admis.
+? O foaie de calcul în care nu se mai înțelege proveniența unui rezultat:
++ devine o sursă de erori
+- este mai sigură
+- este mai rapidă
+- este bine documentată
+! Documentarea și structura clară sunt esențiale.
+
+## 2 | tic12-c2 | Informație, securitate, identitate
+### tic12-04 | Căutarea și evaluarea informației
+Căutarea eficientă începe cu formularea precisă a întrebării și cu alegerea cuvintelor-cheie potrivite — substantive și termeni specifici, nu propoziții întregi. Operatorii rafinează căutarea: ghilimele pentru expresie exactă, minus pentru excludere, site: pentru un anumit domeniu, filetype: pentru un tip de fișier, intervale de dată pentru actualitate.
+Evaluarea sursei urmează criterii verificabile: cine este autorul și ce competență are, cine publică și cu ce interes, când a fost publicat și dacă a fost actualizat, dacă afirmațiile sunt susținute de referințe verificabile, dacă alte surse independente confirmă. Sursele academice, instituționale și publicațiile cu proces editorial oferă garanții mai mari, dar nu absolute. Regula practică: cu cât afirmația este mai extraordinară, cu atât dovezile cerute trebuie să fie mai solide.
+* Căutarea eficientă folosește termeni specifici și operatori.
+* Evaluarea sursei: autor, editor, dată, referințe, confirmare independentă.
+* Sursele instituționale și cele cu proces editorial oferă garanții mai mari.
+* Afirmațiile extraordinare cer dovezi pe măsură.
+= operator de căutare :: cuvânt sau simbol care rafinează rezultatele unei căutări
+= sursă primară :: sursa originală a unei informații, nu o preluare a ei
+@ Ce operatori rafinează o căutare? :: Ghilimelele, minusul, site:, filetype: și filtrele de dată.
+@ Ce criterii se folosesc la evaluarea unei surse? :: Autorul, editorul, data, referințele și confirmarea din surse independente.
+@ Ce este o sursă primară? :: Sursa originală a informației, nu o preluare a ei.
+@ Ce spune regula despre afirmațiile extraordinare? :: Că cer dovezi pe măsură de solide.
+? Operatorul site: se folosește pentru:
++ limitarea căutării la un anumit domeniu
+- excluderea unui cuvânt
+- căutarea unei expresii exacte
+- filtrarea după dată
+! Minusul exclude un termen.
+? O sursă fără autor identificabil și fără dată:
++ trebuie tratată cu prudență sporită
+- este la fel de credibilă
+- este preferabilă
+- se acceptă dacă are multe distribuiri
+! Numărul de distribuiri nu are legătură cu veridicitatea.
+? Confirmarea unei informații din surse independente înseamnă:
++ surse care nu se citează reciproc și nu au aceeași origine
+- mai multe site-uri care preiau aceeași știre
+- rețele sociale diferite
+- surse din țări diferite
+! Preluarea aceleiași surse nu constituie confirmare.
+? Formularea unei căutări ca propoziție întreagă:
++ dă, de regulă, rezultate mai slabe decât termenii specifici
+- este metoda recomandată
+- restrânge corect rezultatele
+- nu influențează rezultatele
+! Cuvintele-cheie precise funcționează mai bine.
+
+### tic12-05 | Securitate practică și amenințări curente
+Amenințările curente nu sunt, de regulă, tehnice, ci sociale. Phishingul imită un mesaj legitim pentru a obține date de autentificare; semnele: adresă de expeditor ușor modificată, urgență artificială, cereri de date confidențiale, linkuri care duc în altă parte decât textul afișat, greșeli de limbă. Ingineria socială exploatează încrederea, curiozitatea, frica sau dorința de a fi de ajutor.
+Măsuri practice: verifică adresa reală a linkului înainte de a apăsa, nu introduce date de autentificare din linkuri primite prin mesaje, folosește autentificarea în doi pași, nu refolosi parole, actualizează sistemul, nu instala aplicații din surse necunoscute, fii prudent pe rețele wireless publice, fă copii de siguranță. Dacă un cont a fost compromis: schimbă parola de pe un alt dispozitiv, deconectează sesiunile active, verifică setările de recuperare și anunță persoanele afectate.
+* Amenințările curente exploatează mai ales factorul uman.
+* Semne de phishing: urgență artificială, expeditor modificat, linkuri înșelătoare.
+* Măsuri: verificarea linkurilor, doi pași, parole unice, actualizări, copii de siguranță.
+* La compromitere: schimbă parola de pe alt dispozitiv și deconectează sesiunile active.
+= phishing :: încercarea de a obține date confidențiale prin imitarea unui mesaj legitim
+= inginerie socială :: manipularea persoanelor pentru a obține acces sau informații
+@ Care sunt semnele unui mesaj de phishing? :: Urgență artificială, expeditor ușor modificat, cereri de date, linkuri înșelătoare, greșeli de limbă.
+@ Ce este ingineria socială? :: Manipularea persoanelor pentru a obține acces sau informații.
+@ Ce faci dacă un cont a fost compromis? :: Schimbi parola de pe alt dispozitiv, deconectezi sesiunile active, verifici setările de recuperare.
+@ De ce sunt riscante rețelele wireless publice? :: Pentru că traficul poate fi interceptat sau redirecționat.
+? Un mesaj care cere urgent datele de card pentru a „debloca contul” este, cel mai probabil:
++ phishing
+- o notificare legitimă
+- o eroare tehnică
+- un mesaj automat inofensiv
+! Instituțiile serioase nu cer astfel de date prin mesaj.
+? Verificarea adresei reale a unui link se face:
++ înainte de a-l apăsa, observând destinația reală
+- după deschiderea paginii
+- prin introducerea datelor
+- prin răspuns la mesaj
+! Textul afișat poate ascunde o altă destinație.
+? Refolosirea aceleiași parole pe mai multe site-uri:
++ permite compromiterea în lanț a conturilor
+- este sigură dacă parola e lungă
+- e recomandată pentru simplitate
+- nu are consecințe
+! O singură scurgere compromite toate conturile.
+? Prima măsură după compromiterea unui cont este:
++ schimbarea parolei de pe un dispozitiv sigur
+- ștergerea contului
+- anunțarea publică
+- reinstalarea sistemului
+! Apoi se deconectează sesiunile active.
+
+### tic12-06 | Identitate digitală și reputație online
+Identitatea digitală este ansamblul informațiilor care te reprezintă online: conturi, postări, fotografii, comentarii, activitate publică. Ea este verificată în practică: angajatorii, universitățile și instituțiile caută informații publice despre candidați. Ceea ce apare la o căutare simplă contează mai mult decât ceea ce declari despre tine.
+Gestionarea reputației online presupune: verificarea periodică a rezultatelor căutării propriului nume, revizuirea setărilor de confidențialitate, ștergerea sau restricționarea conținutului nepotrivit, construirea deliberată a unei prezențe utile (portofoliu, proiecte, lucrări). Un profil profesional coerent — informații exacte, fotografie potrivită, descrierea competențelor, dovezi concrete — este un avantaj real. Regula de prudență: nu publica nimic ce nu ai vrea să fie citit de un profesor, de un angajator și de un părinte în același timp.
+* Identitatea digitală este verificată în practică de angajatori și instituții.
+* Ce apare la o căutare simplă contează mai mult decât ce declari.
+* Gestionarea reputației: verificare periodică, setări, curățare, prezență utilă.
+* Regula de prudență: nu publica ce nu ai vrea citit de profesor, angajator și părinte.
+= identitate digitală :: ansamblul informațiilor care reprezintă o persoană în mediul online
+= reputație online :: imaginea care rezultă din informațiile publice despre o persoană
+@ Ce este identitatea digitală? :: Ansamblul informațiilor care te reprezintă online.
+@ De ce contează reputația online? :: Pentru că angajatorii și instituțiile caută informații publice despre candidați.
+@ Ce presupune gestionarea reputației online? :: Verificarea periodică, revizuirea setărilor, curățarea conținutului, construirea unei prezențe utile.
+@ Care este regula de prudență la publicare? :: Nu publica nimic ce nu ai vrea citit de profesor, angajator și părinte deopotrivă.
+? Verificarea periodică a propriului nume într-un motor de căutare:
++ arată ce văd ceilalți despre tine
+- este inutilă
+- încalcă confidențialitatea
+- este posibilă doar cu cont
+! Este primul pas în gestionarea reputației.
+? Un profil profesional eficient conține:
++ informații exacte și dovezi concrete ale competențelor
+- cât mai multe contacte
+- fotografii personale numeroase
+- opinii politice
+! Dovezile concrete cântăresc cel mai mult.
+? Ștergerea unei postări publice:
++ nu garantează dispariția ei, dacă a fost deja copiată
+- o elimină definitiv de pe internet
+- este imposibilă
+- se face automat după un an
+! Urma digitală este greu reversibilă.
+? Setările de confidențialitate ale conturilor ar trebui:
++ revizuite periodic, fiindcă se schimbă odată cu platformele
+- lăsate implicite
+- modificate o singură dată
+- ignorate
+! Actualizările platformelor pot reseta preferințele.
+
+## 2 | tic12-c3 | Tehnologii și societate
+### tic12-07 | Cloud, mobilitate, colaborare
+Serviciile în cloud oferă stocare și aplicații accesate prin rețea, fără instalare locală. Avantaje: acces de pe orice dispozitiv, colaborare simultană, copii de siguranță automate, actualizări continue, costuri inițiale mici. Limite și riscuri: dependența de conexiune, dependența de furnizor, confidențialitatea datelor stocate, costurile pe termen lung, dificultatea migrării datelor spre alt serviciu.
+Buna practică: păstrarea unei copii locale a documentelor importante, atenție la ce date se încarcă (datele sensibile cer criptare sau găzduire proprie), verificarea drepturilor de partajare, folosirea autentificării în doi pași pentru contul de cloud, verificarea condițiilor de utilizare privind proprietatea asupra conținutului încărcat.
+* Cloudul oferă acces de oriunde, colaborare și copii automate.
+* Riscuri: dependență de conexiune și de furnizor, confidențialitate, migrare dificilă.
+* Se păstrează o copie locală a documentelor importante.
+* Datele sensibile cer criptare sau soluții proprii de găzduire.
+= cloud :: servicii de stocare și de aplicații accesate prin rețea, fără instalare locală
+= dependență de furnizor :: dificultatea de a migra datele și serviciile către alt furnizor
+@ Care sunt avantajele serviciilor în cloud? :: Acces de oriunde, colaborare simultană, copii automate, actualizări continue.
+@ Ce este dependența de furnizor? :: Dificultatea de a migra datele și serviciile către alt furnizor.
+@ De ce se păstrează o copie locală? :: Pentru cazul pierderii accesului la serviciu sau la conexiune.
+@ Ce protecție cer datele sensibile în cloud? :: Criptare sau găzduire proprie, plus autentificare în doi pași.
+? Un risc real al serviciilor în cloud este:
++ dependența de furnizor și dificultatea migrării
+- imposibilitatea colaborării
+- lipsa copiilor de siguranță
+- costul inițial ridicat
+! Avantajele sunt reale, dar nu elimină riscurile.
+? Păstrarea unei copii locale a documentelor importante:
++ protejează împotriva pierderii accesului la serviciu
+- este inutilă
+- încalcă condițiile de utilizare
+- consumă spațiu fără rost
+! Redundanța este principiul de bază al siguranței datelor.
+? Înainte de a încărca date sensibile într-un serviciu gratuit:
++ se verifică condițiile de utilizare și opțiunile de criptare
+- se încarcă direct, e mai simplu
+- se comprimă fișierele
+- se schimbă numele fișierelor
+! Condițiile pot include drepturi asupra conținutului.
+? Colaborarea simultană în cloud presupune:
++ istoric al versiunilor și drepturi diferențiate de acces
+- un singur editor
+- descărcarea prealabilă a fișierului
+- trimiterea prin e-mail
+! Acestea sunt avantajele față de schimbul de fișiere.
+
+### tic12-08 | Automatizare, date mari, inteligență artificială
+Automatizarea preia sarcini repetitive: completarea unor formulare, prelucrarea unor fișiere, generarea de rapoarte. Ea eliberează timp pentru activitățile care cer judecată, dar transformă și piața muncii: dispar sarcini, apar altele, iar competențele cerute se schimbă mai repede decât înainte.
+Datele mari (big data) desemnează seturi de date prea mari sau prea rapide pentru instrumentele clasice; valoarea lor stă în tiparele descoperite prin analiză. Inteligența artificială cuprinde sisteme care îndeplinesc sarcini care cereau, în trecut, inteligență umană: recunoaștere de imagini, traducere, generare de text, recomandări. Limitele sunt importante: sistemele învață din date și moștenesc erorile și prejudecățile lor; pot produce rezultate false formulate convingător; nu înțeleg contextul așa cum îl înțelege un om. Verificarea rezultatelor rămâne responsabilitatea utilizatorului.
+* Automatizarea preia sarcini repetitive și schimbă competențele cerute.
+* Datele mari au valoare prin tiparele descoperite, nu prin volum în sine.
+* Sistemele de inteligență artificială moștenesc erorile și prejudecățile din date.
+* Verificarea rezultatelor rămâne responsabilitatea utilizatorului.
+= date mari :: seturi de date prea voluminoase sau prea rapide pentru instrumentele clasice
+= prejudecată algoritmică :: eroare sistematică a unui sistem, moștenită din datele pe care a fost antrenat
+@ Ce preia automatizarea? :: Sarcinile repetitive, eliberând timp pentru cele care cer judecată.
+@ În ce stă valoarea datelor mari? :: În tiparele descoperite prin analiză, nu în volumul în sine.
+@ De ce pot greși sistemele de inteligență artificială? :: Pentru că învață din date și moștenesc erorile și prejudecățile lor.
+@ Cine răspunde de verificarea rezultatelor? :: Utilizatorul care le folosește.
+? Prejudecata algoritmică apare pentru că:
++ sistemul învață din date care conțin ele însele prejudecăți
+- programatorii o introduc intenționat
+- algoritmii sunt aleatorii
+- datele sunt prea puține
+! De aceea contează calitatea și reprezentativitatea datelor.
+? Un rezultat generat de un sistem de inteligență artificială:
++ trebuie verificat înainte de a fi folosit ca atare
+- este întotdeauna corect
+- nu poate fi verificat
+- înlocuiește sursele
+! Sistemele pot formula convingător informații false.
+? Valoarea datelor mari stă în:
++ tiparele descoperite prin analiză
+- volumul lor
+- viteza de colectare
+- formatul de stocare
+! Datele neanalizate nu produc valoare.
+? Automatizarea sarcinilor repetitive:
++ schimbă structura competențelor cerute pe piața muncii
+- elimină munca în general
+- nu afectează ocuparea
+- privește doar industria
+! Dispar sarcini, apar altele, iar recalificarea devine permanentă.
+
+### tic12-09 | Etică digitală și responsabilitate
+Tehnologia nu este neutră în efecte: modul în care e proiectată și folosită produce consecințe sociale. Problemele etice actuale: confidențialitatea datelor și supravegherea, dependența de dispozitive și efectele asupra atenției, dezinformarea amplificată algoritmic, decalajul digital dintre cei care au acces și competențe și cei care nu, impactul de mediu al infrastructurii digitale, drepturile de autor în epoca reproducerii nelimitate.
+Responsabilitatea utilizatorului: verificarea informației înainte de distribuire, respectarea drepturilor de autor, protejarea datelor proprii și ale altora, comportament decent în interacțiunile online, folosirea conștientă a timpului petrecut pe ecrane. Competența digitală completă nu înseamnă doar a ști să folosești instrumentele, ci a înțelege ce fac ele cu tine și cu ceilalți.
+* Tehnologia nu e neutră: proiectarea și folosirea produc consecințe sociale.
+* Probleme: confidențialitate, atenție, dezinformare, decalaj digital, mediu, drepturi de autor.
+* Responsabilitatea utilizatorului începe cu verificarea înainte de distribuire.
+* Competența digitală completă include înțelegerea efectelor, nu doar folosirea instrumentelor.
+= decalaj digital :: diferența dintre cei care au acces și competențe digitale și cei care nu au
+= impact de mediu al infrastructurii digitale :: consumul de energie și resurse al centrelor de date și al dispozitivelor
+@ Ce înseamnă că tehnologia nu este neutră? :: Că modul în care e proiectată și folosită produce consecințe sociale reale.
+@ Ce este decalajul digital? :: Diferența dintre cei care au acces și competențe digitale și cei care nu au.
+@ Care este prima responsabilitate a utilizatorului? :: Verificarea informației înainte de a o distribui.
+@ Ce include competența digitală completă? :: Nu doar folosirea instrumentelor, ci și înțelegerea efectelor lor.
+? Decalajul digital privește:
++ atât accesul la tehnologie, cât și competențele de folosire
+- doar viteza internetului
+- doar prețul dispozitivelor
+- doar mediul rural
+! Accesul fără competențe nu produce beneficii.
+? Distribuirea unei informații neverificate:
++ contribuie la răspândirea dezinformării
+- este neutră
+- este responsabilitatea platformei
+- nu are efecte
+! Fiecare distribuire amplifică mesajul.
+? Infrastructura digitală are un impact de mediu prin:
++ consumul de energie al centrelor de date și al dispozitivelor
+- lipsa hârtiei
+- durata de viață a software-ului
+- numărul de utilizatori
+! Producția și reciclarea dispozitivelor contează la fel de mult.
+? Competența digitală completă înseamnă:
++ folosirea instrumentelor plus înțelegerea efectelor lor
+- cunoașterea tuturor aplicațiilor
+- programarea avansată
+- viteza de tastare
+! Dimensiunea critică este parte din competență.
+
+%% teza 1
+? Rezultatul probei D se exprimă:
++ în niveluri de competență
+- în note
+- prin calificative
+- prin admis/respins
+! Susținerea rămâne obligatorie pentru promovare.
+? Salvarea fișierului cu alt nume decât cel cerut la examen:
++ duce la pierderea punctajului aferent
+- nu contează
+- se corectează automat
+- se punctează parțial
+! Cerințele de salvare fac parte din sarcină.
+? Folosirea rândurilor goale pentru a împinge textul pe pagina următoare:
++ este o soluție fragilă
+- este recomandată
+- economisește timp
+- nu are dezavantaje
+! Există întreruperea de pagină pentru acest scop.
+? Cuprinsul automat:
++ trebuie actualizat înainte de predare
+- se actualizează la fiecare tastă
+- nu se actualizează niciodată
+- se generează la tipărire
+! El citește stilurile aplicate titlurilor.
+? Secțiunile dintr-un document permit:
++ antete și numerotări diferite pe părți diferite
+- schimbarea limbii
+- comprimarea imaginilor
+- protejarea cu parolă
+! Sunt esențiale în lucrările lungi.
+? Scrierea unei valori direct în formulă:
++ face modificarea ulterioară dificilă
+- protejează calculul
+- este recomandată
+- reduce dimensiunea fișierului
+! Valoarea se pune într-o celulă proprie.
+? Validarea datelor previne:
++ introducerea unor valori nepermise
+- erorile de formulă
+- pierderea fișierului
+- ștergerea foii
+! De exemplu, o notă în afara intervalului admis.
+? Operatorul site: limitează căutarea:
++ la un anumit domeniu
+- la un tip de fișier
+- la o perioadă
+- la o limbă
+! filetype: limitează la un tip de fișier.
+? Confirmarea unei informații presupune:
++ surse independente, care nu se citează reciproc
+- mai multe site-uri care preiau aceeași știre
+- mai multe rețele sociale
+- surse din țări diferite
+! Preluarea nu este confirmare.
+? Un mesaj care cere urgent date de card pentru „deblocarea contului” este:
++ cel mai probabil phishing
+- o notificare legitimă
+- o eroare tehnică
+- un mesaj automat inofensiv
+! Instituțiile serioase nu cer astfel de date prin mesaj.
+? Refolosirea aceleiași parole:
++ permite compromiterea în lanț a conturilor
+- este sigură dacă parola e lungă
+- simplifică fără riscuri
+- este recomandată
+! O singură scurgere compromite tot.
+? Prima măsură la compromiterea unui cont este:
++ schimbarea parolei de pe un dispozitiv sigur
+- ștergerea contului
+- anunțarea publică
+- reinstalarea sistemului
+! Apoi se deconectează sesiunile active.
+
+%% teza 2
+? Identitatea digitală este:
++ ansamblul informațiilor care te reprezintă online
+- numele de utilizator
+- adresa de e-mail
+- contul principal
+! Ea este verificată în practică de angajatori și instituții.
+? Ștergerea unei postări publice:
++ nu garantează dispariția ei
+- o elimină definitiv
+- este imposibilă
+- se face automat
+! Urma digitală e greu reversibilă.
+? Setările de confidențialitate ar trebui:
++ revizuite periodic
+- lăsate implicite
+- modificate o singură dată
+- ignorate
+! Actualizările platformelor pot reseta preferințele.
+? Un risc real al cloudului este:
++ dependența de furnizor și migrarea dificilă
+- imposibilitatea colaborării
+- lipsa copiilor de siguranță
+- costul inițial ridicat
+! Avantajele nu elimină riscurile.
+? Copia locală a documentelor importante:
++ protejează împotriva pierderii accesului
+- este inutilă
+- încalcă regulile
+- consumă spațiu fără rost
+! Redundanța este principiul siguranței datelor.
+? Prejudecata algoritmică provine din:
++ datele pe care sistemul a fost antrenat
+- intenția programatorilor
+- caracterul aleatoriu al algoritmilor
+- lipsa de putere de calcul
+! De aceea contează reprezentativitatea datelor.
+? Un rezultat generat automat:
++ trebuie verificat înainte de folosire
+- este întotdeauna corect
+- nu poate fi verificat
+- înlocuiește sursele
+! Sistemele pot formula convingător informații false.
+? Valoarea datelor mari stă în:
++ tiparele descoperite prin analiză
+- volumul lor
+- formatul de stocare
+- viteza de colectare
+! Datele neanalizate nu produc valoare.
+? Automatizarea sarcinilor repetitive:
++ schimbă competențele cerute pe piața muncii
+- elimină munca
+- nu afectează ocuparea
+- privește doar industria
+! Recalificarea devine permanentă.
+? Decalajul digital privește:
++ accesul și competențele deopotrivă
+- doar viteza internetului
+- doar prețul dispozitivelor
+- doar vârsta utilizatorilor
+! Accesul fără competențe nu produce beneficii.
+? Distribuirea unei informații neverificate:
++ contribuie la răspândirea dezinformării
+- este neutră
+- e responsabilitatea platformei
+- nu are efecte
+! Fiecare distribuire amplifică mesajul.
+? Competența digitală completă include:
++ înțelegerea efectelor tehnologiei, nu doar folosirea ei
+- cunoașterea tuturor aplicațiilor
+- programarea avansată
+- viteza de tastare
+! Dimensiunea critică face parte din competență.
