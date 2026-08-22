@@ -305,7 +305,7 @@
   --focus-ring: 0 0 0 3px var(--surface-base), 0 0 0 6px var(--brand);
 }
 :root:where([data-contrast="ridicat"][data-tema="intunecat"]){
-  --ink-muted: #D2BCA2;                /* 10.03:1 pe espresso */
+  --ink-muted: #D2BCA2;                /* 8,99:1 pe bleumarin (AAA) */
 }
 
 /* ═══════════════════════════════════════════════════════════════════════════
@@ -372,7 +372,7 @@
 }
 
 :root:where([data-tema="intunecat"]){
-  --glass-bg-strong:   rgba(52,39,30,.80);
+  --glass-bg-strong:   rgba(30,44,70,.82);   /* sticlă densă navy, aliniată cu --glass-bg */
   --glass-highlight:   rgba(214,228,246,.11);
   --glass-inner-shadow:rgba(0,0,0,.32);
 

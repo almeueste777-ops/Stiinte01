@@ -51,4 +51,27 @@ Doi agenți independenți, lansați în paralel: `verificator-cod` (recitire adv
 diff-ului + bateria locală) și `verificator-ui` (server local + capturi Playwright pe scara
 320–1440px plus peisaj, ambele teme, cu contrast ridicat și transparență redusă).
 
-_(Se completează cu constatările lor la finalul rulării.)_
+### verificator-cod — 3 constatări corectate, niciun blocant
+
+- **#1 (important, corectat).** `--glass-bg-strong` din tema întunecată rămăsese espresso
+  (`rgba(52,39,30,.80)`) — sticla densă de sub **butonul „înapoi"** (`.icon-btn`, prezent pe
+  fiecare ecran de detaliu) și **fața cardului de memorare** (`#/carduri`). Rezultat: apăreau
+  maro pe fundal navy, exact în modul implicit (transparență + contrast normale) — o regresie
+  cromatică pe care niciun verificator structural n-o prinde. Corectat pe navy
+  `rgba(30,44,70,.82)`, aliniat cu `--glass-bg`. (La transparență redusă / contrast ridicat
+  tokenul cădea deja pe `surface-raised` navy, deci defectul era doar în modul implicit.)
+- **#2 (minor, corectat).** Comentariul de la override-ul `--ink-muted` de contrast ridicat
+  (întunecat) spunea „10.03:1 pe espresso"; fundalul e acum navy → raportul real e **8,99:1**
+  (tot AAA). Comentariu actualizat.
+- **#3 (minor, corectat).** Iconița PWA (`icons/`) folosea încă gradientul teracotă vechi
+  (`#9E4119`). Regenerată pe paleta v05 — câmp bleumarin, bare de nisip fildeș + aur (concept
+  preluat din planșa 1) — cu `tools/genereaza-iconite.mjs`.
+- **#4 (pre-existent, lăsat).** Câteva umbre calde `rgba(90,58,32,.x)` din stratul de
+  componente randează în ambele teme; alfa mic (.10–.30), abia perceptibile pe navy, nu-s
+  regresie v05.
+- În rest: toți verificatorii locali trec, versiunile sincronizate (v9 / cache 9 / `?v=9`),
+  zero tokeni de culoare orfani, contrast recalculat independent — toate perechile AA.
+
+### verificator-ui
+
+_(Se completează când raportează.)_
