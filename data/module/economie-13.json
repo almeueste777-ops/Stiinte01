@@ -1,0 +1,1402 @@
+{
+ "id": "economie-13",
+ "materie": "Economie și educație antreprenorială",
+ "clasa": "a XIII-a",
+ "an": 5,
+ "arie": "Om și societate",
+ "bac": true,
+ "socioUman": true,
+ "descriere": "Cum funcționează economia și cum se pornește o afacere: consumator, producător, piețe, bani, muncă și antreprenoriat.",
+ "capitole": [
+  {
+   "id": "eco13-c1",
+   "titlu": "Economia și consumatorul",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "eco13-01",
+     "titlu": "Nevoi, resurse, alegere",
+     "rezumat": "Economia studiază modul în care oamenii folosesc resurse limitate pentru a satisface nevoi practic nelimitate. Nevoile sunt ierarhizate (fiziologice, de securitate, sociale, de stimă, de autorealizare), regenerabile și în continuă creștere; resursele sunt rare, adică insuficiente în raport cu nevoile. Raritatea nu înseamnă lipsă absolută, ci insuficiență relativă — aurul e rar, dar și apa potabilă e rară acolo unde cererea o depășește. Din raritate decurge alegerea, iar din alegere decurge costul de oportunitate: valoarea celei mai bune alternative la care renunți. Dacă folosești o oră pentru a învăța, costul de oportunitate nu este „zero”, ci ceea ce ai fi obținut cel mai bine din acea oră. Acest concept explică de ce nicio decizie economică nu e gratuită. Frontiera posibilităților de producție reprezintă grafic combinațiile maxime de două bunuri pe care le poate produce o economie cu resursele date. Punctele de pe curbă înseamnă utilizare deplină, cele din interior — resurse nefolosite, cele din exterior — imposibile pe termen scurt. Deplasarea curbei spre exterior înseamnă creștere economică.",
+     "ideiCheie": [
+      "Economia studiază folosirea resurselor rare pentru nevoi nelimitate.",
+      "Raritatea este insuficiență relativă, nu lipsă absolută.",
+      "Costul de oportunitate = valoarea celei mai bune alternative la care renunți.",
+      "Frontiera posibilităților de producție arată limita utilizării depline a resurselor."
+     ],
+     "termeni": [
+      {
+       "t": "raritate",
+       "d": "insuficiența resurselor în raport cu nevoile de satisfăcut"
+      },
+      {
+       "t": "cost de oportunitate",
+       "d": "valoarea celei mai bune alternative sacrificate printr-o alegere"
+      },
+      {
+       "t": "frontiera posibilităților de producție",
+       "d": "curba combinațiilor maxime de bunuri producibile cu resursele existente"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este costul de oportunitate?",
+       "v": "Valoarea celei mai bune alternative la care renunți printr-o alegere."
+      },
+      {
+       "f": "Ce înseamnă raritatea resurselor?",
+       "v": "Insuficiența lor relativă față de nevoi, nu lipsa absolută."
+      },
+      {
+       "f": "Ce arată un punct din interiorul frontierei posibilităților de producție?",
+       "v": "Că resursele nu sunt utilizate deplin."
+      },
+      {
+       "f": "Ce reprezintă deplasarea spre exterior a frontierei?",
+       "v": "Creșterea economică — sporirea capacității de producție."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Costul de oportunitate al unei ore de învățat este:",
+       "optiuni": [
+        "valoarea celei mai bune alternative sacrificate",
+        "suma cheltuită pe manuale",
+        "zero, dacă nu plătești nimic",
+        "nota obținută la examen"
+       ],
+       "corect": 0,
+       "explicatie": "Orice alegere sacrifică o alternativă; valoarea ei este costul real."
+      },
+      {
+       "intrebare": "Un punct situat în afara frontierei posibilităților de producție reprezintă o combinație:",
+       "optiuni": [
+        "imposibilă cu resursele actuale",
+        "eficientă",
+        "ineficientă",
+        "de echilibru"
+       ],
+       "corect": 0,
+       "explicatie": "Ea devine posibilă doar prin creștere economică sau progres tehnic."
+      },
+      {
+       "intrebare": "Raritatea, în sens economic, înseamnă:",
+       "optiuni": [
+        "insuficiența resurselor în raport cu nevoile",
+        "lipsa totală a unui bun",
+        "prețul ridicat",
+        "existența unui singur producător"
+       ],
+       "corect": 0,
+       "explicatie": "Apa potabilă este rară acolo unde cererea depășește disponibilul."
+      },
+      {
+       "intrebare": "Nevoile umane se caracterizează prin faptul că sunt:",
+       "optiuni": [
+        "ierarhizabile, regenerabile și în continuă creștere",
+        "limitate și fixe",
+        "identice la toți oamenii",
+        "independente de venit"
+       ],
+       "corect": 0,
+       "explicatie": "Tocmai creșterea lor face ca raritatea să fie o problemă permanentă."
+      }
+     ]
+    },
+    {
+     "id": "eco13-02",
+     "titlu": "Consumatorul și cererea",
+     "rezumat": "Consumatorul rațional urmărește maximizarea satisfacției (utilității) în limita bugetului disponibil. Utilitatea totală crește pe măsură ce consumi mai mult dintr-un bun, dar utilitatea marginală — satisfacția adusă de ultima unitate consumată — scade. Legea utilității marginale descrescânde explică de ce al treilea pahar de apă valorează pentru tine mai puțin decât primul și, prin aceasta, de ce cererea scade când prețul crește. Cererea este cantitatea dintr-un bun pe care cumpărătorii sunt dispuși și capabili să o achiziționeze, la fiecare nivel de preț, într-o perioadă dată. Legea cererii: la creșterea prețului, cantitatea cerută scade, celelalte condiții rămânând constante. Modificarea prețului produce o deplasare pe curba cererii; modificarea altui factor (venit, preferințe, prețul bunurilor substituibile sau complementare, numărul cumpărătorilor, așteptările) deplasează întreaga curbă. Elasticitatea cererii față de preț măsoară cât de mult reacționează cantitatea cerută la o variație de preț. Cerere elastică (coeficient supraunitar): reacție puternică — bunuri de lux, cu substituenți. Cerere inelastică (subunitar): reacție slabă — bunuri de strictă necesitate, medicamente vitale. Consecință practică: pentru un bun cu cerere inelastică, o creștere de preț mărește încasările totale.",
+     "ideiCheie": [
+      "Utilitatea marginală scade pe măsură ce consumul crește.",
+      "Legea cererii: preț mai mare, cantitate cerută mai mică (ceteris paribus).",
+      "Prețul mișcă punctul pe curbă; ceilalți factori deplasează curba.",
+      "Cerere elastică = reacție puternică la preț; inelastică = reacție slabă."
+     ],
+     "termeni": [
+      {
+       "t": "utilitate marginală",
+       "d": "satisfacția suplimentară adusă de ultima unitate consumată dintr-un bun"
+      },
+      {
+       "t": "elasticitatea cererii",
+       "d": "măsura în care cantitatea cerută reacționează la variația prețului"
+      },
+      {
+       "t": "bunuri substituibile",
+       "d": "bunuri care satisfac aceeași nevoie și pot fi înlocuite unul cu altul"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce spune legea utilității marginale descrescânde?",
+       "v": "Că satisfacția adusă de fiecare unitate suplimentară consumată scade."
+      },
+      {
+       "f": "Ce deplasează întreaga curbă a cererii?",
+       "v": "Modificarea venitului, a preferințelor, a prețurilor bunurilor legate, a numărului de cumpărători sau a așteptărilor."
+      },
+      {
+       "f": "Ce înseamnă cerere inelastică?",
+       "v": "Că variația prețului produce o modificare mică a cantității cerute."
+      },
+      {
+       "f": "Ce se întâmplă cu încasările la creșterea prețului unui bun cu cerere inelastică?",
+       "v": "Cresc, fiindcă scăderea cantității e mai mică decât creșterea prețului."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Creșterea prețului unui bun, celelalte condiții rămânând constante, produce:",
+       "optiuni": [
+        "o deplasare pe curba cererii, spre o cantitate mai mică",
+        "deplasarea întregii curbe a cererii spre dreapta",
+        "deplasarea curbei ofertei",
+        "o creștere a cererii"
+       ],
+       "corect": 0,
+       "explicatie": "Doar factorii diferiți de preț deplasează curba însăși."
+      },
+      {
+       "intrebare": "Cererea pentru medicamente vitale este, de regulă:",
+       "optiuni": [
+        "inelastică",
+        "elastică",
+        "perfect elastică",
+        "unitară"
+       ],
+       "corect": 0,
+       "explicatie": "Nu au substituenți, iar consumul nu poate fi amânat."
+      },
+      {
+       "intrebare": "Creșterea venitului consumatorilor determină, pentru un bun normal:",
+       "optiuni": [
+        "deplasarea curbei cererii spre dreapta",
+        "deplasarea pe aceeași curbă",
+        "scăderea cererii",
+        "creșterea ofertei"
+       ],
+       "corect": 0,
+       "explicatie": "Venitul este un factor extra-preț, deci mișcă întreaga curbă."
+      },
+      {
+       "intrebare": "Utilitatea marginală a celui de-al cincilea pahar de apă băut consecutiv este, față de primul:",
+       "optiuni": [
+        "mai mică",
+        "mai mare",
+        "egală",
+        "negativă în mod necesar"
+       ],
+       "corect": 0,
+       "explicatie": "Este exact conținutul legii utilității marginale descrescânde."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "eco13-c2",
+   "titlu": "Producătorul",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "eco13-03",
+     "titlu": "Factorii de producție și combinarea lor",
+     "rezumat": "Factorii de producție clasici sunt munca (efortul fizic și intelectual al oamenilor), natura sau pământul (resursele naturale) și capitalul (bunurile produse și folosite pentru a produce alte bunuri). Economia modernă adaugă doi factori: abilitatea antreprenorială (capacitatea de a combina ceilalți factori și de a-și asuma riscul) și informația sau cunoașterea. Capitalul se împarte în capital fix (clădiri, utilaje — participă la mai multe cicluri de producție și se consumă treptat, prin amortizare) și capital circulant (materii prime, energie — se consumă integral într-un singur ciclu). Amortizarea este recuperarea treptată, în costuri, a valorii capitalului fix. Combinarea factorilor urmărește eficiența: obținerea rezultatului maxim cu un consum dat de resurse. Productivitatea măsoară randamentul: productivitatea muncii = producția obținută raportată la munca folosită. Legea randamentelor marginale descrescânde: dacă mărești un singur factor, ceilalți rămânând constanți, sporul de producție adus de fiecare unitate suplimentară scade după un anumit prag.",
+     "ideiCheie": [
+      "Factori de producție: munca, natura, capitalul, abilitatea antreprenorială, informația.",
+      "Capital fix (amortizare treptată) vs. capital circulant (consumat într-un ciclu).",
+      "Productivitatea = rezultat raportat la factorul consumat.",
+      "Legea randamentelor marginale descrescânde limitează creșterea unui singur factor."
+     ],
+     "termeni": [
+      {
+       "t": "capital fix",
+       "d": "bunuri de capital care participă la mai multe cicluri de producție și se consumă treptat"
+      },
+      {
+       "t": "amortizare",
+       "d": "recuperarea treptată, prin costuri, a valorii capitalului fix"
+      },
+      {
+       "t": "productivitatea muncii",
+       "d": "raportul dintre producția obținută și munca folosită pentru a o obține"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt factorii de producție?",
+       "v": "Munca, natura, capitalul, abilitatea antreprenorială și informația."
+      },
+      {
+       "f": "Ce deosebește capitalul fix de cel circulant?",
+       "v": "Fixul participă la mai multe cicluri și se amortizează; circulantul se consumă integral într-un ciclu."
+      },
+      {
+       "f": "Ce este amortizarea?",
+       "v": "Recuperarea treptată, prin includerea în costuri, a valorii capitalului fix."
+      },
+      {
+       "f": "Ce spune legea randamentelor marginale descrescânde?",
+       "v": "Că sporul de producție adus de unități suplimentare dintr-un singur factor scade după un anumit prag."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Utilajele dintr-o fabrică fac parte din:",
+       "optiuni": [
+        "capitalul fix",
+        "capitalul circulant",
+        "factorul natură",
+        "capitalul uman"
+       ],
+       "corect": 0,
+       "explicatie": "Ele participă la mai multe cicluri de producție și se amortizează."
+      },
+      {
+       "intrebare": "Productivitatea muncii se calculează ca raport între:",
+       "optiuni": [
+        "producția obținută și munca folosită",
+        "profit și cifra de afaceri",
+        "capital fix și capital circulant",
+        "venit și cost"
+       ],
+       "corect": 0,
+       "explicatie": "Este un indicator de eficiență a factorului muncă."
+      },
+      {
+       "intrebare": "Legea randamentelor marginale descrescânde se manifestă atunci când:",
+       "optiuni": [
+        "crește un singur factor, ceilalți rămânând constanți",
+        "cresc toți factorii proporțional",
+        "scade cererea",
+        "crește prețul"
+       ],
+       "corect": 0,
+       "explicatie": "Peste un prag, fiecare unitate suplimentară aduce un spor tot mai mic."
+      },
+      {
+       "intrebare": "Abilitatea antreprenorială este considerată factor de producție deoarece:",
+       "optiuni": [
+        "combină ceilalți factori și își asumă riscul",
+        "este cea mai ieftină resursă",
+        "înlocuiește capitalul",
+        "nu poate fi remunerată"
+       ],
+       "corect": 0,
+       "explicatie": "Remunerarea ei este profitul."
+      }
+     ]
+    },
+    {
+     "id": "eco13-04",
+     "titlu": "Costuri, venituri, profit",
+     "rezumat": "Costul de producție este expresia bănească a consumului de factori. Costurile fixe nu depind de volumul producției pe termen scurt (chirie, amortizare, salariile personalului administrativ); costurile variabile cresc odată cu producția (materii prime, energie, salarii directe). Costul total este suma lor. Costul mediu (unitar) se obține împărțind costul total la cantitate; costul marginal este sporul de cost adus de ultima unitate produsă. Veniturile: cifra de afaceri (încasările totale) se obține înmulțind prețul cu cantitatea vândută. Profitul este diferența dintre venituri și costuri. Profitul contabil scade din venituri costurile explicite (plăți efective); profitul economic scade și costurile implicite (costul de oportunitate al resurselor proprii) — de aceea o afacere poate fi profitabilă contabil și totuși neatrăgătoare economic. Pragul de rentabilitate este nivelul producției la care veniturile acoperă exact costurile, iar profitul este zero. Sub el se înregistrează pierdere, peste el, profit. Calculul lui este primul instrument al oricărui plan de afaceri serios: arată câte bucăți trebuie vândute lunar ca afacerea să reziste.",
+     "ideiCheie": [
+      "Costuri fixe (independente de producție) și variabile (cresc cu producția).",
+      "Costul marginal = sporul de cost adus de ultima unitate produsă.",
+      "Profitul contabil ignoră costurile implicite; profitul economic le include.",
+      "Pragul de rentabilitate: nivelul producției la care profitul este zero."
+     ],
+     "termeni": [
+      {
+       "t": "cost marginal",
+       "d": "creșterea costului total determinată de producerea unei unități suplimentare"
+      },
+      {
+       "t": "profit economic",
+       "d": "diferența dintre venituri și costurile explicite plus cele implicite"
+      },
+      {
+       "t": "prag de rentabilitate",
+       "d": "nivelul producției la care veniturile totale egalează costurile totale"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce sunt costurile fixe?",
+       "v": "Costurile care nu depind, pe termen scurt, de volumul producției."
+      },
+      {
+       "f": "Cum se calculează costul mediu?",
+       "v": "Împărțind costul total la cantitatea produsă."
+      },
+      {
+       "f": "Care e deosebirea dintre profitul contabil și cel economic?",
+       "v": "Cel economic scade și costurile implicite, adică costul de oportunitate al resurselor proprii."
+      },
+      {
+       "f": "Ce este pragul de rentabilitate?",
+       "v": "Nivelul producției la care veniturile acoperă exact costurile, iar profitul este zero."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Chiria spațiului de producție este, pe termen scurt:",
+       "optiuni": [
+        "un cost fix",
+        "un cost variabil",
+        "un cost marginal",
+        "un cost implicit"
+       ],
+       "corect": 0,
+       "explicatie": "Nu se modifică odată cu volumul producției."
+      },
+      {
+       "intrebare": "Profitul economic se deosebește de cel contabil prin faptul că:",
+       "optiuni": [
+        "include și costurile implicite",
+        "ignoră costurile variabile",
+        "se calculează înainte de impozitare",
+        "este întotdeauna mai mare"
+       ],
+       "corect": 0,
+       "explicatie": "Costul de oportunitate al capitalului propriu este un cost implicit real."
+      },
+      {
+       "intrebare": "La pragul de rentabilitate, firma:",
+       "optiuni": [
+        "nu obține profit, dar nici nu pierde",
+        "obține profit maxim",
+        "are costuri zero",
+        "are venituri zero"
+       ],
+       "corect": 0,
+       "explicatie": "Veniturile totale egalează exact costurile totale."
+      },
+      {
+       "intrebare": "Costul marginal reprezintă:",
+       "optiuni": [
+        "creșterea costului total la producerea unei unități suplimentare",
+        "costul total împărțit la cantitate",
+        "costul fix pe unitate",
+        "costul minim posibil"
+       ],
+       "corect": 0,
+       "explicatie": "Costul mediu este cel obținut prin împărțire la cantitate."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "eco13-c3",
+   "titlu": "Piața",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "eco13-05",
+     "titlu": "Oferta și echilibrul pieței",
+     "rezumat": "Oferta este cantitatea dintr-un bun pe care producătorii sunt dispuși să o vândă la fiecare nivel de preț, într-o perioadă dată. Legea ofertei: la creșterea prețului, cantitatea oferită crește, celelalte condiții rămânând constante. Factorii care deplasează curba ofertei: costul factorilor, tehnologia, numărul producătorilor, taxele și subvențiile, așteptările privind prețul. Echilibrul pieței se realizează la prețul la care cantitatea cerută este egală cu cantitatea oferită. Peste prețul de echilibru apare excedentul (surplus de marfă), care presează prețul în jos; sub el apare deficitul (penurie), care presează prețul în sus. Mecanismul prețurilor funcționează astfel ca un sistem de semnale: prețul ridicat semnalează raritate și atrage resurse, prețul scăzut semnalează abundență. Intervențiile administrative asupra prețului au efecte previzibile. Prețul maxim (plafon), fixat sub echilibru, produce deficit, cozi și piață neagră. Prețul minim (prag), fixat peste echilibru, produce excedent — cazul clasic fiind excedentele agricole subvenționate. Ambele arată că prețul nu poate fi decretat fără consecințe asupra cantităților.",
+     "ideiCheie": [
+      "Legea ofertei: preț mai mare, cantitate oferită mai mare (ceteris paribus).",
+      "Echilibrul: cantitatea cerută = cantitatea oferită.",
+      "Peste echilibru apare excedent; sub echilibru, deficit.",
+      "Prețul maxim produce deficit; prețul minim produce excedent."
+     ],
+     "termeni": [
+      {
+       "t": "preț de echilibru",
+       "d": "prețul la care cantitatea cerută este egală cu cantitatea oferită"
+      },
+      {
+       "t": "excedent",
+       "d": "situația în care cantitatea oferită depășește cantitatea cerută"
+      },
+      {
+       "t": "preț plafon",
+       "d": "preț maxim stabilit administrativ, sub nivelul de echilibru"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Când se află piața în echilibru?",
+       "v": "Când cantitatea cerută este egală cu cantitatea oferită."
+      },
+      {
+       "f": "Ce efect are un preț maxim fixat sub echilibru?",
+       "v": "Deficit, cozi și apariția pieței negre."
+      },
+      {
+       "f": "Ce factori deplasează curba ofertei?",
+       "v": "Costul factorilor, tehnologia, numărul producătorilor, taxele și subvențiile, așteptările."
+      },
+      {
+       "f": "Ce semnalează un preț ridicat?",
+       "v": "Raritatea bunului și atrage resurse spre producerea lui."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Dacă prețul se află peste nivelul de echilibru, pe piață apare:",
+       "optiuni": [
+        "excedent",
+        "deficit",
+        "echilibru",
+        "penurie"
+       ],
+       "corect": 0,
+       "explicatie": "Surplusul nevândut presează prețul în jos."
+      },
+      {
+       "intrebare": "Un preț plafon fixat sub prețul de echilibru produce, de regulă:",
+       "optiuni": [
+        "deficit și piață neagră",
+        "excedent",
+        "creșterea ofertei",
+        "scăderea cererii"
+       ],
+       "corect": 0,
+       "explicatie": "Cantitatea cerută crește, iar cea oferită scade."
+      },
+      {
+       "intrebare": "Îmbunătățirea tehnologiei de fabricație determină:",
+       "optiuni": [
+        "deplasarea curbei ofertei spre dreapta",
+        "deplasarea pe aceeași curbă a ofertei",
+        "scăderea ofertei",
+        "creșterea cererii"
+       ],
+       "corect": 0,
+       "explicatie": "Costurile scad, deci la fiecare preț se poate oferi mai mult."
+      },
+      {
+       "intrebare": "Prețul de echilibru se modifică atunci când:",
+       "optiuni": [
+        "se deplasează curba cererii sau a ofertei",
+        "crește doar cantitatea vândută",
+        "se schimbă unitatea de măsură",
+        "crește numărul de magazine, fără alte efecte"
+       ],
+       "corect": 0,
+       "explicatie": "Echilibrul este intersecția celor două curbe."
+      }
+     ]
+    },
+    {
+     "id": "eco13-06",
+     "titlu": "Concurența și formele pieței",
+     "rezumat": "Concurența este confruntarea dintre agenții economici pentru resurse, clienți și profit. Ea împinge la scăderea costurilor, la inovație și la scăderea prețurilor. Concurența loială respectă regulile pieței; cea neloială recurge la denigrare, confuzie de mărci, dumping abuziv sau furt de informații și este sancționată legal. Concurența perfectă este un model teoretic cu patru condiții: atomicitate (mulți vânzători și cumpărători, niciunul nu influențează prețul), omogenitatea produsului, transparența informației și intrarea și ieșirea liberă de pe piață. Niciun caz real nu le îndeplinește complet, dar modelul servește ca reper. Formele reale: monopolul (un singur ofertant, care poate fixa prețul sau cantitatea, nu ambele), oligopolul (câțiva ofertanți mari, cu interdependență strategică și tentația înțelegerilor de tip cartel), concurența monopolistică (mulți ofertanți, produse diferențiate prin marcă și calitate — cazul cel mai frecvent în comerțul cu amănuntul). Statul intervine prin autorități de concurență, care interzic cartelurile și abuzul de poziție dominantă.",
+     "ideiCheie": [
+      "Concurența perfectă: atomicitate, omogenitate, transparență, intrare liberă.",
+      "Monopolul poate fixa prețul sau cantitatea, nu pe amândouă simultan.",
+      "Oligopolul presupune interdependență strategică și risc de cartel.",
+      "Concurența monopolistică: mulți ofertanți, produse diferențiate."
+     ],
+     "termeni": [
+      {
+       "t": "atomicitate",
+       "d": "situația în care există atât de mulți agenți încât niciunul nu poate influența prețul"
+      },
+      {
+       "t": "oligopol",
+       "d": "piață dominată de un număr mic de ofertanți, interdependenți strategic"
+      },
+      {
+       "t": "cartel",
+       "d": "înțelegere între concurenți privind prețurile sau împărțirea pieței, interzisă de lege"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt condițiile concurenței perfecte?",
+       "v": "Atomicitate, omogenitatea produsului, transparența informației, intrare și ieșire liberă."
+      },
+      {
+       "f": "Ce poate fixa un monopol?",
+       "v": "Prețul sau cantitatea, nu ambele simultan."
+      },
+      {
+       "f": "Ce este un cartel?",
+       "v": "O înțelegere între concurenți asupra prețurilor sau a împărțirii pieței, interzisă de lege."
+      },
+      {
+       "f": "Ce caracterizează concurența monopolistică?",
+       "v": "Mulți ofertanți care vând produse diferențiate prin marcă și calitate."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Atomicitatea pieței înseamnă că:",
+       "optiuni": [
+        "niciun agent nu are putere de a influența prețul",
+        "produsele sunt identice",
+        "informația este completă",
+        "intrarea pe piață este liberă"
+       ],
+       "corect": 0,
+       "explicatie": "Celelalte variante descriu tot condiții ale concurenței perfecte, dar diferite."
+      },
+      {
+       "intrebare": "O piață cu puțini ofertanți mari, interdependenți strategic, este:",
+       "optiuni": [
+        "un oligopol",
+        "un monopol",
+        "concurență perfectă",
+        "concurență monopolistică"
+       ],
+       "corect": 0,
+       "explicatie": "De aici și tentația permanentă a înțelegerilor de tip cartel."
+      },
+      {
+       "intrebare": "Comerțul cu amănuntul cu produse de marcă se apropie cel mai mult de:",
+       "optiuni": [
+        "concurența monopolistică",
+        "monopol",
+        "oligopol",
+        "concurență perfectă"
+       ],
+       "corect": 0,
+       "explicatie": "Sunt mulți ofertanți, dar produsele sunt diferențiate."
+      },
+      {
+       "intrebare": "Vânzarea sub costul de producție pentru a elimina concurenții se numește:",
+       "optiuni": [
+        "dumping abuziv și constituie concurență neloială",
+        "economie de scară",
+        "diferențiere de produs",
+        "practică de echilibru"
+       ],
+       "corect": 0,
+       "explicatie": "Este sancționată de autoritățile de concurență."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "eco13-c4",
+   "titlu": "Piețe particulare",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "eco13-07",
+     "titlu": "Banii și piața monetară",
+     "rezumat": "Banii sunt un bun general acceptat ca mijloc de schimb. Funcțiile lor: mijloc de schimb (elimină nevoia dublei coincidențe a dorințelor din troc), etalon al valorii (permite compararea bunurilor), mijloc de plată, rezervă a valorii (transferă putere de cumpărare în viitor) și, pentru monedele forte, mijloc de plată internațional. Masa monetară cuprinde numerarul și depozitele; agregatele M1, M2, M3 o clasifică după lichiditate. Inflația este creșterea generalizată și durabilă a prețurilor, care erodează puterea de cumpărare. Cauzele: inflația prin cerere (cerere agregată peste capacitatea de producție), inflația prin costuri (creșterea prețurilor la materii prime sau salarii) și inflația monetară (emisiune excesivă). Deflația, scăderea generalizată a prețurilor, pare avantajoasă, dar amână consumul și adâncește recesiunea. Banca centrală (în România, Banca Națională) are ca obiectiv principal stabilitatea prețurilor. Instrumentele ei: rata dobânzii de politică monetară, rezervele minime obligatorii, operațiunile pe piața deschisă. Băncile comerciale atrag depozite și acordă credite; prin acest mecanism ele creează, în limitele rezervelor, monedă scripturală.",
+     "ideiCheie": [
+      "Funcțiile banilor: mijloc de schimb, etalon al valorii, mijloc de plată, rezervă a valorii.",
+      "Inflația poate fi prin cerere, prin costuri sau monetară.",
+      "Banca centrală urmărește stabilitatea prețurilor prin dobândă, rezerve minime, operațiuni pe piața deschisă.",
+      "Băncile comerciale creează monedă scripturală prin creditare."
+     ],
+     "termeni": [
+      {
+       "t": "inflație",
+       "d": "creșterea generalizată și durabilă a nivelului prețurilor"
+      },
+      {
+       "t": "masă monetară",
+       "d": "totalitatea mijloacelor de plată existente în economie la un moment dat"
+      },
+      {
+       "t": "rată a dobânzii de politică monetară",
+       "d": "dobânda de referință prin care banca centrală influențează costul creditului"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt funcțiile banilor?",
+       "v": "Mijloc de schimb, etalon al valorii, mijloc de plată și rezervă a valorii."
+      },
+      {
+       "f": "Ce este inflația?",
+       "v": "Creșterea generalizată și durabilă a prețurilor, care erodează puterea de cumpărare."
+      },
+      {
+       "f": "Care este obiectivul principal al băncii centrale?",
+       "v": "Stabilitatea prețurilor."
+      },
+      {
+       "f": "De ce este periculoasă deflația?",
+       "v": "Pentru că amână consumul și investițiile, adâncind recesiunea."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Funcția banilor care permite transferul puterii de cumpărare în viitor este:",
+       "optiuni": [
+        "rezerva valorii",
+        "mijloc de schimb",
+        "etalon al valorii",
+        "mijloc de plată"
+       ],
+       "corect": 0,
+       "explicatie": "Inflația ridicată slăbește tocmai această funcție."
+      },
+      {
+       "intrebare": "Creșterea prețurilor cauzată de scumpirea materiilor prime este inflație:",
+       "optiuni": [
+        "prin costuri",
+        "prin cerere",
+        "monetară",
+        "importată prin curs"
+       ],
+       "corect": 0,
+       "explicatie": "Cererea rămâne aceeași; costurile de producție împing prețurile în sus."
+      },
+      {
+       "intrebare": "Principalul instrument de politică monetară al băncii centrale este:",
+       "optiuni": [
+        "rata dobânzii de referință",
+        "nivelul salariului minim",
+        "cota de impozit pe profit",
+        "cursul obligatoriu de schimb"
+       ],
+       "corect": 0,
+       "explicatie": "Ea influențează costul creditului în toată economia."
+      },
+      {
+       "intrebare": "Deflația este considerată periculoasă deoarece:",
+       "optiuni": [
+        "amână consumul și investițiile, adâncind recesiunea",
+        "crește puterea de cumpărare",
+        "reduce datoriile",
+        "stimulează exporturile"
+       ],
+       "corect": 0,
+       "explicatie": "Cumpărătorii așteaptă prețuri și mai mici, iar cererea scade suplimentar."
+      }
+     ]
+    },
+    {
+     "id": "eco13-08",
+     "titlu": "Piața muncii și șomajul",
+     "rezumat": "Pe piața muncii, oferta vine de la persoanele apte de muncă, iar cererea de la angajatori. Prețul acestui factor este salariul: nominal (suma încasată) și real (puterea de cumpărare efectivă a acelei sume). Salariul real scade atunci când prețurile cresc mai repede decât salariul nominal. Populația activă cuprinde ocupații și șomerii. Șomerul, în definiția internațională, este persoana aptă de muncă, fără loc de muncă, disponibilă să înceapă lucrul și care caută activ un loc de muncă. Rata șomajului = șomeri raportați la populația activă. Formele șomajului: fricțional (tranziția normală între locuri de muncă), structural (necorelarea calificărilor cu cererea, cel mai greu de rezolvat), ciclic (scăderea activității economice), sezonier. Măsurile împotriva șomajului: calificarea și recalificarea, informarea și medierea pe piața muncii, stimularea investițiilor, mobilitatea geografică, sprijinul pentru antreprenoriat. Salariul minim protejează veniturile mici, dar, fixat mult peste productivitatea reală a muncii slab calificate, poate reduce numărul locurilor de muncă pentru exact acea categorie.",
+     "ideiCheie": [
+      "Salariul nominal e suma încasată; salariul real e puterea de cumpărare a ei.",
+      "Șomer = apt de muncă, fără loc de muncă, disponibil și în căutare activă.",
+      "Forme: fricțional, structural, ciclic, sezonier.",
+      "Șomajul structural este cel mai greu de redus, fiindcă cere recalificare."
+     ],
+     "termeni": [
+      {
+       "t": "salariu real",
+       "d": "puterea de cumpărare efectivă a salariului nominal"
+      },
+      {
+       "t": "șomaj structural",
+       "d": "șomaj provocat de necorespondența dintre calificările existente și cererea de muncă"
+      },
+      {
+       "t": "populație activă",
+       "d": "totalitatea persoanelor ocupate și a șomerilor"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cine este considerat șomer?",
+       "v": "Persoana aptă de muncă, fără loc de muncă, disponibilă să înceapă lucrul și care caută activ."
+      },
+      {
+       "f": "Cum se calculează rata șomajului?",
+       "v": "Numărul șomerilor raportat la populația activă."
+      },
+      {
+       "f": "Care formă de șomaj este cea mai greu de redus?",
+       "v": "Cel structural, fiindcă cere recalificare și timp."
+      },
+      {
+       "f": "Când scade salariul real?",
+       "v": "Când prețurile cresc mai repede decât salariul nominal."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Un inginer rămas fără loc de muncă fiindcă tehnologia pe care o stăpânea a dispărut este în șomaj:",
+       "optiuni": [
+        "structural",
+        "fricțional",
+        "ciclic",
+        "sezonier"
+       ],
+       "corect": 0,
+       "explicatie": "Calificarea lui nu mai corespunde cererii de pe piață."
+      },
+      {
+       "intrebare": "Salariul real scade atunci când:",
+       "optiuni": [
+        "prețurile cresc mai repede decât salariul nominal",
+        "salariul nominal crește",
+        "scade rata șomajului",
+        "crește productivitatea"
+       ],
+       "corect": 0,
+       "explicatie": "Contează puterea de cumpărare, nu cifra înscrisă în contract."
+      },
+      {
+       "intrebare": "Rata șomajului se calculează raportând numărul șomerilor la:",
+       "optiuni": [
+        "populația activă",
+        "populația totală",
+        "populația ocupată",
+        "populația în vârstă de muncă"
+       ],
+       "corect": 0,
+       "explicatie": "Populația activă cuprinde ocupații și șomerii."
+      },
+      {
+       "intrebare": "Un salariu minim fixat mult peste productivitatea muncii slab calificate poate:",
+       "optiuni": [
+        "reduce numărul locurilor de muncă pentru acea categorie",
+        "crește automat ocuparea",
+        "elimina șomajul structural",
+        "reduce inflația"
+       ],
+       "corect": 0,
+       "explicatie": "Angajatorul nu poate plăti durabil mai mult decât produce postul respectiv."
+      }
+     ]
+    },
+    {
+     "id": "eco13-09",
+     "titlu": "Economia deschisă: comerț, curs de schimb, integrare",
+     "rezumat": "Comerțul internațional se explică prin avantajul comparativ, formulat de David Ricardo: o țară câștigă specializându-se în producția la care are costul de oportunitate cel mai mic, chiar dacă e mai puțin eficientă la absolut orice. Această idee explică de ce schimbul e reciproc avantajos și de ce protecționismul, deși protejează un sector, scumpește consumul pentru toți ceilalți. Balanța comercială compară exporturile cu importurile; balanța de plăți cuprinde toate fluxurile externe. Cursul de schimb este prețul unei monede exprimat în alta. Deprecierea monedei naționale ieftinește exporturile și scumpește importurile; aprecierea face invers. Regimul de curs poate fi fix, flotant sau administrat. Integrarea economică are trepte succesive: zona de liber schimb (fără taxe vamale între membri), uniunea vamală (plus tarif extern comun), piața comună (libera circulație a mărfurilor, serviciilor, capitalurilor și persoanelor), uniunea economică și monetară (politici comune și monedă unică). Uniunea Europeană, din care România face parte din 2007, a parcurs toate aceste trepte; zona euro reprezintă ultima dintre ele.",
+     "ideiCheie": [
+      "Avantajul comparativ (Ricardo) explică specializarea și câștigul reciproc din comerț.",
+      "Deprecierea ieftinește exporturile și scumpește importurile.",
+      "Trepte de integrare: zonă de liber schimb, uniune vamală, piață comună, uniune economică și monetară.",
+      "România este membră a Uniunii Europene din 2007."
+     ],
+     "termeni": [
+      {
+       "t": "avantaj comparativ",
+       "d": "capacitatea de a produce un bun cu un cost de oportunitate mai mic decât alt partener"
+      },
+      {
+       "t": "depreciere",
+       "d": "scăderea valorii monedei naționale față de o monedă străină"
+      },
+      {
+       "t": "uniune vamală",
+       "d": "formă de integrare cu liber schimb intern și tarif vamal extern comun"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce explică avantajul comparativ?",
+       "v": "De ce specializarea și schimbul sunt reciproc avantajoase, chiar între parteneri inegali ca eficiență."
+      },
+      {
+       "f": "Ce efect are deprecierea monedei naționale?",
+       "v": "Ieftinește exporturile și scumpește importurile."
+      },
+      {
+       "f": "Care sunt treptele integrării economice?",
+       "v": "Zona de liber schimb, uniunea vamală, piața comună, uniunea economică și monetară."
+      },
+      {
+       "f": "Din ce an este România membră a Uniunii Europene?",
+       "v": "Din 2007."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Teoria avantajului comparativ aparține lui:",
+       "optiuni": [
+        "David Ricardo",
+        "Adam Smith",
+        "John Maynard Keynes",
+        "Milton Friedman"
+       ],
+       "corect": 0,
+       "explicatie": "Smith formulase avantajul absolut; Ricardo a arătat că specializarea rămâne avantajoasă și fără el."
+      },
+      {
+       "intrebare": "Deprecierea monedei naționale are ca efect direct:",
+       "optiuni": [
+        "ieftinirea exporturilor și scumpirea importurilor",
+        "ieftinirea importurilor",
+        "scăderea prețurilor interne",
+        "creșterea automată a rezervelor valutare"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea deprecierea poate stimula temporar exportul."
+      },
+      {
+       "intrebare": "Treapta de integrare care adaugă la liberul schimb un tarif vamal extern comun este:",
+       "optiuni": [
+        "uniunea vamală",
+        "zona de liber schimb",
+        "piața comună",
+        "uniunea monetară"
+       ],
+       "corect": 0,
+       "explicatie": "Piața comună adaugă libera circulație a factorilor."
+      },
+      {
+       "intrebare": "Protecționismul vamal, chiar când protejează un sector intern:",
+       "optiuni": [
+        "scumpește consumul pentru restul economiei",
+        "crește bunăstarea generală",
+        "elimină șomajul",
+        "reduce prețurile"
+       ],
+       "corect": 0,
+       "explicatie": "Costul protecției e plătit difuz, de toți consumatorii."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "eco13-c5",
+   "titlu": "Educație antreprenorială",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "eco13-10",
+     "titlu": "Întreprinzătorul și ideea de afacere",
+     "rezumat": "Întreprinzătorul este persoana care identifică o oportunitate, mobilizează resurse și își asumă riscul unei afaceri, în schimbul profitului. Trăsăturile asociate constant cu reușita: asumarea calculată a riscului, perseverența, capacitatea de a învăța din eșec, orientarea spre client, disciplina financiară. Joseph Schumpeter a numit rolul lui economic „distrugere creatoare”: inovația desființează piețe vechi și creează altele noi. Ideea de afacere pornește de la o problemă reală a unui client identificabil, nu de la un produs pe care întreprinzătorul îl găsește interesant. Validarea ideii se face prin cercetare de piață: cine e clientul, cât de mare e segmentul, cât ar plăti, ce alternative are deja. Analiza SWOT sistematizează punctele tari, punctele slabe, oportunitățile și amenințările; primele două sunt interne, ultimele două, externe. Formele juridice uzuale în România: persoana fizică autorizată (PFA), întreprinderea individuală, societatea cu răspundere limitată (SRL) — cea mai frecventă, cu răspundere limitată la capitalul social — și societatea pe acțiuni. Alegerea formei ține de mărimea afacerii, de riscul asumat și de regimul fiscal.",
+     "ideiCheie": [
+      "Întreprinzătorul identifică oportunități, mobilizează resurse și își asumă riscul.",
+      "Schumpeter: inovația antreprenorială este „distrugere creatoare”.",
+      "Ideea de afacere pornește de la problema unui client, nu de la produs.",
+      "SWOT: puncte tari și slabe (interne), oportunități și amenințări (externe)."
+     ],
+     "termeni": [
+      {
+       "t": "distrugere creatoare",
+       "d": "procesul prin care inovația desființează piețe vechi și creează altele noi"
+      },
+      {
+       "t": "analiză SWOT",
+       "d": "instrument de diagnostic care compară punctele tari și slabe interne cu oportunitățile și amenințările externe"
+      },
+      {
+       "t": "SRL",
+       "d": "societate cu răspundere limitată, în care asociații răspund în limita capitalului social"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce înseamnă „distrugere creatoare”?",
+       "v": "Procesul prin care inovația desființează piețe vechi și creează altele noi (Schumpeter)."
+      },
+      {
+       "f": "De la ce trebuie să pornească o idee de afacere?",
+       "v": "De la o problemă reală a unui client identificabil."
+      },
+      {
+       "f": "Ce elemente sunt interne în analiza SWOT?",
+       "v": "Punctele tari și punctele slabe."
+      },
+      {
+       "f": "Ce răspundere au asociații într-un SRL?",
+       "v": "Răspund în limita capitalului social subscris."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "În analiza SWOT, oportunitățile și amenințările sunt factori:",
+       "optiuni": [
+        "externi",
+        "interni",
+        "financiari",
+        "juridici"
+       ],
+       "corect": 0,
+       "explicatie": "Punctele tari și cele slabe sunt interne firmei."
+      },
+      {
+       "intrebare": "Conceptul de „distrugere creatoare” aparține lui:",
+       "optiuni": [
+        "Joseph Schumpeter",
+        "Adam Smith",
+        "David Ricardo",
+        "Peter Drucker"
+       ],
+       "corect": 0,
+       "explicatie": "El descrie rolul inovației antreprenoriale în dinamica economiei."
+      },
+      {
+       "intrebare": "O idee de afacere are cele mai mari șanse dacă pornește de la:",
+       "optiuni": [
+        "o problemă reală a unui client identificabil",
+        "un produs care îi place întreprinzătorului",
+        "o tehnologie la modă",
+        "un capital disponibil"
+       ],
+       "corect": 0,
+       "explicatie": "Fără client și fără problemă, produsul rămâne nevândut."
+      },
+      {
+       "intrebare": "Forma juridică cea mai frecventă pentru afacerile mici din România este:",
+       "optiuni": [
+        "societatea cu răspundere limitată (SRL)",
+        "societatea pe acțiuni",
+        "regia autonomă",
+        "societatea în comandită"
+       ],
+       "corect": 0,
+       "explicatie": "Ea limitează răspunderea asociaților la capitalul social."
+      }
+     ]
+    },
+    {
+     "id": "eco13-11",
+     "titlu": "Planul de afaceri și finanțarea",
+     "rezumat": "Planul de afaceri este documentul care descrie afacerea, piața, strategia și cifrele. Structura standard: rezumatul executiv, descrierea afacerii și a echipei, analiza pieței și a concurenței, produsul sau serviciul, strategia de marketing și vânzări, planul de operațiuni, proiecțiile financiare (venituri, costuri, flux de numerar, prag de rentabilitate) și analiza riscurilor. Fluxul de numerar (cash-flow) este cel mai important dintre tabele: o firmă profitabilă pe hârtie poate da faliment dacă încasările întârzie iar plățile nu. Regula practică: profitul e o opinie, numerarul e un fapt. Sursele de finanțare: capitalul propriu și economiile, creditul bancar (cu dobândă și garanții), leasingul, fondurile europene și programele de sprijin pentru tineri, investitorii de tip business angel și fondurile de capital de risc (care cer participație la capital), creditul comercial de la furnizori și, pentru anumite produse, finanțarea participativă. Fiecare sursă are un cost: dobânda, cota-parte cedată sau constrângerile de raportare.",
+     "ideiCheie": [
+      "Planul de afaceri cuprinde piața, strategia, operațiunile și proiecțiile financiare.",
+      "Fluxul de numerar decide supraviețuirea pe termen scurt, nu profitul contabil.",
+      "Surse: capital propriu, credit bancar, leasing, fonduri europene, investitori, credit comercial.",
+      "Orice finanțare are un cost: dobândă, participație cedată sau constrângeri."
+     ],
+     "termeni": [
+      {
+       "t": "flux de numerar",
+       "d": "evidența intrărilor și ieșirilor efective de bani într-o perioadă"
+      },
+      {
+       "t": "capital de risc",
+       "d": "finanțare acordată firmelor tinere, în schimbul unei participații la capital"
+      },
+      {
+       "t": "rezumat executiv",
+       "d": "sinteza planului de afaceri, plasată la început, care prezintă esențialul în câteva paragrafe"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care este cea mai importantă proiecție financiară pentru supraviețuirea pe termen scurt?",
+       "v": "Fluxul de numerar."
+      },
+      {
+       "f": "De ce poate da faliment o firmă profitabilă?",
+       "v": "Pentru că încasările întârzie, iar plățile scadente trebuie făcute la timp."
+      },
+      {
+       "f": "Ce cere un investitor de tip capital de risc în schimbul finanțării?",
+       "v": "O participație la capitalul firmei."
+      },
+      {
+       "f": "Ce conține rezumatul executiv?",
+       "v": "Sinteza esențialului din planul de afaceri, în câteva paragrafe, la începutul documentului."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Afirmația „profitul e o opinie, numerarul e un fapt” subliniază importanța:",
+       "optiuni": [
+        "fluxului de numerar",
+        "cifrei de afaceri",
+        "capitalului social",
+        "amortizării"
+       ],
+       "corect": 0,
+       "explicatie": "Profitul depinde de convenții contabile; banii din cont, nu."
+      },
+      {
+       "intrebare": "Finanțarea prin capital de risc presupune:",
+       "optiuni": [
+        "cedarea unei participații la capitalul firmei",
+        "plata unei dobânzi fixe",
+        "garantarea cu un imobil",
+        "rambursarea în rate lunare"
+       ],
+       "corect": 0,
+       "explicatie": "Investitorul câștigă din creșterea valorii firmei, nu din dobândă."
+      },
+      {
+       "intrebare": "Rezumatul executiv al unui plan de afaceri:",
+       "optiuni": [
+        "se așază la început și sintetizează esențialul",
+        "se scrie doar pentru bancă",
+        "înlocuiește proiecțiile financiare",
+        "descrie doar echipa"
+       ],
+       "corect": 0,
+       "explicatie": "Este adesea singura parte citită integral de un finanțator."
+      },
+      {
+       "intrebare": "Leasingul este o sursă de finanțare potrivită mai ales pentru:",
+       "optiuni": [
+        "achiziția de echipamente",
+        "acoperirea salariilor",
+        "plata impozitelor",
+        "constituirea capitalului social"
+       ],
+       "corect": 0,
+       "explicatie": "Bunul finanțat servește el însuși drept garanție."
+      }
+     ]
+    },
+    {
+     "id": "eco13-12",
+     "titlu": "Marketing, resurse umane, etică în afaceri",
+     "rezumat": "Marketingul înseamnă identificarea și satisfacerea profitabilă a nevoilor clientului. Mixul clasic are patru componente (4P): produsul (caracteristici, calitate, marcă), prețul (strategii de penetrare, de smântânire, de aliniere), plasarea sau distribuția (canalele prin care ajunge la client) și promovarea (publicitate, promovarea vânzărilor, relații publice, vânzare personală). Segmentarea pieței și poziționarea preced mixul: întâi decizi cui vinzi și cu ce ești diferit. Managementul resurselor umane cuprinde recrutarea, selecția, integrarea, formarea, evaluarea și motivarea. Motivarea nu se reduce la salariu: recunoașterea, autonomia, perspectiva de dezvoltare și sensul muncii au efect durabil, în timp ce stimulentele pur financiare se erodează rapid. Etica în afaceri privește corectitudinea față de clienți (informare corectă, respectarea garanțiilor), față de angajați (condiții de muncă, plata la timp, nediscriminare), față de concurenți (competiție loială) și față de comunitate și mediu. Responsabilitatea socială corporativă depășește obligațiile legale. Argumentul practic e simplu: reputația se construiește în ani și se pierde într-o zi, iar în piețele cu informație rapidă costul comportamentului incorect a devenit direct măsurabil.",
+     "ideiCheie": [
+      "Mixul de marketing (4P): produs, preț, plasare, promovare.",
+      "Segmentarea și poziționarea preced construirea mixului.",
+      "Motivarea durabilă vine din recunoaștere, autonomie, dezvoltare și sensul muncii.",
+      "Etica în afaceri privește clienții, angajații, concurenții, comunitatea și mediul."
+     ],
+     "termeni": [
+      {
+       "t": "mix de marketing",
+       "d": "combinația celor patru instrumente — produs, preț, plasare, promovare"
+      },
+      {
+       "t": "segmentare a pieței",
+       "d": "împărțirea pieței în grupuri de clienți cu nevoi asemănătoare"
+      },
+      {
+       "t": "responsabilitate socială corporativă",
+       "d": "asumarea voluntară, de către firmă, a unor obligații față de societate și mediu, dincolo de lege"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt cei 4P ai mixului de marketing?",
+       "v": "Produsul, prețul, plasarea (distribuția) și promovarea."
+      },
+      {
+       "f": "Ce precede construirea mixului de marketing?",
+       "v": "Segmentarea pieței și poziționarea."
+      },
+      {
+       "f": "De ce nu e suficient salariul pentru motivare?",
+       "v": "Pentru că stimulentele financiare se erodează rapid, în timp ce recunoașterea, autonomia și sensul muncii au efect durabil."
+      },
+      {
+       "f": "Ce este responsabilitatea socială corporativă?",
+       "v": "Asumarea voluntară a unor obligații față de societate și mediu, dincolo de cerințele legii."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Cei patru P ai mixului de marketing sunt:",
+       "optiuni": [
+        "produs, preț, plasare, promovare",
+        "profit, piață, personal, producție",
+        "produs, profit, publicitate, piață",
+        "preț, piață, personal, promovare"
+       ],
+       "corect": 0,
+       "explicatie": "Segmentarea și poziționarea sunt decizii anterioare mixului."
+      },
+      {
+       "intrebare": "Strategia de „smântânire” a prețului presupune:",
+       "optiuni": [
+        "preț inițial ridicat, adresat segmentului dispus să plătească mai mult",
+        "preț inițial foarte scăzut, pentru câștigarea rapidă de cotă",
+        "alinierea la prețul concurenței",
+        "prețuri diferite în fiecare magazin"
+       ],
+       "corect": 0,
+       "explicatie": "Penetrarea este strategia prețului mic la lansare."
+      },
+      {
+       "intrebare": "Motivarea durabilă a angajaților se sprijină mai ales pe:",
+       "optiuni": [
+        "recunoaștere, autonomie, dezvoltare și sensul muncii",
+        "creșteri salariale repetate",
+        "controlul strict al programului",
+        "competiția internă permanentă"
+       ],
+       "corect": 0,
+       "explicatie": "Efectul creșterilor salariale se erodează relativ repede."
+      },
+      {
+       "intrebare": "Responsabilitatea socială corporativă înseamnă:",
+       "optiuni": [
+        "obligații asumate voluntar, dincolo de cerințele legale",
+        "respectarea legislației muncii",
+        "plata impozitelor",
+        "publicitatea produselor"
+       ],
+       "corect": 0,
+       "explicatie": "Respectarea legii este obligație, nu responsabilitate socială suplimentară."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "teze": [
+  {
+   "semestru": 1,
+   "test": [
+    {
+     "intrebare": "Costul de oportunitate reprezintă:",
+     "optiuni": [
+      "valoarea celei mai bune alternative sacrificate",
+      "costul total de producție",
+      "costul fix pe unitate",
+      "prețul plătit efectiv"
+     ],
+     "corect": 0,
+     "explicatie": "Orice alegere sacrifică o alternativă."
+    },
+    {
+     "intrebare": "Un punct din interiorul frontierei posibilităților de producție arată:",
+     "optiuni": [
+      "utilizarea incompletă a resurselor",
+      "creștere economică",
+      "o combinație imposibilă",
+      "eficiență maximă"
+     ],
+     "corect": 0,
+     "explicatie": "Punctele de pe curbă corespund utilizării depline."
+    },
+    {
+     "intrebare": "Legea utilității marginale descrescânde spune că:",
+     "optiuni": [
+      "satisfacția adusă de fiecare unitate suplimentară scade",
+      "utilitatea totală scade",
+      "prețul scade odată cu cantitatea",
+      "cererea crește cu prețul"
+     ],
+     "corect": 0,
+     "explicatie": "Utilitatea totală poate crește în continuare, dar tot mai încet."
+    },
+    {
+     "intrebare": "Creșterea venitului consumatorilor, pentru un bun normal, determină:",
+     "optiuni": [
+      "deplasarea curbei cererii spre dreapta",
+      "deplasarea pe aceeași curbă",
+      "deplasarea curbei ofertei",
+      "scăderea cererii"
+     ],
+     "corect": 0,
+     "explicatie": "Venitul este un factor extra-preț."
+    },
+    {
+     "intrebare": "Cererea pentru bunuri de strictă necesitate este de regulă:",
+     "optiuni": [
+      "inelastică",
+      "elastică",
+      "perfect elastică",
+      "unitară"
+     ],
+     "corect": 0,
+     "explicatie": "Consumul nu poate fi amânat și nu are substituenți apropiați."
+    },
+    {
+     "intrebare": "Utilajele fac parte din:",
+     "optiuni": [
+      "capitalul fix",
+      "capitalul circulant",
+      "factorul natură",
+      "costurile variabile"
+     ],
+     "corect": 0,
+     "explicatie": "Se consumă treptat, prin amortizare."
+    },
+    {
+     "intrebare": "Costul marginal este:",
+     "optiuni": [
+      "sporul de cost adus de ultima unitate produsă",
+      "costul total împărțit la cantitate",
+      "costul fix total",
+      "costul minim"
+     ],
+     "corect": 0,
+     "explicatie": "Costul mediu se obține prin împărțire la cantitate."
+    },
+    {
+     "intrebare": "La pragul de rentabilitate:",
+     "optiuni": [
+      "veniturile totale egalează costurile totale",
+      "profitul este maxim",
+      "costurile fixe sunt zero",
+      "cererea este inelastică"
+     ],
+     "corect": 0,
+     "explicatie": "Sub prag se înregistrează pierdere, peste el, profit."
+    },
+    {
+     "intrebare": "Profitul economic diferă de cel contabil prin faptul că:",
+     "optiuni": [
+      "include și costurile implicite",
+      "exclude costurile variabile",
+      "se calculează după impozitare",
+      "este întotdeauna mai mare"
+     ],
+     "corect": 0,
+     "explicatie": "Costul de oportunitate al resurselor proprii este un cost implicit."
+    },
+    {
+     "intrebare": "Un preț plafon fixat sub echilibru produce:",
+     "optiuni": [
+      "deficit",
+      "excedent",
+      "echilibru",
+      "creșterea ofertei"
+     ],
+     "corect": 0,
+     "explicatie": "Cantitatea cerută crește, iar cea oferită scade."
+    },
+    {
+     "intrebare": "Îmbunătățirea tehnologiei deplasează curba ofertei:",
+     "optiuni": [
+      "spre dreapta",
+      "spre stânga",
+      "nu o deplasează",
+      "doar pe termen lung"
+     ],
+     "corect": 0,
+     "explicatie": "Costurile scad, deci la fiecare preț se oferă mai mult."
+    },
+    {
+     "intrebare": "Atomicitatea pieței înseamnă că:",
+     "optiuni": [
+      "niciun agent nu poate influența singur prețul",
+      "produsele sunt omogene",
+      "informația este perfectă",
+      "intrarea este liberă"
+     ],
+     "corect": 0,
+     "explicatie": "Celelalte variante sunt tot condiții ale concurenței perfecte, dar diferite."
+    }
+   ]
+  },
+  {
+   "semestru": 2,
+   "test": [
+    {
+     "intrebare": "Funcția banilor de a transfera putere de cumpărare în viitor este:",
+     "optiuni": [
+      "rezerva valorii",
+      "mijloc de schimb",
+      "etalon al valorii",
+      "mijloc de plată"
+     ],
+     "corect": 0,
+     "explicatie": "Inflația ridicată slăbește tocmai această funcție."
+    },
+    {
+     "intrebare": "Inflația provocată de scumpirea materiilor prime este inflație:",
+     "optiuni": [
+      "prin costuri",
+      "prin cerere",
+      "monetară",
+      "structurală"
+     ],
+     "corect": 0,
+     "explicatie": "Presiunea vine din partea ofertei, nu a cererii."
+    },
+    {
+     "intrebare": "Obiectivul principal al băncii centrale este:",
+     "optiuni": [
+      "stabilitatea prețurilor",
+      "maximizarea profitului bancar",
+      "finanțarea bugetului",
+      "fixarea salariilor"
+     ],
+     "corect": 0,
+     "explicatie": "Instrumentul principal este rata dobânzii de politică monetară."
+    },
+    {
+     "intrebare": "Rata șomajului se calculează raportând șomerii la:",
+     "optiuni": [
+      "populația activă",
+      "populația totală",
+      "populația ocupată",
+      "populația de vârstă școlară"
+     ],
+     "corect": 0,
+     "explicatie": "Populația activă cuprinde ocupații și șomerii."
+    },
+    {
+     "intrebare": "Șomajul provocat de necorespondența dintre calificări și cererea de muncă este:",
+     "optiuni": [
+      "structural",
+      "fricțional",
+      "ciclic",
+      "sezonier"
+     ],
+     "corect": 0,
+     "explicatie": "Este cel mai greu de redus, fiindcă necesită recalificare."
+    },
+    {
+     "intrebare": "Salariul real scade când:",
+     "optiuni": [
+      "prețurile cresc mai repede decât salariul nominal",
+      "salariul nominal crește",
+      "scade inflația",
+      "crește productivitatea"
+     ],
+     "corect": 0,
+     "explicatie": "Contează puterea de cumpărare, nu suma nominală."
+    },
+    {
+     "intrebare": "Teoria avantajului comparativ aparține lui:",
+     "optiuni": [
+      "David Ricardo",
+      "Adam Smith",
+      "Alfred Marshall",
+      "John Maynard Keynes"
+     ],
+     "corect": 0,
+     "explicatie": "Ea explică de ce schimbul e avantajos chiar între parteneri inegali."
+    },
+    {
+     "intrebare": "Deprecierea monedei naționale:",
+     "optiuni": [
+      "ieftinește exporturile și scumpește importurile",
+      "scumpește exporturile",
+      "reduce prețurile interne",
+      "nu are efect asupra comerțului"
+     ],
+     "corect": 0,
+     "explicatie": "De aceea poate stimula temporar exportul."
+    },
+    {
+     "intrebare": "Treapta de integrare care adaugă tariful vamal extern comun este:",
+     "optiuni": [
+      "uniunea vamală",
+      "zona de liber schimb",
+      "piața comună",
+      "uniunea monetară"
+     ],
+     "corect": 0,
+     "explicatie": "Piața comună adaugă libera circulație a factorilor de producție."
+    },
+    {
+     "intrebare": "„Distrugerea creatoare” este un concept al lui:",
+     "optiuni": [
+      "Joseph Schumpeter",
+      "Adam Smith",
+      "Peter Drucker",
+      "Milton Friedman"
+     ],
+     "corect": 0,
+     "explicatie": "Inovația desființează piețe vechi și creează altele noi."
+    },
+    {
+     "intrebare": "În analiza SWOT, punctele tari și cele slabe sunt factori:",
+     "optiuni": [
+      "interni",
+      "externi",
+      "financiari",
+      "politici"
+     ],
+     "corect": 0,
+     "explicatie": "Oportunitățile și amenințările sunt factori externi."
+    },
+    {
+     "intrebare": "Documentul financiar care decide supraviețuirea pe termen scurt a unei firme este:",
+     "optiuni": [
+      "fluxul de numerar",
+      "contul de profit și pierdere",
+      "bilanțul",
+      "registrul de casă"
+     ],
+     "corect": 0,
+     "explicatie": "O firmă profitabilă poate da faliment din lipsă de lichidități."
+    },
+    {
+     "intrebare": "Cei patru P ai mixului de marketing sunt:",
+     "optiuni": [
+      "produs, preț, plasare, promovare",
+      "profit, piață, personal, producție",
+      "produs, profit, publicitate, personal",
+      "preț, promovare, profit, piață"
+     ],
+     "corect": 0,
+     "explicatie": "Segmentarea și poziționarea preced mixul."
+    }
+   ]
+  }
+ ]
+}

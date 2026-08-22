@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 3,
-  "nrLectii": 46,
-  "nrCarduri": 184,
-  "nrIntrebari": 256,
+  "nrModule": 5,
+  "nrLectii": 72,
+  "nrCarduri": 288,
+  "nrIntrebari": 410,
   "module": [
     {
       "id": "logica-9",
@@ -381,6 +381,230 @@
         {
           "semestru": 2,
           "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "filosofie-12",
+      "materie": "Filosofie",
+      "clasa": "a XII-a",
+      "an": 4,
+      "arie": "Om și societate",
+      "bac": true,
+      "socioUman": true,
+      "descriere": "Marile teme ale filosofiei: omul, morala, politica, cunoașterea și rostul însuși al întrebării filosofice.",
+      "nrLectii": 14,
+      "nrCarduri": 56,
+      "nrIntrebari": 81,
+      "capitole": [
+        {
+          "id": "fil12-c1",
+          "titlu": "Introducere în filosofie",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fil12-01",
+              "titlu": "Ce este filosofia"
+            },
+            {
+              "id": "fil12-02",
+              "titlu": "Nașterea filosofiei și marile momente"
+            }
+          ]
+        },
+        {
+          "id": "fil12-c2",
+          "titlu": "Omul",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fil12-03",
+              "titlu": "Problematica naturii umane"
+            },
+            {
+              "id": "fil12-04",
+              "titlu": "Libertate și responsabilitate"
+            },
+            {
+              "id": "fil12-05",
+              "titlu": "Sensul vieții și moartea"
+            }
+          ]
+        },
+        {
+          "id": "fil12-c3",
+          "titlu": "Morala",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fil12-06",
+              "titlu": "Binele și răul. Specificul moralei"
+            },
+            {
+              "id": "fil12-07",
+              "titlu": "Teorii etice: datoria și utilitatea"
+            }
+          ]
+        },
+        {
+          "id": "fil12-c4",
+          "titlu": "Politica",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "fil12-08",
+              "titlu": "Libertate socială și politică"
+            },
+            {
+              "id": "fil12-09",
+              "titlu": "Egalitate și dreptate"
+            },
+            {
+              "id": "fil12-10",
+              "titlu": "Puterea politică, statul și legitimitatea"
+            },
+            {
+              "id": "fil12-11",
+              "titlu": "Drepturile omului"
+            }
+          ]
+        },
+        {
+          "id": "fil12-c5",
+          "titlu": "Cunoașterea",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "fil12-12",
+              "titlu": "Problema cunoașterii: izvoare și limite"
+            },
+            {
+              "id": "fil12-13",
+              "titlu": "Adevăr și eroare"
+            },
+            {
+              "id": "fil12-14",
+              "titlu": "Rolul filosofiei în viața socială"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 13
+        }
+      ]
+    },
+    {
+      "id": "economie-13",
+      "materie": "Economie și educație antreprenorială",
+      "clasa": "a XIII-a",
+      "an": 5,
+      "arie": "Om și societate",
+      "bac": true,
+      "socioUman": true,
+      "descriere": "Cum funcționează economia și cum se pornește o afacere: consumator, producător, piețe, bani, muncă și antreprenoriat.",
+      "nrLectii": 12,
+      "nrCarduri": 48,
+      "nrIntrebari": 73,
+      "capitole": [
+        {
+          "id": "eco13-c1",
+          "titlu": "Economia și consumatorul",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "eco13-01",
+              "titlu": "Nevoi, resurse, alegere"
+            },
+            {
+              "id": "eco13-02",
+              "titlu": "Consumatorul și cererea"
+            }
+          ]
+        },
+        {
+          "id": "eco13-c2",
+          "titlu": "Producătorul",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "eco13-03",
+              "titlu": "Factorii de producție și combinarea lor"
+            },
+            {
+              "id": "eco13-04",
+              "titlu": "Costuri, venituri, profit"
+            }
+          ]
+        },
+        {
+          "id": "eco13-c3",
+          "titlu": "Piața",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "eco13-05",
+              "titlu": "Oferta și echilibrul pieței"
+            },
+            {
+              "id": "eco13-06",
+              "titlu": "Concurența și formele pieței"
+            }
+          ]
+        },
+        {
+          "id": "eco13-c4",
+          "titlu": "Piețe particulare",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "eco13-07",
+              "titlu": "Banii și piața monetară"
+            },
+            {
+              "id": "eco13-08",
+              "titlu": "Piața muncii și șomajul"
+            },
+            {
+              "id": "eco13-09",
+              "titlu": "Economia deschisă: comerț, curs de schimb, integrare"
+            }
+          ]
+        },
+        {
+          "id": "eco13-c5",
+          "titlu": "Educație antreprenorială",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "eco13-10",
+              "titlu": "Întreprinzătorul și ideea de afacere"
+            },
+            {
+              "id": "eco13-11",
+              "titlu": "Planul de afaceri și finanțarea"
+            },
+            {
+              "id": "eco13-12",
+              "titlu": "Marketing, resurse umane, etică în afaceri"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 13
         }
       ]
     }
