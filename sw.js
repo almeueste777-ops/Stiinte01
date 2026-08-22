@@ -1,20 +1,34 @@
 /* Service worker: precache + strategii de cache.
    IMPORTANT: crește CACHE la fiecare modificare a fișierelor, ca utilizatorii să primească versiunea nouă. */
-const CACHE = 'stiinte01-v5';   // v03 — temă comutabilă, setări, conținut pe module
-const ASSETS = [
+const CACHE = 'stiinte01-v6';   // v03 — temă comutabilă, setări, conținut pe module
+/* Scheletul aplicației: FĂRĂ el aplicația nu pornește, deci se cere atomic. */
+const SHELL = [
   './',
   './index.html',
   /* ?v= trebuie să fie IDENTIC cu cel din index.html (cache-ul SW potrivește
      URL-ul exact, cu tot cu query) — CI-ul verifică sincronizarea. */
-  './assets/app.css?v=5',
-  './assets/app.js?v=5',
+  './assets/app.css?v=6',
+  './assets/app.js?v=6',
   './manifest.webmanifest',
   './data/curriculum.json',
   './data/continut.json',
-  /* Fișierele de modul (conținutul propriu-zis) se cer abia când e deschis
-     modulul, dar TREBUIE să fie în precache: altfel aplicația instalată ar
-     avea lecțiile doar cât timp există rețea. Lista o scrie
-     `tools/construieste-index.mjs` — nu o edita de mână. */
+  './icons/icon-192.png',
+  './icons/icon-512.png',
+  './icons/icon-maskable-512.png'
+];
+
+/* Fișierele de modul (conținutul propriu-zis) se cer abia când e deschis
+   modulul, dar TREBUIE să ajungă în precache: altfel aplicația instalată ar
+   avea lecțiile doar cât timp există rețea. Lista o scrie
+   `tools/construieste-index.mjs` — nu o edita de mână.
+
+   Sunt 60 de fișiere, ~2,6 MB. Se cer INDIVIDUAL, nu prin `addAll`: acesta
+   respinge tot dacă o singură cerere pică, iar cu promisiunea respinsă în
+   `waitUntil` instalarea eșuează, `skipWaiting()` nu mai rulează și
+   utilizatorul rămâne tăcut pe versiunea veche. Pe rețea proastă, un singur
+   timeout dintre 60 ar fi anulat tot update-ul. Ce nu intră acum intră la
+   prima deschidere a modulului, prin handler-ul de fetch. */
+const MODULE = [
   /* MODULE:START */
   './data/module/geografie-9.json',
   './data/module/istorie-9.json',
@@ -77,10 +91,10 @@ const ASSETS = [
   './data/module/romana-13.json',
   './data/module/bac-13.json',
   /* MODULE:STOP */
-  './icons/icon-192.png',
-  './icons/icon-512.png',
-  './icons/icon-maskable-512.png'
 ];
+
+/* Lista completă, folosită de verificatorul de precache din CI. */
+const ASSETS = SHELL.concat(MODULE);
 
 self.addEventListener('install', e => {
   e.waitUntil(
@@ -89,7 +103,13 @@ self.addEventListener('install', e => {
          addAll poate umple precache-ul noii versiuni cu fișiere VECHI luate
          din cache-ul HTTP (assets aveau max-age de 7 zile și nu au amprentă
          în nume) — exact bug-ul „HTML nou + CSS vechi” văzut în producție. */
-      .then(c => c.addAll(ASSETS.map(u => new Request(u, { cache: 'reload' }))))
+      .then(c => c.addAll(SHELL.map(u => new Request(u, { cache: 'reload' })))
+        /* Modulele: fiecare pe cont propriu. `allSettled` nu respinge
+           niciodată, deci un fișier care nu ajunge nu mai anulează instalarea
+           întregii versiuni. */
+        .then(() => Promise.allSettled(
+          MODULE.map(u => c.add(new Request(u, { cache: 'reload' })))
+        )))
       .then(() => self.skipWaiting())
   );
 });

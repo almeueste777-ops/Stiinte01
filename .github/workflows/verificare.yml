@@ -60,9 +60,12 @@ jobs:
           node -e "
             const fs = require('fs');
             const sw = fs.readFileSync('sw.js','utf8');
-            const lista = sw.match(/const ASSETS = \[([\s\S]*?)\]/)[1]
+            // Precache-ul e împărțit: SHELL (cerut atomic) + MODULE (best-effort).
+            const bloc = n => sw.match(new RegExp('const ' + n + ' = \\[([\\s\\S]*?)\\n\\];'))[1];
+            const lista = (bloc('SHELL') + ',' + bloc('MODULE'))
               .replace(/\/\*[\s\S]*?\*\//g,'')
               .split(',').map(s => s.trim().replace(/^['\"]|['\"]\$/g,'')).filter(Boolean);
+            if (lista.length < 60) { console.error('lista de precache pare trunchiată: ' + lista.length); process.exit(1); }
             let er = 0;
             for (const p of lista) {
               if (p === './') continue;
@@ -84,7 +87,7 @@ jobs:
             for (const f of ['assets/app.css','assets/app.js']) {
               const q = f + '?v=' + n;
               if (!html.includes('./' + q)) { console.error('index.html nu referă ./' + q); er++; }
-              if (!sw.includes(\"'./\" + q + \"'\")) { console.error('ASSETS din sw.js nu conține ./' + q); er++; }
+              if (!sw.includes(\"'./\" + q + \"'\")) { console.error('SHELL din sw.js nu conține ./' + q); er++; }
             }
             console.log(er ? 'DESINCRONIZAT' : 'OK  CACHE v' + n + ' ↔ ?v=' + n);
             process.exit(er ? 1 : 0);

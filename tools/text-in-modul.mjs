@@ -44,9 +44,27 @@ const args = process.argv.slice(2);
 const fisiere = args.length ? args
   : readdirSync(SURSA).filter(f => f.endsWith('.txt')).sort().map(f => join(SURSA, f));
 
-let erori = 0;
+let eroriTotal = 0;
+let esuate = 0;
 
 for (const cale of fisiere) {
+  try {
+    converteste(cale);
+  } catch (e) {
+    /* O sursă stricată NU trebuie să oprească restul conversiei: altfel
+       fișierele de după ea rămân tăcut la conținutul vechi, iar validatorul
+       și indexul le confirmă ca fiind în regulă. */
+    console.error(`${cale}: conversie eșuată — ${e.message}`);
+    eroriTotal++; esuate++;
+  }
+}
+
+if (esuate) console.error(`\n${esuate} fișier(e) neconvertite.`);
+process.exit(eroriTotal ? 1 : 0);
+
+
+function converteste(cale) {
+  let erori = 0;
   const id = basename(cale).replace(/\.txt$/, '');
   const linii = readFileSync(cale, 'utf8').split('\n');
 
@@ -58,9 +76,22 @@ for (const cale of fisiere) {
 
   const gata = (nr) => {               // închide întrebarea curentă
     if (!intrebare) return;
+    const tinta = teza ? teza.test : (lectie ? lectie.test : null);
+    if (!tinta) {
+      console.error(`${cale}:${nr}: întrebare în afara unei lecții sau teze`);
+      erori++; intrebare = null; return;
+    }
     if (intrebare.corect < 0) { console.error(`${cale}:${nr}: întrebare fără variantă corectă (+)`); erori++; }
-    (teza ? teza.test : lectie.test).push(intrebare);
+    tinta.push(intrebare);
     intrebare = null;
+  };
+  /* Directivele de conținut au nevoie de o lecție deschisă. Fără gardă, un „*”
+     rătăcit după „%% teza” arunca TypeError pe null și oprea toată conversia. */
+  const cereLectie = (nr, ce) => {
+    if (lectie) return true;
+    console.error(`${cale}:${nr}: ${ce} în afara unei lecții`);
+    erori++;
+    return false;
   };
   const gataParagraf = () => {
     if (paragraf.length) { rezumat.push(paragraf.join(' ')); paragraf = []; }
@@ -116,9 +147,14 @@ for (const cale of fisiere) {
 
     const corp = t.slice(1).trim();
     switch (t[0]) {
-      case '*': gata(nr); gataParagraf(); lectie.ideiCheie.push(corp); return;
+      case '*':
+        gata(nr); gataParagraf();
+        if (!cereLectie(nr, 'idee-cheie (*)')) return;
+        lectie.ideiCheie.push(corp);
+        return;
       case '=': {
         gata(nr); gataParagraf();
+        if (!cereLectie(nr, 'termen (=)')) return;
         const [a, b] = corp.split('::').map(x => (x || '').trim());
         if (!b) { console.error(`${cale}:${nr}: termen fără „::”`); erori++; return; }
         lectie.termeni.push({ t: a, d: b });
@@ -126,6 +162,7 @@ for (const cale of fisiere) {
       }
       case '@': {
         gata(nr); gataParagraf();
+        if (!cereLectie(nr, 'card (@)')) return;
         const [a, b] = corp.split('::').map(x => (x || '').trim());
         if (!b) { console.error(`${cale}:${nr}: card fără „::”`); erori++; return; }
         lectie.carduri.push({ f: a, v: b });
@@ -133,6 +170,10 @@ for (const cale of fisiere) {
       }
       case '?':
         gata(nr); gataParagraf();
+        if (!lectie && !teza) {
+          console.error(`${cale}:${nr}: întrebare (?) în afara unei lecții sau teze`);
+          erori++; return;
+        }
         intrebare = { intrebare: corp, optiuni: [], corect: -1, explicatie: '' };
         return;
       case '-': case '+':
@@ -166,9 +207,17 @@ for (const cale of fisiere) {
   };
   if (!iesire.socioUman) delete iesire.socioUman;
 
-  writeFileSync(join(IESIRE, id + '.json'), JSON.stringify(iesire, null, 1) + '\n');
   const nl = m.capitole.reduce((a, c) => a + c.lectii.length, 0);
+
+  /* Nu scriem niciodată ieșire dintr-o sursă cu erori: altfel pe disc ar rămâne
+     un modul defect (ex. `"corect": -1`), iar ultima linie din terminal ar fi
+     un „OK” liniștitor. */
+  if (erori) {
+    console.error(`EȘEC  ${id} — ${erori} eroare(i); fișierul NU a fost scris.`);
+    eroriTotal += erori;
+    return;
+  }
+
+  writeFileSync(join(IESIRE, id + '.json'), JSON.stringify(iesire, null, 1) + '\n');
   console.log(`OK  ${id} — ${m.capitole.length} capitole, ${nl} lecții, ${m.teze.length} teze`);
 }
-
-process.exit(erori ? 1 : 0);

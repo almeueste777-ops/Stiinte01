@@ -42,12 +42,17 @@ for (const f of fisiere) {
     return { id: c.id, titlu: c.titlu, semestru: c.semestru, lectii };
   });
   const teze = (m.teze || []).map(t => ({ semestru: t.semestru, nrIntrebari: (t.test || []).length }));
-  nrIntrebari += teze.reduce((a, t) => a + t.nrIntrebari, 0);
+  /* `nrIntrebari` = DOAR întrebările de lecție, adică exact bazinul din care
+     trag testele de lecție, de capitol, de materie, de an și de clasă.
+     Întrebările de teză se trag separat, pe ruta `#/test/teza/...`, și se
+     numără separat — altfel cardul materiei ar promite un test mai mare decât
+     cel pe care îl poate da. */
+  const nrIntrebariTeze = teze.reduce((a, t) => a + t.nrIntrebari, 0);
   module_.push({
     id: m.id, materie: m.materie, clasa: m.clasa, an: m.an,
     arie: m.arie, bac: !!m.bac, socioUman: !!m.socioUman,
     descriere: m.descriere,
-    nrLectii, nrCarduri, nrIntrebari,
+    nrLectii, nrCarduri, nrIntrebari, nrIntrebariTeze,
     capitole, teze
   });
 }
@@ -69,6 +74,7 @@ const index = {
   nrLectii: module_.reduce((a, m) => a + m.nrLectii, 0),
   nrCarduri: module_.reduce((a, m) => a + m.nrCarduri, 0),
   nrIntrebari: module_.reduce((a, m) => a + m.nrIntrebari, 0),
+  nrIntrebariTeze: module_.reduce((a, m) => a + m.nrIntrebariTeze, 0),
   module: module_
 };
 
@@ -95,4 +101,5 @@ const swNou = sw.slice(0, i) + START + '\n' + lista + '\n' + sw.slice(j);
 if (swNou !== sw) writeFileSync(SW, swNou);
 
 console.log(`OK  ${INDEX} — ${index.nrModule} module, ${index.nrLectii} lecții, ` +
-            `${index.nrCarduri} carduri, ${index.nrIntrebari} întrebări`);
+            `${index.nrCarduri} carduri, ${index.nrIntrebari} întrebări de lecție ` +
+            `+ ${index.nrIntrebariTeze} de teză`);
