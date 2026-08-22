@@ -1,0 +1,1073 @@
+{
+ "id": "engleza-9",
+ "materie": "Limba modernă 1 (Engleză)",
+ "clasa": "a IX-a",
+ "an": 1,
+ "arie": "Limbă și comunicare",
+ "bac": true,
+ "descriere": "Bazele limbii engleze: timpurile de bază, substantivul și articolul, vocabularul esențial și comunicarea în situații cotidiene.",
+ "capitole": [
+  {
+   "id": "eng9-c1",
+   "titlu": "Timpurile verbale de bază",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "eng9-01",
+     "titlu": "Present Simple și Present Continuous",
+     "rezumat": "Present Simple exprimă acțiuni obișnuite, repetate, adevăruri generale și programe fixe: „I study English every day”, „Water boils at 100 degrees”, „The train leaves at seven”. Se formează cu forma de bază a verbului; la persoana a III-a singular se adaugă -s sau -es. Negativul și interogativul folosesc auxiliarul do/does. Adverbe tipice: always, usually, often, sometimes, rarely, never, every day. Present Continuous exprimă acțiuni în desfășurare acum, situații temporare și aranjamente viitoare stabilite: „She is reading now”, „I am living in Suceava this year”, „We are meeting Tom tomorrow”. Se formează cu am/is/are plus verbul cu -ing. Adverbe tipice: now, at the moment, currently, today. Verbele de stare (know, like, want, believe, belong) nu se folosesc, de regulă, la forma continuă.",
+     "ideiCheie": [
+      "Present Simple: obișnuințe, adevăruri generale, programe fixe.",
+      "Persoana a III-a singular primește -s/-es; negativul și interogativul cer do/does.",
+      "Present Continuous: acțiuni în desfășurare, situații temporare, aranjamente viitoare.",
+      "Verbele de stare nu se folosesc la forma continuă."
+     ],
+     "termeni": [
+      {
+       "t": "stative verb",
+       "d": "verb de stare (know, like, believe), care nu se folosește la forma continuă"
+      },
+      {
+       "t": "auxiliary verb",
+       "d": "verb ajutător folosit la formarea negativului, a interogativului sau a timpurilor compuse"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Când se folosește Present Simple?",
+       "v": "Pentru obișnuințe, acțiuni repetate, adevăruri generale și programe fixe."
+      },
+      {
+       "f": "Cum se formează Present Continuous?",
+       "v": "Cu am/is/are plus verbul la forma cu -ing."
+      },
+      {
+       "f": "Ce sunt verbele de stare?",
+       "v": "Verbe precum know, like, want, believe, care nu se folosesc la forma continuă."
+      },
+      {
+       "f": "Ce adverbe însoțesc Present Simple?",
+       "v": "Always, usually, often, sometimes, rarely, never, every day."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Forma corectă este:",
+       "optiuni": [
+        "„She usually walks to school.”",
+        "„She usually is walking to school.”",
+        "„She usually walk to school.”",
+        "„She is usually walk to school.”"
+       ],
+       "corect": 0,
+       "explicatie": "Obișnuința cere Present Simple, cu -s la persoana a III-a."
+      },
+      {
+       "intrebare": "Verbul „know” la forma continuă:",
+       "optiuni": [
+        "nu se folosește, fiind verb de stare",
+        "se folosește frecvent",
+        "se folosește doar la interogativ",
+        "se folosește doar la negativ"
+       ],
+       "corect": 0,
+       "explicatie": "Corect: „I know”, nu „I am knowing”."
+      },
+      {
+       "intrebare": "„Look! The bus is coming.” exprimă:",
+       "optiuni": [
+        "o acțiune în desfășurare acum",
+        "o obișnuință",
+        "un adevăr general",
+        "un program fix"
+       ],
+       "corect": 0,
+       "explicatie": "Present Continuous descrie momentul vorbirii."
+      },
+      {
+       "intrebare": "Negativul la Present Simple, persoana a III-a, se formează cu:",
+       "optiuni": [
+        "doesn't + verb la forma de bază",
+        "don't + verb cu -s",
+        "isn't + verb cu -ing",
+        "didn't + verb"
+       ],
+       "corect": 0,
+       "explicatie": "Corect: „He doesn't work”, nu „He doesn't works”."
+      }
+     ]
+    },
+    {
+     "id": "eng9-02",
+     "titlu": "Past Simple și Past Continuous",
+     "rezumat": "Past Simple exprimă acțiuni încheiate într-un moment determinat din trecut: „I visited London last year”. Verbele regulate primesc -ed; cele neregulate au forme proprii, care se învață pe grupe (go–went–gone, see–saw–seen). Negativul și interogativul folosesc auxiliarul did, iar verbul revine la forma de bază: „Did you go?”, „I didn't go”. Past Continuous exprimă o acțiune în desfășurare într-un moment din trecut sau o acțiune întreruptă de alta: „At eight o'clock I was studying”, „I was walking home when it started to rain”. Se formează cu was/were plus verbul cu -ing. Combinația tipică: acțiunea lungă la Past Continuous, cea scurtă care o întrerupe la Past Simple, legate prin when sau while.",
+     "ideiCheie": [
+      "Past Simple: acțiuni încheiate, cu moment determinat în trecut.",
+      "Verbele neregulate se învață pe grupe de forme.",
+      "Past Continuous: acțiune în desfășurare în trecut sau întreruptă de alta.",
+      "Acțiunea lungă — Past Continuous; cea scurtă care o întrerupe — Past Simple."
+     ],
+     "termeni": [
+      {
+       "t": "irregular verb",
+       "d": "verb cu forme proprii de trecut și de participiu, care nu urmează regula -ed"
+      },
+      {
+       "t": "past continuous",
+       "d": "timp care exprimă o acțiune în desfășurare într-un moment din trecut"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se formează Past Simple la verbele regulate?",
+       "v": "Prin adăugarea terminației -ed."
+      },
+      {
+       "f": "Ce auxiliar se folosește la negativ și interogativ în Past Simple?",
+       "v": "Did, iar verbul revine la forma de bază."
+      },
+      {
+       "f": "Când se folosește Past Continuous?",
+       "v": "Pentru o acțiune în desfășurare într-un moment din trecut sau întreruptă de alta."
+      },
+      {
+       "f": "Ce timp are acțiunea scurtă care întrerupe o acțiune lungă?",
+       "v": "Past Simple."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Forma corectă este:",
+       "optiuni": [
+        "„I was reading when he called.”",
+        "„I read when he was calling.”",
+        "„I was reading when he was calling.”",
+        "„I readed when he called.”"
+       ],
+       "corect": 0,
+       "explicatie": "Acțiunea lungă e la Past Continuous, cea scurtă la Past Simple."
+      },
+      {
+       "intrebare": "Interogativul corect la Past Simple este:",
+       "optiuni": [
+        "„Did you see the film?”",
+        "„Did you saw the film?”",
+        "„Do you saw the film?”",
+        "„Have you saw the film?”"
+       ],
+       "corect": 0,
+       "explicatie": "După „did”, verbul revine la forma de bază."
+      },
+      {
+       "intrebare": "„While I was cooking, the phone rang.” conține:",
+       "optiuni": [
+        "o acțiune lungă și una scurtă care o întrerupe",
+        "două acțiuni simultane încheiate",
+        "o obișnuință din trecut",
+        "un adevăr general"
+       ],
+       "corect": 0,
+       "explicatie": "„While” introduce, de regulă, acțiunea lungă."
+      },
+      {
+       "intrebare": "Trecutul verbului „go” este:",
+       "optiuni": [
+        "went",
+        "goed",
+        "gone",
+        "going"
+       ],
+       "corect": 0,
+       "explicatie": "„Gone” este participiul trecut."
+      }
+     ]
+    },
+    {
+     "id": "eng9-03",
+     "titlu": "Present Perfect și viitorul",
+     "rezumat": "Present Perfect leagă trecutul de prezent: exprimă experiențe de viață fără moment precizat („I have visited Paris”), acțiuni recente cu rezultat prezent („I have lost my keys”) și acțiuni care continuă până acum („I have lived here for five years”). Se formează cu have/has plus participiul trecut. Adverbe tipice: ever, never, already, yet, just, recently, since, for. Regula esențială: dacă momentul din trecut este precizat, se folosește Past Simple, nu Present Perfect. Viitorul se exprimă în mai multe feluri. Will: decizii luate în momentul vorbirii, predicții, promisiuni. Be going to: intenții deja stabilite și predicții bazate pe dovezi prezente. Present Continuous: aranjamente ferme, cu dată și loc. Present Simple: programe fixe, orare. Alegerea între ele nu este liberă: fiecare exprimă un alt tip de raportare la viitor.",
+     "ideiCheie": [
+      "Present Perfect leagă trecutul de prezent; momentul nu este precizat.",
+      "Cu moment precizat se folosește Past Simple, nu Present Perfect.",
+      "Will: decizii de moment, predicții; be going to: intenții și dovezi prezente.",
+      "Present Continuous: aranjamente ferme; Present Simple: orare."
+     ],
+     "termeni": [
+      {
+       "t": "present perfect",
+       "d": "timp care leagă o acțiune trecută de prezent, fără moment precizat"
+      },
+      {
+       "t": "be going to",
+       "d": "construcție care exprimă intenția stabilită sau predicția bazată pe dovezi"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Când se folosește Present Perfect?",
+       "v": "Pentru experiențe fără moment precizat, acțiuni recente cu rezultat prezent și acțiuni care continuă până acum."
+      },
+      {
+       "f": "Ce se folosește când momentul din trecut este precizat?",
+       "v": "Past Simple."
+      },
+      {
+       "f": "Ce exprimă „be going to”?",
+       "v": "Intenția deja stabilită sau o predicție bazată pe dovezi prezente."
+      },
+      {
+       "f": "Ce timp se folosește pentru orare și programe fixe?",
+       "v": "Present Simple."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Forma corectă este:",
+       "optiuni": [
+        "„I saw him yesterday.”",
+        "„I have seen him yesterday.”",
+        "„I have saw him yesterday.”",
+        "„I was seeing him yesterday.”"
+       ],
+       "corect": 0,
+       "explicatie": "Momentul precizat cere Past Simple."
+      },
+      {
+       "intrebare": "„Look at those clouds! It ______ rain.” Forma potrivită este:",
+       "optiuni": [
+        "is going to",
+        "will",
+        "is raining",
+        "rains"
+       ],
+       "corect": 0,
+       "explicatie": "Predicția bazată pe dovezi prezente cere „be going to”."
+      },
+      {
+       "intrebare": "„I have lived here ______ 2015.” Cuvântul potrivit este:",
+       "optiuni": [
+        "since",
+        "for",
+        "ago",
+        "during"
+       ],
+       "corect": 0,
+       "explicatie": "„Since” marchează momentul de început, „for” durata."
+      },
+      {
+       "intrebare": "„The train ______ at 7.30.” Pentru un orar fix se folosește:",
+       "optiuni": [
+        "leaves",
+        "is leaving",
+        "will leave",
+        "is going to leave"
+       ],
+       "corect": 0,
+       "explicatie": "Programele fixe se exprimă cu Present Simple."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "eng9-c2",
+   "titlu": "Structuri de bază",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "eng9-04",
+     "titlu": "Substantivul, articolul, cuantificatorii",
+     "rezumat": "Substantivele englezești sunt numărabile (countable: book–books) sau nenumărabile (uncountable: water, information, advice, furniture). Cele nenumărabile nu au plural și nu primesc articolul „a/an”; cantitatea se exprimă prin expresii: a piece of advice, a glass of water, some information. Articolul nehotărât „a/an” se folosește la prima menționare a unui substantiv numărabil singular; „an” înaintea sunetului vocalic. Articolul hotărât „the” se folosește când obiectul este identificat, unic sau deja menționat. Articolul zero apare la substantive nenumărabile și la plurale cu sens general: „Books are useful”. Cuantificatorii: much (nenumărabile), many (numărabile), a lot of (ambele), a few (numărabile, sens pozitiv), a little (nenumărabile), few și little (sens negativ, „prea puțin”).",
+     "ideiCheie": [
+      "Substantive numărabile și nenumărabile; cele nenumărabile nu au plural.",
+      "„A/an” la prima menționare; „the” pentru obiecte identificate sau unice.",
+      "Articolul zero: nenumărabile și plurale cu sens general.",
+      "Much/many, a few/a little, few/little — folosire diferită după numărabilitate și sens."
+     ],
+     "termeni": [
+      {
+       "t": "uncountable noun",
+       "d": "substantiv fără formă de plural, precum information sau advice"
+      },
+      {
+       "t": "zero article",
+       "d": "absența articolului, la nenumărabile și la plurale cu sens general"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce substantive nu au plural în engleză?",
+       "v": "Cele nenumărabile: information, advice, furniture, water."
+      },
+      {
+       "f": "Când se folosește „the”?",
+       "v": "Când obiectul este identificat, unic sau a fost deja menționat."
+      },
+      {
+       "f": "Care e diferența dintre „a few” și „few”?",
+       "v": "„A few” are sens pozitiv (câțiva), „few” are sens negativ (prea puțini)."
+      },
+      {
+       "f": "Cu ce se folosește „much”?",
+       "v": "Cu substantive nenumărabile."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Forma corectă este:",
+       "optiuni": [
+        "„I need some information.”",
+        "„I need some informations.”",
+        "„I need an information.”",
+        "„I need many informations.”"
+       ],
+       "corect": 0,
+       "explicatie": "„Information” este nenumărabil."
+      },
+      {
+       "intrebare": "„She has ______ friends here, so she isn't lonely.” Cuvântul potrivit este:",
+       "optiuni": [
+        "a few",
+        "few",
+        "a little",
+        "much"
+       ],
+       "corect": 0,
+       "explicatie": "„A few” are sens pozitiv."
+      },
+      {
+       "intrebare": "Articolul „an” se folosește înaintea:",
+       "optiuni": [
+        "unui sunet vocalic",
+        "unei litere vocalice, indiferent de sunet",
+        "oricărui substantiv",
+        "substantivelor la plural"
+       ],
+       "corect": 0,
+       "explicatie": "„An hour”, dar „a university”."
+      },
+      {
+       "intrebare": "„______ books are useful.” Pentru sensul general se folosește:",
+       "optiuni": [
+        "articolul zero",
+        "the",
+        "a",
+        "an"
+       ],
+       "corect": 0,
+       "explicatie": "Pluralul cu sens general nu primește articol."
+      }
+     ]
+    },
+    {
+     "id": "eng9-05",
+     "titlu": "Adjectivul, comparația, adverbul",
+     "rezumat": "Adjectivele englezești sunt invariabile: nu își schimbă forma după gen sau număr. Comparativul se formează cu -er pentru adjectivele scurte (tall–taller) și cu „more” pentru cele lungi (interesting–more interesting); superlativul, cu -est, respectiv „the most”. Forme neregulate importante: good–better–best, bad–worse–worst, far–further/farther–furthest/farthest, little–less–least, many/much–more–most. Structurile comparative uzuale: „as … as” (egalitate), „not as … as” (inegalitate), „the … the …” (proporționalitate: „The more you practise, the better you get”). Adverbele de mod se formează, de regulă, cu -ly (quick–quickly), cu excepții: good–well, fast–fast, hard–hard (hardly înseamnă „abia”, nu „din greu”). Ordinea adjectivelor înaintea substantivului urmează o secvență fixă: opinie, mărime, vârstă, formă, culoare, origine, material, scop.",
+     "ideiCheie": [
+      "Adjectivele sunt invariabile; comparativul cu -er sau „more”.",
+      "Neregulate: good–better–best, bad–worse–worst, far–further, little–less.",
+      "Adverbele de mod se formează cu -ly; excepții: well, fast, hard.",
+      "Ordinea adjectivelor: opinie, mărime, vârstă, formă, culoare, origine, material, scop."
+     ],
+     "termeni": [
+      {
+       "t": "comparative",
+       "d": "forma adjectivului care exprimă un grad mai mare, prin -er sau „more”"
+      },
+      {
+       "t": "adverb of manner",
+       "d": "adverb care arată cum se desfășoară acțiunea, format de regulă cu -ly"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se formează comparativul adjectivelor lungi?",
+       "v": "Cu „more” înaintea adjectivului."
+      },
+      {
+       "f": "Care este comparativul lui „good”?",
+       "v": "Better."
+      },
+      {
+       "f": "Ce înseamnă „hardly”?",
+       "v": "„Abia”, nu „din greu”; „hard” este și adjectiv, și adverb."
+      },
+      {
+       "f": "Care este ordinea adjectivelor înaintea substantivului?",
+       "v": "Opinie, mărime, vârstă, formă, culoare, origine, material, scop."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Superlativul lui „bad” este:",
+       "optiuni": [
+        "the worst",
+        "the baddest",
+        "the more bad",
+        "the most bad"
+       ],
+       "corect": 0,
+       "explicatie": "„Bad” are forme neregulate: bad–worse–worst."
+      },
+      {
+       "intrebare": "Forma corectă este:",
+       "optiuni": [
+        "„She sings well.”",
+        "„She sings good.”",
+        "„She sings goodly.”",
+        "„She sings better than good.”"
+       ],
+       "corect": 0,
+       "explicatie": "Adverbul de la „good” este „well”."
+      },
+      {
+       "intrebare": "„He hardly works” înseamnă:",
+       "optiuni": [
+        "„Abia dacă muncește.”",
+        "„Muncește din greu.”",
+        "„Muncește repede.”",
+        "„Muncește bine.”"
+       ],
+       "corect": 0,
+       "explicatie": "„He works hard” înseamnă „muncește din greu”."
+      },
+      {
+       "intrebare": "Structura „The more you read, the more you learn” exprimă:",
+       "optiuni": [
+        "o proporționalitate",
+        "o egalitate",
+        "un superlativ",
+        "o negație"
+       ],
+       "corect": 0,
+       "explicatie": "Este structura „the … the …”."
+      }
+     ]
+    },
+    {
+     "id": "eng9-06",
+     "titlu": "Modalele și structurile de bază ale propoziției",
+     "rezumat": "Verbele modale (can, could, may, might, must, should, will, would, shall) exprimă abilitate, permisiune, obligație, probabilitate, sfat. Ele nu primesc -s la persoana a III-a, sunt urmate de infinitiv fără „to” și formează negativul și interogativul fără auxiliar: „She can swim”, „Can she swim?”, „She can't swim”. Must exprimă obligație internă sau deducție logică („He must be tired”); have to exprimă obligație externă; mustn't înseamnă interdicție, iar don't have to înseamnă absența obligației — o distincție esențială. Ordinea cuvintelor în propoziția afirmativă este fixă: subiect, verb, complement direct, apoi mod, loc, timp. Întrebările folosesc inversiunea cu auxiliar; întrebările cu cuvânt interogativ (what, where, when, why, how) îl plasează la început, iar când cuvântul interogativ este subiect, nu se mai face inversiune: „Who called you?”.",
+     "ideiCheie": [
+      "Modalele nu primesc -s și sunt urmate de infinitiv fără „to”.",
+      "Must = obligație internă sau deducție; have to = obligație externă.",
+      "Mustn't = interdicție; don't have to = absența obligației.",
+      "Ordinea: subiect, verb, complement, mod, loc, timp."
+     ],
+     "termeni": [
+      {
+       "t": "modal verb",
+       "d": "verb care exprimă abilitate, permisiune, obligație sau probabilitate"
+      },
+      {
+       "t": "word order",
+       "d": "ordinea fixă a elementelor în propoziția engleză"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se comportă verbele modale?",
+       "v": "Nu primesc -s, sunt urmate de infinitiv fără „to”, formează negativul fără auxiliar."
+      },
+      {
+       "f": "Care e diferența dintre „mustn't” și „don't have to”?",
+       "v": "„Mustn't” înseamnă interdicție, „don't have to” înseamnă absența obligației."
+      },
+      {
+       "f": "Ce exprimă „must” în „He must be tired”?",
+       "v": "O deducție logică, nu o obligație."
+      },
+      {
+       "f": "Care este ordinea complementelor în propoziția engleză?",
+       "v": "Mod, loc, timp."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„You mustn't smoke here” înseamnă:",
+       "optiuni": [
+        "este interzis să fumezi aici",
+        "nu ești obligat să fumezi",
+        "poți fuma dacă vrei",
+        "ar trebui să nu fumezi"
+       ],
+       "corect": 0,
+       "explicatie": "„Don't have to” exprimă absența obligației."
+      },
+      {
+       "intrebare": "Forma corectă este:",
+       "optiuni": [
+        "„She can speak French.”",
+        "„She cans speak French.”",
+        "„She can to speak French.”",
+        "„She can speaks French.”"
+       ],
+       "corect": 0,
+       "explicatie": "Modalele nu primesc -s și cer infinitiv fără „to”."
+      },
+      {
+       "intrebare": "„Who called you?” nu are inversiune deoarece:",
+       "optiuni": [
+        "cuvântul interogativ este subiectul propoziției",
+        "este o întrebare indirectă",
+        "verbul este la trecut",
+        "lipsește auxiliarul"
+       ],
+       "corect": 0,
+       "explicatie": "Când „who” este subiect, ordinea rămâne directă."
+      },
+      {
+       "intrebare": "Ordinea corectă este:",
+       "optiuni": [
+        "„She sang beautifully at the concert last night.”",
+        "„She sang last night beautifully at the concert.”",
+        "„She sang at the concert beautifully last night.”",
+        "„She last night sang beautifully at the concert.”"
+       ],
+       "corect": 0,
+       "explicatie": "Mod, apoi loc, apoi timp."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "eng9-c3",
+   "titlu": "Comunicare și vocabular",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "eng9-07",
+     "titlu": "Vocabular tematic esențial",
+     "rezumat": "Vocabularul de bază se organizează pe câmpuri tematice: familia și relațiile, casa și orașul, școala și materiile, munca și profesiile, mâncarea, sănătatea, călătoriile, timpul liber, vremea, mediul, tehnologia. Învățarea eficientă se face în context și în colocații, nu în liste izolate: „make a decision”, „take a photo”, „do homework”, „have breakfast” — combinații care nu se pot deduce din traducerea cuvântului. Formarea cuvintelor multiplică vocabularul fără efort proporțional: prefixe de negație (un-, in-, im-, dis-, il-, ir-), prefixe de sens (re-, over-, under-, mis-, pre-), sufixe care schimbă clasa gramaticală (-tion, -ment, -ness, -ity pentru substantive; -ful, -less, -able, -ive pentru adjective; -ly pentru adverbe; -ise/-ize, -en pentru verbe). Cunoscând un cuvânt de bază și sistemul de afixe, poți recunoaște zeci de derivate.",
+     "ideiCheie": [
+      "Vocabularul se învață pe câmpuri tematice și în colocații.",
+      "Colocațiile (make/do/take/have) nu se pot deduce prin traducere directă.",
+      "Prefixe de negație: un-, in-, im-, dis-, il-, ir-.",
+      "Sufixele schimbă clasa gramaticală: -tion, -ment, -ness; -ful, -less, -able; -ly."
+     ],
+     "termeni": [
+      {
+       "t": "collocation",
+       "d": "combinație obișnuită de cuvinte, care nu se poate deduce prin traducere directă"
+      },
+      {
+       "t": "affix",
+       "d": "prefix sau sufix adăugat unui cuvânt de bază pentru a forma un cuvânt nou"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "De ce se învață vocabularul în colocații?",
+       "v": "Pentru că multe combinații nu se pot deduce prin traducere directă."
+      },
+      {
+       "f": "Ce prefixe exprimă negația?",
+       "v": "Un-, in-, im-, dis-, il-, ir-."
+      },
+      {
+       "f": "Ce sufixe formează substantive?",
+       "v": "-tion, -ment, -ness, -ity."
+      },
+      {
+       "f": "Ce înseamnă „make a decision”?",
+       "v": "A lua o decizie — o colocație fixă, nu „to take a decision”."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Colocația corectă este:",
+       "optiuni": [
+        "„make a decision”",
+        "„do a decision”",
+        "„take a decision” (în engleza standard americană)",
+        "„have a decision”"
+       ],
+       "corect": 0,
+       "explicatie": "Colocațiile se învață ca unități."
+      },
+      {
+       "intrebare": "Prefixul „ir-” se folosește, de regulă, înaintea cuvintelor care încep cu:",
+       "optiuni": [
+        "r",
+        "l",
+        "m sau p",
+        "vocală"
+       ],
+       "corect": 0,
+       "explicatie": "„Irregular”, „illegal”, „impossible”, „inactive”."
+      },
+      {
+       "intrebare": "Sufixul „-less” formează:",
+       "optiuni": [
+        "adjective cu sens privativ",
+        "substantive",
+        "adverbe",
+        "verbe"
+       ],
+       "corect": 0,
+       "explicatie": "„Homeless”, „useless”, „careless”."
+      },
+      {
+       "intrebare": "„Do homework” și „make a mistake” arată că:",
+       "optiuni": [
+        "verbele „do” și „make” au colocații distincte",
+        "cele două verbe sunt sinonime",
+        "ambele se traduc identic",
+        "alegerea este liberă"
+       ],
+       "corect": 0,
+       "explicatie": "Regula generală: „do” pentru activități, „make” pentru creație și rezultate."
+      }
+     ]
+    },
+    {
+     "id": "eng9-08",
+     "titlu": "Comunicare în situații cotidiene",
+     "rezumat": "Funcțiile comunicative de bază: a saluta și a te prezenta, a cere și a da informații, a face și a accepta sau refuza o invitație, a cere permisiunea, a cere ajutor, a-ți exprima părerea, a fi de acord sau nu, a face o rezervare, a face o reclamație, a-ți cere scuze. Registrul contează. Formal: „Could you tell me…?”, „I would like to…”, „I'm afraid I can't”. Informal: „Can you tell me…?”, „I want…”, „Sorry, I can't”. Politețea în engleză se exprimă prin structuri indirecte și modale, nu prin cuvinte suplimentare: „Could you possibly help me?” e mai politicos decât „Please help me”. Formule utile pentru menținerea conversației: „That's interesting”, „Really?”, „What about you?”, „I see what you mean, but…”.",
+     "ideiCheie": [
+      "Funcții de bază: salut, informare, invitație, permisiune, opinie, acord, reclamație, scuze.",
+      "Registrul formal folosește structuri indirecte și modale.",
+      "Politețea în engleză vine din indirecte, nu din cuvinte suplimentare.",
+      "Formulele de menținere a conversației arată interes și cer continuarea."
+     ],
+     "termeni": [
+      {
+       "t": "register",
+       "d": "nivelul de formalitate al limbajului, adaptat situației de comunicare"
+      },
+      {
+       "t": "indirect question",
+       "d": "întrebare formulată politicos, prin structură subordonată"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se exprimă politețea în engleză?",
+       "v": "Prin structuri indirecte și verbe modale, nu prin adăugarea de cuvinte."
+      },
+      {
+       "f": "Ce este registrul?",
+       "v": "Nivelul de formalitate al limbajului, adaptat situației."
+      },
+      {
+       "f": "Dă un exemplu de întrebare indirectă politicoasă.",
+       "v": "„Could you tell me where the station is?”"
+      },
+      {
+       "f": "Ce formule mențin o conversație?",
+       "v": "„Really?”, „That's interesting”, „What about you?”."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Cea mai politicoasă formulare este:",
+       "optiuni": [
+        "„Could you possibly help me?”",
+        "„Help me.”",
+        "„I want you to help me.”",
+        "„You must help me.”"
+       ],
+       "corect": 0,
+       "explicatie": "Modalul și structura indirectă marchează politețea."
+      },
+      {
+       "intrebare": "Într-o întrebare indirectă, ordinea cuvintelor este:",
+       "optiuni": [
+        "directă, ca într-o afirmație",
+        "inversată, ca într-o întrebare",
+        "liberă",
+        "cu auxiliar dublu"
+       ],
+       "corect": 0,
+       "explicatie": "Corect: „Could you tell me where he is?”, nu „…where is he?”."
+      },
+      {
+       "intrebare": "Registrul formal se recunoaște prin:",
+       "optiuni": [
+        "structuri indirecte, modale și absența prescurtărilor",
+        "cuvinte lungi",
+        "propoziții scurte",
+        "folosirea imperativului"
+       ],
+       "corect": 0,
+       "explicatie": "Prescurtările („I'm”, „can't”) aparțin registrului informal."
+      },
+      {
+       "intrebare": "„I'm afraid I can't” este o formulă de:",
+       "optiuni": [
+        "refuz politicos",
+        "acord",
+        "scuză",
+        "invitație"
+       ],
+       "corect": 0,
+       "explicatie": "Ea atenuează refuzul."
+      }
+     ]
+    },
+    {
+     "id": "eng9-09",
+     "titlu": "Citit, scris și strategii de învățare",
+     "rezumat": "Citirea eficientă folosește trei strategii: skimming (parcurgere rapidă pentru ideea generală), scanning (căutarea unei informații precise) și lectura detaliată. Nu se caută fiecare cuvânt necunoscut în dicționar: sensul se deduce din context, din familia de cuvinte și din structura frazei; dicționarul se folosește pentru cuvintele-cheie care blochează înțelegerea. Scrierea de bază: e-mailul informal și cel formal, descrierea unei persoane sau a unui loc, povestirea unei întâmplări, opinia scurtă. Structura contează: introducere, cuprins organizat pe paragrafe, încheiere, plus conectori (however, therefore, in addition, for example, on the other hand). Strategiile de învățare care funcționează: expunerea zilnică scurtă în locul sesiunilor lungi și rare, ascultarea cu subtitrări în engleză, notarea cuvintelor noi în context, repetiția eșalonată și vorbirea, fie și cu greșeli — corectitudinea vine din practică, nu înaintea ei.",
+     "ideiCheie": [
+      "Strategii de citire: skimming, scanning, lectură detaliată.",
+      "Sensul cuvintelor necunoscute se deduce din context, nu se caută tot în dicționar.",
+      "Textele scrise cer structură pe paragrafe și conectori.",
+      "Expunerea zilnică scurtă bate sesiunile lungi și rare."
+     ],
+     "termeni": [
+      {
+       "t": "skimming",
+       "d": "parcurgerea rapidă a unui text pentru ideea generală"
+      },
+      {
+       "t": "connector",
+       "d": "cuvânt care leagă ideile dintr-un text (however, therefore, in addition)"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este skimming-ul?",
+       "v": "Parcurgerea rapidă a unui text pentru a prinde ideea generală."
+      },
+      {
+       "f": "Ce este scanning-ul?",
+       "v": "Căutarea rapidă a unei informații precise într-un text."
+      },
+      {
+       "f": "Cum se deduce sensul unui cuvânt necunoscut?",
+       "v": "Din context, din familia de cuvinte și din structura frazei."
+      },
+      {
+       "f": "Ce strategie de învățare funcționează cel mai bine?",
+       "v": "Expunerea zilnică scurtă, cu repetiție eșalonată."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Când cauți ora de plecare a unui tren într-un orar, folosești:",
+       "optiuni": [
+        "scanning",
+        "skimming",
+        "lectura detaliată",
+        "traducerea integrală"
+       ],
+       "corect": 0,
+       "explicatie": "Scanning-ul caută o informație precisă."
+      },
+      {
+       "intrebare": "Căutarea în dicționar a fiecărui cuvânt necunoscut:",
+       "optiuni": [
+        "încetinește lectura și împiedică deducerea din context",
+        "este metoda recomandată",
+        "îmbunătățește memorarea",
+        "este necesară pentru înțelegere"
+       ],
+       "corect": 0,
+       "explicatie": "Se caută doar cuvintele-cheie care blochează sensul."
+      },
+      {
+       "intrebare": "Conectorul „however” exprimă:",
+       "optiuni": [
+        "un contrast",
+        "o consecință",
+        "o adăugare",
+        "un exemplu"
+       ],
+       "corect": 0,
+       "explicatie": "„Therefore” exprimă consecința."
+      },
+      {
+       "intrebare": "Vorbirea cu greșeli, în etapa de învățare:",
+       "optiuni": [
+        "este necesară, fiindcă corectitudinea vine din practică",
+        "trebuie evitată",
+        "consolidează erorile definitiv",
+        "împiedică progresul"
+       ],
+       "corect": 0,
+       "explicatie": "Evitarea vorbirii întârzie cel mai mult progresul."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "teze": [
+  {
+   "semestru": 1,
+   "test": [
+    {
+     "intrebare": "Present Simple se folosește pentru:",
+     "optiuni": [
+      "obișnuințe și adevăruri generale",
+      "acțiuni în desfășurare acum",
+      "acțiuni recent încheiate",
+      "planuri de moment"
+     ],
+     "corect": 0,
+     "explicatie": "Adverbele tipice sunt always, usually, never."
+    },
+    {
+     "intrebare": "Forma corectă este:",
+     "optiuni": [
+      "„He doesn't work here.”",
+      "„He doesn't works here.”",
+      "„He don't work here.”",
+      "„He isn't work here.”"
+     ],
+     "corect": 0,
+     "explicatie": "După „doesn't”, verbul revine la forma de bază."
+    },
+    {
+     "intrebare": "Verbele de stare (know, like, believe):",
+     "optiuni": [
+      "nu se folosesc, de regulă, la forma continuă",
+      "se folosesc numai la forma continuă",
+      "se folosesc doar la trecut",
+      "nu au forme de prezent"
+     ],
+     "corect": 0,
+     "explicatie": "Corect: „I know”, nu „I am knowing”."
+    },
+    {
+     "intrebare": "Trecutul verbului „go” este:",
+     "optiuni": [
+      "went",
+      "goed",
+      "gone",
+      "going"
+     ],
+     "corect": 0,
+     "explicatie": "„Gone” este participiul trecut."
+    },
+    {
+     "intrebare": "„I was reading when he called” conține:",
+     "optiuni": [
+      "o acțiune lungă întreruptă de una scurtă",
+      "două acțiuni simultane încheiate",
+      "o obișnuință trecută",
+      "un plan de viitor"
+     ],
+     "corect": 0,
+     "explicatie": "Acțiunea scurtă e la Past Simple."
+    },
+    {
+     "intrebare": "Cu un moment precizat din trecut se folosește:",
+     "optiuni": [
+      "Past Simple",
+      "Present Perfect",
+      "Present Continuous",
+      "Past Perfect"
+     ],
+     "corect": 0,
+     "explicatie": "„I saw him yesterday”, nu „I have seen him yesterday”."
+    },
+    {
+     "intrebare": "„Look at those clouds! It ______ rain.”",
+     "optiuni": [
+      "is going to",
+      "will",
+      "rains",
+      "is raining"
+     ],
+     "corect": 0,
+     "explicatie": "Predicția bazată pe dovezi cere „be going to”."
+    },
+    {
+     "intrebare": "„Information” este un substantiv:",
+     "optiuni": [
+      "nenumărabil",
+      "numărabil",
+      "cu plural neregulat",
+      "colectiv"
+     ],
+     "corect": 0,
+     "explicatie": "Corect: „some information”, nu „informations”."
+    },
+    {
+     "intrebare": "„She has a few friends” înseamnă:",
+     "optiuni": [
+      "are câțiva prieteni (sens pozitiv)",
+      "are prea puțini prieteni",
+      "nu are prieteni",
+      "are mulți prieteni"
+     ],
+     "corect": 0,
+     "explicatie": "„Few” fără articol are sens negativ."
+    },
+    {
+     "intrebare": "Superlativul lui „bad” este:",
+     "optiuni": [
+      "the worst",
+      "the baddest",
+      "the most bad",
+      "the more bad"
+     ],
+     "corect": 0,
+     "explicatie": "Formele sunt bad–worse–worst."
+    },
+    {
+     "intrebare": "Adverbul de la „good” este:",
+     "optiuni": [
+      "well",
+      "goodly",
+      "gooder",
+      "best"
+     ],
+     "corect": 0,
+     "explicatie": "„She sings well”, nu „She sings good”."
+    },
+    {
+     "intrebare": "„He hardly works” înseamnă:",
+     "optiuni": [
+      "abia dacă muncește",
+      "muncește din greu",
+      "muncește repede",
+      "muncește bine"
+     ],
+     "corect": 0,
+     "explicatie": "„He works hard” înseamnă „muncește din greu”."
+    }
+   ]
+  },
+  {
+   "semestru": 2,
+   "test": [
+    {
+     "intrebare": "Verbele modale sunt urmate de:",
+     "optiuni": [
+      "infinitiv fără „to”",
+      "infinitiv cu „to”",
+      "gerunziu",
+      "participiu"
+     ],
+     "corect": 0,
+     "explicatie": "„She can swim”, nu „She can to swim”."
+    },
+    {
+     "intrebare": "„You mustn't smoke here” înseamnă:",
+     "optiuni": [
+      "este interzis să fumezi",
+      "nu ești obligat să fumezi",
+      "ar trebui să nu fumezi",
+      "poți alege"
+     ],
+     "corect": 0,
+     "explicatie": "„Don't have to” exprimă absența obligației."
+    },
+    {
+     "intrebare": "„He must be tired” exprimă:",
+     "optiuni": [
+      "o deducție logică",
+      "o obligație",
+      "o permisiune",
+      "o interdicție"
+     ],
+     "corect": 0,
+     "explicatie": "Modalul „must” are și sens deductiv."
+    },
+    {
+     "intrebare": "Ordinea corectă a complementelor este:",
+     "optiuni": [
+      "mod, loc, timp",
+      "timp, loc, mod",
+      "loc, timp, mod",
+      "timp, mod, loc"
+     ],
+     "corect": 0,
+     "explicatie": "„She sang beautifully at the concert last night.”"
+    },
+    {
+     "intrebare": "În întrebarea „Who called you?” nu apare inversiune deoarece:",
+     "optiuni": [
+      "„who” este subiectul",
+      "verbul e la trecut",
+      "lipsește auxiliarul",
+      "este întrebare indirectă"
+     ],
+     "corect": 0,
+     "explicatie": "Când cuvântul interogativ e subiect, ordinea rămâne directă."
+    },
+    {
+     "intrebare": "Colocația corectă este:",
+     "optiuni": [
+      "„make a decision”",
+      "„do a decision”",
+      "„have a decision”",
+      "„give a decision”"
+     ],
+     "corect": 0,
+     "explicatie": "„Do” se folosește pentru activități, „make” pentru rezultate."
+    },
+    {
+     "intrebare": "Prefixul „im-” apare, de regulă, înaintea cuvintelor care încep cu:",
+     "optiuni": [
+      "m sau p",
+      "r",
+      "l",
+      "vocală"
+     ],
+     "corect": 0,
+     "explicatie": "„Impossible”, „immature”; „irregular”, „illegal”."
+    },
+    {
+     "intrebare": "Sufixul „-ness” formează:",
+     "optiuni": [
+      "substantive",
+      "adjective",
+      "adverbe",
+      "verbe"
+     ],
+     "corect": 0,
+     "explicatie": "„Happiness”, „kindness”, „darkness”."
+    },
+    {
+     "intrebare": "Cea mai politicoasă formulare este:",
+     "optiuni": [
+      "„Could you possibly help me?”",
+      "„Help me.”",
+      "„I want help.”",
+      "„You should help me.”"
+     ],
+     "corect": 0,
+     "explicatie": "Politețea vine din structura indirectă și din modal."
+    },
+    {
+     "intrebare": "Într-o întrebare indirectă, ordinea cuvintelor este:",
+     "optiuni": [
+      "directă, ca într-o afirmație",
+      "inversată",
+      "liberă",
+      "cu dublu auxiliar"
+     ],
+     "corect": 0,
+     "explicatie": "„Could you tell me where he is?”"
+    },
+    {
+     "intrebare": "Când cauți o informație precisă într-un text, folosești:",
+     "optiuni": [
+      "scanning",
+      "skimming",
+      "lectura detaliată",
+      "traducerea"
+     ],
+     "corect": 0,
+     "explicatie": "Skimming-ul dă doar ideea generală."
+    },
+    {
+     "intrebare": "Conectorul „therefore” exprimă:",
+     "optiuni": [
+      "o consecință",
+      "un contrast",
+      "o adăugare",
+      "un exemplu"
+     ],
+     "corect": 0,
+     "explicatie": "„However” exprimă contrastul."
+    }
+   ]
+  }
+ ]
+}

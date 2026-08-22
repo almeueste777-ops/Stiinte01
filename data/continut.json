@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 29,
-  "nrLectii": 301,
-  "nrCarduri": 1204,
-  "nrIntrebari": 1904,
+  "nrModule": 30,
+  "nrLectii": 310,
+  "nrCarduri": 1240,
+  "nrIntrebari": 1964,
   "module": [
     {
       "id": "geografie-9",
@@ -309,6 +309,88 @@
             {
               "id": "log9-16",
               "titlu": "Argumentarea în viața cotidiană"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "engleza-9",
+      "materie": "Limba modernă 1 (Engleză)",
+      "clasa": "a IX-a",
+      "an": 1,
+      "arie": "Limbă și comunicare",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Bazele limbii engleze: timpurile de bază, substantivul și articolul, vocabularul esențial și comunicarea în situații cotidiene.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 60,
+      "capitole": [
+        {
+          "id": "eng9-c1",
+          "titlu": "Timpurile verbale de bază",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "eng9-01",
+              "titlu": "Present Simple și Present Continuous"
+            },
+            {
+              "id": "eng9-02",
+              "titlu": "Past Simple și Past Continuous"
+            },
+            {
+              "id": "eng9-03",
+              "titlu": "Present Perfect și viitorul"
+            }
+          ]
+        },
+        {
+          "id": "eng9-c2",
+          "titlu": "Structuri de bază",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "eng9-04",
+              "titlu": "Substantivul, articolul, cuantificatorii"
+            },
+            {
+              "id": "eng9-05",
+              "titlu": "Adjectivul, comparația, adverbul"
+            },
+            {
+              "id": "eng9-06",
+              "titlu": "Modalele și structurile de bază ale propoziției"
+            }
+          ]
+        },
+        {
+          "id": "eng9-c3",
+          "titlu": "Comunicare și vocabular",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "eng9-07",
+              "titlu": "Vocabular tematic esențial"
+            },
+            {
+              "id": "eng9-08",
+              "titlu": "Comunicare în situații cotidiene"
+            },
+            {
+              "id": "eng9-09",
+              "titlu": "Citit, scris și strategii de învățare"
             }
           ]
         }
