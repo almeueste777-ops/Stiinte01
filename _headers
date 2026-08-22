@@ -1,3 +1,7 @@
+# ATENȚIE dacă se adaugă vreodată Content-Security-Policy: index.html conține
+# un script INLINE în <head> (bootstrap-ul de temă), care trebuie să rămână
+# permis. Fără el, preferințele vizuale nu se mai aplică — vezi plasa de
+# siguranță pentru mișcare redusă din finalul assets/app.css.
 /*
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin

@@ -1732,6 +1732,31 @@ button.cap-head:active{background:var(--hover-tint)}
 :root:where([data-miscare="redusa"]) .tab .ico.pop{ animation:none !important }
 :root:where([data-miscare="redusa"]) .incarc::before{ animation:none !important }
 
+/* ── PLASĂ DE SIGURANȚĂ, fără JavaScript ────────────────────────────────────
+   Toate regulile de mai sus depind de atributul `data-miscare`, pus de
+   bootstrap-ul inline din index.html. Dacă acel script NU rulează (o politică
+   CSP adăugată ulterior, o extensie de blocare), un utilizator cu
+   `prefers-reduced-motion: reduce` ar primi toate animațiile — o problemă
+   reală de accesibilitate, nu una estetică. `:not([data-miscare])` prinde
+   exact cazul în care bootstrap-ul n-a apucat să scrie atributul; când el
+   rulează, blocul de mai jos nu se aplică niciodată.
+
+   Nu duplicăm designul, doar neutralizăm mișcarea: paleta rămâne cu o singură
+   sursă de adevăr, blocul `[data-tema="intunecat"]` de la §1. Tema care cade
+   pe „luminos” fără JS e o degradare vizuală acceptabilă — mișcarea care
+   rămâne pornită nu este. */
+@media (prefers-reduced-motion: reduce) {
+  :root:not([data-miscare]) *,
+  :root:not([data-miscare]) *::before,
+  :root:not([data-miscare]) *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+    scroll-behavior: auto !important;
+  }
+  :root:not([data-miscare]) .view-ghost { display: none !important }
+}
+
 /* ══════════════════════════════════════════════════════════════════════════
    NOTE DE PERFORMANȚĂ (pentru cine întreține fișierul)
 

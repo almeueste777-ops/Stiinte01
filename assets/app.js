@@ -55,10 +55,17 @@
      Stiva e mai fiabilă decât simpla comparație de adâncime, fiindcă prinde
      corect și butonul „înapoi” al browserului. Adâncimea rămâne plasă de
      siguranță pentru linkuri directe care nu există în stivă. */
+  /* Setările au adâncimea 0 (rută fără argumente), dar NU sunt o rădăcină: se
+     deschid peste ecranul curent, din rotița barei de sus, și „înapoi” trebuie
+     să întoarcă exact acolo. Tratate ca rădăcină, goleau stiva, iar ecranul de
+     dinainte reintra alunecând dinspre dreapta — adică fix pe dos. */
+  const esteSuprapunere = h => /^#\/setari(\/|$)/.test(String(h));
+
   function navDirection(hash) {
     if (!navStack.length) { navStack = [hash]; return 'fade'; }        // prima randare
     const top = navStack[navStack.length - 1];
     if (hash === top) return 'replace';                                // re-randare
+    if (esteSuprapunere(hash)) { navStack.push(hash); return 'push'; }
     /* Rădăcina se testează PRIMA: un tab nu alunecă niciodată lateral, nici
        dacă ecranul lui se mai află undeva în stivă. */
     if (routeDepth(hash) === 0) { navStack = [hash]; return 'fade'; }
@@ -128,12 +135,21 @@
   /* Numerotează elementele de nivel 1 pentru cascadă (--i) și le marchează (.enter).
      `restagger` repornește cascada fără schimbare de rută (întrebarea următoare,
      cardul următor din pachet). */
+  /* Elementele de nivel 1 ale ecranului. `#lista-materii` și `#clasa-panou`
+     sunt containere care se rescriu singure la căutare/filtrare, deci copiii
+     lor trebuie enumerați explicit: altfel ecranul Materii apărea dintr-o
+     dată, fără cascadă — o regresie față de v02, când lista era direct în
+     `#view`. */
   const STAGGER_SEL = ':scope > p, :scope > h2, :scope > .card, :scope > .chips, ' +
                       ':scope > .grid2, :scope > .btn, :scope > .flip, ' +
                       ':scope > .lista, :scope > .cap, :scope > .stats, ' +
-                      ':scope > .crumb, :scope > .seg, :scope > .cauta, ' +
+                      ':scope > .crumb, :scope > .cauta, ' +
                       ':scope > #opt > .opt, :scope > #card-actions, ' +
-                      ':scope > .grid-cards > *, :scope > .two-col > *, :scope > #clasa-panou > *';
+                      ':scope > .grid-cards > *, :scope > .two-col > *, ' +
+                      ':scope > #clasa-panou > *, ' +
+                      ':scope > #lista-materii > h2, ' +
+                      ':scope > #lista-materii > .card, ' +
+                      ':scope > #lista-materii > .grid-cards > *';
   function paint(restagger) {
     view.querySelectorAll(STAGGER_SEL).forEach((el, i) => {
       el.style.setProperty('--i', i);
@@ -179,16 +195,61 @@
     clasa: 'a XII-a', zile: {}, ultima: '', setari: Object.assign({}, SETARI)
   });
 
+  /* Valorile admise pentru setările cu listă închisă. Orice altceva —
+     dintr-un import, dintr-o versiune veche sau dintr-un `localStorage`
+     stricat — cade pe implicit. Fără asta, `data-tema="banana"` nu potrivea
+     niciun selector (paletă implicită, niciun segment aprins în Setări). */
+  const VALORI = {
+    tema: ['auto', 'luminos', 'intunecat'],
+    contrast: ['auto', 'normal', 'ridicat'],
+    miscare: ['auto', 'completa', 'redusa'],
+    transparenta: ['auto', 'completa', 'redusa'],
+    densitate: ['compact', 'confortabil', 'spatios'],
+    font: ['sistem', 'serif', 'lizibil'],
+    ecranStart: ['acasa', 'materii', 'ultima'],
+    ordineCarduri: ['aleatorie', 'ordine', 'grele']
+  };
+  const LIMITE = {                       // [min, max] pentru setările numerice
+    marimeText: [80, 150], obiectivZilnic: [1, 20], nrIntrebari: [0, 40],
+    cronometru: [0, 60], nrCarduri: [0, 100]
+  };
+
+  /* Curăță o stare venită din afară (localStorage sau fișier de import).
+     Întoarce ÎNTOTDEAUNA un obiect complet și valid — niciodată `null` pe
+     câmpurile pe care restul codului le parcurge cu `Object.keys`. */
+  function sanitizeaza(brut) {
+    const s = STARE_GOALA();
+    if (!brut || typeof brut !== 'object' || Array.isArray(brut)) return s;
+
+    const obiect = v => (v && typeof v === 'object' && !Array.isArray(v)) ? v : {};
+    s.lectiiCitite = obiect(brut.lectiiCitite);
+    s.carduri = obiect(brut.carduri);
+    s.teste = obiect(brut.teste);
+    s.notite = obiect(brut.notite);
+    s.zile = obiect(brut.zile);
+    if (typeof brut.clasa === 'string' && brut.clasa) s.clasa = brut.clasa;
+    if (typeof brut.ultima === 'string') s.ultima = brut.ultima;
+
+    const st = Object.assign({}, SETARI, obiect(brut.setari));
+    for (const k of Object.keys(SETARI)) {
+      const implicit = SETARI[k];
+      let v = st[k];
+      if (VALORI[k]) { if (VALORI[k].indexOf(v) === -1) v = implicit; }
+      else if (LIMITE[k]) {
+        v = Number(v);
+        if (!isFinite(v)) v = implicit;
+        else v = Math.min(LIMITE[k][1], Math.max(LIMITE[k][0], Math.round(v)));
+      } else if (typeof implicit === 'boolean') v = !!v;
+      else if (typeof implicit === 'number') { v = Number(v); if (!isFinite(v)) v = implicit; }
+      st[k] = v;
+    }
+    s.setari = st;
+    return s;
+  }
+
   function load() {
-    try {
-      const brut = JSON.parse(localStorage.getItem(KEY) || '{}');
-      const s = Object.assign(STARE_GOALA(), brut);
-      /* Setările se îmbină cheie cu cheie: o versiune veche a aplicației a
-         salvat mai puține, iar `Object.assign` la nivelul de sus le-ar fi
-         înlocuit pe toate cu obiectul parțial. */
-      s.setari = Object.assign({}, SETARI, brut.setari || {});
-      return s;
-    } catch { return STARE_GOALA(); }
+    try { return sanitizeaza(JSON.parse(localStorage.getItem(KEY) || '{}')); }
+    catch { return STARE_GOALA(); }
   }
   function save() {
     try { localStorage.setItem(KEY, JSON.stringify(state)); } catch { /* quota/private mode */ }
@@ -260,16 +321,57 @@
 
   const mod = id => IDX && IDX.module.find(m => m.id === id);
   const modAn = an => IDX.module.filter(m => m.an === an);
-  const modClasa = clasa => IDX.module.filter(m => m.clasa === clasa);
+  /* Un singur drum de la clasă la module. Înainte, `moduleNecesare` filtra
+     după `m.clasa`, iar `domeniu('clasa')` trecea prin `anClasa()`, care cade
+     pe anul 4 pentru orice clasă necunoscută: la o denumire schimbată,
+     preîncărcarea nu aducea nimic, domeniul cerea modulele altei clase, iar
+     ecranul ieșea gol fără nicio eroare. */
+  const modClasa = clasa => {
+    const dupaNume = IDX.module.filter(m => m.clasa === clasa);
+    if (dupaNume.length) return dupaNume;
+    const an = Number(Object.keys(ROMAN).find(k => ROMAN[k] === clasa));
+    return an ? modAn(an) : [];
+  };
   const toateLectiile = m => m.capitole.reduce((a, c) => a.concat(c.lectii), []);
   const totalLectii = () => IDX.nrLectii || 0;
   const citite = () => Object.keys(state.lectiiCitite).length;
+
+  /* v03 a schimbat COMPLET spațiul de id-uri: lecțiile au trecut de la
+     `filo-01` la `filo12-01`, cheile de card de la `modul:i` la `lecție:i`,
+     iar cheile de test de la `materie:filosofie` la `materie:filosofie-12`.
+     Intersecția cu id-urile din v02 este zero. Fără curățare, un elev venit de
+     pe versiunea veche vedea „20/580 lecții citite” și o medie calculată din
+     teste care nu mai corespund niciunui domeniu, în timp ce fiecare lecție
+     apărea necitită. Rulează o singură dată, după ce indexul e disponibil. */
+  function curataProgresulOrfan() {
+    if (!IDX) return;
+    const lectii = new Set();
+    IDX.module.forEach(m => m.capitole.forEach(c => c.lectii.forEach(l => lectii.add(l.id))));
+    const module_ = new Set(IDX.module.map(m => m.id));
+
+    let sters = 0;
+    const taie = (obiect, tine) => {
+      for (const k of Object.keys(obiect)) if (!tine(k)) { delete obiect[k]; sters++; }
+    };
+    taie(state.lectiiCitite, k => lectii.has(k));
+    taie(state.notite, k => lectii.has(k));
+    /* Cheia de card e `idLecție:index`. */
+    taie(state.carduri, k => lectii.has(String(k).slice(0, String(k).lastIndexOf(':'))));
+    /* Cheile de test: `lectie:<modul>:<lecție>`, `capitol:<modul>:<capitol>`,
+       `materie:<modul>`, `teza:<modul>:<semestru>`, `an:<n>`. Ultima nu conține
+       id-uri, deci se păstrează; restul trebuie să trimită la ceva existent. */
+    taie(state.teste, k => {
+      const p = String(k).split(':');
+      if (p[0] === 'lectie') return module_.has(p[1]) && lectii.has(p[2]);
+      if (p[0] === 'capitol' || p[0] === 'materie' || p[0] === 'teza') return module_.has(p[1]);
+      return true;
+    });
+    if (sters) save();
+  }
   const cititeDin = m => toateLectiile(m).filter(l => state.lectiiCitite[l.id]).length;
   const azi = () => new Date().toISOString().slice(0, 10);
 
   const ROMAN = { 1: 'a IX-a', 2: 'a X-a', 3: 'a XI-a', 4: 'a XII-a', 5: 'a XIII-a' };
-  const anClasa = clasa => Number(Object.keys(ROMAN).find(k => ROMAN[k] === clasa)) || 4;
-
   function shuffle(a) {
     const r = a.slice();
     for (let i = r.length - 1; i > 0; i--) {
@@ -347,6 +449,7 @@
   }
 
   let renderToken = 0;
+  let partialLipsa = 0;      // module care n-au ajuns la ultima randare
 
   async function render() {
     const token = ++renderToken;
@@ -367,22 +470,42 @@
         if (token !== renderToken) return;
         view.innerHTML = '<div class="incarc">Se încarcă modulul…</div>';
       }, 400);
-      try { await Promise.all(lipsa.map(ceriModul)); }
-      catch {
-        clearTimeout(t);
-        if (token !== renderToken) return;
+      /* `allSettled`, nu `all`: pentru „toată clasa” se cer 11-13 module
+         deodată, iar `all` respinge la primul eșec — 10 module sosite complet
+         ajungeau într-un ecran de eroare din cauza unuia singur. Randăm cu ce
+         avem și spunem cinstit ce lipsește. */
+      const rez = await Promise.allSettled(lipsa.map(ceriModul));
+      clearTimeout(t);
+      if (token !== renderToken) return;      // s-a schimbat ruta între timp
+      const cazute = rez.filter(r => r.status === 'rejected').length;
+      if (cazute === lipsa.length) {
         navDirection(hash);
-        view.innerHTML = '<div class="card"><h3>Modulul nu s-a putut încărca</h3>' +
-          '<p class="muted">Verifică fișierul din <code>data/module/</code> și reîncearcă.</p>' +
+        const offline = !navigator.onLine;
+        view.innerHTML = '<div class="card"><h3>Conținutul nu s-a putut încărca</h3>' +
+          '<p class="muted">' + (offline
+            ? 'Ești offline, iar acest modul nu e încă salvat pe dispozitiv. Încearcă din nou când ai internet.'
+            : 'Verifică legătura la internet și reîncearcă.') + '</p>' +
+          '<button class="btn" data-act-rand="reincearca">Reîncearcă</button>' +
           '<button class="btn ghost" data-go="#/materii">Înapoi la materii</button></div>';
+        const b = view.querySelector('[data-act-rand="reincearca"]');
+        if (b) b.onclick = () => render();
         paint(true);
         return;
       }
-      clearTimeout(t);
-      if (token !== renderToken) return;      // s-a schimbat ruta între timp
+      if (cazute) partialLipsa = cazute;      // banner discret, ecranul se randează
     }
 
     deseneaza(hash, name, args);
+
+    if (partialLipsa) {
+      const n = partialLipsa; partialLipsa = 0;
+      const av = document.createElement('div');
+      av.className = 'card';
+      av.innerHTML = '<p class="muted">Conținut parțial: ' + n +
+        (n === 1 ? ' modul nu s-a putut încărca' : ' module nu s-au putut încărca') +
+        '. Ce vezi aici e complet, dar incomplet ca acoperire.</p>';
+      view.insertBefore(av, view.firstChild);
+    }
   }
 
   function eroareDate() {
@@ -597,7 +720,7 @@
       <div class="row"><h3>${esc(m.materie)}</h3>${m.bac ? '<span class="pill">BAC</span>' : ''}</div>
       <p class="muted">${esc(m.descriere)}</p>
       <div class="bar"><i style="--p:${m.nrLectii ? done / m.nrLectii : 0}"></i></div>
-      <p class="muted" style="margin:8px 0 0">${done}/${m.nrLectii} lecții · ${m.capitole.length} capitole · ${m.nrCarduri} carduri · ${m.nrIntrebari} întrebări</p>
+      <p class="muted" style="margin:8px 0 0">${done}/${m.nrLectii} lecții · ${m.capitole.length} capitole · ${m.nrCarduri} carduri · ${m.nrIntrebari} întrebări${m.nrIntrebariTeze ? ' (+' + m.nrIntrebariTeze + ' de teză)' : ''}</p>
     </button>`;
   }
 
@@ -836,9 +959,11 @@
       /* Cardurile tezei = toate cardurile capitolelor semestrului. */
       for (const c of corp.capitole) if (c.semestru === s) for (const l of c.lectii) dinLectie(ixm, l);
     } else if (tip === 'an' || tip === 'clasa') {
-      const an = tip === 'clasa' ? anClasa(state.clasa) : Number(a);
-      const lista = modAn(an);
+      /* Aceeași funcție ca la preîncărcare (`moduleNecesare`), ca domeniul și
+         modulele aduse să nu poată diverge niciodată. */
+      const lista = tip === 'clasa' ? modClasa(state.clasa) : modAn(Number(a));
       if (!lista.length) return null;
+      const an = lista[0].an;
       out.titlu = 'Clasa ' + ROMAN[an]; out.cheie = 'an:' + an;
       lista.forEach(m => dinModul(m.id, null, null));
     } else {
@@ -849,8 +974,7 @@
 
   /* Ecranul de alegere folosit și de Carduri, și de Test, când ruta n-are domeniu. */
   function alegereHTML(baza, subtitlu) {
-    const an = anClasa(state.clasa);
-    const lista = modAn(an);
+    const lista = modClasa(state.clasa);
     return `
       <p class="muted">${esc(subtitlu)}</p>
       <div class="grid2">
@@ -1176,8 +1300,8 @@
         <div class="rand col">${randTxt('Mărimea textului', 'Se aplică peste mărimea din browser.')}
           <div class="rand-ctl">
             <input class="range" id="fs" type="range" min="85" max="140" step="5"
-                   value="${s.marimeText}" aria-label="Mărimea textului">
-            <output id="fs-out" style="min-width:4em;text-align:right">${s.marimeText}%</output>
+                   value="${esc(s.marimeText)}" aria-label="Mărimea textului">
+            <output id="fs-out" style="min-width:4em;text-align:right">${esc(s.marimeText)}%</output>
           </div></div>
       </div>
 
@@ -1234,7 +1358,7 @@
       <h2>Despre</h2>
       <div class="lista">
         <div class="rand">${randTxt('Conținut', `versiunea ${IDX.version} · actualizat ${IDX.actualizat}`)}</div>
-        <div class="rand">${randTxt('Module', `${IDX.nrModule} module · ${IDX.nrLectii} lecții · ${IDX.nrCarduri} carduri · ${IDX.nrIntrebari} întrebări`)}</div>
+        <div class="rand">${randTxt('Module', `${IDX.nrModule} module · ${IDX.nrLectii} lecții · ${IDX.nrCarduri} carduri · ${IDX.nrIntrebari} întrebări de lecție + ${IDX.nrIntrebariTeze} de teză`)}</div>
         <div class="rand">${randTxt('Stare', navigator.onLine ? 'online' : 'offline — aplicația merge din memorie')}</div>
         ${randActiune('reimprospateaza', 'Caută o versiune nouă', 'Golește memoria locală a aplicației și reîncarcă.')}
       </div>
@@ -1306,13 +1430,32 @@
         if (!f) return;
         const fr = new FileReader();
         fr.onload = () => {
+          /* Ordinea contează: parsăm, sanitizăm și abia apoi înlocuim starea.
+             Varianta veche scria și `save()`-uia întâi, iar dacă randarea
+             cădea (ex. `lectiiCitite: null`), starea coruptă rămânea în
+             localStorage: la fiecare pornire ulterioară aplicația arăta
+             „Nu s-au putut încărca datele”, un mesaj care trimitea spre
+             fișierele aplicației, nu spre cauza reală. */
+          let nou;
           try {
-            const nou = JSON.parse(String(fr.result));
-            if (!nou || typeof nou !== 'object') throw new Error('format');
-            state = Object.assign(STARE_GOALA(), nou);
-            state.setari = Object.assign({}, SETARI, nou.setari || {});
-            save(); aplicaPreferinte(); render();
-          } catch { alert('Fișierul nu conține o copie validă.'); }
+            const brut = JSON.parse(String(fr.result));
+            if (!brut || typeof brut !== 'object' || Array.isArray(brut)) throw new Error('format');
+            if (!('lectiiCitite' in brut) && !('setari' in brut) && !('teste' in brut))
+              throw new Error('nu pare o copie a aplicației');
+            nou = sanitizeaza(brut);
+          } catch { alert('Fișierul nu conține o copie validă.'); return; }
+
+          const precedent = state;
+          try {
+            state = nou;
+            aplicaPreferinte();
+            render();
+            save();                       // abia după ce randarea a reușit
+          } catch {
+            state = precedent;
+            aplicaPreferinte(); render();
+            alert('Importul a eșuat; datele dinainte au rămas neatinse.');
+          }
         };
         fr.readAsText(f);
       };
@@ -1320,6 +1463,17 @@
       return;
     }
     if (id === 'reimprospateaza') {
+      /* Acțiune distructivă: șterge TOT precache-ul (~2,8 MB, inclusiv cele 60
+         de module) și dezînregistrează service worker-ul. Offline, reload-ul
+         de după n-ar mai avea de unde încărca nimic — aplicația ar deveni de
+         negăsit exact în situația în care era singura care mai mergea. */
+      if (!navigator.onLine) {
+        alert('Ești offline. Reîmprospătarea ar șterge lecțiile salvate pe dispozitiv și ' +
+              'aplicația nu s-ar mai putea încărca. Încearcă din nou când ai internet.');
+        return;
+      }
+      if (!cere('Se șterge tot conținutul salvat pe dispozitiv și se descarcă din nou ' +
+                '(~3 MB). Progresul și setările NU se pierd. Continui?')) return;
       const gata = () => location.reload();
       const treburi = [];
       if (self.caches) treburi.push(caches.keys().then(k => Promise.all(k.map(x => caches.delete(x)))));
@@ -1375,6 +1529,7 @@
     fetch('./data/continut.json').then(r => r.json())
   ]).then(([cur, idx]) => {
     CUR = cur; IDX = idx;
+    curataProgresulOrfan();
     const start = hashDePornire();
     /* `replaceState`, nu `location.replace`: al doilea ar declanșa un
        `hashchange` și ecranul s-ar randa de două ori la fiecare pornire. */
