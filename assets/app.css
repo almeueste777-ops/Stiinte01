@@ -895,17 +895,13 @@ textarea:focus{outline:none; box-shadow:var(--nm-inset), var(--focus-ring)}
   margin:0; padding-left:var(--sp-5);
   border-left:3px solid var(--accent); border-radius:2px;
 }
-/* Rezultatul testului: singurul card care are ȘI .bar ȘI butoane. */
-/* Regulile se scriu SEPARAT, nu într-o listă: o listă de selectori nu e
-   tolerantă, iar un `:has()` nesuportat ar invalida și jumătatea de rezervă.
-   Clasa .score o pune app.js, deci ecranul de rezultat arată corect și fără `:has()`. */
+/* Rezultatul testului. Clasa `.score` o pune app.js.
+   Aici exista și o pereche de reguli `.card:has(> .bar):has(> .btn)`, gândite
+   ca rezervă pentru browserele fără `:has()`. Au fost scoase: `.score` acoperă
+   deja cazul în toate browserele, iar potrivirea structurală prindea din
+   întâmplare orice card nou cu bară și buton — de pildă „Antrenamentul de azi”,
+   căruia îi centra textul lăsând pastila aliniată stânga. */
 .card.score{
-  text-align:center; padding:var(--sp-7) var(--sp-6);
-  background-image:
-    radial-gradient(120% 90% at 50% -20%,var(--accent-halo) 0%,transparent 62%),
-    linear-gradient(180deg,var(--glass-highlight),transparent 40%);
-}
-.card:has(> .bar):has(> .btn){
   text-align:center; padding:var(--sp-7) var(--sp-6);
   background-image:
     radial-gradient(120% 90% at 50% -20%,var(--accent-halo) 0%,transparent 62%),
@@ -915,12 +911,7 @@ textarea:focus{outline:none; box-shadow:var(--nm-inset), var(--focus-ring)}
   margin:0 0 var(--sp-5);
   font-size:1.45rem; font-weight:740; letter-spacing:-.02em;
 }
-.card:has(> .bar):has(> .btn) > h3{
-  margin:0 0 var(--sp-5);
-  font-size:1.45rem; font-weight:740; letter-spacing:-.02em;
-}
 .card.score > .bar{height:14px; margin-bottom:var(--sp-6)}
-.card:has(> .bar):has(> .btn) > .bar{height:14px; margin-bottom:var(--sp-6)}
 
 /* ── 16. Tabbar — piesa de semnătură ────────────────────────────
    Pilulă de sticlă mată, desprinsă de marginile ecranului, ridicată
@@ -1237,19 +1228,30 @@ button.rand.grav .rand-txt strong{color:var(--bad-text)}
 }
 .rb-eticheta{
   display:inline-block; margin-bottom:var(--sp-3);
-  color:var(--ink-faint); font-size:var(--fs-100);
+  color:var(--ink-muted); font-size:var(--fs-100);
   font-weight:var(--fw-semi); letter-spacing:.08em; text-transform:uppercase;
 }
 .raspuns-bun p{margin:0; font-size:var(--fs-300)}
 
+/* Cât timp se cere calibrarea, controlul de răspuns e blocat — și trebuie SĂ
+   SE VADĂ că e blocat, altfel utilizatorul apasă degeaba. */
+.card.in-asteptare #opt, .card.in-asteptare .camp{opacity:.55}
+.card.in-asteptare .opt{cursor:default}
+
 /* Câmpuri de scris — „Completează” și „Explică”. Efectul de generare cere
    producere, deci textul trebuie să fie comod de scris, nu un input strâmt. */
+/* `max(16px, …)`: sub 16px, Safari pe iOS mărește singur pagina la focus, iar
+   ecranul sare. Restul tipografiei poate coborî la 15px pe ecrane minuscule,
+   câmpurile de scris nu. */
 .camp{
   width:100%; margin-top:var(--sp-5); padding:var(--sp-5) var(--sp-6);
   min-height:48px;
   border:1px solid var(--hairline-strong); border-radius:var(--r-md);
   background:var(--surface-sunken); color:var(--ink);
-  font:inherit; font-size:var(--fs-300);
+  font:inherit;
+  /* DUPĂ `font:inherit`: shorthand-ul resetează `font-size`, deci un
+     `font-size` scris înainte era înghițit tăcut. */
+  font-size:max(16px, var(--fs-300));
   box-shadow:var(--nm-inset);
 }
 .camp::placeholder{color:var(--ink-faint)}
@@ -1260,11 +1262,16 @@ button.rand.grav .rand-txt strong{color:var(--bad-text)}
    încredere și la autoevaluare, unde un singur cuvânt ar fi ambiguu. */
 .seg-larg{padding:var(--sp-3); gap:var(--sp-3)}
 .seg-larg > button{
-  flex:1 1 0; min-height:56px; padding:var(--sp-4) var(--sp-3);
+  flex:1 1 0; min-width:0; min-height:56px; padding:var(--sp-4) 2px;
   display:flex; flex-direction:column; align-items:center; justify-content:center; gap:2px;
 }
+.seg-larg > button > strong,
+.seg-larg > button > span{
+  max-width:100%; text-align:center;
+  overflow-wrap:break-word; hyphens:auto;
+}
 .seg-larg > button > strong{font-weight:var(--fw-semi); font-size:.86rem}
-.seg-larg > button > span{font-size:var(--fs-100); color:var(--ink-faint); line-height:1.2}
+.seg-larg > button > span{font-size:var(--fs-100); color:var(--ink-muted); line-height:1.2}
 .seg-larg > button[aria-checked="true"] > span,
 .seg-larg > button:active > span{color:inherit}
 
@@ -1278,7 +1285,7 @@ button.rand.grav .rand-txt strong{color:var(--bad-text)}
 .punct-bulina{
   width:26px; height:26px; border-radius:50%;
   display:flex; align-items:center; justify-content:center;
-  background:var(--surface-sunken); color:var(--ink-faint);
+  background:var(--surface-sunken); color:var(--ink-muted);
   font-size:var(--fs-100); font-weight:var(--fw-semi);
   box-shadow:var(--nm-inset);
 }
@@ -1322,14 +1329,25 @@ button.cap-head{
 button.cap-head:active{background:var(--hover-tint)}
 
 /* Cifre-erou: 2–4 valori pe un rând, sub un card. */
-.stats{display:grid; grid-template-columns:repeat(auto-fit,minmax(84px,1fr)); gap:var(--sp-4); margin:var(--sp-5) 0}
+/* Pragul e în `em`, nu în px: dala trebuie să crească odată cu textul, altfel
+   la 150% mărime cifra de patru cifre („2080”) nu mai încape și iese din card.
+   5,5em ≈ 88px la mărimea implicită, adică practic pragul de dinainte. */
+.stats{display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%, 5.5em),1fr)); gap:var(--sp-4); margin:var(--sp-5) 0}
 .stat{
+  min-width:0;
   padding:var(--sp-5) var(--sp-4); text-align:center;
   border-radius:var(--r-md);
   background:var(--surface-sunken); box-shadow:var(--nm-inset);
 }
 .stat b{display:block; font-size:var(--fs-500); font-weight:var(--fw-bold); font-variant-numeric:tabular-nums; letter-spacing:var(--track-tight)}
-.stat span{display:block; margin-top:2px; color:var(--ink-muted); font-size:var(--fs-100); text-transform:uppercase; letter-spacing:var(--track-wide)}
+/* Etichetele sunt majuscule cu spațiere: la 150% mărime text nu încăpeau în
+   dală și, negăsind unde să se rupă, ieșeau din card. `min-width:0` pe dală ca
+   grila să poată strânge coloana, rupere permisă pe etichetă. */
+.stat span{
+  display:block; margin-top:2px; color:var(--ink-muted); font-size:var(--fs-100);
+  text-transform:uppercase; letter-spacing:var(--track-wide);
+  overflow-wrap:break-word; hyphens:auto; max-width:100%;
+}
 
 /* Cronometru din test — pastilă de chihlimbar, cifre tabulare. */
 .timer{
@@ -1413,6 +1431,11 @@ button.cap-head:active{background:var(--hover-tint)}
    Planul (.plan-grid) NU: tabelele lui au nevoie de lățime — pragul lui e 900. */
 @media (min-width:700px){
   .grid-cards:not(.plan-grid){grid-template-columns:repeat(2,minmax(0,1fr)); gap:var(--sp-6)}
+  /* `auto-fit` e acolo ca să COLAPSEZE la o coloană pe telefon cu text mare;
+     pe ecran lat ar întinde 4 butoane pe un rând, ceea ce schimbă așezarea
+     față de perechea intenționată. Peste 700px nu există risc de depășire,
+     deci revenim la două coloane fixe. */
+  .grid2{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
 
 /* tabletă / desktop: mai mult aer, aceeași coloană de 760px */
@@ -1491,13 +1514,15 @@ button.cap-head:active{background:var(--hover-tint)}
    tranziții din stratul de componente (apăsarea, iconița de tab, bara).
 
    REGULA DE AUR: animăm doar `transform` și `opacity`.
-   Trei excepții deliberate, toate documentate mai jos:
+   Patru excepții deliberate, toate documentate mai jos:
      • box-shadow la apăsare — intrinsec neomorfismului: relieful ridicat
        devine inset. E singura care se repetă des (la fiecare atingere), dar
        fără ea apăsarea nu mai are adâncime, adică dispare tot conceptul;
      • background-color pe .opt.correct/.opt.wrong — o dată per întrebare;
      • width pe .bar > i — o dată la intrarea în ecran, ca să nu se turtească
-       capătul rotund al pilulei (scaleX ar fi fost mai ieftin, dar urât).
+       capătul rotund al pilulei (scaleX ar fi fost mai ieftin, dar urât);
+     • width pe .antren-bara > i — același motiv, o dată la fiecare element
+       din sesiune. Ambele sunt anulate la „mișcare redusă”.
    ══════════════════════════════════════════════════════════════════════════ */
 
 /* ─────────────────────────────────────────────────────────────────────────
@@ -1892,6 +1917,7 @@ button.cap-head:active{background:var(--hover-tint)}
 :root:where([data-miscare="redusa"]) .tab-ind{ transition:none !important }
 :root:where([data-miscare="redusa"]) .tab .ico.pop{ animation:none !important }
 :root:where([data-miscare="redusa"]) .incarc::before{ animation:none !important }
+:root:where([data-miscare="redusa"]) .antren-bara > i{ transition:none !important }
 
 /* ── PLASĂ DE SIGURANȚĂ, fără JavaScript ────────────────────────────────────
    Toate regulile de mai sus depind de atributul `data-miscare`, pus de
@@ -1923,8 +1949,9 @@ button.cap-head:active{background:var(--hover-tint)}
 
    ✔ Animăm aproape exclusiv transform și opacity → totul rulează pe
      compozitor, fără layout și fără repaint.
-   ✔ Excepțiile sunt două, ambele o singură dată per interacțiune:
-     background-color la .opt.correct/.wrong și width la .bar > i.
+   ✔ Excepțiile sunt trei, toate o singură dată per interacțiune:
+     background-color la .opt.correct/.wrong, width la .bar > i și width la
+     .antren-bara > i.
 
    will-change AJUTĂ (element unic, animat repetat):
      • .flip-inner  — un singur card pe ecran, se rotește la fiecare card

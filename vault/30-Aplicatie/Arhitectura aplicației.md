@@ -56,7 +56,11 @@ Router pe `location.hash`, fără bibliotecă. Formatul: `#/nume/arg1/arg2`.
 #/carduri[/{tip}/{a}/{b}]  carduri de memorare, amestecate
 #/test[/{tip}/{a}/{b}]     test grilă: lecție, capitol, materie, teză, an sau clasă
 #/plan                     planul de învățământ, toate clasele
+#/antrenament              hubul de antrenament: stăpânire, materii, scurtături
+#/antren/{tip}/{a}/{b}     sesiunea mixtă pe un domeniu (clasă, materie, capitol, lecție)
+#/nota[/{modul}]           simularea de notă: 5 puncte × 2p
 #/setari                   preferințe de aspect, de studiu și gestiunea datelor
+#/noutati                  jurnalul de versiuni al aplicației
 ```
 
 Randarea: `view.innerHTML = ''` urmat de funcția ecranului. Simplu și rapid — dar înseamnă
@@ -71,6 +75,10 @@ Vezi [[Animații iOS]].
   utilizatorul a navigat între timp; indicatorul de încărcare apare doar după 400 ms.
   Toate modulele rămân totuși în precache-ul service worker-ului — altfel aplicația
   instalată ar avea lecțiile doar cât timp există rețea.
+- **Antrenamentul** stă în `state.antren` — un rând per element antrenabil, cu interval,
+  ușurință, scadență și reușite; **notele** din simulări, în `state.note`, pe module.
+  Amândouă sunt sanitizate element cu element la citire: o valoare aberantă dintr-un fișier
+  de import ar fi spart ecranul Acasă definitiv. Vezi [[Sistemul de învățare]].
 - **Progresul elevului** (lecții citite, notițe, scoruri, statistica cardurilor) și
   **setările** stau exclusiv în `localStorage`, sub cheia `stiinte01:v1`. Nu există server,
   nu există cont, nu pleacă nimic de pe dispozitiv. Setările se pot exporta și importa ca

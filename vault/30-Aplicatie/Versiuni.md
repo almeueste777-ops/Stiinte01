@@ -1,7 +1,7 @@
 ---
 titlu: Versiuni
 tip: registru
-versiune: "03"
+versiune: "04"
 actualizat: 2026-08-22
 tags: [versiuni, changelog]
 ---
@@ -13,6 +13,29 @@ Legături: [[Științe Sociale — MOC]] · [[Arhitectura aplicației]] · [[Des
 Schema de numerotare: **versiunea aplicației** (`01`, `02`, …) marchează o etapă vizibilă
 pentru utilizator. Ea este independentă de versiunea cache-ului din `sw.js`, care crește la
 *fiecare* modificare de fișiere, oricât de mică.
+
+## v04 — 2026-08-22 · „Antrenament și simulare de notă”
+
+Aplicația capătă un **sistem de învățare** propriu-zis și o **probă cu notă** la fiecare materie.
+
+**Ce s-a schimbat**
+- **Antrenamentul** — o sesiune scurtă care amestecă cinci tipuri de exercițiu din mai multe
+  lecții deodată, construită din șapte mecanisme cu sprijin în cercetarea învățării:
+  repetiție eșalonată, recuperare activă, intercalare, efect de generare, calibrare, practică
+  deliberată, stăpânire cu prag. Detaliile: [[Sistemul de învățare]].
+- **Tipuri noi de exercițiu** — „Completează” (scrii termenul care lipsește dintr-o definiție)
+  și „Explică” (reformulezi ideea cu cuvintele tale), pe lângă grilă, card și termen. Toate
+  derivate din conținutul existent, fără material nou scris.
+- **Calibrare** — înainte de fiecare răspuns spui cât ești de sigur; la final vezi de câte ori
+  ai zis „sigur” și ai greșit.
+- **Simulare de notă** — cinci puncte a câte 2 puncte, 20 de întrebări din toate capitolele.
+  Punctajul obținut este nota: 18 din 20 → 9,00 → „Ești elev de nota 9”.
+- Tabul „Carduri” a devenit **„Antrenez”**; cardurile clasice rămân, în hub și în lecție.
+- Acasă și fiecare materie arată **stăpânirea** și câte elemente ai de repetat azi.
+
+**Verificare:** bateria completă, 896 de combinații de viewport × temă × rută × preferințe,
+testul de service worker cu SW activ, plus [[Raport verificare v04]] — 25 de defecte găsite
+de cei doi agenți, toate corectate și reverificate.
 
 ## v03 — 2026-08-22 · „Temă, setări, conținut complet”
 

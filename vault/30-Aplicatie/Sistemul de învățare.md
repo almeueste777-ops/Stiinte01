@@ -64,8 +64,10 @@ Derivate din conținutul care exista deja — nu s-a scris nicio linie nouă de 
 
 ## Programarea
 
-Variantă simplificată de SM-2. Fiecare element ține patru numere: interval (zile), ușurință
-(×100, ca să rămână întreg în `localStorage`), scadență și reușite consecutive.
+Variantă simplificată de SM-2. Fiecare element ține cinci numere: interval în zile (`i`),
+ușurință (`e`, ×100, ca să rămână întreagă în `localStorage`), scadență (`d`), reușite
+consecutive (`r`) și numărul total de greșeli (`g`, ținut pentru diagnostic, fără efect
+asupra programării).
 
 | Calificativ | De unde vine | Efect |
 |---|---|---|

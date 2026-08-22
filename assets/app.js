@@ -154,6 +154,8 @@
                       ':scope > #opt > .opt, :scope > #card-actions, ' +
                       ':scope > .grid-cards > *, :scope > .two-col > *, ' +
                       ':scope > #clasa-panou > *, ' +
+                      ':scope > .antren-bara, :scope > .antren-cap, ' +
+                      ':scope > .puncte-sir, :scope > #antren-actiuni, ' +
                       ':scope > #lista-materii > h2, ' +
                       ':scope > #lista-materii > .card, ' +
                       ':scope > #lista-materii > .grid-cards > *';
@@ -240,8 +242,39 @@
     s.teste = obiect(brut.teste);
     s.notite = obiect(brut.notite);
     s.zile = obiect(brut.zile);
-    s.antren = obiect(brut.antren);
-    s.note = obiect(brut.note);
+    /* `antren` și `note` NU se copiază pe încredere: un singur `n` nenumeric
+       dintr-un fișier de import spărgea permanent ecranul Acasă
+       (`n.toFixed is not a function`), iar un `d` de tip șir făcea elementul
+       să nu mai fie scadent niciodată. Ambele se filtrează element cu element,
+       nu doar la nivelul obiectului. */
+    const nr = (v, implicit, min, max) => {
+      const x = Number(v);
+      if (!isFinite(x)) return implicit;
+      return Math.min(max, Math.max(min, x));
+    };
+    const antren = obiect(brut.antren);
+    for (const k of Object.keys(antren)) {
+      const v = antren[k];
+      if (!v || typeof v !== 'object') continue;
+      s.antren[k] = {
+        i: nr(v.i, 0, 0, 365),
+        e: nr(v.e, 250, 130, 280),
+        d: nr(v.d, 0, 0, Number.MAX_SAFE_INTEGER),
+        r: nr(v.r, 0, 0, 9999),
+        g: nr(v.g, 0, 0, 9999)
+      };
+    }
+    const note = obiect(brut.note);
+    for (const k of Object.keys(note)) {
+      if (!Array.isArray(note[k])) continue;
+      const sir = note[k]
+        /* `typeof === 'number'`, nu `Number(x.n)`: `Number(null)` e 0, deci o
+           notă lipsă ar fi devenit „nota 0” în istoric și în medie. */
+        .filter(x => x && typeof x === 'object' && typeof x.n === 'number' && isFinite(x.n))
+        .map(x => ({ n: nr(x.n, 0, 0, 10), cand: nr(x.cand, 0, 0, Number.MAX_SAFE_INTEGER) }))
+        .slice(-20);
+      if (sir.length) s.note[k] = sir;
+    }
     if (typeof brut.clasa === 'string' && brut.clasa) s.clasa = brut.clasa;
     if (typeof brut.ultima === 'string') s.ultima = brut.ultima;
 
@@ -266,8 +299,22 @@
     try { return sanitizeaza(JSON.parse(localStorage.getItem(KEY) || '{}')); }
     catch { return STARE_GOALA(); }
   }
+  let avertizatCota = false;
   function save() {
-    try { localStorage.setItem(KEY, JSON.stringify(state)); } catch { /* quota/private mode */ }
+    try { localStorage.setItem(KEY, JSON.stringify(state)); avertizatCota = false; }
+    catch {
+      /* Mod privat sau cotă depășită. Tăcerea de dinainte era comodă, dar
+         însemna că un elev putea antrena o oră fără ca nimic să se salveze.
+         Anunțăm o singură dată, ca să nu devină o alarmă la fiecare răspuns. */
+      if (!avertizatCota) {
+        avertizatCota = true;
+        try {
+          alert('Nu am putut salva progresul pe acest dispozitiv — memoria browserului e plină ' +
+                'sau ești în navigare privată. Poți continua, dar sesiunea nu se va păstra. ' +
+                'În Setări → Datele mele poți șterge ce nu-ți mai trebuie.');
+        } catch {}
+      }
+    }
   }
 
   let state = load();
@@ -815,7 +862,7 @@
         const rez = state.teste['teza:' + m.id + ':' + s];
         return `<button class="rand" data-go="#/test/teza/${encodeURIComponent(m.id)}/${s}">
           <div class="rand-txt"><strong>Teza — semestrul ${s === 1 ? 'I' : 'al II-lea'}</strong>
-          <span>${t ? t.nrIntrebari + ' întrebări de sinteză' : 'în pregătire'}${rez ? ' · ultimul rezultat ' + rez.procent + '%' : ''}</span></div>
+          <span>${t ? t.nrIntrebari + ' de sinteză + tot semestrul' : 'în pregătire'}${rez ? ' · ultimul rezultat ' + rez.procent + '%' : ''}</span></div>
           <span class="lec-sag" aria-hidden="true"></span></button>`;
       }).join('')}</div>
 
@@ -1026,12 +1073,15 @@
     });
     if (!meta) return null;
     out.titlu = meta.titlu; out.cheie = meta.cheie;
-    /* Teza își ia întrebările din blocul ei, nu din lecții; cardurile rămân
-       cele ale capitolelor semestrului, adunate de parcurgerea de mai sus. */
+    /* Teza: întrebările de sinteză se ADAUGĂ peste cele ale lecțiilor din
+       semestru, nu le înlocuiesc. Bazinul e de câteva ori mai mare decât
+       numărul de întrebări dintr-o probă, altfel — cu 12 întrebări de sinteză
+       și un test de 12 — fiecare teză ar ieși identică. */
     if (tip === 'teza') {
       const corp = MOD.get(a), ixm = mod(a);
       const t = corp && (corp.teze || []).find(x => x.semestru === Number(b));
-      out.intrebari = ((t && t.test) || []).map(q => Object.assign({}, q, { sursa: ixm.materie }));
+      out.intrebari = ((t && t.test) || []).map(q => Object.assign({}, q, { sursa: ixm.materie + ' · sinteză' }))
+        .concat(out.intrebari);
     }
     return out;
   }
@@ -1416,7 +1466,11 @@
     for (const x of e.elemente) {
       if (stapanit(x.k)) st++;
       else if (state.antren[x.k]) inLucru++;
-      if (scadent(x.k)) scad++;
+      /* Doar elementele ÎNCEPUTE și scadente: exact grupa pe care o ia
+         `alcatuiesteSesiune`. Numărând și pe cele niciodată văzute, hubul
+         anunța „1744 de repetat” lângă „1744 neîncepute” — o cifră pe care
+         sesiunea n-o folosea. */
+      if (!nou(x.k) && scadent(x.k)) scad++;
     }
     return { total, stapanite: st, inLucru, noi: total - st - inLucru, scadente: scad,
              procent: Math.round(st / total * 100) };
@@ -1472,15 +1526,34 @@
     return rand[n];
   }
 
+  /* Articolul hotărât românesc e enclitic: „stat” → „statul”, „lege” → „legea”.
+     Elevul care scrie forma articulată a răspuns corect; fără curățarea asta,
+     „statul” față de „stat” dă distanță 2, adică respins — și, mai rău,
+     ușurința elementului scădea ca la o greșeală adevărată. */
+  const faraArticol = w => w
+    .replace(/(ul|ului|le|lui|lor|a|ua|ei|i)$/, '')
+    .replace(/\s+$/, '');
+
   function raspunsPotrivit(dat, asteptat) {
     const A = normaliz(dat), B = normaliz(asteptat);
     if (!A) return false;
     if (A === B) return true;
     if (B.length >= 5 && distanta(A, B) <= 1) return true;
-    /* Definițiile au adesea un singur cuvânt-cheie; acceptăm și forma fără
-       articol sau fără primul cuvânt de legătură. */
-    const fara = B.replace(/^(un|o|de|la|in|pe|cu|prin|dupa)\s+/, '');
-    return fara !== B && (A === fara || (fara.length >= 5 && distanta(A, fara) <= 1));
+
+    const variante = new Set([B]);
+    /* Definițiile au adesea un cuvânt de legătură în față. */
+    variante.add(B.replace(/^(un|o|de|la|in|pe|cu|prin|dupa)\s+/, ''));
+    /* Formele articulate, pe ultimul cuvânt, în ambele sensuri. */
+    const ultim = t => t.split(' ').slice(-1)[0];
+    const fara = t => t.split(' ').slice(0, -1).concat(faraArticol(ultim(t))).join(' ').trim();
+    variante.add(fara(B));
+    const A2 = fara(A);
+    for (const v of variante) {
+      if (!v) continue;
+      if (A === v || A2 === v) return true;
+      if (v.length >= 5 && (distanta(A, v) <= 1 || distanta(A2, v) <= 1)) return true;
+    }
+    return false;
   }
 
 
@@ -1525,8 +1598,14 @@
       <div class="card" id="corp">${corpElementHTML(el)}</div>
       <div id="antren-actiuni"></div>`;
 
-    if (set('calibrare') && ses.faza === 'intrebare' && el.tip !== 'x') deseneazaIncredere(el);
-    else deseneazaActiuni(el);
+    if (set('calibrare') && ses.faza === 'intrebare' && el.tip !== 'x') {
+      /* Controlul de răspuns se BLOCHEAZĂ cât timp se cere calibrarea. Altfel
+         butoanele de grilă erau randate active, deasupra întrebării „cât ești
+         de sigur”, iar prima atingere firească — pe răspuns — nu făcea nimic
+         și nu explica de ce. */
+      blocheazaRaspunsul(true);
+      deseneazaIncredere(el);
+    } else deseneazaActiuni(el);
     paint(true);
   }
 
@@ -1552,6 +1631,14 @@
                 placeholder="explică pe scurt…" aria-label="Explicația ta"></textarea>`;
   }
 
+  function blocheazaRaspunsul(blocat) {
+    view.querySelectorAll('#opt .opt').forEach(b => { b.disabled = blocat; });
+    const camp = view.querySelector('#raspuns');
+    if (camp) camp.disabled = blocat;
+    const corp = view.querySelector('#corp');
+    if (corp) corp.classList.toggle('in-asteptare', blocat);
+  }
+
   function deseneazaIncredere(el) {
     const z = view.querySelector('#antren-actiuni');
     z.innerHTML = `<p class="muted antren-nota">Înainte de răspuns: cât de sigur ești?</p>
@@ -1561,6 +1648,7 @@
     z.querySelectorAll('[data-inc]').forEach(btn => btn.onclick = () => {
       ses.incredere = Number(btn.dataset.inc);
       bate(6);
+      blocheazaRaspunsul(false);
       deseneazaActiuni(el);
     });
   }
@@ -1635,7 +1723,6 @@
         ses.lista.splice(Math.min(ses.lista.length, ses.poz + 4), 0, copie);
         ses.reluate++;
       }
-      state.zile[azi()] = state.zile[azi()] || 0;
       save();
       ses.poz++; ses.faza = 'intrebare'; ses.incredere = null;
       deseneazaElement();
@@ -1709,6 +1796,9 @@
 
       ${cuInc.length ? `<div class="card">
         <h3>Cât de bine te cunoști</h3>
+        ${!siguri.length && !ghicite.length ? `<p class="muted">Ai ales „cred” la toate.
+          Ca să afli dacă te cunoști, folosește și „sigur”, și „ghicesc”: diferența dintre
+          ce crezi că știi și ce știi e informația cea mai utilă de aici.</p>` : ''}
         ${siguri.length ? `<p>Ai spus „sigur” de <strong>${siguri.length}</strong> ori
           ${sigurGresite ? `și ai greșit de <strong>${sigurGresite}</strong>` : 'și n-ai greșit niciodată'}.</p>
           <p class="muted">${sigurGresite === 0
@@ -1889,7 +1979,7 @@
 
     view.innerHTML = `
       <div class="antren-bara" aria-hidden="true"><i style="--p:${sim.poz / toate.length}"></i></div>
-      <div class="puncte-sir" aria-label="Punctul ${p} din ${PUNCTE}">
+      <div class="puncte-sir" role="img" aria-label="Punctul ${p} din ${PUNCTE}">
         ${sim.puncte.map(x => `<span class="punct-bulina${x.nr < p ? ' gata' : (x.nr === p ? ' acum' : '')}">${x.nr}</span>`).join('')}
       </div>
       <p class="muted">Punctul ${p} (2p) · întrebarea ${inPunct} din ${PE_PUNCT} · ${esc(sim.materie)}</p>
@@ -1982,12 +2072,12 @@
 
       ${gresite.length ? `<div class="card">
         <h3>Ce ai greșit (${gresite.length})</h3>
-        ${gresite.map(x => `<div class="rev">
+        <ul class="rev">${gresite.map(x => `<li>
           <p><strong>${esc(x.q.intrebare)}</strong></p>
           <p class="muted">Ai ales: ${esc(x.q.optiuni[x.ales])}</p>
           <p>Corect: <strong>${esc(x.q.optiuni[x.q.corect])}</strong></p>
           ${x.q.explicatie ? `<p class="muted">${esc(x.q.explicatie)}</p>` : ''}
-        </div>`).join('')}
+        </li>`).join('')}</ul>
       </div>` : '<div class="card"><h3>Zero greșeli</h3><p class="muted">Nimic de revăzut aici.</p></div>'}
 
       <button class="btn" data-go="#/antren/materie/${encodeURIComponent(sim.modul)}">Antrenează ce ai greșit</button>
@@ -2271,17 +2361,22 @@
             nou = sanitizeaza(brut);
           } catch { alert('Fișierul nu conține o copie validă.'); return; }
 
+          /* `render()` e `async`: o excepție dinăuntrul ei devine promisiune
+             respinsă, deci un `try/catch` sincron n-o prinde niciodată — de
+             aceea salvarea trebuie să fie sigură ÎNAINTE, prin sanitizare,
+             nu recuperată după. `sanitizeaza()` garantează formele; aici doar
+             ne asigurăm că o randare căzută nu lasă starea nouă persistată. */
           const precedent = state;
-          try {
-            state = nou;
-            aplicaPreferinte();
-            render();
-            save();                       // abia după ce randarea a reușit
-          } catch {
-            state = precedent;
-            aplicaPreferinte(); render();
-            alert('Importul a eșuat; datele dinainte au rămas neatinse.');
-          }
+          state = nou;
+          aplicaPreferinte();
+          Promise.resolve()
+            .then(() => render())
+            .then(() => { save(); })
+            .catch(() => {
+              state = precedent;
+              aplicaPreferinte(); render();
+              alert('Importul a eșuat; datele dinainte au rămas neatinse.');
+            });
         };
         fr.readAsText(f);
       };
@@ -2370,7 +2465,11 @@
     /* Prefetch discret: modulele clasei curente, ca deschiderea unei lecții să
        fie instantanee. Rulează în timpul mort, nu concurează cu prima pictură. */
     const inactiv = window.requestIdleCallback || (f => setTimeout(f, 800));
-    inactiv(() => { modClasa(state.clasa).slice(0, 8).forEach(m => ceriModul(m.id).catch(() => {})); });
+    /* TOATE modulele clasei, nu primele 8: ecranul Acasă și hubul de
+       antrenament arată stăpânirea pe clasă, iar cu 11–13 module în clasă
+       plafonul de 8 făcea ca acele cifre să nu apară niciodată la pornire.
+       Fișierele sunt oricum în precache, deci nu e trafic în plus. */
+    inactiv(() => { modClasa(state.clasa).forEach(m => ceriModul(m.id).catch(() => {})); });
   }).catch(() => { eroareDate(); });
 
   if ('serviceWorker' in navigator) {
@@ -2386,7 +2485,7 @@
        aceste ecrane reload-ul se AMÂNĂ până la următoarea navigare sau până
        când tab-ul trece în fundal. */
     const stareNepersistata = () =>
-      /^#\/(test|carduri)\/./.test(location.hash || '') ||
+      /^#\/(test|carduri|antren|nota)\/./.test(location.hash || '') ||
       (document.activeElement && document.activeElement.id === 'nota');
     let reloadAmanat = false;
     const incearcaReload = () => {

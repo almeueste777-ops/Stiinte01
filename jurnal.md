@@ -1051,3 +1051,48 @@ Instructiv e cum era să-mi scape: am măsurat întâi la mărimea implicită, a
 zero depășiri și eram gata să pun rezultatul pe seama animației de intrare.
 Defectul apărea **doar** la 140–150%. **Când o măsurătoare contrazice un raport,
 verifici în condițiile raportului, nu în ale tale.**
+
+### 48 · Echipa de verificare: 25 de defecte, două lecții care se repetă
+
+Cei doi agenți au adus **25 de defecte reale** — 15 pe cod, 10 pe interfață.
+Toate corectate și reverificate în condițiile în care au fost raportate.
+Raportul complet, cu măsurătorile de dinainte și de după:
+[[Raport verificare v04]] din vault. Două merită repetate aici, fiindcă sunt
+clase de greșeală, nu accidente.
+
+**Refactorizarea „fără schimbări de comportament" avea una.** Extragerea lui
+`parcurge()` din `domeniu()` a transformat, la ramura tezei, o **adăugare** într-o
+**atribuire**: bazinul a scăzut de la 40 de întrebări la 12. Cu 12 în bazin și un
+test de 12, fiecare teză ar fi ieșit identică. Nu se vedea în cod — o linie
+aproape la fel — și nu se vedea în interfață, fiindcă numărul afișat e plafonat
+de setări. Agentul a prins-o pornind **două servere în paralel**, pe v03 și pe
+v04, și comparând aceeași rută. Morala: o refactorizare fără schimbări de
+comportament se **măsoară**, nu se declară.
+
+**Protecția scrisă la v03 nu funcționa.** Importul avea un `try/catch` care
+trebuia să readucă starea precedentă dacă randarea cădea. Dar `render()` e
+`async`: excepția devine promisiune respinsă, iar `catch`-ul sincron n-o prinde
+niciodată. Un fișier de import cu `"n": "9,50"` — șir în loc de număr — se
+salva, iar de la următoarea pornire ecranul Acasă rămânea gol la nesfârșit, cu
+`n.toFixed is not a function`. Recuperare doar prin golirea manuală a
+`localStorage`. Ironia: comentariul de deasupra declara clasa asta de bug
+reparată. Era, pe câmpurile vechi.
+
+Reparat pe două straturi, fiindcă unul singur nu ajunge: **sanitizare în
+adâncime** (fiecare câmp din `antren` și `note` clamp-uit la un interval valid,
+la fiecare citire) și rollback mutat pe lanțul de promisiuni. Prima e cea care
+contează — a doua e plasă.
+
+**Restul, pe scurt:** butoane de răspuns randate active dar inerte până
+răspundeai la calibrare; o cifră afișată („1744 de repetat") pe care sesiunea
+n-o folosea; trei componente noi cu contrast de 2,78:1, sub prag, pe care nici
+modul „contrast ridicat" nu le repara; câmpuri de scris la 15px, adică exact sub
+pragul de la care Safari pe iOS mărește singur pagina; `save()` care înghițea
+tăcut depășirea de cotă, deci un elev putea antrena o oră fără să se salveze
+nimic.
+
+**Reverificare finală:** 896 de combinații (7 viewporturi × 2 teme × 16 rute × 4
+seturi de preferințe) — zero derulare orizontală, zero ecrane goale, zero
+suprapuneri, zero ținte sub 44px, zero erori de consolă. Simularea de notă,
+verificată cu cheia de răspuns citită din date: 20/20 → 10,00, **18/20 → 9,00**,
+14/20 → 7,00. Testul de service worker cu SW activ: trecut.
