@@ -57,6 +57,7 @@ const ASSETS = [
   './data/module/religie-12.json',
   './data/module/studii-sociale-12.json',
   './data/module/engleza-12.json',
+  './data/module/franceza-12.json',
   './data/module/romana-12.json',
   './data/module/tic-12.json',
   './data/module/economie-13.json',
@@ -66,6 +67,7 @@ const ASSETS = [
   './data/module/religie-13.json',
   './data/module/studii-sociale-13.json',
   './data/module/engleza-13.json',
+  './data/module/franceza-13.json',
   './data/module/romana-13.json',
   './data/module/bac-13.json',
   /* MODULE:STOP */

@@ -1,0 +1,1007 @@
+{
+ "id": "franceza-12",
+ "materie": "Limba modernă 2 (Franceză)",
+ "clasa": "a XII-a",
+ "an": 4,
+ "arie": "Limbă și comunicare",
+ "bac": false,
+ "descriere": "Sintaxa frazei complexe, nuanțele lexicale, texte de specialitate și teme de dezbatere contemporană.",
+ "capitole": [
+  {
+   "id": "fra12-c1",
+   "titlu": "Fraza complexă",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "fra12-01",
+     "titlu": "Subordonatele circumstanțiale",
+     "rezumat": "Subordonata de cauză se introduce prin „parce que”, „car”, „puisque”, „comme”, „étant donné que”: „parce que” răspunde la o întrebare, „puisque” invocă o cauză cunoscută de interlocutor, „comme” stă la începutul frazei. Subordonata de consecință folosește „si… que”, „tellement… que”, „de sorte que”, „si bien que”. Cea de scop cere subjonctivul: „pour que”, „afin que”, „de peur que”. Subordonata de opoziție și concesie folosește „bien que” și „quoique” cu subjonctivul, „même si” și „alors que” cu indicativul. Cea de timp folosește „quand”, „lorsque”, „dès que”, „pendant que”, „après que” cu indicativul și „avant que”, „jusqu'à ce que” cu subjonctivul. Regula de reținut este că modul nu se alege după înțeles, ci după conjuncție: fiecare conjuncție are un regim fix, care se memorează odată cu ea.",
+     "ideiCheie": [
+      "Cauza: parce que, car, puisque, comme, étant donné que.",
+      "Scopul cere subjonctivul: pour que, afin que, de peur que.",
+      "Concesia: bien que și quoique cu subjonctiv, même si cu indicativ.",
+      "Modul se alege după conjuncție, nu după înțeles."
+     ],
+     "termeni": [
+      {
+       "t": "subordonată circumstanțială",
+       "d": "propoziție care arată împrejurarea în care se petrece acțiunea regentei"
+      },
+      {
+       "t": "regim al conjuncției",
+       "d": "modul verbal pe care o conjuncție îl cere obligatoriu"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce mod cere „pour que”?",
+       "v": "Subjonctivul."
+      },
+      {
+       "f": "Prin ce diferă „puisque” de „parce que”?",
+       "v": "„Puisque” invocă o cauză cunoscută de interlocutor; „parce que” răspunde la o întrebare."
+      },
+      {
+       "f": "Ce mod cer „bien que” și „quoique”?",
+       "v": "Subjonctivul."
+      },
+      {
+       "f": "După ce se alege modul într-o subordonată circumstanțială?",
+       "v": "După conjuncție, care are un regim fix."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Avant que” cere:",
+       "optiuni": [
+        "subjonctivul",
+        "indicativul",
+        "condiționalul",
+        "infinitivul"
+       ],
+       "corect": 0,
+       "explicatie": "„Après que” cere indicativul."
+      },
+      {
+       "intrebare": "„Bien qu'il ______ fatigué, il travaille” se completează cu:",
+       "optiuni": [
+        "soit",
+        "est",
+        "sera",
+        "était"
+       ],
+       "corect": 0,
+       "explicatie": "„Bien que” cere subjonctivul."
+      },
+      {
+       "intrebare": "„Si bien que” introduce o subordonată de:",
+       "optiuni": [
+        "consecință",
+        "cauză",
+        "scop",
+        "concesie"
+       ],
+       "corect": 0,
+       "explicatie": "Ca și „de sorte que”."
+      },
+      {
+       "intrebare": "Regula practică pentru alegerea modului este:",
+       "optiuni": [
+        "se memorează regimul fiecărei conjuncții",
+        "se alege după înțelesul frazei",
+        "se folosește mereu indicativul",
+        "se folosește mereu subjonctivul"
+       ],
+       "corect": 0,
+       "explicatie": "Regimul e fix."
+      }
+     ]
+    },
+    {
+     "id": "fra12-02",
+     "titlu": "Participiul și gerunziul",
+     "rezumat": "Participiul prezent, terminat în -ant, exprimă o acțiune simultană sau o cauză și rămâne invariabil: „ayant fini son travail, il est parti”. Adjectivul verbal are aceeași terminație, dar se acordă: „une histoire amusante”. Distincția dintre ele este una dintre cele mai fine dificultăți ale francezei scrise, iar unele forme diferă chiar ortografic — „fatigant” (adjectiv) față de „fatiguant” (participiu). Gerunziul, format din „en” plus participiul prezent, exprimă simultaneitatea, maniera sau condiția și are obligatoriu același subiect cu verbul principal: „il travaille en écoutant de la musique”. Nerespectarea acestei reguli produce fraze incorecte, greșeală frecventă. Participiul trecut folosit singur exprimă o acțiune încheiată anterior și se acordă cu substantivul determinat: „une fois arrivés, ils ont téléphoné”.",
+     "ideiCheie": [
+      "Participiul prezent în -ant este invariabil; adjectivul verbal se acordă.",
+      "Gerunziul se formează cu „en” plus participiul prezent.",
+      "Gerunziul cere obligatoriu același subiect cu verbul principal.",
+      "Participiul trecut folosit singur se acordă cu substantivul determinat."
+     ],
+     "termeni": [
+      {
+       "t": "gerunziu",
+       "d": "forma verbală în „en” plus participiu prezent, care exprimă simultaneitate, manieră sau condiție"
+      },
+      {
+       "t": "adjectiv verbal",
+       "d": "forma în -ant folosită ca adjectiv, care se acordă cu substantivul"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se formează gerunziul?",
+       "v": "Cu „en” plus participiul prezent."
+      },
+      {
+       "f": "Ce condiție are gerunziul?",
+       "v": "Să aibă același subiect cu verbul principal."
+      },
+      {
+       "f": "Prin ce diferă participiul prezent de adjectivul verbal?",
+       "v": "Participiul e invariabil, adjectivul verbal se acordă."
+      },
+      {
+       "f": "Ce exprimă gerunziul?",
+       "v": "Simultaneitatea, maniera sau condiția."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„En écoutant de la musique” este:",
+       "optiuni": [
+        "gerunziu",
+        "participiu prezent simplu",
+        "adjectiv verbal",
+        "infinitiv"
+       ],
+       "corect": 0,
+       "explicatie": "Exprimă simultaneitatea."
+      },
+      {
+       "intrebare": "Adjectivul verbal:",
+       "optiuni": [
+        "se acordă cu substantivul",
+        "rămâne invariabil",
+        "nu există în franceză",
+        "se folosește doar la plural"
+       ],
+       "corect": 0,
+       "explicatie": "„Une histoire amusante”."
+      },
+      {
+       "intrebare": "Gerunziul devine incorect când:",
+       "optiuni": [
+        "subiectul lui diferă de al verbului principal",
+        "verbul e la trecut",
+        "fraza e negativă",
+        "subiectul e la plural"
+       ],
+       "corect": 0,
+       "explicatie": "Este o greșeală frecventă."
+      },
+      {
+       "intrebare": "„Ayant fini son travail, il est parti” exprimă:",
+       "optiuni": [
+        "o acțiune anterioară și cauzală",
+        "o acțiune viitoare",
+        "o condiție",
+        "o concesie"
+       ],
+       "corect": 0,
+       "explicatie": "Participiul compus marchează anterioritatea."
+      }
+     ]
+    },
+    {
+     "id": "fra12-03",
+     "titlu": "Nuanțe verbale și acorduri dificile",
+     "rezumat": "Franceza are câteva puncte de dificultate care deosebesc un vorbitor avansat de unul mediu. Acordul participiului trecut la verbele pronominale depinde de natura pronumelui: se acordă când pronumele e complement direct („elle s'est lavée”), nu se acordă când e complement indirect („elle s'est lavé les mains”). Verbele „monter, descendre, sortir, passer, retourner” își schimbă auxiliarul după cum sunt folosite intranzitiv (être) sau tranzitiv (avoir). Alte capcane frecvente sunt confuzia dintre „a” și „à”, „ou” și „où”, „ce” și „se”, „ces” și „ses”, „leur” adjectiv și „leur” pronume, precum și omonimele „c'est / s'est” și „on / ont”. Numeralele au reguli proprii de acord: „quatre-vingts” cu „s”, dar „quatre-vingt-deux” fără. Acordul adjectivelor de culoare provenite din substantive — „des yeux marron” — rămâne invariabil, spre nedumerirea multor vorbitori.",
+     "ideiCheie": [
+      "Acordul participiului la pronominale depinde de natura pronumelui.",
+      "Unele verbe schimbă auxiliarul după folosirea tranzitivă sau intranzitivă.",
+      "Omonimele „a/à”, „ou/où”, „ces/ses” sunt capcane ortografice frecvente.",
+      "Adjectivele de culoare provenite din substantive rămân invariabile."
+     ],
+     "termeni": [
+      {
+       "t": "omonim ortografic",
+       "d": "cuvânt care se pronunță la fel cu altul, dar se scrie diferit și are alt sens"
+      },
+      {
+       "t": "verb tranzitiv",
+       "d": "verb care primește un complement direct"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Când se acordă participiul unui verb pronominal?",
+       "v": "Când pronumele reflexiv este complement direct."
+      },
+      {
+       "f": "De ce „elle s'est lavé les mains” nu are acord?",
+       "v": "Pentru că pronumele este complement indirect, iar complementul direct stă după verb."
+      },
+      {
+       "f": "Ce verbe își schimbă auxiliarul?",
+       "v": "Monter, descendre, sortir, passer, retourner — être intranzitiv, avoir tranzitiv."
+      },
+      {
+       "f": "Cum se scrie „quatre-vingts” față de „quatre-vingt-deux”?",
+       "v": "Primul are „s”, al doilea nu."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Elle s'est lavée” are acord pentru că pronumele este:",
+       "optiuni": [
+        "complement direct",
+        "complement indirect",
+        "subiect",
+        "atribut"
+       ],
+       "corect": 0,
+       "explicatie": "Acordul urmează regula complementului direct antepus."
+      },
+      {
+       "intrebare": "„Des yeux marron” rămâne invariabil pentru că:",
+       "optiuni": [
+        "adjectivul de culoare provine dintr-un substantiv",
+        "substantivul e la plural",
+        "e o excepție arbitrară",
+        "„marron” e adverb"
+       ],
+       "corect": 0,
+       "explicatie": "Aceeași regulă la „orange”."
+      },
+      {
+       "intrebare": "Verbul „sortir” se conjugă cu „avoir” când:",
+       "optiuni": [
+        "este folosit tranzitiv",
+        "este folosit intranzitiv",
+        "este la imperfect",
+        "este la infinitiv"
+       ],
+       "corect": 0,
+       "explicatie": "„Il a sorti la voiture”."
+      },
+      {
+       "intrebare": "„C'est” și „s'est” sunt:",
+       "optiuni": [
+        "omonime ortografice",
+        "sinonime",
+        "forme ale aceluiași verb",
+        "variante regionale"
+       ],
+       "corect": 0,
+       "explicatie": "Confuzia lor e o greșeală frecventă."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fra12-c2",
+   "titlu": "Lexic și texte",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "fra12-04",
+     "titlu": "Formarea cuvintelor",
+     "rezumat": "Franceza formează cuvinte prin derivare, compunere și împrumut. Prefixele modifică sensul: re- (repetare), dé-/dés- (negație sau contrariu), in-/im- (negație), pré- (anterioritate), sur- (exces), sous- (insuficiență). Sufixele indică, adesea, categoria gramaticală: -tion, -ment, -age formează substantive de acțiune; -eur, -teur, -iste formează nume de agent; -able, -ible arată posibilitatea; -iser formează verbe. Compunerea unește cuvinte întregi, cu sau fără cratimă: „porte-parole”, „arc-en-ciel”, „pomme de terre”. Împrumuturile din engleză sunt frecvente în domeniul tehnologic, iar politica lingvistică franceză propune uneori echivalente: „courriel” pentru e-mail, „logiciel” pentru software, „ordinateur” pentru computer — acesta din urmă complet impus în uz. Cunoașterea mecanismelor de formare permite înțelegerea cuvintelor necunoscute din context, competență esențială la lectură.",
+     "ideiCheie": [
+      "Prefixele modifică sensul; sufixele indică, adesea, categoria gramaticală.",
+      "Compunerea unește cuvinte întregi, cu sau fără cratimă.",
+      "Politica lingvistică franceză propune echivalente pentru împrumuturi.",
+      "Cunoașterea formării cuvintelor permite deducerea sensului din context."
+     ],
+     "termeni": [
+      {
+       "t": "derivare",
+       "d": "formarea unui cuvânt nou prin adăugarea unui prefix sau a unui sufix"
+      },
+      {
+       "t": "neologism",
+       "d": "cuvânt nou intrat în limbă, prin împrumut sau prin creație internă"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce arată sufixul -able?",
+       "v": "Posibilitatea: ceea ce poate fi făcut."
+      },
+      {
+       "f": "Ce echivalent francez s-a impus pentru „computer”?",
+       "v": "„Ordinateur”."
+      },
+      {
+       "f": "Ce exprimă prefixul „sur-”?",
+       "v": "Excesul, depășirea."
+      },
+      {
+       "f": "La ce ajută cunoașterea mecanismelor de formare a cuvintelor?",
+       "v": "La deducerea sensului cuvintelor necunoscute din context."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Sufixul -tion formează, de regulă:",
+       "optiuni": [
+        "substantive de acțiune",
+        "adjective",
+        "adverbe",
+        "verbe"
+       ],
+       "corect": 0,
+       "explicatie": "Ca și -ment sau -age."
+      },
+      {
+       "intrebare": "Prefixul „dé-” exprimă:",
+       "optiuni": [
+        "negația sau acțiunea contrară",
+        "repetarea",
+        "anterioritatea",
+        "excesul"
+       ],
+       "corect": 0,
+       "explicatie": "„Faire” devine „défaire”."
+      },
+      {
+       "intrebare": "„Courriel” este echivalentul francez propus pentru:",
+       "optiuni": [
+        "e-mail",
+        "software",
+        "hardware",
+        "internet"
+       ],
+       "corect": 0,
+       "explicatie": "„Logiciel” corespunde lui software."
+      },
+      {
+       "intrebare": "„Arc-en-ciel” este un cuvânt format prin:",
+       "optiuni": [
+        "compunere",
+        "derivare cu prefix",
+        "derivare cu sufix",
+        "împrumut"
+       ],
+       "corect": 0,
+       "explicatie": "Unește cuvinte întregi."
+      }
+     ]
+    },
+    {
+     "id": "fra12-05",
+     "titlu": "Sinonimie, polisemie, registre",
+     "rezumat": "Un cuvânt are rareori un singur sens: polisemia este regula, nu excepția. „Temps” înseamnă și timp, și vreme; „voler” înseamnă și a zbura, și a fura. Sensul exact se stabilește din context, iar dicționarul enumeră sensurile în ordinea frecvenței sau a evoluției istorice. Sinonimele nu sunt niciodată perfect interschimbabile: ele diferă prin registru („bagnole” familiar, „voiture” curent, „automobile” formal), prin intensitate („content”, „heureux”, „ravi”) sau prin conotație. Alegerea greșită produce efecte comice sau ofensatoare. Falsele prietenii dintre franceză și română sunt o sursă constantă de greșeli: „actuellement” înseamnă în prezent, nu de fapt; „éventuellement” înseamnă eventual, nu în cele din urmă; „location” înseamnă închiriere, nu loc.",
+     "ideiCheie": [
+      "Polisemia este regula: sensul se stabilește din context.",
+      "Sinonimele diferă prin registru, intensitate sau conotație.",
+      "Falsele prietenii sunt o sursă constantă de greșeli.",
+      "„Actuellement” înseamnă în prezent, nu de fapt."
+     ],
+     "termeni": [
+      {
+       "t": "polisemie",
+       "d": "însușirea unui cuvânt de a avea mai multe sensuri înrudite"
+      },
+      {
+       "t": "falsă prietenie",
+       "d": "cuvânt care seamănă cu unul din altă limbă, dar are alt sens"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este polisemia?",
+       "v": "Însușirea unui cuvânt de a avea mai multe sensuri înrudite."
+      },
+      {
+       "f": "Prin ce diferă sinonimele?",
+       "v": "Prin registru, intensitate sau conotație."
+      },
+      {
+       "f": "Ce înseamnă „actuellement”?",
+       "v": "În prezent, nu „de fapt”."
+      },
+      {
+       "f": "Ce înseamnă „location”?",
+       "v": "Închiriere, nu „loc”."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Voler” înseamnă:",
+       "optiuni": [
+        "și a zbura, și a fura",
+        "doar a zbura",
+        "doar a fura",
+        "a voala"
+       ],
+       "corect": 0,
+       "explicatie": "Contextul stabilește sensul."
+      },
+      {
+       "intrebare": "„Bagnole”, față de „voiture”, este:",
+       "optiuni": [
+        "familiar",
+        "formal",
+        "tehnic",
+        "literar"
+       ],
+       "corect": 0,
+       "explicatie": "„Automobile” e cel mai formal."
+      },
+      {
+       "intrebare": "„Éventuellement” înseamnă:",
+       "optiuni": [
+        "eventual, la nevoie",
+        "în cele din urmă",
+        "imediat",
+        "niciodată"
+       ],
+       "corect": 0,
+       "explicatie": "Este o falsă prietenie cu engleza."
+      },
+      {
+       "intrebare": "Sinonimele perfect interschimbabile:",
+       "optiuni": [
+        "practic nu există",
+        "sunt regula",
+        "apar doar în dicționar",
+        "se folosesc doar în poezie"
+       ],
+       "corect": 0,
+       "explicatie": "Diferențele de registru rămân."
+      }
+     ]
+    },
+    {
+     "id": "fra12-06",
+     "titlu": "Lectura textelor de specialitate",
+     "rezumat": "Textele de specialitate — articole de presă, texte administrative, documente europene, articole de popularizare științifică — cer strategii de lectură proprii. Prima este lectura globală, pentru a identifica tema, sursa, data și tipul de text; a doua, lectura selectivă, pentru a găsi informația căutată; a treia, lectura analitică, pentru a înțelege argumentarea. Deducerea sensului din context, folosind rădăcina cuvântului, prefixele și poziția în frază, evită întreruperea lecturii la fiecare cuvânt necunoscut. Distincția dintre fapt și opinie este esențială la textele de presă: verbele de opinie, adjectivele evaluative și selecția informației trădează poziția autorului. Rezumatul cere identificarea ideii principale a fiecărui paragraf și reformularea ei în cuvinte proprii, fără citate lungi și fără comentarii personale.",
+     "ideiCheie": [
+      "Lectura globală identifică tema, sursa, data și tipul de text.",
+      "Deducerea din context evită întreruperea lecturii la fiecare cuvânt.",
+      "Verbele de opinie și adjectivele evaluative trădează poziția autorului.",
+      "Rezumatul reformulează ideile principale, fără citate lungi și fără comentarii."
+     ],
+     "termeni": [
+      {
+       "t": "lectură selectivă",
+       "d": "citirea orientată spre găsirea unei informații precise"
+      },
+      {
+       "t": "reformulare",
+       "d": "exprimarea unei idei cu alte cuvinte, păstrându-i sensul"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt cele trei tipuri de lectură?",
+       "v": "Globală, selectivă și analitică."
+      },
+      {
+       "f": "Ce trădează poziția autorului într-un text de presă?",
+       "v": "Verbele de opinie, adjectivele evaluative și selecția informației."
+      },
+      {
+       "f": "Ce presupune un rezumat corect?",
+       "v": "Identificarea ideii principale a fiecărui paragraf și reformularea ei în cuvinte proprii."
+      },
+      {
+       "f": "De ce e utilă deducerea sensului din context?",
+       "v": "Pentru că evită întreruperea lecturii la fiecare cuvânt necunoscut."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Lectura globală urmărește:",
+       "optiuni": [
+        "tema, sursa, data și tipul de text",
+        "fiecare cuvânt în parte",
+        "doar concluzia",
+        "doar exemplele"
+       ],
+       "corect": 0,
+       "explicatie": "Este primul pas."
+      },
+      {
+       "intrebare": "Un rezumat corect:",
+       "optiuni": [
+        "reformulează, fără citate lungi și comentarii",
+        "copiază frazele-cheie",
+        "adaugă opinia cititorului",
+        "se limitează la titlu"
+       ],
+       "corect": 0,
+       "explicatie": "Ideile principale sunt criteriul."
+      },
+      {
+       "intrebare": "Distincția fapt / opinie este esențială pentru că:",
+       "optiuni": [
+        "textele de presă amestecă adesea cele două",
+        "faptele nu contează",
+        "opiniile sunt false",
+        "toate textele sunt obiective"
+       ],
+       "corect": 0,
+       "explicatie": "Selecția informației e deja o alegere."
+      },
+      {
+       "intrebare": "Deducerea sensului din context folosește:",
+       "optiuni": [
+        "rădăcina, prefixele și poziția în frază",
+        "doar dicționarul",
+        "doar traducerea automată",
+        "doar ilustrațiile"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea contează formarea cuvintelor."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fra12-c3",
+   "titlu": "Teme contemporane",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "fra12-07",
+     "titlu": "Mediul și dezvoltarea durabilă",
+     "rezumat": "Tema mediului are un vocabular propriu: réchauffement climatique, effet de serre, énergies renouvelables, développement durable, empreinte carbone, biodiversité, recyclage, tri sélectif, pollution, déchets. Ea apare constant în presa francofonă și în textele examenelor de limbă, ceea ce face vocabularul util practic. Dezbaterea reunește argumente ecologice, economice și sociale, iar exprimarea unei poziții cere nuanțare: puțini susțin că problema nu există, dar soluțiile propuse diferă radical — reglementare sau piață, tehnologie sau sobrietate, acțiune individuală sau politici publice. Structurile utile sunt cele de comparație, de consecință și de ipoteză. Un text bun pe această temă evită atât catastrofismul, cât și minimalizarea, și folosește date verificabile.",
+     "ideiCheie": [
+      "Vocabularul mediului apare constant în presa francofonă și în examene.",
+      "Dezbaterea reunește argumente ecologice, economice și sociale.",
+      "Soluțiile propuse diferă: reglementare sau piață, tehnologie sau sobrietate.",
+      "Un text bun folosește date verificabile și evită extremele."
+     ],
+     "termeni": [
+      {
+       "t": "développement durable",
+       "d": "dezvoltarea care satisface nevoile prezentului fără a compromite viitorul"
+      },
+      {
+       "t": "empreinte carbone",
+       "d": "cantitatea de gaze cu efect de seră generată de o activitate sau o persoană"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce înseamnă „développement durable”?",
+       "v": "Dezvoltare durabilă: satisfacerea nevoilor prezentului fără a compromite viitorul."
+      },
+      {
+       "f": "Ce este „empreinte carbone”?",
+       "v": "Amprenta de carbon: cantitatea de gaze cu efect de seră generată de o activitate."
+      },
+      {
+       "f": "Ce structuri gramaticale sunt utile la această temă?",
+       "v": "Comparația, consecința și ipoteza."
+      },
+      {
+       "f": "Ce evită un text bun despre mediu?",
+       "v": "Catastrofismul și minimalizarea, folosind date verificabile."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Tri sélectif” înseamnă:",
+       "optiuni": [
+        "colectare selectivă a deșeurilor",
+        "reciclare industrială",
+        "poluare selectivă",
+        "energie regenerabilă"
+       ],
+       "corect": 0,
+       "explicatie": "Este primul pas al reciclării."
+      },
+      {
+       "intrebare": "Dezbaterea despre mediu opune, mai ales:",
+       "optiuni": [
+        "soluțiile propuse, nu existența problemei",
+        "existența problemei",
+        "datele științifice de bază",
+        "necesitatea acțiunii"
+       ],
+       "corect": 0,
+       "explicatie": "Reglementare sau piață, tehnologie sau sobrietate."
+      },
+      {
+       "intrebare": "„Énergies renouvelables” desemnează:",
+       "optiuni": [
+        "energiile regenerabile",
+        "combustibilii fosili",
+        "energia nucleară exclusiv",
+        "consumul casnic"
+       ],
+       "corect": 0,
+       "explicatie": "Solar, eolian, hidro, biomasă."
+      },
+      {
+       "intrebare": "Un argument bun pe teme de mediu se sprijină pe:",
+       "optiuni": [
+        "date verificabile",
+        "impresii personale",
+        "exagerare intenționată",
+        "minimalizare"
+       ],
+       "corect": 0,
+       "explicatie": "Extremele slăbesc textul."
+      }
+     ]
+    },
+    {
+     "id": "fra12-08",
+     "titlu": "Tehnologie, muncă, societate",
+     "rezumat": "Transformarea digitală a schimbat munca, învățarea și relațiile. Vocabularul util cuprinde: numérique, réseaux sociaux, intelligence artificielle, télétravail, données personnelles, vie privée, fracture numérique, désinformation. Fiecare dintre aceste teme are o dezbatere proprie în spațiul francofon, adesea mai critică față de tehnologie decât cea anglo-saxonă. Munca la distanță a adus flexibilitate, dar și estomparea graniței dintre viață profesională și personală; Franța a fost printre primele țări care au legiferat „dreptul la deconectare”. Inteligența artificială ridică întrebări despre locurile de muncă, despre responsabilitate și despre drepturile de autor. Protecția datelor personale, reglementată european, este un domeniu în care Uniunea Europeană a impus un standard mondial. Discuția despre aceste teme cere vocabular precis și capacitatea de a nuanța.",
+     "ideiCheie": [
+      "Transformarea digitală a schimbat munca, învățarea și relațiile.",
+      "Franța a fost printre primele țări care au legiferat dreptul la deconectare.",
+      "Inteligența artificială ridică întrebări despre muncă, responsabilitate și drepturi de autor.",
+      "Uniunea Europeană a impus un standard mondial în protecția datelor."
+     ],
+     "termeni": [
+      {
+       "t": "télétravail",
+       "d": "munca la distanță, desfășurată în afara sediului angajatorului"
+      },
+      {
+       "t": "fracture numérique",
+       "d": "decalajul dintre cei care au acces la tehnologie și competențe digitale și cei care nu au"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce înseamnă „télétravail”?",
+       "v": "Munca la distanță, în afara sediului angajatorului."
+      },
+      {
+       "f": "Ce este „fracture numérique”?",
+       "v": "Decalajul digital dintre cei cu acces și competențe și cei fără."
+      },
+      {
+       "f": "Ce a legiferat Franța printre primele țări?",
+       "v": "Dreptul la deconectare, în afara programului de lucru."
+      },
+      {
+       "f": "În ce domeniu a impus Uniunea Europeană un standard mondial?",
+       "v": "În protecția datelor personale."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Dreptul la deconectare” privește:",
+       "optiuni": [
+        "granița dintre viața profesională și cea personală",
+        "accesul la internet",
+        "prețul abonamentelor",
+        "securitatea datelor"
+       ],
+       "corect": 0,
+       "explicatie": "A apărut odată cu munca la distanță."
+      },
+      {
+       "intrebare": "„Fracture numérique” desemnează:",
+       "optiuni": [
+        "decalajul de acces și competențe digitale",
+        "o defecțiune tehnică",
+        "viteza conexiunii",
+        "costul echipamentelor"
+       ],
+       "corect": 0,
+       "explicatie": "Este o problemă socială, nu tehnică."
+      },
+      {
+       "intrebare": "Dezbaterea francofonă despre tehnologie este, în general:",
+       "optiuni": [
+        "mai critică decât cea anglo-saxonă",
+        "identică",
+        "mai entuziastă",
+        "inexistentă"
+       ],
+       "corect": 0,
+       "explicatie": "Accentul cade pe consecințele sociale."
+      },
+      {
+       "intrebare": "Protecția datelor personale este reglementată:",
+       "optiuni": [
+        "la nivel european",
+        "doar național",
+        "doar prin contracte private",
+        "nereglementată"
+       ],
+       "corect": 0,
+       "explicatie": "Regulamentul european a devenit un reper mondial."
+      }
+     ]
+    },
+    {
+     "id": "fra12-09",
+     "titlu": "Mobilitate, studii, interculturalitate",
+     "rezumat": "Studiile și munca în spațiul francofon presupun cunoașterea procedurilor: echivalarea diplomelor, certificatele de limbă (DELF, DALF, TCF), programele europene de mobilitate, dosarele de candidatură. Scrisoarea de motivație, interviul și CV-ul european sunt instrumentele practice; fiecare are convenții proprii, iar nerespectarea lor descalifică din start un dosar bun. Interculturalitatea presupune conștiința diferențelor: în comunicarea franceză, dezbaterea explicită este apreciată, dar formele de politețe sunt obligatorii; distanța socială e mai mare decât în unele culturi, iar trecerea la „tu” se face după invitație explicită. Șocul cultural are etape cunoscute — entuziasm, dezorientare, adaptare, integrare — iar cunoașterea lor ajută la traversarea perioadei dificile. Competența interculturală nu înseamnă renunțarea la identitatea proprie, ci capacitatea de a funcționa în două coduri.",
+     "ideiCheie": [
+      "Certificatele DELF, DALF și TCF atestă nivelul de limbă franceză.",
+      "Scrisoarea de motivație, CV-ul și interviul au convenții proprii.",
+      "În comunicarea franceză, dezbaterea e apreciată, dar politețea e obligatorie.",
+      "Șocul cultural are etape: entuziasm, dezorientare, adaptare, integrare."
+     ],
+     "termeni": [
+      {
+       "t": "DELF",
+       "d": "diplomă oficială care atestă nivelul de cunoaștere a limbii franceze"
+      },
+      {
+       "t": "competență interculturală",
+       "d": "capacitatea de a funcționa eficient în contexte culturale diferite"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce atestă certificatele DELF și DALF?",
+       "v": "Nivelul de cunoaștere a limbii franceze, recunoscut oficial."
+      },
+      {
+       "f": "Care sunt etapele șocului cultural?",
+       "v": "Entuziasm, dezorientare, adaptare, integrare."
+      },
+      {
+       "f": "Cum se face trecerea la „tu” în franceză?",
+       "v": "După invitație explicită; nu se presupune."
+      },
+      {
+       "f": "Ce înseamnă competența interculturală?",
+       "v": "Capacitatea de a funcționa în două coduri culturale, fără a renunța la identitatea proprie."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Trecerea la „tu” în franceză:",
+       "optiuni": [
+        "se face după invitație explicită",
+        "e automată între tineri",
+        "e interzisă",
+        "depinde doar de vârstă"
+       ],
+       "corect": 0,
+       "explicatie": "Presupunerea ei poate fi resimțită ca lipsă de respect."
+      },
+      {
+       "intrebare": "Nerespectarea convențiilor unui dosar de candidatură:",
+       "optiuni": [
+        "poate descalifica un candidat bun",
+        "nu are efect",
+        "e apreciată ca originalitate",
+        "privește doar forma"
+       ],
+       "corect": 0,
+       "explicatie": "Forma face parte din mesaj."
+      },
+      {
+       "intrebare": "Competența interculturală înseamnă:",
+       "optiuni": [
+        "funcționarea în două coduri, fără renunțare la identitate",
+        "adoptarea completă a culturii-gazdă",
+        "respingerea culturii-gazdă",
+        "ignorarea diferențelor"
+       ],
+       "corect": 0,
+       "explicatie": "Diferențele se cunosc, nu se șterg."
+      },
+      {
+       "intrebare": "În comunicarea franceză, dezbaterea explicită este:",
+       "optiuni": [
+        "apreciată, dar însoțită de politețe obligatorie",
+        "evitată",
+        "considerată nepoliticoasă",
+        "rezervată specialiștilor"
+       ],
+       "corect": 0,
+       "explicatie": "Se contrazice ideea, nu persoana."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "teze": [
+  {
+   "semestru": 1,
+   "test": [
+    {
+     "intrebare": "„Pour que” cere:",
+     "optiuni": [
+      "subjonctivul",
+      "indicativul",
+      "condiționalul",
+      "infinitivul"
+     ],
+     "corect": 0,
+     "explicatie": "Exprimă scopul."
+    },
+    {
+     "intrebare": "„Après que” cere, normativ:",
+     "optiuni": [
+      "indicativul",
+      "subjonctivul",
+      "condiționalul",
+      "imperativul"
+     ],
+     "corect": 0,
+     "explicatie": "„Avant que” cere subjonctivul."
+    },
+    {
+     "intrebare": "Gerunziul se formează cu:",
+     "optiuni": [
+      "en plus participiu prezent",
+      "à plus infinitiv",
+      "de plus participiu trecut",
+      "pour plus infinitiv"
+     ],
+     "corect": 0,
+     "explicatie": "Cere același subiect cu verbul principal."
+    },
+    {
+     "intrebare": "Adjectivul verbal, față de participiul prezent:",
+     "optiuni": [
+      "se acordă",
+      "rămâne invariabil",
+      "nu există",
+      "se folosește doar la trecut"
+     ],
+     "corect": 0,
+     "explicatie": "„Une histoire amusante”."
+    },
+    {
+     "intrebare": "„Elle s'est lavé les mains” nu are acord pentru că:",
+     "optiuni": [
+      "complementul direct stă după verb",
+      "verbul e intranzitiv",
+      "subiectul e feminin",
+      "auxiliarul e „avoir”"
+     ],
+     "corect": 0,
+     "explicatie": "Pronumele e complement indirect."
+    },
+    {
+     "intrebare": "Sufixul -able exprimă:",
+     "optiuni": [
+      "posibilitatea",
+      "acțiunea",
+      "agentul",
+      "repetarea"
+     ],
+     "corect": 0,
+     "explicatie": "„Faisable” înseamnă realizabil."
+    },
+    {
+     "intrebare": "„Ordinateur” este echivalentul francez pentru:",
+     "optiuni": [
+      "computer",
+      "e-mail",
+      "software",
+      "internet"
+     ],
+     "corect": 0,
+     "explicatie": "S-a impus complet în uz."
+    },
+    {
+     "intrebare": "Polisemia înseamnă:",
+     "optiuni": [
+      "mai multe sensuri ale aceluiași cuvânt",
+      "mai multe cuvinte cu același sens",
+      "cuvinte care se scriu la fel",
+      "cuvinte împrumutate"
+     ],
+     "corect": 0,
+     "explicatie": "Sensul se stabilește din context."
+    },
+    {
+     "intrebare": "„Actuellement” înseamnă:",
+     "optiuni": [
+      "în prezent",
+      "de fapt",
+      "în cele din urmă",
+      "eventual"
+     ],
+     "corect": 0,
+     "explicatie": "Este o falsă prietenie."
+    }
+   ]
+  },
+  {
+   "semestru": 2,
+   "test": [
+    {
+     "intrebare": "Lectura selectivă urmărește:",
+     "optiuni": [
+      "găsirea unei informații precise",
+      "înțelegerea integrală",
+      "memorarea textului",
+      "traducerea lui"
+     ],
+     "corect": 0,
+     "explicatie": "Lectura globală identifică tema și sursa."
+    },
+    {
+     "intrebare": "Un rezumat corect:",
+     "optiuni": [
+      "reformulează ideile principale",
+      "copiază frazele-cheie",
+      "adaugă comentarii personale",
+      "reproduce exemplele"
+     ],
+     "corect": 0,
+     "explicatie": "Fără citate lungi."
+    },
+    {
+     "intrebare": "„Développement durable” înseamnă:",
+     "optiuni": [
+      "dezvoltare durabilă",
+      "creștere rapidă",
+      "economie de resurse exclusiv",
+      "protecție a mediului fără economie"
+     ],
+     "corect": 0,
+     "explicatie": "Îmbină economicul, socialul și mediul."
+    },
+    {
+     "intrebare": "„Empreinte carbone” desemnează:",
+     "optiuni": [
+      "cantitatea de gaze cu efect de seră generată",
+      "suprafața ocupată de o activitate",
+      "consumul de apă",
+      "volumul deșeurilor"
+     ],
+     "corect": 0,
+     "explicatie": "Se calculează pentru persoane, produse sau organizații."
+    },
+    {
+     "intrebare": "„Télétravail” înseamnă:",
+     "optiuni": [
+      "muncă la distanță",
+      "muncă în echipă",
+      "muncă temporară",
+      "muncă sezonieră"
+     ],
+     "corect": 0,
+     "explicatie": "A adus și dreptul la deconectare."
+    },
+    {
+     "intrebare": "„Fracture numérique” se referă la:",
+     "optiuni": [
+      "decalajul de acces și competențe digitale",
+      "defecțiunile echipamentelor",
+      "viteza internetului",
+      "prețul dispozitivelor"
+     ],
+     "corect": 0,
+     "explicatie": "Este o problemă socială."
+    },
+    {
+     "intrebare": "Certificatele DELF și DALF atestă:",
+     "optiuni": [
+      "nivelul de limbă franceză",
+      "studiile universitare",
+      "experiența profesională",
+      "cetățenia"
+     ],
+     "corect": 0,
+     "explicatie": "Sunt recunoscute oficial."
+    },
+    {
+     "intrebare": "Etapele șocului cultural sunt:",
+     "optiuni": [
+      "entuziasm, dezorientare, adaptare, integrare",
+      "doar entuziasm și adaptare",
+      "doar dezorientare",
+      "integrare imediată"
+     ],
+     "corect": 0,
+     "explicatie": "Cunoașterea lor ajută la traversarea perioadei dificile."
+    },
+    {
+     "intrebare": "Competența interculturală presupune:",
+     "optiuni": [
+      "funcționarea în două coduri culturale",
+      "renunțarea la identitatea proprie",
+      "respingerea culturii-gazdă",
+      "ignorarea diferențelor"
+     ],
+     "corect": 0,
+     "explicatie": "Diferențele se cunosc, nu se șterg."
+    }
+   ]
+  }
+ ]
+}

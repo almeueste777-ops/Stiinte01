@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 52,
-  "nrLectii": 508,
-  "nrCarduri": 2032,
-  "nrIntrebari": 3182,
+  "nrModule": 54,
+  "nrLectii": 526,
+  "nrCarduri": 2104,
+  "nrIntrebari": 3290,
   "module": [
     {
       "id": "geografie-9",
@@ -3660,6 +3660,88 @@
       ]
     },
     {
+      "id": "franceza-12",
+      "materie": "Limba modernă 2 (Franceză)",
+      "clasa": "a XII-a",
+      "an": 4,
+      "arie": "Limbă și comunicare",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Sintaxa frazei complexe, nuanțele lexicale, texte de specialitate și teme de dezbatere contemporană.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 54,
+      "capitole": [
+        {
+          "id": "fra12-c1",
+          "titlu": "Fraza complexă",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fra12-01",
+              "titlu": "Subordonatele circumstanțiale"
+            },
+            {
+              "id": "fra12-02",
+              "titlu": "Participiul și gerunziul"
+            },
+            {
+              "id": "fra12-03",
+              "titlu": "Nuanțe verbale și acorduri dificile"
+            }
+          ]
+        },
+        {
+          "id": "fra12-c2",
+          "titlu": "Lexic și texte",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fra12-04",
+              "titlu": "Formarea cuvintelor"
+            },
+            {
+              "id": "fra12-05",
+              "titlu": "Sinonimie, polisemie, registre"
+            },
+            {
+              "id": "fra12-06",
+              "titlu": "Lectura textelor de specialitate"
+            }
+          ]
+        },
+        {
+          "id": "fra12-c3",
+          "titlu": "Teme contemporane",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "fra12-07",
+              "titlu": "Mediul și dezvoltarea durabilă"
+            },
+            {
+              "id": "fra12-08",
+              "titlu": "Tehnologie, muncă, societate"
+            },
+            {
+              "id": "fra12-09",
+              "titlu": "Mobilitate, studii, interculturalitate"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
+        }
+      ]
+    },
+    {
       "id": "romana-12",
       "materie": "Limba și literatura română",
       "clasa": "a XII-a",
@@ -4438,6 +4520,88 @@
         {
           "semestru": 2,
           "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "franceza-13",
+      "materie": "Limba modernă 2 (Franceză)",
+      "clasa": "a XIII-a",
+      "an": 5,
+      "arie": "Limbă și comunicare",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Sinteză și consolidare: recapitularea structurilor, producerea de texte complexe, cultura francofonă și competențele de examen.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 54,
+      "capitole": [
+        {
+          "id": "fra13-c1",
+          "titlu": "Sinteză gramaticală",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fra13-01",
+              "titlu": "Sistemul verbal — recapitulare"
+            },
+            {
+              "id": "fra13-02",
+              "titlu": "Pronume, determinanți, acorduri"
+            },
+            {
+              "id": "fra13-03",
+              "titlu": "Fraza: coordonare și subordonare"
+            }
+          ]
+        },
+        {
+          "id": "fra13-c2",
+          "titlu": "Producerea de texte",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fra13-04",
+              "titlu": "Textul narativ și descriptiv"
+            },
+            {
+              "id": "fra13-05",
+              "titlu": "Textul argumentativ și eseul"
+            },
+            {
+              "id": "fra13-06",
+              "titlu": "Oralul: prezentare și interacțiune"
+            }
+          ]
+        },
+        {
+          "id": "fra13-c3",
+          "titlu": "Cultură și deschideri",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "fra13-07",
+              "titlu": "Spațiul francofon"
+            },
+            {
+              "id": "fra13-08",
+              "titlu": "Limba franceză și România"
+            },
+            {
+              "id": "fra13-09",
+              "titlu": "Sinteză: ce înseamnă să știi o limbă"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
         }
       ]
     },
