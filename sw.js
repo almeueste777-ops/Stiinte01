@@ -40,6 +40,7 @@ const ASSETS = [
   './data/module/istorie-13.json',
   './data/module/studii-sociale-13.json',
   './data/module/romana-13.json',
+  './data/module/bac-13.json',
   /* MODULE:STOP */
   './icons/icon-192.png',
   './icons/icon-512.png',

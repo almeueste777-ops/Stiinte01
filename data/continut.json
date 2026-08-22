@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 24,
-  "nrLectii": 256,
-  "nrCarduri": 1024,
-  "nrIntrebari": 1604,
+  "nrModule": 25,
+  "nrLectii": 265,
+  "nrCarduri": 1060,
+  "nrIntrebari": 1664,
   "module": [
     {
       "id": "geografie-9",
@@ -2301,6 +2301,88 @@
             {
               "id": "rom13-09",
               "titlu": "Strategii de examen și greșeli de evitat"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "bac-13",
+      "materie": "Pregătire pentru bacalaureat (CDEOȘ)",
+      "clasa": "a XIII-a",
+      "an": 5,
+      "arie": "Curriculum la decizia elevului",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Organizarea examenului, planul de învățare, tehnici de memorare și de scriere sub presiune, plus recapitulări încrucișate pe probe.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 60,
+      "capitole": [
+        {
+          "id": "bac13-c1",
+          "titlu": "Examenul: structură și reguli",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "bac13-01",
+              "titlu": "Structura bacalaureatului"
+            },
+            {
+              "id": "bac13-02",
+              "titlu": "Regulament, calendar, contestații"
+            },
+            {
+              "id": "bac13-03",
+              "titlu": "Planul personal de învățare"
+            }
+          ]
+        },
+        {
+          "id": "bac13-c2",
+          "titlu": "Tehnici de învățare și de examen",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "bac13-04",
+              "titlu": "Memorare, organizare, hărți conceptuale"
+            },
+            {
+              "id": "bac13-05",
+              "titlu": "Gestionarea timpului și a emoțiilor în examen"
+            },
+            {
+              "id": "bac13-06",
+              "titlu": "Lucrul cu variantele și autoevaluarea"
+            }
+          ]
+        },
+        {
+          "id": "bac13-c3",
+          "titlu": "Recapitulări încrucișate",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "bac13-07",
+              "titlu": "Repere de istorie pentru proba E.c"
+            },
+            {
+              "id": "bac13-08",
+              "titlu": "Repere pentru proba E.d din aria „Om și societate”"
+            },
+            {
+              "id": "bac13-09",
+              "titlu": "Proba A, B și D: competențele"
             }
           ]
         }
