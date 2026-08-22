@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 50,
-  "nrLectii": 490,
-  "nrCarduri": 1960,
-  "nrIntrebari": 3074,
+  "nrModule": 52,
+  "nrLectii": 508,
+  "nrCarduri": 2032,
+  "nrIntrebari": 3182,
   "module": [
     {
       "id": "geografie-9",
@@ -1719,6 +1719,88 @@
       ]
     },
     {
+      "id": "franceza-10",
+      "materie": "Limba modernă 2 (Franceză)",
+      "clasa": "a X-a",
+      "an": 2,
+      "arie": "Limbă și comunicare",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Timpurile trecutului, pronumele, comunicarea în situații cotidiene și vocabularul vieții zilnice.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 54,
+      "capitole": [
+        {
+          "id": "fra10-c1",
+          "titlu": "Timpurile trecutului",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fra10-01",
+              "titlu": "Passé composé"
+            },
+            {
+              "id": "fra10-02",
+              "titlu": "Imparfait și opoziția cu passé composé"
+            },
+            {
+              "id": "fra10-03",
+              "titlu": "Plus-que-parfait și viitorul"
+            }
+          ]
+        },
+        {
+          "id": "fra10-c2",
+          "titlu": "Pronume și structuri",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fra10-04",
+              "titlu": "Pronumele complement"
+            },
+            {
+              "id": "fra10-05",
+              "titlu": "Pronumele relative și interogația"
+            },
+            {
+              "id": "fra10-06",
+              "titlu": "Negația și exprimarea cantității"
+            }
+          ]
+        },
+        {
+          "id": "fra10-c3",
+          "titlu": "Comunicare și vocabular",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "fra10-07",
+              "titlu": "Viața cotidiană"
+            },
+            {
+              "id": "fra10-08",
+              "titlu": "Descriere și povestire"
+            },
+            {
+              "id": "fra10-09",
+              "titlu": "Franța și francofonia"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
+        }
+      ]
+    },
+    {
       "id": "romana-10",
       "materie": "Limba și literatura română",
       "clasa": "a X-a",
@@ -2769,6 +2851,88 @@
         {
           "semestru": 2,
           "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "franceza-11",
+      "materie": "Limba modernă 2 (Franceză)",
+      "clasa": "a XI-a",
+      "an": 3,
+      "arie": "Limbă și comunicare",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Moduri și subordonate, exprimarea opiniei și a argumentării, societatea franceză contemporană.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 54,
+      "capitole": [
+        {
+          "id": "fra11-c1",
+          "titlu": "Moduri și timpuri",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fra11-01",
+              "titlu": "Condiționalul"
+            },
+            {
+              "id": "fra11-02",
+              "titlu": "Subjonctivul"
+            },
+            {
+              "id": "fra11-03",
+              "titlu": "Vocea pasivă și discursul indirect"
+            }
+          ]
+        },
+        {
+          "id": "fra11-c2",
+          "titlu": "Argumentare și opinie",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fra11-04",
+              "titlu": "Exprimarea opiniei"
+            },
+            {
+              "id": "fra11-05",
+              "titlu": "Structura argumentării"
+            },
+            {
+              "id": "fra11-06",
+              "titlu": "Corespondență și texte funcționale"
+            }
+          ]
+        },
+        {
+          "id": "fra11-c3",
+          "titlu": "Societate și cultură",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "fra11-07",
+              "titlu": "Instituțiile și societatea franceză"
+            },
+            {
+              "id": "fra11-08",
+              "titlu": "Literatura franceză — repere"
+            },
+            {
+              "id": "fra11-09",
+              "titlu": "Media, film, cultură contemporană"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
         }
       ]
     },

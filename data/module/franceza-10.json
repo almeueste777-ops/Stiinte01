@@ -1,0 +1,1007 @@
+{
+ "id": "franceza-10",
+ "materie": "Limba modernă 2 (Franceză)",
+ "clasa": "a X-a",
+ "an": 2,
+ "arie": "Limbă și comunicare",
+ "bac": false,
+ "descriere": "Timpurile trecutului, pronumele, comunicarea în situații cotidiene și vocabularul vieții zilnice.",
+ "capitole": [
+  {
+   "id": "fra10-c1",
+   "titlu": "Timpurile trecutului",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "fra10-01",
+     "titlu": "Passé composé",
+     "rezumat": "Trecutul compus exprimă o acțiune terminată în trecut și se formează din auxiliarul „avoir” sau „être” la prezent plus participiul trecut al verbului. Majoritatea verbelor folosesc „avoir”; folosesc „être” verbele de mișcare și de schimbare de stare — aller, venir, partir, arriver, entrer, sortir, monter, descendre, rester, tomber, naître, mourir — și toate verbele pronominale. Participiul trecut se formează în -é la grupa I (parlé), în -i la grupa a II-a (fini), iar la grupa a III-a are forme neregulate care se învață: eu, fait, pris, mis, vu, dit, écrit, ouvert. Acordul participiului urmează două reguli principale: cu „être”, participiul se acordă cu subiectul (elle est partie, ils sont venus); cu „avoir”, se acordă cu complementul direct doar dacă acesta stă înaintea verbului (les livres que j'ai lus).",
+     "ideiCheie": [
+      "Trecutul compus se formează din auxiliar la prezent plus participiul trecut.",
+      "„Être” se folosește la verbele de mișcare, de schimbare de stare și la cele pronominale.",
+      "Cu „être”, participiul se acordă cu subiectul.",
+      "Cu „avoir”, participiul se acordă doar cu complementul direct antepus."
+     ],
+     "termeni": [
+      {
+       "t": "participiu trecut",
+       "d": "forma verbului folosită la timpurile compuse"
+      },
+      {
+       "t": "verb pronominal",
+       "d": "verb însoțit de un pronume reflexiv, care se conjugă cu „être” la timpurile compuse"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce auxiliare se folosesc la trecutul compus?",
+       "v": "„Avoir” și „être”."
+      },
+      {
+       "f": "Ce verbe se conjugă cu „être”?",
+       "v": "Verbele de mișcare și de schimbare de stare, plus toate verbele pronominale."
+      },
+      {
+       "f": "Cu ce se acordă participiul conjugat cu „être”?",
+       "v": "Cu subiectul."
+      },
+      {
+       "f": "Când se acordă participiul conjugat cu „avoir”?",
+       "v": "Doar când complementul direct stă înaintea verbului."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Elle est partie” arată acordul participiului cu:",
+       "optiuni": [
+        "subiectul",
+        "complementul direct",
+        "complementul indirect",
+        "auxiliarul"
+       ],
+       "corect": 0,
+       "explicatie": "Verbul se conjugă cu „être”."
+      },
+      {
+       "intrebare": "Participiul trecut al lui „prendre” este:",
+       "optiuni": [
+        "pris",
+        "prendu",
+        "prené",
+        "prendi"
+       ],
+       "corect": 0,
+       "explicatie": "Grupa a III-a are forme neregulate."
+      },
+      {
+       "intrebare": "Verbele pronominale se conjugă la trecutul compus cu:",
+       "optiuni": [
+        "être",
+        "avoir",
+        "aller",
+        "faire"
+       ],
+       "corect": 0,
+       "explicatie": "Fără excepție."
+      },
+      {
+       "intrebare": "În „les livres que j'ai lus”, participiul se acordă pentru că:",
+       "optiuni": [
+        "complementul direct stă înaintea verbului",
+        "verbul e pronominal",
+        "auxiliarul e „être”",
+        "subiectul e la plural"
+       ],
+       "corect": 0,
+       "explicatie": "Este regula acordului cu „avoir”."
+      }
+     ]
+    },
+    {
+     "id": "fra10-02",
+     "titlu": "Imparfait și opoziția cu passé composé",
+     "rezumat": "Imperfectul se formează din radicalul persoanei I plural de la prezent, la care se adaugă terminațiile -ais, -ais, -ait, -ions, -iez, -aient: nous parlons → je parlais; nous finissons → je finissais. Singura excepție este „être”, care face „j'étais”. Imperfectul exprimă o acțiune în desfășurare, o obișnuință din trecut, o descriere sau un cadru. Opoziția dintre imperfect și trecutul compus este esențială pentru povestire: imperfectul dă fundalul (il pleuvait, il faisait nuit, j'avais douze ans), trecutul compus dă evenimentele care fac să avanseze acțiunea (soudain, le téléphone a sonné). Aceeași frază își schimbă complet sensul după timpul ales: „quand il est entré, elle lisait” (ea citea deja) față de „quand il est entré, elle a lu” (a început să citească după). Adverbele ajută la alegere: „souvent, toujours, tous les jours” cheamă imperfectul; „soudain, tout à coup, une fois” cheamă trecutul compus.",
+     "ideiCheie": [
+      "Imperfectul se formează din radicalul persoanei I plural, plus terminațiile -ais, -ais, -ait, -ions, -iez, -aient.",
+      "Singura excepție de formare este „être”: j'étais.",
+      "Imperfectul dă fundalul; trecutul compus dă evenimentele.",
+      "Adverbele de repetiție cheamă imperfectul; cele de bruschețe, trecutul compus."
+     ],
+     "termeni": [
+      {
+       "t": "imparfait",
+       "d": "timpul care exprimă o acțiune în desfășurare, o obișnuință sau o descriere în trecut"
+      },
+      {
+       "t": "fundal narativ",
+       "d": "cadrul în care se petrec evenimentele unei povestiri"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se formează imperfectul?",
+       "v": "Din radicalul persoanei I plural de la prezent, plus terminațiile specifice."
+      },
+      {
+       "f": "Care e singura excepție de formare a imperfectului?",
+       "v": "Verbul „être”, care face „j'étais”."
+      },
+      {
+       "f": "Ce rol are imperfectul în povestire?",
+       "v": "Dă fundalul: descriere, obișnuință, acțiune în desfășurare."
+      },
+      {
+       "f": "Ce adverbe cheamă trecutul compus?",
+       "v": "„Soudain”, „tout à coup”, „une fois”."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Il pleuvait” este:",
+       "optiuni": [
+        "imperfect",
+        "trecut compus",
+        "prezent",
+        "viitor"
+       ],
+       "corect": 0,
+       "explicatie": "Descrie un cadru."
+      },
+      {
+       "intrebare": "Radicalul imperfectului se ia de la:",
+       "optiuni": [
+        "persoana I plural, prezent",
+        "infinitiv",
+        "persoana I singular",
+        "participiul trecut"
+       ],
+       "corect": 0,
+       "explicatie": "„Nous finissons” dă „je finissais”."
+      },
+      {
+       "intrebare": "„Quand il est entré, elle lisait” înseamnă că ea:",
+       "optiuni": [
+        "citea deja",
+        "a început să citească după",
+        "nu citea deloc",
+        "a terminat de citit"
+       ],
+       "corect": 0,
+       "explicatie": "Imperfectul arată acțiunea în desfășurare."
+      },
+      {
+       "intrebare": "Adverbul „tous les jours” cheamă:",
+       "optiuni": [
+        "imperfectul",
+        "trecutul compus",
+        "viitorul",
+        "condiționalul"
+       ],
+       "corect": 0,
+       "explicatie": "Exprimă o obișnuință."
+      }
+     ]
+    },
+    {
+     "id": "fra10-03",
+     "titlu": "Plus-que-parfait și viitorul",
+     "rezumat": "Mai-mult-ca-perfectul se formează din auxiliarul „avoir” sau „être” la imperfect plus participiul trecut: j'avais parlé, elle était partie. El exprimă o acțiune anterioară altei acțiuni din trecut: „quand je suis arrivé, il était déjà parti”. Regulile de acord ale participiului rămân aceleași ca la trecutul compus. Viitorul apropiat se formează cu „aller” la prezent plus infinitivul și exprimă o acțiune iminentă sau planificată: je vais partir. Viitorul simplu se formează din infinitiv plus terminațiile -ai, -as, -a, -ons, -ez, -ont: je parlerai, je finirai; verbele de grupa a III-a în -re pierd „e”-ul final. Câteva radicale sunt neregulate și trebuie învățate: être → serai, avoir → aurai, aller → irai, faire → ferai, venir → viendrai, pouvoir → pourrai, vouloir → voudrai, voir → verrai.",
+     "ideiCheie": [
+      "Mai-mult-ca-perfectul: auxiliar la imperfect plus participiu trecut.",
+      "El exprimă anterioritatea față de o altă acțiune din trecut.",
+      "Viitorul apropiat: „aller” la prezent plus infinitiv.",
+      "Viitorul simplu: infinitiv plus terminațiile -ai, -as, -a, -ons, -ez, -ont."
+     ],
+     "termeni": [
+      {
+       "t": "plus-que-parfait",
+       "d": "timpul care exprimă o acțiune anterioară alteia din trecut"
+      },
+      {
+       "t": "futur proche",
+       "d": "viitorul apropiat, format cu „aller” plus infinitiv"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se formează mai-mult-ca-perfectul?",
+       "v": "Din auxiliar la imperfect plus participiul trecut."
+      },
+      {
+       "f": "Ce exprimă mai-mult-ca-perfectul?",
+       "v": "O acțiune anterioară altei acțiuni din trecut."
+      },
+      {
+       "f": "Cum se formează viitorul apropiat?",
+       "v": "Cu „aller” la prezent plus infinitivul verbului."
+      },
+      {
+       "f": "Care e viitorul simplu al lui „aller”?",
+       "v": "J'irai."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Il était déjà parti” este:",
+       "optiuni": [
+        "mai-mult-ca-perfect",
+        "trecut compus",
+        "imperfect",
+        "viitor anterior"
+       ],
+       "corect": 0,
+       "explicatie": "Exprimă anterioritatea în trecut."
+      },
+      {
+       "intrebare": "Viitorul simplu al lui „être” este:",
+       "optiuni": [
+        "je serai",
+        "j'étais",
+        "je suis",
+        "j'aurai"
+       ],
+       "corect": 0,
+       "explicatie": "„J'aurai” vine de la „avoir”."
+      },
+      {
+       "intrebare": "Viitorul apropiat se formează cu:",
+       "optiuni": [
+        "aller la prezent plus infinitiv",
+        "être la prezent plus participiu",
+        "avoir la prezent plus infinitiv",
+        "aller la imperfect plus infinitiv"
+       ],
+       "corect": 0,
+       "explicatie": "Exprimă o acțiune iminentă."
+      },
+      {
+       "intrebare": "Terminațiile viitorului simplu sunt:",
+       "optiuni": [
+        "-ai, -as, -a, -ons, -ez, -ont",
+        "-ais, -ais, -ait, -ions, -iez, -aient",
+        "-e, -es, -e, -ons, -ez, -ent",
+        "-é, -i, -u"
+       ],
+       "corect": 0,
+       "explicatie": "Se adaugă, de regulă, la infinitiv."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fra10-c2",
+   "titlu": "Pronume și structuri",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "fra10-04",
+     "titlu": "Pronumele complement",
+     "rezumat": "Pronumele complement direct — me, te, le, la, nous, vous, les — înlocuiesc un complement direct și stau, de regulă, înaintea verbului: „je vois Marie” devine „je la vois”. Pronumele complement indirect — me, te, lui, nous, vous, leur — înlocuiesc un complement introdus prin „à”: „je parle à Paul” devine „je lui parle”. Diferența dintre „le/la/les” și „lui/leur” urmează construcția verbului, care trebuie învățată odată cu el. Pronumele „en” înlocuiește un complement introdus prin „de” sau o cantitate: „j'ai trois livres” devine „j'en ai trois”. Pronumele „y” înlocuiește un complement de loc sau introdus prin „à” pentru lucruri: „je vais à Paris” devine „j'y vais”. Când apar mai multe pronume, ordinea lor este fixă, iar la imperativul afirmativ pronumele trec după verb, legate prin cratimă.",
+     "ideiCheie": [
+      "Pronumele complement stau, de regulă, înaintea verbului.",
+      "„Le/la/les” înlocuiesc complementul direct; „lui/leur”, pe cel indirect.",
+      "„En” înlocuiește complementul cu „de” sau cantitatea.",
+      "La imperativul afirmativ, pronumele trec după verb."
+     ],
+     "termeni": [
+      {
+       "t": "pronume complement direct",
+       "d": "pronumele care înlocuiește un complement direct al verbului"
+      },
+      {
+       "t": "en",
+       "d": "pronumele care înlocuiește un complement introdus prin „de” sau o cantitate"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce înlocuiește pronumele „y”?",
+       "v": "Un complement de loc sau introdus prin „à” pentru lucruri."
+      },
+      {
+       "f": "Ce înlocuiește pronumele „en”?",
+       "v": "Un complement introdus prin „de” sau o cantitate."
+      },
+      {
+       "f": "Unde stau pronumele complement, de regulă?",
+       "v": "Înaintea verbului."
+      },
+      {
+       "f": "Ce se schimbă la imperativul afirmativ?",
+       "v": "Pronumele trec după verb, legate prin cratimă."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Je parle à Paul” devine:",
+       "optiuni": [
+        "je lui parle",
+        "je le parle",
+        "j'y parle",
+        "j'en parle"
+       ],
+       "corect": 0,
+       "explicatie": "„Lui” înlocuiește complementul indirect."
+      },
+      {
+       "intrebare": "„Je vais à Paris” devine:",
+       "optiuni": [
+        "j'y vais",
+        "j'en vais",
+        "je le vais",
+        "je lui vais"
+       ],
+       "corect": 0,
+       "explicatie": "„Y” înlocuiește complementul de loc."
+      },
+      {
+       "intrebare": "„J'ai trois livres” devine:",
+       "optiuni": [
+        "j'en ai trois",
+        "j'y ai trois",
+        "je les ai trois",
+        "je lui ai trois"
+       ],
+       "corect": 0,
+       "explicatie": "„En” înlocuiește cantitatea."
+      },
+      {
+       "intrebare": "Alegerea între „le” și „lui” depinde de:",
+       "optiuni": [
+        "construcția verbului",
+        "genul substantivului",
+        "numărul substantivului",
+        "timpul verbal"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea verbul se învață cu prepoziția lui."
+      }
+     ]
+    },
+    {
+     "id": "fra10-05",
+     "titlu": "Pronumele relative și interogația",
+     "rezumat": "Pronumele relative simple sunt „qui” (subiect), „que” (complement direct), „où” (loc și timp) și „dont” (înlocuiește un complement cu „de”). Alegerea între „qui” și „que” se face după funcția în subordonată, nu după persoană sau lucru: „l'homme qui parle” (el vorbește), „l'homme que je vois” (eu îl văd). „Dont” traduce, de obicei, „al cărui, despre care, de care”. Interogația are trei registre. Cel familiar folosește intonația: „tu viens?”. Cel curent folosește „est-ce que”: „est-ce que tu viens?”. Cel formal folosește inversiunea: „viens-tu?”. Cuvintele interogative — qui, que, quoi, où, quand, comment, pourquoi, combien, quel — se combină cu aceste structuri. Deosebirea dintre „quel” (adjectiv, acordat) și „qu'est-ce que” (locuțiune invariabilă) este una dintre cele mai frecvente surse de greșeală.",
+     "ideiCheie": [
+      "Relativele simple: qui, que, où, dont.",
+      "Alegerea între „qui” și „que” se face după funcția în subordonată.",
+      "Interogația are trei registre: intonație, „est-ce que”, inversiune.",
+      "„Quel” este adjectiv și se acordă; „qu'est-ce que” este invariabil."
+     ],
+     "termeni": [
+      {
+       "t": "pronume relativ",
+       "d": "cuvântul care introduce o subordonată atributivă și înlocuiește un termen din regentă"
+      },
+      {
+       "t": "inversiune",
+       "d": "procedeul interogativ prin care verbul stă înaintea subiectului"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Când se folosește „qui”?",
+       "v": "Când pronumele relativ are funcția de subiect în subordonată."
+      },
+      {
+       "f": "Ce înlocuiește „dont”?",
+       "v": "Un complement introdus prin „de”."
+      },
+      {
+       "f": "Care sunt cele trei registre ale interogației?",
+       "v": "Intonația (familiar), „est-ce que” (curent), inversiunea (formal)."
+      },
+      {
+       "f": "Prin ce diferă „quel” de „qu'est-ce que”?",
+       "v": "„Quel” este adjectiv și se acordă; „qu'est-ce que” este o locuțiune invariabilă."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "În „l'homme que je vois”, „que” are funcția de:",
+       "optiuni": [
+        "complement direct",
+        "subiect",
+        "complement de loc",
+        "atribut"
+       ],
+       "corect": 0,
+       "explicatie": "„Qui” ar fi fost subiect."
+      },
+      {
+       "intrebare": "Registrul formal al interogației folosește:",
+       "optiuni": [
+        "inversiunea",
+        "intonația",
+        "est-ce que",
+        "exclamația"
+       ],
+       "corect": 0,
+       "explicatie": "„Viens-tu?”."
+      },
+      {
+       "intrebare": "„Dont” traduce, de obicei:",
+       "optiuni": [
+        "al cărui, despre care, de care",
+        "unde",
+        "când",
+        "cine"
+       ],
+       "corect": 0,
+       "explicatie": "Înlocuiește un complement cu „de”."
+      },
+      {
+       "intrebare": "„Quel” este:",
+       "optiuni": [
+        "adjectiv interogativ, care se acordă",
+        "pronume invariabil",
+        "adverb",
+        "conjuncție"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea are forme de gen și număr."
+      }
+     ]
+    },
+    {
+     "id": "fra10-06",
+     "titlu": "Negația și exprimarea cantității",
+     "rezumat": "Negația franceză are, de regulă, două elemente: „ne” înaintea verbului și un al doilea element după el — pas, plus, jamais, rien, personne, aucun, ni…ni. La timpurile compuse, cele două elemente încadrează auxiliarul: „je n'ai pas vu”. În limba vorbită, „ne” cade adesea, dar în scris rămâne obligatoriu. După o negație, articolul nehotărât și cel partitiv devin „de”: „je bois du café” → „je ne bois pas de café”. Excepție face verbul „être”: „ce n'est pas un problème”. Cantitatea se exprimă prin adverbe urmate de „de”: beaucoup de, peu de, assez de, trop de, un peu de. Substantivele numărabile și cele nenumărabile cer construcții diferite, iar confuzia lor produce greșeli frecvente la vorbitorii de română.",
+     "ideiCheie": [
+      "Negația are două elemente: „ne” plus pas, plus, jamais, rien, personne.",
+      "La timpurile compuse, elementele negației încadrează auxiliarul.",
+      "După negație, nehotărâtul și partitivul devin „de”, cu excepția verbului „être”.",
+      "Cantitatea se exprimă prin adverbe urmate de „de”."
+     ],
+     "termeni": [
+      {
+       "t": "negație discontinuă",
+       "d": "negația formată din două elemente care încadrează verbul"
+      },
+      {
+       "t": "adverb de cantitate",
+       "d": "cuvânt care exprimă o cantitate și cere prepoziția „de” înaintea substantivului"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Din câte elemente e formată negația franceză?",
+       "v": "Din două: „ne” și un al doilea element după verb."
+      },
+      {
+       "f": "Ce se întâmplă cu partitivul după negație?",
+       "v": "Devine „de”."
+      },
+      {
+       "f": "Care e excepția de la regula partitivului negativ?",
+       "v": "Verbul „être”: „ce n'est pas un problème”."
+      },
+      {
+       "f": "Cum se exprimă cantitatea?",
+       "v": "Prin adverbe urmate de „de”: beaucoup de, peu de, trop de."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Je ne bois pas ______ café.” Forma corectă este:",
+       "optiuni": [
+        "de",
+        "du",
+        "le",
+        "un"
+       ],
+       "corect": 0,
+       "explicatie": "După negație, partitivul devine „de”."
+      },
+      {
+       "intrebare": "La timpurile compuse, elementele negației:",
+       "optiuni": [
+        "încadrează auxiliarul",
+        "încadrează participiul",
+        "stau amândouă după verb",
+        "stau amândouă înainte"
+       ],
+       "corect": 0,
+       "explicatie": "„Je n'ai pas vu”."
+      },
+      {
+       "intrebare": "„Beaucoup” se leagă de substantiv prin:",
+       "optiuni": [
+        "de",
+        "du",
+        "des",
+        "le"
+       ],
+       "corect": 0,
+       "explicatie": "La fel „peu”, „trop”, „assez”."
+      },
+      {
+       "intrebare": "În limba vorbită, „ne”:",
+       "optiuni": [
+        "cade adesea, dar rămâne obligatoriu în scris",
+        "este obligatoriu întotdeauna",
+        "nu a existat niciodată",
+        "se dublează"
+       ],
+       "corect": 0,
+       "explicatie": "Registrul scris păstrează norma."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fra10-c3",
+   "titlu": "Comunicare și vocabular",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "fra10-07",
+     "titlu": "Viața cotidiană",
+     "rezumat": "Vocabularul vieții cotidiene acoperă locuința (appartement, chambre, cuisine, salle de bains, meubles), masa (petit-déjeuner, déjeuner, dîner, plats, boissons), cumpărăturile (magasin, marché, prix, caisse, monnaie) și programul zilei (se lever, se laver, s'habiller, prendre le petit-déjeuner, aller au lycée, rentrer, se coucher). Verbele pronominale sunt indispensabile pentru descrierea rutinei; ele se conjugă cu „être” la timpurile compuse, iar acordul participiului urmează reguli proprii. Exprimarea orei, a datei și a frecvenței completează tabloul: „il est huit heures et quart”, „le lundi” pentru repetiție, „lundi” pentru o zi anume. Formulele de politețe — s'il vous plaît, merci, excusez-moi, je voudrais — sunt obligatorii în interacțiunile comerciale franceze, unde absența lor este resimțită ca nepoliteță.",
+     "ideiCheie": [
+      "Verbele pronominale descriu rutina zilnică și se conjugă cu „être”.",
+      "„Le lundi” exprimă repetiția; „lundi”, o zi anume.",
+      "Formulele de politețe sunt obligatorii în interacțiunile comerciale.",
+      "Vocabularul cotidian acoperă locuința, masa, cumpărăturile și programul zilei."
+     ],
+     "termeni": [
+      {
+       "t": "verb pronominal reflexiv",
+       "d": "verb la care subiectul face și primește acțiunea"
+      },
+      {
+       "t": "registru de politețe",
+       "d": "ansamblul formulelor cerute de o interacțiune socială"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se conjugă verbele pronominale la timpurile compuse?",
+       "v": "Cu auxiliarul „être”."
+      },
+      {
+       "f": "Ce diferență e între „le lundi” și „lundi”?",
+       "v": "„Le lundi” înseamnă în fiecare luni; „lundi”, lunea aceasta."
+      },
+      {
+       "f": "Ce formule de politețe sunt indispensabile într-un magazin francez?",
+       "v": "S'il vous plaît, merci, excusez-moi, je voudrais."
+      },
+      {
+       "f": "Cum se spune „este opt și un sfert”?",
+       "v": "Il est huit heures et quart."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Je me lève” este un verb:",
+       "optiuni": [
+        "pronominal",
+        "impersonal",
+        "defectiv",
+        "auxiliar"
+       ],
+       "corect": 0,
+       "explicatie": "Se conjugă cu „être” la trecut."
+      },
+      {
+       "intrebare": "„Le samedi, je vais au marché” înseamnă:",
+       "optiuni": [
+        "în fiecare sâmbătă",
+        "sâmbăta aceasta",
+        "sâmbăta trecută",
+        "sâmbăta viitoare"
+       ],
+       "corect": 0,
+       "explicatie": "Articolul marchează repetiția."
+      },
+      {
+       "intrebare": "Formula „je voudrais” exprimă:",
+       "optiuni": [
+        "o cerere politicoasă",
+        "o obligație",
+        "o interdicție",
+        "o constatare"
+       ],
+       "corect": 0,
+       "explicatie": "Este condiționalul lui „vouloir”."
+      },
+      {
+       "intrebare": "Absența formulelor de politețe într-un magazin francez este resimțită ca:",
+       "optiuni": [
+        "nepoliteță",
+        "familiaritate simpatică",
+        "neutralitate",
+        "eficiență"
+       ],
+       "corect": 0,
+       "explicatie": "Ele sunt obligatorii social."
+      }
+     ]
+    },
+    {
+     "id": "fra10-08",
+     "titlu": "Descriere și povestire",
+     "rezumat": "Descrierea unei persoane cere vocabular de aspect fizic (grand, mince, cheveux blonds, yeux verts), de caracter (gentil, timide, drôle, travailleur) și acordul corect al adjectivelor. Descrierea unui loc folosește prepozițiile de loc (devant, derrière, à côté de, en face de, entre, sous, sur) și structuri precum „il y a”. Povestirea combină timpurile trecutului după regula deja învățată și se organizează cu conectori: d'abord, ensuite, puis, après, enfin, soudain, alors. Un text coerent are un început care situează, un cuprins cu evenimente ordonate și o încheiere. Evitarea repetițiilor se face prin pronume și sinonime, iar folosirea variată a conectorilor este unul dintre criteriile de evaluare la orice examen de limbă.",
+     "ideiCheie": [
+      "Descrierea cere acordul corect al adjectivelor și prepozițiile de loc.",
+      "Povestirea combină imperfectul (fundal) cu trecutul compus (evenimente).",
+      "Conectorii ordonează textul: d'abord, ensuite, puis, enfin.",
+      "Pronumele și sinonimele evită repetițiile."
+     ],
+     "termeni": [
+      {
+       "t": "conector",
+       "d": "cuvânt care leagă părțile unui text și le arată ordinea sau relația"
+      },
+      {
+       "t": "coerență",
+       "d": "însușirea unui text de a avea început, desfășurare și încheiere legate logic"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce conectori marchează ordinea într-o povestire?",
+       "v": "D'abord, ensuite, puis, après, enfin."
+      },
+      {
+       "f": "Ce timp se folosește pentru fundalul unei povestiri?",
+       "v": "Imperfectul."
+      },
+      {
+       "f": "Cum se evită repetițiile într-un text?",
+       "v": "Prin pronume și sinonime."
+      },
+      {
+       "f": "Ce structură folosește descrierea unui loc?",
+       "v": "„Il y a”, cu prepoziții de loc."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„En face de” înseamnă:",
+       "optiuni": [
+        "în fața, vizavi de",
+        "lângă",
+        "sub",
+        "între"
+       ],
+       "corect": 0,
+       "explicatie": "Este o prepoziție compusă."
+      },
+      {
+       "intrebare": "Un text coerent are:",
+       "optiuni": [
+        "început, cuprins și încheiere legate logic",
+        "doar evenimente",
+        "doar descriere",
+        "fraze independente"
+       ],
+       "corect": 0,
+       "explicatie": "Conectorii fac legăturile vizibile."
+      },
+      {
+       "intrebare": "Adjectivul care descrie o persoană se acordă:",
+       "optiuni": [
+        "în gen și număr cu substantivul",
+        "doar în gen",
+        "doar în număr",
+        "rămâne invariabil"
+       ],
+       "corect": 0,
+       "explicatie": "„Une fille gentille”."
+      },
+      {
+       "intrebare": "Folosirea variată a conectorilor este:",
+       "optiuni": [
+        "un criteriu de evaluare la examenele de limbă",
+        "o chestiune de gust",
+        "fără importanță",
+        "specifică doar textelor literare"
+       ],
+       "corect": 0,
+       "explicatie": "Ea arată stăpânirea limbii."
+      }
+     ]
+    },
+    {
+     "id": "fra10-09",
+     "titlu": "Franța și francofonia",
+     "rezumat": "Franța este o republică semiprezidențială, cu o cultură care a influențat puternic Europa. Reperele geografice — Parisul, Loara, Provența, Alpii, Coasta de Azur — și cele culturale — Luvrul, catedralele gotice, gastronomia, cinematograful — fac parte din cultura generală. Franța a fost un centru al iluminismului, iar Revoluția din 1789 a răspândit ideile de libertate, egalitate și fraternitate, deviza republicii. Francofonia cuprinde peste 300 de milioane de vorbitori pe cinci continente: Canada (Québec), Belgia, Elveția, Africa de vest și centrală, Maghrebul, Caraibele. Franceza este limbă oficială la Organizația Națiunilor Unite, la Uniunea Europeană și la Jocurile Olimpice. România face parte din Organizația Internațională a Francofoniei, iar legăturile culturale franco-române sunt vechi: mulți scriitori și artiști români au trăit sau au scris în Franța, între ei Eugen Ionescu, Emil Cioran, Constantin Brâncuși și Tristan Tzara.",
+     "ideiCheie": [
+      "Deviza republicii franceze este „libertate, egalitate, fraternitate”.",
+      "Francofonia cuprinde peste 300 de milioane de vorbitori pe cinci continente.",
+      "Franceza e limbă oficială la ONU, în Uniunea Europeană și la Jocurile Olimpice.",
+      "România face parte din Organizația Internațională a Francofoniei."
+     ],
+     "termeni": [
+      {
+       "t": "francofonie",
+       "d": "ansamblul comunităților care folosesc limba franceză și organizația care le reunește"
+      },
+      {
+       "t": "Maghreb",
+       "d": "regiunea din nord-vestul Africii, cuprinzând Maroc, Algeria și Tunisia"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care este deviza republicii franceze?",
+       "v": "Libertate, egalitate, fraternitate."
+      },
+      {
+       "f": "Câți vorbitori de franceză există în lume?",
+       "v": "Peste 300 de milioane, pe cinci continente."
+      },
+      {
+       "f": "Ce artiști români sunt legați de Franța?",
+       "v": "Eugen Ionescu, Emil Cioran, Constantin Brâncuși, Tristan Tzara."
+      },
+      {
+       "f": "Ce este Québecul?",
+       "v": "Provincia francofonă a Canadei."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Franceza este limbă oficială:",
+       "optiuni": [
+        "la ONU, în Uniunea Europeană și la Jocurile Olimpice",
+        "doar în Franța",
+        "doar în Europa",
+        "doar în organizațiile sportive"
+       ],
+       "corect": 0,
+       "explicatie": "De aici importanța ei practică."
+      },
+      {
+       "intrebare": "Revoluția Franceză a avut loc în:",
+       "optiuni": [
+        "1789",
+        "1848",
+        "1870",
+        "1917"
+       ],
+       "corect": 0,
+       "explicatie": "A răspândit ideile devizei republicane."
+      },
+      {
+       "intrebare": "Maghrebul cuprinde:",
+       "optiuni": [
+        "Marocul, Algeria și Tunisia",
+        "Canada și Belgia",
+        "Elveția și Luxemburgul",
+        "Antilele"
+       ],
+       "corect": 0,
+       "explicatie": "Este o zonă francofonă din Africa de Nord."
+      },
+      {
+       "intrebare": "România, în raport cu Francofonia:",
+       "optiuni": [
+        "este membră a Organizației Internaționale a Francofoniei",
+        "nu are legături instituționale",
+        "a fost exclusă",
+        "are doar statut de observator recent"
+       ],
+       "corect": 0,
+       "explicatie": "Legăturile culturale sunt vechi."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "teze": [
+  {
+   "semestru": 1,
+   "test": [
+    {
+     "intrebare": "Trecutul compus se formează cu:",
+     "optiuni": [
+      "auxiliar la prezent plus participiu trecut",
+      "auxiliar la imperfect plus participiu",
+      "infinitiv plus terminații",
+      "radical plus -ais"
+     ],
+     "corect": 0,
+     "explicatie": "Auxiliarul e „avoir” sau „être”."
+    },
+    {
+     "intrebare": "Verbele pronominale se conjugă cu:",
+     "optiuni": [
+      "être",
+      "avoir",
+      "aller",
+      "faire"
+     ],
+     "corect": 0,
+     "explicatie": "Fără excepție."
+    },
+    {
+     "intrebare": "Participiul conjugat cu „être” se acordă cu:",
+     "optiuni": [
+      "subiectul",
+      "complementul direct",
+      "complementul indirect",
+      "auxiliarul"
+     ],
+     "corect": 0,
+     "explicatie": "„Elle est partie”."
+    },
+    {
+     "intrebare": "Imperfectul se formează din radicalul:",
+     "optiuni": [
+      "persoanei I plural, prezent",
+      "infinitivului",
+      "participiului",
+      "persoanei a III-a singular"
+     ],
+     "corect": 0,
+     "explicatie": "Excepția e „être”."
+    },
+    {
+     "intrebare": "Într-o povestire, fundalul se exprimă prin:",
+     "optiuni": [
+      "imperfect",
+      "trecut compus",
+      "viitor",
+      "condițional"
+     ],
+     "corect": 0,
+     "explicatie": "Evenimentele cer trecutul compus."
+    },
+    {
+     "intrebare": "Mai-mult-ca-perfectul exprimă:",
+     "optiuni": [
+      "anterioritatea față de o altă acțiune trecută",
+      "o acțiune viitoare",
+      "o obișnuință",
+      "o descriere"
+     ],
+     "corect": 0,
+     "explicatie": "Se formează cu auxiliarul la imperfect."
+    },
+    {
+     "intrebare": "Viitorul apropiat se formează cu:",
+     "optiuni": [
+      "aller plus infinitiv",
+      "être plus participiu",
+      "avoir plus infinitiv",
+      "faire plus infinitiv"
+     ],
+     "corect": 0,
+     "explicatie": "Exprimă iminența."
+    },
+    {
+     "intrebare": "Viitorul simplu al lui „aller” este:",
+     "optiuni": [
+      "j'irai",
+      "j'allerai",
+      "je vais",
+      "j'allais"
+     ],
+     "corect": 0,
+     "explicatie": "Radicalul e neregulat."
+    },
+    {
+     "intrebare": "Pronumele „y” înlocuiește:",
+     "optiuni": [
+      "un complement de loc",
+      "o cantitate",
+      "un complement direct de persoană",
+      "un subiect"
+     ],
+     "corect": 0,
+     "explicatie": "„En” înlocuiește cantitatea."
+    }
+   ]
+  },
+  {
+   "semestru": 2,
+   "test": [
+    {
+     "intrebare": "„Je parle à Paul” devine:",
+     "optiuni": [
+      "je lui parle",
+      "je le parle",
+      "j'y parle",
+      "j'en parle"
+     ],
+     "corect": 0,
+     "explicatie": "„Lui” e complement indirect."
+    },
+    {
+     "intrebare": "În „l'homme qui parle”, „qui” este:",
+     "optiuni": [
+      "subiect",
+      "complement direct",
+      "complement de loc",
+      "atribut"
+     ],
+     "corect": 0,
+     "explicatie": "„Que” ar fi complement direct."
+    },
+    {
+     "intrebare": "Registrul formal al interogației folosește:",
+     "optiuni": [
+      "inversiunea subiectului",
+      "intonația",
+      "est-ce que",
+      "repetiția"
+     ],
+     "corect": 0,
+     "explicatie": "„Viens-tu?”."
+    },
+    {
+     "intrebare": "Negația franceză standard are:",
+     "optiuni": [
+      "două elemente",
+      "un singur element",
+      "trei elemente",
+      "niciun element în scris"
+     ],
+     "corect": 0,
+     "explicatie": "„Ne” plus pas, jamais, rien."
+    },
+    {
+     "intrebare": "După negație, partitivul devine:",
+     "optiuni": [
+      "de",
+      "du",
+      "des",
+      "le"
+     ],
+     "corect": 0,
+     "explicatie": "Cu excepția verbului „être”."
+    },
+    {
+     "intrebare": "„Beaucoup de livres” arată că adverbul de cantitate cere:",
+     "optiuni": [
+      "prepoziția „de”",
+      "articolul hotărât",
+      "articolul partitiv",
+      "niciun determinant"
+     ],
+     "corect": 0,
+     "explicatie": "La fel „trop”, „peu”, „assez”."
+    },
+    {
+     "intrebare": "„Le lundi” înseamnă:",
+     "optiuni": [
+      "în fiecare luni",
+      "lunea aceasta",
+      "lunea trecută",
+      "lunea viitoare"
+     ],
+     "corect": 0,
+     "explicatie": "Articolul marchează repetiția."
+    },
+    {
+     "intrebare": "Deviza republicii franceze este:",
+     "optiuni": [
+      "libertate, egalitate, fraternitate",
+      "unitate, muncă, progres",
+      "ordine și progres",
+      "pace, muncă, libertate"
+     ],
+     "corect": 0,
+     "explicatie": "Vine din Revoluția de la 1789."
+    },
+    {
+     "intrebare": "Francofonia numără:",
+     "optiuni": [
+      "peste 300 de milioane de vorbitori",
+      "circa 60 de milioane",
+      "un miliard",
+      "10 milioane"
+     ],
+     "corect": 0,
+     "explicatie": "Pe cinci continente."
+    }
+   ]
+  }
+ ]
+}
