@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 10,
-  "nrLectii": 128,
-  "nrCarduri": 512,
-  "nrIntrebari": 754,
+  "nrModule": 11,
+  "nrLectii": 137,
+  "nrCarduri": 548,
+  "nrIntrebari": 814,
   "module": [
     {
       "id": "istorie-9",
@@ -216,6 +216,95 @@
             {
               "id": "log9-16",
               "titlu": "Argumentarea în viața cotidiană"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "romana-9",
+      "materie": "Limba și literatura română",
+      "clasa": "a IX-a",
+      "an": 1,
+      "arie": "Limbă și comunicare",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Ficțiunea și genurile literare, structura textului narativ, liric și dramatic, plus bazele exprimării corecte și ale comunicării.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 60,
+      "capitole": [
+        {
+          "id": "rom9-c1",
+          "titlu": "Ficțiunea și lumea textului",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rom9-01",
+              "titlu": "Ficțiune și realitate"
+            },
+            {
+              "id": "rom9-02",
+              "titlu": "Genurile literare"
+            },
+            {
+              "id": "rom9-03",
+              "titlu": "Textul narativ: instanțe și structuri"
+            }
+          ]
+        },
+        {
+          "id": "rom9-c2",
+          "titlu": "Textul liric și textul dramatic",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rom9-04",
+              "titlu": "Elemente de prozodie și imaginar poetic"
+            },
+            {
+              "id": "rom9-05",
+              "titlu": "Textul dramatic și spectacolul"
+            }
+          ]
+        },
+        {
+          "id": "rom9-c3",
+          "titlu": "Limba română: corectitudine și expresivitate",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rom9-06",
+              "titlu": "Fonetică, vocabular și sensurile cuvintelor"
+            },
+            {
+              "id": "rom9-07",
+              "titlu": "Morfologie și sintaxă: greșeli frecvente"
+            }
+          ]
+        },
+        {
+          "id": "rom9-c4",
+          "titlu": "Comunicare și redactare",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rom9-08",
+              "titlu": "Situația de comunicare și registrele limbii"
+            },
+            {
+              "id": "rom9-09",
+              "titlu": "Redactarea textelor: rezumat, caracterizare, text argumentativ"
             }
           ]
         }

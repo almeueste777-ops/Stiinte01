@@ -18,6 +18,7 @@ const ASSETS = [
   /* MODULE:START */
   './data/module/istorie-9.json',
   './data/module/logica-9.json',
+  './data/module/romana-9.json',
   './data/module/istorie-10.json',
   './data/module/psihologie-10.json',
   './data/module/istorie-11.json',
