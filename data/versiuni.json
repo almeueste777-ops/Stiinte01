@@ -1,0 +1,62 @@
+{
+  "curenta": "03",
+  "actualizat": "2026-08-22",
+  "versiuni": [
+    {
+      "v": "03",
+      "nume": "Temă, setări, conținut complet",
+      "data": "2026-08-22",
+      "cache": 7,
+      "schimbari": [
+        "Modul luminos și modul întunecat se aleg din Setări, nu mai depind doar de telefon.",
+        "Ecran nou de Setări: temă, contrast, transparență, mișcare, densitate, literă, mărimea textului.",
+        "Setări de studiu: clasa implicită, amestecarea întrebărilor și a opțiunilor, explicații, cronometru, numărul de întrebări.",
+        "Datele tale se pot salva într-un fișier și încărca înapoi; resetările sunt separate, nu totul deodată.",
+        "Tot planul-cadru are conținut: 60 de module (materie × an), 206 capitole, 580 de lecții.",
+        "2320 de carduri de memorare și 3614 întrebări — test la fiecare lecție și teză la fiecare semestru.",
+        "Navigare nouă: an → materie → capitol → lecție, cu test de lecție, de capitol, de materie și de an.",
+        "Lecțiile se descarcă doar când sunt deschise, dar rămân salvate pe dispozitiv pentru offline."
+      ]
+    },
+    {
+      "v": "02.1",
+      "nume": "Reparația cache-ului",
+      "data": "2026-08-21",
+      "cache": 4,
+      "schimbari": [
+        "Reparat cazul în care aplicația pornea nestilizată, cu fișiere vechi rămase în memoria browserului.",
+        "Versiunea nouă se aliniază singură, dar niciodată peste un test în desfășurare sau peste notițele în curs de scriere."
+      ]
+    },
+    {
+      "v": "02",
+      "nume": "Responsiv total",
+      "data": "2026-08-21",
+      "cache": 3,
+      "schimbari": [
+        "Aplicația se așază corect pe orice ecran: telefon mic, telefon în peisaj, tabletă, calculator.",
+        "Pe ecran lat, bara de jos devine o coloană de navigare la stânga, iar lecția are notițele alături de text.",
+        "Pornire instantanee: aplicația se deschide din memorie, iar versiunea nouă se descarcă în fundal."
+      ]
+    },
+    {
+      "v": "01",
+      "nume": "Sticlă caldă",
+      "data": "2026-08-21",
+      "cache": 2,
+      "schimbari": [
+        "Identitate vizuală proprie: paletă caldă, suprafețe de sticlă și relief, animații în stil iOS.",
+        "Bară de navigare flotantă, cu indicator care alunecă între taburi."
+      ]
+    },
+    {
+      "v": "00",
+      "nume": "Prima versiune",
+      "data": "2026-08-20",
+      "cache": 1,
+      "schimbari": [
+        "Lecții, carduri de memorare, teste grilă, progres salvat pe dispozitiv și funcționare offline."
+      ]
+    }
+  ]
+}

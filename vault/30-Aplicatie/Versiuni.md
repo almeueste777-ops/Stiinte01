@@ -1,8 +1,8 @@
 ---
 titlu: Versiuni
 tip: registru
-versiune: "01"
-actualizat: 2026-08-21
+versiune: "03"
+actualizat: 2026-08-22
 tags: [versiuni, changelog]
 ---
 
@@ -13,6 +13,29 @@ Legături: [[Științe Sociale — MOC]] · [[Arhitectura aplicației]] · [[Des
 Schema de numerotare: **versiunea aplicației** (`01`, `02`, …) marchează o etapă vizibilă
 pentru utilizator. Ea este independentă de versiunea cache-ului din `sw.js`, care crește la
 *fiecare* modificare de fișiere, oricât de mică.
+
+## v03 — 2026-08-22 · „Temă, setări, conținut complet”
+
+Aplicația capătă **temă comutabilă**, un **ecran de setări** și **tot conținutul** planului-cadru.
+
+**Ce s-a schimbat**
+- **Temă luminoasă/întunecată la alegere.** Paleta întunecată a ieșit din
+  `@media (prefers-color-scheme)` și a trecut pe atribute `data-*` pe `<html>`, puse de un
+  bootstrap inline din `<head>` — fără clipire la pornire. Aceeași soluție pentru contrast,
+  mișcare și transparență, fiecare cu trei stări: automat, pornit, oprit.
+- **Ecran de setări** (`#/setari`): aspect (temă, contrast, transparență, mișcare, densitate,
+  font, mărimea textului 80–150%), studiu (clasa implicită, amestecare, explicații, cronometru,
+  număr de întrebări) și date (export/import JSON, resetări separate).
+- **Model de conținut pe module:** `data/module/<id>.json` ca sursă de adevăr, `data/continut.json`
+  ca index generat, blocul MODULE din `sw.js` generat. Conținutul se scrie într-un DSL text
+  (`data/sursa/*.txt`) și se convertește cu `tools/text-in-modul.mjs`.
+- **Navigare nouă:** an → materie → capitol → lecție, cu test la fiecare lecție, test de capitol,
+  test de materie și **teză semestrială**.
+- **Încărcare leneșă** a modulelor, cu memoizare și token de randare; toate rămân în precache.
+- **60 de module · 206 capitole · 580 de lecții · 2320 de carduri · 3614 întrebări.**
+
+**Verificare:** verificatorii locali, pași noi de CI pentru conținut, `tools/test-sw.mjs` cu SW
+activ, plus [[Raport verificare v03]]. Detaliile: [[Jurnal 2026-08-22 — Temă, setări, conținut v03]].
 
 ## v02 — 2026-08-21 · „Responsiv total”
 

@@ -788,3 +788,183 @@ reload-ul se execută o singură dată. Plus verificatorii locali, ca de obicei.
 **Pentru cine vede încă pagina stricată:** un singur refresh forțat
 (Ctrl+Shift+R / Cmd+Shift+R) o repară definitiv; din v02.1, realinierea se face
 singură — la momentul potrivit, nu peste munca omului.
+
+---
+
+## 2026-08-22 — Versiunea 03, „Temă, setări, conținut complet"
+
+Trei cerințe, formulate de utilizator: *aplicația am găsit-o pe modul dark, vreau
+să aibă și modul luminos*; *aplicația nu are setări, implementează tot felul de
+setări*; *vreau să lucrăm pe module — fiecare materie în parte, toate lecțiile pe
+capitole, în fiecare an, cât mai complex, apoi test din fiecare lecție și test pe
+semestru*.
+
+### 37 · Tema: din media query în atribut
+
+Paleta întunecată exista, dar era prizonieră în `@media (prefers-color-scheme:
+dark)` — adică urma exclusiv setarea sistemului, fără ca utilizatorul să poată
+alege. Toate blocurile de temă au trecut pe atribute puse pe `<html>`:
+
+```css
+:root:where([data-tema="intunecat"]) { /* aceeași paletă, altă poartă */ }
+```
+
+`:where()` nu adaugă specificitate, deci cascada a rămas bit cu bit aceeași — nu
+s-a rescris nicio componentă. Același tratament au primit `prefers-contrast`,
+`prefers-reduced-motion` și `prefers-reduced-transparency`, care sunt acum
+`data-contrast`, `data-miscare`, `data-transparenta` și au fiecare trei stări:
+automat (urmează sistemul), pornit, oprit.
+
+Capcana pe care am prins-o abia la a doua citire: câteva blocuri erau
+`@media (prefers-color-scheme: dark)` **imbricate** în `@supports` sau în alt
+media query. Desfăcute naiv, condiția exterioară dispărea în tăcere. Soluția:
+atribute combinate, `[data-transparenta="redusa"][data-tema="intunecat"]`.
+
+Ca prima pictură să fie deja corectă, temele se pun **înainte** de foaia de stil,
+dintr-un script inline din `<head>` care citește `localStorage` sincron. Fără el,
+un utilizator cu temă întunecată ar vedea o clipire albă la fiecare pornire.
+
+### 38 · Setări: un ecran, nu un meniu
+
+Ruta nouă `#/setari` (rotița din bara de sus) adună: **aspect** — temă, contrast,
+transparență, mișcare, densitate (compact / confortabil / spațios), font (sistem
+/ serif / lizibil), mărimea textului 80–150%; **studiu** — clasa implicită,
+amestecarea întrebărilor și a opțiunilor, afișarea explicațiilor, cronometru,
+numărul de întrebări; **date** — export și import JSON, plus resetări separate
+(progres, teste, carduri, notițe, setări, tot).
+
+Setările nu sunt decorative: densitatea rescrie scara de spațiere, fontul
+rescrie familia și înălțimea rândului, mărimea textului scalează `font-size` pe
+`html`. Fiind toate tokeni, se propagă în tot fișierul fără nicio excepție
+scrisă de mână.
+
+### 39 · Conținutul: DSL text -> JSON -> index generat
+
+Cerința a treia era, de departe, cea mai mare: **60 de module** (materie × an),
+adică toată matricea planului-cadru, cu lecțiile grupate pe capitole, test la
+fiecare lecție și teză la fiecare semestru.
+
+Un singur `data/continut.json` ar fi devenit un fișier de câțiva megaocteți,
+descărcat integral la fiecare pornire. Modelul e acum împărțit:
+
+| Fișier | Rol |
+|---|---|
+| `data/sursa/*.txt` | conținutul scris de om, într-un DSL de o pagină |
+| `data/module/<id>.json` | sursa de adevăr, un fișier per materie×an |
+| `data/continut.json` | **index generat**: titluri, cifre, structura capitolelor |
+| blocul `MODULE` din `sw.js` | **listă generată** de precache |
+
+`tools/text-in-modul.mjs` convertește DSL-ul, `tools/construieste-index.mjs`
+scrie indexul și rescrie blocul din `sw.js`, `tools/verifica-continut.mjs` refuză
+tot ce nu ține: materie care nu există în planul-cadru, id duplicat, întrebare
+sub 8 caractere, opțiuni identice, explicație lipsă, rezumat sub 120 de
+caractere, mai puțin de trei carduri sau trei întrebări, teză lipsă la un
+semestru. A prins, în timpul scrierii, exact ce trebuia să prindă: o teză cu o
+întrebare de șapte caractere și o grilă de franceză cu aceeași opțiune greșită
+scrisă de două ori.
+
+Aplicația cere modulul abia când e deschis (`ceriModul`, memoizat), cu un token
+de randare care anulează rezultatul dacă utilizatorul a navigat între timp, și
+cu un indicator de încărcare care apare doar după 400 ms — cât să nu clipească
+pe conexiuni bune. Toate cele 60 de fișiere rămân însă în precache: altfel
+aplicația instalată ar avea lecțiile doar cât timp există rețea.
+
+**Bilanț: 60 de module, 206 capitole, 580 de lecții, 2320 de carduri, 3614
+întrebări** — teste de lecție și teze semestriale.
+
+### 40 · Vaultul, adaptat la modelul pe module
+
+`tools/graphify.py` presupunea un modul per materie, cu `flashcards` și `quiz` la
+rădăcină. Acum citește `data/module/*.json`, aplatizează capitolele păstrând pe
+fiecare lecție capitolul din care vine, și cheia devine **materie + clasă** —
+altfel „Istorie" din clasa a IX-a și cea din a XII-a s-ar fi suprascris. Folder
+nou `vault/Module`, câte o notă per materie×an; nota de materie devine umbrelă,
+cu un rând per an. Harta mermaid, care ar fi avut 60 de noduri ilizibile, s-a
+regrupat pe clase și arii.
+
+Vaultul are acum **811 note** și **5367 de wikilink-uri**, fără legături rupte.
+
+### 41 · Verificare
+
+Verificatorii locali (JSON, sintaxă JS, CSS, vault), plus doi noi în CI:
+validarea celor 60 de module și `verifica-continut.mjs`. Un al treilea pas de CI
+rulează generatorul de index și cere ca `data/continut.json` și `sw.js` să nu se
+schimbe — adică indexul comis să fie chiar cel generat din module.
+
+`tools/test-sw.mjs`, cu service worker activ: prima instalare fără reîncărcare,
+60 de carduri de materii vizibile sub SW, exact o reîncărcare la update, stabil
+după, zero erori JS.
+
+### 42 · Ce a găsit echipa de agenți — 20 de defecte reale
+
+Cei doi verificatori au adus 20 de defecte, toate corectate și **reverificate
+empiric**. Câteva merită reținute, fiindcă sunt clase de greșeală, nu accidente:
+
+**Migrarea tăcută.** `KEY` rămăsese `stiinte01:v1`, dar spațiul de id-uri se
+schimbase complet: `filo-01` devenise `filo12-01`, cheile de card și de test la
+fel. Intersecția cu v02: zero. Un elev venit de pe versiunea veche ar fi văzut
+„20/580 lecții citite" și o medie calculată din teste fără domeniu, în timp ce
+fiecare lecție apărea necitită. Nimic nu ar fi semnalat problema — nici o
+excepție, nici o eroare de consolă. Lecția: **când se schimbă forma datelor,
+cheia veche trebuie fie migrată, fie curățată; păstrată intactă e cea mai
+proastă dintre cele trei variante.**
+
+**Atomicitatea care se scumpește pe tăcute.** `addAll` peste ~10 fișiere și 150 KB
+era rezonabil la v02. Aceeași linie de cod, peste 70 de fișiere și 2,8 MB, a
+devenit o loterie: un singur timeout anula instalarea întregii versiuni, iar
+utilizatorul rămânea pe versiunea veche fără niciun semn. **Codul nu s-a
+schimbat; datele din jurul lui da — și asta a fost de ajuns.**
+
+**Ordinea scrie/validează.** Importul făcea `save()` înainte să se convingă că
+starea e utilizabilă. Un fișier cu `lectiiCitite: null` trecea de verificarea „e
+obiect", se persista, randarea arunca — iar de atunci înainte aplicația afișa la
+fiecare pornire „Nu s-au putut încărca datele. Verifică fișierele din `data/`",
+adică arăta cu degetul exact în direcția greșită. Recuperare doar prin golirea
+manuală a `localStorage`.
+
+**Eșecul totul-sau-nimic.** `Promise.all` peste 13 module: 12 sosite complet și
+unul căzut dădeau un ecran de eroare. Acum se randează ce există, cu un banner
+onest despre ce lipsește.
+
+**Regresii de layout pe care doar măsurătoarea le prinde.** Ținta segmentelor era
+de 40px, deși comentariul din CSS afirma ≥44 — afirmație nemăsurată, exact clasa
+de greșeală pe care jurnalul o critica la v02.1. Pastila „BAC" se întindea pe
+806px din 858, fiindcă o regulă `display:block` pentru textul secundar prindea și
+`<span class="pill">`. Titlul „Termeni" era acoperit de tabel cu 16px, pe toate
+cele 580 de lecții. Switch-ul oprit avea 1,07:1 față de fundal — practic
+invizibil, sub pragul WCAG de 3:1.
+
+**Reverificare finală:** 616 combinații (7 viewporturi × 2 teme × 11 rute × 4
+seturi de preferințe) — zero derulare orizontală, zero ecrane goale, zero
+suprapuneri, zero ținte sub 44px, zero erori de consolă. Detaliile, cu
+măsurătorile de dinainte și de după: [[Raport verificare v03]] (`vault/40-Verificare/`).
+
+### 43 · Al treilea jurnal: cel pe care îl citește elevul
+
+Până acum, o livrare se scria în două locuri — `jurnal.md`, pentru cine întreține
+codul, și vault, pentru memoria proiectului. Amândouă sunt scrise pentru noi.
+Utilizatorul aplicației nu are cum să afle ce s-a schimbat: deschide aplicația și
+găsește altceva decât ieri, fără nicio explicație.
+
+Al treilea jurnal e `data/versiuni.json`, arătat în aplicație la **Setări →
+Despre → „Ce s-a schimbat"**, chiar lângă *Caută o versiune nouă*. Regula lui e
+alta decât a celorlalte două: **se scrie pentru elev, nu pentru programator.**
+„Lecțiile se descarcă doar când sunt deschise, dar rămân salvate pe dispozitiv
+pentru offline" — nu „încărcare leneșă cu memoizare și token de randare".
+
+Fiind un fișier de date, nu cod, poate fi corectat fără atingerea aplicației, iar
+CI-ul îl verifică: versiunea `curenta` trebuie să fie prima din listă, câmpul
+`cache` al ei trebuie să fie **același număr** cu `CACHE` din `sw.js`, versiunea
+de sus trebuie să aibă schimbări scrise, iar datele trebuie să fie valide. Adică
+exact tipul de sincronizare care se pierde tăcut dacă nu o verifică nimic — vezi
+§35, unde jurnalul afirma o unealtă care nu exista în repo.
+
+`CLAUDE.md` are acum regula scrisă negru pe alb: **trei jurnale la fiecare
+livrare, toate trei, mereu** — plus îmbinarea în `main` ca pas automat, nu ca
+întrebare pusă de fiecare dată.
+
+Un defect prins la reverificare, instructiv fiindcă e o repetare: „Înapoi" din
+„Ce s-a schimbat" anima ca **intrare**, nu ca ieșire — exact bug-ul corectat cu
+câteva ore înainte la ecranul Setări. Prima corecție tratase suprapunerile ca
+mereu-intrare; a doua verifică întâi dacă ecranul e deja în stivă. Morala:
+**când corectezi un caz special, întreabă-te dacă e singurul din clasa lui.**

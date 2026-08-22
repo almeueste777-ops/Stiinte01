@@ -189,7 +189,10 @@ După instalare aplicația pornește fără bara browserului și funcționează 
 Adaugi o lecție nouă, un card sau o întrebare:
 
 ```bash
-# 1. editezi data/continut.json în editor
+# 1. editezi/creezi data/sursa/<materie>-<clasa>.txt, apoi:
+node tools/text-in-modul.mjs data/sursa/<materie>-<clasa>.txt
+node tools/construieste-index.mjs
+node tools/verifica-continut.mjs
 
 # 2. crești versiunea cache-ului în sw.js:
 #    const CACHE = 'stiinte01-v2';  →  'stiinte01-v3'
@@ -227,7 +230,7 @@ la care service worker-ul încă face referire. Rezultatul apare în tab-ul **Ac
 
 | Idee | Efort | Ce presupune |
 |---|---|---|
-| Mai mult conținut la fiecare materie | mic | doar `data/continut.json` |
+| Mai mult conținut la fiecare materie | mic | doar `data/sursa/*.txt`, apoi lanțul de unelte |
 | Căutare în toate lecțiile | mic | un câmp de căutare + filtrare în `app.js` |
 | Repetiție la intervale (SRS) | mediu | folosești `state.carduri` pentru a programa recapitulările |
 | Export / import al notițelor | mic | serializezi `localStorage` într-un fișier `.json` |

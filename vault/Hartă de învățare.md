@@ -10,43 +10,131 @@ Unde stă fiecare materie cu conținut în cei cinci ani.
 ```mermaid
 graph LR
   P["Științe sociale · FR"]
-  C0["Clasa a IX-a"]
+  C0["Clasa a IX-a<br/>13 materii · 128 lecții"]
   P --> C0
-  C1["Clasa a X-a"]
+  A0_0["Limbă și comunicare<br/>4 materii"]
+  C0 --> A0_0
+  A0_1["Matematică și științe ale naturii<br/>4 materii"]
+  C0 --> A0_1
+  A0_2["Om și societate<br/>4 materii"]
+  C0 --> A0_2
+  A0_3["Tehnologii<br/>1 materii"]
+  C0 --> A0_3
+  C1["Clasa a X-a<br/>13 materii · 127 lecții"]
   P --> C1
-  C2["Clasa a XI-a"]
+  A1_0["Limbă și comunicare<br/>4 materii"]
+  C1 --> A1_0
+  A1_1["Matematică și științe ale naturii<br/>4 materii"]
+  C1 --> A1_1
+  A1_2["Om și societate<br/>4 materii"]
+  C1 --> A1_2
+  A1_3["Tehnologii<br/>1 materii"]
+  C1 --> A1_3
+  C2["Clasa a XI-a<br/>12 materii · 115 lecții"]
   P --> C2
-  C3["Clasa a XII-a"]
+  A2_0["Limbă și comunicare<br/>3 materii"]
+  C2 --> A2_0
+  A2_1["Matematică și științe ale naturii<br/>2 materii"]
+  C2 --> A2_1
+  A2_2["Om și societate<br/>6 materii"]
+  C2 --> A2_2
+  A2_3["Tehnologii<br/>1 materii"]
+  C2 --> A2_3
+  C3["Clasa a XII-a<br/>11 materii · 108 lecții"]
   P --> C3
-  C4["Clasa a XIII-a"]
+  A3_0["Limbă și comunicare<br/>3 materii"]
+  C3 --> A3_0
+  A3_1["Matematică și științe ale naturii<br/>2 materii"]
+  C3 --> A3_1
+  A3_2["Om și societate<br/>5 materii"]
+  C3 --> A3_2
+  A3_3["Tehnologii<br/>1 materii"]
+  C3 --> A3_3
+  C4["Clasa a XIII-a<br/>11 materii · 102 lecții"]
   P --> C4
-  M0["Filosofie<br/>5 lecții"]
-  C3 --> M0
-  M1["Logică<br/>4 lecții"]
-  C0 --> M1
-  M2["Psihologie<br/>3 lecții"]
-  C1 --> M2
-  M3["Sociologie<br/>3 lecții"]
-  C2 --> M3
-  M4["Economie și educație antreprenorială<br/>3 lecții"]
-  C4 --> M4
-  M5["Limba și literatura română<br/>2 lecții"]
-  C3 --> M5
-  M6["Istorie<br/>3 lecții"]
-  C3 --> M6
-  M7["Geografie<br/>2 lecții"]
-  C3 --> M7
+  A4_0["Curriculum la decizia elevului<br/>1 materii"]
+  C4 --> A4_0
+  A4_1["Limbă și comunicare<br/>3 materii"]
+  C4 --> A4_1
+  A4_2["Om și societate<br/>7 materii"]
+  C4 --> A4_2
 ```
 
 ## Ordinea recomandată
 
-1. [[Filosofie]] — [[Clasa a XII-a]]
-2. [[Logică, argumentare și comunicare]] — [[Clasa a IX-a]]
-3. [[Psihologie]] — [[Clasa a X-a]]
-4. [[Sociologie]] — [[Clasa a XI-a]]
-5. [[Economie și educație antreprenorială]] — [[Clasa a XIII-a]]
-6. [[Limba și literatura română]] — [[Clasa a XII-a]]
-7. [[Istorie]] — [[Clasa a XII-a]]
-8. [[Geografie]] — [[Clasa a XII-a]]
+### [[Clasa a IX-a]]
+
+- [[Geografie (clasa a IX-a)|Geografie]] — 10 lecții
+- [[Istorie (clasa a IX-a)|Istorie]] — 12 lecții
+- [[Logică, argumentare și comunicare (clasa a IX-a)|Logică, argumentare și comunicare]] — 16 lecții
+- [[Religie (clasa a IX-a)|Religie]] — 9 lecții
+- [[Limba latină (clasa a IX-a)|Limba latină]] — 9 lecții
+- [[Limba modernă 1 (Engleză) (clasa a IX-a)|Limba modernă 1 (Engleză)]] — 9 lecții
+- [[Limba modernă 2 (Franceză) (clasa a IX-a)|Limba modernă 2 (Franceză)]] — 9 lecții
+- [[Limba și literatura română (clasa a IX-a)|Limba și literatura română]] — 9 lecții
+- [[Biologie (clasa a IX-a)|Biologie]] — 9 lecții
+- [[Chimie (clasa a IX-a)|Chimie]] — 9 lecții
+- [[Fizică (clasa a IX-a)|Fizică]] — 9 lecții
+- [[Matematică (clasa a IX-a)|Matematică]] — 9 lecții
+- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)|Tehnologia informației și a comunicațiilor (TIC)]] — 9 lecții
+
+### [[Clasa a X-a]]
+
+- [[Geografie (clasa a X-a)|Geografie]] — 9 lecții
+- [[Istorie (clasa a X-a)|Istorie]] — 12 lecții
+- [[Psihologie (clasa a X-a)|Psihologie]] — 16 lecții
+- [[Religie (clasa a X-a)|Religie]] — 9 lecții
+- [[Limba latină (clasa a X-a)|Limba latină]] — 9 lecții
+- [[Limba modernă 1 (Engleză) (clasa a X-a)|Limba modernă 1 (Engleză)]] — 9 lecții
+- [[Limba modernă 2 (Franceză) (clasa a X-a)|Limba modernă 2 (Franceză)]] — 9 lecții
+- [[Limba și literatura română (clasa a X-a)|Limba și literatura română]] — 9 lecții
+- [[Biologie (clasa a X-a)|Biologie]] — 9 lecții
+- [[Chimie (clasa a X-a)|Chimie]] — 9 lecții
+- [[Fizică (clasa a X-a)|Fizică]] — 9 lecții
+- [[Matematică (clasa a X-a)|Matematică]] — 9 lecții
+- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)|Tehnologia informației și a comunicațiilor (TIC)]] — 9 lecții
+
+### [[Clasa a XI-a]]
+
+- [[Geografie (clasa a XI-a)|Geografie]] — 9 lecții
+- [[Istoria evreilor. Holocaustul (clasa a XI-a)|Istoria evreilor. Holocaustul]] — 9 lecții
+- [[Istorie (clasa a XI-a)|Istorie]] — 11 lecții
+- [[Religie (clasa a XI-a)|Religie]] — 9 lecții
+- [[Sociologie (clasa a XI-a)|Sociologie]] — 14 lecții
+- [[Studii sociale (clasa a XI-a)|Studii sociale]] — 9 lecții
+- [[Limba modernă 1 (Engleză) (clasa a XI-a)|Limba modernă 1 (Engleză)]] — 9 lecții
+- [[Limba modernă 2 (Franceză) (clasa a XI-a)|Limba modernă 2 (Franceză)]] — 9 lecții
+- [[Limba și literatura română (clasa a XI-a)|Limba și literatura română]] — 9 lecții
+- [[Matematică aplicată în științele sociale (clasa a XI-a)|Matematică aplicată în științele sociale]] — 9 lecții
+- [[ȘTIAM (științe integrate) (clasa a XI-a)|ȘTIAM (științe integrate)]] — 9 lecții
+- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC)]] — 9 lecții
+
+### [[Clasa a XII-a]]
+
+- [[Filosofie (clasa a XII-a)|Filosofie]] — 14 lecții
+- [[Geografie (clasa a XII-a)|Geografie]] — 9 lecții
+- [[Istorie (clasa a XII-a)|Istorie]] — 12 lecții
+- [[Religie (clasa a XII-a)|Religie]] — 9 lecții
+- [[Studii sociale (clasa a XII-a)|Studii sociale]] — 9 lecții
+- [[Limba modernă 1 (Engleză) (clasa a XII-a)|Limba modernă 1 (Engleză)]] — 9 lecții
+- [[Limba modernă 2 (Franceză) (clasa a XII-a)|Limba modernă 2 (Franceză)]] — 9 lecții
+- [[Limba și literatura română (clasa a XII-a)|Limba și literatura română]] — 10 lecții
+- [[Matematică aplicată în științele sociale (clasa a XII-a)|Matematică aplicată în științele sociale]] — 9 lecții
+- [[ȘTIAM (științe integrate) (clasa a XII-a)|ȘTIAM (științe integrate)]] — 9 lecții
+- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)|Tehnologia informației și a comunicațiilor (TIC)]] — 9 lecții
+
+### [[Clasa a XIII-a]]
+
+- [[Economie și educație antreprenorială (clasa a XIII-a)|Economie și educație antreprenorială]] — 12 lecții
+- [[Filosofie (clasa a XIII-a)|Filosofie]] — 9 lecții
+- [[Geografie (clasa a XIII-a)|Geografie]] — 9 lecții
+- [[Istoria comunismului din România (clasa a XIII-a)|Istoria comunismului din România]] — 9 lecții
+- [[Istorie (clasa a XIII-a)|Istorie]] — 9 lecții
+- [[Religie (clasa a XIII-a)|Religie]] — 9 lecții
+- [[Studii sociale (clasa a XIII-a)|Studii sociale]] — 9 lecții
+- [[Limba modernă 1 (Engleză) (clasa a XIII-a)|Limba modernă 1 (Engleză)]] — 9 lecții
+- [[Limba modernă 2 (Franceză) (clasa a XIII-a)|Limba modernă 2 (Franceză)]] — 9 lecții
+- [[Limba și literatura română (clasa a XIII-a)|Limba și literatura română]] — 9 lecții
+- [[Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)|Pregătire pentru bacalaureat (CDEOȘ)]] — 9 lecții
 
 Înapoi la [[00 Start aici]]

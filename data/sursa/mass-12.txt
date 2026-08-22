@@ -1,0 +1,463 @@
+materie: Matematică aplicată în științele sociale
+clasa: a XII-a
+an: 4
+arie: Matematică și științe ale naturii
+bac: nu
+descriere: Modele matematice pentru decizie: matematici financiare, sondaje și eroare, teoria alegerii sociale, grafuri și rețele.
+
+## 1 | mas12-c1 | Matematici financiare
+### mas12-01 | Dobândă, credit, economisire
+Dobânda simplă se calculează mereu la suma inițială și crește aritmetic; dobânda compusă se calculează la suma acumulată și crește geometric. Diferența dintre ele devine dramatică în timp: o sumă plasată cu dobândă compusă se dublează într-un număr de ani aproximativ egal cu 72 împărțit la rata procentuală — regula practică a lui 72.
+La credite, indicatorul care permite comparația reală între oferte este dobânda anuală efectivă, pentru că include comisioanele, nu doar dobânda nominală. Rata lunară se calculează dintr-o formulă bazată pe progresii geometrice; în primii ani, cea mai mare parte din rată acoperă dobânda, nu principalul, ceea ce explică de ce rambursarea anticipată timpurie economisește mult. Creditul are costuri și riscuri: dobânda variabilă poate crește, iar veniturile pot scădea; regula prudenței spune că ratele nu ar trebui să depășească o treime din venit.
+* Dobânda simplă crește aritmetic; cea compusă, geometric.
+* Regula lui 72 estimează timpul de dublare a unei sume.
+* Dobânda anuală efectivă include comisioanele și permite comparația reală.
+* În primii ani, rata acoperă mai mult dobânda decât principalul.
+= dobândă anuală efectivă :: costul total anual al creditului, exprimat procentual, inclusiv comisioanele
+= regula lui 72 :: estimare practică a timpului de dublare, împărțind 72 la rata procentuală anuală
+@ Cum funcționează regula lui 72? :: Împărțind 72 la rata procentuală anuală, se obține aproximativ numărul de ani în care suma se dublează.
+@ De ce se compară creditele după dobânda anuală efectivă? :: Pentru că include comisioanele, nu doar dobânda nominală.
+@ De ce economisește mult rambursarea anticipată timpurie? :: Pentru că în primii ani rata acoperă mai ales dobânda.
+@ Ce spune regula prudenței la credite? :: Că ratele nu ar trebui să depășească aproximativ o treime din venit.
+? La o rată de 6% pe an, o sumă se dublează în aproximativ:
++ 12 ani
+- 6 ani
+- 20 de ani
+- 30 de ani
+! 72 împărțit la 6.
+? Dobânda compusă crește:
++ geometric
+- aritmetic
+- liniar
+- constant
+! Se aplică la suma acumulată.
+? În primii ani ai unui credit imobiliar, rata acoperă mai ales:
++ dobânda
+- principalul
+- comisioanele
+- asigurarea
+! De aici efectul rambursării anticipate.
+? Dobânda nominală, față de cea efectivă:
++ nu include comisioanele
+- include toate costurile
+- este mai mare
+- este identică
+! Compararea corectă se face după cea efectivă.
+
+### mas12-02 | Inflație, valoare în timp, investiții
+Inflația reduce puterea de cumpărare a banilor: aceeași sumă cumpără mai puțin peste un an. De aceea randamentul real al unei investiții este randamentul nominal minus rata inflației; o dobândă de 4% într-un an cu inflație de 6% înseamnă o pierdere reală. Valoarea în timp a banilor este principiul care spune că o sumă disponibilă azi valorează mai mult decât aceeași sumă peste un an.
+Actualizarea calculează valoarea de azi a unei sume viitoare, iar capitalizarea, valoarea viitoare a unei sume de azi. Aceste calcule stau la baza deciziilor de investiție și de economisire. Riscul și randamentul sunt legate: instrumentele cu randament potențial mare au și risc mare, iar promisiunile de randament ridicat fără risc sunt semnul distinctiv al fraudelor de tip piramidal. Diversificarea reduce riscul specific, fără a-l elimina pe cel de piață.
+* Randamentul real este randamentul nominal minus inflația.
+* O sumă disponibilă azi valorează mai mult decât aceeași sumă peste un an.
+* Riscul și randamentul sunt legate: randamentul mare vine cu risc mare.
+* Promisiunea de randament ridicat fără risc semnalează o fraudă.
+= randament real :: randamentul unei investiții după scăderea inflației
+= diversificare :: repartizarea investiției pe mai multe active, pentru a reduce riscul specific
+@ Cum se calculează randamentul real? :: Scăzând rata inflației din randamentul nominal.
+@ Ce înseamnă valoarea în timp a banilor? :: Că o sumă disponibilă azi valorează mai mult decât aceeași sumă în viitor.
+@ Ce semnalează promisiunea unui randament mare fără risc? :: O fraudă, adesea de tip piramidal.
+@ Ce reduce diversificarea? :: Riscul specific, nu și riscul general de piață.
+? O dobândă de 4% într-un an cu inflație de 6% înseamnă:
++ o pierdere reală
+- un câștig real
+- un randament neutru
+- un randament de 10%
+! Randamentul real e negativ.
+? Actualizarea calculează:
++ valoarea de azi a unei sume viitoare
+- valoarea viitoare a unei sume de azi
+- rata inflației
+- comisionul bancar
+! Capitalizarea face operația inversă.
+? Riscul și randamentul unei investiții sunt:
++ legate: randament mare, risc mare
+- independente
+- invers proporționale
+- fixate prin lege
+! De aceea nu există câștig sigur mare.
+? Diversificarea:
++ reduce riscul specific, nu și pe cel de piață
+- elimină orice risc
+- crește riscul
+- garantează câștigul
+! Este o măsură de prudență, nu o garanție.
+
+### mas12-03 | Bugetul personal și decizia economică
+Bugetul personal compară veniturile cu cheltuielile pe o perioadă dată. Cheltuielile se împart în fixe (chirie, abonamente, rate) și variabile (mâncare, transport, distracții), iar distincția între nevoi și dorințe este primul instrument de control. Regula practică a economisirii spune că o parte din venit se pune deoparte înainte de cheltuieli, nu din ce rămâne la sfârșit.
+Fondul de urgență, echivalent cu trei până la șase luni de cheltuieli, protejează împotriva șocurilor. Deciziile economice implică și noțiunea de cost de oportunitate: alegând un lucru renunți la altul, iar acest cost e real chiar dacă nu apare în factură. Erorile frecvente sunt subestimarea cheltuielilor mici recurente, efectul de ancorare la reduceri și eroarea costurilor deja făcute — continuarea unei investiții proaste pentru că s-a cheltuit deja mult.
+* Bugetul compară veniturile cu cheltuielile fixe și variabile.
+* Economisirea se face înaintea cheltuielilor, nu din ce rămâne.
+* Fondul de urgență acoperă trei până la șase luni de cheltuieli.
+* Costul de oportunitate e real, deși nu apare în factură.
+= cost de oportunitate :: valoarea celei mai bune alternative la care renunți printr-o alegere
+= eroarea costurilor deja făcute :: tendința de a continua o acțiune nerentabilă pentru că s-a investit deja în ea
+@ Ce este costul de oportunitate? :: Valoarea celei mai bune alternative la care renunți alegând altceva.
+@ Cât ar trebui să acopere un fond de urgență? :: Trei până la șase luni de cheltuieli.
+@ Care e regula practică a economisirii? :: Se pune deoparte înainte de cheltuieli, nu din ce rămâne.
+@ Ce este eroarea costurilor deja făcute? :: Continuarea unei acțiuni nerentabile pentru că s-a investit deja mult în ea.
+? Cheltuielile fixe sunt:
++ chiria, abonamentele, ratele
+- mâncarea și distracțiile
+- cadourile
+- cheltuielile neprevăzute
+! Variabilele se pot ajusta mai ușor.
+? Eroarea costurilor deja făcute apare când:
++ continui ceva nerentabil pentru că ai investit deja
+- renunți prea devreme
+- calculezi greșit dobânda
+- economisești prea mult
+! Banii cheltuiți nu se recuperează prin persistență.
+? Efectul de ancorare la reduceri înseamnă:
++ raportarea la prețul inițial afișat, nu la valoarea reală
+- cumpărarea în rate
+- economisirea automată
+- compararea a două magazine
+! Reducerea pare mai mare decât este.
+? Costul de oportunitate:
++ e real, deși nu apare în factură
+- e o noțiune pur teoretică
+- apare în extrasul de cont
+- se aplică doar firmelor
+! Orice alegere exclude alternativele.
+
+## 1 | mas12-c2 | Sondaje, alegeri, decizie colectivă
+### mas12-04 | Sondaje de opinie și marja de eroare
+Un sondaj estimează opinia unei populații dintr-un eșantion. Precizia estimării depinde, mai ales, de mărimea eșantionului, nu de mărimea populației: un eșantion de circa o mie de persoane, corect construit, dă o marjă de eroare de aproximativ trei procente, indiferent dacă populația are cinci milioane sau o sută de milioane de oameni — rezultat contraintuitiv, dar demonstrabil.
+Marja de eroare se raportează la un nivel de încredere, de obicei 95%: înseamnă că, repetând sondajul de multe ori, în 95% din cazuri intervalul calculat ar conține valoarea reală. Marja se aplică fiecărui procent în parte, deci diferențele mici dintre doi candidați pot fi statistic nesemnificative. Erorile care nu apar în marja declarată sunt adesea mai importante: eșantionul prost construit, întrebările prost formulate, non-răspunsul, momentul sondajului și diferența dintre intenția declarată și comportamentul real.
+* Precizia unui sondaj depinde de mărimea eșantionului, nu de cea a populației.
+* Un eșantion de circa o mie de persoane dă o marjă de aproximativ trei procente.
+* Marja se aplică fiecărui procent, deci diferențele mici pot fi nesemnificative.
+* Erorile nemăsurate — eșantionare, formulare, non-răspuns — sunt adesea mai importante.
+= marjă de eroare :: intervalul în care se estimează că se află valoarea reală, la un nivel de încredere dat
+= nivel de încredere :: probabilitatea ca intervalul calculat să conțină valoarea reală
+@ De ce depinde precizia unui sondaj? :: Mai ales de mărimea eșantionului, nu de mărimea populației.
+@ Ce marjă de eroare are un eșantion de circa o mie de persoane? :: Aproximativ trei procente.
+@ Ce înseamnă un nivel de încredere de 95%? :: Că, repetând sondajul, în 95% din cazuri intervalul ar conține valoarea reală.
+@ Ce erori nu apar în marja declarată? :: Eșantionarea proastă, formularea întrebărilor, non-răspunsul, momentul sondajului.
+? Un candidat cu 33% și altul cu 31%, la o marjă de trei procente:
++ nu pot fi departajați statistic
+- sunt clar departajați
+- au același scor
+- au un scor imposibil
+! Intervalele lor se suprapun.
+? Mărimea populației, pentru precizia sondajului:
++ are un rol neglijabil
+- este factorul principal
+- dublează marja
+- determină nivelul de încredere
+! Contează mărimea eșantionului.
+? Diferența dintre intenția declarată și comportamentul real:
++ este o sursă de eroare nemăsurată de marjă
+- este inclusă în marja de eroare
+- nu există
+- se corectează automat
+! De aceea sondajele pot rata rezultatul.
+? Nivelul de încredere obișnuit este:
++ 95%
+- 50%
+- 100%
+- 75%
+! El definește sensul marjei.
+
+### mas12-05 | Sisteme de vot și paradoxuri
+Un sistem de vot transformă preferințele individuale într-o decizie colectivă, dar rezultatul depinde de regula folosită. Majoritatea simplă alege opțiunea cu cele mai multe voturi, chiar dacă nu are majoritate absolută; scrutinul în două tururi elimină acest neajuns; votul preferențial cere ordonarea opțiunilor; metoda Borda acordă puncte după poziție.
+Aceleași preferințe pot da câștigători diferiți după regula aleasă, ceea ce arată că nu există un sistem „natural”. Paradoxul lui Condorcet arată că preferințele colective pot fi ciclice: A bate B, B bate C, iar C bate A. Teorema lui Arrow demonstrează matematic că niciun sistem de vot nu poate satisface simultan un set de condiții rezonabile de echitate. Concluzia practică nu e că votul e inutil, ci că alegerea regulii este ea însăși o decizie politică importantă.
+* Rezultatul unui vot depinde de regula folosită, nu doar de preferințe.
+* Paradoxul lui Condorcet arată că preferințele colective pot fi ciclice.
+* Teorema lui Arrow demonstrează limitele oricărui sistem de vot.
+* Alegerea regulii de vot este ea însăși o decizie politică.
+= paradoxul lui Condorcet :: situația în care preferințele colective devin ciclice, fără câștigător clar
+= teorema lui Arrow :: rezultatul care arată că niciun sistem de vot nu satisface simultan toate condițiile rezonabile de echitate
+@ Ce arată paradoxul lui Condorcet? :: Că preferințele colective pot fi ciclice: A bate B, B bate C, iar C bate A.
+@ Ce demonstrează teorema lui Arrow? :: Că niciun sistem de vot nu poate satisface simultan un set de condiții rezonabile de echitate.
+@ De ce contează regula de vot? :: Pentru că aceleași preferințe pot da câștigători diferiți.
+@ Ce este metoda Borda? :: Un sistem în care opțiunile primesc puncte după poziția în ordonarea fiecărui votant.
+? Aceleași preferințe individuale:
++ pot da câștigători diferiți după regula de vot
+- dau mereu același câștigător
+- nu pot fi agregate
+- se anulează reciproc
+! De aceea regula e o decizie politică.
+? Majoritatea simplă poate alege o opțiune care:
++ nu are majoritate absolută
+- are peste 50% obligatoriu
+- e preferată de toți
+- e ultima clasată
+! Scrutinul în două tururi corectează asta.
+? Teorema lui Arrow spune că:
++ niciun sistem de vot nu satisface toate condițiile de echitate
+- votul majoritar e perfect
+- votul preferențial e ideal
+- votul e inutil
+! Concluzia practică e prudența, nu resemnarea.
+? Paradoxul lui Condorcet privește:
++ ciclicitatea preferințelor colective
+- eroarea de eșantionare
+- inflația
+- costul de oportunitate
+! Nu există câștigător clar în astfel de cazuri.
+
+### mas12-06 | Teoria jocurilor și cooperarea
+Teoria jocurilor studiază deciziile în care rezultatul depinde și de alegerile celorlalți. Dilema prizonierului este exemplul central: doi participanți ar câștiga mai mult cooperând, dar fiecare are, individual, interesul să trădeze, iar rezultatul colectiv este mai prost pentru amândoi. Structura ei explică multe situații reale: cursa înarmărilor, poluarea, evaziunea fiscală, exploatarea resurselor comune.
+Repetarea jocului schimbă însă calculul: cooperarea devine rațională când interacțiunea continuă și reputația contează. Strategia „ochi pentru ochi” — cooperezi primul, apoi repeți ce a făcut celălalt — s-a dovedit surprinzător de eficientă în simulări. Alte modele explică formarea normelor, echilibrul într-o negociere sau problema pasagerului clandestin, cel care beneficiază de un bun public fără să contribuie. Aceste modele nu prezic comportamentul individual, dar clarifică structura stimulentelor.
+* Teoria jocurilor studiază decizii în care rezultatul depinde de alegerile celorlalți.
+* În dilema prizonierului, interesul individual duce la un rezultat colectiv prost.
+* Repetarea jocului face cooperarea rațională.
+* Pasagerul clandestin beneficiază de un bun public fără să contribuie.
+= dilema prizonierului :: situație în care alegerea rațională individuală duce la un rezultat colectiv mai prost
+= pasager clandestin :: cel care beneficiază de un bun public fără să contribuie la costul lui
+@ Ce arată dilema prizonierului? :: Că alegerea rațională individuală poate duce la un rezultat colectiv mai prost pentru toți.
+@ Ce schimbă repetarea jocului? :: Face cooperarea rațională, pentru că reputația și viitorul interacțiunii contează.
+@ Ce este problema pasagerului clandestin? :: Situația celui care beneficiază de un bun public fără să contribuie la costul lui.
+@ Ce strategie s-a dovedit eficientă în jocurile repetate? :: „Ochi pentru ochi”: cooperezi primul, apoi repeți ce a făcut celălalt.
+? Poluarea are structura:
++ unei dileme a prizonierului
+- unui joc cu sumă nulă pur
+- unei licitații
+- unui joc cooperativ perfect
+! Fiecare are interesul să nu-și reducă emisiile.
+? Cooperarea devine rațională când:
++ jocul se repetă și reputația contează
+- jocul e unic
+- participanții nu se cunosc
+- nu există comunicare
+! Viitorul interacțiunii schimbă calculul.
+? Pasagerul clandestin:
++ beneficiază fără să contribuie
+- contribuie fără să beneficieze
+- nu participă deloc
+- plătește dublu
+! Problema apare la bunurile publice.
+? Modelele teoriei jocurilor:
++ clarifică structura stimulentelor
+- prezic exact comportamentul individual
+- înlocuiesc datele empirice
+- se aplică doar în economie
+! Sunt instrumente de analiză, nu profeții.
+
+## 2 | mas12-c3 | Rețele și decizie
+### mas12-07 | Grafuri și rețele sociale
+Un graf este format din noduri și din muchii care le leagă. Rețelele sociale se modelează astfel: oamenii sunt noduri, relațiile sunt muchii. Gradul unui nod arată câte legături are; distanța dintre două noduri e numărul minim de pași care le separă. Fenomenul „lumii mici” arată că, în rețelele sociale reale, distanța medie e surprinzător de mică, de unde ideea celor șase grade de separare.
+Rețelele reale nu sunt uniforme: câteva noduri au foarte multe legături, majoritatea au puține. Aceste noduri centrale explică viteza de răspândire a informației, dar și vulnerabilitatea rețelei: eliminarea lor o fragmentează. Centralitatea, densitatea și existența comunităților sunt indicatori uzuali. Aplicațiile merg de la analiza răspândirii bolilor și a zvonurilor la organizarea transporturilor și la algoritmii care recomandă prieteni sau conținut.
+* Un graf are noduri și muchii; rețelele sociale se modelează astfel.
+* Fenomenul lumii mici: distanța medie într-o rețea socială e surprinzător de mică.
+* Câteva noduri centrale concentrează majoritatea legăturilor.
+* Nodurile centrale explică viteza de răspândire, dar și vulnerabilitatea rețelei.
+= graf :: structură formată din noduri și din legături între ele
+= centralitate :: măsura importanței unui nod într-o rețea, după numărul și poziția legăturilor sale
+@ Din ce este format un graf? :: Din noduri și din muchii care le leagă.
+@ Ce arată fenomenul lumii mici? :: Că distanța medie între doi oameni dintr-o rețea socială e surprinzător de mică.
+@ De ce sunt importante nodurile centrale? :: Explică viteza de răspândire a informației și vulnerabilitatea rețelei.
+@ Ce aplicații are analiza rețelelor? :: Răspândirea bolilor și a zvonurilor, transporturile, algoritmii de recomandare.
+? Într-o rețea socială reală, distribuția legăturilor este:
++ inegală: puține noduri au foarte multe legături
+- uniformă
+- aleatorie perfect
+- identică pentru toate nodurile
+! De aici rolul nodurilor centrale.
+? Eliminarea nodurilor centrale:
++ fragmentează rețeaua
+- nu are efect
+- o întărește
+- crește densitatea
+! Este și o vulnerabilitate, și o strategie de intervenție.
+? Gradul unui nod arată:
++ numărul de legături ale nodului
+- distanța până la centru
+- importanța lui absolută
+- vechimea lui în rețea
+! Centralitatea ia în calcul și poziția.
+? Ideea celor șase grade de separare vine din:
++ fenomenul lumii mici
+- teorema lui Arrow
+- dilema prizonierului
+- regula lui 72
+! Distanța medie în rețelele sociale e mică.
+
+### mas12-08 | Algoritmi, date, societate
+Algoritmii iau tot mai multe decizii care privesc oamenii: ordonarea informației, recomandările, acordarea creditelor, trierea candidaturilor, evaluarea riscului. Un algoritm învață din date istorice, ceea ce înseamnă că reproduce, și uneori amplifică, tiparele existente, inclusiv discriminările din trecut — problema numită prejudecată algoritmică.
+Opacitatea complică lucrurile: multe sisteme nu pot explica de ce au dat un anumit rezultat, ceea ce face contestarea greu de făcut. Reglementarea europeană a introdus drepturi privind datele personale și deciziile automate. Alfabetizarea în acest domeniu presupune câteva întrebări practice: ce date au fost folosite, ce optimizează sistemul, cine verifică rezultatele, ce se întâmplă când greșește. Un algoritm nu e nici obiectiv, nici neutru: el încorporează alegerile celor care l-au construit.
+* Algoritmii învață din date istorice și pot reproduce discriminările din trecut.
+* Opacitatea sistemelor face contestarea deciziilor dificilă.
+* Reglementarea europeană a introdus drepturi privind datele și deciziile automate.
+* Un algoritm nu e neutru: încorporează alegerile celor care l-au construit.
+= prejudecată algoritmică :: reproducerea sau amplificarea unor discriminări existente de către un sistem automat
+= decizie automată :: hotărâre luată de un sistem informatic, fără intervenție umană directă
+@ De ce pot fi algoritmii discriminatorii? :: Pentru că învață din date istorice, care conțin tiparele și discriminările trecutului.
+@ Ce problemă ridică opacitatea sistemelor? :: Face dificilă contestarea unei decizii, pentru că nu se poate explica de ce a fost luată.
+@ Ce întrebări practice ajută la evaluarea unui algoritm? :: Ce date au fost folosite, ce optimizează, cine verifică rezultatele, ce se întâmplă când greșește.
+@ Este un algoritm neutru? :: Nu; el încorporează alegerile celor care l-au construit.
+? Prejudecata algoritmică apare pentru că:
++ sistemul învață din date care conțin discriminări trecute
+- programatorii sunt răuvoitori
+- datele sunt prea puține
+- calculatoarele greșesc aleator
+! Tiparul se reproduce și se amplifică.
+? Opacitatea unui sistem automat:
++ îngreunează contestarea deciziilor
+- crește acuratețea
+- protejează utilizatorul
+- e cerută de lege
+! De aici cerința de explicabilitate.
+? Reglementarea europeană privind datele personale:
++ a introdus drepturi legate de deciziile automate
+- interzice orice algoritm
+- privește doar firmele mici
+- nu se aplică în România
+! A devenit un reper mondial.
+? Afirmația că un algoritm e „obiectiv” este:
++ falsă: el încorporează alegeri umane
+- adevărată
+- adevărată doar pentru date mari
+- imposibil de evaluat
+! Alegerea datelor și a obiectivului sunt decizii.
+
+### mas12-09 | Sinteză: gândirea cantitativă în viața publică
+Gândirea cantitativă nu înseamnă calcul, ci capacitatea de a pune întrebările potrivite când întâlnești cifre. Câteva reflexe utile: cine a produs datele și cu ce interes; cât de mare e eșantionul și cum a fost ales; ce înseamnă exact indicatorul folosit; față de ce se face comparația; care e ordinul de mărime; ce lipsește din prezentare.
+Ordinul de mărime este un instrument subestimat: multe afirmații se pot verifica printr-o estimare grosieră, care arată imediat dacă cifra e plauzibilă. Distincția dintre valori absolute și relative, dintre medie și mediană, dintre corelație și cauzalitate elimină majoritatea erorilor de interpretare din discursul public. Iar recunoașterea propriei incertitudini — a ști ce nu știi — este ea însăși o competență: cifrele nu scutesc de judecată, ci o sprijină.
+* Gândirea cantitativă înseamnă a pune întrebările potrivite când întâlnești cifre.
+* Estimarea ordinului de mărime verifică rapid plauzibilitatea unei afirmații.
+* Distincțiile absolut/relativ, medie/mediană, corelație/cauzalitate elimină majoritatea erorilor.
+* Cifrele nu scutesc de judecată, ci o sprijină.
+= ordin de mărime :: aproximarea unei valori la puterea lui zece cea mai apropiată, folosită pentru verificări rapide
+= gândire cantitativă :: capacitatea de a interpreta critic informația numerică
+@ Ce înseamnă gândirea cantitativă? :: Capacitatea de a pune întrebările potrivite când întâlnești cifre.
+@ La ce servește estimarea ordinului de mărime? :: La verificarea rapidă a plauzibilității unei afirmații.
+@ Ce distincții elimină majoritatea erorilor de interpretare? :: Absolut/relativ, medie/mediană, corelație/cauzalitate.
+@ Scutesc cifrele de judecată? :: Nu; ele o sprijină, dar nu o înlocuiesc.
+? Prima întrebare în fața unei cifre din presă este:
++ cine a produs datele și cu ce interes
+- cât de mare este
+- dacă e rotunjită
+- dacă e recentă
+! Urmează eșantionul și definiția indicatorului.
+? Estimarea ordinului de mărime:
++ arată rapid dacă o cifră e plauzibilă
+- înlocuiește calculul exact
+- e utilă doar în fizică
+- necesită date complete
+! Este un instrument subestimat.
+? „Față de ce se face comparația” este o întrebare esențială pentru că:
++ o cifră fără termen de comparație nu spune nimic
+- comparațiile sunt interzise
+- toate comparațiile sunt valide
+- termenul e mereu evident
+! Baza de comparație schimbă concluzia.
+? A ști ce nu știi este:
++ o competență în sine
+- un semn de slăbiciune
+- irelevant statistic
+- o scuză
+! Recunoașterea incertitudinii îmbunătățește decizia.
+
+%% teza 1
+? Regula lui 72 estimează:
++ timpul de dublare a unei sume
+- rata inflației
+- marja de eroare
+- randamentul real
+! Se împarte 72 la rata procentuală.
+? Dobânda anuală efectivă:
++ include comisioanele
+- e mai mică decât cea nominală
+- exclude toate costurile
+- se aplică doar depozitelor
+! De aceea permite comparația reală.
+? Randamentul real se obține scăzând:
++ rata inflației
+- comisionul bancar
+- impozitul
+- dobânda nominală
+! Poate fi negativ.
+? Promisiunea unui randament mare fără risc semnalează:
++ o fraudă
+- o oportunitate rară
+- un produs bancar sigur
+- o investiție de stat
+! Riscul și randamentul sunt legate.
+? Fondul de urgență ar trebui să acopere:
++ trei până la șase luni de cheltuieli
+- o lună
+- doi ani
+- doar cheltuielile fixe
+! Protejează împotriva șocurilor.
+? Costul de oportunitate este:
++ valoarea celei mai bune alternative la care renunți
+- comisionul plătit
+- diferența de preț
+- pierderea din inflație
+! Nu apare în factură, dar e real.
+? Precizia unui sondaj depinde, în principal, de:
++ mărimea eșantionului
+- mărimea populației
+- numărul de întrebări
+- durata sondajului
+! Rezultatul e contraintuitiv, dar demonstrabil.
+? Un eșantion de circa o mie de persoane dă o marjă de aproximativ:
++ trei procente
+- zece procente
+- un procent
+- cincisprezece procente
+! La un nivel de încredere de 95%.
+? O diferență de două procente între doi candidați, la o marjă de trei procente:
++ nu este semnificativă statistic
+- este clară
+- înseamnă egalitate exactă
+- este imposibilă
+! Intervalele se suprapun.
+
+%% teza 2
+? Paradoxul lui Condorcet arată că:
++ preferințele colective pot fi ciclice
+- votul majoritar e perfect
+- sondajele sunt inutile
+- eșantionul contează mai mult decât populația
+! A bate B, B bate C, C bate A.
+? Teorema lui Arrow demonstrează:
++ limitele oricărui sistem de vot
+- superioritatea votului preferențial
+- inutilitatea alegerilor
+- necesitatea a două tururi
+! Niciun sistem nu satisface toate condițiile rezonabile.
+? În dilema prizonierului:
++ alegerea rațională individuală duce la un rezultat colectiv mai prost
+- cooperarea e mereu aleasă
+- nu există soluție
+- rezultatul e mereu optim
+! Structura explică poluarea și evaziunea.
+? Cooperarea devine rațională când:
++ jocul se repetă
+- jocul e unic
+- participanții sunt anonimi
+- nu există sancțiuni
+! Reputația schimbă calculul.
+? Într-o rețea socială reală, legăturile sunt distribuite:
++ inegal, cu puține noduri foarte conectate
+- uniform
+- perfect aleatoriu
+- egal pentru toți
+! De aici viteza de răspândire.
+? Eliminarea nodurilor centrale dintr-o rețea:
++ o fragmentează
+- o consolidează
+- nu are efect
+- crește distanța medie doar puțin
+! Este și o vulnerabilitate, și o pârghie de intervenție.
+? Prejudecata algoritmică apare pentru că sistemele:
++ învață din date istorice care conțin discriminări
+- sunt programate răuvoitor
+- funcționează aleatoriu
+- nu folosesc date
+! Tiparele trecutului se reproduc.
+? Un algoritm este:
++ purtătorul alegerilor celor care l-au construit
+- obiectiv prin natura lui
+- neutru dacă folosește date mari
+- imposibil de evaluat
+! Alegerea datelor și a obiectivului sunt decizii umane.
+? Estimarea ordinului de mărime servește la:
++ verificarea rapidă a plauzibilității
+- calculul exact
+- eliminarea erorilor de măsurare
+- stabilirea marjei de eroare
+! Multe afirmații cad la o estimare grosieră.

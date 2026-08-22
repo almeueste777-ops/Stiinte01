@@ -1,0 +1,1073 @@
+{
+ "id": "filosofie-13",
+ "materie": "Filosofie",
+ "clasa": "a XIII-a",
+ "an": 5,
+ "arie": "Om și societate",
+ "bac": true,
+ "descriere": "Aprofundare: metafizică și existență, filosofia religiei, estetica, filosofia științei, curente contemporane și metoda eseului filosofic.",
+ "capitole": [
+  {
+   "id": "fil13-c1",
+   "titlu": "Existența și cunoașterea ei",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "fil13-01",
+     "titlu": "Metafizica: ființă, substanță, devenire",
+     "rezumat": "Metafizica întreabă ce există cu adevărat și în ce fel. Parmenide formulează prima teză tare: ființa este, neființa nu este; deci schimbarea, care ar cere trecerea de la neființă la ființă, e o iluzie a simțurilor. Heraclit susține opusul: totul curge, iar realitatea este chiar devenirea, guvernată de logos. Platon rezolvă tensiunea prin două niveluri: lumea Ideilor, eternă și inteligibilă, și lumea sensibilă, copie imperfectă și schimbătoare. Aristotel refuză separarea: forma nu există într-o lume aparte, ci în lucrurile însele, împreună cu materia; devenirea se explică prin trecerea de la potență la act. Modernitatea deplasează întrebarea: pentru Descartes, substanțele sunt gândirea și întinderea; pentru Spinoza, există o singură substanță; pentru Leibniz, monade. Kant declară metafizica clasică imposibilă ca știință, fiindcă rațiunea depășește limitele experienței posibile.",
+     "ideiCheie": [
+      "Parmenide: ființa este, schimbarea e iluzie. Heraclit: totul curge.",
+      "Platon separă lumea Ideilor de cea sensibilă; Aristotel le unește prin formă și materie.",
+      "Aristotel explică devenirea prin potență și act.",
+      "Kant declară metafizica clasică imposibilă ca știință."
+     ],
+     "termeni": [
+      {
+       "t": "potență și act",
+       "d": "distincția aristotelică între ceea ce un lucru poate deveni și ceea ce este în mod efectiv"
+      },
+      {
+       "t": "substanță",
+       "d": "ceea ce există prin sine și susține însușirile"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce susține Parmenide despre schimbare?",
+       "v": "Că este o iluzie: ființa este, neființa nu este."
+      },
+      {
+       "f": "Cum explică Aristotel devenirea?",
+       "v": "Prin trecerea de la potență la act."
+      },
+      {
+       "f": "Ce separă Platon prin teoria Ideilor?",
+       "v": "Lumea inteligibilă, eternă, de lumea sensibilă, schimbătoare."
+      },
+      {
+       "f": "De ce declară Kant metafizica clasică imposibilă ca știință?",
+       "v": "Pentru că rațiunea încearcă să depășească limitele experienței posibile."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Teza „totul curge” aparține lui:",
+       "optiuni": [
+        "Heraclit",
+        "Parmenide",
+        "Platon",
+        "Democrit"
+       ],
+       "corect": 0,
+       "explicatie": "Ea afirmă primatul devenirii asupra permanenței."
+      },
+      {
+       "intrebare": "Distincția potență–act aparține lui:",
+       "optiuni": [
+        "Aristotel",
+        "Platon",
+        "Descartes",
+        "Spinoza"
+       ],
+       "corect": 0,
+       "explicatie": "Ea explică devenirea fără a nega ființa."
+      },
+      {
+       "intrebare": "Pentru Spinoza există:",
+       "optiuni": [
+        "o singură substanță",
+        "două substanțe",
+        "o infinitate de monade",
+        "nicio substanță"
+       ],
+       "corect": 0,
+       "explicatie": "Descartes admitea gândirea și întinderea."
+      },
+      {
+       "intrebare": "Kant consideră că rațiunea, ieșind din limitele experienței:",
+       "optiuni": [
+        "produce iluzii transcendentale",
+        "atinge lucrul în sine",
+        "devine mai riguroasă",
+        "descoperă esențele"
+       ],
+       "corect": 0,
+       "explicatie": "De aici critica metafizicii dogmatice."
+      }
+     ]
+    },
+    {
+     "id": "fil13-02",
+     "titlu": "Filosofia științei",
+     "rezumat": "Filosofia științei întreabă ce deosebește cunoașterea științifică de alte forme de cunoaștere. Empirismul logic propunea verificabilitatea: are sens ceea ce poate fi verificat prin experiență. Karl Popper răspunde că verificarea e insuficientă — o teorie poate acumula confirmări și rămâne falsă — și propune falsificabilitatea: o teorie e științifică dacă precizează ce fapt ar infirma-o. Progresul se face prin conjecturi îndrăznețe și încercări de respingere. Thomas Kuhn schimbă perspectiva: știința nu progresează linear, ci prin paradigme. Perioada de „știință normală” rezolvă probleme în cadrul unei paradigme acceptate; acumularea anomaliilor duce la criză și la revoluție științifică, adică la schimbarea paradigmei. Imre Lakatos propune programe de cercetare, cu un nucleu tare protejat de ipoteze auxiliare; Paul Feyerabend contestă existența unei metode unice. Dezbaterea rămâne deschisă, dar consensul minimal este solid: știința se deosebește prin deschiderea la infirmare și prin controlul intersubiectiv al rezultatelor.",
+     "ideiCheie": [
+      "Verificabilitatea e insuficientă; Popper propune falsificabilitatea.",
+      "Kuhn: știință normală, anomalii, criză, revoluție, schimbare de paradigmă.",
+      "Lakatos: programe de cercetare cu nucleu tare; Feyerabend contestă metoda unică.",
+      "Consensul minimal: deschidere la infirmare și control intersubiectiv."
+     ],
+     "termeni": [
+      {
+       "t": "paradigmă",
+       "d": "ansamblul de teorii, metode și exemple acceptate de o comunitate științifică într-o epocă"
+      },
+      {
+       "t": "revoluție științifică",
+       "d": "schimbarea unei paradigme cu alta, în urma acumulării anomaliilor"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce propune Popper drept criteriu al științificității?",
+       "v": "Falsificabilitatea: o teorie trebuie să precizeze ce fapt ar infirma-o."
+      },
+      {
+       "f": "Ce este o paradigmă la Kuhn?",
+       "v": "Ansamblul de teorii, metode și exemple acceptate de o comunitate științifică."
+      },
+      {
+       "f": "Cum se produce o revoluție științifică?",
+       "v": "Prin acumularea anomaliilor, criză și înlocuirea paradigmei."
+      },
+      {
+       "f": "Care este consensul minimal privind specificul științei?",
+       "v": "Deschiderea la infirmare și controlul intersubiectiv al rezultatelor."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Popper respinge verificabilitatea ca criteriu deoarece:",
+       "optiuni": [
+        "o teorie poate acumula confirmări și rămâne falsă",
+        "verificarea e imposibilă tehnic",
+        "experiența e nesigură",
+        "teoriile nu au consecințe observabile"
+       ],
+       "corect": 0,
+       "explicatie": "Confirmările nu demonstrează adevărul unei generalizări."
+      },
+      {
+       "intrebare": "„Știința normală”, la Kuhn, înseamnă:",
+       "optiuni": [
+        "rezolvarea de probleme în cadrul unei paradigme acceptate",
+        "perioada revoluțiilor",
+        "respingerea paradigmelor",
+        "absența cercetării"
+       ],
+       "corect": 0,
+       "explicatie": "Anomaliile acumulate declanșează criza."
+      },
+      {
+       "intrebare": "Programele de cercetare, cu nucleu tare și ipoteze auxiliare, aparțin lui:",
+       "optiuni": [
+        "Imre Lakatos",
+        "Thomas Kuhn",
+        "Karl Popper",
+        "Paul Feyerabend"
+       ],
+       "corect": 0,
+       "explicatie": "Ele încearcă o cale de mijloc între Popper și Kuhn."
+      },
+      {
+       "intrebare": "Controlul intersubiectiv al rezultatelor înseamnă că:",
+       "optiuni": [
+        "rezultatele pot fi verificate independent de alți cercetători",
+        "rezultatele depind de opinia majorității",
+        "teoriile sunt acceptate prin vot",
+        "observația e strict personală"
+       ],
+       "corect": 0,
+       "explicatie": "Reproductibilitatea este condiția de bază."
+      }
+     ]
+    },
+    {
+     "id": "fil13-03",
+     "titlu": "Filosofia religiei",
+     "rezumat": "Filosofia religiei examinează rațional afirmațiile religioase, fără a le presupune adevărate sau false. Argumentele clasice pentru existența lui Dumnezeu: ontologic (Anselm — conceptul de ființă perfectă implică existența), cosmologic (Toma d'Aquino — seria cauzelor cere o cauză primă), teleologic (ordinea lumii implică un ordonator), moral (Kant — legea morală cere postularea lui Dumnezeu ca garant). Obiecțiile: Kant respinge argumentul ontologic arătând că existența nu e un predicat care se adaugă conceptului; argumentul cosmologic presupune ceea ce vrea să demonstreze; argumentul teleologic e slăbit de explicația evoluționistă. Problema răului rămâne cea mai grea: cum poate coexista un Dumnezeu atotputernic, atotștiutor și infinit bun cu suferința nemeritată? Răspunsurile — teodiceile — invocă libertatea, valoarea formativă a suferinței sau limitele înțelegerii umane. Pascal propune pariul: în incertitudine, raportul dintre miză și câștig posibil recomandă credința. Poziții: teism, deism, panteism, agnosticism, ateism.",
+     "ideiCheie": [
+      "Argumente clasice: ontologic, cosmologic, teleologic, moral.",
+      "Kant: existența nu este un predicat — obiecția clasică la argumentul ontologic.",
+      "Problema răului este obiecția cea mai grea; teodiceile încearcă răspunsuri.",
+      "Poziții: teism, deism, panteism, agnosticism, ateism."
+     ],
+     "termeni": [
+      {
+       "t": "teodicee",
+       "d": "încercarea de a justifica bunătatea și puterea divină în fața existenței răului"
+      },
+      {
+       "t": "agnosticism",
+       "d": "poziția potrivit căreia existența divinității nu poate fi cunoscută"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt cele patru argumente clasice pentru existența lui Dumnezeu?",
+       "v": "Ontologic, cosmologic, teleologic și moral."
+      },
+      {
+       "f": "Ce obiecție aduce Kant argumentului ontologic?",
+       "v": "Că existența nu este un predicat care se adaugă conceptului."
+      },
+      {
+       "f": "Ce este problema răului?",
+       "v": "Dificultatea de a concilia existența suferinței nemeritate cu un Dumnezeu atotputernic și infinit bun."
+      },
+      {
+       "f": "Ce este agnosticismul?",
+       "v": "Poziția potrivit căreia existența divinității nu poate fi cunoscută."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Argumentul ontologic aparține, în forma lui clasică, lui:",
+       "optiuni": [
+        "Anselm de Canterbury",
+        "Toma d'Aquino",
+        "Immanuel Kant",
+        "Blaise Pascal"
+       ],
+       "corect": 0,
+       "explicatie": "El pornește de la conceptul de ființă decât care nimic mai mare nu poate fi gândit."
+      },
+      {
+       "intrebare": "Teodiceea încearcă:",
+       "optiuni": [
+        "să concilieze existența răului cu atributele divine",
+        "să demonstreze inexistența lui Dumnezeu",
+        "să respingă argumentul ontologic",
+        "să întemeieze morala"
+       ],
+       "corect": 0,
+       "explicatie": "Libertatea umană este invocată cel mai des."
+      },
+      {
+       "intrebare": "Deismul susține că:",
+       "optiuni": [
+        "divinitatea a creat lumea, dar nu intervine în ea",
+        "divinitatea se identifică cu natura",
+        "divinitatea nu există",
+        "existența divinității nu poate fi cunoscută"
+       ],
+       "corect": 0,
+       "explicatie": "Panteismul identifică divinitatea cu natura."
+      },
+      {
+       "intrebare": "Pariul lui Pascal argumentează:",
+       "optiuni": [
+        "pe baza raportului dintre miză și câștig posibil, în incertitudine",
+        "prin dovezi empirice",
+        "prin argumentul ontologic",
+        "prin revelație"
+       ],
+       "corect": 0,
+       "explicatie": "Este un argument de decizie rațională, nu unul teoretic."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fil13-c2",
+   "titlu": "Valori și interpretare",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "fil13-04",
+     "titlu": "Estetica: frumosul, arta, gustul",
+     "rezumat": "Estetica cercetează frumosul și experiența artistică. Platon suspecta arta ca imitație a imitației, dublu îndepărtată de Idee; Aristotel o reabilitează prin mimesis și catharsis — arta imită structura acțiunii umane și purifică emoțiile. Kant analizează judecata de gust: ea e dezinteresată (nu urmărește posesia), universală fără concept (pretinde acordul altora, dar nu se poate demonstra), cu finalitate fără scop și necesară. Frumosul se deosebește de sublim: frumosul presupune armonie și formă delimitată; sublimul apare la contactul cu ceea ce depășește măsura — imensitatea, forța naturii — și amestecă plăcerea cu teama. Hegel vede în artă o formă de manifestare a spiritului absolut, în trepte istorice. Modernitatea pune sub semnul întrebării chiar noțiunea de operă: readymade-ul, arta conceptuală, arta digitală deplasează accentul de la obiect la intenție și la context.",
+     "ideiCheie": [
+      "Aristotel: mimesis și catharsis reabilitează arta.",
+      "Kant: judecata de gust e dezinteresată, universală fără concept, necesară.",
+      "Frumosul presupune armonie; sublimul, depășirea măsurii.",
+      "Arta modernă deplasează accentul de la obiect la intenție și context."
+     ],
+     "termeni": [
+      {
+       "t": "mimesis",
+       "d": "imitarea, prin artă, a structurii acțiunii sau a realității"
+      },
+      {
+       "t": "sublim",
+       "d": "categoria estetică a ceea ce depășește măsura și amestecă plăcerea cu teama"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce înseamnă catharsis la Aristotel?",
+       "v": "Purificarea emoțiilor prin trăirea lor în contact cu opera de artă."
+      },
+      {
+       "f": "Care sunt trăsăturile judecății de gust la Kant?",
+       "v": "Dezinteresată, universală fără concept, cu finalitate fără scop, necesară."
+      },
+      {
+       "f": "Prin ce se deosebește sublimul de frumos?",
+       "v": "Frumosul presupune armonie și formă; sublimul, depășirea măsurii, cu teamă amestecată."
+      },
+      {
+       "f": "Ce schimbă arta modernă în definiția operei?",
+       "v": "Deplasează accentul de la obiectul realizat la intenție și la context."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Judecata de gust este „dezinteresată” la Kant în sensul că:",
+       "optiuni": [
+        "nu urmărește posesia sau utilitatea obiectului",
+        "este indiferentă",
+        "nu are valoare",
+        "nu poate fi comunicată"
+       ],
+       "corect": 0,
+       "explicatie": "Plăcerea estetică e liberă de interesul practic."
+      },
+      {
+       "intrebare": "Catharsisul aristotelic desemnează:",
+       "optiuni": [
+        "purificarea emoțiilor prin trăirea lor artistică",
+        "imitarea realității",
+        "judecata de gust",
+        "experiența sublimului"
+       ],
+       "corect": 0,
+       "explicatie": "Tragedia produce milă și teamă, apoi le purifică."
+      },
+      {
+       "intrebare": "Sublimul apare, la Kant, în contactul cu:",
+       "optiuni": [
+        "ceea ce depășește măsura, precum imensitatea sau forța naturii",
+        "obiectele armonioase",
+        "operele bine proporționate",
+        "creațiile utile"
+       ],
+       "corect": 0,
+       "explicatie": "Plăcerea sublimului este amestecată cu teamă."
+      },
+      {
+       "intrebare": "Platon suspecta arta pentru că:",
+       "optiuni": [
+        "o considera imitație a imitației, îndepărtată de Idee",
+        "corupea tinerii prin frumusețe",
+        "era prea abstractă",
+        "lipsea din cetate"
+       ],
+       "corect": 0,
+       "explicatie": "Aristotel o reabilitează prin mimesis și catharsis."
+      }
+     ]
+    },
+    {
+     "id": "fil13-05",
+     "titlu": "Hermeneutica și problema interpretării",
+     "rezumat": "Hermeneutica este teoria interpretării. Inițial metodă de citire a textelor sacre și juridice, ea devine, prin Schleiermacher și Dilthey, metodă a științelor spiritului: dacă natura se explică, faptele omenești se înțeleg. Distincția explicație–înțelegere fixează un raport durabil între științele naturii și cele ale culturii. Heidegger și Gadamer radicalizează: interpretarea nu e o metodă printre altele, ci modul de a fi al omului. Nu există lectură fără precomprehensiune: pornim mereu de la un orizont de așteptare, format de tradiția în care trăim. Cercul hermeneutic — înțelegem întregul prin părți și părțile prin întreg — nu este un viciu logic, ci structura oricărei înțelegeri. „Fuziunea orizonturilor” descrie întâlnirea dintre orizontul textului și cel al cititorului. Consecința practică: prejudecățile nu pot fi eliminate, dar pot fi conștientizate și puse la încercare.",
+     "ideiCheie": [
+      "Distincția Dilthey: natura se explică, faptele omenești se înțeleg.",
+      "Nu există interpretare fără precomprehensiune.",
+      "Cercul hermeneutic: întregul prin părți, părțile prin întreg.",
+      "Prejudecățile nu se elimină, dar pot fi conștientizate și testate."
+     ],
+     "termeni": [
+      {
+       "t": "cerc hermeneutic",
+       "d": "structura înțelegerii, în care întregul se înțelege prin părți și părțile prin întreg"
+      },
+      {
+       "t": "fuziunea orizonturilor",
+       "d": "întâlnirea dintre orizontul de așteptare al cititorului și cel al textului"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce distincție face Dilthey?",
+       "v": "Între explicație (științele naturii) și înțelegere (științele spiritului)."
+      },
+      {
+       "f": "Ce este cercul hermeneutic?",
+       "v": "Structura înțelegerii, în care întregul se înțelege prin părți și părțile prin întreg."
+      },
+      {
+       "f": "Ce este fuziunea orizonturilor?",
+       "v": "Întâlnirea dintre orizontul de așteptare al cititorului și cel al textului."
+      },
+      {
+       "f": "Ce se poate face cu prejudecățile, potrivit hermeneuticii?",
+       "v": "Nu pot fi eliminate, dar pot fi conștientizate și puse la încercare."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Distincția explicație–înțelegere separă:",
+       "optiuni": [
+        "științele naturii de științele culturii",
+        "filosofia de știință",
+        "arta de morală",
+        "logica de metafizică"
+       ],
+       "corect": 0,
+       "explicatie": "Ea aparține tradiției lui Dilthey."
+      },
+      {
+       "intrebare": "Cercul hermeneutic este:",
+       "optiuni": [
+        "structura firească a oricărei înțelegeri",
+        "o eroare logică",
+        "un procedeu retoric",
+        "o metodă de demonstrație"
+       ],
+       "corect": 0,
+       "explicatie": "El descrie mișcarea dintre parte și întreg."
+      },
+      {
+       "intrebare": "Precomprehensiunea înseamnă că:",
+       "optiuni": [
+        "pornim întotdeauna de la un orizont de așteptare",
+        "înțelegem totul dinainte",
+        "interpretarea e imposibilă",
+        "textul nu are sens propriu"
+       ],
+       "corect": 0,
+       "explicatie": "Ea poate fi corectată pe parcursul lecturii."
+      },
+      {
+       "intrebare": "„Fuziunea orizonturilor” descrie:",
+       "optiuni": [
+        "întâlnirea dintre orizontul textului și cel al cititorului",
+        "eliminarea prejudecăților",
+        "traducerea literală",
+        "consensul interpreților"
+       ],
+       "corect": 0,
+       "explicatie": "Conceptul aparține lui Gadamer."
+      }
+     ]
+    },
+    {
+     "id": "fil13-06",
+     "titlu": "Curente filosofice contemporane",
+     "rezumat": "Fenomenologia (Husserl) propune întoarcerea „la lucrurile însele”: descrierea fenomenelor așa cum apar conștiinței, cu suspendarea presupozițiilor despre existența lor în afara ei. Conceptul central este intenționalitatea: orice conștiință este conștiință a ceva. Existențialismul (Heidegger, Sartre, Camus) pornește de la existența concretă a individului: libertate, angoasă, responsabilitate, autenticitate, absurd. Filosofia analitică (Frege, Russell, Wittgenstein, Quine) mută accentul pe limbaj și pe logică: multe probleme filosofice sunt confuzii de limbaj, iar clarificarea lor le dizolvă. Wittgenstein cel târziu introduce jocurile de limbaj: sensul unui cuvânt este folosirea lui într-o practică. Structuralismul și poststructuralismul (Lévi-Strauss, Foucault, Derrida) analizează structurile care preced subiectul, relația dintre cunoaștere și putere, instabilitatea sensului. Filosofia contemporană continuă în etică aplicată, filosofie politică, filosofia minții și a tehnologiei.",
+     "ideiCheie": [
+      "Fenomenologia: descrierea fenomenelor așa cum apar conștiinței; intenționalitate.",
+      "Existențialismul: libertate, angoasă, responsabilitate, autenticitate.",
+      "Filosofia analitică: clarificarea limbajului dizolvă multe probleme filosofice.",
+      "Structuralism și poststructuralism: structuri, putere, instabilitatea sensului."
+     ],
+     "termeni": [
+      {
+       "t": "intenționalitate",
+       "d": "proprietatea conștiinței de a fi întotdeauna conștiință a ceva"
+      },
+      {
+       "t": "joc de limbaj",
+       "d": "practică lingvistică în interiorul căreia cuvintele capătă sens (Wittgenstein)"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce înseamnă intenționalitatea conștiinței?",
+       "v": "Că orice conștiință este conștiință a ceva."
+      },
+      {
+       "f": "Ce propune Husserl prin „întoarcerea la lucrurile însele”?",
+       "v": "Descrierea fenomenelor așa cum apar conștiinței, cu suspendarea presupozițiilor."
+      },
+      {
+       "f": "Ce sunt jocurile de limbaj la Wittgenstein?",
+       "v": "Practici lingvistice în interiorul cărora cuvintele capătă sens prin folosire."
+      },
+      {
+       "f": "Ce analizează Foucault?",
+       "v": "Relația dintre cunoaștere și putere și structurile care preced subiectul."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Conceptul central al fenomenologiei husserliene este:",
+       "optiuni": [
+        "intenționalitatea",
+        "angoasa",
+        "jocul de limbaj",
+        "structura"
+       ],
+       "corect": 0,
+       "explicatie": "Orice conștiință este conștiință a ceva."
+      },
+      {
+       "intrebare": "Wittgenstein cel târziu susține că sensul unui cuvânt este dat de:",
+       "optiuni": [
+        "folosirea lui într-o practică",
+        "definiția din dicționar",
+        "obiectul pe care îl denumește",
+        "intenția vorbitorului"
+       ],
+       "corect": 0,
+       "explicatie": "Este teza „jocurilor de limbaj”."
+      },
+      {
+       "intrebare": "Filosofia analitică susține că multe probleme filosofice:",
+       "optiuni": [
+        "sunt confuzii de limbaj care se dizolvă prin clarificare",
+        "nu pot fi discutate",
+        "se rezolvă empiric",
+        "sunt pseudoprobleme religioase"
+       ],
+       "corect": 0,
+       "explicatie": "De aici accentul pe logică și pe analiza limbajului."
+      },
+      {
+       "intrebare": "Structuralismul analizează, în primul rând:",
+       "optiuni": [
+        "structurile care preced și condiționează subiectul",
+        "trăirile individuale",
+        "experiența religioasă",
+        "judecata de gust"
+       ],
+       "corect": 0,
+       "explicatie": "Lévi-Strauss l-a aplicat în antropologie."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fil13-c3",
+   "titlu": "Eseul filosofic și bacalaureatul",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "fil13-07",
+     "titlu": "Structura probei și tipurile de cerințe",
+     "rezumat": "Proba de filosofie la bacalaureat cuprinde trei subiecte. Subiectul I verifică noțiuni și corelații: definiții, relații între concepte, identificarea unui punct de vedere. Subiectul al II-lea cere prezentarea unei concepții filosofice și formularea unui argument sau contraargument. Subiectul al III-lea cere un eseu structurat pe o temă dată, cu cerințe punctate separat. Verbele cerințelor au sensuri precise: „precizați” cere informația exactă; „menționați” cere numirea; „explicați” cere relația cauză–efect sau justificarea; „argumentați” cere teză plus temeiuri; „comparați” cere criterii comune; „ilustrați” cere un exemplu concret care se potrivește exact cu ideea susținută. Confuzia dintre a explica și a exemplifica este cea mai frecventă cauză de puncte pierdute.",
+     "ideiCheie": [
+      "Trei subiecte: noțiuni și corelații, concepție filosofică plus argument, eseu structurat.",
+      "„Explicați” cere justificare; „ilustrați” cere exemplu concret.",
+      "„Argumentați” cere teză plus temeiuri, nu simplă afirmație.",
+      "Confuzia explicație–exemplificare costă cele mai multe puncte."
+     ],
+     "termeni": [
+      {
+       "t": "argument",
+       "d": "teză susținută prin temeiuri care o fac acceptabilă rațional"
+      },
+      {
+       "t": "contraargument",
+       "d": "temei adus împotriva unei teze, atacând premisele sau legătura cu concluzia"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce cere verbul „argumentați”?",
+       "v": "Formularea unei teze și susținerea ei prin temeiuri."
+      },
+      {
+       "f": "Ce cere verbul „ilustrați”?",
+       "v": "Un exemplu concret care se potrivește exact cu ideea susținută."
+      },
+      {
+       "f": "Ce se cere la subiectul al III-lea?",
+       "v": "Un eseu structurat pe o temă dată, cu cerințe punctate separat."
+      },
+      {
+       "f": "Care e cea mai frecventă cauză de puncte pierdute?",
+       "v": "Confuzia dintre a explica și a exemplifica."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Verbul „explicați” cere:",
+       "optiuni": [
+        "justificarea sau relația cauză–efect",
+        "un exemplu",
+        "o definiție",
+        "o enumerare"
+       ],
+       "corect": 0,
+       "explicatie": "Exemplul se cere prin „ilustrați”."
+      },
+      {
+       "intrebare": "Un contraargument corect atacă:",
+       "optiuni": [
+        "premisele sau legătura dintre premise și concluzie",
+        "persoana care susține teza",
+        "consecințele practice ale tezei",
+        "tonul discuției"
+       ],
+       "corect": 0,
+       "explicatie": "Atacul la persoană este un sofism."
+      },
+      {
+       "intrebare": "Subiectul I al probei de filosofie verifică:",
+       "optiuni": [
+        "noțiuni și corelații între concepte",
+        "eseul structurat",
+        "argumentarea extinsă",
+        "analiza unui text la prima vedere"
+       ],
+       "corect": 0,
+       "explicatie": "Eseul se cere la subiectul al III-lea."
+      },
+      {
+       "intrebare": "Un exemplu care nu se potrivește exact cu ideea susținută:",
+       "optiuni": [
+        "nu primește punctaj, chiar dacă este corect în sine",
+        "primește punctaj parțial garantat",
+        "este echivalent cu o explicație",
+        "compensează lipsa argumentului"
+       ],
+       "corect": 0,
+       "explicatie": "Potrivirea cu ideea este criteriul."
+      }
+     ]
+    },
+    {
+     "id": "fil13-08",
+     "titlu": "Cum se scrie un eseu filosofic",
+     "rezumat": "Un eseu filosofic bun are o structură clară. Introducerea încadrează tema (domeniul filosofic, problema, mizele ei) și anunță teza proprie. Cuprinsul prezintă, pe rând: conceptele necesare, definite precis; una sau două concepții filosofice relevante, cu autorii lor; argumentele proprii, fiecare cu un temei și, unde e cazul, cu un exemplu; o obiecție serioasă și răspunsul la ea. Încheierea reia teza îmbogățită de parcurs. Regulile de calitate: fiecare concept folosit trebuie definit la prima apariție; fiecare afirmație generală cere un temei; obiecția aleasă trebuie să fie cea mai puternică, nu cea mai comodă; exemplele sunt scurte și exacte. Greșeli tipice: prezentarea unei liste de opinii filosofice fără poziție proprie; folosirea unor termeni tehnici fără definiție; substituirea argumentării cu retorica; concluzia care nu decurge din cuprins.",
+     "ideiCheie": [
+      "Introducerea încadrează tema și anunță teza proprie.",
+      "Cuprinsul: concepte definite, concepții filosofice, argumente proprii, obiecție și răspuns.",
+      "Obiecția aleasă trebuie să fie cea mai puternică, nu cea mai comodă.",
+      "Greșeli: listă de opinii fără poziție, termeni nedefiniți, retorică în locul argumentării."
+     ],
+     "termeni": [
+      {
+       "t": "teză",
+       "d": "afirmația pe care eseul urmărește să o susțină"
+      },
+      {
+       "t": "obiecție",
+       "d": "argument formulat împotriva propriei teze, la care eseul răspunde"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce trebuie să conțină introducerea unui eseu filosofic?",
+       "v": "Încadrarea temei și anunțarea tezei proprii."
+      },
+      {
+       "f": "De ce trebuie aleasă cea mai puternică obiecție?",
+       "v": "Pentru că respingerea unei obiecții slabe nu întărește teza."
+      },
+      {
+       "f": "Ce se face cu fiecare concept folosit?",
+       "v": "Se definește precis la prima apariție."
+      },
+      {
+       "f": "Care sunt greșelile tipice ale eseului filosofic?",
+       "v": "Lipsa poziției proprii, termenii nedefiniți, retorica în locul argumentării, concluzia nesusținută."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Un eseu filosofic care doar enumeră opinii ale filosofilor:",
+       "optiuni": [
+        "pierde punctele pentru poziția proprie și argumentare",
+        "este complet corect",
+        "primește punctaj maxim",
+        "este preferabil unuia argumentativ"
+       ],
+       "corect": 0,
+       "explicatie": "Filosofia cere argument, nu inventar de opinii."
+      },
+      {
+       "intrebare": "Obiecția prezentată în eseu trebuie să fie:",
+       "optiuni": [
+        "cea mai puternică împotriva propriei teze",
+        "cea mai ușor de respins",
+        "una inventată",
+        "irelevantă pentru temă"
+       ],
+       "corect": 0,
+       "explicatie": "Altfel răspunsul nu dovedește nimic."
+      },
+      {
+       "intrebare": "Un termen tehnic folosit fără definiție:",
+       "optiuni": [
+        "slăbește eseul și poate produce interpretări greșite",
+        "este acceptabil dacă e cunoscut",
+        "arată erudiție",
+        "nu influențează punctajul"
+       ],
+       "corect": 0,
+       "explicatie": "Definirea la prima apariție este o regulă de bază."
+      },
+      {
+       "intrebare": "Concluzia unui eseu filosofic trebuie:",
+       "optiuni": [
+        "să decurgă din argumentele prezentate",
+        "să introducă o idee nouă",
+        "să repete introducerea",
+        "să citeze un filosof"
+       ],
+       "corect": 0,
+       "explicatie": "Ea reia teza îmbogățită de parcurs."
+      }
+     ]
+    },
+    {
+     "id": "fil13-09",
+     "titlu": "Teme recurente și pregătirea pentru examen",
+     "rezumat": "Temele care revin cel mai des la examen: libertatea și responsabilitatea; dreptatea și egalitatea; binele și criteriile acțiunii morale; adevărul și cunoașterea; puterea, legitimitatea și statul; drepturile omului; sensul vieții și condiția umană; rolul filosofiei. Pentru fiecare, pregătirea eficientă presupune: două-trei concepte-cheie definite, două concepții filosofice opuse, un argument propriu și o obiecție anticipată. Strategia de pregătire: în loc să memorezi rezumate, construiește pentru fiecare temă o „fișă de argument” — teza, doi filosofi cu poziții diferite, două argumente, o obiecție, un exemplu. Aceeași fișă poate fi folosită la mai multe formulări ale subiectului. Exersează scrierea cu ceas: un eseu structurat cere între 45 și 60 de minute; scrierea sub presiune este o competență separată de cunoașterea materiei și se antrenează doar prin repetiție.",
+     "ideiCheie": [
+      "Teme recurente: libertate, dreptate, bine, adevăr, putere, drepturi, sens, rolul filosofiei.",
+      "Pentru fiecare temă: concepte-cheie, două concepții opuse, argument propriu, obiecție.",
+      "Fișa de argument e mai utilă decât rezumatul memorat.",
+      "Scrierea sub presiune se antrenează separat, prin exercițiu cronometrat."
+     ],
+     "termeni": [
+      {
+       "t": "fișă de argument",
+       "d": "instrument de pregătire care cuprinde teza, pozițiile opuse, argumentele, obiecția și exemplul"
+      },
+      {
+       "t": "temă recurentă",
+       "d": "temă care apare frecvent în subiectele de examen, sub formulări diferite"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt temele recurente la examenul de filosofie?",
+       "v": "Libertatea, dreptatea, binele, adevărul, puterea, drepturile omului, sensul vieții, rolul filosofiei."
+      },
+      {
+       "f": "Ce cuprinde o fișă de argument?",
+       "v": "Teza, două poziții filosofice opuse, două argumente, o obiecție și un exemplu."
+      },
+      {
+       "f": "De ce e mai utilă fișa de argument decât rezumatul?",
+       "v": "Pentru că poate fi folosită la mai multe formulări ale subiectului."
+      },
+      {
+       "f": "De ce trebuie exersată scrierea cronometrată?",
+       "v": "Pentru că scrierea sub presiune este o competență separată de cunoașterea materiei."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Pregătirea eficientă pentru eseul filosofic presupune:",
+       "optiuni": [
+        "construirea unor fișe de argument pe teme",
+        "memorarea unor eseuri întregi",
+        "învățarea biografiilor filosofilor",
+        "citirea integrală a operelor"
+       ],
+       "corect": 0,
+       "explicatie": "Fișele se adaptează la formulări diferite."
+      },
+      {
+       "intrebare": "Un eseu structurat cere, orientativ:",
+       "optiuni": [
+        "între 45 și 60 de minute",
+        "15 minute",
+        "două ore",
+        "cinci minute"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea se exersează cu ceasul."
+      },
+      {
+       "intrebare": "Pentru fiecare temă recurentă e util să pregătești:",
+       "optiuni": [
+        "două concepții filosofice opuse",
+        "un singur autor",
+        "toate curentele filosofice",
+        "exclusiv definiții"
+       ],
+       "corect": 0,
+       "explicatie": "Opoziția dintre poziții susține argumentarea."
+      },
+      {
+       "intrebare": "Memorarea unui eseu gata scris este riscantă pentru că:",
+       "optiuni": [
+        "nu răspunde cerinței exacte din subiect",
+        "durează prea mult",
+        "e interzisă",
+        "nu conține citate"
+       ],
+       "corect": 0,
+       "explicatie": "Cerințele variază de la o sesiune la alta."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "teze": [
+  {
+   "semestru": 1,
+   "test": [
+    {
+     "intrebare": "Teza „ființa este, neființa nu este” aparține lui:",
+     "optiuni": [
+      "Parmenide",
+      "Heraclit",
+      "Platon",
+      "Aristotel"
+     ],
+     "corect": 0,
+     "explicatie": "Din ea rezultă că schimbarea ar fi o iluzie."
+    },
+    {
+     "intrebare": "Devenirea este explicată de Aristotel prin:",
+     "optiuni": [
+      "trecerea de la potență la act",
+      "lumea Ideilor",
+      "monade",
+      "substanța unică"
+     ],
+     "corect": 0,
+     "explicatie": "Astfel el evită atât Parmenide, cât și Heraclit."
+    },
+    {
+     "intrebare": "Kant consideră metafizica clasică:",
+     "optiuni": [
+      "imposibilă ca știință, fiindcă depășește experiența posibilă",
+      "singura știință adevărată",
+      "identică cu logica",
+      "inutilă pentru morală"
+     ],
+     "corect": 0,
+     "explicatie": "De aici critica rațiunii pure."
+    },
+    {
+     "intrebare": "Criteriul falsificabilității aparține lui:",
+     "optiuni": [
+      "Karl Popper",
+      "Thomas Kuhn",
+      "Imre Lakatos",
+      "Rudolf Carnap"
+     ],
+     "corect": 0,
+     "explicatie": "O teorie trebuie să precizeze ce fapt ar infirma-o."
+    },
+    {
+     "intrebare": "O paradigmă, la Kuhn, este:",
+     "optiuni": [
+      "ansamblul de teorii, metode și exemple acceptate de o comunitate științifică",
+      "o teorie falsificată",
+      "o ipoteză auxiliară",
+      "o lege a naturii"
+     ],
+     "corect": 0,
+     "explicatie": "Revoluția științifică o înlocuiește cu alta."
+    },
+    {
+     "intrebare": "Argumentul ontologic aparține lui:",
+     "optiuni": [
+      "Anselm de Canterbury",
+      "Toma d'Aquino",
+      "Blaise Pascal",
+      "Immanuel Kant"
+     ],
+     "corect": 0,
+     "explicatie": "Kant i-a adus obiecția clasică."
+    },
+    {
+     "intrebare": "Obiecția lui Kant la argumentul ontologic este că:",
+     "optiuni": [
+      "existența nu este un predicat",
+      "Dumnezeu nu poate fi gândit",
+      "conceptul e contradictoriu",
+      "experiența îl infirmă"
+     ],
+     "corect": 0,
+     "explicatie": "Adăugarea existenței nu îmbogățește conceptul."
+    },
+    {
+     "intrebare": "Teodiceea încearcă să:",
+     "optiuni": [
+      "concilieze existența răului cu atributele divine",
+      "demonstreze inexistența divinității",
+      "întemeieze morala laică",
+      "explice miracolele"
+     ],
+     "corect": 0,
+     "explicatie": "Libertatea umană este invocată cel mai des."
+    },
+    {
+     "intrebare": "Catharsisul aristotelic înseamnă:",
+     "optiuni": [
+      "purificarea emoțiilor prin trăirea lor artistică",
+      "imitarea realității",
+      "judecata de gust",
+      "experiența sublimului"
+     ],
+     "corect": 0,
+     "explicatie": "Tragedia produce milă și teamă, apoi le purifică."
+    },
+    {
+     "intrebare": "Judecata de gust este, la Kant:",
+     "optiuni": [
+      "dezinteresată și universală fără concept",
+      "interesată și particulară",
+      "demonstrabilă logic",
+      "identică cu judecata morală"
+     ],
+     "corect": 0,
+     "explicatie": "Ea pretinde acordul celorlalți fără a-l putea demonstra."
+    },
+    {
+     "intrebare": "Sublimul se deosebește de frumos prin:",
+     "optiuni": [
+      "depășirea măsurii și amestecul plăcerii cu teama",
+      "armonia formei",
+      "utilitatea obiectului",
+      "claritatea conceptului"
+     ],
+     "corect": 0,
+     "explicatie": "Frumosul presupune proporție și delimitare."
+    },
+    {
+     "intrebare": "Distincția explicație–înțelegere separă:",
+     "optiuni": [
+      "științele naturii de științele culturii",
+      "logica de retorică",
+      "arta de morală",
+      "filosofia de religie"
+     ],
+     "corect": 0,
+     "explicatie": "Ea aparține tradiției lui Dilthey."
+    }
+   ]
+  },
+  {
+   "semestru": 2,
+   "test": [
+    {
+     "intrebare": "Cercul hermeneutic descrie:",
+     "optiuni": [
+      "înțelegerea întregului prin părți și a părților prin întreg",
+      "o eroare de raționament",
+      "o metodă de demonstrație",
+      "un procedeu retoric"
+     ],
+     "corect": 0,
+     "explicatie": "El este structura firească a oricărei înțelegeri."
+    },
+    {
+     "intrebare": "„Fuziunea orizonturilor” aparține lui:",
+     "optiuni": [
+      "Hans-Georg Gadamer",
+      "Edmund Husserl",
+      "Jean-Paul Sartre",
+      "Michel Foucault"
+     ],
+     "corect": 0,
+     "explicatie": "Ea descrie întâlnirea dintre orizontul textului și cel al cititorului."
+    },
+    {
+     "intrebare": "Intenționalitatea, în fenomenologie, înseamnă că:",
+     "optiuni": [
+      "orice conștiință este conștiință a ceva",
+      "omul are întotdeauna intenții",
+      "sensul e voit",
+      "conștiința e liberă"
+     ],
+     "corect": 0,
+     "explicatie": "Conceptul este central la Husserl."
+    },
+    {
+     "intrebare": "Jocurile de limbaj aparțin lui:",
+     "optiuni": [
+      "Ludwig Wittgenstein",
+      "Bertrand Russell",
+      "Gottlob Frege",
+      "Willard Quine"
+     ],
+     "corect": 0,
+     "explicatie": "Sensul unui cuvânt este folosirea lui într-o practică."
+    },
+    {
+     "intrebare": "Foucault analizează, în principal:",
+     "optiuni": [
+      "relația dintre cunoaștere și putere",
+      "structura judecății de gust",
+      "argumentele pentru existența lui Dumnezeu",
+      "logica propozițiilor"
+     ],
+     "corect": 0,
+     "explicatie": "El studiază instituțiile prin care se exercită puterea."
+    },
+    {
+     "intrebare": "Verbul „ilustrați” cere:",
+     "optiuni": [
+      "un exemplu concret potrivit exact cu ideea",
+      "o justificare",
+      "o definiție",
+      "o comparație"
+     ],
+     "corect": 0,
+     "explicatie": "Justificarea se cere prin „explicați”."
+    },
+    {
+     "intrebare": "Un contraargument atacă:",
+     "optiuni": [
+      "premisele sau legătura cu concluzia",
+      "persoana care susține teza",
+      "tonul discuției",
+      "consecințele practice"
+     ],
+     "corect": 0,
+     "explicatie": "Atacul la persoană este un sofism."
+    },
+    {
+     "intrebare": "Introducerea unui eseu filosofic trebuie să:",
+     "optiuni": [
+      "încadreze tema și să anunțe teza proprie",
+      "rezume opiniile filosofilor",
+      "prezinte biografia unui autor",
+      "formuleze concluzia"
+     ],
+     "corect": 0,
+     "explicatie": "Teza anunțată dă direcția eseului."
+    },
+    {
+     "intrebare": "Obiecția prezentată în eseu trebuie să fie:",
+     "optiuni": [
+      "cea mai puternică împotriva propriei teze",
+      "cea mai ușor de respins",
+      "irelevantă",
+      "inventată"
+     ],
+     "corect": 0,
+     "explicatie": "Altfel răspunsul nu dovedește nimic."
+    },
+    {
+     "intrebare": "Un eseu care doar enumeră opinii filosofice:",
+     "optiuni": [
+      "pierde punctele pentru poziție proprie și argumentare",
+      "primește punctaj maxim",
+      "este preferabil",
+      "este suficient"
+     ],
+     "corect": 0,
+     "explicatie": "Filosofia cere argument, nu inventar."
+    },
+    {
+     "intrebare": "Un eseu structurat cere, orientativ:",
+     "optiuni": [
+      "între 45 și 60 de minute",
+      "15 minute",
+      "20 de minute",
+      "două ore"
+     ],
+     "corect": 0,
+     "explicatie": "De aceea se exersează cronometrat."
+    },
+    {
+     "intrebare": "Fișa de argument este utilă pentru că:",
+     "optiuni": [
+      "poate fi folosită la mai multe formulări ale subiectului",
+      "înlocuiește manualul",
+      "conține citate exacte",
+      "scurtează eseul"
+     ],
+     "corect": 0,
+     "explicatie": "Ea cuprinde teza, pozițiile opuse, argumentele, obiecția și exemplul."
+    }
+   ]
+  }
+ ]
+}

@@ -12,18 +12,9 @@ cssclasses: fisa
 > **Se studiază în:** [[Clasa a IX-a]]
 > **La bacalaureat:** da 🎓
 
-Noțiuni, propoziții, raționamente, erori de argumentare.
+## Anii de studiu
 
-## Lecții (4)
-
-- [[Noțiunea - sferă și conținut]]
-- [[Propoziții categorice și pătratul logic]]
-- [[Silogismul]]
-- [[Erori de argumentare (sofisme)]]
-
-## Exersare
-- [[Carduri - Logică, argumentare și comunicare]] — 6 carduri
-- [[Test - Logică, argumentare și comunicare]] — 4 întrebări
+- [[Logică, argumentare și comunicare (clasa a IX-a)|Clasa a IX-a]] — 16 lecții, 64 carduri, 88 întrebări
 
 ## Legături
 - [[00 Start aici]]

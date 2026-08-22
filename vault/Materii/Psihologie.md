@@ -12,17 +12,9 @@ cssclasses: fisa
 > **Se studiază în:** [[Clasa a X-a]]
 > **La bacalaureat:** da 🎓
 
-Procese psihice, personalitate, conduită.
+## Anii de studiu
 
-## Lecții (3)
-
-- [[Procesele psihice cognitive]]
-- [[Personalitatea]]
-- [[Motivația și afectivitatea]]
-
-## Exersare
-- [[Carduri - Psihologie]] — 5 carduri
-- [[Test - Psihologie]] — 3 întrebări
+- [[Psihologie (clasa a X-a)|Clasa a X-a]] — 16 lecții, 64 carduri, 88 întrebări
 
 ## Legături
 - [[00 Start aici]]

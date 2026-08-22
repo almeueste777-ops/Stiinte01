@@ -69,7 +69,9 @@ python3 -m http.server 8765
 | `icons/` | icoanele aplicației (PNG generate din `icon-source.svg`) |
 | `icons/icon-source.svg` | sursa vectorială a iconițelor |
 | `data/curriculum.json` | planul de învățământ: clase și discipline |
-| `data/continut.json` | lecțiile, cardurile și întrebările de test |
+| `data/continut.json` | **index generat**: titluri, capitole, cifre (nu conținutul propriu-zis) |
+| `data/module/<id>.json` | conținutul: un modul = o materie într-un an |
+| `data/sursa/*.txt` | conținutul scris de om, în DSL text |
 | `_headers` | anteturi HTTP pentru Cloudflare Pages |
 | `docs/PLAN.md` | planul complet de realizare și pașii de publicare |
 | `jurnal.md` | jurnalul de lucru: ce s-a făcut, de ce, cu ce rezultat |
@@ -80,27 +82,59 @@ python3 -m http.server 8765
 | `tools/graphify.py` | generează jumătatea de *conținut* a vault-ului din `data/` |
 | `tools/verifica_vault.py` | verifică legăturile din vault (rulează în CI) |
 | `tools/verifica-css.mjs` | verifică structura foii de stil (acolade, imbricări nedorite) |
+| `tools/text-in-modul.mjs` | convertește DSL-ul din `data/sursa/` în module JSON |
+| `tools/construieste-index.mjs` | scrie `data/continut.json` și lista de precache din `sw.js` |
+| `tools/verifica-continut.mjs` | validează modulele față de planul-cadru (rulează în CI) |
+| `tools/test-sw.mjs` | testează ciclul de update cu service worker activ |
 | `tools/genereaza-iconite.mjs` | regenerează iconițele PWA din sursa SVG |
 | `.github/workflows/verificare.yml` | verificare automată: JSON valid, sintaxă JS, structură CSS, fișiere PWA, precache complet |
 | `.github/workflows/graphify.yml` | regenerează vault-ul când se schimbă datele și îl comite înapoi |
 
 ## Cum adaugi conținut
 
-Editezi `data/continut.json`. Nu e nevoie să atingi codul.
+Conținutul se scrie într-un **fișier text**, nu în JSON. Creezi sau editezi
+`data/sursa/<materie>-<clasa>.txt`:
 
-```jsonc
-{
-  "id": "filosofie",              // identificator unic, fără spații
-  "materie": "Filosofie",
-  "clasa": "a XII-a",
-  "descriere": "…",
-  "lectii":     [{ "id": "filo-06", "titlu": "…", "rezumat": "…", "ideiCheie": ["…"] }],
-  "flashcards": [{ "f": "întrebarea", "v": "răspunsul" }],
-  "quiz":       [{ "intrebare": "…", "optiuni": ["a","b","c","d"], "corect": 1, "explicatie": "…" }]
-}
+```
+materie: Filosofie
+clasa: a XII-a
+an: 4
+arie: Om și societate
+bac: da
+descriere: …
+
+## 1 | filo12-c1 | Titlul capitolului      ← «1» = semestrul
+### filo12-01 | Titlul lecției
+Primul paragraf al rezumatului.
+Al doilea paragraf.
+* o idee-cheie
+= termen :: definiție
+@ fața cardului :: versoul cardului
+? Întrebarea de test:
++ răspunsul corect
+- un răspuns greșit
+- alt răspuns greșit
+! Explicația răspunsului.
+
+%% teza 1                                   ← teza semestrului 1
+? Întrebare de teză:
++ corect
+- greșit
+! Explicație.
 ```
 
-`corect` este **indexul** răspunsului corect, numărat de la 0 (deci `1` = a doua variantă).
+Apoi rulezi lanțul:
+
+```bash
+node tools/text-in-modul.mjs data/sursa/filosofie-12.txt   # DSL → data/module/*.json
+node tools/construieste-index.mjs                          # index + lista de precache
+node tools/verifica-continut.mjs                           # validare
+```
+
+Validatorul refuză o materie care nu există în planul-cadru la clasa dată, id-uri
+duplicate, întrebări sub 8 caractere, opțiuni identice, explicații lipsă, rezumate
+sub 120 de caractere, sub trei carduri sau trei întrebări la o lecție, ori o teză
+lipsă la un semestru.
 
 După orice modificare a fișierelor, **crește versiunea din `sw.js`** (de exemplu `stiinte01-v3` → `stiinte01-v4`),
 altfel utilizatorii care au deja aplicația instalată vor primi în continuare versiunea veche din cache.
@@ -113,7 +147,7 @@ Un singur vault [Obsidian](https://obsidian.md), cu **două jumătăți** care n
 
 | Jumătate | Foldere | Cine o scrie |
 |---|---|---|
-| **Conținutul de studiu** — parcurs → clase → arii → materii → lecții, plus carduri și teste | `Curriculum/`, `Materii/`, `Lecții/`, `Carduri/`, `Teste/` | generată din `data/*.json` de `tools/graphify.py` |
+| **Conținutul de studiu** — parcurs → clase → arii → materii → module → capitole → lecții, plus carduri și teste | `Curriculum/`, `Materii/`, `Module/`, `Lecții/`, `Carduri/`, `Teste/` | generată din `data/curriculum.json` și `data/module/*.json` de `tools/graphify.py` |
 | **Documentația proiectului** — sistemul de design, arhitectura, jurnalul de lucru, rapoartele de verificare | `00-Index/`, `10-Jurnal/`, `20-Design/`, `30-Aplicatie/`, `40-Verificare/` | scrisă de mână |
 
 Puncte de intrare: **„00 Start aici”** pentru conținut, **„Științe Sociale — MOC”** pentru

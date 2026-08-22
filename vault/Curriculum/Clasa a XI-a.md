@@ -14,21 +14,21 @@ Anul **3** din cei 5 ai parcursului [[Parcurs școlar]].
 ## Materii (12)
 
 ### [[Arie - Limbă și comunicare|Limbă și comunicare]]
-- [[Limba și literatura română]] — 🎓 bac, 📘 2 lecții în aplicație
-- [[Limba modernă 1 (Engleză)]] — 🎓 bac
-- [[Limba modernă 2 (Franceză)]]
+- [[Limba și literatura română (clasa a XI-a)|Limba și literatura română]] — 🎓 bac, 📘 9 lecții în aplicație
+- [[Limba modernă 1 (Engleză) (clasa a XI-a)|Limba modernă 1 (Engleză)]] — 🎓 bac, 📘 9 lecții în aplicație
+- [[Limba modernă 2 (Franceză) (clasa a XI-a)|Limba modernă 2 (Franceză)]] — 📘 9 lecții în aplicație
 
 ### [[Arie - Matematică și științe ale naturii|Matematică și științe ale naturii]]
-- [[Matematică aplicată în științele sociale]]
-- [[ȘTIAM (științe integrate)]]
+- [[Matematică aplicată în științele sociale (clasa a XI-a)|Matematică aplicată în științele sociale]] — 📘 9 lecții în aplicație
+- [[ȘTIAM (științe integrate) (clasa a XI-a)|ȘTIAM (științe integrate)]] — 📘 9 lecții în aplicație
 
 ### [[Arie - Om și societate|Om și societate]]
-- [[Istorie]] — 🎓 bac, 📘 3 lecții în aplicație
-- [[Istoria evreilor. Holocaustul]]
-- [[Geografie]] — 🎓 bac, 📘 2 lecții în aplicație
-- [[Sociologie]] — 🎓 bac, 📘 3 lecții în aplicație
-- [[Studii sociale]]
-- [[Religie]]
+- [[Istorie (clasa a XI-a)|Istorie]] — 🎓 bac, 📘 11 lecții în aplicație
+- [[Istoria evreilor. Holocaustul (clasa a XI-a)|Istoria evreilor. Holocaustul]] — 📘 9 lecții în aplicație
+- [[Geografie (clasa a XI-a)|Geografie]] — 🎓 bac, 📘 9 lecții în aplicație
+- [[Sociologie (clasa a XI-a)|Sociologie]] — 🎓 bac, 📘 14 lecții în aplicație
+- [[Studii sociale (clasa a XI-a)|Studii sociale]] — 📘 9 lecții în aplicație
+- [[Religie (clasa a XI-a)|Religie]] — 📘 9 lecții în aplicație
 
 ### [[Arie - Tehnologii|Tehnologii]]
-- [[Tehnologia informației și a comunicațiilor (TIC)]] — 🎓 bac
+- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC)]] — 🎓 bac, 📘 9 lecții în aplicație

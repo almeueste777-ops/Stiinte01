@@ -1,0 +1,1729 @@
+{
+ "id": "logica-9",
+ "materie": "Logică, argumentare și comunicare",
+ "clasa": "a IX-a",
+ "an": 1,
+ "arie": "Om și societate",
+ "bac": true,
+ "socioUman": true,
+ "descriere": "Instrumentele gândirii corecte: argumentarea, termenii, propozițiile, raționamentele și erorile de argumentare.",
+ "capitole": [
+  {
+   "id": "log9-c1",
+   "titlu": "Societate, comunicare și argumentare",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "log9-01",
+     "titlu": "Ce este logica",
+     "rezumat": "Logica este disciplina filosofică ce studiază formele și legile gândirii corecte. Nu se ocupă de ce anume gândim, ci de cum trebuie să legăm gândurile ca trecerea de la unele la altele să fie legitimă. Din acest motiv se spune că logica studiază forma raționamentului, nu conținutul lui. Distincția centrală este între adevăr și corectitudine. Adevărul este o proprietate a propozițiilor: o propoziție e adevărată dacă spune despre ceea ce este că este. Corectitudinea (validitatea) este o proprietate a raționamentelor: un raționament e corect dacă forma lui garantează că, atunci când premisele sunt adevărate, concluzia nu poate fi falsă. Un raționament poate fi corect și totuși să aibă concluzie falsă, dacă a pornit de la premise false. Logica a fost întemeiată ca disciplină de Aristotel, în colecția de tratate numită mai târziu Organon, adică „instrument”. Numele spune tot: logica nu este o știință despre lume, ci unealta cu care se construiesc și se verifică toate celelalte.",
+     "ideiCheie": [
+      "Logica studiază forma gândirii, nu conținutul ei.",
+      "Adevărul privește propozițiile; corectitudinea privește raționamentele.",
+      "Un raționament corect cu premise false poate avea concluzie falsă.",
+      "Aristotel este întemeietorul logicii ca disciplină (Organon).",
+      "Logica este un instrument (organon) al tuturor științelor."
+     ],
+     "termeni": [
+      {
+       "t": "formă logică",
+       "d": "structura unui raționament, obținută prin înlocuirea conținutului concret cu simboluri"
+      },
+      {
+       "t": "validitate",
+       "d": "proprietatea unui raționament ca adevărul premiselor să garanteze adevărul concluziei"
+      },
+      {
+       "t": "Organon",
+       "d": "colecția tratatelor de logică ale lui Aristotel; în greacă, „instrument”"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce studiază logica?",
+       "v": "Formele și legile gândirii corecte — forma raționamentului, nu conținutul lui."
+      },
+      {
+       "f": "Adevărul este proprietatea…",
+       "v": "…propozițiilor. Raționamentele sunt corecte sau incorecte, nu adevărate sau false."
+      },
+      {
+       "f": "Cine a întemeiat logica?",
+       "v": "Aristotel, prin tratatele reunite în „Organon”."
+      },
+      {
+       "f": "Poate un raționament corect să aibă concluzie falsă?",
+       "v": "Da, dacă cel puțin o premisă este falsă."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Ce anume studiază logica, în sens propriu?",
+       "optiuni": [
+        "Conținutul concret al gândurilor noastre",
+        "Forma și legile gândirii corecte",
+        "Psihologia proceselor de gândire",
+        "Regulile gramaticale ale limbii"
+       ],
+       "corect": 1,
+       "explicatie": "Logica face abstracție de conținut și se ocupă de structura raționamentului."
+      },
+      {
+       "intrebare": "Care afirmație este corectă?",
+       "optiuni": [
+        "Raționamentele sunt adevărate sau false",
+        "Propozițiile sunt adevărate sau false, raționamentele sunt corecte sau incorecte",
+        "Ambele perechi sunt interschimbabile",
+        "Numai concluziile pot fi adevărate"
+       ],
+       "corect": 1,
+       "explicatie": "Adevărul este proprietate a propozițiilor, validitatea este proprietate a inferenței."
+      },
+      {
+       "intrebare": "„Organon” înseamnă în greacă:",
+       "optiuni": [
+        "lege",
+        "instrument",
+        "cuvânt",
+        "ordine"
+       ],
+       "corect": 1,
+       "explicatie": "De aici ideea că logica e unealta cu care lucrează celelalte științe."
+      },
+      {
+       "intrebare": "Un raționament valid cu o premisă falsă:",
+       "optiuni": [
+        "poate avea concluzie falsă",
+        "are întotdeauna concluzie adevărată",
+        "devine automat nevalid",
+        "nu mai este raționament"
+       ],
+       "corect": 0,
+       "explicatie": "Validitatea garantează adevărul concluziei doar dacă toate premisele sunt adevărate."
+      }
+     ]
+    },
+    {
+     "id": "log9-02",
+     "titlu": "Argumentare și demonstrație",
+     "rezumat": "A argumenta înseamnă a susține o teză prin motive, astfel încât interlocutorul să o accepte pe temeiuri raționale, nu prin constrângere sau seducție. Orice argumentare are trei componente: teza (ceea ce se susține), temeiurile (propozițiile aduse în sprijin) și legătura dintre ele (inferența). Demonstrația este forma tare a argumentării: pornește de la propoziții deja stabilite ca adevărate (axiome, definiții, teoreme demonstrate) și ajunge la concluzie prin pași strict deductivi. Rezultatul ei are necesitate. Argumentarea în sens larg acceptă și temeiuri probabile, exemple, analogii, mărturii — de aceea concluzia ei este doar plauzibilă, nu necesară. Argumentarea se deosebește de persuasiunea nerațională: reclama, manipularea, apelul la frică sau la autoritatea neîntemeiată produc acceptare fără temeiuri. Deosebirea nu e de efect, ci de mijloc: argumentarea îl tratează pe celălalt ca pe o ființă rațională, capabilă să evalueze motivele.",
+     "ideiCheie": [
+      "Argumentarea are trei componente: teză, temeiuri, legătura dintre ele.",
+      "Demonstrația e argumentare deductivă din propoziții deja adevărate; concluzia e necesară.",
+      "Argumentarea în sens larg admite temeiuri probabile; concluzia e plauzibilă.",
+      "Persuasiunea nerațională obține acceptare fără temeiuri."
+     ],
+     "termeni": [
+      {
+       "t": "teză",
+       "d": "propoziția pe care argumentarea vrea să o facă acceptată"
+      },
+      {
+       "t": "temei",
+       "d": "propoziția adusă în sprijinul tezei"
+      },
+      {
+       "t": "demonstrație",
+       "d": "argumentare deductivă pornind de la propoziții adevărate deja stabilite"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cele trei componente ale unei argumentări",
+       "v": "Teza, temeiurile și legătura (inferența) dintre ele."
+      },
+      {
+       "f": "Prin ce se deosebește demonstrația de argumentarea în sens larg?",
+       "v": "Demonstrația pornește de la adevăruri stabilite și dă concluzie necesară; argumentarea largă admite temeiuri probabile."
+      },
+      {
+       "f": "De ce manipularea nu e argumentare?",
+       "v": "Pentru că obține acceptarea fără a oferi temeiuri pe care celălalt să le poată evalua rațional."
+      },
+      {
+       "f": "Ce garantează necesitatea concluziei într-o demonstrație?",
+       "v": "Premisele adevărate plus forma strict deductivă."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Componentele unei argumentări sunt:",
+       "optiuni": [
+        "teza, temeiurile și legătura dintre ele",
+        "premisa, concluzia și exemplul",
+        "afirmația, negația și îndoiala",
+        "cauza, efectul și scopul"
+       ],
+       "corect": 0,
+       "explicatie": "Fără oricare dintre cele trei nu există argumentare."
+      },
+      {
+       "intrebare": "Demonstrația se deosebește de argumentarea în sens larg prin faptul că:",
+       "optiuni": [
+        "folosește mai multe exemple",
+        "pornește de la adevăruri deja stabilite și dă o concluzie necesară",
+        "este mai scurtă",
+        "se adresează emoțiilor"
+       ],
+       "corect": 1,
+       "explicatie": "Necesitatea concluziei e semnul distinctiv al demonstrației."
+      },
+      {
+       "intrebare": "Apelul la frică pentru a face pe cineva să accepte o teză este:",
+       "optiuni": [
+        "o demonstrație slabă",
+        "persuasiune nerațională, nu argumentare",
+        "o inducție",
+        "o definiție"
+       ],
+       "corect": 1,
+       "explicatie": "Nu oferă temeiuri evaluabile rațional, ci exercită presiune afectivă."
+      },
+      {
+       "intrebare": "Concluzia unei argumentări bazate pe analogie este:",
+       "optiuni": [
+        "necesară",
+        "plauzibilă",
+        "imposibilă",
+        "tautologică"
+       ],
+       "corect": 1,
+       "explicatie": "Analogia dă doar probabilitate, oricât de bine ar fi construită."
+      }
+     ]
+    },
+    {
+     "id": "log9-03",
+     "titlu": "Forme ale argumentării",
+     "rezumat": "După direcția inferenței, argumentarea este deductivă (de la general la particular, cu concluzie necesară) sau nedeductivă (inductivă, prin analogie, prin exemplu — cu concluzie probabilă). După rolul în dialog, ea este pro (susține teza) sau contra (respinge teza adversarului): contraargumentarea atacă fie temeiurile, fie legătura dintre temeiuri și teză. După formă, argumentarea poate fi explicită (toate propozițiile sunt formulate) sau implicită. Cazul cel mai frecvent de argumentare implicită este entimema: un raționament din care o premisă sau concluzia rămâne nespusă, pentru că e considerată evidentă. „Socrate e om, deci e muritor” este o entimemă: premisa „toți oamenii sunt muritori” lipsește. Entimemele sunt utile în comunicare, dar periculoase în analiză: premisa ascunsă e adesea tocmai cea discutabilă. Argumentarea directă susține teza prin temeiuri care o sprijină nemijlocit. Argumentarea indirectă (reducerea la absurd) presupune adevărată contradictoria tezei și arată că din ea urmează o contradicție — deci teza inițială e adevărată.",
+     "ideiCheie": [
+      "Argumentare deductivă = concluzie necesară; nedeductivă = concluzie probabilă.",
+      "Contraargumentarea atacă temeiurile sau legătura dintre ele și teză.",
+      "Entimema este un raționament cu o premisă sau concluzia subînțeleasă.",
+      "Argumentarea indirectă (reducere la absurd) respinge contradictoria tezei."
+     ],
+     "termeni": [
+      {
+       "t": "entimemă",
+       "d": "raționament în care o premisă sau concluzia rămâne nespusă"
+      },
+      {
+       "t": "reducere la absurd",
+       "d": "procedeu prin care se arată că negarea tezei duce la contradicție"
+      },
+      {
+       "t": "contraargumentare",
+       "d": "argumentare care respinge teza adversarului, atacându-i temeiurile sau inferența"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este o entimemă?",
+       "v": "Un raționament din care lipsește, ca subînțeleasă, o premisă sau concluzia."
+      },
+      {
+       "f": "De ce sunt periculoase entimemele?",
+       "v": "Pentru că premisa nespusă este adesea tocmai cea discutabilă."
+      },
+      {
+       "f": "Cum funcționează reducerea la absurd?",
+       "v": "Se presupune adevărată contradictoria tezei și se arată că duce la contradicție."
+      },
+      {
+       "f": "Ce atacă o contraargumentare corectă?",
+       "v": "Temeiurile adversarului sau legătura dintre temeiuri și teză."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Ionel e elev, deci are carnet de note.” Această argumentare este:",
+       "optiuni": [
+        "o entimemă, cu premisa „toți elevii au carnet de note” subînțeleasă",
+        "o demonstrație completă",
+        "o inducție prin enumerare",
+        "o definiție operațională"
+       ],
+       "corect": 0,
+       "explicatie": "Lipsește premisa generală, considerată de la sine înțeleasă."
+      },
+      {
+       "intrebare": "Reducerea la absurd este o formă de argumentare:",
+       "optiuni": [
+        "inductivă",
+        "indirectă",
+        "prin analogie",
+        "prin exemplu"
+       ],
+       "corect": 1,
+       "explicatie": "Se susține teza arătând că negarea ei duce la contradicție."
+      },
+      {
+       "intrebare": "O contraargumentare corectă atacă:",
+       "optiuni": [
+        "persoana care susține teza",
+        "temeiurile sau legătura dintre temeiuri și teză",
+        "tonul discuției",
+        "consecințele practice ale acceptării tezei"
+       ],
+       "corect": 1,
+       "explicatie": "Atacul la persoană este un sofism, nu o contraargumentare."
+      },
+      {
+       "intrebare": "Argumentarea nedeductivă are concluzie:",
+       "optiuni": [
+        "necesară",
+        "probabilă",
+        "întotdeauna falsă",
+        "lipsită de sens"
+       ],
+       "corect": 1,
+       "explicatie": "Doar deducția transmite necesitatea de la premise la concluzie."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "log9-c2",
+   "titlu": "Termenii",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "log9-04",
+     "titlu": "Termenul: sferă și conținut",
+     "rezumat": "Termenul este expresia lingvistică a unei noțiuni: cuvântul sau grupul de cuvinte prin care gândim o clasă de obiecte împreună cu însușirile lor comune. Orice termen are două laturi. Conținutul (intensiunea) este mulțimea notelor, adică a însușirilor esențiale pe baza cărora un obiect intră sub termen. Sfera (extensiunea) este mulțimea obiectelor care au acele note. Între sferă și conținut există un raport de inversă proporționalitate: cu cât adaugi note, cu atât restrângi sfera. „Om” are conținut sărac și sferă largă; „om european vorbitor de română” are conținut bogat și sferă îngustă. Regula funcționează numai pe același șir de subordonare, nu între termeni oarecare. După sferă, termenii sunt vizi (sferă goală: „cerc pătrat”), individuali (un singur obiect: „Mihai Eminescu”) sau generali. După conținut, sunt concreți sau abstracți, absoluți sau relativi, pozitivi sau negativi, colectivi sau distributivi.",
+     "ideiCheie": [
+      "Conținutul (intensiunea) = notele; sfera (extensiunea) = obiectele.",
+      "Sfera și conținutul variază invers proporțional, pe același șir de subordonare.",
+      "După sferă: termeni vizi, individuali, generali.",
+      "După conținut: concreți/abstracți, absoluți/relativi, pozitivi/negativi, colectivi/distributivi."
+     ],
+     "termeni": [
+      {
+       "t": "sferă",
+       "d": "mulțimea obiectelor la care se aplică un termen"
+      },
+      {
+       "t": "conținut",
+       "d": "mulțimea notelor esențiale pe care le gândim prin termen"
+      },
+      {
+       "t": "termen vid",
+       "d": "termen a cărui sferă nu conține niciun obiect"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este sfera unui termen?",
+       "v": "Mulțimea obiectelor la care termenul se aplică."
+      },
+      {
+       "f": "Ce este conținutul unui termen?",
+       "v": "Mulțimea notelor esențiale gândite prin termen."
+      },
+      {
+       "f": "Cum variază sfera față de conținut?",
+       "v": "Invers proporțional: mai multe note, sferă mai mică."
+      },
+      {
+       "f": "Dă un exemplu de termen vid.",
+       "v": "„Cerc pătrat”, „număr par impar” — sferă goală."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Sfera unui termen este:",
+       "optiuni": [
+        "mulțimea însușirilor lui",
+        "mulțimea obiectelor la care se aplică",
+        "definiția lui",
+        "sinonimul lui"
+       ],
+       "corect": 1,
+       "explicatie": "Sfera este extensiunea, adică obiectele; conținutul este intensiunea, adică notele."
+      },
+      {
+       "intrebare": "Dacă adăugăm note conținutului unui termen, sfera lui:",
+       "optiuni": [
+        "crește",
+        "se restrânge",
+        "rămâne aceeași",
+        "devine vidă"
+       ],
+       "corect": 1,
+       "explicatie": "Legea inversei proporționalități între sferă și conținut."
+      },
+      {
+       "intrebare": "„Cerc pătrat” este un termen:",
+       "optiuni": [
+        "vid",
+        "individual",
+        "colectiv",
+        "relativ"
+       ],
+       "corect": 0,
+       "explicatie": "Nu există niciun obiect care să satisfacă simultan ambele note."
+      },
+      {
+       "intrebare": "„Pădure” raportat la copacii care o compun este un termen:",
+       "optiuni": [
+        "distributiv",
+        "colectiv",
+        "vid",
+        "negativ"
+       ],
+       "corect": 1,
+       "explicatie": "Notele se aplică ansamblului ca întreg, nu fiecărui element luat separat."
+      }
+     ]
+    },
+    {
+     "id": "log9-05",
+     "titlu": "Raporturi între termeni",
+     "rezumat": "Doi termeni se pot afla în raport de concordanță (sferele au cel puțin un element comun) sau de opoziție (sferele nu au niciun element comun). Concordanța are trei forme: identitate (sferele coincid: „triunghi echilateral” și „triunghi cu trei unghiuri egale”), ordonare sau subordonare (sfera unuia e cuprinsă în a celuilalt: „trandafir” și „floare”) și încrucișare (sferele au o parte comună și părți proprii: „student” și „sportiv”). Opoziția are două forme. Contrarietatea: sferele se exclud, dar nu epuizează universul de discurs — „alb” și „negru” lasă loc altor culori; doi termeni contrari pot fi ambii inaplicabili unui obiect. Contradicția: sferele se exclud și epuizează universul — „par” și „impar” pentru numerele naturale; un obiect intră obligatoriu sub unul dintre ei. Raporturile se reprezintă prin diagrame Euler: cercuri care se suprapun, se includ, se intersectează sau se despart. Diagrama nu e o ilustrație decorativă, ci un instrument de decizie: multe erori de argumentare se văd imediat ce raportul e desenat.",
+     "ideiCheie": [
+      "Concordanță: identitate, ordonare (subordonare), încrucișare.",
+      "Opoziție: contrarietate (se exclud, nu epuizează) și contradicție (se exclud și epuizează).",
+      "Doi termeni contrari pot fi ambii falși; doi contradictorii, niciodată.",
+      "Diagramele Euler reprezintă raporturile prin cercuri."
+     ],
+     "termeni": [
+      {
+       "t": "încrucișare",
+       "d": "raport în care sferele au elemente comune, dar și elemente proprii"
+      },
+      {
+       "t": "contrarietate",
+       "d": "opoziție în care sferele se exclud fără a epuiza universul de discurs"
+      },
+      {
+       "t": "contradicție",
+       "d": "opoziție în care sferele se exclud și epuizează universul de discurs"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce raport este între „trandafir” și „floare”?",
+       "v": "Ordonare (subordonare): sfera lui „trandafir” e cuprinsă în sfera lui „floare”."
+      },
+      {
+       "f": "Ce raport este între „student” și „sportiv”?",
+       "v": "Încrucișare: există studenți sportivi, studenți nesportivi și sportivi nestudenți."
+      },
+      {
+       "f": "Diferența dintre contrarietate și contradicție",
+       "v": "Contrarii se exclud, dar lasă loc unei a treia posibilități; contradictorii se exclud și epuizează universul."
+      },
+      {
+       "f": "Cum se reprezintă grafic raporturile dintre termeni?",
+       "v": "Prin diagrame Euler — cercuri incluse, intersectate sau separate."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Alb” și „negru” se află în raport de:",
+       "optiuni": [
+        "contrarietate",
+        "contradicție",
+        "încrucișare",
+        "identitate"
+       ],
+       "corect": 0,
+       "explicatie": "Se exclud, dar există și alte culori — nu epuizează universul de discurs."
+      },
+      {
+       "intrebare": "„Par” și „impar”, pentru numerele naturale, sunt termeni:",
+       "optiuni": [
+        "contrari",
+        "contradictorii",
+        "subordonați",
+        "identici"
+       ],
+       "corect": 1,
+       "explicatie": "Se exclud reciproc și epuizează universul de discurs."
+      },
+      {
+       "intrebare": "Raportul dintre „elev” și „bucureștean” este:",
+       "optiuni": [
+        "de identitate",
+        "de încrucișare",
+        "de contradicție",
+        "de ordonare"
+       ],
+       "corect": 1,
+       "explicatie": "Există elevi bucureșteni, elevi din alte orașe și bucureșteni care nu sunt elevi."
+      },
+      {
+       "intrebare": "Doi termeni contrari pot fi:",
+       "optiuni": [
+        "ambii inaplicabili aceluiași obiect",
+        "ambii aplicabili aceluiași obiect",
+        "întotdeauna identici",
+        "întotdeauna subordonați"
+       ],
+       "corect": 0,
+       "explicatie": "Un obiect poate să nu fie nici alb, nici negru — de aceea contrarietatea nu epuizează universul."
+      }
+     ]
+    },
+    {
+     "id": "log9-06",
+     "titlu": "Definirea",
+     "rezumat": "A defini înseamnă a preciza conținutul unui termen. Definiția are trei elemente: definitul (termenul de lămurit), definitorul (expresia lămuritoare) și relația de definire dintre ele. Definiția clasică, aristotelică, se face prin gen proxim și diferență specifică: se indică genul cel mai apropiat, apoi nota care deosebește specia de celelalte specii ale genului. „Omul este animal (gen proxim) rațional (diferență specifică).” Regulile corectitudinii: (1) definiția trebuie să fie adecvată — sfera definitorului să coincidă cu sfera definitului, nici mai largă, nici mai îngustă; (2) să nu fie circulară — definitul să nu apară în definitor, nici direct, nici prin sinonim; (3) să nu fie exclusiv negativă, când o formulare pozitivă e posibilă; (4) să fie clară și precisă — fără metafore, fără termeni mai obscuri decât definitul. După scop, definițiile sunt lexicale (înregistrează folosirea curentă), stipulative (introduc o convenție nouă), operaționale (indică procedura prin care se recunoaște obiectul) și persuasive (încarcă termenul afectiv, spre a influența — folosite adesea abuziv în discursul public).",
+     "ideiCheie": [
+      "Definiția clasică: gen proxim + diferență specifică.",
+      "Regula adecvării: sfera definitorului = sfera definitului.",
+      "Definiția nu trebuie să fie circulară, nici exclusiv negativă, nici metaforică.",
+      "Tipuri: lexicală, stipulativă, operațională, persuasivă."
+     ],
+     "termeni": [
+      {
+       "t": "gen proxim",
+       "d": "clasa imediat superioară din care face parte specia definită"
+      },
+      {
+       "t": "diferență specifică",
+       "d": "nota care deosebește specia de celelalte specii ale aceluiași gen"
+      },
+      {
+       "t": "definiție circulară",
+       "d": "definiție în care definitul apare, direct sau prin sinonim, în definitor"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Structura definiției clasice",
+       "v": "Gen proxim + diferență specifică."
+      },
+      {
+       "f": "Ce greșeală face „Logica este știința logicii”?",
+       "v": "Este circulară: definitul apare în definitor."
+      },
+      {
+       "f": "Ce cere regula adecvării?",
+       "v": "Ca sfera definitorului să coincidă exact cu sfera definitului."
+      },
+      {
+       "f": "Ce este o definiție operațională?",
+       "v": "Una care indică procedura prin care se recunoaște sau se măsoară obiectul."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Omul este animal rațional” este o definiție prin:",
+       "optiuni": [
+        "gen proxim și diferență specifică",
+        "sinonimie",
+        "enumerare",
+        "negație"
+       ],
+       "corect": 0,
+       "explicatie": "„Animal” e genul proxim, „rațional” e diferența specifică."
+      },
+      {
+       "intrebare": "„Libertatea este absența constrângerii” încalcă, în forma ei strictă, regula:",
+       "optiuni": [
+        "adecvării",
+        "formulării pozitive, fiind exclusiv negativă",
+        "clarității",
+        "non-circularității"
+       ],
+       "corect": 1,
+       "explicatie": "O definiție trebuie formulată pozitiv atunci când acest lucru este posibil."
+      },
+      {
+       "intrebare": "„Cauza este ceea ce produce un efect, iar efectul este ceea ce e produs de o cauză” este:",
+       "optiuni": [
+        "circulară",
+        "prea largă",
+        "prea îngustă",
+        "metaforică"
+       ],
+       "corect": 0,
+       "explicatie": "Fiecare termen e definit prin celălalt; cercul nu lămurește nimic."
+      },
+      {
+       "intrebare": "Definiția care introduce o convenție nouă de folosire a unui cuvânt se numește:",
+       "optiuni": [
+        "lexicală",
+        "stipulativă",
+        "operațională",
+        "persuasivă"
+       ],
+       "corect": 1,
+       "explicatie": "Stipulativa nu descrie un uz existent, ci îl instituie."
+      }
+     ]
+    },
+    {
+     "id": "log9-07",
+     "titlu": "Clasificarea",
+     "rezumat": "Clasificarea este operația prin care sfera unui termen se împarte în subclase, după un criteriu, astfel încât fiecare obiect să-și găsească un loc și numai unul. Elementele ei sunt: elementele de clasificat, clasele obținute și criteriul (fundamentul divizării). Regulile clasificării corecte: (1) să fie completă — reuniunea claselor să acopere întreaga sferă a termenului împărțit; (2) clasele să se excludă reciproc — niciun obiect în două clase; (3) criteriul să fie unic la fiecare treaptă — altfel apar suprapuneri; (4) trecerea să se facă la clase imediat inferioare, fără salturi de nivel. Clasificarea greșită se recunoaște ușor: dacă un obiect intră în două clase, criteriul a fost amestecat; dacă rămâne pe dinafară, clasificarea e incompletă. „Elevii se împart în băieți, fete și olimpici” încalcă atât unicitatea criteriului, cât și excluderea reciprocă.",
+     "ideiCheie": [
+      "Clasificarea împarte sfera unui termen după un criteriu unic.",
+      "Trebuie să fie completă și cu clase care se exclud reciproc.",
+      "Criteriul se păstrează unic la fiecare treaptă a împărțirii.",
+      "Nu se sar trepte: se trece la clasele imediat inferioare."
+     ],
+     "termeni": [
+      {
+       "t": "criteriu de clasificare",
+       "d": "nota după care se face împărțirea sferei"
+      },
+      {
+       "t": "clasificare completă",
+       "d": "clasificare în care reuniunea claselor acoperă întreaga sferă a termenului"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt regulile clasificării?",
+       "v": "Completitudine, excludere reciprocă, criteriu unic, fără salturi de nivel."
+      },
+      {
+       "f": "Ce greșeală face „elevii se împart în băieți, fete și olimpici”?",
+       "v": "Amestecă două criterii, deci clasele nu se mai exclud."
+      },
+      {
+       "f": "Când este o clasificare incompletă?",
+       "v": "Când există obiecte din sfera termenului care nu intră în nicio clasă."
+      },
+      {
+       "f": "Ce este fundamentul clasificării?",
+       "v": "Criteriul, adică nota după care se împarte sfera."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Regula care cere ca niciun obiect să nu intre în două clase se numește:",
+       "optiuni": [
+        "completitudine",
+        "excludere reciprocă",
+        "unicitatea criteriului",
+        "continuitate"
+       ],
+       "corect": 1,
+       "explicatie": "Clasele unei clasificări corecte sunt disjuncte două câte două."
+      },
+      {
+       "intrebare": "„Cărțile se împart în cărți de istorie, cărți groase și cărți în limba română” încalcă:",
+       "optiuni": [
+        "unicitatea criteriului",
+        "doar completitudinea",
+        "doar continuitatea",
+        "nicio regulă"
+       ],
+       "corect": 0,
+       "explicatie": "Sunt folosite trei criterii diferite în aceeași împărțire."
+      },
+      {
+       "intrebare": "O clasificare este completă atunci când:",
+       "optiuni": [
+        "reuniunea claselor acoperă întreaga sferă a termenului împărțit",
+        "are cel puțin trei clase",
+        "clasele sunt egale ca mărime",
+        "criteriul este cantitativ"
+       ],
+       "corect": 0,
+       "explicatie": "Nimic din sfera termenului nu trebuie să rămână neclasificat."
+      },
+      {
+       "intrebare": "Trecerea directă de la „ființă” la „român”, sărind peste „om”, încalcă regula:",
+       "optiuni": [
+        "excluderii reciproce",
+        "continuității (fără salturi de nivel)",
+        "completitudinii",
+        "clarității"
+       ],
+       "corect": 1,
+       "explicatie": "Clasificarea trebuie să coboare la clasele imediat inferioare."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "log9-c3",
+   "titlu": "Propozițiile",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "log9-08",
+     "titlu": "Propoziția categorică",
+     "rezumat": "Propoziția categorică afirmă sau neagă un predicat despre un subiect, fără condiții. Structura ei este: cuantor + subiect + copulă + predicat — „Toți (cuantor) oamenii (subiect) sunt (copulă) muritori (predicat)”. După cantitate, propozițiile sunt universale (privesc întreaga sferă a subiectului) sau particulare (privesc o parte a ei). După calitate, sunt afirmative sau negative. Combinând cele două criterii rezultă patru tipuri, notate cu vocalele din latinescul affirmo și nego: A = universal afirmativă („Toți S sunt P”), E = universal negativă („Niciun S nu este P”), I = particular afirmativă („Unii S sunt P”), O = particular negativă („Unii S nu sunt P”). Un termen este distribuit într-o propoziție dacă propoziția spune ceva despre întreaga lui sferă. În A este distribuit doar subiectul; în E, ambii termeni; în I, niciunul; în O, doar predicatul. Regula distribuirii pare tehnică, dar este cheia tuturor regulilor silogismului.",
+     "ideiCheie": [
+      "Structura: cuantor + subiect + copulă + predicat.",
+      "Cele patru tipuri: A (SaP), E (SeP), I (SiP), O (SoP).",
+      "A distribuie subiectul; E distribuie ambii termeni; I niciunul; O doar predicatul.",
+      "Cantitatea = universal/particular; calitatea = afirmativ/negativ."
+     ],
+     "termeni": [
+      {
+       "t": "cuantor",
+       "d": "cuvântul care arată cantitatea propoziției („toți”, „niciun”, „unii”)"
+      },
+      {
+       "t": "copulă",
+       "d": "verbul „a fi” care leagă subiectul de predicat"
+      },
+      {
+       "t": "termen distribuit",
+       "d": "termen despre a cărui sferă întreagă spune ceva propoziția"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce înseamnă propoziția de tip E?",
+       "v": "Universal negativă: „Niciun S nu este P”."
+      },
+      {
+       "f": "Ce termeni distribuie propoziția A?",
+       "v": "Numai subiectul."
+      },
+      {
+       "f": "Ce termeni distribuie propoziția E?",
+       "v": "Ambii — și subiectul, și predicatul."
+      },
+      {
+       "f": "De unde vin literele A, E, I, O?",
+       "v": "Din vocalele cuvintelor latine „affirmo” și „nego”."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Unii elevi nu sunt premianți” este o propoziție de tip:",
+       "optiuni": [
+        "A",
+        "E",
+        "I",
+        "O"
+       ],
+       "corect": 3,
+       "explicatie": "Particulară (unii) și negativă (nu sunt) — deci O."
+      },
+      {
+       "intrebare": "În propoziția „Toți oamenii sunt muritori” este distribuit:",
+       "optiuni": [
+        "numai subiectul",
+        "numai predicatul",
+        "ambii termeni",
+        "niciun termen"
+       ],
+       "corect": 0,
+       "explicatie": "A spune ceva despre toți oamenii, dar nu despre toate ființele muritoare."
+      },
+      {
+       "intrebare": "Propoziția care nu distribuie niciun termen este:",
+       "optiuni": [
+        "A",
+        "E",
+        "I",
+        "O"
+       ],
+       "corect": 2,
+       "explicatie": "„Unii S sunt P” nu epuizează nici sfera lui S, nici pe a lui P."
+      },
+      {
+       "intrebare": "Cantitatea unei propoziții categorice se referă la:",
+       "optiuni": [
+        "dacă privește întreaga sferă a subiectului sau doar o parte",
+        "dacă este adevărată sau falsă",
+        "dacă este afirmativă sau negativă",
+        "numărul de cuvinte"
+       ],
+       "corect": 0,
+       "explicatie": "Universal = toată sfera subiectului; particular = o parte din ea."
+      }
+     ]
+    },
+    {
+     "id": "log9-09",
+     "titlu": "Raporturi între propoziții: pătratul logic",
+     "rezumat": "Cele patru tipuri de propoziții cu același subiect și același predicat se așază în pătratul logic, care fixează patru raporturi. Contradicția (A–O și E–I): nu pot fi nici ambele adevărate, nici ambele false; dacă una e adevărată, cealaltă e obligatoriu falsă. Contrarietatea (A–E): nu pot fi ambele adevărate, dar pot fi ambele false. Subcontrarietatea (I–O): nu pot fi ambele false, dar pot fi ambele adevărate. Subalternarea (A–I și E–O): adevărul universalei impune adevărul particularei, iar falsitatea particularei impune falsitatea universalei; invers nu funcționează. Pătratul logic este un instrument de inferență imediată: dintr-o singură propoziție dată ca adevărată sau falsă se pot deduce valorile celorlalte trei. Dacă „Toți S sunt P” e adevărată, atunci „Unii S nu sunt P” e falsă (contradicție), „Niciun S nu e P” e falsă (contrarietate) și „Unii S sunt P” e adevărată (subalternare).",
+     "ideiCheie": [
+      "Contradicție (A–O, E–I): valori întotdeauna opuse.",
+      "Contrarietate (A–E): nu ambele adevărate, pot fi ambele false.",
+      "Subcontrarietate (I–O): nu ambele false, pot fi ambele adevărate.",
+      "Subalternare (A–I, E–O): adevărul coboară, falsitatea urcă."
+     ],
+     "termeni": [
+      {
+       "t": "pătrat logic",
+       "d": "schema raporturilor dintre propozițiile A, E, I, O cu același subiect și predicat"
+      },
+      {
+       "t": "inferență imediată",
+       "d": "raționament cu o singură premisă"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce raport este între A și O?",
+       "v": "Contradicție: valori de adevăr întotdeauna opuse."
+      },
+      {
+       "f": "Pot fi A și E ambele false?",
+       "v": "Da — contrarietatea exclude doar adevărul simultan."
+      },
+      {
+       "f": "Dacă I este falsă, ce se întâmplă cu A?",
+       "v": "A este falsă: falsitatea particularei urcă la universală."
+      },
+      {
+       "f": "Ce raport este între I și O?",
+       "v": "Subcontrarietate: nu pot fi ambele false."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Dacă „Toți S sunt P” este adevărată, atunci „Unii S nu sunt P” este:",
+       "optiuni": [
+        "adevărată",
+        "falsă",
+        "nedeterminată",
+        "fără sens"
+       ],
+       "corect": 1,
+       "explicatie": "A și O sunt contradictorii: valorile lor sunt întotdeauna opuse."
+      },
+      {
+       "intrebare": "Două propoziții contrare pot fi:",
+       "optiuni": [
+        "ambele false",
+        "ambele adevărate",
+        "întotdeauna una adevărată și una falsă",
+        "identice ca sens"
+       ],
+       "corect": 0,
+       "explicatie": "Contrarietatea exclude adevărul simultan, nu și falsitatea simultană."
+      },
+      {
+       "intrebare": "Dacă „Unii S sunt P” este falsă, atunci „Toți S sunt P” este:",
+       "optiuni": [
+        "falsă",
+        "adevărată",
+        "nedeterminată",
+        "contrară"
+       ],
+       "corect": 0,
+       "explicatie": "Prin subalternare, falsitatea particularei atrage falsitatea universalei."
+      },
+      {
+       "intrebare": "Raportul de subcontrarietate există între:",
+       "optiuni": [
+        "A și E",
+        "I și O",
+        "A și I",
+        "E și O"
+       ],
+       "corect": 1,
+       "explicatie": "Subcontrarele nu pot fi ambele false, dar pot fi ambele adevărate."
+      }
+     ]
+    },
+    {
+     "id": "log9-10",
+     "titlu": "Conversiunea, obversiunea și contrapoziția",
+     "rezumat": "Inferențele imediate transformă o propoziție în alta, păstrând adevărul. Conversiunea schimbă locurile subiectului și predicatului. E și I se convertesc simplu: „Niciun S nu e P” dă „Niciun P nu e S”; „Unii S sunt P” dă „Unii P sunt S”. A se convertește prin accident (cu slăbirea cantității): „Toți S sunt P” dă „Unii P sunt S”. O nu se convertește deloc — din „Unii S nu sunt P” nu urmează nimic despre P. Obversiunea păstrează subiectul, schimbă calitatea propoziției și neagă predicatul: „Toți S sunt P” devine „Niciun S nu este non-P”. Se aplică tuturor celor patru tipuri, fără restricții. Contrapoziția se obține combinând obversiunea cu conversiunea: din „Toți S sunt P” rezultă „Toți non-P sunt non-S”. Regula practică de verificare: nicio inferență imediată nu are voie să distribuie într-o concluzie un termen care nu era distribuit în premisă.",
+     "ideiCheie": [
+      "Conversiune: E și I simplu, A prin accident, O deloc.",
+      "Obversiune: schimbă calitatea și neagă predicatul; se aplică la toate tipurile.",
+      "Contrapoziție = obversiune + conversiune.",
+      "Un termen nedistribuit în premisă nu poate fi distribuit în concluzie."
+     ],
+     "termeni": [
+      {
+       "t": "conversiune",
+       "d": "inferență imediată prin schimbarea locurilor subiectului și predicatului"
+      },
+      {
+       "t": "obversiune",
+       "d": "inferență imediată prin schimbarea calității și negarea predicatului"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se convertește „Toți S sunt P”?",
+       "v": "Prin accident: „Unii P sunt S”."
+      },
+      {
+       "f": "Care propoziție nu se convertește?",
+       "v": "O — „Unii S nu sunt P”."
+      },
+      {
+       "f": "Ce face obversiunea?",
+       "v": "Schimbă calitatea propoziției și neagă predicatul, păstrând subiectul."
+      },
+      {
+       "f": "Care este regula de control a inferențelor imediate?",
+       "v": "Un termen nedistribuit în premisă nu poate deveni distribuit în concluzie."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Conversa propoziției „Niciun om nu este perfect” este:",
+       "optiuni": [
+        "„Niciun perfect nu este om”",
+        "„Unii oameni nu sunt perfecți”",
+        "„Toți oamenii sunt imperfecți”",
+        "„Unii perfecți sunt oameni”"
+       ],
+       "corect": 0,
+       "explicatie": "E se convertește simplu, păstrându-și cantitatea."
+      },
+      {
+       "intrebare": "Care tip de propoziție nu se convertește?",
+       "optiuni": [
+        "A",
+        "E",
+        "I",
+        "O"
+       ],
+       "corect": 3,
+       "explicatie": "Din „Unii S nu sunt P” nu se poate deduce nimic valid despre sfera lui P."
+      },
+      {
+       "intrebare": "Obversa propoziției „Toți S sunt P” este:",
+       "optiuni": [
+        "„Niciun S nu este non-P”",
+        "„Toți P sunt S”",
+        "„Unii S nu sunt P”",
+        "„Niciun P nu este S”"
+       ],
+       "corect": 0,
+       "explicatie": "Se schimbă calitatea și se neagă predicatul."
+      },
+      {
+       "intrebare": "Conversiunea propoziției A se numește „prin accident” fiindcă:",
+       "optiuni": [
+        "scade cantitatea, de la universal la particular",
+        "schimbă calitatea",
+        "neagă predicatul",
+        "inversează valoarea de adevăr"
+       ],
+       "corect": 0,
+       "explicatie": "Predicatul nu era distribuit în A, deci nu poate fi distribuit ca subiect în concluzie."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "log9-c4",
+   "titlu": "Raționamentele",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "log9-11",
+     "titlu": "Deducție și inducție",
+     "rezumat": "Raționamentul deductiv trece de la premise la o concluzie care nu spune mai mult decât conțineau ele: dacă premisele sunt adevărate și forma e validă, concluzia este necesar adevărată. Deducția nu produce cunoaștere nouă despre lume, ci scoate la lumină ce era deja implicat. Raționamentul inductiv trece de la cazuri particulare la o propoziție generală. Concluzia lui spune mai mult decât premisele, deci nu poate fi necesară: rămâne probabilă. Inducția completă (enumerarea tuturor cazurilor) este certă, dar rar posibilă; inducția incompletă, singura folosită practic, sprijină generalizarea pe un număr limitat de observații. Analogia transferă o notă de la un obiect la altul, pe temeiul asemănărilor deja constatate. Tăria ei crește cu numărul și relevanța asemănărilor și scade dacă apar deosebiri relevante. Ca și inducția, dă doar probabilitate — dar este instrumentul obișnuit al descoperirii științifice și al deciziei în viața de zi cu zi.",
+     "ideiCheie": [
+      "Deducția transmite necesitatea; concluzia nu depășește premisele.",
+      "Inducția generalizează de la particular la general; concluzia e probabilă.",
+      "Inducția completă e certă, dar rar aplicabilă.",
+      "Analogia transferă o notă pe baza asemănărilor relevante."
+     ],
+     "termeni": [
+      {
+       "t": "inducție incompletă",
+       "d": "generalizare pornind de la un număr limitat de cazuri observate"
+      },
+      {
+       "t": "analogie",
+       "d": "raționament care transferă o notă de la un obiect la altul, pe temeiul asemănărilor"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "De ce concluzia inductivă e doar probabilă?",
+       "v": "Pentru că spune mai mult decât premisele: generalizează dincolo de cazurile observate."
+      },
+      {
+       "f": "Ce transmite deducția de la premise la concluzie?",
+       "v": "Necesitatea — dacă premisele sunt adevărate și forma validă."
+      },
+      {
+       "f": "Când e mai tare o analogie?",
+       "v": "Când asemănările sunt numeroase și relevante pentru nota transferată."
+      },
+      {
+       "f": "Ce este inducția completă?",
+       "v": "Generalizarea obținută prin enumerarea tuturor cazurilor din clasă."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Concluzia unui raționament deductiv valid cu premise adevărate este:",
+       "optiuni": [
+        "necesar adevărată",
+        "probabil adevărată",
+        "indecidabilă",
+        "falsă"
+       ],
+       "corect": 0,
+       "explicatie": "Validitatea plus adevărul premiselor garantează adevărul concluziei."
+      },
+      {
+       "intrebare": "„Am văzut zece lebede albe, deci toate lebedele sunt albe” este:",
+       "optiuni": [
+        "o deducție",
+        "o inducție incompletă",
+        "o analogie",
+        "o definiție"
+       ],
+       "corect": 1,
+       "explicatie": "Se generalizează de la cazuri observate la întreaga clasă."
+      },
+      {
+       "intrebare": "Tăria unei analogii scade dacă:",
+       "optiuni": [
+        "crește numărul asemănărilor",
+        "apar deosebiri relevante pentru nota transferată",
+        "obiectele aparțin aceleiași clase",
+        "concluzia este verificată experimental"
+       ],
+       "corect": 1,
+       "explicatie": "Deosebirile relevante slăbesc temeiul transferului."
+      },
+      {
+       "intrebare": "Deducția nu produce cunoaștere nouă despre lume pentru că:",
+       "optiuni": [
+        "concluzia nu spune mai mult decât premisele",
+        "premisele sunt mereu false",
+        "forma ei este întâmplătoare",
+        "nu folosește propoziții universale"
+       ],
+       "corect": 0,
+       "explicatie": "Ea explicitează ceea ce era deja conținut implicit în premise."
+      }
+     ]
+    },
+    {
+     "id": "log9-12",
+     "titlu": "Silogismul: structură, figuri, moduri",
+     "rezumat": "Silogismul categoric este raționamentul deductiv format din exact trei propoziții categorice și trei termeni. Termenul mediu (M) apare în ambele premise și nu apare în concluzie; el este puntea. Termenul minor (S) este subiectul concluziei și apare în premisa minoră; termenul major (P) este predicatul concluziei și apare în premisa majoră. Poziția termenului mediu în premise dă figura silogismului: figura I (M–P, S–M), figura a II-a (P–M, S–M), figura a III-a (M–P, M–S), figura a IV-a (P–M, M–S). Combinarea tipurilor A, E, I, O pentru cele trei propoziții dă modul silogistic, notat cu trei litere: AAA, EAE, AII și așa mai departe. Din cele 256 de combinații posibile, doar 24 sunt valide. Exemplul clasic, modul AAA în figura I (numit Barbara): „Toți oamenii sunt muritori. Toți grecii sunt oameni. Deci toți grecii sunt muritori.” Aici M = oameni, P = muritori, S = greci.",
+     "ideiCheie": [
+      "Silogismul are trei propoziții și exact trei termeni.",
+      "Termenul mediu leagă premisele și lipsește din concluzie.",
+      "Figura e dată de poziția termenului mediu; modul, de tipurile A, E, I, O.",
+      "Din 256 de moduri posibile, numai 24 sunt valide."
+     ],
+     "termeni": [
+      {
+       "t": "termen mediu",
+       "d": "termenul prezent în ambele premise și absent din concluzie"
+      },
+      {
+       "t": "figură silogistică",
+       "d": "schema dată de poziția termenului mediu în cele două premise"
+      },
+      {
+       "t": "mod silogistic",
+       "d": "combinația tipurilor propozițiilor (de exemplu AAA, EIO)"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Câți termeni are un silogism corect?",
+       "v": "Exact trei: major, minor și mediu."
+      },
+      {
+       "f": "Unde apare termenul mediu?",
+       "v": "În ambele premise, niciodată în concluzie."
+      },
+      {
+       "f": "Ce determină figura silogismului?",
+       "v": "Poziția termenului mediu în cele două premise."
+      },
+      {
+       "f": "Ce este modul „Barbara”?",
+       "v": "AAA în figura I: toate cele trei propoziții sunt universal afirmative."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Termenul mediu al unui silogism:",
+       "optiuni": [
+        "apare în ambele premise și lipsește din concluzie",
+        "apare doar în concluzie",
+        "este subiectul concluziei",
+        "este predicatul concluziei"
+       ],
+       "corect": 0,
+       "explicatie": "El face legătura dintre minor și major, apoi „iese din scenă”."
+      },
+      {
+       "intrebare": "Termenul major al silogismului este:",
+       "optiuni": [
+        "subiectul concluziei",
+        "predicatul concluziei",
+        "termenul din ambele premise",
+        "cuantorul concluziei"
+       ],
+       "corect": 1,
+       "explicatie": "Majorul e predicatul concluziei și apare în premisa majoră."
+      },
+      {
+       "intrebare": "Figura I are schema:",
+       "optiuni": [
+        "M–P, S–M",
+        "P–M, S–M",
+        "M–P, M–S",
+        "P–M, M–S"
+       ],
+       "corect": 0,
+       "explicatie": "În figura I mediul e subiect în majoră și predicat în minoră."
+      },
+      {
+       "intrebare": "„Toți oamenii sunt muritori. Toți grecii sunt oameni. Deci toți grecii sunt muritori.” Modul este:",
+       "optiuni": [
+        "AAA, figura I",
+        "EAE, figura a II-a",
+        "AII, figura a III-a",
+        "AEE, figura a IV-a"
+       ],
+       "corect": 0,
+       "explicatie": "Toate cele trei propoziții sunt universal afirmative, iar mediul „oameni” e subiect în majoră."
+      }
+     ]
+    },
+    {
+     "id": "log9-13",
+     "titlu": "Regulile silogismului",
+     "rezumat": "Validitatea unui silogism se verifică prin opt reguli, împărțite în reguli ale termenilor și reguli ale propozițiilor. Regulile termenilor: (1) exact trei termeni — altfel apare sofismul termenului ambiguu; (2) termenul mediu trebuie distribuit cel puțin o dată; (3) un termen nedistribuit în premisă nu poate fi distribuit în concluzie. Regulile propozițiilor: (4) din două premise negative nu urmează nimic; (5) dacă o premisă e negativă, concluzia e negativă, și invers; (6) din două premise particulare nu urmează nimic; (7) dacă o premisă e particulară, concluzia e particulară; (8) din două premise afirmative nu se poate obține o concluzie negativă. Verificarea practică se face în trei pași: se identifică S, P, M; se notează distribuirile după tipul fiecărei propoziții; se trec regulile una câte una. Metoda diagramelor Venn oferă un control independent: se hașurează zonele goale impuse de premisele universale, se marchează cu x existența impusă de cele particulare și se citește dacă concluzia e deja desenată.",
+     "ideiCheie": [
+      "Mediul trebuie distribuit cel puțin o dată.",
+      "Un termen nedistribuit în premisă nu poate fi distribuit în concluzie.",
+      "Din două premise negative sau din două particulare nu urmează nimic.",
+      "Concluzia urmează partea mai slabă: negativul și particularul."
+     ],
+     "termeni": [
+      {
+       "t": "sofism al termenului ambiguu",
+       "d": "eroare în care un cuvânt e folosit cu două înțelesuri diferite, deci silogismul are patru termeni"
+      },
+      {
+       "t": "diagramă Venn",
+       "d": "metodă grafică de verificare a validității prin hașurare și marcare cu x"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce se întâmplă dacă mediul nu e distribuit niciodată?",
+       "v": "Silogismul e nevalid: premisele pot vorbi despre părți diferite ale clasei mediului."
+      },
+      {
+       "f": "Ce concluzie urmează din două premise negative?",
+       "v": "Niciuna — regula a patra interzice inferența."
+      },
+      {
+       "f": "Dacă o premisă e particulară, cum e concluzia?",
+       "v": "Particulară."
+      },
+      {
+       "f": "Câți termeni are un silogism afectat de eroarea termenului ambiguu?",
+       "v": "Patru, deși aparent trei."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Dacă termenul mediu nu este distribuit în nicio premisă, silogismul este:",
+       "optiuni": [
+        "nevalid",
+        "valid, dar cu concluzie particulară",
+        "valid doar în figura I",
+        "valid doar dacă premisele sunt adevărate"
+       ],
+       "corect": 0,
+       "explicatie": "Fără distribuirea mediului, premisele pot privi părți diferite ale clasei lui."
+      },
+      {
+       "intrebare": "Din două premise particulare urmează:",
+       "optiuni": [
+        "o concluzie particulară",
+        "o concluzie universală",
+        "nicio concluzie",
+        "o concluzie negativă"
+       ],
+       "corect": 2,
+       "explicatie": "Regula a șasea: două particulare nu susțin nicio inferență validă."
+      },
+      {
+       "intrebare": "Dacă o premisă este negativă, concluzia:",
+       "optiuni": [
+        "este negativă",
+        "este afirmativă",
+        "poate fi oricare",
+        "lipsește"
+       ],
+       "corect": 0,
+       "explicatie": "Calitatea negativă se transmite obligatoriu la concluzie."
+      },
+      {
+       "intrebare": "Un silogism în care cuvântul „lumină” înseamnă în prima premisă radiație, iar în a doua ușurință, comite:",
+       "optiuni": [
+        "eroarea termenului ambiguu (patru termeni)",
+        "eroarea mediului nedistribuit",
+        "eroarea premiselor negative",
+        "nicio eroare"
+       ],
+       "corect": 0,
+       "explicatie": "Ambiguitatea rupe puntea dintre premise: nu mai există un termen mediu unic."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "log9-c5",
+   "titlu": "Erori de argumentare",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "log9-14",
+     "titlu": "Sofisme formale și informale",
+     "rezumat": "Sofismul este un raționament greșit care se prezintă drept corect. Când greșeala stă în forma raționamentului, avem un sofism formal: mediu nedistribuit, termen ilicit, afirmarea consecventului („Dacă plouă, strada e udă; strada e udă, deci plouă”), negarea antecedentului. Când forma e în regulă, dar temeiurile sunt nepotrivite, avem un sofism informal. Paralogismul este eroarea făcută din neatenție sau necunoaștere, fără intenție de a înșela; sofismul propriu-zis este folosit deliberat. Distincția privește intenția, nu structura: aceeași greșeală poate fi paralogism la un elev și sofism la un politician. Recunoașterea erorilor cere două întrebări simple, puse în ordine: temeiurile aduse sunt adevărate? și, dacă da, susțin ele chiar teza afirmată? Majoritatea sofismelor cad la a doua întrebare: temeiurile sunt adevărate, dar irelevante.",
+     "ideiCheie": [
+      "Sofism formal = greșeală de formă; sofism informal = temeiuri nepotrivite.",
+      "Paralogismul e neintenționat; sofismul e deliberat.",
+      "Afirmarea consecventului și negarea antecedentului sunt erori formale frecvente.",
+      "Testul practic: temeiurile sunt adevărate? susțin ele chiar teza?"
+     ],
+     "termeni": [
+      {
+       "t": "sofism",
+       "d": "raționament incorect prezentat intenționat drept corect"
+      },
+      {
+       "t": "paralogism",
+       "d": "eroare de raționament făcută fără intenția de a induce în eroare"
+      },
+      {
+       "t": "afirmarea consecventului",
+       "d": "eroare formală: din „dacă p atunci q” și „q” se conchide „p”"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Diferența dintre sofism și paralogism",
+       "v": "Sofismul e intenționat, paralogismul e făcut din neatenție sau necunoaștere."
+      },
+      {
+       "f": "Ce este afirmarea consecventului?",
+       "v": "Din „dacă p atunci q” și „q” se conchide greșit „p”."
+      },
+      {
+       "f": "Unde stă greșeala într-un sofism informal?",
+       "v": "În temeiuri: sunt irelevante, insuficiente sau presupun tocmai ce trebuie dovedit."
+      },
+      {
+       "f": "Care sunt cele două întrebări de control?",
+       "v": "Temeiurile sunt adevărate? Susțin ele chiar teza afirmată?"
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Dacă plouă, strada e udă. Strada e udă. Deci plouă.” Aceasta este:",
+       "optiuni": [
+        "afirmarea consecventului, eroare formală",
+        "negarea antecedentului",
+        "un silogism valid",
+        "o inducție incompletă"
+       ],
+       "corect": 0,
+       "explicatie": "Strada poate fi udă din alt motiv: consecventul nu implică antecedentul."
+      },
+      {
+       "intrebare": "Deosebirea dintre sofism și paralogism privește:",
+       "optiuni": [
+        "forma raționamentului",
+        "intenția celui care raționează",
+        "numărul de premise",
+        "tipul propozițiilor"
+       ],
+       "corect": 1,
+       "explicatie": "Structura greșelii poate fi identică; intenția o deosebește."
+      },
+      {
+       "intrebare": "Un sofism informal are, de regulă:",
+       "optiuni": [
+        "formă corectă, dar temeiuri nepotrivite",
+        "formă greșită și temeiuri adevărate",
+        "premise contradictorii",
+        "concluzie tautologică"
+       ],
+       "corect": 0,
+       "explicatie": "Eroarea nu se vede în schemă, ci în relația de susținere dintre temei și teză."
+      },
+      {
+       "intrebare": "„Dacă plouă, strada e udă. Nu plouă. Deci strada nu e udă.” Este:",
+       "optiuni": [
+        "negarea antecedentului",
+        "afirmarea consecventului",
+        "modus ponens",
+        "modus tollens"
+       ],
+       "corect": 0,
+       "explicatie": "Antecedentul fals nu garantează consecventul fals."
+      }
+     ]
+    },
+    {
+     "id": "log9-15",
+     "titlu": "Sofisme informale frecvente",
+     "rezumat": "Argumentul ad hominem înlocuiește discutarea tezei cu atacarea persoanei care o susține: „N-are dreptate, e doar un elev.” Chiar dacă descrierea persoanei ar fi corectă, ea nu are legătură cu adevărul tezei. Argumentul ad populum invocă acordul mulțimii: „Toată lumea știe că…”. Argumentul ad verecundiam invocă o autoritate care nu are competență în domeniul discutat. Petitio principii (cererea principiului) presupune în premise tocmai ceea ce trebuia dovedit: „Manualul are dreptate pentru că scrie în manual.” Falsa dilemă reduce artificial opțiunile la două: „Ori ești cu noi, ori ești împotriva noastră.” Generalizarea pripită trage o concluzie universală dintr-un caz sau două. Panta alunecoasă susține că un prim pas duce inevitabil la un lanț de consecințe catastrofale, fără să arate legătura. Omul de paie deformează teza adversarului într-o versiune mai slabă, ușor de respins, și o atacă pe aceea. Apărarea împotriva tuturor acestor erori e aceeași: reformulează teza adversarului în forma ei cea mai tare și abia apoi răspunde-i.",
+     "ideiCheie": [
+      "Ad hominem atacă persoana, nu teza.",
+      "Ad populum invocă numărul; ad verecundiam, o autoritate necompetentă.",
+      "Petitio principii presupune ceea ce trebuia demonstrat.",
+      "Falsa dilemă reduce artificial opțiunile la două.",
+      "Omul de paie atacă o versiune slăbită a tezei adversarului."
+     ],
+     "termeni": [
+      {
+       "t": "ad hominem",
+       "d": "sofism prin care se atacă persoana în locul tezei susținute de ea"
+      },
+      {
+       "t": "petitio principii",
+       "d": "sofism în care concluzia e presupusă printre premise"
+      },
+      {
+       "t": "falsă dilemă",
+       "d": "sofism care prezintă doar două opțiuni, deși există mai multe"
+      },
+      {
+       "t": "om de paie",
+       "d": "sofism prin care se deformează teza adversarului spre a fi mai ușor respinsă"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este argumentul ad hominem?",
+       "v": "Atacarea persoanei care susține teza, în locul discutării tezei."
+      },
+      {
+       "f": "Ce este petitio principii?",
+       "v": "Presupunerea, printre premise, chiar a concluziei de demonstrat."
+      },
+      {
+       "f": "Ce este falsa dilemă?",
+       "v": "Reducerea artificială a opțiunilor la două, deși există și altele."
+      },
+      {
+       "f": "Cum se apără cineva de „omul de paie”?",
+       "v": "Reformulând teza adversarului în versiunea ei cea mai tare înainte de a răspunde."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Nu-l asculta, oricum a rămas corigent anul trecut.” Acesta este un:",
+       "optiuni": [
+        "argument ad hominem",
+        "argument ad populum",
+        "petitio principii",
+        "om de paie"
+       ],
+       "corect": 0,
+       "explicatie": "Se atacă persoana, nu temeiurile aduse de ea."
+      },
+      {
+       "intrebare": "„Ori accepți propunerea, ori ești împotriva școlii.” Eroarea este:",
+       "optiuni": [
+        "generalizare pripită",
+        "falsă dilemă",
+        "ad verecundiam",
+        "panta alunecoasă"
+       ],
+       "corect": 1,
+       "explicatie": "Există și alte poziții posibile decât cele două prezentate."
+      },
+      {
+       "intrebare": "„E adevărat, fiindcă toată lumea crede asta” este un:",
+       "optiuni": [
+        "argument ad populum",
+        "argument ad hominem",
+        "petitio principii",
+        "om de paie"
+       ],
+       "corect": 0,
+       "explicatie": "Numărul celor care cred ceva nu este temei pentru adevărul acelui lucru."
+      },
+      {
+       "intrebare": "„Dacă îi lăsăm pe elevi să folosească telefonul la pauză, în curând nimeni nu va mai învăța nimic și școala se va desființa.” Eroarea este:",
+       "optiuni": [
+        "panta alunecoasă",
+        "falsă dilemă",
+        "ad verecundiam",
+        "petitio principii"
+       ],
+       "corect": 0,
+       "explicatie": "Se afirmă un lanț de consecințe fără a arăta de ce fiecare verigă ar urma din precedenta."
+      }
+     ]
+    },
+    {
+     "id": "log9-16",
+     "titlu": "Argumentarea în viața cotidiană",
+     "rezumat": "Argumentarea nu e un exercițiu de manual, ci practica zilnică a deliberării: la școală, într-o dezbatere, într-o cerere adresată unei instituții, într-un comentariu public. Un text argumentativ bine construit are patru părți: enunțarea clară a tezei, prezentarea temeiurilor în ordinea tăriei lor, anticiparea obiecțiilor cu răspunsul la ele și concluzia care reia teza îmbogățită de parcurs. Regula de aur a dialogului argumentativ este principiul carității: interpretează spusele celuilalt în versiunea lor cea mai rezonabilă. Ea are un motiv practic, nu doar moral — dacă respingi o versiune slăbită, n-ai respins nimic, iar interlocutorul o poate reformula imediat. Evaluarea unui text argumentativ din presă sau din social media urmează aceiași pași: care e teza? care sunt temeiurile? sunt ele adevărate? sunt relevante pentru teză? ce obiecție serioasă nu a fost tratată? Aceste cinci întrebări separă informația de manipulare mai bine decât orice listă de surse „de încredere”.",
+     "ideiCheie": [
+      "Un text argumentativ: teză, temeiuri, obiecții tratate, concluzie.",
+      "Principiul carității: interpretează teza adversarului în forma ei cea mai tare.",
+      "Temeiurile se ordonează după tăria lor, nu la întâmplare.",
+      "Evaluarea unui text: teză? temeiuri? adevărate? relevante? ce obiecție lipsește?"
+     ],
+     "termeni": [
+      {
+       "t": "principiul carității",
+       "d": "regula de a interpreta afirmațiile interlocutorului în versiunea lor cea mai rezonabilă"
+      },
+      {
+       "t": "text argumentativ",
+       "d": "text organizat în jurul unei teze susținute prin temeiuri și apărate de obiecții"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt cele patru părți ale unui text argumentativ?",
+       "v": "Teza, temeiurile, obiecțiile anticipate cu răspuns, concluzia."
+      },
+      {
+       "f": "Ce spune principiul carității?",
+       "v": "Să interpretezi afirmațiile celuilalt în versiunea lor cea mai rezonabilă."
+      },
+      {
+       "f": "Ce cinci întrebări evaluează un text argumentativ?",
+       "v": "Care e teza? Care sunt temeiurile? Sunt adevărate? Sunt relevante? Ce obiecție lipsește?"
+      },
+      {
+       "f": "De ce e practic principiul carității?",
+       "v": "Fiindcă respingerea unei versiuni slăbite nu respinge teza reală a adversarului."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Principiul carității cere să:",
+       "optiuni": [
+        "interpretezi teza adversarului în versiunea ei cea mai rezonabilă",
+        "accepți teza adversarului",
+        "eviți dezbaterea",
+        "ataci punctul cel mai slab"
+       ],
+       "corect": 0,
+       "explicatie": "Altfel riști să combați un „om de paie”, fără efect asupra tezei reale."
+      },
+      {
+       "intrebare": "Într-un text argumentativ, obiecțiile:",
+       "optiuni": [
+        "se anticipează și li se răspunde",
+        "se ignoră, pentru a nu slăbi teza",
+        "se enumeră fără răspuns",
+        "se lasă în seama cititorului"
+       ],
+       "corect": 0,
+       "explicatie": "Tratarea obiecțiilor întărește teza, nu o slăbește."
+      },
+      {
+       "intrebare": "Prima întrebare în evaluarea unui text argumentativ este:",
+       "optiuni": [
+        "care este teza susținută",
+        "cine este autorul",
+        "unde a fost publicat",
+        "câți oameni l-au distribuit"
+       ],
+       "corect": 0,
+       "explicatie": "Fără identificarea tezei nu se poate evalua relevanța temeiurilor."
+      },
+      {
+       "intrebare": "Ordinea recomandată a temeiurilor într-un text argumentativ este:",
+       "optiuni": [
+        "după tăria lor",
+        "alfabetică",
+        "cronologică",
+        "întâmplătoare"
+       ],
+       "corect": 0,
+       "explicatie": "Temeiul cel mai puternic trebuie să ocupe o poziție care să-i valorifice forța."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "teze": [
+  {
+   "semestru": 1,
+   "test": [
+    {
+     "intrebare": "Logica studiază, în sens propriu:",
+     "optiuni": [
+      "forma și legile gândirii corecte",
+      "conținutul concret al gândurilor",
+      "psihologia gândirii",
+      "retorica discursului"
+     ],
+     "corect": 0,
+     "explicatie": "Logica face abstracție de conținut și se ocupă de structură."
+    },
+    {
+     "intrebare": "Care pereche de proprietăți este corect atribuită?",
+     "optiuni": [
+      "propozițiile sunt adevărate/false, raționamentele sunt corecte/incorecte",
+      "propozițiile sunt corecte/incorecte, raționamentele adevărate/false",
+      "ambele sunt adevărate/false",
+      "ambele sunt corecte/incorecte"
+     ],
+     "corect": 0,
+     "explicatie": "Adevărul privește propozițiile; validitatea privește inferența."
+    },
+    {
+     "intrebare": "O entimemă este un raționament:",
+     "optiuni": [
+      "căruia îi lipsește, ca subînțeleasă, o premisă sau concluzia",
+      "cu patru termeni",
+      "cu premise false",
+      "fără concluzie posibilă"
+     ],
+     "corect": 0,
+     "explicatie": "De aceea analiza cere reconstituirea premisei ascunse."
+    },
+    {
+     "intrebare": "Sfera și conținutul unui termen variază:",
+     "optiuni": [
+      "invers proporțional",
+      "direct proporțional",
+      "independent",
+      "identic"
+     ],
+     "corect": 0,
+     "explicatie": "Cu cât adaugi note, cu atât restrângi mulțimea obiectelor."
+    },
+    {
+     "intrebare": "„Par” și „impar” pentru numerele naturale sunt termeni:",
+     "optiuni": [
+      "contradictorii",
+      "contrari",
+      "subordonați",
+      "încrucișați"
+     ],
+     "corect": 0,
+     "explicatie": "Se exclud și epuizează universul de discurs."
+    },
+    {
+     "intrebare": "Definiția „Logica este știința logicii” încalcă regula:",
+     "optiuni": [
+      "non-circularității",
+      "adecvării",
+      "formulării pozitive",
+      "clarității"
+     ],
+     "corect": 0,
+     "explicatie": "Definitul apare în definitor, deci nu se lămurește nimic."
+    },
+    {
+     "intrebare": "„Elevii se împart în băieți, fete și olimpici” încalcă:",
+     "optiuni": [
+      "unicitatea criteriului și excluderea reciprocă",
+      "doar completitudinea",
+      "doar continuitatea",
+      "nicio regulă"
+     ],
+     "corect": 0,
+     "explicatie": "Se amestecă două criterii, deci clasele nu se mai exclud."
+    },
+    {
+     "intrebare": "Propoziția „Unii elevi nu sunt premianți” este de tip:",
+     "optiuni": [
+      "O",
+      "A",
+      "E",
+      "I"
+     ],
+     "corect": 0,
+     "explicatie": "Este particulară și negativă."
+    },
+    {
+     "intrebare": "Propoziția de tip A distribuie:",
+     "optiuni": [
+      "numai subiectul",
+      "numai predicatul",
+      "ambii termeni",
+      "niciun termen"
+     ],
+     "corect": 0,
+     "explicatie": "„Toți S sunt P” spune ceva despre toți S, dar nu despre toți P."
+    },
+    {
+     "intrebare": "Argumentarea indirectă (reducerea la absurd) susține teza:",
+     "optiuni": [
+      "arătând că negarea ei duce la contradicție",
+      "printr-un exemplu tipic",
+      "prin invocarea unei autorități",
+      "prin enumerarea tuturor cazurilor"
+     ],
+     "corect": 0,
+     "explicatie": "Din falsitatea contradictoriei rezultă adevărul tezei."
+    },
+    {
+     "intrebare": "Cele trei componente ale argumentării sunt:",
+     "optiuni": [
+      "teza, temeiurile și legătura dintre ele",
+      "premisa, concluzia, exemplul",
+      "subiectul, predicatul, copula",
+      "genul, specia, diferența"
+     ],
+     "corect": 0,
+     "explicatie": "Lipsa oricăreia desființează argumentarea."
+    },
+    {
+     "intrebare": "Un termen vid este acela care:",
+     "optiuni": [
+      "nu se aplică niciunui obiect",
+      "se aplică unui singur obiect",
+      "se aplică tuturor obiectelor",
+      "are conținut sărac"
+     ],
+     "corect": 0,
+     "explicatie": "De exemplu „cerc pătrat”."
+    }
+   ]
+  },
+  {
+   "semestru": 2,
+   "test": [
+    {
+     "intrebare": "Dacă „Toți S sunt P” este adevărată, atunci „Unii S nu sunt P” este:",
+     "optiuni": [
+      "falsă",
+      "adevărată",
+      "nedeterminată",
+      "contrară"
+     ],
+     "corect": 0,
+     "explicatie": "A și O sunt contradictorii."
+    },
+    {
+     "intrebare": "Două propoziții contrare (A și E):",
+     "optiuni": [
+      "nu pot fi ambele adevărate, dar pot fi ambele false",
+      "nu pot fi ambele false, dar pot fi ambele adevărate",
+      "au întotdeauna valori opuse",
+      "au întotdeauna aceeași valoare"
+     ],
+     "corect": 0,
+     "explicatie": "Contrarietatea exclude doar adevărul simultan."
+    },
+    {
+     "intrebare": "Care tip de propoziție nu se convertește?",
+     "optiuni": [
+      "O",
+      "A",
+      "E",
+      "I"
+     ],
+     "corect": 0,
+     "explicatie": "Din „Unii S nu sunt P” nu urmează nimic valid despre P."
+    },
+    {
+     "intrebare": "Obversa propoziției „Toți S sunt P” este:",
+     "optiuni": [
+      "„Niciun S nu este non-P”",
+      "„Toți P sunt S”",
+      "„Unii P sunt S”",
+      "„Unii S nu sunt P”"
+     ],
+     "corect": 0,
+     "explicatie": "Obversiunea schimbă calitatea și neagă predicatul."
+    },
+    {
+     "intrebare": "Termenul mediu al unui silogism:",
+     "optiuni": [
+      "apare în ambele premise și lipsește din concluzie",
+      "este subiectul concluziei",
+      "este predicatul concluziei",
+      "apare o singură dată"
+     ],
+     "corect": 0,
+     "explicatie": "El leagă minorul de major."
+    },
+    {
+     "intrebare": "Figura a II-a a silogismului are schema:",
+     "optiuni": [
+      "P–M, S–M",
+      "M–P, S–M",
+      "M–P, M–S",
+      "P–M, M–S"
+     ],
+     "corect": 0,
+     "explicatie": "În figura a II-a mediul este predicat în ambele premise."
+    },
+    {
+     "intrebare": "Din două premise negative urmează:",
+     "optiuni": [
+      "nicio concluzie",
+      "o concluzie negativă",
+      "o concluzie particulară",
+      "o concluzie universală"
+     ],
+     "corect": 0,
+     "explicatie": "Fără nicio legătură afirmativă, termenii nu pot fi puși în relație."
+    },
+    {
+     "intrebare": "Dacă o premisă este particulară, concluzia silogismului este:",
+     "optiuni": [
+      "particulară",
+      "universală",
+      "negativă",
+      "afirmativă"
+     ],
+     "corect": 0,
+     "explicatie": "Concluzia urmează partea mai slabă."
+    },
+    {
+     "intrebare": "„Dacă plouă, strada e udă. Strada e udă. Deci plouă.” este:",
+     "optiuni": [
+      "afirmarea consecventului",
+      "negarea antecedentului",
+      "modus ponens",
+      "modus tollens"
+     ],
+     "corect": 0,
+     "explicatie": "Consecventul poate fi adevărat din alte cauze."
+    },
+    {
+     "intrebare": "„Nu-l asculta, e doar un elev” este un sofism:",
+     "optiuni": [
+      "ad hominem",
+      "ad populum",
+      "ad verecundiam",
+      "petitio principii"
+     ],
+     "corect": 0,
+     "explicatie": "Se atacă persoana, nu temeiurile."
+    },
+    {
+     "intrebare": "„Ori ești cu noi, ori ești împotriva noastră” este:",
+     "optiuni": [
+      "o falsă dilemă",
+      "o generalizare pripită",
+      "o panta alunecoasă",
+      "un om de paie"
+     ],
+     "corect": 0,
+     "explicatie": "Se reduc artificial opțiunile la două."
+    },
+    {
+     "intrebare": "Principiul carității cere ca teza adversarului să fie interpretată:",
+     "optiuni": [
+      "în versiunea ei cea mai rezonabilă",
+      "în versiunea ei cea mai slabă",
+      "literal, fără context",
+      "în funcție de intențiile lui"
+     ],
+     "corect": 0,
+     "explicatie": "Altfel se combate un „om de paie”, nu teza reală."
+    }
+   ]
+  }
+ ]
+}

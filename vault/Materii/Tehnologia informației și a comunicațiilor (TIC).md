@@ -12,9 +12,12 @@ cssclasses: fisa
 > **Se studiază în:** [[Clasa a IX-a]], [[Clasa a X-a]], [[Clasa a XI-a]], [[Clasa a XII-a]]
 > **La bacalaureat:** da 🎓
 
-> [!todo] Fără conținut în aplicație
-> Materia apare în planul-cadru, dar încă nu are lecții în `data/continut.json`.
-> Adaugă un modul acolo și rulează din nou `graphify` ca să apară aici.
+## Anii de studiu
+
+- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)|Clasa a IX-a]] — 9 lecții, 36 carduri, 60 întrebări
+- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)|Clasa a X-a]] — 9 lecții, 36 carduri, 60 întrebări
+- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Clasa a XI-a]] — 9 lecții, 36 carduri, 60 întrebări
+- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)|Clasa a XII-a]] — 9 lecții, 36 carduri, 60 întrebări
 
 ## Legături
 - [[00 Start aici]]

@@ -1,0 +1,1073 @@
+{
+ "id": "engleza-10",
+ "materie": "Limba modernă 1 (Engleză)",
+ "clasa": "a X-a",
+ "an": 2,
+ "arie": "Limbă și comunicare",
+ "bac": true,
+ "descriere": "Structuri intermediare: timpuri perfecte, condiționale, pasiv, vorbire indirectă și competențe de comunicare aplicată.",
+ "capitole": [
+  {
+   "id": "eng10-c1",
+   "titlu": "Timpuri și aspecte",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "eng10-01",
+     "titlu": "Present Perfect Simple și Continuous",
+     "rezumat": "Present Perfect Simple accentuează rezultatul: „I have written three emails” — contează câte au fost scrise. Present Perfect Continuous accentuează durata și procesul: „I have been writing emails all morning” — contează cât timp a durat activitatea, iar rezultatul poate fi vizibil („I'm tired”). Cu verbe de stare se folosește doar forma simplă. Cu „for” și „since” ambele sunt posibile, dar continuous sugerează activitate neîntreruptă. Cu „how long” se preferă continuous pentru acțiuni, simple pentru stări: „How long have you been learning English?”, dar „How long have you known him?”. Cu „already”, „yet”, „just”, „ever”, „never” se folosește forma simplă.",
+     "ideiCheie": [
+      "Simple accentuează rezultatul; continuous accentuează durata și procesul.",
+      "Verbele de stare admit doar forma simplă.",
+      "„How long” cere continuous pentru acțiuni, simple pentru stări.",
+      "Already, yet, just, ever, never cer forma simplă."
+     ],
+     "termeni": [
+      {
+       "t": "present perfect continuous",
+       "d": "timp care exprimă durata unei acțiuni începute în trecut și continuate până acum"
+      },
+      {
+       "t": "result vs. duration",
+       "d": "opoziția dintre accentul pe rezultat (simple) și cel pe proces (continuous)"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce accentuează Present Perfect Simple?",
+       "v": "Rezultatul acțiunii."
+      },
+      {
+       "f": "Ce accentuează Present Perfect Continuous?",
+       "v": "Durata și procesul, adesea cu efect vizibil în prezent."
+      },
+      {
+       "f": "Ce formă cer verbele de stare?",
+       "v": "Doar forma simplă."
+      },
+      {
+       "f": "Ce formă se folosește cu „already” și „yet”?",
+       "v": "Forma simplă."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„I ______ this book three times.” Forma potrivită este:",
+       "optiuni": [
+        "have read",
+        "have been reading",
+        "am reading",
+        "read"
+       ],
+       "corect": 0,
+       "explicatie": "Numărul de repetări indică rezultat, deci forma simplă."
+      },
+      {
+       "intrebare": "„My hands are dirty. I ______ in the garden.”",
+       "optiuni": [
+        "have been working",
+        "have worked",
+        "work",
+        "am working"
+       ],
+       "corect": 0,
+       "explicatie": "Efectul vizibil al procesului cere forma continuă."
+      },
+      {
+       "intrebare": "Cu verbul „know” se folosește:",
+       "optiuni": [
+        "doar Present Perfect Simple",
+        "doar forma continuă",
+        "ambele, indiferent de context",
+        "niciuna"
+       ],
+       "corect": 0,
+       "explicatie": "Verbele de stare nu admit forma continuă."
+      },
+      {
+       "intrebare": "„How long have you ______ English?” Pentru o activitate se preferă:",
+       "optiuni": [
+        "been learning",
+        "learned",
+        "learn",
+        "been learned"
+       ],
+       "corect": 0,
+       "explicatie": "Pentru stări s-ar folosi forma simplă."
+      }
+     ]
+    },
+    {
+     "id": "eng10-02",
+     "titlu": "Past Perfect și succesiunea timpurilor",
+     "rezumat": "Past Perfect exprimă o acțiune anterioară altei acțiuni din trecut: „When I arrived, the film had already started”. Se formează cu „had” plus participiul trecut, identic pentru toate persoanele. El este necesar doar când ordinea evenimentelor nu este evidentă din context sau din conectori: cu „after” și „before” relația e deja clară, iar Past Simple e adesea suficient. Past Perfect Continuous accentuează durata acțiunii anterioare: „She had been waiting for two hours when he finally came”. Succesiunea timpurilor cere coerență: într-o narațiune la trecut, referirile la evenimente anterioare urcă un nivel (Past Simple → Past Perfect), iar cele ulterioare se exprimă cu „would” sau cu „was going to”.",
+     "ideiCheie": [
+      "Past Perfect: acțiune anterioară alteia din trecut, formată cu „had” plus participiu.",
+      "Este necesar doar când ordinea nu e evidentă din context sau conectori.",
+      "Past Perfect Continuous accentuează durata acțiunii anterioare.",
+      "Într-o narațiune la trecut, referirile anterioare urcă un nivel de timp."
+     ],
+     "termeni": [
+      {
+       "t": "past perfect",
+       "d": "timp care exprimă anterioritatea față de un alt moment din trecut"
+      },
+      {
+       "t": "sequence of tenses",
+       "d": "regula coerenței timpurilor într-o narațiune"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce exprimă Past Perfect?",
+       "v": "O acțiune anterioară altei acțiuni din trecut."
+      },
+      {
+       "f": "Cum se formează Past Perfect?",
+       "v": "Cu „had” plus participiul trecut, la toate persoanele."
+      },
+      {
+       "f": "Când NU e necesar Past Perfect?",
+       "v": "Când ordinea evenimentelor e clară din context sau din conectori precum „after” și „before”."
+      },
+      {
+       "f": "Ce accentuează Past Perfect Continuous?",
+       "v": "Durata acțiunii anterioare."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„When I arrived, the film ______.”",
+       "optiuni": [
+        "had already started",
+        "has already started",
+        "already started",
+        "was already starting"
+       ],
+       "corect": 0,
+       "explicatie": "Acțiunea anterioară cere Past Perfect."
+      },
+      {
+       "intrebare": "Past Perfect se formează cu:",
+       "optiuni": [
+        "had + participiu trecut",
+        "have + participiu trecut",
+        "was + verb cu -ing",
+        "did + verb de bază"
+       ],
+       "corect": 0,
+       "explicatie": "Forma este identică la toate persoanele."
+      },
+      {
+       "intrebare": "„She ______ for two hours when he arrived.”",
+       "optiuni": [
+        "had been waiting",
+        "had waited",
+        "was waiting",
+        "has been waiting"
+       ],
+       "corect": 0,
+       "explicatie": "Durata acțiunii anterioare cere forma continuă."
+      },
+      {
+       "intrebare": "Într-o narațiune la trecut, evenimentele ulterioare se exprimă cu:",
+       "optiuni": [
+        "„would” sau „was going to”",
+        "„will”",
+        "„shall”",
+        "Present Continuous"
+       ],
+       "corect": 0,
+       "explicatie": "Perspectiva rămâne ancorată în trecut."
+      }
+     ]
+    },
+    {
+     "id": "eng10-03",
+     "titlu": "Diateza pasivă",
+     "rezumat": "Pasivul mută accentul de pe autorul acțiunii pe acțiune sau pe obiectul ei: „The letter was written by John” în loc de „John wrote the letter”. Se formează cu verbul „to be” la timpul corespunzător plus participiul trecut. Autorul se introduce cu „by”, dar se omite când e necunoscut, evident sau irelevant — exact motivul pentru care pasivul e frecvent în texte științifice, jurnalistice și oficiale. Transformarea: complementul direct devine subiect, verbul trece la pasiv, subiectul inițial devine complement de agent. Verbele cu două complemente admit două pasive: „I was given a book” sau „A book was given to me”. Structurile impersonale („It is said that…”, „He is believed to be…”) permit transmiterea unei informații fără asumarea sursei.",
+     "ideiCheie": [
+      "Pasivul mută accentul de pe autor pe acțiune sau pe obiectul ei.",
+      "Se formează cu „to be” plus participiu trecut.",
+      "Agentul se omite când e necunoscut, evident sau irelevant.",
+      "Structurile impersonale transmit informația fără asumarea sursei."
+     ],
+     "termeni": [
+      {
+       "t": "passive voice",
+       "d": "diateză în care subiectul suportă acțiunea, nu o realizează"
+      },
+      {
+       "t": "agent",
+       "d": "autorul acțiunii, introdus în pasiv prin „by”"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se formează pasivul?",
+       "v": "Cu verbul „to be” la timpul corespunzător plus participiul trecut."
+      },
+      {
+       "f": "Când se omite agentul?",
+       "v": "Când este necunoscut, evident sau irelevant."
+      },
+      {
+       "f": "De ce e frecvent pasivul în textele științifice?",
+       "v": "Pentru că accentul cade pe proces și pe rezultat, nu pe autor."
+      },
+      {
+       "f": "Ce exprimă „It is said that…”?",
+       "v": "O informație transmisă fără asumarea sursei."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Pasivul propoziției „They built the bridge in 1990” este:",
+       "optiuni": [
+        "„The bridge was built in 1990.”",
+        "„The bridge is built in 1990.”",
+        "„The bridge has built in 1990.”",
+        "„The bridge was building in 1990.”"
+       ],
+       "corect": 0,
+       "explicatie": "Timpul se păstrează la verbul „to be”."
+      },
+      {
+       "intrebare": "Agentul se introduce în pasiv prin:",
+       "optiuni": [
+        "by",
+        "with",
+        "from",
+        "of"
+       ],
+       "corect": 0,
+       "explicatie": "„With” introduce instrumentul, nu agentul."
+      },
+      {
+       "intrebare": "Pasivul este frecvent în textele oficiale deoarece:",
+       "optiuni": [
+        "permite accentul pe acțiune și omiterea autorului",
+        "este mai scurt",
+        "este mai politicos",
+        "se traduce mai ușor"
+       ],
+       "corect": 0,
+       "explicatie": "Uneori omiterea autorului este chiar intenția."
+      },
+      {
+       "intrebare": "„He is believed to be innocent” este:",
+       "optiuni": [
+        "o structură impersonală",
+        "un pasiv cu agent",
+        "o formă activă",
+        "o întrebare indirectă"
+       ],
+       "corect": 0,
+       "explicatie": "Ea transmite o opinie generală, fără sursă precizată."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "eng10-c2",
+   "titlu": "Structuri complexe",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "eng10-04",
+     "titlu": "Condiționalele",
+     "rezumat": "Condiționalul zero exprimă adevăruri generale: „If you heat water, it boils”. Primul condițional exprimă o condiție reală în viitor: „If it rains, we will stay home” — condiția la prezent, rezultatul cu „will”. Al doilea condițional exprimă o situație ireală sau puțin probabilă în prezent: „If I had money, I would travel” — trecut în condiție, „would” în rezultat. Al treilea condițional exprimă o situație contrafactuală în trecut: „If I had studied, I would have passed”. Reguli practice: „will” nu apare, de regulă, după „if”; „were” se folosește pentru toate persoanele în al doilea condițional („If I were you…”); condiționalele mixte combină o condiție trecută cu un rezultat prezent („If I had studied medicine, I would be a doctor now”). Alternative la „if”: unless (dacă nu), provided that, as long as, in case.",
+     "ideiCheie": [
+      "Condițional zero: adevăruri generale; primul: condiție reală în viitor.",
+      "Al doilea: ireal în prezent; al treilea: contrafactual în trecut.",
+      "„Will” nu apare după „if”; „were” se folosește la toate persoanele în al doilea.",
+      "Condiționalele mixte leagă o condiție trecută de un rezultat prezent."
+     ],
+     "termeni": [
+      {
+       "t": "second conditional",
+       "d": "structură care exprimă o situație ireală sau improbabilă în prezent"
+      },
+      {
+       "t": "mixed conditional",
+       "d": "condițional care leagă o condiție trecută de un rezultat prezent"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce exprimă primul condițional?",
+       "v": "O condiție reală, posibilă, în viitor."
+      },
+      {
+       "f": "Ce exprimă al treilea condițional?",
+       "v": "O situație contrafactuală din trecut, care nu s-a întâmplat."
+      },
+      {
+       "f": "Ce formă a verbului „to be” se folosește în al doilea condițional?",
+       "v": "„Were”, la toate persoanele."
+      },
+      {
+       "f": "Ce înseamnă „unless”?",
+       "v": "„Dacă nu” — echivalentul lui „if … not”."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„If I ______ you, I would accept the offer.”",
+       "optiuni": [
+        "were",
+        "am",
+        "was going to be",
+        "will be"
+       ],
+       "corect": 0,
+       "explicatie": "Al doilea condițional folosește „were” la toate persoanele."
+      },
+      {
+       "intrebare": "„If I had studied, I ______ the exam.”",
+       "optiuni": [
+        "would have passed",
+        "would pass",
+        "will pass",
+        "had passed"
+       ],
+       "corect": 0,
+       "explicatie": "Al treilea condițional exprimă un trecut contrafactual."
+      },
+      {
+       "intrebare": "După „if” NU se folosește, de regulă:",
+       "optiuni": [
+        "will",
+        "prezentul simplu",
+        "trecutul simplu",
+        "past perfect"
+       ],
+       "corect": 0,
+       "explicatie": "Corect: „If it rains, we will stay”, nu „If it will rain”."
+      },
+      {
+       "intrebare": "„Unless you hurry, you will miss the train” înseamnă:",
+       "optiuni": [
+        "„Dacă nu te grăbești, vei pierde trenul.”",
+        "„Dacă te grăbești, vei pierde trenul.”",
+        "„Chiar dacă te grăbești, vei pierde trenul.”",
+        "„Când te grăbești, pierzi trenul.”"
+       ],
+       "corect": 0,
+       "explicatie": "„Unless” echivalează cu „if … not”."
+      }
+     ]
+    },
+    {
+     "id": "eng10-05",
+     "titlu": "Vorbirea indirectă",
+     "rezumat": "Vorbirea indirectă transmite spusele cuiva fără citare exactă. Regulile: timpurile coboară un nivel („I am tired” → „He said he was tired”); pronumele și adjectivele posesive se ajustează la noua perspectivă; indicațiile de timp și de loc se schimbă (now → then, today → that day, tomorrow → the next day, here → there, this → that). Întrebările indirecte pierd inversiunea și auxiliarul „do”: „Where do you live?” → „She asked where I lived”. Întrebările fără cuvânt interogativ se introduc cu „if” sau „whether”. Ordinele și rugămințile folosesc infinitivul: „Close the door” → „He told me to close the door”; „Please help me” → „She asked me to help her”. Verbele introductive nuanțează: say, tell, ask, explain, suggest, admit, deny, promise, warn, advise — fiecare cu construcția lui.",
+     "ideiCheie": [
+      "În vorbirea indirectă timpurile coboară un nivel.",
+      "Pronumele, indicațiile de timp și de loc se ajustează la noua perspectivă.",
+      "Întrebările indirecte pierd inversiunea; cele fără cuvânt interogativ cer „if/whether”.",
+      "Ordinele și rugămințile se redau prin infinitiv."
+     ],
+     "termeni": [
+      {
+       "t": "reported speech",
+       "d": "redarea spuselor cuiva fără citare exactă"
+      },
+      {
+       "t": "backshift",
+       "d": "coborârea cu un nivel a timpurilor verbale în vorbirea indirectă"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce se întâmplă cu timpurile în vorbirea indirectă?",
+       "v": "Coboară un nivel, față de vorbirea directă."
+      },
+      {
+       "f": "Cum se redau întrebările fără cuvânt interogativ?",
+       "v": "Cu „if” sau „whether”."
+      },
+      {
+       "f": "Cum se redau ordinele?",
+       "v": "Prin infinitiv: „He told me to close the door”."
+      },
+      {
+       "f": "Cum se schimbă „tomorrow” în vorbirea indirectă?",
+       "v": "Devine „the next day”."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„I am tired”, she said. → Forma indirectă corectă este:",
+       "optiuni": [
+        "She said she was tired.",
+        "She said she is tired.",
+        "She said that is tired.",
+        "She told she was tired."
+       ],
+       "corect": 0,
+       "explicatie": "Timpurile coboară un nivel."
+      },
+      {
+       "intrebare": "„Where do you live?” devine, în vorbirea indirectă:",
+       "optiuni": [
+        "She asked where I lived.",
+        "She asked where did I live.",
+        "She asked where do I live.",
+        "She asked me where I live?"
+       ],
+       "corect": 0,
+       "explicatie": "Se pierd inversiunea și auxiliarul."
+      },
+      {
+       "intrebare": "„Are you coming?” devine:",
+       "optiuni": [
+        "He asked if I was coming.",
+        "He asked was I coming.",
+        "He asked that I was coming.",
+        "He asked do I come."
+       ],
+       "corect": 0,
+       "explicatie": "Întrebările fără cuvânt interogativ cer „if” sau „whether”."
+      },
+      {
+       "intrebare": "„Don't touch that!” devine:",
+       "optiuni": [
+        "He told me not to touch that.",
+        "He told me don't touch that.",
+        "He said me not touch that.",
+        "He asked that I don't touch that."
+       ],
+       "corect": 0,
+       "explicatie": "Interdicția se redă cu „not to” plus infinitiv."
+      }
+     ]
+    },
+    {
+     "id": "eng10-06",
+     "titlu": "Infinitiv, gerunziu, relative",
+     "rezumat": "Unele verbe cer infinitiv cu „to” (want, decide, hope, promise, agree, refuse), altele cer gerunziu (enjoy, avoid, finish, suggest, mind, practise), iar altele admit ambele, uneori cu sens diferit: „stop smoking” (a înceta să fumezi) față de „stop to smoke” (a te opri ca să fumezi); „remember doing” (a-ți aminti că ai făcut) față de „remember to do” (a nu uita să faci). Propozițiile relative determină un substantiv. Cele definitorii sunt esențiale pentru identificare și nu se despart prin virgulă: „The man who called is my uncle”. Cele nedefinitorii adaugă informație suplimentară și se despart prin virgule: „My uncle, who lives in Cluj, called yesterday”; ele nu admit pronumele „that”. Pronumele relativ complement direct poate fi omis în relativele definitorii: „The book (that) I read”.",
+     "ideiCheie": [
+      "Unele verbe cer infinitiv, altele gerunziu; unele admit ambele, cu sens diferit.",
+      "Relativele definitorii sunt esențiale și nu se despart prin virgulă.",
+      "Relativele nedefinitorii se despart prin virgule și nu admit „that”.",
+      "Pronumele relativ complement direct se poate omite în relativele definitorii."
+     ],
+     "termeni": [
+      {
+       "t": "defining relative clause",
+       "d": "propoziție relativă esențială pentru identificarea substantivului determinat"
+      },
+      {
+       "t": "gerund",
+       "d": "forma verbală în -ing folosită ca substantiv"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce verbe cer gerunziu?",
+       "v": "Enjoy, avoid, finish, suggest, mind, practise."
+      },
+      {
+       "f": "Care e diferența dintre „stop smoking” și „stop to smoke”?",
+       "v": "Prima înseamnă a înceta să fumezi, a doua a te opri pentru a fuma."
+      },
+      {
+       "f": "Cum se recunoaște o relativă nedefinitorie?",
+       "v": "Se desparte prin virgule și nu admite „that”."
+      },
+      {
+       "f": "Când se poate omite pronumele relativ?",
+       "v": "Când este complement direct într-o relativă definitorie."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„I enjoy ______ books.”",
+       "optiuni": [
+        "reading",
+        "to read",
+        "read",
+        "to reading"
+       ],
+       "corect": 0,
+       "explicatie": "„Enjoy” cere gerunziu."
+      },
+      {
+       "intrebare": "„My brother, ______ lives in Iași, is a teacher.”",
+       "optiuni": [
+        "who",
+        "that",
+        "which",
+        "what"
+       ],
+       "corect": 0,
+       "explicatie": "Relativele nedefinitorii nu admit „that”."
+      },
+      {
+       "intrebare": "„Remember to lock the door” înseamnă:",
+       "optiuni": [
+        "„Nu uita să încui ușa.”",
+        "„Amintește-ți că ai încuiat ușa.”",
+        "„Încuie ușa din nou.”",
+        "„Ai încuiat ușa deja.”"
+       ],
+       "corect": 0,
+       "explicatie": "„Remember locking” s-ar referi la o amintire."
+      },
+      {
+       "intrebare": "În „The book I bought is interesting”, pronumele relativ:",
+       "optiuni": [
+        "a fost omis, fiind complement direct",
+        "lipsește din greșeală",
+        "este „who”",
+        "nu poate fi omis"
+       ],
+       "corect": 0,
+       "explicatie": "Omiterea e posibilă doar în relativele definitorii."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "eng10-c3",
+   "titlu": "Comunicare aplicată",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "eng10-07",
+     "titlu": "Text argumentativ și opinie",
+     "rezumat": "Un text de opinie în engleză are o structură fixă: introducere care prezintă tema și teza, două-trei paragrafe de argumentare, fiecare cu o idee principală și cu susținere (exemplu, date, experiență), un paragraf care tratează opinia contrară și încheiere care reia teza. Limbajul: expresii de opinie („In my view”, „I would argue that”, „It seems to me that”), de argumentare („Firstly”, „Furthermore”, „Moreover”, „In addition”), de contrast („However”, „On the other hand”, „Nevertheless”, „Although”), de concluzie („To sum up”, „In conclusion”, „Overall”). Greșeli frecvente: paragrafe fără idee principală clară, exemple care nu susțin afirmația, repetarea aceleiași idei cu alte cuvinte, concluzie care introduce idei noi.",
+     "ideiCheie": [
+      "Structura: introducere cu teză, argumente cu susținere, opinie contrară, concluzie.",
+      "Fiecare paragraf are o idee principală și susținerea ei.",
+      "Conectorii marchează argumentarea, contrastul și concluzia.",
+      "Greșeli: paragrafe fără idee clară, exemple nepotrivite, repetiție, concluzie cu idei noi."
+     ],
+     "termeni": [
+      {
+       "t": "topic sentence",
+       "d": "propoziția care exprimă ideea principală a unui paragraf"
+      },
+      {
+       "t": "linking word",
+       "d": "cuvânt de legătură care marchează relația dintre idei"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce structură are un text de opinie?",
+       "v": "Introducere cu teză, paragrafe de argumentare, opinie contrară, concluzie."
+      },
+      {
+       "f": "Ce este o „topic sentence”?",
+       "v": "Propoziția care exprimă ideea principală a paragrafului."
+      },
+      {
+       "f": "Ce conectori exprimă contrastul?",
+       "v": "However, on the other hand, nevertheless, although."
+      },
+      {
+       "f": "Ce greșeală face o concluzie care introduce idei noi?",
+       "v": "Rupe coerența: concluzia reia și sintetizează, nu adaugă."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Fiecare paragraf al unui text argumentativ ar trebui să conțină:",
+       "optiuni": [
+        "o idee principală și susținerea ei",
+        "cât mai multe idei",
+        "exclusiv exemple",
+        "o întrebare retorică"
+       ],
+       "corect": 0,
+       "explicatie": "„Topic sentence” anunță ideea paragrafului."
+      },
+      {
+       "intrebare": "„Nevertheless” exprimă:",
+       "optiuni": [
+        "un contrast",
+        "o adăugare",
+        "o consecință",
+        "un exemplu"
+       ],
+       "corect": 0,
+       "explicatie": "„Furthermore” exprimă adăugarea."
+      },
+      {
+       "intrebare": "Tratarea opiniei contrare într-un text argumentativ:",
+       "optiuni": [
+        "întărește argumentarea",
+        "o slăbește",
+        "este opțională",
+        "trebuie evitată"
+       ],
+       "corect": 0,
+       "explicatie": "Anticiparea obiecțiilor arată stăpânirea temei."
+      },
+      {
+       "intrebare": "Concluzia unui text de opinie trebuie să:",
+       "optiuni": [
+        "reia teza și să sintetizeze argumentele",
+        "introducă un argument nou",
+        "pună o întrebare",
+        "prezinte o statistică nouă"
+       ],
+       "corect": 0,
+       "explicatie": "Ideile noi aparțin cuprinsului."
+      }
+     ]
+    },
+    {
+     "id": "eng10-08",
+     "titlu": "Ascultare, vorbire, interacțiune",
+     "rezumat": "Înțelegerea după auz se antrenează prin expunere regulată la material autentic: podcasturi, emisiuni, filme cu subtitrare în engleză. Strategii utile: ascultarea pentru ideea generală înainte de detalii, folosirea contextului pentru cuvintele nesesizate, atenția la cuvintele accentuate (care poartă informația), obișnuirea cu formele reduse din vorbirea rapidă („gonna”, „wanna”, „d'you”). În interacțiunea orală contează fluența, nu perfecțiunea: pauzele lungi pentru căutarea cuvântului perfect rup comunicarea. Strategii de compensare: parafrazarea („the thing you use to…”), cererea de clarificare („Sorry, could you repeat that?”), formulele de câștigare a timpului („Well, let me think…”), verificarea înțelegerii („Do you mean that…?”). Pronunția: accentul cuvintelor și intonația frazei contează mai mult pentru înțelegere decât sunetele individuale.",
+     "ideiCheie": [
+      "Ascultarea se antrenează prin expunere regulată la material autentic.",
+      "Se ascultă întâi pentru ideea generală, apoi pentru detalii.",
+      "În vorbire, fluența contează mai mult decât perfecțiunea.",
+      "Accentul și intonația contează mai mult decât sunetele individuale."
+     ],
+     "termeni": [
+      {
+       "t": "paraphrasing",
+       "d": "exprimarea unei idei cu alte cuvinte, când lipsește termenul exact"
+      },
+      {
+       "t": "sentence stress",
+       "d": "accentuarea cuvintelor care poartă informația principală într-o frază"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se antrenează înțelegerea după auz?",
+       "v": "Prin expunere regulată la material autentic, ascultând întâi pentru ideea generală."
+      },
+      {
+       "f": "Ce este parafrazarea, ca strategie de comunicare?",
+       "v": "Exprimarea unei idei cu alte cuvinte, când lipsește termenul exact."
+      },
+      {
+       "f": "Ce contează mai mult pentru a fi înțeles: sunetele sau intonația?",
+       "v": "Accentul cuvintelor și intonația frazei."
+      },
+      {
+       "f": "Ce formule ajută la câștigarea timpului în conversație?",
+       "v": "„Well, let me think…”, „That's a good question…”."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "În vorbirea rapidă, „going to” devine adesea:",
+       "optiuni": [
+        "„gonna”",
+        "„go to”",
+        "„goin”",
+        "„gone to”"
+       ],
+       "corect": 0,
+       "explicatie": "Obișnuirea cu formele reduse ajută înțelegerea."
+      },
+      {
+       "intrebare": "Când nu găsești cuvântul exact, cea mai bună strategie este:",
+       "optiuni": [
+        "parafrazarea",
+        "tăcerea",
+        "traducerea literală din română",
+        "schimbarea subiectului"
+       ],
+       "corect": 0,
+       "explicatie": "Comunicarea continuă, iar interlocutorul poate oferi termenul."
+      },
+      {
+       "intrebare": "Cuvintele accentuate într-o frază engleză sunt, de regulă:",
+       "optiuni": [
+        "cele care poartă informația principală",
+        "toate cuvintele",
+        "doar verbele",
+        "doar prepozițiile"
+       ],
+       "corect": 0,
+       "explicatie": "Cuvintele gramaticale sunt, de regulă, neaccentuate."
+      },
+      {
+       "intrebare": "Pauzele lungi pentru găsirea cuvântului perfect:",
+       "optiuni": [
+        "rup comunicarea",
+        "arată competență",
+        "sunt recomandate",
+        "îmbunătățesc acuratețea"
+       ],
+       "corect": 0,
+       "explicatie": "Fluența primează în interacțiune."
+      }
+     ]
+    },
+    {
+     "id": "eng10-09",
+     "titlu": "Engleza pentru studiu și examene",
+     "rezumat": "Engleza academică și cea de examen au trăsături proprii: precizie, structuri impersonale, vocabular specific, evitarea limbajului colocvial și a prescurtărilor. Sarcinile tipice de examen: înțelegerea unui text scris (întrebări cu alegere multiplă, potrivire, adevărat/fals/nemenționat), completarea unor spații, transformarea unor propoziții păstrând sensul, redactarea unui text de lungime dată. Strategii de examen: se citește întâi cerința; la textele lungi se caută informația relevantă, nu se traduce tot; la „adevărat/fals/nemenționat”, „nemenționat” înseamnă că textul nu spune nimic, nu că spune contrariul; la transformări se identifică structura-țintă din cuvântul dat; la redactare se respectă strict numărul de cuvinte și registrul cerut. Verificarea finală: acordul subiect–verb, timpurile, articolele, prepozițiile și ortografia — greșelile de acest tip sunt cele mai frecvente și cele mai ușor de corectat.",
+     "ideiCheie": [
+      "Engleza academică este precisă, impersonală, fără colocvialisme.",
+      "La texte lungi se caută informația relevantă, nu se traduce tot.",
+      "„Nemenționat” înseamnă absența informației, nu contrariul ei.",
+      "Verificarea finală: acord, timpuri, articole, prepoziții, ortografie."
+     ],
+     "termeni": [
+      {
+       "t": "academic English",
+       "d": "registrul formal folosit în lucrări, examene și texte de specialitate"
+      },
+      {
+       "t": "not given",
+       "d": "variantă de răspuns care indică absența informației din text, nu contrariul ei"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce caracterizează engleza academică?",
+       "v": "Precizia, structurile impersonale, vocabularul specific, absența colocvialismelor."
+      },
+      {
+       "f": "Ce înseamnă „not given” într-un test?",
+       "v": "Că textul nu conține informația, nu că afirmă contrariul."
+      },
+      {
+       "f": "Cum se abordează un text lung la examen?",
+       "v": "Căutând informația relevantă pentru cerință, fără a traduce tot."
+      },
+      {
+       "f": "Ce greșeli se verifică la final?",
+       "v": "Acordul subiect–verb, timpurile, articolele, prepozițiile, ortografia."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Într-un test, „not given” înseamnă:",
+       "optiuni": [
+        "textul nu oferă informația",
+        "textul afirmă contrariul",
+        "afirmația este falsă",
+        "afirmația este parțial adevărată"
+       ],
+       "corect": 0,
+       "explicatie": "Confuzia cu „false” este eroarea clasică."
+      },
+      {
+       "intrebare": "La o sarcină de redactare cu limită de cuvinte:",
+       "optiuni": [
+        "depășirea sau nerespectarea limitei se penalizează",
+        "limita este orientativă",
+        "contează doar conținutul",
+        "se acceptă orice lungime"
+       ],
+       "corect": 0,
+       "explicatie": "Respectarea limitei face parte din cerință."
+      },
+      {
+       "intrebare": "În engleza academică se evită:",
+       "optiuni": [
+        "prescurtările și limbajul colocvial",
+        "structurile impersonale",
+        "vocabularul specific",
+        "conectorii"
+       ],
+       "corect": 0,
+       "explicatie": "„Don't”, „it's”, „a lot of” aparțin registrului informal."
+      },
+      {
+       "intrebare": "La exercițiile de transformare a propozițiilor:",
+       "optiuni": [
+        "cuvântul dat indică structura-țintă",
+        "se poate ignora cuvântul dat",
+        "sensul poate fi schimbat",
+        "se acceptă orice formulare corectă"
+       ],
+       "corect": 0,
+       "explicatie": "Sensul trebuie păstrat, iar cuvântul folosit ca atare."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "teze": [
+  {
+   "semestru": 1,
+   "test": [
+    {
+     "intrebare": "Present Perfect Simple accentuează:",
+     "optiuni": [
+      "rezultatul",
+      "durata",
+      "procesul",
+      "momentul precis"
+     ],
+     "corect": 0,
+     "explicatie": "Forma continuă accentuează procesul."
+    },
+    {
+     "intrebare": "„My hands are dirty. I ______ in the garden.”",
+     "optiuni": [
+      "have been working",
+      "have worked",
+      "work",
+      "worked"
+     ],
+     "corect": 0,
+     "explicatie": "Efectul vizibil al procesului cere forma continuă."
+    },
+    {
+     "intrebare": "Verbele de stare admit:",
+     "optiuni": [
+      "doar forma simplă",
+      "doar forma continuă",
+      "ambele forme",
+      "nicio formă perfectă"
+     ],
+     "corect": 0,
+     "explicatie": "„I have known him for years.”"
+    },
+    {
+     "intrebare": "„When I arrived, the film ______.”",
+     "optiuni": [
+      "had already started",
+      "has already started",
+      "already started",
+      "was starting"
+     ],
+     "corect": 0,
+     "explicatie": "Anterioritatea în trecut cere Past Perfect."
+    },
+    {
+     "intrebare": "Past Perfect se formează cu:",
+     "optiuni": [
+      "had + participiu trecut",
+      "have + participiu",
+      "was + verb cu -ing",
+      "did + infinitiv"
+     ],
+     "corect": 0,
+     "explicatie": "Forma e identică la toate persoanele."
+    },
+    {
+     "intrebare": "Pasivul se formează cu:",
+     "optiuni": [
+      "„to be” + participiu trecut",
+      "„to have” + participiu",
+      "„to do” + infinitiv",
+      "„to get” + gerunziu"
+     ],
+     "corect": 0,
+     "explicatie": "Timpul se marchează pe verbul „to be”."
+    },
+    {
+     "intrebare": "Agentul în pasiv se introduce prin:",
+     "optiuni": [
+      "by",
+      "with",
+      "from",
+      "for"
+     ],
+     "corect": 0,
+     "explicatie": "„With” introduce instrumentul."
+    },
+    {
+     "intrebare": "„He is believed to be innocent” este:",
+     "optiuni": [
+      "o structură impersonală",
+      "un pasiv cu agent exprimat",
+      "o formă activă",
+      "o întrebare indirectă"
+     ],
+     "corect": 0,
+     "explicatie": "Ea transmite o opinie generală."
+    },
+    {
+     "intrebare": "„If I ______ you, I would accept.”",
+     "optiuni": [
+      "were",
+      "was",
+      "am",
+      "will be"
+     ],
+     "corect": 0,
+     "explicatie": "Al doilea condițional folosește „were” la toate persoanele."
+    },
+    {
+     "intrebare": "„If I had studied, I ______ the exam.”",
+     "optiuni": [
+      "would have passed",
+      "would pass",
+      "will pass",
+      "passed"
+     ],
+     "corect": 0,
+     "explicatie": "Al treilea condițional este contrafactual."
+    },
+    {
+     "intrebare": "După „if” nu se folosește, de regulă:",
+     "optiuni": [
+      "will",
+      "prezentul",
+      "trecutul simplu",
+      "past perfect"
+     ],
+     "corect": 0,
+     "explicatie": "„If it rains, we will stay.”"
+    },
+    {
+     "intrebare": "„Unless you hurry” înseamnă:",
+     "optiuni": [
+      "„dacă nu te grăbești”",
+      "„dacă te grăbești”",
+      "„deși te grăbești”",
+      "„când te grăbești”"
+     ],
+     "corect": 0,
+     "explicatie": "„Unless” = „if … not”."
+    }
+   ]
+  },
+  {
+   "semestru": 2,
+   "test": [
+    {
+     "intrebare": "În vorbirea indirectă, timpurile:",
+     "optiuni": [
+      "coboară un nivel",
+      "rămân neschimbate",
+      "urcă un nivel",
+      "devin toate perfecte"
+     ],
+     "corect": 0,
+     "explicatie": "Fenomenul se numește backshift."
+    },
+    {
+     "intrebare": "„Are you coming?” devine:",
+     "optiuni": [
+      "He asked if I was coming.",
+      "He asked was I coming.",
+      "He asked that I come.",
+      "He asked do I come."
+     ],
+     "corect": 0,
+     "explicatie": "Întrebările fără cuvânt interogativ cer „if” sau „whether”."
+    },
+    {
+     "intrebare": "„Don't touch that!” devine:",
+     "optiuni": [
+      "He told me not to touch that.",
+      "He told me don't touch that.",
+      "He said not touch that.",
+      "He asked that I don't touch."
+     ],
+     "corect": 0,
+     "explicatie": "Interdicția se redă cu „not to” plus infinitiv."
+    },
+    {
+     "intrebare": "„Enjoy” este urmat de:",
+     "optiuni": [
+      "gerunziu",
+      "infinitiv cu „to”",
+      "infinitiv fără „to”",
+      "participiu"
+     ],
+     "corect": 0,
+     "explicatie": "„I enjoy reading.”"
+    },
+    {
+     "intrebare": "„Stop to smoke” înseamnă:",
+     "optiuni": [
+      "a te opri pentru a fuma",
+      "a înceta să fumezi",
+      "a evita fumatul",
+      "a fuma mai puțin"
+     ],
+     "corect": 0,
+     "explicatie": "„Stop smoking” înseamnă a înceta."
+    },
+    {
+     "intrebare": "Relativele nedefinitorii:",
+     "optiuni": [
+      "se despart prin virgule și nu admit „that”",
+      "nu se despart prin virgule",
+      "sunt esențiale pentru identificare",
+      "admit orice pronume relativ"
+     ],
+     "corect": 0,
+     "explicatie": "Ele adaugă informație suplimentară."
+    },
+    {
+     "intrebare": "Pronumele relativ se poate omite când:",
+     "optiuni": [
+      "este complement direct într-o relativă definitorie",
+      "este subiect",
+      "relativa e nedefinitorie",
+      "urmează după virgulă"
+     ],
+     "corect": 0,
+     "explicatie": "„The book (that) I read.”"
+    },
+    {
+     "intrebare": "„Topic sentence” este:",
+     "optiuni": [
+      "propoziția care exprimă ideea principală a paragrafului",
+      "concluzia textului",
+      "titlul",
+      "prima frază a introducerii"
+     ],
+     "corect": 0,
+     "explicatie": "Ea orientează întregul paragraf."
+    },
+    {
+     "intrebare": "„Nevertheless” exprimă:",
+     "optiuni": [
+      "contrast",
+      "adăugare",
+      "consecință",
+      "exemplificare"
+     ],
+     "corect": 0,
+     "explicatie": "„Furthermore” exprimă adăugarea."
+    },
+    {
+     "intrebare": "În interacțiunea orală contează în primul rând:",
+     "optiuni": [
+      "fluența",
+      "perfecțiunea gramaticală",
+      "vocabularul rar",
+      "viteza de vorbire"
+     ],
+     "corect": 0,
+     "explicatie": "Pauzele lungi rup comunicarea."
+    },
+    {
+     "intrebare": "„Not given” într-un test înseamnă:",
+     "optiuni": [
+      "textul nu conține informația",
+      "textul afirmă contrariul",
+      "afirmația este falsă",
+      "afirmația e parțial adevărată"
+     ],
+     "corect": 0,
+     "explicatie": "Confuzia cu „false” este eroarea clasică."
+    },
+    {
+     "intrebare": "În engleza academică se evită:",
+     "optiuni": [
+      "prescurtările și colocvialismele",
+      "conectorii logici",
+      "structurile impersonale",
+      "vocabularul de specialitate"
+     ],
+     "corect": 0,
+     "explicatie": "Registrul formal cere precizie."
+    }
+   ]
+  }
+ ]
+}

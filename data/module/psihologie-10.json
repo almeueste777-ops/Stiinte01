@@ -1,0 +1,1726 @@
+{
+ "id": "psihologie-10",
+ "materie": "Psihologie",
+ "clasa": "a X-a",
+ "an": 2,
+ "arie": "Om și societate",
+ "bac": true,
+ "socioUman": true,
+ "descriere": "Procesele psihice, personalitatea și conduita omului: cum percepem, gândim, simțim, ne motivăm și ne raportăm la ceilalți.",
+ "capitole": [
+  {
+   "id": "psi10-c1",
+   "titlu": "Psihologia ca știință",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "psi10-01",
+     "titlu": "Obiectul și problematica psihologiei",
+     "rezumat": "Psihologia este știința care studiază psihicul uman: procesele, însușirile și stările psihice, în unitatea lor și în relația cu comportamentul. Numele vine din greacă — psyche (suflet) și logos (studiu) — dar obiectul ei modern nu mai este „sufletul” metafizic, ci activitatea psihică observabilă prin efectele ei. Psihicul are trei caracteristici fundamentale. Este ideal, adică nu are întindere și nu poate fi cântărit: este imagine, sens, trăire. Este subiectiv, adică aparține unui subiect și poartă amprenta experienței lui. Și este activ: nu doar reflectă realitatea, ci o prelucrează, o anticipează și o transformă prin acțiune. Psihologia s-a desprins de filosofie în 1879, când Wilhelm Wundt a înființat la Leipzig primul laborator de psihologie experimentală. Din acel moment psihicul devine obiect de măsurare, nu doar de speculație. Ramurile principale de azi: psihologia generală, a dezvoltării, socială, a muncii, clinică, educațională.",
+     "ideiCheie": [
+      "Psihologia studiază procesele, însușirile și stările psihice în relația lor cu comportamentul.",
+      "Psihicul este ideal, subiectiv și activ.",
+      "1879, Wilhelm Wundt, Leipzig — primul laborator de psihologie experimentală.",
+      "Psihicul nu doar reflectă realitatea, ci o anticipează și o transformă."
+     ],
+     "termeni": [
+      {
+       "t": "psihic",
+       "d": "ansamblul proceselor, stărilor și însușirilor prin care omul reflectă și transformă realitatea"
+      },
+      {
+       "t": "caracter ideal al psihicului",
+       "d": "însușirea psihicului de a fi imagine și sens, nu substanță materială"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce studiază psihologia?",
+       "v": "Psihicul uman — procese, stări și însușiri — în relația lui cu comportamentul."
+      },
+      {
+       "f": "Cele trei caracteristici ale psihicului",
+       "v": "Ideal, subiectiv, activ."
+      },
+      {
+       "f": "Cine a înființat primul laborator de psihologie experimentală și când?",
+       "v": "Wilhelm Wundt, la Leipzig, în 1879."
+      },
+      {
+       "f": "De ce spunem că psihicul este „activ”?",
+       "v": "Pentru că nu doar reflectă realitatea, ci o prelucrează, o anticipează și o transformă prin acțiune."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Psihologia s-a constituit ca știință de sine stătătoare în:",
+       "optiuni": [
+        "1789",
+        "1879",
+        "1900",
+        "1850"
+       ],
+       "corect": 1,
+       "explicatie": "În 1879 Wundt înființează la Leipzig primul laborator de psihologie experimentală."
+      },
+      {
+       "intrebare": "Afirmația „psihicul este subiectiv” înseamnă că:",
+       "optiuni": [
+        "poartă amprenta experienței celui care îl trăiește",
+        "este arbitrar și fără legătură cu realitatea",
+        "nu poate fi studiat științific",
+        "este identic la toți oamenii"
+       ],
+       "corect": 0,
+       "explicatie": "Subiectivitatea nu înseamnă falsitate, ci apartenență la un subiect concret."
+      },
+      {
+       "intrebare": "Caracterul ideal al psihicului se referă la faptul că:",
+       "optiuni": [
+        "nu are întindere și nu poate fi măsurat direct ca un obiect material",
+        "este perfect",
+        "este înnăscut",
+        "ține de idealurile persoanei"
+       ],
+       "corect": 0,
+       "explicatie": "Psihicul este imagine și sens, cunoscut prin efectele lui."
+      },
+      {
+       "intrebare": "Care dintre următoarele NU este o ramură a psihologiei?",
+       "optiuni": [
+        "psihologia socială",
+        "psihologia dezvoltării",
+        "psihologia muncii",
+        "psihologia mineralelor"
+       ],
+       "corect": 3,
+       "explicatie": "Psihologia studiază fenomene psihice, nu obiecte fizice."
+      }
+     ]
+    },
+    {
+     "id": "psi10-02",
+     "titlu": "Metodele psihologiei",
+     "rezumat": "Observația este urmărirea sistematică a comportamentului în condiții naturale, fără intervenția cercetătorului. Avantaj: surprinde comportamentul autentic. Dezavantaj: nu permite controlul variabilelor și e vulnerabilă la subiectivitatea observatorului. Autoobservația (introspecția) are ca obiect propriile stări; e indispensabilă, dar nu poate fi verificată direct de altcineva. Experimentul introduce o variabilă independentă și măsoară efectul asupra variabilei dependente, ținând restul condițiilor constante. Este singura metodă care permite concluzii despre cauzalitate. Poate fi de laborator (control mare, naturalețe mică) sau natural (invers). Metodele complementare: convorbirea (dialog dirijat), ancheta prin chestionar sau interviu (date de la eșantioane mari), testul psihologic (probă standardizată, cu etalon), metoda biografică (analiza traseului de viață) și analiza produselor activității. Toate cer respectarea eticii: consimțământ informat, confidențialitate, dreptul de retragere.",
+     "ideiCheie": [
+      "Observația surprinde comportamentul natural, dar nu controlează variabilele.",
+      "Experimentul manipulează variabila independentă și e singura care stabilește cauzalitatea.",
+      "Testul psihologic este o probă standardizată, raportată la un etalon.",
+      "Etica cercetării: consimțământ informat, confidențialitate, drept de retragere."
+     ],
+     "termeni": [
+      {
+       "t": "variabilă independentă",
+       "d": "factorul manipulat de cercetător în experiment"
+      },
+      {
+       "t": "variabilă dependentă",
+       "d": "efectul măsurat, despre care se presupune că depinde de variabila independentă"
+      },
+      {
+       "t": "etalon",
+       "d": "sistemul de repere la care se raportează scorul individual la un test"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care metodă permite concluzii despre cauzalitate?",
+       "v": "Experimentul, fiindcă manipulează controlat variabila independentă."
+      },
+      {
+       "f": "Ce este introspecția?",
+       "v": "Autoobservația: urmărirea propriilor stări psihice."
+      },
+      {
+       "f": "Ce face dintr-un test un instrument științific?",
+       "v": "Standardizarea aplicării și raportarea la un etalon."
+      },
+      {
+       "f": "Trei cerințe etice ale cercetării psihologice",
+       "v": "Consimțământ informat, confidențialitate, dreptul participantului de a se retrage."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Singura metodă care permite stabilirea unei relații cauzale este:",
+       "optiuni": [
+        "observația",
+        "experimentul",
+        "ancheta",
+        "metoda biografică"
+       ],
+       "corect": 1,
+       "explicatie": "Doar manipularea controlată a unei variabile arată ce produce efectul."
+      },
+      {
+       "intrebare": "Un test psihologic se deosebește de o simplă probă prin faptul că:",
+       "optiuni": [
+        "este standardizat și raportat la un etalon",
+        "are întrebări mai grele",
+        "se aplică doar copiilor",
+        "se aplică în laborator"
+       ],
+       "corect": 0,
+       "explicatie": "Standardizarea și etalonul fac scorurile comparabile între persoane."
+      },
+      {
+       "intrebare": "Dezavantajul principal al experimentului de laborator este:",
+       "optiuni": [
+        "naturalețea redusă a situației",
+        "imposibilitatea măsurării",
+        "lipsa controlului variabilelor",
+        "costul zero"
+       ],
+       "corect": 0,
+       "explicatie": "Controlul strict se plătește cu o situație artificială."
+      },
+      {
+       "intrebare": "Consimțământul informat înseamnă că participantul:",
+       "optiuni": [
+        "acceptă să participe după ce a fost informat asupra scopului și condițiilor",
+        "semnează după încheierea cercetării",
+        "nu află niciodată scopul studiului",
+        "este obligat să continue până la final"
+       ],
+       "corect": 0,
+       "explicatie": "Etica cercetării cere informare prealabilă și libertatea de a refuza sau a se retrage."
+      }
+     ]
+    },
+    {
+     "id": "psi10-03",
+     "titlu": "Ipostazele ființei umane",
+     "rezumat": "Omul este, simultan, ființă biologică, psihologică și socioculturală. Ca organism, are un sistem nervos, o zestre genetică și nevoi fiziologice. Ca subiect psihologic, are conștiință, memorie, voință, identitate. Ca ființă socioculturală, se formează într-un limbaj, o cultură și o rețea de relații care îi structurează chiar modul de a gândi. Dezbaterea ereditate–mediu (nature–nurture) a trecut prin trei etape: nativismul (totul e înnăscut), ambientalismul (totul e învățat) și poziția interacționistă de azi, singura susținută de date: potențialul e dat ereditar, dar se actualizează doar în anumite condiții de mediu, iar mediul acționează diferit asupra unor zestre diferite. Cazurile copiilor sălbatici (Victor din Aveyron, Kaspar Hauser, Genie) arată limita: fără interacțiune umană în perioada critică, potențialul lingvistic și social nu se mai actualizează complet. Umanitatea nu e doar moștenită, ci și dobândită prin relație.",
+     "ideiCheie": [
+      "Omul este simultan ființă biologică, psihologică și socioculturală.",
+      "Poziția interacționistă: ereditatea dă potențialul, mediul îl actualizează.",
+      "Perioadele critice: ce nu se dezvoltă la timp poate rămâne definitiv nedezvoltat.",
+      "Cazurile copiilor sălbatici arată rolul indispensabil al mediului social."
+     ],
+     "termeni": [
+      {
+       "t": "perioadă critică",
+       "d": "intervalul de vârstă în care o funcție psihică se poate dezvolta optim"
+      },
+      {
+       "t": "interacționism",
+       "d": "poziția potrivit căreia ereditatea și mediul acționează împreună, nu separat"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt cele trei ipostaze ale ființei umane?",
+       "v": "Biologică, psihologică, socioculturală."
+      },
+      {
+       "f": "Ce susține poziția interacționistă?",
+       "v": "Ereditatea oferă potențialul, iar mediul îl actualizează; niciunul nu acționează singur."
+      },
+      {
+       "f": "Ce arată cazul copiilor sălbatici?",
+       "v": "Că fără interacțiune umană în perioada critică, potențialul lingvistic și social nu se mai actualizează complet."
+      },
+      {
+       "f": "Ce este o perioadă critică?",
+       "v": "Intervalul de vârstă în care o funcție psihică se poate dezvolta optim."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Poziția susținută astăzi de date în disputa ereditate–mediu este:",
+       "optiuni": [
+        "nativismul",
+        "ambientalismul",
+        "interacționismul",
+        "indeterminismul"
+       ],
+       "corect": 2,
+       "explicatie": "Potențialul ereditar se actualizează doar în condiții de mediu potrivite."
+      },
+      {
+       "intrebare": "Cazul lui Victor din Aveyron ilustrează:",
+       "optiuni": [
+        "rolul indispensabil al mediului social în dezvoltarea umană",
+        "superioritatea eredității",
+        "inutilitatea educației",
+        "existența instinctelor lingvistice complete"
+       ],
+       "corect": 0,
+       "explicatie": "Fără contact uman timpuriu, limbajul nu s-a mai dezvoltat complet."
+      },
+      {
+       "intrebare": "„Perioadă critică” denumește:",
+       "optiuni": [
+        "intervalul optim pentru dezvoltarea unei funcții psihice",
+        "o criză de identitate la adolescență",
+        "o perioadă de conflict social",
+        "un moment de decizie morală"
+       ],
+       "corect": 0,
+       "explicatie": "După acest interval, dezvoltarea funcției e mult mai dificilă sau imposibilă."
+      },
+      {
+       "intrebare": "Ipostaza socioculturală a omului se referă la faptul că:",
+       "optiuni": [
+        "se formează într-un limbaj, o cultură și o rețea de relații",
+        "are un sistem nervos",
+        "are conștiință de sine",
+        "are nevoi fiziologice"
+       ],
+       "corect": 0,
+       "explicatie": "Celelalte trei descriu ipostaza biologică sau pe cea psihologică."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "psi10-c2",
+   "titlu": "Procese cognitive senzoriale",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "psi10-04",
+     "titlu": "Senzațiile",
+     "rezumat": "Senzația este procesul psihic elementar prin care se reflectă o însușire separată a unui obiect care acționează direct asupra unui analizator. Analizatorul are trei segmente: receptorul (transformă stimulul în impuls nervos), calea de conducere și segmentul cortical, unde impulsul devine imagine. Legile senzațiilor. Legea pragurilor: există un prag minimal (cea mai slabă intensitate care produce senzație), un prag maximal și un prag diferențial (cea mai mică diferență sesizabilă). Legea adaptării: sensibilitatea se modifică în funcție de intensitatea stimulului — ochiul se adaptează la întuneric, mirosul unei camere dispare după câteva minute. Legea contrastului: doi stimuli alăturați se accentuează reciproc. Legea interacțiunii analizatorilor: stimularea unuia modifică sensibilitatea celuilalt. Legea semnificației: un stimul slab, dar important, e sesizat mai ușor decât unul puternic și indiferent. Sensibilitatea și pragul stau în raport invers: cu cât pragul minimal e mai mic, cu atât sensibilitatea e mai mare.",
+     "ideiCheie": [
+      "Senzația reflectă o însușire separată a obiectului care acționează direct asupra analizatorului.",
+      "Analizatorul are trei segmente: receptor, cale de conducere, zonă corticală.",
+      "Legile: praguri, adaptare, contrast, interacțiunea analizatorilor, semnificație.",
+      "Sensibilitatea variază invers față de pragul minimal."
+     ],
+     "termeni": [
+      {
+       "t": "prag minimal absolut",
+       "d": "intensitatea cea mai mică a unui stimul care produce o senzație"
+      },
+      {
+       "t": "prag diferențial",
+       "d": "diferența minimă dintre doi stimuli care poate fi sesizată"
+      },
+      {
+       "t": "adaptare senzorială",
+       "d": "modificarea sensibilității în funcție de intensitatea și durata stimulului"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce reflectă senzația?",
+       "v": "O însușire separată a unui obiect care acționează direct asupra analizatorului."
+      },
+      {
+       "f": "Care sunt segmentele analizatorului?",
+       "v": "Receptorul, calea de conducere și segmentul cortical."
+      },
+      {
+       "f": "Ce raport este între sensibilitate și pragul minimal?",
+       "v": "Invers: prag mai mic înseamnă sensibilitate mai mare."
+      },
+      {
+       "f": "Ce spune legea semnificației?",
+       "v": "Un stimul slab, dar important pentru subiect, este sesizat mai ușor decât unul puternic, dar indiferent."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Faptul că nu mai simțim mirosul din propria cameră după câteva minute ilustrează legea:",
+       "optiuni": [
+        "contrastului",
+        "adaptării",
+        "semnificației",
+        "pragurilor"
+       ],
+       "corect": 1,
+       "explicatie": "Sensibilitatea scade la acțiunea prelungită a aceluiași stimul."
+      },
+      {
+       "intrebare": "Sensibilitatea este cu atât mai mare cu cât pragul minimal absolut este:",
+       "optiuni": [
+        "mai mic",
+        "mai mare",
+        "egal cu pragul maximal",
+        "constant"
+       ],
+       "corect": 0,
+       "explicatie": "Detectarea unor stimuli tot mai slabi înseamnă sensibilitate mai fină."
+      },
+      {
+       "intrebare": "O mamă se trezește la scâncetul copilului, dar nu la zgomotul străzii. Este legea:",
+       "optiuni": [
+        "semnificației",
+        "adaptării",
+        "contrastului",
+        "interacțiunii analizatorilor"
+       ],
+       "corect": 0,
+       "explicatie": "Semnificația personală a stimulului coboară pragul de detecție."
+      },
+      {
+       "intrebare": "Segmentul în care impulsul nervos devine imagine senzorială este:",
+       "optiuni": [
+        "receptorul",
+        "calea de conducere",
+        "segmentul cortical",
+        "organul de simț"
+       ],
+       "corect": 2,
+       "explicatie": "Senzația se produce în scoarța cerebrală, nu în organul de simț."
+      }
+     ]
+    },
+    {
+     "id": "psi10-05",
+     "titlu": "Percepțiile",
+     "rezumat": "Percepția reflectă obiectul în integralitatea însușirilor lui, ca imagine unitară, aici și acum. Spre deosebire de senzație, care dă o însușire izolată, percepția dă obiectul. Fazele ei: detecția (ceva există), discriminarea (se desprinde de fond), identificarea (se recunoaște ce este) și interpretarea (se atribuie sens și utilitate). Legile percepției: integralitatea (percepem întregul, nu suma părților), structuralitatea (însușirile dominante organizează imaginea), selectivitatea (raportul figură–fond: ceea ce reținem devine figură, restul fond), constanța (obiectul e perceput la fel deși distanța și lumina se schimbă), semnificația (percepem mai bine ceea ce înțelegem) și proiectivitatea (imaginea, formată în creier, e proiectată la locul obiectului). Iluziile perceptive nu sunt defecte ale ochiului, ci consecințe ale acelorași legi: creierul aplică reguli utile în majoritatea cazurilor, iar în situații special construite regula dă un rezultat fals — iluzia Müller-Lyer, iluzia lunii, cubul Necker.",
+     "ideiCheie": [
+      "Percepția reflectă obiectul ca întreg, nu însușiri izolate.",
+      "Fazele: detecție, discriminare, identificare, interpretare.",
+      "Legi: integralitate, structuralitate, selectivitate, constanță, semnificație, proiectivitate.",
+      "Iluziile rezultă din aplicarea acelorași legi în situații atipice."
+     ],
+     "termeni": [
+      {
+       "t": "raport figură–fond",
+       "d": "organizarea câmpului perceptiv într-un obiect desprins pe un fundal"
+      },
+      {
+       "t": "constanța perceptivă",
+       "d": "menținerea imaginii obiectului deși condițiile de observare se schimbă"
+      },
+      {
+       "t": "iluzie perceptivă",
+       "d": "percepție deformată produsă de aplicarea normală a legilor percepției într-o situație atipică"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Prin ce se deosebește percepția de senzație?",
+       "v": "Senzația dă o însușire izolată, percepția dă obiectul în integralitatea lui."
+      },
+      {
+       "f": "Care sunt fazele percepției?",
+       "v": "Detecție, discriminare, identificare, interpretare."
+      },
+      {
+       "f": "Ce este constanța perceptivă?",
+       "v": "Perceperea obiectului la aceleași dimensiuni și culoare, deși distanța și lumina se schimbă."
+      },
+      {
+       "f": "De ce apar iluziile perceptive?",
+       "v": "Pentru că regulile normale ale percepției dau rezultate false în situații special construite."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Faptul că percepem o farfurie ca rotundă chiar privită oblic ilustrează legea:",
+       "optiuni": [
+        "constanței",
+        "selectivității",
+        "proiectivității",
+        "semnificației"
+       ],
+       "corect": 0,
+       "explicatie": "Imaginea retiniană e eliptică, dar percepția păstrează forma reală."
+      },
+      {
+       "intrebare": "Ordinea corectă a fazelor percepției este:",
+       "optiuni": [
+        "detecție, discriminare, identificare, interpretare",
+        "identificare, detecție, interpretare, discriminare",
+        "interpretare, identificare, discriminare, detecție",
+        "discriminare, interpretare, detecție, identificare"
+       ],
+       "corect": 0,
+       "explicatie": "Se pornește de la simpla prezență și se ajunge la sens."
+      },
+      {
+       "intrebare": "Legea selectivității se exprimă prin:",
+       "optiuni": [
+        "raportul figură–fond",
+        "constanța mărimii",
+        "proiectivitatea imaginii",
+        "adaptarea senzorială"
+       ],
+       "corect": 0,
+       "explicatie": "Din câmpul perceptiv se desprinde o figură pe un fond."
+      },
+      {
+       "intrebare": "Iluziile perceptive dovedesc că percepția:",
+       "optiuni": [
+        "este o construcție activă, guvernată de reguli",
+        "este o simplă copie a realității",
+        "este un defect al organelor de simț",
+        "nu poate fi studiată științific"
+       ],
+       "corect": 0,
+       "explicatie": "Regula care e utilă în majoritatea cazurilor produce eroare în cazuri atipice."
+      }
+     ]
+    },
+    {
+     "id": "psi10-06",
+     "titlu": "Reprezentările",
+     "rezumat": "Reprezentarea este imaginea unui obiect absent, reactualizată pe baza experienței anterioare. Este puntea dintre senzorial și logic: păstrează caracterul intuitiv al percepției, dar are deja un grad de generalitate, fiindcă reține însușirile constante și le pierde pe cele întâmplătoare. Caracteristici: e figurativă (are formă și culoare), panoramică (obiectul poate fi cuprins simultan din mai multe laturi, ceea ce percepția nu permite), mai palidă și mai instabilă decât percepția, și selectivă — se reține ce a fost semnificativ. Funcțiile reprezentării: pregătește generalizarea conceptuală, susține memoria și imaginația, ghidează acțiunea (reprezentarea traseului înainte de a porni la drum) și stă la baza deprinderilor motrice — un gimnast își reprezintă mișcarea înainte de a o executa.",
+     "ideiCheie": [
+      "Reprezentarea este imaginea unui obiect absent, bazată pe experiența anterioară.",
+      "Este puntea dintre senzorial și logic: intuitivă, dar deja generalizatoare.",
+      "Este figurativă, panoramică, mai palidă și mai instabilă decât percepția.",
+      "Ghidează acțiunea și pregătește formarea noțiunilor."
+     ],
+     "termeni": [
+      {
+       "t": "reprezentare",
+       "d": "imaginea unui obiect absent, reactualizată din experiența anterioară"
+      },
+      {
+       "t": "caracter panoramic",
+       "d": "însușirea reprezentării de a cuprinde simultan laturi ale obiectului care în percepție nu pot fi văzute deodată"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este reprezentarea?",
+       "v": "Imaginea unui obiect absent, reactualizată pe baza experienței anterioare."
+      },
+      {
+       "f": "De ce e reprezentarea „puntea” dintre senzorial și logic?",
+       "v": "Pentru că păstrează caracterul intuitiv, dar reține doar însușirile constante, deci generalizează."
+      },
+      {
+       "f": "Ce înseamnă caracterul panoramic al reprezentării?",
+       "v": "Că obiectul poate fi cuprins simultan din mai multe laturi, imposibil în percepție."
+      },
+      {
+       "f": "Dă o funcție practică a reprezentării.",
+       "v": "Ghidarea acțiunii — de exemplu reprezentarea traseului înainte de a porni la drum."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Reprezentarea se deosebește de percepție prin faptul că:",
+       "optiuni": [
+        "obiectul este absent",
+        "este mai vie și mai precisă",
+        "nu are conținut intuitiv",
+        "nu depinde de experiență"
+       ],
+       "corect": 0,
+       "explicatie": "Percepția cere prezența obiectului; reprezentarea, nu."
+      },
+      {
+       "intrebare": "Caracterul panoramic al reprezentării înseamnă că:",
+       "optiuni": [
+        "obiectul poate fi cuprins simultan din mai multe laturi",
+        "imaginea e colorată",
+        "imaginea e foarte stabilă",
+        "imaginea e identică pentru toți"
+       ],
+       "corect": 0,
+       "explicatie": "În percepție vedem o singură față a obiectului odată."
+      },
+      {
+       "intrebare": "Reprezentarea este considerată o punte pentru că:",
+       "optiuni": [
+        "e intuitivă ca percepția, dar generalizatoare ca noțiunea",
+        "e mai palidă decât percepția",
+        "apare doar în somn",
+        "ține exclusiv de memorie"
+       ],
+       "corect": 0,
+       "explicatie": "Ea reține însușirile constante, pregătind conceptul."
+      },
+      {
+       "intrebare": "Un sportiv care își „vede” mișcarea înainte de a o executa folosește:",
+       "optiuni": [
+        "reprezentarea",
+        "senzația",
+        "percepția",
+        "atenția involuntară"
+       ],
+       "corect": 0,
+       "explicatie": "Obiectul acțiunii este absent, dar imaginea lui ghidează execuția."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "psi10-c3",
+   "titlu": "Procese cognitive superioare",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "psi10-07",
+     "titlu": "Gândirea",
+     "rezumat": "Gândirea este procesul cognitiv superior care reflectă însușirile esențiale și necesare ale realității, prin operații logice, în absența contactului direct cu obiectul. Unitățile ei de bază sunt noțiunile (empirice, formate spontan din experiență, și științifice, formate sistematic prin instruire), judecățile și raționamentele. Operațiile gândirii: analiza (descompunerea mintală în părți), sinteza (reunirea într-un întreg), comparația (stabilirea asemănărilor și deosebirilor), abstractizarea (reținerea unei însușiri și ignorarea celorlalte), generalizarea (extinderea la întreaga clasă) și concretizarea (aplicarea generalului la un caz). Rezolvarea de probleme parcurge etape: identificarea problemei, formularea ipotezelor, verificarea lor, alegerea soluției. Obstacolele tipice: fixitatea funcțională (vedem obiectul doar în funcția lui obișnuită) și setul mintal (aplicăm o strategie care a mers înainte, deși acum nu se potrivește). Algoritmul garantează soluția, dar e lent; euristica e rapidă, dar nu garantează nimic.",
+     "ideiCheie": [
+      "Gândirea reflectă însușirile esențiale și necesare, prin operații logice.",
+      "Noțiunile pot fi empirice (spontane) sau științifice (sistematice).",
+      "Operațiile: analiză, sinteză, comparație, abstractizare, generalizare, concretizare.",
+      "Algoritm = soluție garantată, dar lentă; euristică = rapidă, dar fără garanție."
+     ],
+     "termeni": [
+      {
+       "t": "abstractizare",
+       "d": "operația de reținere a unei însușiri și de ignorare a celorlalte"
+      },
+      {
+       "t": "fixitate funcțională",
+       "d": "obstacol în rezolvarea de probleme: obiectul e văzut doar în funcția lui obișnuită"
+      },
+      {
+       "t": "euristică",
+       "d": "strategie rapidă de rezolvare, fără garanția soluției"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce reflectă gândirea?",
+       "v": "Însușirile esențiale și necesare ale realității, prin operații logice."
+      },
+      {
+       "f": "Diferența dintre algoritm și euristică",
+       "v": "Algoritmul garantează soluția, dar e lent; euristica e rapidă, dar nu garantează."
+      },
+      {
+       "f": "Ce este fixitatea funcțională?",
+       "v": "Tendința de a vedea un obiect doar în funcția lui obișnuită, care blochează rezolvarea."
+      },
+      {
+       "f": "Numește trei operații ale gândirii.",
+       "v": "Analiza, sinteza, comparația (plus abstractizarea, generalizarea, concretizarea)."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Operația prin care se reține o singură însușire, ignorându-le pe celelalte, este:",
+       "optiuni": [
+        "analiza",
+        "abstractizarea",
+        "comparația",
+        "concretizarea"
+       ],
+       "corect": 1,
+       "explicatie": "Abstractizarea izolează mintal însușirea esențială."
+      },
+      {
+       "intrebare": "Un elev nu se gândește să folosească rigla drept pârghie. Este un caz de:",
+       "optiuni": [
+        "fixitate funcțională",
+        "set mintal",
+        "lipsă de atenție",
+        "deficit de memorie"
+       ],
+       "corect": 0,
+       "explicatie": "Obiectul e văzut doar în funcția lui obișnuită de măsurare."
+      },
+      {
+       "intrebare": "Diferența dintre algoritm și euristică este că algoritmul:",
+       "optiuni": [
+        "garantează soluția, dar cere mai mult timp",
+        "este mai rapid, dar nesigur",
+        "se aplică doar la matematică",
+        "nu poate fi învățat"
+       ],
+       "corect": 0,
+       "explicatie": "Euristica e scurtătura care merge de obicei, dar nu întotdeauna."
+      },
+      {
+       "intrebare": "Noțiunile științifice se deosebesc de cele empirice prin faptul că:",
+       "optiuni": [
+        "se formează sistematic, prin instruire",
+        "sunt mai vagi",
+        "apar mai devreme în dezvoltare",
+        "nu pot fi definite"
+       ],
+       "corect": 0,
+       "explicatie": "Noțiunile empirice se formează spontan, din experiența nemijlocită."
+      }
+     ]
+    },
+    {
+     "id": "psi10-08",
+     "titlu": "Memoria",
+     "rezumat": "Memoria este procesul de întipărire, păstrare și reactualizare a informației. Cele trei procese ale ei sunt encodarea (transformarea informației în formă utilizabilă), stocarea (păstrarea în timp) și recuperarea, care ia forma recunoașterii (mai ușoară) sau a reproducerii (mai grea). Modelul celor trei niveluri: memoria senzorială (sub o secundă, capacitate mare), memoria de scurtă durată sau de lucru (aproximativ 7 ± 2 unități, circa 20 de secunde fără repetare) și memoria de lungă durată (capacitate practic nelimitată, durată nelimitată). Trecerea de la scurtă la lungă durată se face prin repetare elaborativă, adică prin legarea de ceea ce știi deja — nu prin simpla repetare mecanică. Uitarea urmează curba lui Ebbinghaus: pierdere rapidă în primele ore, apoi lentă. Cauzele: ștergerea urmei, interferența (proactivă și retroactivă) și eșecul recuperării. Combaterea practică: repetiția eșalonată în timp (mai eficientă decât înghesuirea), testarea activă (efectul testării) și organizarea materialului în structuri cu sens.",
+     "ideiCheie": [
+      "Procesele memoriei: encodare, stocare, reactualizare (recunoaștere sau reproducere).",
+      "Memoria de scurtă durată: circa 7 ± 2 unități, aproximativ 20 de secunde fără repetare.",
+      "Repetarea elaborativă, nu cea mecanică, trece informația în memoria de lungă durată.",
+      "Uitarea e rapidă la început (curba Ebbinghaus); repetiția eșalonată o combate cel mai bine."
+     ],
+     "termeni": [
+      {
+       "t": "repetare elaborativă",
+       "d": "fixare prin legarea informației noi de cunoștințe deja stocate"
+      },
+      {
+       "t": "interferență retroactivă",
+       "d": "perturbarea informației vechi de către informația nou învățată"
+      },
+      {
+       "t": "efectul testării",
+       "d": "fixarea mai bună obținută prin reactualizarea activă, nu prin recitire"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt cele trei procese ale memoriei?",
+       "v": "Encodarea, stocarea și reactualizarea."
+      },
+      {
+       "f": "Care este capacitatea memoriei de scurtă durată?",
+       "v": "Aproximativ 7 ± 2 unități de informație."
+      },
+      {
+       "f": "Ce arată curba lui Ebbinghaus?",
+       "v": "Că uitarea e foarte rapidă în primele ore și apoi devine lentă."
+      },
+      {
+       "f": "Ce e mai eficient: recitirea sau testarea activă?",
+       "v": "Testarea activă — este efectul testării."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Capacitatea memoriei de scurtă durată este de aproximativ:",
+       "optiuni": [
+        "3 ± 1 unități",
+        "7 ± 2 unități",
+        "20 ± 5 unități",
+        "nelimitată"
+       ],
+       "corect": 1,
+       "explicatie": "Limita clasică descrisă de George Miller."
+      },
+      {
+       "intrebare": "Reactualizarea prin recunoaștere este, față de reproducere:",
+       "optiuni": [
+        "mai ușoară",
+        "mai grea",
+        "identică",
+        "imposibilă"
+       ],
+       "corect": 0,
+       "explicatie": "La recunoaștere informația e prezentă și trebuie doar identificată."
+      },
+      {
+       "intrebare": "Cel mai eficient mod de a trece o informație în memoria de lungă durată este:",
+       "optiuni": [
+        "repetarea elaborativă, cu legarea de ce știi deja",
+        "repetarea mecanică rapidă",
+        "citirea o singură dată, cu atenție",
+        "învățarea în ultima seară"
+       ],
+       "corect": 0,
+       "explicatie": "Legăturile de sens creează multiple căi de recuperare."
+      },
+      {
+       "intrebare": "Interferența retroactivă înseamnă că:",
+       "optiuni": [
+        "informația nou învățată perturbă informația veche",
+        "informația veche perturbă informația nouă",
+        "informația se șterge de la sine",
+        "informația nu poate fi recuperată din cauza emoției"
+       ],
+       "corect": 0,
+       "explicatie": "Situația inversă se numește interferență proactivă."
+      }
+     ]
+    },
+    {
+     "id": "psi10-09",
+     "titlu": "Imaginația și limbajul",
+     "rezumat": "Imaginația combină și transformă datele experienței pentru a produce imagini și proiecte noi. Este reproductivă atunci când reconstituie ceva ce nu am trăit direct (imaginea unei epoci istorice după un text) și creatoare atunci când produce un rezultat nou și valoros. Visul din timpul somnului și reveria sunt forme involuntare. Procedeele imaginației: aglutinarea (contopirea unor părți în ființe noi — sirena, centaurul), amplificarea și diminuarea (uriașii, piticii), multiplicarea sau omisiunea (balaurul cu șapte capete, ciclopul), schematizarea (harta, schița), tipizarea (personajul care condensează trăsăturile unei categorii) și analogia (cea mai fecundă în știință). Limbajul este activitatea de comunicare prin limbă. Limba e un sistem social de semne; limbajul e folosirea lui individuală. Funcțiile limbajului: de comunicare, cognitivă (fixează noțiunile), reglatorie (limbajul intern ghidează acțiunea) și expresivă. Limbajul intern este scurtat, predicativ și extrem de rapid — el susține gândirea.",
+     "ideiCheie": [
+      "Imaginația reproductivă reconstituie; imaginația creatoare produce ceva nou și valoros.",
+      "Procedee: aglutinare, amplificare/diminuare, multiplicare/omisiune, schematizare, tipizare, analogie.",
+      "Limba este sistemul social de semne; limbajul este folosirea lui individuală.",
+      "Limbajul intern este scurtat, predicativ și rapid; susține gândirea."
+     ],
+     "termeni": [
+      {
+       "t": "aglutinare",
+       "d": "procedeu al imaginației prin care părți ale unor obiecte diferite se contopesc într-un întreg nou"
+      },
+      {
+       "t": "tipizare",
+       "d": "procedeu prin care se creează un personaj ce condensează trăsăturile unei categorii"
+      },
+      {
+       "t": "limbaj intern",
+       "d": "vorbirea pentru sine, scurtată și predicativă, care susține gândirea"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este imaginația reproductivă?",
+       "v": "Reconstituirea, prin imagini, a ceva ce nu am trăit direct."
+      },
+      {
+       "f": "Ce procedeu al imaginației a produs sirena?",
+       "v": "Aglutinarea — contopirea unor părți diferite într-un întreg nou."
+      },
+      {
+       "f": "Care e deosebirea dintre limbă și limbaj?",
+       "v": "Limba e sistemul social de semne; limbajul e folosirea lui individuală."
+      },
+      {
+       "f": "Ce caracterizează limbajul intern?",
+       "v": "Este scurtat, predicativ și foarte rapid; ghidează acțiunea și susține gândirea."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Centaurul și sirena sunt produse ale procedeului numit:",
+       "optiuni": [
+        "aglutinare",
+        "schematizare",
+        "tipizare",
+        "amplificare"
+       ],
+       "corect": 0,
+       "explicatie": "Se contopesc părți provenite din ființe diferite."
+      },
+      {
+       "intrebare": "Deosebirea dintre limbă și limbaj este că limba:",
+       "optiuni": [
+        "este un sistem social de semne, iar limbajul folosirea lui individuală",
+        "este individuală, iar limbajul social",
+        "se referă doar la scris",
+        "nu are reguli"
+       ],
+       "corect": 0,
+       "explicatie": "Limba preexistă individului; limbajul e actul lui de vorbire."
+      },
+      {
+       "intrebare": "Funcția reglatorie a limbajului se manifestă mai ales prin:",
+       "optiuni": [
+        "limbajul intern, care ghidează acțiunea",
+        "scrierea unei scrisori",
+        "recitarea unei poezii",
+        "traducerea unui text"
+       ],
+       "corect": 0,
+       "explicatie": "Vorbirea pentru sine planifică și controlează comportamentul."
+      },
+      {
+       "intrebare": "Personajul literar care condensează trăsăturile unei întregi categorii sociale este rezultatul:",
+       "optiuni": [
+        "tipizării",
+        "omisiunii",
+        "diminuării",
+        "analogiei"
+       ],
+       "corect": 0,
+       "explicatie": "Tipizarea reunește într-o figură trăsăturile definitorii ale unei categorii."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "psi10-c4",
+   "titlu": "Procese reglatorii",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "psi10-10",
+     "titlu": "Motivația",
+     "rezumat": "Motivația este ansamblul factorilor interni care declanșează, orientează și susțin comportamentul. Structurile ei, în ordinea complexității: trebuința (dezechilibru resimțit), motivul (trebuința conștientizată și legată de un obiect), interesul (orientarea stabilă spre un domeniu), convingerea (motiv cu încărcătură valorică) și idealul (proiect de viață). După sursă, motivația e intrinsecă (activitatea e scop în sine — învăț fiindcă mă interesează) sau extrinsecă (activitatea e mijloc — învăț pentru notă). Motivația intrinsecă produce performanțe mai stabile și rezistă mai bine în timp. Piramida lui Maslow ordonează trebuințele: fiziologice, de securitate, de apartenență și dragoste, de stimă, de autorealizare. Trebuințele superioare devin active abia după satisfacerea rezonabilă a celor inferioare. Legea Yerkes-Dodson arată că randamentul crește cu intensitatea motivației doar până la un optim; peste el, supramotivarea dezorganizează — iar optimul e cu atât mai jos cu cât sarcina e mai dificilă.",
+     "ideiCheie": [
+      "Structuri motivaționale: trebuință, motiv, interes, convingere, ideal.",
+      "Motivația intrinsecă susține performanțe mai stabile decât cea extrinsecă.",
+      "Maslow: trebuințele superioare se activează după satisfacerea celor inferioare.",
+      "Yerkes-Dodson: există un optim motivațional; supramotivarea scade randamentul."
+     ],
+     "termeni": [
+      {
+       "t": "motivație intrinsecă",
+       "d": "motivație în care activitatea însăși este scopul"
+      },
+      {
+       "t": "optim motivațional",
+       "d": "nivelul de activare la care randamentul este maxim pentru o sarcină dată"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt structurile motivaționale, în ordinea complexității?",
+       "v": "Trebuință, motiv, interes, convingere, ideal."
+      },
+      {
+       "f": "Ce spune legea Yerkes-Dodson?",
+       "v": "Randamentul crește cu motivația până la un optim; peste acest nivel, scade."
+      },
+      {
+       "f": "Cum se ordonează trebuințele la Maslow?",
+       "v": "Fiziologice, de securitate, de apartenență, de stimă, de autorealizare."
+      },
+      {
+       "f": "De ce e mai valoroasă motivația intrinsecă?",
+       "v": "Produce performanțe mai stabile și rezistă mai bine în timp."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Un elev care învață pentru că subiectul îl pasionează are o motivație:",
+       "optiuni": [
+        "intrinsecă",
+        "extrinsecă",
+        "negativă",
+        "cognitivă exterioară"
+       ],
+       "corect": 0,
+       "explicatie": "Activitatea este scop în sine, nu mijloc pentru altceva."
+      },
+      {
+       "intrebare": "Potrivit legii Yerkes-Dodson, cu cât sarcina este mai dificilă, cu atât optimul motivațional este:",
+       "optiuni": [
+        "mai scăzut",
+        "mai ridicat",
+        "același",
+        "inexistent"
+       ],
+       "corect": 0,
+       "explicatie": "La sarcini grele, activarea prea mare dezorganizează execuția."
+      },
+      {
+       "intrebare": "În piramida lui Maslow, trebuința de stimă se află:",
+       "optiuni": [
+        "la bază",
+        "deasupra trebuinței de apartenență",
+        "sub trebuința de securitate",
+        "în afara piramidei"
+       ],
+       "corect": 1,
+       "explicatie": "Ordinea: fiziologice, securitate, apartenență, stimă, autorealizare."
+      },
+      {
+       "intrebare": "Convingerea se deosebește de simplul motiv prin:",
+       "optiuni": [
+        "încărcătura ei valorică",
+        "intensitatea fiziologică",
+        "durata scurtă",
+        "caracterul inconștient"
+       ],
+       "corect": 0,
+       "explicatie": "Convingerea leagă motivul de un sistem de valori personale."
+      }
+     ]
+    },
+    {
+     "id": "psi10-11",
+     "titlu": "Afectivitatea",
+     "rezumat": "Procesele afective exprimă raportul dintre situație și trebuințele subiectului. Au trei componente: trăirea subiectivă, manifestările fiziologice (ritm cardiac, transpirație) și expresia comportamentală (mimică, gestică, tonul vocii). Cele două dimensiuni fundamentale sunt polaritatea (plăcut–neplăcut) și intensitatea. Formele afectivității, de la simplu la complex: tonul afectiv al proceselor cognitive, emoțiile (de scurtă durată, legate de o situație), dispozițiile afective (difuze, de durată, fără obiect precis), sentimentele (stabile, structurate, orientate spre un obiect) și pasiunile (sentimente de intensitate mare care subordonează întreaga personalitate). Afectele sunt explozii afective scurte, cu control voluntar redus — furia, panica. Stresul apare când cerințele depășesc resursele percepute. Selye descrie sindromul general de adaptare în trei faze: alarmă, rezistență, epuizare. Strategiile de coping sunt centrate pe problemă (schimbă situația) sau pe emoție (schimbă trăirea); prima e mai eficientă când situația poate fi controlată, a doua când nu poate.",
+     "ideiCheie": [
+      "Componentele afectivității: trăire subiectivă, manifestări fiziologice, expresie comportamentală.",
+      "Emoția e legată de o situație; dispoziția e difuză; sentimentul e stabil; pasiunea subordonează personalitatea.",
+      "Sindromul general de adaptare (Selye): alarmă, rezistență, epuizare.",
+      "Coping centrat pe problemă vs. centrat pe emoție."
+     ],
+     "termeni": [
+      {
+       "t": "dispoziție afectivă",
+       "d": "stare afectivă difuză, de durată, fără un obiect precis"
+      },
+      {
+       "t": "afect",
+       "d": "explozie afectivă scurtă și intensă, cu control voluntar redus"
+      },
+      {
+       "t": "coping",
+       "d": "ansamblul strategiilor prin care persoana face față stresului"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt cele trei componente ale unui proces afectiv?",
+       "v": "Trăirea subiectivă, manifestările fiziologice și expresia comportamentală."
+      },
+      {
+       "f": "Prin ce se deosebește sentimentul de emoție?",
+       "v": "Sentimentul este stabil și structurat; emoția e scurtă și legată de o situație."
+      },
+      {
+       "f": "Care sunt fazele sindromului general de adaptare?",
+       "v": "Alarmă, rezistență, epuizare."
+      },
+      {
+       "f": "Când e mai potrivit copingul centrat pe emoție?",
+       "v": "Când situația nu poate fi controlată."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "O stare afectivă difuză, de durată, fără un obiect precis, este:",
+       "optiuni": [
+        "emoția",
+        "dispoziția afectivă",
+        "pasiunea",
+        "afectul"
+       ],
+       "corect": 1,
+       "explicatie": "Dispoziția colorează întreaga activitate, fără să aibă o cauză determinată."
+      },
+      {
+       "intrebare": "Fazele sindromului general de adaptare descris de Selye sunt:",
+       "optiuni": [
+        "alarmă, rezistență, epuizare",
+        "alarmă, panică, refacere",
+        "tensiune, criză, soluție",
+        "stres, coping, adaptare"
+       ],
+       "corect": 0,
+       "explicatie": "Epuizarea apare când resursele de adaptare se consumă."
+      },
+      {
+       "intrebare": "Pasiunea se deosebește de sentiment prin faptul că:",
+       "optiuni": [
+        "are intensitate mare și subordonează întreaga personalitate",
+        "este mai scurtă",
+        "este involuntară",
+        "nu are obiect"
+       ],
+       "corect": 0,
+       "explicatie": "Pasiunea organizează viața psihică în jurul obiectului ei."
+      },
+      {
+       "intrebare": "Copingul centrat pe problemă este mai eficient atunci când:",
+       "optiuni": [
+        "situația poate fi controlată",
+        "situația este ireversibilă",
+        "persoana este epuizată",
+        "emoția este foarte intensă"
+       ],
+       "corect": 0,
+       "explicatie": "Când nu poți schimba situația, rămâne reglarea propriei trăiri."
+      }
+     ]
+    },
+    {
+     "id": "psi10-12",
+     "titlu": "Voința și atenția",
+     "rezumat": "Voința este reglajul conștient al comportamentului prin depășirea unor obstacole, în vederea unui scop. Efortul voluntar este mobilizarea resurselor împotriva rezistenței interne sau externe. Actul voluntar are patru faze: apariția motivelor și a scopului, deliberarea (lupta motivelor), decizia și execuția cu evaluarea rezultatului. Calitățile voinței: puterea (intensitatea efortului), perseverența (susținerea în timp), independența (decizia proprie), promptitudinea deciziei. Defectele: încăpățânarea (perseverență fără justificare), sugestibilitatea, nehotărârea, impulsivitatea. Atenția este orientarea și concentrarea selectivă a activității psihice. Formele ei: involuntară (declanșată de stimul — neașteptat, intens, contrastant), voluntară (susținută prin efort și scop) și postvoluntară (devenită automată prin interes). Însușirile atenției: volumul, concentrarea, stabilitatea, distributivitatea și mobilitatea. Atenția nu are conținut propriu: ea este condiția de eficiență a celorlalte procese.",
+     "ideiCheie": [
+      "Voința este reglajul conștient prin depășirea obstacolelor, în vederea unui scop.",
+      "Fazele actului voluntar: motive și scop, deliberare, decizie, execuție și evaluare.",
+      "Atenția are trei forme: involuntară, voluntară, postvoluntară.",
+      "Însușirile atenției: volum, concentrare, stabilitate, distributivitate, mobilitate."
+     ],
+     "termeni": [
+      {
+       "t": "efort voluntar",
+       "d": "mobilizarea conștientă a resurselor pentru depășirea unui obstacol"
+      },
+      {
+       "t": "atenție postvoluntară",
+       "d": "atenție susținută fără efort, devenită automată prin interes"
+      },
+      {
+       "t": "distributivitate",
+       "d": "însușirea atenției de a cuprinde simultan mai multe activități"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt fazele actului voluntar?",
+       "v": "Apariția motivelor și a scopului, deliberarea, decizia, execuția cu evaluare."
+      },
+      {
+       "f": "Ce deosebește atenția postvoluntară de cea voluntară?",
+       "v": "Postvoluntara se menține fără efort, prin interesul pentru activitate."
+      },
+      {
+       "f": "Ce este încăpățânarea, ca defect al voinței?",
+       "v": "Perseverență menținută fără justificare rațională."
+      },
+      {
+       "f": "De ce se spune că atenția nu are conținut propriu?",
+       "v": "Pentru că nu reflectă ea însăși realitatea, ci condiționează eficiența celorlalte procese."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Faza de „luptă a motivelor” din actul voluntar se numește:",
+       "optiuni": [
+        "deliberare",
+        "decizie",
+        "execuție",
+        "evaluare"
+       ],
+       "corect": 0,
+       "explicatie": "În deliberare se cântăresc motivele concurente înainte de decizie."
+      },
+      {
+       "intrebare": "Atenția declanșată de un zgomot puternic și neașteptat este:",
+       "optiuni": [
+        "involuntară",
+        "voluntară",
+        "postvoluntară",
+        "distributivă"
+       ],
+       "corect": 0,
+       "explicatie": "Stimulul intens și neașteptat orientează atenția fără efort și fără scop prealabil."
+      },
+      {
+       "intrebare": "Însușirea atenției care permite urmărirea simultană a două activități se numește:",
+       "optiuni": [
+        "stabilitate",
+        "distributivitate",
+        "volum",
+        "mobilitate"
+       ],
+       "corect": 1,
+       "explicatie": "Distributivitatea presupune ca cel puțin una dintre activități să fie automatizată."
+      },
+      {
+       "intrebare": "Perseverența menținută fără justificare rațională se numește:",
+       "optiuni": [
+        "încăpățânare",
+        "promptitudine",
+        "independență",
+        "impulsivitate"
+       ],
+       "corect": 0,
+       "explicatie": "Este un defect al voinței, nu o calitate."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "psi10-c5",
+   "titlu": "Personalitatea",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "psi10-13",
+     "titlu": "Temperamentul",
+     "rezumat": "Personalitatea este ansamblul structurat și relativ stabil al însușirilor psihice care definesc modul propriu al unei persoane de a fi și de a acționa. Ea are trei laturi: temperamentul (latura dinamico-energetică), aptitudinile (latura instrumentală) și caracterul (latura relațional-valorică). Temperamentul exprimă dinamica și energia comportamentului: viteza reacțiilor, intensitatea trăirilor, ritmul activității. Tipologia clasică Hipocrate–Galenus, reinterpretată de Pavlov prin proprietățile sistemului nervos (forța, mobilitatea, echilibrul), descrie patru tipuri: sangvinicul (puternic, echilibrat, mobil), flegmaticul (puternic, echilibrat, inert), colericul (puternic, neechilibrat) și melancolicul (slab). Temperamentul nu are valoare morală: nu există temperamente bune și rele, ci moduri diferite de a ajunge la performanță. El este în mare parte înnăscut, dar poate fi modelat de educație în manifestările lui, nu în fondul lui. Jung adaugă dimensiunea extraversiune–introversiune, iar Eysenck combină cele două axe într-un model cu patru cadrane.",
+     "ideiCheie": [
+      "Personalitatea are trei laturi: temperament, aptitudini, caracter.",
+      "Temperamentul este latura dinamico-energetică: viteză, intensitate, ritm.",
+      "Tipurile: sangvinic, flegmatic, coleric, melancolic.",
+      "Temperamentul nu are valoare morală și poate fi modelat în manifestări, nu în fond."
+     ],
+     "termeni": [
+      {
+       "t": "temperament",
+       "d": "latura dinamico-energetică a personalității"
+      },
+      {
+       "t": "extraversiune",
+       "d": "orientarea predominantă a persoanei spre lumea exterioară și spre ceilalți"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt cele trei laturi ale personalității?",
+       "v": "Temperamentul, aptitudinile și caracterul."
+      },
+      {
+       "f": "Ce exprimă temperamentul?",
+       "v": "Dinamica și energia comportamentului: viteza, intensitatea și ritmul."
+      },
+      {
+       "f": "Care tip temperamental corespunde sistemului nervos slab?",
+       "v": "Melancolicul."
+      },
+      {
+       "f": "De ce spunem că temperamentul nu are valoare morală?",
+       "v": "Pentru că orice temperament poate ajunge la performanță; valoarea morală ține de caracter."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Latura dinamico-energetică a personalității este:",
+       "optiuni": [
+        "temperamentul",
+        "caracterul",
+        "aptitudinea",
+        "creativitatea"
+       ],
+       "corect": 0,
+       "explicatie": "Temperamentul descrie „cum” se desfășoară comportamentul, nu „ce” valorează."
+      },
+      {
+       "intrebare": "Tipul temperamental puternic, echilibrat și inert este:",
+       "optiuni": [
+        "sangvinicul",
+        "flegmaticul",
+        "colericul",
+        "melancolicul"
+       ],
+       "corect": 1,
+       "explicatie": "Flegmaticul e stabil și lent în comutarea de la o activitate la alta."
+      },
+      {
+       "intrebare": "Temperamentul poate fi modelat de educație:",
+       "optiuni": [
+        "în manifestările lui, nu în fondul lui",
+        "complet, până la schimbarea tipului",
+        "deloc",
+        "numai în copilăria mică"
+       ],
+       "corect": 0,
+       "explicatie": "Educația învață controlul expresiei, nu schimbă proprietățile sistemului nervos."
+      },
+      {
+       "intrebare": "Dimensiunea extraversiune–introversiune a fost introdusă de:",
+       "optiuni": [
+        "C. G. Jung",
+        "Hipocrate",
+        "Pavlov",
+        "Maslow"
+       ],
+       "corect": 0,
+       "explicatie": "Eysenck a combinat-o ulterior cu axa stabilitate–instabilitate emoțională."
+      }
+     ]
+    },
+    {
+     "id": "psi10-14",
+     "titlu": "Aptitudinile și creativitatea",
+     "rezumat": "Aptitudinea este însușirea psihică ce permite obținerea unei performanțe superioare într-o activitate. Ea presupune o predispoziție ereditară, dar se formează prin exercițiu: fără antrenament, potențialul rămâne potențial. Aptitudinile sunt generale (inteligența — cea mai importantă) sau speciale (muzicale, sportive, tehnice). Talentul este o combinație de aptitudini care permite creația originală; geniul, treapta cea mai înaltă, produce opere care schimbă domeniul. Inteligența a fost măsurată prin coeficientul de inteligență (Binet, Stern), dar teoriile moderne o descompun: Gardner propune inteligențele multiple, Sternberg distinge inteligența analitică, creativă și practică, Goleman aduce în discuție inteligența emoțională. Creativitatea este capacitatea de a produce ceva nou și valoros. Factorii ei: gândirea divergentă (fluiditate, flexibilitate, originalitate, elaborare), motivația intrinsecă și trăsăturile de personalitate (curiozitate, toleranță la ambiguitate, nonconformism). Etapele procesului creator: pregătirea, incubația, iluminarea și verificarea.",
+     "ideiCheie": [
+      "Aptitudinea presupune predispoziție ereditară plus exercițiu.",
+      "Talentul = combinație de aptitudini care permite creația originală; geniul schimbă domeniul.",
+      "Creativitatea cere gândire divergentă: fluiditate, flexibilitate, originalitate, elaborare.",
+      "Etapele creației: pregătire, incubație, iluminare, verificare."
+     ],
+     "termeni": [
+      {
+       "t": "gândire divergentă",
+       "d": "gândire care caută mai multe soluții posibile, nu una singură"
+      },
+      {
+       "t": "incubație",
+       "d": "etapa în care problema este lăsată deoparte, iar prelucrarea continuă neconștientizat"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce presupune o aptitudine, pe lângă predispoziția ereditară?",
+       "v": "Exercițiul: fără antrenament, potențialul nu devine performanță."
+      },
+      {
+       "f": "Care sunt cele patru etape ale procesului creator?",
+       "v": "Pregătirea, incubația, iluminarea, verificarea."
+      },
+      {
+       "f": "Ce este gândirea divergentă?",
+       "v": "Gândirea care caută mai multe soluții posibile pentru aceeași problemă."
+      },
+      {
+       "f": "Ce a propus Howard Gardner?",
+       "v": "Teoria inteligențelor multiple."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Etapa în care problema este lăsată deoparte, iar prelucrarea continuă în afara conștiinței, se numește:",
+       "optiuni": [
+        "pregătire",
+        "incubație",
+        "iluminare",
+        "verificare"
+       ],
+       "corect": 1,
+       "explicatie": "Soluția apare adesea după o pauză, în faza de iluminare."
+      },
+      {
+       "intrebare": "Fluiditatea, flexibilitatea, originalitatea și elaborarea sunt însușiri ale:",
+       "optiuni": [
+        "gândirii divergente",
+        "memoriei de lucru",
+        "atenției voluntare",
+        "temperamentului"
+       ],
+       "corect": 0,
+       "explicatie": "Ele descriu capacitatea de a produce soluții multiple și noi."
+      },
+      {
+       "intrebare": "Aptitudinea se deosebește de simpla predispoziție prin faptul că:",
+       "optiuni": [
+        "s-a format prin exercițiu și permite performanță",
+        "este exclusiv ereditară",
+        "apare doar la adulți",
+        "nu poate fi măsurată"
+       ],
+       "corect": 0,
+       "explicatie": "Predispoziția e potențial; aptitudinea e potențial actualizat."
+      },
+      {
+       "intrebare": "Teoria inteligențelor multiple aparține lui:",
+       "optiuni": [
+        "Howard Gardner",
+        "Alfred Binet",
+        "Robert Sternberg",
+        "Daniel Goleman"
+       ],
+       "corect": 0,
+       "explicatie": "Sternberg a propus inteligența triarhică, iar Goleman inteligența emoțională."
+      }
+     ]
+    },
+    {
+     "id": "psi10-15",
+     "titlu": "Caracterul",
+     "rezumat": "Caracterul este latura relațional-valorică a personalității: sistemul de atitudini stabile față de sine, față de ceilalți, față de activitate și față de societate, împreună cu trăsăturile voluntare care le pun în act. Spre deosebire de temperament, caracterul are valoare morală: despre el spunem că e bun sau rău. O trăsătură de caracter este o atitudine devenită stabilă și generalizată — sinceritatea, hărnicia, modestia, responsabilitatea. Structura caracterului nu e o listă, ci o ierarhie: trăsăturile cardinale domină și explică restul, cele principale definesc profilul, cele secundare apar doar în anumite situații. Formarea caracterului se face prin învățare socială: modele, întăriri, exersarea conduitei morale. Kohlberg descrie trei niveluri ale dezvoltării morale: preconvențional (evitarea pedepsei, interesul propriu), convențional (conformarea la așteptări și la lege) și postconvențional (principii etice asumate personal). Coerența dintre ce spui și ce faci este semnul unui caracter format.",
+     "ideiCheie": [
+      "Caracterul este latura relațional-valorică; are, spre deosebire de temperament, valoare morală.",
+      "Trăsătura de caracter = atitudine devenită stabilă și generalizată.",
+      "Structura caracterului e ierarhică: trăsături cardinale, principale, secundare.",
+      "Kohlberg: nivel preconvențional, convențional, postconvențional."
+     ],
+     "termeni": [
+      {
+       "t": "trăsătură de caracter",
+       "d": "atitudine stabilă și generalizată, exprimată constant în conduită"
+      },
+      {
+       "t": "nivel postconvențional",
+       "d": "stadiu moral în care conduita se ghidează după principii etice asumate personal"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este caracterul?",
+       "v": "Latura relațional-valorică a personalității: sistemul de atitudini stabile și trăsăturile voluntare care le pun în act."
+      },
+      {
+       "f": "De ce are caracterul valoare morală, iar temperamentul nu?",
+       "v": "Pentru că exprimă atitudini față de valori, nu doar dinamica reacțiilor."
+      },
+      {
+       "f": "Care sunt cele trei niveluri morale la Kohlberg?",
+       "v": "Preconvențional, convențional, postconvențional."
+      },
+      {
+       "f": "Ce sunt trăsăturile cardinale?",
+       "v": "Trăsăturile care domină profilul și explică celelalte trăsături."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Spre deosebire de temperament, caracterul:",
+       "optiuni": [
+        "are valoare morală",
+        "este înnăscut",
+        "privește viteza reacțiilor",
+        "nu poate fi educat"
+       ],
+       "corect": 0,
+       "explicatie": "Despre caracter spunem că e bun sau rău; despre temperament, nu."
+      },
+      {
+       "intrebare": "Un elev care respectă regulile pentru a evita pedeapsa se află, după Kohlberg, la nivelul:",
+       "optiuni": [
+        "preconvențional",
+        "convențional",
+        "postconvențional",
+        "amoral"
+       ],
+       "corect": 0,
+       "explicatie": "Motivul conduitei este consecința imediată, nu principiul."
+      },
+      {
+       "intrebare": "Trăsăturile care apar doar în anumite situații se numesc:",
+       "optiuni": [
+        "cardinale",
+        "principale",
+        "secundare",
+        "dominante"
+       ],
+       "corect": 2,
+       "explicatie": "Ele nu definesc profilul general al persoanei."
+      },
+      {
+       "intrebare": "O trăsătură de caracter este:",
+       "optiuni": [
+        "o atitudine devenită stabilă și generalizată",
+        "o reacție emoțională de moment",
+        "o aptitudine specială",
+        "o proprietate a sistemului nervos"
+       ],
+       "corect": 0,
+       "explicatie": "Stabilitatea și generalitatea o deosebesc de o simplă reacție."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "psi10-c6",
+   "titlu": "Conduita psihosocială",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "psi10-16",
+     "titlu": "Relații interpersonale și conduite sociale",
+     "rezumat": "Relațiile interpersonale sunt legături psihologice conștiente și reciproce între persoane. După conținut, sunt de cunoaștere (percepția celuilalt), afective (simpatie, antipatie) și de comunicare. Percepția socială e supusă unor distorsiuni sistematice: efectul de halo (o însușire pozitivă contaminează evaluarea întregii persoane), stereotipul (judecarea persoanei după categoria din care face parte), prejudecata (atitudine negativă anticipată) și eroarea fundamentală de atribuire (explicăm comportamentul celuilalt prin trăsături, iar pe al nostru prin situație). Conduitele prosociale sunt acțiunile care aduc beneficii altora fără așteptarea unei recompense: ajutorarea, cooperarea, altruismul. Ele sunt frânate de efectul spectatorului: cu cât sunt mai mulți martori, cu atât scade probabilitatea intervenției fiecăruia, prin difuziunea responsabilității. Conduitele antisociale — agresivitatea, violența, delincvența — au cauze multiple: frustrarea, învățarea prin imitarea modelelor, dezangajarea morală. Conformismul (Asch), obediența față de autoritate (Milgram) și deindividualizarea în mulțime arată cât de puternic modelează situația comportamentul, chiar la persoane cu caracter format.",
+     "ideiCheie": [
+      "Distorsiuni ale percepției sociale: halo, stereotip, prejudecată, eroarea fundamentală de atribuire.",
+      "Efectul spectatorului: mai mulți martori înseamnă intervenție mai puțin probabilă.",
+      "Conformismul (Asch) și obediența (Milgram) arată puterea situației asupra comportamentului.",
+      "Agresivitatea are cauze multiple: frustrare, imitarea modelelor, dezangajare morală."
+     ],
+     "termeni": [
+      {
+       "t": "efect de halo",
+       "d": "distorsiune prin care o însușire pozitivă contaminează evaluarea întregii persoane"
+      },
+      {
+       "t": "efectul spectatorului",
+       "d": "scăderea probabilității de a interveni pe măsură ce crește numărul martorilor"
+      },
+      {
+       "t": "eroare fundamentală de atribuire",
+       "d": "tendința de a explica faptele altora prin trăsături și pe ale noastre prin situație"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este efectul de halo?",
+       "v": "Extinderea unei impresii pozitive (sau negative) asupra evaluării întregii persoane."
+      },
+      {
+       "f": "Ce arată experimentele lui Asch?",
+       "v": "Puterea conformismului: oamenii dau răspunsuri vizibil greșite pentru a se alinia grupului."
+      },
+      {
+       "f": "Ce arată experimentul lui Milgram?",
+       "v": "Cât de departe merge obediența față de o autoritate percepută ca legitimă."
+      },
+      {
+       "f": "De ce scade ajutorul când sunt mulți martori?",
+       "v": "Prin difuziunea responsabilității — efectul spectatorului."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Tendința de a explica greșeala altuia prin caracterul lui, iar pe a noastră prin împrejurări, se numește:",
+       "optiuni": [
+        "eroarea fundamentală de atribuire",
+        "efect de halo",
+        "stereotip",
+        "deindividualizare"
+       ],
+       "corect": 0,
+       "explicatie": "Este o asimetrie sistematică în atribuirea cauzelor."
+      },
+      {
+       "intrebare": "Experimentele lui Solomon Asch au studiat:",
+       "optiuni": [
+        "conformismul față de opinia grupului",
+        "obediența față de autoritate",
+        "efectul spectatorului",
+        "agresivitatea prin frustrare"
+       ],
+       "corect": 0,
+       "explicatie": "Participanții acceptau răspunsuri vizibil greșite pentru a nu se rupe de grup."
+      },
+      {
+       "intrebare": "Efectul spectatorului se explică prin:",
+       "optiuni": [
+        "difuziunea responsabilității între martori",
+        "lipsa de empatie a oamenilor",
+        "necunoașterea procedurilor de prim ajutor",
+        "teama de autoritate"
+       ],
+       "corect": 0,
+       "explicatie": "Fiecare presupune că altcineva va interveni."
+      },
+      {
+       "intrebare": "Judecarea unei persoane exclusiv după categoria din care face parte se numește:",
+       "optiuni": [
+        "stereotip",
+        "halo",
+        "altruism",
+        "conformism"
+       ],
+       "corect": 0,
+       "explicatie": "Prejudecata adaugă stereotipului o atitudine negativă anticipată."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "teze": [
+  {
+   "semestru": 1,
+   "test": [
+    {
+     "intrebare": "Primul laborator de psihologie experimentală a fost înființat de:",
+     "optiuni": [
+      "Wilhelm Wundt, în 1879, la Leipzig",
+      "Sigmund Freud, în 1900, la Viena",
+      "Ivan Pavlov, în 1904, la Petersburg",
+      "Jean Piaget, în 1920, la Geneva"
+     ],
+     "corect": 0,
+     "explicatie": "Acest moment marchează desprinderea psihologiei de filosofie."
+    },
+    {
+     "intrebare": "Singura metodă care permite stabilirea unei relații cauzale este:",
+     "optiuni": [
+      "experimentul",
+      "observația",
+      "ancheta",
+      "convorbirea"
+     ],
+     "corect": 0,
+     "explicatie": "Doar manipularea controlată a variabilei independente arată ce produce efectul."
+    },
+    {
+     "intrebare": "Senzația se deosebește de percepție prin faptul că:",
+     "optiuni": [
+      "reflectă o însușire izolată, nu obiectul întreg",
+      "apare în absența obiectului",
+      "este mai complexă",
+      "nu depinde de analizator"
+     ],
+     "corect": 0,
+     "explicatie": "Percepția integrează însușirile într-o imagine unitară."
+    },
+    {
+     "intrebare": "Faptul că nu mai simțim mirosul din propria cameră ilustrează legea:",
+     "optiuni": [
+      "adaptării",
+      "contrastului",
+      "semnificației",
+      "proiectivității"
+     ],
+     "corect": 0,
+     "explicatie": "Sensibilitatea scade la acțiunea prelungită a aceluiași stimul."
+    },
+    {
+     "intrebare": "Reprezentarea este:",
+     "optiuni": [
+      "imaginea unui obiect absent, bazată pe experiența anterioară",
+      "reflectarea unei însușiri izolate",
+      "percepția unui obiect prezent",
+      "o noțiune abstractă"
+     ],
+     "corect": 0,
+     "explicatie": "Ea face trecerea de la senzorial la logic."
+    },
+    {
+     "intrebare": "Operația gândirii prin care se reține o singură însușire, ignorându-le pe celelalte, este:",
+     "optiuni": [
+      "abstractizarea",
+      "analiza",
+      "sinteza",
+      "concretizarea"
+     ],
+     "corect": 0,
+     "explicatie": "Abstractizarea izolează mintal însușirea esențială."
+    },
+    {
+     "intrebare": "Capacitatea memoriei de scurtă durată este de aproximativ:",
+     "optiuni": [
+      "7 ± 2 unități",
+      "3 ± 1 unități",
+      "15 ± 3 unități",
+      "nelimitată"
+     ],
+     "corect": 0,
+     "explicatie": "Este limita clasică descrisă de George Miller."
+    },
+    {
+     "intrebare": "Curba lui Ebbinghaus arată că uitarea este:",
+     "optiuni": [
+      "rapidă la început, apoi lentă",
+      "constantă în timp",
+      "lentă la început, apoi rapidă",
+      "inexistentă pentru materialul cu sens"
+     ],
+     "corect": 0,
+     "explicatie": "De aceea repetiția eșalonată este mai eficientă decât înghesuirea."
+    },
+    {
+     "intrebare": "Sirena și centaurul sunt produse ale procedeului numit:",
+     "optiuni": [
+      "aglutinare",
+      "tipizare",
+      "schematizare",
+      "analogie"
+     ],
+     "corect": 0,
+     "explicatie": "Se contopesc părți din ființe diferite."
+    },
+    {
+     "intrebare": "Limba este:",
+     "optiuni": [
+      "un sistem social de semne, iar limbajul folosirea lui individuală",
+      "folosirea individuală, iar limbajul sistemul social",
+      "identică cu limbajul",
+      "exclusiv scrisă"
+     ],
+     "corect": 0,
+     "explicatie": "Limba preexistă vorbitorului; limbajul e actul lui."
+    },
+    {
+     "intrebare": "Fixitatea funcțională este un obstacol care constă în:",
+     "optiuni": [
+      "a vedea obiectul doar în funcția lui obișnuită",
+      "a repeta o strategie care nu se mai potrivește",
+      "a nu avea suficiente cunoștințe",
+      "a fi prea motivat"
+     ],
+     "corect": 0,
+     "explicatie": "Repetarea unei strategii depășite se numește set mintal."
+    },
+    {
+     "intrebare": "Cazurile copiilor sălbatici demonstrează:",
+     "optiuni": [
+      "rolul indispensabil al mediului social în dezvoltarea psihică",
+      "caracterul exclusiv ereditar al limbajului",
+      "inutilitatea educației timpurii",
+      "superioritatea instinctelor"
+     ],
+     "corect": 0,
+     "explicatie": "Fără interacțiune umană la timp, potențialul nu se mai actualizează."
+    }
+   ]
+  },
+  {
+   "semestru": 2,
+   "test": [
+    {
+     "intrebare": "Structurile motivaționale, în ordinea complexității, sunt:",
+     "optiuni": [
+      "trebuință, motiv, interes, convingere, ideal",
+      "ideal, convingere, interes, motiv, trebuință",
+      "motiv, trebuință, ideal, interes, convingere",
+      "interes, trebuință, motiv, ideal, convingere"
+     ],
+     "corect": 0,
+     "explicatie": "Se pornește de la dezechilibrul resimțit și se ajunge la proiectul de viață."
+    },
+    {
+     "intrebare": "Legea Yerkes-Dodson arată că:",
+     "optiuni": [
+      "randamentul crește cu motivația doar până la un optim",
+      "randamentul crește nelimitat cu motivația",
+      "motivația nu influențează randamentul",
+      "optimul e același pentru orice sarcină"
+     ],
+     "corect": 0,
+     "explicatie": "Peste optim, supramotivarea dezorganizează activitatea."
+    },
+    {
+     "intrebare": "O stare afectivă difuză, de durată, fără obiect precis, este:",
+     "optiuni": [
+      "dispoziția afectivă",
+      "emoția",
+      "afectul",
+      "pasiunea"
+     ],
+     "corect": 0,
+     "explicatie": "Dispoziția colorează întreaga activitate, fără cauză determinată."
+    },
+    {
+     "intrebare": "Fazele sindromului general de adaptare sunt:",
+     "optiuni": [
+      "alarmă, rezistență, epuizare",
+      "tensiune, criză, refacere",
+      "alarmă, panică, adaptare",
+      "stres, coping, echilibru"
+     ],
+     "corect": 0,
+     "explicatie": "Modelul aparține lui Hans Selye."
+    },
+    {
+     "intrebare": "Faza de deliberare a actului voluntar constă în:",
+     "optiuni": [
+      "lupta motivelor concurente",
+      "executarea deciziei",
+      "evaluarea rezultatului",
+      "apariția scopului"
+     ],
+     "corect": 0,
+     "explicatie": "Deliberarea precedă decizia."
+    },
+    {
+     "intrebare": "Atenția care se menține fără efort, prin interesul pentru activitate, este:",
+     "optiuni": [
+      "postvoluntară",
+      "involuntară",
+      "voluntară",
+      "distributivă"
+     ],
+     "corect": 0,
+     "explicatie": "Ea începe ca atenție voluntară și se automatizează."
+    },
+    {
+     "intrebare": "Cele trei laturi ale personalității sunt:",
+     "optiuni": [
+      "temperamentul, aptitudinile, caracterul",
+      "senzația, percepția, reprezentarea",
+      "motivația, afectivitatea, voința",
+      "inteligența, memoria, atenția"
+     ],
+     "corect": 0,
+     "explicatie": "Dinamico-energetică, instrumentală, relațional-valorică."
+    },
+    {
+     "intrebare": "Tipul temperamental corespunzător sistemului nervos slab este:",
+     "optiuni": [
+      "melancolicul",
+      "colericul",
+      "sangvinicul",
+      "flegmaticul"
+     ],
+     "corect": 0,
+     "explicatie": "Colericul este puternic, dar neechilibrat."
+    },
+    {
+     "intrebare": "Etapele procesului creator sunt:",
+     "optiuni": [
+      "pregătire, incubație, iluminare, verificare",
+      "pregătire, iluminare, incubație, verificare",
+      "incubație, pregătire, verificare, iluminare",
+      "iluminare, verificare, pregătire, incubație"
+     ],
+     "corect": 0,
+     "explicatie": "Soluția apare, de regulă, după o pauză de incubație."
+    },
+    {
+     "intrebare": "Nivelul postconvențional al dezvoltării morale (Kohlberg) se caracterizează prin:",
+     "optiuni": [
+      "conduita ghidată de principii etice asumate personal",
+      "evitarea pedepsei",
+      "conformarea la lege și la așteptările grupului",
+      "lipsa oricărei reguli"
+     ],
+     "corect": 0,
+     "explicatie": "Este nivelul cel mai înalt din modelul lui Kohlberg."
+    },
+    {
+     "intrebare": "Efectul spectatorului se explică prin:",
+     "optiuni": [
+      "difuziunea responsabilității între mai mulți martori",
+      "lipsa de empatie",
+      "teama de autoritate",
+      "conformismul față de grup"
+     ],
+     "corect": 0,
+     "explicatie": "Cu cât sunt mai mulți martori, cu atât scade șansa intervenției fiecăruia."
+    },
+    {
+     "intrebare": "Experimentul lui Milgram a studiat:",
+     "optiuni": [
+      "obediența față de autoritate",
+      "conformismul față de grup",
+      "agresivitatea prin frustrare",
+      "efectul de halo"
+     ],
+     "corect": 0,
+     "explicatie": "Asch a studiat conformismul, Milgram obediența."
+    }
+   ]
+  }
+ ]
+}

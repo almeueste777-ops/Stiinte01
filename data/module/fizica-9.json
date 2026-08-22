@@ -1,0 +1,1007 @@
+{
+ "id": "fizica-9",
+ "materie": "Fizică",
+ "clasa": "a IX-a",
+ "an": 1,
+ "arie": "Matematică și științe ale naturii",
+ "bac": false,
+ "descriere": "Mecanica: mișcare și repaus, principiile dinamicii, lucru mecanic și energie, echilibru și mașini simple.",
+ "capitole": [
+  {
+   "id": "fiz9-c1",
+   "titlu": "Mișcare și forțe",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "fiz9-01",
+     "titlu": "Mișcare, repaus, sisteme de referință",
+     "rezumat": "Mișcarea este schimbarea poziției unui corp față de un reper, într-un interval de timp. Repausul și mișcarea sunt relative: același corp poate fi în repaus față de un sistem de referință și în mișcare față de altul — pasagerul stă pe scaun față de tren, dar se mișcă față de gară. Un sistem de referință cuprinde un corp de referință, un sistem de axe și un ceas. Mărimile care descriu mișcarea sunt vectorul de poziție, deplasarea (vectorul dintre poziția inițială și cea finală) și distanța parcursă (lungimea traiectoriei, o mărime scalară). Viteza medie este raportul dintre deplasare și durata mișcării, iar viteza instantanee este viteza la un moment dat. În Sistemul Internațional, lungimea se măsoară în metri, timpul în secunde, viteza în metri pe secundă. Traiectoria poate fi rectilinie sau curbilinie și depinde tot de sistemul de referință ales.",
+     "ideiCheie": [
+      "Mișcarea și repausul sunt relative: depind de sistemul de referință ales.",
+      "Deplasarea este vectorială; distanța parcursă este scalară.",
+      "Viteza medie este raportul dintre deplasare și timp.",
+      "Unitățile SI: metrul, secunda, metrul pe secundă."
+     ],
+     "termeni": [
+      {
+       "t": "sistem de referință",
+       "d": "ansamblul format dintr-un corp de referință, un sistem de axe și un ceas"
+      },
+      {
+       "t": "deplasare",
+       "d": "vectorul care unește poziția inițială cu cea finală a unui corp"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "De ce sunt relative mișcarea și repausul?",
+       "v": "Pentru că depind de sistemul de referință față de care se raportează corpul."
+      },
+      {
+       "f": "Ce diferență e între deplasare și distanța parcursă?",
+       "v": "Deplasarea e vectorială și leagă capetele, distanța e lungimea traiectoriei."
+      },
+      {
+       "f": "Care e unitatea de măsură a vitezei în SI?",
+       "v": "Metrul pe secundă."
+      },
+      {
+       "f": "Din ce se compune un sistem de referință?",
+       "v": "Dintr-un corp de referință, un sistem de axe și un ceas."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Un pasager care stă pe scaunul unui tren în mers este:",
+       "optiuni": [
+        "în repaus față de tren și în mișcare față de gară",
+        "în repaus în orice sistem de referință",
+        "în mișcare în orice sistem de referință",
+        "fără sistem de referință"
+       ],
+       "corect": 0,
+       "explicatie": "Este exemplul clasic al relativității mișcării."
+      },
+      {
+       "intrebare": "Distanța parcursă este o mărime:",
+       "optiuni": [
+        "scalară",
+        "vectorială",
+        "fără unitate de măsură",
+        "negativă uneori"
+       ],
+       "corect": 0,
+       "explicatie": "Deplasarea este vectorială."
+      },
+      {
+       "intrebare": "Viteza medie se calculează ca:",
+       "optiuni": [
+        "raportul dintre deplasare și durata mișcării",
+        "produsul dintre deplasare și timp",
+        "raportul dintre timp și deplasare",
+        "suma vitezelor instantanee"
+       ],
+       "corect": 0,
+       "explicatie": "Viteza instantanee e viteza la un moment dat."
+      },
+      {
+       "intrebare": "Traiectoria unui corp depinde de:",
+       "optiuni": [
+        "sistemul de referință ales",
+        "masa corpului",
+        "temperatura mediului",
+        "culoarea corpului"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea aceeași mișcare poate apărea rectilinie sau curbilinie."
+      }
+     ]
+    },
+    {
+     "id": "fiz9-02",
+     "titlu": "Mișcarea rectilinie uniformă și variată",
+     "rezumat": "Mișcarea rectilinie uniformă are traiectoria dreaptă și viteza constantă: corpul parcurge distanțe egale în intervale de timp egale. Legea ei de mișcare exprimă poziția ca sumă între poziția inițială și produsul dintre viteză și timp. Graficul poziției în funcție de timp este o dreaptă a cărei pantă dă viteza; graficul vitezei este o dreaptă orizontală, iar aria de sub el reprezintă distanța parcursă. Mișcarea rectilinie uniform variată are accelerație constantă. Accelerația este variația vitezei raportată la timp și se măsoară în metri pe secundă la pătrat. Viteza crește liniar în timp, iar poziția variază pătratic. Căderea liberă este cazul particular cu accelerația gravitațională, aproximativ 9,8 metri pe secundă la pătrat; în absența frecării cu aerul, toate corpurile cad cu aceeași accelerație, indiferent de masă — experiment confirmat pe Lună.",
+     "ideiCheie": [
+      "Mișcarea uniformă are viteză constantă; panta graficului poziție-timp o dă.",
+      "Accelerația este variația vitezei raportată la timp, măsurată în m/s².",
+      "În mișcarea uniform variată, viteza crește liniar și poziția, pătratic.",
+      "În vid, toate corpurile cad cu aceeași accelerație, indiferent de masă."
+     ],
+     "termeni": [
+      {
+       "t": "accelerație",
+       "d": "variația vitezei în unitatea de timp"
+      },
+      {
+       "t": "cădere liberă",
+       "d": "mișcarea unui corp sub acțiunea exclusivă a greutății"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce reprezintă panta graficului poziție-timp?",
+       "v": "Viteza corpului."
+      },
+      {
+       "f": "Care e unitatea accelerației în SI?",
+       "v": "Metrul pe secundă la pătrat."
+      },
+      {
+       "f": "Cu ce accelerație cad corpurile la suprafața Pământului?",
+       "v": "Cu aproximativ 9,8 metri pe secundă la pătrat."
+      },
+      {
+       "f": "De ce cad corpurile la fel în vid?",
+       "v": "Pentru că accelerația gravitațională nu depinde de masă, iar frecarea cu aerul lipsește."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "În mișcarea rectilinie uniformă, graficul vitezei în funcție de timp este:",
+       "optiuni": [
+        "o dreaptă orizontală",
+        "o dreaptă înclinată",
+        "o parabolă",
+        "o hiperbolă"
+       ],
+       "corect": 0,
+       "explicatie": "Aria de sub el dă distanța parcursă."
+      },
+      {
+       "intrebare": "Accelerația se măsoară în:",
+       "optiuni": [
+        "metri pe secundă la pătrat",
+        "metri pe secundă",
+        "newtoni",
+        "jouli"
+       ],
+       "corect": 0,
+       "explicatie": "Este o variație de viteză în timp."
+      },
+      {
+       "intrebare": "În mișcarea uniform variată, poziția variază:",
+       "optiuni": [
+        "pătratic în timp",
+        "liniar în timp",
+        "exponențial",
+        "constant"
+       ],
+       "corect": 0,
+       "explicatie": "Viteza variază liniar."
+      },
+      {
+       "intrebare": "Un pietroi și o pană lăsate să cadă în vid ajung jos:",
+       "optiuni": [
+        "în același timp",
+        "pietroiul mai repede",
+        "pana mai repede",
+        "în funcție de forma lor"
+       ],
+       "corect": 0,
+       "explicatie": "Experimentul a fost repetat pe Lună."
+      }
+     ]
+    },
+    {
+     "id": "fiz9-03",
+     "titlu": "Principiile mecanicii",
+     "rezumat": "Principiul inerției spune că un corp își păstrează starea de repaus sau de mișcare rectilinie uniformă atât timp cât asupra lui nu acționează forțe sau cât acestea se compensează. Inerția se măsoară prin masă: cu cât masa e mai mare, cu atât corpul își schimbă mai greu starea de mișcare. Sistemele în care e valabil acest principiu se numesc inerțiale. Principiul fundamental leagă forța rezultantă de accelerație: forța este egală cu produsul dintre masă și accelerație. Forța se măsoară în newtoni; un newton este forța care imprimă unui kilogram o accelerație de un metru pe secundă la pătrat. Principiul acțiunii și reacțiunii spune că, dacă un corp acționează asupra altuia cu o forță, al doilea acționează asupra primului cu o forță egală în modul și opusă ca sens; cele două forțe se aplică unor corpuri diferite, de aceea nu se anulează reciproc.",
+     "ideiCheie": [
+      "Principiul inerției: fără forțe necompensate, starea de mișcare nu se schimbă.",
+      "Masa măsoară inerția unui corp.",
+      "Principiul fundamental: forța rezultantă este masa înmulțită cu accelerația.",
+      "Acțiunea și reacțiunea se aplică unor corpuri diferite, deci nu se anulează."
+     ],
+     "termeni": [
+      {
+       "t": "inerție",
+       "d": "proprietatea corpurilor de a-și păstra starea de repaus sau de mișcare rectilinie uniformă"
+      },
+      {
+       "t": "newton",
+       "d": "forța care imprimă unei mase de un kilogram accelerația de un metru pe secundă la pătrat"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce măsoară masa unui corp?",
+       "v": "Inerția lui, adică opoziția la schimbarea stării de mișcare."
+      },
+      {
+       "f": "Cum se enunță principiul fundamental al mecanicii?",
+       "v": "Forța rezultantă este egală cu produsul dintre masă și accelerație."
+      },
+      {
+       "f": "De ce nu se anulează acțiunea și reacțiunea?",
+       "v": "Pentru că se aplică unor corpuri diferite."
+      },
+      {
+       "f": "Ce este un newton?",
+       "v": "Forța care imprimă unui kilogram o accelerație de un metru pe secundă la pătrat."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Un corp asupra căruia forțele se compensează:",
+       "optiuni": [
+        "își păstrează starea de mișcare",
+        "se oprește brusc",
+        "accelerează",
+        "își schimbă direcția"
+       ],
+       "corect": 0,
+       "explicatie": "Este principiul inerției."
+      },
+      {
+       "intrebare": "Dacă masa se dublează, la aceeași forță, accelerația:",
+       "optiuni": [
+        "se înjumătățește",
+        "se dublează",
+        "rămâne aceeași",
+        "devine nulă"
+       ],
+       "corect": 0,
+       "explicatie": "Accelerația e invers proporțională cu masa."
+      },
+      {
+       "intrebare": "Forța se măsoară în:",
+       "optiuni": [
+        "newtoni",
+        "jouli",
+        "wați",
+        "kilograme"
+       ],
+       "corect": 0,
+       "explicatie": "Joulul măsoară energia."
+      },
+      {
+       "intrebare": "Acțiunea și reacțiunea sunt forțe:",
+       "optiuni": [
+        "egale în modul și opuse ca sens, aplicate corpurilor diferite",
+        "egale și aplicate aceluiași corp",
+        "diferite ca mărime",
+        "care se anulează întotdeauna"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea o rachetă poate accelera."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fiz9-c2",
+   "titlu": "Lucru mecanic și energie",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "fiz9-04",
+     "titlu": "Tipuri de forțe",
+     "rezumat": "Greutatea este forța cu care Pământul atrage un corp și este egală cu produsul dintre masă și accelerația gravitațională; ea se schimbă cu locul, în timp ce masa rămâne aceeași — pe Lună un corp cântărește de aproape șase ori mai puțin, dar are aceeași masă. Forța elastică apare la deformarea unui corp elastic și, conform legii lui Hooke, este proporțională cu deformarea, orientată în sens opus ei. Forța de frecare apare la contactul dintre suprafețe și se opune mișcării relative; ea depinde de natura suprafețelor și de forța de apăsare normală, dar nu de aria de contact. Frecarea statică e mai mare decât cea cinetică, de aceea e mai greu să pornești un obiect decât să-l ții în mișcare. Frecarea este uneori dăunătoare (uzura pieselor) și alteori indispensabilă (mersul, frânarea, prinderea obiectelor). Tensiunea din fir și forța normală completează tabloul forțelor de contact.",
+     "ideiCheie": [
+      "Greutatea depinde de loc; masa nu.",
+      "Legea lui Hooke: forța elastică e proporțională cu deformarea.",
+      "Frecarea depinde de natura suprafețelor și de apăsarea normală, nu de arie.",
+      "Frecarea statică e mai mare decât cea cinetică."
+     ],
+     "termeni": [
+      {
+       "t": "greutate",
+       "d": "forța cu care Pământul atrage un corp, egală cu masa înmulțită cu accelerația gravitațională"
+      },
+      {
+       "t": "lege a lui Hooke",
+       "d": "relația de proporționalitate dintre forța elastică și deformare"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care e diferența dintre masă și greutate?",
+       "v": "Masa e o măsură a inerției și nu se schimbă; greutatea e o forță și depinde de loc."
+      },
+      {
+       "f": "De ce e mai greu să pornești un obiect decât să-l menții în mișcare?",
+       "v": "Pentru că frecarea statică e mai mare decât cea cinetică."
+      },
+      {
+       "f": "De ce nu depinde frecarea de aria de contact?",
+       "v": "Pentru că apăsarea se distribuie proporțional pe suprafață, iar efectul total rămâne același."
+      },
+      {
+       "f": "Ce spune legea lui Hooke?",
+       "v": "Forța elastică e proporțională cu deformarea și orientată în sens opus ei."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Greutatea unui corp pe Lună, față de Pământ:",
+       "optiuni": [
+        "este de aproape șase ori mai mică",
+        "este aceeași",
+        "este de șase ori mai mare",
+        "este nulă"
+       ],
+       "corect": 0,
+       "explicatie": "Masa rămâne neschimbată."
+      },
+      {
+       "intrebare": "Forța de frecare depinde de:",
+       "optiuni": [
+        "natura suprafețelor și apăsarea normală",
+        "aria de contact",
+        "volumul corpului",
+        "temperatura aerului"
+       ],
+       "corect": 0,
+       "explicatie": "Aria nu intervine în modelul uzual."
+      },
+      {
+       "intrebare": "Forța elastică este orientată:",
+       "optiuni": [
+        "în sens opus deformării",
+        "în sensul deformării",
+        "perpendicular pe deformare",
+        "aleatoriu"
+       ],
+       "corect": 0,
+       "explicatie": "Tinde să readucă corpul la forma inițială."
+      },
+      {
+       "intrebare": "Frecarea este indispensabilă pentru:",
+       "optiuni": [
+        "mers și frânare",
+        "căderea liberă",
+        "mișcarea planetelor",
+        "propagarea luminii"
+       ],
+       "corect": 0,
+       "explicatie": "Fără ea nu am putea nici să pornim, nici să oprim."
+      }
+     ]
+    },
+    {
+     "id": "fiz9-05",
+     "titlu": "Lucru mecanic, putere, randament",
+     "rezumat": "Lucrul mecanic se efectuează când o forță deplasează punctul ei de aplicație; el este produsul dintre forță, deplasare și cosinusul unghiului dintre ele. Dacă forța e perpendiculară pe deplasare, lucrul mecanic este nul — de aceea forța centripetă nu efectuează lucru mecanic. Unitatea de măsură este joulul: un joule este lucrul efectuat de o forță de un newton pe o deplasare de un metru în direcția forței. Puterea este lucrul mecanic efectuat în unitatea de timp și se măsoară în wați; un cal-putere este aproximativ 736 de wați. Randamentul unei mașini este raportul dintre lucrul mecanic util și lucrul mecanic consumat, exprimat procentual; el este întotdeauna subunitar, pentru că o parte din energie se pierde prin frecare și încălzire. Nicio mașină reală nu are randament 100%, iar perpetuum mobile este imposibil.",
+     "ideiCheie": [
+      "Lucrul mecanic este produsul dintre forță, deplasare și cosinusul unghiului dintre ele.",
+      "O forță perpendiculară pe deplasare nu efectuează lucru mecanic.",
+      "Puterea este lucrul mecanic în unitatea de timp, măsurată în wați.",
+      "Randamentul e mereu subunitar: o parte din energie se pierde prin frecare."
+     ],
+     "termeni": [
+      {
+       "t": "joule",
+       "d": "unitatea de măsură a lucrului mecanic și a energiei"
+      },
+      {
+       "t": "randament",
+       "d": "raportul dintre lucrul mecanic util și cel consumat"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Când este nul lucrul mecanic al unei forțe?",
+       "v": "Când forța e perpendiculară pe deplasare sau când nu există deplasare."
+      },
+      {
+       "f": "Care e unitatea de măsură a puterii?",
+       "v": "Wattul."
+      },
+      {
+       "f": "De ce nu poate exista un perpetuum mobile?",
+       "v": "Pentru că o parte din energie se pierde inevitabil prin frecare și încălzire."
+      },
+      {
+       "f": "Cât înseamnă un cal-putere?",
+       "v": "Aproximativ 736 de wați."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Un hamal care ține o greutate nemișcată efectuează:",
+       "optiuni": [
+        "lucru mecanic nul",
+        "lucru mecanic pozitiv",
+        "lucru mecanic negativ",
+        "putere infinită"
+       ],
+       "corect": 0,
+       "explicatie": "Fără deplasare nu există lucru mecanic."
+      },
+      {
+       "intrebare": "Puterea se măsoară în:",
+       "optiuni": [
+        "wați",
+        "jouli",
+        "newtoni",
+        "pascali"
+       ],
+       "corect": 0,
+       "explicatie": "Joulul măsoară lucrul mecanic."
+      },
+      {
+       "intrebare": "Randamentul unei mașini reale este:",
+       "optiuni": [
+        "întotdeauna sub 100%",
+        "exact 100%",
+        "peste 100% la mașinile bune",
+        "egal cu zero"
+       ],
+       "corect": 0,
+       "explicatie": "Pierderile prin frecare sunt inevitabile."
+      },
+      {
+       "intrebare": "Forța centripetă efectuează:",
+       "optiuni": [
+        "lucru mecanic nul",
+        "lucru mecanic pozitiv",
+        "lucru mecanic negativ",
+        "lucru mecanic variabil"
+       ],
+       "corect": 0,
+       "explicatie": "Este perpendiculară pe deplasare."
+      }
+     ]
+    },
+    {
+     "id": "fiz9-06",
+     "titlu": "Energia și conservarea ei",
+     "rezumat": "Energia cinetică este energia mișcării și depinde de masă și de pătratul vitezei; dublarea vitezei împătrește energia cinetică — motiv fizic pentru care distanța de frânare crește atât de rapid cu viteza. Energia potențială gravitațională depinde de masă, de accelerația gravitațională și de înălțimea față de un nivel de referință. Energia potențială elastică este înmagazinată într-un corp deformat elastic. Energia mecanică totală este suma energiei cinetice și a celei potențiale. În absența frecărilor, ea se conservă: la căderea unui corp, energia potențială se transformă continuu în energie cinetică, suma rămânând constantă. În prezența frecărilor, o parte se transformă în căldură, dar energia totală a sistemului se conservă tot — este legea generală a conservării energiei, unul dintre principiile fundamentale ale fizicii. Energia nu se creează și nu se distruge, ci doar se transformă dintr-o formă în alta.",
+     "ideiCheie": [
+      "Energia cinetică depinde de pătratul vitezei: viteză dublă înseamnă energie de patru ori mai mare.",
+      "Energia potențială gravitațională depinde de masă, accelerație și înălțime.",
+      "În absența frecărilor, energia mecanică se conservă.",
+      "Energia nu se creează și nu se distruge, ci se transformă."
+     ],
+     "termeni": [
+      {
+       "t": "energie cinetică",
+       "d": "energia pe care un corp o are datorită mișcării sale"
+      },
+      {
+       "t": "conservare a energiei",
+       "d": "principiul potrivit căruia energia totală a unui sistem izolat rămâne constantă"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "De ce crește atât de mult distanța de frânare cu viteza?",
+       "v": "Pentru că energia cinetică depinde de pătratul vitezei."
+      },
+      {
+       "f": "Ce se conservă la căderea liberă fără frecare?",
+       "v": "Energia mecanică totală, suma dintre cinetică și potențială."
+      },
+      {
+       "f": "Unde se duce energia pierdută prin frecare?",
+       "v": "Se transformă în căldură; energia totală se conservă."
+      },
+      {
+       "f": "De ce depinde energia potențială gravitațională?",
+       "v": "De masă, de accelerația gravitațională și de înălțimea față de un nivel de referință."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Dacă viteza unui corp se dublează, energia lui cinetică:",
+       "optiuni": [
+        "se împătrește",
+        "se dublează",
+        "rămâne aceeași",
+        "se înjumătățește"
+       ],
+       "corect": 0,
+       "explicatie": "Depinde de pătratul vitezei."
+      },
+      {
+       "intrebare": "Energia mecanică se conservă:",
+       "optiuni": [
+        "în absența forțelor de frecare",
+        "întotdeauna, în orice condiții",
+        "doar în cădere liberă",
+        "doar la corpurile în repaus"
+       ],
+       "corect": 0,
+       "explicatie": "Frecarea transformă o parte în căldură."
+      },
+      {
+       "intrebare": "Legea conservării energiei spune că energia:",
+       "optiuni": [
+        "se transformă, dar nu se creează și nu se distruge",
+        "se consumă complet",
+        "crește în sistemele izolate",
+        "scade în sistemele izolate"
+       ],
+       "corect": 0,
+       "explicatie": "Este un principiu fundamental al fizicii."
+      },
+      {
+       "intrebare": "Energia potențială elastică este înmagazinată:",
+       "optiuni": [
+        "într-un corp deformat elastic",
+        "într-un corp aflat la înălțime",
+        "într-un corp în mișcare",
+        "într-un corp încălzit"
+       ],
+       "corect": 0,
+       "explicatie": "Cea gravitațională ține de înălțime."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fiz9-c3",
+   "titlu": "Echilibru, presiune, aplicații",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "fiz9-07",
+     "titlu": "Echilibrul corpurilor",
+     "rezumat": "Un corp este în echilibru de translație când rezultanta forțelor care acționează asupra lui este nulă și în echilibru de rotație când suma momentelor forțelor față de orice punct este nulă. Momentul unei forțe față de un punct este produsul dintre forță și brațul ei — distanța de la punct la direcția forței. Ambele condiții trebuie îndeplinite simultan pentru echilibrul complet. Centrul de greutate este punctul de aplicație al greutății; un corp sprijinit rămâne în echilibru dacă verticala prin centrul de greutate cade în interiorul bazei de susținere. Echilibrul poate fi stabil (corpul revine după o mică perturbare), instabil (se îndepărtează) sau indiferent (rămâne în noua poziție). Stabilitatea crește cu baza largă și centrul de greutate coborât — de aceea vehiculele de curse sunt joase și late.",
+     "ideiCheie": [
+      "Echilibrul cere rezultanta forțelor nulă și suma momentelor nulă.",
+      "Momentul unei forțe este produsul dintre forță și brațul ei.",
+      "Un corp stă în echilibru dacă verticala prin centrul de greutate cade în baza de susținere.",
+      "Stabilitatea crește cu baza largă și centrul de greutate coborât."
+     ],
+     "termeni": [
+      {
+       "t": "moment al forței",
+       "d": "produsul dintre forță și distanța de la punctul de rotație la direcția ei"
+      },
+      {
+       "t": "centru de greutate",
+       "d": "punctul în care se consideră aplicată greutatea întregului corp"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt cele două condiții de echilibru?",
+       "v": "Rezultanta forțelor nulă și suma momentelor nulă."
+      },
+      {
+       "f": "Ce este brațul unei forțe?",
+       "v": "Distanța de la punctul de rotație la direcția forței."
+      },
+      {
+       "f": "Când este stabil echilibrul unui corp?",
+       "v": "Când corpul revine în poziția inițială după o mică perturbare."
+      },
+      {
+       "f": "De ce sunt mașinile de curse joase și late?",
+       "v": "Pentru că baza largă și centrul de greutate coborât cresc stabilitatea."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Momentul unei forțe se calculează ca:",
+       "optiuni": [
+        "produsul dintre forță și braț",
+        "raportul dintre forță și braț",
+        "suma forței și brațului",
+        "produsul dintre forță și masă"
+       ],
+       "corect": 0,
+       "explicatie": "Brațul e distanța perpendiculară la direcția forței."
+      },
+      {
+       "intrebare": "Un corp cade dacă verticala prin centrul de greutate:",
+       "optiuni": [
+        "iese din baza de susținere",
+        "trece prin centrul bazei",
+        "rămâne în interiorul bazei",
+        "este perpendiculară pe sol"
+       ],
+       "corect": 0,
+       "explicatie": "Este criteriul de stabilitate a echilibrului."
+      },
+      {
+       "intrebare": "Echilibrul indiferent înseamnă că, după o mică perturbare, corpul:",
+       "optiuni": [
+        "rămâne în noua poziție",
+        "revine în poziția inițială",
+        "se îndepărtează accelerat",
+        "se răstoarnă"
+       ],
+       "corect": 0,
+       "explicatie": "Bila pe o suprafață orizontală e exemplul clasic."
+      },
+      {
+       "intrebare": "Pentru echilibrul complet trebuie îndeplinite:",
+       "optiuni": [
+        "ambele condiții, de translație și de rotație",
+        "doar condiția de translație",
+        "doar condiția de rotație",
+        "niciuna, dacă corpul e în repaus"
+       ],
+       "corect": 0,
+       "explicatie": "Altfel corpul se rotește chiar dacă nu se translatează."
+      }
+     ]
+    },
+    {
+     "id": "fiz9-08",
+     "titlu": "Mașini simple",
+     "rezumat": "Mașinile simple nu creează energie: ele schimbă doar direcția sau mărimea forței, păstrând (idealizat) lucrul mecanic. Pârghia se sprijină pe un punct de sprijin și respectă condiția de echilibru: produsul dintre forța activă și brațul ei este egal cu produsul dintre forța rezistentă și brațul ei. Pârghiile sunt de trei feluri, după poziția relativă a punctului de sprijin, a forței active și a celei rezistente. Scripetele fix schimbă doar direcția forței; scripetele mobil înjumătățește forța necesară, dublând drumul parcurs. Planul înclinat reduce forța necesară ridicării, cu prețul unei distanțe mai mari — șuruburile și rampele sunt aplicații ale lui. Regula de aur a mecanicii sintetizează totul: ce câștigi în forță pierzi în deplasare. Corpul uman folosește pârghii peste tot: antebrațul, mușchiul și articulația cotului formează o pârghie de gradul al treilea, care câștigă în viteză, nu în forță.",
+     "ideiCheie": [
+      "Mașinile simple schimbă forța sau direcția, nu creează energie.",
+      "Pârghia este în echilibru când momentele celor două forțe sunt egale.",
+      "Scripetele fix schimbă direcția; cel mobil înjumătățește forța.",
+      "Regula de aur: ce câștigi în forță pierzi în deplasare."
+     ],
+     "termeni": [
+      {
+       "t": "pârghie",
+       "d": "bară rigidă care se poate roti în jurul unui punct de sprijin"
+      },
+      {
+       "t": "regulă de aur a mecanicii",
+       "d": "principiul potrivit căruia câștigul în forță se plătește prin pierdere în deplasare"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce face scripetele fix?",
+       "v": "Schimbă doar direcția forței, nu și mărimea ei."
+      },
+      {
+       "f": "Cum se enunță regula de aur a mecanicii?",
+       "v": "Ce câștigi în forță pierzi în deplasare."
+      },
+      {
+       "f": "Ce tip de pârghie este antebrațul?",
+       "v": "O pârghie de gradul al treilea, care câștigă în viteză, nu în forță."
+      },
+      {
+       "f": "Ce câștigă planul înclinat?",
+       "v": "Reduce forța necesară ridicării, mărind distanța parcursă."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Scripetele mobil:",
+       "optiuni": [
+        "înjumătățește forța necesară, dublând drumul",
+        "dublează forța necesară",
+        "schimbă doar direcția forței",
+        "crește energia disponibilă"
+       ],
+       "corect": 0,
+       "explicatie": "Lucrul mecanic rămâne același."
+      },
+      {
+       "intrebare": "O pârghie este în echilibru când:",
+       "optiuni": [
+        "momentele celor două forțe sunt egale",
+        "forțele sunt egale",
+        "brațele sunt egale",
+        "punctul de sprijin e la mijloc"
+       ],
+       "corect": 0,
+       "explicatie": "Momentul e forța înmulțită cu brațul."
+      },
+      {
+       "intrebare": "Planul înclinat reduce forța necesară:",
+       "optiuni": [
+        "mărind distanța parcursă",
+        "creând energie suplimentară",
+        "eliminând frecarea",
+        "reducând greutatea corpului"
+       ],
+       "corect": 0,
+       "explicatie": "Este regula de aur în acțiune."
+      },
+      {
+       "intrebare": "Mașinile simple:",
+       "optiuni": [
+        "nu creează energie",
+        "creează energie",
+        "pot avea randament peste 100%",
+        "elimină frecarea"
+       ],
+       "corect": 0,
+       "explicatie": "Ele redistribuie doar forța și deplasarea."
+      }
+     ]
+    },
+    {
+     "id": "fiz9-09",
+     "titlu": "Presiunea în solide, lichide și gaze",
+     "rezumat": "Presiunea este raportul dintre forța apăsătoare și aria pe care se exercită, măsurată în pascali. De aceea un cuțit ascuțit taie mai ușor: aceeași forță pe o arie mult mai mică dă o presiune mult mai mare. Invers, schiurile și șenilele distribuie greutatea pe o suprafață mare, reducând presiunea și împiedicând scufundarea. În lichide, presiunea hidrostatică crește cu adâncimea și depinde de densitatea lichidului, nu de forma vasului. Principiul lui Pascal spune că presiunea aplicată unui lichid închis se transmite integral în toate direcțiile — baza preselor și frânelor hidraulice. Legea lui Arhimede afirmă că un corp scufundat este împins de jos în sus cu o forță egală cu greutatea lichidului dezlocuit; de aici plutirea, submarinele și baloanele. Presiunea atmosferică, măsurată prima dată de Torricelli, scade cu altitudinea.",
+     "ideiCheie": [
+      "Presiunea este forța raportată la arie și se măsoară în pascali.",
+      "Presiunea hidrostatică crește cu adâncimea, indiferent de forma vasului.",
+      "Principiul lui Pascal stă la baza preselor și frânelor hidraulice.",
+      "Legea lui Arhimede explică plutirea corpurilor."
+     ],
+     "termeni": [
+      {
+       "t": "presiune",
+       "d": "raportul dintre forța apăsătoare și aria suprafeței pe care se exercită"
+      },
+      {
+       "t": "forță arhimedică",
+       "d": "forța de jos în sus care acționează asupra unui corp scufundat, egală cu greutatea lichidului dezlocuit"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "De ce taie mai bine un cuțit ascuțit?",
+       "v": "Pentru că aceeași forță pe o arie mai mică dă o presiune mult mai mare."
+      },
+      {
+       "f": "De ce nu depinde presiunea hidrostatică de forma vasului?",
+       "v": "Pentru că depinde doar de adâncime și de densitatea lichidului."
+      },
+      {
+       "f": "Ce spune principiul lui Pascal?",
+       "v": "Presiunea aplicată unui lichid închis se transmite integral în toate direcțiile."
+      },
+      {
+       "f": "Cine a măsurat prima dată presiunea atmosferică?",
+       "v": "Torricelli, cu coloana de mercur."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Presiunea se măsoară în:",
+       "optiuni": [
+        "pascali",
+        "newtoni",
+        "jouli",
+        "wați"
+       ],
+       "corect": 0,
+       "explicatie": "Un pascal e un newton pe metru pătrat."
+      },
+      {
+       "intrebare": "Forța arhimedică este egală cu:",
+       "optiuni": [
+        "greutatea lichidului dezlocuit",
+        "greutatea corpului",
+        "presiunea la fundul vasului",
+        "volumul corpului"
+       ],
+       "corect": 0,
+       "explicatie": "De aici condiția de plutire."
+      },
+      {
+       "intrebare": "Presiunea atmosferică, odată cu altitudinea:",
+       "optiuni": [
+        "scade",
+        "crește",
+        "rămâne constantă",
+        "devine nulă imediat"
+       ],
+       "corect": 0,
+       "explicatie": "Coloana de aer de deasupra e mai scurtă."
+      },
+      {
+       "intrebare": "Frânele hidraulice se bazează pe:",
+       "optiuni": [
+        "principiul lui Pascal",
+        "legea lui Arhimede",
+        "legea lui Hooke",
+        "principiul inerției"
+       ],
+       "corect": 0,
+       "explicatie": "Presiunea se transmite integral prin lichid."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "teze": [
+  {
+   "semestru": 1,
+   "test": [
+    {
+     "intrebare": "Mișcarea și repausul sunt:",
+     "optiuni": [
+      "relative, dependente de sistemul de referință",
+      "absolute",
+      "independente de observator",
+      "determinate doar de masă"
+     ],
+     "corect": 0,
+     "explicatie": "Pasagerul din tren e exemplul clasic."
+    },
+    {
+     "intrebare": "Deplasarea este o mărime:",
+     "optiuni": [
+      "vectorială",
+      "scalară",
+      "adimensională",
+      "constantă"
+     ],
+     "corect": 0,
+     "explicatie": "Distanța parcursă e scalară."
+    },
+    {
+     "intrebare": "Accelerația gravitațională la suprafața Pământului este aproximativ:",
+     "optiuni": [
+      "9,8 m/s²",
+      "9,8 m/s",
+      "1 m/s²",
+      "736 m/s²"
+     ],
+     "corect": 0,
+     "explicatie": "Nu depinde de masa corpului care cade."
+    },
+    {
+     "intrebare": "Principiul inerției afirmă că un corp fără forțe necompensate:",
+     "optiuni": [
+      "își păstrează starea de mișcare",
+      "se oprește",
+      "accelerează uniform",
+      "se rotește"
+     ],
+     "corect": 0,
+     "explicatie": "Inerția se măsoară prin masă."
+    },
+    {
+     "intrebare": "Forța rezultantă este egală cu:",
+     "optiuni": [
+      "masa înmulțită cu accelerația",
+      "masa împărțită la accelerație",
+      "greutatea împărțită la masă",
+      "lucrul mecanic pe timp"
+     ],
+     "corect": 0,
+     "explicatie": "Este principiul fundamental al mecanicii."
+    },
+    {
+     "intrebare": "Greutatea unui corp:",
+     "optiuni": [
+      "depinde de locul în care se află",
+      "este aceeași peste tot",
+      "se măsoară în kilograme",
+      "este egală cu masa"
+     ],
+     "corect": 0,
+     "explicatie": "Masa e cea care nu se schimbă."
+    },
+    {
+     "intrebare": "Frecarea statică, față de cea cinetică, este:",
+     "optiuni": [
+      "mai mare",
+      "mai mică",
+      "egală",
+      "nulă"
+     ],
+     "corect": 0,
+     "explicatie": "De aceea pornirea cere mai multă forță."
+    },
+    {
+     "intrebare": "Lucrul mecanic se măsoară în:",
+     "optiuni": [
+      "jouli",
+      "wați",
+      "newtoni",
+      "pascali"
+     ],
+     "corect": 0,
+     "explicatie": "Wattul măsoară puterea."
+    },
+    {
+     "intrebare": "Randamentul unei mașini reale este:",
+     "optiuni": [
+      "subunitar",
+      "egal cu 1",
+      "supraunitar",
+      "nedefinit"
+     ],
+     "corect": 0,
+     "explicatie": "Frecarea produce pierderi inevitabile."
+    }
+   ]
+  },
+  {
+   "semestru": 2,
+   "test": [
+    {
+     "intrebare": "Energia cinetică depinde de:",
+     "optiuni": [
+      "pătratul vitezei",
+      "viteza la puterea întâi",
+      "inversul vitezei",
+      "doar de masă"
+     ],
+     "corect": 0,
+     "explicatie": "De aceea frânarea la viteză dublă cere de patru ori mai mult spațiu."
+    },
+    {
+     "intrebare": "În absența frecărilor, la căderea unui corp se conservă:",
+     "optiuni": [
+      "energia mecanică totală",
+      "doar energia cinetică",
+      "doar energia potențială",
+      "viteza"
+     ],
+     "corect": 0,
+     "explicatie": "Potențiala se transformă în cinetică."
+    },
+    {
+     "intrebare": "Un corp e în echilibru de rotație când:",
+     "optiuni": [
+      "suma momentelor este nulă",
+      "rezultanta forțelor este nulă",
+      "viteza e constantă",
+      "masa e mică"
+     ],
+     "corect": 0,
+     "explicatie": "Ambele condiții sunt necesare pentru echilibru complet."
+    },
+    {
+     "intrebare": "Stabilitatea unui corp crește când centrul de greutate este:",
+     "optiuni": [
+      "mai coborât",
+      "mai ridicat",
+      "în afara corpului",
+      "pe verticala bazei"
+     ],
+     "corect": 0,
+     "explicatie": "Și când baza de susținere e mai largă."
+    },
+    {
+     "intrebare": "Scripetele fix:",
+     "optiuni": [
+      "schimbă doar direcția forței",
+      "înjumătățește forța",
+      "dublează forța",
+      "creează energie"
+     ],
+     "corect": 0,
+     "explicatie": "Cel mobil înjumătățește forța."
+    },
+    {
+     "intrebare": "Regula de aur a mecanicii spune că:",
+     "optiuni": [
+      "ce câștigi în forță pierzi în deplasare",
+      "forța se poate multiplica fără cost",
+      "randamentul poate depăși 100%",
+      "energia se poate crea"
+     ],
+     "corect": 0,
+     "explicatie": "Se aplică tuturor mașinilor simple."
+    },
+    {
+     "intrebare": "Presiunea hidrostatică depinde de:",
+     "optiuni": [
+      "adâncime și densitatea lichidului",
+      "forma vasului",
+      "volumul total de lichid",
+      "aria bazei"
+     ],
+     "corect": 0,
+     "explicatie": "De aceea vasele comunicante au același nivel."
+    },
+    {
+     "intrebare": "Un corp plutește dacă forța arhimedică:",
+     "optiuni": [
+      "echilibrează greutatea lui",
+      "este mai mică decât greutatea",
+      "este nulă",
+      "acționează de sus în jos"
+     ],
+     "corect": 0,
+     "explicatie": "Forța arhimedică e egală cu greutatea lichidului dezlocuit."
+    },
+    {
+     "intrebare": "Presiunea se calculează ca:",
+     "optiuni": [
+      "forța împărțită la arie",
+      "forța înmulțită cu aria",
+      "aria împărțită la forță",
+      "masa împărțită la volum"
+     ],
+     "corect": 0,
+     "explicatie": "Ultimul raport dă densitatea."
+    }
+   ]
+  }
+ ]
+}

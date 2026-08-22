@@ -11,9 +11,10 @@ cssclasses: fisa
 > **Se studiază în:** [[Clasa a IX-a]], [[Clasa a X-a]]
 > **La bacalaureat:** nu
 
-> [!todo] Fără conținut în aplicație
-> Materia apare în planul-cadru, dar încă nu are lecții în `data/continut.json`.
-> Adaugă un modul acolo și rulează din nou `graphify` ca să apară aici.
+## Anii de studiu
+
+- [[Biologie (clasa a IX-a)|Clasa a IX-a]] — 9 lecții, 36 carduri, 54 întrebări
+- [[Biologie (clasa a X-a)|Clasa a X-a]] — 9 lecții, 36 carduri, 54 întrebări
 
 ## Legături
 - [[00 Start aici]]

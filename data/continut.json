@@ -1,417 +1,5332 @@
 {
-  "version": 1,
-  "actualizat": "2026-08-21",
+  "version": "03",
+  "actualizat": "2026-08-22",
+  "nrModule": 60,
+  "nrLectii": 580,
+  "nrCarduri": 2320,
+  "nrIntrebari": 2320,
+  "nrIntrebariTeze": 1294,
   "module": [
     {
-      "id": "filosofie",
-      "materie": "Filosofie",
-      "clasa": "a XII-a",
-      "descriere": "Marile teme ale filosofiei: omul, cunoașterea, morala, politica.",
-      "lectii": [
+      "id": "geografie-9",
+      "materie": "Geografie",
+      "clasa": "a IX-a",
+      "an": 1,
+      "arie": "Om și societate",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Geografie fizică generală: Pământul în Univers, relieful, atmosfera, apele, viețuitoarele și mediul înconjurător.",
+      "nrLectii": 10,
+      "nrCarduri": 40,
+      "nrIntrebari": 40,
+      "nrIntrebariTeze": 24,
+      "capitole": [
         {
-          "id": "filo-01",
-          "titlu": "Ce este filosofia?",
-          "rezumat": "Filosofia este cercetarea rațională, critică și sistematică a întrebărilor fundamentale despre existență, cunoaștere, valori și societate. Spre deosebire de știință, care răspunde la întrebări prin experiment, filosofia lucrează prin argumentare conceptuală. Ramuri principale: ontologia (existența), gnoseologia (cunoașterea), etica (binele), estetica (frumosul), filosofia politică (puterea și dreptatea).",
-          "ideiCheie": [
-            "Filosofia pune întrebări la care nu se poate răspunde exclusiv empiric.",
-            "Metoda filosofică = argumentare, analiză conceptuală, critică.",
-            "Ontologie, gnoseologie, etică, estetică, filosofie politică."
+          "id": "geo9-c1",
+          "titlu": "Pământul în Univers",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "geo9-01",
+              "titlu": "Sistemul Solar și Pământul ca planetă"
+            },
+            {
+              "id": "geo9-02",
+              "titlu": "Mișcările Pământului și consecințele lor"
+            }
           ]
         },
         {
-          "id": "filo-02",
-          "titlu": "Problema omului: natură vs. cultură",
-          "rezumat": "Omul este definit de tradiția filosofică drept „animal rațional” (Aristotel), „ființă care se face pe sine” (existențialismul) sau „ansamblul relațiilor sociale” (Marx). Distincția natură–cultură arată că omul are o zestre biologică, dar se împlinește prin cultură, limbaj și societate. Sartre: „existența precede esența” — omul nu are o natură dată, ci se construiește prin alegerile sale, de unde responsabilitatea și libertatea.",
-          "ideiCheie": [
-            "Aristotel: omul = animal rațional și politic (zoon politikon).",
-            "Sartre: existența precede esența; omul este condamnat să fie liber.",
-            "Cultura completează și transformă natura umană."
+          "id": "geo9-c2",
+          "titlu": "Relieful terestru",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "geo9-03",
+              "titlu": "Structura internă și tectonica plăcilor"
+            },
+            {
+              "id": "geo9-04",
+              "titlu": "Agenții interni și formele majore de relief"
+            },
+            {
+              "id": "geo9-05",
+              "titlu": "Agenții externi și modelarea reliefului"
+            }
           ]
         },
         {
-          "id": "filo-03",
-          "titlu": "Teoria cunoașterii: raționalism vs. empirism",
-          "rezumat": "Raționalismul (Descartes, Spinoza, Leibniz) susține că sursa cunoașterii certe este rațiunea, prin idei înnăscute și deducție. Empirismul (Locke, Berkeley, Hume) susține că mintea este la naștere o „tabula rasa”, iar toată cunoașterea provine din experiență. Kant realizează sinteza: cunoașterea începe cu experiența, dar nu provine în întregime din ea — intelectul aplică forme a priori (spațiu, timp, categorii).",
-          "ideiCheie": [
-            "Descartes: îndoiala metodică, «cogito ergo sum».",
-            "Locke: mintea este tabula rasa; nimic nu e în intelect fără să fi fost în simțuri.",
-            "Kant: judecăți sintetice a priori; revoluția copernicană în filosofie."
+          "id": "geo9-c3",
+          "titlu": "Atmosfera și hidrosfera",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "geo9-06",
+              "titlu": "Atmosfera: structură, temperatură, presiune, vânturi"
+            },
+            {
+              "id": "geo9-07",
+              "titlu": "Clima și zonele climatice"
+            },
+            {
+              "id": "geo9-08",
+              "titlu": "Hidrosfera: oceane, râuri, lacuri, ape subterane"
+            }
           ]
         },
         {
-          "id": "filo-04",
-          "titlu": "Etica: datorie și utilitate",
-          "rezumat": "Etica deontologică (Kant) evaluează acțiunea după intenție și după conformitatea cu datoria morală: imperativul categoric cere să acționezi astfel încât maxima ta să poată deveni lege universală, și să tratezi umanitatea întotdeauna și ca scop, niciodată doar ca mijloc. Utilitarismul (Bentham, Mill) evaluează acțiunea după consecințe: bună este acțiunea care produce cea mai mare fericire pentru cel mai mare număr de oameni.",
-          "ideiCheie": [
-            "Kant: imperativ categoric, autonomie morală, valoare intrinsecă a persoanei.",
-            "Bentham/Mill: principiul utilității, calcul al consecințelor.",
-            "Deontologie = intenție; utilitarism = consecințe."
-          ]
-        },
-        {
-          "id": "filo-05",
-          "titlu": "Filosofie politică: contractul social",
-          "rezumat": "Hobbes pornește de la starea naturală ca „război al tuturor împotriva tuturor” și justifică un suveran absolut care garantează pacea. Locke consideră starea naturală guvernată de legea naturală, iar statul apare pentru a proteja drepturile la viață, libertate și proprietate; puterea este limitată și revocabilă. Rousseau vede contractul social ca supunere față de „voința generală”, prin care omul câștigă libertatea civilă.",
-          "ideiCheie": [
-            "Hobbes: homo homini lupus; Leviathanul.",
-            "Locke: drepturi naturale, guvernare limitată, dreptul la revoltă.",
-            "Rousseau: voința generală, suveranitate populară."
+          "id": "geo9-c4",
+          "titlu": "Biosfera, solurile și mediul",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "geo9-09",
+              "titlu": "Biosfera, solurile și zonele biogeografice"
+            },
+            {
+              "id": "geo9-10",
+              "titlu": "Mediul înconjurător: hazarde, poluare, protecție"
+            }
           ]
         }
       ],
-      "flashcards": [
-        { "f": "Cine a formulat imperativul categoric?", "v": "Immanuel Kant." },
-        { "f": "Ce înseamnă „existența precede esența”?", "v": "Teza lui Sartre: omul nu are o natură prestabilită, ci se definește prin propriile alegeri." },
-        { "f": "Ce susține empirismul?", "v": "Că întreaga cunoaștere provine din experiența sensibilă; mintea este la naștere tabula rasa." },
-        { "f": "Care este principiul utilității?", "v": "Este morală acțiunea care produce cea mai mare fericire pentru cel mai mare număr de oameni." },
-        { "f": "Ce este starea naturală la Hobbes?", "v": "Războiul tuturor împotriva tuturor, în absența unei puteri comune." },
-        { "f": "Ce studiază ontologia?", "v": "Existența ca existență: ce există și în ce mod." },
-        { "f": "Ce este „voința generală” la Rousseau?", "v": "Voința corpului politic orientată spre binele comun, sursa suveranității legitime." }
-      ],
-      "quiz": [
-        { "intrebare": "Care filosof afirmă că mintea este la naștere o „tabula rasa”?", "optiuni": ["Descartes", "Locke", "Kant", "Platon"], "corect": 1, "explicatie": "John Locke, reprezentant al empirismului, respinge ideile înnăscute." },
-        { "intrebare": "Imperativul categoric aparține eticii:", "optiuni": ["utilitariste", "deontologice", "hedoniste", "relativiste"], "corect": 1, "explicatie": "Kant fundamentează o etică a datoriei (deontologică)." },
-        { "intrebare": "„Cogito ergo sum” aparține lui:", "optiuni": ["Hume", "Descartes", "Aristotel", "Mill"], "corect": 1, "explicatie": "Descartes, ca punct arhimedic al îndoielii metodice." },
-        { "intrebare": "Care autor justifică dreptul poporului de a se revolta împotriva guvernării abuzive?", "optiuni": ["Hobbes", "Locke", "Machiavelli", "Platon"], "corect": 1, "explicatie": "Locke: puterea politică este un mandat revocabil." },
-        { "intrebare": "Ramura filosofiei care studiază frumosul se numește:", "optiuni": ["etică", "estetică", "gnoseologie", "logică"], "corect": 1, "explicatie": "Estetica studiază frumosul și experiența artistică." }
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
       ]
     },
     {
-      "id": "logica",
+      "id": "istorie-9",
+      "materie": "Istorie",
+      "clasa": "a IX-a",
+      "an": 1,
+      "arie": "Om și societate",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Antichitatea și Evul Mediu: popoare și spații istorice, forme de organizare politică, religie și relații internaționale.",
+      "nrLectii": 12,
+      "nrCarduri": 48,
+      "nrIntrebari": 48,
+      "nrIntrebariTeze": 24,
+      "capitole": [
+        {
+          "id": "ist9-c1",
+          "titlu": "Popoare și spații istorice în Antichitate",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ist9-01",
+              "titlu": "Izvoarele istorice și munca istoricului"
+            },
+            {
+              "id": "ist9-02",
+              "titlu": "Civilizațiile Orientului Antic"
+            },
+            {
+              "id": "ist9-03",
+              "titlu": "Grecia antică și moștenirea ei"
+            }
+          ]
+        },
+        {
+          "id": "ist9-c2",
+          "titlu": "Roma, romanitatea și lumea daco-romană",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ist9-04",
+              "titlu": "Roma: republică și imperiu"
+            },
+            {
+              "id": "ist9-05",
+              "titlu": "Geto-dacii și Dacia romană"
+            },
+            {
+              "id": "ist9-06",
+              "titlu": "Etnogeneza românească și romanitatea"
+            }
+          ]
+        },
+        {
+          "id": "ist9-c3",
+          "titlu": "Evul Mediu european",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ist9-07",
+              "titlu": "Societatea feudală și structurile ei"
+            },
+            {
+              "id": "ist9-08",
+              "titlu": "Biserica, cruciadele și cultura medievală"
+            },
+            {
+              "id": "ist9-09",
+              "titlu": "Statul medieval: monarhii, imperii, forme de guvernare"
+            }
+          ]
+        },
+        {
+          "id": "ist9-c4",
+          "titlu": "Spațiul românesc în Evul Mediu",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ist9-10",
+              "titlu": "Autonomii locale și întemeierea statelor medievale românești"
+            },
+            {
+              "id": "ist9-11",
+              "titlu": "Domnii și lupta antiotomană"
+            },
+            {
+              "id": "ist9-12",
+              "titlu": "Religia și cultura în spațiul românesc medieval"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "logica-9",
       "materie": "Logică, argumentare și comunicare",
       "clasa": "a IX-a",
-      "descriere": "Noțiuni, propoziții, raționamente, erori de argumentare.",
-      "lectii": [
+      "an": 1,
+      "arie": "Om și societate",
+      "bac": true,
+      "socioUman": true,
+      "descriere": "Instrumentele gândirii corecte: argumentarea, termenii, propozițiile, raționamentele și erorile de argumentare.",
+      "nrLectii": 16,
+      "nrCarduri": 64,
+      "nrIntrebari": 64,
+      "nrIntrebariTeze": 24,
+      "capitole": [
         {
-          "id": "log-01",
-          "titlu": "Noțiunea: sferă și conținut",
-          "rezumat": "Noțiunea este forma logică fundamentală care reflectă notele esențiale ale unei clase de obiecte. Conținutul (intensiunea) = totalitatea notelor caracteristice; sfera (extensiunea) = totalitatea obiectelor la care se aplică noțiunea. Legea raportului invers: cu cât conținutul este mai bogat, cu atât sfera este mai restrânsă.",
-          "ideiCheie": [
-            "Conținut = ce înseamnă noțiunea; sferă = la ce se aplică.",
-            "Raport invers între sferă și conținut.",
-            "Raporturi între noțiuni: identitate, încrucișare, ordonare, opoziție."
+          "id": "log9-c1",
+          "titlu": "Societate, comunicare și argumentare",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "log9-01",
+              "titlu": "Ce este logica"
+            },
+            {
+              "id": "log9-02",
+              "titlu": "Argumentare și demonstrație"
+            },
+            {
+              "id": "log9-03",
+              "titlu": "Forme ale argumentării"
+            }
           ]
         },
         {
-          "id": "log-02",
-          "titlu": "Propoziții categorice și pătratul logic",
-          "rezumat": "Cele patru tipuri de propoziții categorice: A (universal afirmativă – „Toți S sunt P”), E (universal negativă – „Niciun S nu este P”), I (particular afirmativă – „Unii S sunt P”), O (particular negativă – „Unii S nu sunt P”). Pătratul logic descrie raporturile: contradicție (A–O, E–I), contrarietate (A–E), subcontrarietate (I–O), subalternare (A–I, E–O).",
-          "ideiCheie": [
-            "A, E, I, O — cele patru forme categorice.",
-            "Contradictoriile nu pot fi nici ambele adevărate, nici ambele false.",
-            "Contrariile nu pot fi ambele adevărate, dar pot fi ambele false."
+          "id": "log9-c2",
+          "titlu": "Termenii",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "log9-04",
+              "titlu": "Termenul: sferă și conținut"
+            },
+            {
+              "id": "log9-05",
+              "titlu": "Raporturi între termeni"
+            },
+            {
+              "id": "log9-06",
+              "titlu": "Definirea"
+            },
+            {
+              "id": "log9-07",
+              "titlu": "Clasificarea"
+            }
           ]
         },
         {
-          "id": "log-03",
-          "titlu": "Silogismul",
-          "rezumat": "Silogismul este un raționament deductiv cu două premise și o concluzie, format din trei termeni: major (P), minor (S) și mediu (M). Figurile silogistice se disting după poziția termenului mediu. Reguli esențiale: termenul mediu trebuie distribuit cel puțin o dată; din două premise negative nu rezultă nimic; din două premise particulare nu rezultă nimic; concluzia urmează partea mai slabă.",
-          "ideiCheie": [
-            "Trei termeni: major, minor, mediu.",
-            "Patru figuri, determinate de poziția termenului mediu.",
-            "Validitatea ține de formă, nu de adevărul premiselor."
+          "id": "log9-c3",
+          "titlu": "Propozițiile",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "log9-08",
+              "titlu": "Propoziția categorică"
+            },
+            {
+              "id": "log9-09",
+              "titlu": "Raporturi între propoziții: pătratul logic"
+            },
+            {
+              "id": "log9-10",
+              "titlu": "Conversiunea, obversiunea și contrapoziția"
+            }
           ]
         },
         {
-          "id": "log-04",
-          "titlu": "Erori de argumentare (sofisme)",
-          "rezumat": "Sofismele sunt argumente care par valide, dar nu sunt. Ad hominem — atacul persoanei în loc de argument. Ad populum — apel la opinia majorității. Ad verecundiam — apel nelegitim la autoritate. Petitio principii — presupunerea concluziei în premise. Falsa dilemă — reducerea artificială la două opțiuni. Panta alunecoasă — lanț nejustificat de consecințe.",
-          "ideiCheie": [
-            "Sofismul are aparență de validitate, dar încalcă regulile logicii.",
-            "Erorile formale țin de structură; cele informale, de conținut și context.",
-            "Recunoașterea sofismelor este esențială pentru gândirea critică."
+          "id": "log9-c4",
+          "titlu": "Raționamentele",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "log9-11",
+              "titlu": "Deducție și inducție"
+            },
+            {
+              "id": "log9-12",
+              "titlu": "Silogismul: structură, figuri, moduri"
+            },
+            {
+              "id": "log9-13",
+              "titlu": "Regulile silogismului"
+            }
+          ]
+        },
+        {
+          "id": "log9-c5",
+          "titlu": "Erori de argumentare",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "log9-14",
+              "titlu": "Sofisme formale și informale"
+            },
+            {
+              "id": "log9-15",
+              "titlu": "Sofisme informale frecvente"
+            },
+            {
+              "id": "log9-16",
+              "titlu": "Argumentarea în viața cotidiană"
+            }
           ]
         }
       ],
-      "flashcards": [
-        { "f": "Ce este sfera unei noțiuni?", "v": "Totalitatea obiectelor la care se aplică noțiunea (extensiunea)." },
-        { "f": "Enunță legea raportului invers.", "v": "Cu cât conținutul unei noțiuni este mai bogat, cu atât sfera ei este mai restrânsă (și invers)." },
-        { "f": "Ce tip de propoziție este „Unii oameni nu sunt onești”?", "v": "O — particular negativă." },
-        { "f": "Ce raport există între A și O în pătratul logic?", "v": "Contradicție: una adevărată implică cealaltă falsă și invers." },
-        { "f": "Câți termeni are un silogism?", "v": "Trei: major, minor și mediu." },
-        { "f": "Ce este sofismul ad hominem?", "v": "Respingerea unei teze prin atacarea persoanei care o susține, nu a argumentelor ei." }
-      ],
-      "quiz": [
-        { "intrebare": "„Toți S sunt P” este o propoziție de tip:", "optiuni": ["A", "E", "I", "O"], "corect": 0, "explicatie": "A = universal afirmativă." },
-        { "intrebare": "Două propoziții contrare pot fi:", "optiuni": ["ambele adevărate", "ambele false", "nici adevărate, nici false", "întotdeauna echivalente"], "corect": 1, "explicatie": "Contrariile (A–E) nu pot fi ambele adevărate, dar pot fi ambele false." },
-        { "intrebare": "Termenul mediu într-un silogism valid trebuie:", "optiuni": ["să lipsească din concluzie și să fie distribuit cel puțin o dată", "să apară în concluzie", "să fie mereu subiect", "să fie particular"], "corect": 0, "explicatie": "Termenul mediu leagă premisele și nu apare în concluzie." },
-        { "intrebare": "„Ori ești cu noi, ori ești împotriva noastră” este:", "optiuni": ["ad populum", "falsă dilemă", "petitio principii", "ad verecundiam"], "corect": 1, "explicatie": "Reduce artificial realitatea la două opțiuni." }
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
       ]
     },
     {
-      "id": "psihologie",
+      "id": "religie-9",
+      "materie": "Religie",
+      "clasa": "a IX-a",
+      "an": 1,
+      "arie": "Om și societate",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Sfânta Scriptură și Sfânta Tradiție, revelația și credința, Vechiul Testament și învățătura despre om.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 18,
+      "capitole": [
+        {
+          "id": "rel9-c1",
+          "titlu": "Revelație, Scriptură, Tradiție",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rel9-01",
+              "titlu": "Religia și căutarea sensului"
+            },
+            {
+              "id": "rel9-02",
+              "titlu": "Sfânta Scriptură"
+            },
+            {
+              "id": "rel9-03",
+              "titlu": "Sfânta Tradiție"
+            }
+          ]
+        },
+        {
+          "id": "rel9-c2",
+          "titlu": "Vechiul Testament",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rel9-04",
+              "titlu": "Creația și omul"
+            },
+            {
+              "id": "rel9-05",
+              "titlu": "Patriarhii și Legea"
+            },
+            {
+              "id": "rel9-06",
+              "titlu": "Profeții și așteptarea lui Mesia"
+            }
+          ]
+        },
+        {
+          "id": "rel9-c3",
+          "titlu": "Credință și viață",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rel9-07",
+              "titlu": "Simbolul de credință"
+            },
+            {
+              "id": "rel9-08",
+              "titlu": "Rugăciunea și viața liturgică"
+            },
+            {
+              "id": "rel9-09",
+              "titlu": "Virtuți, conștiință, alegeri"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
+        }
+      ]
+    },
+    {
+      "id": "latina-9",
+      "materie": "Limba latină",
+      "clasa": "a IX-a",
+      "an": 1,
+      "arie": "Limbă și comunicare",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Bazele limbii latine: alfabet și pronunție, declinări, verbul la indicativ, sintaxa propoziției simple și vocabularul moștenit în română.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 18,
+      "capitole": [
+        {
+          "id": "lat9-c1",
+          "titlu": "Alfabet, pronunție, structura limbii",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "lat9-01",
+              "titlu": "Alfabetul latin și pronunția"
+            },
+            {
+              "id": "lat9-02",
+              "titlu": "Latina — limbă flexionară"
+            },
+            {
+              "id": "lat9-03",
+              "titlu": "Declinarea I și a II-a"
+            }
+          ]
+        },
+        {
+          "id": "lat9-c2",
+          "titlu": "Verbul latin la indicativ",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "lat9-04",
+              "titlu": "Conjugările și prezentul"
+            },
+            {
+              "id": "lat9-05",
+              "titlu": "Imperfectul, viitorul, perfectul"
+            },
+            {
+              "id": "lat9-06",
+              "titlu": "Diateza pasivă și verbele deponente"
+            }
+          ]
+        },
+        {
+          "id": "lat9-c3",
+          "titlu": "Sintaxă, vocabular, moștenire",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "lat9-07",
+              "titlu": "Propoziția simplă și acordul"
+            },
+            {
+              "id": "lat9-08",
+              "titlu": "Vocabular fundamental și derivare"
+            },
+            {
+              "id": "lat9-09",
+              "titlu": "Moștenirea latină în limba română"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
+        }
+      ]
+    },
+    {
+      "id": "engleza-9",
+      "materie": "Limba modernă 1 (Engleză)",
+      "clasa": "a IX-a",
+      "an": 1,
+      "arie": "Limbă și comunicare",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Bazele limbii engleze: timpurile de bază, substantivul și articolul, vocabularul esențial și comunicarea în situații cotidiene.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 24,
+      "capitole": [
+        {
+          "id": "eng9-c1",
+          "titlu": "Timpurile verbale de bază",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "eng9-01",
+              "titlu": "Present Simple și Present Continuous"
+            },
+            {
+              "id": "eng9-02",
+              "titlu": "Past Simple și Past Continuous"
+            },
+            {
+              "id": "eng9-03",
+              "titlu": "Present Perfect și viitorul"
+            }
+          ]
+        },
+        {
+          "id": "eng9-c2",
+          "titlu": "Structuri de bază",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "eng9-04",
+              "titlu": "Substantivul, articolul, cuantificatorii"
+            },
+            {
+              "id": "eng9-05",
+              "titlu": "Adjectivul, comparația, adverbul"
+            },
+            {
+              "id": "eng9-06",
+              "titlu": "Modalele și structurile de bază ale propoziției"
+            }
+          ]
+        },
+        {
+          "id": "eng9-c3",
+          "titlu": "Comunicare și vocabular",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "eng9-07",
+              "titlu": "Vocabular tematic esențial"
+            },
+            {
+              "id": "eng9-08",
+              "titlu": "Comunicare în situații cotidiene"
+            },
+            {
+              "id": "eng9-09",
+              "titlu": "Citit, scris și strategii de învățare"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "franceza-9",
+      "materie": "Limba modernă 2 (Franceză)",
+      "clasa": "a IX-a",
+      "an": 1,
+      "arie": "Limbă și comunicare",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Bazele limbii franceze: pronunție, substantiv și articol, prezentul verbelor, comunicare elementară și vocabular cotidian.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 24,
+      "capitole": [
+        {
+          "id": "fra9-c1",
+          "titlu": "Sunete, articole, substantive",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fra9-01",
+              "titlu": "Pronunție și ortografie"
+            },
+            {
+              "id": "fra9-02",
+              "titlu": "Substantivul, genul, numărul, articolele"
+            },
+            {
+              "id": "fra9-03",
+              "titlu": "Adjectivul și acordul"
+            }
+          ]
+        },
+        {
+          "id": "fra9-c2",
+          "titlu": "Verbele la prezent",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "fra9-04",
+              "titlu": "Verbele de grupa I și a II-a"
+            },
+            {
+              "id": "fra9-05",
+              "titlu": "Verbele neregulate uzuale"
+            },
+            {
+              "id": "fra9-06",
+              "titlu": "Negația, interogația, pronumele"
+            }
+          ]
+        },
+        {
+          "id": "fra9-c3",
+          "titlu": "Comunicare și vocabular",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "fra9-07",
+              "titlu": "Vocabular tematic de bază"
+            },
+            {
+              "id": "fra9-08",
+              "titlu": "Situații de comunicare"
+            },
+            {
+              "id": "fra9-09",
+              "titlu": "Citit, scris și strategii"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "romana-9",
+      "materie": "Limba și literatura română",
+      "clasa": "a IX-a",
+      "an": 1,
+      "arie": "Limbă și comunicare",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Ficțiunea și genurile literare, structura textului narativ, liric și dramatic, plus bazele exprimării corecte și ale comunicării.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 24,
+      "capitole": [
+        {
+          "id": "rom9-c1",
+          "titlu": "Ficțiunea și lumea textului",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rom9-01",
+              "titlu": "Ficțiune și realitate"
+            },
+            {
+              "id": "rom9-02",
+              "titlu": "Genurile literare"
+            },
+            {
+              "id": "rom9-03",
+              "titlu": "Textul narativ: instanțe și structuri"
+            }
+          ]
+        },
+        {
+          "id": "rom9-c2",
+          "titlu": "Textul liric și textul dramatic",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rom9-04",
+              "titlu": "Elemente de prozodie și imaginar poetic"
+            },
+            {
+              "id": "rom9-05",
+              "titlu": "Textul dramatic și spectacolul"
+            }
+          ]
+        },
+        {
+          "id": "rom9-c3",
+          "titlu": "Limba română: corectitudine și expresivitate",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rom9-06",
+              "titlu": "Fonetică, vocabular și sensurile cuvintelor"
+            },
+            {
+              "id": "rom9-07",
+              "titlu": "Morfologie și sintaxă: greșeli frecvente"
+            }
+          ]
+        },
+        {
+          "id": "rom9-c4",
+          "titlu": "Comunicare și redactare",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rom9-08",
+              "titlu": "Situația de comunicare și registrele limbii"
+            },
+            {
+              "id": "rom9-09",
+              "titlu": "Redactarea textelor: rezumat, caracterizare, text argumentativ"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "biologie-9",
+      "materie": "Biologie",
+      "clasa": "a IX-a",
+      "an": 1,
+      "arie": "Matematică și științe ale naturii",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Celula și țesuturile, anatomia și fiziologia omului: sistemele de relație, de nutriție și de reproducere.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 18,
+      "capitole": [
+        {
+          "id": "bio9-c1",
+          "titlu": "Celula și țesuturile",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "bio9-01",
+              "titlu": "Celula — unitatea vieții"
+            },
+            {
+              "id": "bio9-02",
+              "titlu": "Diviziunea celulară și ereditatea"
+            },
+            {
+              "id": "bio9-03",
+              "titlu": "Țesuturi și organizarea corpului"
+            }
+          ]
+        },
+        {
+          "id": "bio9-c2",
+          "titlu": "Funcțiile de relație",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "bio9-04",
+              "titlu": "Sistemul nervos"
+            },
+            {
+              "id": "bio9-05",
+              "titlu": "Analizatorii și sistemul endocrin"
+            },
+            {
+              "id": "bio9-06",
+              "titlu": "Sistemul locomotor"
+            }
+          ]
+        },
+        {
+          "id": "bio9-c3",
+          "titlu": "Funcțiile de nutriție și reproducere",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "bio9-07",
+              "titlu": "Digestia și respirația"
+            },
+            {
+              "id": "bio9-08",
+              "titlu": "Circulația și excreția"
+            },
+            {
+              "id": "bio9-09",
+              "titlu": "Reproducerea și sănătatea"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
+        }
+      ]
+    },
+    {
+      "id": "chimie-9",
+      "materie": "Chimie",
+      "clasa": "a IX-a",
+      "an": 1,
+      "arie": "Matematică și științe ale naturii",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Structura atomului, tabelul periodic, legături chimice, soluții și reacții chimice fundamentale.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 18,
+      "capitole": [
+        {
+          "id": "chi9-c1",
+          "titlu": "Atomul și sistemul periodic",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "chi9-01",
+              "titlu": "Structura atomului"
+            },
+            {
+              "id": "chi9-02",
+              "titlu": "Tabelul periodic"
+            },
+            {
+              "id": "chi9-03",
+              "titlu": "Legături chimice"
+            }
+          ]
+        },
+        {
+          "id": "chi9-c2",
+          "titlu": "Substanțe și soluții",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "chi9-04",
+              "titlu": "Substanțe pure și amestecuri"
+            },
+            {
+              "id": "chi9-05",
+              "titlu": "Soluții și concentrații"
+            },
+            {
+              "id": "chi9-06",
+              "titlu": "Mol, formule, calcule chimice"
+            }
+          ]
+        },
+        {
+          "id": "chi9-c3",
+          "titlu": "Reacții chimice",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "chi9-07",
+              "titlu": "Tipuri de reacții chimice"
+            },
+            {
+              "id": "chi9-08",
+              "titlu": "Acizi, baze, săruri"
+            },
+            {
+              "id": "chi9-09",
+              "titlu": "Viteza de reacție și chimia în viața de zi cu zi"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
+        }
+      ]
+    },
+    {
+      "id": "fizica-9",
+      "materie": "Fizică",
+      "clasa": "a IX-a",
+      "an": 1,
+      "arie": "Matematică și științe ale naturii",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Mecanica: mișcare și repaus, principiile dinamicii, lucru mecanic și energie, echilibru și mașini simple.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 18,
+      "capitole": [
+        {
+          "id": "fiz9-c1",
+          "titlu": "Mișcare și forțe",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fiz9-01",
+              "titlu": "Mișcare, repaus, sisteme de referință"
+            },
+            {
+              "id": "fiz9-02",
+              "titlu": "Mișcarea rectilinie uniformă și variată"
+            },
+            {
+              "id": "fiz9-03",
+              "titlu": "Principiile mecanicii"
+            }
+          ]
+        },
+        {
+          "id": "fiz9-c2",
+          "titlu": "Lucru mecanic și energie",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fiz9-04",
+              "titlu": "Tipuri de forțe"
+            },
+            {
+              "id": "fiz9-05",
+              "titlu": "Lucru mecanic, putere, randament"
+            },
+            {
+              "id": "fiz9-06",
+              "titlu": "Energia și conservarea ei"
+            }
+          ]
+        },
+        {
+          "id": "fiz9-c3",
+          "titlu": "Echilibru, presiune, aplicații",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "fiz9-07",
+              "titlu": "Echilibrul corpurilor"
+            },
+            {
+              "id": "fiz9-08",
+              "titlu": "Mașini simple"
+            },
+            {
+              "id": "fiz9-09",
+              "titlu": "Presiunea în solide, lichide și gaze"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
+        }
+      ]
+    },
+    {
+      "id": "matematica-9",
+      "materie": "Matematică",
+      "clasa": "a IX-a",
+      "an": 1,
+      "arie": "Matematică și științe ale naturii",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Mulțimi și numere reale, funcții și grafice, ecuații și sisteme, elemente de trigonometrie și geometrie vectorială.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 18,
+      "capitole": [
+        {
+          "id": "mat9-c1",
+          "titlu": "Mulțimi și numere reale",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "mat9-01",
+              "titlu": "Mulțimi de numere"
+            },
+            {
+              "id": "mat9-02",
+              "titlu": "Puteri, radicali, logaritmi"
+            },
+            {
+              "id": "mat9-03",
+              "titlu": "Progresii aritmetice și geometrice"
+            }
+          ]
+        },
+        {
+          "id": "mat9-c2",
+          "titlu": "Funcții",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "mat9-04",
+              "titlu": "Noțiunea de funcție"
+            },
+            {
+              "id": "mat9-05",
+              "titlu": "Funcția de gradul I și de gradul al II-lea"
+            },
+            {
+              "id": "mat9-06",
+              "titlu": "Ecuații, inecuații, sisteme"
+            }
+          ]
+        },
+        {
+          "id": "mat9-c3",
+          "titlu": "Trigonometrie și vectori",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "mat9-07",
+              "titlu": "Trigonometrie în triunghiul dreptunghic"
+            },
+            {
+              "id": "mat9-08",
+              "titlu": "Vectori în plan"
+            },
+            {
+              "id": "mat9-09",
+              "titlu": "Elemente de geometrie analitică"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
+        }
+      ]
+    },
+    {
+      "id": "tic-9",
+      "materie": "Tehnologia informației și a comunicațiilor (TIC)",
+      "clasa": "a IX-a",
+      "an": 1,
+      "arie": "Tehnologii",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Bazele informaticii aplicate: calculatorul, sistemul de operare, fișiere, editare de text și siguranța online.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 24,
+      "capitole": [
+        {
+          "id": "tic9-c1",
+          "titlu": "Calculatorul și sistemul de operare",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "tic9-01",
+              "titlu": "Componentele unui sistem de calcul"
+            },
+            {
+              "id": "tic9-02",
+              "titlu": "Sistemul de operare și gestionarea fișierelor"
+            },
+            {
+              "id": "tic9-03",
+              "titlu": "Rețele, internet și servicii web"
+            }
+          ]
+        },
+        {
+          "id": "tic9-c2",
+          "titlu": "Editare de text și prezentări",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "tic9-04",
+              "titlu": "Procesorul de text: formatare și structură"
+            },
+            {
+              "id": "tic9-05",
+              "titlu": "Prezentări electronice"
+            },
+            {
+              "id": "tic9-06",
+              "titlu": "Comunicare online și colaborare"
+            }
+          ]
+        },
+        {
+          "id": "tic9-c3",
+          "titlu": "Siguranță și responsabilitate digitală",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "tic9-07",
+              "titlu": "Securitate: parole, malware, actualizări"
+            },
+            {
+              "id": "tic9-08",
+              "titlu": "Date personale, urmă digitală și confidențialitate"
+            },
+            {
+              "id": "tic9-09",
+              "titlu": "Etică digitală, drepturi de autor, dezinformare"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "geografie-10",
+      "materie": "Geografie",
+      "clasa": "a X-a",
+      "an": 2,
+      "arie": "Om și societate",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Geografie umană și economică: populația, așezările, resursele, agricultura, industria, serviciile și harta politică a lumii.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 24,
+      "capitole": [
+        {
+          "id": "geo10-c1",
+          "titlu": "Populația",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "geo10-01",
+              "titlu": "Evoluția numerică și repartiția populației"
+            },
+            {
+              "id": "geo10-02",
+              "titlu": "Mișcarea naturală și structura populației"
+            },
+            {
+              "id": "geo10-03",
+              "titlu": "Migrațiile"
+            }
+          ]
+        },
+        {
+          "id": "geo10-c2",
+          "titlu": "Așezările omenești",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "geo10-04",
+              "titlu": "Așezările rurale și urbane"
+            }
+          ]
+        },
+        {
+          "id": "geo10-c3",
+          "titlu": "Activitățile economice",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "geo10-05",
+              "titlu": "Resursele naturale și energia"
+            },
+            {
+              "id": "geo10-06",
+              "titlu": "Agricultura și industria"
+            },
+            {
+              "id": "geo10-07",
+              "titlu": "Serviciile, transporturile și turismul"
+            }
+          ]
+        },
+        {
+          "id": "geo10-c4",
+          "titlu": "Harta politică și decalajele",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "geo10-08",
+              "titlu": "Statele lumii și organizațiile internaționale"
+            },
+            {
+              "id": "geo10-09",
+              "titlu": "Decalaje de dezvoltare și indicatori"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "istorie-10",
+      "materie": "Istorie",
+      "clasa": "a X-a",
+      "an": 2,
+      "arie": "Om și societate",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Epoca modernă: Renaștere și Reformă, revoluții politice și industriale, națiunile, Europa secolului al XIX-lea și spațiul românesc modern.",
+      "nrLectii": 12,
+      "nrCarduri": 48,
+      "nrIntrebari": 48,
+      "nrIntrebariTeze": 24,
+      "capitole": [
+        {
+          "id": "ist10-c1",
+          "titlu": "Nașterea lumii moderne",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ist10-01",
+              "titlu": "Renașterea și umanismul"
+            },
+            {
+              "id": "ist10-02",
+              "titlu": "Reforma religioasă și consecințele ei"
+            },
+            {
+              "id": "ist10-03",
+              "titlu": "Marile descoperiri geografice și primele imperii coloniale"
+            }
+          ]
+        },
+        {
+          "id": "ist10-c2",
+          "titlu": "Revoluțiile politice",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ist10-04",
+              "titlu": "Iluminismul și revoluția americană"
+            },
+            {
+              "id": "ist10-05",
+              "titlu": "Revoluția franceză și epoca napoleoniană"
+            },
+            {
+              "id": "ist10-06",
+              "titlu": "Revoluția industrială și societatea nouă"
+            }
+          ]
+        },
+        {
+          "id": "ist10-c3",
+          "titlu": "Națiuni și state în secolul al XIX-lea",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ist10-07",
+              "titlu": "Ideea națională și revoluțiile de la 1848"
+            },
+            {
+              "id": "ist10-08",
+              "titlu": "Marile puteri, imperialism și tensiuni"
+            }
+          ]
+        },
+        {
+          "id": "ist10-c4",
+          "titlu": "Spațiul românesc în epoca modernă",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ist10-09",
+              "titlu": "Reformele, 1821 și 1848 în spațiul românesc"
+            },
+            {
+              "id": "ist10-10",
+              "titlu": "Unirea Principatelor și reformele lui Cuza"
+            },
+            {
+              "id": "ist10-11",
+              "titlu": "Carol I, independența și România modernă"
+            },
+            {
+              "id": "ist10-12",
+              "titlu": "Cultura și societatea românească modernă"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "psihologie-10",
       "materie": "Psihologie",
       "clasa": "a X-a",
-      "descriere": "Procese psihice, personalitate, conduită.",
-      "lectii": [
+      "an": 2,
+      "arie": "Om și societate",
+      "bac": true,
+      "socioUman": true,
+      "descriere": "Procesele psihice, personalitatea și conduita omului: cum percepem, gândim, simțim, ne motivăm și ne raportăm la ceilalți.",
+      "nrLectii": 16,
+      "nrCarduri": 64,
+      "nrIntrebari": 64,
+      "nrIntrebariTeze": 24,
+      "capitole": [
         {
-          "id": "psi-01",
-          "titlu": "Procesele psihice cognitive",
-          "rezumat": "Procesele cognitive senzoriale: senzația (reflectarea unei însușiri izolate), percepția (reflectarea obiectului în integralitatea lui), reprezentarea (imaginea în absența obiectului). Procesele cognitive superioare: gândirea (operează cu noțiuni, judecăți, raționamente), memoria (întipărire, păstrare, reactualizare), imaginația (crearea de imagini noi).",
-          "ideiCheie": [
-            "Senzație → percepție → reprezentare.",
-            "Gândirea operează prin analiză, sinteză, comparație, abstractizare, generalizare.",
-            "Memoria are trei procese: memorare, păstrare, reactualizare."
+          "id": "psi10-c1",
+          "titlu": "Psihologia ca știință",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "psi10-01",
+              "titlu": "Obiectul și problematica psihologiei"
+            },
+            {
+              "id": "psi10-02",
+              "titlu": "Metodele psihologiei"
+            },
+            {
+              "id": "psi10-03",
+              "titlu": "Ipostazele ființei umane"
+            }
           ]
         },
         {
-          "id": "psi-02",
+          "id": "psi10-c2",
+          "titlu": "Procese cognitive senzoriale",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "psi10-04",
+              "titlu": "Senzațiile"
+            },
+            {
+              "id": "psi10-05",
+              "titlu": "Percepțiile"
+            },
+            {
+              "id": "psi10-06",
+              "titlu": "Reprezentările"
+            }
+          ]
+        },
+        {
+          "id": "psi10-c3",
+          "titlu": "Procese cognitive superioare",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "psi10-07",
+              "titlu": "Gândirea"
+            },
+            {
+              "id": "psi10-08",
+              "titlu": "Memoria"
+            },
+            {
+              "id": "psi10-09",
+              "titlu": "Imaginația și limbajul"
+            }
+          ]
+        },
+        {
+          "id": "psi10-c4",
+          "titlu": "Procese reglatorii",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "psi10-10",
+              "titlu": "Motivația"
+            },
+            {
+              "id": "psi10-11",
+              "titlu": "Afectivitatea"
+            },
+            {
+              "id": "psi10-12",
+              "titlu": "Voința și atenția"
+            }
+          ]
+        },
+        {
+          "id": "psi10-c5",
           "titlu": "Personalitatea",
-          "rezumat": "Personalitatea integrează temperamentul (latura dinamico-energetică, bazată pe tipul de sistem nervos), aptitudinile (însușiri care asigură succesul într-o activitate) și caracterul (sistemul de atitudini și trăsături morale). Tipologia clasică a temperamentelor: coleric, sangvinic, flegmatic, melancolic.",
-          "ideiCheie": [
-            "Temperament = cum reacționezi; caracter = ce valori ai; aptitudini = ce poți face.",
-            "Temperamentul este înnăscut, caracterul se educă.",
-            "Personalitatea este unitară, stabilă și dinamică."
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "psi10-13",
+              "titlu": "Temperamentul"
+            },
+            {
+              "id": "psi10-14",
+              "titlu": "Aptitudinile și creativitatea"
+            },
+            {
+              "id": "psi10-15",
+              "titlu": "Caracterul"
+            }
           ]
         },
         {
-          "id": "psi-03",
-          "titlu": "Motivația și afectivitatea",
-          "rezumat": "Motivația este ansamblul factorilor care declanșează, susțin și orientează comportamentul. Maslow ierarhizează trebuințele: fiziologice, de securitate, de apartenență, de stimă, de autorealizare. Motivația poate fi intrinsecă (plăcerea activității) sau extrinsecă (recompensă/pedeapsă). Procesele afective: afecte, emoții, dispoziții, sentimente, pasiuni.",
-          "ideiCheie": [
-            "Piramida lui Maslow: trebuințele inferioare se satisfac înaintea celor superioare.",
-            "Motivația optimă evită atât sub-motivarea, cât și supramotivarea (legea Yerkes-Dodson).",
-            "Sentimentele sunt stabile; emoțiile sunt de scurtă durată și intense."
+          "id": "psi10-c6",
+          "titlu": "Conduita psihosocială",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "psi10-16",
+              "titlu": "Relații interpersonale și conduite sociale"
+            }
           ]
         }
       ],
-      "flashcards": [
-        { "f": "Diferența dintre senzație și percepție?", "v": "Senzația reflectă o însușire izolată, percepția reflectă obiectul ca întreg." },
-        { "f": "Care sunt componentele personalității?", "v": "Temperamentul, aptitudinile și caracterul." },
-        { "f": "Ce este motivația intrinsecă?", "v": "Motivația care provine din satisfacția oferită de activitatea însăși, nu din recompense externe." },
-        { "f": "Enumeră nivelurile piramidei lui Maslow.", "v": "Fiziologice, securitate, apartenență și dragoste, stimă, autorealizare." },
-        { "f": "Care sunt cele trei procese ale memoriei?", "v": "Memorarea (întipărirea), păstrarea și reactualizarea." }
-      ],
-      "quiz": [
-        { "intrebare": "Reprezentarea este:", "optiuni": ["reflectarea obiectului în prezența lui", "imaginea obiectului în absența acestuia", "o însușire izolată", "un raționament"], "corect": 1, "explicatie": "Reprezentarea este imaginea unui obiect perceput anterior, în absența lui." },
-        { "intrebare": "Latura dinamico-energetică a personalității este:", "optiuni": ["caracterul", "temperamentul", "aptitudinea", "motivația"], "corect": 1, "explicatie": "Temperamentul dă ritmul și intensitatea reacțiilor." },
-        { "intrebare": "În piramida lui Maslow, nevoia de stimă se află:", "optiuni": ["la bază", "deasupra nevoii de apartenență", "sub cea de securitate", "în afara piramidei"], "corect": 1, "explicatie": "Ordinea: fiziologice, securitate, apartenență, stimă, autorealizare." }
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
       ]
     },
     {
-      "id": "sociologie",
+      "id": "religie-10",
+      "materie": "Religie",
+      "clasa": "a X-a",
+      "an": 2,
+      "arie": "Om și societate",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Noul Testament: viața și învățătura lui Iisus Hristos, Biserica primară și răspândirea creștinismului.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 18,
+      "capitole": [
+        {
+          "id": "rel10-c1",
+          "titlu": "Iisus Hristos în Evanghelii",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rel10-01",
+              "titlu": "Evangheliile — izvor și mărturie"
+            },
+            {
+              "id": "rel10-02",
+              "titlu": "Nașterea, botezul, ispitirea"
+            },
+            {
+              "id": "rel10-03",
+              "titlu": "Predica de pe Munte și parabolele"
+            }
+          ]
+        },
+        {
+          "id": "rel10-c2",
+          "titlu": "Pătimirile, Învierea, Biserica",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rel10-04",
+              "titlu": "Minunile și semnele"
+            },
+            {
+              "id": "rel10-05",
+              "titlu": "Pătimirile și Învierea"
+            },
+            {
+              "id": "rel10-06",
+              "titlu": "Biserica primară"
+            }
+          ]
+        },
+        {
+          "id": "rel10-c3",
+          "titlu": "Creștinismul în lume",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rel10-07",
+              "titlu": "Persecuțiile și victoria credinței"
+            },
+            {
+              "id": "rel10-08",
+              "titlu": "Sinoadele și învățătura de credință"
+            },
+            {
+              "id": "rel10-09",
+              "titlu": "Creștinismul pe teritoriul românesc"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
+        }
+      ]
+    },
+    {
+      "id": "latina-10",
+      "materie": "Limba latină",
+      "clasa": "a X-a",
+      "an": 2,
+      "arie": "Limbă și comunicare",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Latina la nivel avansat: declinările a III-a–a V-a, moduri și subordonate, texte din autorii clasici și civilizația romană.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 18,
+      "capitole": [
+        {
+          "id": "lat10-c1",
+          "titlu": "Morfologie avansată",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "lat10-01",
+              "titlu": "Declinarea a III-a"
+            },
+            {
+              "id": "lat10-02",
+              "titlu": "Declinările a IV-a și a V-a"
+            },
+            {
+              "id": "lat10-03",
+              "titlu": "Pronumele și gradele de comparație"
+            }
+          ]
+        },
+        {
+          "id": "lat10-c2",
+          "titlu": "Sintaxa frazei",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "lat10-04",
+              "titlu": "Conjunctivul și valorile lui"
+            },
+            {
+              "id": "lat10-05",
+              "titlu": "Subordonatele principale"
+            },
+            {
+              "id": "lat10-06",
+              "titlu": "Construcții infinitivale și participiale"
+            }
+          ]
+        },
+        {
+          "id": "lat10-c3",
+          "titlu": "Texte și civilizație",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "lat10-07",
+              "titlu": "Autorii clasici"
+            },
+            {
+              "id": "lat10-08",
+              "titlu": "Societatea și instituțiile romane"
+            },
+            {
+              "id": "lat10-09",
+              "titlu": "Romanizarea și Dacia romană"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
+        }
+      ]
+    },
+    {
+      "id": "engleza-10",
+      "materie": "Limba modernă 1 (Engleză)",
+      "clasa": "a X-a",
+      "an": 2,
+      "arie": "Limbă și comunicare",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Structuri intermediare: timpuri perfecte, condiționale, pasiv, vorbire indirectă și competențe de comunicare aplicată.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 24,
+      "capitole": [
+        {
+          "id": "eng10-c1",
+          "titlu": "Timpuri și aspecte",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "eng10-01",
+              "titlu": "Present Perfect Simple și Continuous"
+            },
+            {
+              "id": "eng10-02",
+              "titlu": "Past Perfect și succesiunea timpurilor"
+            },
+            {
+              "id": "eng10-03",
+              "titlu": "Diateza pasivă"
+            }
+          ]
+        },
+        {
+          "id": "eng10-c2",
+          "titlu": "Structuri complexe",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "eng10-04",
+              "titlu": "Condiționalele"
+            },
+            {
+              "id": "eng10-05",
+              "titlu": "Vorbirea indirectă"
+            },
+            {
+              "id": "eng10-06",
+              "titlu": "Infinitiv, gerunziu, relative"
+            }
+          ]
+        },
+        {
+          "id": "eng10-c3",
+          "titlu": "Comunicare aplicată",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "eng10-07",
+              "titlu": "Text argumentativ și opinie"
+            },
+            {
+              "id": "eng10-08",
+              "titlu": "Ascultare, vorbire, interacțiune"
+            },
+            {
+              "id": "eng10-09",
+              "titlu": "Engleza pentru studiu și examene"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "franceza-10",
+      "materie": "Limba modernă 2 (Franceză)",
+      "clasa": "a X-a",
+      "an": 2,
+      "arie": "Limbă și comunicare",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Timpurile trecutului, pronumele, comunicarea în situații cotidiene și vocabularul vieții zilnice.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 18,
+      "capitole": [
+        {
+          "id": "fra10-c1",
+          "titlu": "Timpurile trecutului",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fra10-01",
+              "titlu": "Passé composé"
+            },
+            {
+              "id": "fra10-02",
+              "titlu": "Imparfait și opoziția cu passé composé"
+            },
+            {
+              "id": "fra10-03",
+              "titlu": "Plus-que-parfait și viitorul"
+            }
+          ]
+        },
+        {
+          "id": "fra10-c2",
+          "titlu": "Pronume și structuri",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fra10-04",
+              "titlu": "Pronumele complement"
+            },
+            {
+              "id": "fra10-05",
+              "titlu": "Pronumele relative și interogația"
+            },
+            {
+              "id": "fra10-06",
+              "titlu": "Negația și exprimarea cantității"
+            }
+          ]
+        },
+        {
+          "id": "fra10-c3",
+          "titlu": "Comunicare și vocabular",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "fra10-07",
+              "titlu": "Viața cotidiană"
+            },
+            {
+              "id": "fra10-08",
+              "titlu": "Descriere și povestire"
+            },
+            {
+              "id": "fra10-09",
+              "titlu": "Franța și francofonia"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
+        }
+      ]
+    },
+    {
+      "id": "romana-10",
+      "materie": "Limba și literatura română",
+      "clasa": "a X-a",
+      "an": 2,
+      "arie": "Limbă și comunicare",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Genuri și specii literare ilustrate prin texte reprezentative: basmul, nuvela, romanul, poezia, comedia, plus stilistică și text nonliterar.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 24,
+      "capitole": [
+        {
+          "id": "rom10-c1",
+          "titlu": "Proza scurtă",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rom10-01",
+              "titlu": "Basmul cult: „Povestea lui Harap-Alb”"
+            },
+            {
+              "id": "rom10-02",
+              "titlu": "Nuvela psihologică: „Moara cu noroc”"
+            },
+            {
+              "id": "rom10-03",
+              "titlu": "Povestirea și schița"
+            }
+          ]
+        },
+        {
+          "id": "rom10-c2",
+          "titlu": "Romanul",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rom10-04",
+              "titlu": "Romanul realist obiectiv: „Ion”"
+            },
+            {
+              "id": "rom10-05",
+              "titlu": "Romanul subiectiv, de analiză: „Ultima noapte de dragoste, întâia noapte de război”"
+            },
+            {
+              "id": "rom10-06",
+              "titlu": "Romanul balzacian și cel postbelic: „Enigma Otiliei”, „Moromeții”"
+            }
+          ]
+        },
+        {
+          "id": "rom10-c3",
+          "titlu": "Poezia și teatrul",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rom10-07",
+              "titlu": "Poezia: de la pastel la meditație"
+            },
+            {
+              "id": "rom10-08",
+              "titlu": "Comedia: „O scrisoare pierdută”"
+            }
+          ]
+        },
+        {
+          "id": "rom10-c4",
+          "titlu": "Stil, text nonliterar, redactare",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rom10-09",
+              "titlu": "Stiluri funcționale și texte nonliterare"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "biologie-10",
+      "materie": "Biologie",
+      "clasa": "a X-a",
+      "an": 2,
+      "arie": "Matematică și științe ale naturii",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Genetică și evoluție, diversitatea lumii vii, ecologie și educație pentru sănătate.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 18,
+      "capitole": [
+        {
+          "id": "bio10-c1",
+          "titlu": "Genetică și evoluție",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "bio10-01",
+              "titlu": "Legile eredității"
+            },
+            {
+              "id": "bio10-02",
+              "titlu": "ADN, gene, biotehnologii"
+            },
+            {
+              "id": "bio10-03",
+              "titlu": "Evoluția"
+            }
+          ]
+        },
+        {
+          "id": "bio10-c2",
+          "titlu": "Diversitatea lumii vii",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "bio10-04",
+              "titlu": "Clasificarea organismelor"
+            },
+            {
+              "id": "bio10-05",
+              "titlu": "Plantele"
+            },
+            {
+              "id": "bio10-06",
+              "titlu": "Animalele"
+            }
+          ]
+        },
+        {
+          "id": "bio10-c3",
+          "titlu": "Ecologie și sănătate",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "bio10-07",
+              "titlu": "Ecosisteme și fluxuri"
+            },
+            {
+              "id": "bio10-08",
+              "titlu": "Omul și mediul"
+            },
+            {
+              "id": "bio10-09",
+              "titlu": "Sănătate și stil de viață"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
+        }
+      ]
+    },
+    {
+      "id": "chimie-10",
+      "materie": "Chimie",
+      "clasa": "a X-a",
+      "an": 2,
+      "arie": "Matematică și științe ale naturii",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Chimie organică: hidrocarburi, compuși cu grupe funcționale, substanțe naturale și chimia vieții cotidiene.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 18,
+      "capitole": [
+        {
+          "id": "chi10-c1",
+          "titlu": "Hidrocarburi",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "chi10-01",
+              "titlu": "Carbonul și chimia organică"
+            },
+            {
+              "id": "chi10-02",
+              "titlu": "Alcani, alchene, alchine"
+            },
+            {
+              "id": "chi10-03",
+              "titlu": "Hidrocarburi aromatice"
+            }
+          ]
+        },
+        {
+          "id": "chi10-c2",
+          "titlu": "Compuși cu grupe funcționale",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "chi10-04",
+              "titlu": "Alcooli și fenoli"
+            },
+            {
+              "id": "chi10-05",
+              "titlu": "Acizi carboxilici, esteri, grăsimi"
+            },
+            {
+              "id": "chi10-06",
+              "titlu": "Amine, aminoacizi, proteine"
+            }
+          ]
+        },
+        {
+          "id": "chi10-c3",
+          "titlu": "Substanțe naturale și aplicații",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "chi10-07",
+              "titlu": "Zaharuri"
+            },
+            {
+              "id": "chi10-08",
+              "titlu": "Polimeri și materiale"
+            },
+            {
+              "id": "chi10-09",
+              "titlu": "Chimia în viața cotidiană"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
+        }
+      ]
+    },
+    {
+      "id": "fizica-10",
+      "materie": "Fizică",
+      "clasa": "a X-a",
+      "an": 2,
+      "arie": "Matematică și științe ale naturii",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Termodinamică, electricitate și magnetism, optică și unde: fenomene, legi și aplicații în viața de zi cu zi.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 18,
+      "capitole": [
+        {
+          "id": "fiz10-c1",
+          "titlu": "Căldură și termodinamică",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fiz10-01",
+              "titlu": "Temperatură, căldură, dilatare"
+            },
+            {
+              "id": "fiz10-02",
+              "titlu": "Gazul ideal și transformările lui"
+            },
+            {
+              "id": "fiz10-03",
+              "titlu": "Principiile termodinamicii"
+            }
+          ]
+        },
+        {
+          "id": "fiz10-c2",
+          "titlu": "Electricitate și magnetism",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fiz10-04",
+              "titlu": "Sarcina electrică și curentul"
+            },
+            {
+              "id": "fiz10-05",
+              "titlu": "Circuite electrice"
+            },
+            {
+              "id": "fiz10-06",
+              "titlu": "Magnetism și inducție electromagnetică"
+            }
+          ]
+        },
+        {
+          "id": "fiz10-c3",
+          "titlu": "Optică, unde, fizica modernă",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "fiz10-07",
+              "titlu": "Lumina și optica geometrică"
+            },
+            {
+              "id": "fiz10-08",
+              "titlu": "Unde mecanice și sunetul"
+            },
+            {
+              "id": "fiz10-09",
+              "titlu": "Elemente de fizică modernă"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
+        }
+      ]
+    },
+    {
+      "id": "matematica-10",
+      "materie": "Matematică",
+      "clasa": "a X-a",
+      "an": 2,
+      "arie": "Matematică și științe ale naturii",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Funcții exponențiale și logaritmice, combinatorică și probabilități, elemente de statistică și matematici financiare.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 18,
+      "capitole": [
+        {
+          "id": "mat10-c1",
+          "titlu": "Funcții și ecuații",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "mat10-01",
+              "titlu": "Funcția exponențială"
+            },
+            {
+              "id": "mat10-02",
+              "titlu": "Funcția logaritmică"
+            },
+            {
+              "id": "mat10-03",
+              "titlu": "Ecuații exponențiale și logaritmice"
+            }
+          ]
+        },
+        {
+          "id": "mat10-c2",
+          "titlu": "Combinatorică și probabilități",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "mat10-04",
+              "titlu": "Numărare: permutări, aranjamente, combinări"
+            },
+            {
+              "id": "mat10-05",
+              "titlu": "Probabilități"
+            },
+            {
+              "id": "mat10-06",
+              "titlu": "Elemente de statistică"
+            }
+          ]
+        },
+        {
+          "id": "mat10-c3",
+          "titlu": "Matematici financiare și aplicații",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "mat10-07",
+              "titlu": "Procente, dobânzi, credite"
+            },
+            {
+              "id": "mat10-08",
+              "titlu": "Funcții și modele de creștere"
+            },
+            {
+              "id": "mat10-09",
+              "titlu": "Raționament, demonstrație, erori"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
+        }
+      ]
+    },
+    {
+      "id": "tic-10",
+      "materie": "Tehnologia informației și a comunicațiilor (TIC)",
+      "clasa": "a X-a",
+      "an": 2,
+      "arie": "Tehnologii",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Calcul tabelar, baze de date, prelucrarea imaginii și algoritmi: instrumentele digitale de lucru cu date.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 24,
+      "capitole": [
+        {
+          "id": "tic10-c1",
+          "titlu": "Calcul tabelar",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "tic10-01",
+              "titlu": "Foaia de calcul: structură și formule"
+            },
+            {
+              "id": "tic10-02",
+              "titlu": "Funcții și analiza datelor"
+            },
+            {
+              "id": "tic10-03",
+              "titlu": "Reprezentarea grafică a datelor"
+            }
+          ]
+        },
+        {
+          "id": "tic10-c2",
+          "titlu": "Baze de date și structurarea informației",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "tic10-04",
+              "titlu": "Concepte de bază de date"
+            },
+            {
+              "id": "tic10-05",
+              "titlu": "Interogări, formulare, rapoarte"
+            },
+            {
+              "id": "tic10-06",
+              "titlu": "Prelucrarea imaginii digitale"
+            }
+          ]
+        },
+        {
+          "id": "tic10-c3",
+          "titlu": "Algoritmi și gândire computațională",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "tic10-07",
+              "titlu": "Algoritmi: definiție, proprietăți, reprezentare"
+            },
+            {
+              "id": "tic10-08",
+              "titlu": "Structuri repetitive și prelucrarea datelor"
+            },
+            {
+              "id": "tic10-09",
+              "titlu": "Gândire computațională și rezolvarea problemelor"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "geografie-11",
+      "materie": "Geografie",
+      "clasa": "a XI-a",
+      "an": 3,
+      "arie": "Om și societate",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Probleme fundamentale ale lumii contemporane: mediul, resursele, populația, sistemul urban, geopolitica și globalizarea.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 24,
+      "capitole": [
+        {
+          "id": "geo11-c1",
+          "titlu": "Mediul și resursele",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "geo11-01",
+              "titlu": "Mediul înconjurător ca sistem"
+            },
+            {
+              "id": "geo11-02",
+              "titlu": "Resurse, consum și limite ale creșterii"
+            },
+            {
+              "id": "geo11-03",
+              "titlu": "Schimbările climatice și hazardele"
+            }
+          ]
+        },
+        {
+          "id": "geo11-c2",
+          "titlu": "Populația și așezările în lumea contemporană",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "geo11-04",
+              "titlu": "Dinamica populației și provocările demografice"
+            },
+            {
+              "id": "geo11-05",
+              "titlu": "Sistemul urban mondial și orașele globale"
+            }
+          ]
+        },
+        {
+          "id": "geo11-c3",
+          "titlu": "Geopolitică și economie mondială",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "geo11-06",
+              "titlu": "Globalizarea și economia mondială"
+            },
+            {
+              "id": "geo11-07",
+              "titlu": "Geopolitică: puteri, resurse, conflicte"
+            },
+            {
+              "id": "geo11-08",
+              "titlu": "Regiuni și inegalități la scară mondială"
+            }
+          ]
+        },
+        {
+          "id": "geo11-c4",
+          "titlu": "Metode și instrumente",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "geo11-09",
+              "titlu": "Harta, GIS și interpretarea datelor geografice"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "holocaust-11",
+      "materie": "Istoria evreilor. Holocaustul",
+      "clasa": "a XI-a",
+      "an": 3,
+      "arie": "Om și societate",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Istoria evreilor în Europa și în spațiul românesc, antisemitismul, Holocaustul și memoria lui.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 18,
+      "capitole": [
+        {
+          "id": "hol11-c1",
+          "titlu": "Evreii în istorie",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "hol11-01",
+              "titlu": "Originile și diaspora"
+            },
+            {
+              "id": "hol11-02",
+              "titlu": "Evreii în Europa medievală și modernă"
+            },
+            {
+              "id": "hol11-03",
+              "titlu": "Evreii în spațiul românesc"
+            }
+          ]
+        },
+        {
+          "id": "hol11-c2",
+          "titlu": "Antisemitismul și Holocaustul",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "hol11-04",
+              "titlu": "Antisemitismul modern"
+            },
+            {
+              "id": "hol11-05",
+              "titlu": "Holocaustul: desfășurare"
+            },
+            {
+              "id": "hol11-06",
+              "titlu": "Holocaustul în România"
+            }
+          ]
+        },
+        {
+          "id": "hol11-c3",
+          "titlu": "Memorie și responsabilitate",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "hol11-07",
+              "titlu": "Mărturii și memorie"
+            },
+            {
+              "id": "hol11-08",
+              "titlu": "Negaționismul și combaterea lui"
+            },
+            {
+              "id": "hol11-09",
+              "titlu": "Ce învățăm: drepturi, demnitate, responsabilitate"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
+        }
+      ]
+    },
+    {
+      "id": "istorie-11",
+      "materie": "Istorie",
+      "clasa": "a XI-a",
+      "an": 3,
+      "arie": "Om și societate",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Secolul XX: războaie mondiale, democrație și totalitarism, Războiul Rece, decolonizare și construcția europeană.",
+      "nrLectii": 11,
+      "nrCarduri": 44,
+      "nrIntrebari": 44,
+      "nrIntrebariTeze": 24,
+      "capitole": [
+        {
+          "id": "ist11-c1",
+          "titlu": "Primul Război Mondial și lumea de după",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ist11-01",
+              "titlu": "Cauzele și desfășurarea Primului Război Mondial"
+            },
+            {
+              "id": "ist11-02",
+              "titlu": "România în Primul Război Mondial și Marea Unire"
+            },
+            {
+              "id": "ist11-03",
+              "titlu": "Ordinea de la Versailles și democrațiile interbelice"
+            }
+          ]
+        },
+        {
+          "id": "ist11-c2",
+          "titlu": "Democrație și totalitarism",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ist11-04",
+              "titlu": "Regimul totalitar: trăsături și tipuri"
+            },
+            {
+              "id": "ist11-05",
+              "titlu": "Comunismul sovietic"
+            },
+            {
+              "id": "ist11-06",
+              "titlu": "Fascismul și nazismul"
+            }
+          ]
+        },
+        {
+          "id": "ist11-c3",
+          "titlu": "Al Doilea Război Mondial și Războiul Rece",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ist11-07",
+              "titlu": "Al Doilea Război Mondial"
+            },
+            {
+              "id": "ist11-08",
+              "titlu": "Războiul Rece: blocuri, crize, coexistență"
+            },
+            {
+              "id": "ist11-09",
+              "titlu": "Decolonizarea și lumea a treia"
+            }
+          ]
+        },
+        {
+          "id": "ist11-c4",
+          "titlu": "Lumea contemporană",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ist11-10",
+              "titlu": "Construcția europeană"
+            },
+            {
+              "id": "ist11-11",
+              "titlu": "Lumea după 1991: globalizare, conflicte, provocări"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "religie-11",
+      "materie": "Religie",
+      "clasa": "a XI-a",
+      "an": 3,
+      "arie": "Om și societate",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Biserica: Sfintele Taine, cultul și arta liturgică, istoria creștinismului și relația credinței cu știința și cultura.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 18,
+      "capitole": [
+        {
+          "id": "rel11-c1",
+          "titlu": "Biserica și Sfintele Taine",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rel11-01",
+              "titlu": "Biserica — comuniune și instituție"
+            },
+            {
+              "id": "rel11-02",
+              "titlu": "Sfintele Taine ale inițierii"
+            },
+            {
+              "id": "rel11-03",
+              "titlu": "Celelalte Sfinte Taine"
+            }
+          ]
+        },
+        {
+          "id": "rel11-c2",
+          "titlu": "Cult, artă, sărbători",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rel11-04",
+              "titlu": "Sfânta Liturghie"
+            },
+            {
+              "id": "rel11-05",
+              "titlu": "Icoana și arta bisericească"
+            },
+            {
+              "id": "rel11-06",
+              "titlu": "Sărbătorile și posturile"
+            }
+          ]
+        },
+        {
+          "id": "rel11-c3",
+          "titlu": "Creștinismul, cultura și lumea",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rel11-07",
+              "titlu": "Marile momente ale istoriei creștine"
+            },
+            {
+              "id": "rel11-08",
+              "titlu": "Credință, rațiune, știință"
+            },
+            {
+              "id": "rel11-09",
+              "titlu": "Religiile lumii și dialogul"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
+        }
+      ]
+    },
+    {
+      "id": "sociologie-11",
       "materie": "Sociologie",
       "clasa": "a XI-a",
-      "descriere": "Societatea, grupurile, instituțiile, schimbarea socială.",
-      "lectii": [
+      "an": 3,
+      "arie": "Om și societate",
+      "bac": true,
+      "socioUman": true,
+      "descriere": "Societatea privită metodic: grupuri, instituții, statusuri și roluri, devianță, mobilitate și schimbare socială.",
+      "nrLectii": 14,
+      "nrCarduri": 56,
+      "nrIntrebari": 56,
+      "nrIntrebariTeze": 24,
+      "capitole": [
         {
-          "id": "soc-01",
-          "titlu": "Obiectul sociologiei",
-          "rezumat": "Sociologia studiază societatea ca sistem de relații, grupuri, instituții și procese. Auguste Comte îi dă numele; Émile Durkheim o întemeiază ca știință prin regula de a trata faptele sociale „ca lucruri”. Faptul social este exterior individului și exercită asupra lui o constrângere.",
-          "ideiCheie": [
-            "Comte — părintele termenului; Durkheim — întemeietorul metodei.",
-            "Faptul social: exterioritate + constrângere + generalitate.",
-            "Max Weber: sociologia comprehensivă, înțelegerea sensului acțiunii sociale."
+          "id": "soc11-c1",
+          "titlu": "Perspectiva sociologică",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "soc11-01",
+              "titlu": "Sociologia ca știință a socialului"
+            },
+            {
+              "id": "soc11-02",
+              "titlu": "Metode de cercetare în sociologie"
+            }
           ]
         },
         {
-          "id": "soc-02",
-          "titlu": "Grupuri sociale și socializare",
-          "rezumat": "Grupul social este un ansamblu de persoane între care există interacțiuni și un sentiment de apartenență. Grupuri primare (familia, grupul de prieteni) vs. secundare (organizații, instituții). Socializarea este procesul prin care individul interiorizează normele și valorile societății: primară (în copilărie, în familie) și secundară (școală, muncă, mass-media).",
-          "ideiCheie": [
-            "Grup primar: relații directe, afective, durabile.",
-            "Socializarea primară construiește identitatea de bază.",
-            "Resocializarea presupune înlocuirea unor modele deja interiorizate."
+          "id": "soc11-c2",
+          "titlu": "Grupuri, instituții, organizații",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "soc11-03",
+              "titlu": "Grupul social"
+            },
+            {
+              "id": "soc11-04",
+              "titlu": "Instituții și organizații sociale"
+            }
           ]
         },
         {
-          "id": "soc-03",
-          "titlu": "Stratificare și mobilitate socială",
-          "rezumat": "Stratificarea socială este ierarhizarea indivizilor și grupurilor după criterii precum venitul, ocupația, educația, prestigiul. Sisteme: caste (închise), stări, clase (deschise). Mobilitatea socială poate fi verticală (ascendentă/descendentă) sau orizontală, intergenerațională sau intragenerațională.",
-          "ideiCheie": [
-            "Marx: clasele definite prin raportul față de mijloacele de producție.",
-            "Weber: clasă, statut, partid — trei dimensiuni ale stratificării.",
-            "Societatea modernă = sistem deschis, cu mobilitate ridicată."
+          "id": "soc11-c3",
+          "titlu": "Structura socială",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "soc11-05",
+              "titlu": "Statusuri și roluri"
+            },
+            {
+              "id": "soc11-06",
+              "titlu": "Stratificare socială și inegalitate"
+            },
+            {
+              "id": "soc11-07",
+              "titlu": "Mobilitatea socială"
+            }
+          ]
+        },
+        {
+          "id": "soc11-c4",
+          "titlu": "Socializare, normă, devianță",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "soc11-08",
+              "titlu": "Socializarea"
+            },
+            {
+              "id": "soc11-09",
+              "titlu": "Norme, valori, control social"
+            },
+            {
+              "id": "soc11-10",
+              "titlu": "Devianța și delincvența"
+            }
+          ]
+        },
+        {
+          "id": "soc11-c5",
+          "titlu": "Instituții fundamentale",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "soc11-11",
+              "titlu": "Familia"
+            },
+            {
+              "id": "soc11-12",
+              "titlu": "Educația și mass-media"
+            }
+          ]
+        },
+        {
+          "id": "soc11-c6",
+          "titlu": "Schimbare socială",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "soc11-13",
+              "titlu": "Schimbarea socială și modernizarea"
+            },
+            {
+              "id": "soc11-14",
+              "titlu": "Globalizarea și probleme sociale contemporane"
+            }
           ]
         }
       ],
-      "flashcards": [
-        { "f": "Cine a introdus termenul „sociologie”?", "v": "Auguste Comte." },
-        { "f": "Ce caracteristici are faptul social la Durkheim?", "v": "Exterioritate față de individ, constrângere și generalitate." },
-        { "f": "Ce este socializarea secundară?", "v": "Interiorizarea normelor unor sectoare specifice (școală, profesie, mass-media), după copilărie." },
-        { "f": "Ce este mobilitatea socială verticală?", "v": "Trecerea unui individ dintr-un strat social în altul, superior sau inferior." },
-        { "f": "Care sunt cele trei dimensiuni ale stratificării la Weber?", "v": "Clasa (economic), statutul (prestigiu) și partidul (putere)." }
-      ],
-      "quiz": [
-        { "intrebare": "Familia este un exemplu de grup:", "optiuni": ["secundar", "primar", "formal", "de referință negativă"], "corect": 1, "explicatie": "Relații directe, afective și durabile — grup primar." },
-        { "intrebare": "Sistemul de caste este:", "optiuni": ["deschis", "închis", "meritocratic", "temporar"], "corect": 1, "explicatie": "Poziția este atribuită la naștere și nu poate fi schimbată." },
-        { "intrebare": "„A trata faptele sociale ca lucruri” este regula lui:", "optiuni": ["Weber", "Durkheim", "Comte", "Marx"], "corect": 1, "explicatie": "Regulă centrală din „Regulile metodei sociologice”." }
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
       ]
     },
     {
-      "id": "economie",
-      "materie": "Economie și educație antreprenorială",
-      "clasa": "a XIII-a",
-      "descriere": "Piață, cerere și ofertă, bani, firmă, antreprenoriat.",
-      "lectii": [
+      "id": "studii-sociale-11",
+      "materie": "Studii sociale",
+      "clasa": "a XI-a",
+      "an": 3,
+      "arie": "Om și societate",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Educație interculturală și pentru drepturile omului: identitate, diversitate, stereotipuri, discriminare, drepturi și responsabilități.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 24,
+      "capitole": [
         {
-          "id": "eco-01",
-          "titlu": "Nevoi, resurse, alegere",
-          "rezumat": "Economia studiază modul în care oamenii folosesc resurse limitate pentru a satisface nevoi nelimitate. Raritatea impune alegerea, iar orice alegere are un cost de oportunitate: valoarea celei mai bune alternative la care se renunță. Frontiera posibilităților de producție ilustrează grafic aceste constrângeri.",
-          "ideiCheie": [
-            "Raritate → alegere → cost de oportunitate.",
-            "Nevoile sunt nelimitate și regenerabile; resursele sunt limitate.",
-            "Eficiența economică = maxim de rezultat cu minim de resurse."
+          "id": "ss11-c1",
+          "titlu": "Identitate și diversitate culturală",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ss11-01",
+              "titlu": "Cultură, identitate, apartenență"
+            },
+            {
+              "id": "ss11-02",
+              "titlu": "Diversitate culturală și interculturalitate"
+            },
+            {
+              "id": "ss11-03",
+              "titlu": "Stereotipuri, prejudecăți, discriminare"
+            }
           ]
         },
         {
-          "id": "eco-02",
-          "titlu": "Cererea și oferta",
-          "rezumat": "Legea cererii: la creșterea prețului, cantitatea cerută scade (ceteris paribus). Legea ofertei: la creșterea prețului, cantitatea oferită crește. Echilibrul pieței apare la prețul la care cantitatea cerută este egală cu cea oferită. Elasticitatea măsoară sensibilitatea cererii sau ofertei la variația prețului.",
-          "ideiCheie": [
-            "Curba cererii este descrescătoare; curba ofertei, crescătoare.",
-            "Preț de echilibru = intersecția cerere–ofertă.",
-            "Excedent la preț peste echilibru; penurie la preț sub echilibru."
+          "id": "ss11-c2",
+          "titlu": "Drepturile omului",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ss11-04",
+              "titlu": "Fundamentele și generațiile drepturilor"
+            },
+            {
+              "id": "ss11-05",
+              "titlu": "Drepturile copilului și drepturile elevului"
+            },
+            {
+              "id": "ss11-06",
+              "titlu": "Mecanisme de protecție și participare civică"
+            }
           ]
         },
         {
-          "id": "eco-03",
-          "titlu": "Antreprenoriatul",
-          "rezumat": "Antreprenorul identifică o oportunitate, combină factorii de producție și își asumă riscul unei afaceri, urmărind profitul. Planul de afaceri cuprinde descrierea ideii, analiza pieței și a concurenței, planul de marketing, planul operațional și proiecțiile financiare. Forme juridice frecvente în România: PFA, II, SRL.",
-          "ideiCheie": [
-            "Profit = venituri totale − costuri totale.",
-            "Riscul și inovarea sunt esența funcției antreprenoriale (Schumpeter).",
-            "Planul de afaceri = instrument de planificare și de finanțare."
+          "id": "ss11-c3",
+          "titlu": "Conflict, comunicare, comunitate",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ss11-07",
+              "titlu": "Conflictul și rezolvarea lui"
+            },
+            {
+              "id": "ss11-08",
+              "titlu": "Comunicarea în situații interculturale"
+            },
+            {
+              "id": "ss11-09",
+              "titlu": "Proiect comunitar și acțiune civică"
+            }
           ]
         }
       ],
-      "flashcards": [
-        { "f": "Ce este costul de oportunitate?", "v": "Valoarea celei mai bune alternative sacrificate atunci când faci o alegere." },
-        { "f": "Enunță legea cererii.", "v": "Ceteris paribus, când prețul crește, cantitatea cerută scade." },
-        { "f": "Ce este prețul de echilibru?", "v": "Prețul la care cantitatea cerută este egală cu cantitatea oferită." },
-        { "f": "Cum se calculează profitul?", "v": "Profit = venituri totale − costuri totale." },
-        { "f": "Ce se întâmplă când prețul este sub cel de echilibru?", "v": "Apare penuria: cantitatea cerută depășește cantitatea oferită." }
-      ],
-      "quiz": [
-        { "intrebare": "Raritatea resurselor impune:", "optiuni": ["inflația", "alegerea", "monopolul", "șomajul"], "corect": 1, "explicatie": "Resursele limitate obligă la alegere între utilizări alternative." },
-        { "intrebare": "Dacă prețul crește peste nivelul de echilibru, apare:", "optiuni": ["penurie", "excedent", "echilibru", "inflație"], "corect": 1, "explicatie": "Oferta depășește cererea — surplus de marfă." },
-        { "intrebare": "Cine a definit antreprenorul prin funcția de inovare?", "optiuni": ["Keynes", "Schumpeter", "Smith", "Ricardo"], "corect": 1, "explicatie": "Joseph Schumpeter: „distrugerea creatoare”." }
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
       ]
     },
     {
-      "id": "romana",
+      "id": "engleza-11",
+      "materie": "Limba modernă 1 (Engleză)",
+      "clasa": "a XI-a",
+      "an": 3,
+      "arie": "Limbă și comunicare",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Nivel intermediar-avansat: structuri complexe, vocabular tematic, texte de specialitate și competențe pentru proba de competențe lingvistice.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 24,
+      "capitole": [
+        {
+          "id": "eng11-c1",
+          "titlu": "Structuri avansate",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "eng11-01",
+              "titlu": "Inversiune, emfază, structuri cleft"
+            },
+            {
+              "id": "eng11-02",
+              "titlu": "Verbe frazale și expresii idiomatice"
+            },
+            {
+              "id": "eng11-03",
+              "titlu": "Registre, nuanțe, structuri formale"
+            }
+          ]
+        },
+        {
+          "id": "eng11-c2",
+          "titlu": "Vocabular tematic și texte",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "eng11-04",
+              "titlu": "Educație, muncă, tehnologie"
+            },
+            {
+              "id": "eng11-05",
+              "titlu": "Mediu, societate, sănătate"
+            },
+            {
+              "id": "eng11-06",
+              "titlu": "Cultură, literatură, media"
+            }
+          ]
+        },
+        {
+          "id": "eng11-c3",
+          "titlu": "Competențe de examen",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "eng11-07",
+              "titlu": "Înțelegerea textului scris"
+            },
+            {
+              "id": "eng11-08",
+              "titlu": "Producerea de mesaje scrise"
+            },
+            {
+              "id": "eng11-09",
+              "titlu": "Ascultare și interacțiune orală la examen"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "franceza-11",
+      "materie": "Limba modernă 2 (Franceză)",
+      "clasa": "a XI-a",
+      "an": 3,
+      "arie": "Limbă și comunicare",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Moduri și subordonate, exprimarea opiniei și a argumentării, societatea franceză contemporană.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 18,
+      "capitole": [
+        {
+          "id": "fra11-c1",
+          "titlu": "Moduri și timpuri",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fra11-01",
+              "titlu": "Condiționalul"
+            },
+            {
+              "id": "fra11-02",
+              "titlu": "Subjonctivul"
+            },
+            {
+              "id": "fra11-03",
+              "titlu": "Vocea pasivă și discursul indirect"
+            }
+          ]
+        },
+        {
+          "id": "fra11-c2",
+          "titlu": "Argumentare și opinie",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fra11-04",
+              "titlu": "Exprimarea opiniei"
+            },
+            {
+              "id": "fra11-05",
+              "titlu": "Structura argumentării"
+            },
+            {
+              "id": "fra11-06",
+              "titlu": "Corespondență și texte funcționale"
+            }
+          ]
+        },
+        {
+          "id": "fra11-c3",
+          "titlu": "Societate și cultură",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "fra11-07",
+              "titlu": "Instituțiile și societatea franceză"
+            },
+            {
+              "id": "fra11-08",
+              "titlu": "Literatura franceză — repere"
+            },
+            {
+              "id": "fra11-09",
+              "titlu": "Media, film, cultură contemporană"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
+        }
+      ]
+    },
+    {
+      "id": "romana-11",
       "materie": "Limba și literatura română",
-      "clasa": "a XII-a",
-      "descriere": "Curente literare, texte canonice, structura eseului de bacalaureat.",
-      "lectii": [
+      "clasa": "a XI-a",
+      "an": 3,
+      "arie": "Limbă și comunicare",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Fundamentele culturii române și marile curente: umanism, iluminism, pașoptism, romantism, realism, simbolism, cu autorii canonici.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 24,
+      "capitole": [
         {
-          "id": "rom-01",
-          "titlu": "Curente literare — repere",
-          "rezumat": "Clasicismul (echilibru, rațiune, modele antice), romantismul (sentiment, natură, geniu, evadare — Eminescu), realismul (observație socială, tipologii — Slavici, Rebreanu), simbolismul (sugestie, muzicalitate, corespondențe — Bacovia), modernismul (E. Lovinescu, sincronism — Arghezi, Barbu, Blaga), neomodernismul (Nichita Stănescu, Marin Sorescu), postmodernismul (Mircea Cărtărescu).",
-          "ideiCheie": [
-            "Romantism: antiteză, cosmogonie, mitul geniului.",
-            "Realism: veridicitate, cronologie, personaje tipice în situații tipice.",
-            "Modernism: ambiguitate, metaforă revelatorie, intelectualizarea emoției."
+          "id": "rom11-c1",
+          "titlu": "Începuturile culturii scrise",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rom11-01",
+              "titlu": "Primele texte și cultura scrisă veche"
+            },
+            {
+              "id": "rom11-02",
+              "titlu": "Cronicarii și Dimitrie Cantemir"
+            }
           ]
         },
         {
-          "id": "rom-02",
-          "titlu": "Eseul de la proba E)a) — structură",
-          "rezumat": "Eseul structurat cere: încadrarea textului în curent/perioadă/specie, evidențierea a două trăsături care justifică încadrarea, comentarea a două elemente de structură/compoziție/limbaj (titlu, incipit, final, conflict, relații spațio-temporale, tehnici narative), susținerea unei opinii argumentate. Se punctează și redactarea: coerență, registru, ortografie, punctuație, așezare în pagină.",
-          "ideiCheie": [
-            "Structură fixă: încadrare → trăsături → elemente de construcție → opinie.",
-            "Fiecare afirmație trebuie susținută prin secvențe din text.",
-            "Redactarea aduce puncte separate — nu o neglija."
+          "id": "rom11-c2",
+          "titlu": "Curente culturale până la 1848",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rom11-03",
+              "titlu": "Umanismul și iluminismul românesc"
+            },
+            {
+              "id": "rom11-04",
+              "titlu": "Pașoptismul și romantismul românesc"
+            },
+            {
+              "id": "rom11-05",
+              "titlu": "Mihai Eminescu — romantismul înalt"
+            }
+          ]
+        },
+        {
+          "id": "rom11-c3",
+          "titlu": "Junimea, realismul, marii clasici",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rom11-06",
+              "titlu": "Junimea și Titu Maiorescu"
+            },
+            {
+              "id": "rom11-07",
+              "titlu": "Realismul: Slavici, Caragiale, Creangă"
+            }
+          ]
+        },
+        {
+          "id": "rom11-c4",
+          "titlu": "Modernitatea timpurie",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rom11-08",
+              "titlu": "Simbolismul și George Bacovia"
+            },
+            {
+              "id": "rom11-09",
+              "titlu": "Trecerea spre modernism: Macedonski, Coșbuc, Goga"
+            }
           ]
         }
       ],
-      "flashcards": [
-        { "f": "Ce trăsătură definește simbolismul?", "v": "Sugestia și muzicalitatea; corespondențele dintre stările sufletești și elementele naturii." },
-        { "f": "Cine este teoreticianul sincronismului?", "v": "Eugen Lovinescu." },
-        { "f": "Ce presupune încadrarea într-un curent la eseu?", "v": "Menționarea curentului și demonstrarea lui prin două trăsături identificate în text." },
-        { "f": "Ce este metafora revelatorie?", "v": "Concept al lui Lucian Blaga: metafora care încearcă să reveleze un mister, nu doar să înlocuiască un termen." }
-      ],
-      "quiz": [
-        { "intrebare": "Romanul „Ion” de Liviu Rebreanu aparține:", "optiuni": ["romantismului", "realismului", "simbolismului", "clasicismului"], "corect": 1, "explicatie": "Realism obiectiv, cu tipologii și determinism social." },
-        { "intrebare": "Antiteza este procedeu specific:", "optiuni": ["realismului", "romantismului", "naturalismului", "postmodernismului"], "corect": 1, "explicatie": "Romantismul construiește pe opoziții: geniu–om comun, trecut–prezent." }
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
       ]
     },
     {
-      "id": "istorie",
-      "materie": "Istorie",
-      "clasa": "a XII-a",
-      "descriere": "Teme pentru proba E)c): statul român modern, constituții, România în secolul XX.",
-      "lectii": [
+      "id": "mass-11",
+      "materie": "Matematică aplicată în științele sociale",
+      "clasa": "a XI-a",
+      "an": 3,
+      "arie": "Matematică și științe ale naturii",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Culegerea și reprezentarea datelor, indicatori statistici, elemente de probabilități și modele de creștere aplicate în social.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 18,
+      "capitole": [
         {
-          "id": "ist-01",
-          "titlu": "Formarea statului român modern",
-          "rezumat": "1848 — revoluțiile din Țările Române formulează programul național. 1859 — dubla alegere a lui Alexandru Ioan Cuza la Iași (5 ianuarie) și București (24 ianuarie) realizează Unirea Principatelor. Reformele lui Cuza: secularizarea averilor mănăstirești (1863), reforma agrară și legea instrucțiunii publice (1864). 1866 — Carol I și prima Constituție. 1877–1878 — obținerea independenței. 1881 — proclamarea Regatului.",
-          "ideiCheie": [
-            "1859: dubla alegere; 1862: unificarea deplină, statul „România”.",
-            "1864: lovitura de stat a lui Cuza, Statutul Dezvoltător.",
-            "1877–1878: Războiul de Independență, Congresul de la Berlin."
+          "id": "mas11-c1",
+          "titlu": "Date și reprezentări",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "mas11-01",
+              "titlu": "Ce studiază statistica socială"
+            },
+            {
+              "id": "mas11-02",
+              "titlu": "Culegerea datelor"
+            },
+            {
+              "id": "mas11-03",
+              "titlu": "Reprezentări grafice"
+            }
           ]
         },
         {
-          "id": "ist-02",
-          "titlu": "Constituțiile României",
-          "rezumat": "1866 — prima Constituție, inspirată de cea belgiană, monarhie constituțională, separația puterilor, drepturi și libertăți. 1923 — adaptată României Mari, vot universal masculin, proprietatea ca funcție socială. 1938 — Constituția autoritară a lui Carol al II-lea. 1948, 1952, 1965 — constituții comuniste. 1991 (revizuită în 2003) — republică semiprezidențială, stat de drept, pluralism politic.",
-          "ideiCheie": [
-            "1866 și 1923 — constituții liberale, democratice.",
-            "1938 — regim autoritar, concentrarea puterii la rege.",
-            "1991 — separația puterilor, drepturi fundamentale, Curtea Constituțională."
+          "id": "mas11-c2",
+          "titlu": "Indicatori și probabilități",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "mas11-04",
+              "titlu": "Indicatori de tendință centrală"
+            },
+            {
+              "id": "mas11-05",
+              "titlu": "Indicatori de împrăștiere"
+            },
+            {
+              "id": "mas11-06",
+              "titlu": "Probabilități în situații sociale"
+            }
           ]
         },
         {
-          "id": "ist-03",
-          "titlu": "România în perioada comunistă",
-          "rezumat": "1947 — abdicarea forțată a regelui Mihai și proclamarea Republicii Populare Române. Perioada Gheorghiu-Dej: sovietizare, colectivizare, represiune (Canalul Dunăre–Marea Neagră, Pitești, Sighet). Din 1965 — Nicolae Ceaușescu: relativă deschidere, apoi Tezele din iulie 1971 și instaurarea cultului personalității, sistematizare, penurie. Decembrie 1989 — Revoluția și căderea regimului.",
-          "ideiCheie": [
-            "1948: naționalizarea; 1949–1962: colectivizarea agriculturii.",
-            "1968: condamnarea invadării Cehoslovaciei — moment de prestigiu extern.",
-            "1989: Timișoara (16 decembrie) → București (21–22 decembrie)."
+          "id": "mas11-c3",
+          "titlu": "Modele și aplicații",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "mas11-07",
+              "titlu": "Creștere și evoluție"
+            },
+            {
+              "id": "mas11-08",
+              "titlu": "Procente, indici, comparații"
+            },
+            {
+              "id": "mas11-09",
+              "titlu": "Corelație, cauzalitate, decizie"
+            }
           ]
         }
       ],
-      "flashcards": [
-        { "f": "În ce an și în ce orașe a fost ales domn Alexandru Ioan Cuza?", "v": "1859: la Iași pe 5 ianuarie și la București pe 24 ianuarie." },
-        { "f": "Ce a prevăzut secularizarea averilor mănăstirești (1863)?", "v": "Trecerea în proprietatea statului a averilor mănăstirilor închinate, cca un sfert din teritoriul țării." },
-        { "f": "După ce model a fost redactată Constituția din 1866?", "v": "După Constituția Belgiei din 1831." },
-        { "f": "Când a fost proclamat Regatul României?", "v": "În 1881." },
-        { "f": "Ce a marcat anul 1971 în România comunistă?", "v": "Tezele din iulie — revenirea la un control ideologic strict și cultul personalității." }
-      ],
-      "quiz": [
-        { "intrebare": "Independența României a fost recunoscută internațional la:", "optiuni": ["Congresul de la Viena", "Congresul de la Berlin (1878)", "Conferința de la Paris (1856)", "Tratatul de la Adrianopol"], "corect": 1, "explicatie": "Congresul de la Berlin, 1878, cu prețul cedării sudului Basarabiei." },
-        { "intrebare": "Prima Constituție a României a fost adoptată în:", "optiuni": ["1859", "1866", "1923", "1938"], "corect": 1, "explicatie": "1866, odată cu venirea lui Carol I." },
-        { "intrebare": "Marea Unire s-a desăvârșit la:", "optiuni": ["1 decembrie 1918, Alba Iulia", "27 martie 1918, Chișinău", "28 noiembrie 1918, Cernăuți", "24 ianuarie 1918"], "corect": 0, "explicatie": "Basarabia (martie), Bucovina (noiembrie) și Transilvania (1 decembrie 1918)." }
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
+        }
       ]
     },
     {
-      "id": "geografie",
+      "id": "stiam-11",
+      "materie": "ȘTIAM (științe integrate)",
+      "clasa": "a XI-a",
+      "an": 3,
+      "arie": "Matematică și științe ale naturii",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Științe integrate: metoda științifică, materie și energie, sistemele Pământului și viața ca sistem.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 18,
+      "capitole": [
+        {
+          "id": "sti11-c1",
+          "titlu": "Cum funcționează știința",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "sti11-01",
+              "titlu": "Metoda științifică"
+            },
+            {
+              "id": "sti11-02",
+              "titlu": "Măsurare, incertitudine, date"
+            },
+            {
+              "id": "sti11-03",
+              "titlu": "Modele și limitele lor"
+            }
+          ]
+        },
+        {
+          "id": "sti11-c2",
+          "titlu": "Materie și energie",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "sti11-04",
+              "titlu": "Structura materiei"
+            },
+            {
+              "id": "sti11-05",
+              "titlu": "Energia și transformările ei"
+            },
+            {
+              "id": "sti11-06",
+              "titlu": "Unde, semnale, comunicații"
+            }
+          ]
+        },
+        {
+          "id": "sti11-c3",
+          "titlu": "Pământul și viața",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "sti11-07",
+              "titlu": "Sistemul Pământ"
+            },
+            {
+              "id": "sti11-08",
+              "titlu": "Clima și schimbările ei"
+            },
+            {
+              "id": "sti11-09",
+              "titlu": "Viața ca sistem"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
+        }
+      ]
+    },
+    {
+      "id": "tic-11",
+      "materie": "Tehnologia informației și a comunicațiilor (TIC)",
+      "clasa": "a XI-a",
+      "an": 3,
+      "arie": "Tehnologii",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Web, multimedia și proiecte digitale: structura unei pagini, conținut vizual și audio, publicare și management de proiect.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 24,
+      "capitole": [
+        {
+          "id": "tic11-c1",
+          "titlu": "Web: structură și publicare",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "tic11-01",
+              "titlu": "Cum funcționează web-ul"
+            },
+            {
+              "id": "tic11-02",
+              "titlu": "Structura unei pagini: conținut, prezentare, comportament"
+            },
+            {
+              "id": "tic11-03",
+              "titlu": "Accesibilitate, optimizare, publicare"
+            }
+          ]
+        },
+        {
+          "id": "tic11-c2",
+          "titlu": "Multimedia",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "tic11-04",
+              "titlu": "Sunet digital"
+            },
+            {
+              "id": "tic11-05",
+              "titlu": "Imagine în mișcare și montaj"
+            },
+            {
+              "id": "tic11-06",
+              "titlu": "Design vizual pentru materiale digitale"
+            }
+          ]
+        },
+        {
+          "id": "tic11-c3",
+          "titlu": "Proiecte digitale",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "tic11-07",
+              "titlu": "Planificarea unui proiect digital"
+            },
+            {
+              "id": "tic11-08",
+              "titlu": "Testare, feedback, îmbunătățire"
+            },
+            {
+              "id": "tic11-09",
+              "titlu": "Prezentarea și documentarea unui produs digital"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "filosofie-12",
+      "materie": "Filosofie",
+      "clasa": "a XII-a",
+      "an": 4,
+      "arie": "Om și societate",
+      "bac": true,
+      "socioUman": true,
+      "descriere": "Marile teme ale filosofiei: omul, morala, politica, cunoașterea și rostul însuși al întrebării filosofice.",
+      "nrLectii": 14,
+      "nrCarduri": 56,
+      "nrIntrebari": 56,
+      "nrIntrebariTeze": 25,
+      "capitole": [
+        {
+          "id": "fil12-c1",
+          "titlu": "Introducere în filosofie",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fil12-01",
+              "titlu": "Ce este filosofia"
+            },
+            {
+              "id": "fil12-02",
+              "titlu": "Nașterea filosofiei și marile momente"
+            }
+          ]
+        },
+        {
+          "id": "fil12-c2",
+          "titlu": "Omul",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fil12-03",
+              "titlu": "Problematica naturii umane"
+            },
+            {
+              "id": "fil12-04",
+              "titlu": "Libertate și responsabilitate"
+            },
+            {
+              "id": "fil12-05",
+              "titlu": "Sensul vieții și moartea"
+            }
+          ]
+        },
+        {
+          "id": "fil12-c3",
+          "titlu": "Morala",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fil12-06",
+              "titlu": "Binele și răul. Specificul moralei"
+            },
+            {
+              "id": "fil12-07",
+              "titlu": "Teorii etice: datoria și utilitatea"
+            }
+          ]
+        },
+        {
+          "id": "fil12-c4",
+          "titlu": "Politica",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "fil12-08",
+              "titlu": "Libertate socială și politică"
+            },
+            {
+              "id": "fil12-09",
+              "titlu": "Egalitate și dreptate"
+            },
+            {
+              "id": "fil12-10",
+              "titlu": "Puterea politică, statul și legitimitatea"
+            },
+            {
+              "id": "fil12-11",
+              "titlu": "Drepturile omului"
+            }
+          ]
+        },
+        {
+          "id": "fil12-c5",
+          "titlu": "Cunoașterea",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "fil12-12",
+              "titlu": "Problema cunoașterii: izvoare și limite"
+            },
+            {
+              "id": "fil12-13",
+              "titlu": "Adevăr și eroare"
+            },
+            {
+              "id": "fil12-14",
+              "titlu": "Rolul filosofiei în viața socială"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 13
+        }
+      ]
+    },
+    {
+      "id": "geografie-12",
       "materie": "Geografie",
       "clasa": "a XII-a",
-      "descriere": "Europa, România, Uniunea Europeană — proba E)d).",
-      "lectii": [
+      "an": 4,
+      "arie": "Om și societate",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Europa, România și Uniunea Europeană: relief, climă, ape, populație, așezări, economie și integrare — temele probei de bacalaureat.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 25,
+      "capitole": [
         {
-          "id": "geo-01",
-          "titlu": "Relieful României",
-          "rezumat": "Relieful este dispus concentric și în trepte: Carpații (Orientali, Meridionali, Occidentali) ocupă circa 31%, dealurile și podișurile 36%, câmpiile 33%. Vârful cel mai înalt: Moldoveanu (2544 m), în Munții Făgăraș. Depresiunea Colinară a Transilvaniei este încadrată de arcul carpatic. Delta Dunării este cea mai joasă și mai nouă unitate de relief.",
-          "ideiCheie": [
-            "Proporție aproximativ egală munte–deal–câmpie.",
-            "Moldoveanu 2544 m — altitudinea maximă.",
-            "Dispunere concentrică în jurul Depresiunii Transilvaniei."
+          "id": "geo12-c1",
+          "titlu": "Europa și România: cadrul natural",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "geo12-01",
+              "titlu": "Poziția geografică și limitele Europei"
+            },
+            {
+              "id": "geo12-02",
+              "titlu": "Relieful Europei și al României"
+            },
+            {
+              "id": "geo12-03",
+              "titlu": "Clima, apele, vegetația și solurile"
+            }
           ]
         },
         {
-          "id": "geo-02",
+          "id": "geo12-c2",
+          "titlu": "Populația și așezările",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "geo12-04",
+              "titlu": "Populația Europei și a României"
+            },
+            {
+              "id": "geo12-05",
+              "titlu": "Așezările și organizarea administrativă"
+            }
+          ]
+        },
+        {
+          "id": "geo12-c3",
+          "titlu": "Economia și mediul",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "geo12-06",
+              "titlu": "Resursele și industria"
+            },
+            {
+              "id": "geo12-07",
+              "titlu": "Agricultura, transporturile și turismul"
+            }
+          ]
+        },
+        {
+          "id": "geo12-c4",
           "titlu": "Uniunea Europeană",
-          "rezumat": "UE s-a format prin Tratatul de la Roma (1957, CEE) și a devenit Uniune prin Tratatul de la Maastricht (1992). România a aderat la 1 ianuarie 2007. Instituții principale: Parlamentul European (ales direct), Consiliul European, Consiliul UE, Comisia Europeană (executivul), Curtea de Justiție, Banca Centrală Europeană. Cele patru libertăți: circulația liberă a bunurilor, serviciilor, capitalurilor și persoanelor.",
-          "ideiCheie": [
-            "1957 Roma → 1992 Maastricht → 2007 aderarea României.",
-            "Comisia propune, Parlamentul și Consiliul decid.",
-            "Politica de coeziune reduce decalajele dintre regiuni."
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "geo12-08",
+              "titlu": "Construcția și instituțiile Uniunii Europene"
+            },
+            {
+              "id": "geo12-09",
+              "titlu": "România în Uniunea Europeană"
+            }
           ]
         }
       ],
-      "flashcards": [
-        { "f": "Care este cel mai înalt vârf din România?", "v": "Vârful Moldoveanu, 2544 m, Munții Făgăraș." },
-        { "f": "Când a aderat România la Uniunea Europeană?", "v": "La 1 ianuarie 2007." },
-        { "f": "Ce tratat a creat Uniunea Europeană?", "v": "Tratatul de la Maastricht, 1992." },
-        { "f": "Care sunt cele patru libertăți fundamentale ale pieței unice?", "v": "Libera circulație a mărfurilor, serviciilor, capitalurilor și persoanelor." }
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 13
+        }
+      ]
+    },
+    {
+      "id": "istorie-12",
+      "materie": "Istorie",
+      "clasa": "a XII-a",
+      "an": 4,
+      "arie": "Om și societate",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Istoria românilor pe temele de bacalaureat: romanitate, autonomii și instituții, statul modern, secolul XX, constituții și relații internaționale.",
+      "nrLectii": 12,
+      "nrCarduri": 48,
+      "nrIntrebari": 48,
+      "nrIntrebariTeze": 24,
+      "capitole": [
+        {
+          "id": "ist12-c1",
+          "titlu": "Popoare și spații istorice",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ist12-01",
+              "titlu": "Romanitatea românilor în viziunea istoricilor"
+            },
+            {
+              "id": "ist12-02",
+              "titlu": "Autonomii locale și instituții centrale (secolele IX–XVIII)"
+            }
+          ]
+        },
+        {
+          "id": "ist12-c2",
+          "titlu": "Statul român modern",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ist12-03",
+              "titlu": "Proiecte politice și reforme (1821–1848)"
+            },
+            {
+              "id": "ist12-04",
+              "titlu": "Unirea din 1859 și domnia lui Cuza"
+            },
+            {
+              "id": "ist12-05",
+              "titlu": "De la independență la România Mare"
+            }
+          ]
+        },
+        {
+          "id": "ist12-c3",
+          "titlu": "Secolul XX: ideologii, constituții, regimuri",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ist12-06",
+              "titlu": "Constituțiile României"
+            },
+            {
+              "id": "ist12-07",
+              "titlu": "România interbelică: democrație și autoritarism"
+            },
+            {
+              "id": "ist12-08",
+              "titlu": "România postbelică: stalinism, național-comunism, disidență"
+            },
+            {
+              "id": "ist12-09",
+              "titlu": "Construcția democrației după 1989"
+            }
+          ]
+        },
+        {
+          "id": "ist12-c4",
+          "titlu": "Relații internaționale",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ist12-10",
+              "titlu": "Spațiul românesc între diplomație și conflict (Evul Mediu–începutul modernității)"
+            },
+            {
+              "id": "ist12-11",
+              "titlu": "România și marile alianțe ale secolului XX"
+            },
+            {
+              "id": "ist12-12",
+              "titlu": "România în perioada Războiului Rece"
+            }
+          ]
+        }
       ],
-      "quiz": [
-        { "intrebare": "Delta Dunării este:", "optiuni": ["cea mai veche unitate de relief", "cea mai nouă și mai joasă unitate de relief", "o unitate montană", "un podiș"], "corect": 1, "explicatie": "Formată prin depuneri recente, cu altitudini sub 10 m." },
-        { "intrebare": "Instituția executivă a Uniunii Europene este:", "optiuni": ["Parlamentul European", "Comisia Europeană", "Consiliul European", "Curtea de Conturi"], "corect": 1, "explicatie": "Comisia Europeană propune legislația și o pune în aplicare." }
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "religie-12",
+      "materie": "Religie",
+      "clasa": "a XII-a",
+      "an": 4,
+      "arie": "Om și societate",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Morala creștină: conștiință și libertate, viața personală și de familie, responsabilitatea socială și bioetica.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 18,
+      "capitole": [
+        {
+          "id": "rel12-c1",
+          "titlu": "Temeiurile moralei creștine",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rel12-01",
+              "titlu": "Libertate, responsabilitate, conștiință"
+            },
+            {
+              "id": "rel12-02",
+              "titlu": "Legea morală și poruncile"
+            },
+            {
+              "id": "rel12-03",
+              "titlu": "Virtuți și patimi"
+            }
+          ]
+        },
+        {
+          "id": "rel12-c2",
+          "titlu": "Viața personală și familia",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rel12-04",
+              "titlu": "Demnitatea persoanei"
+            },
+            {
+              "id": "rel12-05",
+              "titlu": "Familia și relațiile"
+            },
+            {
+              "id": "rel12-06",
+              "titlu": "Munca, timpul, bunurile"
+            }
+          ]
+        },
+        {
+          "id": "rel12-c3",
+          "titlu": "Responsabilitate socială și bioetică",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rel12-07",
+              "titlu": "Creștinul în societate"
+            },
+            {
+              "id": "rel12-08",
+              "titlu": "Bioetica"
+            },
+            {
+              "id": "rel12-09",
+              "titlu": "Creștinismul și provocările contemporane"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
+        }
+      ]
+    },
+    {
+      "id": "studii-sociale-12",
+      "materie": "Studii sociale",
+      "clasa": "a XII-a",
+      "an": 4,
+      "arie": "Om și societate",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Educație economică și pentru dezvoltare: bugetul personal, consumatorul, munca, dezvoltarea durabilă și responsabilitatea socială.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 24,
+      "capitole": [
+        {
+          "id": "ss12-c1",
+          "titlu": "Educație financiară personală",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ss12-01",
+              "titlu": "Venituri, cheltuieli, buget personal"
+            },
+            {
+              "id": "ss12-02",
+              "titlu": "Economisire, credit, dobândă"
+            },
+            {
+              "id": "ss12-03",
+              "titlu": "Consumatorul: drepturi și decizii"
+            }
+          ]
+        },
+        {
+          "id": "ss12-c2",
+          "titlu": "Munca și cariera",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ss12-04",
+              "titlu": "Piața muncii și contractul de muncă"
+            },
+            {
+              "id": "ss12-05",
+              "titlu": "Orientare în carieră și competențe"
+            },
+            {
+              "id": "ss12-06",
+              "titlu": "Antreprenoriat social și economie socială"
+            }
+          ]
+        },
+        {
+          "id": "ss12-c3",
+          "titlu": "Dezvoltare și responsabilitate",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ss12-07",
+              "titlu": "Dezvoltarea durabilă și obiectivele globale"
+            },
+            {
+              "id": "ss12-08",
+              "titlu": "Responsabilitate socială și consum responsabil"
+            },
+            {
+              "id": "ss12-09",
+              "titlu": "Etică, corupție și integritate publică"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "engleza-12",
+      "materie": "Limba modernă 1 (Engleză)",
+      "clasa": "a XII-a",
+      "an": 4,
+      "arie": "Limbă și comunicare",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Engleză pentru examen și pentru viața profesională: text argumentativ, corespondență, prezentări, engleză academică și de afaceri.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 24,
+      "capitole": [
+        {
+          "id": "eng12-c1",
+          "titlu": "Scriere avansată",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "eng12-01",
+              "titlu": "Eseul argumentativ"
+            },
+            {
+              "id": "eng12-02",
+              "titlu": "Corespondență formală și documente profesionale"
+            },
+            {
+              "id": "eng12-03",
+              "titlu": "Rapoarte, recenzii, articole"
+            }
+          ]
+        },
+        {
+          "id": "eng12-c2",
+          "titlu": "Engleză academică și profesională",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "eng12-04",
+              "titlu": "Prezentări orale în engleză"
+            },
+            {
+              "id": "eng12-05",
+              "titlu": "Engleza academică: citare, parafrazare, obiectivitate"
+            },
+            {
+              "id": "eng12-06",
+              "titlu": "Engleza pentru afaceri și pentru interviu"
+            }
+          ]
+        },
+        {
+          "id": "eng12-c3",
+          "titlu": "Proba de competențe lingvistice",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "eng12-07",
+              "titlu": "Structura probei B"
+            },
+            {
+              "id": "eng12-08",
+              "titlu": "Strategii pentru fiecare dimensiune"
+            },
+            {
+              "id": "eng12-09",
+              "titlu": "Autonomia în învățarea limbii"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "franceza-12",
+      "materie": "Limba modernă 2 (Franceză)",
+      "clasa": "a XII-a",
+      "an": 4,
+      "arie": "Limbă și comunicare",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Sintaxa frazei complexe, nuanțele lexicale, texte de specialitate și teme de dezbatere contemporană.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 18,
+      "capitole": [
+        {
+          "id": "fra12-c1",
+          "titlu": "Fraza complexă",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fra12-01",
+              "titlu": "Subordonatele circumstanțiale"
+            },
+            {
+              "id": "fra12-02",
+              "titlu": "Participiul și gerunziul"
+            },
+            {
+              "id": "fra12-03",
+              "titlu": "Nuanțe verbale și acorduri dificile"
+            }
+          ]
+        },
+        {
+          "id": "fra12-c2",
+          "titlu": "Lexic și texte",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fra12-04",
+              "titlu": "Formarea cuvintelor"
+            },
+            {
+              "id": "fra12-05",
+              "titlu": "Sinonimie, polisemie, registre"
+            },
+            {
+              "id": "fra12-06",
+              "titlu": "Lectura textelor de specialitate"
+            }
+          ]
+        },
+        {
+          "id": "fra12-c3",
+          "titlu": "Teme contemporane",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "fra12-07",
+              "titlu": "Mediul și dezvoltarea durabilă"
+            },
+            {
+              "id": "fra12-08",
+              "titlu": "Tehnologie, muncă, societate"
+            },
+            {
+              "id": "fra12-09",
+              "titlu": "Mobilitate, studii, interculturalitate"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
+        }
+      ]
+    },
+    {
+      "id": "romana-12",
+      "materie": "Limba și literatura română",
+      "clasa": "a XII-a",
+      "an": 4,
+      "arie": "Limbă și comunicare",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Literatura interbelică și postbelică: modernism și tradiționalism, romanul, poezia, teatrul, neomodernismul și postmodernismul.",
+      "nrLectii": 10,
+      "nrCarduri": 40,
+      "nrIntrebari": 40,
+      "nrIntrebariTeze": 25,
+      "capitole": [
+        {
+          "id": "rom12-c1",
+          "titlu": "Orientări în literatura interbelică",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rom12-01",
+              "titlu": "Modernismul lovinescian și „Sburătorul”"
+            },
+            {
+              "id": "rom12-02",
+              "titlu": "Tradiționalismul: „Gândirea” și poezia religioasă"
+            }
+          ]
+        },
+        {
+          "id": "rom12-c2",
+          "titlu": "Poezia interbelică",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rom12-03",
+              "titlu": "Tudor Arghezi: estetica urâtului"
+            },
+            {
+              "id": "rom12-04",
+              "titlu": "Lucian Blaga: misterul și cunoașterea"
+            },
+            {
+              "id": "rom12-05",
+              "titlu": "Ion Barbu și poezia ermetică"
+            }
+          ]
+        },
+        {
+          "id": "rom12-c3",
+          "titlu": "Romanul și teatrul",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rom12-06",
+              "titlu": "Romanul obiectiv și cel subiectiv interbelic"
+            },
+            {
+              "id": "rom12-07",
+              "titlu": "Teatrul interbelic și postbelic"
+            },
+            {
+              "id": "rom12-08",
+              "titlu": "Proza postbelică: obsedantul deceniu și marile romane"
+            }
+          ]
+        },
+        {
+          "id": "rom12-c4",
+          "titlu": "Neomodernism și postmodernism",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rom12-09",
+              "titlu": "Neomodernismul: Nichita Stănescu și generația '60"
+            },
+            {
+              "id": "rom12-10",
+              "titlu": "Postmodernismul și literatura de după 1989"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 13
+        }
+      ]
+    },
+    {
+      "id": "mass-12",
+      "materie": "Matematică aplicată în științele sociale",
+      "clasa": "a XII-a",
+      "an": 4,
+      "arie": "Matematică și științe ale naturii",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Modele matematice pentru decizie: matematici financiare, sondaje și eroare, teoria alegerii sociale, grafuri și rețele.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 18,
+      "capitole": [
+        {
+          "id": "mas12-c1",
+          "titlu": "Matematici financiare",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "mas12-01",
+              "titlu": "Dobândă, credit, economisire"
+            },
+            {
+              "id": "mas12-02",
+              "titlu": "Inflație, valoare în timp, investiții"
+            },
+            {
+              "id": "mas12-03",
+              "titlu": "Bugetul personal și decizia economică"
+            }
+          ]
+        },
+        {
+          "id": "mas12-c2",
+          "titlu": "Sondaje, alegeri, decizie colectivă",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "mas12-04",
+              "titlu": "Sondaje de opinie și marja de eroare"
+            },
+            {
+              "id": "mas12-05",
+              "titlu": "Sisteme de vot și paradoxuri"
+            },
+            {
+              "id": "mas12-06",
+              "titlu": "Teoria jocurilor și cooperarea"
+            }
+          ]
+        },
+        {
+          "id": "mas12-c3",
+          "titlu": "Rețele și decizie",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "mas12-07",
+              "titlu": "Grafuri și rețele sociale"
+            },
+            {
+              "id": "mas12-08",
+              "titlu": "Algoritmi, date, societate"
+            },
+            {
+              "id": "mas12-09",
+              "titlu": "Sinteză: gândirea cantitativă în viața publică"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
+        }
+      ]
+    },
+    {
+      "id": "stiam-12",
+      "materie": "ȘTIAM (științe integrate)",
+      "clasa": "a XII-a",
+      "an": 4,
+      "arie": "Matematică și științe ale naturii",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Științe integrate: sănătate și corp, tehnologie și societate, mediu și resurse, gândire critică aplicată.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 18,
+      "capitole": [
+        {
+          "id": "sti12-c1",
+          "titlu": "Sănătate și corp",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "sti12-01",
+              "titlu": "Nutriție și metabolism"
+            },
+            {
+              "id": "sti12-02",
+              "titlu": "Imunitate, boli, prevenție"
+            },
+            {
+              "id": "sti12-03",
+              "titlu": "Creier, comportament, sănătate mintală"
+            }
+          ]
+        },
+        {
+          "id": "sti12-c2",
+          "titlu": "Tehnologie și societate",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "sti12-04",
+              "titlu": "Energia și tranziția energetică"
+            },
+            {
+              "id": "sti12-05",
+              "titlu": "Digital, inteligență artificială, date"
+            },
+            {
+              "id": "sti12-06",
+              "titlu": "Tehnologie, etică, responsabilitate"
+            }
+          ]
+        },
+        {
+          "id": "sti12-c3",
+          "titlu": "Mediu, resurse, gândire critică",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "sti12-07",
+              "titlu": "Resurse și limite"
+            },
+            {
+              "id": "sti12-08",
+              "titlu": "Biodiversitate și ecosisteme"
+            },
+            {
+              "id": "sti12-09",
+              "titlu": "Gândire critică aplicată"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
+        }
+      ]
+    },
+    {
+      "id": "tic-12",
+      "materie": "Tehnologia informației și a comunicațiilor (TIC)",
+      "clasa": "a XII-a",
+      "an": 4,
+      "arie": "Tehnologii",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Competențe digitale pentru bacalaureat și pentru viață: instrumente de birou, informație, securitate, identitate digitală și tehnologii emergente.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 24,
+      "capitole": [
+        {
+          "id": "tic12-c1",
+          "titlu": "Competențe digitale pentru examen",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "tic12-01",
+              "titlu": "Structura probei de competențe digitale"
+            },
+            {
+              "id": "tic12-02",
+              "titlu": "Documente complexe și lucru profesional cu textul"
+            },
+            {
+              "id": "tic12-03",
+              "titlu": "Calcul tabelar aplicat"
+            }
+          ]
+        },
+        {
+          "id": "tic12-c2",
+          "titlu": "Informație, securitate, identitate",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "tic12-04",
+              "titlu": "Căutarea și evaluarea informației"
+            },
+            {
+              "id": "tic12-05",
+              "titlu": "Securitate practică și amenințări curente"
+            },
+            {
+              "id": "tic12-06",
+              "titlu": "Identitate digitală și reputație online"
+            }
+          ]
+        },
+        {
+          "id": "tic12-c3",
+          "titlu": "Tehnologii și societate",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "tic12-07",
+              "titlu": "Cloud, mobilitate, colaborare"
+            },
+            {
+              "id": "tic12-08",
+              "titlu": "Automatizare, date mari, inteligență artificială"
+            },
+            {
+              "id": "tic12-09",
+              "titlu": "Etică digitală și responsabilitate"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "economie-13",
+      "materie": "Economie și educație antreprenorială",
+      "clasa": "a XIII-a",
+      "an": 5,
+      "arie": "Om și societate",
+      "bac": true,
+      "socioUman": true,
+      "descriere": "Cum funcționează economia și cum se pornește o afacere: consumator, producător, piețe, bani, muncă și antreprenoriat.",
+      "nrLectii": 12,
+      "nrCarduri": 48,
+      "nrIntrebari": 48,
+      "nrIntrebariTeze": 25,
+      "capitole": [
+        {
+          "id": "eco13-c1",
+          "titlu": "Economia și consumatorul",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "eco13-01",
+              "titlu": "Nevoi, resurse, alegere"
+            },
+            {
+              "id": "eco13-02",
+              "titlu": "Consumatorul și cererea"
+            }
+          ]
+        },
+        {
+          "id": "eco13-c2",
+          "titlu": "Producătorul",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "eco13-03",
+              "titlu": "Factorii de producție și combinarea lor"
+            },
+            {
+              "id": "eco13-04",
+              "titlu": "Costuri, venituri, profit"
+            }
+          ]
+        },
+        {
+          "id": "eco13-c3",
+          "titlu": "Piața",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "eco13-05",
+              "titlu": "Oferta și echilibrul pieței"
+            },
+            {
+              "id": "eco13-06",
+              "titlu": "Concurența și formele pieței"
+            }
+          ]
+        },
+        {
+          "id": "eco13-c4",
+          "titlu": "Piețe particulare",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "eco13-07",
+              "titlu": "Banii și piața monetară"
+            },
+            {
+              "id": "eco13-08",
+              "titlu": "Piața muncii și șomajul"
+            },
+            {
+              "id": "eco13-09",
+              "titlu": "Economia deschisă: comerț, curs de schimb, integrare"
+            }
+          ]
+        },
+        {
+          "id": "eco13-c5",
+          "titlu": "Educație antreprenorială",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "eco13-10",
+              "titlu": "Întreprinzătorul și ideea de afacere"
+            },
+            {
+              "id": "eco13-11",
+              "titlu": "Planul de afaceri și finanțarea"
+            },
+            {
+              "id": "eco13-12",
+              "titlu": "Marketing, resurse umane, etică în afaceri"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 13
+        }
+      ]
+    },
+    {
+      "id": "filosofie-13",
+      "materie": "Filosofie",
+      "clasa": "a XIII-a",
+      "an": 5,
+      "arie": "Om și societate",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Aprofundare: metafizică și existență, filosofia religiei, estetica, filosofia științei, curente contemporane și metoda eseului filosofic.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 24,
+      "capitole": [
+        {
+          "id": "fil13-c1",
+          "titlu": "Existența și cunoașterea ei",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fil13-01",
+              "titlu": "Metafizica: ființă, substanță, devenire"
+            },
+            {
+              "id": "fil13-02",
+              "titlu": "Filosofia științei"
+            },
+            {
+              "id": "fil13-03",
+              "titlu": "Filosofia religiei"
+            }
+          ]
+        },
+        {
+          "id": "fil13-c2",
+          "titlu": "Valori și interpretare",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "fil13-04",
+              "titlu": "Estetica: frumosul, arta, gustul"
+            },
+            {
+              "id": "fil13-05",
+              "titlu": "Hermeneutica și problema interpretării"
+            },
+            {
+              "id": "fil13-06",
+              "titlu": "Curente filosofice contemporane"
+            }
+          ]
+        },
+        {
+          "id": "fil13-c3",
+          "titlu": "Eseul filosofic și bacalaureatul",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "fil13-07",
+              "titlu": "Structura probei și tipurile de cerințe"
+            },
+            {
+              "id": "fil13-08",
+              "titlu": "Cum se scrie un eseu filosofic"
+            },
+            {
+              "id": "fil13-09",
+              "titlu": "Teme recurente și pregătirea pentru examen"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "geografie-13",
+      "materie": "Geografie",
+      "clasa": "a XIII-a",
+      "an": 5,
+      "arie": "Om și societate",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Aprofundare pentru bacalaureat: regiunile Europei, analiza comparativă a statelor, harta de examen și metoda de lucru cu datele geografice.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 24,
+      "capitole": [
+        {
+          "id": "geo13-c1",
+          "titlu": "Regiunile Europei",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "geo13-01",
+              "titlu": "Europa Nordică și Europa Vestică"
+            },
+            {
+              "id": "geo13-02",
+              "titlu": "Europa Centrală, Sudică și Estică"
+            },
+            {
+              "id": "geo13-03",
+              "titlu": "România în context regional"
+            }
+          ]
+        },
+        {
+          "id": "geo13-c2",
+          "titlu": "Analiza comparativă și studiile de caz",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "geo13-04",
+              "titlu": "Metoda comparației în geografie"
+            },
+            {
+              "id": "geo13-05",
+              "titlu": "Studii de caz: state europene reprezentative"
+            },
+            {
+              "id": "geo13-06",
+              "titlu": "Mediul și dezvoltarea durabilă în Europa"
+            }
+          ]
+        },
+        {
+          "id": "geo13-c3",
+          "titlu": "Bacalaureatul la geografie",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "geo13-07",
+              "titlu": "Structura probei și harta de examen"
+            },
+            {
+              "id": "geo13-08",
+              "titlu": "Interpretarea graficelor și a tabelelor"
+            },
+            {
+              "id": "geo13-09",
+              "titlu": "Strategii de pregătire și greșeli frecvente"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "comunism-13",
+      "materie": "Istoria comunismului din România",
+      "clasa": "a XIII-a",
+      "an": 5,
+      "arie": "Om și societate",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Instaurarea, funcționarea și prăbușirea regimului comunist din România: represiune, economie, viață cotidiană și memorie.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 18,
+      "capitole": [
+        {
+          "id": "com13-c1",
+          "titlu": "Instaurarea regimului",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "com13-01",
+              "titlu": "Context internațional și preluarea puterii"
+            },
+            {
+              "id": "com13-02",
+              "titlu": "Sovietizarea societății"
+            },
+            {
+              "id": "com13-03",
+              "titlu": "Represiunea: aparat și victime"
+            }
+          ]
+        },
+        {
+          "id": "com13-c2",
+          "titlu": "Regimul în evoluție",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "com13-04",
+              "titlu": "Epoca Dej și destinderea aparentă"
+            },
+            {
+              "id": "com13-05",
+              "titlu": "Ceaușescu: de la deschidere la dictatură personală"
+            },
+            {
+              "id": "com13-06",
+              "titlu": "Economia și criza anilor '80"
+            }
+          ]
+        },
+        {
+          "id": "com13-c3",
+          "titlu": "Viața cotidiană, sfârșitul, memoria",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "com13-07",
+              "titlu": "Viața de zi cu zi"
+            },
+            {
+              "id": "com13-08",
+              "titlu": "Opoziție și prăbușirea regimului"
+            },
+            {
+              "id": "com13-09",
+              "titlu": "Memoria, justiția, lecțiile"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
+        }
+      ]
+    },
+    {
+      "id": "istorie-13",
+      "materie": "Istorie",
+      "clasa": "a XIII-a",
+      "an": 5,
+      "arie": "Om și societate",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Sinteze pentru bacalaureat: ideologii și practici politice, biserică și școală, minorități, plus metoda de lucru cu sursele și eseul istoric.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 24,
+      "capitole": [
+        {
+          "id": "ist13-c1",
+          "titlu": "Oamenii, societatea și lumea ideilor",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ist13-01",
+              "titlu": "Ideologii politice moderne"
+            },
+            {
+              "id": "ist13-02",
+              "titlu": "Practici politice: democrație și totalitarism în Europa"
+            },
+            {
+              "id": "ist13-03",
+              "titlu": "Biserica și școala; diversitatea confesională"
+            }
+          ]
+        },
+        {
+          "id": "ist13-c2",
+          "titlu": "Popoare, migrații, minorități",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ist13-04",
+              "titlu": "Călători străini și imaginea spațiului românesc"
+            },
+            {
+              "id": "ist13-05",
+              "titlu": "Minorități naționale și diversitate în spațiul românesc"
+            }
+          ]
+        },
+        {
+          "id": "ist13-c3",
+          "titlu": "Statul și politica: aprofundări",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ist13-06",
+              "titlu": "Statul român modern: continuitate și ruptură"
+            },
+            {
+              "id": "ist13-07",
+              "titlu": "Represiune și rezistență în comunism"
+            }
+          ]
+        },
+        {
+          "id": "ist13-c4",
+          "titlu": "Metoda istorică și bacalaureatul",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ist13-08",
+              "titlu": "Lucrul cu sursele istorice la examen"
+            },
+            {
+              "id": "ist13-09",
+              "titlu": "Eseul istoric structurat"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "religie-13",
+      "materie": "Religie",
+      "clasa": "a XIII-a",
+      "an": 5,
+      "arie": "Om și societate",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Sinteză: credința în lumea contemporană, spiritualitatea ortodoxă, patrimoniul creștin românesc și alegerile vieții de adult.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 18,
+      "capitole": [
+        {
+          "id": "rel13-c1",
+          "titlu": "Spiritualitatea ortodoxă",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rel13-01",
+              "titlu": "Rugăciunea inimii și isihasmul"
+            },
+            {
+              "id": "rel13-02",
+              "titlu": "Sfinții și modelele de viață"
+            },
+            {
+              "id": "rel13-03",
+              "titlu": "Suferința, moartea, nădejdea"
+            }
+          ]
+        },
+        {
+          "id": "rel13-c2",
+          "titlu": "Patrimoniu și cultură creștină",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rel13-04",
+              "titlu": "Biserica și cultura română"
+            },
+            {
+              "id": "rel13-05",
+              "titlu": "Creștinismul și arta europeană"
+            },
+            {
+              "id": "rel13-06",
+              "titlu": "Ecumenism și relații între confesiuni"
+            }
+          ]
+        },
+        {
+          "id": "rel13-c3",
+          "titlu": "Alegerile vieții de adult",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rel13-07",
+              "titlu": "Vocație, profesie, sens"
+            },
+            {
+              "id": "rel13-08",
+              "titlu": "Adevăr, informație, manipulare"
+            },
+            {
+              "id": "rel13-09",
+              "titlu": "Sinteză: ce rămâne"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
+        }
+      ]
+    },
+    {
+      "id": "studii-sociale-13",
+      "materie": "Studii sociale",
+      "clasa": "a XIII-a",
+      "an": 5,
+      "arie": "Om și societate",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Competențe sociale și civice: democrația în practică, instituțiile statului, media și gândirea critică, proiectul civic.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 24,
+      "capitole": [
+        {
+          "id": "ss13-c1",
+          "titlu": "Democrația în practică",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ss13-01",
+              "titlu": "Statul de drept și separarea puterilor"
+            },
+            {
+              "id": "ss13-02",
+              "titlu": "Instituțiile statului român"
+            },
+            {
+              "id": "ss13-03",
+              "titlu": "Alegeri, partide, societate civilă"
+            }
+          ]
+        },
+        {
+          "id": "ss13-c2",
+          "titlu": "Media, informație, gândire critică",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ss13-04",
+              "titlu": "Mass-media și rolul ei democratic"
+            },
+            {
+              "id": "ss13-05",
+              "titlu": "Dezinformare, verificarea informației"
+            },
+            {
+              "id": "ss13-06",
+              "titlu": "Gândire critică și argumentare publică"
+            }
+          ]
+        },
+        {
+          "id": "ss13-c3",
+          "titlu": "Proiectul civic",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ss13-07",
+              "titlu": "Identificarea unei probleme publice"
+            },
+            {
+              "id": "ss13-08",
+              "titlu": "Planificarea și implementarea unui proiect civic"
+            },
+            {
+              "id": "ss13-09",
+              "titlu": "Evaluare, impact și continuitate"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "engleza-13",
+      "materie": "Limba modernă 1 (Engleză)",
+      "clasa": "a XIII-a",
+      "an": 5,
+      "arie": "Limbă și comunicare",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Recapitulare și consolidare: sistemul verbal, structurile-cheie, erorile tipice ale vorbitorilor de română și simularea probei de competențe.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 24,
+      "capitole": [
+        {
+          "id": "eng13-c1",
+          "titlu": "Recapitularea sistemului verbal",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "eng13-01",
+              "titlu": "Harta timpurilor verbale"
+            },
+            {
+              "id": "eng13-02",
+              "titlu": "Modalitatea și exprimarea probabilității"
+            },
+            {
+              "id": "eng13-03",
+              "titlu": "Erori tipice ale vorbitorilor de română"
+            }
+          ]
+        },
+        {
+          "id": "eng13-c2",
+          "titlu": "Consolidare pe competențe",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "eng13-04",
+              "titlu": "Citit: texte de examen"
+            },
+            {
+              "id": "eng13-05",
+              "titlu": "Scris: sarcinile de examen"
+            },
+            {
+              "id": "eng13-06",
+              "titlu": "Ascultare și vorbire: consolidare"
+            }
+          ]
+        },
+        {
+          "id": "eng13-c3",
+          "titlu": "Simulare și strategie finală",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "eng13-07",
+              "titlu": "Simularea probei complete"
+            },
+            {
+              "id": "eng13-08",
+              "titlu": "Gestionarea timpului și a emoției"
+            },
+            {
+              "id": "eng13-09",
+              "titlu": "Engleza după examen: învățare pe termen lung"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "franceza-13",
+      "materie": "Limba modernă 2 (Franceză)",
+      "clasa": "a XIII-a",
+      "an": 5,
+      "arie": "Limbă și comunicare",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Sinteză și consolidare: recapitularea structurilor, producerea de texte complexe, cultura francofonă și competențele de examen.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 18,
+      "capitole": [
+        {
+          "id": "fra13-c1",
+          "titlu": "Sinteză gramaticală",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fra13-01",
+              "titlu": "Sistemul verbal — recapitulare"
+            },
+            {
+              "id": "fra13-02",
+              "titlu": "Pronume, determinanți, acorduri"
+            },
+            {
+              "id": "fra13-03",
+              "titlu": "Fraza: coordonare și subordonare"
+            }
+          ]
+        },
+        {
+          "id": "fra13-c2",
+          "titlu": "Producerea de texte",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fra13-04",
+              "titlu": "Textul narativ și descriptiv"
+            },
+            {
+              "id": "fra13-05",
+              "titlu": "Textul argumentativ și eseul"
+            },
+            {
+              "id": "fra13-06",
+              "titlu": "Oralul: prezentare și interacțiune"
+            }
+          ]
+        },
+        {
+          "id": "fra13-c3",
+          "titlu": "Cultură și deschideri",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "fra13-07",
+              "titlu": "Spațiul francofon"
+            },
+            {
+              "id": "fra13-08",
+              "titlu": "Limba franceză și România"
+            },
+            {
+              "id": "fra13-09",
+              "titlu": "Sinteză: ce înseamnă să știi o limbă"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
+        }
+      ]
+    },
+    {
+      "id": "romana-13",
+      "materie": "Limba și literatura română",
+      "clasa": "a XIII-a",
+      "an": 5,
+      "arie": "Limbă și comunicare",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Pregătire pentru bacalaureat: structura probei, eseul structurat, caracterizarea, particularitățile textelor, plus limba română aplicată.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 24,
+      "capitole": [
+        {
+          "id": "rom13-c1",
+          "titlu": "Proba de bacalaureat: structură și cerințe",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rom13-01",
+              "titlu": "Structura probei scrise"
+            },
+            {
+              "id": "rom13-02",
+              "titlu": "Subiectul I: lucrul cu textul la prima vedere"
+            }
+          ]
+        },
+        {
+          "id": "rom13-c2",
+          "titlu": "Eseul structurat: tipuri și metodă",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rom13-03",
+              "titlu": "Tema și viziunea despre lume"
+            },
+            {
+              "id": "rom13-04",
+              "titlu": "Caracterizarea personajului și relația dintre personaje"
+            },
+            {
+              "id": "rom13-05",
+              "titlu": "Particularități ale textului narativ, liric și dramatic"
+            }
+          ]
+        },
+        {
+          "id": "rom13-c3",
+          "titlu": "Limba română aplicată",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rom13-06",
+              "titlu": "Norme actuale: ortografie și punctuație"
+            },
+            {
+              "id": "rom13-07",
+              "titlu": "Lexic, semantică și exprimare îngrijită"
+            }
+          ]
+        },
+        {
+          "id": "rom13-c4",
+          "titlu": "Recapitulare pe autori canonici",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rom13-08",
+              "titlu": "Autorii canonici și operele de referință"
+            },
+            {
+              "id": "rom13-09",
+              "titlu": "Strategii de examen și greșeli de evitat"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "bac-13",
+      "materie": "Pregătire pentru bacalaureat (CDEOȘ)",
+      "clasa": "a XIII-a",
+      "an": 5,
+      "arie": "Curriculum la decizia elevului",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Organizarea examenului, planul de învățare, tehnici de memorare și de scriere sub presiune, plus recapitulări încrucișate pe probe.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 36,
+      "nrIntrebariTeze": 24,
+      "capitole": [
+        {
+          "id": "bac13-c1",
+          "titlu": "Examenul: structură și reguli",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "bac13-01",
+              "titlu": "Structura bacalaureatului"
+            },
+            {
+              "id": "bac13-02",
+              "titlu": "Regulament, calendar, contestații"
+            },
+            {
+              "id": "bac13-03",
+              "titlu": "Planul personal de învățare"
+            }
+          ]
+        },
+        {
+          "id": "bac13-c2",
+          "titlu": "Tehnici de învățare și de examen",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "bac13-04",
+              "titlu": "Memorare, organizare, hărți conceptuale"
+            },
+            {
+              "id": "bac13-05",
+              "titlu": "Gestionarea timpului și a emoțiilor în examen"
+            },
+            {
+              "id": "bac13-06",
+              "titlu": "Lucrul cu variantele și autoevaluarea"
+            }
+          ]
+        },
+        {
+          "id": "bac13-c3",
+          "titlu": "Recapitulări încrucișate",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "bac13-07",
+              "titlu": "Repere de istorie pentru proba E.c"
+            },
+            {
+              "id": "bac13-08",
+              "titlu": "Repere pentru proba E.d din aria „Om și societate”"
+            },
+            {
+              "id": "bac13-09",
+              "titlu": "Proba A, B și D: competențele"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
       ]
     }
   ]

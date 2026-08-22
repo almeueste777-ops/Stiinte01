@@ -12,9 +12,13 @@ cssclasses: fisa
 > **Se studiază în:** [[Clasa a IX-a]], [[Clasa a X-a]], [[Clasa a XI-a]], [[Clasa a XII-a]], [[Clasa a XIII-a]]
 > **La bacalaureat:** da 🎓
 
-> [!todo] Fără conținut în aplicație
-> Materia apare în planul-cadru, dar încă nu are lecții în `data/continut.json`.
-> Adaugă un modul acolo și rulează din nou `graphify` ca să apară aici.
+## Anii de studiu
+
+- [[Limba modernă 1 (Engleză) (clasa a IX-a)|Clasa a IX-a]] — 9 lecții, 36 carduri, 60 întrebări
+- [[Limba modernă 1 (Engleză) (clasa a X-a)|Clasa a X-a]] — 9 lecții, 36 carduri, 60 întrebări
+- [[Limba modernă 1 (Engleză) (clasa a XI-a)|Clasa a XI-a]] — 9 lecții, 36 carduri, 60 întrebări
+- [[Limba modernă 1 (Engleză) (clasa a XII-a)|Clasa a XII-a]] — 9 lecții, 36 carduri, 60 întrebări
+- [[Limba modernă 1 (Engleză) (clasa a XIII-a)|Clasa a XIII-a]] — 9 lecții, 36 carduri, 60 întrebări
 
 ## Legături
 - [[00 Start aici]]

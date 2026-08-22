@@ -12,17 +12,9 @@ cssclasses: fisa
 > **Se studiază în:** [[Clasa a XI-a]]
 > **La bacalaureat:** da 🎓
 
-Societatea, grupurile, instituțiile, schimbarea socială.
+## Anii de studiu
 
-## Lecții (3)
-
-- [[Obiectul sociologiei]]
-- [[Grupuri sociale și socializare]]
-- [[Stratificare și mobilitate socială]]
-
-## Exersare
-- [[Carduri - Sociologie]] — 5 carduri
-- [[Test - Sociologie]] — 3 întrebări
+- [[Sociologie (clasa a XI-a)|Clasa a XI-a]] — 14 lecții, 56 carduri, 80 întrebări
 
 ## Legături
 - [[00 Start aici]]

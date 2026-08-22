@@ -1,0 +1,1073 @@
+{
+ "id": "tic-11",
+ "materie": "Tehnologia informației și a comunicațiilor (TIC)",
+ "clasa": "a XI-a",
+ "an": 3,
+ "arie": "Tehnologii",
+ "bac": true,
+ "descriere": "Web, multimedia și proiecte digitale: structura unei pagini, conținut vizual și audio, publicare și management de proiect.",
+ "capitole": [
+  {
+   "id": "tic11-c1",
+   "titlu": "Web: structură și publicare",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "tic11-01",
+     "titlu": "Cum funcționează web-ul",
+     "rezumat": "Web-ul funcționează pe modelul client–server: browserul (clientul) cere o resursă, serverul o trimite. Cererea folosește protocolul HTTP sau HTTPS; adresa (URL) cuprinde protocolul, numele de domeniu, calea și, eventual, parametrii. Numele de domeniu este tradus în adresă IP de sistemul DNS. Găzduirea (hosting) este serviciul care păstrează fișierele site-ului pe un server accesibil permanent. Site-urile pot fi statice (fișiere livrate ca atare) sau dinamice (paginile se generează la cerere, din baze de date). Sistemele de gestionare a conținutului permit administrarea unui site fără scrierea codului. Un site bine făcut este rapid, accesibil, adaptat ecranelor mici și corect indexat de motoarele de căutare.",
+     "ideiCheie": [
+      "Web-ul funcționează pe modelul client–server, prin HTTP/HTTPS.",
+      "URL-ul cuprinde protocolul, domeniul, calea și parametrii.",
+      "Site-uri statice (fișiere livrate ca atare) și dinamice (generate din baze de date).",
+      "Un site bun este rapid, accesibil, adaptat mobilului și indexabil."
+     ],
+     "termeni": [
+      {
+       "t": "URL",
+       "d": "adresa completă a unei resurse pe web"
+      },
+      {
+       "t": "găzduire",
+       "d": "serviciul care păstrează fișierele unui site pe un server accesibil permanent"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce înseamnă modelul client–server?",
+       "v": "Clientul cere o resursă, serverul o furnizează."
+      },
+      {
+       "f": "Ce cuprinde un URL?",
+       "v": "Protocolul, numele de domeniu, calea și eventualii parametri."
+      },
+      {
+       "f": "Ce deosebește un site static de unul dinamic?",
+       "v": "Static livrează fișiere ca atare; dinamic generează paginile la cerere, din baze de date."
+      },
+      {
+       "f": "Ce face găzduirea?",
+       "v": "Păstrează fișierele site-ului pe un server accesibil permanent."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "În modelul client–server, browserul este:",
+       "optiuni": [
+        "clientul",
+        "serverul",
+        "protocolul",
+        "domeniul"
+       ],
+       "corect": 0,
+       "explicatie": "Serverul furnizează resursa cerută."
+      },
+      {
+       "intrebare": "Un site dinamic:",
+       "optiuni": [
+        "generează paginile la cerere, din baze de date",
+        "livrează fișiere neschimbate",
+        "funcționează fără server",
+        "nu poate fi actualizat"
+       ],
+       "corect": 0,
+       "explicatie": "Un magazin online este un exemplu tipic."
+      },
+      {
+       "intrebare": "Numele de domeniu este tradus în adresă IP de:",
+       "optiuni": [
+        "sistemul DNS",
+        "protocolul HTTP",
+        "browser",
+        "serverul de e-mail"
+       ],
+       "corect": 0,
+       "explicatie": "Fără DNS ar trebui memorate adrese numerice."
+      },
+      {
+       "intrebare": "Adaptarea unui site la ecrane mici este importantă deoarece:",
+       "optiuni": [
+        "majoritatea accesărilor se fac de pe dispozitive mobile",
+        "serverele o cer",
+        "reduce costurile de găzduire",
+        "crește securitatea"
+       ],
+       "corect": 0,
+       "explicatie": "Un site neadaptat pierde majoritatea vizitatorilor."
+      }
+     ]
+    },
+    {
+     "id": "tic11-02",
+     "titlu": "Structura unei pagini: conținut, prezentare, comportament",
+     "rezumat": "O pagină web are trei straturi separate. Structura și conținutul sunt date de limbajul de marcare (HTML), care descrie ce este fiecare element: titlu, paragraf, listă, imagine, link, tabel, formular. Prezentarea este dată de foile de stil (CSS): culori, dimensiuni, așezare, spațiere, comportament la ecrane diferite. Comportamentul este dat de limbajul de scriptare (JavaScript): reacții la acțiunile utilizatorului, validări, conținut care se schimbă fără reîncărcarea paginii. Separarea celor trei straturi este principiul de bază: același conținut poate primi altă prezentare, iar modificarea aspectului nu strică sensul. Marcarea semantică — folosirea elementelor potrivite pentru rolul lor, nu pentru cum arată — face pagina inteligibilă pentru motoarele de căutare și pentru tehnologiile de asistență folosite de persoanele cu dizabilități.",
+     "ideiCheie": [
+      "Trei straturi: conținut (HTML), prezentare (CSS), comportament (JavaScript).",
+      "Separarea straturilor permite schimbarea aspectului fără a strica sensul.",
+      "Marcarea semantică folosește elementele pentru rolul lor, nu pentru aspect.",
+      "Semantica ajută motoarele de căutare și tehnologiile de asistență."
+     ],
+     "termeni": [
+      {
+       "t": "marcare semantică",
+       "d": "folosirea elementelor de structură potrivit rolului lor, nu aspectului dorit"
+      },
+      {
+       "t": "foaie de stil",
+       "d": "fișier care descrie prezentarea vizuală a unei pagini web"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt cele trei straturi ale unei pagini web?",
+       "v": "Conținutul (HTML), prezentarea (CSS) și comportamentul (JavaScript)."
+      },
+      {
+       "f": "Ce este marcarea semantică?",
+       "v": "Folosirea elementelor potrivit rolului lor, nu aspectului dorit."
+      },
+      {
+       "f": "De ce contează separarea straturilor?",
+       "v": "Pentru că permite schimbarea aspectului fără a afecta conținutul."
+      },
+      {
+       "f": "Cine beneficiază de marcarea semantică?",
+       "v": "Motoarele de căutare și tehnologiile de asistență ale persoanelor cu dizabilități."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Culorile și așezarea elementelor unei pagini se stabilesc prin:",
+       "optiuni": [
+        "foile de stil",
+        "limbajul de marcare",
+        "limbajul de scriptare",
+        "protocolul HTTP"
+       ],
+       "corect": 0,
+       "explicatie": "HTML descrie structura, nu aspectul."
+      },
+      {
+       "intrebare": "Marcarea semantică înseamnă:",
+       "optiuni": [
+        "folosirea elementului potrivit rolului conținutului",
+        "folosirea celui mai scurt element",
+        "evitarea foilor de stil",
+        "reducerea numărului de etichete"
+       ],
+       "corect": 0,
+       "explicatie": "Un titlu se marchează ca titlu, nu ca text îngroșat."
+      },
+      {
+       "intrebare": "Validarea unui formular în pagină, fără reîncărcare, se face prin:",
+       "optiuni": [
+        "limbajul de scriptare",
+        "limbajul de marcare",
+        "foaia de stil",
+        "protocolul HTTP"
+       ],
+       "corect": 0,
+       "explicatie": "JavaScript adaugă comportament paginii."
+      },
+      {
+       "intrebare": "Separarea conținutului de prezentare permite:",
+       "optiuni": [
+        "schimbarea aspectului fără modificarea conținutului",
+        "reducerea numărului de fișiere",
+        "creșterea securității",
+        "eliminarea nevoii de server"
+       ],
+       "corect": 0,
+       "explicatie": "Este principiul de bază al web-ului modern."
+      }
+     ]
+    },
+    {
+     "id": "tic11-03",
+     "titlu": "Accesibilitate, optimizare, publicare",
+     "rezumat": "Accesibilitatea web înseamnă că paginile pot fi folosite și de persoane cu deficiențe de vedere, de auz, motorii sau cognitive. Cerințe practice: text alternativ pentru imagini, contrast suficient între text și fundal, navigare completă de la tastatură, structură de titluri corectă, subtitrări pentru materialele video, formulare cu etichete asociate. Aceleași măsuri îmbunătățesc experiența tuturor utilizatorilor. Optimizarea privește viteza (imagini comprimate, cod redus, resurse încărcate la nevoie) și vizibilitatea în motoarele de căutare: titluri descriptive, adrese lizibile, conținut util și original, structură clară, legături relevante. Publicarea presupune alegerea unui nume de domeniu, a unui serviciu de găzduire, transferul fișierelor, configurarea certificatului de securitate și, ulterior, actualizarea periodică — un site nemodificat ani la rând pierde atât vizitatori, cât și securitate.",
+     "ideiCheie": [
+      "Accesibilitatea: text alternativ, contrast, navigare de la tastatură, subtitrări, etichete.",
+      "Măsurile de accesibilitate îmbunătățesc experiența tuturor utilizatorilor.",
+      "Optimizarea privește viteza și vizibilitatea în motoarele de căutare.",
+      "Publicarea cere domeniu, găzduire, certificat de securitate și actualizări periodice."
+     ],
+     "termeni": [
+      {
+       "t": "text alternativ",
+       "d": "descrierea unei imagini, citită de tehnologiile de asistență"
+      },
+      {
+       "t": "certificat de securitate",
+       "d": "document digital care permite conexiunea criptată prin HTTPS"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este textul alternativ al unei imagini?",
+       "v": "Descrierea citită de tehnologiile de asistență pentru cei care nu văd imaginea."
+      },
+      {
+       "f": "Ce cerințe de accesibilitate sunt esențiale?",
+       "v": "Text alternativ, contrast suficient, navigare de la tastatură, subtitrări, etichete la formulare."
+      },
+      {
+       "f": "Ce presupune optimizarea unui site?",
+       "v": "Viteză (imagini comprimate, cod redus) și vizibilitate în motoarele de căutare."
+      },
+      {
+       "f": "De ce trebuie actualizat periodic un site?",
+       "v": "Pentru că pierde altfel vizitatori și devine vulnerabil din punct de vedere al securității."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Textul alternativ al unei imagini este util în primul rând pentru:",
+       "optiuni": [
+        "persoanele care folosesc cititoare de ecran",
+        "reducerea dimensiunii imaginii",
+        "creșterea vitezei de încărcare",
+        "protejarea drepturilor de autor"
+       ],
+       "corect": 0,
+       "explicatie": "El este citit atunci când imaginea nu poate fi văzută."
+      },
+      {
+       "intrebare": "Navigarea completă de la tastatură este necesară pentru:",
+       "optiuni": [
+        "utilizatorii care nu pot folosi mouse-ul",
+        "creșterea vitezei site-ului",
+        "optimizarea în căutări",
+        "reducerea codului"
+       ],
+       "corect": 0,
+       "explicatie": "Este o cerință fundamentală de accesibilitate."
+      },
+      {
+       "intrebare": "Un contrast insuficient între text și fundal:",
+       "optiuni": [
+        "face textul greu de citit pentru mulți utilizatori",
+        "crește eleganța paginii",
+        "nu afectează accesibilitatea",
+        "este recomandat pentru mobil"
+       ],
+       "corect": 0,
+       "explicatie": "Există praguri minime recomandate de standarde."
+      },
+      {
+       "intrebare": "Certificatul de securitate al unui site permite:",
+       "optiuni": [
+        "conexiunea criptată prin HTTPS",
+        "indexarea în motoarele de căutare",
+        "găzduirea gratuită",
+        "accesul de pe mobil"
+       ],
+       "corect": 0,
+       "explicatie": "Fără el, browserele avertizează utilizatorii."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tic11-c2",
+   "titlu": "Multimedia",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "tic11-04",
+     "titlu": "Sunet digital",
+     "rezumat": "Sunetul analogic devine digital prin eșantionare (măsurarea semnalului la intervale regulate) și cuantizare (aproximarea fiecărei valori). Frecvența de eșantionare (de exemplu 44,1 kHz) și adâncimea de biți (16 sau 24) determină fidelitatea. Formate: necomprimate (WAV), comprimate cu pierdere (MP3, AAC), comprimate fără pierdere (FLAC). Operațiile de bază: înregistrare, decupare, normalizare a volumului, eliminarea zgomotului de fond, aplicarea de efecte, mixarea mai multor piste. Pentru înregistrări de calitate contează mai mult condițiile decât echipamentul: o cameră liniștită, microfonul aproape de sursă și evitarea suprasaturării semnalului produc rezultate mai bune decât un microfon scump folosit prost.",
+     "ideiCheie": [
+      "Digitalizarea sunetului: eșantionare și cuantizare.",
+      "Fidelitatea depinde de frecvența de eșantionare și de adâncimea de biți.",
+      "Formate: WAV (necomprimat), MP3 și AAC (cu pierdere), FLAC (fără pierdere).",
+      "Condițiile de înregistrare contează mai mult decât echipamentul scump."
+     ],
+     "termeni": [
+      {
+       "t": "eșantionare",
+       "d": "măsurarea semnalului analogic la intervale regulate de timp"
+      },
+      {
+       "t": "normalizare a volumului",
+       "d": "ajustarea nivelului semnalului la o valoare de referință"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este eșantionarea?",
+       "v": "Măsurarea semnalului analogic la intervale regulate de timp."
+      },
+      {
+       "f": "De ce depinde fidelitatea unei înregistrări digitale?",
+       "v": "De frecvența de eșantionare și de adâncimea de biți."
+      },
+      {
+       "f": "Ce format audio este comprimat fără pierdere?",
+       "v": "FLAC."
+      },
+      {
+       "f": "Ce contează cel mai mult pentru o înregistrare bună?",
+       "v": "Condițiile: cameră liniștită, microfon aproape de sursă, evitarea suprasaturării."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Formatul MP3 folosește:",
+       "optiuni": [
+        "comprimare cu pierdere",
+        "comprimare fără pierdere",
+        "format necomprimat",
+        "codare vectorială"
+       ],
+       "corect": 0,
+       "explicatie": "FLAC comprimă fără pierdere."
+      },
+      {
+       "intrebare": "Frecvența de eșantionare de 44,1 kHz înseamnă:",
+       "optiuni": [
+        "44 100 de măsurători pe secundă",
+        "44 de biți pe eșantion",
+        "44 100 de biți pe secundă",
+        "44 de secunde de înregistrare"
+       ],
+       "corect": 0,
+       "explicatie": "Ea determină banda de frecvențe redată."
+      },
+      {
+       "intrebare": "Suprasaturarea semnalului la înregistrare produce:",
+       "optiuni": [
+        "distorsiune ireversibilă",
+        "volum mai mare, fără efecte",
+        "reducerea zgomotului",
+        "creșterea fidelității"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea se lasă o rezervă de nivel."
+      },
+      {
+       "intrebare": "Normalizarea volumului:",
+       "optiuni": [
+        "aduce nivelul semnalului la o valoare de referință",
+        "elimină zgomotul",
+        "taie frecvențele înalte",
+        "comprimă fișierul"
+       ],
+       "corect": 0,
+       "explicatie": "Ea uniformizează volumul între înregistrări diferite."
+      }
+     ]
+    },
+    {
+     "id": "tic11-05",
+     "titlu": "Imagine în mișcare și montaj",
+     "rezumat": "Un material video este o succesiune de cadre; numărul de cadre pe secundă determină fluiditatea mișcării. Rezoluția (numărul de pixeli) și rata de biți determină calitatea și dimensiunea fișierului. Formate uzuale: MP4 cu codec H.264 sau H.265, WebM. Codecul comprimă și decomprimă; containerul (formatul de fișier) împachetează imaginea, sunetul și subtitrările. Montajul urmează o logică simplă: se stabilește mesajul, se scrie un scenariu sau o listă de secvențe, se selectează cadrele bune, se taie tot ce nu servește mesajului, se adaugă sunet, titluri și tranziții discrete. Regulile practice: tranzițiile complicate distrag; sunetul prost strică un material altfel bun, mai mult decât imaginea mediocră; durata scurtă și ritmul constant țin atenția. Subtitrările sunt obligatorii pentru accesibilitate și utile pentru vizionarea fără sunet.",
+     "ideiCheie": [
+      "Cadre pe secundă, rezoluție și rată de biți determină calitatea și dimensiunea.",
+      "Codecul comprimă; containerul împachetează imaginea, sunetul și subtitrările.",
+      "Montajul: mesaj, scenariu, selecție, tăiere, sunet, titluri, tranziții discrete.",
+      "Sunetul prost strică un material mai mult decât imaginea mediocră."
+     ],
+     "termeni": [
+      {
+       "t": "codec",
+       "d": "algoritm de comprimare și decomprimare a imaginii sau a sunetului"
+      },
+      {
+       "t": "container",
+       "d": "format de fișier care împachetează fluxurile video, audio și de subtitrare"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este un codec?",
+       "v": "Algoritmul care comprimă și decomprimă imaginea sau sunetul."
+      },
+      {
+       "f": "Ce diferență e între codec și container?",
+       "v": "Codecul comprimă fluxurile; containerul le împachetează într-un fișier."
+      },
+      {
+       "f": "Ce determină fluiditatea mișcării într-un video?",
+       "v": "Numărul de cadre pe secundă."
+      },
+      {
+       "f": "De ce sunt importante subtitrările?",
+       "v": "Pentru accesibilitate și pentru vizionarea fără sunet."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Într-un fișier video, MP4 este:",
+       "optiuni": [
+        "containerul",
+        "codecul",
+        "rezoluția",
+        "rata de biți"
+       ],
+       "corect": 0,
+       "explicatie": "H.264 și H.265 sunt codecuri."
+      },
+      {
+       "intrebare": "Într-un material video, un sunet de proastă calitate:",
+       "optiuni": [
+        "afectează percepția mai mult decât o imagine mediocră",
+        "nu contează",
+        "se corectează automat",
+        "crește dimensiunea fișierului"
+       ],
+       "corect": 0,
+       "explicatie": "Spectatorii tolerează mai ușor imaginea slabă decât sunetul prost."
+      },
+      {
+       "intrebare": "Tranzițiile complicate între cadre:",
+       "optiuni": [
+        "distrag atenția de la mesaj",
+        "cresc profesionalismul",
+        "reduc dimensiunea fișierului",
+        "sunt obligatorii"
+       ],
+       "corect": 0,
+       "explicatie": "Tăietura simplă este, de regulă, cea mai bună alegere."
+      },
+      {
+       "intrebare": "Rata de biți influențează:",
+       "optiuni": [
+        "calitatea imaginii și dimensiunea fișierului",
+        "numărul de cadre pe secundă",
+        "durata materialului",
+        "formatul containerului"
+       ],
+       "corect": 0,
+       "explicatie": "O rată prea mică produce artefacte vizibile."
+      }
+     ]
+    },
+    {
+     "id": "tic11-06",
+     "titlu": "Design vizual pentru materiale digitale",
+     "rezumat": "Principiile designului vizual se aplică oricărui material: afiș, prezentare, pagină, postare. Ierarhia vizuală ghidează privirea: elementul cel mai important trebuie să fie cel mai vizibil, prin dimensiune, contrast sau poziție. Alinierea creează ordine; gruparea elementelor înrudite arată relația dintre ele; spațiul liber nu este spațiu pierdut, ci element de compoziție care face conținutul lizibil. Culoarea se folosește cu economie: o culoare dominantă, una de accent și neutre. Contrastul dintre text și fundal trebuie să respecte praguri minime, altfel textul devine inaccesibil. Tipografia: maximum două familii de litere, dimensiuni clar diferite pentru niveluri diferite, rânduri de lungime rezonabilă. Consecvența — aceleași reguli aplicate peste tot — este ceea ce face diferența dintre un material amator și unul profesionist.",
+     "ideiCheie": [
+      "Ierarhia vizuală ghidează privirea spre elementul important.",
+      "Alinierea, gruparea și spațiul liber structurează compoziția.",
+      "Culoare: o dominantă, un accent, neutre; contrast suficient pentru text.",
+      "Consecvența separă materialul profesionist de cel amator."
+     ],
+     "termeni": [
+      {
+       "t": "ierarhie vizuală",
+       "d": "organizarea elementelor astfel încât importanța lor să fie evidentă la prima privire"
+      },
+      {
+       "t": "spațiu liber",
+       "d": "zona necompletată dintr-o compoziție, care structurează și ușurează lectura"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce face ierarhia vizuală?",
+       "v": "Ghidează privirea spre elementul cel mai important."
+      },
+      {
+       "f": "De ce este util spațiul liber?",
+       "v": "Pentru că structurează compoziția și face conținutul lizibil."
+      },
+      {
+       "f": "Câte familii de litere se folosesc, de regulă, într-un material?",
+       "v": "Cel mult două."
+      },
+      {
+       "f": "Ce separă un material profesionist de unul amator?",
+       "v": "Consecvența aplicării acelorași reguli în tot materialul."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Spațiul liber dintr-o compoziție este:",
+       "optiuni": [
+        "un element activ de structurare",
+        "spațiu pierdut",
+        "semn de conținut insuficient",
+        "de evitat"
+       ],
+       "corect": 0,
+       "explicatie": "El face conținutul lizibil și ordonat."
+      },
+      {
+       "intrebare": "Folosirea a cinci familii de litere într-un afiș:",
+       "optiuni": [
+        "produce dezordine vizuală",
+        "arată creativitate",
+        "îmbunătățește lizibilitatea",
+        "este recomandată"
+       ],
+       "corect": 0,
+       "explicatie": "Regula practică este maximum două."
+      },
+      {
+       "intrebare": "Ierarhia vizuală se obține prin:",
+       "optiuni": [
+        "dimensiune, contrast și poziție",
+        "numărul de culori",
+        "cantitatea de text",
+        "tipul de fișier"
+       ],
+       "corect": 0,
+       "explicatie": "Elementul important trebuie să fie cel mai vizibil."
+      },
+      {
+       "intrebare": "Contrastul insuficient dintre text și fundal:",
+       "optiuni": [
+        "face textul inaccesibil pentru mulți utilizatori",
+        "este o alegere estetică neutră",
+        "crește eleganța",
+        "nu are efecte"
+       ],
+       "corect": 0,
+       "explicatie": "Există praguri minime recomandate."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tic11-c3",
+   "titlu": "Proiecte digitale",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "tic11-07",
+     "titlu": "Planificarea unui proiect digital",
+     "rezumat": "Un proiect digital pornește de la definirea clară a produsului: ce este, pentru cine, ce problemă rezolvă, cum se va ști dacă a reușit. Urmează stabilirea cerințelor (ce trebuie să facă), a resurselor, a calendarului și a rolurilor în echipă. Împărțirea muncii pe sarcini mici, cu responsabil și termen, este singura care produce progres verificabil. Instrumentele de organizare: lista de sarcini cu stări (de făcut, în lucru, gata), calendarul partajat, documentele colaborative, sistemul de versionare pentru cod. Riscurile tipice: cerințe care se schimbă permanent, subestimarea timpului, dependența de o singură persoană, lipsa unui punct de verificare intermediar. Antidotul este livrarea în etape: o versiune minimă funcțională, testată, urmată de îmbunătățiri, în locul unui produs perfect promis pentru final.",
+     "ideiCheie": [
+      "Se definesc produsul, publicul, problema rezolvată și criteriul de succes.",
+      "Sarcini mici, cu responsabil și termen, produc progres verificabil.",
+      "Riscuri: cerințe schimbătoare, subestimarea timpului, dependența de o persoană.",
+      "Livrarea în etape, cu o versiune minimă funcțională, reduce riscul."
+     ],
+     "termeni": [
+      {
+       "t": "versiune minimă funcțională",
+       "d": "cea mai simplă variantă a produsului care rezolvă deja problema"
+      },
+      {
+       "t": "sistem de versionare",
+       "d": "instrument care păstrează istoricul modificărilor unui proiect"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce trebuie definit la începutul unui proiect digital?",
+       "v": "Produsul, publicul, problema rezolvată și criteriul de succes."
+      },
+      {
+       "f": "Ce este o versiune minimă funcțională?",
+       "v": "Cea mai simplă variantă care rezolvă deja problema și poate fi testată."
+      },
+      {
+       "f": "Care sunt riscurile tipice ale unui proiect?",
+       "v": "Cerințe schimbătoare, subestimarea timpului, dependența de o persoană, lipsa verificărilor intermediare."
+      },
+      {
+       "f": "La ce servește un sistem de versionare?",
+       "v": "La păstrarea istoricului modificărilor și la lucrul în echipă fără pierderi."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Împărțirea muncii pe sarcini mici, cu responsabil și termen:",
+       "optiuni": [
+        "face progresul verificabil",
+        "complică proiectul",
+        "încetinește echipa",
+        "este necesară doar la proiecte mari"
+       ],
+       "corect": 0,
+       "explicatie": "Fără ea, întârzierile se descoperă prea târziu."
+      },
+      {
+       "intrebare": "Livrarea în etape reduce riscul deoarece:",
+       "optiuni": [
+        "permite testarea și corectarea din mers",
+        "scurtează proiectul",
+        "elimină cerințele",
+        "reduce costurile de personal"
+       ],
+       "corect": 0,
+       "explicatie": "Un produs testat devreme evită erorile costisitoare."
+      },
+      {
+       "intrebare": "Dependența de o singură persoană într-un proiect este:",
+       "optiuni": [
+        "un risc major",
+        "o garanție de calitate",
+        "un avantaj de coordonare",
+        "irelevantă"
+       ],
+       "corect": 0,
+       "explicatie": "Indisponibilitatea ei blochează întregul proiect."
+      },
+      {
+       "intrebare": "Sistemul de versionare este util pentru că:",
+       "optiuni": [
+        "păstrează istoricul și permite revenirea la variante anterioare",
+        "comprimă fișierele",
+        "publică automat proiectul",
+        "generează documentația"
+       ],
+       "corect": 0,
+       "explicatie": "El face posibil lucrul simultan al mai multor persoane."
+      }
+     ]
+    },
+    {
+     "id": "tic11-08",
+     "titlu": "Testare, feedback, îmbunătățire",
+     "rezumat": "Testarea unui produs digital verifică dacă face ce trebuie și dacă poate fi folosit. Testarea funcțională verifică cerințele; testarea de utilizabilitate verifică dacă un utilizator real reușește să ducă la capăt sarcinile, fără explicații suplimentare. Cinci utilizatori observați atent descoperă majoritatea problemelor majore de utilizabilitate. Regula testării cu utilizatori: se observă ce fac, nu se ascultă ce spun că ar face; nu se explică și nu se ajută în timpul testului, fiindcă produsul trebuie să funcționeze fără autor lângă utilizator. Feedbackul se colectează structurat, se grupează pe teme și se prioritizează după impact și efort. Nu toate sugestiile se implementează: un produs care încearcă să mulțumească pe toată lumea își pierde coerența.",
+     "ideiCheie": [
+      "Testarea funcțională verifică cerințele; cea de utilizabilitate, folosirea reală.",
+      "Cinci utilizatori observați descoperă majoritatea problemelor majore.",
+      "Se observă ce fac utilizatorii, nu ce spun că ar face.",
+      "Feedbackul se prioritizează după impact și efort; nu tot se implementează."
+     ],
+     "termeni": [
+      {
+       "t": "testare de utilizabilitate",
+       "d": "verificarea faptului că utilizatorii reali pot duce la capăt sarcinile"
+      },
+      {
+       "t": "prioritizare",
+       "d": "ordonarea îmbunătățirilor după impact și efortul necesar"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce verifică testarea de utilizabilitate?",
+       "v": "Dacă utilizatorii reali reușesc să ducă la capăt sarcinile fără explicații."
+      },
+      {
+       "f": "Câți utilizatori sunt, de regulă, suficienți pentru a descoperi problemele majore?",
+       "v": "Aproximativ cinci, observați atent."
+      },
+      {
+       "f": "De ce nu se ajută utilizatorul în timpul testului?",
+       "v": "Pentru că produsul trebuie să funcționeze fără autor lângă utilizator."
+      },
+      {
+       "f": "Cum se prioritizează feedbackul?",
+       "v": "După impactul asupra utilizatorilor și efortul necesar implementării."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "În testarea cu utilizatori se urmărește:",
+       "optiuni": [
+        "ce fac efectiv utilizatorii",
+        "ce declară că le place",
+        "opinia echipei",
+        "numărul de sugestii"
+       ],
+       "corect": 0,
+       "explicatie": "Comportamentul observat e mai fiabil decât declarațiile."
+      },
+      {
+       "intrebare": "Implementarea tuturor sugestiilor primite:",
+       "optiuni": [
+        "duce la pierderea coerenței produsului",
+        "garantează succesul",
+        "este obligatorie",
+        "reduce timpul de dezvoltare"
+       ],
+       "corect": 0,
+       "explicatie": "Prioritizarea este parte din decizia de produs."
+      },
+      {
+       "intrebare": "Testarea funcțională verifică:",
+       "optiuni": [
+        "dacă produsul îndeplinește cerințele stabilite",
+        "dacă utilizatorii îl înțeleg",
+        "dacă aspectul este plăcut",
+        "dacă se încarcă rapid"
+       ],
+       "corect": 0,
+       "explicatie": "Utilizabilitatea este o dimensiune distinctă."
+      },
+      {
+       "intrebare": "Explicarea interfeței în timpul testului cu utilizatori:",
+       "optiuni": [
+        "invalidează rezultatul testului",
+        "îmbunătățește feedbackul",
+        "este necesară",
+        "economisește timp"
+       ],
+       "corect": 0,
+       "explicatie": "Utilizatorul real nu are pe cine întreba."
+      }
+     ]
+    },
+    {
+     "id": "tic11-09",
+     "titlu": "Prezentarea și documentarea unui produs digital",
+     "rezumat": "Un produs digital nu se termină cu funcționarea lui: trebuie să poată fi înțeles, folosit și continuat de altcineva. Documentația minimă cuprinde: scopul produsului, publicul, instrucțiunile de instalare și de folosire, structura fișierelor, deciziile importante și limitele cunoscute. O documentație scurtă și exactă este mai valoroasă decât una lungă și vagă. Prezentarea publică a proiectului urmează o structură eficientă: problema (de ce contează), soluția (ce ați făcut), demonstrația (arătați, nu descrieți), rezultatele (ce s-a schimbat, cu date), lecțiile învățate și pașii următori. Demonstrația live este cea mai convingătoare, dar trebuie pregătită cu o variantă de rezervă — o înregistrare — pentru cazul în care ceva nu funcționează. Menționarea limitelor și a lucrurilor care nu au mers întărește credibilitatea, nu o slăbește.",
+     "ideiCheie": [
+      "Documentația minimă: scop, public, instalare, folosire, structură, decizii, limite.",
+      "O documentație scurtă și exactă bate una lungă și vagă.",
+      "Prezentarea: problemă, soluție, demonstrație, rezultate, lecții, pași următori.",
+      "Demonstrația live are nevoie de o variantă de rezervă înregistrată."
+     ],
+     "termeni": [
+      {
+       "t": "documentație",
+       "d": "ansamblul explicațiilor care permit altcuiva să înțeleagă și să folosească produsul"
+      },
+      {
+       "t": "limite cunoscute",
+       "d": "problemele identificate și nerezolvate, menționate explicit în documentație"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce cuprinde documentația minimă a unui produs digital?",
+       "v": "Scopul, publicul, instalarea, folosirea, structura, deciziile importante și limitele cunoscute."
+      },
+      {
+       "f": "Cum se structurează o prezentare de proiect?",
+       "v": "Problemă, soluție, demonstrație, rezultate, lecții învățate, pași următori."
+      },
+      {
+       "f": "De ce se pregătește o variantă de rezervă pentru demonstrație?",
+       "v": "Pentru cazul în care demonstrația live nu funcționează."
+      },
+      {
+       "f": "De ce se menționează limitele cunoscute?",
+       "v": "Pentru că întăresc credibilitatea și ajută pe cine continuă proiectul."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "O documentație bună este:",
+       "optiuni": [
+        "scurtă și exactă",
+        "lungă și detaliată la maximum",
+        "opțională",
+        "scrisă doar pentru autor"
+       ],
+       "corect": 0,
+       "explicatie": "Ea trebuie să permită altcuiva să folosească produsul."
+      },
+      {
+       "intrebare": "Într-o prezentare de proiect, demonstrația:",
+       "optiuni": [
+        "este mai convingătoare decât descrierea",
+        "poate fi omisă",
+        "înlocuiește rezultatele",
+        "se face la final, dacă rămâne timp"
+       ],
+       "corect": 0,
+       "explicatie": "„Arată, nu descrie” este regula practică."
+      },
+      {
+       "intrebare": "Menționarea a ceea ce nu a funcționat:",
+       "optiuni": [
+        "întărește credibilitatea prezentării",
+        "o slăbește",
+        "trebuie evitată",
+        "se face doar la cerere"
+       ],
+       "corect": 0,
+       "explicatie": "Ea arată capacitatea de evaluare critică."
+      },
+      {
+       "intrebare": "Structura fișierelor este inclusă în documentație pentru că:",
+       "optiuni": [
+        "permite altcuiva să continue proiectul",
+        "reduce dimensiunea produsului",
+        "crește viteza",
+        "este cerută de lege"
+       ],
+       "corect": 0,
+       "explicatie": "Continuitatea depinde de claritatea organizării."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "teze": [
+  {
+   "semestru": 1,
+   "test": [
+    {
+     "intrebare": "În modelul client–server, browserul este:",
+     "optiuni": [
+      "clientul",
+      "serverul",
+      "protocolul",
+      "containerul"
+     ],
+     "corect": 0,
+     "explicatie": "Serverul furnizează resursa cerută."
+    },
+    {
+     "intrebare": "Sistemul DNS are rolul de a:",
+     "optiuni": [
+      "traduce numele de domenii în adrese IP",
+      "criptează traficul",
+      "găzduiește site-uri",
+      "comprimă imaginile"
+     ],
+     "corect": 0,
+     "explicatie": "Fără el ar trebui memorate adrese numerice."
+    },
+    {
+     "intrebare": "Un site dinamic:",
+     "optiuni": [
+      "generează paginile la cerere",
+      "livrează fișiere neschimbate",
+      "funcționează fără server",
+      "nu are baze de date"
+     ],
+     "corect": 0,
+     "explicatie": "Magazinele online sunt exemple tipice."
+    },
+    {
+     "intrebare": "Prezentarea vizuală a unei pagini se stabilește prin:",
+     "optiuni": [
+      "foile de stil",
+      "limbajul de marcare",
+      "limbajul de scriptare",
+      "protocolul de transfer"
+     ],
+     "corect": 0,
+     "explicatie": "HTML descrie structura."
+    },
+    {
+     "intrebare": "Marcarea semantică înseamnă:",
+     "optiuni": [
+      "folosirea elementului potrivit rolului conținutului",
+      "reducerea numărului de etichete",
+      "evitarea foilor de stil",
+      "folosirea elementelor scurte"
+     ],
+     "corect": 0,
+     "explicatie": "Ea ajută motoarele de căutare și cititoarele de ecran."
+    },
+    {
+     "intrebare": "Textul alternativ al imaginilor este necesar pentru:",
+     "optiuni": [
+      "accesibilitate",
+      "comprimarea imaginii",
+      "indexarea automată a fișierelor",
+      "protejarea drepturilor de autor"
+     ],
+     "corect": 0,
+     "explicatie": "El este citit de cititoarele de ecran."
+    },
+    {
+     "intrebare": "Certificatul de securitate permite:",
+     "optiuni": [
+      "conexiunea criptată prin HTTPS",
+      "găzduirea gratuită",
+      "indexarea rapidă",
+      "accesul de pe mobil"
+     ],
+     "corect": 0,
+     "explicatie": "Fără el, browserele avertizează utilizatorii."
+    },
+    {
+     "intrebare": "Eșantionarea este:",
+     "optiuni": [
+      "măsurarea semnalului la intervale regulate",
+      "comprimarea fișierului",
+      "eliminarea zgomotului",
+      "normalizarea volumului"
+     ],
+     "corect": 0,
+     "explicatie": "Împreună cu cuantizarea, produce sunetul digital."
+    },
+    {
+     "intrebare": "MP3 folosește:",
+     "optiuni": [
+      "comprimare cu pierdere",
+      "comprimare fără pierdere",
+      "format necomprimat",
+      "codare vectorială"
+     ],
+     "corect": 0,
+     "explicatie": "FLAC comprimă fără pierdere."
+    },
+    {
+     "intrebare": "Suprasaturarea semnalului audio produce:",
+     "optiuni": [
+      "distorsiune ireversibilă",
+      "volum mai mare, curat",
+      "reducerea zgomotului",
+      "creșterea fidelității"
+     ],
+     "corect": 0,
+     "explicatie": "De aceea se lasă rezervă de nivel la înregistrare."
+    },
+    {
+     "intrebare": "MP4 este:",
+     "optiuni": [
+      "un container",
+      "un codec",
+      "o rezoluție",
+      "o rată de biți"
+     ],
+     "corect": 0,
+     "explicatie": "H.264 este un codec."
+    },
+    {
+     "intrebare": "Într-un material video, sunetul prost:",
+     "optiuni": [
+      "deranjează mai mult decât imaginea mediocră",
+      "nu contează",
+      "se corectează automat",
+      "crește dimensiunea fișierului"
+     ],
+     "corect": 0,
+     "explicatie": "Spectatorii abandonează mai repede din cauza sunetului."
+    }
+   ]
+  },
+  {
+   "semestru": 2,
+   "test": [
+    {
+     "intrebare": "Ierarhia vizuală se realizează prin:",
+     "optiuni": [
+      "dimensiune, contrast și poziție",
+      "numărul de culori",
+      "cantitatea de text",
+      "tipul de fișier"
+     ],
+     "corect": 0,
+     "explicatie": "Elementul important trebuie să fie cel mai vizibil."
+    },
+    {
+     "intrebare": "Spațiul liber într-o compoziție:",
+     "optiuni": [
+      "structurează și ușurează lectura",
+      "este spațiu pierdut",
+      "trebuie umplut",
+      "indică lipsa de conținut"
+     ],
+     "corect": 0,
+     "explicatie": "El este un element activ de design."
+    },
+    {
+     "intrebare": "Regula practică pentru familiile de litere într-un material este:",
+     "optiuni": [
+      "cel mult două",
+      "cel puțin cinci",
+      "una singură, obligatoriu",
+      "oricâte, pentru diversitate"
+     ],
+     "corect": 0,
+     "explicatie": "Prea multe produc dezordine vizuală."
+    },
+    {
+     "intrebare": "Un proiect digital începe cu:",
+     "optiuni": [
+      "definirea produsului, a publicului și a criteriului de succes",
+      "alegerea tehnologiei",
+      "stabilirea bugetului",
+      "crearea siglei"
+     ],
+     "corect": 0,
+     "explicatie": "Fără criteriu de succes nu se poate evalua rezultatul."
+    },
+    {
+     "intrebare": "Versiunea minimă funcțională este:",
+     "optiuni": [
+      "cea mai simplă variantă care rezolvă deja problema",
+      "prototipul nefuncțional",
+      "versiunea finală",
+      "documentația"
+     ],
+     "corect": 0,
+     "explicatie": "Ea permite testarea timpurie."
+    },
+    {
+     "intrebare": "Dependența de o singură persoană într-un proiect:",
+     "optiuni": [
+      "este un risc major",
+      "garantează coerența",
+      "ușurează coordonarea",
+      "nu contează"
+     ],
+     "corect": 0,
+     "explicatie": "Indisponibilitatea ei blochează proiectul."
+    },
+    {
+     "intrebare": "Sistemul de versionare:",
+     "optiuni": [
+      "păstrează istoricul și permite revenirea la variante anterioare",
+      "comprimă fișierele",
+      "publică proiectul",
+      "testează produsul"
+     ],
+     "corect": 0,
+     "explicatie": "El face posibil lucrul simultan în echipă."
+    },
+    {
+     "intrebare": "În testarea cu utilizatori se urmărește:",
+     "optiuni": [
+      "ce fac efectiv",
+      "ce declară că le place",
+      "opinia echipei",
+      "numărul de sugestii primite"
+     ],
+     "corect": 0,
+     "explicatie": "Comportamentul observat e mai fiabil."
+    },
+    {
+     "intrebare": "Numărul de utilizatori suficient pentru a descoperi majoritatea problemelor majore este, orientativ:",
+     "optiuni": [
+      "cinci",
+      "unu",
+      "cincizeci",
+      "o sută"
+     ],
+     "corect": 0,
+     "explicatie": "Observarea atentă contează mai mult decât numărul."
+    },
+    {
+     "intrebare": "Implementarea tuturor sugestiilor primite:",
+     "optiuni": [
+      "duce la pierderea coerenței produsului",
+      "garantează succesul",
+      "este obligatorie",
+      "reduce timpul de lucru"
+     ],
+     "corect": 0,
+     "explicatie": "Prioritizarea face parte din decizia de produs."
+    },
+    {
+     "intrebare": "Documentația minimă trebuie să includă:",
+     "optiuni": [
+      "scopul, folosirea, structura și limitele cunoscute",
+      "doar codul sursă",
+      "doar capturile de ecran",
+      "doar lista autorilor"
+     ],
+     "corect": 0,
+     "explicatie": "Ea permite altcuiva să continue proiectul."
+    },
+    {
+     "intrebare": "Într-o prezentare de proiect, menționarea limitelor:",
+     "optiuni": [
+      "întărește credibilitatea",
+      "o slăbește",
+      "trebuie evitată",
+      "este obligatorie prin regulament"
+     ],
+     "corect": 0,
+     "explicatie": "Ea arată capacitate de evaluare critică."
+    }
+   ]
+  }
+ ]
+}

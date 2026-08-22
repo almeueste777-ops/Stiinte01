@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
 """Graphify — transformă datele aplicației într-un vault Obsidian interconectat.
 
-Citește `data/curriculum.json` și `data/continut.json` și scrie folderul `vault/`
-cu note Markdown legate prin wikilink-uri, astfel încât Graph View din Obsidian
-să arate întreaga structură a liceului: parcurs -> clase -> materii -> lecții.
+Citește `data/curriculum.json`, indexul `data/continut.json` și modulele de
+conținut din `data/module/*.json`, apoi scrie folderul `vault/` cu note Markdown
+legate prin wikilink-uri, astfel încât Graph View din Obsidian să arate întreaga
+structură a liceului: parcurs -> clase -> materii -> capitole -> lecții.
+
+Un modul = o materie într-un an (ex. „Istorie, clasa a IX-a”). Cheia lui în vault
+este perechea materie+clasă, nu doar materia: aceeași materie se studiază în mai
+mulți ani, cu conținut diferit.
 
 Rulare:  python3 tools/graphify.py
 Ieșirea este deterministă: aceleași date de intrare produc aceleași fișiere.
@@ -26,6 +31,54 @@ N_PARCURS = "Parcurs școlar"
 N_BAC = "Bacalaureat"
 N_SCOALA = "Școala"
 N_HARTA = "Hartă de învățare"
+
+
+def incarca_module(radacina):
+    """Încarcă modulele de conținut și le aduce la forma folosită de note.
+
+    Fișierele din `data/module/` sunt sursa de adevăr; `data/continut.json` dă
+    doar ordinea (indexul e generat din aceleași fișiere). Aplatizăm capitolele
+    în `lectii` — păstrând, pe fiecare lecție, capitolul din care vine — și
+    adunăm toate cardurile și toate întrebările (de lecție și de teză) la nivel
+    de modul, pentru notele „Carduri - …” și „Test - …”.
+    """
+    with open(os.path.join(radacina, "data", "continut.json"), encoding="utf-8") as f:
+        index = json.load(f)
+
+    module = []
+    for intrare in index["module"]:
+        cale = os.path.join(radacina, "data", "module", "%s.json" % intrare["id"])
+        with open(cale, encoding="utf-8") as f:
+            brut = json.load(f)
+
+        lectii, carduri, intrebari = [], [], []
+        for capitol in brut["capitole"]:
+            for lectie in capitol["lectii"]:
+                copie = dict(lectie)
+                copie["capitol"] = capitol["titlu"]
+                copie["semestru"] = capitol["semestru"]
+                lectii.append(copie)
+                carduri += lectie.get("carduri", [])
+                intrebari += lectie.get("test", [])
+        for teza in brut.get("teze", []):
+            intrebari += teza.get("test", [])
+
+        modul = dict(brut)
+        modul["lectii"] = lectii
+        modul["flashcards"] = carduri
+        modul["quiz"] = intrebari
+        module.append(modul)
+    return module
+
+
+def cheie_modul(materie, clasa):
+    """Identifică un modul: aceeași materie apare în mai multe clase."""
+    return "%s|%s" % (materie, clasa)
+
+
+def eticheta_modul(materie, clasa):
+    """Numele sub care apare un modul în vault, ex. «Istorie (clasa a IX-a)»."""
+    return "%s (clasa %s)" % (materie, clasa)
 
 
 def nume_fisier(text):
@@ -159,7 +212,7 @@ def nota_bacalaureat(bac, materii_bac):
     return "\n".join(corp)
 
 
-def nota_clasa(cl, clase, module_dupa_materie):
+def nota_clasa(cl, clase, module_dupa_cheie):
     nume = "Clasa %s" % cl["clasa"]
     indice = [c["clasa"] for c in clase].index(cl["clasa"])
     vecini = []
@@ -179,11 +232,13 @@ def nota_clasa(cl, clase, module_dupa_materie):
             semne = []
             if m["bac"]:
                 semne.append("🎓 bac")
-            if m["nume"] in module_dupa_materie:
-                mod = module_dupa_materie[m["nume"]]
+            mod = module_dupa_cheie.get(cheie_modul(m["nume"], cl["clasa"]))
+            if mod:
                 semne.append("📘 %d lecții în aplicație" % len(mod["lectii"]))
             sufix = " — %s" % ", ".join(semne) if semne else ""
-            sectiuni.append("- %s%s" % (link(m["nume"]), sufix))
+            eticheta = eticheta_modul(m["nume"], cl["clasa"])
+            tinta = nume_fisier(eticheta) if mod else nume_fisier(m["nume"])
+            sectiuni.append("- %s%s" % (link(tinta, m["nume"]), sufix))
         sectiuni.append("")
 
     corp = [
@@ -221,7 +276,8 @@ def nota_arie(arie, materii_din_arie, clase_din_arie):
     return nume, "\n".join(corp)
 
 
-def nota_materie(nume, arie, clase_unde, la_bac, modul):
+def nota_materie(nume, arie, clase_unde, la_bac, module_materie):
+    """Nota-umbrelă a unei materii: trimite la modulul din fiecare an."""
     tags = ["materie", "materie/%s" % slug_tag(nume)]
     if la_bac:
         tags.append("bac")
@@ -236,39 +292,82 @@ def nota_materie(nume, arie, clase_unde, la_bac, modul):
         "> **La bacalaureat:** %s" % ("da 🎓" if la_bac else "nu"),
     ]
 
-    if modul:
-        corp += [
-            "",
-            "%s" % modul["descriere"],
-            "",
-            "## Lecții (%d)" % len(modul["lectii"]),
-            "",
-        ]
-        for lectie in modul["lectii"]:
-            corp.append("- %s" % link(nume_fisier(lectie["titlu"])))
-        corp += [
-            "",
-            "## Exersare",
-            "- %s — %d carduri" % (link("Carduri - %s" % nume_fisier(nume)),
-                                   len(modul["flashcards"])),
-            "- %s — %d întrebări" % (link("Test - %s" % nume_fisier(nume)),
-                                     len(modul["quiz"])),
-        ]
+    if module_materie:
+        corp += ["", "## Anii de studiu", ""]
+        for modul in module_materie:
+            eticheta = eticheta_modul(nume, modul["clasa"])
+            corp.append("- %s — %d lecții, %d carduri, %d întrebări"
+                        % (link(nume_fisier(eticheta), "Clasa %s" % modul["clasa"]),
+                           len(modul["lectii"]), len(modul["flashcards"]),
+                           len(modul["quiz"])))
     else:
         corp += [
             "",
             "> [!todo] Fără conținut în aplicație",
-            "> Materia apare în planul-cadru, dar încă nu are lecții în `data/continut.json`.",
-            "> Adaugă un modul acolo și rulează din nou `graphify` ca să apară aici.",
+            "> Materia apare în planul-cadru, dar încă nu are un modul în `data/module/`.",
+            "> Scrie unul (vezi `data/sursa/`) și rulează din nou `graphify`.",
         ]
 
     corp += ["", "## Legături", "- %s" % link(N_START), "- %s" % link(N_PARCURS)]
     return "\n".join(corp)
 
 
+def nota_modul(modul):
+    """Nota unui modul: o materie într-un an, cu capitolele și lecțiile ei."""
+    materie, clasa = modul["materie"], modul["clasa"]
+    nume = nume_fisier(eticheta_modul(materie, clasa))
+    tags = ["modul", "materie/%s" % slug_tag(materie), "clasa/%s" % slug_tag(clasa)]
+    if modul.get("bac"):
+        tags.append("bac")
+
+    corp = [
+        frontmatter(tags, aliases=[eticheta_modul(materie, clasa)],
+                    extra={"id": modul["id"], "an": modul["an"],
+                           "clasa": '"%s"' % clasa, "cssclasses": "fisa"}),
+        "# %s — clasa %s" % (materie, clasa),
+        "",
+        "> [!abstract] Pe scurt",
+        "> **Materia:** %s" % link(nume_fisier(materie), materie),
+        "> **Anul:** %d — %s" % (modul["an"], link("Clasa %s" % clasa)),
+        "> **Arie curriculară:** %s" % link("Arie - %s" % modul["arie"], modul["arie"]),
+        "> **La bacalaureat:** %s" % ("da 🎓" if modul.get("bac") else "nu"),
+        "",
+        modul["descriere"],
+        "",
+        "## Capitole (%d)" % len(modul["capitole"]),
+        "",
+    ]
+    for capitol in modul["capitole"]:
+        corp.append("### %s — semestrul %d" % (capitol["titlu"], capitol["semestru"]))
+        corp.append("")
+        for lectie in capitol["lectii"]:
+            corp.append("- %s" % link(nume_fisier(lectie["titlu"])))
+        corp.append("")
+
+    corp += [
+        "## Exersare",
+        "- %s — %d carduri" % (link(nume_carduri(modul)), len(modul["flashcards"])),
+        "- %s — %d întrebări" % (link(nume_test(modul)), len(modul["quiz"])),
+        "",
+        "## Legături",
+        "- %s" % link(nume_fisier(materie), materie),
+        "- %s" % link("Clasa %s" % clasa),
+        "- %s" % link(N_START),
+    ]
+    return nume, "\n".join(corp)
+
+
 PLACEHOLDER_NOTITE = "%% Scrie aici cu cuvintele tale — asta e partea care rămâne. %%"
 BLOC_NOTITE = re.compile(r"^## Notițele mele\n\n(.*?)\n\n---\n", re.M | re.S)
 ID_LECTIE = re.compile(r"^id: (\S+)$", re.M)
+
+
+def nume_carduri(modul):
+    return "Carduri - %s" % nume_fisier(eticheta_modul(modul["materie"], modul["clasa"]))
+
+
+def nume_test(modul):
+    return "Test - %s" % nume_fisier(eticheta_modul(modul["materie"], modul["clasa"]))
 
 
 def notite_existente():
@@ -307,14 +406,19 @@ def nota_lectie(lectie, modul, indice, total, notite=""):
     if indice < total - 1:
         vecini.append("%s ➡" % link(nume_fisier(modul["lectii"][indice + 1]["titlu"])))
 
+    eticheta = eticheta_modul(materie, modul["clasa"])
     corp = [
-        frontmatter(["lectie", "materie/%s" % slug_tag(materie)],
+        frontmatter(["lectie", "materie/%s" % slug_tag(materie),
+                     "clasa/%s" % slug_tag(modul["clasa"])],
                     aliases=[lectie["titlu"]] if lectie["titlu"] != nume else None,
                     extra={"id": lectie["id"], "clasa": '"%s"' % modul["clasa"]}),
         "# %s" % lectie["titlu"],
         "",
         "%s · %s · lecția %d din %d"
-        % (link(materie), link("Clasa %s" % modul["clasa"]), indice + 1, total),
+        % (link(nume_fisier(eticheta), materie), link("Clasa %s" % modul["clasa"]),
+           indice + 1, total),
+        "",
+        "**Capitolul:** %s — semestrul %d" % (lectie["capitol"], lectie["semestru"]),
         "",
         "## Rezumat",
         "",
@@ -333,24 +437,25 @@ def nota_lectie(lectie, modul, indice, total, notite=""):
         " · ".join(vecini) if vecini else "",
         "",
         "Exersează: %s · %s"
-        % (link("Carduri - %s" % nume_fisier(materie)),
-           link("Test - %s" % nume_fisier(materie))),
+        % (link(nume_carduri(modul)), link(nume_test(modul))),
     ]
     return nume, "\n".join(corp)
 
 
 def nota_carduri(modul):
     materie = modul["materie"]
-    nume = "Carduri - %s" % nume_fisier(materie)
+    eticheta = eticheta_modul(materie, modul["clasa"])
+    nume = nume_carduri(modul)
 
     corp = [
-        frontmatter(["carduri", "materie/%s" % slug_tag(materie)],
+        frontmatter(["carduri", "materie/%s" % slug_tag(materie),
+                     "clasa/%s" % slug_tag(modul["clasa"])],
                     extra={"cssclasses": "carduri"}),
-        "# Carduri — %s" % materie,
+        "# Carduri — %s" % eticheta,
         "",
         "%d carduri pentru %s. Formatul `întrebare::răspuns` este cel folosit de "
         "pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare."
-        % (len(modul["flashcards"]), link(materie)),
+        % (len(modul["flashcards"]), link(nume_fisier(eticheta), eticheta)),
         "",
         "#flashcards/%s" % slug_tag(materie),
         "",
@@ -359,21 +464,26 @@ def nota_carduri(modul):
         corp.append("%s::%s" % (card["f"], card["v"]))
         corp.append("")
 
-    corp += ["---", "", "Înapoi la %s · %s" % (link(materie), link("Test - %s" % nume_fisier(materie)))]
+    corp += ["---", "",
+             "Înapoi la %s · %s" % (link(nume_fisier(eticheta), eticheta),
+                                    link(nume_test(modul)))]
     return nume, "\n".join(corp)
 
 
 def nota_test(modul):
     materie = modul["materie"]
-    nume = "Test - %s" % nume_fisier(materie)
+    eticheta = eticheta_modul(materie, modul["clasa"])
+    nume = nume_test(modul)
 
     corp = [
-        frontmatter(["test", "materie/%s" % slug_tag(materie)],
+        frontmatter(["test", "materie/%s" % slug_tag(materie),
+                     "clasa/%s" % slug_tag(modul["clasa"])],
                     extra={"cssclasses": "test"}),
-        "# Test — %s" % materie,
+        "# Test — %s" % eticheta,
         "",
-        "%d întrebări din %s. Răspunsurile sunt ascunse: apasă pe săgeata "
-        "callout-ului ca să le vezi." % (len(modul["quiz"]), link(materie)),
+        "%d întrebări din %s — testele de lecție și tezele semestriale. "
+        "Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi."
+        % (len(modul["quiz"]), link(nume_fisier(eticheta), eticheta)),
         "",
     ]
     for i, intrebare in enumerate(modul["quiz"], start=1):
@@ -389,7 +499,9 @@ def nota_test(modul):
         corp.append("> %s" % intrebare["explicatie"])
         corp.append("")
 
-    corp += ["---", "", "Înapoi la %s · %s" % (link(materie), link("Carduri - %s" % nume_fisier(materie)))]
+    corp += ["---", "",
+             "Înapoi la %s · %s" % (link(nume_fisier(eticheta), eticheta),
+                                    link(nume_carduri(modul)))]
     return nume, "\n".join(corp)
 
 
@@ -402,7 +514,7 @@ def nota_start(curriculum, module, statistici):
         "Vault-ul are **două jumătăți**, în același folder:",
         "",
         "1. **Conținutul de studiu** — notele de mai jos, *generate automat* din datele "
-        "aplicației (`data/curriculum.json` și `data/continut.json`). Nu le edita direct: "
+        "aplicației (`data/curriculum.json` și `data/module/*.json`). Nu le edita direct: "
         "modifică datele și rulează din nou `python3 tools/graphify.py`.",
         "2. **Documentația proiectului** — scrisă de mână, în folderele numerotate: "
         "[[Științe Sociale — MOC]] e punctul de intrare, de acolo se ajunge la sistemul "
@@ -423,14 +535,15 @@ def nota_start(curriculum, module, statistici):
         "",
         "\n".join("- %s" % link("Clasa %s" % cl["clasa"]) for cl in curriculum["clase"]),
         "",
-        "## Materii cu lecții în aplicație",
+        "## Module (materie × an)",
         "",
     ]
     for modul in module:
-        corp.append("- %s — %d lecții, %d carduri, %d întrebări (%s)"
-                    % (link(modul["materie"]), len(modul["lectii"]),
-                       len(modul["flashcards"]), len(modul["quiz"]),
-                       link("Clasa %s" % modul["clasa"])))
+        eticheta = eticheta_modul(modul["materie"], modul["clasa"])
+        corp.append("- %s — %d capitole, %d lecții, %d carduri, %d întrebări"
+                    % (link(nume_fisier(eticheta), eticheta),
+                       len(modul["capitole"]), len(modul["lectii"]),
+                       len(modul["flashcards"]), len(modul["quiz"])))
 
     corp += [
         "",
@@ -440,7 +553,8 @@ def nota_start(curriculum, module, statistici):
         "| --- | --- |",
         "| Clase | %d |" % statistici["clase"],
         "| Materii distincte | %d |" % statistici["materii"],
-        "| Materii cu conținut | %d |" % statistici["module"],
+        "| Module (materie × an) | %d |" % statistici["module"],
+        "| Capitole | %d |" % statistici["capitole"],
         "| Lecții | %d |" % statistici["lectii"],
         "| Carduri | %d |" % statistici["carduri"],
         "| Întrebări de test | %d |" % statistici["intrebari"],
@@ -450,17 +564,27 @@ def nota_start(curriculum, module, statistici):
 
 
 def nota_harta(module, clase):
-    """O notă-diagramă: harta parcursului, ca să existe și o vedere vizuală."""
+    """O notă-diagramă: harta parcursului, ca să existe și o vedere vizuală.
+
+    Cu 60 de module, o diagramă cu un nod per modul devine ilizibilă; nodurile
+    sunt grupate pe clase, iar lista de dedesubt dă detaliul.
+    """
+    dupa_clasa = {}
+    for modul in module:
+        dupa_clasa.setdefault(modul["clasa"], []).append(modul)
+
     linii = ["```mermaid", "graph LR"]
     linii.append('  P["Științe sociale · FR"]')
     for i, cl in enumerate(clase):
-        linii.append('  C%d["Clasa %s"]' % (i, cl["clasa"]))
+        ale_clasei = dupa_clasa.get(cl["clasa"], [])
+        lectii = sum(len(m["lectii"]) for m in ale_clasei)
+        linii.append('  C%d["Clasa %s<br/>%d materii · %d lecții"]'
+                     % (i, cl["clasa"], len(ale_clasei), lectii))
         linii.append("  P --> C%d" % i)
-    for j, modul in enumerate(module):
-        indice = [c["clasa"] for c in clase].index(modul["clasa"])
-        eticheta = modul["materie"].split(",")[0].split("(")[0].strip()
-        linii.append('  M%d["%s<br/>%d lecții"]' % (j, eticheta, len(modul["lectii"])))
-        linii.append("  C%d --> M%d" % (indice, j))
+        for j, arie in enumerate(sorted({m["arie"] for m in ale_clasei})):
+            din_arie = [m for m in ale_clasei if m["arie"] == arie]
+            linii.append('  A%d_%d["%s<br/>%d materii"]' % (i, j, arie, len(din_arie)))
+            linii.append("  C%d --> A%d_%d" % (i, i, j))
     linii.append("```")
 
     corp = [
@@ -474,10 +598,20 @@ def nota_harta(module, clase):
         "## Ordinea recomandată",
         "",
     ]
-    for i, modul in enumerate(module, start=1):
-        corp.append("%d. %s — %s" % (i, link(modul["materie"]), link("Clasa %s" % modul["clasa"])))
+    for cl in clase:
+        ale_clasei = dupa_clasa.get(cl["clasa"], [])
+        if not ale_clasei:
+            continue
+        corp.append("### %s" % link("Clasa %s" % cl["clasa"]))
+        corp.append("")
+        for modul in ale_clasei:
+            eticheta = eticheta_modul(modul["materie"], modul["clasa"])
+            corp.append("- %s — %d lecții"
+                        % (link(nume_fisier(eticheta), modul["materie"]),
+                           len(modul["lectii"])))
+        corp.append("")
 
-    corp += ["", "Înapoi la %s" % link(N_START)]
+    corp += ["Înapoi la %s" % link(N_START)]
     return "\n".join(corp)
 
 
@@ -531,12 +665,12 @@ def config_obsidian():
 def main():
     with open(os.path.join(RADACINA, "data", "curriculum.json"), encoding="utf-8") as f:
         curriculum = json.load(f)
-    with open(os.path.join(RADACINA, "data", "continut.json"), encoding="utf-8") as f:
-        continut = json.load(f)
-
-    module = continut["module"]
+    module = incarca_module(RADACINA)
     clase = curriculum["clase"]
-    module_dupa_materie = {m["materie"]: m for m in module}
+    module_dupa_cheie = {cheie_modul(m["materie"], m["clasa"]): m for m in module}
+    module_dupa_materie = {}
+    for m in module:
+        module_dupa_materie.setdefault(m["materie"], []).append(m)
 
     # Notițele proprii se citesc înainte de ștergere și se pun la loc mai jos.
     notite = notite_existente()
@@ -544,7 +678,7 @@ def main():
     # Curăț DOAR folderele generate. Restul vault-ului — documentația scrisă de
     # mână din 00-Index, 10-Jurnal, 20-Design, 30-Aplicatie, 40-Verificare, plus
     # orice notă proprie — rămâne neatins.
-    for folder in ("Curriculum", "Materii", "Lecții", "Carduri", "Teste"):
+    for folder in ("Curriculum", "Materii", "Module", "Lecții", "Carduri", "Teste"):
         cale = os.path.join(VAULT, folder)
         if os.path.isdir(cale):
             shutil.rmtree(cale)
@@ -575,7 +709,7 @@ def main():
     scrise += 3
 
     for cl in clase:
-        nume, text = nota_clasa(cl, clase, module_dupa_materie)
+        nume, text = nota_clasa(cl, clase, module_dupa_cheie)
         scrie("Curriculum/%s.md" % nume_fisier(nume), text)
         scrise += 1
 
@@ -585,17 +719,22 @@ def main():
         scrie("Curriculum/%s.md" % nume_fisier(nume), text)
         scrise += 1
 
-    # Materii
+    # Materii — nota-umbrelă, cu un modul per an
     for nume in sorted(materii):
         fisa = materii[nume]
-        text = nota_materie(nume, fisa["arie"], fisa["clase"], fisa["bac"],
-                            module_dupa_materie.get(nume))
+        ale_materiei = sorted(module_dupa_materie.get(nume, []), key=lambda m: m["an"])
+        text = nota_materie(nume, fisa["arie"], fisa["clase"], fisa["bac"], ale_materiei)
         scrie("Materii/%s.md" % nume_fisier(nume), text)
         scrise += 1
 
-    # Lecții, carduri, teste
-    total_lectii = total_carduri = total_intrebari = 0
+    # Module, lecții, carduri, teste
+    total_lectii = total_carduri = total_intrebari = total_capitole = 0
     for modul in module:
+        nume, text = nota_modul(modul)
+        scrie("Module/%s.md" % nume, text)
+        scrise += 1
+        total_capitole += len(modul["capitole"])
+
         for i, lectie in enumerate(modul["lectii"]):
             nume, text = nota_lectie(lectie, modul, i, len(modul["lectii"]),
                                      notite.get(lectie["id"], ""))
@@ -617,6 +756,7 @@ def main():
         "clase": len(clase),
         "materii": len(materii),
         "module": len(module),
+        "capitole": total_capitole,
         "lectii": total_lectii,
         "carduri": total_carduri,
         "intrebari": total_intrebari,
@@ -642,7 +782,8 @@ def main():
             f.write("\n")
 
     print("Vault generat în %s" % VAULT)
-    for cheie in ("clase", "materii", "module", "lectii", "carduri", "intrebari", "note"):
+    for cheie in ("clase", "materii", "module", "capitole", "lectii",
+                  "carduri", "intrebari", "note"):
         print("  %-10s %d" % (cheie, statistici[cheie]))
     return 0
 

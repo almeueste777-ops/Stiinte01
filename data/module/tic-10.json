@@ -1,0 +1,1073 @@
+{
+ "id": "tic-10",
+ "materie": "Tehnologia informației și a comunicațiilor (TIC)",
+ "clasa": "a X-a",
+ "an": 2,
+ "arie": "Tehnologii",
+ "bac": true,
+ "descriere": "Calcul tabelar, baze de date, prelucrarea imaginii și algoritmi: instrumentele digitale de lucru cu date.",
+ "capitole": [
+  {
+   "id": "tic10-c1",
+   "titlu": "Calcul tabelar",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "tic10-01",
+     "titlu": "Foaia de calcul: structură și formule",
+     "rezumat": "O foaie de calcul este o grilă de celule identificate prin coloană și rând (A1, B7). Într-o celulă se poate introduce text, un număr, o dată sau o formulă. Formula începe cu semnul egal și poate conține valori, referințe la alte celule, operatori și funcții. Puterea instrumentului stă în recalcularea automată: schimbarea unei valori actualizează instantaneu toate rezultatele care depind de ea. Referințele pot fi relative (A1 — se modifică la copiere), absolute ($A$1 — rămân fixe) sau mixte ($A1, A$1). Alegerea corectă a tipului de referință este cea mai frecventă sursă de erori la copierea formulelor. Erorile tipice afișate de program indică problema: împărțire la zero, referință invalidă, tip de dată nepotrivit, nume de funcție greșit.",
+     "ideiCheie": [
+      "Formula începe cu semnul egal și poate conține referințe, operatori și funcții.",
+      "Recalcularea automată este avantajul esențial al foii de calcul.",
+      "Referințe relative, absolute și mixte; alegerea greșită produce erori la copiere.",
+      "Mesajele de eroare indică tipul problemei."
+     ],
+     "termeni": [
+      {
+       "t": "referință absolută",
+       "d": "referință care nu se modifică la copierea formulei, marcată cu semnul dolarului"
+      },
+      {
+       "t": "recalculare automată",
+       "d": "actualizarea instantanee a rezultatelor la modificarea datelor de intrare"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cu ce începe o formulă într-o foaie de calcul?",
+       "v": "Cu semnul egal."
+      },
+      {
+       "f": "Ce este o referință absolută?",
+       "v": "O referință care nu se modifică la copierea formulei, marcată cu semnul dolarului."
+      },
+      {
+       "f": "Care este avantajul esențial al foii de calcul?",
+       "v": "Recalcularea automată a rezultatelor la modificarea datelor."
+      },
+      {
+       "f": "Care este cea mai frecventă sursă de erori la copierea formulelor?",
+       "v": "Folosirea unui tip greșit de referință."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Referința $A$1 este:",
+       "optiuni": [
+        "absolută",
+        "relativă",
+        "mixtă",
+        "invalidă"
+       ],
+       "corect": 0,
+       "explicatie": "Ea nu se modifică la copierea formulei."
+      },
+      {
+       "intrebare": "La copierea formulei din B2 în B3, referința relativă A2 devine:",
+       "optiuni": [
+        "A3",
+        "A2",
+        "$A$2",
+        "B3"
+       ],
+       "corect": 0,
+       "explicatie": "Referințele relative se ajustează după deplasare."
+      },
+      {
+       "intrebare": "Recalcularea automată înseamnă că:",
+       "optiuni": [
+        "rezultatele se actualizează la modificarea datelor de intrare",
+        "formulele se scriu singure",
+        "fișierul se salvează automat",
+        "se corectează erorile"
+       ],
+       "corect": 0,
+       "explicatie": "Este avantajul central al calculului tabelar."
+      },
+      {
+       "intrebare": "Mesajul de eroare pentru împărțire la zero indică:",
+       "optiuni": [
+        "o problemă în datele sau în formula folosită",
+        "lipsa memoriei",
+        "un fișier corupt",
+        "o versiune veche a programului"
+       ],
+       "corect": 0,
+       "explicatie": "Erorile afișate ghidează corectarea."
+      }
+     ]
+    },
+    {
+     "id": "tic10-02",
+     "titlu": "Funcții și analiza datelor",
+     "rezumat": "Funcțiile automatizează calculele. Categorii uzuale: matematice și statistice (sumă, medie, minim, maxim, numărare, numărare condiționată), logice (dacă, și, sau), de text (concatenare, extragere de subșiruri, eliminarea spațiilor), de dată și timp, de căutare (căutare pe verticală sau după index și corespondență). Funcția condițională permite decizii: dacă o condiție e adevărată, se returnează o valoare, altfel alta. Combinarea condiționalelor cu funcții de numărare și de însumare condiționată acoperă majoritatea nevoilor de analiză școlară: câți elevi au peste o anumită notă, care e media pe clase, ce sumă revine unei categorii. Sortarea, filtrarea și tabelele pivot permit rezumarea rapidă a unor seturi mari de date, iar formatarea condiționată evidențiază vizual valorile care îndeplinesc un criteriu.",
+     "ideiCheie": [
+      "Funcții matematice, statistice, logice, de text, de dată, de căutare.",
+      "Funcția condițională permite decizii în interiorul formulei.",
+      "Sortarea, filtrarea și tabelele pivot rezumă seturi mari de date.",
+      "Formatarea condiționată evidențiază vizual valorile care îndeplinesc un criteriu."
+     ],
+     "termeni": [
+      {
+       "t": "funcție condițională",
+       "d": "funcție care returnează o valoare sau alta, în funcție de o condiție logică"
+      },
+      {
+       "t": "tabel pivot",
+       "d": "instrument care rezumă și grupează automat un set mare de date"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce face o funcție condițională?",
+       "v": "Returnează o valoare dacă o condiție este adevărată și alta dacă este falsă."
+      },
+      {
+       "f": "La ce servește un tabel pivot?",
+       "v": "La rezumarea și gruparea automată a unui set mare de date."
+      },
+      {
+       "f": "Ce face formatarea condiționată?",
+       "v": "Evidențiază vizual celulele care îndeplinesc un criteriu."
+      },
+      {
+       "f": "Ce funcție folosești pentru a număra elementele care îndeplinesc o condiție?",
+       "v": "O funcție de numărare condiționată."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Pentru a calcula media notelor dintr-un interval se folosește:",
+       "optiuni": [
+        "o funcție statistică de medie",
+        "o funcție de text",
+        "o funcție de dată",
+        "o funcție de căutare"
+       ],
+       "corect": 0,
+       "explicatie": "Funcțiile statistice acoperă media, minimul, maximul și numărarea."
+      },
+      {
+       "intrebare": "Un tabel pivot este util atunci când:",
+       "optiuni": [
+        "vrei să rezumi rapid un set mare de date, pe categorii",
+        "ai doar câteva valori",
+        "vrei să formatezi textul",
+        "vrei să tipărești foaia"
+       ],
+       "corect": 0,
+       "explicatie": "El grupează și totalizează automat."
+      },
+      {
+       "intrebare": "Formatarea condiționată:",
+       "optiuni": [
+        "colorează automat celulele care îndeplinesc un criteriu",
+        "modifică valorile",
+        "adaugă formule",
+        "ordonează datele"
+       ],
+       "corect": 0,
+       "explicatie": "Ea face vizibile tiparele din date."
+      },
+      {
+       "intrebare": "Filtrarea unei liste:",
+       "optiuni": [
+        "afișează doar rândurile care îndeplinesc un criteriu",
+        "șterge celelalte rânduri",
+        "sortează alfabetic",
+        "calculează totalul"
+       ],
+       "corect": 0,
+       "explicatie": "Datele ascunse rămân în foaie."
+      }
+     ]
+    },
+    {
+     "id": "tic10-03",
+     "titlu": "Reprezentarea grafică a datelor",
+     "rezumat": "Graficul transformă datele în imagine. Tipuri și utilizări corecte: bare sau coloane pentru comparații între categorii; linii pentru evoluție în timp; structură circulară pentru compoziția unui întreg, doar cu puține categorii; nor de puncte pentru relația dintre două variabile; histogramă pentru distribuția unei variabile. Un grafic corect are: titlu care spune ce arată, axe etichetate cu unități, scară care nu induce în eroare (axa verticală pornind de la zero acolo unde comparația de mărime contează), legendă doar când e necesară, număr rezonabil de culori. Manipulările frecvente: trunchierea axei pentru a exagera diferențele, folosirea unor intervale inegale, reprezentări tridimensionale care deformează proporțiile, alegerea unui tip de grafic nepotrivit datelor. Regula de bază: graficul trebuie să facă datele mai ușor de înțeles, nu mai impresionante.",
+     "ideiCheie": [
+      "Bare pentru comparații, linii pentru evoluție, structură circulară pentru compoziție.",
+      "Un grafic corect are titlu, axe etichetate, scară onestă, legendă doar la nevoie.",
+      "Trunchierea axei exagerează diferențele.",
+      "Graficul trebuie să clarifice datele, nu să impresioneze."
+     ],
+     "termeni": [
+      {
+       "t": "trunchierea axei",
+       "d": "începerea axei valorilor de la o valoare diferită de zero, ceea ce exagerează diferențele"
+      },
+      {
+       "t": "histogramă",
+       "d": "grafic care arată distribuția valorilor unei variabile pe intervale"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce tip de grafic se folosește pentru evoluția în timp?",
+       "v": "Graficul cu linii."
+      },
+      {
+       "f": "Ce arată o histogramă?",
+       "v": "Distribuția valorilor unei variabile pe intervale."
+      },
+      {
+       "f": "Ce efect are trunchierea axei verticale?",
+       "v": "Exagerează vizual diferențele dintre valori."
+      },
+      {
+       "f": "Care este regula de bază a unui grafic?",
+       "v": "Să facă datele mai ușor de înțeles, nu mai impresionante."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Pentru compoziția procentuală a unui întreg este potrivit:",
+       "optiuni": [
+        "graficul circular, cu puține categorii",
+        "graficul cu linii",
+        "histograma",
+        "norul de puncte"
+       ],
+       "corect": 0,
+       "explicatie": "Cu multe categorii devine ilizibil."
+      },
+      {
+       "intrebare": "Trunchierea axei verticale:",
+       "optiuni": [
+        "exagerează diferențele dintre valori",
+        "le reduce",
+        "nu are efect",
+        "corectează scara"
+       ],
+       "corect": 0,
+       "explicatie": "Este o manipulare vizuală frecventă."
+      },
+      {
+       "intrebare": "Norul de puncte se folosește pentru:",
+       "optiuni": [
+        "relația dintre două variabile",
+        "evoluția în timp",
+        "compoziția unui întreg",
+        "comparația între categorii"
+       ],
+       "corect": 0,
+       "explicatie": "El arată dacă există o corelație."
+      },
+      {
+       "intrebare": "Un grafic fără etichete pe axe:",
+       "optiuni": [
+        "nu poate fi interpretat corect",
+        "este mai clar",
+        "este acceptabil dacă are titlu",
+        "se folosește pentru date confidențiale"
+       ],
+       "corect": 0,
+       "explicatie": "Unitățile de măsură sunt obligatorii."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tic10-c2",
+   "titlu": "Baze de date și structurarea informației",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "tic10-04",
+     "titlu": "Concepte de bază de date",
+     "rezumat": "O bază de date este o colecție organizată de date, structurată pentru a permite căutarea, actualizarea și raportarea eficientă. Modelul relațional organizează datele în tabele; fiecare tabel are câmpuri (coloane, cu un tip de dată) și înregistrări (rânduri). Cheia primară identifică unic o înregistrare; cheia externă leagă un tabel de altul. Avantajul față de o simplă foaie de calcul apare la volum și la relații: evitarea redundanței (aceeași informație nu se repetă în mai multe locuri), integritatea datelor (regulile împiedică introducerea unor valori inconsistente), accesul concurent al mai multor utilizatori, controlul drepturilor. Normalizarea este procesul de organizare a tabelelor pentru a elimina redundanța și anomaliile de actualizare.",
+     "ideiCheie": [
+      "Modelul relațional organizează datele în tabele cu câmpuri și înregistrări.",
+      "Cheia primară identifică unic o înregistrare; cheia externă leagă tabelele.",
+      "Avantaje față de foaia de calcul: evitarea redundanței, integritate, acces concurent.",
+      "Normalizarea elimină redundanța și anomaliile de actualizare."
+     ],
+     "termeni": [
+      {
+       "t": "cheie primară",
+       "d": "câmpul care identifică unic fiecare înregistrare dintr-un tabel"
+      },
+      {
+       "t": "normalizare",
+       "d": "organizarea tabelelor astfel încât să se elimine redundanța datelor"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este cheia primară?",
+       "v": "Câmpul care identifică unic fiecare înregistrare dintr-un tabel."
+      },
+      {
+       "f": "Ce face cheia externă?",
+       "v": "Leagă înregistrările dintr-un tabel de cele din alt tabel."
+      },
+      {
+       "f": "Ce avantaje are o bază de date față de o foaie de calcul?",
+       "v": "Evitarea redundanței, integritatea datelor, accesul concurent, controlul drepturilor."
+      },
+      {
+       "f": "Ce este normalizarea?",
+       "v": "Organizarea tabelelor pentru eliminarea redundanței și a anomaliilor de actualizare."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Într-un tabel de bază de date, rândurile se numesc:",
+       "optiuni": [
+        "înregistrări",
+        "câmpuri",
+        "chei",
+        "relații"
+       ],
+       "corect": 0,
+       "explicatie": "Coloanele sunt câmpuri."
+      },
+      {
+       "intrebare": "Cheia primară trebuie să fie:",
+       "optiuni": [
+        "unică pentru fiecare înregistrare",
+        "identică pentru toate înregistrările",
+        "opțională",
+        "de tip text obligatoriu"
+       ],
+       "corect": 0,
+       "explicatie": "Ea garantează identificarea fără ambiguitate."
+      },
+      {
+       "intrebare": "Redundanța datelor produce:",
+       "optiuni": [
+        "risc de inconsistență la actualizare",
+        "economie de spațiu",
+        "viteză mai mare",
+        "integritate sporită"
+       ],
+       "corect": 0,
+       "explicatie": "Aceeași informație modificată într-un loc rămâne veche în altul."
+      },
+      {
+       "intrebare": "Legătura dintre două tabele se realizează prin:",
+       "optiuni": [
+        "cheia externă",
+        "formatarea condiționată",
+        "filtrare",
+        "sortare"
+       ],
+       "corect": 0,
+       "explicatie": "Ea referă cheia primară din celălalt tabel."
+      }
+     ]
+    },
+    {
+     "id": "tic10-05",
+     "titlu": "Interogări, formulare, rapoarte",
+     "rezumat": "Interogarea este întrebarea pusă bazei de date. Ea permite selectarea unor câmpuri, filtrarea după criterii, ordonarea rezultatelor, gruparea și calculul unor valori agregate (sumă, medie, număr) și combinarea datelor din mai multe tabele. Limbajul standard este SQL, cu instrucțiuni de selectare, inserare, actualizare și ștergere. Formularele oferă o interfață prietenoasă pentru introducerea și editarea datelor, cu validări care previn erorile. Rapoartele formatează datele pentru tipărire sau distribuire, cu grupări, totaluri și subtotaluri. O aplicație de baze de date bine construită separă cele trei niveluri: datele (tabelele), logica (interogările și regulile) și interfața (formularele și rapoartele) — separare care permite modificarea unuia fără a le strica pe celelalte.",
+     "ideiCheie": [
+      "Interogarea selectează, filtrează, ordonează, grupează și calculează.",
+      "SQL este limbajul standard al bazelor de date relaționale.",
+      "Formularele facilitează introducerea corectă; rapoartele formatează rezultatele.",
+      "Separarea date–logică–interfață permite modificări fără efecte în lanț."
+     ],
+     "termeni": [
+      {
+       "t": "interogare",
+       "d": "cerere adresată bazei de date pentru extragerea sau prelucrarea datelor"
+      },
+      {
+       "t": "raport",
+       "d": "prezentarea formatată a datelor, destinată tipăririi sau distribuirii"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce face o interogare?",
+       "v": "Selectează, filtrează, ordonează, grupează și calculează date din tabele."
+      },
+      {
+       "f": "Care este limbajul standard al bazelor de date relaționale?",
+       "v": "SQL."
+      },
+      {
+       "f": "La ce servesc formularele?",
+       "v": "La introducerea și editarea comodă și validată a datelor."
+      },
+      {
+       "f": "De ce se separă datele, logica și interfața?",
+       "v": "Pentru a putea modifica una fără a le strica pe celelalte."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Valorile agregate dintr-o interogare sunt, de exemplu:",
+       "optiuni": [
+        "suma, media, numărul de înregistrări",
+        "numele câmpurilor",
+        "tipurile de date",
+        "cheile primare"
+       ],
+       "corect": 0,
+       "explicatie": "Ele rezultă din gruparea înregistrărilor."
+      },
+      {
+       "intrebare": "Formularele au rolul de a:",
+       "optiuni": [
+        "facilita introducerea corectă a datelor",
+        "stoca datele",
+        "genera grafice",
+        "crea tabele"
+       ],
+       "corect": 0,
+       "explicatie": "Validările previn erorile de introducere."
+      },
+      {
+       "intrebare": "Un raport dintr-o bază de date:",
+       "optiuni": [
+        "prezintă datele formatat, pentru tipărire sau distribuire",
+        "stochează datele",
+        "validează introducerea",
+        "creează relații"
+       ],
+       "corect": 0,
+       "explicatie": "El poate include grupări și totaluri."
+      },
+      {
+       "intrebare": "SQL este:",
+       "optiuni": [
+        "limbajul standard de interogare a bazelor de date relaționale",
+        "un sistem de operare",
+        "un format de fișier",
+        "un tip de rețea"
+       ],
+       "corect": 0,
+       "explicatie": "Instrucțiunile lui permit selectarea și modificarea datelor."
+      }
+     ]
+    },
+    {
+     "id": "tic10-06",
+     "titlu": "Prelucrarea imaginii digitale",
+     "rezumat": "Imaginile digitale sunt de două feluri. Cele raster (bitmap) sunt formate din pixeli; calitatea depinde de rezoluție, iar mărirea produce pixelizare. Formate uzuale: JPEG (comprimare cu pierdere, potrivit fotografiilor), PNG (fără pierdere, cu transparență), GIF (animații simple), WebP. Cele vectoriale sunt descrise prin formule geometrice, se scalează fără pierdere de calitate și sunt potrivite pentru logouri, scheme, hărți; formatul uzual este SVG. Operațiile de bază: decupare, redimensionare, rotire, ajustarea luminozității și a contrastului, corecția culorilor, eliminarea unor elemente, aplicarea de filtre, lucrul cu straturi. Etica prelucrării cere distincția între corecțiile tehnice (luminozitate, încadrare) și modificările care schimbă conținutul informativ al imaginii: într-un context jurnalistic sau documentar, ultimele constituie falsificare.",
+     "ideiCheie": [
+      "Imagini raster (pixeli, dependente de rezoluție) și vectoriale (formule, scalabile).",
+      "JPEG comprimă cu pierdere; PNG păstrează calitatea și transparența; SVG e vectorial.",
+      "Operații: decupare, redimensionare, corecții, straturi, filtre.",
+      "Modificarea conținutului informativ al unei imagini documentare este falsificare."
+     ],
+     "termeni": [
+      {
+       "t": "imagine vectorială",
+       "d": "imagine descrisă prin formule geometrice, scalabilă fără pierdere de calitate"
+      },
+      {
+       "t": "pixelizare",
+       "d": "degradarea vizibilă a unei imagini raster la mărire peste rezoluția ei"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Prin ce se deosebesc imaginile raster de cele vectoriale?",
+       "v": "Rasterul e format din pixeli și depinde de rezoluție; vectorialul e descris prin formule și se scalează fără pierdere."
+      },
+      {
+       "f": "Ce format este potrivit pentru un logo?",
+       "v": "Un format vectorial, precum SVG."
+      },
+      {
+       "f": "Ce înseamnă comprimare cu pierdere?",
+       "v": "Reducerea dimensiunii fișierului prin eliminarea unor informații, ireversibil."
+      },
+      {
+       "f": "Unde este falsificare prelucrarea unei imagini?",
+       "v": "Când modifică conținutul informativ al unei imagini documentare sau jurnalistice."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Formatul JPEG folosește:",
+       "optiuni": [
+        "comprimare cu pierdere",
+        "comprimare fără pierdere",
+        "descriere vectorială",
+        "doar transparență"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea nu e potrivit pentru salvări repetate."
+      },
+      {
+       "intrebare": "Pentru o imagine cu fundal transparent se folosește:",
+       "optiuni": [
+        "PNG",
+        "JPEG",
+        "BMP",
+        "TIFF necomprimat"
+       ],
+       "corect": 0,
+       "explicatie": "PNG păstrează canalul de transparență."
+      },
+      {
+       "intrebare": "O imagine vectorială mărită de zece ori:",
+       "optiuni": [
+        "își păstrează calitatea",
+        "se pixelizează",
+        "își pierde culorile",
+        "devine mai mică"
+       ],
+       "corect": 0,
+       "explicatie": "Ea este descrisă prin formule geometrice."
+      },
+      {
+       "intrebare": "Eliminarea unei persoane dintr-o fotografie de presă este:",
+       "optiuni": [
+        "falsificare a conținutului informativ",
+        "o corecție tehnică obișnuită",
+        "o practică recomandată",
+        "fără consecințe etice"
+       ],
+       "corect": 0,
+       "explicatie": "Corecțiile admise privesc luminozitatea și încadrarea."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tic10-c3",
+   "titlu": "Algoritmi și gândire computațională",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "tic10-07",
+     "titlu": "Algoritmi: definiție, proprietăți, reprezentare",
+     "rezumat": "Un algoritm este o succesiune finită și ordonată de pași care rezolvă o categorie de probleme. Proprietățile lui: claritatea (fiecare pas e neambiguu), finitudinea (se termină după un număr finit de pași), generalitatea (rezolvă toate cazurile din categorie), eficiența (folosește resurse rezonabile), corectitudinea (produce rezultatul corect pentru orice intrare validă). Reprezentarea se face prin limbaj natural structurat, prin pseudocod sau prin scheme logice, cu simboluri standard: oval pentru început și sfârșit, paralelogram pentru citire și scriere, dreptunghi pentru prelucrare, romb pentru decizie. Structurile fundamentale, suficiente pentru orice algoritm, sunt trei: secvența (pași unul după altul), decizia (ramificare după o condiție) și repetiția (ciclul cu test inițial, cu test final sau cu contor).",
+     "ideiCheie": [
+      "Algoritmul este o succesiune finită și ordonată de pași.",
+      "Proprietăți: claritate, finitudine, generalitate, eficiență, corectitudine.",
+      "Reprezentare: limbaj natural, pseudocod, schemă logică.",
+      "Trei structuri fundamentale: secvență, decizie, repetiție."
+     ],
+     "termeni": [
+      {
+       "t": "pseudocod",
+       "d": "mod de descriere a unui algoritm, între limbajul natural și limbajul de programare"
+      },
+      {
+       "t": "structură de decizie",
+       "d": "structură care ramifică execuția în funcție de o condiție"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este un algoritm?",
+       "v": "O succesiune finită și ordonată de pași care rezolvă o categorie de probleme."
+      },
+      {
+       "f": "Care sunt proprietățile unui algoritm?",
+       "v": "Claritate, finitudine, generalitate, eficiență, corectitudine."
+      },
+      {
+       "f": "Care sunt cele trei structuri fundamentale?",
+       "v": "Secvența, decizia și repetiția."
+      },
+      {
+       "f": "Ce simbol reprezintă decizia într-o schemă logică?",
+       "v": "Rombul."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Proprietatea de finitudine a unui algoritm înseamnă că:",
+       "optiuni": [
+        "se termină după un număr finit de pași",
+        "rezolvă o singură problemă",
+        "folosește puține resurse",
+        "are pași clari"
+       ],
+       "corect": 0,
+       "explicatie": "Un algoritm care nu se oprește nu este algoritm."
+      },
+      {
+       "intrebare": "Rombul, într-o schemă logică, reprezintă:",
+       "optiuni": [
+        "o decizie",
+        "o prelucrare",
+        "o citire",
+        "începutul algoritmului"
+       ],
+       "corect": 0,
+       "explicatie": "Dreptunghiul reprezintă prelucrarea."
+      },
+      {
+       "intrebare": "Orice algoritm poate fi construit folosind:",
+       "optiuni": [
+        "secvență, decizie și repetiție",
+        "doar secvență",
+        "doar repetiție",
+        "cel puțin cinci structuri"
+       ],
+       "corect": 0,
+       "explicatie": "Este teorema structurii programelor."
+      },
+      {
+       "intrebare": "Pseudocodul este:",
+       "optiuni": [
+        "o descriere între limbajul natural și cel de programare",
+        "un limbaj de programare",
+        "o schemă logică",
+        "un tip de algoritm"
+       ],
+       "corect": 0,
+       "explicatie": "El permite descrierea fără constrângerile unui limbaj anume."
+      }
+     ]
+    },
+    {
+     "id": "tic10-08",
+     "titlu": "Structuri repetitive și prelucrarea datelor",
+     "rezumat": "Repetiția permite executarea unei secvențe de mai multe ori. Ciclul cu contor se folosește când numărul de repetări e cunoscut dinainte; ciclul cu test inițial verifică condiția înainte de fiecare execuție și poate să nu se execute niciodată; ciclul cu test final se execută cel puțin o dată. Alegerea greșită a tipului de ciclu sau uitarea actualizării variabilei de control produce ciclul infinit — cea mai frecventă eroare a începătorilor. Prelucrările clasice pe șiruri de valori: calculul sumei și al mediei, determinarea minimului și a maximului, numărarea elementelor care îndeplinesc o condiție, căutarea unui element, verificarea unei proprietăți pentru toate elementele, sortarea. Ele se combină în majoritatea aplicațiilor practice: o medie a notelor, un clasament, un raport de vânzări sunt, în esență, aceleași prelucrări aplicate unor date diferite.",
+     "ideiCheie": [
+      "Ciclu cu contor, cu test inițial, cu test final.",
+      "Ciclul cu test inițial poate să nu se execute niciodată; cel cu test final, cel puțin o dată.",
+      "Ciclul infinit apare la condiție greșită sau la lipsa actualizării variabilei de control.",
+      "Prelucrări clasice: sumă, medie, minim, maxim, numărare, căutare, sortare."
+     ],
+     "termeni": [
+      {
+       "t": "ciclu infinit",
+       "d": "repetiție care nu se termină, din cauza unei condiții care rămâne mereu adevărată"
+      },
+      {
+       "t": "variabilă de control",
+       "d": "variabila care determină numărul de repetări ale unui ciclu"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Când se folosește ciclul cu contor?",
+       "v": "Când numărul de repetări este cunoscut dinainte."
+      },
+      {
+       "f": "Ce deosebește ciclul cu test final de cel cu test inițial?",
+       "v": "Cel cu test final se execută cel puțin o dată."
+      },
+      {
+       "f": "Ce provoacă un ciclu infinit?",
+       "v": "O condiție care rămâne mereu adevărată sau lipsa actualizării variabilei de control."
+      },
+      {
+       "f": "Numește patru prelucrări clasice pe un șir de valori.",
+       "v": "Suma, media, minimul și maximul (de asemenea numărarea, căutarea, sortarea)."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Un ciclu cu test inițial:",
+       "optiuni": [
+        "poate să nu se execute niciodată",
+        "se execută cel puțin o dată",
+        "se execută exact o dată",
+        "se execută întotdeauna de n ori"
+       ],
+       "corect": 0,
+       "explicatie": "Condiția se verifică înainte de prima execuție."
+      },
+      {
+       "intrebare": "Ciclul infinit apare, cel mai des, din cauza:",
+       "optiuni": [
+        "neactualizării variabilei de control",
+        "numărului mare de date",
+        "lipsei de memorie",
+        "unei erori de sintaxă"
+       ],
+       "corect": 0,
+       "explicatie": "Condiția rămâne mereu adevărată."
+      },
+      {
+       "intrebare": "Determinarea maximului dintr-un șir presupune:",
+       "optiuni": [
+        "compararea succesivă a fiecărui element cu maximul curent",
+        "sortarea obligatorie a șirului",
+        "calculul mediei",
+        "numărarea elementelor"
+       ],
+       "corect": 0,
+       "explicatie": "Este una dintre prelucrările clasice."
+      },
+      {
+       "intrebare": "Când numărul de repetări nu e cunoscut dinainte, se folosește:",
+       "optiuni": [
+        "un ciclu cu test",
+        "un ciclu cu contor",
+        "o structură de decizie",
+        "o secvență"
+       ],
+       "corect": 0,
+       "explicatie": "Condiția determină oprirea."
+      }
+     ]
+    },
+    {
+     "id": "tic10-09",
+     "titlu": "Gândire computațională și rezolvarea problemelor",
+     "rezumat": "Gândirea computațională este modul de a aborda problemele astfel încât soluția să poată fi executată de un om sau de o mașină. Componentele: descompunerea (problema mare se împarte în subprobleme), recunoașterea tiparelor (identificarea asemănărilor cu probleme deja rezolvate), abstractizarea (ignorarea detaliilor irelevante), proiectarea algoritmului și evaluarea lui. Etapele rezolvării: înțelegerea problemei (ce se dă, ce se cere, ce restricții există), planul, execuția, verificarea pe cazuri, inclusiv pe cazurile limită (șir gol, o singură valoare, valori egale, valori extreme). Testarea nu confirmă corectitudinea, ci doar absența erorilor găsite: o soluție care merge pe trei exemple poate greși pe al patrulea. De aceea cazurile limită se aleg deliberat, nu la întâmplare.",
+     "ideiCheie": [
+      "Gândirea computațională: descompunere, tipare, abstractizare, algoritm, evaluare.",
+      "Etapele rezolvării: înțelegere, plan, execuție, verificare.",
+      "Cazurile limită se aleg deliberat: șir gol, o valoare, valori egale, extreme.",
+      "Testarea nu demonstrează corectitudinea, ci doar absența erorilor găsite."
+     ],
+     "termeni": [
+      {
+       "t": "descompunere",
+       "d": "împărțirea unei probleme complexe în subprobleme mai simple"
+      },
+      {
+       "t": "caz limită",
+       "d": "situație extremă sau specială care testează robustețea unei soluții"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt componentele gândirii computaționale?",
+       "v": "Descompunerea, recunoașterea tiparelor, abstractizarea, proiectarea și evaluarea algoritmului."
+      },
+      {
+       "f": "De ce se testează cazurile limită?",
+       "v": "Pentru că acolo apar cele mai multe erori ale soluțiilor aparent corecte."
+      },
+      {
+       "f": "Ce demonstrează testarea?",
+       "v": "Absența erorilor găsite, nu corectitudinea soluției."
+      },
+      {
+       "f": "Ce este abstractizarea, în rezolvarea problemelor?",
+       "v": "Ignorarea detaliilor irelevante pentru soluție."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Descompunerea unei probleme înseamnă:",
+       "optiuni": [
+        "împărțirea ei în subprobleme mai simple",
+        "simplificarea enunțului",
+        "eliminarea restricțiilor",
+        "reducerea datelor de intrare"
+       ],
+       "corect": 0,
+       "explicatie": "Fiecare subproblemă se rezolvă separat."
+      },
+      {
+       "intrebare": "Testarea unui algoritm pe trei exemple corecte:",
+       "optiuni": [
+        "nu garantează corectitudinea lui",
+        "demonstrează corectitudinea",
+        "este suficientă",
+        "înlocuiește verificarea logică"
+       ],
+       "corect": 0,
+       "explicatie": "Cazurile limită pot invalida soluția."
+      },
+      {
+       "intrebare": "Un caz limită tipic pentru prelucrarea unui șir este:",
+       "optiuni": [
+        "șirul gol sau cu un singur element",
+        "un șir de zece elemente",
+        "un șir ordonat crescător",
+        "un șir cu numere pare"
+       ],
+       "corect": 0,
+       "explicatie": "Acolo apar cele mai multe erori."
+      },
+      {
+       "intrebare": "Recunoașterea tiparelor ajută pentru că:",
+       "optiuni": [
+        "permite reutilizarea unor soluții deja cunoscute",
+        "simplifică enunțul",
+        "reduce numărul de date",
+        "elimină testarea"
+       ],
+       "corect": 0,
+       "explicatie": "Multe probleme noi sunt variante ale unora rezolvate."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "teze": [
+  {
+   "semestru": 1,
+   "test": [
+    {
+     "intrebare": "O formulă într-o foaie de calcul începe cu:",
+     "optiuni": [
+      "semnul egal",
+      "semnul plus",
+      "ghilimele",
+      "paranteză"
+     ],
+     "corect": 0,
+     "explicatie": "Altfel conținutul e tratat ca text."
+    },
+    {
+     "intrebare": "Referința $B$3 este:",
+     "optiuni": [
+      "absolută",
+      "relativă",
+      "mixtă",
+      "invalidă"
+     ],
+     "corect": 0,
+     "explicatie": "Ea nu se modifică la copiere."
+    },
+    {
+     "intrebare": "La copierea unei formule în jos, referința relativă:",
+     "optiuni": [
+      "se ajustează automat",
+      "rămâne neschimbată",
+      "devine absolută",
+      "produce eroare"
+     ],
+     "corect": 0,
+     "explicatie": "De aceea trebuie ales tipul potrivit de referință."
+    },
+    {
+     "intrebare": "Tabelul pivot este util pentru:",
+     "optiuni": [
+      "rezumarea unui set mare de date pe categorii",
+      "formatarea textului",
+      "crearea graficelor 3D",
+      "protejarea fișierului"
+     ],
+     "corect": 0,
+     "explicatie": "El grupează și totalizează automat."
+    },
+    {
+     "intrebare": "Formatarea condiționată:",
+     "optiuni": [
+      "evidențiază celulele care îndeplinesc un criteriu",
+      "modifică valorile",
+      "adaugă formule",
+      "sortează datele"
+     ],
+     "corect": 0,
+     "explicatie": "Ea face vizibile tiparele."
+    },
+    {
+     "intrebare": "Pentru evoluția în timp se folosește graficul:",
+     "optiuni": [
+      "cu linii",
+      "circular",
+      "cu bare orizontale",
+      "de tip nor de puncte"
+     ],
+     "corect": 0,
+     "explicatie": "Graficul circular arată compoziția."
+    },
+    {
+     "intrebare": "Trunchierea axei verticale:",
+     "optiuni": [
+      "exagerează vizual diferențele",
+      "le reduce",
+      "nu are efect",
+      "corectează proporțiile"
+     ],
+     "corect": 0,
+     "explicatie": "Este o manipulare vizuală frecventă."
+    },
+    {
+     "intrebare": "Într-o bază de date, coloanele se numesc:",
+     "optiuni": [
+      "câmpuri",
+      "înregistrări",
+      "chei",
+      "relații"
+     ],
+     "corect": 0,
+     "explicatie": "Rândurile sunt înregistrări."
+    },
+    {
+     "intrebare": "Cheia primară:",
+     "optiuni": [
+      "identifică unic fiecare înregistrare",
+      "leagă două tabele",
+      "stochează datele",
+      "validează formularele"
+     ],
+     "corect": 0,
+     "explicatie": "Cheia externă face legătura între tabele."
+    },
+    {
+     "intrebare": "Redundanța datelor produce:",
+     "optiuni": [
+      "risc de inconsistență la actualizare",
+      "economie de spațiu",
+      "integritate sporită",
+      "acces mai rapid"
+     ],
+     "corect": 0,
+     "explicatie": "Normalizarea o elimină."
+    },
+    {
+     "intrebare": "SQL este:",
+     "optiuni": [
+      "limbajul de interogare a bazelor de date relaționale",
+      "un sistem de operare",
+      "un format de imagine",
+      "un protocol de rețea"
+     ],
+     "corect": 0,
+     "explicatie": "El permite selectarea și modificarea datelor."
+    },
+    {
+     "intrebare": "Formularele într-o bază de date servesc la:",
+     "optiuni": [
+      "introducerea și editarea validată a datelor",
+      "stocarea datelor",
+      "generarea graficelor",
+      "crearea relațiilor"
+     ],
+     "corect": 0,
+     "explicatie": "Rapoartele formatează rezultatele."
+    }
+   ]
+  },
+  {
+   "semestru": 2,
+   "test": [
+    {
+     "intrebare": "Formatul PNG este preferat pentru:",
+     "optiuni": [
+      "imagini cu transparență, fără pierdere de calitate",
+      "fotografii comprimate puternic",
+      "animații complexe",
+      "desene vectoriale"
+     ],
+     "corect": 0,
+     "explicatie": "JPEG comprimă cu pierdere."
+    },
+    {
+     "intrebare": "O imagine vectorială mărită:",
+     "optiuni": [
+      "își păstrează calitatea",
+      "se pixelizează",
+      "își pierde culorile",
+      "devine neclară"
+     ],
+     "corect": 0,
+     "explicatie": "Ea este descrisă prin formule geometrice."
+    },
+    {
+     "intrebare": "Eliminarea unui element dintr-o fotografie de presă este:",
+     "optiuni": [
+      "falsificare a conținutului informativ",
+      "o corecție tehnică",
+      "o practică recomandată",
+      "fără implicații etice"
+     ],
+     "corect": 0,
+     "explicatie": "Corecțiile admise privesc luminozitatea și încadrarea."
+    },
+    {
+     "intrebare": "Un algoritm trebuie să fie:",
+     "optiuni": [
+      "finit, clar, general, corect și eficient",
+      "lung și detaliat",
+      "scris într-un limbaj de programare",
+      "reprezentat obligatoriu prin schemă logică"
+     ],
+     "corect": 0,
+     "explicatie": "Finitudinea este proprietatea esențială."
+    },
+    {
+     "intrebare": "Rombul, în schema logică, reprezintă:",
+     "optiuni": [
+      "decizia",
+      "prelucrarea",
+      "citirea datelor",
+      "sfârșitul algoritmului"
+     ],
+     "corect": 0,
+     "explicatie": "Dreptunghiul reprezintă prelucrarea."
+    },
+    {
+     "intrebare": "Orice algoritm se poate construi din:",
+     "optiuni": [
+      "secvență, decizie și repetiție",
+      "doar secvență și decizie",
+      "doar repetiție",
+      "cel puțin șase structuri"
+     ],
+     "corect": 0,
+     "explicatie": "Este teorema structurii programelor."
+    },
+    {
+     "intrebare": "Ciclul cu test inițial:",
+     "optiuni": [
+      "poate să nu se execute niciodată",
+      "se execută cel puțin o dată",
+      "se execută exact de n ori",
+      "este întotdeauna infinit"
+     ],
+     "corect": 0,
+     "explicatie": "Condiția se verifică înaintea primei execuții."
+    },
+    {
+     "intrebare": "Ciclul infinit apare cel mai frecvent din cauza:",
+     "optiuni": [
+      "neactualizării variabilei de control",
+      "lipsei de memorie",
+      "unei erori de sintaxă",
+      "datelor prea multe"
+     ],
+     "corect": 0,
+     "explicatie": "Condiția rămâne mereu adevărată."
+    },
+    {
+     "intrebare": "Componentele gândirii computaționale sunt:",
+     "optiuni": [
+      "descompunere, tipare, abstractizare, algoritm, evaluare",
+      "citire, scriere, calcul",
+      "analiză, sinteză, comparație",
+      "planificare, execuție, control"
+     ],
+     "corect": 0,
+     "explicatie": "Ele se aplică oricărei probleme, nu doar celor informatice."
+    },
+    {
+     "intrebare": "Testarea pe câteva exemple corecte:",
+     "optiuni": [
+      "nu demonstrează corectitudinea algoritmului",
+      "o demonstrează",
+      "este suficientă",
+      "înlocuiește analiza"
+     ],
+     "corect": 0,
+     "explicatie": "Cazurile limită pot invalida soluția."
+    },
+    {
+     "intrebare": "Un caz limită tipic este:",
+     "optiuni": [
+      "șirul gol sau cu un singur element",
+      "un șir de zece elemente",
+      "un șir ordonat",
+      "un șir cu valori pozitive"
+     ],
+     "corect": 0,
+     "explicatie": "Acolo apar cele mai multe erori."
+    },
+    {
+     "intrebare": "Descompunerea unei probleme înseamnă:",
+     "optiuni": [
+      "împărțirea ei în subprobleme mai simple",
+      "simplificarea enunțului",
+      "reducerea datelor",
+      "eliminarea restricțiilor"
+     ],
+     "corect": 0,
+     "explicatie": "Fiecare subproblemă se rezolvă separat."
+    }
+   ]
+  }
+ ]
+}

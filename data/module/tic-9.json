@@ -1,0 +1,1073 @@
+{
+ "id": "tic-9",
+ "materie": "Tehnologia informației și a comunicațiilor (TIC)",
+ "clasa": "a IX-a",
+ "an": 1,
+ "arie": "Tehnologii",
+ "bac": true,
+ "descriere": "Bazele informaticii aplicate: calculatorul, sistemul de operare, fișiere, editare de text și siguranța online.",
+ "capitole": [
+  {
+   "id": "tic9-c1",
+   "titlu": "Calculatorul și sistemul de operare",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "tic9-01",
+     "titlu": "Componentele unui sistem de calcul",
+     "rezumat": "Un sistem de calcul are componente hardware (fizice) și software (programe). Hardware-ul cuprinde unitatea centrală de prelucrare (procesorul, care execută instrucțiunile), memoria internă — RAM, volatilă, care păstrează datele în lucru, și ROM —, memoria externă (hard disk, SSD, memorii flash, discuri optice), dispozitivele de intrare (tastatură, mouse, scaner, microfon, cameră) și de ieșire (monitor, imprimantă, difuzoare). Performanța depinde de frecvența și numărul de nuclee ale procesorului, de cantitatea de RAM, de tipul memoriei externe (SSD-ul este mult mai rapid decât hard diskul clasic) și de placa grafică. Unitatea de măsură a informației este bitul; un octet (byte) are 8 biți, iar multiplii uzuali sunt kilo-, mega-, giga- și terabyte.",
+     "ideiCheie": [
+      "Hardware = componente fizice; software = programe.",
+      "RAM este memorie volatilă; datele nesalvate se pierd la oprire.",
+      "SSD-ul este semnificativ mai rapid decât hard diskul clasic.",
+      "Un octet are 8 biți; multiplii sunt KB, MB, GB, TB."
+     ],
+     "termeni": [
+      {
+       "t": "memorie volatilă",
+       "d": "memorie care își pierde conținutul la întreruperea alimentării"
+      },
+      {
+       "t": "procesor",
+       "d": "componenta care execută instrucțiunile programelor"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce se întâmplă cu datele din RAM la oprirea calculatorului?",
+       "v": "Se pierd, fiindcă RAM-ul este memorie volatilă."
+      },
+      {
+       "f": "Câți biți are un octet?",
+       "v": "Opt."
+      },
+      {
+       "f": "Ce dispozitive sunt de intrare?",
+       "v": "Tastatura, mouse-ul, scanerul, microfonul, camera."
+      },
+      {
+       "f": "De ce este SSD-ul preferabil hard diskului clasic?",
+       "v": "Pentru că are viteză de acces mult mai mare, fără componente mecanice."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Memoria RAM este:",
+       "optiuni": [
+        "volatilă",
+        "permanentă",
+        "doar pentru citire",
+        "externă"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea documentele nesalvate se pierd."
+      },
+      {
+       "intrebare": "Monitorul este un dispozitiv de:",
+       "optiuni": [
+        "ieșire",
+        "intrare",
+        "stocare",
+        "prelucrare"
+       ],
+       "corect": 0,
+       "explicatie": "Tastatura este dispozitiv de intrare."
+      },
+      {
+       "intrebare": "Un gigabyte este aproximativ:",
+       "optiuni": [
+        "1024 megabytes",
+        "1024 kilobytes",
+        "100 megabytes",
+        "1024 terabytes"
+       ],
+       "corect": 0,
+       "explicatie": "Multiplii cresc, uzual, din 1024 în 1024."
+      },
+      {
+       "intrebare": "Performanța unui calculator NU depinde direct de:",
+       "optiuni": [
+        "culoarea carcasei",
+        "cantitatea de RAM",
+        "frecvența procesorului",
+        "tipul memoriei externe"
+       ],
+       "corect": 0,
+       "explicatie": "Componentele interne determină performanța."
+      }
+     ]
+    },
+    {
+     "id": "tic9-02",
+     "titlu": "Sistemul de operare și gestionarea fișierelor",
+     "rezumat": "Sistemul de operare este programul care gestionează resursele calculatorului și face legătura dintre utilizator, aplicații și hardware. Funcțiile lui: gestionarea proceselor, a memoriei, a fișierelor, a dispozitivelor și interfața cu utilizatorul. Exemple: Windows, macOS, Linux, Android, iOS. Fișierul este o colecție de date identificată printr-un nume și o extensie care indică tipul (.txt, .docx, .pdf, .jpg, .mp4, .exe). Fișierele se organizează în foldere, într-o structură arborescentă. Operațiile de bază: creare, copiere, mutare, redenumire, ștergere, căutare, arhivare. Buna organizare — nume descriptive, structură logică, denumiri cu dată pentru versiuni — economisește mai mult timp decât orice altă deprindere digitală.",
+     "ideiCheie": [
+      "Sistemul de operare gestionează procese, memorie, fișiere, dispozitive și interfața.",
+      "Extensia indică tipul fișierului și programul care îl deschide.",
+      "Fișierele se organizează arborescent, în foldere.",
+      "Numele descriptive și structura logică economisesc timp real."
+     ],
+     "termeni": [
+      {
+       "t": "extensie de fișier",
+       "d": "sufixul din numele fișierului, care indică tipul de conținut"
+      },
+      {
+       "t": "structură arborescentă",
+       "d": "organizare ierarhică a folderelor, cu ramificații succesive"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce face un sistem de operare?",
+       "v": "Gestionează resursele calculatorului și mediază între utilizator, aplicații și hardware."
+      },
+      {
+       "f": "Ce indică extensia unui fișier?",
+       "v": "Tipul de conținut și programul asociat pentru deschidere."
+      },
+      {
+       "f": "Cum se organizează fișierele?",
+       "v": "Arborescent, în foldere, pe niveluri ierarhice."
+      },
+      {
+       "f": "De ce contează numele descriptive ale fișierelor?",
+       "v": "Pentru că fac regăsirea rapidă și evită confuziile între versiuni."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Extensia .docx indică, de regulă:",
+       "optiuni": [
+        "un document de text formatat",
+        "o imagine",
+        "un fișier executabil",
+        "o arhivă"
+       ],
+       "corect": 0,
+       "explicatie": "Extensia .jpg indică o imagine."
+      },
+      {
+       "intrebare": "Un sistem de operare NU are ca funcție:",
+       "optiuni": [
+        "redactarea documentelor",
+        "gestionarea memoriei",
+        "gestionarea fișierelor",
+        "interfața cu utilizatorul"
+       ],
+       "corect": 0,
+       "explicatie": "Redactarea se face în aplicații dedicate."
+      },
+      {
+       "intrebare": "Arhivarea unui folder este utilă pentru:",
+       "optiuni": [
+        "reducerea dimensiunii și transferul mai ușor",
+        "creșterea vitezei procesorului",
+        "creșterea memoriei RAM",
+        "protejarea de viruși"
+       ],
+       "corect": 0,
+       "explicatie": "Arhivele pot fi și protejate cu parolă."
+      },
+      {
+       "intrebare": "Structura arborescentă a folderelor înseamnă:",
+       "optiuni": [
+        "organizare ierarhică, cu foldere în interiorul altor foldere",
+        "toate fișierele într-un singur loc",
+        "ordonare alfabetică",
+        "ordonare după dată"
+       ],
+       "corect": 0,
+       "explicatie": "Ea permite regăsirea rapidă."
+      }
+     ]
+    },
+    {
+     "id": "tic9-03",
+     "titlu": "Rețele, internet și servicii web",
+     "rezumat": "O rețea de calculatoare leagă dispozitive pentru a partaja date și resurse. După întindere: LAN (locală), MAN (metropolitană), WAN (extinsă). Internetul este rețeaua globală care leagă rețele, funcționând pe baza protocoalelor TCP/IP. Fiecare dispozitiv are o adresă IP; sistemul DNS traduce numele de domenii în adrese IP. Serviciile principale: web-ul (paginile accesate prin HTTP/HTTPS, cu HTTPS criptând comunicația), poșta electronică, transferul de fișiere, mesageria, streamingul, serviciile în cloud. Browserul este aplicația care afișează paginile web. Motorul de căutare indexează paginile și le ordonează după relevanță; folosirea eficientă presupune cuvinte-cheie precise, operatori de căutare (ghilimele pentru expresie exactă, minus pentru excludere, site: pentru un anumit domeniu) și verificarea sursei.",
+     "ideiCheie": [
+      "Rețele: LAN, MAN, WAN; internetul funcționează pe protocoalele TCP/IP.",
+      "DNS traduce numele de domenii în adrese IP.",
+      "HTTPS criptează comunicația dintre browser și server.",
+      "Căutarea eficientă folosește cuvinte precise și operatori."
+     ],
+     "termeni": [
+      {
+       "t": "adresă IP",
+       "d": "identificatorul numeric al unui dispozitiv într-o rețea"
+      },
+      {
+       "t": "DNS",
+       "d": "sistemul care traduce numele de domenii în adrese IP"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este o adresă IP?",
+       "v": "Identificatorul numeric al unui dispozitiv într-o rețea."
+      },
+      {
+       "f": "Ce face sistemul DNS?",
+       "v": "Traduce numele de domenii în adrese IP."
+      },
+      {
+       "f": "Prin ce diferă HTTPS de HTTP?",
+       "v": "HTTPS criptează comunicația dintre browser și server."
+      },
+      {
+       "f": "Ce operatori ajută la căutarea eficientă?",
+       "v": "Ghilimelele pentru expresie exactă, minusul pentru excludere, site: pentru un domeniu anume."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "HTTPS se deosebește de HTTP prin:",
+       "optiuni": [
+        "criptarea comunicației",
+        "viteza mai mare",
+        "afișarea imaginilor",
+        "accesul la fișiere"
+       ],
+       "corect": 0,
+       "explicatie": "Lacătul din bara de adrese indică o conexiune securizată."
+      },
+      {
+       "intrebare": "O rețea LAN este:",
+       "optiuni": [
+        "o rețea locală, într-o clădire sau într-o instituție",
+        "rețeaua globală",
+        "o rețea metropolitană",
+        "o rețea de telefonie"
+       ],
+       "corect": 0,
+       "explicatie": "WAN desemnează rețelele extinse."
+      },
+      {
+       "intrebare": "Căutarea unei expresii exacte se face folosind:",
+       "optiuni": [
+        "ghilimelele",
+        "semnul plus",
+        "semnul întrebării",
+        "asteriscul"
+       ],
+       "corect": 0,
+       "explicatie": "Minusul exclude un termen din rezultate."
+      },
+      {
+       "intrebare": "Browserul este:",
+       "optiuni": [
+        "aplicația care afișează paginile web",
+        "motorul de căutare",
+        "serverul care găzduiește site-ul",
+        "protocolul de comunicație"
+       ],
+       "corect": 0,
+       "explicatie": "Motorul de căutare este un serviciu accesat prin browser."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tic9-c2",
+   "titlu": "Editare de text și prezentări",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "tic9-04",
+     "titlu": "Procesorul de text: formatare și structură",
+     "rezumat": "Un procesor de text permite redactarea, formatarea și tipărirea documentelor. Formatarea la nivel de caracter: font, dimensiune, stil, culoare, indici. La nivel de paragraf: aliniere, indentare, spațiere, spațiu înainte și după, liste. La nivel de pagină: margini, orientare, dimensiune, antet și subsol, numerotare. Regula profesională este să nu formatezi manual, ci prin stiluri: aplicarea stilului „Titlu 1” pentru capitole și „Titlu 2” pentru subcapitole permite generarea automată a cuprinsului, navigarea rapidă și modificarea unitară a aspectului. Alte instrumente utile: verificarea ortografică, căutare și înlocuire, note de subsol, referințe, comentarii, urmărirea modificărilor, îmbinarea corespondenței.",
+     "ideiCheie": [
+      "Formatarea se face la nivel de caracter, paragraf și pagină.",
+      "Folosirea stilurilor permite cuprins automat și modificări unitare.",
+      "Instrumente utile: căutare-înlocuire, note de subsol, comentarii, urmărirea modificărilor.",
+      "Formatarea manuală repetată este sursa cea mai frecventă de documente inconsecvente."
+     ],
+     "termeni": [
+      {
+       "t": "stil (în procesorul de text)",
+       "d": "set predefinit de formatări aplicabil unitar unui tip de conținut"
+      },
+      {
+       "t": "cuprins automat",
+       "d": "listă de titluri generată de program pe baza stilurilor aplicate"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "De ce se folosesc stilurile într-un document?",
+       "v": "Pentru cuprins automat, navigare rapidă și modificarea unitară a formatării."
+      },
+      {
+       "f": "Ce se formatează la nivel de paragraf?",
+       "v": "Alinierea, indentarea, spațierea și listele."
+      },
+      {
+       "f": "Ce este îmbinarea corespondenței?",
+       "v": "Procedeul de a genera documente personalizate dintr-un șablon și o listă de date."
+      },
+      {
+       "f": "Care este cel mai frecvent defect al documentelor formatate manual?",
+       "v": "Inconsecvența aspectului între secțiuni."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Cuprinsul automat se poate genera dacă:",
+       "optiuni": [
+        "titlurile au stiluri aplicate",
+        "documentul are numerotare",
+        "textul este aliniat",
+        "se folosesc tabele"
+       ],
+       "corect": 0,
+       "explicatie": "Programul citește ierarhia stilurilor."
+      },
+      {
+       "intrebare": "Indentarea este o formatare la nivel de:",
+       "optiuni": [
+        "paragraf",
+        "caracter",
+        "pagină",
+        "document"
+       ],
+       "corect": 0,
+       "explicatie": "Fontul este formatare la nivel de caracter."
+      },
+      {
+       "intrebare": "Urmărirea modificărilor este utilă pentru:",
+       "optiuni": [
+        "lucrul în colaborare, cu vizualizarea schimbărilor",
+        "reducerea dimensiunii fișierului",
+        "protejarea cu parolă",
+        "tipărirea rapidă"
+       ],
+       "corect": 0,
+       "explicatie": "Fiecare modificare poate fi acceptată sau respinsă."
+      },
+      {
+       "intrebare": "Formatarea manuală repetată a titlurilor:",
+       "optiuni": [
+        "produce inconsecvențe și îngreunează modificările",
+        "este mai rapidă",
+        "permite cuprins automat",
+        "este recomandată"
+       ],
+       "corect": 0,
+       "explicatie": "Stilurile rezolvă ambele probleme."
+      }
+     ]
+    },
+    {
+     "id": "tic9-05",
+     "titlu": "Prezentări electronice",
+     "rezumat": "O prezentare electronică susține un discurs, nu îl înlocuiește. Principiile de bază: o idee pe slide, text minim (cuvinte-cheie, nu paragrafe), contrast suficient între text și fundal, font lizibil de la distanță, imagini relevante și de calitate, consecvență vizuală prin folosirea unui șablon. Greșelile frecvente: slide-uri încărcate cu text pe care vorbitorul le citește, animații excesive, culori care reduc lizibilitatea, grafice fără etichete, prea multe slide-uri pentru timpul disponibil. Regula practică: aproximativ un slide la un minut și jumătate de vorbire. Instrumentele utile: modul de vizualizare cu note pentru vorbitor, tranzițiile simple, verificarea prezentării pe ecranul real înainte de susținere.",
+     "ideiCheie": [
+      "Prezentarea susține discursul; nu îl înlocuiește.",
+      "O idee pe slide, text minim, contrast bun, font lizibil, consecvență vizuală.",
+      "Regula practică: circa un slide la un minut și jumătate.",
+      "Se verifică prezentarea pe ecranul real înainte de susținere."
+     ],
+     "termeni": [
+      {
+       "t": "șablon de prezentare",
+       "d": "set predefinit de culori, fonturi și așezări, aplicat unitar tuturor slide-urilor"
+      },
+      {
+       "t": "note pentru vorbitor",
+       "d": "text vizibil doar prezentatorului, care îl ghidează în timpul expunerii"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care este principiul de bază al unui slide bun?",
+       "v": "O idee pe slide, cu text minim."
+      },
+      {
+       "f": "Care este regula practică pentru numărul de slide-uri?",
+       "v": "Aproximativ un slide la un minut și jumătate de vorbire."
+      },
+      {
+       "f": "Ce sunt notele pentru vorbitor?",
+       "v": "Text vizibil doar prezentatorului, care îl ghidează în expunere."
+      },
+      {
+       "f": "Care este greșeala cea mai frecventă într-o prezentare?",
+       "v": "Slide-uri încărcate cu text, citite cu voce tare."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Un slide bun conține:",
+       "optiuni": [
+        "o idee, exprimată prin cuvinte-cheie",
+        "un paragraf complet",
+        "toate detaliile expunerii",
+        "cel puțin trei imagini"
+       ],
+       "corect": 0,
+       "explicatie": "Textul detaliat aparține discursului, nu slide-ului."
+      },
+      {
+       "intrebare": "Pentru o prezentare de 15 minute sunt potrivite, orientativ:",
+       "optiuni": [
+        "circa 10 slide-uri",
+        "30 de slide-uri",
+        "3 slide-uri",
+        "50 de slide-uri"
+       ],
+       "corect": 0,
+       "explicatie": "Regula este circa un slide la un minut și jumătate."
+      },
+      {
+       "intrebare": "Folosirea unui șablon asigură:",
+       "optiuni": [
+        "consecvența vizuală a prezentării",
+        "reducerea dimensiunii fișierului",
+        "animații automate",
+        "corectarea greșelilor"
+       ],
+       "corect": 0,
+       "explicatie": "Consecvența ajută înțelegerea și profesionalismul."
+      },
+      {
+       "intrebare": "Citirea slide-urilor cu voce tare de către prezentator:",
+       "optiuni": [
+        "face prezentarea redundantă și plictisitoare",
+        "este recomandată",
+        "ajută publicul",
+        "economisește timp"
+       ],
+       "corect": 0,
+       "explicatie": "Publicul citește mai repede decât vorbește prezentatorul."
+      }
+     ]
+    },
+    {
+     "id": "tic9-06",
+     "titlu": "Comunicare online și colaborare",
+     "rezumat": "Poșta electronică rămâne instrumentul standard al comunicării formale. Un e-mail bun are: subiect clar și specific, formulă de adresare potrivită, mesaj scurt și structurat, cerere explicită, formulă de încheiere, semnătură. Câmpurile Cc (copie) și Bcc (copie ascunsă) au reguli: Bcc pentru liste mari, ca să nu expui adresele altora. Colaborarea online permite lucrul simultan în același document, cu istoric al versiunilor, comentarii, sugestii și drepturi de acces diferențiate (vizualizare, comentare, editare). Reguli de bună practică: se acordă doar drepturile necesare, se folosesc comentarii în loc de modificări directe în textul altcuiva, se verifică cine are acces înainte de a partaja un document cu date personale. Netiquette-ul cere claritate, politețe, evitarea majusculelor (care sugerează strigăt) și răbdare în interpretarea tonului.",
+     "ideiCheie": [
+      "E-mailul formal: subiect clar, adresare, mesaj structurat, cerere explicită, semnătură.",
+      "Bcc protejează adresele destinatarilor în listele mari.",
+      "Colaborarea online: istoric al versiunilor, comentarii, drepturi diferențiate.",
+      "Se acordă doar drepturile de acces necesare."
+     ],
+     "termeni": [
+      {
+       "t": "Bcc",
+       "d": "câmp de e-mail prin care destinatarii nu văd adresele celorlalți"
+      },
+      {
+       "t": "drepturi de acces",
+       "d": "nivelul de permisiune acordat unui utilizator asupra unui document partajat"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce trebuie să conțină un e-mail formal?",
+       "v": "Subiect clar, formulă de adresare, mesaj structurat, cerere explicită, semnătură."
+      },
+      {
+       "f": "Când se folosește Bcc?",
+       "v": "La liste mari de destinatari, pentru a nu expune adresele lor."
+      },
+      {
+       "f": "Ce drepturi se pot acorda la partajarea unui document?",
+       "v": "Vizualizare, comentare sau editare."
+      },
+      {
+       "f": "De ce se evită majusculele în comunicarea online?",
+       "v": "Pentru că sugerează strigăt și sunt percepute ca agresive."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Trimiterea unui e-mail către 50 de destinatari se face corect folosind:",
+       "optiuni": [
+        "Bcc",
+        "Cc",
+        "câmpul „Către”",
+        "răspuns tuturor"
+       ],
+       "corect": 0,
+       "explicatie": "Astfel adresele nu sunt expuse."
+      },
+      {
+       "intrebare": "Un subiect de e-mail bun este:",
+       "optiuni": [
+        "scurt și specific pentru conținut",
+        "lipsă, pentru a nu limita mesajul",
+        "format din întregul mesaj",
+        "scris cu majuscule"
+       ],
+       "corect": 0,
+       "explicatie": "El determină dacă mesajul e deschis și găsit ulterior."
+      },
+      {
+       "intrebare": "La partajarea unui document se acordă:",
+       "optiuni": [
+        "doar drepturile necesare scopului",
+        "întotdeauna drept de editare",
+        "acces public implicit",
+        "drepturi de administrator"
+       ],
+       "corect": 0,
+       "explicatie": "Este principiul privilegiului minim."
+      },
+      {
+       "intrebare": "Comentariile într-un document colaborativ sunt preferabile pentru că:",
+       "optiuni": [
+        "semnalează problema fără a modifica textul altcuiva",
+        "sunt mai rapide",
+        "nu pot fi șterse",
+        "se tipăresc automat"
+       ],
+       "corect": 0,
+       "explicatie": "Ele păstrează responsabilitatea autorului asupra textului."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tic9-c3",
+   "titlu": "Siguranță și responsabilitate digitală",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "tic9-07",
+     "titlu": "Securitate: parole, malware, actualizări",
+     "rezumat": "Securitatea digitală începe cu parolele. O parolă bună este lungă (peste 12 caractere), unică pentru fiecare serviciu și greu de ghicit; o frază de acces formată din mai multe cuvinte este mai sigură și mai ușor de reținut decât un șir scurt cu simboluri. Managerul de parole rezolvă problema unicității. Autentificarea în doi pași adaugă un al doilea factor și blochează majoritatea atacurilor bazate pe parole furate. Programele malițioase (malware) includ viruși, viermi, troieni, ransomware (criptează datele și cere răscumpărare), spyware. Măsuri de bază: actualizarea sistemului și a aplicațiilor, program antivirus activ, atenție la atașamente și la linkuri, descărcarea aplicațiilor doar din surse oficiale, copii de siguranță regulate. Copia de siguranță este singura protecție reală împotriva ransomware-ului.",
+     "ideiCheie": [
+      "Parolă lungă, unică, ideal o frază de acces; manager de parole pentru unicitate.",
+      "Autentificarea în doi pași blochează majoritatea atacurilor cu parole furate.",
+      "Malware: viruși, viermi, troieni, ransomware, spyware.",
+      "Copia de siguranță este singura protecție reală împotriva ransomware-ului."
+     ],
+     "termeni": [
+      {
+       "t": "autentificare în doi pași",
+       "d": "verificare suplimentară, printr-un al doilea factor, la conectare"
+      },
+      {
+       "t": "ransomware",
+       "d": "program malițios care criptează datele și cere răscumpărare"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce face o parolă puternică?",
+       "v": "Lungimea, unicitatea și imprevizibilitatea; o frază de acces e ideală."
+      },
+      {
+       "f": "Ce este autentificarea în doi pași?",
+       "v": "Verificarea suplimentară printr-un al doilea factor, pe lângă parolă."
+      },
+      {
+       "f": "Ce este ransomware-ul?",
+       "v": "Un program care criptează datele și cere răscumpărare pentru deblocare."
+      },
+      {
+       "f": "Care este singura protecție reală împotriva ransomware-ului?",
+       "v": "Copiile de siguranță făcute regulat."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Cea mai eficientă măsură împotriva parolelor furate este:",
+       "optiuni": [
+        "autentificarea în doi pași",
+        "schimbarea lunară a parolei",
+        "folosirea aceleiași parole peste tot",
+        "notarea parolelor pe hârtie"
+       ],
+       "corect": 0,
+       "explicatie": "Al doilea factor blochează accesul chiar cu parola compromisă."
+      },
+      {
+       "intrebare": "O frază de acces formată din patru cuvinte:",
+       "optiuni": [
+        "este, de regulă, mai sigură decât o parolă scurtă cu simboluri",
+        "este mai slabă",
+        "este imposibil de reținut",
+        "nu poate fi folosită"
+       ],
+       "corect": 0,
+       "explicatie": "Lungimea contează mai mult decât complexitatea aparentă."
+      },
+      {
+       "intrebare": "Actualizările de sistem sunt importante deoarece:",
+       "optiuni": [
+        "corectează vulnerabilități de securitate cunoscute",
+        "schimbă aspectul interfeței",
+        "eliberează spațiu",
+        "măresc viteza procesorului"
+       ],
+       "corect": 0,
+       "explicatie": "Amânarea lor lasă breșe deschise."
+      },
+      {
+       "intrebare": "Copiile de siguranță ar trebui păstrate:",
+       "optiuni": [
+        "și într-o locație separată de calculator",
+        "exclusiv pe același disc",
+        "doar în memoria RAM",
+        "doar pe desktop"
+       ],
+       "corect": 0,
+       "explicatie": "Altfel se pierd odată cu dispozitivul."
+      }
+     ]
+    },
+    {
+     "id": "tic9-08",
+     "titlu": "Date personale, urmă digitală și confidențialitate",
+     "rezumat": "Datele cu caracter personal sunt orice informații care pot identifica o persoană: nume, adresă, CNP, e-mail, fotografii, date de localizare, identificatori online. Regulamentul general privind protecția datelor (GDPR) stabilește drepturile persoanei: informare, acces, rectificare, ștergere, restricționare, portabilitate, opoziție. Prelucrarea trebuie să aibă un temei legal, iar consimțământul trebuie să fie liber, specific și informat. Urma digitală este ansamblul informațiilor lăsate online, activ (postări, comentarii) sau pasiv (istoric, localizare, cookie-uri). Ea este greu reversibilă: ceea ce a fost publicat poate fi copiat și redistribuit. Reguli practice: verifică setările de confidențialitate, gândește înainte de a posta, nu publica date care identifică locul unde te afli în timp real, nu distribui date personale ale altora fără acordul lor, revizuiește periodic permisiunile acordate aplicațiilor.",
+     "ideiCheie": [
+      "Datele personale identifică, direct sau indirect, o persoană.",
+      "GDPR dă drepturi: informare, acces, rectificare, ștergere, opoziție.",
+      "Consimțământul trebuie să fie liber, specific și informat.",
+      "Urma digitală e greu reversibilă: ce a fost publicat poate fi copiat."
+     ],
+     "termeni": [
+      {
+       "t": "date cu caracter personal",
+       "d": "orice informații care pot identifica, direct sau indirect, o persoană"
+      },
+      {
+       "t": "urmă digitală",
+       "d": "ansamblul informațiilor lăsate de o persoană în mediul online"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce sunt datele cu caracter personal?",
+       "v": "Orice informații care pot identifica, direct sau indirect, o persoană."
+      },
+      {
+       "f": "Ce drepturi dă GDPR?",
+       "v": "Informare, acces, rectificare, ștergere, restricționare, portabilitate, opoziție."
+      },
+      {
+       "f": "Ce este urma digitală?",
+       "v": "Ansamblul informațiilor lăsate online, activ sau pasiv."
+      },
+      {
+       "f": "De ce este urma digitală greu reversibilă?",
+       "v": "Pentru că ceea ce a fost publicat poate fi copiat și redistribuit de oricine."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Adresa de e-mail este:",
+       "optiuni": [
+        "o dată cu caracter personal",
+        "o informație publică fără protecție",
+        "un identificator anonim",
+        "o dată tehnică nereglementată"
+       ],
+       "corect": 0,
+       "explicatie": "Ea permite identificarea persoanei."
+      },
+      {
+       "intrebare": "Consimțământul pentru prelucrarea datelor trebuie să fie:",
+       "optiuni": [
+        "liber, specific și informat",
+        "implicit",
+        "dat o singură dată, pentru orice scop",
+        "acordat de altcineva"
+       ],
+       "corect": 0,
+       "explicatie": "Bifarea prealabilă a unei căsuțe nu este consimțământ valid."
+      },
+      {
+       "intrebare": "Publicarea locației în timp real:",
+       "optiuni": [
+        "crește riscurile de securitate personală",
+        "este recomandată",
+        "nu are consecințe",
+        "este obligatorie în aplicații"
+       ],
+       "corect": 0,
+       "explicatie": "Ea permite localizarea fizică a persoanei."
+      },
+      {
+       "intrebare": "Dreptul la ștergerea datelor („dreptul de a fi uitat”):",
+       "optiuni": [
+        "poate fi exercitat în condițiile prevăzute de lege",
+        "este absolut și necondiționat",
+        "nu există",
+        "se aplică doar minorilor"
+       ],
+       "corect": 0,
+       "explicatie": "Există și excepții, de exemplu pentru arhivare în interes public."
+      }
+     ]
+    },
+    {
+     "id": "tic9-09",
+     "titlu": "Etică digitală, drepturi de autor, dezinformare",
+     "rezumat": "Etica digitală privește comportamentul responsabil online: respectul față de ceilalți, veridicitatea informației distribuite, respectarea drepturilor de autor și a proprietății intelectuale. Plagiatul — preluarea muncii altcuiva fără atribuire — este la fel de grav în mediul digital ca pe hârtie, iar ușurința copierii nu îl face acceptabil. Licențele deschise (Creative Commons) precizează ce este permis: reutilizare, modificare, folosire comercială, cu obligația atribuirii. Dezinformarea circulă online mai repede decât informația verificată, fiindcă algoritmii amplifică ce produce reacție. Verificarea de bază: sursa primară, autorul, data, confirmarea din surse independente, căutarea inversă a imaginilor. Cyberbullyingul — hărțuirea repetată în mediul online — are efecte reale și grave; răspunsul corect este documentarea (capturi de ecran), raportarea în platformă, informarea unui adult și, la nevoie, sesizarea autorităților, nu răspunsul în același registru.",
+     "ideiCheie": [
+      "Plagiatul este la fel de grav în mediul digital ca pe hârtie.",
+      "Licențele Creative Commons precizează ce reutilizare este permisă.",
+      "Verificarea informației: sursă primară, autor, dată, confirmare independentă.",
+      "La cyberbullying: documentează, raportează, cere ajutor; nu răspunde în același registru."
+     ],
+     "termeni": [
+      {
+       "t": "plagiat",
+       "d": "preluarea muncii altcuiva fără atribuirea sursei"
+      },
+      {
+       "t": "Creative Commons",
+       "d": "sistem de licențe care precizează condițiile de reutilizare a unei opere"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este plagiatul?",
+       "v": "Preluarea muncii altcuiva fără atribuirea sursei."
+      },
+      {
+       "f": "Ce precizează o licență Creative Commons?",
+       "v": "Condițiile de reutilizare: atribuire, modificare, folosire comercială."
+      },
+      {
+       "f": "Care sunt pașii verificării unei informații?",
+       "v": "Sursa primară, autorul, data, confirmarea din surse independente, căutarea inversă de imagini."
+      },
+      {
+       "f": "Cum se răspunde corect la cyberbullying?",
+       "v": "Documentând, raportând în platformă, cerând ajutorul unui adult, nu răspunzând în același registru."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Folosirea unei imagini găsite online, fără verificarea licenței:",
+       "optiuni": [
+        "poate încălca drepturile de autor",
+        "este întotdeauna permisă",
+        "este permisă în scop școlar, fără nicio condiție",
+        "nu are consecințe legale"
+       ],
+       "corect": 0,
+       "explicatie": "Multe imagini sunt protejate; atribuirea singură nu e mereu suficientă."
+      },
+      {
+       "intrebare": "Răspunsul corect la cyberbullying include:",
+       "optiuni": [
+        "documentarea și raportarea în platformă",
+        "răspunsul în același registru",
+        "ștergerea contului imediat",
+        "ignorarea completă și tăcerea"
+       ],
+       "corect": 0,
+       "explicatie": "Documentarea permite intervenția eficientă."
+      },
+      {
+       "intrebare": "Licențele Creative Commons:",
+       "optiuni": [
+        "precizează ce reutilizări sunt permise",
+        "elimină drepturile de autor",
+        "se aplică automat oricărei opere",
+        "sunt valabile doar în scop comercial"
+       ],
+       "corect": 0,
+       "explicatie": "Autorul alege tipul de licență."
+      },
+      {
+       "intrebare": "Dezinformarea circulă mai repede decât informația verificată pentru că:",
+       "optiuni": [
+        "algoritmii amplifică ce produce reacție emoțională",
+        "este mai scurtă",
+        "provine din surse oficiale",
+        "este verificată automat"
+       ],
+       "corect": 0,
+       "explicatie": "Reacția, nu corectitudinea, determină difuzarea."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "teze": [
+  {
+   "semestru": 1,
+   "test": [
+    {
+     "intrebare": "Memoria RAM este:",
+     "optiuni": [
+      "volatilă",
+      "permanentă",
+      "doar pentru citire",
+      "externă"
+     ],
+     "corect": 0,
+     "explicatie": "Datele nesalvate se pierd la oprire."
+    },
+    {
+     "intrebare": "Un octet are:",
+     "optiuni": [
+      "8 biți",
+      "16 biți",
+      "4 biți",
+      "1024 biți"
+     ],
+     "corect": 0,
+     "explicatie": "Multiplii uzuali sunt KB, MB, GB, TB."
+    },
+    {
+     "intrebare": "Monitorul este un dispozitiv de:",
+     "optiuni": [
+      "ieșire",
+      "intrare",
+      "stocare",
+      "prelucrare"
+     ],
+     "corect": 0,
+     "explicatie": "Tastatura este dispozitiv de intrare."
+    },
+    {
+     "intrebare": "Extensia unui fișier indică:",
+     "optiuni": [
+      "tipul de conținut și programul asociat",
+      "dimensiunea fișierului",
+      "data creării",
+      "autorul"
+     ],
+     "corect": 0,
+     "explicatie": "De exemplu, .jpg indică o imagine."
+    },
+    {
+     "intrebare": "Sistemul DNS:",
+     "optiuni": [
+      "traduce numele de domenii în adrese IP",
+      "criptează comunicația",
+      "stochează paginile web",
+      "filtrează conținutul"
+     ],
+     "corect": 0,
+     "explicatie": "Fără el ar trebui memorate adrese numerice."
+    },
+    {
+     "intrebare": "HTTPS se deosebește de HTTP prin:",
+     "optiuni": [
+      "criptarea comunicației",
+      "viteza mai mare",
+      "accesul la imagini",
+      "portul folosit exclusiv"
+     ],
+     "corect": 0,
+     "explicatie": "Lacătul din bara de adrese semnalează conexiunea securizată."
+    },
+    {
+     "intrebare": "Căutarea unei expresii exacte se face cu:",
+     "optiuni": [
+      "ghilimele",
+      "semnul plus",
+      "asterisc",
+      "paranteze"
+     ],
+     "corect": 0,
+     "explicatie": "Minusul exclude un termen."
+    },
+    {
+     "intrebare": "Cuprinsul automat se generează pe baza:",
+     "optiuni": [
+      "stilurilor aplicate titlurilor",
+      "numerotării paginilor",
+      "alinierii textului",
+      "tabelelor inserate"
+     ],
+     "corect": 0,
+     "explicatie": "De aceea stilurile sunt esențiale."
+    },
+    {
+     "intrebare": "Indentarea este o formatare la nivel de:",
+     "optiuni": [
+      "paragraf",
+      "caracter",
+      "pagină",
+      "secțiune"
+     ],
+     "corect": 0,
+     "explicatie": "Fontul se aplică la nivel de caracter."
+    },
+    {
+     "intrebare": "Un slide bun conține:",
+     "optiuni": [
+      "o idee, în cuvinte-cheie",
+      "un paragraf întreg",
+      "toate detaliile",
+      "minimum cinci imagini"
+     ],
+     "corect": 0,
+     "explicatie": "Detaliile aparțin discursului."
+    },
+    {
+     "intrebare": "Pentru o prezentare de 15 minute sunt potrivite, orientativ:",
+     "optiuni": [
+      "circa 10 slide-uri",
+      "30 de slide-uri",
+      "3 slide-uri",
+      "45 de slide-uri"
+     ],
+     "corect": 0,
+     "explicatie": "Regula este un slide la un minut și jumătate."
+    },
+    {
+     "intrebare": "Trimiterea unui e-mail către mulți destinatari se face folosind:",
+     "optiuni": [
+      "Bcc",
+      "Cc",
+      "„Către”",
+      "„Răspunde tuturor”"
+     ],
+     "corect": 0,
+     "explicatie": "Astfel adresele nu sunt expuse."
+    }
+   ]
+  },
+  {
+   "semestru": 2,
+   "test": [
+    {
+     "intrebare": "Cea mai eficientă măsură împotriva parolelor furate este:",
+     "optiuni": [
+      "autentificarea în doi pași",
+      "schimbarea lunară a parolei",
+      "parola scurtă cu simboluri",
+      "reutilizarea aceleiași parole"
+     ],
+     "corect": 0,
+     "explicatie": "Al doilea factor blochează accesul."
+    },
+    {
+     "intrebare": "Ransomware-ul:",
+     "optiuni": [
+      "criptează datele și cere răscumpărare",
+      "șterge sistemul de operare",
+      "fură parolele",
+      "încetinește calculatorul"
+     ],
+     "corect": 0,
+     "explicatie": "Copiile de siguranță sunt singura protecție reală."
+    },
+    {
+     "intrebare": "Actualizările de sistem:",
+     "optiuni": [
+      "corectează vulnerabilități cunoscute",
+      "schimbă doar interfața",
+      "eliberează spațiu",
+      "cresc viteza procesorului"
+     ],
+     "corect": 0,
+     "explicatie": "Amânarea lor lasă breșe deschise."
+    },
+    {
+     "intrebare": "Copiile de siguranță trebuie păstrate:",
+     "optiuni": [
+      "și într-o locație separată",
+      "doar pe același disc",
+      "doar pe desktop",
+      "doar în memoria RAM"
+     ],
+     "corect": 0,
+     "explicatie": "Altfel se pierd odată cu dispozitivul."
+    },
+    {
+     "intrebare": "Datele cu caracter personal sunt:",
+     "optiuni": [
+      "orice informații care pot identifica o persoană",
+      "doar numele și CNP-ul",
+      "doar datele bancare",
+      "doar fotografiile"
+     ],
+     "corect": 0,
+     "explicatie": "Inclusiv identificatorii online și datele de localizare."
+    },
+    {
+     "intrebare": "Consimțământul pentru prelucrarea datelor trebuie să fie:",
+     "optiuni": [
+      "liber, specific și informat",
+      "implicit",
+      "general și permanent",
+      "acordat de terți"
+     ],
+     "corect": 0,
+     "explicatie": "Căsuțele bifate din start nu constituie consimțământ."
+    },
+    {
+     "intrebare": "Urma digitală este:",
+     "optiuni": [
+      "ansamblul informațiilor lăsate online, activ și pasiv",
+      "doar postările publice",
+      "doar istoricul de navigare",
+      "doar datele din formulare"
+     ],
+     "corect": 0,
+     "explicatie": "Ea este greu reversibilă."
+    },
+    {
+     "intrebare": "Plagiatul înseamnă:",
+     "optiuni": [
+      "preluarea muncii altcuiva fără atribuire",
+      "citarea unei surse",
+      "parafrazarea cu trimitere",
+      "folosirea unei imagini licențiate"
+     ],
+     "corect": 0,
+     "explicatie": "Ușurința copierii nu îl face acceptabil."
+    },
+    {
+     "intrebare": "Licențele Creative Commons:",
+     "optiuni": [
+      "precizează condițiile de reutilizare a unei opere",
+      "elimină drepturile de autor",
+      "se aplică automat",
+      "interzic orice reutilizare"
+     ],
+     "corect": 0,
+     "explicatie": "Autorul alege tipul de licență."
+    },
+    {
+     "intrebare": "Răspunsul corect la cyberbullying include:",
+     "optiuni": [
+      "documentarea și raportarea",
+      "răspunsul în același registru",
+      "ștergerea imediată a probelor",
+      "tăcerea completă"
+     ],
+     "corect": 0,
+     "explicatie": "Capturile de ecran permit intervenția."
+    },
+    {
+     "intrebare": "Dezinformarea circulă rapid online deoarece:",
+     "optiuni": [
+      "algoritmii amplifică ce produce reacție emoțională",
+      "este verificată automat",
+      "provine din surse oficiale",
+      "este mai scurtă"
+     ],
+     "corect": 0,
+     "explicatie": "Corectitudinea nu determină difuzarea."
+    },
+    {
+     "intrebare": "La partajarea unui document se acordă:",
+     "optiuni": [
+      "doar drepturile necesare",
+      "întotdeauna editare",
+      "acces public",
+      "drepturi de administrator"
+     ],
+     "corect": 0,
+     "explicatie": "Este principiul privilegiului minim."
+    }
+   ]
+  }
+ ]
+}

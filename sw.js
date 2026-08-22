@@ -1,20 +1,101 @@
 /* Service worker: precache + strategii de cache.
    IMPORTANT: crește CACHE la fiecare modificare a fișierelor, ca utilizatorii să primească versiunea nouă. */
-const CACHE = 'stiinte01-v4';   // v02.1 — precache-ul ocolește cache-ul HTTP (fix amestec de versiuni)
-const ASSETS = [
+const CACHE = 'stiinte01-v7';   // v03 — temă comutabilă, setări, conținut pe module
+/* Scheletul aplicației: FĂRĂ el aplicația nu pornește, deci se cere atomic. */
+const SHELL = [
   './',
   './index.html',
   /* ?v= trebuie să fie IDENTIC cu cel din index.html (cache-ul SW potrivește
      URL-ul exact, cu tot cu query) — CI-ul verifică sincronizarea. */
-  './assets/app.css?v=4',
-  './assets/app.js?v=4',
+  './assets/app.css?v=7',
+  './assets/app.js?v=7',
   './manifest.webmanifest',
   './data/curriculum.json',
   './data/continut.json',
+  './data/versiuni.json',
   './icons/icon-192.png',
   './icons/icon-512.png',
   './icons/icon-maskable-512.png'
 ];
+
+/* Fișierele de modul (conținutul propriu-zis) se cer abia când e deschis
+   modulul, dar TREBUIE să ajungă în precache: altfel aplicația instalată ar
+   avea lecțiile doar cât timp există rețea. Lista o scrie
+   `tools/construieste-index.mjs` — nu o edita de mână.
+
+   Sunt 60 de fișiere, ~2,6 MB. Se cer INDIVIDUAL, nu prin `addAll`: acesta
+   respinge tot dacă o singură cerere pică, iar cu promisiunea respinsă în
+   `waitUntil` instalarea eșuează, `skipWaiting()` nu mai rulează și
+   utilizatorul rămâne tăcut pe versiunea veche. Pe rețea proastă, un singur
+   timeout dintre 60 ar fi anulat tot update-ul. Ce nu intră acum intră la
+   prima deschidere a modulului, prin handler-ul de fetch. */
+const MODULE = [
+  /* MODULE:START */
+  './data/module/geografie-9.json',
+  './data/module/istorie-9.json',
+  './data/module/logica-9.json',
+  './data/module/religie-9.json',
+  './data/module/latina-9.json',
+  './data/module/engleza-9.json',
+  './data/module/franceza-9.json',
+  './data/module/romana-9.json',
+  './data/module/biologie-9.json',
+  './data/module/chimie-9.json',
+  './data/module/fizica-9.json',
+  './data/module/matematica-9.json',
+  './data/module/tic-9.json',
+  './data/module/geografie-10.json',
+  './data/module/istorie-10.json',
+  './data/module/psihologie-10.json',
+  './data/module/religie-10.json',
+  './data/module/latina-10.json',
+  './data/module/engleza-10.json',
+  './data/module/franceza-10.json',
+  './data/module/romana-10.json',
+  './data/module/biologie-10.json',
+  './data/module/chimie-10.json',
+  './data/module/fizica-10.json',
+  './data/module/matematica-10.json',
+  './data/module/tic-10.json',
+  './data/module/geografie-11.json',
+  './data/module/holocaust-11.json',
+  './data/module/istorie-11.json',
+  './data/module/religie-11.json',
+  './data/module/sociologie-11.json',
+  './data/module/studii-sociale-11.json',
+  './data/module/engleza-11.json',
+  './data/module/franceza-11.json',
+  './data/module/romana-11.json',
+  './data/module/mass-11.json',
+  './data/module/stiam-11.json',
+  './data/module/tic-11.json',
+  './data/module/filosofie-12.json',
+  './data/module/geografie-12.json',
+  './data/module/istorie-12.json',
+  './data/module/religie-12.json',
+  './data/module/studii-sociale-12.json',
+  './data/module/engleza-12.json',
+  './data/module/franceza-12.json',
+  './data/module/romana-12.json',
+  './data/module/mass-12.json',
+  './data/module/stiam-12.json',
+  './data/module/tic-12.json',
+  './data/module/economie-13.json',
+  './data/module/filosofie-13.json',
+  './data/module/geografie-13.json',
+  './data/module/comunism-13.json',
+  './data/module/istorie-13.json',
+  './data/module/religie-13.json',
+  './data/module/studii-sociale-13.json',
+  './data/module/engleza-13.json',
+  './data/module/franceza-13.json',
+  './data/module/romana-13.json',
+  './data/module/bac-13.json',
+  /* MODULE:STOP */
+];
+
+/* Lista completă, folosită de verificatorul de precache din CI. */
+const ASSETS = SHELL.concat(MODULE);
 
 self.addEventListener('install', e => {
   e.waitUntil(
@@ -23,7 +104,13 @@ self.addEventListener('install', e => {
          addAll poate umple precache-ul noii versiuni cu fișiere VECHI luate
          din cache-ul HTTP (assets aveau max-age de 7 zile și nu au amprentă
          în nume) — exact bug-ul „HTML nou + CSS vechi” văzut în producție. */
-      .then(c => c.addAll(ASSETS.map(u => new Request(u, { cache: 'reload' }))))
+      .then(c => c.addAll(SHELL.map(u => new Request(u, { cache: 'reload' })))
+        /* Modulele: fiecare pe cont propriu. `allSettled` nu respinge
+           niciodată, deci un fișier care nu ajunge nu mai anulează instalarea
+           întregii versiuni. */
+        .then(() => Promise.allSettled(
+          MODULE.map(u => c.add(new Request(u, { cache: 'reload' })))
+        )))
       .then(() => self.skipWaiting())
   );
 });

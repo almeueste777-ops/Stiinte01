@@ -21,6 +21,45 @@ jobs:
             node -e "JSON.parse(require('fs').readFileSync('$f','utf8'))" && echo "OK  $f"
           done
 
+      - name: Validează modulele de conținut
+        run: |
+          for f in data/module/*.json; do
+            node -e "JSON.parse(require('fs').readFileSync('$f','utf8'))" || exit 1
+          done
+          echo "OK  $(ls data/module/*.json | wc -l) module JSON"
+
+      - name: Verifică structura conținutului
+        run: node tools/verifica-continut.mjs
+
+      - name: Verifică sincronizarea indexului cu modulele
+        run: |
+          node tools/construieste-index.mjs
+          git diff --exit-code -- data/continut.json sw.js \
+            || { echo "data/continut.json sau sw.js nu sunt regenerate; rulează tools/construieste-index.mjs"; exit 1; }
+
+      - name: Verifică jurnalul de versiuni al aplicației
+        run: |
+          node -e "
+            const fs = require('fs');
+            const v = JSON.parse(fs.readFileSync('data/versiuni.json','utf8'));
+            const sw = fs.readFileSync('sw.js','utf8');
+            const cache = Number(sw.match(/const CACHE = 'stiinte01-v(\\d+)'/)[1]);
+            let er = 0;
+            const sus = v.versiuni[0];
+            if (v.curenta !== sus.v) { console.error('curenta (' + v.curenta + ') nu e prima din listă (' + sus.v + ')'); er++; }
+            if (sus.cache !== cache) { console.error('cache din versiuni.json (' + sus.cache + ') != CACHE din sw.js (' + cache + ')'); er++; }
+            if (!Array.isArray(sus.schimbari) || !sus.schimbari.length) { console.error('versiunea curentă nu are schimbări scrise'); er++; }
+            const vazute = new Set();
+            for (const x of v.versiuni) {
+              for (const c of ['v','nume','data','cache','schimbari']) if (!(c in x)) { console.error(x.v + ': lipsește ' + c); er++; }
+              if (vazute.has(x.v)) { console.error('versiune duplicată: ' + x.v); er++; }
+              vazute.add(x.v);
+              if (!/^\\d{4}-\\d{2}-\\d{2}\$/.test(x.data)) { console.error(x.v + ': dată invalidă ' + x.data); er++; }
+            }
+            console.log(er ? 'JURNAL DE VERSIUNI DESINCRONIZAT' : 'OK  jurnal de versiuni — v' + v.curenta + ' ↔ CACHE v' + cache);
+            process.exit(er ? 1 : 0);
+          "
+
       - name: Verifică sintaxa JavaScript
         run: |
           node --check assets/app.js && echo "OK  assets/app.js"
@@ -44,9 +83,12 @@ jobs:
           node -e "
             const fs = require('fs');
             const sw = fs.readFileSync('sw.js','utf8');
-            const lista = sw.match(/const ASSETS = \[([\s\S]*?)\]/)[1]
+            // Precache-ul e împărțit: SHELL (cerut atomic) + MODULE (best-effort).
+            const bloc = n => sw.match(new RegExp('const ' + n + ' = \\[([\\s\\S]*?)\\n\\];'))[1];
+            const lista = (bloc('SHELL') + ',' + bloc('MODULE'))
               .replace(/\/\*[\s\S]*?\*\//g,'')
               .split(',').map(s => s.trim().replace(/^['\"]|['\"]\$/g,'')).filter(Boolean);
+            if (lista.length < 60) { console.error('lista de precache pare trunchiată: ' + lista.length); process.exit(1); }
             let er = 0;
             for (const p of lista) {
               if (p === './') continue;
@@ -68,7 +110,7 @@ jobs:
             for (const f of ['assets/app.css','assets/app.js']) {
               const q = f + '?v=' + n;
               if (!html.includes('./' + q)) { console.error('index.html nu referă ./' + q); er++; }
-              if (!sw.includes(\"'./\" + q + \"'\")) { console.error('ASSETS din sw.js nu conține ./' + q); er++; }
+              if (!sw.includes(\"'./\" + q + \"'\")) { console.error('SHELL din sw.js nu conține ./' + q); er++; }
             }
             console.log(er ? 'DESINCRONIZAT' : 'OK  CACHE v' + n + ' ↔ ?v=' + n);
             process.exit(er ? 1 : 0);

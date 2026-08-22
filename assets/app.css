@@ -59,7 +59,7 @@
 
   /* Linii */
   --hairline:        #E0CDB6;  /* 1px cald, nu gri */
-  --hairline-strong: #D2B896;  /* pentru prefers-contrast: more */
+  --hairline-strong: #D2B896;  /* pentru contrastul ridicat (§13) */
 
   /* Culori de brand și semantice */
   --brand:       #9E4119;  /* teracotă arsă — identitatea aplicației */
@@ -195,66 +195,64 @@
    Fiecare neutru păstrează hue ~25°. Umbrele neumorfice se RECALCULEAZĂ:
    pe întuneric „lumina” nu mai e albă, ci o ridicare caldă slabă.
    =========================================================================== */
-@media (prefers-color-scheme: dark){
-  :root{
-    --surface-base:    #191310;   /* espresso */
-    --surface-raised:  #241B15;   /* cafea cu lapte foarte închisă */
-    --surface-sunken:  #120D0A;   /* aproape negru, dar cald */
-    --surface-overlay: #281E17;
+:root:where([data-tema="intunecat"]){
+  --surface-base:    #191310;   /* espresso */
+  --surface-raised:  #241B15;   /* cafea cu lapte foarte închisă */
+  --surface-sunken:  #120D0A;   /* aproape negru, dar cald */
+  --surface-overlay: #281E17;
 
-    --ink:        #F4E7D6;   /* smântână */
-    --ink-muted:  #B49A80;   /* lut deschis */
-    --ink-faint:  #8A735E;
+  --ink:        #F4E7D6;   /* smântână */
+  --ink-muted:  #B49A80;   /* lut deschis */
+  --ink-faint:  #8A735E;
 
-    --hairline:        #3A2A20;
-    --hairline-strong: #57402F;
+  --hairline:        #3A2A20;
+  --hairline-strong: #57402F;
 
-    --brand:       #EE9068;   /* teracota se deschide ca să reziste pe fundal închis */
-    --brand-ink:   #2A1206;
-    --accent:      #E7B267;
-    --accent-text: #E7B267;
-    --accent-ink:  #23150A;
-    --ok:          #8CC96E;
-    --bad:         #FF9C85;
+  --brand:       #EE9068;   /* teracota se deschide ca să reziste pe fundal închis */
+  --brand-ink:   #2A1206;
+  --accent:      #E7B267;
+  --accent-text: #E7B267;
+  --accent-ink:  #23150A;
+  --ok:          #8CC96E;
+  --bad:         #FF9C85;
 
-    /* Mesh ambiental nocturn: aceleași centre, jar în loc de soare */
-    --ambient:
-      radial-gradient(1100px 640px at  6% -8%, #2E2016 0%, rgba(46,32,22,0) 62%),
-      radial-gradient( 920px 720px at 104%  2%, #2B1B18 0%, rgba(43,27,24,0) 58%),
-      radial-gradient( 780px 640px at  48% 106%, #241A13 0%, rgba(36,26,19,0) 60%),
-      linear-gradient(180deg, #1B1411 0%, #140F0C 100%);
+  /* Mesh ambiental nocturn: aceleași centre, jar în loc de soare */
+  --ambient:
+    radial-gradient(1100px 640px at  6% -8%, #2E2016 0%, rgba(46,32,22,0) 62%),
+    radial-gradient( 920px 720px at 104%  2%, #2B1B18 0%, rgba(43,27,24,0) 58%),
+    radial-gradient( 780px 640px at  48% 106%, #241A13 0%, rgba(36,26,19,0) 60%),
+    linear-gradient(180deg, #1B1411 0%, #140F0C 100%);
 
-    /* Neumorfism recalculat pentru suprafața #241B15 */
-    --nm-l: 92,70,52;      /* #5C4634 — ridicare caldă, nu alb */
-    --nm-d: 0,0,0;         /* umbra pe întuneric e beznă curată */
-    --nm-raised:
-        -7px -7px 16px rgba(var(--nm-l),.36),
-         7px  7px 18px rgba(var(--nm-d),.58);
-    --nm-subtle:
-        -3px -3px  8px rgba(var(--nm-l),.28),
-         3px  3px  9px rgba(var(--nm-d),.45);
-    --nm-pressed:
-        inset -4px -4px 10px rgba(var(--nm-l),.30),
-        inset  5px  5px 12px rgba(var(--nm-d),.62);
-    --nm-flat:
-        0 0 0 1px var(--hairline),
-        0 1px 2px rgba(var(--nm-d),.40);
+  /* Neumorfism recalculat pentru suprafața #241B15 */
+  --nm-l: 92,70,52;      /* #5C4634 — ridicare caldă, nu alb */
+  --nm-d: 0,0,0;         /* umbra pe întuneric e beznă curată */
+  --nm-raised:
+      -7px -7px 16px rgba(var(--nm-l),.36),
+       7px  7px 18px rgba(var(--nm-d),.58);
+  --nm-subtle:
+      -3px -3px  8px rgba(var(--nm-l),.28),
+       3px  3px  9px rgba(var(--nm-d),.45);
+  --nm-pressed:
+      inset -4px -4px 10px rgba(var(--nm-l),.30),
+      inset  5px  5px 12px rgba(var(--nm-d),.62);
+  --nm-flat:
+      0 0 0 1px var(--hairline),
+      0 1px 2px rgba(var(--nm-d),.40);
 
-    /* Sticlă nocturnă: tentă de espresso, muchie chihlimbarie foarte discretă */
-    --glass-bg:     rgba(46,34,26,.58);
-    --glass-blur:   blur(22px) saturate(160%);
-    --glass-border: rgba(255,214,170,.16);
-    --glass-shadow:
-        0 10px 34px rgba(0,0,0,.52),
-        inset 0 1px 0 rgba(255,222,186,.10);
-    --glass-specular:
-        linear-gradient(155deg,
-          rgba(255,224,188,.14)  0%,
-          rgba(255,224,188,.04) 34%,
-          rgba(255,224,188,0)   60%);
+  /* Sticlă nocturnă: tentă de espresso, muchie chihlimbarie foarte discretă */
+  --glass-bg:     rgba(46,34,26,.58);
+  --glass-blur:   blur(22px) saturate(160%);
+  --glass-border: rgba(255,214,170,.16);
+  --glass-shadow:
+      0 10px 34px rgba(0,0,0,.52),
+      inset 0 1px 0 rgba(255,222,186,.10);
+  --glass-specular:
+      linear-gradient(155deg,
+        rgba(255,224,188,.14)  0%,
+        rgba(255,224,188,.04) 34%,
+        rgba(255,224,188,0)   60%);
 
-    --focus-ring: 0 0 0 3px rgba(238,144,104,.34), 0 0 0 1px var(--brand);
-  }
+  --focus-ring: 0 0 0 3px rgba(238,144,104,.34), 0 0 0 1px var(--brand);
 }
 
 /* ===========================================================================
@@ -269,52 +267,42 @@
     --glass-specular: none;
     --glass-shadow:   0 6px 22px rgba(90,58,32,.16);
   }
-  @media (prefers-color-scheme: dark){
-    :root{ --glass-shadow: 0 8px 26px rgba(0,0,0,.55); }
-  }
+  :root:where([data-tema="intunecat"]){ --glass-shadow: 0 8px 26px rgba(0,0,0,.55); }
 }
 
 /* ===========================================================================
    12. TRANSPARENȚĂ REDUSĂ — utilizatorul a cerut explicit suprafețe opace.
    =========================================================================== */
-@media (prefers-reduced-transparency: reduce){
-  :root{
-    --glass-bg:       var(--glass-bg-solid);
-    --glass-blur:     none;
-    --glass-specular: none;
-    --glass-border:   var(--hairline);
-    --glass-shadow:   0 4px 18px rgba(90,58,32,.14);
-    --ambient:        none;   /* fundal plat: nu mai are ce estompa */
-  }
-  @media (prefers-color-scheme: dark){
-    :root{ --glass-shadow: 0 6px 20px rgba(0,0,0,.55); }
-  }
+:root:where([data-transparenta="redusa"]){
+  --glass-bg:       var(--glass-bg-solid);
+  --glass-blur:     none;
+  --glass-specular: none;
+  --glass-border:   var(--hairline);
+  --glass-shadow:   0 4px 18px rgba(90,58,32,.14);
+  --ambient:        none;   /* fundal plat: nu mai are ce estompa */
 }
+:root:where([data-transparenta="redusa"][data-tema="intunecat"]){ --glass-shadow: 0 6px 20px rgba(0,0,0,.55); }
 
 /* ===========================================================================
    13. CONTRAST RIDICAT — aici neumorfismul cedează primul.
    Umbrele moi dispar, granițele devin linii de 1px reale, textul secundar urcă.
    =========================================================================== */
-@media (prefers-contrast: more){
-  :root{
-    --ink-muted:  #5A4536;                 /* 7.82:1 pe nisip */
-    --hairline:   var(--hairline-strong);
-    --nm-raised:  0 0 0 1px var(--hairline), 0 2px 6px rgba(var(--nm-d),.18);
-    --nm-subtle:  0 0 0 1px var(--hairline);
-    --nm-pressed: inset 0 0 0 2px var(--hairline);
-    --nm-flat:    0 0 0 1px var(--hairline);
-    --glass-bg:       var(--glass-bg-solid);
-    --glass-blur:     none;
-    --glass-specular: none;
-    --glass-border:   var(--hairline-strong);
-    --ambient:        none;
-    --focus-ring: 0 0 0 3px var(--surface-base), 0 0 0 6px var(--brand);
-  }
-  @media (prefers-color-scheme: dark){
-    :root{
-      --ink-muted: #D2BCA2;                /* 10.03:1 pe espresso */
-    }
-  }
+:root:where([data-contrast="ridicat"]){
+  --ink-muted:  #5A4536;                 /* 7.82:1 pe nisip */
+  --hairline:   var(--hairline-strong);
+  --nm-raised:  0 0 0 1px var(--hairline), 0 2px 6px rgba(var(--nm-d),.18);
+  --nm-subtle:  0 0 0 1px var(--hairline);
+  --nm-pressed: inset 0 0 0 2px var(--hairline);
+  --nm-flat:    0 0 0 1px var(--hairline);
+  --glass-bg:       var(--glass-bg-solid);
+  --glass-blur:     none;
+  --glass-specular: none;
+  --glass-border:   var(--hairline-strong);
+  --ambient:        none;
+  --focus-ring: 0 0 0 3px var(--surface-base), 0 0 0 6px var(--brand);
+}
+:root:where([data-contrast="ridicat"][data-tema="intunecat"]){
+  --ink-muted: #D2BCA2;                /* 10.03:1 pe espresso */
 }
 
 /* ═══════════════════════════════════════════════════════════════════════════
@@ -380,44 +368,73 @@
   --bar-edge:    #8A5410;   /* muchia umplerii de progres: 4,81:1 față de șanț */
 }
 
-@media (prefers-color-scheme: dark){
-  :root{
-    --glass-bg-strong:   rgba(52,39,30,.80);
-    --glass-highlight:   rgba(255,222,186,.11);
-    --glass-inner-shadow:rgba(0,0,0,.32);
+:root:where([data-tema="intunecat"]){
+  --glass-bg-strong:   rgba(52,39,30,.80);
+  --glass-highlight:   rgba(255,222,186,.11);
+  --glass-inner-shadow:rgba(0,0,0,.32);
 
-    --brand-2:  #F5A882;
-    --brand-glow: rgba(238,144,104,.42);
-    --accent-2: #F2C685;
-    --accent-glow: rgba(231,178,103,.32);
-    --accent-halo: rgba(231,178,103,.14);
-    --amber:    #F3CE8E;
+  --brand-2:  #F5A882;
+  --brand-glow: rgba(238,144,104,.42);
+  --accent-2: #F2C685;
+  --accent-glow: rgba(231,178,103,.32);
+  --accent-halo: rgba(231,178,103,.14);
+  --amber:    #F3CE8E;
 
-    --ok-bg:    rgba(140,201,110,.15);
-    --ok-line:  rgba(140,201,110,.40);
-    --ok-glow:  rgba(140,201,110,.40);
-    --ok-halo:  rgba(140,201,110,.20);
-    --ok-text:  #B9DFA0;               /* min. 7,84:1 pe fundalul real al opțiunii */
+  --ok-bg:    rgba(140,201,110,.15);
+  --ok-line:  rgba(140,201,110,.40);
+  --ok-glow:  rgba(140,201,110,.40);
+  --ok-halo:  rgba(140,201,110,.20);
+  --ok-text:  #B9DFA0;               /* min. 7,84:1 pe fundalul real al opțiunii */
 
-    --bad-bg:   rgba(255,156,133,.15);
-    --bad-line: rgba(255,156,133,.38);
-    --bad-glow: rgba(255,156,133,.38);
-    --bad-halo: rgba(255,156,133,.20);
-    --bad-text: #FFB9A8;               /* min. 7,02:1 pe fundalul real al opțiunii */
+  --bad-bg:   rgba(255,156,133,.15);
+  --bad-line: rgba(255,156,133,.38);
+  --bad-glow: rgba(255,156,133,.38);
+  --bad-halo: rgba(255,156,133,.20);
+  --bad-text: #FFB9A8;               /* min. 7,02:1 pe fundalul real al opțiunii */
 
-    --shadow-deep: rgba(0,0,0,.70);
-    --hover-tint:  rgba(238,144,104,.07);
-    --bar-edge:    #F3CE8E;   /* pe întuneric muchia trebuie să fie mai deschisă decât șanțul */
-  }
+  --shadow-deep: rgba(0,0,0,.70);
+  --hover-tint:  rgba(238,144,104,.07);
+  --bar-edge:    #F3CE8E;   /* pe întuneric muchia trebuie să fie mai deschisă decât șanțul */
 }
 
 /* La transparență redusă și la contrast ridicat sticla „densă” devine opacă. */
-@media (prefers-reduced-transparency: reduce){
-  :root{ --glass-bg-strong: var(--surface-raised) }
+:root:where([data-transparenta="redusa"]){ --glass-bg-strong: var(--surface-raised) }
+:root:where([data-contrast="ridicat"]){ --glass-bg-strong: var(--surface-raised); --glass-highlight: transparent }
+/* ===========================================================================
+   14. PREFERINȚE DE UTILIZATOR — pârghiile din ecranul Setări.
+   Se aplică prin atribute pe <html>, puse de app.js (bootstrap-ul din
+   index.html le pune ÎNAINTE de prima pictură, ca să nu existe clipire).
+   Valoarea „automat" nu are bloc aici: app.js citește preferința sistemului
+   și scrie atributul rezolvat — așa poate fi și FORȚATĂ din Setări.
+   =========================================================================== */
+
+/* Densitatea = o singură pârghie pe scara de spațiere. Restul tokenilor
+   (--gutter, --pad-card, --stack) o moștenesc, fiindcă var() se rezolvă
+   la folosire, nu la definire. */
+:root[data-densitate="compact"]{
+  --sp-5: 9px;   --sp-6: 12px;  --sp-7: 15px;
+  --sp-8: 18px;  --sp-9: 24px;  --sp-10:30px;  --sp-11:36px;
 }
-@media (prefers-contrast: more){
-  :root{ --glass-bg-strong: var(--surface-raised); --glass-highlight: transparent }
+:root[data-densitate="spatios"]{
+  --sp-5: 15px;  --sp-6: 20px;  --sp-7: 26px;
+  --sp-8: 32px;  --sp-9: 42px;  --sp-10:52px;  --sp-11:62px;
 }
+
+/* Familia de litere. Fără fonturi externe: doar stive de sistem. */
+:root[data-font="serif"]{
+  --font-sans: ui-serif, Georgia, "Iowan Old Style", "Palatino Linotype",
+               "Times New Roman", serif;
+  --lh-base: 1.6;
+}
+/* „Lizibil": literă lată, rânduri rare, tracking pozitiv — profilul potrivit
+   pentru citit lung și pentru dificultăți de citire. */
+:root[data-font="lizibil"]{
+  --font-sans: Verdana, Tahoma, "DejaVu Sans", "Segoe UI", system-ui, sans-serif;
+  --lh-base: 1.75;  --lh-loose: 1.95;  --lh-snug: 1.5;
+  --track-base: .015em;
+}
+
+
 /* ═══════════════════════════════════════════════════════════════
    STRAT 2 — COMPONENTE
    Sticlă caldă (cromul plutitor) + relief neumorfic (conținutul).
@@ -429,6 +446,9 @@
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
 html{
+  /* Mărimea textului din Setări: un multiplicator peste dimensiunea de bază
+     a browserului (deci respectă și setarea de sistem, nu o înlocuiește). */
+  font-size:calc(100% * var(--fs-scale,1));
   -webkit-text-size-adjust:100%;
   /* topbar-ul e fix, deci ancorele nu trebuie să intre sub el */
   scroll-padding-top:calc(var(--topbar-h) + var(--safe-t) + var(--sp-5));
@@ -502,6 +522,8 @@ body::before{
 .icon-btn svg{width:22px;height:22px;display:block}
 .icon-btn:active{box-shadow:inset 0 2px 6px rgba(90,58,32,.22)}   /* scalarea o dă stratul 3 */
 .icon-btn[hidden]{display:none}   /* [hidden] trebuie să bată display:grid */
+/* Roata dințată din capătul opus: aceeași pastilă, oglindită. */
+.icon-btn.end{margin-left:0; margin-right:calc(var(--sp-4) * -1)}
 
 /* ── 3. Badge „offline” — pastilă de chihlimbar cu punct pulsant ─ */
 
@@ -683,7 +705,10 @@ ul.clean li::before{         /* bulină de teracotă cu halou cald */
 }
 .btn.ghost:active{box-shadow:var(--nm-pressed)}
 .btn.sm{width:auto; min-height:40px; padding:0 var(--sp-6); font-size:.9rem}
-.btn + .btn{margin-top:var(--sp-4)}
+/* `:not(.grid2 > *)`: regula stă mai jos în fișier decât `.grid2 > .btn`, deci
+   la specificitate egală câștiga ea și cobora al doilea buton din pereche cu
+   8px, lăsându-l și mai scund. Excluderea rezolvă fără să mutăm ordinea. */
+.btn + .btn:not(.grid2 > *){margin-top:var(--sp-4)}
 
 /* ── 10. Bara de progres — șanț neumorfic + umplere de chihlimbar ─ */
 
@@ -761,6 +786,14 @@ ul.clean li::before{         /* bulină de teracotă cu halou cald */
     linear-gradient(-45deg,transparent 44%,var(--bad) 44% 56%,transparent 56%);
 }
 
+/* Fără corectură imediată: se marchează DOAR alegerea, fără să se dezvăluie
+   dacă e bună — corectura completă vine la finalul testului. */
+.opt.ales{
+  border-color:transparent; color:var(--brand-ink);
+  background-image:linear-gradient(180deg,var(--brand-2),var(--brand));
+  box-shadow:0 1px 0 var(--glass-highlight) inset, 0 6px 16px -8px var(--brand-glow);
+}
+
 /* ── 12. Cardul de memorare — sticlă înaltă cu reflex diagonal ── */
 
 .flash{
@@ -801,11 +834,19 @@ ul.clean li::before{         /* bulină de teracotă cu halou cald */
   width:calc(100% + var(--sp-6) * 2);
   margin:calc(var(--sp-6) * -1);
 }
+/* Marginea negativă de SUS are sens doar când tabelul e primul lucru din card.
+   Când urmează după un titlu („Termeni”), îl acoperea cu 16px — se vedea doar
+   jumătatea de sus a cuvântului. */
+.card > :not(table) + table{margin-top:var(--sp-4)}
 table{border-collapse:separate; border-spacing:0; width:100%; font-size:var(--fs-250)}
 th,td{
-  text-align:left; vertical-align:top; overflow-wrap:anywhere;
+  text-align:left; vertical-align:top;
   padding:var(--sp-5) var(--sp-6);
 }
+/* `anywhere` doar în celulele de date, unde apar definiții lungi fără spații.
+   Pe antet rupea cuvinte scurte în mijloc („TERME/N”), fără niciun câștig. */
+td{overflow-wrap:anywhere}
+th{overflow-wrap:break-word}
 th{
   position:sticky; top:calc(var(--topbar-h) + var(--safe-t)); z-index:2;
   padding-top:var(--sp-4); padding-bottom:var(--sp-4);
@@ -929,16 +970,297 @@ textarea:focus{outline:none; box-shadow:var(--nm-inset), var(--focus-ring)}
 .opt:focus-visible,.card.tap:focus-visible{box-shadow:var(--nm-raised), var(--focus-ring)}
 .tab:focus-visible{outline-offset:-2px}
 
-@media (prefers-contrast:more){
-  .card,.opt,.chip{border-color:var(--ink)}
-  .muted,td.muted{color:var(--ink)}
-}
+:root:where([data-contrast="ridicat"]) :is(.card,.opt,.chip){border-color:var(--ink)}
+:root:where([data-contrast="ridicat"]) :is(.muted,td.muted){color:var(--ink)}
 
 /* ── 18. Rezerve: fără backdrop-filter → suprafețe opace ──────── */
 
 @supports not ((backdrop-filter:blur(2px)) or (-webkit-backdrop-filter:blur(2px))){
   .topbar,.tabbar,.flash,.icon-btn{background:var(--surface-overlay)}
 }
+
+/* ── 18b. Liste grupate, comutatoare, segmente ────────────────
+   Vocabularul ecranului Setări și al listelor de lecții: un card care
+   conține rânduri despărțite de un fir de 1px, în stilul „grouped list”.
+   Fiecare control are ținta reală de ≥44px, chiar dacă pare mai mic. */
+
+.lista{
+  margin:0 0 var(--sp-5); padding:0; overflow:hidden;
+  border:1px solid var(--hairline); border-radius:var(--r-lg);
+  background-color:var(--surface-raised);
+  background-image:linear-gradient(180deg,var(--glass-highlight) 0%,transparent 38%);
+  box-shadow:var(--nm-raised);
+}
+.rand{
+  /* `flex-wrap`: când eticheta și controlul nu mai încap pe un rând (320px,
+     text la 140%, densitate spațioasă), controlul coboară sub text în loc să
+     se suprapună peste el. `.rand.col` rezolva doar segmentele și cursorul. */
+  display:flex; align-items:center; gap:var(--sp-5); flex-wrap:wrap;
+  width:100%; min-height:58px; padding:var(--sp-5) var(--sp-6);
+  border:0; border-top:1px solid var(--hairline);
+  background:transparent; color:inherit; font:inherit; text-align:left;
+}
+.rand:first-child{border-top:0}
+.rand-txt{flex:1 1 12ch; min-width:0}
+.rand-txt strong{display:block; font-weight:var(--fw-semi)}
+/* `:not(.pill)`: altfel `display:block` prindea și `<span class="pill">BAC</span>`
+   din interiorul lui `<strong>` și transforma pastila într-o bară aurie lată
+   cât rândul (806px la 1280px lățime). */
+.rand-txt span:not(.pill){display:block; margin-top:2px; color:var(--ink-muted); font-size:var(--fs-200)}
+.rand-ctl{flex:0 0 auto; display:flex; align-items:center; gap:var(--sp-4); margin-left:auto}
+/* Controlul lat (segmente, cursor) trece SUB etichetă, altfel se strivește. */
+.rand.col{flex-direction:column; align-items:stretch}
+.rand.col .rand-ctl{width:100%; margin-top:var(--sp-5)}
+/* Rând apăsabil (deschide un ecran / execută o acțiune). */
+button.rand{cursor:pointer; -webkit-tap-highlight-color:transparent;
+  transition:background var(--dur-fast) var(--ease-ios)}
+button.rand:active{background:var(--hover-tint)}
+button.rand.grav .rand-txt strong{color:var(--bad-text)}
+
+/* Comutator — pista e un puț neumorfic, bila o pastilă ridicată.
+   Butonul are 44px înălțime reală; pista, desenată în ::before, e mai
+   subțire doar vizual. */
+.switch{
+  position:relative; flex:0 0 auto;
+  width:58px; height:44px; padding:0; border:0;
+  background:transparent; cursor:pointer; -webkit-tap-highlight-color:transparent;
+}
+.switch::before{
+  content:""; position:absolute; inset:6px 0; border-radius:var(--r-pill);
+  background:var(--surface-sunken);
+  /* Conturul explicit: fără el, pista oprită avea 1,07:1 față de suprafață
+     (măsurat pe pixeli), adică era practic invizibilă pe tema întunecată.
+     WCAG 1.4.11 cere ≥3:1 pentru componentele de interfață. `--hairline-strong`
+     ajungea doar la 1,8:1 — măsurat, nu presupus; `--ink-faint` trece pragul în
+     ambele teme fără să transforme comutatorul într-o cutie cu ramă groasă. */
+  box-shadow:var(--nm-inset), 0 0 0 1px var(--ink-faint);
+  transition:background var(--dur-base) var(--ease-ios),
+             box-shadow var(--dur-base) var(--ease-ios);
+}
+.switch::after{
+  content:""; position:absolute; top:9px; left:4px; width:26px; height:26px;
+  border-radius:50%;
+  background-color:var(--surface-overlay);
+  background-image:linear-gradient(180deg,var(--glass-highlight),transparent 62%);
+  box-shadow:0 2px 7px rgba(90,58,32,.30), 0 0 0 1px var(--ink-faint);
+  transition:transform var(--dur-base) var(--ease-ios),
+             background-color var(--dur-base) var(--ease-ios);
+}
+/* Bila PORNITĂ rămâne deschisă, pe pistă colorată. */
+.switch[aria-checked="true"]::after{background-color:var(--surface-raised)}
+.switch[aria-checked="true"]::before{
+  background-image:linear-gradient(180deg,var(--brand-2),var(--brand));
+  box-shadow:0 1px 0 var(--glass-highlight) inset, 0 4px 12px -6px var(--brand-glow);
+}
+.switch[aria-checked="true"]::after{transform:translateX(24px)}
+.switch:focus-visible{outline:none; border-radius:var(--r-pill); box-shadow:var(--focus-ring)}
+
+/* Control segmentat — 2–4 opțiuni scurte, exclusive. */
+.seg{
+  display:flex; gap:2px; padding:4px; width:100%;
+  border-radius:var(--r-pill);
+  background:var(--surface-sunken); box-shadow:var(--nm-inset);
+}
+/* `flex:1 1 auto`, NU `1 1 0`: cu bază zero toate segmentele ies fix egale,
+   iar eticheta cea mai lungă („Întunecat") se taie în timp ce vecinele au loc
+   gol. Cu bază pe conținut, spațiul liber se împarte peste lățimea naturală. */
+.seg > button{
+  /* 44px ținta reală, nu 40: padding-ul containerului nu e clicabil, deci
+     înălțimea butonului ESTE ținta. Măsurat cu elementFromPoint, nu dedus. */
+  flex:1 1 auto; min-width:0; min-height:44px; padding:6px var(--sp-3);
+  border:0; border-radius:var(--r-pill);
+  background:transparent; color:var(--ink-muted);
+  font:inherit; font-size:.82rem; font-weight:var(--fw-semi);
+  /* Eticheta se rupe pe două rânduri în loc să se taie cu „…”: la 320px sau
+     la 140% mărime text, „Confortabil” și „Cele grele” nu încap pe un rând,
+     iar o etichetă tăiată nu se mai poate citi deloc. */
+  line-height:1.15; text-align:center;
+  overflow-wrap:break-word; hyphens:auto;
+  cursor:pointer; -webkit-tap-highlight-color:transparent;
+  transition:color var(--dur-fast) var(--ease-ios),
+             box-shadow var(--dur-fast) var(--ease-ios);
+}
+.seg > button[aria-checked="true"]{
+  color:var(--brand-ink);
+  background-image:linear-gradient(180deg,var(--brand-2),var(--brand));
+  box-shadow:0 1px 0 var(--glass-highlight) inset, 0 6px 14px -8px var(--brand-glow);
+}
+
+/* Cursor (mărimea textului). Pista și bila se desenează pe ambele motoare. */
+.range{
+  -webkit-appearance:none; appearance:none;
+  width:100%; height:44px; margin:0; background:transparent; cursor:pointer;
+}
+.range:focus-visible{outline:none}
+.range::-webkit-slider-runnable-track{
+  height:12px; border-radius:var(--r-pill);
+  background:var(--surface-sunken); box-shadow:var(--nm-inset);
+}
+.range::-webkit-slider-thumb{
+  -webkit-appearance:none; appearance:none;
+  width:28px; height:28px; margin-top:-8px; border-radius:50%;
+  background-image:linear-gradient(180deg,var(--brand-2),var(--brand));
+  box-shadow:0 1px 0 var(--glass-highlight) inset, 0 3px 9px var(--brand-glow);
+}
+.range::-moz-range-track{
+  height:12px; border-radius:var(--r-pill);
+  background:var(--surface-sunken); box-shadow:var(--nm-inset);
+}
+.range::-moz-range-thumb{
+  width:28px; height:28px; border:0; border-radius:50%;
+  background-image:linear-gradient(180deg,var(--brand-2),var(--brand));
+  box-shadow:0 1px 0 var(--glass-highlight) inset, 0 3px 9px var(--brand-glow);
+}
+.range:focus-visible::-webkit-slider-thumb{box-shadow:var(--focus-ring)}
+.range:focus-visible::-moz-range-thumb{box-shadow:var(--focus-ring)}
+
+/* Incrementator numeric — minus, valoare, plus. */
+.stepper{display:inline-flex; align-items:center; gap:var(--sp-4)}
+.stepper button{
+  width:44px; height:44px; padding:0;
+  border:1px solid var(--hairline); border-radius:var(--r-pill);
+  background-color:var(--surface-raised);
+  background-image:linear-gradient(180deg,var(--glass-highlight),transparent 50%);
+  color:var(--ink); font:inherit; font-size:1.25rem; font-weight:var(--fw-bold);
+  line-height:1; box-shadow:var(--nm-subtle);
+  cursor:pointer; -webkit-tap-highlight-color:transparent;
+}
+.stepper button:active{box-shadow:var(--nm-pressed)}
+.stepper button[disabled]{opacity:.4; cursor:default}
+.stepper output{
+  min-width:3.6em; text-align:center;
+  font-weight:var(--fw-semi); font-variant-numeric:tabular-nums;
+}
+
+/* Buton de acțiune gravă (ștergeri) — contur, nu umplutură plină:
+   pe temă întunecată --bad e deschis, iar text alb pe el ar cădea sub prag. */
+.btn.grav{
+  color:var(--bad-text); border:1px solid var(--bad-line);
+  background-color:var(--bad-bg); background-image:none;
+  box-shadow:var(--nm-raised);
+}
+.btn.grav:active{box-shadow:var(--nm-pressed); filter:none}
+
+/* ── 18c. Module: firimituri, capitole, rânduri de lecție, cifre ─ */
+
+/* Firimituri de navigare: unde mă aflu, deasupra titlului ecranului. */
+.crumb{
+  margin:0 0 var(--sp-5); color:var(--ink-muted);
+  font-size:var(--fs-200); font-weight:var(--fw-medium);
+}
+.crumb b{color:var(--ink); font-weight:var(--fw-semi)}
+
+/* Antetul unui capitol: numărul, titlul, insigna de semestru. */
+.cap{margin:0 0 var(--sp-7)}
+.cap-head{display:flex; align-items:center; gap:var(--sp-5); margin:0 0 var(--sp-4); padding:0 var(--sp-3)}
+.cap-head h3{flex:1 1 auto; min-width:0; margin:0}
+.cap-head .pill.soft{flex:0 0 auto}
+
+/* Rând de lecție dintr-o listă de capitol. */
+.lec{
+  display:flex; align-items:center; gap:var(--sp-5);
+  width:100%; min-height:58px; padding:var(--sp-5) var(--sp-6);
+  border:0; border-top:1px solid var(--hairline);
+  background:transparent; color:inherit; font:inherit; text-align:left;
+  cursor:pointer; -webkit-tap-highlight-color:transparent;
+  transition:background var(--dur-fast) var(--ease-ios);
+}
+.lec:first-child{border-top:0}
+.lec:active{background:var(--hover-tint)}
+.lec-nr{
+  flex:0 0 auto; display:grid; place-items:center;
+  width:30px; height:30px; border-radius:50%;
+  background:var(--surface-sunken); box-shadow:var(--nm-inset);
+  color:var(--ink-muted); font-size:.8rem; font-weight:var(--fw-bold);
+  font-variant-numeric:tabular-nums;
+}
+.lec.citit .lec-nr{
+  color:var(--brand-ink); background-image:linear-gradient(180deg,var(--brand-2),var(--brand));
+  box-shadow:0 1px 0 var(--glass-highlight) inset, 0 3px 9px -4px var(--brand-glow);
+}
+.lec-txt{flex:1 1 auto; min-width:0}
+.lec-txt strong{display:block; font-weight:var(--fw-medium)}
+.lec-txt span{display:block; margin-top:2px; color:var(--ink-muted); font-size:var(--fs-200)}
+.lec-sag{
+  flex:0 0 auto; width:8px; height:8px;
+  border-right:2px solid var(--ink-muted); border-top:2px solid var(--ink-muted);
+  border-radius:1px; transform:rotate(45deg); opacity:.65;
+}
+
+/* Lista de schimbări din ecranul „Ce s-a schimbat”. Bulinele proprii, ca să
+   respecte paleta și să nu depindă de stilul implicit al browserului. */
+.noutati{margin:var(--sp-4) 0 0; padding:0; list-style:none}
+.noutati > li{
+  position:relative; padding-left:var(--sp-6); margin-top:var(--sp-4);
+  color:var(--ink-muted); font-size:var(--fs-250); line-height:var(--lh-base);
+}
+.noutati > li::before{
+  content:""; position:absolute; left:0; top:.62em;
+  width:5px; height:5px; border-radius:50%; background:var(--brand);
+}
+
+/* Antetul de capitol e apăsabil în ecranul materiei (duce la capitol). */
+button.cap-head{
+  width:100%; padding:var(--sp-3) var(--sp-3); border:0;
+  background:transparent; color:inherit; font:inherit; text-align:left;
+  min-height:44px; cursor:pointer; -webkit-tap-highlight-color:transparent;
+  border-radius:var(--r-md);
+  transition:background var(--dur-fast) var(--ease-ios);
+}
+button.cap-head:active{background:var(--hover-tint)}
+
+/* Cifre-erou: 2–4 valori pe un rând, sub un card. */
+.stats{display:grid; grid-template-columns:repeat(auto-fit,minmax(84px,1fr)); gap:var(--sp-4); margin:var(--sp-5) 0}
+.stat{
+  padding:var(--sp-5) var(--sp-4); text-align:center;
+  border-radius:var(--r-md);
+  background:var(--surface-sunken); box-shadow:var(--nm-inset);
+}
+.stat b{display:block; font-size:var(--fs-500); font-weight:var(--fw-bold); font-variant-numeric:tabular-nums; letter-spacing:var(--track-tight)}
+.stat span{display:block; margin-top:2px; color:var(--ink-muted); font-size:var(--fs-100); text-transform:uppercase; letter-spacing:var(--track-wide)}
+
+/* Cronometru din test — pastilă de chihlimbar, cifre tabulare. */
+.timer{
+  display:inline-flex; align-items:center; gap:.4em;
+  padding:.34em .74em; border-radius:var(--r-pill);
+  background:var(--surface-sunken); box-shadow:var(--nm-inset);
+  color:var(--ink-muted); font-size:var(--fs-200); font-weight:var(--fw-semi);
+  font-variant-numeric:tabular-nums;
+}
+.timer.urgent{color:var(--bad-text); background:var(--bad-bg); box-shadow:inset 0 0 0 1px var(--bad-line)}
+
+/* Recapitularea greșelilor, la finalul testului. */
+.rev{margin:0; padding:0; list-style:none; display:grid; gap:var(--sp-4)}
+.rev li{
+  padding:var(--sp-5) var(--sp-6); border-radius:var(--r-md);
+  background:var(--surface-sunken); box-shadow:var(--nm-inset);
+}
+.rev li strong{display:block; margin-bottom:var(--sp-2)}
+.rev li .ok{color:var(--ok-text); font-weight:var(--fw-semi)}
+.rev li .nu{color:var(--bad-text); font-weight:var(--fw-semi); text-decoration:line-through}
+
+/* Bara de căutare a materiilor. */
+.cauta{
+  width:100%; min-height:48px; margin:0 0 var(--sp-5);
+  padding:var(--sp-5) var(--sp-6);
+  border:1px solid var(--hairline); border-radius:var(--r-md);
+  background:var(--surface-sunken); box-shadow:var(--nm-inset);
+  color:var(--ink); font:inherit;
+}
+.cauta::placeholder{color:var(--ink-faint)}
+.cauta:focus-visible{outline:none; box-shadow:var(--nm-inset), var(--focus-ring)}
+
+/* Indicator de încărcare a unui modul (fișier separat, cerut la nevoie). */
+.incarc{
+  display:flex; align-items:center; gap:var(--sp-5);
+  padding:var(--sp-6); color:var(--ink-muted); font-size:var(--fs-200);
+}
+.incarc::before{
+  content:""; width:18px; height:18px; flex:0 0 auto; border-radius:50%;
+  border:2px solid var(--hairline); border-top-color:var(--brand);
+  animation:spin 720ms linear infinite;
+}
+@keyframes spin{to{transform:rotate(360deg)}}
 
 /* ── 19. Responsiv ──────────────────────────────────────────────
    Scara completă, de jos în sus:
@@ -955,7 +1277,7 @@ textarea:focus{outline:none; box-shadow:var(--nm-inset), var(--focus-ring)}
 
 /* telefoane minuscule (≤340px): scara de tipuri coboară o jumătate de treaptă */
 @media (max-width:340px){
-  html{font-size:15px}
+  html{font-size:calc(15px * var(--fs-scale,1))}
   .tab-label{font-size:.58rem}
   .topbar h1{font-size:1rem}
 }
@@ -968,8 +1290,11 @@ textarea:focus{outline:none; box-shadow:var(--nm-inset), var(--focus-ring)}
   th,td{padding:var(--sp-4) var(--sp-5)}
   table{font-size:.86rem}
   .grid2{gap:var(--sp-4)}
-  .tab{font-size:.6rem}
-  .tabbar{width:calc(100% - var(--sp-6) * 2)}
+  .tab{font-size:.6rem; padding:6px 0}
+  /* Cinci taburi trebuie să încapă cu ≥44px fiecare: la 320px, marginile
+     laterale de 16px + rama de 6px lăsau doar 42px pe tab. Rama se subțiază
+     și marginea se strânge exact cât să treacă pragul. */
+  .tabbar{width:calc(100% - var(--sp-4) * 2); --tabbar-pad:3px}
 }
 
 /* ecrane late de la 700px: listele de carduri respiră pe 2 coloane.
@@ -1008,7 +1333,9 @@ textarea:focus{outline:none; box-shadow:var(--nm-inset), var(--focus-ring)}
   }
   .topbar{height:calc(var(--topbar-h-compact) + var(--safe-t))}
   th{top:calc(var(--topbar-h-compact) + var(--safe-t))}
-  .tab{min-height:40px; gap:1px; font-size:.6rem}
+  /* 44px, nu 40: pe peisaj + densitate compactă ținta cobora la 42px reali.
+     Măsurat pe 844×390 cu text 80%, nu presupus. */
+  .tab{min-height:44px; gap:1px; font-size:.6rem}
   .tab .ico{width:21px; height:21px}
   .tabbar{bottom:calc(var(--safe-b) + var(--sp-4))}
   .flash{min-height:150px; padding:var(--sp-6); font-size:1.05rem}
@@ -1319,6 +1646,10 @@ textarea:focus{outline:none; box-shadow:var(--nm-inset), var(--focus-ring)}
   pointer-events:none;
   will-change:transform;             /* UTIL: un singur element, animat la fiecare tab */
 }
+/* Ecranul Setări nu are tab propriu: pastila ar rămâne agățată sub ultimul
+   tab vizitat, sugerând o secțiune care nu e deschisă. */
+.tabbar.fara-tab .tab-ind{opacity:0}
+
 @keyframes icon-pop{
   0%  { transform:scale(1) }
   35% { transform:scale(.86) }
@@ -1397,54 +1728,82 @@ textarea:focus{outline:none; box-shadow:var(--nm-inset), var(--focus-ring)}
 .scrim.closing{ animation:scrim-in  260ms var(--ease-in-ios) reverse both }
 
 /* ─────────────────────────────────────────────────────────────────────────
-   10. prefers-reduced-motion — OBLIGATORIU
+   10. MIȘCARE REDUSĂ — OBLIGATORIU (data-miscare="redusa")
    Zero translații, zero scalări, zero rotații, zero scuturat.
    Rămân doar fade-urile de opacitate, scurtate.
    ───────────────────────────────────────────────────────────────────────── */
-@media (prefers-reduced-motion:reduce){
+/* Preferința sistemului e citită de app.js și pusă pe <html data-miscare>,
+   ca utilizatorul să o poată forța din Setări. `:where()` nu adaugă
+   specificitate, deci cascada rămâne exact ca înainte. */
+@keyframes rm-fade{ from{opacity:0} to{opacity:1} }
 
-  @keyframes rm-fade{ from{opacity:0} to{opacity:1} }
-
+:root:where([data-miscare="redusa"]) :is(
   #view.nav-push,#view.nav-pop,#view.nav-fade,#view.nav-replace,
   .view.stagger .enter,
   #fb > .card,#card-actions.swapped > *,
   #btn-back:not([hidden]),.topbar h1.swap,
-  .sheet,.scrim{
-    animation:rm-fade var(--dur-fast) linear both !important;
-    animation-delay:0ms !important;       /* fără cascadă: totul apare odată */
-    transform:none !important;
-  }
-  .view-ghost{ display:none !important }  /* fără parallax, fără clonă */
+  .sheet,.scrim){
+  animation:rm-fade var(--dur-fast) linear both !important;
+  animation-delay:0ms !important;       /* fără cascadă: totul apare odată */
+  transform:none !important;
+}
+:root:where([data-miscare="redusa"]) .view-ghost{ display:none !important }  /* fără parallax, fără clonă */
 
-  /* Apăsarea nu mai scalează — devine o estompare. */
-  .card.tap,.btn,.chip,.opt,.tab,.icon-btn,.tab .ico,.flip-inner,.tab-ind{
-    transition:opacity var(--dur-micro) linear !important;
-  }
+/* Apăsarea nu mai scalează — devine o estompare. */
+:root:where([data-miscare="redusa"]) :is(.card.tap,.btn,.chip,.opt,.tab,.icon-btn,.tab .ico,.flip-inner,.tab-ind){
+  transition:opacity var(--dur-micro) linear !important;
+}
+:root:where([data-miscare="redusa"]) :is(
   .card.tap:active,.btn:active,.opt:active,.chip:active,
-  .icon-btn:active,.tab:active .ico,.card.tap:hover{
-    transform:none !important;
-    opacity:.6;
+  .icon-btn:active,.tab:active .ico,.card.tap:hover){
+  transform:none !important;
+  opacity:.6;
+}
+
+/* Cardul nu se mai rotește: cross-fade între fețe, în același loc. */
+:root:where([data-miscare="redusa"]) .flip-inner{ transform:none !important; will-change:auto }
+:root:where([data-miscare="redusa"]) .face{
+  backface-visibility:visible; -webkit-backface-visibility:visible;
+  transform:none !important;
+  transition:opacity var(--dur-micro) linear;
+}
+:root:where([data-miscare="redusa"]) .face.front{ z-index:2; opacity:1 }
+:root:where([data-miscare="redusa"]) .face.back { z-index:1; opacity:0 }
+:root:where([data-miscare="redusa"]) .flip.is-flipped .face.front{ opacity:0; pointer-events:none }
+:root:where([data-miscare="redusa"]) .flip.is-flipped .face.back { opacity:1 }
+
+/* Fără scuturat și fără puls: culoarea și conturul rămân, statice. */
+:root:where([data-miscare="redusa"]) :is(.opt.wrong,.opt.correct){ animation:none !important; transform:none !important }
+
+/* Bara de progres sare direct la valoare. */
+:root:where([data-miscare="redusa"]) .bar > i{ animation:none !important }
+:root:where([data-miscare="redusa"]) .tab-ind{ transition:none !important }
+:root:where([data-miscare="redusa"]) .tab .ico.pop{ animation:none !important }
+:root:where([data-miscare="redusa"]) .incarc::before{ animation:none !important }
+
+/* ── PLASĂ DE SIGURANȚĂ, fără JavaScript ────────────────────────────────────
+   Toate regulile de mai sus depind de atributul `data-miscare`, pus de
+   bootstrap-ul inline din index.html. Dacă acel script NU rulează (o politică
+   CSP adăugată ulterior, o extensie de blocare), un utilizator cu
+   `prefers-reduced-motion: reduce` ar primi toate animațiile — o problemă
+   reală de accesibilitate, nu una estetică. `:not([data-miscare])` prinde
+   exact cazul în care bootstrap-ul n-a apucat să scrie atributul; când el
+   rulează, blocul de mai jos nu se aplică niciodată.
+
+   Nu duplicăm designul, doar neutralizăm mișcarea: paleta rămâne cu o singură
+   sursă de adevăr, blocul `[data-tema="intunecat"]` de la §1. Tema care cade
+   pe „luminos” fără JS e o degradare vizuală acceptabilă — mișcarea care
+   rămâne pornită nu este. */
+@media (prefers-reduced-motion: reduce) {
+  :root:not([data-miscare]) *,
+  :root:not([data-miscare]) *::before,
+  :root:not([data-miscare]) *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+    scroll-behavior: auto !important;
   }
-
-  /* Cardul nu se mai rotește: cross-fade între fețe, în același loc. */
-  .flip-inner{ transform:none !important; will-change:auto }
-  .face{
-    backface-visibility:visible; -webkit-backface-visibility:visible;
-    transform:none !important;
-    transition:opacity var(--dur-micro) linear;
-  }
-  .face.front{ z-index:2; opacity:1 }
-  .face.back { z-index:1; opacity:0 }
-  .flip.is-flipped .face.front{ opacity:0; pointer-events:none }
-  .flip.is-flipped .face.back { opacity:1 }
-
-  /* Fără scuturat și fără puls: culoarea și conturul rămân, statice. */
-  .opt.wrong,.opt.correct{ animation:none !important; transform:none !important }
-
-  /* Bara de progres sare direct la valoare. */
-  .bar > i{ animation:none !important }
-  .tab-ind{ transition:none !important }
-  .tab .ico.pop{ animation:none !important }
+  :root:not([data-miscare]) .view-ghost { display: none !important }
 }
 
 /* ══════════════════════════════════════════════════════════════════════════
