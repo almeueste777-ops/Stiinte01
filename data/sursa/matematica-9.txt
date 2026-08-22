@@ -1,0 +1,463 @@
+materie: Matematică
+clasa: a IX-a
+an: 1
+arie: Matematică și științe ale naturii
+bac: nu
+descriere: Mulțimi și numere reale, funcții și grafice, ecuații și sisteme, elemente de trigonometrie și geometrie vectorială.
+
+## 1 | mat9-c1 | Mulțimi și numere reale
+### mat9-01 | Mulțimi de numere
+Mulțimile de numere se cuprind una pe alta: naturale (N), întregi (Z), raționale (Q), reale (R). Numerele naturale servesc la numărare; întregii adaugă opusele, făcând scăderea mereu posibilă; raționalele sunt fracțiile a/b cu b diferit de zero și fac împărțirea posibilă; realele adaugă numerele iraționale, care nu se pot scrie ca fracție — radicalii care nu se extrag, pi, e.
+Un număr rațional are dezvoltare zecimală finită sau periodică; unul irațional are dezvoltare infinită neperiodică. Operațiile cu numere reale respectă proprietățile de comutativitate, asociativitate și distributivitate. Modulul unui număr real este distanța lui față de zero: |a| = a dacă a este pozitiv sau zero și −a dacă a este negativ. Partea întreagă [a] este cel mai mare întreg mai mic sau egal cu a, iar partea fracționară este diferența a − [a], mereu în intervalul de la 0 la 1.
+* Incluziunea mulțimilor: N inclus în Z inclus în Q inclus în R.
+* Raționalele au dezvoltare zecimală finită sau periodică; iraționalele, infinită neperiodică.
+* Modulul unui număr real este distanța lui față de zero.
+* Partea fracționară este mereu în intervalul de la 0 la 1.
+= număr irațional :: număr real care nu poate fi scris ca raport de două numere întregi
+= modul :: distanța unui număr real față de origine, notată cu bare verticale
+@ Ce mulțime adaugă numerele iraționale? :: Mulțimea numerelor reale, R.
+@ Cum se recunoaște un număr rațional din dezvoltarea zecimală? :: Are dezvoltare finită sau periodică.
+@ Cât este |−7|? :: 7, pentru că modulul este distanța față de zero.
+@ Ce valori poate lua partea fracționară a unui număr real? :: Valori din intervalul de la 0 inclusiv la 1 exclusiv.
+? Numărul rădăcină din 2 este:
++ irațional
+- rațional
+- întreg
+- natural
+! Nu se poate scrie ca raport de întregi.
+? Partea întreagă a lui −2,3 este:
++ −3
+- −2
+- 2
+- 3
+! Este cel mai mare întreg mai mic sau egal cu numărul.
+? Modulul unui număr negativ este:
++ opusul lui, adică un număr pozitiv
+- el însuși
+- zero
+- nedefinit
+! Modulul lui −5 este 5, adică opusul său.
+? Mulțimea Q cuprinde:
++ toate fracțiile de forma a/b cu b nenul
+- doar numerele întregi
+- doar numerele pozitive
+- toate numerele reale
+! Iraționalele nu fac parte din Q.
+
+### mat9-02 | Puteri, radicali, logaritmi
+Puterea cu exponent natural înseamnă înmulțire repetată. Regulile de calcul: produsul puterilor cu aceeași bază adună exponenții, câtul le scade, puterea unei puteri îi înmulțește, iar puterea unui produs se distribuie. Exponentul zero dă 1 pentru orice bază nenulă, iar exponentul negativ dă inversul: a la puterea −n este 1 supra a la puterea n.
+Radicalul de ordin n este operația inversă ridicării la putere; radicalul de ordin par cere radicand pozitiv. Raționalizarea numitorului elimină radicalul de la numitor prin amplificare cu conjugata. Logaritmul în baza a al lui x este exponentul la care trebuie ridicat a pentru a obține x; regulile lui transformă produsul în sumă, câtul în diferență și puterea în produs, ceea ce l-a făcut instrumentul de calcul al secolelor trecute și baza scărilor logaritmice de azi.
+* Produsul puterilor cu aceeași bază adună exponenții; câtul îi scade.
+* Exponentul negativ dă inversul; exponentul zero dă 1 pentru bază nenulă.
+* Radicalul de ordin par cere radicand pozitiv.
+* Logaritmul transformă produsul în sumă și puterea în produs.
+= radical :: operația inversă ridicării la putere, notată cu semnul rădăcinii
+= logaritm :: exponentul la care se ridică baza pentru a obține un număr dat
+@ Cât este a la puterea zero, pentru a nenul? :: 1.
+@ Ce înseamnă exponent negativ? :: Inversul puterii cu exponent pozitiv: a la −n este 1 supra a la n.
+@ Ce face logaritmul cu un produs? :: Îl transformă în sumă de logaritmi.
+@ De ce radicalul de ordin par cere radicand pozitiv? :: Pentru că nicio putere pară a unui număr real nu poate fi negativă.
+? Produsul a două puteri cu aceeași bază:
++ adună exponenții
+- înmulțește exponenții
+- scade exponenții
+- păstrează exponentul
+! Regula vine direct din definiția puterii.
+? Logaritmul unui cât este:
++ diferența logaritmilor
+- câtul logaritmilor
+- suma logaritmilor
+- produsul logaritmilor
+! Produsul devine sumă.
+? Raționalizarea numitorului înseamnă:
++ eliminarea radicalului de la numitor
+- simplificarea fracției
+- aducerea la același numitor
+- transformarea în număr rațional
+! Se face amplificând cu conjugata.
+? Puterea unei puteri:
++ înmulțește exponenții
+- adună exponenții
+- scade exponenții
+- ridică baza la pătrat
+! (a la m) la n este a la m·n.
+
+### mat9-03 | Progresii aritmetice și geometrice
+O progresie aritmetică este un șir în care fiecare termen se obține adunând la precedentul o constantă numită rație. Termenul general este primul termen plus (n−1) înmulțit cu rația. Suma primilor n termeni este media primului și ultimului termen, înmulțită cu numărul de termeni — formula descoperită, după legendă, de Gauss copil, care a adunat numerele de la 1 la 100 grupându-le în perechi cu aceeași sumă.
+O progresie geometrică se obține înmulțind fiecare termen cu o rație constantă nenulă. Termenul general este primul termen înmulțit cu rația la puterea n−1. Suma primilor n termeni are formulă proprie, iar când rația are modulul mai mic decât 1, suma tuturor termenilor converge către o valoare finită. Progresiile modelează situații reale: dobânda simplă este aritmetică, dobânda compusă și creșterea populației sunt geometrice.
+* Progresia aritmetică adaugă o rație constantă; cea geometrică înmulțește cu o rație constantă.
+* Termenul general aritmetic: primul termen plus (n−1) ori rația.
+* Suma progresiei aritmetice: media capetelor înmulțită cu numărul de termeni.
+* Dobânda simplă e aritmetică; dobânda compusă e geometrică.
+= rație :: constanta care se adună (aritmetic) sau cu care se înmulțește (geometric) la fiecare pas
+= progresie geometrică :: șir în care raportul dintre doi termeni consecutivi este constant
+@ Care e termenul general al unei progresii aritmetice? :: Primul termen plus (n−1) înmulțit cu rația.
+@ Cum se calculează suma primilor n termeni ai unei progresii aritmetice? :: Media primului și ultimului termen, înmulțită cu n.
+@ Ce tip de progresie descrie dobânda compusă? :: Geometrică.
+@ Ce condiție face ca suma unei progresii geometrice infinite să fie finită? :: Rația să aibă modulul mai mic decât 1.
+? Într-o progresie geometrică, raportul a doi termeni consecutivi este:
++ constant
+- crescător
+- egal cu zero
+- egal cu numărul termenilor
+! În cea aritmetică e constantă diferența.
+? Suma numerelor de la 1 la 100 este:
++ 5050
+- 5000
+- 10100
+- 4950
+! 50 de perechi cu suma 101.
+? Termenul general al progresiei geometrice este:
++ primul termen înmulțit cu rația la puterea n−1
+- primul termen plus rația ori n
+- suma primilor n termeni
+- rația la puterea n
+! Exponentul e n−1, nu n.
+? Dobânda simplă corespunde unei progresii:
++ aritmetice
+- geometrice
+- constante
+- descrescătoare
+! Se adaugă mereu aceeași sumă.
+
+## 1 | mat9-c2 | Funcții
+### mat9-04 | Noțiunea de funcție
+O funcție este o regulă care asociază fiecărui element al unei mulțimi (domeniul de definiție) exact un element al altei mulțimi (codomeniul). Notația f: A → B citește „f de la A la B”. Elementul asociat lui x se notează f(x) și se numește imaginea lui x. Mulțimea tuturor imaginilor formează imaginea funcției, care poate fi mai mică decât codomeniul.
+Graficul unei funcții reale este mulțimea punctelor de coordonate (x, f(x)) din plan. Testul dreptei verticale spune că o curbă este graficul unei funcții doar dacă orice dreaptă verticală o taie în cel mult un punct. O funcție este injectivă dacă valori diferite ale argumentului dau imagini diferite, surjectivă dacă imaginea acoperă tot codomeniul și bijectivă dacă e și una și alta — condiția pentru a avea inversă. Monotonia (crescătoare sau descrescătoare) și paritatea (pară, dacă f(−x) = f(x); impară, dacă f(−x) = −f(x)) descriu comportamentul funcției.
+* O funcție asociază fiecărui element al domeniului exact o imagine.
+* Testul dreptei verticale identifică graficele de funcții.
+* Injectivă + surjectivă = bijectivă, condiția existenței inversei.
+* Funcția pară e simetrică față de axa Oy; cea impară, față de origine.
+= domeniu de definiție :: mulțimea valorilor pentru care funcția este definită
+= funcție bijectivă :: funcție injectivă și surjectivă simultan, deci inversabilă
+@ Ce înseamnă că o funcție e injectivă? :: Valori diferite ale argumentului dau imagini diferite.
+@ Ce condiție trebuie să îndeplinească o funcție ca să aibă inversă? :: Să fie bijectivă.
+@ Cum se recunoaște grafic o funcție pară? :: Graficul este simetric față de axa Oy.
+@ Ce spune testul dreptei verticale? :: O curbă e grafic de funcție dacă orice verticală o taie în cel mult un punct.
+? O funcție surjectivă are:
++ imaginea egală cu codomeniul
+- imagini distincte pentru argumente distincte
+- domeniul egal cu codomeniul
+- grafic simetric
+! Injectivitatea se referă la distincția imaginilor.
+? Funcția impară are graficul simetric față de:
++ origine
+- axa Ox
+- axa Oy
+- prima bisectoare
+! Cea pară e simetrică față de Oy.
+? Imaginea unei funcții este:
++ mulțimea tuturor valorilor f(x)
+- domeniul de definiție
+- codomeniul, întotdeauna
+- graficul funcției
+! Poate fi o submulțime strictă a codomeniului.
+? f(x) se numește:
++ imaginea lui x prin f
+- argumentul funcției
+- domeniul funcției
+- rația funcției
+! x este argumentul.
+
+### mat9-05 | Funcția de gradul I și de gradul al II-lea
+Funcția de gradul I are forma f(x) = ax + b, cu a nenul. Graficul ei este o dreaptă; a este panta (cu cât crește y când x crește cu 1), iar b este ordonata la origine. Funcția e crescătoare dacă panta e pozitivă și descrescătoare dacă e negativă. Se anulează într-un singur punct, soluția ecuației ax + b = 0.
+Funcția de gradul al II-lea are forma f(x) = ax² + bx + c, cu a nenul, iar graficul ei este o parabolă. Discriminantul, delta = b² − 4ac, decide numărul de intersecții cu axa Ox: două puncte dacă delta e pozitivă, unul dacă e zero, niciunul dacă e negativă. Vârful parabolei are abscisa −b/(2a) și reprezintă minimul funcției când a este pozitiv, maximul când a este negativ. Semnul funcției este același cu al lui a în afara rădăcinilor și opus între ele.
+* Graficul funcției de gradul I este o dreaptă cu panta a și ordonata la origine b.
+* Graficul funcției de gradul al II-lea este o parabolă.
+* Discriminantul decide numărul de rădăcini reale.
+* Vârful parabolei are abscisa −b/(2a) și dă minimul sau maximul funcției.
+= pantă :: coeficientul care arată cu cât variază y la o creștere cu o unitate a lui x
+= discriminant :: expresia b² − 4ac, care arată numărul de rădăcini reale ale ecuației de gradul al II-lea
+@ Ce reprezintă b în f(x) = ax + b? :: Ordonata la origine — valoarea funcției în x = 0.
+@ Ce se întâmplă când discriminantul e negativ? :: Ecuația nu are rădăcini reale, iar parabola nu taie axa Ox.
+@ Care e abscisa vârfului parabolei? :: −b supra 2a.
+@ Când e minim vârful parabolei? :: Când coeficientul a este pozitiv, deci ramurile sunt orientate în sus.
+? Funcția f(x) = −3x + 5 este:
++ descrescătoare
+- crescătoare
+- constantă
+- de gradul al II-lea
+! Panta negativă înseamnă descreștere.
+? Dacă delta = 0, parabola:
++ este tangentă la axa Ox
+- taie axa Ox în două puncte
+- nu atinge axa Ox
+- coincide cu axa Ox
+! Există o rădăcină dublă.
+? Semnul funcției de gradul al II-lea între rădăcini este:
++ opus semnului lui a
+- același cu semnul lui a
+- mereu pozitiv
+- mereu negativ
+! În afara rădăcinilor are semnul lui a.
+? Graficul funcției de gradul I este:
++ o dreaptă
+- o parabolă
+- o hiperbolă
+- un cerc
+! Parabola apare la gradul al II-lea.
+
+### mat9-06 | Ecuații, inecuații, sisteme
+Ecuația de gradul al II-lea ax² + bx + c = 0 se rezolvă cu formula rădăcinilor, folosind discriminantul. Relațiile lui Viète leagă rădăcinile de coeficienți: suma lor este −b/a, iar produsul c/a; ele permit rezolvarea multor probleme fără calculul explicit al rădăcinilor și construirea ecuației când se cunosc suma și produsul.
+Inecuația de gradul al II-lea se rezolvă studiind semnul funcției: se află rădăcinile, se face tabelul de semn și se citește intervalul cerut. Sistemele de două ecuații de gradul I cu două necunoscute se rezolvă prin substituție, prin reducere sau matriceal, cu regula lui Cramer; interpretarea geometrică e limpede — soluția este punctul de intersecție a două drepte, sistemul e incompatibil dacă dreptele sunt paralele și nedeterminat dacă ele coincid.
+* Formula rădăcinilor folosește discriminantul; relațiile lui Viète leagă rădăcinile de coeficienți.
+* Suma rădăcinilor este −b/a, produsul este c/a.
+* Inecuația de gradul al II-lea se rezolvă prin tabelul de semn.
+* Un sistem de două ecuații de gradul I înseamnă geometric intersecția a două drepte.
+= relațiile lui Viète :: legăturile dintre rădăcinile și coeficienții unei ecuații polinomiale
+= sistem incompatibil :: sistem fără soluție, corespunzând geometric unor drepte paralele
+@ Cât este suma rădăcinilor ecuației de gradul al II-lea? :: −b supra a.
+@ Cât este produsul rădăcinilor? :: c supra a.
+@ Ce înseamnă geometric un sistem nedeterminat? :: Cele două drepte coincid, deci există o infinitate de soluții.
+@ Cum se rezolvă o inecuație de gradul al II-lea? :: Se află rădăcinile și se studiază semnul funcției pe intervale.
+? Dacă suma rădăcinilor este 5 și produsul 6, ecuația este:
++ x² − 5x + 6 = 0
+- x² + 5x + 6 = 0
+- x² − 6x + 5 = 0
+- x² + 5x − 6 = 0
+! Coeficientul lui x este opusul sumei.
+? Un sistem incompatibil corespunde unor drepte:
++ paralele distincte
+- concurente
+- confundate
+- perpendiculare
+! Dreptele confundate dau sistem nedeterminat.
+? Regula lui Cramer folosește:
++ determinanți
+- derivate
+- logaritmi
+- progresii
+! Se aplică sistemelor cu determinant principal nenul.
+? Relațiile lui Viète permit:
++ aflarea sumei și produsului rădăcinilor din coeficienți
+- calculul discriminantului
+- desenarea parabolei
+- rezolvarea sistemelor liniare
+! Și construirea ecuației din sumă și produs.
+
+## 2 | mat9-c3 | Trigonometrie și vectori
+### mat9-07 | Trigonometrie în triunghiul dreptunghic
+În triunghiul dreptunghic, sinusul unui unghi ascuțit este raportul dintre cateta opusă și ipotenuză, cosinusul este raportul dintre cateta alăturată și ipotenuză, iar tangenta este raportul dintre cateta opusă și cea alăturată. Aceste rapoarte depind doar de unghi, nu de mărimea triunghiului, pentru că triunghiurile dreptunghice cu același unghi ascuțit sunt asemenea.
+Valorile remarcabile se memorează: pentru 30 de grade sinusul este 1/2, pentru 45 de grade sinusul și cosinusul sunt egale cu rădăcină din 2 supra 2, pentru 60 de grade sinusul este rădăcină din 3 supra 2. Identitatea fundamentală spune că suma pătratelor sinusului și cosinusului aceluiași unghi este 1. Teorema lui Pitagora leagă laturile: pătratul ipotenuzei este suma pătratelor catetelor. Aplicațiile practice sunt directe: măsurarea înălțimilor inaccesibile, panta unui drum, calculul distanțelor prin triangulație.
+* Sinus = catetă opusă supra ipotenuză; cosinus = catetă alăturată supra ipotenuză.
+* Rapoartele depind doar de unghi, nu de mărimea triunghiului.
+* Identitatea fundamentală: sin²x + cos²x = 1.
+* Teorema lui Pitagora leagă ipotenuza de catete.
+= sinus :: raportul dintre cateta opusă unghiului și ipotenuză
+= identitate fundamentală :: relația sin²x + cos²x = 1, valabilă pentru orice unghi
+@ Ce este tangenta unui unghi ascuțit? :: Raportul dintre cateta opusă și cateta alăturată.
+@ Cât este sinusul de 30 de grade? :: 1/2.
+@ De ce rapoartele trigonometrice nu depind de mărimea triunghiului? :: Pentru că triunghiurile dreptunghice cu același unghi ascuțit sunt asemenea.
+@ Ce spune teorema lui Pitagora? :: Pătratul ipotenuzei este egal cu suma pătratelor catetelor.
+? Cosinusul de 60 de grade este:
++ 1/2
+- rădăcină din 3 supra 2
+- rădăcină din 2 supra 2
+- 1
+! Sinusul de 60 este rădăcină din 3 supra 2.
+? Identitatea fundamentală a trigonometriei afirmă că:
++ sin²x + cos²x = 1
+- sin x + cos x = 1
+- tg x = sin x · cos x
+- sin²x − cos²x = 1
+! Vine direct din teorema lui Pitagora.
+? Tangenta de 45 de grade este:
++ 1
+- 0
+- rădăcină din 2
+- 1/2
+! Catetele sunt egale.
+? Rapoartele trigonometrice se pot folosi pentru:
++ măsurarea unei înălțimi inaccesibile
+- calculul ariei cercului
+- rezolvarea progresiilor
+- aflarea discriminantului
+! Este principiul triangulației.
+
+### mat9-08 | Vectori în plan
+Un vector este o mărime cu direcție, sens și mărime (modul), reprezentat printr-un segment orientat. Doi vectori sunt egali dacă au aceeași direcție, același sens și același modul, indiferent de punctul de aplicație. Adunarea vectorilor se face după regula paralelogramului sau regula triunghiului; înmulțirea cu un scalar schimbă modulul și, dacă scalarul e negativ, sensul.
+În reperul cartezian, un vector se scrie prin componentele lui pe cele două axe. Modulul se obține din teorema lui Pitagora, ca rădăcină din suma pătratelor componentelor. Produsul scalar a doi vectori este suma produselor componentelor corespunzătoare și este egal cu produsul modulelor înmulțit cu cosinusul unghiului dintre ei; de aici rezultă criteriul de perpendicularitate: produsul scalar este zero exact când vectorii sunt perpendiculari. Vectorii modelează în fizică forța, viteza și accelerația.
+* Vectorul are direcție, sens și modul; punctul de aplicație nu îl schimbă.
+* Adunarea se face după regula paralelogramului sau a triunghiului.
+* Modulul se calculează din componente, cu teorema lui Pitagora.
+* Produsul scalar nul înseamnă vectori perpendiculari.
+= vector :: mărime caracterizată prin direcție, sens și modul
+= produs scalar :: operația care asociază la doi vectori un număr, egal cu produsul modulelor și al cosinusului unghiului
+@ Prin ce se caracterizează un vector? :: Prin direcție, sens și modul.
+@ Cum se adună doi vectori? :: După regula paralelogramului sau a triunghiului.
+@ Ce înseamnă produs scalar nul? :: Că vectorii sunt perpendiculari.
+@ Cum se calculează modulul unui vector din componente? :: Ca rădăcină din suma pătratelor componentelor.
+? Înmulțirea unui vector cu un scalar negativ:
++ schimbă sensul și modifică modulul
+- schimbă doar direcția
+- lasă vectorul neschimbat
+- îl transformă în scalar
+! Direcția rămâne aceeași.
+? Doi vectori sunt egali dacă au:
++ aceeași direcție, sens și modul
+- același punct de aplicație
+- același modul, indiferent de sens
+- aceeași direcție, indiferent de modul
+! Punctul de aplicație nu contează.
+? Produsul scalar se poate calcula ca:
++ produsul modulelor înmulțit cu cosinusul unghiului
+- produsul modulelor înmulțit cu sinusul unghiului
+- suma modulelor
+- raportul modulelor
+! Formula cu sinus dă modulul produsului vectorial.
+? În fizică, vectorii modelează:
++ forța, viteza, accelerația
+- masa și temperatura
+- timpul
+- densitatea
+! Mărimile scalare nu au direcție și sens.
+
+### mat9-09 | Elemente de geometrie analitică
+Geometria analitică traduce figurile în ecuații. Distanța dintre două puncte se calculează cu teorema lui Pitagora aplicată diferențelor de coordonate. Mijlocul unui segment are coordonatele egale cu media aritmetică a coordonatelor capetelor. Panta unei drepte care trece prin două puncte este raportul dintre diferența ordonatelor și diferența absciselor.
+Ecuația dreptei are mai multe forme: explicită (y = mx + n), prin punct și pantă, prin două puncte, generală (ax + by + c = 0). Două drepte sunt paralele dacă au aceeași pantă și perpendiculare dacă produsul pantelor este −1. Cercul cu centrul în punctul de coordonate (a, b) și rază r are ecuația (x − a)² + (y − b)² = r². Aria unui triunghi cu vârfuri date se calculează cu un determinant, iar coliniaritatea a trei puncte se verifică anulând acel determinant.
+* Distanța dintre două puncte vine din teorema lui Pitagora.
+* Mijlocul unui segment are coordonatele egale cu media coordonatelor capetelor.
+* Drepte paralele: pante egale; drepte perpendiculare: produsul pantelor este −1.
+* Coliniaritatea a trei puncte se verifică anulând determinantul ariei.
+= pantă a dreptei :: raportul dintre variația ordonatelor și variația absciselor a două puncte de pe dreaptă
+= ecuația cercului :: relația (x − a)² + (y − b)² = r², cu centrul în (a, b) și raza r
+@ Cum se află mijlocul unui segment? :: Se face media aritmetică a coordonatelor capetelor.
+@ Când sunt două drepte perpendiculare? :: Când produsul pantelor lor este −1.
+@ Care e ecuația cercului cu centrul în origine și rază r? :: x² + y² = r².
+@ Cum se verifică dacă trei puncte sunt coliniare? :: Determinantul format cu coordonatele lor este zero.
+? Două drepte cu aceeași pantă sunt:
++ paralele
+- perpendiculare
+- concurente
+- confundate întotdeauna
+! Dacă au și aceeași ordonată la origine, coincid.
+? Panta dreptei prin punctele (1,2) și (3,6) este:
++ 2
+- 4
+- 1/2
+- 3
+! (6−2) supra (3−1).
+? Ecuația (x − 2)² + (y + 1)² = 9 descrie un cerc cu:
++ centrul în (2, −1) și raza 3
+- centrul în (−2, 1) și raza 9
+- centrul în (2, 1) și raza 3
+- centrul în origine și raza 9
+! Raza este rădăcina din membrul drept.
+? Aria unui triunghi cu vârfuri date se calculează:
++ cu un determinant
+- cu produsul scalar
+- cu teorema lui Viète
+- cu discriminantul
+! Aria este jumătate din modulul determinantului.
+
+%% teza 1
+? Mulțimea numerelor raționale se notează:
++ Q
+- N
+- Z
+- R
+! R cuprinde și iraționalele.
+? Modulul lui −9 este:
++ 9
+- −9
+- 0
+- 81
+! Modulul este distanța față de zero.
+? Câtul a două puteri cu aceeași bază:
++ scade exponenții
+- adună exponenții
+- înmulțește exponenții
+- împarte exponenții
+! Produsul îi adună.
+? Logaritmul unei puteri este:
++ exponentul înmulțit cu logaritmul bazei argumentului
+- suma logaritmilor
+- puterea logaritmului
+- diferența logaritmilor
+! De aceea logaritmul liniarizează puterile.
+? Într-o progresie aritmetică, diferența a doi termeni consecutivi este:
++ constantă
+- crescătoare
+- nulă
+- egală cu primul termen
+! Constanta se numește rație.
+? O funcție bijectivă este:
++ injectivă și surjectivă
+- doar injectivă
+- doar surjectivă
+- nici una, nici alta
+! Doar bijecțiile au inversă.
+? Graficul funcției f(x) = ax² + bx + c este:
++ o parabolă
+- o dreaptă
+- o hiperbolă
+- un cerc
+! Coeficientul a decide orientarea ramurilor.
+? Dacă discriminantul e pozitiv, ecuația de gradul al II-lea are:
++ două rădăcini reale distincte
+- o rădăcină dublă
+- nicio rădăcină reală
+- o infinitate de rădăcini
+! Delta zero dă rădăcină dublă.
+? Suma rădăcinilor ecuației x² − 7x + 12 = 0 este:
++ 7
+- −7
+- 12
+- 5
+! Relațiile lui Viète: suma este −b/a.
+
+%% teza 2
+? Vârful parabolei are abscisa:
++ −b supra 2a
+- b supra 2a
+- −c supra a
+- delta supra 4a
+! Ordonata se obține înlocuind în funcție.
+? Un sistem de două ecuații liniare cu drepte paralele distincte este:
++ incompatibil
+- nedeterminat
+- compatibil determinat
+- imposibil de scris
+! Dreptele confundate dau sistem nedeterminat.
+? Sinusul unui unghi ascuțit este raportul dintre:
++ cateta opusă și ipotenuză
+- cateta alăturată și ipotenuză
+- cateta opusă și cea alăturată
+- ipotenuză și cateta opusă
+! Cosinusul folosește cateta alăturată.
+? Sinusul de 45 de grade este:
++ rădăcină din 2 supra 2
+- 1/2
+- rădăcină din 3 supra 2
+- 1
+! Este egal cu cosinusul aceluiași unghi.
+? Suma pătratelor sinusului și cosinusului aceluiași unghi este:
++ 1
+- 0
+- 2
+- egală cu tangenta
+! Este identitatea fundamentală.
+? Un vector se caracterizează prin:
++ direcție, sens și modul
+- doar modul
+- doar direcție
+- punct de aplicație și modul
+! Punctul de aplicație nu îl definește.
+? Produsul scalar a doi vectori perpendiculari este:
++ 0
+- 1
+- egal cu produsul modulelor
+- negativ
+! Cosinusul unghiului drept este zero.
+? Două drepte sunt perpendiculare dacă produsul pantelor este:
++ −1
+- 1
+- 0
+- egal cu panta uneia
+! Pante egale înseamnă paralelism.
+? Ecuația x² + y² = 25 descrie:
++ un cerc de rază 5 cu centrul în origine
+- o parabolă
+- o dreaptă
+- o elipsă
+! Raza este rădăcina din 25.

@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 37,
-  "nrLectii": 373,
-  "nrCarduri": 1492,
-  "nrIntrebari": 2372,
+  "nrModule": 39,
+  "nrLectii": 391,
+  "nrCarduri": 1564,
+  "nrIntrebari": 2480,
   "module": [
     {
       "id": "geografie-9",
@@ -656,6 +656,88 @@
         {
           "semestru": 2,
           "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "matematica-9",
+      "materie": "Matematică",
+      "clasa": "a IX-a",
+      "an": 1,
+      "arie": "Matematică și științe ale naturii",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Mulțimi și numere reale, funcții și grafice, ecuații și sisteme, elemente de trigonometrie și geometrie vectorială.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 54,
+      "capitole": [
+        {
+          "id": "mat9-c1",
+          "titlu": "Mulțimi și numere reale",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "mat9-01",
+              "titlu": "Mulțimi de numere"
+            },
+            {
+              "id": "mat9-02",
+              "titlu": "Puteri, radicali, logaritmi"
+            },
+            {
+              "id": "mat9-03",
+              "titlu": "Progresii aritmetice și geometrice"
+            }
+          ]
+        },
+        {
+          "id": "mat9-c2",
+          "titlu": "Funcții",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "mat9-04",
+              "titlu": "Noțiunea de funcție"
+            },
+            {
+              "id": "mat9-05",
+              "titlu": "Funcția de gradul I și de gradul al II-lea"
+            },
+            {
+              "id": "mat9-06",
+              "titlu": "Ecuații, inecuații, sisteme"
+            }
+          ]
+        },
+        {
+          "id": "mat9-c3",
+          "titlu": "Trigonometrie și vectori",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "mat9-07",
+              "titlu": "Trigonometrie în triunghiul dreptunghic"
+            },
+            {
+              "id": "mat9-08",
+              "titlu": "Vectori în plan"
+            },
+            {
+              "id": "mat9-09",
+              "titlu": "Elemente de geometrie analitică"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
         }
       ]
     },
@@ -1312,6 +1394,88 @@
         {
           "semestru": 2,
           "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "matematica-10",
+      "materie": "Matematică",
+      "clasa": "a X-a",
+      "an": 2,
+      "arie": "Matematică și științe ale naturii",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Funcții exponențiale și logaritmice, combinatorică și probabilități, elemente de statistică și matematici financiare.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 54,
+      "capitole": [
+        {
+          "id": "mat10-c1",
+          "titlu": "Funcții și ecuații",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "mat10-01",
+              "titlu": "Funcția exponențială"
+            },
+            {
+              "id": "mat10-02",
+              "titlu": "Funcția logaritmică"
+            },
+            {
+              "id": "mat10-03",
+              "titlu": "Ecuații exponențiale și logaritmice"
+            }
+          ]
+        },
+        {
+          "id": "mat10-c2",
+          "titlu": "Combinatorică și probabilități",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "mat10-04",
+              "titlu": "Numărare: permutări, aranjamente, combinări"
+            },
+            {
+              "id": "mat10-05",
+              "titlu": "Probabilități"
+            },
+            {
+              "id": "mat10-06",
+              "titlu": "Elemente de statistică"
+            }
+          ]
+        },
+        {
+          "id": "mat10-c3",
+          "titlu": "Matematici financiare și aplicații",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "mat10-07",
+              "titlu": "Procente, dobânzi, credite"
+            },
+            {
+              "id": "mat10-08",
+              "titlu": "Funcții și modele de creștere"
+            },
+            {
+              "id": "mat10-09",
+              "titlu": "Raționament, demonstrație, erori"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
         }
       ]
     },
