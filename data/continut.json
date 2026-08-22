@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 16,
-  "nrLectii": 184,
-  "nrCarduri": 736,
-  "nrIntrebari": 1123,
+  "nrModule": 17,
+  "nrLectii": 193,
+  "nrCarduri": 772,
+  "nrIntrebari": 1183,
   "module": [
     {
       "id": "geografie-9",
@@ -398,6 +398,95 @@
             {
               "id": "rom9-09",
               "titlu": "Redactarea textelor: rezumat, caracterizare, text argumentativ"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 12
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 12
+        }
+      ]
+    },
+    {
+      "id": "geografie-10",
+      "materie": "Geografie",
+      "clasa": "a X-a",
+      "an": 2,
+      "arie": "Om și societate",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Geografie umană și economică: populația, așezările, resursele, agricultura, industria, serviciile și harta politică a lumii.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 60,
+      "capitole": [
+        {
+          "id": "geo10-c1",
+          "titlu": "Populația",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "geo10-01",
+              "titlu": "Evoluția numerică și repartiția populației"
+            },
+            {
+              "id": "geo10-02",
+              "titlu": "Mișcarea naturală și structura populației"
+            },
+            {
+              "id": "geo10-03",
+              "titlu": "Migrațiile"
+            }
+          ]
+        },
+        {
+          "id": "geo10-c2",
+          "titlu": "Așezările omenești",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "geo10-04",
+              "titlu": "Așezările rurale și urbane"
+            }
+          ]
+        },
+        {
+          "id": "geo10-c3",
+          "titlu": "Activitățile economice",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "geo10-05",
+              "titlu": "Resursele naturale și energia"
+            },
+            {
+              "id": "geo10-06",
+              "titlu": "Agricultura și industria"
+            },
+            {
+              "id": "geo10-07",
+              "titlu": "Serviciile, transporturile și turismul"
+            }
+          ]
+        },
+        {
+          "id": "geo10-c4",
+          "titlu": "Harta politică și decalajele",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "geo10-08",
+              "titlu": "Statele lumii și organizațiile internaționale"
+            },
+            {
+              "id": "geo10-09",
+              "titlu": "Decalaje de dezvoltare și indicatori"
             }
           ]
         }
