@@ -45,10 +45,12 @@ Punctul de intrare în **jumătatea scrisă de mână** a vault-ului: cum e făc
 
 ## Proces
 
+- [[Jurnal 2026-08-22 — Cromatică v05]] — recolorarea „bleumarin de miezul nopții + nisip cald”
 - [[Jurnal 2026-08-22 — Antrenament v04]] — sistemul de învățare și simularea de notă
 - [[Jurnal 2026-08-22 — Temă, setări, conținut v03]] — temă comutabilă, setări, 60 de module
 - [[Jurnal 2026-08-21 — Responsiv v02]] — responsiv pe toate ecranele + viteză
 - [[Jurnal 2026-08-21 — Design v01]] — ce s-a făcut, în ordine
+- [[Raport verificare v05]] — echipa de agenți a rulării v05 (cromatică)
 - [[Raport verificare v04]] — echipa de agenți a rulării v04
 - [[Raport verificare v03]] — echipa de agenți a rulării v03
 - [[Raport verificare v02]] — echipa de agenți a rulării v02

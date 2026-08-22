@@ -16,19 +16,21 @@ import { fileURLToPath } from 'node:url';
 const radacina = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const out = process.argv[2] || path.join(radacina, 'icons');
 
-// Paleta caldă a aplicației (se sincronizează cu tokenurile din app.css)
+// Paleta aplicației (se sincronizează cu tokenurile din app.css) — v05:
+// câmp de bleumarin de miezul nopții, cu barele de nisip fildeș și aur (ca în planșă).
 const C = {
-  bg1:   '#F3C79B',  // nisip cald (capătul luminos al gradientului)
-  bg2:   '#D97B3E',  // teracotă deschisă
-  bg3:   '#9E4119',  // --brand: teracotă arsă
-  bg4:   '#6E2A0E',  // teracotă adâncă
-  ink:   '#2A1C12',  // --ink: espresso
-  amber: '#E9B45C',  // chihlimbar (--accent, deschis pentru vizibilitate)
-  cream: '#FFF7EF',  // --brand-ink: smântână
+  bg1:   '#44668D',  // oțel-bleu (capătul luminos al gradientului)
+  bg2:   '#2D4F76',  // ocean blue
+  bg3:   '#1E3C5C',  // bleumarin de brand, adâncit
+  bg4:   '#132339',  // bleumarin adânc de miezul nopții
+  ink:   '#10192A',  // umbra: bleumarin-beznă
+  amber: '#E9B45C',  // aur (--accent, deschis pentru vizibilitate)
+  cream: '#F7F1E4',  // nisip fildeș (--brand-ink)
 };
 
 /* Simbolul: trei coloane care cresc — cunoașterea acumulată — pe un soclu.
-   Păstrează silueta iconiței vechi, dar o duce în paleta caldă, cu volum și luciu de sticlă. */
+   Păstrează silueta iconiței vechi, dar o duce în paleta v05: câmp bleumarin,
+   barele de nisip și aur, cu volum și luciu de sticlă. */
 const svg = (size, maskable) => {
   const s = size;
   /* La varianta maskable, colțurile cutiei de conținut trebuie să încapă în
