@@ -1,10 +1,10 @@
 {
   "version": "03",
   "actualizat": "2026-08-22",
-  "nrModule": 56,
-  "nrLectii": 544,
-  "nrCarduri": 2176,
-  "nrIntrebari": 3398,
+  "nrModule": 58,
+  "nrLectii": 562,
+  "nrCarduri": 2248,
+  "nrIntrebari": 3506,
   "module": [
     {
       "id": "geografie-9",
@@ -3108,6 +3108,88 @@
       ]
     },
     {
+      "id": "stiam-11",
+      "materie": "ȘTIAM (științe integrate)",
+      "clasa": "a XI-a",
+      "an": 3,
+      "arie": "Matematică și științe ale naturii",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Științe integrate: metoda științifică, materie și energie, sistemele Pământului și viața ca sistem.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 54,
+      "capitole": [
+        {
+          "id": "sti11-c1",
+          "titlu": "Cum funcționează știința",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "sti11-01",
+              "titlu": "Metoda științifică"
+            },
+            {
+              "id": "sti11-02",
+              "titlu": "Măsurare, incertitudine, date"
+            },
+            {
+              "id": "sti11-03",
+              "titlu": "Modele și limitele lor"
+            }
+          ]
+        },
+        {
+          "id": "sti11-c2",
+          "titlu": "Materie și energie",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "sti11-04",
+              "titlu": "Structura materiei"
+            },
+            {
+              "id": "sti11-05",
+              "titlu": "Energia și transformările ei"
+            },
+            {
+              "id": "sti11-06",
+              "titlu": "Unde, semnale, comunicații"
+            }
+          ]
+        },
+        {
+          "id": "sti11-c3",
+          "titlu": "Pământul și viața",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "sti11-07",
+              "titlu": "Sistemul Pământ"
+            },
+            {
+              "id": "sti11-08",
+              "titlu": "Clima și schimbările ei"
+            },
+            {
+              "id": "sti11-09",
+              "titlu": "Viața ca sistem"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
+        }
+      ]
+    },
+    {
       "id": "tic-11",
       "materie": "Tehnologia informației și a comunicațiilor (TIC)",
       "clasa": "a XI-a",
@@ -3983,6 +4065,88 @@
             {
               "id": "mas12-09",
               "titlu": "Sinteză: gândirea cantitativă în viața publică"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 9
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 9
+        }
+      ]
+    },
+    {
+      "id": "stiam-12",
+      "materie": "ȘTIAM (științe integrate)",
+      "clasa": "a XII-a",
+      "an": 4,
+      "arie": "Matematică și științe ale naturii",
+      "bac": false,
+      "socioUman": false,
+      "descriere": "Științe integrate: sănătate și corp, tehnologie și societate, mediu și resurse, gândire critică aplicată.",
+      "nrLectii": 9,
+      "nrCarduri": 36,
+      "nrIntrebari": 54,
+      "capitole": [
+        {
+          "id": "sti12-c1",
+          "titlu": "Sănătate și corp",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "sti12-01",
+              "titlu": "Nutriție și metabolism"
+            },
+            {
+              "id": "sti12-02",
+              "titlu": "Imunitate, boli, prevenție"
+            },
+            {
+              "id": "sti12-03",
+              "titlu": "Creier, comportament, sănătate mintală"
+            }
+          ]
+        },
+        {
+          "id": "sti12-c2",
+          "titlu": "Tehnologie și societate",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "sti12-04",
+              "titlu": "Energia și tranziția energetică"
+            },
+            {
+              "id": "sti12-05",
+              "titlu": "Digital, inteligență artificială, date"
+            },
+            {
+              "id": "sti12-06",
+              "titlu": "Tehnologie, etică, responsabilitate"
+            }
+          ]
+        },
+        {
+          "id": "sti12-c3",
+          "titlu": "Mediu, resurse, gândire critică",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "sti12-07",
+              "titlu": "Resurse și limite"
+            },
+            {
+              "id": "sti12-08",
+              "titlu": "Biodiversitate și ecosisteme"
+            },
+            {
+              "id": "sti12-09",
+              "titlu": "Gândire critică aplicată"
             }
           ]
         }

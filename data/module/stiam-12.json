@@ -1,0 +1,1007 @@
+{
+ "id": "stiam-12",
+ "materie": "ȘTIAM (științe integrate)",
+ "clasa": "a XII-a",
+ "an": 4,
+ "arie": "Matematică și științe ale naturii",
+ "bac": false,
+ "descriere": "Științe integrate: sănătate și corp, tehnologie și societate, mediu și resurse, gândire critică aplicată.",
+ "capitole": [
+  {
+   "id": "sti12-c1",
+   "titlu": "Sănătate și corp",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "sti12-01",
+     "titlu": "Nutriție și metabolism",
+     "rezumat": "Organismul are nevoie de macronutrienți — glucide, lipide, proteine — și de micronutrienți: vitamine și minerale. Glucidele sunt sursa principală de energie rapidă, lipidele au cea mai mare densitate energetică și intră în structura membranelor, proteinele furnizează aminoacizii necesari construcției și reparării țesuturilor. Fibrele, deși nedigerabile, sunt indispensabile tranzitului și microbiotei intestinale. Metabolismul cuprinde reacțiile de descompunere, care eliberează energie, și pe cele de sinteză, care o consumă. Necesarul energetic depinde de vârstă, sex, masă musculară și activitate fizică. Bilanțul energetic explică variația greutății, dar simplificarea „calorii în, calorii afară” ignoră sațietatea, calitatea alimentelor și reglarea hormonală. Alimentația echilibrată pune accent pe legume, fructe, cereale integrale, proteine variate și limitează zahărul adăugat, sarea și grăsimile trans. Dietele-minune și suplimentele „miraculoase” sunt, aproape fără excepție, afirmații comerciale fără susținere.",
+     "ideiCheie": [
+      "Macronutrienții sunt glucidele, lipidele și proteinele; micronutrienții, vitaminele și mineralele.",
+      "Fibrele sunt nedigerabile, dar indispensabile tranzitului și microbiotei.",
+      "Bilanțul energetic explică greutatea, dar nu se reduce la o simplă socoteală.",
+      "Dietele-minune sunt, aproape fără excepție, afirmații comerciale fără susținere."
+     ],
+     "termeni": [
+      {
+       "t": "macronutrient",
+       "d": "categorie de substanțe necesare organismului în cantități mari: glucide, lipide, proteine"
+      },
+      {
+       "t": "microbiotă",
+       "d": "ansamblul microorganismelor care trăiesc în organism, mai ales în intestin"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt cei trei macronutrienți?",
+       "v": "Glucidele, lipidele și proteinele."
+      },
+      {
+       "f": "De ce sunt necesare fibrele, deși nu se digeră?",
+       "v": "Pentru tranzitul intestinal și pentru hrănirea microbiotei."
+      },
+      {
+       "f": "De ce nu e suficientă formula „calorii în, calorii afară”?",
+       "v": "Pentru că ignoră sațietatea, calitatea alimentelor și reglarea hormonală."
+      },
+      {
+       "f": "De ce depinde necesarul energetic?",
+       "v": "De vârstă, sex, masă musculară și nivelul de activitate fizică."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Lipidele au, față de ceilalți macronutrienți:",
+       "optiuni": [
+        "cea mai mare densitate energetică",
+        "cea mai mică densitate energetică",
+        "rol exclusiv structural",
+        "rol exclusiv energetic"
+       ],
+       "corect": 0,
+       "explicatie": "Intră și în structura membranelor."
+      },
+      {
+       "intrebare": "Fibrele alimentare:",
+       "optiuni": [
+        "nu se digeră, dar sunt indispensabile",
+        "se digeră complet",
+        "furnizează energie",
+        "sunt micronutrienți"
+       ],
+       "corect": 0,
+       "explicatie": "Hrănesc microbiota intestinală."
+      },
+      {
+       "intrebare": "Suplimentele prezentate ca „miraculoase” sunt, de regulă:",
+       "optiuni": [
+        "afirmații comerciale fără susținere",
+        "validate științific",
+        "necesare oricui",
+        "prescrise medical"
+       ],
+       "corect": 0,
+       "explicatie": "Prudența e regula."
+      },
+      {
+       "intrebare": "Proteinele furnizează organismului:",
+       "optiuni": [
+        "aminoacizii pentru construcția și repararea țesuturilor",
+        "energie rapidă",
+        "fibre",
+        "vitamine liposolubile"
+       ],
+       "corect": 0,
+       "explicatie": "Unii aminoacizi sunt esențiali."
+      }
+     ]
+    },
+    {
+     "id": "sti12-02",
+     "titlu": "Imunitate, boli, prevenție",
+     "rezumat": "Sistemul imunitar apără organismul prin două linii: imunitatea înnăscută, rapidă și nespecifică, și cea dobândită, mai lentă, dar specifică și cu memorie. Această memorie explică de ce, după o infecție sau o vaccinare, organismul reacționează mult mai repede la o expunere ulterioară. Vaccinurile funcționează antrenând sistemul imunitar fără a produce boala, iar acoperirea vaccinală ridicată protejează și pe cei care nu se pot vaccina — imunitatea de grup. Bolile se împart în transmisibile, provocate de agenți infecțioși, și netransmisibile — cardiovasculare, oncologice, metabolice, neurodegenerative — care sunt astăzi principala cauză de deces în țările dezvoltate și au factori de risc modificabili: fumatul, sedentarismul, alimentația, alcoolul, stresul cronic. Antibioticele acționează doar asupra bacteriilor, nu și asupra virusurilor; folosirea lor abuzivă selectează tulpini rezistente, una dintre marile amenințări de sănătate publică.",
+     "ideiCheie": [
+      "Imunitatea are o componentă înnăscută și una dobândită, cu memorie.",
+      "Vaccinurile antrenează sistemul imunitar fără a produce boala.",
+      "Bolile netransmisibile au factori de risc modificabili.",
+      "Antibioticele nu acționează asupra virusurilor; abuzul selectează rezistența."
+     ],
+     "termeni": [
+      {
+       "t": "imunitate de grup",
+       "d": "protecția indirectă a persoanelor nevaccinate, obținută prin acoperire vaccinală ridicată"
+      },
+      {
+       "t": "rezistență la antibiotice",
+       "d": "capacitatea bacteriilor de a supraviețui tratamentului, selectată prin folosire abuzivă"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce deosebește imunitatea înnăscută de cea dobândită?",
+       "v": "Cea înnăscută e rapidă și nespecifică; cea dobândită e specifică și are memorie."
+      },
+      {
+       "f": "Cum funcționează un vaccin?",
+       "v": "Antrenează sistemul imunitar să recunoască agentul patogen, fără a produce boala."
+      },
+      {
+       "f": "Ce este imunitatea de grup?",
+       "v": "Protecția indirectă a celor nevaccinați, prin acoperire vaccinală ridicată în populație."
+      },
+      {
+       "f": "De ce e periculoasă folosirea abuzivă a antibioticelor?",
+       "v": "Pentru că selectează tulpini bacteriene rezistente."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Antibioticele sunt eficiente împotriva:",
+       "optiuni": [
+        "bacteriilor",
+        "virusurilor",
+        "ambelor",
+        "ciupercilor exclusiv"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea nu se iau pentru o răceală virală."
+      },
+      {
+       "intrebare": "Imunitatea de grup protejează:",
+       "optiuni": [
+        "și pe cei care nu se pot vaccina",
+        "doar pe cei vaccinați",
+        "doar copiii",
+        "doar în spitale"
+       ],
+       "corect": 0,
+       "explicatie": "Necesită acoperire vaccinală ridicată."
+      },
+      {
+       "intrebare": "Bolile netransmisibile:",
+       "optiuni": [
+        "au factori de risc modificabili",
+        "sunt exclusiv genetice",
+        "se transmit prin contact",
+        "nu pot fi prevenite"
+       ],
+       "corect": 0,
+       "explicatie": "Fumatul și sedentarismul sunt principalii."
+      },
+      {
+       "intrebare": "Memoria imunitară explică:",
+       "optiuni": [
+        "reacția mai rapidă la o a doua expunere",
+        "apariția alergiilor",
+        "rezistența la antibiotice",
+        "transmiterea bolii"
+       ],
+       "corect": 0,
+       "explicatie": "Pe ea se bazează vaccinarea."
+      }
+     ]
+    },
+    {
+     "id": "sti12-03",
+     "titlu": "Creier, comportament, sănătate mintală",
+     "rezumat": "Creierul are aproximativ 86 de miliarde de neuroni, conectați prin sinapse care se modifică în funcție de experiență — neuroplasticitate. Învățarea înseamnă modificarea acestor conexiuni, iar somnul are un rol esențial în consolidarea memoriei și în curățarea produșilor metabolici. Privarea de somn afectează atenția, memoria, dispoziția și sistemul imunitar, iar la adolescenți nevoia de somn este mai mare, cu un ritm biologic decalat. Sistemul de recompensă, bazat pe dopamină, explică motivația, dar și mecanismul dependențelor: substanțele și comportamentele care îl activează puternic și rapid creează obișnuință. Sănătatea mintală se sprijină pe somn, mișcare, relații, sens și, la nevoie, ajutor specializat. Anxietatea și depresia sunt afecțiuni tratabile, nu semne de slăbiciune; stigmatul întârzie cererea de ajutor, iar întârzierea agravează. Mituri răspândite — că folosim doar 10% din creier sau că există stiluri de învățare fixe — nu au susținere științifică.",
+     "ideiCheie": [
+      "Neuroplasticitatea înseamnă modificarea conexiunilor în funcție de experiență.",
+      "Somnul consolidează memoria și curăță produșii metabolici.",
+      "Sistemul de recompensă explică motivația și mecanismul dependențelor.",
+      "Anxietatea și depresia sunt afecțiuni tratabile, nu semne de slăbiciune."
+     ],
+     "termeni": [
+      {
+       "t": "neuroplasticitate",
+       "d": "capacitatea creierului de a-și modifica structura și conexiunile în urma experienței"
+      },
+      {
+       "t": "sistem de recompensă",
+       "d": "rețeaua cerebrală care asociază anumite acțiuni cu senzația de plăcere și motivație"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este neuroplasticitatea?",
+       "v": "Capacitatea creierului de a-și modifica conexiunile în funcție de experiență."
+      },
+      {
+       "f": "Ce rol are somnul?",
+       "v": "Consolidează memoria și curăță produșii metabolici din creier."
+      },
+      {
+       "f": "Ce explică sistemul de recompensă?",
+       "v": "Motivația și, în cazul activării puternice și rapide, mecanismul dependențelor."
+      },
+      {
+       "f": "Ce mituri despre creier nu au susținere științifică?",
+       "v": "Că folosim doar 10% din creier și că există stiluri de învățare fixe."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Privarea de somn afectează:",
+       "optiuni": [
+        "atenția, memoria, dispoziția și imunitatea",
+        "doar dispoziția",
+        "doar performanța fizică",
+        "nimic, dacă se compensează în weekend"
+       ],
+       "corect": 0,
+       "explicatie": "La adolescenți nevoia de somn e mai mare."
+      },
+      {
+       "intrebare": "Afirmația că folosim doar 10% din creier este:",
+       "optiuni": [
+        "un mit fără susținere științifică",
+        "demonstrată",
+        "valabilă doar la copii",
+        "confirmată prin imagistică"
+       ],
+       "corect": 0,
+       "explicatie": "Imagistica arată activitate în toate zonele."
+      },
+      {
+       "intrebare": "Dependențele se explică, neurobiologic, prin:",
+       "optiuni": [
+        "activarea puternică și rapidă a sistemului de recompensă",
+        "lipsa de voință",
+        "alimentația",
+        "vârsta"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea ajutorul specializat funcționează."
+      },
+      {
+       "intrebare": "Stigmatul asociat problemelor de sănătate mintală:",
+       "optiuni": [
+        "întârzie cererea de ajutor și agravează situația",
+        "protejează pacientul",
+        "nu are efect",
+        "ajută la vindecare"
+       ],
+       "corect": 0,
+       "explicatie": "Ele sunt afecțiuni tratabile."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sti12-c2",
+   "titlu": "Tehnologie și societate",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "sti12-04",
+     "titlu": "Energia și tranziția energetică",
+     "rezumat": "Sursele de energie se împart în fosile (cărbune, petrol, gaz), nucleare și regenerabile (solar, eolian, hidro, biomasă, geotermal). Fiecare are avantaje și costuri: fosilele sunt concentrate și ușor de transportat, dar emit gaze cu efect de seră și se epuizează; nuclearul nu emite dioxid de carbon în funcționare, dar ridică probleme de deșeuri și de siguranță; regenerabilele nu emit, dar sunt intermitente și cer stocare și rețele adaptate. Tranziția energetică înseamnă trecerea de la fosile la surse cu emisii reduse, împreună cu creșterea eficienței. Ea are dimensiuni tehnice, economice și sociale: costul se distribuie inegal, iar regiunile dependente de industriile fosile sunt cele mai afectate. Comparația corectă între surse cere analiza pe ciclul de viață — construcție, funcționare, dezafectare — și raportarea la energia produsă, nu la impresii. Nicio sursă nu e perfectă; alegerea e o problemă de compromis informat.",
+     "ideiCheie": [
+      "Sursele de energie sunt fosile, nucleare și regenerabile, fiecare cu avantaje și costuri.",
+      "Regenerabilele sunt intermitente și cer stocare și rețele adaptate.",
+      "Tranziția energetică are dimensiuni tehnice, economice și sociale.",
+      "Comparația corectă se face pe ciclul de viață și raportat la energia produsă."
+     ],
+     "termeni": [
+      {
+       "t": "tranziție energetică",
+       "d": "trecerea de la sursele fosile la surse cu emisii reduse, cu creșterea eficienței"
+      },
+      {
+       "t": "analiză pe ciclul de viață",
+       "d": "evaluarea impactului total al unei tehnologii, de la construcție la dezafectare"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt cele trei mari categorii de surse de energie?",
+       "v": "Fosile, nucleare și regenerabile."
+      },
+      {
+       "f": "Ce problemă principală au sursele regenerabile?",
+       "v": "Intermitența, care cere stocare și rețele adaptate."
+      },
+      {
+       "f": "Ce presupune analiza pe ciclul de viață?",
+       "v": "Evaluarea impactului de la construcție și funcționare până la dezafectare."
+      },
+      {
+       "f": "De ce e tranziția energetică și o problemă socială?",
+       "v": "Pentru că afectează inegal regiunile și grupurile dependente de industriile fosile."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Energia nucleară, în funcționare:",
+       "optiuni": [
+        "nu emite dioxid de carbon",
+        "emite mai mult decât cărbunele",
+        "este regenerabilă",
+        "nu produce deșeuri"
+       ],
+       "corect": 0,
+       "explicatie": "Problema deșeurilor și siguranța rămân."
+      },
+      {
+       "intrebare": "Compararea corectă a surselor de energie se face:",
+       "optiuni": [
+        "pe ciclul de viață, raportat la energia produsă",
+        "după impresia publică",
+        "după costul inițial exclusiv",
+        "după suprafața ocupată"
+       ],
+       "corect": 0,
+       "explicatie": "Altfel comparația e înșelătoare."
+      },
+      {
+       "intrebare": "Intermitența energiei solare și eoliene cere:",
+       "optiuni": [
+        "stocare și rețele adaptate",
+        "renunțarea la ele",
+        "funcționare doar vara",
+        "creșterea consumului"
+       ],
+       "corect": 0,
+       "explicatie": "Este principala provocare tehnică."
+      },
+      {
+       "intrebare": "Costul tranziției energetice:",
+       "optiuni": [
+        "se distribuie inegal între regiuni și grupuri",
+        "este suportat egal de toți",
+        "este neglijabil",
+        "privește doar statul"
+       ],
+       "corect": 0,
+       "explicatie": "De aici dimensiunea socială a problemei."
+      }
+     ]
+    },
+    {
+     "id": "sti12-05",
+     "titlu": "Digital, inteligență artificială, date",
+     "rezumat": "Tehnologiile digitale au schimbat modul de a munci, de a învăța și de a comunica. Sistemele de inteligență artificială învață tipare din cantități mari de date și pot recunoaște imagini, traduce, genera text sau face predicții. Ele nu „înțeleg” în sensul uman și pot produce răspunsuri plauzibile, dar false, motiv pentru care verificarea rămâne obligatorie. Datele personale au devenit o resursă economică; modelul de afaceri al multor servicii gratuite se bazează pe ele. Reglementarea europeană a introdus drepturi privind consimțământul, accesul și ștergerea. Riscurile digitale includ dezinformarea, manipularea prin conținut personalizat, dependența de aplicații proiectate să capteze atenția, și inegalitatea de acces. Competențele digitale nu se reduc la folosirea aplicațiilor: includ evaluarea surselor, protejarea datelor proprii și înțelegerea faptului că orice serviciu are un model economic.",
+     "ideiCheie": [
+      "Sistemele de inteligență artificială învață tipare din date, fără a înțelege în sens uman.",
+      "Ele pot produce răspunsuri plauzibile, dar false: verificarea rămâne obligatorie.",
+      "Datele personale sunt o resursă economică, reglementată european.",
+      "Competențele digitale includ evaluarea surselor și protejarea datelor proprii."
+     ],
+     "termeni": [
+      {
+       "t": "dezinformare",
+       "d": "răspândirea intenționată de informații false, cu scopul de a induce în eroare"
+      },
+      {
+       "t": "competență digitală",
+       "d": "ansamblul deprinderilor de a folosi tehnologia informat, critic și în siguranță"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum funcționează, în esență, sistemele de inteligență artificială actuale?",
+       "v": "Învață tipare din cantități mari de date."
+      },
+      {
+       "f": "De ce e necesară verificarea răspunsurilor generate automat?",
+       "v": "Pentru că pot fi plauzibile, dar false."
+      },
+      {
+       "f": "Ce a introdus reglementarea europeană privind datele?",
+       "v": "Drepturi de consimțământ, acces și ștergere."
+      },
+      {
+       "f": "Ce înseamnă competența digitală?",
+       "v": "Folosirea tehnologiei informat, critic și în siguranță, nu doar operarea aplicațiilor."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Un sistem de inteligență artificială:",
+       "optiuni": [
+        "poate genera răspunsuri plauzibile, dar false",
+        "este întotdeauna corect",
+        "înțelege ca un om",
+        "nu are nevoie de date"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea verificarea e obligatorie."
+      },
+      {
+       "intrebare": "Multe servicii digitale „gratuite”:",
+       "optiuni": [
+        "au ca model economic datele utilizatorilor",
+        "nu au model economic",
+        "sunt finanțate public",
+        "funcționează în pierdere"
+       ],
+       "corect": 0,
+       "explicatie": "Cunoașterea modelului ajută la decizii informate."
+      },
+      {
+       "intrebare": "Aplicațiile proiectate să capteze atenția:",
+       "optiuni": [
+        "pot produce comportamente de tip dependent",
+        "sunt neutre",
+        "îmbunătățesc concentrarea",
+        "reduc timpul petrecut online"
+       ],
+       "corect": 0,
+       "explicatie": "Mecanismul e cel al recompensei variabile."
+      },
+      {
+       "intrebare": "Competența digitală include:",
+       "optiuni": [
+        "evaluarea surselor și protejarea datelor",
+        "doar operarea aplicațiilor",
+        "doar programarea",
+        "doar viteza de tastare"
+       ],
+       "corect": 0,
+       "explicatie": "Este o competență critică, nu doar tehnică."
+      }
+     ]
+    },
+    {
+     "id": "sti12-06",
+     "titlu": "Tehnologie, etică, responsabilitate",
+     "rezumat": "Orice tehnologie are efecte neintenționate. Automobilul a adus mobilitate, dar și accidente, poluare și extindere urbană; rețelele sociale au adus conexiune, dar și polarizare; antibioticele au salvat milioane de vieți, dar au generat rezistență. Evaluarea tehnologiei presupune, prin urmare, întrebări despre efectele pe termen lung, despre cine câștigă și cine pierde și despre reversibilitatea consecințelor. Principiul precauției spune că, în fața unui risc grav și ireversibil, absența certitudinii științifice nu justifică amânarea măsurilor; el nu înseamnă însă blocarea oricărei inovații, ci proporționalitate. Etica cercetării impune consimțământ informat, evaluare independentă și transparență. Iar responsabilitatea nu poate fi transferată integral tehnologiei: cine proiectează un sistem alege ce optimizează, iar cine îl folosește răspunde de folosire. Discuția publică informată este singurul mecanism prin care aceste alegeri devin colective, nu doar tehnice.",
+     "ideiCheie": [
+      "Orice tehnologie are efecte neintenționate.",
+      "Evaluarea cere întrebări despre termen lung, câștigători, perdanți și reversibilitate.",
+      "Principiul precauției înseamnă proporționalitate, nu blocarea inovației.",
+      "Responsabilitatea nu se transferă tehnologiei: alegerile rămân umane."
+     ],
+     "termeni": [
+      {
+       "t": "principiul precauției",
+       "d": "regula după care riscul grav și ireversibil justifică măsuri, chiar în absența certitudinii depline"
+      },
+      {
+       "t": "consimțământ informat",
+       "d": "acordul dat în cunoștință de cauză, după prezentarea completă a riscurilor"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce spune principiul precauției?",
+       "v": "Că, în fața unui risc grav și ireversibil, lipsa certitudinii nu justifică amânarea măsurilor."
+      },
+      {
+       "f": "Ce întrebări presupune evaluarea unei tehnologii?",
+       "v": "Care sunt efectele pe termen lung, cine câștigă, cine pierde și dacă efectele sunt reversibile."
+      },
+      {
+       "f": "Ce impune etica cercetării?",
+       "v": "Consimțământ informat, evaluare independentă și transparență."
+      },
+      {
+       "f": "Se poate transfera responsabilitatea către tehnologie?",
+       "v": "Nu; alegerile de proiectare și de folosire rămân umane."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Principiul precauției:",
+       "optiuni": [
+        "cere proporționalitate, nu blocarea oricărei inovații",
+        "interzice orice tehnologie nouă",
+        "se aplică doar la riscuri sigure",
+        "este o regulă tehnică"
+       ],
+       "corect": 0,
+       "explicatie": "Riscul grav și ireversibil e criteriul."
+      },
+      {
+       "intrebare": "Rezistența la antibiotice este un exemplu de:",
+       "optiuni": [
+        "efect neintenționat al unei tehnologii benefice",
+        "eșec al medicinei",
+        "fenomen fără cauză",
+        "problemă rezolvată"
+       ],
+       "corect": 0,
+       "explicatie": "Antibioticele au salvat milioane de vieți."
+      },
+      {
+       "intrebare": "Consimțământul informat presupune:",
+       "optiuni": [
+        "prezentarea completă a riscurilor înainte de acord",
+        "semnarea unui formular oarecare",
+        "acordul unei autorități",
+        "acordul familiei"
+       ],
+       "corect": 0,
+       "explicatie": "Este un principiu de bază al eticii cercetării."
+      },
+      {
+       "intrebare": "Alegerea a ceea ce optimizează un sistem tehnologic:",
+       "optiuni": [
+        "este o decizie umană, cu consecințe etice",
+        "este determinată tehnic",
+        "nu are consecințe",
+        "aparține utilizatorului final"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea discuția publică e necesară."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sti12-c3",
+   "titlu": "Mediu, resurse, gândire critică",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "sti12-07",
+     "titlu": "Resurse și limite",
+     "rezumat": "Resursele se împart în regenerabile, care se refac într-un interval util (apa dulce, pădurile, peștele), și neregenerabile (minereuri, combustibili fosili). O resursă regenerabilă devine, practic, epuizabilă dacă rata de consum depășește rata de refacere: pescuitul excesiv și defrișările sunt exemple clare, iar prăbușirea unor stocuri de pește a fost documentată în detaliu. Amprenta ecologică măsoară suprafața necesară pentru a susține consumul unei populații; ea arată că nivelul actual de consum al țărilor bogate ar cere mai multe planete dacă ar fi generalizat. Economia circulară propune un alt model: proiectarea produselor pentru durabilitate, reparare, reutilizare și reciclare, în locul lanțului liniar extragere–producție–consum–deșeu. Reciclarea este ultima verigă, nu prima: reducerea consumului și reutilizarea au un impact mult mai mare.",
+     "ideiCheie": [
+      "Resursele regenerabile devin epuizabile dacă rata de consum depășește rata de refacere.",
+      "Amprenta ecologică arată suprafața necesară susținerii consumului.",
+      "Economia circulară înlocuiește lanțul liniar cu unul închis.",
+      "Reciclarea e ultima verigă; reducerea și reutilizarea au impact mai mare."
+     ],
+     "termeni": [
+      {
+       "t": "amprentă ecologică",
+       "d": "suprafața productivă necesară pentru a susține consumul unei populații"
+      },
+      {
+       "t": "economie circulară",
+       "d": "model economic în care produsele sunt proiectate pentru durabilitate, reparare și reciclare"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Când devine epuizabilă o resursă regenerabilă?",
+       "v": "Când rata de consum depășește rata de refacere."
+      },
+      {
+       "f": "Ce măsoară amprenta ecologică?",
+       "v": "Suprafața productivă necesară pentru a susține consumul unei populații."
+      },
+      {
+       "f": "Ce propune economia circulară?",
+       "v": "Proiectarea produselor pentru durabilitate, reparare, reutilizare și reciclare."
+      },
+      {
+       "f": "Care este ordinea corectă a priorităților în gestionarea resurselor?",
+       "v": "Reducerea consumului, reutilizarea, apoi reciclarea."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Pescuitul excesiv arată că:",
+       "optiuni": [
+        "o resursă regenerabilă poate fi epuizată",
+        "peștele nu e o resursă regenerabilă",
+        "refacerea e automată",
+        "consumul nu contează"
+       ],
+       "corect": 0,
+       "explicatie": "Prăbușirea unor stocuri a fost documentată."
+      },
+      {
+       "intrebare": "Reciclarea este, în ierarhia gestionării deșeurilor:",
+       "optiuni": [
+        "ultima verigă",
+        "prima prioritate",
+        "singura soluție",
+        "inutilă"
+       ],
+       "corect": 0,
+       "explicatie": "Reducerea și reutilizarea au impact mai mare."
+      },
+      {
+       "intrebare": "Economia circulară se opune modelului:",
+       "optiuni": [
+        "liniar: extragere, producție, consum, deșeu",
+        "circular",
+        "agricol",
+        "industrial în general"
+       ],
+       "corect": 0,
+       "explicatie": "Propune închiderea buclei."
+      },
+      {
+       "intrebare": "Amprenta ecologică a țărilor bogate arată că:",
+       "optiuni": [
+        "generalizarea nivelului lor de consum ar cere mai multe planete",
+        "consumul actual e sustenabil global",
+        "resursele sunt nelimitate",
+        "reciclarea rezolvă totul"
+       ],
+       "corect": 0,
+       "explicatie": "De aici discuția despre modele de consum."
+      }
+     ]
+    },
+    {
+     "id": "sti12-08",
+     "titlu": "Biodiversitate și ecosisteme",
+     "rezumat": "Biodiversitatea cuprinde diversitatea genetică, de specii și de ecosisteme. Ea nu e un lux estetic: ecosistemele diverse sunt mai stabile, iar serviciile pe care le oferă — polenizare, purificarea apei, fertilitatea solului, reglarea climei, resurse medicinale — au valoare economică imensă, deși rareori contabilizată. Dispariția speciilor are astăzi un ritm mult mai mare decât cel natural, din cauze umane: distrugerea habitatelor, supraexploatarea, poluarea, speciile invazive și schimbările climatice. Conservarea folosește arii protejate, refacerea habitatelor, coridoare ecologice, reglementarea comerțului cu specii și programe de reproducere. Eficiența lor depinde de implicarea comunităților locale: măsurile impuse fără sprijin local eșuează, în timp ce cele care leagă conservarea de un beneficiu economic local funcționează mai bine. Fiecare specie pierdută este ireversibilă, iar consecințele dispariției unei verigi într-un ecosistem sunt, adesea, imposibil de prevăzut exact.",
+     "ideiCheie": [
+      "Biodiversitatea cuprinde diversitatea genetică, de specii și de ecosisteme.",
+      "Serviciile ecosistemice au valoare economică imensă, rareori contabilizată.",
+      "Ritmul actual de dispariție a speciilor depășește mult ritmul natural.",
+      "Conservarea reușește când implică și avantajează comunitățile locale."
+     ],
+     "termeni": [
+      {
+       "t": "servicii ecosistemice",
+       "d": "beneficiile pe care ecosistemele le oferă societății, precum polenizarea sau purificarea apei"
+      },
+      {
+       "t": "specie invazivă",
+       "d": "specie introdusă într-un ecosistem nou, unde se înmulțește în dauna speciilor locale"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce cuprinde biodiversitatea?",
+       "v": "Diversitatea genetică, diversitatea de specii și diversitatea de ecosisteme."
+      },
+      {
+       "f": "Ce sunt serviciile ecosistemice?",
+       "v": "Beneficiile oferite societății de ecosisteme: polenizare, purificarea apei, fertilitatea solului, reglarea climei."
+      },
+      {
+       "f": "De ce eșuează măsurile de conservare impuse fără sprijin local?",
+       "v": "Pentru că nu au susținerea celor care folosesc zilnic resursele respective."
+      },
+      {
+       "f": "Ce face ca dispariția unei specii să fie deosebit de gravă?",
+       "v": "Este ireversibilă, iar efectele asupra ecosistemului sunt greu de prevăzut."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Ecosistemele diverse sunt, de regulă:",
+       "optiuni": [
+        "mai stabile",
+        "mai fragile",
+        "identice ca stabilitate",
+        "imposibil de studiat"
+       ],
+       "corect": 0,
+       "explicatie": "Diversitatea oferă redundanță funcțională."
+      },
+      {
+       "intrebare": "Speciile invazive:",
+       "optiuni": [
+        "se înmulțesc în dauna speciilor locale",
+        "îmbogățesc ecosistemul",
+        "dispar rapid",
+        "nu au efect"
+       ],
+       "corect": 0,
+       "explicatie": "Sunt una dintre cauzele majore ale pierderii biodiversității."
+      },
+      {
+       "intrebare": "Serviciile ecosistemice:",
+       "optiuni": [
+        "au valoare economică, rareori contabilizată",
+        "nu au valoare economică",
+        "sunt evaluate exact în PIB",
+        "privesc doar ariile protejate"
+       ],
+       "corect": 0,
+       "explicatie": "Polenizarea e exemplul cel mai citat."
+      },
+      {
+       "intrebare": "Conservarea funcționează mai bine când:",
+       "optiuni": [
+        "leagă protecția de un beneficiu local",
+        "este impusă fără consultare",
+        "exclude complet oamenii",
+        "se limitează la interdicții"
+       ],
+       "corect": 0,
+       "explicatie": "Comunitățile locale sunt actorii principali."
+      }
+     ]
+    },
+    {
+     "id": "sti12-09",
+     "titlu": "Gândire critică aplicată",
+     "rezumat": "Gândirea critică este capacitatea de a evalua afirmații pe baza dovezilor, nu a impresiei sau a autorității. Ea presupune câteva reflexe: distincția dintre fapt și opinie, întrebarea despre sursă și despre metoda de obținere a informației, atenția la ordinul de mărime, distincția dintre corelație și cauzalitate, și dispoziția de a-ți schimba părerea în fața unor dovezi mai bune. Erorile de raționament frecvente sunt confirmarea propriilor convingeri prin selecția dovezilor, generalizarea din cazuri izolate, atacul la persoană în locul argumentului, falsa dilemă și apelul la autoritate în afara domeniului ei. Pseudoștiința se recunoaște după câteva semne: afirmații care nu pot fi infirmate, respingerea evaluării independente, invocarea unei conspirații pentru a explica lipsa de acceptare, promisiuni disproporționate. Scepticismul sănătos nu înseamnă a nu crede nimic, ci a cere dovezi proporționale cu pretenția.",
+     "ideiCheie": [
+      "Gândirea critică evaluează afirmațiile pe baza dovezilor, nu a impresiei sau autorității.",
+      "Erori frecvente: confirmarea selectivă, generalizarea pripită, atacul la persoană, falsa dilemă.",
+      "Pseudoștiința se recunoaște după afirmații neinfirmabile și respingerea evaluării independente.",
+      "Scepticismul sănătos cere dovezi proporționale cu pretenția."
+     ],
+     "termeni": [
+      {
+       "t": "gândire critică",
+       "d": "capacitatea de a evalua afirmații pe baza dovezilor și a raționamentului corect"
+      },
+      {
+       "t": "pseudoștiință",
+       "d": "ansamblu de afirmații prezentate ca științifice, dar care nu respectă criteriile metodei științifice"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce presupune gândirea critică?",
+       "v": "Evaluarea afirmațiilor pe baza dovezilor, nu a impresiei sau a autorității."
+      },
+      {
+       "f": "Cum se recunoaște pseudoștiința?",
+       "v": "După afirmații care nu pot fi infirmate, respingerea evaluării independente și promisiuni disproporționate."
+      },
+      {
+       "f": "Ce înseamnă scepticismul sănătos?",
+       "v": "A cere dovezi proporționale cu pretenția, nu a nu crede nimic."
+      },
+      {
+       "f": "Ce este confirmarea selectivă?",
+       "v": "Tendința de a reține doar dovezile care confirmă convingerile proprii."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Invocarea unei conspirații pentru a explica lipsa de acceptare științifică este:",
+       "optiuni": [
+        "un semn de pseudoștiință",
+        "o dovadă valabilă",
+        "o metodă științifică",
+        "un argument neutru"
+       ],
+       "corect": 0,
+       "explicatie": "Afirmațiile neinfirmabile o însoțesc de obicei."
+      },
+      {
+       "intrebare": "Apelul la autoritate devine eroare când:",
+       "optiuni": [
+        "autoritatea invocată e în afara domeniului ei",
+        "specialistul e recunoscut",
+        "se citează o cercetare",
+        "există consens"
+       ],
+       "corect": 0,
+       "explicatie": "Un fizician nu e autoritate în nutriție."
+      },
+      {
+       "intrebare": "Falsa dilemă constă în:",
+       "optiuni": [
+        "prezentarea a două opțiuni ca și cum ar fi singurele",
+        "folosirea a prea multe date",
+        "citarea unei surse",
+        "generalizarea"
+       ],
+       "corect": 0,
+       "explicatie": "Realitatea are, de obicei, mai multe variante."
+      },
+      {
+       "intrebare": "Scepticismul sănătos înseamnă:",
+       "optiuni": [
+        "dovezi proporționale cu pretenția",
+        "respingerea oricărei afirmații",
+        "acceptarea autorității",
+        "refuzul științei"
+       ],
+       "corect": 0,
+       "explicatie": "O afirmație extraordinară cere dovezi extraordinare."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "teze": [
+  {
+   "semestru": 1,
+   "test": [
+    {
+     "intrebare": "Macronutrienții sunt:",
+     "optiuni": [
+      "glucidele, lipidele și proteinele",
+      "vitaminele și mineralele",
+      "fibrele și apa",
+      "doar proteinele"
+     ],
+     "corect": 0,
+     "explicatie": "Micronutrienții sunt vitaminele și mineralele."
+    },
+    {
+     "intrebare": "Fibrele alimentare:",
+     "optiuni": [
+      "nu se digeră, dar sunt indispensabile",
+      "furnizează cea mai multă energie",
+      "sunt micronutrienți",
+      "se absorb complet"
+     ],
+     "corect": 0,
+     "explicatie": "Hrănesc microbiota intestinală."
+    },
+    {
+     "intrebare": "Antibioticele acționează asupra:",
+     "optiuni": [
+      "bacteriilor",
+      "virusurilor",
+      "tuturor agenților patogeni",
+      "celulelor proprii"
+     ],
+     "corect": 0,
+     "explicatie": "Abuzul selectează rezistența."
+    },
+    {
+     "intrebare": "Imunitatea de grup protejează:",
+     "optiuni": [
+      "și persoanele care nu se pot vaccina",
+      "doar vaccinații",
+      "doar copiii",
+      "doar adulții"
+     ],
+     "corect": 0,
+     "explicatie": "Cere acoperire vaccinală ridicată."
+    },
+    {
+     "intrebare": "Neuroplasticitatea înseamnă:",
+     "optiuni": [
+      "modificarea conexiunilor cerebrale prin experiență",
+      "creșterea numărului de neuroni la infinit",
+      "stabilitatea absolută a creierului",
+      "pierderea memoriei"
+     ],
+     "corect": 0,
+     "explicatie": "Pe ea se bazează învățarea."
+    },
+    {
+     "intrebare": "Somnul are rol în:",
+     "optiuni": [
+      "consolidarea memoriei și curățarea produșilor metabolici",
+      "doar odihna musculară",
+      "creșterea în înălțime exclusiv",
+      "reducerea apetitului"
+     ],
+     "corect": 0,
+     "explicatie": "Privarea de somn afectează atenția și imunitatea."
+    },
+    {
+     "intrebare": "Energia nucleară, în funcționare:",
+     "optiuni": [
+      "nu emite dioxid de carbon",
+      "emite mai mult decât gazul",
+      "este regenerabilă",
+      "nu produce deșeuri"
+     ],
+     "corect": 0,
+     "explicatie": "Problemele sunt deșeurile și siguranța."
+    },
+    {
+     "intrebare": "Compararea corectă a surselor de energie se face:",
+     "optiuni": [
+      "pe ciclul de viață, raportat la energia produsă",
+      "după costul inițial",
+      "după impresia publică",
+      "după suprafața ocupată"
+     ],
+     "corect": 0,
+     "explicatie": "Altfel comparația e înșelătoare."
+    },
+    {
+     "intrebare": "Sistemele de inteligență artificială actuale:",
+     "optiuni": [
+      "învață tipare din date, fără a înțelege în sens uman",
+      "înțeleg ca oamenii",
+      "nu au nevoie de date",
+      "sunt infailibile"
+     ],
+     "corect": 0,
+     "explicatie": "Verificarea rămâne obligatorie."
+    }
+   ]
+  },
+  {
+   "semestru": 2,
+   "test": [
+    {
+     "intrebare": "Principiul precauției se aplică:",
+     "optiuni": [
+      "în fața unui risc grav și ireversibil",
+      "oricărei inovații",
+      "doar riscurilor sigure",
+      "doar în medicină"
+     ],
+     "corect": 0,
+     "explicatie": "Cere proporționalitate, nu blocaj."
+    },
+    {
+     "intrebare": "Rezistența la antibiotice este:",
+     "optiuni": [
+      "un efect neintenționat al unei tehnologii benefice",
+      "o dovadă că antibioticele nu funcționează",
+      "un fenomen fără cauză",
+      "o problemă rezolvată"
+     ],
+     "corect": 0,
+     "explicatie": "Selectată prin folosire abuzivă."
+    },
+    {
+     "intrebare": "O resursă regenerabilă devine epuizabilă când:",
+     "optiuni": [
+      "consumul depășește rata de refacere",
+      "este folosită deloc",
+      "se reciclează",
+      "este protejată"
+     ],
+     "corect": 0,
+     "explicatie": "Pescuitul excesiv e exemplul clasic."
+    },
+    {
+     "intrebare": "În ierarhia gestionării deșeurilor, prima prioritate este:",
+     "optiuni": [
+      "reducerea consumului",
+      "reciclarea",
+      "incinerarea",
+      "depozitarea"
+     ],
+     "corect": 0,
+     "explicatie": "Reutilizarea vine înaintea reciclării."
+    },
+    {
+     "intrebare": "Serviciile ecosistemice includ:",
+     "optiuni": [
+      "polenizarea, purificarea apei, fertilitatea solului",
+      "doar produsele lemnoase",
+      "doar turismul",
+      "doar resursele minerale"
+     ],
+     "corect": 0,
+     "explicatie": "Valoarea lor economică e rareori contabilizată."
+    },
+    {
+     "intrebare": "Speciile invazive:",
+     "optiuni": [
+      "sunt o cauză majoră a pierderii biodiversității",
+      "îmbogățesc ecosistemele",
+      "nu se răspândesc",
+      "dispar singure"
+     ],
+     "corect": 0,
+     "explicatie": "Alături de distrugerea habitatelor."
+    },
+    {
+     "intrebare": "Conservarea reușește mai bine când:",
+     "optiuni": [
+      "implică și avantajează comunitățile locale",
+      "este impusă fără consultare",
+      "exclude complet oamenii",
+      "se bazează doar pe interdicții"
+     ],
+     "corect": 0,
+     "explicatie": "Sprijinul local e decisiv."
+    },
+    {
+     "intrebare": "Confirmarea selectivă înseamnă:",
+     "optiuni": [
+      "reținerea doar a dovezilor care confirmă convingerile proprii",
+      "verificarea tuturor surselor",
+      "respingerea oricărei dovezi",
+      "generalizarea din cazuri izolate"
+     ],
+     "corect": 0,
+     "explicatie": "Este una dintre cele mai răspândite erori."
+    },
+    {
+     "intrebare": "Scepticismul sănătos cere:",
+     "optiuni": [
+      "dovezi proporționale cu pretenția",
+      "respingerea oricărei afirmații",
+      "acceptarea autorității",
+      "refuzul metodei științifice"
+     ],
+     "corect": 0,
+     "explicatie": "Afirmațiile extraordinare cer dovezi extraordinare."
+    }
+   ]
+  }
+ ]
+}
