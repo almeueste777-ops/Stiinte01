@@ -1,14 +1,14 @@
 /* Service worker: precache + strategii de cache.
    IMPORTANT: crește CACHE la fiecare modificare a fișierelor, ca utilizatorii să primească versiunea nouă. */
-const CACHE = 'stiinte01-v9';   // v05 — cromatica „bleumarin de miezul nopții + nisip cald”
+const CACHE = 'stiinte01-v10';  // v06 — „motivație și progres": onboarding, Progres, Realizări
 /* Scheletul aplicației: FĂRĂ el aplicația nu pornește, deci se cere atomic. */
 const SHELL = [
   './',
   './index.html',
   /* ?v= trebuie să fie IDENTIC cu cel din index.html (cache-ul SW potrivește
      URL-ul exact, cu tot cu query) — CI-ul verifică sincronizarea. */
-  './assets/app.css?v=9',
-  './assets/app.js?v=9',
+  './assets/app.css?v=10',
+  './assets/app.js?v=10',
   './manifest.webmanifest',
   './data/curriculum.json',
   './data/continut.json',

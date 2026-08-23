@@ -59,7 +59,7 @@
      deschid peste ecranul curent, din rotița barei de sus, și „înapoi” trebuie
      să întoarcă exact acolo. Tratate ca rădăcină, goleau stiva, iar ecranul de
      dinainte reintra alunecând dinspre dreapta — adică fix pe dos. */
-  const esteSuprapunere = h => /^#\/(setari|noutati)(\/|$)/.test(String(h));
+  const esteSuprapunere = h => /^#\/(setari|noutati|progres|realizari)(\/|$)/.test(String(h));
 
   function navDirection(hash) {
     if (!navStack.length) { navStack = [hash]; return 'fade'; }        // prima randare
@@ -183,6 +183,7 @@
     densitate: 'confortabil',     // compact | confortabil | spatios
     font: 'sistem',               // sistem | serif | lizibil
     haptic: true,
+    sarbatori: true,              // confetti + felicitare la deblocarea unei insigne
     /* studiu */
     ecranStart: 'acasa',          // acasa | materii | ultima
     obiectivZilnic: 2,            // lecții pe zi
@@ -202,11 +203,28 @@
     autoIntoarce: false
   };
 
+  /* Contoare cumulative — hrănesc ecranul Progres și insignele. Ținute separat
+     de restul stării fiindcă unele nu se pot reconstitui din ea (câte SESIUNI de
+     antrenament ai făcut, nu câte elemente sunt scadente acum). */
+  const STATS_GOALE = () => ({
+    antrenSesiuni: 0, antrenItemi: 0, antrenCorecte: 0,
+    testeDate: 0, noteDate: 0, calibratOK: 0
+  });
+
   const STARE_GOALA = () => ({
     lectiiCitite: {}, carduri: {}, teste: {}, notite: {},
     /* `antren` = programarea eșalonată, un rând per element antrenabil.
        `note`   = istoricul simulărilor de notă, per materie. */
     antren: {}, note: {},
+    /* `activ`  = intensitatea de studiu pe zi (heatmap + seria de zile), ținut
+                 separat de `zile` fiindcă `zile` numără STRICT lecțiile citite
+                 (obiectivul zilnic e „lecții pe zi"), iar seria trebuie să
+                 aprindă orice studiu: antrenament, test, simulare.
+       `stats` = contoare cumulative pentru Progres și insigne.
+       `insigne` = { idInsignă: momentDeblocare }; `undefined` = încă nesădit —
+                 la prima pornire pe v06 se sădesc TĂCUT cele deja meritate, ca
+                 un elev vechi să nu fie inundat de zeci de felicitări deodată. */
+    activ: {}, stats: STATS_GOALE(), insigne: undefined, vazutIntro: false,
     clasa: 'a XII-a', zile: {}, ultima: '', setari: Object.assign({}, SETARI)
   });
 
@@ -275,6 +293,43 @@
         .slice(-20);
       if (sir.length) s.note[k] = sir;
     }
+    /* `activ`: cheia trebuie să arate a dată (YYYY-MM-DD), altfel un import
+       stricat ar umple heatmapul cu coloane fantomă; valoarea, un întreg pozitiv. */
+    const activ = obiect(brut.activ);
+    for (const k of Object.keys(activ)) {
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(k)) continue;
+      const n = Number(activ[k]);
+      if (isFinite(n) && n > 0) s.activ[k] = Math.min(9999, Math.round(n));
+    }
+    /* Migrare de la versiunile fără `activ`: seria de zile se bazează acum pe
+       orice activitate, dar elevii veniți de pe v05 au doar `zile` (lecții
+       citite). Le sădim ca punct de plecare, ca seria să nu cadă la zero la
+       trecerea pe v06. Rulează o singură dată — după prima activitate, `activ`
+       nu mai e gol. */
+    if (!Object.keys(s.activ).length) {
+      for (const k of Object.keys(s.zile)) {
+        if (!/^\d{4}-\d{2}-\d{2}$/.test(k)) continue;
+        const n = Number(s.zile[k]);
+        if (isFinite(n) && n > 0) s.activ[k] = Math.min(9999, Math.round(n));
+      }
+    }
+    const stats = obiect(brut.stats);
+    for (const k of Object.keys(STATS_GOALE())) {
+      const n = Number(stats[k]);
+      s.stats[k] = isFinite(n) && n > 0 ? Math.min(Number.MAX_SAFE_INTEGER, Math.round(n)) : 0;
+    }
+    /* Insigne: un obiect prezent (chiar gol) = stare deja sădită, deci deblocările
+       ulterioare se sărbătoresc; `undefined` = nesădit, se sădește tăcut. */
+    if (brut.insigne && typeof brut.insigne === 'object' && !Array.isArray(brut.insigne)) {
+      s.insigne = {};
+      for (const k of Object.keys(brut.insigne)) {
+        const t = Number(brut.insigne[k]);
+        if (isFinite(t)) s.insigne[k] = t;
+      }
+    } else {
+      s.insigne = undefined;
+    }
+    s.vazutIntro = !!brut.vazutIntro;
     if (typeof brut.clasa === 'string' && brut.clasa) s.clasa = brut.clasa;
     if (typeof brut.ultima === 'string') s.ultima = brut.ultima;
 
@@ -451,18 +506,45 @@
 
   const pct = (a, b) => Math.round(a / Math.max(1, b) * 100);
 
-  /* Seria de zile consecutive cu cel puțin o lecție citită. */
+  /* Seria de zile de studiu consecutive. Citește `activ` (orice activitate),
+     nu `zile` (doar lecții citite): un elev care se antrenează sau dă simulări
+     zilnic își păstrează seria, cum se așteaptă la o aplicație premium. */
   function serie() {
     let n = 0;
     const d = new Date();
     for (;;) {
       const k = d.toISOString().slice(0, 10);
-      if (state.zile[k]) { n++; d.setDate(d.getDate() - 1); }
+      if (state.activ[k]) { n++; d.setDate(d.getDate() - 1); }
       else if (n === 0 && k === azi()) { d.setDate(d.getDate() - 1); }  // ziua de azi poate fi încă goală
       else break;
       if (n > 999) break;
     }
     return n;
+  }
+
+  /* Cea mai lungă serie din tot istoricul de activitate. O parcurgere a cheilor
+     sortate; ≤400 de chei, deci ieftin la fiecare randare a ecranului Progres. */
+  function serieMax() {
+    const zile = Object.keys(state.activ).filter(k => /^\d{4}-\d{2}-\d{2}$/.test(k)).sort();
+    let max = 0, cur = 0, prev = 0;
+    for (const k of zile) {
+      const t = Date.parse(k + 'T00:00:00Z');
+      cur = (prev && t - prev === ZI) ? cur + 1 : 1;
+      if (cur > max) max = cur;
+      prev = t;
+    }
+    return max;
+  }
+
+  /* Câte zile de studiu în ultimele `n` zile (inclusiv azi) — pentru „x/7 zile". */
+  function zileActiveIn(n) {
+    let c = 0;
+    const d = new Date();
+    for (let i = 0; i < n; i++) {
+      if (state.activ[d.toISOString().slice(0, 10)]) c++;
+      d.setDate(d.getDate() - 1);
+    }
+    return c;
   }
 
   function marcheazaZi() {
@@ -472,6 +554,16 @@
        plus vacanța, iar localStorage are o cotă mică. */
     const chei = Object.keys(state.zile).sort();
     while (chei.length > 400) delete state.zile[chei.shift()];
+  }
+
+  /* Orice activitate de studiu aprinde ziua în heatmap și hrănește seria.
+     `intensitate` deosebește o lecție citită (1) de o simulare întreagă (3),
+     ca heatmapul să reflecte cât de plină a fost ziua, nu doar dacă a existat. */
+  function marcheazaActivitate(intensitate) {
+    const k = azi();
+    state.activ[k] = (state.activ[k] || 0) + (intensitate || 1);
+    const chei = Object.keys(state.activ).sort();
+    while (chei.length > 400) delete state.activ[chei.shift()];
   }
 
   /* ═══ §4  rutare ════════════════════════════════════════════════════ */
@@ -489,6 +581,8 @@
     nota: viewNota,
     test: viewTest,
     plan: viewPlan,
+    progres: viewProgres,
+    realizari: viewRealizari,
     setari: viewSetari,
     noutati: viewNoutati
   };
@@ -511,6 +605,9 @@
        au nevoie de modulele clasei încărcate; sesiunea propriu-zisă are nevoie
        de domeniul ei. */
     if (name === 'antrenament' && !args.length) return IDX ? modClasa(state.clasa).map(m => m.id) : [];
+    /* Progres și Realizări arată stăpânirea pe materii, deci au nevoie de
+       modulele clasei încărcate — sunt precache-uite, deci sosesc instant. */
+    if (name === 'progres' || name === 'realizari') return IDX ? modClasa(state.clasa).map(m => m.id) : [];
     if (name === 'nota') return args[0] ? [args[0]] : (IDX ? modClasa(state.clasa).map(m => m.id) : []);
     if (name === 'test' || name === 'carduri' || name === 'antren') {
       const [tip, a, b] = args;
@@ -661,6 +758,8 @@
     const notaUltima = toateNotele.length
       ? toateNotele.sort((x, y) => y.cand - x.cand)[0].n : null;
     const s = serie();
+    const debl = insigneDeblocate();
+    const nrDebl = INSIGNE.filter(i => debl[i.id]).length;
 
     view.innerHTML = `
       <div class="card">
@@ -681,6 +780,13 @@
           <div class="stat"><b>${testKeys.length}</b><span>teste date</span></div>
           <div class="stat"><b>${medie === null ? '—' : medie + '%'}</b><span>medie</span></div>
         </div>
+      </div>
+
+      <div class="grid2">
+        <button class="card tap" data-go="#/progres"><div class="row"><h3>Progresul meu</h3>
+          <span class="flacara-mic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${ICON_GRUP['Foc']}</svg>${s}</span></div>
+          <p class="muted">${s === 0 ? 'Începe azi o serie de studiu.' : (s === 1 ? 'o zi la rând' : s + ' zile la rând') + (stAcasa ? ' · ' + stAcasa.procent + '% stăpânit' : '')}</p></button>
+        <button class="card tap" data-go="#/realizari"><h3>Realizări</h3><p class="muted">${nrDebl} din ${INSIGNE.length} insigne deblocate</p></button>
       </div>
 
       <div class="grid2">
@@ -998,7 +1104,10 @@
       clearTimeout(t);
       if (ta.value.trim()) state.notite[lec.id] = ta.value; else delete state.notite[lec.id];
       if (state.lectiiCitite[lec.id]) delete state.lectiiCitite[lec.id];
-      else { state.lectiiCitite[lec.id] = Date.now(); marcheazaZi(); bate(12); }
+      else {
+        state.lectiiCitite[lec.id] = Date.now(); marcheazaZi(); marcheazaActivitate(1); bate(12);
+        verificaInsigne({ celebra: true });
+      }
       state.ultima = '#/lectie/' + encodeURIComponent(modId) + '/' + encodeURIComponent(lec.id);
       save(); render();
     };
@@ -1141,6 +1250,7 @@
      e doar o gardă împotriva dublei apăsări. */
   function drawCard() {
     if (deckPos >= deck.length) {
+      if (deck.length) { marcheazaActivitate(1); verificaInsigne({ celebra: true }); }
       view.innerHTML = `<div class="card"><h3>Sesiune încheiată</h3>
         <p class="muted">Ai parcurs ${deck.length} carduri din „${esc(deckTitlu)}”.</p>
         <button class="btn" id="din-nou">Încă o rundă</button>
@@ -1313,7 +1423,10 @@
     const procent = pct(qScor, total);
     const prec = state.teste[qCheie];
     state.teste[qCheie] = { procent, cand: Date.now(), din: total };
+    state.stats.testeDate++;
+    marcheazaActivitate(2);
     save();
+    verificaInsigne({ celebra: true });
 
     const gresite = qRasp.filter(r => r.ales !== r.q.corect);
     view.innerHTML = `<div class="card score">
@@ -1782,6 +1895,16 @@
 
     const st = stapanireDomeniu(ses.scop[0], ses.scop[1], ses.scop[2]);
 
+    /* Contorizăm sesiunea O SINGURĂ dată — ecranul de raport apare exact o dată
+       per sesiune — apoi aprindem ziua în heatmap și verificăm insignele.
+       „Calibrat" = cel puțin cinci „sigur" și niciunul greșit: încredere meritată. */
+    state.stats.antrenSesiuni++;
+    state.stats.antrenItemi += n;
+    state.stats.antrenCorecte += bune;
+    if (siguri.length >= 5 && sigurGresite === 0) state.stats.calibratOK++;
+    marcheazaActivitate(2);
+    verificaInsigne({ celebra: true });
+
     view.innerHTML = `
       <div class="card">
         <div class="row"><h3>Sesiune încheiată</h3><span class="pill">${proc}%</span></div>
@@ -2032,7 +2155,10 @@
     const anterior = istoric.length ? istoric[istoric.length - 1].n : null;
     istoric.push({ n: nota, cand: Date.now() });
     state.note[sim.modul] = istoric.slice(-20);
+    state.stats.noteDate++;
+    marcheazaActivitate(3);
     save();
+    verificaInsigne({ celebra: true });
     const medie = istoric.reduce((a, x) => a + x.n, 0) / istoric.length;
 
     const gresite = r.filter(x => !x.corect);
@@ -2109,6 +2235,362 @@
           ${ult === null ? '' : `<div class="rand-ctl"><span class="pill ${ult >= 8.5 ? '' : 'soft'}">${notaRo(ult)}</span></div>`}
           <span class="lec-sag" aria-hidden="true"></span></button>`;
       }).join('')}</div>` : '<div class="card"><p class="muted">Nicio materie pentru clasa aleasă.</p></div>'}`;
+  }
+
+  /* ═══ §7d  Realizări, Progres, sărbătoare ═══════════════════════════
+     Stratul de motivație — piesa care lipsește din varianta „doar pedagogie".
+     Nimic nu inventează date noi: totul se citește din starea deja existentă
+     (lecții citite, antrenament, note, carduri) plus câteva contoare cumulative
+     (§2, state.stats). Insignele sunt monotone: odată deblocate rămân, chiar
+     dacă mai târziu seria scade sau ștergi progresul cardurilor. */
+
+  /* — agregări peste stare, folosite de insigne și de ecranul Progres — */
+  const notaMax = () => {
+    let m = 0;
+    for (const arr of Object.values(state.note || {}))
+      for (const x of (arr || [])) if (x && x.n > m) m = x.n;
+    return m;
+  };
+  const cardKnownCount = () => Object.values(state.carduri).filter(c => c && c.usor > c.greu).length;
+  const testePerfecte = () => Object.values(state.teste).some(t => t && t.procent === 100);
+  const materiiComplete = () => {
+    if (!IDX) return 0;
+    let c = 0;
+    for (const m of IDX.module) {
+      const ls = toateLectiile(m);
+      if (ls.length && ls.every(l => state.lectiiCitite[l.id])) c++;
+    }
+    return c;
+  };
+  const aniAtinsi = () => {
+    if (!IDX) return 0;
+    const ani = new Set();
+    for (const m of IDX.module)
+      if (m.capitole.some(cp => cp.lectii.some(l => state.lectiiCitite[l.id]))) ani.add(m.an);
+    return ani.size;
+  };
+  /* Cel mai bun procent de stăpânire dintre materiile ÎNCĂRCATE (corp în MOD).
+     La pornire poate fi 0 dacă niciun modul nu e în memorie; insigna se
+     deblochează la prima sesiune, când modulul e sigur încărcat. */
+  const stapanireMaxProc = () => {
+    if (!IDX) return 0;
+    let m = 0;
+    for (const ix of IDX.module) {
+      if (!MOD.has(ix.id)) continue;
+      const s = stapanireDomeniu('materie', ix.id);
+      if (s && s.procent > m) m = s.procent;
+    }
+    return m;
+  };
+
+  /* Iconuri pe grup — SVG inline, o singură cale per grup, stroke = currentColor. */
+  const ICON_GRUP = {
+    'Început':    '<path d="M6 3v18"/><path d="M6 4.2h11l-2.2 3 2.2 3H6"/>',
+    'Volum':     '<path d="M4 7.5 12 4l8 3.5-8 3.5-8-3.5Z"/><path d="M4 12l8 3.5 8-3.5"/><path d="M4 16.5 12 20l8-3.5"/>',
+    'Foc':       '<path d="M12 3.2s4.8 3.6 4.8 8.6a4.8 4.8 0 0 1-9.6 0c0-1.8.9-3 .9-3s.1 1.7 1.4 2.2C10.2 11.4 9.3 8.6 12 3.2Z"/>',
+    'Notă':      '<path d="m12 3.6 2.5 5.1 5.6.8-4 4 1 5.6-5.1-2.7-5 2.7 1-5.6-4-4 5.6-.8Z"/>',
+    'Stăpânire': '<circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4.2"/><circle cx="12" cy="12" r="1.1"/>',
+    'Explorare': '<circle cx="12" cy="12" r="8.4"/><path d="m15.6 8.4-2.1 5.1-5.1 2.1 2.1-5.1 5.1-2.1Z"/>'
+  };
+
+  /* Definiția insignelor. `prag`/`val` alimentează bara de progres a celor
+     încă blocate; `atins` decide deblocarea. Ordinea = ordinea din ecran. */
+  const INSIGNE = [
+    { id: 'prima-lectie', grup: 'Început', nume: 'Prima lecție', desc: 'Ai citit prima ta lecție.',
+      prag: 1, val: () => Math.min(1, citite()), atins: () => citite() >= 1 },
+    { id: 'primul-antren', grup: 'Început', nume: 'Primul antrenament', desc: 'Ai dus la capăt o sesiune de antrenament.',
+      prag: 1, val: () => Math.min(1, state.stats.antrenSesiuni), atins: () => state.stats.antrenSesiuni >= 1 },
+    { id: 'prima-simulare', grup: 'Început', nume: 'Prima simulare', desc: 'Ai dat prima simulare de notă.',
+      prag: 1, val: () => Math.min(1, state.stats.noteDate), atins: () => state.stats.noteDate >= 1 },
+    { id: 'zi-implinita', grup: 'Început', nume: 'Zi împlinită', desc: 'Ai atins obiectivul zilnic de lecții.',
+      prag: 1, val: () => (state.zile[azi()] || 0) >= set('obiectivZilnic') ? 1 : 0, atins: () => (state.zile[azi()] || 0) >= set('obiectivZilnic') },
+
+    { id: 'zece-lectii', grup: 'Volum', nume: 'Zece lecții', desc: 'Ai citit 10 lecții.',
+      prag: 10, val: citite, atins: () => citite() >= 10 },
+    { id: 'suta-lectii', grup: 'Volum', nume: 'O sută de lecții', desc: 'Ai citit 100 de lecții.',
+      prag: 100, val: citite, atins: () => citite() >= 100 },
+    { id: 'carturar', grup: 'Volum', nume: 'Cărturar', desc: 'Ai citit 300 de lecții.',
+      prag: 300, val: citite, atins: () => citite() >= 300 },
+    { id: 'materie-completa', grup: 'Volum', nume: 'Materie completă', desc: 'Ai citit toate lecțiile unei materii.',
+      prag: 1, val: () => Math.min(1, materiiComplete()), atins: () => materiiComplete() >= 1 },
+    { id: 'antrenor', grup: 'Volum', nume: 'Antrenor', desc: '25 de sesiuni de antrenament.',
+      prag: 25, val: () => state.stats.antrenSesiuni, atins: () => state.stats.antrenSesiuni >= 25 },
+    { id: 'maraton', grup: 'Volum', nume: 'Maraton', desc: '100 de sesiuni de antrenament.',
+      prag: 100, val: () => state.stats.antrenSesiuni, atins: () => state.stats.antrenSesiuni >= 100 },
+    { id: 'colectionar', grup: 'Volum', nume: 'Colecționar', desc: '200 de carduri marcate „știu".',
+      prag: 200, val: cardKnownCount, atins: () => cardKnownCount() >= 200 },
+
+    { id: 'foc-3', grup: 'Foc', nume: 'Trei zile la rând', desc: 'Serie de studiu de 3 zile.',
+      prag: 3, val: () => Math.max(serie(), serieMax()), atins: () => Math.max(serie(), serieMax()) >= 3 },
+    { id: 'foc-7', grup: 'Foc', nume: 'O săptămână', desc: 'Serie de studiu de 7 zile.',
+      prag: 7, val: () => Math.max(serie(), serieMax()), atins: () => Math.max(serie(), serieMax()) >= 7 },
+    { id: 'foc-30', grup: 'Foc', nume: 'O lună întreagă', desc: 'Serie de studiu de 30 de zile.',
+      prag: 30, val: () => Math.max(serie(), serieMax()), atins: () => Math.max(serie(), serieMax()) >= 30 },
+
+    { id: 'nota-9', grup: 'Notă', nume: 'Elev de nota 9', desc: 'Ai luat cel puțin 9 la o simulare.',
+      prag: 1, val: () => notaMax() >= 9 ? 1 : 0, atins: () => notaMax() >= 9 },
+    { id: 'nota-10', grup: 'Notă', nume: 'Nota 10', desc: 'Ai luat 10 la o simulare.',
+      prag: 1, val: () => notaMax() >= 9.995 ? 1 : 0, atins: () => notaMax() >= 9.995 },
+    { id: 'fara-greseala', grup: 'Notă', nume: 'Fără greșeală', desc: 'Un test cu 100%.',
+      prag: 1, val: () => testePerfecte() ? 1 : 0, atins: testePerfecte },
+
+    { id: 'stapan', grup: 'Stăpânire', nume: 'Stăpân pe o materie', desc: '80% stăpânire la o materie.',
+      prag: 80, val: stapanireMaxProc, atins: () => stapanireMaxProc() >= 80 },
+    { id: 'calibrat', grup: 'Stăpânire', nume: 'Bine calibrat', desc: 'O sesiune fără nicio greșeală la „sigur".',
+      prag: 1, val: () => Math.min(1, state.stats.calibratOK), atins: () => state.stats.calibratOK >= 1 },
+
+    { id: 'explorator', grup: 'Explorare', nume: 'Explorator', desc: 'Ai citit lecții din toți cei cinci ani.',
+      prag: 5, val: aniAtinsi, atins: () => aniAtinsi() >= 5 }
+  ];
+
+  const insigneDeblocate = () => (state.insigne && typeof state.insigne === 'object') ? state.insigne : {};
+
+  /* Verifică ce insigne s-au deblocat. Prima oară (state.insigne === undefined)
+     se sădesc TĂCUT toate cele deja meritate, ca un elev vechi să nu fie inundat
+     de felicitări la trecerea pe v06. După aceea, orice nou-deblocată e celebrată
+     (dacă `celebra` și dacă utilizatorul n-a oprit sărbătorile). */
+  function verificaInsigne(opt) {
+    const celebra = !!(opt && opt.celebra);
+    const sadit = state.insigne && typeof state.insigne === 'object' && !Array.isArray(state.insigne);
+    if (!sadit) state.insigne = {};
+    const acum = Date.now();
+    const noi = [];
+    for (const ins of INSIGNE) {
+      if (state.insigne[ins.id]) continue;
+      let ok = false;
+      try { ok = !!ins.atins(); } catch { ok = false; }
+      if (ok) { state.insigne[ins.id] = acum; if (sadit) noi.push(ins); }
+    }
+    save();
+    if (celebra && noi.length) coadaSarbatoare(noi);
+    return noi;
+  }
+
+  /* ── sărbătoarea: toast + confetti ──────────────────────────────────
+     Toast-ul se atașează pe <body>, NU pe #view, ca să supraviețuiască
+     re-randării ecranului care tocmai a declanșat deblocarea. */
+  let coadaSarb = [], sarbActiv = false;
+  function coadaSarbatoare(lista) {
+    if (!set('sarbatori')) return;                 // utilizatorul a oprit sărbătorile
+    lista.forEach(i => coadaSarb.push(i));
+    if (!sarbActiv) urmatoareaSarbatoare();
+  }
+  function urmatoareaSarbatoare() {
+    const ins = coadaSarb.shift();
+    if (!ins) { sarbActiv = false; return; }
+    sarbActiv = true;
+    arataToast(ins);
+    bate(24);
+    if (!reduced()) lanseazaConfetti();
+    setTimeout(urmatoareaSarbatoare, 3400);
+  }
+  function arataToast(ins) {
+    const t = document.createElement('div');
+    t.className = 'toast';
+    t.setAttribute('role', 'status');
+    t.innerHTML =
+      `<span class="ins-med" data-on="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+         stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICON_GRUP[ins.grup] || ''}</svg></span>
+       <span class="toast-txt"><span class="toast-et">Realizare deblocată</span>
+         <strong>${esc(ins.nume)}</strong></span>`;
+    document.body.appendChild(t);
+    const scoate = () => { t.classList.add('pleaca'); setTimeout(() => t.remove(), 260); };
+    t.addEventListener('click', scoate);
+    setTimeout(scoate, 3200);
+  }
+  const CF_CLASE = ['cf-a', 'cf-b', 'cf-c', 'cf-d'];
+  function lanseazaConfetti() {
+    const wrap = document.createElement('div');
+    wrap.className = 'confetti'; wrap.setAttribute('aria-hidden', 'true');
+    const N = 36;
+    let html = '';
+    for (let i = 0; i < N; i++) {
+      const stanga = Math.round(Math.random() * 100);
+      const dx = Math.round((Math.random() - 0.5) * 160);
+      const rot = Math.round((Math.random() - 0.5) * 720);
+      const dur = 1100 + Math.round(Math.random() * 900);
+      const del = Math.round(Math.random() * 240);
+      const lat = 6 + Math.round(Math.random() * 6);
+      const inalt = 9 + Math.round(Math.random() * 8);
+      const cls = CF_CLASE[i % CF_CLASE.length];
+      html += `<i class="${cls}" style="left:${stanga}%;width:${lat}px;height:${inalt}px;` +
+              `--dx:${dx}px;--rot:${rot}deg;animation-duration:${dur}ms;animation-delay:${del}ms"></i>`;
+    }
+    wrap.innerHTML = html;
+    document.body.appendChild(wrap);
+    setTimeout(() => wrap.remove(), 2400);
+  }
+
+  /* ── ecranul Realizări ──────────────────────────────────────────────── */
+  function viewRealizari() {
+    title.textContent = 'Realizări';
+    verificaInsigne({ celebra: false });            // aduce la zi fără felicitare (ecranul le arată oricum)
+    const debl = insigneDeblocate();
+    const nrDebl = INSIGNE.filter(i => debl[i.id]).length;
+    const grupuri = [];
+    INSIGNE.forEach(i => { if (!grupuri.includes(i.grup)) grupuri.push(i.grup); });
+
+    view.innerHTML = `
+      <div class="card">
+        <div class="row"><h3>Realizări</h3><span class="pill soft">${nrDebl}/${INSIGNE.length}</span></div>
+        <div class="bar"><i style="--p:${nrDebl / INSIGNE.length}"></i></div>
+        <p class="muted" style="margin-top:10px">Insignele se deblochează singure, din ce faci deja: citit, antrenament, simulări. Nimic de bifat separat.</p>
+      </div>
+      ${grupuri.map(g => `
+        <h2>${esc(g)}</h2>
+        <div class="lista">${INSIGNE.filter(i => i.grup === g).map(i => insignaRandHTML(i, debl[i.id])).join('')}</div>
+      `).join('')}
+      <button class="btn ghost" data-go="#/progres">Vezi progresul</button>`;
+  }
+
+  function insignaRandHTML(ins, deblocatLa) {
+    const on = !!deblocatLa;
+    let val = 0; try { val = Number(ins.val()) || 0; } catch { val = 0; }
+    const prag = ins.prag || 1;
+    const dreapta = on
+      ? `<span class="pill">deblocată</span>`
+      : (prag > 1
+          ? `<div class="rand-ctl"><div class="bar bar-mic"><i style="--p:${Math.min(1, val / prag)}"></i></div>
+             <span class="pill soft">${Math.min(val, prag)}/${prag}</span></div>`
+          : `<span class="pill soft">blocată</span>`);
+    return `<div class="rand ins-rand${on ? '' : ' ins-off'}">
+      <span class="ins-med" data-on="${on}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICON_GRUP[ins.grup] || ''}</svg></span>
+      <div class="rand-txt"><strong>${esc(ins.nume)}</strong><span>${esc(ins.desc)}${on ? ' · ' + esc(dataRo(new Date(deblocatLa).toISOString().slice(0, 10))) : ''}</span></div>
+      ${dreapta}</div>`;
+  }
+
+  /* ── ecranul Progres (insights) ─────────────────────────────────────── */
+  function viewProgres() {
+    title.textContent = 'Progresul meu';
+    verificaInsigne({ celebra: false });
+    const s = serie(), sMax = serieMax(), sapt = zileActiveIn(7);
+    const p = pct(citite(), totalLectii());
+    const testKeys = Object.keys(state.teste);
+    const medie = testKeys.length
+      ? Math.round(testKeys.reduce((a, k) => a + state.teste[k].procent, 0) / testKeys.length) : null;
+    const debl = insigneDeblocate();
+    const nrDebl = INSIGNE.filter(i => debl[i.id]).length;
+
+    /* Stăpânirea pe materiile clasei (modulele sunt cerute de moduleNecesare). */
+    const materii = modClasa(state.clasa).map(m => {
+      const st = MOD.has(m.id) ? stapanireDomeniu('materie', m.id) : null;
+      return { m, st };
+    }).filter(x => x.st).sort((a, b) => b.st.procent - a.st.procent);
+
+    /* Note recente, din toate materiile, cele mai noi întâi. */
+    const note = [];
+    for (const [id, arr] of Object.entries(state.note || {})) {
+      const ixm = mod(id);
+      (arr || []).forEach(x => note.push({ materie: ixm ? ixm.materie : id, n: x.n, cand: x.cand }));
+    }
+    note.sort((a, b) => b.cand - a.cand);
+    const slabe = puncteSlabe(5);
+
+    view.innerHTML = `
+      <div class="card streak-card">
+        <div class="streak-flacara" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">${ICON_GRUP['Foc']}</svg>
+          <b>${s}</b>
+        </div>
+        <div class="streak-txt">
+          <strong>${s === 1 ? 'o zi la rând' : s + ' zile la rând'}</strong>
+          <span class="muted">cea mai lungă serie: ${sMax} · ${sapt}/7 zile în ultima săptămână</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Activitate</h3>
+        <div class="hm-wrap">${heatmapHTML()}</div>
+        <div class="hm-legenda"><span>mai puțin</span>
+          <span class="hm-cel" data-lvl="0"></span><span class="hm-cel" data-lvl="1"></span>
+          <span class="hm-cel" data-lvl="2"></span><span class="hm-cel" data-lvl="3"></span>
+          <span class="hm-cel" data-lvl="4"></span><span>mai mult</span></div>
+        <p class="muted" style="margin-top:10px">Fiecare pătrat e o zi din ultimele 18 săptămâni. Cu cât mai plină ziua, cu atât mai închisă culoarea.</p>
+      </div>
+
+      <div class="card">
+        <div class="row"><h3>Cifrele tale</h3><button class="btn sm ghost" data-go="#/realizari" style="margin:0;width:auto">${nrDebl}/${INSIGNE.length} insigne</button></div>
+        <div class="stats">
+          <div class="stat"><b>${citite()}</b><span>lecții citite</span></div>
+          <div class="stat"><b>${p}%</b><span>din total</span></div>
+          <div class="stat"><b>${cardKnownCount()}</b><span>carduri știute</span></div>
+          <div class="stat"><b>${state.stats.antrenSesiuni}</b><span>sesiuni</span></div>
+          <div class="stat"><b>${state.stats.noteDate}</b><span>simulări</span></div>
+          <div class="stat"><b>${medie === null ? '—' : medie + '%'}</b><span>medie test</span></div>
+        </div>
+      </div>
+
+      ${materii.length ? `<div class="card">
+        <h3>Stăpânire pe materii · ${esc(state.clasa)}</h3>
+        <div class="lista lista-plata">
+          ${materii.map(({ m, st }) => `<button class="rand" data-go="#/antren/materie/${encodeURIComponent(m.id)}">
+            <div class="rand-txt"><strong>${esc(m.materie)}</strong><span>${st.stapanite}/${st.total} elemente · ${st.scadente} de repetat</span></div>
+            <div class="rand-ctl"><div class="bar bar-mic"><i style="--p:${st.total ? st.stapanite / st.total : 0}"></i></div>
+              <span class="pill soft">${st.procent}%</span></div></button>`).join('')}
+        </div>
+      </div>` : ''}
+
+      ${note.length ? `<div class="card">
+        <h3>Note recente</h3>
+        <div class="lista lista-plata">
+          ${note.slice(0, 6).map(x => `<div class="rand">
+            <div class="rand-txt"><strong>${esc(x.materie)}</strong><span>${esc(dataRo(new Date(x.cand).toISOString().slice(0, 10)))}</span></div>
+            <div class="rand-ctl"><span class="pill ${x.n >= 8.5 ? '' : 'soft'}">${notaRo(x.n)}</span></div></div>`).join('')}
+        </div>
+      </div>` : ''}
+
+      ${slabe.length ? `<div class="card">
+        <h3>De reluat curând</h3>
+        <div class="lista lista-plata">
+          ${slabe.map(v => `<button class="rand" data-go="#/lectie/${encodeURIComponent(v.modul)}/${encodeURIComponent(v.lectie)}">
+            <div class="rand-txt"><strong>${esc(v.titlu)}</strong><span>${esc(v.materie)} · ${v.n} de repetat</span></div>
+            <span class="lec-sag" aria-hidden="true"></span></button>`).join('')}
+        </div>
+      </div>` : ''}
+
+      <button class="btn" data-go="#/antren/clasa">Antrenează-te acum</button>
+      <button class="btn ghost" data-go="#/realizari">Realizările mele</button>`;
+  }
+
+  /* Lecțiile cu cele mai multe elemente scadente din clasa curentă. */
+  function puncteSlabe(limita) {
+    const perLectie = {};
+    for (const ix of modClasa(state.clasa)) {
+      if (!MOD.has(ix.id)) continue;
+      const e = elemente('materie', ix.id);
+      if (!e) continue;
+      for (const x of e.elemente) {
+        if (nou(x.k) || !scadent(x.k)) continue;
+        const o = perLectie[x.lectie] ||
+          (perLectie[x.lectie] = { modul: x.modul, lectie: x.lectie, titlu: x.lectieTitlu, materie: x.materie, n: 0 });
+        o.n++;
+      }
+    }
+    return Object.values(perLectie).sort((a, b) => b.n - a.n).slice(0, limita || 5);
+  }
+
+  /* Calendarul de activitate: 18 coloane (săptămâni) × 7 rânduri (zile).
+     Ordinea celulelor e „coloană cu coloană", potrivită cu grid-auto-flow:column
+     din CSS. Cheile de zi urmează convenția din `azi()` (feliere ISO). */
+  function heatmapHTML() {
+    const SAPT = 18;
+    const AZI = new Date();
+    const ziSapt = (AZI.getDay() + 6) % 7;             // 0 = luni … 6 = duminică
+    const start = new Date(AZI);
+    start.setDate(AZI.getDate() - ziSapt - (SAPT - 1) * 7);
+    const lvl = n => n <= 0 ? 0 : n === 1 ? 1 : n <= 3 ? 2 : n <= 6 ? 3 : 4;
+    const azero = AZI.toISOString().slice(0, 10);
+    let out = '';
+    for (let i = 0; i < SAPT * 7; i++) {
+      const d = new Date(start); d.setDate(start.getDate() + i);
+      const k = d.toISOString().slice(0, 10);
+      if (k > azero) { out += '<span class="hm-cel hm-viitor" aria-hidden="true"></span>'; continue; }
+      const n = state.activ[k] || 0;
+      const et = dataRo(k) + (n ? ' · ' + n + (n === 1 ? ' activitate' : ' activități') : ' · fără activitate');
+      out += `<span class="hm-cel" data-lvl="${lvl(n)}" title="${esc(et)}"></span>`;
+    }
+    return `<div class="hm" role="img" aria-label="Calendar de activitate pe ultimele ${SAPT} săptămâni">${out}</div>`;
   }
 
   /* ═══ §8  ecranul de setări ═════════════════════════════════════════ */
@@ -2216,6 +2698,7 @@
         ${randSeg('transparenta', 'Sticlă', 'Redusă = suprafețe opace, fundal plat.',
           [{ v: 'auto', e: 'Automat' }, { v: 'completa', e: 'Completă' }, { v: 'redusa', e: 'Redusă' }])}
         ${randSwitch('haptic', 'Vibrație la atingere', 'Doar pe telefoanele care o permit.')}
+        ${randSwitch('sarbatori', 'Sărbători', 'Confetti și felicitare când deblochezi o insignă.')}
       </div>
 
       <h2>Studiu</h2>
@@ -2274,8 +2757,11 @@
         <div class="rand">${randTxt('Conținut', `versiunea ${IDX.version} · actualizat ${IDX.actualizat}`)}</div>
         <div class="rand">${randTxt('Module', `${IDX.nrModule} module · ${IDX.nrLectii} lecții · ${IDX.nrCarduri} carduri · ${IDX.nrIntrebari} întrebări de lecție + ${IDX.nrIntrebariTeze} de teză`)}</div>
         <div class="rand">${randTxt('Stare', navigator.onLine ? 'online' : 'offline — aplicația merge din memorie')}</div>
+        <button class="rand" data-go="#/realizari">${randTxt('Realizări',
+          insigneDeblocate() ? Object.keys(insigneDeblocate()).filter(id => INSIGNE.some(i => i.id === id)).length + ' din ' + INSIGNE.length + ' insigne' : 'insignele tale')}<span class="lec-sag" aria-hidden="true"></span></button>
         ${VER ? `<button class="rand" data-go="#/noutati">${randTxt('Ce s-a schimbat',
           'Jurnalul versiunilor aplicației.')}<span class="lec-sag" aria-hidden="true"></span></button>` : ''}
+        ${randActiune('revezi-intro', 'Revezi introducerea', 'Foaia de bun-venit, cu clasa și obiectivul zilnic.')}
         ${randActiune('reimprospateaza', 'Caută o versiune nouă', 'Golește memoria locală a aplicației și reîncarcă.')}
       </div>
       <p class="muted">${esc(CUR.scoala.nume)} · ${esc(CUR.scoala.localitate)}</p>`;
@@ -2329,6 +2815,7 @@
 
   function actiune(id) {
     const cere = (mesaj) => confirm(mesaj);   // dialog nativ: nu inventăm un modal pentru o singură întrebare
+    if (id === 'revezi-intro') { porneUnboarding(); return; }
     if (id === 'export') {
       const blob = new Blob([JSON.stringify(state, null, 2)], { type: 'application/json' });
       const url = URL.createObjectURL(blob);
@@ -2371,7 +2858,10 @@
           aplicaPreferinte();
           Promise.resolve()
             .then(() => render())
-            .then(() => { save(); })
+            /* După o randare reușită: sincronizăm insignele (fișierul importat
+               poate să nu le conțină) și salvăm. Sădirea e tăcută — un import
+               nu e momentul pentru o ploaie de felicitări. */
+            .then(() => { verificaInsigne({ celebra: false }); save(); })
             .catch(() => {
               state = precedent;
               aplicaPreferinte(); render();
@@ -2418,6 +2908,66 @@
     sters[1](); save(); aplicaPreferinte(); render();
   }
 
+  /* ── onboarding: o singură foaie la prima pornire ─────────────────────
+     Folosește componentele .scrim/.sheet, pregătite din v01 și nefolosite până
+     acum. Se arată doar dacă `state.vazutIntro` e fals; „Începe" salvează clasa
+     și obiectivul zilnic alese. Reaccesibilă din Setări → „Revezi introducerea". */
+  let introObiectiv = 0;
+  function porneUnboarding() {
+    if (document.querySelector('.scrim')) return;         // deja deschisă
+    if (!CUR) return;                                     // fără date n-avem ce arăta
+    introObiectiv = set('obiectivZilnic');
+    const scrim = document.createElement('div');
+    scrim.className = 'scrim';
+    const sheet = document.createElement('div');
+    sheet.className = 'sheet ob';
+    sheet.setAttribute('role', 'dialog');
+    sheet.setAttribute('aria-modal', 'true');
+    sheet.setAttribute('aria-label', 'Bine ai venit');
+    sheet.innerHTML = `
+      <div class="ob-cap">
+        <span class="ob-emoji" aria-hidden="true">🎓</span>
+        <h3>Bine ai venit!</h3>
+        <p class="muted">Aici înveți pe bune: citești lecția, te antrenezi, dai o simulare de notă.
+          Aplicația ține minte ce știi și îți dă fiecare lucru înapoi exact înainte să-l uiți.</p>
+      </div>
+      <h2>Clasa mea</h2>
+      <div class="chips" id="ob-clase">
+        ${CUR.clase.map(c => `<button class="chip" data-clasa="${esc(c.clasa)}" aria-pressed="${c.clasa === state.clasa}">${esc(c.clasa)}</button>`).join('')}
+      </div>
+      <h2>Obiectiv zilnic</h2>
+      <div class="lista"><div class="rand">
+        <div class="rand-txt"><strong>Lecții pe zi</strong><span>O țintă mică, ușor de ținut zi de zi.</span></div>
+        <div class="rand-ctl"><div class="stepper">
+          <button id="ob-minus" aria-label="Scade">−</button>
+          <output id="ob-ob">${introObiectiv}</output>
+          <button id="ob-plus" aria-label="Crește">+</button>
+        </div></div>
+      </div></div>
+      <button class="btn" id="ob-start">Începe</button>
+      <button class="btn ghost" id="ob-sar">Sar peste</button>`;
+    document.body.appendChild(scrim);
+    document.body.appendChild(sheet);
+
+    const inchide = () => {
+      state.setari.obiectivZilnic = introObiectiv;
+      state.vazutIntro = true; save(); aplicaPreferinte();
+      sheet.classList.add('closing'); scrim.classList.add('closing');
+      setTimeout(() => { sheet.remove(); scrim.remove(); render(); }, 300);
+    };
+    sheet.querySelectorAll('#ob-clase [data-clasa]').forEach(b => b.onclick = () => {
+      state.clasa = b.dataset.clasa; bate(6);
+      sheet.querySelectorAll('#ob-clase [data-clasa]').forEach(x =>
+        x.setAttribute('aria-pressed', String(x.dataset.clasa === state.clasa)));
+    });
+    const out = sheet.querySelector('#ob-ob');
+    sheet.querySelector('#ob-minus').onclick = () => { introObiectiv = Math.max(1, introObiectiv - 1); out.textContent = introObiectiv; bate(6); };
+    sheet.querySelector('#ob-plus').onclick = () => { introObiectiv = Math.min(10, introObiectiv + 1); out.textContent = introObiectiv; bate(6); };
+    sheet.querySelector('#ob-start').onclick = () => { bate(8); inchide(); };
+    sheet.querySelector('#ob-sar').onclick = inchide;
+    scrim.onclick = inchide;
+  }
+
   /* ═══ §9  legături ══════════════════════════════════════════════════ */
 
   /* UN SINGUR ascultător delegat pentru toată navigarea [data-go], atașat o
@@ -2457,11 +3007,17 @@
   ]).then(([cur, idx, ver]) => {
     CUR = cur; IDX = idx; VER = ver;
     curataProgresulOrfan();
+    /* Sădire tăcută a insignelor deja meritate (prima pornire pe v06): fără
+       felicitări, doar înregistrare — vezi verificaInsigne. */
+    verificaInsigne({ celebra: false });
     const start = hashDePornire();
     /* `replaceState`, nu `location.replace`: al doilea ar declanșa un
        `hashchange` și ecranul s-ar randa de două ori la fiecare pornire. */
     if (start) { try { history.replaceState(null, '', location.pathname + location.search + start); } catch { location.hash = start; } }
     render();
+    /* Prima pornire: foaia de bun-venit, peste ecranul deja pictat. Doar dacă
+       elevul n-a intrat pe un link direct — un deep-link bate introducerea. */
+    if (!state.vazutIntro && (!location.hash || location.hash === '#/' || location.hash === '#/acasa')) porneUnboarding();
     /* Prefetch discret: modulele clasei curente, ca deschiderea unei lecții să
        fie instantanee. Rulează în timpul mort, nu concurează cu prima pictură. */
     const inactiv = window.requestIdleCallback || (f => setTimeout(f, 800));

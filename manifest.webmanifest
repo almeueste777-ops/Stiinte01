@@ -4,6 +4,7 @@
   "description": "Aplicație de studiu pentru liceu, filiera teoretică, profil umanist, specializarea Științe sociale, frecvență redusă.",
   "lang": "ro",
   "dir": "ltr",
+  "id": "./",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
@@ -19,6 +20,7 @@
   "shortcuts": [
     { "name": "Antrenament", "url": "./#/antrenament" },
     { "name": "Simulare de notă", "url": "./#/nota" },
+    { "name": "Progresul meu", "url": "./#/progres" },
     { "name": "Test grilă", "url": "./#/test" }
   ]
 }
