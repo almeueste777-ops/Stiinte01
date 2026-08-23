@@ -1511,6 +1511,122 @@ button.cap-head:active{background:var(--hover-tint)}
   .grid-cards:not(.plan-grid){grid-template-columns:repeat(3,minmax(0,1fr))}
 }
 
+/* ── 20. Motivație și progres (v06) — heatmap, insigne, streak, sărbătoare ──
+   Stratul „premium": ecranul Progres, Realizări și foaia de bun-venit.
+   Toate suprafețele respectă regula hibridă — carduri/rânduri = relief opac,
+   toast-ul = sticlă (plutește peste conținut). Culorile ies din paletă. */
+
+/* Trepte de intensitate pentru heatmap — o rampă de brand, patru niveluri
+   distincte peste „gol". Nu e text, deci pragul WCAG de contrast nu se aplică;
+   se cere doar ca cele cinci trepte să fie clar deosebite între ele. */
+:root{
+  --hm-0:#E7DBC8; --hm-1:#AEC0CE; --hm-2:#6E92AE; --hm-3:#3E6389; --hm-4:#234B6F;
+}
+:root:where([data-tema="intunecat"]){
+  --hm-0:#182338; --hm-1:#324E77; --hm-2:#50719C; --hm-3:#7595BC; --hm-4:#9DB6D2;
+}
+
+.hm-wrap{margin:var(--sp-5) 0 var(--sp-4)}
+.hm{
+  display:grid; gap:3px; width:100%; max-width:560px;
+  grid-template-columns:repeat(18,1fr);
+  grid-template-rows:repeat(7,1fr);
+  grid-auto-flow:column;
+  /* Container cu proporție fixă → celule pătrate, fără a fixa pixeli: se
+     micșorează singure pe ecran îngust, deci nu apare derulare orizontală.
+     max-width ține pătratele de mărime firească pe ecran lat (altfel ar
+     ajunge cât o unghie). */
+  aspect-ratio:18 / 7;
+}
+.hm-cel{min-width:0; border-radius:3px; background:var(--hm-0)}
+.hm-cel[data-lvl="1"]{background:var(--hm-1)}
+.hm-cel[data-lvl="2"]{background:var(--hm-2)}
+.hm-cel[data-lvl="3"]{background:var(--hm-3)}
+.hm-cel[data-lvl="4"]{background:var(--hm-4)}
+.hm-viitor{background:transparent}
+.hm-legenda{display:flex; align-items:center; gap:6px; font-size:var(--fs-100); color:var(--ink-muted)}
+.hm-legenda .hm-cel{width:14px; height:14px; flex:0 0 auto; border-radius:3px}
+
+/* Streak — cardul-erou din Progres: pastilă de aur cu flacără + număr. */
+.streak-card{display:flex; align-items:center; gap:var(--sp-6)}
+.streak-flacara{
+  flex:0 0 auto; display:flex; align-items:center; gap:5px;
+  padding:var(--sp-4) var(--sp-5); border-radius:var(--r-4);
+  color:var(--accent-ink);
+  background-image:linear-gradient(180deg,var(--accent-2),var(--accent));
+  box-shadow:0 1px 0 var(--glass-highlight) inset, 0 8px 18px -8px var(--accent-glow);
+}
+.streak-flacara svg{width:24px; height:24px}
+.streak-flacara b{font-size:1.55rem; font-weight:var(--fw-bold); line-height:1; font-variant-numeric:tabular-nums}
+.streak-txt{min-width:0}
+.streak-txt strong{display:block; font-size:var(--fs-400); font-weight:var(--fw-semi)}
+.streak-txt .muted{font-size:var(--fs-200)}
+
+/* Flacăra mică din cardul „Progresul meu" de pe Acasă. */
+.flacara-mic{
+  display:inline-flex; align-items:center; gap:3px; flex:0 0 auto;
+  padding:.16em .5em; border-radius:var(--r-pill);
+  color:var(--accent-ink); font-weight:var(--fw-bold); font-size:.82rem;
+  font-variant-numeric:tabular-nums;
+  background:linear-gradient(180deg,var(--accent-2),var(--accent));
+  box-shadow:0 1px 0 var(--glass-highlight) inset;
+}
+.flacara-mic svg{width:14px; height:14px}
+
+/* Medalionul unei insigne: scufundat + gri când e blocată, brand ridicat când
+   e deblocată. Iconul e decorativ (aria-hidden); numele poartă informația. */
+.ins-med{
+  flex:0 0 auto; display:grid; place-items:center;
+  width:42px; height:42px; border-radius:var(--r-3);
+  color:var(--ink-faint); background:var(--surface-sunken); box-shadow:var(--nm-inset);
+}
+.ins-med svg{width:22px; height:22px}
+.ins-med[data-on="true"]{
+  color:var(--brand-ink);
+  background-image:linear-gradient(180deg,var(--brand-2),var(--brand));
+  box-shadow:0 1px 0 var(--glass-highlight) inset, 0 6px 14px -8px var(--brand-glow);
+}
+.ins-rand{gap:var(--sp-5)}
+.ins-off .rand-txt strong{color:var(--ink-muted)}
+
+/* Toast de felicitare — sticlă plutitoare, sus, centrată; se atinge ca s-o
+   închizi. Stă peste orice ecran, fiindcă e atașat pe <body>. */
+.toast{
+  position:fixed; left:50%; z-index:var(--z-toast);
+  top:calc(var(--topbar-h) + var(--safe-t) + var(--sp-5));
+  transform:translateX(-50%);
+  display:flex; align-items:center; gap:var(--sp-5);
+  width:min(calc(100% - var(--sp-7) * 2), 380px);
+  padding:var(--sp-5) var(--sp-6);
+  border:1px solid var(--glass-border); border-radius:var(--r-4);
+  background:var(--glass-bg-strong);
+  -webkit-backdrop-filter:var(--glass-blur); backdrop-filter:var(--glass-blur);
+  box-shadow:var(--glass-shadow), 0 18px 40px -20px var(--shadow-deep);
+  cursor:pointer; -webkit-tap-highlight-color:transparent;
+}
+.toast .ins-med{width:38px; height:38px}
+.toast-txt{min-width:0}
+.toast-et{display:block; font-size:var(--fs-100); font-weight:var(--fw-semi);
+  letter-spacing:.06em; text-transform:uppercase; color:var(--ink-muted)}
+.toast-txt strong{display:block; font-size:var(--fs-300); font-weight:var(--fw-semi)}
+
+/* Confetti — piese mici care cad; culorile ies din paletă. Animația e în
+   stratul 3; JS-ul nu le creează deloc la „mișcare redusă". */
+.confetti{position:fixed; inset:0; z-index:calc(var(--z-toast) + 1); pointer-events:none; overflow:hidden}
+.confetti > i{position:absolute; top:-6vh; border-radius:2px}
+.cf-a{background:var(--brand)}
+.cf-b{background:var(--accent)}
+.cf-c{background:var(--ok)}
+.cf-d{background:var(--brand-2)}
+
+/* Foaia de bun-venit (onboarding) — folosește .sheet/.scrim din stratul 3. */
+.sheet.ob{max-height:86vh; overflow-y:auto}
+.ob-cap{text-align:center; margin-bottom:var(--sp-4)}
+.ob-emoji{display:block; margin-bottom:var(--sp-3); font-size:2.4rem; line-height:1}
+.ob-cap h3{margin:0 0 var(--sp-3); font-size:var(--fs-500); font-weight:var(--fw-bold); letter-spacing:-.01em}
+.ob-cap p{margin:0}
+.sheet.ob h2{margin:var(--sp-6) 0 var(--sp-4)}
+
 /* ══════════════════════════════════════════════════════════════════════════
    STRAT 3 — MIȘCARE „iOS”
    Trebuie să rămână ULTIMUL bloc din fișier: suprascrie intenționat câteva
@@ -1868,6 +1984,30 @@ button.cap-head:active{background:var(--hover-tint)}
 .scrim.closing{ animation:scrim-in  260ms var(--ease-in-ios) reverse both }
 
 /* ─────────────────────────────────────────────────────────────────────────
+   9b. SĂRBĂTOARE — toast de realizare + confetti (v06)
+   Toast-ul intră de sus cu decelerare, iese scurt. Confetti: piese care cad
+   cu translație + rotație (doar transform/opacity), fiecare cu durata/delay-ul
+   ei din JS. Ambele sunt anulate la „mișcare redusă" (blocul 10).
+   ───────────────────────────────────────────────────────────────────────── */
+@keyframes toast-in{
+  from{ opacity:0; transform:translate(-50%,-14px) scale(.96) }
+  to  { opacity:1; transform:translate(-50%,0) scale(1) }
+}
+@keyframes toast-out{
+  from{ opacity:1; transform:translate(-50%,0) }
+  to  { opacity:0; transform:translate(-50%,-12px) }
+}
+.toast{ animation:toast-in var(--dur-base) var(--ease-out-ios) both }
+.toast.pleaca{ animation:toast-out 240ms var(--ease-in-ios) both }
+
+@keyframes confetti-fall{
+  0%  { opacity:0; transform:translate3d(0,0,0) rotate(0deg) }
+  10% { opacity:1 }
+  100%{ opacity:.9; transform:translate3d(var(--dx,0),108vh,0) rotate(var(--rot,360deg)) }
+}
+.confetti > i{ animation-name:confetti-fall; animation-timing-function:var(--ease-in-ios); animation-fill-mode:both }
+
+/* ─────────────────────────────────────────────────────────────────────────
    10. MIȘCARE REDUSĂ — OBLIGATORIU (data-miscare="redusa")
    Zero translații, zero scalări, zero rotații, zero scuturat.
    Rămân doar fade-urile de opacitate, scurtate.
@@ -1888,6 +2028,13 @@ button.cap-head:active{background:var(--hover-tint)}
   transform:none !important;
 }
 :root:where([data-miscare="redusa"]) .view-ghost{ display:none !important }  /* fără parallax, fără clonă */
+
+/* Sărbătoare la mișcare redusă: toast-ul doar se estompează (transformul de
+   centrare rămâne, deci NU intră în lista de mai sus care pune transform:none);
+   confetti-ul dispare de tot (JS nici nu-l creează, dar îl ascundem și aici). */
+:root:where([data-miscare="redusa"]) .toast{ animation:rm-fade var(--dur-fast) linear both !important }
+:root:where([data-miscare="redusa"]) .toast.pleaca{ animation:rm-fade var(--dur-fast) linear reverse both !important }
+:root:where([data-miscare="redusa"]) .confetti{ display:none !important }
 
 /* Apăsarea nu mai scalează — devine o estompare. */
 :root:where([data-miscare="redusa"]) :is(.card.tap,.btn,.chip,.opt,.tab,.icon-btn,.tab .ico,.flip-inner,.tab-ind){

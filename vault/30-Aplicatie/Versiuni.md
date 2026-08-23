@@ -1,8 +1,8 @@
 ---
 titlu: Versiuni
 tip: registru
-versiune: "04"
-actualizat: 2026-08-22
+versiune: "06"
+actualizat: 2026-08-23
 tags: [versiuni, changelog]
 ---
 
@@ -13,6 +13,40 @@ Legături: [[Științe Sociale — MOC]] · [[Arhitectura aplicației]] · [[Des
 Schema de numerotare: **versiunea aplicației** (`01`, `02`, …) marchează o etapă vizibilă
 pentru utilizator. Ea este independentă de versiunea cache-ului din `sw.js`, care crește la
 *fiecare* modificare de fișiere, oricât de mică.
+
+## v06 — 2026-08-23 · „Motivație și progres”
+
+Auditul a arătat că aplicația era deja peste piață la pedagogie și design; îi lipsea **stratul de
+motivație** și un **tablou de progres** — exact ce deosebește aplicațiile premium.
+
+**Ce s-a schimbat**
+- **Realizări** — 20 de insigne derivate din starea existentă (Început, Volum, Foc, Notă,
+  Stăpânire, Explorare), cu celebrare (toast + confetti) la deblocare. Detalii:
+  [[Motivație și progres]].
+- **Progresul meu** — ecran nou: streak, **heatmap** de activitate pe 18 săptămâni, cifrele tale,
+  stăpânirea pe materii, note recente, „de reluat curând".
+- **Seria** numără acum orice studiu (lecție, antrenament, test, simulare), nu doar lecțiile
+  citite. Câmp nou `state.activ`, migrat din `zile`.
+- **Onboarding** — foaie de bun-venit la prima pornire (clasă + obiectiv), reaccesibilă din Setări.
+- **Acasă** devine hub; Setări capătă comutatorul „Sărbători" și „Revezi introducerea".
+- Cache SW: `stiinte01-v10`.
+
+**Verificare:** bateria locală, smoke-test Playwright, `tools/test-sw.mjs`, plus
+[[Raport verificare v06]]. Detalii: [[Jurnal 2026-08-23 — Motivație și progres v06]].
+
+## v05 — 2026-08-22 · „Bleumarin de miezul nopții + nisip cald”
+
+Recolorare: se schimbă valorile tokenilor de culoare, nu structura.
+
+**Ce s-a schimbat**
+- Tema luminoasă păstrează hârtia caldă de nisip, cu **bleumarin** ca brand (butoane, linkuri,
+  focus) și **aur** ca accent. Tema întunecată devine un **bleumarin de miezul nopții**, cu
+  scrisul de culoarea nisipului. Aurul e firul comun al ambelor teme.
+- Doar valori de culoare (stratul de tokeni); structura, mărimile și așezarea neatinse.
+- Contrast recalculat pe hex real: toate perechile critice AA, majoritatea AAA.
+- Cache SW: `stiinte01-v9`.
+
+**Verificare:** [[Jurnal 2026-08-22 — Cromatică v05]] · [[Raport verificare v05]].
 
 ## v04 — 2026-08-22 · „Antrenament și simulare de notă”
 
