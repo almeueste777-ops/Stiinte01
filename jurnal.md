@@ -1173,3 +1173,52 @@ derulare orizontală, zero ținte sub 44px, `theme-color` corect, stările
 corect/greșit distincte și lizibile pe bleumarin în tema întunecată, preferințele
 de accesibilitate lizibile — **niciun defect vizual**. Raport complet:
 [[Raport verificare v05]] din vault.
+
+---
+
+## 2026-08-23 — v06, „Motivație și progres" (audit premium + implementare)
+
+**Cererea.** „Fă un audit aplicației. Compară cu aplicațiile bune de pe piață. Vezi ce îi
+lipsește ca să fie o aplicație premium și implementează."
+
+**Auditul.** Aplicația era deja peste media pieței la două capitole unde multe aplicații
+„premium" doar se prefac: **pedagogia** (repetiție eșalonată reală SM-2, calibrare, stăpânire cu
+prag — Duolingo/Quizlet numesc adesea „spaced repetition" un simplu program fix de reminder-e) și
+**designul** (sistem propriu glass+neomorfism, mișcare iOS reală, contrast WCAG verificat,
+responsiv 320→1440px, offline complet — offline fiind chiar o funcție *plătită* la Duolingo Plus).
+Ce le deosebește pe cele premium și lipsea aici, fezabil offline fără backend: (1) un **strat de
+motivație** (insigne, streak proeminent, momente de recompensă); (2) un **tablou de progres**
+(statistici, heatmap de activitate, tendințe); (3) **onboarding**. Reminder-ele push le-am lăsat
+deoparte, cinstit: fără backend nu pot livra ce promit.
+
+**Ce s-a implementat.**
+- **Fundații (§2).** `state.activ` (intensitatea de studiu pe zi — heatmap + serie), `state.stats`
+  (contoare cumulative), `state.insigne` (`{id: moment}`; `undefined` = nesădit), `state.vazutIntro`,
+  setarea `sarbatori`. `sanitizeaza` validează tot și **migrează** `activ` din `zile` la trecerea
+  de pe v05. Seria (`serie()`) numără acum orice studiu, nu doar lecțiile citite; `zile` rămâne
+  strict pentru obiectivul zilnic. Noi: `serieMax`, `zileActiveIn`, `marcheazaActivitate`.
+- **Realizări (§7d).** 20 de insigne pe șase grupuri, toate derivate din stare. `verificaInsigne`
+  sădește **tăcut** la prima pornire pe v06 ce e deja meritat (ca elevii vechi să nu fie inundați),
+  apoi celebrează. Ecran `#/realizari`. Sărbătoare: toast pe `<body>` (supraviețuiește re-randării)
+  + confetti CSS, cu respect pentru „Sărbători" din Setări și „mișcare redusă".
+- **Progres (`#/progres`).** Card-erou de streak, heatmap pe 18 săptămâni, cifrele tale, stăpânire
+  pe materii, note recente, „de reluat curând".
+- **Onboarding.** Foaie de bun-venit la prima pornire (folosește `.sheet`/`.scrim`, pregătite din
+  v01 și nefolosite), reaccesibilă din Setări. **Acasă** devine hub; Setări capătă „Sărbători" și
+  „Revezi introducerea". Rutele noi sunt suprapuneri (alunecă, „înapoi" corect).
+- **Meta.** `CACHE` v9→v10, `?v=9`→`?v=10` (CSS+JS), `manifest` `id`+scurtătură, `versiuni.json` v06.
+
+**Verificare.** Bateria locală trece integral (JSON, `node --check`, CSS, conținut, index
+sincronizat, `versiuni.json` v06 ↔ CACHE 10, vault). Smoke-test propriu (Playwright +
+chrome-headless-shell): onboarding la pornire, heatmap fără derulare orizontală pe 320–1440px +
+peisaj, 20 de medalioane, sărbătoare end-to-end (marcarea unei lecții deblochează „Prima lecție"),
+zero erori de consolă. `tools/test-sw.mjs` (actualizat să sară onboarding-ul): prima instalare
+fără reload, 60 de carduri sub SW, exact o reîncărcare la update, stabil, zero erori JS.
+
+Echipa de agenți: **verificator-ui** — verdict curat, un singur defect minor (o țintă de 40px);
+**verificator-cod** — niciun blocant, câteva constatări minore. Corectate și **reverificate
+empiric**: ținta de 40px → pastilă neinteractivă; resetările granulare curăță acum și starea nouă
+(`reset-progres`→`activ`, `reset-antren/teste/note`→contoarele `stats`); după `reset-tot` insignele
+se re-sădesc, ca prima recâștigată să fie iar sărbătorită; onboarding-ul nu mai apare elevilor cu
+progres anterior; copie „peste douăzeci" → „douăzeci"; ramură moartă în Setări eliminată. Raport
+complet: [[Raport verificare v06]]. Nota de rulare: [[Jurnal 2026-08-23 — Motivație și progres v06]].

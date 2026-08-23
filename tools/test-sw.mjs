@@ -28,6 +28,12 @@ const SW = new URL('../sw.js', import.meta.url).pathname;
 
 const browser = await chromium.launch(EXE ? { executablePath: EXE } : {});
 const ctx = await browser.newContext({ viewport: { width: 390, height: 844 } });
+/* De la v06 există o foaie de onboarding la prima pornire, care ar intercepta
+   click-urile testului. O sărim marcând-o ca văzută înainte de prima randare —
+   testul verifică ciclul SW, nu onboarding-ul. */
+await ctx.addInitScript(() => {
+  try { localStorage.setItem('stiinte01:v1', JSON.stringify({ vazutIntro: true })); } catch (e) {}
+});
 const page = await ctx.newPage();
 
 let navigari = 0;

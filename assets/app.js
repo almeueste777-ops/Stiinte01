@@ -329,7 +329,14 @@
     } else {
       s.insigne = undefined;
     }
-    s.vazutIntro = !!brut.vazutIntro;
+    /* Onboarding-ul e pentru utilizatorii NOI. Un elev venit de pe v05 n-are
+       câmpul `vazutIntro`, dar are progres — nu-l întâmpinăm cu „Bine ai venit!".
+       Îl considerăm „a văzut" dacă există orice urmă de folosire anterioară. */
+    const areProgres = Object.keys(s.lectiiCitite).length || Object.keys(s.activ).length ||
+                       Object.keys(s.teste).length || Object.keys(s.note).length ||
+                       Object.keys(s.carduri).length || Object.keys(s.notite).length ||
+                       (s.insigne && Object.keys(s.insigne).length);
+    s.vazutIntro = !!brut.vazutIntro || !!areProgres;
     if (typeof brut.clasa === 'string' && brut.clasa) s.clasa = brut.clasa;
     if (typeof brut.ultima === 'string') s.ultima = brut.ultima;
 
@@ -2510,7 +2517,7 @@
       </div>
 
       <div class="card">
-        <div class="row"><h3>Cifrele tale</h3><button class="btn sm ghost" data-go="#/realizari" style="margin:0;width:auto">${nrDebl}/${INSIGNE.length} insigne</button></div>
+        <div class="row"><h3>Cifrele tale</h3><span class="pill soft">${nrDebl}/${INSIGNE.length} insigne</span></div>
         <div class="stats">
           <div class="stat"><b>${citite()}</b><span>lecții citite</span></div>
           <div class="stat"><b>${p}%</b><span>din total</span></div>
@@ -2740,7 +2747,7 @@
       <div class="lista">
         ${randActiune('export', 'Salvează o copie', 'Descarcă progresul și notițele ca fișier JSON.')}
         ${randActiune('import', 'Încarcă o copie', 'Înlocuiește datele de pe acest dispozitiv.')}
-        ${randActiune('reset-progres', 'Șterge progresul lecțiilor', 'Lecțiile devin din nou necitite.', true)}
+        ${randActiune('reset-progres', 'Șterge progresul lecțiilor', 'Lecțiile devin necitite; seria și calendarul de activitate repornesc.', true)}
         ${randActiune('reset-teste', 'Șterge rezultatele testelor', 'Media revine la zero.', true)}
         ${randActiune('reset-carduri', 'Șterge istoricul cardurilor', 'Se pierde ce ai marcat „știu”.', true)}
         ${randActiune('reset-antren', 'Șterge antrenamentul', 'Toate scadențele și stăpânirea se pierd; materia se ia de la capăt.', true)}
@@ -2758,7 +2765,7 @@
         <div class="rand">${randTxt('Module', `${IDX.nrModule} module · ${IDX.nrLectii} lecții · ${IDX.nrCarduri} carduri · ${IDX.nrIntrebari} întrebări de lecție + ${IDX.nrIntrebariTeze} de teză`)}</div>
         <div class="rand">${randTxt('Stare', navigator.onLine ? 'online' : 'offline — aplicația merge din memorie')}</div>
         <button class="rand" data-go="#/realizari">${randTxt('Realizări',
-          insigneDeblocate() ? Object.keys(insigneDeblocate()).filter(id => INSIGNE.some(i => i.id === id)).length + ' din ' + INSIGNE.length + ' insigne' : 'insignele tale')}<span class="lec-sag" aria-hidden="true"></span></button>
+          Object.keys(insigneDeblocate()).filter(id => INSIGNE.some(i => i.id === id)).length + ' din ' + INSIGNE.length + ' insigne deblocate')}<span class="lec-sag" aria-hidden="true"></span></button>
         ${VER ? `<button class="rand" data-go="#/noutati">${randTxt('Ce s-a schimbat',
           'Jurnalul versiunilor aplicației.')}<span class="lec-sag" aria-hidden="true"></span></button>` : ''}
         ${randActiune('revezi-intro', 'Revezi introducerea', 'Foaia de bun-venit, cu clasa și obiectivul zilnic.')}
@@ -2893,19 +2900,34 @@
       Promise.all(treburi).then(gata, gata);
       return;
     }
+    /* Fiecare resetare granulară curăță ȘI starea nouă v06 pe care o „deține",
+       ca ecranul Progres să nu arate cifre contradictorii (ex. „0% stăpânit"
+       lângă „25 de sesiuni"). `activ` (seria + heatmapul) ține de progresul
+       general, deci pleacă la ștergerea progresului de lecții. Insignele rămân
+       (sunt monotone — le-ai câștigat o dată); doar „Șterge tot" le readuce la
+       zero, prin STARE_GOALA. */
     const sters = {
-      'reset-progres': ['Ștergi progresul tuturor lecțiilor?', () => { state.lectiiCitite = {}; state.zile = {}; }],
-      'reset-teste': ['Ștergi toate rezultatele testelor?', () => { state.teste = {}; }],
+      'reset-progres': ['Ștergi progresul tuturor lecțiilor?', () => { state.lectiiCitite = {}; state.zile = {}; state.activ = {}; }],
+      'reset-teste': ['Ștergi toate rezultatele testelor?', () => { state.teste = {}; state.stats.testeDate = 0; }],
       'reset-carduri': ['Ștergi istoricul cardurilor?', () => { state.carduri = {}; }],
-      'reset-antren': ['Ștergi tot antrenamentul — scadențe și stăpânire?', () => { state.antren = {}; }],
-      'reset-note': ['Ștergi istoricul simulărilor de notă?', () => { state.note = {}; }],
+      'reset-antren': ['Ștergi tot antrenamentul — scadențe și stăpânire?', () => {
+        state.antren = {};
+        state.stats.antrenSesiuni = 0; state.stats.antrenItemi = 0;
+        state.stats.antrenCorecte = 0; state.stats.calibratOK = 0;
+      }],
+      'reset-note': ['Ștergi istoricul simulărilor de notă?', () => { state.note = {}; state.stats.noteDate = 0; }],
       'reset-notite': ['Ștergi toate notițele din lecții?', () => { state.notite = {}; }],
       'reset-setari': ['Readuci toate setările la valorile implicite?', () => { state.setari = Object.assign({}, SETARI); }],
       'reset-tot': ['Ștergi TOT: progres, teste, carduri, antrenament, note, notițe și setări?', () => { state = STARE_GOALA(); }]
     }[id];
     if (!sters) return;
     if (!cere(sters[0])) return;
-    sters[1](); save(); aplicaPreferinte(); render();
+    sters[1]();
+    /* Re-sincronizează insignele. După „Șterge tot", `state.insigne` e undefined
+       ⇒ verificaInsigne îl re-sădește ca {} (stare goală = nimic deblocat), astfel
+       încât PRIMA insignă recâștigată după reset să fie din nou sărbătorită. */
+    verificaInsigne({ celebra: false });
+    save(); aplicaPreferinte(); render();
   }
 
   /* ── onboarding: o singură foaie la prima pornire ─────────────────────
