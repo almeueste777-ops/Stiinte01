@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Rugăciunea și viața liturgică
 
-[[Religie (clasa a IX-a)|Religie]] · [[Clasa a IX-a]] · lecția 8 din 9
+[[Religie (clasa a IX-a)|Religie]] · [[Clasa a IX-a]] · lecția 8 din 18
 
 **Capitolul:** Credință și viață — semestrul 2
 

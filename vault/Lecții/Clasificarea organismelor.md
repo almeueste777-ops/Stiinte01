@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Clasificarea organismelor
 
-[[Biologie (clasa a X-a)|Biologie]] · [[Clasa a X-a]] · lecția 4 din 9
+[[Biologie (clasa a X-a)|Biologie]] · [[Clasa a X-a]] · lecția 4 din 18
 
 **Capitolul:** Diversitatea lumii vii — semestrul 1
 

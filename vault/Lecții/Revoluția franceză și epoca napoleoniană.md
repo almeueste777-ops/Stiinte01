@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Revoluția franceză și epoca napoleoniană
 
-[[Istorie (clasa a X-a)|Istorie]] · [[Clasa a X-a]] · lecția 5 din 12
+[[Istorie (clasa a X-a)|Istorie]] · [[Clasa a X-a]] · lecția 5 din 24
 
 **Capitolul:** Revoluțiile politice — semestrul 1
 

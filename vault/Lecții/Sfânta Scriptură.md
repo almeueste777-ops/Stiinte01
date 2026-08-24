@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Sfânta Scriptură
 
-[[Religie (clasa a IX-a)|Religie]] · [[Clasa a IX-a]] · lecția 2 din 9
+[[Religie (clasa a IX-a)|Religie]] · [[Clasa a IX-a]] · lecția 2 din 18
 
 **Capitolul:** Revelație, Scriptură, Tradiție — semestrul 1
 

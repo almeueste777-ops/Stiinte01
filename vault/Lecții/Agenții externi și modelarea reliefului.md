@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Agenții externi și modelarea reliefului
 
-[[Geografie (clasa a IX-a)|Geografie]] · [[Clasa a IX-a]] · lecția 5 din 10
+[[Geografie (clasa a IX-a)|Geografie]] · [[Clasa a IX-a]] · lecția 5 din 20
 
 **Capitolul:** Relieful terestru — semestrul 1
 

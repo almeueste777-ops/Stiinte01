@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Civilizațiile Orientului Antic
 
-[[Istorie (clasa a IX-a)|Istorie]] · [[Clasa a IX-a]] · lecția 2 din 12
+[[Istorie (clasa a IX-a)|Istorie]] · [[Clasa a IX-a]] · lecția 2 din 24
 
 **Capitolul:** Popoare și spații istorice în Antichitate — semestrul 1
 

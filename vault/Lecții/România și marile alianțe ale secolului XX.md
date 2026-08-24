@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # România și marile alianțe ale secolului XX
 
-[[Istorie (clasa a XII-a)|Istorie]] · [[Clasa a XII-a]] · lecția 11 din 12
+[[Istorie (clasa a XII-a)|Istorie]] · [[Clasa a XII-a]] · lecția 11 din 24
 
 **Capitolul:** Relații internaționale — semestrul 2
 

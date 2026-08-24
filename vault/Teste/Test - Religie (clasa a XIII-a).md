@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Religie (clasa a XIII-a)
 
-54 întrebări din [[Religie (clasa a XIII-a)|Religie (clasa a XIII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+102 întrebări din [[Religie (clasa a XIII-a)|Religie (clasa a XIII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Distincția formulată de Sfântul Grigorie Palama este între:
 
@@ -441,7 +441,511 @@ cssclasses: test
 > 
 > Faptele sunt criteriul.
 
-### 37. Îndumnezeirea înseamnă:
+### 37. Mitropolia Ungrovlahiei a fost recunoscută în:
+
+- a. 1359
+- b. 1859
+- c. 1918
+- d. 1054
+
+> [!success]- Răspuns
+> **a. 1359**
+> 
+> De Patriarhia de la Constantinopol.
+
+### 38. Viața bisericească a românilor a fost organizată, veacuri de-a rândul, în:
+
+- a. mitropolii
+- b. republici monahale
+- c. comunități independente
+- d. o singură patriarhie
+
+> [!success]- Răspuns
+> **a. mitropolii**
+> 
+> Ele au ținut legătura între țările românești.
+
+### 39. În lipsa unui stat românesc unic, mitropoliile au fost:
+
+- a. un factor de unitate
+- b. o cauză de dezbinare
+- c. fără însemnătate
+- d. o autoritate politică
+
+> [!success]- Răspuns
+> **a. un factor de unitate**
+> 
+> Aceeași credință și limbă de cult.
+
+### 40. În Transilvania, viața bisericească ortodoxă a românilor:
+
+- a. s-a păstrat cu greu, sub presiuni, dar nu s-a stins
+- b. a dispărut cu totul
+- c. a fost neîngrădită
+- d. nu a existat
+
+> [!success]- Răspuns
+> **a. s-a păstrat cu greu, sub presiuni, dar nu s-a stins**
+> 
+> Românii nu aveau acolo stat propriu.
+
+### 41. Cazania a fost tipărită, în 1643, de mitropolitul:
+
+- a. Varlaam
+- b. Dosoftei
+- c. Antim Ivireanul
+- d. Miron Cristea
+
+> [!success]- Răspuns
+> **a. Varlaam**
+> 
+> Una dintre primele cărți de predici în română.
+
+### 42. Psaltirea în versuri, din 1673, este opera lui:
+
+- a. Dosoftei
+- b. Varlaam
+- c. Antim Ivireanul
+- d. Coresi
+
+> [!success]- Răspuns
+> **a. Dosoftei**
+> 
+> Primul text poetic amplu în română.
+
+### 43. Mitropolitul Antim Ivireanul este cunoscut ca:
+
+- a. tipograf și autor de Didahii
+- b. pictor de icoane
+- c. compozitor psaltic
+- d. domnitor
+
+> [!success]- Răspuns
+> **a. tipograf și autor de Didahii**
+> 
+> A sfârșit ca martir, în 1716.
+
+### 44. Marii ierarhi cărturari au arătat că:
+
+- a. slujirea lui Dumnezeu și slujirea culturii merg împreună
+- b. credința și cultura se exclud
+- c. cartea nu privește Biserica
+- d. limba română nu are loc în cult
+
+> [!success]- Răspuns
+> **a. slujirea lui Dumnezeu și slujirea culturii merg împreună**
+> 
+> Prin ei, româna a intrat în biserică și în carte.
+
+### 45. Biserica Ortodoxă Română a primit autocefalia în:
+
+- a. 1885
+- b. 1859
+- c. 1918
+- d. 1925
+
+> [!success]- Răspuns
+> **a. 1885**
+> 
+> Din partea Patriarhiei de la Constantinopol.
+
+### 46. Rangul de Patriarhie a fost dobândit în:
+
+- a. 1925
+- b. 1885
+- c. 1948
+- d. 1989
+
+> [!success]- Răspuns
+> **a. 1925**
+> 
+> Cu întâiul patriarh, Miron Cristea.
+
+### 47. În regimul comunist, credința a fost:
+
+- a. prigonită
+- b. sprijinită oficial
+- c. lăsată complet liberă
+- d. indiferentă pentru autorități
+
+> [!success]- Răspuns
+> **a. prigonită**
+> 
+> Biserica Greco-Catolică a fost interzisă în 1948.
+
+### 48. După 1989 a urmat:
+
+- a. libertatea religioasă, cu provocările lumii de azi
+- b. interzicerea cultelor
+- c. desființarea Patriarhiei
+- d. ateizarea forțată
+
+> [!success]- Răspuns
+> **a. libertatea religioasă, cu provocările lumii de azi**
+> 
+> Secularizarea și pluralismul sunt provocări noi.
+
+### 49. Sfântul Ștefan cel Mare a fost canonizat în:
+
+- a. 1992
+- b. 1885
+- c. 1918
+- d. 1504
+
+> [!success]- Răspuns
+> **a. 1992**
+> 
+> Este cinstit ca ctitor de biserici.
+
+### 50. Sfinții Martiri Brâncoveni sunt prăznuiți la:
+
+- a. 16 august
+- b. 8 noiembrie
+- c. 25 decembrie
+- d. 29 iunie
+
+> [!success]- Răspuns
+> **a. 16 august**
+> 
+> Au ales moartea în locul lepădării de credință.
+
+### 51. Moaștele Sfintei Cuvioase Parascheva se află la:
+
+- a. Iași
+- b. București
+- c. Suceava
+- d. Alba Iulia
+
+> [!success]- Răspuns
+> **a. Iași**
+> 
+> La Catedrala Mitropolitană.
+
+### 52. Cinstirea sfinților și a moaștelor este:
+
+- a. cinstire și cerere de mijlocire
+- b. adorare, ca a lui Dumnezeu
+- c. interzisă
+- d. o simplă tradiție fără sens
+
+> [!success]- Răspuns
+> **a. cinstire și cerere de mijlocire**
+> 
+> Adorarea se cuvine numai lui Dumnezeu.
+
+### 53. Mănăstirea Putna este ctitoria lui:
+
+- a. Ștefan cel Mare
+- b. Constantin Brâncoveanu
+- c. Mircea cel Bătrân
+- d. Mihai Viteazul
+
+> [!success]- Răspuns
+> **a. Ștefan cel Mare**
+> 
+> El este și înmormântat acolo.
+
+### 54. Mănăstirile din nordul Moldovei sunt vestite pentru:
+
+- a. pictura exterioară
+- b. turlele de lemn
+- c. arhitectura gotică
+- d. mozaicuri antice
+
+> [!success]- Răspuns
+> **a. pictura exterioară**
+> 
+> Sunt în patrimoniul mondial UNESCO.
+
+### 55. Mănăstirea Horezu este o capodoperă a stilului:
+
+- a. brâncovenesc
+- b. gotic
+- c. baroc
+- d. bizantin timpuriu
+
+> [!success]- Răspuns
+> **a. brâncovenesc**
+> 
+> Din sudul țării.
+
+### 56. Pelerinajul este, în primul rând:
+
+- a. o practică duhovnicească
+- b. o formă de turism
+- c. o obligație legală
+- d. o petrecere
+
+> [!success]- Răspuns
+> **a. o practică duhovnicească**
+> 
+> Are un sens de căutare și de întâlnire.
+
+### 57. „Sărbătoarea sărbătorilor” este:
+
+- a. Paștile, Învierea Domnului
+- b. Nașterea Domnului
+- c. Boboteaza
+- d. Rusaliile
+
+> [!success]- Răspuns
+> **a. Paștile, Învierea Domnului**
+> 
+> Pregătit de Postul Mare.
+
+### 58. Nașterea Domnului se prăznuiește la:
+
+- a. 25 decembrie
+- b. 6 ianuarie
+- c. 15 august
+- d. 8 septembrie
+
+> [!success]- Răspuns
+> **a. 25 decembrie**
+> 
+> Boboteaza este la 6 ianuarie.
+
+### 59. Colindul religios vestește:
+
+- a. Nașterea Domnului
+- b. Învierea
+- c. Rusaliile
+- d. Boboteaza
+
+> [!success]- Răspuns
+> **a. Nașterea Domnului**
+> 
+> Alte obiceiuri țin de tradiția populară.
+
+### 60. Deosebirea dintre credință și folclor este:
+
+- a. utilă, deși ele se pot îmbina
+- b. inutilă
+- c. imposibilă
+- d. interzisă
+
+> [!success]- Răspuns
+> **a. utilă, deși ele se pot îmbina**
+> 
+> Unele datini sunt mai vechi decât creștinismul.
+
+### 61. Ideea unui conflict necesar între credință și știință este:
+
+- a. o construcție intelectuală târzie
+- b. o constatare istorică veche
+- c. o învățătură a Bisericii
+- d. o consecință a Sinoadelor
+
+> [!success]- Răspuns
+> **a. o construcție intelectuală târzie**
+> 
+> Realitatea istorică este mai nuanțată.
+
+### 62. Știința și credința răspund:
+
+- a. la întrebări diferite
+- b. la aceleași întrebări, contradictoriu
+- c. doar la întrebări morale
+- d. doar la întrebări practice
+
+> [!success]- Răspuns
+> **a. la întrebări diferite**
+> 
+> Una la „cum”, cealaltă la „de ce”.
+
+### 63. Scientismul este:
+
+- a. convingerea că știința răspunde la toate întrebările
+- b. metoda științifică
+- c. respingerea științei
+- d. o formă de credință
+
+> [!success]- Răspuns
+> **a. convingerea că știința răspunde la toate întrebările**
+> 
+> Eroarea simetrică fundamentalismului.
+
+### 64. Alfabetizarea religioasă este:
+
+- a. o condiție a înțelegerii culturii
+- b. o chestiune de apartenență confesională
+- c. de prisos
+- d. utilă doar teologilor
+
+> [!success]- Răspuns
+> **a. o condiție a înțelegerii culturii**
+> 
+> Temele creștine străbat arta și literatura.
+
+### 65. La temelia poziției creștine în bioetică stă:
+
+- a. demnitatea persoanei
+- b. utilitatea socială
+- c. costul îngrijirii
+- d. opinia majorității
+
+> [!success]- Răspuns
+> **a. demnitatea persoanei**
+> 
+> Ea vine din crearea omului după chipul lui Dumnezeu.
+
+### 66. Renunțarea la tratamente disproporționate:
+
+- a. nu este totuna cu eutanasia
+- b. este identică cu eutanasia
+- c. este întotdeauna interzisă
+- d. se decide administrativ
+
+> [!success]- Răspuns
+> **a. nu este totuna cu eutanasia**
+> 
+> Prima nu urmărește provocarea morții.
+
+### 67. Îngrijirea paliativă urmărește:
+
+- a. combaterea durerii și însoțirea bolnavului
+- b. grăbirea morții
+- c. reducerea costurilor
+- d. vindecarea completă
+
+> [!success]- Răspuns
+> **a. combaterea durerii și însoțirea bolnavului**
+> 
+> Răspunsul corect la suferința terminală.
+
+### 68. Discuția pe teme bioetice cere:
+
+- a. argumente și respect
+- b. invective
+- c. evitarea subiectului
+- d. decizii impuse
+
+> [!success]- Răspuns
+> **a. argumente și respect**
+> 
+> Persoanele implicate trăiesc situații dramatice.
+
+### 69. La capătul școlii, esențială este întrebarea:
+
+- a. ce rămâne folositor pentru viață
+- b. cât s-a memorat
+- c. ce notă s-a obținut
+- d. câte ore s-au făcut
+
+> [!success]- Răspuns
+> **a. ce rămâne folositor pentru viață**
+> 
+> Deprinderile durează mai mult decât informația.
+
+### 70. Libertatea aduce cu ea:
+
+- a. responsabilitatea folosirii ei
+- b. lipsa oricărei datorii
+- c. indiferența
+- d. puterea nelimitată
+
+> [!success]- Răspuns
+> **a. responsabilitatea folosirii ei**
+> 
+> Cum îmi folosesc timpul și capacitățile.
+
+### 71. Sensul vieții:
+
+- a. se descoperă și se construiește prin alegeri
+- b. se moștenește gata făcut
+- c. se cumpără
+- d. este lipsit de legătură cu faptele
+
+> [!success]- Răspuns
+> **a. se descoperă și se construiește prin alegeri**
+> 
+> Prin felul de a-i trata pe ceilalți și prin slujire.
+
+### 72. Credința se măsoară, în cele din urmă:
+
+- a. în felul de a trăi cu ceilalți
+- b. în volumul de cunoștințe
+- c. în capacitatea de argumentare
+- d. în vechimea tradiției
+
+> [!success]- Răspuns
+> **a. în felul de a trăi cu ceilalți**
+> 
+> Faptele rămân criteriul.
+
+### 73. Mitropolia Ungrovlahiei a fost recunoscută în:
+
+- a. 1359
+- b. 1859
+- c. 1918
+- d. 1054
+
+> [!success]- Răspuns
+> **a. 1359**
+> 
+> De Patriarhia de la Constantinopol.
+
+### 74. Cazania a fost tipărită, în 1643, de mitropolitul:
+
+- a. Varlaam
+- b. Dosoftei
+- c. Antim Ivireanul
+- d. Miron Cristea
+
+> [!success]- Răspuns
+> **a. Varlaam**
+> 
+> Una dintre primele cărți de predici în română.
+
+### 75. Mitropolitul Antim Ivireanul este cunoscut ca:
+
+- a. tipograf și autor de Didahii
+- b. pictor de icoane
+- c. domnitor
+- d. compozitor psaltic
+
+> [!success]- Răspuns
+> **a. tipograf și autor de Didahii**
+> 
+> Martirizat în 1716.
+
+### 76. Biserica Ortodoxă Română a primit autocefalia în:
+
+- a. 1885
+- b. 1859
+- c. 1925
+- d. 1918
+
+> [!success]- Răspuns
+> **a. 1885**
+> 
+> Rangul de Patriarhie, în 1925.
+
+### 77. Primul patriarh al României a fost:
+
+- a. Miron Cristea
+- b. Varlaam
+- c. Dosoftei
+- d. Antim Ivireanul
+
+> [!success]- Răspuns
+> **a. Miron Cristea**
+> 
+> În anul 1925.
+
+### 78. În regimul comunist, Biserica Greco-Catolică a fost:
+
+- a. interzisă în 1948
+- b. sprijinită
+- c. lăsată liberă
+- d. ridicată la rang de Patriarhie
+
+> [!success]- Răspuns
+> **a. interzisă în 1948**
+> 
+> Credința a fost prigonită.
+
+### 79. Îndumnezeirea înseamnă:
 
 - a. participare la lucrările necreate ale lui Dumnezeu
 - b. contopire cu ființa divină
@@ -453,7 +957,7 @@ cssclasses: test
 > 
 > Distincția a fost formulată de Sfântul Grigorie Palama.
 
-### 38. Cele trei trepte ale vieții duhovnicești sunt:
+### 80. Cele trei trepte ale vieții duhovnicești sunt:
 
 - a. curățirea, luminarea, vederea duhovnicească
 - b. postul, rugăciunea, milostenia
@@ -465,7 +969,7 @@ cssclasses: test
 > 
 > Ele descriu un urcuș, nu stări separate.
 
-### 39. Filocalia în limba română a fost tradusă de:
+### 81. Filocalia în limba română a fost tradusă de:
 
 - a. Dumitru Stăniloae
 - b. Antim Ivireanul
@@ -477,7 +981,7 @@ cssclasses: test
 > 
 > Este o operă de referință a culturii române.
 
-### 40. Cinstirea sfinților se deosebește de adorare pentru că:
+### 82. Cinstirea sfinților se deosebește de adorare pentru că:
 
 - a. adorarea se cuvine numai lui Dumnezeu
 - b. sfinții nu pot mijloci
@@ -489,7 +993,7 @@ cssclasses: test
 > 
 > Se cere mijlocirea lor, ca unor prieteni.
 
-### 41. Cartea lui Iov respinge ideea că:
+### 83. Cartea lui Iov respinge ideea că:
 
 - a. suferința e mereu vina celui care suferă
 - b. Dumnezeu există
@@ -501,7 +1005,7 @@ cssclasses: test
 > 
 > Prietenii lui susțineau contrariul.
 
-### 42. Moartea este privită în creștinism ca:
+### 84. Moartea este privită în creștinism ca:
 
 - a. trecere
 - b. sfârșit absolut
@@ -513,7 +1017,7 @@ cssclasses: test
 > 
 > Durerea despărțirii rămâne reală.
 
-### 43. Biblia de la București a apărut în:
+### 85. Biblia de la București a apărut în:
 
 - a. 1688
 - b. 1648
@@ -525,7 +1029,7 @@ cssclasses: test
 > 
 > A fixat norma limbii literare.
 
-### 44. Dosoftei este cunoscut pentru:
+### 86. Dosoftei este cunoscut pentru:
 
 - a. Psaltirea în versuri
 - b. Didahii
@@ -537,7 +1041,7 @@ cssclasses: test
 > 
 > Este primul text poetic amplu în română.
 
-### 45. Alfabetizarea religioasă este necesară pentru:
+### 87. Alfabetizarea religioasă este necesară pentru:
 
 - a. înțelegerea culturii europene
 - b. practicarea unui cult
@@ -549,7 +1053,79 @@ cssclasses: test
 > 
 > Temele creștine străbat arta și literatura.
 
-### 46. Edictul de la Turda din 1568 a proclamat:
+### 88. Sfântul Ștefan cel Mare a fost canonizat în:
+
+- a. 1992
+- b. 1885
+- c. 1504
+- d. 1918
+
+> [!success]- Răspuns
+> **a. 1992**
+> 
+> Ctitor de biserici.
+
+### 89. Moaștele Sfintei Cuvioase Parascheva se află la:
+
+- a. Iași
+- b. București
+- c. Suceava
+- d. Alba Iulia
+
+> [!success]- Răspuns
+> **a. Iași**
+> 
+> La Catedrala Mitropolitană.
+
+### 90. Mănăstirea Putna este ctitoria lui:
+
+- a. Ștefan cel Mare
+- b. Constantin Brâncoveanu
+- c. Mircea cel Bătrân
+- d. Mihai Viteazul
+
+> [!success]- Răspuns
+> **a. Ștefan cel Mare**
+> 
+> El este înmormântat acolo.
+
+### 91. „Sărbătoarea sărbătorilor” este:
+
+- a. Paștile, Învierea Domnului
+- b. Nașterea Domnului
+- c. Boboteaza
+- d. Rusaliile
+
+> [!success]- Răspuns
+> **a. Paștile, Învierea Domnului**
+> 
+> Pregătit de Postul Mare.
+
+### 92. Distincția esențială la sfârșitul vieții este între:
+
+- a. eutanasie și renunțarea la tratamente disproporționate
+- b. spital și îngrijire la domiciliu
+- c. durere fizică și suferință morală
+- d. tratament public și privat
+
+> [!success]- Răspuns
+> **a. eutanasie și renunțarea la tratamente disproporționate**
+> 
+> A doua nu urmărește provocarea morții.
+
+### 93. Credința se măsoară, în cele din urmă:
+
+- a. în felul de a trăi cu ceilalți
+- b. în volumul de cunoștințe
+- c. în capacitatea de argumentare
+- d. în vechimea tradiției
+
+> [!success]- Răspuns
+> **a. în felul de a trăi cu ceilalți**
+> 
+> Faptele rămân criteriul.
+
+### 94. Edictul de la Turda din 1568 a proclamat:
 
 - a. tolerarea mai multor confesiuni în Transilvania
 - b. unirea Bisericilor
@@ -561,7 +1137,7 @@ cssclasses: test
 > 
 > E unul dintre primele acte de acest fel din Europa.
 
-### 47. Ecumenismul înseamnă:
+### 95. Ecumenismul înseamnă:
 
 - a. dialog teologic și colaborare practică
 - b. renunțare la propria învățătură
@@ -573,7 +1149,7 @@ cssclasses: test
 > 
 > Identitățile clare fac dialogul posibil.
 
-### 48. Prozelitismul agresiv:
+### 96. Prozelitismul agresiv:
 
 - a. contrazice mesajul creștin
 - b. este o formă de misiune legitimă
@@ -585,7 +1161,7 @@ cssclasses: test
 > 
 > Folosește presiunea și vulnerabilitatea.
 
-### 49. Vocația se descoperă prin:
+### 97. Vocația se descoperă prin:
 
 - a. daruri, bucuria lucrării și nevoile lumii
 - b. salariu și prestigiu
@@ -597,7 +1173,7 @@ cssclasses: test
 > 
 > Nu se confundă cu profesia.
 
-### 50. Alegerea profesională este și:
+### 98. Alegerea profesională este și:
 
 - a. o chestiune morală
 - b. doar o decizie economică
@@ -609,7 +1185,7 @@ cssclasses: test
 > 
 > Munca formează sau deformează.
 
-### 51. Minciuna este gravă moral pentru că:
+### 99. Minciuna este gravă moral pentru că:
 
 - a. rupe încrederea pe care se sprijină comunitatea
 - b. încalcă o regulă formală
@@ -621,7 +1197,7 @@ cssclasses: test
 > 
 > De aici gravitatea dezinformării.
 
-### 52. În mediul digital, responsabilitatea privește:
+### 100. În mediul digital, responsabilitatea privește:
 
 - a. și ceea ce transmiți mai departe
 - b. doar ceea ce spui tu
@@ -633,7 +1209,7 @@ cssclasses: test
 > 
 > Efectele informației false sunt reale.
 
-### 53. Verificarea unei informații începe cu întrebarea:
+### 101. Verificarea unei informații începe cu întrebarea:
 
 - a. cine spune și de unde știe
 - b. câți au distribuit-o
@@ -645,7 +1221,7 @@ cssclasses: test
 > 
 > Urmează interesul sursei și sursele independente.
 
-### 54. Credința se măsoară, în cele din urmă:
+### 102. Credința se măsoară, în cele din urmă:
 
 - a. în felul de a trăi cu ceilalți
 - b. în volumul de cunoștințe

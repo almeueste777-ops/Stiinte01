@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Marile descoperiri geografice și primele imperii coloniale
 
-[[Istorie (clasa a X-a)|Istorie]] · [[Clasa a X-a]] · lecția 3 din 12
+[[Istorie (clasa a X-a)|Istorie]] · [[Clasa a X-a]] · lecția 3 din 24
 
 **Capitolul:** Nașterea lumii moderne — semestrul 1
 

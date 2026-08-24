@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Cultura și societatea românească modernă
 
-[[Istorie (clasa a X-a)|Istorie]] · [[Clasa a X-a]] · lecția 12 din 12
+[[Istorie (clasa a X-a)|Istorie]] · [[Clasa a X-a]] · lecția 12 din 24
 
 **Capitolul:** Spațiul românesc în epoca modernă — semestrul 2
 
@@ -29,6 +29,6 @@ Modernizarea culturală românească din secolul al XIX-lea se sprijină pe șco
 
 ---
 
-⬅ [[Carol I, independența și România modernă]]
+⬅ [[Carol I, independența și România modernă]] · [[Monarhia absolutistă - Franța lui Ludovic al XIV-lea]] ➡
 
 Exersează: [[Carduri - Istorie (clasa a X-a)]] · [[Test - Istorie (clasa a X-a)]]

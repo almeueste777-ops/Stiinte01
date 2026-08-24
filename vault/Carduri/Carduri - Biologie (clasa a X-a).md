@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Biologie (clasa a X-a)
 
-36 carduri pentru [[Biologie (clasa a X-a)|Biologie (clasa a X-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+72 carduri pentru [[Biologie (clasa a X-a)|Biologie (clasa a X-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/biologie
 
@@ -82,6 +82,78 @@ De ce nu e suficientă voința în cazul dependenței?::Pentru că dependența m
 Ce măsuri de prevenție sunt cele mai eficiente?::Vaccinarea, igiena, controalele periodice, alimentația și mișcarea.
 
 De ce contează sursa informației medicale?::Pentru că informația greșită poate duce la decizii periculoase pentru sănătate.
+
+Ce se întâmplă în faza S a interfazei?::Se replică ADN-ul; fiecare cromozom ajunge format din doi cromatizi.
+
+Care sunt cele patru faze ale mitozei?::Profaza, metafaza, anafaza și telofaza.
+
+Câte celule rezultă din mitoză și cum sunt?::Două celule identice între ele și cu celula-mamă.
+
+Ce se întâmplă când controlul ciclului celular se pierde?::Celulele se divid necontrolat și poate apărea cancerul.
+
+De ce trebuie redus numărul de cromozomi în meioză?::Ca la fecundație, prin unirea gameților, să se refacă numărul diploid al speciei.
+
+Câte celule rezultă din meioză și cum sunt?::Patru celule haploide, diferite genetic între ele.
+
+Ce este crossing-overul?::Schimbul de fragmente între cromozomii omologi, în prima diviziune a meiozei.
+
+De ce sunt frații diferiți între ei?::Din cauza recombinării și a repartizării întâmplătoare a cromozomilor, plus combinarea gameților.
+
+Câte perechi de cromozomi are omul și cum se împart?::23 de perechi: 22 de autozomi și o pereche de heterozomi.
+
+Ce cromozomi sexuali au femeia și bărbatul?::Femeia XX, bărbatul XY.
+
+Cine determină sexul copilului?::Spermatozoidul, care poate purta X sau Y.
+
+Ce este trisomia 21?::Prezența unui cromozom 21 în plus, care determină sindromul Down.
+
+Ce se observă în generația F1 la monohibridare?::Toți descendenții manifestă caracterul dominant.
+
+Ce raport apare în F2?::Aproximativ 3:1, trei dominanți la un recesiv.
+
+De ce reapare caracterul recesiv în F2?::Pentru că alelele se separă în gameți și se pot recombina în stare homozigotă.
+
+La ce folosește pătratul lui Punnett?::La prezicerea proporțiilor genotipurilor și fenotipurilor descendenților.
+
+Cum pot avea părinți sănătoși un copil cu o boală recesivă?::Dacă ambii sunt purtători heterozigoți ai alelei bolnave.
+
+De ce apar hemofilia și daltonismul mai des la băieți?::Pentru că sunt legate de cromozomul X, iar băieții au un singur X.
+
+Ce sunt bolile multifactoriale?::Boli rezultate din interacțiunea mai multor gene cu factori de mediu și de stil de viață.
+
+La ce folosește sfatul genetic?::Ajută familiile să înțeleagă riscul de a transmite o boală ereditară.
+
+Care sunt cele trei tipuri de mutații după amploare?::Genice, cromozomiale și genomice.
+
+Ce mutații se transmit descendenților?::Cele din celulele germinale (sexuale).
+
+Dă exemple de factori mutageni.::Radiațiile ultraviolete și X, radioactivitatea, unele substanțe chimice, anumiți viruși.
+
+De ce sunt importante mutațiile pentru evoluție?::Sunt sursa variabilității asupra căreia acționează selecția naturală.
+
+Care sunt cele două categorii de factori ecologici?::Factorii abiotici (nevii) și factorii biotici (vii).
+
+Ce spune legea factorului limitant?::Dezvoltarea unui organism este restrânsă de factorul cel mai defavorabil, chiar dacă ceilalți sunt favorabili.
+
+Ce este intervalul de toleranță?::Domeniul de valori ale unui factor în care o specie poate supraviețui.
+
+De ce sunt lichenii indicatori ai poluării?::Pentru că sunt sensibili (stenoeci) și dispar când aerul e poluat.
+
+Ce este densitatea unei populații?::Numărul de indivizi pe unitatea de suprafață sau de volum.
+
+Prin ce crește și prin ce scade efectivul unei populații?::Crește prin natalitate și imigrare; scade prin mortalitate și emigrare.
+
+Ce este capacitatea de suport?::Numărul maxim de indivizi pe care mediul îi poate întreține durabil.
+
+Dă exemple de factori de reglare dependenți de densitate.::Hrana, bolile, prădătorii.
+
+Ce este mutualismul?::O relație între două specii din care ambele au de câștigat.
+
+Prin ce diferă comensalismul de mutualism?::În comensalism doar o specie câștigă, cealaltă nefiind afectată; în mutualism câștigă ambele.
+
+Ce este succesiunea ecologică?::Înlocuirea treptată a biocenozelor dintr-un loc, până la stadiul de echilibru.
+
+Cum se numește stadiul de echilibru al unei succesiuni?::Climax.
 
 ---
 

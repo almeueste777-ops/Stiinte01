@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # România în perioada Războiului Rece
 
-[[Istorie (clasa a XII-a)|Istorie]] · [[Clasa a XII-a]] · lecția 12 din 12
+[[Istorie (clasa a XII-a)|Istorie]] · [[Clasa a XII-a]] · lecția 12 din 24
 
 **Capitolul:** Relații internaționale — semestrul 2
 
@@ -29,6 +29,6 @@ După 1947, România este integrată forțat în blocul sovietic: aderă la CAER
 
 ---
 
-⬅ [[România și marile alianțe ale secolului XX]]
+⬅ [[România și marile alianțe ale secolului XX]] · [[Biserica și viața religioasă în istoria românilor]] ➡
 
 Exersează: [[Carduri - Istorie (clasa a XII-a)]] · [[Test - Istorie (clasa a XII-a)]]

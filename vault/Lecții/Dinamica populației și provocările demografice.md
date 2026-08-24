@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Dinamica populației și provocările demografice
 
-[[Geografie (clasa a XI-a)|Geografie]] · [[Clasa a XI-a]] · lecția 4 din 9
+[[Geografie (clasa a XI-a)|Geografie]] · [[Clasa a XI-a]] · lecția 4 din 20
 
 **Capitolul:** Populația și așezările în lumea contemporană — semestrul 1
 

@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Europa Nordică și Europa Vestică
 
-[[Geografie (clasa a XIII-a)|Geografie]] · [[Clasa a XIII-a]] · lecția 1 din 9
+[[Geografie (clasa a XIII-a)|Geografie]] · [[Clasa a XIII-a]] · lecția 1 din 20
 
 **Capitolul:** Regiunile Europei — semestrul 1
 

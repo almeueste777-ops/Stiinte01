@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Reformele, 1821 și 1848 în spațiul românesc
 
-[[Istorie (clasa a X-a)|Istorie]] · [[Clasa a X-a]] · lecția 9 din 12
+[[Istorie (clasa a X-a)|Istorie]] · [[Clasa a X-a]] · lecția 9 din 24
 
 **Capitolul:** Spațiul românesc în epoca modernă — semestrul 2
 

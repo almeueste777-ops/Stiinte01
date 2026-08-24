@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Geografie (clasa a X-a)
 
-36 carduri pentru [[Geografie (clasa a X-a)|Geografie (clasa a X-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+80 carduri pentru [[Geografie (clasa a X-a)|Geografie (clasa a X-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/geografie
 
@@ -82,6 +82,94 @@ De ce e insuficient PIB-ul pe locuitor?::Pentru că nu spune nimic despre distri
 Ce măsoară coeficientul Gini?::Inegalitatea distribuției veniturilor.
 
 Ce factor subliniază cercetarea recentă în explicarea decalajelor?::Calitatea instituțiilor: reguli, predictibilitate, protecția proprietății.
+
+Câte limbi se vorbesc, aproximativ, pe glob?::Peste 6 000.
+
+Care este cea mai răspândită familie de limbi?::Familia indo-europeană.
+
+Care este religia cu cei mai mulți credincioși?::Creștinismul.
+
+Dă un exemplu de religie etnică.::Hinduismul sau iudaismul.
+
+Care sunt cele trei mari grupe de vârstă?::Tinerii (0–14), adulții (15–64) și vârstnicii (peste 65 de ani).
+
+Ce formă are piramida vârstelor la o populație tânără?::Bază largă și vârf îngust.
+
+Ce este dividendul demografic?::Avantajul economic dat de o pondere mare a populației active.
+
+Care sunt cauzele îmbătrânirii demografice?::Scăderea natalității și creșterea speranței de viață.
+
+Ce sunt politicile demografice?::Măsurile prin care statele încearcă să influențeze evoluția populației.
+
+În ce țară s-a aplicat politica „copilului unic”?::În China, între 1979 și 2015.
+
+Ce reduce natalitatea mai durabil decât constrângerea?::Educația femeilor și scăderea mortalității infantile.
+
+Ce oferă, de obicei, politicile pronataliste?::Concedii parentale, alocații, creșe și facilități fiscale.
+
+Ce este un oraș polifuncțional?::Un oraș care îndeplinește simultan mai multe funcții.
+
+De ce sunt vulnerabile orașele monofuncționale?::Pentru că depind de un singur sector de activitate.
+
+Ce este gentrificarea?::Revitalizarea unui cartier, cu creșterea prețurilor și înlocuirea locuitorilor.
+
+Ce este aria de influență a unui oraș?::Teritoriul asupra căruia el își exercită atracția și serviciile.
+
+Ce este o rețea de așezări?::Ansamblul așezărilor legate prin drumuri și fluxuri de schimb.
+
+Ce arată ierarhia urbană?::Ordonarea orașelor după mărime și după funcții.
+
+Ce este macrocefalia urbană?::Dominarea rețelei urbane de un singur oraș uriaș.
+
+Ce orașe oferă serviciile cele mai specializate?::Orașele mari, cu arie de influență întinsă.
+
+Care sunt cele două mari tipuri de agricultură după destinație?::De subzistență și comercială.
+
+Unde se cultivă orezul cu multă forță de muncă?::În Asia musonică.
+
+Ce produc plantațiile tropicale?::Cafea, cacao, banane și trestie de zahăr, pentru export.
+
+Ce pondere din hrana produsă în lume se pierde?::Aproximativ o treime.
+
+Care sunt cele două mari ramuri ale industriei prelucrătoare?::Industria grea și industria ușoară.
+
+Ce produce industria grea?::Mijloace de producție: oțel, mașini, produse chimice.
+
+Ce este un tehnopol?::O concentrare de firme de înaltă tehnologie, lângă universități.
+
+Ce ramură a condus reindustrializarea României după 2000?::Industria auto.
+
+Ce mod de transport asigură cea mai mare parte a comerțului de mărfuri?::Transportul naval, peste 80%.
+
+Ce leagă Canalul Suez?::Marea Mediterană de Marea Roșie.
+
+Ce este un hub de transport?::Un nod (port sau aeroport) care concentrează și redistribuie fluxurile.
+
+Ce a schimbat containerizarea?::A redus drastic costurile transportului de mărfuri.
+
+Ce compară balanța comercială?::Valoarea exporturilor cu cea a importurilor.
+
+Ce organizație stabilește reguli pentru comerțul mondial?::Organizația Mondială a Comerțului.
+
+Ce dezavantaj au țările care exportă doar materii prime?::Rețin puțină valoare adăugată și sunt vulnerabile la prețuri.
+
+Între ce poluri se concentrează comerțul mondial?::Asia de Est, America de Nord și Europa.
+
+Care este prima regiune turistică a lumii?::Europa.
+
+Care regiune turistică crește cel mai rapid?::Asia-Pacific.
+
+Ce este supraturismul?::Situația în care numărul de turiști depășește capacitatea de suport a destinației.
+
+Ce urmărește turismul durabil?::Echilibrul între venituri, respectul pentru comunități și protecția mediului.
+
+Ce este globalizarea?::Intensificarea interdependențelor mondiale, economice, culturale și informaționale.
+
+Care sunt motoarele globalizării?::Liberalizarea comerțului, transporturile, comunicațiile, corporațiile transnaționale.
+
+Unde a redus globalizarea cel mai mult sărăcia extremă?::În Asia de Est.
+
+De ce nu mai descrie realitatea modelul „Nord–Sud”?::Pentru că unele state din Sud au recuperat, iar în Nord au apărut regiuni în declin.
 
 ---
 

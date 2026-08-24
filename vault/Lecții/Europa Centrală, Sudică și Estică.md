@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Europa Centrală, Sudică și Estică
 
-[[Geografie (clasa a XIII-a)|Geografie]] · [[Clasa a XIII-a]] · lecția 2 din 9
+[[Geografie (clasa a XIII-a)|Geografie]] · [[Clasa a XIII-a]] · lecția 2 din 20
 
 **Capitolul:** Regiunile Europei — semestrul 1
 

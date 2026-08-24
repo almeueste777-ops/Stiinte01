@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Soluții și concentrații
 
-[[Chimie (clasa a IX-a)|Chimie]] · [[Clasa a IX-a]] · lecția 5 din 9
+[[Chimie (clasa a IX-a)|Chimie]] · [[Clasa a IX-a]] · lecția 5 din 18
 
 **Capitolul:** Substanțe și soluții — semestrul 1
 

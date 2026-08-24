@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Adevăr, informație, manipulare
 
-[[Religie (clasa a XIII-a)|Religie]] · [[Clasa a XIII-a]] · lecția 8 din 9
+[[Religie (clasa a XIII-a)|Religie]] · [[Clasa a XIII-a]] · lecția 8 din 18
 
 **Capitolul:** Alegerile vieții de adult — semestrul 2
 

@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Poziția geografică și limitele Europei
 
-[[Geografie (clasa a XII-a)|Geografie]] · [[Clasa a XII-a]] · lecția 1 din 9
+[[Geografie (clasa a XII-a)|Geografie]] · [[Clasa a XII-a]] · lecția 1 din 20
 
 **Capitolul:** Europa și România: cadrul natural — semestrul 1
 

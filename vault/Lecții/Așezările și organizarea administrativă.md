@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Așezările și organizarea administrativă
 
-[[Geografie (clasa a XII-a)|Geografie]] · [[Clasa a XII-a]] · lecția 5 din 9
+[[Geografie (clasa a XII-a)|Geografie]] · [[Clasa a XII-a]] · lecția 5 din 20
 
 **Capitolul:** Populația și așezările — semestrul 1
 

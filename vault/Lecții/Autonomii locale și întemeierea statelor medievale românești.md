@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Autonomii locale și întemeierea statelor medievale românești
 
-[[Istorie (clasa a IX-a)|Istorie]] · [[Clasa a IX-a]] · lecția 10 din 12
+[[Istorie (clasa a IX-a)|Istorie]] · [[Clasa a IX-a]] · lecția 10 din 24
 
 **Capitolul:** Spațiul românesc în Evul Mediu — semestrul 2
 

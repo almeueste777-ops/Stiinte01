@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Construcția și instituțiile Uniunii Europene
 
-[[Geografie (clasa a XII-a)|Geografie]] · [[Clasa a XII-a]] · lecția 8 din 9
+[[Geografie (clasa a XII-a)|Geografie]] · [[Clasa a XII-a]] · lecția 8 din 20
 
 **Capitolul:** Uniunea Europeană — semestrul 2
 

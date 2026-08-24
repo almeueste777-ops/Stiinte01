@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Biologie (clasa a IX-a)
 
-54 întrebări din [[Biologie (clasa a IX-a)|Biologie (clasa a IX-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+102 întrebări din [[Biologie (clasa a IX-a)|Biologie (clasa a IX-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Bacteriile sunt organisme:
 
@@ -441,7 +441,511 @@ cssclasses: test
 > 
 > Hipofiza declanșează procesul.
 
-### 37. Celula procariotă se deosebește prin:
+### 37. Componenta majoritară a celulei este:
+
+- a. apa
+- b. proteinele
+- c. glucidele
+- d. sărurile minerale
+
+> [!success]- Răspuns
+> **a. apa**
+> 
+> Ea reprezintă circa 60–70% din masă.
+
+### 38. ADN-ul și ARN-ul fac parte din clasa:
+
+- a. acizilor nucleici
+- b. glucidelor
+- c. lipidelor
+- d. sărurilor minerale
+
+> [!success]- Răspuns
+> **a. acizilor nucleici**
+> 
+> Ei păstrează și transmit informația genetică.
+
+### 39. Rezerva de energie și componenta de bază a membranelor celulare sunt asigurate de:
+
+- a. lipide
+- b. acizi nucleici
+- c. săruri minerale
+- d. apă
+
+> [!success]- Răspuns
+> **a. lipide**
+> 
+> Glucidele sunt sursa rapidă de energie.
+
+### 40. Ionul de calciu intervine, printre altele, în:
+
+- a. contracția musculară și structura oaselor
+- b. transmiterea informației genetice
+- c. fotosinteză
+- d. sinteza ARN-ului
+
+> [!success]- Răspuns
+> **a. contracția musculară și structura oaselor**
+> 
+> Este un mineral esențial pentru organism.
+
+### 41. ATP-ul este produs mai ales în:
+
+- a. mitocondrii
+- b. ribozomi
+- c. lizozomi
+- d. aparatul Golgi
+
+> [!success]- Răspuns
+> **a. mitocondrii**
+> 
+> Acolo are loc respirația celulară.
+
+### 42. Reticulul endoplasmatic rugos participă la:
+
+- a. sinteza proteinelor
+- b. respirația celulară
+- c. fotosinteză
+- d. digestia intracelulară
+
+> [!success]- Răspuns
+> **a. sinteza proteinelor**
+> 
+> Este acoperit cu ribozomi.
+
+### 43. Peretele celular din celuloză este specific:
+
+- a. celulei vegetale
+- b. celulei animale
+- c. tuturor celulelor
+- d. bacteriilor exclusiv
+
+> [!success]- Răspuns
+> **a. celulei vegetale**
+> 
+> El îi dă rigiditate.
+
+### 44. Nucleolul are rolul de a:
+
+- a. forma ribozomii
+- b. produce ATP
+- c. digera substanțele
+- d. realiza fotosinteza
+
+> [!success]- Răspuns
+> **a. forma ribozomii**
+> 
+> Se află în interiorul nucleului.
+
+### 45. Difuzia se face:
+
+- a. fără consum de energie, în sensul gradientului
+- b. cu consum de energie, împotriva gradientului
+- c. doar prin endocitoză
+- d. numai pentru particule mari
+
+> [!success]- Răspuns
+> **a. fără consum de energie, în sensul gradientului**
+> 
+> Este o formă de transport pasiv.
+
+### 46. Pompa de sodiu-potasiu este un exemplu de:
+
+- a. transport activ
+- b. difuzie simplă
+- c. osmoză
+- d. exocitoză
+
+> [!success]- Răspuns
+> **a. transport activ**
+> 
+> Consumă ATP și merge împotriva gradientului.
+
+### 47. O celulă pusă într-o soluție mai diluată decât conținutul ei:
+
+- a. absoarbe apă și se umflă
+- b. pierde apă și se zbârcește
+- c. rămâne neschimbată
+- d. se divide imediat
+
+> [!success]- Răspuns
+> **a. absoarbe apă și se umflă**
+> 
+> Apa intră prin osmoză.
+
+### 48. Eliminarea unor particule mari din celulă se face prin:
+
+- a. exocitoză
+- b. endocitoză
+- c. difuzie simplă
+- d. osmoză
+
+> [!success]- Răspuns
+> **a. exocitoză**
+> 
+> O veziculă fuzionează cu membrana.
+
+### 49. Țesutul epitelial se hrănește prin:
+
+- a. difuzie de la țesuturile vecine
+- b. vase de sânge proprii
+- c. nervi
+- d. vase limfatice proprii
+
+> [!success]- Răspuns
+> **a. difuzie de la țesuturile vecine**
+> 
+> Nu are vase proprii.
+
+### 50. Glandele care își varsă produsul printr-un canal sunt:
+
+- a. exocrine
+- b. endocrine
+- c. mixte exclusiv
+- d. fără secreție
+
+> [!success]- Răspuns
+> **a. exocrine**
+> 
+> Glandele sudoripare și salivare sunt exocrine.
+
+### 51. Epidermul este un epiteliu:
+
+- a. pluristratificat, de protecție
+- b. unistratificat, de absorbție
+- c. glandular endocrin
+- d. muscular
+
+> [!success]- Răspuns
+> **a. pluristratificat, de protecție**
+> 
+> Protejează suprafața corpului.
+
+### 52. Tiroida și hipofiza sunt glande:
+
+- a. endocrine
+- b. exocrine
+- c. sudoripare
+- d. sebacee
+
+> [!success]- Răspuns
+> **a. endocrine**
+> 
+> Varsă hormonii direct în sânge.
+
+### 53. Substanța fundamentală este abundentă în:
+
+- a. țesuturile conjunctive
+- b. țesuturile epiteliale
+- c. țesutul nervos
+- d. epiteliile glandulare
+
+> [!success]- Răspuns
+> **a. țesuturile conjunctive**
+> 
+> Ea conține fibrele.
+
+### 54. Țesutul adipos, care depozitează grăsime, este un conjunctiv:
+
+- a. moale
+- b. osos
+- c. cartilaginos
+- d. lichid
+
+> [!success]- Răspuns
+> **a. moale**
+> 
+> Umple și spațiile dintre organe.
+
+### 55. Inelele traheei și pavilionul urechii conțin țesut:
+
+- a. cartilaginos
+- b. osos
+- c. adipos
+- d. epitelial
+
+> [!success]- Răspuns
+> **a. cartilaginos**
+> 
+> Este semidur și elastic.
+
+### 56. Plasma este substanța fundamentală a:
+
+- a. sângelui
+- b. cartilajului
+- c. osului
+- d. epidermului
+
+> [!success]- Răspuns
+> **a. sângelui**
+> 
+> De aceea sângele e țesut conjunctiv.
+
+### 57. Mușchiul din pereții intestinului este:
+
+- a. neted, involuntar
+- b. striat scheletic, voluntar
+- c. cardiac
+- d. epitelial
+
+> [!success]- Răspuns
+> **a. neted, involuntar**
+> 
+> Nu se contractă la comandă.
+
+### 58. Mușchiul cardiac este:
+
+- a. striat, dar involuntar
+- b. neted și voluntar
+- c. striat și voluntar
+- d. neted și involuntar
+
+> [!success]- Răspuns
+> **a. striat, dar involuntar**
+> 
+> Se contractă ritmic, neobosit.
+
+### 59. Prelungirile scurte ale neuronului, care primesc informația, sunt:
+
+- a. dendritele
+- b. axonul
+- c. sinapsele
+- d. celulele gliale
+
+> [!success]- Răspuns
+> **a. dendritele**
+> 
+> Axonul o transmite mai departe.
+
+### 60. Celulele care susțin și hrănesc neuronii se numesc:
+
+- a. celule gliale
+- b. hematii
+- c. fibre musculare
+- d. celule epiteliale
+
+> [!success]- Răspuns
+> **a. celule gliale**
+> 
+> Neuronii sunt celulele funcționale.
+
+### 61. Respirația celulară, prin care glucoza e descompusă cu eliberare de energie, aparține:
+
+- a. catabolismului
+- b. anabolismului
+- c. fotosintezei
+- d. digestiei mecanice
+
+> [!success]- Răspuns
+> **a. catabolismului**
+> 
+> Descompune substanțe complexe.
+
+### 62. Energia din celulă este stocată sub formă de:
+
+- a. ATP
+- b. ADN
+- c. glicogen exclusiv
+- d. apă
+
+> [!success]- Răspuns
+> **a. ATP**
+> 
+> Ea este apoi folosită de procesele consumatoare.
+
+### 63. Enzimele sunt, din punct de vedere chimic:
+
+- a. proteine
+- b. glucide
+- c. lipide
+- d. săruri minerale
+
+> [!success]- Răspuns
+> **a. proteine**
+> 
+> Ele catalizează reacțiile biochimice.
+
+### 64. Fiecare enzimă acționează:
+
+- a. specific, asupra unui anumit substrat
+- b. asupra oricărei substanțe
+- c. doar la temperaturi foarte mari
+- d. fără legătură cu pH-ul
+
+> [!success]- Răspuns
+> **a. specific, asupra unui anumit substrat**
+> 
+> Funcționează ca o cheie într-o broască.
+
+### 65. Fagocitoza, prin care leucocitele înglobează microbii, aparține imunității:
+
+- a. nespecifice
+- b. specifice
+- c. exclusiv dobândite
+- d. prin anticorpi
+
+> [!success]- Răspuns
+> **a. nespecifice**
+> 
+> Acționează la fel împotriva oricărui intrus.
+
+### 66. Anticorpii sunt produși de imunitatea:
+
+- a. specifică
+- b. nespecifică
+- c. înnăscută
+- d. prin bariere fizice
+
+> [!success]- Răspuns
+> **a. specifică**
+> 
+> Ea recunoaște antigenul.
+
+### 67. Vaccinarea determină organismul să:
+
+- a. producă anticorpi și celule de memorie
+- b. se îmbolnăvească grav
+- c. piardă imunitatea
+- d. producă antigene proprii
+
+> [!success]- Răspuns
+> **a. producă anticorpi și celule de memorie**
+> 
+> Toate astea fără a trece prin boală.
+
+### 68. Pielea și aciditatea sucului gastric sunt:
+
+- a. bariere ale imunității nespecifice
+- b. anticorpi
+- c. antigene
+- d. celule de memorie
+
+> [!success]- Răspuns
+> **a. bariere ale imunității nespecifice**
+> 
+> Reprezintă prima linie de apărare.
+
+### 69. Diabetul și bolile cardiovasculare sunt, de regulă, boli:
+
+- a. netransmisibile
+- b. transmisibile
+- c. produse de virusuri
+- d. contagioase
+
+> [!success]- Răspuns
+> **a. netransmisibile**
+> 
+> Țin de stilul de viață și de ereditate.
+
+### 70. Gripa și tuberculoza sunt boli:
+
+- a. transmisibile
+- b. netransmisibile
+- c. ereditare exclusiv
+- d. provocate de alimentație
+
+> [!success]- Răspuns
+> **a. transmisibile**
+> 
+> Sunt produse de agenți patogeni.
+
+### 71. Somnul suficient are rolul de a:
+
+- a. reface organismul și a consolida memoria
+- b. crește masa musculară exclusiv
+- c. înlocui alimentația
+- d. elimina nevoia de mișcare
+
+> [!success]- Răspuns
+> **a. reface organismul și a consolida memoria**
+> 
+> Lipsa lui afectează atenția și sănătatea.
+
+### 72. Cea mai eficientă cale de a păstra sănătatea este:
+
+- a. prevenția, prin stil de viață sănătos și controale periodice
+- b. tratarea bolilor după ce apar
+- c. folosirea multor medicamente
+- d. evitarea medicilor
+
+> [!success]- Răspuns
+> **a. prevenția, prin stil de viață sănătos și controale periodice**
+> 
+> Sănătatea se păstrează mai ușor decât se recâștigă.
+
+### 73. Apa reprezintă din masa celulei aproximativ:
+
+- a. 60–70%
+- b. 10%
+- c. 30%
+- d. 95%
+
+> [!success]- Răspuns
+> **a. 60–70%**
+> 
+> Este componenta majoritară.
+
+### 74. Acizii nucleici (ADN și ARN) au rolul de a:
+
+- a. păstra și transmite informația genetică
+- b. produce energie
+- c. forma membranele
+- d. transporta oxigenul
+
+> [!success]- Răspuns
+> **a. păstra și transmite informația genetică**
+> 
+> Sunt substanțe organice esențiale.
+
+### 75. Transportul activ prin membrană:
+
+- a. consumă energie și poate merge împotriva gradientului
+- b. nu consumă energie
+- c. se face doar prin osmoză
+- d. este identic cu difuzia
+
+> [!success]- Răspuns
+> **a. consumă energie și poate merge împotriva gradientului**
+> 
+> Pompa de sodiu-potasiu este un exemplu.
+
+### 76. Sinteza proteinelor are loc la nivelul:
+
+- a. ribozomilor
+- b. mitocondriilor
+- c. lizozomilor
+- d. aparatului Golgi
+
+> [!success]- Răspuns
+> **a. ribozomilor**
+> 
+> Mitocondriile produc energie.
+
+### 77. Lizozomii conțin:
+
+- a. enzime digestive
+- b. pigmenți fotosintetici
+- c. ADN
+- d. hemoglobină
+
+> [!success]- Răspuns
+> **a. enzime digestive**
+> 
+> Descompun substanțele uzate.
+
+### 78. Osmoza este trecerea:
+
+- a. apei printr-o membrană semipermeabilă
+- b. proteinelor prin membrană
+- c. ionilor cu consum de energie
+- d. gazelor prin perete celular
+
+> [!success]- Răspuns
+> **a. apei printr-o membrană semipermeabilă**
+> 
+> Se face fără consum de energie.
+
+### 79. Celula procariotă se deosebește prin:
 
 - a. lipsa nucleului delimitat de membrană
 - b. lipsa membranei celulare
@@ -453,7 +957,7 @@ cssclasses: test
 > 
 > Bacteriile sunt procariote.
 
-### 38. Mitocondria are rol în:
+### 80. Mitocondria are rol în:
 
 - a. producerea energiei
 - b. sinteza proteinelor
@@ -465,7 +969,7 @@ cssclasses: test
 > 
 > Acolo are loc respirația celulară.
 
-### 39. Mitoza produce:
+### 81. Mitoza produce:
 
 - a. două celule identice cu cea inițială
 - b. patru celule cu jumătate din cromozomi
@@ -477,7 +981,7 @@ cssclasses: test
 > 
 > Meioza produce gameți.
 
-### 40. Omul are:
+### 82. Omul are:
 
 - a. 46 de cromozomi
 - b. 23 de cromozomi
@@ -489,7 +993,7 @@ cssclasses: test
 > 
 > Grupați în 23 de perechi.
 
-### 41. Sângele este un țesut:
+### 83. Sângele este un țesut:
 
 - a. conjunctiv
 - b. epitelial
@@ -501,7 +1005,7 @@ cssclasses: test
 > 
 > Are substanță fundamentală lichidă.
 
-### 42. Transmiterea informației între doi neuroni se face:
+### 84. Transmiterea informației între doi neuroni se face:
 
 - a. chimic, prin sinapsă
 - b. electric, direct
@@ -513,7 +1017,7 @@ cssclasses: test
 > 
 > Neurotransmițătorii traversează spațiul sinaptic.
 
-### 43. Echilibrul și coordonarea fină sunt asigurate de:
+### 85. Echilibrul și coordonarea fină sunt asigurate de:
 
 - a. cerebel
 - b. emisferele cerebrale
@@ -525,7 +1029,7 @@ cssclasses: test
 > 
 > Trunchiul reglează funcțiile vitale.
 
-### 44. Insulina este secretată de:
+### 86. Insulina este secretată de:
 
 - a. pancreas
 - b. tiroidă
@@ -537,7 +1041,7 @@ cssclasses: test
 > 
 > Scade glicemia.
 
-### 45. Măduva roșie a oaselor produce:
+### 87. Măduva roșie a oaselor produce:
 
 - a. celulele sangvine
 - b. hormoni sexuali
@@ -549,7 +1053,79 @@ cssclasses: test
 > 
 > Este și depozit de calciu osul în ansamblu.
 
-### 46. Mușchii scheletici se prind de oase prin:
+### 88. Sângele este un țesut conjunctiv pentru că:
+
+- a. are multă substanță fundamentală, lichidă (plasma)
+- b. are celule strâns unite
+- c. conduce impulsuri nervoase
+- d. se contractă
+
+> [!success]- Răspuns
+> **a. are multă substanță fundamentală, lichidă (plasma)**
+> 
+> Elementele figurate plutesc în plasmă.
+
+### 89. Mușchiul neted din pereții organelor interne este:
+
+- a. involuntar
+- b. voluntar
+- c. striat și voluntar
+- d. prins de oase
+
+> [!success]- Răspuns
+> **a. involuntar**
+> 
+> Nu se contractă la comandă.
+
+### 90. Glandele endocrine își varsă produsul:
+
+- a. direct în sânge
+- b. printr-un canal, la suprafață
+- c. în intestin
+- d. în afara corpului
+
+> [!success]- Răspuns
+> **a. direct în sânge**
+> 
+> Tiroida și hipofiza sunt exemple.
+
+### 91. Catabolismul este ansamblul reacțiilor de:
+
+- a. descompunere, cu eliberare de energie
+- b. construcție, cu consum de energie
+- c. transport prin membrană
+- d. diviziune celulară
+
+> [!success]- Răspuns
+> **a. descompunere, cu eliberare de energie**
+> 
+> Respirația celulară este un exemplu.
+
+### 92. Anticorpii sunt produși de imunitatea:
+
+- a. specifică
+- b. nespecifică
+- c. înnăscută exclusiv
+- d. prin bariere fizice
+
+> [!success]- Răspuns
+> **a. specifică**
+> 
+> Ei se leagă specific de antigen.
+
+### 93. Vaccinarea protejează prin:
+
+- a. producerea de anticorpi și celule de memorie
+- b. îmbolnăvirea gravă a organismului
+- c. distrugerea imunității
+- d. eliminarea antigenelor proprii
+
+> [!success]- Răspuns
+> **a. producerea de anticorpi și celule de memorie**
+> 
+> Nu trece prin boală.
+
+### 94. Mușchii scheletici se prind de oase prin:
 
 - a. tendoane
 - b. ligamente
@@ -561,7 +1137,7 @@ cssclasses: test
 > 
 > Ligamentele leagă oasele între ele.
 
-### 47. Digestia amidonului începe:
+### 95. Digestia amidonului începe:
 
 - a. în cavitatea bucală
 - b. în stomac
@@ -573,7 +1149,7 @@ cssclasses: test
 > 
 > Prin amilaza salivară.
 
-### 48. Absorbția nutrienților are loc mai ales:
+### 96. Absorbția nutrienților are loc mai ales:
 
 - a. în intestinul subțire
 - b. în stomac
@@ -585,7 +1161,7 @@ cssclasses: test
 > 
 > La nivelul vilozităților intestinale.
 
-### 49. Schimbul de gaze din plămâni se face prin:
+### 97. Schimbul de gaze din plămâni se face prin:
 
 - a. difuzie
 - b. transport activ
@@ -597,7 +1173,7 @@ cssclasses: test
 > 
 > La nivelul alveolelor pulmonare.
 
-### 50. Hemoglobina se află în:
+### 98. Hemoglobina se află în:
 
 - a. hematii
 - b. leucocite
@@ -609,7 +1185,7 @@ cssclasses: test
 > 
 > Ea transportă oxigenul.
 
-### 51. Unitatea funcțională a rinichiului este:
+### 99. Unitatea funcțională a rinichiului este:
 
 - a. nefronul
 - b. alveola
@@ -621,7 +1197,7 @@ cssclasses: test
 > 
 > Filtrează sângele și formează urina.
 
-### 52. Circulația mare duce sângele:
+### 100. Circulația mare duce sângele:
 
 - a. de la inimă la restul corpului
 - b. de la inimă la plămâni
@@ -633,7 +1209,7 @@ cssclasses: test
 > 
 > Circulația mică merge la plămâni.
 
-### 53. Fecundația are loc în:
+### 101. Fecundația are loc în:
 
 - a. trompa uterină
 - b. uter
@@ -645,7 +1221,7 @@ cssclasses: test
 > 
 > Zigotul se implantează apoi în uter.
 
-### 54. Vaccinarea împotriva HPV previne:
+### 102. Vaccinarea împotriva HPV previne:
 
 - a. o infecție cu transmitere sexuală
 - b. gripa sezonieră

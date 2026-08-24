@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Agricultura și industria
 
-[[Geografie (clasa a X-a)|Geografie]] · [[Clasa a X-a]] · lecția 6 din 9
+[[Geografie (clasa a X-a)|Geografie]] · [[Clasa a X-a]] · lecția 6 din 20
 
 **Capitolul:** Activitățile economice — semestrul 2
 

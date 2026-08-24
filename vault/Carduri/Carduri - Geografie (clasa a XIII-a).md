@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Geografie (clasa a XIII-a)
 
-36 carduri pentru [[Geografie (clasa a XIII-a)|Geografie (clasa a XIII-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+80 carduri pentru [[Geografie (clasa a XIII-a)|Geografie (clasa a XIII-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/geografie
 
@@ -82,6 +82,94 @@ De ce se pierd cele mai multe puncte la geografie?::Din nerespectarea cerinței,
 Ce trebuie subliniat la fiecare cerință?::Verbul cerinței și numărul de elemente solicitate.
 
 Cum se învață eficient geografia?::Localizând activ pe hartă și explicând, nu doar citind.
+
+Care este cea mai mare economie a Europei?::Germania.
+
+Pe ce sursă se bazează preponderent energia electrică a Franței?::Pe energia nucleară.
+
+Ce formă de stat are Germania?::Stat federal, format din landuri.
+
+Ce deosebește opțiunea energetică a Germaniei de cea a Franței?::Germania renunță la nuclear; Franța se bazează pe el.
+
+Ce este Brexitul?::Retragerea Regatului Unit din Uniunea Europeană, în 2020.
+
+Ce contrast structural caracterizează Italia?::Contrastul nord–sud, între nordul dezvoltat și sudul mai sărac.
+
+Cum este organizată administrativ Spania?::În comunități autonome.
+
+Ce vulcani activi are Italia?::Vezuviul și Etna.
+
+Cu ce state se învecinează România?::Ucraina, Republica Moldova, Bulgaria, Serbia și Ungaria.
+
+Peste ce râu se învecinează România cu Republica Moldova?::Peste Prut.
+
+Cu ce stat vecin are România cele mai strânse legături istorice și culturale?::Cu Republica Moldova.
+
+Ce dă României poziția de frontieră a Uniunii Europene și a NATO?::Responsabilități de securitate și oportunități de nod regional.
+
+Care sunt proporțiile treptelor de relief din România?::Munți 31%, dealuri și podișuri 36%, câmpii 33%.
+
+Care este cel mai înalt vârf al României?::Moldoveanu, 2 544 m, în Munții Făgăraș.
+
+Ce climat are România?::Temperat-continental de tranziție, cu cinci tipuri de influențe.
+
+Ce fluviu colectează aproape toate râurile României?::Dunărea.
+
+Câți locuitori avea România la recensământul din 2021?::Aproximativ 19 milioane.
+
+Câte județe are România?::41, plus municipiul București.
+
+Câte regiuni de dezvoltare are România?::Opt, fără statut administrativ.
+
+Care a fost factorul demografic dominant după 1990?::Emigrația, care a depășit trei milioane de persoane.
+
+Prin ce tratat a fost creată Uniunea Europeană?::Prin Tratatul de la Maastricht (1992).
+
+Câte state membre are Uniunea Europeană?::27, după retragerea Regatului Unit în 2020.
+
+Care sunt cele patru libertăți ale pieței interne?::Libera circulație a mărfurilor, serviciilor, capitalurilor și persoanelor.
+
+Ce instituție are dreptul de inițiativă legislativă?::Comisia Europeană.
+
+Care sunt cele două regimuri demografice ale lumii contemporane?::Creștere rapidă cu populație tânără și, respectiv, natalitate scăzută cu îmbătrânire.
+
+Care sunt cauzele declinului demografic al României?::Natalitatea scăzută, emigrația masivă și îmbătrânirea.
+
+Prin ce factori se descriu migrațiile?::Prin factori de respingere (push) și de atracție (pull).
+
+Prin ce se deosebește un refugiat de un migrant economic?::Refugiatul fuge de persecuție sau război și are protecție internațională.
+
+Care sunt principalele probleme globale de mediu?::Schimbările climatice, pierderea biodiversității, poluarea și deșeurile.
+
+Care sunt cele trei dimensiuni ale dezvoltării durabile?::Economică, socială și de mediu.
+
+Ce obiectiv fixează Acordul de la Paris?::Limitarea încălzirii sub 2°C, cu efort spre 1,5°C.
+
+Ce obiectiv fixează Pactul Ecologic European?::Neutralitatea climatică a Uniunii Europene până în 2050.
+
+Ce structură are un studiu de caz bun?::Obiect, date pe criterii, explicație prin factori, concluzie.
+
+Care este operația cea mai valoroasă într-un răspuns geografic?::Explicația, adică arătarea relației cauză–efect.
+
+Ce indică verbul unei cerințe?::Operația cerută: a preciza, a caracteriza, a compara, a explica, a calcula.
+
+Ce greșeală apare când se cere „explicați”, iar elevul descrie?::Nu primește punctajul, fiindcă lipsește relația cauză–efect.
+
+Pe ce se bazează subiectul I și subiectul al II-lea la proba de geografie?::Subiectul I pe harta Europei, al II-lea pe harta României.
+
+Care este primul pas în lucrul cu harta de examen?::Citirea legendei și identificarea a ceea ce reprezintă literele și cifrele.
+
+Care este cea mai eficientă metodă de pregătire cu harta?::Localizarea repetată pe hărți mute.
+
+Ce se scrie dacă se cere „numele statului marcat cu litera A”?::Numele statului, nu al capitalei.
+
+Cum se calculează densitatea populației?::Împărțind numărul de locuitori la suprafață; rezultatul se dă în loc./km².
+
+Cum se calculează sporul natural?::Ca diferență între natalitate și mortalitate.
+
+Ce se pierde dacă rezultatul unui calcul nu are unitate de măsură?::Puncte, chiar dacă valoarea este corectă.
+
+Care este referința actuală pentru datele despre populația României?::Recensământul din 2021.
 
 ---
 

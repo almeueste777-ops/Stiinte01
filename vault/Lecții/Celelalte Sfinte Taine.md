@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Celelalte Sfinte Taine
 
-[[Religie (clasa a XI-a)|Religie]] · [[Clasa a XI-a]] · lecția 3 din 9
+[[Religie (clasa a XI-a)|Religie]] · [[Clasa a XI-a]] · lecția 3 din 18
 
 **Capitolul:** Biserica și Sfintele Taine — semestrul 1
 

@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Resursele și industria
 
-[[Geografie (clasa a XII-a)|Geografie]] · [[Clasa a XII-a]] · lecția 6 din 9
+[[Geografie (clasa a XII-a)|Geografie]] · [[Clasa a XII-a]] · lecția 6 din 20
 
 **Capitolul:** Economia și mediul — semestrul 2
 

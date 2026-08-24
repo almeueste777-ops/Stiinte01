@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Sănătate și stil de viață
 
-[[Biologie (clasa a X-a)|Biologie]] · [[Clasa a X-a]] · lecția 9 din 9
+[[Biologie (clasa a X-a)|Biologie]] · [[Clasa a X-a]] · lecția 9 din 18
 
 **Capitolul:** Ecologie și sănătate — semestrul 2
 
@@ -29,6 +29,6 @@ Sănătatea nu înseamnă doar absența bolii, ci și starea de bine fizică, ps
 
 ---
 
-⬅ [[Omul și mediul]]
+⬅ [[Omul și mediul]] · [[Ciclul celular și mitoza]] ➡
 
 Exersează: [[Carduri - Biologie (clasa a X-a)]] · [[Test - Biologie (clasa a X-a)]]

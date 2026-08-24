@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Geografie (clasa a IX-a)
 
-40 carduri pentru [[Geografie (clasa a IX-a)|Geografie (clasa a IX-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+80 carduri pentru [[Geografie (clasa a IX-a)|Geografie (clasa a IX-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/geografie
 
@@ -90,6 +90,86 @@ Ce este dezvoltarea durabilă?::Satisfacerea nevoilor prezentului fără a compr
 Ce acord internațional din 2015 privește clima?::Acordul de la Paris.
 
 Ce rezervație a biosferei se află în România?::Delta Dunării.
+
+Care este paralela de 0°?::Ecuatorul.
+
+Prin ce loc trece meridianul de origine?::Prin Greenwich, lângă Londra.
+
+Între ce valori se măsoară latitudinea?::Între 0° la Ecuator și 90° la poli.
+
+Ce determină latitudinea unui loc?::Unghiul razelor solare, deci temperatura și zona de climă.
+
+Ce arată scara unei hărți?::De câte ori a fost micșorată realitatea.
+
+Ce reprezintă o curbă de nivel?::Linia care unește punctele cu aceeași altitudine.
+
+Ce culoare indică de obicei câmpiile pe hărțile fizice?::Verdele.
+
+Ce înseamnă scara 1:100 000?::Că 1 cm pe hartă reprezintă 1 km în teren.
+
+Câte fusuri orare are Pământul?::24, de câte 15° fiecare.
+
+De ce apar fusurile orare?::Pentru că Pământul se rotește cu 15° într-o oră.
+
+Câte zile are un an bisect?::366, o dată la patru ani.
+
+În ce fus orar se află România?::În fusul Europei de Est, la UTC+2 iarna.
+
+Din ce sunt alcătuite rocile?::Din unul sau mai multe minerale.
+
+Cum se formează granitul?::Prin răcirea lentă a magmei în adâncime.
+
+Ce rocă rezultă din metamorfozarea calcarului?::Marmura.
+
+În ce tip de roci se găsesc fosilele?::În rocile sedimentare.
+
+Care este cel mai înalt vârf al planetei?::Everest, 8 849 m, în Munții Himalaya.
+
+Care este cel mai lung lanț montan continental?::Munții Anzi, peste 7 000 km.
+
+Ce podiș este numit „acoperișul lumii”?::Podișul Tibetului.
+
+În ce orogeneză s-au format Alpii și Himalaya?::În orogeneza alpină, în terțiar.
+
+Care este diferența dintre vreme și climă?::Vremea este starea de moment; clima, regimul mediu multianual.
+
+Cu ce instrument se măsoară presiunea atmosferică?::Cu barometrul.
+
+Ce aduce, de obicei, un front rece?::Averse, descărcări electrice și răciri bruște.
+
+Pe ce se bazează prognoza vremii?::Pe hărți sinoptice, date de la sateliți și radare și pe modele numerice.
+
+Ce arată umezeala relativă a aerului?::Cât la sută din vaporii posibili la temperatura dată sunt prezenți efectiv.
+
+Ce se întâmplă când aerul atinge saturația?::Vaporii de apă încep să se condenseze.
+
+Ce nor produce averse, grindină și fulgere?::Cumulonimbusul.
+
+Dă un exemplu de precipitație depusă.::Roua, bruma sau chiciura.
+
+De ce se mișcă aerul atmosferic?::Din cauza încălzirii inegale a suprafeței terestre.
+
+Ce sunt masele de aer?::Volume mari de aer cu temperatură și umezeală relativ uniforme.
+
+Ce tip de vreme aduce aerul tropical?::Vreme caldă.
+
+Ce este foehnul?::Un vânt local cald și uscat, care coboară pe versantul adăpostit al unui munte.
+
+Ce provoacă, în general, valurile obișnuite?::Vântul.
+
+Ce provoacă mareele?::Atracția gravitațională a Lunii și a Soarelui.
+
+Ce provoacă un tsunami?::Un cutremur submarin, o erupție sau o alunecare de teren.
+
+Ce efect are Golfstreamul asupra Europei?::Îi încălzește țărmul vestic.
+
+Ce cuprinde criosfera?::Ghețarii, calotele, banchiza, zăpada și permafrostul.
+
+Cum se formează un ghețar?::Acolo unde cade an de an mai multă zăpadă decât se topește.
+
+Unde se află cele mai mari calote glaciare?::În Antarctica și în Groenlanda.
+
+Ce este permafrostul?::Solul înghețat în permanență din regiunile polare și subpolare.
 
 ---
 

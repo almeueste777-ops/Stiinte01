@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Familia și relațiile
 
-[[Religie (clasa a XII-a)|Religie]] · [[Clasa a XII-a]] · lecția 5 din 9
+[[Religie (clasa a XII-a)|Religie]] · [[Clasa a XII-a]] · lecția 5 din 18
 
 **Capitolul:** Viața personală și familia — semestrul 1
 

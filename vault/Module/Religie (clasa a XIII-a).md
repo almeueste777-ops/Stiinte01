@@ -20,7 +20,7 @@ cssclasses: fisa
 
 Sinteză: credința în lumea contemporană, spiritualitatea ortodoxă, patrimoniul creștin românesc și alegerile vieții de adult.
 
-## Capitole (3)
+## Capitole (6)
 
 ### Spiritualitatea ortodoxă — semestrul 1
 
@@ -40,9 +40,27 @@ Sinteză: credința în lumea contemporană, spiritualitatea ortodoxă, patrimon
 - [[Adevăr, informație, manipulare]]
 - [[Sinteză - ce rămâne]]
 
+### Repere de istorie a Bisericii Ortodoxe Române — semestrul 1
+
+- [[Organizarea Bisericii românești și mitropoliile]]
+- [[Marii ierarhi și cărturari ai Bisericii românești]]
+- [[Biserica în epoca modernă și contemporană]]
+
+### Sfinți și locuri de spiritualitate românească — semestrul 2
+
+- [[Sfinți români și moaște cinstite]]
+- [[Mănăstiri și pelerinaje]]
+- [[Marile praznice și tradiția liturgică]]
+
+### Credință, cultură și viață în lumea de azi — semestrul 2
+
+- [[Credință, știință și cultură contemporană]]
+- [[Demnitatea vieții și bioetica]]
+- [[Libertate, responsabilitate și sensul vieții]]
+
 ## Exersare
-- [[Carduri - Religie (clasa a XIII-a)]] — 36 carduri
-- [[Test - Religie (clasa a XIII-a)]] — 54 întrebări
+- [[Carduri - Religie (clasa a XIII-a)]] — 72 carduri
+- [[Test - Religie (clasa a XIII-a)]] — 102 întrebări
 
 ## Legături
 - [[Religie|Religie]]

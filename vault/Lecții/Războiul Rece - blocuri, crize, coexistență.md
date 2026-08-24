@@ -10,7 +10,7 @@ clasa: "a XI-a"
 ---
 # Războiul Rece: blocuri, crize, coexistență
 
-[[Istorie (clasa a XI-a)|Istorie]] · [[Clasa a XI-a]] · lecția 8 din 11
+[[Istorie (clasa a XI-a)|Istorie]] · [[Clasa a XI-a]] · lecția 8 din 24
 
 **Capitolul:** Al Doilea Război Mondial și Războiul Rece — semestrul 2
 

@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Geto-dacii și Dacia romană
 
-[[Istorie (clasa a IX-a)|Istorie]] · [[Clasa a IX-a]] · lecția 5 din 12
+[[Istorie (clasa a IX-a)|Istorie]] · [[Clasa a IX-a]] · lecția 5 din 24
 
 **Capitolul:** Roma, romanitatea și lumea daco-romană — semestrul 1
 

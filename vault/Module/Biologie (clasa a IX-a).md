@@ -20,7 +20,7 @@ cssclasses: fisa
 
 Celula și țesuturile, anatomia și fiziologia omului: sistemele de relație, de nutriție și de reproducere.
 
-## Capitole (3)
+## Capitole (6)
 
 ### Celula și țesuturile — semestrul 1
 
@@ -40,9 +40,27 @@ Celula și țesuturile, anatomia și fiziologia omului: sistemele de relație, d
 - [[Circulația și excreția]]
 - [[Reproducerea și sănătatea]]
 
+### Citologie — semestrul 1
+
+- [[Compoziția chimică a celulei]]
+- [[Organitele celulare]]
+- [[Transportul prin membrană]]
+
+### Histologie — semestrul 2
+
+- [[Țesuturile epiteliale]]
+- [[Țesuturile conjunctive]]
+- [[Țesuturile muscular și nervos]]
+
+### Metabolism, imunitate și sănătate — semestrul 2
+
+- [[Metabolismul și enzimele]]
+- [[Imunitatea]]
+- [[Igiena, prevenția și stilul de viață]]
+
 ## Exersare
-- [[Carduri - Biologie (clasa a IX-a)]] — 36 carduri
-- [[Test - Biologie (clasa a IX-a)]] — 54 întrebări
+- [[Carduri - Biologie (clasa a IX-a)]] — 72 carduri
+- [[Test - Biologie (clasa a IX-a)]] — 102 întrebări
 
 ## Legături
 - [[Biologie|Biologie]]

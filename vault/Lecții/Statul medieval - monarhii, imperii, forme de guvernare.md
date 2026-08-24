@@ -10,7 +10,7 @@ clasa: "a IX-a"
 ---
 # Statul medieval: monarhii, imperii, forme de guvernare
 
-[[Istorie (clasa a IX-a)|Istorie]] · [[Clasa a IX-a]] · lecția 9 din 12
+[[Istorie (clasa a IX-a)|Istorie]] · [[Clasa a IX-a]] · lecția 9 din 24
 
 **Capitolul:** Evul Mediu european — semestrul 2
 

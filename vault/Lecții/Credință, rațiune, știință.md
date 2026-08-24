@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Credință, rațiune, știință
 
-[[Religie (clasa a XI-a)|Religie]] · [[Clasa a XI-a]] · lecția 8 din 9
+[[Religie (clasa a XI-a)|Religie]] · [[Clasa a XI-a]] · lecția 8 din 18
 
 **Capitolul:** Creștinismul, cultura și lumea — semestrul 2
 

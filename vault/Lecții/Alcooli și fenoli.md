@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Alcooli și fenoli
 
-[[Chimie (clasa a X-a)|Chimie]] · [[Clasa a X-a]] · lecția 4 din 9
+[[Chimie (clasa a X-a)|Chimie]] · [[Clasa a X-a]] · lecția 4 din 18
 
 **Capitolul:** Compuși cu grupe funcționale — semestrul 1
 

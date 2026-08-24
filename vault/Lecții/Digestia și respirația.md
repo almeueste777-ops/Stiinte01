@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Digestia și respirația
 
-[[Biologie (clasa a IX-a)|Biologie]] · [[Clasa a IX-a]] · lecția 7 din 9
+[[Biologie (clasa a IX-a)|Biologie]] · [[Clasa a IX-a]] · lecția 7 din 18
 
 **Capitolul:** Funcțiile de nutriție și reproducere — semestrul 2
 

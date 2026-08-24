@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Acizi, baze, săruri
 
-[[Chimie (clasa a IX-a)|Chimie]] · [[Clasa a IX-a]] · lecția 8 din 9
+[[Chimie (clasa a IX-a)|Chimie]] · [[Clasa a IX-a]] · lecția 8 din 18
 
 **Capitolul:** Reacții chimice — semestrul 2
 

@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # România în Uniunea Europeană
 
-[[Geografie (clasa a XII-a)|Geografie]] · [[Clasa a XII-a]] · lecția 9 din 9
+[[Geografie (clasa a XII-a)|Geografie]] · [[Clasa a XII-a]] · lecția 9 din 20
 
 **Capitolul:** Uniunea Europeană — semestrul 2
 
@@ -29,6 +29,6 @@ România a aderat la Uniunea Europeană la 1 ianuarie 2007, după un proces de n
 
 ---
 
-⬅ [[Construcția și instituțiile Uniunii Europene]]
+⬅ [[Construcția și instituțiile Uniunii Europene]] · [[Mările, fluviile și lacurile Europei]] ➡
 
 Exersează: [[Carduri - Geografie (clasa a XII-a)]] · [[Test - Geografie (clasa a XII-a)]]

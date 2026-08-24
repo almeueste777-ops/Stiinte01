@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Creștinul în societate
 
-[[Religie (clasa a XII-a)|Religie]] · [[Clasa a XII-a]] · lecția 7 din 9
+[[Religie (clasa a XII-a)|Religie]] · [[Clasa a XII-a]] · lecția 7 din 18
 
 **Capitolul:** Responsabilitate socială și bioetică — semestrul 2
 

@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Suferința, moartea, nădejdea
 
-[[Religie (clasa a XIII-a)|Religie]] · [[Clasa a XIII-a]] · lecția 3 din 9
+[[Religie (clasa a XIII-a)|Religie]] · [[Clasa a XIII-a]] · lecția 3 din 18
 
 **Capitolul:** Spiritualitatea ortodoxă — semestrul 1
 

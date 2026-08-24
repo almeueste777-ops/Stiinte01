@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Diviziunea celulară și ereditatea
 
-[[Biologie (clasa a IX-a)|Biologie]] · [[Clasa a IX-a]] · lecția 2 din 9
+[[Biologie (clasa a IX-a)|Biologie]] · [[Clasa a IX-a]] · lecția 2 din 18
 
 **Capitolul:** Celula și țesuturile — semestrul 1
 

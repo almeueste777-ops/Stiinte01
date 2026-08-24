@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Chimie (clasa a X-a)
 
-36 carduri pentru [[Chimie (clasa a X-a)|Chimie (clasa a X-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+72 carduri pentru [[Chimie (clasa a X-a)|Chimie (clasa a X-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/chimie
 
@@ -82,6 +82,78 @@ Cum acționează detergenții?::Prin molecule cu un capăt polar și unul nepola
 De ce conservă sarea alimentele?::Pentru că extrage apa și împiedică dezvoltarea microorganismelor.
 
 Ce sunt excipienții?::Substanțele inactive care însoțesc substanța activă dintr-un medicament.
+
+Care este formula generală a alcanilor?::CₙH₂ₙ₊₂.
+
+Ce este o serie omoloagă?::Un șir de compuși în care fiecare termen diferă de precedentul printr-o grupă CH₂.
+
+De la ce alcan apar izomerii de catenă?::De la butan (C₄H₁₀).
+
+Ce reacții dau alcanii?::Arderea și substituția cu halogeni.
+
+Ce formulă generală au alchenele și alchinele?::Alchenele CₙH₂ₙ, alchinele CₙH₂ₙ₋₂.
+
+Ce este reacția de adiție?::Reacția în care legătura multiplă se desface parțial și primește atomi noi.
+
+Cum se recunoaște o legătură multiplă cu apă de brom?::Apa de brom se decolorează.
+
+Ce se obține prin polimerizarea etenei?::Polietilena.
+
+Din ce este format, în principal, gazul natural?::Din metan.
+
+Cum se separă componentele petrolului?::Prin distilare fracționată, după temperaturile de fierbere.
+
+Ce este cracarea?::Ruperea moleculelor mari de hidrocarburi în molecule mai mici, mai valoroase.
+
+Ce gaz toxic rezultă din arderea incompletă?::Monoxidul de carbon.
+
+Ce grupă funcțională conțin aldehidele și cetonele?::Grupa carbonil (C=O).
+
+Prin ce diferă o aldehidă de o cetonă?::La aldehidă grupa carbonil e la capătul catenei, la cetonă în interiorul ei.
+
+La ce se folosește acetona?::Ca solvent, de exemplu la dizolvarea lacurilor și în dizolvantul de unghii.
+
+De ce se pot deosebi aldehidele de cetone?::Aldehidele se oxidează ușor la acizi (au caracter reducător), cetonele nu.
+
+Ce se întâmplă într-o reacție de substituție?::Un atom sau o grupă este înlocuit cu altul.
+
+Care este reacția caracteristică a alchenelor?::Adiția.
+
+Ce este polimerizarea?::Un caz special de adiție, în care multe molecule mici se unesc într-o macromoleculă.
+
+Ce reacție unește un acid cu un alcool?::Esterificarea.
+
+Ce produce fermentația alcoolică?::Etanol și dioxid de carbon, din zaharuri, sub acțiunea drojdiilor.
+
+Cum se obține oțetul?::Prin fermentația acetică, care transformă etanolul în acid acetic.
+
+Ce stă la baza obținerii iaurtului?::Fermentația lactică, produsă de bacteriile lactice.
+
+De ce apare acid lactic în mușchi la efort?::Pentru că, lipsind oxigenul, glucoza este transformată prin fermentație lactică.
+
+Prin ce se caracterizează lipidele față de apă?::Sunt insolubile în apă, dar solubile în solvenți nepolari.
+
+Prin ce diferă grăsimile de uleiuri?::Grăsimile au acizi grași saturați și sunt solide; uleiurile au acizi nesaturați și sunt lichide.
+
+Care este rolul energetic al lipidelor?::Sunt rezerva de energie cea mai concentrată din organism.
+
+Ce vitamine transportă lipidele?::Vitaminele liposolubile: A, D, E, K.
+
+Ce sunt săpunurile din punct de vedere chimic?::Săruri de sodiu sau de potasiu ale acizilor grași.
+
+Cum este alcătuită molecula de săpun?::Are un capăt polar (hidrofil) și o coadă nepolară (hidrofobă).
+
+Cum îndepărtează săpunul grăsimea?::O înconjoară în micele și o dispersează în apă, de unde e clătită.
+
+De ce spală săpunul mai greu în apa dură?::Pentru că formează cu calciul și magneziul săruri insolubile.
+
+De ce sunt necesare vitaminele, deși în cantități mici?::Pentru că intervin ca reglatori ai reacțiilor biochimice.
+
+Cum se împart vitaminele după solubilitate?::În liposolubile (A, D, E, K) și hidrosolubile (grupul B și C).
+
+Ce boală produce lipsa vitaminei C?::Scorbutul.
+
+Ce deosebește un medicament benefic de unul toxic?::Doza corectă.
 
 ---
 

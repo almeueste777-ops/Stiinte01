@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Globalizarea și economia mondială
 
-[[Geografie (clasa a XI-a)|Geografie]] · [[Clasa a XI-a]] · lecția 6 din 9
+[[Geografie (clasa a XI-a)|Geografie]] · [[Clasa a XI-a]] · lecția 6 din 20
 
 **Capitolul:** Geopolitică și economie mondială — semestrul 2
 

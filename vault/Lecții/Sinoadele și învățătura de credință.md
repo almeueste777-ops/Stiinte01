@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Sinoadele și învățătura de credință
 
-[[Religie (clasa a X-a)|Religie]] · [[Clasa a X-a]] · lecția 8 din 9
+[[Religie (clasa a X-a)|Religie]] · [[Clasa a X-a]] · lecția 8 din 18
 
 **Capitolul:** Creștinismul în lume — semestrul 2
 

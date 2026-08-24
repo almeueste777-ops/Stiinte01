@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # România în context regional
 
-[[Geografie (clasa a XIII-a)|Geografie]] · [[Clasa a XIII-a]] · lecția 3 din 9
+[[Geografie (clasa a XIII-a)|Geografie]] · [[Clasa a XIII-a]] · lecția 3 din 20
 
 **Capitolul:** Regiunile Europei — semestrul 1
 

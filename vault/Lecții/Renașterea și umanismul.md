@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Renașterea și umanismul
 
-[[Istorie (clasa a X-a)|Istorie]] · [[Clasa a X-a]] · lecția 1 din 12
+[[Istorie (clasa a X-a)|Istorie]] · [[Clasa a X-a]] · lecția 1 din 24
 
 **Capitolul:** Nașterea lumii moderne — semestrul 1
 

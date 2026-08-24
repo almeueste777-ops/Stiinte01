@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Marile puteri, imperialism și tensiuni
 
-[[Istorie (clasa a X-a)|Istorie]] · [[Clasa a X-a]] · lecția 8 din 12
+[[Istorie (clasa a X-a)|Istorie]] · [[Clasa a X-a]] · lecția 8 din 24
 
 **Capitolul:** Națiuni și state în secolul al XIX-lea — semestrul 2
 

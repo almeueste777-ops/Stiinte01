@@ -22,14 +22,14 @@ Anul **1** din cei 5 ai parcursului [[Parcurs școlar]].
 ### [[Arie - Matematică și științe ale naturii|Matematică și științe ale naturii]]
 - [[Matematică (clasa a IX-a)|Matematică]] — 📘 9 lecții în aplicație
 - [[Fizică (clasa a IX-a)|Fizică]] — 📘 9 lecții în aplicație
-- [[Chimie (clasa a IX-a)|Chimie]] — 📘 9 lecții în aplicație
-- [[Biologie (clasa a IX-a)|Biologie]] — 📘 9 lecții în aplicație
+- [[Chimie (clasa a IX-a)|Chimie]] — 📘 18 lecții în aplicație
+- [[Biologie (clasa a IX-a)|Biologie]] — 📘 18 lecții în aplicație
 
 ### [[Arie - Om și societate|Om și societate]]
-- [[Istorie (clasa a IX-a)|Istorie]] — 🎓 bac, 📘 12 lecții în aplicație
-- [[Geografie (clasa a IX-a)|Geografie]] — 🎓 bac, 📘 10 lecții în aplicație
+- [[Istorie (clasa a IX-a)|Istorie]] — 🎓 bac, 📘 24 lecții în aplicație
+- [[Geografie (clasa a IX-a)|Geografie]] — 🎓 bac, 📘 20 lecții în aplicație
 - [[Logică, argumentare și comunicare (clasa a IX-a)|Logică, argumentare și comunicare]] — 🎓 bac, 📘 16 lecții în aplicație
-- [[Religie (clasa a IX-a)|Religie]] — 📘 9 lecții în aplicație
+- [[Religie (clasa a IX-a)|Religie]] — 📘 18 lecții în aplicație
 
 ### [[Arie - Tehnologii|Tehnologii]]
 - [[Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)|Tehnologia informației și a comunicațiilor (TIC)]] — 🎓 bac, 📘 9 lecții în aplicație

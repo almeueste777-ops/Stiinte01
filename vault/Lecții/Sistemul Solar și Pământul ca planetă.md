@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Sistemul Solar și Pământul ca planetă
 
-[[Geografie (clasa a IX-a)|Geografie]] · [[Clasa a IX-a]] · lecția 1 din 10
+[[Geografie (clasa a IX-a)|Geografie]] · [[Clasa a IX-a]] · lecția 1 din 20
 
 **Capitolul:** Pământul în Univers — semestrul 1
 

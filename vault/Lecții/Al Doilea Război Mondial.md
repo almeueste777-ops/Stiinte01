@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Al Doilea Război Mondial
 
-[[Istorie (clasa a XI-a)|Istorie]] · [[Clasa a XI-a]] · lecția 7 din 11
+[[Istorie (clasa a XI-a)|Istorie]] · [[Clasa a XI-a]] · lecția 7 din 24
 
 **Capitolul:** Al Doilea Război Mondial și Războiul Rece — semestrul 2
 

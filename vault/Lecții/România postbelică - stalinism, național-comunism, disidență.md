@@ -10,7 +10,7 @@ clasa: "a XII-a"
 ---
 # România postbelică: stalinism, național-comunism, disidență
 
-[[Istorie (clasa a XII-a)|Istorie]] · [[Clasa a XII-a]] · lecția 8 din 12
+[[Istorie (clasa a XII-a)|Istorie]] · [[Clasa a XII-a]] · lecția 8 din 24
 
 **Capitolul:** Secolul XX: ideologii, constituții, regimuri — semestrul 2
 

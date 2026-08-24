@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Evoluția
 
-[[Biologie (clasa a X-a)|Biologie]] · [[Clasa a X-a]] · lecția 3 din 9
+[[Biologie (clasa a X-a)|Biologie]] · [[Clasa a X-a]] · lecția 3 din 18
 
 **Capitolul:** Genetică și evoluție — semestrul 1
 

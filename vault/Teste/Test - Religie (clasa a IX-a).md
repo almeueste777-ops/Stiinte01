@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Religie (clasa a IX-a)
 
-54 întrebări din [[Religie (clasa a IX-a)|Religie (clasa a IX-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+102 întrebări din [[Religie (clasa a IX-a)|Religie (clasa a IX-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Revelația supranaturală se împlinește deplin:
 
@@ -441,7 +441,511 @@ cssclasses: test
 > 
 > Educația ei e o responsabilitate.
 
-### 37. Revelația naturală se face prin:
+### 37. Psaltirea cuprinde:
+
+- a. 150 de psalmi
+- b. 100 de psalmi
+- c. 50 de psalmi
+- d. 200 de psalmi
+
+> [!success]- Răspuns
+> **a. 150 de psalmi**
+> 
+> Ei formează cartea de rugăciune a Vechiului Testament.
+
+### 38. Principalul autor al psalmilor este considerat, de tradiție:
+
+- a. regele David
+- b. Moise
+- c. profetul Isaia
+- d. regele Solomon
+
+> [!success]- Răspuns
+> **a. regele David**
+> 
+> Unii psalmi sunt legați și de alți autori.
+
+### 39. Psalmul 50 este cunoscut mai ales ca psalm:
+
+- a. al pocăinței
+- b. al creației
+- c. al recunoștinței pentru biruință
+- d. de nuntă
+
+> [!success]- Răspuns
+> **a. al pocăinței**
+> 
+> Se rostește des în rugăciunea ortodoxă.
+
+### 40. Trăsătura poetică specifică psalmilor este:
+
+- a. paralelismul
+- b. rima
+- c. măsura fixă a versului
+- d. refrenul obligatoriu
+
+> [!success]- Răspuns
+> **a. paralelismul**
+> 
+> Aceeași idee este spusă în două forme apropiate.
+
+### 41. Cartea lui Iov tratează mai ales tema:
+
+- a. suferinței celui nevinovat
+- b. ieșirii din Egipt
+- c. creației lumii
+- d. împărțirii regatului
+
+> [!success]- Răspuns
+> **a. suferinței celui nevinovat**
+> 
+> Ea respinge ideea suferinței ca pedeapsă sigură.
+
+### 42. Pildele lui Solomon sunt alcătuite mai ales din:
+
+- a. proverbe și sfaturi practice
+- b. relatări istorice
+- c. profeții despre Mesia
+- d. imnuri liturgice
+
+> [!success]- Răspuns
+> **a. proverbe și sfaturi practice**
+> 
+> Ele privesc viața de zi cu zi.
+
+### 43. „Începutul înțelepciunii” este, după cărțile de înțelepciune:
+
+- a. frica de Dumnezeu
+- b. bogăția
+- c. puterea
+- d. învățătura de carte
+
+> [!success]- Răspuns
+> **a. frica de Dumnezeu**
+> 
+> Adică respectul și evlavia față de Dumnezeu.
+
+### 44. Ecclesiastul meditează asupra:
+
+- a. deșertăciunii lucrurilor trecătoare
+- b. regilor lui Israel
+- c. Legii de pe Sinai
+- d. profeților mari
+
+> [!success]- Răspuns
+> **a. deșertăciunii lucrurilor trecătoare**
+> 
+> El caută ce rămâne cu adevărat.
+
+### 45. Chivotul Legământului păstra:
+
+- a. tablele Legii
+- b. vasele de jertfă
+- c. cărțile profeților
+- d. veșmintele arhiereului
+
+> [!success]- Răspuns
+> **a. tablele Legii**
+> 
+> Era așezat în Sfânta Sfintelor.
+
+### 46. Templul din Ierusalim a fost zidit de:
+
+- a. Solomon
+- b. David
+- c. Moise
+- d. Aaron
+
+> [!success]- Răspuns
+> **a. Solomon**
+> 
+> David doar pregătise zidirea lui.
+
+### 47. În Sfânta Sfintelor intra:
+
+- a. doar arhiereul, o dată pe an
+- b. orice preot, zilnic
+- c. tot poporul, la sărbători
+- d. leviții, în fiecare zi
+
+> [!success]- Răspuns
+> **a. doar arhiereul, o dată pe an**
+> 
+> Era locul cel mai sfânt al Templului.
+
+### 48. Profeții avertizau că jertfa fără dreptate:
+
+- a. nu este primită de Dumnezeu
+- b. este totuși suficientă
+- c. înlocuiește pocăința
+- d. este cea mai înaltă formă de cult
+
+> [!success]- Răspuns
+> **a. nu este primită de Dumnezeu**
+> 
+> Contează și inima celui care aduce jertfa.
+
+### 49. Primul rege al lui Israel a fost:
+
+- a. Saul
+- b. David
+- c. Solomon
+- d. Samuel
+
+> [!success]- Răspuns
+> **a. Saul**
+> 
+> Samuel era profetul care l-a uns.
+
+### 50. David a biruit, în tinerețe, pe:
+
+- a. uriașul Goliat
+- b. regele Saul
+- c. faraonul Egiptului
+- d. profetul Samuel
+
+> [!success]- Răspuns
+> **a. uriașul Goliat**
+> 
+> Apoi a ajuns rege și a unit semințiile.
+
+### 51. Templul din Ierusalim a fost zidit în timpul lui:
+
+- a. Solomon
+- b. Saul
+- c. David
+- d. Samuel
+
+> [!success]- Răspuns
+> **a. Solomon**
+> 
+> David doar pregătise materialele.
+
+### 52. Făgăduința unui urmaș veșnic din neamul lui David:
+
+- a. hrănește așteptarea lui Mesia
+- b. privește doar Egiptul
+- c. se referă la profetul Samuel
+- d. a fost uitată de popor
+
+> [!success]- Răspuns
+> **a. hrănește așteptarea lui Mesia**
+> 
+> Creștinismul o vede împlinită în Hristos.
+
+### 53. După moartea lui Solomon, regatul:
+
+- a. s-a împărțit în două
+- b. s-a întărit
+- c. a dispărut imediat
+- d. a fost cucerit de egipteni
+
+> [!success]- Răspuns
+> **a. s-a împărțit în două**
+> 
+> Israel la nord, Iuda la sud.
+
+### 54. Ierusalimul a fost cucerit și Templul dărâmat, în 587 î.Hr., de:
+
+- a. babilonieni
+- b. asirieni
+- c. perși
+- d. romani
+
+> [!success]- Răspuns
+> **a. babilonieni**
+> 
+> Atunci a început exilul babilonian.
+
+### 55. Exilul babilonian a fost, pentru popor:
+
+- a. o încercare grea, dar și un timp de curățire
+- b. o dispariție definitivă a credinței
+- c. o perioadă de prosperitate
+- d. o simplă schimbare de capitală
+
+> [!success]- Răspuns
+> **a. o încercare grea, dar și un timp de curățire**
+> 
+> Profeții au vestit întoarcerea.
+
+### 56. Întoarcerea din exil a fost îngăduită de:
+
+- a. regele pers Cirus
+- b. regele babilonian
+- c. faraonul Egiptului
+- d. împăratul roman
+
+> [!success]- Răspuns
+> **a. regele pers Cirus**
+> 
+> În anul 538 î.Hr.
+
+### 57. Cea mai joasă apă de pe uscat, amintită în Scriptură, este:
+
+- a. Marea Moartă
+- b. Marea Galileei
+- c. râul Iordan
+- d. Marea Mediterană
+
+> [!success]- Răspuns
+> **a. Marea Moartă**
+> 
+> Se află mult sub nivelul mării.
+
+### 58. Manuscrisele de la Qumran au fost descoperite lângă:
+
+- a. Marea Moartă
+- b. Marea Galileei
+- c. râul Nil
+- d. Ierusalim
+
+> [!success]- Răspuns
+> **a. Marea Moartă**
+> 
+> Ele cuprind vechi suluri biblice.
+
+### 59. Imaginile biblice ale turmei și viei provin din:
+
+- a. viața concretă a păstorilor și agricultorilor
+- b. mitologia greacă
+- c. literatura modernă
+- d. filozofia antică
+
+> [!success]- Răspuns
+> **a. viața concretă a păstorilor și agricultorilor**
+> 
+> Ele exprimă adevăruri de credință în limbaj obișnuit.
+
+### 60. Țara Sfântă se afla în vecinătatea:
+
+- a. marilor imperii ale Orientului Apropiat
+- b. Americii precolumbiene
+- c. Chinei antice
+- d. Scandinaviei
+
+> [!success]- Răspuns
+> **a. marilor imperii ale Orientului Apropiat**
+> 
+> Egipt, Asiria, Babilon, apoi Grecia și Roma.
+
+### 61. Paștile Vechiului Testament amintea:
+
+- a. ieșirea din Egipt
+- b. zidirea Templului
+- c. întoarcerea din exil
+- d. crearea lumii
+
+> [!success]- Răspuns
+> **a. ieșirea din Egipt**
+> 
+> La ea se jertfea mielul pascal.
+
+### 62. Ziua a șaptea, de odihnă, poruncită în Decalog, se numește:
+
+- a. Sabat
+- b. Paști
+- c. Cincizecime
+- d. Ziua Ispășirii
+
+> [!success]- Răspuns
+> **a. Sabat**
+> 
+> Amintește și de odihna creației.
+
+### 63. Ziua Ispășirii era o zi de:
+
+- a. post și de pocăință
+- b. veselie și ospăț
+- c. luptă
+- d. negoț
+
+> [!success]- Răspuns
+> **a. post și de pocăință**
+> 
+> Atunci arhiereul intra în Sfânta Sfintelor.
+
+### 64. Cincizecimea creștină, legată de cea iudaică, sărbătorește:
+
+- a. Pogorârea Duhului Sfânt
+- b. Nașterea Domnului
+- c. Botezul Domnului
+- d. Înălțarea la cer
+
+> [!success]- Răspuns
+> **a. Pogorârea Duhului Sfânt**
+> 
+> De aceea se mai numește Rusalii.
+
+### 65. Cuvântul „înger” înseamnă:
+
+- a. trimis, vestitor
+- b. împărat
+- c. judecător
+- d. preot
+
+> [!success]- Răspuns
+> **a. trimis, vestitor**
+> 
+> Îngerii vestesc voia lui Dumnezeu.
+
+### 66. Cei mai cunoscuți arhangheli sunt:
+
+- a. Mihail și Gavriil
+- b. Petru și Pavel
+- c. Moise și Ilie
+- d. Avraam și Isaac
+
+> [!success]- Răspuns
+> **a. Mihail și Gavriil**
+> 
+> Sunt cinstiți la 8 noiembrie.
+
+### 67. Îngerii sunt, în învățătura creștină:
+
+- a. făpturi create de Dumnezeu
+- b. divinități independente
+- c. o a doua putere egală cu Dumnezeu
+- d. oameni deosebiți
+
+> [!success]- Răspuns
+> **a. făpturi create de Dumnezeu**
+> 
+> De aceea nu li se cuvine adorarea.
+
+### 68. Căderea unora dintre îngeri, prin mândrie, explică:
+
+- a. prezența răului ca refuz liber al binelui
+- b. lipsa lumii nevăzute
+- c. inexistența îngerilor
+- d. egalitatea binelui și răului
+
+> [!success]- Răspuns
+> **a. prezența răului ca refuz liber al binelui**
+> 
+> Răul nu este o putere egală cu Dumnezeu.
+
+### 69. La rugul aprins, Dumnezeu Se descoperă lui Moise prin numele:
+
+- a. „Eu sunt Cel ce sunt”
+- b. „Cel Atotputernic” singur
+- c. „Domnul oștirilor”
+- d. „Împăratul slavei”
+
+> [!success]- Răspuns
+> **a. „Eu sunt Cel ce sunt”**
+> 
+> El arată că Dumnezeu există prin Sine.
+
+### 70. Credința Vechiului Testament despre Dumnezeu este:
+
+- a. monoteistă
+- b. politeistă
+- c. fără un Dumnezeu personal
+- d. îndoielnică
+
+> [!success]- Răspuns
+> **a. monoteistă**
+> 
+> Un singur Dumnezeu, personal.
+
+### 71. Faptul că Dumnezeu este drept întemeiază încrederea că:
+
+- a. nedreptatea nu are ultimul cuvânt
+- b. răul învinge
+- c. totul este întâmplare
+- d. pocăința este inutilă
+
+> [!success]- Răspuns
+> **a. nedreptatea nu are ultimul cuvânt**
+> 
+> Dreptatea Lui dă sens nădejdii.
+
+### 72. Noul Testament adâncește descoperirea, arătând că Dumnezeu este:
+
+- a. iubire și comuniune de Persoane, în Sfânta Treime
+- b. o singură putere impersonală
+- c. necunoscut cu totul
+- d. doar judecător
+
+> [!success]- Răspuns
+> **a. iubire și comuniune de Persoane, în Sfânta Treime**
+> 
+> Treimea este temeiul iubirii.
+
+### 73. Psaltirea cuprinde:
+
+- a. 150 de psalmi
+- b. 100 de psalmi
+- c. 70 de psalmi
+- d. 200 de psalmi
+
+> [!success]- Răspuns
+> **a. 150 de psalmi**
+> 
+> Este cartea de rugăciune a Vechiului Testament.
+
+### 74. Cartea lui Iov pune întrebarea:
+
+- a. suferinței celui nevinovat
+- b. împărțirii regatului
+- c. zidirii Templului
+- d. ieșirii din Egipt
+
+> [!success]- Răspuns
+> **a. suferinței celui nevinovat**
+> 
+> Respinge suferința ca pedeapsă sigură.
+
+### 75. „Începutul înțelepciunii” este:
+
+- a. frica de Dumnezeu
+- b. bogăția
+- c. puterea
+- d. faima
+
+> [!success]- Răspuns
+> **a. frica de Dumnezeu**
+> 
+> Adică evlavia față de Dumnezeu.
+
+### 76. Chivotul Legământului păstra:
+
+- a. tablele Legii
+- b. vasele de jertfă
+- c. cărțile profeților
+- d. coroana regelui
+
+> [!success]- Răspuns
+> **a. tablele Legii**
+> 
+> Era așezat în Sfânta Sfintelor.
+
+### 77. Templul din Ierusalim a fost zidit de:
+
+- a. Solomon
+- b. David
+- c. Saul
+- d. Samuel
+
+> [!success]- Răspuns
+> **a. Solomon**
+> 
+> David doar îl pregătise.
+
+### 78. Principalul autor al psalmilor este considerat:
+
+- a. regele David
+- b. Moise
+- c. Solomon
+- d. Isaia
+
+> [!success]- Răspuns
+> **a. regele David**
+> 
+> Unii psalmi sunt legați și de alți autori.
+
+### 79. Revelația naturală se face prin:
 
 - a. creație și conștiință
 - b. profeți
@@ -453,7 +957,7 @@ cssclasses: test
 > 
 > E accesibilă tuturor oamenilor.
 
-### 38. Revelația supranaturală culminează:
+### 80. Revelația supranaturală culminează:
 
 - a. în Iisus Hristos
 - b. în Decalog
@@ -465,7 +969,7 @@ cssclasses: test
 > 
 > Profeții au pregătit-o.
 
-### 39. Sfânta Scriptură cuprinde:
+### 81. Sfânta Scriptură cuprinde:
 
 - a. Vechiul și Noul Testament
 - b. doar Evangheliile
@@ -477,7 +981,7 @@ cssclasses: test
 > 
 > Tradiția e distinctă, deși legată de ea.
 
-### 40. Prima traducere integrală a Bibliei în română este:
+### 82. Prima traducere integrală a Bibliei în română este:
 
 - a. Biblia de la București, 1688
 - b. Noul Testament de la Bălgrad, 1648
@@ -489,7 +993,7 @@ cssclasses: test
 > 
 > La Bălgrad apăruse doar Noul Testament.
 
-### 41. Canonul biblic a fost stabilit de:
+### 83. Canonul biblic a fost stabilit de:
 
 - a. Biserică
 - b. fiecare credincios
@@ -501,7 +1005,7 @@ cssclasses: test
 > 
 > Din interiorul Sfintei Tradiții.
 
-### 42. „După chipul și asemănarea lui Dumnezeu” arată:
+### 84. „După chipul și asemănarea lui Dumnezeu” arată:
 
 - a. rațiunea, libertatea, conștiința și chemarea la comuniune
 - b. asemănarea fizică
@@ -513,7 +1017,7 @@ cssclasses: test
 > 
 > Chipul e dat, asemănarea e chemare.
 
-### 43. Avraam este numit:
+### 85. Avraam este numit:
 
 - a. părintele credinței
 - b. profetul Legii
@@ -525,7 +1029,7 @@ cssclasses: test
 > 
 > Moise a condus ieșirea din Egipt.
 
-### 44. Decalogul a fost primit pe:
+### 86. Decalogul a fost primit pe:
 
 - a. Muntele Sinai
 - b. Muntele Tabor
@@ -537,7 +1041,7 @@ cssclasses: test
 > 
 > De către Moise.
 
-### 45. Profeții sunt, în primul rând:
+### 87. Profeții sunt, în primul rând:
 
 - a. purtători de cuvânt ai lui Dumnezeu
 - b. prezicători ai viitorului
@@ -549,7 +1053,79 @@ cssclasses: test
 > 
 > Ei cheamă la fidelitate și dreptate.
 
-### 46. Simbolul de credință are:
+### 88. Primul rege al lui Israel a fost:
+
+- a. Saul
+- b. David
+- c. Solomon
+- d. Samuel
+
+> [!success]- Răspuns
+> **a. Saul**
+> 
+> Uns de profetul Samuel.
+
+### 89. Ierusalimul și Templul au fost distruse în 587 î.Hr. de:
+
+- a. babilonieni
+- b. asirieni
+- c. perși
+- d. romani
+
+> [!success]- Răspuns
+> **a. babilonieni**
+> 
+> Atunci a început exilul babilonian.
+
+### 90. Întoarcerea din exil a fost îngăduită de:
+
+- a. regele pers Cirus
+- b. faraon
+- c. regele babilonian
+- d. împăratul roman
+
+> [!success]- Răspuns
+> **a. regele pers Cirus**
+> 
+> În anul 538 î.Hr.
+
+### 91. Paștile Vechiului Testament amintea:
+
+- a. ieșirea din Egipt
+- b. crearea lumii
+- c. zidirea Templului
+- d. primirea numelui lui Dumnezeu
+
+> [!success]- Răspuns
+> **a. ieșirea din Egipt**
+> 
+> Se jertfea mielul pascal.
+
+### 92. Cuvântul „înger” înseamnă:
+
+- a. trimis, vestitor
+- b. împărat
+- c. judecător
+- d. profet
+
+> [!success]- Răspuns
+> **a. trimis, vestitor**
+> 
+> Îngerii vestesc voia lui Dumnezeu.
+
+### 93. La rugul aprins, Dumnezeu Se descoperă lui Moise ca:
+
+- a. „Eu sunt Cel ce sunt”
+- b. „Domnul oștirilor”
+- c. „Împăratul slavei”
+- d. „Cel nevăzut”
+
+> [!success]- Răspuns
+> **a. „Eu sunt Cel ce sunt”**
+> 
+> Arată că există prin Sine.
+
+### 94. Simbolul de credință are:
 
 - a. douăsprezece articole
 - b. zece articole
@@ -561,7 +1137,7 @@ cssclasses: test
 > 
 > A fost formulat la primele două Sinoade.
 
-### 47. Sinodul I ecumenic s-a ținut la:
+### 95. Sinodul I ecumenic s-a ținut la:
 
 - a. Niceea
 - b. Constantinopol
@@ -573,7 +1149,7 @@ cssclasses: test
 > 
 > În anul 325.
 
-### 48. Sfânta Treime înseamnă:
+### 96. Sfânta Treime înseamnă:
 
 - a. trei Persoane, o singură ființă dumnezeiască
 - b. trei dumnezei
@@ -585,7 +1161,7 @@ cssclasses: test
 > 
 > Exprimă că Dumnezeu e comuniune de iubire.
 
-### 49. Întruparea înseamnă că Fiul lui Dumnezeu:
+### 97. Întruparea înseamnă că Fiul lui Dumnezeu:
 
 - a. S-a făcut om adevărat
 - b. a părut doar om
@@ -597,7 +1173,7 @@ cssclasses: test
 > 
 > Rămâne Dumnezeu adevărat și om adevărat.
 
-### 50. Centrul anului bisericesc este:
+### 98. Centrul anului bisericesc este:
 
 - a. Învierea Domnului
 - b. Nașterea Domnului
@@ -609,7 +1185,7 @@ cssclasses: test
 > 
 > Duminica e ziua săptămânală a Învierii.
 
-### 51. Postul creștin este legat, în mod necesar, de:
+### 99. Postul creștin este legat, în mod necesar, de:
 
 - a. rugăciune și milostenie
 - b. performanță fizică
@@ -621,7 +1197,7 @@ cssclasses: test
 > 
 > Fără ele rămâne formă goală.
 
-### 52. Virtuțile teologice sunt:
+### 100. Virtuțile teologice sunt:
 
 - a. credința, nădejdea, dragostea
 - b. înțelepciunea, dreptatea, curajul
@@ -633,7 +1209,7 @@ cssclasses: test
 > 
 > Celelalte patru sunt virtuți morale.
 
-### 53. Pocăința înseamnă:
+### 101. Pocăința înseamnă:
 
 - a. schimbarea minții și întoarcerea
 - b. autodispreț
@@ -645,7 +1221,7 @@ cssclasses: test
 > 
 > Cuvântul grecesc înseamnă „schimbarea minții”.
 
-### 54. Conștiința morală:
+### 102. Conștiința morală:
 
 - a. poate greși dacă nu este formată
 - b. judecă mereu corect

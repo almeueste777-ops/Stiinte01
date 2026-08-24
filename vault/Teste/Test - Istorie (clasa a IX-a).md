@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Istorie (clasa a IX-a)
 
-72 întrebări din [[Istorie (clasa a IX-a)|Istorie (clasa a IX-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+132 întrebări din [[Istorie (clasa a IX-a)|Istorie (clasa a IX-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Trecerea de la Preistorie la Antichitate este marcată convențional de:
 
@@ -585,7 +585,655 @@ cssclasses: test
 > 
 > Româna se impune treptat, începând cu secolul al XVI-lea.
 
-### 49. Critica externă a unui izvor istoric stabilește:
+### 49. Preistoria se încheie, convențional, odată cu:
+
+- a. inventarea scrisului
+- b. descoperirea focului
+- c. apariția agriculturii
+- d. prelucrarea fierului
+
+> [!success]- Răspuns
+> **a. inventarea scrisului**
+> 
+> Scrisul face trecerea la istorie ca disciplină bazată pe izvoare scrise.
+
+### 50. Oamenii din paleolitic erau:
+
+- a. vânători-culegători nomazi
+- b. agricultori sedentari
+- c. meșteri metalurgiști
+- d. negustori
+
+> [!success]- Răspuns
+> **a. vânători-culegători nomazi**
+> 
+> Sedentarizarea și agricultura apar abia în neolitic.
+
+### 51. Statuetele „Gânditorul" aparțin culturii:
+
+- a. Hamangia
+- b. Cucuteni
+- c. Gumelnița
+- d. Boian
+
+> [!success]- Răspuns
+> **a. Hamangia**
+> 
+> Ele au fost descoperite la Cernavodă, în Dobrogea.
+
+### 52. Bronzul este un aliaj de:
+
+- a. cupru și cositor
+- b. fier și cărbune
+- c. aur și argint
+- d. plumb și zinc
+
+> [!success]- Răspuns
+> **a. cupru și cositor**
+> 
+> Fierul, mai dur, a fost prelucrat ulterior bronzului.
+
+### 53. Scrierea cuneiformă era specifică:
+
+- a. Mesopotamiei
+- b. Egiptului
+- c. Chinei
+- d. Feniciei
+
+> [!success]- Răspuns
+> **a. Mesopotamiei**
+> 
+> Egiptenii foloseau scrierea hieroglifică.
+
+### 54. Primele orașe-state din istorie au apărut la:
+
+- a. sumerieni
+- b. perși
+- c. fenicieni
+- d. evrei
+
+> [!success]- Răspuns
+> **a. sumerieni**
+> 
+> Ur, Uruk și Lagaș sunt exemple sumeriene.
+
+### 55. Cel mai vechi tip de scriere folosea:
+
+- a. pictograme (semne-imagine)
+- b. litere ale unui alfabet
+- c. cifre arabe
+- d. exclusiv semne fonetice
+
+> [!success]- Răspuns
+> **a. pictograme (semne-imagine)**
+> 
+> De la pictograme s-a trecut treptat la semne fonetice.
+
+### 56. Apariția statului presupune:
+
+- a. o putere publică, distinctă de familie și trib, cu fiscalitate și justiție
+- b. desființarea proprietății
+- c. dispariția religiei
+- d. egalitatea deplină între oameni
+
+> [!success]- Răspuns
+> **a. o putere publică, distinctă de familie și trib, cu fiscalitate și justiție**
+> 
+> Statul a organizat impozitele, apărarea și lucrările publice.
+
+### 57. Religia greco-romană era, în esență:
+
+- a. o religie civică, o datorie față de cetate
+- b. o religie monoteistă
+- c. o filosofie fără zei
+- d. o credință personală, ruptă de stat
+
+> [!success]- Răspuns
+> **a. o religie civică, o datorie față de cetate**
+> 
+> Cultul zeilor era o obligație publică.
+
+### 58. Monoteismul a fost dezvoltat în Antichitate de:
+
+- a. evrei
+- b. greci
+- c. romani
+- d. egipteni
+
+> [!success]- Răspuns
+> **a. evrei**
+> 
+> Din el s-au născut creștinismul și islamul.
+
+### 59. Mumificarea egipteană exprima:
+
+- a. credința în viața de apoi
+- b. cultul soarelui
+- c. teama de zei
+- d. respectul față de faraon
+
+> [!success]- Răspuns
+> **a. credința în viața de apoi**
+> 
+> Trupul trebuia păstrat pentru existența de dincolo.
+
+### 60. Zeiței Atena îi corespunde, la romani:
+
+- a. Minerva
+- b. Iunona
+- c. Venus
+- d. Diana
+
+> [!success]- Răspuns
+> **a. Minerva**
+> 
+> Panteonul roman a preluat, în mare parte, zeii greci.
+
+### 61. Edictul de la Milano (313) a fost dat de:
+
+- a. Constantin cel Mare
+- b. Nero
+- c. Dioclețian
+- d. Teodosiu
+
+> [!success]- Răspuns
+> **a. Constantin cel Mare**
+> 
+> El a acordat libertate de cult creștinilor.
+
+### 62. Creștinismul a devenit religie oficială a Imperiului Roman în:
+
+- a. 380
+- b. 313
+- c. 325
+- d. 476
+
+> [!success]- Răspuns
+> **a. 380**
+> 
+> Prin edictul împăratului Teodosiu.
+
+### 63. Primul Conciliu ecumenic s-a ținut, în 325, la:
+
+- a. Niceea
+- b. Roma
+- c. Constantinopol
+- d. Milano
+
+> [!success]- Răspuns
+> **a. Niceea**
+> 
+> Acolo a fost formulat Crezul.
+
+### 64. Creștinii au fost persecutați inițial pentru că:
+
+- a. refuzau cultul împăratului și al zeilor cetății
+- b. nu plăteau impozite
+- c. se revoltau cu armele
+- d. refuzau orice serviciu militar
+
+> [!success]- Răspuns
+> **a. refuzau cultul împăratului și al zeilor cetății**
+> 
+> Refuzul cultului imperial era considerat un act de neloialitate.
+
+### 65. Imperiul Roman de Apus a căzut în anul:
+
+- a. 476
+- b. 395
+- c. 330
+- d. 410
+
+> [!success]- Răspuns
+> **a. 476**
+> 
+> Odoacru l-a înlăturat pe Romulus Augustulus.
+
+### 66. Marile migrații au fost declanșate de înaintarea:
+
+- a. hunilor
+- b. vizigoților
+- c. francilor
+- d. vandalilor
+
+> [!success]- Răspuns
+> **a. hunilor**
+> 
+> Presiunea hunilor a împins popoarele germanice spre imperiu.
+
+### 67. Împărțirea definitivă a Imperiului Roman a avut loc în:
+
+- a. 395
+- b. 476
+- c. 330
+- d. 313
+
+> [!success]- Răspuns
+> **a. 395**
+> 
+> Au rezultat Imperiul de Apus și cel de Răsărit.
+
+### 68. Pe teritoriul Imperiului Roman de Apus s-au format, după 476:
+
+- a. regatele germanice
+- b. orașele-state grecești
+- c. califatele arabe
+- d. cnezatele slave
+
+> [!success]- Răspuns
+> **a. regatele germanice**
+> 
+> Ele au îmbinat moștenirea romană cu tradițiile germanice și creștinismul.
+
+### 69. Codificarea dreptului roman a fost realizată sub:
+
+- a. Iustinian
+- b. Constantin cel Mare
+- c. Teodosiu
+- d. Traian
+
+> [!success]- Răspuns
+> **a. Iustinian**
+> 
+> Corpus Iuris Civilis a transmis dreptul roman posterității.
+
+### 70. Sistemul în care împăratul are autoritate și asupra Bisericii se numește:
+
+- a. cezaropapism
+- b. teocrație
+- c. separarea puterilor
+- d. absolutism
+
+> [!success]- Răspuns
+> **a. cezaropapism**
+> 
+> El este caracteristic Imperiului Bizantin.
+
+### 71. Alfabetul chirilic a fost creat de:
+
+- a. Chiril și Metodiu
+- b. Iustinian
+- c. Constantin cel Mare
+- d. apostolul Pavel
+
+> [!success]- Răspuns
+> **a. Chiril și Metodiu**
+> 
+> Ei au misionarizat popoarele slave.
+
+### 72. Catedrala Sfânta Sofia a fost ridicată la:
+
+- a. Constantinopol
+- b. Roma
+- c. Ravenna
+- d. Atena
+
+> [!success]- Răspuns
+> **a. Constantinopol**
+> 
+> Este capodopera arhitecturii bizantine.
+
+### 73. Începutul erei musulmane este marcat de:
+
+- a. Hegira (622)
+- b. nașterea lui Mahomed
+- c. cucerirea Spaniei
+- d. bătălia de la Poitiers
+
+> [!success]- Răspuns
+> **a. Hegira (622)**
+> 
+> Este emigrarea lui Mahomed de la Mecca la Medina.
+
+### 74. Înaintarea arabă în Occident a fost oprită, în 732, la:
+
+- a. Poitiers
+- b. Constantinopol
+- c. Cordoba
+- d. Bagdad
+
+> [!success]- Răspuns
+> **a. Poitiers**
+> 
+> Francii lui Carol Martel i-au învins pe arabi.
+
+### 75. Cartea sfântă a islamului este:
+
+- a. Coranul
+- b. Tora
+- c. Biblia
+- d. Talmudul
+
+> [!success]- Răspuns
+> **a. Coranul**
+> 
+> Ea cuprinde revelația transmisă lui Mahomed.
+
+### 76. Cifrele numite „arabe" au fost transmise Occidentului de arabi, dar provin din:
+
+- a. India
+- b. Persia
+- c. Egipt
+- d. Grecia
+
+> [!success]- Răspuns
+> **a. India**
+> 
+> Arabii le-au preluat și le-au răspândit în Europa.
+
+### 77. Carol cel Mare a fost încoronat împărat, la Roma, în anul:
+
+- a. 800
+- b. 843
+- c. 768
+- d. 814
+
+> [!success]- Răspuns
+> **a. 800**
+> 
+> Încoronarea a fost făcută de papă.
+
+### 78. Tratatul de la Verdun (843) a dus la:
+
+- a. împărțirea Imperiului carolingian în trei
+- b. încoronarea lui Carol cel Mare
+- c. creștinarea francilor
+- d. oprirea arabilor
+
+> [!success]- Răspuns
+> **a. împărțirea Imperiului carolingian în trei**
+> 
+> Din cele trei părți s-au născut Franța, Germania și Italia.
+
+### 79. Feudalizarea Occidentului a fost favorizată de:
+
+- a. slăbirea puterii centrale și de invazii
+- b. întărirea orașelor
+- c. expansiunea arabă în Asia
+- d. Marea Schismă
+
+> [!success]- Răspuns
+> **a. slăbirea puterii centrale și de invazii**
+> 
+> Apărarea locală a trecut în mâinile seniorilor.
+
+### 80. „Renașterea carolingiană" a însemnat:
+
+- a. o reînviorare a culturii și a școlilor
+- b. o revoltă țărănească
+- c. o reformă religioasă
+- d. o expansiune militară în Asia
+
+> [!success]- Răspuns
+> **a. o reînviorare a culturii și a școlilor**
+> 
+> Carol cel Mare a sprijinit școlile și copierea manuscriselor.
+
+### 81. Popoarele slave au fost creștinate mai ales de:
+
+- a. Bizanț
+- b. papalitatea de la Roma
+- c. califatul arab
+- d. Imperiul carolingian
+
+> [!success]- Răspuns
+> **a. Bizanț**
+> 
+> Chiril și Metodiu au tradus textele sfinte în slavonă.
+
+### 82. Constantinopolul a fost cucerit de otomani în:
+
+- a. 1453
+- b. 1054
+- c. 1204
+- d. 1492
+
+> [!success]- Răspuns
+> **a. 1453**
+> 
+> Data marchează și sfârșitul Imperiului Bizantin.
+
+### 83. Alfabetul chirilic a fost folosit, secole la rând, și în:
+
+- a. cancelariile Țărilor Române
+- b. Imperiul carolingian
+- c. califatul de la Cordoba
+- d. regatul franc
+
+> [!success]- Răspuns
+> **a. cancelariile Țărilor Române**
+> 
+> Slavona a fost limba de cult și de cancelarie în spațiul românesc.
+
+### 84. Marea Schismă din 1054 a separat:
+
+- a. Biserica Ortodoxă de cea Catolică
+- b. creștinismul de islam
+- c. Bizanțul de Persia
+- d. papalitatea de Imperiul carolingian
+
+> [!success]- Răspuns
+> **a. Biserica Ortodoxă de cea Catolică**
+> 
+> Ruptura a fost dogmatică, liturgică și de autoritate.
+
+### 85. Transilvania medievală a fost organizată ca:
+
+- a. voievodat autonom sub suzeranitate maghiară
+- b. regat independent
+- c. provincie otomană
+- d. republică orășenească
+
+> [!success]- Răspuns
+> **a. voievodat autonom sub suzeranitate maghiară**
+> 
+> Voievodul era numit de regele Ungariei.
+
+### 86. Unio Trium Nationum (1437) reunea:
+
+- a. nobilimea, sașii și secuii
+- b. românii, sașii și maghiarii
+- c. ortodocșii, catolicii și calvinii
+- d. orașele, satele și mănăstirile
+
+> [!success]- Răspuns
+> **a. nobilimea, sașii și secuii**
+> 
+> Românii, deși majoritari, erau excluși.
+
+### 87. Orașele Sibiu, Brașov și Sighișoara au fost întemeiate de:
+
+- a. coloniștii sași
+- b. secui
+- c. cavalerii teutoni
+- d. negustorii greci
+
+> [!success]- Răspuns
+> **a. coloniștii sași**
+> 
+> Ei au dezvoltat meșteșugurile și comerțul.
+
+### 88. Ortodoxia românilor din Transilvania medievală avea statutul de religie:
+
+- a. tolerată
+- b. receptă
+- c. oficială
+- d. dominantă
+
+> [!success]- Răspuns
+> **a. tolerată**
+> 
+> Ea nu se număra printre confesiunile recunoscute politic.
+
+### 89. În fruntea Țării Românești și a Moldovei se afla:
+
+- a. domnul
+- b. un voievod numit de rege
+- c. sultanul
+- d. mitropolitul
+
+> [!success]- Răspuns
+> **a. domnul**
+> 
+> El deținea puteri largi, politice și militare.
+
+### 90. Dregătorul care se ocupa de finanțele țării era:
+
+- a. vistiernicul
+- b. vornicul
+- c. spătarul
+- d. postelnicul
+
+> [!success]- Răspuns
+> **a. vistiernicul**
+> 
+> Logofătul conducea cancelaria.
+
+### 91. Domnia în Țările Române era:
+
+- a. ereditar-electivă
+- b. pur ereditară, din tată în fiu
+- c. pur electivă, prin vot popular
+- d. numită de sultan de la început
+
+> [!success]- Răspuns
+> **a. ereditar-electivă**
+> 
+> Domnul era ales din familia domnitoare, cu acordul boierimii.
+
+### 92. Mitropolitul Țării Românești a fost recunoscut de Patriarhia de la Constantinopol în:
+
+- a. 1359
+- b. 1401
+- c. 1330
+- d. 1247
+
+> [!success]- Răspuns
+> **a. 1359**
+> 
+> Cel al Moldovei, în 1401.
+
+### 93. Economia Țărilor Române medievale era, în principal:
+
+- a. agrară
+- b. industrială
+- c. bazată pe comerțul maritim
+- d. exclusiv meșteșugărească
+
+> [!success]- Răspuns
+> **a. agrară**
+> 
+> Majoritatea populației lucra pământul.
+
+### 94. Țăranii liberi, proprietari de pământ în Moldova, se numeau:
+
+- a. răzeși
+- b. vecini
+- c. rumâni
+- d. clăcași
+
+> [!success]- Răspuns
+> **a. răzeși**
+> 
+> În Țara Românească, țăranii dependenți erau rumânii.
+
+### 95. Marii proprietari de pământ, alături de boierime, erau:
+
+- a. mănăstirile
+- b. orășenii
+- c. negustorii străini
+- d. răzeșii
+
+> [!success]- Răspuns
+> **a. mănăstirile**
+> 
+> Clerul avea un rol economic însemnat.
+
+### 96. Limba Bisericii și a cancelariei în Țările Române medievale era:
+
+- a. slavona
+- b. latina
+- c. greaca
+- d. germana
+
+> [!success]- Răspuns
+> **a. slavona**
+> 
+> Româna pătrunde în scris din secolul al XVI-lea.
+
+### 97. Revoluția neolitică a însemnat:
+
+- a. trecerea la agricultură și la viață sedentară
+- b. inventarea scrisului
+- c. prelucrarea fierului
+- d. apariția orașelor-state
+
+> [!success]- Răspuns
+> **a. trecerea la agricultură și la viață sedentară**
+> 
+> Ea a produs surplusuri, sate și creșterea populației.
+
+### 98. Primele orașe-state din istorie au apărut la:
+
+- a. sumerieni
+- b. egipteni
+- c. perși
+- d. fenicieni
+
+> [!success]- Răspuns
+> **a. sumerieni**
+> 
+> Ur, Uruk și Lagaș sunt exemple.
+
+### 99. Edictul de la Milano (313) a acordat:
+
+- a. libertate de cult creștinilor
+- b. cetățenie tuturor locuitorilor imperiului
+- c. pământ veteranilor
+- d. autonomie provinciilor
+
+> [!success]- Răspuns
+> **a. libertate de cult creștinilor**
+> 
+> A fost dat de Constantin cel Mare.
+
+### 100. Imperiul Roman de Apus a căzut în anul:
+
+- a. 476
+- b. 395
+- c. 330
+- d. 313
+
+> [!success]- Răspuns
+> **a. 476**
+> 
+> Odoacru l-a înlăturat pe Romulus Augustulus.
+
+### 101. Codificarea dreptului roman (Corpus Iuris Civilis) a fost realizată sub:
+
+- a. Iustinian
+- b. Constantin cel Mare
+- c. Traian
+- d. Teodosiu
+
+> [!success]- Răspuns
+> **a. Iustinian**
+> 
+> Ea a transmis dreptul roman Evului Mediu.
+
+### 102. Marile migrații au fost declanșate de înaintarea:
+
+- a. hunilor
+- b. francilor
+- c. vizigoților
+- d. arabilor
+
+> [!success]- Răspuns
+> **a. hunilor**
+> 
+> Presiunea lor a împins popoarele germanice spre imperiu.
+
+### 103. Critica externă a unui izvor istoric stabilește:
 
 - a. autenticitatea izvorului
 - b. veridicitatea informației
@@ -597,7 +1245,7 @@ cssclasses: test
 > 
 > Credibilitatea conținutului ține de critica internă.
 
-### 50. Primul mare cod de legi păstrat aparține lui:
+### 104. Primul mare cod de legi păstrat aparține lui:
 
 - a. Hammurabi
 - b. Solon
@@ -609,7 +1257,7 @@ cssclasses: test
 > 
 > Se întemeiază pe principiul talionului.
 
-### 51. Alfabetul consonantic a fost răspândit în Mediterana de:
+### 105. Alfabetul consonantic a fost răspândit în Mediterana de:
 
 - a. fenicieni
 - b. egipteni
@@ -621,7 +1269,7 @@ cssclasses: test
 > 
 > Din el derivă alfabetul grec și cel latin.
 
-### 52. Organul suprem al democrației ateniene era:
+### 106. Organul suprem al democrației ateniene era:
 
 - a. adunarea poporului
 - b. senatul
@@ -633,7 +1281,7 @@ cssclasses: test
 > 
 > Democrația ateniană era directă.
 
-### 53. Războiul peloponesiac a opus:
+### 107. Războiul peloponesiac a opus:
 
 - a. Atena și Sparta
 - b. Grecia și Persia
@@ -645,7 +1293,7 @@ cssclasses: test
 > 
 > El a slăbit decisiv lumea greacă.
 
-### 54. Imperiul Roman începe convențional în:
+### 108. Imperiul Roman începe convențional în:
 
 - a. 27 î.Hr.
 - b. 509 î.Hr.
@@ -657,7 +1305,7 @@ cssclasses: test
 > 
 > Odată cu instaurarea principatului lui Octavian Augustus.
 
-### 55. Edictul lui Caracalla (212) a acordat:
+### 109. Edictul lui Caracalla (212) a acordat:
 
 - a. cetățenia romană tuturor locuitorilor liberi ai imperiului
 - b. libertate religioasă creștinilor
@@ -669,7 +1317,7 @@ cssclasses: test
 > 
 > Libertatea de cult pentru creștini vine prin Edictul de la Milano (313).
 
-### 56. Dacia a devenit provincie romană în:
+### 110. Dacia a devenit provincie romană în:
 
 - a. 106
 - b. 101
@@ -681,7 +1329,7 @@ cssclasses: test
 > 
 > După al doilea război daco-roman.
 
-### 57. Retragerea aureliană a avut loc în:
+### 111. Retragerea aureliană a avut loc în:
 
 - a. 271–275
 - b. 101–102
@@ -693,7 +1341,7 @@ cssclasses: test
 > 
 > Administrația și armata s-au retras la sud de Dunăre.
 
-### 58. Structura gramaticală a limbii române provine din:
+### 112. Structura gramaticală a limbii române provine din:
 
 - a. latină
 - b. slavă
@@ -705,7 +1353,7 @@ cssclasses: test
 > 
 > Substratul dac a lăsat un număr redus de cuvinte.
 
-### 59. Teoria imigraționistă a fost formulată de:
+### 113. Teoria imigraționistă a fost formulată de:
 
 - a. Franz Josef Sulzer
 - b. Dimitrie Onciul
@@ -717,7 +1365,7 @@ cssclasses: test
 > 
 > A fost reluată de Robert Roesler în 1871.
 
-### 60. Statul dac a fost unificat pentru prima dată sub:
+### 114. Statul dac a fost unificat pentru prima dată sub:
 
 - a. Burebista
 - b. Decebal
@@ -729,7 +1377,79 @@ cssclasses: test
 > 
 > Decebal a condus statul dac în timpul războaielor cu Traian.
 
-### 61. Legătura personală dintre senior și vasal se stabilea prin:
+### 115. Islamul a apărut în secolul al VII-lea, prin predica lui:
+
+- a. Mahomed
+- b. Iisus
+- c. Chiril
+- d. Carol cel Mare
+
+> [!success]- Răspuns
+> **a. Mahomed**
+> 
+> Cartea sfântă a islamului este Coranul.
+
+### 116. Carol cel Mare a fost încoronat împărat, la Roma, în anul:
+
+- a. 800
+- b. 843
+- c. 768
+- d. 814
+
+> [!success]- Răspuns
+> **a. 800**
+> 
+> Încoronarea a fost făcută de papă.
+
+### 117. Alfabetul chirilic, folosit și în cancelariile Țărilor Române, a fost creat de:
+
+- a. Chiril și Metodiu
+- b. Iustinian
+- c. Coresi
+- d. Macarie
+
+> [!success]- Răspuns
+> **a. Chiril și Metodiu**
+> 
+> Slavona a fost limba de cult și de cancelarie.
+
+### 118. Cele „trei națiuni" privilegiate din Transilvania erau:
+
+- a. nobilimea, sașii și secuii
+- b. românii, sașii și maghiarii
+- c. catolicii, calvinii și luteranii
+- d. orașele, mănăstirile și satele
+
+> [!success]- Răspuns
+> **a. nobilimea, sașii și secuii**
+> 
+> Românii, majoritari, erau excluși de la viața politică.
+
+### 119. Dregătorul care conducea cancelaria domnească era:
+
+- a. logofătul
+- b. vistiernicul
+- c. spătarul
+- d. vornicul
+
+> [!success]- Răspuns
+> **a. logofătul**
+> 
+> Vistiernicul se ocupa de finanțe.
+
+### 120. Țăranii liberi din Moldova, proprietari de pământ, se numeau:
+
+- a. răzeși
+- b. rumâni
+- c. vecini
+- d. clăcași
+
+> [!success]- Răspuns
+> **a. răzeși**
+> 
+> În Țara Românească, țăranii dependenți erau rumânii.
+
+### 121. Legătura personală dintre senior și vasal se stabilea prin:
 
 - a. omagiu și învestitură
 - b. excomunicare
@@ -741,7 +1461,7 @@ cssclasses: test
 > 
 > Vasalul primea un feud în schimbul credinței și al serviciului militar.
 
-### 62. Renta feudală în produse se numea:
+### 122. Renta feudală în produse se numea:
 
 - a. dijmă
 - b. clacă
@@ -753,7 +1473,7 @@ cssclasses: test
 > 
 > Claca era renta în muncă.
 
-### 63. Marea Schismă s-a produs în:
+### 123. Marea Schismă s-a produs în:
 
 - a. 1054
 - b. 1099
@@ -765,7 +1485,7 @@ cssclasses: test
 > 
 > Ea a separat Biserica Catolică de cea Ortodoxă.
 
-### 64. Cruciada a IV-a s-a încheiat cu:
+### 124. Cruciada a IV-a s-a încheiat cu:
 
 - a. jefuirea Constantinopolului în 1204
 - b. cucerirea Ierusalimului
@@ -777,7 +1497,7 @@ cssclasses: test
 > 
 > Evenimentul a slăbit decisiv Imperiul Bizantin.
 
-### 65. Magna Carta a fost adoptată în:
+### 125. Magna Carta a fost adoptată în:
 
 - a. 1215
 - b. 1302
@@ -789,7 +1509,7 @@ cssclasses: test
 > 
 > Ea limita puterea regelui Angliei.
 
-### 66. Constantinopolul a căzut sub otomani în:
+### 126. Constantinopolul a căzut sub otomani în:
 
 - a. 1453
 - b. 1204
@@ -801,7 +1521,7 @@ cssclasses: test
 > 
 > Data este considerată de mulți istorici sfârșitul Evului Mediu.
 
-### 67. Diploma cavalerilor ioaniți datează din:
+### 127. Diploma cavalerilor ioaniți datează din:
 
 - a. 1247
 - b. 1330
@@ -813,7 +1533,7 @@ cssclasses: test
 > 
 > Ea menționează formațiunile politice de la sud de Carpați.
 
-### 68. Independența Țării Românești a fost obținută prin victoria de la:
+### 128. Independența Țării Românești a fost obținută prin victoria de la:
 
 - a. Posada (1330)
 - b. Rovine (1394)
@@ -825,7 +1545,7 @@ cssclasses: test
 > 
 > Basarab I l-a învins pe Carol Robert de Anjou.
 
-### 69. Moldova a devenit independentă sub:
+### 129. Moldova a devenit independentă sub:
 
 - a. Bogdan I, în 1359
 - b. Dragoș, în 1345
@@ -837,7 +1557,7 @@ cssclasses: test
 > 
 > Dragoș întemeiase doar o marcă de apărare.
 
-### 70. Titlul de „atlet al lui Hristos” i-a fost acordat lui Ștefan cel Mare după bătălia de la:
+### 130. Titlul de „atlet al lui Hristos” i-a fost acordat lui Ștefan cel Mare după bătălia de la:
 
 - a. Vaslui (1475)
 - b. Valea Albă (1476)
@@ -849,7 +1569,7 @@ cssclasses: test
 > 
 > Titlul a venit din partea papei Sixt al IV-lea.
 
-### 71. Unirea celor trei țări române din 1600 a fost realizată de:
+### 131. Unirea celor trei țări române din 1600 a fost realizată de:
 
 - a. Mihai Viteazul
 - b. Ștefan cel Mare
@@ -861,7 +1581,7 @@ cssclasses: test
 > 
 > Unirea a fost de scurtă durată, dar cu mare valoare simbolică.
 
-### 72. Cele patru religii recepte din Transilvania erau:
+### 132. Cele patru religii recepte din Transilvania erau:
 
 - a. catolică, luterană, calvină, unitariană
 - b. ortodoxă, catolică, luterană, calvină

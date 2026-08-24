@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Geografie (clasa a XIII-a)
 
-60 întrebări din [[Geografie (clasa a XIII-a)|Geografie (clasa a XIII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+116 întrebări din [[Geografie (clasa a XIII-a)|Geografie (clasa a XIII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Fiordurile sunt specifice mai ales:
 
@@ -441,115 +441,19 @@ cssclasses: test
 > 
 > Recensământul din 2021 este referința actuală pentru România.
 
-### 37. Fiordurile sunt specifice mai ales:
-
-- a. Norvegiei
-- b. Islandei
-- c. Finlandei
-- d. Danemarcei
-
-> [!success]- Răspuns
-> **a. Norvegiei**
-> 
-> Ele s-au format în văi glaciare invadate de mare.
-
-### 38. Islanda valorifică pe scară largă energia:
-
-- a. geotermală
-- b. nucleară
-- c. eoliană offshore
-- d. din cărbune
-
-> [!success]- Răspuns
-> **a. geotermală**
-> 
-> Activitatea vulcanică oferă acest avantaj.
-
-### 39. Cea mai mare economie a Europei este:
+### 37. Cea mai mare economie a Europei este:
 
 - a. Germania
 - b. Franța
-- c. Regatul Unit
-- d. Italia
+- c. Italia
+- d. Spania
 
 > [!success]- Răspuns
 > **a. Germania**
 > 
-> Industria auto este una dintre ramurile ei de vârf.
+> Industria auto și construcția de mașini sunt ramuri de vârf.
 
-### 40. Munții hercinici sunt:
-
-- a. munți vechi, tociți de eroziune
-- b. munți tineri
-- c. munți vulcanici
-- d. munți de blocuri
-
-> [!success]- Răspuns
-> **a. munți vechi, tociți de eroziune**
-> 
-> Alpii și Carpații aparțin orogenezei alpine.
-
-### 41. Cernoziomurile fertile din Europa Estică se află mai ales în:
-
-- a. Ucraina și sudul Rusiei europene
-- b. Finlanda
-- c. Belarus de nord
-- d. statele baltice
-
-> [!success]- Răspuns
-> **a. Ucraina și sudul Rusiei europene**
-> 
-> Ele susțin o mare producție de cereale.
-
-### 42. România se află la intersecția:
-
-- a. Carpaților, Dunării și Mării Negre
-- b. Alpilor, Rinului și Mediteranei
-- c. Balcanilor, Volgăi și Mării Negre
-- d. Uralilor, Dunării și Balticii
-
-> [!success]- Răspuns
-> **a. Carpaților, Dunării și Mării Negre**
-> 
-> Această poziție îi dă avantaje și vulnerabilități.
-
-### 43. Cea mai mare suprafață dintre statele Uniunii Europene o are:
-
-- a. Franța
-- b. Germania
-- c. Spania
-- d. Polonia
-
-> [!success]- Răspuns
-> **a. Franța**
-> 
-> Franța include și teritoriile de peste mări.
-
-### 44. Contrastul nord–sud este structural în:
-
-- a. Italia
-- b. Germania
-- c. Polonia
-- d. Suedia
-
-> [!success]- Răspuns
-> **a. Italia**
-> 
-> Nordul industrializat contrastează cu sudul.
-
-### 45. Spania este organizată administrativ în:
-
-- a. comunități autonome
-- b. landuri
-- c. departamente
-- d. voievodate
-
-> [!success]- Răspuns
-> **a. comunități autonome**
-> 
-> Germania are landuri, Polonia, voievodate.
-
-### 46. Franța se bazează, pentru energia electrică, mai ales pe:
+### 38. Franța se bazează, pentru energia electrică, mai ales pe:
 
 - a. energia nucleară
 - b. cărbune
@@ -561,7 +465,703 @@ cssclasses: test
 > 
 > Este una dintre cele mai nuclearizate economii din lume.
 
-### 47. Rețeaua Natura 2000 acoperă în România aproximativ:
+### 39. Germania este organizată ca:
+
+- a. stat federal, format din landuri
+- b. stat unitar centralizat
+- c. monarhie absolută
+- d. confederație fără constituție
+
+> [!success]- Răspuns
+> **a. stat federal, format din landuri**
+> 
+> Franța, dimpotrivă, este stat unitar centralizat.
+
+### 40. O comparație geografică reușită între Franța și Germania trebuie să:
+
+- a. explice diferențele prin factori concreți
+- b. enumere doar asemănările
+- c. prezinte cât mai multe cifre
+- d. descrie separat fiecare stat
+
+> [!success]- Răspuns
+> **a. explice diferențele prin factori concreți**
+> 
+> Explicația valorează mai mult decât constatarea.
+
+### 41. Contrastul nord–sud este o trăsătură structurală a:
+
+- a. Italiei
+- b. Germaniei
+- c. Franței
+- d. Poloniei
+
+> [!success]- Răspuns
+> **a. Italiei**
+> 
+> Nordul industrializat contrastează cu sudul mai puțin dezvoltat.
+
+### 42. Spania este organizată administrativ în:
+
+- a. comunități autonome
+- b. landuri
+- c. regiuni de dezvoltare
+- d. departamente
+
+> [!success]- Răspuns
+> **a. comunități autonome**
+> 
+> Germania are landuri, Franța, departamente.
+
+### 43. Retragerea Regatului Unit din Uniunea Europeană (Brexit) a avut loc în:
+
+- a. 2020
+- b. 2007
+- c. 2015
+- d. 2004
+
+> [!success]- Răspuns
+> **a. 2020**
+> 
+> Este un caz unic de dezintegrare europeană.
+
+### 44. Economia Regatului Unit este dominată de:
+
+- a. servicii, cu Londra ca mare centru financiar
+- b. agricultură
+- c. industria grea
+- d. exploatarea cărbunelui
+
+> [!success]- Răspuns
+> **a. servicii, cu Londra ca mare centru financiar**
+> 
+> A fost însă prima țară industrializată din lume.
+
+### 45. România se învecinează la vest cu:
+
+- a. Ungaria
+- b. Ucraina
+- c. Bulgaria
+- d. Serbia
+
+> [!success]- Răspuns
+> **a. Ungaria**
+> 
+> Granița este parțial dată de râuri de câmpie.
+
+### 46. România se învecinează cu Republica Moldova peste:
+
+- a. râul Prut
+- b. Dunăre
+- c. Tisa
+- d. Nistru
+
+> [!success]- Răspuns
+> **a. râul Prut**
+> 
+> Legăturile istorice și culturale sunt deosebit de strânse.
+
+### 47. Cea mai mare parte a graniței dintre România și Bulgaria este dată de:
+
+- a. Dunăre
+- b. Prut
+- c. Munții Carpați
+- d. Marea Neagră
+
+> [!success]- Răspuns
+> **a. Dunăre**
+> 
+> În Dobrogea granița este terestră.
+
+### 48. Poziția României la frontiera estică a Uniunii Europene și a NATO reprezintă:
+
+- a. atât o responsabilitate de securitate, cât și o oportunitate regională
+- b. exclusiv un dezavantaj
+- c. un element neutru
+- d. o piedică în calea cooperării
+
+> [!success]- Răspuns
+> **a. atât o responsabilitate de securitate, cât și o oportunitate regională**
+> 
+> Ea o transformă într-un potențial nod de transport și energetic.
+
+### 49. Cel mai vechi relief al României se află în:
+
+- a. Podișul Dobrogei
+- b. Delta Dunării
+- c. Câmpia Română
+- d. Carpații Meridionali
+
+> [!success]- Răspuns
+> **a. Podișul Dobrogei**
+> 
+> Delta este, dimpotrivă, cea mai nouă unitate.
+
+### 50. Vârful cel mai înalt al României, Moldoveanu, se află în:
+
+- a. Carpații Meridionali (Munții Făgăraș)
+- b. Carpații Orientali
+- c. Munții Apuseni
+- d. Podișul Transilvaniei
+
+> [!success]- Răspuns
+> **a. Carpații Meridionali (Munții Făgăraș)**
+> 
+> El are 2 544 m.
+
+### 51. Influența climatică de ariditate se resimte în România mai ales în:
+
+- a. est
+- b. vest
+- c. sud-vest
+- d. nord
+
+> [!success]- Răspuns
+> **a. est**
+> 
+> Influențele oceanice se resimt în vest.
+
+### 52. Pe harta de examen, unitățile de relief ale României se învață cel mai eficient prin:
+
+- a. localizare repetată pe harta mută
+- b. memorarea listelor
+- c. citirea manualului
+- d. copierea definițiilor
+
+> [!success]- Răspuns
+> **a. localizare repetată pe harta mută**
+> 
+> Exact localizarea se cere la subiectul al II-lea.
+
+### 53. Populația României la recensământul din 2021 era de aproximativ:
+
+- a. 19 milioane
+- b. 22 de milioane
+- c. 17 milioane
+- d. 25 de milioane
+
+> [!success]- Răspuns
+> **a. 19 milioane**
+> 
+> În 1992 erau 22,8 milioane.
+
+### 54. România are:
+
+- a. 41 de județe plus municipiul București
+- b. 40 de județe
+- c. 42 de județe
+- d. 39 de județe
+
+> [!success]- Răspuns
+> **a. 41 de județe plus municipiul București**
+> 
+> Organizarea actuală datează, în linii mari, din 1968.
+
+### 55. Regiunile de dezvoltare ale României sunt în număr de:
+
+- a. opt, fără statut administrativ
+- b. șase
+- c. zece
+- d. patruzeci și unu
+
+> [!success]- Răspuns
+> **a. opt, fără statut administrativ**
+> 
+> Ele servesc statisticii europene și fondurilor de coeziune.
+
+### 56. Densitatea mică a populației se înregistrează în România mai ales în:
+
+- a. zona montană înaltă și în Delta Dunării
+- b. Câmpia Română
+- c. zonele subcarpatice
+- d. Podișul Transilvaniei
+
+> [!success]- Răspuns
+> **a. zona montană înaltă și în Delta Dunării**
+> 
+> Condițiile naturale explică repartiția inegală.
+
+### 57. Uniunea Europeană a fost creată prin Tratatul de la:
+
+- a. Maastricht (1992)
+- b. Roma (1957)
+- c. Lisabona (2007)
+- d. Nisa (2001)
+
+> [!success]- Răspuns
+> **a. Maastricht (1992)**
+> 
+> El a pregătit și moneda unică.
+
+### 58. Numărul actual de state membre ale Uniunii Europene este:
+
+- a. 27
+- b. 28
+- c. 25
+- d. 30
+
+> [!success]- Răspuns
+> **a. 27**
+> 
+> El a scăzut la 27 după Brexit, în 2020.
+
+### 59. Spațiul Schengen se caracterizează prin:
+
+- a. eliminarea controalelor la frontierele interne
+- b. adoptarea monedei unice
+- c. o armată comună
+- d. un sistem fiscal unic
+
+> [!success]- Răspuns
+> **a. eliminarea controalelor la frontierele interne**
+> 
+> Zona euro, în schimb, privește moneda.
+
+### 60. Dreptul de inițiativă legislativă în Uniunea Europeană aparține:
+
+- a. Comisiei Europene
+- b. Parlamentului European
+- c. Consiliului European
+- d. Curții de Justiție
+
+> [!success]- Răspuns
+> **a. Comisiei Europene**
+> 
+> Parlamentul și Consiliul adoptă legislația propusă.
+
+### 61. Pragul de înlocuire a generațiilor este de aproximativ:
+
+- a. 2,1 copii pe femeie
+- b. 1 copil pe femeie
+- c. 3,5 copii pe femeie
+- d. 5 copii pe femeie
+
+> [!success]- Răspuns
+> **a. 2,1 copii pe femeie**
+> 
+> Sub el, populația scade pe termen lung.
+
+### 62. Declinul demografic al României este cauzat în principal de:
+
+- a. natalitatea scăzută și emigrația masivă
+- b. imigrația
+- c. mortalitatea infantilă ridicată
+- d. creșterea urbanizării
+
+> [!success]- Răspuns
+> **a. natalitatea scăzută și emigrația masivă**
+> 
+> Cele două efecte se cumulează.
+
+### 63. Îmbătrânirea demografică are ca efect principal:
+
+- a. scăderea raportului dintre activi și pensionari
+- b. creșterea natalității
+- c. reducerea speranței de viață
+- d. scăderea imigrației
+
+> [!success]- Răspuns
+> **a. scăderea raportului dintre activi și pensionari**
+> 
+> Ea presează sistemele de sănătate și de pensii.
+
+### 64. Un refugiat este o persoană care:
+
+- a. fuge de persecuție sau război și are protecție internațională
+- b. emigrează pentru un salariu mai bun
+- c. se mută în alt oraș
+- d. călătorește în interes turistic
+
+> [!success]- Răspuns
+> **a. fuge de persecuție sau război și are protecție internațională**
+> 
+> El nu se poate întoarce acasă în siguranță.
+
+### 65. Acordul de la Paris privind clima a fost adoptat în:
+
+- a. 2015
+- b. 1992
+- c. 1997
+- d. 2009
+
+> [!success]- Răspuns
+> **a. 2015**
+> 
+> Protocolul de la Kyoto datează din 1997.
+
+### 66. O resursă regenerabilă exploatată peste rata de refacere:
+
+- a. se comportă ca o resursă neregenerabilă
+- b. rămâne inepuizabilă
+- c. devine mai productivă
+- d. își crește biodiversitatea
+
+> [!success]- Răspuns
+> **a. se comportă ca o resursă neregenerabilă**
+> 
+> Distincția depinde și de ritmul exploatării.
+
+### 67. Economia circulară se opune modelului:
+
+- a. „extrage – produce – aruncă”
+- b. „repară – refolosește – reciclează”
+- c. „importă – exportă”
+- d. „produce – stochează”
+
+> [!success]- Răspuns
+> **a. „extrage – produce – aruncă”**
+> 
+> Ea urmărește închiderea buclelor de materiale.
+
+### 68. Dezvoltarea durabilă presupune echilibrul între:
+
+- a. dimensiunea economică, socială și de mediu
+- b. economie și armată
+- c. industrie și agricultură
+- d. oraș și sat
+
+> [!success]- Răspuns
+> **a. dimensiunea economică, socială și de mediu**
+> 
+> Niciuna nu poate fi sacrificată durabil.
+
+### 69. Într-un studiu de caz, partea cea mai valoroasă este:
+
+- a. explicația diferențelor prin factori concreți
+- b. enumerarea datelor
+- c. descrierea generală
+- d. lista criteriilor
+
+> [!success]- Răspuns
+> **a. explicația diferențelor prin factori concreți**
+> 
+> Explicația arată relația cauză–efect.
+
+### 70. Verbul „explicați” dintr-o cerință solicită:
+
+- a. arătarea cauzelor unui fenomen
+- b. numirea unui element
+- c. descrierea aspectului
+- d. localizarea pe hartă
+
+> [!success]- Răspuns
+> **a. arătarea cauzelor unui fenomen**
+> 
+> Un răspuns descriptiv nu primește punctajul.
+
+### 71. La cerința „precizați două unități de relief”, un răspuns cu o singură unitate:
+
+- a. primește doar jumătate din punctaj
+- b. primește punctajul integral
+- c. este anulat complet
+- d. se punctează suplimentar
+
+> [!success]- Răspuns
+> **a. primește doar jumătate din punctaj**
+> 
+> Numărul cerut trebuie respectat exact.
+
+### 72. Un răspuns structurat corect se încheie, de regulă, cu:
+
+- a. o concluzie care explică
+- b. o listă de date
+- c. o întrebare
+- d. o descriere suplimentară
+
+> [!success]- Răspuns
+> **a. o concluzie care explică**
+> 
+> Concluzia leagă și interpretează informațiile prezentate.
+
+### 73. Subiectul al II-lea al probei de geografie se bazează pe:
+
+- a. harta României
+- b. harta Europei
+- c. harta lumii
+- d. un text-suport
+
+> [!success]- Răspuns
+> **a. harta României**
+> 
+> Subiectul I se bazează pe harta Europei.
+
+### 74. Primul pas în lucrul cu harta de examen este:
+
+- a. citirea legendei și identificarea literelor și cifrelor
+- b. calcularea distanțelor
+- c. formularea concluziei
+- d. memorarea coordonatelor
+
+> [!success]- Răspuns
+> **a. citirea legendei și identificarea literelor și cifrelor**
+> 
+> Fără legendă, harta nu poate fi citită corect.
+
+### 75. Dacă cerința spune „numele statului marcat cu litera A”, se scrie:
+
+- a. numele statului
+- b. numele capitalei
+- c. numele fluviului
+- d. numele regiunii
+
+> [!success]- Răspuns
+> **a. numele statului**
+> 
+> Răspunsul trebuie să corespundă exact cerinței.
+
+### 76. Cea mai eficientă metodă de pregătire cu harta este:
+
+- a. localizarea repetată pe hărți mute
+- b. citirea listelor
+- c. memorarea pasivă
+- d. copierea hărților la scară
+
+> [!success]- Răspuns
+> **a. localizarea repetată pe hărți mute**
+> 
+> Recunoașterea pe hartă este exact ceea ce se cere.
+
+### 77. Densitatea populației se calculează:
+
+- a. împărțind numărul de locuitori la suprafață
+- b. împărțind suprafața la numărul de locuitori
+- c. înmulțind populația cu suprafața
+- d. scăzând mortalitatea din natalitate
+
+> [!success]- Răspuns
+> **a. împărțind numărul de locuitori la suprafață**
+> 
+> Rezultatul se exprimă în locuitori pe km².
+
+### 78. Graficul circular este potrivit pentru a reprezenta:
+
+- a. structura procentuală a unui întreg
+- b. evoluția în timp
+- c. densitatea populației
+- d. comparația între state
+
+> [!success]- Răspuns
+> **a. structura procentuală a unui întreg**
+> 
+> Graficul liniar arată evoluția în timp.
+
+### 79. Un rezultat corect, dar fără unitate de măsură:
+
+- a. pierde puncte
+- b. primește punctajul integral
+- c. este anulat complet
+- d. se punctează suplimentar
+
+> [!success]- Răspuns
+> **a. pierde puncte**
+> 
+> Unitatea face parte din răspuns.
+
+### 80. Majoritatea punctelor pierdute la geografie se datorează:
+
+- a. nerespectării cerinței
+- b. necunoașterii materiei
+- c. lipsei de timp
+- d. scrisului ilizibil
+
+> [!success]- Răspuns
+> **a. nerespectării cerinței**
+> 
+> De aceea se subliniază verbul și numărul de elemente cerute.
+
+### 81. Cea mai mare economie a Europei este:
+
+- a. Germania
+- b. Franța
+- c. Italia
+- d. Spania
+
+> [!success]- Răspuns
+> **a. Germania**
+> 
+> Industria auto este una dintre ramurile ei de vârf.
+
+### 82. Contrastul nord–sud este structural în:
+
+- a. Italia
+- b. Germania
+- c. Franța
+- d. Polonia
+
+> [!success]- Răspuns
+> **a. Italia**
+> 
+> Nordul industrializat contrastează cu sudul.
+
+### 83. România se învecinează cu Republica Moldova peste:
+
+- a. râul Prut
+- b. Dunăre
+- c. Tisa
+- d. Nistru
+
+> [!success]- Răspuns
+> **a. râul Prut**
+> 
+> Legăturile istorice și culturale sunt strânse.
+
+### 84. Cel mai vechi relief al României se află în:
+
+- a. Podișul Dobrogei
+- b. Delta Dunării
+- c. Câmpia Română
+- d. Carpații Meridionali
+
+> [!success]- Răspuns
+> **a. Podișul Dobrogei**
+> 
+> Delta este cea mai nouă unitate.
+
+### 85. Populația României la recensământul din 2021 era de aproximativ:
+
+- a. 19 milioane
+- b. 22 de milioane
+- c. 17 milioane
+- d. 25 de milioane
+
+> [!success]- Răspuns
+> **a. 19 milioane**
+> 
+> În 1992 erau 22,8 milioane.
+
+### 86. Retragerea Regatului Unit din Uniunea Europeană (Brexit) a avut loc în:
+
+- a. 2020
+- b. 2007
+- c. 2015
+- d. 2004
+
+> [!success]- Răspuns
+> **a. 2020**
+> 
+> Uniunea are, de atunci, 27 de state membre.
+
+### 87. Fiordurile sunt specifice mai ales:
+
+- a. Norvegiei
+- b. Islandei
+- c. Finlandei
+- d. Danemarcei
+
+> [!success]- Răspuns
+> **a. Norvegiei**
+> 
+> Ele s-au format în văi glaciare invadate de mare.
+
+### 88. Islanda valorifică pe scară largă energia:
+
+- a. geotermală
+- b. nucleară
+- c. eoliană offshore
+- d. din cărbune
+
+> [!success]- Răspuns
+> **a. geotermală**
+> 
+> Activitatea vulcanică oferă acest avantaj.
+
+### 89. Cea mai mare economie a Europei este:
+
+- a. Germania
+- b. Franța
+- c. Regatul Unit
+- d. Italia
+
+> [!success]- Răspuns
+> **a. Germania**
+> 
+> Industria auto este una dintre ramurile ei de vârf.
+
+### 90. Munții hercinici sunt:
+
+- a. munți vechi, tociți de eroziune
+- b. munți tineri
+- c. munți vulcanici
+- d. munți de blocuri
+
+> [!success]- Răspuns
+> **a. munți vechi, tociți de eroziune**
+> 
+> Alpii și Carpații aparțin orogenezei alpine.
+
+### 91. Cernoziomurile fertile din Europa Estică se află mai ales în:
+
+- a. Ucraina și sudul Rusiei europene
+- b. Finlanda
+- c. Belarus de nord
+- d. statele baltice
+
+> [!success]- Răspuns
+> **a. Ucraina și sudul Rusiei europene**
+> 
+> Ele susțin o mare producție de cereale.
+
+### 92. România se află la intersecția:
+
+- a. Carpaților, Dunării și Mării Negre
+- b. Alpilor, Rinului și Mediteranei
+- c. Balcanilor, Volgăi și Mării Negre
+- d. Uralilor, Dunării și Balticii
+
+> [!success]- Răspuns
+> **a. Carpaților, Dunării și Mării Negre**
+> 
+> Această poziție îi dă avantaje și vulnerabilități.
+
+### 93. Cea mai mare suprafață dintre statele Uniunii Europene o are:
+
+- a. Franța
+- b. Germania
+- c. Spania
+- d. Polonia
+
+> [!success]- Răspuns
+> **a. Franța**
+> 
+> Franța include și teritoriile de peste mări.
+
+### 94. Contrastul nord–sud este structural în:
+
+- a. Italia
+- b. Germania
+- c. Polonia
+- d. Suedia
+
+> [!success]- Răspuns
+> **a. Italia**
+> 
+> Nordul industrializat contrastează cu sudul.
+
+### 95. Spania este organizată administrativ în:
+
+- a. comunități autonome
+- b. landuri
+- c. departamente
+- d. voievodate
+
+> [!success]- Răspuns
+> **a. comunități autonome**
+> 
+> Germania are landuri, Polonia, voievodate.
+
+### 96. Franța se bazează, pentru energia electrică, mai ales pe:
+
+- a. energia nucleară
+- b. cărbune
+- c. energie eoliană
+- d. hidroenergie
+
+> [!success]- Răspuns
+> **a. energia nucleară**
+> 
+> Este una dintre cele mai nuclearizate economii din lume.
+
+### 97. Rețeaua Natura 2000 acoperă în România aproximativ:
 
 - a. 23% din teritoriu
 - b. 5%
@@ -573,7 +1173,7 @@ cssclasses: test
 > 
 > Este una dintre cele mai mari ponderi din Uniune.
 
-### 48. Pactul Ecologic European fixează neutralitatea climatică până în:
+### 98. Pactul Ecologic European fixează neutralitatea climatică până în:
 
 - a. 2050
 - b. 2030
@@ -585,103 +1185,67 @@ cssclasses: test
 > 
 > Etapa intermediară vizează reducerea emisiilor până în 2030.
 
-### 49. O comparație geografică corectă cere:
+### 99. Uniunea Europeană a fost creată prin Tratatul de la:
 
-- a. criterii explicite, aceleași pentru toate elementele
-- b. descrieri paralele
-- c. cât mai multe date
-- d. exclusiv asemănări
-
-> [!success]- Răspuns
-> **a. criterii explicite, aceleași pentru toate elementele**
-> 
-> Fără criterii comune, comparația devine enumerare.
-
-### 50. Compararea populației totale a două state de suprafețe foarte diferite:
-
-- a. cere raportarea la suprafață
-- b. este întotdeauna corectă
-- c. nu are sens
-- d. se face doar între vecini
+- a. Maastricht (1992)
+- b. Roma (1957)
+- c. Lisabona (2007)
+- d. Nisa (2001)
 
 > [!success]- Răspuns
-> **a. cere raportarea la suprafață**
+> **a. Maastricht (1992)**
 > 
-> Densitatea este indicatorul relativ potrivit.
+> El a pregătit și moneda unică.
 
-### 51. Concluzia unei comparații trebuie să:
+### 100. Pragul de înlocuire a generațiilor este de aproximativ:
 
-- a. explice diferențele prin factori concreți
-- b. repete datele
-- c. enumere criteriile
-- d. prezinte doar deosebirile
+- a. 2,1 copii pe femeie
+- b. 1 copil pe femeie
+- c. 3,5 copii pe femeie
+- d. 5 copii pe femeie
 
 > [!success]- Răspuns
-> **a. explice diferențele prin factori concreți**
+> **a. 2,1 copii pe femeie**
 > 
-> Explicația este partea cea mai valoroasă.
+> Sub el, populația scade pe termen lung.
 
-### 52. Subiectul I al probei de geografie se bazează pe:
+### 101. Acordul de la Paris privind clima a fost adoptat în:
 
-- a. harta Europei
-- b. harta României
+- a. 2015
+- b. 1992
+- c. 1997
+- d. 2009
+
+> [!success]- Răspuns
+> **a. 2015**
+> 
+> Protocolul de la Kyoto datează din 1997.
+
+### 102. Într-un studiu de caz, partea cea mai valoroasă este:
+
+- a. explicația diferențelor prin factori
+- b. enumerarea datelor
+- c. descrierea generală
+- d. lista criteriilor
+
+> [!success]- Răspuns
+> **a. explicația diferențelor prin factori**
+> 
+> Explicația arată relația cauză–efect.
+
+### 103. Subiectul al II-lea al probei de geografie se bazează pe:
+
+- a. harta României
+- b. harta Europei
 - c. harta lumii
 - d. un grafic
 
 > [!success]- Răspuns
-> **a. harta Europei**
+> **a. harta României**
 > 
-> Subiectul al II-lea se bazează pe harta României.
+> Subiectul I se bazează pe harta Europei.
 
-### 53. Dacă cerința solicită „numele statului marcat cu litera A”, se scrie:
-
-- a. numele statului
-- b. numele capitalei
-- c. numele regiunii
-- d. numele fluviului principal
-
-> [!success]- Răspuns
-> **a. numele statului**
-> 
-> Răspunsul trebuie să corespundă exact cerinței.
-
-### 54. Harta mută este folosită pentru:
-
-- a. exersarea localizării active
-- b. măsurarea distanțelor
-- c. calcularea suprafețelor
-- d. reprezentarea reliefului
-
-> [!success]- Răspuns
-> **a. exersarea localizării active**
-> 
-> Ea antrenează exact competența cerută la examen.
-
-### 55. Graficul liniar este potrivit pentru a reprezenta:
-
-- a. evoluția în timp
-- b. structura procentuală
-- c. comparația între categorii
-- d. densitatea
-
-> [!success]- Răspuns
-> **a. evoluția în timp**
-> 
-> Graficul circular arată structura procentuală.
-
-### 56. O valoare absolută poate crește, iar ponderea ei să scadă, dacă:
-
-- a. întregul crește mai repede
-- b. valoarea scade
-- c. întregul e constant
-- d. ponderea e fixă
-
-> [!success]- Răspuns
-> **a. întregul crește mai repede**
-> 
-> Este o capcană frecventă în interpretarea datelor.
-
-### 57. Densitatea populației se calculează:
+### 104. Densitatea populației se calculează:
 
 - a. împărțind numărul de locuitori la suprafață
 - b. împărțind suprafața la populație
@@ -693,7 +1257,115 @@ cssclasses: test
 > 
 > Rezultatul se exprimă în locuitori pe km².
 
-### 58. Un rezultat corect, dar fără unitate de măsură:
+### 105. O comparație geografică corectă cere:
+
+- a. criterii explicite, aceleași pentru toate elementele
+- b. descrieri paralele
+- c. cât mai multe date
+- d. exclusiv asemănări
+
+> [!success]- Răspuns
+> **a. criterii explicite, aceleași pentru toate elementele**
+> 
+> Fără criterii comune, comparația devine enumerare.
+
+### 106. Compararea populației totale a două state de suprafețe foarte diferite:
+
+- a. cere raportarea la suprafață
+- b. este întotdeauna corectă
+- c. nu are sens
+- d. se face doar între vecini
+
+> [!success]- Răspuns
+> **a. cere raportarea la suprafață**
+> 
+> Densitatea este indicatorul relativ potrivit.
+
+### 107. Concluzia unei comparații trebuie să:
+
+- a. explice diferențele prin factori concreți
+- b. repete datele
+- c. enumere criteriile
+- d. prezinte doar deosebirile
+
+> [!success]- Răspuns
+> **a. explice diferențele prin factori concreți**
+> 
+> Explicația este partea cea mai valoroasă.
+
+### 108. Subiectul I al probei de geografie se bazează pe:
+
+- a. harta Europei
+- b. harta României
+- c. harta lumii
+- d. un grafic
+
+> [!success]- Răspuns
+> **a. harta Europei**
+> 
+> Subiectul al II-lea se bazează pe harta României.
+
+### 109. Dacă cerința solicită „numele statului marcat cu litera A”, se scrie:
+
+- a. numele statului
+- b. numele capitalei
+- c. numele regiunii
+- d. numele fluviului principal
+
+> [!success]- Răspuns
+> **a. numele statului**
+> 
+> Răspunsul trebuie să corespundă exact cerinței.
+
+### 110. Harta mută este folosită pentru:
+
+- a. exersarea localizării active
+- b. măsurarea distanțelor
+- c. calcularea suprafețelor
+- d. reprezentarea reliefului
+
+> [!success]- Răspuns
+> **a. exersarea localizării active**
+> 
+> Ea antrenează exact competența cerută la examen.
+
+### 111. Graficul liniar este potrivit pentru a reprezenta:
+
+- a. evoluția în timp
+- b. structura procentuală
+- c. comparația între categorii
+- d. densitatea
+
+> [!success]- Răspuns
+> **a. evoluția în timp**
+> 
+> Graficul circular arată structura procentuală.
+
+### 112. O valoare absolută poate crește, iar ponderea ei să scadă, dacă:
+
+- a. întregul crește mai repede
+- b. valoarea scade
+- c. întregul e constant
+- d. ponderea e fixă
+
+> [!success]- Răspuns
+> **a. întregul crește mai repede**
+> 
+> Este o capcană frecventă în interpretarea datelor.
+
+### 113. Densitatea populației se calculează:
+
+- a. împărțind numărul de locuitori la suprafață
+- b. împărțind suprafața la populație
+- c. înmulțind populația cu suprafața
+- d. scăzând mortalitatea din natalitate
+
+> [!success]- Răspuns
+> **a. împărțind numărul de locuitori la suprafață**
+> 
+> Rezultatul se exprimă în locuitori pe km².
+
+### 114. Un rezultat corect, dar fără unitate de măsură:
 
 - a. pierde puncte
 - b. primește punctajul integral
@@ -705,7 +1377,7 @@ cssclasses: test
 > 
 > Unitatea face parte din răspuns.
 
-### 59. La cerința „precizați două unități de relief”, un singur răspuns:
+### 115. La cerința „precizați două unități de relief”, un singur răspuns:
 
 - a. primește doar jumătate din punctaj
 - b. primește punctajul integral
@@ -717,7 +1389,7 @@ cssclasses: test
 > 
 > Numărul cerut trebuie respectat.
 
-### 60. Majoritatea punctelor pierdute la geografie se datorează:
+### 116. Majoritatea punctelor pierdute la geografie se datorează:
 
 - a. nerespectării cerinței
 - b. necunoașterii materiei

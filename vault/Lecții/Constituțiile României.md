@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Constituțiile României
 
-[[Istorie (clasa a XII-a)|Istorie]] · [[Clasa a XII-a]] · lecția 6 din 12
+[[Istorie (clasa a XII-a)|Istorie]] · [[Clasa a XII-a]] · lecția 6 din 24
 
 **Capitolul:** Secolul XX: ideologii, constituții, regimuri — semestrul 2
 

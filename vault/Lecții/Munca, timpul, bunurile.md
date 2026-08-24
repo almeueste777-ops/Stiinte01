@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Munca, timpul, bunurile
 
-[[Religie (clasa a XII-a)|Religie]] · [[Clasa a XII-a]] · lecția 6 din 9
+[[Religie (clasa a XII-a)|Religie]] · [[Clasa a XII-a]] · lecția 6 din 18
 
 **Capitolul:** Viața personală și familia — semestrul 1
 

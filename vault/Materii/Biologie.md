@@ -13,8 +13,8 @@ cssclasses: fisa
 
 ## Anii de studiu
 
-- [[Biologie (clasa a IX-a)|Clasa a IX-a]] — 9 lecții, 36 carduri, 54 întrebări
-- [[Biologie (clasa a X-a)|Clasa a X-a]] — 9 lecții, 36 carduri, 54 întrebări
+- [[Biologie (clasa a IX-a)|Clasa a IX-a]] — 18 lecții, 72 carduri, 102 întrebări
+- [[Biologie (clasa a X-a)|Clasa a X-a]] — 18 lecții, 72 carduri, 102 întrebări
 
 ## Legături
 - [[00 Start aici]]

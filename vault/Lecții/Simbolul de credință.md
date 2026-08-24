@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Simbolul de credință
 
-[[Religie (clasa a IX-a)|Religie]] · [[Clasa a IX-a]] · lecția 7 din 9
+[[Religie (clasa a IX-a)|Religie]] · [[Clasa a IX-a]] · lecția 7 din 18
 
 **Capitolul:** Credință și viață — semestrul 2
 

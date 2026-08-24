@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Creația și omul
 
-[[Religie (clasa a IX-a)|Religie]] · [[Clasa a IX-a]] · lecția 4 din 9
+[[Religie (clasa a IX-a)|Religie]] · [[Clasa a IX-a]] · lecția 4 din 18
 
 **Capitolul:** Vechiul Testament — semestrul 1
 

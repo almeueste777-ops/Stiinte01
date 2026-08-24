@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Religia și cultura în spațiul românesc medieval
 
-[[Istorie (clasa a IX-a)|Istorie]] · [[Clasa a IX-a]] · lecția 12 din 12
+[[Istorie (clasa a IX-a)|Istorie]] · [[Clasa a IX-a]] · lecția 12 din 24
 
 **Capitolul:** Spațiul românesc în Evul Mediu — semestrul 2
 
@@ -29,6 +29,6 @@ Biserica Ortodoxă a fost, în Țara Românească și Moldova, instituția care 
 
 ---
 
-⬅ [[Domnii și lupta antiotomană]]
+⬅ [[Domnii și lupta antiotomană]] · [[Preistoria - paleolitic, neolitic, epoca metalelor]] ➡
 
 Exersează: [[Carduri - Istorie (clasa a IX-a)]] · [[Test - Istorie (clasa a IX-a)]]

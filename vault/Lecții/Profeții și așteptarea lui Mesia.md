@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Profeții și așteptarea lui Mesia
 
-[[Religie (clasa a IX-a)|Religie]] · [[Clasa a IX-a]] · lecția 6 din 9
+[[Religie (clasa a IX-a)|Religie]] · [[Clasa a IX-a]] · lecția 6 din 18
 
 **Capitolul:** Vechiul Testament — semestrul 1
 

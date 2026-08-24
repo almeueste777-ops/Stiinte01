@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Geografie (clasa a IX-a)
 
-64 întrebări din [[Geografie (clasa a IX-a)|Geografie (clasa a IX-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+116 întrebări din [[Geografie (clasa a IX-a)|Geografie (clasa a IX-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Pământul este, ca ordine de la Soare:
 
@@ -489,7 +489,559 @@ cssclasses: test
 > 
 > Ea îmbină dimensiunea economică, socială și ecologică.
 
-### 41. Forma Pământului este de:
+### 41. Ecuatorul este:
+
+- a. paralela de 0°
+- b. meridianul de 0°
+- c. tropicul de nord
+- d. cercul polar de sud
+
+> [!success]- Răspuns
+> **a. paralela de 0°**
+> 
+> El împarte globul în emisfera nordică și cea sudică.
+
+### 42. Longitudinea se măsoară față de:
+
+- a. meridianul de origine (Greenwich)
+- b. Ecuator
+- c. Tropicul Racului
+- d. cercul polar de nord
+
+> [!success]- Răspuns
+> **a. meridianul de origine (Greenwich)**
+> 
+> Ea are valori între 0° și 180° est sau vest.
+
+### 43. Tropicul Racului se află la latitudinea de:
+
+- a. 23°27' nord
+- b. 66°33' nord
+- c. 45° nord
+- d. 90° nord
+
+> [!success]- Răspuns
+> **a. 23°27' nord**
+> 
+> Tropicul Capricornului se află la aceeași latitudine, dar în sud.
+
+### 44. Coordonatele geografice ale unui punct sunt date de:
+
+- a. latitudine și longitudine
+- b. altitudine și adâncime
+- c. direcție și distanță
+- d. scară și legendă
+
+> [!success]- Răspuns
+> **a. latitudine și longitudine**
+> 
+> Ele se exprimă în grade, minute și secunde.
+
+### 45. O scară de 1:100 000 înseamnă că un centimetru pe hartă reprezintă:
+
+- a. 1 km în teren
+- b. 100 m în teren
+- c. 10 km în teren
+- d. 100 km în teren
+
+> [!success]- Răspuns
+> **a. 1 km în teren**
+> 
+> 100 000 cm înseamnă 1 000 m, adică 1 km.
+
+### 46. Harta la scara 1:10 000, față de cea la 1:1 000 000, este:
+
+- a. la scară mai mare, cu detalii mai multe
+- b. la scară mai mică
+- c. mai puțin detaliată
+- d. identică ca detaliu
+
+> [!success]- Răspuns
+> **a. la scară mai mare, cu detalii mai multe**
+> 
+> Numitorul mai mic înseamnă scară mai mare.
+
+### 47. Curbele de nivel unesc puncte cu:
+
+- a. aceeași altitudine
+- b. aceeași temperatură
+- c. aceeași latitudine
+- d. aceeași presiune
+
+> [!success]- Răspuns
+> **a. aceeași altitudine**
+> 
+> Ele redau relieful pe hărțile topografice.
+
+### 48. Pe o hartă fizică, tonurile închise de maro indică de obicei:
+
+- a. munții înalți
+- b. câmpiile joase
+- c. apele adânci
+- d. deșerturile
+
+> [!success]- Răspuns
+> **a. munții înalți**
+> 
+> Cu cât culoarea este mai închisă, cu atât altitudinea este mai mare.
+
+### 49. Numărul fusurilor orare de pe glob este:
+
+- a. 24, de câte 15°
+- b. 12, de câte 30°
+- c. 360, de câte 1°
+- d. 60, de câte 6°
+
+> [!success]- Răspuns
+> **a. 24, de câte 15°**
+> 
+> Ele rezultă din împărțirea celor 360° la 24 de ore.
+
+### 50. Deplasându-ne spre est, ora:
+
+- a. crește
+- b. scade
+- c. rămâne aceeași
+- d. devine incertă
+
+> [!success]- Răspuns
+> **a. crește**
+> 
+> Spre vest, dimpotrivă, ora scade.
+
+### 51. Anul bisect are 366 de zile pentru că:
+
+- a. recuperează sferturile de zi acumulate în patru ani
+- b. Pământul se rotește mai încet
+- c. Soarele se apropie de Pământ
+- d. axa se înclină mai mult
+
+> [!success]- Răspuns
+> **a. recuperează sferturile de zi acumulate în patru ani**
+> 
+> Un an tropic durează 365 de zile și aproape 6 ore.
+
+### 52. Linia internațională de schimbare a datei urmează aproximativ meridianul de:
+
+- a. 180°
+- b. 0°
+- c. 90°
+- d. 45°
+
+> [!success]- Răspuns
+> **a. 180°**
+> 
+> Trecând-o spre vest, se adaugă o zi.
+
+### 53. Granitul este o rocă:
+
+- a. magmatică intruzivă
+- b. sedimentară
+- c. metamorfică
+- d. organogenă
+
+> [!success]- Răspuns
+> **a. magmatică intruzivă**
+> 
+> S-a răcit lent, în adânc, de aceea are cristale mari.
+
+### 54. Rocile sedimentare se formează prin:
+
+- a. depunerea și consolidarea materialelor la suprafață
+- b. răcirea magmei
+- c. transformarea sub presiune, fără topire
+- d. erupții vulcanice
+
+> [!success]- Răspuns
+> **a. depunerea și consolidarea materialelor la suprafață**
+> 
+> Ele pot păstra fosile.
+
+### 55. Marmura provine din metamorfozarea:
+
+- a. calcarului
+- b. granitului
+- c. bazaltului
+- d. nisipului
+
+> [!success]- Răspuns
+> **a. calcarului**
+> 
+> Din granit rezultă gnaisul.
+
+### 56. Bazaltul este o rocă magmatică:
+
+- a. efuzivă, răcită rapid la suprafață
+- b. intruzivă, răcită lent în adânc
+- c. sedimentară de precipitație
+- d. metamorfică
+
+> [!success]- Răspuns
+> **a. efuzivă, răcită rapid la suprafață**
+> 
+> Răcirea rapidă îi dă cristale mici.
+
+### 57. Cel mai înalt vârf de pe uscat este:
+
+- a. Everest, în Himalaya
+- b. Mont Blanc, în Alpi
+- c. Aconcagua, în Anzi
+- d. Elbrus, în Caucaz
+
+> [!success]- Răspuns
+> **a. Everest, în Himalaya**
+> 
+> El are 8 849 m.
+
+### 58. Uralii și Apalașii sunt exemple de munți:
+
+- a. vechi, tociți
+- b. tineri, înalți
+- c. vulcanici activi
+- d. de blocuri recente
+
+> [!success]- Răspuns
+> **a. vechi, tociți**
+> 
+> Ei provin din orogeneze anterioare celei alpine.
+
+### 59. Câmpiile se caracterizează prin altitudini:
+
+- a. sub 200 m
+- b. între 200 și 800 m
+- c. peste 1 000 m
+- d. peste 2 000 m
+
+> [!success]- Răspuns
+> **a. sub 200 m**
+> 
+> Ele concentrează populația și agricultura.
+
+### 60. Podișul Tibetului este remarcabil pentru că:
+
+- a. este cel mai înalt podiș al lumii
+- b. este cel mai jos podiș
+- c. este de origine vulcanică
+- d. se află sub nivelul mării
+
+> [!success]- Răspuns
+> **a. este cel mai înalt podiș al lumii**
+> 
+> De aceea este numit „acoperișul lumii”.
+
+### 61. Starea atmosferei într-un loc și la un moment dat se numește:
+
+- a. vreme
+- b. climă
+- c. microclimat
+- d. anotimp
+
+> [!success]- Răspuns
+> **a. vreme**
+> 
+> Clima este regimul mediu al vremii pe mulți ani.
+
+### 62. Umezeala aerului se măsoară cu:
+
+- a. higrometrul
+- b. barometrul
+- c. termometrul
+- d. pluviometrul
+
+> [!success]- Răspuns
+> **a. higrometrul**
+> 
+> Pluviometrul măsoară cantitatea de precipitații.
+
+### 63. Frontul cald aduce, de regulă:
+
+- a. înnorare treptată și ploi liniștite
+- b. averse violente și grindină
+- c. cer senin și ger
+- d. vânturi uscate
+
+> [!success]- Răspuns
+> **a. înnorare treptată și ploi liniștite**
+> 
+> Frontul rece aduce averse și răciri bruște.
+
+### 64. Presiunea atmosferică se reprezintă pe hărțile sinoptice prin:
+
+- a. izobare
+- b. izoterme
+- c. curbe de nivel
+- d. izohipse
+
+> [!success]- Răspuns
+> **a. izobare**
+> 
+> Izobarele unesc punctele cu aceeași presiune.
+
+### 65. Aerul este saturat atunci când umezeala relativă atinge:
+
+- a. 100%
+- b. 50%
+- c. 10%
+- d. 0%
+
+> [!success]- Răspuns
+> **a. 100%**
+> 
+> Atunci vaporii de apă încep să se condenseze.
+
+### 66. Ceața și roua se formează prin:
+
+- a. condensarea vaporilor aproape de sol
+- b. înghețarea râurilor
+- c. evaporarea apei din sol
+- d. topirea zăpezii
+
+> [!success]- Răspuns
+> **a. condensarea vaporilor aproape de sol**
+> 
+> În înălțime, condensarea formează norii.
+
+### 67. Norul care produce, de obicei, furtuni cu grindină este:
+
+- a. cumulonimbusul
+- b. cirrusul
+- c. stratusul
+- d. ceața
+
+> [!success]- Răspuns
+> **a. cumulonimbusul**
+> 
+> El are mare dezvoltare pe verticală.
+
+### 68. Precipitațiile sunt cele mai abundente:
+
+- a. la Ecuator și pe versanții expuși vânturilor umede
+- b. în deșerturile tropicale
+- c. în interiorul continentelor
+- d. la poli
+
+> [!success]- Răspuns
+> **a. la Ecuator și pe versanții expuși vânturilor umede**
+> 
+> Repartiția lor pe glob este foarte inegală.
+
+### 69. La Ecuator, la nivelul solului, se află o zonă de:
+
+- a. minimă presiune, unde aerul cald urcă
+- b. maximă presiune, unde aerul coboară
+- c. calm total, fără mișcări
+- d. vânturi polare
+
+> [!success]- Răspuns
+> **a. minimă presiune, unde aerul cald urcă**
+> 
+> Aerul coboară, în schimb, în zonele tropicale.
+
+### 70. O masă de aer maritimă polară este, de regulă:
+
+- a. rece și umedă
+- b. caldă și uscată
+- c. caldă și umedă
+- d. rece și uscată
+
+> [!success]- Răspuns
+> **a. rece și umedă**
+> 
+> Ea capătă însușirile regiunii de origine.
+
+### 71. Brizele sunt vânturi:
+
+- a. locale, care își schimbă direcția între zi și noapte
+- b. permanente
+- c. de origine tropicală
+- d. care bat doar iarna
+
+> [!success]- Răspuns
+> **a. locale, care își schimbă direcția între zi și noapte**
+> 
+> Ziua bat dinspre mare, noaptea dinspre uscat.
+
+### 72. Foehnul este un vânt:
+
+- a. cald și uscat, care coboară pe versantul adăpostit
+- b. rece și umed
+- c. permanent, de origine polară
+- d. specific zonei ecuatoriale
+
+> [!success]- Răspuns
+> **a. cald și uscat, care coboară pe versantul adăpostit**
+> 
+> El poate topi rapid zăpada.
+
+### 73. Tsunamiul este provocat de:
+
+- a. un cutremur submarin, o erupție sau o alunecare
+- b. vânt puternic
+- c. maree
+- d. curenți oceanici
+
+> [!success]- Răspuns
+> **a. un cutremur submarin, o erupție sau o alunecare**
+> 
+> De aceea nu poate fi oprit prin bariere obișnuite.
+
+### 74. Mareele cele mai puternice (de sizigii) se produc:
+
+- a. la lună nouă și la lună plină
+- b. la primul și la ultimul pătrar
+- c. doar vara
+- d. doar la Ecuator
+
+> [!success]- Răspuns
+> **a. la lună nouă și la lună plină**
+> 
+> Atunci Luna și Soarele își însumează atracția.
+
+### 75. Golfstreamul este un curent:
+
+- a. cald, care încălzește vestul Europei
+- b. rece, care răcește Europa
+- c. de adâncime, fără efect climatic
+- d. provocat de maree
+
+> [!success]- Răspuns
+> **a. cald, care încălzește vestul Europei**
+> 
+> Fără el, clima Europei de Vest ar fi mult mai aspră.
+
+### 76. Cea mai mare parte a valurilor obișnuite sunt produse de:
+
+- a. vânt
+- b. Lună
+- c. cutremure
+- d. salinitate
+
+> [!success]- Răspuns
+> **a. vânt**
+> 
+> Mareele, în schimb, sunt produse de atracția Lunii și a Soarelui.
+
+### 77. Cea mai mare parte a gheții continentale a planetei se află în:
+
+- a. Antarctica și Groenlanda
+- b. Alpi și Carpați
+- c. Anzi și Himalaya
+- d. Munții Scandinaviei
+
+> [!success]- Răspuns
+> **a. Antarctica și Groenlanda**
+> 
+> Calotele lor au grosimi de mii de metri.
+
+### 78. Valea în formă de U este rezultatul modelării de către:
+
+- a. ghețarii montani
+- b. râuri
+- c. vânt
+- d. valuri
+
+> [!success]- Răspuns
+> **a. ghețarii montani**
+> 
+> Râurile sapă, în schimb, văi în formă de V.
+
+### 79. Efectul de albedo al gheții și al zăpezii constă în:
+
+- a. reflectarea radiației solare, care răcește planeta
+- b. absorbția căldurii
+- c. eliberarea de metan
+- d. încălzirea oceanului
+
+> [!success]- Răspuns
+> **a. reflectarea radiației solare, care răcește planeta**
+> 
+> Topirea gheții reduce albedoul și amplifică încălzirea.
+
+### 80. Topirea permafrostului este îngrijorătoare pentru că:
+
+- a. eliberează metan, un puternic gaz cu efect de seră
+- b. răcește atmosfera
+- c. crește albedoul
+- d. scade nivelul oceanului
+
+> [!success]- Răspuns
+> **a. eliberează metan, un puternic gaz cu efect de seră**
+> 
+> Este un exemplu de amplificare a schimbărilor climatice.
+
+### 81. Latitudinea unui loc se măsoară față de:
+
+- a. Ecuator
+- b. meridianul Greenwich
+- c. Tropicul Racului
+- d. Polul Nord
+
+> [!success]- Răspuns
+> **a. Ecuator**
+> 
+> Ea are valori între 0° și 90°.
+
+### 82. Meridianul de origine (0°) trece prin:
+
+- a. Greenwich
+- b. Ecuator
+- c. Polul Nord
+- d. Tropicul Capricornului
+
+> [!success]- Răspuns
+> **a. Greenwich**
+> 
+> El împarte globul în emisfera estică și cea vestică.
+
+### 83. O scară de 1:100 000 înseamnă că 1 cm pe hartă reprezintă:
+
+- a. 1 km în teren
+- b. 100 m în teren
+- c. 10 km în teren
+- d. 10 m în teren
+
+> [!success]- Răspuns
+> **a. 1 km în teren**
+> 
+> 100 000 cm înseamnă 1 km.
+
+### 84. Curbele de nivel unesc pe hartă punctele cu:
+
+- a. aceeași altitudine
+- b. aceeași temperatură
+- c. aceeași presiune
+- d. aceeași latitudine
+
+> [!success]- Răspuns
+> **a. aceeași altitudine**
+> 
+> Ele redau relieful.
+
+### 85. Granitul este o rocă:
+
+- a. magmatică
+- b. sedimentară
+- c. metamorfică
+- d. organogenă
+
+> [!success]- Răspuns
+> **a. magmatică**
+> 
+> S-a format prin răcirea lentă a magmei în adânc.
+
+### 86. Cel mai înalt vârf al planetei este:
+
+- a. Everest (8 849 m)
+- b. Mont Blanc
+- c. Aconcagua
+- d. Kilimanjaro
+
+> [!success]- Răspuns
+> **a. Everest (8 849 m)**
+> 
+> El se află în Munții Himalaya.
+
+### 87. Forma Pământului este de:
 
 - a. geoid
 - b. sferă perfectă
@@ -501,7 +1053,7 @@ cssclasses: test
 > 
 > Este turtit la poli și umflat la ecuator.
 
-### 42. Uscatul ocupă din suprafața Pământului:
+### 88. Uscatul ocupă din suprafața Pământului:
 
 - a. aproximativ 29%
 - b. 50%
@@ -513,7 +1065,7 @@ cssclasses: test
 > 
 > Apele ocupă circa 71%.
 
-### 43. Mișcarea de rotație durează:
+### 89. Mișcarea de rotație durează:
 
 - a. 23 h 56 min 4 s
 - b. 24 h exact
@@ -525,7 +1077,7 @@ cssclasses: test
 > 
 > Este ziua siderală.
 
-### 44. Anotimpurile sunt cauzate de:
+### 90. Anotimpurile sunt cauzate de:
 
 - a. revoluție, combinată cu înclinarea axei
 - b. rotație
@@ -537,7 +1089,7 @@ cssclasses: test
 > 
 > Fără înclinarea axei nu ar exista anotimpuri.
 
-### 45. Solstițiul de iarnă în emisfera nordică are loc la:
+### 91. Solstițiul de iarnă în emisfera nordică are loc la:
 
 - a. 22 decembrie
 - b. 22 iunie
@@ -549,7 +1101,7 @@ cssclasses: test
 > 
 > Atunci ziua este cea mai scurtă.
 
-### 46. Câmpul magnetic terestru este generat de:
+### 92. Câmpul magnetic terestru este generat de:
 
 - a. nucleul extern, lichid
 - b. nucleul intern, solid
@@ -561,7 +1113,7 @@ cssclasses: test
 > 
 > Mișcarea fierului lichid produce efectul de dinam.
 
-### 47. Teoria derivei continentelor a fost propusă de:
+### 93. Teoria derivei continentelor a fost propusă de:
 
 - a. Alfred Wegener
 - b. Charles Lyell
@@ -573,7 +1125,7 @@ cssclasses: test
 > 
 > În 1912, pe baza potrivirii țărmurilor și a fosilelor comune.
 
-### 48. Dorsalele oceanice se formează la limite:
+### 94. Dorsalele oceanice se formează la limite:
 
 - a. divergente
 - b. convergente
@@ -585,7 +1137,7 @@ cssclasses: test
 > 
 > Acolo se creează crustă oceanică nouă.
 
-### 49. Scara Richter măsoară:
+### 95. Scara Richter măsoară:
 
 - a. magnitudinea cutremurului
 - b. intensitatea efectelor
@@ -597,7 +1149,7 @@ cssclasses: test
 > 
 > Efectele resimțite se măsoară pe scara Mercalli.
 
-### 50. Groapa Marianelor are o adâncime de aproximativ:
+### 96. Groapa Marianelor are o adâncime de aproximativ:
 
 - a. 11 000 m
 - b. 4 000 m
@@ -609,7 +1161,7 @@ cssclasses: test
 > 
 > Este cel mai adânc punct al Oceanului Planetar.
 
-### 51. Relieful carstic se formează în:
+### 97. Relieful carstic se formează în:
 
 - a. roci solubile, mai ales calcare
 - b. roci vulcanice
@@ -621,7 +1173,7 @@ cssclasses: test
 > 
 > Doline, peșteri și lapiezuri sunt forme specifice.
 
-### 52. Loessul este un depozit:
+### 98. Loessul este un depozit:
 
 - a. eolian
 - b. glaciar
@@ -633,7 +1185,79 @@ cssclasses: test
 > 
 > El rezultă din depunerea prafului transportat de vânt.
 
-### 53. Fenomenele meteorologice se produc în:
+### 99. Starea atmosferei într-un loc și la un moment dat se numește:
+
+- a. vreme
+- b. climă
+- c. anotimp
+- d. microclimat
+
+> [!success]- Răspuns
+> **a. vreme**
+> 
+> Clima este regimul mediu al vremii pe mulți ani.
+
+### 100. Presiunea atmosferică se măsoară cu:
+
+- a. barometrul
+- b. termometrul
+- c. higrometrul
+- d. pluviometrul
+
+> [!success]- Răspuns
+> **a. barometrul**
+> 
+> Higrometrul măsoară umezeala aerului.
+
+### 101. Norul care produce averse cu grindină și descărcări electrice este:
+
+- a. cumulonimbusul
+- b. cirrusul
+- c. stratusul
+- d. ceața
+
+> [!success]- Răspuns
+> **a. cumulonimbusul**
+> 
+> El are mare dezvoltare pe verticală.
+
+### 102. Alizeele fac parte din circulația atmosferei și suflă dinspre:
+
+- a. maximele tropicale spre Ecuator
+- b. Ecuator spre poli
+- c. poli spre Ecuator
+- d. vest spre est, la tropice
+
+> [!success]- Răspuns
+> **a. maximele tropicale spre Ecuator**
+> 
+> Ele sunt vânturi permanente.
+
+### 103. Mareele sunt provocate de:
+
+- a. atracția Lunii și a Soarelui
+- b. vânt
+- c. curenți oceanici
+- d. cutremure submarine
+
+> [!success]- Răspuns
+> **a. atracția Lunii și a Soarelui**
+> 
+> Tsunamiul, în schimb, este provocat de cutremure submarine.
+
+### 104. Cea mai mare parte a gheții continentale se află în:
+
+- a. Antarctica și Groenlanda
+- b. Alpi și Himalaya
+- c. Anzi și Carpați
+- d. Munții Scandinaviei
+
+> [!success]- Răspuns
+> **a. Antarctica și Groenlanda**
+> 
+> Calotele lor concentrează peste 99% din gheața continentală.
+
+### 105. Fenomenele meteorologice se produc în:
 
 - a. troposferă
 - b. stratosferă
@@ -645,7 +1269,7 @@ cssclasses: test
 > 
 > Stratul de ozon se află în stratosferă.
 
-### 54. Aerul uscat conține azot în proporție de:
+### 106. Aerul uscat conține azot în proporție de:
 
 - a. 78%
 - b. 21%
@@ -657,7 +1281,7 @@ cssclasses: test
 > 
 > Oxigenul reprezintă circa 21%.
 
-### 55. Gradientul termic vertical este de aproximativ:
+### 107. Gradientul termic vertical este de aproximativ:
 
 - a. 0,6°C la 100 m
 - b. 6°C la 100 m
@@ -669,7 +1293,7 @@ cssclasses: test
 > 
 > Temperatura scade cu altitudinea în troposferă.
 
-### 56. Alizeele suflă dinspre:
+### 108. Alizeele suflă dinspre:
 
 - a. maximele tropicale spre ecuator
 - b. ecuator spre poli
@@ -681,7 +1305,7 @@ cssclasses: test
 > 
 > Ele sunt deviate de forța Coriolis.
 
-### 57. Musonii sunt vânturi:
+### 109. Musonii sunt vânturi:
 
 - a. periodice
 - b. permanente
@@ -693,7 +1317,7 @@ cssclasses: test
 > 
 > Ei își schimbă direcția în funcție de anotimp.
 
-### 58. Climatul cu veri secetoase și ierni blânde este:
+### 110. Climatul cu veri secetoase și ierni blânde este:
 
 - a. mediteranean
 - b. oceanic
@@ -705,7 +1329,7 @@ cssclasses: test
 > 
 > El caracterizează sudul Europei.
 
-### 59. Cauza principală a încălzirii globale actuale este:
+### 111. Cauza principală a încălzirii globale actuale este:
 
 - a. intensificarea efectului de seră prin activități umane
 - b. creșterea radiației solare
@@ -717,7 +1341,7 @@ cssclasses: test
 > 
 > Arderea combustibililor fosili este sursa dominantă.
 
-### 60. Salinitatea medie a apei oceanice este de:
+### 112. Salinitatea medie a apei oceanice este de:
 
 - a. 35‰
 - b. 3,5‰
@@ -729,7 +1353,7 @@ cssclasses: test
 > 
 > Ea variază în funcție de evaporare și de aportul fluvial.
 
-### 61. Golfstreamul are ca efect:
+### 113. Golfstreamul are ca efect:
 
 - a. încălzirea vestului Europei
 - b. răcirea Mediteranei
@@ -741,7 +1365,7 @@ cssclasses: test
 > 
 > Fără el, clima Europei de Vest ar fi mult mai aspră.
 
-### 62. Apa dulce ușor accesibilă reprezintă:
+### 114. Apa dulce ușor accesibilă reprezintă:
 
 - a. sub 1% din apa Pământului
 - b. 2,5%
@@ -753,7 +1377,7 @@ cssclasses: test
 > 
 > Cea mai mare parte a apei dulci este blocată în ghețari.
 
-### 63. Cernoziomul este specific:
+### 115. Cernoziomul este specific:
 
 - a. stepei
 - b. tundrei
@@ -765,7 +1389,7 @@ cssclasses: test
 > 
 > Este unul dintre cele mai fertile soluri.
 
-### 64. Dezvoltarea durabilă înseamnă:
+### 116. Dezvoltarea durabilă înseamnă:
 
 - a. satisfacerea nevoilor prezentului fără a compromite viitorul
 - b. oprirea dezvoltării economice

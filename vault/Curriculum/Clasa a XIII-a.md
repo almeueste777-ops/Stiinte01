@@ -24,8 +24,8 @@ Anul **5** din cei 5 ai parcursului [[Parcurs școlar]].
 ### [[Arie - Om și societate|Om și societate]]
 - [[Istorie (clasa a XIII-a)|Istorie]] — 🎓 bac, 📘 9 lecții în aplicație
 - [[Istoria comunismului din România (clasa a XIII-a)|Istoria comunismului din România]] — 📘 9 lecții în aplicație
-- [[Geografie (clasa a XIII-a)|Geografie]] — 🎓 bac, 📘 9 lecții în aplicație
+- [[Geografie (clasa a XIII-a)|Geografie]] — 🎓 bac, 📘 20 lecții în aplicație
 - [[Economie și educație antreprenorială (clasa a XIII-a)|Economie și educație antreprenorială]] — 🎓 bac, 📘 12 lecții în aplicație
 - [[Filosofie (clasa a XIII-a)|Filosofie]] — 🎓 bac, 📘 9 lecții în aplicație
 - [[Studii sociale (clasa a XIII-a)|Studii sociale]] — 📘 9 lecții în aplicație
-- [[Religie (clasa a XIII-a)|Religie]] — 📘 9 lecții în aplicație
+- [[Religie (clasa a XIII-a)|Religie]] — 📘 18 lecții în aplicație

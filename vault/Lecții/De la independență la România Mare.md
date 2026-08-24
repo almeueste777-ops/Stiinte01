@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # De la independență la România Mare
 
-[[Istorie (clasa a XII-a)|Istorie]] · [[Clasa a XII-a]] · lecția 5 din 12
+[[Istorie (clasa a XII-a)|Istorie]] · [[Clasa a XII-a]] · lecția 5 din 24
 
 **Capitolul:** Statul român modern — semestrul 1
 

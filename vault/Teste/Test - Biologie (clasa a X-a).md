@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Biologie (clasa a X-a)
 
-54 întrebări din [[Biologie (clasa a X-a)|Biologie (clasa a X-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+102 întrebări din [[Biologie (clasa a X-a)|Biologie (clasa a X-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Un organism heterozigot are:
 
@@ -441,7 +441,511 @@ cssclasses: test
 > 
 > Zahărul adăugat și sarea se limitează.
 
-### 37. Alela recesivă se manifestă:
+### 37. Replicarea ADN-ului are loc în:
+
+- a. faza S a interfazei
+- b. profază
+- c. anafază
+- d. telofază
+
+> [!success]- Răspuns
+> **a. faza S a interfazei**
+> 
+> Atunci fiecare cromozom devine format din doi cromatizi.
+
+### 38. În anafază:
+
+- a. cromatizii se separă și migrează spre poli
+- b. cromozomii se condensează
+- c. se replică ADN-ul
+- d. se reface nucleul
+
+> [!success]- Răspuns
+> **a. cromatizii se separă și migrează spre poli**
+> 
+> Astfel fiecare celulă-fiică primește un set complet.
+
+### 39. Mitoza produce celule:
+
+- a. identice cu celula-mamă, cu același număr de cromozomi
+- b. cu jumătate din numărul de cromozomi
+- c. cu număr dublu de cromozomi
+- d. fără nucleu
+
+> [!success]- Răspuns
+> **a. identice cu celula-mamă, cu același număr de cromozomi**
+> 
+> De aceea asigură creșterea și regenerarea.
+
+### 40. Diviziunea necontrolată a celulelor stă la baza:
+
+- a. cancerului
+- b. meiozei
+- c. fecundației
+- d. fotosintezei
+
+> [!success]- Răspuns
+> **a. cancerului**
+> 
+> Controlul ciclului celular este esențial.
+
+### 41. Meioza are ca rezultat celule cu:
+
+- a. număr redus la jumătate de cromozomi (haploid)
+- b. același număr ca celula-mamă
+- c. număr dublu de cromozomi
+- d. fără cromozomi
+
+> [!success]- Răspuns
+> **a. număr redus la jumătate de cromozomi (haploid)**
+> 
+> Se formează gameții.
+
+### 42. Numărul de cromozomi al speciei se reface la:
+
+- a. fecundație
+- b. mitoză
+- c. prima diviziune a meiozei
+- d. interfază
+
+> [!success]- Răspuns
+> **a. fecundație**
+> 
+> Prin unirea a doi gameți haploizi.
+
+### 43. Crossing-overul constă în:
+
+- a. schimbul de fragmente între cromozomii omologi
+- b. separarea cromatizilor
+- c. replicarea ADN-ului
+- d. dublarea numărului de cromozomi
+
+> [!success]- Răspuns
+> **a. schimbul de fragmente între cromozomii omologi**
+> 
+> Este o sursă de variabilitate genetică.
+
+### 44. Din meioză rezultă:
+
+- a. patru celule diferite genetic
+- b. două celule identice
+- c. o singură celulă
+- d. opt celule identice
+
+> [!success]- Răspuns
+> **a. patru celule diferite genetic**
+> 
+> De aceea gameții sunt unici.
+
+### 45. Sexul masculin la om este determinat de cromozomii:
+
+- a. XY
+- b. XX
+- c. YY
+- d. doar X
+
+> [!success]- Răspuns
+> **a. XY**
+> 
+> Femeia are XX.
+
+### 46. Sexul viitorului copil este determinat de:
+
+- a. spermatozoid, care poartă X sau Y
+- b. ovul, care poartă X sau Y
+- c. numărul de autozomi
+- d. mediul intrauterin
+
+> [!success]- Răspuns
+> **a. spermatozoid, care poartă X sau Y**
+> 
+> Ovulul poartă întotdeauna X.
+
+### 47. Sindromul Down este cauzat de:
+
+- a. un cromozom 21 în plus
+- b. lipsa unui cromozom X
+- c. o mutație a unei singure gene
+- d. un autozom lipsă
+
+> [!success]- Răspuns
+> **a. un cromozom 21 în plus**
+> 
+> Se numește trisomia 21.
+
+### 48. Cele 22 de perechi de cromozomi identici la ambele sexe se numesc:
+
+- a. autozomi
+- b. heterozomi
+- c. cromozomi sexuali
+- d. cromatizi
+
+> [!success]- Răspuns
+> **a. autozomi**
+> 
+> Perechea 23 dă heterozomii.
+
+### 49. În generația F1 a unei monohibridări cu dominanță completă apar:
+
+- a. doar indivizi cu caracterul dominant
+- b. doar indivizi recesivi
+- c. raport 3:1
+- d. raport 1:1
+
+> [!success]- Răspuns
+> **a. doar indivizi cu caracterul dominant**
+> 
+> Toți sunt heterozigoți.
+
+### 50. Raportul fenotipic din F2 este de aproximativ:
+
+- a. 3:1
+- b. 1:1
+- c. 9:3:3:1
+- d. 2:1
+
+> [!success]- Răspuns
+> **a. 3:1**
+> 
+> Trei dominanți la un recesiv.
+
+### 51. Raporturile mendeliene sunt:
+
+- a. statistice, valabile pe un număr mare de urmași
+- b. exacte pentru fiecare individ
+- c. valabile doar la plante
+- d. independente de fecundație
+
+> [!success]- Răspuns
+> **a. statistice, valabile pe un număr mare de urmași**
+> 
+> De aceea se verifică pe eșantioane mari.
+
+### 52. Separarea alelelor unei perechi în gameți diferiți este:
+
+- a. legea segregării (purității gameților)
+- b. legea conservării masei
+- c. crossing-overul
+- d. codominanța
+
+> [!success]- Răspuns
+> **a. legea segregării (purității gameților)**
+> 
+> Ea explică raportul 3:1.
+
+### 53. Fibroza chistică și anemia falciformă sunt boli:
+
+- a. recesive
+- b. dominante
+- c. cromozomiale de număr
+- d. infecțioase
+
+> [!success]- Răspuns
+> **a. recesive**
+> 
+> Se manifestă doar la homozigoți.
+
+### 54. Hemofilia apare mai frecvent la băieți pentru că:
+
+- a. este legată de cromozomul X, iar băieții au un singur X
+- b. este dominantă
+- c. se transmite prin cromozomul Y
+- d. este multifactorială
+
+> [!success]- Răspuns
+> **a. este legată de cromozomul X, iar băieții au un singur X**
+> 
+> Fetele au un al doilea X care compensează.
+
+### 55. Diabetul de tip 2 și hipertensiunea sunt, de regulă, boli:
+
+- a. multifactoriale
+- b. monogenice recesive
+- c. cromozomiale
+- d. pur ereditare
+
+> [!success]- Răspuns
+> **a. multifactoriale**
+> 
+> Depind de gene și de stilul de viață.
+
+### 56. Predispoziția genetică la o boală multifactorială:
+
+- a. nu este o condamnare, fiind influențată de mediu
+- b. garantează apariția bolii
+- c. nu poate fi influențată deloc
+- d. se transmite după raportul 3:1
+
+> [!success]- Răspuns
+> **a. nu este o condamnare, fiind influențată de mediu**
+> 
+> Stilul de viață contează mult.
+
+### 57. O mutație apărută în celulele germinale:
+
+- a. se transmite descendenților
+- b. afectează doar individul
+- c. nu are niciun efect
+- d. dispare imediat
+
+> [!success]- Răspuns
+> **a. se transmite descendenților**
+> 
+> Cele somatice nu se transmit.
+
+### 58. Razele ultraviolete și razele X sunt:
+
+- a. factori mutageni
+- b. catalizatori
+- c. hormoni
+- d. nutrienți
+
+> [!success]- Răspuns
+> **a. factori mutageni**
+> 
+> Cresc frecvența mutațiilor.
+
+### 59. Majoritatea mutațiilor sunt:
+
+- a. neutre sau dăunătoare
+- b. benefice
+- c. letale întotdeauna
+- d. imposibil de produs
+
+> [!success]- Răspuns
+> **a. neutre sau dăunătoare**
+> 
+> Cele avantajoase sunt rare, dar decisive evolutiv.
+
+### 60. Rezistența bacteriilor la antibiotice apare prin:
+
+- a. mutații favorabile selectate de prezența antibioticului
+- b. lipsa totală a mutațiilor
+- c. transmiterea caracterelor dobândite
+- d. fecundație
+
+> [!success]- Răspuns
+> **a. mutații favorabile selectate de prezența antibioticului**
+> 
+> Este evoluție observabilă.
+
+### 61. Temperatura, lumina și apa sunt factori:
+
+- a. abiotici
+- b. biotici
+- c. limitanți întotdeauna
+- d. exclusiv marini
+
+> [!success]- Răspuns
+> **a. abiotici**
+> 
+> Relațiile dintre organisme sunt factori biotici.
+
+### 62. Legea factorului limitant spune că dezvoltarea e restrânsă de:
+
+- a. factorul cel mai defavorabil
+- b. factorul cel mai favorabil
+- c. media tuturor factorilor
+- d. numărul de specii
+
+> [!success]- Răspuns
+> **a. factorul cel mai defavorabil**
+> 
+> Chiar dacă ceilalți factori sunt optimi.
+
+### 63. O specie stenoecă:
+
+- a. suportă doar variații mici ale unui factor
+- b. suportă variații mari
+- c. nu depinde de mediu
+- d. trăiește oriunde
+
+> [!success]- Răspuns
+> **a. suportă doar variații mici ale unui factor**
+> 
+> De aceea e un bun indicator ecologic.
+
+### 64. Dispariția lichenilor din orașe semnalează:
+
+- a. poluarea aerului
+- b. încălzirea globală exclusiv
+- c. lipsa apei
+- d. exces de lumină
+
+> [!success]- Răspuns
+> **a. poluarea aerului**
+> 
+> Sunt specii sensibile.
+
+### 65. Densitatea, natalitatea și mortalitatea sunt caracteristici ale:
+
+- a. populației
+- b. unui singur individ
+- c. ecosistemului fizic
+- d. factorilor abiotici
+
+> [!success]- Răspuns
+> **a. populației**
+> 
+> Ele nu se pot atribui unui singur individ.
+
+### 66. Efectivul unei populații crește prin:
+
+- a. natalitate și imigrare
+- b. mortalitate și emigrare
+- c. doar prin emigrare
+- d. scăderea resurselor
+
+> [!success]- Răspuns
+> **a. natalitate și imigrare**
+> 
+> Scade prin mortalitate și emigrare.
+
+### 67. Numărul maxim de indivizi întreținuți durabil de mediu este:
+
+- a. capacitatea de suport
+- b. densitatea optimă
+- c. natalitatea
+- d. factorul limitant
+
+> [!success]- Răspuns
+> **a. capacitatea de suport**
+> 
+> Peste el, resursele se epuizează.
+
+### 68. Bolile și prădătorii sunt factori de reglare:
+
+- a. dependenți de densitate
+- b. independenți de densitate
+- c. exclusiv climatici
+- d. fără efect asupra populației
+
+> [!success]- Răspuns
+> **a. dependenți de densitate**
+> 
+> Acționează mai puternic la densitate mare.
+
+### 69. Lichenul, format din algă și ciupercă, este un exemplu de:
+
+- a. mutualism
+- b. parazitism
+- c. competiție
+- d. comensalism
+
+> [!success]- Răspuns
+> **a. mutualism**
+> 
+> Ambii parteneri au de câștigat.
+
+### 70. Relația în care o specie o consumă pe alta este:
+
+- a. prădătorismul
+- b. mutualismul
+- c. comensalismul
+- d. competiția
+
+> [!success]- Răspuns
+> **a. prădătorismul**
+> 
+> Avantajează prădătorul, dezavantajează prada.
+
+### 71. Stadiul de echilibru al unei succesiuni ecologice se numește:
+
+- a. climax
+- b. biotop
+- c. nișă
+- d. populație
+
+> [!success]- Răspuns
+> **a. climax**
+> 
+> Pădurea matură este adesea climaxul.
+
+### 72. Competiția între două specii apare când:
+
+- a. au nevoie de aceeași resursă limitată
+- b. una o consumă pe cealaltă
+- c. ambele câștigă
+- d. niciuna nu e afectată
+
+> [!success]- Răspuns
+> **a. au nevoie de aceeași resursă limitată**
+> 
+> Resursa insuficientă le pune în concurență.
+
+### 73. Replicarea ADN-ului are loc în:
+
+- a. faza S a interfazei
+- b. profază
+- c. anafază
+- d. meioză exclusiv
+
+> [!success]- Răspuns
+> **a. faza S a interfazei**
+> 
+> Atunci fiecare cromozom ajunge cu doi cromatizi.
+
+### 74. Mitoza produce:
+
+- a. două celule identice cu celula-mamă
+- b. patru celule haploide
+- c. gameți
+- d. celule fără nucleu
+
+> [!success]- Răspuns
+> **a. două celule identice cu celula-mamă**
+> 
+> Meioza produce patru celule haploide.
+
+### 75. Numărul de cromozomi se reduce la jumătate în:
+
+- a. meioză
+- b. mitoză
+- c. interfază
+- d. fecundație
+
+> [!success]- Răspuns
+> **a. meioză**
+> 
+> Se formează gameții.
+
+### 76. Sexul copilului este determinat de:
+
+- a. spermatozoid (X sau Y)
+- b. ovul
+- c. numărul de autozomi
+- d. mediu
+
+> [!success]- Răspuns
+> **a. spermatozoid (X sau Y)**
+> 
+> Ovulul poartă întotdeauna X.
+
+### 77. Raportul fenotipic din F2, la monohibridare, este de aproximativ:
+
+- a. 3:1
+- b. 1:1
+- c. 9:3:3:1
+- d. 4:0
+
+> [!success]- Răspuns
+> **a. 3:1**
+> 
+> Trei dominanți la un recesiv.
+
+### 78. Hemofilia și daltonismul se transmit legat de:
+
+- a. cromozomul X
+- b. cromozomul Y
+- c. un autozom dominant
+- d. mitocondrii
+
+> [!success]- Răspuns
+> **a. cromozomul X**
+> 
+> De aceea apar mai des la băieți.
+
+### 79. Alela recesivă se manifestă:
 
 - a. doar în stare homozigotă
 - b. și în stare heterozigotă
@@ -453,7 +957,7 @@ cssclasses: test
 > 
 > Heterozigotul o poartă fără să o arate.
 
-### 38. Grupele sangvine AB ilustrează:
+### 80. Grupele sangvine AB ilustrează:
 
 - a. codominanța
 - b. dominanța completă
@@ -465,7 +969,7 @@ cssclasses: test
 > 
 > Ambele alele se exprimă.
 
-### 39. Sinteza proteinei pornind de la ARN mesager se numește:
+### 81. Sinteza proteinei pornind de la ARN mesager se numește:
 
 - a. translație
 - b. transcripție
@@ -477,7 +981,7 @@ cssclasses: test
 > 
 > Are loc la ribozomi.
 
-### 40. Mutațiile sunt importante pentru evoluție pentru că:
+### 82. Mutațiile sunt importante pentru evoluție pentru că:
 
 - a. sunt sursa variabilității ereditare
 - b. sunt întotdeauna benefice
@@ -489,7 +993,7 @@ cssclasses: test
 > 
 > Selecția acționează asupra variabilității.
 
-### 41. Selecția naturală a fost propusă de:
+### 83. Selecția naturală a fost propusă de:
 
 - a. Darwin
 - b. Mendel
@@ -501,7 +1005,7 @@ cssclasses: test
 > 
 > Mendel a descoperit legile eredității.
 
-### 42. Organele omoloage au:
+### 84. Organele omoloage au:
 
 - a. aceeași origine și același plan de construcție
 - b. aceeași funcție, dar origini diferite
@@ -513,7 +1017,7 @@ cssclasses: test
 > 
 > Aripa liliacului și mâna omului sunt un exemplu.
 
-### 43. Nomenclatura binară a fost introdusă de:
+### 85. Nomenclatura binară a fost introdusă de:
 
 - a. Linné
 - b. Darwin
@@ -525,7 +1029,7 @@ cssclasses: test
 > 
 > Fiecare specie primește gen și epitet specific.
 
-### 44. Plantele sunt organisme:
+### 86. Plantele sunt organisme:
 
 - a. autotrofe
 - b. heterotrofe
@@ -537,7 +1041,7 @@ cssclasses: test
 > 
 > Își produc hrana prin fotosinteză.
 
-### 45. Cel mai divers grup de animale este:
+### 87. Cel mai divers grup de animale este:
 
 - a. insectele
 - b. mamiferele
@@ -549,7 +1053,79 @@ cssclasses: test
 > 
 > Fac parte din artropode.
 
-### 46. Ecosistemul este format din:
+### 88. Temperatura, lumina și apa sunt factori:
+
+- a. abiotici
+- b. biotici
+- c. exclusiv limitanți
+- d. vii
+
+> [!success]- Răspuns
+> **a. abiotici**
+> 
+> Relațiile dintre organisme sunt biotice.
+
+### 89. Legea factorului limitant spune că dezvoltarea e restrânsă de:
+
+- a. factorul cel mai defavorabil
+- b. factorul cel mai favorabil
+- c. numărul de specii
+- d. media factorilor
+
+> [!success]- Răspuns
+> **a. factorul cel mai defavorabil**
+> 
+> Chiar dacă ceilalți sunt optimi.
+
+### 90. Capacitatea de suport a mediului reprezintă:
+
+- a. numărul maxim de indivizi întreținuți durabil
+- b. natalitatea populației
+- c. densitatea minimă
+- d. numărul de specii
+
+> [!success]- Răspuns
+> **a. numărul maxim de indivizi întreținuți durabil**
+> 
+> Peste el, populația scade.
+
+### 91. Efectivul unei populații crește prin:
+
+- a. natalitate și imigrare
+- b. mortalitate și emigrare
+- c. competiție
+- d. parazitism
+
+> [!success]- Răspuns
+> **a. natalitate și imigrare**
+> 
+> Și scade prin mortalitate și emigrare.
+
+### 92. Relația din care ambele specii câștigă este:
+
+- a. mutualismul
+- b. prădătorismul
+- c. parazitismul
+- d. competiția
+
+> [!success]- Răspuns
+> **a. mutualismul**
+> 
+> Lichenul este un exemplu.
+
+### 93. Stadiul de echilibru al unei succesiuni ecologice se numește:
+
+- a. climax
+- b. biotop
+- c. nișă ecologică
+- d. populație
+
+> [!success]- Răspuns
+> **a. climax**
+> 
+> Adesea o pădure matură.
+
+### 94. Ecosistemul este format din:
 
 - a. biotop și biocenoză
 - b. doar plante și animale
@@ -561,7 +1137,7 @@ cssclasses: test
 > 
 > Relațiile dintre ele îl fac să funcționeze.
 
-### 47. Energia dintr-un ecosistem:
+### 95. Energia dintr-un ecosistem:
 
 - a. curge într-un singur sens și se pierde ca și căldură
 - b. circulă în cicluri închise
@@ -573,7 +1149,7 @@ cssclasses: test
 > 
 > Materia, în schimb, circulă.
 
-### 48. La fiecare nivel trofic se transferă aproximativ:
+### 96. La fiecare nivel trofic se transferă aproximativ:
 
 - a. 10% din energie
 - b. 90%
@@ -585,7 +1161,7 @@ cssclasses: test
 > 
 > De aceea lanțurile trofice sunt scurte.
 
-### 49. Homeotermia este specifică:
+### 97. Homeotermia este specifică:
 
 - a. păsărilor și mamiferelor
 - b. reptilelor
@@ -597,7 +1173,7 @@ cssclasses: test
 > 
 > Permite ocuparea mediilor extreme.
 
-### 50. Efectul de seră este amplificat mai ales de:
+### 98. Efectul de seră este amplificat mai ales de:
 
 - a. arderea combustibililor fosili
 - b. eroziunea solului
@@ -609,7 +1185,7 @@ cssclasses: test
 > 
 > Crește concentrația gazelor care rețin căldura.
 
-### 51. Dezvoltarea durabilă înseamnă:
+### 99. Dezvoltarea durabilă înseamnă:
 
 - a. satisfacerea nevoilor prezentului fără a compromite viitorul
 - b. creștere economică maximă
@@ -621,7 +1197,7 @@ cssclasses: test
 > 
 > Îmbină economicul, socialul și mediul.
 
-### 52. Sănătatea este definită ca:
+### 100. Sănătatea este definită ca:
 
 - a. stare de bine fizică, psihică și socială
 - b. absența bolii
@@ -633,7 +1209,7 @@ cssclasses: test
 > 
 > Include sănătatea mintală.
 
-### 53. Dependența de substanțe:
+### 101. Dependența de substanțe:
 
 - a. are bază neurobiologică
 - b. ține exclusiv de voință
@@ -645,7 +1221,7 @@ cssclasses: test
 > 
 > De aceea ajutorul specializat funcționează.
 
-### 54. Prevenția cuprinde:
+### 102. Prevenția cuprinde:
 
 - a. vaccinarea, igiena și controalele periodice
 - b. doar tratamentul medicamentos

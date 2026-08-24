@@ -10,7 +10,7 @@ clasa: "a XIII-a"
 ---
 # Studii de caz: state europene reprezentative
 
-[[Geografie (clasa a XIII-a)|Geografie]] · [[Clasa a XIII-a]] · lecția 5 din 9
+[[Geografie (clasa a XIII-a)|Geografie]] · [[Clasa a XIII-a]] · lecția 5 din 20
 
 **Capitolul:** Analiza comparativă și studiile de caz — semestrul 2
 

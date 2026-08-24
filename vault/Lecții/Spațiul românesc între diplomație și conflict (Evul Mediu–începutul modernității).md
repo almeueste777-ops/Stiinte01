@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Spațiul românesc între diplomație și conflict (Evul Mediu–începutul modernității)
 
-[[Istorie (clasa a XII-a)|Istorie]] · [[Clasa a XII-a]] · lecția 10 din 12
+[[Istorie (clasa a XII-a)|Istorie]] · [[Clasa a XII-a]] · lecția 10 din 24
 
 **Capitolul:** Relații internaționale — semestrul 2
 

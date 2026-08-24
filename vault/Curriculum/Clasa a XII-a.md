@@ -23,11 +23,11 @@ Anul **4** din cei 5 ai parcursului [[Parcurs școlar]].
 - [[ȘTIAM (științe integrate) (clasa a XII-a)|ȘTIAM (științe integrate)]] — 📘 9 lecții în aplicație
 
 ### [[Arie - Om și societate|Om și societate]]
-- [[Istorie (clasa a XII-a)|Istorie]] — 🎓 bac, 📘 12 lecții în aplicație
-- [[Geografie (clasa a XII-a)|Geografie]] — 🎓 bac, 📘 9 lecții în aplicație
+- [[Istorie (clasa a XII-a)|Istorie]] — 🎓 bac, 📘 24 lecții în aplicație
+- [[Geografie (clasa a XII-a)|Geografie]] — 🎓 bac, 📘 20 lecții în aplicație
 - [[Filosofie (clasa a XII-a)|Filosofie]] — 🎓 bac, 📘 14 lecții în aplicație
 - [[Studii sociale (clasa a XII-a)|Studii sociale]] — 📘 9 lecții în aplicație
-- [[Religie (clasa a XII-a)|Religie]] — 📘 9 lecții în aplicație
+- [[Religie (clasa a XII-a)|Religie]] — 📘 18 lecții în aplicație
 
 ### [[Arie - Tehnologii|Tehnologii]]
 - [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)|Tehnologia informației și a comunicațiilor (TIC)]] — 🎓 bac, 📘 9 lecții în aplicație

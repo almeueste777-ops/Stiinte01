@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Amine, aminoacizi, proteine
 
-[[Chimie (clasa a X-a)|Chimie]] · [[Clasa a X-a]] · lecția 6 din 9
+[[Chimie (clasa a X-a)|Chimie]] · [[Clasa a X-a]] · lecția 6 din 18
 
 **Capitolul:** Compuși cu grupe funcționale — semestrul 1
 

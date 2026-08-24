@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Religie (clasa a XI-a)
 
-54 întrebări din [[Religie (clasa a XI-a)|Religie (clasa a XI-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+102 întrebări din [[Religie (clasa a XI-a)|Religie (clasa a XI-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Cuvântul „biserică” provine dintr-un termen care înseamnă:
 
@@ -441,7 +441,511 @@ cssclasses: test
 > 
 > Educația e principalul antidot.
 
-### 37. Însușirile Bisericii mărturisite în Crez sunt:
+### 37. Slujba de seară a Bisericii se numește:
+
+- a. Vecernie
+- b. Utrenie
+- c. Liturghie
+- d. Miezonoptică
+
+> [!success]- Răspuns
+> **a. Vecernie**
+> 
+> Utrenia este slujba de dimineață.
+
+### 38. Ziua liturgică, în Ortodoxie, începe:
+
+- a. seara
+- b. la miezul nopții
+- c. dimineața
+- d. la prânz
+
+> [!success]- Răspuns
+> **a. seara**
+> 
+> După modelul „a fost seară și a fost dimineață”.
+
+### 39. Laudele bisericești au caracter de:
+
+- a. laudă și rugăciune
+- b. jertfă, ca Liturghia
+- c. judecată
+- d. învățătură școlară
+
+> [!success]- Răspuns
+> **a. laudă și rugăciune**
+> 
+> Numai Liturghia are caracter de jertfă.
+
+### 40. O carte care cuprinde rânduiala slujbelor zilnice este:
+
+- a. Ceaslovul
+- b. Pentateuhul
+- c. Apocalipsa
+- d. Cartea Faptelor
+
+> [!success]- Răspuns
+> **a. Ceaslovul**
+> 
+> Alături de Octoih și Minee.
+
+### 41. Ierurgiile sunt:
+
+- a. slujbe de binecuvântare și de sfințire
+- b. Sfinte Taine
+- c. rugăciuni particulare
+- d. sărbători
+
+> [!success]- Răspuns
+> **a. slujbe de binecuvântare și de sfințire**
+> 
+> Ele nu împărtășesc harul întemeietor al Tainelor.
+
+### 42. Apa sfințită folosită pentru binecuvântare se numește:
+
+- a. aghiasmă
+- b. mir
+- c. untdelemn
+- d. prescură
+
+> [!success]- Răspuns
+> **a. aghiasmă**
+> 
+> Este mare la Bobotează și mică la alte slujbe.
+
+### 43. Parastasele sunt slujbe pentru:
+
+- a. pomenirea celor adormiți
+- b. sfințirea casei
+- c. binecuvântarea roadelor
+- d. vindecarea bolnavilor
+
+> [!success]- Răspuns
+> **a. pomenirea celor adormiți**
+> 
+> Fac parte din slujbele de pomenire.
+
+### 44. Prin ierurgii, credința:
+
+- a. intră în casă, în muncă și în viața de zi cu zi
+- b. rămâne închisă în biserică
+- c. înlocuiește Tainele
+- d. privește doar sărbătorile
+
+> [!success]- Răspuns
+> **a. intră în casă, în muncă și în viața de zi cu zi**
+> 
+> Totul poate fi adus înaintea lui Dumnezeu.
+
+### 45. Cântarea în cultul ortodox este:
+
+- a. vocală, fără instrumente
+- b. exclusiv instrumentală
+- c. rostită, nu cântată
+- d. opțională
+
+> [!success]- Răspuns
+> **a. vocală, fără instrumente**
+> 
+> Glasul purtător de cuvânt rămâne în centru.
+
+### 46. Cântarea psaltică folosește:
+
+- a. opt glasuri
+- b. douăsprezece glasuri
+- c. un singur mod
+- d. patru glasuri
+
+> [!success]- Răspuns
+> **a. opt glasuri**
+> 
+> Ele se schimbă pe rând.
+
+### 47. Sunetul ținut care susține melodia psaltică se numește:
+
+- a. ison
+- b. tropar
+- c. condac
+- d. glas
+
+> [!success]- Răspuns
+> **a. ison**
+> 
+> Este specific cântării bizantine.
+
+### 48. Muzica bisericească urmărește, în primul rând:
+
+- a. rugăciunea
+- b. spectacolul
+- c. măiestria tehnică
+- d. distracția
+
+> [!success]- Răspuns
+> **a. rugăciunea**
+> 
+> Ea ajută cuvântul să pătrundă în inimă.
+
+### 49. O Biserică autocefală este una care:
+
+- a. se conduce singură, în comuniune cu celelalte
+- b. este independentă, fără comuniune
+- c. se supune unui singur conducător mondial
+- d. nu are ierarhie
+
+> [!success]- Răspuns
+> **a. se conduce singură, în comuniune cu celelalte**
+> 
+> Unitatea se ține prin credință.
+
+### 50. Patriarhia de la Constantinopol are:
+
+- a. o întâietate de cinstire
+- b. putere asupra celorlalte Biserici
+- c. autoritate politică
+- d. dreptul de a schimba credința
+
+> [!success]- Răspuns
+> **a. o întâietate de cinstire**
+> 
+> Este „cea dintâi între cele egale”.
+
+### 51. Biserica Ortodoxă Română a primit autocefalia în:
+
+- a. 1885
+- b. 1925
+- c. 1054
+- d. 1948
+
+> [!success]- Răspuns
+> **a. 1885**
+> 
+> Patriarhia a fost recunoscută în 1925.
+
+### 52. Unitatea Bisericii Ortodoxe se ține prin:
+
+- a. credință și comuniune
+- b. centralizarea puterii
+- c. subordonare politică
+- d. un singur conducător pământesc
+
+> [!success]- Răspuns
+> **a. credință și comuniune**
+> 
+> De aici forma de comuniune de Biserici locale.
+
+### 53. Monahismul a apărut, în secolul al IV-lea, în:
+
+- a. pustia Egiptului
+- b. Roma
+- c. Constantinopol
+- d. Țara Sfântă
+
+> [!success]- Răspuns
+> **a. pustia Egiptului**
+> 
+> Prin Sfântul Antonie cel Mare.
+
+### 54. Voturile monahale sunt:
+
+- a. ascultarea, sărăcia de bunăvoie și curăția
+- b. credința, nădejdea și dragostea
+- c. postul, rugăciunea și milostenia
+- d. botezul, mirungerea și euharistia
+
+> [!success]- Răspuns
+> **a. ascultarea, sărăcia de bunăvoie și curăția**
+> 
+> Ele exprimă dedicarea deplină.
+
+### 55. Cel mai cunoscut centru monahal ortodox este:
+
+- a. Muntele Athos
+- b. Muntele Sinai
+- c. Ierusalimul
+- d. Roma
+
+> [!success]- Răspuns
+> **a. Muntele Athos**
+> 
+> O adevărată republică monahală.
+
+### 56. Mănăstirile românești au fost, de-a lungul veacurilor:
+
+- a. vetre de credință și de cultură
+- b. doar locuri de retragere
+- c. centre politice
+- d. fără însemnătate culturală
+
+> [!success]- Răspuns
+> **a. vetre de credință și de cultură**
+> 
+> Acolo s-au copiat manuscrise și s-au format cărturari.
+
+### 57. Sfinții Chiril și Metodie sunt cinstiți pentru că:
+
+- a. au dat lumii slave un alfabet și cărți de cult
+- b. au condus armate
+- c. au întemeiat Patriarhia
+- d. au scris Evangheliile
+
+> [!success]- Răspuns
+> **a. au dat lumii slave un alfabet și cărți de cult**
+> 
+> Au arătat că Evanghelia se propovăduiește în limba fiecărui popor.
+
+### 58. Idealul convertirii creștine este:
+
+- a. liberă, prin convingere
+- b. impusă prin silă
+- c. hotărâtă doar de conducători
+- d. interzisă neamurilor
+
+> [!success]- Răspuns
+> **a. liberă, prin convingere**
+> 
+> Credința impusă contrazice mesajul creștin.
+
+### 59. Misiunea creștină se întemeiază pe porunca:
+
+- a. „mergeți și învățați toate neamurile”
+- b. „păziți numai Legea”
+- c. „rămâneți în cetatea voastră”
+- d. „nu vestiți nimănui”
+
+> [!success]- Răspuns
+> **a. „mergeți și învățați toate neamurile”**
+> 
+> Ea privește toate popoarele.
+
+### 60. Misiunea creștină a legat, peste tot, credința de:
+
+- a. limbă, scris și cultură
+- b. putere politică
+- c. bogăție
+- d. forța armelor
+
+> [!success]- Răspuns
+> **a. limbă, scris și cultură**
+> 
+> Traducerile au întemeiat culturi scrise.
+
+### 61. Cele trei mari ramuri ale creștinismului sunt:
+
+- a. Ortodoxia, Catolicismul și Protestantismul
+- b. iudaismul, creștinismul și islamul
+- c. hinduismul, budismul și șintoismul
+- d. doar Ortodoxia și Catolicismul
+
+> [!success]- Răspuns
+> **a. Ortodoxia, Catolicismul și Protestantismul**
+> 
+> Toate cinstesc pe Hristos, dar au deosebiri.
+
+### 62. Catolicismul recunoaște întâietatea de putere a:
+
+- a. papei de la Roma
+- b. patriarhului de la Constantinopol
+- c. unui sinod mondial
+- d. fiecărui episcop
+
+> [!success]- Răspuns
+> **a. papei de la Roma**
+> 
+> Aici stă o deosebire față de Ortodoxie.
+
+### 63. Protestantismul a pornit de la:
+
+- a. Martin Luther și alți reformatori
+- b. Sfântul Vasile cel Mare
+- c. Sinodul de la Niceea
+- d. Sfinții Chiril și Metodie
+
+> [!success]- Răspuns
+> **a. Martin Luther și alți reformatori**
+> 
+> În secolul al XVI-lea.
+
+### 64. Cunoașterea deosebirilor dintre confesiuni, fără dispreț:
+
+- a. este temei al bunei conviețuiri
+- b. înseamnă că toate spun același lucru
+- c. îi face pe ceilalți dușmani
+- d. este de prisos
+
+> [!success]- Răspuns
+> **a. este temei al bunei conviețuiri**
+> 
+> Nu este nici relativism, nici dușmănie.
+
+### 65. Cele trei religii avraamice sunt:
+
+- a. iudaismul, creștinismul și islamul
+- b. hinduismul, budismul și șintoismul
+- c. ortodoxia, catolicismul și protestantismul
+- d. doar iudaismul și islamul
+
+> [!success]- Răspuns
+> **a. iudaismul, creștinismul și islamul**
+> 
+> Se revendică de la Avraam.
+
+### 66. Cartea sfântă a islamului este:
+
+- a. Coranul
+- b. Talmudul
+- c. Evanghelia
+- d. Tora singură
+
+> [!success]- Răspuns
+> **a. Coranul**
+> 
+> Locul de rugăciune este moscheea.
+
+### 67. Islamul a apărut în:
+
+- a. secolul al VII-lea
+- b. secolul I
+- c. secolul al XVI-lea
+- d. secolul al IV-lea
+
+> [!success]- Răspuns
+> **a. secolul al VII-lea**
+> 
+> În Arabia, prin Mahomed.
+
+### 68. Pentru creștini, deosebirea de fond față de iudaism și islam este:
+
+- a. mărturisirea că Iisus Hristos este Fiul lui Dumnezeu
+- b. credința într-un singur Dumnezeu
+- c. practica rugăciunii
+- d. cinstirea lui Avraam
+
+> [!success]- Răspuns
+> **a. mărturisirea că Iisus Hristos este Fiul lui Dumnezeu**
+> 
+> Acestea din urmă sunt puncte comune.
+
+### 69. Credința în trecerea sufletului dintr-o viață în alta se numește:
+
+- a. reîncarnare
+- b. înviere
+- c. îndumnezeire
+- d. mântuire
+
+> [!success]- Răspuns
+> **a. reîncarnare**
+> 
+> Este specifică unor religii orientale.
+
+### 70. Budismul pune în centru:
+
+- a. eliberarea de suferință
+- b. un singur Dumnezeu personal
+- c. legământul cu Avraam
+- d. Sfânta Treime
+
+> [!success]- Răspuns
+> **a. eliberarea de suferință**
+> 
+> A pornit de la propovăduirea lui Buddha.
+
+### 71. Hinduismul este răspândit mai ales în:
+
+- a. India
+- b. Arabia
+- c. Europa
+- d. America
+
+> [!success]- Răspuns
+> **a. India**
+> 
+> Nu are un întemeietor unic.
+
+### 72. Cunoașterea informativă a religiilor Orientului:
+
+- a. nu se confundă cu împărtășirea lor
+- b. înseamnă adoptarea lor
+- c. este interzisă
+- d. este de prisos
+
+> [!success]- Răspuns
+> **a. nu se confundă cu împărtășirea lor**
+> 
+> Face parte din cultura generală și din respect.
+
+### 73. Slujba de seară a Bisericii se numește:
+
+- a. Vecernie
+- b. Utrenie
+- c. Liturghie
+- d. Miezonoptică
+
+> [!success]- Răspuns
+> **a. Vecernie**
+> 
+> Utrenia este slujba de dimineață.
+
+### 74. Ierurgiile sunt:
+
+- a. slujbe de binecuvântare și de sfințire
+- b. Sfinte Taine
+- c. sărbători mari
+- d. rugăciuni particulare
+
+> [!success]- Răspuns
+> **a. slujbe de binecuvântare și de sfințire**
+> 
+> Nu împărtășesc harul întemeietor al Tainelor.
+
+### 75. Apa sfințită folosită pentru binecuvântare se numește:
+
+- a. aghiasmă
+- b. mir
+- c. prescură
+- d. untdelemn
+
+> [!success]- Răspuns
+> **a. aghiasmă**
+> 
+> Mare la Bobotează, mică la alte slujbe.
+
+### 76. Cântarea psaltică folosește:
+
+- a. opt glasuri
+- b. patru glasuri
+- c. douăsprezece glasuri
+- d. un singur mod
+
+> [!success]- Răspuns
+> **a. opt glasuri**
+> 
+> Susținută adesea de ison.
+
+### 77. Cântarea în cultul ortodox este:
+
+- a. vocală, fără instrumente
+- b. exclusiv instrumentală
+- c. rostită, nu cântată
+- d. opțională
+
+> [!success]- Răspuns
+> **a. vocală, fără instrumente**
+> 
+> Glasul purtător de cuvânt rămâne în centru.
+
+### 78. Ziua liturgică, în Ortodoxie, începe:
+
+- a. seara
+- b. la miezul nopții
+- c. dimineața
+- d. la prânz
+
+> [!success]- Răspuns
+> **a. seara**
+> 
+> După modelul biblic al creației.
+
+### 79. Însușirile Bisericii mărturisite în Crez sunt:
 
 - a. una, sfântă, sobornicească și apostolică
 - b. veche, bogată, puternică, numeroasă
@@ -453,7 +957,7 @@ cssclasses: test
 > 
 > Ele definesc identitatea ei.
 
-### 38. Apostolicitatea înseamnă:
+### 80. Apostolicitatea înseamnă:
 
 - a. continuitatea cu Apostolii
 - b. vechimea clădirilor
@@ -465,7 +969,7 @@ cssclasses: test
 > 
 > Se exprimă prin succesiunea apostolică.
 
-### 39. Tainele inițierii creștine sunt:
+### 81. Tainele inițierii creștine sunt:
 
 - a. Botezul, Mirungerea și Euharistia
 - b. Botezul, Cununia și Preoția
@@ -477,7 +981,7 @@ cssclasses: test
 > 
 > Ele introduc în viața Bisericii.
 
-### 40. Cuvântul „liturghie” înseamnă:
+### 82. Cuvântul „liturghie” înseamnă:
 
 - a. lucrare comună
 - b. rugăciune de seară
@@ -489,7 +993,7 @@ cssclasses: test
 > 
 > Arată caracterul comunitar al slujbei.
 
-### 41. Secretul spovedaniei este:
+### 83. Secretul spovedaniei este:
 
 - a. absolut
 - b. relativ
@@ -501,7 +1005,7 @@ cssclasses: test
 > 
 > Este o regulă fundamentală.
 
-### 42. Maslul se administrează:
+### 84. Maslul se administrează:
 
 - a. bolnavilor, pentru vindecare trupească și sufletească
 - b. doar muribunzilor
@@ -513,7 +1017,7 @@ cssclasses: test
 > 
 > Nu se confundă cu ultima împărtășanie.
 
-### 43. Sfânta Liturghie are:
+### 85. Sfânta Liturghie are:
 
 - a. două părți mari
 - b. trei părți
@@ -525,7 +1029,7 @@ cssclasses: test
 > 
 > Liturghia cuvântului și cea euharistică.
 
-### 44. Icoana este cinstită pentru:
+### 86. Icoana este cinstită pentru:
 
 - a. persoana pe care o înfățișează
 - b. materia din care e făcută
@@ -537,7 +1041,7 @@ cssclasses: test
 > 
 > Sinodul VII a formulat această precizare.
 
-### 45. Anul bisericesc începe la:
+### 87. Anul bisericesc începe la:
 
 - a. 1 septembrie
 - b. 1 ianuarie
@@ -549,7 +1053,79 @@ cssclasses: test
 > 
 > Cuprinde un ciclu fix și unul mobil.
 
-### 46. Postul are trei dimensiuni:
+### 88. O Biserică autocefală este una care:
+
+- a. se conduce singură, în comuniune cu celelalte
+- b. este independentă, fără comuniune
+- c. se supune unui conducător mondial
+- d. nu are ierarhie
+
+> [!success]- Răspuns
+> **a. se conduce singură, în comuniune cu celelalte**
+> 
+> Unitatea se ține prin credință.
+
+### 89. Biserica Ortodoxă Română a primit autocefalia în:
+
+- a. 1885
+- b. 1925
+- c. 1054
+- d. 1948
+
+> [!success]- Răspuns
+> **a. 1885**
+> 
+> Patriarhia, în 1925.
+
+### 90. Monahismul a apărut, în secolul al IV-lea, în:
+
+- a. pustia Egiptului
+- b. Roma
+- c. Constantinopol
+- d. Athos
+
+> [!success]- Răspuns
+> **a. pustia Egiptului**
+> 
+> Prin Sfântul Antonie cel Mare.
+
+### 91. Sfinții Chiril și Metodie au dat lumii slave:
+
+- a. un alfabet și cărți de cult
+- b. o armată
+- c. un imperiu
+- d. Evangheliile
+
+> [!success]- Răspuns
+> **a. un alfabet și cărți de cult**
+> 
+> Evanghelia se propovăduiește în limba fiecărui popor.
+
+### 92. Cele trei religii avraamice sunt:
+
+- a. iudaismul, creștinismul și islamul
+- b. hinduismul, budismul și șintoismul
+- c. ortodoxia, catolicismul, protestantismul
+- d. doar iudaismul și islamul
+
+> [!success]- Răspuns
+> **a. iudaismul, creștinismul și islamul**
+> 
+> Se revendică de la Avraam.
+
+### 93. Cartea sfântă a islamului este:
+
+- a. Coranul
+- b. Talmudul
+- c. Tora singură
+- d. Evanghelia
+
+> [!success]- Răspuns
+> **a. Coranul**
+> 
+> Apărut în secolul al VII-lea, prin Mahomed.
+
+### 94. Postul are trei dimensiuni:
 
 - a. înfrânare, rugăciune și milostenie
 - b. dietă, odihnă și tăcere
@@ -561,7 +1137,7 @@ cssclasses: test
 > 
 > Fără toate trei, își pierde sensul.
 
-### 47. Marea Schismă a fost consfințită în:
+### 95. Marea Schismă a fost consfințită în:
 
 - a. 1054
 - b. 1453
@@ -573,7 +1149,7 @@ cssclasses: test
 > 
 > Ruptura se pregătise de secole.
 
-### 48. Reforma protestantă a dus la:
+### 96. Reforma protestantă a dus la:
 
 - a. fragmentarea creștinismului occidental
 - b. unificarea creștinismului
@@ -585,7 +1161,7 @@ cssclasses: test
 > 
 > A început în secolul al XVI-lea.
 
-### 49. Biserica Greco-Catolică din România a fost desființată în:
+### 97. Biserica Greco-Catolică din România a fost desființată în:
 
 - a. 1948
 - b. 1918
@@ -597,7 +1173,7 @@ cssclasses: test
 > 
 > De regimul comunist.
 
-### 50. Știința și credința răspund:
+### 98. Știința și credința răspund:
 
 - a. la întrebări diferite
 - b. la aceleași întrebări, contradictoriu
@@ -609,7 +1185,7 @@ cssclasses: test
 > 
 > Una la „cum”, cealaltă la „de ce”.
 
-### 51. Scientismul este:
+### 99. Scientismul este:
 
 - a. convingerea că știința răspunde la toate întrebările
 - b. metoda științifică
@@ -621,7 +1197,7 @@ cssclasses: test
 > 
 > Este eroarea simetrică fundamentalismului.
 
-### 52. Religiile avraamice sunt:
+### 100. Religiile avraamice sunt:
 
 - a. iudaismul, creștinismul, islamul
 - b. hinduismul, budismul, șintoismul
@@ -633,7 +1209,7 @@ cssclasses: test
 > 
 > Se revendică de la Avraam.
 
-### 53. Dialogul interreligios presupune:
+### 101. Dialogul interreligios presupune:
 
 - a. cunoaștere exactă și respect, fără renunțare la propria credință
 - b. afirmația că toate religiile sunt la fel
@@ -645,7 +1221,7 @@ cssclasses: test
 > 
 > Colaborarea vizează pacea și demnitatea omului.
 
-### 54. Libertatea religioasă cuprinde:
+### 102. Libertatea religioasă cuprinde:
 
 - a. dreptul de a crede, de a nu crede și de a-și schimba credința
 - b. doar dreptul majorității

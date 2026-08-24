@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Icoana și arta bisericească
 
-[[Religie (clasa a XI-a)|Religie]] · [[Clasa a XI-a]] · lecția 5 din 9
+[[Religie (clasa a XI-a)|Religie]] · [[Clasa a XI-a]] · lecția 5 din 18
 
 **Capitolul:** Cult, artă, sărbători — semestrul 1
 
