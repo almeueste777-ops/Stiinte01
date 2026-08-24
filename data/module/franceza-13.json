@@ -792,12 +792,864 @@
      ]
     }
    ]
+  },
+  {
+   "id": "fra13-c4",
+   "titlu": "Sinteză gramaticală",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "fra13-10",
+     "titlu": "Acordul participiului trecut",
+     "rezumat": "Acordul participiului trecut (l'accord du participe passé) este una dintre marile dificultăți ale francezei scrise. Cu auxiliarul „être”, participiul se acordă în gen și număr cu subiectul: „elle est partie”, „ils sont venus”. Cu auxiliarul „avoir”, participiul NU se acordă cu subiectul, dar se acordă cu complementul direct dacă acesta e plasat înaintea verbului: „les fleurs que j'ai achetées” (COD-ul „que” = fleurs, feminin plural, antepus). Dacă COD-ul e după verb, nu există acord: „j'ai acheté des fleurs”. Verbele pronominale se acordă, de regulă, ca și cele cu „être”. Regula practică: cu „être”, acord cu subiectul; cu „avoir”, acord doar cu COD-ul antepus.",
+     "ideiCheie": [
+      "Cu „être”: participiul se acordă cu subiectul (elle est partie).",
+      "Cu „avoir”: nu se acordă cu subiectul.",
+      "Cu „avoir”: se acordă cu COD-ul dacă e antepus (les fleurs que j'ai achetées).",
+      "Fără acord dacă COD-ul e după verb (j'ai acheté des fleurs)."
+     ],
+     "termeni": [
+      {
+       "t": "accord du participe passé",
+       "d": "potrivirea în gen și număr a participiului trecut, după reguli fixe"
+      },
+      {
+       "t": "COD antepus",
+       "d": "complement direct plasat înaintea verbului, care declanșează acordul cu „avoir”"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cu ce se acordă participiul cu auxiliarul „être”?",
+       "v": "Cu subiectul, în gen și număr."
+      },
+      {
+       "f": "Când se acordă participiul cu auxiliarul „avoir”?",
+       "v": "Când COD-ul e plasat înaintea verbului."
+      },
+      {
+       "f": "„Elle est ___ (partir)” — ce formă?",
+       "v": "„Partie” (acord cu subiectul feminin)."
+      },
+      {
+       "f": "„J'ai acheté des fleurs” — de ce fără acord?",
+       "v": "COD-ul e după verb."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Elle est ______ (venir)” se completează cu:",
+       "optiuni": [
+        "venue",
+        "venu",
+        "venus",
+        "venir"
+       ],
+       "corect": 0,
+       "explicatie": "Cu „être”, acord cu subiectul feminin singular."
+      },
+      {
+       "intrebare": "Cu auxiliarul „avoir”, participiul se acordă:",
+       "optiuni": [
+        "cu COD-ul, dacă e antepus",
+        "mereu cu subiectul",
+        "niciodată",
+        "cu complementul indirect"
+       ],
+       "corect": 0,
+       "explicatie": "„Les livres que j'ai lus”."
+      },
+      {
+       "intrebare": "„J'ai acheté des pommes” — participiul:",
+       "optiuni": [
+        "nu se acordă (COD după verb)",
+        "se acordă cu subiectul",
+        "se acordă cu „pommes”",
+        "se pune la feminin"
+       ],
+       "corect": 0,
+       "explicatie": "Acordul cere COD antepus."
+      },
+      {
+       "intrebare": "„Les lettres que j'ai ______ (écrire)”:",
+       "optiuni": [
+        "écrites",
+        "écrit",
+        "écrits",
+        "écrire"
+       ],
+       "corect": 0,
+       "explicatie": "COD-ul „que” (lettres, fem. pl.), antepus → acord."
+      }
+     ]
+    },
+    {
+     "id": "fra13-11",
+     "titlu": "Prepozițiile și construcțiile verbale",
+     "rezumat": "Prepozițiile leagă cuvintele și exprimă relații de loc, timp, cauză, scop. Cele mai frecvente: „à” (loc, timp, atribuire), „de” (origine, posesie, materie), „en” (mod, materie, timp: „en France”, „en 2020”), „dans” (interior, timp viitor: „dans deux jours”), „pour” (scop), „par” (agent, mijloc). Multe verbe cer o prepoziție fixă înainte de infinitiv: unele „à” („commencer à”, „apprendre à”, „réussir à”), altele „de” („finir de”, „décider de”, „essayer de”, „oublier de”), iar altele nimic („vouloir”, „pouvoir”, „devoir” + infinitiv direct). Numele de țări cer prepoziții după gen: „en France”, „au Portugal”, „aux États-Unis”. Construcțiile verbale se memorează odată cu verbul lor.",
+     "ideiCheie": [
+      "Prepoziții-cheie: à, de, en, dans, pour, par.",
+      "Verbe + „à”: commencer à, apprendre à, réussir à.",
+      "Verbe + „de”: finir de, décider de, essayer de.",
+      "Verbe fără prepoziție: vouloir, pouvoir, devoir + infinitiv."
+     ],
+     "termeni": [
+      {
+       "t": "préposition",
+       "d": "cuvânt invariabil care leagă termeni și exprimă o relație"
+      },
+      {
+       "t": "construction verbale",
+       "d": "prepoziția fixă cerută de un verb înaintea infinitivului"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce prepoziție cere „commencer” înainte de infinitiv?",
+       "v": "„À”: „commencer à”."
+      },
+      {
+       "f": "Ce prepoziție cere „décider”?",
+       "v": "„De”: „décider de”."
+      },
+      {
+       "f": "Cum se spune „în Franța”?",
+       "v": "„En France”."
+      },
+      {
+       "f": "Ce verbe nu cer prepoziție înainte de infinitiv?",
+       "v": "Vouloir, pouvoir, devoir."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Je commence ______ comprendre” cere:",
+       "optiuni": [
+        "à",
+        "de",
+        "pour",
+        "en"
+       ],
+       "corect": 0,
+       "explicatie": "„Commencer à” + infinitiv."
+      },
+      {
+       "intrebare": "„Il a décidé ______ partir” cere:",
+       "optiuni": [
+        "de",
+        "à",
+        "pour",
+        "en"
+       ],
+       "corect": 0,
+       "explicatie": "„Décider de” + infinitiv."
+      },
+      {
+       "intrebare": "„Je vais ______ France” cere:",
+       "optiuni": [
+        "en",
+        "au",
+        "à",
+        "dans"
+       ],
+       "corect": 0,
+       "explicatie": "Țări feminine: „en France”."
+      },
+      {
+       "intrebare": "Care verb cere infinitiv direct (fără prepoziție)?",
+       "optiuni": [
+        "vouloir",
+        "commencer",
+        "décider",
+        "réussir"
+       ],
+       "corect": 0,
+       "explicatie": "„Je veux partir”."
+      }
+     ]
+    },
+    {
+     "id": "fra13-12",
+     "titlu": "Negația și restricția",
+     "rezumat": "Negația de bază încadrează verbul cu „ne… pas”: „je ne comprends pas”. Alte forme adaugă un sens propriu: „ne… plus” (nu mai), „ne… jamais” (niciodată), „ne… rien” (nimic), „ne… personne” (nimeni), „ne… que” (numai — restricție, nu negație), „ne… ni… ni” (nici… nici). La timpurile compuse, „ne… pas” încadrează auxiliarul: „je n'ai pas compris”; „personne” se pune după participiu: „je n'ai vu personne”. „Ne… que” nu neagă, ci restrânge: „il ne mange que des légumes” = mănâncă doar legume. În registrul familiar oral, „ne” dispare adesea, dar în scris el este obligatoriu.",
+     "ideiCheie": [
+      "Negația de bază: „ne… pas” încadrează verbul sau auxiliarul.",
+      "Forme: ne… plus, ne… jamais, ne… rien, ne… personne, ne… ni… ni.",
+      "„Ne… que” nu neagă, ci restrânge (= numai).",
+      "În scris, „ne” este obligatoriu, deși oral dispare."
+     ],
+     "termeni": [
+      {
+       "t": "négation",
+       "d": "exprimarea contrariului, în franceză prin două elemente (ne… pas)"
+      },
+      {
+       "t": "restriction",
+       "d": "limitarea la un singur caz, exprimată prin „ne… que” (= numai)"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se exprimă „nu mai”?",
+       "v": "„Ne… plus”: „je ne travaille plus”."
+      },
+      {
+       "f": "Ce înseamnă „ne… que”?",
+       "v": "„Numai” — restricție, nu negație."
+      },
+      {
+       "f": "Unde se pune „ne… pas” la timpurile compuse?",
+       "v": "Încadrează auxiliarul: „je n'ai pas compris”."
+      },
+      {
+       "f": "Este „ne” obligatoriu în scris?",
+       "v": "Da, deși în vorbirea familiară dispare."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Ne… que” exprimă:",
+       "optiuni": [
+        "o restricție (numai)",
+        "o negație totală",
+        "o interogație",
+        "o cauză"
+       ],
+       "corect": 0,
+       "explicatie": "„Il ne boit que de l'eau” = doar apă."
+      },
+      {
+       "intrebare": "„Je ______ comprends plus” (nu mai înțeleg):",
+       "optiuni": [
+        "ne",
+        "pas",
+        "que",
+        "jamais"
+       ],
+       "corect": 0,
+       "explicatie": "„Ne… plus” încadrează verbul."
+      },
+      {
+       "intrebare": "La timpurile compuse, „ne… pas” încadrează:",
+       "optiuni": [
+        "auxiliarul",
+        "participiul",
+        "subiectul",
+        "complementul"
+       ],
+       "corect": 0,
+       "explicatie": "„Je n'ai pas compris”."
+      },
+      {
+       "intrebare": "„Nu am văzut pe nimeni” se spune:",
+       "optiuni": [
+        "Je n'ai vu personne",
+        "Je n'ai pas vu personne",
+        "Je ne vu personne",
+        "Je n'ai personne vu"
+       ],
+       "corect": 0,
+       "explicatie": "„Personne” se pune după participiu."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fra13-c5",
+   "titlu": "Producerea de texte",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "fra13-13",
+     "titlu": "Povestirea și descrierea",
+     "rezumat": "Producerea de texte cere stăpânirea povestirii (le récit) și a descrierii. Povestirea relatează evenimente în ordine, folosind mai ales passé composé pentru acțiuni punctuale și imparfait pentru fundal, circumstanțe și descrieri în trecut: „il faisait beau (fundal) quand elle est arrivée (acțiune)”. Conectorii temporali organizează firul: „d'abord”, „puis”, „ensuite”, „soudain”, „enfin”. Descrierea prezintă locuri, persoane, obiecte, folosind imperfectul (în trecut), adjective bogate și complemente de loc. Un text bun îmbină cele două. La examen contează coerența timpurilor, varietatea vocabularului și corectitudinea; trecerea greșită între passé composé și imparfait e o eroare frecventă.",
+     "ideiCheie": [
+      "Povestirea: passé composé (acțiuni) + imparfait (fundal, descrieri).",
+      "Conectori temporali: d'abord, puis, ensuite, soudain, enfin.",
+      "Descrierea folosește imperfectul, adjective și complemente de loc.",
+      "Coerența timpurilor trecute e o dificultate frecventă."
+     ],
+     "termeni": [
+      {
+       "t": "récit",
+       "d": "text care relatează evenimente în ordine"
+      },
+      {
+       "t": "imparfait",
+       "d": "timp trecut pentru fundal, circumstanțe și descrieri"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce timp exprimă fundalul unei povestiri în trecut?",
+       "v": "Imperfectul (imparfait)."
+      },
+      {
+       "f": "Ce timp exprimă acțiunile punctuale?",
+       "v": "Passé composé."
+      },
+      {
+       "f": "Numește conectori temporali.",
+       "v": "D'abord, puis, ensuite, soudain, enfin."
+      },
+      {
+       "f": "Ce timp folosește descrierea în trecut?",
+       "v": "Imperfectul."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "În „Il ______ (dormir) quand le téléphone a sonné”:",
+       "optiuni": [
+        "dormait",
+        "a dormi",
+        "a dormit",
+        "dort"
+       ],
+       "corect": 0,
+       "explicatie": "Fundalul cere imperfectul; acțiunea, passé composé."
+      },
+      {
+       "intrebare": "Acțiunile punctuale ale unei povestiri se exprimă cu:",
+       "optiuni": [
+        "passé composé",
+        "imparfait",
+        "présent",
+        "futur"
+       ],
+       "corect": 0,
+       "explicatie": "Imperfectul dă fundalul."
+      },
+      {
+       "intrebare": "Conectorul temporal care marchează o ruptură bruscă este:",
+       "optiuni": [
+        "soudain",
+        "d'abord",
+        "enfin",
+        "donc"
+       ],
+       "corect": 0,
+       "explicatie": "„Soudain” = deodată."
+      },
+      {
+       "intrebare": "Descrierea în trecut folosește mai ales:",
+       "optiuni": [
+        "imperfectul",
+        "passé composé",
+        "viitorul",
+        "condiționalul"
+       ],
+       "corect": 0,
+       "explicatie": "Imperfectul redă circumstanțele."
+      }
+     ]
+    },
+    {
+     "id": "fra13-14",
+     "titlu": "Scrisoarea și mesajul",
+     "rezumat": "Scrisoarea și mesajul cer adecvarea la destinatar și la scop. Scrisoarea formală respectă un format: formula de adresare („Madame, Monsieur,”), corpul clar și politicos, formula de încheiere („Je vous prie d'agréer, Madame, Monsieur, mes salutations distinguées”), semnătura; se folosește „vous”, un ton respectuos, fără abrevieri. Mesajul informal (e-mail, scrisoare către un prieten) se adresează pe nume („Cher Paul,”, „Salut,”), admite „tu” și un ton relaxat, iar încheierea e simplă („Amitiés”, „À bientôt”). Verbele-cheie ale corespondenței: „informer”, „remercier”, „s'excuser”, „demander”, „inviter”. La examen se cere respectarea formatului, a registrului și a scopului; o eroare frecventă e amestecul „tu”/„vous” în același text.",
+     "ideiCheie": [
+      "Scrisoarea formală: formulă de adresare, corp politicos, formulă de încheiere.",
+      "Formal: „vous”, ton respectuos, fără abrevieri.",
+      "Informal: pe nume, „tu”, încheiere simplă (Amitiés, À bientôt).",
+      "Se respectă formatul, registrul și scopul; nu se amestecă „tu”/„vous”."
+     ],
+     "termeni": [
+      {
+       "t": "registre formel",
+       "d": "nivel de limbă politicos, cu „vous” și formule fixe"
+      },
+      {
+       "t": "formule de politesse",
+       "d": "expresie convențională de deschidere sau de încheiere a unei scrisori"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce pronume folosește scrisoarea formală?",
+       "v": "„Vous”."
+      },
+      {
+       "f": "Cu ce se încheie o scrisoare formală?",
+       "v": "Cu o formulă de politețe."
+      },
+      {
+       "f": "Cum se adresează un mesaj informal?",
+       "v": "Pe nume: „Cher Paul,”, „Salut,”."
+      },
+      {
+       "f": "Ce eroare de registru trebuie evitată?",
+       "v": "Amestecul „tu”/„vous” în același text."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Scrisoarea formală folosește:",
+       "optiuni": [
+        "„vous” și formule de politețe",
+        "„tu” și abrevieri",
+        "argou",
+        "prescurtări"
+       ],
+       "corect": 0,
+       "explicatie": "Registrul formal cere respect și claritate."
+      },
+      {
+       "intrebare": "O încheiere informală potrivită este:",
+       "optiuni": [
+        "À bientôt",
+        "Salutations distinguées",
+        "Veuillez agréer",
+        "Je vous prie d'agréer"
+       ],
+       "corect": 0,
+       "explicatie": "Formulele lungi aparțin registrului formal."
+      },
+      {
+       "intrebare": "Într-o scrisoare, greșeala de registru frecventă este:",
+       "optiuni": [
+        "amestecul „tu”/„vous”",
+        "folosirea paragrafelor",
+        "semnătura",
+        "data"
+       ],
+       "corect": 0,
+       "explicatie": "Registrul trebuie păstrat unitar."
+      },
+      {
+       "intrebare": "Verbul potrivit pentru „a mulțumi” este:",
+       "optiuni": [
+        "remercier",
+        "s'excuser",
+        "inviter",
+        "informer"
+       ],
+       "corect": 0,
+       "explicatie": "„S'excuser” = a-și cere scuze."
+      }
+     ]
+    },
+    {
+     "id": "fra13-15",
+     "titlu": "Rezumatul și sinteza",
+     "rezumat": "Rezumatul (le résumé) reduce un text la ideile lui esențiale, păstrând sensul și ordinea, dar cu propriile cuvinte și la o lungime mult mai mică. Regulile: se identifică ideea fiecărei părți, se elimină exemplele și repetițiile, se reformulează fără a copia fraze întregi, se păstrează punctul de vedere al autorului, fără a adăuga păreri proprii. Sinteza (la synthèse) merge mai departe: confruntă mai multe texte pe aceeași temă și le organizează ideile într-un tot coerent, arătând convergențele și divergențele. Ambele cer înțelegere fină, capacitate de reformulare și organizare logică; o eroare frecventă e copierea unor fraze din text în loc de reformulare.",
+     "ideiCheie": [
+      "Rezumatul reduce textul la esențial, cu propriile cuvinte, păstrând sensul.",
+      "Se elimină exemplele și repetițiile; se păstrează punctul de vedere al autorului.",
+      "Sinteza confruntă mai multe texte pe aceeași temă.",
+      "Se cere reformulare, nu copiere de fraze."
+     ],
+     "termeni": [
+      {
+       "t": "résumé",
+       "d": "reducerea unui text la ideile esențiale, cu propriile cuvinte"
+      },
+      {
+       "t": "synthèse",
+       "d": "confruntarea și organizarea ideilor din mai multe texte pe aceeași temă"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce păstrează un rezumat bun?",
+       "v": "Ideile esențiale, sensul și punctul de vedere al autorului."
+      },
+      {
+       "f": "Ce se elimină într-un rezumat?",
+       "v": "Exemplele și repetițiile."
+      },
+      {
+       "f": "Prin ce diferă sinteza de rezumat?",
+       "v": "Sinteza confruntă mai multe texte."
+      },
+      {
+       "f": "Ce greșeală trebuie evitată la rezumat?",
+       "v": "Copierea frazelor în loc de reformulare."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Un rezumat bun:",
+       "optiuni": [
+        "reformulează ideile esențiale cu propriile cuvinte",
+        "copiază frazele importante",
+        "adaugă opiniile cititorului",
+        "schimbă sensul textului"
+       ],
+       "corect": 0,
+       "explicatie": "Se păstrează sensul, nu formularea."
+      },
+      {
+       "intrebare": "Într-un rezumat se elimină:",
+       "optiuni": [
+        "exemplele și repetițiile",
+        "ideile principale",
+        "concluzia autorului",
+        "structura logică"
+       ],
+       "corect": 0,
+       "explicatie": "Rămâne esențialul."
+      },
+      {
+       "intrebare": "Sinteza, spre deosebire de rezumat:",
+       "optiuni": [
+        "confruntă mai multe texte",
+        "se face dintr-un singur text",
+        "adaugă păreri personale",
+        "e mai lungă decât originalul"
+       ],
+       "corect": 0,
+       "explicatie": "Ea arată convergențe și divergențe."
+      },
+      {
+       "intrebare": "La rezumat, punctul de vedere păstrat este:",
+       "optiuni": [
+        "al autorului textului",
+        "al cititorului",
+        "al profesorului",
+        "neutru și absent"
+       ],
+       "corect": 0,
+       "explicatie": "Nu se adaugă opinii proprii."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fra13-c6",
+   "titlu": "Cultură și examen",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "fra13-16",
+     "titlu": "Repere de cultură și civilizație franceză",
+     "rezumat": "Cunoașterea civilizației franceze ajută la înțelegerea textelor și la proba orală. Franța este o republică (a Cincea Republică, din 1958), cu deviza „Liberté, Égalité, Fraternité” și sărbătoarea națională la 14 iulie (căderea Bastiliei, 1789). Parisul, capitala, e un mare centru cultural: Turnul Eiffel, Luvrul, Notre-Dame. Franța a dat lumii mari scriitori (Molière, Victor Hugo, Balzac, Camus), filosofi (Descartes, Voltaire, Rousseau, Sartre), artiști (impresioniștii Monet, Renoir) și oameni de știință (Pasteur, Marie Curie). Gastronomia, moda și cinematograful francez au influență mondială. Aceste repere fac parte din competența culturală așteptată la un nivel avansat de limbă.",
+     "ideiCheie": [
+      "Franța: republică, deviza „Liberté, Égalité, Fraternité”, ziua națională 14 iulie.",
+      "Paris: centru cultural (Turnul Eiffel, Luvrul, Notre-Dame).",
+      "Mari scriitori și filosofi: Hugo, Balzac, Camus, Voltaire, Rousseau.",
+      "Gastronomie, modă, cinema — influență mondială."
+     ],
+     "termeni": [
+      {
+       "t": "civilisation française",
+       "d": "ansamblul reperelor istorice, culturale și sociale ale Franței"
+      },
+      {
+       "t": "devise",
+       "d": "formulă care exprimă un ideal (pentru Franța: „Liberté, Égalité, Fraternité”)"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care este deviza Franței?",
+       "v": "„Liberté, Égalité, Fraternité”."
+      },
+      {
+       "f": "Când este ziua națională a Franței?",
+       "v": "La 14 iulie."
+      },
+      {
+       "f": "Numește un mare scriitor francez.",
+       "v": "Victor Hugo (sau Molière, Balzac, Camus)."
+      },
+      {
+       "f": "Ce eveniment amintește ziua de 14 iulie?",
+       "v": "Căderea Bastiliei (1789)."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Deviza Franței este:",
+       "optiuni": [
+        "Liberté, Égalité, Fraternité",
+        "Dieu et mon droit",
+        "In varietate concordia",
+        "Un pour tous"
+       ],
+       "corect": 0,
+       "explicatie": "Deviza Republicii Franceze."
+      },
+      {
+       "intrebare": "Ziua națională a Franței este:",
+       "optiuni": [
+        "14 iulie",
+        "1 mai",
+        "11 noiembrie",
+        "25 decembrie"
+       ],
+       "corect": 0,
+       "explicatie": "Ea amintește căderea Bastiliei (1789)."
+      },
+      {
+       "intrebare": "Autorul romanului „Les Misérables” este:",
+       "optiuni": [
+        "Victor Hugo",
+        "Molière",
+        "Voltaire",
+        "Balzac"
+       ],
+       "corect": 0,
+       "explicatie": "Hugo e un mare scriitor romantic francez."
+      },
+      {
+       "intrebare": "Un mare filosof francez al Iluminismului este:",
+       "optiuni": [
+        "Voltaire",
+        "Monet",
+        "Pasteur",
+        "Molière"
+       ],
+       "corect": 0,
+       "explicatie": "Voltaire și Rousseau au marcat Iluminismul."
+      }
+     ]
+    },
+    {
+     "id": "fra13-17",
+     "titlu": "Literatura francofonă",
+     "rezumat": "Literatura de limbă franceză nu se reduce la Franța: ea cuprinde autori din întreaga francofonie — din Belgia (Simenon, Maeterlinck), din Elveția, din Québec (Gabrielle Roy), din Africa (Léopold Sédar Senghor, unul dintre creatorii mișcării Négritude, Ahmadou Kourouma), din Caraibe (Aimé Césaire, Édouard Glissant) și din Maghreb (Tahar Ben Jelloun). Aceste literaturi aduc teme proprii: identitatea, colonizarea și decolonizarea, exilul, întâlnirea culturilor. Mișcarea Négritude, din anii 1930, a afirmat valorile culturii negro-africane în limba franceză. A citi literatura francofonă înseamnă a descoperi o limbă vie, purtătoare de experiențe diverse; la examen, referințele culturale îmbogățesc exprimarea.",
+     "ideiCheie": [
+      "Literatura francofonă cuprinde autori din Belgia, Québec, Africa, Caraibe, Maghreb.",
+      "Teme proprii: identitatea, (de)colonizarea, exilul, întâlnirea culturilor.",
+      "Négritude (anii 1930): afirmarea culturii negro-africane în franceză.",
+      "Senghor și Césaire sunt figuri centrale ale acestei mișcări."
+     ],
+     "termeni": [
+      {
+       "t": "littérature francophone",
+       "d": "literatura scrisă în franceză în afara Franței, în spațiul francofon"
+      },
+      {
+       "t": "Négritude",
+       "d": "mișcare literară care afirmă valorile culturii negro-africane în limba franceză"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce cuprinde literatura francofonă?",
+       "v": "Autori de limbă franceză din afara Franței."
+      },
+      {
+       "f": "Ce este mișcarea Négritude?",
+       "v": "Afirmarea culturii negro-africane în limba franceză."
+      },
+      {
+       "f": "Numește un autor al Négritude.",
+       "v": "Léopold Sédar Senghor (sau Aimé Césaire)."
+      },
+      {
+       "f": "Ce teme aduce literatura francofonă?",
+       "v": "Identitatea, colonizarea, exilul, întâlnirea culturilor."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Literatura francofonă cuprinde:",
+       "optiuni": [
+        "autori de limbă franceză din afara Franței",
+        "doar autori din Paris",
+        "doar literatura medievală",
+        "numai texte traduse"
+       ],
+       "corect": 0,
+       "explicatie": "Belgia, Québec, Africa, Caraibe etc."
+      },
+      {
+       "intrebare": "Mișcarea Négritude afirmă:",
+       "optiuni": [
+        "valorile culturii negro-africane în franceză",
+        "superioritatea limbii franceze",
+        "clasicismul francez",
+        "romantismul german"
+       ],
+       "corect": 0,
+       "explicatie": "Senghor și Césaire sunt figuri centrale."
+      },
+      {
+       "intrebare": "Un reprezentant al Négritude este:",
+       "optiuni": [
+        "Léopold Sédar Senghor",
+        "Victor Hugo",
+        "Molière",
+        "Voltaire"
+       ],
+       "corect": 0,
+       "explicatie": "Senghor a fost și președinte al Senegalului."
+      },
+      {
+       "intrebare": "O temă frecventă a literaturii francofone este:",
+       "optiuni": [
+        "identitatea și întâlnirea culturilor",
+        "mitologia greacă",
+        "viața la curtea regelui-soare",
+        "exclusiv natura"
+       ],
+       "corect": 0,
+       "explicatie": "Colonizarea și exilul sunt teme proprii."
+      }
+     ]
+    },
+    {
+     "id": "fra13-18",
+     "titlu": "Strategii pentru proba de competențe",
+     "rezumat": "Proba de competențe lingvistice la bacalaureat testează înțelegerea (de text scris și, uneori, oral) și producerea (scrisă și orală). Pentru înțelegere: se citește textul de două ori, se subliniază cuvintele-cheie, se răspunde cu propriile cuvinte, fără a copia, iar contextul ajută la deducerea cuvintelor necunoscute. Pentru producere: se planifică (idei, plan), se scrie clar și organizat, se folosesc conectori, se respectă lungimea și tema, iar la final se recitește pentru gramatică, acorduri și ortografie. La oral: se vorbește clar, se dau exemple, se cere reformularea dacă nu s-a înțeles o întrebare. Strategia generală: gestionarea timpului, calmul și verificarea finală.",
+     "ideiCheie": [
+      "Proba testează înțelegerea și producerea, scrisă și orală.",
+      "La înțelegere: citește de două ori, deduce din context, răspunde cu propriile cuvinte.",
+      "La producere: planifică, folosește conectori, recitește pentru acorduri și ortografie.",
+      "Strategia: gestionarea timpului, calmul, verificarea finală."
+     ],
+     "termeni": [
+      {
+       "t": "compréhension écrite",
+       "d": "proba de înțelegere a unui text scris"
+      },
+      {
+       "t": "production écrite",
+       "d": "proba de redactare a unui text pe o temă dată"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce testează proba de competențe?",
+       "v": "Înțelegerea și producerea, scrisă și orală."
+      },
+      {
+       "f": "Ce faci la înțelegerea unui text?",
+       "v": "Citești de două ori și deduci din context."
+      },
+      {
+       "f": "Ce se face după redactare?",
+       "v": "Se recitește pentru acorduri, gramatică și ortografie."
+      },
+      {
+       "f": "Cum se răspunde la comprehensiune?",
+       "v": "Cu propriile cuvinte, fără a copia."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "La proba de înțelegere se recomandă:",
+       "optiuni": [
+        "citirea textului de două ori și deducerea din context",
+        "copierea frazelor din text",
+        "traducerea integrală în română",
+        "ignorarea cuvintelor necunoscute"
+       ],
+       "corect": 0,
+       "explicatie": "Contextul ajută la deducere."
+      },
+      {
+       "intrebare": "Ultima etapă a producerii scrise este:",
+       "optiuni": [
+        "recitirea pentru acorduri și ortografie",
+        "numărarea cuvintelor",
+        "traducerea",
+        "copierea planului"
+       ],
+       "corect": 0,
+       "explicatie": "Verificarea prinde greșelile."
+      },
+      {
+       "intrebare": "La comprehensiune, răspunsul se dă:",
+       "optiuni": [
+        "cu propriile cuvinte",
+        "copiind din text",
+        "în română",
+        "printr-un singur cuvânt"
+       ],
+       "corect": 0,
+       "explicatie": "Reformularea arată înțelegerea."
+      },
+      {
+       "intrebare": "O strategie generală bună la examen este:",
+       "optiuni": [
+        "gestionarea timpului și verificarea finală",
+        "graba și predarea rapidă",
+        "lăsarea itemilor grei nerezolvați",
+        "evitarea planificării"
+       ],
+       "corect": 0,
+       "explicatie": "Calmul și verificarea aduc puncte."
+      }
+     ]
+    }
+   ]
   }
  ],
  "teze": [
   {
    "semestru": 1,
    "test": [
+    {
+     "intrebare": "„Elle est ______ (aller) au marché”:",
+     "optiuni": [
+      "allée",
+      "allé",
+      "allés",
+      "aller"
+     ],
+     "corect": 0,
+     "explicatie": "Cu „être”, acord cu subiectul feminin."
+    },
+    {
+     "intrebare": "„Je commence ______ comprendre” cere:",
+     "optiuni": [
+      "à",
+      "de",
+      "pour",
+      "en"
+     ],
+     "corect": 0,
+     "explicatie": "„Commencer à” + infinitiv."
+    },
+    {
+     "intrebare": "„Ne… que” exprimă:",
+     "optiuni": [
+      "o restricție (numai)",
+      "o negație totală",
+      "o întrebare",
+      "o cauză"
+     ],
+     "corect": 0,
+     "explicatie": "„Il ne mange que des fruits”."
+    },
+    {
+     "intrebare": "„Les fleurs que j'ai ______ (acheter)”:",
+     "optiuni": [
+      "achetées",
+      "acheté",
+      "achetés",
+      "acheter"
+     ],
+     "corect": 0,
+     "explicatie": "COD antepus (fem. pl.) → acord."
+    },
+    {
+     "intrebare": "„Je vais ______ Portugal” cere:",
+     "optiuni": [
+      "au",
+      "en",
+      "à",
+      "dans"
+     ],
+     "corect": 0,
+     "explicatie": "Țări masculine: „au Portugal”."
+    },
+    {
+     "intrebare": "Cu auxiliarul „avoir”, participiul se acordă:",
+     "optiuni": [
+      "cu COD-ul antepus",
+      "mereu cu subiectul",
+      "niciodată",
+      "cu complementul indirect"
+     ],
+     "corect": 0,
+     "explicatie": "„Les livres que j'ai lus”."
+    },
     {
      "intrebare": "Sistemul verbal francez se organizează pe axele:",
      "optiuni": [
@@ -902,6 +1754,72 @@
   {
    "semestru": 2,
    "test": [
+    {
+     "intrebare": "În povestire, fundalul se exprimă cu:",
+     "optiuni": [
+      "imperfectul",
+      "passé composé",
+      "viitorul",
+      "condiționalul"
+     ],
+     "corect": 0,
+     "explicatie": "Acțiunile punctuale cer passé composé."
+    },
+    {
+     "intrebare": "Un rezumat bun:",
+     "optiuni": [
+      "reformulează ideile esențiale cu propriile cuvinte",
+      "copiază frazele din text",
+      "adaugă opinii proprii",
+      "e mai lung decât originalul"
+     ],
+     "corect": 0,
+     "explicatie": "Se păstrează sensul."
+    },
+    {
+     "intrebare": "Deviza Franței este:",
+     "optiuni": [
+      "Liberté, Égalité, Fraternité",
+      "Dieu et mon droit",
+      "E pluribus unum",
+      "Un pour tous"
+     ],
+     "corect": 0,
+     "explicatie": "Deviza Republicii."
+    },
+    {
+     "intrebare": "Mișcarea Négritude a fost afirmată de:",
+     "optiuni": [
+      "Senghor și Césaire",
+      "Hugo și Balzac",
+      "Molière și Racine",
+      "Monet și Renoir"
+     ],
+     "corect": 0,
+     "explicatie": "Ea valorizează cultura negro-africană."
+    },
+    {
+     "intrebare": "Scrisoarea formală folosește:",
+     "optiuni": [
+      "„vous” și formule de politețe",
+      "„tu” și abrevieri",
+      "argou",
+      "emoticoane"
+     ],
+     "corect": 0,
+     "explicatie": "Registrul formal e obligatoriu."
+    },
+    {
+     "intrebare": "La proba orală se recomandă:",
+     "optiuni": [
+      "a vorbi clar și a da exemple",
+      "a memora un text fix",
+      "a evita orice exemplu",
+      "a răspunde monosilabic"
+     ],
+     "corect": 0,
+     "explicatie": "Reformularea și exemplele ajută."
+    },
     {
      "intrebare": "Planul dialectic al unui eseu cuprinde:",
      "optiuni": [

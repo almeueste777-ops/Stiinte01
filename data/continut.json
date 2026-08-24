@@ -2,10 +2,10 @@
   "version": "03",
   "actualizat": "2026-08-24",
   "nrModule": 60,
-  "nrLectii": 1115,
-  "nrCarduri": 4460,
-  "nrIntrebari": 4460,
-  "nrIntrebariTeze": 1888,
+  "nrLectii": 1124,
+  "nrCarduri": 4496,
+  "nrIntrebari": 4496,
+  "nrIntrebariTeze": 1900,
   "module": [
     {
       "id": "geografie-9",
@@ -8408,10 +8408,10 @@
       "bac": false,
       "socioUman": false,
       "descriere": "Sinteză și consolidare: recapitularea structurilor, producerea de texte complexe, cultura francofonă și competențele de examen.",
-      "nrLectii": 9,
-      "nrCarduri": 36,
-      "nrIntrebari": 36,
-      "nrIntrebariTeze": 18,
+      "nrLectii": 18,
+      "nrCarduri": 72,
+      "nrIntrebari": 72,
+      "nrIntrebariTeze": 30,
       "capitole": [
         {
           "id": "fra13-c1",
@@ -8469,16 +8469,73 @@
               "titlu": "Sinteză: ce înseamnă să știi o limbă"
             }
           ]
+        },
+        {
+          "id": "fra13-c4",
+          "titlu": "Sinteză gramaticală",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fra13-10",
+              "titlu": "Acordul participiului trecut"
+            },
+            {
+              "id": "fra13-11",
+              "titlu": "Prepozițiile și construcțiile verbale"
+            },
+            {
+              "id": "fra13-12",
+              "titlu": "Negația și restricția"
+            }
+          ]
+        },
+        {
+          "id": "fra13-c5",
+          "titlu": "Producerea de texte",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "fra13-13",
+              "titlu": "Povestirea și descrierea"
+            },
+            {
+              "id": "fra13-14",
+              "titlu": "Scrisoarea și mesajul"
+            },
+            {
+              "id": "fra13-15",
+              "titlu": "Rezumatul și sinteza"
+            }
+          ]
+        },
+        {
+          "id": "fra13-c6",
+          "titlu": "Cultură și examen",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "fra13-16",
+              "titlu": "Repere de cultură și civilizație franceză"
+            },
+            {
+              "id": "fra13-17",
+              "titlu": "Literatura francofonă"
+            },
+            {
+              "id": "fra13-18",
+              "titlu": "Strategii pentru proba de competențe"
+            }
+          ]
         }
       ],
       "teze": [
         {
           "semestru": 1,
-          "nrIntrebari": 9
+          "nrIntrebari": 15
         },
         {
           "semestru": 2,
-          "nrIntrebari": 9
+          "nrIntrebari": 15
         }
       ]
     },
