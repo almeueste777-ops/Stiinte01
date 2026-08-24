@@ -2,10 +2,10 @@
   "version": "03",
   "actualizat": "2026-08-24",
   "nrModule": 60,
-  "nrLectii": 1106,
-  "nrCarduri": 4424,
-  "nrIntrebari": 4424,
-  "nrIntrebariTeze": 1876,
+  "nrLectii": 1115,
+  "nrCarduri": 4460,
+  "nrIntrebari": 4460,
+  "nrIntrebariTeze": 1888,
   "module": [
     {
       "id": "geografie-9",
@@ -6560,10 +6560,10 @@
       "bac": false,
       "socioUman": false,
       "descriere": "Sintaxa frazei complexe, nuanțele lexicale, texte de specialitate și teme de dezbatere contemporană.",
-      "nrLectii": 9,
-      "nrCarduri": 36,
-      "nrIntrebari": 36,
-      "nrIntrebariTeze": 18,
+      "nrLectii": 18,
+      "nrCarduri": 72,
+      "nrIntrebari": 72,
+      "nrIntrebariTeze": 30,
       "capitole": [
         {
           "id": "fra12-c1",
@@ -6621,16 +6621,73 @@
               "titlu": "Mobilitate, studii, interculturalitate"
             }
           ]
+        },
+        {
+          "id": "fra12-c4",
+          "titlu": "Timpuri și moduri verbale",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fra12-10",
+              "titlu": "Subjonctivul: forme și folosire"
+            },
+            {
+              "id": "fra12-11",
+              "titlu": "Condiționalul și fraza ipotetică"
+            },
+            {
+              "id": "fra12-12",
+              "titlu": "Concordanța timpurilor și discursul indirect"
+            }
+          ]
+        },
+        {
+          "id": "fra12-c5",
+          "titlu": "Lexic și exprimare",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "fra12-13",
+              "titlu": "Pronumele: complemente, y, en, relative"
+            },
+            {
+              "id": "fra12-14",
+              "titlu": "Exprimarea opiniei și argumentarea"
+            },
+            {
+              "id": "fra12-15",
+              "titlu": "Registrele de limbă și expresiile idiomatice"
+            }
+          ]
+        },
+        {
+          "id": "fra12-c6",
+          "titlu": "Texte și teme contemporane",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "fra12-16",
+              "titlu": "Textul argumentativ"
+            },
+            {
+              "id": "fra12-17",
+              "titlu": "Francofonia"
+            },
+            {
+              "id": "fra12-18",
+              "titlu": "Teme de dezbatere contemporane"
+            }
+          ]
         }
       ],
       "teze": [
         {
           "semestru": 1,
-          "nrIntrebari": 9
+          "nrIntrebari": 15
         },
         {
           "semestru": 2,
-          "nrIntrebari": 9
+          "nrIntrebari": 15
         }
       ]
     },

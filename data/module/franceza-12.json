@@ -792,12 +792,864 @@
      ]
     }
    ]
+  },
+  {
+   "id": "fra12-c4",
+   "titlu": "Timpuri și moduri verbale",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "fra12-10",
+     "titlu": "Subjonctivul: forme și folosire",
+     "rezumat": "Subjonctivul (le subjonctif) este modul incertitudinii, al voinței, al sentimentului și al necesității, spre deosebire de indicativ, modul faptului real; el apare mai ales în subordonate introduse prin „que”. Subjonctivul prezent se formează de la radicalul persoanei a treia plural a indicativului prezent, plus terminațiile -e, -es, -e, -ions, -iez, -ent: „que je parle”, „que nous finissions”. Verbele neregulate importante: être (que je sois), avoir (que j'aie), aller (que j'aille), faire (que je fasse), pouvoir (que je puisse), savoir (que je sache). Subjonctivul se cere după verbe de voință (vouloir que, souhaiter que), de sentiment (être content que, avoir peur que), de necesitate și îndoială (il faut que, il est possible que, douter que) și după anumite conjuncții (bien que, pour que, avant que). După verbele de opinie la formă negativă („je ne pense pas que”) se folosește tot subjonctivul.",
+     "ideiCheie": [
+      "Subjonctivul e modul incertitudinii, voinței și sentimentului.",
+      "Se formează de la radicalul pers. a III-a plural + -e, -es, -e, -ions, -iez, -ent.",
+      "Se cere după il faut que, vouloir que, bien que, pour que.",
+      "Verbe neregulate: sois, aie, aille, fasse, puisse, sache."
+     ],
+     "termeni": [
+      {
+       "t": "subjonctif",
+       "d": "mod verbal al incertitudinii, voinței și sentimentului, folosit mai ales după „que”"
+      },
+      {
+       "t": "verbe de volonté",
+       "d": "verb care exprimă voință (vouloir, souhaiter) și cere subjonctivul"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce mod cere „il faut que”?",
+       "v": "Subjonctivul."
+      },
+      {
+       "f": "Cum se formează subjonctivul prezent?",
+       "v": "De la radicalul pers. a III-a plural + -e, -es, -e, -ions, -iez, -ent."
+      },
+      {
+       "f": "Care e subjonctivul lui „être” la persoana I?",
+       "v": "„Que je sois”."
+      },
+      {
+       "f": "Ce mod se folosește după „je ne pense pas que”?",
+       "v": "Subjonctivul."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Il faut que tu ______ ici” se completează cu:",
+       "optiuni": [
+        "sois",
+        "es",
+        "seras",
+        "étais"
+       ],
+       "corect": 0,
+       "explicatie": "„Il faut que” cere subjonctivul lui „être”: sois."
+      },
+      {
+       "intrebare": "Subjonctivul exprimă, în esență:",
+       "optiuni": [
+        "incertitudinea, voința, sentimentul",
+        "faptul real și sigur",
+        "doar trecutul",
+        "doar viitorul"
+       ],
+       "corect": 0,
+       "explicatie": "Indicativul e modul faptului real."
+      },
+      {
+       "intrebare": "Subjonctivul prezent se formează de la radicalul:",
+       "optiuni": [
+        "persoanei a III-a plural a indicativului prezent",
+        "infinitivului",
+        "persoanei I singular",
+        "participiului trecut"
+       ],
+       "corect": 0,
+       "explicatie": "La el se adaugă terminațiile specifice."
+      },
+      {
+       "intrebare": "„Je veux que tu ______” cere:",
+       "optiuni": [
+        "subjonctivul",
+        "indicativul",
+        "condiționalul",
+        "infinitivul"
+       ],
+       "corect": 0,
+       "explicatie": "Verbele de voință cer subjonctivul."
+      }
+     ]
+    },
+    {
+     "id": "fra12-11",
+     "titlu": "Condiționalul și fraza ipotetică",
+     "rezumat": "Condiționalul (le conditionnel) exprimă o acțiune posibilă, dependentă de o condiție, dar și politețea și dorința; se formează adăugând la infinitiv terminațiile imperfectului: -ais, -ais, -ait, -ions, -iez, -aient („je parlerais”, „nous finirions”). Condiționalul trecut se formează cu auxiliarul la condițional prezent plus participiu: „j'aurais aimé”. Fraza ipotetică cu „si” are trei tipuri: ipoteza reală (si + prezent, prezent sau viitor: „si j'ai le temps, je viendrai”), ipoteza ireală în prezent (si + imparfait, conditionnel présent: „si j'avais le temps, je viendrais”) și ipoteza ireală în trecut (si + plus-que-parfait, conditionnel passé: „si j'avais eu le temps, je serais venu”). Regula fermă: după „si” ipotetic nu se folosește niciodată condiționalul, ci imperfectul sau mai-mult-ca-perfectul.",
+     "ideiCheie": [
+      "Condiționalul = infinitiv + terminațiile imperfectului (-ais, -ait, -ions).",
+      "Exprimă posibilitatea, politețea și dorința.",
+      "Fraza cu „si”: reală (prezent), ireală prezent (imparfait), ireală trecut (plus-que-parfait).",
+      "După „si” ipotetic NU se pune condiționalul."
+     ],
+     "termeni": [
+      {
+       "t": "conditionnel",
+       "d": "mod care exprimă o acțiune posibilă, dependentă de o condiție, precum și politețea"
+      },
+      {
+       "t": "phrase hypothétique",
+       "d": "frază care leagă o condiție (si) de consecința ei"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se formează condiționalul prezent?",
+       "v": "Infinitiv + terminațiile imperfectului (-ais, -ait)."
+      },
+      {
+       "f": "Ce timp cere „si” în ipoteza ireală prezentă?",
+       "v": "Imparfait: „si j'avais”."
+      },
+      {
+       "f": "Ce se pune în consecință la ipoteza ireală prezentă?",
+       "v": "Condiționalul prezent: „je viendrais”."
+      },
+      {
+       "f": "Ce mod NU se folosește niciodată după „si” ipotetic?",
+       "v": "Condiționalul."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Si j'avais le temps, je ______” se completează cu:",
+       "optiuni": [
+        "viendrais",
+        "viendrai",
+        "venais",
+        "serais venu"
+       ],
+       "corect": 0,
+       "explicatie": "Ipoteză ireală prezentă: si + imparfait, conditionnel présent."
+      },
+      {
+       "intrebare": "Condiționalul prezent se formează de la:",
+       "optiuni": [
+        "infinitiv + terminațiile imperfectului",
+        "radicalul subjonctivului",
+        "participiul trecut",
+        "persoana I plural"
+       ],
+       "corect": 0,
+       "explicatie": "De exemplu „parler → je parlerais”."
+      },
+      {
+       "intrebare": "După „si” ipotetic se folosește:",
+       "optiuni": [
+        "imperfectul sau mai-mult-ca-perfectul",
+        "condiționalul",
+        "viitorul",
+        "subjonctivul"
+       ],
+       "corect": 0,
+       "explicatie": "Corect: „si j'avais”, nu „si j'aurais”."
+      },
+      {
+       "intrebare": "„Je voudrais un café” exprimă, prin condițional:",
+       "optiuni": [
+        "politețea",
+        "o certitudine",
+        "o interdicție",
+        "trecutul"
+       ],
+       "corect": 0,
+       "explicatie": "Condiționalul atenuează cererea."
+      }
+     ]
+    },
+    {
+     "id": "fra12-12",
+     "titlu": "Concordanța timpurilor și discursul indirect",
+     "rezumat": "Discursul indirect (le discours indirect) redă spusele cuiva printr-o subordonată, fără citare; verbul introductiv („dire que”, „demander si”, „répondre que”) leagă raportarea. Când verbul introductiv e la trecut, timpurile se schimbă conform concordanței: prezentul devine imperfect, viitorul devine condițional prezent, passé composé devine plus-que-parfait („il a dit qu'il était fatigué”, „elle a dit qu'elle viendrait”). Se schimbă și pronumele, posesivele și indicatorii de timp: „aujourd'hui” → „ce jour-là”, „hier” → „la veille”, „demain” → „le lendemain”, „ici” → „là”. Întrebarea indirectă folosește „si” pentru întrebarea totală și păstrează ordinea afirmativă, fără inversiune: „il demande si tu viens”, „elle demande où j'habite”. Ordinul se raportează cu „de” plus infinitiv: „il m'a dit de partir”.",
+     "ideiCheie": [
+      "Verbul introductiv la trecut → concordanța: prezent→imperfect, viitor→condițional.",
+      "Se schimbă pronumele, posesivele și indicatorii de timp.",
+      "Întrebarea indirectă folosește „si” și ordinea afirmativă.",
+      "Ordinul se raportează cu „de” + infinitiv."
+     ],
+     "termeni": [
+      {
+       "t": "discours indirect",
+       "d": "raportarea spuselor cuiva printr-o subordonată, fără citare"
+      },
+      {
+       "t": "concordance des temps",
+       "d": "schimbarea timpurilor din subordonată după timpul verbului regent"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce devine prezentul în discursul indirect la trecut?",
+       "v": "Imperfectul."
+      },
+      {
+       "f": "Ce devine viitorul în discursul indirect la trecut?",
+       "v": "Condiționalul prezent."
+      },
+      {
+       "f": "Cum se raportează un ordin?",
+       "v": "Cu „de” + infinitiv: „il m'a dit de partir”."
+      },
+      {
+       "f": "Ce cuvânt introduce o întrebare indirectă totală?",
+       "v": "„Si”."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Il a dit qu'il ______ fatigué” (din „je suis fatigué”):",
+       "optiuni": [
+        "était",
+        "est",
+        "sera",
+        "soit"
+       ],
+       "corect": 0,
+       "explicatie": "Prezentul devine imperfect prin concordanță."
+      },
+      {
+       "intrebare": "Întrebarea „Où habites-tu?” devine, indirect:",
+       "optiuni": [
+        "Il demande où j'habite",
+        "Il demande où est-ce que j'habite",
+        "Il demande où habité-je",
+        "Il demande où habites-tu"
+       ],
+       "corect": 0,
+       "explicatie": "Se păstrează ordinea afirmativă, fără inversiune."
+      },
+      {
+       "intrebare": "„Demain”, în discursul indirect la trecut, devine:",
+       "optiuni": [
+        "le lendemain",
+        "ce jour-là",
+        "la veille",
+        "aujourd'hui"
+       ],
+       "corect": 0,
+       "explicatie": "„Hier” devine „la veille”."
+      },
+      {
+       "intrebare": "Ordinul „Pars !” raportat devine:",
+       "optiuni": [
+        "Il m'a dit de partir",
+        "Il m'a dit que je pars",
+        "Il m'a dit partir",
+        "Il m'a dit de je partir"
+       ],
+       "corect": 0,
+       "explicatie": "Ordinul se raportează cu „de” + infinitiv."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fra12-c5",
+   "titlu": "Lexic și exprimare",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "fra12-13",
+     "titlu": "Pronumele: complemente, y, en, relative",
+     "rezumat": "Pronumele complement înlocuiesc un substantiv pentru a evita repetiția: complementul direct (COD) este „le, la, les”, cel indirect pentru persoane (COI) este „lui, leur”. „Y” înlocuiește un complement de loc sau un grup cu „à” referitor la un lucru: „j'y vais”, „j'y pense”. „En” înlocuiește un grup cu „de” sau o cantitate: „j'en viens”, „j'en veux deux”. Când sunt două pronume, ordinea e fixă: „me, te, se, nous, vous” înainte de „le, la, les”, apoi „lui, leur”, apoi „y”, apoi „en” („il me le donne”, „je lui en parle”). Pronumele relative simple: „qui” (subiect), „que” (complement direct), „où” (loc sau timp), „dont” (înlocuiește un grup cu „de”: „le livre dont je parle”); cele compuse — „lequel, laquelle, auquel, duquel” — se folosesc după prepoziții.",
+     "ideiCheie": [
+      "COD: le, la, les; COI pentru persoane: lui, leur.",
+      "„Y” = loc sau „à” + lucru; „en” = „de” sau o cantitate.",
+      "Ordinea a două pronume este fixă (me le, lui en).",
+      "Relative: qui (subiect), que (COD), où (loc/timp), dont (cu „de”)."
+     ],
+     "termeni": [
+      {
+       "t": "pronom complément",
+       "d": "pronume care înlocuiește complementul, pentru a evita repetiția"
+      },
+      {
+       "t": "dont",
+       "d": "pronume relativ care înlocuiește un grup introdus prin „de”"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce înlocuiește „en”?",
+       "v": "Un grup cu „de” sau o cantitate: „j'en veux”."
+      },
+      {
+       "f": "Ce înlocuiește „y”?",
+       "v": "Un complement de loc sau un grup cu „à” (lucru)."
+      },
+      {
+       "f": "Ce pronume relativ este subiect?",
+       "v": "„Qui”."
+      },
+      {
+       "f": "Ce relativ înlocuiește un grup cu „de”?",
+       "v": "„Dont”."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Je pense à mon examen” → cu pronume:",
+       "optiuni": [
+        "J'y pense",
+        "J'en pense",
+        "Je le pense",
+        "Je lui pense"
+       ],
+       "corect": 0,
+       "explicatie": "„Y” înlocuiește „à + lucru”."
+      },
+      {
+       "intrebare": "„Le livre ______ je parle est intéressant” cere:",
+       "optiuni": [
+        "dont",
+        "que",
+        "qui",
+        "où"
+       ],
+       "corect": 0,
+       "explicatie": "„Parler de” → relativul „dont”."
+      },
+      {
+       "intrebare": "„En” înlocuiește, de regulă, un grup introdus prin:",
+       "optiuni": [
+        "de",
+        "à",
+        "pour",
+        "avec"
+       ],
+       "corect": 0,
+       "explicatie": "Sau o cantitate: „j'en veux deux”."
+      },
+      {
+       "intrebare": "Relativul subiect este:",
+       "optiuni": [
+        "qui",
+        "que",
+        "dont",
+        "où"
+       ],
+       "corect": 0,
+       "explicatie": "„Que” este complement direct."
+      }
+     ]
+    },
+    {
+     "id": "fra12-14",
+     "titlu": "Exprimarea opiniei și argumentarea",
+     "rezumat": "A-ți exprima și susține opinia este o competență-cheie: pentru a introduce o opinie se folosesc „à mon avis”, „selon moi”, „je pense que”, „je trouve que”, „il me semble que”. Verbele de opinie la afirmativ cer indicativul („je crois qu'il vient”), dar la formă negativă sau interogativă cer subjonctivul („je ne crois pas qu'il vienne”). Pentru a structura o argumentare: „d'abord”, „ensuite”, „de plus”, „enfin” (înlănțuire), „cependant”, „pourtant”, „en revanche” (opoziție), „donc”, „par conséquent”, „c'est pourquoi” (consecință), „par exemple”, „en effet” (ilustrare și confirmare). Concluzia se introduce prin „en conclusion”, „pour conclure”, „en somme”. A argumenta bine înseamnă a lega afirmația de un motiv și de un exemplu, nu doar a enunța păreri.",
+     "ideiCheie": [
+      "Introducerea opiniei: à mon avis, selon moi, je pense que.",
+      "Verbe de opinie: indicativ la afirmativ, subjonctiv la negativ sau interogativ.",
+      "Conectori: d'abord/ensuite/enfin, cependant/pourtant, donc/par conséquent.",
+      "Argumentarea leagă afirmația de un motiv și un exemplu."
+     ],
+     "termeni": [
+      {
+       "t": "connecteur logique",
+       "d": "cuvânt care leagă și organizează ideile într-un text argumentativ"
+      },
+      {
+       "t": "argumentation",
+       "d": "susținerea unei opinii prin motive și exemple"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se introduce o opinie în franceză?",
+       "v": "„À mon avis”, „selon moi”, „je pense que”."
+      },
+      {
+       "f": "Ce mod cere „je ne crois pas que”?",
+       "v": "Subjonctivul."
+      },
+      {
+       "f": "Ce conector exprimă consecința?",
+       "v": "„Donc”, „par conséquent”, „c'est pourquoi”."
+      },
+      {
+       "f": "Cu ce se introduce concluzia?",
+       "v": "„En conclusion”, „pour conclure”, „en somme”."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Je ne pense pas qu'il ______ raison” cere:",
+       "optiuni": [
+        "ait",
+        "a",
+        "aura",
+        "avait"
+       ],
+       "corect": 0,
+       "explicatie": "Verbul de opinie la negativ cere subjonctivul."
+      },
+      {
+       "intrebare": "Conectorul care exprimă opoziția este:",
+       "optiuni": [
+        "cependant",
+        "donc",
+        "d'abord",
+        "par exemple"
+       ],
+       "corect": 0,
+       "explicatie": "„Donc” exprimă consecința."
+      },
+      {
+       "intrebare": "„À mon avis” servește la:",
+       "optiuni": [
+        "introducerea unei opinii",
+        "încheierea textului",
+        "exprimarea consecinței",
+        "ilustrarea cu exemple"
+       ],
+       "corect": 0,
+       "explicatie": "Sinonime: „selon moi”, „je pense que”."
+      },
+      {
+       "intrebare": "„Je crois qu'il ______” (afirmativ) cere:",
+       "optiuni": [
+        "vient",
+        "vienne",
+        "viendrait",
+        "soit venu"
+       ],
+       "corect": 0,
+       "explicatie": "Verbul de opinie la afirmativ cere indicativul."
+      }
+     ]
+    },
+    {
+     "id": "fra12-15",
+     "titlu": "Registrele de limbă și expresiile idiomatice",
+     "rezumat": "Franceza distinge trei registre principale: familiar (registre familier), curent (courant) și îngrijit (soutenu). Registrul familiar apare în vorbirea relaxată și admite argou și trunchieri („bouquin” pentru „livre”, „fac” pentru „université”); cel curent este standardul neutru; cel îngrijit e propriu textelor formale și literare. Adecvarea registrului la situație e o marcă de competență: „tu” față de „vous”, „ça” față de „cela”, întrebarea prin intonație („tu viens ?”) față de inversiune („viens-tu ?”). Expresiile idiomatice nu se traduc literal: „avoir le cafard” (a fi trist), „coûter les yeux de la tête” (a costa foarte scump), „poser un lapin” (a nu veni la o întâlnire), „il pleut des cordes” (plouă cu găleata). Cunoașterea lor face limba naturală și ajută la înțelegerea textelor autentice.",
+     "ideiCheie": [
+      "Trei registre: familiar, curent, îngrijit — adecvate la situație.",
+      "„Vous” și inversiunea aparțin registrului îngrijit; „ça”, „tu” celui familiar.",
+      "Expresiile idiomatice nu se traduc literal.",
+      "„Avoir le cafard” = a fi trist; „poser un lapin” = a nu veni la întâlnire."
+     ],
+     "termeni": [
+      {
+       "t": "registre de langue",
+       "d": "nivelul de formalitate al limbajului, adecvat situației"
+      },
+      {
+       "t": "expression idiomatique",
+       "d": "expresie cu sens propriu, care nu se traduce literal"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt cele trei registre ale francezei?",
+       "v": "Familiar, curent, îngrijit."
+      },
+      {
+       "f": "Ce înseamnă „avoir le cafard”?",
+       "v": "A fi trist, deprimat."
+      },
+      {
+       "f": "Ce înseamnă „poser un lapin”?",
+       "v": "A nu veni la o întâlnire stabilită."
+      },
+      {
+       "f": "Ce registru folosește „vous” și inversiunea?",
+       "v": "Registrul îngrijit."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Coûter les yeux de la tête” înseamnă:",
+       "optiuni": [
+        "a costa foarte scump",
+        "a fi foarte frumos",
+        "a plânge",
+        "a privi atent"
+       ],
+       "corect": 0,
+       "explicatie": "Expresie idiomatică, nu literală."
+      },
+      {
+       "intrebare": "Registrul îngrijit (soutenu) preferă:",
+       "optiuni": [
+        "„cela” și inversiunea",
+        "„ça” și trunchierile",
+        "argoul",
+        "prescurtările"
+       ],
+       "corect": 0,
+       "explicatie": "El e propriu textelor formale."
+      },
+      {
+       "intrebare": "„Poser un lapin” înseamnă:",
+       "optiuni": [
+        "a nu veni la o întâlnire",
+        "a crește iepuri",
+        "a face o glumă",
+        "a pune o întrebare"
+       ],
+       "corect": 0,
+       "explicatie": "Sens idiomatic."
+      },
+      {
+       "intrebare": "Expresiile idiomatice:",
+       "optiuni": [
+        "nu se traduc literal",
+        "se traduc cuvânt cu cuvânt",
+        "există doar în scris",
+        "sunt greșeli de limbă"
+       ],
+       "corect": 0,
+       "explicatie": "Sensul lor e figurat."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fra12-c6",
+   "titlu": "Texte și teme contemporane",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "fra12-16",
+     "titlu": "Textul argumentativ",
+     "rezumat": "Textul argumentativ (le texte argumentatif) urmărește să convingă cititorul de o teză, prin argumente și exemple. Structura sa: o introducere care prezintă tema și enunță teza, un cuprins cu argumente ordonate, fiecare susținut de un exemplu, eventual un contraargument respins, și o concluzie care confirmă teza și, uneori, deschide o perspectivă. Teza este ideea susținută; argumentul este motivul care o sprijină; exemplul este dovada concretă. Conectorii logici asigură coerența: înlănțuire („d'une part… d'autre part”), gradare („non seulement… mais aussi”), opoziție („certes… mais”). La bacalaureat, textul argumentativ cere o poziție clară, argumente pertinente și o limbă corectă; a distinge faptul de opinie și a anticipa obiecțiile întărește argumentarea.",
+     "ideiCheie": [
+      "Textul argumentativ vrea să convingă de o teză.",
+      "Structura: introducere (teză), argumente cu exemple, concluzie.",
+      "Teza = ideea susținută; argumentul = motivul; exemplul = dovada.",
+      "Conectorii logici asigură coerența (d'une part… d'autre part)."
+     ],
+     "termeni": [
+      {
+       "t": "texte argumentatif",
+       "d": "text care urmărește să convingă printr-o teză, argumente și exemple"
+      },
+      {
+       "t": "thèse",
+       "d": "ideea principală pe care o susține un text argumentativ"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce urmărește textul argumentativ?",
+       "v": "Să convingă cititorul de o teză."
+      },
+      {
+       "f": "Ce este teza (la thèse)?",
+       "v": "Ideea principală susținută în text."
+      },
+      {
+       "f": "Ce rol are exemplul într-un argument?",
+       "v": "De dovadă concretă a argumentului."
+      },
+      {
+       "f": "Ce asigură conectorii logici?",
+       "v": "Coerența și înlănțuirea ideilor."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Într-un text argumentativ, teza este:",
+       "optiuni": [
+        "ideea principală susținută",
+        "un exemplu concret",
+        "o obiecție",
+        "concluzia"
+       ],
+       "corect": 0,
+       "explicatie": "Argumentele o sprijină."
+      },
+      {
+       "intrebare": "Structura textului argumentativ cuprinde:",
+       "optiuni": [
+        "introducere, argumente cu exemple, concluzie",
+        "doar o listă de fapte",
+        "numai o povestire",
+        "o descriere"
+       ],
+       "corect": 0,
+       "explicatie": "Coerența e dată de conectori."
+      },
+      {
+       "intrebare": "„D'une part… d'autre part” servește la:",
+       "optiuni": [
+        "înlănțuirea argumentelor",
+        "exprimarea unei concluzii",
+        "descrierea unui loc",
+        "povestirea unui eveniment"
+       ],
+       "corect": 0,
+       "explicatie": "Sunt conectori de organizare."
+      },
+      {
+       "intrebare": "Rolul exemplului este:",
+       "optiuni": [
+        "de a dovedi concret argumentul",
+        "de a contrazice teza",
+        "de a înlocui concluzia",
+        "de a introduce tema"
+       ],
+       "corect": 0,
+       "explicatie": "Fără exemplu, argumentul rămâne abstract."
+      }
+     ]
+    },
+    {
+     "id": "fra12-17",
+     "titlu": "Francofonia",
+     "rezumat": "Francofonia (la Francophonie) desemnează ansamblul popoarelor și țărilor care folosesc limba franceză, precum și organizația care le reunește (Organisation internationale de la Francophonie). Franceza este vorbită de sute de milioane de oameni pe cinci continente: în Franța, Belgia, Elveția, Luxemburg și Monaco în Europa; în Québec (Canada); în numeroase state din Africa (Senegal, Coasta de Fildeș, Maroc, Tunisia, Republica Democrată Congo); în Caraibe și în Oceania. Este limbă oficială a multor organizații internaționale (ONU, Uniunea Europeană). Diversitatea francofonă se vede în accente, vocabular și literaturi: scriitori din Africa, din Caraibe și din Québec au îmbogățit literatura de limbă franceză. Franceza rămâne o mare limbă de cultură, de diplomație și de schimburi internaționale.",
+     "ideiCheie": [
+      "Francofonia = ansamblul popoarelor și țărilor de limbă franceză.",
+      "Franceza se vorbește pe cinci continente, mai ales în Europa, Africa, Canada.",
+      "Este limbă oficială a multor organizații internaționale.",
+      "Literaturile francofone (Africa, Caraibe, Québec) îmbogățesc limba."
+     ],
+     "termeni": [
+      {
+       "t": "Francophonie",
+       "d": "ansamblul popoarelor și țărilor care folosesc limba franceză"
+      },
+      {
+       "t": "pays francophone",
+       "d": "țară în care franceza este limbă oficială sau larg folosită"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este Francofonia?",
+       "v": "Ansamblul popoarelor și țărilor de limbă franceză."
+      },
+      {
+       "f": "Pe câte continente se vorbește franceza?",
+       "v": "Pe cinci."
+      },
+      {
+       "f": "Ce regiune din Canada este francofonă?",
+       "v": "Québec."
+      },
+      {
+       "f": "Numește o țară francofonă din Africa.",
+       "v": "Senegal (sau Coasta de Fildeș, Maroc)."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Francofonia desemnează:",
+       "optiuni": [
+        "ansamblul popoarelor de limbă franceză",
+        "doar Franța",
+        "doar Europa francofonă",
+        "o singură regiune din Canada"
+       ],
+       "corect": 0,
+       "explicatie": "Include cinci continente."
+      },
+      {
+       "intrebare": "Regiunea francofonă a Canadei este:",
+       "optiuni": [
+        "Québec",
+        "Ontario",
+        "Alberta",
+        "Columbia Britanică"
+       ],
+       "corect": 0,
+       "explicatie": "Acolo franceza e limbă oficială."
+      },
+      {
+       "intrebare": "Franceza este limbă oficială:",
+       "optiuni": [
+        "a numeroase organizații internaționale",
+        "doar în Franța",
+        "doar în Europa",
+        "nicăieri în afara Franței"
+       ],
+       "corect": 0,
+       "explicatie": "De pildă la ONU și în Uniunea Europeană."
+      },
+      {
+       "intrebare": "Un stat african francofon este:",
+       "optiuni": [
+        "Senegal",
+        "Nigeria",
+        "Egipt",
+        "Etiopia"
+       ],
+       "corect": 0,
+       "explicatie": "Franceza e limbă oficială acolo."
+      }
+     ]
+    },
+    {
+     "id": "fra12-18",
+     "titlu": "Teme de dezbatere contemporane",
+     "rezumat": "Dezbaterea temelor de actualitate dezvoltă vocabularul și capacitatea de argumentare. Marile teme contemporane și lexicul lor: mediul (l'environnement, le réchauffement climatique, le développement durable, le recyclage, la pollution); tehnologia (les réseaux sociaux, l'intelligence artificielle, le numérique, la vie privée); societatea (l'égalité, la diversité, l'immigration, le bénévolat). Pentru a dezbate, se cântăresc avantajele („les avantages”) și dezavantajele („les inconvénients”), se nuanțează („d'un côté… de l'autre”) și se ajunge la o poziție motivată. A pune o întrebare deschisă, a asculta contraargumentul și a răspunde politicos sunt reguli ale unei dezbateri civilizate. Aceste teme apar frecvent la proba de exprimare, unde contează bogăția lexicală, coerența și corectitudinea.",
+     "ideiCheie": [
+      "Temele contemporane: mediul, tehnologia, societatea, cu lexicul lor.",
+      "Se cântăresc avantajele (avantages) și dezavantajele (inconvénients).",
+      "Nuanțarea: „d'un côté… de l'autre”, spre o poziție motivată.",
+      "Contează bogăția lexicală, coerența și politețea în dezbatere."
+     ],
+     "termeni": [
+      {
+       "t": "débat",
+       "d": "schimb de argumente pe o temă, cu poziții diferite"
+      },
+      {
+       "t": "développement durable",
+       "d": "dezvoltare care satisface nevoile prezentului fără a compromite viitorul"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se spune „mediul înconjurător” în franceză?",
+       "v": "„L'environnement”."
+      },
+      {
+       "f": "Ce înseamnă „le développement durable”?",
+       "v": "Dezvoltarea durabilă."
+      },
+      {
+       "f": "Cum se cântăresc pozițiile într-o dezbatere?",
+       "v": "Prin avantaje (avantages) și dezavantaje (inconvénients)."
+      },
+      {
+       "f": "Ce expresie nuanțează două puncte de vedere?",
+       "v": "„D'un côté… de l'autre”."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Le réchauffement climatique” se referă la tema:",
+       "optiuni": [
+        "mediului",
+        "tehnologiei",
+        "economiei",
+        "artei"
+       ],
+       "corect": 0,
+       "explicatie": "Face parte din lexicul mediului."
+      },
+      {
+       "intrebare": "„Les inconvénients” înseamnă:",
+       "optiuni": [
+        "dezavantajele",
+        "avantajele",
+        "argumentele",
+        "concluziile"
+       ],
+       "corect": 0,
+       "explicatie": "Se opun lui „avantages”."
+      },
+      {
+       "intrebare": "„D'un côté… de l'autre” servește la:",
+       "optiuni": [
+        "nuanțarea a două puncte de vedere",
+        "încheierea dezbaterii",
+        "introducerea temei",
+        "exprimarea certitudinii"
+       ],
+       "corect": 0,
+       "explicatie": "Ajută la o poziție echilibrată."
+      },
+      {
+       "intrebare": "„Les réseaux sociaux” aparțin temei:",
+       "optiuni": [
+        "tehnologiei",
+        "mediului",
+        "sănătății",
+        "sportului"
+       ],
+       "corect": 0,
+       "explicatie": "Lexic al vieții digitale."
+      }
+     ]
+    }
+   ]
   }
  ],
  "teze": [
   {
    "semestru": 1,
    "test": [
+    {
+     "intrebare": "„Il faut que tu ______ à l'heure” cere:",
+     "optiuni": [
+      "sois",
+      "es",
+      "seras",
+      "étais"
+     ],
+     "corect": 0,
+     "explicatie": "„Il faut que” cere subjonctivul."
+    },
+    {
+     "intrebare": "„Si j'étais riche, je ______ le monde”:",
+     "optiuni": [
+      "voyagerais",
+      "voyagerai",
+      "voyageais",
+      "voyage"
+     ],
+     "corect": 0,
+     "explicatie": "Ipoteză ireală prezentă: si + imparfait, conditionnel présent."
+    },
+    {
+     "intrebare": "Prezentul devine, în discursul indirect la trecut:",
+     "optiuni": [
+      "imperfect",
+      "viitor",
+      "condițional trecut",
+      "subjonctiv"
+     ],
+     "corect": 0,
+     "explicatie": "„Il a dit qu'il était fatigué”."
+    },
+    {
+     "intrebare": "„Je ne pense pas que ce ______ vrai” cere:",
+     "optiuni": [
+      "soit",
+      "est",
+      "sera",
+      "était"
+     ],
+     "corect": 0,
+     "explicatie": "Verbul de opinie la negativ cere subjonctivul."
+    },
+    {
+     "intrebare": "Condiționalul prezent se formează de la:",
+     "optiuni": [
+      "infinitiv + terminațiile imperfectului",
+      "radicalul subjonctivului",
+      "participiul trecut",
+      "persoana I plural a prezentului"
+     ],
+     "corect": 0,
+     "explicatie": "De exemplu „parler → je parlerais”."
+    },
+    {
+     "intrebare": "Ordinul „Viens !” raportat devine:",
+     "optiuni": [
+      "Il m'a dit de venir",
+      "Il m'a dit que je viens",
+      "Il m'a dit venir",
+      "Il m'a dit de je viens"
+     ],
+     "corect": 0,
+     "explicatie": "Ordinul se raportează cu „de” + infinitiv."
+    },
     {
      "intrebare": "„Pour que” cere:",
      "optiuni": [
@@ -902,6 +1754,72 @@
   {
    "semestru": 2,
    "test": [
+    {
+     "intrebare": "„Je parle de ce livre” → „le livre ______ je parle”:",
+     "optiuni": [
+      "dont",
+      "que",
+      "qui",
+      "où"
+     ],
+     "corect": 0,
+     "explicatie": "„Parler de” → relativul „dont”."
+    },
+    {
+     "intrebare": "„J'y pense” înlocuiește un grup introdus prin:",
+     "optiuni": [
+      "à",
+      "de",
+      "pour",
+      "avec"
+     ],
+     "corect": 0,
+     "explicatie": "„Y” = „à + lucru” sau un loc."
+    },
+    {
+     "intrebare": "„Coûter les yeux de la tête” înseamnă:",
+     "optiuni": [
+      "a costa foarte scump",
+      "a fi obosit",
+      "a privi fix",
+      "a plânge"
+     ],
+     "corect": 0,
+     "explicatie": "Expresie idiomatică."
+    },
+    {
+     "intrebare": "Într-un text argumentativ, exemplul are rolul de:",
+     "optiuni": [
+      "a dovedi concret argumentul",
+      "a introduce tema",
+      "a contrazice teza",
+      "a încheia textul"
+     ],
+     "corect": 0,
+     "explicatie": "Fără exemplu, argumentul rămâne abstract."
+    },
+    {
+     "intrebare": "Regiunea francofonă a Canadei este:",
+     "optiuni": [
+      "Québec",
+      "Ontario",
+      "Alberta",
+      "Manitoba"
+     ],
+     "corect": 0,
+     "explicatie": "Franceza e limbă oficială acolo."
+    },
+    {
+     "intrebare": "„Le développement durable” înseamnă:",
+     "optiuni": [
+      "dezvoltarea durabilă",
+      "dezvoltarea rapidă",
+      "poluarea",
+      "reciclarea"
+     ],
+     "corect": 0,
+     "explicatie": "Satisface prezentul fără a compromite viitorul."
+    },
     {
      "intrebare": "Lectura selectivă urmărește:",
      "optiuni": [
