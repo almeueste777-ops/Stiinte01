@@ -2,10 +2,10 @@
   "version": "03",
   "actualizat": "2026-08-24",
   "nrModule": 60,
-  "nrLectii": 764,
-  "nrCarduri": 3056,
-  "nrIntrebari": 3056,
-  "nrIntrebariTeze": 1510,
+  "nrLectii": 773,
+  "nrCarduri": 3092,
+  "nrIntrebari": 3092,
+  "nrIntrebariTeze": 1522,
   "module": [
     {
       "id": "geografie-9",
@@ -787,10 +787,10 @@
       "bac": false,
       "socioUman": false,
       "descriere": "Bazele limbii franceze: pronunție, substantiv și articol, prezentul verbelor, comunicare elementară și vocabular cotidian.",
-      "nrLectii": 9,
-      "nrCarduri": 36,
-      "nrIntrebari": 36,
-      "nrIntrebariTeze": 24,
+      "nrLectii": 18,
+      "nrCarduri": 72,
+      "nrIntrebari": 72,
+      "nrIntrebariTeze": 36,
       "capitole": [
         {
           "id": "fra9-c1",
@@ -848,16 +848,73 @@
               "titlu": "Citit, scris și strategii"
             }
           ]
+        },
+        {
+          "id": "fra9-c4",
+          "titlu": "Determinanți și pronume",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fra9-10",
+              "titlu": "Adjectivele posesive și demonstrative"
+            },
+            {
+              "id": "fra9-11",
+              "titlu": "Pronumele personale subiect și tonice"
+            },
+            {
+              "id": "fra9-12",
+              "titlu": "Prepozițiile de loc și de timp"
+            }
+          ]
+        },
+        {
+          "id": "fra9-c5",
+          "titlu": "Acțiuni și rutină",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fra9-13",
+              "titlu": "Verbele pronominale și rutina zilnică"
+            },
+            {
+              "id": "fra9-14",
+              "titlu": "Construcții impersonale: il y a, il faut, il fait"
+            },
+            {
+              "id": "fra9-15",
+              "titlu": "Viitorul apropiat (futur proche)"
+            }
+          ]
+        },
+        {
+          "id": "fra9-c6",
+          "titlu": "Vocabular tematic și civilizație",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "fra9-16",
+              "titlu": "Corpul, culorile și îmbrăcămintea"
+            },
+            {
+              "id": "fra9-17",
+              "titlu": "Mâncarea și la restaurant"
+            },
+            {
+              "id": "fra9-18",
+              "titlu": "Franța: geografie și simboluri"
+            }
+          ]
         }
       ],
       "teze": [
         {
           "semestru": 1,
-          "nrIntrebari": 12
+          "nrIntrebari": 18
         },
         {
           "semestru": 2,
-          "nrIntrebari": 12
+          "nrIntrebari": 18
         }
       ]
     },
