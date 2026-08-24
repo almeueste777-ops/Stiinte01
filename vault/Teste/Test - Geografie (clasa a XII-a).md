@@ -1293,17 +1293,17 @@ cssclasses: test
 > 
 > Vânturile constante au atras investiții importante.
 
-### 108. România deține din rezervele europene de ape minerale:
+### 108. Cea mai nouă unitate de relief a României este:
 
-- a. peste o treime
-- b. circa 5%
-- c. circa 10%
-- d. peste jumătate
+- a. Delta Dunării
+- b. Munții Carpați
+- c. Podișul Transilvaniei
+- d. Câmpia Română
 
 > [!success]- Răspuns
-> **a. peste o treime**
+> **a. Delta Dunării**
 > 
-> Este una dintre resursele slab valorificate.
+> O câmpie de acumulare încă în formare.
 
 ### 109. Suprafața agricolă a României este de:
 

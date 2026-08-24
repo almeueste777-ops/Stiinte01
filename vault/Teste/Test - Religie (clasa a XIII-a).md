@@ -1221,17 +1221,17 @@ cssclasses: test
 > 
 > Urmează interesul sursei și sursele independente.
 
-### 102. Credința se măsoară, în cele din urmă:
+### 102. Rugăciunea este, în viața creștină:
 
-- a. în felul de a trăi cu ceilalți
-- b. în volumul de cunoștințe
-- c. în capacitatea de argumentare
-- d. în vechimea tradiției
+- a. dialog viu cu Dumnezeu
+- b. o formulă magică
+- c. un monolog fără rost
+- d. o obligație pur exterioară
 
 > [!success]- Răspuns
-> **a. în felul de a trăi cu ceilalți**
+> **a. dialog viu cu Dumnezeu**
 > 
-> Faptele rămân criteriul.
+> Îndemnul apostolic: „Rugați-vă neîncetat.”
 
 ---
 

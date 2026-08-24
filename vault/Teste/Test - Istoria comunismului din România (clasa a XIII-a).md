@@ -993,17 +993,17 @@ cssclasses: test
 > 
 > A vizat industria, băncile și transporturile.
 
-### 83. Colectivizarea agriculturii s-a desfășurat între:
+### 83. Societățile mixte prin care URSS a exploatat economic România se numeau:
 
-- a. 1949 și 1962
-- b. 1945 și 1948
-- c. 1962 și 1970
-- d. 1971 și 1980
+- a. Sovromuri
+- b. cooperative agricole
+- c. gospodării colective
+- d. întreprinderi de stat
 
 > [!success]- Răspuns
-> **a. 1949 și 1962**
+> **a. Sovromuri**
 > 
-> A întâmpinat rezistență, reprimată violent.
+> Au funcționat mai ales în anii 1945–1956.
 
 ### 84. Securitatea a fost înființată în:
 
