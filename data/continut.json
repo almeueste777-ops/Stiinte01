@@ -2,10 +2,10 @@
   "version": "03",
   "actualizat": "2026-08-24",
   "nrModule": 60,
-  "nrLectii": 1124,
-  "nrCarduri": 4496,
-  "nrIntrebari": 4496,
-  "nrIntrebariTeze": 1900,
+  "nrLectii": 1131,
+  "nrCarduri": 4524,
+  "nrIntrebari": 4524,
+  "nrIntrebariTeze": 1912,
   "module": [
     {
       "id": "geografie-9",
@@ -5532,10 +5532,10 @@
       "bac": true,
       "socioUman": false,
       "descriere": "Web, multimedia și proiecte digitale: structura unei pagini, conținut vizual și audio, publicare și management de proiect.",
-      "nrLectii": 9,
-      "nrCarduri": 36,
-      "nrIntrebari": 36,
-      "nrIntrebariTeze": 24,
+      "nrLectii": 16,
+      "nrCarduri": 64,
+      "nrIntrebari": 64,
+      "nrIntrebariTeze": 36,
       "capitole": [
         {
           "id": "tic11-c1",
@@ -5593,16 +5593,65 @@
               "titlu": "Prezentarea și documentarea unui produs digital"
             }
           ]
+        },
+        {
+          "id": "tic11-c4",
+          "titlu": "HTML și CSS de bază",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "tic11-10",
+              "titlu": "Structura unei pagini HTML"
+            },
+            {
+              "id": "tic11-11",
+              "titlu": "Formatarea cu CSS"
+            },
+            {
+              "id": "tic11-12",
+              "titlu": "Legături, imagini și tabele"
+            }
+          ]
+        },
+        {
+          "id": "tic11-c5",
+          "titlu": "Multimedia și grafică",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "tic11-13",
+              "titlu": "Imaginea digitală"
+            },
+            {
+              "id": "tic11-14",
+              "titlu": "Sunet și video digital"
+            }
+          ]
+        },
+        {
+          "id": "tic11-c6",
+          "titlu": "Proiecte și securitate digitală",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "tic11-15",
+              "titlu": "Managementul unui proiect digital"
+            },
+            {
+              "id": "tic11-16",
+              "titlu": "Securitate și etică pe internet"
+            }
+          ]
         }
       ],
       "teze": [
         {
           "semestru": 1,
-          "nrIntrebari": 12
+          "nrIntrebari": 18
         },
         {
           "semestru": 2,
-          "nrIntrebari": 12
+          "nrIntrebari": 18
         }
       ]
     },

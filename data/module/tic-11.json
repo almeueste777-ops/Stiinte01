@@ -792,12 +792,694 @@
      ]
     }
    ]
+  },
+  {
+   "id": "tic11-c4",
+   "titlu": "HTML și CSS de bază",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "tic11-10",
+     "titlu": "Structura unei pagini HTML",
+     "rezumat": "HTML (HyperText Markup Language) este limbajul de marcare care descrie structura unei pagini web. O pagină e alcătuită din elemente, delimitate de etichete: de deschidere (<p>) și de închidere (</p>). Structura minimă cuprinde declarația <!DOCTYPE html>, elementul rădăcină <html>, secțiunea <head> (metadate: titlu, codare, legături) și <body> (conținutul vizibil). Elementele importante: titluri (<h1>–<h6>), paragrafe (<p>), liste (<ul>, <ol>, <li>), legături (<a>), imagini (<img>). HTML descrie SENSUL conținutului (structura), nu aspectul lui, care e treaba CSS-ului. Etichetele pot avea atribute (href, src, alt) care le precizează comportamentul. O structură corectă și semantică face pagina accesibilă și ușor de indexat de motoarele de căutare.",
+     "ideiCheie": [
+      "HTML descrie structura paginii prin elemente și etichete.",
+      "Structura minimă: <!DOCTYPE html>, <html>, <head>, <body>.",
+      "Elemente: titluri, paragrafe, liste, legături, imagini.",
+      "HTML dă structura (sensul), CSS dă aspectul."
+     ],
+     "termeni": [
+      {
+       "t": "HTML",
+       "d": "limbaj de marcare care descrie structura unei pagini web"
+      },
+      {
+       "t": "etichetă (tag)",
+       "d": "marcaj care delimitează un element HTML, de deschidere și de închidere"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce descrie HTML?",
+       "v": "Structura (sensul) unei pagini web."
+      },
+      {
+       "f": "Ce conține secțiunea head?",
+       "v": "Metadatele: titlu, codare, legături."
+      },
+      {
+       "f": "Ce etichetă marchează un paragraf?",
+       "v": "Eticheta p (<p>)."
+      },
+      {
+       "f": "Ce dă aspectul unei pagini, dacă nu HTML?",
+       "v": "CSS-ul."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "HTML descrie, în principal:",
+       "optiuni": [
+        "structura conținutului",
+        "aspectul vizual",
+        "baza de date",
+        "viteza rețelei"
+       ],
+       "corect": 0,
+       "explicatie": "Aspectul îl dă CSS-ul."
+      },
+      {
+       "intrebare": "Conținutul vizibil al paginii se pune în:",
+       "optiuni": [
+        "body",
+        "head",
+        "title",
+        "meta"
+       ],
+       "corect": 0,
+       "explicatie": "head conține metadatele."
+      },
+      {
+       "intrebare": "Eticheta pentru un titlu principal este:",
+       "optiuni": [
+        "h1",
+        "p",
+        "a",
+        "li"
+       ],
+       "corect": 0,
+       "explicatie": "h1–h6 sunt niveluri de titlu."
+      },
+      {
+       "intrebare": "Un element HTML este delimitat de:",
+       "optiuni": [
+        "o etichetă de deschidere și una de închidere",
+        "ghilimele",
+        "paranteze rotunde",
+        "două puncte"
+       ],
+       "corect": 0,
+       "explicatie": "De exemplu <p>…</p>."
+      }
+     ]
+    },
+    {
+     "id": "tic11-11",
+     "titlu": "Formatarea cu CSS",
+     "rezumat": "CSS (Cascading Style Sheets) descrie aspectul paginilor: culori, fonturi, dimensiuni, spațiere, așezare. O regulă CSS are un selector (ce element vizează) și un bloc de declarații (proprietate: valoare), de exemplu p { color: blue; font-size: 16px; }. Stilurile pot fi puse în trei feluri: în linie (atributul style), interne (în elementul style) sau externe (fișier .css legat) — varianta externă e cea recomandată, fiindcă separă conținutul de prezentare. Selectorii de bază: după element (p), după clasă (.nume), după id (#nume). Proprietăți frecvente: color, background, font-family, margin, padding, border. „Cascada” din nume înseamnă că regulile se aplică în ordine și după specificitate. Separarea HTML–CSS face site-ul mai ușor de întreținut.",
+     "ideiCheie": [
+      "CSS descrie aspectul: culori, fonturi, spațiere, așezare.",
+      "O regulă = selector + declarații (proprietate: valoare).",
+      "Stiluri: în linie, interne, externe (externe = recomandat).",
+      "Selectori: element (p), clasă (.nume), id (#nume)."
+     ],
+     "termeni": [
+      {
+       "t": "CSS",
+       "d": "limbaj care descrie aspectul (stilul) paginilor web"
+      },
+      {
+       "t": "selector",
+       "d": "partea unei reguli CSS care indică ce elemente sunt vizate"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce descrie CSS?",
+       "v": "Aspectul paginilor: culori, fonturi, așezare."
+      },
+      {
+       "f": "Din ce se compune o regulă CSS?",
+       "v": "Un selector și un bloc de declarații."
+      },
+      {
+       "f": "Care mod de a pune stiluri e recomandat?",
+       "v": "Fișierul CSS extern."
+      },
+      {
+       "f": "Cum se scrie un selector de clasă?",
+       "v": "Cu punct: .nume."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "O regulă CSS conține:",
+       "optiuni": [
+        "un selector și declarații",
+        "doar text simplu",
+        "o adresă IP",
+        "o etichetă HTML"
+       ],
+       "corect": 0,
+       "explicatie": "De exemplu p { color: red; }."
+      },
+      {
+       "intrebare": "Selectorul de clasă se scrie cu:",
+       "optiuni": [
+        "punct (.nume)",
+        "diez (#nume)",
+        "fără niciun simbol",
+        "două puncte"
+       ],
+       "corect": 0,
+       "explicatie": "Diezul (#) indică un id."
+      },
+      {
+       "intrebare": "Modul recomandat de a aplica stiluri este:",
+       "optiuni": [
+        "fișierul CSS extern",
+        "stilul în linie peste tot",
+        "lipsa oricărui stil",
+        "comentariile"
+       ],
+       "corect": 0,
+       "explicatie": "El separă conținutul de prezentare."
+      },
+      {
+       "intrebare": "CSS controlează, de pildă:",
+       "optiuni": [
+        "culoarea și fontul",
+        "structura logică a datelor",
+        "protocolul de rețea",
+        "adresa serverului"
+       ],
+       "corect": 0,
+       "explicatie": "Structura o dă HTML."
+      }
+     ]
+    },
+    {
+     "id": "tic11-12",
+     "titlu": "Legături, imagini și tabele",
+     "rezumat": "Legăturile (hyperlink-urile) conectează paginile web și se creează cu eticheta a, prin atributul href, care indică destinația (o altă pagină, o secțiune, o adresă de e-mail). Imaginile se inserează cu eticheta img și atributele src (calea) și alt (descrierea); textul alternativ alt e esențial pentru accesibilitate și pentru cazul în care imaginea nu se încarcă. Tabelele organizează date pe rânduri și coloane: elementul table conține rânduri (tr), iar fiecare rând conține celule de antet (th) sau de date (td). Structura semantică contează: un tabel e pentru date tabelare, nu pentru așezarea paginii. Căile pot fi absolute (adresa completă) sau relative (față de pagina curentă). O pagină bine construită folosește legături clare, imagini cu text alternativ și tabele doar pentru date.",
+     "ideiCheie": [
+      "Legăturile se fac cu eticheta a; href dă destinația.",
+      "Imaginile: img cu src și alt; alt = text alternativ pentru accesibilitate.",
+      "Tabelele: table, rânduri tr, celule th/td.",
+      "Căile pot fi absolute sau relative."
+     ],
+     "termeni": [
+      {
+       "t": "hyperlink",
+       "d": "legătură care conectează o pagină la o altă resursă"
+      },
+      {
+       "t": "text alternativ (alt)",
+       "d": "descrierea unei imagini, folosită la accesibilitate și când imaginea nu se încarcă"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce etichetă creează o legătură?",
+       "v": "Eticheta a, cu atributul href."
+      },
+      {
+       "f": "Ce rol are atributul alt la imagini?",
+       "v": "Text alternativ pentru accesibilitate."
+      },
+      {
+       "f": "Din ce se compune un rând de tabel?",
+       "v": "Din celule th (antet) sau td (date)."
+      },
+      {
+       "f": "Ce atribut indică destinația unei legături?",
+       "v": "Atributul href."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Legătura se creează cu eticheta:",
+       "optiuni": [
+        "a",
+        "img",
+        "table",
+        "p"
+       ],
+       "corect": 0,
+       "explicatie": "Atributul href dă destinația."
+      },
+      {
+       "intrebare": "Atributul alt al unei imagini oferă:",
+       "optiuni": [
+        "un text alternativ pentru accesibilitate",
+        "adresa serverului",
+        "dimensiunea fișierului",
+        "culoarea de fundal"
+       ],
+       "corect": 0,
+       "explicatie": "Util și când imaginea nu se încarcă."
+      },
+      {
+       "intrebare": "Un rând de tabel se marchează cu:",
+       "optiuni": [
+        "tr",
+        "td",
+        "table",
+        "th"
+       ],
+       "corect": 0,
+       "explicatie": "td și th sunt celulele din rând."
+      },
+      {
+       "intrebare": "Tabelele HTML ar trebui folosite pentru:",
+       "optiuni": [
+        "date tabelare",
+        "așezarea întregii pagini",
+        "inserarea sunetului",
+        "crearea legăturilor"
+       ],
+       "corect": 0,
+       "explicatie": "Așezarea se face cu CSS."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tic11-c5",
+   "titlu": "Multimedia și grafică",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "tic11-13",
+     "titlu": "Imaginea digitală",
+     "rezumat": "O imagine digitală se reprezintă în două moduri. Imaginea raster (bitmap) e formată din pixeli, fiecare cu o culoare; calitatea depinde de rezoluție (numărul de pixeli) și de adâncimea de culoare (biți per pixel), iar mărirea peste rezoluția ei duce la pixelare. Imaginea vectorială e descrisă prin formule geometrice (linii, curbe), deci poate fi mărită fără pierdere de calitate — potrivită pentru logo-uri și grafică. Formatele raster frecvente: JPEG (compresie cu pierdere, bun pentru fotografii), PNG (compresie fără pierdere, transparență), GIF (animație, puține culori); formatul vectorial tipic pentru web e SVG. Compresia reduce dimensiunea fișierului: cu pierdere (aruncă informație) sau fără pierdere (o păstrează). Alegerea formatului depinde de tipul imaginii și de scopul ei.",
+     "ideiCheie": [
+      "Imaginea raster = pixeli; calitatea depinde de rezoluție.",
+      "Imaginea vectorială = formule geometrice; se mărește fără pierdere.",
+      "Formate raster: JPEG (foto), PNG (transparență), GIF (animație); vectorial: SVG.",
+      "Compresia poate fi cu pierdere sau fără pierdere."
+     ],
+     "termeni": [
+      {
+       "t": "imagine raster",
+       "d": "imagine formată din pixeli, cu calitate dependentă de rezoluție"
+      },
+      {
+       "t": "imagine vectorială",
+       "d": "imagine descrisă prin formule geometrice, scalabilă fără pierdere"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Din ce e formată o imagine raster?",
+       "v": "Din pixeli."
+      },
+      {
+       "f": "De ce o imagine vectorială se mărește fără pierdere?",
+       "v": "E descrisă prin formule geometrice."
+      },
+      {
+       "f": "Ce format raster e bun pentru fotografii?",
+       "v": "JPEG."
+      },
+      {
+       "f": "Ce format raster păstrează transparența?",
+       "v": "PNG."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Imaginea raster este formată din:",
+       "optiuni": [
+        "pixeli",
+        "formule geometrice",
+        "vectori",
+        "caractere"
+       ],
+       "corect": 0,
+       "explicatie": "Calitatea depinde de rezoluție."
+      },
+      {
+       "intrebare": "Se mărește fără pierdere de calitate:",
+       "optiuni": [
+        "imaginea vectorială",
+        "imaginea raster",
+        "fotografia JPEG",
+        "fișierul GIF"
+       ],
+       "corect": 0,
+       "explicatie": "Ea e descrisă prin formule."
+      },
+      {
+       "intrebare": "Formatul potrivit pentru fotografii este:",
+       "optiuni": [
+        "JPEG",
+        "SVG",
+        "TXT",
+        "MP3"
+       ],
+       "corect": 0,
+       "explicatie": "JPEG folosește compresie cu pierdere."
+      },
+      {
+       "intrebare": "Compresia „cu pierdere”:",
+       "optiuni": [
+        "aruncă o parte din informație pentru a micșora fișierul",
+        "păstrează toată informația",
+        "mărește fișierul",
+        "criptează imaginea"
+       ],
+       "corect": 0,
+       "explicatie": "JPEG e un exemplu."
+      }
+     ]
+    },
+    {
+     "id": "tic11-14",
+     "titlu": "Sunet și video digital",
+     "rezumat": "Sunetul digital se obține prin eșantionare: semnalul continuu e măsurat de multe ori pe secundă (frecvența de eșantionare, de exemplu 44,1 kHz) și fiecare valoare e codată pe un număr de biți (cuantizare). Cu cât frecvența și adâncimea sunt mai mari, cu atât calitatea și dimensiunea fișierului cresc. Formate audio: WAV (necomprimat), MP3 (comprimat cu pierdere, larg folosit), AAC. Videoul este o succesiune de imagini (cadre) afișate rapid; parametrii cheie sunt rezoluția (de exemplu 1920×1080) și rata de cadre (fps). Fișierele video îmbină imagine și sunet și folosesc codecuri de compresie (H.264) pentru a fi transportabile; containere frecvente: MP4, AVI, MKV. Streamingul transmite conținutul în flux, fără a-l descărca integral. Multimedia îmbină text, imagine, sunet și video într-un mesaj bogat.",
+     "ideiCheie": [
+      "Sunetul digital se obține prin eșantionare (de ex. 44,1 kHz) și cuantizare.",
+      "Formate audio: WAV (necomprimat), MP3 și AAC (comprimate).",
+      "Videoul = succesiune de cadre; parametri: rezoluția și rata de cadre (fps).",
+      "Codecurile comprimă videoul (H.264); containere: MP4, AVI, MKV."
+     ],
+     "termeni": [
+      {
+       "t": "eșantionare",
+       "d": "măsurarea repetată a unui semnal continuu pentru a-l digitiza"
+      },
+      {
+       "t": "codec",
+       "d": "metodă de comprimare și decomprimare a sunetului sau a videoului"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se digitizează sunetul?",
+       "v": "Prin eșantionare și cuantizare."
+      },
+      {
+       "f": "Ce format audio e necomprimat?",
+       "v": "WAV."
+      },
+      {
+       "f": "Ce parametri descriu un video?",
+       "v": "Rezoluția și rata de cadre (fps)."
+      },
+      {
+       "f": "Ce face un codec?",
+       "v": "Comprimă și decomprimă sunetul sau videoul."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Sunetul digital se obține prin:",
+       "optiuni": [
+        "eșantionare și cuantizare",
+        "vectorizare",
+        "compilare",
+        "criptare"
+       ],
+       "corect": 0,
+       "explicatie": "Frecvența tipică: 44,1 kHz."
+      },
+      {
+       "intrebare": "Un format audio comprimat, larg folosit, este:",
+       "optiuni": [
+        "MP3",
+        "WAV",
+        "SVG",
+        "HTML"
+       ],
+       "corect": 0,
+       "explicatie": "WAV este necomprimat."
+      },
+      {
+       "intrebare": "Videoul este, în esență:",
+       "optiuni": [
+        "o succesiune de cadre afișate rapid",
+        "o singură imagine",
+        "un fișier text",
+        "o bază de date"
+       ],
+       "corect": 0,
+       "explicatie": "Rata de cadre se măsoară în fps."
+      },
+      {
+       "intrebare": "Un container video obișnuit este:",
+       "optiuni": [
+        "MP4",
+        "MP3",
+        "JPEG",
+        "CSS"
+       ],
+       "corect": 0,
+       "explicatie": "MP3 este audio, JPEG este imagine."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tic11-c6",
+   "titlu": "Proiecte și securitate digitală",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "tic11-15",
+     "titlu": "Managementul unui proiect digital",
+     "rezumat": "Un proiect digital (un site, o prezentare, o aplicație) se realizează în etape. Analiza stabilește scopul, publicul-țintă și cerințele. Proiectarea (design) planifică structura, navigarea și aspectul, adesea prin schițe (wireframe). Realizarea construiește produsul; testarea verifică funcționarea și corectează erorile; publicarea și întreținerea îl fac disponibil și îl actualizează. Munca în echipă cere împărțirea sarcinilor, termene și comunicare, cu instrumente utile precum liste de sarcini, calendare și sisteme de gestiune a versiunilor. Un proiect reușit pornește de la cerințe clare și verifică rezultatul față de ele. Documentarea (ce s-a făcut, cum se folosește) ajută întreținerea și colaborarea, iar gândirea pe etape reduce riscul de a construi ceva ce nu răspunde nevoii.",
+     "ideiCheie": [
+      "Etapele: analiză, proiectare, realizare, testare, publicare, întreținere.",
+      "Proiectarea folosește schițe (wireframe) pentru structură și navigare.",
+      "Munca în echipă cere sarcini, termene și comunicare.",
+      "Documentarea ajută întreținerea și colaborarea."
+     ],
+     "termeni": [
+      {
+       "t": "wireframe",
+       "d": "schiță a structurii și așezării unei pagini sau aplicații, înainte de realizare"
+      },
+      {
+       "t": "etapele unui proiect",
+       "d": "succesiunea analiză → proiectare → realizare → testare → publicare"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt etapele unui proiect digital?",
+       "v": "Analiză, proiectare, realizare, testare, publicare, întreținere."
+      },
+      {
+       "f": "Ce este un wireframe?",
+       "v": "O schiță a structurii și așezării, înainte de realizare."
+      },
+      {
+       "f": "Ce stabilește etapa de analiză?",
+       "v": "Scopul, publicul-țintă și cerințele."
+      },
+      {
+       "f": "Ce ajută întreținerea unui proiect?",
+       "v": "Documentarea."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Prima etapă a unui proiect este, de regulă:",
+       "optiuni": [
+        "analiza cerințelor",
+        "publicarea",
+        "întreținerea",
+        "testarea"
+       ],
+       "corect": 0,
+       "explicatie": "Ea stabilește scopul și cerințele."
+      },
+      {
+       "intrebare": "Un wireframe este:",
+       "optiuni": [
+        "o schiță a structurii, înainte de realizare",
+        "codul final",
+        "o bază de date",
+        "un format de imagine"
+       ],
+       "corect": 0,
+       "explicatie": "Ajută la planificarea așezării."
+      },
+      {
+       "intrebare": "Testarea unui proiect servește la:",
+       "optiuni": [
+        "verificarea funcționării și corectarea erorilor",
+        "stabilirea scopului",
+        "scrierea documentației legale",
+        "alegerea culorilor"
+       ],
+       "corect": 0,
+       "explicatie": "Vine înainte de publicare."
+      },
+      {
+       "intrebare": "Munca în echipă la un proiect cere:",
+       "optiuni": [
+        "sarcini, termene și comunicare",
+        "un singur om care face tot",
+        "absența planificării",
+        "lipsa documentației"
+       ],
+       "corect": 0,
+       "explicatie": "Ea reduce riscul de eșec."
+      }
+     ]
+    },
+    {
+     "id": "tic11-16",
+     "titlu": "Securitate și etică pe internet",
+     "rezumat": "Folosirea internetului cere măsuri de securitate și un comportament etic. Datele personale trebuie protejate: parole puternice și diferite, autentificare în doi pași, atenție la ce se publică. Amenințări frecvente: virușii și programele malițioase (malware), phishingul (mesaje înșelătoare care cer date) și înșelătoriile online. Protecție: programe antivirus actualizate, prudență la atașamente și linkuri necunoscute, conexiuni sigure (HTTPS). Etica digitală înseamnă respectarea dreptului de autor (nu copiezi și nu distribui fără permisiune), a vieții private a celorlalți și a regulilor de conduită (netichetă). Amprenta digitală — urmele lăsate online — poate influența reputația pe termen lung. Un utilizator responsabil verifică sursele, respectă legea și pe ceilalți și își protejează identitatea.",
+     "ideiCheie": [
+      "Protecția datelor: parole puternice, autentificare în doi pași.",
+      "Amenințări: malware, phishing, înșelătorii online.",
+      "Protecție: antivirus actualizat, prudență la linkuri, HTTPS.",
+      "Etica: dreptul de autor, viața privată, netichetă, amprenta digitală."
+     ],
+     "termeni": [
+      {
+       "t": "phishing",
+       "d": "înșelătorie prin mesaje care imită surse de încredere pentru a fura date"
+      },
+      {
+       "t": "amprentă digitală",
+       "d": "totalitatea urmelor lăsate de o persoană pe internet"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este phishingul?",
+       "v": "O înșelătorie prin mesaje care cer date, imitând surse de încredere."
+      },
+      {
+       "f": "Cum se protejează un cont?",
+       "v": "Prin parole puternice, diferite, și autentificare în doi pași."
+      },
+      {
+       "f": "Ce este amprenta digitală?",
+       "v": "Urmele lăsate de o persoană pe internet."
+      },
+      {
+       "f": "Ce înseamnă respectarea dreptului de autor?",
+       "v": "A nu copia și distribui fără permisiune."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Phishingul este:",
+       "optiuni": [
+        "o înșelătorie care cere date prin mesaje false",
+        "un tip de imagine",
+        "un protocol de rețea",
+        "un program antivirus"
+       ],
+       "corect": 0,
+       "explicatie": "Imită surse de încredere."
+      },
+      {
+       "intrebare": "O măsură bună de securitate este:",
+       "optiuni": [
+        "parole puternice și autentificare în doi pași",
+        "aceeași parolă peste tot",
+        "deschiderea oricărui atașament",
+        "dezactivarea antivirusului"
+       ],
+       "corect": 0,
+       "explicatie": "Prudența reduce riscul."
+      },
+      {
+       "intrebare": "Amprenta digitală se referă la:",
+       "optiuni": [
+        "urmele lăsate de o persoană online",
+        "viteza internetului",
+        "mărimea unui fișier",
+        "adresa IP a serverului"
+       ],
+       "corect": 0,
+       "explicatie": "Poate influența reputația."
+      },
+      {
+       "intrebare": "Respectarea dreptului de autor înseamnă:",
+       "optiuni": [
+        "a nu copia și distribui fără permisiune",
+        "a descărca orice, gratuit",
+        "a ignora sursele",
+        "a publica orice imagine"
+       ],
+       "corect": 0,
+       "explicatie": "Etica digitală îi protejează și pe ceilalți."
+      }
+     ]
+    }
+   ]
   }
  ],
  "teze": [
   {
    "semestru": 1,
    "test": [
+    {
+     "intrebare": "HTML descrie, în principal:",
+     "optiuni": [
+      "structura conținutului",
+      "doar culorile",
+      "viteza rețelei",
+      "baza de date"
+     ],
+     "corect": 0,
+     "explicatie": "Aspectul îl dă CSS-ul."
+    },
+    {
+     "intrebare": "Selectorul de clasă în CSS se scrie cu:",
+     "optiuni": [
+      "punct (.nume)",
+      "diez (#nume)",
+      "fără simbol",
+      "două puncte"
+     ],
+     "corect": 0,
+     "explicatie": "Diezul indică un id."
+    },
+    {
+     "intrebare": "Atributul alt al unei imagini oferă:",
+     "optiuni": [
+      "un text alternativ, util la accesibilitate",
+      "dimensiunea fișierului",
+      "culoarea",
+      "adresa serverului"
+     ],
+     "corect": 0,
+     "explicatie": "Apare și când imaginea nu se încarcă."
+    },
+    {
+     "intrebare": "Se mărește fără pierdere de calitate:",
+     "optiuni": [
+      "imaginea vectorială",
+      "imaginea raster",
+      "fotografia JPEG",
+      "fișierul GIF"
+     ],
+     "corect": 0,
+     "explicatie": "E descrisă prin formule geometrice."
+    },
+    {
+     "intrebare": "Modul recomandat de a aplica stiluri este:",
+     "optiuni": [
+      "fișierul CSS extern",
+      "stilul în linie peste tot",
+      "lipsa oricărui stil",
+      "comentariile"
+     ],
+     "corect": 0,
+     "explicatie": "Separă conținutul de prezentare."
+    },
+    {
+     "intrebare": "Conținutul vizibil al unei pagini se pune în:",
+     "optiuni": [
+      "body",
+      "head",
+      "title",
+      "meta"
+     ],
+     "corect": 0,
+     "explicatie": "head conține metadatele."
+    },
     {
      "intrebare": "În modelul client–server, browserul este:",
      "optiuni": [
@@ -935,6 +1617,72 @@
   {
    "semestru": 2,
    "test": [
+    {
+     "intrebare": "Sunetul digital se obține prin:",
+     "optiuni": [
+      "eșantionare și cuantizare",
+      "vectorizare",
+      "compilare",
+      "criptare"
+     ],
+     "corect": 0,
+     "explicatie": "Frecvența tipică e 44,1 kHz."
+    },
+    {
+     "intrebare": "Un format audio necomprimat este:",
+     "optiuni": [
+      "WAV",
+      "MP3",
+      "AAC",
+      "SVG"
+     ],
+     "corect": 0,
+     "explicatie": "MP3 și AAC sunt comprimate."
+    },
+    {
+     "intrebare": "Prima etapă a unui proiect digital este:",
+     "optiuni": [
+      "analiza cerințelor",
+      "publicarea",
+      "întreținerea",
+      "testarea"
+     ],
+     "corect": 0,
+     "explicatie": "Ea stabilește scopul."
+    },
+    {
+     "intrebare": "Phishingul este:",
+     "optiuni": [
+      "o înșelătorie care cere date prin mesaje false",
+      "un format video",
+      "un tip de selector CSS",
+      "un antivirus"
+     ],
+     "corect": 0,
+     "explicatie": "Imită surse de încredere."
+    },
+    {
+     "intrebare": "Videoul este, în esență:",
+     "optiuni": [
+      "o succesiune de cadre afișate rapid",
+      "o singură imagine",
+      "un fișier text",
+      "o pagină HTML"
+     ],
+     "corect": 0,
+     "explicatie": "Rata de cadre se măsoară în fps."
+    },
+    {
+     "intrebare": "O măsură bună de securitate online este:",
+     "optiuni": [
+      "autentificarea în doi pași",
+      "aceeași parolă peste tot",
+      "deschiderea oricărui link",
+      "dezactivarea antivirusului"
+     ],
+     "corect": 0,
+     "explicatie": "Prudența protejează datele."
+    },
     {
      "intrebare": "Ierarhia vizuală se realizează prin:",
      "optiuni": [
