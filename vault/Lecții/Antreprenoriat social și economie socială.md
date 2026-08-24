@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Antreprenoriat social și economie socială
 
-[[Studii sociale (clasa a XII-a)|Studii sociale]] · [[Clasa a XII-a]] · lecția 6 din 9
+[[Studii sociale (clasa a XII-a)|Studii sociale]] · [[Clasa a XII-a]] · lecția 6 din 18
 
 **Capitolul:** Munca și cariera — semestrul 2
 

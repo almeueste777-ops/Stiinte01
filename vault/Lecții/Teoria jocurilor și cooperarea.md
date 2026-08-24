@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Teoria jocurilor și cooperarea
 
-[[Matematică aplicată în științele sociale (clasa a XII-a)|Matematică aplicată în științele sociale]] · [[Clasa a XII-a]] · lecția 6 din 9
+[[Matematică aplicată în științele sociale (clasa a XII-a)|Matematică aplicată în științele sociale]] · [[Clasa a XII-a]] · lecția 6 din 18
 
 **Capitolul:** Sondaje, alegeri, decizie colectivă — semestrul 1
 

@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Modalele și structurile de bază ale propoziției
 
-[[Limba modernă 1 (Engleză) (clasa a IX-a)|Limba modernă 1 (Engleză)]] · [[Clasa a IX-a]] · lecția 6 din 9
+[[Limba modernă 1 (Engleză) (clasa a IX-a)|Limba modernă 1 (Engleză)]] · [[Clasa a IX-a]] · lecția 6 din 18
 
 **Capitolul:** Structuri de bază — semestrul 2
 

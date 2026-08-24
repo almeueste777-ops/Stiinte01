@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Imunitate, boli, prevenție
 
-[[ȘTIAM (științe integrate) (clasa a XII-a)|ȘTIAM (științe integrate)]] · [[Clasa a XII-a]] · lecția 2 din 9
+[[ȘTIAM (științe integrate) (clasa a XII-a)|ȘTIAM (științe integrate)]] · [[Clasa a XII-a]] · lecția 2 din 16
 
 **Capitolul:** Sănătate și corp — semestrul 1
 

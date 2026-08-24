@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Structura materiei
 
-[[ȘTIAM (științe integrate) (clasa a XI-a)|ȘTIAM (științe integrate)]] · [[Clasa a XI-a]] · lecția 4 din 9
+[[ȘTIAM (științe integrate) (clasa a XI-a)|ȘTIAM (științe integrate)]] · [[Clasa a XI-a]] · lecția 4 din 16
 
 **Capitolul:** Materie și energie — semestrul 1
 

@@ -21,7 +21,7 @@ cssclasses: fisa
 
 Nivel intermediar-avansat: structuri complexe, vocabular tematic, texte de specialitate și competențe pentru proba de competențe lingvistice.
 
-## Capitole (3)
+## Capitole (6)
 
 ### Structuri avansate — semestrul 1
 
@@ -41,9 +41,27 @@ Nivel intermediar-avansat: structuri complexe, vocabular tematic, texte de speci
 - [[Producerea de mesaje scrise]]
 - [[Ascultare și interacțiune orală la examen]]
 
+### Timpuri și structuri condiționale — semestrul 1
+
+- [[Timpurile perfecte în uz]]
+- [[Condiționalele reale și ireale]]
+- [[Condiționale mixte și structuri cu wish]]
+
+### Diateza pasivă și discursul indirect — semestrul 1
+
+- [[Diateza pasivă]]
+- [[Discursul indirect (reported speech)]]
+- [[Verbe introductive și întrebări indirecte]]
+
+### Propoziții relative și structuri verbale — semestrul 2
+
+- [[Propozițiile relative]]
+- [[Gerunziu și infinitiv]]
+- [[Conectori și structuri comparative]]
+
 ## Exersare
-- [[Carduri - Limba modernă 1 (Engleză) (clasa a XI-a)]] — 36 carduri
-- [[Test - Limba modernă 1 (Engleză) (clasa a XI-a)]] — 60 întrebări
+- [[Carduri - Limba modernă 1 (Engleză) (clasa a XI-a)]] — 72 carduri
+- [[Test - Limba modernă 1 (Engleză) (clasa a XI-a)]] — 108 întrebări
 
 ## Legături
 - [[Limba modernă 1 (Engleză)|Limba modernă 1 (Engleză)]]

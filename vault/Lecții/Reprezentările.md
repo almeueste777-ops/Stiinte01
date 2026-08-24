@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Reprezentările
 
-[[Psihologie (clasa a X-a)|Psihologie]] · [[Clasa a X-a]] · lecția 6 din 16
+[[Psihologie (clasa a X-a)|Psihologie]] · [[Clasa a X-a]] · lecția 6 din 24
 
 **Capitolul:** Procese cognitive senzoriale — semestrul 1
 

@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Istoria comunismului din România (clasa a XIII-a)
 
-36 carduri pentru [[Istoria comunismului din România (clasa a XIII-a)|Istoria comunismului din România (clasa a XIII-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+72 carduri pentru [[Istoria comunismului din România (clasa a XIII-a)|Istoria comunismului din România (clasa a XIII-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/istoria-comunismului-din-romania
 
@@ -82,6 +82,78 @@ Ce s-a întâmplat în 2006?::A fost prezentat Raportul Comisiei Prezidențiale,
 De ce a fost justiția întârziată?::Pentru că procesele au început târziu, iar mulți responsabili au murit înainte de a fi judecați.
 
 Ce este nostalgia selectivă?::Rememorarea parțială a trecutului, care reține avantajele și omite frica, cozile și lipsa libertății.
+
+Prin ce metodă și-au eliminat comuniștii adversarii?::Prin „tactica salamului", eliminarea treptată, „felie cu felie".
+
+Ce s-a întâmplat cu PNȚ în 1947?::A fost desființat prin înscenarea de la Tămădău, iar liderii lui, arestați.
+
+Ce partid s-a format în 1948?::Partidul Muncitoresc Român, prin absorbirea PSD de către comuniști.
+
+Care a fost pârghia decisivă a preluării puterii?::Controlul asupra Ministerului de Interne, deci asupra poliției.
+
+Cine conducea România în anii '50?::Gheorghe Gheorghiu-Dej.
+
+Ce s-a întâmplat cu Lucrețiu Pătrășcanu?::A fost condamnat și executat în 1954, după un proces înscenat.
+
+Ce impuneau planurile cincinale?::Industrializarea forțată, cu accent pe industria grea.
+
+Ce limbă a devenit obligatorie în școli?::Limba rusă.
+
+Între ce ani s-a desfășurat colectivizarea?::Între 1949 și 1962.
+
+Cine erau „chiaburii"?::Gospodarii înstăriți, persecutați prin cote, arestări și deportări.
+
+Ce erau GAC-urile?::Gospodăriile agricole colective în care erau înscriși țăranii.
+
+Ce efect social major a avut colectivizarea?::Distrugerea țărănimii independente.
+
+Când și după ce model a fost înființată Securitatea?::În 1948, după modelul serviciilor sovietice.
+
+Care a fost instrumentul principal al Securității?::O vastă rețea de informatori.
+
+Ce rol avea Miliția?::Asigura ordinea publică și controlul cotidian.
+
+Ce efect durabil a avut aparatul de represiune?::O societate a fricii, a suspiciunii și a autocenzurii.
+
+De ce a fost numit sistemul de detenție „Gulagul românesc"?::După modelul lagărelor sovietice, dat fiind câți deținuți politici cuprindea.
+
+Cine a fost închis mai ales la Sighet?::Membri ai fostei elite politice, culturale și religioase.
+
+Ce urmărea „reeducarea" de la Pitești?::Distrugerea completă a personalității deținuților.
+
+Ce au însemnat deportările în Bărăgan?::Strămutarea forțată, din 1951, a zeci de mii de oameni.
+
+Când a fost activă rezistența armată din munți?::Între 1948 și sfârșitul anilor '50.
+
+Ce a inițiat Paul Goma în 1977?::O mișcare de solidaritate cu drepturile omului, inspirată de Charta 77.
+
+Cine au fost două figuri ale disidenței din anii '80?::Doina Cornea și Gheorghe Ursu.
+
+Care au fost cele mai importante proteste muncitorești?::Greva din Valea Jiului (1977) și revolta de la Brașov (1987).
+
+Ce a interzis decretul din 1966?::Avortul, pentru a crește natalitatea, cu urmări dramatice.
+
+Ce a prevăzut „sistematizarea"?::Demolarea și reorganizarea satelor și a unor cartiere.
+
+Ce s-a construit prin demolarea centrului Bucureștiului?::Un uriaș ansamblu administrativ, Casa Poporului.
+
+Ce este „național-comunismul"?::Îmbinarea comunismului cu un naționalism apăsat, folosit pentru legitimare.
+
+Cum era prezentat Ceaușescu de propagandă?::Drept geniu providențial, „Conducător iubit", în „Epoca de Aur".
+
+Asupra cui a fost extins cultul personalității?::Asupra Elenei Ceaușescu, prezentată fals ca mare om de știință.
+
+Ce era festivalul „Cântarea României"?::Un festival de mase menit să glorifice regimul și conducătorul.
+
+Ce contrast a adâncit disprețul populației?::Contrastul dintre propaganda glorioasă și penuria reală.
+
+De unde a pornit Revoluția din 1989?::De la Timișoara, la 16 decembrie, de la solidarizarea cu László Tőkés.
+
+Ce s-a întâmplat la 22 decembrie 1989?::Cuplul Ceaușescu a fugit, iar puterea a fost preluată de CFSN.
+
+Când a fost executat cuplul Ceaușescu?::La 25 decembrie 1989, după un proces sumar.
+
+Câți oameni au murit în timpul Revoluției?::Peste 1.100, cei mai mulți după 22 decembrie.
 
 ---
 

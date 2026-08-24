@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Responsabilitate socială și consum responsabil
 
-[[Studii sociale (clasa a XII-a)|Studii sociale]] · [[Clasa a XII-a]] · lecția 8 din 9
+[[Studii sociale (clasa a XII-a)|Studii sociale]] · [[Clasa a XII-a]] · lecția 8 din 18
 
 **Capitolul:** Dezvoltare și responsabilitate — semestrul 2
 

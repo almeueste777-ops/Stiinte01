@@ -10,7 +10,7 @@ clasa: "a XIII-a"
 ---
 # Statul român modern: continuitate și ruptură
 
-[[Istorie (clasa a XIII-a)|Istorie]] · [[Clasa a XIII-a]] · lecția 6 din 9
+[[Istorie (clasa a XIII-a)|Istorie]] · [[Clasa a XIII-a]] · lecția 6 din 22
 
 **Capitolul:** Statul și politica: aprofundări — semestrul 2
 

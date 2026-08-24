@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Devianța și delincvența
 
-[[Sociologie (clasa a XI-a)|Sociologie]] · [[Clasa a XI-a]] · lecția 10 din 14
+[[Sociologie (clasa a XI-a)|Sociologie]] · [[Clasa a XI-a]] · lecția 10 din 24
 
 **Capitolul:** Socializare, normă, devianță — semestrul 2
 

@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Limba modernă 2 (Franceză) (clasa a XI-a)
 
-36 carduri pentru [[Limba modernă 2 (Franceză) (clasa a XI-a)|Limba modernă 2 (Franceză) (clasa a XI-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+72 carduri pentru [[Limba modernă 2 (Franceză) (clasa a XI-a)|Limba modernă 2 (Franceză) (clasa a XI-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/limba-moderna-2-franceza
 
@@ -82,6 +82,78 @@ Ce a schimbat Noul Val?::Limbajul cinematografic, prin filmare în decor real, m
 Ce înseamnă „excepția culturală”?::Politica de a trata bunurile culturale diferit de mărfurile obișnuite, pentru a proteja producția națională.
 
 De ce e utilă cunoașterea liniei editoriale a unei publicații?::Pentru că ajută la evaluarea critică a informației primite.
+
+Cum se formează passé composé?::Cu auxiliarul „avoir" sau „être" la prezent plus participiul trecut.
+
+Ce verbe folosesc auxiliarul „être"?::Verbele de mișcare, cele de schimbare de stare și toate verbele pronominale.
+
+Cu ce se acordă participiul când auxiliarul e „être"?::Cu subiectul, în gen și număr.
+
+Care e participiul trecut al lui „faire"?::„Fait".
+
+Cum se formează imperfectul?::Din radicalul lui „nous" la prezent plus terminațiile -ais, -ais, -ait, -ions, -iez, -aient.
+
+Care verb are radical neregulat la imperfect?::„Être": „j'étais".
+
+Ce exprimă imperfectul?::Durata, descrierea, obișnuința și acțiunea neterminată.
+
+Ce timp cere „quand j'étais petit"?::Imperfectul, pentru obișnuință.
+
+Ce timp dă fundalul unei povestiri?::Imperfectul.
+
+Ce timp aduce evenimentele?::Passé composé.
+
+Cum se exprimă o acțiune întreruptă de alta?::Acțiunea în curs la imperfect, întreruperea la passé composé.
+
+De ce depinde alegerea timpului?::De felul în care e prezentată acțiunea, nu de durata ei.
+
+Ce pronume înlocuiesc COD la persoana a III-a?::„Le", „la", „les".
+
+Ce pronume înlocuiesc COI la persoana a III-a?::„Lui" (singular) și „leur" (plural).
+
+Unde se plasează, de regulă, pronumele complement?::Înaintea verbului.
+
+Ce devine „me" la imperativul afirmativ?::„Moi": „regarde-moi!".
+
+Ce înlocuiește pronumele „y"?::Un complement de loc sau introdus prin „à" pentru lucruri.
+
+Ce înlocuiește pronumele „en"?::Un complement introdus prin „de", partitivul și cantitatea.
+
+„Tu veux du café?" — răspuns cu „en"?::„Oui, j'en veux."
+
+Se folosesc „y" și „en" pentru persoane?::De regulă nu; se preferă pronumele tonice după prepoziție.
+
+Care e ordinea pronumelor complement?::Me/te/se/nous/vous, le/la/les, lui/leur, y, en.
+
+Cu „avoir", cu ce se acordă participiul?::Cu complementul direct, dacă acesta e antepus.
+
+De ce se acordă în „les lettres que j'ai écrites"?::Pentru că „que" e complement direct antepus, feminin plural.
+
+Cu „être", cu ce se acordă participiul?::Cu subiectul.
+
+Cum se formează viitorul simplu regulat?::Din infinitiv plus terminațiile -ai, -as, -a, -ons, -ez, -ont.
+
+Care e viitorul lui „être" la persoana I?::„Je serai".
+
+Care e viitorul lui „aller" la persoana I?::„J'irai".
+
+Ce timp cere „quand" cu sens viitor?::Viitorul: „quand je serai grand".
+
+Care sunt cele trei grade ale comparativului?::Superioritate (plus… que), inferioritate (moins… que), egalitate (aussi… que).
+
+Cum se formează superlativul relativ?::Cu „le/la/les plus" sau „le/la/les moins", plus „de".
+
+Care e comparativul neregulat al lui „bon"?::„Meilleur".
+
+Care e comparativul adverbului „bien"?::„Mieux".
+
+Ce exprimă plus-que-parfait?::O acțiune trecută anterioară altei acțiuni trecute.
+
+Cum se formează plus-que-parfait?::Din auxiliarul „avoir" sau „être" la imperfect plus participiul trecut.
+
+Prin ce diferă de passé composé?::Auxiliarul e la imperfect, nu la prezent.
+
+Ce devine passé composé în discursul indirect la trecut?::Plus-que-parfait.
 
 ---
 

@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Măsurare, incertitudine, date
 
-[[ȘTIAM (științe integrate) (clasa a XI-a)|ȘTIAM (științe integrate)]] · [[Clasa a XI-a]] · lecția 2 din 9
+[[ȘTIAM (științe integrate) (clasa a XI-a)|ȘTIAM (științe integrate)]] · [[Clasa a XI-a]] · lecția 2 din 16
 
 **Capitolul:** Cum funcționează știința — semestrul 1
 

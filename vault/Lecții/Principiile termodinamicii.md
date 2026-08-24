@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Principiile termodinamicii
 
-[[Fizică (clasa a X-a)|Fizică]] · [[Clasa a X-a]] · lecția 3 din 9
+[[Fizică (clasa a X-a)|Fizică]] · [[Clasa a X-a]] · lecția 3 din 18
 
 **Capitolul:** Căldură și termodinamică — semestrul 1
 

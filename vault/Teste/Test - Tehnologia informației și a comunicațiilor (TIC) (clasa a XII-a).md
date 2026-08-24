@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)
 
-60 întrebări din [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)|Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+100 întrebări din [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)|Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Rezultatul probei D se exprimă:
 
@@ -441,7 +441,415 @@ cssclasses: test
 > 
 > Dimensiunea critică este parte din competență.
 
-### 37. Rezultatul probei D se exprimă:
+### 37. Generarea automată a cuprinsului se bazează pe:
+
+- a. stiluri
+- b. culoarea textului
+- c. numărul de pagini
+- d. font
+
+> [!success]- Răspuns
+> **a. stiluri**
+> 
+> Stilurile de titlu structurează documentul.
+
+### 38. Formatarea la nivel de paragraf include:
+
+- a. alinierea și spațierea
+- b. fontul unei litere
+- c. îngroșarea unui cuvânt
+- d. culoarea unei litere
+
+> [!success]- Răspuns
+> **a. alinierea și spațierea**
+> 
+> Fontul e formatare de caracter.
+
+### 39. Un format standard de document text este:
+
+- a. DOCX
+- b. MP3
+- c. JPEG
+- d. EXE
+
+> [!success]- Răspuns
+> **a. DOCX**
+> 
+> PDF și ODT sunt și ele standard.
+
+### 40. Mail merge servește la:
+
+- a. generarea de scrisori personalizate dintr-o listă
+- b. comprimarea imaginilor
+- c. crearea de grafice
+- d. protejarea parolei
+
+> [!success]- Răspuns
+> **a. generarea de scrisori personalizate dintr-o listă**
+> 
+> Îmbină un șablon cu date.
+
+### 41. O formulă într-o celulă începe cu:
+
+- a. semnul egal (=)
+- b. semnul plus
+- c. o literă
+- d. ghilimele
+
+> [!success]- Răspuns
+> **a. semnul egal (=)**
+> 
+> De exemplu =A1+B1.
+
+### 42. Funcția care adună valorile este:
+
+- a. SUM
+- b. IF
+- c. COUNT
+- d. MAX
+
+> [!success]- Răspuns
+> **a. SUM**
+> 
+> AVERAGE calculează media.
+
+### 43. Referința $A$1 este:
+
+- a. absolută (nu se schimbă la copiere)
+- b. relativă
+- c. o funcție
+- d. un grafic
+
+> [!success]- Răspuns
+> **a. absolută (nu se schimbă la copiere)**
+> 
+> Relativa (A1) se modifică la copiere.
+
+### 44. Un grafic cu sectoare (circular) e potrivit pentru:
+
+- a. proporții dintr-un întreg
+- b. evoluția în timp
+- c. text simplu
+- d. formule
+
+> [!success]- Răspuns
+> **a. proporții dintr-un întreg**
+> 
+> Liniile arată evoluția în timp.
+
+### 45. O prezentare bună are, pe un diapozitiv:
+
+- a. text puțin și un mesaj clar
+- b. paragrafe lungi
+- c. cât mai multe animații
+- d. text mic și dens
+
+> [!success]- Răspuns
+> **a. text puțin și un mesaj clar**
+> 
+> Diapozitivul sprijină, nu înlocuiește vorbitorul.
+
+### 46. Animațiile și tranzițiile trebuie folosite:
+
+- a. cu măsură, ca să nu distragă
+- b. cât mai multe
+- c. pe fiecare cuvânt
+- d. niciodată
+
+> [!success]- Răspuns
+> **a. cu măsură, ca să nu distragă**
+> 
+> Ele susțin mesajul, nu îl acoperă.
+
+### 47. Un aspect unitar al prezentării îl asigură:
+
+- a. șablonul (template)
+- b. animațiile
+- c. numărul de diapozitive
+- d. fontul mic
+
+> [!success]- Răspuns
+> **a. șablonul (template)**
+> 
+> Șablonul dă stilul comun.
+
+### 48. Regula de aur a unei prezentări este:
+
+- a. sprijină vorbitorul, nu îl înlocuiește
+- b. conține tot textul discursului
+- c. se citește cuvânt cu cuvânt
+- d. are cât mai mult text
+
+> [!success]- Răspuns
+> **a. sprijină vorbitorul, nu îl înlocuiește**
+> 
+> Publicul ascultă, nu citește diapozitivul.
+
+### 49. Într-o bază relațională, datele stau în:
+
+- a. tabele legate între ele
+- b. imagini
+- c. fișiere audio
+- d. pagini web
+
+> [!success]- Răspuns
+> **a. tabele legate între ele**
+> 
+> Rândurile sunt înregistrări, coloanele câmpuri.
+
+### 50. Cheia primară:
+
+- a. identifică unic fiecare înregistrare
+- b. comprimă datele
+- c. criptează tabelul
+- d. desenează grafice
+
+> [!success]- Răspuns
+> **a. identifică unic fiecare înregistrare**
+> 
+> Evită confundarea înregistrărilor.
+
+### 51. Legarea tabelelor între ele:
+
+- a. evită repetarea datelor
+- b. mărește repetarea
+- c. șterge datele
+- d. schimbă fonturile
+
+> [!success]- Răspuns
+> **a. evită repetarea datelor**
+> 
+> Se face prin chei externe.
+
+### 52. O interogare (query) servește la:
+
+- a. extragerea datelor după criterii
+- b. formatarea textului
+- c. comprimarea imaginilor
+- d. crearea de animații
+
+> [!success]- Răspuns
+> **a. extragerea datelor după criterii**
+> 
+> Extrage exact ce se cere.
+
+### 53. Căutarea unei expresii exacte se face:
+
+- a. punând-o între ghilimele
+- b. cu majuscule
+- c. fără cuvinte-cheie
+- d. cu semnul plus
+
+> [!success]- Răspuns
+> **a. punând-o între ghilimele**
+> 
+> Ghilimelele cer potrivirea exactă.
+
+### 54. La evaluarea unei surse contează:
+
+- a. autorul, scopul și actualitatea
+- b. doar culoarea paginii
+- c. numărul de imagini
+- d. fontul folosit
+
+> [!success]- Răspuns
+> **a. autorul, scopul și actualitatea**
+> 
+> Și dacă poate fi verificată independent.
+
+### 55. Apărarea împotriva știrilor false este:
+
+- a. verificarea din mai multe surse
+- b. încrederea în primul rezultat
+- c. distribuirea rapidă
+- d. ignorarea autorului
+
+> [!success]- Răspuns
+> **a. verificarea din mai multe surse**
+> 
+> Verificarea încrucișată dezvăluie falsul.
+
+### 56. Motorul de căutare ordonează paginile după:
+
+- a. relevanță
+- b. ordine alfabetică
+- c. dimensiunea fișierului
+- d. culoare
+
+> [!success]- Răspuns
+> **a. relevanță**
+> 
+> Indexarea stă la baza rezultatelor.
+
+### 57. Cloud computingul înseamnă:
+
+- a. folosirea de resurse găzduite la distanță, prin internet
+- b. un tip de cablu
+- c. un program antivirus
+- d. o rețea locală
+
+> [!success]- Răspuns
+> **a. folosirea de resurse găzduite la distanță, prin internet**
+> 
+> De exemplu stocarea online.
+
+### 58. O rețea LAN acoperă:
+
+- a. o zonă mică (casă, școală)
+- b. întreg globul
+- c. doar un cablu
+- d. un continent
+
+> [!success]- Răspuns
+> **a. o zonă mică (casă, școală)**
+> 
+> WAN acoperă distanțe mari.
+
+### 59. Internetul lucrurilor (IoT) conectează:
+
+- a. obiecte obișnuite la internet
+- b. doar calculatoarele
+- c. doar telefoanele
+- d. doar serverele
+
+> [!success]- Răspuns
+> **a. obiecte obișnuite la internet**
+> 
+> Becuri, termostate, ceasuri inteligente.
+
+### 60. Un dezavantaj al cloudului este:
+
+- a. dependența de conexiune și de furnizor
+- b. accesul de oriunde
+- c. colaborarea ușoară
+- d. lipsa instalării
+
+> [!success]- Răspuns
+> **a. dependența de conexiune și de furnizor**
+> 
+> Apar și întrebări de confidențialitate.
+
+### 61. Învățarea automată (machine learning):
+
+- a. învață tipare din exemple
+- b. urmează doar reguli fixe scrise de om
+- c. este un tip de cablu
+- d. comprimă imagini
+
+> [!success]- Răspuns
+> **a. învață tipare din exemple**
+> 
+> De aceea are nevoie de multe date.
+
+### 62. O folosire curentă a IA este:
+
+- a. filtrele de spam și recomandările
+- b. răcirea procesorului
+- c. alimentarea cu energie
+- d. tipărirea documentelor
+
+> [!success]- Răspuns
+> **a. filtrele de spam și recomandările**
+> 
+> Și asistenții vocali.
+
+### 63. IA ridică întrebarea etică a:
+
+- a. confidențialității datelor și a deciziilor automate
+- b. culorii ecranului
+- c. vitezei de tastare
+- d. mărimii fișierelor
+
+> [!success]- Răspuns
+> **a. confidențialității datelor și a deciziilor automate**
+> 
+> Folosirea trebuie să fie responsabilă.
+
+### 64. O tehnologie emergentă este:
+
+- a. realitatea virtuală și augmentată
+- b. procesorul de text clasic
+- c. tastatura
+- d. mouse-ul
+
+> [!success]- Răspuns
+> **a. realitatea virtuală și augmentată**
+> 
+> Alături de roboți, blockchain, tipărire 3D.
+
+### 65. Generarea automată a cuprinsului se bazează pe:
+
+- a. stiluri
+- b. culoarea textului
+- c. font
+- d. numărul paginilor
+
+> [!success]- Răspuns
+> **a. stiluri**
+> 
+> Stilurile de titlu structurează documentul.
+
+### 66. O formulă de calcul tabelar începe cu:
+
+- a. semnul egal (=)
+- b. o literă
+- c. semnul plus
+- d. ghilimele
+
+> [!success]- Răspuns
+> **a. semnul egal (=)**
+> 
+> De exemplu =A1+B1.
+
+### 67. Funcția care calculează media este:
+
+- a. AVERAGE
+- b. SUM
+- c. COUNT
+- d. IF
+
+> [!success]- Răspuns
+> **a. AVERAGE**
+> 
+> SUM adună valorile.
+
+### 68. Cheia primară dintr-o bază de date:
+
+- a. identifică unic fiecare înregistrare
+- b. comprimă datele
+- c. criptează tabelul
+- d. desenează grafice
+
+> [!success]- Răspuns
+> **a. identifică unic fiecare înregistrare**
+> 
+> Evită confundarea înregistrărilor.
+
+### 69. Referința $A$1 este:
+
+- a. absolută (nu se schimbă la copiere)
+- b. relativă
+- c. o funcție
+- d. un grafic
+
+> [!success]- Răspuns
+> **a. absolută (nu se schimbă la copiere)**
+> 
+> Relativa (A1) se modifică la copiere.
+
+### 70. Într-o bază relațională, un rând reprezintă:
+
+- a. o înregistrare
+- b. un câmp
+- c. o formulă
+- d. un grafic
+
+> [!success]- Răspuns
+> **a. o înregistrare**
+> 
+> Coloana este un câmp.
+
+### 71. Rezultatul probei D se exprimă:
 
 - a. în niveluri de competență
 - b. în note
@@ -453,7 +861,7 @@ cssclasses: test
 > 
 > Susținerea rămâne obligatorie pentru promovare.
 
-### 38. Salvarea fișierului cu alt nume decât cel cerut la examen:
+### 72. Salvarea fișierului cu alt nume decât cel cerut la examen:
 
 - a. duce la pierderea punctajului aferent
 - b. nu contează
@@ -465,7 +873,7 @@ cssclasses: test
 > 
 > Cerințele de salvare fac parte din sarcină.
 
-### 39. Folosirea rândurilor goale pentru a împinge textul pe pagina următoare:
+### 73. Folosirea rândurilor goale pentru a împinge textul pe pagina următoare:
 
 - a. este o soluție fragilă
 - b. este recomandată
@@ -477,7 +885,7 @@ cssclasses: test
 > 
 > Există întreruperea de pagină pentru acest scop.
 
-### 40. Cuprinsul automat:
+### 74. Cuprinsul automat:
 
 - a. trebuie actualizat înainte de predare
 - b. se actualizează la fiecare tastă
@@ -489,7 +897,7 @@ cssclasses: test
 > 
 > El citește stilurile aplicate titlurilor.
 
-### 41. Secțiunile dintr-un document permit:
+### 75. Secțiunile dintr-un document permit:
 
 - a. antete și numerotări diferite pe părți diferite
 - b. schimbarea limbii
@@ -501,7 +909,7 @@ cssclasses: test
 > 
 > Sunt esențiale în lucrările lungi.
 
-### 42. Scrierea unei valori direct în formulă:
+### 76. Scrierea unei valori direct în formulă:
 
 - a. face modificarea ulterioară dificilă
 - b. protejează calculul
@@ -513,7 +921,7 @@ cssclasses: test
 > 
 > Valoarea se pune într-o celulă proprie.
 
-### 43. Validarea datelor previne:
+### 77. Validarea datelor previne:
 
 - a. introducerea unor valori nepermise
 - b. erorile de formulă
@@ -525,7 +933,7 @@ cssclasses: test
 > 
 > De exemplu, o notă în afara intervalului admis.
 
-### 44. Operatorul site: limitează căutarea:
+### 78. Operatorul site: limitează căutarea:
 
 - a. la un anumit domeniu
 - b. la un tip de fișier
@@ -537,7 +945,7 @@ cssclasses: test
 > 
 > filetype: limitează la un tip de fișier.
 
-### 45. Confirmarea unei informații presupune:
+### 79. Confirmarea unei informații presupune:
 
 - a. surse independente, care nu se citează reciproc
 - b. mai multe site-uri care preiau aceeași știre
@@ -549,7 +957,7 @@ cssclasses: test
 > 
 > Preluarea nu este confirmare.
 
-### 46. Un mesaj care cere urgent date de card pentru „deblocarea contului” este:
+### 80. Un mesaj care cere urgent date de card pentru „deblocarea contului” este:
 
 - a. cel mai probabil phishing
 - b. o notificare legitimă
@@ -561,7 +969,7 @@ cssclasses: test
 > 
 > Instituțiile serioase nu cer astfel de date prin mesaj.
 
-### 47. Refolosirea aceleiași parole:
+### 81. Refolosirea aceleiași parole:
 
 - a. permite compromiterea în lanț a conturilor
 - b. este sigură dacă parola e lungă
@@ -573,7 +981,7 @@ cssclasses: test
 > 
 > O singură scurgere compromite tot.
 
-### 48. Prima măsură la compromiterea unui cont este:
+### 82. Prima măsură la compromiterea unui cont este:
 
 - a. schimbarea parolei de pe un dispozitiv sigur
 - b. ștergerea contului
@@ -585,7 +993,79 @@ cssclasses: test
 > 
 > Apoi se deconectează sesiunile active.
 
-### 49. Identitatea digitală este:
+### 83. Căutarea unei expresii exacte se face:
+
+- a. punând-o între ghilimele
+- b. cu majuscule
+- c. fără cuvinte-cheie
+- d. cu semnul minus
+
+> [!success]- Răspuns
+> **a. punând-o între ghilimele**
+> 
+> Ghilimelele cer potrivirea exactă.
+
+### 84. Cloud computingul înseamnă:
+
+- a. resurse găzduite la distanță, accesate prin internet
+- b. un tip de imprimantă
+- c. o rețea de cabluri
+- d. un antivirus
+
+> [!success]- Răspuns
+> **a. resurse găzduite la distanță, accesate prin internet**
+> 
+> De exemplu stocarea online.
+
+### 85. Învățarea automată:
+
+- a. învață tipare din exemple
+- b. urmează doar reguli fixe
+- c. este un cablu de rețea
+- d. comprimă sunetul
+
+> [!success]- Răspuns
+> **a. învață tipare din exemple**
+> 
+> Are nevoie de multe date.
+
+### 86. Apărarea împotriva dezinformării este:
+
+- a. verificarea din mai multe surse
+- b. încrederea în primul rezultat
+- c. distribuirea rapidă
+- d. ignorarea autorului
+
+> [!success]- Răspuns
+> **a. verificarea din mai multe surse**
+> 
+> Verificarea încrucișată dezvăluie falsul.
+
+### 87. Internetul lucrurilor (IoT) conectează:
+
+- a. obiecte obișnuite la internet
+- b. doar serverele
+- c. doar imprimantele
+- d. doar telefoanele
+
+> [!success]- Răspuns
+> **a. obiecte obișnuite la internet**
+> 
+> Becuri, termostate, ceasuri inteligente.
+
+### 88. O rețea LAN acoperă:
+
+- a. o zonă mică (casă, școală)
+- b. întreg globul
+- c. un continent
+- d. doar un cablu
+
+> [!success]- Răspuns
+> **a. o zonă mică (casă, școală)**
+> 
+> WAN acoperă distanțe mari.
+
+### 89. Identitatea digitală este:
 
 - a. ansamblul informațiilor care te reprezintă online
 - b. numele de utilizator
@@ -597,7 +1077,7 @@ cssclasses: test
 > 
 > Ea este verificată în practică de angajatori și instituții.
 
-### 50. Ștergerea unei postări publice:
+### 90. Ștergerea unei postări publice:
 
 - a. nu garantează dispariția ei
 - b. o elimină definitiv
@@ -609,7 +1089,7 @@ cssclasses: test
 > 
 > Urma digitală e greu reversibilă.
 
-### 51. Setările de confidențialitate ar trebui:
+### 91. Setările de confidențialitate ar trebui:
 
 - a. revizuite periodic
 - b. lăsate implicite
@@ -621,7 +1101,7 @@ cssclasses: test
 > 
 > Actualizările platformelor pot reseta preferințele.
 
-### 52. Un risc real al cloudului este:
+### 92. Un risc real al cloudului este:
 
 - a. dependența de furnizor și migrarea dificilă
 - b. imposibilitatea colaborării
@@ -633,7 +1113,7 @@ cssclasses: test
 > 
 > Avantajele nu elimină riscurile.
 
-### 53. Copia locală a documentelor importante:
+### 93. Copia locală a documentelor importante:
 
 - a. protejează împotriva pierderii accesului
 - b. este inutilă
@@ -645,7 +1125,7 @@ cssclasses: test
 > 
 > Redundanța este principiul siguranței datelor.
 
-### 54. Prejudecata algoritmică provine din:
+### 94. Prejudecata algoritmică provine din:
 
 - a. datele pe care sistemul a fost antrenat
 - b. intenția programatorilor
@@ -657,7 +1137,7 @@ cssclasses: test
 > 
 > De aceea contează reprezentativitatea datelor.
 
-### 55. Un rezultat generat automat:
+### 95. Un rezultat generat automat:
 
 - a. trebuie verificat înainte de folosire
 - b. este întotdeauna corect
@@ -669,7 +1149,7 @@ cssclasses: test
 > 
 > Sistemele pot formula convingător informații false.
 
-### 56. Valoarea datelor mari stă în:
+### 96. Valoarea datelor mari stă în:
 
 - a. tiparele descoperite prin analiză
 - b. volumul lor
@@ -681,7 +1161,7 @@ cssclasses: test
 > 
 > Datele neanalizate nu produc valoare.
 
-### 57. Automatizarea sarcinilor repetitive:
+### 97. Automatizarea sarcinilor repetitive:
 
 - a. schimbă competențele cerute pe piața muncii
 - b. elimină munca
@@ -693,7 +1173,7 @@ cssclasses: test
 > 
 > Recalificarea devine permanentă.
 
-### 58. Decalajul digital privește:
+### 98. Decalajul digital privește:
 
 - a. accesul și competențele deopotrivă
 - b. doar viteza internetului
@@ -705,7 +1185,7 @@ cssclasses: test
 > 
 > Accesul fără competențe nu produce beneficii.
 
-### 59. Distribuirea unei informații neverificate:
+### 99. Distribuirea unei informații neverificate:
 
 - a. contribuie la răspândirea dezinformării
 - b. este neutră
@@ -717,7 +1197,7 @@ cssclasses: test
 > 
 > Fiecare distribuire amplifică mesajul.
 
-### 60. Competența digitală completă include:
+### 100. Competența digitală completă include:
 
 - a. înțelegerea efectelor tehnologiei, nu doar folosirea ei
 - b. cunoașterea tuturor aplicațiilor

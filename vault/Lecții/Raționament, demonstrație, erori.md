@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Raționament, demonstrație, erori
 
-[[Matematică (clasa a X-a)|Matematică]] · [[Clasa a X-a]] · lecția 9 din 9
+[[Matematică (clasa a X-a)|Matematică]] · [[Clasa a X-a]] · lecția 9 din 18
 
 **Capitolul:** Matematici financiare și aplicații — semestrul 2
 
@@ -29,6 +29,6 @@ Matematica se construiește prin demonstrație. Metodele uzuale sunt: demonstra�
 
 ---
 
-⬅ [[Funcții și modele de creștere]]
+⬅ [[Funcții și modele de creștere]] · [[Funcția putere și funcția radical]] ➡
 
 Exersează: [[Carduri - Matematică (clasa a X-a)]] · [[Test - Matematică (clasa a X-a)]]

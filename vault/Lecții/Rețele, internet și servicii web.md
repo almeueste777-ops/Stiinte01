@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Rețele, internet și servicii web
 
-[[Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a IX-a]] · lecția 3 din 9
+[[Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a IX-a]] · lecția 3 din 16
 
 **Capitolul:** Calculatorul și sistemul de operare — semestrul 1
 

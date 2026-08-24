@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Legile eredității
 
-[[Biologie (clasa a X-a)|Biologie]] · [[Clasa a X-a]] · lecția 1 din 9
+[[Biologie (clasa a X-a)|Biologie]] · [[Clasa a X-a]] · lecția 1 din 18
 
 **Capitolul:** Genetică și evoluție — semestrul 1
 

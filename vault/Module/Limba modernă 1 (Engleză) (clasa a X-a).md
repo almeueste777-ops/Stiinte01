@@ -21,7 +21,7 @@ cssclasses: fisa
 
 Structuri intermediare: timpuri perfecte, condiționale, pasiv, vorbire indirectă și competențe de comunicare aplicată.
 
-## Capitole (3)
+## Capitole (6)
 
 ### Timpuri și aspecte — semestrul 1
 
@@ -41,9 +41,27 @@ Structuri intermediare: timpuri perfecte, condiționale, pasiv, vorbire indirect
 - [[Ascultare, vorbire, interacțiune]]
 - [[Engleza pentru studiu și examene]]
 
+### Verb și timp (aprofundare) — semestrul 1
+
+- [[Formele viitorului și viitorul continuu]]
+- [[Obișnuințe trecute - used to, would, be get used to]]
+- [[Structuri de grad - so, such, too, enough]]
+
+### Cuvinte de legătură și formarea cuvintelor — semestrul 2
+
+- [[Conectori și cuvinte de legătură]]
+- [[Formarea cuvintelor - prefixe și sufixe]]
+- [[Verbe frazale de bază]]
+
+### Vocabular tematic aplicat — semestrul 1
+
+- [[Călătorii, turism și orientare]]
+- [[Tehnologie și comunicare digitală]]
+- [[Sănătate, sport și stil de viață]]
+
 ## Exersare
-- [[Carduri - Limba modernă 1 (Engleză) (clasa a X-a)]] — 36 carduri
-- [[Test - Limba modernă 1 (Engleză) (clasa a X-a)]] — 60 întrebări
+- [[Carduri - Limba modernă 1 (Engleză) (clasa a X-a)]] — 72 carduri
+- [[Test - Limba modernă 1 (Engleză) (clasa a X-a)]] — 96 întrebări
 
 ## Legături
 - [[Limba modernă 1 (Engleză)|Limba modernă 1 (Engleză)]]

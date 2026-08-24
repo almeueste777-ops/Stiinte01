@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Unirea din 1859 și domnia lui Cuza
 
-[[Istorie (clasa a XII-a)|Istorie]] · [[Clasa a XII-a]] · lecția 4 din 12
+[[Istorie (clasa a XII-a)|Istorie]] · [[Clasa a XII-a]] · lecția 4 din 24
 
 **Capitolul:** Statul român modern — semestrul 1
 

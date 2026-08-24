@@ -350,7 +350,305 @@ Responsabilitatea utilizatorului: verificarea informației înainte de distribui
 - viteza de tastare
 ! Dimensiunea critică este parte din competență.
 
+## 1 | tic12-c4 | Instrumente de birou
+### tic12-10 | Procesorul de text
+Procesorul de text (Word, Writer, Google Docs) creează documente formatate. Formatarea la nivel de caracter cuprinde font, dimensiune, îngroșat, cursiv, subliniat, culoare; cea la nivel de paragraf cuprinde aliniere, spațiere, indentare, liste. Stilurile aplică o formatare consecventă și permit generarea automată a cuprinsului, fiind cheia documentelor lungi și îngrijite. Alte instrumente: inserarea de imagini și tabele, antet și subsol, numerotarea paginilor, corectarea ortografică, îmbinarea corespondenței (mail merge). Un document bine structurat folosește stiluri, nu formatări manuale repetate. Salvarea în formate standard (DOCX, PDF, ODT) și organizarea în fișiere și foldere fac documentul ușor de partajat și de regăsit, iar scurtăturile de tastatură (Ctrl+C, Ctrl+V, Ctrl+Z) grăbesc lucrul.
+* Formatare la nivel de caracter (font) și de paragraf (aliniere, spațiere).
+* Stilurile dau consecvență și generează automat cuprinsul.
+* Instrumente: imagini, tabele, antet/subsol, numerotare, mail merge.
+* Salvare în formate standard: DOCX, PDF, ODT.
+= stil (procesor de text) :: set de formatări aplicat unitar, care asigură consecvența documentului
+= mail merge :: îmbinarea unui document tip cu o listă de date, pentru scrisori personalizate
+@ Ce avantaj dau stilurile într-un document? :: Consecvența și generarea automată a cuprinsului.
+@ Ce este mail merge? :: Îmbinarea unui document tip cu o listă de date.
+@ Numește un format standard de document. :: DOCX (sau PDF, ODT).
+@ La ce nivel se face alinierea? :: La nivel de paragraf.
+? Generarea automată a cuprinsului se bazează pe:
++ stiluri
+- culoarea textului
+- numărul de pagini
+- font
+! Stilurile de titlu structurează documentul.
+? Formatarea la nivel de paragraf include:
++ alinierea și spațierea
+- fontul unei litere
+- îngroșarea unui cuvânt
+- culoarea unei litere
+! Fontul e formatare de caracter.
+? Un format standard de document text este:
++ DOCX
+- MP3
+- JPEG
+- EXE
+! PDF și ODT sunt și ele standard.
+? Mail merge servește la:
++ generarea de scrisori personalizate dintr-o listă
+- comprimarea imaginilor
+- crearea de grafice
+- protejarea parolei
+! Îmbină un șablon cu date.
+
+### tic12-11 | Calculul tabelar
+Programul de calcul tabelar (Excel, Calc, Google Sheets) organizează date în foi formate din celule, identificate prin coloană și rând (A1, B2). Puterea lui stă în formule, care încep cu semnul egal, de exemplu =A1+B1. Referințele pot fi relative (se schimbă la copiere: A1) sau absolute (rămân fixe: $A$1). Funcțiile efectuează calcule predefinite: SUM (sumă), AVERAGE (medie), MIN, MAX, COUNT (numărare), IF (condiție). Datele pot fi sortate, filtrate și reprezentate în grafice (coloane, linii, sectoare), pentru a fi înțelese vizual. Calculul tabelar e folosit pentru bugete, statistici, evidențe; o foaie bine făcută separă datele de calcule și folosește referințe corecte. Formatarea condiționată evidențiază valorile după reguli.
+* Datele stau în celule (coloană + rând: A1).
+* Formulele încep cu „=”; referințe relative (A1) sau absolute ($A$1).
+* Funcții: SUM, AVERAGE, MIN, MAX, COUNT, IF.
+* Datele se pot sorta, filtra și reprezenta în grafice.
+= formulă :: expresie de calcul dintr-o celulă, care începe cu semnul egal
+= referință absolută :: referință care nu se schimbă la copiere, marcată cu $ ($A$1)
+@ Cu ce semn încep formulele? :: Cu semnul egal (=).
+@ Ce funcție calculează media? :: AVERAGE.
+@ Ce e o referință absolută? :: O referință fixă la copiere, scrisă cu $ ($A$1).
+@ Ce arată un grafic? :: Datele într-o formă vizuală, ușor de înțeles.
+? O formulă într-o celulă începe cu:
++ semnul egal (=)
+- semnul plus
+- o literă
+- ghilimele
+! De exemplu =A1+B1.
+? Funcția care adună valorile este:
++ SUM
+- IF
+- COUNT
+- MAX
+! AVERAGE calculează media.
+? Referința $A$1 este:
++ absolută (nu se schimbă la copiere)
+- relativă
+- o funcție
+- un grafic
+! Relativa (A1) se modifică la copiere.
+? Un grafic cu sectoare (circular) e potrivit pentru:
++ proporții dintr-un întreg
+- evoluția în timp
+- text simplu
+- formule
+! Liniile arată evoluția în timp.
+
+### tic12-12 | Prezentările electronice
+Programul de prezentări (PowerPoint, Impress, Google Slides) creează secvențe de diapozitive (slide-uri) pentru a susține o expunere. O prezentare bună respectă câteva reguli: un mesaj clar per diapozitiv, text puțin (idei, nu paragrafe), imagini relevante, contrast bun între text și fundal, un font lizibil. Elementele: titluri, liste, imagini, grafice, eventual animații și tranziții — folosite cu măsură, ca să nu distragă. Șabloanele (template) asigură un aspect unitar. Regula practică: prezentarea sprijină vorbitorul, nu îl înlocuiește, iar diapozitivul nu se citește cuvânt cu cuvânt. La final, o structură clară (introducere, cuprins, concluzie) și repetiția expunerii fac diferența; exportul în PDF păstrează aspectul pentru distribuire.
+* Un mesaj clar per diapozitiv; text puțin, idei, nu paragrafe.
+* Contrast bun, font lizibil, imagini relevante.
+* Animațiile și tranzițiile se folosesc cu măsură.
+* Prezentarea sprijină vorbitorul, nu îl înlocuiește.
+= diapozitiv (slide) :: o pagină a unei prezentări electronice
+= șablon (template) :: model de aspect care asigură un stil unitar prezentării
+@ Câte idei principale ar trebui să aibă un diapozitiv? :: Una, clară.
+@ Ce rol are prezentarea față de vorbitor? :: Îl sprijină, nu îl înlocuiește.
+@ De ce se folosesc animațiile cu măsură? :: Ca să nu distragă de la mesaj.
+@ Ce asigură un șablon? :: Un aspect unitar al prezentării.
+? O prezentare bună are, pe un diapozitiv:
++ text puțin și un mesaj clar
+- paragrafe lungi
+- cât mai multe animații
+- text mic și dens
+! Diapozitivul sprijină, nu înlocuiește vorbitorul.
+? Animațiile și tranzițiile trebuie folosite:
++ cu măsură, ca să nu distragă
+- cât mai multe
+- pe fiecare cuvânt
+- niciodată
+! Ele susțin mesajul, nu îl acoperă.
+? Un aspect unitar al prezentării îl asigură:
++ șablonul (template)
+- animațiile
+- numărul de diapozitive
+- fontul mic
+! Șablonul dă stilul comun.
+? Regula de aur a unei prezentări este:
++ sprijină vorbitorul, nu îl înlocuiește
+- conține tot textul discursului
+- se citește cuvânt cu cuvânt
+- are cât mai mult text
+! Publicul ascultă, nu citește diapozitivul.
+
+## 2 | tic12-c5 | Informație și baze de date
+### tic12-13 | Baze de date
+O bază de date organizează informația astfel încât să poată fi stocată, căutată și actualizată eficient. Modelul cel mai răspândit e cel relațional: datele stau în tabele formate din rânduri (înregistrări) și coloane (câmpuri). Fiecare tabel are o cheie primară — un câmp care identifică unic fiecare înregistrare (de exemplu un cod). Tabelele se leagă între ele prin relații, folosind chei externe, ceea ce evită repetarea datelor. Operațiile de bază: adăugare, căutare (interogare), actualizare, ștergere; interogările extrag exact datele cerute după criterii, iar un sistem de gestiune a bazelor de date (SGBD) administrează totul. Bazele de date stau în spatele aplicațiilor: magazine online, biblioteci, bănci, rețele sociale. O bază bine proiectată nu repetă datele și le păstrează corecte.
+* Modelul relațional: date în tabele (rânduri = înregistrări, coloane = câmpuri).
+* Cheia primară identifică unic fiecare înregistrare.
+* Tabelele se leagă prin relații (chei externe), evitând repetarea.
+* Operații: adăugare, interogare, actualizare, ștergere.
+= bază de date relațională :: bază de date în care informația e organizată în tabele legate între ele
+= cheie primară :: câmp care identifică unic fiecare înregistrare dintr-un tabel
+@ Cum sunt organizate datele într-o bază relațională? :: În tabele cu rânduri (înregistrări) și coloane (câmpuri).
+@ Ce face cheia primară? :: Identifică unic fiecare înregistrare.
+@ Cum se leagă tabelele între ele? :: Prin relații, folosind chei externe.
+@ Ce este o interogare? :: O căutare care extrage datele cerute după criterii.
+? Într-o bază relațională, datele stau în:
++ tabele legate între ele
+- imagini
+- fișiere audio
+- pagini web
+! Rândurile sunt înregistrări, coloanele câmpuri.
+? Cheia primară:
++ identifică unic fiecare înregistrare
+- comprimă datele
+- criptează tabelul
+- desenează grafice
+! Evită confundarea înregistrărilor.
+? Legarea tabelelor între ele:
++ evită repetarea datelor
+- mărește repetarea
+- șterge datele
+- schimbă fonturile
+! Se face prin chei externe.
+? O interogare (query) servește la:
++ extragerea datelor după criterii
+- formatarea textului
+- comprimarea imaginilor
+- crearea de animații
+! Extrage exact ce se cere.
+
+### tic12-14 | Căutarea și evaluarea informației
+Internetul oferă multă informație, dar de calitate inegală; regăsirea și evaluarea ei sunt competențe esențiale. Motoarele de căutare indexează paginile și le ordonează după relevanță, iar căutarea eficientă folosește cuvinte-cheie potrivite, ghilimele pentru expresii exacte și filtre (dată, tip, limbă). Evaluarea sursei cere întrebări: cine e autorul, ce autoritate are, care e scopul (a informa, a vinde, a convinge), cât de actuală e informația, poate fi verificată din surse independente? Dezinformarea și știrile false circulă ușor; verificarea încrucișată (mai multe surse) și atenția la manipulare sunt apărarea. Citarea corectă a surselor respectă dreptul de autor și dă credibilitate. Un utilizator informat nu ia de bun primul rezultat, ci confruntă și verifică.
+* Motoarele indexează și ordonează paginile după relevanță.
+* Căutare eficientă: cuvinte-cheie, ghilimele, filtre.
+* Evaluarea sursei: autor, autoritate, scop, actualitate, verificabilitate.
+* Verificarea încrucișată apără de dezinformare.
+= motor de căutare :: serviciu care indexează paginile web și le ordonează după relevanță
+= verificare încrucișată :: confruntarea informației cu mai multe surse independente
+@ Ce fac motoarele de căutare? :: Indexează paginile și le ordonează după relevanță.
+@ Ce întrebări ajută la evaluarea unei surse? :: Cine e autorul, ce scop are, cât de actuală și verificabilă e.
+@ Cum se caută o expresie exactă? :: Punând-o între ghilimele.
+@ Cum ne apărăm de dezinformare? :: Prin verificare încrucișată, din mai multe surse.
+? Căutarea unei expresii exacte se face:
++ punând-o între ghilimele
+- cu majuscule
+- fără cuvinte-cheie
+- cu semnul plus
+! Ghilimelele cer potrivirea exactă.
+? La evaluarea unei surse contează:
++ autorul, scopul și actualitatea
+- doar culoarea paginii
+- numărul de imagini
+- fontul folosit
+! Și dacă poate fi verificată independent.
+? Apărarea împotriva știrilor false este:
++ verificarea din mai multe surse
+- încrederea în primul rezultat
+- distribuirea rapidă
+- ignorarea autorului
+! Verificarea încrucișată dezvăluie falsul.
+? Motorul de căutare ordonează paginile după:
++ relevanță
+- ordine alfabetică
+- dimensiunea fișierului
+- culoare
+! Indexarea stă la baza rezultatelor.
+
+## 2 | tic12-c6 | Tehnologii emergente și identitate digitală
+### tic12-15 | Rețele, cloud și internetul lucrurilor
+O rețea de calculatoare leagă dispozitive ca să comunice și să partajeze resurse; internetul este rețeaua globală care leagă toate rețelele. Rețelele locale (LAN) acoperă o zonă mică (o casă, o școală), cele extinse (WAN) acoperă distanțe mari. Cloud computingul înseamnă folosirea unor resurse (stocare, programe, putere de calcul) găzduite pe servere la distanță și accesate prin internet: e-mail, stocare online, aplicații care rulează în browser. Avantaje: acces de oriunde, fără instalare, colaborare ușoară; dezavantaje: dependența de conexiune și de furnizor, întrebări de confidențialitate. Internetul lucrurilor (IoT) conectează la internet obiecte obișnuite — becuri, termostate, ceasuri — care culeg și schimbă date. Aceste tehnologii aduc comoditate, dar și noi riscuri de securitate și de viață privată.
+* Rețea = dispozitive legate pentru a comunica; internetul = rețeaua globală.
+* LAN (local) vs. WAN (extins).
+* Cloud = resurse găzduite la distanță, accesate prin internet.
+* IoT = obiecte obișnuite conectate la internet, care schimbă date.
+= cloud computing :: folosirea unor resurse informatice găzduite la distanță și accesate prin internet
+= internetul lucrurilor (IoT) :: conectarea la internet a unor obiecte obișnuite, care culeg și schimbă date
+@ Ce este o rețea de calculatoare? :: Dispozitive legate ca să comunice și să partajeze resurse.
+@ Ce înseamnă cloud computing? :: Folosirea de resurse găzduite la distanță, prin internet.
+@ Prin ce diferă LAN de WAN? :: LAN acoperă o zonă mică; WAN, distanțe mari.
+@ Ce este IoT? :: Conectarea la internet a obiectelor obișnuite.
+? Cloud computingul înseamnă:
++ folosirea de resurse găzduite la distanță, prin internet
+- un tip de cablu
+- un program antivirus
+- o rețea locală
+! De exemplu stocarea online.
+? O rețea LAN acoperă:
++ o zonă mică (casă, școală)
+- întreg globul
+- doar un cablu
+- un continent
+! WAN acoperă distanțe mari.
+? Internetul lucrurilor (IoT) conectează:
++ obiecte obișnuite la internet
+- doar calculatoarele
+- doar telefoanele
+- doar serverele
+! Becuri, termostate, ceasuri inteligente.
+? Un dezavantaj al cloudului este:
++ dependența de conexiune și de furnizor
+- accesul de oriunde
+- colaborarea ușoară
+- lipsa instalării
+! Apar și întrebări de confidențialitate.
+
+### tic12-16 | Inteligența artificială și tehnologii emergente
+Inteligența artificială (IA) este domeniul care creează sisteme capabile să îndeplinească sarcini care par să ceară inteligență: recunoașterea imaginilor și a vorbirii, traducerea, recomandările, conducerea autonomă. Multe sisteme moderne folosesc învățarea automată (machine learning): programul „învață” tipare din multe exemple, în loc să fie programat cu reguli fixe. IA e deja în jurul nostru: asistenți vocali, filtre de spam, recomandări în magazine online și rețele sociale. Alte tehnologii emergente: realitatea virtuală și augmentată, roboții, tehnologia blockchain, tipărirea 3D. Aceste tehnologii aduc oportunități mari, dar ridică și întrebări etice: confidențialitatea datelor, corectitudinea deciziilor automate, efectele asupra muncii, dezinformarea. Un cetățean digital informat înțelege ce pot și ce nu pot aceste sisteme și le folosește critic și responsabil.
+* IA creează sisteme care îndeplinesc sarcini ce par să ceară inteligență.
+* Învățarea automată învață tipare din exemple, nu din reguli fixe.
+* IA e deja în asistenți vocali, filtre de spam, recomandări.
+* Tehnologiile emergente ridică întrebări etice (date, muncă, decizii automate).
+= inteligență artificială :: domeniu care creează sisteme capabile de sarcini ce par să ceară inteligență
+= învățare automată (machine learning) :: metodă prin care un program învață tipare din exemple, nu din reguli fixe
+@ Ce este inteligența artificială? :: Domeniul care creează sisteme capabile de sarcini ce par să ceară inteligență.
+@ Ce face învățarea automată? :: Învață tipare din multe exemple, nu din reguli fixe.
+@ Numește o folosire curentă a IA. :: Asistenți vocali, filtre de spam, recomandări.
+@ Ce întrebări etice ridică IA? :: Confidențialitatea, corectitudinea deciziilor, efectele asupra muncii.
+? Învățarea automată (machine learning):
++ învață tipare din exemple
+- urmează doar reguli fixe scrise de om
+- este un tip de cablu
+- comprimă imagini
+! De aceea are nevoie de multe date.
+? O folosire curentă a IA este:
++ filtrele de spam și recomandările
+- răcirea procesorului
+- alimentarea cu energie
+- tipărirea documentelor
+! Și asistenții vocali.
+? IA ridică întrebarea etică a:
++ confidențialității datelor și a deciziilor automate
+- culorii ecranului
+- vitezei de tastare
+- mărimii fișierelor
+! Folosirea trebuie să fie responsabilă.
+? O tehnologie emergentă este:
++ realitatea virtuală și augmentată
+- procesorul de text clasic
+- tastatura
+- mouse-ul
+! Alături de roboți, blockchain, tipărire 3D.
+
 %% teza 1
+? Generarea automată a cuprinsului se bazează pe:
++ stiluri
+- culoarea textului
+- font
+- numărul paginilor
+! Stilurile de titlu structurează documentul.
+? O formulă de calcul tabelar începe cu:
++ semnul egal (=)
+- o literă
+- semnul plus
+- ghilimele
+! De exemplu =A1+B1.
+? Funcția care calculează media este:
++ AVERAGE
+- SUM
+- COUNT
+- IF
+! SUM adună valorile.
+? Cheia primară dintr-o bază de date:
++ identifică unic fiecare înregistrare
+- comprimă datele
+- criptează tabelul
+- desenează grafice
+! Evită confundarea înregistrărilor.
+? Referința $A$1 este:
++ absolută (nu se schimbă la copiere)
+- relativă
+- o funcție
+- un grafic
+! Relativa (A1) se modifică la copiere.
+? Într-o bază relațională, un rând reprezintă:
++ o înregistrare
+- un câmp
+- o formulă
+- un grafic
+! Coloana este un câmp.
 ? Rezultatul probei D se exprimă:
 + în niveluri de competență
 - în note
@@ -425,6 +723,42 @@ Responsabilitatea utilizatorului: verificarea informației înainte de distribui
 ! Apoi se deconectează sesiunile active.
 
 %% teza 2
+? Căutarea unei expresii exacte se face:
++ punând-o între ghilimele
+- cu majuscule
+- fără cuvinte-cheie
+- cu semnul minus
+! Ghilimelele cer potrivirea exactă.
+? Cloud computingul înseamnă:
++ resurse găzduite la distanță, accesate prin internet
+- un tip de imprimantă
+- o rețea de cabluri
+- un antivirus
+! De exemplu stocarea online.
+? Învățarea automată:
++ învață tipare din exemple
+- urmează doar reguli fixe
+- este un cablu de rețea
+- comprimă sunetul
+! Are nevoie de multe date.
+? Apărarea împotriva dezinformării este:
++ verificarea din mai multe surse
+- încrederea în primul rezultat
+- distribuirea rapidă
+- ignorarea autorului
+! Verificarea încrucișată dezvăluie falsul.
+? Internetul lucrurilor (IoT) conectează:
++ obiecte obișnuite la internet
+- doar serverele
+- doar imprimantele
+- doar telefoanele
+! Becuri, termostate, ceasuri inteligente.
+? O rețea LAN acoperă:
++ o zonă mică (casă, școală)
+- întreg globul
+- un continent
+- doar un cablu
+! WAN acoperă distanțe mari.
 ? Identitatea digitală este:
 + ansamblul informațiilor care te reprezintă online
 - numele de utilizator

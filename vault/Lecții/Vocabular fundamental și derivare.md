@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Vocabular fundamental și derivare
 
-[[Limba latină (clasa a IX-a)|Limba latină]] · [[Clasa a IX-a]] · lecția 8 din 9
+[[Limba latină (clasa a IX-a)|Limba latină]] · [[Clasa a IX-a]] · lecția 8 din 18
 
 **Capitolul:** Sintaxă, vocabular, moștenire — semestrul 2
 

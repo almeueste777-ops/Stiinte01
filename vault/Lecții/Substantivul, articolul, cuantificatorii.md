@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Substantivul, articolul, cuantificatorii
 
-[[Limba modernă 1 (Engleză) (clasa a IX-a)|Limba modernă 1 (Engleză)]] · [[Clasa a IX-a]] · lecția 4 din 9
+[[Limba modernă 1 (Engleză) (clasa a IX-a)|Limba modernă 1 (Engleză)]] · [[Clasa a IX-a]] · lecția 4 din 18
 
 **Capitolul:** Structuri de bază — semestrul 2
 

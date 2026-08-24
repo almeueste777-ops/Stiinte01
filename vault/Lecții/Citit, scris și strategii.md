@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Citit, scris și strategii
 
-[[Limba modernă 2 (Franceză) (clasa a IX-a)|Limba modernă 2 (Franceză)]] · [[Clasa a IX-a]] · lecția 9 din 9
+[[Limba modernă 2 (Franceză) (clasa a IX-a)|Limba modernă 2 (Franceză)]] · [[Clasa a IX-a]] · lecția 9 din 18
 
 **Capitolul:** Comunicare și vocabular — semestrul 2
 
@@ -29,6 +29,6 @@ La nivel de început, citirea în franceză se sprijină pe transparența lexica
 
 ---
 
-⬅ [[Situații de comunicare]]
+⬅ [[Situații de comunicare]] · [[Adjectivele posesive și demonstrative]] ➡
 
 Exersează: [[Carduri - Limba modernă 2 (Franceză) (clasa a IX-a)]] · [[Test - Limba modernă 2 (Franceză) (clasa a IX-a)]]

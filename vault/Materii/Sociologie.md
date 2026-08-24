@@ -14,7 +14,7 @@ cssclasses: fisa
 
 ## Anii de studiu
 
-- [[Sociologie (clasa a XI-a)|Clasa a XI-a]] — 14 lecții, 56 carduri, 80 întrebări
+- [[Sociologie (clasa a XI-a)|Clasa a XI-a]] — 24 lecții, 96 carduri, 132 întrebări
 
 ## Legături
 - [[00 Start aici]]

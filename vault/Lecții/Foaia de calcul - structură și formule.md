@@ -10,7 +10,7 @@ clasa: "a X-a"
 ---
 # Foaia de calcul: structură și formule
 
-[[Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a X-a]] · lecția 1 din 9
+[[Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a X-a]] · lecția 1 din 16
 
 **Capitolul:** Calcul tabelar — semestrul 1
 

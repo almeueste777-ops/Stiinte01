@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Ascultare și interacțiune orală la examen
 
-[[Limba modernă 1 (Engleză) (clasa a XI-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XI-a]] · lecția 9 din 9
+[[Limba modernă 1 (Engleză) (clasa a XI-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XI-a]] · lecția 9 din 18
 
 **Capitolul:** Competențe de examen — semestrul 2
 
@@ -29,6 +29,6 @@ Proba de ascultare cuprinde monologuri și dialoguri, cu întrebări de înțele
 
 ---
 
-⬅ [[Producerea de mesaje scrise]]
+⬅ [[Producerea de mesaje scrise]] · [[Timpurile perfecte în uz]] ➡
 
 Exersează: [[Carduri - Limba modernă 1 (Engleză) (clasa a XI-a)]] · [[Test - Limba modernă 1 (Engleză) (clasa a XI-a)]]

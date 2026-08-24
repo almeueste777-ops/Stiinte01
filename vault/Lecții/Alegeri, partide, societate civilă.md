@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Alegeri, partide, societate civilă
 
-[[Studii sociale (clasa a XIII-a)|Studii sociale]] · [[Clasa a XIII-a]] · lecția 3 din 9
+[[Studii sociale (clasa a XIII-a)|Studii sociale]] · [[Clasa a XIII-a]] · lecția 3 din 18
 
 **Capitolul:** Democrația în practică — semestrul 1
 

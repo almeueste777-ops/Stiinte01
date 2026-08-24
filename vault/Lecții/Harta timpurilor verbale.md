@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Harta timpurilor verbale
 
-[[Limba modernă 1 (Engleză) (clasa a XIII-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XIII-a]] · lecția 1 din 9
+[[Limba modernă 1 (Engleză) (clasa a XIII-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XIII-a]] · lecția 1 din 18
 
 **Capitolul:** Recapitularea sistemului verbal — semestrul 1
 

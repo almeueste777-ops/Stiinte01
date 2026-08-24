@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Ecumenism și relații între confesiuni
 
-[[Religie (clasa a XIII-a)|Religie]] · [[Clasa a XIII-a]] · lecția 6 din 9
+[[Religie (clasa a XIII-a)|Religie]] · [[Clasa a XIII-a]] · lecția 6 din 18
 
 **Capitolul:** Patrimoniu și cultură creștină — semestrul 1
 

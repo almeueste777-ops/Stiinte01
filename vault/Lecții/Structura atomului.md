@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Structura atomului
 
-[[Chimie (clasa a IX-a)|Chimie]] · [[Clasa a IX-a]] · lecția 1 din 9
+[[Chimie (clasa a IX-a)|Chimie]] · [[Clasa a IX-a]] · lecția 1 din 18
 
 **Capitolul:** Atomul și sistemul periodic — semestrul 1
 

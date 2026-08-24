@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Geografie (clasa a XI-a)
 
-36 carduri pentru [[Geografie (clasa a XI-a)|Geografie (clasa a XI-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+80 carduri pentru [[Geografie (clasa a XI-a)|Geografie (clasa a XI-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/geografie
 
@@ -82,6 +82,94 @@ Ce deformează proiecția Mercator?::Suprafețele, mai ales la latitudini mari, 
 Ce este un GIS?::Un sistem informațional geografic, care suprapune și analizează straturi de date georeferențiate.
 
 Ce înseamnă o scară de 1:10 000?::Că un centimetru pe hartă corespunde la 10 000 de centimetri, adică 100 m, în teren.
+
+Care este diferența dintre hazard și dezastru?::Hazardul este fenomenul posibil; dezastrul, hazardul efectiv produs, cu urmări grave.
+
+Unde se concentrează cutremurele și vulcanii?::Pe limitele plăcilor, în „cercul de foc al Pacificului”.
+
+Care este cea mai seismică zonă a României?::Zona Vrancea, la curbura Carpaților.
+
+Cum se formează cicloanele tropicale?::Deasupra oceanelor calde.
+
+De ce depinde riscul, pe lângă hazard?::De expunere și de vulnerabilitatea societății.
+
+De ce produce același cutremur efecte diferite?::Din cauza diferențelor de vulnerabilitate și de pregătire.
+
+Care sunt etapele managementului dezastrelor?::Prevenirea și pregătirea, intervenția, reconstrucția.
+
+Ce costă mai puțin, prevenirea sau reconstrucția?::Prevenirea.
+
+Ce pondere din apa planetei este apă dulce ușor accesibilă?::Sub 1%.
+
+Ce activitate consumă cea mai mare parte a apei dulci?::Agricultura irigată.
+
+Ce este stresul hidric?::Situația în care cererea de apă depășește resursa disponibilă.
+
+De ce este apa o miză geopolitică?::Pentru că multe fluvii sunt împărțite între state, iar amenajările din amonte afectează avalul.
+
+În ce se împart sursele de energie?::În neregenerabile (fosile, nuclear) și regenerabile.
+
+Ce sursă asigură încă majoritatea consumului mondial?::Combustibilii fosili.
+
+Ce urmărește tranziția energetică?::Înlocuirea combustibililor fosili cu surse regenerabile și creșterea eficienței.
+
+Care este principala limită a energiei solare și eoliene?::Intermitența, care cere soluții de stocare.
+
+Ce înseamnă dezvoltarea durabilă?::Satisfacerea nevoilor prezentului fără a compromite generațiile viitoare.
+
+În ce raport a fost formulat conceptul?::În raportul Brundtland, din 1987.
+
+Câte Obiective de Dezvoltare Durabilă cuprinde Agenda 2030?::17.
+
+Care sunt cele trei dimensiuni ale dezvoltării durabile?::Economică, socială și de mediu.
+
+De ce este insuficient PIB-ul pe locuitor?::Pentru că nu spune nimic despre distribuția veniturilor și calitatea vieții.
+
+Ce dimensiuni combină Indicele dezvoltării umane?::Speranța de viață, educația și venitul pe locuitor.
+
+Ce măsoară coeficientul Gini?::Inegalitatea distribuției veniturilor.
+
+Are calitatea vieții doar dimensiuni materiale?::Nu, are și dimensiuni nemateriale: sănătate, siguranță, mediu, timp liber.
+
+Ce pondere din populația lumii trăiește în orașe?::Peste jumătate.
+
+Ce este urban sprawl-ul?::Extinderea difuză, cu densitate mică, a zonelor construite.
+
+Ce propune orașul „de 15 minute”?::Accesul la serviciile esențiale în 15 minute de mers pe jos sau cu bicicleta.
+
+De ce este nevoie de guvernanță metropolitană?::Pentru că problemele urbane depășesc granițele administrative.
+
+Ce sunt factorii push și pull?::Factorii de respingere din zona de plecare și cei de atracție din zona de sosire.
+
+Prin ce se deosebește un refugiat de un migrant economic?::Refugiatul fuge de persecuție sau război și nu se poate întoarce în siguranță.
+
+Cine găzduiește majoritatea refugiaților?::State vecine zonelor de conflict, adesea sărace.
+
+Ce sunt remitențele?::Sumele de bani trimise acasă de emigranți.
+
+Care sunt principalele surse ale conflictelor contemporane?::Teritoriul, resursele, etnia și religia, ideologia, competiția geopolitică.
+
+Numește două zone de tensiune persistente.::Orientul Mijlociu și Sahelul (sau Marea Chinei de Sud).
+
+Ce instrumente asigură securitatea internațională?::Diplomația, organizațiile internaționale, alianțele, sancțiunile, dreptul internațional.
+
+Cum s-a lărgit conceptul de securitate?::Include azi securitatea energetică, alimentară, cibernetică și de mediu.
+
+În ce an a fost creată ONU și cu ce scop?::În 1945, pentru pace și securitate, drepturile omului și dezvoltare.
+
+Ce organizație se ocupă de comerțul mondial?::Organizația Mondială a Comerțului.
+
+Ce este guvernanța globală?::Gestionarea în comun a problemelor planetare, fără un guvern mondial.
+
+Câți membri permanenți are Consiliul de Securitate al ONU?::Cinci, cu drept de veto.
+
+Care sunt principalele probleme globale de mediu?::Schimbările climatice, pierderea biodiversității, poluarea și deșeurile.
+
+Ce obiectiv fixează Acordul de la Paris?::Limitarea încălzirii sub 2°C, cu efort spre 1,5°C.
+
+De ce sunt greu de rezolvat problemele de mediu?::Pentru că sunt globale, legate între ele și au decalaj între cauze și efecte.
+
+Ce a reglementat cu succes Protocolul de la Montreal?::Protecția stratului de ozon.
 
 ---
 

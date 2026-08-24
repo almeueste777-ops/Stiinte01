@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Textul dramatic și spectacolul
 
-[[Limba și literatura română (clasa a IX-a)|Limba și literatura română]] · [[Clasa a IX-a]] · lecția 5 din 9
+[[Limba și literatura română (clasa a IX-a)|Limba și literatura română]] · [[Clasa a IX-a]] · lecția 5 din 20
 
 **Capitolul:** Textul liric și textul dramatic — semestrul 1
 

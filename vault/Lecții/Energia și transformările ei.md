@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Energia și transformările ei
 
-[[ȘTIAM (științe integrate) (clasa a XI-a)|ȘTIAM (științe integrate)]] · [[Clasa a XI-a]] · lecția 5 din 9
+[[ȘTIAM (științe integrate) (clasa a XI-a)|ȘTIAM (științe integrate)]] · [[Clasa a XI-a]] · lecția 5 din 16
 
 **Capitolul:** Materie și energie — semestrul 1
 

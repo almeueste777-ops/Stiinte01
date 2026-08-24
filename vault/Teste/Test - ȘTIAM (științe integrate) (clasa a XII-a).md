@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — ȘTIAM (științe integrate) (clasa a XII-a)
 
-54 întrebări din [[ȘTIAM (științe integrate) (clasa a XII-a)|ȘTIAM (științe integrate) (clasa a XII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+88 întrebări din [[ȘTIAM (științe integrate) (clasa a XII-a)|ȘTIAM (științe integrate) (clasa a XII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Lipidele au, față de ceilalți macronutrienți:
 
@@ -441,7 +441,415 @@ cssclasses: test
 > 
 > O afirmație extraordinară cere dovezi extraordinare.
 
-### 37. Macronutrienții sunt:
+### 37. Vaccinarea funcționează pentru că:
+
+- a. antrenează imunitatea fără a produce boala
+- b. omoară toți microbii din corp
+- c. înlocuiește igiena
+- d. vindecă orice boală
+
+> [!success]- Răspuns
+> **a. antrenează imunitatea fără a produce boala**
+> 
+> Se bazează pe memoria imunitară.
+
+### 38. Imunitatea dobândită este:
+
+- a. specifică unui anumit agent
+- b. rapidă și nespecifică
+- c. doar o barieră fizică
+- d. lipsită de memorie
+
+> [!success]- Răspuns
+> **a. specifică unui anumit agent**
+> 
+> Ea produce anticorpi și memorie.
+
+### 39. O boală neinfecțioasă este:
+
+- a. diabetul
+- b. gripa
+- c. tuberculoza
+- d. rujeola
+
+> [!success]- Răspuns
+> **a. diabetul**
+> 
+> Cele infecțioase sunt transmise de agenți.
+
+### 40. Prima linie de apărare a corpului este:
+
+- a. pielea și mucoasele
+- b. anticorpii
+- c. celulele de memorie
+- d. vaccinul
+
+> [!success]- Răspuns
+> **a. pielea și mucoasele**
+> 
+> Ele împiedică pătrunderea agenților.
+
+### 41. Dependența are:
+
+- a. o componentă fizică și una psihică
+- b. doar o componentă fizică
+- c. doar una imaginară
+- d. niciun efect real
+
+> [!success]- Răspuns
+> **a. o componentă fizică și una psihică**
+> 
+> De aceea e greu de învins singur.
+
+### 42. Substanța din tutun care creează dependență este:
+
+- a. nicotina
+- b. vitamina C
+- c. calciul
+- d. glucoza
+
+> [!success]- Răspuns
+> **a. nicotina**
+> 
+> Tutunul conține și substanțe cancerigene.
+
+### 43. Alcoolul acționează în primul rând asupra:
+
+- a. sistemului nervos
+- b. oaselor
+- c. părului
+- d. unghiilor
+
+> [!success]- Răspuns
+> **a. sistemului nervos**
+> 
+> Scade reflexele și judecata.
+
+### 44. O apărare bună împotriva dependențelor este:
+
+- a. informarea și rezistența la presiunea grupului
+- b. încercarea „o singură dată”
+- c. ascunderea problemei
+- d. ignorarea riscurilor
+
+> [!success]- Răspuns
+> **a. informarea și rezistența la presiunea grupului**
+> 
+> Cererea de ajutor e un semn de putere.
+
+### 45. Sănătatea este, după definiția largă:
+
+- a. starea de bine fizică, mintală și socială
+- b. doar absența bolii
+- c. doar forma fizică
+- d. doar starea psihică
+
+> [!success]- Răspuns
+> **a. starea de bine fizică, mintală și socială**
+> 
+> Include mai multe dimensiuni.
+
+### 46. Stresul devine dăunător când:
+
+- a. este cronic (prelungit)
+- b. apare o singură dată
+- c. ne mobilizează scurt
+- d. este mic
+
+> [!success]- Răspuns
+> **a. este cronic (prelungit)**
+> 
+> Cel mic, ocazional, e util.
+
+### 47. A cere ajutor la o problemă emoțională:
+
+- a. nu este un semn de slăbiciune
+- b. trebuie evitat
+- c. înrăutățește situația
+- d. e inutil
+
+> [!success]- Răspuns
+> **a. nu este un semn de slăbiciune**
+> 
+> Un adult de încredere sau un specialist pot ajuta.
+
+### 48. Cel mai mare efect asupra sănătății îl au:
+
+- a. obiceiurile mici, repetate zilnic
+- b. deciziile mari și rare
+- c. soluțiile de o zi
+- d. suplimentele scumpe
+
+> [!success]- Răspuns
+> **a. obiceiurile mici, repetate zilnic**
+> 
+> Constanța contează mai mult.
+
+### 49. Cauza principală a încălzirii globale actuale este:
+
+- a. intensificarea efectului de seră prin activități umane
+- b. creșterea radiației solare
+- c. erupțiile vulcanice
+- d. schimbarea orbitei Pământului
+
+> [!success]- Răspuns
+> **a. intensificarea efectului de seră prin activități umane**
+> 
+> Arderea combustibililor fosili domină.
+
+### 50. O sursă de energie regenerabilă este:
+
+- a. energia eoliană
+- b. cărbunele
+- c. petrolul
+- d. gazul natural
+
+> [!success]- Răspuns
+> **a. energia eoliană**
+> 
+> Ele nu se epuizează.
+
+### 51. Un efect al schimbărilor climatice este:
+
+- a. topirea ghețarilor și creșterea nivelului oceanic
+- b. răcirea globală
+- c. oprirea vânturilor
+- d. dispariția atmosferei
+
+> [!success]- Răspuns
+> **a. topirea ghețarilor și creșterea nivelului oceanic**
+> 
+> Plus valuri de căldură și secete.
+
+### 52. Dezvoltarea durabilă înseamnă:
+
+- a. nevoile prezentului fără a compromite viitorul
+- b. exploatarea maximă a resurselor
+- c. oprirea oricărei dezvoltări
+- d. renunțarea la energie
+
+> [!success]- Răspuns
+> **a. nevoile prezentului fără a compromite viitorul**
+> 
+> Îmbină economic, social și ecologic.
+
+### 53. Cei „3R” ai economiei circulare sunt:
+
+- a. reducere, reutilizare, reciclare
+- b. rapiditate, risipă, refuz
+- c. repetare, revenire, retur
+- d. răcire, radiere, reacție
+
+> [!success]- Răspuns
+> **a. reducere, reutilizare, reciclare**
+> 
+> Se adaugă repararea și refolosirea.
+
+### 54. Apa dulce ușor accesibilă reprezintă:
+
+- a. sub 1% din apa Pământului
+- b. 50%
+- c. 25%
+- d. 10%
+
+> [!success]- Răspuns
+> **a. sub 1% din apa Pământului**
+> 
+> De aceea trebuie folosită chibzuit.
+
+### 55. Colectarea selectivă servește la:
+
+- a. a face posibilă reciclarea
+- b. a mări cantitatea de deșeuri
+- c. a polua oceanele
+- d. a arde plasticul
+
+> [!success]- Răspuns
+> **a. a face posibilă reciclarea**
+> 
+> Separă deșeurile pe categorii.
+
+### 56. Cea mai eficientă măsură este adesea:
+
+- a. reducerea risipei
+- b. reciclarea a tot ce se produce
+- c. arderea deșeurilor
+- d. îngroparea lor
+
+> [!success]- Răspuns
+> **a. reducerea risipei**
+> 
+> Ce nu produci nu trebuie reciclat.
+
+### 57. O trăsătură a multor descoperiri științifice este că:
+
+- a. pot fi folosite în bine sau în rău
+- b. au doar efecte bune
+- c. au doar efecte rele
+- d. nu influențează societatea
+
+> [!success]- Răspuns
+> **a. pot fi folosite în bine sau în rău**
+> 
+> De aceea contează etica folosirii.
+
+### 58. Principiul precauției cere:
+
+- a. prudență când efectele pe termen lung sunt necunoscute
+- b. respingerea oricărei tehnologii
+- c. acceptarea oricărei tehnologii
+- d. ignorarea riscurilor
+
+> [!success]- Răspuns
+> **a. prudență când efectele pe termen lung sunt necunoscute**
+> 
+> Nu blochează progresul, îl temperează.
+
+### 59. Știința stabilește:
+
+- a. ce se poate face
+- b. ce ar trebui făcut, moral
+- c. ce e frumos
+- d. ce e legal
+
+> [!success]- Răspuns
+> **a. ce se poate face**
+> 
+> Ce ar trebui făcut decid etica și societatea.
+
+### 60. O întrebare etică ridicată de tehnologiile noi este:
+
+- a. confidențialitatea datelor personale
+- b. viteza luminii
+- c. forma atomilor
+- d. masa unui gaz
+
+> [!success]- Răspuns
+> **a. confidențialitatea datelor personale**
+> 
+> Alături de automatizare și inginerie genetică.
+
+### 61. O afirmație științifică:
+
+- a. este testabilă și poate fi infirmată
+- b. nu poate fi verificată niciodată
+- c. se bazează pe autoritate
+- d. nu are nevoie de dovezi
+
+> [!success]- Răspuns
+> **a. este testabilă și poate fi infirmată**
+> 
+> Falsifiabilitatea o deosebește de pseudoștiință.
+
+### 62. Un semnal de pseudoștiință este:
+
+- a. afirmații extraordinare fără dovezi
+- b. publicarea metodei
+- c. reproducerea rezultatelor
+- d. deschiderea la critică
+
+> [!success]- Răspuns
+> **a. afirmații extraordinare fără dovezi**
+> 
+> Alături de respingerea criticii.
+
+### 63. „Corelația nu înseamnă cauzalitate” avertizează că:
+
+- a. două lucruri care apar împreună nu se cauzează neapărat
+- b. nimic nu are cauze
+- c. corelația e mereu falsă
+- d. știința e inutilă
+
+> [!success]- Răspuns
+> **a. două lucruri care apar împreună nu se cauzează neapărat**
+> 
+> Trebuie dovedită legătura cauzală.
+
+### 64. Gândirea critică înseamnă:
+
+- a. a cere dovezi pe măsura afirmației
+- b. a nu crede în nimic
+- c. a crede tot ce se spune
+- d. a te baza pe emoție
+
+> [!success]- Răspuns
+> **a. a cere dovezi pe măsura afirmației**
+> 
+> Nu e neîncredere în tot, ci exigență.
+
+### 65. Vaccinarea funcționează pentru că:
+
+- a. antrenează imunitatea fără a produce boala
+- b. omoară toți microbii
+- c. înlocuiește igiena
+- d. vindecă orice boală
+
+> [!success]- Răspuns
+> **a. antrenează imunitatea fără a produce boala**
+> 
+> Se bazează pe memoria imunitară.
+
+### 66. Dependența are:
+
+- a. o componentă fizică și una psihică
+- b. doar una fizică
+- c. doar una imaginară
+- d. niciun efect real
+
+> [!success]- Răspuns
+> **a. o componentă fizică și una psihică**
+> 
+> De aceea e greu de învins singur.
+
+### 67. Sănătatea, după definiția largă, este:
+
+- a. starea de bine fizică, mintală și socială
+- b. doar absența bolii
+- c. doar forma fizică
+- d. doar starea psihică
+
+> [!success]- Răspuns
+> **a. starea de bine fizică, mintală și socială**
+> 
+> Include mai multe dimensiuni.
+
+### 68. Cauza principală a încălzirii globale actuale este:
+
+- a. intensificarea efectului de seră prin activități umane
+- b. creșterea radiației solare
+- c. vulcanismul
+- d. schimbarea orbitei
+
+> [!success]- Răspuns
+> **a. intensificarea efectului de seră prin activități umane**
+> 
+> Arderea combustibililor fosili domină.
+
+### 69. O sursă de energie regenerabilă este:
+
+- a. energia solară
+- b. cărbunele
+- c. petrolul
+- d. gazul
+
+> [!success]- Răspuns
+> **a. energia solară**
+> 
+> Ele nu se epuizează.
+
+### 70. Stresul devine dăunător când:
+
+- a. este cronic (prelungit)
+- b. apare o singură dată
+- c. ne mobilizează scurt
+- d. este mic
+
+> [!success]- Răspuns
+> **a. este cronic (prelungit)**
+> 
+> Cel ocazional e util.
+
+### 71. Macronutrienții sunt:
 
 - a. glucidele, lipidele și proteinele
 - b. vitaminele și mineralele
@@ -453,7 +861,7 @@ cssclasses: test
 > 
 > Micronutrienții sunt vitaminele și mineralele.
 
-### 38. Fibrele alimentare:
+### 72. Fibrele alimentare:
 
 - a. nu se digeră, dar sunt indispensabile
 - b. furnizează cea mai multă energie
@@ -465,7 +873,7 @@ cssclasses: test
 > 
 > Hrănesc microbiota intestinală.
 
-### 39. Antibioticele acționează asupra:
+### 73. Antibioticele acționează asupra:
 
 - a. bacteriilor
 - b. virusurilor
@@ -477,7 +885,7 @@ cssclasses: test
 > 
 > Abuzul selectează rezistența.
 
-### 40. Imunitatea de grup protejează:
+### 74. Imunitatea de grup protejează:
 
 - a. și persoanele care nu se pot vaccina
 - b. doar vaccinații
@@ -489,7 +897,7 @@ cssclasses: test
 > 
 > Cere acoperire vaccinală ridicată.
 
-### 41. Neuroplasticitatea înseamnă:
+### 75. Neuroplasticitatea înseamnă:
 
 - a. modificarea conexiunilor cerebrale prin experiență
 - b. creșterea numărului de neuroni la infinit
@@ -501,7 +909,7 @@ cssclasses: test
 > 
 > Pe ea se bazează învățarea.
 
-### 42. Somnul are rol în:
+### 76. Somnul are rol în:
 
 - a. consolidarea memoriei și curățarea produșilor metabolici
 - b. doar odihna musculară
@@ -513,7 +921,7 @@ cssclasses: test
 > 
 > Privarea de somn afectează atenția și imunitatea.
 
-### 43. Energia nucleară, în funcționare:
+### 77. Energia nucleară, în funcționare:
 
 - a. nu emite dioxid de carbon
 - b. emite mai mult decât gazul
@@ -525,7 +933,7 @@ cssclasses: test
 > 
 > Problemele sunt deșeurile și siguranța.
 
-### 44. Compararea corectă a surselor de energie se face:
+### 78. Compararea corectă a surselor de energie se face:
 
 - a. pe ciclul de viață, raportat la energia produsă
 - b. după costul inițial
@@ -537,7 +945,7 @@ cssclasses: test
 > 
 > Altfel comparația e înșelătoare.
 
-### 45. Sistemele de inteligență artificială actuale:
+### 79. Sistemele de inteligență artificială actuale:
 
 - a. învață tipare din date, fără a înțelege în sens uman
 - b. înțeleg ca oamenii
@@ -549,7 +957,7 @@ cssclasses: test
 > 
 > Verificarea rămâne obligatorie.
 
-### 46. Principiul precauției se aplică:
+### 80. Principiul precauției se aplică:
 
 - a. în fața unui risc grav și ireversibil
 - b. oricărei inovații
@@ -561,7 +969,7 @@ cssclasses: test
 > 
 > Cere proporționalitate, nu blocaj.
 
-### 47. Rezistența la antibiotice este:
+### 81. Rezistența la antibiotice este:
 
 - a. un efect neintenționat al unei tehnologii benefice
 - b. o dovadă că antibioticele nu funcționează
@@ -573,7 +981,7 @@ cssclasses: test
 > 
 > Selectată prin folosire abuzivă.
 
-### 48. O resursă regenerabilă devine epuizabilă când:
+### 82. O resursă regenerabilă devine epuizabilă când:
 
 - a. consumul depășește rata de refacere
 - b. este folosită deloc
@@ -585,7 +993,7 @@ cssclasses: test
 > 
 > Pescuitul excesiv e exemplul clasic.
 
-### 49. În ierarhia gestionării deșeurilor, prima prioritate este:
+### 83. În ierarhia gestionării deșeurilor, prima prioritate este:
 
 - a. reducerea consumului
 - b. reciclarea
@@ -597,7 +1005,7 @@ cssclasses: test
 > 
 > Reutilizarea vine înaintea reciclării.
 
-### 50. Serviciile ecosistemice includ:
+### 84. Serviciile ecosistemice includ:
 
 - a. polenizarea, purificarea apei, fertilitatea solului
 - b. doar produsele lemnoase
@@ -609,7 +1017,7 @@ cssclasses: test
 > 
 > Valoarea lor economică e rareori contabilizată.
 
-### 51. Speciile invazive:
+### 85. Speciile invazive:
 
 - a. sunt o cauză majoră a pierderii biodiversității
 - b. îmbogățesc ecosistemele
@@ -621,7 +1029,7 @@ cssclasses: test
 > 
 > Alături de distrugerea habitatelor.
 
-### 52. Conservarea reușește mai bine când:
+### 86. Conservarea reușește mai bine când:
 
 - a. implică și avantajează comunitățile locale
 - b. este impusă fără consultare
@@ -633,7 +1041,7 @@ cssclasses: test
 > 
 > Sprijinul local e decisiv.
 
-### 53. Confirmarea selectivă înseamnă:
+### 87. Confirmarea selectivă înseamnă:
 
 - a. reținerea doar a dovezilor care confirmă convingerile proprii
 - b. verificarea tuturor surselor
@@ -645,7 +1053,7 @@ cssclasses: test
 > 
 > Este una dintre cele mai răspândite erori.
 
-### 54. Scepticismul sănătos cere:
+### 88. Scepticismul sănătos cere:
 
 - a. dovezi proporționale cu pretenția
 - b. respingerea oricărei afirmații

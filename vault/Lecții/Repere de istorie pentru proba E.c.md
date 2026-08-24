@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Repere de istorie pentru proba E.c
 
-[[Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)|Pregătire pentru bacalaureat (CDEOȘ)]] · [[Clasa a XIII-a]] · lecția 7 din 9
+[[Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)|Pregătire pentru bacalaureat (CDEOȘ)]] · [[Clasa a XIII-a]] · lecția 7 din 20
 
 **Capitolul:** Recapitulări încrucișate — semestrul 2
 

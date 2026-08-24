@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Identificarea unei probleme publice
 
-[[Studii sociale (clasa a XIII-a)|Studii sociale]] · [[Clasa a XIII-a]] · lecția 7 din 9
+[[Studii sociale (clasa a XIII-a)|Studii sociale]] · [[Clasa a XIII-a]] · lecția 7 din 18
 
 **Capitolul:** Proiectul civic — semestrul 2
 

@@ -21,7 +21,7 @@ cssclasses: fisa
 
 Bazele limbii engleze: timpurile de bază, substantivul și articolul, vocabularul esențial și comunicarea în situații cotidiene.
 
-## Capitole (3)
+## Capitole (6)
 
 ### Timpurile verbale de bază — semestrul 1
 
@@ -41,9 +41,27 @@ Bazele limbii engleze: timpurile de bază, substantivul și articolul, vocabular
 - [[Comunicare în situații cotidiene]]
 - [[Citit, scris și strategii de învățare]]
 
+### Pronume, prepoziții și determinanți — semestrul 1
+
+- [[Pronumele și posesivele]]
+- [[Prepozițiile de loc, de timp și de mișcare]]
+- [[„There is there are , some, any și cantitatea]]
+
+### Întrebări, comenzi și numere — semestrul 2
+
+- [[Cuvinte interogative și răspunsuri scurte]]
+- [[Imperativul, sugestiile și indicațiile de drum]]
+- [[Numere, oră, dată și prețuri]]
+
+### Vocabular tematic și civilizație — semestrul 1
+
+- [[Sănătate și la medic]]
+- [[Mâncare, cumpărături și la restaurant]]
+- [[Lumea vorbitoare de engleză]]
+
 ## Exersare
-- [[Carduri - Limba modernă 1 (Engleză) (clasa a IX-a)]] — 36 carduri
-- [[Test - Limba modernă 1 (Engleză) (clasa a IX-a)]] — 60 întrebări
+- [[Carduri - Limba modernă 1 (Engleză) (clasa a IX-a)]] — 72 carduri
+- [[Test - Limba modernă 1 (Engleză) (clasa a IX-a)]] — 108 întrebări
 
 ## Legături
 - [[Limba modernă 1 (Engleză)|Limba modernă 1 (Engleză)]]

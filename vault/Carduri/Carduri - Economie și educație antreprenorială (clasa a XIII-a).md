@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Economie și educație antreprenorială (clasa a XIII-a)
 
-48 carduri pentru [[Economie și educație antreprenorială (clasa a XIII-a)|Economie și educație antreprenorială (clasa a XIII-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+96 carduri pentru [[Economie și educație antreprenorială (clasa a XIII-a)|Economie și educație antreprenorială (clasa a XIII-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/economie-si-educatie-antreprenoriala
 
@@ -106,6 +106,102 @@ Ce precede construirea mixului de marketing?::Segmentarea pieței și poziționa
 De ce nu e suficient salariul pentru motivare?::Pentru că stimulentele financiare se erodează rapid, în timp ce recunoașterea, autonomia și sensul muncii au efect durabil.
 
 Ce este responsabilitatea socială corporativă?::Asumarea voluntară a unor obligații față de societate și mediu, dincolo de cerințele legii.
+
+Ce este produsul intern brut?::Valoarea bunurilor și serviciilor finale produse pe teritoriul unei țări într-un an.
+
+De ce se numără doar bunurile finale?::Pentru a evita dubla înregistrare a bunurilor intermediare.
+
+Care este deosebirea dintre PIB nominal și PIB real?::Nominalul e în prețuri curente; realul, în prețuri constante, fără efectul inflației.
+
+Ce măsoară PIB pe locuitor?::Aproximează nivelul de trai, dar ignoră inegalitatea și munca neplătită.
+
+Ce este creșterea economică?::Sporirea pe termen lung a PIB-ului real al unei economii.
+
+Prin ce se deosebește dezvoltarea de creștere?::Dezvoltarea include schimbări calitative (trai, educație, sănătate, instituții), nu doar cantitative.
+
+Care este factorul decisiv al creșterii pe termen lung?::Progresul tehnologic și inovarea.
+
+Ce combină Indicele Dezvoltării Umane?::Venitul pe locuitor, speranța de viață și nivelul de educație.
+
+Care sunt fazele ciclului economic?::Expansiunea, vârful, recesiunea și minimul, urmate de relansare.
+
+Ce este, uzual, o recesiune?::Scăderea PIB-ului real pe cel puțin două trimestre consecutive.
+
+Ce este o criză economică?::O recesiune deosebit de profundă și de prelungită.
+
+Ce urmăresc politicile anticiclice?::Atenuarea amplitudinii ciclului, nu desființarea lui.
+
+Ce este bugetul de stat?::Planul anual al veniturilor și cheltuielilor publice, aprobat prin lege.
+
+Din ce provin cele mai multe venituri bugetare?::Din impozite și taxe.
+
+Când este bugetul deficitar?::Când cheltuielile publice depășesc veniturile.
+
+Cum se acoperă, de regulă, un deficit bugetar?::Prin împrumuturi, care se adună în datoria publică.
+
+Ce este un impozit?::O prelevare obligatorie, fără contraprestație directă, pentru finanțarea cheltuielilor publice.
+
+Care e deosebirea dintre impozitele directe și cele indirecte?::Directele se plătesc pe venit, profit sau avere; indirectele sunt cuprinse în prețul bunurilor (TVA, accize).
+
+Ce este impozitarea progresivă?::Sistemul în care cota de impozit crește odată cu venitul.
+
+Ce deosebește evaziunea fiscală de optimizarea fiscală?::Evaziunea este sustragere ilegală; optimizarea folosește, legal, prevederile fiscale.
+
+Cine conduce politica fiscală și cine pe cea monetară?::Politica fiscală o conduce guvernul (prin buget), pe cea monetară banca centrală.
+
+Ce instrumente folosește politica fiscală?::Cheltuielile publice și impozitele.
+
+Ce face banca centrală când vrea să stimuleze economia?::Reduce dobânda de politică monetară, ieftinind creditul.
+
+Ce idee a lui Keynes stă la baza politicii fiscale anticiclice?::Ca statul să susțină cererea atunci când sectorul privat o reduce.
+
+Ce măsoară elasticitatea cererii față de preț?::Cu cât la sută se modifică cantitatea cerută la o variație de 1% a prețului.
+
+Când este cererea inelastică?::Când coeficientul de elasticitate (în modul) este subunitar — reacție slabă la preț.
+
+Ce factori măresc elasticitatea cererii?::Existența substituenților, ponderea mare în buget, caracterul de lux, orizontul de timp lung.
+
+Ce arată elasticitatea încrucișată pozitivă?::Că cele două bunuri sunt substituibile.
+
+Ce deosebește termenul scurt de cel lung în producție?::Pe termen scurt cel puțin un factor e fix; pe termen lung, toți sunt variabili.
+
+Ce sunt economiile de scară?::Scăderea costului mediu pe termen lung pe măsură ce crește producția.
+
+Ce provoacă dezeconomiile de scară?::Dificultățile de coordonare și de control într-o organizație prea mare.
+
+De ce pot firmele mari avea costuri unitare mai mici?::Datorită economiilor de scară: specializare, utilaje eficiente, repartizarea costurilor fixe.
+
+Ce este un eșec al pieței?::O situație în care piața liberă nu produce rezultatul optim pentru societate.
+
+Ce este o externalitate negativă?::Un efect dăunător asupra terților, neinclus în preț, precum poluarea.
+
+Ce caracterizează un bun public?::Este non-excludabil și non-rival, de aceea piața îl subproduce.
+
+Ce este problema „pasagerului clandestin”?::Tendința fiecăruia de a beneficia de un bun public fără a contribui la finanțarea lui.
+
+Care sunt cele două niveluri ale sistemului bancar?::Banca centrală și băncile comerciale.
+
+Cum câștigă o bancă comercială?::Din diferența dintre dobânda încasată la credite și cea plătită la depozite.
+
+Cum creează băncile comerciale monedă scripturală?::Împrumutând o parte din depozite, care redevin depozite și pot fi împrumutate din nou.
+
+Ce este împrumutătorul de ultimă instanță?::Rolul băncii centrale de a sprijini băncile solvabile aflate în criză de lichiditate.
+
+Ce este o acțiune?::Un titlu de proprietate care face din deținător coproprietar al firmei, cu drept la dividend.
+
+Ce este o obligațiune?::Un titlu de creanță prin care deținătorul împrumută emitentul, primind dobândă și rambursarea.
+
+Care e deosebirea de risc dintre acțiuni și obligațiuni?::Acțiunile au, de regulă, risc mai mare, dar și câștig potențial mai mare; obligațiunile, invers.
+
+Ce funcții are bursa de valori?::Mobilizează economiile, asigură lichiditate și oferă un barometru al economiei.
+
+Ce este globalizarea?::Creșterea interdependenței economice, tehnologice și culturale dintre țări.
+
+Care sunt câteva motoare ale globalizării?::Liberalizarea comerțului, progresul transporturilor și comunicațiilor, companiile transnaționale.
+
+Care sunt câteva costuri ale globalizării?::Adâncirea inegalităților, delocalizarea, presiunea asupra mediului, propagarea rapidă a crizelor.
+
+Ce înseamnă dezvoltarea durabilă?::Satisfacerea nevoilor prezentului fără a compromite capacitatea generațiilor viitoare.
 
 ---
 

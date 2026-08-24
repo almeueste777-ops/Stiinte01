@@ -21,7 +21,7 @@ cssclasses: fisa
 
 Probleme fundamentale ale lumii contemporane: mediul, resursele, populația, sistemul urban, geopolitica și globalizarea.
 
-## Capitole (4)
+## Capitole (8)
 
 ### Mediul și resursele — semestrul 1
 
@@ -44,9 +44,32 @@ Probleme fundamentale ale lumii contemporane: mediul, resursele, populația, sis
 
 - [[Harta, GIS și interpretarea datelor geografice]]
 
+### Hazardele și riscurile în lumea contemporană — semestrul 1
+
+- [[Hazardele naturale - geologice și climatice]]
+- [[Riscul, vulnerabilitatea și managementul dezastrelor]]
+- [[Apa — resursă strategică și sursă de tensiuni]]
+
+### Energia și dezvoltarea durabilă — semestrul 1
+
+- [[Resursele energetice și tranziția energetică]]
+- [[Dezvoltarea durabilă și Obiectivele de Dezvoltare Durabilă]]
+
+### Societatea și spațiul urban în lumea contemporană — semestrul 2
+
+- [[Calitatea vieții și indicatorii dezvoltării]]
+- [[Orașul durabil și provocările urbane]]
+- [[Migrațiile internaționale și refugiații]]
+
+### Geopolitica și mediul global — semestrul 2
+
+- [[Conflicte și securitate în lumea contemporană]]
+- [[Organizațiile internaționale și guvernanța globală]]
+- [[Problemele globale de mediu și cooperarea internațională]]
+
 ## Exersare
-- [[Carduri - Geografie (clasa a XI-a)]] — 36 carduri
-- [[Test - Geografie (clasa a XI-a)]] — 60 întrebări
+- [[Carduri - Geografie (clasa a XI-a)]] — 80 carduri
+- [[Test - Geografie (clasa a XI-a)]] — 116 întrebări
 
 ## Legături
 - [[Geografie|Geografie]]

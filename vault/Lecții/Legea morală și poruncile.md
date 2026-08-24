@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Legea morală și poruncile
 
-[[Religie (clasa a XII-a)|Religie]] · [[Clasa a XII-a]] · lecția 2 din 9
+[[Religie (clasa a XII-a)|Religie]] · [[Clasa a XII-a]] · lecția 2 din 18
 
 **Capitolul:** Temeiurile moralei creștine — semestrul 1
 

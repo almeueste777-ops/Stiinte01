@@ -10,7 +10,7 @@ clasa: "a X-a"
 ---
 # Algoritmi: definiție, proprietăți, reprezentare
 
-[[Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a X-a]] · lecția 7 din 9
+[[Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a X-a]] · lecția 7 din 16
 
 **Capitolul:** Algoritmi și gândire computațională — semestrul 2
 

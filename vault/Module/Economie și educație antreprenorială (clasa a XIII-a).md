@@ -21,7 +21,7 @@ cssclasses: fisa
 
 Cum funcționează economia și cum se pornește o afacere: consumator, producător, piețe, bani, muncă și antreprenoriat.
 
-## Capitole (5)
+## Capitole (9)
 
 ### Economia și consumatorul — semestrul 1
 
@@ -50,9 +50,33 @@ Cum funcționează economia și cum se pornește o afacere: consumator, producă
 - [[Planul de afaceri și finanțarea]]
 - [[Marketing, resurse umane, etică în afaceri]]
 
+### Indicatorii macroeconomici — semestrul 1
+
+- [[Produsul intern brut și indicatorii macroeconomici]]
+- [[Creșterea și dezvoltarea economică]]
+- [[Ciclul economic - expansiune, recesiune, criză]]
+
+### Finanțele publice și politica economică — semestrul 2
+
+- [[Bugetul de stat - venituri, cheltuieli, deficit]]
+- [[Impozitele și sistemul fiscal]]
+- [[Politica fiscală și politica monetară]]
+
+### Aprofundări de microeconomie — semestrul 1
+
+- [[Elasticitatea cererii și a ofertei]]
+- [[Costurile pe termen lung și economiile de scară]]
+- [[Eșecurile pieței și rolul statului]]
+
+### Sistemul financiar și economia globală — semestrul 2
+
+- [[Sistemul bancar și creația monetară]]
+- [[Piața de capital - acțiuni, obligațiuni, bursa]]
+- [[Globalizarea și dezvoltarea durabilă]]
+
 ## Exersare
-- [[Carduri - Economie și educație antreprenorială (clasa a XIII-a)]] — 48 carduri
-- [[Test - Economie și educație antreprenorială (clasa a XIII-a)]] — 73 întrebări
+- [[Carduri - Economie și educație antreprenorială (clasa a XIII-a)]] — 96 carduri
+- [[Test - Economie și educație antreprenorială (clasa a XIII-a)]] — 133 întrebări
 
 ## Legături
 - [[Economie și educație antreprenorială|Economie și educație antreprenorială]]

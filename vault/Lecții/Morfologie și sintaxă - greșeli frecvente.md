@@ -10,7 +10,7 @@ clasa: "a IX-a"
 ---
 # Morfologie și sintaxă: greșeli frecvente
 
-[[Limba și literatura română (clasa a IX-a)|Limba și literatura română]] · [[Clasa a IX-a]] · lecția 7 din 9
+[[Limba și literatura română (clasa a IX-a)|Limba și literatura română]] · [[Clasa a IX-a]] · lecția 7 din 20
 
 **Capitolul:** Limba română: corectitudine și expresivitate — semestrul 2
 

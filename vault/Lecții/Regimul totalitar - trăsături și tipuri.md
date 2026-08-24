@@ -10,7 +10,7 @@ clasa: "a XI-a"
 ---
 # Regimul totalitar: trăsături și tipuri
 
-[[Istorie (clasa a XI-a)|Istorie]] · [[Clasa a XI-a]] · lecția 4 din 11
+[[Istorie (clasa a XI-a)|Istorie]] · [[Clasa a XI-a]] · lecția 4 din 24
 
 **Capitolul:** Democrație și totalitarism — semestrul 1
 

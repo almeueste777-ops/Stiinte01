@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Imperfectul, viitorul, perfectul
 
-[[Limba latină (clasa a IX-a)|Limba latină]] · [[Clasa a IX-a]] · lecția 5 din 9
+[[Limba latină (clasa a IX-a)|Limba latină]] · [[Clasa a IX-a]] · lecția 5 din 18
 
 **Capitolul:** Verbul latin la indicativ — semestrul 1
 

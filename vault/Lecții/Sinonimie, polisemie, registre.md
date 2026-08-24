@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Sinonimie, polisemie, registre
 
-[[Limba modernă 2 (Franceză) (clasa a XII-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XII-a]] · lecția 5 din 9
+[[Limba modernă 2 (Franceză) (clasa a XII-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XII-a]] · lecția 5 din 18
 
 **Capitolul:** Lexic și texte — semestrul 1
 

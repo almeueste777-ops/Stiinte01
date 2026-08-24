@@ -21,7 +21,7 @@ cssclasses: fisa
 
 Istoria românilor pe temele de bacalaureat: romanitate, autonomii și instituții, statul modern, secolul XX, constituții și relații internaționale.
 
-## Capitole (4)
+## Capitole (8)
 
 ### Popoare și spații istorice — semestrul 1
 
@@ -47,9 +47,33 @@ Istoria românilor pe temele de bacalaureat: romanitate, autonomii și instituț
 - [[România și marile alianțe ale secolului XX]]
 - [[România în perioada Războiului Rece]]
 
+### Spiritualitate și cultură în istoria românilor — semestrul 1
+
+- [[Biserica și viața religioasă în istoria românilor]]
+- [[Cultura scrisă - de la slavonă la limba română]]
+- [[Artă și ctitorii în Țările Române]]
+
+### Economie și societate în istoria românilor — semestrul 1
+
+- [[Structuri sociale și economice medievale]]
+- [[Domnie, boierime și țărănime (secolele XV–XVIII)]]
+- [[Modernizarea economică a României (secolele XIX–XX)]]
+
+### Personalități ale istoriei românilor — semestrul 2
+
+- [[Ctitori de stat în Evul Mediu]]
+- [[Făuritorii României moderne]]
+- [[Personalități ale secolului XX]]
+
+### Diversitate, memorie și continuitate — semestrul 2
+
+- [[Minoritățile naționale în istoria românilor]]
+- [[Basarabia în istoria românilor și Republica Moldova]]
+- [[Continuități și rupturi în istoria românilor]]
+
 ## Exersare
-- [[Carduri - Istorie (clasa a XII-a)]] — 48 carduri
-- [[Test - Istorie (clasa a XII-a)]] — 72 întrebări
+- [[Carduri - Istorie (clasa a XII-a)]] — 96 carduri
+- [[Test - Istorie (clasa a XII-a)]] — 132 întrebări
 
 ## Legături
 - [[Istorie|Istorie]]

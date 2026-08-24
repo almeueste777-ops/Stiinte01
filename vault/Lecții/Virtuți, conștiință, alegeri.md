@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Virtuți, conștiință, alegeri
 
-[[Religie (clasa a IX-a)|Religie]] · [[Clasa a IX-a]] · lecția 9 din 9
+[[Religie (clasa a IX-a)|Religie]] · [[Clasa a IX-a]] · lecția 9 din 18
 
 **Capitolul:** Credință și viață — semestrul 2
 
@@ -29,6 +29,6 @@ Virtutea este deprinderea binelui, formată prin repetare și hotărâre. Virtu�
 
 ---
 
-⬅ [[Rugăciunea și viața liturgică]]
+⬅ [[Rugăciunea și viața liturgică]] · [[Psalmii — cartea rugăciunii]] ➡
 
 Exersează: [[Carduri - Religie (clasa a IX-a)]] · [[Test - Religie (clasa a IX-a)]]

@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Chimie (clasa a X-a)
 
-54 întrebări din [[Chimie (clasa a X-a)|Chimie (clasa a X-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+102 întrebări din [[Chimie (clasa a X-a)|Chimie (clasa a X-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Carbonul formează:
 
@@ -441,7 +441,511 @@ cssclasses: test
 > 
 > Însoțesc frazele de risc și de prim ajutor.
 
-### 37. Carbonul are:
+### 37. Formula generală a alcanilor este:
+
+- a. CₙH₂ₙ₊₂
+- b. CₙH₂ₙ
+- c. CₙH₂ₙ₋₂
+- d. CₙHₙ
+
+> [!success]- Răspuns
+> **a. CₙH₂ₙ₊₂**
+> 
+> Au numai legături simple.
+
+### 38. Butanul și izobutanul sunt:
+
+- a. izomeri de catenă
+- b. izotopi
+- c. termeni diferiți ai seriei
+- d. polimeri
+
+> [!success]- Răspuns
+> **a. izomeri de catenă**
+> 
+> Au aceeași formulă moleculară, catene diferite.
+
+### 39. Alcanii sunt puțin reactivi pentru că:
+
+- a. au numai legături simple, stabile
+- b. au legături duble
+- c. sunt aromatici
+- d. conțin oxigen
+
+> [!success]- Răspuns
+> **a. au numai legături simple, stabile**
+> 
+> De aceea dau mai ales ardere și substituție.
+
+### 40. Prin arderea completă a unui alcan rezultă:
+
+- a. dioxid de carbon și apă
+- b. doar carbon
+- c. hidrogen
+- d. o sare
+
+> [!success]- Răspuns
+> **a. dioxid de carbon și apă**
+> 
+> Se degajă multă energie.
+
+### 41. Reacția caracteristică a alchenelor este:
+
+- a. adiția
+- b. substituția
+- c. neutralizarea
+- d. arderea exclusiv
+
+> [!success]- Răspuns
+> **a. adiția**
+> 
+> Legătura dublă se desface și primește atomi noi.
+
+### 42. Formula generală a alchinelor este:
+
+- a. CₙH₂ₙ₋₂
+- b. CₙH₂ₙ₊₂
+- c. CₙH₂ₙ
+- d. CₙHₙ
+
+> [!success]- Răspuns
+> **a. CₙH₂ₙ₋₂**
+> 
+> Au o legătură triplă.
+
+### 43. Decolorarea apei de brom indică prezența:
+
+- a. unei legături multiple (dublă sau triplă)
+- b. unei legături simple
+- c. unui inel aromatic stabil
+- d. unei grupe hidroxil
+
+> [!success]- Răspuns
+> **a. unei legături multiple (dublă sau triplă)**
+> 
+> Este un test pentru nesaturare.
+
+### 44. Prin hidrogenarea unei alchene se obține:
+
+- a. un alcan
+- b. o alchină
+- c. un acid
+- d. un ester
+
+> [!success]- Răspuns
+> **a. un alcan**
+> 
+> Se adiționează hidrogen la legătura dublă.
+
+### 45. Petrolul se separă în fracțiuni prin:
+
+- a. distilare fracționată
+- b. filtrare
+- c. decantare
+- d. cracare
+
+> [!success]- Răspuns
+> **a. distilare fracționată**
+> 
+> Se folosesc temperaturile diferite de fierbere.
+
+### 46. Arderea incompletă a combustibililor produce:
+
+- a. monoxid de carbon, toxic
+- b. doar dioxid de carbon
+- c. doar apă
+- d. oxigen
+
+> [!success]- Răspuns
+> **a. monoxid de carbon, toxic**
+> 
+> Este un gaz inodor și periculos.
+
+### 47. Cracarea are rolul de a:
+
+- a. rupe moleculele mari în molecule mai mici
+- b. uni moleculele mici
+- c. separa apa de petrol
+- d. arde combustibilul
+
+> [!success]- Răspuns
+> **a. rupe moleculele mari în molecule mai mici**
+> 
+> Se obține mai multă benzină.
+
+### 48. Principalul dezavantaj climatic al combustibililor fosili este:
+
+- a. producerea de dioxid de carbon, gaz cu efect de seră
+- b. producerea de oxigen
+- c. răcirea atmosferei
+- d. lipsa de energie
+
+> [!success]- Răspuns
+> **a. producerea de dioxid de carbon, gaz cu efect de seră**
+> 
+> Se adaugă oxizii de sulf și de azot.
+
+### 49. Grupa carbonil este formată din:
+
+- a. un carbon legat dublu de un oxigen (C=O)
+- b. un carbon legat de o grupă hidroxil
+- c. două grupe amino
+- d. un carbon legat de azot
+
+> [!success]- Răspuns
+> **a. un carbon legat dublu de un oxigen (C=O)**
+> 
+> Se află în aldehide și cetone.
+
+### 50. La cetone, grupa carbonil se află:
+
+- a. în interiorul catenei, între doi atomi de carbon
+- b. la capătul catenei
+- c. legată de azot
+- d. pe un inel aromatic
+
+> [!success]- Răspuns
+> **a. în interiorul catenei, între doi atomi de carbon**
+> 
+> La aldehide, ea e la capăt.
+
+### 51. Aldehidele, spre deosebire de cetone:
+
+- a. se oxidează ușor la acizi carboxilici
+- b. nu reacționează niciodată
+- c. sunt baze tari
+- d. conțin azot
+
+> [!success]- Răspuns
+> **a. se oxidează ușor la acizi carboxilici**
+> 
+> Au caracter reducător.
+
+### 52. Formaldehida (metanalul) se folosește ca:
+
+- a. dezinfectant și la fabricarea rășinilor
+- b. combustibil pentru motoare
+- c. îndulcitor alimentar
+- d. fertilizant
+
+> [!success]- Răspuns
+> **a. dezinfectant și la fabricarea rășinilor**
+> 
+> În soluție (formol) conservă preparate biologice.
+
+### 53. Reacția caracteristică a alcanilor și a compușilor aromatici este:
+
+- a. substituția
+- b. adiția
+- c. eliminarea
+- d. polimerizarea
+
+> [!success]- Răspuns
+> **a. substituția**
+> 
+> Aromaticele își păstrează astfel inelul stabil.
+
+### 54. Într-o reacție de adiție:
+
+- a. o legătură multiplă se desface și primește atomi noi
+- b. se înlocuiește un atom
+- c. se formează o legătură multiplă
+- d. se rupe molecula în ioni
+
+> [!success]- Răspuns
+> **a. o legătură multiplă se desface și primește atomi noi**
+> 
+> Este tipică nesaturaților.
+
+### 55. Polimerizarea este un caz special de:
+
+- a. adiție
+- b. substituție
+- c. oxidare
+- d. neutralizare
+
+> [!success]- Răspuns
+> **a. adiție**
+> 
+> Multe molecule mici se unesc într-o macromoleculă.
+
+### 56. Reacția inversă esterificării, cu apă, este:
+
+- a. hidroliza
+- b. adiția
+- c. arderea
+- d. polimerizarea
+
+> [!success]- Răspuns
+> **a. hidroliza**
+> 
+> Descompune esterul în acid și alcool.
+
+### 57. Fermentația alcoolică transformă zaharurile în:
+
+- a. etanol și dioxid de carbon
+- b. acid acetic
+- c. acid lactic
+- d. apă și oxigen
+
+> [!success]- Răspuns
+> **a. etanol și dioxid de carbon**
+> 
+> Este produsă de drojdii.
+
+### 58. Oțetul se obține prin fermentația:
+
+- a. acetică
+- b. alcoolică
+- c. lactică
+- d. a proteinelor
+
+> [!success]- Răspuns
+> **a. acetică**
+> 
+> Etanolul devine acid acetic.
+
+### 59. Iaurtul și murăturile se obțin prin fermentația:
+
+- a. lactică
+- b. alcoolică
+- c. acetică
+- d. a grăsimilor
+
+> [!success]- Răspuns
+> **a. lactică**
+> 
+> Bacteriile lactice produc acid lactic.
+
+### 60. Creșterea aluatului cu drojdie se datorează:
+
+- a. dioxidului de carbon din fermentația alcoolică
+- b. acidului acetic
+- c. oxigenului
+- d. evaporării apei
+
+> [!success]- Răspuns
+> **a. dioxidului de carbon din fermentația alcoolică**
+> 
+> Alcoolul se evaporă la coacere.
+
+### 61. Lipidele sunt:
+
+- a. insolubile în apă, solubile în solvenți nepolari
+- b. solubile în apă
+- c. ionice
+- d. gaze la temperatura camerei
+
+> [!success]- Răspuns
+> **a. insolubile în apă, solubile în solvenți nepolari**
+> 
+> Din ele fac parte grăsimile și uleiurile.
+
+### 62. Uleiurile vegetale sunt lichide pentru că au acizi grași:
+
+- a. nesaturați
+- b. saturați
+- c. aromatici
+- d. ionici
+
+> [!success]- Răspuns
+> **a. nesaturați**
+> 
+> Grăsimile animale au acizi grași saturați.
+
+### 63. Rezerva de energie cea mai concentrată din organism o reprezintă:
+
+- a. lipidele
+- b. glucidele
+- c. proteinele
+- d. sărurile minerale
+
+> [!success]- Răspuns
+> **a. lipidele**
+> 
+> Un gram de grăsime dă mai multă energie.
+
+### 64. Membranele celulare sunt formate mai ales din:
+
+- a. fosfolipide
+- b. glucide
+- c. acizi nucleici
+- d. săruri minerale
+
+> [!success]- Răspuns
+> **a. fosfolipide**
+> 
+> Fosfolipidele sunt un tip de lipide.
+
+### 65. Săpunurile se obțin prin:
+
+- a. saponificare (hidroliza bazică a grăsimilor)
+- b. esterificare
+- c. ardere
+- d. fermentație
+
+> [!success]- Răspuns
+> **a. saponificare (hidroliza bazică a grăsimilor)**
+> 
+> Sunt săruri ale acizilor grași.
+
+### 66. Molecula de săpun leagă grăsimea de apă pentru că are:
+
+- a. un capăt polar și o coadă nepolară
+- b. doar capete polare
+- c. doar cozi nepolare
+- d. structură ionică rigidă
+
+> [!success]- Răspuns
+> **a. un capăt polar și o coadă nepolară**
+> 
+> Este un agent tensioactiv.
+
+### 67. În apa dură, săpunul:
+
+- a. formează depuneri insolubile cu calciul și magneziul
+- b. spală mai bine
+- c. nu este afectat
+- d. devine acid
+
+> [!success]- Răspuns
+> **a. formează depuneri insolubile cu calciul și magneziul**
+> 
+> Detergenții sintetici nu au acest neajuns.
+
+### 68. Un avantaj de mediu al detergenților moderni este că sunt:
+
+- a. biodegradabili și fără fosfați
+- b. insolubili în apă
+- c. formați numai din grăsimi
+- d. acizi tari
+
+> [!success]- Răspuns
+> **a. biodegradabili și fără fosfați**
+> 
+> Astfel poluează mai puțin apele.
+
+### 69. Vitaminele liposolubile sunt:
+
+- a. A, D, E, K
+- b. grupul B și C
+- c. doar C
+- d. doar D
+
+> [!success]- Răspuns
+> **a. A, D, E, K**
+> 
+> Se dizolvă în grăsimi și se pot depozita.
+
+### 70. Lipsa vitaminei D produce:
+
+- a. rahitism
+- b. scorbut
+- c. anemie feriprivă
+- d. diabet
+
+> [!success]- Răspuns
+> **a. rahitism**
+> 
+> Lipsa vitaminei C produce scorbut.
+
+### 71. Vitaminele hidrosolubile (grupul B și C):
+
+- a. nu se depozitează și trebuie aduse regulat prin hrană
+- b. se depozitează mult timp
+- c. sunt insolubile în apă
+- d. se dizolvă doar în grăsimi
+
+> [!success]- Răspuns
+> **a. nu se depozitează și trebuie aduse regulat prin hrană**
+> 
+> De aceea lipsa lor apare mai repede.
+
+### 72. În privința medicamentelor, elementul esențial este:
+
+- a. doza corectă
+- b. culoarea
+- c. forma comprimatului
+- d. excipientul
+
+> [!success]- Răspuns
+> **a. doza corectă**
+> 
+> Doza face diferența dintre remediu și toxic.
+
+### 73. Formula generală a alcanilor este:
+
+- a. CₙH₂ₙ₊₂
+- b. CₙH₂ₙ
+- c. CₙH₂ₙ₋₂
+- d. CₙHₙ
+
+> [!success]- Răspuns
+> **a. CₙH₂ₙ₊₂**
+> 
+> Au numai legături simple.
+
+### 74. Reacția caracteristică a alchenelor și alchinelor este:
+
+- a. adiția
+- b. substituția
+- c. neutralizarea
+- d. saponificarea
+
+> [!success]- Răspuns
+> **a. adiția**
+> 
+> Au legături multiple, reactive.
+
+### 75. Decolorarea apei de brom indică:
+
+- a. o legătură multiplă (nesaturare)
+- b. un inel aromatic stabil
+- c. o grupă hidroxil
+- d. o legătură simplă
+
+> [!success]- Răspuns
+> **a. o legătură multiplă (nesaturare)**
+> 
+> Este un test pentru alchene și alchine.
+
+### 76. Gazul natural este format preponderent din:
+
+- a. metan
+- b. etenă
+- c. benzen
+- d. acetilenă
+
+> [!success]- Răspuns
+> **a. metan**
+> 
+> Este cel mai simplu alcan.
+
+### 77. Componentele petrolului se separă prin:
+
+- a. distilare fracționată
+- b. filtrare
+- c. decantare
+- d. fermentație
+
+> [!success]- Răspuns
+> **a. distilare fracționată**
+> 
+> După temperaturile de fierbere.
+
+### 78. Arderea incompletă a combustibililor produce:
+
+- a. monoxid de carbon, toxic
+- b. doar apă
+- c. oxigen
+- d. dioxid de siliciu
+
+> [!success]- Răspuns
+> **a. monoxid de carbon, toxic**
+> 
+> Este un gaz inodor și periculos.
+
+### 79. Carbonul are:
 
 - a. patru electroni de valență
 - b. doi electroni de valență
@@ -453,7 +957,7 @@ cssclasses: test
 > 
 > De aici capacitatea de a forma catene.
 
-### 38. Izomerii au:
+### 80. Izomerii au:
 
 - a. aceeași formulă moleculară și structuri diferite
 - b. aceeași structură și formule diferite
@@ -465,7 +969,7 @@ cssclasses: test
 > 
 > Proprietățile lor pot fi foarte diferite.
 
-### 39. Alcanii dau reacții de:
+### 81. Alcanii dau reacții de:
 
 - a. ardere și substituție
 - b. adiție
@@ -477,7 +981,7 @@ cssclasses: test
 > 
 > Sunt hidrocarburi saturate.
 
-### 40. Etena este materia primă pentru:
+### 82. Etena este materia primă pentru:
 
 - a. polietilenă
 - b. polistiren
@@ -489,7 +993,7 @@ cssclasses: test
 > 
 > Se obține prin polimerizare.
 
-### 41. Benzenul preferă reacțiile de:
+### 83. Benzenul preferă reacțiile de:
 
 - a. substituție
 - b. adiție
@@ -501,7 +1005,7 @@ cssclasses: test
 > 
 > Ca să-și păstreze inelul aromatic.
 
-### 42. Grupa funcțională a alcoolilor este:
+### 84. Grupa funcțională a alcoolilor este:
 
 - a. hidroxil
 - b. carboxil
@@ -513,7 +1017,7 @@ cssclasses: test
 > 
 > La fenoli, ea e legată de inel aromatic.
 
-### 43. Etanolul se obține prin:
+### 85. Etanolul se obține prin:
 
 - a. fermentația zaharurilor
 - b. distilarea petrolului
@@ -525,7 +1029,7 @@ cssclasses: test
 > 
 > Drojdiile produc etanol și dioxid de carbon.
 
-### 44. Esterificarea are loc între:
+### 86. Esterificarea are loc între:
 
 - a. un acid carboxilic și un alcool
 - b. doi alcooli
@@ -537,7 +1041,7 @@ cssclasses: test
 > 
 > Rezultă un ester și apă.
 
-### 45. Saponificarea produce:
+### 87. Saponificarea produce:
 
 - a. săpun și glicerol
 - b. ester și apă
@@ -549,7 +1053,79 @@ cssclasses: test
 > 
 > Este hidroliza bazică a grăsimilor.
 
-### 46. Aminoacizii sunt amfoteri pentru că au:
+### 88. Aldehidele și cetonele conțin grupa:
+
+- a. carbonil (C=O)
+- b. hidroxil
+- c. carboxil
+- d. amino
+
+> [!success]- Răspuns
+> **a. carbonil (C=O)**
+> 
+> La aldehide e la capăt, la cetone în interior.
+
+### 89. Fermentația alcoolică produce:
+
+- a. etanol și dioxid de carbon
+- b. acid acetic
+- c. acid lactic
+- d. săpun
+
+> [!success]- Răspuns
+> **a. etanol și dioxid de carbon**
+> 
+> Este realizată de drojdii.
+
+### 90. Reacția caracteristică a compușilor aromatici este:
+
+- a. substituția
+- b. adiția
+- c. fermentația
+- d. saponificarea
+
+> [!success]- Răspuns
+> **a. substituția**
+> 
+> Ca să-și păstreze inelul stabil.
+
+### 91. Uleiurile vegetale, lichide, conțin acizi grași:
+
+- a. nesaturați
+- b. saturați
+- c. aromatici
+- d. ionici
+
+> [!success]- Răspuns
+> **a. nesaturați**
+> 
+> Grăsimile animale au acizi saturați.
+
+### 92. Molecula de săpun leagă grăsimea de apă pentru că are:
+
+- a. un capăt polar și o coadă nepolară
+- b. doar capete polare
+- c. structură ionică rigidă
+- d. două grupe carboxil
+
+> [!success]- Răspuns
+> **a. un capăt polar și o coadă nepolară**
+> 
+> Este un agent tensioactiv.
+
+### 93. Vitaminele liposolubile sunt:
+
+- a. A, D, E, K
+- b. grupul B și C
+- c. doar vitamina C
+- d. niciuna
+
+> [!success]- Răspuns
+> **a. A, D, E, K**
+> 
+> Se dizolvă în grăsimi și se depozitează.
+
+### 94. Aminoacizii sunt amfoteri pentru că au:
 
 - a. și grupă amino, și grupă carboxil
 - b. doar grupă amino
@@ -561,7 +1137,7 @@ cssclasses: test
 > 
 > Se comportă și ca acizi, și ca baze.
 
-### 47. Legătura dintre doi aminoacizi se numește:
+### 95. Legătura dintre doi aminoacizi se numește:
 
 - a. peptidică
 - b. ionică
@@ -573,7 +1149,7 @@ cssclasses: test
 > 
 > Proteinele sunt polimeri de aminoacizi.
 
-### 48. Denaturarea unei proteine înseamnă:
+### 96. Denaturarea unei proteine înseamnă:
 
 - a. pierderea structurii spațiale și a funcției
 - b. ruperea legăturilor peptidice
@@ -585,7 +1161,7 @@ cssclasses: test
 > 
 > Albușul fiert e exemplul clasic.
 
-### 49. Glucoza este:
+### 97. Glucoza este:
 
 - a. o monozaharidă
 - b. o dizaharidă
@@ -597,7 +1173,7 @@ cssclasses: test
 > 
 > Este combustibilul principal al celulelor.
 
-### 50. Amidonul și celuloza sunt ambele formate din glucoză, dar diferă prin:
+### 98. Amidonul și celuloza sunt ambele formate din glucoză, dar diferă prin:
 
 - a. tipul legăturilor dintre unități
 - b. numărul de atomi de carbon din glucoză
@@ -609,7 +1185,7 @@ cssclasses: test
 > 
 > De aceea una se digeră, cealaltă nu.
 
-### 51. Un polimer se formează din:
+### 99. Un polimer se formează din:
 
 - a. monomeri, prin repetare
 - b. izomeri
@@ -621,7 +1197,7 @@ cssclasses: test
 > 
 > Polietilena vine din etenă.
 
-### 52. Microplasticele ajung problematice pentru că:
+### 100. Microplasticele ajung problematice pentru că:
 
 - a. intră în lanțul trofic
 - b. se descompun prea repede
@@ -633,7 +1209,7 @@ cssclasses: test
 > 
 > Provin din fragmentarea deșeurilor.
 
-### 53. Reacția Maillard este responsabilă de:
+### 101. Reacția Maillard este responsabilă de:
 
 - a. aroma și culoarea alimentelor rumenite
 - b. creșterea aluatului
@@ -645,7 +1221,7 @@ cssclasses: test
 > 
 > Are loc între zaharuri și proteine, la căldură.
 
-### 54. Detergenții acționează pentru că moleculele lor au:
+### 102. Detergenții acționează pentru că moleculele lor au:
 
 - a. un capăt polar și unul nepolar
 - b. doar capete polare

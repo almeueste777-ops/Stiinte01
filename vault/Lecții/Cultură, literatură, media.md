@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Cultură, literatură, media
 
-[[Limba modernă 1 (Engleză) (clasa a XI-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XI-a]] · lecția 6 din 9
+[[Limba modernă 1 (Engleză) (clasa a XI-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XI-a]] · lecția 6 din 18
 
 **Capitolul:** Vocabular tematic și texte — semestrul 2
 

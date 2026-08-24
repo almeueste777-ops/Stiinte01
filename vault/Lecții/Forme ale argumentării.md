@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Forme ale argumentării
 
-[[Logică, argumentare și comunicare (clasa a IX-a)|Logică, argumentare și comunicare]] · [[Clasa a IX-a]] · lecția 3 din 16
+[[Logică, argumentare și comunicare (clasa a IX-a)|Logică, argumentare și comunicare]] · [[Clasa a IX-a]] · lecția 3 din 24
 
 **Capitolul:** Societate, comunicare și argumentare — semestrul 1
 

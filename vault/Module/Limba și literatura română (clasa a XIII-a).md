@@ -21,7 +21,7 @@ cssclasses: fisa
 
 Pregătire pentru bacalaureat: structura probei, eseul structurat, caracterizarea, particularitățile textelor, plus limba română aplicată.
 
-## Capitole (4)
+## Capitole (9)
 
 ### Proba de bacalaureat: structură și cerințe — semestrul 1
 
@@ -44,9 +44,35 @@ Pregătire pentru bacalaureat: structura probei, eseul structurat, caracterizare
 - [[Autorii canonici și operele de referință]]
 - [[Strategii de examen și greșeli de evitat]]
 
+### Sinteze: curentele literare pentru bacalaureat — semestrul 1
+
+- [[Sinteză - romantismul și realismul]]
+- [[Sinteză - modernism, tradiționalism, neomodernism, postmodernism]]
+
+### Sinteze: genuri și specii pentru bacalaureat — semestrul 1
+
+- [[Sinteză - genul epic]]
+- [[Sinteză - genul liric și genul dramatic]]
+
+### Eseul și compunerea argumentativă — semestrul 2
+
+- [[Eseul despre particularitățile unui curent literar]]
+- [[Textul argumentativ și reflexiv]]
+
+### Fișe de recapitulare: autorii canonici — semestrul 2
+
+- [[Fișă - marii clasici]]
+- [[Fișă - scriitorii interbelici]]
+- [[Fișă - scriitorii postbelici]]
+
+### Concepte operaționale și redactarea — semestrul 1
+
+- [[Concepte operaționale pentru bacalaureat]]
+- [[Redactarea și evaluarea lucrării]]
+
 ## Exersare
-- [[Carduri - Limba și literatura română (clasa a XIII-a)]] — 36 carduri
-- [[Test - Limba și literatura română (clasa a XIII-a)]] — 60 întrebări
+- [[Carduri - Limba și literatura română (clasa a XIII-a)]] — 80 carduri
+- [[Test - Limba și literatura română (clasa a XIII-a)]] — 116 întrebări
 
 ## Legături
 - [[Limba și literatura română|Limba și literatura română]]

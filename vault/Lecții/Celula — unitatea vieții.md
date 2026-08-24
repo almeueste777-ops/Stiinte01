@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Celula — unitatea vieții
 
-[[Biologie (clasa a IX-a)|Biologie]] · [[Clasa a IX-a]] · lecția 1 din 9
+[[Biologie (clasa a IX-a)|Biologie]] · [[Clasa a IX-a]] · lecția 1 din 18
 
 **Capitolul:** Celula și țesuturile — semestrul 1
 

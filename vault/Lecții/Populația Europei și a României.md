@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Populația Europei și a României
 
-[[Geografie (clasa a XII-a)|Geografie]] · [[Clasa a XII-a]] · lecția 4 din 9
+[[Geografie (clasa a XII-a)|Geografie]] · [[Clasa a XII-a]] · lecția 4 din 20
 
 **Capitolul:** Populația și așezările — semestrul 1
 

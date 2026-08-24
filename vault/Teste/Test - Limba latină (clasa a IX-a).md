@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Limba latină (clasa a IX-a)
 
-54 întrebări din [[Limba latină (clasa a IX-a)|Limba latină (clasa a IX-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+102 întrebări din [[Limba latină (clasa a IX-a)|Limba latină (clasa a IX-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. În pronunția restituită, grupul „ae” se citește:
 
@@ -441,7 +441,511 @@ cssclasses: test
 > 
 > Fondul principal și structura gramaticală provin din latină.
 
-### 37. Alfabetul latin clasic avea:
+### 37. Adjectivul „bonus, -a, -um” se declină după:
+
+- a. declinarea a II-a și I
+- b. declinarea a III-a
+- c. declinarea I și a IV-a
+- d. doar declinarea a II-a
+
+> [!success]- Răspuns
+> **a. declinarea a II-a și I**
+> 
+> Masculin și neutru la a II-a, feminin la I.
+
+### 38. Adjectivul se acordă cu substantivul în:
+
+- a. gen, număr și caz
+- b. doar gen
+- c. doar caz
+- d. gen și declinare
+
+> [!success]- Răspuns
+> **a. gen, număr și caz**
+> 
+> „Bellum longum” — ambele neutre, la nominativ singular.
+
+### 39. Neutrul adjectivului „magnus” este:
+
+- a. magnum
+- b. magna
+- c. magnus
+- d. magni
+
+> [!success]- Răspuns
+> **a. magnum**
+> 
+> Neutrul clasei I se termină în -um.
+
+### 40. Adjectivul „liber, libera, liberum”:
+
+- a. păstrează pe -e- în flexiune
+- b. pierde pe -e-
+- c. este de declinarea a III-a
+- d. nu are neutru
+
+> [!success]- Răspuns
+> **a. păstrează pe -e- în flexiune**
+> 
+> Spre deosebire de „pulcher, pulchra”.
+
+### 41. Adjectivul „fortis, forte” are:
+
+- a. două terminații
+- b. trei terminații
+- c. o terminație
+- d. patru terminații
+
+> [!success]- Răspuns
+> **a. două terminații**
+> 
+> O formă pentru masculin-feminin, una pentru neutru.
+
+### 42. Ablativul singular al adjectivelor de declinarea a III-a este de regulă:
+
+- a. -i
+- b. -e
+- c. -o
+- d. -a
+
+> [!success]- Răspuns
+> **a. -i**
+> 
+> „Forti”, „omni” — tip vocalic.
+
+### 43. Neutrul plural al lui „omnis, omne” este:
+
+- a. omnia
+- b. omnes
+- c. omnos
+- d. omna
+
+> [!success]- Răspuns
+> **a. omnia**
+> 
+> Neutrul plural al tipului vocalic se termină în -ia.
+
+### 44. Adjectivul „felix” are, la nominativ singular:
+
+- a. o singură terminație pentru toate genurile
+- b. trei terminații
+- c. două terminații
+- d. forme diferite la feminin
+
+> [!success]- Răspuns
+> **a. o singură terminație pentru toate genurile**
+> 
+> Genitivul „felicis” arată tema.
+
+### 45. Adverbul de la adjectivul „liber” este:
+
+- a. libere
+- b. liberiter
+- c. libermente
+- d. liberum
+
+> [!success]- Răspuns
+> **a. libere**
+> 
+> Adjectivele clasei I fac adverbul cu -e.
+
+### 46. Adverbul „fortiter” s-a format cu sufixul:
+
+- a. -iter
+- b. -e
+- c. -ter simplu
+- d. -ns
+
+> [!success]- Răspuns
+> **a. -iter**
+> 
+> De la adjectivul de declinarea a III-a „fortis”.
+
+### 47. „Numquam” înseamnă:
+
+- a. niciodată
+- b. mereu
+- c. adesea
+- d. acum
+
+> [!success]- Răspuns
+> **a. niciodată**
+> 
+> Este un adverb primar de timp.
+
+### 48. Comparativul adverbului „bene” este:
+
+- a. melius
+- b. benius
+- c. bonus
+- d. optime
+
+> [!success]- Răspuns
+> **a. melius**
+> 
+> Superlativul este „optime”.
+
+### 49. Numeralul „tres, tria” este:
+
+- a. un cardinal care se declină
+- b. un ordinal
+- c. invariabil
+- d. un adverb
+
+> [!success]- Răspuns
+> **a. un cardinal care se declină**
+> 
+> Primele trei cardinale au declinare.
+
+### 50. Cifra romană pentru 50 este:
+
+- a. L
+- b. C
+- c. D
+- d. V
+
+> [!success]- Răspuns
+> **a. L**
+> 
+> C este 100, D este 500.
+
+### 51. Grupul „IX” valorează:
+
+- a. 9
+- b. 11
+- c. 6
+- d. 4
+
+> [!success]- Răspuns
+> **a. 9**
+> 
+> Unu pus înaintea lui zece se scade.
+
+### 52. Numeralul ordinal „quartus” înseamnă:
+
+- a. al patrulea
+- b. patru
+- c. de patru ori
+- d. a patra parte
+
+> [!success]- Răspuns
+> **a. al patrulea**
+> 
+> Ordinalele se declină ca adjectivele clasei I.
+
+### 53. Pronumele personal de persoana a III-a în latină este redat prin:
+
+- a. demonstrativul is, ea, id
+- b. un pronume propriu, „ille” obligatoriu
+- c. pronumele reflexiv „se”
+- d. lipsa totală de exprimare
+
+> [!success]- Răspuns
+> **a. demonstrativul is, ea, id**
+> 
+> Latina nu are pronume personal propriu de persoana a III-a.
+
+### 54. Posesivul „noster, nostra, nostrum” înseamnă:
+
+- a. al nostru
+- b. al vostru
+- c. al meu
+- d. al lor
+
+> [!success]- Răspuns
+> **a. al nostru**
+> 
+> „Vester” înseamnă al vostru.
+
+### 55. Pronumele reflexiv „se”:
+
+- a. nu are nominativ
+- b. se folosește la toate persoanele
+- c. are formă doar de plural
+- d. este identic cu „ego”
+
+> [!success]- Răspuns
+> **a. nu are nominativ**
+> 
+> Trimite la subiectul propoziției, persoana a III-a.
+
+### 56. Forma „mihi” este:
+
+- a. dativul lui „ego”
+- b. genitivul lui „ego”
+- c. acuzativul lui „tu”
+- d. nominativul lui „nos”
+
+> [!success]- Răspuns
+> **a. dativul lui „ego”**
+> 
+> Înseamnă „mie”.
+
+### 57. Zeița înțelepciunii la romani era:
+
+- a. Minerva
+- b. Venus
+- c. Diana
+- d. Ceres
+
+> [!success]- Răspuns
+> **a. Minerva**
+> 
+> Corespunde zeiței grecești Atena.
+
+### 58. „Mars” era zeul:
+
+- a. războiului
+- b. mării
+- c. negoțului
+- d. focului
+
+> [!success]- Răspuns
+> **a. războiului**
+> 
+> Neptunus era zeul mării.
+
+### 59. Preotul suprem al religiei romane se numea:
+
+- a. pontifex maximus
+- b. genius
+- c. lar
+- d. augustus
+
+> [!success]- Răspuns
+> **a. pontifex maximus**
+> 
+> Conducea colegiul pontificilor.
+
+### 60. Numele zilei „vineri” provine de la:
+
+- a. Veneris dies, ziua lui Venus
+- b. Martis dies
+- c. Iovis dies
+- d. Solis dies
+
+> [!success]- Răspuns
+> **a. Veneris dies, ziua lui Venus**
+> 
+> Numele zilelor păstrează zei romani.
+
+### 61. Piața centrală a orașului roman se numea:
+
+- a. forum
+- b. cardo
+- c. ludus
+- d. domus
+
+> [!success]- Răspuns
+> **a. forum**
+> 
+> Cardo era una dintre străzile principale.
+
+### 62. „Insulae” desemnau:
+
+- a. blocurile de locuințe cu mai multe etaje
+- b. insulele din imperiu
+- c. casele patricienilor
+- d. templele
+
+> [!success]- Răspuns
+> **a. blocurile de locuințe cu mai multe etaje**
+> 
+> „Domus” era casa unei familii înstărite.
+
+### 63. Termele romane erau:
+
+- a. băi publice și loc de întâlnire
+- b. tribunale
+- c. piețe de grâne
+- d. cazărmi
+
+> [!success]- Răspuns
+> **a. băi publice și loc de întâlnire**
+> 
+> Aveau apă adusă prin apeducte.
+
+### 64. Toga era:
+
+- a. veșmântul-semn al cetățeanului roman
+- b. uniforma soldaților
+- c. haina sclavilor
+- d. doar vestmântul preoților
+
+> [!success]- Răspuns
+> **a. veșmântul-semn al cetățeanului roman**
+> 
+> Se purta peste tunică.
+
+### 65. Expresia „Festina lente” înseamnă:
+
+- a. grăbește-te încet
+- b. grăbește-te mereu
+- c. lucrează în liniște
+- d. nu te grăbi niciodată
+
+> [!success]- Răspuns
+> **a. grăbește-te încet**
+> 
+> Îndeamnă la repeziciune chibzuită.
+
+### 66. „Per aspera ad astra” înseamnă:
+
+- a. prin greutăți spre stele
+- b. stelele sunt aspre
+- c. greutățile trec
+- d. spre cer fără efort
+
+> [!success]- Răspuns
+> **a. prin greutăți spre stele**
+> 
+> Exprimă biruința prin efort.
+
+### 67. „Nota bene” se folosește pentru a spune:
+
+- a. ia bine seama
+- b. scrie frumos
+- c. notă bună
+- d. observație finală
+
+> [!success]- Răspuns
+> **a. ia bine seama**
+> 
+> Se prescurtează N.B.
+
+### 68. „Historia magistra vitae” înseamnă:
+
+- a. istoria este învățătoarea vieții
+- b. viața este o poveste
+- c. magistrul predă istoria
+- d. istoria se repetă
+
+> [!success]- Răspuns
+> **a. istoria este învățătoarea vieții**
+> 
+> Formula este a lui Cicero.
+
+### 69. Numele lunii „October” înseamnă la origine:
+
+- a. a opta lună
+- b. a zecea lună
+- c. luna recoltei
+- d. luna lui Octavian
+
+> [!success]- Răspuns
+> **a. a opta lună**
+> 
+> Vechiul an începea în martie.
+
+### 70. Calendarul iulian a fost introdus de:
+
+- a. Iulius Caesar
+- b. Augustus
+- c. Numa Pompilius
+- d. Cicero
+
+> [!success]- Răspuns
+> **a. Iulius Caesar**
+> 
+> În anul 46 î.Hr.
+
+### 71. Reperul de la mijlocul lunii romane se numea:
+
+- a. Idus
+- b. Kalendae
+- c. Nonae
+- d. Feriae
+
+> [!success]- Răspuns
+> **a. Idus**
+> 
+> Kalendae era ziua întâi.
+
+### 72. Cuvântul „calendar” provine din:
+
+- a. Kalendae
+- b. Idus
+- c. Nonae
+- d. Iulius
+
+> [!success]- Răspuns
+> **a. Kalendae**
+> 
+> Ziua întâi a fiecărei luni romane.
+
+### 73. Adjectivul „bonus, bona, bonum” se declină după:
+
+- a. declinarea a II-a (masculin, neutru) și I (feminin)
+- b. declinarea a III-a
+- c. declinarea a IV-a
+- d. declinarea a V-a
+
+> [!success]- Răspuns
+> **a. declinarea a II-a (masculin, neutru) și I (feminin)**
+> 
+> Este un adjectiv din clasa I.
+
+### 74. Adverbul de la adjectivul „fortis” este:
+
+- a. fortiter
+- b. forte
+- c. fortmente
+- d. fortum
+
+> [!success]- Răspuns
+> **a. fortiter**
+> 
+> Adjectivele de declinarea a III-a fac adverbul cu -iter.
+
+### 75. Cifra romană „L” valorează:
+
+- a. 50
+- b. 100
+- c. 500
+- d. 5
+
+> [!success]- Răspuns
+> **a. 50**
+> 
+> C = 100, D = 500.
+
+### 76. Pentru persoana a III-a, latina folosește ca pronume:
+
+- a. demonstrativul is, ea, id
+- b. pronumele „ego”
+- c. obligatoriu pronumele reflexiv „se”
+- d. pronumele „tu”
+
+> [!success]- Răspuns
+> **a. demonstrativul is, ea, id**
+> 
+> Nu are pronume personal propriu de persoana a III-a.
+
+### 77. Adjectivele de declinarea a III-a au ablativul singular în:
+
+- a. -i
+- b. -e
+- c. -o
+- d. -a
+
+> [!success]- Răspuns
+> **a. -i**
+> 
+> „Forti”, „omni” — tip vocalic.
+
+### 78. Posesivul „suus, sua, suum” trimite la:
+
+- a. subiectul propoziției
+- b. vorbitor
+- c. interlocutor
+- d. un posesor oarecare, mereu
+
+> [!success]- Răspuns
+> **a. subiectul propoziției**
+> 
+> Pentru alt posesor se folosește „eius”.
+
+### 79. Alfabetul latin clasic avea:
 
 - a. 23 de litere
 - b. 26 de litere
@@ -453,7 +957,7 @@ cssclasses: test
 > 
 > J, U și W sunt adăugiri târzii.
 
-### 38. În pronunția restituită, „c” se citește:
+### 80. În pronunția restituită, „c” se citește:
 
 - a. mereu „k”
 - b. „ț” înaintea lui e, i
@@ -465,7 +969,7 @@ cssclasses: test
 > 
 > De aceea Cicero se citește Kikero.
 
-### 39. Numărul cazurilor din declinarea latină este:
+### 81. Numărul cazurilor din declinarea latină este:
 
 - a. șase
 - b. patru
@@ -477,7 +981,7 @@ cssclasses: test
 > 
 > Nominativ, genitiv, dativ, acuzativ, vocativ, ablativ.
 
-### 40. Genitivul singular al declinării I se termină în:
+### 82. Genitivul singular al declinării I se termină în:
 
 - a. -ae
 - b. -a
@@ -489,7 +993,7 @@ cssclasses: test
 > 
 > „Rosa, rosae”.
 
-### 41. Regula neutrului spune că:
+### 83. Regula neutrului spune că:
 
 - a. nominativul, acuzativul și vocativul sunt identice
 - b. neutrele nu au plural
@@ -501,7 +1005,7 @@ cssclasses: test
 > 
 > Iar pluralul lor se termină în -a.
 
-### 42. Verbul „monere” aparține conjugării:
+### 84. Verbul „monere” aparține conjugării:
 
 - a. a II-a
 - b. I
@@ -513,7 +1017,7 @@ cssclasses: test
 > 
 > Are infinitivul în -ēre, cu e lung.
 
-### 43. Sufixul imperfectului la conjugările I și a II-a este:
+### 85. Sufixul imperfectului la conjugările I și a II-a este:
 
 - a. -ba-
 - b. -eba-
@@ -525,7 +1029,7 @@ cssclasses: test
 > 
 > „Laudabam, monebam”.
 
-### 44. Verbul „sum” la persoana a III-a plural, prezent, este:
+### 86. Verbul „sum” la persoana a III-a plural, prezent, este:
 
 - a. sunt
 - b. est
@@ -537,7 +1041,7 @@ cssclasses: test
 > 
 > „Erant” este imperfect.
 
-### 45. Complementul direct latin stă la:
+### 87. Complementul direct latin stă la:
 
 - a. acuzativ
 - b. nominativ
@@ -549,7 +1053,79 @@ cssclasses: test
 > 
 > Dativul exprimă complementul indirect.
 
-### 46. Desinențele pasive ale temei prezentului sunt:
+### 88. Zeul suprem al panteonului roman era:
+
+- a. Iuppiter
+- b. Mars
+- c. Neptunus
+- d. Apollo
+
+> [!success]- Răspuns
+> **a. Iuppiter**
+> 
+> Corespunde zeului grec Zeus.
+
+### 89. Cele două străzi principale ale orașului roman erau:
+
+- a. cardo și decumanus
+- b. forum și domus
+- c. cardo și forum
+- d. via și insula
+
+> [!success]- Răspuns
+> **a. cardo și decumanus**
+> 
+> Se intersectau lângă for.
+
+### 90. „Carpe diem” înseamnă:
+
+- a. bucură-te de ziua de azi
+- b. grăbește-te încet
+- c. ziua trece repede
+- d. prinde ziua de mâine
+
+> [!success]- Răspuns
+> **a. bucură-te de ziua de azi**
+> 
+> Este o expresie a lui Horațiu.
+
+### 91. Numele lunii „September” înseamnă la origine:
+
+- a. a șaptea lună
+- b. a noua lună
+- c. luna toamnei
+- d. luna semănatului
+
+> [!success]- Răspuns
+> **a. a șaptea lună**
+> 
+> Vechiul calendar începea în martie.
+
+### 92. Preotesele care întrețineau focul sacru al Vestei erau:
+
+- a. vestalele
+- b. pontificii
+- c. larele
+- d. augurii
+
+> [!success]- Răspuns
+> **a. vestalele**
+> 
+> Focul Vestei simboliza dăinuirea cetății.
+
+### 93. Expresia „de iure” înseamnă:
+
+- a. în drept, potrivit legii
+- b. în fapt
+- c. fără drept
+- d. prin forță
+
+> [!success]- Răspuns
+> **a. în drept, potrivit legii**
+> 
+> Se opune lui „de facto”.
+
+### 94. Desinențele pasive ale temei prezentului sunt:
 
 - a. -r, -ris, -tur, -mur, -mini, -ntur
 - b. -o, -s, -t, -mus, -tis, -nt
@@ -561,7 +1137,7 @@ cssclasses: test
 > 
 > Cele active sunt -o, -s, -t, -mus, -tis, -nt.
 
-### 47. Un verb deponent are:
+### 95. Un verb deponent are:
 
 - a. formă pasivă și sens activ
 - b. formă activă și sens pasiv
@@ -573,7 +1149,7 @@ cssclasses: test
 > 
 > „Sequor” înseamnă „urmez”.
 
-### 48. Perfectul pasiv „laudatus est” se formează:
+### 96. Perfectul pasiv „laudatus est” se formează:
 
 - a. analitic, cu participiu și „sum”
 - b. sintetic, cu desinențe proprii
@@ -585,7 +1161,7 @@ cssclasses: test
 > 
 > De aceea participiul se acordă cu subiectul.
 
-### 49. Prepoziția „in” cere acuzativul când exprimă:
+### 97. Prepoziția „in” cere acuzativul când exprimă:
 
 - a. direcția
 - b. locul static
@@ -597,7 +1173,7 @@ cssclasses: test
 > 
 > „In silvam” — spre pădure.
 
-### 50. Complementul de agent-ființă se exprimă prin:
+### 98. Complementul de agent-ființă se exprimă prin:
 
 - a. „a/ab” + ablativ
 - b. ablativ simplu
@@ -609,7 +1185,7 @@ cssclasses: test
 > 
 > Agentul-lucru primește ablativ simplu.
 
-### 51. Sufixul -tor formează:
+### 99. Sufixul -tor formează:
 
 - a. nume de agent
 - b. nume de acțiune
@@ -621,7 +1197,7 @@ cssclasses: test
 > 
 > Doctor, actor, lector.
 
-### 52. Perechea „lapte – lactat” este:
+### 100. Perechea „lapte – lactat” este:
 
 - a. un dublet etimologic
 - b. o pereche de omonime
@@ -633,7 +1209,7 @@ cssclasses: test
 > 
 > Unul e moștenit, celălalt împrumutat cult.
 
-### 53. Articolul hotărât enclitic din română continuă:
+### 101. Articolul hotărât enclitic din română continuă:
 
 - a. demonstrativul latin „ille”
 - b. articolul grecesc
@@ -645,7 +1221,7 @@ cssclasses: test
 > 
 > De aici „omul”, „casa”.
 
-### 54. Accentul latin nu cade niciodată pe:
+### 102. Accentul latin nu cade niciodată pe:
 
 - a. ultima silabă
 - b. penultima silabă

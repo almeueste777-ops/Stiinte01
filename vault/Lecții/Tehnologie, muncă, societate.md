@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Tehnologie, muncă, societate
 
-[[Limba modernă 2 (Franceză) (clasa a XII-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XII-a]] · lecția 8 din 9
+[[Limba modernă 2 (Franceză) (clasa a XII-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XII-a]] · lecția 8 din 18
 
 **Capitolul:** Teme contemporane — semestrul 2
 

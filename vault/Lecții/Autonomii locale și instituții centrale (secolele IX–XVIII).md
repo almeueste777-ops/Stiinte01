@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Autonomii locale și instituții centrale (secolele IX–XVIII)
 
-[[Istorie (clasa a XII-a)|Istorie]] · [[Clasa a XII-a]] · lecția 2 din 12
+[[Istorie (clasa a XII-a)|Istorie]] · [[Clasa a XII-a]] · lecția 2 din 24
 
 **Capitolul:** Popoare și spații istorice — semestrul 1
 

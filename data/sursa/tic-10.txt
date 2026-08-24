@@ -350,7 +350,326 @@ Etapele rezolvării: înțelegerea problemei (ce se dă, ce se cere, ce restric�
 - elimină testarea
 ! Multe probleme noi sunt variante ale unora rezolvate.
 
+## 1 | tic10-c4 | Calcul tabelar aprofundat
+### tic10-10 | Referințe relative, absolute și denumirea celulelor
+Puterea unei foi de calcul stă în formulele care se recalculează automat când se schimbă datele. O formulă începe cu semnul egal și trimite la alte celule prin adresa lor (de exemplu =A1+B1). Copierea unei formule în jos sau lateral ajustează automat adresele: aceasta este referința relativă — foarte utilă, fiindcă aceeași formulă se aplică pe rânduri diferite.
+Uneori vrem ca o adresă să nu se modifice la copiere — de pildă o celulă cu procentul de TVA sau cu un curs valutar, folosită de toate rândurile. Fixarea se face cu semnul dolar: $A$1 este referință absolută (nu se schimbă nici coloana, nici rândul), iar A$1 sau $A1 sunt referințe mixte (se fixează doar rândul, respectiv doar coloana). Alternativ, o celulă sau un domeniu pot primi un nume (de exemplu „TVA”), folosit apoi în formule mai clar decât o adresă.
+Greșeala clasică este copierea unei formule cu referință relativă acolo unde trebuia una absolută: rezultatele devin aberante, fiindcă adresa care trebuia fixă „alunecă” odată cu formula. De aceea, înainte de a copia o formulă, se decide ce trebuie să rămână fix și ce trebuie să se adapteze.
+* Formula începe cu „=” și se recalculează automat la schimbarea datelor.
+* Referința relativă se ajustează la copiere; cea absolută ($A$1) rămâne fixă.
+* Referințele mixte fixează doar rândul sau doar coloana.
+* O celulă poate primi un nume, folosit apoi în formule pentru claritate.
+= referință relativă :: adresă de celulă care se ajustează automat la copierea formulei
+= referință absolută :: adresă fixată cu „$”, care nu se modifică la copiere
+= formulă :: expresie care începe cu „=” și calculează un rezultat din alte celule
+@ Cu ce semn începe o formulă într-o foaie de calcul? :: Cu semnul egal.
+@ Ce este o referință absolută? :: O adresă fixată cu „$”, care nu se schimbă la copiere.
+@ Cum se scrie referința absolută la celula A1? :: $A$1.
+@ Când se folosește o referință absolută? :: Când o valoare (de exemplu TVA) trebuie folosită fix de toate rândurile.
+? Referința $A$1 este:
++ absolută, nu se modifică la copiere
+- relativă
+- mixtă pe rând
+- o eroare de sintaxă
+! Dolarul fixează atât coloana, cât și rândul.
+? La copierea în jos, referința relativă B2:
++ se ajustează la B3, B4 și așa mai departe
+- rămâne mereu B2
+- devine $B$2
+- produce eroare
+! Adresa se adaptează rândului.
+? O formulă într-o foaie de calcul începe cu:
++ semnul egal
+- semnul plus
+- o paranteză
+- ghilimele
+! Fără el, textul nu este interpretat ca formulă.
+? Pentru un procent de TVA folosit de toate rândurile, în formulă se pune:
++ o referință absolută la celula cu TVA
+- o referință relativă
+- valoarea scrisă manual în fiecare rând
+- un comentariu
+! Astfel o singură modificare actualizează tot tabelul.
+
+### tic10-11 | Funcții logice și calcul condiționat
+Pe lângă operațiile aritmetice, foaia de calcul oferă funcții — formule predefinite. Cele statistice de bază: SUM (adună), AVERAGE (media), MIN și MAX (cea mai mică și cea mai mare valoare), COUNT (numără celulele cu numere). Ele primesc drept argument un domeniu, scris cu două puncte: SUM(A1:A10) adună zece celule.
+Funcția IF (DACĂ) alege între două rezultate în funcție de o condiție: de exemplu, afișează „promovat” dacă nota este cel puțin 5 și „respins” altfel. Ea permite decizii automate în tabel. Funcțiile condiționate numără sau adună doar celulele care îndeplinesc un criteriu: COUNTIF numără (de pildă câți elevi au peste 9), SUMIF adună selectiv (de pildă vânzările dintr-o anumită lună). Condițiile pot combina mai multe criterii cu ȘI și SAU.
+Aceste funcții transformă un tabel dintr-o simplă listă într-un instrument de analiză: se pot semnala automat valorile lipsă, se pot clasifica rezultatele, se pot calcula procente de reușită. Cheia este formularea corectă a condiției; o condiție greșită dă un rezultat greșit, chiar dacă formula „funcționează”.
+* Funcțiile sunt formule predefinite: SUM, AVERAGE, MIN, MAX, COUNT.
+* Domeniul se scrie cu două puncte: A1:A10.
+* IF alege un rezultat în funcție de o condiție.
+* COUNTIF și SUMIF numără sau adună doar celulele care respectă un criteriu.
+= funcție :: formulă predefinită care primește argumente și returnează un rezultat
+= domeniu :: grup de celule scris cu două puncte, de exemplu A1:A10
+= funcția IF :: funcție care alege între două rezultate în funcție de o condiție
+@ Ce face funcția SUM? :: Adună valorile dintr-un domeniu de celule.
+@ Cum se scrie un domeniu de la A1 la A10? :: A1:A10.
+@ Ce face funcția IF? :: Alege între două rezultate, în funcție de o condiție.
+@ La ce folosește COUNTIF? :: Numără celulele care îndeplinesc un criteriu dat.
+? Funcția SUM(A1:A10):
++ adună cele zece celule din domeniu
+- adună doar A1 și A10
+- numără celulele
+- calculează media
+! Domeniul A1:A10 cuprinde toate celulele dintre ele.
+? Pentru a afișa „promovat” dacă nota este cel puțin 5 se folosește:
++ funcția IF
+- funcția SUM
+- funcția MAX
+- funcția COUNT
+! IF alege rezultatul în funcție de condiție.
+? Pentru a număra câți elevi au nota peste 9 se folosește:
++ COUNTIF
+- SUM
+- AVERAGE
+- MIN
+! COUNTIF numără celulele care respectă un criteriu.
+? Media aritmetică a unui domeniu se obține cu:
++ AVERAGE
+- COUNT
+- MAX
+- IF
+! COUNT doar numără celulele cu valori numerice.
+
+### tic10-12 | Sortare, filtrare și tabele pivot
+Când un tabel are multe rânduri, ordonarea și selecția devin esențiale. Sortarea rearanjează rândurile după valorile unei coloane, crescător sau descrescător (alfabetic, numeric sau cronologic), păstrând legătura dintre celulele aceluiași rând. Se poate sorta pe mai multe niveluri: întâi după clasă, apoi, în cadrul fiecărei clase, după nume.
+Filtrarea ascunde temporar rândurile care nu îndeplinesc un criteriu, lăsând vizibile doar cele relevante (de exemplu doar elevii cu media peste 9 sau doar vânzările dintr-o lună). Spre deosebire de ștergere, filtrarea nu pierde date: la eliminarea filtrului, rândurile reapar. Filtrele pot combina mai multe criterii.
+Tabelul pivot rezumă rapid un set mare de date, grupându-le și calculând totaluri: de exemplu vânzările totale pe fiecare produs și lună, dintr-o listă cu mii de tranzacții. Se aleg câmpurile pentru rânduri, pentru coloane și valoarea de agregat (sumă, medie, număr). Tabelul pivot răspunde în câteva secunde la întrebări la care numărarea manuală ar dura ore.
+* Sortarea rearanjează rândurile după o coloană, păstrând legătura din fiecare rând.
+* Se poate sorta pe mai multe niveluri.
+* Filtrarea ascunde temporar rândurile nerelevante, fără a pierde date.
+* Tabelul pivot grupează datele și calculează totaluri (sumă, medie, număr).
+= sortare :: rearanjarea rândurilor după valorile unei coloane, crescător sau descrescător
+= filtrare :: ascunderea temporară a rândurilor care nu respectă un criteriu
+= tabel pivot :: instrument care rezumă datele grupându-le și calculând totaluri
+@ Ce face sortarea unui tabel? :: Rearanjează rândurile după valorile unei coloane.
+@ Prin ce diferă filtrarea de ștergere? :: Filtrarea doar ascunde temporar rândurile; datele nu se pierd.
+@ La ce folosește un tabel pivot? :: Rezumă un set mare de date, grupându-le și calculând totaluri.
+@ Se poate sorta după mai multe coloane? :: Da, pe mai multe niveluri succesive.
+? Filtrarea unui tabel:
++ ascunde temporar rândurile care nu respectă criteriul
+- șterge definitiv rândurile
+- rearanjează coloanele
+- schimbă formulele
+! La eliminarea filtrului, rândurile reapar.
+? Pentru a obține rapid vânzările totale pe fiecare produs dintr-o listă mare se folosește:
++ un tabel pivot
+- o simplă sortare
+- o singură funcție IF
+- un grafic colorat
+! Tabelul pivot grupează și însumează automat.
+? Sortarea unui tabel păstrează:
++ legătura dintre celulele aceluiași rând
+- doar coloana sortată
+- doar antetul
+- doar formulele
+! Altfel rândurile și-ar amesteca datele.
+? Diferența dintre filtrare și sortare este că:
++ filtrarea ascunde rânduri, iar sortarea le reordonează
+- sunt identice
+- filtrarea șterge date
+- sortarea ascunde coloane
+! Ele răspund la nevoi diferite.
+
+## 1 | tic10-c6 | Tehnici algoritmice
+### tic10-13 | Structuri de decizie în algoritmi
+Un algoritm rezolvă o problemă printr-o succesiune finită de pași. Pe lângă structura secvențială (pași unul după altul), algoritmii folosesc structura de decizie (alternativă), care alege ce pași se execută în funcție de o condiție. În pseudocod: DACĂ condiție ATUNCI pași1 ALTFEL pași2. Condiția este o expresie logică ce dă „adevărat” sau „fals”.
+Deciziile pot fi simple (doar ATUNCI, fără ALTFEL), duble (ATUNCI și ALTFEL) sau multiple (mai multe cazuri: DACĂ … ALTFEL DACĂ … ALTFEL). Ele pot fi și imbricate — o decizie în interiorul alteia. Exemple clasice: stabilirea celui mai mare dintre două numere sau clasificarea unei note în „promovat/respins”. Expresiile logice folosesc operatorii de comparație și operatorii ȘI, SAU, NU.
+Reprezentarea grafică a deciziei în schema logică este rombul, cu două ramuri de ieșire (DA/NU). O eroare frecventă este acoperirea incompletă a cazurilor sau condițiile suprapuse; de aceea se verifică dacă orice situație posibilă intră pe exact o ramură. Structura de decizie este ceea ce face un algoritm capabil să se adapteze la date diferite.
+* Structura de decizie alege pașii în funcție de o condiție logică.
+* În pseudocod: DACĂ condiție ATUNCI … ALTFEL …
+* Deciziile pot fi simple, duble, multiple sau imbricate.
+* În schema logică, decizia se reprezintă printr-un romb cu ramuri DA/NU.
+= structură de decizie :: structură care alege pașii de executat în funcție de o condiție
+= condiție :: expresie logică ce poate fi adevărată sau falsă
+= pseudocod :: descrierea unui algoritm în limbaj apropiat de cel natural, dar structurat
+@ Ce face o structură de decizie? :: Alege pașii de executat în funcție de o condiție.
+@ Cum se scrie o decizie în pseudocod? :: DACĂ condiție ATUNCI … ALTFEL …
+@ Prin ce figură se reprezintă decizia în schema logică? :: Prin romb, cu ramuri DA și NU.
+@ Ce valori poate lua o condiție? :: Adevărat sau fals.
+? Structura de decizie dintr-un algoritm:
++ alege pașii în funcție de o condiție
+- repetă pașii de un număr de ori
+- execută pașii mereu în aceeași ordine
+- oprește algoritmul
+! Ea face algoritmul să se adapteze la date.
+? În schema logică, decizia se reprezintă prin:
++ romb
+- dreptunghi
+- oval
+- paralelogram
+! Are două ramuri de ieșire: DA și NU.
+? O condiție dintr-un algoritm poate fi:
++ adevărată sau falsă
+- doar un număr
+- doar un text
+- mereu adevărată
+! Pe baza ei se alege ramura de executat.
+? Expresia „nota ≥ 5” este:
++ o condiție (expresie logică)
+- o secvență
+- o repetiție
+- o eroare
+! Ea decide, de exemplu, „promovat/respins”.
+
+### tic10-14 | Tablouri (vectori) și prelucrarea colecțiilor
+Când un algoritm lucrează cu multe valori de același fel — notele unei clase, temperaturile unei luni — nu putem folosi câte o variabilă pentru fiecare. Tabloul unidimensional (vectorul) este o colecție ordonată de elemente de același tip, păstrate sub un singur nume; fiecare element se accesează printr-un indice (o poziție), de exemplu nota[3]. Vectorul are o dimensiune (numărul de elemente).
+Prelucrarea unui vector se face, aproape întotdeauna, cu o structură repetitivă care parcurge elementele de la primul la ultimul. Operații tipice: citirea și afișarea tuturor elementelor, calculul sumei și al mediei, găsirea minimului și a maximului, numărarea elementelor care respectă o condiție, căutarea unei valori. Aceste tipare (parcurgere, acumulare, căutare) revin în nenumărate probleme.
+Tabloul bidimensional (matricea) organizează datele pe două dimensiuni, rânduri și coloane, ca un tabel — potrivit, de exemplu, pentru catalogul unei clase (elevi × materii). Accesul se face cu doi indici. Structurile de date potrivite fac algoritmii mai simpli și mai clari; alegerea lor este o parte importantă a gândirii computaționale.
+* Vectorul este o colecție ordonată de elemente de același tip, sub un singur nume.
+* Fiecare element se accesează printr-un indice (o poziție).
+* Vectorul se prelucrează parcurgându-l cu o structură repetitivă.
+* Matricea (tabloul bidimensional) organizează datele pe rânduri și coloane.
+= tablou :: colecție ordonată de elemente de același tip, accesate prin indice
+= indice :: poziția unui element într-un tablou
+= matrice :: tablou bidimensional, cu elemente organizate pe rânduri și coloane
+@ Ce este un vector (tablou unidimensional)? :: O colecție ordonată de elemente de același tip, sub un singur nume.
+@ Cum se accesează un element dintr-un vector? :: Prin indicele (poziția) său, de exemplu nota[3].
+@ Cum se prelucrează, de obicei, un vector? :: Parcurgându-l cu o structură repetitivă.
+@ Ce este o matrice? :: Un tablou bidimensional, cu date pe rânduri și coloane.
+? Un vector permite:
++ păstrarea mai multor valori de același tip sub un singur nume
+- o singură valoare
+- doar text
+- doar două valori
+! Elementele se accesează prin indice.
+? Un element dintr-un vector se accesează prin:
++ indicele său (poziția)
+- culoare
+- nume propriu
+- dimensiune
+! De exemplu, nota[3] este al treilea element.
+? Suma elementelor unui vector se calculează, de regulă:
++ parcurgând vectorul cu o structură repetitivă
+- printr-o singură decizie
+- fără a parcurge elementele
+- doar pentru primul element
+! Se acumulează valorile pe parcurgere.
+? Un tablou bidimensional (matrice) organizează datele:
++ pe rânduri și coloane
+- pe o singură linie
+- fără ordine
+- doar ca text
+! Accesul se face cu doi indici.
+
+## 2 | tic10-c5 | Baze de date relaționale
+### tic10-15 | Modelul relațional: tabele, chei și relații
+O bază de date relațională organizează informația în tabele legate între ele. Fiecare tabel descrie o singură categorie de lucruri (elevi, cărți, comenzi): rândurile sunt înregistrări, coloanele sunt câmpuri (atribute). Un câmp special, cheia primară, identifică unic fiecare înregistrare (de exemplu un cod de elev), astfel încât să nu existe confuzii între rânduri.
+Legăturile dintre tabele se fac prin chei externe: un câmp dintr-un tabel care trimite la cheia primară a altui tabel. De exemplu, tabelul „Împrumuturi” conține codul cititorului (cheie externă spre tabelul „Cititori”) și codul cărții (cheie externă spre „Cărți”). Astfel, în loc să repetăm datele cititorului la fiecare împrumut, le păstrăm o singură dată și le legăm.
+Avantajul modelului relațional este eliminarea redundanței: fiecare informație se scrie o singură dată, la un singur loc. Asta reduce spațiul, dar mai ales previne contradicțiile — dacă un cititor își schimbă adresa, ea se modifică într-un singur rând, nu în sute de împrumuturi. Interogările pot apoi combina tabelele legate pentru a răspunde la întrebări complexe.
+* Baza de date relațională organizează informația în tabele legate.
+* Rândurile sunt înregistrări, coloanele sunt câmpuri.
+* Cheia primară identifică unic fiecare înregistrare.
+* Cheia externă leagă un tabel de cheia primară a altuia, eliminând repetarea datelor.
+= cheie primară :: câmpul care identifică unic fiecare înregistrare dintr-un tabel
+= cheie externă :: câmp care trimite la cheia primară a altui tabel, creând o legătură
+= înregistrare :: un rând dintr-un tabel, care descrie un singur element
+@ Ce este cheia primară? :: Câmpul care identifică unic fiecare înregistrare dintr-un tabel.
+@ Ce face o cheie externă? :: Leagă un tabel de cheia primară a altui tabel.
+@ Ce sunt rândurile și coloanele unui tabel? :: Rândurile sunt înregistrări, coloanele sunt câmpuri.
+@ Ce avantaj aduce modelul relațional? :: Elimină repetarea datelor: fiecare informație se scrie o singură dată.
+? Cheia primară a unui tabel:
++ identifică unic fiecare înregistrare
+- leagă două tabele
+- este întotdeauna un text
+- se poate repeta
+! Fără ea, rândurile nu s-ar putea distinge cu certitudine.
+? Legătura dintre două tabele se realizează prin:
++ o cheie externă
+- o formulă
+- un filtru
+- un grafic
+! Ea trimite la cheia primară a celuilalt tabel.
+? Într-un tabel, un rând reprezintă:
++ o înregistrare (un element)
+- un câmp
+- o cheie
+- o coloană
+! Coloanele sunt câmpurile (atributele).
+? Avantajul principal al modelului relațional este:
++ eliminarea redundanței datelor
+- folosirea culorilor
+- viteza de tastare
+- afișarea graficelor
+! Fiecare informație se păstrează o singură dată.
+
+### tic10-16 | Integritatea datelor și normalizarea
+O bază de date este utilă doar dacă datele ei sunt corecte și consecvente. Integritatea datelor se asigură prin reguli: tipul potrivit al fiecărui câmp (număr, text, dată), câmpuri obligatorii care nu pot rămâne goale, valori unice acolo unde e nevoie (un CNP nu se poate repeta), domenii de valori admise (o notă între 1 și 10). Integritatea referențială cere ca o cheie externă să trimită mereu la o înregistrare care există.
+Redundanța — aceeași informație repetată în mai multe locuri — este dușmanul consecvenței, fiindcă duce la anomalii: dacă adresa unui client apare în sute de comenzi și se schimbă doar în unele, datele se contrazic. Normalizarea este procesul de organizare a tabelelor astfel încât fiecare informație să apară o singură dată, prin descompunerea tabelelor mari în tabele mai mici, legate prin chei.
+O bază bine proiectată economisește spațiu, previne erorile și ușurează întreținerea. Proiectarea corectă, făcută la început, valorează mai mult decât orice corecție ulterioară: schimbarea structurii unei baze pline cu date este costisitoare. De aceea se pornește de la întrebarea „ce categorii de lucruri descriu și cum se leagă între ele?”.
+* Integritatea se asigură prin tipuri, câmpuri obligatorii, valori unice și domenii admise.
+* Integritatea referențială: o cheie externă trimite mereu la o înregistrare existentă.
+* Redundanța duce la anomalii și contradicții între date.
+* Normalizarea organizează tabelele ca fiecare informație să apară o singură dată.
+= integritatea datelor :: ansamblul regulilor care mențin datele corecte și consecvente
+= redundanță :: repetarea aceleiași informații în mai multe locuri
+= normalizare :: organizarea tabelelor astfel încât o informație să apară o singură dată
+@ Ce este integritatea datelor? :: Ansamblul regulilor care mențin datele corecte și consecvente.
+@ De ce este problematică redundanța? :: Duce la contradicții când o informație se schimbă doar în unele locuri.
+@ Ce este normalizarea? :: Organizarea tabelelor ca fiecare informație să apară o singură dată.
+@ Ce cere integritatea referențială? :: Ca o cheie externă să trimită mereu la o înregistrare existentă.
+? Repetarea aceleiași informații în mai multe locuri se numește:
++ redundanță
+- normalizare
+- interogare
+- cheie primară
+! Ea poate duce la date contradictorii.
+? Normalizarea unei baze de date urmărește:
++ ca fiecare informație să apară o singură dată
+- creșterea redundanței
+- folosirea culorilor
+- ștergerea cheilor
+! Astfel se evită anomaliile.
+? O regulă care cere ca o notă să fie între 1 și 10 asigură:
++ integritatea datelor (domeniu de valori admise)
+- redundanța
+- o cheie externă
+- un tabel pivot
+! Valorile în afara domeniului sunt respinse.
+? Integritatea referențială este încălcată dacă:
++ o cheie externă trimite la o înregistrare care nu există
+- fiecare rând are cheie primară
+- datele sunt normalizate
+- câmpurile au tipuri corecte
+! Legătura ar rămâne „suspendată”.
+
 %% teza 1
+? Referința $A$1 este:
++ absolută, nu se modifică la copiere
+- relativă
+- o eroare
+- un simplu text
+! Dolarul fixează coloana și rândul.
+? Funcția care adună un domeniu de celule este:
++ SUM
+- IF
+- COUNT
+- MAX
+! De exemplu SUM(A1:A10).
+? Pentru a număra câte celule respectă un criteriu se folosește:
++ COUNTIF
+- SUM
+- AVERAGE
+- MIN
+! COUNTIF numără condiționat.
+? Filtrarea unui tabel:
++ ascunde temporar rândurile nerelevante
+- le șterge definitiv
+- reordonează coloanele
+- schimbă formulele
+! Datele reapar la eliminarea filtrului.
+? Structura de decizie într-un algoritm:
++ alege pașii în funcție de o condiție
+- repetă pașii
+- îi execută mereu la fel
+- oprește execuția
+! În pseudocod: DACĂ … ATUNCI … ALTFEL …
+? Un vector (tablou) permite:
++ păstrarea mai multor valori de același tip sub un nume
+- o singură valoare
+- doar text
+- doar culori
+! Elementele se accesează prin indice.
 ? O formulă într-o foaie de calcul începe cu:
 + semnul egal
 - semnul plus

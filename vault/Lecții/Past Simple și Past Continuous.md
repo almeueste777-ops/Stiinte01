@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Past Simple și Past Continuous
 
-[[Limba modernă 1 (Engleză) (clasa a IX-a)|Limba modernă 1 (Engleză)]] · [[Clasa a IX-a]] · lecția 2 din 9
+[[Limba modernă 1 (Engleză) (clasa a IX-a)|Limba modernă 1 (Engleză)]] · [[Clasa a IX-a]] · lecția 2 din 18
 
 **Capitolul:** Timpurile verbale de bază — semestrul 1
 

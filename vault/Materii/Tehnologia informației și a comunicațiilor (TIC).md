@@ -14,10 +14,10 @@ cssclasses: fisa
 
 ## Anii de studiu
 
-- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)|Clasa a IX-a]] — 9 lecții, 36 carduri, 60 întrebări
-- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)|Clasa a X-a]] — 9 lecții, 36 carduri, 60 întrebări
-- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Clasa a XI-a]] — 9 lecții, 36 carduri, 60 întrebări
-- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)|Clasa a XII-a]] — 9 lecții, 36 carduri, 60 întrebări
+- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)|Clasa a IX-a]] — 16 lecții, 64 carduri, 100 întrebări
+- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)|Clasa a X-a]] — 16 lecții, 64 carduri, 94 întrebări
+- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Clasa a XI-a]] — 16 lecții, 64 carduri, 100 întrebări
+- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)|Clasa a XII-a]] — 16 lecții, 64 carduri, 100 întrebări
 
 ## Legături
 - [[00 Start aici]]

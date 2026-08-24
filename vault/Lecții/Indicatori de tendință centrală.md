@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Indicatori de tendință centrală
 
-[[Matematică aplicată în științele sociale (clasa a XI-a)|Matematică aplicată în științele sociale]] · [[Clasa a XI-a]] · lecția 4 din 9
+[[Matematică aplicată în științele sociale (clasa a XI-a)|Matematică aplicată în științele sociale]] · [[Clasa a XI-a]] · lecția 4 din 18
 
 **Capitolul:** Indicatori și probabilități — semestrul 1
 

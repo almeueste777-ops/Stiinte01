@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Revoluția industrială și societatea nouă
 
-[[Istorie (clasa a X-a)|Istorie]] · [[Clasa a X-a]] · lecția 6 din 12
+[[Istorie (clasa a X-a)|Istorie]] · [[Clasa a X-a]] · lecția 6 din 24
 
 **Capitolul:** Revoluțiile politice — semestrul 1
 

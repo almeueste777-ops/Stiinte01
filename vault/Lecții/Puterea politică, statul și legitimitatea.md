@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Puterea politică, statul și legitimitatea
 
-[[Filosofie (clasa a XII-a)|Filosofie]] · [[Clasa a XII-a]] · lecția 10 din 14
+[[Filosofie (clasa a XII-a)|Filosofie]] · [[Clasa a XII-a]] · lecția 10 din 24
 
 **Capitolul:** Politica — semestrul 2
 

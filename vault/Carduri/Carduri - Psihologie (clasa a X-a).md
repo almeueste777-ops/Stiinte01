@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Psihologie (clasa a X-a)
 
-64 carduri pentru [[Psihologie (clasa a X-a)|Psihologie (clasa a X-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+96 carduri pentru [[Psihologie (clasa a X-a)|Psihologie (clasa a X-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/psihologie
 
@@ -138,6 +138,70 @@ Ce arată experimentele lui Asch?::Puterea conformismului: oamenii dau răspunsu
 Ce arată experimentul lui Milgram?::Cât de departe merge obediența față de o autoritate percepută ca legitimă.
 
 De ce scade ajutorul când sunt mulți martori?::Prin difuziunea responsabilității — efectul spectatorului.
+
+Ce este inteligența?::Aptitudinea generală de a rezolva probleme noi, de a te adapta și de a învăța din experiență.
+
+Cine a construit prima scală de inteligență și când?::Alfred Binet, împreună cu Théodore Simon, în 1905.
+
+Cum se distribuie scorurile de inteligență în populație?::După curba lui Gauss, cu media 100.
+
+Cine a propus teoria inteligențelor multiple?::Howard Gardner.
+
+Ce este învățarea?::Modificarea relativ durabilă a comportamentului și a cunoașterii pe baza experienței.
+
+Cine a descris condiționarea clasică?::Ivan Pavlov.
+
+Ce spune legea efectului (Thorndike)?::Un comportament urmat de o consecință plăcută tinde să se repete.
+
+Ce a arătat experimentul cu păpușa Bobo?::Că cei care privesc un model agresiv tind să-i reproducă conduita.
+
+Ce este o deprindere?::O componentă automatizată a activității, formată prin exercițiu.
+
+Care sunt etapele formării unei deprinderi?::Familiarizarea, învățarea analitică, sintetizarea, automatizarea.
+
+Ce este interferența deprinderilor?::Influența negativă a unei deprinderi asupra alteia.
+
+Prin ce se deosebește priceperea de deprindere?::Priceperea folosește conștient cunoștințele în situații noi; deprinderea e automatizată.
+
+Ce este conștiința?::Forma superioară a psihicului, prin care omul își dă seama de lume și de sine.
+
+Ce deosebește cel mai net psihicul uman?::Autoconștiința — conștiința de sine.
+
+În ce fază a somnului apar mai ales visele?::În somnul rapid (REM).
+
+Prin ce se deosebește subconștientul de inconștient?::Subconștientul e ușor de readus în conștiință; inconștientul e profund și greu accesibil.
+
+Care sunt cele trei instanțe ale personalității la Freud?::Sinele, Eul și Supraeul.
+
+Ce reprezintă Supraeul?::Conștiința morală, ansamblul normelor interiorizate.
+
+Ce este refularea?::Împingerea în inconștient a dorințelor inacceptabile.
+
+Ce este sublimarea?::Transformarea energiei pulsionale într-o activitate valorizată social.
+
+Ce trăsături distinge Allport?::Cardinale, centrale și secundare.
+
+Care sunt cei cinci mari factori ai personalității?::Deschidere, conștiinciozitate, extraversiune, agreabilitate, nevrotism.
+
+Cum explică teoria umanistă personalitatea?::Ca tendință spre autorealizare, cu accent pe congruența eului.
+
+Cine sunt reprezentanții teoriei umaniste?::Abraham Maslow și Carl Rogers.
+
+Din ce rezultă dezvoltarea psihică?::Din interacțiunea dintre maturizarea biologică și învățare.
+
+Care sunt cele patru stadii ale lui Piaget?::Senzorio-motor, preoperator, al operațiilor concrete, al operațiilor formale.
+
+În ce stadiu apare raționamentul abstract și ipotetic?::În stadiul operațiilor formale, după 11 ani.
+
+Ce conflict caracterizează adolescența la Erikson?::Identitate vs. confuzie de rol.
+
+Care sunt elementele schemei comunicării?::Emițător, mesaj, cod, canal, receptor și feedback.
+
+Ce este comunicarea paraverbală?::Transmiterea prin ton, intonație, ritm, pauze și volum.
+
+Ce transmite comunicarea nonverbală?::Mimica, gestica, postura, privirea și distanța dintre parteneri.
+
+Ce este comunicarea asertivă?::Exprimarea deschisă a propriilor nevoi, cu respectarea celuilalt.
 
 ---
 

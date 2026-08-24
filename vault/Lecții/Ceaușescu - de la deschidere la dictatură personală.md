@@ -10,7 +10,7 @@ clasa: "a XIII-a"
 ---
 # Ceaușescu: de la deschidere la dictatură personală
 
-[[Istoria comunismului din România (clasa a XIII-a)|Istoria comunismului din România]] · [[Clasa a XIII-a]] · lecția 5 din 9
+[[Istoria comunismului din România (clasa a XIII-a)|Istoria comunismului din România]] · [[Clasa a XIII-a]] · lecția 5 din 18
 
 **Capitolul:** Regimul în evoluție — semestrul 1
 

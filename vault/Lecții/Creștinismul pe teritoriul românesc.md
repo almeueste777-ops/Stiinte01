@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Creștinismul pe teritoriul românesc
 
-[[Religie (clasa a X-a)|Religie]] · [[Clasa a X-a]] · lecția 9 din 9
+[[Religie (clasa a X-a)|Religie]] · [[Clasa a X-a]] · lecția 9 din 18
 
 **Capitolul:** Creștinismul în lume — semestrul 2
 
@@ -29,6 +29,6 @@ Creștinismul a pătruns de timpuriu la nordul Dunării, prin misionari, negusto
 
 ---
 
-⬅ [[Sinoadele și învățătura de credință]]
+⬅ [[Sinoadele și învățătura de credință]] · [[Cei doisprezece Apostoli]] ➡
 
 Exersează: [[Carduri - Religie (clasa a X-a)]] · [[Test - Religie (clasa a X-a)]]

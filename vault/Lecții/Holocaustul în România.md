@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Holocaustul în România
 
-[[Istoria evreilor. Holocaustul (clasa a XI-a)|Istoria evreilor. Holocaustul]] · [[Clasa a XI-a]] · lecția 6 din 9
+[[Istoria evreilor. Holocaustul (clasa a XI-a)|Istoria evreilor. Holocaustul]] · [[Clasa a XI-a]] · lecția 6 din 18
 
 **Capitolul:** Antisemitismul și Holocaustul — semestrul 1
 

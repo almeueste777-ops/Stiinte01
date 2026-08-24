@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Călători străini și imaginea spațiului românesc
 
-[[Istorie (clasa a XIII-a)|Istorie]] · [[Clasa a XIII-a]] · lecția 4 din 9
+[[Istorie (clasa a XIII-a)|Istorie]] · [[Clasa a XIII-a]] · lecția 4 din 22
 
 **Capitolul:** Popoare, migrații, minorități — semestrul 1
 

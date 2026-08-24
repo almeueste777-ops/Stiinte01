@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Engleza pentru studiu și examene
 
-[[Limba modernă 1 (Engleză) (clasa a X-a)|Limba modernă 1 (Engleză)]] · [[Clasa a X-a]] · lecția 9 din 9
+[[Limba modernă 1 (Engleză) (clasa a X-a)|Limba modernă 1 (Engleză)]] · [[Clasa a X-a]] · lecția 9 din 18
 
 **Capitolul:** Comunicare aplicată — semestrul 2
 
@@ -29,6 +29,6 @@ Engleza academică și cea de examen au trăsături proprii: precizie, structuri
 
 ---
 
-⬅ [[Ascultare, vorbire, interacțiune]]
+⬅ [[Ascultare, vorbire, interacțiune]] · [[Formele viitorului și viitorul continuu]] ➡
 
 Exersează: [[Carduri - Limba modernă 1 (Engleză) (clasa a X-a)]] · [[Test - Limba modernă 1 (Engleză) (clasa a X-a)]]

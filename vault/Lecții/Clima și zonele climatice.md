@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Clima și zonele climatice
 
-[[Geografie (clasa a IX-a)|Geografie]] · [[Clasa a IX-a]] · lecția 7 din 10
+[[Geografie (clasa a IX-a)|Geografie]] · [[Clasa a IX-a]] · lecția 7 din 20
 
 **Capitolul:** Atmosfera și hidrosfera — semestrul 2
 

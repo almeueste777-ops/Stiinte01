@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Elemente de statistică
 
-[[Matematică (clasa a X-a)|Matematică]] · [[Clasa a X-a]] · lecția 6 din 9
+[[Matematică (clasa a X-a)|Matematică]] · [[Clasa a X-a]] · lecția 6 din 18
 
 **Capitolul:** Combinatorică și probabilități — semestrul 1
 

@@ -13,8 +13,8 @@ cssclasses: fisa
 
 ## Anii de studiu
 
-- [[Matematică aplicată în științele sociale (clasa a XI-a)|Clasa a XI-a]] — 9 lecții, 36 carduri, 54 întrebări
-- [[Matematică aplicată în științele sociale (clasa a XII-a)|Clasa a XII-a]] — 9 lecții, 36 carduri, 54 întrebări
+- [[Matematică aplicată în științele sociale (clasa a XI-a)|Clasa a XI-a]] — 18 lecții, 72 carduri, 102 întrebări
+- [[Matematică aplicată în științele sociale (clasa a XII-a)|Clasa a XII-a]] — 18 lecții, 72 carduri, 102 întrebări
 
 ## Legături
 - [[00 Start aici]]

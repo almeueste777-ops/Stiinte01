@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Metoda comparației în geografie
 
-[[Geografie (clasa a XIII-a)|Geografie]] · [[Clasa a XIII-a]] · lecția 4 din 9
+[[Geografie (clasa a XIII-a)|Geografie]] · [[Clasa a XIII-a]] · lecția 4 din 20
 
 **Capitolul:** Analiza comparativă și studiile de caz — semestrul 2
 

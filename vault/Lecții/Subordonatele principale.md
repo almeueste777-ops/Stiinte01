@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Subordonatele principale
 
-[[Limba latină (clasa a X-a)|Limba latină]] · [[Clasa a X-a]] · lecția 5 din 9
+[[Limba latină (clasa a X-a)|Limba latină]] · [[Clasa a X-a]] · lecția 5 din 18
 
 **Capitolul:** Sintaxa frazei — semestrul 1
 

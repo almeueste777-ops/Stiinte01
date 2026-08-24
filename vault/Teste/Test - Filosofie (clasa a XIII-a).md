@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Filosofie (clasa a XIII-a)
 
-60 întrebări din [[Filosofie (clasa a XIII-a)|Filosofie (clasa a XIII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+124 întrebări din [[Filosofie (clasa a XIII-a)|Filosofie (clasa a XIII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Teza „totul curge” aparține lui:
 
@@ -441,7 +441,703 @@ cssclasses: test
 > 
 > Cerințele variază de la o sesiune la alta.
 
-### 37. Teza „ființa este, neființa nu este” aparține lui:
+### 37. Deontologia evaluează o acțiune după:
+
+- a. conformitatea ei cu datoria
+- b. consecințele produse
+- c. plăcerea pe care o aduce
+- d. caracterul agentului
+
+> [!success]- Răspuns
+> **a. conformitatea ei cu datoria**
+> 
+> Utilitarismul, dimpotrivă, judecă după consecințe.
+
+### 38. Formula „tratează omul întotdeauna și ca scop, niciodată numai ca mijloc” este:
+
+- a. o formulare a imperativului categoric
+- b. principiul utilității
+- c. regula de aur inversată
+- d. principiul vătămării
+
+> [!success]- Răspuns
+> **a. o formulare a imperativului categoric**
+> 
+> Ea apără demnitatea persoanei.
+
+### 39. Un imperativ categoric se deosebește de unul ipotetic prin faptul că:
+
+- a. comandă necondiționat, nu „dacă vrei X, fă Y”
+- b. privește doar prudența
+- c. depinde de scopuri particulare
+- d. se aplică doar juridic
+
+> [!success]- Răspuns
+> **a. comandă necondiționat, nu „dacă vrei X, fă Y”**
+> 
+> Datoria morală nu e condiționată de dorințe.
+
+### 40. Rigorismul este obiecția potrivit căreia etica kantiană:
+
+- a. menține regula absolută chiar când consecințele sunt catastrofale
+- b. ignoră datoria
+- c. reduce morala la plăcere
+- d. neagă libertatea
+
+> [!success]- Răspuns
+> **a. menține regula absolută chiar când consecințele sunt catastrofale**
+> 
+> Exemplul clasic: minciuna față de un criminal care caută victima.
+
+### 41. Principiul „cea mai mare fericire pentru cel mai mare număr” aparține lui:
+
+- a. Jeremy Bentham
+- b. Immanuel Kant
+- c. John Rawls
+- d. Aristotel
+
+> [!success]- Răspuns
+> **a. Jeremy Bentham**
+> 
+> Este formularea clasică a principiului utilității.
+
+### 42. Distincția dintre plăceri superioare și inferioare a fost introdusă de:
+
+- a. John Stuart Mill
+- b. Jeremy Bentham
+- c. Epicur
+- d. Kant
+
+> [!success]- Răspuns
+> **a. John Stuart Mill**
+> 
+> „Mai bine Socrate nemulțumit decât un porc mulțumit.”
+
+### 43. Utilitarismul regulii se deosebește de cel al actului prin faptul că:
+
+- a. evaluează regulile, nu fiecare acțiune în parte
+- b. respinge consecințele
+- c. judecă intențiile
+- d. ignoră fericirea
+
+> [!success]- Răspuns
+> **a. evaluează regulile, nu fiecare acțiune în parte**
+> 
+> Se aleg regulile a căror respectare generală maximizează utilitatea.
+
+### 44. O obiecție majoră adusă utilitarismului este că:
+
+- a. poate justifica sacrificarea unei minorități
+- b. ignoră consecințele acțiunii
+- c. reduce totul la datorie
+- d. neagă existența plăcerii
+
+> [!success]- Răspuns
+> **a. poate justifica sacrificarea unei minorități**
+> 
+> „Suma” fericirii poate crește în dauna cuiva.
+
+### 45. Etica virtuții pune accentul pe:
+
+- a. caracterul agentului și pe virtuți
+- b. consecințele acțiunii
+- c. conformitatea cu datoria
+- d. calculul plăcerilor
+
+> [!success]- Răspuns
+> **a. caracterul agentului și pe virtuți**
+> 
+> Întrebarea centrală este „ce fel de om vreau să fiu?”.
+
+### 46. Bioetica se ocupă, printre altele, de:
+
+- a. consimțământul informat și resursele medicale limitate
+- b. structura atomului
+- c. cursul acțiunilor la bursă
+- d. diagnosticul pur tehnic
+
+> [!success]- Răspuns
+> **a. consimțământul informat și resursele medicale limitate**
+> 
+> Ea aplică principii precum autonomia și nevătămarea.
+
+### 47. Reînvierea eticii virtuții în secolul XX este legată de:
+
+- a. Elizabeth Anscombe și Alasdair MacIntyre
+- b. Bentham și Mill
+- c. Popper și Kuhn
+- d. Frege și Russell
+
+> [!success]- Răspuns
+> **a. Elizabeth Anscombe și Alasdair MacIntyre**
+> 
+> Ei readuc în centru noțiunile de caracter și de virtute.
+
+### 48. În etica aplicată, cele trei mari teorii etice:
+
+- a. se completează, fiecare surprinzând un aspect al problemei
+- b. se exclud reciproc
+- c. sunt înlocuite de expertiza tehnică
+- d. devin inutile
+
+> [!success]- Răspuns
+> **a. se completează, fiecare surprinzând un aspect al problemei**
+> 
+> Consecințele, regulile și caracterul contează împreună.
+
+### 49. „Războiul tuturor împotriva tuturor” descrie starea naturală la:
+
+- a. Thomas Hobbes
+- b. John Locke
+- c. Jean-Jacques Rousseau
+- d. Montesquieu
+
+> [!success]- Răspuns
+> **a. Thomas Hobbes**
+> 
+> De aici nevoia unui suveran puternic, „Leviathanul”.
+
+### 50. Dreptul poporului de a se opune guvernării care își încalcă mandatul este susținut de:
+
+- a. John Locke
+- b. Thomas Hobbes
+- c. Jean Bodin
+- d. Niccolò Machiavelli
+
+> [!success]- Răspuns
+> **a. John Locke**
+> 
+> La Hobbes, cedarea către suveran e practic irevocabilă.
+
+### 51. Conceptul de „voință generală” aparține lui:
+
+- a. Jean-Jacques Rousseau
+- b. Thomas Hobbes
+- c. John Locke
+- d. David Hume
+
+> [!success]- Răspuns
+> **a. Jean-Jacques Rousseau**
+> 
+> Supunându-mă legii pe care mi-am dat-o, rămân liber.
+
+### 52. Ce au în comun Hobbes, Locke și Rousseau?
+
+- a. explică statul printr-un contract, pornind de la o stare naturală
+- b. resping ideea de stat
+- c. susțin monarhia de drept divin
+- d. neagă orice drept natural
+
+> [!success]- Răspuns
+> **a. explică statul printr-un contract, pornind de la o stare naturală**
+> 
+> Diferă însă prin conținutul și limitele contractului.
+
+### 53. „Vălul ignoranței” este un instrument propus de:
+
+- a. John Rawls
+- b. Robert Nozick
+- c. Alasdair MacIntyre
+- d. Charles Taylor
+
+> [!success]- Răspuns
+> **a. John Rawls**
+> 
+> El asigură imparțialitatea alegerii principiilor dreptății.
+
+### 54. Pentru Nozick, o distribuție este dreaptă dacă:
+
+- a. a rezultat din achiziții și transferuri corecte
+- b. este cât mai egală
+- c. maximizează fericirea
+- d. corespunde meritului
+
+> [!success]- Răspuns
+> **a. a rezultat din achiziții și transferuri corecte**
+> 
+> Este o teorie „istorică”, procedurală, a dreptății.
+
+### 55. Comunitarismul susține că:
+
+- a. identitatea individului este formată de comunitate
+- b. statul trebuie desființat
+- c. dreptatea se reduce la utilitate
+- d. drepturile nu există
+
+> [!success]- Răspuns
+> **a. identitatea individului este formată de comunitate**
+> 
+> De aici critica individualismului liberal abstract.
+
+### 56. Principiul diferenței admite inegalitățile atunci când:
+
+- a. îi avantajează pe cei mai dezavantajați
+- b. sunt rezultatul întâmplării
+- c. sunt aprobate prin vot
+- d. sunt mici
+
+> [!success]- Răspuns
+> **a. îi avantajează pe cei mai dezavantajați**
+> 
+> Este a doua parte a principiilor dreptății la Rawls.
+
+### 57. Distincția dintre libertatea negativă și cea pozitivă aparține lui:
+
+- a. Isaiah Berlin
+- b. John Stuart Mill
+- c. Max Weber
+- d. Alexis de Tocqueville
+
+> [!success]- Răspuns
+> **a. Isaiah Berlin**
+> 
+> Berlin avertizează asupra abuzurilor libertății pozitive.
+
+### 58. Principiul vătămării permite limitarea libertății individuale:
+
+- a. doar pentru a împiedica vătămarea altora
+- b. pentru binele moral al persoanei
+- c. pentru a impune o religie
+- d. ori de câte ori majoritatea o cere
+
+> [!success]- Răspuns
+> **a. doar pentru a împiedica vătămarea altora**
+> 
+> Propriul bine al persoanei nu e temei suficient.
+
+### 59. Legitimitatea rațional-legală, la Weber, se întemeiază pe:
+
+- a. reguli impersonale și pe drept
+- b. obicei și tradiție
+- c. calitățile excepționale ale conducătorului
+- d. forța armată
+
+> [!success]- Răspuns
+> **a. reguli impersonale și pe drept**
+> 
+> Este tipul dominant în statul modern de drept.
+
+### 60. „Tirania majorității” desemnează:
+
+- a. oprimarea minorității de către o majoritate, chiar democratică
+- b. domnia unui dictator
+- c. absența oricărei legi
+- d. puterea judecătorească
+
+> [!success]- Răspuns
+> **a. oprimarea minorității de către o majoritate, chiar democratică**
+> 
+> De aceea democrația liberală limitează majoritatea prin drepturi.
+
+### 61. Dualismul minte-corp, în forma clasică, aparține lui:
+
+- a. René Descartes
+- b. Gilbert Ryle
+- c. David Chalmers
+- d. B. F. Skinner
+
+> [!success]- Răspuns
+> **a. René Descartes**
+> 
+> El distinge res cogitans de res extensa.
+
+### 62. Funcționalismul definește o stare mintală prin:
+
+- a. rolul ei cauzal, între intrări, alte stări și ieșiri
+- b. substanța din care e făcută
+- c. localizarea ei exactă în creier
+- d. intensitatea ei
+
+> [!success]- Răspuns
+> **a. rolul ei cauzal, între intrări, alte stări și ieșiri**
+> 
+> De aceea ar putea fi realizată pe suporturi diferite.
+
+### 63. Teoria identității susține că:
+
+- a. stările mintale sunt identice cu stări ale creierului
+- b. mintea e o substanță separată
+- c. mintea nu există deloc
+- d. comportamentul e tot ce contează
+
+> [!success]- Răspuns
+> **a. stările mintale sunt identice cu stări ale creierului**
+> 
+> Este o poziție materialistă.
+
+### 64. „Problema grea a conștiinței” privește:
+
+- a. apariția experienței subiective, trăite „din interior”
+- b. funcționarea memoriei
+- c. viteza sinapselor
+- d. structura ADN-ului
+
+> [!success]- Răspuns
+> **a. apariția experienței subiective, trăite „din interior”**
+> 
+> Ea a fost formulată de David Chalmers.
+
+### 65. Criteriul memoriei pentru identitatea personală a fost propus de:
+
+- a. John Locke
+- b. David Hume
+- c. Immanuel Kant
+- d. Derek Parfit
+
+> [!success]- Răspuns
+> **a. John Locke**
+> 
+> Sunt aceeași persoană în măsura în care îmi pot aminti.
+
+### 66. Compatibilismul susține că:
+
+- a. libertatea și determinismul pot fi ambele adevărate
+- b. determinismul e fals
+- c. libertatea e o iluzie
+- d. nimic nu are cauze
+
+> [!success]- Răspuns
+> **a. libertatea și determinismul pot fi ambele adevărate**
+> 
+> Liber înseamnă a acționa fără constrângere, după propriile deliberări.
+
+### 67. Determinismul dur (o formă de incompatibilism) susține că:
+
+- a. determinismul e adevărat, deci liberul arbitru e o iluzie
+- b. libertatea și determinismul se împacă
+- c. totul e întâmplător
+- d. responsabilitatea e absolută
+
+> [!success]- Răspuns
+> **a. determinismul e adevărat, deci liberul arbitru e o iluzie**
+> 
+> El neagă libertatea reală a alegerii.
+
+### 68. Atribuirea responsabilității morale presupune, de regulă:
+
+- a. discernământ și posibilitatea de a fi acționat altfel
+- b. absența oricăror cauze
+- c. existența sufletului nemuritor
+- d. acordul majorității
+
+> [!success]- Răspuns
+> **a. discernământ și posibilitatea de a fi acționat altfel**
+> 
+> De aceea nu tragem la răspundere pe cel lipsit de discernământ.
+
+### 69. Testul imitației (1950) a fost propus de:
+
+- a. Alan Turing
+- b. John Searle
+- c. David Chalmers
+- d. Norbert Wiener
+
+> [!success]- Răspuns
+> **a. Alan Turing**
+> 
+> El oferă un criteriu comportamental al „gândirii” mașinii.
+
+### 70. Experimentul „camerei chinezești” argumentează că:
+
+- a. manipularea sintaxei nu implică înțelegerea semnificației
+- b. mașinile sunt conștiente
+- c. testul Turing e suficient
+- d. creierul e doar un calculator
+
+> [!success]- Răspuns
+> **a. manipularea sintaxei nu implică înțelegerea semnificației**
+> 
+> Îi aparține lui John Searle.
+
+### 71. Prin „IA tare” se înțelege teza că o mașină:
+
+- a. poate avea, propriu-zis, minte și înțelegere
+- b. poate doar simula inteligența
+- c. nu poate calcula
+- d. înlocuiește orice muncă
+
+> [!success]- Răspuns
+> **a. poate avea, propriu-zis, minte și înțelegere**
+> 
+> IA „slabă” susține doar simularea utilă.
+
+### 72. O problemă etică specifică a IA este:
+
+- a. responsabilitatea pentru deciziile automate
+- b. viteza procesorului
+- c. prețul componentelor
+- d. mărimea memoriei
+
+> [!success]- Răspuns
+> **a. responsabilitatea pentru deciziile automate**
+> 
+> Cine răspunde pentru un accident al unei mașini autonome?
+
+### 73. Explicația deductiv-nomologică presupune:
+
+- a. deducerea faptului din legi generale și condiții inițiale
+- b. o simplă descriere a faptului
+- c. un exemplu ilustrativ
+- d. o analogie
+
+> [!success]- Răspuns
+> **a. deducerea faptului din legi generale și condiții inițiale**
+> 
+> Ea arată de ce, subsumând faptul unor legi.
+
+### 74. Problema inducției, formulată de Hume, arată că:
+
+- a. din „a fost mereu așa” nu urmează logic „va fi mereu așa”
+- b. inducția e imposibilă practic
+- c. observația e falsă
+- d. legile nu au excepții
+
+> [!success]- Răspuns
+> **a. din „a fost mereu așa” nu urmează logic „va fi mereu așa”**
+> 
+> Uniformitatea naturii nu poate fi ea însăși demonstrată prin inducție.
+
+### 75. Răspunsul lui Popper la problema inducției este:
+
+- a. înlocuirea confirmării cu falsificarea
+- b. acceptarea certitudinii absolute
+- c. respingerea observației
+- d. reducerea științei la logică
+
+> [!success]- Răspuns
+> **a. înlocuirea confirmării cu falsificarea**
+> 
+> O lege rezistă cât timp nu a fost infirmată.
+
+### 76. Trecerea de la „metalele observate se dilată la căldură” la „toate metalele se dilată” este un raționament:
+
+- a. inductiv
+- b. deductiv
+- c. analogic
+- d. circular
+
+> [!success]- Răspuns
+> **a. inductiv**
+> 
+> El generalizează de la cazuri particulare.
+
+### 77. „Existența precedă esența” este formula centrală a:
+
+- a. existențialismului lui Sartre
+- b. fenomenologiei lui Husserl
+- c. pozitivismului
+- d. structuralismului
+
+> [!success]- Răspuns
+> **a. existențialismului lui Sartre**
+> 
+> Omul se definește prin alegeri, nu printr-o esență dată.
+
+### 78. Angoasa, la Kierkegaard, este:
+
+- a. amețeala libertății în fața posibilului
+- b. frica de un pericol precis
+- c. o boală a corpului
+- d. o emoție lipsită de sens
+
+> [!success]- Răspuns
+> **a. amețeala libertății în fața posibilului**
+> 
+> Spre deosebire de frică, ea nu are un obiect determinat.
+
+### 79. Reaua-credință (mauvaise foi), la Sartre, înseamnă:
+
+- a. a-ți nega propria libertate, pretinzând că nu ai avut de ales
+- b. a minți pe altul
+- c. a acționa din datorie
+- d. a căuta plăcerea
+
+> [!success]- Răspuns
+> **a. a-ți nega propria libertate, pretinzând că nu ai avut de ales**
+> 
+> Omul e „condamnat să fie liber”.
+
+### 80. Tema absurdului și a revoltei lucide aparține lui:
+
+- a. Albert Camus
+- b. Martin Heidegger
+- c. Edmund Husserl
+- d. Ludwig Wittgenstein
+
+> [!success]- Răspuns
+> **a. Albert Camus**
+> 
+> Absurdul se naște între nevoia de sens și tăcerea lumii.
+
+### 81. Întemeietorul fenomenologiei este:
+
+- a. Edmund Husserl
+- b. Jean-Paul Sartre
+- c. Michel Foucault
+- d. Auguste Comte
+
+> [!success]- Răspuns
+> **a. Edmund Husserl**
+> 
+> Deviza lui este „înapoi la lucrurile însele”.
+
+### 82. Intenționalitatea înseamnă că:
+
+- a. orice conștiință este conștiință a ceva
+- b. omul are mereu intenții morale
+- c. sensul e prestabilit
+- d. conștiința e materială
+
+> [!success]- Răspuns
+> **a. orice conștiință este conștiință a ceva**
+> 
+> Nu există percepție fără obiect al percepției.
+
+### 83. Reducția fenomenologică (epoché) constă în:
+
+- a. punerea între paranteze a presupoziției despre existența lumii
+- b. negarea existenței conștiinței
+- c. măsurarea fenomenelor fizice
+- d. respingerea logicii
+
+> [!success]- Răspuns
+> **a. punerea între paranteze a presupoziției despre existența lumii**
+> 
+> Scopul e descrierea pură a experienței trăite.
+
+### 84. Filosoful care a pus corpul propriu în centrul fenomenologiei este:
+
+- a. Maurice Merleau-Ponty
+- b. Edmund Husserl
+- c. Søren Kierkegaard
+- d. Karl Popper
+
+> [!success]- Răspuns
+> **a. Maurice Merleau-Ponty**
+> 
+> Percepția este, pentru el, întotdeauna întrupată și situată.
+
+### 85. Teoria care definește arta ca imitație a realității se numește:
+
+- a. teoria mimesis-ului
+- b. teoria expresiei
+- c. teoria instituțională
+- d. formalismul
+
+> [!success]- Răspuns
+> **a. teoria mimesis-ului**
+> 
+> Ea vine de la Platon și Aristotel.
+
+### 86. Readymade-ul lui Duchamp a arătat că:
+
+- a. nici imitația, nici frumusețea vizibilă nu sunt necesare pentru a fi artă
+- b. arta trebuie să fie figurativă
+- c. doar pictura e artă
+- d. frumosul e obiectiv
+
+> [!success]- Răspuns
+> **a. nici imitația, nici frumusețea vizibilă nu sunt necesare pentru a fi artă**
+> 
+> De aici teoria instituțională a artei.
+
+### 87. Teoria instituțională a artei (Dickie) susține că un obiect e operă de artă dacă:
+
+- a. „lumea artei” îi conferă acest statut
+- b. imită realitatea
+- c. exprimă o emoție
+- d. este frumos
+
+> [!success]- Răspuns
+> **a. „lumea artei” îi conferă acest statut**
+> 
+> Statutul de artă e conferit social, nu de o proprietate intrinsecă.
+
+### 88. Judecata de gust este „dezinteresată”, la Kant, în sensul că:
+
+- a. nu urmărește posesia sau utilitatea obiectului
+- b. este indiferentă și fără valoare
+- c. nu poate fi comunicată
+- d. e pur subiectivă
+
+> [!success]- Răspuns
+> **a. nu urmărește posesia sau utilitatea obiectului**
+> 
+> Ea pretinde totuși acordul celorlalți.
+
+### 89. Deontologia judecă o acțiune după:
+
+- a. conformitatea ei cu datoria
+- b. consecințele produse
+- c. plăcerea adusă
+- d. caracterul agentului
+
+> [!success]- Răspuns
+> **a. conformitatea ei cu datoria**
+> 
+> Kant este marele ei reprezentant.
+
+### 90. Principiul „cea mai mare fericire pentru cel mai mare număr” aparține:
+
+- a. utilitarismului
+- b. deontologiei
+- c. eticii virtuții
+- d. stoicismului
+
+> [!success]- Răspuns
+> **a. utilitarismului**
+> 
+> A fost formulat de Bentham.
+
+### 91. Etica virtuții pune în centru:
+
+- a. caracterul și virtuțile agentului
+- b. regula universală
+- c. calculul utilității
+- d. contractul social
+
+> [!success]- Răspuns
+> **a. caracterul și virtuțile agentului**
+> 
+> Întrebarea ei este „ce fel de om să fiu?”.
+
+### 92. Dualismul minte-corp, în forma clasică, aparține lui:
+
+- a. René Descartes
+- b. David Chalmers
+- c. B. F. Skinner
+- d. John Searle
+
+> [!success]- Răspuns
+> **a. René Descartes**
+> 
+> El distinge substanța gânditoare de cea întinsă.
+
+### 93. Problema inducției, formulată de Hume, arată că:
+
+- a. trecutul nu garantează logic viitorul
+- b. observația este imposibilă
+- c. legile nu au excepții
+- d. știința e falsă
+
+> [!success]- Răspuns
+> **a. trecutul nu garantează logic viitorul**
+> 
+> Uniformitatea naturii nu poate fi demonstrată prin inducție.
+
+### 94. Experimentul „camerei chinezești” aparține lui:
+
+- a. John Searle
+- b. Alan Turing
+- c. Immanuel Kant
+- d. Karl Popper
+
+> [!success]- Răspuns
+> **a. John Searle**
+> 
+> El arată că sintaxa nu implică înțelegerea semantică.
+
+### 95. Teza „ființa este, neființa nu este” aparține lui:
 
 - a. Parmenide
 - b. Heraclit
@@ -453,7 +1149,7 @@ cssclasses: test
 > 
 > Din ea rezultă că schimbarea ar fi o iluzie.
 
-### 38. Devenirea este explicată de Aristotel prin:
+### 96. Devenirea este explicată de Aristotel prin:
 
 - a. trecerea de la potență la act
 - b. lumea Ideilor
@@ -465,7 +1161,7 @@ cssclasses: test
 > 
 > Astfel el evită atât Parmenide, cât și Heraclit.
 
-### 39. Kant consideră metafizica clasică:
+### 97. Kant consideră metafizica clasică:
 
 - a. imposibilă ca știință, fiindcă depășește experiența posibilă
 - b. singura știință adevărată
@@ -477,7 +1173,7 @@ cssclasses: test
 > 
 > De aici critica rațiunii pure.
 
-### 40. Criteriul falsificabilității aparține lui:
+### 98. Criteriul falsificabilității aparține lui:
 
 - a. Karl Popper
 - b. Thomas Kuhn
@@ -489,7 +1185,7 @@ cssclasses: test
 > 
 > O teorie trebuie să precizeze ce fapt ar infirma-o.
 
-### 41. O paradigmă, la Kuhn, este:
+### 99. O paradigmă, la Kuhn, este:
 
 - a. ansamblul de teorii, metode și exemple acceptate de o comunitate științifică
 - b. o teorie falsificată
@@ -501,7 +1197,7 @@ cssclasses: test
 > 
 > Revoluția științifică o înlocuiește cu alta.
 
-### 42. Argumentul ontologic aparține lui:
+### 100. Argumentul ontologic aparține lui:
 
 - a. Anselm de Canterbury
 - b. Toma d'Aquino
@@ -513,7 +1209,7 @@ cssclasses: test
 > 
 > Kant i-a adus obiecția clasică.
 
-### 43. Obiecția lui Kant la argumentul ontologic este că:
+### 101. Obiecția lui Kant la argumentul ontologic este că:
 
 - a. existența nu este un predicat
 - b. Dumnezeu nu poate fi gândit
@@ -525,7 +1221,7 @@ cssclasses: test
 > 
 > Adăugarea existenței nu îmbogățește conceptul.
 
-### 44. Teodiceea încearcă să:
+### 102. Teodiceea încearcă să:
 
 - a. concilieze existența răului cu atributele divine
 - b. demonstreze inexistența divinității
@@ -537,7 +1233,7 @@ cssclasses: test
 > 
 > Libertatea umană este invocată cel mai des.
 
-### 45. Catharsisul aristotelic înseamnă:
+### 103. Catharsisul aristotelic înseamnă:
 
 - a. purificarea emoțiilor prin trăirea lor artistică
 - b. imitarea realității
@@ -549,7 +1245,7 @@ cssclasses: test
 > 
 > Tragedia produce milă și teamă, apoi le purifică.
 
-### 46. Judecata de gust este, la Kant:
+### 104. Judecata de gust este, la Kant:
 
 - a. dezinteresată și universală fără concept
 - b. interesată și particulară
@@ -561,7 +1257,7 @@ cssclasses: test
 > 
 > Ea pretinde acordul celorlalți fără a-l putea demonstra.
 
-### 47. Sublimul se deosebește de frumos prin:
+### 105. Sublimul se deosebește de frumos prin:
 
 - a. depășirea măsurii și amestecul plăcerii cu teama
 - b. armonia formei
@@ -573,7 +1269,7 @@ cssclasses: test
 > 
 > Frumosul presupune proporție și delimitare.
 
-### 48. Distincția explicație–înțelegere separă:
+### 106. Distincția explicație–înțelegere separă:
 
 - a. științele naturii de științele culturii
 - b. logica de retorică
@@ -585,7 +1281,79 @@ cssclasses: test
 > 
 > Ea aparține tradiției lui Dilthey.
 
-### 49. Cercul hermeneutic descrie:
+### 107. „Războiul tuturor împotriva tuturor” descrie starea naturală la:
+
+- a. Thomas Hobbes
+- b. John Locke
+- c. Jean-Jacques Rousseau
+- d. John Rawls
+
+> [!success]- Răspuns
+> **a. Thomas Hobbes**
+> 
+> De aici nevoia unui suveran puternic.
+
+### 108. Conceptul de „voință generală” aparține lui:
+
+- a. Jean-Jacques Rousseau
+- b. Thomas Hobbes
+- c. Isaiah Berlin
+- d. Robert Nozick
+
+> [!success]- Răspuns
+> **a. Jean-Jacques Rousseau**
+> 
+> Supunându-mă legii pe care mi-am dat-o, rămân liber.
+
+### 109. „Vălul ignoranței” este un instrument propus de:
+
+- a. John Rawls
+- b. Robert Nozick
+- c. Alasdair MacIntyre
+- d. Max Weber
+
+> [!success]- Răspuns
+> **a. John Rawls**
+> 
+> El asigură imparțialitatea alegerii principiilor dreptății.
+
+### 110. „Existența precedă esența” este formula centrală a:
+
+- a. existențialismului lui Sartre
+- b. fenomenologiei lui Husserl
+- c. utilitarismului
+- d. comunitarismului
+
+> [!success]- Răspuns
+> **a. existențialismului lui Sartre**
+> 
+> Omul se definește prin alegeri, nu printr-o esență dată.
+
+### 111. Intenționalitatea, în fenomenologie, înseamnă că:
+
+- a. orice conștiință este conștiință a ceva
+- b. omul are mereu intenții
+- c. sensul e prestabilit
+- d. conștiința e materială
+
+> [!success]- Răspuns
+> **a. orice conștiință este conștiință a ceva**
+> 
+> Conceptul este central la Husserl.
+
+### 112. Teoria instituțională a artei (Dickie) susține că un obiect e operă de artă dacă:
+
+- a. „lumea artei” îi conferă acest statut
+- b. imită realitatea
+- c. exprimă o emoție
+- d. este obligatoriu frumos
+
+> [!success]- Răspuns
+> **a. „lumea artei” îi conferă acest statut**
+> 
+> Statutul de artă e conferit social.
+
+### 113. Cercul hermeneutic descrie:
 
 - a. înțelegerea întregului prin părți și a părților prin întreg
 - b. o eroare de raționament
@@ -597,7 +1365,7 @@ cssclasses: test
 > 
 > El este structura firească a oricărei înțelegeri.
 
-### 50. „Fuziunea orizonturilor” aparține lui:
+### 114. „Fuziunea orizonturilor” aparține lui:
 
 - a. Hans-Georg Gadamer
 - b. Edmund Husserl
@@ -609,7 +1377,7 @@ cssclasses: test
 > 
 > Ea descrie întâlnirea dintre orizontul textului și cel al cititorului.
 
-### 51. Intenționalitatea, în fenomenologie, înseamnă că:
+### 115. Intenționalitatea, în fenomenologie, înseamnă că:
 
 - a. orice conștiință este conștiință a ceva
 - b. omul are întotdeauna intenții
@@ -621,7 +1389,7 @@ cssclasses: test
 > 
 > Conceptul este central la Husserl.
 
-### 52. Jocurile de limbaj aparțin lui:
+### 116. Jocurile de limbaj aparțin lui:
 
 - a. Ludwig Wittgenstein
 - b. Bertrand Russell
@@ -633,7 +1401,7 @@ cssclasses: test
 > 
 > Sensul unui cuvânt este folosirea lui într-o practică.
 
-### 53. Foucault analizează, în principal:
+### 117. Foucault analizează, în principal:
 
 - a. relația dintre cunoaștere și putere
 - b. structura judecății de gust
@@ -645,7 +1413,7 @@ cssclasses: test
 > 
 > El studiază instituțiile prin care se exercită puterea.
 
-### 54. Verbul „ilustrați” cere:
+### 118. Verbul „ilustrați” cere:
 
 - a. un exemplu concret potrivit exact cu ideea
 - b. o justificare
@@ -657,7 +1425,7 @@ cssclasses: test
 > 
 > Justificarea se cere prin „explicați”.
 
-### 55. Un contraargument atacă:
+### 119. Un contraargument atacă:
 
 - a. premisele sau legătura cu concluzia
 - b. persoana care susține teza
@@ -669,7 +1437,7 @@ cssclasses: test
 > 
 > Atacul la persoană este un sofism.
 
-### 56. Introducerea unui eseu filosofic trebuie să:
+### 120. Introducerea unui eseu filosofic trebuie să:
 
 - a. încadreze tema și să anunțe teza proprie
 - b. rezume opiniile filosofilor
@@ -681,7 +1449,7 @@ cssclasses: test
 > 
 > Teza anunțată dă direcția eseului.
 
-### 57. Obiecția prezentată în eseu trebuie să fie:
+### 121. Obiecția prezentată în eseu trebuie să fie:
 
 - a. cea mai puternică împotriva propriei teze
 - b. cea mai ușor de respins
@@ -693,7 +1461,7 @@ cssclasses: test
 > 
 > Altfel răspunsul nu dovedește nimic.
 
-### 58. Un eseu care doar enumeră opinii filosofice:
+### 122. Un eseu care doar enumeră opinii filosofice:
 
 - a. pierde punctele pentru poziție proprie și argumentare
 - b. primește punctaj maxim
@@ -705,7 +1473,7 @@ cssclasses: test
 > 
 > Filosofia cere argument, nu inventar.
 
-### 59. Un eseu structurat cere, orientativ:
+### 123. Un eseu structurat cere, orientativ:
 
 - a. între 45 și 60 de minute
 - b. 15 minute
@@ -717,7 +1485,7 @@ cssclasses: test
 > 
 > De aceea se exersează cronometrat.
 
-### 60. Fișa de argument este utilă pentru că:
+### 124. Fișa de argument este utilă pentru că:
 
 - a. poate fi folosită la mai multe formulări ale subiectului
 - b. înlocuiește manualul

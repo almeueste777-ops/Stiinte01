@@ -350,7 +350,305 @@ Prezentarea publică a proiectului urmează o structură eficientă: problema (d
 - este cerută de lege
 ! Continuitatea depinde de claritatea organizării.
 
+## 1 | tic11-c4 | HTML și CSS de bază
+### tic11-10 | Structura unei pagini HTML
+HTML (HyperText Markup Language) este limbajul de marcare care descrie structura unei pagini web. O pagină e alcătuită din elemente, delimitate de etichete: de deschidere (<p>) și de închidere (</p>). Structura minimă cuprinde declarația <!DOCTYPE html>, elementul rădăcină <html>, secțiunea <head> (metadate: titlu, codare, legături) și <body> (conținutul vizibil). Elementele importante: titluri (<h1>–<h6>), paragrafe (<p>), liste (<ul>, <ol>, <li>), legături (<a>), imagini (<img>). HTML descrie SENSUL conținutului (structura), nu aspectul lui, care e treaba CSS-ului. Etichetele pot avea atribute (href, src, alt) care le precizează comportamentul. O structură corectă și semantică face pagina accesibilă și ușor de indexat de motoarele de căutare.
+* HTML descrie structura paginii prin elemente și etichete.
+* Structura minimă: <!DOCTYPE html>, <html>, <head>, <body>.
+* Elemente: titluri, paragrafe, liste, legături, imagini.
+* HTML dă structura (sensul), CSS dă aspectul.
+= HTML :: limbaj de marcare care descrie structura unei pagini web
+= etichetă (tag) :: marcaj care delimitează un element HTML, de deschidere și de închidere
+@ Ce descrie HTML? :: Structura (sensul) unei pagini web.
+@ Ce conține secțiunea head? :: Metadatele: titlu, codare, legături.
+@ Ce etichetă marchează un paragraf? :: Eticheta p (<p>).
+@ Ce dă aspectul unei pagini, dacă nu HTML? :: CSS-ul.
+? HTML descrie, în principal:
++ structura conținutului
+- aspectul vizual
+- baza de date
+- viteza rețelei
+! Aspectul îl dă CSS-ul.
+? Conținutul vizibil al paginii se pune în:
++ body
+- head
+- title
+- meta
+! head conține metadatele.
+? Eticheta pentru un titlu principal este:
++ h1
+- p
+- a
+- li
+! h1–h6 sunt niveluri de titlu.
+? Un element HTML este delimitat de:
++ o etichetă de deschidere și una de închidere
+- ghilimele
+- paranteze rotunde
+- două puncte
+! De exemplu <p>…</p>.
+
+### tic11-11 | Formatarea cu CSS
+CSS (Cascading Style Sheets) descrie aspectul paginilor: culori, fonturi, dimensiuni, spațiere, așezare. O regulă CSS are un selector (ce element vizează) și un bloc de declarații (proprietate: valoare), de exemplu p { color: blue; font-size: 16px; }. Stilurile pot fi puse în trei feluri: în linie (atributul style), interne (în elementul style) sau externe (fișier .css legat) — varianta externă e cea recomandată, fiindcă separă conținutul de prezentare. Selectorii de bază: după element (p), după clasă (.nume), după id (#nume). Proprietăți frecvente: color, background, font-family, margin, padding, border. „Cascada” din nume înseamnă că regulile se aplică în ordine și după specificitate. Separarea HTML–CSS face site-ul mai ușor de întreținut.
+* CSS descrie aspectul: culori, fonturi, spațiere, așezare.
+* O regulă = selector + declarații (proprietate: valoare).
+* Stiluri: în linie, interne, externe (externe = recomandat).
+* Selectori: element (p), clasă (.nume), id (#nume).
+= CSS :: limbaj care descrie aspectul (stilul) paginilor web
+= selector :: partea unei reguli CSS care indică ce elemente sunt vizate
+@ Ce descrie CSS? :: Aspectul paginilor: culori, fonturi, așezare.
+@ Din ce se compune o regulă CSS? :: Un selector și un bloc de declarații.
+@ Care mod de a pune stiluri e recomandat? :: Fișierul CSS extern.
+@ Cum se scrie un selector de clasă? :: Cu punct: .nume.
+? O regulă CSS conține:
++ un selector și declarații
+- doar text simplu
+- o adresă IP
+- o etichetă HTML
+! De exemplu p { color: red; }.
+? Selectorul de clasă se scrie cu:
++ punct (.nume)
+- diez (#nume)
+- fără niciun simbol
+- două puncte
+! Diezul (#) indică un id.
+? Modul recomandat de a aplica stiluri este:
++ fișierul CSS extern
+- stilul în linie peste tot
+- lipsa oricărui stil
+- comentariile
+! El separă conținutul de prezentare.
+? CSS controlează, de pildă:
++ culoarea și fontul
+- structura logică a datelor
+- protocolul de rețea
+- adresa serverului
+! Structura o dă HTML.
+
+### tic11-12 | Legături, imagini și tabele
+Legăturile (hyperlink-urile) conectează paginile web și se creează cu eticheta a, prin atributul href, care indică destinația (o altă pagină, o secțiune, o adresă de e-mail). Imaginile se inserează cu eticheta img și atributele src (calea) și alt (descrierea); textul alternativ alt e esențial pentru accesibilitate și pentru cazul în care imaginea nu se încarcă. Tabelele organizează date pe rânduri și coloane: elementul table conține rânduri (tr), iar fiecare rând conține celule de antet (th) sau de date (td). Structura semantică contează: un tabel e pentru date tabelare, nu pentru așezarea paginii. Căile pot fi absolute (adresa completă) sau relative (față de pagina curentă). O pagină bine construită folosește legături clare, imagini cu text alternativ și tabele doar pentru date.
+* Legăturile se fac cu eticheta a; href dă destinația.
+* Imaginile: img cu src și alt; alt = text alternativ pentru accesibilitate.
+* Tabelele: table, rânduri tr, celule th/td.
+* Căile pot fi absolute sau relative.
+= hyperlink :: legătură care conectează o pagină la o altă resursă
+= text alternativ (alt) :: descrierea unei imagini, folosită la accesibilitate și când imaginea nu se încarcă
+@ Ce etichetă creează o legătură? :: Eticheta a, cu atributul href.
+@ Ce rol are atributul alt la imagini? :: Text alternativ pentru accesibilitate.
+@ Din ce se compune un rând de tabel? :: Din celule th (antet) sau td (date).
+@ Ce atribut indică destinația unei legături? :: Atributul href.
+? Legătura se creează cu eticheta:
++ a
+- img
+- table
+- p
+! Atributul href dă destinația.
+? Atributul alt al unei imagini oferă:
++ un text alternativ pentru accesibilitate
+- adresa serverului
+- dimensiunea fișierului
+- culoarea de fundal
+! Util și când imaginea nu se încarcă.
+? Un rând de tabel se marchează cu:
++ tr
+- td
+- table
+- th
+! td și th sunt celulele din rând.
+? Tabelele HTML ar trebui folosite pentru:
++ date tabelare
+- așezarea întregii pagini
+- inserarea sunetului
+- crearea legăturilor
+! Așezarea se face cu CSS.
+
+## 2 | tic11-c5 | Multimedia și grafică
+### tic11-13 | Imaginea digitală
+O imagine digitală se reprezintă în două moduri. Imaginea raster (bitmap) e formată din pixeli, fiecare cu o culoare; calitatea depinde de rezoluție (numărul de pixeli) și de adâncimea de culoare (biți per pixel), iar mărirea peste rezoluția ei duce la pixelare. Imaginea vectorială e descrisă prin formule geometrice (linii, curbe), deci poate fi mărită fără pierdere de calitate — potrivită pentru logo-uri și grafică. Formatele raster frecvente: JPEG (compresie cu pierdere, bun pentru fotografii), PNG (compresie fără pierdere, transparență), GIF (animație, puține culori); formatul vectorial tipic pentru web e SVG. Compresia reduce dimensiunea fișierului: cu pierdere (aruncă informație) sau fără pierdere (o păstrează). Alegerea formatului depinde de tipul imaginii și de scopul ei.
+* Imaginea raster = pixeli; calitatea depinde de rezoluție.
+* Imaginea vectorială = formule geometrice; se mărește fără pierdere.
+* Formate raster: JPEG (foto), PNG (transparență), GIF (animație); vectorial: SVG.
+* Compresia poate fi cu pierdere sau fără pierdere.
+= imagine raster :: imagine formată din pixeli, cu calitate dependentă de rezoluție
+= imagine vectorială :: imagine descrisă prin formule geometrice, scalabilă fără pierdere
+@ Din ce e formată o imagine raster? :: Din pixeli.
+@ De ce o imagine vectorială se mărește fără pierdere? :: E descrisă prin formule geometrice.
+@ Ce format raster e bun pentru fotografii? :: JPEG.
+@ Ce format raster păstrează transparența? :: PNG.
+? Imaginea raster este formată din:
++ pixeli
+- formule geometrice
+- vectori
+- caractere
+! Calitatea depinde de rezoluție.
+? Se mărește fără pierdere de calitate:
++ imaginea vectorială
+- imaginea raster
+- fotografia JPEG
+- fișierul GIF
+! Ea e descrisă prin formule.
+? Formatul potrivit pentru fotografii este:
++ JPEG
+- SVG
+- TXT
+- MP3
+! JPEG folosește compresie cu pierdere.
+? Compresia „cu pierdere”:
++ aruncă o parte din informație pentru a micșora fișierul
+- păstrează toată informația
+- mărește fișierul
+- criptează imaginea
+! JPEG e un exemplu.
+
+### tic11-14 | Sunet și video digital
+Sunetul digital se obține prin eșantionare: semnalul continuu e măsurat de multe ori pe secundă (frecvența de eșantionare, de exemplu 44,1 kHz) și fiecare valoare e codată pe un număr de biți (cuantizare). Cu cât frecvența și adâncimea sunt mai mari, cu atât calitatea și dimensiunea fișierului cresc. Formate audio: WAV (necomprimat), MP3 (comprimat cu pierdere, larg folosit), AAC. Videoul este o succesiune de imagini (cadre) afișate rapid; parametrii cheie sunt rezoluția (de exemplu 1920×1080) și rata de cadre (fps). Fișierele video îmbină imagine și sunet și folosesc codecuri de compresie (H.264) pentru a fi transportabile; containere frecvente: MP4, AVI, MKV. Streamingul transmite conținutul în flux, fără a-l descărca integral. Multimedia îmbină text, imagine, sunet și video într-un mesaj bogat.
+* Sunetul digital se obține prin eșantionare (de ex. 44,1 kHz) și cuantizare.
+* Formate audio: WAV (necomprimat), MP3 și AAC (comprimate).
+* Videoul = succesiune de cadre; parametri: rezoluția și rata de cadre (fps).
+* Codecurile comprimă videoul (H.264); containere: MP4, AVI, MKV.
+= eșantionare :: măsurarea repetată a unui semnal continuu pentru a-l digitiza
+= codec :: metodă de comprimare și decomprimare a sunetului sau a videoului
+@ Cum se digitizează sunetul? :: Prin eșantionare și cuantizare.
+@ Ce format audio e necomprimat? :: WAV.
+@ Ce parametri descriu un video? :: Rezoluția și rata de cadre (fps).
+@ Ce face un codec? :: Comprimă și decomprimă sunetul sau videoul.
+? Sunetul digital se obține prin:
++ eșantionare și cuantizare
+- vectorizare
+- compilare
+- criptare
+! Frecvența tipică: 44,1 kHz.
+? Un format audio comprimat, larg folosit, este:
++ MP3
+- WAV
+- SVG
+- HTML
+! WAV este necomprimat.
+? Videoul este, în esență:
++ o succesiune de cadre afișate rapid
+- o singură imagine
+- un fișier text
+- o bază de date
+! Rata de cadre se măsoară în fps.
+? Un container video obișnuit este:
++ MP4
+- MP3
+- JPEG
+- CSS
+! MP3 este audio, JPEG este imagine.
+
+## 2 | tic11-c6 | Proiecte și securitate digitală
+### tic11-15 | Managementul unui proiect digital
+Un proiect digital (un site, o prezentare, o aplicație) se realizează în etape. Analiza stabilește scopul, publicul-țintă și cerințele. Proiectarea (design) planifică structura, navigarea și aspectul, adesea prin schițe (wireframe). Realizarea construiește produsul; testarea verifică funcționarea și corectează erorile; publicarea și întreținerea îl fac disponibil și îl actualizează. Munca în echipă cere împărțirea sarcinilor, termene și comunicare, cu instrumente utile precum liste de sarcini, calendare și sisteme de gestiune a versiunilor. Un proiect reușit pornește de la cerințe clare și verifică rezultatul față de ele. Documentarea (ce s-a făcut, cum se folosește) ajută întreținerea și colaborarea, iar gândirea pe etape reduce riscul de a construi ceva ce nu răspunde nevoii.
+* Etapele: analiză, proiectare, realizare, testare, publicare, întreținere.
+* Proiectarea folosește schițe (wireframe) pentru structură și navigare.
+* Munca în echipă cere sarcini, termene și comunicare.
+* Documentarea ajută întreținerea și colaborarea.
+= wireframe :: schiță a structurii și așezării unei pagini sau aplicații, înainte de realizare
+= etapele unui proiect :: succesiunea analiză → proiectare → realizare → testare → publicare
+@ Care sunt etapele unui proiect digital? :: Analiză, proiectare, realizare, testare, publicare, întreținere.
+@ Ce este un wireframe? :: O schiță a structurii și așezării, înainte de realizare.
+@ Ce stabilește etapa de analiză? :: Scopul, publicul-țintă și cerințele.
+@ Ce ajută întreținerea unui proiect? :: Documentarea.
+? Prima etapă a unui proiect este, de regulă:
++ analiza cerințelor
+- publicarea
+- întreținerea
+- testarea
+! Ea stabilește scopul și cerințele.
+? Un wireframe este:
++ o schiță a structurii, înainte de realizare
+- codul final
+- o bază de date
+- un format de imagine
+! Ajută la planificarea așezării.
+? Testarea unui proiect servește la:
++ verificarea funcționării și corectarea erorilor
+- stabilirea scopului
+- scrierea documentației legale
+- alegerea culorilor
+! Vine înainte de publicare.
+? Munca în echipă la un proiect cere:
++ sarcini, termene și comunicare
+- un singur om care face tot
+- absența planificării
+- lipsa documentației
+! Ea reduce riscul de eșec.
+
+### tic11-16 | Securitate și etică pe internet
+Folosirea internetului cere măsuri de securitate și un comportament etic. Datele personale trebuie protejate: parole puternice și diferite, autentificare în doi pași, atenție la ce se publică. Amenințări frecvente: virușii și programele malițioase (malware), phishingul (mesaje înșelătoare care cer date) și înșelătoriile online. Protecție: programe antivirus actualizate, prudență la atașamente și linkuri necunoscute, conexiuni sigure (HTTPS). Etica digitală înseamnă respectarea dreptului de autor (nu copiezi și nu distribui fără permisiune), a vieții private a celorlalți și a regulilor de conduită (netichetă). Amprenta digitală — urmele lăsate online — poate influența reputația pe termen lung. Un utilizator responsabil verifică sursele, respectă legea și pe ceilalți și își protejează identitatea.
+* Protecția datelor: parole puternice, autentificare în doi pași.
+* Amenințări: malware, phishing, înșelătorii online.
+* Protecție: antivirus actualizat, prudență la linkuri, HTTPS.
+* Etica: dreptul de autor, viața privată, netichetă, amprenta digitală.
+= phishing :: înșelătorie prin mesaje care imită surse de încredere pentru a fura date
+= amprentă digitală :: totalitatea urmelor lăsate de o persoană pe internet
+@ Ce este phishingul? :: O înșelătorie prin mesaje care cer date, imitând surse de încredere.
+@ Cum se protejează un cont? :: Prin parole puternice, diferite, și autentificare în doi pași.
+@ Ce este amprenta digitală? :: Urmele lăsate de o persoană pe internet.
+@ Ce înseamnă respectarea dreptului de autor? :: A nu copia și distribui fără permisiune.
+? Phishingul este:
++ o înșelătorie care cere date prin mesaje false
+- un tip de imagine
+- un protocol de rețea
+- un program antivirus
+! Imită surse de încredere.
+? O măsură bună de securitate este:
++ parole puternice și autentificare în doi pași
+- aceeași parolă peste tot
+- deschiderea oricărui atașament
+- dezactivarea antivirusului
+! Prudența reduce riscul.
+? Amprenta digitală se referă la:
++ urmele lăsate de o persoană online
+- viteza internetului
+- mărimea unui fișier
+- adresa IP a serverului
+! Poate influența reputația.
+? Respectarea dreptului de autor înseamnă:
++ a nu copia și distribui fără permisiune
+- a descărca orice, gratuit
+- a ignora sursele
+- a publica orice imagine
+! Etica digitală îi protejează și pe ceilalți.
+
 %% teza 1
+? HTML descrie, în principal:
++ structura conținutului
+- doar culorile
+- viteza rețelei
+- baza de date
+! Aspectul îl dă CSS-ul.
+? Selectorul de clasă în CSS se scrie cu:
++ punct (.nume)
+- diez (#nume)
+- fără simbol
+- două puncte
+! Diezul indică un id.
+? Atributul alt al unei imagini oferă:
++ un text alternativ, util la accesibilitate
+- dimensiunea fișierului
+- culoarea
+- adresa serverului
+! Apare și când imaginea nu se încarcă.
+? Se mărește fără pierdere de calitate:
++ imaginea vectorială
+- imaginea raster
+- fotografia JPEG
+- fișierul GIF
+! E descrisă prin formule geometrice.
+? Modul recomandat de a aplica stiluri este:
++ fișierul CSS extern
+- stilul în linie peste tot
+- lipsa oricărui stil
+- comentariile
+! Separă conținutul de prezentare.
+? Conținutul vizibil al unei pagini se pune în:
++ body
+- head
+- title
+- meta
+! head conține metadatele.
 ? În modelul client–server, browserul este:
 + clientul
 - serverul
@@ -425,6 +723,42 @@ Prezentarea publică a proiectului urmează o structură eficientă: problema (d
 ! Spectatorii abandonează mai repede din cauza sunetului.
 
 %% teza 2
+? Sunetul digital se obține prin:
++ eșantionare și cuantizare
+- vectorizare
+- compilare
+- criptare
+! Frecvența tipică e 44,1 kHz.
+? Un format audio necomprimat este:
++ WAV
+- MP3
+- AAC
+- SVG
+! MP3 și AAC sunt comprimate.
+? Prima etapă a unui proiect digital este:
++ analiza cerințelor
+- publicarea
+- întreținerea
+- testarea
+! Ea stabilește scopul.
+? Phishingul este:
++ o înșelătorie care cere date prin mesaje false
+- un format video
+- un tip de selector CSS
+- un antivirus
+! Imită surse de încredere.
+? Videoul este, în esență:
++ o succesiune de cadre afișate rapid
+- o singură imagine
+- un fișier text
+- o pagină HTML
+! Rata de cadre se măsoară în fps.
+? O măsură bună de securitate online este:
++ autentificarea în doi pași
+- aceeași parolă peste tot
+- deschiderea oricărui link
+- dezactivarea antivirusului
+! Prudența protejează datele.
 ? Ierarhia vizuală se realizează prin:
 + dimensiune, contrast și poziție
 - numărul de culori

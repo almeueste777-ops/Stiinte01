@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Tipuri de reacții chimice
 
-[[Chimie (clasa a IX-a)|Chimie]] · [[Clasa a IX-a]] · lecția 7 din 9
+[[Chimie (clasa a IX-a)|Chimie]] · [[Clasa a IX-a]] · lecția 7 din 18
 
 **Capitolul:** Reacții chimice — semestrul 2
 

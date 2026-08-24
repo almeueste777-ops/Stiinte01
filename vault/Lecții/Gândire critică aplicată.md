@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Gândire critică aplicată
 
-[[ȘTIAM (științe integrate) (clasa a XII-a)|ȘTIAM (științe integrate)]] · [[Clasa a XII-a]] · lecția 9 din 9
+[[ȘTIAM (științe integrate) (clasa a XII-a)|ȘTIAM (științe integrate)]] · [[Clasa a XII-a]] · lecția 9 din 16
 
 **Capitolul:** Mediu, resurse, gândire critică — semestrul 2
 
@@ -29,6 +29,6 @@ Gândirea critică este capacitatea de a evalua afirmații pe baza dovezilor, nu
 
 ---
 
-⬅ [[Biodiversitate și ecosisteme]]
+⬅ [[Biodiversitate și ecosisteme]] · [[Sistemul imunitar și bolile]] ➡
 
 Exersează: [[Carduri - ȘTIAM (științe integrate) (clasa a XII-a)]] · [[Test - ȘTIAM (științe integrate) (clasa a XII-a)]]

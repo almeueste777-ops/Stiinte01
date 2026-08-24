@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Sfintele Taine ale inițierii
 
-[[Religie (clasa a XI-a)|Religie]] · [[Clasa a XI-a]] · lecția 2 din 9
+[[Religie (clasa a XI-a)|Religie]] · [[Clasa a XI-a]] · lecția 2 din 18
 
 **Capitolul:** Biserica și Sfintele Taine — semestrul 1
 

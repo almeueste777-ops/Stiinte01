@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Obiectul și problematica psihologiei
 
-[[Psihologie (clasa a X-a)|Psihologie]] · [[Clasa a X-a]] · lecția 1 din 16
+[[Psihologie (clasa a X-a)|Psihologie]] · [[Clasa a X-a]] · lecția 1 din 24
 
 **Capitolul:** Psihologia ca știință — semestrul 1
 

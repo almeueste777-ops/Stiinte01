@@ -792,12 +792,722 @@
      ]
     }
    ]
+  },
+  {
+   "id": "tic10-c4",
+   "titlu": "Calcul tabelar aprofundat",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "tic10-10",
+     "titlu": "Referințe relative, absolute și denumirea celulelor",
+     "rezumat": "Puterea unei foi de calcul stă în formulele care se recalculează automat când se schimbă datele. O formulă începe cu semnul egal și trimite la alte celule prin adresa lor (de exemplu =A1+B1). Copierea unei formule în jos sau lateral ajustează automat adresele: aceasta este referința relativă — foarte utilă, fiindcă aceeași formulă se aplică pe rânduri diferite. Uneori vrem ca o adresă să nu se modifice la copiere — de pildă o celulă cu procentul de TVA sau cu un curs valutar, folosită de toate rândurile. Fixarea se face cu semnul dolar: $A$1 este referință absolută (nu se schimbă nici coloana, nici rândul), iar A$1 sau $A1 sunt referințe mixte (se fixează doar rândul, respectiv doar coloana). Alternativ, o celulă sau un domeniu pot primi un nume (de exemplu „TVA”), folosit apoi în formule mai clar decât o adresă. Greșeala clasică este copierea unei formule cu referință relativă acolo unde trebuia una absolută: rezultatele devin aberante, fiindcă adresa care trebuia fixă „alunecă” odată cu formula. De aceea, înainte de a copia o formulă, se decide ce trebuie să rămână fix și ce trebuie să se adapteze.",
+     "ideiCheie": [
+      "Formula începe cu „=” și se recalculează automat la schimbarea datelor.",
+      "Referința relativă se ajustează la copiere; cea absolută ($A$1) rămâne fixă.",
+      "Referințele mixte fixează doar rândul sau doar coloana.",
+      "O celulă poate primi un nume, folosit apoi în formule pentru claritate."
+     ],
+     "termeni": [
+      {
+       "t": "referință relativă",
+       "d": "adresă de celulă care se ajustează automat la copierea formulei"
+      },
+      {
+       "t": "referință absolută",
+       "d": "adresă fixată cu „$”, care nu se modifică la copiere"
+      },
+      {
+       "t": "formulă",
+       "d": "expresie care începe cu „=” și calculează un rezultat din alte celule"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cu ce semn începe o formulă într-o foaie de calcul?",
+       "v": "Cu semnul egal."
+      },
+      {
+       "f": "Ce este o referință absolută?",
+       "v": "O adresă fixată cu „$”, care nu se schimbă la copiere."
+      },
+      {
+       "f": "Cum se scrie referința absolută la celula A1?",
+       "v": "$A$1."
+      },
+      {
+       "f": "Când se folosește o referință absolută?",
+       "v": "Când o valoare (de exemplu TVA) trebuie folosită fix de toate rândurile."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Referința $A$1 este:",
+       "optiuni": [
+        "absolută, nu se modifică la copiere",
+        "relativă",
+        "mixtă pe rând",
+        "o eroare de sintaxă"
+       ],
+       "corect": 0,
+       "explicatie": "Dolarul fixează atât coloana, cât și rândul."
+      },
+      {
+       "intrebare": "La copierea în jos, referința relativă B2:",
+       "optiuni": [
+        "se ajustează la B3, B4 și așa mai departe",
+        "rămâne mereu B2",
+        "devine $B$2",
+        "produce eroare"
+       ],
+       "corect": 0,
+       "explicatie": "Adresa se adaptează rândului."
+      },
+      {
+       "intrebare": "O formulă într-o foaie de calcul începe cu:",
+       "optiuni": [
+        "semnul egal",
+        "semnul plus",
+        "o paranteză",
+        "ghilimele"
+       ],
+       "corect": 0,
+       "explicatie": "Fără el, textul nu este interpretat ca formulă."
+      },
+      {
+       "intrebare": "Pentru un procent de TVA folosit de toate rândurile, în formulă se pune:",
+       "optiuni": [
+        "o referință absolută la celula cu TVA",
+        "o referință relativă",
+        "valoarea scrisă manual în fiecare rând",
+        "un comentariu"
+       ],
+       "corect": 0,
+       "explicatie": "Astfel o singură modificare actualizează tot tabelul."
+      }
+     ]
+    },
+    {
+     "id": "tic10-11",
+     "titlu": "Funcții logice și calcul condiționat",
+     "rezumat": "Pe lângă operațiile aritmetice, foaia de calcul oferă funcții — formule predefinite. Cele statistice de bază: SUM (adună), AVERAGE (media), MIN și MAX (cea mai mică și cea mai mare valoare), COUNT (numără celulele cu numere). Ele primesc drept argument un domeniu, scris cu două puncte: SUM(A1:A10) adună zece celule. Funcția IF (DACĂ) alege între două rezultate în funcție de o condiție: de exemplu, afișează „promovat” dacă nota este cel puțin 5 și „respins” altfel. Ea permite decizii automate în tabel. Funcțiile condiționate numără sau adună doar celulele care îndeplinesc un criteriu: COUNTIF numără (de pildă câți elevi au peste 9), SUMIF adună selectiv (de pildă vânzările dintr-o anumită lună). Condițiile pot combina mai multe criterii cu ȘI și SAU. Aceste funcții transformă un tabel dintr-o simplă listă într-un instrument de analiză: se pot semnala automat valorile lipsă, se pot clasifica rezultatele, se pot calcula procente de reușită. Cheia este formularea corectă a condiției; o condiție greșită dă un rezultat greșit, chiar dacă formula „funcționează”.",
+     "ideiCheie": [
+      "Funcțiile sunt formule predefinite: SUM, AVERAGE, MIN, MAX, COUNT.",
+      "Domeniul se scrie cu două puncte: A1:A10.",
+      "IF alege un rezultat în funcție de o condiție.",
+      "COUNTIF și SUMIF numără sau adună doar celulele care respectă un criteriu."
+     ],
+     "termeni": [
+      {
+       "t": "funcție",
+       "d": "formulă predefinită care primește argumente și returnează un rezultat"
+      },
+      {
+       "t": "domeniu",
+       "d": "grup de celule scris cu două puncte, de exemplu A1:A10"
+      },
+      {
+       "t": "funcția IF",
+       "d": "funcție care alege între două rezultate în funcție de o condiție"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce face funcția SUM?",
+       "v": "Adună valorile dintr-un domeniu de celule."
+      },
+      {
+       "f": "Cum se scrie un domeniu de la A1 la A10?",
+       "v": "A1:A10."
+      },
+      {
+       "f": "Ce face funcția IF?",
+       "v": "Alege între două rezultate, în funcție de o condiție."
+      },
+      {
+       "f": "La ce folosește COUNTIF?",
+       "v": "Numără celulele care îndeplinesc un criteriu dat."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Funcția SUM(A1:A10):",
+       "optiuni": [
+        "adună cele zece celule din domeniu",
+        "adună doar A1 și A10",
+        "numără celulele",
+        "calculează media"
+       ],
+       "corect": 0,
+       "explicatie": "Domeniul A1:A10 cuprinde toate celulele dintre ele."
+      },
+      {
+       "intrebare": "Pentru a afișa „promovat” dacă nota este cel puțin 5 se folosește:",
+       "optiuni": [
+        "funcția IF",
+        "funcția SUM",
+        "funcția MAX",
+        "funcția COUNT"
+       ],
+       "corect": 0,
+       "explicatie": "IF alege rezultatul în funcție de condiție."
+      },
+      {
+       "intrebare": "Pentru a număra câți elevi au nota peste 9 se folosește:",
+       "optiuni": [
+        "COUNTIF",
+        "SUM",
+        "AVERAGE",
+        "MIN"
+       ],
+       "corect": 0,
+       "explicatie": "COUNTIF numără celulele care respectă un criteriu."
+      },
+      {
+       "intrebare": "Media aritmetică a unui domeniu se obține cu:",
+       "optiuni": [
+        "AVERAGE",
+        "COUNT",
+        "MAX",
+        "IF"
+       ],
+       "corect": 0,
+       "explicatie": "COUNT doar numără celulele cu valori numerice."
+      }
+     ]
+    },
+    {
+     "id": "tic10-12",
+     "titlu": "Sortare, filtrare și tabele pivot",
+     "rezumat": "Când un tabel are multe rânduri, ordonarea și selecția devin esențiale. Sortarea rearanjează rândurile după valorile unei coloane, crescător sau descrescător (alfabetic, numeric sau cronologic), păstrând legătura dintre celulele aceluiași rând. Se poate sorta pe mai multe niveluri: întâi după clasă, apoi, în cadrul fiecărei clase, după nume. Filtrarea ascunde temporar rândurile care nu îndeplinesc un criteriu, lăsând vizibile doar cele relevante (de exemplu doar elevii cu media peste 9 sau doar vânzările dintr-o lună). Spre deosebire de ștergere, filtrarea nu pierde date: la eliminarea filtrului, rândurile reapar. Filtrele pot combina mai multe criterii. Tabelul pivot rezumă rapid un set mare de date, grupându-le și calculând totaluri: de exemplu vânzările totale pe fiecare produs și lună, dintr-o listă cu mii de tranzacții. Se aleg câmpurile pentru rânduri, pentru coloane și valoarea de agregat (sumă, medie, număr). Tabelul pivot răspunde în câteva secunde la întrebări la care numărarea manuală ar dura ore.",
+     "ideiCheie": [
+      "Sortarea rearanjează rândurile după o coloană, păstrând legătura din fiecare rând.",
+      "Se poate sorta pe mai multe niveluri.",
+      "Filtrarea ascunde temporar rândurile nerelevante, fără a pierde date.",
+      "Tabelul pivot grupează datele și calculează totaluri (sumă, medie, număr)."
+     ],
+     "termeni": [
+      {
+       "t": "sortare",
+       "d": "rearanjarea rândurilor după valorile unei coloane, crescător sau descrescător"
+      },
+      {
+       "t": "filtrare",
+       "d": "ascunderea temporară a rândurilor care nu respectă un criteriu"
+      },
+      {
+       "t": "tabel pivot",
+       "d": "instrument care rezumă datele grupându-le și calculând totaluri"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce face sortarea unui tabel?",
+       "v": "Rearanjează rândurile după valorile unei coloane."
+      },
+      {
+       "f": "Prin ce diferă filtrarea de ștergere?",
+       "v": "Filtrarea doar ascunde temporar rândurile; datele nu se pierd."
+      },
+      {
+       "f": "La ce folosește un tabel pivot?",
+       "v": "Rezumă un set mare de date, grupându-le și calculând totaluri."
+      },
+      {
+       "f": "Se poate sorta după mai multe coloane?",
+       "v": "Da, pe mai multe niveluri succesive."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Filtrarea unui tabel:",
+       "optiuni": [
+        "ascunde temporar rândurile care nu respectă criteriul",
+        "șterge definitiv rândurile",
+        "rearanjează coloanele",
+        "schimbă formulele"
+       ],
+       "corect": 0,
+       "explicatie": "La eliminarea filtrului, rândurile reapar."
+      },
+      {
+       "intrebare": "Pentru a obține rapid vânzările totale pe fiecare produs dintr-o listă mare se folosește:",
+       "optiuni": [
+        "un tabel pivot",
+        "o simplă sortare",
+        "o singură funcție IF",
+        "un grafic colorat"
+       ],
+       "corect": 0,
+       "explicatie": "Tabelul pivot grupează și însumează automat."
+      },
+      {
+       "intrebare": "Sortarea unui tabel păstrează:",
+       "optiuni": [
+        "legătura dintre celulele aceluiași rând",
+        "doar coloana sortată",
+        "doar antetul",
+        "doar formulele"
+       ],
+       "corect": 0,
+       "explicatie": "Altfel rândurile și-ar amesteca datele."
+      },
+      {
+       "intrebare": "Diferența dintre filtrare și sortare este că:",
+       "optiuni": [
+        "filtrarea ascunde rânduri, iar sortarea le reordonează",
+        "sunt identice",
+        "filtrarea șterge date",
+        "sortarea ascunde coloane"
+       ],
+       "corect": 0,
+       "explicatie": "Ele răspund la nevoi diferite."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tic10-c6",
+   "titlu": "Tehnici algoritmice",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "tic10-13",
+     "titlu": "Structuri de decizie în algoritmi",
+     "rezumat": "Un algoritm rezolvă o problemă printr-o succesiune finită de pași. Pe lângă structura secvențială (pași unul după altul), algoritmii folosesc structura de decizie (alternativă), care alege ce pași se execută în funcție de o condiție. În pseudocod: DACĂ condiție ATUNCI pași1 ALTFEL pași2. Condiția este o expresie logică ce dă „adevărat” sau „fals”. Deciziile pot fi simple (doar ATUNCI, fără ALTFEL), duble (ATUNCI și ALTFEL) sau multiple (mai multe cazuri: DACĂ … ALTFEL DACĂ … ALTFEL). Ele pot fi și imbricate — o decizie în interiorul alteia. Exemple clasice: stabilirea celui mai mare dintre două numere sau clasificarea unei note în „promovat/respins”. Expresiile logice folosesc operatorii de comparație și operatorii ȘI, SAU, NU. Reprezentarea grafică a deciziei în schema logică este rombul, cu două ramuri de ieșire (DA/NU). O eroare frecventă este acoperirea incompletă a cazurilor sau condițiile suprapuse; de aceea se verifică dacă orice situație posibilă intră pe exact o ramură. Structura de decizie este ceea ce face un algoritm capabil să se adapteze la date diferite.",
+     "ideiCheie": [
+      "Structura de decizie alege pașii în funcție de o condiție logică.",
+      "În pseudocod: DACĂ condiție ATUNCI … ALTFEL …",
+      "Deciziile pot fi simple, duble, multiple sau imbricate.",
+      "În schema logică, decizia se reprezintă printr-un romb cu ramuri DA/NU."
+     ],
+     "termeni": [
+      {
+       "t": "structură de decizie",
+       "d": "structură care alege pașii de executat în funcție de o condiție"
+      },
+      {
+       "t": "condiție",
+       "d": "expresie logică ce poate fi adevărată sau falsă"
+      },
+      {
+       "t": "pseudocod",
+       "d": "descrierea unui algoritm în limbaj apropiat de cel natural, dar structurat"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce face o structură de decizie?",
+       "v": "Alege pașii de executat în funcție de o condiție."
+      },
+      {
+       "f": "Cum se scrie o decizie în pseudocod?",
+       "v": "DACĂ condiție ATUNCI … ALTFEL …"
+      },
+      {
+       "f": "Prin ce figură se reprezintă decizia în schema logică?",
+       "v": "Prin romb, cu ramuri DA și NU."
+      },
+      {
+       "f": "Ce valori poate lua o condiție?",
+       "v": "Adevărat sau fals."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Structura de decizie dintr-un algoritm:",
+       "optiuni": [
+        "alege pașii în funcție de o condiție",
+        "repetă pașii de un număr de ori",
+        "execută pașii mereu în aceeași ordine",
+        "oprește algoritmul"
+       ],
+       "corect": 0,
+       "explicatie": "Ea face algoritmul să se adapteze la date."
+      },
+      {
+       "intrebare": "În schema logică, decizia se reprezintă prin:",
+       "optiuni": [
+        "romb",
+        "dreptunghi",
+        "oval",
+        "paralelogram"
+       ],
+       "corect": 0,
+       "explicatie": "Are două ramuri de ieșire: DA și NU."
+      },
+      {
+       "intrebare": "O condiție dintr-un algoritm poate fi:",
+       "optiuni": [
+        "adevărată sau falsă",
+        "doar un număr",
+        "doar un text",
+        "mereu adevărată"
+       ],
+       "corect": 0,
+       "explicatie": "Pe baza ei se alege ramura de executat."
+      },
+      {
+       "intrebare": "Expresia „nota ≥ 5” este:",
+       "optiuni": [
+        "o condiție (expresie logică)",
+        "o secvență",
+        "o repetiție",
+        "o eroare"
+       ],
+       "corect": 0,
+       "explicatie": "Ea decide, de exemplu, „promovat/respins”."
+      }
+     ]
+    },
+    {
+     "id": "tic10-14",
+     "titlu": "Tablouri (vectori) și prelucrarea colecțiilor",
+     "rezumat": "Când un algoritm lucrează cu multe valori de același fel — notele unei clase, temperaturile unei luni — nu putem folosi câte o variabilă pentru fiecare. Tabloul unidimensional (vectorul) este o colecție ordonată de elemente de același tip, păstrate sub un singur nume; fiecare element se accesează printr-un indice (o poziție), de exemplu nota[3]. Vectorul are o dimensiune (numărul de elemente). Prelucrarea unui vector se face, aproape întotdeauna, cu o structură repetitivă care parcurge elementele de la primul la ultimul. Operații tipice: citirea și afișarea tuturor elementelor, calculul sumei și al mediei, găsirea minimului și a maximului, numărarea elementelor care respectă o condiție, căutarea unei valori. Aceste tipare (parcurgere, acumulare, căutare) revin în nenumărate probleme. Tabloul bidimensional (matricea) organizează datele pe două dimensiuni, rânduri și coloane, ca un tabel — potrivit, de exemplu, pentru catalogul unei clase (elevi × materii). Accesul se face cu doi indici. Structurile de date potrivite fac algoritmii mai simpli și mai clari; alegerea lor este o parte importantă a gândirii computaționale.",
+     "ideiCheie": [
+      "Vectorul este o colecție ordonată de elemente de același tip, sub un singur nume.",
+      "Fiecare element se accesează printr-un indice (o poziție).",
+      "Vectorul se prelucrează parcurgându-l cu o structură repetitivă.",
+      "Matricea (tabloul bidimensional) organizează datele pe rânduri și coloane."
+     ],
+     "termeni": [
+      {
+       "t": "tablou",
+       "d": "colecție ordonată de elemente de același tip, accesate prin indice"
+      },
+      {
+       "t": "indice",
+       "d": "poziția unui element într-un tablou"
+      },
+      {
+       "t": "matrice",
+       "d": "tablou bidimensional, cu elemente organizate pe rânduri și coloane"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este un vector (tablou unidimensional)?",
+       "v": "O colecție ordonată de elemente de același tip, sub un singur nume."
+      },
+      {
+       "f": "Cum se accesează un element dintr-un vector?",
+       "v": "Prin indicele (poziția) său, de exemplu nota[3]."
+      },
+      {
+       "f": "Cum se prelucrează, de obicei, un vector?",
+       "v": "Parcurgându-l cu o structură repetitivă."
+      },
+      {
+       "f": "Ce este o matrice?",
+       "v": "Un tablou bidimensional, cu date pe rânduri și coloane."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Un vector permite:",
+       "optiuni": [
+        "păstrarea mai multor valori de același tip sub un singur nume",
+        "o singură valoare",
+        "doar text",
+        "doar două valori"
+       ],
+       "corect": 0,
+       "explicatie": "Elementele se accesează prin indice."
+      },
+      {
+       "intrebare": "Un element dintr-un vector se accesează prin:",
+       "optiuni": [
+        "indicele său (poziția)",
+        "culoare",
+        "nume propriu",
+        "dimensiune"
+       ],
+       "corect": 0,
+       "explicatie": "De exemplu, nota[3] este al treilea element."
+      },
+      {
+       "intrebare": "Suma elementelor unui vector se calculează, de regulă:",
+       "optiuni": [
+        "parcurgând vectorul cu o structură repetitivă",
+        "printr-o singură decizie",
+        "fără a parcurge elementele",
+        "doar pentru primul element"
+       ],
+       "corect": 0,
+       "explicatie": "Se acumulează valorile pe parcurgere."
+      },
+      {
+       "intrebare": "Un tablou bidimensional (matrice) organizează datele:",
+       "optiuni": [
+        "pe rânduri și coloane",
+        "pe o singură linie",
+        "fără ordine",
+        "doar ca text"
+       ],
+       "corect": 0,
+       "explicatie": "Accesul se face cu doi indici."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tic10-c5",
+   "titlu": "Baze de date relaționale",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "tic10-15",
+     "titlu": "Modelul relațional: tabele, chei și relații",
+     "rezumat": "O bază de date relațională organizează informația în tabele legate între ele. Fiecare tabel descrie o singură categorie de lucruri (elevi, cărți, comenzi): rândurile sunt înregistrări, coloanele sunt câmpuri (atribute). Un câmp special, cheia primară, identifică unic fiecare înregistrare (de exemplu un cod de elev), astfel încât să nu existe confuzii între rânduri. Legăturile dintre tabele se fac prin chei externe: un câmp dintr-un tabel care trimite la cheia primară a altui tabel. De exemplu, tabelul „Împrumuturi” conține codul cititorului (cheie externă spre tabelul „Cititori”) și codul cărții (cheie externă spre „Cărți”). Astfel, în loc să repetăm datele cititorului la fiecare împrumut, le păstrăm o singură dată și le legăm. Avantajul modelului relațional este eliminarea redundanței: fiecare informație se scrie o singură dată, la un singur loc. Asta reduce spațiul, dar mai ales previne contradicțiile — dacă un cititor își schimbă adresa, ea se modifică într-un singur rând, nu în sute de împrumuturi. Interogările pot apoi combina tabelele legate pentru a răspunde la întrebări complexe.",
+     "ideiCheie": [
+      "Baza de date relațională organizează informația în tabele legate.",
+      "Rândurile sunt înregistrări, coloanele sunt câmpuri.",
+      "Cheia primară identifică unic fiecare înregistrare.",
+      "Cheia externă leagă un tabel de cheia primară a altuia, eliminând repetarea datelor."
+     ],
+     "termeni": [
+      {
+       "t": "cheie primară",
+       "d": "câmpul care identifică unic fiecare înregistrare dintr-un tabel"
+      },
+      {
+       "t": "cheie externă",
+       "d": "câmp care trimite la cheia primară a altui tabel, creând o legătură"
+      },
+      {
+       "t": "înregistrare",
+       "d": "un rând dintr-un tabel, care descrie un singur element"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este cheia primară?",
+       "v": "Câmpul care identifică unic fiecare înregistrare dintr-un tabel."
+      },
+      {
+       "f": "Ce face o cheie externă?",
+       "v": "Leagă un tabel de cheia primară a altui tabel."
+      },
+      {
+       "f": "Ce sunt rândurile și coloanele unui tabel?",
+       "v": "Rândurile sunt înregistrări, coloanele sunt câmpuri."
+      },
+      {
+       "f": "Ce avantaj aduce modelul relațional?",
+       "v": "Elimină repetarea datelor: fiecare informație se scrie o singură dată."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Cheia primară a unui tabel:",
+       "optiuni": [
+        "identifică unic fiecare înregistrare",
+        "leagă două tabele",
+        "este întotdeauna un text",
+        "se poate repeta"
+       ],
+       "corect": 0,
+       "explicatie": "Fără ea, rândurile nu s-ar putea distinge cu certitudine."
+      },
+      {
+       "intrebare": "Legătura dintre două tabele se realizează prin:",
+       "optiuni": [
+        "o cheie externă",
+        "o formulă",
+        "un filtru",
+        "un grafic"
+       ],
+       "corect": 0,
+       "explicatie": "Ea trimite la cheia primară a celuilalt tabel."
+      },
+      {
+       "intrebare": "Într-un tabel, un rând reprezintă:",
+       "optiuni": [
+        "o înregistrare (un element)",
+        "un câmp",
+        "o cheie",
+        "o coloană"
+       ],
+       "corect": 0,
+       "explicatie": "Coloanele sunt câmpurile (atributele)."
+      },
+      {
+       "intrebare": "Avantajul principal al modelului relațional este:",
+       "optiuni": [
+        "eliminarea redundanței datelor",
+        "folosirea culorilor",
+        "viteza de tastare",
+        "afișarea graficelor"
+       ],
+       "corect": 0,
+       "explicatie": "Fiecare informație se păstrează o singură dată."
+      }
+     ]
+    },
+    {
+     "id": "tic10-16",
+     "titlu": "Integritatea datelor și normalizarea",
+     "rezumat": "O bază de date este utilă doar dacă datele ei sunt corecte și consecvente. Integritatea datelor se asigură prin reguli: tipul potrivit al fiecărui câmp (număr, text, dată), câmpuri obligatorii care nu pot rămâne goale, valori unice acolo unde e nevoie (un CNP nu se poate repeta), domenii de valori admise (o notă între 1 și 10). Integritatea referențială cere ca o cheie externă să trimită mereu la o înregistrare care există. Redundanța — aceeași informație repetată în mai multe locuri — este dușmanul consecvenței, fiindcă duce la anomalii: dacă adresa unui client apare în sute de comenzi și se schimbă doar în unele, datele se contrazic. Normalizarea este procesul de organizare a tabelelor astfel încât fiecare informație să apară o singură dată, prin descompunerea tabelelor mari în tabele mai mici, legate prin chei. O bază bine proiectată economisește spațiu, previne erorile și ușurează întreținerea. Proiectarea corectă, făcută la început, valorează mai mult decât orice corecție ulterioară: schimbarea structurii unei baze pline cu date este costisitoare. De aceea se pornește de la întrebarea „ce categorii de lucruri descriu și cum se leagă între ele?”.",
+     "ideiCheie": [
+      "Integritatea se asigură prin tipuri, câmpuri obligatorii, valori unice și domenii admise.",
+      "Integritatea referențială: o cheie externă trimite mereu la o înregistrare existentă.",
+      "Redundanța duce la anomalii și contradicții între date.",
+      "Normalizarea organizează tabelele ca fiecare informație să apară o singură dată."
+     ],
+     "termeni": [
+      {
+       "t": "integritatea datelor",
+       "d": "ansamblul regulilor care mențin datele corecte și consecvente"
+      },
+      {
+       "t": "redundanță",
+       "d": "repetarea aceleiași informații în mai multe locuri"
+      },
+      {
+       "t": "normalizare",
+       "d": "organizarea tabelelor astfel încât o informație să apară o singură dată"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este integritatea datelor?",
+       "v": "Ansamblul regulilor care mențin datele corecte și consecvente."
+      },
+      {
+       "f": "De ce este problematică redundanța?",
+       "v": "Duce la contradicții când o informație se schimbă doar în unele locuri."
+      },
+      {
+       "f": "Ce este normalizarea?",
+       "v": "Organizarea tabelelor ca fiecare informație să apară o singură dată."
+      },
+      {
+       "f": "Ce cere integritatea referențială?",
+       "v": "Ca o cheie externă să trimită mereu la o înregistrare existentă."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Repetarea aceleiași informații în mai multe locuri se numește:",
+       "optiuni": [
+        "redundanță",
+        "normalizare",
+        "interogare",
+        "cheie primară"
+       ],
+       "corect": 0,
+       "explicatie": "Ea poate duce la date contradictorii."
+      },
+      {
+       "intrebare": "Normalizarea unei baze de date urmărește:",
+       "optiuni": [
+        "ca fiecare informație să apară o singură dată",
+        "creșterea redundanței",
+        "folosirea culorilor",
+        "ștergerea cheilor"
+       ],
+       "corect": 0,
+       "explicatie": "Astfel se evită anomaliile."
+      },
+      {
+       "intrebare": "O regulă care cere ca o notă să fie între 1 și 10 asigură:",
+       "optiuni": [
+        "integritatea datelor (domeniu de valori admise)",
+        "redundanța",
+        "o cheie externă",
+        "un tabel pivot"
+       ],
+       "corect": 0,
+       "explicatie": "Valorile în afara domeniului sunt respinse."
+      },
+      {
+       "intrebare": "Integritatea referențială este încălcată dacă:",
+       "optiuni": [
+        "o cheie externă trimite la o înregistrare care nu există",
+        "fiecare rând are cheie primară",
+        "datele sunt normalizate",
+        "câmpurile au tipuri corecte"
+       ],
+       "corect": 0,
+       "explicatie": "Legătura ar rămâne „suspendată”."
+      }
+     ]
+    }
+   ]
   }
  ],
  "teze": [
   {
    "semestru": 1,
    "test": [
+    {
+     "intrebare": "Referința $A$1 este:",
+     "optiuni": [
+      "absolută, nu se modifică la copiere",
+      "relativă",
+      "o eroare",
+      "un simplu text"
+     ],
+     "corect": 0,
+     "explicatie": "Dolarul fixează coloana și rândul."
+    },
+    {
+     "intrebare": "Funcția care adună un domeniu de celule este:",
+     "optiuni": [
+      "SUM",
+      "IF",
+      "COUNT",
+      "MAX"
+     ],
+     "corect": 0,
+     "explicatie": "De exemplu SUM(A1:A10)."
+    },
+    {
+     "intrebare": "Pentru a număra câte celule respectă un criteriu se folosește:",
+     "optiuni": [
+      "COUNTIF",
+      "SUM",
+      "AVERAGE",
+      "MIN"
+     ],
+     "corect": 0,
+     "explicatie": "COUNTIF numără condiționat."
+    },
+    {
+     "intrebare": "Filtrarea unui tabel:",
+     "optiuni": [
+      "ascunde temporar rândurile nerelevante",
+      "le șterge definitiv",
+      "reordonează coloanele",
+      "schimbă formulele"
+     ],
+     "corect": 0,
+     "explicatie": "Datele reapar la eliminarea filtrului."
+    },
+    {
+     "intrebare": "Structura de decizie într-un algoritm:",
+     "optiuni": [
+      "alege pașii în funcție de o condiție",
+      "repetă pașii",
+      "îi execută mereu la fel",
+      "oprește execuția"
+     ],
+     "corect": 0,
+     "explicatie": "În pseudocod: DACĂ … ATUNCI … ALTFEL …"
+    },
+    {
+     "intrebare": "Un vector (tablou) permite:",
+     "optiuni": [
+      "păstrarea mai multor valori de același tip sub un nume",
+      "o singură valoare",
+      "doar text",
+      "doar culori"
+     ],
+     "corect": 0,
+     "explicatie": "Elementele se accesează prin indice."
+    },
     {
      "intrebare": "O formulă într-o foaie de calcul începe cu:",
      "optiuni": [

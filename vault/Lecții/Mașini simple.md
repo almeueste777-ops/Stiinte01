@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Mașini simple
 
-[[Fizică (clasa a IX-a)|Fizică]] · [[Clasa a IX-a]] · lecția 8 din 9
+[[Fizică (clasa a IX-a)|Fizică]] · [[Clasa a IX-a]] · lecția 8 din 18
 
 **Capitolul:** Echilibru, presiune, aplicații — semestrul 2
 

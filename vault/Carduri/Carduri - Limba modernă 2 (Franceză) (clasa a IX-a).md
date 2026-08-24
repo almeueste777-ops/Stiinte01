@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Limba modernă 2 (Franceză) (clasa a IX-a)
 
-36 carduri pentru [[Limba modernă 2 (Franceză) (clasa a IX-a)|Limba modernă 2 (Franceză) (clasa a IX-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+72 carduri pentru [[Limba modernă 2 (Franceză) (clasa a IX-a)|Limba modernă 2 (Franceză) (clasa a IX-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/limba-moderna-2-franceza
 
@@ -82,6 +82,78 @@ De ce se notează substantivele cu articol?::Pentru a reține genul, care nu coi
 Ce înseamnă „actuellement”?::„În prezent”, nu „de fapt”.
 
 De ce ajută subtitrarea în franceză?::Pentru că leagă sunetul de forma scrisă, într-o ortografie puțin fonetică.
+
+Cu ce se acordă adjectivul posesiv francez?::Cu obiectul posedat, nu cu posesorul.
+
+Ce înseamnă „son livre"?::Și „cartea lui", și „cartea ei".
+
+Ce formă demonstrativă se folosește înaintea unei vocale?::„Cet": cet homme, cet ami.
+
+Cum se spune „prietena mea" înaintea vocalei?::„Mon amie", cu forma de masculin.
+
+Poate lipsi pronumele subiect în franceză?::Nu; verbul conjugat cere întotdeauna un subiect exprimat.
+
+Ce persoană cere verbul după „on"?::Persoana a III-a singular.
+
+Ce pronume se folosește după „avec"?::Forma tonică: „avec moi", „avec lui".
+
+Cum se spune „eu" ca răspuns scurt la „cine e"?::„Moi" (sau „c'est moi").
+
+Ce prepoziție se folosește înaintea unei persoane pentru „la"?::„Chez": chez moi, chez Marie.
+
+Cum se spune „în Franța"?::„En France", cu „en" înaintea unei țări feminine.
+
+Ce prepoziție cer orașele?::„À": à Paris, à Lyon.
+
+Cum se spune „primăvara"?::„Au printemps", excepție de la „en".
+
+Ce este un pronume reflexiv?::Pronumele (me, te, se…) care trimite acțiunea înapoi la subiect.
+
+Cum se spune „mă numesc"?::„Je m'appelle".
+
+Ce devin „me, te, se" înaintea unei vocale?::„M', t', s'": je m'habille.
+
+Cum se face negația la „je me lève"?::„Je ne me lève pas".
+
+Ce înseamnă „il y a"?::„Este, sunt, se află"; e invariabilă.
+
+Ce exprimă „il faut"?::Necesitatea: „trebuie".
+
+Cum se spune „e frig"?::„Il fait froid".
+
+Ce expresie se folosește pentru oră?::„Il est": „il est deux heures".
+
+Cum se formează viitorul apropiat?::Cu „aller" la prezent plus infinitivul verbului.
+
+Care sunt formele lui „aller" la prezent?::Je vais, tu vas, il va, nous allons, vous allez, ils vont.
+
+Cum se spune „o să plec"?::„Je vais partir".
+
+Cum se face negația la viitorul apropiat?::„Ne… pas" încadrează „aller": „je ne vais pas partir".
+
+Cum se spune „ochii" în franceză?::„Les yeux".
+
+Se acordă culorile în franceză?::Da, ca adjectivele: „une robe verte".
+
+Ce culori nu schimbă forma la feminin?::Cele terminate deja în „e": rouge, jaune.
+
+Ce înseamnă verbul „porter"?::„A purta" (haine): „elle porte un manteau".
+
+Cum se cere nota de plată?::„L'addition, s'il vous plaît".
+
+Ce articol se folosește pentru „niște pâine"?::Partitivul: „du pain".
+
+Cum se spune politicos „aș dori"?::„Je voudrais".
+
+Ce devine partitivul la negativ?::„De": „je ne prends pas de dessert".
+
+De ce e numită Franța „l'Hexagone"?::Din cauza formei aproximativ hexagonale a teritoriului continental.
+
+Ce fluviu străbate Parisul?::Sena (la Seine).
+
+Care sunt culorile drapelului francez?::Albastru, alb și roșu.
+
+Ce sărbătorește Franța la 14 iulie?::Căderea Bastiliei, din 1789 — ziua națională.
 
 ---
 

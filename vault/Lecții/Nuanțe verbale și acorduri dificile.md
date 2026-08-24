@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Nuanțe verbale și acorduri dificile
 
-[[Limba modernă 2 (Franceză) (clasa a XII-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XII-a]] · lecția 3 din 9
+[[Limba modernă 2 (Franceză) (clasa a XII-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XII-a]] · lecția 3 din 18
 
 **Capitolul:** Fraza complexă — semestrul 1
 

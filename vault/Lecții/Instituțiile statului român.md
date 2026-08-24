@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Instituțiile statului român
 
-[[Studii sociale (clasa a XIII-a)|Studii sociale]] · [[Clasa a XIII-a]] · lecția 2 din 9
+[[Studii sociale (clasa a XIII-a)|Studii sociale]] · [[Clasa a XIII-a]] · lecția 2 din 18
 
 **Capitolul:** Democrația în practică — semestrul 1
 

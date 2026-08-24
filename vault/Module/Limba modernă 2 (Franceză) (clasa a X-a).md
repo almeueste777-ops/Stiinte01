@@ -20,7 +20,7 @@ cssclasses: fisa
 
 Timpurile trecutului, pronumele, comunicarea în situații cotidiene și vocabularul vieții zilnice.
 
-## Capitole (3)
+## Capitole (6)
 
 ### Timpurile trecutului — semestrul 1
 
@@ -40,9 +40,27 @@ Timpurile trecutului, pronumele, comunicarea în situații cotidiene și vocabul
 - [[Descriere și povestire]]
 - [[Franța și francofonia]]
 
+### Comparație, adverbe, imperativ — semestrul 1
+
+- [[Comparativul și superlativul]]
+- [[Adverbele și formarea lor]]
+- [[Imperativul]]
+
+### Determinanți și legături — semestrul 2
+
+- [[Articolele contractate și prepozițiile „à și „de]]
+- [[Exprimarea timpului - depuis, il y a, pendant, dans]]
+- [[Adjectivele demonstrative și posesive (aprofundare)]]
+
+### Comunicare: teme cotidiene — semestrul 2
+
+- [[Călătoria și orientarea în oraș]]
+- [[Sănătatea și la medic]]
+- [[Sărbătorile și tradițiile franceze]]
+
 ## Exersare
-- [[Carduri - Limba modernă 2 (Franceză) (clasa a X-a)]] — 36 carduri
-- [[Test - Limba modernă 2 (Franceză) (clasa a X-a)]] — 54 întrebări
+- [[Carduri - Limba modernă 2 (Franceză) (clasa a X-a)]] — 72 carduri
+- [[Test - Limba modernă 2 (Franceză) (clasa a X-a)]] — 90 întrebări
 
 ## Legături
 - [[Limba modernă 2 (Franceză)|Limba modernă 2 (Franceză)]]

@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Cronicarii și Dimitrie Cantemir
 
-[[Limba și literatura română (clasa a XI-a)|Limba și literatura română]] · [[Clasa a XI-a]] · lecția 2 din 9
+[[Limba și literatura română (clasa a XI-a)|Limba și literatura română]] · [[Clasa a XI-a]] · lecția 2 din 20
 
 **Capitolul:** Începuturile culturii scrise — semestrul 1
 

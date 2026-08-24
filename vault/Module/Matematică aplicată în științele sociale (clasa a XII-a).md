@@ -20,7 +20,7 @@ cssclasses: fisa
 
 Modele matematice pentru decizie: matematici financiare, sondaje și eroare, teoria alegerii sociale, grafuri și rețele.
 
-## Capitole (3)
+## Capitole (6)
 
 ### Matematici financiare — semestrul 1
 
@@ -40,9 +40,27 @@ Modele matematice pentru decizie: matematici financiare, sondaje și eroare, teo
 - [[Algoritmi, date, societate]]
 - [[Sinteză - gândirea cantitativă în viața publică]]
 
+### Progresii și matematici financiare — semestrul 1
+
+- [[Progresii aritmetice și geometrice]]
+- [[Amortizarea creditului și anuități]]
+- [[Actualizare și evaluarea investițiilor]]
+
+### Alegere socială și repartizare — semestrul 2
+
+- [[Repartizarea proporțională a mandatelor]]
+- [[Împărțirea echitabilă]]
+- [[Puterea de vot în coaliții]]
+
+### Modele de decizie și incertitudine — semestrul 2
+
+- [[Arbori de decizie și valoarea așteptată]]
+- [[Riscul - variație, diversificare, decizie]]
+- [[Optimizare și alocarea resurselor]]
+
 ## Exersare
-- [[Carduri - Matematică aplicată în științele sociale (clasa a XII-a)]] — 36 carduri
-- [[Test - Matematică aplicată în științele sociale (clasa a XII-a)]] — 54 întrebări
+- [[Carduri - Matematică aplicată în științele sociale (clasa a XII-a)]] — 72 carduri
+- [[Test - Matematică aplicată în științele sociale (clasa a XII-a)]] — 102 întrebări
 
 ## Legături
 - [[Matematică aplicată în științele sociale|Matematică aplicată în științele sociale]]

@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Statusuri și roluri
 
-[[Sociologie (clasa a XI-a)|Sociologie]] · [[Clasa a XI-a]] · lecția 5 din 14
+[[Sociologie (clasa a XI-a)|Sociologie]] · [[Clasa a XI-a]] · lecția 5 din 24
 
 **Capitolul:** Structura socială — semestrul 1
 

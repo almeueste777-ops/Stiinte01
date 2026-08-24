@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Plantele
 
-[[Biologie (clasa a X-a)|Biologie]] · [[Clasa a X-a]] · lecția 5 din 9
+[[Biologie (clasa a X-a)|Biologie]] · [[Clasa a X-a]] · lecția 5 din 18
 
 **Capitolul:** Diversitatea lumii vii — semestrul 1
 

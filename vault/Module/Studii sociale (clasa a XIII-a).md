@@ -20,7 +20,7 @@ cssclasses: fisa
 
 Competențe sociale și civice: democrația în practică, instituțiile statului, media și gândirea critică, proiectul civic.
 
-## Capitole (3)
+## Capitole (6)
 
 ### Democrația în practică — semestrul 1
 
@@ -40,9 +40,27 @@ Competențe sociale și civice: democrația în practică, instituțiile statulu
 - [[Planificarea și implementarea unui proiect civic]]
 - [[Evaluare, impact și continuitate]]
 
+### Probleme sociale contemporane — semestrul 1
+
+- [[Sărăcia și inegalitatea socială]]
+- [[Excluziunea socială și incluziunea]]
+- [[Migrația și mobilitatea populației]]
+
+### Mediu, dezvoltare durabilă, globalizare — semestrul 1
+
+- [[Problemele de mediu și schimbările climatice]]
+- [[Dezvoltarea durabilă și economia verde]]
+- [[Globalizarea și efectele ei]]
+
+### Politici publice și soluții — semestrul 2
+
+- [[Politicile publice - de la problemă la soluție]]
+- [[Statul bunăstării și protecția socială]]
+- [[Cetățean activ într-o lume globală]]
+
 ## Exersare
-- [[Carduri - Studii sociale (clasa a XIII-a)]] — 36 carduri
-- [[Test - Studii sociale (clasa a XIII-a)]] — 60 întrebări
+- [[Carduri - Studii sociale (clasa a XIII-a)]] — 72 carduri
+- [[Test - Studii sociale (clasa a XIII-a)]] — 108 întrebări
 
 ## Legături
 - [[Studii sociale|Studii sociale]]

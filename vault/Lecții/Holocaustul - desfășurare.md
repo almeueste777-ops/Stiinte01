@@ -10,7 +10,7 @@ clasa: "a XI-a"
 ---
 # Holocaustul: desfășurare
 
-[[Istoria evreilor. Holocaustul (clasa a XI-a)|Istoria evreilor. Holocaustul]] · [[Clasa a XI-a]] · lecția 5 din 9
+[[Istoria evreilor. Holocaustul (clasa a XI-a)|Istoria evreilor. Holocaustul]] · [[Clasa a XI-a]] · lecția 5 din 18
 
 **Capitolul:** Antisemitismul și Holocaustul — semestrul 1
 

@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Vocație, profesie, sens
 
-[[Religie (clasa a XIII-a)|Religie]] · [[Clasa a XIII-a]] · lecția 7 din 9
+[[Religie (clasa a XIII-a)|Religie]] · [[Clasa a XIII-a]] · lecția 7 din 18
 
 **Capitolul:** Alegerile vieții de adult — semestrul 2
 

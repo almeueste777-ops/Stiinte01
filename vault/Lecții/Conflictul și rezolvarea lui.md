@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Conflictul și rezolvarea lui
 
-[[Studii sociale (clasa a XI-a)|Studii sociale]] · [[Clasa a XI-a]] · lecția 7 din 9
+[[Studii sociale (clasa a XI-a)|Studii sociale]] · [[Clasa a XI-a]] · lecția 7 din 18
 
 **Capitolul:** Conflict, comunicare, comunitate — semestrul 2
 

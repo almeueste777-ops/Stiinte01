@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Economie și educație antreprenorială (clasa a XIII-a)
 
-73 întrebări din [[Economie și educație antreprenorială (clasa a XIII-a)|Economie și educație antreprenorială (clasa a XIII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+133 întrebări din [[Economie și educație antreprenorială (clasa a XIII-a)|Economie și educație antreprenorială (clasa a XIII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Costul de oportunitate al unei ore de învățat este:
 
@@ -585,7 +585,655 @@ cssclasses: test
 > 
 > Respectarea legii este obligație, nu responsabilitate socială suplimentară.
 
-### 49. Costul de oportunitate reprezintă:
+### 49. Produsul intern brut măsoară valoarea bunurilor și serviciilor finale produse:
+
+- a. pe teritoriul unei țări, indiferent de naționalitatea producătorilor
+- b. de cetățenii unei țări, oriunde s-ar afla
+- c. doar în sectorul public
+- d. doar pentru export
+
+> [!success]- Răspuns
+> **a. pe teritoriul unei țări, indiferent de naționalitatea producătorilor**
+> 
+> Criteriul PIB este teritoriul; al PNB, cetățenia factorilor.
+
+### 50. Pentru comparații corecte în timp se folosește:
+
+- a. PIB real, exprimat în prețuri constante
+- b. PIB nominal
+- c. PIB pe locuitor nominal
+- d. cifra de afaceri totală
+
+> [!success]- Răspuns
+> **a. PIB real, exprimat în prețuri constante**
+> 
+> PIB nominal poate crește doar din cauza prețurilor mai mari.
+
+### 51. În calculul PIB prin metoda cheltuielilor NU intră direct:
+
+- a. bunurile intermediare
+- b. consumul populației
+- c. investițiile
+- d. exportul net
+
+> [!success]- Răspuns
+> **a. bunurile intermediare**
+> 
+> Ele sunt deja cuprinse în valoarea bunurilor finale.
+
+### 52. Valoarea adăugată de un producător se obține scăzând din producție:
+
+- a. consumurile intermediare
+- b. salariile
+- c. impozitele
+- d. amortizarea
+
+> [!success]- Răspuns
+> **a. consumurile intermediare**
+> 
+> Însumarea valorii adăugate evită dubla înregistrare.
+
+### 53. Creșterea economică se măsoară, de regulă, prin:
+
+- a. creșterea PIB-ului real
+- b. creșterea PIB-ului nominal
+- c. scăderea șomajului
+- d. creșterea prețurilor
+
+> [!success]- Răspuns
+> **a. creșterea PIB-ului real**
+> 
+> Doar PIB-ul real elimină efectul inflației.
+
+### 54. Creșterea intensivă se obține prin:
+
+- a. folosirea mai productivă a factorilor de producție
+- b. folosirea unei cantități mai mari de factori
+- c. creșterea prețurilor
+- d. creșterea importurilor
+
+> [!success]- Răspuns
+> **a. folosirea mai productivă a factorilor de producție**
+> 
+> Ea este mai durabilă, fiindcă factorii sunt limitați.
+
+### 55. Indicele Dezvoltării Umane combină venitul cu:
+
+- a. speranța de viață și nivelul de educație
+- b. rata inflației și șomajul
+- c. exporturile și importurile
+- d. deficitul bugetar
+
+> [!success]- Răspuns
+> **a. speranța de viață și nivelul de educație**
+> 
+> De aceea el măsoară dezvoltarea, nu doar creșterea.
+
+### 56. Dezvoltarea durabilă înseamnă:
+
+- a. satisfacerea nevoilor prezentului fără a compromite generațiile viitoare
+- b. creștere economică cu orice preț
+- c. oprirea oricărei creșteri
+- d. maximizarea PIB-ului nominal
+
+> [!success]- Răspuns
+> **a. satisfacerea nevoilor prezentului fără a compromite generațiile viitoare**
+> 
+> Ea îmbină dimensiunea economică, socială și ecologică.
+
+### 57. Faza ciclului economic în care scade producția și crește șomajul este:
+
+- a. recesiunea
+- b. expansiunea
+- c. vârful
+- d. relansarea
+
+> [!success]- Răspuns
+> **a. recesiunea**
+> 
+> O recesiune profundă și prelungită devine criză.
+
+### 58. O recesiune este definită uzual ca:
+
+- a. scăderea PIB-ului real pe cel puțin două trimestre consecutive
+- b. orice scădere de preț
+- c. creșterea inflației
+- d. scăderea exporturilor
+
+> [!success]- Răspuns
+> **a. scăderea PIB-ului real pe cel puțin două trimestre consecutive**
+> 
+> Este o contracție a activității economice.
+
+### 59. În faza de expansiune crește, printre altele:
+
+- a. ocuparea și riscul de inflație
+- b. șomajul ciclic
+- c. numărul falimentelor
+- d. deflația
+
+> [!success]- Răspuns
+> **a. ocuparea și riscul de inflație**
+> 
+> Producția, veniturile și investițiile cresc.
+
+### 60. Politicile anticiclice presupun ca, în recesiune, statul să:
+
+- a. stimuleze cererea, de exemplu prin cheltuieli publice
+- b. reducă drastic cheltuielile
+- c. crească dobânzile
+- d. mărească impozitele
+
+> [!success]- Răspuns
+> **a. stimuleze cererea, de exemplu prin cheltuieli publice**
+> 
+> În expansiunea excesivă, dimpotrivă, temperează cererea.
+
+### 61. Bugetul de stat este deficitar atunci când:
+
+- a. cheltuielile publice depășesc veniturile
+- b. veniturile depășesc cheltuielile
+- c. veniturile egalează cheltuielile
+- d. nu se colectează impozite
+
+> [!success]- Răspuns
+> **a. cheltuielile publice depășesc veniturile**
+> 
+> Excedentul e situația inversă.
+
+### 62. Cea mai mare parte a veniturilor bugetare provine din:
+
+- a. impozite și taxe
+- b. amenzi
+- c. vânzarea de imobile
+- d. donații
+
+> [!success]- Răspuns
+> **a. impozite și taxe**
+> 
+> Ele sunt principala sursă de finanțare a statului.
+
+### 63. Datoria publică reprezintă:
+
+- a. totalul sumelor pe care statul le datorează creditorilor
+- b. deficitul unui singur an
+- c. cheltuielile cu educația
+- d. rezerva valutară
+
+> [!success]- Răspuns
+> **a. totalul sumelor pe care statul le datorează creditorilor**
+> 
+> Deficitele anuale, acumulate, o măresc.
+
+### 64. O funcție economică a bugetului de stat este:
+
+- a. redistribuirea veniturilor și stabilizarea economiei
+- b. fixarea prețurilor tuturor bunurilor
+- c. stabilirea salariilor din sectorul privat
+- d. eliminarea concurenței
+
+> [!success]- Răspuns
+> **a. redistribuirea veniturilor și stabilizarea economiei**
+> 
+> Prin cheltuieli și impozite, statul influențează economia.
+
+### 65. TVA-ul și accizele sunt impozite:
+
+- a. indirecte, cuprinse în prețul bunurilor
+- b. directe, pe venit
+- c. pe avere
+- d. pe profit
+
+> [!success]- Răspuns
+> **a. indirecte, cuprinse în prețul bunurilor**
+> 
+> Ele sunt suportate de consumatorul final.
+
+### 66. Într-un sistem de impozitare progresivă:
+
+- a. cota crește odată cu venitul
+- b. cota este aceeași pentru toți
+- c. cota scade la venituri mari
+- d. nu există impozit pe venit
+
+> [!success]- Răspuns
+> **a. cota crește odată cu venitul**
+> 
+> Cei cu venituri mari plătesc un procent mai mare.
+
+### 67. Principiile unui sistem fiscal bun (Adam Smith) includ:
+
+- a. echitatea, certitudinea, comoditatea și randamentul
+- b. inflația și șomajul
+- c. exportul și importul
+- d. cererea și oferta
+
+> [!success]- Răspuns
+> **a. echitatea, certitudinea, comoditatea și randamentul**
+> 
+> Ele privesc corectitudinea și eficiența colectării.
+
+### 68. Impozitele foarte mari pot avea ca efect nedorit:
+
+- a. descurajarea muncii și extinderea economiei „la negru”
+- b. creșterea automată a producției
+- c. eliminarea sigură a deficitului
+- d. scăderea prețurilor
+
+> [!success]- Răspuns
+> **a. descurajarea muncii și extinderea economiei „la negru”**
+> 
+> Există un arbitraj între venituri bugetare și stimulente.
+
+### 69. Politica monetară este condusă de:
+
+- a. banca centrală
+- b. guvern
+- c. parlament
+- d. băncile comerciale
+
+> [!success]- Răspuns
+> **a. banca centrală**
+> 
+> Politica fiscală, în schimb, este condusă de guvern.
+
+### 70. O politică fiscală expansionistă presupune:
+
+- a. creșterea cheltuielilor publice și/sau reducerea impozitelor
+- b. creșterea impozitelor și reducerea cheltuielilor
+- c. reducerea masei monetare
+- d. creșterea dobânzii de politică monetară
+
+> [!success]- Răspuns
+> **a. creșterea cheltuielilor publice și/sau reducerea impozitelor**
+> 
+> Ea stimulează cererea, dar mărește deficitul.
+
+### 71. Pentru a tempera o inflație ridicată, banca centrală, de regulă:
+
+- a. crește dobânda de politică monetară
+- b. scade dobânda
+- c. tipărește mai mulți bani
+- d. reduce rezervele minime obligatorii
+
+> [!success]- Răspuns
+> **a. crește dobânda de politică monetară**
+> 
+> Creditul mai scump temperează cererea.
+
+### 72. Instrumentele politicii fiscale sunt:
+
+- a. cheltuielile publice și impozitele
+- b. dobânda și rezervele minime
+- c. cursul de schimb
+- d. salariul minim din sectorul privat
+
+> [!success]- Răspuns
+> **a. cheltuielile publice și impozitele**
+> 
+> Dobânda și rezervele țin de politica monetară.
+
+### 73. Cererea este elastică atunci când coeficientul de elasticitate, în modul, este:
+
+- a. supraunitar
+- b. subunitar
+- c. egal cu zero
+- d. egal cu 1
+
+> [!success]- Răspuns
+> **a. supraunitar**
+> 
+> Cantitatea cerută reacționează puternic la preț.
+
+### 74. Un bun cu mulți substituenți are, de regulă, o cerere:
+
+- a. mai elastică
+- b. perfect inelastică
+- c. întotdeauna unitară
+- d. independentă de preț
+
+> [!success]- Răspuns
+> **a. mai elastică**
+> 
+> La scumpire, cumpărătorii trec ușor la înlocuitori.
+
+### 75. Pentru un bun cu cerere inelastică, o creștere a prețului:
+
+- a. mărește încasările totale
+- b. reduce încasările totale
+- c. nu schimbă încasările
+- d. desființează cererea
+
+> [!success]- Răspuns
+> **a. mărește încasările totale**
+> 
+> Scăderea cantității e mai mică decât creșterea prețului.
+
+### 76. Elasticitatea cererii față de venit este negativă în cazul:
+
+- a. bunurilor inferioare
+- b. bunurilor normale
+- c. bunurilor de lux
+- d. bunurilor complementare
+
+> [!success]- Răspuns
+> **a. bunurilor inferioare**
+> 
+> La creșterea venitului, cererea pentru ele scade.
+
+### 77. Economiile de scară înseamnă că, pe termen lung, costul mediu:
+
+- a. scade pe măsură ce crește producția
+- b. crește odată cu producția
+- c. rămâne constant mereu
+- d. este zero
+
+> [!success]- Răspuns
+> **a. scade pe măsură ce crește producția**
+> 
+> Ele explică avantajul de cost al firmelor mari.
+
+### 78. Pe termen lung, în teoria producției:
+
+- a. toți factorii de producție sunt variabili
+- b. toți factorii sunt ficși
+- c. doar munca e variabilă
+- d. doar capitalul e fix
+
+> [!success]- Răspuns
+> **a. toți factorii de producție sunt variabili**
+> 
+> De aceea firma poate schimba scara producției.
+
+### 79. Dezeconomiile de scară apar mai ales din cauza:
+
+- a. dificultăților de coordonare într-o organizație prea mare
+- b. reducerilor la achizițiile mari
+- c. specializării muncii
+- d. utilajelor eficiente
+
+> [!success]- Răspuns
+> **a. dificultăților de coordonare într-o organizație prea mare**
+> 
+> Peste un prag, costul mediu începe să crească.
+
+### 80. O sursă a economiilor de scară este:
+
+- a. repartizarea costurilor fixe pe mai multe unități produse
+- b. creșterea prețului materiilor prime
+- c. birocrația excesivă
+- d. scăderea cererii
+
+> [!success]- Răspuns
+> **a. repartizarea costurilor fixe pe mai multe unități produse**
+> 
+> Costul fix unitar scade când producția crește.
+
+### 81. Poluarea produsă de o fabrică, nesuportată de aceasta, este un exemplu de:
+
+- a. externalitate negativă
+- b. bun public
+- c. monopol natural
+- d. economie de scară
+
+> [!success]- Răspuns
+> **a. externalitate negativă**
+> 
+> Producătorul nu suportă întregul cost social.
+
+### 82. Apărarea națională este un exemplu de:
+
+- a. bun public, non-excludabil și non-rival
+- b. bun de lux
+- c. externalitate pozitivă
+- d. monopol privat
+
+> [!success]- Răspuns
+> **a. bun public, non-excludabil și non-rival**
+> 
+> De aceea este finanțată din impozite.
+
+### 83. Problema „pasagerului clandestin” explică de ce piața:
+
+- a. subproduce bunurile publice
+- b. supraproduce bunurile publice
+- c. elimină externalitățile
+- d. fixează prețuri corecte
+
+> [!success]- Răspuns
+> **a. subproduce bunurile publice**
+> 
+> Fiecare speră să beneficieze fără să plătească.
+
+### 84. Informația asimetrică apare atunci când:
+
+- a. o parte a tranzacției știe mai mult decât cealaltă
+- b. ambele părți știu totul
+- c. prețul este fixat de stat
+- d. nu există concurență
+
+> [!success]- Răspuns
+> **a. o parte a tranzacției știe mai mult decât cealaltă**
+> 
+> Exemple: piața mașinilor second-hand, asigurările.
+
+### 85. „Banca băncilor”, care emite moneda națională, este:
+
+- a. banca centrală
+- b. o bancă comercială
+- c. bursa de valori
+- d. trezoreria unei firme
+
+> [!success]- Răspuns
+> **a. banca centrală**
+> 
+> Ea conduce și politica monetară.
+
+### 86. Băncile comerciale creează monedă scripturală prin:
+
+- a. acordarea de credite din depozitele atrase
+- b. tipărirea de bancnote
+- c. baterea de monede
+- d. emiterea de titluri de stat
+
+> [!success]- Răspuns
+> **a. acordarea de credite din depozitele atrase**
+> 
+> Este mecanismul rezervelor fracționare.
+
+### 87. Multiplicatorul monetar este cu atât mai mare cu cât:
+
+- a. rata rezervelor obligatorii este mai mică
+- b. rata rezervelor obligatorii este mai mare
+- c. dobânda este mai mare
+- d. inflația este mai mare
+
+> [!success]- Răspuns
+> **a. rata rezervelor obligatorii este mai mică**
+> 
+> Băncile pot împrumuta o parte mai mare din depozite.
+
+### 88. Un instrument al băncii centrale este:
+
+- a. rezervele minime obligatorii
+- b. salariul minim
+- c. cota de TVA
+- d. prețul carburanților
+
+> [!success]- Răspuns
+> **a. rezervele minime obligatorii**
+> 
+> Alături de dobândă și de operațiunile pe piața deschisă.
+
+### 89. Cine cumpără o acțiune a unei firme devine:
+
+- a. coproprietar, cu drept la dividend
+- b. creditor al firmei, cu drept la dobândă
+- c. angajat al firmei
+- d. garant al datoriilor firmei
+
+> [!success]- Răspuns
+> **a. coproprietar, cu drept la dividend**
+> 
+> Obligațiunea, în schimb, este un titlu de creanță.
+
+### 90. O obligațiune aduce deținătorului, de regulă:
+
+- a. dobândă (cupon) și rambursarea la scadență
+- b. o parte din profit sub formă de dividend
+- c. dreptul de vot în adunarea generală
+- d. proprietatea asupra firmei
+
+> [!success]- Răspuns
+> **a. dobândă (cupon) și rambursarea la scadență**
+> 
+> Ea este un împrumut acordat emitentului.
+
+### 91. La bursa de valori, cursul unui titlu se formează:
+
+- a. din raportul dintre cerere și ofertă
+- b. prin decizia guvernului
+- c. prin tragere la sorți
+- d. la o valoare nominală fixă
+
+> [!success]- Răspuns
+> **a. din raportul dintre cerere și ofertă**
+> 
+> De aceea cursul poate crește sau scădea.
+
+### 92. Regula diversificării („nu pune toate ouăle în același coș”) urmărește:
+
+- a. reducerea riscului investiției
+- b. eliminarea impozitelor
+- c. creșterea garantată a câștigului
+- d. fixarea cursului
+
+> [!success]- Răspuns
+> **a. reducerea riscului investiției**
+> 
+> Un câștig potențial mai mare vine, de obicei, cu un risc mai mare.
+
+### 93. Globalizarea înseamnă, în primul rând:
+
+- a. creșterea interdependenței dintre economiile și societățile lumii
+- b. închiderea economiilor naționale
+- c. desființarea comerțului internațional
+- d. reducerea rolului tehnologiei
+
+> [!success]- Răspuns
+> **a. creșterea interdependenței dintre economiile și societățile lumii**
+> 
+> Mărfuri, capitaluri, oameni și informații circulă tot mai liber.
+
+### 94. O critică frecventă adusă globalizării este că:
+
+- a. poate adânci inegalitățile și presiunea asupra mediului
+- b. reduce întotdeauna prețurile la zero
+- c. elimină orice risc de criză
+- d. oprește progresul tehnologic
+
+> [!success]- Răspuns
+> **a. poate adânci inegalitățile și presiunea asupra mediului**
+> 
+> Beneficiile ei sunt însoțite de costuri reale.
+
+### 95. Dezvoltarea durabilă îmbină dimensiunea:
+
+- a. economică, socială și ecologică
+- b. doar economică
+- c. doar ecologică
+- d. doar politică
+
+> [!success]- Răspuns
+> **a. economică, socială și ecologică**
+> 
+> Ea privește și nevoile generațiilor viitoare.
+
+### 96. Provocări precum schimbările climatice și inegalitatea globală cer, de regulă:
+
+- a. cooperare internațională
+- b. soluții strict naționale
+- c. renunțarea la orice reglementare
+- d. creșterea PIB-ului cu orice preț
+
+> [!success]- Răspuns
+> **a. cooperare internațională**
+> 
+> Nicio țară nu le poate rezolva singură.
+
+### 97. Produsul intern brut măsoară valoarea bunurilor și serviciilor finale produse:
+
+- a. pe teritoriul unei țări într-un an
+- b. de cetățenii unei țări, oriunde s-ar afla
+- c. doar în industrie
+- d. doar pentru export
+
+> [!success]- Răspuns
+> **a. pe teritoriul unei țări într-un an**
+> 
+> Criteriul PIB este teritoriul.
+
+### 98. Pentru comparații corecte în timp se folosește:
+
+- a. PIB real, în prețuri constante
+- b. PIB nominal
+- c. cifra de afaceri totală
+- d. masa monetară
+
+> [!success]- Răspuns
+> **a. PIB real, în prețuri constante**
+> 
+> PIB nominal poate crește doar din cauza prețurilor.
+
+### 99. Faza ciclului economic în care scade producția și crește șomajul este:
+
+- a. recesiunea
+- b. expansiunea
+- c. vârful
+- d. relansarea
+
+> [!success]- Răspuns
+> **a. recesiunea**
+> 
+> O recesiune profundă și prelungită devine criză.
+
+### 100. Cererea este elastică atunci când coeficientul de elasticitate, în modul, este:
+
+- a. supraunitar
+- b. subunitar
+- c. egal cu zero
+- d. egal cu 1
+
+> [!success]- Răspuns
+> **a. supraunitar**
+> 
+> Cantitatea cerută reacționează puternic la preț.
+
+### 101. Economiile de scară înseamnă că, pe termen lung, costul mediu:
+
+- a. scade pe măsură ce crește producția
+- b. crește mereu
+- c. rămâne constant
+- d. devine zero
+
+> [!success]- Răspuns
+> **a. scade pe măsură ce crește producția**
+> 
+> Ele explică avantajul de cost al firmelor mari.
+
+### 102. Poluarea nesuportată de firma care o produce este un exemplu de:
+
+- a. externalitate negativă
+- b. bun public
+- c. economie de scară
+- d. monopol natural
+
+> [!success]- Răspuns
+> **a. externalitate negativă**
+> 
+> Este un eșec al pieței.
+
+### 103. Costul de oportunitate reprezintă:
 
 - a. valoarea celei mai bune alternative sacrificate
 - b. costul total de producție
@@ -597,7 +1245,7 @@ cssclasses: test
 > 
 > Orice alegere sacrifică o alternativă.
 
-### 50. Un punct din interiorul frontierei posibilităților de producție arată:
+### 104. Un punct din interiorul frontierei posibilităților de producție arată:
 
 - a. utilizarea incompletă a resurselor
 - b. creștere economică
@@ -609,7 +1257,7 @@ cssclasses: test
 > 
 > Punctele de pe curbă corespund utilizării depline.
 
-### 51. Legea utilității marginale descrescânde spune că:
+### 105. Legea utilității marginale descrescânde spune că:
 
 - a. satisfacția adusă de fiecare unitate suplimentară scade
 - b. utilitatea totală scade
@@ -621,7 +1269,7 @@ cssclasses: test
 > 
 > Utilitatea totală poate crește în continuare, dar tot mai încet.
 
-### 52. Creșterea venitului consumatorilor, pentru un bun normal, determină:
+### 106. Creșterea venitului consumatorilor, pentru un bun normal, determină:
 
 - a. deplasarea curbei cererii spre dreapta
 - b. deplasarea pe aceeași curbă
@@ -633,7 +1281,7 @@ cssclasses: test
 > 
 > Venitul este un factor extra-preț.
 
-### 53. Cererea pentru bunuri de strictă necesitate este de regulă:
+### 107. Cererea pentru bunuri de strictă necesitate este de regulă:
 
 - a. inelastică
 - b. elastică
@@ -645,7 +1293,7 @@ cssclasses: test
 > 
 > Consumul nu poate fi amânat și nu are substituenți apropiați.
 
-### 54. Utilajele fac parte din:
+### 108. Utilajele fac parte din:
 
 - a. capitalul fix
 - b. capitalul circulant
@@ -657,7 +1305,7 @@ cssclasses: test
 > 
 > Se consumă treptat, prin amortizare.
 
-### 55. Costul marginal este:
+### 109. Costul marginal este:
 
 - a. sporul de cost adus de ultima unitate produsă
 - b. costul total împărțit la cantitate
@@ -669,7 +1317,7 @@ cssclasses: test
 > 
 > Costul mediu se obține prin împărțire la cantitate.
 
-### 56. La pragul de rentabilitate:
+### 110. La pragul de rentabilitate:
 
 - a. veniturile totale egalează costurile totale
 - b. profitul este maxim
@@ -681,7 +1329,7 @@ cssclasses: test
 > 
 > Sub prag se înregistrează pierdere, peste el, profit.
 
-### 57. Profitul economic diferă de cel contabil prin faptul că:
+### 111. Profitul economic diferă de cel contabil prin faptul că:
 
 - a. include și costurile implicite
 - b. exclude costurile variabile
@@ -693,7 +1341,7 @@ cssclasses: test
 > 
 > Costul de oportunitate al resurselor proprii este un cost implicit.
 
-### 58. Un preț plafon fixat sub echilibru produce:
+### 112. Un preț plafon fixat sub echilibru produce:
 
 - a. deficit
 - b. excedent
@@ -705,7 +1353,7 @@ cssclasses: test
 > 
 > Cantitatea cerută crește, iar cea oferită scade.
 
-### 59. Îmbunătățirea tehnologiei deplasează curba ofertei:
+### 113. Îmbunătățirea tehnologiei deplasează curba ofertei:
 
 - a. spre dreapta
 - b. spre stânga
@@ -717,7 +1365,7 @@ cssclasses: test
 > 
 > Costurile scad, deci la fiecare preț se oferă mai mult.
 
-### 60. Atomicitatea pieței înseamnă că:
+### 114. Atomicitatea pieței înseamnă că:
 
 - a. niciun agent nu poate influența singur prețul
 - b. produsele sunt omogene
@@ -729,7 +1377,79 @@ cssclasses: test
 > 
 > Celelalte variante sunt tot condiții ale concurenței perfecte, dar diferite.
 
-### 61. Funcția banilor de a transfera putere de cumpărare în viitor este:
+### 115. Bugetul de stat este deficitar atunci când:
+
+- a. cheltuielile publice depășesc veniturile
+- b. veniturile depășesc cheltuielile
+- c. veniturile egalează cheltuielile
+- d. nu se percep impozite
+
+> [!success]- Răspuns
+> **a. cheltuielile publice depășesc veniturile**
+> 
+> Deficitul crește datoria publică.
+
+### 116. TVA-ul și accizele sunt impozite:
+
+- a. indirecte, cuprinse în prețul bunurilor
+- b. directe, pe venit
+- c. pe avere
+- d. pe profit
+
+> [!success]- Răspuns
+> **a. indirecte, cuprinse în prețul bunurilor**
+> 
+> Ele sunt suportate de consumatorul final.
+
+### 117. Politica monetară este condusă de:
+
+- a. banca centrală
+- b. guvern
+- c. parlament
+- d. băncile comerciale
+
+> [!success]- Răspuns
+> **a. banca centrală**
+> 
+> Politica fiscală este condusă de guvern.
+
+### 118. Băncile comerciale creează monedă scripturală prin:
+
+- a. acordarea de credite din depozitele atrase
+- b. tipărirea de bancnote
+- c. baterea de monede
+- d. emiterea de titluri de stat
+
+> [!success]- Răspuns
+> **a. acordarea de credite din depozitele atrase**
+> 
+> Este mecanismul rezervelor fracționare.
+
+### 119. Cine cumpără o acțiune a unei firme devine:
+
+- a. coproprietar, cu drept la dividend
+- b. creditor, cu drept la dobândă
+- c. angajat al firmei
+- d. garant al datoriilor firmei
+
+> [!success]- Răspuns
+> **a. coproprietar, cu drept la dividend**
+> 
+> Obligațiunea, în schimb, e un titlu de creanță.
+
+### 120. Dezvoltarea durabilă îmbină dimensiunea:
+
+- a. economică, socială și ecologică
+- b. doar economică
+- c. doar politică
+- d. doar ecologică
+
+> [!success]- Răspuns
+> **a. economică, socială și ecologică**
+> 
+> Ea privește și nevoile generațiilor viitoare.
+
+### 121. Funcția banilor de a transfera putere de cumpărare în viitor este:
 
 - a. rezerva valorii
 - b. mijloc de schimb
@@ -741,7 +1461,7 @@ cssclasses: test
 > 
 > Inflația ridicată slăbește tocmai această funcție.
 
-### 62. Inflația provocată de scumpirea materiilor prime este inflație:
+### 122. Inflația provocată de scumpirea materiilor prime este inflație:
 
 - a. prin costuri
 - b. prin cerere
@@ -753,7 +1473,7 @@ cssclasses: test
 > 
 > Presiunea vine din partea ofertei, nu a cererii.
 
-### 63. Obiectivul principal al băncii centrale este:
+### 123. Obiectivul principal al băncii centrale este:
 
 - a. stabilitatea prețurilor
 - b. maximizarea profitului bancar
@@ -765,7 +1485,7 @@ cssclasses: test
 > 
 > Instrumentul principal este rata dobânzii de politică monetară.
 
-### 64. Rata șomajului se calculează raportând șomerii la:
+### 124. Rata șomajului se calculează raportând șomerii la:
 
 - a. populația activă
 - b. populația totală
@@ -777,7 +1497,7 @@ cssclasses: test
 > 
 > Populația activă cuprinde ocupații și șomerii.
 
-### 65. Șomajul provocat de necorespondența dintre calificări și cererea de muncă este:
+### 125. Șomajul provocat de necorespondența dintre calificări și cererea de muncă este:
 
 - a. structural
 - b. fricțional
@@ -789,7 +1509,7 @@ cssclasses: test
 > 
 > Este cel mai greu de redus, fiindcă necesită recalificare.
 
-### 66. Salariul real scade când:
+### 126. Salariul real scade când:
 
 - a. prețurile cresc mai repede decât salariul nominal
 - b. salariul nominal crește
@@ -801,7 +1521,7 @@ cssclasses: test
 > 
 > Contează puterea de cumpărare, nu suma nominală.
 
-### 67. Teoria avantajului comparativ aparține lui:
+### 127. Teoria avantajului comparativ aparține lui:
 
 - a. David Ricardo
 - b. Adam Smith
@@ -813,7 +1533,7 @@ cssclasses: test
 > 
 > Ea explică de ce schimbul e avantajos chiar între parteneri inegali.
 
-### 68. Deprecierea monedei naționale:
+### 128. Deprecierea monedei naționale:
 
 - a. ieftinește exporturile și scumpește importurile
 - b. scumpește exporturile
@@ -825,7 +1545,7 @@ cssclasses: test
 > 
 > De aceea poate stimula temporar exportul.
 
-### 69. Treapta de integrare care adaugă tariful vamal extern comun este:
+### 129. Treapta de integrare care adaugă tariful vamal extern comun este:
 
 - a. uniunea vamală
 - b. zona de liber schimb
@@ -837,7 +1557,7 @@ cssclasses: test
 > 
 > Piața comună adaugă libera circulație a factorilor de producție.
 
-### 70. „Distrugerea creatoare” este un concept al lui:
+### 130. „Distrugerea creatoare” este un concept al lui:
 
 - a. Joseph Schumpeter
 - b. Adam Smith
@@ -849,7 +1569,7 @@ cssclasses: test
 > 
 > Inovația desființează piețe vechi și creează altele noi.
 
-### 71. În analiza SWOT, punctele tari și cele slabe sunt factori:
+### 131. În analiza SWOT, punctele tari și cele slabe sunt factori:
 
 - a. interni
 - b. externi
@@ -861,7 +1581,7 @@ cssclasses: test
 > 
 > Oportunitățile și amenințările sunt factori externi.
 
-### 72. Documentul financiar care decide supraviețuirea pe termen scurt a unei firme este:
+### 132. Documentul financiar care decide supraviețuirea pe termen scurt a unei firme este:
 
 - a. fluxul de numerar
 - b. contul de profit și pierdere
@@ -873,7 +1593,7 @@ cssclasses: test
 > 
 > O firmă profitabilă poate da faliment din lipsă de lichidități.
 
-### 73. Cei patru P ai mixului de marketing sunt:
+### 133. Cei patru P ai mixului de marketing sunt:
 
 - a. produs, preț, plasare, promovare
 - b. profit, piață, personal, producție

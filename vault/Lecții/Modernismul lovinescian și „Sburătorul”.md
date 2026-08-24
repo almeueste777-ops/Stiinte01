@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Modernismul lovinescian și „Sburătorul”
 
-[[Limba și literatura română (clasa a XII-a)|Limba și literatura română]] · [[Clasa a XII-a]] · lecția 1 din 10
+[[Limba și literatura română (clasa a XII-a)|Limba și literatura română]] · [[Clasa a XII-a]] · lecția 1 din 20
 
 **Capitolul:** Orientări în literatura interbelică — semestrul 1
 

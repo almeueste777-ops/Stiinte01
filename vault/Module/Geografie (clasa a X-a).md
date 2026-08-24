@@ -21,7 +21,7 @@ cssclasses: fisa
 
 Geografie umană și economică: populația, așezările, resursele, agricultura, industria, serviciile și harta politică a lumii.
 
-## Capitole (4)
+## Capitole (8)
 
 ### Populația — semestrul 1
 
@@ -44,9 +44,32 @@ Geografie umană și economică: populația, așezările, resursele, agricultura
 - [[Statele lumii și organizațiile internaționale]]
 - [[Decalaje de dezvoltare și indicatori]]
 
+### Diversitatea și structura populației — semestrul 1
+
+- [[Rasele umane, limbile și religiile]]
+- [[Structura pe vârste, îmbătrânirea și dividendul demografic]]
+- [[Politicile demografice]]
+
+### Așezările omenești (aprofundare) — semestrul 1
+
+- [[Funcțiile și structura internă a orașului]]
+- [[Rețeaua de așezări și ierarhia urbană]]
+
+### Economia mondială (aprofundare) — semestrul 2
+
+- [[Marile sisteme și regiuni agricole ale lumii]]
+- [[Tipurile de industrie și regiunile industriale]]
+- [[Sistemul mondial de transporturi]]
+
+### Comerț, turism și globalizare — semestrul 2
+
+- [[Comerțul internațional și diviziunea mondială a muncii]]
+- [[Marile regiuni și forme ale turismului mondial]]
+- [[Globalizarea și lumea contemporană]]
+
 ## Exersare
-- [[Carduri - Geografie (clasa a X-a)]] — 36 carduri
-- [[Test - Geografie (clasa a X-a)]] — 60 întrebări
+- [[Carduri - Geografie (clasa a X-a)]] — 80 carduri
+- [[Test - Geografie (clasa a X-a)]] — 116 întrebări
 
 ## Legături
 - [[Geografie|Geografie]]

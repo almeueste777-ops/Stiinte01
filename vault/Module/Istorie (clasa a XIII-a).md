@@ -21,7 +21,7 @@ cssclasses: fisa
 
 Sinteze pentru bacalaureat: ideologii și practici politice, biserică și școală, minorități, plus metoda de lucru cu sursele și eseul istoric.
 
-## Capitole (4)
+## Capitole (8)
 
 ### Oamenii, societatea și lumea ideilor — semestrul 1
 
@@ -44,9 +44,34 @@ Sinteze pentru bacalaureat: ideologii și practici politice, biserică și școa
 - [[Lucrul cu sursele istorice la examen]]
 - [[Eseul istoric structurat]]
 
+### Puterea și societatea de-a lungul timpului — semestrul 1
+
+- [[Forme de organizare politică - de la cetate la statul modern]]
+- [[Autonomie și independență în spațiul românesc]]
+- [[Constituțiile și drepturile cetățenești]]
+
+### Economie, tehnică și moduri de viață — semestrul 1
+
+- [[Revoluțiile economice și modernizarea]]
+- [[Migrație, urbanizare și schimbare socială]]
+- [[Viața cotidiană și mentalități]]
+
+### Relații internaționale și spațiul românesc — semestrul 2
+
+- [[Diplomație și conflict în Evul Mediu românesc]]
+- [[România și marile alianțe ale secolului XX]]
+- [[România în Războiul Rece]]
+- [[Integrarea europeană și euroatlantică]]
+
+### Repere pentru bacalaureat — semestrul 2
+
+- [[Cronologia esențială a istoriei românilor]]
+- [[Personalități și instituții - fișe de sinteză]]
+- [[Studii de caz și redactarea răspunsurilor la examen]]
+
 ## Exersare
-- [[Carduri - Istorie (clasa a XIII-a)]] — 36 carduri
-- [[Test - Istorie (clasa a XIII-a)]] — 60 întrebări
+- [[Carduri - Istorie (clasa a XIII-a)]] — 88 carduri
+- [[Test - Istorie (clasa a XIII-a)]] — 118 întrebări
 
 ## Legături
 - [[Istorie|Istorie]]

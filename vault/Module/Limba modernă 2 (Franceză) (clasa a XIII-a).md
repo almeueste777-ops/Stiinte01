@@ -20,7 +20,7 @@ cssclasses: fisa
 
 Sinteză și consolidare: recapitularea structurilor, producerea de texte complexe, cultura francofonă și competențele de examen.
 
-## Capitole (3)
+## Capitole (6)
 
 ### Sinteză gramaticală — semestrul 1
 
@@ -40,9 +40,27 @@ Sinteză și consolidare: recapitularea structurilor, producerea de texte comple
 - [[Limba franceză și România]]
 - [[Sinteză - ce înseamnă să știi o limbă]]
 
+### Sinteză gramaticală — semestrul 1
+
+- [[Acordul participiului trecut]]
+- [[Prepozițiile și construcțiile verbale]]
+- [[Negația și restricția]]
+
+### Producerea de texte — semestrul 2
+
+- [[Povestirea și descrierea]]
+- [[Scrisoarea și mesajul]]
+- [[Rezumatul și sinteza]]
+
+### Cultură și examen — semestrul 2
+
+- [[Repere de cultură și civilizație franceză]]
+- [[Literatura francofonă]]
+- [[Strategii pentru proba de competențe]]
+
 ## Exersare
-- [[Carduri - Limba modernă 2 (Franceză) (clasa a XIII-a)]] — 36 carduri
-- [[Test - Limba modernă 2 (Franceză) (clasa a XIII-a)]] — 54 întrebări
+- [[Carduri - Limba modernă 2 (Franceză) (clasa a XIII-a)]] — 72 carduri
+- [[Test - Limba modernă 2 (Franceză) (clasa a XIII-a)]] — 102 întrebări
 
 ## Legături
 - [[Limba modernă 2 (Franceză)|Limba modernă 2 (Franceză)]]

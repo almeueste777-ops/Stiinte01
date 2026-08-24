@@ -1110,12 +1110,1174 @@
      ]
     }
    ]
+  },
+  {
+   "id": "eco13-c6",
+   "titlu": "Indicatorii macroeconomici",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "eco13-13",
+     "titlu": "Produsul intern brut și indicatorii macroeconomici",
+     "rezumat": "Macroeconomia studiază economia ca întreg: producția, ocuparea, prețurile și creșterea la nivelul unei țări. Indicatorul central este produsul intern brut (PIB): valoarea de piață a tuturor bunurilor și serviciilor finale produse pe teritoriul unei țări într-o perioadă (de regulă un an). Se numără doar bunurile finale, nu și cele intermediare, pentru a evita dubla înregistrare; alternativ, se însumează valoarea adăugată de fiecare producător. PIB se poate calcula pe trei căi echivalente: metoda producției (suma valorii adăugate), metoda cheltuielilor (consum + investiții + cheltuieli publice + export net) și metoda veniturilor (salarii + profituri + rente + dobânzi). Produsul intern brut se deosebește de produsul național brut (PNB), care ține seama de cetățenia factorilor, nu de teritoriu. Distincția esențială este între PIB nominal (exprimat în prețurile curente ale anului) și PIB real (exprimat în prețuri constante, „curățat” de inflație). Doar PIB real permite comparații corecte în timp, fiindcă o creștere a PIB nominal poate reflecta doar prețuri mai mari, nu mai multe bunuri. Raportul dintre ele dă deflatorul PIB, o măsură a nivelului general al prețurilor. PIB pe locuitor aproximează nivelul de trai, dar ignoră inegalitatea, munca neplătită și mediul.",
+     "ideiCheie": [
+      "Macroeconomia studiază economia ca întreg; indicatorul central e PIB.",
+      "PIB = valoarea bunurilor și serviciilor finale produse pe un teritoriu într-un an.",
+      "Trei metode de calcul: producție, cheltuieli, venituri.",
+      "PIB nominal (prețuri curente) vs. PIB real (prețuri constante, fără inflație)."
+     ],
+     "termeni": [
+      {
+       "t": "produs intern brut",
+       "d": "valoarea de piață a bunurilor și serviciilor finale produse pe teritoriul unei țări într-un an"
+      },
+      {
+       "t": "PIB real",
+       "d": "PIB exprimat în prețuri constante, care elimină efectul inflației"
+      },
+      {
+       "t": "valoare adăugată",
+       "d": "sporul de valoare adus de un producător, egal cu producția minus consumurile intermediare"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este produsul intern brut?",
+       "v": "Valoarea bunurilor și serviciilor finale produse pe teritoriul unei țări într-un an."
+      },
+      {
+       "f": "De ce se numără doar bunurile finale?",
+       "v": "Pentru a evita dubla înregistrare a bunurilor intermediare."
+      },
+      {
+       "f": "Care este deosebirea dintre PIB nominal și PIB real?",
+       "v": "Nominalul e în prețuri curente; realul, în prețuri constante, fără efectul inflației."
+      },
+      {
+       "f": "Ce măsoară PIB pe locuitor?",
+       "v": "Aproximează nivelul de trai, dar ignoră inegalitatea și munca neplătită."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Produsul intern brut măsoară valoarea bunurilor și serviciilor finale produse:",
+       "optiuni": [
+        "pe teritoriul unei țări, indiferent de naționalitatea producătorilor",
+        "de cetățenii unei țări, oriunde s-ar afla",
+        "doar în sectorul public",
+        "doar pentru export"
+       ],
+       "corect": 0,
+       "explicatie": "Criteriul PIB este teritoriul; al PNB, cetățenia factorilor."
+      },
+      {
+       "intrebare": "Pentru comparații corecte în timp se folosește:",
+       "optiuni": [
+        "PIB real, exprimat în prețuri constante",
+        "PIB nominal",
+        "PIB pe locuitor nominal",
+        "cifra de afaceri totală"
+       ],
+       "corect": 0,
+       "explicatie": "PIB nominal poate crește doar din cauza prețurilor mai mari."
+      },
+      {
+       "intrebare": "În calculul PIB prin metoda cheltuielilor NU intră direct:",
+       "optiuni": [
+        "bunurile intermediare",
+        "consumul populației",
+        "investițiile",
+        "exportul net"
+       ],
+       "corect": 0,
+       "explicatie": "Ele sunt deja cuprinse în valoarea bunurilor finale."
+      },
+      {
+       "intrebare": "Valoarea adăugată de un producător se obține scăzând din producție:",
+       "optiuni": [
+        "consumurile intermediare",
+        "salariile",
+        "impozitele",
+        "amortizarea"
+       ],
+       "corect": 0,
+       "explicatie": "Însumarea valorii adăugate evită dubla înregistrare."
+      }
+     ]
+    },
+    {
+     "id": "eco13-14",
+     "titlu": "Creșterea și dezvoltarea economică",
+     "rezumat": "Creșterea economică este sporirea, pe termen lung, a producției reale a unei economii, măsurată de regulă prin creșterea PIB-ului real (sau a PIB-ului real pe locuitor). Ea nu trebuie confundată cu dezvoltarea economică, un concept mai larg, care include schimbări calitative și structurale: modernizarea economiei, îmbunătățirea nivelului de trai, a educației, a sănătății, a instituțiilor. Factorii creșterii: acumularea de capital (investiții), creșterea și calificarea forței de muncă (capitalul uman), resursele naturale și, mai ales pe termen lung, progresul tehnologic și inovarea. Creșterea extensivă se obține prin folosirea mai multor factori; creșterea intensivă, prin folosirea lor mai productivă — aceasta din urmă e cea durabilă, fiindcă factorii sunt limitați. Pentru a măsura dezvoltarea, nu doar creșterea, ONU folosește Indicele Dezvoltării Umane (IDU), care combină PIB-ul pe locuitor cu speranța de viață și cu nivelul de educație. Se discută tot mai mult și limitele creșterii: epuizarea resurselor, poluarea, schimbările climatice. De aici conceptul de dezvoltare durabilă — satisfacerea nevoilor prezentului fără a compromite capacitatea generațiilor viitoare de a și le satisface pe ale lor.",
+     "ideiCheie": [
+      "Creșterea economică = sporirea pe termen lung a PIB-ului real.",
+      "Dezvoltarea economică include și schimbări calitative: trai, educație, sănătate, instituții.",
+      "Factori: capital, capital uman, resurse și, decisiv, progresul tehnologic.",
+      "IDU combină venitul, speranța de viață și educația; dezvoltarea durabilă privește viitorul."
+     ],
+     "termeni": [
+      {
+       "t": "creștere economică",
+       "d": "sporirea, pe termen lung, a producției reale a unei economii (a PIB-ului real)"
+      },
+      {
+       "t": "dezvoltare economică",
+       "d": "proces mai larg, care include și schimbări calitative și structurale ale economiei"
+      },
+      {
+       "t": "Indicele Dezvoltării Umane",
+       "d": "indicator ONU care combină venitul, speranța de viață și educația"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este creșterea economică?",
+       "v": "Sporirea pe termen lung a PIB-ului real al unei economii."
+      },
+      {
+       "f": "Prin ce se deosebește dezvoltarea de creștere?",
+       "v": "Dezvoltarea include schimbări calitative (trai, educație, sănătate, instituții), nu doar cantitative."
+      },
+      {
+       "f": "Care este factorul decisiv al creșterii pe termen lung?",
+       "v": "Progresul tehnologic și inovarea."
+      },
+      {
+       "f": "Ce combină Indicele Dezvoltării Umane?",
+       "v": "Venitul pe locuitor, speranța de viață și nivelul de educație."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Creșterea economică se măsoară, de regulă, prin:",
+       "optiuni": [
+        "creșterea PIB-ului real",
+        "creșterea PIB-ului nominal",
+        "scăderea șomajului",
+        "creșterea prețurilor"
+       ],
+       "corect": 0,
+       "explicatie": "Doar PIB-ul real elimină efectul inflației."
+      },
+      {
+       "intrebare": "Creșterea intensivă se obține prin:",
+       "optiuni": [
+        "folosirea mai productivă a factorilor de producție",
+        "folosirea unei cantități mai mari de factori",
+        "creșterea prețurilor",
+        "creșterea importurilor"
+       ],
+       "corect": 0,
+       "explicatie": "Ea este mai durabilă, fiindcă factorii sunt limitați."
+      },
+      {
+       "intrebare": "Indicele Dezvoltării Umane combină venitul cu:",
+       "optiuni": [
+        "speranța de viață și nivelul de educație",
+        "rata inflației și șomajul",
+        "exporturile și importurile",
+        "deficitul bugetar"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea el măsoară dezvoltarea, nu doar creșterea."
+      },
+      {
+       "intrebare": "Dezvoltarea durabilă înseamnă:",
+       "optiuni": [
+        "satisfacerea nevoilor prezentului fără a compromite generațiile viitoare",
+        "creștere economică cu orice preț",
+        "oprirea oricărei creșteri",
+        "maximizarea PIB-ului nominal"
+       ],
+       "corect": 0,
+       "explicatie": "Ea îmbină dimensiunea economică, socială și ecologică."
+      }
+     ]
+    },
+    {
+     "id": "eco13-15",
+     "titlu": "Ciclul economic: expansiune, recesiune, criză",
+     "rezumat": "Economia nu crește uniform, ci în valuri: perioade de avânt alternează cu perioade de încetinire. Ciclul economic (ciclul de afaceri) cuprinde patru faze: expansiunea (creșterea producției, a ocupării, a investițiilor), vârful sau avântul (punctul maxim), recesiunea (scăderea activității economice) și minimul sau depresiunea (punctul cel mai de jos), urmat de relansare. Fazele au semne caracteristice. În expansiune cresc producția, ocuparea, veniturile, dar și riscul de inflație. În recesiune scad producția și investițiile, crește șomajul (mai ales cel ciclic), scade încrederea. Prin definiție uzuală, o recesiune înseamnă scăderea PIB-ului real pe cel puțin două trimestre consecutive. O recesiune profundă și prelungită se numește criză sau depresiune. Marea criză din 1929–1933 și criza financiară din 2008 sunt exemplele clasice. Cauzele ciclului sunt discutate: șocuri ale cererii sau ale ofertei, variații ale investițiilor și ale creditului, așteptările și „psihologia” pieței. Statul încearcă să atenueze amplitudinea ciclului prin politici anticiclice: în recesiune stimulează cererea (cheltuieli publice, dobânzi mai mici), în expansiunea excesivă o temperează. Scopul nu e desființarea ciclului, ci reducerea costurilor sociale ale fazelor extreme.",
+     "ideiCheie": [
+      "Ciclul economic: expansiune, vârf, recesiune, minim, apoi relansare.",
+      "Recesiune (uzual): scăderea PIB-ului real pe cel puțin două trimestre consecutive.",
+      "Criza (depresiunea) = recesiune profundă și prelungită (1929–1933, 2008).",
+      "Statul folosește politici anticiclice pentru a atenua amplitudinea ciclului."
+     ],
+     "termeni": [
+      {
+       "t": "ciclu economic",
+       "d": "succesiunea de faze de expansiune și de contracție a activității economice"
+      },
+      {
+       "t": "recesiune",
+       "d": "scăderea activității economice, uzual pe cel puțin două trimestre consecutive"
+      },
+      {
+       "t": "politică anticiclică",
+       "d": "intervenția statului menită să atenueze amplitudinea fazelor ciclului economic"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt fazele ciclului economic?",
+       "v": "Expansiunea, vârful, recesiunea și minimul, urmate de relansare."
+      },
+      {
+       "f": "Ce este, uzual, o recesiune?",
+       "v": "Scăderea PIB-ului real pe cel puțin două trimestre consecutive."
+      },
+      {
+       "f": "Ce este o criză economică?",
+       "v": "O recesiune deosebit de profundă și de prelungită."
+      },
+      {
+       "f": "Ce urmăresc politicile anticiclice?",
+       "v": "Atenuarea amplitudinii ciclului, nu desființarea lui."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Faza ciclului economic în care scade producția și crește șomajul este:",
+       "optiuni": [
+        "recesiunea",
+        "expansiunea",
+        "vârful",
+        "relansarea"
+       ],
+       "corect": 0,
+       "explicatie": "O recesiune profundă și prelungită devine criză."
+      },
+      {
+       "intrebare": "O recesiune este definită uzual ca:",
+       "optiuni": [
+        "scăderea PIB-ului real pe cel puțin două trimestre consecutive",
+        "orice scădere de preț",
+        "creșterea inflației",
+        "scăderea exporturilor"
+       ],
+       "corect": 0,
+       "explicatie": "Este o contracție a activității economice."
+      },
+      {
+       "intrebare": "În faza de expansiune crește, printre altele:",
+       "optiuni": [
+        "ocuparea și riscul de inflație",
+        "șomajul ciclic",
+        "numărul falimentelor",
+        "deflația"
+       ],
+       "corect": 0,
+       "explicatie": "Producția, veniturile și investițiile cresc."
+      },
+      {
+       "intrebare": "Politicile anticiclice presupun ca, în recesiune, statul să:",
+       "optiuni": [
+        "stimuleze cererea, de exemplu prin cheltuieli publice",
+        "reducă drastic cheltuielile",
+        "crească dobânzile",
+        "mărească impozitele"
+       ],
+       "corect": 0,
+       "explicatie": "În expansiunea excesivă, dimpotrivă, temperează cererea."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "eco13-c7",
+   "titlu": "Finanțele publice și politica economică",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "eco13-16",
+     "titlu": "Bugetul de stat: venituri, cheltuieli, deficit",
+     "rezumat": "Bugetul de stat este planul anual al veniturilor și cheltuielilor publice, aprobat prin lege. Veniturile provin, în cea mai mare parte, din impozite și taxe, dar și din contribuții sociale, venituri din proprietatea statului, amenzi, fonduri externe. Cheltuielile finanțează serviciile publice: educația, sănătatea, apărarea, ordinea publică, infrastructura, protecția socială (pensii, ajutoare), plata dobânzilor la datoria publică. Raportul dintre venituri și cheltuieli dă soldul bugetar. Bugetul este echilibrat când veniturile egalează cheltuielile, excedentar când veniturile le depășesc și deficitar când cheltuielile depășesc veniturile. Deficitul se acoperă prin împrumuturi (emiterea de titluri de stat), care se adună în datoria publică — totalul sumelor pe care statul le datorează. În Uniunea Europeană există praguri de referință: deficit sub 3% din PIB și datorie sub 60% din PIB. Bugetul are și funcții economice, nu doar contabile: prin cheltuieli și impozite, statul redistribuie venituri (de la cei cu venituri mari spre servicii pentru toți), stabilizează economia (cheltuiește mai mult în recesiune) și influențează alocarea resurselor. Disciplina bugetară pe termen lung este esențială: deficitele repetate și datoria mare transferă poveri asupra generațiilor viitoare și cresc costul dobânzilor.",
+     "ideiCheie": [
+      "Bugetul de stat: planul anual, aprobat prin lege, al veniturilor și cheltuielilor publice.",
+      "Venituri: mai ales impozite și taxe; cheltuieli: servicii publice și protecție socială.",
+      "Sold bugetar: echilibrat, excedentar sau deficitar; deficitul crește datoria publică.",
+      "Bugetul redistribuie venituri, stabilizează economia și influențează alocarea resurselor."
+     ],
+     "termeni": [
+      {
+       "t": "buget de stat",
+       "d": "planul anual al veniturilor și cheltuielilor publice, aprobat prin lege"
+      },
+      {
+       "t": "deficit bugetar",
+       "d": "situația în care cheltuielile publice depășesc veniturile publice"
+      },
+      {
+       "t": "datorie publică",
+       "d": "totalul sumelor pe care statul le datorează creditorilor săi"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este bugetul de stat?",
+       "v": "Planul anual al veniturilor și cheltuielilor publice, aprobat prin lege."
+      },
+      {
+       "f": "Din ce provin cele mai multe venituri bugetare?",
+       "v": "Din impozite și taxe."
+      },
+      {
+       "f": "Când este bugetul deficitar?",
+       "v": "Când cheltuielile publice depășesc veniturile."
+      },
+      {
+       "f": "Cum se acoperă, de regulă, un deficit bugetar?",
+       "v": "Prin împrumuturi, care se adună în datoria publică."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Bugetul de stat este deficitar atunci când:",
+       "optiuni": [
+        "cheltuielile publice depășesc veniturile",
+        "veniturile depășesc cheltuielile",
+        "veniturile egalează cheltuielile",
+        "nu se colectează impozite"
+       ],
+       "corect": 0,
+       "explicatie": "Excedentul e situația inversă."
+      },
+      {
+       "intrebare": "Cea mai mare parte a veniturilor bugetare provine din:",
+       "optiuni": [
+        "impozite și taxe",
+        "amenzi",
+        "vânzarea de imobile",
+        "donații"
+       ],
+       "corect": 0,
+       "explicatie": "Ele sunt principala sursă de finanțare a statului."
+      },
+      {
+       "intrebare": "Datoria publică reprezintă:",
+       "optiuni": [
+        "totalul sumelor pe care statul le datorează creditorilor",
+        "deficitul unui singur an",
+        "cheltuielile cu educația",
+        "rezerva valutară"
+       ],
+       "corect": 0,
+       "explicatie": "Deficitele anuale, acumulate, o măresc."
+      },
+      {
+       "intrebare": "O funcție economică a bugetului de stat este:",
+       "optiuni": [
+        "redistribuirea veniturilor și stabilizarea economiei",
+        "fixarea prețurilor tuturor bunurilor",
+        "stabilirea salariilor din sectorul privat",
+        "eliminarea concurenței"
+       ],
+       "corect": 0,
+       "explicatie": "Prin cheltuieli și impozite, statul influențează economia."
+      }
+     ]
+    },
+    {
+     "id": "eco13-17",
+     "titlu": "Impozitele și sistemul fiscal",
+     "rezumat": "Impozitele sunt prelevări obligatorii, fără contraprestație directă, pe care statul le încasează de la persoane și firme pentru a finanța cheltuielile publice. Taxele, spre deosebire de impozite, sunt plăți pentru un serviciu public determinat (taxa de pașaport). Impozitele se împart în directe (pe venit, pe profit, pe avere — plătite de cel care le suportă) și indirecte (cuprinse în prețul bunurilor — TVA, accize — suportate de consumatorul final). După raportul dintre venit și cota plătită, impozitarea poate fi: proporțională (cotă unică — același procent, indiferent de venit), progresivă (cota crește odată cu venitul — cei cu venituri mari plătesc un procent mai mare) sau regresivă (procentul scade pe măsură ce venitul crește; impozitele indirecte au adesea un efect regresiv, fiindcă apasă mai greu pe veniturile mici). Un sistem fiscal bun urmărește câteva principii, formulate încă de Adam Smith: echitatea (contribuție după posibilități), certitudinea (reguli clare, previzibile), comoditatea (colectare la momentul potrivit) și randamentul (cost de colectare mic). Există un arbitraj permanent: impozitele finanțează servicii publice și pot reduce inegalitatea, dar, prea mari, descurajează munca și investițiile și împing activitatea spre economia „la negru”. Evaziunea fiscală (sustragerea ilegală) se deosebește de optimizarea fiscală legală.",
+     "ideiCheie": [
+      "Impozitele sunt prelevări obligatorii, fără contraprestație directă.",
+      "Directe (pe venit, profit, avere) vs. indirecte (TVA, accize, în prețul bunurilor).",
+      "Impozitare proporțională (cotă unică), progresivă sau regresivă.",
+      "Principii (Adam Smith): echitate, certitudine, comoditate, randament."
+     ],
+     "termeni": [
+      {
+       "t": "impozit",
+       "d": "prelevare obligatorie, fără contraprestație directă, folosită pentru finanțarea cheltuielilor publice"
+      },
+      {
+       "t": "impozit indirect",
+       "d": "impozit cuprins în prețul bunurilor (TVA, accize), suportat de consumatorul final"
+      },
+      {
+       "t": "impozitare progresivă",
+       "d": "sistem în care cota de impozit crește odată cu venitul"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este un impozit?",
+       "v": "O prelevare obligatorie, fără contraprestație directă, pentru finanțarea cheltuielilor publice."
+      },
+      {
+       "f": "Care e deosebirea dintre impozitele directe și cele indirecte?",
+       "v": "Directele se plătesc pe venit, profit sau avere; indirectele sunt cuprinse în prețul bunurilor (TVA, accize)."
+      },
+      {
+       "f": "Ce este impozitarea progresivă?",
+       "v": "Sistemul în care cota de impozit crește odată cu venitul."
+      },
+      {
+       "f": "Ce deosebește evaziunea fiscală de optimizarea fiscală?",
+       "v": "Evaziunea este sustragere ilegală; optimizarea folosește, legal, prevederile fiscale."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "TVA-ul și accizele sunt impozite:",
+       "optiuni": [
+        "indirecte, cuprinse în prețul bunurilor",
+        "directe, pe venit",
+        "pe avere",
+        "pe profit"
+       ],
+       "corect": 0,
+       "explicatie": "Ele sunt suportate de consumatorul final."
+      },
+      {
+       "intrebare": "Într-un sistem de impozitare progresivă:",
+       "optiuni": [
+        "cota crește odată cu venitul",
+        "cota este aceeași pentru toți",
+        "cota scade la venituri mari",
+        "nu există impozit pe venit"
+       ],
+       "corect": 0,
+       "explicatie": "Cei cu venituri mari plătesc un procent mai mare."
+      },
+      {
+       "intrebare": "Principiile unui sistem fiscal bun (Adam Smith) includ:",
+       "optiuni": [
+        "echitatea, certitudinea, comoditatea și randamentul",
+        "inflația și șomajul",
+        "exportul și importul",
+        "cererea și oferta"
+       ],
+       "corect": 0,
+       "explicatie": "Ele privesc corectitudinea și eficiența colectării."
+      },
+      {
+       "intrebare": "Impozitele foarte mari pot avea ca efect nedorit:",
+       "optiuni": [
+        "descurajarea muncii și extinderea economiei „la negru”",
+        "creșterea automată a producției",
+        "eliminarea sigură a deficitului",
+        "scăderea prețurilor"
+       ],
+       "corect": 0,
+       "explicatie": "Există un arbitraj între venituri bugetare și stimulente."
+      }
+     ]
+    },
+    {
+     "id": "eco13-18",
+     "titlu": "Politica fiscală și politica monetară",
+     "rezumat": "Statul dispune de două mari instrumente pentru a influența economia. Politica fiscală (bugetară) folosește cheltuielile publice și impozitele; o conduce guvernul, prin buget. Politica monetară folosește masa monetară și dobânda; o conduce banca centrală, independentă de guvern. Amândouă urmăresc obiective macroeconomice: creșterea sustenabilă, ocuparea deplină, stabilitatea prețurilor, echilibrul extern. Politica fiscală poate fi expansionistă (creșterea cheltuielilor și/sau reducerea impozitelor — stimulează cererea în recesiune, dar mărește deficitul) sau restrictivă (reducerea cheltuielilor și/sau creșterea impozitelor — temperează o economie supraîncălzită și reduce deficitul). Ideea, legată de Keynes, este ca statul să susțină cererea când sectorul privat o reduce. Politica monetară funcționează analog. Când economia încetinește, banca centrală poate reduce dobânda de politică monetară, ieftinind creditul și stimulând consumul și investițiile (politică expansionistă); când inflația crește, ridică dobânda, scumpind creditul și temperând cererea (politică restrictivă). Cele două politici trebuie coordonate: dacă trag în direcții opuse, efectele se anulează. Obiectivul prioritar al băncii centrale rămâne, de regulă, stabilitatea prețurilor.",
+     "ideiCheie": [
+      "Politica fiscală (guvern): cheltuieli publice și impozite. Politica monetară (banca centrală): masa monetară și dobânda.",
+      "Politica fiscală expansionistă stimulează cererea, dar mărește deficitul.",
+      "Keynes: statul susține cererea când sectorul privat o reduce.",
+      "Reducerea dobânzii stimulează economia; creșterea ei temperează inflația."
+     ],
+     "termeni": [
+      {
+       "t": "politică fiscală",
+       "d": "influențarea economiei prin cheltuielile publice și impozite, condusă de guvern"
+      },
+      {
+       "t": "politică monetară",
+       "d": "influențarea economiei prin masa monetară și dobândă, condusă de banca centrală"
+      },
+      {
+       "t": "politică fiscală expansionistă",
+       "d": "creșterea cheltuielilor și/sau reducerea impozitelor pentru a stimula cererea"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cine conduce politica fiscală și cine pe cea monetară?",
+       "v": "Politica fiscală o conduce guvernul (prin buget), pe cea monetară banca centrală."
+      },
+      {
+       "f": "Ce instrumente folosește politica fiscală?",
+       "v": "Cheltuielile publice și impozitele."
+      },
+      {
+       "f": "Ce face banca centrală când vrea să stimuleze economia?",
+       "v": "Reduce dobânda de politică monetară, ieftinind creditul."
+      },
+      {
+       "f": "Ce idee a lui Keynes stă la baza politicii fiscale anticiclice?",
+       "v": "Ca statul să susțină cererea atunci când sectorul privat o reduce."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Politica monetară este condusă de:",
+       "optiuni": [
+        "banca centrală",
+        "guvern",
+        "parlament",
+        "băncile comerciale"
+       ],
+       "corect": 0,
+       "explicatie": "Politica fiscală, în schimb, este condusă de guvern."
+      },
+      {
+       "intrebare": "O politică fiscală expansionistă presupune:",
+       "optiuni": [
+        "creșterea cheltuielilor publice și/sau reducerea impozitelor",
+        "creșterea impozitelor și reducerea cheltuielilor",
+        "reducerea masei monetare",
+        "creșterea dobânzii de politică monetară"
+       ],
+       "corect": 0,
+       "explicatie": "Ea stimulează cererea, dar mărește deficitul."
+      },
+      {
+       "intrebare": "Pentru a tempera o inflație ridicată, banca centrală, de regulă:",
+       "optiuni": [
+        "crește dobânda de politică monetară",
+        "scade dobânda",
+        "tipărește mai mulți bani",
+        "reduce rezervele minime obligatorii"
+       ],
+       "corect": 0,
+       "explicatie": "Creditul mai scump temperează cererea."
+      },
+      {
+       "intrebare": "Instrumentele politicii fiscale sunt:",
+       "optiuni": [
+        "cheltuielile publice și impozitele",
+        "dobânda și rezervele minime",
+        "cursul de schimb",
+        "salariul minim din sectorul privat"
+       ],
+       "corect": 0,
+       "explicatie": "Dobânda și rezervele țin de politica monetară."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "eco13-c8",
+   "titlu": "Aprofundări de microeconomie",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "eco13-19",
+     "titlu": "Elasticitatea cererii și a ofertei",
+     "rezumat": "Elasticitatea măsoară cât de mult reacționează o mărime la variația alteia. Elasticitatea cererii față de preț arată cu cât la sută se modifică cantitatea cerută la o variație de 1% a prețului. Se calculează ca raport între variația procentuală a cantității cerute și variația procentuală a prețului. Când coeficientul (în valoare absolută) este supraunitar, cererea e elastică (reacție puternică); când e subunitar, inelastică (reacție slabă); când e egal cu 1, unitară. Factorii care fac cererea mai elastică: existența substituenților (dacă un bun se scumpește și are înlocuitori, cererea scade mult), ponderea mare a bunului în buget, caracterul de lux (nu de necesitate) și orizontul de timp mai lung (pe termen lung, cumpărătorii se adaptează). Bunurile de strictă necesitate, fără substituenți, au cerere inelastică. Consecință practică pentru încasări: dacă cererea e inelastică, o creștere a prețului mărește încasările totale; dacă e elastică, le reduce. Există și alte elasticități utile: elasticitatea cererii față de venit (pozitivă la bunurile normale, negativă la cele inferioare), elasticitatea încrucișată (arată dacă două bunuri sunt substituibile — semn pozitiv — sau complementare — semn negativ) și elasticitatea ofertei față de preț (mai mare pe termen lung, când producătorii pot ajusta capacitățile).",
+     "ideiCheie": [
+      "Elasticitatea cererii față de preț = variația % a cantității / variația % a prețului.",
+      "Cerere elastică (coeficient supraunitar), inelastică (subunitar), unitară (=1).",
+      "Factori: substituenți, ponderea în buget, lux vs. necesitate, orizontul de timp.",
+      "Elasticitate față de venit, încrucișată și elasticitatea ofertei."
+     ],
+     "termeni": [
+      {
+       "t": "elasticitatea cererii față de preț",
+       "d": "raportul dintre variația procentuală a cantității cerute și cea a prețului"
+      },
+      {
+       "t": "cerere elastică",
+       "d": "cerere al cărei coeficient de elasticitate (în modul) este supraunitar"
+      },
+      {
+       "t": "elasticitate încrucișată",
+       "d": "măsura în care cantitatea cerută dintr-un bun reacționează la prețul altui bun"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce măsoară elasticitatea cererii față de preț?",
+       "v": "Cu cât la sută se modifică cantitatea cerută la o variație de 1% a prețului."
+      },
+      {
+       "f": "Când este cererea inelastică?",
+       "v": "Când coeficientul de elasticitate (în modul) este subunitar — reacție slabă la preț."
+      },
+      {
+       "f": "Ce factori măresc elasticitatea cererii?",
+       "v": "Existența substituenților, ponderea mare în buget, caracterul de lux, orizontul de timp lung."
+      },
+      {
+       "f": "Ce arată elasticitatea încrucișată pozitivă?",
+       "v": "Că cele două bunuri sunt substituibile."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Cererea este elastică atunci când coeficientul de elasticitate, în modul, este:",
+       "optiuni": [
+        "supraunitar",
+        "subunitar",
+        "egal cu zero",
+        "egal cu 1"
+       ],
+       "corect": 0,
+       "explicatie": "Cantitatea cerută reacționează puternic la preț."
+      },
+      {
+       "intrebare": "Un bun cu mulți substituenți are, de regulă, o cerere:",
+       "optiuni": [
+        "mai elastică",
+        "perfect inelastică",
+        "întotdeauna unitară",
+        "independentă de preț"
+       ],
+       "corect": 0,
+       "explicatie": "La scumpire, cumpărătorii trec ușor la înlocuitori."
+      },
+      {
+       "intrebare": "Pentru un bun cu cerere inelastică, o creștere a prețului:",
+       "optiuni": [
+        "mărește încasările totale",
+        "reduce încasările totale",
+        "nu schimbă încasările",
+        "desființează cererea"
+       ],
+       "corect": 0,
+       "explicatie": "Scăderea cantității e mai mică decât creșterea prețului."
+      },
+      {
+       "intrebare": "Elasticitatea cererii față de venit este negativă în cazul:",
+       "optiuni": [
+        "bunurilor inferioare",
+        "bunurilor normale",
+        "bunurilor de lux",
+        "bunurilor complementare"
+       ],
+       "corect": 0,
+       "explicatie": "La creșterea venitului, cererea pentru ele scade."
+      }
+     ]
+    },
+    {
+     "id": "eco13-20",
+     "titlu": "Costurile pe termen lung și economiile de scară",
+     "rezumat": "Pe termen scurt, cel puțin un factor de producție este fix (de regulă capitalul: clădiri, utilaje), iar firma poate varia doar factorii variabili. Pe termen lung, toți factorii devin variabili: firma poate schimba dimensiunea instalațiilor, deci și scara producției. Această distincție explică de ce comportamentul costurilor diferă în cele două orizonturi. Costul mediu pe termen lung scade adesea la început, pe măsură ce producția crește — fenomenul se numește economii de scară. Sursele lor: diviziunea muncii și specializarea, folosirea unor utilaje mari și eficiente, reduceri la achiziții în cantități mari, repartizarea costurilor fixe (de exemplu, a cercetării) pe mai multe unități. Datorită lor, firmele mari pot avea costuri unitare mai mici. Dincolo de un anumit prag apar însă dezeconomiile de scară: costul mediu începe să crească, fiindcă organizația devine greu de coordonat și de controlat, birocrația se umflă, comunicarea se îngreunează. Între cele două zone se află scara eficientă minimă — dimensiunea la care costul mediu pe termen lung atinge minimul. Aceste concepte explică de ce în unele ramuri domină firmele mari, iar în altele supraviețuiesc cele mici.",
+     "ideiCheie": [
+      "Termen scurt: cel puțin un factor e fix; termen lung: toți factorii sunt variabili.",
+      "Economii de scară: costul mediu scade odată cu creșterea producției.",
+      "Surse: specializare, utilaje eficiente, reduceri de cantitate, repartizarea costurilor fixe.",
+      "Dezeconomii de scară: costul mediu crește peste un prag, din cauza dificultăților de coordonare."
+     ],
+     "termeni": [
+      {
+       "t": "economii de scară",
+       "d": "scăderea costului mediu pe termen lung pe măsură ce crește volumul producției"
+      },
+      {
+       "t": "dezeconomii de scară",
+       "d": "creșterea costului mediu peste un anumit prag, din cauza dificultăților de coordonare"
+      },
+      {
+       "t": "termen lung",
+       "d": "orizontul în care toți factorii de producție devin variabili"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce deosebește termenul scurt de cel lung în producție?",
+       "v": "Pe termen scurt cel puțin un factor e fix; pe termen lung, toți sunt variabili."
+      },
+      {
+       "f": "Ce sunt economiile de scară?",
+       "v": "Scăderea costului mediu pe termen lung pe măsură ce crește producția."
+      },
+      {
+       "f": "Ce provoacă dezeconomiile de scară?",
+       "v": "Dificultățile de coordonare și de control într-o organizație prea mare."
+      },
+      {
+       "f": "De ce pot firmele mari avea costuri unitare mai mici?",
+       "v": "Datorită economiilor de scară: specializare, utilaje eficiente, repartizarea costurilor fixe."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Economiile de scară înseamnă că, pe termen lung, costul mediu:",
+       "optiuni": [
+        "scade pe măsură ce crește producția",
+        "crește odată cu producția",
+        "rămâne constant mereu",
+        "este zero"
+       ],
+       "corect": 0,
+       "explicatie": "Ele explică avantajul de cost al firmelor mari."
+      },
+      {
+       "intrebare": "Pe termen lung, în teoria producției:",
+       "optiuni": [
+        "toți factorii de producție sunt variabili",
+        "toți factorii sunt ficși",
+        "doar munca e variabilă",
+        "doar capitalul e fix"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea firma poate schimba scara producției."
+      },
+      {
+       "intrebare": "Dezeconomiile de scară apar mai ales din cauza:",
+       "optiuni": [
+        "dificultăților de coordonare într-o organizație prea mare",
+        "reducerilor la achizițiile mari",
+        "specializării muncii",
+        "utilajelor eficiente"
+       ],
+       "corect": 0,
+       "explicatie": "Peste un prag, costul mediu începe să crească."
+      },
+      {
+       "intrebare": "O sursă a economiilor de scară este:",
+       "optiuni": [
+        "repartizarea costurilor fixe pe mai multe unități produse",
+        "creșterea prețului materiilor prime",
+        "birocrația excesivă",
+        "scăderea cererii"
+       ],
+       "corect": 0,
+       "explicatie": "Costul fix unitar scade când producția crește."
+      }
+     ]
+    },
+    {
+     "id": "eco13-21",
+     "titlu": "Eșecurile pieței și rolul statului",
+     "rezumat": "Piața concurențială alocă de obicei resursele eficient, dar există situații în care ea „eșuează” — nu produce rezultatul optim pentru societate. Aceste eșecuri ale pieței justifică, teoretic, intervenția statului. Primul tip sunt externalitățile: efecte ale unei activități asupra unor terți, neincluse în preț. Externalitățile negative (poluarea) sunt supraproduse, fiindcă producătorul nu suportă tot costul; cele pozitive (educația, vaccinarea) sunt subproduse. Statul intervine prin taxe (pe poluare), subvenții (pentru educație) sau reglementări. Al doilea tip sunt bunurile publice: bunuri non-excludabile (nu poți împiedica pe cineva să le folosească) și non-rivale (folosirea de către unul nu scade disponibilul pentru altul) — apărarea națională, iluminatul public, farul. Piața le subproduce, fiindcă apare problema „pasagerului clandestin” (fiecare speră să beneficieze fără să plătească); de aceea sunt finanțate din impozite. Alte eșecuri: informația asimetrică (o parte știe mai mult decât cealaltă — vânzătorul de mașini second-hand, asiguratul), care poate face piața să funcționeze prost; puterea de monopol, care duce la prețuri mai mari și cantități mai mici decât optimul social. Statul răspunde prin autorități de concurență, reglementarea monopolurilor naturale, protecția consumatorului. Intervenția are însă și limite și costuri: și statul poate „eșua”, prin birocrație, captură de interese sau informație insuficientă.",
+     "ideiCheie": [
+      "Eșecurile pieței: situații în care piața nu atinge rezultatul optim social.",
+      "Externalități: efecte asupra terților, neincluse în preț (poluarea — negativă; educația — pozitivă).",
+      "Bunuri publice: non-excludabile și non-rivale; problema pasagerului clandestin.",
+      "Informația asimetrică și puterea de monopol; și statul poate eșua."
+     ],
+     "termeni": [
+      {
+       "t": "externalitate",
+       "d": "efect al unei activități economice asupra unor terți, care nu se reflectă în preț"
+      },
+      {
+       "t": "bun public",
+       "d": "bun non-excludabil și non-rival, pe care piața tinde să îl subproducă"
+      },
+      {
+       "t": "informație asimetrică",
+       "d": "situația în care o parte a tranzacției deține mai multă informație decât cealaltă"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este un eșec al pieței?",
+       "v": "O situație în care piața liberă nu produce rezultatul optim pentru societate."
+      },
+      {
+       "f": "Ce este o externalitate negativă?",
+       "v": "Un efect dăunător asupra terților, neinclus în preț, precum poluarea."
+      },
+      {
+       "f": "Ce caracterizează un bun public?",
+       "v": "Este non-excludabil și non-rival, de aceea piața îl subproduce."
+      },
+      {
+       "f": "Ce este problema „pasagerului clandestin”?",
+       "v": "Tendința fiecăruia de a beneficia de un bun public fără a contribui la finanțarea lui."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Poluarea produsă de o fabrică, nesuportată de aceasta, este un exemplu de:",
+       "optiuni": [
+        "externalitate negativă",
+        "bun public",
+        "monopol natural",
+        "economie de scară"
+       ],
+       "corect": 0,
+       "explicatie": "Producătorul nu suportă întregul cost social."
+      },
+      {
+       "intrebare": "Apărarea națională este un exemplu de:",
+       "optiuni": [
+        "bun public, non-excludabil și non-rival",
+        "bun de lux",
+        "externalitate pozitivă",
+        "monopol privat"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea este finanțată din impozite."
+      },
+      {
+       "intrebare": "Problema „pasagerului clandestin” explică de ce piața:",
+       "optiuni": [
+        "subproduce bunurile publice",
+        "supraproduce bunurile publice",
+        "elimină externalitățile",
+        "fixează prețuri corecte"
+       ],
+       "corect": 0,
+       "explicatie": "Fiecare speră să beneficieze fără să plătească."
+      },
+      {
+       "intrebare": "Informația asimetrică apare atunci când:",
+       "optiuni": [
+        "o parte a tranzacției știe mai mult decât cealaltă",
+        "ambele părți știu totul",
+        "prețul este fixat de stat",
+        "nu există concurență"
+       ],
+       "corect": 0,
+       "explicatie": "Exemple: piața mașinilor second-hand, asigurările."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "eco13-c9",
+   "titlu": "Sistemul financiar și economia globală",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "eco13-22",
+     "titlu": "Sistemul bancar și creația monetară",
+     "rezumat": "Sistemul bancar are două niveluri. Banca centrală (în România, Banca Națională a României) este „banca băncilor”: emite moneda națională, conduce politica monetară, supraveghează sistemul bancar, administrează rezervele valutare și este împrumutătorul de ultimă instanță. Ea nu lucrează, de regulă, direct cu publicul. Băncile comerciale sunt cele care atrag depozite de la populație și firme și acordă credite, câștigând din diferența dintre dobânda la credite și cea la depozite. Băncile comerciale nu păstrează în seif toți banii depuși, ci doar o parte, ca rezervă; restul îl dau cu împrumut. Prin acest mecanism, sistemul bancar creează monedă scripturală: un depozit devine credit, creditul cheltuit devine un nou depozit la altă bancă, care la rândul lui poate fi împrumutat. Multiplicatorul monetar arată de câte ori se poate mări masa monetară pornind de la o sumă inițială; el este cu atât mai mare cu cât rata rezervelor obligatorii e mai mică. Banca centrală controlează acest proces prin instrumentele ei: rata dobânzii de politică monetară (costul creditului), rezervele minime obligatorii (partea din depozite pe care băncile trebuie să o păstreze) și operațiunile pe piața deschisă (cumpărarea sau vânzarea de titluri de stat). Creditul este util — finanțează investiții și consum — dar creșterea lui excesivă poate alimenta inflația și bulele speculative, iar neplata masivă a creditelor poate declanșa crize bancare.",
+     "ideiCheie": [
+      "Sistem bancar pe două niveluri: banca centrală și băncile comerciale.",
+      "Banca centrală: emisiune, politică monetară, supraveghere, împrumutător de ultimă instanță.",
+      "Băncile comerciale creează monedă scripturală prin creditare (rezerve fracționare).",
+      "Multiplicatorul monetar e cu atât mai mare cu cât rezervele obligatorii sunt mai mici."
+     ],
+     "termeni": [
+      {
+       "t": "bancă centrală",
+       "d": "instituția care emite moneda națională și conduce politica monetară a unei țări"
+      },
+      {
+       "t": "monedă scripturală",
+       "d": "banii existenți sub formă de depozite bancare, creați prin mecanismul creditării"
+      },
+      {
+       "t": "multiplicator monetar",
+       "d": "de câte ori poate crește masa monetară pornind de la o sumă inițială depusă"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt cele două niveluri ale sistemului bancar?",
+       "v": "Banca centrală și băncile comerciale."
+      },
+      {
+       "f": "Cum câștigă o bancă comercială?",
+       "v": "Din diferența dintre dobânda încasată la credite și cea plătită la depozite."
+      },
+      {
+       "f": "Cum creează băncile comerciale monedă scripturală?",
+       "v": "Împrumutând o parte din depozite, care redevin depozite și pot fi împrumutate din nou."
+      },
+      {
+       "f": "Ce este împrumutătorul de ultimă instanță?",
+       "v": "Rolul băncii centrale de a sprijini băncile solvabile aflate în criză de lichiditate."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Banca băncilor”, care emite moneda națională, este:",
+       "optiuni": [
+        "banca centrală",
+        "o bancă comercială",
+        "bursa de valori",
+        "trezoreria unei firme"
+       ],
+       "corect": 0,
+       "explicatie": "Ea conduce și politica monetară."
+      },
+      {
+       "intrebare": "Băncile comerciale creează monedă scripturală prin:",
+       "optiuni": [
+        "acordarea de credite din depozitele atrase",
+        "tipărirea de bancnote",
+        "baterea de monede",
+        "emiterea de titluri de stat"
+       ],
+       "corect": 0,
+       "explicatie": "Este mecanismul rezervelor fracționare."
+      },
+      {
+       "intrebare": "Multiplicatorul monetar este cu atât mai mare cu cât:",
+       "optiuni": [
+        "rata rezervelor obligatorii este mai mică",
+        "rata rezervelor obligatorii este mai mare",
+        "dobânda este mai mare",
+        "inflația este mai mare"
+       ],
+       "corect": 0,
+       "explicatie": "Băncile pot împrumuta o parte mai mare din depozite."
+      },
+      {
+       "intrebare": "Un instrument al băncii centrale este:",
+       "optiuni": [
+        "rezervele minime obligatorii",
+        "salariul minim",
+        "cota de TVA",
+        "prețul carburanților"
+       ],
+       "corect": 0,
+       "explicatie": "Alături de dobândă și de operațiunile pe piața deschisă."
+      }
+     ]
+    },
+    {
+     "id": "eco13-23",
+     "titlu": "Piața de capital: acțiuni, obligațiuni, bursa",
+     "rezumat": "Piața financiară pune în legătură pe cei care au economii cu cei care au nevoie de finanțare. Ea cuprinde piața monetară (fonduri pe termen scurt) și piața de capital (finanțare pe termen lung), pe care se tranzacționează valori mobiliare. Cele două instrumente principale sunt acțiunile și obligațiunile. Acțiunea este un titlu de proprietate: cine cumpără o acțiune devine coproprietar (acționar) al firmei, are dreptul la o parte din profit (dividendul) și, de regulă, la vot în adunarea generală. Câștigul vine din dividende și din creșterea cursului acțiunii, dar valoarea poate și scădea — riscul e mai mare. Obligațiunea este un titlu de creanță: cine o cumpără împrumută bani emitentului (o firmă sau statul) și primește dobândă (cupon), plus rambursarea la scadență. Riscul e, de regulă, mai mic decât la acțiuni, dar și câștigul potențial mai mic. Bursa de valori este piața organizată pe care se tranzacționează aceste titluri, la un preț (curs) format din cerere și ofertă. Ea îndeplinește funcții economice: mobilizează economiile spre investiții, asigură lichiditate (poți vinde relativ ușor un titlu) și oferă, prin indicii bursieri, un „barometru” al economiei. Regula de bază a investitorului prudent este diversificarea — „nu pune toate ouăle în același coș” — și atenția la raportul dintre risc și randament: un câștig potențial mai mare vine, de obicei, cu un risc mai mare.",
+     "ideiCheie": [
+      "Piața de capital finanțează pe termen lung, prin valori mobiliare.",
+      "Acțiunea = titlu de proprietate (dividend, vot); risc mai mare.",
+      "Obligațiunea = titlu de creanță (dobândă/cupon, rambursare); risc mai mic.",
+      "Bursa mobilizează economii, asigură lichiditate și e un barometru al economiei."
+     ],
+     "termeni": [
+      {
+       "t": "acțiune",
+       "d": "titlu de proprietate care conferă calitatea de coproprietar al unei firme și dreptul la dividend"
+      },
+      {
+       "t": "obligațiune",
+       "d": "titlu de creanță prin care deținătorul împrumută emitentul, în schimbul dobânzii și al rambursării"
+      },
+      {
+       "t": "bursă de valori",
+       "d": "piața organizată pe care se tranzacționează valori mobiliare la un curs dat de cerere și ofertă"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este o acțiune?",
+       "v": "Un titlu de proprietate care face din deținător coproprietar al firmei, cu drept la dividend."
+      },
+      {
+       "f": "Ce este o obligațiune?",
+       "v": "Un titlu de creanță prin care deținătorul împrumută emitentul, primind dobândă și rambursarea."
+      },
+      {
+       "f": "Care e deosebirea de risc dintre acțiuni și obligațiuni?",
+       "v": "Acțiunile au, de regulă, risc mai mare, dar și câștig potențial mai mare; obligațiunile, invers."
+      },
+      {
+       "f": "Ce funcții are bursa de valori?",
+       "v": "Mobilizează economiile, asigură lichiditate și oferă un barometru al economiei."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Cine cumpără o acțiune a unei firme devine:",
+       "optiuni": [
+        "coproprietar, cu drept la dividend",
+        "creditor al firmei, cu drept la dobândă",
+        "angajat al firmei",
+        "garant al datoriilor firmei"
+       ],
+       "corect": 0,
+       "explicatie": "Obligațiunea, în schimb, este un titlu de creanță."
+      },
+      {
+       "intrebare": "O obligațiune aduce deținătorului, de regulă:",
+       "optiuni": [
+        "dobândă (cupon) și rambursarea la scadență",
+        "o parte din profit sub formă de dividend",
+        "dreptul de vot în adunarea generală",
+        "proprietatea asupra firmei"
+       ],
+       "corect": 0,
+       "explicatie": "Ea este un împrumut acordat emitentului."
+      },
+      {
+       "intrebare": "La bursa de valori, cursul unui titlu se formează:",
+       "optiuni": [
+        "din raportul dintre cerere și ofertă",
+        "prin decizia guvernului",
+        "prin tragere la sorți",
+        "la o valoare nominală fixă"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea cursul poate crește sau scădea."
+      },
+      {
+       "intrebare": "Regula diversificării („nu pune toate ouăle în același coș”) urmărește:",
+       "optiuni": [
+        "reducerea riscului investiției",
+        "eliminarea impozitelor",
+        "creșterea garantată a câștigului",
+        "fixarea cursului"
+       ],
+       "corect": 0,
+       "explicatie": "Un câștig potențial mai mare vine, de obicei, cu un risc mai mare."
+      }
+     ]
+    },
+    {
+     "id": "eco13-24",
+     "titlu": "Globalizarea și dezvoltarea durabilă",
+     "rezumat": "Globalizarea este procesul de creștere a interdependenței economice, tehnologice și culturale dintre țări: mărfuri, servicii, capitaluri, oameni și informații circulă tot mai liber și mai repede. Motoarele ei: liberalizarea comerțului, progresul transporturilor și al comunicațiilor, companiile transnaționale, internetul. Instituții precum Organizația Mondială a Comerțului, Fondul Monetar Internațional și Banca Mondială structurează economia globală. Globalizarea are câștiguri și costuri. Beneficii: acces la piețe mai mari, prețuri mai mici, transfer de tehnologie, scoaterea din sărăcie a sute de milioane de oameni. Costuri și critici: adâncirea inegalităților între țări și în interiorul lor, delocalizarea și pierderea unor locuri de muncă, presiunea asupra mediului, vulnerabilitatea la crize care se propagă rapid (criza din 2008), erodarea unor culturi și industrii locale. Răspunsul de fond este ideea de dezvoltare durabilă: o dezvoltare care satisface nevoile prezentului fără a compromite capacitatea generațiilor viitoare de a și le satisface pe ale lor. Ea îmbină trei dimensiuni — economică, socială și ecologică — și a fost concretizată în Obiectivele de Dezvoltare Durabilă ale ONU (Agenda 2030). Provocările secolului — schimbările climatice, sărăcia, inegalitatea, tranziția energetică — nu pot fi rezolvate de o singură țară, ci cer cooperare internațională.",
+     "ideiCheie": [
+      "Globalizarea: creșterea interdependenței economice, tehnologice și culturale dintre țări.",
+      "Motoare: liberalizarea comerțului, transporturi, comunicații, companii transnaționale.",
+      "Beneficii și costuri: creștere și tehnologie, dar și inegalități, mediu, vulnerabilitate la crize.",
+      "Dezvoltarea durabilă îmbină dimensiunea economică, socială și ecologică (Agenda 2030)."
+     ],
+     "termeni": [
+      {
+       "t": "globalizare",
+       "d": "procesul de creștere a interdependenței economice, tehnologice și culturale dintre țări"
+      },
+      {
+       "t": "companie transnațională",
+       "d": "firmă care își desfășoară activitatea în mai multe țări, dincolo de granițele naționale"
+      },
+      {
+       "t": "dezvoltare durabilă",
+       "d": "dezvoltarea care satisface nevoile prezentului fără a compromite generațiile viitoare"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este globalizarea?",
+       "v": "Creșterea interdependenței economice, tehnologice și culturale dintre țări."
+      },
+      {
+       "f": "Care sunt câteva motoare ale globalizării?",
+       "v": "Liberalizarea comerțului, progresul transporturilor și comunicațiilor, companiile transnaționale."
+      },
+      {
+       "f": "Care sunt câteva costuri ale globalizării?",
+       "v": "Adâncirea inegalităților, delocalizarea, presiunea asupra mediului, propagarea rapidă a crizelor."
+      },
+      {
+       "f": "Ce înseamnă dezvoltarea durabilă?",
+       "v": "Satisfacerea nevoilor prezentului fără a compromite capacitatea generațiilor viitoare."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Globalizarea înseamnă, în primul rând:",
+       "optiuni": [
+        "creșterea interdependenței dintre economiile și societățile lumii",
+        "închiderea economiilor naționale",
+        "desființarea comerțului internațional",
+        "reducerea rolului tehnologiei"
+       ],
+       "corect": 0,
+       "explicatie": "Mărfuri, capitaluri, oameni și informații circulă tot mai liber."
+      },
+      {
+       "intrebare": "O critică frecventă adusă globalizării este că:",
+       "optiuni": [
+        "poate adânci inegalitățile și presiunea asupra mediului",
+        "reduce întotdeauna prețurile la zero",
+        "elimină orice risc de criză",
+        "oprește progresul tehnologic"
+       ],
+       "corect": 0,
+       "explicatie": "Beneficiile ei sunt însoțite de costuri reale."
+      },
+      {
+       "intrebare": "Dezvoltarea durabilă îmbină dimensiunea:",
+       "optiuni": [
+        "economică, socială și ecologică",
+        "doar economică",
+        "doar ecologică",
+        "doar politică"
+       ],
+       "corect": 0,
+       "explicatie": "Ea privește și nevoile generațiilor viitoare."
+      },
+      {
+       "intrebare": "Provocări precum schimbările climatice și inegalitatea globală cer, de regulă:",
+       "optiuni": [
+        "cooperare internațională",
+        "soluții strict naționale",
+        "renunțarea la orice reglementare",
+        "creșterea PIB-ului cu orice preț"
+       ],
+       "corect": 0,
+       "explicatie": "Nicio țară nu le poate rezolva singură."
+      }
+     ]
+    }
+   ]
   }
  ],
  "teze": [
   {
    "semestru": 1,
    "test": [
+    {
+     "intrebare": "Produsul intern brut măsoară valoarea bunurilor și serviciilor finale produse:",
+     "optiuni": [
+      "pe teritoriul unei țări într-un an",
+      "de cetățenii unei țări, oriunde s-ar afla",
+      "doar în industrie",
+      "doar pentru export"
+     ],
+     "corect": 0,
+     "explicatie": "Criteriul PIB este teritoriul."
+    },
+    {
+     "intrebare": "Pentru comparații corecte în timp se folosește:",
+     "optiuni": [
+      "PIB real, în prețuri constante",
+      "PIB nominal",
+      "cifra de afaceri totală",
+      "masa monetară"
+     ],
+     "corect": 0,
+     "explicatie": "PIB nominal poate crește doar din cauza prețurilor."
+    },
+    {
+     "intrebare": "Faza ciclului economic în care scade producția și crește șomajul este:",
+     "optiuni": [
+      "recesiunea",
+      "expansiunea",
+      "vârful",
+      "relansarea"
+     ],
+     "corect": 0,
+     "explicatie": "O recesiune profundă și prelungită devine criză."
+    },
+    {
+     "intrebare": "Cererea este elastică atunci când coeficientul de elasticitate, în modul, este:",
+     "optiuni": [
+      "supraunitar",
+      "subunitar",
+      "egal cu zero",
+      "egal cu 1"
+     ],
+     "corect": 0,
+     "explicatie": "Cantitatea cerută reacționează puternic la preț."
+    },
+    {
+     "intrebare": "Economiile de scară înseamnă că, pe termen lung, costul mediu:",
+     "optiuni": [
+      "scade pe măsură ce crește producția",
+      "crește mereu",
+      "rămâne constant",
+      "devine zero"
+     ],
+     "corect": 0,
+     "explicatie": "Ele explică avantajul de cost al firmelor mari."
+    },
+    {
+     "intrebare": "Poluarea nesuportată de firma care o produce este un exemplu de:",
+     "optiuni": [
+      "externalitate negativă",
+      "bun public",
+      "economie de scară",
+      "monopol natural"
+     ],
+     "corect": 0,
+     "explicatie": "Este un eșec al pieței."
+    },
     {
      "intrebare": "Costul de oportunitate reprezintă:",
      "optiuni": [
@@ -1253,6 +2415,72 @@
   {
    "semestru": 2,
    "test": [
+    {
+     "intrebare": "Bugetul de stat este deficitar atunci când:",
+     "optiuni": [
+      "cheltuielile publice depășesc veniturile",
+      "veniturile depășesc cheltuielile",
+      "veniturile egalează cheltuielile",
+      "nu se percep impozite"
+     ],
+     "corect": 0,
+     "explicatie": "Deficitul crește datoria publică."
+    },
+    {
+     "intrebare": "TVA-ul și accizele sunt impozite:",
+     "optiuni": [
+      "indirecte, cuprinse în prețul bunurilor",
+      "directe, pe venit",
+      "pe avere",
+      "pe profit"
+     ],
+     "corect": 0,
+     "explicatie": "Ele sunt suportate de consumatorul final."
+    },
+    {
+     "intrebare": "Politica monetară este condusă de:",
+     "optiuni": [
+      "banca centrală",
+      "guvern",
+      "parlament",
+      "băncile comerciale"
+     ],
+     "corect": 0,
+     "explicatie": "Politica fiscală este condusă de guvern."
+    },
+    {
+     "intrebare": "Băncile comerciale creează monedă scripturală prin:",
+     "optiuni": [
+      "acordarea de credite din depozitele atrase",
+      "tipărirea de bancnote",
+      "baterea de monede",
+      "emiterea de titluri de stat"
+     ],
+     "corect": 0,
+     "explicatie": "Este mecanismul rezervelor fracționare."
+    },
+    {
+     "intrebare": "Cine cumpără o acțiune a unei firme devine:",
+     "optiuni": [
+      "coproprietar, cu drept la dividend",
+      "creditor, cu drept la dobândă",
+      "angajat al firmei",
+      "garant al datoriilor firmei"
+     ],
+     "corect": 0,
+     "explicatie": "Obligațiunea, în schimb, e un titlu de creanță."
+    },
+    {
+     "intrebare": "Dezvoltarea durabilă îmbină dimensiunea:",
+     "optiuni": [
+      "economică, socială și ecologică",
+      "doar economică",
+      "doar politică",
+      "doar ecologică"
+     ],
+     "corect": 0,
+     "explicatie": "Ea privește și nevoile generațiilor viitoare."
+    },
     {
      "intrebare": "Funcția banilor de a transfera putere de cumpărare în viitor este:",
      "optiuni": [

@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Sisteme de vot și paradoxuri
 
-[[Matematică aplicată în științele sociale (clasa a XII-a)|Matematică aplicată în științele sociale]] · [[Clasa a XII-a]] · lecția 5 din 9
+[[Matematică aplicată în științele sociale (clasa a XII-a)|Matematică aplicată în științele sociale]] · [[Clasa a XII-a]] · lecția 5 din 18
 
 **Capitolul:** Sondaje, alegeri, decizie colectivă — semestrul 1
 

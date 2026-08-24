@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Mediul și dezvoltarea durabilă
 
-[[Limba modernă 2 (Franceză) (clasa a XII-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XII-a]] · lecția 7 din 9
+[[Limba modernă 2 (Franceză) (clasa a XII-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XII-a]] · lecția 7 din 18
 
 **Capitolul:** Teme contemporane — semestrul 2
 

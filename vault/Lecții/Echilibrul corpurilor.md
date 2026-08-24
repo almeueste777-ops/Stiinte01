@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Echilibrul corpurilor
 
-[[Fizică (clasa a IX-a)|Fizică]] · [[Clasa a IX-a]] · lecția 7 din 9
+[[Fizică (clasa a IX-a)|Fizică]] · [[Clasa a IX-a]] · lecția 7 din 18
 
 **Capitolul:** Echilibru, presiune, aplicații — semestrul 2
 

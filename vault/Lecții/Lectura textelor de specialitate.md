@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Lectura textelor de specialitate
 
-[[Limba modernă 2 (Franceză) (clasa a XII-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XII-a]] · lecția 6 din 9
+[[Limba modernă 2 (Franceză) (clasa a XII-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XII-a]] · lecția 6 din 18
 
 **Capitolul:** Lexic și texte — semestrul 1
 

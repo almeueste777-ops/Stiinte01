@@ -350,7 +350,326 @@ Dezinformarea circulă online mai repede decât informația verificată, fiindc�
 - este verificată automat
 ! Reacția, nu corectitudinea, determină difuzarea.
 
+## 1 | tic9-c4 | Reprezentarea informației
+### tic9-10 | Sistemul binar și unitățile informației
+Calculatorul lucrează cu două stări electrice, pe care le notăm 0 și 1. De aceea toată informația — numere, text, imagini, sunet — este codificată în sistemul binar (baza 2). Cifra binară se numește bit, iar un grup de opt biți formează un octet (byte), unitatea de bază pentru măsurarea datelor.
+Un număr întreg se scrie în binar folosind puteri ale lui 2: de exemplu 1011 în binar înseamnă 1·8 + 0·4 + 1·2 + 1·1 = 11 în zecimal. Cu n biți se pot reprezenta 2 la puterea n valori distincte: opt biți acoperă 256 de valori, de la 0 la 255. Multiplii octetului cresc, uzual, din 1024 în 1024: kilooctet (KB), megaoctet (MB), gigaoctet (GB), teraoctet (TB).
+Alegerea sistemului binar nu este întâmplătoare: două stări (prezența sau absența curentului) sunt ușor de distins și de menținut fiabil în circuite. Sistemul hexazecimal (baza 16) se folosește ca scriere prescurtată a binarului, mai ales pentru culori și adrese de memorie.
+* În binar există doar două cifre: 0 și 1; unitatea este bitul.
+* Un octet are opt biți și poate reprezenta 256 de valori (0–255).
+* Cu n biți se reprezintă 2 la puterea n valori distincte.
+* Multiplii octetului cresc, uzual, din 1024 în 1024: KB, MB, GB, TB.
+= bit :: cea mai mică unitate de informație, care poate lua valoarea 0 sau 1
+= sistem binar :: sistemul de numerație în baza 2, folosit de calculatoare
+= octet :: grup de opt biți, unitatea de bază pentru măsurarea datelor
+@ Ce este un bit? :: Cea mai mică unitate de informație, cu valoarea 0 sau 1.
+@ Câte valori se pot reprezenta cu opt biți? :: 256, adică 2 la puterea 8, de la 0 la 255.
+@ În ce bază lucrează sistemul binar? :: În baza 2.
+@ Cât face numărul binar 1011 în zecimal? :: 11 (8 + 0 + 2 + 1).
+? Numărul binar 1011 corespunde, în zecimal, valorii:
++ 11
+- 9
+- 13
+- 15
+! 1·8 + 0·4 + 1·2 + 1·1 = 11.
+? Cu opt biți se pot reprezenta:
++ 256 de valori
+- 8 valori
+- 64 de valori
+- 1024 de valori
+! 2 la puterea 8 este 256.
+? Cea mai mică unitate de informație este:
++ bitul
+- octetul
+- kilobytul
+- caracterul
+! Un octet are opt biți.
+? Sistemul binar folosește cifrele:
++ 0 și 1
+- de la 0 la 9
+- de la 0 la 7
+- 0, 1 și 2
+! Ele corespund celor două stări electrice.
+
+### tic9-11 | Reprezentarea textului, a imaginii și a sunetului
+Textul se codifică asociind fiecărui caracter un număr. Codul ASCII a folosit inițial 7–8 biți și acoperea literele latine, cifrele și semnele de bază. Pentru a reprezenta toate sistemele de scriere ale lumii — inclusiv diacriticele românești, chineza sau emoji — s-a impus standardul Unicode, cu codificarea UTF-8, care folosește un număr variabil de octeți pentru fiecare caracter.
+Imaginea digitală de tip raster este o rețea de puncte colorate numite pixeli. Fiecare pixel are o culoare, exprimată de regulă în modelul RGB (roșu, verde, albastru), câte un octet pentru fiecare canal, deci circa 16,7 milioane de culori posibile. Rezoluția (numărul de pixeli) și adâncimea de culoare determină calitatea și dimensiunea fișierului. Imaginile vectoriale, în schimb, sunt descrise prin formule geometrice și se pot mări fără pierderea calității.
+Sunetul, o undă continuă, se digitizează prin eșantionare: se măsoară amplitudinea la intervale regulate (rata de eșantionare, de exemplu 44 100 de ori pe secundă la calitate CD) și se cuantizează pe un număr de biți. Cu cât rata de eșantionare și adâncimea în biți sunt mai mari, cu atât redarea este mai fidelă, dar fișierul mai mare. Compresia (JPEG pentru imagini, MP3 pentru sunet) reduce dimensiunea, uneori cu pierderi.
+* Textul se codifică prin numere; Unicode/UTF-8 acoperă toate scrierile lumii.
+* Imaginea raster e formată din pixeli; culoarea se dă în modelul RGB.
+* Sunetul se digitizează prin eșantionare și cuantizare.
+* Compresia (JPEG, MP3) reduce dimensiunea fișierelor, uneori cu pierderi.
+= pixel :: cel mai mic punct dintr-o imagine raster, cu o culoare proprie
+= Unicode :: standardul care atribuie un cod unic fiecărui caracter din scrierile lumii
+= eșantionare :: măsurarea la intervale regulate a unei mărimi continue, pentru digitizare
+@ Ce este un pixel? :: Cel mai mic punct colorat dintr-o imagine raster.
+@ Ce standard acoperă diacriticele și emoji? :: Unicode, cu codificarea UTF-8.
+@ Ce înseamnă modelul RGB? :: Combinarea a trei culori: roșu, verde și albastru.
+@ Cum se digitizează sunetul? :: Prin eșantionare (măsurare la intervale regulate) și cuantizare.
+? O imagine raster este formată din:
++ pixeli
+- vectori
+- caractere
+- eșantioane
+! Fiecare pixel are o culoare proprie.
+? Diacriticele românești și emoji sunt acoperite de:
++ Unicode
+- ASCII pe 7 biți
+- codul Morse
+- sistemul zecimal
+! UTF-8 este codificarea uzuală a Unicode.
+? Modelul RGB combină culorile:
++ roșu, verde și albastru
+- roșu, galben și albastru
+- cyan, magenta și galben
+- alb și negru
+! Fiecare canal are, de obicei, câte un octet.
+? Spre deosebire de imaginea raster, imaginea vectorială:
++ se poate mări fără pierderea calității
+- este formată din pixeli
+- are întotdeauna fișier mai mare
+- nu poate fi colorată
+! Ea este descrisă prin formule geometrice.
+
+### tic9-12 | Periferice, porturi și conectarea dispozitivelor
+Perifericele sunt dispozitivele conectate la unitatea centrală. Se împart în periferice de intrare (tastatură, mouse, scaner, cameră web, microfon), de ieșire (monitor, imprimantă, difuzoare, videoproiector) și de intrare-ieșire (ecran tactil, imprimantă multifuncțională, memorie externă). Legătura se face prin porturi și cabluri sau fără fir.
+Porturile uzuale: USB (universal, pentru majoritatea perifericelor și pentru alimentare), HDMI (imagine și sunet către monitor sau televizor), jack audio, Ethernet (rețea cu fir). Conexiunile fără fir folosesc Wi-Fi (rețea locală) și Bluetooth (distanțe mici, între căști, mouse, telefon). Pentru ca sistemul de operare să recunoască un periferic, este nevoie de un driver — programul care traduce comenzile între sistem și dispozitiv.
+Alegerea și întreținerea perifericelor țin de ergonomie și fiabilitate: o tastatură și un mouse potrivite reduc oboseala, un monitor bine reglat protejează vederea, iar conectarea și deconectarea corectă (scoaterea în siguranță a memoriilor externe) previn pierderea datelor. Standardul USB-C actual permite, printr-un singur cablu reversibil, atât transfer rapid, cât și încărcare.
+* Perifericele sunt de intrare, de ieșire sau de intrare-ieșire.
+* Porturi uzuale: USB, HDMI, jack audio, Ethernet.
+* Wi-Fi și Bluetooth sunt conexiuni fără fir.
+* Driverul este programul care face un periferic recunoscut de sistemul de operare.
+= periferic :: dispozitiv conectat la unitatea centrală, de intrare sau de ieșire
+= driver :: programul care permite sistemului de operare să comunice cu un dispozitiv
+= Bluetooth :: tehnologie de conectare fără fir, pe distanțe mici
+@ Ce este un driver? :: Programul care permite sistemului de operare să comunice cu un dispozitiv.
+@ Ce port transmite imagine și sunet către un monitor? :: HDMI.
+@ Ce conexiune fără fir se folosește pentru căști și mouse? :: Bluetooth.
+@ Dă un exemplu de periferic de intrare-ieșire. :: Ecranul tactil sau imprimanta multifuncțională.
+? Pentru a conecta un monitor și a transmite imagine și sunet se folosește, uzual:
++ HDMI
+- jack audio
+- Ethernet
+- USB pentru tastatură
+! HDMI transportă atât imaginea, cât și sunetul.
+? Bluetooth se folosește pentru:
++ conexiuni fără fir pe distanțe mici
+- conectarea la internetul global
+- alimentarea cu energie
+- stocarea permanentă a datelor
+! Este util pentru căști, mouse sau transfer între telefoane.
+? Pentru ca un periferic nou să fie recunoscut, sistemul are nevoie de:
++ un driver
+- o parolă
+- un antivirus
+- o placă grafică nouă
+! Driverul traduce comenzile între sistem și dispozitiv.
+? Scoaterea în siguranță a unei memorii USB este importantă pentru:
++ a evita pierderea datelor aflate în curs de scriere
+- a economisi energie
+- a crește viteza portului
+- a instala un driver
+! Deconectarea bruscă poate corupe fișierele.
+
+## 1 | tic9-c5 | Lucru eficient și sănătos
+### tic9-13 | Ergonomie, sănătate digitală și echilibru
+Folosirea îndelungată a dispozitivelor solicită corpul și mintea. Ergonomia la calculator cere: monitorul la nivelul ochilor și la distanța unui braț, spatele sprijinit și drept, picioarele pe podea, antebrațele paralele cu masa, iluminare fără reflexii pe ecran. Regula 20-20-20 previne oboseala vizuală: la fiecare 20 de minute, privește 20 de secunde un obiect aflat la circa 20 de pași.
+Sănătatea digitală înseamnă și echilibrul dintre timpul petrecut online și restul vieții. Semne de folosire problematică: pierderea noțiunii timpului, neglijarea somnului, a mișcării și a relațiilor față în față, nevoia de a verifica neîncetat notificările. Măsuri utile: pauze regulate, dezactivarea notificărilor neimportante, un program fără ecrane înainte de somn (lumina albastră îngreunează adormirea), activitate fizică și timp în aer liber.
+Igiena atenției este o competență în sine: mediile digitale sunt proiectate să capteze atenția, iar comutarea permanentă între sarcini reduce, de fapt, performanța. Lucrul concentrat, pe o singură sarcină, cu notificările oprite, este mai eficient. Echilibrul nu înseamnă respingerea tehnologiei, ci folosirea ei deliberată, în slujba propriilor scopuri.
+* Ergonomia: monitor la nivelul ochilor, spate drept, picioare pe podea, fără reflexii.
+* Regula 20-20-20 previne oboseala vizuală.
+* Lumina albastră seara îngreunează adormirea.
+* Lucrul concentrat este mai eficient decât comutarea permanentă între sarcini.
+= ergonomie :: adaptarea locului de muncă la corp, pentru confort și sănătate
+= regula 20-20-20 :: la 20 de minute, o pauză de 20 de secunde privind la circa 20 de pași
+= sănătate digitală :: echilibrul dintre folosirea tehnologiei și restul vieții
+@ La ce distanță și înălțime se așază monitorul? :: La distanța unui braț și la nivelul ochilor.
+@ Ce spune regula 20-20-20? :: La 20 de minute, privește 20 de secunde un obiect aflat la circa 20 de pași.
+@ De ce se evită ecranele înainte de somn? :: Pentru că lumina albastră îngreunează adormirea.
+@ Este eficientă comutarea permanentă între sarcini? :: Nu; lucrul concentrat pe o singură sarcină este mai eficient.
+? Regula 20-20-20 previne:
++ oboseala vizuală
+- încălzirea procesorului
+- pierderea fișierelor
+- infectarea cu viruși
+! Ochii se relaxează privind la distanță.
+? Poziția corectă la calculator presupune:
++ monitorul la nivelul ochilor și spatele sprijinit
+- monitorul mult sub nivelul ochilor
+- lucrul aplecat înainte
+- ecranul lipit de față
+! Ergonomia reduce oboseala și problemele de postură.
+? Folosirea ecranelor imediat înainte de somn:
++ îngreunează adormirea, din cauza luminii albastre
+- îmbunătățește somnul
+- nu are niciun efect
+- crește atenția a doua zi
+! Se recomandă un interval fără ecrane seara.
+? Comparativ cu lucrul concentrat, comutarea permanentă între sarcini:
++ reduce, de regulă, performanța
+- o crește mereu
+- nu o influențează
+- elimină oboseala
+! Fiecare comutare are un cost de atenție.
+
+### tic9-14 | Organizarea, arhivarea și copiile fișierelor
+O bibliotecă digitală crește repede și devine de negăsit fără o organizare gândită. Principii: o structură de foldere logică și puțin adâncă, nume descriptive și consecvente (proiect, tip, dată în format an-lună-zi pentru sortare corectă), evitarea denumirilor „final”, „final2”, „ultimul_final”. Convențiile de denumire economisesc mai mult timp decât aproape orice alt obicei digital.
+Arhivarea comprimă unul sau mai multe fișiere într-un singur pachet (de exemplu .zip), reducând dimensiunea și ușurând transferul; arhiva poate fi protejată cu parolă. Compresia este fără pierderi pentru documente (textul se recuperează integral) și, uneori, cu pierderi pentru imagini sau sunet. Dezarhivarea reface fișierele originale.
+Copia de siguranță (backup) este plasa de salvare împotriva pierderii datelor prin defecțiune, ștergere accidentală, furt sau ransomware. Regula practică 3-2-1: trei copii ale datelor, pe două tipuri de suport, dintre care una într-o locație diferită (de exemplu în cloud). O copie păstrată lângă original nu protejează împotriva incendiului sau a furtului; de aceea contează separarea fizică.
+* Structură de foldere logică, nume descriptive, dată în format an-lună-zi.
+* Arhivarea (.zip) reduce dimensiunea și poate fi protejată cu parolă.
+* Copia de siguranță protejează împotriva pierderii datelor.
+* Regula 3-2-1: trei copii, două suporturi, una într-o locație separată.
+= arhivă :: fișier care conține, comprimate, unul sau mai multe fișiere
+= copie de siguranță :: duplicat al datelor, păstrat pentru cazul pierderii originalului
+= regula 3-2-1 :: trei copii, pe două tipuri de suport, una într-o locație separată
+@ Ce face arhivarea unui folder? :: Îl comprimă într-un singur fișier, mai mic și mai ușor de transferat.
+@ Ce spune regula 3-2-1 a copiilor de siguranță? :: Trei copii, pe două suporturi, una într-o locație separată.
+@ De ce se pune data în format an-lună-zi în numele fișierelor? :: Pentru ca sortarea alfabetică să le ordoneze și cronologic.
+@ Protejează o copie păstrată lângă original împotriva furtului? :: Nu; de aceea o copie se ține într-o altă locație.
+? Regula 3-2-1 a copiilor de siguranță cere:
++ trei copii, pe două suporturi, una într-o altă locație
+- o singură copie pe același disc
+- trei copii pe același disc
+- două copii în același folder
+! Separarea fizică protejează împotriva incendiului sau furtului.
+? Arhivarea unui folder este utilă pentru:
++ reducerea dimensiunii și transferul mai ușor
+- creșterea vitezei procesorului
+- mărirea memoriei RAM
+- accelerarea internetului
+! Arhiva poate fi și protejată cu parolă.
+? Datele în numele fișierelor se scriu, pentru sortare corectă, în format:
++ an-lună-zi
+- zi-lună-an
+- lună-zi-an
+- fără an
+! Astfel ordinea alfabetică coincide cu cea cronologică.
+? O copie de siguranță păstrată doar pe același disc cu originalul:
++ nu ajută dacă discul se defectează
+- este cea mai sigură
+- respectă regula 3-2-1
+- este suficientă împotriva furtului
+! Copiile trebuie separate de original.
+
+## 2 | tic9-c6 | Documente structurate
+### tic9-15 | Tabele și liste în procesorul de text
+Tabelul organizează informația în rânduri și coloane și este ideal pentru date comparabile: orare, liste de prețuri, rezultate. Se inserează precizând numărul de rânduri și de coloane, apoi se pot adăuga sau șterge linii, îmbina celule, alinia conținutul și aplica un stil de tabel pentru un aspect unitar. Rândul de antet, repetat pe fiecare pagină, ușurează citirea tabelelor lungi.
+Listele structurează enumerările. Lista neordonată (cu marcatori) se folosește când ordinea nu contează; lista ordonată (numerotată) când pașii se succed logic. Listele pot fi imbricate pe mai multe niveluri, iar numerotarea automată se actualizează singură când se adaugă sau se șterge un element — de aceea nu se numerotează niciodată manual.
+Alegerea corectă între tabel și listă ține de natura informației: tabelul pentru date pe două dimensiuni, lista pentru o înșiruire pe o singură dimensiune. Un tabel supraîncărcat sau folosit doar pentru a alinia text devine greu de întreținut; pentru aliniere se folosesc tabulatorii sau coloanele, nu tabele invizibile.
+* Tabelul e potrivit pentru date comparabile, pe rânduri și coloane.
+* Rândul de antet repetat ușurează citirea tabelelor lungi.
+* Lista ordonată e pentru pași succesivi; cea neordonată, când ordinea nu contează.
+* Numerotarea automată se actualizează singură; nu se numerotează manual.
+= tabel :: structură de rânduri și coloane pentru organizarea datelor comparabile
+= listă ordonată :: enumerare numerotată automat, pentru elemente cu ordine logică
+= rând de antet :: primul rând al unui tabel, care denumește coloanele
+@ Când se folosește un tabel? :: Pentru date comparabile, organizate pe rânduri și coloane.
+@ Ce avantaj are numerotarea automată a listelor? :: Se actualizează singură când se adaugă sau se șterg elemente.
+@ Când se preferă o listă ordonată? :: Când elementele se succed într-o ordine logică.
+@ La ce folosește rândul de antet repetat? :: Ajută citirea tabelelor întinse pe mai multe pagini.
+? O listă ordonată (numerotată) este potrivită pentru:
++ pași care se succed logic
+- elemente fără ordine
+- alinierea a două coloane de text
+- inserarea unei imagini
+! Când ordinea nu contează se folosește lista cu marcatori.
+? Numerotarea manuală a unei liste este dezavantajoasă pentru că:
++ nu se actualizează singură la adăugarea sau ștergerea elementelor
+- ocupă mai puțin spațiu
+- este mai lizibilă
+- permite imbricarea
+! Numerotarea automată rezolvă problema.
+? Pentru date comparabile pe două criterii este potrivit:
++ tabelul
+- lista neordonată
+- nota de subsol
+- antetul paginii
+! Tabelul organizează informația pe rânduri și coloane.
+? Rândul de antet al unui tabel lung, repetat pe fiecare pagină:
++ ușurează citirea și înțelegerea coloanelor
+- mărește mult fișierul
+- este interzis
+- înlocuiește numerotarea
+! El denumește coloanele oriunde continuă tabelul.
+
+### tic9-16 | Imagini și obiecte grafice în documente
+Un document câștigă în claritate prin imagini, diagrame și obiecte grafice, dacă acestea sunt relevante și bine integrate. Imaginea se inserează dintr-un fișier și se poziționează în raport cu textul: „în linie cu textul” (se comportă ca un caracter) sau cu „încadrarea textului” în jur. Redimensionarea se face păstrând proporțiile (trăgând de un colț), pentru a nu deforma imaginea.
+Pe lângă fotografii, se pot insera forme, pictograme, diagrame (organigrame, procese) și grafice legate de datele dintr-un tabel. Fiecare obiect ar trebui să aibă un titlu sau o legendă și, pentru accesibilitate, un text alternativ care descrie conținutul pentru cititoarele de ecran. Rezoluția imaginii trebuie să fie suficientă pentru tipărire, dar nu excesivă, ca fișierul să rămână gestionabil.
+Buna practică cere ca imaginile să servească mesajul, nu să-l încarce: o diagramă limpede spune mai mult decât un paragraf, dar o imagine decorativă fără legătură distrage. Se preferă formate potrivite (fotografii în JPEG, desene și capturi cu zone plate în PNG) și se verifică drepturile de folosire ale oricărei imagini preluate din altă parte.
+* Imaginea se poziționează în linie cu textul sau cu încadrarea textului.
+* Redimensionarea se face din colț, pentru a păstra proporțiile.
+* Textul alternativ descrie imaginea pentru cititoarele de ecran (accesibilitate).
+* Formatele potrivite: JPEG pentru fotografii, PNG pentru desene și capturi.
+= text alternativ :: descriere textuală a unei imagini, citită de tehnologiile de accesibilitate
+= încadrarea textului :: modul în care textul curge în jurul unei imagini
+= legendă :: text scurt care explică o imagine sau o figură
+@ La ce folosește textul alternativ al unei imagini? :: Descrie imaginea pentru cititoarele de ecran, sprijinind accesibilitatea.
+@ Cum se redimensionează o imagine fără a o deforma? :: Trăgând de un colț, ca să se păstreze proporțiile.
+@ Ce format e potrivit pentru fotografii? :: JPEG.
+@ Ce format e potrivit pentru desene și capturi de ecran? :: PNG.
+? Pentru a nu deforma o imagine, se redimensionează:
++ trăgând de un colț, păstrând proporțiile
+- trăgând de o singură latură
+- prin decupare
+- schimbând doar rezoluția
+! Tragerea de o latură modifică raportul laturilor.
+? Textul alternativ al unei imagini servește:
++ accesibilității, fiind citit de cititoarele de ecran
+- creșterii rezoluției
+- reducerii dimensiunii fișierului
+- alinierii textului
+! El descrie conținutul pentru cine nu vede imaginea.
+? Pentru o fotografie într-un document este potrivit formatul:
++ JPEG
+- TXT
+- MP3
+- ZIP
+! PNG este mai potrivit pentru desene și capturi cu zone plate.
+? O imagine decorativă fără legătură cu textul:
++ distrage cititorul de la mesaj
+- este întotdeauna recomandată
+- înlocuiește o diagramă
+- crește accesibilitatea
+! Imaginile trebuie să servească mesajul.
+
 %% teza 1
+? Numărul binar 1011 înseamnă, în zecimal:
++ 11
+- 9
+- 12
+- 15
+! 8 + 0 + 2 + 1 = 11.
+? Cu opt biți se pot reprezenta:
++ 256 de valori
+- 8 valori
+- 16 valori
+- 100 de valori
+! 2 la puterea 8 este 256.
+? O imagine raster este alcătuită din:
++ pixeli
+- vectori
+- octeți de text
+- eșantioane sonore
+! Fiecare pixel are o culoare, uzual în modelul RGB.
+? Diacriticele și emoji sunt cuprinse în standardul:
++ Unicode
+- ASCII pe 7 biți
+- binar pur
+- hexazecimal
+! Codificarea uzuală este UTF-8.
+? Pentru ca sistemul de operare să folosească un periferic nou este nevoie de:
++ un driver
+- o parolă
+- un cont de e-mail
+- un browser
+! Driverul mediază comunicarea cu dispozitivul.
+? Regula 3-2-1 a copiilor de siguranță cere:
++ trei copii, pe două suporturi, una în altă locație
+- o copie pe același disc
+- trei copii în același folder
+- două copii pe desktop
+! Separarea fizică protejează datele.
 ? Memoria RAM este:
 + volatilă
 - permanentă
@@ -425,6 +744,42 @@ Dezinformarea circulă online mai repede decât informația verificată, fiindc�
 ! Astfel adresele nu sunt expuse.
 
 %% teza 2
+? O listă numerotată automat este preferabilă pentru că:
++ se actualizează singură la adăugarea sau ștergerea elementelor
+- ocupă mai puțin loc
+- nu poate fi modificată
+- se tipărește mai repede
+! Numerotarea manuală trebuie refăcută la fiecare schimbare.
+? Pentru date comparabile pe rânduri și coloane se folosește:
++ un tabel
+- o listă cu marcatori
+- o notă de subsol
+- un antet de pagină
+! Tabelul organizează informația pe două dimensiuni.
+? Textul alternativ al unei imagini folosește:
++ accesibilității, fiind citit de cititoarele de ecran
+- măririi rezoluției
+- reducerii fișierului
+- alinierii paginii
+! El descrie imaginea pentru cine nu o poate vedea.
+? O imagine se redimensionează fără deformare:
++ trăgând de un colț
+- trăgând de o latură
+- prin schimbarea formatului
+- prin decupare
+! Astfel se păstrează proporțiile.
+? Pentru o fotografie este potrivit formatul:
++ JPEG
+- TXT
+- MP3
+- ZIP
+! PNG e mai potrivit pentru desene și capturi.
+? O imagine decorativă fără legătură cu textul:
++ distrage cititorul de la mesaj
+- este mereu recomandată
+- crește accesibilitatea
+- înlocuiește o diagramă
+! Imaginile trebuie să servească mesajul.
 ? Cea mai eficientă măsură împotriva parolelor furate este:
 + autentificarea în doi pași
 - schimbarea lunară a parolei

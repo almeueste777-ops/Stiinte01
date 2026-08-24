@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Cultură, identitate, apartenență
 
-[[Studii sociale (clasa a XI-a)|Studii sociale]] · [[Clasa a XI-a]] · lecția 1 din 9
+[[Studii sociale (clasa a XI-a)|Studii sociale]] · [[Clasa a XI-a]] · lecția 1 din 18
 
 **Capitolul:** Identitate și diversitate culturală — semestrul 1
 

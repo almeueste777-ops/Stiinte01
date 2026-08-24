@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Mecanisme de protecție și participare civică
 
-[[Studii sociale (clasa a XI-a)|Studii sociale]] · [[Clasa a XI-a]] · lecția 6 din 9
+[[Studii sociale (clasa a XI-a)|Studii sociale]] · [[Clasa a XI-a]] · lecția 6 din 18
 
 **Capitolul:** Drepturile omului — semestrul 2
 

@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Fundamentele și generațiile drepturilor
 
-[[Studii sociale (clasa a XI-a)|Studii sociale]] · [[Clasa a XI-a]] · lecția 4 din 9
+[[Studii sociale (clasa a XI-a)|Studii sociale]] · [[Clasa a XI-a]] · lecția 4 din 18
 
 **Capitolul:** Drepturile omului — semestrul 2
 

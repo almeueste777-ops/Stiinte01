@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Condiționalul
 
-[[Limba modernă 2 (Franceză) (clasa a XI-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XI-a]] · lecția 1 din 9
+[[Limba modernă 2 (Franceză) (clasa a XI-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XI-a]] · lecția 1 din 18
 
 **Capitolul:** Moduri și timpuri — semestrul 1
 

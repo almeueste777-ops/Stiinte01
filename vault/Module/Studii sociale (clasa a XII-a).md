@@ -20,7 +20,7 @@ cssclasses: fisa
 
 Educație economică și pentru dezvoltare: bugetul personal, consumatorul, munca, dezvoltarea durabilă și responsabilitatea socială.
 
-## Capitole (3)
+## Capitole (6)
 
 ### Educație financiară personală — semestrul 1
 
@@ -40,9 +40,27 @@ Educație economică și pentru dezvoltare: bugetul personal, consumatorul, munc
 - [[Responsabilitate socială și consum responsabil]]
 - [[Etică, corupție și integritate publică]]
 
+### Uniunea Europeană — semestrul 1
+
+- [[Construcția europeană - istorie și valori]]
+- [[Instituțiile Uniunii Europene]]
+- [[Cetățenia europeană și piața unică]]
+
+### Participare și reprezentare — semestrul 1
+
+- [[Alegeri și sisteme electorale]]
+- [[Participarea civică și politică]]
+- [[Partide, campanii și votul informat]]
+
+### Egalitate, minorități, nediscriminare — semestrul 2
+
+- [[Egalitatea de șanse și egalitatea de gen]]
+- [[Minorități și drepturile lor]]
+- [[Discriminarea și combaterea ei]]
+
 ## Exersare
-- [[Carduri - Studii sociale (clasa a XII-a)]] — 36 carduri
-- [[Test - Studii sociale (clasa a XII-a)]] — 60 întrebări
+- [[Carduri - Studii sociale (clasa a XII-a)]] — 72 carduri
+- [[Test - Studii sociale (clasa a XII-a)]] — 108 întrebări
 
 ## Legături
 - [[Studii sociale|Studii sociale]]

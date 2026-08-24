@@ -792,12 +792,864 @@
      ]
     }
    ]
+  },
+  {
+   "id": "bio10-c4",
+   "titlu": "Diviziunea celulară",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "bio10-10",
+     "titlu": "Ciclul celular și mitoza",
+     "rezumat": "Ciclul celular este succesiunea de etape prin care trece o celulă de la formare până la propria diviziune. El cuprinde interfaza, perioada cea mai lungă, în care celula crește și își copiază materialul genetic, și diviziunea propriu-zisă. Interfaza are trei subetape: G1 (creștere), S (replicarea ADN-ului, când fiecare cromozom devine format din doi cromatizi) și G2 (pregătirea diviziunii). Mitoza este diviziunea prin care dintr-o celulă rezultă două celule identice între ele și cu celula-mamă, având același număr de cromozomi. Ea se desfășoară în patru faze: profaza (cromozomii se condensează, se formează fusul de diviziune), metafaza (cromozomii se așază la ecuatorul celulei), anafaza (cromatizii se separă și migrează spre poli) și telofaza (se refac nucleii). Urmează citokineza, împărțirea citoplasmei. Mitoza asigură creșterea organismului, regenerarea și înlocuirea celulelor uzate, precum și reproducerea asexuată. Controlul ciclului celular este strict: când acest control se pierde, celulele se divid necontrolat și apare cancerul. De aceea studiul ciclului celular este esențial în medicină.",
+     "ideiCheie": [
+      "Ciclul celular cuprinde interfaza (G1, S, G2) și diviziunea.",
+      "În faza S se replică ADN-ul; fiecare cromozom ajunge cu doi cromatizi.",
+      "Mitoza are patru faze: profază, metafază, anafază, telofază.",
+      "Mitoza dă două celule identice cu celula-mamă."
+     ],
+     "termeni": [
+      {
+       "t": "ciclu celular",
+       "d": "succesiunea de etape prin care trece o celulă, de la formare până la diviziune"
+      },
+      {
+       "t": "interfază",
+       "d": "etapa dintre două diviziuni, în care celula crește și își copiază ADN-ul"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce se întâmplă în faza S a interfazei?",
+       "v": "Se replică ADN-ul; fiecare cromozom ajunge format din doi cromatizi."
+      },
+      {
+       "f": "Care sunt cele patru faze ale mitozei?",
+       "v": "Profaza, metafaza, anafaza și telofaza."
+      },
+      {
+       "f": "Câte celule rezultă din mitoză și cum sunt?",
+       "v": "Două celule identice între ele și cu celula-mamă."
+      },
+      {
+       "f": "Ce se întâmplă când controlul ciclului celular se pierde?",
+       "v": "Celulele se divid necontrolat și poate apărea cancerul."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Replicarea ADN-ului are loc în:",
+       "optiuni": [
+        "faza S a interfazei",
+        "profază",
+        "anafază",
+        "telofază"
+       ],
+       "corect": 0,
+       "explicatie": "Atunci fiecare cromozom devine format din doi cromatizi."
+      },
+      {
+       "intrebare": "În anafază:",
+       "optiuni": [
+        "cromatizii se separă și migrează spre poli",
+        "cromozomii se condensează",
+        "se replică ADN-ul",
+        "se reface nucleul"
+       ],
+       "corect": 0,
+       "explicatie": "Astfel fiecare celulă-fiică primește un set complet."
+      },
+      {
+       "intrebare": "Mitoza produce celule:",
+       "optiuni": [
+        "identice cu celula-mamă, cu același număr de cromozomi",
+        "cu jumătate din numărul de cromozomi",
+        "cu număr dublu de cromozomi",
+        "fără nucleu"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea asigură creșterea și regenerarea."
+      },
+      {
+       "intrebare": "Diviziunea necontrolată a celulelor stă la baza:",
+       "optiuni": [
+        "cancerului",
+        "meiozei",
+        "fecundației",
+        "fotosintezei"
+       ],
+       "corect": 0,
+       "explicatie": "Controlul ciclului celular este esențial."
+      }
+     ]
+    },
+    {
+     "id": "bio10-11",
+     "titlu": "Meioza",
+     "rezumat": "Meioza este diviziunea prin care se formează celulele sexuale (gameții) și prin care numărul de cromozomi se reduce la jumătate. Dintr-o celulă cu număr diploid (2n) de cromozomi rezultă patru celule cu număr haploid (n). Reducerea este necesară pentru ca, la fecundație, prin unirea a doi gameți, să se refacă numărul diploid caracteristic speciei; altfel numărul de cromozomi s-ar dubla la fiecare generație. Meioza cuprinde două diviziuni succesive. În prima, cromozomii omologi se împerechează și fac schimb de fragmente — fenomenul de recombinare (crossing-over) —, apoi se separă. În a doua diviziune se separă cromatizii, ca la mitoză. Rezultatul sunt patru celule diferite genetic între ele. Meioza este sursa principală a variabilității genetice, prin două mecanisme: recombinarea dintre cromozomii omologi și repartizarea întâmplătoare a cromozomilor materni și paterni în gameți. Împreună cu combinarea întâmplătoare a gameților la fecundație, ele explică de ce frații, deși au aceiași părinți, sunt diferiți între ei.",
+     "ideiCheie": [
+      "Meioza reduce numărul de cromozomi de la diploid (2n) la haploid (n).",
+      "Dintr-o celulă rezultă patru celule diferite genetic.",
+      "Recombinarea (crossing-over) amestecă fragmente între cromozomii omologi.",
+      "Meioza este sursa principală a variabilității genetice."
+     ],
+     "termeni": [
+      {
+       "t": "meioză",
+       "d": "diviziunea prin care se formează gameții, cu reducerea numărului de cromozomi la jumătate"
+      },
+      {
+       "t": "recombinare genetică",
+       "d": "schimbul de fragmente între cromozomii omologi, sursă de variabilitate"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "De ce trebuie redus numărul de cromozomi în meioză?",
+       "v": "Ca la fecundație, prin unirea gameților, să se refacă numărul diploid al speciei."
+      },
+      {
+       "f": "Câte celule rezultă din meioză și cum sunt?",
+       "v": "Patru celule haploide, diferite genetic între ele."
+      },
+      {
+       "f": "Ce este crossing-overul?",
+       "v": "Schimbul de fragmente între cromozomii omologi, în prima diviziune a meiozei."
+      },
+      {
+       "f": "De ce sunt frații diferiți între ei?",
+       "v": "Din cauza recombinării și a repartizării întâmplătoare a cromozomilor, plus combinarea gameților."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Meioza are ca rezultat celule cu:",
+       "optiuni": [
+        "număr redus la jumătate de cromozomi (haploid)",
+        "același număr ca celula-mamă",
+        "număr dublu de cromozomi",
+        "fără cromozomi"
+       ],
+       "corect": 0,
+       "explicatie": "Se formează gameții."
+      },
+      {
+       "intrebare": "Numărul de cromozomi al speciei se reface la:",
+       "optiuni": [
+        "fecundație",
+        "mitoză",
+        "prima diviziune a meiozei",
+        "interfază"
+       ],
+       "corect": 0,
+       "explicatie": "Prin unirea a doi gameți haploizi."
+      },
+      {
+       "intrebare": "Crossing-overul constă în:",
+       "optiuni": [
+        "schimbul de fragmente între cromozomii omologi",
+        "separarea cromatizilor",
+        "replicarea ADN-ului",
+        "dublarea numărului de cromozomi"
+       ],
+       "corect": 0,
+       "explicatie": "Este o sursă de variabilitate genetică."
+      },
+      {
+       "intrebare": "Din meioză rezultă:",
+       "optiuni": [
+        "patru celule diferite genetic",
+        "două celule identice",
+        "o singură celulă",
+        "opt celule identice"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea gameții sunt unici."
+      }
+     ]
+    },
+    {
+     "id": "bio10-12",
+     "titlu": "Cromozomii și determinismul sexului",
+     "rezumat": "Cromozomul este forma condensată a ADN-ului, vizibilă în timpul diviziunii. La om, celulele somatice conțin 46 de cromozomi, grupați în 23 de perechi. Dintre acestea, 22 de perechi sunt autozomi, identici la ambele sexe, iar o pereche o formează cromozomii sexuali (heterozomi), care determină sexul: XX la femeie, XY la bărbat. Determinismul sexului la om este dat de spermatozoid: ovulul poartă întotdeauna un cromozom X, în timp ce spermatozoidul poate purta X sau Y. Dacă fecundează un spermatozoid cu X, rezultă o fată (XX); dacă unul cu Y, un băiat (XY). Astfel, teoretic, raportul dintre sexe este de aproximativ unu la unu. Anomaliile numerice ale cromozomilor apar când, în meioză, cromozomii nu se separă corect. Sindromul Down este determinat de prezența unui cromozom 21 în plus (trisomia 21). Cariotipul — imaginea ordonată a tuturor cromozomilor unei celule — permite depistarea acestor anomalii. Astfel de studii stau la baza sfatului genetic.",
+     "ideiCheie": [
+      "Omul are 46 de cromozomi: 22 de perechi de autozomi și o pereche de heterozomi.",
+      "Sexul e determinat de heterozomi: XX la femeie, XY la bărbat.",
+      "Spermatozoidul (X sau Y) determină sexul viitorului copil.",
+      "Sindromul Down este dat de un cromozom 21 în plus (trisomia 21)."
+     ],
+     "termeni": [
+      {
+       "t": "autozomi",
+       "d": "cei 44 de cromozomi (22 de perechi) identici la ambele sexe"
+      },
+      {
+       "t": "cariotip",
+       "d": "imaginea ordonată a tuturor cromozomilor unei celule"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Câte perechi de cromozomi are omul și cum se împart?",
+       "v": "23 de perechi: 22 de autozomi și o pereche de heterozomi."
+      },
+      {
+       "f": "Ce cromozomi sexuali au femeia și bărbatul?",
+       "v": "Femeia XX, bărbatul XY."
+      },
+      {
+       "f": "Cine determină sexul copilului?",
+       "v": "Spermatozoidul, care poate purta X sau Y."
+      },
+      {
+       "f": "Ce este trisomia 21?",
+       "v": "Prezența unui cromozom 21 în plus, care determină sindromul Down."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Sexul masculin la om este determinat de cromozomii:",
+       "optiuni": [
+        "XY",
+        "XX",
+        "YY",
+        "doar X"
+       ],
+       "corect": 0,
+       "explicatie": "Femeia are XX."
+      },
+      {
+       "intrebare": "Sexul viitorului copil este determinat de:",
+       "optiuni": [
+        "spermatozoid, care poartă X sau Y",
+        "ovul, care poartă X sau Y",
+        "numărul de autozomi",
+        "mediul intrauterin"
+       ],
+       "corect": 0,
+       "explicatie": "Ovulul poartă întotdeauna X."
+      },
+      {
+       "intrebare": "Sindromul Down este cauzat de:",
+       "optiuni": [
+        "un cromozom 21 în plus",
+        "lipsa unui cromozom X",
+        "o mutație a unei singure gene",
+        "un autozom lipsă"
+       ],
+       "corect": 0,
+       "explicatie": "Se numește trisomia 21."
+      },
+      {
+       "intrebare": "Cele 22 de perechi de cromozomi identici la ambele sexe se numesc:",
+       "optiuni": [
+        "autozomi",
+        "heterozomi",
+        "cromozomi sexuali",
+        "cromatizi"
+       ],
+       "corect": 0,
+       "explicatie": "Perechea 23 dă heterozomii."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bio10-c5",
+   "titlu": "Genetică",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "bio10-13",
+     "titlu": "Monohibridarea și legile eredității",
+     "rezumat": "Monohibridarea este încrucișarea a doi indivizi care diferă printr-o singură pereche de caractere. Mendel a încrucișat plante de mazăre cu flori roșii și albe: în prima generație (F1) toate plantele aveau flori roșii, ceea ce arată dominanța roșului. Genotipul lor era heterozigot, dar fenotipul, dominant. Încrucișând între ei descendenții din F1, în a doua generație (F2) a reapărut caracterul recesiv, într-un raport de aproximativ trei plante dominante la una recesivă (3:1). Acest raport se explică prin legea segregării: alelele perechii se separă în gameți și se recombină întâmplător la fecundație. Prin folosirea unei diagrame simple, pătratul lui Punnett, se pot prezice proporțiile descendenților. Aceste raporturi sunt statistice: se verifică pe un număr mare de urmași, nu la fiecare individ. Modelul lui Mendel se aplică la caracterele determinate de o singură genă cu dominanță completă; multe caractere reale sunt mai complexe, dar principiul segregării alelelor rămâne valabil. El stă la baza înțelegerii transmiterii bolilor ereditare.",
+     "ideiCheie": [
+      "Monohibridarea urmărește o singură pereche de caractere.",
+      "În F1 apare doar caracterul dominant; în F2 reapare recesivul, în raport 3:1.",
+      "Alelele se separă în gameți și se recombină întâmplător la fecundație.",
+      "Pătratul lui Punnett prezice proporțiile descendenților."
+     ],
+     "termeni": [
+      {
+       "t": "monohibridare",
+       "d": "încrucișarea a doi indivizi care diferă printr-o singură pereche de caractere"
+      },
+      {
+       "t": "pătratul lui Punnett",
+       "d": "diagramă folosită pentru a prezice proporțiile genotipurilor descendenților"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce se observă în generația F1 la monohibridare?",
+       "v": "Toți descendenții manifestă caracterul dominant."
+      },
+      {
+       "f": "Ce raport apare în F2?",
+       "v": "Aproximativ 3:1, trei dominanți la un recesiv."
+      },
+      {
+       "f": "De ce reapare caracterul recesiv în F2?",
+       "v": "Pentru că alelele se separă în gameți și se pot recombina în stare homozigotă."
+      },
+      {
+       "f": "La ce folosește pătratul lui Punnett?",
+       "v": "La prezicerea proporțiilor genotipurilor și fenotipurilor descendenților."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "În generația F1 a unei monohibridări cu dominanță completă apar:",
+       "optiuni": [
+        "doar indivizi cu caracterul dominant",
+        "doar indivizi recesivi",
+        "raport 3:1",
+        "raport 1:1"
+       ],
+       "corect": 0,
+       "explicatie": "Toți sunt heterozigoți."
+      },
+      {
+       "intrebare": "Raportul fenotipic din F2 este de aproximativ:",
+       "optiuni": [
+        "3:1",
+        "1:1",
+        "9:3:3:1",
+        "2:1"
+       ],
+       "corect": 0,
+       "explicatie": "Trei dominanți la un recesiv."
+      },
+      {
+       "intrebare": "Raporturile mendeliene sunt:",
+       "optiuni": [
+        "statistice, valabile pe un număr mare de urmași",
+        "exacte pentru fiecare individ",
+        "valabile doar la plante",
+        "independente de fecundație"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea se verifică pe eșantioane mari."
+      },
+      {
+       "intrebare": "Separarea alelelor unei perechi în gameți diferiți este:",
+       "optiuni": [
+        "legea segregării (purității gameților)",
+        "legea conservării masei",
+        "crossing-overul",
+        "codominanța"
+       ],
+       "corect": 0,
+       "explicatie": "Ea explică raportul 3:1."
+      }
+     ]
+    },
+    {
+     "id": "bio10-14",
+     "titlu": "Genetica umană și bolile ereditare",
+     "rezumat": "Genetica umană studiază transmiterea caracterelor și a bolilor la om. Multe boli au o componentă ereditară. Bolile determinate de o singură genă pot fi recesive (se manifestă doar la homozigoți) sau dominante. Fibroza chistică și anemia falciformă sunt boli recesive: părinții sănătoși, dar purtători, pot avea copii bolnavi. Alte boli sunt legate de cromozomul X, precum hemofilia sau daltonismul, care apar mai frecvent la băieți. Bolile cromozomiale sunt date de anomalii de număr sau de structură ale cromozomilor, precum sindromul Down. Multe boli frecvente — diabetul de tip 2, hipertensiunea, unele forme de cancer — sunt multifactoriale: rezultă din interacțiunea mai multor gene cu factori de mediu și de stil de viață, ceea ce înseamnă că predispoziția moștenită nu este o condamnare. Sfatul genetic ajută familiile să înțeleagă riscul de a transmite o boală ereditară. Progresele geneticii au adus teste de diagnostic, terapii țintite și speranțe pentru terapia genică, dar ridică și probleme de etică și de confidențialitate. Informarea corectă combate atât teama nejustificată, cât și optimismul exagerat.",
+     "ideiCheie": [
+      "Bolile monogenice pot fi recesive sau dominante; unele sunt legate de cromozomul X.",
+      "Hemofilia și daltonismul apar mai frecvent la băieți.",
+      "Bolile multifactoriale rezultă din gene și factori de mediu.",
+      "Sfatul genetic evaluează riscul de transmitere a bolilor ereditare."
+     ],
+     "termeni": [
+      {
+       "t": "boală ereditară",
+       "d": "boală determinată de modificări ale materialului genetic, transmisibile descendenților"
+      },
+      {
+       "t": "boală multifactorială",
+       "d": "boală care rezultă din interacțiunea mai multor gene cu factori de mediu"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum pot avea părinți sănătoși un copil cu o boală recesivă?",
+       "v": "Dacă ambii sunt purtători heterozigoți ai alelei bolnave."
+      },
+      {
+       "f": "De ce apar hemofilia și daltonismul mai des la băieți?",
+       "v": "Pentru că sunt legate de cromozomul X, iar băieții au un singur X."
+      },
+      {
+       "f": "Ce sunt bolile multifactoriale?",
+       "v": "Boli rezultate din interacțiunea mai multor gene cu factori de mediu și de stil de viață."
+      },
+      {
+       "f": "La ce folosește sfatul genetic?",
+       "v": "Ajută familiile să înțeleagă riscul de a transmite o boală ereditară."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Fibroza chistică și anemia falciformă sunt boli:",
+       "optiuni": [
+        "recesive",
+        "dominante",
+        "cromozomiale de număr",
+        "infecțioase"
+       ],
+       "corect": 0,
+       "explicatie": "Se manifestă doar la homozigoți."
+      },
+      {
+       "intrebare": "Hemofilia apare mai frecvent la băieți pentru că:",
+       "optiuni": [
+        "este legată de cromozomul X, iar băieții au un singur X",
+        "este dominantă",
+        "se transmite prin cromozomul Y",
+        "este multifactorială"
+       ],
+       "corect": 0,
+       "explicatie": "Fetele au un al doilea X care compensează."
+      },
+      {
+       "intrebare": "Diabetul de tip 2 și hipertensiunea sunt, de regulă, boli:",
+       "optiuni": [
+        "multifactoriale",
+        "monogenice recesive",
+        "cromozomiale",
+        "pur ereditare"
+       ],
+       "corect": 0,
+       "explicatie": "Depind de gene și de stilul de viață."
+      },
+      {
+       "intrebare": "Predispoziția genetică la o boală multifactorială:",
+       "optiuni": [
+        "nu este o condamnare, fiind influențată de mediu",
+        "garantează apariția bolii",
+        "nu poate fi influențată deloc",
+        "se transmite după raportul 3:1"
+       ],
+       "corect": 0,
+       "explicatie": "Stilul de viață contează mult."
+      }
+     ]
+    },
+    {
+     "id": "bio10-15",
+     "titlu": "Mutațiile și factorii mutageni",
+     "rezumat": "Mutațiile sunt modificări ale materialului genetic, care pot fi transmise celulelor descendente. După amploare, ele sunt genice (afectează o genă, prin schimbarea unei baze), cromozomiale (afectează structura unui cromozom) sau genomice (afectează numărul de cromozomi). O mutație în celulele somatice afectează doar individul; una în celulele germinale se transmite descendenților. Cauzele mutațiilor pot fi spontane, apărute din erorile de replicare a ADN-ului, sau induse de factori mutageni: radiațiile (ultraviolete, razele X, radioactivitatea), unele substanțe chimice (din fumul de țigară, unii poluanți) și anumiți viruși. Frecvența mutațiilor crește în prezența acestor factori, motiv pentru care expunerea la radiații și la substanțe cancerigene este periculoasă. Cele mai multe mutații sunt neutre sau dăunătoare, dar unele, rare, aduc un avantaj și devin materia primă a evoluției, asupra căreia acționează selecția naturală. Mutațiile explică apariția rezistenței bacteriilor la antibiotice și a dăunătorilor la pesticide. Fără mutații nu ar exista variabilitate și, deci, nici evoluție.",
+     "ideiCheie": [
+      "Mutațiile pot fi genice, cromozomiale sau genomice.",
+      "Mutațiile din celulele germinale se transmit descendenților; cele somatice, nu.",
+      "Factori mutageni: radiațiile, unele substanțe chimice, anumiți viruși.",
+      "Majoritatea mutațiilor sunt neutre sau dăunătoare, dar unele sunt materia primă a evoluției."
+     ],
+     "termeni": [
+      {
+       "t": "mutație",
+       "d": "modificare a materialului genetic, transmisibilă celulelor descendente"
+      },
+      {
+       "t": "factor mutagen",
+       "d": "agent (radiație, substanță, virus) care crește frecvența mutațiilor"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt cele trei tipuri de mutații după amploare?",
+       "v": "Genice, cromozomiale și genomice."
+      },
+      {
+       "f": "Ce mutații se transmit descendenților?",
+       "v": "Cele din celulele germinale (sexuale)."
+      },
+      {
+       "f": "Dă exemple de factori mutageni.",
+       "v": "Radiațiile ultraviolete și X, radioactivitatea, unele substanțe chimice, anumiți viruși."
+      },
+      {
+       "f": "De ce sunt importante mutațiile pentru evoluție?",
+       "v": "Sunt sursa variabilității asupra căreia acționează selecția naturală."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "O mutație apărută în celulele germinale:",
+       "optiuni": [
+        "se transmite descendenților",
+        "afectează doar individul",
+        "nu are niciun efect",
+        "dispare imediat"
+       ],
+       "corect": 0,
+       "explicatie": "Cele somatice nu se transmit."
+      },
+      {
+       "intrebare": "Razele ultraviolete și razele X sunt:",
+       "optiuni": [
+        "factori mutageni",
+        "catalizatori",
+        "hormoni",
+        "nutrienți"
+       ],
+       "corect": 0,
+       "explicatie": "Cresc frecvența mutațiilor."
+      },
+      {
+       "intrebare": "Majoritatea mutațiilor sunt:",
+       "optiuni": [
+        "neutre sau dăunătoare",
+        "benefice",
+        "letale întotdeauna",
+        "imposibil de produs"
+       ],
+       "corect": 0,
+       "explicatie": "Cele avantajoase sunt rare, dar decisive evolutiv."
+      },
+      {
+       "intrebare": "Rezistența bacteriilor la antibiotice apare prin:",
+       "optiuni": [
+        "mutații favorabile selectate de prezența antibioticului",
+        "lipsa totală a mutațiilor",
+        "transmiterea caracterelor dobândite",
+        "fecundație"
+       ],
+       "corect": 0,
+       "explicatie": "Este evoluție observabilă."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bio10-c6",
+   "titlu": "Ecologie",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "bio10-16",
+     "titlu": "Factorii ecologici",
+     "rezumat": "Factorii ecologici sunt elementele mediului care influențează viețuitoarele. Ei se împart în factori abiotici (nevii) — lumina, temperatura, apa, aerul, solul, presiunea — și factori biotici (vii) — relațiile dintre organisme. Fiecare specie are cerințe proprii față de acești factori și trăiește doar acolo unde ele sunt satisfăcute. Pentru fiecare factor, o specie are un interval de toleranță, cu o valoare optimă la mijloc și cu limite dincolo de care nu poate supraviețui. Legea factorului limitant arată că dezvoltarea unui organism este restrânsă de factorul aflat cel mai departe de valoarea optimă, chiar dacă toți ceilalți sunt favorabili — degeaba are o plantă lumină și căldură, dacă îi lipsește apa. După toleranța lor, speciile sunt euriece (suportă variații mari ale unui factor) sau stenoece (suportă doar variații mici). Speciile stenoece, sensibile, sunt bune indicatoare ale calității mediului: dispariția lichenilor din orașe, de exemplu, semnalează poluarea aerului. Cunoașterea factorilor ecologici este esențială în agricultură și în protecția mediului.",
+     "ideiCheie": [
+      "Factorii ecologici sunt abiotici (nevii) și biotici (vii).",
+      "Fiecare specie are un interval de toleranță, cu o valoare optimă.",
+      "Legea factorului limitant: dezvoltarea e restrânsă de factorul cel mai defavorabil.",
+      "Speciile stenoece, sensibile, sunt indicatoare ale calității mediului."
+     ],
+     "termeni": [
+      {
+       "t": "factor abiotic",
+       "d": "element neviu al mediului (lumină, temperatură, apă, sol) care influențează viețuitoarele"
+      },
+      {
+       "t": "factor limitant",
+       "d": "factorul ecologic aflat cel mai departe de valoarea optimă, care restrânge dezvoltarea"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt cele două categorii de factori ecologici?",
+       "v": "Factorii abiotici (nevii) și factorii biotici (vii)."
+      },
+      {
+       "f": "Ce spune legea factorului limitant?",
+       "v": "Dezvoltarea unui organism este restrânsă de factorul cel mai defavorabil, chiar dacă ceilalți sunt favorabili."
+      },
+      {
+       "f": "Ce este intervalul de toleranță?",
+       "v": "Domeniul de valori ale unui factor în care o specie poate supraviețui."
+      },
+      {
+       "f": "De ce sunt lichenii indicatori ai poluării?",
+       "v": "Pentru că sunt sensibili (stenoeci) și dispar când aerul e poluat."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Temperatura, lumina și apa sunt factori:",
+       "optiuni": [
+        "abiotici",
+        "biotici",
+        "limitanți întotdeauna",
+        "exclusiv marini"
+       ],
+       "corect": 0,
+       "explicatie": "Relațiile dintre organisme sunt factori biotici."
+      },
+      {
+       "intrebare": "Legea factorului limitant spune că dezvoltarea e restrânsă de:",
+       "optiuni": [
+        "factorul cel mai defavorabil",
+        "factorul cel mai favorabil",
+        "media tuturor factorilor",
+        "numărul de specii"
+       ],
+       "corect": 0,
+       "explicatie": "Chiar dacă ceilalți factori sunt optimi."
+      },
+      {
+       "intrebare": "O specie stenoecă:",
+       "optiuni": [
+        "suportă doar variații mici ale unui factor",
+        "suportă variații mari",
+        "nu depinde de mediu",
+        "trăiește oriunde"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea e un bun indicator ecologic."
+      },
+      {
+       "intrebare": "Dispariția lichenilor din orașe semnalează:",
+       "optiuni": [
+        "poluarea aerului",
+        "încălzirea globală exclusiv",
+        "lipsa apei",
+        "exces de lumină"
+       ],
+       "corect": 0,
+       "explicatie": "Sunt specii sensibile."
+      }
+     ]
+    },
+    {
+     "id": "bio10-17",
+     "titlu": "Populația și dinamica ei",
+     "rezumat": "Populația este totalitatea indivizilor aceleiași specii care trăiesc într-un anumit teritoriu și se pot reproduce între ei. Ea are caracteristici proprii, care nu se pot atribui unui singur individ: densitatea (numărul de indivizi pe unitatea de suprafață), natalitatea (numărul de nou-născuți), mortalitatea (numărul de morți), structura pe vârste și pe sexe. Efectivul unei populații se schimbă în timp. El crește prin natalitate și imigrare și scade prin mortalitate și emigrare. Când resursele sunt abundente, creșterea poate fi rapidă, dar ea este limitată de capacitatea de suport a mediului — numărul maxim de indivizi pe care mediul îi poate întreține durabil. Peste acest prag, resursele se epuizează și populația scade. Factorii care reglează efectivul pot depinde de densitate (hrana, bolile, prădătorii, care acționează mai puternic când populația e densă) sau nu (fenomenele climatice extreme). Înțelegerea dinamicii populațiilor este esențială pentru gestionarea pescuitului, a vânatului, a dăunătorilor și pentru protecția speciilor pe cale de dispariție.",
+     "ideiCheie": [
+      "Populația are densitate, natalitate, mortalitate, structură pe vârste și sexe.",
+      "Efectivul crește prin natalitate și imigrare, scade prin mortalitate și emigrare.",
+      "Capacitatea de suport este numărul maxim de indivizi întreținuți durabil de mediu.",
+      "Reglarea poate depinde de densitate (hrană, boli, prădători) sau nu (clima)."
+     ],
+     "termeni": [
+      {
+       "t": "populație",
+       "d": "totalitatea indivizilor aceleiași specii dintr-un teritoriu, care se pot reproduce între ei"
+      },
+      {
+       "t": "capacitate de suport",
+       "d": "numărul maxim de indivizi ai unei populații pe care mediul îi poate întreține durabil"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este densitatea unei populații?",
+       "v": "Numărul de indivizi pe unitatea de suprafață sau de volum."
+      },
+      {
+       "f": "Prin ce crește și prin ce scade efectivul unei populații?",
+       "v": "Crește prin natalitate și imigrare; scade prin mortalitate și emigrare."
+      },
+      {
+       "f": "Ce este capacitatea de suport?",
+       "v": "Numărul maxim de indivizi pe care mediul îi poate întreține durabil."
+      },
+      {
+       "f": "Dă exemple de factori de reglare dependenți de densitate.",
+       "v": "Hrana, bolile, prădătorii."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Densitatea, natalitatea și mortalitatea sunt caracteristici ale:",
+       "optiuni": [
+        "populației",
+        "unui singur individ",
+        "ecosistemului fizic",
+        "factorilor abiotici"
+       ],
+       "corect": 0,
+       "explicatie": "Ele nu se pot atribui unui singur individ."
+      },
+      {
+       "intrebare": "Efectivul unei populații crește prin:",
+       "optiuni": [
+        "natalitate și imigrare",
+        "mortalitate și emigrare",
+        "doar prin emigrare",
+        "scăderea resurselor"
+       ],
+       "corect": 0,
+       "explicatie": "Scade prin mortalitate și emigrare."
+      },
+      {
+       "intrebare": "Numărul maxim de indivizi întreținuți durabil de mediu este:",
+       "optiuni": [
+        "capacitatea de suport",
+        "densitatea optimă",
+        "natalitatea",
+        "factorul limitant"
+       ],
+       "corect": 0,
+       "explicatie": "Peste el, resursele se epuizează."
+      },
+      {
+       "intrebare": "Bolile și prădătorii sunt factori de reglare:",
+       "optiuni": [
+        "dependenți de densitate",
+        "independenți de densitate",
+        "exclusiv climatici",
+        "fără efect asupra populației"
+       ],
+       "corect": 0,
+       "explicatie": "Acționează mai puternic la densitate mare."
+      }
+     ]
+    },
+    {
+     "id": "bio10-18",
+     "titlu": "Relații interspecifice și succesiunea ecologică",
+     "rezumat": "În biocenoză, speciile intră în relații care le influențează supraviețuirea. Relațiile pot fi de hrănire (trofice) sau de altă natură. Competiția apare când două specii au nevoie de aceeași resursă limitată. Prădătorismul (o specie o consumă pe alta) și parazitismul (parazitul trăiește pe seama gazdei, fără a o ucide de obicei) avantajează o parte și dezavantajează cealaltă. Alte relații sunt mai puțin conflictuale. În comensalism, o specie are de câștigat, iar cealaltă nu este afectată. În mutualism (simbioză), ambele specii au de câștigat — lichenul (alga plus ciuperca), micorizele dintre ciuperci și rădăcini, bacteriile din intestinul rumegătoarelor. Aceste relații arată că natura nu este doar competiție, ci și cooperare. Ecosistemele nu sunt statice. Succesiunea ecologică este înlocuirea treptată a unor biocenoze cu altele, într-un anumit loc: pe o stâncă goală se instalează întâi lichenii, apoi mușchii, ierburile, tufișurile și, în final, pădurea — stadiul de echilibru, numit climax. După o perturbare (incendiu, defrișare), succesiunea reia procesul. Cunoașterea ei ghidează refacerea ecosistemelor degradate.",
+     "ideiCheie": [
+      "Competiția, prădătorismul și parazitismul dezavantajează cel puțin o specie.",
+      "În mutualism (simbioză) ambele specii câștigă; în comensalism, una câștigă, cealaltă e neafectată.",
+      "Succesiunea ecologică înlocuiește treptat biocenozele, până la stadiul de climax.",
+      "După o perturbare, succesiunea reia refacerea ecosistemului."
+     ],
+     "termeni": [
+      {
+       "t": "mutualism",
+       "d": "relație între două specii din care ambele au de câștigat"
+      },
+      {
+       "t": "succesiune ecologică",
+       "d": "înlocuirea treptată a biocenozelor dintr-un loc, până la un stadiu de echilibru"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este mutualismul?",
+       "v": "O relație între două specii din care ambele au de câștigat."
+      },
+      {
+       "f": "Prin ce diferă comensalismul de mutualism?",
+       "v": "În comensalism doar o specie câștigă, cealaltă nefiind afectată; în mutualism câștigă ambele."
+      },
+      {
+       "f": "Ce este succesiunea ecologică?",
+       "v": "Înlocuirea treptată a biocenozelor dintr-un loc, până la stadiul de echilibru."
+      },
+      {
+       "f": "Cum se numește stadiul de echilibru al unei succesiuni?",
+       "v": "Climax."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Lichenul, format din algă și ciupercă, este un exemplu de:",
+       "optiuni": [
+        "mutualism",
+        "parazitism",
+        "competiție",
+        "comensalism"
+       ],
+       "corect": 0,
+       "explicatie": "Ambii parteneri au de câștigat."
+      },
+      {
+       "intrebare": "Relația în care o specie o consumă pe alta este:",
+       "optiuni": [
+        "prădătorismul",
+        "mutualismul",
+        "comensalismul",
+        "competiția"
+       ],
+       "corect": 0,
+       "explicatie": "Avantajează prădătorul, dezavantajează prada."
+      },
+      {
+       "intrebare": "Stadiul de echilibru al unei succesiuni ecologice se numește:",
+       "optiuni": [
+        "climax",
+        "biotop",
+        "nișă",
+        "populație"
+       ],
+       "corect": 0,
+       "explicatie": "Pădurea matură este adesea climaxul."
+      },
+      {
+       "intrebare": "Competiția între două specii apare când:",
+       "optiuni": [
+        "au nevoie de aceeași resursă limitată",
+        "una o consumă pe cealaltă",
+        "ambele câștigă",
+        "niciuna nu e afectată"
+       ],
+       "corect": 0,
+       "explicatie": "Resursa insuficientă le pune în concurență."
+      }
+     ]
+    }
+   ]
   }
  ],
  "teze": [
   {
    "semestru": 1,
    "test": [
+    {
+     "intrebare": "Replicarea ADN-ului are loc în:",
+     "optiuni": [
+      "faza S a interfazei",
+      "profază",
+      "anafază",
+      "meioză exclusiv"
+     ],
+     "corect": 0,
+     "explicatie": "Atunci fiecare cromozom ajunge cu doi cromatizi."
+    },
+    {
+     "intrebare": "Mitoza produce:",
+     "optiuni": [
+      "două celule identice cu celula-mamă",
+      "patru celule haploide",
+      "gameți",
+      "celule fără nucleu"
+     ],
+     "corect": 0,
+     "explicatie": "Meioza produce patru celule haploide."
+    },
+    {
+     "intrebare": "Numărul de cromozomi se reduce la jumătate în:",
+     "optiuni": [
+      "meioză",
+      "mitoză",
+      "interfază",
+      "fecundație"
+     ],
+     "corect": 0,
+     "explicatie": "Se formează gameții."
+    },
+    {
+     "intrebare": "Sexul copilului este determinat de:",
+     "optiuni": [
+      "spermatozoid (X sau Y)",
+      "ovul",
+      "numărul de autozomi",
+      "mediu"
+     ],
+     "corect": 0,
+     "explicatie": "Ovulul poartă întotdeauna X."
+    },
+    {
+     "intrebare": "Raportul fenotipic din F2, la monohibridare, este de aproximativ:",
+     "optiuni": [
+      "3:1",
+      "1:1",
+      "9:3:3:1",
+      "4:0"
+     ],
+     "corect": 0,
+     "explicatie": "Trei dominanți la un recesiv."
+    },
+    {
+     "intrebare": "Hemofilia și daltonismul se transmit legat de:",
+     "optiuni": [
+      "cromozomul X",
+      "cromozomul Y",
+      "un autozom dominant",
+      "mitocondrii"
+     ],
+     "corect": 0,
+     "explicatie": "De aceea apar mai des la băieți."
+    },
     {
      "intrebare": "Alela recesivă se manifestă:",
      "optiuni": [
@@ -902,6 +1754,72 @@
   {
    "semestru": 2,
    "test": [
+    {
+     "intrebare": "Temperatura, lumina și apa sunt factori:",
+     "optiuni": [
+      "abiotici",
+      "biotici",
+      "exclusiv limitanți",
+      "vii"
+     ],
+     "corect": 0,
+     "explicatie": "Relațiile dintre organisme sunt biotice."
+    },
+    {
+     "intrebare": "Legea factorului limitant spune că dezvoltarea e restrânsă de:",
+     "optiuni": [
+      "factorul cel mai defavorabil",
+      "factorul cel mai favorabil",
+      "numărul de specii",
+      "media factorilor"
+     ],
+     "corect": 0,
+     "explicatie": "Chiar dacă ceilalți sunt optimi."
+    },
+    {
+     "intrebare": "Capacitatea de suport a mediului reprezintă:",
+     "optiuni": [
+      "numărul maxim de indivizi întreținuți durabil",
+      "natalitatea populației",
+      "densitatea minimă",
+      "numărul de specii"
+     ],
+     "corect": 0,
+     "explicatie": "Peste el, populația scade."
+    },
+    {
+     "intrebare": "Efectivul unei populații crește prin:",
+     "optiuni": [
+      "natalitate și imigrare",
+      "mortalitate și emigrare",
+      "competiție",
+      "parazitism"
+     ],
+     "corect": 0,
+     "explicatie": "Și scade prin mortalitate și emigrare."
+    },
+    {
+     "intrebare": "Relația din care ambele specii câștigă este:",
+     "optiuni": [
+      "mutualismul",
+      "prădătorismul",
+      "parazitismul",
+      "competiția"
+     ],
+     "corect": 0,
+     "explicatie": "Lichenul este un exemplu."
+    },
+    {
+     "intrebare": "Stadiul de echilibru al unei succesiuni ecologice se numește:",
+     "optiuni": [
+      "climax",
+      "biotop",
+      "nișă ecologică",
+      "populație"
+     ],
+     "corect": 0,
+     "explicatie": "Adesea o pădure matură."
+    },
     {
      "intrebare": "Ecosistemul este format din:",
      "optiuni": [

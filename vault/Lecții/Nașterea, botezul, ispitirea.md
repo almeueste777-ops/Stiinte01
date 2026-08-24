@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Nașterea, botezul, ispitirea
 
-[[Religie (clasa a X-a)|Religie]] · [[Clasa a X-a]] · lecția 2 din 9
+[[Religie (clasa a X-a)|Religie]] · [[Clasa a X-a]] · lecția 2 din 18
 
 **Capitolul:** Iisus Hristos în Evanghelii — semestrul 1
 

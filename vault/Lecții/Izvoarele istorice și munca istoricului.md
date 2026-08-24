@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Izvoarele istorice și munca istoricului
 
-[[Istorie (clasa a IX-a)|Istorie]] · [[Clasa a IX-a]] · lecția 1 din 12
+[[Istorie (clasa a IX-a)|Istorie]] · [[Clasa a IX-a]] · lecția 1 din 24
 
 **Capitolul:** Popoare și spații istorice în Antichitate — semestrul 1
 

@@ -792,12 +792,864 @@
      ]
     }
    ]
+  },
+  {
+   "id": "mat9-c4",
+   "titlu": "Logică matematică și mulțimi",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "mat9-10",
+     "titlu": "Propoziții și operații logice",
+     "rezumat": "O propoziție logică este un enunț care este fie adevărat, fie fals, dar niciodată ambele în același timp; valoarea de adevăr este tocmai adevărul sau falsul propoziției. Enunțurile care exprimă întrebări, ordine sau păreri nu sunt propoziții logice, pentru că nu li se poate atribui o valoare de adevăr.\nDin propoziții simple se formează propoziții compuse cu ajutorul operatorilor logici. Negația schimbă valoarea de adevăr în opusul ei. Conjuncția „p și q\" este adevărată numai când ambele propoziții sunt adevărate. Disjuncția „p sau q\" este falsă numai când ambele sunt false. Implicația „p implică q\" este falsă într-un singur caz: când p este adevărată și q falsă. Cuantificatorii extind logica la predicate: cuantificatorul universal („oricare\") și cel existențial („există\"). Negarea unui enunț universal dă unul existențial: negația lui „toți elevii au promovat\" este „există cel puțin un elev care nu a promovat\".",
+     "ideiCheie": [
+      "O propoziție logică are exact o valoare de adevăr: adevărat sau fals.",
+      "Conjuncția este adevărată doar când ambele propoziții sunt adevărate.",
+      "Implicația este falsă doar când premisa e adevărată și concluzia falsă.",
+      "Negarea unui enunț universal dă un enunț existențial."
+     ],
+     "termeni": [
+      {
+       "t": "propoziție logică",
+       "d": "enunț care este fie adevărat, fie fals, dar nu ambele"
+      },
+      {
+       "t": "cuantificator universal",
+       "d": "operatorul „oricare\", care afirmă o proprietate pentru toate elementele"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este o propoziție logică?",
+       "v": "Un enunț căruia i se poate atribui exact o valoare de adevăr."
+      },
+      {
+       "f": "Când este adevărată conjuncția „p și q\"?",
+       "v": "Numai când ambele propoziții sunt adevărate."
+      },
+      {
+       "f": "Când este falsă implicația „p implică q\"?",
+       "v": "Numai când p este adevărată, iar q este falsă."
+      },
+      {
+       "f": "Care este negația enunțului „toate elementele au proprietatea\"?",
+       "v": "„Există cel puțin un element care nu are proprietatea\"."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "O propoziție logică este un enunț care:",
+       "optiuni": [
+        "este adevărat sau fals, dar nu ambele",
+        "exprimă o întrebare",
+        "exprimă o părere",
+        "nu are valoare de adevăr"
+       ],
+       "corect": 0,
+       "explicatie": "Întrebările și ordinele nu sunt propoziții logice."
+      },
+      {
+       "intrebare": "Conjuncția „p și q\" este adevărată:",
+       "optiuni": [
+        "numai când ambele propoziții sunt adevărate",
+        "când cel puțin una e adevărată",
+        "când ambele sunt false",
+        "întotdeauna"
+       ],
+       "corect": 0,
+       "explicatie": "Disjuncția e cea adevărată când cel puțin una e adevărată."
+      },
+      {
+       "intrebare": "Implicația „p implică q\" este falsă:",
+       "optiuni": [
+        "numai când p este adevărată și q falsă",
+        "când ambele sunt adevărate",
+        "când ambele sunt false",
+        "niciodată"
+       ],
+       "corect": 0,
+       "explicatie": "În toate celelalte cazuri implicația este adevărată."
+      },
+      {
+       "intrebare": "Negația propoziției „toate numerele sunt pare\" este:",
+       "optiuni": [
+        "„există cel puțin un număr care nu este par\"",
+        "„toate numerele sunt impare\"",
+        "„niciun număr nu este par\"",
+        "„toate numerele sunt pare\""
+       ],
+       "corect": 0,
+       "explicatie": "Negarea universalului dă un enunț existențial."
+      }
+     ]
+    },
+    {
+     "id": "mat9-11",
+     "titlu": "Mulțimi: operații și proprietăți",
+     "rezumat": "O mulțime este o colecție de obiecte distincte, numite elemente. Între mulțimi se definesc operații: reuniunea A cu B conține elementele care aparțin cel puțin uneia dintre mulțimi; intersecția A cu B conține elementele care aparțin ambelor; diferența A minus B conține elementele din A care nu sunt în B. Produsul cartezian A cu B este mulțimea perechilor ordonate cu prima componentă din A și a doua din B.\nCardinalul unei mulțimi finite este numărul elementelor ei. Pentru reuniune este valabilă formula care adună cardinalele celor două mulțimi și scade cardinalul intersecției, ca elementele comune să nu fie numărate de două ori. O submulțime a lui A este o mulțime ale cărei elemente aparțin toate lui A; mulțimea vidă și mulțimea însăși sunt submulțimi ale oricărei mulțimi. O mulțime cu n elemente are exact două la puterea n submulțimi.",
+     "ideiCheie": [
+      "Reuniunea adună elementele; intersecția păstrează elementele comune.",
+      "Diferența A minus B conține elementele din A care nu sunt în B.",
+      "Cardinalul reuniunii: suma cardinalelor minus cardinalul intersecției.",
+      "O mulțime cu n elemente are două la puterea n submulțimi."
+     ],
+     "termeni": [
+      {
+       "t": "reuniune",
+       "d": "mulțimea elementelor care aparțin cel puțin uneia dintre două mulțimi"
+      },
+      {
+       "t": "produs cartezian",
+       "d": "mulțimea perechilor ordonate formate cu câte un element din fiecare mulțime"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce conține reuniunea a două mulțimi?",
+       "v": "Elementele care aparțin cel puțin uneia dintre ele."
+      },
+      {
+       "f": "Ce conține intersecția a două mulțimi?",
+       "v": "Elementele care aparțin ambelor mulțimi."
+      },
+      {
+       "f": "Cum se calculează cardinalul reuniunii?",
+       "v": "Suma cardinalelor minus cardinalul intersecției."
+      },
+      {
+       "f": "Câte submulțimi are o mulțime cu n elemente?",
+       "v": "Două la puterea n."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Reuniunea a două mulțimi conține elementele care aparțin:",
+       "optiuni": [
+        "cel puțin uneia dintre mulțimi",
+        "ambelor mulțimi",
+        "numai primei mulțimi",
+        "niciuneia"
+       ],
+       "corect": 0,
+       "explicatie": "Elementele comune ale ambelor formează intersecția."
+      },
+      {
+       "intrebare": "Intersecția a două mulțimi conține elementele care aparțin:",
+       "optiuni": [
+        "ambelor mulțimi",
+        "cel puțin uneia",
+        "numai celei de-a doua",
+        "niciuneia"
+       ],
+       "corect": 0,
+       "explicatie": "Reuniunea le cuprinde pe cele din cel puțin una."
+      },
+      {
+       "intrebare": "Dacă o mulțime A are 5 elemente, B are 3 elemente, iar intersecția lor are 2 elemente, atunci reuniunea are:",
+       "optiuni": [
+        "6 elemente",
+        "8 elemente",
+        "10 elemente",
+        "4 elemente"
+       ],
+       "corect": 0,
+       "explicatie": "5 plus 3 minus 2 dă 6, ca să nu numărăm de două ori elementele comune."
+      },
+      {
+       "intrebare": "O mulțime cu 3 elemente are:",
+       "optiuni": [
+        "8 submulțimi",
+        "6 submulțimi",
+        "3 submulțimi",
+        "9 submulțimi"
+       ],
+       "corect": 0,
+       "explicatie": "Două la puterea a treia este 8."
+      }
+     ]
+    },
+    {
+     "id": "mat9-12",
+     "titlu": "Metoda inducției matematice",
+     "rezumat": "Inducția matematică este o metodă de demonstrație pentru afirmații care privesc toate numerele naturale, începând de la un anumit rang. Ea seamănă cu o linie de piese de domino: dacă prima cade și fiecare piesă o răstoarnă pe următoarea, atunci cad toate.\nDemonstrația prin inducție are doi pași. Pasul de verificare arată că afirmația este adevărată pentru cazul inițial, de obicei pentru primul număr natural vizat. Pasul de inducție presupune afirmația adevărată pentru un număr oarecare și demonstrează, pornind de la această presupunere, că este adevărată și pentru numărul următor. Dacă ambii pași reușesc, afirmația este adevărată pentru toate numerele naturale de la rangul inițial. Un exemplu clasic este suma primelor n numere naturale, care este egală cu produsul dintre n și n plus unu, împărțit la doi.",
+     "ideiCheie": [
+      "Inducția demonstrează afirmații despre toate numerele naturale, de la un rang.",
+      "Pasul de verificare confirmă afirmația pentru cazul inițial.",
+      "Pasul de inducție trece de la presupunerea pentru n la demonstrația pentru n plus unu.",
+      "Suma primelor n numere naturale este n înmulțit cu n plus unu, împărțit la doi."
+     ],
+     "termeni": [
+      {
+       "t": "inducție matematică",
+       "d": "metodă de demonstrație pentru afirmații despre toate numerele naturale, de la un rang"
+      },
+      {
+       "t": "pas de inducție",
+       "d": "trecerea de la presupunerea că afirmația e adevărată pentru n la demonstrarea ei pentru n plus unu"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Pentru ce fel de afirmații se folosește inducția matematică?",
+       "v": "Pentru afirmații despre toate numerele naturale, de la un rang."
+      },
+      {
+       "f": "Care este primul pas al inducției?",
+       "v": "Verificarea afirmației pentru cazul inițial."
+      },
+      {
+       "f": "În ce constă pasul de inducție?",
+       "v": "În a demonstra afirmația pentru n plus unu, presupunând-o adevărată pentru n."
+      },
+      {
+       "f": "Cât este suma primelor n numere naturale?",
+       "v": "n înmulțit cu n plus unu, împărțit la doi."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Inducția matematică demonstrează afirmații despre:",
+       "optiuni": [
+        "toate numerele naturale, începând de la un rang",
+        "numere reale oarecare",
+        "mulțimi finite exclusiv",
+        "funcții continue"
+       ],
+       "corect": 0,
+       "explicatie": "Are un pas de verificare și un pas de inducție."
+      },
+      {
+       "intrebare": "Primul pas al inducției matematice este:",
+       "optiuni": [
+        "verificarea afirmației pentru cazul inițial",
+        "trecerea de la n la n plus unu",
+        "găsirea unui contraexemplu",
+        "calculul unei derivate"
+       ],
+       "corect": 0,
+       "explicatie": "Fără cazul inițial, „dominoul\" nu pornește."
+      },
+      {
+       "intrebare": "În pasul de inducție se presupune afirmația adevărată pentru n și se demonstrează pentru:",
+       "optiuni": [
+        "n plus unu",
+        "n minus unu",
+        "toate numerele odată",
+        "doar pentru n"
+       ],
+       "corect": 0,
+       "explicatie": "Astfel se trece la numărul următor."
+      },
+      {
+       "intrebare": "Suma 1 plus 2 plus ... plus n este egală cu:",
+       "optiuni": [
+        "n înmulțit cu (n plus unu), împărțit la doi",
+        "n la pătrat",
+        "de două ori n",
+        "n plus unu"
+       ],
+       "corect": 0,
+       "explicatie": "Pentru n egal cu 10, suma este 55."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mat9-c5",
+   "titlu": "Trigonometrie: cercul și teoremele",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "mat9-13",
+     "titlu": "Cercul trigonometric și radianul",
+     "rezumat": "Cercul trigonometric este cercul de rază 1 cu centrul în originea reperului. Pe el, măsura unghiurilor se poate exprima în grade sau în radiani. Un radian este unghiul la centru care subîntinde un arc de lungime egală cu raza; deoarece circumferința este de două ori pi înmulțit cu raza, unui unghi de 360 de grade îi corespund doi pi radiani, iar unui unghi de 180 de grade, pi radiani.\nCercul trigonometric permite extinderea funcțiilor trigonometrice de la unghiurile ascuțite la orice unghi. Punctul de pe cerc care corespunde unui unghi are drept coordonate cosinusul și sinusul acelui unghi: prima coordonată este cosinusul, a doua este sinusul. De aici se citesc direct semnele funcțiilor în fiecare cadran și valorile pentru unghiurile de 0, 90, 180 și 270 de grade. Transformarea între grade și radiani se face cu o simplă proporție, folosind echivalența dintre 180 de grade și pi radiani.",
+     "ideiCheie": [
+      "Cercul trigonometric are raza 1 și centrul în origine.",
+      "Un unghi de 180 de grade are măsura pi radiani; unul de 360 de grade, doi pi.",
+      "Coordonatele punctului de pe cerc sunt cosinusul și sinusul unghiului.",
+      "Transformarea grade-radiani folosește echivalența 180 de grade egal pi radiani."
+     ],
+     "termeni": [
+      {
+       "t": "radian",
+       "d": "unghiul la centru care subîntinde un arc de lungime egală cu raza"
+      },
+      {
+       "t": "cerc trigonometric",
+       "d": "cercul de rază 1 cu centrul în origine, folosit pentru definirea funcțiilor trigonometrice"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce rază are cercul trigonometric?",
+       "v": "Raza 1."
+      },
+      {
+       "f": "Câți radiani are un unghi de 180 de grade?",
+       "v": "Pi radiani."
+      },
+      {
+       "f": "Ce reprezintă coordonatele unui punct de pe cercul trigonometric?",
+       "v": "Cosinusul și sinusul unghiului corespunzător."
+      },
+      {
+       "f": "Cum se transformă gradele în radiani?",
+       "v": "Cu o proporție, folosind echivalența 180 de grade egal pi radiani."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Un unghi de 180 de grade are, în radiani, măsura:",
+       "optiuni": [
+        "pi",
+        "doi pi",
+        "pi supra doi",
+        "pi supra patru"
+       ],
+       "corect": 0,
+       "explicatie": "Un unghi de 360 de grade are doi pi radiani."
+      },
+      {
+       "intrebare": "Raza cercului trigonometric este:",
+       "optiuni": [
+        "1",
+        "2",
+        "pi",
+        "variabilă"
+       ],
+       "corect": 0,
+       "explicatie": "Are centrul în originea reperului."
+      },
+      {
+       "intrebare": "Pe cercul trigonometric, coordonatele punctului asociat unui unghi t sunt:",
+       "optiuni": [
+        "cosinusul și sinusul lui t",
+        "sinusul și tangenta lui t",
+        "t și t la pătrat",
+        "doi cosinusuri"
+       ],
+       "corect": 0,
+       "explicatie": "Prima coordonată este cosinusul, a doua sinusul."
+      },
+      {
+       "intrebare": "Un unghi de 90 de grade are, în radiani, măsura:",
+       "optiuni": [
+        "pi supra doi",
+        "pi",
+        "doi pi",
+        "pi supra trei"
+       ],
+       "corect": 0,
+       "explicatie": "Este un sfert din doi pi."
+      }
+     ]
+    },
+    {
+     "id": "mat9-14",
+     "titlu": "Teorema sinusurilor și teorema cosinusului",
+     "rezumat": "Teorema sinusurilor și teorema cosinusului permit rezolvarea oricărui triunghi, nu doar a celui dreptunghic. Teorema sinusurilor spune că, într-un triunghi, raportul dintre o latură și sinusul unghiului opus ei este același pentru toate cele trei laturi și este egal cu dublul razei cercului circumscris triunghiului.\nTeorema cosinusului leagă o latură de celelalte două și de unghiul dintre ele: pătratul unei laturi este egal cu suma pătratelor celorlalte două laturi, din care se scade dublul produsului lor înmulțit cu cosinusul unghiului dintre ele. Ea este o generalizare a teoremei lui Pitagora: când unghiul este drept, cosinusul lui este zero, termenul se anulează și se regăsește relația lui Pitagora. Cu aceste teoreme se calculează laturi și unghiuri necunoscute, iar aria triunghiului se poate afla ca jumătate din produsul a două laturi înmulțit cu sinusul unghiului dintre ele.",
+     "ideiCheie": [
+      "Teorema sinusurilor: raportul dintre o latură și sinusul unghiului opus este constant.",
+      "Acest raport constant este egal cu dublul razei cercului circumscris.",
+      "Teorema cosinusului generalizează teorema lui Pitagora.",
+      "Aria unui triunghi este jumătate din produsul a două laturi înmulțit cu sinusul unghiului dintre ele."
+     ],
+     "termeni": [
+      {
+       "t": "teorema sinusurilor",
+       "d": "relația care afirmă că raportul dintre o latură și sinusul unghiului opus este același în tot triunghiul"
+      },
+      {
+       "t": "teorema cosinusului",
+       "d": "relația care exprimă pătratul unei laturi cu ajutorul celorlalte două și al cosinusului unghiului dintre ele"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce afirmă teorema sinusurilor?",
+       "v": "Că raportul dintre o latură și sinusul unghiului opus este același pentru toate laturile."
+      },
+      {
+       "f": "Cu ce este egal raportul din teorema sinusurilor?",
+       "v": "Cu dublul razei cercului circumscris."
+      },
+      {
+       "f": "A cărei teoreme este teorema cosinusului o generalizare?",
+       "v": "A teoremei lui Pitagora."
+      },
+      {
+       "f": "Cum se calculează aria unui triunghi din două laturi și unghiul dintre ele?",
+       "v": "Ca jumătate din produsul laturilor înmulțit cu sinusul unghiului."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Teorema cosinusului este o generalizare a:",
+       "optiuni": [
+        "teoremei lui Pitagora",
+        "teoremei sinusurilor",
+        "relațiilor lui Viète",
+        "teoremei lui Thales"
+       ],
+       "corect": 0,
+       "explicatie": "Când unghiul e drept, cosinusul lui e zero."
+      },
+      {
+       "intrebare": "În teorema sinusurilor, raportul dintre o latură și sinusul unghiului opus este egal cu:",
+       "optiuni": [
+        "dublul razei cercului circumscris",
+        "raza cercului înscris",
+        "aria triunghiului",
+        "perimetrul triunghiului"
+       ],
+       "corect": 0,
+       "explicatie": "Raportul este același pentru toate cele trei laturi."
+      },
+      {
+       "intrebare": "Într-un triunghi cu laturile de 3 și 4 și unghiul de 90 de grade între ele, a treia latură este:",
+       "optiuni": [
+        "5",
+        "7",
+        "1",
+        "12"
+       ],
+       "corect": 0,
+       "explicatie": "Teorema cosinusului cu unghi drept redă Pitagora: rădăcina din 9 plus 16."
+      },
+      {
+       "intrebare": "Aria unui triunghi cu două laturi și unghiul dintre ele se calculează ca:",
+       "optiuni": [
+        "jumătate din produsul laturilor înmulțit cu sinusul unghiului",
+        "produsul laturilor înmulțit cu cosinusul unghiului",
+        "suma laturilor împărțită la doi",
+        "produsul celor trei laturi"
+       ],
+       "corect": 0,
+       "explicatie": "Sinusul apare în formula ariei."
+      }
+     ]
+    },
+    {
+     "id": "mat9-15",
+     "titlu": "Formule trigonometrice fundamentale",
+     "rezumat": "Trigonometria dispune de câteva formule care leagă funcțiile între ele și permit calcule. Identitatea fundamentală afirmă că suma pătratelor sinusului și cosinusului aceluiași unghi este 1. Tangenta unui unghi este raportul dintre sinusul și cosinusul lui, definită acolo unde cosinusul este nenul.\nFuncțiile trigonometrice au proprietăți de simetrie: cosinusul este o funcție pară, adică cosinusul unui unghi este egal cu cosinusul opusului său, iar sinusul este o funcție impară, sinusul opusului fiind opusul sinusului. Formulele unghiului dublu exprimă funcțiile lui doi t cu ajutorul funcțiilor lui t: sinusul unghiului dublu este de două ori produsul sinusului cu cosinusul, iar cosinusul unghiului dublu este diferența pătratelor cosinusului și sinusului. Funcțiile sinus și cosinus sunt periodice, cu perioada principală de doi pi, ceea ce înseamnă că își reiau valorile la fiecare rotație completă.",
+     "ideiCheie": [
+      "Identitatea fundamentală: sinus la pătrat plus cosinus la pătrat egal 1.",
+      "Tangenta este raportul dintre sinus și cosinus.",
+      "Cosinusul este funcție pară; sinusul este funcție impară.",
+      "Sinusul și cosinusul au perioada principală doi pi."
+     ],
+     "termeni": [
+      {
+       "t": "identitate fundamentală",
+       "d": "relația că suma pătratelor sinusului și cosinusului aceluiași unghi este 1"
+      },
+      {
+       "t": "funcție periodică",
+       "d": "funcție ale cărei valori se repetă la intervale egale, numite perioadă"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce afirmă identitatea fundamentală a trigonometriei?",
+       "v": "Că suma pătratelor sinusului și cosinusului aceluiași unghi este 1."
+      },
+      {
+       "f": "Ce este tangenta unui unghi?",
+       "v": "Raportul dintre sinusul și cosinusul lui."
+      },
+      {
+       "f": "Ce fel de funcție este cosinusul, pară sau impară?",
+       "v": "Pară: cosinusul opusului este egal cu cosinusul."
+      },
+      {
+       "f": "Care este perioada principală a funcțiilor sinus și cosinus?",
+       "v": "Doi pi."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Identitatea fundamentală a trigonometriei este:",
+       "optiuni": [
+        "sinus la pătrat plus cosinus la pătrat egal 1",
+        "sinus plus cosinus egal 1",
+        "sinus la pătrat minus cosinus la pătrat egal 1",
+        "tangenta egal sinus ori cosinus"
+       ],
+       "corect": 0,
+       "explicatie": "Ea vine din teorema lui Pitagora pe cercul trigonometric."
+      },
+      {
+       "intrebare": "Formula sinusului unghiului dublu este:",
+       "optiuni": [
+        "sinus de 2t egal de două ori sinus t ori cosinus t",
+        "sinus de 2t egal de două ori sinus t",
+        "sinus de 2t egal sinus t plus cosinus t",
+        "sinus de 2t egal cosinus t"
+       ],
+       "corect": 0,
+       "explicatie": "Cosinusul unghiului dublu este diferența pătratelor."
+      },
+      {
+       "intrebare": "Funcția cosinus este:",
+       "optiuni": [
+        "pară, cosinusul opusului fiind egal cu cosinusul",
+        "impară",
+        "neperiodică",
+        "fără simetrie"
+       ],
+       "corect": 0,
+       "explicatie": "Sinusul, în schimb, este funcție impară."
+      },
+      {
+       "intrebare": "Perioada principală a funcțiilor sinus și cosinus este:",
+       "optiuni": [
+        "doi pi",
+        "pi",
+        "pi supra doi",
+        "1"
+       ],
+       "corect": 0,
+       "explicatie": "Valorile se reiau la fiecare rotație completă."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mat9-c6",
+   "titlu": "Geometrie vectorială și analitică",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "mat9-16",
+     "titlu": "Aplicații ale vectorilor în geometrie",
+     "rezumat": "Vectorii sunt un instrument puternic în geometrie. Vectorul determinat de două puncte A și B se obține scăzând vectorul de poziție al lui A din cel al lui B. Relația lui Chasles exprimă compunerea deplasărilor: vectorul de la A la B adunat cu vectorul de la B la C dă vectorul de la A la C, oricare ar fi punctul intermediar.\nDoi vectori nenuli sunt coliniari, adică au aceeași direcție, dacă unul este multiplu scalar al celuilalt; acesta este criteriul vectorial de coliniaritate a punctelor și de paralelism al dreptelor. Vectorul de poziție al mijlocului unui segment este media vectorilor de poziție ai capetelor, iar vectorul de poziție al centrului de greutate al unui triunghi este media vectorilor de poziție ai celor trei vârfuri. Cu ajutorul vectorilor se demonstrează simplu coliniaritatea, concurența medianelor și paralelismul, ceea ce face din calculul vectorial o metodă elegantă de rezolvare a problemelor de geometrie.",
+     "ideiCheie": [
+      "Vectorul de la A la B este diferența vectorilor de poziție ai lui B și A.",
+      "Relația lui Chasles: vectorul de la A la B plus cel de la B la C dă vectorul de la A la C.",
+      "Doi vectori nenuli sunt coliniari dacă unul este multiplu scalar al celuilalt.",
+      "Vectorul de poziție al mijlocului unui segment este media pozițiilor capetelor."
+     ],
+     "termeni": [
+      {
+       "t": "relația lui Chasles",
+       "d": "regula după care vectorul de la A la B plus cel de la B la C este vectorul de la A la C"
+      },
+      {
+       "t": "vectori coliniari",
+       "d": "vectori care au aceeași direcție, unul fiind multiplu scalar al celuilalt"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se obține vectorul determinat de punctele A și B?",
+       "v": "Scăzând vectorul de poziție al lui A din cel al lui B."
+      },
+      {
+       "f": "Ce afirmă relația lui Chasles?",
+       "v": "Că vectorul de la A la B plus cel de la B la C este vectorul de la A la C."
+      },
+      {
+       "f": "Când sunt doi vectori nenuli coliniari?",
+       "v": "Când unul este multiplu scalar al celuilalt."
+      },
+      {
+       "f": "Ce este vectorul de poziție al mijlocului unui segment?",
+       "v": "Media vectorilor de poziție ai capetelor."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Relația lui Chasles spune că vectorul de la A la B plus vectorul de la B la C este egal cu:",
+       "optiuni": [
+        "vectorul de la A la C",
+        "vectorul de la C la A",
+        "vectorul nul, întotdeauna",
+        "de două ori vectorul de la A la B"
+       ],
+       "corect": 0,
+       "explicatie": "Punctul intermediar B se „simplifică\"."
+      },
+      {
+       "intrebare": "Doi vectori nenuli sunt coliniari dacă:",
+       "optiuni": [
+        "unul este multiplu scalar al celuilalt",
+        "au module egale",
+        "sunt perpendiculari",
+        "au sensuri opuse întotdeauna"
+       ],
+       "corect": 0,
+       "explicatie": "Este criteriul de coliniaritate a punctelor."
+      },
+      {
+       "intrebare": "Vectorul de poziție al mijlocului unui segment cu capetele A și B este:",
+       "optiuni": [
+        "media vectorilor de poziție ai lui A și B",
+        "diferența lor",
+        "suma lor, neîmpărțită",
+        "produsul lor scalar"
+       ],
+       "corect": 0,
+       "explicatie": "La fel, centrul de greutate al unui triunghi e media a trei poziții."
+      },
+      {
+       "intrebare": "Vectorul determinat de punctele A și B se obține:",
+       "optiuni": [
+        "scăzând poziția lui A din poziția lui B",
+        "adunând pozițiile lui A și B",
+        "înmulțind pozițiile",
+        "împărțind pozițiile"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea el „pornește\" din A și „ajunge\" în B."
+      }
+     ]
+    },
+    {
+     "id": "mat9-17",
+     "titlu": "Dreapta în plan",
+     "rezumat": "În reperul cartezian, o dreaptă se descrie printr-o ecuație. Forma explicită este y egal cu m înmulțit cu x plus n, unde m este panta, iar n este ordonata la origine, adică valoarea lui y în punctul unde dreapta taie axa verticală. Panta reprezintă tangenta unghiului format de dreaptă cu axa orizontală și arată cât de „înclinată\" este dreapta.\nPanta unei drepte care trece prin două puncte cunoscute este raportul dintre diferența ordonatelor și diferența absciselor acelor puncte. Există și alte forme de scriere a ecuației: prin punct și pantă, prin două puncte și forma generală, în care toți termenii sunt trecuți într-un membru. Două drepte sunt paralele dacă au aceeași pantă și perpendiculare dacă produsul pantelor lor este minus unu. Punctul de intersecție a două drepte se află rezolvând sistemul format din ecuațiile lor.",
+     "ideiCheie": [
+      "Forma explicită a dreptei: y egal m ori x plus n, cu m panta și n ordonata la origine.",
+      "Panta este tangenta unghiului format de dreaptă cu axa orizontală.",
+      "Două drepte sunt paralele dacă au aceeași pantă.",
+      "Punctul de intersecție a două drepte se află rezolvând sistemul ecuațiilor lor."
+     ],
+     "termeni": [
+      {
+       "t": "pantă",
+       "d": "coeficientul care măsoară înclinarea dreptei, egal cu tangenta unghiului cu axa orizontală"
+      },
+      {
+       "t": "ordonată la origine",
+       "d": "valoarea lui y în punctul în care dreapta taie axa verticală"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce reprezintă m în ecuația y egal m ori x plus n?",
+       "v": "Panta dreptei."
+      },
+      {
+       "f": "Ce reprezintă n în ecuația y egal m ori x plus n?",
+       "v": "Ordonata la origine, valoarea lui y unde dreapta taie axa verticală."
+      },
+      {
+       "f": "Cum se calculează panta unei drepte prin două puncte?",
+       "v": "Ca raportul dintre diferența ordonatelor și diferența absciselor."
+      },
+      {
+       "f": "Când sunt două drepte paralele?",
+       "v": "Când au aceeași pantă."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Panta unei drepte reprezintă:",
+       "optiuni": [
+        "tangenta unghiului format cu axa orizontală",
+        "lungimea dreptei",
+        "distanța până la origine",
+        "aria de sub dreaptă"
+       ],
+       "corect": 0,
+       "explicatie": "Arată cât de înclinată este dreapta."
+      },
+      {
+       "intrebare": "Două drepte sunt paralele dacă au:",
+       "optiuni": [
+        "aceeași pantă",
+        "pante cu produsul minus unu",
+        "ordonate la origine egale",
+        "lungimi egale"
+       ],
+       "corect": 0,
+       "explicatie": "Produsul pantelor minus unu înseamnă perpendicularitate."
+      },
+      {
+       "intrebare": "Ecuația dreptei care trece prin origine cu panta 2 este:",
+       "optiuni": [
+        "y egal cu 2x",
+        "y egal cu 2x plus 2",
+        "y egal cu x plus 2",
+        "y egal cu 2"
+       ],
+       "corect": 0,
+       "explicatie": "Prin origine, ordonata la origine este zero."
+      },
+      {
+       "intrebare": "Dreapta de ecuație y egal cu 3x minus 1 taie axa verticală în punctul:",
+       "optiuni": [
+        "(0, minus 1)",
+        "(0, 3)",
+        "(minus 1, 0)",
+        "(1, 0)"
+       ],
+       "corect": 0,
+       "explicatie": "Ordonata la origine este termenul liber, minus 1."
+      }
+     ]
+    },
+    {
+     "id": "mat9-18",
+     "titlu": "Distanțe, arii și aplicații în plan",
+     "rezumat": "Geometria analitică transformă problemele de geometrie în calcule cu coordonate. Distanța dintre două puncte se calculează cu teorema lui Pitagora aplicată diferențelor de coordonate: este rădăcina pătrată din suma pătratelor diferenței absciselor și diferenței ordonatelor. Mijlocul unui segment are drept coordonate mediile aritmetice ale coordonatelor capetelor.\nAria unui triunghi cu vârfuri de coordonate cunoscute se calculează ca jumătate din modulul unui determinant format cu coordonatele vârfurilor. Din aceeași expresie rezultă și criteriul de coliniaritate: trei puncte sunt coliniare dacă acel determinant este zero, adică dacă „triunghiul\" pe care l-ar forma are aria nulă. Aceste formule permit verificarea rapidă a coliniarității, calculul ariilor și rezolvarea multor probleme fără desen, doar cu numere.",
+     "ideiCheie": [
+      "Distanța dintre două puncte vine din teorema lui Pitagora aplicată diferențelor de coordonate.",
+      "Mijlocul unui segment are coordonatele egale cu mediile coordonatelor capetelor.",
+      "Aria unui triunghi este jumătate din modulul unui determinant cu coordonatele vârfurilor.",
+      "Trei puncte sunt coliniare dacă acel determinant este zero."
+     ],
+     "termeni": [
+      {
+       "t": "distanță dintre două puncte",
+       "d": "rădăcina din suma pătratelor diferențelor de coordonate ale celor două puncte"
+      },
+      {
+       "t": "criteriu de coliniaritate",
+       "d": "condiția ca determinantul format cu coordonatele a trei puncte să fie zero"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se calculează distanța dintre două puncte?",
+       "v": "Cu rădăcina din suma pătratelor diferențelor de coordonate."
+      },
+      {
+       "f": "Cum se află mijlocul unui segment?",
+       "v": "Făcând media aritmetică a coordonatelor capetelor."
+      },
+      {
+       "f": "Cum se calculează aria unui triunghi cu vârfuri date?",
+       "v": "Ca jumătate din modulul determinantului format cu coordonatele vârfurilor."
+      },
+      {
+       "f": "Când sunt trei puncte coliniare?",
+       "v": "Când determinantul format cu coordonatele lor este zero."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Distanța dintre punctele (0, 0) și (3, 4) este:",
+       "optiuni": [
+        "5",
+        "7",
+        "12",
+        "1"
+       ],
+       "corect": 0,
+       "explicatie": "Rădăcina din 3 la pătrat plus 4 la pătrat, adică din 25."
+      },
+      {
+       "intrebare": "Mijlocul segmentului cu capetele (2, 4) și (6, 8) este punctul:",
+       "optiuni": [
+        "(4, 6)",
+        "(8, 12)",
+        "(3, 4)",
+        "(2, 6)"
+       ],
+       "corect": 0,
+       "explicatie": "Se face media coordonatelor: 2 plus 6 pe 2 și 4 plus 8 pe 2."
+      },
+      {
+       "intrebare": "Trei puncte sunt coliniare dacă determinantul format cu coordonatele lor este:",
+       "optiuni": [
+        "zero",
+        "pozitiv",
+        "negativ",
+        "egal cu 1"
+       ],
+       "corect": 0,
+       "explicatie": "Un determinant nul înseamnă arie nulă a „triunghiului\"."
+      },
+      {
+       "intrebare": "Distanța dintre două puncte se calculează folosind:",
+       "optiuni": [
+        "teorema lui Pitagora aplicată diferențelor de coordonate",
+        "relațiile lui Viète",
+        "panta dreptei",
+        "produsul scalar"
+       ],
+       "corect": 0,
+       "explicatie": "Este rădăcina din suma pătratelor diferențelor."
+      }
+     ]
+    }
+   ]
   }
  ],
  "teze": [
   {
    "semestru": 1,
    "test": [
+    {
+     "intrebare": "O propoziție logică este un enunț care:",
+     "optiuni": [
+      "este adevărat sau fals, dar nu ambele",
+      "exprimă o întrebare",
+      "exprimă o părere",
+      "nu are valoare de adevăr"
+     ],
+     "corect": 0,
+     "explicatie": "Întrebările și ordinele nu sunt propoziții logice."
+    },
+    {
+     "intrebare": "Conjuncția „p și q\" este adevărată:",
+     "optiuni": [
+      "numai când ambele propoziții sunt adevărate",
+      "când cel puțin una e adevărată",
+      "când ambele sunt false",
+      "întotdeauna"
+     ],
+     "corect": 0,
+     "explicatie": "Disjuncția e adevărată când cel puțin una e adevărată."
+    },
+    {
+     "intrebare": "Dacă mulțimea A are 4 elemente, B are 5 elemente și intersecția lor are 2 elemente, reuniunea are:",
+     "optiuni": [
+      "7 elemente",
+      "9 elemente",
+      "11 elemente",
+      "2 elemente"
+     ],
+     "corect": 0,
+     "explicatie": "4 plus 5 minus 2, ca elementele comune să nu fie numărate de două ori."
+    },
+    {
+     "intrebare": "O mulțime cu 3 elemente are:",
+     "optiuni": [
+      "8 submulțimi",
+      "6 submulțimi",
+      "3 submulțimi",
+      "9 submulțimi"
+     ],
+     "corect": 0,
+     "explicatie": "Două la puterea a treia este 8."
+    },
+    {
+     "intrebare": "Suma primelor n numere naturale este egală cu:",
+     "optiuni": [
+      "n înmulțit cu (n plus unu), împărțit la doi",
+      "n la pătrat",
+      "de două ori n",
+      "n plus unu"
+     ],
+     "corect": 0,
+     "explicatie": "Se demonstrează prin inducție matematică."
+    },
+    {
+     "intrebare": "Negația propoziției „toate numerele sunt pare\" este:",
+     "optiuni": [
+      "„există cel puțin un număr care nu este par\"",
+      "„toate numerele sunt impare\"",
+      "„niciun număr nu este par\"",
+      "„toate numerele sunt pare\""
+     ],
+     "corect": 0,
+     "explicatie": "Negarea universalului dă un enunț existențial."
+    },
     {
      "intrebare": "Mulțimea numerelor raționale se notează:",
      "optiuni": [
@@ -902,6 +1754,72 @@
   {
    "semestru": 2,
    "test": [
+    {
+     "intrebare": "Un unghi de 180 de grade are, în radiani, măsura:",
+     "optiuni": [
+      "pi",
+      "doi pi",
+      "pi supra doi",
+      "pi supra patru"
+     ],
+     "corect": 0,
+     "explicatie": "Un unghi de 360 de grade are doi pi radiani."
+    },
+    {
+     "intrebare": "Teorema cosinusului este o generalizare a:",
+     "optiuni": [
+      "teoremei lui Pitagora",
+      "teoremei sinusurilor",
+      "relațiilor lui Viète",
+      "teoremei lui Thales"
+     ],
+     "corect": 0,
+     "explicatie": "Când unghiul e drept, cosinusul lui e zero."
+    },
+    {
+     "intrebare": "Formula sinusului unghiului dublu este:",
+     "optiuni": [
+      "sinus de 2t egal de două ori sinus t ori cosinus t",
+      "sinus de 2t egal de două ori sinus t",
+      "sinus de 2t egal sinus t plus cosinus t",
+      "sinus de 2t egal cosinus t"
+     ],
+     "corect": 0,
+     "explicatie": "Cosinusul unghiului dublu este diferența pătratelor."
+    },
+    {
+     "intrebare": "Relația lui Chasles spune că vectorul de la A la B plus vectorul de la B la C este:",
+     "optiuni": [
+      "vectorul de la A la C",
+      "vectorul de la C la A",
+      "vectorul nul mereu",
+      "de două ori vectorul de la A la B"
+     ],
+     "corect": 0,
+     "explicatie": "Punctul intermediar B se „simplifică\"."
+    },
+    {
+     "intrebare": "Distanța dintre punctele (0, 0) și (3, 4) este:",
+     "optiuni": [
+      "5",
+      "7",
+      "12",
+      "25"
+     ],
+     "corect": 0,
+     "explicatie": "Rădăcina din 3 la pătrat plus 4 la pătrat."
+    },
+    {
+     "intrebare": "Pe cercul trigonometric de rază 1, punctul asociat unghiului t are coordonatele:",
+     "optiuni": [
+      "(cosinus t, sinus t)",
+      "(sinus t, cosinus t)",
+      "(t, t la pătrat)",
+      "(1, t)"
+     ],
+     "corect": 0,
+     "explicatie": "Prima coordonată este cosinusul, a doua sinusul."
+    },
     {
      "intrebare": "Vârful parabolei are abscisa:",
      "optiuni": [

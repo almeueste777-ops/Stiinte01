@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Algoritmi, date, societate
 
-[[Matematică aplicată în științele sociale (clasa a XII-a)|Matematică aplicată în științele sociale]] · [[Clasa a XII-a]] · lecția 8 din 9
+[[Matematică aplicată în științele sociale (clasa a XII-a)|Matematică aplicată în științele sociale]] · [[Clasa a XII-a]] · lecția 8 din 18
 
 **Capitolul:** Rețele și decizie — semestrul 2
 

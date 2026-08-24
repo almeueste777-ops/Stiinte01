@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Chimie (clasa a IX-a)
 
-54 întrebări din [[Chimie (clasa a IX-a)|Chimie (clasa a IX-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+102 întrebări din [[Chimie (clasa a IX-a)|Chimie (clasa a IX-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Numărul de masă al unui atom este:
 
@@ -441,7 +441,511 @@ cssclasses: test
 > 
 > Include reciclarea și solvenții nepoluanți.
 
-### 37. Numărul atomic reprezintă:
+### 37. Nucleul atomic a fost descoperit de:
+
+- a. Rutherford
+- b. Dalton
+- c. Thomson
+- d. Bohr
+
+> [!success]- Răspuns
+> **a. Rutherford**
+> 
+> Prin experimentul cu foițe de aur.
+
+### 38. Pe stratul K se pot afla cel mult:
+
+- a. 2 electroni
+- b. 8 electroni
+- c. 18 electroni
+- d. 1 electron
+
+> [!success]- Răspuns
+> **a. 2 electroni**
+> 
+> Este stratul cel mai apropiat de nucleu.
+
+### 39. Configurația 2, 8, 1 aparține unui atom cu:
+
+- a. 11 electroni (sodiu)
+- b. 8 electroni
+- c. 10 electroni
+- d. 3 electroni
+
+> [!success]- Răspuns
+> **a. 11 electroni (sodiu)**
+> 
+> Suma electronilor de pe straturi dă numărul lor total.
+
+### 40. Regula octetului spune că atomii tind spre:
+
+- a. opt electroni pe ultimul strat
+- b. opt straturi electronice
+- c. opt protoni
+- d. opt neutroni
+
+> [!success]- Răspuns
+> **a. opt electroni pe ultimul strat**
+> 
+> Este configurația stabilă de gaz nobil.
+
+### 41. Un atom care cedează doi electroni devine:
+
+- a. cation cu sarcina 2+
+- b. anion cu sarcina 2−
+- c. atom neutru
+- d. izotop
+
+> [!success]- Răspuns
+> **a. cation cu sarcina 2+**
+> 
+> Rămâne cu doi protoni în plus față de electroni.
+
+### 42. Nemetalele, la formarea ionilor:
+
+- a. primesc electroni și devin anioni
+- b. cedează electroni și devin cationi
+- c. nu formează ioni
+- d. pierd protoni
+
+> [!success]- Răspuns
+> **a. primesc electroni și devin anioni**
+> 
+> Au mulți electroni de valență.
+
+### 43. Formula oxidului de magneziu, din Mg²⁺ și O²⁻, este:
+
+- a. MgO
+- b. Mg₂O
+- c. MgO₂
+- d. Mg₂O₃
+
+> [!success]- Răspuns
+> **a. MgO**
+> 
+> Sarcinile se echilibrează unu la unu.
+
+### 44. Ionul de clor, Cl⁻, s-a format prin:
+
+- a. primirea unui electron
+- b. cedarea unui electron
+- c. pierderea unui proton
+- d. primirea unui proton
+
+> [!success]- Răspuns
+> **a. primirea unui electron**
+> 
+> Clorul e un nemetal.
+
+### 45. Maleabilitatea și ductilitatea sunt proprietăți ale:
+
+- a. metalelor
+- b. nemetalelor
+- c. gazelor nobile
+- d. semimetalelor exclusiv
+
+> [!success]- Răspuns
+> **a. metalelor**
+> 
+> Metalele se trag în foi și în fire.
+
+### 46. Raza atomică, într-o grupă, de sus în jos:
+
+- a. crește
+- b. scade
+- c. rămâne constantă
+- d. crește apoi scade
+
+> [!success]- Răspuns
+> **a. crește**
+> 
+> Se adaugă straturi electronice.
+
+### 47. Caracterul nemetalic este mai accentuat:
+
+- a. în dreapta sus a tabelului
+- b. în stânga jos
+- c. în centrul tabelului
+- d. la gazele nobile
+
+> [!success]- Răspuns
+> **a. în dreapta sus a tabelului**
+> 
+> Acolo se află nemetalele reactive.
+
+### 48. Cel mai electronegativ element din tabel este:
+
+- a. fluorul
+- b. sodiul
+- c. fierul
+- d. heliul
+
+> [!success]- Răspuns
+> **a. fluorul**
+> 
+> Electronegativitatea crește spre dreapta și în sus.
+
+### 49. Oxizii sunt combinații ale oxigenului cu:
+
+- a. un alt element
+- b. doar cu metale
+- c. doar cu hidrogenul
+- d. doar cu nemetale
+
+> [!success]- Răspuns
+> **a. un alt element**
+> 
+> Se formează frecvent prin ardere.
+
+### 50. Oxidul de calciu (CaO), în reacție cu apa, dă:
+
+- a. o bază (hidroxid de calciu)
+- b. un acid
+- c. o sare
+- d. un metal
+
+> [!success]- Răspuns
+> **a. o bază (hidroxid de calciu)**
+> 
+> Este un oxid bazic.
+
+### 51. Dioxidul de carbon este:
+
+- a. un oxid acid și un gaz cu efect de seră
+- b. un oxid bazic
+- c. un metal
+- d. o bază
+
+> [!success]- Răspuns
+> **a. un oxid acid și un gaz cu efect de seră**
+> 
+> Cu apa dă acid carbonic.
+
+### 52. Ploile acide sunt produse mai ales de oxizii de:
+
+- a. sulf și azot
+- b. calciu și magneziu
+- c. sodiu și potasiu
+- d. fier și cupru
+
+> [!success]- Răspuns
+> **a. sulf și azot**
+> 
+> Provin din arderea combustibililor.
+
+### 53. Formula acidului sulfuric este:
+
+- a. H₂SO₄
+- b. HCl
+- c. HNO₃
+- d. NaOH
+
+> [!success]- Răspuns
+> **a. H₂SO₄**
+> 
+> Este un acid tare.
+
+### 54. Hidroxidul de sodiu (soda caustică) are formula:
+
+- a. NaOH
+- b. HCl
+- c. Ca(OH)₂
+- d. H₂SO₄
+
+> [!success]- Răspuns
+> **a. NaOH**
+> 
+> Este o bază tare.
+
+### 55. Un acid tare, precum HCl:
+
+- a. ionizează complet în soluție
+- b. ionizează parțial
+- c. nu ionizează deloc
+- d. eliberează ioni OH⁻
+
+> [!success]- Răspuns
+> **a. ionizează complet în soluție**
+> 
+> Acizii slabi ionizează doar parțial.
+
+### 56. La diluarea acidului sulfuric se toarnă:
+
+- a. acidul în apă
+- b. apa în acid
+- c. ambele deodată
+- d. acidul pe o suprafață metalică
+
+> [!success]- Răspuns
+> **a. acidul în apă**
+> 
+> Reacția degajă multă căldură.
+
+### 57. Sarea de bucătărie este:
+
+- a. clorura de sodiu (NaCl)
+- b. carbonatul de calciu
+- c. sulfatul de cupru
+- d. hidroxidul de sodiu
+
+> [!success]- Răspuns
+> **a. clorura de sodiu (NaCl)**
+> 
+> Provine din acidul clorhidric.
+
+### 58. Sărurile acidului azotic se numesc:
+
+- a. azotați (nitrați)
+- b. sulfați
+- c. cloruri
+- d. carbonați
+
+> [!success]- Răspuns
+> **a. azotați (nitrați)**
+> 
+> Numele vine de la acidul de proveniență.
+
+### 59. Reacția acid + bază → sare + apă este:
+
+- a. neutralizarea
+- b. oxidarea
+- c. descompunerea
+- d. dizolvarea
+
+> [!success]- Răspuns
+> **a. neutralizarea**
+> 
+> Este o cale de obținere a sărurilor.
+
+### 60. Faptul că unele săruri precipită este folosit pentru:
+
+- a. identificarea ionilor în analiza chimică
+- b. încălzirea soluțiilor
+- c. producerea de gaze
+- d. diluarea acizilor
+
+> [!success]- Răspuns
+> **a. identificarea ionilor în analiza chimică**
+> 
+> Precipitatul semnalează prezența unui anumit ion.
+
+### 61. Viteza de dizolvare a unui solid crește dacă:
+
+- a. îl mărunțim, îl agităm și îl încălzim
+- b. îl răcim
+- c. mărim bucățile
+- d. lăsăm amestecul în repaus
+
+> [!success]- Răspuns
+> **a. îl mărunțim, îl agităm și îl încălzim**
+> 
+> Toate cresc contactul dintre solvat și solvent.
+
+### 62. O soluție care nu mai poate dizolva solvat la temperatura dată este:
+
+- a. saturată
+- b. nesaturată
+- c. diluată
+- d. pură
+
+> [!success]- Răspuns
+> **a. saturată**
+> 
+> A atins limita de solubilitate.
+
+### 63. Solubilitatea gazelor în apă, la creșterea temperaturii:
+
+- a. scade
+- b. crește
+- c. rămâne constantă
+- d. devine infinită
+
+> [!success]- Răspuns
+> **a. scade**
+> 
+> De aceea băuturile carbogazoase își pierd gazul la cald.
+
+### 64. Moleculele de apă dizolvă un solid ionic pentru că:
+
+- a. sunt polare și înconjoară ionii, desprinzându-i din rețea
+- b. sunt nepolare
+- c. au sarcină pozitivă totală
+- d. au masă mare
+
+> [!success]- Răspuns
+> **a. sunt polare și înconjoară ionii, desprinzându-i din rețea**
+> 
+> Apa este solventul universal al substanțelor ionice.
+
+### 65. Dizolvând 20 g de sare în 80 g de apă, concentrația procentuală este:
+
+- a. 20%
+- b. 25%
+- c. 80%
+- d. 16%
+
+> [!success]- Răspuns
+> **a. 20%**
+> 
+> Masa soluției este 100 g.
+
+### 66. Masa soluției reprezintă:
+
+- a. suma masei solvatului și a solventului
+- b. doar masa solvatului
+- c. doar masa solventului
+- d. diferența dintre solvent și solvat
+
+> [!success]- Răspuns
+> **a. suma masei solvatului și a solventului**
+> 
+> De aceea se folosește ea la calcul.
+
+### 67. Prin adăugarea de solvent (diluare), concentrația:
+
+- a. scade
+- b. crește
+- c. rămâne constantă
+- d. devine zero
+
+> [!success]- Răspuns
+> **a. scade**
+> 
+> Masa solvatului nu se schimbă, dar soluția crește.
+
+### 68. Dizolvând 25 g de zahăr în 100 g de apă, concentrația este:
+
+- a. 20%
+- b. 25%
+- c. 125%
+- d. 4%
+
+> [!success]- Răspuns
+> **a. 20%**
+> 
+> 25 împărțit la 125, înmulțit cu 100.
+
+### 69. Molecula de apă este:
+
+- a. polară și unghiulară
+- b. nepolară și liniară
+- c. ionică
+- d. metalică
+
+> [!success]- Răspuns
+> **a. polară și unghiulară**
+> 
+> Oxigenul e mai electronegativ decât hidrogenul.
+
+### 70. Faptul că gheața plutește se datorează:
+
+- a. densității mai mici a apei solide față de cea lichidă
+- b. legăturilor ionice
+- c. lipsei legăturilor de hidrogen
+- d. temperaturii de fierbere
+
+> [!success]- Răspuns
+> **a. densității mai mici a apei solide față de cea lichidă**
+> 
+> De aceea lacurile îngheață de la suprafață.
+
+### 71. Legăturile de hidrogen dintre moleculele de apă explică:
+
+- a. temperatura mare de fierbere și căldura specifică mare
+- b. caracterul metalic
+- c. conductibilitatea electrică ridicată
+- d. culoarea albastră a mărilor
+
+> [!success]- Răspuns
+> **a. temperatura mare de fierbere și căldura specifică mare**
+> 
+> Sunt slabe, dar numeroase.
+
+### 72. Apa dură conține cantități mari de:
+
+- a. calciu și magneziu
+- b. sodiu și potasiu
+- c. clor și fluor
+- d. fier și cupru
+
+> [!success]- Răspuns
+> **a. calciu și magneziu**
+> 
+> Ele formează depuneri de calcar.
+
+### 73. Nucleul atomic a fost descoperit de:
+
+- a. Rutherford
+- b. Dalton
+- c. Thomson
+- d. Mendeleev
+
+> [!success]- Răspuns
+> **a. Rutherford**
+> 
+> Prin experimentul cu foițe de aur.
+
+### 74. Pe straturile K, L, M ale primelor trei perioade se așază cel mult:
+
+- a. 2, 8 și 8 electroni
+- b. 8, 8 și 8 electroni
+- c. 2, 2 și 2 electroni
+- d. 18, 8 și 2 electroni
+
+> [!success]- Răspuns
+> **a. 2, 8 și 8 electroni**
+> 
+> Configurația determină comportarea chimică.
+
+### 75. Un atom care cedează electroni devine:
+
+- a. cation
+- b. anion
+- c. izotop
+- d. moleculă
+
+> [!success]- Răspuns
+> **a. cation**
+> 
+> Sarcina lui devine pozitivă.
+
+### 76. Metalele, la formarea ionilor:
+
+- a. cedează electroni și devin cationi
+- b. primesc electroni și devin anioni
+- c. nu formează ioni
+- d. pierd protoni
+
+> [!success]- Răspuns
+> **a. cedează electroni și devin cationi**
+> 
+> Au puțini electroni de valență.
+
+### 77. Raza atomică, într-o perioadă, de la stânga la dreapta:
+
+- a. scade
+- b. crește
+- c. rămâne constantă
+- d. se dublează
+
+> [!success]- Răspuns
+> **a. scade**
+> 
+> Nucleul atrage tot mai puternic electronii.
+
+### 78. Maleabilitatea și luciul sunt proprietăți ale:
+
+- a. metalelor
+- b. nemetalelor
+- c. gazelor nobile
+- d. oxizilor acizi
+
+> [!success]- Răspuns
+> **a. metalelor**
+> 
+> Metalele conduc și curentul electric.
+
+### 79. Numărul atomic reprezintă:
 
 - a. numărul de protoni din nucleu
 - b. numărul de neutroni
@@ -453,7 +957,7 @@ cssclasses: test
 > 
 > El definește elementul chimic.
 
-### 38. Izotopii diferă prin:
+### 80. Izotopii diferă prin:
 
 - a. numărul de neutroni
 - b. numărul de protoni
@@ -465,7 +969,7 @@ cssclasses: test
 > 
 > Au același număr atomic.
 
-### 39. Elementele din aceeași grupă au proprietăți asemănătoare pentru că:
+### 81. Elementele din aceeași grupă au proprietăți asemănătoare pentru că:
 
 - a. au același număr de electroni de valență
 - b. au aceeași masă atomică
@@ -477,7 +981,7 @@ cssclasses: test
 > 
 > Perioada dă numărul de straturi.
 
-### 40. Gazele nobile sunt inerte pentru că:
+### 82. Gazele nobile sunt inerte pentru că:
 
 - a. au ultimul strat electronic complet
 - b. au masă atomică mare
@@ -489,7 +993,7 @@ cssclasses: test
 > 
 > Nu au tendința de a ceda sau primi electroni.
 
-### 41. Legătura ionică se formează prin:
+### 83. Legătura ionică se formează prin:
 
 - a. transfer de electroni
 - b. punerea în comun a electronilor
@@ -501,7 +1005,7 @@ cssclasses: test
 > 
 > De obicei între un metal și un nemetal.
 
-### 42. Metalele conduc curentul electric datorită:
+### 84. Metalele conduc curentul electric datorită:
 
 - a. electronilor delocalizați
 - b. ionilor mobili
@@ -513,7 +1017,7 @@ cssclasses: test
 > 
 > Aceștia explică și conductibilitatea termică.
 
-### 43. Un amestec omogen are:
+### 85. Un amestec omogen are:
 
 - a. aceeași compoziție în tot volumul
 - b. componente vizibile cu ochiul liber
@@ -525,7 +1029,7 @@ cssclasses: test
 > 
 > Aerul și apa sărată sunt exemple.
 
-### 44. Distilarea se bazează pe diferența de:
+### 86. Distilarea se bazează pe diferența de:
 
 - a. temperatură de fierbere
 - b. densitate
@@ -537,7 +1041,7 @@ cssclasses: test
 > 
 > Decantarea folosește densitatea.
 
-### 45. Solubilitatea gazelor în apă, la creșterea temperaturii:
+### 87. Solubilitatea gazelor în apă, la creșterea temperaturii:
 
 - a. scade
 - b. crește
@@ -549,7 +1053,79 @@ cssclasses: test
 > 
 > De aceea apa caldă conține mai puțin oxigen.
 
-### 46. Numărul lui Avogadro este aproximativ:
+### 88. Oxizii nemetalelor sunt, în general:
+
+- a. acizi
+- b. bazici
+- c. metalici
+- d. neutri întotdeauna
+
+> [!success]- Răspuns
+> **a. acizi**
+> 
+> Cu apa dau acizi.
+
+### 89. Formula acidului clorhidric este:
+
+- a. HCl
+- b. H₂SO₄
+- c. NaOH
+- d. HNO₃
+
+> [!success]- Răspuns
+> **a. HCl**
+> 
+> Cedează ioni H⁺ în soluție.
+
+### 90. Sărurile acidului sulfuric se numesc:
+
+- a. sulfați
+- b. cloruri
+- c. azotați
+- d. carbonați
+
+> [!success]- Răspuns
+> **a. sulfați**
+> 
+> Numele vine de la acidul de proveniență.
+
+### 91. O soluție care a dizolvat cantitatea maximă de solvat este:
+
+- a. saturată
+- b. nesaturată
+- c. diluată
+- d. pură
+
+> [!success]- Răspuns
+> **a. saturată**
+> 
+> A atins limita de solubilitate.
+
+### 92. Dizolvând 10 g de sare în 90 g de apă, concentrația procentuală este:
+
+- a. 10%
+- b. 11%
+- c. 90%
+- d. 100%
+
+> [!success]- Răspuns
+> **a. 10%**
+> 
+> Masa soluției este 100 g.
+
+### 93. Gheața plutește pe apă pentru că:
+
+- a. apa solidă este mai puțin densă decât cea lichidă
+- b. este mai caldă
+- c. conține aer
+- d. are legături ionice
+
+> [!success]- Răspuns
+> **a. apa solidă este mai puțin densă decât cea lichidă**
+> 
+> De aceea lacurile îngheață de la suprafață.
+
+### 94. Numărul lui Avogadro este aproximativ:
 
 - a. 6,022 · 10²³
 - b. 3,14 · 10⁸
@@ -561,7 +1137,7 @@ cssclasses: test
 > 
 > Este numărul de particule dintr-un mol.
 
-### 47. Legea conservării masei a fost formulată de:
+### 95. Legea conservării masei a fost formulată de:
 
 - a. Lavoisier
 - b. Mendeleev
@@ -573,7 +1149,7 @@ cssclasses: test
 > 
 > Mendeleev a construit tabelul periodic.
 
-### 48. Reacțiile exoterme:
+### 96. Reacțiile exoterme:
 
 - a. degajă căldură
 - b. absorb căldură
@@ -585,7 +1161,7 @@ cssclasses: test
 > 
 > Arderile sunt exemplul tipic.
 
-### 49. Oxidarea înseamnă:
+### 97. Oxidarea înseamnă:
 
 - a. pierdere de electroni
 - b. câștig de electroni
@@ -597,7 +1173,7 @@ cssclasses: test
 > 
 > Reducerea e câștigul de electroni.
 
-### 50. O soluție cu pH 10 este:
+### 98. O soluție cu pH 10 este:
 
 - a. bazică
 - b. acidă
@@ -609,7 +1185,7 @@ cssclasses: test
 > 
 > Peste 7 înseamnă caracter bazic.
 
-### 51. Neutralizarea produce:
+### 99. Neutralizarea produce:
 
 - a. o sare și apă
 - b. un acid și o bază
@@ -621,7 +1197,7 @@ cssclasses: test
 > 
 > Este reacția dintre un acid și o bază.
 
-### 52. Viteza unei reacții crește dacă:
+### 100. Viteza unei reacții crește dacă:
 
 - a. crește temperatura
 - b. scade concentrația
@@ -633,7 +1209,7 @@ cssclasses: test
 > 
 > Toate cresc numărul ciocnirilor eficace.
 
-### 53. Un catalizator:
+### 101. Un catalizator:
 
 - a. nu se consumă în reacție
 - b. se consumă complet
@@ -645,7 +1221,7 @@ cssclasses: test
 > 
 > Micșorează energia de activare.
 
-### 54. Enzimele sunt:
+### 102. Enzimele sunt:
 
 - a. catalizatori biologici
 - b. acizi tari

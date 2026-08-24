@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Citit, scris și strategii de învățare
 
-[[Limba modernă 1 (Engleză) (clasa a IX-a)|Limba modernă 1 (Engleză)]] · [[Clasa a IX-a]] · lecția 9 din 9
+[[Limba modernă 1 (Engleză) (clasa a IX-a)|Limba modernă 1 (Engleză)]] · [[Clasa a IX-a]] · lecția 9 din 18
 
 **Capitolul:** Comunicare și vocabular — semestrul 2
 
@@ -29,6 +29,6 @@ Citirea eficientă folosește trei strategii: skimming (parcurgere rapidă pentr
 
 ---
 
-⬅ [[Comunicare în situații cotidiene]]
+⬅ [[Comunicare în situații cotidiene]] · [[Pronumele și posesivele]] ➡
 
 Exersează: [[Carduri - Limba modernă 1 (Engleză) (clasa a IX-a)]] · [[Test - Limba modernă 1 (Engleză) (clasa a IX-a)]]

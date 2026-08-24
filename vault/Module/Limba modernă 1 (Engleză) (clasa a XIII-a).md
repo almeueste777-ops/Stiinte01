@@ -21,7 +21,7 @@ cssclasses: fisa
 
 Recapitulare și consolidare: sistemul verbal, structurile-cheie, erorile tipice ale vorbitorilor de română și simularea probei de competențe.
 
-## Capitole (3)
+## Capitole (6)
 
 ### Recapitularea sistemului verbal — semestrul 1
 
@@ -41,9 +41,27 @@ Recapitulare și consolidare: sistemul verbal, structurile-cheie, erorile tipice
 - [[Gestionarea timpului și a emoției]]
 - [[Engleza după examen - învățare pe termen lung]]
 
+### Structuri esențiale pentru examen — semestrul 1
+
+- [[Propozițiile condiționale (Conditionals)]]
+- [[Vorbirea indirectă (Reported Speech)]]
+- [[Diateza pasivă (The Passive Voice)]]
+
+### Vocabular și formarea cuvintelor — semestrul 2
+
+- [[Formarea cuvintelor (Word Formation)]]
+- [[Verbele frazale (Phrasal Verbs)]]
+- [[Colocații și prepoziții (Collocations and Prepositions)]]
+
+### Competențe de examen și lumea anglofonă — semestrul 2
+
+- [[Use of English - transformări și cloze]]
+- [[Redactarea (Writing) - scrisoarea, eseul, raportul]]
+- [[Lumea anglofonă (The English-speaking World)]]
+
 ## Exersare
-- [[Carduri - Limba modernă 1 (Engleză) (clasa a XIII-a)]] — 36 carduri
-- [[Test - Limba modernă 1 (Engleză) (clasa a XIII-a)]] — 60 întrebări
+- [[Carduri - Limba modernă 1 (Engleză) (clasa a XIII-a)]] — 72 carduri
+- [[Test - Limba modernă 1 (Engleză) (clasa a XIII-a)]] — 108 întrebări
 
 ## Legături
 - [[Limba modernă 1 (Engleză)|Limba modernă 1 (Engleză)]]

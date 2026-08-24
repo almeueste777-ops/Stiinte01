@@ -20,7 +20,7 @@ cssclasses: fisa
 
 Mulțimi și numere reale, funcții și grafice, ecuații și sisteme, elemente de trigonometrie și geometrie vectorială.
 
-## Capitole (3)
+## Capitole (6)
 
 ### Mulțimi și numere reale — semestrul 1
 
@@ -40,9 +40,27 @@ Mulțimi și numere reale, funcții și grafice, ecuații și sisteme, elemente 
 - [[Vectori în plan]]
 - [[Elemente de geometrie analitică]]
 
+### Logică matematică și mulțimi — semestrul 1
+
+- [[Propoziții și operații logice]]
+- [[Mulțimi - operații și proprietăți]]
+- [[Metoda inducției matematice]]
+
+### Trigonometrie: cercul și teoremele — semestrul 2
+
+- [[Cercul trigonometric și radianul]]
+- [[Teorema sinusurilor și teorema cosinusului]]
+- [[Formule trigonometrice fundamentale]]
+
+### Geometrie vectorială și analitică — semestrul 2
+
+- [[Aplicații ale vectorilor în geometrie]]
+- [[Dreapta în plan]]
+- [[Distanțe, arii și aplicații în plan]]
+
 ## Exersare
-- [[Carduri - Matematică (clasa a IX-a)]] — 36 carduri
-- [[Test - Matematică (clasa a IX-a)]] — 54 întrebări
+- [[Carduri - Matematică (clasa a IX-a)]] — 72 carduri
+- [[Test - Matematică (clasa a IX-a)]] — 102 întrebări
 
 ## Legături
 - [[Matematică|Matematică]]

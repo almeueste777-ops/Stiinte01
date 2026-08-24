@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Autorii clasici
 
-[[Limba latină (clasa a X-a)|Limba latină]] · [[Clasa a X-a]] · lecția 7 din 9
+[[Limba latină (clasa a X-a)|Limba latină]] · [[Clasa a X-a]] · lecția 7 din 18
 
 **Capitolul:** Texte și civilizație — semestrul 2
 

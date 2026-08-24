@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Nutriție și metabolism
 
-[[ȘTIAM (științe integrate) (clasa a XII-a)|ȘTIAM (științe integrate)]] · [[Clasa a XII-a]] · lecția 1 din 9
+[[ȘTIAM (științe integrate) (clasa a XII-a)|ȘTIAM (științe integrate)]] · [[Clasa a XII-a]] · lecția 1 din 16
 
 **Capitolul:** Sănătate și corp — semestrul 1
 

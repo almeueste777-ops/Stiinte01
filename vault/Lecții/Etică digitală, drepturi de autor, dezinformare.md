@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Etică digitală, drepturi de autor, dezinformare
 
-[[Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a IX-a]] · lecția 9 din 9
+[[Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a IX-a]] · lecția 9 din 16
 
 **Capitolul:** Siguranță și responsabilitate digitală — semestrul 2
 
@@ -29,6 +29,6 @@ Etica digitală privește comportamentul responsabil online: respectul față de
 
 ---
 
-⬅ [[Date personale, urmă digitală și confidențialitate]]
+⬅ [[Date personale, urmă digitală și confidențialitate]] · [[Sistemul binar și unitățile informației]] ➡
 
 Exersează: [[Carduri - Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)]] · [[Test - Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)]]

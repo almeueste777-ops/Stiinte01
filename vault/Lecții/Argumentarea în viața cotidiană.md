@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Argumentarea în viața cotidiană
 
-[[Logică, argumentare și comunicare (clasa a IX-a)|Logică, argumentare și comunicare]] · [[Clasa a IX-a]] · lecția 16 din 16
+[[Logică, argumentare și comunicare (clasa a IX-a)|Logică, argumentare și comunicare]] · [[Clasa a IX-a]] · lecția 16 din 24
 
 **Capitolul:** Erori de argumentare — semestrul 2
 
@@ -29,6 +29,6 @@ Argumentarea nu e un exercițiu de manual, ci practica zilnică a deliberării: 
 
 ---
 
-⬅ [[Sofisme informale frecvente]]
+⬅ [[Sofisme informale frecvente]] · [[Clasificarea termenilor]] ➡
 
 Exersează: [[Carduri - Logică, argumentare și comunicare (clasa a IX-a)]] · [[Test - Logică, argumentare și comunicare (clasa a IX-a)]]

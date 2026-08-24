@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Senzațiile
 
-[[Psihologie (clasa a X-a)|Psihologie]] · [[Clasa a X-a]] · lecția 4 din 16
+[[Psihologie (clasa a X-a)|Psihologie]] · [[Clasa a X-a]] · lecția 4 din 24
 
 **Capitolul:** Procese cognitive senzoriale — semestrul 1
 

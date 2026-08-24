@@ -20,7 +20,7 @@ cssclasses: fisa
 
 Științe integrate: metoda științifică, materie și energie, sistemele Pământului și viața ca sistem.
 
-## Capitole (3)
+## Capitole (6)
 
 ### Cum funcționează știința — semestrul 1
 
@@ -40,9 +40,25 @@ cssclasses: fisa
 - [[Clima și schimbările ei]]
 - [[Viața ca sistem]]
 
+### Materie și transformări — semestrul 1
+
+- [[Atomi, molecule și substanțe]]
+- [[Reacții chimice și energie]]
+- [[Amestecuri, soluții și separări]]
+
+### Energie și unde — semestrul 2
+
+- [[Forme și transformări ale energiei]]
+- [[Unde - lumina și sunetul]]
+
+### Viață și mediu — semestrul 2
+
+- [[Organismul ca sistem]]
+- [[Ecosisteme și cicluri în natură]]
+
 ## Exersare
-- [[Carduri - ȘTIAM (științe integrate) (clasa a XI-a)]] — 36 carduri
-- [[Test - ȘTIAM (științe integrate) (clasa a XI-a)]] — 54 întrebări
+- [[Carduri - ȘTIAM (științe integrate) (clasa a XI-a)]] — 64 carduri
+- [[Test - ȘTIAM (științe integrate) (clasa a XI-a)]] — 94 întrebări
 
 ## Legături
 - [[ȘTIAM (științe integrate)|ȘTIAM (științe integrate)]]

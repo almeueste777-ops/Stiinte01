@@ -1,8 +1,8 @@
 ---
 titlu: Științe Sociale — hartă de conținut
 tip: moc
-versiune: "04"
-actualizat: 2026-08-22
+versiune: "07"
+actualizat: 2026-08-24
 tags: [moc, stiinte-sociale, pwa]
 ---
 
@@ -46,6 +46,7 @@ Punctul de intrare în **jumătatea scrisă de mână** a vault-ului: cum e făc
 
 ## Proces
 
+- [[Jurnal 2026-08-24 — Mai multe lecții v07]] — extinderea conținutului: 580 → 1152 de lecții, aditiv
 - [[Jurnal 2026-08-23 — Motivație și progres v06]] — auditul premium și implementarea stratului de motivație
 - [[Jurnal 2026-08-22 — Cromatică v05]] — recolorarea „bleumarin de miezul nopții + nisip cald”
 - [[Jurnal 2026-08-22 — Antrenament v04]] — sistemul de învățare și simularea de notă

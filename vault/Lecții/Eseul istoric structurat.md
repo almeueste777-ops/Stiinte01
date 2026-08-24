@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Eseul istoric structurat
 
-[[Istorie (clasa a XIII-a)|Istorie]] · [[Clasa a XIII-a]] · lecția 9 din 9
+[[Istorie (clasa a XIII-a)|Istorie]] · [[Clasa a XIII-a]] · lecția 9 din 22
 
 **Capitolul:** Metoda istorică și bacalaureatul — semestrul 2
 
@@ -29,6 +29,6 @@ Eseul de la bacalaureat este un text structurat pe o temă dată, cu cerințe pu
 
 ---
 
-⬅ [[Lucrul cu sursele istorice la examen]]
+⬅ [[Lucrul cu sursele istorice la examen]] · [[Forme de organizare politică - de la cetate la statul modern]] ➡
 
 Exersează: [[Carduri - Istorie (clasa a XIII-a)]] · [[Test - Istorie (clasa a XIII-a)]]

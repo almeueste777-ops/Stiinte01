@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Iluminismul și revoluția americană
 
-[[Istorie (clasa a X-a)|Istorie]] · [[Clasa a X-a]] · lecția 4 din 12
+[[Istorie (clasa a X-a)|Istorie]] · [[Clasa a X-a]] · lecția 4 din 24
 
 **Capitolul:** Revoluțiile politice — semestrul 1
 

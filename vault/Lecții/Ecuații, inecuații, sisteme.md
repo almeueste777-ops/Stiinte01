@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Ecuații, inecuații, sisteme
 
-[[Matematică (clasa a IX-a)|Matematică]] · [[Clasa a IX-a]] · lecția 6 din 9
+[[Matematică (clasa a IX-a)|Matematică]] · [[Clasa a IX-a]] · lecția 6 din 18
 
 **Capitolul:** Funcții — semestrul 1
 

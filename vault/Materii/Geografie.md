@@ -14,11 +14,11 @@ cssclasses: fisa
 
 ## Anii de studiu
 
-- [[Geografie (clasa a IX-a)|Clasa a IX-a]] — 10 lecții, 40 carduri, 64 întrebări
-- [[Geografie (clasa a X-a)|Clasa a X-a]] — 9 lecții, 36 carduri, 60 întrebări
-- [[Geografie (clasa a XI-a)|Clasa a XI-a]] — 9 lecții, 36 carduri, 60 întrebări
-- [[Geografie (clasa a XII-a)|Clasa a XII-a]] — 9 lecții, 36 carduri, 61 întrebări
-- [[Geografie (clasa a XIII-a)|Clasa a XIII-a]] — 9 lecții, 36 carduri, 60 întrebări
+- [[Geografie (clasa a IX-a)|Clasa a IX-a]] — 20 lecții, 80 carduri, 116 întrebări
+- [[Geografie (clasa a X-a)|Clasa a X-a]] — 20 lecții, 80 carduri, 116 întrebări
+- [[Geografie (clasa a XI-a)|Clasa a XI-a]] — 20 lecții, 80 carduri, 116 întrebări
+- [[Geografie (clasa a XII-a)|Clasa a XII-a]] — 20 lecții, 80 carduri, 117 întrebări
+- [[Geografie (clasa a XIII-a)|Clasa a XIII-a]] — 20 lecții, 80 carduri, 116 întrebări
 
 ## Legături
 - [[00 Start aici]]

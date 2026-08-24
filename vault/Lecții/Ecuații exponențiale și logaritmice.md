@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Ecuații exponențiale și logaritmice
 
-[[Matematică (clasa a X-a)|Matematică]] · [[Clasa a X-a]] · lecția 3 din 9
+[[Matematică (clasa a X-a)|Matematică]] · [[Clasa a X-a]] · lecția 3 din 18
 
 **Capitolul:** Funcții și ecuații — semestrul 1
 

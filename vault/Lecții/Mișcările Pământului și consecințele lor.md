@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Mișcările Pământului și consecințele lor
 
-[[Geografie (clasa a IX-a)|Geografie]] · [[Clasa a IX-a]] · lecția 2 din 10
+[[Geografie (clasa a IX-a)|Geografie]] · [[Clasa a IX-a]] · lecția 2 din 20
 
 **Capitolul:** Pământul în Univers — semestrul 1
 

@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Design vizual pentru materiale digitale
 
-[[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a XI-a]] · lecția 6 din 9
+[[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a XI-a]] · lecția 6 din 16
 
 **Capitolul:** Multimedia — semestrul 2
 

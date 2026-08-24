@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Etică digitală și responsabilitate
 
-[[Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a XII-a]] · lecția 9 din 9
+[[Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a XII-a]] · lecția 9 din 16
 
 **Capitolul:** Tehnologii și societate — semestrul 2
 
@@ -29,6 +29,6 @@ Tehnologia nu este neutră în efecte: modul în care e proiectată și folosit�
 
 ---
 
-⬅ [[Automatizare, date mari, inteligență artificială]]
+⬅ [[Automatizare, date mari, inteligență artificială]] · [[Procesorul de text]] ➡
 
 Exersează: [[Carduri - Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)]] · [[Test - Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)]]

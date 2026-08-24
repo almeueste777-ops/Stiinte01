@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Istoria evreilor. Holocaustul (clasa a XI-a)
 
-36 carduri pentru [[Istoria evreilor. Holocaustul (clasa a XI-a)|Istoria evreilor. Holocaustul (clasa a XI-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+72 carduri pentru [[Istoria evreilor. Holocaustul (clasa a XI-a)|Istoria evreilor. Holocaustul (clasa a XI-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/istoria-evreilor-holocaustul
 
@@ -82,6 +82,78 @@ Ce documente juridice au apărut în 1948?::Declarația Universală a Drepturilo
 Cu ce începe, de fapt, excluderea?::Cu cuvântul care dezumanizează, cu gluma tolerată, cu indiferența.
 
 Ce arată exemplul celor care au salvat evrei?::Că alternativa exista chiar și în condiții extreme, deci responsabilitatea individuală rămâne.
+
+Ce deosebește antiiudaismul de antisemitismul modern?::Antiiudaismul e întemeiat pe religie, antisemitismul modern pe pretinse motive de „rasă".
+
+Cine a popularizat termenul „antisemitism" și când?::Wilhelm Marr, în 1879.
+
+Ce era acuzația de „crimă rituală"?::O învinuire falsă, folosită pentru a justifica violențe împotriva evreilor.
+
+De ce a apărut stereotipul evreului cămătar?::Pentru că interdicțiile îi împingeau spre comerț și spre împrumutul de bani.
+
+Când a fost numit Hitler cancelar?::La 30 ianuarie 1933, de către președintele Hindenburg.
+
+Ce a permis „legea puterilor depline" din 1933?::Guvernarea prin decrete, adică instaurarea dictaturii.
+
+Ce idei expunea „Mein Kampf"?::Rasismul, antisemitismul, „spațiul vital" și ura față de democrație.
+
+Ce a fost „mitul înjunghierii pe la spate"?::Legenda falsă că armata germană ar fi fost trădată din interior în 1918.
+
+Cu ce a început persecuția nazistă a evreilor?::Cu excluderea legală: boicot, eliminarea din funcții și profesii.
+
+Ce au stabilit legile de la Nürnberg (1935)?::Retragerea cetățeniei evreilor și interzicerea căsătoriilor mixte.
+
+Ce a însemnat „arianizarea"?::Jefuirea organizată, prin trecerea proprietăților evreiești în mâini neevreiești.
+
+Cu ce literă erau marcate actele evreilor?::Cu litera „J".
+
+Care a fost cel mai mare ghetou?::Ghetoul din Varșovia, cu peste 400.000 de oameni.
+
+Ce erau ghetourile?::Cartiere închise unde evreii erau izolați, înfometați și puși la muncă forțată.
+
+Ce a fost revolta din ghetoul Varșovia?::Cea mai mare răscoală evreiască armată împotriva naziștilor, în aprilie 1943.
+
+Ce era un Judenrat?::Consiliul evreiesc impus de ocupant pentru a administra ghetoul.
+
+Care era diferența dintre lagărele de concentrare și cele de exterminare?::Cele de concentrare serveau detenției și muncii; cele de exterminare, uciderii în masă.
+
+Care a fost cel mai mare complex de lagăre?::Auschwitz-Birkenau.
+
+Ce era „selecția"?::Separarea, la sosire, a celor apți de muncă de cei uciși imediat.
+
+Când a fost eliberat Auschwitz?::La 27 ianuarie 1945, de armata sovietică.
+
+Ce înseamnă cuvântul „Shoah"?::„Catastrofă", „nimicire"; e numele ebraic al uciderii evreilor europeni.
+
+Câți evrei europeni au pierit și ce proporție reprezintă?::Aproximativ șase milioane, circa două treimi din evreimea Europei.
+
+Ce erau Einsatzgruppen?::Unitățile mobile de ucidere care au împușcat evrei în estul Europei.
+
+Ce s-a hotărât la Conferința de la Wannsee (1942)?::Organizarea „soluției finale", uciderea evreilor europeni.
+
+Când a avut loc pogromul de la Iași?::La 28–30 iunie 1941, la intrarea României în război.
+
+Ce au fost „trenurile morții"?::Vagoane sigilate în care mii de evrei au murit de sete, de foame și de sufocare.
+
+Câte victime a făcut pogromul de la Iași?::Peste 13.000.
+
+În timpul cărui eveniment a avut loc pogromul de la București?::În timpul rebeliunii legionare din ianuarie 1941.
+
+Ce a fost Transnistria în timpul războiului?::Teritoriul dintre Nistru și Bug, sub administrație românească, loc al deportărilor.
+
+Cine a fost deportat în Transnistria?::Evreii din Basarabia și Bucovina și, mai târziu, mii de romi.
+
+Ce s-a întâmplat la Bogdanovka?::Unul dintre cele mai mari masacre, în iarna 1941–1942.
+
+Ce distincție se face despre evreii din Vechiul Regat?::Nu au fost predați Germaniei pentru lagărele de exterminare.
+
+Ce au fost procesele de la Nürnberg?::Judecarea, în 1945–1946, a conducătorilor naziști pentru crimele lor.
+
+Ce documente au apărut în 1948?::Declarația Universală a Drepturilor Omului și Convenția privind genocidul.
+
+Când au fost asumate oficial în România concluziile Comisiei Wiesel?::În 2004.
+
+Ce arată genocidurile din Cambodgia, Rwanda și Srebrenica?::Că „niciodată din nou" rămâne o datorie neîmplinită.
 
 ---
 

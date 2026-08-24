@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Structura probei scrise
 
-[[Limba și literatura română (clasa a XIII-a)|Limba și literatura română]] · [[Clasa a XIII-a]] · lecția 1 din 9
+[[Limba și literatura română (clasa a XIII-a)|Limba și literatura română]] · [[Clasa a XIII-a]] · lecția 1 din 20
 
 **Capitolul:** Proba de bacalaureat: structură și cerințe — semestrul 1
 

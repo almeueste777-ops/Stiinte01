@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Exprimarea opiniei
 
-[[Limba modernă 2 (Franceză) (clasa a XI-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XI-a]] · lecția 4 din 9
+[[Limba modernă 2 (Franceză) (clasa a XI-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XI-a]] · lecția 4 din 18
 
 **Capitolul:** Argumentare și opinie — semestrul 1
 

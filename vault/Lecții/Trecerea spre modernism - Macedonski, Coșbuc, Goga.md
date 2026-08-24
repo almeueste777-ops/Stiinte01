@@ -10,7 +10,7 @@ clasa: "a XI-a"
 ---
 # Trecerea spre modernism: Macedonski, Coșbuc, Goga
 
-[[Limba și literatura română (clasa a XI-a)|Limba și literatura română]] · [[Clasa a XI-a]] · lecția 9 din 9
+[[Limba și literatura română (clasa a XI-a)|Limba și literatura română]] · [[Clasa a XI-a]] · lecția 9 din 20
 
 **Capitolul:** Modernitatea timpurie — semestrul 2
 
@@ -31,6 +31,6 @@ Alexandru Macedonski este o figură de tranziție: romantic prin temperament, si
 
 ---
 
-⬅ [[Simbolismul și George Bacovia]]
+⬅ [[Simbolismul și George Bacovia]] · [[Vasile Alecsandri — „bardul de la Mircești”]] ➡
 
 Exersează: [[Carduri - Limba și literatura română (clasa a XI-a)]] · [[Test - Limba și literatura română (clasa a XI-a)]]

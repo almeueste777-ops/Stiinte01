@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Fonetică, vocabular și sensurile cuvintelor
 
-[[Limba și literatura română (clasa a IX-a)|Limba și literatura română]] · [[Clasa a IX-a]] · lecția 6 din 9
+[[Limba și literatura română (clasa a IX-a)|Limba și literatura română]] · [[Clasa a IX-a]] · lecția 6 din 20
 
 **Capitolul:** Limba română: corectitudine și expresivitate — semestrul 2
 

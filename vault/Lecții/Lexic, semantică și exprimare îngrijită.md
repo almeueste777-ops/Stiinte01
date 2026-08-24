@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Lexic, semantică și exprimare îngrijită
 
-[[Limba și literatura română (clasa a XIII-a)|Limba și literatura română]] · [[Clasa a XIII-a]] · lecția 7 din 9
+[[Limba și literatura română (clasa a XIII-a)|Limba și literatura română]] · [[Clasa a XIII-a]] · lecția 7 din 20
 
 **Capitolul:** Limba română aplicată — semestrul 2
 

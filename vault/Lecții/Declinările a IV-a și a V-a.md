@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Declinările a IV-a și a V-a
 
-[[Limba latină (clasa a X-a)|Limba latină]] · [[Clasa a X-a]] · lecția 2 din 9
+[[Limba latină (clasa a X-a)|Limba latină]] · [[Clasa a X-a]] · lecția 2 din 18
 
 **Capitolul:** Morfologie avansată — semestrul 1
 

@@ -10,7 +10,7 @@ clasa: "a IX-a"
 ---
 # Textul narativ: instanțe și structuri
 
-[[Limba și literatura română (clasa a IX-a)|Limba și literatura română]] · [[Clasa a IX-a]] · lecția 3 din 9
+[[Limba și literatura română (clasa a IX-a)|Limba și literatura română]] · [[Clasa a IX-a]] · lecția 3 din 20
 
 **Capitolul:** Ficțiunea și lumea textului — semestrul 1
 

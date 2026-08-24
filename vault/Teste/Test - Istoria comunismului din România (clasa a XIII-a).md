@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Istoria comunismului din România (clasa a XIII-a)
 
-54 întrebări din [[Istoria comunismului din România (clasa a XIII-a)|Istoria comunismului din România (clasa a XIII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+102 întrebări din [[Istoria comunismului din România (clasa a XIII-a)|Istoria comunismului din România (clasa a XIII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. În 1944, Partidul Comunist Român avea:
 
@@ -441,7 +441,511 @@ cssclasses: test
 > 
 > Memoria corectă cere ambele fețe.
 
-### 37. România a intrat în sfera de influență sovietică după:
+### 37. „Tactica salamului" desemnează:
+
+- a. eliminarea treptată a adversarilor, „felie cu felie"
+- b. o reformă economică
+- c. o metodă de vot
+- d. o alianță electorală
+
+> [!success]- Răspuns
+> **a. eliminarea treptată a adversarilor, „felie cu felie"**
+> 
+> A permis distrugerea rând pe rând a opoziției.
+
+### 38. Partidul Muncitoresc Român s-a format în 1948 prin:
+
+- a. absorbirea Partidului Social-Democrat de către comuniști
+- b. fuziunea cu țărăniștii
+- c. unirea cu liberalii
+- d. desprinderea din partidul sovietic
+
+> [!success]- Răspuns
+> **a. absorbirea Partidului Social-Democrat de către comuniști**
+> 
+> A devenit partid unic.
+
+### 39. Înscenarea de la Tămădău (1947) a dus la:
+
+- a. desființarea Partidului Național Țărănesc
+- b. căderea guvernului Groza
+- c. retragerea Armatei Roșii
+- d. abdicarea regelui
+
+> [!success]- Răspuns
+> **a. desființarea Partidului Național Țărănesc**
+> 
+> Liderii țărăniști au fost arestați.
+
+### 40. Prezența Armatei Roșii în România după 1944 a fost:
+
+- a. factorul care a protejat preluarea puterii de către comuniști
+- b. fără efect politic
+- c. o garanție a alegerilor libere
+- d. o forță de menținere a monarhiei
+
+> [!success]- Răspuns
+> **a. factorul care a protejat preluarea puterii de către comuniști**
+> 
+> Fără ea, ascensiunea comunistă ar fi fost imposibilă.
+
+### 41. Stalinismul românesc din anii '50 se caracteriza prin:
+
+- a. partid unic, teroare de masă și cultul lui Stalin
+- b. pluralism politic
+- c. economie de piață
+- d. libertatea presei
+
+> [!success]- Răspuns
+> **a. partid unic, teroare de masă și cultul lui Stalin**
+> 
+> Modelul sovietic a fost copiat fidel.
+
+### 42. Gruparea Ana Pauker–Vasile Luca a fost înlăturată în:
+
+- a. 1952
+- b. 1944
+- c. 1958
+- d. 1965
+
+> [!success]- Răspuns
+> **a. 1952**
+> 
+> Sub acuzații fabricate.
+
+### 43. Industrializarea forțată din anii '50 a pus accent pe:
+
+- a. industria grea
+- b. agricultura privată
+- c. servicii
+- d. comerțul liber
+
+> [!success]- Răspuns
+> **a. industria grea**
+> 
+> Se desfășura prin planuri cincinale.
+
+### 44. Consilierii sovietici, în anii '50:
+
+- a. supravegheau instituțiile-cheie ale statului
+- b. lipseau cu desăvârșire
+- c. aveau doar rol economic
+- d. reprezentau opoziția
+
+> [!success]- Răspuns
+> **a. supravegheau instituțiile-cheie ale statului**
+> 
+> Controlul Moscovei era direct.
+
+### 45. Colectivizarea agriculturii s-a încheiat în:
+
+- a. 1962
+- b. 1949
+- c. 1953
+- d. 1965
+
+> [!success]- Răspuns
+> **a. 1962**
+> 
+> A copiat modelul sovietic al kolhozului.
+
+### 46. „Chiaburii" erau:
+
+- a. gospodarii înstăriți, ținta persecuției
+- b. muncitorii industriali
+- c. activiștii de partid
+- d. funcționarii de stat
+
+> [!success]- Răspuns
+> **a. gospodarii înstăriți, ținta persecuției**
+> 
+> Erau supuși unor cote imposibile.
+
+### 47. Rezistența țărănească la colectivizare a fost:
+
+- a. reprimată dur, uneori cu focuri de armă
+- b. acceptată de autorități
+- c. lipsită de urmări
+- d. încurajată oficial
+
+> [!success]- Răspuns
+> **a. reprimată dur, uneori cu focuri de armă**
+> 
+> Mii de țărani au ajuns în închisori.
+
+### 48. Un efect social major al colectivizării a fost:
+
+- a. distrugerea țărănimii independente
+- b. întărirea proprietății private
+- c. creșterea productivității agricole
+- d. dezvoltarea satelor
+
+> [!success]- Răspuns
+> **a. distrugerea țărănimii independente**
+> 
+> Mulți săteni au plecat spre orașe și industrie.
+
+### 49. Securitatea a fost înființată în:
+
+- a. 1948
+- b. 1944
+- c. 1952
+- d. 1965
+
+> [!success]- Răspuns
+> **a. 1948**
+> 
+> După modelul serviciilor sovietice.
+
+### 50. Instrumentul principal al Securității a fost:
+
+- a. o vastă rețea de informatori
+- b. o armată permanentă
+- c. un partid de opoziție
+- d. un sistem judiciar independent
+
+> [!success]- Răspuns
+> **a. o vastă rețea de informatori**
+> 
+> Informatorii erau recrutați din toate mediile.
+
+### 51. Miliția, spre deosebire de Securitate:
+
+- a. asigura ordinea publică și controlul cotidian
+- b. conducea partidul
+- c. administra economia
+- d. reprezenta opoziția
+
+> [!success]- Răspuns
+> **a. asigura ordinea publică și controlul cotidian**
+> 
+> Ambele slujeau regimul.
+
+### 52. Un efect durabil al aparatului de represiune a fost:
+
+- a. suspiciunea reciprocă și autocenzura
+- b. întărirea încrederii sociale
+- c. libertatea de exprimare
+- d. pluralismul politic
+
+> [!success]- Răspuns
+> **a. suspiciunea reciprocă și autocenzura**
+> 
+> Oamenii evitau să vorbească deschis.
+
+### 53. Sistemul de detenție politică a fost numit:
+
+- a. „Gulagul românesc"
+- b. „reforma penitenciară"
+- c. „sistemul de reeducare civică"
+- d. „arhipelagul liber"
+
+> [!success]- Răspuns
+> **a. „Gulagul românesc"**
+> 
+> După modelul lagărelor sovietice.
+
+### 54. „Reeducarea" de la Pitești (1949–1952) urmărea:
+
+- a. distrugerea personalității deținuților
+- b. pregătirea profesională
+- c. eliberarea rapidă
+- d. reintegrarea socială
+
+> [!success]- Răspuns
+> **a. distrugerea personalității deținuților**
+> 
+> Victimele erau silite să devină torționari.
+
+### 55. Canalul Dunăre–Marea Neagră a funcționat, în anii '50, ca:
+
+- a. lagăr de muncă forțată, cu condiții ucigătoare
+- b. port comercial modern
+- c. centru de cercetare
+- d. stațiune balneară
+
+> [!success]- Răspuns
+> **a. lagăr de muncă forțată, cu condiții ucigătoare**
+> 
+> Mulți deținuți au murit acolo.
+
+### 56. Deportările în Bărăgan au început în:
+
+- a. 1951
+- b. 1945
+- c. 1962
+- d. 1977
+
+> [!success]- Răspuns
+> **a. 1951**
+> 
+> Oamenii au fost lăsați în câmp deschis.
+
+### 57. Rezistența armată din munți a fost activă mai ales:
+
+- a. între 1948 și sfârșitul anilor '50
+- b. în anii '70
+- c. în anii '80
+- d. doar în 1989
+
+> [!success]- Răspuns
+> **a. între 1948 și sfârșitul anilor '50**
+> 
+> Grupurile de partizani au fost, în final, lichidate.
+
+### 58. Mișcarea inițiată de Paul Goma în 1977 a fost inspirată de:
+
+- a. Charta 77 din Cehoslovacia
+- b. reformele sovietice
+- c. Revoluția maghiară
+- d. Primăvara de la Praga
+
+> [!success]- Răspuns
+> **a. Charta 77 din Cehoslovacia**
+> 
+> Era o mișcare pentru drepturile omului.
+
+### 59. Revolta muncitorilor de la Brașov a avut loc în:
+
+- a. noiembrie 1987
+- b. 1977
+- c. 1968
+- d. 1989
+
+> [!success]- Răspuns
+> **a. noiembrie 1987**
+> 
+> A fost reprimată, iar participanții, urmăriți.
+
+### 60. Disidența din anii '80 a luat mai ales forma:
+
+- a. unor proteste individuale, precum scrisorile deschise
+- b. unei opoziții parlamentare
+- c. unei mișcări armate de masă
+- d. unui partid legal
+
+> [!success]- Răspuns
+> **a. unor proteste individuale, precum scrisorile deschise**
+> 
+> Doina Cornea este un exemplu.
+
+### 61. „Național-comunismul" desemnează:
+
+- a. îmbinarea comunismului cu un naționalism accentuat
+- b. o formă de democrație
+- c. renunțarea la ideologie
+- d. alianța cu Occidentul
+
+> [!success]- Răspuns
+> **a. îmbinarea comunismului cu un naționalism accentuat**
+> 
+> Naționalismul masca eșecurile economice.
+
+### 62. Decretul din 1966 a interzis:
+
+- a. avortul, pentru a crește natalitatea
+- b. emigrarea
+- c. proprietatea privată
+- d. religia
+
+> [!success]- Răspuns
+> **a. avortul, pentru a crește natalitatea**
+> 
+> Urmarea au fost drame familiale și avorturi clandestine.
+
+### 63. „Sistematizarea" a însemnat:
+
+- a. demolarea și reorganizarea satelor și a cartierelor
+- b. modernizarea agriculturii
+- c. reforma învățământului
+- d. planificarea familială
+
+> [!success]- Răspuns
+> **a. demolarea și reorganizarea satelor și a cartierelor**
+> 
+> În anii '80 a fost demolat parțial centrul Bucureștiului.
+
+### 64. Casa Poporului a fost ridicată:
+
+- a. prin demolarea unei părți din centrul istoric al Bucureștiului
+- b. în afara orașului
+- c. fără demolări
+- d. pe locul unui parc
+
+> [!success]- Răspuns
+> **a. prin demolarea unei părți din centrul istoric al Bucureștiului**
+> 
+> Era un uriaș ansamblu administrativ.
+
+### 65. „Epoca de Aur" era:
+
+- a. denumirea propagandistică a perioadei Ceaușescu
+- b. o perioadă de prosperitate reală
+- c. o epocă istorică medievală
+- d. un program economic
+
+> [!success]- Răspuns
+> **a. denumirea propagandistică a perioadei Ceaușescu**
+> 
+> În realitate, era o perioadă de penurie.
+
+### 66. Cultul personalității a fost extins și asupra:
+
+- a. Elenei Ceaușescu
+- b. primului-ministru
+- c. Armatei Roșii
+- d. partidului sovietic
+
+> [!success]- Răspuns
+> **a. Elenei Ceaușescu**
+> 
+> Puterea s-a concentrat în familie.
+
+### 67. Festivalul „Cântarea României" servea la:
+
+- a. glorificarea regimului și a conducătorului
+- b. promovarea artei libere
+- c. selecția talentelor independente
+- d. schimburi culturale internaționale
+
+> [!success]- Răspuns
+> **a. glorificarea regimului și a conducătorului**
+> 
+> Mobiliza mase de oameni.
+
+### 68. Contrastul dintre propaganda triumfalistă și penurie a produs:
+
+- a. un dispreț tăcut, care a slăbit regimul din interior
+- b. adeziunea sinceră a populației
+- c. prosperitate
+- d. reforme economice
+
+> [!success]- Răspuns
+> **a. un dispreț tăcut, care a slăbit regimul din interior**
+> 
+> Cultul dus la extrem devenise sursă de ridicol.
+
+### 69. Revoluția din 1989 a pornit de la:
+
+- a. Timișoara, de la solidarizarea cu László Tőkés
+- b. București, de la mitingul din 21 decembrie
+- c. Cluj, de la un protest studențesc
+- d. Brașov, de la o grevă
+
+> [!success]- Răspuns
+> **a. Timișoara, de la solidarizarea cu László Tőkés**
+> 
+> Protestele au început la 16 decembrie.
+
+### 70. La 22 decembrie 1989:
+
+- a. cuplul Ceaușescu a fugit, iar puterea a fost preluată de CFSN
+- b. a început Revoluția
+- c. Ceaușescu a fost executat
+- d. s-a încheiat totul pașnic
+
+> [!success]- Răspuns
+> **a. cuplul Ceaușescu a fugit, iar puterea a fost preluată de CFSN**
+> 
+> Evenimentele s-au precipitat.
+
+### 71. Cuplul Ceaușescu a fost executat la:
+
+- a. 25 decembrie 1989
+- b. 16 decembrie 1989
+- c. 22 decembrie 1989
+- d. 30 decembrie 1989
+
+> [!success]- Răspuns
+> **a. 25 decembrie 1989**
+> 
+> După un proces sumar.
+
+### 72. Cei mai mulți morți ai Revoluției au căzut:
+
+- a. după 22 decembrie
+- b. înainte de 16 decembrie
+- c. exclusiv la Timișoara
+- d. după executarea lui Ceaușescu
+
+> [!success]- Răspuns
+> **a. după 22 decembrie**
+> 
+> În condiții rămase parțial neelucidate.
+
+### 73. „Tactica salamului" a însemnat:
+
+- a. eliminarea treptată a adversarilor politici
+- b. o reformă agrară
+- c. o metodă de industrializare
+- d. o alianță electorală
+
+> [!success]- Răspuns
+> **a. eliminarea treptată a adversarilor politici**
+> 
+> A permis distrugerea rând pe rând a opoziției.
+
+### 74. Partidul Muncitoresc Român s-a format, în 1948, prin:
+
+- a. absorbirea social-democraților de către comuniști
+- b. fuziunea cu țărăniștii
+- c. desprinderea din partidul sovietic
+- d. unirea cu liberalii
+
+> [!success]- Răspuns
+> **a. absorbirea social-democraților de către comuniști**
+> 
+> A devenit partid unic.
+
+### 75. În anii '50, România se afla sub conducerea lui:
+
+- a. Gheorghe Gheorghiu-Dej
+- b. Nicolae Ceaușescu
+- c. Petru Groza
+- d. Ana Pauker
+
+> [!success]- Răspuns
+> **a. Gheorghe Gheorghiu-Dej**
+> 
+> Perioada a fost una de stalinism deplin.
+
+### 76. Lucrețiu Pătrășcanu a fost:
+
+- a. executat în 1954, după un proces înscenat
+- b. numit prim-ministru
+- c. eliberat în 1964
+- d. exilat în URSS
+
+> [!success]- Răspuns
+> **a. executat în 1954, după un proces înscenat**
+> 
+> Era un rival din interiorul partidului.
+
+### 77. Gospodarii înstăriți, persecutați în timpul colectivizării, erau numiți:
+
+- a. chiaburi
+- b. boieri
+- c. activiști
+- d. brigadieri
+
+> [!success]- Răspuns
+> **a. chiaburi**
+> 
+> Erau supuși cotelor, arestărilor și deportărilor.
+
+### 78. Colectivizarea agriculturii s-a desfășurat între:
+
+- a. 1949 și 1962
+- b. 1945 și 1948
+- c. 1962 și 1971
+- d. 1971 și 1980
+
+> [!success]- Răspuns
+> **a. 1949 și 1962**
+> 
+> A copiat modelul sovietic al kolhozului.
+
+### 79. România a intrat în sfera de influență sovietică după:
 
 - a. ocupația militară din 1944
 - b. alegerile din 1946
@@ -453,7 +957,7 @@ cssclasses: test
 > 
 > Raportul de forțe a fost decisiv.
 
-### 38. Regele Mihai I a abdicat forțat la:
+### 80. Regele Mihai I a abdicat forțat la:
 
 - a. 30 decembrie 1947
 - b. 23 august 1944
@@ -465,7 +969,7 @@ cssclasses: test
 > 
 > În aceeași zi a fost proclamată republica.
 
-### 39. Alegerile din noiembrie 1946 au fost:
+### 81. Alegerile din noiembrie 1946 au fost:
 
 - a. falsificate masiv
 - b. corecte
@@ -477,7 +981,7 @@ cssclasses: test
 > 
 > Au servit la legitimarea preluării puterii.
 
-### 40. Naționalizarea principalelor întreprinderi a avut loc la:
+### 82. Naționalizarea principalelor întreprinderi a avut loc la:
 
 - a. 11 iunie 1948
 - b. 1945
@@ -489,7 +993,7 @@ cssclasses: test
 > 
 > A vizat industria, băncile și transporturile.
 
-### 41. Colectivizarea agriculturii s-a desfășurat între:
+### 83. Colectivizarea agriculturii s-a desfășurat între:
 
 - a. 1949 și 1962
 - b. 1945 și 1948
@@ -501,7 +1005,7 @@ cssclasses: test
 > 
 > A întâmpinat rezistență, reprimată violent.
 
-### 42. Securitatea a fost înființată în:
+### 84. Securitatea a fost înființată în:
 
 - a. 1948
 - b. 1944
@@ -513,7 +1017,7 @@ cssclasses: test
 > 
 > A construit o rețea largă de informatori.
 
-### 43. „Reeducarea” de la Pitești s-a desfășurat între:
+### 85. „Reeducarea” de la Pitești s-a desfășurat între:
 
 - a. 1949 și 1952
 - b. 1944 și 1947
@@ -525,7 +1029,7 @@ cssclasses: test
 > 
 > A urmărit distrugerea personalității deținuților.
 
-### 44. Deportările în Bărăgan au început în:
+### 86. Deportările în Bărăgan au început în:
 
 - a. 1951
 - b. 1945
@@ -537,7 +1041,7 @@ cssclasses: test
 > 
 > Au strămutat forțat zeci de mii de oameni.
 
-### 45. Gheorghe Gheorghiu-Dej a condus regimul până în:
+### 87. Gheorghe Gheorghiu-Dej a condus regimul până în:
 
 - a. 1965
 - b. 1958
@@ -549,7 +1053,79 @@ cssclasses: test
 > 
 > I-a urmat Nicolae Ceaușescu.
 
-### 46. Trupele sovietice s-au retras din România în:
+### 88. Sistemul de detenție politică din România a fost numit:
+
+- a. „Gulagul românesc"
+- b. „reforma penitenciară"
+- c. „reeducarea civică"
+- d. „sistemul de muncă liberă"
+
+> [!success]- Răspuns
+> **a. „Gulagul românesc"**
+> 
+> Cuprindea închisori și lagăre de muncă.
+
+### 89. Mișcarea inițiată de Paul Goma în 1977 a fost inspirată de:
+
+- a. Charta 77 din Cehoslovacia
+- b. reformele sovietice
+- c. Revoluția maghiară
+- d. Primăvara de la Praga
+
+> [!success]- Răspuns
+> **a. Charta 77 din Cehoslovacia**
+> 
+> Era o mișcare pentru drepturile omului.
+
+### 90. Decretul din 1966, în timpul regimului Ceaușescu, a interzis:
+
+- a. avortul, pentru a crește natalitatea
+- b. emigrarea
+- c. proprietatea privată
+- d. practicarea religiei
+
+> [!success]- Răspuns
+> **a. avortul, pentru a crește natalitatea**
+> 
+> Urmarea au fost drame familiale și avorturi clandestine.
+
+### 91. „Sistematizarea" a însemnat:
+
+- a. demolarea și reorganizarea satelor și a cartierelor
+- b. planificarea economică
+- c. reforma agrară
+- d. reorganizarea armatei
+
+> [!success]- Răspuns
+> **a. demolarea și reorganizarea satelor și a cartierelor**
+> 
+> Prin ea a fost demolat parțial centrul Bucureștiului.
+
+### 92. „Epoca de Aur" era:
+
+- a. denumirea propagandistică a perioadei Ceaușescu
+- b. o perioadă de prosperitate reală
+- c. o epocă medievală
+- d. un plan cincinal
+
+> [!success]- Răspuns
+> **a. denumirea propagandistică a perioadei Ceaușescu**
+> 
+> În realitate, o perioadă de penurie.
+
+### 93. Revoluția din 1989 a pornit de la:
+
+- a. Timișoara, de la solidarizarea cu László Tőkés
+- b. București
+- c. Cluj
+- d. Brașov
+
+> [!success]- Răspuns
+> **a. Timișoara, de la solidarizarea cu László Tőkés**
+> 
+> Cuplul Ceaușescu a fost executat la 25 decembrie 1989.
+
+### 94. Trupele sovietice s-au retras din România în:
 
 - a. 1958
 - b. 1948
@@ -561,7 +1137,7 @@ cssclasses: test
 > 
 > A marcat o distanțare treptată față de Moscova.
 
-### 47. Tezele din iulie au fost adoptate în:
+### 95. Tezele din iulie au fost adoptate în:
 
 - a. 1971
 - b. 1965
@@ -573,7 +1149,7 @@ cssclasses: test
 > 
 > Au reinstaurat controlul ideologic asupra culturii.
 
-### 48. Condamnarea invadării Cehoslovaciei a avut loc în:
+### 96. Condamnarea invadării Cehoslovaciei a avut loc în:
 
 - a. 1968
 - b. 1965
@@ -585,7 +1161,7 @@ cssclasses: test
 > 
 > I-a adus lui Ceaușescu prestigiu extern.
 
-### 49. Datoria externă a fost achitată integral în:
+### 97. Datoria externă a fost achitată integral în:
 
 - a. 1989
 - b. 1982
@@ -597,7 +1173,7 @@ cssclasses: test
 > 
 > Costul a fost suportat de populație.
 
-### 50. Raționalizarea alimentelor din anii '80 a vizat:
+### 98. Raționalizarea alimentelor din anii '80 a vizat:
 
 - a. pâinea, uleiul, zahărul și carnea
 - b. doar produsele importate
@@ -609,7 +1185,7 @@ cssclasses: test
 > 
 > Alimentele erau exportate masiv.
 
-### 51. Revolta muncitorilor de la Brașov a avut loc în:
+### 99. Revolta muncitorilor de la Brașov a avut loc în:
 
 - a. noiembrie 1987
 - b. 1977
@@ -621,7 +1197,7 @@ cssclasses: test
 > 
 > A fost reprimată.
 
-### 52. Revoluția din 1989 a început la:
+### 100. Revoluția din 1989 a început la:
 
 - a. Timișoara, la 16 decembrie
 - b. București, la 21 decembrie
@@ -633,7 +1209,7 @@ cssclasses: test
 > 
 > S-a extins apoi la București.
 
-### 53. CNSAS a fost înființat în:
+### 101. CNSAS a fost înființat în:
 
 - a. 1999
 - b. 1990
@@ -645,7 +1221,7 @@ cssclasses: test
 > 
 > Administrează arhivele Securității.
 
-### 54. Condamnarea oficială a regimului comunist ca ilegitim și criminal a avut loc în:
+### 102. Condamnarea oficială a regimului comunist ca ilegitim și criminal a avut loc în:
 
 - a. 2006
 - b. 1990

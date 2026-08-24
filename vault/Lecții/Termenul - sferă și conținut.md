@@ -10,7 +10,7 @@ clasa: "a IX-a"
 ---
 # Termenul: sferă și conținut
 
-[[Logică, argumentare și comunicare (clasa a IX-a)|Logică, argumentare și comunicare]] · [[Clasa a IX-a]] · lecția 4 din 16
+[[Logică, argumentare și comunicare (clasa a IX-a)|Logică, argumentare și comunicare]] · [[Clasa a IX-a]] · lecția 4 din 24
 
 **Capitolul:** Termenii — semestrul 1
 

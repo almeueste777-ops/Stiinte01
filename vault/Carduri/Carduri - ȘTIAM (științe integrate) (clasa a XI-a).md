@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — ȘTIAM (științe integrate) (clasa a XI-a)
 
-36 carduri pentru [[ȘTIAM (științe integrate) (clasa a XI-a)|ȘTIAM (științe integrate) (clasa a XI-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+64 carduri pentru [[ȘTIAM (științe integrate) (clasa a XI-a)|ȘTIAM (științe integrate) (clasa a XI-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/stiam-stiinte-integrate
 
@@ -82,6 +82,62 @@ Cum se realizează homeostazia?::Prin bucle de reglare, cel mai adesea negative.
 Care sunt trăsăturile comune ale organismelor vii?::Structura celulară, folosirea energiei, homeostazia, reacția la stimuli, creșterea, reproducerea, evoluția.
 
 Ce asigură continuitatea și ce asigură schimbarea în lumea vie?::Informația genetică asigură continuitatea; variabilitatea, materia primă a evoluției.
+
+Din ce e format un atom?::Nucleu (protoni, neutroni) și electroni.
+
+Ce este numărul atomic?::Numărul de protoni din nucleu.
+
+Ce tipuri de legături chimice există?::Ionică (transfer) și covalentă (electroni în comun).
+
+Ce ordonează tabelul periodic?::Elementele, după numărul atomic.
+
+Ce spune legea conservării masei?::Într-o reacție, masa se păstrează; atomii se rearanjează.
+
+Ce este o reacție exotermă?::Una care eliberează energie (arderea, respirația).
+
+Ce este o reacție endotermă?::Una care absoarbe energie (fotosinteza).
+
+Ce grăbește o reacție fără a se consuma?::Un catalizator.
+
+Prin ce diferă un amestec de o substanță compusă?::Componentele nu s-au combinat chimic și își păstrează proprietățile.
+
+Ce este o soluție?::Un amestec omogen (solvat dizolvat în solvent).
+
+Ce separă filtrarea?::Solidul de lichid.
+
+Ce separă distilarea?::Lichide, după punctul de fierbere.
+
+Ce este energia?::Capacitatea de a produce lucru mecanic sau schimbări.
+
+Ce spune principiul conservării energiei?::Energia se transformă, nu se creează sau distruge.
+
+În ce devine energia electrică într-un bec?::În energie luminoasă și termică.
+
+De ce niciun proces nu e 100% eficient?::O parte din energie se pierde ca și căldură.
+
+Ce transportă o undă?::Energie, fără a transporta materie.
+
+De ce sunetul nu se aude în vid?::E o undă mecanică, are nevoie de un mediu.
+
+Cu ce viteză se propagă lumina?::Cu circa 300 000 km/s.
+
+Ce este refracția?::Schimbarea direcției luminii la trecerea dintr-un mediu în altul.
+
+Ce trăsături au toate viețuitoarele?::Celule, metabolism, creștere, reacție, reproducere, adaptare.
+
+Care e ordinea nivelurilor de organizare?::Celulă → țesut → organ → sistem → organism.
+
+Ce este homeostazia?::Menținerea unui mediu intern stabil.
+
+Cum se menține homeostazia?::Prin reglare, adesea prin feedback negativ.
+
+Din ce e alcătuit un ecosistem?::Biocenoza (viețuitoare) și biotopul (mediul fizic).
+
+Cum intră energia într-un ecosistem?::Prin fotosinteza producătorilor (plantele).
+
+Ce fac descompunătorii?::Reciclează materia din organismele moarte.
+
+Prin ce diferă energia de materie în ecosistem?::Energia curge într-un sens; materia se reciclează.
 
 ---
 

@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Procente, dobânzi, credite
 
-[[Matematică (clasa a X-a)|Matematică]] · [[Clasa a X-a]] · lecția 7 din 9
+[[Matematică (clasa a X-a)|Matematică]] · [[Clasa a X-a]] · lecția 7 din 18
 
 **Capitolul:** Matematici financiare și aplicații — semestrul 2
 

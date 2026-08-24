@@ -10,7 +10,7 @@ clasa: "a IX-a"
 ---
 # Roma: republică și imperiu
 
-[[Istorie (clasa a IX-a)|Istorie]] · [[Clasa a IX-a]] · lecția 4 din 12
+[[Istorie (clasa a IX-a)|Istorie]] · [[Clasa a IX-a]] · lecția 4 din 24
 
 **Capitolul:** Roma, romanitatea și lumea daco-romană — semestrul 1
 

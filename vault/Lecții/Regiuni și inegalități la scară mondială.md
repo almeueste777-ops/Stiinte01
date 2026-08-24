@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Regiuni și inegalități la scară mondială
 
-[[Geografie (clasa a XI-a)|Geografie]] · [[Clasa a XI-a]] · lecția 8 din 9
+[[Geografie (clasa a XI-a)|Geografie]] · [[Clasa a XI-a]] · lecția 8 din 20
 
 **Capitolul:** Geopolitică și economie mondială — semestrul 2
 

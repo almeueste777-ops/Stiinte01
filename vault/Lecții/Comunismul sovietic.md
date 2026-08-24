@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Comunismul sovietic
 
-[[Istorie (clasa a XI-a)|Istorie]] · [[Clasa a XI-a]] · lecția 5 din 11
+[[Istorie (clasa a XI-a)|Istorie]] · [[Clasa a XI-a]] · lecția 5 din 24
 
 **Capitolul:** Democrație și totalitarism — semestrul 1
 

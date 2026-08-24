@@ -14,11 +14,11 @@ cssclasses: fisa
 
 ## Anii de studiu
 
-- [[Limba și literatura română (clasa a IX-a)|Clasa a IX-a]] — 9 lecții, 36 carduri, 60 întrebări
-- [[Limba și literatura română (clasa a X-a)|Clasa a X-a]] — 9 lecții, 36 carduri, 60 întrebări
-- [[Limba și literatura română (clasa a XI-a)|Clasa a XI-a]] — 9 lecții, 36 carduri, 60 întrebări
-- [[Limba și literatura română (clasa a XII-a)|Clasa a XII-a]] — 10 lecții, 40 carduri, 65 întrebări
-- [[Limba și literatura română (clasa a XIII-a)|Clasa a XIII-a]] — 9 lecții, 36 carduri, 60 întrebări
+- [[Limba și literatura română (clasa a IX-a)|Clasa a IX-a]] — 20 lecții, 80 carduri, 110 întrebări
+- [[Limba și literatura română (clasa a X-a)|Clasa a X-a]] — 20 lecții, 80 carduri, 116 întrebări
+- [[Limba și literatura română (clasa a XI-a)|Clasa a XI-a]] — 20 lecții, 80 carduri, 116 întrebări
+- [[Limba și literatura română (clasa a XII-a)|Clasa a XII-a]] — 20 lecții, 80 carduri, 117 întrebări
+- [[Limba și literatura română (clasa a XIII-a)|Clasa a XIII-a]] — 20 lecții, 80 carduri, 116 întrebări
 
 ## Legături
 - [[00 Start aici]]

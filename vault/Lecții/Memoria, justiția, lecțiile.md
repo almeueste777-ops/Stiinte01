@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Memoria, justiția, lecțiile
 
-[[Istoria comunismului din România (clasa a XIII-a)|Istoria comunismului din România]] · [[Clasa a XIII-a]] · lecția 9 din 9
+[[Istoria comunismului din România (clasa a XIII-a)|Istoria comunismului din România]] · [[Clasa a XIII-a]] · lecția 9 din 18
 
 **Capitolul:** Viața cotidiană, sfârșitul, memoria — semestrul 2
 
@@ -29,6 +29,6 @@ După 1989, societatea românească a trebuit să se confrunte cu trecutul recen
 
 ---
 
-⬅ [[Opoziție și prăbușirea regimului]]
+⬅ [[Opoziție și prăbușirea regimului]] · [[Etapele instaurării comunismului (1944–1948)]] ➡
 
 Exersează: [[Carduri - Istoria comunismului din România (clasa a XIII-a)]] · [[Test - Istoria comunismului din România (clasa a XIII-a)]]

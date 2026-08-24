@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Dezinformare, verificarea informației
 
-[[Studii sociale (clasa a XIII-a)|Studii sociale]] · [[Clasa a XIII-a]] · lecția 5 din 9
+[[Studii sociale (clasa a XIII-a)|Studii sociale]] · [[Clasa a XIII-a]] · lecția 5 din 18
 
 **Capitolul:** Media, informație, gândire critică — semestrul 2
 

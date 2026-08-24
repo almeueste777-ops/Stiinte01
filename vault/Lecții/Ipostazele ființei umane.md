@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Ipostazele ființei umane
 
-[[Psihologie (clasa a X-a)|Psihologie]] · [[Clasa a X-a]] · lecția 3 din 16
+[[Psihologie (clasa a X-a)|Psihologie]] · [[Clasa a X-a]] · lecția 3 din 24
 
 **Capitolul:** Psihologia ca știință — semestrul 1
 

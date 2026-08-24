@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Mișcare, repaus, sisteme de referință
 
-[[Fizică (clasa a IX-a)|Fizică]] · [[Clasa a IX-a]] · lecția 1 din 9
+[[Fizică (clasa a IX-a)|Fizică]] · [[Clasa a IX-a]] · lecția 1 din 18
 
 **Capitolul:** Mișcare și forțe — semestrul 1
 

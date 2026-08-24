@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Istorie (clasa a X-a)
 
-72 întrebări din [[Istorie (clasa a X-a)|Istorie (clasa a X-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+132 întrebări din [[Istorie (clasa a X-a)|Istorie (clasa a X-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Renașterea pornește din:
 
@@ -585,7 +585,655 @@ cssclasses: test
 > 
 > Haret a extins școala rurală și a legat-o de nevoile satului.
 
-### 49. Renașterea pornește din:
+### 49. Formula „Statul sunt eu" este atribuită lui:
+
+- a. Ludovic al XIV-lea
+- b. Napoleon
+- c. Ludovic al XVI-lea
+- d. Richelieu
+
+> [!success]- Răspuns
+> **a. Ludovic al XIV-lea**
+> 
+> Ea exprimă esența absolutismului.
+
+### 50. Absolutismul se întemeia ideologic pe:
+
+- a. „dreptul divin" al regelui
+- b. suveranitatea poporului
+- c. separarea puterilor
+- d. contractul social
+
+> [!success]- Răspuns
+> **a. „dreptul divin" al regelui**
+> 
+> Regele nu răspundea decât în fața lui Dumnezeu.
+
+### 51. Mercantilismul urmărea:
+
+- a. îmbogățirea statului prin comerț și o balanță favorabilă
+- b. desființarea vămilor
+- c. libertatea deplină a comerțului
+- d. împărțirea pământului
+
+> [!success]- Răspuns
+> **a. îmbogățirea statului prin comerț și o balanță favorabilă**
+> 
+> Colbert l-a aplicat în Franța.
+
+### 52. Reședința simbol a absolutismului francez a fost:
+
+- a. palatul de la Versailles
+- b. Luvru
+- c. Bastilia
+- d. Notre-Dame
+
+> [!success]- Răspuns
+> **a. palatul de la Versailles**
+> 
+> Acolo Ludovic al XIV-lea a ținut nobilimea sub control.
+
+### 53. Regele Angliei executat în urma războiului civil a fost:
+
+- a. Carol I
+- b. Iacob al II-lea
+- c. Wilhelm de Orania
+- d. Henric al VIII-lea
+
+> [!success]- Răspuns
+> **a. Carol I**
+> 
+> Execuția din 1649 a fost fără precedent în Europa.
+
+### 54. Glorioasa Revoluție (1688) a dus la:
+
+- a. instaurarea monarhiei parlamentare
+- b. proclamarea republicii
+- c. restaurarea absolutismului
+- d. unirea cu Franța
+
+> [!success]- Răspuns
+> **a. instaurarea monarhiei parlamentare**
+> 
+> Puterea regelui a fost limitată prin Bill of Rights.
+
+### 55. Bill of Rights (1689) a consacrat:
+
+- a. supremația Parlamentului asupra regelui
+- b. dreptul divin al monarhului
+- c. votul universal
+- d. separarea bisericii de stat
+
+> [!success]- Răspuns
+> **a. supremația Parlamentului asupra regelui**
+> 
+> Regele nu putea ridica impozite fără acordul Parlamentului.
+
+### 56. Modelul politic englez a influențat direct:
+
+- a. Iluminismul și constituționalismul modern
+- b. absolutismul francez
+- c. Contrareforma
+- d. feudalismul
+
+> [!success]- Răspuns
+> **a. Iluminismul și constituționalismul modern**
+> 
+> Locke și Montesquieu s-au inspirat din el.
+
+### 57. Principiul echilibrului puterilor urmărea:
+
+- a. împiedicarea dominației unui singur stat asupra Europei
+- b. unificarea Europei
+- c. desființarea armatelor
+- d. răspândirea republicii
+
+> [!success]- Răspuns
+> **a. împiedicarea dominației unui singur stat asupra Europei**
+> 
+> El a stat la baza diplomației moderne.
+
+### 58. Rusia a fost modernizată, la începutul secolului al XVIII-lea, de:
+
+- a. Petru cel Mare
+- b. Ivan cel Groaznic
+- c. Alexandru al II-lea
+- d. Nicolae al II-lea
+
+> [!success]- Răspuns
+> **a. Petru cel Mare**
+> 
+> El a mutat capitala la Sankt-Petersburg.
+
+### 59. „Despotismul luminat" a fost practicat de:
+
+- a. Frederic al II-lea, Ecaterina a II-a, Iosif al II-lea
+- b. Ludovic al XIV-lea și Richelieu
+- c. Cromwell și Wilhelm de Orania
+- d. Bolívar și San Martín
+
+> [!success]- Răspuns
+> **a. Frederic al II-lea, Ecaterina a II-a, Iosif al II-lea**
+> 
+> Ei au adoptat reforme, păstrând puterea absolută.
+
+### 60. Statul care a dispărut prin împărțiri succesive în secolul al XVIII-lea a fost:
+
+- a. Polonia
+- b. Prusia
+- c. Suedia
+- d. Austria
+
+> [!success]- Răspuns
+> **a. Polonia**
+> 
+> Ea a fost împărțită între Rusia, Prusia și Austria.
+
+### 61. Emanciparea Americii Latine a fost condusă, în nord, de:
+
+- a. Simón Bolívar
+- b. José de San Martín
+- c. George Washington
+- d. Giuseppe Garibaldi
+
+> [!success]- Răspuns
+> **a. Simón Bolívar**
+> 
+> San Martín a acționat în sudul continentului.
+
+### 62. Independența Braziliei (1822) s-a produs:
+
+- a. pașnic, prin desprinderea de Portugalia
+- b. printr-un lung război cu Spania
+- c. prin intervenția Angliei
+- d. prin anexarea la SUA
+
+> [!success]- Răspuns
+> **a. pașnic, prin desprinderea de Portugalia**
+> 
+> Brazilia a devenit imperiu independent.
+
+### 63. Doctrina Monroe (1823) proclama:
+
+- a. „America pentru americani"
+- b. „Libertate, egalitate, fraternitate"
+- c. „Sânge și fier"
+- d. „Nicio impozitare fără reprezentare"
+
+> [!success]- Răspuns
+> **a. „America pentru americani"**
+> 
+> Ea se opunea intervențiilor europene în emisfera vestică.
+
+### 64. Conducătorii militari autoritari din America Latină independentă erau numiți:
+
+- a. caudillos
+- b. creoli
+- c. hidalgos
+- d. conchistadori
+
+> [!success]- Răspuns
+> **a. caudillos**
+> 
+> Instabilitatea politică a urmat adesea independenței.
+
+### 65. Războiul de Secesiune (1861–1865) s-a încheiat cu:
+
+- a. victoria Nordului și abolirea sclaviei
+- b. victoria Sudului
+- c. destrămarea Uniunii
+- d. independența Texasului
+
+> [!success]- Răspuns
+> **a. victoria Nordului și abolirea sclaviei**
+> 
+> Președinte al Uniunii a fost Abraham Lincoln.
+
+### 66. Deosebirea fundamentală dintre Nordul și Sudul SUA era:
+
+- a. Nordul industrial față de Sudul agrar și sclavagist
+- b. religia
+- c. limba
+- d. forma de guvernământ
+
+> [!success]- Răspuns
+> **a. Nordul industrial față de Sudul agrar și sclavagist**
+> 
+> Problema sclaviei a declanșat războiul.
+
+### 67. Teritoriul Louisiana a fost cumpărat, în 1803, de la:
+
+- a. Franța
+- b. Spania
+- c. Mexic
+- d. Marea Britanie
+
+> [!success]- Răspuns
+> **a. Franța**
+> 
+> Achiziția a dublat suprafața SUA.
+
+### 68. Sclavia în SUA a fost abolită prin:
+
+- a. Proclamația de emancipare (1863) și Amendamentul al XIII-lea (1865)
+- b. Declarația de Independență (1776)
+- c. Constituția din 1787
+- d. doctrina Monroe (1823)
+
+> [!success]- Răspuns
+> **a. Proclamația de emancipare (1863) și Amendamentul al XIII-lea (1865)**
+> 
+> Egalitatea reală a foștilor sclavi a rămas însă neîmplinită mult timp.
+
+### 69. Teoria evoluției a fost formulată de:
+
+- a. Charles Darwin
+- b. Louis Pasteur
+- c. Dmitri Mendeleev
+- d. Michael Faraday
+
+> [!success]- Răspuns
+> **a. Charles Darwin**
+> 
+> Pasteur a dezvoltat microbiologia.
+
+### 70. Invenția care a permis comunicarea rapidă la distanță în secolul al XIX-lea a fost:
+
+- a. telegraful
+- b. automobilul
+- c. cinematograful
+- d. avionul
+
+> [!success]- Răspuns
+> **a. telegraful**
+> 
+> Ulterior a apărut și telefonul.
+
+### 71. Creșterea speranței de viață în secolul al XIX-lea s-a datorat mai ales:
+
+- a. progreselor medicinei și igienei
+- b. scăderii populației urbane
+- c. reducerii industriei
+- d. desființării orașelor
+
+> [!success]- Răspuns
+> **a. progreselor medicinei și igienei**
+> 
+> Vaccinarea și canalizarea au avut un rol important.
+
+### 72. Societatea modernă din secolul al XIX-lea era, tot mai mult:
+
+- a. urbană, industrială și alfabetizată
+- b. rurală și feudală
+- c. nomadă
+- d. exclusiv agrară
+
+> [!success]- Răspuns
+> **a. urbană, industrială și alfabetizată**
+> 
+> Ea se deosebea radical de lumea tradițională.
+
+### 73. Unificarea Italiei a fost condusă de:
+
+- a. Regatul Sardiniei (Piemont)
+- b. Statul Papal
+- c. Regatul celor Două Sicilii
+- d. Republica Venețiană
+
+> [!success]- Răspuns
+> **a. Regatul Sardiniei (Piemont)**
+> 
+> Artizanii ei au fost Cavour și Garibaldi.
+
+### 74. „Cei o mie" (cămășile roșii) au fost conduși de:
+
+- a. Giuseppe Garibaldi
+- b. Camillo Cavour
+- c. Victor Emanuel al II-lea
+- d. Giuseppe Mazzini
+
+> [!success]- Răspuns
+> **a. Giuseppe Garibaldi**
+> 
+> Ei au cucerit Regatul celor Două Sicilii.
+
+### 75. Regatul Italiei a fost proclamat în:
+
+- a. 1861
+- b. 1848
+- c. 1866
+- d. 1870
+
+> [!success]- Răspuns
+> **a. 1861**
+> 
+> Roma a devenit capitală în 1870.
+
+### 76. Primul rege al Italiei unite a fost:
+
+- a. Victor Emanuel al II-lea
+- b. Giuseppe Garibaldi
+- c. Camillo Cavour
+- d. Giuseppe Mazzini
+
+> [!success]- Răspuns
+> **a. Victor Emanuel al II-lea**
+> 
+> Cavour a fost prim-ministrul artizan al unirii.
+
+### 77. Unificarea Germaniei a fost realizată sub conducerea:
+
+- a. Prusiei
+- b. Austriei
+- c. Bavariei
+- d. Saxoniei
+
+> [!success]- Răspuns
+> **a. Prusiei**
+> 
+> Cancelarul Bismarck a fost artizanul ei.
+
+### 78. Formula „prin fier și sânge" aparține lui:
+
+- a. Bismarck
+- b. Cavour
+- c. Garibaldi
+- d. Metternich
+
+> [!success]- Răspuns
+> **a. Bismarck**
+> 
+> Ea exprimă unificarea prin forță, nu prin discursuri.
+
+### 79. Imperiul German a fost proclamat în:
+
+- a. 1871
+- b. 1861
+- c. 1848
+- d. 1866
+
+> [!success]- Răspuns
+> **a. 1871**
+> 
+> Proclamarea a avut loc la Versailles.
+
+### 80. Primul împărat al Germaniei unite a fost:
+
+- a. Wilhelm I
+- b. Otto von Bismarck
+- c. Wilhelm al II-lea
+- d. Frederic al II-lea
+
+> [!success]- Răspuns
+> **a. Wilhelm I**
+> 
+> Bismarck a devenit cancelar al imperiului.
+
+### 81. Iobăgia în Rusia a fost desființată, în 1861, de:
+
+- a. Alexandru al II-lea
+- b. Petru cel Mare
+- c. Nicolae I
+- d. Ecaterina a II-a
+
+> [!success]- Răspuns
+> **a. Alexandru al II-lea**
+> 
+> Reforma a urmat înfrângerii din Războiul Crimeii.
+
+### 82. „Omul bolnav al Europei" desemna, în secolul al XIX-lea:
+
+- a. Imperiul Otoman
+- b. Imperiul Rus
+- c. Austro-Ungaria
+- d. Prusia
+
+> [!success]- Răspuns
+> **a. Imperiul Otoman**
+> 
+> Imperiul Otoman pierdea teritorii și influență.
+
+### 83. Reformele Tanzimat au fost inițiate în:
+
+- a. Imperiul Otoman
+- b. Rusia
+- c. Austria
+- d. Franța
+
+> [!success]- Răspuns
+> **a. Imperiul Otoman**
+> 
+> Ele urmăreau modernizarea și egalitatea în fața legii.
+
+### 84. Declinul Imperiului Otoman a favorizat:
+
+- a. formarea statelor naționale din Balcani, între care România
+- b. consolidarea absolutismului
+- c. unificarea Germaniei
+- d. expansiunea Spaniei
+
+> [!success]- Răspuns
+> **a. formarea statelor naționale din Balcani, între care România**
+> 
+> El a fost în centrul „chestiunii orientale".
+
+### 85. Epoca fanariotă a început, în Moldova, în anul:
+
+- a. 1711
+- b. 1716
+- c. 1775
+- d. 1821
+
+> [!success]- Răspuns
+> **a. 1711**
+> 
+> În Țara Românească, ea a început în 1716.
+
+### 86. Domnii fanarioți erau numiți de:
+
+- a. Poarta otomană
+- b. adunarea boierilor
+- c. marile puteri europene
+- d. patriarhul de la Constantinopol
+
+> [!success]- Răspuns
+> **a. Poarta otomană**
+> 
+> Ei proveneau din cartierul Fanar.
+
+### 87. Șerbia a fost desființată în Principate de:
+
+- a. Constantin Mavrocordat
+- b. Tudor Vladimirescu
+- c. Dimitrie Cantemir
+- d. Alexandru Ipsilanti
+
+> [!success]- Răspuns
+> **a. Constantin Mavrocordat**
+> 
+> Reformele datează din 1746 și 1749.
+
+### 88. Epoca fanariotă s-a încheiat în:
+
+- a. 1821
+- b. 1775
+- c. 1812
+- d. 1859
+
+> [!success]- Răspuns
+> **a. 1821**
+> 
+> Odată cu mișcarea lui Tudor Vladimirescu.
+
+### 89. Prima cale ferată din vechea Românie (București–Giurgiu) a fost dată în folosință în:
+
+- a. 1869
+- b. 1859
+- c. 1877
+- d. 1881
+
+> [!success]- Răspuns
+> **a. 1869**
+> 
+> Modernizarea a inclus și portul Constanța.
+
+### 90. Podul de la Cernavodă a fost construit de:
+
+- a. Anghel Saligny
+- b. Spiru Haret
+- c. Ion Ghica
+- d. Petrache Poenaru
+
+> [!success]- Răspuns
+> **a. Anghel Saligny**
+> 
+> El a fost, la vremea sa, cel mai lung pod din Europa.
+
+### 91. Economia României moderne era, în principal:
+
+- a. agrară, bazată pe exportul de cereale
+- b. industrială
+- c. comercială și bancară
+- d. bazată pe minerit
+
+> [!success]- Răspuns
+> **a. agrară, bazată pe exportul de cereale**
+> 
+> Industria rămânea slabă și concentrată în câteva ramuri.
+
+### 92. Banca Națională a României a fost înființată în:
+
+- a. 1880
+- b. 1859
+- c. 1866
+- d. 1907
+
+> [!success]- Răspuns
+> **a. 1880**
+> 
+> Ea a susținut modernizarea economică a țării.
+
+### 93. Modelul cultural adoptat de elitele românești moderne era mai ales:
+
+- a. francez
+- b. german
+- c. rus
+- d. otoman
+
+> [!success]- Răspuns
+> **a. francez**
+> 
+> Franceza era limba elitelor și a culturii.
+
+### 94. „Cele două Românii" desemnau contrastul dintre:
+
+- a. orașul modernizat și satul tradițional
+- b. Moldova și Țara Românească
+- c. boieri și domnitor
+- d. creștini și musulmani
+
+> [!success]- Răspuns
+> **a. orașul modernizat și satul tradițional**
+> 
+> Decalajul social a rămas marea problemă a țării.
+
+### 95. Reforma învățământului de la începutul secolului XX este legată de:
+
+- a. Spiru Haret
+- b. Titu Maiorescu
+- c. Ion Ghica
+- d. Take Ionescu
+
+> [!success]- Răspuns
+> **a. Spiru Haret**
+> 
+> Ea a urmărit ridicarea satului prin școală.
+
+### 96. Societatea românească de la 1900 era:
+
+- a. în plină transformare, între tradiție și modernitate
+- b. pe deplin modernizată
+- c. exclusiv rurală și feudală
+- d. dominată de industrie
+
+> [!success]- Răspuns
+> **a. în plină transformare, între tradiție și modernitate**
+> 
+> Tensiunea tradiție–modernitate va marca și interbelicul.
+
+### 97. Monarhul absolut prin excelență, „Regele Soare", a fost:
+
+- a. Ludovic al XIV-lea
+- b. Napoleon Bonaparte
+- c. Carol I al Angliei
+- d. Ludovic al XVI-lea
+
+> [!success]- Răspuns
+> **a. Ludovic al XIV-lea**
+> 
+> El a domnit în Franța între 1643 și 1715.
+
+### 98. Glorioasa Revoluție engleză (1688) a dus la:
+
+- a. instaurarea monarhiei parlamentare
+- b. proclamarea republicii
+- c. restaurarea absolutismului
+- d. unirea cu Scoția
+
+> [!success]- Răspuns
+> **a. instaurarea monarhiei parlamentare**
+> 
+> Bill of Rights (1689) a limitat puterea regelui.
+
+### 99. Emanciparea Americii Latine a fost condusă, printre alții, de:
+
+- a. Simón Bolívar
+- b. George Washington
+- c. Giuseppe Garibaldi
+- d. Otto von Bismarck
+
+> [!success]- Răspuns
+> **a. Simón Bolívar**
+> 
+> El este supranumit „Eliberatorul".
+
+### 100. Războiul de Secesiune american (1861–1865) s-a încheiat cu:
+
+- a. victoria Nordului și abolirea sclaviei
+- b. destrămarea Uniunii
+- c. victoria Sudului
+- d. independența Texasului
+
+> [!success]- Răspuns
+> **a. victoria Nordului și abolirea sclaviei**
+> 
+> Președinte al Uniunii a fost Abraham Lincoln.
+
+### 101. Abolirea iobăgiei în Rusia (1861) a fost realizată de:
+
+- a. Alexandru al II-lea
+- b. Petru cel Mare
+- c. Ecaterina a II-a
+- d. Nicolae I
+
+> [!success]- Răspuns
+> **a. Alexandru al II-lea**
+> 
+> Ea a făcut parte dintr-un val de „mari reforme".
+
+### 102. „Despotismul luminat" din secolul al XVIII-lea îmbina:
+
+- a. puterea absolută cu reforme inspirate de Iluminism
+- b. democrația cu federalismul
+- c. republica cu sufragiul universal
+- d. feudalismul cu teocrația
+
+> [!success]- Răspuns
+> **a. puterea absolută cu reforme inspirate de Iluminism**
+> 
+> Exemple: Frederic al II-lea al Prusiei, Ecaterina a II-a, Iosif al II-lea.
+
+### 103. Renașterea pornește din:
 
 - a. orașele italiene
 - b. curțile regale franceze
@@ -597,7 +1245,7 @@ cssclasses: test
 > 
 > Acolo existau bani, comenzi și o burghezie interesată de cultură.
 
-### 50. Tiparul cu litere mobile a fost introdus în Europa de:
+### 104. Tiparul cu litere mobile a fost introdus în Europa de:
 
 - a. Gutenberg
 - b. Erasmus
@@ -609,7 +1257,7 @@ cssclasses: test
 > 
 > Invenția datează din jurul anului 1450.
 
-### 51. Reforma religioasă a început în:
+### 105. Reforma religioasă a început în:
 
 - a. 1517
 - b. 1453
@@ -621,7 +1269,7 @@ cssclasses: test
 > 
 > Prin cele 95 de teze ale lui Martin Luther.
 
-### 52. Principiul „cuius regio, eius religio” a fost consacrat prin:
+### 106. Principiul „cuius regio, eius religio” a fost consacrat prin:
 
 - a. Pacea de la Augsburg (1555)
 - b. Pacea Westfalică (1648)
@@ -633,7 +1281,7 @@ cssclasses: test
 > 
 > Religia principelui devenea religia supușilor.
 
-### 53. Columb a ajuns în America în:
+### 107. Columb a ajuns în America în:
 
 - a. 1492
 - b. 1488
@@ -645,7 +1293,7 @@ cssclasses: test
 > 
 > Vasco da Gama ajunge în India în 1498.
 
-### 54. Tratatul de la Tordesillas a împărțit lumea între:
+### 108. Tratatul de la Tordesillas a împărțit lumea între:
 
 - a. Spania și Portugalia
 - b. Anglia și Franța
@@ -657,7 +1305,7 @@ cssclasses: test
 > 
 > Tratatul datează din 1494.
 
-### 55. Separarea puterilor a fost teoretizată de:
+### 109. Separarea puterilor a fost teoretizată de:
 
 - a. Montesquieu
 - b. Rousseau
@@ -669,7 +1317,7 @@ cssclasses: test
 > 
 > Rousseau a teoretizat suveranitatea poporului.
 
-### 56. Declarația de Independență a SUA a fost adoptată la:
+### 110. Declarația de Independență a SUA a fost adoptată la:
 
 - a. 4 iulie 1776
 - b. 14 iulie 1789
@@ -681,7 +1329,7 @@ cssclasses: test
 > 
 > Constituția SUA datează din 1787.
 
-### 57. Luarea Bastiliei a avut loc la:
+### 111. Luarea Bastiliei a avut loc la:
 
 - a. 14 iulie 1789
 - b. 4 august 1789
@@ -693,7 +1341,7 @@ cssclasses: test
 > 
 > Ea marchează simbolic începutul Revoluției franceze.
 
-### 58. Codul civil napoleonian a fost adoptat în:
+### 112. Codul civil napoleonian a fost adoptat în:
 
 - a. 1804
 - b. 1789
@@ -705,7 +1353,7 @@ cssclasses: test
 > 
 > El a consacrat egalitatea în fața legii și dreptul de proprietate.
 
-### 59. Revoluția industrială a început în:
+### 113. Revoluția industrială a început în:
 
 - a. Anglia
 - b. Franța
@@ -717,7 +1365,7 @@ cssclasses: test
 > 
 > Anglia avea capital, cărbune, fier, forță de muncă și instituții stabile.
 
-### 60. Electricitatea și motorul cu ardere internă caracterizează:
+### 114. Electricitatea și motorul cu ardere internă caracterizează:
 
 - a. a doua revoluție industrială
 - b. prima revoluție industrială
@@ -729,7 +1377,79 @@ cssclasses: test
 > 
 > Prima revoluție industrială s-a bazat pe abur și textile.
 
-### 61. Revoluțiile de la 1848 sunt numite:
+### 115. Unificarea Italiei a fost realizată sub conducerea:
+
+- a. Piemontului (Regatul Sardiniei)
+- b. Veneției
+- c. Statului Papal
+- d. Regatului celor Două Sicilii
+
+> [!success]- Răspuns
+> **a. Piemontului (Regatul Sardiniei)**
+> 
+> Cavour și Garibaldi au fost artizanii ei.
+
+### 116. Expediția „Celor o mie" (1860) a fost condusă de:
+
+- a. Giuseppe Garibaldi
+- b. Camillo Cavour
+- c. Victor Emanuel al II-lea
+- d. Giuseppe Mazzini
+
+> [!success]- Răspuns
+> **a. Giuseppe Garibaldi**
+> 
+> Ea a dus la cucerirea sudului Italiei.
+
+### 117. Imperiul German a fost proclamat, în 1871, la:
+
+- a. Versailles
+- b. Berlin
+- c. Viena
+- d. Frankfurt
+
+> [!success]- Răspuns
+> **a. Versailles**
+> 
+> Wilhelm I a devenit împărat, iar Bismarck, cancelar.
+
+### 118. Epoca fanariotă în Țările Române a durat, aproximativ, între:
+
+- a. 1711/1716 și 1821
+- b. 1600 și 1700
+- c. 1821 și 1859
+- d. 1859 și 1877
+
+> [!success]- Răspuns
+> **a. 1711/1716 și 1821**
+> 
+> Ea s-a încheiat odată cu mișcarea lui Tudor Vladimirescu.
+
+### 119. Prima cale ferată din vechea Românie (București–Giurgiu) a fost dată în folosință în:
+
+- a. 1869
+- b. 1859
+- c. 1877
+- d. 1881
+
+> [!success]- Răspuns
+> **a. 1869**
+> 
+> Modernizarea a inclus și portul Constanța și podul de la Cernavodă.
+
+### 120. Banca Națională a României a fost înființată în:
+
+- a. 1880
+- b. 1859
+- c. 1866
+- d. 1907
+
+> [!success]- Răspuns
+> **a. 1880**
+> 
+> Ea a susținut modernizarea economică a țării.
+
+### 121. Revoluțiile de la 1848 sunt numite:
 
 - a. „primăvara popoarelor”
 - b. „era restaurației”
@@ -741,7 +1461,7 @@ cssclasses: test
 > 
 > Ele au combinat revendicări liberale și naționale.
 
-### 62. Unificarea Germaniei s-a realizat în:
+### 122. Unificarea Germaniei s-a realizat în:
 
 - a. 1871
 - b. 1861
@@ -753,7 +1473,7 @@ cssclasses: test
 > 
 > Sub conducerea Prusiei și a lui Bismarck.
 
-### 63. Compromisul din 1867 a creat:
+### 123. Compromisul din 1867 a creat:
 
 - a. Austro-Ungaria
 - b. Imperiul German
@@ -765,7 +1485,7 @@ cssclasses: test
 > 
 > Transilvania a intrat sub administrație maghiară.
 
-### 64. Tripla Alianță a fost încheiată în:
+### 124. Tripla Alianță a fost încheiată în:
 
 - a. 1882
 - b. 1907
@@ -777,7 +1497,7 @@ cssclasses: test
 > 
 > Ea reunea Germania, Austro-Ungaria și Italia.
 
-### 65. Șerbia a fost desființată în Principate de:
+### 125. Șerbia a fost desființată în Principate de:
 
 - a. Constantin Mavrocordat
 - b. Alexandru Ioan Cuza
@@ -789,7 +1509,7 @@ cssclasses: test
 > 
 > Reformele datează din 1746 și 1749.
 
-### 66. Regulamentele Organice au intrat în vigoare în:
+### 126. Regulamentele Organice au intrat în vigoare în:
 
 - a. 1831–1832
 - b. 1821
@@ -801,7 +1521,7 @@ cssclasses: test
 > 
 > Ele au fost primele acte cu rol de constituție.
 
-### 67. Programul revoluției de la 1848 din Țara Românească a fost:
+### 127. Programul revoluției de la 1848 din Țara Românească a fost:
 
 - a. Proclamația de la Islaz
 - b. Petiția Națională de la Blaj
@@ -813,7 +1533,7 @@ cssclasses: test
 > 
 > Fiecare provincie a avut propriul document programatic.
 
-### 68. Adunările ad-hoc au avut loc în:
+### 128. Adunările ad-hoc au avut loc în:
 
 - a. 1857
 - b. 1856
@@ -825,7 +1545,7 @@ cssclasses: test
 > 
 > Ele au cerut unirea, autonomia și prinț străin.
 
-### 69. Cuza a fost ales domn al Țării Românești la:
+### 129. Cuza a fost ales domn al Țării Românești la:
 
 - a. 24 ianuarie 1859
 - b. 5 ianuarie 1859
@@ -837,7 +1557,7 @@ cssclasses: test
 > 
 > În Moldova fusese ales la 5 ianuarie 1859.
 
-### 70. Secularizarea averilor mănăstirești a avut loc în:
+### 130. Secularizarea averilor mănăstirești a avut loc în:
 
 - a. 1863
 - b. 1864
@@ -849,7 +1569,7 @@ cssclasses: test
 > 
 > Legea rurală a urmat în 1864.
 
-### 71. Independența României a fost proclamată la:
+### 131. Independența României a fost proclamată la:
 
 - a. 9 mai 1877
 - b. 10 mai 1866
@@ -861,7 +1581,7 @@ cssclasses: test
 > 
 > Recunoașterea internațională a venit în 1878.
 
-### 72. Teoria „formelor fără fond” aparține lui:
+### 132. Teoria „formelor fără fond” aparține lui:
 
 - a. Titu Maiorescu
 - b. Nicolae Iorga

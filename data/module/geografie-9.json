@@ -884,12 +884,996 @@
      ]
     }
    ]
+  },
+  {
+   "id": "geo9-c5",
+   "titlu": "Măsurarea și reprezentarea Pământului",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "geo9-11",
+     "titlu": "Coordonatele geografice: latitudinea și longitudinea",
+     "rezumat": "Rețeaua de coordonate geografice permite localizarea exactă a oricărui punct de pe glob. Ea este formată din paralele (cercuri paralele cu Ecuatorul) și meridiane (semicercuri care unesc cei doi poli). Ecuatorul este paralela de 0°, cel mai mare cerc, care împarte Pământul în emisfera nordică și emisfera sudică. Meridianul de origine (0°) trece prin observatorul de la Greenwich și împarte globul în emisfera estică și emisfera vestică. Latitudinea este distanța unghiulară a unui punct față de Ecuator, măsurată de la 0° (Ecuator) până la 90° nord sau sud. Longitudinea este distanța unghiulară față de meridianul de origine, de la 0° până la 180° est sau vest. Împreună, latitudinea și longitudinea dau coordonatele geografice ale unui punct, exprimate în grade, minute și secunde. Paralele importante: Ecuatorul (0°), Tropicul Racului (23°27' N), Tropicul Capricornului (23°27' S), Cercul polar de nord (66°33' N), Cercul polar de sud (66°33' S). Latitudinea determină unghiul sub care cad razele solare, deci temperatura și zonele de climă; de aceea ea influențează hotărâtor peisajele naturale.",
+     "ideiCheie": [
+      "Rețeaua geografică: paralele (paralele cu Ecuatorul) și meridiane (unesc polii).",
+      "Latitudinea se măsoară de la Ecuator (0°) spre poli (90° N sau S).",
+      "Longitudinea se măsoară de la meridianul Greenwich (0°) spre est sau vest (180°).",
+      "Latitudinea determină unghiul razelor solare, deci temperatura și zona de climă."
+     ],
+     "termeni": [
+      {
+       "t": "latitudine",
+       "d": "distanța unghiulară a unui punct față de Ecuator, între 0° și 90°"
+      },
+      {
+       "t": "longitudine",
+       "d": "distanța unghiulară a unui punct față de meridianul de origine, între 0° și 180°"
+      },
+      {
+       "t": "meridian de origine",
+       "d": "meridianul de 0°, care trece prin Greenwich"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care este paralela de 0°?",
+       "v": "Ecuatorul."
+      },
+      {
+       "f": "Prin ce loc trece meridianul de origine?",
+       "v": "Prin Greenwich, lângă Londra."
+      },
+      {
+       "f": "Între ce valori se măsoară latitudinea?",
+       "v": "Între 0° la Ecuator și 90° la poli."
+      },
+      {
+       "f": "Ce determină latitudinea unui loc?",
+       "v": "Unghiul razelor solare, deci temperatura și zona de climă."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Ecuatorul este:",
+       "optiuni": [
+        "paralela de 0°",
+        "meridianul de 0°",
+        "tropicul de nord",
+        "cercul polar de sud"
+       ],
+       "corect": 0,
+       "explicatie": "El împarte globul în emisfera nordică și cea sudică."
+      },
+      {
+       "intrebare": "Longitudinea se măsoară față de:",
+       "optiuni": [
+        "meridianul de origine (Greenwich)",
+        "Ecuator",
+        "Tropicul Racului",
+        "cercul polar de nord"
+       ],
+       "corect": 0,
+       "explicatie": "Ea are valori între 0° și 180° est sau vest."
+      },
+      {
+       "intrebare": "Tropicul Racului se află la latitudinea de:",
+       "optiuni": [
+        "23°27' nord",
+        "66°33' nord",
+        "45° nord",
+        "90° nord"
+       ],
+       "corect": 0,
+       "explicatie": "Tropicul Capricornului se află la aceeași latitudine, dar în sud."
+      },
+      {
+       "intrebare": "Coordonatele geografice ale unui punct sunt date de:",
+       "optiuni": [
+        "latitudine și longitudine",
+        "altitudine și adâncime",
+        "direcție și distanță",
+        "scară și legendă"
+       ],
+       "corect": 0,
+       "explicatie": "Ele se exprimă în grade, minute și secunde."
+      }
+     ]
+    },
+    {
+     "id": "geo9-12",
+     "titlu": "Hărțile geografice: scara, semnele convenționale, relieful",
+     "rezumat": "Harta este o reprezentare micșorată, convențională și generalizată a suprafeței terestre pe un plan. Față de glob, care redă fidel forma Pământului, harta deformează inevitabil ceva, fiindcă transpune o suprafață curbă pe una plană. Elementele unei hărți sunt: titlul, scara, legenda, orientarea și rețeaua de coordonate. Scara arată de câte ori a fost micșorată realitatea. Scara numerică se scrie ca raport: 1:100 000 înseamnă că 1 cm pe hartă reprezintă 100 000 cm, adică 1 km, în teren. O scară mare (1:10 000) redă un teritoriu mic, dar cu multe detalii; o scară mică (1:1 000 000) redă un teritoriu întins, cu detalii puține. Semnele convenționale, explicate în legendă, redau elementele hărții. Relieful se reprezintă prin mai multe metode: curbele de nivel (linii care unesc puncte cu aceeași altitudine), tenta hipsometrică (culori pentru trepte de altitudine), cotele (numere care indică înălțimea unui punct). Pe hărțile fizice, verdele indică de obicei câmpiile joase, galbenul dealurile, iar tonurile de maro, munții — cu cât mai închis, cu atât mai înalt.",
+     "ideiCheie": [
+      "Harta: reprezentare micșorată, convențională și generalizată a suprafeței terestre.",
+      "Scara numerică 1:100 000: 1 cm pe hartă corespunde la 1 km în teren.",
+      "Scară mare = teritoriu mic, detaliu mare; scară mică = teritoriu întins, detaliu redus.",
+      "Relieful se reprezintă prin curbe de nivel, tentă hipsometrică și cote."
+     ],
+     "termeni": [
+      {
+       "t": "scară a hărții",
+       "d": "raportul dintre o distanță de pe hartă și distanța corespunzătoare din teren"
+      },
+      {
+       "t": "curbă de nivel",
+       "d": "linie care unește pe hartă punctele cu aceeași altitudine"
+      },
+      {
+       "t": "legendă",
+       "d": "explicarea semnelor convenționale folosite pe o hartă"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce arată scara unei hărți?",
+       "v": "De câte ori a fost micșorată realitatea."
+      },
+      {
+       "f": "Ce reprezintă o curbă de nivel?",
+       "v": "Linia care unește punctele cu aceeași altitudine."
+      },
+      {
+       "f": "Ce culoare indică de obicei câmpiile pe hărțile fizice?",
+       "v": "Verdele."
+      },
+      {
+       "f": "Ce înseamnă scara 1:100 000?",
+       "v": "Că 1 cm pe hartă reprezintă 1 km în teren."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "O scară de 1:100 000 înseamnă că un centimetru pe hartă reprezintă:",
+       "optiuni": [
+        "1 km în teren",
+        "100 m în teren",
+        "10 km în teren",
+        "100 km în teren"
+       ],
+       "corect": 0,
+       "explicatie": "100 000 cm înseamnă 1 000 m, adică 1 km."
+      },
+      {
+       "intrebare": "Harta la scara 1:10 000, față de cea la 1:1 000 000, este:",
+       "optiuni": [
+        "la scară mai mare, cu detalii mai multe",
+        "la scară mai mică",
+        "mai puțin detaliată",
+        "identică ca detaliu"
+       ],
+       "corect": 0,
+       "explicatie": "Numitorul mai mic înseamnă scară mai mare."
+      },
+      {
+       "intrebare": "Curbele de nivel unesc puncte cu:",
+       "optiuni": [
+        "aceeași altitudine",
+        "aceeași temperatură",
+        "aceeași latitudine",
+        "aceeași presiune"
+       ],
+       "corect": 0,
+       "explicatie": "Ele redau relieful pe hărțile topografice."
+      },
+      {
+       "intrebare": "Pe o hartă fizică, tonurile închise de maro indică de obicei:",
+       "optiuni": [
+        "munții înalți",
+        "câmpiile joase",
+        "apele adânci",
+        "deșerturile"
+       ],
+       "corect": 0,
+       "explicatie": "Cu cât culoarea este mai închisă, cu atât altitudinea este mai mare."
+      }
+     ]
+    },
+    {
+     "id": "geo9-13",
+     "titlu": "Măsurarea timpului: fusurile orare, ziua și calendarul",
+     "rezumat": "Măsurarea timpului se bazează pe mișcările Pământului. Ziua solară (24 de ore) este intervalul dintre două treceri succesive ale Soarelui la meridianul unui loc și stă la baza împărțirii în ore. Anul este durata unei revoluții complete în jurul Soarelui (365 de zile și aproape 6 ore); din adunarea acestor sferturi de zi rezultă anul bisect, cu 366 de zile, o dată la patru ani. Deoarece Pământul se rotește 360° în 24 de ore, el parcurge 15° într-o oră. De aceea globul a fost împărțit în 24 de fusuri orare, fiecare de câte 15° longitudine, cu o oră diferență între fusuri vecine. Ora fusului se numără față de ora meridianului de origine (Timpul Universal Coordonat). Spre est ora crește, spre vest ora scade. Linia internațională de schimbare a datei urmează aproximativ meridianul de 180°: trecând-o spre vest se adaugă o zi, iar spre est se scade una. România se află în fusul orar al Europei de Est, cu ora oficială egală cu Timpul Universal plus două ore iarna (și plus trei ore vara, când se folosește ora de vară). Nevoia de a coordona activitățile la scară planetară a impus aceste convenții.",
+     "ideiCheie": [
+      "Ziua solară de 24 de ore stă la baza împărțirii timpului în ore.",
+      "360° împărțit la 24 de ore dă 15° pe oră; de aici cele 24 de fusuri orare.",
+      "Spre est ora crește, spre vest ora scade.",
+      "România se află în fusul Europei de Est (UTC+2 iarna, UTC+3 vara)."
+     ],
+     "termeni": [
+      {
+       "t": "fus orar",
+       "d": "bandă de circa 15° longitudine în care se folosește aceeași oră oficială"
+      },
+      {
+       "t": "an bisect",
+       "d": "an de 366 de zile, o dată la patru ani, care recuperează sferturile de zi"
+      },
+      {
+       "t": "linia de schimbare a datei",
+       "d": "linia din apropierea meridianului de 180°, la trecerea căreia se schimbă data"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Câte fusuri orare are Pământul?",
+       "v": "24, de câte 15° fiecare."
+      },
+      {
+       "f": "De ce apar fusurile orare?",
+       "v": "Pentru că Pământul se rotește cu 15° într-o oră."
+      },
+      {
+       "f": "Câte zile are un an bisect?",
+       "v": "366, o dată la patru ani."
+      },
+      {
+       "f": "În ce fus orar se află România?",
+       "v": "În fusul Europei de Est, la UTC+2 iarna."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Numărul fusurilor orare de pe glob este:",
+       "optiuni": [
+        "24, de câte 15°",
+        "12, de câte 30°",
+        "360, de câte 1°",
+        "60, de câte 6°"
+       ],
+       "corect": 0,
+       "explicatie": "Ele rezultă din împărțirea celor 360° la 24 de ore."
+      },
+      {
+       "intrebare": "Deplasându-ne spre est, ora:",
+       "optiuni": [
+        "crește",
+        "scade",
+        "rămâne aceeași",
+        "devine incertă"
+       ],
+       "corect": 0,
+       "explicatie": "Spre vest, dimpotrivă, ora scade."
+      },
+      {
+       "intrebare": "Anul bisect are 366 de zile pentru că:",
+       "optiuni": [
+        "recuperează sferturile de zi acumulate în patru ani",
+        "Pământul se rotește mai încet",
+        "Soarele se apropie de Pământ",
+        "axa se înclină mai mult"
+       ],
+       "corect": 0,
+       "explicatie": "Un an tropic durează 365 de zile și aproape 6 ore."
+      },
+      {
+       "intrebare": "Linia internațională de schimbare a datei urmează aproximativ meridianul de:",
+       "optiuni": [
+        "180°",
+        "0°",
+        "90°",
+        "45°"
+       ],
+       "corect": 0,
+       "explicatie": "Trecând-o spre vest, se adaugă o zi."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "geo9-c6",
+   "titlu": "Litosfera: roci și forme majore de relief",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "geo9-14",
+     "titlu": "Mineralele și rocile",
+     "rezumat": "Scoarța terestră este alcătuită din roci, iar rocile din minerale. Mineralele sunt substanțe naturale, solide, cu compoziție chimică și structură bine definite (cuarțul, feldspatul, mica, calcitul, sarea). Roca este o asociație naturală de unul sau mai multe minerale. După origine, rocile se împart în trei mari grupe. Rocile magmatice se formează prin răcirea și solidificarea magmei. Cele intruzive (plutonice) se răcesc lent, în adânc, și au cristale mari (granitul); cele efuzive (vulcanice) se răcesc rapid, la suprafață, și au cristale mici (bazaltul). Rocile sedimentare se formează la suprafață, prin depunerea și consolidarea materialelor: detritice (nisip, pietriș, argilă), de precipitație chimică (sare, gips, calcar) sau organogene (cărbune, calcar din cochilii). Ele pot conține fosile. Rocile metamorfice iau naștere din transformarea, sub temperaturi și presiuni mari, a rocilor preexistente, fără topire: din calcar rezultă marmura, din granit — gnaisul, din argilă — șistul. Rocile trec una în alta printr-un ciclu neîncetat: cele magmatice se erodează și dau sedimentare, acestea se metamorfozează, iar prin topire materia se reîntoarce la stadiul de magmă. Rocile stau la baza reliefului, a solurilor și a resurselor minerale.",
+     "ideiCheie": [
+      "Mineralele sunt substanțe naturale cu compoziție și structură definite; rocile le asociază.",
+      "Roci magmatice: din răcirea magmei (granitul în adânc, bazaltul la suprafață).",
+      "Roci sedimentare: din depunerea materialelor; pot conține fosile (nisip, calcar, cărbune).",
+      "Roci metamorfice: din transformarea altor roci sub presiune și căldură (marmură, gnais)."
+     ],
+     "termeni": [
+      {
+       "t": "mineral",
+       "d": "substanță naturală solidă, cu compoziție chimică și structură bine definite"
+      },
+      {
+       "t": "rocă sedimentară",
+       "d": "rocă formată la suprafață prin depunerea și consolidarea materialelor"
+      },
+      {
+       "t": "metamorfism",
+       "d": "transformarea rocilor sub temperaturi și presiuni mari, fără topire"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Din ce sunt alcătuite rocile?",
+       "v": "Din unul sau mai multe minerale."
+      },
+      {
+       "f": "Cum se formează granitul?",
+       "v": "Prin răcirea lentă a magmei în adâncime."
+      },
+      {
+       "f": "Ce rocă rezultă din metamorfozarea calcarului?",
+       "v": "Marmura."
+      },
+      {
+       "f": "În ce tip de roci se găsesc fosilele?",
+       "v": "În rocile sedimentare."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Granitul este o rocă:",
+       "optiuni": [
+        "magmatică intruzivă",
+        "sedimentară",
+        "metamorfică",
+        "organogenă"
+       ],
+       "corect": 0,
+       "explicatie": "S-a răcit lent, în adânc, de aceea are cristale mari."
+      },
+      {
+       "intrebare": "Rocile sedimentare se formează prin:",
+       "optiuni": [
+        "depunerea și consolidarea materialelor la suprafață",
+        "răcirea magmei",
+        "transformarea sub presiune, fără topire",
+        "erupții vulcanice"
+       ],
+       "corect": 0,
+       "explicatie": "Ele pot păstra fosile."
+      },
+      {
+       "intrebare": "Marmura provine din metamorfozarea:",
+       "optiuni": [
+        "calcarului",
+        "granitului",
+        "bazaltului",
+        "nisipului"
+       ],
+       "corect": 0,
+       "explicatie": "Din granit rezultă gnaisul."
+      },
+      {
+       "intrebare": "Bazaltul este o rocă magmatică:",
+       "optiuni": [
+        "efuzivă, răcită rapid la suprafață",
+        "intruzivă, răcită lent în adânc",
+        "sedimentară de precipitație",
+        "metamorfică"
+       ],
+       "corect": 0,
+       "explicatie": "Răcirea rapidă îi dă cristale mici."
+      }
+     ]
+    },
+    {
+     "id": "geo9-15",
+     "titlu": "Marile forme de relief ale continentelor",
+     "rezumat": "La scara continentelor, relieful se organizează în lanțuri montane, podișuri și câmpii, dispuse după structura geologică și după vârsta orogenezelor. Munții tineri, înalți, cu creste ascuțite, s-au format în orogeneza alpină (terțiar): Alpii, Carpații, Caucazul, Himalaya (cu Everest, 8 849 m — cel mai înalt vârf al planetei), Anzii (cel mai lung lanț continental, peste 7 000 km), Munții Stâncoși. Munții vechi, tociți, rotunjiți, provin din orogeneze anterioare: Munții Scandinaviei, Uralii, Apalașii. Podișurile sunt suprafețe relativ netede, situate la altitudini mari, mărginite de versanți: Podișul Tibetului (cel mai înalt, „acoperișul lumii”), Podișul Braziliei, Podișul Deccan, Podișul Anatoliei. Câmpiile, sub 200 m altitudine, ocupă suprafețe imense și concentrează populația și agricultura: Câmpia Amazonului, Câmpia Europei de Est, Câmpia Chinei de Est, Câmpia Indo-Gangetică. Marile trepte de relief se reflectă în distribuția populației: câmpiile și zonele deluroase joase sunt dens populate, în timp ce munții înalți și podișurile aride rămân slab locuite. Continentele se deosebesc prin proporția treptelor: Asia are cei mai înalți munți și cele mai întinse podișuri, Europa are relief scund și fragmentat, iar Africa este dominată de podișuri.",
+     "ideiCheie": [
+      "Munți tineri, înalți (orogeneza alpină): Alpii, Himalaya, Anzii, Caucazul.",
+      "Munți vechi, tociți: Uralii, Munții Scandinaviei, Apalașii.",
+      "Podișuri înalte: Tibet („acoperișul lumii”), Deccan, Brazilia.",
+      "Câmpiile, sub 200 m, concentrează populația și agricultura."
+     ],
+     "termeni": [
+      {
+       "t": "podiș",
+       "d": "suprafață relativ netedă, situată la altitudine mare, mărginită de versanți"
+      },
+      {
+       "t": "orogeneză alpină",
+       "d": "ultima mare fază de formare a munților, din terțiar, care a dat lanțurile înalte de azi"
+      },
+      {
+       "t": "câmpie",
+       "d": "formă de relief joasă, sub 200 m, cu suprafață netedă sau ușor ondulată"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care este cel mai înalt vârf al planetei?",
+       "v": "Everest, 8 849 m, în Munții Himalaya."
+      },
+      {
+       "f": "Care este cel mai lung lanț montan continental?",
+       "v": "Munții Anzi, peste 7 000 km."
+      },
+      {
+       "f": "Ce podiș este numit „acoperișul lumii”?",
+       "v": "Podișul Tibetului."
+      },
+      {
+       "f": "În ce orogeneză s-au format Alpii și Himalaya?",
+       "v": "În orogeneza alpină, în terțiar."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Cel mai înalt vârf de pe uscat este:",
+       "optiuni": [
+        "Everest, în Himalaya",
+        "Mont Blanc, în Alpi",
+        "Aconcagua, în Anzi",
+        "Elbrus, în Caucaz"
+       ],
+       "corect": 0,
+       "explicatie": "El are 8 849 m."
+      },
+      {
+       "intrebare": "Uralii și Apalașii sunt exemple de munți:",
+       "optiuni": [
+        "vechi, tociți",
+        "tineri, înalți",
+        "vulcanici activi",
+        "de blocuri recente"
+       ],
+       "corect": 0,
+       "explicatie": "Ei provin din orogeneze anterioare celei alpine."
+      },
+      {
+       "intrebare": "Câmpiile se caracterizează prin altitudini:",
+       "optiuni": [
+        "sub 200 m",
+        "între 200 și 800 m",
+        "peste 1 000 m",
+        "peste 2 000 m"
+       ],
+       "corect": 0,
+       "explicatie": "Ele concentrează populația și agricultura."
+      },
+      {
+       "intrebare": "Podișul Tibetului este remarcabil pentru că:",
+       "optiuni": [
+        "este cel mai înalt podiș al lumii",
+        "este cel mai jos podiș",
+        "este de origine vulcanică",
+        "se află sub nivelul mării"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea este numit „acoperișul lumii”."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "geo9-c7",
+   "titlu": "Atmosfera și vremea (aprofundare)",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "geo9-16",
+     "titlu": "Vremea și elementele meteorologice",
+     "rezumat": "Vremea este starea atmosferei într-un loc și la un moment dat, spre deosebire de climă, care este regimul mediu al vremii pe mulți ani. Vremea se descrie prin elementele meteorologice: temperatura aerului, presiunea atmosferică, umezeala, nebulozitatea, precipitațiile și vântul. Ele se măsoară cu instrumente: termometrul (temperatura), barometrul (presiunea), higrometrul (umezeala), pluviometrul (precipitațiile), girueta și anemometrul (direcția și viteza vântului). Observațiile se fac în stații meteorologice, la ore fixe, și, tot mai mult, cu ajutorul sateliților, al radarelor și al baloanelor-sondă. Datele sunt trimise la centre care întocmesc hărți sinoptice, pe care se marchează presiunea (izobare), fronturile atmosferice și zonele de precipitații. Pe baza lor și a modelelor numerice se face prognoza vremii. Fronturile atmosferice sunt suprafețele de contact dintre mase de aer cu proprietăți diferite. Frontul cald aduce, de obicei, înnorare treptată și ploi liniștite; frontul rece aduce averse, descărcări electrice și răciri bruște. Cunoașterea vremii are aplicații practice majore: în agricultură, transporturi, aviație și în apărarea împotriva hazardelor (furtuni, inundații, valuri de căldură sau de ger).",
+     "ideiCheie": [
+      "Vremea este starea atmosferei acum; clima, regimul mediu al vremii pe mulți ani.",
+      "Elemente meteorologice: temperatură, presiune, umezeală, nebulozitate, precipitații, vânt.",
+      "Instrumente: termometru, barometru, higrometru, pluviometru, anemometru.",
+      "Prognoza folosește hărți sinoptice, sateliți, radare și modele numerice."
+     ],
+     "termeni": [
+      {
+       "t": "vreme",
+       "d": "starea atmosferei într-un loc și la un moment dat"
+      },
+      {
+       "t": "front atmosferic",
+       "d": "suprafața de contact dintre două mase de aer cu proprietăți diferite"
+      },
+      {
+       "t": "hartă sinoptică",
+       "d": "harta care redă starea atmosferei la un moment dat, cu izobare și fronturi"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care este diferența dintre vreme și climă?",
+       "v": "Vremea este starea de moment; clima, regimul mediu multianual."
+      },
+      {
+       "f": "Cu ce instrument se măsoară presiunea atmosferică?",
+       "v": "Cu barometrul."
+      },
+      {
+       "f": "Ce aduce, de obicei, un front rece?",
+       "v": "Averse, descărcări electrice și răciri bruște."
+      },
+      {
+       "f": "Pe ce se bazează prognoza vremii?",
+       "v": "Pe hărți sinoptice, date de la sateliți și radare și pe modele numerice."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Starea atmosferei într-un loc și la un moment dat se numește:",
+       "optiuni": [
+        "vreme",
+        "climă",
+        "microclimat",
+        "anotimp"
+       ],
+       "corect": 0,
+       "explicatie": "Clima este regimul mediu al vremii pe mulți ani."
+      },
+      {
+       "intrebare": "Umezeala aerului se măsoară cu:",
+       "optiuni": [
+        "higrometrul",
+        "barometrul",
+        "termometrul",
+        "pluviometrul"
+       ],
+       "corect": 0,
+       "explicatie": "Pluviometrul măsoară cantitatea de precipitații."
+      },
+      {
+       "intrebare": "Frontul cald aduce, de regulă:",
+       "optiuni": [
+        "înnorare treptată și ploi liniștite",
+        "averse violente și grindină",
+        "cer senin și ger",
+        "vânturi uscate"
+       ],
+       "corect": 0,
+       "explicatie": "Frontul rece aduce averse și răciri bruște."
+      },
+      {
+       "intrebare": "Presiunea atmosferică se reprezintă pe hărțile sinoptice prin:",
+       "optiuni": [
+        "izobare",
+        "izoterme",
+        "curbe de nivel",
+        "izohipse"
+       ],
+       "corect": 0,
+       "explicatie": "Izobarele unesc punctele cu aceeași presiune."
+      }
+     ]
+    },
+    {
+     "id": "geo9-17",
+     "titlu": "Umezeala aerului, norii și precipitațiile",
+     "rezumat": "Apa trece permanent din atmosferă în hidrosferă și înapoi, prin circuitul apei. Umezeala aerului reprezintă cantitatea de vapori de apă din atmosferă. Umezeala relativă arată cât la sută din vaporii pe care i-ar putea conține aerul la temperatura dată sunt prezenți efectiv; când atinge 100%, aerul este saturat și vaporii încep să se condenseze. Prin răcire, vaporii de apă se condensează în jurul unor particule fine și formează picături sau cristale de gheață. Aproape de sol, condensarea produce ceața, roua sau bruma; în înălțime, ea formează norii. După înălțime și aspect, norii se grupează în: cirrus (subțiri, la mare altitudine), cumulus (groși, cu dezvoltare pe verticală) și stratus (întinși, în pături). Norul de furtună, cumulonimbus, produce averse, grindină și descărcări electrice. Precipitațiile cad atunci când picăturile sau cristalele devin prea grele pentru a rămâne în aer: ploaie, ninsoare, lapoviță, grindină (precipitații căzute), respectiv rouă, brumă, chiciură (precipitații depuse). Repartiția precipitațiilor pe glob este inegală: abundente la Ecuator și pe versanții expuși vânturilor umede, reduse în zonele tropicale aride și în interiorul continentelor. Ele alimentează râurile, lacurile și pânzele de apă subterană.",
+     "ideiCheie": [
+      "Umezeala relativă de 100% înseamnă aer saturat, la care vaporii se condensează.",
+      "Condensarea aproape de sol dă ceață, rouă, brumă; în înălțime, nori.",
+      "Tipuri de nori: cirrus, cumulus, stratus; cumulonimbusul produce furtuni.",
+      "Precipitații căzute (ploaie, ninsoare, grindină) și depuse (rouă, brumă, chiciură)."
+     ],
+     "termeni": [
+      {
+       "t": "umezeală relativă",
+       "d": "raportul, în procente, dintre vaporii prezenți în aer și cei maximi la temperatura dată"
+      },
+      {
+       "t": "condensare",
+       "d": "trecerea vaporilor de apă în stare lichidă sau solidă"
+      },
+      {
+       "t": "nebulozitate",
+       "d": "gradul de acoperire a cerului cu nori"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce arată umezeala relativă a aerului?",
+       "v": "Cât la sută din vaporii posibili la temperatura dată sunt prezenți efectiv."
+      },
+      {
+       "f": "Ce se întâmplă când aerul atinge saturația?",
+       "v": "Vaporii de apă încep să se condenseze."
+      },
+      {
+       "f": "Ce nor produce averse, grindină și fulgere?",
+       "v": "Cumulonimbusul."
+      },
+      {
+       "f": "Dă un exemplu de precipitație depusă.",
+       "v": "Roua, bruma sau chiciura."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Aerul este saturat atunci când umezeala relativă atinge:",
+       "optiuni": [
+        "100%",
+        "50%",
+        "10%",
+        "0%"
+       ],
+       "corect": 0,
+       "explicatie": "Atunci vaporii de apă încep să se condenseze."
+      },
+      {
+       "intrebare": "Ceața și roua se formează prin:",
+       "optiuni": [
+        "condensarea vaporilor aproape de sol",
+        "înghețarea râurilor",
+        "evaporarea apei din sol",
+        "topirea zăpezii"
+       ],
+       "corect": 0,
+       "explicatie": "În înălțime, condensarea formează norii."
+      },
+      {
+       "intrebare": "Norul care produce, de obicei, furtuni cu grindină este:",
+       "optiuni": [
+        "cumulonimbusul",
+        "cirrusul",
+        "stratusul",
+        "ceața"
+       ],
+       "corect": 0,
+       "explicatie": "El are mare dezvoltare pe verticală."
+      },
+      {
+       "intrebare": "Precipitațiile sunt cele mai abundente:",
+       "optiuni": [
+        "la Ecuator și pe versanții expuși vânturilor umede",
+        "în deșerturile tropicale",
+        "în interiorul continentelor",
+        "la poli"
+       ],
+       "corect": 0,
+       "explicatie": "Repartiția lor pe glob este foarte inegală."
+      }
+     ]
+    },
+    {
+     "id": "geo9-18",
+     "titlu": "Circulația atmosferei și masele de aer",
+     "rezumat": "Aerul atmosferic este într-o mișcare continuă, provocată de încălzirea inegală a suprafeței terestre. La Ecuator, aerul cald urcă și lasă la sol o zonă de minimă presiune; el coboară în zonele tropicale, unde formează maxime de presiune și cerul senin al deșerturilor. Din maximele tropicale, aerul se întoarce spre Ecuator ca alizee și se îndreaptă spre latitudinile temperate ca vânturi de vest. Astfel iau naștere marile celule de circulație a atmosferei. Masele de aer sunt volume mari de aer cu temperatură și umezeală relativ uniforme, căpătate în regiunea de origine: mase polare (reci), tropicale (calde), maritime (umede), continentale (uscate). Deplasându-se, ele aduc tipul de vreme al regiunii din care provin: aerul polar aduce răciri, cel tropical, încălziri. Contactul dintre mase diferite generează fronturile atmosferice. Pe lângă vânturile permanente (alizee, vânturi de vest, vânturi polare), circulația cuprinde vânturi periodice, care își schimbă direcția sezonier (musonii, brizele mării și ale uscatului), și vânturi locale, legate de relief (foehnul cald și uscat pe versanții adăpostiți, brizele de munte și de vale). Circulația atmosferei redistribuie căldura și umezeala pe glob și explică succesiunea vremii.",
+     "ideiCheie": [
+      "Încălzirea inegală a Pământului pune aerul în mișcare și creează celulele de circulație.",
+      "Minime de presiune la Ecuator și subpolar; maxime în zonele tropicale și polare.",
+      "Mase de aer polare/tropicale, maritime/continentale, după temperatură și umezeală.",
+      "Vânturi permanente, periodice (musoni, brize) și locale (foehn)."
+     ],
+     "termeni": [
+      {
+       "t": "masă de aer",
+       "d": "volum mare de aer cu temperatură și umezeală relativ uniforme"
+      },
+      {
+       "t": "brize",
+       "d": "vânturi locale periodice care își schimbă direcția între zi și noapte, la țărm"
+      },
+      {
+       "t": "foehn",
+       "d": "vânt local cald și uscat, care coboară pe versantul adăpostit al unui munte"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "De ce se mișcă aerul atmosferic?",
+       "v": "Din cauza încălzirii inegale a suprafeței terestre."
+      },
+      {
+       "f": "Ce sunt masele de aer?",
+       "v": "Volume mari de aer cu temperatură și umezeală relativ uniforme."
+      },
+      {
+       "f": "Ce tip de vreme aduce aerul tropical?",
+       "v": "Vreme caldă."
+      },
+      {
+       "f": "Ce este foehnul?",
+       "v": "Un vânt local cald și uscat, care coboară pe versantul adăpostit al unui munte."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "La Ecuator, la nivelul solului, se află o zonă de:",
+       "optiuni": [
+        "minimă presiune, unde aerul cald urcă",
+        "maximă presiune, unde aerul coboară",
+        "calm total, fără mișcări",
+        "vânturi polare"
+       ],
+       "corect": 0,
+       "explicatie": "Aerul coboară, în schimb, în zonele tropicale."
+      },
+      {
+       "intrebare": "O masă de aer maritimă polară este, de regulă:",
+       "optiuni": [
+        "rece și umedă",
+        "caldă și uscată",
+        "caldă și umedă",
+        "rece și uscată"
+       ],
+       "corect": 0,
+       "explicatie": "Ea capătă însușirile regiunii de origine."
+      },
+      {
+       "intrebare": "Brizele sunt vânturi:",
+       "optiuni": [
+        "locale, care își schimbă direcția între zi și noapte",
+        "permanente",
+        "de origine tropicală",
+        "care bat doar iarna"
+       ],
+       "corect": 0,
+       "explicatie": "Ziua bat dinspre mare, noaptea dinspre uscat."
+      },
+      {
+       "intrebare": "Foehnul este un vânt:",
+       "optiuni": [
+        "cald și uscat, care coboară pe versantul adăpostit",
+        "rece și umed",
+        "permanent, de origine polară",
+        "specific zonei ecuatoriale"
+       ],
+       "corect": 0,
+       "explicatie": "El poate topi rapid zăpada."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "geo9-c8",
+   "titlu": "Hidrosfera, criosfera și dinamica apelor",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "geo9-19",
+     "titlu": "Dinamica Oceanului Planetar: valuri, maree, curenți",
+     "rezumat": "Oceanul Planetar, apa sărată continuă care acoperă 71% din suprafața Pământului, este într-o permanentă mișcare. Valurile sunt oscilații ale suprafeței apei provocate, în cea mai mare parte, de vânt; energia lor modelează țărmurile, construind plaje și cordoane sau săpând faleze. Valurile uriașe numite tsunami nu sunt produse de vânt, ci de cutremure submarine, erupții sau alunecări, și pot fi devastatoare pe coaste. Mareele sunt ridicări și coborâri ritmice ale nivelului mării, provocate de atracția gravitațională a Lunii și, în măsură mai mică, a Soarelui. Când Luna și Soarele se aliniază (la lună nouă și la lună plină), mareele sunt mai puternice (maree de sizigii); când formează un unghi drept, ele sunt mai slabe. Amplitudinea mareelor variază mult: de la câțiva centimetri în mări închise (Marea Neagră) la peste zece metri în unele golfuri. Curenții oceanici sunt deplasări de mase mari de apă, ca niște „fluvii” în ocean, întreținute de vânturile permanente și de diferențele de temperatură și de salinitate. Curenții calzi (Golfstreamul, care încălzește vestul Europei) și curenții reci (curentul Labradorului, al Perului) redistribuie căldura pe glob și influențează clima țărmurilor și bogăția în pește. Împreună, valurile, mareele și curenții fac din ocean un uriaș motor termic al planetei.",
+     "ideiCheie": [
+      "Valurile sunt produse mai ales de vânt; tsunamiul, de cutremure submarine.",
+      "Mareele sunt provocate de atracția Lunii și a Soarelui.",
+      "Mareele de sizigii (la lună nouă și plină) sunt cele mai puternice.",
+      "Curenții calzi și reci redistribuie căldura și influențează clima țărmurilor."
+     ],
+     "termeni": [
+      {
+       "t": "maree",
+       "d": "ridicarea și coborârea ritmică a nivelului mării, sub atracția Lunii și a Soarelui"
+      },
+      {
+       "t": "curent oceanic",
+       "d": "deplasare a unei mase mari de apă în ocean, ca un fluviu în interiorul lui"
+      },
+      {
+       "t": "tsunami",
+       "d": "val uriaș provocat de un cutremur submarin, o erupție sau o alunecare"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce provoacă, în general, valurile obișnuite?",
+       "v": "Vântul."
+      },
+      {
+       "f": "Ce provoacă mareele?",
+       "v": "Atracția gravitațională a Lunii și a Soarelui."
+      },
+      {
+       "f": "Ce provoacă un tsunami?",
+       "v": "Un cutremur submarin, o erupție sau o alunecare de teren."
+      },
+      {
+       "f": "Ce efect are Golfstreamul asupra Europei?",
+       "v": "Îi încălzește țărmul vestic."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Tsunamiul este provocat de:",
+       "optiuni": [
+        "un cutremur submarin, o erupție sau o alunecare",
+        "vânt puternic",
+        "maree",
+        "curenți oceanici"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea nu poate fi oprit prin bariere obișnuite."
+      },
+      {
+       "intrebare": "Mareele cele mai puternice (de sizigii) se produc:",
+       "optiuni": [
+        "la lună nouă și la lună plină",
+        "la primul și la ultimul pătrar",
+        "doar vara",
+        "doar la Ecuator"
+       ],
+       "corect": 0,
+       "explicatie": "Atunci Luna și Soarele își însumează atracția."
+      },
+      {
+       "intrebare": "Golfstreamul este un curent:",
+       "optiuni": [
+        "cald, care încălzește vestul Europei",
+        "rece, care răcește Europa",
+        "de adâncime, fără efect climatic",
+        "provocat de maree"
+       ],
+       "corect": 0,
+       "explicatie": "Fără el, clima Europei de Vest ar fi mult mai aspră."
+      },
+      {
+       "intrebare": "Cea mai mare parte a valurilor obișnuite sunt produse de:",
+       "optiuni": [
+        "vânt",
+        "Lună",
+        "cutremure",
+        "salinitate"
+       ],
+       "corect": 0,
+       "explicatie": "Mareele, în schimb, sunt produse de atracția Lunii și a Soarelui."
+      }
+     ]
+    },
+    {
+     "id": "geo9-20",
+     "titlu": "Ghețarii și criosfera",
+     "rezumat": "Criosfera cuprinde toată apa înghețată de pe Pământ: ghețarii, calotele glaciare, banchiza (gheața marină), zăpada și permafrostul (solul înghețat permanent). Ea reține cea mai mare parte a apei dulci a planetei. Ghețarii se formează acolo unde, an de an, cade mai multă zăpadă decât se topește; zăpada se tasează, se transformă în gheață și, sub propria greutate, începe să curgă lent. Există două tipuri principale. Ghețarii montani coboară pe văi din zonele înalte și sapă circuri, văi în formă de U și depun morene; în Carpați au existat asemenea ghețari în trecutul glaciar, lăsând urme vizibile azi (căldări și lacuri glaciare precum Bâlea și Bucura). Calotele glaciare acoperă suprafețe imense în Antarctica și în Groenlanda, cu grosimi de mii de metri; ele concentrează peste 99% din gheața continentală a planetei. Criosfera joacă un rol esențial în sistemul climatic: suprafețele albe de gheață și zăpadă reflectă o mare parte a radiației solare (efectul de albedo) și răcesc planeta. Încălzirea globală actuală topește ghețarii și banchiza, ridică nivelul oceanului și eliberează, din permafrost, metan — un puternic gaz cu efect de seră. De aceea criosfera este atât un indicator, cât și un amplificator al schimbărilor climatice.",
+     "ideiCheie": [
+      "Criosfera: ghețari, calote, banchiză, zăpadă, permafrost — cea mai mare rezervă de apă dulce.",
+      "Ghețarii montani sapă circuri și văi în formă de U și depun morene.",
+      "Calotele din Antarctica și Groenlanda concentrează peste 99% din gheața continentală.",
+      "Gheața reflectă radiația solară (albedo); topirea ei amplifică încălzirea."
+     ],
+     "termeni": [
+      {
+       "t": "criosferă",
+       "d": "totalitatea apei aflate în stare solidă pe Pământ (ghețari, banchiză, zăpadă, permafrost)"
+      },
+      {
+       "t": "permafrost",
+       "d": "sol înghețat în permanență, caracteristic regiunilor polare și subpolare"
+      },
+      {
+       "t": "albedo",
+       "d": "capacitatea unei suprafețe de a reflecta radiația solară"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce cuprinde criosfera?",
+       "v": "Ghețarii, calotele, banchiza, zăpada și permafrostul."
+      },
+      {
+       "f": "Cum se formează un ghețar?",
+       "v": "Acolo unde cade an de an mai multă zăpadă decât se topește."
+      },
+      {
+       "f": "Unde se află cele mai mari calote glaciare?",
+       "v": "În Antarctica și în Groenlanda."
+      },
+      {
+       "f": "Ce este permafrostul?",
+       "v": "Solul înghețat în permanență din regiunile polare și subpolare."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Cea mai mare parte a gheții continentale a planetei se află în:",
+       "optiuni": [
+        "Antarctica și Groenlanda",
+        "Alpi și Carpați",
+        "Anzi și Himalaya",
+        "Munții Scandinaviei"
+       ],
+       "corect": 0,
+       "explicatie": "Calotele lor au grosimi de mii de metri."
+      },
+      {
+       "intrebare": "Valea în formă de U este rezultatul modelării de către:",
+       "optiuni": [
+        "ghețarii montani",
+        "râuri",
+        "vânt",
+        "valuri"
+       ],
+       "corect": 0,
+       "explicatie": "Râurile sapă, în schimb, văi în formă de V."
+      },
+      {
+       "intrebare": "Efectul de albedo al gheții și al zăpezii constă în:",
+       "optiuni": [
+        "reflectarea radiației solare, care răcește planeta",
+        "absorbția căldurii",
+        "eliberarea de metan",
+        "încălzirea oceanului"
+       ],
+       "corect": 0,
+       "explicatie": "Topirea gheții reduce albedoul și amplifică încălzirea."
+      },
+      {
+       "intrebare": "Topirea permafrostului este îngrijorătoare pentru că:",
+       "optiuni": [
+        "eliberează metan, un puternic gaz cu efect de seră",
+        "răcește atmosfera",
+        "crește albedoul",
+        "scade nivelul oceanului"
+       ],
+       "corect": 0,
+       "explicatie": "Este un exemplu de amplificare a schimbărilor climatice."
+      }
+     ]
+    }
+   ]
   }
  ],
  "teze": [
   {
    "semestru": 1,
    "test": [
+    {
+     "intrebare": "Latitudinea unui loc se măsoară față de:",
+     "optiuni": [
+      "Ecuator",
+      "meridianul Greenwich",
+      "Tropicul Racului",
+      "Polul Nord"
+     ],
+     "corect": 0,
+     "explicatie": "Ea are valori între 0° și 90°."
+    },
+    {
+     "intrebare": "Meridianul de origine (0°) trece prin:",
+     "optiuni": [
+      "Greenwich",
+      "Ecuator",
+      "Polul Nord",
+      "Tropicul Capricornului"
+     ],
+     "corect": 0,
+     "explicatie": "El împarte globul în emisfera estică și cea vestică."
+    },
+    {
+     "intrebare": "O scară de 1:100 000 înseamnă că 1 cm pe hartă reprezintă:",
+     "optiuni": [
+      "1 km în teren",
+      "100 m în teren",
+      "10 km în teren",
+      "10 m în teren"
+     ],
+     "corect": 0,
+     "explicatie": "100 000 cm înseamnă 1 km."
+    },
+    {
+     "intrebare": "Curbele de nivel unesc pe hartă punctele cu:",
+     "optiuni": [
+      "aceeași altitudine",
+      "aceeași temperatură",
+      "aceeași presiune",
+      "aceeași latitudine"
+     ],
+     "corect": 0,
+     "explicatie": "Ele redau relieful."
+    },
+    {
+     "intrebare": "Granitul este o rocă:",
+     "optiuni": [
+      "magmatică",
+      "sedimentară",
+      "metamorfică",
+      "organogenă"
+     ],
+     "corect": 0,
+     "explicatie": "S-a format prin răcirea lentă a magmei în adânc."
+    },
+    {
+     "intrebare": "Cel mai înalt vârf al planetei este:",
+     "optiuni": [
+      "Everest (8 849 m)",
+      "Mont Blanc",
+      "Aconcagua",
+      "Kilimanjaro"
+     ],
+     "corect": 0,
+     "explicatie": "El se află în Munții Himalaya."
+    },
     {
      "intrebare": "Forma Pământului este de:",
      "optiuni": [
@@ -1027,6 +2011,72 @@
   {
    "semestru": 2,
    "test": [
+    {
+     "intrebare": "Starea atmosferei într-un loc și la un moment dat se numește:",
+     "optiuni": [
+      "vreme",
+      "climă",
+      "anotimp",
+      "microclimat"
+     ],
+     "corect": 0,
+     "explicatie": "Clima este regimul mediu al vremii pe mulți ani."
+    },
+    {
+     "intrebare": "Presiunea atmosferică se măsoară cu:",
+     "optiuni": [
+      "barometrul",
+      "termometrul",
+      "higrometrul",
+      "pluviometrul"
+     ],
+     "corect": 0,
+     "explicatie": "Higrometrul măsoară umezeala aerului."
+    },
+    {
+     "intrebare": "Norul care produce averse cu grindină și descărcări electrice este:",
+     "optiuni": [
+      "cumulonimbusul",
+      "cirrusul",
+      "stratusul",
+      "ceața"
+     ],
+     "corect": 0,
+     "explicatie": "El are mare dezvoltare pe verticală."
+    },
+    {
+     "intrebare": "Alizeele fac parte din circulația atmosferei și suflă dinspre:",
+     "optiuni": [
+      "maximele tropicale spre Ecuator",
+      "Ecuator spre poli",
+      "poli spre Ecuator",
+      "vest spre est, la tropice"
+     ],
+     "corect": 0,
+     "explicatie": "Ele sunt vânturi permanente."
+    },
+    {
+     "intrebare": "Mareele sunt provocate de:",
+     "optiuni": [
+      "atracția Lunii și a Soarelui",
+      "vânt",
+      "curenți oceanici",
+      "cutremure submarine"
+     ],
+     "corect": 0,
+     "explicatie": "Tsunamiul, în schimb, este provocat de cutremure submarine."
+    },
+    {
+     "intrebare": "Cea mai mare parte a gheții continentale se află în:",
+     "optiuni": [
+      "Antarctica și Groenlanda",
+      "Alpi și Himalaya",
+      "Anzi și Carpați",
+      "Munții Scandinaviei"
+     ],
+     "corect": 0,
+     "explicatie": "Calotele lor concentrează peste 99% din gheața continentală."
+    },
     {
      "intrebare": "Fenomenele meteorologice se produc în:",
      "optiuni": [

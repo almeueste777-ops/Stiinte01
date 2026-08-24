@@ -10,7 +10,7 @@ clasa: "a XII-a"
 ---
 # Tradiționalismul: „Gândirea” și poezia religioasă
 
-[[Limba și literatura română (clasa a XII-a)|Limba și literatura română]] · [[Clasa a XII-a]] · lecția 2 din 10
+[[Limba și literatura română (clasa a XII-a)|Limba și literatura română]] · [[Clasa a XII-a]] · lecția 2 din 20
 
 **Capitolul:** Orientări în literatura interbelică — semestrul 1
 

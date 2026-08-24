@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Structura bacalaureatului
 
-[[Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)|Pregătire pentru bacalaureat (CDEOȘ)]] · [[Clasa a XIII-a]] · lecția 1 din 9
+[[Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)|Pregătire pentru bacalaureat (CDEOȘ)]] · [[Clasa a XIII-a]] · lecția 1 din 20
 
 **Capitolul:** Examenul: structură și reguli — semestrul 1
 

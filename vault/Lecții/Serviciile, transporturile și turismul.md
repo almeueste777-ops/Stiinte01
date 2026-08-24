@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Serviciile, transporturile și turismul
 
-[[Geografie (clasa a X-a)|Geografie]] · [[Clasa a X-a]] · lecția 7 din 9
+[[Geografie (clasa a X-a)|Geografie]] · [[Clasa a X-a]] · lecția 7 din 20
 
 **Capitolul:** Activitățile economice — semestrul 2
 

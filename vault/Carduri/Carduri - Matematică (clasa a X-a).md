@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Matematică (clasa a X-a)
 
-36 carduri pentru [[Matematică (clasa a X-a)|Matematică (clasa a X-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+72 carduri pentru [[Matematică (clasa a X-a)|Matematică (clasa a X-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/matematica
 
@@ -82,6 +82,78 @@ Care sunt cei doi pași ai inducției matematice?::Verificarea cazului inițial 
 De ce corelația nu implică cauzalitate?::Pentru că legătura poate veni dintr-o cauză comună sau din întâmplare.
 
 Cum înșală un grafic cu axa trunchiată?::Exagerează vizual diferențele mici.
+
+Ce fel de funcție este f de x egal cu x la pătrat?::O funcție pară, cu graficul simetric față de axa verticală.
+
+Ce fel de funcție este f de x egal cu x la cub?::O funcție impară, cu graficul simetric față de origine.
+
+Pentru ce numere este definit radicalul de ordin par?::Pentru numerele nenegative.
+
+Ce relație are graficul radicalului cu cel al puterii?::Este simetricul lui față de prima bisectoare.
+
+Care este imaginea funcției sinus?::Intervalul de la minus unu la unu.
+
+Care este perioada principală a funcției sinus?::Doi pi.
+
+Ce fel de funcție este cosinusul, pară sau impară?::Pară.
+
+Care este perioada funcției tangentă?::Pi.
+
+Când are ecuația sinus de x egal a soluții reale?::Doar dacă a este cuprins între minus unu și unu.
+
+De ce are o ecuație trigonometrică o infinitate de soluții?::Din cauza periodicității funcțiilor trigonometrice.
+
+Care sunt soluțiile ecuației sinus de x egal zero?::Multiplii întregi ai lui pi.
+
+Care sunt soluțiile ecuației cosinus de x egal unu?::Multiplii întregi ai lui doi pi.
+
+Ce proprietate definește unitatea imaginară i?::Pătratul ei este minus unu.
+
+Cum se scrie forma algebrică a unui număr complex?::Ca a plus b înmulțit cu i.
+
+Cum se adună două numere complexe?::Adunând separat părțile reale și separat părțile imaginare.
+
+Cât este i la puterea a patra?::Unu.
+
+Cum se obține conjugatul unui număr complex?::Schimbând semnul părții imaginare.
+
+Cum se calculează modulul unui număr complex?::Ca rădăcina din suma pătratelor părții reale și părții imaginare.
+
+Ce fel de număr este produsul dintre un complex și conjugatul său?::Un număr real nenegativ, egal cu pătratul modulului.
+
+La ce ajută conjugatul în împărțirea numerelor complexe?::La a face numitorul real, amplificând cu conjugatul lui.
+
+Câte soluții are, în mulțimea complexă, o ecuație de gradul al doilea?::Are întotdeauna soluții, indiferent de discriminant.
+
+Ce fel de soluții are o ecuație de gradul al doilea cu discriminant negativ?::Două soluții complexe, conjugate una alteia.
+
+Care sunt soluțiile ecuației x la pătrat plus unu egal zero?::i și minus i.
+
+Rămân valabile relațiile lui Viète pentru numere complexe?::Da, ele leagă suma și produsul soluțiilor de coeficienți.
+
+Cum se află componentele vectorului dintre două puncte?::Scăzând coordonatele punctului inițial din cele ale punctului final.
+
+Cum se calculează modulul unui vector din componente?::Ca rădăcina din suma pătratelor componentelor.
+
+Cum se calculează produsul scalar din componente?::Ca suma produselor componentelor corespunzătoare.
+
+Când sunt doi vectori perpendiculari?::Când produsul lor scalar este zero.
+
+Ce reprezintă m în ecuația y egal m ori x plus n?::Panta dreptei.
+
+Cum se calculează panta unei drepte prin două puncte?::Ca raportul dintre diferența ordonatelor și diferența absciselor.
+
+Când sunt două drepte paralele?::Când au aceeași pantă.
+
+Când sunt două drepte perpendiculare?::Când produsul pantelor lor este minus unu.
+
+Ce este un cerc, ca loc geometric?::Mulțimea punctelor egal depărtate de un punct fix, centrul.
+
+Care este ecuația cercului cu centrul în origine și raza r?::Pătratul lui x plus pătratul lui y egal r la pătrat.
+
+Ce se citește direct din ecuația unui cerc?::Centrul și raza.
+
+Când este o dreaptă tangentă la un cerc?::Când distanța de la centru la dreaptă este egală cu raza.
 
 ---
 

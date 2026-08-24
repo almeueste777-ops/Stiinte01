@@ -10,7 +10,7 @@ clasa: "a IX-a"
 ---
 # Mediul înconjurător: hazarde, poluare, protecție
 
-[[Geografie (clasa a IX-a)|Geografie]] · [[Clasa a IX-a]] · lecția 10 din 10
+[[Geografie (clasa a IX-a)|Geografie]] · [[Clasa a IX-a]] · lecția 10 din 20
 
 **Capitolul:** Biosfera, solurile și mediul — semestrul 2
 
@@ -31,6 +31,6 @@ Hazardele naturale sunt fenomene care pot produce pagube: geologice (cutremure, 
 
 ---
 
-⬅ [[Biosfera, solurile și zonele biogeografice]]
+⬅ [[Biosfera, solurile și zonele biogeografice]] · [[Coordonatele geografice - latitudinea și longitudinea]] ➡
 
 Exersează: [[Carduri - Geografie (clasa a IX-a)]] · [[Test - Geografie (clasa a IX-a)]]

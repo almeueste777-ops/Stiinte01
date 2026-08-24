@@ -792,12 +792,864 @@
      ]
     }
    ]
+  },
+  {
+   "id": "chi9-c4",
+   "titlu": "Structura atomului și proprietățile periodice",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "chi9-10",
+     "titlu": "Modele atomice și învelișul electronic",
+     "rezumat": "Ideea de atom vine din Antichitate (Democrit), dar modelul științific s-a construit treptat. Dalton a considerat atomul o sferă plină și indivizibilă. Thomson a descoperit electronul și a propus modelul „cozonacului cu stafide”. Rutherford, prin experimentul cu foițe de aur, a arătat că atomul are un nucleu mic, dens și pozitiv, înconjurat de electroni. Bohr a completat modelul: electronii se mișcă pe straturi (niveluri) de energie bine definite. Învelișul electronic este organizat pe straturi, notate K, L, M, N dinspre nucleu spre exterior. Fiecare strat poate cuprinde un număr maxim de electroni: la elementele din primele trei perioade, pe straturile K, L și M se așază cel mult 2, 8 și 8 electroni. Configurația electronică arată repartizarea electronilor pe straturi; de exemplu, sodiul (11 electroni) are configurația 2, 8, 1. Electronii de pe ultimul strat, electronii de valență, sunt cei care participă la legături și determină comportarea chimică. Atomii tind să ajungă la configurația stabilă de gaz nobil, cu opt electroni pe ultimul strat (regula octetului) sau doi, pentru heliu. Aceasta explică de ce elementele dintr-o grupă, cu același număr de electroni de valență, se comportă asemănător.",
+     "ideiCheie": [
+      "Modelele atomice: Dalton, Thomson, Rutherford, Bohr.",
+      "Rutherford a descoperit nucleul mic, dens și pozitiv.",
+      "Straturile K, L, M cuprind, în primele trei perioade, cel mult 2, 8, 8 electroni.",
+      "Electronii de valență, de pe ultimul strat, determină comportarea chimică."
+     ],
+     "termeni": [
+      {
+       "t": "configurație electronică",
+       "d": "repartizarea electronilor unui atom pe straturi de energie"
+      },
+      {
+       "t": "strat electronic",
+       "d": "nivel de energie pe care se mișcă electronii în jurul nucleului"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce a descoperit Rutherford?",
+       "v": "Că atomul are un nucleu mic, dens și pozitiv, înconjurat de electroni."
+      },
+      {
+       "f": "Câți electroni încap cel mult pe straturile K, L și M în primele trei perioade?",
+       "v": "2, 8 și 8."
+      },
+      {
+       "f": "Care este configurația electronică a sodiului?",
+       "v": "2, 8, 1."
+      },
+      {
+       "f": "Ce sunt electronii de valență?",
+       "v": "Electronii de pe ultimul strat, care determină comportarea chimică."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Nucleul atomic a fost descoperit de:",
+       "optiuni": [
+        "Rutherford",
+        "Dalton",
+        "Thomson",
+        "Bohr"
+       ],
+       "corect": 0,
+       "explicatie": "Prin experimentul cu foițe de aur."
+      },
+      {
+       "intrebare": "Pe stratul K se pot afla cel mult:",
+       "optiuni": [
+        "2 electroni",
+        "8 electroni",
+        "18 electroni",
+        "1 electron"
+       ],
+       "corect": 0,
+       "explicatie": "Este stratul cel mai apropiat de nucleu."
+      },
+      {
+       "intrebare": "Configurația 2, 8, 1 aparține unui atom cu:",
+       "optiuni": [
+        "11 electroni (sodiu)",
+        "8 electroni",
+        "10 electroni",
+        "3 electroni"
+       ],
+       "corect": 0,
+       "explicatie": "Suma electronilor de pe straturi dă numărul lor total."
+      },
+      {
+       "intrebare": "Regula octetului spune că atomii tind spre:",
+       "optiuni": [
+        "opt electroni pe ultimul strat",
+        "opt straturi electronice",
+        "opt protoni",
+        "opt neutroni"
+       ],
+       "corect": 0,
+       "explicatie": "Este configurația stabilă de gaz nobil."
+      }
+     ]
+    },
+    {
+     "id": "chi9-11",
+     "titlu": "Formarea ionilor și valența",
+     "rezumat": "Atomii sunt neutri, pentru că au tot atâția electroni câți protoni. Pentru a atinge configurația stabilă de gaz nobil, ei pot ceda sau primi electroni, devenind ioni. Când un atom cedează electroni, rămâne cu sarcină pozitivă și devine cation; când primește electroni, capătă sarcină negativă și devine anion. Numărul de electroni cedați sau primiți dă sarcina ionului. Metalele, cu puțini electroni de valență, îi cedează ușor și formează cationi: sodiul devine Na⁺, magneziul Mg²⁺, aluminiul Al³⁺. Nemetalele, cu mulți electroni de valență, primesc electroni și formează anioni: clorul devine Cl⁻, oxigenul O²⁻. Astfel, un metal și un nemetal se completează reciproc, ceea ce stă la baza legăturii ionice. Valența este capacitatea de combinare a unui element, adică numărul de legături pe care le formează un atom. Ea este legată de numărul electronilor de valență și de tendința de a atinge octetul. Cunoașterea valențelor permite scrierea corectă a formulelor chimice: în clorura de sodiu, un Na⁺ se combină cu un Cl⁻ (NaCl), iar în oxidul de magneziu, Mg²⁺ cu O²⁻ (MgO).",
+     "ideiCheie": [
+      "Cedând electroni, atomul devine cation (pozitiv); primind, devine anion (negativ).",
+      "Metalele formează cationi; nemetalele formează anioni.",
+      "Sarcina ionului este dată de numărul de electroni cedați sau primiți.",
+      "Valența este capacitatea de combinare, legată de electronii de valență."
+     ],
+     "termeni": [
+      {
+       "t": "cation",
+       "d": "ion cu sarcină pozitivă, format prin cedarea de electroni"
+      },
+      {
+       "t": "valență",
+       "d": "capacitatea de combinare a unui element, exprimată prin numărul de legături formate"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se formează un anion?",
+       "v": "Prin primirea de electroni de către un atom, care capătă sarcină negativă."
+      },
+      {
+       "f": "Ce ioni formează metalele?",
+       "v": "Cationi, prin cedarea electronilor de valență."
+      },
+      {
+       "f": "Ce sarcină are ionul de magneziu?",
+       "v": "2+, adică Mg²⁺, pentru că cedează doi electroni."
+      },
+      {
+       "f": "Ce este valența?",
+       "v": "Capacitatea de combinare a unui element, adică numărul de legături pe care le formează."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Un atom care cedează doi electroni devine:",
+       "optiuni": [
+        "cation cu sarcina 2+",
+        "anion cu sarcina 2−",
+        "atom neutru",
+        "izotop"
+       ],
+       "corect": 0,
+       "explicatie": "Rămâne cu doi protoni în plus față de electroni."
+      },
+      {
+       "intrebare": "Nemetalele, la formarea ionilor:",
+       "optiuni": [
+        "primesc electroni și devin anioni",
+        "cedează electroni și devin cationi",
+        "nu formează ioni",
+        "pierd protoni"
+       ],
+       "corect": 0,
+       "explicatie": "Au mulți electroni de valență."
+      },
+      {
+       "intrebare": "Formula oxidului de magneziu, din Mg²⁺ și O²⁻, este:",
+       "optiuni": [
+        "MgO",
+        "Mg₂O",
+        "MgO₂",
+        "Mg₂O₃"
+       ],
+       "corect": 0,
+       "explicatie": "Sarcinile se echilibrează unu la unu."
+      },
+      {
+       "intrebare": "Ionul de clor, Cl⁻, s-a format prin:",
+       "optiuni": [
+        "primirea unui electron",
+        "cedarea unui electron",
+        "pierderea unui proton",
+        "primirea unui proton"
+       ],
+       "corect": 0,
+       "explicatie": "Clorul e un nemetal."
+      }
+     ]
+    },
+    {
+     "id": "chi9-12",
+     "titlu": "Metale și nemetale. Proprietăți periodice",
+     "rezumat": "Elementele se împart, după proprietăți, în metale, nemetale și semimetale. Metalele, așezate în stânga și în centrul tabelului periodic, au luciu, sunt bune conducătoare de căldură și electricitate, sunt maleabile (se pot trage în foi) și ductile (se pot trage în fire) și cedează ușor electroni. Nemetalele, în dreapta sus, nu au luciu metalic, sunt, de regulă, izolatoare și primesc sau pun în comun electroni. Proprietățile elementelor variază regulat în tabel, tocmai pentru că variază regulat configurația electronică. Raza atomică crește de sus în jos într-o grupă (se adaugă straturi) și scade de la stânga la dreapta într-o perioadă (nucleul atrage mai puternic electronii). Caracterul metalic crește de sus în jos și spre stânga, iar caracterul nemetalic, invers. Electronegativitatea, tendința de a atrage electronii dintr-o legătură, crește spre dreapta și în sus; fluorul este cel mai electronegativ element. Această regularitate face din tabelul periodic un instrument de predicție: cunoscând poziția unui element, îi putem estima proprietățile. Metalele reactive (alcaline) sunt în grupa I, nemetalele reactive (halogenii) în grupa a VII-a, iar gazele nobile, inerte, în grupa a VIII-a.",
+     "ideiCheie": [
+      "Metalele au luciu, conduc curentul, sunt maleabile și ductile; cedează electroni.",
+      "Nemetalele nu au luciu metalic, sunt izolatoare; primesc sau pun în comun electroni.",
+      "Raza atomică crește în grupă (în jos) și scade în perioadă (spre dreapta).",
+      "Electronegativitatea crește spre dreapta și în sus; fluorul e cel mai electronegativ."
+     ],
+     "termeni": [
+      {
+       "t": "caracter metalic",
+       "d": "tendința unui element de a ceda electroni, mai accentuată la metale"
+      },
+      {
+       "t": "rază atomică",
+       "d": "dimensiunea atomului, care crește în grupă (de sus în jos) și scade în perioadă (spre dreapta)"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce proprietăți fizice au metalele?",
+       "v": "Luciu, conductibilitate electrică și termică, maleabilitate, ductilitate."
+      },
+      {
+       "f": "Cum variază raza atomică într-o perioadă?",
+       "v": "Scade de la stânga la dreapta."
+      },
+      {
+       "f": "Cum variază electronegativitatea în tabel?",
+       "v": "Crește spre dreapta perioadei și în sus în grupă."
+      },
+      {
+       "f": "Care este cel mai electronegativ element?",
+       "v": "Fluorul."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Maleabilitatea și ductilitatea sunt proprietăți ale:",
+       "optiuni": [
+        "metalelor",
+        "nemetalelor",
+        "gazelor nobile",
+        "semimetalelor exclusiv"
+       ],
+       "corect": 0,
+       "explicatie": "Metalele se trag în foi și în fire."
+      },
+      {
+       "intrebare": "Raza atomică, într-o grupă, de sus în jos:",
+       "optiuni": [
+        "crește",
+        "scade",
+        "rămâne constantă",
+        "crește apoi scade"
+       ],
+       "corect": 0,
+       "explicatie": "Se adaugă straturi electronice."
+      },
+      {
+       "intrebare": "Caracterul nemetalic este mai accentuat:",
+       "optiuni": [
+        "în dreapta sus a tabelului",
+        "în stânga jos",
+        "în centrul tabelului",
+        "la gazele nobile"
+       ],
+       "corect": 0,
+       "explicatie": "Acolo se află nemetalele reactive."
+      },
+      {
+       "intrebare": "Cel mai electronegativ element din tabel este:",
+       "optiuni": [
+        "fluorul",
+        "sodiul",
+        "fierul",
+        "heliul"
+       ],
+       "corect": 0,
+       "explicatie": "Electronegativitatea crește spre dreapta și în sus."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chi9-c5",
+   "titlu": "Compuși anorganici",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "chi9-13",
+     "titlu": "Oxizii",
+     "rezumat": "Oxizii sunt combinații ale oxigenului cu un alt element. Se formează frecvent prin ardere: metalele ard dând oxizi metalici, nemetalele dând oxizi nemetalici. Formula lor se scrie ținând cont de valențe; denumirea cuprinde cuvântul „oxid” urmat de numele elementului, iar când elementul are mai multe valențe, se precizează valența — de exemplu, oxid de fier. După comportarea în reacție cu apa, oxizii se împart în bazici și acizi. Oxizii metalelor sunt, în general, bazici: în reacție cu apa dau baze (oxidul de calciu, varul nestins, CaO, dă hidroxid de calciu). Oxizii nemetalelor sunt, în general, acizi: în reacție cu apa dau acizi (dioxidul de carbon dă acid carbonic, dioxidul de sulf contribuie la ploile acide). Oxizii au numeroase roluri. Dioxidul de carbon rezultă din respirație și din arderi și este un gaz cu efect de seră. Oxidul de calciu se folosește în construcții. Oxizii de azot și de sulf, proveniți din arderi, poluează aerul și produc ploi acide. Dioxidul de siliciu este componenta principală a nisipului și a sticlei.",
+     "ideiCheie": [
+      "Oxizii sunt combinații ale oxigenului cu un alt element.",
+      "Oxizii metalelor sunt, de regulă, bazici; ai nemetalelor, acizi.",
+      "Un oxid bazic plus apă dă o bază; un oxid acid plus apă dă un acid.",
+      "Oxizii de azot și de sulf produc ploile acide."
+     ],
+     "termeni": [
+      {
+       "t": "oxid",
+       "d": "combinație a oxigenului cu un alt element"
+      },
+      {
+       "t": "oxid acid",
+       "d": "oxid, de regulă al unui nemetal, care în reacție cu apa formează un acid"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se formează adesea oxizii?",
+       "v": "Prin arderea unui element în prezența oxigenului."
+      },
+      {
+       "f": "Ce fel de oxizi dau, în general, metalele?",
+       "v": "Oxizi bazici."
+      },
+      {
+       "f": "Ce se obține din reacția unui oxid acid cu apa?",
+       "v": "Un acid."
+      },
+      {
+       "f": "Ce oxizi produc ploile acide?",
+       "v": "Oxizii de sulf și de azot."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Oxizii sunt combinații ale oxigenului cu:",
+       "optiuni": [
+        "un alt element",
+        "doar cu metale",
+        "doar cu hidrogenul",
+        "doar cu nemetale"
+       ],
+       "corect": 0,
+       "explicatie": "Se formează frecvent prin ardere."
+      },
+      {
+       "intrebare": "Oxidul de calciu (CaO), în reacție cu apa, dă:",
+       "optiuni": [
+        "o bază (hidroxid de calciu)",
+        "un acid",
+        "o sare",
+        "un metal"
+       ],
+       "corect": 0,
+       "explicatie": "Este un oxid bazic."
+      },
+      {
+       "intrebare": "Dioxidul de carbon este:",
+       "optiuni": [
+        "un oxid acid și un gaz cu efect de seră",
+        "un oxid bazic",
+        "un metal",
+        "o bază"
+       ],
+       "corect": 0,
+       "explicatie": "Cu apa dă acid carbonic."
+      },
+      {
+       "intrebare": "Ploile acide sunt produse mai ales de oxizii de:",
+       "optiuni": [
+        "sulf și azot",
+        "calciu și magneziu",
+        "sodiu și potasiu",
+        "fier și cupru"
+       ],
+       "corect": 0,
+       "explicatie": "Provin din arderea combustibililor."
+      }
+     ]
+    },
+    {
+     "id": "chi9-14",
+     "titlu": "Acizii și bazele",
+     "rezumat": "Acizii sunt substanțe care, în soluție apoasă, cedează ioni de hidrogen (H⁺). Formula lor începe, de obicei, cu hidrogen: acidul clorhidric (HCl), acidul sulfuric (H₂SO₄), acidul azotic (HNO₃), acidul carbonic (H₂CO₃). Acizii au gust acru, înroșesc turnesolul și reacționează cu metalele active, degajând hidrogen. După tăria lor, sunt tari (ionizează complet, precum HCl) sau slabi (ionizează parțial, precum acidul acetic). Bazele (hidroxizii) sunt substanțe care, în soluție, eliberează ioni hidroxil (OH⁻). Exemple: hidroxidul de sodiu (NaOH, soda caustică), hidroxidul de potasiu (KOH), hidroxidul de calciu (Ca(OH)₂, varul stins). Bazele au gust leșietic, sunt lunecoase la pipăit și albăstresc turnesolul. Și ele sunt tari sau slabe, după cât de mult ionizează. Acizii și bazele tari sunt corozivi și trebuie manipulați cu grijă: ochelari, mănuși, niciodată gustare sau atingere directă. La diluarea acidului sulfuric se toarnă acidul în apă, nu invers, pentru că reacția degajă multă căldură. Acizii și bazele sunt printre cele mai folosite substanțe în industrie și în laborator.",
+     "ideiCheie": [
+      "Acizii cedează ioni H⁺; bazele eliberează ioni OH⁻.",
+      "Acizi uzuali: HCl, H₂SO₄, HNO₃; baze uzuale: NaOH, KOH, Ca(OH)₂.",
+      "Acizii și bazele pot fi tari (ionizează complet) sau slabi (parțial).",
+      "Acidul sulfuric se toarnă în apă, nu apa în acid."
+     ],
+     "termeni": [
+      {
+       "t": "acid",
+       "d": "substanță care, în soluție apoasă, cedează ioni de hidrogen (H⁺)"
+      },
+      {
+       "t": "bază",
+       "d": "substanță care, în soluție apoasă, eliberează ioni hidroxil (OH⁻)"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce ioni cedează acizii în soluție?",
+       "v": "Ioni de hidrogen (H⁺)."
+      },
+      {
+       "f": "Ce ioni eliberează bazele în soluție?",
+       "v": "Ioni hidroxil (OH⁻)."
+      },
+      {
+       "f": "Dă exemple de acizi și de baze uzuale.",
+       "v": "Acizi: HCl, H₂SO₄, HNO₃; baze: NaOH, KOH, Ca(OH)₂."
+      },
+      {
+       "f": "Cum se diluează corect acidul sulfuric?",
+       "v": "Turnând acidul în apă, niciodată apa în acid."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Formula acidului sulfuric este:",
+       "optiuni": [
+        "H₂SO₄",
+        "HCl",
+        "HNO₃",
+        "NaOH"
+       ],
+       "corect": 0,
+       "explicatie": "Este un acid tare."
+      },
+      {
+       "intrebare": "Hidroxidul de sodiu (soda caustică) are formula:",
+       "optiuni": [
+        "NaOH",
+        "HCl",
+        "Ca(OH)₂",
+        "H₂SO₄"
+       ],
+       "corect": 0,
+       "explicatie": "Este o bază tare."
+      },
+      {
+       "intrebare": "Un acid tare, precum HCl:",
+       "optiuni": [
+        "ionizează complet în soluție",
+        "ionizează parțial",
+        "nu ionizează deloc",
+        "eliberează ioni OH⁻"
+       ],
+       "corect": 0,
+       "explicatie": "Acizii slabi ionizează doar parțial."
+      },
+      {
+       "intrebare": "La diluarea acidului sulfuric se toarnă:",
+       "optiuni": [
+        "acidul în apă",
+        "apa în acid",
+        "ambele deodată",
+        "acidul pe o suprafață metalică"
+       ],
+       "corect": 0,
+       "explicatie": "Reacția degajă multă căldură."
+      }
+     ]
+    },
+    {
+     "id": "chi9-15",
+     "titlu": "Sărurile",
+     "rezumat": "Sărurile sunt compuși ionici formați dintr-un ion metalic (sau amoniu) și un rest acid. Cea mai cunoscută este clorura de sodiu (NaCl), sarea de bucătărie. Numele sării vine de la acidul din care provine: din acidul clorhidric rezultă cloruri, din acidul sulfuric sulfați, din acidul azotic azotați (nitrați), din acidul carbonic carbonați. Sărurile se pot obține pe mai multe căi: prin neutralizare (acid plus bază dau sare și apă), prin reacția unui acid cu un metal, cu un oxid metalic sau cu o sare, ori prin reacția directă dintre un metal și un nemetal. Multe săruri sunt solubile în apă, dar unele sunt greu solubile și precipită — proprietate folosită în analiza chimică pentru a identifica ionii. Sărurile au utilizări foarte diverse. Clorura de sodiu se folosește în alimentație și la conservare; carbonatul de calciu este piatra de var și marmura, folosite în construcții; sulfatul de cupru se folosește în agricultură; bicarbonatul de sodiu, în bucătărie și în medicină. Sărurile minerale sunt indispensabile și organismelor vii.",
+     "ideiCheie": [
+      "Sărurile sunt compuși ionici dintr-un ion metalic și un rest acid.",
+      "Numele sării vine de la acidul de proveniență: cloruri, sulfați, azotați, carbonați.",
+      "O cale principală de obținere este neutralizarea: acid + bază → sare + apă.",
+      "Unele săruri precipită, ceea ce ajută la identificarea ionilor."
+     ],
+     "termeni": [
+      {
+       "t": "sare",
+       "d": "compus ionic format dintr-un ion metalic (sau amoniu) și un rest acid"
+      },
+      {
+       "t": "neutralizare",
+       "d": "reacția dintre un acid și o bază, cu formare de sare și apă"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Din ce este formată o sare?",
+       "v": "Dintr-un ion metalic (sau amoniu) și un rest acid."
+      },
+      {
+       "f": "Ce săruri provin din acidul sulfuric?",
+       "v": "Sulfații."
+      },
+      {
+       "f": "Cum se obține o sare prin neutralizare?",
+       "v": "Din reacția unui acid cu o bază, rezultând sare și apă."
+      },
+      {
+       "f": "Dă exemple de utilizări ale sărurilor.",
+       "v": "Clorura de sodiu în alimentație, carbonatul de calciu în construcții, sulfatul de cupru în agricultură."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Sarea de bucătărie este:",
+       "optiuni": [
+        "clorura de sodiu (NaCl)",
+        "carbonatul de calciu",
+        "sulfatul de cupru",
+        "hidroxidul de sodiu"
+       ],
+       "corect": 0,
+       "explicatie": "Provine din acidul clorhidric."
+      },
+      {
+       "intrebare": "Sărurile acidului azotic se numesc:",
+       "optiuni": [
+        "azotați (nitrați)",
+        "sulfați",
+        "cloruri",
+        "carbonați"
+       ],
+       "corect": 0,
+       "explicatie": "Numele vine de la acidul de proveniență."
+      },
+      {
+       "intrebare": "Reacția acid + bază → sare + apă este:",
+       "optiuni": [
+        "neutralizarea",
+        "oxidarea",
+        "descompunerea",
+        "dizolvarea"
+       ],
+       "corect": 0,
+       "explicatie": "Este o cale de obținere a sărurilor."
+      },
+      {
+       "intrebare": "Faptul că unele săruri precipită este folosit pentru:",
+       "optiuni": [
+        "identificarea ionilor în analiza chimică",
+        "încălzirea soluțiilor",
+        "producerea de gaze",
+        "diluarea acizilor"
+       ],
+       "corect": 0,
+       "explicatie": "Precipitatul semnalează prezența unui anumit ion."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chi9-c6",
+   "titlu": "Soluții, calcule și apa",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "chi9-16",
+     "titlu": "Dizolvarea și solubilitatea",
+     "rezumat": "Dizolvarea este procesul prin care particulele unei substanțe (solvatul) se împrăștie printre moleculele solventului, formând o soluție omogenă. La dizolvarea unei substanțe ionice în apă, moleculele polare de apă înconjoară ionii și îi desprind din rețea. Viteza de dizolvare crește prin mărunțire (suprafață de contact mai mare), agitare și încălzire, dar aceștia influențează cât de repede, nu neapărat cât de mult se dizolvă. Solubilitatea este cantitatea maximă de substanță care se poate dizolva într-o cantitate dată de solvent, la o anumită temperatură. O soluție este nesaturată dacă mai poate dizolva solvat, saturată dacă a atins limita și suprasaturată dacă, în condiții speciale, conține mai mult decât limita obișnuită. La solide, solubilitatea crește, de regulă, cu temperatura; la gaze, scade. Aceste noțiuni au aplicații practice. Zahărul se dizolvă mai repede în ceaiul cald și mărunțit fin. Băuturile carbogazoase își pierd gazul la cald, pentru că solubilitatea gazelor scade cu temperatura. Formarea crustelor de calcar și a unor minerale se explică tot prin variația solubilității cu temperatura și cu concentrația.",
+     "ideiCheie": [
+      "Dizolvarea împrăștie solvatul printre moleculele solventului.",
+      "Viteza de dizolvare crește prin mărunțire, agitare și încălzire.",
+      "Solubilitatea este cantitatea maximă dizolvată la o temperatură dată.",
+      "La solide solubilitatea crește cu temperatura; la gaze scade."
+     ],
+     "termeni": [
+      {
+       "t": "dizolvare",
+       "d": "procesul prin care solvatul se împrăștie printre moleculele solventului, formând o soluție"
+      },
+      {
+       "t": "soluție saturată",
+       "d": "soluție care a dizolvat cantitatea maximă de solvat la o temperatură dată"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este dizolvarea?",
+       "v": "Procesul prin care solvatul se împrăștie printre moleculele solventului."
+      },
+      {
+       "f": "Cum se poate mări viteza de dizolvare?",
+       "v": "Prin mărunțire, agitare și încălzire."
+      },
+      {
+       "f": "Ce este o soluție saturată?",
+       "v": "O soluție care a dizolvat cantitatea maximă de solvat la temperatura dată."
+      },
+      {
+       "f": "Cum variază solubilitatea solidelor cu temperatura?",
+       "v": "De regulă, crește cu temperatura."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Viteza de dizolvare a unui solid crește dacă:",
+       "optiuni": [
+        "îl mărunțim, îl agităm și îl încălzim",
+        "îl răcim",
+        "mărim bucățile",
+        "lăsăm amestecul în repaus"
+       ],
+       "corect": 0,
+       "explicatie": "Toate cresc contactul dintre solvat și solvent."
+      },
+      {
+       "intrebare": "O soluție care nu mai poate dizolva solvat la temperatura dată este:",
+       "optiuni": [
+        "saturată",
+        "nesaturată",
+        "diluată",
+        "pură"
+       ],
+       "corect": 0,
+       "explicatie": "A atins limita de solubilitate."
+      },
+      {
+       "intrebare": "Solubilitatea gazelor în apă, la creșterea temperaturii:",
+       "optiuni": [
+        "scade",
+        "crește",
+        "rămâne constantă",
+        "devine infinită"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea băuturile carbogazoase își pierd gazul la cald."
+      },
+      {
+       "intrebare": "Moleculele de apă dizolvă un solid ionic pentru că:",
+       "optiuni": [
+        "sunt polare și înconjoară ionii, desprinzându-i din rețea",
+        "sunt nepolare",
+        "au sarcină pozitivă totală",
+        "au masă mare"
+       ],
+       "corect": 0,
+       "explicatie": "Apa este solventul universal al substanțelor ionice."
+      }
+     ]
+    },
+    {
+     "id": "chi9-17",
+     "titlu": "Concentrația procentuală de masă",
+     "rezumat": "Concentrația arată cât solvat se află într-o cantitate dată de soluție. Concentrația procentuală de masă exprimă câte grame de solvat se găsesc în 100 de grame de soluție. Ea se calculează împărțind masa solvatului la masa soluției și înmulțind cu 100. Masa soluției este suma dintre masa solvatului și masa solventului. De exemplu, dacă dizolvăm 20 g de sare în 80 g de apă, obținem 100 g de soluție, iar concentrația este 20%. Dacă dizolvăm 25 g de zahăr în 100 g de apă, masa soluției este 125 g, iar concentrația este 25 împărțit la 125, înmulțit cu 100, adică 20%. Se observă că trebuie folosită masa soluției, nu a solventului. La diluare adăugăm solvent: masa solvatului rămâne aceeași, dar masa soluției crește, deci concentrația scade. La concentrare, prin evaporarea solventului, concentrația crește. Aceste calcule sunt folosite zilnic în laborator, în farmacie, în industria alimentară și în gospodărie, la prepararea soluțiilor de o anumită tărie.",
+     "ideiCheie": [
+      "Concentrația procentuală = masa solvatului împărțită la masa soluției, ori 100.",
+      "Masa soluției = masa solvatului + masa solventului.",
+      "La diluare, concentrația scade; la evaporarea solventului, crește.",
+      "Se folosește masa soluției, nu a solventului."
+     ],
+     "termeni": [
+      {
+       "t": "concentrație procentuală de masă",
+       "d": "masa de solvat, în grame, aflată în 100 g de soluție"
+      },
+      {
+       "t": "masa soluției",
+       "d": "suma dintre masa solvatului și masa solventului"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce arată concentrația procentuală de masă?",
+       "v": "Câte grame de solvat se află în 100 g de soluție."
+      },
+      {
+       "f": "Cum se calculează concentrația procentuală?",
+       "v": "Masa solvatului împărțită la masa soluției, înmulțit cu 100."
+      },
+      {
+       "f": "Cât este masa soluției?",
+       "v": "Suma dintre masa solvatului și masa solventului."
+      },
+      {
+       "f": "Ce se întâmplă cu concentrația la diluare?",
+       "v": "Scade, pentru că masa soluției crește, iar cea a solvatului rămâne aceeași."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Dizolvând 20 g de sare în 80 g de apă, concentrația procentuală este:",
+       "optiuni": [
+        "20%",
+        "25%",
+        "80%",
+        "16%"
+       ],
+       "corect": 0,
+       "explicatie": "Masa soluției este 100 g."
+      },
+      {
+       "intrebare": "Masa soluției reprezintă:",
+       "optiuni": [
+        "suma masei solvatului și a solventului",
+        "doar masa solvatului",
+        "doar masa solventului",
+        "diferența dintre solvent și solvat"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea se folosește ea la calcul."
+      },
+      {
+       "intrebare": "Prin adăugarea de solvent (diluare), concentrația:",
+       "optiuni": [
+        "scade",
+        "crește",
+        "rămâne constantă",
+        "devine zero"
+       ],
+       "corect": 0,
+       "explicatie": "Masa solvatului nu se schimbă, dar soluția crește."
+      },
+      {
+       "intrebare": "Dizolvând 25 g de zahăr în 100 g de apă, concentrația este:",
+       "optiuni": [
+        "20%",
+        "25%",
+        "125%",
+        "4%"
+       ],
+       "corect": 0,
+       "explicatie": "25 împărțit la 125, înmulțit cu 100."
+      }
+     ]
+    },
+    {
+     "id": "chi9-18",
+     "titlu": "Apa — structură, proprietăți, importanță",
+     "rezumat": "Apa este una dintre cele mai importante substanțe pentru viață. Molecula ei, H₂O, este formată dintr-un atom de oxigen legat covalent de doi atomi de hidrogen, într-o formă îndoită (unghiulară). Deoarece oxigenul e mai electronegativ, molecula este polară: are o parte ușor negativă și una ușor pozitivă. Această polaritate stă la baza aproape tuturor proprietăților ei. Între moleculele de apă se stabilesc legături de hidrogen, mai slabe decât cele covalente, dar numeroase. Ele explică temperatura neobișnuit de mare de fierbere (100°C), căldura specifică mare (apa se încălzește și se răcește greu, moderând clima), tensiunea superficială și faptul remarcabil că gheața plutește: apa solidă este mai puțin densă decât apa lichidă, de aceea lacurile îngheață de la suprafață, iar viața de dedesubt supraviețuiește. Apa este un solvent excelent pentru substanțe polare și ionice, mediul în care se petrec reacțiile din organisme. Apa naturală conține săruri dizolvate; apa „dură” are mult calciu și magneziu, care formează depuneri de calcar. Deși abundentă, apa dulce ușor accesibilă este limitată, de aceea folosirea ei chibzuită și protejarea de poluare sunt esențiale.",
+     "ideiCheie": [
+      "Molecula de apă, H₂O, este unghiulară și polară.",
+      "Legăturile de hidrogen explică fierberea la 100°C și căldura specifică mare.",
+      "Gheața plutește: apa solidă e mai puțin densă decât cea lichidă.",
+      "Apa este un solvent excelent pentru substanțe polare și ionice."
+     ],
+     "termeni": [
+      {
+       "t": "legătură de hidrogen",
+       "d": "legătură slabă între molecule polare, precum moleculele de apă"
+      },
+      {
+       "t": "apă dură",
+       "d": "apă cu conținut ridicat de calciu și magneziu, care formează depuneri de calcar"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce formă și ce caracter are molecula de apă?",
+       "v": "Este unghiulară și polară."
+      },
+      {
+       "f": "Ce explică legăturile de hidrogen dintre moleculele de apă?",
+       "v": "Temperatura mare de fierbere, căldura specifică mare, tensiunea superficială."
+      },
+      {
+       "f": "De ce plutește gheața?",
+       "v": "Pentru că apa solidă este mai puțin densă decât apa lichidă."
+      },
+      {
+       "f": "Ce conține apa dură?",
+       "v": "Mult calciu și magneziu, care formează depuneri de calcar."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Molecula de apă este:",
+       "optiuni": [
+        "polară și unghiulară",
+        "nepolară și liniară",
+        "ionică",
+        "metalică"
+       ],
+       "corect": 0,
+       "explicatie": "Oxigenul e mai electronegativ decât hidrogenul."
+      },
+      {
+       "intrebare": "Faptul că gheața plutește se datorează:",
+       "optiuni": [
+        "densității mai mici a apei solide față de cea lichidă",
+        "legăturilor ionice",
+        "lipsei legăturilor de hidrogen",
+        "temperaturii de fierbere"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea lacurile îngheață de la suprafață."
+      },
+      {
+       "intrebare": "Legăturile de hidrogen dintre moleculele de apă explică:",
+       "optiuni": [
+        "temperatura mare de fierbere și căldura specifică mare",
+        "caracterul metalic",
+        "conductibilitatea electrică ridicată",
+        "culoarea albastră a mărilor"
+       ],
+       "corect": 0,
+       "explicatie": "Sunt slabe, dar numeroase."
+      },
+      {
+       "intrebare": "Apa dură conține cantități mari de:",
+       "optiuni": [
+        "calciu și magneziu",
+        "sodiu și potasiu",
+        "clor și fluor",
+        "fier și cupru"
+       ],
+       "corect": 0,
+       "explicatie": "Ele formează depuneri de calcar."
+      }
+     ]
+    }
+   ]
   }
  ],
  "teze": [
   {
    "semestru": 1,
    "test": [
+    {
+     "intrebare": "Nucleul atomic a fost descoperit de:",
+     "optiuni": [
+      "Rutherford",
+      "Dalton",
+      "Thomson",
+      "Mendeleev"
+     ],
+     "corect": 0,
+     "explicatie": "Prin experimentul cu foițe de aur."
+    },
+    {
+     "intrebare": "Pe straturile K, L, M ale primelor trei perioade se așază cel mult:",
+     "optiuni": [
+      "2, 8 și 8 electroni",
+      "8, 8 și 8 electroni",
+      "2, 2 și 2 electroni",
+      "18, 8 și 2 electroni"
+     ],
+     "corect": 0,
+     "explicatie": "Configurația determină comportarea chimică."
+    },
+    {
+     "intrebare": "Un atom care cedează electroni devine:",
+     "optiuni": [
+      "cation",
+      "anion",
+      "izotop",
+      "moleculă"
+     ],
+     "corect": 0,
+     "explicatie": "Sarcina lui devine pozitivă."
+    },
+    {
+     "intrebare": "Metalele, la formarea ionilor:",
+     "optiuni": [
+      "cedează electroni și devin cationi",
+      "primesc electroni și devin anioni",
+      "nu formează ioni",
+      "pierd protoni"
+     ],
+     "corect": 0,
+     "explicatie": "Au puțini electroni de valență."
+    },
+    {
+     "intrebare": "Raza atomică, într-o perioadă, de la stânga la dreapta:",
+     "optiuni": [
+      "scade",
+      "crește",
+      "rămâne constantă",
+      "se dublează"
+     ],
+     "corect": 0,
+     "explicatie": "Nucleul atrage tot mai puternic electronii."
+    },
+    {
+     "intrebare": "Maleabilitatea și luciul sunt proprietăți ale:",
+     "optiuni": [
+      "metalelor",
+      "nemetalelor",
+      "gazelor nobile",
+      "oxizilor acizi"
+     ],
+     "corect": 0,
+     "explicatie": "Metalele conduc și curentul electric."
+    },
     {
      "intrebare": "Numărul atomic reprezintă:",
      "optiuni": [
@@ -902,6 +1754,72 @@
   {
    "semestru": 2,
    "test": [
+    {
+     "intrebare": "Oxizii nemetalelor sunt, în general:",
+     "optiuni": [
+      "acizi",
+      "bazici",
+      "metalici",
+      "neutri întotdeauna"
+     ],
+     "corect": 0,
+     "explicatie": "Cu apa dau acizi."
+    },
+    {
+     "intrebare": "Formula acidului clorhidric este:",
+     "optiuni": [
+      "HCl",
+      "H₂SO₄",
+      "NaOH",
+      "HNO₃"
+     ],
+     "corect": 0,
+     "explicatie": "Cedează ioni H⁺ în soluție."
+    },
+    {
+     "intrebare": "Sărurile acidului sulfuric se numesc:",
+     "optiuni": [
+      "sulfați",
+      "cloruri",
+      "azotați",
+      "carbonați"
+     ],
+     "corect": 0,
+     "explicatie": "Numele vine de la acidul de proveniență."
+    },
+    {
+     "intrebare": "O soluție care a dizolvat cantitatea maximă de solvat este:",
+     "optiuni": [
+      "saturată",
+      "nesaturată",
+      "diluată",
+      "pură"
+     ],
+     "corect": 0,
+     "explicatie": "A atins limita de solubilitate."
+    },
+    {
+     "intrebare": "Dizolvând 10 g de sare în 90 g de apă, concentrația procentuală este:",
+     "optiuni": [
+      "10%",
+      "11%",
+      "90%",
+      "100%"
+     ],
+     "corect": 0,
+     "explicatie": "Masa soluției este 100 g."
+    },
+    {
+     "intrebare": "Gheața plutește pe apă pentru că:",
+     "optiuni": [
+      "apa solidă este mai puțin densă decât cea lichidă",
+      "este mai caldă",
+      "conține aer",
+      "are legături ionice"
+     ],
+     "corect": 0,
+     "explicatie": "De aceea lacurile îngheață de la suprafață."
+    },
     {
      "intrebare": "Numărul lui Avogadro este aproximativ:",
      "optiuni": [

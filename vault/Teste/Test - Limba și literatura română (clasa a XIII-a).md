@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Limba și literatura română (clasa a XIII-a)
 
-60 întrebări din [[Limba și literatura română (clasa a XIII-a)|Limba și literatura română (clasa a XIII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+116 întrebări din [[Limba și literatura română (clasa a XIII-a)|Limba și literatura română (clasa a XIII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Punctajul subiectului I este de:
 
@@ -441,79 +441,127 @@ cssclasses: test
 > 
 > Cerința se citește din nou după terminarea răspunsului.
 
-### 37. Punctajul subiectului I la proba de română este:
+### 37. Trăsătura „personaj excepțional în situații excepționale” aparține:
 
-- a. 50 de puncte
-- b. 30 de puncte
-- c. 20 de puncte
-- d. 10 puncte
-
-> [!success]- Răspuns
-> **a. 50 de puncte**
-> 
-> Subiectul al III-lea valorează 30 de puncte.
-
-### 38. Textul-suport de la subiectul I este:
-
-- a. un text la prima vedere
-- b. o operă studiată
-- c. un fragment memorat
-- d. un text din manual
+- a. romantismului
+- b. realismului
+- c. clasicismului
+- d. naturalismului
 
 > [!success]- Răspuns
-> **a. un text la prima vedere**
+> **a. romantismului**
 > 
-> De aceea contează metoda, nu memorarea.
+> Realismul preferă personajele tipice în împrejurări tipice.
 
-### 39. Punctele de redactare se pierd cel mai des prin:
+### 38. Naratorul obiectiv, omniscient, la persoana a III-a este marca:
 
-- a. greșeli de ortografie și de punctuație
-- b. lipsa citatelor
-- c. lungimea eseului
-- d. alegerea operei
+- a. realismului
+- b. romantismului
+- c. simbolismului
+- d. modernismului subiectiv
 
 > [!success]- Răspuns
-> **a. greșeli de ortografie și de punctuație**
+> **a. realismului**
 > 
-> Ele pot însemna până la o zecime din notă.
+> „Ion” și „Enigma Otiliei” îl ilustrează.
 
-### 40. La cerința „explică rolul epitetului” trebuie:
+### 39. La eseul despre un curent, trăsăturile trebuie:
 
-- a. arătat ce sugerează epitetul în context
-- b. doar numită figura
-- c. indicat versul
-- d. dată o definiție
+- a. ilustrate concret cu elemente din text
+- b. doar enumerate
+- c. definite teoretic
+- d. comparate cu alt curent
 
 > [!success]- Răspuns
-> **a. arătat ce sugerează epitetul în context**
+> **a. ilustrate concret cu elemente din text**
 > 
-> Identificarea singură nu se punctează integral.
+> Afirmațiile neilustrate nu se punctează.
 
-### 41. Compunerea de la subiectul I are structura:
+### 40. O operă potrivită pentru ilustrarea realismului este:
 
-- a. ipoteză, argumente cu exemple, concluzie
-- b. introducere, cuprins, rezumat
-- c. expozițiune, intrigă, deznodământ
-- d. temă, motive, mesaj
+- a. „Ion” de Liviu Rebreanu
+- b. „Luceafărul” de Eminescu
+- c. „Plumb” de Bacovia
+- d. „Testament” de Arghezi
 
 > [!success]- Răspuns
-> **a. ipoteză, argumente cu exemple, concluzie**
+> **a. „Ion” de Liviu Rebreanu**
 > 
-> Limita de cuvinte este ea însăși punctată.
+> Ea are narator obiectiv și observație socială.
 
-### 42. Introducerea unui eseu despre temă și viziune cuprinde:
+### 41. Trăsătura „metafora insolită și reflecția asupra limbajului” aparține:
 
-- a. încadrarea în curent, cu trăsături ilustrate, plus autor, operă, an
-- b. rezumatul operei
-- c. caracterizarea personajului principal
-- d. prezentarea biografiei autorului
+- a. neomodernismului
+- b. realismului
+- c. tradiționalismului
+- d. clasicismului
 
 > [!success]- Răspuns
-> **a. încadrarea în curent, cu trăsături ilustrate, plus autor, operă, an**
+> **a. neomodernismului**
 > 
-> Trăsăturile trebuie regăsite în text.
+> Nichita Stănescu este reprezentativ.
 
-### 43. Cele două secvențe alese pentru eseu trebuie:
+### 42. Intertextualitatea și fragmentarismul sunt trăsături ale:
+
+- a. postmodernismului
+- b. romantismului
+- c. simbolismului
+- d. realismului
+
+> [!success]- Răspuns
+> **a. postmodernismului**
+> 
+> Generația '80, cu Cărtărescu, le ilustrează.
+
+### 43. Opera de referință pentru simbolism este:
+
+- a. „Plumb” de George Bacovia
+- b. „Ion” de Rebreanu
+- c. „Moromeții” de Preda
+- d. „Luceafărul” de Eminescu
+
+> [!success]- Răspuns
+> **a. „Plumb” de George Bacovia**
+> 
+> El mizează pe sugestie și pe cromatică.
+
+### 44. Pentru încadrarea rapidă a unui text la eseu este util:
+
+- a. un tabel mental: curent – trăsături – operă de referință
+- b. memorarea unui eseu-tip
+- c. citirea rezumatului
+- d. numărarea figurilor de stil
+
+> [!success]- Răspuns
+> **a. un tabel mental: curent – trăsături – operă de referință**
+> 
+> El permite recunoașterea imediată a curentului.
+
+### 45. Naratorul homodiegetic povestește:
+
+- a. la persoana I, fiind el însuși personaj
+- b. la persoana a III-a, neimplicat
+- c. exclusiv prin dialog
+- d. doar prin descriere
+
+> [!success]- Răspuns
+> **a. la persoana I, fiind el însuși personaj**
+> 
+> Perspectiva lui este limitată la ce știe și trăiește.
+
+### 46. „Alexandru Lăpușneanul” este o nuvelă:
+
+- a. istorică
+- b. psihologică
+- c. fantastică
+- d. de dragoste
+
+> [!success]- Răspuns
+> **a. istorică**
+> 
+> „Moara cu noroc” este, în schimb, psihologică.
+
+### 47. La eseul despre un text epic, cele două secvențe trebuie:
 
 - a. analizate, nu rezumate
 - b. să acopere toată acțiunea
@@ -523,57 +571,309 @@ cssclasses: test
 > [!success]- Răspuns
 > **a. analizate, nu rezumate**
 > 
-> Analiza aduce punctele, nu povestirea.
+> Analiza aduce punctele.
 
-### 44. Afirmația „din faptele lui reiese că e lacom” este caracterizare:
+### 48. „Maitreyi” de Eliade ilustrează:
 
-- a. indirectă
-- b. directă
-- c. prin autocaracterizare
-- d. prin didascalii
-
-> [!success]- Răspuns
-> **a. indirectă**
-> 
-> Directă înseamnă afirmație explicită.
-
-### 45. La eseul despre relația dintre două personaje se cere:
-
-- a. analiza raportului dintre ele
-- b. caracterizarea separată a fiecăruia
-- c. rezumatul scenelor comune
-- d. compararea cu alte opere
+- a. romanul autenticității
+- b. romanul realist obiectiv
+- c. nuvela istorică
+- d. basmul cult
 
 > [!success]- Răspuns
-> **a. analiza raportului dintre ele**
+> **a. romanul autenticității**
 > 
-> Trebuie arătat ce se schimbă în fiecare din cauza celuilalt.
+> Naratorul povestește la persoana I, pe baza jurnalului.
 
-### 46. Mărcile eului liric se analizează la eseul despre:
+### 49. Mărcile eului liric se analizează la eseul despre:
 
 - a. textul liric
 - b. textul narativ
 - c. textul dramatic
-- d. textul argumentativ
+- d. textul nonliterar
 
 > [!success]- Răspuns
 > **a. textul liric**
 > 
 > Ele semnalează vocea care exprimă trăirea.
 
-### 47. Sursele comicului sunt element de analiză pentru:
+### 50. Analiza unei figuri de stil presupune:
+
+- a. explicarea efectului ei în context
+- b. simpla ei numire
+- c. indicarea versului
+- d. definirea ei teoretică
+
+> [!success]- Răspuns
+> **a. explicarea efectului ei în context**
+> 
+> Identificarea singură nu aduce punctajul integral.
+
+### 51. Sursele comicului se analizează la eseul despre:
 
 - a. comedie
 - b. tragedie
-- c. roman
-- d. pastel
+- c. pastel
+- d. roman
 
 > [!success]- Răspuns
 > **a. comedie**
 > 
 > Ele includ comicul de situație, de caracter, de limbaj, de nume.
 
-### 48. Un termen de teorie literară folosit greșit:
+### 52. „Iona” de Marin Sorescu este:
+
+- a. o tragedie modernă
+- b. o comedie
+- c. un pastel
+- d. o nuvelă
+
+> [!success]- Răspuns
+> **a. o tragedie modernă**
+> 
+> Personajul este singur pe scenă, într-un monolog dedublat.
+
+### 53. Într-un eseu despre un curent, fiecare trăsătură trebuie:
+
+- a. ilustrată printr-un element concret din text
+- b. doar enumerată
+- c. definită teoretic
+- d. comparată cu alt curent
+
+> [!success]- Răspuns
+> **a. ilustrată printr-un element concret din text**
+> 
+> Afirmațiile neilustrate nu se punctează.
+
+### 54. Greșeala tipică la acest tip de eseu este:
+
+- a. enumerarea trăsăturilor fără legătură cu textul
+- b. folosirea conceptelor operaționale
+- c. citarea din text
+- d. analiza incipitului
+
+> [!success]- Răspuns
+> **a. enumerarea trăsăturilor fără legătură cu textul**
+> 
+> Rezultă o „lecție” despre curent, nu un eseu despre operă.
+
+### 55. Încheierea eseului despre un curent trebuie să conțină:
+
+- a. reluarea ideii și o concluzie proprie
+- b. un rezumat al operei
+- c. o listă de alte opere
+- d. biografia autorului
+
+> [!success]- Răspuns
+> **a. reluarea ideii și o concluzie proprie**
+> 
+> Concluzia leagă analiza de curentul anunțat.
+
+### 56. Metoda sigură pentru structurarea cuprinsului este:
+
+- a. un paragraf pentru fiecare trăsătură anunțată, demonstrată în text
+- b. povestirea cronologică a acțiunii
+- c. enumerarea tuturor figurilor de stil
+- d. prezentarea biografiei autorului
+
+> [!success]- Răspuns
+> **a. un paragraf pentru fiecare trăsătură anunțată, demonstrată în text**
+> 
+> Astfel fiecare afirmație e susținută textual.
+
+### 57. Structura textului argumentativ este:
+
+- a. ipoteză, argumente cu exemple, concluzie
+- b. introducere, cuprins, rezumat
+- c. expozițiune, intrigă, deznodământ
+- d. temă, motive, mesaj
+
+> [!success]- Răspuns
+> **a. ipoteză, argumente cu exemple, concluzie**
+> 
+> Fiecare argument are nevoie de un exemplu concret.
+
+### 58. Conectorii logici într-un text argumentativ:
+
+- a. sunt obligatorii, fiindcă marchează relațiile dintre idei
+- b. sunt facultativi
+- c. îngreunează textul
+- d. se folosesc doar în concluzie
+
+> [!success]- Răspuns
+> **a. sunt obligatorii, fiindcă marchează relațiile dintre idei**
+> 
+> Fără ei, argumentele par o simplă enumerare.
+
+### 59. Respectarea limitei de cuvinte la compunere:
+
+- a. este ea însăși punctată
+- b. nu contează
+- c. se aplică doar la eseu
+- d. e recomandată, dar neevaluată
+
+> [!success]- Răspuns
+> **a. este ea însăși punctată**
+> 
+> Prea puțin înseamnă argumentare insuficientă, prea mult, risc de digresiune.
+
+### 60. Un argument fără exemplu concret:
+
+- a. rămâne o simplă afirmație
+- b. este suficient
+- c. se punctează integral
+- d. ține loc de concluzie
+
+> [!success]- Răspuns
+> **a. rămâne o simplă afirmație**
+> 
+> Exemplul poate veni din text, din literatură sau din experiență.
+
+### 61. „Luceafărul” și „Scrisoarea I” aparțin lui:
+
+- a. Mihai Eminescu
+- b. Ion Creangă
+- c. I. L. Caragiale
+- d. Ioan Slavici
+
+> [!success]- Răspuns
+> **a. Mihai Eminescu**
+> 
+> El este expresia romantismului înalt.
+
+### 62. Comedia de moravuri este specia lui:
+
+- a. I. L. Caragiale
+- b. Ion Creangă
+- c. Mihai Eminescu
+- d. Titu Maiorescu
+
+> [!success]- Răspuns
+> **a. I. L. Caragiale**
+> 
+> „O scrisoare pierdută” este modelul ei.
+
+### 63. „Moara cu noroc” și „Mara” aparțin lui:
+
+- a. Ioan Slavici
+- b. Liviu Rebreanu
+- c. Mihail Sadoveanu
+- d. I. L. Caragiale
+
+> [!success]- Răspuns
+> **a. Ioan Slavici**
+> 
+> El este realistul lumii ardelene.
+
+### 64. Titu Maiorescu este cunoscut, între altele, pentru:
+
+- a. teoria formelor fără fond și criteriul estetic
+- b. crearea comediei de moravuri
+- c. romanul realist obiectiv
+- d. poezia simbolistă
+
+> [!success]- Răspuns
+> **a. teoria formelor fără fond și criteriul estetic**
+> 
+> El este primul critic literar român modern.
+
+### 65. „Eu nu strivesc corola de minuni a lumii” aparține lui:
+
+- a. Lucian Blaga
+- b. Tudor Arghezi
+- c. Ion Barbu
+- d. George Bacovia
+
+> [!success]- Răspuns
+> **a. Lucian Blaga**
+> 
+> Ea exprimă filozofia misterului.
+
+### 66. „Ion” și „Pădurea spânzuraților” aparțin lui:
+
+- a. Liviu Rebreanu
+- b. Camil Petrescu
+- c. G. Călinescu
+- d. Mihail Sadoveanu
+
+> [!success]- Răspuns
+> **a. Liviu Rebreanu**
+> 
+> El reprezintă romanul realist obiectiv.
+
+### 67. „Jocul ielelor” de Camil Petrescu este:
+
+- a. o dramă de idei
+- b. o comedie
+- c. un roman
+- d. un pastel
+
+> [!success]- Răspuns
+> **a. o dramă de idei**
+> 
+> Personajul principal e stăpânit de o idee absolută.
+
+### 68. Romanul citadin de analiză a fost creat de:
+
+- a. Hortensia Papadat-Bengescu
+- b. Mihail Sadoveanu
+- c. Liviu Rebreanu
+- d. Mircea Eliade
+
+> [!success]- Răspuns
+> **a. Hortensia Papadat-Bengescu**
+> 
+> Ciclul Hallipa îi aparține.
+
+### 69. „Moromeții” și „Cel mai iubit dintre pământeni” aparțin lui:
+
+- a. Marin Preda
+- b. Nichita Stănescu
+- c. Marin Sorescu
+- d. Augustin Buzura
+
+> [!success]- Răspuns
+> **a. Marin Preda**
+> 
+> El este marele prozator postbelic.
+
+### 70. „Leoaică tânără, iubirea” aparține lui:
+
+- a. Nichita Stănescu
+- b. Marin Sorescu
+- c. Marin Preda
+- d. Ana Blandiana
+
+> [!success]- Răspuns
+> **a. Nichita Stănescu**
+> 
+> Ea ilustrează neomodernismul.
+
+### 71. „Iona” de Marin Sorescu este:
+
+- a. o tragedie modernă în patru tablouri
+- b. o comedie
+- c. un roman
+- d. un pastel
+
+> [!success]- Răspuns
+> **a. o tragedie modernă în patru tablouri**
+> 
+> Personajul este singur pe scenă.
+
+### 72. Cele trei opere-cheie postbelice recomandate pentru examen sunt:
+
+- a. „Moromeții”, „Leoaică tânără, iubirea”, „Iona”
+- b. „Ion”, „Plumb”, „Testament”
+- c. „Luceafărul”, „Moara cu noroc”, „Enigma Otiliei”
+- d. „Baltagul”, „Mara”, „Maitreyi”
+
+> [!success]- Răspuns
+> **a. „Moromeții”, „Leoaică tânără, iubirea”, „Iona”**
+> 
+> Ele acoperă genul narativ, liric și dramatic postbelic.
+
+### 73. Un termen de teorie literară folosit greșit:
 
 - a. se sancționează mai aspru decât absența lui
 - b. nu influențează punctajul
@@ -585,7 +885,379 @@ cssclasses: test
 > 
 > Precizia conceptelor este criteriu de evaluare.
 
-### 49. Norma actuală cere scrierea:
+### 74. Focalizarea zero înseamnă că naratorul:
+
+- a. știe mai mult decât personajele
+- b. vede doar prin ochii unui personaj
+- c. înregistrează doar comportamentele
+- d. lipsește din text
+
+> [!success]- Răspuns
+> **a. știe mai mult decât personajele**
+> 
+> Este perspectiva omniscientă.
+
+### 75. Modurile de expunere din textul epic sunt:
+
+- a. narațiunea, descrierea, dialogul și monologul
+- b. rima, ritmul și măsura
+- c. actul, scena și tabloul
+- d. ipoteza, argumentele și concluzia
+
+> [!success]- Răspuns
+> **a. narațiunea, descrierea, dialogul și monologul**
+> 
+> Ele organizează prezentarea faptelor.
+
+### 76. Mărcile eului liric și prozodia se analizează la:
+
+- a. textul liric
+- b. textul narativ
+- c. textul dramatic
+- d. textul nonliterar
+
+> [!success]- Răspuns
+> **a. textul liric**
+> 
+> În textul dramatic naratorul lipsește.
+
+### 77. Punctajul de redactare se pierde cel mai des prin:
+
+- a. greșeli de ortografie și de punctuație
+- b. alegerea operei
+- c. lungimea eseului
+- d. numărul de citate
+
+> [!success]- Răspuns
+> **a. greșeli de ortografie și de punctuație**
+> 
+> El poate însemna până la o zecime din notă.
+
+### 78. Un eseu structurat corect are:
+
+- a. introducere, cuprins paragrafat și încheiere
+- b. doar un cuprins continuu
+- c. o listă de idei
+- d. un rezumat al operei
+
+> [!success]- Răspuns
+> **a. introducere, cuprins paragrafat și încheiere**
+> 
+> Fiecare paragraf susține o idee prin text.
+
+### 79. Ultimul control înainte de predare verifică:
+
+- a. dacă s-a răspuns exact la ce s-a cerut
+- b. numărul de pagini
+- c. frumusețea scrisului
+- d. numărul de citate
+
+> [!success]- Răspuns
+> **a. dacă s-a răspuns exact la ce s-a cerut**
+> 
+> Cerința se recitește după terminarea răspunsului.
+
+### 80. Dacă timpul se apropie de final și un eseu nu e terminat:
+
+- a. se scrie în continuare, fie și schematic, pentru punctele parțiale
+- b. se renunță la el
+- c. se rescrie de la început
+- d. se înlocuiește cu un rezumat
+
+> [!success]- Răspuns
+> **a. se scrie în continuare, fie și schematic, pentru punctele parțiale**
+> 
+> Un eseu parțial aduce puncte; unul neînceput, niciunul.
+
+### 81. Trăsătura „personaj excepțional în situații excepționale” aparține:
+
+- a. romantismului
+- b. realismului
+- c. clasicismului
+- d. naturalismului
+
+> [!success]- Răspuns
+> **a. romantismului**
+> 
+> Realismul preferă personajele tipice în împrejurări tipice.
+
+### 82. Naratorul obiectiv, omniscient, la persoana a III-a este marca:
+
+- a. realismului
+- b. romantismului
+- c. simbolismului
+- d. neomodernismului
+
+> [!success]- Răspuns
+> **a. realismului**
+> 
+> „Ion” și „Enigma Otiliei” îl ilustrează.
+
+### 83. Trăsătura „metafora insolită și reflecția asupra limbajului” aparține:
+
+- a. neomodernismului
+- b. realismului
+- c. tradiționalismului
+- d. clasicismului
+
+> [!success]- Răspuns
+> **a. neomodernismului**
+> 
+> Nichita Stănescu este reprezentativ.
+
+### 84. „Alexandru Lăpușneanul” este, ca specie:
+
+- a. o nuvelă istorică
+- b. o nuvelă psihologică
+- c. un basm cult
+- d. o povestire
+
+> [!success]- Răspuns
+> **a. o nuvelă istorică**
+> 
+> „Moara cu noroc” este, în schimb, o nuvelă psihologică.
+
+### 85. Focalizarea zero înseamnă că naratorul:
+
+- a. știe mai mult decât personajele
+- b. vede doar prin ochii unui personaj
+- c. înregistrează doar comportamentele
+- d. lipsește din text
+
+> [!success]- Răspuns
+> **a. știe mai mult decât personajele**
+> 
+> Este perspectiva omniscientă.
+
+### 86. Recitirea lucrării ajută în primul rând la:
+
+- a. recuperarea punctelor de redactare
+- b. schimbarea structurii eseului
+- c. adăugarea de citate
+- d. prelungirea textului
+
+> [!success]- Răspuns
+> **a. recuperarea punctelor de redactare**
+> 
+> Ortografia și acordul se corectează cel mai ușor la final.
+
+### 87. Punctajul subiectului I la proba de română este:
+
+- a. 50 de puncte
+- b. 30 de puncte
+- c. 20 de puncte
+- d. 10 puncte
+
+> [!success]- Răspuns
+> **a. 50 de puncte**
+> 
+> Subiectul al III-lea valorează 30 de puncte.
+
+### 88. Textul-suport de la subiectul I este:
+
+- a. un text la prima vedere
+- b. o operă studiată
+- c. un fragment memorat
+- d. un text din manual
+
+> [!success]- Răspuns
+> **a. un text la prima vedere**
+> 
+> De aceea contează metoda, nu memorarea.
+
+### 89. Punctele de redactare se pierd cel mai des prin:
+
+- a. greșeli de ortografie și de punctuație
+- b. lipsa citatelor
+- c. lungimea eseului
+- d. alegerea operei
+
+> [!success]- Răspuns
+> **a. greșeli de ortografie și de punctuație**
+> 
+> Ele pot însemna până la o zecime din notă.
+
+### 90. La cerința „explică rolul epitetului” trebuie:
+
+- a. arătat ce sugerează epitetul în context
+- b. doar numită figura
+- c. indicat versul
+- d. dată o definiție
+
+> [!success]- Răspuns
+> **a. arătat ce sugerează epitetul în context**
+> 
+> Identificarea singură nu se punctează integral.
+
+### 91. Compunerea de la subiectul I are structura:
+
+- a. ipoteză, argumente cu exemple, concluzie
+- b. introducere, cuprins, rezumat
+- c. expozițiune, intrigă, deznodământ
+- d. temă, motive, mesaj
+
+> [!success]- Răspuns
+> **a. ipoteză, argumente cu exemple, concluzie**
+> 
+> Limita de cuvinte este ea însăși punctată.
+
+### 92. Introducerea unui eseu despre temă și viziune cuprinde:
+
+- a. încadrarea în curent, cu trăsături ilustrate, plus autor, operă, an
+- b. rezumatul operei
+- c. caracterizarea personajului principal
+- d. prezentarea biografiei autorului
+
+> [!success]- Răspuns
+> **a. încadrarea în curent, cu trăsături ilustrate, plus autor, operă, an**
+> 
+> Trăsăturile trebuie regăsite în text.
+
+### 93. Cele două secvențe alese pentru eseu trebuie:
+
+- a. analizate, nu rezumate
+- b. să acopere toată acțiunea
+- c. să fie primele două capitole
+- d. să conțină dialog
+
+> [!success]- Răspuns
+> **a. analizate, nu rezumate**
+> 
+> Analiza aduce punctele, nu povestirea.
+
+### 94. Afirmația „din faptele lui reiese că e lacom” este caracterizare:
+
+- a. indirectă
+- b. directă
+- c. prin autocaracterizare
+- d. prin didascalii
+
+> [!success]- Răspuns
+> **a. indirectă**
+> 
+> Directă înseamnă afirmație explicită.
+
+### 95. La eseul despre relația dintre două personaje se cere:
+
+- a. analiza raportului dintre ele
+- b. caracterizarea separată a fiecăruia
+- c. rezumatul scenelor comune
+- d. compararea cu alte opere
+
+> [!success]- Răspuns
+> **a. analiza raportului dintre ele**
+> 
+> Trebuie arătat ce se schimbă în fiecare din cauza celuilalt.
+
+### 96. Mărcile eului liric se analizează la eseul despre:
+
+- a. textul liric
+- b. textul narativ
+- c. textul dramatic
+- d. textul argumentativ
+
+> [!success]- Răspuns
+> **a. textul liric**
+> 
+> Ele semnalează vocea care exprimă trăirea.
+
+### 97. Sursele comicului sunt element de analiză pentru:
+
+- a. comedie
+- b. tragedie
+- c. roman
+- d. pastel
+
+> [!success]- Răspuns
+> **a. comedie**
+> 
+> Ele includ comicul de situație, de caracter, de limbaj, de nume.
+
+### 98. Un termen de teorie literară folosit greșit:
+
+- a. se sancționează mai aspru decât absența lui
+- b. nu influențează punctajul
+- c. se punctează parțial
+- d. se ignoră
+
+> [!success]- Răspuns
+> **a. se sancționează mai aspru decât absența lui**
+> 
+> Precizia conceptelor este criteriu de evaluare.
+
+### 99. Într-un eseu despre un curent, fiecare trăsătură trebuie:
+
+- a. ilustrată printr-un element concret din text
+- b. doar enumerată
+- c. definită teoretic
+- d. comparată cu alt curent
+
+> [!success]- Răspuns
+> **a. ilustrată printr-un element concret din text**
+> 
+> Afirmațiile neilustrate nu se punctează.
+
+### 100. Structura textului argumentativ este:
+
+- a. ipoteză, argumente cu exemple, concluzie
+- b. introducere, cuprins, rezumat
+- c. expozițiune, intrigă, deznodământ
+- d. temă, motive, mesaj
+
+> [!success]- Răspuns
+> **a. ipoteză, argumente cu exemple, concluzie**
+> 
+> Fiecare argument are nevoie de un exemplu concret.
+
+### 101. Comedia de moravuri, cu „O scrisoare pierdută” ca model, este specia lui:
+
+- a. I. L. Caragiale
+- b. Ion Creangă
+- c. Mihai Eminescu
+- d. Ioan Slavici
+
+> [!success]- Răspuns
+> **a. I. L. Caragiale**
+> 
+> El este cel mai mare dramaturg român.
+
+### 102. „Eu nu strivesc corola de minuni a lumii” aparține lui:
+
+- a. Lucian Blaga
+- b. Tudor Arghezi
+- c. Ion Barbu
+- d. George Bacovia
+
+> [!success]- Răspuns
+> **a. Lucian Blaga**
+> 
+> Ea exprimă filozofia misterului.
+
+### 103. „Moromeții” și „Cel mai iubit dintre pământeni” aparțin lui:
+
+- a. Marin Preda
+- b. Nichita Stănescu
+- c. Marin Sorescu
+- d. Mihail Sadoveanu
+
+> [!success]- Răspuns
+> **a. Marin Preda**
+> 
+> El este marele prozator postbelic.
+
+### 104. Cele trei opere-cheie postbelice recomandate pentru examen sunt:
+
+- a. „Moromeții”, „Leoaică tânără, iubirea”, „Iona”
+- b. „Ion”, „Plumb”, „Testament”
+- c. „Luceafărul”, „Moara cu noroc”, „Baltagul”
+- d. „Mara”, „Maitreyi”, „Enigma Otiliei”
+
+> [!success]- Răspuns
+> **a. „Moromeții”, „Leoaică tânără, iubirea”, „Iona”**
+> 
+> Ele acoperă genul narativ, liric și dramatic postbelic.
+
+### 105. Norma actuală cere scrierea:
 
 - a. „neînțeles”, cu „î” după prefix
 - b. „neânțeles”
@@ -597,7 +1269,7 @@ cssclasses: test
 > 
 > Derivatele cu prefix păstrează „î” inițial al cuvântului de bază.
 
-### 50. Virgula NU se pune:
+### 106. Virgula NU se pune:
 
 - a. între subiect și predicat
 - b. la enumerații
@@ -609,7 +1281,7 @@ cssclasses: test
 > 
 > Este una dintre cele mai frecvente greșeli de punctuație.
 
-### 51. „Aniversarea a 20 de ani” este:
+### 107. „Aniversarea a 20 de ani” este:
 
 - a. un pleonasm
 - b. un anacolut
@@ -621,7 +1293,7 @@ cssclasses: test
 > 
 > „A aniversa” conține deja ideea de ani împliniți.
 
-### 52. Anacolutul înseamnă:
+### 108. Anacolutul înseamnă:
 
 - a. ruperea construcției sintactice începute
 - b. repetarea inutilă a informației
@@ -633,7 +1305,7 @@ cssclasses: test
 > 
 > Exemplu: „Eu, când am ajuns, mi s-a spus că...”.
 
-### 53. „Eminent” și „iminent” sunt:
+### 109. „Eminent” și „iminent” sunt:
 
 - a. paronime
 - b. omonime
@@ -645,7 +1317,7 @@ cssclasses: test
 > 
 > Confuzia lor schimbă complet sensul enunțului.
 
-### 54. „A face sens” este:
+### 110. „A face sens” este:
 
 - a. un calc greșit după engleză
 - b. o expresie corectă
@@ -657,7 +1329,7 @@ cssclasses: test
 > 
 > Forma corectă este „a avea sens”.
 
-### 55. Un barbarism este:
+### 111. Un barbarism este:
 
 - a. un împrumut nejustificat, când există termen românesc
 - b. un cuvânt vechi
@@ -669,7 +1341,7 @@ cssclasses: test
 > 
 > De exemplu „a aplica pentru un job”.
 
-### 56. „Baltagul” aparține lui:
+### 112. „Baltagul” aparține lui:
 
 - a. Mihail Sadoveanu
 - b. Liviu Rebreanu
@@ -681,7 +1353,7 @@ cssclasses: test
 > 
 > Romanul valorifică mitul mioritic.
 
-### 57. „Jocul ielelor” este:
+### 113. „Jocul ielelor” este:
 
 - a. o dramă de idei de Camil Petrescu
 - b. o comedie de Caragiale
@@ -693,7 +1365,7 @@ cssclasses: test
 > 
 > Personajul principal este stăpânit de o idee absolută.
 
-### 58. Strategia recomandată de pregătire este:
+### 114. Strategia recomandată de pregătire este:
 
 - a. câteva opere stăpânite temeinic, folosibile la mai multe cerințe
 - b. memorarea tuturor titlurilor
@@ -705,7 +1377,7 @@ cssclasses: test
 > 
 > Aceeași operă poate servi mai multor tipuri de eseu.
 
-### 59. Recitirea lucrării servește mai ales la:
+### 115. Recitirea lucrării servește mai ales la:
 
 - a. recuperarea punctelor de redactare
 - b. adăugarea de citate
@@ -717,7 +1389,7 @@ cssclasses: test
 > 
 > Ortografia și acordul se corectează cel mai ușor la final.
 
-### 60. Dacă timpul se termină și eseul e neterminat:
+### 116. Dacă timpul se termină și eseul e neterminat:
 
 - a. se continuă, fie și schematic, pentru punctele parțiale
 - b. se renunță

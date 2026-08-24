@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Elemente de geometrie analitică
 
-[[Matematică (clasa a IX-a)|Matematică]] · [[Clasa a IX-a]] · lecția 9 din 9
+[[Matematică (clasa a IX-a)|Matematică]] · [[Clasa a IX-a]] · lecția 9 din 18
 
 **Capitolul:** Trigonometrie și vectori — semestrul 2
 
@@ -29,6 +29,6 @@ Geometria analitică traduce figurile în ecuații. Distanța dintre două punct
 
 ---
 
-⬅ [[Vectori în plan]]
+⬅ [[Vectori în plan]] · [[Propoziții și operații logice]] ➡
 
 Exersează: [[Carduri - Matematică (clasa a IX-a)]] · [[Test - Matematică (clasa a IX-a)]]

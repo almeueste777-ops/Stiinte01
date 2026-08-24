@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — ȘTIAM (științe integrate) (clasa a XI-a)
 
-54 întrebări din [[ȘTIAM (științe integrate) (clasa a XI-a)|ȘTIAM (științe integrate) (clasa a XI-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+94 întrebări din [[ȘTIAM (științe integrate) (clasa a XI-a)|ȘTIAM (științe integrate) (clasa a XI-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. O ipoteză care se potrivește cu orice rezultat posibil:
 
@@ -441,7 +441,415 @@ cssclasses: test
 > 
 > Selecția acționează asupra ei.
 
-### 37. O ipoteză științifică trebuie:
+### 37. Numărul atomic al unui element este dat de:
+
+- a. numărul de protoni
+- b. numărul de neutroni
+- c. numărul de molecule
+- d. masa în grame
+
+> [!success]- Răspuns
+> **a. numărul de protoni**
+> 
+> El identifică elementul.
+
+### 38. Legătura din NaCl (sarea de bucătărie) este:
+
+- a. ionică
+- b. covalentă
+- c. metalică
+- d. inexistentă
+
+> [!success]- Răspuns
+> **a. ionică**
+> 
+> Se transferă un electron.
+
+### 39. O substanță compusă:
+
+- a. conține mai multe elemente
+- b. conține un singur element
+- c. e mereu gazoasă
+- d. nu are molecule
+
+> [!success]- Răspuns
+> **a. conține mai multe elemente**
+> 
+> Apa (H₂O) e un exemplu.
+
+### 40. Tabelul periodic ordonează elementele după:
+
+- a. numărul atomic
+- b. culoare
+- c. masa în kilograme
+- d. ordine alfabetică
+
+> [!success]- Răspuns
+> **a. numărul atomic**
+> 
+> Grupele au proprietăți asemănătoare.
+
+### 41. Într-o reacție chimică, masa totală:
+
+- a. se păstrează
+- b. crește
+- c. scade
+- d. dispare
+
+> [!success]- Răspuns
+> **a. se păstrează**
+> 
+> Atomii se rearanjează, nu se pierd.
+
+### 42. Arderea este o reacție:
+
+- a. exotermă
+- b. endotermă
+- c. fără schimb de energie
+- d. nucleară
+
+> [!success]- Răspuns
+> **a. exotermă**
+> 
+> Ea eliberează energie.
+
+### 43. Fotosinteza este o reacție:
+
+- a. endotermă (absoarbe energie)
+- b. exotermă
+- c. fără reactanți
+- d. fizică, nu chimică
+
+> [!success]- Răspuns
+> **a. endotermă (absoarbe energie)**
+> 
+> Folosește energia luminii.
+
+### 44. Un catalizator:
+
+- a. grăbește reacția fără a se consuma
+- b. oprește reacția
+- c. se consumă complet
+- d. schimbă masa totală
+
+> [!success]- Răspuns
+> **a. grăbește reacția fără a se consuma**
+> 
+> Scade energia necesară.
+
+### 45. O soluție (amestec omogen) este:
+
+- a. apa sărată
+- b. apa cu nisip
+- c. granitul
+- d. un amestec de pietre
+
+> [!success]- Răspuns
+> **a. apa sărată**
+> 
+> Are aceeași compoziție peste tot.
+
+### 46. Substanța care dizolvă, într-o soluție, este:
+
+- a. solventul
+- b. solvatul
+- c. precipitatul
+- d. catalizatorul
+
+> [!success]- Răspuns
+> **a. solventul**
+> 
+> Solvatul e cel dizolvat.
+
+### 47. Pentru a separa solidul de lichid se folosește:
+
+- a. filtrarea
+- b. distilarea
+- c. arderea
+- d. topirea
+
+> [!success]- Răspuns
+> **a. filtrarea**
+> 
+> Distilarea separă lichide.
+
+### 48. Separarea unui amestec se face, de regulă, prin:
+
+- a. metode fizice
+- b. reacții chimice obligatoriu
+- c. schimbarea atomilor
+- d. ardere
+
+> [!success]- Răspuns
+> **a. metode fizice**
+> 
+> Componentele își păstrează proprietățile.
+
+### 49. Principiul conservării energiei spune că energia:
+
+- a. se transformă, nu se creează sau distruge
+- b. apare din nimic
+- c. dispare complet
+- d. scade mereu la zero
+
+> [!success]- Răspuns
+> **a. se transformă, nu se creează sau distruge**
+> 
+> Ea trece dintr-o formă în alta.
+
+### 50. Energia mișcării se numește:
+
+- a. cinetică
+- b. potențială
+- c. chimică
+- d. nucleară
+
+> [!success]- Răspuns
+> **a. cinetică**
+> 
+> Cea a poziției e potențială.
+
+### 51. La o cascadă, energia potențială a apei devine:
+
+- a. cinetică
+- b. chimică
+- c. luminoasă
+- d. nucleară
+
+> [!success]- Răspuns
+> **a. cinetică**
+> 
+> Apoi poate roti o turbină.
+
+### 52. O sursă de energie regenerabilă este:
+
+- a. energia solară
+- b. cărbunele
+- c. petrolul
+- d. gazul natural
+
+> [!success]- Răspuns
+> **a. energia solară**
+> 
+> Eoliana și hidro sunt tot regenerabile.
+
+### 53. Sunetul este o undă:
+
+- a. mecanică (are nevoie de mediu)
+- b. electromagnetică
+- c. luminoasă
+- d. care se propagă în vid
+
+> [!success]- Răspuns
+> **a. mecanică (are nevoie de mediu)**
+> 
+> De aceea nu se aude în vid.
+
+### 54. Lumina se propagă și în vid pentru că este o undă:
+
+- a. electromagnetică
+- b. mecanică
+- c. sonoră
+- d. seismică
+
+> [!success]- Răspuns
+> **a. electromagnetică**
+> 
+> Cu circa 300 000 km/s.
+
+### 55. Întoarcerea luminii de pe o suprafață se numește:
+
+- a. reflexie
+- b. refracție
+- c. difuzie
+- d. absorbție
+
+> [!success]- Răspuns
+> **a. reflexie**
+> 
+> Refracția e schimbarea direcției.
+
+### 56. Înălțimea unui sunet (înalt sau grav) e dată de:
+
+- a. frecvență
+- b. amplitudine
+- c. viteză
+- d. culoare
+
+> [!success]- Răspuns
+> **a. frecvență**
+> 
+> Amplitudinea dă intensitatea.
+
+### 57. Ordinea nivelurilor de organizare este:
+
+- a. celulă → țesut → organ → sistem
+- b. organ → celulă → sistem
+- c. sistem → celulă → țesut
+- d. țesut → sistem → celulă
+
+> [!success]- Răspuns
+> **a. celulă → țesut → organ → sistem**
+> 
+> De la simplu la complex.
+
+### 58. Homeostazia înseamnă:
+
+- a. menținerea unui mediu intern stabil
+- b. creșterea necontrolată
+- c. oprirea metabolismului
+- d. lipsa reacției la mediu
+
+> [!success]- Răspuns
+> **a. menținerea unui mediu intern stabil**
+> 
+> Se realizează prin reglare.
+
+### 59. O trăsătură comună tuturor viețuitoarelor este:
+
+- a. sunt alcătuite din celule
+- b. au frunze
+- c. trăiesc în apă
+- d. nu folosesc energie
+
+> [!success]- Răspuns
+> **a. sunt alcătuite din celule**
+> 
+> Toate folosesc energie (metabolism).
+
+### 60. Feedbackul negativ:
+
+- a. corectează o abatere de la echilibru
+- b. amplifică abaterea
+- c. oprește organismul
+- d. e specific plantelor
+
+> [!success]- Răspuns
+> **a. corectează o abatere de la echilibru**
+> 
+> Menține valorile în limite.
+
+### 61. Producătorii dintr-un ecosistem sunt, de regulă:
+
+- a. plantele (prin fotosinteză)
+- b. carnivorele
+- c. descompunătorii
+- d. ierbivorele
+
+> [!success]- Răspuns
+> **a. plantele (prin fotosinteză)**
+> 
+> Ele aduc energia în sistem.
+
+### 62. Într-un lanț trofic, la fiecare treaptă:
+
+- a. o mare parte din energie se pierde ca și căldură
+- b. energia crește
+- c. materia dispare
+- d. nu se schimbă nimic
+
+> [!success]- Răspuns
+> **a. o mare parte din energie se pierde ca și căldură**
+> 
+> De aceea lanțurile au puține verigi.
+
+### 63. Materia, într-un ecosistem:
+
+- a. se reciclează în cicluri
+- b. curge într-un singur sens
+- c. dispare la descompunere
+- d. se creează din nimic
+
+> [!success]- Răspuns
+> **a. se reciclează în cicluri**
+> 
+> Ciclul apei, al carbonului, al azotului.
+
+### 64. Descompunătorii (bacterii, ciuperci):
+
+- a. reciclează materia din organismele moarte
+- b. produc energie prin fotosinteză
+- c. sunt consumatori primari
+- d. nu au rol în ecosistem
+
+> [!success]- Răspuns
+> **a. reciclează materia din organismele moarte**
+> 
+> Închid ciclul materiei.
+
+### 65. Numărul atomic al unui element este dat de:
+
+- a. numărul de protoni
+- b. numărul de neutroni
+- c. masa în grame
+- d. numărul de molecule
+
+> [!success]- Răspuns
+> **a. numărul de protoni**
+> 
+> El identifică elementul.
+
+### 66. Într-o reacție chimică, masa totală:
+
+- a. se păstrează
+- b. crește
+- c. scade
+- d. dispare
+
+> [!success]- Răspuns
+> **a. se păstrează**
+> 
+> Atomii se rearanjează.
+
+### 67. O soluție (amestec omogen) este:
+
+- a. apa sărată
+- b. apa cu nisip
+- c. granitul
+- d. un amestec de pietriș
+
+> [!success]- Răspuns
+> **a. apa sărată**
+> 
+> Are compoziție uniformă.
+
+### 68. Principiul conservării energiei spune că energia:
+
+- a. se transformă, nu se creează sau distruge
+- b. apare din nimic
+- c. dispare complet
+- d. scade la zero
+
+> [!success]- Răspuns
+> **a. se transformă, nu se creează sau distruge**
+> 
+> Trece dintr-o formă în alta.
+
+### 69. Arderea este o reacție:
+
+- a. exotermă (eliberează energie)
+- b. endotermă
+- c. fără schimb de energie
+- d. nucleară
+
+> [!success]- Răspuns
+> **a. exotermă (eliberează energie)**
+> 
+> Fotosinteza e endotermă.
+
+### 70. Pentru a separa solidul de lichid se folosește:
+
+- a. filtrarea
+- b. distilarea
+- c. arderea
+- d. topirea
+
+> [!success]- Răspuns
+> **a. filtrarea**
+> 
+> Distilarea separă lichide.
+
+### 71. O ipoteză științifică trebuie:
 
 - a. să poată fi contrazisă de date
 - b. să fie confirmată de orice rezultat
@@ -453,7 +861,7 @@ cssclasses: test
 > 
 > Testabilitatea e criteriul de bază.
 
-### 38. Grupul de control serveste la:
+### 72. Grupul de control serveste la:
 
 - a. compararea rezultatelor și izolarea efectului studiat
 - b. creșterea numărului de subiecți
@@ -465,7 +873,7 @@ cssclasses: test
 > 
 > Fără el efectul nu se poate atribui.
 
-### 39. O eroare sistematică:
+### 73. O eroare sistematică:
 
 - a. deplasează toate măsurătorile în aceeași direcție
 - b. se împrăștie aleator
@@ -477,7 +885,7 @@ cssclasses: test
 > 
 > Vine dintr-un instrument sau o metodă greșită.
 
-### 40. Sistemul Internațional are:
+### 74. Sistemul Internațional are:
 
 - a. șapte mărimi fundamentale
 - b. cinci mărimi
@@ -489,7 +897,7 @@ cssclasses: test
 > 
 > Restul sunt derivate.
 
-### 41. Un model este:
+### 75. Un model este:
 
 - a. o reprezentare simplificată, adecvată unui scop
 - b. o copie exactă a realității
@@ -501,7 +909,7 @@ cssclasses: test
 > 
 > Simplificarea e deliberată.
 
-### 42. Mecanica newtoniană eșuează:
+### 76. Mecanica newtoniană eșuează:
 
 - a. la viteze apropiate de cea a luminii
 - b. la mișcările obișnuite
@@ -513,7 +921,7 @@ cssclasses: test
 > 
 > Fiecare model are un domeniu de valabilitate.
 
-### 43. Energia latentă este schimbată:
+### 77. Energia latentă este schimbată:
 
 - a. la o tranziție de stare, fără schimbarea temperaturii
 - b. la creșterea temperaturii
@@ -525,7 +933,7 @@ cssclasses: test
 > 
 > De aceea transpirația răcorește.
 
-### 44. Randamentul oricărei transformări energetice reale este:
+### 78. Randamentul oricărei transformări energetice reale este:
 
 - a. subunitar
 - b. egal cu 1
@@ -537,7 +945,7 @@ cssclasses: test
 > 
 > Pierderile termice sunt inevitabile.
 
-### 45. Radiațiile ionizante încep, în spectru, de la:
+### 79. Radiațiile ionizante încep, în spectru, de la:
 
 - a. ultraviolet în sus
 - b. undele radio
@@ -549,7 +957,79 @@ cssclasses: test
 > 
 > Au energie suficientă pentru a smulge electroni.
 
-### 46. Sistemul Pământ cuprinde:
+### 80. Sunetul este o undă:
+
+- a. mecanică (are nevoie de mediu)
+- b. electromagnetică
+- c. care se propagă în vid
+- d. luminoasă
+
+> [!success]- Răspuns
+> **a. mecanică (are nevoie de mediu)**
+> 
+> De aceea nu se aude în vid.
+
+### 81. Lumina se propagă și în vid pentru că e o undă:
+
+- a. electromagnetică
+- b. mecanică
+- c. sonoră
+- d. seismică
+
+> [!success]- Răspuns
+> **a. electromagnetică**
+> 
+> Cu circa 300 000 km/s.
+
+### 82. Homeostazia înseamnă:
+
+- a. menținerea unui mediu intern stabil
+- b. creșterea necontrolată
+- c. oprirea metabolismului
+- d. lipsa reacției
+
+> [!success]- Răspuns
+> **a. menținerea unui mediu intern stabil**
+> 
+> Prin reglare (feedback negativ).
+
+### 83. Producătorii dintr-un ecosistem sunt:
+
+- a. plantele
+- b. carnivorele
+- c. descompunătorii
+- d. ierbivorele
+
+> [!success]- Răspuns
+> **a. plantele**
+> 
+> Ele aduc energia prin fotosinteză.
+
+### 84. Materia, într-un ecosistem:
+
+- a. se reciclează în cicluri
+- b. curge într-un singur sens
+- c. dispare la descompunere
+- d. se creează din nimic
+
+> [!success]- Răspuns
+> **a. se reciclează în cicluri**
+> 
+> Energia, în schimb, curge într-un sens.
+
+### 85. Ordinea nivelurilor de organizare a organismului este:
+
+- a. celulă → țesut → organ → sistem
+- b. sistem → organ → celulă
+- c. organ → sistem → celulă
+- d. țesut → celulă → organ
+
+> [!success]- Răspuns
+> **a. celulă → țesut → organ → sistem**
+> 
+> De la simplu la complex.
+
+### 86. Sistemul Pământ cuprinde:
 
 - a. litosfera, hidrosfera, atmosfera și biosfera
 - b. doar litosfera și atmosfera
@@ -561,7 +1041,7 @@ cssclasses: test
 > 
 > Toate interacționează.
 
-### 47. Tectonica plăcilor este alimentată de:
+### 87. Tectonica plăcilor este alimentată de:
 
 - a. căldura internă a Pământului
 - b. radiația solară
@@ -573,7 +1053,7 @@ cssclasses: test
 > 
 > Radiația solară alimentează clima și viața.
 
-### 48. În sistemul Pământ, materia:
+### 88. În sistemul Pământ, materia:
 
 - a. circulă în cicluri
 - b. se pierde treptat
@@ -585,7 +1065,7 @@ cssclasses: test
 > 
 > Energia, în schimb, curge și se disipează.
 
-### 49. Confuzia dintre vreme și climă produce:
+### 89. Confuzia dintre vreme și climă produce:
 
 - a. argumente false despre schimbările climatice
 - b. măsurători mai precise
@@ -597,7 +1077,7 @@ cssclasses: test
 > 
 > Clima se măsoară pe decenii.
 
-### 50. Efectul de seră natural:
+### 90. Efectul de seră natural:
 
 - a. face planeta locuibilă
 - b. este cauza încălzirii actuale, prin simpla existență
@@ -609,7 +1089,7 @@ cssclasses: test
 > 
 > Problema e intensificarea lui.
 
-### 51. Convergența dovezilor din surse independente:
+### 91. Convergența dovezilor din surse independente:
 
 - a. întărește concluzia științifică
 - b. o slăbește
@@ -621,7 +1101,7 @@ cssclasses: test
 > 
 > Carote de gheață, inele de creștere, măsurători directe.
 
-### 52. Emergența înseamnă:
+### 92. Emergența înseamnă:
 
 - a. apariția unor proprietăți noi la un nivel superior de organizare
 - b. dispariția unor proprietăți
@@ -633,7 +1113,7 @@ cssclasses: test
 > 
 > O celulă e vie, moleculele ei nu.
 
-### 53. Homeostazia se realizează, mai ales, prin:
+### 93. Homeostazia se realizează, mai ales, prin:
 
 - a. bucle de reglare negative
 - b. bucle pozitive
@@ -645,7 +1125,7 @@ cssclasses: test
 > 
 > Ele readuc parametrii la normal.
 
-### 54. Ecosistemele au praguri dincolo de care:
+### 94. Ecosistemele au praguri dincolo de care:
 
 - a. schimbarea devine ireversibilă
 - b. revin singure la echilibru

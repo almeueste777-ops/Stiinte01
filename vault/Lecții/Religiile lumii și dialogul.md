@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Religiile lumii și dialogul
 
-[[Religie (clasa a XI-a)|Religie]] · [[Clasa a XI-a]] · lecția 9 din 9
+[[Religie (clasa a XI-a)|Religie]] · [[Clasa a XI-a]] · lecția 9 din 18
 
 **Capitolul:** Creștinismul, cultura și lumea — semestrul 2
 
@@ -29,6 +29,6 @@ Marile religii ale lumii se împart, în mod obișnuit, în religii avraamice �
 
 ---
 
-⬅ [[Credință, rațiune, știință]]
+⬅ [[Credință, rațiune, știință]] · [[Laudele bisericești]] ➡
 
 Exersează: [[Carduri - Religie (clasa a XI-a)]] · [[Test - Religie (clasa a XI-a)]]

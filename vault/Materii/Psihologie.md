@@ -14,7 +14,7 @@ cssclasses: fisa
 
 ## Anii de studiu
 
-- [[Psihologie (clasa a X-a)|Clasa a X-a]] — 16 lecții, 64 carduri, 88 întrebări
+- [[Psihologie (clasa a X-a)|Clasa a X-a]] — 24 lecții, 96 carduri, 132 întrebări
 
 ## Legături
 - [[00 Start aici]]

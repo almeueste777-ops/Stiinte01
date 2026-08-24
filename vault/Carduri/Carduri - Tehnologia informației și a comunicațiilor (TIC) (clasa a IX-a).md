@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)
 
-36 carduri pentru [[Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)|Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+64 carduri pentru [[Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)|Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/tehnologia-informatiei-si-a-comunicatiilor-tic
 
@@ -82,6 +82,62 @@ Ce precizează o licență Creative Commons?::Condițiile de reutilizare: atribu
 Care sunt pașii verificării unei informații?::Sursa primară, autorul, data, confirmarea din surse independente, căutarea inversă de imagini.
 
 Cum se răspunde corect la cyberbullying?::Documentând, raportând în platformă, cerând ajutorul unui adult, nu răspunzând în același registru.
+
+Ce este un bit?::Cea mai mică unitate de informație, cu valoarea 0 sau 1.
+
+Câte valori se pot reprezenta cu opt biți?::256, adică 2 la puterea 8, de la 0 la 255.
+
+În ce bază lucrează sistemul binar?::În baza 2.
+
+Cât face numărul binar 1011 în zecimal?::11 (8 + 0 + 2 + 1).
+
+Ce este un pixel?::Cel mai mic punct colorat dintr-o imagine raster.
+
+Ce standard acoperă diacriticele și emoji?::Unicode, cu codificarea UTF-8.
+
+Ce înseamnă modelul RGB?::Combinarea a trei culori: roșu, verde și albastru.
+
+Cum se digitizează sunetul?::Prin eșantionare (măsurare la intervale regulate) și cuantizare.
+
+Ce este un driver?::Programul care permite sistemului de operare să comunice cu un dispozitiv.
+
+Ce port transmite imagine și sunet către un monitor?::HDMI.
+
+Ce conexiune fără fir se folosește pentru căști și mouse?::Bluetooth.
+
+Dă un exemplu de periferic de intrare-ieșire.::Ecranul tactil sau imprimanta multifuncțională.
+
+La ce distanță și înălțime se așază monitorul?::La distanța unui braț și la nivelul ochilor.
+
+Ce spune regula 20-20-20?::La 20 de minute, privește 20 de secunde un obiect aflat la circa 20 de pași.
+
+De ce se evită ecranele înainte de somn?::Pentru că lumina albastră îngreunează adormirea.
+
+Este eficientă comutarea permanentă între sarcini?::Nu; lucrul concentrat pe o singură sarcină este mai eficient.
+
+Ce face arhivarea unui folder?::Îl comprimă într-un singur fișier, mai mic și mai ușor de transferat.
+
+Ce spune regula 3-2-1 a copiilor de siguranță?::Trei copii, pe două suporturi, una într-o locație separată.
+
+De ce se pune data în format an-lună-zi în numele fișierelor?::Pentru ca sortarea alfabetică să le ordoneze și cronologic.
+
+Protejează o copie păstrată lângă original împotriva furtului?::Nu; de aceea o copie se ține într-o altă locație.
+
+Când se folosește un tabel?::Pentru date comparabile, organizate pe rânduri și coloane.
+
+Ce avantaj are numerotarea automată a listelor?::Se actualizează singură când se adaugă sau se șterg elemente.
+
+Când se preferă o listă ordonată?::Când elementele se succed într-o ordine logică.
+
+La ce folosește rândul de antet repetat?::Ajută citirea tabelelor întinse pe mai multe pagini.
+
+La ce folosește textul alternativ al unei imagini?::Descrie imaginea pentru cititoarele de ecran, sprijinind accesibilitatea.
+
+Cum se redimensionează o imagine fără a o deforma?::Trăgând de un colț, ca să se păstreze proporțiile.
+
+Ce format e potrivit pentru fotografii?::JPEG.
+
+Ce format e potrivit pentru desene și capturi de ecran?::PNG.
 
 ---
 

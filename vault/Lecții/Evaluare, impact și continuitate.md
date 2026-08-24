@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Evaluare, impact și continuitate
 
-[[Studii sociale (clasa a XIII-a)|Studii sociale]] · [[Clasa a XIII-a]] · lecția 9 din 9
+[[Studii sociale (clasa a XIII-a)|Studii sociale]] · [[Clasa a XIII-a]] · lecția 9 din 18
 
 **Capitolul:** Proiectul civic — semestrul 2
 
@@ -29,6 +29,6 @@ Evaluarea răspunde la trei întrebări: ce s-a realizat față de ce s-a propus
 
 ---
 
-⬅ [[Planificarea și implementarea unui proiect civic]]
+⬅ [[Planificarea și implementarea unui proiect civic]] · [[Sărăcia și inegalitatea socială]] ➡
 
 Exersează: [[Carduri - Studii sociale (clasa a XIII-a)]] · [[Test - Studii sociale (clasa a XIII-a)]]

@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Religie (clasa a X-a)
 
-36 carduri pentru [[Religie (clasa a X-a)|Religie (clasa a X-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+72 carduri pentru [[Religie (clasa a X-a)|Religie (clasa a X-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/religie
 
@@ -82,6 +82,78 @@ Unde a existat o episcopie timpurie în spațiul românesc?::La Tomis, în Scyth
 Ce este donariul de la Biertan?::Un obiect de cult cu inscripție creștină, mărturie arheologică a creștinismului timpuriu.
 
 Ce rol a avut Biserica în epocile fără stat propriu?::A păstrat limba, memoria și solidaritatea comunităților.
+
+Ce înseamnă cuvântul „apostol”?::„Trimis”.
+
+Câți Apostoli a ales Iisus și la ce amintește numărul lor?::Doisprezece, amintind de cele douăsprezece seminții ale lui Israel.
+
+Care Apostol este numit „cel dintâi chemat”?::Sfântul Andrei.
+
+De ce este Sfântul Andrei cinstit ca ocrotitor al românilor?::Pentru că, potrivit tradiției, a propovăduit la nordul Dunării.
+
+Ce sunt epistolele Noului Testament?::Scrisori trimise de Apostoli comunităților sau unor persoane.
+
+Cine a scris cele mai multe epistole?::Sfântul Apostol Pavel.
+
+Sunt epistolele tratate teoretice?::Nu; sunt răspunsuri la probleme concrete ale comunităților.
+
+Unde se află imnul iubirii?::În Epistola întâi către Corinteni.
+
+Câte epistole sobornicești cuprinde Noul Testament?::Șapte.
+
+Ce învață Epistola lui Iacov despre credință?::Că fără fapte credința este moartă.
+
+În ce limbaj este scrisă Apocalipsa?::În limbaj simbolic, cu imagini și numere.
+
+Câte cărți are Noul Testament?::Douăzeci și șapte.
+
+Cine a dat rugăciunea „Tatăl nostru”?::Iisus Hristos Însuși.
+
+Câte cereri cuprinde „Tatăl nostru”?::Șapte.
+
+Ce arată cuvântul „nostru” din rugăciune?::Că ne rugăm împreună, ca frați, nu singuri.
+
+De ce condiție este legată cererea iertării?::De iertarea pe care o dăruim, la rândul nostru, greșiților noștri.
+
+Ce s-a arătat la Schimbarea la Față?::Slava dumnezeiască a lui Iisus, de obicei ascunsă.
+
+Care ucenici au fost martori?::Petru, Iacov și Ioan.
+
+Pe cine reprezintă Moise și Ilie, arătați alături de Iisus?::Legea și profeții.
+
+Când se prăznuiește Schimbarea la Față?::La 6 august.
+
+Cine este cinstită mai presus de toți sfinții?::Fecioara Maria, Maica Domnului.
+
+Este cinstirea Maicii Domnului adorare?::Nu; adorarea se cuvine numai lui Dumnezeu.
+
+Cine au fost cele dintâi martore ale Învierii?::Femeile mironosițe.
+
+Ce arată atitudinea lui Iisus față de femei?::Afirmarea demnității lor egale, neobișnuită pentru vremea Sa.
+
+Cine a scris Faptele Apostolilor?::Evanghelistul Luca.
+
+Câte mari călătorii misionare a făcut Pavel?::Trei, urmate de călătoria spre Roma.
+
+Printre cine a propovăduit mai ales Pavel?::Printre neamuri, adică printre cei care nu erau evrei.
+
+Când sunt sărbătoriți împreună Apostolii Petru și Pavel?::La 29 iunie.
+
+Cine sunt Părinții apostolici?::Ucenicii Apostolilor, aproape de vremea lor.
+
+Dă câteva nume de Părinți apostolici.::Clement Romanul, Ignatie al Antiohiei, Policarp al Smirnei.
+
+Cine erau apologeții?::Apărătorii credinței împotriva acuzațiilor nedrepte.
+
+Cum s-a răspândit credința, pe lângă propovăduire?::Prin gândire limpede și prin mărturia vieții, până la martiriu.
+
+Ce erau catacombele?::Galerii subterane unde primii creștini se rugau și își îngropau morții.
+
+Ce simbol era citit ca mărturisire a credinței în Hristos?::Peștele, „ihthis”.
+
+Ce exprima simbolul ancorei?::Nădejdea.
+
+Care a devenit semnul cel mai însemnat al creștinilor?::Crucea.
 
 ---
 

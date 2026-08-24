@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Stereotipuri, prejudecăți, discriminare
 
-[[Studii sociale (clasa a XI-a)|Studii sociale]] · [[Clasa a XI-a]] · lecția 3 din 9
+[[Studii sociale (clasa a XI-a)|Studii sociale]] · [[Clasa a XI-a]] · lecția 3 din 18
 
 **Capitolul:** Identitate și diversitate culturală — semestrul 1
 

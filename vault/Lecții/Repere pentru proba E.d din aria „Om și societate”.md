@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Repere pentru proba E.d din aria „Om și societate”
 
-[[Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)|Pregătire pentru bacalaureat (CDEOȘ)]] · [[Clasa a XIII-a]] · lecția 8 din 9
+[[Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)|Pregătire pentru bacalaureat (CDEOȘ)]] · [[Clasa a XIII-a]] · lecția 8 din 20
 
 **Capitolul:** Recapitulări încrucișate — semestrul 2
 

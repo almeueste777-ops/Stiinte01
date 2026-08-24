@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Pașoptismul și romantismul românesc
 
-[[Limba și literatura română (clasa a XI-a)|Limba și literatura română]] · [[Clasa a XI-a]] · lecția 4 din 9
+[[Limba și literatura română (clasa a XI-a)|Limba și literatura română]] · [[Clasa a XI-a]] · lecția 4 din 20
 
 **Capitolul:** Curente culturale până la 1848 — semestrul 1
 

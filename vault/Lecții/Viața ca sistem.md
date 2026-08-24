@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Viața ca sistem
 
-[[ȘTIAM (științe integrate) (clasa a XI-a)|ȘTIAM (științe integrate)]] · [[Clasa a XI-a]] · lecția 9 din 9
+[[ȘTIAM (științe integrate) (clasa a XI-a)|ȘTIAM (științe integrate)]] · [[Clasa a XI-a]] · lecția 9 din 16
 
 **Capitolul:** Pământul și viața — semestrul 2
 
@@ -29,6 +29,6 @@ Viața se organizează pe niveluri: moleculă, celulă, țesut, organ, organism,
 
 ---
 
-⬅ [[Clima și schimbările ei]]
+⬅ [[Clima și schimbările ei]] · [[Atomi, molecule și substanțe]] ➡
 
 Exersează: [[Carduri - ȘTIAM (științe integrate) (clasa a XI-a)]] · [[Test - ȘTIAM (științe integrate) (clasa a XI-a)]]

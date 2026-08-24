@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Educația și mass-media
 
-[[Sociologie (clasa a XI-a)|Sociologie]] · [[Clasa a XI-a]] · lecția 12 din 14
+[[Sociologie (clasa a XI-a)|Sociologie]] · [[Clasa a XI-a]] · lecția 12 din 24
 
 **Capitolul:** Instituții fundamentale — semestrul 2
 

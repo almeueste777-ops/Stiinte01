@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Țesuturi și organizarea corpului
 
-[[Biologie (clasa a IX-a)|Biologie]] · [[Clasa a IX-a]] · lecția 3 din 9
+[[Biologie (clasa a IX-a)|Biologie]] · [[Clasa a IX-a]] · lecția 3 din 18
 
 **Capitolul:** Celula și țesuturile — semestrul 1
 

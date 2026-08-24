@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Schimbările climatice și hazardele
 
-[[Geografie (clasa a XI-a)|Geografie]] · [[Clasa a XI-a]] · lecția 3 din 9
+[[Geografie (clasa a XI-a)|Geografie]] · [[Clasa a XI-a]] · lecția 3 din 20
 
 **Capitolul:** Mediul și resursele — semestrul 1
 

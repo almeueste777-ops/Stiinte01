@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Psihologie (clasa a X-a)
 
-88 întrebări din [[Psihologie (clasa a X-a)|Psihologie (clasa a X-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+132 întrebări din [[Psihologie (clasa a X-a)|Psihologie (clasa a X-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Psihologia s-a constituit ca știință de sine stătătoare în:
 
@@ -777,7 +777,463 @@ cssclasses: test
 > 
 > Prejudecata adaugă stereotipului o atitudine negativă anticipată.
 
-### 65. Primul laborator de psihologie experimentală a fost înființat de:
+### 65. Prima scală de inteligență a fost construită de:
+
+- a. Alfred Binet și Théodore Simon
+- b. William Stern
+- c. Charles Spearman
+- d. David Wechsler
+
+> [!success]- Răspuns
+> **a. Alfred Binet și Théodore Simon**
+> 
+> Ea urmărea identificarea elevilor cu dificultăți de învățare.
+
+### 66. Coeficientul de inteligență (QI), ca raport între vârsta mintală și cea cronologică, a fost propus de:
+
+- a. William Stern
+- b. Howard Gardner
+- c. Daniel Goleman
+- d. Jean Piaget
+
+> [!success]- Răspuns
+> **a. William Stern**
+> 
+> Raportul se înmulțește cu 100.
+
+### 67. Factorul „g" descris de Spearman desemnează:
+
+- a. un factor general de inteligență, prezent în toate probele
+- b. inteligența emoțională
+- c. o inteligență specială, muzicală
+- d. vârsta mintală
+
+> [!success]- Răspuns
+> **a. un factor general de inteligență, prezent în toate probele**
+> 
+> El explică de ce performanțele la probe diferite corelează între ele.
+
+### 68. Inteligența emoțională a fost popularizată de:
+
+- a. Daniel Goleman
+- b. Charles Spearman
+- c. Alfred Binet
+- d. Robert Sternberg
+
+> [!success]- Răspuns
+> **a. Daniel Goleman**
+> 
+> Ea privește recunoașterea și reglarea emoțiilor proprii și ale celorlalți.
+
+### 69. Salivarea câinelui la un sunet care a însoțit hrana este un caz de:
+
+- a. condiționare clasică
+- b. condiționare operantă
+- c. învățare prin insight
+- d. învățare prin observație
+
+> [!success]- Răspuns
+> **a. condiționare clasică**
+> 
+> Un stimul neutru a fost asociat cu unul necondiționat.
+
+### 70. Potrivit condiționării operante, un comportament urmat de o întărire pozitivă:
+
+- a. tinde să se repete
+- b. se stinge imediat
+- c. devine reflex înnăscut
+- d. rămâne neschimbat
+
+> [!success]- Răspuns
+> **a. tinde să se repete**
+> 
+> Consecința plăcută crește probabilitatea repetării.
+
+### 71. Rezolvarea bruscă a unei probleme printr-o restructurare a câmpului, fără încercare și eroare, este:
+
+- a. învățarea prin insight
+- b. condiționarea clasică
+- c. condiționarea operantă
+- d. habituarea
+
+> [!success]- Răspuns
+> **a. învățarea prin insight**
+> 
+> Ea a fost studiată de Köhler pe cimpanzei.
+
+### 72. Experimentul cu păpușa Bobo aparține lui:
+
+- a. Albert Bandura
+- b. Ivan Pavlov
+- c. B. F. Skinner
+- d. Edward Thorndike
+
+> [!success]- Răspuns
+> **a. Albert Bandura**
+> 
+> El a demonstrat învățarea agresivității prin observarea unui model.
+
+### 73. Scrisul fluent al unui adult este, ca proces psihic, o:
+
+- a. deprindere
+- b. pricepere pură
+- c. aptitudine înnăscută
+- d. reprezentare
+
+> [!success]- Răspuns
+> **a. deprindere**
+> 
+> S-a automatizat prin exercițiu, eliberând atenția.
+
+### 74. Faptul că cineva care știe italiana învață mai ușor spaniola ilustrează:
+
+- a. transferul deprinderilor
+- b. interferența deprinderilor
+- c. fixitatea funcțională
+- d. automatizarea
+
+> [!success]- Răspuns
+> **a. transferul deprinderilor**
+> 
+> Este influența pozitivă a unei deprinderi asupra alteia.
+
+### 75. Ultima etapă a formării unei deprinderi este:
+
+- a. automatizarea
+- b. familiarizarea
+- c. învățarea analitică
+- d. sintetizarea
+
+> [!success]- Răspuns
+> **a. automatizarea**
+> 
+> Execuția devine fluentă și cere puțină atenție conștientă.
+
+### 76. Priceperea se deosebește de deprindere prin faptul că:
+
+- a. presupune folosirea conștientă a cunoștințelor în situații noi
+- b. este complet automatizată
+- c. nu cere exercițiu
+- d. este înnăscută
+
+> [!success]- Răspuns
+> **a. presupune folosirea conștientă a cunoștințelor în situații noi**
+> 
+> Ea se sprijină pe deprinderi, dar nu se reduce la automatism.
+
+### 77. Ceea ce deosebește cel mai net psihicul uman este:
+
+- a. autoconștiința (conștiința de sine)
+- b. viteza reacțiilor
+- c. acuitatea senzorială
+- d. forța instinctelor
+
+> [!success]- Răspuns
+> **a. autoconștiința (conștiința de sine)**
+> 
+> Omul nu doar percepe, ci știe că el percepe.
+
+### 78. Visele apar mai ales în:
+
+- a. somnul rapid (REM)
+- b. somnul lent profund
+- c. starea de veghe
+- d. reverie
+
+> [!success]- Răspuns
+> **a. somnul rapid (REM)**
+> 
+> În faza REM creierul este foarte activ.
+
+### 79. Un număr de telefon știut, pe care nu-l gândești acum, dar îl poți reactualiza imediat, se află în:
+
+- a. subconștient (preconștient)
+- b. inconștientul profund
+- c. memoria senzorială
+- d. starea de veghe activă
+
+> [!success]- Răspuns
+> **a. subconștient (preconștient)**
+> 
+> Este momentan neactiv, dar ușor de readus în conștiință.
+
+### 80. Conștiința, în raport cu întreaga viață psihică, este:
+
+- a. vârful, nu întregul aisberg
+- b. singurul nivel real
+- c. identică cu inconștientul
+- d. fără legătură cu comportamentul
+
+> [!success]- Răspuns
+> **a. vârful, nu întregul aisberg**
+> 
+> Sub ea se află subconștientul și inconștientul.
+
+### 81. În modelul lui Freud, instanța care reprezintă normele morale interiorizate este:
+
+- a. Supraeul
+- b. Sinele
+- c. Eul
+- d. inconștientul
+
+> [!success]- Răspuns
+> **a. Supraeul**
+> 
+> Sinele cere satisfacere imediată, Eul mediază, Supraeul judecă moral.
+
+### 82. Atribuirea propriilor trăiri respinse altor persoane se numește:
+
+- a. proiecție
+- b. sublimare
+- c. regresie
+- d. refulare
+
+> [!success]- Răspuns
+> **a. proiecție**
+> 
+> „Nu eu îl urăsc, el mă urăște pe mine."
+
+### 83. Transformarea unei energii pulsionale într-o activitate creatoare valorizată social este:
+
+- a. sublimarea
+- b. negarea
+- c. proiecția
+- d. compensarea
+
+> [!success]- Răspuns
+> **a. sublimarea**
+> 
+> Este considerat cel mai „reușit" mecanism de apărare.
+
+### 84. Mecanismele de apărare ale Eului sunt:
+
+- a. normale și utile în doze moderate
+- b. întotdeauna patologice
+- c. pe deplin conștiente și voluntare
+- d. lipsite de orice efect
+
+> [!success]- Răspuns
+> **a. normale și utile în doze moderate**
+> 
+> Ele devin problematice doar când deformează sistematic realitatea.
+
+### 85. Modelul „Big Five" al personalității cuprinde:
+
+- a. deschidere, conștiinciozitate, extraversiune, agreabilitate, nevrotism
+- b. Sine, Eu, Supraeu
+- c. sangvinic, flegmatic, coleric, melancolic
+- d. analitică, creativă, practică
+
+> [!success]- Răspuns
+> **a. deschidere, conștiinciozitate, extraversiune, agreabilitate, nevrotism**
+> 
+> Sunt cele cinci dimensiuni stabile, măsurabile prin chestionare.
+
+### 86. Distincția dintre trăsături cardinale, centrale și secundare aparține lui:
+
+- a. Gordon Allport
+- b. Sigmund Freud
+- c. Carl Rogers
+- d. Hans Eysenck
+
+> [!success]- Răspuns
+> **a. Gordon Allport**
+> 
+> Ea structurează ierarhic trăsăturile de personalitate.
+
+### 87. Teoria umanistă a personalității pune accentul pe:
+
+- a. tendința spre autorealizare și congruența eului
+- b. pulsiunile inconștiente
+- c. proprietățile sistemului nervos
+- d. condiționarea operantă
+
+> [!success]- Răspuns
+> **a. tendința spre autorealizare și congruența eului**
+> 
+> Reprezentanții ei sunt Maslow și Rogers.
+
+### 88. Faptul că cele cinci mari dimensiuni se regăsesc în culturi diferite arată că modelul Big Five este:
+
+- a. relativ constant transcultural
+- b. valabil doar în Europa
+- c. identic cu tipologia temperamentală
+- d. lipsit de bază empirică
+
+> [!success]- Răspuns
+> **a. relativ constant transcultural**
+> 
+> Dimensiunile s-au dovedit stabile între culturi și în viața adultă.
+
+### 89. Raționamentul abstract și ipotetic apare, la Piaget, în stadiul:
+
+- a. operațiilor formale
+- b. senzorio-motor
+- c. preoperator
+- d. al operațiilor concrete
+
+> [!success]- Răspuns
+> **a. operațiilor formale**
+> 
+> El începe după vârsta de circa 11 ani.
+
+### 90. Permanența obiectului se cucerește în stadiul:
+
+- a. senzorio-motor
+- b. preoperator
+- c. al operațiilor concrete
+- d. al operațiilor formale
+
+> [!success]- Răspuns
+> **a. senzorio-motor**
+> 
+> Copilul înțelege că obiectul există și când nu-l mai vede.
+
+### 91. Conflictul „identitate versus confuzie de rol" caracterizează, la Erikson:
+
+- a. adolescența
+- b. prima copilărie
+- c. bătrânețea
+- d. vârsta adultă mijlocie
+
+> [!success]- Răspuns
+> **a. adolescența**
+> 
+> Sarcina vârstei este construirea unui sens stabil de sine.
+
+### 92. Gândirea egocentrică, incapabilă încă de operații logice reversibile, este specifică stadiului:
+
+- a. preoperator (2–7 ani)
+- b. senzorio-motor
+- c. al operațiilor concrete
+- d. al operațiilor formale
+
+> [!success]- Răspuns
+> **a. preoperator (2–7 ani)**
+> 
+> Copilul folosește simboluri, dar judecă din propriul punct de vedere.
+
+### 93. Elementul care transformă comunicarea dintr-un monolog într-un schimb este:
+
+- a. feedbackul
+- b. codul
+- c. canalul
+- d. zgomotul
+
+> [!success]- Răspuns
+> **a. feedbackul**
+> 
+> El este răspunsul receptorului la mesaj.
+
+### 94. Tonul, intonația, ritmul și pauzele țin de comunicarea:
+
+- a. paraverbală
+- b. verbală
+- c. nonverbală
+- d. scrisă
+
+> [!success]- Răspuns
+> **a. paraverbală**
+> 
+> Ele privesc felul în care rostim, nu cuvintele în sine.
+
+### 95. Când mesajul verbal și cel nonverbal se contrazic, receptorul tinde să creadă:
+
+- a. nonverbalul
+- b. verbalul
+- c. forma scrisă
+- d. niciunul
+
+> [!success]- Răspuns
+> **a. nonverbalul**
+> 
+> Semnalele nonverbale sunt mai greu de controlat voluntar.
+
+### 96. Distanța dintre partenerii unei conversații este studiată de:
+
+- a. proxemică
+- b. semantică
+- c. fonetică
+- d. gramatică
+
+> [!success]- Răspuns
+> **a. proxemică**
+> 
+> Ea face parte din comunicarea nonverbală.
+
+### 97. Prima scală de inteligență a fost construită, în 1905, de:
+
+- a. Alfred Binet și Théodore Simon
+- b. William Stern
+- c. Charles Spearman
+- d. Howard Gardner
+
+> [!success]- Răspuns
+> **a. Alfred Binet și Théodore Simon**
+> 
+> Ea urmărea identificarea elevilor cu dificultăți de învățare.
+
+### 98. Salivarea câinelui la un sunet asociat cu hrana ilustrează:
+
+- a. condiționarea clasică (Pavlov)
+- b. condiționarea operantă
+- c. învățarea prin insight
+- d. învățarea prin observație
+
+> [!success]- Răspuns
+> **a. condiționarea clasică (Pavlov)**
+> 
+> Un stimul neutru a fost asociat cu unul necondiționat.
+
+### 99. Experimentul cu păpușa Bobo, despre învățarea prin observație, aparține lui:
+
+- a. Albert Bandura
+- b. Ivan Pavlov
+- c. B. F. Skinner
+- d. Jean Piaget
+
+> [!success]- Răspuns
+> **a. Albert Bandura**
+> 
+> Cei care privesc un model agresiv tind să-i reproducă conduita.
+
+### 100. Teoria inteligențelor multiple aparține lui:
+
+- a. Howard Gardner
+- b. Charles Spearman
+- c. Alfred Binet
+- d. Daniel Goleman
+
+> [!success]- Răspuns
+> **a. Howard Gardner**
+> 
+> Spearman a descris factorul general „g".
+
+### 101. Scrisul fluent al unui adult este, ca proces psihic, o:
+
+- a. deprindere automatizată
+- b. pricepere pură
+- c. aptitudine înnăscută
+- d. reprezentare
+
+> [!success]- Răspuns
+> **a. deprindere automatizată**
+> 
+> S-a format prin exercițiu și eliberează atenția.
+
+### 102. Influența pozitivă a unei deprinderi asupra învățării alteia se numește:
+
+- a. transfer
+- b. interferență
+- c. automatizare
+- d. fixitate funcțională
+
+> [!success]- Răspuns
+> **a. transfer**
+> 
+> Interferența este, dimpotrivă, influența negativă.
+
+### 103. Primul laborator de psihologie experimentală a fost înființat de:
 
 - a. Wilhelm Wundt, în 1879, la Leipzig
 - b. Sigmund Freud, în 1900, la Viena
@@ -789,7 +1245,7 @@ cssclasses: test
 > 
 > Acest moment marchează desprinderea psihologiei de filosofie.
 
-### 66. Singura metodă care permite stabilirea unei relații cauzale este:
+### 104. Singura metodă care permite stabilirea unei relații cauzale este:
 
 - a. experimentul
 - b. observația
@@ -801,7 +1257,7 @@ cssclasses: test
 > 
 > Doar manipularea controlată a variabilei independente arată ce produce efectul.
 
-### 67. Senzația se deosebește de percepție prin faptul că:
+### 105. Senzația se deosebește de percepție prin faptul că:
 
 - a. reflectă o însușire izolată, nu obiectul întreg
 - b. apare în absența obiectului
@@ -813,7 +1269,7 @@ cssclasses: test
 > 
 > Percepția integrează însușirile într-o imagine unitară.
 
-### 68. Faptul că nu mai simțim mirosul din propria cameră ilustrează legea:
+### 106. Faptul că nu mai simțim mirosul din propria cameră ilustrează legea:
 
 - a. adaptării
 - b. contrastului
@@ -825,7 +1281,7 @@ cssclasses: test
 > 
 > Sensibilitatea scade la acțiunea prelungită a aceluiași stimul.
 
-### 69. Reprezentarea este:
+### 107. Reprezentarea este:
 
 - a. imaginea unui obiect absent, bazată pe experiența anterioară
 - b. reflectarea unei însușiri izolate
@@ -837,7 +1293,7 @@ cssclasses: test
 > 
 > Ea face trecerea de la senzorial la logic.
 
-### 70. Operația gândirii prin care se reține o singură însușire, ignorându-le pe celelalte, este:
+### 108. Operația gândirii prin care se reține o singură însușire, ignorându-le pe celelalte, este:
 
 - a. abstractizarea
 - b. analiza
@@ -849,7 +1305,7 @@ cssclasses: test
 > 
 > Abstractizarea izolează mintal însușirea esențială.
 
-### 71. Capacitatea memoriei de scurtă durată este de aproximativ:
+### 109. Capacitatea memoriei de scurtă durată este de aproximativ:
 
 - a. 7 ± 2 unități
 - b. 3 ± 1 unități
@@ -861,7 +1317,7 @@ cssclasses: test
 > 
 > Este limita clasică descrisă de George Miller.
 
-### 72. Curba lui Ebbinghaus arată că uitarea este:
+### 110. Curba lui Ebbinghaus arată că uitarea este:
 
 - a. rapidă la început, apoi lentă
 - b. constantă în timp
@@ -873,7 +1329,7 @@ cssclasses: test
 > 
 > De aceea repetiția eșalonată este mai eficientă decât înghesuirea.
 
-### 73. Sirena și centaurul sunt produse ale procedeului numit:
+### 111. Sirena și centaurul sunt produse ale procedeului numit:
 
 - a. aglutinare
 - b. tipizare
@@ -885,7 +1341,7 @@ cssclasses: test
 > 
 > Se contopesc părți din ființe diferite.
 
-### 74. Limba este:
+### 112. Limba este:
 
 - a. un sistem social de semne, iar limbajul folosirea lui individuală
 - b. folosirea individuală, iar limbajul sistemul social
@@ -897,7 +1353,7 @@ cssclasses: test
 > 
 > Limba preexistă vorbitorului; limbajul e actul lui.
 
-### 75. Fixitatea funcțională este un obstacol care constă în:
+### 113. Fixitatea funcțională este un obstacol care constă în:
 
 - a. a vedea obiectul doar în funcția lui obișnuită
 - b. a repeta o strategie care nu se mai potrivește
@@ -909,7 +1365,7 @@ cssclasses: test
 > 
 > Repetarea unei strategii depășite se numește set mintal.
 
-### 76. Cazurile copiilor sălbatici demonstrează:
+### 114. Cazurile copiilor sălbatici demonstrează:
 
 - a. rolul indispensabil al mediului social în dezvoltarea psihică
 - b. caracterul exclusiv ereditar al limbajului
@@ -921,7 +1377,79 @@ cssclasses: test
 > 
 > Fără interacțiune umană la timp, potențialul nu se mai actualizează.
 
-### 77. Structurile motivaționale, în ordinea complexității, sunt:
+### 115. În modelul lui Freud, instanța care reprezintă normele morale interiorizate este:
+
+- a. Supraeul
+- b. Sinele
+- c. Eul
+- d. preconștientul
+
+> [!success]- Răspuns
+> **a. Supraeul**
+> 
+> Sinele cere satisfacere imediată, Eul mediază, Supraeul judecă moral.
+
+### 116. Transformarea energiei pulsionale într-o activitate valorizată social (artă, sport) este:
+
+- a. sublimarea
+- b. proiecția
+- c. negarea
+- d. regresia
+
+> [!success]- Răspuns
+> **a. sublimarea**
+> 
+> Este considerat cel mai „reușit" mecanism de apărare.
+
+### 117. Modelul celor cinci mari factori ai personalității (Big Five) cuprinde:
+
+- a. deschidere, conștiinciozitate, extraversiune, agreabilitate, nevrotism
+- b. Sine, Eu, Supraeu
+- c. sangvinic, flegmatic, coleric, melancolic
+- d. identitate, intimitate, generativitate
+
+> [!success]- Răspuns
+> **a. deschidere, conștiinciozitate, extraversiune, agreabilitate, nevrotism**
+> 
+> Sunt cinci dimensiuni stabile, măsurabile prin chestionare.
+
+### 118. Raționamentul abstract și ipotetic apare, la Piaget, în stadiul:
+
+- a. operațiilor formale
+- b. senzorio-motor
+- c. preoperator
+- d. al operațiilor concrete
+
+> [!success]- Răspuns
+> **a. operațiilor formale**
+> 
+> El începe după vârsta de circa 11 ani.
+
+### 119. Conflictul „identitate versus confuzie de rol" caracterizează, la Erikson:
+
+- a. adolescența
+- b. prima copilărie
+- c. vârsta adultă
+- d. bătrânețea
+
+> [!success]- Răspuns
+> **a. adolescența**
+> 
+> Sarcina vârstei este construirea unui sens stabil de sine.
+
+### 120. Tonul, intonația și ritmul vorbirii țin de comunicarea:
+
+- a. paraverbală
+- b. verbală
+- c. nonverbală
+- d. scrisă
+
+> [!success]- Răspuns
+> **a. paraverbală**
+> 
+> Ele privesc felul rostirii, nu cuvintele în sine.
+
+### 121. Structurile motivaționale, în ordinea complexității, sunt:
 
 - a. trebuință, motiv, interes, convingere, ideal
 - b. ideal, convingere, interes, motiv, trebuință
@@ -933,7 +1461,7 @@ cssclasses: test
 > 
 > Se pornește de la dezechilibrul resimțit și se ajunge la proiectul de viață.
 
-### 78. Legea Yerkes-Dodson arată că:
+### 122. Legea Yerkes-Dodson arată că:
 
 - a. randamentul crește cu motivația doar până la un optim
 - b. randamentul crește nelimitat cu motivația
@@ -945,7 +1473,7 @@ cssclasses: test
 > 
 > Peste optim, supramotivarea dezorganizează activitatea.
 
-### 79. O stare afectivă difuză, de durată, fără obiect precis, este:
+### 123. O stare afectivă difuză, de durată, fără obiect precis, este:
 
 - a. dispoziția afectivă
 - b. emoția
@@ -957,7 +1485,7 @@ cssclasses: test
 > 
 > Dispoziția colorează întreaga activitate, fără cauză determinată.
 
-### 80. Fazele sindromului general de adaptare sunt:
+### 124. Fazele sindromului general de adaptare sunt:
 
 - a. alarmă, rezistență, epuizare
 - b. tensiune, criză, refacere
@@ -969,7 +1497,7 @@ cssclasses: test
 > 
 > Modelul aparține lui Hans Selye.
 
-### 81. Faza de deliberare a actului voluntar constă în:
+### 125. Faza de deliberare a actului voluntar constă în:
 
 - a. lupta motivelor concurente
 - b. executarea deciziei
@@ -981,7 +1509,7 @@ cssclasses: test
 > 
 > Deliberarea precedă decizia.
 
-### 82. Atenția care se menține fără efort, prin interesul pentru activitate, este:
+### 126. Atenția care se menține fără efort, prin interesul pentru activitate, este:
 
 - a. postvoluntară
 - b. involuntară
@@ -993,7 +1521,7 @@ cssclasses: test
 > 
 > Ea începe ca atenție voluntară și se automatizează.
 
-### 83. Cele trei laturi ale personalității sunt:
+### 127. Cele trei laturi ale personalității sunt:
 
 - a. temperamentul, aptitudinile, caracterul
 - b. senzația, percepția, reprezentarea
@@ -1005,7 +1533,7 @@ cssclasses: test
 > 
 > Dinamico-energetică, instrumentală, relațional-valorică.
 
-### 84. Tipul temperamental corespunzător sistemului nervos slab este:
+### 128. Tipul temperamental corespunzător sistemului nervos slab este:
 
 - a. melancolicul
 - b. colericul
@@ -1017,7 +1545,7 @@ cssclasses: test
 > 
 > Colericul este puternic, dar neechilibrat.
 
-### 85. Etapele procesului creator sunt:
+### 129. Etapele procesului creator sunt:
 
 - a. pregătire, incubație, iluminare, verificare
 - b. pregătire, iluminare, incubație, verificare
@@ -1029,7 +1557,7 @@ cssclasses: test
 > 
 > Soluția apare, de regulă, după o pauză de incubație.
 
-### 86. Nivelul postconvențional al dezvoltării morale (Kohlberg) se caracterizează prin:
+### 130. Nivelul postconvențional al dezvoltării morale (Kohlberg) se caracterizează prin:
 
 - a. conduita ghidată de principii etice asumate personal
 - b. evitarea pedepsei
@@ -1041,7 +1569,7 @@ cssclasses: test
 > 
 > Este nivelul cel mai înalt din modelul lui Kohlberg.
 
-### 87. Efectul spectatorului se explică prin:
+### 131. Efectul spectatorului se explică prin:
 
 - a. difuziunea responsabilității între mai mulți martori
 - b. lipsa de empatie
@@ -1053,7 +1581,7 @@ cssclasses: test
 > 
 > Cu cât sunt mai mulți martori, cu atât scade șansa intervenției fiecăruia.
 
-### 88. Experimentul lui Milgram a studiat:
+### 132. Experimentul lui Milgram a studiat:
 
 - a. obediența față de autoritate
 - b. conformismul față de grup

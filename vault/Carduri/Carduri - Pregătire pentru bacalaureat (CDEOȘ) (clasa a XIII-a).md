@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)
 
-36 carduri pentru [[Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)|Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+80 carduri pentru [[Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)|Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/pregatire-pentru-bacalaureat-cdeos
 
@@ -82,6 +82,94 @@ Care sunt cele patru dimensiuni ale probei B?::Înțelegerea textului scris, pro
 Ce sarcini cuprinde proba D?::Editare de text, calcul tabelar, prezentări, căutarea informației, comunicare online, securitate.
 
 Cum se pregătește eficient proba D?::Rezolvând sarcini practice reale pe calculator, nu memorând meniuri.
+
+Cum s-a format poporul român?::Prin romanizarea daco-geților, după cucerirea Daciei de către romani.
+
+Ce susține teoria continuității?::Că poporul român s-a format și a rămas la nord de Dunăre, spre deosebire de teoria imigraționistă.
+
+Ce izvor din 1247 atestă formațiuni politice românești?::Diploma cavalerilor ioaniți.
+
+Din ce grup face parte limba română?::Din limbile romanice.
+
+Ce a marcat mișcarea din 1821?::Sfârșitul domniilor fanariote și reintrarea factorului autohton în politică.
+
+Cum s-a realizat Unirea din 1859?::Prin dubla alegere a lui Alexandru Ioan Cuza în Moldova și în Țara Românească.
+
+Când a fost proclamată independența?::La 9 mai 1877, recunoscută la Berlin în 1878.
+
+Ce reforme a adus Cuza?::Secularizarea (1863), reforma agrară și legea instrucțiunii (1864).
+
+Ce s-a realizat în 1918?::Marea Unire: unirea Basarabiei, Bucovinei și Transilvaniei cu România.
+
+Care constituție interbelică a fost cea mai democratică?::Constituția din 1923.
+
+Ce s-a întâmplat în 1938?::Carol al II-lea a instaurat un regim autoritar.
+
+Ce a făcut România la 23 august 1944?::A trecut de partea Aliaților, în Al Doilea Război Mondial.
+
+Când a fost proclamată republica populară?::La 30 decembrie 1947, după abdicarea forțată a regelui.
+
+Cine a condus regimul comunist din 1965?::Nicolae Ceaușescu.
+
+Când s-a prăbușit regimul comunist?::În decembrie 1989, prin Revoluție.
+
+Când a aderat România la NATO și la UE?::La NATO în 2004, la Uniunea Europeană în 2007.
+
+Ce a instituit Constituția din 1866?::Monarhia constituțională, separarea puterilor, parlamentul bicameral.
+
+Care constituție a fost cea mai democratică?::Cea din 1923.
+
+Ce au consfințit constituțiile comuniste?::Regimul de partid unic și rolul conducător al partidului.
+
+Când a fost adoptată constituția actuală?::În 1991, prin referendum; a fost revizuită în 2003.
+
+Ce se punctează la eseul istoric?::Informația precisă, cauzalitatea, termenii și structura textului.
+
+Care este structura unui eseu istoric?::Introducere, cuprins (cauze, desfășurare, consecințe), concluzie.
+
+Care sunt greșelile frecvente la eseu?::Ignorarea unei cerințe, lipsa datelor și a numelor, generalitățile.
+
+Cum previi omisiunile la eseu?::Făcând un scurt plan înainte de a scrie și bifând fiecare cerință.
+
+Care sunt reperele de logică?::Termenii, propozițiile categorice, pătratul logic, silogismul, erorile de argumentare.
+
+Care sunt marile teme de filosofie?::Omul, morala, politica, cunoașterea.
+
+Ce fixează pătratul logic?::Raporturile de adevăr dintre propozițiile A, E, I, O.
+
+Ce cere un eseu bun de filosofie?::Susținerea argumentată a unei poziții, cu luarea în calcul a obiecțiilor.
+
+Care sunt procesele psihice cognitive?::Senzațiile, percepțiile, memoria, gândirea, imaginația, limbajul.
+
+Care sunt temele de sociologie?::Metode, grupuri, instituții, status și rol, stratificare, devianță, schimbare.
+
+Ce studiază sociologia?::Societatea ca ansamblu de relații și structuri, nu individul izolat.
+
+Ce diferență e între status și rol?::Statusul e poziția ocupată; rolul, comportamentele așteptate de la ea.
+
+Ce urmărește consumatorul și ce, producătorul?::Consumatorul, satisfacerea nevoilor; producătorul, profitul.
+
+Ce este piața?::Locul de întâlnire a cererii cu oferta, unde se formează prețul.
+
+Care sunt funcțiile banilor?::Mijloc de schimb, măsură a valorii, mijloc de tezaurizare.
+
+Ce spune legea cererii și a ofertei?::Că prețul se formează din raportul dintre cerere și ofertă.
+
+Ce înseamnă a argumenta?::A susține o teză cu argumente și exemple, ferit de erori de raționament.
+
+Care este structura unui text argumentativ?::Introducere (teza), cuprins (un argument pe paragraf), concluzie.
+
+La ce folosesc conectorii logici?::Fac vizibilă legătura dintre idei și cresc claritatea.
+
+Ce conține un plan scurt de eseu?::Teza, două-trei argumente, un exemplu pentru fiecare, concluzia.
+
+Care este cea mai bună pregătire finală?::Simularea examenului în condiții reale, urmată de corectarea cu baremul.
+
+De ce se studiază baremul oficial?::Pentru că arată ce se punctează și cum trebuie formulat răspunsul.
+
+Cui se dedică săptămâna dinaintea examenului?::Consolidării, nu materiei noi.
+
+Ce se recomandă în ziua examenului?::Somn, mic dejun, sosire devreme, evitarea discuțiilor de ultim moment.
 
 ---
 

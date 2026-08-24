@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Ecosisteme și fluxuri
 
-[[Biologie (clasa a X-a)|Biologie]] · [[Clasa a X-a]] · lecția 7 din 9
+[[Biologie (clasa a X-a)|Biologie]] · [[Clasa a X-a]] · lecția 7 din 18
 
 **Capitolul:** Ecologie și sănătate — semestrul 2
 

@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Vectori în plan
 
-[[Matematică (clasa a IX-a)|Matematică]] · [[Clasa a IX-a]] · lecția 8 din 9
+[[Matematică (clasa a IX-a)|Matematică]] · [[Clasa a IX-a]] · lecția 8 din 18
 
 **Capitolul:** Trigonometrie și vectori — semestrul 2
 

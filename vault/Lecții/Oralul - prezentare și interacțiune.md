@@ -10,7 +10,7 @@ clasa: "a XIII-a"
 ---
 # Oralul: prezentare și interacțiune
 
-[[Limba modernă 2 (Franceză) (clasa a XIII-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XIII-a]] · lecția 6 din 9
+[[Limba modernă 2 (Franceză) (clasa a XIII-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XIII-a]] · lecția 6 din 18
 
 **Capitolul:** Producerea de texte — semestrul 1
 

@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Past Perfect și succesiunea timpurilor
 
-[[Limba modernă 1 (Engleză) (clasa a X-a)|Limba modernă 1 (Engleză)]] · [[Clasa a X-a]] · lecția 2 din 9
+[[Limba modernă 1 (Engleză) (clasa a X-a)|Limba modernă 1 (Engleză)]] · [[Clasa a X-a]] · lecția 2 din 18
 
 **Capitolul:** Timpuri și aspecte — semestrul 1
 

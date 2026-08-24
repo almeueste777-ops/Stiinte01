@@ -21,7 +21,7 @@ cssclasses: fisa
 
 Antichitatea și Evul Mediu: popoare și spații istorice, forme de organizare politică, religie și relații internaționale.
 
-## Capitole (4)
+## Capitole (8)
 
 ### Popoare și spații istorice în Antichitate — semestrul 1
 
@@ -47,9 +47,33 @@ Antichitatea și Evul Mediu: popoare și spații istorice, forme de organizare p
 - [[Domnii și lupta antiotomană]]
 - [[Religia și cultura în spațiul românesc medieval]]
 
+### Preistoria și zorii civilizației — semestrul 1
+
+- [[Preistoria - paleolitic, neolitic, epoca metalelor]]
+- [[Scrierea, orașul și primele state]]
+- [[Religie și mitologie în lumea antică]]
+
+### Creștinismul și amurgul lumii antice — semestrul 1
+
+- [[Nașterea și răspândirea creștinismului]]
+- [[Criza Imperiului Roman și marile migrații]]
+- [[Imperiul Bizantin timpuriu și Iustinian]]
+
+### Lumea medievală: religii și imperii — semestrul 2
+
+- [[Islamul și civilizația arabă]]
+- [[Imperiul lui Carol cel Mare și feudalizarea]]
+- [[Bizanțul, slavii și lumea ortodoxă]]
+
+### Statul și societatea românească medievală — semestrul 2
+
+- [[Transilvania medievală - voievodat și autonomii]]
+- [[Instituțiile centrale ale Țărilor Române]]
+- [[Economie, societate și viață cotidiană în Evul Mediu românesc]]
+
 ## Exersare
-- [[Carduri - Istorie (clasa a IX-a)]] — 48 carduri
-- [[Test - Istorie (clasa a IX-a)]] — 72 întrebări
+- [[Carduri - Istorie (clasa a IX-a)]] — 96 carduri
+- [[Test - Istorie (clasa a IX-a)]] — 132 întrebări
 
 ## Legături
 - [[Istorie|Istorie]]

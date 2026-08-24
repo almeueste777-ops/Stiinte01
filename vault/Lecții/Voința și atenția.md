@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Voința și atenția
 
-[[Psihologie (clasa a X-a)|Psihologie]] · [[Clasa a X-a]] · lecția 12 din 16
+[[Psihologie (clasa a X-a)|Psihologie]] · [[Clasa a X-a]] · lecția 12 din 24
 
 **Capitolul:** Procese reglatorii — semestrul 2
 

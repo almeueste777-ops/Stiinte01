@@ -10,7 +10,7 @@ clasa: "a IX-a"
 ---
 # Procesorul de text: formatare și structură
 
-[[Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a IX-a]] · lecția 4 din 9
+[[Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a IX-a]] · lecția 4 din 16
 
 **Capitolul:** Editare de text și prezentări — semestrul 2
 

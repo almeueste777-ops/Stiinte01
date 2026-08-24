@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Studii sociale (clasa a XI-a)
 
-60 întrebări din [[Studii sociale (clasa a XI-a)|Studii sociale (clasa a XI-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+108 întrebări din [[Studii sociale (clasa a XI-a)|Studii sociale (clasa a XI-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Cultura, în sens antropologic:
 
@@ -441,7 +441,511 @@ cssclasses: test
 > 
 > Rezultatul verificabil este criteriul.
 
-### 37. Cultura, în sens antropologic:
+### 37. Dreptul de vot este un drept:
+
+- a. politic
+- b. civil
+- c. social
+- d. economic
+
+> [!success]- Răspuns
+> **a. politic**
+> 
+> El aparține, în principiu, cetățenilor.
+
+### 38. Dobândirea cetățeniei după cetățenia părinților se numește principiul:
+
+- a. dreptului sângelui
+- b. dreptului solului
+- c. naturalizării
+- d. reciprocității
+
+> [!success]- Răspuns
+> **a. dreptului sângelui**
+> 
+> Dreptul solului ține seama de locul nașterii.
+
+### 39. Cetățeanul se deosebește de un simplu rezident mai ales prin:
+
+- a. deținerea drepturilor politice depline
+- b. dreptul la educație
+- c. accesul la justiție
+- d. libertatea de circulație
+
+> [!success]- Răspuns
+> **a. deținerea drepturilor politice depline**
+> 
+> Drepturile politice revin, în principiu, cetățenilor.
+
+### 40. Votul universal, incluzând femeile, arată că drepturile:
+
+- a. sunt rezultatul unor evoluții și lupte sociale
+- b. au existat dintotdeauna
+- c. sunt un dat natural imuabil
+- d. se restrâng în timp
+
+> [!success]- Răspuns
+> **a. sunt rezultatul unor evoluții și lupte sociale**
+> 
+> Extinderea cetățeniei a fost un proces istoric.
+
+### 41. Democrația în care cetățenii aleg reprezentanți este:
+
+- a. reprezentativă
+- b. directă
+- c. participativă
+- d. autoritară
+
+> [!success]- Răspuns
+> **a. reprezentativă**
+> 
+> Referendumul este un instrument al democrației directe.
+
+### 42. Referendumul este un instrument al democrației:
+
+- a. directe
+- b. reprezentative
+- c. delegate
+- d. parlamentare
+
+> [!success]- Răspuns
+> **a. directe**
+> 
+> Cetățenii decid ei înșiși asupra unei chestiuni.
+
+### 43. „Tirania majorității” apare atunci când:
+
+- a. majoritatea încalcă drepturile fundamentale ale minorității
+- b. minoritatea conduce
+- c. alegerile sunt anulate
+- d. puterea e separată
+
+> [!success]- Răspuns
+> **a. majoritatea încalcă drepturile fundamentale ale minorității**
+> 
+> De aceea drepturile fundamentale nu se supun votului.
+
+### 44. Un avantaj esențial al democrației este că:
+
+- a. permite corectarea greșelilor fără violență
+- b. garantează decizii mereu corecte
+- c. elimină orice conflict
+- d. face inutilă dezbaterea
+
+> [!success]- Răspuns
+> **a. permite corectarea greșelilor fără violență**
+> 
+> Majoritatea poate greși, dar poate fi și schimbată prin vot.
+
+### 45. „Un om, un vot” exprimă caracterul:
+
+- a. egal al sufragiului
+- b. universal al sufragiului
+- c. secret al sufragiului
+- d. direct al sufragiului
+
+> [!success]- Răspuns
+> **a. egal al sufragiului**
+> 
+> Universalitatea privește cine votează, egalitatea privește ponderea votului.
+
+### 46. Votul secret servește la:
+
+- a. protejarea alegătorului de presiuni și represalii
+- b. numărarea corectă
+- c. creșterea prezenței
+- d. informarea alegătorului
+
+> [!success]- Răspuns
+> **a. protejarea alegătorului de presiuni și represalii**
+> 
+> El garantează libertatea exprimării opțiunii.
+
+### 47. Pluralismul politic este o condiție a democrației pentru că:
+
+- a. fără alternativă reală, alegerile devin formale
+- b. crește numărul de funcționari
+- c. reduce costul alegerilor
+- d. elimină opoziția
+
+> [!success]- Răspuns
+> **a. fără alternativă reală, alegerile devin formale**
+> 
+> Competiția reală dă sens votului.
+
+### 48. Absenteismul electoral:
+
+- a. lasă decizia în seama altora și slăbește legitimitatea aleșilor
+- b. întărește democrația
+- c. este o formă de vot
+- d. anulează alegerile
+
+> [!success]- Răspuns
+> **a. lasă decizia în seama altora și slăbește legitimitatea aleșilor**
+> 
+> Participarea susține legitimitatea celor aleși.
+
+### 49. În statul de drept, guvernanții:
+
+- a. se supun legii ca oricine
+- b. sunt deasupra legii
+- c. fac legile fără limite
+- d. nu răspund în fața nimănui
+
+> [!success]- Răspuns
+> **a. se supun legii ca oricine**
+> 
+> Egalitatea în fața legii este esența lui.
+
+### 50. Principiul legalității înseamnă că autoritățile:
+
+- a. pot face doar ce le permite legea
+- b. pot face orice nu e interzis
+- c. decid după bunul-plac
+- d. nu se supun Constituției
+
+> [!success]- Răspuns
+> **a. pot face doar ce le permite legea**
+> 
+> Cetățenii, invers, pot face tot ce nu le este interzis.
+
+### 51. O lege care se aplică unor fapte din trecut încalcă:
+
+- a. neretroactivitatea, parte a securității juridice
+- b. supremația Constituției
+- c. separarea puterilor
+- d. accesul la justiție
+
+> [!success]- Răspuns
+> **a. neretroactivitatea, parte a securității juridice**
+> 
+> Legea trebuie, de regulă, să privească doar viitorul.
+
+### 52. Statul de drept se erodează, de obicei:
+
+- a. treptat, prin pași care par mărunți
+- b. brusc, dintr-o singură măsură
+- c. doar prin lovituri de stat
+- d. exclusiv în timp de război
+
+> [!success]- Răspuns
+> **a. treptat, prin pași care par mărunți**
+> 
+> De aceea vigilența continuă contează.
+
+### 53. Separarea puterilor pornește de la ideea că:
+
+- a. puterea concentrată duce la abuz
+- b. statul trebuie să fie mic
+- c. justiția este inutilă
+- d. parlamentul trebuie desființat
+
+> [!success]- Răspuns
+> **a. puterea concentrată duce la abuz**
+> 
+> De aceea autoritatea se împarte și se controlează.
+
+### 54. Puterea care aplică legile în cazuri concrete este:
+
+- a. judecătorească
+- b. legislativă
+- c. executivă
+- d. constituantă
+
+> [!success]- Răspuns
+> **a. judecătorească**
+> 
+> Legislativul adoptă legile, executivul le pune în aplicare.
+
+### 55. Moțiunea de cenzură este un instrument prin care:
+
+- a. Parlamentul poate demite Guvernul
+- b. Guvernul dizolvă Parlamentul
+- c. justiția anulează o lege
+- d. Președintele promulgă o lege
+
+> [!success]- Răspuns
+> **a. Parlamentul poate demite Guvernul**
+> 
+> Este o pârghie de control reciproc.
+
+### 56. Când un executiv subordonează parlamentul și justiția:
+
+- a. separarea puterilor devine o ficțiune
+- b. statul de drept se întărește
+- c. crește independența justiției
+- d. democrația se consolidează
+
+> [!success]- Răspuns
+> **a. separarea puterilor devine o ficțiune**
+> 
+> Regimul alunecă spre autoritarism.
+
+### 57. Constituția, față de o lege obișnuită:
+
+- a. are forță juridică supremă și e mai greu de modificat
+- b. are aceeași forță
+- c. este mai ușor de schimbat
+- d. se aplică doar autorităților
+
+> [!success]- Răspuns
+> **a. are forță juridică supremă și e mai greu de modificat**
+> 
+> Toate legile trebuie să i se conformeze.
+
+### 58. Constituția în vigoare a României a fost adoptată în:
+
+- a. 1991
+- b. 1989
+- c. 2003
+- d. 2007
+
+> [!success]- Răspuns
+> **a. 1991**
+> 
+> A fost revizuită în 2003.
+
+### 59. Limitarea unui drept fundamental este legitimă doar dacă:
+
+- a. este prevăzută de lege, proporțională și nu atinge existența dreptului
+- b. o cere guvernul
+- c. majoritatea o dorește
+- d. este utilă administrativ
+
+> [!success]- Răspuns
+> **a. este prevăzută de lege, proporțională și nu atinge existența dreptului**
+> 
+> Drepturile nu sunt absolute, dar nici la discreția puterii.
+
+### 60. Un drept fără mecanism de apărare:
+
+- a. rămâne o simplă declarație
+- b. se aplică automat
+- c. este mai puternic
+- d. nu poate fi încălcat
+
+> [!success]- Răspuns
+> **a. rămâne o simplă declarație**
+> 
+> De aceea contează instituțiile care îl garantează.
+
+### 61. Societatea civilă ocupă spațiul:
+
+- a. dintre individ și stat
+- b. din interiorul guvernului
+- c. din cadrul partidelor
+- d. al instituțiilor publice
+
+> [!success]- Răspuns
+> **a. dintre individ și stat**
+> 
+> Ea este independentă de stat și de piață.
+
+### 62. Un ONG se caracterizează prin faptul că:
+
+- a. nu împarte profit, ci îl folosește pentru misiune
+- b. maximizează profitul
+- c. face parte din administrație
+- d. candidează la alegeri
+
+> [!success]- Răspuns
+> **a. nu împarte profit, ci îl folosește pentru misiune**
+> 
+> Este o organizație fără scop lucrativ.
+
+### 63. Rolul de „câine de pază” al societății civile înseamnă:
+
+- a. monitorizarea modului în care este exercitată puterea
+- b. guvernarea directă
+- c. înlocuirea partidelor
+- d. administrarea bugetului de stat
+
+> [!success]- Răspuns
+> **a. monitorizarea modului în care este exercitată puterea**
+> 
+> Ea semnalează abuzurile și cere responsabilitate.
+
+### 64. Societatea civilă, într-o democrație:
+
+- a. completează statul și partidele, fără a le înlocui
+- b. înlocuiește statul
+- c. se substituie partidelor
+- d. conduce administrația
+
+> [!success]- Răspuns
+> **a. completează statul și partidele, fără a le înlocui**
+> 
+> Ea dă glas celor neauziți și controlează puterea.
+
+### 65. Faptul că mass-media stabilesc ce teme ajung în atenția publicului se numește:
+
+- a. efectul de agendă
+- b. efectul de seră
+- c. dovada socială
+- d. votul util
+
+> [!success]- Răspuns
+> **a. efectul de agendă**
+> 
+> Ele influențează despre ce discută publicul.
+
+### 66. Votul și contactarea aleșilor sunt forme de participare:
+
+- a. convențională
+- b. neconvențională
+- c. violentă
+- d. ilegală
+
+> [!success]- Răspuns
+> **a. convențională**
+> 
+> Protestele și campaniile sunt neconvenționale.
+
+### 67. Protestul pașnic este:
+
+- a. un drept legitim într-o democrație
+- b. o formă de violență
+- c. interzis prin lege
+- d. lipsit de orice efect
+
+> [!success]- Răspuns
+> **a. un drept legitim într-o democrație**
+> 
+> Violența, în schimb, delegitimează cauza.
+
+### 68. O opinie publică dezinformată:
+
+- a. slăbește democrația
+- b. o întărește
+- c. nu are niciun efect
+- d. înlocuiește votul
+
+> [!success]- Răspuns
+> **a. slăbește democrația**
+> 
+> De aceea gândirea critică este o competență civică.
+
+### 69. Egalitatea de șanse privește, în primul rând:
+
+- a. punctul de plecare și corectitudinea regulilor
+- b. egalitatea rezultatelor
+- c. veniturile identice
+- d. desființarea competiției
+
+> [!success]- Răspuns
+> **a. punctul de plecare și corectitudinea regulilor**
+> 
+> Nu cere ca toți să ajungă la fel, ci șanse corecte.
+
+### 70. Adaptarea unei clădiri publice pentru persoanele cu dizabilități este:
+
+- a. o măsură de egalizare a șanselor, nu un privilegiu
+- b. o discriminare nejustificată
+- c. un cost inutil
+- d. o simplă favoare
+
+> [!success]- Răspuns
+> **a. o măsură de egalizare a șanselor, nu un privilegiu**
+> 
+> Ea compensează un dezavantaj de pornire.
+
+### 71. Tratarea identică a unor situații diferite:
+
+- a. poate perpetua inegalitatea
+- b. garantează echitatea
+- c. este mereu corectă
+- d. elimină discriminarea
+
+> [!success]- Răspuns
+> **a. poate perpetua inegalitatea**
+> 
+> De aceea sunt uneori necesare măsuri active.
+
+### 72. O societate incluzivă:
+
+- a. valorifică potențialul tuturor membrilor
+- b. risipește talentele
+- c. exclude minoritățile
+- d. reduce coeziunea
+
+> [!success]- Răspuns
+> **a. valorifică potențialul tuturor membrilor**
+> 
+> Incluziunea este și dreptate, și investiție.
+
+### 73. Cetățenia este:
+
+- a. legătura juridică și politică dintre o persoană și un stat
+- b. simpla locuire într-o țară
+- c. apartenența la o etnie
+- d. deținerea unei proprietăți
+
+> [!success]- Răspuns
+> **a. legătura juridică și politică dintre o persoană și un stat**
+> 
+> Din ea izvorăsc drepturi și îndatoriri reciproce.
+
+### 74. Dreptul de vot face parte din drepturile:
+
+- a. politice
+- b. civile
+- c. sociale
+- d. economice
+
+> [!success]- Răspuns
+> **a. politice**
+> 
+> El revine, în principiu, cetățenilor.
+
+### 75. Referendumul este o formă a democrației:
+
+- a. directe
+- b. reprezentative
+- c. autoritare
+- d. delegate
+
+> [!success]- Răspuns
+> **a. directe**
+> 
+> Cetățenii decid ei înșiși asupra unei chestiuni.
+
+### 76. Statul de drept presupune că:
+
+- a. legea se aplică tuturor, inclusiv guvernanților
+- b. guvernanții sunt deasupra legii
+- c. legea se schimbă după bunul-plac
+- d. justiția depinde de executiv
+
+> [!success]- Răspuns
+> **a. legea se aplică tuturor, inclusiv guvernanților**
+> 
+> Egalitatea în fața legii este esența lui.
+
+### 77. Separarea puterilor a fost teoretizată de:
+
+- a. Montesquieu
+- b. Rousseau
+- c. Machiavelli
+- d. Aristotel
+
+> [!success]- Răspuns
+> **a. Montesquieu**
+> 
+> În „Despre spiritul legilor” (1748).
+
+### 78. Constituția în vigoare a României a fost adoptată în:
+
+- a. 1991
+- b. 1989
+- c. 2003
+- d. 2007
+
+> [!success]- Răspuns
+> **a. 1991**
+> 
+> Și revizuită în 2003.
+
+### 79. Cultura, în sens antropologic:
 
 - a. se învață prin socializare
 - b. se moștenește genetic
@@ -453,7 +957,7 @@ cssclasses: test
 > 
 > De aceea se poate și schimba în timp.
 
-### 38. Partea invizibilă a culturii cuprinde:
+### 80. Partea invizibilă a culturii cuprinde:
 
 - a. valorile și regulile nescrise
 - b. îmbrăcămintea
@@ -465,7 +969,7 @@ cssclasses: test
 > 
 > Ea produce cele mai multe neînțelegeri interculturale.
 
-### 39. Interculturalitatea se deosebește de multiculturalism prin:
+### 81. Interculturalitatea se deosebește de multiculturalism prin:
 
 - a. accentul pe interacțiune și schimb
 - b. recunoașterea diversității
@@ -477,7 +981,7 @@ cssclasses: test
 > 
 > Multiculturalismul riscă juxtapunerea comunităților.
 
-### 40. Decentrarea înseamnă:
+### 82. Decentrarea înseamnă:
 
 - a. a privi situația și din perspectiva celuilalt
 - b. a renunța la propria identitate
@@ -489,7 +993,7 @@ cssclasses: test
 > 
 > Este o abilitate a competenței interculturale.
 
-### 41. Lanțul corect este:
+### 83. Lanțul corect este:
 
 - a. stereotip → prejudecată → discriminare
 - b. discriminare → stereotip → prejudecată
@@ -501,7 +1005,7 @@ cssclasses: test
 > 
 > Fapta vine după imagine și atitudine.
 
-### 42. Discriminarea indirectă presupune:
+### 84. Discriminarea indirectă presupune:
 
 - a. o regulă aparent neutră, cu efect disproporționat
 - b. o regulă explicit dezavantajantă
@@ -513,7 +1017,7 @@ cssclasses: test
 > 
 > Efectul, nu formularea, o definește.
 
-### 43. Drepturile din prima generație cer statului:
+### 85. Drepturile din prima generație cer statului:
 
 - a. să se abțină de la intervenție
 - b. să ofere prestații
@@ -525,7 +1029,7 @@ cssclasses: test
 > 
 > Drepturile sociale cer statului să acționeze.
 
-### 44. Convenția cu privire la drepturile copilului a fost adoptată în:
+### 86. Convenția cu privire la drepturile copilului a fost adoptată în:
 
 - a. 1989
 - b. 1948
@@ -537,7 +1041,7 @@ cssclasses: test
 > 
 > Ea are patru principii fundamentale.
 
-### 45. Interesul superior al copilului înseamnă că:
+### 87. Interesul superior al copilului înseamnă că:
 
 - a. orice decizie care îl privește trebuie să îi servească binele
 - b. copilul decide singur
@@ -549,7 +1053,7 @@ cssclasses: test
 > 
 > Se aplică în justiție, educație și protecție socială.
 
-### 46. Curtea Europeană a Drepturilor Omului are sediul la:
+### 88. Curtea Europeană a Drepturilor Omului are sediul la:
 
 - a. Strasbourg
 - b. Bruxelles
@@ -561,7 +1065,7 @@ cssclasses: test
 > 
 > Ea aplică Convenția din 1950.
 
-### 47. Avocatul Poporului intervine:
+### 89. Avocatul Poporului intervine:
 
 - a. în raporturile dintre persoane și autoritățile publice
 - b. în litigii private
@@ -573,7 +1077,7 @@ cssclasses: test
 > 
 > El poate sesiza și Curtea Constituțională.
 
-### 48. Participarea civică între alegeri include:
+### 90. Participarea civică între alegeri include:
 
 - a. petiții, consultări publice, voluntariat
 - b. exclusiv votul
@@ -585,7 +1089,79 @@ cssclasses: test
 > 
 > Democrația funcționează continuu.
 
-### 49. Conflictul, gestionat bine:
+### 91. Societatea civilă este independentă de:
+
+- a. stat și de piață
+- b. cetățeni
+- c. lege
+- d. comunitate
+
+> [!success]- Răspuns
+> **a. stat și de piață**
+> 
+> Ea ocupă spațiul dintre individ și stat.
+
+### 92. Un ONG este o organizație:
+
+- a. fără scop lucrativ, cu o misiune de interes public
+- b. care maximizează profitul
+- c. parte a administrației publice
+- d. care candidează la alegeri
+
+> [!success]- Răspuns
+> **a. fără scop lucrativ, cu o misiune de interes public**
+> 
+> Profitul, dacă există, se folosește pentru misiune.
+
+### 93. Faptul că mass-media stabilesc temele aflate în atenția publicului se numește:
+
+- a. efectul de agendă
+- b. tirania majorității
+- c. votul util
+- d. dovada socială
+
+> [!success]- Răspuns
+> **a. efectul de agendă**
+> 
+> Ele influențează despre ce se discută public.
+
+### 94. Protestul pașnic este:
+
+- a. o formă legitimă de participare
+- b. o faptă ilegală
+- c. o formă de violență
+- d. lipsit de efect
+
+> [!success]- Răspuns
+> **a. o formă legitimă de participare**
+> 
+> Violența, dimpotrivă, delegitimează cauza.
+
+### 95. Egalitatea de șanse nu se confundă cu:
+
+- a. egalitatea de rezultat
+- b. nediscriminarea
+- c. echitatea
+- d. incluziunea
+
+> [!success]- Răspuns
+> **a. egalitatea de rezultat**
+> 
+> Ea privește punctul de plecare, nu punctul de sosire.
+
+### 96. Adaptarea spațiilor publice pentru persoanele cu dizabilități este:
+
+- a. o măsură de egalizare a șanselor
+- b. un privilegiu nejustificat
+- c. o discriminare
+- d. un cost inutil
+
+> [!success]- Răspuns
+> **a. o măsură de egalizare a șanselor**
+> 
+> Ea compensează un dezavantaj de pornire.
+
+### 97. Conflictul, gestionat bine:
 
 - a. poate produce soluții mai bune și relații mai solide
 - b. este întotdeauna distructiv
@@ -597,7 +1173,7 @@ cssclasses: test
 > 
 > Evitarea rezolvă rar ceva.
 
-### 50. Deosebirea dintre poziție și interes este că:
+### 98. Deosebirea dintre poziție și interes este că:
 
 - a. poziția e ce ceri, interesul e nevoia din spate
 - b. sunt sinonime
@@ -609,7 +1185,7 @@ cssclasses: test
 > 
 > Aceleași interese pot fi acoperite prin soluții diferite.
 
-### 51. Medierea presupune:
+### 99. Medierea presupune:
 
 - a. un terț neutru care facilitează, fără a impune soluția
 - b. un arbitru care decide
@@ -621,7 +1197,7 @@ cssclasses: test
 > 
 > Arbitrajul, dimpotrivă, impune soluția.
 
-### 52. Stilul „colaborare” în rezolvarea conflictelor caută:
+### 100. Stilul „colaborare” în rezolvarea conflictelor caută:
 
 - a. satisfacerea intereselor ambelor părți
 - b. câștigul unei singure părți
@@ -633,7 +1209,7 @@ cssclasses: test
 > 
 > Compromisul presupune cedări reciproce.
 
-### 53. Etnocentrismul înseamnă:
+### 101. Etnocentrismul înseamnă:
 
 - a. evaluarea altor culturi după criteriile propriei culturi
 - b. interesul pentru alte culturi
@@ -645,7 +1221,7 @@ cssclasses: test
 > 
 > Este bariera de fond a comunicării interculturale.
 
-### 54. Comunicarea de context înalt presupune că:
+### 102. Comunicarea de context înalt presupune că:
 
 - a. sensul se deduce în mare parte din situație
 - b. totul este spus explicit
@@ -657,7 +1233,7 @@ cssclasses: test
 > 
 > Neînțelegerile apar la contactul cu culturi de context redus.
 
-### 55. Presupunerea că tăcerea înseamnă acord:
+### 103. Presupunerea că tăcerea înseamnă acord:
 
 - a. este o eroare frecventă
 - b. este o regulă universală
@@ -669,7 +1245,7 @@ cssclasses: test
 > 
 > În unele culturi tăcerea exprimă dezacord.
 
-### 56. Relativismul metodologic:
+### 104. Relativismul metodologic:
 
 - a. cere înțelegerea în context, fără a suspenda drepturile fundamentale
 - b. acceptă orice practică
@@ -681,7 +1257,7 @@ cssclasses: test
 > 
 > Este instrument de analiză, nu poziție morală.
 
-### 57. Un proiect comunitar pornește de la:
+### 105. Un proiect comunitar pornește de la:
 
 - a. o nevoie reală, identificată cu cei vizați
 - b. o idee interesantă
@@ -693,7 +1269,7 @@ cssclasses: test
 > 
 > Altfel răspunde unei nevoi presupuse.
 
-### 58. Un obiectiv bun trebuie să fie:
+### 106. Un obiectiv bun trebuie să fie:
 
 - a. specific, măsurabil, realizabil, relevant, încadrat în timp
 - b. ambițios și general
@@ -705,7 +1281,7 @@ cssclasses: test
 > 
 > Fără indicator, realizarea nu poate fi verificată.
 
-### 59. Monitorizarea unui proiect înseamnă:
+### 107. Monitorizarea unui proiect înseamnă:
 
 - a. urmărirea desfășurării lui pe parcurs
 - b. evaluarea finală
@@ -717,7 +1293,7 @@ cssclasses: test
 > 
 > Ea permite corecții la timp.
 
-### 60. Voluntariatul dezvoltă, dincolo de efectul social:
+### 108. Voluntariatul dezvoltă, dincolo de efectul social:
 
 - a. competențe de organizare, comunicare și lucru în echipă
 - b. exclusiv cunoștințe teoretice

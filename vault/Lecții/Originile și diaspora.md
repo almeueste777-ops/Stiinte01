@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Originile și diaspora
 
-[[Istoria evreilor. Holocaustul (clasa a XI-a)|Istoria evreilor. Holocaustul]] · [[Clasa a XI-a]] · lecția 1 din 9
+[[Istoria evreilor. Holocaustul (clasa a XI-a)|Istoria evreilor. Holocaustul]] · [[Clasa a XI-a]] · lecția 1 din 18
 
 **Capitolul:** Evreii în istorie — semestrul 1
 

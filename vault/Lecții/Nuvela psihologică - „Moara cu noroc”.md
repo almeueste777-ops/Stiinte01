@@ -10,7 +10,7 @@ clasa: "a X-a"
 ---
 # Nuvela psihologică: „Moara cu noroc”
 
-[[Limba și literatura română (clasa a X-a)|Limba și literatura română]] · [[Clasa a X-a]] · lecția 2 din 9
+[[Limba și literatura română (clasa a X-a)|Limba și literatura română]] · [[Clasa a X-a]] · lecția 2 din 20
 
 **Capitolul:** Proza scurtă — semestrul 1
 

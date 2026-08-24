@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Comunicare în situații cotidiene
 
-[[Limba modernă 1 (Engleză) (clasa a IX-a)|Limba modernă 1 (Engleză)]] · [[Clasa a IX-a]] · lecția 8 din 9
+[[Limba modernă 1 (Engleză) (clasa a IX-a)|Limba modernă 1 (Engleză)]] · [[Clasa a IX-a]] · lecția 8 din 18
 
 **Capitolul:** Comunicare și vocabular — semestrul 2
 

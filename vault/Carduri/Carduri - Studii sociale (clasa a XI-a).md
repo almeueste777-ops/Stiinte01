@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Studii sociale (clasa a XI-a)
 
-36 carduri pentru [[Studii sociale (clasa a XI-a)|Studii sociale (clasa a XI-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+72 carduri pentru [[Studii sociale (clasa a XI-a)|Studii sociale (clasa a XI-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/studii-sociale
 
@@ -82,6 +82,78 @@ Ce criterii trebuie să îndeplinească un obiectiv?::Specific, măsurabil, real
 Care sunt greșelile frecvente în proiectele comunitare?::Obiective vagi, lipsa indicatorilor, ignorarea beneficiarilor, absența evaluării.
 
 Ce competențe dezvoltă voluntariatul?::Organizare, comunicare, lucru în echipă, responsabilitate.
+
+Ce este cetățenia?::Legătura juridică și politică dintre o persoană și un stat, din care izvorăsc drepturi și îndatoriri.
+
+Cum se dobândește cetățenia?::Prin naștere (dreptul sângelui sau al solului) și prin naturalizare.
+
+Care sunt cele trei categorii de drepturi ale cetățeanului?::Civile, politice și sociale.
+
+Ce înseamnă cetățenia activă?::Informare, participare și responsabilitate față de binele comun, dincolo de respectarea legii.
+
+Ce înseamnă democrația?::Un regim în care autoritatea derivă din voința cetățenilor, exprimată liber și periodic.
+
+Care sunt formele democrației?::Directă, reprezentativă și participativă.
+
+Ce oferă democrația, spre deosebire de alte regimuri?::Posibilitatea de a corecta greșelile fără violență, prin alegeri și dezbatere.
+
+De ce este esențială protecția minorității?::Pentru că, fără ea, democrația degenerează în tirania majorității.
+
+Ce este pluralismul politic?::Existența mai multor partide care concurează liber pentru putere.
+
+Care sunt caracteristicile sufragiului democratic?::Universal, egal, direct, secret și liber exprimat.
+
+Ce rol are opoziția?::Controlează guvernul și oferă o alternativă de guvernare.
+
+Ce presupune votul informat?::Cunoașterea programelor și a promisiunilor trecute, nu doar a imaginii candidaților.
+
+Ce este statul de drept?::Organizarea în care puterea se exercită doar în limitele legii, egală pentru toți.
+
+Ce înseamnă supremația Constituției?::Că nicio lege sau act nu o poate contrazice.
+
+Ce presupune securitatea juridică?::Legi clare, publice, neretroactive și stabile.
+
+Cum se erodează statul de drept?::Treptat: subordonarea justiției, legi părtinitoare, nesocotirea hotărârilor, atacuri la presă.
+
+Cine a teoretizat separarea puterilor?::Montesquieu, în „Despre spiritul legilor” (1748).
+
+Care sunt cele trei puteri?::Legislativă, executivă și judecătorească.
+
+Ce înseamnă „control reciproc”?::Pârghiile prin care fiecare putere limitează abuzurile celorlalte.
+
+De ce este esențială independența justiției?::Pentru că, fără ea, celelalte garanții ale statului de drept rămân formale.
+
+Ce este Constituția?::Legea fundamentală a unui stat, cu forța juridică supremă.
+
+Când a fost adoptată și revizuită Constituția României?::Adoptată în 1991, revizuită în 2003.
+
+Sunt drepturile fundamentale absolute?::Nu; ele pot fi limitate prin lege, proporțional, fără a atinge existența dreptului.
+
+Ce instituție verifică dacă legile respectă Constituția?::Curtea Constituțională.
+
+Ce este societatea civilă?::Ansamblul asociațiilor și grupurilor independente de stat și de piață, organizate pentru scopuri comune.
+
+Ce este un ONG?::O asociație sau fundație fără scop lucrativ, care urmărește o misiune de interes public.
+
+Care sunt funcțiile societății civile?::Apără drepturi, oferă servicii, monitorizează puterea, semnalează probleme, mobilizează.
+
+De ce contează independența societății civile?::Pentru că îi asigură credibilitatea în fața statului și a intereselor.
+
+Ce este opinia publică?::Ansamblul opiniilor împărtășite de mulți oameni asupra unor chestiuni de interes comun.
+
+Cum se formează opinia publică?::Prin discuție, educație, experiență și mass-media.
+
+Ce forme de participare democratică există?::Votul, petițiile, consultările, protestele pașnice, voluntariatul, inițiativa cetățenească.
+
+De ce delegitimează violența un protest?::Pentru că mută atenția de la cauză la faptă și încalcă drepturile celorlalți.
+
+Ce este egalitatea de șanse?::Posibilitatea reală, egală pentru toți, de a-și dezvolta potențialul și de a accede la resurse.
+
+Cu ce nu trebuie confundată egalitatea de șanse?::Cu egalitatea de rezultat: ea privește punctul de plecare, nu punctul de sosire.
+
+De ce sunt necesare măsurile active?::Pentru că tratarea identică a unor situații diferite poate perpetua inegalitatea.
+
+Ce este incluziunea socială?::Procesul de sprijinire a participării depline a persoanelor expuse riscului de excluziune.
 
 ---
 

@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Pronunție și ortografie
 
-[[Limba modernă 2 (Franceză) (clasa a IX-a)|Limba modernă 2 (Franceză)]] · [[Clasa a IX-a]] · lecția 1 din 9
+[[Limba modernă 2 (Franceză) (clasa a IX-a)|Limba modernă 2 (Franceză)]] · [[Clasa a IX-a]] · lecția 1 din 18
 
 **Capitolul:** Sunete, articole, substantive — semestrul 1
 

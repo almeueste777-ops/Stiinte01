@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Proiect comunitar și acțiune civică
 
-[[Studii sociale (clasa a XI-a)|Studii sociale]] · [[Clasa a XI-a]] · lecția 9 din 9
+[[Studii sociale (clasa a XI-a)|Studii sociale]] · [[Clasa a XI-a]] · lecția 9 din 18
 
 **Capitolul:** Conflict, comunicare, comunitate — semestrul 2
 
@@ -29,6 +29,6 @@ Un proiect comunitar pornește de la o nevoie reală, identificată împreună c
 
 ---
 
-⬅ [[Comunicarea în situații interculturale]]
+⬅ [[Comunicarea în situații interculturale]] · [[Cetățenia - statut, drepturi, îndatoriri]] ➡
 
 Exersează: [[Carduri - Studii sociale (clasa a XI-a)]] · [[Test - Studii sociale (clasa a XI-a)]]

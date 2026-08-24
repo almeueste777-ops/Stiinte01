@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Geografie (clasa a XII-a)
 
-61 întrebări din [[Geografie (clasa a XII-a)|Geografie (clasa a XII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+117 întrebări din [[Geografie (clasa a XII-a)|Geografie (clasa a XII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Limita estică a Europei este dată de:
 
@@ -441,7 +441,607 @@ cssclasses: test
 > 
 > Schengen și zona euro presupun proceduri separate.
 
-### 37. Limita estică a Europei este dată de:
+### 37. Cel mai lung fluviu al Europei este:
+
+- a. Volga
+- b. Dunărea
+- c. Rinul
+- d. Nipru
+
+> [!success]- Răspuns
+> **a. Volga**
+> 
+> Dunărea este al doilea, cu 2 860 km.
+
+### 38. Marea Baltică se caracterizează prin:
+
+- a. salinitate redusă
+- b. salinitate foarte ridicată
+- c. ape calde tot anul
+- d. lipsa oricărei legături cu oceanul
+
+> [!success]- Răspuns
+> **a. salinitate redusă**
+> 
+> Aportul mare de apă dulce îi scade salinitatea.
+
+### 39. Marea Neagră comunică cu Marea Mediterană prin:
+
+- a. strâmtorile Bosfor și Dardanele
+- b. Canalul Suez
+- c. strâmtoarea Gibraltar
+- d. Canalul Kiel
+
+> [!success]- Răspuns
+> **a. strâmtorile Bosfor și Dardanele**
+> 
+> Bosforul leagă Marea Neagră de Marea Marmara.
+
+### 40. Cea mai circulată arteră fluvială a Europei este:
+
+- a. Rinul
+- b. Volga
+- c. Tamisa
+- d. Vistula
+
+> [!success]- Răspuns
+> **a. Rinul**
+> 
+> El leagă interiorul industrial de porturile Mării Nordului.
+
+### 41. Cea mai seismică zonă a României este:
+
+- a. zona Vrancea
+- b. Delta Dunării
+- c. Câmpia de Vest
+- d. Podișul Transilvaniei
+
+> [!success]- Răspuns
+> **a. zona Vrancea**
+> 
+> De aici pornesc cutremurele de adâncime intermediară.
+
+### 42. Pactul Ecologic European fixează neutralitatea climatică până în:
+
+- a. 2050
+- b. 2030
+- c. 2040
+- d. 2070
+
+> [!success]- Răspuns
+> **a. 2050**
+> 
+> O etapă intermediară vizează reducerea emisiilor până în 2030.
+
+### 43. Erupțiile vulcanice și seismele frecvente caracterizează, în Europa, mai ales:
+
+- a. sudul continentului (Italia, Grecia, Balcani)
+- b. nordul Scandinaviei
+- c. Câmpia Europei de Est
+- d. Țările de Jos
+
+> [!success]- Răspuns
+> **a. sudul continentului (Italia, Grecia, Balcani)**
+> 
+> Ele se leagă de limita dintre plăci în Mediterană.
+
+### 44. Rețeaua Natura 2000 din România acoperă aproximativ:
+
+- a. 23% din teritoriu
+- b. 5%
+- c. 40%
+- d. 60%
+
+> [!success]- Răspuns
+> **a. 23% din teritoriu**
+> 
+> Este una dintre cele mai mari ponderi din Uniune.
+
+### 45. Depresiunea Colinară a Transilvaniei este înconjurată de:
+
+- a. lanțul Carpaților
+- b. Câmpia Română
+- c. Podișul Dobrogei
+- d. Delta Dunării
+
+> [!success]- Răspuns
+> **a. lanțul Carpaților**
+> 
+> De aici caracterul concentric al reliefului României.
+
+### 46. Regiunea dintre Dunăre și Marea Neagră este:
+
+- a. Dobrogea
+- b. Moldova
+- c. Banatul
+- d. Oltenia
+
+> [!success]- Răspuns
+> **a. Dobrogea**
+> 
+> Ea cuprinde litoralul și Delta Dunării.
+
+### 47. Mănăstirile pictate, din patrimoniul UNESCO, se află în:
+
+- a. Moldova (nordul ei)
+- b. Dobrogea
+- c. Banat
+- d. Oltenia
+
+> [!success]- Răspuns
+> **a. Moldova (nordul ei)**
+> 
+> Ele sunt un reper turistic și cultural major.
+
+### 48. Regiunile de dezvoltare ale României sunt în număr de:
+
+- a. opt
+- b. șase
+- c. patruzeci și unu
+- d. zece
+
+> [!success]- Răspuns
+> **a. opt**
+> 
+> Ele servesc statisticii europene și fondurilor de coeziune.
+
+### 49. Cea mai numeroasă minoritate etnică din România este:
+
+- a. maghiară
+- b. germană
+- c. turcă
+- d. sârbă
+
+> [!success]- Răspuns
+> **a. maghiară**
+> 
+> Ea este concentrată în centru și în vest.
+
+### 50. Structura pe medii a populației României este de aproximativ:
+
+- a. 54% urban și 46% rural
+- b. 80% urban și 20% rural
+- c. 30% urban și 70% rural
+- d. 50% și 50%
+
+> [!success]- Răspuns
+> **a. 54% urban și 46% rural**
+> 
+> Ponderea urbană crește lent.
+
+### 51. Ponderea populației de peste 65 de ani în România a depășit:
+
+- a. 19%
+- b. 5%
+- c. 40%
+- d. 50%
+
+> [!success]- Răspuns
+> **a. 19%**
+> 
+> Îmbătrânirea demografică se accentuează.
+
+### 52. Principalele destinații ale emigrației românești după 1990 au fost:
+
+- a. Italia, Spania, Germania și Regatul Unit
+- b. Rusia și China
+- c. Statele Unite și Canada
+- d. statele nordice exclusiv
+
+> [!success]- Răspuns
+> **a. Italia, Spania, Germania și Regatul Unit**
+> 
+> Peste trei milioane de persoane au plecat.
+
+### 53. Cel mai mare oraș al României este:
+
+- a. București
+- b. Cluj-Napoca
+- c. Timișoara
+- d. Iași
+
+> [!success]- Răspuns
+> **a. București**
+> 
+> El are peste 1,7 milioane de locuitori.
+
+### 54. Cel mai mare centru urban al Moldovei este:
+
+- a. Iași
+- b. Galați
+- c. Bacău
+- d. Suceava
+
+> [!success]- Răspuns
+> **a. Iași**
+> 
+> El este un important centru universitar și medical.
+
+### 55. Constanța este importantă în rețeaua urbană a României ca:
+
+- a. cel mai mare port la Marea Neagră
+- b. capitală istorică
+- c. centru minier
+- d. stațiune montană
+
+> [!success]- Răspuns
+> **a. cel mai mare port la Marea Neagră**
+> 
+> Ea este legată de Dunăre prin canal.
+
+### 56. Dominația Bucureștiului asupra rețelei urbane se numește:
+
+- a. macrocefalie urbană
+- b. conurbație
+- c. suburbanizare
+- d. rețea echilibrată
+
+> [!success]- Răspuns
+> **a. macrocefalie urbană**
+> 
+> Ea accentuează dezechilibrele teritoriale.
+
+### 57. Cel mai mare port al României este:
+
+- a. Constanța
+- b. Galați
+- c. Brăila
+- d. Tulcea
+
+> [!success]- Răspuns
+> **a. Constanța**
+> 
+> El este cel mai mare port de la Marea Neagră.
+
+### 58. Canalul Dunăre–Marea Neagră leagă:
+
+- a. Cernavodă de Constanța
+- b. Galați de Brăila
+- c. Giurgiu de Ruse
+- d. Tulcea de Sulina
+
+> [!success]- Răspuns
+> **a. Cernavodă de Constanța**
+> 
+> El scurtează semnificativ ruta spre mare.
+
+### 59. Principalul punct slab al transporturilor din România este:
+
+- a. numărul redus de autostrăzi și rețeaua feroviară învechită
+- b. lipsa fluviilor navigabile
+- c. absența aeroporturilor
+- d. lipsa ieșirii la mare
+
+> [!success]- Răspuns
+> **a. numărul redus de autostrăzi și rețeaua feroviară învechită**
+> 
+> Modernizarea infrastructurii este o prioritate.
+
+### 60. Poziția României la intersecția coridoarelor de transport european reprezintă:
+
+- a. un avantaj strategic încă nevalorificat pe deplin
+- b. un dezavantaj permanent
+- c. un element fără importanță
+- d. o piedică în calea comerțului
+
+> [!success]- Răspuns
+> **a. un avantaj strategic încă nevalorificat pe deplin**
+> 
+> Valorificarea lui depinde de investiții.
+
+### 61. Mănăstirile pictate, atracție turistică majoră, se află în:
+
+- a. nordul Moldovei
+- b. Dobrogea
+- c. Banat
+- d. Oltenia
+
+> [!success]- Răspuns
+> **a. nordul Moldovei**
+> 
+> Bisericile fortificate sunt specifice Transilvaniei.
+
+### 62. România deține din rezervele europene de ape minerale:
+
+- a. peste o treime
+- b. circa 5%
+- c. circa 50%
+- d. sub 1%
+
+> [!success]- Răspuns
+> **a. peste o treime**
+> 
+> Este o resursă turistică balneară slab valorificată.
+
+### 63. Delta Dunării reprezintă, ca resursă turistică:
+
+- a. un ecosistem unic în Europa
+- b. o stațiune montană
+- c. o zonă industrială
+- d. un centru urban
+
+> [!success]- Răspuns
+> **a. un ecosistem unic în Europa**
+> 
+> Ea este rezervație a biosferei și sit UNESCO.
+
+### 64. Principala regiune turistică a Europei, ca număr de vizitatori, este:
+
+- a. Mediterana
+- b. nordul Scandinaviei
+- c. Câmpia Europei de Est
+- d. litoralul Mării Baltice
+
+> [!success]- Răspuns
+> **a. Mediterana**
+> 
+> Litoralul și patrimoniul cultural atrag cei mai mulți turiști.
+
+### 65. În economiile dezvoltate ale Europei, sectorul terțiar asigură:
+
+- a. peste 70% din locurile de muncă
+- b. sub 20%
+- c. exact 50%
+- d. circa 5%
+
+> [!success]- Răspuns
+> **a. peste 70% din locurile de muncă**
+> 
+> El domină net economia.
+
+### 66. Sectorul cuaternar cuprinde:
+
+- a. cercetarea, tehnologia informației și serviciile de vârf
+- b. agricultura
+- c. industria grea
+- d. construcțiile
+
+> [!success]- Răspuns
+> **a. cercetarea, tehnologia informației și serviciile de vârf**
+> 
+> El este motorul competitivității.
+
+### 67. Economia bazată pe cunoaștere se concentrează, de regulă:
+
+- a. în orașe mari, lângă universități și centre de cercetare
+- b. în zonele rurale
+- c. lângă bazinele carbonifere
+- d. pe litoral
+
+> [!success]- Răspuns
+> **a. în orașe mari, lângă universități și centre de cercetare**
+> 
+> Capitalul uman este resursa ei principală.
+
+### 68. Un motor de creștere al economiei românești după 2000 a fost:
+
+- a. industria IT și externalizarea de servicii
+- b. extracția cărbunelui
+- c. siderurgia grea
+- d. pescuitul oceanic
+
+> [!success]- Răspuns
+> **a. industria IT și externalizarea de servicii**
+> 
+> Ea s-a dezvoltat în orașele universitare.
+
+### 69. Cea mai mare economie a Europei se află în:
+
+- a. Europa Centrală (Germania)
+- b. Europa Nordică
+- c. Europa Sudică
+- d. Europa Estică
+
+> [!success]- Răspuns
+> **a. Europa Centrală (Germania)**
+> 
+> Germania are industrie auto și de echipamente puternică.
+
+### 70. Modelul social al bunăstării, cu impozitare ridicată și servicii extinse, caracterizează:
+
+- a. Europa Nordică
+- b. Europa Sudică
+- c. Europa Estică
+- d. Balcanii de Vest
+
+> [!success]- Răspuns
+> **a. Europa Nordică**
+> 
+> Indicatorii sociali de acolo sunt printre cei mai buni din lume.
+
+### 71. Climatul mediteraneean, turismul și agricultura specializată caracterizează:
+
+- a. Europa Sudică
+- b. Europa Nordică
+- c. Europa Vestică
+- d. statele baltice
+
+> [!success]- Răspuns
+> **a. Europa Sudică**
+> 
+> Șomajul tinerilor este o problemă structurală a regiunii.
+
+### 72. Diviziunile Europei sunt:
+
+- a. grupări convenționale, utile pentru comparație
+- b. granițe politice rigide
+- c. unități administrative ale Uniunii Europene
+- d. limite naturale nete
+
+> [!success]- Răspuns
+> **a. grupări convenționale, utile pentru comparație**
+> 
+> Ele reflectă condiții naturale și istorice comune.
+
+### 73. Politica de coeziune a Uniunii Europene urmărește:
+
+- a. reducerea decalajelor dintre regiuni
+- b. unificarea sistemelor fiscale
+- c. crearea unei armate comune
+- d. controlul migrației
+
+> [!success]- Răspuns
+> **a. reducerea decalajelor dintre regiuni**
+> 
+> Ea folosește fonduri structurale și de investiții.
+
+### 74. Politica Agricolă Comună este:
+
+- a. una dintre cele mai vechi politici comune, de susținere a agriculturii
+- b. o politică de apărare
+- c. o politică monetară
+- d. o politică exclusiv de mediu
+
+> [!success]- Răspuns
+> **a. una dintre cele mai vechi politici comune, de susținere a agriculturii**
+> 
+> Ea absoarbe o parte importantă din bugetul european.
+
+### 75. Cele patru libertăți ale pieței interne sunt libera circulație a:
+
+- a. mărfurilor, serviciilor, capitalurilor și persoanelor
+- b. mărfurilor, energiei, ideilor și persoanelor
+- c. serviciilor, informațiilor, armelor și mărfurilor
+- d. persoanelor, mărfurilor, valutei și energiei
+
+> [!success]- Răspuns
+> **a. mărfurilor, serviciilor, capitalurilor și persoanelor**
+> 
+> Ele stau la baza pieței unice.
+
+### 76. Pentru România, apartenența la politicile Uniunii a însemnat:
+
+- a. acces la fonduri și la piața unică, dar și obligații
+- b. renunțarea la constituție
+- c. adoptarea imediată a monedei euro
+- d. ieșirea din NATO
+
+> [!success]- Răspuns
+> **a. acces la fonduri și la piața unică, dar și obligații**
+> 
+> Absorbția fondurilor sub potențial rămâne o provocare.
+
+### 77. Poziția geopolitică a României este marcată de faptul că se află:
+
+- a. la frontiera estică a Uniunii Europene și a NATO, cu ieșire la Marea Neagră
+- b. în centrul geografic al Uniunii
+- c. fără ieșire la mare
+- d. în afara oricărei alianțe
+
+> [!success]- Răspuns
+> **a. la frontiera estică a Uniunii Europene și a NATO, cu ieșire la Marea Neagră**
+> 
+> Ea controlează și gurile Dunării.
+
+### 78. Comparativ cu statele vecine, România are:
+
+- a. cea mai mare suprafață și populație din regiune
+- b. cea mai mică suprafață
+- c. cea mai slabă agricultură
+- d. cele mai puține resurse
+
+> [!success]- Răspuns
+> **a. cea mai mare suprafață și populație din regiune**
+> 
+> Rămâne însă în urmă la infrastructură.
+
+### 79. Principalul avantaj strategic nevalorificat al României este:
+
+- a. poziția la intersecția coridoarelor de transport european
+- b. lipsa resurselor
+- c. izolarea geografică
+- d. absența ieșirii la mare
+
+> [!success]- Răspuns
+> **a. poziția la intersecția coridoarelor de transport european**
+> 
+> Valorificarea lui depinde de investiții.
+
+### 80. O provocare majoră pentru perspectivele României este:
+
+- a. declinul și îmbătrânirea populației
+- b. suprapopularea
+- c. excesul de forță de muncă
+- d. lipsa terenului agricol
+
+> [!success]- Răspuns
+> **a. declinul și îmbătrânirea populației**
+> 
+> Ea cere investiții în educație, sănătate și ocupare.
+
+### 81. Cel mai lung fluviu al Europei este:
+
+- a. Volga
+- b. Dunărea
+- c. Rinul
+- d. Nipru
+
+> [!success]- Răspuns
+> **a. Volga**
+> 
+> Dunărea este al doilea, cu 2 860 km.
+
+### 82. Cea mai seismică zonă a României este:
+
+- a. zona Vrancea
+- b. Delta Dunării
+- c. Câmpia de Vest
+- d. Podișul Transilvaniei
+
+> [!success]- Răspuns
+> **a. zona Vrancea**
+> 
+> De aici pornesc cutremurele de adâncime intermediară.
+
+### 83. Regiunea dintre Dunăre și Marea Neagră este:
+
+- a. Dobrogea
+- b. Moldova
+- c. Banatul
+- d. Oltenia
+
+> [!success]- Răspuns
+> **a. Dobrogea**
+> 
+> Ea cuprinde litoralul și Delta Dunării.
+
+### 84. Cea mai numeroasă minoritate etnică din România este:
+
+- a. maghiară
+- b. germană
+- c. turcă
+- d. sârbă
+
+> [!success]- Răspuns
+> **a. maghiară**
+> 
+> Ea este concentrată în centru și în vest.
+
+### 85. Cel mai mare oraș al României este:
+
+- a. București
+- b. Cluj-Napoca
+- c. Timișoara
+- d. Constanța
+
+> [!success]- Răspuns
+> **a. București**
+> 
+> El are peste 1,7 milioane de locuitori.
+
+### 86. Rețeaua Natura 2000 acoperă în România aproximativ:
+
+- a. 23% din teritoriu
+- b. 5%
+- c. 40%
+- d. 60%
+
+> [!success]- Răspuns
+> **a. 23% din teritoriu**
+> 
+> Este una dintre cele mai mari ponderi din Uniune.
+
+### 87. Limita estică a Europei este dată de:
 
 - a. Munții Ural, râul Ural și Marea Caspică
 - b. Munții Caucaz
@@ -453,7 +1053,7 @@ cssclasses: test
 > 
 > Este o limită convențională.
 
-### 38. Suprafața României este de:
+### 88. Suprafața României este de:
 
 - a. 238 397 km²
 - b. 312 000 km²
@@ -465,7 +1065,7 @@ cssclasses: test
 > 
 > România este a douăsprezecea ca mărime din Europa.
 
-### 39. Proporțiile treptelor de relief din România sunt aproximativ:
+### 89. Proporțiile treptelor de relief din România sunt aproximativ:
 
 - a. 31% munți, 36% dealuri și podișuri, 33% câmpii
 - b. 50% munți, 30% dealuri, 20% câmpii
@@ -477,7 +1077,7 @@ cssclasses: test
 > 
 > De aici caracterul proporțional al reliefului.
 
-### 40. Cel mai înalt vârf din România este:
+### 90. Cel mai înalt vârf din România este:
 
 - a. Moldoveanu (2 544 m)
 - b. Negoiu (2 535 m)
@@ -489,7 +1089,7 @@ cssclasses: test
 > 
 > Ambele primele se află în Munții Făgăraș.
 
-### 41. Cel mai vechi relief din România se află în:
+### 91. Cel mai vechi relief din România se află în:
 
 - a. Podișul Dobrogei
 - b. Carpații Meridionali
@@ -501,7 +1101,7 @@ cssclasses: test
 > 
 > Delta este cea mai nouă unitate.
 
-### 42. Relieful carstic este cel mai bine dezvoltat în:
+### 92. Relieful carstic este cel mai bine dezvoltat în:
 
 - a. Munții Apuseni
 - b. Munții Rodnei
@@ -513,7 +1113,7 @@ cssclasses: test
 > 
 > Peșterile Scărișoara și Urșilor sunt exemple.
 
-### 43. Climatul României este:
+### 93. Climatul României este:
 
 - a. temperat-continental de tranziție
 - b. temperat-oceanic
@@ -525,7 +1125,7 @@ cssclasses: test
 > 
 > El primește cinci tipuri de influențe.
 
-### 44. Din lungimea totală a Dunării, pe teritoriul României curg:
+### 94. Din lungimea totală a Dunării, pe teritoriul României curg:
 
 - a. 1 075 km
 - b. 2 860 km
@@ -537,7 +1137,7 @@ cssclasses: test
 > 
 > Lungimea totală este de 2 860 km.
 
-### 45. Lacul Sfânta Ana este un lac:
+### 95. Lacul Sfânta Ana este un lac:
 
 - a. vulcanic
 - b. glaciar
@@ -549,7 +1149,7 @@ cssclasses: test
 > 
 > S-a format într-un crater vulcanic.
 
-### 46. Populația României la recensământul din 2021 era de aproximativ:
+### 96. Populația României la recensământul din 2021 era de aproximativ:
 
 - a. 19 milioane
 - b. 22 de milioane
@@ -561,7 +1161,7 @@ cssclasses: test
 > 
 > În 1992 erau 22,8 milioane.
 
-### 47. România are:
+### 97. România are:
 
 - a. 41 de județe plus municipiul București
 - b. 40 de județe
@@ -573,7 +1173,7 @@ cssclasses: test
 > 
 > Organizarea actuală datează din 1968.
 
-### 48. Regiunile de dezvoltare ale României sunt în număr de:
+### 98. Regiunile de dezvoltare ale României sunt în număr de:
 
 - a. opt
 - b. șase
@@ -585,7 +1185,79 @@ cssclasses: test
 > 
 > Ele nu au statut administrativ.
 
-### 49. Huila se exploatează în România în:
+### 99. Canalul Dunăre–Marea Neagră leagă:
+
+- a. Cernavodă de Constanța
+- b. Galați de Brăila
+- c. Giurgiu de Ruse
+- d. Tulcea de Sulina
+
+> [!success]- Răspuns
+> **a. Cernavodă de Constanța**
+> 
+> El scurtează ruta spre mare.
+
+### 100. România deține din rezervele europene de ape minerale:
+
+- a. peste o treime
+- b. circa 5%
+- c. circa 50%
+- d. sub 1%
+
+> [!success]- Răspuns
+> **a. peste o treime**
+> 
+> Este o resursă balneară slab valorificată.
+
+### 101. Sectorul cuaternar cuprinde:
+
+- a. cercetarea, tehnologia informației și serviciile de vârf
+- b. agricultura
+- c. industria grea
+- d. construcțiile
+
+> [!success]- Răspuns
+> **a. cercetarea, tehnologia informației și serviciile de vârf**
+> 
+> El este motorul competitivității.
+
+### 102. Cea mai mare economie a Europei se află în:
+
+- a. Europa Centrală (Germania)
+- b. Europa Nordică
+- c. Europa Sudică
+- d. Europa Estică
+
+> [!success]- Răspuns
+> **a. Europa Centrală (Germania)**
+> 
+> Germania are industrie auto puternică.
+
+### 103. Politica de coeziune a Uniunii Europene urmărește:
+
+- a. reducerea decalajelor dintre regiuni
+- b. unificarea fiscalității
+- c. crearea unei armate comune
+- d. controlul migrației
+
+> [!success]- Răspuns
+> **a. reducerea decalajelor dintre regiuni**
+> 
+> Ea folosește fonduri structurale și de investiții.
+
+### 104. România a aderat la NATO și la Uniunea Europeană în:
+
+- a. 2004, respectiv 2007
+- b. 2007, respectiv 2004
+- c. 1999, respectiv 2004
+- d. 2004, respectiv 2014
+
+> [!success]- Răspuns
+> **a. 2004, respectiv 2007**
+> 
+> Aderarea la NATO a precedat-o pe cea la Uniune.
+
+### 105. Huila se exploatează în România în:
 
 - a. Valea Jiului
 - b. Oltenia
@@ -597,7 +1269,7 @@ cssclasses: test
 > 
 > În Oltenia se exploatează lignit.
 
-### 50. Centrala nuclearelectrică a României se află la:
+### 106. Centrala nuclearelectrică a României se află la:
 
 - a. Cernavodă
 - b. Porțile de Fier
@@ -609,7 +1281,7 @@ cssclasses: test
 > 
 > Ea folosește tehnologie CANDU.
 
-### 51. Cel mai mare potențial eolian din România se află în:
+### 107. Cel mai mare potențial eolian din România se află în:
 
 - a. Dobrogea
 - b. Transilvania
@@ -621,7 +1293,7 @@ cssclasses: test
 > 
 > Vânturile constante au atras investiții importante.
 
-### 52. România deține din rezervele europene de ape minerale:
+### 108. România deține din rezervele europene de ape minerale:
 
 - a. peste o treime
 - b. circa 5%
@@ -633,7 +1305,7 @@ cssclasses: test
 > 
 > Este una dintre resursele slab valorificate.
 
-### 53. Suprafața agricolă a României este de:
+### 109. Suprafața agricolă a României este de:
 
 - a. peste 14 milioane de hectare
 - b. 8 milioane de hectare
@@ -645,7 +1317,7 @@ cssclasses: test
 > 
 > Circa 9 milioane sunt arabile.
 
-### 54. Cel mai mare port de la Marea Neagră este:
+### 110. Cel mai mare port de la Marea Neagră este:
 
 - a. Constanța
 - b. Odesa
@@ -657,7 +1329,7 @@ cssclasses: test
 > 
 > El este legat de Dunăre prin canal.
 
-### 55. Mănăstirile pictate sunt o resursă turistică specifică:
+### 111. Mănăstirile pictate sunt o resursă turistică specifică:
 
 - a. nordului Moldovei
 - b. Transilvaniei
@@ -669,7 +1341,7 @@ cssclasses: test
 > 
 > Bisericile fortificate sunt specifice Transilvaniei.
 
-### 56. Cele patru libertăți ale pieței interne europene sunt circulația liberă a:
+### 112. Cele patru libertăți ale pieței interne europene sunt circulația liberă a:
 
 - a. mărfurilor, serviciilor, capitalurilor și persoanelor
 - b. mărfurilor, informațiilor, energiei și persoanelor
@@ -681,7 +1353,7 @@ cssclasses: test
 > 
 > Ele stau la baza pieței unice.
 
-### 57. Dreptul de inițiativă legislativă europeană aparține:
+### 113. Dreptul de inițiativă legislativă europeană aparține:
 
 - a. Comisiei Europene
 - b. Parlamentului European
@@ -693,7 +1365,7 @@ cssclasses: test
 > 
 > Parlamentul și Consiliul adoptă legislația.
 
-### 58. Uniunea Europeană a fost creată prin Tratatul de la:
+### 114. Uniunea Europeană a fost creată prin Tratatul de la:
 
 - a. Maastricht (1992)
 - b. Roma (1957)
@@ -705,7 +1377,7 @@ cssclasses: test
 > 
 > El a pregătit și moneda unică.
 
-### 59. România a aderat la Uniunea Europeană la:
+### 115. România a aderat la Uniunea Europeană la:
 
 - a. 1 ianuarie 2007
 - b. 1 mai 2004
@@ -717,7 +1389,7 @@ cssclasses: test
 > 
 > La NATO aderase în 2004.
 
-### 60. Ponderea exporturilor României către Uniunea Europeană este de:
+### 116. Ponderea exporturilor României către Uniunea Europeană este de:
 
 - a. peste 70%
 - b. circa 40%
@@ -729,7 +1401,7 @@ cssclasses: test
 > 
 > Piața unică este principala destinație a exporturilor.
 
-### 61. Regiunea cea mai dezvoltată economic din România este:
+### 117. Regiunea cea mai dezvoltată economic din România este:
 
 - a. București-Ilfov
 - b. Nord-Vest

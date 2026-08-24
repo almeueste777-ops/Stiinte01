@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Harta, GIS și interpretarea datelor geografice
 
-[[Geografie (clasa a XI-a)|Geografie]] · [[Clasa a XI-a]] · lecția 9 din 9
+[[Geografie (clasa a XI-a)|Geografie]] · [[Clasa a XI-a]] · lecția 9 din 20
 
 **Capitolul:** Metode și instrumente — semestrul 2
 
@@ -29,6 +29,6 @@ Harta este reprezentarea convențională, micșorată și generalizată, a supra
 
 ---
 
-⬅ [[Regiuni și inegalități la scară mondială]]
+⬅ [[Regiuni și inegalități la scară mondială]] · [[Hazardele naturale - geologice și climatice]] ➡
 
 Exersează: [[Carduri - Geografie (clasa a XI-a)]] · [[Test - Geografie (clasa a XI-a)]]

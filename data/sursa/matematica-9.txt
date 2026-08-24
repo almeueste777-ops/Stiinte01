@@ -350,7 +350,397 @@ Ecuația dreptei are mai multe forme: explicită (y = mx + n), prin punct și pa
 - cu discriminantul
 ! Aria este jumătate din modulul determinantului.
 
+## 1 | mat9-c4 | Logică matematică și mulțimi
+### mat9-10 | Propoziții și operații logice
+O propoziție logică este un enunț care este fie adevărat, fie fals, dar niciodată ambele în același timp; valoarea de adevăr este tocmai adevărul sau falsul propoziției. Enunțurile care exprimă întrebări, ordine sau păreri nu sunt propoziții logice, pentru că nu li se poate atribui o valoare de adevăr.
+
+Din propoziții simple se formează propoziții compuse cu ajutorul operatorilor logici. Negația schimbă valoarea de adevăr în opusul ei. Conjuncția „p și q" este adevărată numai când ambele propoziții sunt adevărate. Disjuncția „p sau q" este falsă numai când ambele sunt false. Implicația „p implică q" este falsă într-un singur caz: când p este adevărată și q falsă. Cuantificatorii extind logica la predicate: cuantificatorul universal („oricare") și cel existențial („există"). Negarea unui enunț universal dă unul existențial: negația lui „toți elevii au promovat" este „există cel puțin un elev care nu a promovat".
+* O propoziție logică are exact o valoare de adevăr: adevărat sau fals.
+* Conjuncția este adevărată doar când ambele propoziții sunt adevărate.
+* Implicația este falsă doar când premisa e adevărată și concluzia falsă.
+* Negarea unui enunț universal dă un enunț existențial.
+= propoziție logică :: enunț care este fie adevărat, fie fals, dar nu ambele
+= cuantificator universal :: operatorul „oricare", care afirmă o proprietate pentru toate elementele
+@ Ce este o propoziție logică? :: Un enunț căruia i se poate atribui exact o valoare de adevăr.
+@ Când este adevărată conjuncția „p și q"? :: Numai când ambele propoziții sunt adevărate.
+@ Când este falsă implicația „p implică q"? :: Numai când p este adevărată, iar q este falsă.
+@ Care este negația enunțului „toate elementele au proprietatea"? :: „Există cel puțin un element care nu are proprietatea".
+? O propoziție logică este un enunț care:
++ este adevărat sau fals, dar nu ambele
+- exprimă o întrebare
+- exprimă o părere
+- nu are valoare de adevăr
+! Întrebările și ordinele nu sunt propoziții logice.
+? Conjuncția „p și q" este adevărată:
++ numai când ambele propoziții sunt adevărate
+- când cel puțin una e adevărată
+- când ambele sunt false
+- întotdeauna
+! Disjuncția e cea adevărată când cel puțin una e adevărată.
+? Implicația „p implică q" este falsă:
++ numai când p este adevărată și q falsă
+- când ambele sunt adevărate
+- când ambele sunt false
+- niciodată
+! În toate celelalte cazuri implicația este adevărată.
+? Negația propoziției „toate numerele sunt pare" este:
++ „există cel puțin un număr care nu este par"
+- „toate numerele sunt impare"
+- „niciun număr nu este par"
+- „toate numerele sunt pare"
+! Negarea universalului dă un enunț existențial.
+
+### mat9-11 | Mulțimi: operații și proprietăți
+O mulțime este o colecție de obiecte distincte, numite elemente. Între mulțimi se definesc operații: reuniunea A cu B conține elementele care aparțin cel puțin uneia dintre mulțimi; intersecția A cu B conține elementele care aparțin ambelor; diferența A minus B conține elementele din A care nu sunt în B. Produsul cartezian A cu B este mulțimea perechilor ordonate cu prima componentă din A și a doua din B.
+
+Cardinalul unei mulțimi finite este numărul elementelor ei. Pentru reuniune este valabilă formula care adună cardinalele celor două mulțimi și scade cardinalul intersecției, ca elementele comune să nu fie numărate de două ori. O submulțime a lui A este o mulțime ale cărei elemente aparțin toate lui A; mulțimea vidă și mulțimea însăși sunt submulțimi ale oricărei mulțimi. O mulțime cu n elemente are exact două la puterea n submulțimi.
+* Reuniunea adună elementele; intersecția păstrează elementele comune.
+* Diferența A minus B conține elementele din A care nu sunt în B.
+* Cardinalul reuniunii: suma cardinalelor minus cardinalul intersecției.
+* O mulțime cu n elemente are două la puterea n submulțimi.
+= reuniune :: mulțimea elementelor care aparțin cel puțin uneia dintre două mulțimi
+= produs cartezian :: mulțimea perechilor ordonate formate cu câte un element din fiecare mulțime
+@ Ce conține reuniunea a două mulțimi? :: Elementele care aparțin cel puțin uneia dintre ele.
+@ Ce conține intersecția a două mulțimi? :: Elementele care aparțin ambelor mulțimi.
+@ Cum se calculează cardinalul reuniunii? :: Suma cardinalelor minus cardinalul intersecției.
+@ Câte submulțimi are o mulțime cu n elemente? :: Două la puterea n.
+? Reuniunea a două mulțimi conține elementele care aparțin:
++ cel puțin uneia dintre mulțimi
+- ambelor mulțimi
+- numai primei mulțimi
+- niciuneia
+! Elementele comune ale ambelor formează intersecția.
+? Intersecția a două mulțimi conține elementele care aparțin:
++ ambelor mulțimi
+- cel puțin uneia
+- numai celei de-a doua
+- niciuneia
+! Reuniunea le cuprinde pe cele din cel puțin una.
+? Dacă o mulțime A are 5 elemente, B are 3 elemente, iar intersecția lor are 2 elemente, atunci reuniunea are:
++ 6 elemente
+- 8 elemente
+- 10 elemente
+- 4 elemente
+! 5 plus 3 minus 2 dă 6, ca să nu numărăm de două ori elementele comune.
+? O mulțime cu 3 elemente are:
++ 8 submulțimi
+- 6 submulțimi
+- 3 submulțimi
+- 9 submulțimi
+! Două la puterea a treia este 8.
+
+### mat9-12 | Metoda inducției matematice
+Inducția matematică este o metodă de demonstrație pentru afirmații care privesc toate numerele naturale, începând de la un anumit rang. Ea seamănă cu o linie de piese de domino: dacă prima cade și fiecare piesă o răstoarnă pe următoarea, atunci cad toate.
+
+Demonstrația prin inducție are doi pași. Pasul de verificare arată că afirmația este adevărată pentru cazul inițial, de obicei pentru primul număr natural vizat. Pasul de inducție presupune afirmația adevărată pentru un număr oarecare și demonstrează, pornind de la această presupunere, că este adevărată și pentru numărul următor. Dacă ambii pași reușesc, afirmația este adevărată pentru toate numerele naturale de la rangul inițial. Un exemplu clasic este suma primelor n numere naturale, care este egală cu produsul dintre n și n plus unu, împărțit la doi.
+* Inducția demonstrează afirmații despre toate numerele naturale, de la un rang.
+* Pasul de verificare confirmă afirmația pentru cazul inițial.
+* Pasul de inducție trece de la presupunerea pentru n la demonstrația pentru n plus unu.
+* Suma primelor n numere naturale este n înmulțit cu n plus unu, împărțit la doi.
+= inducție matematică :: metodă de demonstrație pentru afirmații despre toate numerele naturale, de la un rang
+= pas de inducție :: trecerea de la presupunerea că afirmația e adevărată pentru n la demonstrarea ei pentru n plus unu
+@ Pentru ce fel de afirmații se folosește inducția matematică? :: Pentru afirmații despre toate numerele naturale, de la un rang.
+@ Care este primul pas al inducției? :: Verificarea afirmației pentru cazul inițial.
+@ În ce constă pasul de inducție? :: În a demonstra afirmația pentru n plus unu, presupunând-o adevărată pentru n.
+@ Cât este suma primelor n numere naturale? :: n înmulțit cu n plus unu, împărțit la doi.
+? Inducția matematică demonstrează afirmații despre:
++ toate numerele naturale, începând de la un rang
+- numere reale oarecare
+- mulțimi finite exclusiv
+- funcții continue
+! Are un pas de verificare și un pas de inducție.
+? Primul pas al inducției matematice este:
++ verificarea afirmației pentru cazul inițial
+- trecerea de la n la n plus unu
+- găsirea unui contraexemplu
+- calculul unei derivate
+! Fără cazul inițial, „dominoul" nu pornește.
+? În pasul de inducție se presupune afirmația adevărată pentru n și se demonstrează pentru:
++ n plus unu
+- n minus unu
+- toate numerele odată
+- doar pentru n
+! Astfel se trece la numărul următor.
+? Suma 1 plus 2 plus ... plus n este egală cu:
++ n înmulțit cu (n plus unu), împărțit la doi
+- n la pătrat
+- de două ori n
+- n plus unu
+! Pentru n egal cu 10, suma este 55.
+
+## 2 | mat9-c5 | Trigonometrie: cercul și teoremele
+### mat9-13 | Cercul trigonometric și radianul
+Cercul trigonometric este cercul de rază 1 cu centrul în originea reperului. Pe el, măsura unghiurilor se poate exprima în grade sau în radiani. Un radian este unghiul la centru care subîntinde un arc de lungime egală cu raza; deoarece circumferința este de două ori pi înmulțit cu raza, unui unghi de 360 de grade îi corespund doi pi radiani, iar unui unghi de 180 de grade, pi radiani.
+
+Cercul trigonometric permite extinderea funcțiilor trigonometrice de la unghiurile ascuțite la orice unghi. Punctul de pe cerc care corespunde unui unghi are drept coordonate cosinusul și sinusul acelui unghi: prima coordonată este cosinusul, a doua este sinusul. De aici se citesc direct semnele funcțiilor în fiecare cadran și valorile pentru unghiurile de 0, 90, 180 și 270 de grade. Transformarea între grade și radiani se face cu o simplă proporție, folosind echivalența dintre 180 de grade și pi radiani.
+* Cercul trigonometric are raza 1 și centrul în origine.
+* Un unghi de 180 de grade are măsura pi radiani; unul de 360 de grade, doi pi.
+* Coordonatele punctului de pe cerc sunt cosinusul și sinusul unghiului.
+* Transformarea grade-radiani folosește echivalența 180 de grade egal pi radiani.
+= radian :: unghiul la centru care subîntinde un arc de lungime egală cu raza
+= cerc trigonometric :: cercul de rază 1 cu centrul în origine, folosit pentru definirea funcțiilor trigonometrice
+@ Ce rază are cercul trigonometric? :: Raza 1.
+@ Câți radiani are un unghi de 180 de grade? :: Pi radiani.
+@ Ce reprezintă coordonatele unui punct de pe cercul trigonometric? :: Cosinusul și sinusul unghiului corespunzător.
+@ Cum se transformă gradele în radiani? :: Cu o proporție, folosind echivalența 180 de grade egal pi radiani.
+? Un unghi de 180 de grade are, în radiani, măsura:
++ pi
+- doi pi
+- pi supra doi
+- pi supra patru
+! Un unghi de 360 de grade are doi pi radiani.
+? Raza cercului trigonometric este:
++ 1
+- 2
+- pi
+- variabilă
+! Are centrul în originea reperului.
+? Pe cercul trigonometric, coordonatele punctului asociat unui unghi t sunt:
++ cosinusul și sinusul lui t
+- sinusul și tangenta lui t
+- t și t la pătrat
+- doi cosinusuri
+! Prima coordonată este cosinusul, a doua sinusul.
+? Un unghi de 90 de grade are, în radiani, măsura:
++ pi supra doi
+- pi
+- doi pi
+- pi supra trei
+! Este un sfert din doi pi.
+
+### mat9-14 | Teorema sinusurilor și teorema cosinusului
+Teorema sinusurilor și teorema cosinusului permit rezolvarea oricărui triunghi, nu doar a celui dreptunghic. Teorema sinusurilor spune că, într-un triunghi, raportul dintre o latură și sinusul unghiului opus ei este același pentru toate cele trei laturi și este egal cu dublul razei cercului circumscris triunghiului.
+
+Teorema cosinusului leagă o latură de celelalte două și de unghiul dintre ele: pătratul unei laturi este egal cu suma pătratelor celorlalte două laturi, din care se scade dublul produsului lor înmulțit cu cosinusul unghiului dintre ele. Ea este o generalizare a teoremei lui Pitagora: când unghiul este drept, cosinusul lui este zero, termenul se anulează și se regăsește relația lui Pitagora. Cu aceste teoreme se calculează laturi și unghiuri necunoscute, iar aria triunghiului se poate afla ca jumătate din produsul a două laturi înmulțit cu sinusul unghiului dintre ele.
+* Teorema sinusurilor: raportul dintre o latură și sinusul unghiului opus este constant.
+* Acest raport constant este egal cu dublul razei cercului circumscris.
+* Teorema cosinusului generalizează teorema lui Pitagora.
+* Aria unui triunghi este jumătate din produsul a două laturi înmulțit cu sinusul unghiului dintre ele.
+= teorema sinusurilor :: relația care afirmă că raportul dintre o latură și sinusul unghiului opus este același în tot triunghiul
+= teorema cosinusului :: relația care exprimă pătratul unei laturi cu ajutorul celorlalte două și al cosinusului unghiului dintre ele
+@ Ce afirmă teorema sinusurilor? :: Că raportul dintre o latură și sinusul unghiului opus este același pentru toate laturile.
+@ Cu ce este egal raportul din teorema sinusurilor? :: Cu dublul razei cercului circumscris.
+@ A cărei teoreme este teorema cosinusului o generalizare? :: A teoremei lui Pitagora.
+@ Cum se calculează aria unui triunghi din două laturi și unghiul dintre ele? :: Ca jumătate din produsul laturilor înmulțit cu sinusul unghiului.
+? Teorema cosinusului este o generalizare a:
++ teoremei lui Pitagora
+- teoremei sinusurilor
+- relațiilor lui Viète
+- teoremei lui Thales
+! Când unghiul e drept, cosinusul lui e zero.
+? În teorema sinusurilor, raportul dintre o latură și sinusul unghiului opus este egal cu:
++ dublul razei cercului circumscris
+- raza cercului înscris
+- aria triunghiului
+- perimetrul triunghiului
+! Raportul este același pentru toate cele trei laturi.
+? Într-un triunghi cu laturile de 3 și 4 și unghiul de 90 de grade între ele, a treia latură este:
++ 5
+- 7
+- 1
+- 12
+! Teorema cosinusului cu unghi drept redă Pitagora: rădăcina din 9 plus 16.
+? Aria unui triunghi cu două laturi și unghiul dintre ele se calculează ca:
++ jumătate din produsul laturilor înmulțit cu sinusul unghiului
+- produsul laturilor înmulțit cu cosinusul unghiului
+- suma laturilor împărțită la doi
+- produsul celor trei laturi
+! Sinusul apare în formula ariei.
+
+### mat9-15 | Formule trigonometrice fundamentale
+Trigonometria dispune de câteva formule care leagă funcțiile între ele și permit calcule. Identitatea fundamentală afirmă că suma pătratelor sinusului și cosinusului aceluiași unghi este 1. Tangenta unui unghi este raportul dintre sinusul și cosinusul lui, definită acolo unde cosinusul este nenul.
+
+Funcțiile trigonometrice au proprietăți de simetrie: cosinusul este o funcție pară, adică cosinusul unui unghi este egal cu cosinusul opusului său, iar sinusul este o funcție impară, sinusul opusului fiind opusul sinusului. Formulele unghiului dublu exprimă funcțiile lui doi t cu ajutorul funcțiilor lui t: sinusul unghiului dublu este de două ori produsul sinusului cu cosinusul, iar cosinusul unghiului dublu este diferența pătratelor cosinusului și sinusului. Funcțiile sinus și cosinus sunt periodice, cu perioada principală de doi pi, ceea ce înseamnă că își reiau valorile la fiecare rotație completă.
+* Identitatea fundamentală: sinus la pătrat plus cosinus la pătrat egal 1.
+* Tangenta este raportul dintre sinus și cosinus.
+* Cosinusul este funcție pară; sinusul este funcție impară.
+* Sinusul și cosinusul au perioada principală doi pi.
+= identitate fundamentală :: relația că suma pătratelor sinusului și cosinusului aceluiași unghi este 1
+= funcție periodică :: funcție ale cărei valori se repetă la intervale egale, numite perioadă
+@ Ce afirmă identitatea fundamentală a trigonometriei? :: Că suma pătratelor sinusului și cosinusului aceluiași unghi este 1.
+@ Ce este tangenta unui unghi? :: Raportul dintre sinusul și cosinusul lui.
+@ Ce fel de funcție este cosinusul, pară sau impară? :: Pară: cosinusul opusului este egal cu cosinusul.
+@ Care este perioada principală a funcțiilor sinus și cosinus? :: Doi pi.
+? Identitatea fundamentală a trigonometriei este:
++ sinus la pătrat plus cosinus la pătrat egal 1
+- sinus plus cosinus egal 1
+- sinus la pătrat minus cosinus la pătrat egal 1
+- tangenta egal sinus ori cosinus
+! Ea vine din teorema lui Pitagora pe cercul trigonometric.
+? Formula sinusului unghiului dublu este:
++ sinus de 2t egal de două ori sinus t ori cosinus t
+- sinus de 2t egal de două ori sinus t
+- sinus de 2t egal sinus t plus cosinus t
+- sinus de 2t egal cosinus t
+! Cosinusul unghiului dublu este diferența pătratelor.
+? Funcția cosinus este:
++ pară, cosinusul opusului fiind egal cu cosinusul
+- impară
+- neperiodică
+- fără simetrie
+! Sinusul, în schimb, este funcție impară.
+? Perioada principală a funcțiilor sinus și cosinus este:
++ doi pi
+- pi
+- pi supra doi
+- 1
+! Valorile se reiau la fiecare rotație completă.
+
+## 2 | mat9-c6 | Geometrie vectorială și analitică
+### mat9-16 | Aplicații ale vectorilor în geometrie
+Vectorii sunt un instrument puternic în geometrie. Vectorul determinat de două puncte A și B se obține scăzând vectorul de poziție al lui A din cel al lui B. Relația lui Chasles exprimă compunerea deplasărilor: vectorul de la A la B adunat cu vectorul de la B la C dă vectorul de la A la C, oricare ar fi punctul intermediar.
+
+Doi vectori nenuli sunt coliniari, adică au aceeași direcție, dacă unul este multiplu scalar al celuilalt; acesta este criteriul vectorial de coliniaritate a punctelor și de paralelism al dreptelor. Vectorul de poziție al mijlocului unui segment este media vectorilor de poziție ai capetelor, iar vectorul de poziție al centrului de greutate al unui triunghi este media vectorilor de poziție ai celor trei vârfuri. Cu ajutorul vectorilor se demonstrează simplu coliniaritatea, concurența medianelor și paralelismul, ceea ce face din calculul vectorial o metodă elegantă de rezolvare a problemelor de geometrie.
+* Vectorul de la A la B este diferența vectorilor de poziție ai lui B și A.
+* Relația lui Chasles: vectorul de la A la B plus cel de la B la C dă vectorul de la A la C.
+* Doi vectori nenuli sunt coliniari dacă unul este multiplu scalar al celuilalt.
+* Vectorul de poziție al mijlocului unui segment este media pozițiilor capetelor.
+= relația lui Chasles :: regula după care vectorul de la A la B plus cel de la B la C este vectorul de la A la C
+= vectori coliniari :: vectori care au aceeași direcție, unul fiind multiplu scalar al celuilalt
+@ Cum se obține vectorul determinat de punctele A și B? :: Scăzând vectorul de poziție al lui A din cel al lui B.
+@ Ce afirmă relația lui Chasles? :: Că vectorul de la A la B plus cel de la B la C este vectorul de la A la C.
+@ Când sunt doi vectori nenuli coliniari? :: Când unul este multiplu scalar al celuilalt.
+@ Ce este vectorul de poziție al mijlocului unui segment? :: Media vectorilor de poziție ai capetelor.
+? Relația lui Chasles spune că vectorul de la A la B plus vectorul de la B la C este egal cu:
++ vectorul de la A la C
+- vectorul de la C la A
+- vectorul nul, întotdeauna
+- de două ori vectorul de la A la B
+! Punctul intermediar B se „simplifică".
+? Doi vectori nenuli sunt coliniari dacă:
++ unul este multiplu scalar al celuilalt
+- au module egale
+- sunt perpendiculari
+- au sensuri opuse întotdeauna
+! Este criteriul de coliniaritate a punctelor.
+? Vectorul de poziție al mijlocului unui segment cu capetele A și B este:
++ media vectorilor de poziție ai lui A și B
+- diferența lor
+- suma lor, neîmpărțită
+- produsul lor scalar
+! La fel, centrul de greutate al unui triunghi e media a trei poziții.
+? Vectorul determinat de punctele A și B se obține:
++ scăzând poziția lui A din poziția lui B
+- adunând pozițiile lui A și B
+- înmulțind pozițiile
+- împărțind pozițiile
+! De aceea el „pornește" din A și „ajunge" în B.
+
+### mat9-17 | Dreapta în plan
+În reperul cartezian, o dreaptă se descrie printr-o ecuație. Forma explicită este y egal cu m înmulțit cu x plus n, unde m este panta, iar n este ordonata la origine, adică valoarea lui y în punctul unde dreapta taie axa verticală. Panta reprezintă tangenta unghiului format de dreaptă cu axa orizontală și arată cât de „înclinată" este dreapta.
+
+Panta unei drepte care trece prin două puncte cunoscute este raportul dintre diferența ordonatelor și diferența absciselor acelor puncte. Există și alte forme de scriere a ecuației: prin punct și pantă, prin două puncte și forma generală, în care toți termenii sunt trecuți într-un membru. Două drepte sunt paralele dacă au aceeași pantă și perpendiculare dacă produsul pantelor lor este minus unu. Punctul de intersecție a două drepte se află rezolvând sistemul format din ecuațiile lor.
+* Forma explicită a dreptei: y egal m ori x plus n, cu m panta și n ordonata la origine.
+* Panta este tangenta unghiului format de dreaptă cu axa orizontală.
+* Două drepte sunt paralele dacă au aceeași pantă.
+* Punctul de intersecție a două drepte se află rezolvând sistemul ecuațiilor lor.
+= pantă :: coeficientul care măsoară înclinarea dreptei, egal cu tangenta unghiului cu axa orizontală
+= ordonată la origine :: valoarea lui y în punctul în care dreapta taie axa verticală
+@ Ce reprezintă m în ecuația y egal m ori x plus n? :: Panta dreptei.
+@ Ce reprezintă n în ecuația y egal m ori x plus n? :: Ordonata la origine, valoarea lui y unde dreapta taie axa verticală.
+@ Cum se calculează panta unei drepte prin două puncte? :: Ca raportul dintre diferența ordonatelor și diferența absciselor.
+@ Când sunt două drepte paralele? :: Când au aceeași pantă.
+? Panta unei drepte reprezintă:
++ tangenta unghiului format cu axa orizontală
+- lungimea dreptei
+- distanța până la origine
+- aria de sub dreaptă
+! Arată cât de înclinată este dreapta.
+? Două drepte sunt paralele dacă au:
++ aceeași pantă
+- pante cu produsul minus unu
+- ordonate la origine egale
+- lungimi egale
+! Produsul pantelor minus unu înseamnă perpendicularitate.
+? Ecuația dreptei care trece prin origine cu panta 2 este:
++ y egal cu 2x
+- y egal cu 2x plus 2
+- y egal cu x plus 2
+- y egal cu 2
+! Prin origine, ordonata la origine este zero.
+? Dreapta de ecuație y egal cu 3x minus 1 taie axa verticală în punctul:
++ (0, minus 1)
+- (0, 3)
+- (minus 1, 0)
+- (1, 0)
+! Ordonata la origine este termenul liber, minus 1.
+
+### mat9-18 | Distanțe, arii și aplicații în plan
+Geometria analitică transformă problemele de geometrie în calcule cu coordonate. Distanța dintre două puncte se calculează cu teorema lui Pitagora aplicată diferențelor de coordonate: este rădăcina pătrată din suma pătratelor diferenței absciselor și diferenței ordonatelor. Mijlocul unui segment are drept coordonate mediile aritmetice ale coordonatelor capetelor.
+
+Aria unui triunghi cu vârfuri de coordonate cunoscute se calculează ca jumătate din modulul unui determinant format cu coordonatele vârfurilor. Din aceeași expresie rezultă și criteriul de coliniaritate: trei puncte sunt coliniare dacă acel determinant este zero, adică dacă „triunghiul" pe care l-ar forma are aria nulă. Aceste formule permit verificarea rapidă a coliniarității, calculul ariilor și rezolvarea multor probleme fără desen, doar cu numere.
+* Distanța dintre două puncte vine din teorema lui Pitagora aplicată diferențelor de coordonate.
+* Mijlocul unui segment are coordonatele egale cu mediile coordonatelor capetelor.
+* Aria unui triunghi este jumătate din modulul unui determinant cu coordonatele vârfurilor.
+* Trei puncte sunt coliniare dacă acel determinant este zero.
+= distanță dintre două puncte :: rădăcina din suma pătratelor diferențelor de coordonate ale celor două puncte
+= criteriu de coliniaritate :: condiția ca determinantul format cu coordonatele a trei puncte să fie zero
+@ Cum se calculează distanța dintre două puncte? :: Cu rădăcina din suma pătratelor diferențelor de coordonate.
+@ Cum se află mijlocul unui segment? :: Făcând media aritmetică a coordonatelor capetelor.
+@ Cum se calculează aria unui triunghi cu vârfuri date? :: Ca jumătate din modulul determinantului format cu coordonatele vârfurilor.
+@ Când sunt trei puncte coliniare? :: Când determinantul format cu coordonatele lor este zero.
+? Distanța dintre punctele (0, 0) și (3, 4) este:
++ 5
+- 7
+- 12
+- 1
+! Rădăcina din 3 la pătrat plus 4 la pătrat, adică din 25.
+? Mijlocul segmentului cu capetele (2, 4) și (6, 8) este punctul:
++ (4, 6)
+- (8, 12)
+- (3, 4)
+- (2, 6)
+! Se face media coordonatelor: 2 plus 6 pe 2 și 4 plus 8 pe 2.
+? Trei puncte sunt coliniare dacă determinantul format cu coordonatele lor este:
++ zero
+- pozitiv
+- negativ
+- egal cu 1
+! Un determinant nul înseamnă arie nulă a „triunghiului".
+? Distanța dintre două puncte se calculează folosind:
++ teorema lui Pitagora aplicată diferențelor de coordonate
+- relațiile lui Viète
+- panta dreptei
+- produsul scalar
+! Este rădăcina din suma pătratelor diferențelor.
+
 %% teza 1
+? O propoziție logică este un enunț care:
++ este adevărat sau fals, dar nu ambele
+- exprimă o întrebare
+- exprimă o părere
+- nu are valoare de adevăr
+! Întrebările și ordinele nu sunt propoziții logice.
+? Conjuncția „p și q" este adevărată:
++ numai când ambele propoziții sunt adevărate
+- când cel puțin una e adevărată
+- când ambele sunt false
+- întotdeauna
+! Disjuncția e adevărată când cel puțin una e adevărată.
+? Dacă mulțimea A are 4 elemente, B are 5 elemente și intersecția lor are 2 elemente, reuniunea are:
++ 7 elemente
+- 9 elemente
+- 11 elemente
+- 2 elemente
+! 4 plus 5 minus 2, ca elementele comune să nu fie numărate de două ori.
+? O mulțime cu 3 elemente are:
++ 8 submulțimi
+- 6 submulțimi
+- 3 submulțimi
+- 9 submulțimi
+! Două la puterea a treia este 8.
+? Suma primelor n numere naturale este egală cu:
++ n înmulțit cu (n plus unu), împărțit la doi
+- n la pătrat
+- de două ori n
+- n plus unu
+! Se demonstrează prin inducție matematică.
+? Negația propoziției „toate numerele sunt pare" este:
++ „există cel puțin un număr care nu este par"
+- „toate numerele sunt impare"
+- „niciun număr nu este par"
+- „toate numerele sunt pare"
+! Negarea universalului dă un enunț existențial.
 ? Mulțimea numerelor raționale se notează:
 + Q
 - N
@@ -407,6 +797,42 @@ Ecuația dreptei are mai multe forme: explicită (y = mx + n), prin punct și pa
 ! Relațiile lui Viète: suma este −b/a.
 
 %% teza 2
+? Un unghi de 180 de grade are, în radiani, măsura:
++ pi
+- doi pi
+- pi supra doi
+- pi supra patru
+! Un unghi de 360 de grade are doi pi radiani.
+? Teorema cosinusului este o generalizare a:
++ teoremei lui Pitagora
+- teoremei sinusurilor
+- relațiilor lui Viète
+- teoremei lui Thales
+! Când unghiul e drept, cosinusul lui e zero.
+? Formula sinusului unghiului dublu este:
++ sinus de 2t egal de două ori sinus t ori cosinus t
+- sinus de 2t egal de două ori sinus t
+- sinus de 2t egal sinus t plus cosinus t
+- sinus de 2t egal cosinus t
+! Cosinusul unghiului dublu este diferența pătratelor.
+? Relația lui Chasles spune că vectorul de la A la B plus vectorul de la B la C este:
++ vectorul de la A la C
+- vectorul de la C la A
+- vectorul nul mereu
+- de două ori vectorul de la A la B
+! Punctul intermediar B se „simplifică".
+? Distanța dintre punctele (0, 0) și (3, 4) este:
++ 5
+- 7
+- 12
+- 25
+! Rădăcina din 3 la pătrat plus 4 la pătrat.
+? Pe cercul trigonometric de rază 1, punctul asociat unghiului t are coordonatele:
++ (cosinus t, sinus t)
+- (sinus t, cosinus t)
+- (t, t la pătrat)
+- (1, t)
+! Prima coordonată este cosinusul, a doua sinusul.
 ? Vârful parabolei are abscisa:
 + −b supra 2a
 - b supra 2a

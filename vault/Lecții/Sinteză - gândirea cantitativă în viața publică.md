@@ -10,7 +10,7 @@ clasa: "a XII-a"
 ---
 # Sinteză: gândirea cantitativă în viața publică
 
-[[Matematică aplicată în științele sociale (clasa a XII-a)|Matematică aplicată în științele sociale]] · [[Clasa a XII-a]] · lecția 9 din 9
+[[Matematică aplicată în științele sociale (clasa a XII-a)|Matematică aplicată în științele sociale]] · [[Clasa a XII-a]] · lecția 9 din 18
 
 **Capitolul:** Rețele și decizie — semestrul 2
 
@@ -31,6 +31,6 @@ Gândirea cantitativă nu înseamnă calcul, ci capacitatea de a pune întrebăr
 
 ---
 
-⬅ [[Algoritmi, date, societate]]
+⬅ [[Algoritmi, date, societate]] · [[Progresii aritmetice și geometrice]] ➡
 
 Exersează: [[Carduri - Matematică aplicată în științele sociale (clasa a XII-a)]] · [[Test - Matematică aplicată în științele sociale (clasa a XII-a)]]

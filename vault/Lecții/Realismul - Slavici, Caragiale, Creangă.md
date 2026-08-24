@@ -10,7 +10,7 @@ clasa: "a XI-a"
 ---
 # Realismul: Slavici, Caragiale, Creangă
 
-[[Limba și literatura română (clasa a XI-a)|Limba și literatura română]] · [[Clasa a XI-a]] · lecția 7 din 9
+[[Limba și literatura română (clasa a XI-a)|Limba și literatura română]] · [[Clasa a XI-a]] · lecția 7 din 20
 
 **Capitolul:** Junimea, realismul, marii clasici — semestrul 2
 

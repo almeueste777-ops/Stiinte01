@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Noțiunea de funcție
 
-[[Matematică (clasa a IX-a)|Matematică]] · [[Clasa a IX-a]] · lecția 4 din 9
+[[Matematică (clasa a IX-a)|Matematică]] · [[Clasa a IX-a]] · lecția 4 din 18
 
 **Capitolul:** Funcții — semestrul 1
 

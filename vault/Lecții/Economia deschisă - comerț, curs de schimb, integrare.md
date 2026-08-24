@@ -10,7 +10,7 @@ clasa: "a XIII-a"
 ---
 # Economia deschisă: comerț, curs de schimb, integrare
 
-[[Economie și educație antreprenorială (clasa a XIII-a)|Economie și educație antreprenorială]] · [[Clasa a XIII-a]] · lecția 9 din 12
+[[Economie și educație antreprenorială (clasa a XIII-a)|Economie și educație antreprenorială]] · [[Clasa a XIII-a]] · lecția 9 din 24
 
 **Capitolul:** Piețe particulare — semestrul 2
 

@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Funcții și modele de creștere
 
-[[Matematică (clasa a X-a)|Matematică]] · [[Clasa a X-a]] · lecția 8 din 9
+[[Matematică (clasa a X-a)|Matematică]] · [[Clasa a X-a]] · lecția 8 din 18
 
 **Capitolul:** Matematici financiare și aplicații — semestrul 2
 

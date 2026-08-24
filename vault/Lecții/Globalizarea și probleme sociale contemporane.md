@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Globalizarea și probleme sociale contemporane
 
-[[Sociologie (clasa a XI-a)|Sociologie]] · [[Clasa a XI-a]] · lecția 14 din 14
+[[Sociologie (clasa a XI-a)|Sociologie]] · [[Clasa a XI-a]] · lecția 14 din 24
 
 **Capitolul:** Schimbare socială — semestrul 2
 
@@ -29,6 +29,6 @@ Globalizarea este intensificarea interdependențelor la scară mondială: econom
 
 ---
 
-⬅ [[Schimbarea socială și modernizarea]]
+⬅ [[Schimbarea socială și modernizarea]] · [[Paradigmele sociologiei]] ➡
 
 Exersează: [[Carduri - Sociologie (clasa a XI-a)]] · [[Test - Sociologie (clasa a XI-a)]]

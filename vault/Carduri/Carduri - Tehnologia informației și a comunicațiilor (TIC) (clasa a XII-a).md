@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)
 
-36 carduri pentru [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)|Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+64 carduri pentru [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)|Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/tehnologia-informatiei-si-a-comunicatiilor-tic
 
@@ -82,6 +82,62 @@ Ce este decalajul digital?::Diferența dintre cei care au acces și competențe 
 Care este prima responsabilitate a utilizatorului?::Verificarea informației înainte de a o distribui.
 
 Ce include competența digitală completă?::Nu doar folosirea instrumentelor, ci și înțelegerea efectelor lor.
+
+Ce avantaj dau stilurile într-un document?::Consecvența și generarea automată a cuprinsului.
+
+Ce este mail merge?::Îmbinarea unui document tip cu o listă de date.
+
+Numește un format standard de document.::DOCX (sau PDF, ODT).
+
+La ce nivel se face alinierea?::La nivel de paragraf.
+
+Cu ce semn încep formulele?::Cu semnul egal (=).
+
+Ce funcție calculează media?::AVERAGE.
+
+Ce e o referință absolută?::O referință fixă la copiere, scrisă cu $ ($A$1).
+
+Ce arată un grafic?::Datele într-o formă vizuală, ușor de înțeles.
+
+Câte idei principale ar trebui să aibă un diapozitiv?::Una, clară.
+
+Ce rol are prezentarea față de vorbitor?::Îl sprijină, nu îl înlocuiește.
+
+De ce se folosesc animațiile cu măsură?::Ca să nu distragă de la mesaj.
+
+Ce asigură un șablon?::Un aspect unitar al prezentării.
+
+Cum sunt organizate datele într-o bază relațională?::În tabele cu rânduri (înregistrări) și coloane (câmpuri).
+
+Ce face cheia primară?::Identifică unic fiecare înregistrare.
+
+Cum se leagă tabelele între ele?::Prin relații, folosind chei externe.
+
+Ce este o interogare?::O căutare care extrage datele cerute după criterii.
+
+Ce fac motoarele de căutare?::Indexează paginile și le ordonează după relevanță.
+
+Ce întrebări ajută la evaluarea unei surse?::Cine e autorul, ce scop are, cât de actuală și verificabilă e.
+
+Cum se caută o expresie exactă?::Punând-o între ghilimele.
+
+Cum ne apărăm de dezinformare?::Prin verificare încrucișată, din mai multe surse.
+
+Ce este o rețea de calculatoare?::Dispozitive legate ca să comunice și să partajeze resurse.
+
+Ce înseamnă cloud computing?::Folosirea de resurse găzduite la distanță, prin internet.
+
+Prin ce diferă LAN de WAN?::LAN acoperă o zonă mică; WAN, distanțe mari.
+
+Ce este IoT?::Conectarea la internet a obiectelor obișnuite.
+
+Ce este inteligența artificială?::Domeniul care creează sisteme capabile de sarcini ce par să ceară inteligență.
+
+Ce face învățarea automată?::Învață tipare din multe exemple, nu din reguli fixe.
+
+Numește o folosire curentă a IA.::Asistenți vocali, filtre de spam, recomandări.
+
+Ce întrebări etice ridică IA?::Confidențialitatea, corectitudinea deciziilor, efectele asupra muncii.
 
 ---
 

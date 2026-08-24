@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Limba modernă 1 (Engleză) (clasa a XII-a)
 
-60 întrebări din [[Limba modernă 1 (Engleză) (clasa a XII-a)|Limba modernă 1 (Engleză) (clasa a XII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+96 întrebări din [[Limba modernă 1 (Engleză) (clasa a XII-a)|Limba modernă 1 (Engleză) (clasa a XII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Într-un eseu de tip „for and against”:
 
@@ -441,7 +441,439 @@ cssclasses: test
 > 
 > Contextul asigură folosirea corectă ulterioară.
 
-### 37. Într-un eseu „for and against”:
+### 37. Substantivul format de la verbul „decide" este:
+
+- a. decision
+- b. deciding
+- c. decisive
+- d. decidedly
+
+> [!success]- Răspuns
+> **a. decision**
+> 
+> Sufixul „-sion/-tion" formează substantive de la verbe.
+
+### 38. Prefixul care exprimă excesul, în „overestimate", este:
+
+- a. over-
+- b. under-
+- c. re-
+- d. mis-
+
+> [!success]- Răspuns
+> **a. over-**
+> 
+> „Under-" ar exprima insuficiența: „underestimate".
+
+### 39. Adjectivul format de la „care" cu sens privativ este:
+
+- a. careless
+- b. careful
+- c. caring
+- d. carefully
+
+> [!success]- Răspuns
+> **a. careless**
+> 
+> „-less" formează adjective cu sens privativ; „-ful", cu sens plin.
+
+### 40. Verbul format de la adjectivul „modern" este:
+
+- a. modernise
+- b. modernity
+- c. modernly
+- d. modernism
+
+> [!success]- Răspuns
+> **a. modernise**
+> 
+> Sufixul „-ise/-ize" formează verbe.
+
+### 41. Conectorul de contrast corect este:
+
+- a. however
+- b. moreover
+- c. therefore
+- d. for instance
+
+> [!success]- Răspuns
+> **a. however**
+> 
+> „Moreover" adaugă, „therefore" arată consecința.
+
+### 42. Marcatorul care introduce un exemplu este:
+
+- a. for instance
+- b. in conclusion
+- c. nevertheless
+- d. as a result
+
+> [!success]- Răspuns
+> **a. for instance**
+> 
+> „In conclusion" încheie, „nevertheless" contrastează.
+
+### 43. Folosirea lui „however" în locul lui „therefore":
+
+- a. schimbă sensul și slăbește textul
+- b. este indiferentă
+- c. îmbunătățește stilul
+- d. este recomandată
+
+> [!success]- Răspuns
+> **a. schimbă sensul și slăbește textul**
+> 
+> Fiecare conector exprimă o relație logică precisă.
+
+### 44. Conectorul care introduce o concesie este:
+
+- a. although
+- b. therefore
+- c. for instance
+- d. in addition
+
+> [!success]- Răspuns
+> **a. although**
+> 
+> „Although" admite un fapt contrar: „although it rained".
+
+### 45. Forma corectă este:
+
+- a. „City life is fast, whereas country life is slow."
+- b. „City life is fast, whereas country life is slower than."
+- c. „City life is fast, however country life is slow."
+- d. „City life is fast, despite country life is slow."
+
+> [!success]- Răspuns
+> **a. „City life is fast, whereas country life is slow."**
+> 
+> „Whereas" introduce un contrast direct între două propoziții.
+
+### 46. Structura corectă pentru „de două ori mai scump" este:
+
+- a. twice as expensive
+- b. two times more expensive than
+- c. twice more expensive
+- d. as twice expensive
+
+> [!success]- Răspuns
+> **a. twice as expensive**
+> 
+> „Twice/three times as + adjectiv + as" exprimă multiplii.
+
+### 47. Comparativul corect este:
+
+- a. better
+- b. more better
+- c. more good
+- d. gooder
+
+> [!success]- Răspuns
+> **a. better**
+> 
+> „Good" are comparativ neregulat, fără „more".
+
+### 48. Cuvântul care exprimă asemănarea este:
+
+- a. similarly
+- b. whereas
+- c. however
+- d. otherwise
+
+> [!success]- Răspuns
+> **a. similarly**
+> 
+> „Whereas" și „however" exprimă contrastul.
+
+### 49. Structura cea mai potrivită pentru registrul academic este:
+
+- a. „It could be argued that ..."
+- b. „I totally think that ..."
+- c. „Everybody knows that ..."
+- d. „You're wrong about ..."
+
+> [!success]- Răspuns
+> **a. „It could be argued that ..."**
+> 
+> Registrul academic preferă structurile impersonale și nuanțate.
+
+### 50. „I couldn't agree more" înseamnă:
+
+- a. acord total
+- b. dezacord politicos
+- c. îndoială
+- d. acord parțial
+
+> [!success]- Răspuns
+> **a. acord total**
+> 
+> Este o formulă de acord deplin.
+
+### 51. Cel mai politicos mod de a exprima dezacordul este:
+
+- a. „I see your point, but I'm not sure that ..."
+- b. „You're completely wrong."
+- c. „That's nonsense."
+- d. „No, that's not true at all."
+
+> [!success]- Răspuns
+> **a. „I see your point, but I'm not sure that ..."**
+> 
+> Dezacordul politicos recunoaște argumentul înainte de a-l contrazice.
+
+### 52. O opinie bine susținută cuprinde:
+
+- a. o poziție și un motiv
+- b. doar o poziție puternică
+- c. o afirmație absolută
+- d. o întrebare retorică
+
+> [!success]- Răspuns
+> **a. o poziție și un motiv**
+> 
+> „I think ..., because ..." leagă poziția de argument.
+
+### 53. Structura potrivită pentru a negocia o condiție este:
+
+- a. „If you lower the price, we'll order more."
+- b. „You must lower the price."
+- c. „Lower the price now."
+- d. „The price is too high, period."
+
+> [!success]- Răspuns
+> **a. „If you lower the price, we'll order more."**
+> 
+> Condiționalul leagă o concesie de o condiție.
+
+### 54. O propunere politicoasă este:
+
+- a. „How about meeting on Friday?"
+- b. „We meet on Friday."
+- c. „You will meet me on Friday."
+- d. „Meet on Friday."
+
+> [!success]- Răspuns
+> **a. „How about meeting on Friday?"**
+> 
+> „How about + gerunziu" face o sugestie deschisă.
+
+### 55. Persuasiunea eficientă subliniază:
+
+- a. beneficiul celuilalt
+- b. doar dorința proprie
+- c. autoritatea vorbitorului
+- d. obligația legală
+
+> [!success]- Răspuns
+> **a. beneficiul celuilalt**
+> 
+> „This would save you time" pornește de la interesul interlocutorului.
+
+### 56. Formula care marchează un acord este:
+
+- a. „That sounds reasonable."
+- b. „I'm afraid not."
+- c. „Let me think again."
+- d. „That's out of the question."
+
+> [!success]- Răspuns
+> **a. „That sounds reasonable."**
+> 
+> Ea semnalează acceptarea propunerii.
+
+### 57. Cererea cea mai politicoasă este:
+
+- a. „Could you possibly send me the report?"
+- b. „Send me the report."
+- c. „You must send the report."
+- d. „I want the report now."
+
+> [!success]- Răspuns
+> **a. „Could you possibly send me the report?"**
+> 
+> Structura indirectă cu modal marchează politețea.
+
+### 58. „Would you mind ______ the door?" Forma corectă este:
+
+- a. closing
+- b. to close
+- c. close
+- d. closed
+
+> [!success]- Răspuns
+> **a. closing**
+> 
+> După „would you mind" se folosește gerunziul.
+
+### 59. „He isn't answering; he ______ be in a meeting." Forma potrivită este:
+
+- a. must
+- b. can't
+- c. mustn't
+- d. doesn't have to
+
+> [!success]- Răspuns
+> **a. must**
+> 
+> „Must" exprimă deducția aproape sigură.
+
+### 60. „Visitors don't have to wear a badge" înseamnă:
+
+- a. nu sunt obligați să poarte ecuson
+- b. le este interzis ecusonul
+- c. trebuie neapărat ecuson
+- d. ar trebui să evite ecusonul
+
+> [!success]- Răspuns
+> **a. nu sunt obligați să poarte ecuson**
+> 
+> Interdicția s-ar exprima cu „mustn't".
+
+### 61. Regatul Unit este:
+
+- a. o monarhie constituțională
+- b. o republică prezidențială
+- c. o republică parlamentară
+- d. o monarhie absolută
+
+> [!success]- Răspuns
+> **a. o monarhie constituțională**
+> 
+> Monarhul domnește, dar puterea o exercită parlamentul și guvernul.
+
+### 62. Șeful guvernului britanic se numește:
+
+- a. Prime Minister
+- b. President
+- c. Chancellor
+- d. Speaker
+
+> [!success]- Răspuns
+> **a. Prime Minister**
+> 
+> Președintele conduce executivul în SUA, nu în Regatul Unit.
+
+### 63. În Regatul Unit, „public school" desemnează:
+
+- a. o școală privată de prestigiu
+- b. o școală de stat
+- c. o universitate
+- d. o școală profesională
+
+> [!success]- Răspuns
+> **a. o școală privată de prestigiu**
+> 
+> „State school" este școala de stat.
+
+### 64. Camera inferioară a Parlamentului britanic este:
+
+- a. House of Commons
+- b. House of Lords
+- c. Senate
+- d. Congress
+
+> [!success]- Răspuns
+> **a. House of Commons**
+> 
+> Camera Lorzilor este camera superioară.
+
+### 65. „Playwright" înseamnă:
+
+- a. autor de piese de teatru
+- b. romancier
+- c. poet
+- d. critic literar
+
+> [!success]- Răspuns
+> **a. autor de piese de teatru**
+> 
+> Shakespeare este cel mai cunoscut playwright.
+
+### 66. Cel mai cunoscut dramaturg al literaturii engleze este:
+
+- a. William Shakespeare
+- b. Charles Dickens
+- c. Jane Austen
+- d. George Orwell
+
+> [!success]- Răspuns
+> **a. William Shakespeare**
+> 
+> Dickens și Austen sunt romancieri.
+
+### 67. „Adaptation", în context cultural, înseamnă:
+
+- a. transpunerea unei opere într-un alt mediu
+- b. traducerea unei cărți
+- c. rezumatul unei opere
+- d. recenzia unui film
+
+> [!success]- Răspuns
+> **a. transpunerea unei opere într-un alt mediu**
+> 
+> De exemplu, un roman devine film.
+
+### 68. Într-un text cultural, „setting" se referă la:
+
+- a. cadrul spațial și temporal
+- b. firul narativ
+- c. personajul principal
+- d. autorul operei
+
+> [!success]- Răspuns
+> **a. cadrul spațial și temporal**
+> 
+> „Plot" este firul narativ.
+
+### 69. „Lingua franca" înseamnă:
+
+- a. limbă comună între vorbitori cu limbi materne diferite
+- b. limba oficială a Franței
+- c. un dialect regional
+- d. limba maternă a majorității
+
+> [!success]- Răspuns
+> **a. limbă comună între vorbitori cu limbi materne diferite**
+> 
+> Engleza este astăzi principala lingua franca.
+
+### 70. „Lorry", în engleza britanică, corespunde în cea americană cuvântului:
+
+- a. truck
+- b. car
+- c. bus
+- d. van
+
+> [!success]- Răspuns
+> **a. truck**
+> 
+> „Lorry" (britanică) = „truck" (americană).
+
+### 71. În privința variantelor englezei, regula practică este:
+
+- a. folosirea consecventă a unei singure variante
+- b. amestecarea liberă a variantelor
+- c. folosirea exclusivă a celei americane
+- d. evitarea oricărei variante
+
+> [!success]- Răspuns
+> **a. folosirea consecventă a unei singure variante**
+> 
+> Consecvența în același text este ceea ce contează.
+
+### 72. Numărul vorbitorilor de engleză ca limbă secundă:
+
+- a. îl depășește pe cel al vorbitorilor nativi
+- b. este mult mai mic
+- c. este egal
+- d. este necunoscut
+
+> [!success]- Răspuns
+> **a. îl depășește pe cel al vorbitorilor nativi**
+> 
+> De aici conceptul de „English as a lingua franca".
+
+### 73. Într-un eseu „for and against”:
 
 - a. se prezintă echilibrat ambele poziții
 - b. se susține o singură poziție
@@ -453,7 +885,7 @@ cssclasses: test
 > 
 > Opinia proprie apare, de regulă, în concluzie.
 
-### 38. Teza unui eseu se formulează:
+### 74. Teza unui eseu se formulează:
 
 - a. în introducere
 - b. în încheiere
@@ -465,7 +897,7 @@ cssclasses: test
 > 
 > Cititorul trebuie să știe de la început direcția.
 
-### 39. „Topic sentence” este:
+### 75. „Topic sentence” este:
 
 - a. propoziția care anunță ideea paragrafului
 - b. concluzia
@@ -477,7 +909,7 @@ cssclasses: test
 > 
 > Ea orientează întregul paragraf.
 
-### 40. După „Dear Sir or Madam” se încheie cu:
+### 76. După „Dear Sir or Madam” se încheie cu:
 
 - a. „Yours faithfully”
 - b. „Yours sincerely”
@@ -489,7 +921,7 @@ cssclasses: test
 > 
 > „Yours sincerely” urmează după nume.
 
-### 41. Scrisoarea de intenție:
+### 77. Scrisoarea de intenție:
 
 - a. interpretează CV-ul în raport cu postul
 - b. repetă CV-ul
@@ -501,7 +933,7 @@ cssclasses: test
 > 
 > Ea răspunde la „de ce eu”.
 
-### 42. „Increased sales by 20%” este:
+### 78. „Increased sales by 20%” este:
 
 - a. o realizare măsurabilă
 - b. o atribuție
@@ -513,7 +945,7 @@ cssclasses: test
 > 
 > Cifrele fac diferența într-un CV.
 
-### 43. Într-un raport, recomandările trebuie să fie:
+### 79. Într-un raport, recomandările trebuie să fie:
 
 - a. concrete și acționabile
 - b. generale
@@ -525,7 +957,7 @@ cssclasses: test
 > 
 > Ele decurg din constatări.
 
-### 44. „Moving on to the next point” este:
+### 80. „Moving on to the next point” este:
 
 - a. o formulă de semnalizare
 - b. o concluzie
@@ -537,7 +969,7 @@ cssclasses: test
 > 
 > Ea ghidează ascultătorul.
 
-### 45. Slide-urile unei prezentări trebuie:
+### 81. Slide-urile unei prezentări trebuie:
 
 - a. să susțină discursul, nu să îl dubleze
 - b. să conțină textul integral
@@ -549,7 +981,7 @@ cssclasses: test
 > 
 > Redundanța slăbește atenția.
 
-### 46. Schimbarea a două cuvinte dintr-o frază preluată este:
+### 82. Schimbarea a două cuvinte dintr-o frază preluată este:
 
 - a. plagiat
 - b. parafrazare
@@ -561,7 +993,7 @@ cssclasses: test
 > 
 > Parafrazarea cere reformulare integrală.
 
-### 47. Stilul academic preferă:
+### 83. Stilul academic preferă:
 
 - a. structurile impersonale și nuanțarea
 - b. limbajul emoțional
@@ -573,7 +1005,7 @@ cssclasses: test
 > 
 > Precizia primează asupra efectului.
 
-### 48. Folosirea a doi termeni diferiți pentru același concept:
+### 84. Folosirea a doi termeni diferiți pentru același concept:
 
 - a. produce confuzie
 - b. îmbogățește textul
@@ -585,7 +1017,7 @@ cssclasses: test
 > 
 > Consecvența terminologică e obligatorie.
 
-### 49. „Stakeholder” înseamnă:
+### 85. „Stakeholder” înseamnă:
 
 - a. parte interesată de activitatea unei organizații
 - b. acționar majoritar
@@ -597,7 +1029,7 @@ cssclasses: test
 > 
 > Termenul e mai larg decât „shareholder”.
 
-### 50. Structurarea unui exemplu la interviu se face prin:
+### 86. Structurarea unui exemplu la interviu se face prin:
 
 - a. situație, sarcină, acțiune, rezultat
 - b. introducere, cuprins, încheiere
@@ -609,7 +1041,7 @@ cssclasses: test
 > 
 > Metoda face răspunsul verificabil.
 
-### 51. Răspunsul „I have no questions” la finalul interviului:
+### 87. Răspunsul „I have no questions” la finalul interviului:
 
 - a. sugerează lipsă de interes
 - b. economisește timp
@@ -621,7 +1053,7 @@ cssclasses: test
 > 
 > Întrebările pregătite arată implicare.
 
-### 52. Proba B evaluează:
+### 88. Proba B evaluează:
 
 - a. citit, scris, ascultat și interacțiune orală
 - b. doar gramatica
@@ -633,7 +1065,7 @@ cssclasses: test
 > 
 > Rezultatul se exprimă în niveluri de competență.
 
-### 53. Competențele productive sunt:
+### 89. Competențele productive sunt:
 
 - a. vorbirea și scrierea
 - b. cititul și ascultarea
@@ -645,7 +1077,7 @@ cssclasses: test
 > 
 > Cititul și ascultarea sunt receptive.
 
-### 54. La itemii de înțelegere, varianta corectă este de regulă:
+### 90. La itemii de înțelegere, varianta corectă este de regulă:
 
 - a. o parafrază a ideii din text
 - b. o repetare identică
@@ -657,7 +1089,7 @@ cssclasses: test
 > 
 > Repetarea identică semnalează adesea un distractor.
 
-### 55. Nefinalizarea unei sarcini de scriere:
+### 91. Nefinalizarea unei sarcini de scriere:
 
 - a. costă mai mult decât câteva greșeli de limbă
 - b. nu contează
@@ -669,7 +1101,7 @@ cssclasses: test
 > 
 > Îndeplinirea sarcinii e criteriu distinct.
 
-### 56. La ascultare, insistența pe un item ratat:
+### 92. La ascultare, insistența pe un item ratat:
 
 - a. face să pierzi și itemul următor
 - b. ajută la recuperare
@@ -681,7 +1113,7 @@ cssclasses: test
 > 
 > Înregistrarea continuă indiferent de tine.
 
-### 57. Un obiectiv realist de învățare este:
+### 93. Un obiectiv realist de învățare este:
 
 - a. „pot susține o conversație de cinci minute despre studiile mele”
 - b. „vreau să știu engleză mai bine”
@@ -693,7 +1125,7 @@ cssclasses: test
 > 
 > Descriptorii fac progresul verificabil.
 
-### 58. Dicționarul monolingv:
+### 94. Dicționarul monolingv:
 
 - a. obligă la gândirea directă în limba-țintă
 - b. este mai scurt
@@ -705,7 +1137,7 @@ cssclasses: test
 > 
 > El elimină intermediarul traducerii.
 
-### 59. Platourile în învățarea unei limbi:
+### 95. Platourile în învățarea unei limbi:
 
 - a. sunt normale și temporare
 - b. indică lipsa de talent
@@ -717,7 +1149,7 @@ cssclasses: test
 > 
 > Abandonul în timpul lor produce stagnarea.
 
-### 60. Vocabularul nou se notează:
+### 96. Vocabularul nou se notează:
 
 - a. în context
 - b. alfabetic

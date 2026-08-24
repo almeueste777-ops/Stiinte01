@@ -10,7 +10,7 @@ clasa: "a XII-a"
 ---
 # Consumatorul: drepturi și decizii
 
-[[Studii sociale (clasa a XII-a)|Studii sociale]] · [[Clasa a XII-a]] · lecția 3 din 9
+[[Studii sociale (clasa a XII-a)|Studii sociale]] · [[Clasa a XII-a]] · lecția 3 din 18
 
 **Capitolul:** Educație financiară personală — semestrul 1
 

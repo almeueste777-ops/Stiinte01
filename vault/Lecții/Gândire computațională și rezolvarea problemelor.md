@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Gândire computațională și rezolvarea problemelor
 
-[[Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a X-a]] · lecția 9 din 9
+[[Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a X-a]] · lecția 9 din 16
 
 **Capitolul:** Algoritmi și gândire computațională — semestrul 2
 
@@ -29,6 +29,6 @@ Gândirea computațională este modul de a aborda problemele astfel încât solu
 
 ---
 
-⬅ [[Structuri repetitive și prelucrarea datelor]]
+⬅ [[Structuri repetitive și prelucrarea datelor]] · [[Referințe relative, absolute și denumirea celulelor]] ➡
 
 Exersează: [[Carduri - Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)]] · [[Test - Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)]]

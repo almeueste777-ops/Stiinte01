@@ -10,7 +10,7 @@ clasa: "a XIII-a"
 ---
 # Sinteză: ce rămâne
 
-[[Religie (clasa a XIII-a)|Religie]] · [[Clasa a XIII-a]] · lecția 9 din 9
+[[Religie (clasa a XIII-a)|Religie]] · [[Clasa a XIII-a]] · lecția 9 din 18
 
 **Capitolul:** Alegerile vieții de adult — semestrul 2
 
@@ -31,6 +31,6 @@ La capătul parcursului școlar, întrebarea nu este ce s-a memorat, ci ce răm�
 
 ---
 
-⬅ [[Adevăr, informație, manipulare]]
+⬅ [[Adevăr, informație, manipulare]] · [[Organizarea Bisericii românești și mitropoliile]] ➡
 
 Exersează: [[Carduri - Religie (clasa a XIII-a)]] · [[Test - Religie (clasa a XIII-a)]]

@@ -20,7 +20,7 @@ cssclasses: fisa
 
 Educație interculturală și pentru drepturile omului: identitate, diversitate, stereotipuri, discriminare, drepturi și responsabilități.
 
-## Capitole (3)
+## Capitole (6)
 
 ### Identitate și diversitate culturală — semestrul 1
 
@@ -40,9 +40,27 @@ Educație interculturală și pentru drepturile omului: identitate, diversitate,
 - [[Comunicarea în situații interculturale]]
 - [[Proiect comunitar și acțiune civică]]
 
+### Cetățenie și democrație — semestrul 1
+
+- [[Cetățenia - statut, drepturi, îndatoriri]]
+- [[Democrația - concept, principii, forme]]
+- [[Pluralismul politic și alegerile]]
+
+### Statul de drept și separația puterilor — semestrul 1
+
+- [[Statul de drept]]
+- [[Separarea și echilibrul puterilor]]
+- [[Constituția și drepturile fundamentale]]
+
+### Societate civilă și participare — semestrul 2
+
+- [[Societatea civilă și organizațiile neguvernamentale]]
+- [[Opinia publică și participarea democratică]]
+- [[Egalitatea de șanse și incluziunea]]
+
 ## Exersare
-- [[Carduri - Studii sociale (clasa a XI-a)]] — 36 carduri
-- [[Test - Studii sociale (clasa a XI-a)]] — 60 întrebări
+- [[Carduri - Studii sociale (clasa a XI-a)]] — 72 carduri
+- [[Test - Studii sociale (clasa a XI-a)]] — 108 întrebări
 
 ## Legături
 - [[Studii sociale|Studii sociale]]

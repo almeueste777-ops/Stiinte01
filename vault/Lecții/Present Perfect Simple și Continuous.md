@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Present Perfect Simple și Continuous
 
-[[Limba modernă 1 (Engleză) (clasa a X-a)|Limba modernă 1 (Engleză)]] · [[Clasa a X-a]] · lecția 1 din 9
+[[Limba modernă 1 (Engleză) (clasa a X-a)|Limba modernă 1 (Engleză)]] · [[Clasa a X-a]] · lecția 1 din 18
 
 **Capitolul:** Timpuri și aspecte — semestrul 1
 

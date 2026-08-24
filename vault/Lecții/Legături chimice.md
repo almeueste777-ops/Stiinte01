@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Legături chimice
 
-[[Chimie (clasa a IX-a)|Chimie]] · [[Clasa a IX-a]] · lecția 3 din 9
+[[Chimie (clasa a IX-a)|Chimie]] · [[Clasa a IX-a]] · lecția 3 din 18
 
 **Capitolul:** Atomul și sistemul periodic — semestrul 1
 

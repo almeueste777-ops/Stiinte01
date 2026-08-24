@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Antisemitismul modern
 
-[[Istoria evreilor. Holocaustul (clasa a XI-a)|Istoria evreilor. Holocaustul]] · [[Clasa a XI-a]] · lecția 4 din 9
+[[Istoria evreilor. Holocaustul (clasa a XI-a)|Istoria evreilor. Holocaustul]] · [[Clasa a XI-a]] · lecția 4 din 18
 
 **Capitolul:** Antisemitismul și Holocaustul — semestrul 1
 

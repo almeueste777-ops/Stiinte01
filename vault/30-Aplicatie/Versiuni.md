@@ -1,8 +1,8 @@
 ---
 titlu: Versiuni
 tip: registru
-versiune: "06"
-actualizat: 2026-08-23
+versiune: "07"
+actualizat: 2026-08-24
 tags: [versiuni, changelog]
 ---
 
@@ -13,6 +13,26 @@ Legături: [[Științe Sociale — MOC]] · [[Arhitectura aplicației]] · [[Des
 Schema de numerotare: **versiunea aplicației** (`01`, `02`, …) marchează o etapă vizibilă
 pentru utilizator. Ea este independentă de versiunea cache-ului din `sw.js`, care crește la
 *fiecare* modificare de fișiere, oricât de mică.
+
+## v07 — 2026-08-24 · „Mai multe lecții la fiecare materie”
+
+Programa acoperită era subțire (60 de module, în medie ~9,7 lecții fiecare). Fiecare materie, la
+fiecare an, a fost **extinsă aditiv** — capitole și lecții noi lângă cele existente, fără a schimba
+nimic din ce era.
+
+**Ce s-a schimbat**
+- **De la 580 la 1152 de lecții** (206 → 412 capitole; 2320 → 4608 carduri; 2320 → 4608 întrebări
+  de lecție; 1294 → 1942 întrebări de teză). Fiecare modul a primit 2–3 capitole noi.
+- **Aditiv, garantat mecanic:** un verificator compară fiecare modul cu starea dinainte și respinge
+  orice modificare a conținutului vechi — doar adăugiri (*580 vechi + 572 noi = 1152, nimic vechi
+  schimbat*). Elevii cu progres pe lecțiile vechi nu pierd nimic.
+- **Doar conținut:** codul aplicației (JS/CSS/HTML) a rămas neatins, deci UX-ul e cel verificat la
+  v06. `?v=` neschimbat; s-a bumpat doar cache-ul.
+- Cache SW: `stiinte01-v11`.
+
+**Verificare:** bateria locală (JSON, `verifica-continut` — 60 module / 1152 lecții, index
+sincronizat, `versiuni.json` v07 ↔ CACHE 11, CSS, vault). Detalii:
+[[Jurnal 2026-08-24 — Mai multe lecții v07]].
 
 ## v06 — 2026-08-23 · „Motivație și progres”
 

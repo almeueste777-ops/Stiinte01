@@ -10,7 +10,7 @@ clasa: "a IX-a"
 ---
 # Raporturi între propoziții: pătratul logic
 
-[[Logică, argumentare și comunicare (clasa a IX-a)|Logică, argumentare și comunicare]] · [[Clasa a IX-a]] · lecția 9 din 16
+[[Logică, argumentare și comunicare (clasa a IX-a)|Logică, argumentare și comunicare]] · [[Clasa a IX-a]] · lecția 9 din 24
 
 **Capitolul:** Propozițiile — semestrul 2
 

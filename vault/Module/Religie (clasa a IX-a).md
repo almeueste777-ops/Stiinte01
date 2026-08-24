@@ -20,7 +20,7 @@ cssclasses: fisa
 
 Sfânta Scriptură și Sfânta Tradiție, revelația și credința, Vechiul Testament și învățătura despre om.
 
-## Capitole (3)
+## Capitole (6)
 
 ### Revelație, Scriptură, Tradiție — semestrul 1
 
@@ -40,9 +40,27 @@ Sfânta Scriptură și Sfânta Tradiție, revelația și credința, Vechiul Test
 - [[Rugăciunea și viața liturgică]]
 - [[Virtuți, conștiință, alegeri]]
 
+### Psalmii și cărțile de înțelepciune — semestrul 1
+
+- [[Psalmii — cartea rugăciunii]]
+- [[Cărțile de înțelepciune]]
+- [[Cortul, Templul și cultul Vechiului Testament]]
+
+### Poporul ales: regi și istorie — semestrul 2
+
+- [[Regii Saul, David și Solomon]]
+- [[Regatul împărțit și exilul babilonian]]
+- [[Țara Sfântă și mediul biblic]]
+
+### Sărbători, îngeri și viața de credință — semestrul 2
+
+- [[Sărbătorile Vechiului Testament]]
+- [[Îngerii și lumea nevăzută]]
+- [[Numele și însușirile lui Dumnezeu]]
+
 ## Exersare
-- [[Carduri - Religie (clasa a IX-a)]] — 36 carduri
-- [[Test - Religie (clasa a IX-a)]] — 54 întrebări
+- [[Carduri - Religie (clasa a IX-a)]] — 72 carduri
+- [[Test - Religie (clasa a IX-a)]] — 102 întrebări
 
 ## Legături
 - [[Religie|Religie]]

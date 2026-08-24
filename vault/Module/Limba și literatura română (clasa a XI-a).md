@@ -21,7 +21,7 @@ cssclasses: fisa
 
 Fundamentele culturii române și marile curente: umanism, iluminism, pașoptism, romantism, realism, simbolism, cu autorii canonici.
 
-## Capitole (4)
+## Capitole (9)
 
 ### Începuturile culturii scrise — semestrul 1
 
@@ -44,9 +44,35 @@ Fundamentele culturii române și marile curente: umanism, iluminism, pașoptism
 - [[Simbolismul și George Bacovia]]
 - [[Trecerea spre modernism - Macedonski, Coșbuc, Goga]]
 
+### Pașoptismul: scriitori și specii — semestrul 1
+
+- [[Vasile Alecsandri — „bardul de la Mircești”]]
+- [[Grigore Alexandrescu și fabula]]
+
+### Mihai Eminescu — aprofundare — semestrul 1
+
+- [[„Scrisoarea I” - satiră și meditație cosmogonică]]
+- [[Lirica filozofică și erotică - „Glossă”, „Odă (în metru antic)”]]
+
+### Marii clasici: proză și teatru — semestrul 2
+
+- [[Ion Creangă — „Amintiri din copilărie”]]
+- [[Caragiale — teatrul comic - „O noapte furtunoasă”]]
+- [[Slavici — „Mara” și realismul ardelean]]
+
+### Simbolismul românesc — aprofundare — semestrul 2
+
+- [[Ion Minulescu și simbolismul de atmosferă]]
+- [[George Bacovia — „Lacustră”, „Decor”]]
+
+### Direcția critică junimistă — semestrul 1
+
+- [[Titu Maiorescu - teoria poeziei]]
+- [[Momentul critic junimist - „Direcția nouă”]]
+
 ## Exersare
-- [[Carduri - Limba și literatura română (clasa a XI-a)]] — 36 carduri
-- [[Test - Limba și literatura română (clasa a XI-a)]] — 60 întrebări
+- [[Carduri - Limba și literatura română (clasa a XI-a)]] — 80 carduri
+- [[Test - Limba și literatura română (clasa a XI-a)]] — 116 întrebări
 
 ## Legături
 - [[Limba și literatura română|Limba și literatura română]]

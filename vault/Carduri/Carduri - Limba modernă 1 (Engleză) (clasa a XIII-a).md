@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Limba modernă 1 (Engleză) (clasa a XIII-a)
 
-36 carduri pentru [[Limba modernă 1 (Engleză) (clasa a XIII-a)|Limba modernă 1 (Engleză) (clasa a XIII-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+72 carduri pentru [[Limba modernă 1 (Engleză) (clasa a XIII-a)|Limba modernă 1 (Engleză) (clasa a XIII-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/limba-moderna-1-engleza
 
@@ -82,6 +82,78 @@ Ce forme de expunere mențin nivelul?::Știri, filme fără subtitrare în româ
 Ce contează pentru mediul profesional?::Engleza aplicată: corespondență, prezentări, terminologie, ședințe, interviuri.
 
 Care este regula finală a învățării unei limbi?::Limba se învață folosind-o, înainte de a te simți pregătit.
+
+Ce structură are condiționalul al doilea?::If + past simple, would + infinitiv.
+
+Ce exprimă condiționalul al treilea?::O condiție ireală din trecut, care nu s-a produs.
+
+Ce timp NU se folosește după „if” în tipul 1?::„Will” — se folosește prezentul.
+
+Când se folosește un condițional mixt?::Când o acțiune trecută are un efect în prezent.
+
+Ce devine „will” prin backshift?::„Would”.
+
+Cum se raportează o comandă?::Cu infinitivul: „He told me to stop”.
+
+Ce ordine are întrebarea raportată?::Ordinea afirmativă (subiect + verb), fără „do”.
+
+Ce introduce o întrebare raportată fără cuvânt interogativ?::„If” sau „whether”.
+
+Cum se formează pasivul?::Cu „to be” la timpul potrivit + participiul trecut.
+
+Cum se introduce autorul în pasiv?::Prin „by”: „written by Orwell”.
+
+Ce pasiv are present perfect?::„Has/have been” + participiu: „has been done”.
+
+De ce verbele intranzitive nu au pasiv?::Pentru că nu au obiect direct care să devină subiect.
+
+Ce schimbă, de regulă, un prefix?::Sensul cuvântului, adesea spre negativ.
+
+Ce schimbă, de regulă, un sufix?::Clasa gramaticală (partea de vorbire).
+
+Ce sufixe formează substantive?::-tion, -ment, -ness, -ity.
+
+Ce înseamnă „misunderstand”?::A înțelege greșit (prefixul „mis-” = greșit).
+
+Ce înseamnă „put off”?::A amâna (sinonim formal: postpone).
+
+Unde stă pronumele obiect la un verb frazal separabil?::Între verb și particulă: „turn it off”.
+
+Ce înseamnă „look after”?::A avea grijă de cineva sau ceva.
+
+Un sinonim formal pentru „find out”?::Discover.
+
+Se spune „make” sau „do a decision”?::„Make a decision”.
+
+Ce prepoziție cere „depend”?::„On”: „depend on”.
+
+Ce prepoziție cere „interested”?::„In”: „interested in”.
+
+Ce înseamnă „on time”?::La ora fixată, punctual.
+
+Ce cere o „key word transformation”?::Rescrierea propoziției cu cuvântul dat, păstrând sensul.
+
+Ce se testează des la cloze?::Cuvinte gramaticale: articole, prepoziții, auxiliare.
+
+Contracția „isn't” numără drept câte cuvinte?::Două.
+
+Ce faci întâi la un cloze?::Citești tot textul pentru sens.
+
+Cu ce se încheie o scrisoare formală fără numele destinatarului?::„Yours faithfully,”.
+
+Ce structură are eseul de opinie?::Introducere, argumente cu exemple, concluzie.
+
+Ce rol au conectorii?::Organizează și leagă ideile.
+
+Ce evită registrul formal?::Contracțiile și expresiile colocviale.
+
+Prin ce diferă engleza britanică de cea americană?::Prin pronunție, ortografie și unele cuvinte.
+
+Cum se scrie „culoare” în engleza americană?::„Color” (britanic: „colour”).
+
+Ce este Commonwealth-ul?::O asociație care leagă multe foste colonii britanice.
+
+Ce înseamnă „global English”?::Engleza folosită ca limbă neutră între vorbitori diferiți.
 
 ---
 

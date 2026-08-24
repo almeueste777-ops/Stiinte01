@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Stiluri funcționale și texte nonliterare
 
-[[Limba și literatura română (clasa a X-a)|Limba și literatura română]] · [[Clasa a X-a]] · lecția 9 din 9
+[[Limba și literatura română (clasa a X-a)|Limba și literatura română]] · [[Clasa a X-a]] · lecția 9 din 20
 
 **Capitolul:** Stil, text nonliterar, redactare — semestrul 2
 
@@ -29,6 +29,6 @@ Stilurile funcționale sunt variante ale limbii adaptate unui domeniu de activit
 
 ---
 
-⬅ [[Comedia - „O scrisoare pierdută”]]
+⬅ [[Comedia - „O scrisoare pierdută”]] · [[Basmul popular și basmul cult]] ➡
 
 Exersează: [[Carduri - Limba și literatura română (clasa a X-a)]] · [[Test - Limba și literatura română (clasa a X-a)]]

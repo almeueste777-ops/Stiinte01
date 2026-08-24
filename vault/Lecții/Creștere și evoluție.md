@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Creștere și evoluție
 
-[[Matematică aplicată în științele sociale (clasa a XI-a)|Matematică aplicată în științele sociale]] · [[Clasa a XI-a]] · lecția 7 din 9
+[[Matematică aplicată în științele sociale (clasa a XI-a)|Matematică aplicată în științele sociale]] · [[Clasa a XI-a]] · lecția 7 din 18
 
 **Capitolul:** Modele și aplicații — semestrul 2
 

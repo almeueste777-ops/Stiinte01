@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Genurile literare
 
-[[Limba și literatura română (clasa a IX-a)|Limba și literatura română]] · [[Clasa a IX-a]] · lecția 2 din 9
+[[Limba și literatura română (clasa a IX-a)|Limba și literatura română]] · [[Clasa a IX-a]] · lecția 2 din 20
 
 **Capitolul:** Ficțiunea și lumea textului — semestrul 1
 

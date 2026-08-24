@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Strategii de examen și greșeli de evitat
 
-[[Limba și literatura română (clasa a XIII-a)|Limba și literatura română]] · [[Clasa a XIII-a]] · lecția 9 din 9
+[[Limba și literatura română (clasa a XIII-a)|Limba și literatura română]] · [[Clasa a XIII-a]] · lecția 9 din 20
 
 **Capitolul:** Recapitulare pe autori canonici — semestrul 2
 
@@ -29,6 +29,6 @@ Gestionarea timpului: trei ore pentru trei subiecte înseamnă, orientativ, 70 d
 
 ---
 
-⬅ [[Autorii canonici și operele de referință]]
+⬅ [[Autorii canonici și operele de referință]] · [[Sinteză - romantismul și realismul]] ➡
 
 Exersează: [[Carduri - Limba și literatura română (clasa a XIII-a)]] · [[Test - Limba și literatura română (clasa a XIII-a)]]

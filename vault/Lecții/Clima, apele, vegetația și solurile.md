@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Clima, apele, vegetația și solurile
 
-[[Geografie (clasa a XII-a)|Geografie]] · [[Clasa a XII-a]] · lecția 3 din 9
+[[Geografie (clasa a XII-a)|Geografie]] · [[Clasa a XII-a]] · lecția 3 din 20
 
 **Capitolul:** Europa și România: cadrul natural — semestrul 1
 

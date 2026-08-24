@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Limba modernă 1 (Engleză) (clasa a XII-a)
 
-36 carduri pentru [[Limba modernă 1 (Engleză) (clasa a XII-a)|Limba modernă 1 (Engleză) (clasa a XII-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+72 carduri pentru [[Limba modernă 1 (Engleză) (clasa a XII-a)|Limba modernă 1 (Engleză) (clasa a XII-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/limba-moderna-1-engleza
 
@@ -82,6 +82,78 @@ Cum se formulează un obiectiv realist de învățare?::Prin descriptori: „pot
 Ce sunt platourile în învățarea unei limbi?::Perioade aparente de stagnare, normale în progres.
 
 Ce cauzează cel mai des stagnarea?::Abandonul în timpul platourilor.
+
+Ce rol au prefixele?::Schimbă sensul cuvântului: „happy" → „unhappy".
+
+Ce rol au sufixele?::Schimbă, de regulă, clasa gramaticală: „decide" → „decision".
+
+Ce este o familie de cuvinte?::Grupul tuturor derivatelor unei rădăcini: „nation, national, nationality".
+
+La ce mai ajută recunoașterea afixelor?::La deducerea sensului cuvintelor necunoscute în lectură.
+
+Ce asigură conectorii într-un text?::Coeziunea și claritatea relațiilor logice.
+
+Ce conector exprimă contrastul?::„However", „nevertheless", „on the contrary".
+
+Cum se punctuează „however" la început de propoziție?::Se separă prin virgulă.
+
+Ce marcator introduce o reformulare?::„In other words", „that is to say".
+
+Ce cuvinte exprimă contrastul între două idei?::„Whereas", „while", „on the other hand".
+
+Ce cuvinte exprimă asemănarea?::„Similarly", „likewise", „in the same way".
+
+Cum se nuanțează gradul unei comparații?::Cu „significantly", „slightly", „twice as", „three times".
+
+Care sunt două greșeli frecvente de comparație?::Dublul comparativ („more better") și confuzia „as"/„than".
+
+Cum se exprimă o opinie prudentă?::„I tend to think", „As far as I can tell".
+
+Ce structuri preferă registrul academic pentru opinie?::Cele impersonale: „It could be argued that".
+
+Cum se exprimă acordul total?::„Absolutely", „I couldn't agree more".
+
+Cum se formulează un dezacord politicos?::Recunoscând mai întâi argumentul: „I see your point, but ...".
+
+Cum se face o propunere într-o negociere?::„Why don't we ...?", „How about ...?", „I suggest ...".
+
+De ce se folosește condiționalul în negociere?::Pentru că leagă o concesie de o condiție și lasă loc de manevră.
+
+Pe ce se sprijină persuasiunea eficientă?::Pe beneficiul celuilalt, nu doar pe dorința proprie.
+
+Cum se marchează ajungerea la un acord?::„That sounds reasonable", „Let's meet halfway", „We have a deal".
+
+Cum se face o cerere politicoasă în engleza profesională?::„Could you ...?", „Would you mind + gerunziu?".
+
+Ce urmează după „would you mind"?::Gerunziul: „Would you mind sending the file?".
+
+Cum se exprimă deducția aproape sigură?::Cu „must": „He must be tired".
+
+Care este confuzia modală gravă?::Între „mustn't" (interdicție) și „don't have to" (absența obligației).
+
+Ce formă de guvernare are Regatul Unit?::Monarhie constituțională, cu prim-ministru și parlament.
+
+Ce formă de guvernare au Statele Unite?::Republică federală prezidențială, cu separația puterilor.
+
+Ce înseamnă „public school" în Regatul Unit?::O școală privată de prestigiu, nu una de stat.
+
+Ce este BBC?::Radioteleviziunea publică britanică.
+
+Cine este cel mai cunoscut dramaturg englez?::William Shakespeare.
+
+Ce înseamnă „playwright"?::Autor de piese de teatru.
+
+Ce înseamnă „adaptation"?::Transpunerea unei opere într-un alt mediu, de exemplu o carte în film.
+
+Ce distinge lectura critică a unui text cultural?::Descrierea de evaluare și faptul de opinie.
+
+De ce este engleza o limbă globală?::Este limba comunicării internaționale în știință, aviație, internet și afaceri.
+
+Ce înseamnă „English as a lingua franca"?::Engleza folosită între vorbitori care nu o au ca limbă maternă.
+
+Sunt variantele englezei corecte?::Da, toate; important este să fie folosite consecvent.
+
+Ce este competența interculturală?::Adaptarea la interlocutor și la context, parte din competența lingvistică.
 
 ---
 

@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Comunicare online și colaborare
 
-[[Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a IX-a]] · lecția 6 din 9
+[[Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a IX-a]] · lecția 6 din 16
 
 **Capitolul:** Editare de text și prezentări — semestrul 2
 

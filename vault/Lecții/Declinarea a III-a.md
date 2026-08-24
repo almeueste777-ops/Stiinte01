@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Declinarea a III-a
 
-[[Limba latină (clasa a X-a)|Limba latină]] · [[Clasa a X-a]] · lecția 1 din 9
+[[Limba latină (clasa a X-a)|Limba latină]] · [[Clasa a X-a]] · lecția 1 din 18
 
 **Capitolul:** Morfologie avansată — semestrul 1
 

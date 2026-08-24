@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Tehnologie, etică, responsabilitate
 
-[[ȘTIAM (științe integrate) (clasa a XII-a)|ȘTIAM (științe integrate)]] · [[Clasa a XII-a]] · lecția 6 din 9
+[[ȘTIAM (științe integrate) (clasa a XII-a)|ȘTIAM (științe integrate)]] · [[Clasa a XII-a]] · lecția 6 din 16
 
 **Capitolul:** Tehnologie și societate — semestrul 1
 

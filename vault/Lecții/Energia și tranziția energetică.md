@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Energia și tranziția energetică
 
-[[ȘTIAM (științe integrate) (clasa a XII-a)|ȘTIAM (științe integrate)]] · [[Clasa a XII-a]] · lecția 4 din 9
+[[ȘTIAM (științe integrate) (clasa a XII-a)|ȘTIAM (științe integrate)]] · [[Clasa a XII-a]] · lecția 4 din 16
 
 **Capitolul:** Tehnologie și societate — semestrul 1
 

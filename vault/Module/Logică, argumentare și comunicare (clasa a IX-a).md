@@ -21,7 +21,7 @@ cssclasses: fisa
 
 Instrumentele gândirii corecte: argumentarea, termenii, propozițiile, raționamentele și erorile de argumentare.
 
-## Capitole (5)
+## Capitole (8)
 
 ### Societate, comunicare și argumentare — semestrul 1
 
@@ -54,9 +54,26 @@ Instrumentele gândirii corecte: argumentarea, termenii, propozițiile, raționa
 - [[Sofisme informale frecvente]]
 - [[Argumentarea în viața cotidiană]]
 
+### Operații cu termeni — semestrul 1
+
+- [[Clasificarea termenilor]]
+- [[Diviziunea logică]]
+- [[Generalizarea și determinarea termenilor]]
+
+### Silogismul: moduri și verificare — semestrul 2
+
+- [[Figurile și modurile valide ale silogismului]]
+- [[Verificarea prin diagrame Venn și reducerea la figura I]]
+
+### Raționamente cu propoziții compuse — semestrul 2
+
+- [[Propoziții compuse și conectorii logici]]
+- [[Raționamentul ipotetico-categoric]]
+- [[Raționamentul disjunctiv și dilema]]
+
 ## Exersare
-- [[Carduri - Logică, argumentare și comunicare (clasa a IX-a)]] — 64 carduri
-- [[Test - Logică, argumentare și comunicare (clasa a IX-a)]] — 88 întrebări
+- [[Carduri - Logică, argumentare și comunicare (clasa a IX-a)]] — 96 carduri
+- [[Test - Logică, argumentare și comunicare (clasa a IX-a)]] — 132 întrebări
 
 ## Legături
 - [[Logică, argumentare și comunicare|Logică, argumentare și comunicare]]

@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Sărbătorile și posturile
 
-[[Religie (clasa a XI-a)|Religie]] · [[Clasa a XI-a]] · lecția 6 din 9
+[[Religie (clasa a XI-a)|Religie]] · [[Clasa a XI-a]] · lecția 6 din 18
 
 **Capitolul:** Cult, artă, sărbători — semestrul 1
 

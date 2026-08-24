@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Mol, formule, calcule chimice
 
-[[Chimie (clasa a IX-a)|Chimie]] · [[Clasa a IX-a]] · lecția 6 din 9
+[[Chimie (clasa a IX-a)|Chimie]] · [[Clasa a IX-a]] · lecția 6 din 18
 
 **Capitolul:** Substanțe și soluții — semestrul 1
 

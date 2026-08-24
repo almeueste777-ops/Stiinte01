@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Domnii și lupta antiotomană
 
-[[Istorie (clasa a IX-a)|Istorie]] · [[Clasa a IX-a]] · lecția 11 din 12
+[[Istorie (clasa a IX-a)|Istorie]] · [[Clasa a IX-a]] · lecția 11 din 24
 
 **Capitolul:** Spațiul românesc în Evul Mediu — semestrul 2
 

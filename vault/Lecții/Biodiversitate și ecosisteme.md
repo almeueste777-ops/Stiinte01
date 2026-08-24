@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Biodiversitate și ecosisteme
 
-[[ȘTIAM (științe integrate) (clasa a XII-a)|ȘTIAM (științe integrate)]] · [[Clasa a XII-a]] · lecția 8 din 9
+[[ȘTIAM (științe integrate) (clasa a XII-a)|ȘTIAM (științe integrate)]] · [[Clasa a XII-a]] · lecția 8 din 16
 
 **Capitolul:** Mediu, resurse, gândire critică — semestrul 2
 

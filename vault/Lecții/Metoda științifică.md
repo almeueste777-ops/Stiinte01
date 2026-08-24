@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Metoda științifică
 
-[[ȘTIAM (științe integrate) (clasa a XI-a)|ȘTIAM (științe integrate)]] · [[Clasa a XI-a]] · lecția 1 din 9
+[[ȘTIAM (științe integrate) (clasa a XI-a)|ȘTIAM (științe integrate)]] · [[Clasa a XI-a]] · lecția 1 din 16
 
 **Capitolul:** Cum funcționează știința — semestrul 1
 

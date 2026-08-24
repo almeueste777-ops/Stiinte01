@@ -1448,12 +1448,807 @@
      ]
     }
    ]
+  },
+  {
+   "id": "log9-c6",
+   "titlu": "Operații cu termeni",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "log9-17",
+     "titlu": "Clasificarea termenilor",
+     "rezumat": "Termenii nu sunt toți de același fel: ei se clasifică după sferă și după conținut. Distincția nu este un exercițiu formal, ci decide dacă doi termeni pot fi puși corect în raport și dacă un raționament construit cu ei este valid.\nDupă sferă (extensiune), termenii sunt vizi — sfera nu conține niciun obiect („cerc pătrat\"), individuali (singulari) — sfera are un singur obiect („Mihai Eminescu\", „capitala României\") — și generali — sfera cuprinde mai multe obiecte („oraș\", „elev\"). Numai termenii generali pot fi subiect al unei clasificări sau al unei definiții prin gen și diferență.\nDupă conținut (intensiune) distingem mai multe perechi: concreți (numesc obiecte: „carte\") și abstracți (numesc însușiri desprinse de obiect: „frumusețe\"); absoluți (au sens de sine stătător: „om\") și relativi (nu pot fi gândiți fără un corelativ: „părinte\" trimite la „copil\"); pozitivi (indică prezența unei note: „politicos\") și negativi (indică absența ei: „nepoliticos\"); colectivi (privesc un ansamblu ca întreg: „armată\", „pădure\") și distributivi (se aplică fiecărui element în parte: „soldat\", „copac\"). Din „pădurea e deasă\" nu urmează „copacul e des\".",
+     "ideiCheie": [
+      "După sferă: termeni vizi, individuali (singulari) și generali.",
+      "După conținut: concreți/abstracți, absoluți/relativi, pozitivi/negativi, colectivi/distributivi.",
+      "Termenul relativ cere un corelativ; termenul absolut se înțelege singur.",
+      "Termenul colectiv privește ansamblul; cel distributiv, fiecare element luat separat."
+     ],
+     "termeni": [
+      {
+       "t": "termen abstract",
+       "d": "termen care numește o însușire desprinsă de obiectul căruia îi aparține"
+      },
+      {
+       "t": "termen relativ",
+       "d": "termen care nu poate fi gândit fără un corelativ (părinte–copil, cauză–efect)"
+      },
+      {
+       "t": "termen colectiv",
+       "d": "termen care se referă la un ansamblu luat ca întreg, nu la fiecare element al lui"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este un termen abstract?",
+       "v": "Un termen care numește o însușire desprinsă de obiect, precum „bunătate\" sau „albeață\"."
+      },
+      {
+       "f": "Dă un exemplu de termen relativ.",
+       "v": "„Tată\" (cere „copil\"), „cauză\" (cere „efect\"), „profesor\" (cere „elev\")."
+      },
+      {
+       "f": "Ce deosebește termenul colectiv de cel distributiv?",
+       "v": "Colectivul privește ansamblul ca întreg; distributivul, fiecare element în parte."
+      },
+      {
+       "f": "Câte obiecte are sfera unui termen individual?",
+       "v": "Unul singur."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Termenul „bunătate\" este, după conținut:",
+       "optiuni": [
+        "abstract",
+        "concret",
+        "colectiv",
+        "vid"
+       ],
+       "corect": 0,
+       "explicatie": "Numește o însușire desprinsă de obiectul care o poartă."
+      },
+      {
+       "intrebare": "Termenul „tată\" este:",
+       "optiuni": [
+        "relativ",
+        "absolut",
+        "vid",
+        "negativ"
+       ],
+       "corect": 0,
+       "explicatie": "Nu poate fi gândit fără corelativul „copil\"."
+      },
+      {
+       "intrebare": "„Pădure\", raportat la copacii care o compun, este un termen:",
+       "optiuni": [
+        "colectiv",
+        "distributiv",
+        "individual",
+        "abstract"
+       ],
+       "corect": 0,
+       "explicatie": "Notele se aplică ansamblului ca întreg, nu fiecărui copac în parte."
+      },
+      {
+       "intrebare": "Termenul „capitala României\" este, după sferă:",
+       "optiuni": [
+        "individual (singular)",
+        "general",
+        "vid",
+        "colectiv"
+       ],
+       "corect": 0,
+       "explicatie": "Sfera lui conține un singur obiect."
+      }
+     ]
+    },
+    {
+     "id": "log9-18",
+     "titlu": "Diviziunea logică",
+     "rezumat": "Diviziunea logică este operația prin care sfera unui gen este împărțită în speciile lui, după un criteriu. Elementele ei sunt genul de divizat, membrii diviziunii (speciile obținute) și fundamentul diviziunii — criteriul după care se face împărțirea.\nCazul cel mai sigur este diviziunea dihotomică: împărțirea sferei în două clase contradictorii, una care are o notă și una care nu o are (A și non-A). „Numerele întregi se împart în pare și nepare.\" Fiind contradictorii, cele două clase acoperă întotdeauna tot universul și se exclud reciproc; dezavantajul e că a doua clasă (non-A) rămâne nedeterminată pozitiv.\nRegulile diviziunii sunt cele ale clasificării, care nu e decât o diviziune continuată pe mai multe trepte: să fie completă, cu membri care se exclud, cu un criteriu unic la fiecare treaptă, fără salturi. Diviziunea logică nu trebuie confundată cu partiția: diviziunea împarte sfera unei noțiuni în specii („triunghiurile se împart în echilaterale, isoscele, scalene\"), pe când partiția desface un obiect în părțile lui materiale („ceasul are cadran, ace, mecanism\"). „Acul\" nu este un fel de „ceas\".",
+     "ideiCheie": [
+      "Diviziunea logică împarte sfera unui gen în specii, după un criteriu.",
+      "Diviziunea dihotomică (A și non-A) este întotdeauna completă și cu clase care se exclud.",
+      "Clasificarea este o diviziune continuată pe mai multe trepte succesive.",
+      "Partiția desface un obiect în părți materiale; diviziunea, o noțiune în specii."
+     ],
+     "termeni": [
+      {
+       "t": "diviziune logică",
+       "d": "împărțirea sferei unui gen în speciile lui, după un criteriu"
+      },
+      {
+       "t": "diviziune dihotomică",
+       "d": "împărțirea unei sfere în două clase contradictorii, A și non-A"
+      },
+      {
+       "t": "partiție",
+       "d": "descompunerea unui obiect în părțile lui materiale, nu a unei noțiuni în specii"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce împarte diviziunea logică?",
+       "v": "Sfera unui gen în speciile lui, după un criteriu."
+      },
+      {
+       "f": "De ce este sigură diviziunea dihotomică?",
+       "v": "Fiindcă cele două clase contradictorii (A, non-A) acoperă tot universul și se exclud."
+      },
+      {
+       "f": "Care este deosebirea dintre diviziune și partiție?",
+       "v": "Diviziunea împarte o noțiune în specii; partiția, un obiect în părți materiale."
+      },
+      {
+       "f": "Ce este clasificarea față de diviziune?",
+       "v": "O diviziune continuată pe mai multe trepte succesive."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Numerele se împart în pare și impare\" este o diviziune:",
+       "optiuni": [
+        "dihotomică",
+        "prin partiție",
+        "pe trei trepte",
+        "incompletă"
+       ],
+       "corect": 0,
+       "explicatie": "Sfera este împărțită în două clase contradictorii, A și non-A."
+      },
+      {
+       "intrebare": "Împărțirea „ceasul are cadran, ace și mecanism\" este:",
+       "optiuni": [
+        "o partiție (împărțire fizică), nu o diviziune logică",
+        "o diviziune dihotomică",
+        "o clasificare completă",
+        "o definiție prin gen proxim"
+       ],
+       "corect": 0,
+       "explicatie": "Părțile materiale nu sunt specii ale noțiunii „ceas\"."
+      },
+      {
+       "intrebare": "Un avantaj al diviziunii dihotomice este că:",
+       "optiuni": [
+        "este întotdeauna completă și cu clase care se exclud",
+        "oferă clase determinate pozitiv",
+        "se dispensează de orice criteriu",
+        "se aplică doar obiectelor fizice"
+       ],
+       "corect": 0,
+       "explicatie": "Clasele contradictorii A și non-A epuizează universul de discurs."
+      },
+      {
+       "intrebare": "Clasificarea se raportează la diviziune ca:",
+       "optiuni": [
+        "o diviziune continuată pe mai multe trepte",
+        "operația ei inversă și de altă natură",
+        "o partiție a obiectelor materiale",
+        "o definiție prin gen și diferență"
+       ],
+       "corect": 0,
+       "explicatie": "Ambele împart sfere după criterii, dar clasificarea coboară treaptă cu treaptă."
+      }
+     ]
+    },
+    {
+     "id": "log9-19",
+     "titlu": "Generalizarea și determinarea termenilor",
+     "rezumat": "Termenii aflați pe același șir de subordonare pot fi parcurși în sus și în jos. A generaliza înseamnă a trece de la o specie la genul care o cuprinde, lărgind sfera și sărăcind conținutul: de la „trandafir\" la „floare\", apoi la „plantă\", apoi la „ființă vie\". Cu fiecare pas se renunță la o notă și se câștigă în întindere.\nDeterminarea (sau restrângerea) este operația inversă: de la gen la specie, adăugând note și îngustând sfera — de la „ființă vie\" la „plantă\", la „floare\", la „trandafir roșu\". Ambele operații nu fac decât să exemplifice legea inversei proporționalități dintre sferă și conținut, urcând sau coborând pe aceeași scară.\nFiecare operație are o limită. Generalizarea nu poate continua la nesfârșit: ea se oprește la categorii — genurile supreme (substanță, calitate, cantitate, relație), noțiuni atât de largi încât nu mai au deasupra lor un gen. Determinarea se oprește la noțiunile individuale, sub care nu mai există specii, ci indivizi. Pe aceste două operații se sprijină definirea (care caută genul proxim), clasificarea și numeroase inferențe.",
+     "ideiCheie": [
+      "Generalizarea urcă de la specie la gen: sfera crește, conținutul scade.",
+      "Determinarea (restrângerea) coboară de la gen la specie: sfera scade, conținutul crește.",
+      "Generalizarea se oprește la categorii (genurile supreme).",
+      "Determinarea se oprește la noțiunile individuale."
+     ],
+     "termeni": [
+      {
+       "t": "generalizare",
+       "d": "trecerea de la o specie la genul ei, cu lărgirea sferei și sărăcirea conținutului"
+      },
+      {
+       "t": "determinare",
+       "d": "trecerea de la un gen la o specie a lui, cu îngustarea sferei și îmbogățirea conținutului"
+      },
+      {
+       "t": "categorie",
+       "d": "noțiune de maximă generalitate, gen suprem care nu mai are un gen deasupra lui"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce face generalizarea cu sfera și conținutul?",
+       "v": "Lărgește sfera și sărăcește conținutul."
+      },
+      {
+       "f": "Unde se oprește generalizarea?",
+       "v": "La categorii — genurile supreme, care nu mai au un gen deasupra."
+      },
+      {
+       "f": "Unde se oprește determinarea?",
+       "v": "La noțiunile individuale, sub care nu mai există specii."
+      },
+      {
+       "f": "Dă un exemplu de determinare.",
+       "v": "De la „plantă\" la „floare\" la „trandafir\", adăugând note și îngustând sfera."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Trecerea de la „trandafir\" la „floare\" la „plantă\" este o:",
+       "optiuni": [
+        "generalizare",
+        "determinare",
+        "diviziune",
+        "partiție"
+       ],
+       "corect": 0,
+       "explicatie": "Se urcă spre genuri tot mai largi, sărăcind conținutul."
+      },
+      {
+       "intrebare": "Determinarea unui termen:",
+       "optiuni": [
+        "îngustează sfera și îmbogățește conținutul",
+        "lărgește sfera și sărăcește conținutul",
+        "lasă sfera neschimbată",
+        "elimină conținutul"
+       ],
+       "corect": 0,
+       "explicatie": "Ea coboară de la gen la specie, adăugând note."
+      },
+      {
+       "intrebare": "Generalizarea se oprește la:",
+       "optiuni": [
+        "categorii (genurile supreme)",
+        "noțiunile individuale",
+        "termenii vizi",
+        "termenii relativi"
+       ],
+       "corect": 0,
+       "explicatie": "Deasupra unei categorii nu mai există un gen care s-o cuprindă."
+      },
+      {
+       "intrebare": "Operația inversă generalizării este:",
+       "optiuni": [
+        "determinarea (restrângerea)",
+        "diviziunea logică",
+        "definiția",
+        "conversiunea"
+       ],
+       "corect": 0,
+       "explicatie": "Ea adaugă note și coboară de la gen la specie."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "log9-c7",
+   "titlu": "Silogismul: moduri și verificare",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "log9-20",
+     "titlu": "Figurile și modurile valide ale silogismului",
+     "rezumat": "Poziția termenului mediu în cele două premise dă cele patru figuri ale silogismului. Combinând tipurile A, E, I, O ale celor trei propoziții se obțin modurile. Dintre cele 256 de combinații teoretic posibile, numai 24 sunt valide, iar tradiția logică le-a dat nume mnemonice, în care vocalele indică tipurile propozițiilor.\nÎn figura I sunt valide Barbara (AAA), Celarent (EAE), Darii (AII) și Ferio (EIO). Ea este socotită „perfectă\", fiindcă respectă cel mai direct principiul dictum de omni et nullo: ce se afirmă sau se neagă despre un întreg gen se afirmă sau se neagă despre orice parte a lui. În figura a II-a (mediul e predicat în ambele premise) sunt valide Cesare, Camestres, Festino și Baroco, iar concluzia este întotdeauna negativă. În figura a III-a (mediul e subiect în ambele premise) sunt valide Darapti, Disamis, Datisi, Felapton, Bocardo și Ferison, iar concluzia este întotdeauna particulară.\nÎn figura a IV-a, rar folosită, sunt valide Bramantip, Camenes, Dimaris, Fesapo și Fresison. La cele 19 moduri „tari\" se adaugă 5 moduri „slabe\" (subalterne), în care se trage o concluzie particulară acolo unde figura ar fi permis una universală — de unde totalul de 24. Numele nu trebuie memorate mecanic: important este că validitatea se poate verifica oricând cu cele opt reguli sau cu diagramele Venn.",
+     "ideiCheie": [
+      "Figura e dată de poziția termenului mediu; modul, de tipurile A, E, I, O.",
+      "Figura I (perfectă): Barbara, Celarent, Darii, Ferio.",
+      "Figura a II-a dă concluzie negativă; figura a III-a dă concluzie particulară.",
+      "La cele 19 moduri tari se adaugă 5 subalterne, în total 24 de moduri valide."
+     ],
+     "termeni": [
+      {
+       "t": "mod valid",
+       "d": "combinație de tipuri A, E, I, O pentru care silogismul respectă toate regulile"
+      },
+      {
+       "t": "figura I",
+       "d": "figura în care mediul este subiect în majoră și predicat în minoră (M–P, S–M)"
+      },
+      {
+       "t": "dictum de omni et nullo",
+       "d": "principiul că ce este valabil pentru un întreg gen este valabil pentru orice parte a lui"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Câte moduri silogistice sunt valide?",
+       "v": "24 (19 tari și 5 subalterne), din 256 posibile."
+      },
+      {
+       "f": "Ce moduri valide are figura I?",
+       "v": "Barbara (AAA), Celarent (EAE), Darii (AII), Ferio (EIO)."
+      },
+      {
+       "f": "Ce fel de concluzie dă întotdeauna figura a II-a?",
+       "v": "O concluzie negativă."
+      },
+      {
+       "f": "Ce arată vocalele din numele unui mod (de exemplu Barbara)?",
+       "v": "Tipurile celor trei propoziții: majoră, minoră, concluzie."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Modul „Barbara\" corespunde combinației:",
+       "optiuni": [
+        "AAA în figura I",
+        "EAE în figura a II-a",
+        "AII în figura a III-a",
+        "AEE în figura a IV-a"
+       ],
+       "corect": 0,
+       "explicatie": "Toate cele trei propoziții sunt universal afirmative."
+      },
+      {
+       "intrebare": "Concluzia oricărui silogism valid din figura a II-a este:",
+       "optiuni": [
+        "negativă",
+        "universal afirmativă",
+        "particular afirmativă",
+        "imposibil de tras"
+       ],
+       "corect": 0,
+       "explicatie": "În figura a II-a mediul e predicat în ambele premise, ceea ce impune o premisă negativă."
+      },
+      {
+       "intrebare": "Numărul modurilor silogistice valide este:",
+       "optiuni": [
+        "24",
+        "4",
+        "64",
+        "256"
+       ],
+       "corect": 0,
+       "explicatie": "Din cele 256 de combinații posibile, doar 24 respectă toate regulile."
+      },
+      {
+       "intrebare": "Vocalele din numele „Celarent\" indică:",
+       "optiuni": [
+        "tipurile propozițiilor: E, A, E",
+        "figura silogismului",
+        "poziția termenului mediu",
+        "numărul de termeni"
+       ],
+       "corect": 0,
+       "explicatie": "Majoră E, minoră A, concluzie E — un mod valid al figurii I."
+      }
+     ]
+    },
+    {
+     "id": "log9-21",
+     "titlu": "Verificarea prin diagrame Venn și reducerea la figura I",
+     "rezumat": "Un silogism poate fi verificat nu doar prin cele opt reguli, ci și grafic, cu diagramele Venn. Se desenează trei cercuri suprapuse, câte unul pentru fiecare termen (S, P, M). Premisele universale se reprezintă prin hașurarea zonelor pe care le declară goale; premisele particulare, printr-un „x\" pus în zona a cărei existență o afirmă. Silogismul este valid dacă, după ce ai desenat doar premisele, concluzia se citește deja pe diagramă, fără nicio adăugire.\nOrdinea contează: se reprezintă întâi premisele universale (hașurarea) și abia apoi cele particulare (x-ul), altfel x-ul ar putea fi pus într-o zonă pe care hașurarea urma s-o interzică. Dacă x-ul ar cădea pe granița dintre două zone posibile, el se așază pe linie — semn că premisele nu determină în care dintre ele se află obiectul, deci concluzia nu poate fi trasă.\nA doua metodă clasică este reducerea: figurile a II-a, a III-a și a IV-a pot fi transformate în figura I, socotită perfectă, prin operații care păstrează adevărul — conversiunea unei premise, schimbarea ordinii premiselor, uneori reducerea la absurd. Consoanele din numele mnemonice indicau chiar aceste operații (s = conversiune simplă, p = conversiune prin accident, m = schimbarea premiselor). Reducerea arată de ce modurile celorlalte figuri sunt valide: fiindcă se sprijină, în fond, pe evidența figurii I.",
+     "ideiCheie": [
+      "Diagramele Venn testează validitatea prin hașurare (universale) și „x\" (particulare).",
+      "Un silogism e valid dacă concluzia apare pe diagramă doar din premise.",
+      "Se reprezintă întâi universalele, apoi particularele.",
+      "Reducerea transformă celelalte figuri în figura I, păstrând adevărul."
+     ],
+     "termeni": [
+      {
+       "t": "diagramă Venn",
+       "d": "metodă grafică de verificare, cu trei cercuri suprapuse pentru S, P și M"
+      },
+      {
+       "t": "reducere a silogismului",
+       "d": "transformarea unui mod din altă figură în figura I, prin operații care păstrează adevărul"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se reprezintă o premisă universală pe o diagramă Venn?",
+       "v": "Prin hașurarea zonei declarate goale."
+      },
+      {
+       "f": "Cum se reprezintă o premisă particulară?",
+       "v": "Printr-un „x\" pus în zona a cărei existență o afirmă."
+      },
+      {
+       "f": "Când este valid un silogism, pe diagramă?",
+       "v": "Când concluzia se citește deja după ce ai desenat doar premisele."
+      },
+      {
+       "f": "Ce face reducerea la figura I?",
+       "v": "Transformă un mod din altă figură în figura I, prin operații care păstrează adevărul."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Pe o diagramă Venn, o premisă universală („Toți S sunt P\") se reprezintă prin:",
+       "optiuni": [
+        "hașurarea zonei declarate goale",
+        "un „x\" în zona plină",
+        "o săgeată între cercuri",
+        "colorarea întregului cerc S"
+       ],
+       "corect": 0,
+       "explicatie": "Universala afirmă că o anumită zonă nu are niciun element."
+      },
+      {
+       "intrebare": "Ordinea corectă de reprezentare a premiselor pe diagrama Venn este:",
+       "optiuni": [
+        "întâi universalele (hașurare), apoi particularele („x\")",
+        "întâi particularele, apoi universalele",
+        "indiferentă",
+        "doar a concluziei"
+       ],
+       "corect": 0,
+       "explicatie": "Altfel „x\"-ul ar putea fi pus într-o zonă pe care hașurarea o va interzice."
+      },
+      {
+       "intrebare": "Un silogism este valid dacă, pe diagrama Venn:",
+       "optiuni": [
+        "concluzia apare deja după reprezentarea premiselor",
+        "toate zonele sunt hașurate",
+        "există cel puțin un „x\"",
+        "cele trei cercuri nu se suprapun"
+       ],
+       "corect": 0,
+       "explicatie": "Nu ai voie să adaugi nimic peste ce spun premisele."
+      },
+      {
+       "intrebare": "Reducerea unui mod din figura a II-a la figura I arată că:",
+       "optiuni": [
+        "validitatea lui se sprijină, în fond, pe evidența figurii I",
+        "el este de fapt nevalid",
+        "figurile sunt complet independente",
+        "concluzia devine universală"
+       ],
+       "corect": 0,
+       "explicatie": "Operațiile de reducere păstrează adevărul premiselor."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "log9-c8",
+   "titlu": "Raționamente cu propoziții compuse",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "log9-22",
+     "titlu": "Propoziții compuse și conectorii logici",
+     "rezumat": "Pe lângă propozițiile categorice, logica studiază propozițiile compuse, formate din propoziții simple legate prin conectori logici. Valoarea de adevăr a întregului depinde numai de valoarea părților și de conector — de aceea propozițiile simple se notează cu litere (p, q, r), iar conectorii cu semne.\nConectorii de bază sunt: negația (non-p) inversează valoarea; conjuncția (p și q) e adevărată doar când ambele componente sunt adevărate; disjuncția inclusivă (p sau q, în sensul „cel puțin unul\") e falsă doar când ambele sunt false; disjuncția exclusivă (sau p, sau q, dar nu ambele) e adevărată când exact una e adevărată; implicația (dacă p, atunci q) e falsă într-un singur caz — antecedent adevărat și consecvent fals; echivalența (p dacă și numai dacă q) e adevărată când ambele au aceeași valoare.\nÎn implicație, p se numește antecedent (condiția), iar q consecvent (condiționatul). Trebuie reținut cazul ei aparte: o implicație cu antecedent fals este adevărată, oricare ar fi consecventul. Confuzia dintre implicația logică și legătura cauzală reală stă la baza multor erori de argumentare. Valorile tuturor conectorilor se pot aduna într-un tabel de adevăr, instrumentul care decide mecanic dacă o formulă e mereu adevărată (tautologie), mereu falsă (contradicție) sau uneori adevărată.",
+     "ideiCheie": [
+      "Propoziția compusă leagă propoziții simple prin conectori logici.",
+      "Conjuncția e adevărată doar dacă ambele componente sunt adevărate.",
+      "Disjuncția inclusivă e falsă doar dacă ambele componente sunt false.",
+      "Implicația e falsă doar când antecedentul e adevărat și consecventul fals."
+     ],
+     "termeni": [
+      {
+       "t": "conector logic",
+       "d": "semn care leagă propoziții simple într-una compusă (negație, conjuncție, disjuncție, implicație, echivalență)"
+      },
+      {
+       "t": "implicație",
+       "d": "propoziție compusă „dacă p, atunci q\", falsă doar când antecedentul e adevărat și consecventul fals"
+      },
+      {
+       "t": "tabel de adevăr",
+       "d": "tabelul care dă valoarea unei propoziții compuse pentru toate combinațiile de valori ale componentelor"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Când este adevărată o conjuncție (p și q)?",
+       "v": "Numai când ambele componente sunt adevărate."
+      },
+      {
+       "f": "Când este falsă o implicație (dacă p, atunci q)?",
+       "v": "Numai când antecedentul e adevărat, iar consecventul fals."
+      },
+      {
+       "f": "Ce deosebește disjuncția exclusivă de cea inclusivă?",
+       "v": "Exclusiva cere ca exact una să fie adevărată; inclusiva admite și ca ambele să fie."
+      },
+      {
+       "f": "Ce este o tautologie?",
+       "v": "O propoziție compusă adevărată pentru orice valori ale componentelor."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "O conjuncție „p și q\" este adevărată:",
+       "optiuni": [
+        "numai când p și q sunt ambele adevărate",
+        "când cel puțin una e adevărată",
+        "când exact una e adevărată",
+        "când ambele sunt false"
+       ],
+       "corect": 0,
+       "explicatie": "Este cel mai „exigent\" dintre conectori."
+      },
+      {
+       "intrebare": "Implicația „dacă p, atunci q\" este falsă:",
+       "optiuni": [
+        "numai când p este adevărat, iar q este fals",
+        "când p este fals",
+        "când ambele sunt false",
+        "niciodată"
+       ],
+       "corect": 0,
+       "explicatie": "Un antecedent adevărat nu poate duce la un consecvent fals."
+      },
+      {
+       "intrebare": "Disjuncția inclusivă „p sau q\" este falsă:",
+       "optiuni": [
+        "numai când ambele componente sunt false",
+        "numai când ambele sunt adevărate",
+        "când exact una e adevărată",
+        "niciodată"
+       ],
+       "corect": 0,
+       "explicatie": "Ea afirmă că cel puțin una dintre propoziții este adevărată."
+      },
+      {
+       "intrebare": "O propoziție compusă adevărată pentru orice valori ale componentelor se numește:",
+       "optiuni": [
+        "tautologie",
+        "contradicție",
+        "implicație",
+        "disjuncție"
+       ],
+       "corect": 0,
+       "explicatie": "O contradicție, dimpotrivă, este falsă pentru orice valori."
+      }
+     ]
+    },
+    {
+     "id": "log9-23",
+     "titlu": "Raționamentul ipotetico-categoric",
+     "rezumat": "Raționamentul ipotetico-categoric are o premisă ipotetică (o implicație „dacă p, atunci q\") și o premisă categorică (afirmă sau neagă p ori q); din ele se trage o concluzie categorică. Există două moduri valide și două erori care le imită.\nModul ponens (modus ponendo ponens) afirmă antecedentul și conchide consecventul: „Dacă plouă, strada e udă. Plouă. Deci strada e udă.\" Modul tollens (modus tollendo tollens) neagă consecventul și conchide negarea antecedentului: „Dacă plouă, strada e udă. Strada nu e udă. Deci nu plouă.\" Ambele sunt valide: pornind de la premise adevărate, concluzia nu poate fi falsă.\nCele două erori pornesc de la aceeași implicație, dar merg pe drumul greșit. Afirmarea consecventului: „...Strada e udă. Deci plouă\" — greșit, fiindcă strada putea fi udă din alt motiv. Negarea antecedentului: „...Nu plouă. Deci strada nu e udă\" — greșit, din același motiv. Regula practică: o implicație se poate parcurge valid doar afirmând antecedentul sau negând consecventul, niciodată invers.",
+     "ideiCheie": [
+      "Premisă ipotetică (implicație) + premisă categorică → concluzie categorică.",
+      "Modus ponens: afirmi antecedentul, conchizi consecventul. Valid.",
+      "Modus tollens: negi consecventul, conchizi negarea antecedentului. Valid.",
+      "Erorile: afirmarea consecventului și negarea antecedentului."
+     ],
+     "termeni": [
+      {
+       "t": "modus ponens",
+       "d": "mod valid: din „dacă p, atunci q\" și „p\" se conchide „q\""
+      },
+      {
+       "t": "modus tollens",
+       "d": "mod valid: din „dacă p, atunci q\" și „non-q\" se conchide „non-p\""
+      },
+      {
+       "t": "negarea antecedentului",
+       "d": "eroare: din „dacă p, atunci q\" și „non-p\" se conchide greșit „non-q\""
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce conchide modus ponens?",
+       "v": "Din „dacă p, atunci q\" și „p\", conchide „q\"."
+      },
+      {
+       "f": "Ce conchide modus tollens?",
+       "v": "Din „dacă p, atunci q\" și „non-q\", conchide „non-p\"."
+      },
+      {
+       "f": "De ce este greșită afirmarea consecventului?",
+       "v": "Fiindcă q putea fi adevărat din alt motiv decât p."
+      },
+      {
+       "f": "Cum poate fi parcursă valid o implicație?",
+       "v": "Afirmând antecedentul sau negând consecventul, niciodată invers."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Dacă înveți, promovezi. Ai învățat. Deci promovezi.\" Acest raționament este:",
+       "optiuni": [
+        "modus ponens, valid",
+        "afirmarea consecventului",
+        "modus tollens",
+        "negarea antecedentului"
+       ],
+       "corect": 0,
+       "explicatie": "Se afirmă antecedentul și se conchide consecventul."
+      },
+      {
+       "intrebare": "„Dacă înveți, promovezi. Nu ai promovat. Deci nu ai învățat.\" Acesta este:",
+       "optiuni": [
+        "modus tollens, valid",
+        "negarea antecedentului",
+        "afirmarea consecventului",
+        "o eroare formală"
+       ],
+       "corect": 0,
+       "explicatie": "Se neagă consecventul și se conchide negarea antecedentului."
+      },
+      {
+       "intrebare": "„Dacă înveți, promovezi. Ai promovat. Deci ai învățat.\" Acesta este:",
+       "optiuni": [
+        "afirmarea consecventului, o eroare",
+        "modus ponens",
+        "modus tollens",
+        "un raționament valid"
+       ],
+       "corect": 0,
+       "explicatie": "Puteai promova și din alt motiv; consecventul nu impune antecedentul."
+      },
+      {
+       "intrebare": "O implicație poate fi parcursă valid:",
+       "optiuni": [
+        "afirmând antecedentul sau negând consecventul",
+        "afirmând consecventul sau negând antecedentul",
+        "în orice sens",
+        "numai prin conversiune"
+       ],
+       "corect": 0,
+       "explicatie": "Celelalte două căi sunt erorile clasice."
+      }
+     ]
+    },
+    {
+     "id": "log9-24",
+     "titlu": "Raționamentul disjunctiv și dilema",
+     "rezumat": "Raționamentul disjunctiv are ca premisă majoră o disjuncție („sau p, sau q\") și ca premisă minoră afirmarea sau negarea unuia dintre membri. Modul sigur este modus tollendo ponens: negând unul dintre membri, conchizi celălalt — „E zi sau e noapte. Nu e zi. Deci e noapte.\" El este valid la orice disjuncție, inclusivă sau exclusivă.\nModul ponendo tollens — afirmând un membru, negi celălalt — este valid numai la disjuncția exclusivă, în care membrii se exclud reciproc. La disjuncția inclusivă el devine o eroare: din „a plouat sau a nins; a plouat\" nu urmează „n-a nins\", fiindcă puteau fi adevărate amândouă. Corectitudinea depinde deci de tipul disjuncției — o sursă frecventă de erori în argumentarea curentă.\nDilema combină implicația cu disjuncția: „Dacă alegi A, urmează o consecință; dacă alegi B, urmează alta; dar trebuie să alegi A sau B; deci urmează una dintre consecințe.\" Ea a fost o armă retorică temută, fiindcă pare să închidă orice ieșire. Se răspunde unei dileme în trei feluri: „printre coarne\" (arăți că o implicație e falsă), „apucând-o de coarne\" (respingi disjuncția, arătând o a treia cale) sau printr-o contra-dilemă care duce la concluzia opusă.",
+     "ideiCheie": [
+      "Raționamentul disjunctiv are ca majoră o disjuncție.",
+      "Modus tollendo ponens (negi un membru, conchizi celălalt) e valid la orice disjuncție.",
+      "Modus ponendo tollens (afirmi un membru, negi celălalt) e valid doar la disjuncția exclusivă.",
+      "Dilema combină implicația cu disjuncția; i se răspunde „printre coarne\", „de coarne\" sau prin contra-dilemă."
+     ],
+     "termeni": [
+      {
+       "t": "raționament disjunctiv",
+       "d": "raționament a cărui premisă majoră este o disjuncție"
+      },
+      {
+       "t": "modus tollendo ponens",
+       "d": "mod valid: negând un membru al disjuncției, conchizi celălalt"
+      },
+      {
+       "t": "dilemă",
+       "d": "raționament care combină o disjuncție cu două implicații, forțând alegerea între două consecințe"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce conchide modus tollendo ponens?",
+       "v": "Negând un membru al disjuncției, conchide celălalt membru."
+      },
+      {
+       "f": "Când este valid modul ponendo tollens?",
+       "v": "Numai la disjuncția exclusivă, în care membrii se exclud."
+      },
+      {
+       "f": "Din ce este alcătuită o dilemă?",
+       "v": "Dintr-o disjuncție și două implicații care leagă fiecare membru de o consecință."
+      },
+      {
+       "f": "Cum se răspunde unei dileme „apucând-o de coarne\"?",
+       "v": "Respingând disjuncția, adică arătând că mai există și o a treia cale."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„E zi sau e noapte. Nu e zi. Deci e noapte.\" Acesta este:",
+       "optiuni": [
+        "modus tollendo ponens, valid",
+        "modus ponendo tollens",
+        "o eroare de disjuncție",
+        "o dilemă"
+       ],
+       "corect": 0,
+       "explicatie": "Negând un membru al disjuncției, se conchide valid celălalt."
+      },
+      {
+       "intrebare": "„A plouat sau a nins. A plouat. Deci n-a nins.\" La o disjuncție inclusivă, acesta este:",
+       "optiuni": [
+        "o eroare, fiindcă puteau fi adevărate amândouă",
+        "un raționament valid",
+        "un modus tollendo ponens",
+        "o dilemă"
+       ],
+       "corect": 0,
+       "explicatie": "Ponendo tollens este valid doar la disjuncția exclusivă."
+      },
+      {
+       "intrebare": "Modul ponendo tollens (afirmi un membru, negi celălalt) este valid:",
+       "optiuni": [
+        "numai la disjuncția exclusivă",
+        "la orice disjuncție",
+        "numai la disjuncția inclusivă",
+        "niciodată"
+       ],
+       "corect": 0,
+       "explicatie": "Doar acolo membrii se exclud reciproc."
+      },
+      {
+       "intrebare": "A răspunde unei dileme „apucând-o de coarne\" înseamnă:",
+       "optiuni": [
+        "a respinge disjuncția, arătând o a treia cale",
+        "a accepta ambele consecințe",
+        "a nega concluzia fără temei",
+        "a schimba subiectul discuției"
+       ],
+       "corect": 0,
+       "explicatie": "„Printre coarne\" ataci o implicație; „de coarne\" ataci disjuncția."
+      }
+     ]
+    }
+   ]
   }
  ],
  "teze": [
   {
    "semestru": 1,
    "test": [
+    {
+     "intrebare": "Termenul „albeață\" este, după conținut:",
+     "optiuni": [
+      "abstract",
+      "concret",
+      "colectiv",
+      "individual"
+     ],
+     "corect": 0,
+     "explicatie": "Numește o însușire desprinsă de obiectul care o poartă."
+    },
+    {
+     "intrebare": "Termenul „cauză\" este:",
+     "optiuni": [
+      "relativ",
+      "absolut",
+      "vid",
+      "pozitiv"
+     ],
+     "corect": 0,
+     "explicatie": "Nu poate fi gândit fără corelativul „efect\"."
+    },
+    {
+     "intrebare": "„Numerele se împart în pare și impare\" este o diviziune:",
+     "optiuni": [
+      "dihotomică",
+      "prin partiție",
+      "pe trei trepte",
+      "incompletă"
+     ],
+     "corect": 0,
+     "explicatie": "Cele două clase contradictorii epuizează universul și se exclud."
+    },
+    {
+     "intrebare": "Trecerea de la „plantă\" la „floare\" la „trandafir\" este o:",
+     "optiuni": [
+      "determinare (restrângere)",
+      "generalizare",
+      "diviziune",
+      "partiție"
+     ],
+     "corect": 0,
+     "explicatie": "Se adaugă note și se îngustează sfera."
+    },
+    {
+     "intrebare": "Generalizarea unui termen se oprește la:",
+     "optiuni": [
+      "categorii (genurile supreme)",
+      "noțiunile individuale",
+      "termenii vizi",
+      "termenii negativi"
+     ],
+     "corect": 0,
+     "explicatie": "Deasupra unei categorii nu mai există un gen care s-o cuprindă."
+    },
+    {
+     "intrebare": "Împărțirea „un ceas are cadran, ace și mecanism\" este:",
+     "optiuni": [
+      "o partiție, nu o diviziune logică",
+      "o diviziune dihotomică",
+      "o clasificare completă",
+      "o generalizare"
+     ],
+     "corect": 0,
+     "explicatie": "Părțile materiale nu sunt specii ale noțiunii „ceas\"."
+    },
     {
      "intrebare": "Logica studiază, în sens propriu:",
      "optiuni": [
@@ -1591,6 +2386,72 @@
   {
    "semestru": 2,
    "test": [
+    {
+     "intrebare": "Modul silogistic „Barbara” este:",
+     "optiuni": [
+      "AAA în figura I",
+      "EAE în figura a II-a",
+      "AII în figura a III-a",
+      "OAO în figura a III-a"
+     ],
+     "corect": 0,
+     "explicatie": "Cele trei propoziții sunt universal afirmative."
+    },
+    {
+     "intrebare": "Numărul modurilor silogistice valide, din cele 256 posibile, este:",
+     "optiuni": [
+      "24",
+      "4",
+      "8",
+      "64"
+     ],
+     "corect": 0,
+     "explicatie": "19 moduri tari și 5 subalterne."
+    },
+    {
+     "intrebare": "„Dacă plouă, strada e udă. Plouă. Deci strada e udă.” este:",
+     "optiuni": [
+      "modus ponens, valid",
+      "afirmarea consecventului",
+      "modus tollens",
+      "negarea antecedentului"
+     ],
+     "corect": 0,
+     "explicatie": "Se afirmă antecedentul și se conchide consecventul."
+    },
+    {
+     "intrebare": "„Dacă plouă, strada e udă. Strada nu e udă. Deci nu plouă.” este:",
+     "optiuni": [
+      "modus tollens, valid",
+      "negarea antecedentului",
+      "afirmarea consecventului",
+      "o eroare formală"
+     ],
+     "corect": 0,
+     "explicatie": "Se neagă consecventul și se conchide negarea antecedentului."
+    },
+    {
+     "intrebare": "O implicație „dacă p, atunci q” este falsă:",
+     "optiuni": [
+      "numai când p e adevărat și q e fals",
+      "când p e fals",
+      "când ambele sunt false",
+      "niciodată"
+     ],
+     "corect": 0,
+     "explicatie": "Un antecedent adevărat nu poate duce la un consecvent fals."
+    },
+    {
+     "intrebare": "„E zi sau e noapte. Nu e zi. Deci e noapte.” este:",
+     "optiuni": [
+      "modus tollendo ponens, valid",
+      "modus ponendo tollens",
+      "o dilemă",
+      "o eroare de disjuncție"
+     ],
+     "corect": 0,
+     "explicatie": "Negând un membru al disjuncției, se conchide valid celălalt."
+    },
     {
      "intrebare": "Dacă „Toți S sunt P” este adevărată, atunci „Unii S nu sunt P” este:",
      "optiuni": [

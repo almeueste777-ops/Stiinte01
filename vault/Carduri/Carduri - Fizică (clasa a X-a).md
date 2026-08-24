@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Fizică (clasa a X-a)
 
-36 carduri pentru [[Fizică (clasa a X-a)|Fizică (clasa a X-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+72 carduri pentru [[Fizică (clasa a X-a)|Fizică (clasa a X-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/fizica
 
@@ -82,6 +82,78 @@ Ce este dualismul undă-corpuscul?::Faptul că lumina și particulele se comport
 Care sunt cele două postulate ale relativității restrânse?::Legile fizicii sunt aceleași în toate sistemele inerțiale și viteza luminii în vid e constantă.
 
 Ce reacție alimentează stelele?::Fuziunea nucleară.
+
+De ce depinde cantitatea de căldură primită de un corp?::De masă, de căldura specifică și de variația temperaturii.
+
+Ce arată căldura specifică a unei substanțe?::Câtă energie schimbă un kilogram din ea pentru a-și schimba temperatura cu un grad.
+
+De ce moderează apa clima zonelor de coastă?::Pentru că are o căldură specifică mare și se încălzește și se răcește greu.
+
+Ce afirmă ecuația calorimetrică?::Că într-un calorimetru căldura cedată de corpul cald este egală cu cea primită de corpul rece.
+
+Ce se întâmplă cu temperatura în timpul topirii, la presiune constantă?::Rămâne constantă, deși corpul primește căldură.
+
+Prin ce se deosebește evaporarea de fierbere?::Evaporarea are loc doar la suprafață și la orice temperatură, fierberea în toată masa, la temperatura de fierbere.
+
+Cum se numește trecerea directă din solid în gaz?::Sublimare.
+
+De ce fierbe apa mai greu în oala sub presiune?::Pentru că presiunea ridicată crește temperatura de fierbere peste 100 de grade.
+
+Cum se calculează lucrul mecanic al unui motor termic?::Ca diferență dintre căldura primită de la sursa caldă și căldura cedată sursei reci.
+
+De ce este randamentul unui motor termic subunitar?::Pentru că o parte din căldură se cedează obligatoriu sursei reci.
+
+De ce depinde randamentul maxim al unui motor termic?::Doar de temperaturile sursei calde și ale celei reci.
+
+Ce face un frigider?::Transferă căldură de la corpul rece la cel cald, consumând lucru mecanic.
+
+Ce mărimi caracterizează un generator real?::Tensiunea electromotoare și rezistența internă.
+
+Cum se enunță legea lui Ohm pentru întregul circuit?::Intensitatea este tensiunea electromotoare împărțită la suma rezistenței exterioare și interne.
+
+De ce e tensiunea la borne mai mică decât tensiunea electromotoare?::Din cauza căderii de tensiune pe rezistența internă.
+
+Ce se întâmplă la scurtcircuit?::Intensitatea atinge valoarea maximă, egală cu tensiunea electromotoare împărțită la rezistența internă.
+
+Ce se conservă la gruparea în serie?::Intensitatea curentului este aceeași prin toate rezistoarele.
+
+Cum se calculează rezistența echivalentă la gruparea în serie?::Prin adunarea rezistențelor.
+
+Ce se conservă la gruparea în paralel?::Tensiunea la capetele rezistoarelor este aceeași.
+
+De ce se leagă consumatorii casnici în paralel?::Ca fiecare să primească aceeași tensiune și să poată fi oprit separat.
+
+Cum se calculează puterea electrică a unui consumator?::Ca produs între tensiunea la capete și intensitatea curentului.
+
+De ce depinde căldura degajată prin efect Joule?::De rezistență, de pătratul intensității și de timp.
+
+Ce înseamnă un kilowatt-oră?::Energia consumată de un aparat de o mie de wați într-o oră.
+
+Unde este util și unde este periculos efectul Joule?::Util la reșou și fier de călcat, periculos la cablurile subdimensionate.
+
+Ce face o lentilă convergentă cu razele paralele?::Le adună într-un focar.
+
+În ce se măsoară convergența unei lentile?::În dioptrii.
+
+Ce fel de imagine dă o lentilă divergentă unui obiect real?::Una virtuală, dreaptă și micșorată.
+
+Cu ce fel de lentile se corectează miopia?::Cu lentile divergente.
+
+Ce dovedesc interferența și difracția luminii?::Că lumina este o undă.
+
+Când apare interferența constructivă?::Când undele se întâlnesc în fază și amplitudinile se adună.
+
+Ce este difracția?::Ocolirea de către undă a marginilor unui obstacol sau ale unei fante.
+
+De ce se poate polariza lumina, dar nu și sunetul?::Pentru că lumina e undă transversală, iar sunetul, longitudinal.
+
+Din ce este alcătuită o undă electromagnetică?::Dintr-un câmp electric și unul magnetic care oscilează cuplat.
+
+Cu ce viteză se propagă undele electromagnetice în vid?::Cu viteza luminii, aproximativ 300000 de kilometri pe secundă.
+
+Care este ordinea spectrului după frecvența crescătoare?::Unde radio, microunde, infraroșu, vizibil, ultraviolet, raze X, raze gamma.
+
+Ce loc ocupă lumina vizibilă în spectru?::O bandă îngustă, între infraroșu și ultraviolet.
 
 ---
 

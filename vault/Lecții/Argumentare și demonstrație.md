@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Argumentare și demonstrație
 
-[[Logică, argumentare și comunicare (clasa a IX-a)|Logică, argumentare și comunicare]] · [[Clasa a IX-a]] · lecția 2 din 16
+[[Logică, argumentare și comunicare (clasa a IX-a)|Logică, argumentare și comunicare]] · [[Clasa a IX-a]] · lecția 2 din 24
 
 **Capitolul:** Societate, comunicare și argumentare — semestrul 1
 

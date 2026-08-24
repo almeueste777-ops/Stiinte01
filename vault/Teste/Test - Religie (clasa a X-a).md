@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Religie (clasa a X-a)
 
-54 întrebări din [[Religie (clasa a X-a)|Religie (clasa a X-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+102 întrebări din [[Religie (clasa a X-a)|Religie (clasa a X-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Cea mai scurtă Evanghelie este:
 
@@ -441,7 +441,511 @@ cssclasses: test
 > 
 > Coresi și Biblia de la 1688 sunt repere.
 
-### 37. Evangheliile sinoptice sunt:
+### 37. Numărul Apostolilor aleși de Iisus a fost:
+
+- a. doisprezece
+- b. șapte
+- c. șaptezeci
+- d. trei
+
+> [!success]- Răspuns
+> **a. doisprezece**
+> 
+> Amintește de cele douăsprezece seminții.
+
+### 38. „Cel dintâi chemat” dintre Apostoli este:
+
+- a. Andrei
+- b. Petru
+- c. Ioan
+- d. Toma
+
+> [!success]- Răspuns
+> **a. Andrei**
+> 
+> Este cinstit ca ocrotitor al românilor.
+
+### 39. Apostolul care L-a vândut pe Iisus a fost:
+
+- a. Iuda Iscarioteanul
+- b. Toma
+- c. Matei
+- d. Simon Zilotul
+
+> [!success]- Răspuns
+> **a. Iuda Iscarioteanul**
+> 
+> În locul lui a fost ales Matia.
+
+### 40. Faptul că Apostolii au fost oameni simpli arată că:
+
+- a. lucrarea a fost a lui Dumnezeu, nu a puterii omenești
+- b. Evanghelia s-a răspândit prin forță
+- c. credința cere învățătură înaltă
+- d. misiunea a fost întâmplătoare
+
+> [!success]- Răspuns
+> **a. lucrarea a fost a lui Dumnezeu, nu a puterii omenești**
+> 
+> Pescari au vestit Evanghelia în toată lumea.
+
+### 41. Cele mai multe epistole din Noul Testament au fost scrise de:
+
+- a. Apostolul Pavel
+- b. Apostolul Petru
+- c. Evanghelistul Luca
+- d. Apostolul Ioan
+
+> [!success]- Răspuns
+> **a. Apostolul Pavel**
+> 
+> Către biserici și către persoane.
+
+### 42. Epistolele sunt, prin natura lor:
+
+- a. scrisori către comunități sau persoane
+- b. Evanghelii scurte
+- c. cronici istorice
+- d. imnuri liturgice
+
+> [!success]- Răspuns
+> **a. scrisori către comunități sau persoane**
+> 
+> Răspund la probleme concrete.
+
+### 43. Imnul iubirii se află în:
+
+- a. Epistola întâi către Corinteni
+- b. Evanghelia după Ioan
+- c. Faptele Apostolilor
+- d. Apocalipsă
+
+> [!success]- Răspuns
+> **a. Epistola întâi către Corinteni**
+> 
+> „Dragostea îndelung rabdă...”
+
+### 44. O temă centrală a epistolelor pauline este:
+
+- a. mântuirea prin har și prin credință
+- b. împărțirea regatului lui Israel
+- c. calendarul sărbătorilor
+- d. regulile de negoț
+
+> [!success]- Răspuns
+> **a. mântuirea prin har și prin credință**
+> 
+> Alături de unitatea Bisericii ca trup al lui Hristos.
+
+### 45. Epistolele sobornicești sunt adresate:
+
+- a. Bisericii în general
+- b. unei singure comunități
+- c. doar preoților
+- d. împăraților
+
+> [!success]- Răspuns
+> **a. Bisericii în general**
+> 
+> Sunt în număr de șapte.
+
+### 46. Apocalipsa a fost scrisă mai ales pentru a:
+
+- a. întări nădejdea creștinilor în vreme de prigoană
+- b. prezice exact viitorul
+- c. înlocui Evangheliile
+- d. stabili calendarul
+
+> [!success]- Răspuns
+> **a. întări nădejdea creștinilor în vreme de prigoană**
+> 
+> Mesajul ei este biruința lui Hristos.
+
+### 47. Epistola lui Iacov afirmă că:
+
+- a. credința fără fapte este moartă
+- b. faptele nu contează
+- c. credința este de prisos
+- d. numai cunoașterea mântuiește
+
+> [!success]- Răspuns
+> **a. credința fără fapte este moartă**
+> 
+> Credința se arată în fapte.
+
+### 48. Noul Testament este alcătuit din:
+
+- a. 27 de cărți
+- b. 12 cărți
+- c. 50 de cărți
+- d. 4 cărți
+
+> [!success]- Răspuns
+> **a. 27 de cărți**
+> 
+> Se încheie cu Apocalipsa.
+
+### 49. Rugăciunea „Tatăl nostru” a fost dată de:
+
+- a. Iisus Hristos
+- b. Apostolul Pavel
+- c. Ioan Botezătorul
+- d. profetul Isaia
+
+> [!success]- Răspuns
+> **a. Iisus Hristos**
+> 
+> Este model pentru orice rugăciune.
+
+### 50. Numărul cererilor din „Tatăl nostru” este:
+
+- a. șapte
+- b. trei
+- c. zece
+- d. doisprezece
+
+> [!success]- Răspuns
+> **a. șapte**
+> 
+> Unele privesc slava lui Dumnezeu, altele nevoile omului.
+
+### 51. Cererea iertării din rugăciune este legată de:
+
+- a. iertarea pe care o dăruim altora
+- b. numărul rugăciunilor
+- c. postul ținut
+- d. milostenia dată în ascuns
+
+> [!success]- Răspuns
+> **a. iertarea pe care o dăruim altora**
+> 
+> „Precum și noi iertăm greșiților noștri.”
+
+### 52. Cuvântul „nostru” din rugăciune arată că:
+
+- a. ne rugăm împreună, ca frați
+- b. rugăciunea este doar personală
+- c. Dumnezeu este departe
+- d. rugăciunea este o formalitate
+
+> [!success]- Răspuns
+> **a. ne rugăm împreună, ca frați**
+> 
+> Credința creștină este comunitară.
+
+### 53. Martorii Schimbării la Față au fost:
+
+- a. Petru, Iacov și Ioan
+- b. toți cei doisprezece Apostoli
+- c. Moise și Ilie
+- d. femeile mironosițe
+
+> [!success]- Răspuns
+> **a. Petru, Iacov și Ioan**
+> 
+> Cei trei ucenici apropiați.
+
+### 54. Moise și Ilie, arătați la Schimbarea la Față, reprezintă:
+
+- a. Legea și profeții
+- b. cerul și pământul
+- c. trecutul și viitorul
+- d. viața și moartea
+
+> [!success]- Răspuns
+> **a. Legea și profeții**
+> 
+> Ei mărturisesc pentru Hristos.
+
+### 55. Schimbarea la Față arată mai ales:
+
+- a. dumnezeirea lui Hristos, de obicei ascunsă
+- b. puterea politică
+- c. sfârșitul lumii
+- d. bogăția Împărăției
+
+> [!success]- Răspuns
+> **a. dumnezeirea lui Hristos, de obicei ascunsă**
+> 
+> Pregătește ucenicii pentru Pătimiri.
+
+### 56. Sărbătoarea Schimbării la Față se prăznuiește la:
+
+- a. 6 august
+- b. 25 decembrie
+- c. 6 ianuarie
+- d. 15 august
+
+> [!success]- Răspuns
+> **a. 6 august**
+> 
+> Glasul Tatălui mărturisește pe Fiul.
+
+### 57. Fecioara Maria este numită:
+
+- a. Născătoare de Dumnezeu
+- b. una dintre profetese
+- c. ucenică între cei doisprezece
+- d. mironosiță
+
+> [!success]- Răspuns
+> **a. Născătoare de Dumnezeu**
+> 
+> Ea primește liber vestea îngerului.
+
+### 58. Cinstirea Maicii Domnului este:
+
+- a. cinstire, nu adorare
+- b. adorare, ca a lui Dumnezeu
+- c. interzisă
+- d. egală cu a îngerilor
+
+> [!success]- Răspuns
+> **a. cinstire, nu adorare**
+> 
+> Adorarea se cuvine numai lui Dumnezeu.
+
+### 59. Cele dintâi martore ale Învierii au fost:
+
+- a. femeile mironosițe
+- b. cei doisprezece Apostoli
+- c. soldații romani
+- d. cărturarii
+
+> [!success]- Răspuns
+> **a. femeile mironosițe**
+> 
+> De aceea sunt numite „apostoli către apostoli”.
+
+### 60. Atitudinea lui Iisus față de femei a fost, pentru vremea Sa:
+
+- a. o afirmare a demnității lor egale
+- b. una obișnuită
+- c. una de dispreț
+- d. una de indiferență
+
+> [!success]- Răspuns
+> **a. o afirmare a demnității lor egale**
+> 
+> El le prețuiește credința.
+
+### 61. Faptele Apostolilor au fost scrise de:
+
+- a. Evanghelistul Luca
+- b. Apostolul Pavel
+- c. Apostolul Petru
+- d. Evanghelistul Ioan
+
+> [!success]- Răspuns
+> **a. Evanghelistul Luca**
+> 
+> Ele istorisesc răspândirea Bisericii.
+
+### 62. Pavel a propovăduit mai ales printre:
+
+- a. neamuri, adică cei care nu erau evrei
+- b. doar evreii din Ierusalim
+- c. soldații romani
+- d. preoții Templului
+
+> [!success]- Răspuns
+> **a. neamuri, adică cei care nu erau evrei**
+> 
+> De aceea este numit „apostolul neamurilor”.
+
+### 63. Apostolii Petru și Pavel sunt sărbătoriți la:
+
+- a. 29 iunie
+- b. 25 decembrie
+- c. 6 august
+- d. 8 noiembrie
+
+> [!success]- Răspuns
+> **a. 29 iunie**
+> 
+> Tradiția spune că au fost martirizați la Roma.
+
+### 64. Cuvântarea lui Pavel din Areopag arată metoda lui de a:
+
+- a. adapta vorbirea la ascultători
+- b. vorbi la fel peste tot
+- c. evita orașele mari
+- d. propovădui doar în scris
+
+> [!success]- Răspuns
+> **a. adapta vorbirea la ascultători**
+> 
+> El pornea de la ce știau ascultătorii.
+
+### 65. Părinții apostolici au fost:
+
+- a. ucenicii Apostolilor
+- b. primii regi creștini
+- c. filozofi păgâni
+- d. profeți ai Vechiului Testament
+
+> [!success]- Răspuns
+> **a. ucenicii Apostolilor**
+> 
+> Scrierile lor sunt din vremea imediat următoare Apostolilor.
+
+### 66. Apologeții au avut rolul de a:
+
+- a. apăra credința împotriva acuzațiilor nedrepte
+- b. conduce armatele
+- c. scrie Evangheliile
+- d. stabili calendarul
+
+> [!success]- Răspuns
+> **a. apăra credința împotriva acuzațiilor nedrepte**
+> 
+> Un exemplu este Sfântul Iustin Martirul.
+
+### 67. Un Părinte apostolic cunoscut este:
+
+- a. Sfântul Ignatie al Antiohiei
+- b. Sfântul Grigorie Palama
+- c. regele Constantin
+- d. profetul Ilie
+
+> [!success]- Răspuns
+> **a. Sfântul Ignatie al Antiohiei**
+> 
+> A scris scrisori pe drumul spre martiriu.
+
+### 68. Apologeții au dialogat mai ales cu:
+
+- a. filozofia și cultura vremii
+- b. alte religii orientale
+- c. autoritățile militare
+- d. comunitățile evreiești
+
+> [!success]- Răspuns
+> **a. filozofia și cultura vremii**
+> 
+> Au arătat că acuzațiile erau false.
+
+### 69. Catacombele erau folosite de primii creștini pentru:
+
+- a. înmormântări și rugăciune
+- b. adunări politice
+- c. negoț
+- d. petreceri
+
+> [!success]- Răspuns
+> **a. înmormântări și rugăciune**
+> 
+> Păstrează cele mai vechi picturi creștine.
+
+### 70. Simbolul peștelui era citit ca:
+
+- a. mărturisire a credinței în Iisus Hristos
+- b. semn al belșugului
+- c. emblemă a unei cetăți
+- d. simbol al puterii
+
+> [!success]- Răspuns
+> **a. mărturisire a credinței în Iisus Hristos**
+> 
+> „Ihthis” prescurta o mărturisire de credință.
+
+### 71. Imaginea Bunului Păstor cu oaia pe umeri Îl închipuie pe:
+
+- a. Hristos
+- b. un apostol
+- c. un împărat
+- d. un profet
+
+> [!success]- Răspuns
+> **a. Hristos**
+> 
+> Era o imagine îndrăgită de primii creștini.
+
+### 72. Semnul cel mai însemnat al creștinilor a devenit:
+
+- a. crucea
+- b. ancora
+- c. peștele
+- d. mielul
+
+> [!success]- Răspuns
+> **a. crucea**
+> 
+> Ea amintește de jertfa lui Hristos.
+
+### 73. Cuvântul „apostol” înseamnă:
+
+- a. trimis
+- b. învățător
+- c. preot
+- d. profet
+
+> [!success]- Răspuns
+> **a. trimis**
+> 
+> Apostolii sunt martorii Învierii.
+
+### 74. „Cel dintâi chemat” dintre Apostoli este:
+
+- a. Andrei
+- b. Petru
+- c. Ioan
+- d. Matei
+
+> [!success]- Răspuns
+> **a. Andrei**
+> 
+> Cinstit ca ocrotitor al românilor.
+
+### 75. Cele mai multe epistole din Noul Testament au fost scrise de:
+
+- a. Apostolul Pavel
+- b. Apostolul Petru
+- c. Evanghelistul Luca
+- d. Apostolul Iacov
+
+> [!success]- Răspuns
+> **a. Apostolul Pavel**
+> 
+> Către biserici și către persoane.
+
+### 76. Imnul iubirii se află în:
+
+- a. Epistola întâi către Corinteni
+- b. Evanghelia după Ioan
+- c. Apocalipsă
+- d. Faptele Apostolilor
+
+> [!success]- Răspuns
+> **a. Epistola întâi către Corinteni**
+> 
+> „Dragostea îndelung rabdă...”
+
+### 77. Noul Testament are:
+
+- a. 27 de cărți
+- b. 12 cărți
+- c. 4 cărți
+- d. 50 de cărți
+
+> [!success]- Răspuns
+> **a. 27 de cărți**
+> 
+> Se încheie cu Apocalipsa.
+
+### 78. Apocalipsa a fost scrisă mai ales pentru a:
+
+- a. întări nădejdea creștinilor în vreme de prigoană
+- b. prezice exact viitorul
+- c. înlocui Evangheliile
+- d. reglementa cultul
+
+> [!success]- Răspuns
+> **a. întări nădejdea creștinilor în vreme de prigoană**
+> 
+> Mesajul ei este biruința lui Hristos.
+
+### 79. Evangheliile sinoptice sunt:
 
 - a. Matei, Marcu și Luca
 - b. Matei, Marcu și Ioan
@@ -453,7 +957,7 @@ cssclasses: test
 > 
 > Ioan are stil și structură proprii.
 
-### 38. Cea mai scurtă Evanghelie este:
+### 80. Cea mai scurtă Evanghelie este:
 
 - a. după Marcu
 - b. după Matei
@@ -465,7 +969,7 @@ cssclasses: test
 > 
 > Este și cea mai dinamică.
 
-### 39. La Botezul Domnului se arată:
+### 81. La Botezul Domnului se arată:
 
 - a. Sfânta Treime
 - b. doar Fiul
@@ -477,7 +981,7 @@ cssclasses: test
 > 
 > Glasul Tatălui, Fiul, Duhul în chip de porumbel.
 
-### 40. Predica de pe Munte începe cu:
+### 82. Predica de pe Munte începe cu:
 
 - a. Fericirile
 - b. Tatăl nostru
@@ -489,7 +993,7 @@ cssclasses: test
 > 
 > Ele răstoarnă ierarhia obișnuită a valorilor.
 
-### 41. Parabola samarineanului milostiv redefinește:
+### 83. Parabola samarineanului milostiv redefinește:
 
 - a. noțiunea de aproape
 - b. noțiunea de avere
@@ -501,7 +1005,7 @@ cssclasses: test
 > 
 > Aproapele e oricine are nevoie de ajutor.
 
-### 42. Minunile lui Hristos sunt, în Evanghelii:
+### 84. Minunile lui Hristos sunt, în Evanghelii:
 
 - a. semne ale Împărăției
 - b. demonstrații de forță
@@ -513,7 +1017,7 @@ cssclasses: test
 > 
 > Legate de credință și de milă.
 
-### 43. Euharistia a fost instituită:
+### 85. Euharistia a fost instituită:
 
 - a. la Cina cea de Taină
 - b. la Botezul din Iordan
@@ -525,7 +1029,7 @@ cssclasses: test
 > 
 > Împreună cu porunca cea nouă a iubirii.
 
-### 44. Învierea Domnului este:
+### 86. Învierea Domnului este:
 
 - a. temeiul credinței creștine
 - b. un episod secundar
@@ -537,7 +1041,7 @@ cssclasses: test
 > 
 > Fără ea, spune Pavel, credința ar fi zadarnică.
 
-### 45. Cincizecimea marchează:
+### 87. Cincizecimea marchează:
 
 - a. Pogorârea Duhului Sfânt
 - b. Înălțarea la cer
@@ -549,7 +1053,79 @@ cssclasses: test
 > 
 > De atunci începe timpul Bisericii.
 
-### 46. Primul martir creștin este:
+### 88. Rugăciunea „Tatăl nostru” a fost dată de:
+
+- a. Iisus Hristos
+- b. Apostolul Pavel
+- c. Ioan Botezătorul
+- d. Moise
+
+> [!success]- Răspuns
+> **a. Iisus Hristos**
+> 
+> Este model pentru orice rugăciune.
+
+### 89. Martorii Schimbării la Față au fost:
+
+- a. Petru, Iacov și Ioan
+- b. toți Apostolii
+- c. femeile mironosițe
+- d. Moise și Ilie
+
+> [!success]- Răspuns
+> **a. Petru, Iacov și Ioan**
+> 
+> Pe muntele Tabor.
+
+### 90. Cele dintâi martore ale Învierii au fost:
+
+- a. femeile mironosițe
+- b. Apostolii
+- c. soldații romani
+- d. cărturarii
+
+> [!success]- Răspuns
+> **a. femeile mironosițe**
+> 
+> Numite „apostoli către apostoli”.
+
+### 91. Faptele Apostolilor au fost scrise de:
+
+- a. Evanghelistul Luca
+- b. Apostolul Pavel
+- c. Apostolul Petru
+- d. Apostolul Ioan
+
+> [!success]- Răspuns
+> **a. Evanghelistul Luca**
+> 
+> Istorisesc călătoriile lui Pavel.
+
+### 92. Apostolii Petru și Pavel sunt sărbătoriți la:
+
+- a. 29 iunie
+- b. 6 august
+- c. 25 decembrie
+- d. 8 noiembrie
+
+> [!success]- Răspuns
+> **a. 29 iunie**
+> 
+> Tradiția spune că au fost martirizați la Roma.
+
+### 93. Peștele, ca simbol creștin, era o mărturisire a credinței în:
+
+- a. Iisus Hristos
+- b. Duhul Sfânt
+- c. îngeri
+- d. profeți
+
+> [!success]- Răspuns
+> **a. Iisus Hristos**
+> 
+> „Ihthis” prescurta o mărturisire de credință.
+
+### 94. Primul martir creștin este:
 
 - a. Sfântul Ștefan
 - b. apostolul Petru
@@ -561,7 +1137,7 @@ cssclasses: test
 > 
 > Era unul dintre cei șapte diaconi.
 
-### 47. Sinodul apostolic din Ierusalim a hotărât că:
+### 95. Sinodul apostolic din Ierusalim a hotărât că:
 
 - a. păgânii convertiți nu trebuie să primească întreaga Lege iudaică
 - b. toți creștinii trebuie să respecte Legea
@@ -573,7 +1149,7 @@ cssclasses: test
 > 
 > Decizia a deschis creștinismul spre lume.
 
-### 48. Apostolul Pavel s-a convertit:
+### 96. Apostolul Pavel s-a convertit:
 
 - a. pe drumul Damascului
 - b. la Ierusalim
@@ -585,7 +1161,7 @@ cssclasses: test
 > 
 > Fusese prigonitor al creștinilor.
 
-### 49. Edictul de la Milan a acordat:
+### 97. Edictul de la Milan a acordat:
 
 - a. libertate de cult creștinilor
 - b. statut de religie oficială
@@ -597,7 +1173,7 @@ cssclasses: test
 > 
 > A fost dat în 313.
 
-### 50. Sinodul I ecumenic a respins:
+### 98. Sinodul I ecumenic a respins:
 
 - a. arianismul
 - b. iconoclasmul
@@ -609,7 +1185,7 @@ cssclasses: test
 > 
 > A afirmat că Fiul e de o ființă cu Tatăl.
 
-### 51. Sinodul VII ecumenic a hotărât:
+### 99. Sinodul VII ecumenic a hotărât:
 
 - a. restabilirea cinstirii icoanelor
 - b. formularea Crezului
@@ -621,7 +1197,7 @@ cssclasses: test
 > 
 > Cinstirea trece la persoana zugrăvită.
 
-### 52. Cuvintele „biserică”, „cruce”, „botez” sunt în română:
+### 100. Cuvintele „biserică”, „cruce”, „botez” sunt în română:
 
 - a. de origine latină
 - b. de origine slavă
@@ -633,7 +1209,7 @@ cssclasses: test
 > 
 > Semn al încreștinării timpurii.
 
-### 53. Episcopia timpurie din spațiul românesc s-a aflat la:
+### 101. Episcopia timpurie din spațiul românesc s-a aflat la:
 
 - a. Tomis
 - b. Suceava
@@ -645,7 +1221,7 @@ cssclasses: test
 > 
 > În Scythia Minor.
 
-### 54. Rolul Bisericii în epocile fără stat propriu a fost:
+### 102. Rolul Bisericii în epocile fără stat propriu a fost:
 
 - a. păstrarea limbii, a memoriei și a solidarității
 - b. conducerea politică directă

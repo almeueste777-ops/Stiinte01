@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Mișcarea rectilinie uniformă și variată
 
-[[Fizică (clasa a IX-a)|Fizică]] · [[Clasa a IX-a]] · lecția 2 din 9
+[[Fizică (clasa a IX-a)|Fizică]] · [[Clasa a IX-a]] · lecția 2 din 18
 
 **Capitolul:** Mișcare și forțe — semestrul 1
 

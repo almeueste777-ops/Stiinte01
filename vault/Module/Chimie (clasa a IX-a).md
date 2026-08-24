@@ -20,7 +20,7 @@ cssclasses: fisa
 
 Structura atomului, tabelul periodic, legături chimice, soluții și reacții chimice fundamentale.
 
-## Capitole (3)
+## Capitole (6)
 
 ### Atomul și sistemul periodic — semestrul 1
 
@@ -40,9 +40,27 @@ Structura atomului, tabelul periodic, legături chimice, soluții și reacții c
 - [[Acizi, baze, săruri]]
 - [[Viteza de reacție și chimia în viața de zi cu zi]]
 
+### Structura atomului și proprietățile periodice — semestrul 1
+
+- [[Modele atomice și învelișul electronic]]
+- [[Formarea ionilor și valența]]
+- [[Metale și nemetale. Proprietăți periodice]]
+
+### Compuși anorganici — semestrul 2
+
+- [[Oxizii]]
+- [[Acizii și bazele]]
+- [[Sărurile]]
+
+### Soluții, calcule și apa — semestrul 2
+
+- [[Dizolvarea și solubilitatea]]
+- [[Concentrația procentuală de masă]]
+- [[Apa — structură, proprietăți, importanță]]
+
 ## Exersare
-- [[Carduri - Chimie (clasa a IX-a)]] — 36 carduri
-- [[Test - Chimie (clasa a IX-a)]] — 54 întrebări
+- [[Carduri - Chimie (clasa a IX-a)]] — 72 carduri
+- [[Test - Chimie (clasa a IX-a)]] — 102 întrebări
 
 ## Legături
 - [[Chimie|Chimie]]

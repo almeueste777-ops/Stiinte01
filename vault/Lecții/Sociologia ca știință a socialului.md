@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Sociologia ca știință a socialului
 
-[[Sociologie (clasa a XI-a)|Sociologie]] · [[Clasa a XI-a]] · lecția 1 din 14
+[[Sociologie (clasa a XI-a)|Sociologie]] · [[Clasa a XI-a]] · lecția 1 din 24
 
 **Capitolul:** Perspectiva sociologică — semestrul 1
 

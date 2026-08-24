@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Sociologie (clasa a XI-a)
 
-56 carduri pentru [[Sociologie (clasa a XI-a)|Sociologie (clasa a XI-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+96 carduri pentru [[Sociologie (clasa a XI-a)|Sociologie (clasa a XI-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/sociologie
 
@@ -122,6 +122,86 @@ Când devine o situație „problemă socială”?::Când este recunoscută publ
 Numește trei probleme sociale majore ale României contemporane.::Sărăcia și inegalitatea, abandonul școlar, migrația și depopularea.
 
 Cum se evaluează o politică socială?::Prin indicatori măsurabili — rata abandonului, rata sărăciei, speranța de viață — nu prin intenții.
+
+Ce este o paradigmă sociologică?::Un cadru teoretic mare care alege întrebările importante și metoda de cercetare.
+
+Cum vede funcționalismul societatea?::Ca un sistem de părți interdependente, fiecare cu o funcție în menținerea întregului.
+
+Ce pune în centru teoria conflictului?::Lupta dintre grupuri cu interese opuse pentru resurse limitate.
+
+La ce nivel operează interacționismul simbolic?::La nivelul micro, al interacțiunilor și sensurilor cotidiene.
+
+Ce este cultura, în sens sociologic?::Ansamblul de valori, norme, simboluri și obiceiuri împărtășite și transmise prin învățare.
+
+Care este deosebirea dintre cultura materială și cea nonmaterială?::Materiala cuprinde obiectele produse; nonmateriala, ideile, valorile, normele, limbajul.
+
+Prin ce se deosebește o contracultură de o subcultură?::Contracultura se opune activ valorilor dominante; subcultura are trăsături proprii, fără a le respinge.
+
+Ce este relativismul cultural?::Atitudinea de a înțelege fiecare cultură în contextul ei propriu.
+
+Care sunt formele tipice de interacțiune socială?::Cooperarea, competiția, conflictul și schimbul.
+
+Ce propune perspectiva dramaturgică a lui Goffman?::Analiza vieții sociale ca un teatru, cu scenă, culise și gestionarea impresiei.
+
+Ce este „fața”, la Goffman?::Imaginea de sine pe care o persoană o afișează în interacțiune.
+
+Ce spune teorema lui Thomas?::O situație definită ca reală devine reală prin consecințele ei.
+
+Ce este sporul natural?::Diferența dintre natalitate și mortalitate.
+
+Ce reprezintă piramida vârstelor?::Structura populației pe grupe de vârstă și sexe.
+
+Ce este tranziția demografică?::Trecerea de la natalitate și mortalitate ridicate la valori scăzute ale ambelor.
+
+Care sunt cele trei procese demografice ale României de azi?::Natalitate scăzută, îmbătrânire și emigrare.
+
+Ce deosebire a stabilit Tönnies?::Între comunitate (Gemeinschaft), tipică satului, și societate (Gesellschaft), tipică orașului.
+
+Ce caracterizează comunitatea rurală?::Densitate mică, relații primare, control informal puternic, tradiție.
+
+Ce caracterizează comunitatea urbană?::Densitate mare, relații secundare, anonimat, diversitate, toleranță.
+
+Ce este urbanizarea?::Creșterea ponderii populației care trăiește în orașe.
+
+Cum definește Durkheim religia?::Prin distincția dintre sacru și profan; ea întărește coeziunea socială.
+
+Numește două funcții sociale ale religiei.::Oferirea de sens și sprijin, întărirea coeziunii, controlul social.
+
+Ce a susținut Weber despre religie și economie?::Că idei religioase (etica protestantă) au putut influența dezvoltarea capitalismului.
+
+Ce este secularizarea?::Scăderea influenței religiei asupra vieții publice, asociată modernizării.
+
+Care este deosebirea dintre putere și autoritate?::Puterea impune voința; autoritatea este puterea recunoscută ca legitimă.
+
+Care sunt cele trei tipuri de autoritate la Weber?::Tradițională, charismatică și legal-rațională.
+
+Cum definește Weber statul?::Instituția care deține monopolul folosirii legitime a forței pe un teritoriu.
+
+Ce deosebește regimul democratic de cel totalitar?::Democrația limitează puterea și garantează drepturi; totalitarismul controlează întreaga viață socială.
+
+Ce este economia, ca instituție?::Instituția prin care societatea produce, distribuie și consumă bunuri și servicii.
+
+Care sunt sectoarele economice?::Primar, secundar, terțiar și cuaternar.
+
+Ce este șomajul structural?::Șomajul legat de schimbarea structurii economiei, nu de o criză trecătoare.
+
+Ce lega Durkheim de diviziunea muncii?::Solidaritatea organică a societăților moderne.
+
+Ce definește un grup etnic?::Origine, cultură, limbă și memorie comune, plus conștiința apartenenței.
+
+Care este deosebirea dintre prejudecată și discriminare?::Prejudecata este o atitudine; discriminarea este tratamentul inegal, în fapte.
+
+Ce urmărește integrarea, spre deosebire de asimilare?::Participarea deplină a tuturor, cu păstrarea identității proprii.
+
+Ce recunoaște multiculturalismul?::Pluralitatea culturilor din aceeași societate, ca valoare.
+
+Ce este o mișcare socială?::O acțiune colectivă organizată și de durată, pentru sau împotriva unei schimbări.
+
+Prin ce se deosebește o mișcare socială de o mulțime?::Prin organizare, obiective și continuitate.
+
+Numește două tipuri de mișcări sociale.::Reformiste, revoluționare, de rezistență, alternative.
+
+Ce este societatea civilă?::Rețeaua de asociații și inițiative independente de stat, prin care cetățenii participă la viața publică.
 
 ---
 

@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Verbele de grupa I și a II-a
 
-[[Limba modernă 2 (Franceză) (clasa a IX-a)|Limba modernă 2 (Franceză)]] · [[Clasa a IX-a]] · lecția 4 din 9
+[[Limba modernă 2 (Franceză) (clasa a IX-a)|Limba modernă 2 (Franceză)]] · [[Clasa a IX-a]] · lecția 4 din 18
 
 **Capitolul:** Verbele la prezent — semestrul 2
 

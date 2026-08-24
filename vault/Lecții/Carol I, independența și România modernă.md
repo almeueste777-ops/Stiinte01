@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Carol I, independența și România modernă
 
-[[Istorie (clasa a X-a)|Istorie]] · [[Clasa a X-a]] · lecția 11 din 12
+[[Istorie (clasa a X-a)|Istorie]] · [[Clasa a X-a]] · lecția 11 din 24
 
 **Capitolul:** Spațiul românesc în epoca modernă — semestrul 2
 

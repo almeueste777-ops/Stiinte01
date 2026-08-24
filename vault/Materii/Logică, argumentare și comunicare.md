@@ -14,7 +14,7 @@ cssclasses: fisa
 
 ## Anii de studiu
 
-- [[Logică, argumentare și comunicare (clasa a IX-a)|Clasa a IX-a]] — 16 lecții, 64 carduri, 88 întrebări
+- [[Logică, argumentare și comunicare (clasa a IX-a)|Clasa a IX-a]] — 24 lecții, 96 carduri, 132 întrebări
 
 ## Legături
 - [[00 Start aici]]

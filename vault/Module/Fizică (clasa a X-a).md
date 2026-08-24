@@ -20,7 +20,7 @@ cssclasses: fisa
 
 Termodinamică, electricitate și magnetism, optică și unde: fenomene, legi și aplicații în viața de zi cu zi.
 
-## Capitole (3)
+## Capitole (6)
 
 ### Căldură și termodinamică — semestrul 1
 
@@ -40,9 +40,27 @@ Termodinamică, electricitate și magnetism, optică și unde: fenomene, legi ș
 - [[Unde mecanice și sunetul]]
 - [[Elemente de fizică modernă]]
 
+### Calorimetrie și stări de agregare — semestrul 1
+
+- [[Cantitatea de căldură. Calorimetria]]
+- [[Transformări de stare de agregare]]
+- [[Motoare termice și randamentul lor]]
+
+### Curentul electric continuu — semestrul 2
+
+- [[Legea lui Ohm pentru întregul circuit]]
+- [[Gruparea rezistoarelor]]
+- [[Energia și puterea electrică]]
+
+### Fenomene ondulatorii și optică — semestrul 2
+
+- [[Lentile subțiri și instrumente optice]]
+- [[Interferența, difracția și polarizarea luminii]]
+- [[Undele electromagnetice și spectrul lor]]
+
 ## Exersare
-- [[Carduri - Fizică (clasa a X-a)]] — 36 carduri
-- [[Test - Fizică (clasa a X-a)]] — 54 întrebări
+- [[Carduri - Fizică (clasa a X-a)]] — 72 carduri
+- [[Test - Fizică (clasa a X-a)]] — 102 întrebări
 
 ## Legături
 - [[Fizică|Fizică]]

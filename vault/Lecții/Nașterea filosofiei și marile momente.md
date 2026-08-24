@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Nașterea filosofiei și marile momente
 
-[[Filosofie (clasa a XII-a)|Filosofie]] · [[Clasa a XII-a]] · lecția 2 din 14
+[[Filosofie (clasa a XII-a)|Filosofie]] · [[Clasa a XII-a]] · lecția 2 din 24
 
 **Capitolul:** Introducere în filosofie — semestrul 1
 

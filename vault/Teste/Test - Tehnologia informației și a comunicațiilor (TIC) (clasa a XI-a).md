@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)
 
-60 întrebări din [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+100 întrebări din [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. În modelul client–server, browserul este:
 
@@ -441,7 +441,415 @@ cssclasses: test
 > 
 > Continuitatea depinde de claritatea organizării.
 
-### 37. În modelul client–server, browserul este:
+### 37. HTML descrie, în principal:
+
+- a. structura conținutului
+- b. aspectul vizual
+- c. baza de date
+- d. viteza rețelei
+
+> [!success]- Răspuns
+> **a. structura conținutului**
+> 
+> Aspectul îl dă CSS-ul.
+
+### 38. Conținutul vizibil al paginii se pune în:
+
+- a. body
+- b. head
+- c. title
+- d. meta
+
+> [!success]- Răspuns
+> **a. body**
+> 
+> head conține metadatele.
+
+### 39. Eticheta pentru un titlu principal este:
+
+- a. h1
+- b. p
+- c. a
+- d. li
+
+> [!success]- Răspuns
+> **a. h1**
+> 
+> h1–h6 sunt niveluri de titlu.
+
+### 40. Un element HTML este delimitat de:
+
+- a. o etichetă de deschidere și una de închidere
+- b. ghilimele
+- c. paranteze rotunde
+- d. două puncte
+
+> [!success]- Răspuns
+> **a. o etichetă de deschidere și una de închidere**
+> 
+> De exemplu <p>…</p>.
+
+### 41. O regulă CSS conține:
+
+- a. un selector și declarații
+- b. doar text simplu
+- c. o adresă IP
+- d. o etichetă HTML
+
+> [!success]- Răspuns
+> **a. un selector și declarații**
+> 
+> De exemplu p { color: red; }.
+
+### 42. Selectorul de clasă se scrie cu:
+
+- a. punct (.nume)
+- b. diez (#nume)
+- c. fără niciun simbol
+- d. două puncte
+
+> [!success]- Răspuns
+> **a. punct (.nume)**
+> 
+> Diezul (#) indică un id.
+
+### 43. Modul recomandat de a aplica stiluri este:
+
+- a. fișierul CSS extern
+- b. stilul în linie peste tot
+- c. lipsa oricărui stil
+- d. comentariile
+
+> [!success]- Răspuns
+> **a. fișierul CSS extern**
+> 
+> El separă conținutul de prezentare.
+
+### 44. CSS controlează, de pildă:
+
+- a. culoarea și fontul
+- b. structura logică a datelor
+- c. protocolul de rețea
+- d. adresa serverului
+
+> [!success]- Răspuns
+> **a. culoarea și fontul**
+> 
+> Structura o dă HTML.
+
+### 45. Legătura se creează cu eticheta:
+
+- a. a
+- b. img
+- c. table
+- d. p
+
+> [!success]- Răspuns
+> **a. a**
+> 
+> Atributul href dă destinația.
+
+### 46. Atributul alt al unei imagini oferă:
+
+- a. un text alternativ pentru accesibilitate
+- b. adresa serverului
+- c. dimensiunea fișierului
+- d. culoarea de fundal
+
+> [!success]- Răspuns
+> **a. un text alternativ pentru accesibilitate**
+> 
+> Util și când imaginea nu se încarcă.
+
+### 47. Un rând de tabel se marchează cu:
+
+- a. tr
+- b. td
+- c. table
+- d. th
+
+> [!success]- Răspuns
+> **a. tr**
+> 
+> td și th sunt celulele din rând.
+
+### 48. Tabelele HTML ar trebui folosite pentru:
+
+- a. date tabelare
+- b. așezarea întregii pagini
+- c. inserarea sunetului
+- d. crearea legăturilor
+
+> [!success]- Răspuns
+> **a. date tabelare**
+> 
+> Așezarea se face cu CSS.
+
+### 49. Imaginea raster este formată din:
+
+- a. pixeli
+- b. formule geometrice
+- c. vectori
+- d. caractere
+
+> [!success]- Răspuns
+> **a. pixeli**
+> 
+> Calitatea depinde de rezoluție.
+
+### 50. Se mărește fără pierdere de calitate:
+
+- a. imaginea vectorială
+- b. imaginea raster
+- c. fotografia JPEG
+- d. fișierul GIF
+
+> [!success]- Răspuns
+> **a. imaginea vectorială**
+> 
+> Ea e descrisă prin formule.
+
+### 51. Formatul potrivit pentru fotografii este:
+
+- a. JPEG
+- b. SVG
+- c. TXT
+- d. MP3
+
+> [!success]- Răspuns
+> **a. JPEG**
+> 
+> JPEG folosește compresie cu pierdere.
+
+### 52. Compresia „cu pierdere”:
+
+- a. aruncă o parte din informație pentru a micșora fișierul
+- b. păstrează toată informația
+- c. mărește fișierul
+- d. criptează imaginea
+
+> [!success]- Răspuns
+> **a. aruncă o parte din informație pentru a micșora fișierul**
+> 
+> JPEG e un exemplu.
+
+### 53. Sunetul digital se obține prin:
+
+- a. eșantionare și cuantizare
+- b. vectorizare
+- c. compilare
+- d. criptare
+
+> [!success]- Răspuns
+> **a. eșantionare și cuantizare**
+> 
+> Frecvența tipică: 44,1 kHz.
+
+### 54. Un format audio comprimat, larg folosit, este:
+
+- a. MP3
+- b. WAV
+- c. SVG
+- d. HTML
+
+> [!success]- Răspuns
+> **a. MP3**
+> 
+> WAV este necomprimat.
+
+### 55. Videoul este, în esență:
+
+- a. o succesiune de cadre afișate rapid
+- b. o singură imagine
+- c. un fișier text
+- d. o bază de date
+
+> [!success]- Răspuns
+> **a. o succesiune de cadre afișate rapid**
+> 
+> Rata de cadre se măsoară în fps.
+
+### 56. Un container video obișnuit este:
+
+- a. MP4
+- b. MP3
+- c. JPEG
+- d. CSS
+
+> [!success]- Răspuns
+> **a. MP4**
+> 
+> MP3 este audio, JPEG este imagine.
+
+### 57. Prima etapă a unui proiect este, de regulă:
+
+- a. analiza cerințelor
+- b. publicarea
+- c. întreținerea
+- d. testarea
+
+> [!success]- Răspuns
+> **a. analiza cerințelor**
+> 
+> Ea stabilește scopul și cerințele.
+
+### 58. Un wireframe este:
+
+- a. o schiță a structurii, înainte de realizare
+- b. codul final
+- c. o bază de date
+- d. un format de imagine
+
+> [!success]- Răspuns
+> **a. o schiță a structurii, înainte de realizare**
+> 
+> Ajută la planificarea așezării.
+
+### 59. Testarea unui proiect servește la:
+
+- a. verificarea funcționării și corectarea erorilor
+- b. stabilirea scopului
+- c. scrierea documentației legale
+- d. alegerea culorilor
+
+> [!success]- Răspuns
+> **a. verificarea funcționării și corectarea erorilor**
+> 
+> Vine înainte de publicare.
+
+### 60. Munca în echipă la un proiect cere:
+
+- a. sarcini, termene și comunicare
+- b. un singur om care face tot
+- c. absența planificării
+- d. lipsa documentației
+
+> [!success]- Răspuns
+> **a. sarcini, termene și comunicare**
+> 
+> Ea reduce riscul de eșec.
+
+### 61. Phishingul este:
+
+- a. o înșelătorie care cere date prin mesaje false
+- b. un tip de imagine
+- c. un protocol de rețea
+- d. un program antivirus
+
+> [!success]- Răspuns
+> **a. o înșelătorie care cere date prin mesaje false**
+> 
+> Imită surse de încredere.
+
+### 62. O măsură bună de securitate este:
+
+- a. parole puternice și autentificare în doi pași
+- b. aceeași parolă peste tot
+- c. deschiderea oricărui atașament
+- d. dezactivarea antivirusului
+
+> [!success]- Răspuns
+> **a. parole puternice și autentificare în doi pași**
+> 
+> Prudența reduce riscul.
+
+### 63. Amprenta digitală se referă la:
+
+- a. urmele lăsate de o persoană online
+- b. viteza internetului
+- c. mărimea unui fișier
+- d. adresa IP a serverului
+
+> [!success]- Răspuns
+> **a. urmele lăsate de o persoană online**
+> 
+> Poate influența reputația.
+
+### 64. Respectarea dreptului de autor înseamnă:
+
+- a. a nu copia și distribui fără permisiune
+- b. a descărca orice, gratuit
+- c. a ignora sursele
+- d. a publica orice imagine
+
+> [!success]- Răspuns
+> **a. a nu copia și distribui fără permisiune**
+> 
+> Etica digitală îi protejează și pe ceilalți.
+
+### 65. HTML descrie, în principal:
+
+- a. structura conținutului
+- b. doar culorile
+- c. viteza rețelei
+- d. baza de date
+
+> [!success]- Răspuns
+> **a. structura conținutului**
+> 
+> Aspectul îl dă CSS-ul.
+
+### 66. Selectorul de clasă în CSS se scrie cu:
+
+- a. punct (.nume)
+- b. diez (#nume)
+- c. fără simbol
+- d. două puncte
+
+> [!success]- Răspuns
+> **a. punct (.nume)**
+> 
+> Diezul indică un id.
+
+### 67. Atributul alt al unei imagini oferă:
+
+- a. un text alternativ, util la accesibilitate
+- b. dimensiunea fișierului
+- c. culoarea
+- d. adresa serverului
+
+> [!success]- Răspuns
+> **a. un text alternativ, util la accesibilitate**
+> 
+> Apare și când imaginea nu se încarcă.
+
+### 68. Se mărește fără pierdere de calitate:
+
+- a. imaginea vectorială
+- b. imaginea raster
+- c. fotografia JPEG
+- d. fișierul GIF
+
+> [!success]- Răspuns
+> **a. imaginea vectorială**
+> 
+> E descrisă prin formule geometrice.
+
+### 69. Modul recomandat de a aplica stiluri este:
+
+- a. fișierul CSS extern
+- b. stilul în linie peste tot
+- c. lipsa oricărui stil
+- d. comentariile
+
+> [!success]- Răspuns
+> **a. fișierul CSS extern**
+> 
+> Separă conținutul de prezentare.
+
+### 70. Conținutul vizibil al unei pagini se pune în:
+
+- a. body
+- b. head
+- c. title
+- d. meta
+
+> [!success]- Răspuns
+> **a. body**
+> 
+> head conține metadatele.
+
+### 71. În modelul client–server, browserul este:
 
 - a. clientul
 - b. serverul
@@ -453,7 +861,7 @@ cssclasses: test
 > 
 > Serverul furnizează resursa cerută.
 
-### 38. Sistemul DNS are rolul de a:
+### 72. Sistemul DNS are rolul de a:
 
 - a. traduce numele de domenii în adrese IP
 - b. criptează traficul
@@ -465,7 +873,7 @@ cssclasses: test
 > 
 > Fără el ar trebui memorate adrese numerice.
 
-### 39. Un site dinamic:
+### 73. Un site dinamic:
 
 - a. generează paginile la cerere
 - b. livrează fișiere neschimbate
@@ -477,7 +885,7 @@ cssclasses: test
 > 
 > Magazinele online sunt exemple tipice.
 
-### 40. Prezentarea vizuală a unei pagini se stabilește prin:
+### 74. Prezentarea vizuală a unei pagini se stabilește prin:
 
 - a. foile de stil
 - b. limbajul de marcare
@@ -489,7 +897,7 @@ cssclasses: test
 > 
 > HTML descrie structura.
 
-### 41. Marcarea semantică înseamnă:
+### 75. Marcarea semantică înseamnă:
 
 - a. folosirea elementului potrivit rolului conținutului
 - b. reducerea numărului de etichete
@@ -501,7 +909,7 @@ cssclasses: test
 > 
 > Ea ajută motoarele de căutare și cititoarele de ecran.
 
-### 42. Textul alternativ al imaginilor este necesar pentru:
+### 76. Textul alternativ al imaginilor este necesar pentru:
 
 - a. accesibilitate
 - b. comprimarea imaginii
@@ -513,7 +921,7 @@ cssclasses: test
 > 
 > El este citit de cititoarele de ecran.
 
-### 43. Certificatul de securitate permite:
+### 77. Certificatul de securitate permite:
 
 - a. conexiunea criptată prin HTTPS
 - b. găzduirea gratuită
@@ -525,7 +933,7 @@ cssclasses: test
 > 
 > Fără el, browserele avertizează utilizatorii.
 
-### 44. Eșantionarea este:
+### 78. Eșantionarea este:
 
 - a. măsurarea semnalului la intervale regulate
 - b. comprimarea fișierului
@@ -537,7 +945,7 @@ cssclasses: test
 > 
 > Împreună cu cuantizarea, produce sunetul digital.
 
-### 45. MP3 folosește:
+### 79. MP3 folosește:
 
 - a. comprimare cu pierdere
 - b. comprimare fără pierdere
@@ -549,7 +957,7 @@ cssclasses: test
 > 
 > FLAC comprimă fără pierdere.
 
-### 46. Suprasaturarea semnalului audio produce:
+### 80. Suprasaturarea semnalului audio produce:
 
 - a. distorsiune ireversibilă
 - b. volum mai mare, curat
@@ -561,7 +969,7 @@ cssclasses: test
 > 
 > De aceea se lasă rezervă de nivel la înregistrare.
 
-### 47. MP4 este:
+### 81. MP4 este:
 
 - a. un container
 - b. un codec
@@ -573,7 +981,7 @@ cssclasses: test
 > 
 > H.264 este un codec.
 
-### 48. Într-un material video, sunetul prost:
+### 82. Într-un material video, sunetul prost:
 
 - a. deranjează mai mult decât imaginea mediocră
 - b. nu contează
@@ -585,7 +993,79 @@ cssclasses: test
 > 
 > Spectatorii abandonează mai repede din cauza sunetului.
 
-### 49. Ierarhia vizuală se realizează prin:
+### 83. Sunetul digital se obține prin:
+
+- a. eșantionare și cuantizare
+- b. vectorizare
+- c. compilare
+- d. criptare
+
+> [!success]- Răspuns
+> **a. eșantionare și cuantizare**
+> 
+> Frecvența tipică e 44,1 kHz.
+
+### 84. Un format audio necomprimat este:
+
+- a. WAV
+- b. MP3
+- c. AAC
+- d. SVG
+
+> [!success]- Răspuns
+> **a. WAV**
+> 
+> MP3 și AAC sunt comprimate.
+
+### 85. Prima etapă a unui proiect digital este:
+
+- a. analiza cerințelor
+- b. publicarea
+- c. întreținerea
+- d. testarea
+
+> [!success]- Răspuns
+> **a. analiza cerințelor**
+> 
+> Ea stabilește scopul.
+
+### 86. Phishingul este:
+
+- a. o înșelătorie care cere date prin mesaje false
+- b. un format video
+- c. un tip de selector CSS
+- d. un antivirus
+
+> [!success]- Răspuns
+> **a. o înșelătorie care cere date prin mesaje false**
+> 
+> Imită surse de încredere.
+
+### 87. Videoul este, în esență:
+
+- a. o succesiune de cadre afișate rapid
+- b. o singură imagine
+- c. un fișier text
+- d. o pagină HTML
+
+> [!success]- Răspuns
+> **a. o succesiune de cadre afișate rapid**
+> 
+> Rata de cadre se măsoară în fps.
+
+### 88. O măsură bună de securitate online este:
+
+- a. autentificarea în doi pași
+- b. aceeași parolă peste tot
+- c. deschiderea oricărui link
+- d. dezactivarea antivirusului
+
+> [!success]- Răspuns
+> **a. autentificarea în doi pași**
+> 
+> Prudența protejează datele.
+
+### 89. Ierarhia vizuală se realizează prin:
 
 - a. dimensiune, contrast și poziție
 - b. numărul de culori
@@ -597,7 +1077,7 @@ cssclasses: test
 > 
 > Elementul important trebuie să fie cel mai vizibil.
 
-### 50. Spațiul liber într-o compoziție:
+### 90. Spațiul liber într-o compoziție:
 
 - a. structurează și ușurează lectura
 - b. este spațiu pierdut
@@ -609,7 +1089,7 @@ cssclasses: test
 > 
 > El este un element activ de design.
 
-### 51. Regula practică pentru familiile de litere într-un material este:
+### 91. Regula practică pentru familiile de litere într-un material este:
 
 - a. cel mult două
 - b. cel puțin cinci
@@ -621,7 +1101,7 @@ cssclasses: test
 > 
 > Prea multe produc dezordine vizuală.
 
-### 52. Un proiect digital începe cu:
+### 92. Un proiect digital începe cu:
 
 - a. definirea produsului, a publicului și a criteriului de succes
 - b. alegerea tehnologiei
@@ -633,7 +1113,7 @@ cssclasses: test
 > 
 > Fără criteriu de succes nu se poate evalua rezultatul.
 
-### 53. Versiunea minimă funcțională este:
+### 93. Versiunea minimă funcțională este:
 
 - a. cea mai simplă variantă care rezolvă deja problema
 - b. prototipul nefuncțional
@@ -645,7 +1125,7 @@ cssclasses: test
 > 
 > Ea permite testarea timpurie.
 
-### 54. Dependența de o singură persoană într-un proiect:
+### 94. Dependența de o singură persoană într-un proiect:
 
 - a. este un risc major
 - b. garantează coerența
@@ -657,7 +1137,7 @@ cssclasses: test
 > 
 > Indisponibilitatea ei blochează proiectul.
 
-### 55. Sistemul de versionare:
+### 95. Sistemul de versionare:
 
 - a. păstrează istoricul și permite revenirea la variante anterioare
 - b. comprimă fișierele
@@ -669,7 +1149,7 @@ cssclasses: test
 > 
 > El face posibil lucrul simultan în echipă.
 
-### 56. În testarea cu utilizatori se urmărește:
+### 96. În testarea cu utilizatori se urmărește:
 
 - a. ce fac efectiv
 - b. ce declară că le place
@@ -681,7 +1161,7 @@ cssclasses: test
 > 
 > Comportamentul observat e mai fiabil.
 
-### 57. Numărul de utilizatori suficient pentru a descoperi majoritatea problemelor majore este, orientativ:
+### 97. Numărul de utilizatori suficient pentru a descoperi majoritatea problemelor majore este, orientativ:
 
 - a. cinci
 - b. unu
@@ -693,7 +1173,7 @@ cssclasses: test
 > 
 > Observarea atentă contează mai mult decât numărul.
 
-### 58. Implementarea tuturor sugestiilor primite:
+### 98. Implementarea tuturor sugestiilor primite:
 
 - a. duce la pierderea coerenței produsului
 - b. garantează succesul
@@ -705,7 +1185,7 @@ cssclasses: test
 > 
 > Prioritizarea face parte din decizia de produs.
 
-### 59. Documentația minimă trebuie să includă:
+### 99. Documentația minimă trebuie să includă:
 
 - a. scopul, folosirea, structura și limitele cunoscute
 - b. doar codul sursă
@@ -717,7 +1197,7 @@ cssclasses: test
 > 
 > Ea permite altcuiva să continue proiectul.
 
-### 60. Într-o prezentare de proiect, menționarea limitelor:
+### 100. Într-o prezentare de proiect, menționarea limitelor:
 
 - a. întărește credibilitatea
 - b. o slăbește

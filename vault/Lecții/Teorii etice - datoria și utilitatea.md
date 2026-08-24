@@ -10,7 +10,7 @@ clasa: "a XII-a"
 ---
 # Teorii etice: datoria și utilitatea
 
-[[Filosofie (clasa a XII-a)|Filosofie]] · [[Clasa a XII-a]] · lecția 7 din 14
+[[Filosofie (clasa a XII-a)|Filosofie]] · [[Clasa a XII-a]] · lecția 7 din 24
 
 **Capitolul:** Morala — semestrul 1
 

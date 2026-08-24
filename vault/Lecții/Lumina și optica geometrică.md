@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Lumina și optica geometrică
 
-[[Fizică (clasa a X-a)|Fizică]] · [[Clasa a X-a]] · lecția 7 din 9
+[[Fizică (clasa a X-a)|Fizică]] · [[Clasa a X-a]] · lecția 7 din 18
 
 **Capitolul:** Optică, unde, fizica modernă — semestrul 2
 

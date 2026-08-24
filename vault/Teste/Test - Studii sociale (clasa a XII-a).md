@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Studii sociale (clasa a XII-a)
 
-60 întrebări din [[Studii sociale (clasa a XII-a)|Studii sociale (clasa a XII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+108 întrebări din [[Studii sociale (clasa a XII-a)|Studii sociale (clasa a XII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Chiria lunară este o cheltuială:
 
@@ -441,7 +441,511 @@ cssclasses: test
 > 
 > Este chiar testul integrității.
 
-### 37. Bugetul personal este:
+### 37. Prima comunitate europeană, din 1951, a pus sub control comun:
+
+- a. cărbunele și oțelul
+- b. moneda
+- c. armata
+- d. agricultura
+
+> [!success]- Răspuns
+> **a. cărbunele și oțelul**
+> 
+> Erau resursele necesare industriei de război.
+
+### 38. Uniunea Europeană a fost creată prin Tratatul de la:
+
+- a. Maastricht (1992)
+- b. Paris (1951)
+- c. Roma (1957)
+- d. Lisabona (2007)
+
+> [!success]- Răspuns
+> **a. Maastricht (1992)**
+> 
+> El a adăugat integrării economice o dimensiune politică.
+
+### 39. România a devenit stat membru al Uniunii Europene în:
+
+- a. 2007
+- b. 2004
+- c. 1993
+- d. 2013
+
+> [!success]- Răspuns
+> **a. 2007**
+> 
+> La 1 ianuarie 2007.
+
+### 40. Deviza Uniunii Europene este:
+
+- a. „Uniți în diversitate”
+- b. „Libertate, egalitate, fraternitate”
+- c. „Pace și prosperitate”
+- d. „O Europă, un popor”
+
+> [!success]- Răspuns
+> **a. „Uniți în diversitate”**
+> 
+> Ea exprimă unitatea în respectul diferențelor.
+
+### 41. Singura instituție a Uniunii aleasă direct de cetățeni este:
+
+- a. Parlamentul European
+- b. Comisia Europeană
+- c. Consiliul European
+- d. Curtea de Justiție
+
+> [!success]- Răspuns
+> **a. Parlamentul European**
+> 
+> Alegerile europene au loc o dată la cinci ani.
+
+### 42. „Gardianul tratatelor”, care propune legislația europeană, este:
+
+- a. Comisia Europeană
+- b. Parlamentul European
+- c. Consiliul Uniunii Europene
+- d. Banca Centrală Europeană
+
+> [!success]- Răspuns
+> **a. Comisia Europeană**
+> 
+> Ea reprezintă interesul general al Uniunii.
+
+### 43. Consiliul European este format din:
+
+- a. șefii de stat sau de guvern ai statelor membre
+- b. miniștrii de finanțe
+- c. deputații europeni
+- d. comisarii europeni
+
+> [!success]- Răspuns
+> **a. șefii de stat sau de guvern ai statelor membre**
+> 
+> El stabilește direcțiile politice, fără a adopta legi.
+
+### 44. Legislația europeană se adoptă, de regulă, de către:
+
+- a. Parlamentul European și Consiliul Uniunii, la propunerea Comisiei
+- b. Comisie singură
+- c. Consiliul European singur
+- d. Curtea de Justiție
+
+> [!success]- Răspuns
+> **a. Parlamentul European și Consiliul Uniunii, la propunerea Comisiei**
+> 
+> Este procedura legislativă obișnuită.
+
+### 45. Cetățenia europeană, în raport cu cea națională:
+
+- a. o completează, fără a o înlocui
+- b. o înlocuiește
+- c. o anulează
+- d. este independentă de ea
+
+> [!success]- Răspuns
+> **a. o completează, fără a o înlocui**
+> 
+> Are cetățenie europeană oricine este cetățean al unui stat membru.
+
+### 46. Nu face parte dintre cele patru libertăți ale pieței unice:
+
+- a. libera alegere a guvernului european
+- b. libera circulație a mărfurilor
+- c. libera circulație a persoanelor
+- d. libera circulație a capitalurilor
+
+> [!success]- Răspuns
+> **a. libera alegere a guvernului european**
+> 
+> A patra este libera circulație a serviciilor.
+
+### 47. Un cetățean european care locuiește în alt stat membru poate vota acolo la alegerile:
+
+- a. europene și locale
+- b. prezidențiale ale acelui stat
+- c. parlamentare naționale ale acelui stat
+- d. de niciun fel
+
+> [!success]- Răspuns
+> **a. europene și locale**
+> 
+> Este un drept ce decurge din cetățenia europeană.
+
+### 48. Programul Erasmus este un exemplu de beneficiu al:
+
+- a. liberei circulații a persoanelor în spațiul european
+- b. politicii agricole comune
+- c. uniunii monetare
+- d. politicii de apărare
+
+> [!success]- Răspuns
+> **a. liberei circulații a persoanelor în spațiul european**
+> 
+> El permite studii și stagii în alte state membre.
+
+### 49. Sistemul electoral proporțional:
+
+- a. distribuie mandatele proporțional cu voturile
+- b. acordă mandatul unui singur câștigător
+- c. elimină partidele mari
+- d. suprimă pragul electoral
+
+> [!success]- Răspuns
+> **a. distribuie mandatele proporțional cu voturile**
+> 
+> El reflectă mai fidel opțiunile, dar poate fragmenta parlamentul.
+
+### 50. Sistemul majoritar tinde să producă:
+
+- a. majorități clare și guverne stabile
+- b. parlamente foarte fragmentate
+- c. reprezentarea fidelă a tuturor opțiunilor
+- d. coaliții numeroase
+
+> [!success]- Răspuns
+> **a. majorități clare și guverne stabile**
+> 
+> Dezavantajul lui este că multe voturi rămân nereprezentate.
+
+### 51. Pragul electoral are rolul de a:
+
+- a. limita fragmentarea excesivă a parlamentului
+- b. crește numărul de partide
+- c. garanta reprezentarea tuturor
+- d. elimina alegerile
+
+> [!success]- Răspuns
+> **a. limita fragmentarea excesivă a parlamentului**
+> 
+> Sub el, un partid nu primește mandate.
+
+### 52. Alegerea sistemului electoral este:
+
+- a. o decizie politică cu efecte asupra distribuției puterii
+- b. un simplu detaliu tehnic
+- c. lipsită de consecințe
+- d. identică în toate statele
+
+> [!success]- Răspuns
+> **a. o decizie politică cu efecte asupra distribuției puterii**
+> 
+> Fiecare sistem privilegiază stabilitatea sau reprezentativitatea.
+
+### 53. Semnarea unei petiții este o formă de participare:
+
+- a. convențională
+- b. violentă
+- c. ilegală
+- d. lipsită de efect
+
+> [!success]- Răspuns
+> **a. convențională**
+> 
+> Protestul de stradă este o formă neconvențională.
+
+### 54. Comunitățile cu cetățeni activi tind să aibă:
+
+- a. servicii mai bune și mai multă transparență
+- b. costuri administrative mai mari fără efect
+- c. mai puțină coeziune
+- d. mai multă corupție
+
+> [!success]- Răspuns
+> **a. servicii mai bune și mai multă transparență**
+> 
+> Participarea controlează mai atent puterea locală.
+
+### 55. Neparticiparea civică:
+
+- a. lasă decizia celor mai organizate interese
+- b. întărește democrația
+- c. garantează decizii corecte
+- d. crește legitimitatea aleșilor
+
+> [!success]- Răspuns
+> **a. lasă decizia celor mai organizate interese**
+> 
+> De aceea absența cetățenilor nu este neutră.
+
+### 56. Participarea democratică înseamnă, în esență:
+
+- a. a contribui la o decizie comună prin argument și dialog
+- b. a-ți impune întotdeauna punctul de vedere
+- c. a avea mereu dreptate
+- d. a evita orice compromis
+
+> [!success]- Răspuns
+> **a. a contribui la o decizie comună prin argument și dialog**
+> 
+> Ea presupune respectarea regulilor și a adversarilor.
+
+### 57. Printre funcțiile partidelor politice NU se numără:
+
+- a. administrarea justiției
+- b. agregarea intereselor într-un program
+- c. selectarea candidaților
+- d. formarea guvernului sau a opoziției
+
+> [!success]- Răspuns
+> **a. administrarea justiției**
+> 
+> Justiția este independentă de partide.
+
+### 58. Atacul la persoană în locul dezbaterii de idei este:
+
+- a. o formă de manipulare în campanie
+- b. o practică democratică sănătoasă
+- c. o cerință a echilibrului
+- d. o garanție a transparenței
+
+> [!success]- Răspuns
+> **a. o formă de manipulare în campanie**
+> 
+> Dezbaterea corectă privește programele, nu persoanele.
+
+### 59. Transparența finanțării partidelor servește la:
+
+- a. prevenirea influenței ascunse asupra deciziilor
+- b. creșterea numărului de partide
+- c. eliminarea campaniilor
+- d. reducerea prezenței la vot
+
+> [!success]- Răspuns
+> **a. prevenirea influenței ascunse asupra deciziilor**
+> 
+> Banii netransparenți pot cumpăra influență.
+
+### 60. Votul informat se opune votului:
+
+- a. mecanic sau pur emoțional
+- b. secret
+- c. universal
+- d. direct
+
+> [!success]- Răspuns
+> **a. mecanic sau pur emoțional**
+> 
+> El presupune o evaluare proprie a programelor și a faptelor.
+
+### 61. Egalitatea de șanse se deosebește de egalitatea de rezultat prin faptul că:
+
+- a. privește punctul de plecare, nu punctul de sosire
+- b. cere venituri identice pentru toți
+- c. garantează aceleași rezultate
+- d. desființează competiția
+
+> [!success]- Răspuns
+> **a. privește punctul de plecare, nu punctul de sosire**
+> 
+> Ea cere reguli corecte, nu rezultate identice.
+
+### 62. Egalitatea de gen presupune:
+
+- a. drepturi, șanse și tratament egale pentru femei și bărbați
+- b. aceleași ocupații impuse tuturor
+- c. avantaje pentru un singur gen
+- d. desființarea familiei
+
+> [!success]- Răspuns
+> **a. drepturi, șanse și tratament egale pentru femei și bărbați**
+> 
+> Ea vizează egalitatea reală, nu doar cea legală.
+
+### 63. Faptul că drepturile egale există legal, dar inegalitățile de fapt persistă, arată că:
+
+- a. egalitatea de drept nu produce automat egalitate de fapt
+- b. legea este inutilă
+- c. inegalitățile sunt naturale
+- d. egalitatea a fost deja atinsă
+
+> [!success]- Răspuns
+> **a. egalitatea de drept nu produce automat egalitate de fapt**
+> 
+> De aceea sunt necesare și schimbări de mentalitate.
+
+### 64. O politică de accesibilitate pentru persoanele cu dizabilități este:
+
+- a. o măsură de egalizare a șanselor
+- b. un privilegiu nejustificat
+- c. o discriminare
+- d. un cost fără rost
+
+> [!success]- Răspuns
+> **a. o măsură de egalizare a șanselor**
+> 
+> Ea compensează un dezavantaj de pornire.
+
+### 65. Drepturile minorităților sunt, în esență:
+
+- a. recunoașterea faptului că egalitatea reală cere uneori măsuri specifice
+- b. privilegii nejustificate
+- c. o formă de discriminare a majorității
+- d. o amenințare la adresa statului
+
+> [!success]- Răspuns
+> **a. recunoașterea faptului că egalitatea reală cere uneori măsuri specifice**
+> 
+> Fără dreptul la limba maternă, un vorbitor minoritar ar fi dezavantajat.
+
+### 66. În România, minoritățile naționale:
+
+- a. au reprezentare garantată în Parlament
+- b. nu pot participa la viața politică
+- c. nu își pot folosi limba
+- d. formează partide interzise
+
+> [!success]- Răspuns
+> **a. au reprezentare garantată în Parlament**
+> 
+> Organizațiile lor pot obține un loc de deputat.
+
+### 67. Ștergerea forțată a identității unei minorități se numește:
+
+- a. asimilare forțată
+- b. integrare
+- c. incluziune
+- d. reprezentare
+
+> [!success]- Răspuns
+> **a. asimilare forțată**
+> 
+> Modelul democratic urmărește integrarea cu păstrarea identității.
+
+### 68. Modelul democratic de conviețuire urmărește:
+
+- a. integrarea în condiții de egalitate, cu păstrarea identității
+- b. asimilarea forțată
+- c. segregarea grupurilor
+- d. excluderea minorităților
+
+> [!success]- Răspuns
+> **a. integrarea în condiții de egalitate, cu păstrarea identității**
+> 
+> El se sprijină pe respect reciproc și pe recunoașterea diversității.
+
+### 69. O regulă aparent neutră care dezavantajează disproporționat un grup este:
+
+- a. discriminare indirectă
+- b. discriminare directă
+- c. hărțuire
+- d. o cerință justificată
+
+> [!success]- Răspuns
+> **a. discriminare indirectă**
+> 
+> Efectul, nu formularea, o definește.
+
+### 70. Măsurile care sprijină un grup dezavantajat pentru a-l aduce la egalitate de șanse:
+
+- a. nu sunt discriminare, ci corectarea unei inegalități
+- b. sunt discriminare a majorității
+- c. sunt întotdeauna interzise
+- d. încalcă egalitatea
+
+> [!success]- Răspuns
+> **a. nu sunt discriminare, ci corectarea unei inegalități**
+> 
+> Ele compensează un dezavantaj de pornire.
+
+### 71. Discriminarea multiplă apare când o persoană este dezavantajată:
+
+- a. pe mai multe criterii în același timp
+- b. de mai multe ori pe același criteriu
+- c. de mai multe persoane
+- d. printr-o singură regulă
+
+> [!success]- Răspuns
+> **a. pe mai multe criterii în același timp**
+> 
+> De exemplu, pe criteriu de gen și de etnie simultan.
+
+### 72. La nivel personal, primul pas împotriva discriminării este:
+
+- a. conștientizarea propriilor stereotipuri și prejudecăți
+- b. ignorarea problemei
+- c. negarea existenței ei
+- d. evitarea contactului cu grupuri diferite
+
+> [!success]- Răspuns
+> **a. conștientizarea propriilor stereotipuri și prejudecăți**
+> 
+> Ele stau adesea la baza comportamentelor discriminatorii.
+
+### 73. Uniunea Europeană a fost creată prin Tratatul de la:
+
+- a. Maastricht (1992)
+- b. Roma (1957)
+- c. Paris (1951)
+- d. Lisabona (2007)
+
+> [!success]- Răspuns
+> **a. Maastricht (1992)**
+> 
+> El a adăugat integrării economice o dimensiune politică.
+
+### 74. România a aderat la Uniunea Europeană în:
+
+- a. 2007
+- b. 2004
+- c. 2000
+- d. 2013
+
+> [!success]- Răspuns
+> **a. 2007**
+> 
+> La 1 ianuarie 2007.
+
+### 75. Singura instituție europeană aleasă direct de cetățeni este:
+
+- a. Parlamentul European
+- b. Comisia Europeană
+- c. Consiliul European
+- d. Curtea de Justiție
+
+> [!success]- Răspuns
+> **a. Parlamentul European**
+> 
+> Alegerile europene au loc o dată la cinci ani.
+
+### 76. Cele patru libertăți ale pieței unice privesc libera circulație a:
+
+- a. mărfurilor, persoanelor, serviciilor și capitalurilor
+- b. mărfurilor, persoanelor, ideilor și armelor
+- c. doar a mărfurilor și a persoanelor
+- d. capitalurilor și a guvernelor
+
+> [!success]- Răspuns
+> **a. mărfurilor, persoanelor, serviciilor și capitalurilor**
+> 
+> Ele stau la baza integrării economice.
+
+### 77. Sistemul electoral proporțional:
+
+- a. distribuie mandatele proporțional cu voturile
+- b. acordă mandatul unui singur câștigător
+- c. elimină partidele mari
+- d. desființează pragul electoral
+
+> [!success]- Răspuns
+> **a. distribuie mandatele proporțional cu voturile**
+> 
+> El reflectă mai fidel opțiunile, dar poate fragmenta parlamentul.
+
+### 78. Votul informat presupune:
+
+- a. cunoașterea programelor și verificarea faptelor
+- b. urmărirea doar a imaginii candidaților
+- c. votul mereu la fel
+- d. decizia după ultimul mesaj auzit
+
+> [!success]- Răspuns
+> **a. cunoașterea programelor și verificarea faptelor**
+> 
+> El este o evaluare proprie, nu un reflex.
+
+### 79. Bugetul personal este:
 
 - a. planul veniturilor și al cheltuielilor pe o perioadă
 - b. lista cheltuielilor lunare
@@ -453,7 +957,7 @@ cssclasses: test
 > 
 > El permite anticiparea și controlul.
 
-### 38. Regula 50–30–20 alocă economiilor și datoriilor:
+### 80. Regula 50–30–20 alocă economiilor și datoriilor:
 
 - a. 20%
 - b. 50%
@@ -465,7 +969,7 @@ cssclasses: test
 > 
 > Este un reper orientativ.
 
-### 39. Fondul de urgență ar trebui să acopere:
+### 81. Fondul de urgență ar trebui să acopere:
 
 - a. trei până la șase luni de cheltuieli
 - b. o lună de venit
@@ -477,7 +981,7 @@ cssclasses: test
 > 
 > El se constituie înaintea investițiilor.
 
-### 40. Dobânda compusă înseamnă că:
+### 82. Dobânda compusă înseamnă că:
 
 - a. dobânda se aplică și asupra dobânzii acumulate
 - b. dobânda este fixă
@@ -489,7 +993,7 @@ cssclasses: test
 > 
 > Efectul ei crește exponențial cu timpul.
 
-### 41. DAE include:
+### 83. DAE include:
 
 - a. toate costurile creditului
 - b. doar dobânda nominală
@@ -501,7 +1005,7 @@ cssclasses: test
 > 
 > De aceea permite comparații corecte.
 
-### 42. Dreptul de retragere pentru cumpărăturile online este, în general, de:
+### 84. Dreptul de retragere pentru cumpărăturile online este, în general, de:
 
 - a. 14 zile
 - b. 7 zile
@@ -513,7 +1017,7 @@ cssclasses: test
 > 
 > Există excepții prevăzute de lege.
 
-### 43. Mesajul „ultimele 3 bucăți” exploatează:
+### 85. Mesajul „ultimele 3 bucăți” exploatează:
 
 - a. penuria artificială
 - b. dovada socială
@@ -525,7 +1029,7 @@ cssclasses: test
 > 
 > Urgența reduce timpul de comparare.
 
-### 44. Contractul individual de muncă trebuie încheiat:
+### 86. Contractul individual de muncă trebuie încheiat:
 
 - a. în scris, înainte de începerea activității
 - b. în prima lună de activitate
@@ -537,7 +1041,7 @@ cssclasses: test
 > 
 > Este o obligație legală a angajatorului.
 
-### 45. Salariul net este:
+### 87. Salariul net este:
 
 - a. suma încasată după contribuții și impozit
 - b. salariul negociat
@@ -549,7 +1053,7 @@ cssclasses: test
 > 
 > Brutul include contribuțiile datorate.
 
-### 46. Munca fără contract lipsește persoana de:
+### 88. Munca fără contract lipsește persoana de:
 
 - a. vechime, asigurare, concediu și protecție
 - b. doar de concediu
@@ -561,7 +1065,7 @@ cssclasses: test
 > 
 > Toate aceste drepturi decurg din contract.
 
-### 47. Competențele transversale sunt:
+### 89. Competențele transversale sunt:
 
 - a. utile în orice domeniu
 - b. specifice unei singure meserii
@@ -573,7 +1077,7 @@ cssclasses: test
 > 
 > Comunicarea și gândirea critică sunt exemple.
 
-### 48. Un CV eficient prezintă:
+### 90. Un CV eficient prezintă:
 
 - a. rezultate concrete, adaptate postului
 - b. toate activitățile desfășurate
@@ -585,7 +1089,79 @@ cssclasses: test
 > 
 > Adaptarea la post este esențială.
 
-### 49. În economia socială, profitul este:
+### 91. Egalitatea de șanse privește, în primul rând:
+
+- a. punctul de plecare și corectitudinea regulilor
+- b. egalitatea rezultatelor
+- c. veniturile identice
+- d. desființarea competiției
+
+> [!success]- Răspuns
+> **a. punctul de plecare și corectitudinea regulilor**
+> 
+> Nu cere ca toți să ajungă la fel.
+
+### 92. Egalitatea de gen presupune:
+
+- a. drepturi, șanse și tratament egale pentru femei și bărbați
+- b. avantaje pentru un singur gen
+- c. aceleași ocupații impuse tuturor
+- d. desființarea diferențelor biologice
+
+> [!success]- Răspuns
+> **a. drepturi, șanse și tratament egale pentru femei și bărbați**
+> 
+> Ea vizează egalitatea reală, nu doar cea legală.
+
+### 93. O minoritate națională este un grup care:
+
+- a. se deosebește de majoritate prin etnie, limbă sau cultură
+- b. deține întotdeauna puterea
+- c. nu are drepturi
+- d. se confundă cu majoritatea
+
+> [!success]- Răspuns
+> **a. se deosebește de majoritate prin etnie, limbă sau cultură**
+> 
+> Ea se află, de regulă, într-o poziție nedominantă.
+
+### 94. În România, minoritățile naționale:
+
+- a. au reprezentare garantată în Parlament
+- b. nu pot participa politic
+- c. nu își pot folosi limba maternă
+- d. formează partide interzise
+
+> [!success]- Răspuns
+> **a. au reprezentare garantată în Parlament**
+> 
+> Organizațiile lor care nu ating pragul pot obține un loc de deputat.
+
+### 95. O regulă aparent neutră care dezavantajează disproporționat un grup este:
+
+- a. discriminare indirectă
+- b. discriminare directă
+- c. o cerință justificată obiectiv
+- d. hărțuire
+
+> [!success]- Răspuns
+> **a. discriminare indirectă**
+> 
+> Efectul, nu formularea, o definește.
+
+### 96. Instituția specializată în combaterea discriminării în România este:
+
+- a. Consiliul Național pentru Combaterea Discriminării
+- b. Avocatul Poporului
+- c. Curtea Constituțională
+- d. Consiliul Economic și Social
+
+> [!success]- Răspuns
+> **a. Consiliul Național pentru Combaterea Discriminării**
+> 
+> Ea constată și sancționează faptele de discriminare.
+
+### 97. În economia socială, profitul este:
 
 - a. un mijloc pentru misiunea socială
 - b. scopul principal
@@ -597,7 +1173,7 @@ cssclasses: test
 > 
 > El se reinvestește în misiune.
 
-### 50. O întreprindere socială dependentă integral de donații:
+### 98. O întreprindere socială dependentă integral de donații:
 
 - a. nu este sustenabilă economic
 - b. este modelul ideal
@@ -609,7 +1185,7 @@ cssclasses: test
 > 
 > Sustenabilitatea cere venituri proprii.
 
-### 51. Impactul social se măsoară:
+### 99. Impactul social se măsoară:
 
 - a. prin indicatori stabiliți înainte de începerea activității
 - b. prin bugetul cheltuit
@@ -621,7 +1197,7 @@ cssclasses: test
 > 
 > Altfel evaluarea devine subiectivă.
 
-### 52. Dezvoltarea durabilă a fost definită în:
+### 100. Dezvoltarea durabilă a fost definită în:
 
 - a. Raportul Brundtland (1987)
 - b. Raportul Clubului de la Roma (1972)
@@ -633,7 +1209,7 @@ cssclasses: test
 > 
 > Definiția vizează echilibrul dintre generații.
 
-### 53. Agenda 2030 cuprinde:
+### 101. Agenda 2030 cuprinde:
 
 - a. 17 obiective de dezvoltare durabilă
 - b. 8 obiective
@@ -645,7 +1221,7 @@ cssclasses: test
 > 
 > Ea a fost adoptată de ONU în 2015.
 
-### 54. Cele trei dimensiuni ale dezvoltării durabile sunt:
+### 102. Cele trei dimensiuni ale dezvoltării durabile sunt:
 
 - a. economică, socială și de mediu
 - b. locală, națională, globală
@@ -657,7 +1233,7 @@ cssclasses: test
 > 
 > Ele trebuie echilibrate.
 
-### 55. Responsabilitatea socială corporativă înseamnă:
+### 103. Responsabilitatea socială corporativă înseamnă:
 
 - a. obligații asumate voluntar, dincolo de lege
 - b. respectarea legislației
@@ -669,7 +1245,7 @@ cssclasses: test
 > 
 > Legea este obligație, nu responsabilitate suplimentară.
 
-### 56. Greenwashing-ul se combate:
+### 104. Greenwashing-ul se combate:
 
 - a. cerând certificări și date verificabile
 - b. boicotând toate produsele
@@ -681,7 +1257,7 @@ cssclasses: test
 > 
 > Dovada verificabilă este criteriul.
 
-### 57. Efectul consumului individual responsabil:
+### 105. Efectul consumului individual responsabil:
 
 - a. este mic izolat, dar determinant în agregat
 - b. este întotdeauna decisiv
@@ -693,7 +1269,7 @@ cssclasses: test
 > 
 > Cererea agregată determină oferta.
 
-### 58. Conflictul de interese apare când:
+### 106. Conflictul de interese apare când:
 
 - a. interesul personal poate influența o decizie oficială
 - b. două instituții au opinii diferite
@@ -705,7 +1281,7 @@ cssclasses: test
 > 
 > El trebuie declarat, chiar dacă decizia ar fi corectă.
 
-### 59. Avertizorul de integritate este:
+### 107. Avertizorul de integritate este:
 
 - a. persoana care semnalează o încălcare din interiorul organizației
 - b. inspectorul de stat
@@ -717,7 +1293,7 @@ cssclasses: test
 > 
 > Protecția lui este esențială pentru eficacitatea semnalării.
 
-### 60. Efectul cel mai durabil al corupției este:
+### 108. Efectul cel mai durabil al corupției este:
 
 - a. erodarea încrederii în instituții
 - b. creșterea prețurilor

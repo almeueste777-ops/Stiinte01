@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Structura probei și tipurile de cerințe
 
-[[Filosofie (clasa a XIII-a)|Filosofie]] · [[Clasa a XIII-a]] · lecția 7 din 9
+[[Filosofie (clasa a XIII-a)|Filosofie]] · [[Clasa a XIII-a]] · lecția 7 din 22
 
 **Capitolul:** Eseul filosofic și bacalaureatul — semestrul 2
 

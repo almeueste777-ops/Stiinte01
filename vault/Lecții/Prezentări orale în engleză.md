@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Prezentări orale în engleză
 
-[[Limba modernă 1 (Engleză) (clasa a XII-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XII-a]] · lecția 4 din 9
+[[Limba modernă 1 (Engleză) (clasa a XII-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XII-a]] · lecția 4 din 18
 
 **Capitolul:** Engleză academică și profesională — semestrul 2
 

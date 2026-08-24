@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Construcții infinitivale și participiale
 
-[[Limba latină (clasa a X-a)|Limba latină]] · [[Clasa a X-a]] · lecția 6 din 9
+[[Limba latină (clasa a X-a)|Limba latină]] · [[Clasa a X-a]] · lecția 6 din 18
 
 **Capitolul:** Sintaxa frazei — semestrul 1
 

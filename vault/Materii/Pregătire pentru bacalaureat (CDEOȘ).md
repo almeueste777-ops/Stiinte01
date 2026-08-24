@@ -14,7 +14,7 @@ cssclasses: fisa
 
 ## Anii de studiu
 
-- [[Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)|Clasa a XIII-a]] — 9 lecții, 36 carduri, 60 întrebări
+- [[Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)|Clasa a XIII-a]] — 20 lecții, 80 carduri, 116 întrebări
 
 ## Legături
 - [[00 Start aici]]

@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Patriarhii și Legea
 
-[[Religie (clasa a IX-a)|Religie]] · [[Clasa a IX-a]] · lecția 5 din 9
+[[Religie (clasa a IX-a)|Religie]] · [[Clasa a IX-a]] · lecția 5 din 18
 
 **Capitolul:** Vechiul Testament — semestrul 1
 

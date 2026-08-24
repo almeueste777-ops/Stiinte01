@@ -792,12 +792,868 @@
      ]
     }
    ]
+  },
+  {
+   "id": "eng9-c4",
+   "titlu": "Pronume, prepoziții și determinanți",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "eng9-10",
+     "titlu": "Pronumele și posesivele",
+     "rezumat": "Pronumele personale au două forme: de subiect (I, you, he, she, it, we, they), plasate înaintea verbului, și de complement (me, you, him, her, it, us, them), plasate după verb sau după prepoziție. „She called me\", „I gave it to them\" — pronumele complement urmează verbului sau prepoziției, niciodată forma de subiect: „to me\", nu „to I\". Adjectivele posesive (my, your, his, her, its, our, their) însoțesc un substantiv: „my book\". Pronumele posesive (mine, yours, his, hers, ours, theirs) stau singure, fără substantiv: „This book is mine\". Ele nu primesc apostrof. Atenție la o confuzie foarte frecventă: „its\" este posesiv („its colour\"), în timp ce „it's\" înseamnă „it is\". Pronumele reflexive (myself, yourself, himself, herself, itself, ourselves, yourselves, themselves) se folosesc când subiectul și complementul sunt aceeași persoană: „She hurt herself\". Ele servesc și la accentuare: „I did it myself\" (chiar eu).",
+     "ideiCheie": [
+      "Pronumele subiect stau înaintea verbului; cele complement, după verb sau prepoziție.",
+      "Adjectivele posesive (my, your, his…) însoțesc un substantiv; pronumele posesive (mine, yours…) stau singure.",
+      "„Its\" este posesiv; „it's\" înseamnă „it is\" — o confuzie frecventă.",
+      "Pronumele reflexive se folosesc când subiectul și complementul coincid."
+     ],
+     "termeni": [
+      {
+       "t": "possessive adjective",
+       "d": "cuvânt care arată posesia și însoțește un substantiv (my, your, his)"
+      },
+      {
+       "t": "reflexive pronoun",
+       "d": "pronume care arată că subiectul și complementul coincid (myself, herself)"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt pronumele complement în engleză?",
+       "v": "Me, you, him, her, it, us, them."
+      },
+      {
+       "f": "Care este diferența dintre „my\" și „mine\"?",
+       "v": "„My\" însoțește un substantiv, „mine\" stă singur."
+      },
+      {
+       "f": "Ce diferență este între „its\" și „it's\"?",
+       "v": "„Its\" este posesiv, „it's\" înseamnă „it is\"."
+      },
+      {
+       "f": "Când se folosesc pronumele reflexive?",
+       "v": "Când subiectul și complementul sunt aceeași persoană."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Forma corectă este:",
+       "optiuni": [
+        "„She gave the book to him.\"",
+        "„She gave the book to he.\"",
+        "„She gave the book to his.\"",
+        "„She gave the book to himself.\""
+       ],
+       "corect": 0,
+       "explicatie": "După prepoziție se folosește pronumele complement „him\"."
+      },
+      {
+       "intrebare": "„This pen is ______.\" Forma corectă este:",
+       "optiuni": [
+        "mine",
+        "my",
+        "mine's",
+        "my one"
+       ],
+       "corect": 0,
+       "explicatie": "Pronumele posesiv „mine\" stă singur, fără substantiv."
+      },
+      {
+       "intrebare": "„The company changed ______ logo.\" Cuvântul potrivit este:",
+       "optiuni": [
+        "its",
+        "it's",
+        "its'",
+        "their"
+       ],
+       "corect": 0,
+       "explicatie": "„Its\" este posesivul lui „it\"; „it's\" înseamnă „it is\"."
+      },
+      {
+       "intrebare": "„He cut ______ while cooking.\" Forma corectă este:",
+       "optiuni": [
+        "himself",
+        "him",
+        "his",
+        "hisself"
+       ],
+       "corect": 0,
+       "explicatie": "Subiectul și complementul coincid, deci pronumele reflexiv „himself\"."
+      }
+     ]
+    },
+    {
+     "id": "eng9-11",
+     "titlu": "Prepozițiile de loc, de timp și de mișcare",
+     "rezumat": "Prepozițiile de loc de bază sunt trei: „in\" pentru spații închise sau delimitate (in the box, in Romania), „on\" pentru suprafețe (on the table, on the wall) și „at\" pentru puncte precise (at the door, at school, at the bus stop). Aceeași logică se regăsește și la timp. Prepozițiile de timp urmează un tipar clar: „at\" pentru ore și momente precise (at seven o'clock, at night), „on\" pentru zile și date (on Monday, on 5 May), „in\" pentru luni, ani, anotimpuri și părți ale zilei (in July, in 2020, in the morning). Excepții utile: „at the weekend\", „at night\". Prepozițiile de mișcare arată direcția: „to\" (to school), „into\" (into the room), „out of\", „onto\", „through\", „across\", „along\", „towards\", „from\". Atenție: se spune „arrive in\" un oraș sau o țară, dar „arrive at\" un loc anume (o clădire, o stație), iar „home\" nu primește prepoziție: „go home\".",
+     "ideiCheie": [
+      "Loc: „in\" pentru spații închise, „on\" pentru suprafețe, „at\" pentru puncte precise.",
+      "Timp: „at\" pentru ore, „on\" pentru zile și date, „in\" pentru luni, ani, anotimpuri.",
+      "Mișcare: to, into, out of, through, across, towards arată direcția.",
+      "„Arrive in\" un oraș/o țară, „arrive at\" un loc anume; „go home\" fără prepoziție."
+     ],
+     "termeni": [
+      {
+       "t": "preposition of place",
+       "d": "cuvânt care arată poziția în spațiu (in, on, at)"
+      },
+      {
+       "t": "preposition of movement",
+       "d": "cuvânt care arată direcția deplasării (to, into, through)"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce prepoziție se folosește cu orele?",
+       "v": "„At\": at seven o'clock, at noon."
+      },
+      {
+       "f": "Ce prepoziție se folosește cu zilele și datele?",
+       "v": "„On\": on Monday, on 5 May."
+      },
+      {
+       "f": "Ce prepoziție se folosește cu lunile și anii?",
+       "v": "„In\": in July, in 2020."
+      },
+      {
+       "f": "Cum se spune „ajung la Londra\"?",
+       "v": "„I arrive in London\" (oraș sau țară cu „in\")."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„I have English ______ Monday.\" Prepoziția corectă este:",
+       "optiuni": [
+        "on",
+        "in",
+        "at",
+        "to"
+       ],
+       "corect": 0,
+       "explicatie": "Zilele săptămânii cer „on\"."
+      },
+      {
+       "intrebare": "„The keys are ______ the table.\" Forma corectă este:",
+       "optiuni": [
+        "on",
+        "in",
+        "at",
+        "to"
+       ],
+       "corect": 0,
+       "explicatie": "Suprafața cere „on\"."
+      },
+      {
+       "intrebare": "„We met ______ 2019.\" Prepoziția potrivită este:",
+       "optiuni": [
+        "in",
+        "on",
+        "at",
+        "since"
+       ],
+       "corect": 0,
+       "explicatie": "Anii cer „in\"."
+      },
+      {
+       "intrebare": "„She arrived ______ the airport late.\" Forma corectă este:",
+       "optiuni": [
+        "at",
+        "in",
+        "to",
+        "on"
+       ],
+       "corect": 0,
+       "explicatie": "„Arrive at\" un loc anume; „arrive in\" un oraș sau o țară."
+      }
+     ]
+    },
+    {
+     "id": "eng9-12",
+     "titlu": "„There is/there are\", some, any și cantitatea",
+     "rezumat": "Structura „there is / there are\" exprimă existența a ceva. „There is\" se folosește cu substantive la singular sau nenumărabile („There is a book\", „There is some milk\"), iar „there are\" cu substantive la plural („There are three books\"). Interogativ: „Is there…?\", „Are there…?\"; negativ: „There isn't\", „There aren't\". Ea nu se confundă cu „it is\". „Some\" și „any\" exprimă o cantitate nedeterminată. „Some\" se folosește în propoziții afirmative și în oferte sau cereri politicoase („I have some money\", „Would you like some tea?\"); „any\" se folosește în propoziții negative și interogative („I don't have any money\", „Is there any milk?\"). Din ele se formează compuse: something/anything, someone/anyone, somewhere/anywhere. Pentru cantități mari se folosesc „much\", „many\" și „a lot of\". „Much\" însoțește substantive nenumărabile (mai ales în întrebări și negative: „much time\"), „many\" însoțește substantive numărabile („many books\"), iar „a lot of / lots of\" merge cu ambele în afirmații. Întrebările: „How much…?\" pentru nenumărabile, „How many…?\" pentru numărabile.",
+     "ideiCheie": [
+      "„There is\" + singular/nenumărabil; „there are\" + plural — exprimă existența.",
+      "„Some\" în afirmații și oferte; „any\" în negative și întrebări.",
+      "Compuse: something/anything, someone/anyone, somewhere/anywhere.",
+      "„Much\" cu nenumărabile, „many\" cu numărabile, „a lot of\" cu ambele."
+     ],
+     "termeni": [
+      {
+       "t": "existential there",
+       "d": "structura „there is/are\" care exprimă existența a ceva"
+      },
+      {
+       "t": "quantifier",
+       "d": "cuvânt care exprimă cantitatea (some, any, much, many)"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Când se folosește „there are\"?",
+       "v": "Cu substantive la plural: „There are two chairs\"."
+      },
+      {
+       "f": "Când se folosește „any\"?",
+       "v": "În propoziții negative și interogative."
+      },
+      {
+       "f": "Cu ce se folosește „many\"?",
+       "v": "Cu substantive numărabile la plural."
+      },
+      {
+       "f": "Cum se întreabă despre o cantitate nenumărabilă?",
+       "v": "Cu „How much…?\": „How much water?\"."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„______ three apples on the table.\" Forma corectă este:",
+       "optiuni": [
+        "There are",
+        "There is",
+        "It is",
+        "There have"
+       ],
+       "corect": 0,
+       "explicatie": "Pluralul „apples\" cere „there are\"."
+      },
+      {
+       "intrebare": "„I don't have ______ money.\" Cuvântul potrivit este:",
+       "optiuni": [
+        "any",
+        "some",
+        "a",
+        "many"
+       ],
+       "corect": 0,
+       "explicatie": "În propoziții negative se folosește „any\"; „money\" e nenumărabil, deci nu „many\"."
+      },
+      {
+       "intrebare": "„______ water is there in the bottle?\" Forma corectă este:",
+       "optiuni": [
+        "How much",
+        "How many",
+        "How long",
+        "How often"
+       ],
+       "corect": 0,
+       "explicatie": "„Water\" este nenumărabil, deci „how much\"."
+      },
+      {
+       "intrebare": "„Would you like ______ coffee?\" Forma politicoasă folosește:",
+       "optiuni": [
+        "some",
+        "any",
+        "many",
+        "a few"
+       ],
+       "corect": 0,
+       "explicatie": "În oferte se folosește „some\", deși propoziția este interogativă."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "eng9-c5",
+   "titlu": "Întrebări, comenzi și numere",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "eng9-13",
+     "titlu": "Cuvinte interogative și răspunsuri scurte",
+     "rezumat": "Cuvintele interogative introduc întrebările deschise: what (lucru), who (persoană), whose (posesor), which (alegere dintr-un set), where (loc), when (timp), why (motiv), how (mod), plus how much, how many, how old, how long, how often, how far. Ordinea obișnuită este: cuvânt interogativ + auxiliar + subiect + verb: „Where do you live?\", „When did she arrive?\". Când cuvântul interogativ este chiar subiectul propoziției, nu se mai face inversiune și nu se folosește auxiliar: „Who called?\", „What happened?\". Compară „Who do you love?\" (who = complement) cu „Who loves you?\" (who = subiect). Engleza răspunde la întrebările de tip da/nu prin răspunsuri scurte care reiau auxiliarul, nu prin repetarea verbului: „Do you like it?\" → „Yes, I do\" / „No, I don't\"; „Can you swim?\" → „Yes, I can\"; „Are you ready?\" → „Yes, I am\". Tot pe auxiliar se sprijină și „question tags\", scurte întrebări adăugate la final: afirmativul cere tag negativ („You're coming, aren't you?\"), iar negativul, tag afirmativ („She can't drive, can she?\").",
+     "ideiCheie": [
+      "Cuvinte interogative: what, who, whose, which, where, when, why, how.",
+      "Ordinea: cuvânt interogativ + auxiliar + subiect + verb.",
+      "Când cuvântul interogativ este subiect, nu se face inversiune: „Who called?\".",
+      "Răspunsurile scurte reiau auxiliarul: „Yes, I do\", „No, she can't\"."
+     ],
+     "termeni": [
+      {
+       "t": "question word",
+       "d": "cuvânt care introduce o întrebare (what, where, when, why, how)"
+      },
+      {
+       "t": "short answer",
+       "d": "răspuns scurt care reia auxiliarul întrebării (Yes, I do)"
+      },
+      {
+       "t": "question tag",
+       "d": "scurtă întrebare adăugată la finalul unei afirmații (…, isn't it?)"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt cuvintele interogative de bază?",
+       "v": "What, who, whose, which, where, when, why, how."
+      },
+      {
+       "f": "Cum se răspunde scurt la „Do you like tea?\"",
+       "v": "„Yes, I do\" sau „No, I don't\"."
+      },
+      {
+       "f": "Când nu se face inversiune într-o întrebare?",
+       "v": "Când cuvântul interogativ este subiectul: „Who called?\"."
+      },
+      {
+       "f": "Ce este un „question tag\"?",
+       "v": "O scurtă întrebare la finalul unei afirmații: „…, isn't it?\"."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„______ do you live?\" Cuvântul potrivit este:",
+       "optiuni": [
+        "Where",
+        "What",
+        "Who",
+        "Which"
+       ],
+       "corect": 0,
+       "explicatie": "„Where\" întreabă despre loc."
+      },
+      {
+       "intrebare": "Răspunsul scurt corect la „Can you drive?\" este:",
+       "optiuni": [
+        "„Yes, I can.\"",
+        "„Yes, I drive.\"",
+        "„Yes, I do.\"",
+        "„Yes, I am.\""
+       ],
+       "corect": 0,
+       "explicatie": "Răspunsul scurt reia auxiliarul întrebării, aici „can\"."
+      },
+      {
+       "intrebare": "„______ broke the window?\" (cine, ca subiect) Forma corectă este:",
+       "optiuni": [
+        "Who",
+        "Who did",
+        "Whom did",
+        "What did"
+       ],
+       "corect": 0,
+       "explicatie": "Când „who\" este subiect, nu se folosește auxiliar: „Who broke…?\"."
+      },
+      {
+       "intrebare": "„You're French, ______?\" Forma corectă a întrebării de confirmare este:",
+       "optiuni": [
+        "aren't you",
+        "are you",
+        "isn't it",
+        "don't you"
+       ],
+       "corect": 0,
+       "explicatie": "Afirmativul „you are\" cere tag negativ „aren't you\"."
+      }
+     ]
+    },
+    {
+     "id": "eng9-14",
+     "titlu": "Imperativul, sugestiile și indicațiile de drum",
+     "rezumat": "Imperativul dă ordine, instrucțiuni, avertismente și invitații. Se formează cu verbul de bază, fără subiect: „Open the window\", „Be careful\"; negativul se face cu „don't\": „Don't touch that\". Se atenuează cu „please\". Apare frecvent în rețete, pe indicatoare și în instrucțiuni. Sugestiile de a face ceva împreună au mai multe forme: „Let's + verb\" („Let's go\"), „Why don't we…?\", „Shall we…?\", „How about + verb-ing?\" („How about going out?\"). Negativul: „Let's not…\". Ele se acceptă („Good idea\", „Sure\") sau se refuză politicos („I'd rather not\"). Indicațiile de drum folosesc un set fix de expresii: „Go straight on\", „Turn left/right\", „Take the first/second turning\", „Go past the bank\", „It's on your left\". Poziții pe traseu: „opposite\" (vizavi de), „next to\" (lângă), „between\" (între), „at the corner\" (la colț). Se cere politicos: „Excuse me, how do I get to…?\", „Is there a … near here?\".",
+     "ideiCheie": [
+      "Imperativul folosește verbul de bază fără subiect; negativul, „don't\".",
+      "Sugestii: „Let's…\", „Why don't we…?\", „Shall we…?\", „How about + verb-ing?\".",
+      "Indicații: „go straight on\", „turn left/right\", „take the first turning\".",
+      "Poziții pe traseu: opposite, next to, between, at the corner, on your left."
+     ],
+     "termeni": [
+      {
+       "t": "imperative",
+       "d": "modul verbal care exprimă un ordin, o instrucțiune sau un sfat"
+      },
+      {
+       "t": "suggestion",
+       "d": "propunere de a face ceva împreună (Let's…, Why don't we…?)"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se formează imperativul negativ?",
+       "v": "Cu „don't\" plus verbul de bază: „Don't run\"."
+      },
+      {
+       "f": "Cum se face o sugestie cu „let's\"?",
+       "v": "Cu „let's\" plus verbul de bază: „Let's go home\"."
+      },
+      {
+       "f": "Cum se cere politicos o direcție?",
+       "v": "„Excuse me, how do I get to…?\"."
+      },
+      {
+       "f": "Ce înseamnă „turn left\"?",
+       "v": "A o lua la stânga."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Imperativul negativ corect este:",
+       "optiuni": [
+        "„Don't open the door.\"",
+        "„Not open the door.\"",
+        "„Don't opens the door.\"",
+        "„No open the door.\""
+       ],
+       "corect": 0,
+       "explicatie": "Imperativul negativ folosește „don't\" plus verbul de bază."
+      },
+      {
+       "intrebare": "„______ go to the cinema tonight.\" O sugestie corectă este:",
+       "optiuni": [
+        "Let's",
+        "Let us to",
+        "We let's",
+        "Let's to"
+       ],
+       "corect": 0,
+       "explicatie": "„Let's\" este urmat de verbul de bază, fără „to\"."
+      },
+      {
+       "intrebare": "„How about ______ for a walk?\" Forma corectă este:",
+       "optiuni": [
+        "going",
+        "go",
+        "to go",
+        "goes"
+       ],
+       "corect": 0,
+       "explicatie": "După „how about\" se folosește forma cu -ing."
+      },
+      {
+       "intrebare": "„The pharmacy is ______ the supermarket.\" Pentru „vizavi de\" se folosește:",
+       "optiuni": [
+        "opposite",
+        "between",
+        "through",
+        "along"
+       ],
+       "corect": 0,
+       "explicatie": "„Opposite\" înseamnă vizavi de."
+      }
+     ]
+    },
+    {
+     "id": "eng9-15",
+     "titlu": "Numere, oră, dată și prețuri",
+     "rezumat": "Numerele cardinale (one, two, three…, twenty-one, one hundred, one thousand, a million) arată cantitatea, iar cele ordinale (first, second, third, fourth…, twentieth, twenty-first) arată ordinea și se folosesc la date, etaje și clasamente. După un număr, „hundred\", „thousand\" și „million\" rămân la singular: „two hundred\", nu „two hundreds\". Ora se cere cu „What time is it?\". Se citește: „It's seven o'clock\" (7:00), „It's half past seven\" (7:30), „It's a quarter past seven\" (7:15), „It's a quarter to eight\" (7:45), „It's ten to eight\" (7:50). În stil digital: „seven thirty\". Se adaugă „am\" (dimineața) și „pm\" (după-amiaza). Momentul se introduce cu „at\": „at half past six\". Datele se citesc „the fifth of May\" sau „May the fifth\". Anii: „nineteen ninety-nine\" (1999), „two thousand and five\" (2005), „twenty twenty\" (2020). Prețurile: „£5.50\" = „five pounds fifty\", „€3\" = „three euros\"; se întreabă „How much is it?\". Monede utile: pound (£), dollar ($), euro (€).",
+     "ideiCheie": [
+      "Numere cardinale (one, two…) și ordinale (first, second…, folosite la date și etaje).",
+      "„Hundred\", „thousand\" rămân la singular după un număr: „two hundred\".",
+      "Ora: „half past seven\" (7:30), „a quarter to eight\" (7:45), „ten past nine\" (9:10).",
+      "Anii: „nineteen ninety-nine\", „twenty twenty\"; prețuri: „five pounds fifty\"."
+     ],
+     "termeni": [
+      {
+       "t": "ordinal number",
+       "d": "număr care arată ordinea (first, second, third), folosit și la date"
+      },
+      {
+       "t": "cardinal number",
+       "d": "număr care arată cantitatea (one, two, three)"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se citește ora 7:30?",
+       "v": "„Half past seven\" sau „seven thirty\"."
+      },
+      {
+       "f": "Cum se citește ora 8:45?",
+       "v": "„A quarter to nine\" sau „eight forty-five\"."
+      },
+      {
+       "f": "Cum se spune data de 5 mai?",
+       "v": "„The fifth of May\" sau „May the fifth\"."
+      },
+      {
+       "f": "De ce se spune „two hundred\", nu „two hundreds\"?",
+       "v": "După un număr, „hundred\" rămâne la singular."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Ora 9:15 se citește:",
+       "optiuni": [
+        "„a quarter past nine\"",
+        "„a quarter to nine\"",
+        "„half past nine\"",
+        "„nine to a quarter\""
+       ],
+       "corect": 0,
+       "explicatie": "„Past\" arată minutele trecute după oră; 9:15 = „a quarter past nine\"."
+      },
+      {
+       "intrebare": "Forma corectă este:",
+       "optiuni": [
+        "„three hundred people\"",
+        "„three hundreds people\"",
+        "„three hundred of people\"",
+        "„three hundreds of people\""
+       ],
+       "corect": 0,
+       "explicatie": "După un număr, „hundred\" rămâne la singular."
+      },
+      {
+       "intrebare": "Numărul ordinal pentru „3\" este:",
+       "optiuni": [
+        "third",
+        "three",
+        "thirth",
+        "threeth"
+       ],
+       "corect": 0,
+       "explicatie": "Ordinalele sunt: first, second, third."
+      },
+      {
+       "intrebare": "„______ is this book?\" Pentru a întreba prețul se folosește:",
+       "optiuni": [
+        "How much",
+        "How many",
+        "How long",
+        "What price"
+       ],
+       "corect": 0,
+       "explicatie": "„How much\" întreabă despre preț sau despre o cantitate nenumărabilă."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "eng9-c6",
+   "titlu": "Vocabular tematic și civilizație",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "eng9-16",
+     "titlu": "Sănătate și la medic",
+     "rezumat": "Vocabularul sănătății cuprinde părțile corpului (head, throat, chest, stomach, back) și bolile frecvente: „a headache\" (durere de cap), „a cold\" (răceală), „the flu\" (gripă), „a sore throat\" (durere în gât), „a temperature/fever\" (febră), „a cough\" (tuse). Simptomele se descriu cu „I have a headache\", „I feel sick\", „I feel dizzy\", „It hurts here\". La medic, conversația urmează un tipar: medicul întreabă „What's the matter?\" sau „What seems to be the problem?\", pacientul descrie simptomele, iar medicul dă o „prescription\" (rețetă) și sfaturi: „You should rest\", „Take this medicine twice a day\". Vocabular util: patient, doctor, nurse, pharmacy (chemist's, în engleza britanică), appointment. Sfaturile de sănătate se dau cu verbul modal „should/shouldn't\", urmat de verbul de bază: „You should drink more water\", „You shouldn't smoke\". Un stil de viață sănătos se descrie prin exercise, a balanced diet, enough sleep. Funcțiile comunicative principale ale lecției sunt descrierea simptomelor și cererea sau oferirea de sfaturi.",
+     "ideiCheie": [
+      "Boli frecvente: a headache, a cold, the flu, a sore throat, a cough, a temperature.",
+      "„I have a headache\", „I feel sick\", „It hurts here\" — descrierea simptomelor.",
+      "La medic: „What's the matter?\", „You should rest\", „prescription\", „appointment\".",
+      "„Should/shouldn't\" exprimă sfatul: „You should see a doctor\"."
+     ],
+     "termeni": [
+      {
+       "t": "symptom",
+       "d": "semn al unei boli (headache, cough, fever)"
+      },
+      {
+       "t": "prescription",
+       "d": "rețeta dată de medic pentru medicamente"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se spune „mă doare capul\"?",
+       "v": "„I have a headache\"."
+      },
+      {
+       "f": "Ce întreabă medicul la început?",
+       "v": "„What's the matter?\" sau „What seems to be the problem?\"."
+      },
+      {
+       "f": "Cum se dă un sfat de sănătate?",
+       "v": "Cu „should\": „You should rest\"."
+      },
+      {
+       "f": "Unde se cumpără medicamente în Marea Britanie?",
+       "v": "De la „the chemist's\" (pharmacy)."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„I have ______ headache.\" Articolul corect este:",
+       "optiuni": [
+        "a",
+        "the",
+        "an",
+        "some"
+       ],
+       "corect": 0,
+       "explicatie": "La boli frecvente ca „headache\" sau „cold\" se folosește articolul „a\"."
+      },
+      {
+       "intrebare": "Pentru a da un sfat, forma potrivită este:",
+       "optiuni": [
+        "„You should drink more water.\"",
+        "„You must to drink more water.\"",
+        "„You should to drink more water.\"",
+        "„You drink should water.\""
+       ],
+       "corect": 0,
+       "explicatie": "„Should\" este urmat de verbul de bază, fără „to\"."
+      },
+      {
+       "intrebare": "„What's the ______?\" întreabă medicul despre problemă. Cuvântul potrivit este:",
+       "optiuni": [
+        "matter",
+        "ill",
+        "pain",
+        "sick"
+       ],
+       "corect": 0,
+       "explicatie": "„What's the matter?\" înseamnă „Ce s-a întâmplat? / Ce problemă aveți?\"."
+      },
+      {
+       "intrebare": "„A sore throat\" înseamnă:",
+       "optiuni": [
+        "durere în gât",
+        "durere de cap",
+        "febră",
+        "tuse"
+       ],
+       "corect": 0,
+       "explicatie": "„Throat\" înseamnă gât."
+      }
+     ]
+    },
+    {
+     "id": "eng9-17",
+     "titlu": "Mâncare, cumpărături și la restaurant",
+     "rezumat": "Vocabularul mâncării distinge alimentele numărabile (an apple, two eggs) de cele nenumărabile (bread, rice, water), care se măsoară prin expresii de cantitate: „a bottle of water\", „a glass of milk\", „a piece of cheese\", „a slice of bread\", „a kilo of apples\". Mesele sunt breakfast, lunch și dinner, iar colocațiile fixe sunt „have breakfast\" și „make a cake\". La cumpărături se folosesc formule fixe: „How much is…?\", „How much are…?\", „I'd like…\", „Can I have…?\", iar vânzătorul întreabă „Anything else?\" și încheie cu „Here you are\" și „That'll be…\". Magazine: baker's (brutărie), butcher's (măcelărie), greengrocer's (aprozar), supermarket. La plată apar cash, card, change (rest), receipt (bon). La restaurant, tiparul este previzibil: „A table for two, please\", „Can I see the menu?\", „I'll have…\", pe secțiuni („for starter / main course / dessert\"), iar la final „Could we have the bill, please?\" (engleza britanică) sau „the check\" (engleza americană). Cererile politicoase se fac cu „could\" și „would\".",
+     "ideiCheie": [
+      "Cantități: „a bottle of water\", „a slice of bread\", „a kilo of apples\".",
+      "Cumpărături: „How much is it?\", „I'd like…\", „Can I have…?\", „Anything else?\".",
+      "La restaurant: „A table for two\", „I'll have…\", „Could we have the bill?\".",
+      "Colocații cu mâncarea: „have breakfast\", „make a cake\", nu „do\"."
+     ],
+     "termeni": [
+      {
+       "t": "countable food",
+       "d": "aliment care se poate număra (an apple, two eggs)"
+      },
+      {
+       "t": "uncountable food",
+       "d": "aliment care nu se numără direct (bread, rice, water)"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se cere prețul unui produs?",
+       "v": "„How much is it?\"."
+      },
+      {
+       "f": "Cum se comandă politicos la restaurant?",
+       "v": "„I'll have…\" sau „Could I have…, please?\"."
+      },
+      {
+       "f": "Cum se cere nota de plată în engleza britanică?",
+       "v": "„Could we have the bill, please?\"."
+      },
+      {
+       "f": "Cum se spune „o felie de pâine\"?",
+       "v": "„A slice of bread\"."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„______ is the milk?\" Forma corectă este:",
+       "optiuni": [
+        "How much",
+        "How many",
+        "How long",
+        "How old"
+       ],
+       "corect": 0,
+       "explicatie": "„Milk\" este nenumărabil, deci „how much\"."
+      },
+      {
+       "intrebare": "La restaurant, pentru a comanda se spune:",
+       "optiuni": [
+        "„I'll have the soup, please.\"",
+        "„I have want the soup.\"",
+        "„Give me soup.\"",
+        "„I take soup now.\""
+       ],
+       "corect": 0,
+       "explicatie": "„I'll have…\" este formula obișnuită și politicoasă de comandă."
+      },
+      {
+       "intrebare": "„A ______ of water\", forma corectă este:",
+       "optiuni": [
+        "bottle",
+        "slice",
+        "loaf",
+        "bar"
+       ],
+       "corect": 0,
+       "explicatie": "„Slice\" este pentru pâine, „bar\" pentru ciocolată; apa se măsoară în „a bottle\" sau „a glass\"."
+      },
+      {
+       "intrebare": "Colocația corectă este:",
+       "optiuni": [
+        "„have breakfast\"",
+        "„do breakfast\"",
+        "„take breakfast\"",
+        "„give breakfast\""
+       ],
+       "corect": 0,
+       "explicatie": "„Have breakfast\" înseamnă a lua micul dejun."
+      }
+     ]
+    },
+    {
+     "id": "eng9-18",
+     "titlu": "Lumea vorbitoare de engleză",
+     "rezumat": "Engleza este o limbă globală: limbă oficială sau principală în Regatul Unit, Irlanda, Statele Unite ale Americii, Canada, Australia și Noua Zeelandă și limbă oficială în multe alte state (India, Nigeria, Africa de Sud). Este cea mai folosită limbă secundă din lume și limba principală a comunicării internaționale, a științei, a aviației și a internetului. Regatul Unit (the United Kingdom) este format din Anglia, Scoția, Țara Galilor și Irlanda de Nord; capitala este Londra. „Great Britain\" (Marea Britanie) desemnează insula pe care se află Anglia, Scoția și Țara Galilor. Statele Unite au 50 de state; capitala este Washington, D.C., iar cel mai mare oraș este New York. Drapelul britanic se numește „the Union Jack\", iar cel american „the Stars and Stripes\". Engleza britanică și cea americană diferă în ortografie (colour/color, centre/center, organise/organize), în vocabular (lift/elevator, flat/apartment, holiday/vacation, football/soccer) și, uneori, în pronunție. Ambele variante sunt corecte; important este să fie folosite consecvent în același text. O notă culturală: conversația de complezență despre vreme („small talk\") este o formă obișnuită de politețe.",
+     "ideiCheie": [
+      "Engleza este limbă oficială sau principală în UK, SUA, Canada, Australia, Irlanda, Noua Zeelandă.",
+      "Regatul Unit = Anglia, Scoția, Țara Galilor, Irlanda de Nord; capitala Londra.",
+      "SUA are 50 de state; capitala Washington, D.C.; cel mai mare oraș, New York.",
+      "Engleza britanică și cea americană diferă în ortografie și vocabular (colour/color, lift/elevator)."
+     ],
+     "termeni": [
+      {
+       "t": "the United Kingdom",
+       "d": "statul format din Anglia, Scoția, Țara Galilor și Irlanda de Nord"
+      },
+      {
+       "t": "British vs American English",
+       "d": "cele două variante principale ale englezei, cu mici diferențe de ortografie și vocabular"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Din ce părți este format Regatul Unit?",
+       "v": "Anglia, Scoția, Țara Galilor și Irlanda de Nord."
+      },
+      {
+       "f": "Care este capitala Statelor Unite?",
+       "v": "Washington, D.C."
+      },
+      {
+       "f": "Cum se scrie „culoare\" în engleza britanică și în cea americană?",
+       "v": "„Colour\" (britanică), „color\" (americană)."
+      },
+      {
+       "f": "Cum se spune „apartament\" în engleza britanică și americană?",
+       "v": "„Flat\" (britanică), „apartment\" (americană)."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Capitala Regatului Unit este:",
+       "optiuni": [
+        "Londra",
+        "Washington",
+        "Edinburgh",
+        "Dublin"
+       ],
+       "corect": 0,
+       "explicatie": "Edinburgh este capitala Scoției, iar Dublin a Irlandei."
+      },
+      {
+       "intrebare": "Ortografia britanică a cuvântului „center\" este:",
+       "optiuni": [
+        "centre",
+        "center",
+        "centro",
+        "centr"
+       ],
+       "corect": 0,
+       "explicatie": "Engleza britanică inversează „-er\" în „-re\": centre, theatre."
+      },
+      {
+       "intrebare": "„Lift\", în engleza britanică, corespunde în cea americană cuvântului:",
+       "optiuni": [
+        "elevator",
+        "stairs",
+        "floor",
+        "ladder"
+       ],
+       "corect": 0,
+       "explicatie": "„Lift\" (britanică) = „elevator\" (americană)."
+      },
+      {
+       "intrebare": "Regatul Unit NU include:",
+       "optiuni": [
+        "Republica Irlanda",
+        "Anglia",
+        "Scoția",
+        "Țara Galilor"
+       ],
+       "corect": 0,
+       "explicatie": "Republica Irlanda este stat independent; doar Irlanda de Nord face parte din Regatul Unit."
+      }
+     ]
+    }
+   ]
   }
  ],
  "teze": [
   {
    "semestru": 1,
    "test": [
+    {
+     "intrebare": "„This bag is ______; the other one is yours.\"",
+     "optiuni": [
+      "mine",
+      "my",
+      "me",
+      "mine's"
+     ],
+     "corect": 0,
+     "explicatie": "Pronumele posesiv „mine\" stă singur."
+    },
+    {
+     "intrebare": "„We have English ______ Friday.\" Prepoziția corectă este:",
+     "optiuni": [
+      "on",
+      "in",
+      "at",
+      "to"
+     ],
+     "corect": 0,
+     "explicatie": "Zilele săptămânii cer „on\"."
+    },
+    {
+     "intrebare": "„______ some milk in the fridge.\" Forma corectă este:",
+     "optiuni": [
+      "There is",
+      "There are",
+      "It is",
+      "There have"
+     ],
+     "corect": 0,
+     "explicatie": "„Milk\" este nenumărabil, deci „there is\"."
+    },
+    {
+     "intrebare": "În propoziții negative se folosește:",
+     "optiuni": [
+      "any",
+      "some",
+      "a lot",
+      "a few"
+     ],
+     "corect": 0,
+     "explicatie": "„I don't have any money.\""
+    },
+    {
+     "intrebare": "Un sfat de sănătate se dă corect astfel:",
+     "optiuni": [
+      "„You should rest.\"",
+      "„You should to rest.\"",
+      "„You must resting.\"",
+      "„You rest should.\""
+     ],
+     "corect": 0,
+     "explicatie": "„Should\" este urmat de verbul de bază."
+    },
+    {
+     "intrebare": "Capitala Statelor Unite ale Americii este:",
+     "optiuni": [
+      "Washington, D.C.",
+      "New York",
+      "Los Angeles",
+      "Londra"
+     ],
+     "corect": 0,
+     "explicatie": "New York este cel mai mare oraș, dar nu capitala."
+    },
     {
      "intrebare": "Present Simple se folosește pentru:",
      "optiuni": [
@@ -935,6 +1791,72 @@
   {
    "semestru": 2,
    "test": [
+    {
+     "intrebare": "Răspunsul scurt corect la „Do you speak English?\" este:",
+     "optiuni": [
+      "„Yes, I do.\"",
+      "„Yes, I speak.\"",
+      "„Yes, I am.\"",
+      "„Yes, I can.\""
+     ],
+     "corect": 0,
+     "explicatie": "Răspunsul scurt reia auxiliarul „do\"."
+    },
+    {
+     "intrebare": "„______ wrote this letter?\" (cine, ca subiect) Forma corectă este:",
+     "optiuni": [
+      "Who",
+      "Who did",
+      "Whom",
+      "What did"
+     ],
+     "corect": 0,
+     "explicatie": "Când „who\" este subiect, nu se folosește auxiliar."
+    },
+    {
+     "intrebare": "Imperativul negativ corect este:",
+     "optiuni": [
+      "„Don't be late.\"",
+      "„Not be late.\"",
+      "„Don't to be late.\"",
+      "„No be late.\""
+     ],
+     "corect": 0,
+     "explicatie": "Imperativul negativ folosește „don't\" plus verbul de bază."
+    },
+    {
+     "intrebare": "O sugestie corectă este:",
+     "optiuni": [
+      "„Let's watch a film.\"",
+      "„Let's to watch a film.\"",
+      "„Let us watching a film.\"",
+      "„We let's watch a film.\""
+     ],
+     "corect": 0,
+     "explicatie": "„Let's\" este urmat de verbul de bază."
+    },
+    {
+     "intrebare": "Ora 10:30 se citește:",
+     "optiuni": [
+      "„half past ten\"",
+      "„half to ten\"",
+      "„ten past half\"",
+      "„a quarter past ten\""
+     ],
+     "corect": 0,
+     "explicatie": "„Half past ten\" înseamnă 10:30."
+    },
+    {
+     "intrebare": "Forma corectă este:",
+     "optiuni": [
+      "„two hundred euros\"",
+      "„two hundreds euros\"",
+      "„two hundred of euros\"",
+      "„two hundreds of euros\""
+     ],
+     "corect": 0,
+     "explicatie": "După un număr, „hundred\" rămâne la singular."
+    },
     {
      "intrebare": "Verbele modale sunt urmate de:",
      "optiuni": [

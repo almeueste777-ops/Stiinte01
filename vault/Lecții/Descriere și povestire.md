@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Descriere și povestire
 
-[[Limba modernă 2 (Franceză) (clasa a X-a)|Limba modernă 2 (Franceză)]] · [[Clasa a X-a]] · lecția 8 din 9
+[[Limba modernă 2 (Franceză) (clasa a X-a)|Limba modernă 2 (Franceză)]] · [[Clasa a X-a]] · lecția 8 din 18
 
 **Capitolul:** Comunicare și vocabular — semestrul 2
 

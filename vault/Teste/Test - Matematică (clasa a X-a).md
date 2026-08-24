@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Matematică (clasa a X-a)
 
-54 întrebări din [[Matematică (clasa a X-a)|Matematică (clasa a X-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+102 întrebări din [[Matematică (clasa a X-a)|Matematică (clasa a X-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Imaginea funcției exponențiale este:
 
@@ -441,7 +441,511 @@ cssclasses: test
 > 
 > Cei care răspund diferă sistematic de cei care nu răspund.
 
-### 37. Baza unei funcții exponențiale trebuie să fie:
+### 37. Funcția f de x egal cu x la pătrat este:
+
+- a. pară, cu graficul simetric față de axa verticală
+- b. impară, cu graficul simetric față de origine
+- c. fără simetrie
+- d. strict descrescătoare pe tot domeniul
+
+> [!success]- Răspuns
+> **a. pară, cu graficul simetric față de axa verticală**
+> 
+> Valorile ei sunt nenegative.
+
+### 38. Funcția radical de ordin par este definită pentru:
+
+- a. numere nenegative
+- b. orice număr real
+- c. numere negative
+- d. numere întregi
+
+> [!success]- Răspuns
+> **a. numere nenegative**
+> 
+> O putere pară nu poate fi negativă.
+
+### 39. Funcția f de x egal cu x la cub este:
+
+- a. impară, cu graficul simetric față de origine
+- b. pară
+- c. fără simetrie
+- d. constantă
+
+> [!success]- Răspuns
+> **a. impară, cu graficul simetric față de origine**
+> 
+> Ia atât valori pozitive, cât și negative.
+
+### 40. Funcția radical este inversa:
+
+- a. funcției putere
+- b. funcției exponențiale
+- c. funcției de gradul I
+- d. funcției logaritmice
+
+> [!success]- Răspuns
+> **a. funcției putere**
+> 
+> De aceea „desface" ridicarea la putere.
+
+### 41. Imaginea funcției sinus este intervalul:
+
+- a. de la minus unu la unu
+- b. de la zero la unu
+- c. toate numerele reale
+- d. de la minus doi la doi
+
+> [!success]- Răspuns
+> **a. de la minus unu la unu**
+> 
+> Valorile sinusului nu ies din acest interval.
+
+### 42. Perioada principală a funcției sinus este:
+
+- a. doi pi
+- b. pi
+- c. pi supra doi
+- d. 1
+
+> [!success]- Răspuns
+> **a. doi pi**
+> 
+> Valorile se reiau la fiecare rotație completă.
+
+### 43. Funcția cosinus este:
+
+- a. pară
+- b. impară
+- c. neperiodică
+- d. strict crescătoare
+
+> [!success]- Răspuns
+> **a. pară**
+> 
+> Sinusul, în schimb, este impar.
+
+### 44. Valoarea maximă pe care o poate lua funcția cosinus este:
+
+- a. 1
+- b. 0
+- c. doi pi
+- d. infinit
+
+> [!success]- Răspuns
+> **a. 1**
+> 
+> Cosinusul ia valori între minus unu și unu.
+
+### 45. Ecuația sinus de x egal a are soluții reale doar dacă:
+
+- a. a este cuprins între minus unu și unu
+- b. a este orice număr real
+- c. a este mai mare decât unu
+- d. a este întreg
+
+> [!success]- Răspuns
+> **a. a este cuprins între minus unu și unu**
+> 
+> Sinusul nu iese din intervalul de la minus unu la unu.
+
+### 46. Ecuația cosinus de x egal unu are soluțiile:
+
+- a. multiplii lui doi pi
+- b. multiplii lui pi
+- c. pi supra doi plus multiplii lui pi
+- d. doar zero
+
+> [!success]- Răspuns
+> **a. multiplii lui doi pi**
+> 
+> Cosinusul este unu la fiecare rotație completă.
+
+### 47. Ecuația sinus de x egal zero are soluțiile:
+
+- a. multiplii lui pi
+- b. multiplii lui doi pi
+- c. pi supra doi plus multiplii lui pi
+- d. doar unu
+
+> [!success]- Răspuns
+> **a. multiplii lui pi**
+> 
+> Sinusul se anulează la fiecare jumătate de rotație.
+
+### 48. Ecuația sinus de x egal 2:
+
+- a. nu are soluții reale
+- b. are o singură soluție
+- c. are exact două soluții
+- d. are soluțiile multiplii lui pi
+
+> [!success]- Răspuns
+> **a. nu are soluții reale**
+> 
+> Numărul 2 nu este în intervalul de la minus unu la unu.
+
+### 49. Unitatea imaginară i satisface relația:
+
+- a. i la pătrat egal minus unu
+- b. i la pătrat egal unu
+- c. i egal zero
+- d. i la pătrat egal i
+
+> [!success]- Răspuns
+> **a. i la pătrat egal minus unu**
+> 
+> Pe această proprietate se construiesc numerele complexe.
+
+### 50. În numărul complex z egal a plus b ori i, partea reală este:
+
+- a. a
+- b. b
+- c. b ori i
+- d. a plus b
+
+> [!success]- Răspuns
+> **a. a**
+> 
+> b este partea imaginară.
+
+### 51. Valoarea lui i la puterea a patra este:
+
+- a. 1
+- b. minus 1
+- c. i
+- d. minus i
+
+> [!success]- Răspuns
+> **a. 1**
+> 
+> i la pătrat este minus unu, deci i la a patra este unu.
+
+### 52. Suma numerelor complexe 2 plus 3i și 1 minus i este:
+
+- a. 3 plus 2i
+- b. 3 plus 4i
+- c. 1 plus 2i
+- d. 2 plus 3i
+
+> [!success]- Răspuns
+> **a. 3 plus 2i**
+> 
+> Se adună separat: 2 plus 1 și 3i minus i.
+
+### 53. Conjugatul numărului complex 3 plus 4i este:
+
+- a. 3 minus 4i
+- b. minus 3 plus 4i
+- c. 4 plus 3i
+- d. 3 plus 4i
+
+> [!success]- Răspuns
+> **a. 3 minus 4i**
+> 
+> Se schimbă doar semnul părții imaginare.
+
+### 54. Modulul numărului complex 3 plus 4i este:
+
+- a. 5
+- b. 7
+- c. 25
+- d. 1
+
+> [!success]- Răspuns
+> **a. 5**
+> 
+> Rădăcina din 3 la pătrat plus 4 la pătrat, adică din 25.
+
+### 55. Produsul dintre un număr complex și conjugatul său este:
+
+- a. un număr real, egal cu pătratul modulului
+- b. întotdeauna zero
+- c. un număr pur imaginar
+- d. egal cu numărul complex
+
+> [!success]- Răspuns
+> **a. un număr real, egal cu pătratul modulului**
+> 
+> Părțile imaginare se anulează.
+
+### 56. Forma trigonometrică a unui număr complex folosește:
+
+- a. modulul și argumentul lui
+- b. doar partea reală
+- c. doar partea imaginară
+- d. două module diferite
+
+> [!success]- Răspuns
+> **a. modulul și argumentul lui**
+> 
+> Se scrie ca modulul înmulțit cu cosinusul plus i sinusul argumentului.
+
+### 57. În mulțimea numerelor complexe, ecuația x la pătrat plus unu egal zero are soluțiile:
+
+- a. i și minus i
+- b. unu și minus unu
+- c. doar zero
+- d. niciuna
+
+> [!success]- Răspuns
+> **a. i și minus i**
+> 
+> Pentru că pătratul lui i este minus unu.
+
+### 58. Dacă discriminantul unei ecuații de gradul al doilea cu coeficienți reali este negativ, ecuația are:
+
+- a. două soluții complexe conjugate
+- b. două soluții reale distincte
+- c. o singură soluție reală
+- d. nicio soluție, nici măcar complexă
+
+> [!success]- Răspuns
+> **a. două soluții complexe conjugate**
+> 
+> În complex, orice ecuație pătratică are soluții.
+
+### 59. Ecuația x la pătrat egal minus patru are, în mulțimea complexă, soluțiile:
+
+- a. doi i și minus doi i
+- b. doi și minus doi
+- c. patru i
+- d. niciuna
+
+> [!success]- Răspuns
+> **a. doi i și minus doi i**
+> 
+> Pentru că pătratul lui doi i este minus patru.
+
+### 60. În mulțimea numerelor complexe, orice ecuație de gradul al doilea:
+
+- a. are soluții
+- b. nu are niciodată soluții
+- c. are soluții doar dacă discriminantul e pozitiv
+- d. are o singură soluție
+
+> [!success]- Răspuns
+> **a. are soluții**
+> 
+> Aceasta a fost motivația extinderii numerelor.
+
+### 61. Vectorul determinat de punctele A(1, 2) și B(4, 6) are componentele:
+
+- a. (3, 4)
+- b. (5, 8)
+- c. (4, 6)
+- d. (1, 2)
+
+> [!success]- Răspuns
+> **a. (3, 4)**
+> 
+> Se scad coordonatele: 4 minus 1 și 6 minus 2.
+
+### 62. Modulul vectorului de componente (3, 4) este:
+
+- a. 5
+- b. 7
+- c. 12
+- d. 25
+
+> [!success]- Răspuns
+> **a. 5**
+> 
+> Rădăcina din 3 la pătrat plus 4 la pătrat.
+
+### 63. Produsul scalar al vectorilor de componente (1, 2) și (3, 4) este:
+
+- a. 11
+- b. 10
+- c. 7
+- d. 24
+
+> [!success]- Răspuns
+> **a. 11**
+> 
+> 1 ori 3 plus 2 ori 4, adică 3 plus 8.
+
+### 64. Doi vectori nenuli sunt perpendiculari dacă produsul lor scalar este:
+
+- a. 0
+- b. 1
+- c. egal cu produsul modulelor
+- d. negativ
+
+> [!success]- Răspuns
+> **a. 0**
+> 
+> Cosinusul unghiului drept este zero.
+
+### 65. Panta dreptei care trece prin punctele (1, 1) și (3, 5) este:
+
+- a. 2
+- b. 3
+- c. 4
+- d. o jumătate
+
+> [!success]- Răspuns
+> **a. 2**
+> 
+> Diferența ordonatelor, 5 minus 1, supra diferența absciselor, 3 minus 1.
+
+### 66. Două drepte cu pantele 2 și minus o jumătate sunt:
+
+- a. perpendiculare
+- b. paralele
+- c. confundate
+- d. fără intersecție
+
+> [!success]- Răspuns
+> **a. perpendiculare**
+> 
+> Produsul pantelor este minus unu.
+
+### 67. Forma generală a ecuației unei drepte este:
+
+- a. a ori x plus b ori y plus c egal zero
+- b. y egal x la pătrat
+- c. x la pătrat plus y la pătrat egal r la pătrat
+- d. y egal a la puterea x
+
+> [!success]- Răspuns
+> **a. a ori x plus b ori y plus c egal zero**
+> 
+> Ultimele descriu o parabolă, un cerc și o exponențială.
+
+### 68. Dreapta y egal minus doi ori x plus trei taie axa verticală în punctul:
+
+- a. (0, 3)
+- b. (3, 0)
+- c. (0, minus 2)
+- d. (minus 2, 3)
+
+> [!success]- Răspuns
+> **a. (0, 3)**
+> 
+> Ordonata la origine este termenul liber, 3.
+
+### 69. Ecuația cercului cu centrul în origine și raza 3 este:
+
+- a. pătratul lui x plus pătratul lui y egal 9
+- b. pătratul lui x plus pătratul lui y egal 3
+- c. x plus y egal 3
+- d. pătratul lui x minus pătratul lui y egal 9
+
+> [!success]- Răspuns
+> **a. pătratul lui x plus pătratul lui y egal 9**
+> 
+> Raza la pătrat este 9.
+
+### 70. Cercul de ecuație (x minus 1) la pătrat plus (y plus 2) la pătrat egal 16 are:
+
+- a. centrul în (1, minus 2) și raza 4
+- b. centrul în (minus 1, 2) și raza 16
+- c. centrul în (1, 2) și raza 4
+- d. centrul în origine și raza 16
+
+> [!success]- Răspuns
+> **a. centrul în (1, minus 2) și raza 4**
+> 
+> Raza este rădăcina din 16.
+
+### 71. O dreaptă este tangentă la un cerc dacă distanța de la centru la dreaptă este:
+
+- a. egală cu raza
+- b. mai mare decât raza
+- c. mai mică decât raza
+- d. nulă
+
+> [!success]- Răspuns
+> **a. egală cu raza**
+> 
+> Distanța mai mică dă o dreaptă secantă.
+
+### 72. Raza cercului de ecuație pătratul lui x plus pătratul lui y egal 25 este:
+
+- a. 5
+- b. 25
+- c. 10
+- d. 12,5
+
+> [!success]- Răspuns
+> **a. 5**
+> 
+> Raza este rădăcina din 25.
+
+### 73. Funcția f de x egal cu x la pătrat este:
+
+- a. pară, cu graficul simetric față de axa verticală
+- b. impară, cu graficul simetric față de origine
+- c. fără simetrie
+- d. strict descrescătoare peste tot
+
+> [!success]- Răspuns
+> **a. pară, cu graficul simetric față de axa verticală**
+> 
+> Valorile ei sunt nenegative.
+
+### 74. Funcția radical de ordin par este definită pentru:
+
+- a. numere nenegative
+- b. orice număr real
+- c. numere negative
+- d. numere întregi
+
+> [!success]- Răspuns
+> **a. numere nenegative**
+> 
+> O putere pară nu poate fi negativă.
+
+### 75. Imaginea funcției sinus este intervalul:
+
+- a. de la minus unu la unu
+- b. de la zero la unu
+- c. toate numerele reale
+- d. de la minus doi la doi
+
+> [!success]- Răspuns
+> **a. de la minus unu la unu**
+> 
+> Valorile sinusului nu ies din acest interval.
+
+### 76. Perioada principală a funcției cosinus este:
+
+- a. doi pi
+- b. pi
+- c. pi supra doi
+- d. 1
+
+> [!success]- Răspuns
+> **a. doi pi**
+> 
+> Valorile se reiau la fiecare rotație completă.
+
+### 77. Ecuația sinus de x egal 2:
+
+- a. nu are soluții reale
+- b. are o singură soluție
+- c. are exact două soluții
+- d. are o infinitate de soluții
+
+> [!success]- Răspuns
+> **a. nu are soluții reale**
+> 
+> Numărul 2 nu este în intervalul de la minus unu la unu.
+
+### 78. Funcția f de x egal cu x la cub este:
+
+- a. impară, cu graficul simetric față de origine
+- b. pară
+- c. constantă
+- d. fără simetrie
+
+> [!success]- Răspuns
+> **a. impară, cu graficul simetric față de origine**
+> 
+> Ia atât valori pozitive, cât și negative.
+
+### 79. Baza unei funcții exponențiale trebuie să fie:
 
 - a. strict pozitivă și diferită de 1
 - b. orice număr real
@@ -453,7 +957,7 @@ cssclasses: test
 > 
 > Altfel funcția nu ar fi bine definită.
 
-### 38. Graficul funcției logaritmice trece prin:
+### 80. Graficul funcției logaritmice trece prin:
 
 - a. (1, 0)
 - b. (0, 1)
@@ -465,7 +969,7 @@ cssclasses: test
 > 
 > Exponențiala trece prin (0, 1).
 
-### 39. La bază subunitară, inecuația exponențială:
+### 81. La bază subunitară, inecuația exponențială:
 
 - a. își schimbă sensul
 - b. își păstrează sensul
@@ -477,7 +981,7 @@ cssclasses: test
 > 
 > Funcția este descrescătoare.
 
-### 40. Logaritmul în baza 2 al lui 32 este:
+### 82. Logaritmul în baza 2 al lui 32 este:
 
 - a. 5
 - b. 4
@@ -489,7 +993,7 @@ cssclasses: test
 > 
 > 2 la puterea 5 este 32.
 
-### 41. Permutările a 4 obiecte sunt în număr de:
+### 83. Permutările a 4 obiecte sunt în număr de:
 
 - a. 24
 - b. 12
@@ -501,7 +1005,7 @@ cssclasses: test
 > 
 > 4 factorial.
 
-### 42. Când ordinea nu contează se folosesc:
+### 84. Când ordinea nu contează se folosesc:
 
 - a. combinări
 - b. aranjamente
@@ -513,7 +1017,7 @@ cssclasses: test
 > 
 > Aranjamentele iau în calcul ordinea.
 
-### 43. Probabilitatea unui eveniment este întotdeauna:
+### 85. Probabilitatea unui eveniment este întotdeauna:
 
 - a. între 0 și 1
 - b. mai mare decât 1
@@ -525,7 +1029,7 @@ cssclasses: test
 > 
 > 0 înseamnă imposibil, 1 înseamnă sigur.
 
-### 44. Probabilitatea evenimentului contrar se calculează:
+### 86. Probabilitatea evenimentului contrar se calculează:
 
 - a. 1 minus probabilitatea evenimentului
 - b. 1 împărțit la probabilitate
@@ -537,7 +1041,7 @@ cssclasses: test
 > 
 > Suma celor două este 1.
 
-### 45. Mediana este preferată mediei când:
+### 87. Mediana este preferată mediei când:
 
 - a. există valori extreme
 - b. datele sunt simetrice
@@ -549,7 +1053,79 @@ cssclasses: test
 > 
 > Media e trasă de extreme.
 
-### 46. Abaterea standard măsoară:
+### 88. Unitatea imaginară i satisface relația:
+
+- a. i la pătrat egal minus unu
+- b. i la pătrat egal unu
+- c. i egal zero
+- d. i la pătrat egal i
+
+> [!success]- Răspuns
+> **a. i la pătrat egal minus unu**
+> 
+> Pe ea se construiesc numerele complexe.
+
+### 89. Modulul numărului complex 3 plus 4i este:
+
+- a. 5
+- b. 7
+- c. 25
+- d. 1
+
+> [!success]- Răspuns
+> **a. 5**
+> 
+> Rădăcina din 3 la pătrat plus 4 la pătrat.
+
+### 90. Conjugatul numărului complex 3 plus 4i este:
+
+- a. 3 minus 4i
+- b. minus 3 plus 4i
+- c. 4 plus 3i
+- d. 3 plus 4i
+
+> [!success]- Răspuns
+> **a. 3 minus 4i**
+> 
+> Se schimbă doar semnul părții imaginare.
+
+### 91. În mulțimea numerelor complexe, ecuația x la pătrat plus unu egal zero are soluțiile:
+
+- a. i și minus i
+- b. unu și minus unu
+- c. doar zero
+- d. niciuna
+
+> [!success]- Răspuns
+> **a. i și minus i**
+> 
+> Pentru că pătratul lui i este minus unu.
+
+### 92. Ecuația cercului cu centrul în origine și raza 3 este:
+
+- a. pătratul lui x plus pătratul lui y egal 9
+- b. pătratul lui x plus pătratul lui y egal 3
+- c. x plus y egal 3
+- d. pătratul lui x minus pătratul lui y egal 9
+
+> [!success]- Răspuns
+> **a. pătratul lui x plus pătratul lui y egal 9**
+> 
+> Raza la pătrat este 9.
+
+### 93. Produsul scalar al vectorilor de componente (1, 2) și (3, 4) este:
+
+- a. 11
+- b. 10
+- c. 7
+- d. 24
+
+> [!success]- Răspuns
+> **a. 11**
+> 
+> 1 ori 3 plus 2 ori 4, adică 3 plus 8.
+
+### 94. Abaterea standard măsoară:
 
 - a. împrăștierea datelor față de medie
 - b. tendința centrală
@@ -561,7 +1137,7 @@ cssclasses: test
 > 
 > Media și mediana măsoară tendința centrală.
 
-### 47. O creștere de 20% urmată de o scădere de 20% dă:
+### 95. O creștere de 20% urmată de o scădere de 20% dă:
 
 - a. 96% din valoarea inițială
 - b. 100%
@@ -573,7 +1149,7 @@ cssclasses: test
 > 
 > Procentele se aplică la baze diferite.
 
-### 48. Dobânda compusă se calculează la:
+### 96. Dobânda compusă se calculează la:
 
 - a. suma acumulată
 - b. suma inițială, mereu
@@ -585,7 +1161,7 @@ cssclasses: test
 > 
 > De aceea crește geometric.
 
-### 49. Randamentul real se obține scăzând din cel nominal:
+### 97. Randamentul real se obține scăzând din cel nominal:
 
 - a. rata inflației
 - b. rata dobânzii
@@ -597,7 +1173,7 @@ cssclasses: test
 > 
 > Inflația reduce puterea de cumpărare.
 
-### 50. Modelul logistic se deosebește de cel exponențial prin:
+### 98. Modelul logistic se deosebește de cel exponențial prin:
 
 - a. existența unui plafon
 - b. creșterea mai rapidă
@@ -609,7 +1185,7 @@ cssclasses: test
 > 
 > Plafonul se numește capacitate de suport.
 
-### 51. Diferențe succesive constante într-o serie de date indică:
+### 99. Diferențe succesive constante într-o serie de date indică:
 
 - a. un model liniar
 - b. un model exponențial
@@ -621,7 +1197,7 @@ cssclasses: test
 > 
 > Rapoartele constante indică exponențial.
 
-### 52. Un contraexemplu:
+### 100. Un contraexemplu:
 
 - a. respinge o afirmație universală
 - b. demonstrează o afirmație universală
@@ -633,7 +1209,7 @@ cssclasses: test
 > 
 > Exemplele nu demonstrează afirmații universale.
 
-### 53. Inducția matematică are:
+### 101. Inducția matematică are:
 
 - a. un pas de bază și un pas de trecere
 - b. doar un pas de verificare
@@ -645,7 +1221,7 @@ cssclasses: test
 > 
 > Pasul de trecere merge de la n la n+1.
 
-### 54. Corelația dintre două variabile:
+### 102. Corelația dintre două variabile:
 
 - a. nu implică automat cauzalitate
 - b. demonstrează cauzalitatea

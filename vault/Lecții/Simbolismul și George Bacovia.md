@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Simbolismul și George Bacovia
 
-[[Limba și literatura română (clasa a XI-a)|Limba și literatura română]] · [[Clasa a XI-a]] · lecția 8 din 9
+[[Limba și literatura română (clasa a XI-a)|Limba și literatura română]] · [[Clasa a XI-a]] · lecția 8 din 20
 
 **Capitolul:** Modernitatea timpurie — semestrul 2
 

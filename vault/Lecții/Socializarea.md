@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Socializarea
 
-[[Sociologie (clasa a XI-a)|Sociologie]] · [[Clasa a XI-a]] · lecția 8 din 14
+[[Sociologie (clasa a XI-a)|Sociologie]] · [[Clasa a XI-a]] · lecția 8 din 24
 
 **Capitolul:** Socializare, normă, devianță — semestrul 2
 

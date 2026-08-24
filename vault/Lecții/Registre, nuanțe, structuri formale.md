@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Registre, nuanțe, structuri formale
 
-[[Limba modernă 1 (Engleză) (clasa a XI-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XI-a]] · lecția 3 din 9
+[[Limba modernă 1 (Engleză) (clasa a XI-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XI-a]] · lecția 3 din 18
 
 **Capitolul:** Structuri avansate — semestrul 1
 

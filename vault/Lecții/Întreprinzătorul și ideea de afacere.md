@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Întreprinzătorul și ideea de afacere
 
-[[Economie și educație antreprenorială (clasa a XIII-a)|Economie și educație antreprenorială]] · [[Clasa a XIII-a]] · lecția 10 din 12
+[[Economie și educație antreprenorială (clasa a XIII-a)|Economie și educație antreprenorială]] · [[Clasa a XIII-a]] · lecția 10 din 24
 
 **Capitolul:** Educație antreprenorială — semestrul 2
 

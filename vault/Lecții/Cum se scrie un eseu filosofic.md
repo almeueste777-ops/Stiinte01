@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Cum se scrie un eseu filosofic
 
-[[Filosofie (clasa a XIII-a)|Filosofie]] · [[Clasa a XIII-a]] · lecția 8 din 9
+[[Filosofie (clasa a XIII-a)|Filosofie]] · [[Clasa a XIII-a]] · lecția 8 din 22
 
 **Capitolul:** Eseul filosofic și bacalaureatul — semestrul 2
 

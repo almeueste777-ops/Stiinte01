@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Marketing, resurse umane, etică în afaceri
 
-[[Economie și educație antreprenorială (clasa a XIII-a)|Economie și educație antreprenorială]] · [[Clasa a XIII-a]] · lecția 12 din 12
+[[Economie și educație antreprenorială (clasa a XIII-a)|Economie și educație antreprenorială]] · [[Clasa a XIII-a]] · lecția 12 din 24
 
 **Capitolul:** Educație antreprenorială — semestrul 2
 
@@ -29,6 +29,6 @@ Marketingul înseamnă identificarea și satisfacerea profitabilă a nevoilor cl
 
 ---
 
-⬅ [[Planul de afaceri și finanțarea]]
+⬅ [[Planul de afaceri și finanțarea]] · [[Produsul intern brut și indicatorii macroeconomici]] ➡
 
 Exersează: [[Carduri - Economie și educație antreprenorială (clasa a XIII-a)]] · [[Test - Economie și educație antreprenorială (clasa a XIII-a)]]

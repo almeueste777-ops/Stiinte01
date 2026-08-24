@@ -792,12 +792,694 @@
      ]
     }
    ]
+  },
+  {
+   "id": "tic12-c4",
+   "titlu": "Instrumente de birou",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "tic12-10",
+     "titlu": "Procesorul de text",
+     "rezumat": "Procesorul de text (Word, Writer, Google Docs) creează documente formatate. Formatarea la nivel de caracter cuprinde font, dimensiune, îngroșat, cursiv, subliniat, culoare; cea la nivel de paragraf cuprinde aliniere, spațiere, indentare, liste. Stilurile aplică o formatare consecventă și permit generarea automată a cuprinsului, fiind cheia documentelor lungi și îngrijite. Alte instrumente: inserarea de imagini și tabele, antet și subsol, numerotarea paginilor, corectarea ortografică, îmbinarea corespondenței (mail merge). Un document bine structurat folosește stiluri, nu formatări manuale repetate. Salvarea în formate standard (DOCX, PDF, ODT) și organizarea în fișiere și foldere fac documentul ușor de partajat și de regăsit, iar scurtăturile de tastatură (Ctrl+C, Ctrl+V, Ctrl+Z) grăbesc lucrul.",
+     "ideiCheie": [
+      "Formatare la nivel de caracter (font) și de paragraf (aliniere, spațiere).",
+      "Stilurile dau consecvență și generează automat cuprinsul.",
+      "Instrumente: imagini, tabele, antet/subsol, numerotare, mail merge.",
+      "Salvare în formate standard: DOCX, PDF, ODT."
+     ],
+     "termeni": [
+      {
+       "t": "stil (procesor de text)",
+       "d": "set de formatări aplicat unitar, care asigură consecvența documentului"
+      },
+      {
+       "t": "mail merge",
+       "d": "îmbinarea unui document tip cu o listă de date, pentru scrisori personalizate"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce avantaj dau stilurile într-un document?",
+       "v": "Consecvența și generarea automată a cuprinsului."
+      },
+      {
+       "f": "Ce este mail merge?",
+       "v": "Îmbinarea unui document tip cu o listă de date."
+      },
+      {
+       "f": "Numește un format standard de document.",
+       "v": "DOCX (sau PDF, ODT)."
+      },
+      {
+       "f": "La ce nivel se face alinierea?",
+       "v": "La nivel de paragraf."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Generarea automată a cuprinsului se bazează pe:",
+       "optiuni": [
+        "stiluri",
+        "culoarea textului",
+        "numărul de pagini",
+        "font"
+       ],
+       "corect": 0,
+       "explicatie": "Stilurile de titlu structurează documentul."
+      },
+      {
+       "intrebare": "Formatarea la nivel de paragraf include:",
+       "optiuni": [
+        "alinierea și spațierea",
+        "fontul unei litere",
+        "îngroșarea unui cuvânt",
+        "culoarea unei litere"
+       ],
+       "corect": 0,
+       "explicatie": "Fontul e formatare de caracter."
+      },
+      {
+       "intrebare": "Un format standard de document text este:",
+       "optiuni": [
+        "DOCX",
+        "MP3",
+        "JPEG",
+        "EXE"
+       ],
+       "corect": 0,
+       "explicatie": "PDF și ODT sunt și ele standard."
+      },
+      {
+       "intrebare": "Mail merge servește la:",
+       "optiuni": [
+        "generarea de scrisori personalizate dintr-o listă",
+        "comprimarea imaginilor",
+        "crearea de grafice",
+        "protejarea parolei"
+       ],
+       "corect": 0,
+       "explicatie": "Îmbină un șablon cu date."
+      }
+     ]
+    },
+    {
+     "id": "tic12-11",
+     "titlu": "Calculul tabelar",
+     "rezumat": "Programul de calcul tabelar (Excel, Calc, Google Sheets) organizează date în foi formate din celule, identificate prin coloană și rând (A1, B2). Puterea lui stă în formule, care încep cu semnul egal, de exemplu =A1+B1. Referințele pot fi relative (se schimbă la copiere: A1) sau absolute (rămân fixe: $A$1). Funcțiile efectuează calcule predefinite: SUM (sumă), AVERAGE (medie), MIN, MAX, COUNT (numărare), IF (condiție). Datele pot fi sortate, filtrate și reprezentate în grafice (coloane, linii, sectoare), pentru a fi înțelese vizual. Calculul tabelar e folosit pentru bugete, statistici, evidențe; o foaie bine făcută separă datele de calcule și folosește referințe corecte. Formatarea condiționată evidențiază valorile după reguli.",
+     "ideiCheie": [
+      "Datele stau în celule (coloană + rând: A1).",
+      "Formulele încep cu „=”; referințe relative (A1) sau absolute ($A$1).",
+      "Funcții: SUM, AVERAGE, MIN, MAX, COUNT, IF.",
+      "Datele se pot sorta, filtra și reprezenta în grafice."
+     ],
+     "termeni": [
+      {
+       "t": "formulă",
+       "d": "expresie de calcul dintr-o celulă, care începe cu semnul egal"
+      },
+      {
+       "t": "referință absolută",
+       "d": "referință care nu se schimbă la copiere, marcată cu $ ($A$1)"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cu ce semn încep formulele?",
+       "v": "Cu semnul egal (=)."
+      },
+      {
+       "f": "Ce funcție calculează media?",
+       "v": "AVERAGE."
+      },
+      {
+       "f": "Ce e o referință absolută?",
+       "v": "O referință fixă la copiere, scrisă cu $ ($A$1)."
+      },
+      {
+       "f": "Ce arată un grafic?",
+       "v": "Datele într-o formă vizuală, ușor de înțeles."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "O formulă într-o celulă începe cu:",
+       "optiuni": [
+        "semnul egal (=)",
+        "semnul plus",
+        "o literă",
+        "ghilimele"
+       ],
+       "corect": 0,
+       "explicatie": "De exemplu =A1+B1."
+      },
+      {
+       "intrebare": "Funcția care adună valorile este:",
+       "optiuni": [
+        "SUM",
+        "IF",
+        "COUNT",
+        "MAX"
+       ],
+       "corect": 0,
+       "explicatie": "AVERAGE calculează media."
+      },
+      {
+       "intrebare": "Referința $A$1 este:",
+       "optiuni": [
+        "absolută (nu se schimbă la copiere)",
+        "relativă",
+        "o funcție",
+        "un grafic"
+       ],
+       "corect": 0,
+       "explicatie": "Relativa (A1) se modifică la copiere."
+      },
+      {
+       "intrebare": "Un grafic cu sectoare (circular) e potrivit pentru:",
+       "optiuni": [
+        "proporții dintr-un întreg",
+        "evoluția în timp",
+        "text simplu",
+        "formule"
+       ],
+       "corect": 0,
+       "explicatie": "Liniile arată evoluția în timp."
+      }
+     ]
+    },
+    {
+     "id": "tic12-12",
+     "titlu": "Prezentările electronice",
+     "rezumat": "Programul de prezentări (PowerPoint, Impress, Google Slides) creează secvențe de diapozitive (slide-uri) pentru a susține o expunere. O prezentare bună respectă câteva reguli: un mesaj clar per diapozitiv, text puțin (idei, nu paragrafe), imagini relevante, contrast bun între text și fundal, un font lizibil. Elementele: titluri, liste, imagini, grafice, eventual animații și tranziții — folosite cu măsură, ca să nu distragă. Șabloanele (template) asigură un aspect unitar. Regula practică: prezentarea sprijină vorbitorul, nu îl înlocuiește, iar diapozitivul nu se citește cuvânt cu cuvânt. La final, o structură clară (introducere, cuprins, concluzie) și repetiția expunerii fac diferența; exportul în PDF păstrează aspectul pentru distribuire.",
+     "ideiCheie": [
+      "Un mesaj clar per diapozitiv; text puțin, idei, nu paragrafe.",
+      "Contrast bun, font lizibil, imagini relevante.",
+      "Animațiile și tranzițiile se folosesc cu măsură.",
+      "Prezentarea sprijină vorbitorul, nu îl înlocuiește."
+     ],
+     "termeni": [
+      {
+       "t": "diapozitiv (slide)",
+       "d": "o pagină a unei prezentări electronice"
+      },
+      {
+       "t": "șablon (template)",
+       "d": "model de aspect care asigură un stil unitar prezentării"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Câte idei principale ar trebui să aibă un diapozitiv?",
+       "v": "Una, clară."
+      },
+      {
+       "f": "Ce rol are prezentarea față de vorbitor?",
+       "v": "Îl sprijină, nu îl înlocuiește."
+      },
+      {
+       "f": "De ce se folosesc animațiile cu măsură?",
+       "v": "Ca să nu distragă de la mesaj."
+      },
+      {
+       "f": "Ce asigură un șablon?",
+       "v": "Un aspect unitar al prezentării."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "O prezentare bună are, pe un diapozitiv:",
+       "optiuni": [
+        "text puțin și un mesaj clar",
+        "paragrafe lungi",
+        "cât mai multe animații",
+        "text mic și dens"
+       ],
+       "corect": 0,
+       "explicatie": "Diapozitivul sprijină, nu înlocuiește vorbitorul."
+      },
+      {
+       "intrebare": "Animațiile și tranzițiile trebuie folosite:",
+       "optiuni": [
+        "cu măsură, ca să nu distragă",
+        "cât mai multe",
+        "pe fiecare cuvânt",
+        "niciodată"
+       ],
+       "corect": 0,
+       "explicatie": "Ele susțin mesajul, nu îl acoperă."
+      },
+      {
+       "intrebare": "Un aspect unitar al prezentării îl asigură:",
+       "optiuni": [
+        "șablonul (template)",
+        "animațiile",
+        "numărul de diapozitive",
+        "fontul mic"
+       ],
+       "corect": 0,
+       "explicatie": "Șablonul dă stilul comun."
+      },
+      {
+       "intrebare": "Regula de aur a unei prezentări este:",
+       "optiuni": [
+        "sprijină vorbitorul, nu îl înlocuiește",
+        "conține tot textul discursului",
+        "se citește cuvânt cu cuvânt",
+        "are cât mai mult text"
+       ],
+       "corect": 0,
+       "explicatie": "Publicul ascultă, nu citește diapozitivul."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tic12-c5",
+   "titlu": "Informație și baze de date",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "tic12-13",
+     "titlu": "Baze de date",
+     "rezumat": "O bază de date organizează informația astfel încât să poată fi stocată, căutată și actualizată eficient. Modelul cel mai răspândit e cel relațional: datele stau în tabele formate din rânduri (înregistrări) și coloane (câmpuri). Fiecare tabel are o cheie primară — un câmp care identifică unic fiecare înregistrare (de exemplu un cod). Tabelele se leagă între ele prin relații, folosind chei externe, ceea ce evită repetarea datelor. Operațiile de bază: adăugare, căutare (interogare), actualizare, ștergere; interogările extrag exact datele cerute după criterii, iar un sistem de gestiune a bazelor de date (SGBD) administrează totul. Bazele de date stau în spatele aplicațiilor: magazine online, biblioteci, bănci, rețele sociale. O bază bine proiectată nu repetă datele și le păstrează corecte.",
+     "ideiCheie": [
+      "Modelul relațional: date în tabele (rânduri = înregistrări, coloane = câmpuri).",
+      "Cheia primară identifică unic fiecare înregistrare.",
+      "Tabelele se leagă prin relații (chei externe), evitând repetarea.",
+      "Operații: adăugare, interogare, actualizare, ștergere."
+     ],
+     "termeni": [
+      {
+       "t": "bază de date relațională",
+       "d": "bază de date în care informația e organizată în tabele legate între ele"
+      },
+      {
+       "t": "cheie primară",
+       "d": "câmp care identifică unic fiecare înregistrare dintr-un tabel"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum sunt organizate datele într-o bază relațională?",
+       "v": "În tabele cu rânduri (înregistrări) și coloane (câmpuri)."
+      },
+      {
+       "f": "Ce face cheia primară?",
+       "v": "Identifică unic fiecare înregistrare."
+      },
+      {
+       "f": "Cum se leagă tabelele între ele?",
+       "v": "Prin relații, folosind chei externe."
+      },
+      {
+       "f": "Ce este o interogare?",
+       "v": "O căutare care extrage datele cerute după criterii."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Într-o bază relațională, datele stau în:",
+       "optiuni": [
+        "tabele legate între ele",
+        "imagini",
+        "fișiere audio",
+        "pagini web"
+       ],
+       "corect": 0,
+       "explicatie": "Rândurile sunt înregistrări, coloanele câmpuri."
+      },
+      {
+       "intrebare": "Cheia primară:",
+       "optiuni": [
+        "identifică unic fiecare înregistrare",
+        "comprimă datele",
+        "criptează tabelul",
+        "desenează grafice"
+       ],
+       "corect": 0,
+       "explicatie": "Evită confundarea înregistrărilor."
+      },
+      {
+       "intrebare": "Legarea tabelelor între ele:",
+       "optiuni": [
+        "evită repetarea datelor",
+        "mărește repetarea",
+        "șterge datele",
+        "schimbă fonturile"
+       ],
+       "corect": 0,
+       "explicatie": "Se face prin chei externe."
+      },
+      {
+       "intrebare": "O interogare (query) servește la:",
+       "optiuni": [
+        "extragerea datelor după criterii",
+        "formatarea textului",
+        "comprimarea imaginilor",
+        "crearea de animații"
+       ],
+       "corect": 0,
+       "explicatie": "Extrage exact ce se cere."
+      }
+     ]
+    },
+    {
+     "id": "tic12-14",
+     "titlu": "Căutarea și evaluarea informației",
+     "rezumat": "Internetul oferă multă informație, dar de calitate inegală; regăsirea și evaluarea ei sunt competențe esențiale. Motoarele de căutare indexează paginile și le ordonează după relevanță, iar căutarea eficientă folosește cuvinte-cheie potrivite, ghilimele pentru expresii exacte și filtre (dată, tip, limbă). Evaluarea sursei cere întrebări: cine e autorul, ce autoritate are, care e scopul (a informa, a vinde, a convinge), cât de actuală e informația, poate fi verificată din surse independente? Dezinformarea și știrile false circulă ușor; verificarea încrucișată (mai multe surse) și atenția la manipulare sunt apărarea. Citarea corectă a surselor respectă dreptul de autor și dă credibilitate. Un utilizator informat nu ia de bun primul rezultat, ci confruntă și verifică.",
+     "ideiCheie": [
+      "Motoarele indexează și ordonează paginile după relevanță.",
+      "Căutare eficientă: cuvinte-cheie, ghilimele, filtre.",
+      "Evaluarea sursei: autor, autoritate, scop, actualitate, verificabilitate.",
+      "Verificarea încrucișată apără de dezinformare."
+     ],
+     "termeni": [
+      {
+       "t": "motor de căutare",
+       "d": "serviciu care indexează paginile web și le ordonează după relevanță"
+      },
+      {
+       "t": "verificare încrucișată",
+       "d": "confruntarea informației cu mai multe surse independente"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce fac motoarele de căutare?",
+       "v": "Indexează paginile și le ordonează după relevanță."
+      },
+      {
+       "f": "Ce întrebări ajută la evaluarea unei surse?",
+       "v": "Cine e autorul, ce scop are, cât de actuală și verificabilă e."
+      },
+      {
+       "f": "Cum se caută o expresie exactă?",
+       "v": "Punând-o între ghilimele."
+      },
+      {
+       "f": "Cum ne apărăm de dezinformare?",
+       "v": "Prin verificare încrucișată, din mai multe surse."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Căutarea unei expresii exacte se face:",
+       "optiuni": [
+        "punând-o între ghilimele",
+        "cu majuscule",
+        "fără cuvinte-cheie",
+        "cu semnul plus"
+       ],
+       "corect": 0,
+       "explicatie": "Ghilimelele cer potrivirea exactă."
+      },
+      {
+       "intrebare": "La evaluarea unei surse contează:",
+       "optiuni": [
+        "autorul, scopul și actualitatea",
+        "doar culoarea paginii",
+        "numărul de imagini",
+        "fontul folosit"
+       ],
+       "corect": 0,
+       "explicatie": "Și dacă poate fi verificată independent."
+      },
+      {
+       "intrebare": "Apărarea împotriva știrilor false este:",
+       "optiuni": [
+        "verificarea din mai multe surse",
+        "încrederea în primul rezultat",
+        "distribuirea rapidă",
+        "ignorarea autorului"
+       ],
+       "corect": 0,
+       "explicatie": "Verificarea încrucișată dezvăluie falsul."
+      },
+      {
+       "intrebare": "Motorul de căutare ordonează paginile după:",
+       "optiuni": [
+        "relevanță",
+        "ordine alfabetică",
+        "dimensiunea fișierului",
+        "culoare"
+       ],
+       "corect": 0,
+       "explicatie": "Indexarea stă la baza rezultatelor."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tic12-c6",
+   "titlu": "Tehnologii emergente și identitate digitală",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "tic12-15",
+     "titlu": "Rețele, cloud și internetul lucrurilor",
+     "rezumat": "O rețea de calculatoare leagă dispozitive ca să comunice și să partajeze resurse; internetul este rețeaua globală care leagă toate rețelele. Rețelele locale (LAN) acoperă o zonă mică (o casă, o școală), cele extinse (WAN) acoperă distanțe mari. Cloud computingul înseamnă folosirea unor resurse (stocare, programe, putere de calcul) găzduite pe servere la distanță și accesate prin internet: e-mail, stocare online, aplicații care rulează în browser. Avantaje: acces de oriunde, fără instalare, colaborare ușoară; dezavantaje: dependența de conexiune și de furnizor, întrebări de confidențialitate. Internetul lucrurilor (IoT) conectează la internet obiecte obișnuite — becuri, termostate, ceasuri — care culeg și schimbă date. Aceste tehnologii aduc comoditate, dar și noi riscuri de securitate și de viață privată.",
+     "ideiCheie": [
+      "Rețea = dispozitive legate pentru a comunica; internetul = rețeaua globală.",
+      "LAN (local) vs. WAN (extins).",
+      "Cloud = resurse găzduite la distanță, accesate prin internet.",
+      "IoT = obiecte obișnuite conectate la internet, care schimbă date."
+     ],
+     "termeni": [
+      {
+       "t": "cloud computing",
+       "d": "folosirea unor resurse informatice găzduite la distanță și accesate prin internet"
+      },
+      {
+       "t": "internetul lucrurilor (IoT)",
+       "d": "conectarea la internet a unor obiecte obișnuite, care culeg și schimbă date"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este o rețea de calculatoare?",
+       "v": "Dispozitive legate ca să comunice și să partajeze resurse."
+      },
+      {
+       "f": "Ce înseamnă cloud computing?",
+       "v": "Folosirea de resurse găzduite la distanță, prin internet."
+      },
+      {
+       "f": "Prin ce diferă LAN de WAN?",
+       "v": "LAN acoperă o zonă mică; WAN, distanțe mari."
+      },
+      {
+       "f": "Ce este IoT?",
+       "v": "Conectarea la internet a obiectelor obișnuite."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Cloud computingul înseamnă:",
+       "optiuni": [
+        "folosirea de resurse găzduite la distanță, prin internet",
+        "un tip de cablu",
+        "un program antivirus",
+        "o rețea locală"
+       ],
+       "corect": 0,
+       "explicatie": "De exemplu stocarea online."
+      },
+      {
+       "intrebare": "O rețea LAN acoperă:",
+       "optiuni": [
+        "o zonă mică (casă, școală)",
+        "întreg globul",
+        "doar un cablu",
+        "un continent"
+       ],
+       "corect": 0,
+       "explicatie": "WAN acoperă distanțe mari."
+      },
+      {
+       "intrebare": "Internetul lucrurilor (IoT) conectează:",
+       "optiuni": [
+        "obiecte obișnuite la internet",
+        "doar calculatoarele",
+        "doar telefoanele",
+        "doar serverele"
+       ],
+       "corect": 0,
+       "explicatie": "Becuri, termostate, ceasuri inteligente."
+      },
+      {
+       "intrebare": "Un dezavantaj al cloudului este:",
+       "optiuni": [
+        "dependența de conexiune și de furnizor",
+        "accesul de oriunde",
+        "colaborarea ușoară",
+        "lipsa instalării"
+       ],
+       "corect": 0,
+       "explicatie": "Apar și întrebări de confidențialitate."
+      }
+     ]
+    },
+    {
+     "id": "tic12-16",
+     "titlu": "Inteligența artificială și tehnologii emergente",
+     "rezumat": "Inteligența artificială (IA) este domeniul care creează sisteme capabile să îndeplinească sarcini care par să ceară inteligență: recunoașterea imaginilor și a vorbirii, traducerea, recomandările, conducerea autonomă. Multe sisteme moderne folosesc învățarea automată (machine learning): programul „învață” tipare din multe exemple, în loc să fie programat cu reguli fixe. IA e deja în jurul nostru: asistenți vocali, filtre de spam, recomandări în magazine online și rețele sociale. Alte tehnologii emergente: realitatea virtuală și augmentată, roboții, tehnologia blockchain, tipărirea 3D. Aceste tehnologii aduc oportunități mari, dar ridică și întrebări etice: confidențialitatea datelor, corectitudinea deciziilor automate, efectele asupra muncii, dezinformarea. Un cetățean digital informat înțelege ce pot și ce nu pot aceste sisteme și le folosește critic și responsabil.",
+     "ideiCheie": [
+      "IA creează sisteme care îndeplinesc sarcini ce par să ceară inteligență.",
+      "Învățarea automată învață tipare din exemple, nu din reguli fixe.",
+      "IA e deja în asistenți vocali, filtre de spam, recomandări.",
+      "Tehnologiile emergente ridică întrebări etice (date, muncă, decizii automate)."
+     ],
+     "termeni": [
+      {
+       "t": "inteligență artificială",
+       "d": "domeniu care creează sisteme capabile de sarcini ce par să ceară inteligență"
+      },
+      {
+       "t": "învățare automată (machine learning)",
+       "d": "metodă prin care un program învață tipare din exemple, nu din reguli fixe"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este inteligența artificială?",
+       "v": "Domeniul care creează sisteme capabile de sarcini ce par să ceară inteligență."
+      },
+      {
+       "f": "Ce face învățarea automată?",
+       "v": "Învață tipare din multe exemple, nu din reguli fixe."
+      },
+      {
+       "f": "Numește o folosire curentă a IA.",
+       "v": "Asistenți vocali, filtre de spam, recomandări."
+      },
+      {
+       "f": "Ce întrebări etice ridică IA?",
+       "v": "Confidențialitatea, corectitudinea deciziilor, efectele asupra muncii."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Învățarea automată (machine learning):",
+       "optiuni": [
+        "învață tipare din exemple",
+        "urmează doar reguli fixe scrise de om",
+        "este un tip de cablu",
+        "comprimă imagini"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea are nevoie de multe date."
+      },
+      {
+       "intrebare": "O folosire curentă a IA este:",
+       "optiuni": [
+        "filtrele de spam și recomandările",
+        "răcirea procesorului",
+        "alimentarea cu energie",
+        "tipărirea documentelor"
+       ],
+       "corect": 0,
+       "explicatie": "Și asistenții vocali."
+      },
+      {
+       "intrebare": "IA ridică întrebarea etică a:",
+       "optiuni": [
+        "confidențialității datelor și a deciziilor automate",
+        "culorii ecranului",
+        "vitezei de tastare",
+        "mărimii fișierelor"
+       ],
+       "corect": 0,
+       "explicatie": "Folosirea trebuie să fie responsabilă."
+      },
+      {
+       "intrebare": "O tehnologie emergentă este:",
+       "optiuni": [
+        "realitatea virtuală și augmentată",
+        "procesorul de text clasic",
+        "tastatura",
+        "mouse-ul"
+       ],
+       "corect": 0,
+       "explicatie": "Alături de roboți, blockchain, tipărire 3D."
+      }
+     ]
+    }
+   ]
   }
  ],
  "teze": [
   {
    "semestru": 1,
    "test": [
+    {
+     "intrebare": "Generarea automată a cuprinsului se bazează pe:",
+     "optiuni": [
+      "stiluri",
+      "culoarea textului",
+      "font",
+      "numărul paginilor"
+     ],
+     "corect": 0,
+     "explicatie": "Stilurile de titlu structurează documentul."
+    },
+    {
+     "intrebare": "O formulă de calcul tabelar începe cu:",
+     "optiuni": [
+      "semnul egal (=)",
+      "o literă",
+      "semnul plus",
+      "ghilimele"
+     ],
+     "corect": 0,
+     "explicatie": "De exemplu =A1+B1."
+    },
+    {
+     "intrebare": "Funcția care calculează media este:",
+     "optiuni": [
+      "AVERAGE",
+      "SUM",
+      "COUNT",
+      "IF"
+     ],
+     "corect": 0,
+     "explicatie": "SUM adună valorile."
+    },
+    {
+     "intrebare": "Cheia primară dintr-o bază de date:",
+     "optiuni": [
+      "identifică unic fiecare înregistrare",
+      "comprimă datele",
+      "criptează tabelul",
+      "desenează grafice"
+     ],
+     "corect": 0,
+     "explicatie": "Evită confundarea înregistrărilor."
+    },
+    {
+     "intrebare": "Referința $A$1 este:",
+     "optiuni": [
+      "absolută (nu se schimbă la copiere)",
+      "relativă",
+      "o funcție",
+      "un grafic"
+     ],
+     "corect": 0,
+     "explicatie": "Relativa (A1) se modifică la copiere."
+    },
+    {
+     "intrebare": "Într-o bază relațională, un rând reprezintă:",
+     "optiuni": [
+      "o înregistrare",
+      "un câmp",
+      "o formulă",
+      "un grafic"
+     ],
+     "corect": 0,
+     "explicatie": "Coloana este un câmp."
+    },
     {
      "intrebare": "Rezultatul probei D se exprimă:",
      "optiuni": [
@@ -935,6 +1617,72 @@
   {
    "semestru": 2,
    "test": [
+    {
+     "intrebare": "Căutarea unei expresii exacte se face:",
+     "optiuni": [
+      "punând-o între ghilimele",
+      "cu majuscule",
+      "fără cuvinte-cheie",
+      "cu semnul minus"
+     ],
+     "corect": 0,
+     "explicatie": "Ghilimelele cer potrivirea exactă."
+    },
+    {
+     "intrebare": "Cloud computingul înseamnă:",
+     "optiuni": [
+      "resurse găzduite la distanță, accesate prin internet",
+      "un tip de imprimantă",
+      "o rețea de cabluri",
+      "un antivirus"
+     ],
+     "corect": 0,
+     "explicatie": "De exemplu stocarea online."
+    },
+    {
+     "intrebare": "Învățarea automată:",
+     "optiuni": [
+      "învață tipare din exemple",
+      "urmează doar reguli fixe",
+      "este un cablu de rețea",
+      "comprimă sunetul"
+     ],
+     "corect": 0,
+     "explicatie": "Are nevoie de multe date."
+    },
+    {
+     "intrebare": "Apărarea împotriva dezinformării este:",
+     "optiuni": [
+      "verificarea din mai multe surse",
+      "încrederea în primul rezultat",
+      "distribuirea rapidă",
+      "ignorarea autorului"
+     ],
+     "corect": 0,
+     "explicatie": "Verificarea încrucișată dezvăluie falsul."
+    },
+    {
+     "intrebare": "Internetul lucrurilor (IoT) conectează:",
+     "optiuni": [
+      "obiecte obișnuite la internet",
+      "doar serverele",
+      "doar imprimantele",
+      "doar telefoanele"
+     ],
+     "corect": 0,
+     "explicatie": "Becuri, termostate, ceasuri inteligente."
+    },
+    {
+     "intrebare": "O rețea LAN acoperă:",
+     "optiuni": [
+      "o zonă mică (casă, școală)",
+      "întreg globul",
+      "un continent",
+      "doar un cablu"
+     ],
+     "corect": 0,
+     "explicatie": "WAN acoperă distanțe mari."
+    },
     {
      "intrebare": "Identitatea digitală este:",
      "optiuni": [

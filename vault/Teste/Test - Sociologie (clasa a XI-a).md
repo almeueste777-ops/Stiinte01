@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Sociologie (clasa a XI-a)
 
-80 întrebări din [[Sociologie (clasa a XI-a)|Sociologie (clasa a XI-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+132 întrebări din [[Sociologie (clasa a XI-a)|Sociologie (clasa a XI-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Termenul „sociologie” a fost introdus de:
 
@@ -681,7 +681,559 @@ cssclasses: test
 > 
 > Cei doi factori demografici acționează cumulat.
 
-### 57. Termenul „sociologie” a fost creat de:
+### 57. Paradigma care vede societatea ca sistem de părți interdependente, cu accent pe consens, este:
+
+- a. funcționalismul
+- b. teoria conflictului
+- c. interacționismul simbolic
+- d. etnometodologia
+
+> [!success]- Răspuns
+> **a. funcționalismul**
+> 
+> Ea explică instituțiile prin funcțiile pe care le îndeplinesc.
+
+### 58. Teoria conflictului își are originea la:
+
+- a. Karl Marx
+- b. Émile Durkheim
+- c. George Herbert Mead
+- d. Auguste Comte
+
+> [!success]- Răspuns
+> **a. Karl Marx**
+> 
+> Ea vede societatea ca arenă a luptei pentru resurse limitate.
+
+### 59. Studiul construirii sensului în interacțiunile cotidiene aparține:
+
+- a. interacționismului simbolic
+- b. funcționalismului
+- c. teoriei conflictului
+- d. pozitivismului
+
+> [!success]- Răspuns
+> **a. interacționismului simbolic**
+> 
+> Reprezentanți: Mead, Blumer, Goffman.
+
+### 60. Funcționalismul și teoria conflictului sunt paradigme:
+
+- a. macrosociologice
+- b. microsociologice
+- c. exclusiv cantitative
+- d. lipsite de aplicații
+
+> [!success]- Răspuns
+> **a. macrosociologice**
+> 
+> Ele privesc structurile mari ale societății, nu interacțiunile față în față.
+
+### 61. Faptul că un obicei ni se pare „firesc”, iar altul „ciudat” doar fiindcă e al altei culturi, ilustrează:
+
+- a. etnocentrismul
+- b. relativismul cultural
+- c. șocul cultural
+- d. aculturația
+
+> [!success]- Răspuns
+> **a. etnocentrismul**
+> 
+> Ne judecăm cultura drept măsură a tuturor celorlalte.
+
+### 62. Steagul, ca lucru care poartă un înțeles convenit, este:
+
+- a. un simbol
+- b. o normă
+- c. o valoare
+- d. o subcultură
+
+> [!success]- Răspuns
+> **a. un simbol**
+> 
+> Simbolurile transmit înțelesuri împărtășite.
+
+### 63. Un grup cu trăsături culturale proprii, care nu respinge cultura dominantă în ansamblu, este:
+
+- a. o subcultură
+- b. o contracultură
+- c. o instituție totală
+- d. o agregare
+
+> [!success]- Răspuns
+> **a. o subcultură**
+> 
+> Contracultura, în schimb, se opune activ valorilor dominante.
+
+### 64. Cultura, spre deosebire de zestrea biologică:
+
+- a. se învață și se transmite din generație în generație
+- b. este înnăscută
+- c. este identică la toate societățile
+- d. nu se schimbă în timp
+
+> [!success]- Răspuns
+> **a. se învață și se transmite din generație în generație**
+> 
+> Ne naștem fără cultură și o dobândim prin socializare.
+
+### 65. Rivalitatea desfășurată după reguli acceptate este o formă de interacțiune numită:
+
+- a. competiție
+- b. cooperare
+- c. conflict
+- d. schimb
+
+> [!success]- Răspuns
+> **a. competiție**
+> 
+> Conflictul, spre deosebire de competiție, este înfruntare directă.
+
+### 66. Analiza vieții sociale ca teatru, cu „scenă” și „culise”, aparține lui:
+
+- a. Erving Goffman
+- b. Émile Durkheim
+- c. Karl Marx
+- d. Auguste Comte
+
+> [!success]- Răspuns
+> **a. Erving Goffman**
+> 
+> Este perspectiva dramaturgică.
+
+### 67. „Dacă oamenii definesc o situație ca reală, ea devine reală prin consecințele ei” este:
+
+- a. teorema lui Thomas
+- b. legea celor trei stadii
+- c. regula lui Merton
+- d. paradoxul lui Weber
+
+> [!success]- Răspuns
+> **a. teorema lui Thomas**
+> 
+> O definiție împărtășită produce efecte reale.
+
+### 68. Retragerea „în culise”, la Goffman, înseamnă:
+
+- a. momentul în care persoana renunță la rolul jucat în fața celorlalți
+- b. conflictul deschis
+- c. pierderea statutului
+- d. socializarea primară
+
+> [!success]- Răspuns
+> **a. momentul în care persoana renunță la rolul jucat în fața celorlalți**
+> 
+> Pe „scenă” ne gestionăm impresia; în „culise” ieșim din rol.
+
+### 69. Diferența dintre natalitate și mortalitate se numește:
+
+- a. spor natural
+- b. sold migratoriu
+- c. rată de fertilitate
+- d. speranță de viață
+
+> [!success]- Răspuns
+> **a. spor natural**
+> 
+> Soldul migratoriu privește imigranții și emigranții.
+
+### 70. Structura populației pe grupe de vârstă și sexe se reprezintă grafic prin:
+
+- a. piramida vârstelor
+- b. coeficientul Gini
+- c. curba lui Gauss
+- d. histograma veniturilor
+
+> [!success]- Răspuns
+> **a. piramida vârstelor**
+> 
+> Forma piramidei arată o populație tânără sau îmbătrânită.
+
+### 71. O natalitate durabil sub pragul de înlocuire (circa 2,1 copii pe femeie) duce, în timp, la:
+
+- a. îmbătrânirea și scăderea populației
+- b. creșterea rapidă a populației
+- c. stabilizarea la un nivel tânăr
+- d. creșterea sporului natural
+
+> [!success]- Răspuns
+> **a. îmbătrânirea și scăderea populației**
+> 
+> Generațiile tinere nu le mai înlocuiesc numeric pe cele vârstnice.
+
+### 72. Populația României contemporane este marcată în principal de:
+
+- a. natalitate scăzută, îmbătrânire și emigrare
+- b. natalitate ridicată și imigrare masivă
+- c. spor natural puternic pozitiv
+- d. o populație foarte tânără
+
+> [!success]- Răspuns
+> **a. natalitate scăzută, îmbătrânire și emigrare**
+> 
+> Cele trei procese acționează cumulat, spre scădere.
+
+### 73. Relațiile personale, dense și tradiționale, tipice satului, corespund, la Tönnies:
+
+- a. comunității (Gemeinschaft)
+- b. societății (Gesellschaft)
+- c. solidarității organice
+- d. birocrației
+
+> [!success]- Răspuns
+> **a. comunității (Gemeinschaft)**
+> 
+> Orașului mare îi corespunde societatea (Gesellschaft).
+
+### 74. Anonimatul, densitatea mare și relațiile preponderent secundare caracterizează:
+
+- a. comunitatea urbană
+- b. comunitatea rurală
+- c. familia extinsă
+- d. grupul primar
+
+> [!success]- Răspuns
+> **a. comunitatea urbană**
+> 
+> Satul se distinge prin relații primare și control informal puternic.
+
+### 75. Creșterea ponderii populației care trăiește în orașe se numește:
+
+- a. urbanizare
+- b. suburbanizare
+- c. migrație de retur
+- d. secularizare
+
+> [!success]- Răspuns
+> **a. urbanizare**
+> 
+> Ea este alimentată de industrializare și de exodul rural.
+
+### 76. Controlul social informal este, de regulă, mai puternic:
+
+- a. în comunitatea rurală, unde toată lumea se cunoaște
+- b. în orașul mare, prin anonimat
+- c. în absența oricărei tradiții
+- d. în comunitățile foarte diverse
+
+> [!success]- Răspuns
+> **a. în comunitatea rurală, unde toată lumea se cunoaște**
+> 
+> Anonimatul urban slăbește controlul informal.
+
+### 77. Distincția dintre sacru și profan, în definirea religiei, aparține lui:
+
+- a. Émile Durkheim
+- b. Max Weber
+- c. Karl Marx
+- d. Auguste Comte
+
+> [!success]- Răspuns
+> **a. Émile Durkheim**
+> 
+> Pentru Durkheim, prin sacru societatea se venerează pe sine.
+
+### 78. Lucrarea „Etica protestantă și spiritul capitalismului” aparține lui:
+
+- a. Max Weber
+- b. Émile Durkheim
+- c. Karl Marx
+- d. Ferdinand Tönnies
+
+> [!success]- Răspuns
+> **a. Max Weber**
+> 
+> Ea arată că idei religioase pot influența economia.
+
+### 79. Secularizarea înseamnă:
+
+- a. scăderea influenței religiei asupra vieții publice
+- b. creșterea numărului de biserici
+- c. interzicerea religiei
+- d. unificarea tuturor cultelor
+
+> [!success]- Răspuns
+> **a. scăderea influenței religiei asupra vieții publice**
+> 
+> Este un proces asociat modernizării, fără a însemna neapărat dispariția credinței.
+
+### 80. Un grup religios mic, exigent și aflat în tensiune cu societatea, este, în tipologia sociologică:
+
+- a. o sectă
+- b. o biserică
+- c. o denominațiune majoritară
+- d. o instituție totală
+
+> [!success]- Răspuns
+> **a. o sectă**
+> 
+> Biserica este mare, instituționalizată și integrată în societate.
+
+### 81. Puterea recunoscută ca legitimă de cei asupra cărora se exercită se numește:
+
+- a. autoritate
+- b. constrângere
+- c. influență
+- d. charismă
+
+> [!success]- Răspuns
+> **a. autoritate**
+> 
+> Legitimitatea transformă puterea în autoritate.
+
+### 82. Autoritatea întemeiată pe reguli și funcții, nu pe persoane, este, la Weber:
+
+- a. legal-rațională
+- b. tradițională
+- c. charismatică
+- d. ereditară
+
+> [!success]- Răspuns
+> **a. legal-rațională**
+> 
+> Este tipul modern, birocratic, de autoritate.
+
+### 83. Statul deține, potrivit lui Weber:
+
+- a. monopolul folosirii legitime a forței pe un teritoriu
+- b. toată proprietatea economică
+- c. controlul opiniei publice
+- d. puterea religioasă
+
+> [!success]- Răspuns
+> **a. monopolul folosirii legitime a forței pe un teritoriu**
+> 
+> Aceasta este trăsătura lui definitorie.
+
+### 84. O trăsătură esențială a regimului democratic este:
+
+- a. separația puterilor și alegerile libere
+- b. concentrarea totală a puterii
+- c. absența oricăror reguli
+- d. controlul întregii vieți private
+
+> [!success]- Răspuns
+> **a. separația puterilor și alegerile libere**
+> 
+> Democrația limitează puterea și garantează drepturi.
+
+### 85. Sectorul economic al serviciilor este:
+
+- a. terțiarul
+- b. primarul
+- c. secundarul
+- d. cuaternarul
+
+> [!success]- Răspuns
+> **a. terțiarul**
+> 
+> Primarul e agricultura, secundarul industria, cuaternarul informația.
+
+### 86. Diviziunea muncii, potrivit lui Durkheim, stă la baza:
+
+- a. solidarității organice
+- b. solidarității mecanice
+- c. economiei informale
+- d. șomajului structural
+
+> [!success]- Răspuns
+> **a. solidarității organice**
+> 
+> Interdependența funcțiilor specializate ține laolaltă societatea modernă.
+
+### 87. Șomajul provocat de dispariția unor ramuri economice și apariția altora este:
+
+- a. structural
+- b. conjunctural
+- c. de scurtă durată prin definiție
+- d. voluntar
+
+> [!success]- Răspuns
+> **a. structural**
+> 
+> El ține de transformarea de fond a economiei.
+
+### 88. Trecerea către societatea postindustrială înseamnă creșterea ponderii ocupării în:
+
+- a. servicii și informație
+- b. agricultură
+- c. industria grea
+- d. sectorul primar
+
+> [!success]- Răspuns
+> **a. servicii și informație**
+> 
+> Tot mai puțini oameni lucrează în agricultură și industrie.
+
+### 89. Un grup etnic se definește, în primul rând, prin:
+
+- a. origine, cultură și limbă comune, cu conștiința apartenenței
+- b. caractere exclusiv biologice
+- c. teritoriul de reședință actual
+- d. nivelul de venit
+
+> [!success]- Răspuns
+> **a. origine, cultură și limbă comune, cu conștiința apartenenței**
+> 
+> Etnia este o realitate culturală și de conștiință.
+
+### 90. Tratamentul inegal, în fapte, al unei persoane din cauza apartenenței ei la un grup este:
+
+- a. discriminare
+- b. prejudecată
+- c. stereotip
+- d. integrare
+
+> [!success]- Răspuns
+> **a. discriminare**
+> 
+> Prejudecata este atitudinea; discriminarea este fapta.
+
+### 91. Modelul care cere minorității să se topească în cultura majoritară se numește:
+
+- a. asimilare
+- b. integrare
+- c. multiculturalism
+- d. segregare
+
+> [!success]- Răspuns
+> **a. asimilare**
+> 
+> Integrarea, dimpotrivă, păstrează identitatea proprie.
+
+### 92. Recunoașterea și valorizarea pluralității culturilor în aceeași societate definesc:
+
+- a. multiculturalismul
+- b. etnocentrismul
+- c. asimilarea
+- d. segregarea
+
+> [!success]- Răspuns
+> **a. multiculturalismul**
+> 
+> El presupune coexistența mai multor culturi, cu drepturi egale.
+
+### 93. O acțiune colectivă organizată și de durată, care urmărește o schimbare socială, este:
+
+- a. o mișcare socială
+- b. o mulțime spontană
+- c. o panică
+- d. un zvon
+
+> [!success]- Răspuns
+> **a. o mișcare socială**
+> 
+> Organizarea și continuitatea o deosebesc de comportamentul de mulțime.
+
+### 94. O mișcare care urmărește schimbări limitate, în cadrul ordinii existente, este:
+
+- a. reformistă
+- b. revoluționară
+- c. de rezistență
+- d. alternativă
+
+> [!success]- Răspuns
+> **a. reformistă**
+> 
+> Mișcarea revoluționară urmărește schimbarea profundă a ordinii.
+
+### 95. Moda, panica și zvonul sunt exemple de:
+
+- a. comportament colectiv spontan
+- b. mișcări sociale organizate
+- c. instituții fundamentale
+- d. forme de control formal
+
+> [!success]- Răspuns
+> **a. comportament colectiv spontan**
+> 
+> Ele sunt mai puțin structurate și mai trecătoare decât mișcările.
+
+### 96. Rețeaua de asociații și inițiative independente de stat se numește:
+
+- a. societate civilă
+- b. birocrație
+- c. instituție totală
+- d. cultură de masă
+
+> [!success]- Răspuns
+> **a. societate civilă**
+> 
+> Prin ea cetățenii participă la viața publică între alegeri.
+
+### 97. Paradigma care vede societatea ca sistem de părți interdependente, cu accent pe consens, este:
+
+- a. funcționalismul
+- b. teoria conflictului
+- c. interacționismul simbolic
+- d. pozitivismul logic
+
+> [!success]- Răspuns
+> **a. funcționalismul**
+> 
+> Ea explică instituțiile prin funcțiile pe care le îndeplinesc.
+
+### 98. Teoria conflictului își are originea la:
+
+- a. Karl Marx
+- b. Émile Durkheim
+- c. George Herbert Mead
+- d. Auguste Comte
+
+> [!success]- Răspuns
+> **a. Karl Marx**
+> 
+> Societatea e văzută ca arenă a luptei pentru resurse limitate.
+
+### 99. Cultura, spre deosebire de zestrea biologică:
+
+- a. se învață și se transmite din generație în generație
+- b. este înnăscută
+- c. este identică în toate societățile
+- d. nu se schimbă în timp
+
+> [!success]- Răspuns
+> **a. se învață și se transmite din generație în generație**
+> 
+> Ne naștem fără cultură și o dobândim prin socializare.
+
+### 100. Judecarea altei culturi după criteriile propriei culturi, considerată superioară, este:
+
+- a. etnocentrism
+- b. relativism cultural
+- c. multiculturalism
+- d. aculturație
+
+> [!success]- Răspuns
+> **a. etnocentrism**
+> 
+> Relativismul cultural cere înțelegerea fiecărei culturi în contextul ei.
+
+### 101. Analiza vieții sociale ca teatru, cu „scenă” și „culise”, aparține lui:
+
+- a. Erving Goffman
+- b. Karl Marx
+- c. Auguste Comte
+- d. Ferdinand Tönnies
+
+> [!success]- Răspuns
+> **a. Erving Goffman**
+> 
+> Este perspectiva dramaturgică asupra interacțiunii.
+
+### 102. Diferența dintre natalitate și mortalitate se numește:
+
+- a. spor natural
+- b. sold migratoriu
+- c. rată de fertilitate
+- d. speranță de viață
+
+> [!success]- Răspuns
+> **a. spor natural**
+> 
+> Soldul migratoriu privește imigranții și emigranții.
+
+### 103. Termenul „sociologie” a fost creat de:
 
 - a. Auguste Comte
 - b. Émile Durkheim
@@ -693,7 +1245,7 @@ cssclasses: test
 > 
 > Comte îl introduce în 1838.
 
-### 58. Faptul social, la Durkheim, se recunoaște prin:
+### 104. Faptul social, la Durkheim, se recunoaște prin:
 
 - a. exterioritate față de individ și putere de constrângere
 - b. frecvența statistică
@@ -705,7 +1257,7 @@ cssclasses: test
 > 
 > Constrângerea se resimte când individul i se opune.
 
-### 59. Transformarea conceptului „nivel de trai” în indicatori măsurabili se numește:
+### 105. Transformarea conceptului „nivel de trai” în indicatori măsurabili se numește:
 
 - a. operaționalizare
 - b. eșantionare
@@ -717,7 +1269,7 @@ cssclasses: test
 > 
 > Este pasul care face conceptul cercetabil empiric.
 
-### 60. Monografia sociologică românească este legată de:
+### 106. Monografia sociologică românească este legată de:
 
 - a. Dimitrie Gusti
 - b. Nicolae Iorga
@@ -729,7 +1281,7 @@ cssclasses: test
 > 
 > Gusti a condus Școala sociologică de la București.
 
-### 61. Grupul ale cărui norme le folosim ca reper fără să-i aparținem se numește:
+### 107. Grupul ale cărui norme le folosim ca reper fără să-i aparținem se numește:
 
 - a. grup de referință
 - b. grup de apartenență
@@ -741,7 +1293,7 @@ cssclasses: test
 > 
 > Distincția aparține lui Robert Merton.
 
-### 62. Distincția între funcții manifeste și latente aparține lui:
+### 108. Distincția între funcții manifeste și latente aparține lui:
 
 - a. Robert Merton
 - b. Max Weber
@@ -753,7 +1305,7 @@ cssclasses: test
 > 
 > Ea explică efectele neintenționate ale instituțiilor.
 
-### 63. Trăsăturile birocrației, după Weber, includ:
+### 109. Trăsăturile birocrației, după Weber, includ:
 
 - a. ierarhie, reguli scrise, competență tehnică, impersonalitate
 - b. relații personale și flexibilitate
@@ -765,7 +1317,7 @@ cssclasses: test
 > 
 > Impersonalitatea este exact opusul relațiilor de rudenie.
 
-### 64. Statusul de medic este un status:
+### 110. Statusul de medic este un status:
 
 - a. dobândit
 - b. atribuit
@@ -777,7 +1329,7 @@ cssclasses: test
 > 
 > Se obține prin efort și alegere.
 
-### 65. Un profesor care trebuie să fie și sprijin, și evaluator sever trăiește:
+### 111. Un profesor care trebuie să fie și sprijin, și evaluator sever trăiește:
 
 - a. o tensiune de rol
 - b. un conflict de roluri
@@ -789,7 +1341,7 @@ cssclasses: test
 > 
 > Cerințele contradictorii vin din interiorul aceluiași status.
 
-### 66. La Weber, stratificarea are trei dimensiuni:
+### 112. La Weber, stratificarea are trei dimensiuni:
 
 - a. clasa, statusul și partidul
 - b. venitul, averea și educația
@@ -801,7 +1353,7 @@ cssclasses: test
 > 
 > Prestigiul și puterea politică nu se reduc la poziția economică.
 
-### 67. Un coeficient Gini apropiat de 0 arată:
+### 113. Un coeficient Gini apropiat de 0 arată:
 
 - a. o distribuție aproape egală a veniturilor
 - b. o inegalitate foarte mare
@@ -813,7 +1365,7 @@ cssclasses: test
 > 
 > Valoarea 1 ar însemna concentrarea totală a venitului.
 
-### 68. Trecerea masivă din agricultură în servicii este un caz de mobilitate:
+### 114. Trecerea masivă din agricultură în servicii este un caz de mobilitate:
 
 - a. structurală
 - b. de schimb
@@ -825,7 +1377,79 @@ cssclasses: test
 > 
 > Cauza este transformarea economiei, nu meritul individual.
 
-### 69. Socializarea primară se realizează în principal:
+### 115. Distincția dintre sacru și profan, în definirea religiei, aparține lui:
+
+- a. Émile Durkheim
+- b. Max Weber
+- c. Karl Marx
+- d. Ferdinand Tönnies
+
+> [!success]- Răspuns
+> **a. Émile Durkheim**
+> 
+> Pentru Durkheim, prin sacru societatea se venerează pe sine.
+
+### 116. Autoritatea întemeiată pe reguli și funcții, nu pe persoane, este, la Weber:
+
+- a. legal-rațională
+- b. tradițională
+- c. charismatică
+- d. ereditară
+
+> [!success]- Răspuns
+> **a. legal-rațională**
+> 
+> Este tipul modern, birocratic, de autoritate.
+
+### 117. Statul deține, potrivit lui Weber:
+
+- a. monopolul folosirii legitime a forței pe un teritoriu
+- b. toată proprietatea economică
+- c. controlul credințelor religioase
+- d. puterea absolută asupra vieții private
+
+> [!success]- Răspuns
+> **a. monopolul folosirii legitime a forței pe un teritoriu**
+> 
+> Aceasta este trăsătura lui definitorie.
+
+### 118. Sectorul economic al serviciilor este:
+
+- a. terțiarul
+- b. primarul
+- c. secundarul
+- d. cuaternarul
+
+> [!success]- Răspuns
+> **a. terțiarul**
+> 
+> Primarul e agricultura, secundarul industria.
+
+### 119. Tratamentul inegal, în fapte, al unei persoane din cauza apartenenței la un grup este:
+
+- a. discriminare
+- b. prejudecată
+- c. stereotip
+- d. integrare
+
+> [!success]- Răspuns
+> **a. discriminare**
+> 
+> Prejudecata este atitudinea; discriminarea este fapta.
+
+### 120. O acțiune colectivă organizată și de durată, care urmărește o schimbare socială, este:
+
+- a. o mișcare socială
+- b. o mulțime spontană
+- c. o panică
+- d. un zvon
+
+> [!success]- Răspuns
+> **a. o mișcare socială**
+> 
+> Organizarea și continuitatea o deosebesc de comportamentul de mulțime.
+
+### 121. Socializarea primară se realizează în principal:
 
 - a. în familie, în copilărie
 - b. în școală
@@ -837,7 +1461,7 @@ cssclasses: test
 > 
 > Este cea mai profundă, fiindcă se produce fără termen de comparație.
 
-### 70. „Instituțiile totale” au fost analizate de:
+### 122. „Instituțiile totale” au fost analizate de:
 
 - a. Erving Goffman
 - b. George Herbert Mead
@@ -849,7 +1473,7 @@ cssclasses: test
 > 
 > Goffman le descrie ca medii care reconstruiesc identitatea.
 
-### 71. Anomia desemnează:
+### 123. Anomia desemnează:
 
 - a. slăbirea sau neclaritatea normelor sociale
 - b. creșterea criminalității
@@ -861,7 +1485,7 @@ cssclasses: test
 > 
 > Conceptul aparține lui Durkheim.
 
-### 72. În tipologia lui Merton, acceptarea scopurilor și respingerea mijloacelor legitime este:
+### 124. În tipologia lui Merton, acceptarea scopurilor și respingerea mijloacelor legitime este:
 
 - a. inovația
 - b. ritualismul
@@ -873,7 +1497,7 @@ cssclasses: test
 > 
 > Ritualismul păstrează mijloacele și abandonează scopurile.
 
-### 73. Teoria etichetării susține că:
+### 125. Teoria etichetării susține că:
 
 - a. devianța rezultă din aplicarea socială a unei etichete
 - b. devianța este înnăscută
@@ -885,7 +1509,7 @@ cssclasses: test
 > 
 > Autorul principal este Howard Becker.
 
-### 74. Durkheim consideră devianța moderată:
+### 126. Durkheim consideră devianța moderată:
 
 - a. normală și utilă, fiindcă reafirmă normele
 - b. un semn de prăbușire socială
@@ -897,7 +1521,7 @@ cssclasses: test
 > 
 > Reacția colectivă la devianță întărește conștiința comună.
 
-### 75. Familia care cuprinde, pe lângă părinți și copii, și alte generații se numește:
+### 127. Familia care cuprinde, pe lângă părinți și copii, și alte generații se numește:
 
 - a. extinsă
 - b. nucleară
@@ -909,7 +1533,7 @@ cssclasses: test
 > 
 > Familia nucleară cuprinde doar părinții și copiii.
 
-### 76. Conceptul de „capital cultural” aparține lui:
+### 128. Conceptul de „capital cultural” aparține lui:
 
 - a. Pierre Bourdieu
 - b. Robert Merton
@@ -921,7 +1545,7 @@ cssclasses: test
 > 
 > El explică reproducerea inegalităților prin școală.
 
-### 77. Agenda-setting înseamnă că mass-media:
+### 129. Agenda-setting înseamnă că mass-media:
 
 - a. stabilește despre ce subiecte discută publicul
 - b. impune direct opiniile
@@ -933,7 +1557,7 @@ cssclasses: test
 > 
 > Selecția temelor contează adesea mai mult decât conținutul.
 
-### 78. Solidaritatea organică se bazează pe:
+### 130. Solidaritatea organică se bazează pe:
 
 - a. diviziunea muncii și interdependența funcțiilor
 - b. asemănarea membrilor
@@ -945,7 +1569,7 @@ cssclasses: test
 > 
 > Solidaritatea mecanică se bazează pe asemănare.
 
-### 79. Trecerea de la Gemeinschaft la Gesellschaft a fost descrisă de:
+### 131. Trecerea de la Gemeinschaft la Gesellschaft a fost descrisă de:
 
 - a. Ferdinand Tönnies
 - b. Émile Durkheim
@@ -957,7 +1581,7 @@ cssclasses: test
 > 
 > Durkheim a descris trecerea de la solidaritatea mecanică la cea organică.
 
-### 80. O politică socială se evaluează corect prin:
+### 132. O politică socială se evaluează corect prin:
 
 - a. indicatori măsurabili ai rezultatelor
 - b. bugetul alocat

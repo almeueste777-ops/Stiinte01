@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Mobilitate, studii, interculturalitate
 
-[[Limba modernă 2 (Franceză) (clasa a XII-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XII-a]] · lecția 9 din 9
+[[Limba modernă 2 (Franceză) (clasa a XII-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XII-a]] · lecția 9 din 18
 
 **Capitolul:** Teme contemporane — semestrul 2
 
@@ -29,6 +29,6 @@ Studiile și munca în spațiul francofon presupun cunoașterea procedurilor: ec
 
 ---
 
-⬅ [[Tehnologie, muncă, societate]]
+⬅ [[Tehnologie, muncă, societate]] · [[Subjonctivul - forme și folosire]] ➡
 
 Exersează: [[Carduri - Limba modernă 2 (Franceză) (clasa a XII-a)]] · [[Test - Limba modernă 2 (Franceză) (clasa a XII-a)]]

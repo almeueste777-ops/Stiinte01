@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Trigonometrie în triunghiul dreptunghic
 
-[[Matematică (clasa a IX-a)|Matematică]] · [[Clasa a IX-a]] · lecția 7 din 9
+[[Matematică (clasa a IX-a)|Matematică]] · [[Clasa a IX-a]] · lecția 7 din 18
 
 **Capitolul:** Trigonometrie și vectori — semestrul 2
 

@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Societatea feudală și structurile ei
 
-[[Istorie (clasa a IX-a)|Istorie]] · [[Clasa a IX-a]] · lecția 7 din 12
+[[Istorie (clasa a IX-a)|Istorie]] · [[Clasa a IX-a]] · lecția 7 din 24
 
 **Capitolul:** Evul Mediu european — semestrul 2
 

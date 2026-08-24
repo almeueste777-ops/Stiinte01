@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Ficțiune și realitate
 
-[[Limba și literatura română (clasa a IX-a)|Limba și literatura română]] · [[Clasa a IX-a]] · lecția 1 din 9
+[[Limba și literatura română (clasa a IX-a)|Limba și literatura română]] · [[Clasa a IX-a]] · lecția 1 din 20
 
 **Capitolul:** Ficțiunea și lumea textului — semestrul 1
 

@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Religie (clasa a XII-a)
 
-54 întrebări din [[Religie (clasa a XII-a)|Religie (clasa a XII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+102 întrebări din [[Religie (clasa a XII-a)|Religie (clasa a XII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Libertatea morală înseamnă:
 
@@ -441,127 +441,343 @@ cssclasses: test
 > 
 > Conexiunea tehnică nu înlocuiește relația.
 
-### 37. Fără libertate nu există:
+### 37. Fericirile deschid:
 
-- a. nici merit, nici vină
-- b. nici lege
-- c. nici societate
-- d. nici cunoaștere
-
-> [!success]- Răspuns
-> **a. nici merit, nici vină**
-> 
-> De aceea morala pornește de la libertate.
-
-### 38. Patima acționează asupra libertății prin:
-
-- a. îngustarea câmpului alegerilor
-- b. lărgirea posibilităților
-- c. suspendarea responsabilității
-- d. creșterea cunoașterii
+- a. Predica de pe Munte
+- b. rugăciunea „Tatăl nostru”
+- c. Decalogul
+- d. Faptele Apostolilor
 
 > [!success]- Răspuns
-> **a. îngustarea câmpului alegerilor**
+> **a. Predica de pe Munte**
 > 
-> Mecanismul e vizibil în dependențe.
+> Sunt în număr de nouă.
 
-### 39. Conștiința morală:
+### 38. „Sărăcia cu duhul” înseamnă:
 
-- a. trebuie ascultată, dar și formată
-- b. este infailibilă
-- c. nu poate fi educată
-- d. nu are rol în decizii
+- a. smerenia și conștiința nevoii de Dumnezeu
+- b. lipsa de inteligență
+- c. sărăcia materială impusă
+- d. nepăsarea
 
 > [!success]- Răspuns
-> **a. trebuie ascultată, dar și formată**
+> **a. smerenia și conștiința nevoii de Dumnezeu**
 > 
-> Buna-credință singură nu garantează corectitudinea.
+> Este cea dintâi Fericire.
 
-### 40. Legea morală naturală explică:
+### 39. Fericirile propun o măsură a reușitei:
 
-- a. prezența unor norme comune în culturi diferite
-- b. diferențele dintre religii
-- c. apariția statului
-- d. evoluția limbajului
+- a. diferită de cea a lumii
+- b. identică cu bogăția și puterea
+- c. imposibil de urmat
+- d. rezervată monahilor
 
 > [!success]- Răspuns
-> **a. prezența unor norme comune în culturi diferite**
+> **a. diferită de cea a lumii**
 > 
-> Decalogul o formulează explicit.
+> Ele răstoarnă ierarhia obișnuită.
 
-### 41. Regula de aur spune:
+### 40. Făcătorii de pace sunt numiți, în Fericiri:
 
-- a. faceți altora ceea ce ați vrea să vi se facă vouă
-- b. nu faceți rău nimănui
-- c. respectați legea
-- d. iubiți-vă familia
+- a. fericiți, fii ai lui Dumnezeu
+- b. naivi
+- c. slabi
+- d. învinși
 
 > [!success]- Răspuns
-> **a. faceți altora ceea ce ați vrea să vi se facă vouă**
+> **a. fericiți, fii ai lui Dumnezeu**
 > 
-> E un criteriu practic de decizie.
+> Pacea este o valoare centrală a Evangheliei.
 
-### 42. Tradiția creștină vorbește despre:
+### 41. Viața morală creștină izvorăște, în primul rând, din:
 
-- a. opt patimi principale
-- b. șapte virtuți teologice
-- c. zece patimi
-- d. trei patimi
+- a. o viață interioară hrănită de rugăciune
+- b. reguli exterioare
+- c. teama de pedeapsă
+- d. obișnuință socială
 
 > [!success]- Răspuns
-> **a. opt patimi principale**
+> **a. o viață interioară hrănită de rugăciune**
 > 
-> Fiecăreia i se opune o virtute.
+> Nu se reduce la norme.
 
-### 43. Etapele formării unei patimi se încheie cu:
+### 42. Trezvia înseamnă:
 
-- a. robia
-- b. consimțământul
-- c. fapta
-- d. gândul
+- a. atenția la gândurile care pregătesc faptele
+- b. neatenția
+- c. graba
+- d. somnul
 
 > [!success]- Răspuns
-> **a. robia**
+> **a. atenția la gândurile care pregătesc faptele**
 > 
-> Intervenția e cea mai ușoară la început.
+> Fără ea, omul este purtat de impulsuri.
 
-### 44. Demnitatea persoanei, în viziunea creștină, vine din:
+### 43. Rugăciunea poate fi:
 
-- a. crearea omului după chipul lui Dumnezeu
-- b. meritele personale
-- c. utilitatea socială
-- d. apartenența la un grup
+- a. rostită cu cuvinte, dar și tăcută
+- b. doar publică
+- c. doar în biserică
+- d. doar de cerere
 
 > [!success]- Răspuns
-> **a. crearea omului după chipul lui Dumnezeu**
+> **a. rostită cu cuvinte, dar și tăcută**
 > 
-> De aceea nu poate fi pierdută.
+> Are mai multe forme.
 
-### 45. Creștinismul afirmă despre trup:
+### 44. Examinarea cinstită a zilei hrănește:
 
-- a. învierea lui
-- b. disprețul față de el
+- a. discernământul și alegerile bune
+- b. mândria
 - c. indiferența
-- d. eliberarea sufletului de el
+- d. graba
 
 > [!success]- Răspuns
-> **a. învierea lui**
+> **a. discernământul și alegerile bune**
 > 
-> De aici cinstirea trupului.
+> Este o formă de cugetare la propriile fapte.
 
-### 46. Valorile familiei creștine sunt:
+### 45. Iisus cere să iertăm:
 
-- a. fidelitatea, respectul, responsabilitatea, deschiderea spre viață
-- b. autoritatea, supunerea, tăcerea
-- c. prosperitatea și prestigiul
-- d. independența totală a soților
+- a. fără măsură
+- b. de cel mult șapte ori
+- c. o singură dată
+- d. numai pe cei apropiați
 
 > [!success]- Răspuns
-> **a. fidelitatea, respectul, responsabilitatea, deschiderea spre viață**
+> **a. fără măsură**
 > 
-> Violența le contrazice frontal.
+> „De șaptezeci de ori câte șapte.”
 
-### 47. Munca este, în tradiția biblică:
+### 46. A ierta înseamnă:
+
+- a. a renunța la răzbunare și la ură
+- b. a spune că răul nu a contat
+- c. a uita cu totul
+- d. a renunța la dreptate
+
+> [!success]- Răspuns
+> **a. a renunța la răzbunare și la ură**
+> 
+> Iertarea nu exclude dreptatea.
+
+### 47. Iertarea eliberează, în primul rând:
+
+- a. pe cel care iartă
+- b. pe cel care a greșit
+- c. societatea
+- d. pe judecător
+
+> [!success]- Răspuns
+> **a. pe cel care iartă**
+> 
+> Din lanțul urii și al amărăciunii.
+
+### 48. Reconcilierea deplină cere:
+
+- a. atât iertarea, cât și îndreptarea
+- b. doar iertarea
+- c. doar pedeapsa
+- d. uitarea
+
+> [!success]- Răspuns
+> **a. atât iertarea, cât și îndreptarea**
+> 
+> De aceea, uneori, doar iertarea lăuntrică rămâne cu putință.
+
+### 49. Prietenia adevărată se întemeiază pe:
+
+- a. încredere, sinceritate și respect
+- b. interes și folos
+- c. teamă
+- d. obișnuință
+
+> [!success]- Răspuns
+> **a. încredere, sinceritate și respect**
+> 
+> Ea vrea binele celuilalt.
+
+### 50. Iubirea creștină cea mai înaltă, agapé, este:
+
+- a. dăruire necondiționată
+- b. doar sentiment
+- c. un schimb de foloase
+- d. o obligație formală
+
+> [!success]- Răspuns
+> **a. dăruire necondiționată**
+> 
+> După modelul iubirii lui Dumnezeu.
+
+### 51. Iubirea creștină este, în esență:
+
+- a. hotărâre și faptă, nu doar sentiment
+- b. o simplă emoție
+- c. un contract
+- d. o stare trecătoare
+
+> [!success]- Răspuns
+> **a. hotărâre și faptă, nu doar sentiment**
+> 
+> Ea rabdă, iartă și rămâne statornică.
+
+### 52. Alegerea prietenilor:
+
+- a. modelează caracterul
+- b. este neutră moral
+- c. nu are urmări
+- d. privește doar gusturile
+
+> [!success]- Răspuns
+> **a. modelează caracterul**
+> 
+> „Spune-mi cu cine te însoțești...”
+
+### 53. Cuvântul, în tradiția biblică:
+
+- a. poate zidi sau dărâma
+- b. este neutru
+- c. nu are urmări
+- d. privește doar comunicarea publică
+
+> [!success]- Răspuns
+> **a. poate zidi sau dărâma**
+> 
+> Omul are darul cuvântului, după chipul lui Dumnezeu.
+
+### 54. Minciuna este gravă pentru că:
+
+- a. rupe încrederea pe care se sprijină comunitatea
+- b. este ușor de descoperit
+- c. supără interlocutorul
+- d. încalcă o regulă formală
+
+> [!success]- Răspuns
+> **a. rupe încrederea pe care se sprijină comunitatea**
+> 
+> De aici și gravitatea dezinformării.
+
+### 55. Vorbirea de rău a celui absent se numește:
+
+- a. clevetire
+- b. mărturisire
+- c. mângâiere
+- d. îndemn
+
+> [!success]- Răspuns
+> **a. clevetire**
+> 
+> Este o formă de rănire prin cuvânt.
+
+### 56. În epoca digitală, conștiința este angajată și de:
+
+- a. ceea ce transmiți mai departe
+- b. doar ceea ce spui tu
+- c. doar ceea ce publici oficial
+- d. nimic, dacă ai bună-credință
+
+> [!success]- Răspuns
+> **a. ceea ce transmiți mai departe**
+> 
+> Informația falsă produce efecte reale.
+
+### 57. Dreptatea înseamnă:
+
+- a. a da fiecăruia ceea ce i se cuvine
+- b. a-i favoriza pe cei apropiați
+- c. a împărți totul la fel, fără temei
+- d. a evita orice conflict
+
+> [!success]- Răspuns
+> **a. a da fiecăruia ceea ce i se cuvine**
+> 
+> Ea are o dimensiune personală și una socială.
+
+### 58. Pacea biblică, șalom, este:
+
+- a. rânduială și bună-înțelegere
+- b. doar lipsa războiului
+- c. indiferența
+- d. resemnarea
+
+> [!success]- Răspuns
+> **a. rânduială și bună-înțelegere**
+> 
+> Ea cuprinde bunăstare și relații drepte.
+
+### 59. Milostenia, în raport cu dreptatea:
+
+- a. o completează, fără să o înlocuiască
+- b. o înlocuiește
+- c. o contrazice
+- d. este de prisos
+
+> [!success]- Răspuns
+> **a. o completează, fără să o înlocuiască**
+> 
+> Structurile nedrepte cer și schimbare.
+
+### 60. Făcătorii de pace sunt numiți, în Fericiri:
+
+- a. fii ai lui Dumnezeu
+- b. naivi
+- c. învinși
+- d. neputincioși
+
+> [!success]- Răspuns
+> **a. fii ai lui Dumnezeu**
+> 
+> Pacea cere dreptate și iertare.
+
+### 61. Tradiția creștină întemeiază responsabilitatea ecologică pe:
+
+- a. creația încredințată omului spre a o lucra și a o păzi
+- b. interzicerea folosirii resurselor
+- c. indiferența față de materie
+- d. stăpânirea absolută a omului
+
+> [!success]- Răspuns
+> **a. creația încredințată omului spre a o lucra și a o păzi**
+> 
+> Stăpânirea este slujire, nu exploatare.
+
+### 62. Grija față de mediu este și grijă față de:
+
+- a. cei săraci și generațiile viitoare
+- b. doar cei bogați
+- c. doar prezent
+- d. nimeni
+
+> [!success]- Răspuns
+> **a. cei săraci și generațiile viitoare**
+> 
+> Ei suferă cel mai mult de pe urma degradării.
+
+### 63. Risipa și distrugerea fără rost:
+
+- a. contrazic recunoștința față de darul creației
+- b. sunt neutre moral
+- c. sunt recomandate
+- d. privesc doar economia
+
+> [!success]- Răspuns
+> **a. contrazic recunoștința față de darul creației**
+> 
+> Cumpătarea exprimă o atitudine responsabilă.
+
+### 64. Dezvoltarea durabilă se întâlnește cu învățătura creștină prin:
+
+- a. grija de a nu compromite viitorul
+- b. exploatarea maximă a resurselor
+- c. oprirea oricărei dezvoltări
+- d. indiferența
+
+> [!success]- Răspuns
+> **a. grija de a nu compromite viitorul**
+> 
+> Creația este dar și responsabilitate.
+
+### 65. Munca este, în tradiția biblică:
 
 - a. o chemare
 - b. o pedeapsă pentru păcat
@@ -573,7 +789,367 @@ cssclasses: test
 > 
 > Omul primește grădina spre lucrare.
 
-### 48. Milostenia:
+### 66. Exploatarea muncii și neplata ei sunt:
+
+- a. condamnate explicit în Scriptură
+- b. îngăduite
+- c. indiferente moral
+- d. recomandate economic
+
+> [!success]- Răspuns
+> **a. condamnate explicit în Scriptură**
+> 
+> Reținerea plății este o nedreptate strigătoare.
+
+### 67. Averea, în viziunea creștină:
+
+- a. este bună, dar nu este scop
+- b. este rea în sine
+- c. este scopul vieții
+- d. nu privește morala
+
+> [!success]- Răspuns
+> **a. este bună, dar nu este scop**
+> 
+> Lăcomia transformă mijloacele în ținte.
+
+### 68. Dreptatea socială și milostenia:
+
+- a. merg împreună
+- b. se exclud
+- c. sunt același lucru
+- d. sunt de prisos
+
+> [!success]- Răspuns
+> **a. merg împreună**
+> 
+> Una schimbă structurile, cealaltă ajută concret.
+
+### 69. Solidaritatea este:
+
+- a. conștiința legăturii și a răspunderii reciproce
+- b. indiferența
+- c. interesul propriu
+- d. izolarea
+
+> [!success]- Răspuns
+> **a. conștiința legăturii și a răspunderii reciproce**
+> 
+> Toți oamenii sunt frați.
+
+### 70. Aproapele, în pilda samarineanului, este:
+
+- a. oricine are nevoie de ajutor
+- b. doar cel din familie
+- c. doar cel de aceeași credință
+- d. doar prietenul
+
+> [!success]- Răspuns
+> **a. oricine are nevoie de ajutor**
+> 
+> Indiferent de neam sau religie.
+
+### 71. Voluntariatul îl formează și pe:
+
+- a. cel care dăruiește
+- b. numai pe cel ajutat
+- c. nimeni
+- d. societatea, dar nu persoana
+
+> [!success]- Răspuns
+> **a. cel care dăruiește**
+> 
+> Îl scoate din închiderea în sine.
+
+### 72. Faptele milei sunt, în Evanghelie:
+
+- a. măsura după care se judecă viața
+- b. o simplă recomandare
+- c. fără însemnătate
+- d. rezervate unora
+
+> [!success]- Răspuns
+> **a. măsura după care se judecă viața**
+> 
+> A hrăni, a cerceta, a mângâia.
+
+### 73. Fericirile deschid:
+
+- a. Predica de pe Munte
+- b. Decalogul
+- c. rugăciunea „Tatăl nostru”
+- d. Faptele Apostolilor
+
+> [!success]- Răspuns
+> **a. Predica de pe Munte**
+> 
+> Sunt în număr de nouă.
+
+### 74. „Sărăcia cu duhul” înseamnă:
+
+- a. smerenia și conștiința nevoii de Dumnezeu
+- b. lipsa de inteligență
+- c. sărăcia materială
+- d. nepăsarea
+
+> [!success]- Răspuns
+> **a. smerenia și conștiința nevoii de Dumnezeu**
+> 
+> Este cea dintâi Fericire.
+
+### 75. Trezvia înseamnă:
+
+- a. atenția la gândurile care pregătesc faptele
+- b. graba
+- c. neatenția
+- d. somnul
+
+> [!success]- Răspuns
+> **a. atenția la gândurile care pregătesc faptele**
+> 
+> Din ea crește discernământul.
+
+### 76. Iisus cere să iertăm:
+
+- a. fără măsură
+- b. de cel mult șapte ori
+- c. o singură dată
+- d. numai pe cei apropiați
+
+> [!success]- Răspuns
+> **a. fără măsură**
+> 
+> „De șaptezeci de ori câte șapte.”
+
+### 77. A ierta înseamnă:
+
+- a. a renunța la răzbunare și la ură
+- b. a spune că răul nu a contat
+- c. a renunța la dreptate
+- d. a uita cu totul
+
+> [!success]- Răspuns
+> **a. a renunța la răzbunare și la ură**
+> 
+> Iertarea nu exclude dreptatea.
+
+### 78. Viața morală creștină izvorăște, în primul rând, din:
+
+- a. o viață interioară hrănită de rugăciune
+- b. reguli exterioare
+- c. teama de pedeapsă
+- d. obișnuință
+
+> [!success]- Răspuns
+> **a. o viață interioară hrănită de rugăciune**
+> 
+> Nu se reduce la norme.
+
+### 79. Fără libertate nu există:
+
+- a. nici merit, nici vină
+- b. nici lege
+- c. nici societate
+- d. nici cunoaștere
+
+> [!success]- Răspuns
+> **a. nici merit, nici vină**
+> 
+> De aceea morala pornește de la libertate.
+
+### 80. Patima acționează asupra libertății prin:
+
+- a. îngustarea câmpului alegerilor
+- b. lărgirea posibilităților
+- c. suspendarea responsabilității
+- d. creșterea cunoașterii
+
+> [!success]- Răspuns
+> **a. îngustarea câmpului alegerilor**
+> 
+> Mecanismul e vizibil în dependențe.
+
+### 81. Conștiința morală:
+
+- a. trebuie ascultată, dar și formată
+- b. este infailibilă
+- c. nu poate fi educată
+- d. nu are rol în decizii
+
+> [!success]- Răspuns
+> **a. trebuie ascultată, dar și formată**
+> 
+> Buna-credință singură nu garantează corectitudinea.
+
+### 82. Legea morală naturală explică:
+
+- a. prezența unor norme comune în culturi diferite
+- b. diferențele dintre religii
+- c. apariția statului
+- d. evoluția limbajului
+
+> [!success]- Răspuns
+> **a. prezența unor norme comune în culturi diferite**
+> 
+> Decalogul o formulează explicit.
+
+### 83. Regula de aur spune:
+
+- a. faceți altora ceea ce ați vrea să vi se facă vouă
+- b. nu faceți rău nimănui
+- c. respectați legea
+- d. iubiți-vă familia
+
+> [!success]- Răspuns
+> **a. faceți altora ceea ce ați vrea să vi se facă vouă**
+> 
+> E un criteriu practic de decizie.
+
+### 84. Tradiția creștină vorbește despre:
+
+- a. opt patimi principale
+- b. șapte virtuți teologice
+- c. zece patimi
+- d. trei patimi
+
+> [!success]- Răspuns
+> **a. opt patimi principale**
+> 
+> Fiecăreia i se opune o virtute.
+
+### 85. Etapele formării unei patimi se încheie cu:
+
+- a. robia
+- b. consimțământul
+- c. fapta
+- d. gândul
+
+> [!success]- Răspuns
+> **a. robia**
+> 
+> Intervenția e cea mai ușoară la început.
+
+### 86. Demnitatea persoanei, în viziunea creștină, vine din:
+
+- a. crearea omului după chipul lui Dumnezeu
+- b. meritele personale
+- c. utilitatea socială
+- d. apartenența la un grup
+
+> [!success]- Răspuns
+> **a. crearea omului după chipul lui Dumnezeu**
+> 
+> De aceea nu poate fi pierdută.
+
+### 87. Creștinismul afirmă despre trup:
+
+- a. învierea lui
+- b. disprețul față de el
+- c. indiferența
+- d. eliberarea sufletului de el
+
+> [!success]- Răspuns
+> **a. învierea lui**
+> 
+> De aici cinstirea trupului.
+
+### 88. Prietenia adevărată se întemeiază pe:
+
+- a. încredere, sinceritate și respect
+- b. interes și folos
+- c. teamă
+- d. obișnuință
+
+> [!success]- Răspuns
+> **a. încredere, sinceritate și respect**
+> 
+> Ea vrea binele celuilalt.
+
+### 89. Iubirea creștină cea mai înaltă, agapé, este:
+
+- a. dăruire necondiționată
+- b. doar sentiment
+- c. un schimb de foloase
+- d. o obligație formală
+
+> [!success]- Răspuns
+> **a. dăruire necondiționată**
+> 
+> După modelul iubirii lui Dumnezeu.
+
+### 90. Pacea biblică, șalom, înseamnă:
+
+- a. rânduială și bună-înțelegere
+- b. doar lipsa războiului
+- c. indiferența
+- d. resemnarea
+
+> [!success]- Răspuns
+> **a. rânduială și bună-înțelegere**
+> 
+> Cuprinde bunăstare și relații drepte.
+
+### 91. Responsabilitatea ecologică are, în tradiția creștină, temeiul în:
+
+- a. creația încredințată omului spre a o lucra și a o păzi
+- b. interzicerea folosirii resurselor
+- c. indiferența față de materie
+- d. stăpânirea absolută
+
+> [!success]- Răspuns
+> **a. creația încredințată omului spre a o lucra și a o păzi**
+> 
+> Stăpânirea este slujire.
+
+### 92. Munca este, în tradiția biblică:
+
+- a. o chemare
+- b. o pedeapsă
+- c. indiferentă moral
+- d. rezervată unora
+
+> [!success]- Răspuns
+> **a. o chemare**
+> 
+> Omul primește grădina spre lucrare.
+
+### 93. Voluntariatul înseamnă:
+
+- a. a dărui timp și pricepere, fără plată, spre binele altora
+- b. a ajuta doar contra plată
+- c. a te ocupa doar de tine
+- d. o obligație impusă
+
+> [!success]- Răspuns
+> **a. a dărui timp și pricepere, fără plată, spre binele altora**
+> 
+> El îl formează și pe cel care dăruiește.
+
+### 94. Valorile familiei creștine sunt:
+
+- a. fidelitatea, respectul, responsabilitatea, deschiderea spre viață
+- b. autoritatea, supunerea, tăcerea
+- c. prosperitatea și prestigiul
+- d. independența totală a soților
+
+> [!success]- Răspuns
+> **a. fidelitatea, respectul, responsabilitatea, deschiderea spre viață**
+> 
+> Violența le contrazice frontal.
+
+### 95. Munca este, în tradiția biblică:
+
+- a. o chemare
+- b. o pedeapsă pentru păcat
+- c. indiferentă moral
+- d. rezervată unora
+
+> [!success]- Răspuns
+> **a. o chemare**
+> 
+> Omul primește grădina spre lucrare.
+
+### 96. Milostenia:
 
 - a. completează dreptatea, fără să o înlocuiască
 - b. înlocuiește dreptatea
@@ -585,7 +1161,7 @@ cssclasses: test
 > 
 > Structurile nedrepte cer schimbare.
 
-### 49. „Sarea pământului” și „lumina lumii” sunt imagini ale:
+### 97. „Sarea pământului” și „lumina lumii” sunt imagini ale:
 
 - a. prezenței active a creștinului în lume
 - b. retragerii din lume
@@ -597,7 +1173,7 @@ cssclasses: test
 > 
 > Creștinismul cere implicare responsabilă.
 
-### 50. Statul laic este:
+### 98. Statul laic este:
 
 - a. neutru față de confesiuni
 - b. antireligios
@@ -609,7 +1185,7 @@ cssclasses: test
 > 
 > Garantează libertatea religioasă tuturor.
 
-### 51. Distincția esențială la sfârșitul vieții este între:
+### 99. Distincția esențială la sfârșitul vieții este între:
 
 - a. eutanasie și renunțarea la tratamente disproporționate
 - b. spital și îngrijire la domiciliu
@@ -621,7 +1197,7 @@ cssclasses: test
 > 
 > A doua nu urmărește provocarea morții.
 
-### 52. Îngrijirea paliativă:
+### 100. Îngrijirea paliativă:
 
 - a. combate durerea și însoțește bolnavul
 - b. grăbește sfârșitul
@@ -633,7 +1209,7 @@ cssclasses: test
 > 
 > E considerată răspunsul corect la suferința terminală.
 
-### 53. Verificarea surselor de informație este:
+### 101. Verificarea surselor de informație este:
 
 - a. o chestiune morală
 - b. doar o deprindere tehnică
@@ -645,7 +1221,7 @@ cssclasses: test
 > 
 > Dezinformarea produce daune reale.
 
-### 54. Responsabilitatea ecologică are, în tradiția creștină, temeiul în:
+### 102. Responsabilitatea ecologică are, în tradiția creștină, temeiul în:
 
 - a. încredințarea creației omului
 - b. interzicerea folosirii resurselor

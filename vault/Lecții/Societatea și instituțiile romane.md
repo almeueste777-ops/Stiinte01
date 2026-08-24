@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Societatea și instituțiile romane
 
-[[Limba latină (clasa a X-a)|Limba latină]] · [[Clasa a X-a]] · lecția 8 din 9
+[[Limba latină (clasa a X-a)|Limba latină]] · [[Clasa a X-a]] · lecția 8 din 18
 
 **Capitolul:** Texte și civilizație — semestrul 2
 

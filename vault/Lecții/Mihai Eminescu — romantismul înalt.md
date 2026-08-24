@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Mihai Eminescu — romantismul înalt
 
-[[Limba și literatura română (clasa a XI-a)|Limba și literatura română]] · [[Clasa a XI-a]] · lecția 5 din 9
+[[Limba și literatura română (clasa a XI-a)|Limba și literatura română]] · [[Clasa a XI-a]] · lecția 5 din 20
 
 **Capitolul:** Curente culturale până la 1848 — semestrul 1
 

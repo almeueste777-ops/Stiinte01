@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)
 
-36 carduri pentru [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+64 carduri pentru [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/tehnologia-informatiei-si-a-comunicatiilor-tic
 
@@ -82,6 +82,62 @@ Cum se structurează o prezentare de proiect?::Problemă, soluție, demonstrați
 De ce se pregătește o variantă de rezervă pentru demonstrație?::Pentru cazul în care demonstrația live nu funcționează.
 
 De ce se menționează limitele cunoscute?::Pentru că întăresc credibilitatea și ajută pe cine continuă proiectul.
+
+Ce descrie HTML?::Structura (sensul) unei pagini web.
+
+Ce conține secțiunea head?::Metadatele: titlu, codare, legături.
+
+Ce etichetă marchează un paragraf?::Eticheta p (<p>).
+
+Ce dă aspectul unei pagini, dacă nu HTML?::CSS-ul.
+
+Ce descrie CSS?::Aspectul paginilor: culori, fonturi, așezare.
+
+Din ce se compune o regulă CSS?::Un selector și un bloc de declarații.
+
+Care mod de a pune stiluri e recomandat?::Fișierul CSS extern.
+
+Cum se scrie un selector de clasă?::Cu punct: .nume.
+
+Ce etichetă creează o legătură?::Eticheta a, cu atributul href.
+
+Ce rol are atributul alt la imagini?::Text alternativ pentru accesibilitate.
+
+Din ce se compune un rând de tabel?::Din celule th (antet) sau td (date).
+
+Ce atribut indică destinația unei legături?::Atributul href.
+
+Din ce e formată o imagine raster?::Din pixeli.
+
+De ce o imagine vectorială se mărește fără pierdere?::E descrisă prin formule geometrice.
+
+Ce format raster e bun pentru fotografii?::JPEG.
+
+Ce format raster păstrează transparența?::PNG.
+
+Cum se digitizează sunetul?::Prin eșantionare și cuantizare.
+
+Ce format audio e necomprimat?::WAV.
+
+Ce parametri descriu un video?::Rezoluția și rata de cadre (fps).
+
+Ce face un codec?::Comprimă și decomprimă sunetul sau videoul.
+
+Care sunt etapele unui proiect digital?::Analiză, proiectare, realizare, testare, publicare, întreținere.
+
+Ce este un wireframe?::O schiță a structurii și așezării, înainte de realizare.
+
+Ce stabilește etapa de analiză?::Scopul, publicul-țintă și cerințele.
+
+Ce ajută întreținerea unui proiect?::Documentarea.
+
+Ce este phishingul?::O înșelătorie prin mesaje care cer date, imitând surse de încredere.
+
+Cum se protejează un cont?::Prin parole puternice, diferite, și autentificare în doi pași.
+
+Ce este amprenta digitală?::Urmele lăsate de o persoană pe internet.
+
+Ce înseamnă respectarea dreptului de autor?::A nu copia și distribui fără permisiune.
 
 ---
 

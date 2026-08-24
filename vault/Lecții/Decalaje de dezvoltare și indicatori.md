@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Decalaje de dezvoltare și indicatori
 
-[[Geografie (clasa a X-a)|Geografie]] · [[Clasa a X-a]] · lecția 9 din 9
+[[Geografie (clasa a X-a)|Geografie]] · [[Clasa a X-a]] · lecția 9 din 20
 
 **Capitolul:** Harta politică și decalajele — semestrul 2
 
@@ -29,6 +29,6 @@ Decalajele de dezvoltare separă țările dezvoltate de cele în curs de dezvolt
 
 ---
 
-⬅ [[Statele lumii și organizațiile internaționale]]
+⬅ [[Statele lumii și organizațiile internaționale]] · [[Rasele umane, limbile și religiile]] ➡
 
 Exersează: [[Carduri - Geografie (clasa a X-a)]] · [[Test - Geografie (clasa a X-a)]]

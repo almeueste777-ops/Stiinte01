@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Sfinții și modelele de viață
 
-[[Religie (clasa a XIII-a)|Religie]] · [[Clasa a XIII-a]] · lecția 2 din 9
+[[Religie (clasa a XIII-a)|Religie]] · [[Clasa a XIII-a]] · lecția 2 din 18
 
 **Capitolul:** Spiritualitatea ortodoxă — semestrul 1
 

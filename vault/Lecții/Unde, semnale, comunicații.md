@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Unde, semnale, comunicații
 
-[[ȘTIAM (științe integrate) (clasa a XI-a)|ȘTIAM (științe integrate)]] · [[Clasa a XI-a]] · lecția 6 din 9
+[[ȘTIAM (științe integrate) (clasa a XI-a)|ȘTIAM (științe integrate)]] · [[Clasa a XI-a]] · lecția 6 din 16
 
 **Capitolul:** Materie și energie — semestrul 1
 

@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Structuri repetitive și prelucrarea datelor
 
-[[Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a X-a]] · lecția 8 din 9
+[[Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a X-a]] · lecția 8 din 16
 
 **Capitolul:** Algoritmi și gândire computațională — semestrul 2
 

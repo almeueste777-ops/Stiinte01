@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Structura probei B
 
-[[Limba modernă 1 (Engleză) (clasa a XII-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XII-a]] · lecția 7 din 9
+[[Limba modernă 1 (Engleză) (clasa a XII-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XII-a]] · lecția 7 din 18
 
 **Capitolul:** Proba de competențe lingvistice — semestrul 2
 

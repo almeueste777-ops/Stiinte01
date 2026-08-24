@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Creștinismul și provocările contemporane
 
-[[Religie (clasa a XII-a)|Religie]] · [[Clasa a XII-a]] · lecția 9 din 9
+[[Religie (clasa a XII-a)|Religie]] · [[Clasa a XII-a]] · lecția 9 din 18
 
 **Capitolul:** Responsabilitate socială și bioetică — semestrul 2
 
@@ -29,6 +29,6 @@ Secularizarea a mutat religia din centrul vieții publice spre sfera opțiunilor
 
 ---
 
-⬅ [[Bioetica]]
+⬅ [[Bioetica]] · [[Fericirile — programul vieții creștine]] ➡
 
 Exersează: [[Carduri - Religie (clasa a XII-a)]] · [[Test - Religie (clasa a XII-a)]]

@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Instituții și organizații sociale
 
-[[Sociologie (clasa a XI-a)|Sociologie]] · [[Clasa a XI-a]] · lecția 4 din 14
+[[Sociologie (clasa a XI-a)|Sociologie]] · [[Clasa a XI-a]] · lecția 4 din 24
 
 **Capitolul:** Grupuri, instituții, organizații — semestrul 1
 

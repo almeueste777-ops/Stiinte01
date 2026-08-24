@@ -14,11 +14,11 @@ cssclasses: fisa
 
 ## Anii de studiu
 
-- [[Istorie (clasa a IX-a)|Clasa a IX-a]] — 12 lecții, 48 carduri, 72 întrebări
-- [[Istorie (clasa a X-a)|Clasa a X-a]] — 12 lecții, 48 carduri, 72 întrebări
-- [[Istorie (clasa a XI-a)|Clasa a XI-a]] — 11 lecții, 44 carduri, 68 întrebări
-- [[Istorie (clasa a XII-a)|Clasa a XII-a]] — 12 lecții, 48 carduri, 72 întrebări
-- [[Istorie (clasa a XIII-a)|Clasa a XIII-a]] — 9 lecții, 36 carduri, 60 întrebări
+- [[Istorie (clasa a IX-a)|Clasa a IX-a]] — 24 lecții, 96 carduri, 132 întrebări
+- [[Istorie (clasa a X-a)|Clasa a X-a]] — 24 lecții, 96 carduri, 132 întrebări
+- [[Istorie (clasa a XI-a)|Clasa a XI-a]] — 24 lecții, 96 carduri, 132 întrebări
+- [[Istorie (clasa a XII-a)|Clasa a XII-a]] — 24 lecții, 96 carduri, 132 întrebări
+- [[Istorie (clasa a XIII-a)|Clasa a XIII-a]] — 22 lecții, 88 carduri, 118 întrebări
 
 ## Legături
 - [[00 Start aici]]

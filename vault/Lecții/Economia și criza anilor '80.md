@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Economia și criza anilor '80
 
-[[Istoria comunismului din România (clasa a XIII-a)|Istoria comunismului din România]] · [[Clasa a XIII-a]] · lecția 6 din 9
+[[Istoria comunismului din România (clasa a XIII-a)|Istoria comunismului din România]] · [[Clasa a XIII-a]] · lecția 6 din 18
 
 **Capitolul:** Regimul în evoluție — semestrul 1
 

@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Situații de comunicare
 
-[[Limba modernă 2 (Franceză) (clasa a IX-a)|Limba modernă 2 (Franceză)]] · [[Clasa a IX-a]] · lecția 8 din 9
+[[Limba modernă 2 (Franceză) (clasa a IX-a)|Limba modernă 2 (Franceză)]] · [[Clasa a IX-a]] · lecția 8 din 18
 
 **Capitolul:** Comunicare și vocabular — semestrul 2
 

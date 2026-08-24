@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Particularități ale textului narativ, liric și dramatic
 
-[[Limba și literatura română (clasa a XIII-a)|Limba și literatura română]] · [[Clasa a XIII-a]] · lecția 5 din 9
+[[Limba și literatura română (clasa a XIII-a)|Limba și literatura română]] · [[Clasa a XIII-a]] · lecția 5 din 20
 
 **Capitolul:** Eseul structurat: tipuri și metodă — semestrul 1
 

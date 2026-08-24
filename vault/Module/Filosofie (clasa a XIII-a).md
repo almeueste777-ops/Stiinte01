@@ -21,7 +21,7 @@ cssclasses: fisa
 
 Aprofundare: metafizică și existență, filosofia religiei, estetica, filosofia științei, curente contemporane și metoda eseului filosofic.
 
-## Capitole (3)
+## Capitole (7)
 
 ### Existența și cunoașterea ei — semestrul 1
 
@@ -41,9 +41,34 @@ Aprofundare: metafizică și existență, filosofia religiei, estetica, filosofi
 - [[Cum se scrie un eseu filosofic]]
 - [[Teme recurente și pregătirea pentru examen]]
 
+### Filosofia morală aprofundată — semestrul 1
+
+- [[Deontologia - Kant și etica datoriei]]
+- [[Consecințialismul - utilitarismul de la Bentham la Mill]]
+- [[Etica virtuții și etica aplicată]]
+
+### Filosofia politică aprofundată — semestrul 2
+
+- [[Contractul social - Hobbes, Locke, Rousseau]]
+- [[Teorii ale dreptății - Rawls, Nozick, comunitarism]]
+- [[Libertate, putere, democrație]]
+
+### Filosofia minții și a științei — semestrul 1
+
+- [[Problema minte-corp - dualism, materialism, funcționalism]]
+- [[Conștiința, identitatea personală și liberul arbitru]]
+- [[Inteligența artificială și filosofia]]
+- [[Explicație științifică, inducție și problema lui Hume]]
+
+### Fenomenologie, existențialism, estetică — semestrul 2
+
+- [[Existențialismul - libertate, angoasă, autenticitate]]
+- [[Fenomenologia și lumea trăită]]
+- [[Estetica - teorii ale artei și definiția operei]]
+
 ## Exersare
-- [[Carduri - Filosofie (clasa a XIII-a)]] — 36 carduri
-- [[Test - Filosofie (clasa a XIII-a)]] — 60 întrebări
+- [[Carduri - Filosofie (clasa a XIII-a)]] — 88 carduri
+- [[Test - Filosofie (clasa a XIII-a)]] — 124 întrebări
 
 ## Legături
 - [[Filosofie|Filosofie]]

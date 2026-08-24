@@ -10,7 +10,7 @@ clasa: "a XIII-a"
 ---
 # Estetica: frumosul, arta, gustul
 
-[[Filosofie (clasa a XIII-a)|Filosofie]] · [[Clasa a XIII-a]] · lecția 4 din 9
+[[Filosofie (clasa a XIII-a)|Filosofie]] · [[Clasa a XIII-a]] · lecția 4 din 22
 
 **Capitolul:** Valori și interpretare — semestrul 2
 

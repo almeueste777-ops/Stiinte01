@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Structura internă și tectonica plăcilor
 
-[[Geografie (clasa a IX-a)|Geografie]] · [[Clasa a IX-a]] · lecția 3 din 10
+[[Geografie (clasa a IX-a)|Geografie]] · [[Clasa a IX-a]] · lecția 3 din 20
 
 **Capitolul:** Relieful terestru — semestrul 1
 

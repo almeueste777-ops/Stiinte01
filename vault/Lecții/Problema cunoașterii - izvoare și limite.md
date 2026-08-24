@@ -10,7 +10,7 @@ clasa: "a XII-a"
 ---
 # Problema cunoașterii: izvoare și limite
 
-[[Filosofie (clasa a XII-a)|Filosofie]] · [[Clasa a XII-a]] · lecția 12 din 14
+[[Filosofie (clasa a XII-a)|Filosofie]] · [[Clasa a XII-a]] · lecția 12 din 24
 
 **Capitolul:** Cunoașterea — semestrul 2
 

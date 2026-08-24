@@ -20,7 +20,7 @@ cssclasses: fisa
 
 Noul Testament: viața și învățătura lui Iisus Hristos, Biserica primară și răspândirea creștinismului.
 
-## Capitole (3)
+## Capitole (6)
 
 ### Iisus Hristos în Evanghelii — semestrul 1
 
@@ -40,9 +40,27 @@ Noul Testament: viața și învățătura lui Iisus Hristos, Biserica primară �
 - [[Sinoadele și învățătura de credință]]
 - [[Creștinismul pe teritoriul românesc]]
 
+### Apostolii și scrierile Noului Testament — semestrul 1
+
+- [[Cei doisprezece Apostoli]]
+- [[Epistolele Sfântului Apostol Pavel]]
+- [[Epistolele sobornicești și Apocalipsa]]
+
+### Învățătura și lucrarea Mântuitorului — semestrul 2
+
+- [[Rugăciunea „Tatăl nostru”]]
+- [[Schimbarea la Față și descoperirea slavei]]
+- [[Femeile în Evanghelii]]
+
+### Răspândirea și viața Bisericii primare — semestrul 2
+
+- [[Călătoriile misionare ale Sfântului Pavel]]
+- [[Părinții apostolici și apologeții]]
+- [[Simboluri creștine și viața în catacombe]]
+
 ## Exersare
-- [[Carduri - Religie (clasa a X-a)]] — 36 carduri
-- [[Test - Religie (clasa a X-a)]] — 54 întrebări
+- [[Carduri - Religie (clasa a X-a)]] — 72 carduri
+- [[Test - Religie (clasa a X-a)]] — 102 întrebări
 
 ## Legături
 - [[Religie|Religie]]

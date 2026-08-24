@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Postmodernismul și literatura de după 1989
 
-[[Limba și literatura română (clasa a XII-a)|Limba și literatura română]] · [[Clasa a XII-a]] · lecția 10 din 10
+[[Limba și literatura română (clasa a XII-a)|Limba și literatura română]] · [[Clasa a XII-a]] · lecția 10 din 20
 
 **Capitolul:** Neomodernism și postmodernism — semestrul 2
 
@@ -29,6 +29,6 @@ Postmodernismul literar românesc se afirmă prin generația '80 (Mircea Cărtă
 
 ---
 
-⬅ [[Neomodernismul - Nichita Stănescu și generația '60]]
+⬅ [[Neomodernismul - Nichita Stănescu și generația '60]] · [[„Ion” de Liviu Rebreanu]] ➡
 
 Exersează: [[Carduri - Limba și literatura română (clasa a XII-a)]] · [[Test - Limba și literatura română (clasa a XII-a)]]

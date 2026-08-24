@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Instituțiile și societatea franceză
 
-[[Limba modernă 2 (Franceză) (clasa a XI-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XI-a]] · lecția 7 din 9
+[[Limba modernă 2 (Franceză) (clasa a XI-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XI-a]] · lecția 7 din 18
 
 **Capitolul:** Societate și cultură — semestrul 2
 
