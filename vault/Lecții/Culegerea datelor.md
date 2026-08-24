@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Culegerea datelor
 
-[[Matematică aplicată în științele sociale (clasa a XI-a)|Matematică aplicată în științele sociale]] · [[Clasa a XI-a]] · lecția 2 din 9
+[[Matematică aplicată în științele sociale (clasa a XI-a)|Matematică aplicată în științele sociale]] · [[Clasa a XI-a]] · lecția 2 din 18
 
 **Capitolul:** Date și reprezentări — semestrul 1
 

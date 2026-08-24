@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Autorii canonici și operele de referință
 
-[[Limba și literatura română (clasa a XIII-a)|Limba și literatura română]] · [[Clasa a XIII-a]] · lecția 8 din 9
+[[Limba și literatura română (clasa a XIII-a)|Limba și literatura română]] · [[Clasa a XIII-a]] · lecția 8 din 20
 
 **Capitolul:** Recapitulare pe autori canonici — semestrul 2
 

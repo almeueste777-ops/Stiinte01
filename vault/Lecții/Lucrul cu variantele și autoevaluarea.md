@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Lucrul cu variantele și autoevaluarea
 
-[[Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)|Pregătire pentru bacalaureat (CDEOȘ)]] · [[Clasa a XIII-a]] · lecția 6 din 9
+[[Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)|Pregătire pentru bacalaureat (CDEOȘ)]] · [[Clasa a XIII-a]] · lecția 6 din 20
 
 **Capitolul:** Tehnici de învățare și de examen — semestrul 2
 

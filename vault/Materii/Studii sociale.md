@@ -13,9 +13,9 @@ cssclasses: fisa
 
 ## Anii de studiu
 
-- [[Studii sociale (clasa a XI-a)|Clasa a XI-a]] — 9 lecții, 36 carduri, 60 întrebări
-- [[Studii sociale (clasa a XII-a)|Clasa a XII-a]] — 9 lecții, 36 carduri, 60 întrebări
-- [[Studii sociale (clasa a XIII-a)|Clasa a XIII-a]] — 9 lecții, 36 carduri, 60 întrebări
+- [[Studii sociale (clasa a XI-a)|Clasa a XI-a]] — 18 lecții, 72 carduri, 108 întrebări
+- [[Studii sociale (clasa a XII-a)|Clasa a XII-a]] — 18 lecții, 72 carduri, 108 întrebări
+- [[Studii sociale (clasa a XIII-a)|Clasa a XIII-a]] — 18 lecții, 72 carduri, 108 întrebări
 
 ## Legături
 - [[00 Start aici]]

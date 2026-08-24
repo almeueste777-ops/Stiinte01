@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Piața muncii și contractul de muncă
 
-[[Studii sociale (clasa a XII-a)|Studii sociale]] · [[Clasa a XII-a]] · lecția 4 din 9
+[[Studii sociale (clasa a XII-a)|Studii sociale]] · [[Clasa a XII-a]] · lecția 4 din 18
 
 **Capitolul:** Munca și cariera — semestrul 2
 

@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Studii sociale (clasa a XIII-a)
 
-36 carduri pentru [[Studii sociale (clasa a XIII-a)|Studii sociale (clasa a XIII-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+72 carduri pentru [[Studii sociale (clasa a XIII-a)|Studii sociale (clasa a XIII-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/studii-sociale
 
@@ -82,6 +82,78 @@ De ce nu se adaugă indicatori după obținerea rezultatelor?::Pentru că este o
 Ce asigură continuitatea unui proiect?::Implicarea beneficiarilor, parteneriate, documentarea procedurilor, formarea succesorilor, finanțare proprie.
 
 Ce deosebește o schimbare de un simplu eveniment?::Continuitatea: un proiect care se stinge odată cu echipa a produs doar un eveniment.
+
+Ce deosebește sărăcia absolută de cea relativă?::Cea absolută înseamnă lipsa nevoilor de bază; cea relativă, un venit mult sub standardul societății.
+
+Unde este stabilit pragul de risc de sărăcie în Uniunea Europeană?::La 60% din venitul median.
+
+De ce se spune că sărăcia este multidimensională?::Pentru că privește nu doar venitul, ci și educația, sănătatea, locuința, participarea.
+
+Ce măsoară coeficientul Gini?::Inegalitatea veniturilor, între 0 (egalitate perfectă) și 1 (inegalitate maximă).
+
+Ce este excluziunea socială?::Procesul prin care unele persoane sunt împiedicate să participe deplin la viața societății.
+
+De ce este excluziunea mai largă decât sărăcia?::Pentru că cineva poate fi exclus și din alte cauze decât lipsa banilor.
+
+Ce grupuri sunt mai expuse excluziunii?::Persoanele sărace, cele cu dizabilități, unele minorități, vârstnicii singuri, tinerii fără ocupație.
+
+Ce presupune incluziunea socială?::Acces universal plus sprijin țintit și eliminarea barierelor și a discriminării.
+
+Ce deosebește emigrarea de imigrare?::Emigrarea este plecarea dintr-o țară; imigrarea, sosirea în alta.
+
+Cine este refugiat?::O persoană care fuge de război sau de persecuție și este protejată de dreptul internațional.
+
+Ce document protejează refugiații?::Convenția de la Geneva din 1951.
+
+Ce este „exodul creierelor”?::Plecarea persoanelor calificate din țara de origine.
+
+Care sunt principalele probleme globale de mediu?::Schimbările climatice, poluarea, defrișarea, pierderea biodiversității, deșeurile.
+
+Care este cauza principală a încălzirii globale actuale?::Intensificarea efectului de seră prin emisii din activități umane.
+
+Ce deosebește reducerea de adaptare?::Reducerea atacă cauza (emisiile); adaptarea pregătește pentru efectele inevitabile.
+
+Ce acord internațional din 2015 privește clima?::Acordul de la Paris.
+
+Cum a fost definită dezvoltarea durabilă în 1987?::Ca dezvoltare care satisface nevoile prezentului fără a compromite generațiile viitoare.
+
+Care sunt cele trei dimensiuni ale dezvoltării durabile?::Economică, socială și de mediu.
+
+Câte Obiective de Dezvoltare Durabilă cuprinde Agenda 2030?::17.
+
+Ce propune economia circulară?::Repararea, refolosirea și reciclarea produselor, astfel încât deșeurile să devină resurse.
+
+Ce este globalizarea?::Procesul de creștere a interdependenței dintre țări prin schimburi de mărfuri, capital, informație și persoane.
+
+Ce a accelerat globalizarea în ultimele decenii?::Transporturile ieftine, comunicațiile instantanee și internetul.
+
+Care sunt câteva beneficii ale globalizării?::Prețuri mai mici, răspândirea tehnologiei, reducerea sărăciei, schimburi culturale.
+
+De ce cer problemele globale cooperare internațională?::Pentru că depășesc capacitatea unui singur stat de a le rezolva.
+
+Ce este o politică publică?::Un ansamblu coerent de decizii și acțiuni prin care autoritățile rezolvă o problemă de interes public.
+
+Care sunt etapele ciclului unei politici publice?::Agenda, formularea soluțiilor, decizia, implementarea și evaluarea.
+
+Pe ce trebuie să se sprijine o politică bună?::Pe date și dovezi, nu doar pe bune intenții.
+
+De ce implică politicile publice compromisuri?::Pentru că resursele sunt limitate, iar interesele, diferite.
+
+Ce este statul bunăstării?::Modelul în care statul asigură un nivel minim de bunăstare și de securitate pentru cetățeni.
+
+Pe ce idee se sprijină statul social?::Pe solidaritate: contribuția celor activi susține pe cei aflați în nevoie.
+
+Care e deosebirea dintre asigurările și asistența socială?::Asigurările se bazează pe contribuție; asistența, pe nevoie, indiferent de contribuție.
+
+Ce întrebări ridică sustenabilitatea statului bunăstării?::Cât de generos să fie, cum să fie finanțat și cum să rămână viabil la îmbătrânirea populației.
+
+Ce înseamnă a fi cetățean activ?::A te informa corect, a participa și a-ți asuma responsabilitatea față de comunitate și de planetă.
+
+Care sunt nivelurile complementare ale acțiunii?::Personal, comunitar, civic și politic.
+
+De ce nu sunt suficiente gesturile individuale singure?::Pentru că, fără schimbări colective, ele nu pot rezolva problemele mari.
+
+Ce exprimă „gândește global, acționează local”?::Că problemele sunt globale, dar soluțiile încep adesea în comunitatea proprie.
 
 ---
 

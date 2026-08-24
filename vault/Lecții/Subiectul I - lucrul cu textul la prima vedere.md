@@ -10,7 +10,7 @@ clasa: "a XIII-a"
 ---
 # Subiectul I: lucrul cu textul la prima vedere
 
-[[Limba și literatura română (clasa a XIII-a)|Limba și literatura română]] · [[Clasa a XIII-a]] · lecția 2 din 9
+[[Limba și literatura română (clasa a XIII-a)|Limba și literatura română]] · [[Clasa a XIII-a]] · lecția 2 din 20
 
 **Capitolul:** Proba de bacalaureat: structură și cerințe — semestrul 1
 

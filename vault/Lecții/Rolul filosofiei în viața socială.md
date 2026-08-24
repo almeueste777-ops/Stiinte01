@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Rolul filosofiei în viața socială
 
-[[Filosofie (clasa a XII-a)|Filosofie]] · [[Clasa a XII-a]] · lecția 14 din 14
+[[Filosofie (clasa a XII-a)|Filosofie]] · [[Clasa a XII-a]] · lecția 14 din 24
 
 **Capitolul:** Cunoașterea — semestrul 2
 
@@ -29,6 +29,6 @@ Filosofia are, în viața socială, patru roluri verificabile. Un rol critic: ex
 
 ---
 
-⬅ [[Adevăr și eroare]]
+⬅ [[Adevăr și eroare]] · [[Teorii despre existență - materialism, idealism, dualism]] ➡
 
 Exersează: [[Carduri - Filosofie (clasa a XII-a)]] · [[Test - Filosofie (clasa a XII-a)]]

@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Gândirea
 
-[[Psihologie (clasa a X-a)|Psihologie]] · [[Clasa a X-a]] · lecția 7 din 16
+[[Psihologie (clasa a X-a)|Psihologie]] · [[Clasa a X-a]] · lecția 7 din 24
 
 **Capitolul:** Procese cognitive superioare — semestrul 1
 

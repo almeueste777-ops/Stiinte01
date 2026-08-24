@@ -10,7 +10,7 @@ clasa: "a XIII-a"
 ---
 # Proba A, B și D: competențele
 
-[[Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)|Pregătire pentru bacalaureat (CDEOȘ)]] · [[Clasa a XIII-a]] · lecția 9 din 9
+[[Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)|Pregătire pentru bacalaureat (CDEOȘ)]] · [[Clasa a XIII-a]] · lecția 9 din 20
 
 **Capitolul:** Recapitulări încrucișate — semestrul 2
 
@@ -31,6 +31,6 @@ Proba A evaluează comunicarea orală în limba română: se primește un text l
 
 ---
 
-⬅ [[Repere pentru proba E.d din aria „Om și societate”]]
+⬅ [[Repere pentru proba E.d din aria „Om și societate”]] · [[Autonomii, romanitate și etnogeneză]] ➡
 
 Exersează: [[Carduri - Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)]] · [[Test - Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)]]

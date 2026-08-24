@@ -14,7 +14,7 @@ cssclasses: fisa
 
 ## Anii de studiu
 
-- [[Economie și educație antreprenorială (clasa a XIII-a)|Clasa a XIII-a]] — 12 lecții, 48 carduri, 73 întrebări
+- [[Economie și educație antreprenorială (clasa a XIII-a)|Clasa a XIII-a]] — 24 lecții, 96 carduri, 133 întrebări
 
 ## Legături
 - [[00 Start aici]]

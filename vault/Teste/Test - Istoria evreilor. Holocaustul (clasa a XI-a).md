@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Istoria evreilor. Holocaustul (clasa a XI-a)
 
-54 întrebări din [[Istoria evreilor. Holocaustul (clasa a XI-a)|Istoria evreilor. Holocaustul (clasa a XI-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+102 întrebări din [[Istoria evreilor. Holocaustul (clasa a XI-a)|Istoria evreilor. Holocaustul (clasa a XI-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Idișul este limba dezvoltată de:
 
@@ -441,7 +441,511 @@ cssclasses: test
 > 
 > Ei și-au riscat viața.
 
-### 37. Al Doilea Templu a fost distrus în:
+### 37. Antiiudaismul medieval era întemeiat, în principal, pe:
+
+- a. motive religioase
+- b. teorii rasiale
+- c. argumente economice moderne
+- d. statistici demografice
+
+> [!success]- Răspuns
+> **a. motive religioase**
+> 
+> Antisemitismul modern, dimpotrivă, invocă „rasa".
+
+### 38. Termenul „antisemitism" a fost popularizat, în 1879, de:
+
+- a. Wilhelm Marr
+- b. Theodor Herzl
+- c. Alfred Dreyfus
+- d. Karl Marx
+
+> [!success]- Răspuns
+> **a. Wilhelm Marr**
+> 
+> El a fondat o „Ligă a antisemiților".
+
+### 39. „Otrăvirea fântânilor" în timpul epidemiilor de ciumă a fost:
+
+- a. o acuzație falsă adusă evreilor
+- b. o descoperire medicală
+- c. o măsură administrativă
+- d. o practică reală documentată
+
+> [!success]- Răspuns
+> **a. o acuzație falsă adusă evreilor**
+> 
+> A dus la masacre în multe orașe europene.
+
+### 40. Trecerea de la antiiudaism la antisemitismul rasial a însemnat că:
+
+- a. convertirea nu mai oferea nicio scăpare
+- b. prejudecata a dispărut
+- c. evreii au primit drepturi depline
+- d. religia a devenit singurul criteriu
+
+> [!success]- Răspuns
+> **a. convertirea nu mai oferea nicio scăpare**
+> 
+> „Rasa" era considerată imposibil de schimbat.
+
+### 41. Hitler a ajuns cancelar al Germaniei:
+
+- a. în mod legal, prin numire, în ianuarie 1933
+- b. printr-o lovitură de stat militară
+- c. în urma unui referendum
+- d. prin invazie străină
+
+> [!success]- Răspuns
+> **a. în mod legal, prin numire, în ianuarie 1933**
+> 
+> A transformat apoi rapid statul în dictatură.
+
+### 42. „Mein Kampf" (1925) conținea:
+
+- a. programul ideologic rasist și antisemit al nazismului
+- b. un roman istoric
+- c. un tratat economic neutru
+- d. memoriile Republicii de la Weimar
+
+> [!success]- Răspuns
+> **a. programul ideologic rasist și antisemit al nazismului**
+> 
+> Ura față de evrei era centrală.
+
+### 43. Republica de la Weimar a fost slăbită mai ales de:
+
+- a. hiperinflația din 1923 și criza economică din 1929
+- b. războaiele coloniale
+- c. lipsa unei constituții
+- d. izolarea geografică
+
+> [!success]- Răspuns
+> **a. hiperinflația din 1923 și criza economică din 1929**
+> 
+> Crizele au alimentat extremismul.
+
+### 44. Procesul de „aducere la linie" a însemnat:
+
+- a. subordonarea tuturor instituțiilor față de partidul unic
+- b. descentralizarea puterii
+- c. întărirea parlamentului
+- d. separarea puterilor în stat
+
+> [!success]- Răspuns
+> **a. subordonarea tuturor instituțiilor față de partidul unic**
+> 
+> Partidele și presa liberă au fost desființate.
+
+### 45. Legile de la Nürnberg au fost adoptate în:
+
+- a. 1935
+- b. 1933
+- c. 1938
+- d. 1941
+
+> [!success]- Răspuns
+> **a. 1935**
+> 
+> Ele au retras cetățenia germană evreilor.
+
+### 46. Persecuția nazistă a evreilor a început cu:
+
+- a. măsuri legale de excludere
+- b. deportarea imediată
+- c. deschiderea lagărelor de exterminare
+- d. declanșarea războiului
+
+> [!success]- Răspuns
+> **a. măsuri legale de excludere**
+> 
+> Fiecare pas părea „doar" administrativ.
+
+### 47. „Arianizarea" desemna:
+
+- a. trecerea forțată a averilor evreiești în mâini neevreiești
+- b. convertirea religioasă
+- c. emigrarea voluntară
+- d. recensământul populației
+
+> [!success]- Răspuns
+> **a. trecerea forțată a averilor evreiești în mâini neevreiești**
+> 
+> A fost o formă de jaf organizat de stat.
+
+### 48. Prin legile de la Nürnberg, statul nazist:
+
+- a. definea prin lege, pe criterii de descendență, cine este „evreu"
+- b. acorda drepturi egale minorităților
+- c. separa biserica de stat
+- d. limita puterea armatei
+
+> [!success]- Răspuns
+> **a. definea prin lege, pe criterii de descendență, cine este „evreu"**
+> 
+> Prejudecata devenea astfel drept oficial.
+
+### 49. Cel mai mare ghetou nazist a fost la:
+
+- a. Varșovia
+- b. Berlin
+- c. Praga
+- d. Viena
+
+> [!success]- Răspuns
+> **a. Varșovia**
+> 
+> Acolo au fost înghesuiți peste 400.000 de oameni.
+
+### 50. Condițiile din ghetouri au provocat, încă înainte de deportări:
+
+- a. zeci de mii de morți prin foamete și boli
+- b. îmbunătățirea traiului
+- c. eliberarea treptată
+- d. integrarea în oraș
+
+> [!success]- Răspuns
+> **a. zeci de mii de morți prin foamete și boli**
+> 
+> Erau concepute pentru a ucide lent.
+
+### 51. Revolta din ghetoul Varșovia a avut loc în:
+
+- a. aprilie 1943
+- b. 1939
+- c. 1941
+- d. 1945
+
+> [!success]- Răspuns
+> **a. aprilie 1943**
+> 
+> A fost cea mai mare răscoală evreiască împotriva naziștilor.
+
+### 52. „Consiliile evreiești" (Judenrat) erau:
+
+- a. impuse de ocupant pentru a administra ghetourile
+- b. organizații de rezistență
+- c. instituții religioase autonome
+- d. tribunale internaționale
+
+> [!success]- Răspuns
+> **a. impuse de ocupant pentru a administra ghetourile**
+> 
+> Erau prinse între ordinele ocupantului și propria comunitate.
+
+### 53. Primul lagăr de concentrare nazist, deschis în 1933, a fost:
+
+- a. Dachau
+- b. Auschwitz
+- c. Treblinka
+- d. Sobibor
+
+> [!success]- Răspuns
+> **a. Dachau**
+> 
+> Lagărele de exterminare au apărut mai târziu.
+
+### 54. În lagărele de exterminare, uciderea în masă se făcea:
+
+- a. în camere de gazare
+- b. exclusiv prin muncă
+- c. prin eliberare condiționată
+- d. prin transfer în alte țări
+
+> [!success]- Răspuns
+> **a. în camere de gazare**
+> 
+> Se folosea gazul toxic Zyklon B.
+
+### 55. „Selecția" de la sosirea în lagăr însemna:
+
+- a. separarea celor trimiși la muncă de cei uciși imediat
+- b. alegerea deținuților eliberați
+- c. repartizarea pe naționalități
+- d. clasificarea profesională
+
+> [!success]- Răspuns
+> **a. separarea celor trimiși la muncă de cei uciși imediat**
+> 
+> Bătrânii, copiii și bolnavii erau uciși imediat.
+
+### 56. „Marșurile morții" din 1944–1945 au fost:
+
+- a. deplasările forțate ale deținuților, pe jos, spre interiorul Germaniei
+- b. eliberări organizate
+- c. transporturi umanitare
+- d. retrageri ale armatei
+
+> [!success]- Răspuns
+> **a. deplasările forțate ale deținuților, pe jos, spre interiorul Germaniei**
+> 
+> Naziștii încercau să ascundă crimele.
+
+### 57. Cuvântul „Shoah" înseamnă:
+
+- a. catastrofă, nimicire
+- b. ardere de tot
+- c. exil
+- d. pedeapsă
+
+> [!success]- Răspuns
+> **a. catastrofă, nimicire**
+> 
+> E preferat de mulți în locul termenului „Holocaust".
+
+### 58. Numărul evreilor uciși reprezintă aproximativ:
+
+- a. două treimi din evreimea Europei
+- b. o zecime din ea
+- c. toată populația Europei
+- d. o sutime din ea
+
+> [!success]- Răspuns
+> **a. două treimi din evreimea Europei**
+> 
+> În cifre, circa șase milioane.
+
+### 59. Einsatzgruppen au ucis mai ales prin:
+
+- a. împușcare în masă, în estul Europei
+- b. gazare, în vestul Europei
+- c. înfometare în ghetouri
+- d. muncă forțată
+
+> [!success]- Răspuns
+> **a. împușcare în masă, în estul Europei**
+> 
+> Masacrul de la Babi Yar este un exemplu.
+
+### 60. Conferința de la Wannsee (1942) a servit la:
+
+- a. organizarea „soluției finale"
+- b. încheierea păcii
+- c. eliberarea deținuților
+- d. limitarea deportărilor
+
+> [!success]- Răspuns
+> **a. organizarea „soluției finale"**
+> 
+> A coordonat uciderea la scara continentului.
+
+### 61. Pogromul de la Iași s-a desfășurat în:
+
+- a. iunie 1941
+- b. ianuarie 1941
+- c. 1938
+- d. 1944
+
+> [!success]- Răspuns
+> **a. iunie 1941**
+> 
+> A urmat imediat intrării în război.
+
+### 62. „Trenurile morții" de la Iași au fost:
+
+- a. vagoane sigilate în care oamenii au murit de sete și de sufocare
+- b. trenuri de deportare spre Germania
+- c. transporturi de eliberare
+- d. convoaie umanitare
+
+> [!success]- Răspuns
+> **a. vagoane sigilate în care oamenii au murit de sete și de sufocare**
+> 
+> Au fost purtate zile întregi, fără destinație.
+
+### 63. Pogromul de la București (ianuarie 1941) a fost dezlănțuit de:
+
+- a. membri ai Mișcării Legionare, în timpul rebeliunii
+- b. armata sovietică
+- c. administrația maghiară
+- d. ocupantul german direct
+
+> [!success]- Răspuns
+> **a. membri ai Mișcării Legionare, în timpul rebeliunii**
+> 
+> Sinagogi și prăvălii au fost devastate.
+
+### 64. Violențele antievreiești din România au implicat:
+
+- a. autorități, armată, poliție și jandarmerie
+- b. exclusiv mulțimi spontane
+- c. doar ocupantul străin
+- d. doar grupuri izolate
+
+> [!success]- Răspuns
+> **a. autorități, armată, poliție și jandarmerie**
+> 
+> Ele s-au sprijinit pe o legislație antisemită.
+
+### 65. Transnistria, în timpul războiului, se afla sub administrație:
+
+- a. românească
+- b. germană
+- c. sovietică
+- d. maghiară
+
+> [!success]- Răspuns
+> **a. românească**
+> 
+> Acolo au fost deportați evrei și romi.
+
+### 66. La Bogdanovka a avut loc:
+
+- a. unul dintre cele mai mari masacre din Transnistria
+- b. o tabără de refugiați
+- c. un centru de repatriere
+- d. o eliberare organizată
+
+> [!success]- Răspuns
+> **a. unul dintre cele mai mari masacre din Transnistria**
+> 
+> În iarna 1941–1942.
+
+### 67. În Transnistria au fost deportați, alături de evrei, și:
+
+- a. mii de romi
+- b. prizonierii germani
+- c. coloniștii sovietici
+- d. refugiații polonezi
+
+> [!success]- Răspuns
+> **a. mii de romi**
+> 
+> Mulți au murit de foame, de frig și de tifos.
+
+### 68. Deportarea spre Transnistria:
+
+- a. a ucis mulți oameni încă înainte de sosire
+- b. s-a făcut în condiții civilizate
+- c. a fost anulată în 1941
+- d. a vizat doar bărbații
+
+> [!success]- Răspuns
+> **a. a ucis mulți oameni încă înainte de sosire**
+> 
+> S-a făcut pe jos, prin frig și foamete.
+
+### 69. La procesele de la Nürnberg (1945–1946) au fost judecați:
+
+- a. conducători naziști, pentru crime de război și împotriva umanității
+- b. doar soldați de rând
+- c. responsabili sovietici
+- d. lideri occidentali
+
+> [!success]- Răspuns
+> **a. conducători naziști, pentru crime de război și împotriva umanității**
+> 
+> Au marcat nașterea justiției penale internaționale.
+
+### 70. Declarația Universală a Drepturilor Omului a fost adoptată în:
+
+- a. 1948
+- b. 1945
+- c. 1939
+- d. 1966
+
+> [!success]- Răspuns
+> **a. 1948**
+> 
+> În același an cu Convenția privind genocidul.
+
+### 71. În România, concluziile Comisiei conduse de Elie Wiesel au fost asumate oficial în:
+
+- a. 2004
+- b. 1990
+- c. 2015
+- d. 1996
+
+> [!success]- Răspuns
+> **a. 2004**
+> 
+> Ele stau la baza memoriei oficiale.
+
+### 72. Formula „niciodată din nou":
+
+- a. rămâne o datorie neîmplinită, dovedită de genociduri ulterioare
+- b. a fost pe deplin respectată
+- c. privește exclusiv trecutul
+- d. se referă doar la Germania
+
+> [!success]- Răspuns
+> **a. rămâne o datorie neîmplinită, dovedită de genociduri ulterioare**
+> 
+> Cambodgia, Rwanda și Srebrenica o confirmă.
+
+### 73. Antiiudaismul medieval era întemeiat pe:
+
+- a. motive religioase
+- b. teorii rasiale
+- c. criterii economice moderne
+- d. date demografice
+
+> [!success]- Răspuns
+> **a. motive religioase**
+> 
+> Antisemitismul modern invocă „rasa".
+
+### 74. Termenul „antisemitism" a fost popularizat, în 1879, de:
+
+- a. Wilhelm Marr
+- b. Theodor Herzl
+- c. Adolf Hitler
+- d. Alfred Dreyfus
+
+> [!success]- Răspuns
+> **a. Wilhelm Marr**
+> 
+> El a fondat o „Ligă a antisemiților".
+
+### 75. „Mitul înjunghierii pe la spate" susținea, fals, că Germania:
+
+- a. ar fi fost trădată din interior în 1918, nu învinsă militar
+- b. ar fi câștigat războiul
+- c. nu ar fi participat la război
+- d. ar fi fost invadată în 1918
+
+> [!success]- Răspuns
+> **a. ar fi fost trădată din interior în 1918, nu învinsă militar**
+> 
+> A otrăvit viața politică a Republicii de la Weimar.
+
+### 76. Hitler a fost numit cancelar în:
+
+- a. ianuarie 1933
+- b. 1925
+- c. 1935
+- d. 1938
+
+> [!success]- Răspuns
+> **a. ianuarie 1933**
+> 
+> A instaurat rapid dictatura, prin legea puterilor depline.
+
+### 77. Legile de la Nürnberg (1935) au:
+
+- a. retras cetățenia evreilor și au interzis căsătoriile mixte
+- b. acordat drepturi egale
+- c. permis emigrarea liberă
+- d. desființat armata
+
+> [!success]- Răspuns
+> **a. retras cetățenia evreilor și au interzis căsătoriile mixte**
+> 
+> Statul definea prin lege cine este „evreu".
+
+### 78. „Arianizarea" desemna:
+
+- a. trecerea forțată a averilor evreiești în mâini neevreiești
+- b. convertirea religioasă
+- c. recensământul populației
+- d. repatrierea
+
+> [!success]- Răspuns
+> **a. trecerea forțată a averilor evreiești în mâini neevreiești**
+> 
+> A fost o formă de jaf organizat de stat.
+
+### 79. Al Doilea Templu a fost distrus în:
 
 - a. anul 70 d.Hr.
 - b. 586 î.Hr.
@@ -453,7 +957,7 @@ cssclasses: test
 > 
 > Momentul marchează diaspora generalizată.
 
-### 38. Limba idiș a fost dezvoltată de:
+### 80. Limba idiș a fost dezvoltată de:
 
 - a. evreii așkenazi
 - b. evreii sefarzi
@@ -465,7 +969,7 @@ cssclasses: test
 > 
 > Sefarzii au dezvoltat ladino.
 
-### 39. Emanciparea juridică a evreilor s-a produs, în general:
+### 81. Emanciparea juridică a evreilor s-a produs, în general:
 
 - a. în secolul al XIX-lea
 - b. în Evul Mediu
@@ -477,7 +981,7 @@ cssclasses: test
 > 
 > Cu ritmuri diferite de la o țară la alta.
 
-### 40. Congresul de la Berlin din 1878 a cerut României:
+### 82. Congresul de la Berlin din 1878 a cerut României:
 
 - a. acordarea drepturilor civile fără deosebire de religie
 - b. cedarea Dobrogei
@@ -489,7 +993,7 @@ cssclasses: test
 > 
 > Aplicarea a fost restrictivă.
 
-### 41. Primul teatru profesionist în idiș a fost înființat la:
+### 83. Primul teatru profesionist în idiș a fost înființat la:
 
 - a. Iași, în 1876
 - b. Varșovia, în 1890
@@ -501,7 +1005,7 @@ cssclasses: test
 > 
 > Este un reper al culturii evreiești.
 
-### 42. Antisemitismul modern definește evreii ca:
+### 84. Antisemitismul modern definește evreii ca:
 
 - a. rasă
 - b. comunitate religioasă
@@ -513,7 +1017,7 @@ cssclasses: test
 > 
 > De aceea conversiunea devine irelevantă.
 
-### 43. „Protocoalele înțelepților Sionului” sunt:
+### 85. „Protocoalele înțelepților Sionului” sunt:
 
 - a. un fals dovedit încă din anii 1920
 - b. un document autentic
@@ -525,7 +1029,7 @@ cssclasses: test
 > 
 > Au fost folosite ca instrument de propagandă.
 
-### 44. Legile de la Nürnberg au fost adoptate în:
+### 86. Legile de la Nürnberg au fost adoptate în:
 
 - a. 1935
 - b. 1933
@@ -537,7 +1041,7 @@ cssclasses: test
 > 
 > Au retras cetățenia evreilor din Germania.
 
-### 45. Noaptea de Cristal a avut loc în:
+### 87. Noaptea de Cristal a avut loc în:
 
 - a. noiembrie 1938
 - b. ianuarie 1933
@@ -549,7 +1053,79 @@ cssclasses: test
 > 
 > A marcat trecerea la violența deschisă.
 
-### 46. Numărul evreilor uciși în Holocaust este de aproximativ:
+### 88. Cel mai mare ghetou nazist a fost la:
+
+- a. Varșovia
+- b. Berlin
+- c. Viena
+- d. Praga
+
+> [!success]- Răspuns
+> **a. Varșovia**
+> 
+> Revolta din 1943 a fost cea mai mare răscoală evreiască.
+
+### 89. În lagărele de exterminare, uciderea în masă se făcea:
+
+- a. în camere de gazare
+- b. exclusiv prin muncă
+- c. prin eliberare
+- d. prin transfer
+
+> [!success]- Răspuns
+> **a. în camere de gazare**
+> 
+> Cel mai mare complex a fost Auschwitz-Birkenau.
+
+### 90. Cuvântul „Shoah" înseamnă:
+
+- a. catastrofă, nimicire
+- b. ardere de tot
+- c. exil
+- d. robie
+
+> [!success]- Răspuns
+> **a. catastrofă, nimicire**
+> 
+> E preferat de mulți în locul termenului „Holocaust".
+
+### 91. „Trenurile morții" de la Iași au fost:
+
+- a. vagoane sigilate în care oamenii au murit de sete și de sufocare
+- b. trenuri spre lagărele germane
+- c. convoaie de eliberare
+- d. transporturi umanitare
+
+> [!success]- Răspuns
+> **a. vagoane sigilate în care oamenii au murit de sete și de sufocare**
+> 
+> Fac parte din pogromul din iunie 1941.
+
+### 92. În Transnistria, aflată sub administrație românească, au fost deportați:
+
+- a. evreii din Basarabia și Bucovina și mii de romi
+- b. doar prizonieri de război
+- c. coloniști germani
+- d. refugiați occidentali
+
+> [!success]- Răspuns
+> **a. evreii din Basarabia și Bucovina și mii de romi**
+> 
+> La Bogdanovka a avut loc un mare masacru.
+
+### 93. Procesele de la Nürnberg (1945–1946) au judecat:
+
+- a. conducători naziști, pentru crimele lor
+- b. doar soldați de rând
+- c. lideri sovietici
+- d. responsabili occidentali
+
+> [!success]- Răspuns
+> **a. conducători naziști, pentru crimele lor**
+> 
+> Au marcat nașterea justiției penale internaționale.
+
+### 94. Numărul evreilor uciși în Holocaust este de aproximativ:
 
 - a. șase milioane
 - b. un milion
@@ -561,7 +1137,7 @@ cssclasses: test
 > 
 > Alături de alte categorii persecutate.
 
-### 47. Comisia Internațională pentru Studierea Holocaustului în România a fost condusă de:
+### 95. Comisia Internațională pentru Studierea Holocaustului în România a fost condusă de:
 
 - a. Elie Wiesel
 - b. Primo Levi
@@ -573,7 +1149,7 @@ cssclasses: test
 > 
 > Concluziile au fost asumate oficial în 2004.
 
-### 48. Statul român a fost responsabil, potrivit Comisiei, de moartea a:
+### 96. Statul român a fost responsabil, potrivit Comisiei, de moartea a:
 
 - a. 280.000–380.000 de evrei români și ucraineni
 - b. câtorva mii
@@ -585,7 +1161,7 @@ cssclasses: test
 > 
 > Concluzia este asumată oficial.
 
-### 49. Pogromul de la Iași s-a petrecut în:
+### 97. Pogromul de la Iași s-a petrecut în:
 
 - a. iunie 1941
 - b. 1940
@@ -597,7 +1173,7 @@ cssclasses: test
 > 
 > A făcut peste 13.000 de victime.
 
-### 50. Deportările în Transnistria au avut ca urmare:
+### 98. Deportările în Transnistria au avut ca urmare:
 
 - a. moartea a zeci de mii de oameni
 - b. transferul temporar al populației
@@ -609,7 +1185,7 @@ cssclasses: test
 > 
 > Cauzele au fost foametea, frigul, bolile și execuțiile.
 
-### 51. Ziua Internațională de Comemorare a Victimelor Holocaustului este:
+### 99. Ziua Internațională de Comemorare a Victimelor Holocaustului este:
 
 - a. 27 ianuarie
 - b. 9 octombrie
@@ -621,7 +1197,7 @@ cssclasses: test
 > 
 > Este data eliberării lagărului Auschwitz.
 
-### 52. În România, ziua de 9 octombrie marchează:
+### 100. În România, ziua de 9 octombrie marchează:
 
 - a. începutul deportărilor în Transnistria
 - b. eliberarea lagărelor
@@ -633,7 +1209,7 @@ cssclasses: test
 > 
 > Este Ziua Națională de Comemorare a Holocaustului.
 
-### 53. Negarea publică a Holocaustului în România este:
+### 101. Negarea publică a Holocaustului în România este:
 
 - a. interzisă prin lege
 - b. permisă ca opinie
@@ -645,7 +1221,7 @@ cssclasses: test
 > 
 > Educația rămâne, totuși, instrumentul principal.
 
-### 54. Excluderea unui grup începe, de regulă:
+### 102. Excluderea unui grup începe, de regulă:
 
 - a. cu cuvântul care dezumanizează
 - b. cu violența fizică

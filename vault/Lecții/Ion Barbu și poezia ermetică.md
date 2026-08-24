@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Ion Barbu și poezia ermetică
 
-[[Limba și literatura română (clasa a XII-a)|Limba și literatura română]] · [[Clasa a XII-a]] · lecția 5 din 10
+[[Limba și literatura română (clasa a XII-a)|Limba și literatura română]] · [[Clasa a XII-a]] · lecția 5 din 20
 
 **Capitolul:** Poezia interbelică — semestrul 1
 

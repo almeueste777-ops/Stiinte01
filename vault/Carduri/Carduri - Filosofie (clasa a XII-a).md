@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Filosofie (clasa a XII-a)
 
-56 carduri pentru [[Filosofie (clasa a XII-a)|Filosofie (clasa a XII-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+96 carduri pentru [[Filosofie (clasa a XII-a)|Filosofie (clasa a XII-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/filosofie
 
@@ -122,6 +122,86 @@ Ce întrebare pune filosofia acolo unde expertiza tehnică se oprește?::Ce este
 Numește trei domenii de etică aplicată.::Bioetica, etica mediului, etica inteligenței artificiale.
 
 Care sunt cele două riscuri ale filosofiei ca practică socială?::Jargonul fără miză și înrolarea ideologică în justificarea puterii.
+
+Ce susține materialismul?::Că singura realitate fundamentală este materia, iar spiritul e un produs al ei.
+
+Ce înseamnă „esse est percipi”?::„A fi înseamnă a fi perceput” — formula idealismului subiectiv al lui Berkeley.
+
+Ce două substanțe distinge Descartes?::Res extensa (materia întinsă) și res cogitans (spiritul gânditor).
+
+Cine a formulat atomismul antic?::Democrit: lumea e alcătuită din atomi și vid.
+
+Pe ce pornește argumentul ontologic?::De la conceptul de ființă decât care nu se poate gândi ceva mai mare (Anselm).
+
+Cine a formulat cele cinci căi?::Toma d'Aquino, în „Summa Theologica”.
+
+Cum critică Kant argumentul ontologic?::Susținând că existența nu este un predicat care se adaugă conceptului.
+
+Ce este problema răului?::Dificultatea de a împăca răul din lume cu un Dumnezeu atotputernic și atotbun.
+
+Ce înseamnă formula lui Augustin „crede pentru a înțelege”?::Că credința este punctul de plecare care deschide calea înțelegerii.
+
+Cum împacă Toma d'Aquino credința și rațiunea?::Distingând adevărurile accesibile rațiunii de cele revelate, care o depășesc fără a o contrazice.
+
+În ce constă „pariul” lui Pascal?::În calculul potrivit căruia e rațional să pariezi pe existența lui Dumnezeu.
+
+Ce susține fideismul?::Că credința nu are nevoie de temei rațional.
+
+Ce distinge teoria Ideilor?::Lumea sensibilă a lucrurilor schimbătoare de lumea inteligibilă a Ideilor eterne.
+
+Ce ilustrează mitul peșterii?::Trecerea de la aparență (umbrele) la cunoașterea realității adevărate.
+
+Care sunt cele trei părți ale sufletului la Platon?::Rațională, irascibilă (afectivă) și apetitivă.
+
+Ce este dreptatea, la Platon?::Armonia părților sufletului și, în cetate, faptul ca fiecare să-și facă lucrul propriu.
+
+Ce este hilemorfismul?::Teza că orice lucru e compus din materie și formă.
+
+Care sunt cele patru cauze aristotelice?::Materială, formală, eficientă și finală.
+
+Ce este virtutea etică, la Aristotel?::O cale de mijloc între două extreme, formată prin obișnuință.
+
+Ce este eudaimonia?::Fericirea ca împlinire a naturii proprii prin activitatea conformă cu virtutea.
+
+Care este metoda lui Descartes?::Îndoiala metodică: a pune la îndoială tot ce poate fi îndoit.
+
+Ce exprimă „cogito, ergo sum”?::Că, îndoindu-mă, gândesc, iar dacă gândesc, exist — primul adevăr sigur.
+
+Care este criteriul cartezian al adevărului?::Tot ce concepem clar și distinct, garantat de veridicitatea lui Dumnezeu.
+
+Ce două substanțe distinge Descartes?::Res cogitans (spiritul) și res extensa (corpul).
+
+Ce susține Locke despre mintea la naștere?::Că este o tabula rasa, iar ideile provin din senzație și reflecție.
+
+Ce distinge Locke între calitățile corpurilor?::Calitățile primare (obiective) și cele secundare (dependente de subiect).
+
+Ce înseamnă „esse est percipi” la Berkeley?::A fi înseamnă a fi perceput: nu există materie în afara percepției.
+
+Ce spune „legea lui Hume”?::Că din enunțuri despre ce este nu se poate deduce logic ce trebuie să fie.
+
+Ce recomandă scepticismul antic al lui Pyrrhon?::Suspendarea judecății (epoché), din care rezultă liniștea (ataraxia).
+
+Cum folosește Descartes scepticismul?::Ca instrument metodic pentru a găsi un punct de certitudine (cogito).
+
+Ce argument sceptic modern reia ipoteza „geniului rău”?::„Creierul în cuvă” — posibilitatea de a trăi o simulare.
+
+Cum răspunde Moore scepticismului?::Opunându-i simțul comun: „iată o mână” e mai sigur decât premisele sceptice.
+
+Ce înțelege Epicur prin plăcere-scop?::Absența durerii și a tulburării (aponia și ataraxia), nu desfrâul.
+
+De ce depinde fericirea, pentru stoici?::De virtute și de acordul cu rațiunea, nu de bunurile exterioare.
+
+Care este distincția stoică fundamentală?::Între ce depinde de noi și ce nu depinde de noi.
+
+Cine sunt trei reprezentanți ai stoicismului?::Zenon, Epictet și Marcus Aurelius.
+
+Cum judecă utilitarismul o ordine socială?::După consecințe: dreaptă e cea care maximizează fericirea generală.
+
+Care sunt cele două principii ale dreptății la Rawls?::Libertăți de bază egale și inegalități admise doar dacă îi avantajează pe cei mai dezavantajați.
+
+Pe ce se întemeiază dreptatea, pentru Nozick?::Pe corectitudinea istoriei dobândirii (achiziție și transfer), nu pe tiparul final.
+
+Ce este statul minimal?::Statul limitat la protecția drepturilor și a contractelor, fără redistribuire (Nozick).
 
 ---
 

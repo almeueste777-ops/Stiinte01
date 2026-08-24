@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Reprezentări grafice
 
-[[Matematică aplicată în științele sociale (clasa a XI-a)|Matematică aplicată în științele sociale]] · [[Clasa a XI-a]] · lecția 3 din 9
+[[Matematică aplicată în științele sociale (clasa a XI-a)|Matematică aplicată în științele sociale]] · [[Clasa a XI-a]] · lecția 3 din 18
 
 **Capitolul:** Date și reprezentări — semestrul 1
 

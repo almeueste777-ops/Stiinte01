@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Logică, argumentare și comunicare (clasa a IX-a)
 
-64 carduri pentru [[Logică, argumentare și comunicare (clasa a IX-a)|Logică, argumentare și comunicare (clasa a IX-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+96 carduri pentru [[Logică, argumentare și comunicare (clasa a IX-a)|Logică, argumentare și comunicare (clasa a IX-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/logica-argumentare-si-comunicare
 
@@ -138,6 +138,70 @@ Ce spune principiul carității?::Să interpretezi afirmațiile celuilalt în ve
 Ce cinci întrebări evaluează un text argumentativ?::Care e teza? Care sunt temeiurile? Sunt adevărate? Sunt relevante? Ce obiecție lipsește?
 
 De ce e practic principiul carității?::Fiindcă respingerea unei versiuni slăbite nu respinge teza reală a adversarului.
+
+Ce este un termen abstract?::Un termen care numește o însușire desprinsă de obiect, precum „bunătate" sau „albeață".
+
+Dă un exemplu de termen relativ.::„Tată" (cere „copil"), „cauză" (cere „efect"), „profesor" (cere „elev").
+
+Ce deosebește termenul colectiv de cel distributiv?::Colectivul privește ansamblul ca întreg; distributivul, fiecare element în parte.
+
+Câte obiecte are sfera unui termen individual?::Unul singur.
+
+Ce împarte diviziunea logică?::Sfera unui gen în speciile lui, după un criteriu.
+
+De ce este sigură diviziunea dihotomică?::Fiindcă cele două clase contradictorii (A, non-A) acoperă tot universul și se exclud.
+
+Care este deosebirea dintre diviziune și partiție?::Diviziunea împarte o noțiune în specii; partiția, un obiect în părți materiale.
+
+Ce este clasificarea față de diviziune?::O diviziune continuată pe mai multe trepte succesive.
+
+Ce face generalizarea cu sfera și conținutul?::Lărgește sfera și sărăcește conținutul.
+
+Unde se oprește generalizarea?::La categorii — genurile supreme, care nu mai au un gen deasupra.
+
+Unde se oprește determinarea?::La noțiunile individuale, sub care nu mai există specii.
+
+Dă un exemplu de determinare.::De la „plantă" la „floare" la „trandafir", adăugând note și îngustând sfera.
+
+Câte moduri silogistice sunt valide?::24 (19 tari și 5 subalterne), din 256 posibile.
+
+Ce moduri valide are figura I?::Barbara (AAA), Celarent (EAE), Darii (AII), Ferio (EIO).
+
+Ce fel de concluzie dă întotdeauna figura a II-a?::O concluzie negativă.
+
+Ce arată vocalele din numele unui mod (de exemplu Barbara)?::Tipurile celor trei propoziții: majoră, minoră, concluzie.
+
+Cum se reprezintă o premisă universală pe o diagramă Venn?::Prin hașurarea zonei declarate goale.
+
+Cum se reprezintă o premisă particulară?::Printr-un „x" pus în zona a cărei existență o afirmă.
+
+Când este valid un silogism, pe diagramă?::Când concluzia se citește deja după ce ai desenat doar premisele.
+
+Ce face reducerea la figura I?::Transformă un mod din altă figură în figura I, prin operații care păstrează adevărul.
+
+Când este adevărată o conjuncție (p și q)?::Numai când ambele componente sunt adevărate.
+
+Când este falsă o implicație (dacă p, atunci q)?::Numai când antecedentul e adevărat, iar consecventul fals.
+
+Ce deosebește disjuncția exclusivă de cea inclusivă?::Exclusiva cere ca exact una să fie adevărată; inclusiva admite și ca ambele să fie.
+
+Ce este o tautologie?::O propoziție compusă adevărată pentru orice valori ale componentelor.
+
+Ce conchide modus ponens?::Din „dacă p, atunci q" și „p", conchide „q".
+
+Ce conchide modus tollens?::Din „dacă p, atunci q" și „non-q", conchide „non-p".
+
+De ce este greșită afirmarea consecventului?::Fiindcă q putea fi adevărat din alt motiv decât p.
+
+Cum poate fi parcursă valid o implicație?::Afirmând antecedentul sau negând consecventul, niciodată invers.
+
+Ce conchide modus tollendo ponens?::Negând un membru al disjuncției, conchide celălalt membru.
+
+Când este valid modul ponendo tollens?::Numai la disjuncția exclusivă, în care membrii se exclud.
+
+Din ce este alcătuită o dilemă?::Dintr-o disjuncție și două implicații care leagă fiecare membru de o consecință.
+
+Cum se răspunde unei dileme „apucând-o de coarne"?::Respingând disjuncția, adică arătând că mai există și o a treia cale.
 
 ---
 

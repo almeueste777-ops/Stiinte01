@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Negaționismul și combaterea lui
 
-[[Istoria evreilor. Holocaustul (clasa a XI-a)|Istoria evreilor. Holocaustul]] · [[Clasa a XI-a]] · lecția 8 din 9
+[[Istoria evreilor. Holocaustul (clasa a XI-a)|Istoria evreilor. Holocaustul]] · [[Clasa a XI-a]] · lecția 8 din 18
 
 **Capitolul:** Memorie și responsabilitate — semestrul 2
 

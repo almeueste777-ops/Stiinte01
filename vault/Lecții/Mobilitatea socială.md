@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Mobilitatea socială
 
-[[Sociologie (clasa a XI-a)|Sociologie]] · [[Clasa a XI-a]] · lecția 7 din 14
+[[Sociologie (clasa a XI-a)|Sociologie]] · [[Clasa a XI-a]] · lecția 7 din 24
 
 **Capitolul:** Structura socială — semestrul 1
 

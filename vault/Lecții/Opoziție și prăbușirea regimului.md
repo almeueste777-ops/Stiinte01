@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Opoziție și prăbușirea regimului
 
-[[Istoria comunismului din România (clasa a XIII-a)|Istoria comunismului din România]] · [[Clasa a XIII-a]] · lecția 8 din 9
+[[Istoria comunismului din România (clasa a XIII-a)|Istoria comunismului din România]] · [[Clasa a XIII-a]] · lecția 8 din 18
 
 **Capitolul:** Viața cotidiană, sfârșitul, memoria — semestrul 2
 

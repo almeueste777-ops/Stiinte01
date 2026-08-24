@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Teatrul interbelic și postbelic
 
-[[Limba și literatura română (clasa a XII-a)|Limba și literatura română]] · [[Clasa a XII-a]] · lecția 7 din 10
+[[Limba și literatura română (clasa a XII-a)|Limba și literatura română]] · [[Clasa a XII-a]] · lecția 7 din 20
 
 **Capitolul:** Romanul și teatrul — semestrul 2
 

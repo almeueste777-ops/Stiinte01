@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Epoca Dej și destinderea aparentă
 
-[[Istoria comunismului din România (clasa a XIII-a)|Istoria comunismului din România]] · [[Clasa a XIII-a]] · lecția 4 din 9
+[[Istoria comunismului din România (clasa a XIII-a)|Istoria comunismului din România]] · [[Clasa a XIII-a]] · lecția 4 din 18
 
 **Capitolul:** Regimul în evoluție — semestrul 1
 

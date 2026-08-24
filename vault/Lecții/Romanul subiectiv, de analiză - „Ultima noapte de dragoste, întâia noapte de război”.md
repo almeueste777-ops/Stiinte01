@@ -10,7 +10,7 @@ clasa: "a X-a"
 ---
 # Romanul subiectiv, de analiză: „Ultima noapte de dragoste, întâia noapte de război”
 
-[[Limba și literatura română (clasa a X-a)|Limba și literatura română]] · [[Clasa a X-a]] · lecția 5 din 9
+[[Limba și literatura română (clasa a X-a)|Limba și literatura română]] · [[Clasa a X-a]] · lecția 5 din 20
 
 **Capitolul:** Romanul — semestrul 1
 

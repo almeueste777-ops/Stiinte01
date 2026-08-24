@@ -21,7 +21,7 @@ cssclasses: fisa
 
 Marile teme ale filosofiei: omul, morala, politica, cunoașterea și rostul însuși al întrebării filosofice.
 
-## Capitole (5)
+## Capitole (9)
 
 ### Introducere în filosofie — semestrul 1
 
@@ -52,9 +52,31 @@ Marile teme ale filosofiei: omul, morala, politica, cunoașterea și rostul îns
 - [[Adevăr și eroare]]
 - [[Rolul filosofiei în viața socială]]
 
+### Metafizica și divinitatea — semestrul 1
+
+- [[Teorii despre existență - materialism, idealism, dualism]]
+- [[Existența lui Dumnezeu - argumente și obiecții]]
+- [[Credință și rațiune]]
+
+### Marii filosofi — semestrul 2
+
+- [[Platon - teoria Ideilor, mitul peșterii, cetatea dreaptă]]
+- [[Aristotel - substanță, cele patru cauze, virtutea]]
+- [[Descartes și raționalismul modern]]
+
+### Empirismul și limitele cunoașterii — semestrul 1
+
+- [[Empirismul - Locke, Berkeley, Hume]]
+- [[Scepticismul și problema certitudinii]]
+
+### Etică și politică aprofundate — semestrul 2
+
+- [[Fericirea și artele de a trăi - hedonism, epicureism, stoicism]]
+- [[Teorii ale dreptății sociale - utilitarism, liberalism egalitar, libertarianism]]
+
 ## Exersare
-- [[Carduri - Filosofie (clasa a XII-a)]] — 56 carduri
-- [[Test - Filosofie (clasa a XII-a)]] — 81 întrebări
+- [[Carduri - Filosofie (clasa a XII-a)]] — 96 carduri
+- [[Test - Filosofie (clasa a XII-a)]] — 133 întrebări
 
 ## Legături
 - [[Filosofie|Filosofie]]

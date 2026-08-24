@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Sensul vieții și moartea
 
-[[Filosofie (clasa a XII-a)|Filosofie]] · [[Clasa a XII-a]] · lecția 5 din 14
+[[Filosofie (clasa a XII-a)|Filosofie]] · [[Clasa a XII-a]] · lecția 5 din 24
 
 **Capitolul:** Omul — semestrul 1
 

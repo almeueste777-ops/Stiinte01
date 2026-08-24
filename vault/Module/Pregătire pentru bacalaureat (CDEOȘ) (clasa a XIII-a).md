@@ -21,7 +21,7 @@ cssclasses: fisa
 
 Organizarea examenului, planul de învățare, tehnici de memorare și de scriere sub presiune, plus recapitulări încrucișate pe probe.
 
-## Capitole (3)
+## Capitole (7)
 
 ### Examenul: structură și reguli — semestrul 1
 
@@ -41,9 +41,32 @@ Organizarea examenului, planul de învățare, tehnici de memorare și de scrier
 - [[Repere pentru proba E.d din aria „Om și societate”]]
 - [[Proba A, B și D - competențele]]
 
+### Sinteze de istorie (I): statul român modern — semestrul 1
+
+- [[Autonomii, romanitate și etnogeneză]]
+- [[Constituirea României moderne (1821–1878)]]
+- [[De la Marea Unire la Al Doilea Război Mondial]]
+
+### Sinteze de istorie (II): secolul XX și instituțiile — semestrul 2
+
+- [[România postbelică - comunism și tranziție]]
+- [[Constituțiile și evoluția instituțiilor]]
+- [[Eseul istoric la proba E.c]]
+
+### Sinteze socio-umane — semestrul 1
+
+- [[Repere de logică și de filosofie]]
+- [[Repere de psihologie și de sociologie]]
+- [[Repere de economie]]
+
+### Strategia finală de examen — semestrul 2
+
+- [[Argumentarea și eseul structurat]]
+- [[Simulări, bareme și săptămâna dinaintea examenului]]
+
 ## Exersare
-- [[Carduri - Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)]] — 36 carduri
-- [[Test - Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)]] — 60 întrebări
+- [[Carduri - Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)]] — 80 carduri
+- [[Test - Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)]] — 116 întrebări
 
 ## Legături
 - [[Pregătire pentru bacalaureat (CDEOȘ)|Pregătire pentru bacalaureat (CDEOȘ)]]

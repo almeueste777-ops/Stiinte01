@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Corelație, cauzalitate, decizie
 
-[[Matematică aplicată în științele sociale (clasa a XI-a)|Matematică aplicată în științele sociale]] · [[Clasa a XI-a]] · lecția 9 din 9
+[[Matematică aplicată în științele sociale (clasa a XI-a)|Matematică aplicată în științele sociale]] · [[Clasa a XI-a]] · lecția 9 din 18
 
 **Capitolul:** Modele și aplicații — semestrul 2
 
@@ -29,6 +29,6 @@ Corelația arată că două variabile evoluează împreună; ea se măsoară pri
 
 ---
 
-⬅ [[Procente, indici, comparații]]
+⬅ [[Procente, indici, comparații]] · [[Serii de frecvențe și tabele statistice]] ➡
 
 Exersează: [[Carduri - Matematică aplicată în științele sociale (clasa a XI-a)]] · [[Test - Matematică aplicată în științele sociale (clasa a XI-a)]]

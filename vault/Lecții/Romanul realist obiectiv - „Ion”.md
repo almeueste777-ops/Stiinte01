@@ -10,7 +10,7 @@ clasa: "a X-a"
 ---
 # Romanul realist obiectiv: „Ion”
 
-[[Limba și literatura română (clasa a X-a)|Limba și literatura română]] · [[Clasa a X-a]] · lecția 4 din 9
+[[Limba și literatura română (clasa a X-a)|Limba și literatura română]] · [[Clasa a X-a]] · lecția 4 din 20
 
 **Capitolul:** Romanul — semestrul 1
 

@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Piața muncii și șomajul
 
-[[Economie și educație antreprenorială (clasa a XIII-a)|Economie și educație antreprenorială]] · [[Clasa a XIII-a]] · lecția 8 din 12
+[[Economie și educație antreprenorială (clasa a XIII-a)|Economie și educație antreprenorială]] · [[Clasa a XIII-a]] · lecția 8 din 24
 
 **Capitolul:** Piețe particulare — semestrul 2
 

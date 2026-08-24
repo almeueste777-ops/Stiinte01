@@ -10,7 +10,7 @@ clasa: "a XII-a"
 ---
 # Tudor Arghezi: estetica urâtului
 
-[[Limba și literatura română (clasa a XII-a)|Limba și literatura română]] · [[Clasa a XII-a]] · lecția 3 din 10
+[[Limba și literatura română (clasa a XII-a)|Limba și literatura română]] · [[Clasa a XII-a]] · lecția 3 din 20
 
 **Capitolul:** Poezia interbelică — semestrul 1
 

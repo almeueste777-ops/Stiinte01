@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Memoria
 
-[[Psihologie (clasa a X-a)|Psihologie]] · [[Clasa a X-a]] · lecția 8 din 16
+[[Psihologie (clasa a X-a)|Psihologie]] · [[Clasa a X-a]] · lecția 8 din 24
 
 **Capitolul:** Procese cognitive superioare — semestrul 1
 

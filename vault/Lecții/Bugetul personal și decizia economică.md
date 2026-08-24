@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Bugetul personal și decizia economică
 
-[[Matematică aplicată în științele sociale (clasa a XII-a)|Matematică aplicată în științele sociale]] · [[Clasa a XII-a]] · lecția 3 din 9
+[[Matematică aplicată în științele sociale (clasa a XII-a)|Matematică aplicată în științele sociale]] · [[Clasa a XII-a]] · lecția 3 din 18
 
 **Capitolul:** Matematici financiare — semestrul 1
 

@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Temperamentul
 
-[[Psihologie (clasa a X-a)|Psihologie]] · [[Clasa a X-a]] · lecția 13 din 16
+[[Psihologie (clasa a X-a)|Psihologie]] · [[Clasa a X-a]] · lecția 13 din 24
 
 **Capitolul:** Personalitatea — semestrul 2
 

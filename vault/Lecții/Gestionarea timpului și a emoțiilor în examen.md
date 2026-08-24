@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Gestionarea timpului și a emoțiilor în examen
 
-[[Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)|Pregătire pentru bacalaureat (CDEOȘ)]] · [[Clasa a XIII-a]] · lecția 5 din 9
+[[Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)|Pregătire pentru bacalaureat (CDEOȘ)]] · [[Clasa a XIII-a]] · lecția 5 din 20
 
 **Capitolul:** Tehnici de învățare și de examen — semestrul 2
 

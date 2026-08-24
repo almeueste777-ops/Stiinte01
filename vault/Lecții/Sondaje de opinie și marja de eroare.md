@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Sondaje de opinie și marja de eroare
 
-[[Matematică aplicată în științele sociale (clasa a XII-a)|Matematică aplicată în științele sociale]] · [[Clasa a XII-a]] · lecția 4 din 9
+[[Matematică aplicată în științele sociale (clasa a XII-a)|Matematică aplicată în științele sociale]] · [[Clasa a XII-a]] · lecția 4 din 18
 
 **Capitolul:** Sondaje, alegeri, decizie colectivă — semestrul 1
 

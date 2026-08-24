@@ -21,7 +21,7 @@ cssclasses: fisa
 
 Procesele psihice, personalitatea și conduita omului: cum percepem, gândim, simțim, ne motivăm și ne raportăm la ceilalți.
 
-## Capitole (6)
+## Capitole (9)
 
 ### Psihologia ca știință — semestrul 1
 
@@ -57,9 +57,26 @@ Procesele psihice, personalitatea și conduita omului: cum percepem, gândim, si
 
 - [[Relații interpersonale și conduite sociale]]
 
+### Învățarea, inteligența și deprinderile — semestrul 1
+
+- [[Inteligența]]
+- [[Învățarea și formele ei]]
+- [[Deprinderile și priceperile]]
+
+### Conștiința, inconștientul și apărarea eului — semestrul 2
+
+- [[Conștiința și stările ei]]
+- [[Inconștientul și mecanismele de apărare]]
+
+### Personalitate, dezvoltare și comunicare — semestrul 2
+
+- [[Teorii ale personalității]]
+- [[Dezvoltarea psihică și stadiile ei]]
+- [[Comunicarea interpersonală]]
+
 ## Exersare
-- [[Carduri - Psihologie (clasa a X-a)]] — 64 carduri
-- [[Test - Psihologie (clasa a X-a)]] — 88 întrebări
+- [[Carduri - Psihologie (clasa a X-a)]] — 96 carduri
+- [[Test - Psihologie (clasa a X-a)]] — 132 întrebări
 
 ## Legături
 - [[Psihologie|Psihologie]]

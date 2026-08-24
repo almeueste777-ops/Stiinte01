@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Clasificarea
 
-[[Logică, argumentare și comunicare (clasa a IX-a)|Logică, argumentare și comunicare]] · [[Clasa a IX-a]] · lecția 7 din 16
+[[Logică, argumentare și comunicare (clasa a IX-a)|Logică, argumentare și comunicare]] · [[Clasa a IX-a]] · lecția 7 din 24
 
 **Capitolul:** Termenii — semestrul 1
 

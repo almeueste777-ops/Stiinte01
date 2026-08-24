@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Context internațional și preluarea puterii
 
-[[Istoria comunismului din România (clasa a XIII-a)|Istoria comunismului din România]] · [[Clasa a XIII-a]] · lecția 1 din 9
+[[Istoria comunismului din România (clasa a XIII-a)|Istoria comunismului din România]] · [[Clasa a XIII-a]] · lecția 1 din 18
 
 **Capitolul:** Instaurarea regimului — semestrul 1
 

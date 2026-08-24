@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Probabilități în situații sociale
 
-[[Matematică aplicată în științele sociale (clasa a XI-a)|Matematică aplicată în științele sociale]] · [[Clasa a XI-a]] · lecția 6 din 9
+[[Matematică aplicată în științele sociale (clasa a XI-a)|Matematică aplicată în științele sociale]] · [[Clasa a XI-a]] · lecția 6 din 18
 
 **Capitolul:** Indicatori și probabilități — semestrul 1
 

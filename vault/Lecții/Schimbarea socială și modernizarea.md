@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Schimbarea socială și modernizarea
 
-[[Sociologie (clasa a XI-a)|Sociologie]] · [[Clasa a XI-a]] · lecția 13 din 14
+[[Sociologie (clasa a XI-a)|Sociologie]] · [[Clasa a XI-a]] · lecția 13 din 24
 
 **Capitolul:** Schimbare socială — semestrul 2
 

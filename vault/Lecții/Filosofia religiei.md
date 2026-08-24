@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Filosofia religiei
 
-[[Filosofie (clasa a XIII-a)|Filosofie]] · [[Clasa a XIII-a]] · lecția 3 din 9
+[[Filosofie (clasa a XIII-a)|Filosofie]] · [[Clasa a XIII-a]] · lecția 3 din 22
 
 **Capitolul:** Existența și cunoașterea ei — semestrul 1
 

@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Conversiunea, obversiunea și contrapoziția
 
-[[Logică, argumentare și comunicare (clasa a IX-a)|Logică, argumentare și comunicare]] · [[Clasa a IX-a]] · lecția 10 din 16
+[[Logică, argumentare și comunicare (clasa a IX-a)|Logică, argumentare și comunicare]] · [[Clasa a IX-a]] · lecția 10 din 24
 
 **Capitolul:** Propozițiile — semestrul 2
 

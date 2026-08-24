@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Limba și literatura română (clasa a X-a)
 
-60 întrebări din [[Limba și literatura română (clasa a X-a)|Limba și literatura română (clasa a X-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+116 întrebări din [[Limba și literatura română (clasa a X-a)|Limba și literatura română (clasa a X-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. „Povestea lui Harap-Alb” a fost publicată în:
 
@@ -441,7 +441,607 @@ cssclasses: test
 > 
 > Faptele prezentate pot fi adevărate, dar tabloul, incomplet.
 
-### 37. „Povestea lui Harap-Alb” a apărut în:
+### 37. Basmul popular se caracterizează prin faptul că este:
+
+- a. anonim, colectiv și oral
+- b. scris de un autor cunoscut
+- c. fixat într-o singură variantă
+- d. lipsit de formule fixe
+
+> [!success]- Răspuns
+> **a. anonim, colectiv și oral**
+> 
+> De aceea circulă în mai multe variante.
+
+### 38. „Tinerețe fără bătrânețe și viață fără de moarte” a fost cules de:
+
+- a. Petre Ispirescu
+- b. Ion Creangă
+- c. Mihai Eminescu
+- d. Vladimir Propp
+
+> [!success]- Răspuns
+> **a. Petre Ispirescu**
+> 
+> El a strâns basmele în volumul „Legende sau basmele românilor”.
+
+### 39. Schema comună tuturor basmelor a fost descrisă de:
+
+- a. Vladimir Propp
+- b. Titu Maiorescu
+- c. George Călinescu
+- d. Nicolae Manolescu
+
+> [!success]- Răspuns
+> **a. Vladimir Propp**
+> 
+> Ea cuprinde funcțiile narative repetabile ale basmului.
+
+### 40. Deosebirea dintre basmul cult și cel popular privește:
+
+- a. tratarea și stilul, nu structura
+- b. prezența fabulosului
+- c. victoria binelui
+- d. existența probelor
+
+> [!success]- Răspuns
+> **a. tratarea și stilul, nu structura**
+> 
+> Schema rămâne, dar tratarea devine personală.
+
+### 41. „Alexandru Lăpușneanul” este:
+
+- a. prima nuvelă istorică din literatura română
+- b. primul roman istoric românesc
+- c. o cronică
+- d. o baladă
+
+> [!success]- Răspuns
+> **a. prima nuvelă istorică din literatura română**
+> 
+> A apărut în primul număr al „Daciei literare”, în 1840.
+
+### 42. Replica „Dacă voi nu mă vreți, eu vă vreu” aparține:
+
+- a. lui Alexandru Lăpușneanul
+- b. lui Moțoc
+- c. Doamnei Ruxanda
+- d. mitropolitului
+
+> [!success]- Răspuns
+> **a. lui Alexandru Lăpușneanul**
+> 
+> Ea este și motoul primului capitol.
+
+### 43. Sursa documentară a nuvelei este:
+
+- a. letopisețul lui Grigore Ureche
+- b. „O samă de cuvinte” a lui Neculce
+- c. „Descrierea Moldovei” a lui Cantemir
+- d. „Istoria ieroglifică”
+
+> [!success]- Răspuns
+> **a. letopisețul lui Grigore Ureche**
+> 
+> Negruzzi a prelucrat literar faptele consemnate acolo.
+
+### 44. Nuvela „Alexandru Lăpușneanul” îmbină:
+
+- a. trăsături clasice și romantice
+- b. realism și naturalism
+- c. simbolism și modernism
+- d. clasicism pur
+
+> [!success]- Răspuns
+> **a. trăsături clasice și romantice**
+> 
+> Antiteza și personajul excepțional sunt romantice; echilibrul construcției, clasic.
+
+### 45. Romantismul apare ca reacție împotriva:
+
+- a. raționalismului clasic și iluminist
+- b. realismului
+- c. simbolismului
+- d. modernismului
+
+> [!success]- Răspuns
+> **a. raționalismului clasic și iluminist**
+> 
+> El pune sentimentul mai presus de rațiune.
+
+### 46. Procedeul fundamental al romantismului este:
+
+- a. antiteza
+- b. ironia
+- c. sugestia
+- d. enumerația
+
+> [!success]- Răspuns
+> **a. antiteza**
+> 
+> Ea opune înger și demon, viață și moarte, trecut și prezent.
+
+### 47. Romantismul înalt din literatura română este reprezentat de:
+
+- a. Mihai Eminescu
+- b. Vasile Alecsandri
+- c. Grigore Alexandrescu
+- d. Dimitrie Bolintineanu
+
+> [!success]- Răspuns
+> **a. Mihai Eminescu**
+> 
+> Ceilalți aparțin romantismului pașoptist.
+
+### 48. Evadarea romantică se îndreaptă spre:
+
+- a. trecut, natură, vis, exotic și folclor
+- b. realitatea socială imediată
+- c. viața citadină
+- d. documentul istoric exact
+
+> [!success]- Răspuns
+> **a. trecut, natură, vis, exotic și folclor**
+> 
+> Ea exprimă refuzul prezentului prozaic.
+
+### 49. Motivul florii albastre din poezia lui Eminescu provine de la:
+
+- a. Novalis
+- b. Byron
+- c. Lamartine
+- d. Leopardi
+
+> [!success]- Răspuns
+> **a. Novalis**
+> 
+> El simbolizează idealul și aspirația infinită.
+
+### 50. „Floare albastră” se încheie cu versul:
+
+- a. „Totuși este trist în lume!”
+- b. „Nu credeam să învăț a muri vrodată”
+- c. „Ci eu în lumea mea mă simt”
+- d. „De ce te legeni, codrule?”
+
+> [!success]- Răspuns
+> **a. „Totuși este trist în lume!”**
+> 
+> El fixează melancolia eului liric după idila trăită.
+
+### 51. În poezie, fata întruchipează:
+
+- a. chemarea spre iubire și viața terestră
+- b. aspirația spre cunoașterea absolută
+- c. idealul politic pașoptist
+- d. spiritul justițiar
+
+> [!success]- Răspuns
+> **a. chemarea spre iubire și viața terestră**
+> 
+> Eul liric întruchipează, dimpotrivă, setea de cunoaștere.
+
+### 52. „Floare albastră” poate fi încadrată ca:
+
+- a. idilă cu structură de meditație
+- b. pastel
+- c. odă
+- d. satiră
+
+> [!success]- Răspuns
+> **a. idilă cu structură de meditație**
+> 
+> Iubirea în natură se împletește cu reflecția asupra condiției geniului.
+
+### 53. Realismul urmărește:
+
+- a. reprezentarea veridică a realității sociale
+- b. evadarea în trecut și în vis
+- c. sugestia stărilor vagi
+- d. perfecțiunea formală a versului
+
+> [!success]- Răspuns
+> **a. reprezentarea veridică a realității sociale**
+> 
+> El refuză idealizarea romantică.
+
+### 54. „Ciocoii vechi și noi” de Nicolae Filimon este:
+
+- a. primul roman realist din literatura română
+- b. prima nuvelă istorică
+- c. primul basm cult
+- d. prima comedie
+
+> [!success]- Răspuns
+> **a. primul roman realist din literatura română**
+> 
+> El înfățișează ascensiunea parvenitului Dinu Păturică.
+
+### 55. Naratorul realist tipic este:
+
+- a. obiectiv și omniscient, la persoana a III-a
+- b. subiectiv, la persoana I
+- c. un personaj-martor
+- d. absent din text
+
+> [!success]- Răspuns
+> **a. obiectiv și omniscient, la persoana a III-a**
+> 
+> El nu-și judecă moral personajele.
+
+### 56. „Comedia umană” este ciclul de romane al lui:
+
+- a. Honoré de Balzac
+- b. Gustave Flaubert
+- c. Charles Dickens
+- d. Lev Tolstoi
+
+> [!success]- Răspuns
+> **a. Honoré de Balzac**
+> 
+> El urmărește să dea o „istorie a moravurilor” societății.
+
+### 57. Volumul „Momente și schițe” cuprinde:
+
+- a. proză scurtă satirică publicată întâi în ziare
+- b. comedii
+- c. nuvele istorice
+- d. poezii
+
+> [!success]- Răspuns
+> **a. proză scurtă satirică publicată întâi în ziare**
+> 
+> Textele surprind lumea mic-burgheză bucureșteană.
+
+### 58. „D-l Goe...” este:
+
+- a. o schiță
+- b. o comedie
+- c. o nuvelă psihologică
+- d. o povestire în ramă
+
+> [!success]- Răspuns
+> **a. o schiță**
+> 
+> Ea satirizează proasta creștere a junelui.
+
+### 59. Principalul instrument de caracterizare în proza lui Caragiale este:
+
+- a. dialogul și felul de a vorbi al personajelor
+- b. descrierea amănunțită
+- c. monologul interior
+- d. analiza naratorului
+
+> [!success]- Răspuns
+> **a. dialogul și felul de a vorbi al personajelor**
+> 
+> Personajele se trădează prin ticuri și greșeli de limbaj.
+
+### 60. Tipul bucureșteanului spiritual și superficial din opera lui Caragiale este:
+
+- a. Mitică
+- b. Goe
+- c. Lache
+- d. Bubico
+
+> [!success]- Răspuns
+> **a. Mitică**
+> 
+> El apare în mai multe schițe și momente.
+
+### 61. „Baltagul” de Sadoveanu îmbină:
+
+- a. realismul etnografic cu dimensiunea mitică
+- b. simbolismul cu expresionismul
+- c. clasicismul cu iluminismul
+- d. naturalismul cu fantasticul
+
+> [!success]- Răspuns
+> **a. realismul etnografic cu dimensiunea mitică**
+> 
+> Lumea pastorală e redată realist, dar are un ritm arhaic, mitic.
+
+### 62. Personajul principal al romanului este:
+
+- a. Vitoria Lipan
+- b. Nechifor Lipan
+- c. Gheorghiță
+- d. Calistrat Bogza
+
+> [!success]- Răspuns
+> **a. Vitoria Lipan**
+> 
+> Ea conduce căutarea și restabilește dreptatea.
+
+### 63. Motoul romanului „Baltagul” este preluat din balada:
+
+- a. „Miorița”
+- b. „Meșterul Manole”
+- c. „Toma Alimoș”
+- d. „Mioara năzdrăvană”
+
+> [!success]- Răspuns
+> **a. „Miorița”**
+> 
+> Versul „Stăpâne, stăpâne,/ Mai cheamă ș-un câne” trimite la mitul mioritic.
+
+### 64. Călătoria Vitoriei și a lui Gheorghiță are, pentru fiu, un caracter:
+
+- a. inițiatic, de maturizare
+- b. pur turistic
+- c. comic
+- d. fantastic
+
+> [!success]- Răspuns
+> **a. inițiatic, de maturizare**
+> 
+> El trece de la copilărie la responsabilitatea vârstei adulte.
+
+### 65. Romanul doric, în clasificarea lui Manolescu, este:
+
+- a. obiectiv, cu narator omniscient la persoana a III-a
+- b. subiectiv, la persoana I
+- c. autoreflexiv
+- d. fără narator
+
+> [!success]- Răspuns
+> **a. obiectiv, cu narator omniscient la persoana a III-a**
+> 
+> „Ion” și „Baltagul” sunt exemple.
+
+### 66. „Ultima noapte de dragoste, întâia noapte de război” este un roman:
+
+- a. ionic, subiectiv
+- b. doric, obiectiv
+- c. corintic, autoreflexiv
+- d. realist balzacian
+
+> [!success]- Răspuns
+> **a. ionic, subiectiv**
+> 
+> El este centrat pe analiza conștiinței lui Ștefan Gheorghidiu.
+
+### 67. Clasificarea în roman doric, ionic și corintic aparține lui:
+
+- a. Nicolae Manolescu
+- b. Titu Maiorescu
+- c. Eugen Lovinescu
+- d. George Călinescu
+
+> [!success]- Răspuns
+> **a. Nicolae Manolescu**
+> 
+> Ea este expusă în „Arca lui Noe”.
+
+### 68. Clasificările romanului sunt utile pentru că:
+
+- a. orientează analiza perspectivei și a viziunii despre lume
+- b. stabilesc valoarea operei
+- c. înlocuiesc lectura
+- d. clasifică autorii
+
+> [!success]- Răspuns
+> **a. orientează analiza perspectivei și a viziunii despre lume**
+> 
+> Același roman poate aparține mai multor categorii simultan.
+
+### 69. Strofa de trei versuri se numește:
+
+- a. terțină
+- b. distih
+- c. catren
+- d. sextină
+
+> [!success]- Răspuns
+> **a. terțină**
+> 
+> Distihul are două versuri, catrenul, patru.
+
+### 70. Rima aabb, în care versurile vecine rimează două câte două, este:
+
+- a. împerecheată
+- b. încrucișată
+- c. îmbrățișată
+- d. monorimă
+
+> [!success]- Răspuns
+> **a. împerecheată**
+> 
+> În rima îmbrățișată, primul vers rimează cu al patrulea.
+
+### 71. Continuarea sensului dintr-un vers în cel următor, fără pauză la capăt de rând, se numește:
+
+- a. ingambament
+- b. cezură
+- c. măsură
+- d. monorimă
+
+> [!success]- Răspuns
+> **a. ingambament**
+> 
+> Ea creează o curgere continuă a frazei poetice.
+
+### 72. Versul liber se caracterizează prin faptul că:
+
+- a. renunță atât la rima fixă, cât și la măsura constantă
+- b. păstrează rima, dar nu ritmul
+- c. are întotdeauna cezură
+- d. are măsură fixă de zece silabe
+
+> [!success]- Răspuns
+> **a. renunță atât la rima fixă, cât și la măsura constantă**
+> 
+> El se organizează după imagine și după respirația frazei.
+
+### 73. „Citesc pe Eminescu” (în loc de „opera lui Eminescu”) este un exemplu de:
+
+- a. metonimie
+- b. metaforă
+- c. hiperbolă
+- d. sinecdocă
+
+> [!success]- Răspuns
+> **a. metonimie**
+> 
+> Autorul este pus în locul operei sale.
+
+### 74. Reluarea aceluiași cuvânt la începutul mai multor versuri se numește:
+
+- a. anaforă
+- b. enumerație
+- c. inversiune
+- d. aliterație
+
+> [!success]- Răspuns
+> **a. anaforă**
+> 
+> Este un tip de repetiție cu rol de accentuare.
+
+### 75. Repetarea aceleiași consoane pentru efect sonor este:
+
+- a. aliterația
+- b. asonanța
+- c. onomatopeea
+- d. rima
+
+> [!success]- Răspuns
+> **a. aliterația**
+> 
+> Asonanța repetă, în schimb, o vocală.
+
+### 76. Sinecdoca constă în:
+
+- a. exprimarea părții prin întreg sau a întregului prin parte
+- b. alăturarea a doi termeni contradictorii
+- c. exagerarea unei însușiri
+- d. atribuirea de însușiri omenești
+
+> [!success]- Răspuns
+> **a. exprimarea părții prin întreg sau a întregului prin parte**
+> 
+> De exemplu, „a-și câștiga pâinea” pentru hrană în general.
+
+### 77. Purificarea spectatorului prin milă și teamă, produsă de tragedie, se numește:
+
+- a. catharsis
+- b. quiproquo
+- c. didascalie
+- d. parabolă
+
+> [!success]- Răspuns
+> **a. catharsis**
+> 
+> Conceptul este teoretizat încă de Aristotel.
+
+### 78. Într-un text dramatic, indicațiile scenice se numesc:
+
+- a. didascalii
+- b. replici
+- c. monologuri
+- d. tablouri
+
+> [!success]- Răspuns
+> **a. didascalii**
+> 
+> Ele nu sunt rostite pe scenă.
+
+### 79. Tragedia se caracterizează prin:
+
+- a. un erou de excepție copleșit de o forță superioară, cu final nefericit
+- b. satirizarea moravurilor și final fericit
+- c. conflicte din viața obișnuită
+- d. absența conflictului
+
+> [!success]- Răspuns
+> **a. un erou de excepție copleșit de o forță superioară, cu final nefericit**
+> 
+> „Oedip rege” și „Antigona” sunt modele antice.
+
+### 80. Specia dramatică ce prezintă conflicte grave din viața obișnuită, fără final neapărat tragic, este:
+
+- a. drama
+- b. comedia
+- c. tragedia
+- d. farsa
+
+> [!success]- Răspuns
+> **a. drama**
+> 
+> Ea îmbină trăsături ale comediei și ale tragediei.
+
+### 81. „Tinerețe fără bătrânețe și viață fără de moarte” a fost cules de:
+
+- a. Petre Ispirescu
+- b. Ion Creangă
+- c. Vasile Alecsandri
+- d. Mihai Eminescu
+
+> [!success]- Răspuns
+> **a. Petre Ispirescu**
+> 
+> El l-a inclus în „Legende sau basmele românilor”.
+
+### 82. Prima nuvelă istorică din literatura română este:
+
+- a. „Alexandru Lăpușneanul”
+- b. „Moara cu noroc”
+- c. „Ciocoii vechi și noi”
+- d. „Baltagul”
+
+> [!success]- Răspuns
+> **a. „Alexandru Lăpușneanul”**
+> 
+> A fost scrisă de Costache Negruzzi, în 1840.
+
+### 83. Procedeul fundamental al romantismului este:
+
+- a. antiteza
+- b. sugestia
+- c. ironia
+- d. enumerația
+
+> [!success]- Răspuns
+> **a. antiteza**
+> 
+> Ea opune înger și demon, viață și moarte, trecut și prezent.
+
+### 84. Motivul florii albastre, din poezia lui Eminescu, provine de la:
+
+- a. Novalis
+- b. Byron
+- c. Lamartine
+- d. Hugo
+
+> [!success]- Răspuns
+> **a. Novalis**
+> 
+> El simbolizează idealul și aspirația infinită.
+
+### 85. Rima în care primul vers rimează cu al treilea și al doilea cu al patrulea este:
+
+- a. încrucișată
+- b. împerecheată
+- c. îmbrățișată
+- d. monorimă
+
+> [!success]- Răspuns
+> **a. încrucișată**
+> 
+> Schema ei este abab.
+
+### 86. Purificarea spectatorului prin milă și teamă, produsă de tragedie, se numește:
+
+- a. catharsis
+- b. quiproquo
+- c. parabolă
+- d. didascalie
+
+> [!success]- Răspuns
+> **a. catharsis**
+> 
+> Conceptul este teoretizat de Aristotel.
+
+### 87. „Povestea lui Harap-Alb” a apărut în:
 
 - a. 1877
 - b. 1883
@@ -453,7 +1053,7 @@ cssclasses: test
 > 
 > A fost publicată în „Convorbiri literare”.
 
-### 38. Antagonistul din „Povestea lui Harap-Alb” este:
+### 88. Antagonistul din „Povestea lui Harap-Alb” este:
 
 - a. Spânul
 - b. Împăratul Roș
@@ -465,7 +1065,7 @@ cssclasses: test
 > 
 > Împăratul Roș este un adversar secundar.
 
-### 39. „Moara cu noroc” a fost publicată în:
+### 89. „Moara cu noroc” a fost publicată în:
 
 - a. 1881
 - b. 1877
@@ -477,7 +1077,7 @@ cssclasses: test
 > 
 > Este inclusă în volumul „Novele din popor”.
 
-### 40. Conflictul principal din „Moara cu noroc” este:
+### 90. Conflictul principal din „Moara cu noroc” este:
 
 - a. interior, în conștiința lui Ghiță
 - b. exterior, cu autoritățile
@@ -489,7 +1089,7 @@ cssclasses: test
 > 
 > Nuvela este una psihologică.
 
-### 41. „Hanu Ancuței” este:
+### 91. „Hanu Ancuței” este:
 
 - a. un ciclu de povestiri în ramă
 - b. un roman
@@ -501,7 +1101,7 @@ cssclasses: test
 > 
 > Cadrul hanului leagă cele nouă povestiri.
 
-### 42. Romanul „Ion” a apărut în:
+### 92. Romanul „Ion” a apărut în:
 
 - a. 1920
 - b. 1917
@@ -513,7 +1113,7 @@ cssclasses: test
 > 
 > Cele două părți se numesc „Glasul pământului” și „Glasul iubirii”.
 
-### 43. Naratorul din „Ion” este:
+### 93. Naratorul din „Ion” este:
 
 - a. obiectiv, omniscient, la persoana a III-a
 - b. subiectiv, la persoana I
@@ -525,7 +1125,7 @@ cssclasses: test
 > 
 > El nu intervine cu judecăți morale.
 
-### 44. Formula „Din mine însumi nu pot ieși” aparține lui:
+### 94. Formula „Din mine însumi nu pot ieși” aparține lui:
 
 - a. Camil Petrescu
 - b. Liviu Rebreanu
@@ -537,7 +1137,7 @@ cssclasses: test
 > 
 > Ea justifică perspectiva subiectivă.
 
-### 45. Anticalofilismul înseamnă:
+### 95. Anticalofilismul înseamnă:
 
 - a. refuzul scrisului frumos în favoarea preciziei
 - b. respingerea metaforei
@@ -549,7 +1149,7 @@ cssclasses: test
 > 
 > Este o condiție a autenticității la Camil Petrescu.
 
-### 46. „Enigma Otiliei” a apărut în:
+### 96. „Enigma Otiliei” a apărut în:
 
 - a. 1938
 - b. 1930
@@ -561,7 +1161,7 @@ cssclasses: test
 > 
 > Este un roman balzacian cu deschidere modernă.
 
-### 47. Volumul I din „Moromeții” a apărut în:
+### 97. Volumul I din „Moromeții” a apărut în:
 
 - a. 1955
 - b. 1967
@@ -573,7 +1173,7 @@ cssclasses: test
 > 
 > Volumul al doilea a apărut în 1967.
 
-### 48. Ilie Moromete este caracterizat mai ales prin:
+### 98. Ilie Moromete este caracterizat mai ales prin:
 
 - a. ironie, disimulare și reflecție
 - b. violență și impulsivitate
@@ -585,7 +1185,79 @@ cssclasses: test
 > 
 > El încearcă să apere o ordine a lumii care se prăbușește.
 
-### 49. Pastelul a fost impus în literatura română de:
+### 99. Realismul urmărește:
+
+- a. reprezentarea veridică și obiectivă a realității sociale
+- b. evadarea în trecut și în vis
+- c. sugestia stărilor vagi
+- d. perfecțiunea formală a versului
+
+> [!success]- Răspuns
+> **a. reprezentarea veridică și obiectivă a realității sociale**
+> 
+> El refuză idealizarea romantică.
+
+### 100. Primul roman realist din literatura română este:
+
+- a. „Ciocoii vechi și noi” de Nicolae Filimon
+- b. „Ion” de Liviu Rebreanu
+- c. „Baltagul” de Sadoveanu
+- d. „Mara” de Slavici
+
+> [!success]- Răspuns
+> **a. „Ciocoii vechi și noi” de Nicolae Filimon**
+> 
+> El înfățișează ascensiunea parvenitului Dinu Păturică.
+
+### 101. Volumul „Momente și schițe” de Caragiale a apărut în:
+
+- a. 1901
+- b. 1884
+- c. 1881
+- d. 1920
+
+> [!success]- Răspuns
+> **a. 1901**
+> 
+> El adună proză scurtă publicată întâi în ziare.
+
+### 102. Personajul principal din „Baltagul” de Sadoveanu este:
+
+- a. Vitoria Lipan
+- b. Nechifor Lipan
+- c. Gheorghiță
+- d. Calistrat Bogza
+
+> [!success]- Răspuns
+> **a. Vitoria Lipan**
+> 
+> Ea conduce căutarea și restabilește dreptatea.
+
+### 103. Clasificarea romanelor în dorice, ionice și corintice aparține lui:
+
+- a. Nicolae Manolescu
+- b. Titu Maiorescu
+- c. Eugen Lovinescu
+- d. George Călinescu
+
+> [!success]- Răspuns
+> **a. Nicolae Manolescu**
+> 
+> Ea este expusă în „Arca lui Noe”.
+
+### 104. Ciclul „Comedia umană” aparține lui:
+
+- a. Honoré de Balzac
+- b. Gustave Flaubert
+- c. Charles Dickens
+- d. Lev Tolstoi
+
+> [!success]- Răspuns
+> **a. Honoré de Balzac**
+> 
+> El este modelul realismului european.
+
+### 105. Pastelul a fost impus în literatura română de:
 
 - a. Vasile Alecsandri
 - b. Mihai Eminescu
@@ -597,7 +1269,7 @@ cssclasses: test
 > 
 > Prin ciclul „Pasteluri” (1867–1869).
 
-### 50. Glossa se caracterizează prin:
+### 106. Glossa se caracterizează prin:
 
 - a. dezvoltarea vers cu vers a strofei inițiale și reluarea ei finală
 - b. absența rimei
@@ -609,7 +1281,7 @@ cssclasses: test
 > 
 > Forma exprimă însăși ideea de repetiție și detașare.
 
-### 51. Mărcile eului liric includ:
+### 107. Mărcile eului liric includ:
 
 - a. verbe și pronume la persoana I
 - b. descrierea naturii
@@ -621,7 +1293,7 @@ cssclasses: test
 > 
 > Ele semnalează vocea care exprimă trăirea.
 
-### 52. „O scrisoare pierdută” a fost publicată în:
+### 108. „O scrisoare pierdută” a fost publicată în:
 
 - a. 1884
 - b. 1877
@@ -633,7 +1305,7 @@ cssclasses: test
 > 
 > Este o comedie de moravuri politice.
 
-### 53. Replica „curat murdar” aparține lui:
+### 109. Replica „curat murdar” aparține lui:
 
 - a. Ghiță Pristanda
 - b. Nae Cațavencu
@@ -645,7 +1317,7 @@ cssclasses: test
 > 
 > Ea ilustrează comicul de limbaj.
 
-### 54. Adevăratul factor de decizie din „O scrisoare pierdută” este:
+### 110. Adevăratul factor de decizie din „O scrisoare pierdută” este:
 
 - a. Zoe Trahanache
 - b. Tipătescu
@@ -657,7 +1329,7 @@ cssclasses: test
 > 
 > Ea obține candidatura dorită.
 
-### 55. Finalul comediei este:
+### 111. Finalul comediei este:
 
 - a. circular, cu revenirea la starea inițială
 - b. tragic
@@ -669,7 +1341,7 @@ cssclasses: test
 > 
 > Personajele rămân neschimbate.
 
-### 56. „Ridendo castigat mores” înseamnă:
+### 112. „Ridendo castigat mores” înseamnă:
 
 - a. râzând, îndreaptă moravurile
 - b. comedia nu are morală
@@ -681,7 +1353,7 @@ cssclasses: test
 > 
 > Este deviza clasică a comediei.
 
-### 57. Stilul științific se caracterizează prin:
+### 113. Stilul științific se caracterizează prin:
 
 - a. precizie, obiectivitate, termeni de specialitate
 - b. conotație și ambiguitate
@@ -693,7 +1365,7 @@ cssclasses: test
 > 
 > Ambiguitatea voită aparține stilului beletristic.
 
-### 58. Formulele fixe și impersonalitatea aparțin stilului:
+### 114. Formulele fixe și impersonalitatea aparțin stilului:
 
 - a. juridic-administrativ
 - b. științific
@@ -705,7 +1377,7 @@ cssclasses: test
 > 
 > Ele elimină ambiguitatea.
 
-### 59. Lectura critică a presei cere, în primul rând:
+### 115. Lectura critică a presei cere, în primul rând:
 
 - a. distingerea faptelor verificabile de opinii
 - b. citirea doar a titlurilor
@@ -717,7 +1389,7 @@ cssclasses: test
 > 
 > Amestecul lor deliberat e o formă frecventă de manipulare.
 
-### 60. Manipularea prin încadrare constă în:
+### 116. Manipularea prin încadrare constă în:
 
 - a. prezentarea faptului dintr-un anumit unghi
 - b. inventarea faptului

@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Caracterizarea personajului și relația dintre personaje
 
-[[Limba și literatura română (clasa a XIII-a)|Limba și literatura română]] · [[Clasa a XIII-a]] · lecția 4 din 9
+[[Limba și literatura română (clasa a XIII-a)|Limba și literatura română]] · [[Clasa a XIII-a]] · lecția 4 din 20
 
 **Capitolul:** Eseul structurat: tipuri și metodă — semestrul 1
 

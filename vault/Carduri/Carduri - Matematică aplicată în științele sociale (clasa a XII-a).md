@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Matematică aplicată în științele sociale (clasa a XII-a)
 
-36 carduri pentru [[Matematică aplicată în științele sociale (clasa a XII-a)|Matematică aplicată în științele sociale (clasa a XII-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+72 carduri pentru [[Matematică aplicată în științele sociale (clasa a XII-a)|Matematică aplicată în științele sociale (clasa a XII-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/matematica-aplicata-in-stiintele-sociale
 
@@ -82,6 +82,78 @@ La ce servește estimarea ordinului de mărime?::La verificarea rapidă a plauzi
 Ce distincții elimină majoritatea erorilor de interpretare?::Absolut/relativ, medie/mediană, corelație/cauzalitate.
 
 Scutesc cifrele de judecată?::Nu; ele o sprijină, dar nu o înlocuiesc.
+
+Ce deosebește o progresie aritmetică de una geometrică?::La cea aritmetică se adună o rație constantă, la cea geometrică se înmulțește cu una.
+
+Care este termenul de rang n al unei progresii aritmetice?::a_n = a_1 + (n − 1)·r.
+
+Ce tip de progresie descrie dobânda compusă?::O progresie geometrică.
+
+De ce depășește, în timp, o progresie geometrică una aritmetică?::Pentru că prima crește exponențial, a doua doar liniar.
+
+Din ce se compune o rată de credit?::Dintr-o parte de dobândă (la soldul rămas) și o parte de principal.
+
+Cum se schimbă componentele ratei în timp?::La început domină dobânda; spre final, principalul.
+
+De ce economisește bani rambursarea anticipată timpurie?::Pentru că reduce soldul devreme și elimină dobânda pe durata rămasă.
+
+Cum se calculează costul total al unui credit?::Ca sumă a tuturor ratelor minus suma împrumutată.
+
+De ce valorează o sumă de azi mai mult decât aceeași sumă viitoare?::Pentru că poate fi investită, iar inflația erodează valoarea viitoare.
+
+Ce face actualizarea?::Aduce o sumă viitoare la valoarea ei de azi.
+
+Ce arată o valoare actualizată netă pozitivă?::Că proiectul produce mai mult decât costă, la rata aleasă.
+
+Ce reflectă rata de actualizare?::Costul banilor și riscul: la risc mai mare, viitorul valorează mai puțin azi.
+
+Ce problemă rezolvă o metodă de repartizare a mandatelor?::Împărțirea unui număr întreg de locuri cât mai aproape de proporția voturilor.
+
+Cum funcționează metoda d'Hondt?::Împarte voturile fiecărui partid la 1, 2, 3, … și acordă mandatele celor mai mari câturi.
+
+Pe cine favorizează ușor metoda d'Hondt?::Partidele mari, ajutând la formarea majorităților.
+
+Ce face pragul electoral?::Exclude partidele sub un procent minim din repartizarea mandatelor.
+
+Ce studiază împărțirea echitabilă?::Cum se divide un bun sau o cheltuială astfel încât fiecare să considere rezultatul corect.
+
+Cum funcționează „unul taie, celălalt alege”?::Cel care taie face părți egale după el; celălalt alege partea preferată.
+
+Ce proprietate are rezultatul metodei „taie și alege”?::Fiecare consideră că a primit cel puțin jumătate, după propria apreciere.
+
+Ce înseamnă o împărțire fără invidie?::Nicio parte nu preferă porția altcuiva celei proprii.
+
+Coincide puterea de vot cu ponderea?::Nu; contează cât de des un votant este decisiv, nu doar mărimea ponderii.
+
+Când este un votant decisiv?::Când retragerea lui transformă o coaliție câștigătoare în una perdantă.
+
+Ce arată exemplul ponderilor 50, 49, 1 cu majoritate de 51?::Că votantul cu 1 are aceeași putere reală ca cel cu 49.
+
+Ce nu garantează o pondere de vot?::O influență proporțională cu ea.
+
+Ce structurează un arbore de decizie?::Alegerile și evenimentele incerte, în noduri și ramuri.
+
+Cum se evaluează un arbore de decizie?::De la frunze spre rădăcină, calculând valoarea așteptată la nodurile de șansă.
+
+Ce se alege la un nod de decizie?::Opțiunea cu valoarea așteptată cea mai bună.
+
+Ce fac vizibil arborii de decizie?::Ipotezele: alegerile, evenimentele posibile, probabilitățile și consecințele.
+
+Pot avea două opțiuni aceeași valoare așteptată, dar risc diferit?::Da; ele pot diferi mult prin împrăștierea rezultatelor.
+
+Ce înseamnă aversiunea la risc?::Preferința pentru un câștig sigur în locul unuia incert, la valoare așteptată egală sau mai mare.
+
+Ce reduce diversificarea?::Riscul specific fiecărui activ, prin repartizarea pe active nelegate.
+
+Ce risc nu poate elimina diversificarea?::Riscul general, care afectează totul deodată, ca o criză.
+
+Ce caută o problemă de optimizare?::Maximul sau minimul unui obiectiv, sub restricțiile date de resurse.
+
+Ce presupune o problemă de alocare?::Repartizarea unor resurse limitate pe mai multe activități cu randamente proprii.
+
+Unde se află optimul în cazul liniar?::„Într-un colț” al mulțimii soluțiilor posibile.
+
+De ce trebuie verificată robustețea unui optim?::Pentru că el depinde de ipoteze care se pot schimba.
 
 ---
 

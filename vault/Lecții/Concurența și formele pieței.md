@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Concurența și formele pieței
 
-[[Economie și educație antreprenorială (clasa a XIII-a)|Economie și educație antreprenorială]] · [[Clasa a XIII-a]] · lecția 6 din 12
+[[Economie și educație antreprenorială (clasa a XIII-a)|Economie și educație antreprenorială]] · [[Clasa a XIII-a]] · lecția 6 din 24
 
 **Capitolul:** Piața — semestrul 1
 

@@ -10,7 +10,7 @@ clasa: "a XIII-a"
 ---
 # Norme actuale: ortografie și punctuație
 
-[[Limba și literatura română (clasa a XIII-a)|Limba și literatura română]] · [[Clasa a XIII-a]] · lecția 6 din 9
+[[Limba și literatura română (clasa a XIII-a)|Limba și literatura română]] · [[Clasa a XIII-a]] · lecția 6 din 20
 
 **Capitolul:** Limba română aplicată — semestrul 2
 

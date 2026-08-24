@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Teme recurente și pregătirea pentru examen
 
-[[Filosofie (clasa a XIII-a)|Filosofie]] · [[Clasa a XIII-a]] · lecția 9 din 9
+[[Filosofie (clasa a XIII-a)|Filosofie]] · [[Clasa a XIII-a]] · lecția 9 din 22
 
 **Capitolul:** Eseul filosofic și bacalaureatul — semestrul 2
 
@@ -29,6 +29,6 @@ Temele care revin cel mai des la examen: libertatea și responsabilitatea; drept
 
 ---
 
-⬅ [[Cum se scrie un eseu filosofic]]
+⬅ [[Cum se scrie un eseu filosofic]] · [[Deontologia - Kant și etica datoriei]] ➡
 
 Exersează: [[Carduri - Filosofie (clasa a XIII-a)]] · [[Test - Filosofie (clasa a XIII-a)]]

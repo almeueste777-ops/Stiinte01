@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Sofisme formale și informale
 
-[[Logică, argumentare și comunicare (clasa a IX-a)|Logică, argumentare și comunicare]] · [[Clasa a IX-a]] · lecția 14 din 16
+[[Logică, argumentare și comunicare (clasa a IX-a)|Logică, argumentare și comunicare]] · [[Clasa a IX-a]] · lecția 14 din 24
 
 **Capitolul:** Erori de argumentare — semestrul 2
 

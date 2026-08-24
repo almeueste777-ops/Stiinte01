@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Inflație, valoare în timp, investiții
 
-[[Matematică aplicată în științele sociale (clasa a XII-a)|Matematică aplicată în științele sociale]] · [[Clasa a XII-a]] · lecția 2 din 9
+[[Matematică aplicată în științele sociale (clasa a XII-a)|Matematică aplicată în științele sociale]] · [[Clasa a XII-a]] · lecția 2 din 18
 
 **Capitolul:** Matematici financiare — semestrul 1
 

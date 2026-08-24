@@ -10,7 +10,7 @@ clasa: "a XII-a"
 ---
 # Neomodernismul: Nichita Stănescu și generația '60
 
-[[Limba și literatura română (clasa a XII-a)|Limba și literatura română]] · [[Clasa a XII-a]] · lecția 9 din 10
+[[Limba și literatura română (clasa a XII-a)|Limba și literatura română]] · [[Clasa a XII-a]] · lecția 9 din 20
 
 **Capitolul:** Neomodernism și postmodernism — semestrul 2
 

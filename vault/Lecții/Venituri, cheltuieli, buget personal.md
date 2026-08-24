@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Venituri, cheltuieli, buget personal
 
-[[Studii sociale (clasa a XII-a)|Studii sociale]] · [[Clasa a XII-a]] · lecția 1 din 9
+[[Studii sociale (clasa a XII-a)|Studii sociale]] · [[Clasa a XII-a]] · lecția 1 din 18
 
 **Capitolul:** Educație financiară personală — semestrul 1
 

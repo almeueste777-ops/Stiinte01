@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Comunicarea în situații interculturale
 
-[[Studii sociale (clasa a XI-a)|Studii sociale]] · [[Clasa a XI-a]] · lecția 8 din 9
+[[Studii sociale (clasa a XI-a)|Studii sociale]] · [[Clasa a XI-a]] · lecția 8 din 18
 
 **Capitolul:** Conflict, comunicare, comunitate — semestrul 2
 

@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Relații interpersonale și conduite sociale
 
-[[Psihologie (clasa a X-a)|Psihologie]] · [[Clasa a X-a]] · lecția 16 din 16
+[[Psihologie (clasa a X-a)|Psihologie]] · [[Clasa a X-a]] · lecția 16 din 24
 
 **Capitolul:** Conduita psihosocială — semestrul 2
 
@@ -29,6 +29,6 @@ Relațiile interpersonale sunt legături psihologice conștiente și reciproce �
 
 ---
 
-⬅ [[Caracterul]]
+⬅ [[Caracterul]] · [[Inteligența]] ➡
 
 Exersează: [[Carduri - Psihologie (clasa a X-a)]] · [[Test - Psihologie (clasa a X-a)]]

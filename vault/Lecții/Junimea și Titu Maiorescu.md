@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Junimea și Titu Maiorescu
 
-[[Limba și literatura română (clasa a XI-a)|Limba și literatura română]] · [[Clasa a XI-a]] · lecția 6 din 9
+[[Limba și literatura română (clasa a XI-a)|Limba și literatura română]] · [[Clasa a XI-a]] · lecția 6 din 20
 
 **Capitolul:** Junimea, realismul, marii clasici — semestrul 2
 

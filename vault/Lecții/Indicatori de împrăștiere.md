@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Indicatori de împrăștiere
 
-[[Matematică aplicată în științele sociale (clasa a XI-a)|Matematică aplicată în științele sociale]] · [[Clasa a XI-a]] · lecția 5 din 9
+[[Matematică aplicată în științele sociale (clasa a XI-a)|Matematică aplicată în științele sociale]] · [[Clasa a XI-a]] · lecția 5 din 18
 
 **Capitolul:** Indicatori și probabilități — semestrul 1
 

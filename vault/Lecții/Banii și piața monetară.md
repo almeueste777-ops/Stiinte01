@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Banii și piața monetară
 
-[[Economie și educație antreprenorială (clasa a XIII-a)|Economie și educație antreprenorială]] · [[Clasa a XIII-a]] · lecția 7 din 12
+[[Economie și educație antreprenorială (clasa a XIII-a)|Economie și educație antreprenorială]] · [[Clasa a XIII-a]] · lecția 7 din 24
 
 **Capitolul:** Piețe particulare — semestrul 2
 

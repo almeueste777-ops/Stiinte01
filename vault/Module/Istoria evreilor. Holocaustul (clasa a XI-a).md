@@ -20,7 +20,7 @@ cssclasses: fisa
 
 Istoria evreilor în Europa și în spațiul românesc, antisemitismul, Holocaustul și memoria lui.
 
-## Capitole (3)
+## Capitole (6)
 
 ### Evreii în istorie — semestrul 1
 
@@ -40,9 +40,27 @@ Istoria evreilor în Europa și în spațiul românesc, antisemitismul, Holocaus
 - [[Negaționismul și combaterea lui]]
 - [[Ce învățăm - drepturi, demnitate, responsabilitate]]
 
+### Rădăcinile urii: de la antisemitism la nazism — semestrul 1
+
+- [[Antisemitismul de-a lungul istoriei]]
+- [[Ascensiunea nazismului]]
+- [[Excluderea prin lege - legislația antievreiască]]
+
+### Mecanismul exterminării — semestrul 2
+
+- [[Ghetourile și deportările]]
+- [[Lagărele - concentrare și exterminare]]
+- [[Shoah - dimensiunea europeană]]
+
+### Holocaustul în România: pogromuri, Transnistria, memorie — semestrul 2
+
+- [[Pogromurile - București și Iași]]
+- [[Deportările în Transnistria]]
+- [[Memorie, justiție și „niciodată din nou]]
+
 ## Exersare
-- [[Carduri - Istoria evreilor. Holocaustul (clasa a XI-a)]] — 36 carduri
-- [[Test - Istoria evreilor. Holocaustul (clasa a XI-a)]] — 54 întrebări
+- [[Carduri - Istoria evreilor. Holocaustul (clasa a XI-a)]] — 72 carduri
+- [[Test - Istoria evreilor. Holocaustul (clasa a XI-a)]] — 102 întrebări
 
 ## Legături
 - [[Istoria evreilor. Holocaustul|Istoria evreilor. Holocaustul]]

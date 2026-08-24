@@ -10,7 +10,7 @@ clasa: "a X-a"
 ---
 # Poezia: de la pastel la meditație
 
-[[Limba și literatura română (clasa a X-a)|Limba și literatura română]] · [[Clasa a X-a]] · lecția 7 din 9
+[[Limba și literatura română (clasa a X-a)|Limba și literatura română]] · [[Clasa a X-a]] · lecția 7 din 20
 
 **Capitolul:** Poezia și teatrul — semestrul 2
 

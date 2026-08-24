@@ -21,7 +21,7 @@ cssclasses: fisa
 
 Genuri și specii literare ilustrate prin texte reprezentative: basmul, nuvela, romanul, poezia, comedia, plus stilistică și text nonliterar.
 
-## Capitole (4)
+## Capitole (9)
 
 ### Proza scurtă — semestrul 1
 
@@ -44,9 +44,35 @@ Genuri și specii literare ilustrate prin texte reprezentative: basmul, nuvela, 
 
 - [[Stiluri funcționale și texte nonliterare]]
 
+### Genul epic: basmul și nuvela istorică — semestrul 1
+
+- [[Basmul popular și basmul cult]]
+- [[Nuvela istorică - „Alexandru Lăpușneanul”]]
+
+### Romantismul și Mihai Eminescu — semestrul 1
+
+- [[Romantismul - trăsături și teme]]
+- [[Eminescu - „Floare albastră” — iubirea și natura]]
+
+### Realismul și proza lui Caragiale — semestrul 2
+
+- [[Realismul - trăsături și context]]
+- [[„Momente și schițe” - proza scurtă a lui Caragiale]]
+
+### Proza lui Sadoveanu și tipologia romanului — semestrul 2
+
+- [[„Baltagul” - realism și mit]]
+- [[Tipologia romanului]]
+
+### Elemente de teorie literară: versificație, figuri, gen dramatic — semestrul 1
+
+- [[Prozodia și versificația]]
+- [[Figurile de stil - tropi și figuri de construcție]]
+- [[Genul dramatic - comedia, drama, tragedia]]
+
 ## Exersare
-- [[Carduri - Limba și literatura română (clasa a X-a)]] — 36 carduri
-- [[Test - Limba și literatura română (clasa a X-a)]] — 60 întrebări
+- [[Carduri - Limba și literatura română (clasa a X-a)]] — 80 carduri
+- [[Test - Limba și literatura română (clasa a X-a)]] — 116 întrebări
 
 ## Legături
 - [[Limba și literatura română|Limba și literatura română]]

@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Adevăr și eroare
 
-[[Filosofie (clasa a XII-a)|Filosofie]] · [[Clasa a XII-a]] · lecția 13 din 14
+[[Filosofie (clasa a XII-a)|Filosofie]] · [[Clasa a XII-a]] · lecția 13 din 24
 
 **Capitolul:** Cunoașterea — semestrul 2
 

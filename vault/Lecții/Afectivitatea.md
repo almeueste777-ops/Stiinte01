@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Afectivitatea
 
-[[Psihologie (clasa a X-a)|Psihologie]] · [[Clasa a X-a]] · lecția 11 din 16
+[[Psihologie (clasa a X-a)|Psihologie]] · [[Clasa a X-a]] · lecția 11 din 24
 
 **Capitolul:** Procese reglatorii — semestrul 2
 

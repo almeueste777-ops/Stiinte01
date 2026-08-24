@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Memorare, organizare, hărți conceptuale
 
-[[Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)|Pregătire pentru bacalaureat (CDEOȘ)]] · [[Clasa a XIII-a]] · lecția 4 din 9
+[[Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)|Pregătire pentru bacalaureat (CDEOȘ)]] · [[Clasa a XIII-a]] · lecția 4 din 20
 
 **Capitolul:** Tehnici de învățare și de examen — semestrul 2
 

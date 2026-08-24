@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Drepturile omului
 
-[[Filosofie (clasa a XII-a)|Filosofie]] · [[Clasa a XII-a]] · lecția 11 din 14
+[[Filosofie (clasa a XII-a)|Filosofie]] · [[Clasa a XII-a]] · lecția 11 din 24
 
 **Capitolul:** Politica — semestrul 2
 

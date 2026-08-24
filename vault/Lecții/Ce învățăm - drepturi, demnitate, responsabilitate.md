@@ -10,7 +10,7 @@ clasa: "a XI-a"
 ---
 # Ce învățăm: drepturi, demnitate, responsabilitate
 
-[[Istoria evreilor. Holocaustul (clasa a XI-a)|Istoria evreilor. Holocaustul]] · [[Clasa a XI-a]] · lecția 9 din 9
+[[Istoria evreilor. Holocaustul (clasa a XI-a)|Istoria evreilor. Holocaustul]] · [[Clasa a XI-a]] · lecția 9 din 18
 
 **Capitolul:** Memorie și responsabilitate — semestrul 2
 
@@ -31,6 +31,6 @@ Studiul Holocaustului nu are ca scop cultivarea vinovăției colective, ci înț
 
 ---
 
-⬅ [[Negaționismul și combaterea lui]]
+⬅ [[Negaționismul și combaterea lui]] · [[Antisemitismul de-a lungul istoriei]] ➡
 
 Exersează: [[Carduri - Istoria evreilor. Holocaustul (clasa a XI-a)]] · [[Test - Istoria evreilor. Holocaustul (clasa a XI-a)]]

@@ -14,7 +14,7 @@ Anul **2** din cei 5 ai parcursului [[Parcurs școlar]].
 ## Materii (13)
 
 ### [[Arie - Limbă și comunicare|Limbă și comunicare]]
-- [[Limba și literatura română (clasa a X-a)|Limba și literatura română]] — 🎓 bac, 📘 9 lecții în aplicație
+- [[Limba și literatura română (clasa a X-a)|Limba și literatura română]] — 🎓 bac, 📘 20 lecții în aplicație
 - [[Limba modernă 1 (Engleză) (clasa a X-a)|Limba modernă 1 (Engleză)]] — 🎓 bac, 📘 18 lecții în aplicație
 - [[Limba modernă 2 (Franceză) (clasa a X-a)|Limba modernă 2 (Franceză)]] — 📘 18 lecții în aplicație
 - [[Limba latină (clasa a X-a)|Limba latină]] — 📘 9 lecții în aplicație
@@ -28,7 +28,7 @@ Anul **2** din cei 5 ai parcursului [[Parcurs școlar]].
 ### [[Arie - Om și societate|Om și societate]]
 - [[Istorie (clasa a X-a)|Istorie]] — 🎓 bac, 📘 24 lecții în aplicație
 - [[Geografie (clasa a X-a)|Geografie]] — 🎓 bac, 📘 20 lecții în aplicație
-- [[Psihologie (clasa a X-a)|Psihologie]] — 🎓 bac, 📘 16 lecții în aplicație
+- [[Psihologie (clasa a X-a)|Psihologie]] — 🎓 bac, 📘 24 lecții în aplicație
 - [[Religie (clasa a X-a)|Religie]] — 📘 18 lecții în aplicație
 
 ### [[Arie - Tehnologii|Tehnologii]]

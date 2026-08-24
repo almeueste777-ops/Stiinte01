@@ -10,7 +10,7 @@ clasa: "a XII-a"
 ---
 # Lucian Blaga: misterul și cunoașterea
 
-[[Limba și literatura română (clasa a XII-a)|Limba și literatura română]] · [[Clasa a XII-a]] · lecția 4 din 10
+[[Limba și literatura română (clasa a XII-a)|Limba și literatura română]] · [[Clasa a XII-a]] · lecția 4 din 20
 
 **Capitolul:** Poezia interbelică — semestrul 1
 

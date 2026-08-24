@@ -13,7 +13,7 @@ cssclasses: fisa
 
 ## Anii de studiu
 
-- [[Istoria comunismului din România (clasa a XIII-a)|Clasa a XIII-a]] — 9 lecții, 36 carduri, 54 întrebări
+- [[Istoria comunismului din România (clasa a XIII-a)|Clasa a XIII-a]] — 18 lecții, 72 carduri, 102 întrebări
 
 ## Legături
 - [[00 Start aici]]

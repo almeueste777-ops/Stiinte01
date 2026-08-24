@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Filosofie (clasa a XIII-a)
 
-36 carduri pentru [[Filosofie (clasa a XIII-a)|Filosofie (clasa a XIII-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+88 carduri pentru [[Filosofie (clasa a XIII-a)|Filosofie (clasa a XIII-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/filosofie
 
@@ -82,6 +82,110 @@ Ce cuprinde o fișă de argument?::Teza, două poziții filosofice opuse, două 
 De ce e mai utilă fișa de argument decât rezumatul?::Pentru că poate fi folosită la mai multe formulări ale subiectului.
 
 De ce trebuie exersată scrierea cronometrată?::Pentru că scrierea sub presiune este o competență separată de cunoașterea materiei.
+
+Ce judecă deontologia?::Conformitatea acțiunii cu datoria, nu consecințele ei.
+
+Ce este, pentru Kant, singurul lucru bun necondiționat?::Voința bună, care acționează din datorie.
+
+Cum sună formula umanității?::„Tratează omenirea întotdeauna și ca scop, niciodată numai ca mijloc.”
+
+Care este obiecția clasică adusă eticii kantiene?::Rigorismul: regula rămâne absolută chiar în situații extreme.
+
+Cui aparține principiul utilității în forma lui clasică?::Lui Jeremy Bentham.
+
+Ce distincție introduce Mill?::Între plăceri superioare (intelectuale) și inferioare (corporale).
+
+Care e deosebirea dintre utilitarismul actului și cel al regulii?::Primul judecă fiecare act; al doilea, regulile a căror respectare maximizează utilitatea.
+
+Care e obiecția clasică adusă utilitarismului?::Că poate justifica sacrificarea unei minorități pentru binele majorității.
+
+Ce întrebare pune etica virtuții?::„Ce fel de om trebuie să fiu?”, punând accentul pe caracter.
+
+Ce este phronesis?::Înțelepciunea practică, discernământul care știe ce cere fiecare situație.
+
+Care sunt cele patru principii clasice ale bioeticii?::Autonomia, binefacerea, nevătămarea și dreptatea.
+
+Ce întrebare pune etica aplicată acolo unde expertiza tehnică se oprește?::Ce este permis, ce este obligatoriu și cine are dreptul să decidă.
+
+Cum descrie Hobbes starea naturală?::Ca un „război al tuturor împotriva tuturor”, din care se iese printr-un suveran puternic.
+
+Ce protejează statul, la Locke?::Drepturile la viață, libertate și proprietate, existente deja în starea naturală.
+
+Ce este voința generală la Rousseau?::Voința corpului politic orientată spre binele comun.
+
+Ce deosebește contractul lui Hobbes de cel al lui Locke?::Hobbes cere un suveran absolut; Locke limitează statul și admite dreptul de rezistență.
+
+Ce este vălul ignoranței?::Situația în care alegem principiile societății fără a ști ce loc vom ocupa în ea.
+
+Pe ce se întemeiază dreptatea, pentru Nozick?::Pe corectitudinea istoriei dobândirii, nu pe tiparul final.
+
+Ce critică comunitarismul la Rawls și Nozick?::Individualismul abstract: eul e format de comunitate, nu anterior ei.
+
+Ce spune principiul diferenței?::Că inegalitățile sunt drepte doar dacă îi avantajează pe cei mai dezavantajați.
+
+Ce distincție a formulat Isaiah Berlin?::Între libertatea negativă (fără interferență) și cea pozitivă (autoguvernare).
+
+Cum sună principiul vătămării al lui Mill?::Puterea poate limita libertatea individului numai pentru a împiedica vătămarea altora.
+
+Care sunt cele trei tipuri de legitimitate la Weber?::Tradițională, charismatică și rațional-legală.
+
+Ce adaugă democrația liberală la principiul majorității?::Drepturi fundamentale, pluralism și protecția minorităților.
+
+Ce susține dualismul minte-corp?::Că mintea și corpul sunt două substanțe distincte (Descartes).
+
+Care e dificultatea principală a dualismului?::Interacțiunea: cum acționează o substanță imaterială asupra uneia materiale.
+
+Ce definește o stare mintală, pentru funcționalism?::Rolul ei funcțional, nu materialul din care e realizată.
+
+Ce este „problema grea a conștiinței”?::Întrebarea de ce și cum apare experiența subiectivă (Chalmers).
+
+Ce criteriu al identității personale a propus Locke?::Continuitatea conștiinței și a memoriei.
+
+Ce susține determinismul?::Că orice eveniment, inclusiv decizia, are cauze anterioare care îl determină.
+
+Ce afirmă compatibilismul?::Că libertatea și determinismul nu se exclud: liber e actul făcut fără constrângere, după propriile deliberări.
+
+De ce contează dezbaterea despre liberul arbitru?::Pentru că responsabilitatea morală și juridică presupune libertatea alegerii.
+
+În ce constă testul Turing?::Dacă, în conversație, mașina nu poate fi distinsă de un om, atunci „gândește”.
+
+Ce vrea să arate „camera chinezească”?::Că manipularea simbolurilor (sintaxă) nu este înțelegere (semantică).
+
+Care e deosebirea dintre IA slabă și IA tare?::Slaba doar simulează inteligența; tarea ar avea, propriu-zis, minte.
+
+Ce probleme etice ridică IA?::Responsabilitatea deciziilor automate, prejudecățile din date, transparența, efectele sociale.
+
+Ce este explicația deductiv-nomologică?::Explicarea unui fapt prin deducerea lui din legi generale și condiții inițiale.
+
+Ce este inducția?::Trecerea de la cazuri particulare observate la o generalizare universală.
+
+În ce constă problema inducției?::În faptul că trecutul nu garantează logic viitorul (Hume).
+
+Cum ocolește Popper problema inducției?::Renunțând la ea: știința nu confirmă, ci încearcă să infirme prin falsificare.
+
+Ce înseamnă „existența precedă esența”?::Că omul mai întâi există, apoi se definește prin alegerile sale (Sartre).
+
+Ce este angoasa la Kierkegaard?::„Amețeala libertății” în fața posibilului — nu are un obiect anume, ca frica.
+
+Ce este reaua-credință la Sartre?::Negarea propriei libertăți prin refugiul în ideea că nu ai avut de ales.
+
+Care este soluția lui Camus la absurd?::Revolta lucidă — „trebuie să ni-l imaginăm pe Sisif fericit”.
+
+Ce propune deviza „înapoi la lucrurile însele”?::Descrierea fenomenelor așa cum apar conștiinței, fără presupoziții.
+
+Ce este intenționalitatea?::Proprietatea oricărei conștiințe de a fi conștiință a ceva.
+
+Ce este reducția fenomenologică (epoché)?::Punerea între paranteze a presupoziției despre existența lumii, pentru a descrie experiența pură.
+
+Ce pune Merleau-Ponty în centrul fenomenologiei?::Corpul propriu și percepția întrupată, situată.
+
+Ce definește teoria mimesis-ului?::Arta ca imitație sau reprezentare a realității.
+
+Ce susține teoria expresiei?::Că arta este exprimarea emoțiilor și a trăirilor artistului.
+
+Ce afirmă teoria instituțională a artei?::Că un obiect e operă de artă dacă „lumea artei” îi conferă acest statut.
+
+Ce trăsături are judecata de gust la Kant?::Este dezinteresată și pretinde acord universal fără a se demonstra prin concepte.
 
 ---
 

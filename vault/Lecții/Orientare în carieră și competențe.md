@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Orientare în carieră și competențe
 
-[[Studii sociale (clasa a XII-a)|Studii sociale]] · [[Clasa a XII-a]] · lecția 5 din 9
+[[Studii sociale (clasa a XII-a)|Studii sociale]] · [[Clasa a XII-a]] · lecția 5 din 18
 
 **Capitolul:** Munca și cariera — semestrul 2
 

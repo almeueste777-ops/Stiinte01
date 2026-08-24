@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Costuri, venituri, profit
 
-[[Economie și educație antreprenorială (clasa a XIII-a)|Economie și educație antreprenorială]] · [[Clasa a XIII-a]] · lecția 4 din 12
+[[Economie și educație antreprenorială (clasa a XIII-a)|Economie și educație antreprenorială]] · [[Clasa a XIII-a]] · lecția 4 din 24
 
 **Capitolul:** Producătorul — semestrul 1
 

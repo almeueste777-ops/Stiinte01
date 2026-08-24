@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Libertate și responsabilitate
 
-[[Filosofie (clasa a XII-a)|Filosofie]] · [[Clasa a XII-a]] · lecția 4 din 14
+[[Filosofie (clasa a XII-a)|Filosofie]] · [[Clasa a XII-a]] · lecția 4 din 24
 
 **Capitolul:** Omul — semestrul 1
 

@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Curente filosofice contemporane
 
-[[Filosofie (clasa a XIII-a)|Filosofie]] · [[Clasa a XIII-a]] · lecția 6 din 9
+[[Filosofie (clasa a XIII-a)|Filosofie]] · [[Clasa a XIII-a]] · lecția 6 din 22
 
 **Capitolul:** Valori și interpretare — semestrul 2
 

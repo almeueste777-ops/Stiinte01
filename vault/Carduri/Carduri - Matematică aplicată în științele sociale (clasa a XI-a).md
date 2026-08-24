@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Matematică aplicată în științele sociale (clasa a XI-a)
 
-36 carduri pentru [[Matematică aplicată în științele sociale (clasa a XI-a)|Matematică aplicată în științele sociale (clasa a XI-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+72 carduri pentru [[Matematică aplicată în științele sociale (clasa a XI-a)|Matematică aplicată în științele sociale (clasa a XI-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/matematica-aplicata-in-stiintele-sociale
 
@@ -82,6 +82,78 @@ De ce nu dovedește corelația cauzalitatea?::Pentru că legătura poate veni di
 Ce condiții cere stabilirea cauzalității?::Anterioritatea cauzei, eliminarea explicațiilor alternative și, ideal, un experiment controlat.
 
 Ce ascunde eficiența „în medie” a unei măsuri publice?::Faptul că anumite grupuri pot fi lăsate în urmă.
+
+Ce este frecvența absolută a unei valori?::Numărul de unități care au acea valoare.
+
+Cât este suma frecvențelor relative?::1, adică 100%.
+
+Ce arată frecvența cumulată până la o valoare?::Câte observații sunt mai mici sau egale cu acea valoare.
+
+De ce sunt utile frecvențele relative?::Pentru că permit compararea unor serii cu numere totale diferite.
+
+Când se grupează datele pe intervale?::Când o caracteristică numerică ia prea multe valori diferite.
+
+Ce este centrul unei clase?::Mijlocul intervalului, folosit ca valoare reprezentativă în calcule.
+
+Ce reprezintă o histogramă?::Date numerice grupate pe intervale, prin dreptunghiuri alăturate.
+
+Ce se pierde prin grupare?::Informația despre valorile exacte din interiorul fiecărei clase.
+
+Ce este o serie cronologică?::Un șir de valori ale unei mărimi înregistrate la momente succesive în timp.
+
+Care sunt componentele unei serii cronologice?::Tendința, sezonalitatea și fluctuațiile întâmplătoare.
+
+Ce face o medie mobilă?::Netezește seria, înlocuind fiecare valoare cu media câtorva valori vecine.
+
+De ce e riscantă extrapolarea pe termen lung?::Pentru că tendințele se pot schimba.
+
+Când se aplică principiul multiplicării?::Când o alegere se face în etape succesive; se înmulțesc posibilitățile.
+
+Când se aplică principiul adunării?::Când se alege dintre categorii care se exclud reciproc; se adună posibilitățile.
+
+Ce cuvinte disting cele două principii?::„Și” (etape, înmulțire) față de „sau” (categorii disjuncte, adunare).
+
+De ce e mai sigură o parolă mai lungă?::Pentru că fiecare caracter în plus multiplică numărul de variante posibile.
+
+Ce numără permutările?::În câte moduri se pot ordona toate cele n elemente ale unei mulțimi.
+
+Prin ce se deosebesc aranjamentele de combinări?::La aranjamente ordinea contează, la combinări nu.
+
+Când se folosesc combinările?::Când se aleg k elemente din n, iar ordinea nu contează.
+
+Ce întrebări decid instrumentul potrivit?::Aleg toate sau o parte? Contează ordinea sau nu?
+
+Unde apare numărarea în viața reală?::La parole, coduri, comitete, trasee, eșantioane, sondaje.
+
+De ce sunt unele coduri practic imposibil de ghicit?::Pentru că numărul combinațiilor posibile este uriaș.
+
+Cum se leagă numărarea de probabilități?::Probabilitatea este raportul dintre cazurile favorabile și cele posibile, ambele numărate.
+
+Ce trebuie tratat la fel în ambele numărători?::Ordinea și repetiția, ca să nu apară erori.
+
+Cum se calculează probabilitatea în cazul clasic?::Ca raport între numărul cazurilor favorabile și numărul cazurilor posibile.
+
+Cât este probabilitatea evenimentului complementar?::1 minus probabilitatea evenimentului dat.
+
+Ce se face cu probabilitățile a două evenimente care se exclud?::Se adună.
+
+Schimbă trecutul șansa unui eveniment independent?::Nu; la evenimente independente, trecutul nu influențează viitorul.
+
+Când sunt două evenimente independente?::Când producerea unuia nu schimbă probabilitatea celuilalt.
+
+Cum se calculează probabilitatea ca două evenimente independente să se producă amândouă?::Prin produsul probabilităților lor.
+
+Cum se calculează comod „cel puțin unul”?::Prin complement: 1 minus probabilitatea ca niciunul să nu se producă.
+
+De ce se schimbă probabilitatea la extragerea fără punere înapoi?::Pentru că a doua extragere depinde de prima: evenimentele sunt dependente.
+
+Cum se calculează valoarea așteptată?::Înmulțind fiecare rezultat cu probabilitatea lui și adunând produsele.
+
+Când este un joc echitabil?::Când valoarea așteptată este zero.
+
+Ce valoare așteptată au, pentru jucător, loteriile?::Negativă; de aceea, jucate mult, duc la pierdere.
+
+Ce este aversiunea la risc?::Preferința pentru un câștig sigur mai mic în locul unuia incert, dar în medie mai mare.
 
 ---
 

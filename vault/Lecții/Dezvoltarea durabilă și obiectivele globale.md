@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Dezvoltarea durabilă și obiectivele globale
 
-[[Studii sociale (clasa a XII-a)|Studii sociale]] · [[Clasa a XII-a]] · lecția 7 din 9
+[[Studii sociale (clasa a XII-a)|Studii sociale]] · [[Clasa a XII-a]] · lecția 7 din 18
 
 **Capitolul:** Dezvoltare și responsabilitate — semestrul 2
 

@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Metode de cercetare în sociologie
 
-[[Sociologie (clasa a XI-a)|Sociologie]] · [[Clasa a XI-a]] · lecția 2 din 14
+[[Sociologie (clasa a XI-a)|Sociologie]] · [[Clasa a XI-a]] · lecția 2 din 24
 
 **Capitolul:** Perspectiva sociologică — semestrul 1
 

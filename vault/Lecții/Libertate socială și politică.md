@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Libertate socială și politică
 
-[[Filosofie (clasa a XII-a)|Filosofie]] · [[Clasa a XII-a]] · lecția 8 din 14
+[[Filosofie (clasa a XII-a)|Filosofie]] · [[Clasa a XII-a]] · lecția 8 din 24
 
 **Capitolul:** Politica — semestrul 2
 

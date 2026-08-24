@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Planificarea și implementarea unui proiect civic
 
-[[Studii sociale (clasa a XIII-a)|Studii sociale]] · [[Clasa a XIII-a]] · lecția 8 din 9
+[[Studii sociale (clasa a XIII-a)|Studii sociale]] · [[Clasa a XIII-a]] · lecția 8 din 18
 
 **Capitolul:** Proiectul civic — semestrul 2
 

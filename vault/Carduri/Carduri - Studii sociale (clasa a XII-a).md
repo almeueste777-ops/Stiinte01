@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Studii sociale (clasa a XII-a)
 
-36 carduri pentru [[Studii sociale (clasa a XII-a)|Studii sociale (clasa a XII-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+72 carduri pentru [[Studii sociale (clasa a XII-a)|Studii sociale (clasa a XII-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/studii-sociale
 
@@ -82,6 +82,78 @@ Ce este conflictul de interese?::Situația în care interesul personal poate inf
 Ce instrumente construiesc integritatea publică?::Transparența, reguli clare, declararea averilor, protecția avertizorilor, control și sancțiuni.
 
 Care este echivalentul integrității în școală?::Onestitatea academică: să nu copiezi, să citezi sursele, să îți asumi munca.
+
+De ce a pornit integrarea europeană după 1945?::Pentru a face războiul între statele Europei imposibil, prin integrare economică.
+
+Ce tratat a creat Uniunea Europeană?::Tratatul de la Maastricht (1992).
+
+Când a aderat România la Uniunea Europeană?::La 1 ianuarie 2007.
+
+Ce exprimă deviza „Uniți în diversitate”?::Cooperarea unor popoare diferite pentru scopuri comune, fără pierderea identității.
+
+Ce instituție europeană este aleasă direct de cetățeni?::Parlamentul European.
+
+Ce rol are Comisia Europeană?::Este executivul Uniunii: propune legile și veghează la aplicarea tratatelor.
+
+Ce reunește Consiliul European?::Șefii de stat sau de guvern ai statelor membre, care stabilesc direcțiile politice.
+
+Unde se află Curtea de Justiție a Uniunii Europene?::La Luxemburg.
+
+Cine este cetățean al Uniunii Europene?::Orice persoană care are cetățenia unui stat membru.
+
+Înlocuiește cetățenia europeană pe cea națională?::Nu; o completează.
+
+Care sunt cele patru libertăți ale pieței unice?::Libera circulație a mărfurilor, a persoanelor, a serviciilor și a capitalurilor.
+
+Ce a eliminat spațiul Schengen?::Controalele la frontierele interne dintre statele participante.
+
+Ce condiții trebuie să respecte alegerile democratice?::Sufragiul universal, egal, direct, secret, competiția liberă și administrarea imparțială.
+
+Ce avantaj are sistemul majoritar?::Tinde să producă majorități clare și guverne stabile.
+
+Ce avantaj are sistemul proporțional?::Reflectă mai fidel opțiunile alegătorilor.
+
+La ce servește pragul electoral?::Limitează fragmentarea, excluzând partidele sub un procent minim.
+
+Ce cuprinde participarea, dincolo de vot?::Candidatura, asocierea, petițiile, consultările, voluntariatul, protestul pașnic.
+
+Ce efecte are participarea asupra comunității?::Servicii mai bune, control asupra banului public, mai multă coeziune.
+
+Ce lasă în urmă neparticiparea?::Câmp liber intereselor celor mai organizate și o legitimitate mai slabă a deciziilor.
+
+Ce condiții cere participarea eficientă?::Informare, cunoașterea procedurilor, cooperare, respectarea regulilor.
+
+Ce funcții au partidele politice?::Agregă interese, selectează candidați, oferă opțiuni, formează guvernul sau opoziția.
+
+Spre ce pot aluneca campaniile electorale?::Spre promisiuni nerealiste, atacuri la persoană, apel la frică, manipulare.
+
+Ce garanții asigură corectitudinea campaniilor?::Reglementarea finanțării, transparența, accesul echitabil la mass-media.
+
+Ce presupune votul informat?::Citirea programelor, verificarea faptelor și atenția la dezinformare.
+
+Ce este egalitatea de șanse?::Aceeași posibilitate reală de a-ți exercita drepturile și de a te dezvolta, indiferent de origine sau sex.
+
+Ce presupune egalitatea de gen?::Drepturi, șanse și tratament egale pentru femei și bărbați.
+
+Ce inegalități de fapt persistă între genuri?::Diferența de remunerare, subreprezentarea în conducere, munca domestică inegală, stereotipurile.
+
+Sunt măsurile de egalizare a șanselor privilegii?::Nu; ele compensează dezavantaje de pornire.
+
+Ce este o minoritate?::Un grup care se deosebește de majoritate prin etnie, limbă, religie sau cultură și are poziție nedominantă.
+
+Ce drepturi au persoanele care aparțin minorităților?::Identitate, limbă maternă, învățământ, tradiții, asociere, participare politică.
+
+Cum sunt reprezentate minoritățile naționale în Parlamentul României?::Organizațiile lor care nu ating pragul pot obține un loc de deputat.
+
+Ce două capcane trebuie să evite protecția minorităților?::Asimilarea forțată și segregarea.
+
+Ce este discriminarea?::Tratarea diferită și nejustificată a unei persoane din cauza unei caracteristici precum etnia, sexul sau vârsta.
+
+Care sunt formele discriminării?::Directă, indirectă, hărțuire și discriminare multiplă.
+
+Este orice diferență de tratament discriminare?::Nu; cerințele justificate obiectiv, precum o calificare reală, sunt legitime.
+
+Ce instituție combate discriminarea în România?::Consiliul Național pentru Combaterea Discriminării.
 
 ---
 

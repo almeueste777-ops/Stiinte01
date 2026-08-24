@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Mărturii și memorie
 
-[[Istoria evreilor. Holocaustul (clasa a XI-a)|Istoria evreilor. Holocaustul]] · [[Clasa a XI-a]] · lecția 7 din 9
+[[Istoria evreilor. Holocaustul (clasa a XI-a)|Istoria evreilor. Holocaustul]] · [[Clasa a XI-a]] · lecția 7 din 18
 
 **Capitolul:** Memorie și responsabilitate — semestrul 2
 

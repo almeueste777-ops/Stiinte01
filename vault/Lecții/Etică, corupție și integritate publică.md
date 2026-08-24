@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Etică, corupție și integritate publică
 
-[[Studii sociale (clasa a XII-a)|Studii sociale]] · [[Clasa a XII-a]] · lecția 9 din 9
+[[Studii sociale (clasa a XII-a)|Studii sociale]] · [[Clasa a XII-a]] · lecția 9 din 18
 
 **Capitolul:** Dezvoltare și responsabilitate — semestrul 2
 
@@ -29,6 +29,6 @@ Corupția este folosirea unei funcții publice sau private pentru câștig perso
 
 ---
 
-⬅ [[Responsabilitate socială și consum responsabil]]
+⬅ [[Responsabilitate socială și consum responsabil]] · [[Construcția europeană - istorie și valori]] ➡
 
 Exersează: [[Carduri - Studii sociale (clasa a XII-a)]] · [[Test - Studii sociale (clasa a XII-a)]]

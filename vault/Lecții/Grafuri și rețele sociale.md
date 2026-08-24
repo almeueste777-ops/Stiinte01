@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Grafuri și rețele sociale
 
-[[Matematică aplicată în științele sociale (clasa a XII-a)|Matematică aplicată în științele sociale]] · [[Clasa a XII-a]] · lecția 7 din 9
+[[Matematică aplicată în științele sociale (clasa a XII-a)|Matematică aplicată în științele sociale]] · [[Clasa a XII-a]] · lecția 7 din 18
 
 **Capitolul:** Rețele și decizie — semestrul 2
 

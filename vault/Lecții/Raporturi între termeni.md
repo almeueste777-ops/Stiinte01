@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Raporturi între termeni
 
-[[Logică, argumentare și comunicare (clasa a IX-a)|Logică, argumentare și comunicare]] · [[Clasa a IX-a]] · lecția 5 din 16
+[[Logică, argumentare și comunicare (clasa a IX-a)|Logică, argumentare și comunicare]] · [[Clasa a IX-a]] · lecția 5 din 24
 
 **Capitolul:** Termenii — semestrul 1
 

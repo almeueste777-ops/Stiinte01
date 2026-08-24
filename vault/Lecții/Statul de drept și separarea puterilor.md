@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Statul de drept și separarea puterilor
 
-[[Studii sociale (clasa a XIII-a)|Studii sociale]] · [[Clasa a XIII-a]] · lecția 1 din 9
+[[Studii sociale (clasa a XIII-a)|Studii sociale]] · [[Clasa a XIII-a]] · lecția 1 din 18
 
 **Capitolul:** Democrația în practică — semestrul 1
 

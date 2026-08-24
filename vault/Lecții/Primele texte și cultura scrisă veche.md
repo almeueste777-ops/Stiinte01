@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Primele texte și cultura scrisă veche
 
-[[Limba și literatura română (clasa a XI-a)|Limba și literatura română]] · [[Clasa a XI-a]] · lecția 1 din 9
+[[Limba și literatura română (clasa a XI-a)|Limba și literatura română]] · [[Clasa a XI-a]] · lecția 1 din 20
 
 **Capitolul:** Începuturile culturii scrise — semestrul 1
 

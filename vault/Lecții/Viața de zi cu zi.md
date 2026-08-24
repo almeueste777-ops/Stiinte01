@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Viața de zi cu zi
 
-[[Istoria comunismului din România (clasa a XIII-a)|Istoria comunismului din România]] · [[Clasa a XIII-a]] · lecția 7 din 9
+[[Istoria comunismului din România (clasa a XIII-a)|Istoria comunismului din România]] · [[Clasa a XIII-a]] · lecția 7 din 18
 
 **Capitolul:** Viața cotidiană, sfârșitul, memoria — semestrul 2
 

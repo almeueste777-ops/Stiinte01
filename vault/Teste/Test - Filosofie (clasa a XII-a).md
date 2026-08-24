@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Filosofie (clasa a XII-a)
 
-81 întrebări din [[Filosofie (clasa a XII-a)|Filosofie (clasa a XII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+133 întrebări din [[Filosofie (clasa a XII-a)|Filosofie (clasa a XII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Ramura filosofiei care cercetează ce există și în ce fel se numește:
 
@@ -681,7 +681,559 @@ cssclasses: test
 > 
 > Nicio știință particulară nu poate oferi singură imaginea de ansamblu.
 
-### 57. Termenul „filosofie” înseamnă etimologic:
+### 57. Teza „a fi înseamnă a fi perceput” (esse est percipi) aparține lui:
+
+- a. George Berkeley
+- b. Democrit
+- c. René Descartes
+- d. Karl Marx
+
+> [!success]- Răspuns
+> **a. George Berkeley**
+> 
+> Este formula idealismului subiectiv.
+
+### 58. Distincția dintre res extensa și res cogitans exprimă o poziție:
+
+- a. dualistă
+- b. materialistă
+- c. monistă
+- d. sceptică
+
+> [!success]- Răspuns
+> **a. dualistă**
+> 
+> Descartes admite două substanțe ireductibile.
+
+### 59. Atomismul, potrivit căruia totul e alcătuit din atomi și vid, a fost formulat în Antichitate de:
+
+- a. Democrit
+- b. Platon
+- c. Aristotel
+- d. Parmenide
+
+> [!success]- Răspuns
+> **a. Democrit**
+> 
+> Este o formă timpurie de materialism.
+
+### 60. Poziția care susține că realitatea fundamentală este de natură spirituală se numește:
+
+- a. idealism
+- b. materialism
+- c. dualism
+- d. empirism
+
+> [!success]- Răspuns
+> **a. idealism**
+> 
+> Platon, Berkeley și Hegel reprezintă forme de idealism.
+
+### 61. Argumentul ontologic pornește de la:
+
+- a. conceptul de ființă perfectă
+- b. ordinea lumii
+- c. seria cauzelor
+- d. legea morală
+
+> [!success]- Răspuns
+> **a. conceptul de ființă perfectă**
+> 
+> Este formulat de Anselm și reluat de Descartes.
+
+### 62. Cele „cinci căi” către existența lui Dumnezeu aparțin lui:
+
+- a. Toma d'Aquino
+- b. Anselm de Canterbury
+- c. Immanuel Kant
+- d. David Hume
+
+> [!success]- Răspuns
+> **a. Toma d'Aquino**
+> 
+> Ele pornesc de la mișcare, cauză, contingență, grade și finalitate.
+
+### 63. Critica potrivit căreia „existența nu este un predicat” a fost formulată de:
+
+- a. Immanuel Kant
+- b. Toma d'Aquino
+- c. Anselm
+- d. Leibniz
+
+> [!success]- Răspuns
+> **a. Immanuel Kant**
+> 
+> „O sută de taleri posibili conțin exact cât o sută de taleri reali.”
+
+### 64. Problema răului constituie o obiecție împotriva:
+
+- a. existenței unui Dumnezeu atotputernic și atotbun
+- b. argumentului moral
+- c. ateismului
+- d. agnosticismului
+
+> [!success]- Răspuns
+> **a. existenței unui Dumnezeu atotputernic și atotbun**
+> 
+> Teodiceea încearcă să răspundă acestei dificultăți.
+
+### 65. Formula „crede pentru a înțelege” aparține lui:
+
+- a. Augustin
+- b. Toma d'Aquino
+- c. Pascal
+- d. Kierkegaard
+
+> [!success]- Răspuns
+> **a. Augustin**
+> 
+> Credința este, pentru el, punctul de plecare al înțelegerii.
+
+### 66. „Pariul” ca argument în favoarea credinței aparține lui:
+
+- a. Blaise Pascal
+- b. Augustin
+- c. Tertulian
+- d. Kant
+
+> [!success]- Răspuns
+> **a. Blaise Pascal**
+> 
+> El calculează miza: câștig infinit față de o pierdere mică.
+
+### 67. Poziția care susține că credința nu are nevoie de justificare rațională se numește:
+
+- a. fideism
+- b. deism
+- c. raționalism
+- d. panteism
+
+> [!success]- Răspuns
+> **a. fideism**
+> 
+> Tertulian și Kierkegaard sunt asociați acestei atitudini.
+
+### 68. Deismul admite:
+
+- a. un Dumnezeu-creator cunoscut prin rațiune, fără revelație
+- b. inexistența divinității
+- c. identificarea lui Dumnezeu cu natura
+- d. primatul revelației asupra rațiunii
+
+> [!success]- Răspuns
+> **a. un Dumnezeu-creator cunoscut prin rațiune, fără revelație**
+> 
+> Este poziția tipică a multor gânditori iluminiști.
+
+### 69. În teoria Ideilor, lucrurile sensibile sunt:
+
+- a. copii imperfecte ale Ideilor eterne
+- b. singura realitate
+- c. iluzii fără cauză
+- d. creații ale simțurilor
+
+> [!success]- Răspuns
+> **a. copii imperfecte ale Ideilor eterne**
+> 
+> Ideile constituie modelul, lucrurile — copiile.
+
+### 70. Mitul peșterii apare în dialogul:
+
+- a. „Republica”
+- b. „Banchetul”
+- c. „Fedon”
+- d. „Apologia lui Socrate”
+
+> [!success]- Răspuns
+> **a. „Republica”**
+> 
+> El ilustrează drumul de la umbre la Ideea de Bine.
+
+### 71. Ideea supremă, comparată cu soarele, este la Platon:
+
+- a. Ideea de Bine
+- b. Ideea de Frumos
+- c. Ideea de Adevăr
+- d. Ideea de Ființă
+
+> [!success]- Răspuns
+> **a. Ideea de Bine**
+> 
+> Ea este principiul inteligibilității întregii lumi a Ideilor.
+
+### 72. Dreptatea, în „Republica” lui Platon, înseamnă:
+
+- a. ca fiecare parte a sufletului și a cetății să-și facă lucrul propriu
+- b. egalitatea deplină a cetățenilor
+- c. domnia literei legii scrise
+- d. maximizarea fericirii
+
+> [!success]- Răspuns
+> **a. ca fiecare parte a sufletului și a cetății să-și facă lucrul propriu**
+> 
+> Nedreptatea apare când o parte uzurpă rolul alteia.
+
+### 73. Teza că orice lucru e compus din materie și formă se numește:
+
+- a. hilemorfism
+- b. dualism
+- c. atomism
+- d. idealism
+
+> [!success]- Răspuns
+> **a. hilemorfism**
+> 
+> Aristotel plasează forma în lucruri, nu într-o lume separată.
+
+### 74. Cauza „în vederea căreia” se produce ceva (scopul) este cauza:
+
+- a. finală
+- b. materială
+- c. formală
+- d. eficientă
+
+> [!success]- Răspuns
+> **a. finală**
+> 
+> Ea corespunde telosului lucrului.
+
+### 75. Curajul, ca virtute, este pentru Aristotel calea de mijloc între:
+
+- a. lașitate și temeritate
+- b. zgârcenie și risipă
+- c. modestie și trufie
+- d. plăcere și durere
+
+> [!success]- Răspuns
+> **a. lașitate și temeritate**
+> 
+> Fiecare virtute stă între un exces și o lipsă.
+
+### 76. Trecerea de la potență la act explică, la Aristotel:
+
+- a. devenirea (schimbarea) lucrurilor
+- b. cunoașterea sensibilă
+- c. structura cetății
+- d. nemurirea sufletului
+
+> [!success]- Răspuns
+> **a. devenirea (schimbarea) lucrurilor**
+> 
+> Ghinda este stejar „în potență”.
+
+### 77. Primul adevăr indubitabil, la Descartes, este:
+
+- a. „gândesc, deci exist”
+- b. existența lui Dumnezeu
+- c. existența lumii materiale
+- d. adevărurile matematicii
+
+> [!success]- Răspuns
+> **a. „gândesc, deci exist”**
+> 
+> Chiar îndoindu-mă, nu pot să mă îndoiesc că gândesc.
+
+### 78. Îndoiala metodică are, la Descartes, rolul de a:
+
+- a. găsi un fundament indubitabil al cunoașterii
+- b. nega orice cunoaștere posibilă
+- c. respinge existența lui Dumnezeu
+- d. desființa matematica
+
+> [!success]- Răspuns
+> **a. găsi un fundament indubitabil al cunoașterii**
+> 
+> Este o îndoială-instrument, nu un scepticism definitiv.
+
+### 79. Criteriul adevărului, la Descartes, îl constituie:
+
+- a. ideile clare și distincte
+- b. succesul practic
+- c. consensul social
+- d. mărturia simțurilor
+
+> [!success]- Răspuns
+> **a. ideile clare și distincte**
+> 
+> Veridicitatea lui Dumnezeu garantează că ele nu ne înșală.
+
+### 80. Spinoza și Leibniz aparțin, alături de Descartes, curentului:
+
+- a. raționalist
+- b. empirist
+- c. sceptic
+- d. pragmatist
+
+> [!success]- Răspuns
+> **a. raționalist**
+> 
+> Toți susțin că rațiunea, nu experiența, e izvorul cunoașterii sigure.
+
+### 81. Distincția dintre calități primare și secundare aparține lui:
+
+- a. John Locke
+- b. George Berkeley
+- c. David Hume
+- d. Francis Bacon
+
+> [!success]- Răspuns
+> **a. John Locke**
+> 
+> Culoarea și gustul sunt secundare, întinderea și forma — primare.
+
+### 82. „Esse est percipi” exprimă:
+
+- a. idealismul empirist al lui Berkeley
+- b. materialismul lui Democrit
+- c. raționalismul lui Descartes
+- d. scepticismul antic
+
+> [!success]- Răspuns
+> **a. idealismul empirist al lui Berkeley**
+> 
+> Berkeley neagă existența unei materii în afara percepției.
+
+### 83. Pentru Hume, ideea de cauzalitate provine din:
+
+- a. obișnuința produsă de succesiunea constantă
+- b. o intuiție rațională
+- c. o categorie înnăscută
+- d. revelație
+
+> [!success]- Răspuns
+> **a. obișnuința produsă de succesiunea constantă**
+> 
+> Nu observăm legătura necesară, ci doar succesiunea.
+
+### 84. „Legea lui Hume” susține că:
+
+- a. din „este” nu se poate deduce logic „trebuie”
+- b. orice normă provine din fapte
+- c. valorile sunt obiective
+- d. știința întemeiază singură morala
+
+> [!success]- Răspuns
+> **a. din „este” nu se poate deduce logic „trebuie”**
+> 
+> Ea separă enunțurile factuale de cele normative.
+
+### 85. Suspendarea judecății recomandată de scepticii antici se numește:
+
+- a. epoché
+- b. ataraxia
+- c. aporie
+- d. maieutică
+
+> [!success]- Răspuns
+> **a. epoché**
+> 
+> Din ea rezultă liniștea sufletească (ataraxia).
+
+### 86. La Descartes, scepticismul are rol:
+
+- a. metodic, de instrument spre certitudine
+- b. definitiv, de negare a cunoașterii
+- c. religios
+- d. politic
+
+> [!success]- Răspuns
+> **a. metodic, de instrument spre certitudine**
+> 
+> Îndoiala îl conduce la cogito.
+
+### 87. Ipoteza „creierului în cuvă” reia, în formă modernă, argumentul:
+
+- a. geniului rău al lui Descartes
+- b. pariului lui Pascal
+- c. vălului ignoranței
+- d. imperativului categoric
+
+> [!success]- Răspuns
+> **a. geniului rău al lui Descartes**
+> 
+> Ambele pun la îndoială certitudinea lumii exterioare.
+
+### 88. „Iată o mână”, ca răspuns la scepticism, aparține lui:
+
+- a. G. E. Moore
+- b. Pyrrhon
+- c. David Hume
+- d. Karl Popper
+
+> [!success]- Răspuns
+> **a. G. E. Moore**
+> 
+> El opune scepticismului certitudinile simțului comun.
+
+### 89. Pentru Epicur, plăcerea care este binele suprem înseamnă:
+
+- a. absența durerii și a tulburării sufletești
+- b. desfrâul și plăcerile intense
+- c. bogăția și onorurile
+- d. puterea politică
+
+> [!success]- Răspuns
+> **a. absența durerii și a tulburării sufletești**
+> 
+> De aceea înțeleptul alege plăcerile simple și statornice.
+
+### 90. Distincția „ce depinde de noi / ce nu depinde de noi” este centrală în:
+
+- a. stoicism
+- b. hedonismul cirenaic
+- c. scepticism
+- d. utilitarism
+
+> [!success]- Răspuns
+> **a. stoicism**
+> 
+> Ea apare limpede la Epictet.
+
+### 91. Hedonismul cirenaic (Aristip) identifică binele cu:
+
+- a. plăcerea
+- b. virtutea
+- c. datoria
+- d. cunoașterea
+
+> [!success]- Răspuns
+> **a. plăcerea**
+> 
+> Epicureismul va corecta această poziție.
+
+### 92. Seninătatea stoică, eliberarea de tulburare, se numește:
+
+- a. apatheia
+- b. eudaimonia
+- c. maieutică
+- d. epoché
+
+> [!success]- Răspuns
+> **a. apatheia**
+> 
+> Ea rezultă din a te ocupa doar de ce ține de tine.
+
+### 93. Concepția „dreptatea ca echitate” aparține lui:
+
+- a. John Rawls
+- b. Robert Nozick
+- c. John Stuart Mill
+- d. Jeremy Bentham
+
+> [!success]- Răspuns
+> **a. John Rawls**
+> 
+> Principiile drepte sunt cele alese sub vălul ignoranței.
+
+### 94. Pentru Nozick, o distribuție este dreaptă dacă:
+
+- a. a rezultat din achiziție și transfer corecte
+- b. este cât mai egală
+- c. maximizează fericirea
+- d. este votată de majoritate
+
+> [!success]- Răspuns
+> **a. a rezultat din achiziție și transfer corecte**
+> 
+> Este o teorie procedurală, „istorică”, a dreptății.
+
+### 95. Principala obiecție adusă utilitarismului în teoria dreptății este că:
+
+- a. poate justifica sacrificarea unei minorități pentru „suma” fericirii
+- b. neagă orice fericire
+- c. ignoră consecințele
+- d. respinge drepturile majorității
+
+> [!success]- Răspuns
+> **a. poate justifica sacrificarea unei minorități pentru „suma” fericirii**
+> 
+> De aici pleacă alternativa lui Rawls.
+
+### 96. Dezbaterea Rawls–Nozick opune, în esență:
+
+- a. accentul pe egalitate celui pe libertate
+- b. credința și rațiunea
+- c. forma și materia
+- d. fenomenul și noumenul
+
+> [!success]- Răspuns
+> **a. accentul pe egalitate celui pe libertate**
+> 
+> Rawls apără redistribuirea; Nozick, drepturile de proprietate.
+
+### 97. Poziția ontologică potrivit căreia singura realitate fundamentală este materia se numește:
+
+- a. materialism
+- b. idealism
+- c. dualism
+- d. scepticism
+
+> [!success]- Răspuns
+> **a. materialism**
+> 
+> Spiritul e considerat un produs al materiei.
+
+### 98. Argumentul cosmologic al existenței lui Dumnezeu pornește de la:
+
+- a. necesitatea unei cauze prime a lumii
+- b. conceptul de ființă perfectă
+- c. legea morală din noi
+- d. ordinea frumosului
+
+> [!success]- Răspuns
+> **a. necesitatea unei cauze prime a lumii**
+> 
+> Toma d'Aquino îl dezvoltă în „cele cinci căi”.
+
+### 99. „Crede pentru a înțelege” exprimă poziția lui:
+
+- a. Augustin
+- b. Pascal
+- c. Hume
+- d. Tertulian
+
+> [!success]- Răspuns
+> **a. Augustin**
+> 
+> Credința deschide calea înțelegerii.
+
+### 100. Teza „mintea este la naștere o tabula rasa” aparține lui:
+
+- a. John Locke
+- b. George Berkeley
+- c. René Descartes
+- d. Platon
+
+> [!success]- Răspuns
+> **a. John Locke**
+> 
+> Este teza centrală a empirismului.
+
+### 101. Pentru Hume, din enunțuri despre ce „este”:
+
+- a. nu se poate deduce logic ce „trebuie”
+- b. se deduce întotdeauna o normă
+- c. rezultă existența lui Dumnezeu
+- d. rezultă ideile înnăscute
+
+> [!success]- Răspuns
+> **a. nu se poate deduce logic ce „trebuie”**
+> 
+> Aceasta este „legea lui Hume”.
+
+### 102. Suspendarea judecății recomandată de scepticii antici se numește:
+
+- a. epoché
+- b. ataraxia
+- c. cogito
+- d. eudaimonia
+
+> [!success]- Răspuns
+> **a. epoché**
+> 
+> Ea urmărește liniștea sufletească.
+
+### 103. Termenul „filosofie” înseamnă etimologic:
 
 - a. iubire de înțelepciune
 - b. știință a existenței
@@ -693,7 +1245,7 @@ cssclasses: test
 > 
 > Din philia (iubire) și sophia (înțelepciune).
 
-### 58. Ramura filosofiei care cercetează cunoașterea și limitele ei este:
+### 104. Ramura filosofiei care cercetează cunoașterea și limitele ei este:
 
 - a. gnoseologia
 - b. ontologia
@@ -705,7 +1257,7 @@ cssclasses: test
 > 
 > Ontologia cercetează existența, nu cunoașterea.
 
-### 59. Primii filosofi greci căutau:
+### 105. Primii filosofi greci căutau:
 
 - a. arché, principiul din care provine totul
 - b. imperativul categoric
@@ -717,7 +1269,7 @@ cssclasses: test
 > 
 > Apa la Thales, apeironul la Anaximandru, focul la Heraclit.
 
-### 60. „Omul este măsura tuturor lucrurilor” aparține lui:
+### 106. „Omul este măsura tuturor lucrurilor” aparține lui:
 
 - a. Protagoras
 - b. Socrate
@@ -729,7 +1281,7 @@ cssclasses: test
 > 
 > Este formula clasică a relativismului sofistic.
 
-### 61. Teza „existența precedă esența” aparține lui:
+### 107. Teza „existența precedă esența” aparține lui:
 
 - a. Jean-Paul Sartre
 - b. Ernst Cassirer
@@ -741,7 +1293,7 @@ cssclasses: test
 > 
 > Este formula centrală a existențialismului.
 
-### 62. Autonomia, în sens kantian, înseamnă:
+### 108. Autonomia, în sens kantian, înseamnă:
 
 - a. a te supune legii pe care ți-o dă propria rațiune
 - b. a face ce vrei
@@ -753,7 +1305,7 @@ cssclasses: test
 > 
 > Opusul ei este heteronomia.
 
-### 63. Compatibilismul susține că:
+### 109. Compatibilismul susține că:
 
 - a. libertatea și determinismul pot fi ambele adevărate
 - b. libertatea este o iluzie
@@ -765,7 +1317,7 @@ cssclasses: test
 > 
 > Sunt libere actele care decurg din propriile deliberări.
 
-### 64. Absurdul, la Camus, apare din:
+### 110. Absurdul, la Camus, apare din:
 
 - a. confruntarea dintre nevoia de sens și tăcerea lumii
 - b. inexistența moralei
@@ -777,7 +1329,7 @@ cssclasses: test
 > 
 > Soluția propusă este revolta lucidă, nu sinuciderea.
 
-### 65. Argumentul lui Epicur împotriva fricii de moarte este că:
+### 111. Argumentul lui Epicur împotriva fricii de moarte este că:
 
 - a. nu coexistăm niciodată cu moartea
 - b. sufletul e nemuritor
@@ -789,7 +1341,7 @@ cssclasses: test
 > 
 > „Când suntem noi, ea nu este; când este ea, noi nu mai suntem.”
 
-### 66. Pentru Kant, o acțiune are valoare morală când este făcută:
+### 112. Pentru Kant, o acțiune are valoare morală când este făcută:
 
 - a. din datorie
 - b. din înclinație
@@ -801,7 +1353,7 @@ cssclasses: test
 > 
 > Motivul, nu efectul, dă valoarea morală.
 
-### 67. Criteriul utilitarist al acțiunii bune este:
+### 113. Criteriul utilitarist al acțiunii bune este:
 
 - a. cea mai mare fericire pentru cel mai mare număr
 - b. conformitatea cu datoria
@@ -813,7 +1365,7 @@ cssclasses: test
 > 
 > Formula aparține lui Bentham și Mill.
 
-### 68. Etica virtuții evaluează acțiunea mai ales după:
+### 114. Etica virtuții evaluează acțiunea mai ales după:
 
 - a. caracterul din care izvorăște
 - b. consecințele ei
@@ -825,7 +1377,79 @@ cssclasses: test
 > 
 > Întrebarea centrală este „ce fel de om vreau să fiu?”.
 
-### 69. Principiul vătămării a fost formulat de:
+### 115. În teoria Ideilor a lui Platon, lucrurile sensibile sunt:
+
+- a. copii imperfecte ale Ideilor eterne
+- b. singura realitate existentă
+- c. pure iluzii ale simțurilor
+- d. creații ale limbajului
+
+> [!success]- Răspuns
+> **a. copii imperfecte ale Ideilor eterne**
+> 
+> Deasupra Ideilor stă Ideea de Bine.
+
+### 116. Teza că orice lucru e compus din materie și formă (hilemorfismul) aparține lui:
+
+- a. Aristotel
+- b. Platon
+- c. Democrit
+- d. Berkeley
+
+> [!success]- Răspuns
+> **a. Aristotel**
+> 
+> Forma se află în lucruri, nu într-o lume separată.
+
+### 117. Primul adevăr indubitabil, la Descartes, este:
+
+- a. „gândesc, deci exist”
+- b. existența lumii materiale
+- c. existența lui Dumnezeu
+- d. adevărul matematicii
+
+> [!success]- Răspuns
+> **a. „gândesc, deci exist”**
+> 
+> Chiar îndoindu-mă, nu pot nega că gândesc.
+
+### 118. Virtutea etică, la Aristotel, este:
+
+- a. o cale de mijloc între exces și lipsă
+- b. o emoție puternică
+- c. respectarea unei reguli scrise
+- d. un calcul al plăcerilor
+
+> [!success]- Răspuns
+> **a. o cale de mijloc între exces și lipsă**
+> 
+> Curajul stă între lașitate și temeritate.
+
+### 119. Distincția „ce depinde de noi / ce nu depinde de noi” este centrală în:
+
+- a. stoicism
+- b. hedonism
+- c. idealism
+- d. empirism
+
+> [!success]- Răspuns
+> **a. stoicism**
+> 
+> Ea apare la Epictet și duce la seninătate.
+
+### 120. Concepția „dreptatea ca echitate”, cu vălul ignoranței, aparține lui:
+
+- a. John Rawls
+- b. Robert Nozick
+- c. Aristotel
+- d. Jeremy Bentham
+
+> [!success]- Răspuns
+> **a. John Rawls**
+> 
+> Nozick susține, dimpotrivă, o teorie procedurală a dreptății.
+
+### 121. Principiul vătămării a fost formulat de:
 
 - a. John Stuart Mill
 - b. Isaiah Berlin
@@ -837,7 +1461,7 @@ cssclasses: test
 > 
 > Constrângerea e legitimă doar pentru a împiedica vătămarea altora.
 
-### 70. Libertatea modernilor, la Benjamin Constant, înseamnă mai ales:
+### 122. Libertatea modernilor, la Benjamin Constant, înseamnă mai ales:
 
 - a. drepturi individuale garantate și participare prin reprezentare
 - b. participarea directă la deciziile cetății
@@ -849,7 +1473,7 @@ cssclasses: test
 > 
 > Libertatea anticilor era participativă, cu o sferă privată restrânsă.
 
-### 71. „Vălul ignoranței” aparține lui:
+### 123. „Vălul ignoranței” aparține lui:
 
 - a. John Rawls
 - b. Robert Nozick
@@ -861,7 +1485,7 @@ cssclasses: test
 > 
 > Este instrumentul prin care se aleg imparțial principiile dreptății.
 
-### 72. Pentru Nozick, o distribuție este dreaptă dacă:
+### 124. Pentru Nozick, o distribuție este dreaptă dacă:
 
 - a. a rezultat din proceduri corecte de dobândire și transfer
 - b. este egală
@@ -873,7 +1497,7 @@ cssclasses: test
 > 
 > Este o teorie procedurală, nu una a tiparului final.
 
-### 73. Statul este definit de Weber prin:
+### 125. Statul este definit de Weber prin:
 
 - a. monopolul violenței fizice legitime pe un teritoriu
 - b. proprietatea asupra mijloacelor de producție
@@ -885,7 +1509,7 @@ cssclasses: test
 > 
 > Legitimitatea, nu forța brută, e elementul definitoriu.
 
-### 74. Dreptul de rezistență în fața guvernării care își încalcă mandatul este susținut de:
+### 126. Dreptul de rezistență în fața guvernării care își încalcă mandatul este susținut de:
 
 - a. John Locke
 - b. Thomas Hobbes
@@ -897,7 +1521,7 @@ cssclasses: test
 > 
 > La Hobbes, cedarea către suveran este practic irevocabilă.
 
-### 75. Separarea puterilor în stat a fost teoretizată de:
+### 127. Separarea puterilor în stat a fost teoretizată de:
 
 - a. Montesquieu
 - b. Rousseau
@@ -909,7 +1533,7 @@ cssclasses: test
 > 
 > În „Despre spiritul legilor” (1748).
 
-### 76. Drepturile din generația întâi sunt:
+### 128. Drepturile din generația întâi sunt:
 
 - a. civile și politice
 - b. economice și sociale
@@ -921,7 +1545,7 @@ cssclasses: test
 > 
 > Ele cer statului mai ales abținere.
 
-### 77. Declarația universală a drepturilor omului datează din:
+### 129. Declarația universală a drepturilor omului datează din:
 
 - a. 1948
 - b. 1789
@@ -933,7 +1557,7 @@ cssclasses: test
 > 
 > A fost adoptată de Adunarea Generală a ONU.
 
-### 78. Pentru Kant, cunoaștem:
+### 130. Pentru Kant, cunoaștem:
 
 - a. fenomene, nu lucruri în sine
 - b. lucruri în sine, prin rațiune pură
@@ -945,7 +1569,7 @@ cssclasses: test
 > 
 > Forma cunoașterii o dă subiectul: spațiul, timpul, categoriile.
 
-### 79. Hume susține despre cauzalitate că:
+### 131. Hume susține despre cauzalitate că:
 
 - a. nu este percepută, ci provine din obișnuința succesiunii constante
 - b. este o idee înnăscută
@@ -957,7 +1581,7 @@ cssclasses: test
 > 
 > Această teză l-a „trezit din somnul dogmatic” pe Kant.
 
-### 80. Criteriul falsificabilității aparține lui:
+### 132. Criteriul falsificabilității aparține lui:
 
 - a. Karl Popper
 - b. Francis Bacon
@@ -969,7 +1593,7 @@ cssclasses: test
 > 
 > O teorie care explică orice nu explică nimic.
 
-### 81. „Idolii peșterii”, la Bacon, provin din:
+### 133. „Idolii peșterii”, la Bacon, provin din:
 
 - a. idiosincraziile individuale, educația și temperamentul propriu
 - b. limbajul comun

@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Deducție și inducție
 
-[[Logică, argumentare și comunicare (clasa a IX-a)|Logică, argumentare și comunicare]] · [[Clasa a IX-a]] · lecția 11 din 16
+[[Logică, argumentare și comunicare (clasa a IX-a)|Logică, argumentare și comunicare]] · [[Clasa a IX-a]] · lecția 11 din 24
 
 **Capitolul:** Raționamentele — semestrul 2
 

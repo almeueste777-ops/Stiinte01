@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Studii sociale (clasa a XIII-a)
 
-60 întrebări din [[Studii sociale (clasa a XIII-a)|Studii sociale (clasa a XIII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+108 întrebări din [[Studii sociale (clasa a XIII-a)|Studii sociale (clasa a XIII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Separarea puterilor a fost teoretizată de:
 
@@ -441,7 +441,511 @@ cssclasses: test
 > 
 > Cifrele arată amploarea, mărturiile arată sensul.
 
-### 37. Statul de drept înseamnă că:
+### 37. Sărăcia relativă se definește în raport cu:
+
+- a. standardul de trai al societății respective
+- b. un prag valabil în toată lumea
+- c. lipsa hranei
+- d. coeficientul Gini
+
+> [!success]- Răspuns
+> **a. standardul de trai al societății respective**
+> 
+> Ea poate exista și în societăți bogate.
+
+### 38. Un coeficient Gini apropiat de 1 arată:
+
+- a. o inegalitate foarte mare
+- b. o egalitate perfectă
+- c. absența sărăciei
+- d. un venit median ridicat
+
+> [!success]- Răspuns
+> **a. o inegalitate foarte mare**
+> 
+> La 0, toți ar avea venituri egale.
+
+### 39. „Reproducerea sărăciei” înseamnă că:
+
+- a. sărăcia se transmite de la o generație la alta
+- b. săracii devin mai numeroși natural
+- c. sărăcia dispare de la sine
+- d. veniturile cresc automat
+
+> [!success]- Răspuns
+> **a. sărăcia se transmite de la o generație la alta**
+> 
+> Copiii din familii sărace au șanse mai mici la educație.
+
+### 40. Sărăcia și inegalitatea sunt:
+
+- a. legate, dar distincte
+- b. același lucru
+- c. fără legătură
+- d. invers proporționale
+
+> [!success]- Răspuns
+> **a. legate, dar distincte**
+> 
+> O societate bogată poate fi, totuși, foarte inegală.
+
+### 41. Excluziunea socială, față de sărăcie, este:
+
+- a. un concept mai larg
+- b. un concept mai îngust
+- c. același lucru
+- d. lipsit de legătură cu ea
+
+> [!success]- Răspuns
+> **a. un concept mai larg**
+> 
+> Cineva poate fi exclus și din alte motive decât banii.
+
+### 42. Cumularea mai multor dezavantaje care se întăresc reciproc formează:
+
+- a. un cerc vicios al excluziunii
+- b. o incluziune treptată
+- c. o egalitate de șanse
+- d. o mobilitate socială
+
+> [!success]- Răspuns
+> **a. un cerc vicios al excluziunii**
+> 
+> De aceea intervențiile trebuie să fie integrate.
+
+### 43. Abandonul școlar este o formă de excluziune:
+
+- a. din sistemul de educație
+- b. din piața muncii
+- c. din locuire
+- d. din viața civică
+
+> [!success]- Răspuns
+> **a. din sistemul de educație**
+> 
+> El reduce drastic șansele viitoare.
+
+### 44. Principiul modern al incluziunii îmbină:
+
+- a. accesul universal cu sprijinul țintit
+- b. doar ajutorul pentru cei mai săraci
+- c. doar reguli egale, fără sprijin
+- d. excluderea celor dezavantajați
+
+> [!success]- Răspuns
+> **a. accesul universal cu sprijinul țintit**
+> 
+> Sprijinul se concentrează unde dezavantajul e mai mare.
+
+### 45. Un migrant care fuge de război și de persecuție este:
+
+- a. refugiat
+- b. migrant economic
+- c. turist
+- d. rezident permanent
+
+> [!success]- Răspuns
+> **a. refugiat**
+> 
+> El este protejat de Convenția de la Geneva.
+
+### 46. Factorii care împing oamenii să plece (sărăcie, război) se numesc factori de:
+
+- a. respingere
+- b. atracție
+- c. integrare
+- d. reținere
+
+> [!success]- Răspuns
+> **a. respingere**
+> 
+> Factorii de atracție țin de destinație.
+
+### 47. Remitențele sunt:
+
+- a. banii trimiși acasă de cei plecați la muncă
+- b. taxele plătite de migranți
+- c. ajutoarele de la statul de destinație
+- d. costurile călătoriei
+
+> [!success]- Răspuns
+> **a. banii trimiși acasă de cei plecați la muncă**
+> 
+> Ele susțin adesea economii întregi.
+
+### 48. Convenția de la Geneva din 1951 interzice:
+
+- a. returnarea unui refugiat acolo unde i-ar fi amenințată viața
+- b. orice formă de migrație
+- c. munca migranților
+- d. reîntregirea familiei
+
+> [!success]- Răspuns
+> **a. returnarea unui refugiat acolo unde i-ar fi amenințată viața**
+> 
+> Este principiul nereturnării.
+
+### 49. Cauza principală a încălzirii globale actuale este:
+
+- a. intensificarea efectului de seră prin emisii din activități umane
+- b. creșterea radiației solare
+- c. erupțiile vulcanice
+- d. schimbarea orbitei Pământului
+
+> [!success]- Răspuns
+> **a. intensificarea efectului de seră prin emisii din activități umane**
+> 
+> Arderea combustibililor fosili este sursa dominantă.
+
+### 50. Construirea de diguri și gestionarea apei împotriva secetei sunt măsuri de:
+
+- a. adaptare la schimbările climatice
+- b. reducere a emisiilor
+- c. poluare controlată
+- d. defrișare
+
+> [!success]- Răspuns
+> **a. adaptare la schimbările climatice**
+> 
+> Adaptarea pregătește pentru efectele deja inevitabile.
+
+### 51. Acordul de la Paris privind clima a fost adoptat în:
+
+- a. 2015
+- b. 1997
+- c. 2005
+- d. 2020
+
+> [!success]- Răspuns
+> **a. 2015**
+> 
+> El angajează statele să limiteze încălzirea globală.
+
+### 52. Problemele de mediu depășesc granițele pentru că:
+
+- a. aerul și apa circulă indiferent de frontiere
+- b. toate țările au aceleași legi
+- c. sunt exagerate de presă
+- d. privesc doar oceanele
+
+> [!success]- Răspuns
+> **a. aerul și apa circulă indiferent de frontiere**
+> 
+> De aceea soluțiile cer cooperare internațională.
+
+### 53. Dezvoltarea durabilă a fost definită în:
+
+- a. Raportul Brundtland (1987)
+- b. Agenda 2030 (2015)
+- c. Acordul de la Paris (2015)
+- d. Protocolul de la Kyoto (1997)
+
+> [!success]- Răspuns
+> **a. Raportul Brundtland (1987)**
+> 
+> Definiția vizează echilibrul dintre generații.
+
+### 54. Cele trei dimensiuni ale dezvoltării durabile sunt:
+
+- a. economică, socială și de mediu
+- b. locală, națională și globală
+- c. publică, privată și civică
+- d. politică, culturală și militară
+
+> [!success]- Răspuns
+> **a. economică, socială și de mediu**
+> 
+> Ele trebuie echilibrate, nu ierarhizate rigid.
+
+### 55. Economia circulară înlocuiește modelul:
+
+- a. „produci – folosești – arunci”
+- b. „economisește și investește”
+- c. „cerere și ofertă”
+- d. „import și export”
+
+> [!success]- Răspuns
+> **a. „produci – folosești – arunci”**
+> 
+> În ea, deșeurile devin resurse.
+
+### 56. O „tranziție justă” către economia verde înseamnă:
+
+- a. sprijinirea comunităților și a lucrătorilor afectați de schimbare
+- b. oprirea oricărei industrii
+- c. ignorarea costurilor sociale
+- d. renunțarea la energia regenerabilă
+
+> [!success]- Răspuns
+> **a. sprijinirea comunităților și a lucrătorilor afectați de schimbare**
+> 
+> Fără ea, tranziția e greu de acceptat social.
+
+### 57. Globalizarea înseamnă, în esență:
+
+- a. creșterea interdependenței dintre țări
+- b. izolarea economiilor naționale
+- c. desființarea comerțului
+- d. uniformizarea completă a culturilor
+
+> [!success]- Răspuns
+> **a. creșterea interdependenței dintre țări**
+> 
+> Ea se bazează pe intensificarea schimburilor.
+
+### 58. Un risc al globalizării este:
+
+- a. propagarea rapidă a crizelor dintr-o parte în alta a lumii
+- b. reducerea comerțului
+- c. scăderea tehnologiei
+- d. izolarea piețelor
+
+> [!success]- Răspuns
+> **a. propagarea rapidă a crizelor dintr-o parte în alta a lumii**
+> 
+> O criză financiară sau sanitară se răspândește repede.
+
+### 59. Faptul că un produs e fabricat din componente venite din zeci de țări ilustrează:
+
+- a. interdependența economică globală
+- b. autarhia
+- c. protecționismul
+- d. izolarea
+
+> [!success]- Răspuns
+> **a. interdependența economică globală**
+> 
+> Este o trăsătură a producției globalizate.
+
+### 60. Globalizarea este, în sine:
+
+- a. nici bună, nici rea: contează cum e gestionată
+- b. un bine absolut
+- c. un rău absolut
+- d. fără efecte reale
+
+> [!success]- Răspuns
+> **a. nici bună, nici rea: contează cum e gestionată**
+> 
+> Depinde de cine culege beneficiile și cine suportă costurile.
+
+### 61. Prima etapă a ciclului unei politici publice este:
+
+- a. ajungerea problemei pe agenda publică
+- b. evaluarea rezultatelor
+- c. implementarea
+- d. decizia finală
+
+> [!success]- Răspuns
+> **a. ajungerea problemei pe agenda publică**
+> 
+> Nu toate problemele ajung pe agendă.
+
+### 62. O politică publică bună se întemeiază, în primul rând, pe:
+
+- a. date și dovezi
+- b. bune intenții
+- c. popularitatea măsurii
+- d. opinia unei singure persoane
+
+> [!success]- Răspuns
+> **a. date și dovezi**
+> 
+> O măsură care „sună bine” poate avea efecte nule.
+
+### 63. Evaluarea unei politici publice servește la:
+
+- a. a verifica dacă a funcționat și la ce cost
+- b. a o promova
+- c. a justifica bugetul cheltuit
+- d. a evita responsabilitatea
+
+> [!success]- Răspuns
+> **a. a verifica dacă a funcționat și la ce cost**
+> 
+> Concluziile hrănesc o nouă rundă de îmbunătățire.
+
+### 64. Etapa adesea cea mai dificilă a unei politici publice este:
+
+- a. implementarea
+- b. formularea ideii
+- c. anunțarea ei
+- d. includerea pe agendă
+
+> [!success]- Răspuns
+> **a. implementarea**
+> 
+> Între decizie și rezultat apar multe obstacole practice.
+
+### 65. Pensia din sistemul public este, în principal, o prestație de tip:
+
+- a. asigurări sociale, bazate pe contribuție
+- b. asistență socială, bazată pe nevoie
+- c. ajutor caritabil
+- d. venit din capital
+
+> [!success]- Răspuns
+> **a. asigurări sociale, bazate pe contribuție**
+> 
+> Ea decurge din contribuțiile plătite în timpul activității.
+
+### 66. Venitul minim garantat este o formă de:
+
+- a. asistență socială, acordată pe baza nevoii
+- b. asigurare bazată pe contribuție
+- c. pensie
+- d. salariu
+
+> [!success]- Răspuns
+> **a. asistență socială, acordată pe baza nevoii**
+> 
+> El se acordă indiferent de contribuțiile anterioare.
+
+### 67. Statul bunăstării se sprijină pe principiul:
+
+- a. solidarității între cetățeni
+- b. concurenței pure
+- c. neintervenției statului
+- d. profitului maxim
+
+> [!success]- Răspuns
+> **a. solidarității între cetățeni**
+> 
+> Cei activi contribuie la sprijinirea celor în nevoie.
+
+### 68. O provocare majoră a statului bunăstării este:
+
+- a. sustenabilitatea la îmbătrânirea populației
+- b. excesul de contribuabili
+- c. lipsa oricăror riscuri sociale
+- d. surplusul permanent de fonduri
+
+> [!success]- Răspuns
+> **a. sustenabilitatea la îmbătrânirea populației**
+> 
+> Mai puțini activi trebuie să susțină mai mulți pensionari.
+
+### 69. A fi cetățean activ presupune, în primul rând:
+
+- a. informare corectă, participare și responsabilitate
+- b. așteptarea ca alții să rezolve totul
+- c. indiferența față de comunitate
+- d. respingerea oricărei cooperări
+
+> [!success]- Răspuns
+> **a. informare corectă, participare și responsabilitate**
+> 
+> Cetățeanul activ nu rămâne spectator.
+
+### 70. Relația dintre gesturile individuale și schimbările colective este una de:
+
+- a. completare reciprocă
+- b. excludere
+- c. opoziție totală
+- d. indiferență
+
+> [!success]- Răspuns
+> **a. completare reciprocă**
+> 
+> Fiecare se sprijină pe celălalt.
+
+### 71. „Gândește global, acționează local” înseamnă că:
+
+- a. problemele sunt globale, dar soluțiile încep aproape de casă
+- b. trebuie să acționăm doar la nivel mondial
+- c. problemele locale nu contează
+- d. acțiunea individuală e inutilă
+
+> [!success]- Răspuns
+> **a. problemele sunt globale, dar soluțiile încep aproape de casă**
+> 
+> Cele două scări se completează.
+
+### 72. Cetățenia activă cere competențe precum:
+
+- a. gândire critică, cooperare și distingerea dezinformării
+- b. doar cunoștințe teoretice
+- c. indiferență față de fapte
+- d. evitarea dezbaterii
+
+> [!success]- Răspuns
+> **a. gândire critică, cooperare și distingerea dezinformării**
+> 
+> Ele fac participarea eficientă.
+
+### 73. Sărăcia relativă se raportează la:
+
+- a. standardul de trai al societății respective
+- b. un prag mondial fix
+- c. lipsa completă a hranei
+- d. coeficientul Gini
+
+> [!success]- Răspuns
+> **a. standardul de trai al societății respective**
+> 
+> Ea poate exista și în societăți bogate.
+
+### 74. Coeficientul Gini măsoară:
+
+- a. inegalitatea veniturilor
+- b. rata sărăciei absolute
+- c. nivelul migrației
+- d. gradul de poluare
+
+> [!success]- Răspuns
+> **a. inegalitatea veniturilor**
+> 
+> El variază între 0 (egalitate) și 1 (inegalitate maximă).
+
+### 75. O persoană care fuge de război și de persecuție este:
+
+- a. refugiat, protejat de dreptul internațional
+- b. migrant economic
+- c. turist
+- d. pasager clandestin
+
+> [!success]- Răspuns
+> **a. refugiat, protejat de dreptul internațional**
+> 
+> Convenția de la Geneva din 1951 o protejează.
+
+### 76. Cauza principală a încălzirii globale actuale este:
+
+- a. intensificarea efectului de seră prin emisii din activități umane
+- b. creșterea radiației solare
+- c. erupțiile vulcanice
+- d. schimbarea orbitei terestre
+
+> [!success]- Răspuns
+> **a. intensificarea efectului de seră prin emisii din activități umane**
+> 
+> Arderea combustibililor fosili este sursa dominantă.
+
+### 77. Dezvoltarea durabilă îmbină dimensiunile:
+
+- a. economică, socială și de mediu
+- b. locală, națională și globală
+- c. publică, privată și civică
+- d. trecut, prezent și viitor
+
+> [!success]- Răspuns
+> **a. economică, socială și de mediu**
+> 
+> Ele sunt interdependente.
+
+### 78. Globalizarea înseamnă, în esență:
+
+- a. creșterea interdependenței dintre țări
+- b. izolarea economiilor
+- c. desființarea comerțului
+- d. uniformizarea culturilor
+
+> [!success]- Răspuns
+> **a. creșterea interdependenței dintre țări**
+> 
+> Ea se bazează pe intensificarea schimburilor.
+
+### 79. Statul de drept înseamnă că:
 
 - a. puterea se exercită numai în limitele legii, care se aplică tuturor
 - b. statul are întotdeauna dreptate
@@ -453,7 +957,7 @@ cssclasses: test
 > 
 > Supremația Constituției este elementul lui central.
 
-### 38. Separarea puterilor a fost teoretizată de:
+### 80. Separarea puterilor a fost teoretizată de:
 
 - a. Montesquieu
 - b. Rousseau
@@ -465,7 +969,7 @@ cssclasses: test
 > 
 > În „Despre spiritul legilor”.
 
-### 39. Controlul reciproc al puterilor înseamnă:
+### 81. Controlul reciproc al puterilor înseamnă:
 
 - a. fiecare putere limitează abuzurile celorlalte
 - b. puterile lucrează izolat
@@ -477,7 +981,7 @@ cssclasses: test
 > 
 > Fără el, separarea rămâne formală.
 
-### 40. Mandatul Președintelui României este de:
+### 82. Mandatul Președintelui României este de:
 
 - a. cinci ani
 - b. patru ani
@@ -489,7 +993,7 @@ cssclasses: test
 > 
 > Parlamentul are mandat de patru ani.
 
-### 41. Parlamentul României este:
+### 83. Parlamentul României este:
 
 - a. bicameral
 - b. unicameral
@@ -501,7 +1005,7 @@ cssclasses: test
 > 
 > Cuprinde Camera Deputaților și Senatul.
 
-### 42. Prefectul:
+### 84. Prefectul:
 
 - a. reprezintă Guvernul în teritoriu
 - b. este ales de cetățeni
@@ -513,7 +1017,7 @@ cssclasses: test
 > 
 > El poate ataca actele nelegale ale autorităților locale.
 
-### 43. Sistemul electoral proporțional:
+### 85. Sistemul electoral proporțional:
 
 - a. distribuie mandatele proporțional cu voturile
 - b. acordă toate mandatele câștigătorului
@@ -525,7 +1029,7 @@ cssclasses: test
 > 
 > El reflectă mai fidel opțiunile alegătorilor.
 
-### 44. Societatea civilă cuprinde:
+### 86. Societatea civilă cuprinde:
 
 - a. asociații, fundații, sindicate, presă independentă
 - b. partidele politice
@@ -537,7 +1041,7 @@ cssclasses: test
 > 
 > Ea este independentă de stat și de piață.
 
-### 45. Funcția de „câine de pază” a presei înseamnă:
+### 87. Funcția de „câine de pază” a presei înseamnă:
 
 - a. supravegherea exercitării puterii
 - b. promovarea guvernului
@@ -549,7 +1053,7 @@ cssclasses: test
 > 
 > Ea responsabilizează guvernanții.
 
-### 46. Știrea se deosebește de editorial prin:
+### 88. Știrea se deosebește de editorial prin:
 
 - a. prezentarea unor fapte verificabile, separate de opinie
 - b. lungimea textului
@@ -561,7 +1065,7 @@ cssclasses: test
 > 
 > Amestecul lor deliberat este manipulare.
 
-### 47. Corectarea publică a erorilor de către o redacție:
+### 89. Corectarea publică a erorilor de către o redacție:
 
 - a. întărește credibilitatea
 - b. o slăbește
@@ -573,7 +1077,7 @@ cssclasses: test
 > 
 > Este un semn de jurnalism responsabil.
 
-### 48. Pluralismul mediatic presupune:
+### 90. Pluralismul mediatic presupune:
 
 - a. surse diverse și independente
 - b. multe publicații ale aceluiași proprietar
@@ -585,7 +1089,79 @@ cssclasses: test
 > 
 > Diversitatea proprietății contează la fel de mult ca numărul titlurilor.
 
-### 49. Dezinformarea se deosebește de informarea greșită prin:
+### 91. O politică publică este:
+
+- a. un ansamblu de decizii și acțiuni pentru o problemă de interes public
+- b. o simplă intenție
+- c. o lege oarecare
+- d. o campanie electorală
+
+> [!success]- Răspuns
+> **a. un ansamblu de decizii și acțiuni pentru o problemă de interes public**
+> 
+> Ea are obiective, resurse și rezultate așteptate.
+
+### 92. Prima etapă a ciclului unei politici publice este:
+
+- a. ajungerea problemei pe agenda publică
+- b. evaluarea
+- c. implementarea
+- d. decizia
+
+> [!success]- Răspuns
+> **a. ajungerea problemei pe agenda publică**
+> 
+> Nu toate problemele ajung pe agendă.
+
+### 93. O politică publică bună se sprijină, în primul rând, pe:
+
+- a. date și dovezi
+- b. bune intenții
+- c. popularitate
+- d. opinia unei singure persoane
+
+> [!success]- Răspuns
+> **a. date și dovezi**
+> 
+> O măsură care „sună bine” poate avea efecte nule.
+
+### 94. Pensia din sistemul public este o prestație de tip:
+
+- a. asigurări sociale, bazate pe contribuție
+- b. asistență socială, bazată pe nevoie
+- c. ajutor caritabil
+- d. venit din capital
+
+> [!success]- Răspuns
+> **a. asigurări sociale, bazate pe contribuție**
+> 
+> Ea decurge din contribuțiile plătite în activitate.
+
+### 95. Statul bunăstării se sprijină pe principiul:
+
+- a. solidarității între cetățeni
+- b. concurenței pure
+- c. neintervenției statului
+- d. profitului maxim
+
+> [!success]- Răspuns
+> **a. solidarității între cetățeni**
+> 
+> Cei activi contribuie la sprijinirea celor în nevoie.
+
+### 96. A fi cetățean activ presupune:
+
+- a. informare, participare și responsabilitate
+- b. așteptarea ca alții să rezolve totul
+- c. indiferența față de comunitate
+- d. respingerea cooperării
+
+> [!success]- Răspuns
+> **a. informare, participare și responsabilitate**
+> 
+> Cetățeanul activ nu rămâne spectator.
+
+### 97. Dezinformarea se deosebește de informarea greșită prin:
 
 - a. intenția de a induce în eroare
 - b. gravitatea efectelor
@@ -597,7 +1173,7 @@ cssclasses: test
 > 
 > Efectele pot fi însă la fel de grave.
 
-### 50. O imagine reală folosită pentru un alt eveniment este un caz de:
+### 98. O imagine reală folosită pentru un alt eveniment este un caz de:
 
 - a. context fals
 - b. satiră
@@ -609,7 +1185,7 @@ cssclasses: test
 > 
 > Este una dintre cele mai frecvente forme de dezinformare.
 
-### 51. Căutarea inversă de imagini permite:
+### 99. Căutarea inversă de imagini permite:
 
 - a. aflarea contextului original al imaginii
 - b. verificarea autorului textului
@@ -621,7 +1197,7 @@ cssclasses: test
 > 
 > Este cel mai rapid test pentru contextul fals.
 
-### 52. Algoritmii rețelelor sociale amplifică, de regulă:
+### 100. Algoritmii rețelelor sociale amplifică, de regulă:
 
 - a. conținutul care produce reacție puternică
 - b. conținutul cel mai corect
@@ -633,7 +1209,7 @@ cssclasses: test
 > 
 > De aici avantajul structural al dezinformării.
 
-### 53. Distorsiunea de confirmare înseamnă:
+### 101. Distorsiunea de confirmare înseamnă:
 
 - a. căutarea informațiilor care ne dau dreptate
 - b. judecarea după exemple ușor de amintit
@@ -645,7 +1221,7 @@ cssclasses: test
 > 
 > Ea se combate prin expunerea deliberată la argumente contrare.
 
-### 54. Semnul unei gândiri critice reale este:
+### 102. Semnul unei gândiri critice reale este:
 
 - a. schimbarea opiniei atunci când dovezile o cer
 - b. suspiciunea generalizată
@@ -657,7 +1233,7 @@ cssclasses: test
 > 
 > Scepticismul total e la fel de neproductiv ca încrederea oarbă.
 
-### 55. În arborele problemei, efectele sunt:
+### 103. În arborele problemei, efectele sunt:
 
 - a. ramurile
 - b. rădăcinile
@@ -669,7 +1245,7 @@ cssclasses: test
 > 
 > Cauzele sunt rădăcinile.
 
-### 56. Soluțiile eficiente atacă:
+### 104. Soluțiile eficiente atacă:
 
 - a. cauzele, nu simptomele
 - b. simptomele vizibile
@@ -681,7 +1257,7 @@ cssclasses: test
 > 
 > Altfel problema reapare.
 
-### 57. Un obiectiv specific trebuie să fie:
+### 105. Un obiectiv specific trebuie să fie:
 
 - a. concret și măsurabil
 - b. general și ambițios
@@ -693,7 +1269,7 @@ cssclasses: test
 > 
 > Altfel atingerea lui nu poate fi verificată.
 
-### 58. Analiza riscurilor servește la:
+### 106. Analiza riscurilor servește la:
 
 - a. pregătirea din timp a măsurilor de reducere
 - b. justificarea eșecului
@@ -705,7 +1281,7 @@ cssclasses: test
 > 
 > Riscul anticipat costă mult mai puțin.
 
-### 59. Indicatorii de evaluare se stabilesc:
+### 107. Indicatorii de evaluare se stabilesc:
 
 - a. înainte de începerea proiectului
 - b. după obținerea rezultatelor
@@ -717,7 +1293,7 @@ cssclasses: test
 > 
 > Altfel se măsoară doar ce a ieșit bine.
 
-### 60. Un proiect care se stinge odată cu echipa inițială:
+### 108. Un proiect care se stinge odată cu echipa inițială:
 
 - a. a produs un eveniment, nu o schimbare durabilă
 - b. este un succes complet

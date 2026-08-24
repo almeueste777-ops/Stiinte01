@@ -21,7 +21,7 @@ cssclasses: fisa
 
 Societatea privită metodic: grupuri, instituții, statusuri și roluri, devianță, mobilitate și schimbare socială.
 
-## Capitole (6)
+## Capitole (10)
 
 ### Perspectiva sociologică — semestrul 1
 
@@ -55,9 +55,31 @@ Societatea privită metodic: grupuri, instituții, statusuri și roluri, devian�
 - [[Schimbarea socială și modernizarea]]
 - [[Globalizarea și probleme sociale contemporane]]
 
+### Cultură, teorii și interacțiune — semestrul 1
+
+- [[Paradigmele sociologiei]]
+- [[Cultura și diversitatea culturală]]
+- [[Interacțiunea socială și viața cotidiană]]
+
+### Populație și comunități — semestrul 1
+
+- [[Populația și dinamica demografică]]
+- [[Comunitățile rurale și urbane]]
+
+### Religie, putere și economie — semestrul 2
+
+- [[Religia ca instituție socială]]
+- [[Puterea, statul și instituțiile politice]]
+- [[Economia, munca și ocuparea]]
+
+### Diversitate socială și acțiune colectivă — semestrul 2
+
+- [[Etnie, națiune și relații interetnice]]
+- [[Mișcări sociale și acțiune colectivă]]
+
 ## Exersare
-- [[Carduri - Sociologie (clasa a XI-a)]] — 56 carduri
-- [[Test - Sociologie (clasa a XI-a)]] — 80 întrebări
+- [[Carduri - Sociologie (clasa a XI-a)]] — 96 carduri
+- [[Test - Sociologie (clasa a XI-a)]] — 132 întrebări
 
 ## Legături
 - [[Sociologie|Sociologie]]

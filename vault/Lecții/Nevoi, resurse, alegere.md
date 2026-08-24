@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Nevoi, resurse, alegere
 
-[[Economie și educație antreprenorială (clasa a XIII-a)|Economie și educație antreprenorială]] · [[Clasa a XIII-a]] · lecția 1 din 12
+[[Economie și educație antreprenorială (clasa a XIII-a)|Economie și educație antreprenorială]] · [[Clasa a XIII-a]] · lecția 1 din 24
 
 **Capitolul:** Economia și consumatorul — semestrul 1
 
