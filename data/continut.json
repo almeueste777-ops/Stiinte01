@@ -2,10 +2,10 @@
   "version": "03",
   "actualizat": "2026-08-24",
   "nrModule": 60,
-  "nrLectii": 1097,
-  "nrCarduri": 4388,
-  "nrIntrebari": 4388,
-  "nrIntrebariTeze": 1864,
+  "nrLectii": 1106,
+  "nrCarduri": 4424,
+  "nrIntrebari": 4424,
+  "nrIntrebariTeze": 1876,
   "module": [
     {
       "id": "geografie-9",
@@ -8211,10 +8211,10 @@
       "bac": true,
       "socioUman": false,
       "descriere": "Recapitulare și consolidare: sistemul verbal, structurile-cheie, erorile tipice ale vorbitorilor de română și simularea probei de competențe.",
-      "nrLectii": 9,
-      "nrCarduri": 36,
-      "nrIntrebari": 36,
-      "nrIntrebariTeze": 24,
+      "nrLectii": 18,
+      "nrCarduri": 72,
+      "nrIntrebari": 72,
+      "nrIntrebariTeze": 36,
       "capitole": [
         {
           "id": "eng13-c1",
@@ -8272,16 +8272,73 @@
               "titlu": "Engleza după examen: învățare pe termen lung"
             }
           ]
+        },
+        {
+          "id": "eng13-c4",
+          "titlu": "Structuri esențiale pentru examen",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "eng13-10",
+              "titlu": "Propozițiile condiționale (Conditionals)"
+            },
+            {
+              "id": "eng13-11",
+              "titlu": "Vorbirea indirectă (Reported Speech)"
+            },
+            {
+              "id": "eng13-12",
+              "titlu": "Diateza pasivă (The Passive Voice)"
+            }
+          ]
+        },
+        {
+          "id": "eng13-c5",
+          "titlu": "Vocabular și formarea cuvintelor",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "eng13-13",
+              "titlu": "Formarea cuvintelor (Word Formation)"
+            },
+            {
+              "id": "eng13-14",
+              "titlu": "Verbele frazale (Phrasal Verbs)"
+            },
+            {
+              "id": "eng13-15",
+              "titlu": "Colocații și prepoziții (Collocations and Prepositions)"
+            }
+          ]
+        },
+        {
+          "id": "eng13-c6",
+          "titlu": "Competențe de examen și lumea anglofonă",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "eng13-16",
+              "titlu": "Use of English: transformări și cloze"
+            },
+            {
+              "id": "eng13-17",
+              "titlu": "Redactarea (Writing): scrisoarea, eseul, raportul"
+            },
+            {
+              "id": "eng13-18",
+              "titlu": "Lumea anglofonă (The English-speaking World)"
+            }
+          ]
         }
       ],
       "teze": [
         {
           "semestru": 1,
-          "nrIntrebari": 12
+          "nrIntrebari": 18
         },
         {
           "semestru": 2,
-          "nrIntrebari": 12
+          "nrIntrebari": 18
         }
       ]
     },

@@ -792,12 +792,864 @@
      ]
     }
    ]
+  },
+  {
+   "id": "eng13-c4",
+   "titlu": "Structuri esențiale pentru examen",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "eng13-10",
+     "titlu": "Propozițiile condiționale (Conditionals)",
+     "rezumat": "Propozițiile condiționale leagă o condiție (introdusă de „if”) de o consecință, iar engleza are patru tipuri principale. Condiționalul zero exprimă adevăruri generale: „If you heat ice, it melts” (prezent + prezent). Condiționalul întâi exprimă o condiție reală, probabilă, în viitor: „If it rains, I will stay home” (prezent + will). Condiționalul al doilea exprimă o situație ireală sau improbabilă în prezent: „If I had money, I would travel” (past simple + would). Condiționalul al treilea exprimă o condiție ireală din trecut, care nu s-a produs: „If I had studied, I would have passed” (past perfect + would have + participiu). Greșeala tipică a vorbitorului de română este folosirea lui „will” după „if” în tipul 1 și confuzia dintre tipurile 2 și 3. Condiționalele mixte combină o condiție trecută cu un efect prezent: „If I had saved money, I would be rich now.”",
+     "ideiCheie": [
+      "Tipul 0: prezent + prezent — adevăruri generale.",
+      "Tipul 1: if + prezent, will + infinitiv — condiție reală în viitor.",
+      "Tipul 2: if + past simple, would + infinitiv — ireal în prezent.",
+      "Tipul 3: if + past perfect, would have + participiu — ireal în trecut."
+     ],
+     "termeni": [
+      {
+       "t": "conditional sentence",
+       "d": "propoziție care leagă o condiție de consecința ei"
+      },
+      {
+       "t": "mixed conditional",
+       "d": "condițional care combină o condiție trecută cu un efect prezent"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce structură are condiționalul al doilea?",
+       "v": "If + past simple, would + infinitiv."
+      },
+      {
+       "f": "Ce exprimă condiționalul al treilea?",
+       "v": "O condiție ireală din trecut, care nu s-a produs."
+      },
+      {
+       "f": "Ce timp NU se folosește după „if” în tipul 1?",
+       "v": "„Will” — se folosește prezentul."
+      },
+      {
+       "f": "Când se folosește un condițional mixt?",
+       "v": "Când o acțiune trecută are un efect în prezent."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„If I had known, I would have helped” este condițional de:",
+       "optiuni": [
+        "tipul 3",
+        "tipul 1",
+        "tipul 2",
+        "tipul 0"
+       ],
+       "corect": 0,
+       "explicatie": "Past perfect + would have + participiu = ireal în trecut."
+      },
+      {
+       "intrebare": "După „if”, în condiționalul întâi, se folosește:",
+       "optiuni": [
+        "prezentul",
+        "will",
+        "would",
+        "past perfect"
+       ],
+       "corect": 0,
+       "explicatie": "Corect: „If it rains”, nu „if it will rain”."
+      },
+      {
+       "intrebare": "„If I were rich, I would travel” exprimă:",
+       "optiuni": [
+        "o situație ireală în prezent",
+        "o condiție reală",
+        "un adevăr general",
+        "o condiție trecută"
+       ],
+       "corect": 0,
+       "explicatie": "Tipul 2 folosește „were” pentru toate persoanele."
+      },
+      {
+       "intrebare": "Condiționalul zero exprimă:",
+       "optiuni": [
+        "adevăruri generale și legi",
+        "planuri de viitor",
+        "regrete despre trecut",
+        "ipoteze ireale"
+       ],
+       "corect": 0,
+       "explicatie": "Exemplu: „If you heat water to 100°C, it boils.”"
+      }
+     ]
+    },
+    {
+     "id": "eng13-11",
+     "titlu": "Vorbirea indirectă (Reported Speech)",
+     "rezumat": "Vorbirea indirectă redă spusele cuiva fără citare directă, cu un verb introductiv („say”, „tell”, „ask”) și, de regulă, „that”. Când verbul introductiv e la trecut, timpurile „coboară” cu un pas (backshift): present simple → past simple, present perfect și past simple → past perfect, will → would, can → could, may → might, must → had to. Se schimbă și pronumele și indicatorii de timp și loc: „now” → „then”, „today” → „that day”, „tomorrow” → „the next day”, „here” → „there”. Întrebările raportate păstrează ordinea afirmativă, fără inversiune și fără auxiliarul „do”: „He asked where I lived” (nu „where did I live”); cele fără cuvânt interogativ folosesc „if” sau „whether”. Comenzile și rugămințile se raportează cu infinitivul: „She told me to wait”, „He asked me not to leave”. Vorbitorii de română greșesc frecvent păstrând inversiunea în întrebarea raportată.",
+     "ideiCheie": [
+      "Verb introductiv la trecut → backshift: timpurile coboară cu un pas.",
+      "Se schimbă pronumele și indicatorii de timp și de loc.",
+      "Întrebarea raportată păstrează ordinea afirmativă, fără „do”.",
+      "Comenzile și rugămințile se raportează cu infinitivul (to / not to)."
+     ],
+     "termeni": [
+      {
+       "t": "backshift",
+       "d": "coborârea timpurilor cu un pas când verbul introductiv e la trecut"
+      },
+      {
+       "t": "reported question",
+       "d": "întrebare raportată, cu ordine afirmativă, fără inversiune"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce devine „will” prin backshift?",
+       "v": "„Would”."
+      },
+      {
+       "f": "Cum se raportează o comandă?",
+       "v": "Cu infinitivul: „He told me to stop”."
+      },
+      {
+       "f": "Ce ordine are întrebarea raportată?",
+       "v": "Ordinea afirmativă (subiect + verb), fără „do”."
+      },
+      {
+       "f": "Ce introduce o întrebare raportată fără cuvânt interogativ?",
+       "v": "„If” sau „whether”."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„She said she was tired” provine din:",
+       "optiuni": [
+        "„I am tired”",
+        "„I was tired”",
+        "„I will be tired”",
+        "„I have been tired”"
+       ],
+       "corect": 0,
+       "explicatie": "Present simple coboară la past simple prin backshift."
+      },
+      {
+       "intrebare": "Forma corectă a întrebării raportate este:",
+       "optiuni": [
+        "He asked where I lived",
+        "He asked where did I live",
+        "He asked where do I live",
+        "He asked where I did live"
+       ],
+       "corect": 0,
+       "explicatie": "Întrebarea raportată păstrează ordinea afirmativă."
+      },
+      {
+       "intrebare": "„Please wait”, raportat, devine:",
+       "optiuni": [
+        "He asked me to wait",
+        "He asked me waiting",
+        "He asked me that I wait",
+        "He asked me wait"
+       ],
+       "corect": 0,
+       "explicatie": "Rugămintea se raportează cu infinitivul."
+      },
+      {
+       "intrebare": "Prin backshift, „can” devine:",
+       "optiuni": [
+        "could",
+        "would",
+        "might",
+        "had to"
+       ],
+       "corect": 0,
+       "explicatie": "„Must” devine „had to”, iar „may” devine „might”."
+      }
+     ]
+    },
+    {
+     "id": "eng13-12",
+     "titlu": "Diateza pasivă (The Passive Voice)",
+     "rezumat": "Diateza pasivă mută accentul de pe autorul acțiunii pe obiectul ei și se formează cu verbul „to be” la timpul potrivit plus participiul trecut: „The letter was written”. Autorul, dacă e menționat, apare după „by”: „The novel was written by Orwell”. Pasivul se folosește când autorul e necunoscut, neimportant sau subînțeles, ori în stilul formal și științific. Fiecare timp are forma lui pasivă: present simple „is done”, past simple „was done”, present perfect „has been done”, future „will be done”, modale „must be done”. Verbele cu două complemente (give, send, tell) au două pasive posibile: „I was given a book” / „A book was given to me”. Trecerea din activ în pasiv cere ca obiectul direct al activului să devină subiect al pasivului; verbele intranzitive (happen, arrive, die) nu au obiect, deci nu se pot pasiva. Vorbitorii de română confundă adesea pasivul cu formele reflexive și uită „be” sau participiul.",
+     "ideiCheie": [
+      "Pasivul = „to be” (la timpul potrivit) + participiul trecut.",
+      "Autorul, dacă e menționat, urmează după „by”.",
+      "Fiecare timp are forma lui pasivă (is done, was done, has been done).",
+      "Verbele intranzitive nu admit pasiv."
+     ],
+     "termeni": [
+      {
+       "t": "passive voice",
+       "d": "diateză în care subiectul suferă acțiunea, nu o face"
+      },
+      {
+       "t": "agent",
+       "d": "autorul acțiunii în pasiv, introdus prin „by”"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se formează pasivul?",
+       "v": "Cu „to be” la timpul potrivit + participiul trecut."
+      },
+      {
+       "f": "Cum se introduce autorul în pasiv?",
+       "v": "Prin „by”: „written by Orwell”."
+      },
+      {
+       "f": "Ce pasiv are present perfect?",
+       "v": "„Has/have been” + participiu: „has been done”."
+      },
+      {
+       "f": "De ce verbele intranzitive nu au pasiv?",
+       "v": "Pentru că nu au obiect direct care să devină subiect."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Pasivul lui „They build houses” este:",
+       "optiuni": [
+        "Houses are built",
+        "Houses are build",
+        "Houses is built",
+        "Houses were built"
+       ],
+       "corect": 0,
+       "explicatie": "Present simple pasiv = „is/are” + participiu."
+      },
+      {
+       "intrebare": "În „The song was written by Lennon”, „by Lennon” este:",
+       "optiuni": [
+        "autorul (agentul)",
+        "complementul de loc",
+        "subiectul",
+        "obiectul direct"
+       ],
+       "corect": 0,
+       "explicatie": "Agentul se introduce prin „by”."
+      },
+      {
+       "intrebare": "Care verb NU poate fi pus la pasiv?",
+       "optiuni": [
+        "arrive",
+        "write",
+        "build",
+        "send"
+       ],
+       "corect": 0,
+       "explicatie": "„Arrive” e intranzitiv: nu are obiect."
+      },
+      {
+       "intrebare": "„It is said that he is rich” exprimă:",
+       "optiuni": [
+        "o opinie generală, impersonală",
+        "o certitudine dovedită",
+        "o obligație",
+        "o poruncă"
+       ],
+       "corect": 0,
+       "explicatie": "Structura „It is said that…” raportează impersonal."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "eng13-c5",
+   "titlu": "Vocabular și formarea cuvintelor",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "eng13-13",
+     "titlu": "Formarea cuvintelor (Word Formation)",
+     "rezumat": "Formarea cuvintelor combină o rădăcină cu afixe. Prefixele schimbă sensul, adesea spre negativ: „un-” (unhappy), „in-/im-/il-/ir-” (impossible, illegal, irregular), „dis-” (disagree), „mis-” (misunderstand), „over-/under-” (overwork, underestimate), „re-” (rewrite). Sufixele schimbă, de regulă, clasa gramaticală: „-tion/-ment/-ness/-ity” formează substantive (education, movement, happiness, ability), „-ful/-less/-ous/-al” formează adjective, „-ly” formează adverbe, „-ize/-en” formează verbe (modernize, widen). La examen, exercițiile cer transformarea cuvântului dat pentru a se potrivi în context: din „compete” → „competition” sau „competitive”; cheia e să identifici ce parte de vorbire cere golul și dacă sensul e pozitiv sau negativ. Compunerea alătură două cuvinte: „blackboard”, „well-known”. Vorbitorii de română greșesc frecvent sufixul sau uită schimbările ortografice (happy → happiness).",
+     "ideiCheie": [
+      "Prefixele schimbă sensul, adesea spre negativ: un-, in-, dis-, mis-.",
+      "Sufixele schimbă clasa gramaticală: -tion/-ness (subst.), -ful (adj.), -ly (adv.).",
+      "La examen: identifică partea de vorbire și sensul cerut de gol.",
+      "Compunerea alătură două cuvinte: blackboard, well-known."
+     ],
+     "termeni": [
+      {
+       "t": "affix",
+       "d": "element atașat unei rădăcini (prefix înainte, sufix după)"
+      },
+      {
+       "t": "word family",
+       "d": "grupul de cuvinte formate de la aceeași rădăcină (compete, competition, competitive)"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce schimbă, de regulă, un prefix?",
+       "v": "Sensul cuvântului, adesea spre negativ."
+      },
+      {
+       "f": "Ce schimbă, de regulă, un sufix?",
+       "v": "Clasa gramaticală (partea de vorbire)."
+      },
+      {
+       "f": "Ce sufixe formează substantive?",
+       "v": "-tion, -ment, -ness, -ity."
+      },
+      {
+       "f": "Ce înseamnă „misunderstand”?",
+       "v": "A înțelege greșit (prefixul „mis-” = greșit)."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Prefixul care exprimă „greșit” este:",
+       "optiuni": [
+        "mis-",
+        "re-",
+        "over-",
+        "un-"
+       ],
+       "corect": 0,
+       "explicatie": "„Misunderstand” = a înțelege greșit."
+      },
+      {
+       "intrebare": "Substantivul de la „happy” este:",
+       "optiuni": [
+        "happiness",
+        "happyness",
+        "happiment",
+        "happity"
+       ],
+       "corect": 0,
+       "explicatie": "„-y” devine „-i” înainte de „-ness”."
+      },
+      {
+       "intrebare": "Sufixul „-ize” formează, de obicei:",
+       "optiuni": [
+        "verbe",
+        "substantive",
+        "adjective",
+        "adverbe"
+       ],
+       "corect": 0,
+       "explicatie": "Exemplu: „modern → modernize”."
+      },
+      {
+       "intrebare": "„Irregular” folosește prefixul negativ:",
+       "optiuni": [
+        "ir-",
+        "in-",
+        "im-",
+        "il-"
+       ],
+       "corect": 0,
+       "explicatie": "„ir-” se pune înaintea rădăcinilor cu „r”."
+      }
+     ]
+    },
+    {
+     "id": "eng13-14",
+     "titlu": "Verbele frazale (Phrasal Verbs)",
+     "rezumat": "Verbele frazale combină un verb cu o particulă (adverb sau prepoziție) și capătă adesea un sens nou, imposibil de dedus din părți: „give up” (a renunța), „look after” (a avea grijă), „put off” (a amâna), „run out of” (a rămâne fără). Sunt esențiale în engleza reală și frecvente la examen. Ele sunt separabile sau inseparabile: la cele separabile tranzitive, obiectul-substantiv poate sta între verb și particulă sau după ea („turn the light off” / „turn off the light”), dar un obiect-pronume trebuie să stea între ele („turn it off”, nu „turn off it”); la cele inseparabile, particula rămâne lipită de verb („look after the children”). Multe verbe frazale au sinonime formale utile în scris (put off = postpone, find out = discover). Un verb frazal poate avea mai multe sensuri: „take off” înseamnă și „a decola”, și „a-și scoate haina”. Memorarea în context, nu izolat, este cheia.",
+     "ideiCheie": [
+      "Verb + particulă, cu sens adesea idiomatic (give up, look after).",
+      "Separabile: pronumele obiect stă între verb și particulă (turn it off).",
+      "Inseparabile: particula rămâne lipită de verb (look after).",
+      "Multe au sinonime formale utile în scris (find out = discover)."
+     ],
+     "termeni": [
+      {
+       "t": "phrasal verb",
+       "d": "verb + particulă, cu sens adesea idiomatic"
+      },
+      {
+       "t": "separable phrasal verb",
+       "d": "verb frazal la care obiectul poate sta între verb și particulă"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce înseamnă „put off”?",
+       "v": "A amâna (sinonim formal: postpone)."
+      },
+      {
+       "f": "Unde stă pronumele obiect la un verb frazal separabil?",
+       "v": "Între verb și particulă: „turn it off”."
+      },
+      {
+       "f": "Ce înseamnă „look after”?",
+       "v": "A avea grijă de cineva sau ceva."
+      },
+      {
+       "f": "Un sinonim formal pentru „find out”?",
+       "v": "Discover."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Forma corectă cu pronume este:",
+       "optiuni": [
+        "turn it off",
+        "turn off it",
+        "off turn it",
+        "it off turn"
+       ],
+       "corect": 0,
+       "explicatie": "Pronumele obiect stă între verb și particulă."
+      },
+      {
+       "intrebare": "„Give up” înseamnă:",
+       "optiuni": [
+        "a renunța",
+        "a oferi",
+        "a se ridica",
+        "a împărți"
+       ],
+       "corect": 0,
+       "explicatie": "Sens idiomatic, nededus din părți."
+      },
+      {
+       "intrebare": "La „look after the baby”, verbul frazal este:",
+       "optiuni": [
+        "inseparabil",
+        "separabil",
+        "fără particulă",
+        "reflexiv"
+       ],
+       "corect": 0,
+       "explicatie": "Particula rămâne lipită de verb."
+      },
+      {
+       "intrebare": "Un sinonim formal pentru „put off” este:",
+       "optiuni": [
+        "postpone",
+        "promote",
+        "prepare",
+        "pursue"
+       ],
+       "corect": 0,
+       "explicatie": "Ambele înseamnă „a amâna”."
+      }
+     ]
+    },
+    {
+     "id": "eng13-15",
+     "titlu": "Colocații și prepoziții (Collocations and Prepositions)",
+     "rezumat": "Colocațiile sunt combinații de cuvinte care „merg împreună” în mod natural: „make a decision” (nu „do a decision”), „take a photo”, „heavy rain”, „strong coffee”. A ști ce cuvinte se combină e ceea ce face vorbirea să sune firesc; distincția clasică e între „make” (a crea, a produce: make a mistake, make progress) și „do” (a efectua o activitate: do homework, do the shopping). Prepozițiile dependente însoțesc anumite verbe, adjective și substantive și trebuie memorate: „depend on”, „interested in”, „good at”, „afraid of”, „responsible for”. Multe greșeli ale vorbitorilor de română vin din traducerea directă a prepoziției românești: „depend of” (greșit) în loc de „depend on”. Expresiile prepoziționale fixe („on time”, „at last”, „in charge of”, „by mistake”) se învață ca întreg. La examen, itemii de colocație și prepoziție testează naturalețea și precizia.",
+     "ideiCheie": [
+      "Colocațiile sunt combinații naturale: make a decision, strong coffee.",
+      "„Make” = a crea sau a produce; „do” = a efectua o activitate.",
+      "Prepozițiile dependente se memorează: depend on, interested in, good at.",
+      "Traducerea directă a prepoziției din română e o sursă majoră de greșeli."
+     ],
+     "termeni": [
+      {
+       "t": "collocation",
+       "d": "combinație de cuvinte care apar împreună în mod natural"
+      },
+      {
+       "t": "dependent preposition",
+       "d": "prepoziție fixă cerută de un anumit verb, adjectiv sau substantiv"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Se spune „make” sau „do a decision”?",
+       "v": "„Make a decision”."
+      },
+      {
+       "f": "Ce prepoziție cere „depend”?",
+       "v": "„On”: „depend on”."
+      },
+      {
+       "f": "Ce prepoziție cere „interested”?",
+       "v": "„In”: „interested in”."
+      },
+      {
+       "f": "Ce înseamnă „on time”?",
+       "v": "La ora fixată, punctual."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Colocația corectă este:",
+       "optiuni": [
+        "make a mistake",
+        "do a mistake",
+        "make a homework",
+        "do a decision"
+       ],
+       "corect": 0,
+       "explicatie": "„Make” pentru a produce; „mistake” merge cu „make”."
+      },
+      {
+       "intrebare": "„I am good ___ maths” cere prepoziția:",
+       "optiuni": [
+        "at",
+        "in",
+        "on",
+        "for"
+       ],
+       "corect": 0,
+       "explicatie": "„Good at” e o colocație fixă."
+      },
+      {
+       "intrebare": "„It depends ___ the weather” cere:",
+       "optiuni": [
+        "on",
+        "of",
+        "from",
+        "in"
+       ],
+       "corect": 0,
+       "explicatie": "Corect: „depend on”, nu „depend of”."
+      },
+      {
+       "intrebare": "„Do” se combină firesc cu:",
+       "optiuni": [
+        "homework",
+        "a decision",
+        "progress",
+        "a mistake"
+       ],
+       "corect": 0,
+       "explicatie": "„Do homework”, dar „make a decision/progress/mistake”."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "eng13-c6",
+   "titlu": "Competențe de examen și lumea anglofonă",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "eng13-16",
+     "titlu": "Use of English: transformări și cloze",
+     "rezumat": "Proba de „Use of English” testează stăpânirea structurilor prin exerciții tip: completarea unui text cu cuvinte lipsă (cloze), alegerea variantei corecte, formarea cuvintelor și transformarea propozițiilor păstrând sensul (key word transformation). La transformare, o propoziție se rescrie folosind un cuvânt dat, fără a-i schimba sensul: „It's too cold to swim” → „It isn't warm enough to swim.” Strategia: identifică structura testată (condițional, pasiv, reported speech, comparativ, verb frazal), numără cuvintele permise (de obicei trei–cinci, contracțiile numărând ca două) și nu schimba forma cuvântului dat. La cloze, golurile testează adesea cuvinte gramaticale: articole, prepoziții, auxiliare, conjuncții, pronume relative; se citește întâi tot textul pentru sens, apoi se completează. Vorbitorii de română pierd puncte la articole (a/an/the) și la prepoziții, iar verificarea finală prinde majoritatea greșelilor.",
+     "ideiCheie": [
+      "Transformarea rescrie o propoziție cu un cuvânt dat, păstrând sensul.",
+      "Numără cuvintele permise; nu schimba forma cuvântului-cheie.",
+      "La cloze, golurile testează des cuvinte gramaticale (articole, prepoziții).",
+      "Citește întâi întregul text pentru sens, apoi completează."
+     ],
+     "termeni": [
+      {
+       "t": "key word transformation",
+       "d": "rescrierea unei propoziții cu un cuvânt dat, fără schimbarea sensului"
+      },
+      {
+       "t": "cloze test",
+       "d": "text cu goluri de completat, care testează gramatica și vocabularul"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce cere o „key word transformation”?",
+       "v": "Rescrierea propoziției cu cuvântul dat, păstrând sensul."
+      },
+      {
+       "f": "Ce se testează des la cloze?",
+       "v": "Cuvinte gramaticale: articole, prepoziții, auxiliare."
+      },
+      {
+       "f": "Contracția „isn't” numără drept câte cuvinte?",
+       "v": "Două."
+      },
+      {
+       "f": "Ce faci întâi la un cloze?",
+       "v": "Citești tot textul pentru sens."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„It's too cold to swim” se transformă corect în:",
+       "optiuni": [
+        "It isn't warm enough to swim",
+        "It is warm enough to swim",
+        "It is enough warm to swim",
+        "It isn't too warm to swim"
+       ],
+       "corect": 0,
+       "explicatie": "„Too + adjectiv” ↔ „not + adjectiv + enough”."
+      },
+      {
+       "intrebare": "Într-o transformare cu cuvânt-cheie, cuvântul dat:",
+       "optiuni": [
+        "nu își schimbă forma",
+        "se pune la trecut",
+        "se pluralizează",
+        "se traduce"
+       ],
+       "corect": 0,
+       "explicatie": "Regula probei interzice modificarea lui."
+      },
+      {
+       "intrebare": "Golurile unui cloze testează frecvent:",
+       "optiuni": [
+        "articole și prepoziții",
+        "doar substantive",
+        "doar verbe la trecut",
+        "semne de punctuație"
+       ],
+       "corect": 0,
+       "explicatie": "Cuvintele gramaticale sunt cele mai testate."
+      },
+      {
+       "intrebare": "La cloze, prima etapă recomandată este:",
+       "optiuni": [
+        "citirea întregului text pentru sens",
+        "completarea în ordine, fără citire",
+        "traducerea în română",
+        "numărarea literelor"
+       ],
+       "corect": 0,
+       "explicatie": "Sensul global ghidează alegerile."
+      }
+     ]
+    },
+    {
+     "id": "eng13-17",
+     "titlu": "Redactarea (Writing): scrisoarea, eseul, raportul",
+     "rezumat": "Redactarea la examen cere adecvarea la sarcină, la registru și la formatul cerut. Scrisoarea sau e-mailul formal folosește formule fixe: deschiderea „Dear Sir or Madam,”, închiderea „Yours faithfully,” (fără numele destinatarului) sau „Yours sincerely,” (cu nume); ton impersonal, fără contracții. Varianta informală se adresează pe nume, admite contracții și expresii colocviale. Eseul de opinie are structură clară: introducere care prezintă tema și poziția, două-trei paragrafe de argumente cu exemple, concluzie care reia poziția; conectorii organizează ideile („firstly”, „moreover”, „however”, „on the other hand”, „in conclusion”), iar un paragraf dezvoltă o singură idee principală. Criteriile de notare privesc conținutul, organizarea, vocabularul și corectitudinea gramaticală. Vorbitorii de română pierd puncte la registru (amestecă formal cu informal) și la conectori; planificarea scurtă și recitirea finală ridică vizibil calitatea.",
+     "ideiCheie": [
+      "Adecvarea la sarcină, registru și format este esențială.",
+      "Formal: „Yours faithfully/sincerely”, fără contracții; informal: pe nume, cu contracții.",
+      "Eseul de opinie: introducere, argumente cu exemple, concluzie.",
+      "Conectorii organizează ideile (however, moreover, in conclusion)."
+     ],
+     "termeni": [
+      {
+       "t": "register",
+       "d": "nivelul de formalitate al limbajului, potrivit situației"
+      },
+      {
+       "t": "linking words",
+       "d": "conectori care leagă și organizează ideile într-un text"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cu ce se încheie o scrisoare formală fără numele destinatarului?",
+       "v": "„Yours faithfully,”."
+      },
+      {
+       "f": "Ce structură are eseul de opinie?",
+       "v": "Introducere, argumente cu exemple, concluzie."
+      },
+      {
+       "f": "Ce rol au conectorii?",
+       "v": "Organizează și leagă ideile."
+      },
+      {
+       "f": "Ce evită registrul formal?",
+       "v": "Contracțiile și expresiile colocviale."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Yours faithfully” se folosește când:",
+       "optiuni": [
+        "nu cunoști numele destinatarului",
+        "scrii unui prieten",
+        "închei un e-mail informal",
+        "începi scrisoarea"
+       ],
+       "corect": 0,
+       "explicatie": "Cu numele cunoscut se folosește „Yours sincerely”."
+      },
+      {
+       "intrebare": "Un eseu de opinie bun are:",
+       "optiuni": [
+        "introducere, argumente cu exemple, concluzie",
+        "doar o listă de idei",
+        "un singur paragraf",
+        "numai întrebări"
+       ],
+       "corect": 0,
+       "explicatie": "Structura clară e criteriu de notare."
+      },
+      {
+       "intrebare": "Registrul formal evită:",
+       "optiuni": [
+        "contracțiile",
+        "conectorii",
+        "paragrafele",
+        "exemplele"
+       ],
+       "corect": 0,
+       "explicatie": "Se scrie „do not”, nu „don't”, în text formal."
+      },
+      {
+       "intrebare": "Conectorul care introduce un contrast este:",
+       "optiuni": [
+        "however",
+        "moreover",
+        "firstly",
+        "therefore"
+       ],
+       "corect": 0,
+       "explicatie": "„Moreover” adaugă, „however” contrastează."
+      }
+     ]
+    },
+    {
+     "id": "eng13-18",
+     "titlu": "Lumea anglofonă (The English-speaking World)",
+     "rezumat": "Engleza este limba maternă a peste 350 de milioane de oameni și limbă oficială sau a doua în zeci de state; este principala limbă de comunicare internațională, a științei, a tehnologiei și a internetului. Principalele variante — britanică și americană — diferă prin pronunție, ortografie („colour”/„color”, „centre”/„center”) și unele cuvinte („lift”/„elevator”, „flat”/„apartment”). Marile țări anglofone au repere culturale cunoscute: Regatul Unit (monarhie constituțională, Parlamentul de la Westminster, Shakespeare), Statele Unite (federație, Constituția, Hollywood), plus Canada, Australia, Irlanda și Noua Zeelandă; Commonwealth-ul leagă multe foste colonii britanice. Cunoașterea contextului cultural ajută la înțelegerea textelor și la proba orală, iar engleza globală a devenit un instrument neutru între vorbitori de limbi diferite. Pentru bacalaureat contează atât competența lingvistică, cât și capacitatea de a discuta teme de actualitate în engleză.",
+     "ideiCheie": [
+      "Engleza e principala limbă de comunicare internațională, a științei și a internetului.",
+      "Varianta britanică și cea americană diferă la pronunție, ortografie și vocabular.",
+      "Repere: UK (monarhie, Parlament), SUA (federație, Constituție), Canada, Australia.",
+      "Contextul cultural ajută la înțelegerea textelor și la proba orală."
+     ],
+     "termeni": [
+      {
+       "t": "global English",
+       "d": "engleza folosită ca limbă neutră între vorbitori de limbi diferite"
+      },
+      {
+       "t": "variety",
+       "d": "variantă a unei limbi (engleza britanică vs. cea americană)"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Prin ce diferă engleza britanică de cea americană?",
+       "v": "Prin pronunție, ortografie și unele cuvinte."
+      },
+      {
+       "f": "Cum se scrie „culoare” în engleza americană?",
+       "v": "„Color” (britanic: „colour”)."
+      },
+      {
+       "f": "Ce este Commonwealth-ul?",
+       "v": "O asociație care leagă multe foste colonii britanice."
+      },
+      {
+       "f": "Ce înseamnă „global English”?",
+       "v": "Engleza folosită ca limbă neutră între vorbitori diferiți."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Ortografia americană a lui „centre” este:",
+       "optiuni": [
+        "center",
+        "centre",
+        "centr",
+        "sentre"
+       ],
+       "corect": 0,
+       "explicatie": "Multe cuvinte britanice în „-re” devin „-er” în americană."
+      },
+      {
+       "intrebare": "„Apartment” este varianta americană pentru:",
+       "optiuni": [
+        "flat",
+        "lift",
+        "lorry",
+        "biscuit"
+       ],
+       "corect": 0,
+       "explicatie": "Britanicii spun „flat”, americanii „apartment”."
+      },
+      {
+       "intrebare": "Regatul Unit este o:",
+       "optiuni": [
+        "monarhie constituțională",
+        "republică federală",
+        "republică prezidențială",
+        "monarhie absolută"
+       ],
+       "corect": 0,
+       "explicatie": "Parlamentul de la Westminster deține puterea legislativă."
+      },
+      {
+       "intrebare": "Engleza este, la nivel global, mai ales:",
+       "optiuni": [
+        "principala limbă de comunicare internațională",
+        "o limbă pe cale de dispariție",
+        "vorbită doar în Europa",
+        "o limbă exclusiv științifică"
+       ],
+       "corect": 0,
+       "explicatie": "E limba internetului, a științei și a schimburilor internaționale."
+      }
+     ]
+    }
+   ]
   }
  ],
  "teze": [
   {
    "semestru": 1,
    "test": [
+    {
+     "intrebare": "„If I were you, I would apologize” este condițional de:",
+     "optiuni": [
+      "tipul 2",
+      "tipul 1",
+      "tipul 3",
+      "tipul 0"
+     ],
+     "corect": 0,
+     "explicatie": "Situație ireală în prezent: past simple + would."
+    },
+    {
+     "intrebare": "Vorbirea indirectă a lui „I will call you” (verb introductiv la trecut) este:",
+     "optiuni": [
+      "He said he would call me",
+      "He said he will call me",
+      "He said he calls me",
+      "He said he is calling me"
+     ],
+     "corect": 0,
+     "explicatie": "„Will” devine „would” prin backshift."
+    },
+    {
+     "intrebare": "Pasivul lui „Shakespeare wrote Hamlet” este:",
+     "optiuni": [
+      "Hamlet was written by Shakespeare",
+      "Hamlet is written by Shakespeare",
+      "Hamlet was wrote by Shakespeare",
+      "Hamlet has written by Shakespeare"
+     ],
+     "corect": 0,
+     "explicatie": "Past simple pasiv = „was/were” + participiu."
+    },
+    {
+     "intrebare": "Substantivul format de la „decide” este:",
+     "optiuni": [
+      "decision",
+      "decidement",
+      "deciding",
+      "decisively"
+     ],
+     "corect": 0,
+     "explicatie": "„-sion” formează substantivul; „decisive” e adjectiv."
+    },
+    {
+     "intrebare": "Forma corectă cu pronume a verbului frazal este:",
+     "optiuni": [
+      "pick it up",
+      "pick up it",
+      "up pick it",
+      "it pick up"
+     ],
+     "corect": 0,
+     "explicatie": "Pronumele obiect stă între verb și particulă."
+    },
+    {
+     "intrebare": "„I'm interested ___ history” cere prepoziția:",
+     "optiuni": [
+      "in",
+      "on",
+      "at",
+      "for"
+     ],
+     "corect": 0,
+     "explicatie": "„Interested in” e o colocație fixă."
+    },
     {
      "intrebare": "Sistemul verbal englez se organizează pe axele:",
      "optiuni": [
@@ -935,6 +1787,72 @@
   {
    "semestru": 2,
    "test": [
+    {
+     "intrebare": "Colocația corectă este:",
+     "optiuni": [
+      "make progress",
+      "do progress",
+      "make homework",
+      "do a mistake"
+     ],
+     "corect": 0,
+     "explicatie": "„Make progress”, dar „do homework”."
+    },
+    {
+     "intrebare": "„It's too expensive to buy” ↔ transformarea corectă:",
+     "optiuni": [
+      "It isn't cheap enough to buy",
+      "It is cheap enough to buy",
+      "It isn't too cheap to buy",
+      "It is enough cheap to buy"
+     ],
+     "corect": 0,
+     "explicatie": "„Too + adjectiv” ↔ „not + adjectiv + enough”."
+    },
+    {
+     "intrebare": "O scrisoare formală se încheie, cu numele destinatarului cunoscut, cu:",
+     "optiuni": [
+      "Yours sincerely",
+      "Yours faithfully",
+      "Cheers",
+      "Best wishes mate"
+     ],
+     "corect": 0,
+     "explicatie": "„Yours faithfully” se folosește fără numele destinatarului."
+    },
+    {
+     "intrebare": "Ortografia britanică a lui „color” este:",
+     "optiuni": [
+      "colour",
+      "color",
+      "coloring",
+      "colur"
+     ],
+     "corect": 0,
+     "explicatie": "Britanica păstrează grupul „-our”."
+    },
+    {
+     "intrebare": "Verbul frazal „take off” poate însemna:",
+     "optiuni": [
+      "a decola",
+      "a ateriza",
+      "a amâna",
+      "a renunța"
+     ],
+     "corect": 0,
+     "explicatie": "Are și sensul „a-și scoate haina”."
+    },
+    {
+     "intrebare": "„You ___ come if you don't want to” (absența obligației) cere:",
+     "optiuni": [
+      "don't have to",
+      "mustn't",
+      "can't",
+      "shouldn't"
+     ],
+     "corect": 0,
+     "explicatie": "„Don't have to” = fără obligație; „mustn't” = interdicție."
+    },
     {
      "intrebare": "Criteriile de evaluare la scriere sunt:",
      "optiuni": [
