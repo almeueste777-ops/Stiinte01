@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Documente complexe și lucru profesional cu textul
 
-[[Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a XII-a]] · lecția 2 din 9
+[[Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a XII-a]] · lecția 2 din 16
 
 **Capitolul:** Competențe digitale pentru examen — semestrul 1
 

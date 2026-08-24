@@ -21,7 +21,7 @@ cssclasses: fisa
 
 Competențe digitale pentru bacalaureat și pentru viață: instrumente de birou, informație, securitate, identitate digitală și tehnologii emergente.
 
-## Capitole (3)
+## Capitole (6)
 
 ### Competențe digitale pentru examen — semestrul 1
 
@@ -41,9 +41,25 @@ Competențe digitale pentru bacalaureat și pentru viață: instrumente de birou
 - [[Automatizare, date mari, inteligență artificială]]
 - [[Etică digitală și responsabilitate]]
 
+### Instrumente de birou — semestrul 1
+
+- [[Procesorul de text]]
+- [[Calculul tabelar]]
+- [[Prezentările electronice]]
+
+### Informație și baze de date — semestrul 2
+
+- [[Baze de date]]
+- [[Căutarea și evaluarea informației]]
+
+### Tehnologii emergente și identitate digitală — semestrul 2
+
+- [[Rețele, cloud și internetul lucrurilor]]
+- [[Inteligența artificială și tehnologii emergente]]
+
 ## Exersare
-- [[Carduri - Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)]] — 36 carduri
-- [[Test - Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)]] — 60 întrebări
+- [[Carduri - Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)]] — 64 carduri
+- [[Test - Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)]] — 100 întrebări
 
 ## Legături
 - [[Tehnologia informației și a comunicațiilor (TIC)|Tehnologia informației și a comunicațiilor (TIC)]]

@@ -77,7 +77,7 @@ Vault-ul are **două jumătăți**, în același folder:
 - [[Limba și literatura română (clasa a XII-a)|Limba și literatura română (clasa a XII-a)]] — 9 capitole, 20 lecții, 80 carduri, 117 întrebări
 - [[Matematică aplicată în științele sociale (clasa a XII-a)|Matematică aplicată în științele sociale (clasa a XII-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
 - [[ȘTIAM (științe integrate) (clasa a XII-a)|ȘTIAM (științe integrate) (clasa a XII-a)]] — 3 capitole, 9 lecții, 36 carduri, 54 întrebări
-- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)|Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)]] — 3 capitole, 9 lecții, 36 carduri, 60 întrebări
+- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)|Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)]] — 6 capitole, 16 lecții, 64 carduri, 100 întrebări
 - [[Economie și educație antreprenorială (clasa a XIII-a)|Economie și educație antreprenorială (clasa a XIII-a)]] — 9 capitole, 24 lecții, 96 carduri, 133 întrebări
 - [[Filosofie (clasa a XIII-a)|Filosofie (clasa a XIII-a)]] — 7 capitole, 22 lecții, 88 carduri, 124 întrebări
 - [[Geografie (clasa a XIII-a)|Geografie (clasa a XIII-a)]] — 7 capitole, 20 lecții, 80 carduri, 116 întrebări
@@ -97,8 +97,8 @@ Vault-ul are **două jumătăți**, în același folder:
 | Clase | 5 |
 | Materii distincte | 23 |
 | Module (materie × an) | 60 |
-| Capitole | 403 |
-| Lecții | 1131 |
-| Carduri | 4524 |
-| Întrebări de test | 6436 |
-| Note în vault | 1349 |
+| Capitole | 406 |
+| Lecții | 1138 |
+| Carduri | 4552 |
+| Întrebări de test | 6476 |
+| Note în vault | 1356 |

@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Cloud, mobilitate, colaborare
 
-[[Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a XII-a]] · lecția 7 din 9
+[[Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a XII-a]] · lecția 7 din 16
 
 **Capitolul:** Tehnologii și societate — semestrul 2
 

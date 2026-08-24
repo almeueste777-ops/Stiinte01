@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Identitate digitală și reputație online
 
-[[Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a XII-a]] · lecția 6 din 9
+[[Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a XII-a]] · lecția 6 din 16
 
 **Capitolul:** Informație, securitate, identitate — semestrul 2
 
