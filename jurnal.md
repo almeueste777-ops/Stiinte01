@@ -1269,4 +1269,21 @@ intrare nouă v07 (cache 11), scrisă pentru elev, `curenta`→„07".
 
 **Verificare.** Bateria locală trece integral: JSON valid pe toate modulele + index, `verifica-continut`
 (60 module, 1152 lecții, structură validă), index regenerat și sincronizat, `versiuni.json` v07 ↔
-CACHE 11, `node --check` pe JS, CSS, vault. Nota de rulare: [[Jurnal 2026-08-24 — Mai multe lecții v07]].
+CACHE 11, `node --check` pe JS, CSS, vault. `test-sw.mjs`: ciclul de update cu SW activ — exact o
+reîncărcare la trecerea pe v11, 60 de carduri, zero erori. Smoke propriu de conținut (Playwright):
+84 combinații rută × lățime × temă pe modulele mari — fără derulare orizontală, conținut randat.
+
+**Echipa de agenți.** `verificator-ui` — verdict curat, 154 de capturi (320–1440 + peisaj, ambele
+teme, 11 rute): zero derulare orizontală, zero ținte sub 44px, zero overflow; separarea pe semestre
+(riscul principal al listelor lungi) — corectă, aplicația grupează capitolele pe semestru indiferent
+de ordinea din fișier. `verificator-cod` — curat pe blocante, o constatare reală neblocantă:
+**întrebări duplicate în interiorul unor teze** (10 perechi în 7 module: comunism-13, filosofie-13,
+geografie-12, geografie-13, religie-12, religie-13, romana-12). Cauza: la extinderea tezelor am
+adăugat, în câteva cazuri, o întrebare care repeta una deja existentă în aceeași teză.
+
+**Corecția.** Fiecare a doua apariție (cea adăugată de mine) a fost înlocuită cu o întrebare nouă,
+distinctă, din materialul aceluiași modul — întrebarea veche (prima apariție) rămâne neatinsă, deci
+aditivitatea se păstrează. Detector propriu pe toate cele 60 de module: **0 perechi duplicate** după
+corecție; aditivitatea reconfirmată (580 vechi neschimbate). În plus, am **întărit validatorul**:
+`verifica-continut.mjs` respinge acum enunțurile de teză identice (clasa de defect, nu doar
+instanța), regulă care ar fi prins problema în CI. Nota de rulare: [[Jurnal 2026-08-24 — Mai multe lecții v07]].

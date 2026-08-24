@@ -89,8 +89,35 @@ ADITIV: OK — tot conținutul vechi e neschimbat, doar adaugiri.
 Bateria locală trece integral: JSON valid pe toate cele 60 de module + index; `verifica-continut`
 — *60 module, 1152 lecții, structură validă*; index regenerat și `git diff` curat (continut.json
 și MODULE sincronizate); `versiuni.json` v07 ↔ CACHE 11; `node --check` pe JS; CSS; vault fără
-legături rupte. Nu s-a atins codul aplicației (JS/CSS/HTML), deci comportamentul UI rămâne cel
-verificat la v06.
+legături rupte. `test-sw.mjs` (SW activ): exact o reîncărcare la trecerea pe v11, 60 de carduri,
+zero erori. Smoke propriu de conținut (Playwright, headless_shell): 84 de combinații rută × lățime
+× temă pe modulele mari — fără derulare orizontală, conținut randat. Nu s-a atins codul aplicației
+(JS/CSS/HTML), deci comportamentul UI rămâne cel verificat la v06.
+
+### Echipa de agenți și o constatare corectată
+
+- **`verificator-ui`** — verdict curat, **154 de capturi** (320–1440px + peisaj, ambele teme, 11 rute):
+  zero derulare orizontală, zero ținte sub 44px, zero overflow de text sau tabel (inclusiv la 320px).
+  Riscul principal al listelor lungi — **separarea pe semestre** — e corect: ecranul de materie
+  grupează capitolele pe semestru indiferent de ordinea lor din fișier (capitolele noi sunt la coadă
+  și alternează semestrele). Numărătorile din UI reflectă noul total (Acasă: „0/1152 lecții").
+- **`verificator-cod`** — curat pe toate blocantele (toți verificatorii CI trec, sincronizări bune,
+  conținut nou real; a reconfirmat că toate cele 1294 de întrebări vechi de teză sunt byte-identice).
+  O constatare reală, neblocantă: **întrebări duplicate în interiorul unor teze** — 10 perechi în 7
+  module (comunism-13, filosofie-13, geografie-12, geografie-13, religie-12, religie-13, romana-12).
+
+> [!warning] Cauza și corecția
+> La extinderea tezelor cu 6 întrebări am adăugat, în câteva cazuri, o întrebare care repeta una
+> deja prezentă în aceeași teză. Teza se dă întreagă și amestecată, deci elevul ar fi putut primi
+> aceeași întrebare de două ori în aceeași probă. Am înlocuit **fiecare a doua apariție** (cea
+> adăugată) cu o întrebare nouă, distinctă, din materialul modulului; prima apariție (cea veche)
+> rămâne neatinsă, deci **aditivitatea se păstrează**. Detector pe toate cele 60 de module: **0
+> duplicate** după corecție.
+
+> [!note] Clasa de defect, nu doar instanța
+> `verifica-continut.mjs` nu prindea enunțurile de teză identice, deci problema ar fi trecut prin CI.
+> Am adăugat regula: teza cu două enunțuri identice (după normalizare) e acum eroare de validare.
+> Toate cele 60 de module trec cu noua regulă; un test sintetic confirmă că regula chiar declanșează.
 
 > [!info] Divergență la push (graphify)
 > Workflow-ul `graphify.yml` regenerează jumătatea de conținut a vaultului la fiecare push în

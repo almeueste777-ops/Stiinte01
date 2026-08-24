@@ -101,7 +101,18 @@ for (const f of fisiere) {
     if (!t) { erori.push(`${f}: lipsește teza pentru semestrul ${s}`); continue; }
     if (!Array.isArray(t.test) || t.test.length < 8)
       erori.push(`${f} › teza sem. ${s}: sub 8 întrebări`);
-    else t.test.forEach((q, i) => verificaIntrebare(q, `${f} › teza sem. ${s} › întrebarea ${i + 1}`));
+    else {
+      t.test.forEach((q, i) => verificaIntrebare(q, `${f} › teza sem. ${s} › întrebarea ${i + 1}`));
+      /* Teza se dă întreagă, amestecată: aceeași întrebare de două ori irosește un
+         item și degradează proba. Enunțuri identice (după normalizare) = eroare. */
+      const vazute = new Map();
+      t.test.forEach((q, i) => {
+        const cheie = String(q.intrebare || '').toLowerCase().replace(/\s+/g, ' ').trim();
+        if (cheie && vazute.has(cheie))
+          erori.push(`${f} › teza sem. ${s}: întrebare duplicată (poz. ${vazute.get(cheie) + 1} și ${i + 1})`);
+        else vazute.set(cheie, i);
+      });
+    }
   }
   for (const t of teze)
     if (!semestre.has(t.semestru)) erori.push(`${f}: teză pentru semestrul ${t.semestru}, care nu are capitole`);
