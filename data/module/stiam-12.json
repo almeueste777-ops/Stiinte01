@@ -792,12 +792,694 @@
      ]
     }
    ]
+  },
+  {
+   "id": "sti12-c4",
+   "titlu": "Sănătate și prevenție",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "sti12-10",
+     "titlu": "Sistemul imunitar și bolile",
+     "rezumat": "Corpul se apără de agenți patogeni (bacterii, virusuri, ciuperci, paraziți) prin sistemul imunitar. Prima linie de apărare o formează barierele: pielea, mucoasele, aciditatea. Dacă un agent pătrunde, imunitatea înnăscută reacționează rapid și nespecific (inflamația, celulele care „înghit” intrușii). Imunitatea dobândită (specifică) recunoaște un anumit agent prin antigene și produce anticorpi și celule de memorie; datorită memoriei imunitare, la o a doua întâlnire reacția e mult mai rapidă. Vaccinarea folosește acest principiu: introduce o formă inofensivă a agentului, ca sistemul imunitar să „învețe” fără boală. Bolile pot fi infecțioase (transmise de agenți) sau neinfecțioase (cardiovasculare, diabet, cancer). Prevenția — igienă, vaccinare, alimentație, mișcare — e mai eficientă și mai ieftină decât tratarea.",
+     "ideiCheie": [
+      "Bariere (piele, mucoase) + imunitate înnăscută (rapidă, nespecifică).",
+      "Imunitatea dobândită: anticorpi și memorie, specifice unui agent.",
+      "Vaccinarea antrenează imunitatea fără a produce boala.",
+      "Boli infecțioase vs. neinfecțioase; prevenția e cheia."
+     ],
+     "termeni": [
+      {
+       "t": "sistem imunitar",
+       "d": "ansamblul mecanismelor prin care corpul se apără de agenți patogeni"
+      },
+      {
+       "t": "vaccinare",
+       "d": "introducerea unei forme inofensive a unui agent pentru a antrena imunitatea"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care e prima linie de apărare a corpului?",
+       "v": "Barierele: pielea, mucoasele, aciditatea."
+      },
+      {
+       "f": "Ce produce imunitatea dobândită?",
+       "v": "Anticorpi și celule de memorie, specifice unui agent."
+      },
+      {
+       "f": "Pe ce principiu se bazează vaccinarea?",
+       "v": "Pe memoria imunitară: corpul „învață” fără boală."
+      },
+      {
+       "f": "Ce tipuri de boli există?",
+       "v": "Infecțioase și neinfecțioase."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Vaccinarea funcționează pentru că:",
+       "optiuni": [
+        "antrenează imunitatea fără a produce boala",
+        "omoară toți microbii din corp",
+        "înlocuiește igiena",
+        "vindecă orice boală"
+       ],
+       "corect": 0,
+       "explicatie": "Se bazează pe memoria imunitară."
+      },
+      {
+       "intrebare": "Imunitatea dobândită este:",
+       "optiuni": [
+        "specifică unui anumit agent",
+        "rapidă și nespecifică",
+        "doar o barieră fizică",
+        "lipsită de memorie"
+       ],
+       "corect": 0,
+       "explicatie": "Ea produce anticorpi și memorie."
+      },
+      {
+       "intrebare": "O boală neinfecțioasă este:",
+       "optiuni": [
+        "diabetul",
+        "gripa",
+        "tuberculoza",
+        "rujeola"
+       ],
+       "corect": 0,
+       "explicatie": "Cele infecțioase sunt transmise de agenți."
+      },
+      {
+       "intrebare": "Prima linie de apărare a corpului este:",
+       "optiuni": [
+        "pielea și mucoasele",
+        "anticorpii",
+        "celulele de memorie",
+        "vaccinul"
+       ],
+       "corect": 0,
+       "explicatie": "Ele împiedică pătrunderea agenților."
+      }
+     ]
+    },
+    {
+     "id": "sti12-11",
+     "titlu": "Substanțe, dependențe și efecte asupra corpului",
+     "rezumat": "Multe substanțe influențează corpul și mintea, unele cu risc de dependență. Dependența este nevoia repetată de o substanță, în ciuda efectelor dăunătoare; ea are o componentă fizică (organismul se obișnuiește) și una psihică. Tutunul conține nicotină (dependență puternică) și substanțe cancerigene, afectând plămânii și inima. Alcoolul acționează asupra sistemului nervos, scade reflexele și judecata, iar consumul cronic afectează ficatul și creierul. Drogurile ilegale au efecte grave și imprevizibile. Chiar și substanțe legale (cofeina, zahărul în exces) sau comportamente (jocurile, ecranele) pot crea obișnuință. Corpul are mecanisme de eliminare (ficatul, rinichii), dar ele pot fi depășite. Informarea corectă, evitarea și cererea de ajutor sunt cele mai bune apărări; presiunea grupului e un factor de risc frecvent la adolescenți.",
+     "ideiCheie": [
+      "Dependența = nevoia repetată de o substanță, în ciuda efectelor dăunătoare.",
+      "Are componentă fizică (obișnuință) și psihică.",
+      "Tutunul, alcoolul și drogurile afectează corpul și mintea.",
+      "Prevenția: informare, evitare, rezistență la presiunea grupului."
+     ],
+     "termeni": [
+      {
+       "t": "dependență",
+       "d": "nevoia repetată de o substanță sau un comportament, în ciuda efectelor dăunătoare"
+      },
+      {
+       "t": "substanță psihoactivă",
+       "d": "substanță care modifică funcționarea sistemului nervos"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este dependența?",
+       "v": "Nevoia repetată de o substanță, în ciuda efectelor dăunătoare."
+      },
+      {
+       "f": "Ce substanță din tutun creează dependență?",
+       "v": "Nicotina."
+      },
+      {
+       "f": "Cum acționează alcoolul asupra corpului?",
+       "v": "Asupra sistemului nervos: scade reflexele și judecata."
+      },
+      {
+       "f": "Ce factor de risc e frecvent la adolescenți?",
+       "v": "Presiunea grupului."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Dependența are:",
+       "optiuni": [
+        "o componentă fizică și una psihică",
+        "doar o componentă fizică",
+        "doar una imaginară",
+        "niciun efect real"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea e greu de învins singur."
+      },
+      {
+       "intrebare": "Substanța din tutun care creează dependență este:",
+       "optiuni": [
+        "nicotina",
+        "vitamina C",
+        "calciul",
+        "glucoza"
+       ],
+       "corect": 0,
+       "explicatie": "Tutunul conține și substanțe cancerigene."
+      },
+      {
+       "intrebare": "Alcoolul acționează în primul rând asupra:",
+       "optiuni": [
+        "sistemului nervos",
+        "oaselor",
+        "părului",
+        "unghiilor"
+       ],
+       "corect": 0,
+       "explicatie": "Scade reflexele și judecata."
+      },
+      {
+       "intrebare": "O apărare bună împotriva dependențelor este:",
+       "optiuni": [
+        "informarea și rezistența la presiunea grupului",
+        "încercarea „o singură dată”",
+        "ascunderea problemei",
+        "ignorarea riscurilor"
+       ],
+       "corect": 0,
+       "explicatie": "Cererea de ajutor e un semn de putere."
+      }
+     ]
+    },
+    {
+     "id": "sti12-12",
+     "titlu": "Sănătatea mintală și stilul de viață",
+     "rezumat": "Sănătatea nu e doar absența bolii, ci și starea de bine fizică, mintală și socială. Sănătatea mintală înseamnă capacitatea de a face față stresului, de a lucra și de a menține relații; ea poate fi întreținută prin somn suficient, mișcare, alimentație echilibrată, relații bune și pauze de la ecrane. Stresul, în doze mici, e util (ne mobilizează), dar cronic devine dăunător (afectează somnul, imunitatea, dispoziția). Emoțiile sunt normale; problema apare când sunt copleșitoare și de durată. A cere ajutor — unui adult de încredere, unui specialist — nu e un semn de slăbiciune. Stilul de viață sănătos combină echilibrul dintre efort și odihnă, hrană bună, activitate fizică și legături sociale, iar micile obiceiuri zilnice, repetate, au un efect mult mai mare decât deciziile mari și rare.",
+     "ideiCheie": [
+      "Sănătatea = bine fizic, mintal și social, nu doar absența bolii.",
+      "Sănătatea mintală se întreține prin somn, mișcare, relații, pauze de la ecrane.",
+      "Stresul mic e util; cel cronic e dăunător.",
+      "A cere ajutor nu e o slăbiciune; obiceiurile mici, repetate, contează cel mai mult."
+     ],
+     "termeni": [
+      {
+       "t": "sănătate mintală",
+       "d": "starea de bine psihic, capacitatea de a face față stresului și de a menține relații"
+      },
+      {
+       "t": "stres cronic",
+       "d": "stres prelungit, care dăunează somnului, imunității și dispoziției"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce înseamnă sănătatea, după definiția largă?",
+       "v": "Starea de bine fizică, mintală și socială."
+      },
+      {
+       "f": "Cum se întreține sănătatea mintală?",
+       "v": "Prin somn, mișcare, relații și pauze de la ecrane."
+      },
+      {
+       "f": "Când devine stresul dăunător?",
+       "v": "Când e cronic (prelungit)."
+      },
+      {
+       "f": "Ce are efectul cel mai mare asupra sănătății?",
+       "v": "Obiceiurile mici, repetate zilnic."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Sănătatea este, după definiția largă:",
+       "optiuni": [
+        "starea de bine fizică, mintală și socială",
+        "doar absența bolii",
+        "doar forma fizică",
+        "doar starea psihică"
+       ],
+       "corect": 0,
+       "explicatie": "Include mai multe dimensiuni."
+      },
+      {
+       "intrebare": "Stresul devine dăunător când:",
+       "optiuni": [
+        "este cronic (prelungit)",
+        "apare o singură dată",
+        "ne mobilizează scurt",
+        "este mic"
+       ],
+       "corect": 0,
+       "explicatie": "Cel mic, ocazional, e util."
+      },
+      {
+       "intrebare": "A cere ajutor la o problemă emoțională:",
+       "optiuni": [
+        "nu este un semn de slăbiciune",
+        "trebuie evitat",
+        "înrăutățește situația",
+        "e inutil"
+       ],
+       "corect": 0,
+       "explicatie": "Un adult de încredere sau un specialist pot ajuta."
+      },
+      {
+       "intrebare": "Cel mai mare efect asupra sănătății îl au:",
+       "optiuni": [
+        "obiceiurile mici, repetate zilnic",
+        "deciziile mari și rare",
+        "soluțiile de o zi",
+        "suplimentele scumpe"
+       ],
+       "corect": 0,
+       "explicatie": "Constanța contează mai mult."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sti12-c5",
+   "titlu": "Mediu și resurse",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "sti12-13",
+     "titlu": "Schimbările climatice și energia",
+     "rezumat": "Clima Pământului se schimbă din cauza intensificării efectului de seră. Gaze precum dioxidul de carbon și metanul rețin căldura în atmosferă; arderea combustibililor fosili (cărbune, petrol, gaz), defrișările și agricultura intensivă cresc concentrația lor, ridicând temperatura medie globală. Efectele: topirea ghețarilor, creșterea nivelului oceanic, valuri de căldură, secete și furtuni mai intense, perturbarea ecosistemelor. Soluțiile țin de energie și de comportament: trecerea la surse regenerabile (solară, eoliană, hidro), creșterea eficienței energetice, transportul curat, reducerea risipei, reîmpădurirea. Deciziile individuale (consum responsabil) și cele colective (politici, acorduri internaționale ca Acordul de la Paris) se completează. Dezvoltarea durabilă caută să satisfacă nevoile prezentului fără a compromite generațiile viitoare.",
+     "ideiCheie": [
+      "Intensificarea efectului de seră (CO₂, metan) ridică temperatura globală.",
+      "Cauze: arderea combustibililor fosili, defrișările, agricultura intensivă.",
+      "Soluții: surse regenerabile, eficiență energetică, reducerea risipei.",
+      "Acțiunea individuală și cea colectivă (politici, acorduri) se completează."
+     ],
+     "termeni": [
+      {
+       "t": "efect de seră",
+       "d": "reținerea căldurii în atmosferă de către anumite gaze (CO₂, metan)"
+      },
+      {
+       "t": "energie regenerabilă",
+       "d": "energie din surse care nu se epuizează (solară, eoliană, hidro)"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce intensifică schimbările climatice actuale?",
+       "v": "Efectul de seră, prin gaze ca CO₂ și metanul."
+      },
+      {
+       "f": "Care e sursa dominantă a emisiilor?",
+       "v": "Arderea combustibililor fosili."
+      },
+      {
+       "f": "Numește o sursă de energie regenerabilă.",
+       "v": "Solară (sau eoliană, hidro)."
+      },
+      {
+       "f": "Ce înseamnă dezvoltarea durabilă?",
+       "v": "Satisfacerea prezentului fără a compromite viitorul."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Cauza principală a încălzirii globale actuale este:",
+       "optiuni": [
+        "intensificarea efectului de seră prin activități umane",
+        "creșterea radiației solare",
+        "erupțiile vulcanice",
+        "schimbarea orbitei Pământului"
+       ],
+       "corect": 0,
+       "explicatie": "Arderea combustibililor fosili domină."
+      },
+      {
+       "intrebare": "O sursă de energie regenerabilă este:",
+       "optiuni": [
+        "energia eoliană",
+        "cărbunele",
+        "petrolul",
+        "gazul natural"
+       ],
+       "corect": 0,
+       "explicatie": "Ele nu se epuizează."
+      },
+      {
+       "intrebare": "Un efect al schimbărilor climatice este:",
+       "optiuni": [
+        "topirea ghețarilor și creșterea nivelului oceanic",
+        "răcirea globală",
+        "oprirea vânturilor",
+        "dispariția atmosferei"
+       ],
+       "corect": 0,
+       "explicatie": "Plus valuri de căldură și secete."
+      },
+      {
+       "intrebare": "Dezvoltarea durabilă înseamnă:",
+       "optiuni": [
+        "nevoile prezentului fără a compromite viitorul",
+        "exploatarea maximă a resurselor",
+        "oprirea oricărei dezvoltări",
+        "renunțarea la energie"
+       ],
+       "corect": 0,
+       "explicatie": "Îmbină economic, social și ecologic."
+      }
+     ]
+    },
+    {
+     "id": "sti12-14",
+     "titlu": "Apa, deșeurile și economia circulară",
+     "rezumat": "Apa dulce accesibilă e o resursă limitată (sub 1% din apa Pământului) și inegal distribuită, de aceea folosirea ei chibzuită și tratarea apelor uzate sunt esențiale. Deșeurile sunt o problemă crescândă: cele plastice se descompun greu și poluează oceanele, formând insule de gunoi. Modelul clasic „iau — folosesc — arunc” (economie liniară) risipește resurse; alternativa e economia circulară, care urmărește reducerea (mai puțin consum), reutilizarea (folosirea din nou) și reciclarea (transformarea deșeului în materie primă) — cei „3R”, la care se adaugă repararea și refolosirea. Colectarea selectivă face reciclarea posibilă, iar compostarea transformă deșeurile organice în îngrășământ. Fiecare alegere de consum are un cost de mediu; reducerea risipei e adesea mai eficientă decât reciclarea a ceea ce nici nu trebuia produs.",
+     "ideiCheie": [
+      "Apa dulce accesibilă e limitată (sub 1%) și inegal distribuită.",
+      "Deșeurile plastice se descompun greu și poluează oceanele.",
+      "Economia circulară: reducere, reutilizare, reciclare (3R).",
+      "Colectarea selectivă și compostarea reduc risipa."
+     ],
+     "termeni": [
+      {
+       "t": "economie circulară",
+       "d": "model care reduce, reutilizează și reciclează, în loc să arunce"
+      },
+      {
+       "t": "colectare selectivă",
+       "d": "separarea deșeurilor pe categorii, pentru a permite reciclarea"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cât din apa Pământului e dulce și ușor accesibilă?",
+       "v": "Sub 1%."
+      },
+      {
+       "f": "Care sunt cei „3R” ai economiei circulare?",
+       "v": "Reducere, reutilizare, reciclare."
+      },
+      {
+       "f": "Ce face posibilă reciclarea?",
+       "v": "Colectarea selectivă a deșeurilor."
+      },
+      {
+       "f": "Ce transformă compostarea?",
+       "v": "Deșeurile organice în îngrășământ."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Cei „3R” ai economiei circulare sunt:",
+       "optiuni": [
+        "reducere, reutilizare, reciclare",
+        "rapiditate, risipă, refuz",
+        "repetare, revenire, retur",
+        "răcire, radiere, reacție"
+       ],
+       "corect": 0,
+       "explicatie": "Se adaugă repararea și refolosirea."
+      },
+      {
+       "intrebare": "Apa dulce ușor accesibilă reprezintă:",
+       "optiuni": [
+        "sub 1% din apa Pământului",
+        "50%",
+        "25%",
+        "10%"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea trebuie folosită chibzuit."
+      },
+      {
+       "intrebare": "Colectarea selectivă servește la:",
+       "optiuni": [
+        "a face posibilă reciclarea",
+        "a mări cantitatea de deșeuri",
+        "a polua oceanele",
+        "a arde plasticul"
+       ],
+       "corect": 0,
+       "explicatie": "Separă deșeurile pe categorii."
+      },
+      {
+       "intrebare": "Cea mai eficientă măsură este adesea:",
+       "optiuni": [
+        "reducerea risipei",
+        "reciclarea a tot ce se produce",
+        "arderea deșeurilor",
+        "îngroparea lor"
+       ],
+       "corect": 0,
+       "explicatie": "Ce nu produci nu trebuie reciclat."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sti12-c6",
+   "titlu": "Știință, tehnologie și gândire critică",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "sti12-15",
+     "titlu": "Progresul tehnologic și etica",
+     "rezumat": "Știința și tehnologia au transformat viața: medicină, comunicații, transport, energie, informație. Progresul aduce beneficii uriașe, dar și dileme etice și riscuri. Aceeași descoperire poate fi folosită în bine sau în rău (energia nucleară — centrale sau arme). Tehnologiile noi ridică întrebări: confidențialitatea datelor, decizii luate de algoritmi, efectele automatizării asupra locurilor de muncă, ingineria genetică, dependența de ecrane. Principiul precauției cere prudență când efectele pe termen lung nu sunt cunoscute. Știința descrie ce se poate face; etica și societatea decid ce ar trebui făcut. Un cetățean informat participă la aceste decizii, cântărind beneficiile și riscurile, nu respingând și nici acceptând orbește tehnologia. Responsabilitatea însoțește puterea pe care o dă cunoașterea.",
+     "ideiCheie": [
+      "Tehnologia aduce beneficii mari, dar și dileme etice și riscuri.",
+      "Aceeași descoperire poate fi folosită în bine sau în rău.",
+      "Întrebări: date personale, algoritmi, automatizare, inginerie genetică.",
+      "Știința arată ce se poate; etica și societatea decid ce ar trebui."
+     ],
+     "termeni": [
+      {
+       "t": "etică a tehnologiei",
+       "d": "reflecția asupra a ceea ce ar trebui făcut cu puterea dată de tehnologie"
+      },
+      {
+       "t": "principiul precauției",
+       "d": "prudența în fața tehnologiilor ale căror efecte pe termen lung nu sunt cunoscute"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "De ce ridică tehnologia dileme etice?",
+       "v": "Aceeași descoperire poate fi folosită în bine sau în rău."
+      },
+      {
+       "f": "Ce cere principiul precauției?",
+       "v": "Prudență când efectele pe termen lung nu sunt cunoscute."
+      },
+      {
+       "f": "Ce decide știința și ce decide societatea?",
+       "v": "Știința — ce se poate; etica și societatea — ce ar trebui."
+      },
+      {
+       "f": "Ce însoțește puterea dată de cunoaștere?",
+       "v": "Responsabilitatea."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "O trăsătură a multor descoperiri științifice este că:",
+       "optiuni": [
+        "pot fi folosite în bine sau în rău",
+        "au doar efecte bune",
+        "au doar efecte rele",
+        "nu influențează societatea"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea contează etica folosirii."
+      },
+      {
+       "intrebare": "Principiul precauției cere:",
+       "optiuni": [
+        "prudență când efectele pe termen lung sunt necunoscute",
+        "respingerea oricărei tehnologii",
+        "acceptarea oricărei tehnologii",
+        "ignorarea riscurilor"
+       ],
+       "corect": 0,
+       "explicatie": "Nu blochează progresul, îl temperează."
+      },
+      {
+       "intrebare": "Știința stabilește:",
+       "optiuni": [
+        "ce se poate face",
+        "ce ar trebui făcut, moral",
+        "ce e frumos",
+        "ce e legal"
+       ],
+       "corect": 0,
+       "explicatie": "Ce ar trebui făcut decid etica și societatea."
+      },
+      {
+       "intrebare": "O întrebare etică ridicată de tehnologiile noi este:",
+       "optiuni": [
+        "confidențialitatea datelor personale",
+        "viteza luminii",
+        "forma atomilor",
+        "masa unui gaz"
+       ],
+       "corect": 0,
+       "explicatie": "Alături de automatizare și inginerie genetică."
+      }
+     ]
+    },
+    {
+     "id": "sti12-16",
+     "titlu": "Gândirea critică și pseudoștiința",
+     "rezumat": "Gândirea critică înseamnă a evalua afirmațiile pe baza dovezilor și a raționamentului, nu a autorității sau a emoției. O afirmație științifică e testabilă, poate fi infirmată (falsifiabilă) și e susținută de dovezi verificabile și reproductibile. Pseudoștiința imită știința, dar îi lipsesc dovezile solide, testarea și deschiderea la infirmare: horoscopul, teoriile conspirației, „remediile miraculoase”. Semnale de alarmă: afirmații extraordinare fără dovezi, respingerea criticii, apelul la „secrete” sau la o singură sursă, confuzia dintre corelație și cauzalitate. Instrumente ale gândirii critice: a întreba ce dovezi există, a căuta surse independente, a distinge faptul de opinie, a recunoaște erorile de argumentare. Într-o lume plină de informație și de dezinformare, gândirea critică e o competență de supraviețuire; ea nu înseamnă neîncredere în tot, ci cerința de dovezi pe măsura afirmației.",
+     "ideiCheie": [
+      "Gândirea critică evaluează pe baza dovezilor și a raționamentului.",
+      "O afirmație științifică e testabilă și falsifiabilă.",
+      "Pseudoștiința imită știința, dar fără dovezi, testare și deschidere la infirmare.",
+      "Corelația nu înseamnă cauzalitate; se cer dovezi pe măsura afirmației."
+     ],
+     "termeni": [
+      {
+       "t": "gândire critică",
+       "d": "evaluarea afirmațiilor pe baza dovezilor și a raționamentului"
+      },
+      {
+       "t": "falsifiabilitate",
+       "d": "proprietatea unei afirmații științifice de a putea fi infirmată prin dovezi"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce înseamnă gândirea critică?",
+       "v": "Evaluarea afirmațiilor pe baza dovezilor și a raționamentului."
+      },
+      {
+       "f": "Ce proprietate are o afirmație științifică?",
+       "v": "E testabilă și falsifiabilă."
+      },
+      {
+       "f": "Prin ce se recunoaște pseudoștiința?",
+       "v": "Imită știința, dar fără dovezi și fără deschidere la infirmare."
+      },
+      {
+       "f": "Corelația implică automat cauzalitate?",
+       "v": "Nu; corelația nu înseamnă cauzalitate."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "O afirmație științifică:",
+       "optiuni": [
+        "este testabilă și poate fi infirmată",
+        "nu poate fi verificată niciodată",
+        "se bazează pe autoritate",
+        "nu are nevoie de dovezi"
+       ],
+       "corect": 0,
+       "explicatie": "Falsifiabilitatea o deosebește de pseudoștiință."
+      },
+      {
+       "intrebare": "Un semnal de pseudoștiință este:",
+       "optiuni": [
+        "afirmații extraordinare fără dovezi",
+        "publicarea metodei",
+        "reproducerea rezultatelor",
+        "deschiderea la critică"
+       ],
+       "corect": 0,
+       "explicatie": "Alături de respingerea criticii."
+      },
+      {
+       "intrebare": "„Corelația nu înseamnă cauzalitate” avertizează că:",
+       "optiuni": [
+        "două lucruri care apar împreună nu se cauzează neapărat",
+        "nimic nu are cauze",
+        "corelația e mereu falsă",
+        "știința e inutilă"
+       ],
+       "corect": 0,
+       "explicatie": "Trebuie dovedită legătura cauzală."
+      },
+      {
+       "intrebare": "Gândirea critică înseamnă:",
+       "optiuni": [
+        "a cere dovezi pe măsura afirmației",
+        "a nu crede în nimic",
+        "a crede tot ce se spune",
+        "a te baza pe emoție"
+       ],
+       "corect": 0,
+       "explicatie": "Nu e neîncredere în tot, ci exigență."
+      }
+     ]
+    }
+   ]
   }
  ],
  "teze": [
   {
    "semestru": 1,
    "test": [
+    {
+     "intrebare": "Vaccinarea funcționează pentru că:",
+     "optiuni": [
+      "antrenează imunitatea fără a produce boala",
+      "omoară toți microbii",
+      "înlocuiește igiena",
+      "vindecă orice boală"
+     ],
+     "corect": 0,
+     "explicatie": "Se bazează pe memoria imunitară."
+    },
+    {
+     "intrebare": "Dependența are:",
+     "optiuni": [
+      "o componentă fizică și una psihică",
+      "doar una fizică",
+      "doar una imaginară",
+      "niciun efect real"
+     ],
+     "corect": 0,
+     "explicatie": "De aceea e greu de învins singur."
+    },
+    {
+     "intrebare": "Sănătatea, după definiția largă, este:",
+     "optiuni": [
+      "starea de bine fizică, mintală și socială",
+      "doar absența bolii",
+      "doar forma fizică",
+      "doar starea psihică"
+     ],
+     "corect": 0,
+     "explicatie": "Include mai multe dimensiuni."
+    },
+    {
+     "intrebare": "Cauza principală a încălzirii globale actuale este:",
+     "optiuni": [
+      "intensificarea efectului de seră prin activități umane",
+      "creșterea radiației solare",
+      "vulcanismul",
+      "schimbarea orbitei"
+     ],
+     "corect": 0,
+     "explicatie": "Arderea combustibililor fosili domină."
+    },
+    {
+     "intrebare": "O sursă de energie regenerabilă este:",
+     "optiuni": [
+      "energia solară",
+      "cărbunele",
+      "petrolul",
+      "gazul"
+     ],
+     "corect": 0,
+     "explicatie": "Ele nu se epuizează."
+    },
+    {
+     "intrebare": "Stresul devine dăunător când:",
+     "optiuni": [
+      "este cronic (prelungit)",
+      "apare o singură dată",
+      "ne mobilizează scurt",
+      "este mic"
+     ],
+     "corect": 0,
+     "explicatie": "Cel ocazional e util."
+    },
     {
      "intrebare": "Macronutrienții sunt:",
      "optiuni": [

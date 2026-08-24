@@ -2,10 +2,10 @@
   "version": "03",
   "actualizat": "2026-08-24",
   "nrModule": 60,
-  "nrLectii": 1145,
-  "nrCarduri": 4580,
-  "nrIntrebari": 4580,
-  "nrIntrebariTeze": 1936,
+  "nrLectii": 1152,
+  "nrCarduri": 4608,
+  "nrIntrebari": 4608,
+  "nrIntrebariTeze": 1942,
   "module": [
     {
       "id": "geografie-9",
@@ -7107,10 +7107,10 @@
       "bac": false,
       "socioUman": false,
       "descriere": "Științe integrate: sănătate și corp, tehnologie și societate, mediu și resurse, gândire critică aplicată.",
-      "nrLectii": 9,
-      "nrCarduri": 36,
-      "nrIntrebari": 36,
-      "nrIntrebariTeze": 18,
+      "nrLectii": 16,
+      "nrCarduri": 64,
+      "nrIntrebari": 64,
+      "nrIntrebariTeze": 24,
       "capitole": [
         {
           "id": "sti12-c1",
@@ -7168,12 +7168,61 @@
               "titlu": "Gândire critică aplicată"
             }
           ]
+        },
+        {
+          "id": "sti12-c4",
+          "titlu": "Sănătate și prevenție",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "sti12-10",
+              "titlu": "Sistemul imunitar și bolile"
+            },
+            {
+              "id": "sti12-11",
+              "titlu": "Substanțe, dependențe și efecte asupra corpului"
+            },
+            {
+              "id": "sti12-12",
+              "titlu": "Sănătatea mintală și stilul de viață"
+            }
+          ]
+        },
+        {
+          "id": "sti12-c5",
+          "titlu": "Mediu și resurse",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "sti12-13",
+              "titlu": "Schimbările climatice și energia"
+            },
+            {
+              "id": "sti12-14",
+              "titlu": "Apa, deșeurile și economia circulară"
+            }
+          ]
+        },
+        {
+          "id": "sti12-c6",
+          "titlu": "Știință, tehnologie și gândire critică",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "sti12-15",
+              "titlu": "Progresul tehnologic și etica"
+            },
+            {
+              "id": "sti12-16",
+              "titlu": "Gândirea critică și pseudoștiința"
+            }
+          ]
         }
       ],
       "teze": [
         {
           "semestru": 1,
-          "nrIntrebari": 9
+          "nrIntrebari": 15
         },
         {
           "semestru": 2,
