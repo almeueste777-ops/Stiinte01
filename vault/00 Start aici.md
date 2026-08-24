@@ -73,7 +73,7 @@ Vault-ul are **două jumătăți**, în același folder:
 - [[Religie (clasa a XII-a)|Religie (clasa a XII-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
 - [[Studii sociale (clasa a XII-a)|Studii sociale (clasa a XII-a)]] — 6 capitole, 18 lecții, 72 carduri, 108 întrebări
 - [[Limba modernă 1 (Engleză) (clasa a XII-a)|Limba modernă 1 (Engleză) (clasa a XII-a)]] — 6 capitole, 18 lecții, 72 carduri, 96 întrebări
-- [[Limba modernă 2 (Franceză) (clasa a XII-a)|Limba modernă 2 (Franceză) (clasa a XII-a)]] — 3 capitole, 9 lecții, 36 carduri, 54 întrebări
+- [[Limba modernă 2 (Franceză) (clasa a XII-a)|Limba modernă 2 (Franceză) (clasa a XII-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
 - [[Limba și literatura română (clasa a XII-a)|Limba și literatura română (clasa a XII-a)]] — 9 capitole, 20 lecții, 80 carduri, 117 întrebări
 - [[Matematică aplicată în științele sociale (clasa a XII-a)|Matematică aplicată în științele sociale (clasa a XII-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
 - [[ȘTIAM (științe integrate) (clasa a XII-a)|ȘTIAM (științe integrate) (clasa a XII-a)]] — 3 capitole, 9 lecții, 36 carduri, 54 întrebări
@@ -97,8 +97,8 @@ Vault-ul are **două jumătăți**, în același folder:
 | Clase | 5 |
 | Materii distincte | 23 |
 | Module (materie × an) | 60 |
-| Capitole | 394 |
-| Lecții | 1106 |
-| Carduri | 4424 |
-| Întrebări de test | 6300 |
-| Note în vault | 1324 |
+| Capitole | 397 |
+| Lecții | 1115 |
+| Carduri | 4460 |
+| Întrebări de test | 6348 |
+| Note în vault | 1333 |

@@ -20,7 +20,7 @@ cssclasses: fisa
 
 Sintaxa frazei complexe, nuanțele lexicale, texte de specialitate și teme de dezbatere contemporană.
 
-## Capitole (3)
+## Capitole (6)
 
 ### Fraza complexă — semestrul 1
 
@@ -40,9 +40,27 @@ Sintaxa frazei complexe, nuanțele lexicale, texte de specialitate și teme de d
 - [[Tehnologie, muncă, societate]]
 - [[Mobilitate, studii, interculturalitate]]
 
+### Timpuri și moduri verbale — semestrul 1
+
+- [[Subjonctivul - forme și folosire]]
+- [[Condiționalul și fraza ipotetică]]
+- [[Concordanța timpurilor și discursul indirect]]
+
+### Lexic și exprimare — semestrul 2
+
+- [[Pronumele - complemente, y, en, relative]]
+- [[Exprimarea opiniei și argumentarea]]
+- [[Registrele de limbă și expresiile idiomatice]]
+
+### Texte și teme contemporane — semestrul 2
+
+- [[Textul argumentativ]]
+- [[Francofonia]]
+- [[Teme de dezbatere contemporane]]
+
 ## Exersare
-- [[Carduri - Limba modernă 2 (Franceză) (clasa a XII-a)]] — 36 carduri
-- [[Test - Limba modernă 2 (Franceză) (clasa a XII-a)]] — 54 întrebări
+- [[Carduri - Limba modernă 2 (Franceză) (clasa a XII-a)]] — 72 carduri
+- [[Test - Limba modernă 2 (Franceză) (clasa a XII-a)]] — 102 întrebări
 
 ## Legături
 - [[Limba modernă 2 (Franceză)|Limba modernă 2 (Franceză)]]

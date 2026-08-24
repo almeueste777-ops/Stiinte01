@@ -40,7 +40,7 @@ graph LR
   C2 --> A2_2
   A2_3["Tehnologii<br/>1 materii"]
   C2 --> A2_3
-  C3["Clasa a XII-a<br/>11 materii · 187 lecții"]
+  C3["Clasa a XII-a<br/>11 materii · 196 lecții"]
   P --> C3
   A3_0["Limbă și comunicare<br/>3 materii"]
   C3 --> A3_0
@@ -117,7 +117,7 @@ graph LR
 - [[Religie (clasa a XII-a)|Religie]] — 18 lecții
 - [[Studii sociale (clasa a XII-a)|Studii sociale]] — 18 lecții
 - [[Limba modernă 1 (Engleză) (clasa a XII-a)|Limba modernă 1 (Engleză)]] — 18 lecții
-- [[Limba modernă 2 (Franceză) (clasa a XII-a)|Limba modernă 2 (Franceză)]] — 9 lecții
+- [[Limba modernă 2 (Franceză) (clasa a XII-a)|Limba modernă 2 (Franceză)]] — 18 lecții
 - [[Limba și literatura română (clasa a XII-a)|Limba și literatura română]] — 20 lecții
 - [[Matematică aplicată în științele sociale (clasa a XII-a)|Matematică aplicată în științele sociale]] — 18 lecții
 - [[ȘTIAM (științe integrate) (clasa a XII-a)|ȘTIAM (științe integrate)]] — 9 lecții

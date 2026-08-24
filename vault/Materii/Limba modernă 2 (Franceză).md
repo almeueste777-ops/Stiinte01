@@ -16,7 +16,7 @@ cssclasses: fisa
 - [[Limba modernă 2 (Franceză) (clasa a IX-a)|Clasa a IX-a]] — 18 lecții, 72 carduri, 108 întrebări
 - [[Limba modernă 2 (Franceză) (clasa a X-a)|Clasa a X-a]] — 18 lecții, 72 carduri, 90 întrebări
 - [[Limba modernă 2 (Franceză) (clasa a XI-a)|Clasa a XI-a]] — 18 lecții, 72 carduri, 102 întrebări
-- [[Limba modernă 2 (Franceză) (clasa a XII-a)|Clasa a XII-a]] — 9 lecții, 36 carduri, 54 întrebări
+- [[Limba modernă 2 (Franceză) (clasa a XII-a)|Clasa a XII-a]] — 18 lecții, 72 carduri, 102 întrebări
 - [[Limba modernă 2 (Franceză) (clasa a XIII-a)|Clasa a XIII-a]] — 9 lecții, 36 carduri, 54 întrebări
 
 ## Legături
