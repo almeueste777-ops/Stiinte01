@@ -350,7 +350,397 @@ Un contraexemplu este suficient pentru a respinge o afirmație universală, dar 
 - rezultate imposibil de calculat
 ! Cei care răspund diferă sistematic de cei care nu răspund.
 
+## 1 | mat10-c4 | Funcția putere, radical și trigonometrie
+### mat10-10 | Funcția putere și funcția radical
+Funcția putere are forma f de x egal cu x la puterea n, cu n număr natural nenul. Comportarea ei depinde de paritatea exponentului. Pentru exponent par, funcția este pară: graficul este simetric față de axa verticală, valorile sunt nenegative, iar forma seamănă cu a parabolei. Pentru exponent impar, funcția este impară: graficul este simetric față de origine, iar funcția ia atât valori pozitive, cât și negative.
+
+Funcția radical de ordin n este inversa funcției putere: ea „desface" ridicarea la putere. Ordinul radicalului îi impune domeniul. Radicalul de ordin par este definit numai pentru numere nenegative, pentru că nicio putere pară a unui număr real nu poate fi negativă; radicalul de ordin impar este definit pentru orice număr real. Pe domeniul numerelor nenegative, funcția radical este strict crescătoare, iar graficul ei este simetricul graficului funcției putere față de prima bisectoare, ca la orice pereche de funcții inverse.
+* Funcția putere cu exponent par este pară; cu exponent impar, impară.
+* Funcția radical este inversa funcției putere.
+* Radicalul de ordin par este definit doar pentru numere nenegative.
+* Radicalul de ordin impar este definit pentru orice număr real.
+= funcție putere :: funcția f de x egal cu x la puterea n, cu n natural nenul
+= funcție radical :: inversa funcției putere, notată cu semnul rădăcinii de ordin n
+@ Ce fel de funcție este f de x egal cu x la pătrat? :: O funcție pară, cu graficul simetric față de axa verticală.
+@ Ce fel de funcție este f de x egal cu x la cub? :: O funcție impară, cu graficul simetric față de origine.
+@ Pentru ce numere este definit radicalul de ordin par? :: Pentru numerele nenegative.
+@ Ce relație are graficul radicalului cu cel al puterii? :: Este simetricul lui față de prima bisectoare.
+? Funcția f de x egal cu x la pătrat este:
++ pară, cu graficul simetric față de axa verticală
+- impară, cu graficul simetric față de origine
+- fără simetrie
+- strict descrescătoare pe tot domeniul
+! Valorile ei sunt nenegative.
+? Funcția radical de ordin par este definită pentru:
++ numere nenegative
+- orice număr real
+- numere negative
+- numere întregi
+! O putere pară nu poate fi negativă.
+? Funcția f de x egal cu x la cub este:
++ impară, cu graficul simetric față de origine
+- pară
+- fără simetrie
+- constantă
+! Ia atât valori pozitive, cât și negative.
+? Funcția radical este inversa:
++ funcției putere
+- funcției exponențiale
+- funcției de gradul I
+- funcției logaritmice
+! De aceea „desface" ridicarea la putere.
+
+### mat10-11 | Funcții trigonometrice
+Funcțiile trigonometrice extind rapoartele din triunghiul dreptunghic la orice unghi, folosind cercul trigonometric. Funcția sinus asociază fiecărui număr real ordonata punctului corespunzător de pe cerc, iar funcția cosinus, abscisa lui. Amândouă au domeniul mulțimea tuturor numerelor reale, iar imaginea, intervalul de la minus unu la unu: valorile lor nu ies niciodată din acest interval.
+
+Sinusul și cosinusul sunt funcții periodice, cu perioada principală doi pi, pentru că valorile se reiau la fiecare rotație completă pe cerc. Funcția sinus este impară, iar funcția cosinus este pară. Funcția tangentă, definită ca raportul dintre sinus și cosinus, nu este definită acolo unde cosinusul se anulează și are perioada pi. Graficele lor, sinusoida și cosinusoida, sunt curbe ondulate care descriu fenomene ce se repetă: oscilații, unde, curentul alternativ, fazele Lunii.
+* Sinusul și cosinusul au domeniul toate numerele reale și imaginea de la minus unu la unu.
+* Sinusul și cosinusul au perioada principală doi pi.
+* Sinusul este funcție impară; cosinusul este funcție pară.
+* Tangenta nu e definită unde cosinusul se anulează și are perioada pi.
+= funcție sinus :: funcția care asociază fiecărui unghi ordonata punctului de pe cercul trigonometric
+= perioadă principală :: cel mai mic interval după care valorile unei funcții periodice se repetă
+@ Care este imaginea funcției sinus? :: Intervalul de la minus unu la unu.
+@ Care este perioada principală a funcției sinus? :: Doi pi.
+@ Ce fel de funcție este cosinusul, pară sau impară? :: Pară.
+@ Care este perioada funcției tangentă? :: Pi.
+? Imaginea funcției sinus este intervalul:
++ de la minus unu la unu
+- de la zero la unu
+- toate numerele reale
+- de la minus doi la doi
+! Valorile sinusului nu ies din acest interval.
+? Perioada principală a funcției sinus este:
++ doi pi
+- pi
+- pi supra doi
+- 1
+! Valorile se reiau la fiecare rotație completă.
+? Funcția cosinus este:
++ pară
+- impară
+- neperiodică
+- strict crescătoare
+! Sinusul, în schimb, este impar.
+? Valoarea maximă pe care o poate lua funcția cosinus este:
++ 1
+- 0
+- doi pi
+- infinit
+! Cosinusul ia valori între minus unu și unu.
+
+### mat10-12 | Ecuații trigonometrice
+O ecuație trigonometrică conține necunoscuta în argumentul unei funcții trigonometrice. Cele mai simple sunt ecuațiile fundamentale, de forma sinus de x egal a sau cosinus de x egal a. Pentru că sinusul și cosinusul iau valori numai între minus unu și unu, aceste ecuații au soluții reale doar dacă numărul a se află în acest interval; dacă a este în afara lui, ecuația nu are nicio soluție reală.
+
+Rezolvarea se face pe cercul trigonometric, unde se identifică unghiurile care dau valoarea cerută. Pentru că funcțiile sunt periodice, o ecuație are de regulă o infinitate de soluții, obținute adăugând multipli întregi ai perioadei la soluțiile de bază. De exemplu, ecuația sinus de x egal zero are soluțiile date de multiplii lui pi, iar ecuația cosinus de x egal unu are soluțiile date de multiplii lui doi pi. Verificarea și scrierea corectă a mulțimii tuturor soluțiilor, cu ajutorul unui întreg oarecare, sunt esențiale.
+* O ecuație trigonometrică are necunoscuta în argumentul unei funcții trigonometrice.
+* Ecuația sinus de x egal a are soluții reale doar dacă a este între minus unu și unu.
+* Din cauza periodicității, soluțiile sunt în număr infinit, cu multipli ai perioadei.
+* Ecuația sinus de x egal zero are drept soluții multiplii lui pi.
+= ecuație trigonometrică :: ecuație în care necunoscuta apare în argumentul unei funcții trigonometrice
+= ecuație fundamentală :: ecuație de forma sinus de x egal a sau cosinus de x egal a
+@ Când are ecuația sinus de x egal a soluții reale? :: Doar dacă a este cuprins între minus unu și unu.
+@ De ce are o ecuație trigonometrică o infinitate de soluții? :: Din cauza periodicității funcțiilor trigonometrice.
+@ Care sunt soluțiile ecuației sinus de x egal zero? :: Multiplii întregi ai lui pi.
+@ Care sunt soluțiile ecuației cosinus de x egal unu? :: Multiplii întregi ai lui doi pi.
+? Ecuația sinus de x egal a are soluții reale doar dacă:
++ a este cuprins între minus unu și unu
+- a este orice număr real
+- a este mai mare decât unu
+- a este întreg
+! Sinusul nu iese din intervalul de la minus unu la unu.
+? Ecuația cosinus de x egal unu are soluțiile:
++ multiplii lui doi pi
+- multiplii lui pi
+- pi supra doi plus multiplii lui pi
+- doar zero
+! Cosinusul este unu la fiecare rotație completă.
+? Ecuația sinus de x egal zero are soluțiile:
++ multiplii lui pi
+- multiplii lui doi pi
+- pi supra doi plus multiplii lui pi
+- doar unu
+! Sinusul se anulează la fiecare jumătate de rotație.
+? Ecuația sinus de x egal 2:
++ nu are soluții reale
+- are o singură soluție
+- are exact două soluții
+- are soluțiile multiplii lui pi
+! Numărul 2 nu este în intervalul de la minus unu la unu.
+
+## 2 | mat10-c5 | Numere complexe
+### mat10-13 | Forma algebrică a numerelor complexe
+Numerele complexe extind numerele reale pentru a face rezolvabilă orice ecuație de gradul al doilea, chiar și x la pătrat plus unu egal zero, care nu are soluții reale. Cheia este unitatea imaginară, notată i, definită prin proprietatea că pătratul ei este minus unu. Un număr complex se scrie în formă algebrică drept a plus b înmulțit cu i, unde a se numește partea reală, iar b partea imaginară; numerele reale sunt cazul particular în care partea imaginară este zero.
+
+Adunarea și scăderea numerelor complexe se fac pe componente: se adună separat părțile reale și separat părțile imaginare. Înmulțirea se face ca la binoame, ținând seama că pătratul unității imaginare este minus unu. Puterile lui i se repetă din patru în patru: i la puterea întâi este i, i la pătrat este minus unu, i la cub este minus i, iar i la puterea a patra este unu, după care ciclul reîncepe. Numerele complexe se reprezintă geometric ca puncte în plan, cu partea reală pe axa orizontală și partea imaginară pe axa verticală.
+* Unitatea imaginară i are pătratul egal cu minus unu.
+* Un număr complex are forma a plus b ori i, cu a partea reală și b partea imaginară.
+* Adunarea numerelor complexe se face pe componente.
+* Puterile lui i se repetă din patru în patru: i, minus unu, minus i, unu.
+= unitate imaginară :: numărul i, definit prin proprietatea că pătratul lui este minus unu
+= parte reală :: componenta a dintr-un număr complex scris sub forma a plus b ori i
+@ Ce proprietate definește unitatea imaginară i? :: Pătratul ei este minus unu.
+@ Cum se scrie forma algebrică a unui număr complex? :: Ca a plus b înmulțit cu i.
+@ Cum se adună două numere complexe? :: Adunând separat părțile reale și separat părțile imaginare.
+@ Cât este i la puterea a patra? :: Unu.
+? Unitatea imaginară i satisface relația:
++ i la pătrat egal minus unu
+- i la pătrat egal unu
+- i egal zero
+- i la pătrat egal i
+! Pe această proprietate se construiesc numerele complexe.
+? În numărul complex z egal a plus b ori i, partea reală este:
++ a
+- b
+- b ori i
+- a plus b
+! b este partea imaginară.
+? Valoarea lui i la puterea a patra este:
++ 1
+- minus 1
+- i
+- minus i
+! i la pătrat este minus unu, deci i la a patra este unu.
+? Suma numerelor complexe 2 plus 3i și 1 minus i este:
++ 3 plus 2i
+- 3 plus 4i
+- 1 plus 2i
+- 2 plus 3i
+! Se adună separat: 2 plus 1 și 3i minus i.
+
+### mat10-14 | Modul, conjugat și forma trigonometrică
+Fiecărui număr complex i se asociază conjugatul său, obținut schimbând semnul părții imaginare: conjugatul lui a plus b ori i este a minus b ori i. Modulul numărului complex este distanța de la punctul care îl reprezintă până la origine și se calculează cu teorema lui Pitagora, ca rădăcina din suma pătratelor părții reale și părții imaginare. Produsul dintre un număr complex și conjugatul său este un număr real nenegativ, egal cu pătratul modulului.
+
+Conjugatul este util și la împărțirea numerelor complexe: se amplifică fracția cu conjugatul numitorului, iar numitorul devine real. Pe lângă forma algebrică, un număr complex se poate scrie în formă trigonometrică, ca produsul dintre modulul său și paranteza formată din cosinusul și sinusul argumentului, unghiul pe care îl face cu axa reală. Forma trigonometrică simplifică înmulțirea, împărțirea și ridicarea la putere a numerelor complexe.
+* Conjugatul lui a plus b ori i este a minus b ori i.
+* Modulul este rădăcina din suma pătratelor părții reale și imaginare.
+* Produsul unui număr complex cu conjugatul său este pătratul modulului, un număr real.
+* Forma trigonometrică folosește modulul și argumentul numărului complex.
+= conjugat :: numărul complex obținut schimbând semnul părții imaginare
+= modul al unui număr complex :: distanța de la punctul care îl reprezintă până la origine, rădăcina din suma pătratelor componentelor
+@ Cum se obține conjugatul unui număr complex? :: Schimbând semnul părții imaginare.
+@ Cum se calculează modulul unui număr complex? :: Ca rădăcina din suma pătratelor părții reale și părții imaginare.
+@ Ce fel de număr este produsul dintre un complex și conjugatul său? :: Un număr real nenegativ, egal cu pătratul modulului.
+@ La ce ajută conjugatul în împărțirea numerelor complexe? :: La a face numitorul real, amplificând cu conjugatul lui.
+? Conjugatul numărului complex 3 plus 4i este:
++ 3 minus 4i
+- minus 3 plus 4i
+- 4 plus 3i
+- 3 plus 4i
+! Se schimbă doar semnul părții imaginare.
+? Modulul numărului complex 3 plus 4i este:
++ 5
+- 7
+- 25
+- 1
+! Rădăcina din 3 la pătrat plus 4 la pătrat, adică din 25.
+? Produsul dintre un număr complex și conjugatul său este:
++ un număr real, egal cu pătratul modulului
+- întotdeauna zero
+- un număr pur imaginar
+- egal cu numărul complex
+! Părțile imaginare se anulează.
+? Forma trigonometrică a unui număr complex folosește:
++ modulul și argumentul lui
+- doar partea reală
+- doar partea imaginară
+- două module diferite
+! Se scrie ca modulul înmulțit cu cosinusul plus i sinusul argumentului.
+
+### mat10-15 | Ecuații în mulțimea numerelor complexe
+Marele câștig al numerelor complexe este că, în mulțimea lor, orice ecuație de gradul al doilea are soluții, indiferent de semnul discriminantului. Când discriminantul este pozitiv sau zero, soluțiile sunt reale, ca de obicei. Când discriminantul este negativ, ecuația nu are soluții reale, dar are două soluții complexe, care sunt conjugate una alteia.
+
+Formula soluțiilor rămâne aceeași, doar că rădăcina dintr-un număr negativ se scrie cu ajutorul unității imaginare. Cea mai simplă ecuație de acest fel, x la pătrat plus unu egal zero, are soluțiile i și minus i, pentru că pătratul lui i este minus unu. La fel, x la pătrat egal minus patru are soluțiile doi i și minus doi i. Relațiile lui Viète, care leagă suma și produsul soluțiilor de coeficienți, rămân valabile și în mulțimea numerelor complexe, ceea ce arată coerența extinderii.
+* În mulțimea numerelor complexe, orice ecuație de gradul al doilea are soluții.
+* Când discriminantul e negativ, soluțiile sunt complexe și conjugate.
+* Ecuația x la pătrat plus unu egal zero are soluțiile i și minus i.
+* Relațiile lui Viète rămân valabile și pentru numere complexe.
+= soluții conjugate :: cele două soluții complexe ale unei ecuații de gradul al doilea cu discriminant negativ
+= discriminant negativ :: cazul în care ecuația nu are soluții reale, ci două soluții complexe conjugate
+@ Câte soluții are, în mulțimea complexă, o ecuație de gradul al doilea? :: Are întotdeauna soluții, indiferent de discriminant.
+@ Ce fel de soluții are o ecuație de gradul al doilea cu discriminant negativ? :: Două soluții complexe, conjugate una alteia.
+@ Care sunt soluțiile ecuației x la pătrat plus unu egal zero? :: i și minus i.
+@ Rămân valabile relațiile lui Viète pentru numere complexe? :: Da, ele leagă suma și produsul soluțiilor de coeficienți.
+? În mulțimea numerelor complexe, ecuația x la pătrat plus unu egal zero are soluțiile:
++ i și minus i
+- unu și minus unu
+- doar zero
+- niciuna
+! Pentru că pătratul lui i este minus unu.
+? Dacă discriminantul unei ecuații de gradul al doilea cu coeficienți reali este negativ, ecuația are:
++ două soluții complexe conjugate
+- două soluții reale distincte
+- o singură soluție reală
+- nicio soluție, nici măcar complexă
+! În complex, orice ecuație pătratică are soluții.
+? Ecuația x la pătrat egal minus patru are, în mulțimea complexă, soluțiile:
++ doi i și minus doi i
+- doi și minus doi
+- patru i
+- niciuna
+! Pentru că pătratul lui doi i este minus patru.
+? În mulțimea numerelor complexe, orice ecuație de gradul al doilea:
++ are soluții
+- nu are niciodată soluții
+- are soluții doar dacă discriminantul e pozitiv
+- are o singură soluție
+! Aceasta a fost motivația extinderii numerelor.
+
+## 2 | mat10-c6 | Geometrie analitică
+### mat10-16 | Vectori și coordonate în plan
+În reperul cartezian, un vector se descrie prin componentele lui pe cele două axe. Vectorul determinat de două puncte are drept componente diferențele coordonatelor: din coordonatele punctului final se scad coordonatele punctului inițial. Modulul vectorului, adică lungimea lui, se calculează cu teorema lui Pitagora, ca rădăcina din suma pătratelor componentelor.
+
+Adunarea vectorilor se face pe componente, iar înmulțirea cu un scalar înmulțește fiecare componentă. Produsul scalar a doi vectori dați prin componente este suma produselor componentelor corespunzătoare; el este legat și de modulele vectorilor și de cosinusul unghiului dintre ei. De aici rezultă criteriul de perpendicularitate: doi vectori nenuli sunt perpendiculari exact atunci când produsul lor scalar este zero. Calculul vectorial în coordonate permite rezolvarea numerică a problemelor de geometrie: distanțe, unghiuri, arii, coliniaritate.
+* Componentele vectorului dintre două puncte sunt diferențele coordonatelor.
+* Modulul vectorului este rădăcina din suma pătratelor componentelor.
+* Produsul scalar este suma produselor componentelor corespunzătoare.
+* Doi vectori nenuli sunt perpendiculari dacă produsul lor scalar este zero.
+= componente ale unui vector :: proiecțiile vectorului pe axele reperului cartezian
+= produs scalar :: suma produselor componentelor corespunzătoare a doi vectori, legată de cosinusul unghiului dintre ei
+@ Cum se află componentele vectorului dintre două puncte? :: Scăzând coordonatele punctului inițial din cele ale punctului final.
+@ Cum se calculează modulul unui vector din componente? :: Ca rădăcina din suma pătratelor componentelor.
+@ Cum se calculează produsul scalar din componente? :: Ca suma produselor componentelor corespunzătoare.
+@ Când sunt doi vectori perpendiculari? :: Când produsul lor scalar este zero.
+? Vectorul determinat de punctele A(1, 2) și B(4, 6) are componentele:
++ (3, 4)
+- (5, 8)
+- (4, 6)
+- (1, 2)
+! Se scad coordonatele: 4 minus 1 și 6 minus 2.
+? Modulul vectorului de componente (3, 4) este:
++ 5
+- 7
+- 12
+- 25
+! Rădăcina din 3 la pătrat plus 4 la pătrat.
+? Produsul scalar al vectorilor de componente (1, 2) și (3, 4) este:
++ 11
+- 10
+- 7
+- 24
+! 1 ori 3 plus 2 ori 4, adică 3 plus 8.
+? Doi vectori nenuli sunt perpendiculari dacă produsul lor scalar este:
++ 0
+- 1
+- egal cu produsul modulelor
+- negativ
+! Cosinusul unghiului drept este zero.
+
+### mat10-17 | Dreapta în plan
+O dreaptă din plan se descrie prin ecuații. Forma explicită este y egal cu m înmulțit cu x plus n, unde m este panta, iar n este ordonata la origine. Panta arată înclinarea dreptei: este tangenta unghiului format cu axa orizontală. Forma generală, în care toți termenii sunt trecuți într-un membru, este a înmulțit cu x plus b înmulțit cu y plus c egal zero.
+
+Panta unei drepte care trece prin două puncte cunoscute este raportul dintre diferența ordonatelor și diferența absciselor. Două drepte sunt paralele dacă au aceeași pantă și perpendiculare dacă produsul pantelor lor este minus unu. Intersecția a două drepte se află rezolvând sistemul format din ecuațiile lor, iar poziția relativă a dreptelor se citește din pante: pante egale și ordonate diferite înseamnă drepte paralele distincte. Distanța de la un punct la o dreaptă se calculează cu o formulă bazată pe coeficienții ecuației generale.
+* Forma explicită a dreptei: y egal m ori x plus n, cu panta m și ordonata la origine n.
+* Panta prin două puncte este diferența ordonatelor supra diferența absciselor.
+* Două drepte sunt paralele dacă au aceeași pantă.
+* Două drepte sunt perpendiculare dacă produsul pantelor este minus unu.
+= pantă :: coeficientul m din ecuația dreptei, egal cu tangenta unghiului cu axa orizontală
+= drepte perpendiculare :: drepte ale căror pante au produsul egal cu minus unu
+@ Ce reprezintă m în ecuația y egal m ori x plus n? :: Panta dreptei.
+@ Cum se calculează panta unei drepte prin două puncte? :: Ca raportul dintre diferența ordonatelor și diferența absciselor.
+@ Când sunt două drepte paralele? :: Când au aceeași pantă.
+@ Când sunt două drepte perpendiculare? :: Când produsul pantelor lor este minus unu.
+? Panta dreptei care trece prin punctele (1, 1) și (3, 5) este:
++ 2
+- 3
+- 4
+- o jumătate
+! Diferența ordonatelor, 5 minus 1, supra diferența absciselor, 3 minus 1.
+? Două drepte cu pantele 2 și minus o jumătate sunt:
++ perpendiculare
+- paralele
+- confundate
+- fără intersecție
+! Produsul pantelor este minus unu.
+? Forma generală a ecuației unei drepte este:
++ a ori x plus b ori y plus c egal zero
+- y egal x la pătrat
+- x la pătrat plus y la pătrat egal r la pătrat
+- y egal a la puterea x
+! Ultimele descriu o parabolă, un cerc și o exponențială.
+? Dreapta y egal minus doi ori x plus trei taie axa verticală în punctul:
++ (0, 3)
+- (3, 0)
+- (0, minus 2)
+- (minus 2, 3)
+! Ordonata la origine este termenul liber, 3.
+
+### mat10-18 | Cercul în plan
+Cercul este locul geometric al punctelor egal depărtate de un punct fix, centrul, distanța comună fiind raza. În reperul cartezian, cercul cu centrul într-un punct de coordonate cunoscute și cu rază dată are ecuația în care suma pătratelor diferențelor dintre coordonatele unui punct oarecare și cele ale centrului este egală cu pătratul razei. Dacă centrul este chiar originea, ecuația se simplifică: suma pătratelor coordonatelor este egală cu pătratul razei.
+
+Din ecuația unui cerc se citesc direct centrul și raza. Poziția unei drepte față de un cerc se stabilește comparând distanța de la centru la dreaptă cu raza: dacă distanța este mai mare decât raza, dreapta este exterioară și nu taie cercul; dacă este egală cu raza, dreapta este tangentă și atinge cercul într-un singur punct; dacă este mai mică decât raza, dreapta este secantă și taie cercul în două puncte. Aceste relații permit rezolvarea numerică a problemelor despre cercuri, tangente și intersecții.
+* Cercul este locul punctelor egal depărtate de centru, la distanța egală cu raza.
+* Cercul cu centrul în origine și raza r are ecuația: pătratul lui x plus pătratul lui y egal r la pătrat.
+* Din ecuația cercului se citesc direct centrul și raza.
+* O dreaptă este tangentă la cerc dacă distanța de la centru la ea este egală cu raza.
+= cerc :: locul geometric al punctelor din plan aflate la o distanță constantă, raza, față de un punct fix, centrul
+= dreaptă tangentă la cerc :: dreapta aflată la distanță egală cu raza față de centru, atingând cercul într-un singur punct
+@ Ce este un cerc, ca loc geometric? :: Mulțimea punctelor egal depărtate de un punct fix, centrul.
+@ Care este ecuația cercului cu centrul în origine și raza r? :: Pătratul lui x plus pătratul lui y egal r la pătrat.
+@ Ce se citește direct din ecuația unui cerc? :: Centrul și raza.
+@ Când este o dreaptă tangentă la un cerc? :: Când distanța de la centru la dreaptă este egală cu raza.
+? Ecuația cercului cu centrul în origine și raza 3 este:
++ pătratul lui x plus pătratul lui y egal 9
+- pătratul lui x plus pătratul lui y egal 3
+- x plus y egal 3
+- pătratul lui x minus pătratul lui y egal 9
+! Raza la pătrat este 9.
+? Cercul de ecuație (x minus 1) la pătrat plus (y plus 2) la pătrat egal 16 are:
++ centrul în (1, minus 2) și raza 4
+- centrul în (minus 1, 2) și raza 16
+- centrul în (1, 2) și raza 4
+- centrul în origine și raza 16
+! Raza este rădăcina din 16.
+? O dreaptă este tangentă la un cerc dacă distanța de la centru la dreaptă este:
++ egală cu raza
+- mai mare decât raza
+- mai mică decât raza
+- nulă
+! Distanța mai mică dă o dreaptă secantă.
+? Raza cercului de ecuație pătratul lui x plus pătratul lui y egal 25 este:
++ 5
+- 25
+- 10
+- 12,5
+! Raza este rădăcina din 25.
+
 %% teza 1
+? Funcția f de x egal cu x la pătrat este:
++ pară, cu graficul simetric față de axa verticală
+- impară, cu graficul simetric față de origine
+- fără simetrie
+- strict descrescătoare peste tot
+! Valorile ei sunt nenegative.
+? Funcția radical de ordin par este definită pentru:
++ numere nenegative
+- orice număr real
+- numere negative
+- numere întregi
+! O putere pară nu poate fi negativă.
+? Imaginea funcției sinus este intervalul:
++ de la minus unu la unu
+- de la zero la unu
+- toate numerele reale
+- de la minus doi la doi
+! Valorile sinusului nu ies din acest interval.
+? Perioada principală a funcției cosinus este:
++ doi pi
+- pi
+- pi supra doi
+- 1
+! Valorile se reiau la fiecare rotație completă.
+? Ecuația sinus de x egal 2:
++ nu are soluții reale
+- are o singură soluție
+- are exact două soluții
+- are o infinitate de soluții
+! Numărul 2 nu este în intervalul de la minus unu la unu.
+? Funcția f de x egal cu x la cub este:
++ impară, cu graficul simetric față de origine
+- pară
+- constantă
+- fără simetrie
+! Ia atât valori pozitive, cât și negative.
 ? Baza unei funcții exponențiale trebuie să fie:
 + strict pozitivă și diferită de 1
 - orice număr real
@@ -407,6 +797,42 @@ Un contraexemplu este suficient pentru a respinge o afirmație universală, dar 
 ! Media e trasă de extreme.
 
 %% teza 2
+? Unitatea imaginară i satisface relația:
++ i la pătrat egal minus unu
+- i la pătrat egal unu
+- i egal zero
+- i la pătrat egal i
+! Pe ea se construiesc numerele complexe.
+? Modulul numărului complex 3 plus 4i este:
++ 5
+- 7
+- 25
+- 1
+! Rădăcina din 3 la pătrat plus 4 la pătrat.
+? Conjugatul numărului complex 3 plus 4i este:
++ 3 minus 4i
+- minus 3 plus 4i
+- 4 plus 3i
+- 3 plus 4i
+! Se schimbă doar semnul părții imaginare.
+? În mulțimea numerelor complexe, ecuația x la pătrat plus unu egal zero are soluțiile:
++ i și minus i
+- unu și minus unu
+- doar zero
+- niciuna
+! Pentru că pătratul lui i este minus unu.
+? Ecuația cercului cu centrul în origine și raza 3 este:
++ pătratul lui x plus pătratul lui y egal 9
+- pătratul lui x plus pătratul lui y egal 3
+- x plus y egal 3
+- pătratul lui x minus pătratul lui y egal 9
+! Raza la pătrat este 9.
+? Produsul scalar al vectorilor de componente (1, 2) și (3, 4) este:
++ 11
+- 10
+- 7
+- 24
+! 1 ori 3 plus 2 ori 4, adică 3 plus 8.
 ? Abaterea standard măsoară:
 + împrăștierea datelor față de medie
 - tendința centrală

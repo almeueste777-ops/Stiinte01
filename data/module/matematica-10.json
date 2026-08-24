@@ -792,12 +792,864 @@
      ]
     }
    ]
+  },
+  {
+   "id": "mat10-c4",
+   "titlu": "Funcția putere, radical și trigonometrie",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "mat10-10",
+     "titlu": "Funcția putere și funcția radical",
+     "rezumat": "Funcția putere are forma f de x egal cu x la puterea n, cu n număr natural nenul. Comportarea ei depinde de paritatea exponentului. Pentru exponent par, funcția este pară: graficul este simetric față de axa verticală, valorile sunt nenegative, iar forma seamănă cu a parabolei. Pentru exponent impar, funcția este impară: graficul este simetric față de origine, iar funcția ia atât valori pozitive, cât și negative.\nFuncția radical de ordin n este inversa funcției putere: ea „desface\" ridicarea la putere. Ordinul radicalului îi impune domeniul. Radicalul de ordin par este definit numai pentru numere nenegative, pentru că nicio putere pară a unui număr real nu poate fi negativă; radicalul de ordin impar este definit pentru orice număr real. Pe domeniul numerelor nenegative, funcția radical este strict crescătoare, iar graficul ei este simetricul graficului funcției putere față de prima bisectoare, ca la orice pereche de funcții inverse.",
+     "ideiCheie": [
+      "Funcția putere cu exponent par este pară; cu exponent impar, impară.",
+      "Funcția radical este inversa funcției putere.",
+      "Radicalul de ordin par este definit doar pentru numere nenegative.",
+      "Radicalul de ordin impar este definit pentru orice număr real."
+     ],
+     "termeni": [
+      {
+       "t": "funcție putere",
+       "d": "funcția f de x egal cu x la puterea n, cu n natural nenul"
+      },
+      {
+       "t": "funcție radical",
+       "d": "inversa funcției putere, notată cu semnul rădăcinii de ordin n"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce fel de funcție este f de x egal cu x la pătrat?",
+       "v": "O funcție pară, cu graficul simetric față de axa verticală."
+      },
+      {
+       "f": "Ce fel de funcție este f de x egal cu x la cub?",
+       "v": "O funcție impară, cu graficul simetric față de origine."
+      },
+      {
+       "f": "Pentru ce numere este definit radicalul de ordin par?",
+       "v": "Pentru numerele nenegative."
+      },
+      {
+       "f": "Ce relație are graficul radicalului cu cel al puterii?",
+       "v": "Este simetricul lui față de prima bisectoare."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Funcția f de x egal cu x la pătrat este:",
+       "optiuni": [
+        "pară, cu graficul simetric față de axa verticală",
+        "impară, cu graficul simetric față de origine",
+        "fără simetrie",
+        "strict descrescătoare pe tot domeniul"
+       ],
+       "corect": 0,
+       "explicatie": "Valorile ei sunt nenegative."
+      },
+      {
+       "intrebare": "Funcția radical de ordin par este definită pentru:",
+       "optiuni": [
+        "numere nenegative",
+        "orice număr real",
+        "numere negative",
+        "numere întregi"
+       ],
+       "corect": 0,
+       "explicatie": "O putere pară nu poate fi negativă."
+      },
+      {
+       "intrebare": "Funcția f de x egal cu x la cub este:",
+       "optiuni": [
+        "impară, cu graficul simetric față de origine",
+        "pară",
+        "fără simetrie",
+        "constantă"
+       ],
+       "corect": 0,
+       "explicatie": "Ia atât valori pozitive, cât și negative."
+      },
+      {
+       "intrebare": "Funcția radical este inversa:",
+       "optiuni": [
+        "funcției putere",
+        "funcției exponențiale",
+        "funcției de gradul I",
+        "funcției logaritmice"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea „desface\" ridicarea la putere."
+      }
+     ]
+    },
+    {
+     "id": "mat10-11",
+     "titlu": "Funcții trigonometrice",
+     "rezumat": "Funcțiile trigonometrice extind rapoartele din triunghiul dreptunghic la orice unghi, folosind cercul trigonometric. Funcția sinus asociază fiecărui număr real ordonata punctului corespunzător de pe cerc, iar funcția cosinus, abscisa lui. Amândouă au domeniul mulțimea tuturor numerelor reale, iar imaginea, intervalul de la minus unu la unu: valorile lor nu ies niciodată din acest interval.\nSinusul și cosinusul sunt funcții periodice, cu perioada principală doi pi, pentru că valorile se reiau la fiecare rotație completă pe cerc. Funcția sinus este impară, iar funcția cosinus este pară. Funcția tangentă, definită ca raportul dintre sinus și cosinus, nu este definită acolo unde cosinusul se anulează și are perioada pi. Graficele lor, sinusoida și cosinusoida, sunt curbe ondulate care descriu fenomene ce se repetă: oscilații, unde, curentul alternativ, fazele Lunii.",
+     "ideiCheie": [
+      "Sinusul și cosinusul au domeniul toate numerele reale și imaginea de la minus unu la unu.",
+      "Sinusul și cosinusul au perioada principală doi pi.",
+      "Sinusul este funcție impară; cosinusul este funcție pară.",
+      "Tangenta nu e definită unde cosinusul se anulează și are perioada pi."
+     ],
+     "termeni": [
+      {
+       "t": "funcție sinus",
+       "d": "funcția care asociază fiecărui unghi ordonata punctului de pe cercul trigonometric"
+      },
+      {
+       "t": "perioadă principală",
+       "d": "cel mai mic interval după care valorile unei funcții periodice se repetă"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care este imaginea funcției sinus?",
+       "v": "Intervalul de la minus unu la unu."
+      },
+      {
+       "f": "Care este perioada principală a funcției sinus?",
+       "v": "Doi pi."
+      },
+      {
+       "f": "Ce fel de funcție este cosinusul, pară sau impară?",
+       "v": "Pară."
+      },
+      {
+       "f": "Care este perioada funcției tangentă?",
+       "v": "Pi."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Imaginea funcției sinus este intervalul:",
+       "optiuni": [
+        "de la minus unu la unu",
+        "de la zero la unu",
+        "toate numerele reale",
+        "de la minus doi la doi"
+       ],
+       "corect": 0,
+       "explicatie": "Valorile sinusului nu ies din acest interval."
+      },
+      {
+       "intrebare": "Perioada principală a funcției sinus este:",
+       "optiuni": [
+        "doi pi",
+        "pi",
+        "pi supra doi",
+        "1"
+       ],
+       "corect": 0,
+       "explicatie": "Valorile se reiau la fiecare rotație completă."
+      },
+      {
+       "intrebare": "Funcția cosinus este:",
+       "optiuni": [
+        "pară",
+        "impară",
+        "neperiodică",
+        "strict crescătoare"
+       ],
+       "corect": 0,
+       "explicatie": "Sinusul, în schimb, este impar."
+      },
+      {
+       "intrebare": "Valoarea maximă pe care o poate lua funcția cosinus este:",
+       "optiuni": [
+        "1",
+        "0",
+        "doi pi",
+        "infinit"
+       ],
+       "corect": 0,
+       "explicatie": "Cosinusul ia valori între minus unu și unu."
+      }
+     ]
+    },
+    {
+     "id": "mat10-12",
+     "titlu": "Ecuații trigonometrice",
+     "rezumat": "O ecuație trigonometrică conține necunoscuta în argumentul unei funcții trigonometrice. Cele mai simple sunt ecuațiile fundamentale, de forma sinus de x egal a sau cosinus de x egal a. Pentru că sinusul și cosinusul iau valori numai între minus unu și unu, aceste ecuații au soluții reale doar dacă numărul a se află în acest interval; dacă a este în afara lui, ecuația nu are nicio soluție reală.\nRezolvarea se face pe cercul trigonometric, unde se identifică unghiurile care dau valoarea cerută. Pentru că funcțiile sunt periodice, o ecuație are de regulă o infinitate de soluții, obținute adăugând multipli întregi ai perioadei la soluțiile de bază. De exemplu, ecuația sinus de x egal zero are soluțiile date de multiplii lui pi, iar ecuația cosinus de x egal unu are soluțiile date de multiplii lui doi pi. Verificarea și scrierea corectă a mulțimii tuturor soluțiilor, cu ajutorul unui întreg oarecare, sunt esențiale.",
+     "ideiCheie": [
+      "O ecuație trigonometrică are necunoscuta în argumentul unei funcții trigonometrice.",
+      "Ecuația sinus de x egal a are soluții reale doar dacă a este între minus unu și unu.",
+      "Din cauza periodicității, soluțiile sunt în număr infinit, cu multipli ai perioadei.",
+      "Ecuația sinus de x egal zero are drept soluții multiplii lui pi."
+     ],
+     "termeni": [
+      {
+       "t": "ecuație trigonometrică",
+       "d": "ecuație în care necunoscuta apare în argumentul unei funcții trigonometrice"
+      },
+      {
+       "t": "ecuație fundamentală",
+       "d": "ecuație de forma sinus de x egal a sau cosinus de x egal a"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Când are ecuația sinus de x egal a soluții reale?",
+       "v": "Doar dacă a este cuprins între minus unu și unu."
+      },
+      {
+       "f": "De ce are o ecuație trigonometrică o infinitate de soluții?",
+       "v": "Din cauza periodicității funcțiilor trigonometrice."
+      },
+      {
+       "f": "Care sunt soluțiile ecuației sinus de x egal zero?",
+       "v": "Multiplii întregi ai lui pi."
+      },
+      {
+       "f": "Care sunt soluțiile ecuației cosinus de x egal unu?",
+       "v": "Multiplii întregi ai lui doi pi."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Ecuația sinus de x egal a are soluții reale doar dacă:",
+       "optiuni": [
+        "a este cuprins între minus unu și unu",
+        "a este orice număr real",
+        "a este mai mare decât unu",
+        "a este întreg"
+       ],
+       "corect": 0,
+       "explicatie": "Sinusul nu iese din intervalul de la minus unu la unu."
+      },
+      {
+       "intrebare": "Ecuația cosinus de x egal unu are soluțiile:",
+       "optiuni": [
+        "multiplii lui doi pi",
+        "multiplii lui pi",
+        "pi supra doi plus multiplii lui pi",
+        "doar zero"
+       ],
+       "corect": 0,
+       "explicatie": "Cosinusul este unu la fiecare rotație completă."
+      },
+      {
+       "intrebare": "Ecuația sinus de x egal zero are soluțiile:",
+       "optiuni": [
+        "multiplii lui pi",
+        "multiplii lui doi pi",
+        "pi supra doi plus multiplii lui pi",
+        "doar unu"
+       ],
+       "corect": 0,
+       "explicatie": "Sinusul se anulează la fiecare jumătate de rotație."
+      },
+      {
+       "intrebare": "Ecuația sinus de x egal 2:",
+       "optiuni": [
+        "nu are soluții reale",
+        "are o singură soluție",
+        "are exact două soluții",
+        "are soluțiile multiplii lui pi"
+       ],
+       "corect": 0,
+       "explicatie": "Numărul 2 nu este în intervalul de la minus unu la unu."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mat10-c5",
+   "titlu": "Numere complexe",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "mat10-13",
+     "titlu": "Forma algebrică a numerelor complexe",
+     "rezumat": "Numerele complexe extind numerele reale pentru a face rezolvabilă orice ecuație de gradul al doilea, chiar și x la pătrat plus unu egal zero, care nu are soluții reale. Cheia este unitatea imaginară, notată i, definită prin proprietatea că pătratul ei este minus unu. Un număr complex se scrie în formă algebrică drept a plus b înmulțit cu i, unde a se numește partea reală, iar b partea imaginară; numerele reale sunt cazul particular în care partea imaginară este zero.\nAdunarea și scăderea numerelor complexe se fac pe componente: se adună separat părțile reale și separat părțile imaginare. Înmulțirea se face ca la binoame, ținând seama că pătratul unității imaginare este minus unu. Puterile lui i se repetă din patru în patru: i la puterea întâi este i, i la pătrat este minus unu, i la cub este minus i, iar i la puterea a patra este unu, după care ciclul reîncepe. Numerele complexe se reprezintă geometric ca puncte în plan, cu partea reală pe axa orizontală și partea imaginară pe axa verticală.",
+     "ideiCheie": [
+      "Unitatea imaginară i are pătratul egal cu minus unu.",
+      "Un număr complex are forma a plus b ori i, cu a partea reală și b partea imaginară.",
+      "Adunarea numerelor complexe se face pe componente.",
+      "Puterile lui i se repetă din patru în patru: i, minus unu, minus i, unu."
+     ],
+     "termeni": [
+      {
+       "t": "unitate imaginară",
+       "d": "numărul i, definit prin proprietatea că pătratul lui este minus unu"
+      },
+      {
+       "t": "parte reală",
+       "d": "componenta a dintr-un număr complex scris sub forma a plus b ori i"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce proprietate definește unitatea imaginară i?",
+       "v": "Pătratul ei este minus unu."
+      },
+      {
+       "f": "Cum se scrie forma algebrică a unui număr complex?",
+       "v": "Ca a plus b înmulțit cu i."
+      },
+      {
+       "f": "Cum se adună două numere complexe?",
+       "v": "Adunând separat părțile reale și separat părțile imaginare."
+      },
+      {
+       "f": "Cât este i la puterea a patra?",
+       "v": "Unu."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Unitatea imaginară i satisface relația:",
+       "optiuni": [
+        "i la pătrat egal minus unu",
+        "i la pătrat egal unu",
+        "i egal zero",
+        "i la pătrat egal i"
+       ],
+       "corect": 0,
+       "explicatie": "Pe această proprietate se construiesc numerele complexe."
+      },
+      {
+       "intrebare": "În numărul complex z egal a plus b ori i, partea reală este:",
+       "optiuni": [
+        "a",
+        "b",
+        "b ori i",
+        "a plus b"
+       ],
+       "corect": 0,
+       "explicatie": "b este partea imaginară."
+      },
+      {
+       "intrebare": "Valoarea lui i la puterea a patra este:",
+       "optiuni": [
+        "1",
+        "minus 1",
+        "i",
+        "minus i"
+       ],
+       "corect": 0,
+       "explicatie": "i la pătrat este minus unu, deci i la a patra este unu."
+      },
+      {
+       "intrebare": "Suma numerelor complexe 2 plus 3i și 1 minus i este:",
+       "optiuni": [
+        "3 plus 2i",
+        "3 plus 4i",
+        "1 plus 2i",
+        "2 plus 3i"
+       ],
+       "corect": 0,
+       "explicatie": "Se adună separat: 2 plus 1 și 3i minus i."
+      }
+     ]
+    },
+    {
+     "id": "mat10-14",
+     "titlu": "Modul, conjugat și forma trigonometrică",
+     "rezumat": "Fiecărui număr complex i se asociază conjugatul său, obținut schimbând semnul părții imaginare: conjugatul lui a plus b ori i este a minus b ori i. Modulul numărului complex este distanța de la punctul care îl reprezintă până la origine și se calculează cu teorema lui Pitagora, ca rădăcina din suma pătratelor părții reale și părții imaginare. Produsul dintre un număr complex și conjugatul său este un număr real nenegativ, egal cu pătratul modulului.\nConjugatul este util și la împărțirea numerelor complexe: se amplifică fracția cu conjugatul numitorului, iar numitorul devine real. Pe lângă forma algebrică, un număr complex se poate scrie în formă trigonometrică, ca produsul dintre modulul său și paranteza formată din cosinusul și sinusul argumentului, unghiul pe care îl face cu axa reală. Forma trigonometrică simplifică înmulțirea, împărțirea și ridicarea la putere a numerelor complexe.",
+     "ideiCheie": [
+      "Conjugatul lui a plus b ori i este a minus b ori i.",
+      "Modulul este rădăcina din suma pătratelor părții reale și imaginare.",
+      "Produsul unui număr complex cu conjugatul său este pătratul modulului, un număr real.",
+      "Forma trigonometrică folosește modulul și argumentul numărului complex."
+     ],
+     "termeni": [
+      {
+       "t": "conjugat",
+       "d": "numărul complex obținut schimbând semnul părții imaginare"
+      },
+      {
+       "t": "modul al unui număr complex",
+       "d": "distanța de la punctul care îl reprezintă până la origine, rădăcina din suma pătratelor componentelor"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se obține conjugatul unui număr complex?",
+       "v": "Schimbând semnul părții imaginare."
+      },
+      {
+       "f": "Cum se calculează modulul unui număr complex?",
+       "v": "Ca rădăcina din suma pătratelor părții reale și părții imaginare."
+      },
+      {
+       "f": "Ce fel de număr este produsul dintre un complex și conjugatul său?",
+       "v": "Un număr real nenegativ, egal cu pătratul modulului."
+      },
+      {
+       "f": "La ce ajută conjugatul în împărțirea numerelor complexe?",
+       "v": "La a face numitorul real, amplificând cu conjugatul lui."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Conjugatul numărului complex 3 plus 4i este:",
+       "optiuni": [
+        "3 minus 4i",
+        "minus 3 plus 4i",
+        "4 plus 3i",
+        "3 plus 4i"
+       ],
+       "corect": 0,
+       "explicatie": "Se schimbă doar semnul părții imaginare."
+      },
+      {
+       "intrebare": "Modulul numărului complex 3 plus 4i este:",
+       "optiuni": [
+        "5",
+        "7",
+        "25",
+        "1"
+       ],
+       "corect": 0,
+       "explicatie": "Rădăcina din 3 la pătrat plus 4 la pătrat, adică din 25."
+      },
+      {
+       "intrebare": "Produsul dintre un număr complex și conjugatul său este:",
+       "optiuni": [
+        "un număr real, egal cu pătratul modulului",
+        "întotdeauna zero",
+        "un număr pur imaginar",
+        "egal cu numărul complex"
+       ],
+       "corect": 0,
+       "explicatie": "Părțile imaginare se anulează."
+      },
+      {
+       "intrebare": "Forma trigonometrică a unui număr complex folosește:",
+       "optiuni": [
+        "modulul și argumentul lui",
+        "doar partea reală",
+        "doar partea imaginară",
+        "două module diferite"
+       ],
+       "corect": 0,
+       "explicatie": "Se scrie ca modulul înmulțit cu cosinusul plus i sinusul argumentului."
+      }
+     ]
+    },
+    {
+     "id": "mat10-15",
+     "titlu": "Ecuații în mulțimea numerelor complexe",
+     "rezumat": "Marele câștig al numerelor complexe este că, în mulțimea lor, orice ecuație de gradul al doilea are soluții, indiferent de semnul discriminantului. Când discriminantul este pozitiv sau zero, soluțiile sunt reale, ca de obicei. Când discriminantul este negativ, ecuația nu are soluții reale, dar are două soluții complexe, care sunt conjugate una alteia.\nFormula soluțiilor rămâne aceeași, doar că rădăcina dintr-un număr negativ se scrie cu ajutorul unității imaginare. Cea mai simplă ecuație de acest fel, x la pătrat plus unu egal zero, are soluțiile i și minus i, pentru că pătratul lui i este minus unu. La fel, x la pătrat egal minus patru are soluțiile doi i și minus doi i. Relațiile lui Viète, care leagă suma și produsul soluțiilor de coeficienți, rămân valabile și în mulțimea numerelor complexe, ceea ce arată coerența extinderii.",
+     "ideiCheie": [
+      "În mulțimea numerelor complexe, orice ecuație de gradul al doilea are soluții.",
+      "Când discriminantul e negativ, soluțiile sunt complexe și conjugate.",
+      "Ecuația x la pătrat plus unu egal zero are soluțiile i și minus i.",
+      "Relațiile lui Viète rămân valabile și pentru numere complexe."
+     ],
+     "termeni": [
+      {
+       "t": "soluții conjugate",
+       "d": "cele două soluții complexe ale unei ecuații de gradul al doilea cu discriminant negativ"
+      },
+      {
+       "t": "discriminant negativ",
+       "d": "cazul în care ecuația nu are soluții reale, ci două soluții complexe conjugate"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Câte soluții are, în mulțimea complexă, o ecuație de gradul al doilea?",
+       "v": "Are întotdeauna soluții, indiferent de discriminant."
+      },
+      {
+       "f": "Ce fel de soluții are o ecuație de gradul al doilea cu discriminant negativ?",
+       "v": "Două soluții complexe, conjugate una alteia."
+      },
+      {
+       "f": "Care sunt soluțiile ecuației x la pătrat plus unu egal zero?",
+       "v": "i și minus i."
+      },
+      {
+       "f": "Rămân valabile relațiile lui Viète pentru numere complexe?",
+       "v": "Da, ele leagă suma și produsul soluțiilor de coeficienți."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "În mulțimea numerelor complexe, ecuația x la pătrat plus unu egal zero are soluțiile:",
+       "optiuni": [
+        "i și minus i",
+        "unu și minus unu",
+        "doar zero",
+        "niciuna"
+       ],
+       "corect": 0,
+       "explicatie": "Pentru că pătratul lui i este minus unu."
+      },
+      {
+       "intrebare": "Dacă discriminantul unei ecuații de gradul al doilea cu coeficienți reali este negativ, ecuația are:",
+       "optiuni": [
+        "două soluții complexe conjugate",
+        "două soluții reale distincte",
+        "o singură soluție reală",
+        "nicio soluție, nici măcar complexă"
+       ],
+       "corect": 0,
+       "explicatie": "În complex, orice ecuație pătratică are soluții."
+      },
+      {
+       "intrebare": "Ecuația x la pătrat egal minus patru are, în mulțimea complexă, soluțiile:",
+       "optiuni": [
+        "doi i și minus doi i",
+        "doi și minus doi",
+        "patru i",
+        "niciuna"
+       ],
+       "corect": 0,
+       "explicatie": "Pentru că pătratul lui doi i este minus patru."
+      },
+      {
+       "intrebare": "În mulțimea numerelor complexe, orice ecuație de gradul al doilea:",
+       "optiuni": [
+        "are soluții",
+        "nu are niciodată soluții",
+        "are soluții doar dacă discriminantul e pozitiv",
+        "are o singură soluție"
+       ],
+       "corect": 0,
+       "explicatie": "Aceasta a fost motivația extinderii numerelor."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mat10-c6",
+   "titlu": "Geometrie analitică",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "mat10-16",
+     "titlu": "Vectori și coordonate în plan",
+     "rezumat": "În reperul cartezian, un vector se descrie prin componentele lui pe cele două axe. Vectorul determinat de două puncte are drept componente diferențele coordonatelor: din coordonatele punctului final se scad coordonatele punctului inițial. Modulul vectorului, adică lungimea lui, se calculează cu teorema lui Pitagora, ca rădăcina din suma pătratelor componentelor.\nAdunarea vectorilor se face pe componente, iar înmulțirea cu un scalar înmulțește fiecare componentă. Produsul scalar a doi vectori dați prin componente este suma produselor componentelor corespunzătoare; el este legat și de modulele vectorilor și de cosinusul unghiului dintre ei. De aici rezultă criteriul de perpendicularitate: doi vectori nenuli sunt perpendiculari exact atunci când produsul lor scalar este zero. Calculul vectorial în coordonate permite rezolvarea numerică a problemelor de geometrie: distanțe, unghiuri, arii, coliniaritate.",
+     "ideiCheie": [
+      "Componentele vectorului dintre două puncte sunt diferențele coordonatelor.",
+      "Modulul vectorului este rădăcina din suma pătratelor componentelor.",
+      "Produsul scalar este suma produselor componentelor corespunzătoare.",
+      "Doi vectori nenuli sunt perpendiculari dacă produsul lor scalar este zero."
+     ],
+     "termeni": [
+      {
+       "t": "componente ale unui vector",
+       "d": "proiecțiile vectorului pe axele reperului cartezian"
+      },
+      {
+       "t": "produs scalar",
+       "d": "suma produselor componentelor corespunzătoare a doi vectori, legată de cosinusul unghiului dintre ei"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se află componentele vectorului dintre două puncte?",
+       "v": "Scăzând coordonatele punctului inițial din cele ale punctului final."
+      },
+      {
+       "f": "Cum se calculează modulul unui vector din componente?",
+       "v": "Ca rădăcina din suma pătratelor componentelor."
+      },
+      {
+       "f": "Cum se calculează produsul scalar din componente?",
+       "v": "Ca suma produselor componentelor corespunzătoare."
+      },
+      {
+       "f": "Când sunt doi vectori perpendiculari?",
+       "v": "Când produsul lor scalar este zero."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Vectorul determinat de punctele A(1, 2) și B(4, 6) are componentele:",
+       "optiuni": [
+        "(3, 4)",
+        "(5, 8)",
+        "(4, 6)",
+        "(1, 2)"
+       ],
+       "corect": 0,
+       "explicatie": "Se scad coordonatele: 4 minus 1 și 6 minus 2."
+      },
+      {
+       "intrebare": "Modulul vectorului de componente (3, 4) este:",
+       "optiuni": [
+        "5",
+        "7",
+        "12",
+        "25"
+       ],
+       "corect": 0,
+       "explicatie": "Rădăcina din 3 la pătrat plus 4 la pătrat."
+      },
+      {
+       "intrebare": "Produsul scalar al vectorilor de componente (1, 2) și (3, 4) este:",
+       "optiuni": [
+        "11",
+        "10",
+        "7",
+        "24"
+       ],
+       "corect": 0,
+       "explicatie": "1 ori 3 plus 2 ori 4, adică 3 plus 8."
+      },
+      {
+       "intrebare": "Doi vectori nenuli sunt perpendiculari dacă produsul lor scalar este:",
+       "optiuni": [
+        "0",
+        "1",
+        "egal cu produsul modulelor",
+        "negativ"
+       ],
+       "corect": 0,
+       "explicatie": "Cosinusul unghiului drept este zero."
+      }
+     ]
+    },
+    {
+     "id": "mat10-17",
+     "titlu": "Dreapta în plan",
+     "rezumat": "O dreaptă din plan se descrie prin ecuații. Forma explicită este y egal cu m înmulțit cu x plus n, unde m este panta, iar n este ordonata la origine. Panta arată înclinarea dreptei: este tangenta unghiului format cu axa orizontală. Forma generală, în care toți termenii sunt trecuți într-un membru, este a înmulțit cu x plus b înmulțit cu y plus c egal zero.\nPanta unei drepte care trece prin două puncte cunoscute este raportul dintre diferența ordonatelor și diferența absciselor. Două drepte sunt paralele dacă au aceeași pantă și perpendiculare dacă produsul pantelor lor este minus unu. Intersecția a două drepte se află rezolvând sistemul format din ecuațiile lor, iar poziția relativă a dreptelor se citește din pante: pante egale și ordonate diferite înseamnă drepte paralele distincte. Distanța de la un punct la o dreaptă se calculează cu o formulă bazată pe coeficienții ecuației generale.",
+     "ideiCheie": [
+      "Forma explicită a dreptei: y egal m ori x plus n, cu panta m și ordonata la origine n.",
+      "Panta prin două puncte este diferența ordonatelor supra diferența absciselor.",
+      "Două drepte sunt paralele dacă au aceeași pantă.",
+      "Două drepte sunt perpendiculare dacă produsul pantelor este minus unu."
+     ],
+     "termeni": [
+      {
+       "t": "pantă",
+       "d": "coeficientul m din ecuația dreptei, egal cu tangenta unghiului cu axa orizontală"
+      },
+      {
+       "t": "drepte perpendiculare",
+       "d": "drepte ale căror pante au produsul egal cu minus unu"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce reprezintă m în ecuația y egal m ori x plus n?",
+       "v": "Panta dreptei."
+      },
+      {
+       "f": "Cum se calculează panta unei drepte prin două puncte?",
+       "v": "Ca raportul dintre diferența ordonatelor și diferența absciselor."
+      },
+      {
+       "f": "Când sunt două drepte paralele?",
+       "v": "Când au aceeași pantă."
+      },
+      {
+       "f": "Când sunt două drepte perpendiculare?",
+       "v": "Când produsul pantelor lor este minus unu."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Panta dreptei care trece prin punctele (1, 1) și (3, 5) este:",
+       "optiuni": [
+        "2",
+        "3",
+        "4",
+        "o jumătate"
+       ],
+       "corect": 0,
+       "explicatie": "Diferența ordonatelor, 5 minus 1, supra diferența absciselor, 3 minus 1."
+      },
+      {
+       "intrebare": "Două drepte cu pantele 2 și minus o jumătate sunt:",
+       "optiuni": [
+        "perpendiculare",
+        "paralele",
+        "confundate",
+        "fără intersecție"
+       ],
+       "corect": 0,
+       "explicatie": "Produsul pantelor este minus unu."
+      },
+      {
+       "intrebare": "Forma generală a ecuației unei drepte este:",
+       "optiuni": [
+        "a ori x plus b ori y plus c egal zero",
+        "y egal x la pătrat",
+        "x la pătrat plus y la pătrat egal r la pătrat",
+        "y egal a la puterea x"
+       ],
+       "corect": 0,
+       "explicatie": "Ultimele descriu o parabolă, un cerc și o exponențială."
+      },
+      {
+       "intrebare": "Dreapta y egal minus doi ori x plus trei taie axa verticală în punctul:",
+       "optiuni": [
+        "(0, 3)",
+        "(3, 0)",
+        "(0, minus 2)",
+        "(minus 2, 3)"
+       ],
+       "corect": 0,
+       "explicatie": "Ordonata la origine este termenul liber, 3."
+      }
+     ]
+    },
+    {
+     "id": "mat10-18",
+     "titlu": "Cercul în plan",
+     "rezumat": "Cercul este locul geometric al punctelor egal depărtate de un punct fix, centrul, distanța comună fiind raza. În reperul cartezian, cercul cu centrul într-un punct de coordonate cunoscute și cu rază dată are ecuația în care suma pătratelor diferențelor dintre coordonatele unui punct oarecare și cele ale centrului este egală cu pătratul razei. Dacă centrul este chiar originea, ecuația se simplifică: suma pătratelor coordonatelor este egală cu pătratul razei.\nDin ecuația unui cerc se citesc direct centrul și raza. Poziția unei drepte față de un cerc se stabilește comparând distanța de la centru la dreaptă cu raza: dacă distanța este mai mare decât raza, dreapta este exterioară și nu taie cercul; dacă este egală cu raza, dreapta este tangentă și atinge cercul într-un singur punct; dacă este mai mică decât raza, dreapta este secantă și taie cercul în două puncte. Aceste relații permit rezolvarea numerică a problemelor despre cercuri, tangente și intersecții.",
+     "ideiCheie": [
+      "Cercul este locul punctelor egal depărtate de centru, la distanța egală cu raza.",
+      "Cercul cu centrul în origine și raza r are ecuația: pătratul lui x plus pătratul lui y egal r la pătrat.",
+      "Din ecuația cercului se citesc direct centrul și raza.",
+      "O dreaptă este tangentă la cerc dacă distanța de la centru la ea este egală cu raza."
+     ],
+     "termeni": [
+      {
+       "t": "cerc",
+       "d": "locul geometric al punctelor din plan aflate la o distanță constantă, raza, față de un punct fix, centrul"
+      },
+      {
+       "t": "dreaptă tangentă la cerc",
+       "d": "dreapta aflată la distanță egală cu raza față de centru, atingând cercul într-un singur punct"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este un cerc, ca loc geometric?",
+       "v": "Mulțimea punctelor egal depărtate de un punct fix, centrul."
+      },
+      {
+       "f": "Care este ecuația cercului cu centrul în origine și raza r?",
+       "v": "Pătratul lui x plus pătratul lui y egal r la pătrat."
+      },
+      {
+       "f": "Ce se citește direct din ecuația unui cerc?",
+       "v": "Centrul și raza."
+      },
+      {
+       "f": "Când este o dreaptă tangentă la un cerc?",
+       "v": "Când distanța de la centru la dreaptă este egală cu raza."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Ecuația cercului cu centrul în origine și raza 3 este:",
+       "optiuni": [
+        "pătratul lui x plus pătratul lui y egal 9",
+        "pătratul lui x plus pătratul lui y egal 3",
+        "x plus y egal 3",
+        "pătratul lui x minus pătratul lui y egal 9"
+       ],
+       "corect": 0,
+       "explicatie": "Raza la pătrat este 9."
+      },
+      {
+       "intrebare": "Cercul de ecuație (x minus 1) la pătrat plus (y plus 2) la pătrat egal 16 are:",
+       "optiuni": [
+        "centrul în (1, minus 2) și raza 4",
+        "centrul în (minus 1, 2) și raza 16",
+        "centrul în (1, 2) și raza 4",
+        "centrul în origine și raza 16"
+       ],
+       "corect": 0,
+       "explicatie": "Raza este rădăcina din 16."
+      },
+      {
+       "intrebare": "O dreaptă este tangentă la un cerc dacă distanța de la centru la dreaptă este:",
+       "optiuni": [
+        "egală cu raza",
+        "mai mare decât raza",
+        "mai mică decât raza",
+        "nulă"
+       ],
+       "corect": 0,
+       "explicatie": "Distanța mai mică dă o dreaptă secantă."
+      },
+      {
+       "intrebare": "Raza cercului de ecuație pătratul lui x plus pătratul lui y egal 25 este:",
+       "optiuni": [
+        "5",
+        "25",
+        "10",
+        "12,5"
+       ],
+       "corect": 0,
+       "explicatie": "Raza este rădăcina din 25."
+      }
+     ]
+    }
+   ]
   }
  ],
  "teze": [
   {
    "semestru": 1,
    "test": [
+    {
+     "intrebare": "Funcția f de x egal cu x la pătrat este:",
+     "optiuni": [
+      "pară, cu graficul simetric față de axa verticală",
+      "impară, cu graficul simetric față de origine",
+      "fără simetrie",
+      "strict descrescătoare peste tot"
+     ],
+     "corect": 0,
+     "explicatie": "Valorile ei sunt nenegative."
+    },
+    {
+     "intrebare": "Funcția radical de ordin par este definită pentru:",
+     "optiuni": [
+      "numere nenegative",
+      "orice număr real",
+      "numere negative",
+      "numere întregi"
+     ],
+     "corect": 0,
+     "explicatie": "O putere pară nu poate fi negativă."
+    },
+    {
+     "intrebare": "Imaginea funcției sinus este intervalul:",
+     "optiuni": [
+      "de la minus unu la unu",
+      "de la zero la unu",
+      "toate numerele reale",
+      "de la minus doi la doi"
+     ],
+     "corect": 0,
+     "explicatie": "Valorile sinusului nu ies din acest interval."
+    },
+    {
+     "intrebare": "Perioada principală a funcției cosinus este:",
+     "optiuni": [
+      "doi pi",
+      "pi",
+      "pi supra doi",
+      "1"
+     ],
+     "corect": 0,
+     "explicatie": "Valorile se reiau la fiecare rotație completă."
+    },
+    {
+     "intrebare": "Ecuația sinus de x egal 2:",
+     "optiuni": [
+      "nu are soluții reale",
+      "are o singură soluție",
+      "are exact două soluții",
+      "are o infinitate de soluții"
+     ],
+     "corect": 0,
+     "explicatie": "Numărul 2 nu este în intervalul de la minus unu la unu."
+    },
+    {
+     "intrebare": "Funcția f de x egal cu x la cub este:",
+     "optiuni": [
+      "impară, cu graficul simetric față de origine",
+      "pară",
+      "constantă",
+      "fără simetrie"
+     ],
+     "corect": 0,
+     "explicatie": "Ia atât valori pozitive, cât și negative."
+    },
     {
      "intrebare": "Baza unei funcții exponențiale trebuie să fie:",
      "optiuni": [
@@ -902,6 +1754,72 @@
   {
    "semestru": 2,
    "test": [
+    {
+     "intrebare": "Unitatea imaginară i satisface relația:",
+     "optiuni": [
+      "i la pătrat egal minus unu",
+      "i la pătrat egal unu",
+      "i egal zero",
+      "i la pătrat egal i"
+     ],
+     "corect": 0,
+     "explicatie": "Pe ea se construiesc numerele complexe."
+    },
+    {
+     "intrebare": "Modulul numărului complex 3 plus 4i este:",
+     "optiuni": [
+      "5",
+      "7",
+      "25",
+      "1"
+     ],
+     "corect": 0,
+     "explicatie": "Rădăcina din 3 la pătrat plus 4 la pătrat."
+    },
+    {
+     "intrebare": "Conjugatul numărului complex 3 plus 4i este:",
+     "optiuni": [
+      "3 minus 4i",
+      "minus 3 plus 4i",
+      "4 plus 3i",
+      "3 plus 4i"
+     ],
+     "corect": 0,
+     "explicatie": "Se schimbă doar semnul părții imaginare."
+    },
+    {
+     "intrebare": "În mulțimea numerelor complexe, ecuația x la pătrat plus unu egal zero are soluțiile:",
+     "optiuni": [
+      "i și minus i",
+      "unu și minus unu",
+      "doar zero",
+      "niciuna"
+     ],
+     "corect": 0,
+     "explicatie": "Pentru că pătratul lui i este minus unu."
+    },
+    {
+     "intrebare": "Ecuația cercului cu centrul în origine și raza 3 este:",
+     "optiuni": [
+      "pătratul lui x plus pătratul lui y egal 9",
+      "pătratul lui x plus pătratul lui y egal 3",
+      "x plus y egal 3",
+      "pătratul lui x minus pătratul lui y egal 9"
+     ],
+     "corect": 0,
+     "explicatie": "Raza la pătrat este 9."
+    },
+    {
+     "intrebare": "Produsul scalar al vectorilor de componente (1, 2) și (3, 4) este:",
+     "optiuni": [
+      "11",
+      "10",
+      "7",
+      "24"
+     ],
+     "corect": 0,
+     "explicatie": "1 ori 3 plus 2 ori 4, adică 3 plus 8."
+    },
     {
      "intrebare": "Abaterea standard măsoară:",
      "optiuni": [

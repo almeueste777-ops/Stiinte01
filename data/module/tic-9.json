@@ -792,12 +792,722 @@
      ]
     }
    ]
+  },
+  {
+   "id": "tic9-c4",
+   "titlu": "Reprezentarea informației",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "tic9-10",
+     "titlu": "Sistemul binar și unitățile informației",
+     "rezumat": "Calculatorul lucrează cu două stări electrice, pe care le notăm 0 și 1. De aceea toată informația — numere, text, imagini, sunet — este codificată în sistemul binar (baza 2). Cifra binară se numește bit, iar un grup de opt biți formează un octet (byte), unitatea de bază pentru măsurarea datelor. Un număr întreg se scrie în binar folosind puteri ale lui 2: de exemplu 1011 în binar înseamnă 1·8 + 0·4 + 1·2 + 1·1 = 11 în zecimal. Cu n biți se pot reprezenta 2 la puterea n valori distincte: opt biți acoperă 256 de valori, de la 0 la 255. Multiplii octetului cresc, uzual, din 1024 în 1024: kilooctet (KB), megaoctet (MB), gigaoctet (GB), teraoctet (TB). Alegerea sistemului binar nu este întâmplătoare: două stări (prezența sau absența curentului) sunt ușor de distins și de menținut fiabil în circuite. Sistemul hexazecimal (baza 16) se folosește ca scriere prescurtată a binarului, mai ales pentru culori și adrese de memorie.",
+     "ideiCheie": [
+      "În binar există doar două cifre: 0 și 1; unitatea este bitul.",
+      "Un octet are opt biți și poate reprezenta 256 de valori (0–255).",
+      "Cu n biți se reprezintă 2 la puterea n valori distincte.",
+      "Multiplii octetului cresc, uzual, din 1024 în 1024: KB, MB, GB, TB."
+     ],
+     "termeni": [
+      {
+       "t": "bit",
+       "d": "cea mai mică unitate de informație, care poate lua valoarea 0 sau 1"
+      },
+      {
+       "t": "sistem binar",
+       "d": "sistemul de numerație în baza 2, folosit de calculatoare"
+      },
+      {
+       "t": "octet",
+       "d": "grup de opt biți, unitatea de bază pentru măsurarea datelor"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este un bit?",
+       "v": "Cea mai mică unitate de informație, cu valoarea 0 sau 1."
+      },
+      {
+       "f": "Câte valori se pot reprezenta cu opt biți?",
+       "v": "256, adică 2 la puterea 8, de la 0 la 255."
+      },
+      {
+       "f": "În ce bază lucrează sistemul binar?",
+       "v": "În baza 2."
+      },
+      {
+       "f": "Cât face numărul binar 1011 în zecimal?",
+       "v": "11 (8 + 0 + 2 + 1)."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Numărul binar 1011 corespunde, în zecimal, valorii:",
+       "optiuni": [
+        "11",
+        "9",
+        "13",
+        "15"
+       ],
+       "corect": 0,
+       "explicatie": "1·8 + 0·4 + 1·2 + 1·1 = 11."
+      },
+      {
+       "intrebare": "Cu opt biți se pot reprezenta:",
+       "optiuni": [
+        "256 de valori",
+        "8 valori",
+        "64 de valori",
+        "1024 de valori"
+       ],
+       "corect": 0,
+       "explicatie": "2 la puterea 8 este 256."
+      },
+      {
+       "intrebare": "Cea mai mică unitate de informație este:",
+       "optiuni": [
+        "bitul",
+        "octetul",
+        "kilobytul",
+        "caracterul"
+       ],
+       "corect": 0,
+       "explicatie": "Un octet are opt biți."
+      },
+      {
+       "intrebare": "Sistemul binar folosește cifrele:",
+       "optiuni": [
+        "0 și 1",
+        "de la 0 la 9",
+        "de la 0 la 7",
+        "0, 1 și 2"
+       ],
+       "corect": 0,
+       "explicatie": "Ele corespund celor două stări electrice."
+      }
+     ]
+    },
+    {
+     "id": "tic9-11",
+     "titlu": "Reprezentarea textului, a imaginii și a sunetului",
+     "rezumat": "Textul se codifică asociind fiecărui caracter un număr. Codul ASCII a folosit inițial 7–8 biți și acoperea literele latine, cifrele și semnele de bază. Pentru a reprezenta toate sistemele de scriere ale lumii — inclusiv diacriticele românești, chineza sau emoji — s-a impus standardul Unicode, cu codificarea UTF-8, care folosește un număr variabil de octeți pentru fiecare caracter. Imaginea digitală de tip raster este o rețea de puncte colorate numite pixeli. Fiecare pixel are o culoare, exprimată de regulă în modelul RGB (roșu, verde, albastru), câte un octet pentru fiecare canal, deci circa 16,7 milioane de culori posibile. Rezoluția (numărul de pixeli) și adâncimea de culoare determină calitatea și dimensiunea fișierului. Imaginile vectoriale, în schimb, sunt descrise prin formule geometrice și se pot mări fără pierderea calității. Sunetul, o undă continuă, se digitizează prin eșantionare: se măsoară amplitudinea la intervale regulate (rata de eșantionare, de exemplu 44 100 de ori pe secundă la calitate CD) și se cuantizează pe un număr de biți. Cu cât rata de eșantionare și adâncimea în biți sunt mai mari, cu atât redarea este mai fidelă, dar fișierul mai mare. Compresia (JPEG pentru imagini, MP3 pentru sunet) reduce dimensiunea, uneori cu pierderi.",
+     "ideiCheie": [
+      "Textul se codifică prin numere; Unicode/UTF-8 acoperă toate scrierile lumii.",
+      "Imaginea raster e formată din pixeli; culoarea se dă în modelul RGB.",
+      "Sunetul se digitizează prin eșantionare și cuantizare.",
+      "Compresia (JPEG, MP3) reduce dimensiunea fișierelor, uneori cu pierderi."
+     ],
+     "termeni": [
+      {
+       "t": "pixel",
+       "d": "cel mai mic punct dintr-o imagine raster, cu o culoare proprie"
+      },
+      {
+       "t": "Unicode",
+       "d": "standardul care atribuie un cod unic fiecărui caracter din scrierile lumii"
+      },
+      {
+       "t": "eșantionare",
+       "d": "măsurarea la intervale regulate a unei mărimi continue, pentru digitizare"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este un pixel?",
+       "v": "Cel mai mic punct colorat dintr-o imagine raster."
+      },
+      {
+       "f": "Ce standard acoperă diacriticele și emoji?",
+       "v": "Unicode, cu codificarea UTF-8."
+      },
+      {
+       "f": "Ce înseamnă modelul RGB?",
+       "v": "Combinarea a trei culori: roșu, verde și albastru."
+      },
+      {
+       "f": "Cum se digitizează sunetul?",
+       "v": "Prin eșantionare (măsurare la intervale regulate) și cuantizare."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "O imagine raster este formată din:",
+       "optiuni": [
+        "pixeli",
+        "vectori",
+        "caractere",
+        "eșantioane"
+       ],
+       "corect": 0,
+       "explicatie": "Fiecare pixel are o culoare proprie."
+      },
+      {
+       "intrebare": "Diacriticele românești și emoji sunt acoperite de:",
+       "optiuni": [
+        "Unicode",
+        "ASCII pe 7 biți",
+        "codul Morse",
+        "sistemul zecimal"
+       ],
+       "corect": 0,
+       "explicatie": "UTF-8 este codificarea uzuală a Unicode."
+      },
+      {
+       "intrebare": "Modelul RGB combină culorile:",
+       "optiuni": [
+        "roșu, verde și albastru",
+        "roșu, galben și albastru",
+        "cyan, magenta și galben",
+        "alb și negru"
+       ],
+       "corect": 0,
+       "explicatie": "Fiecare canal are, de obicei, câte un octet."
+      },
+      {
+       "intrebare": "Spre deosebire de imaginea raster, imaginea vectorială:",
+       "optiuni": [
+        "se poate mări fără pierderea calității",
+        "este formată din pixeli",
+        "are întotdeauna fișier mai mare",
+        "nu poate fi colorată"
+       ],
+       "corect": 0,
+       "explicatie": "Ea este descrisă prin formule geometrice."
+      }
+     ]
+    },
+    {
+     "id": "tic9-12",
+     "titlu": "Periferice, porturi și conectarea dispozitivelor",
+     "rezumat": "Perifericele sunt dispozitivele conectate la unitatea centrală. Se împart în periferice de intrare (tastatură, mouse, scaner, cameră web, microfon), de ieșire (monitor, imprimantă, difuzoare, videoproiector) și de intrare-ieșire (ecran tactil, imprimantă multifuncțională, memorie externă). Legătura se face prin porturi și cabluri sau fără fir. Porturile uzuale: USB (universal, pentru majoritatea perifericelor și pentru alimentare), HDMI (imagine și sunet către monitor sau televizor), jack audio, Ethernet (rețea cu fir). Conexiunile fără fir folosesc Wi-Fi (rețea locală) și Bluetooth (distanțe mici, între căști, mouse, telefon). Pentru ca sistemul de operare să recunoască un periferic, este nevoie de un driver — programul care traduce comenzile între sistem și dispozitiv. Alegerea și întreținerea perifericelor țin de ergonomie și fiabilitate: o tastatură și un mouse potrivite reduc oboseala, un monitor bine reglat protejează vederea, iar conectarea și deconectarea corectă (scoaterea în siguranță a memoriilor externe) previn pierderea datelor. Standardul USB-C actual permite, printr-un singur cablu reversibil, atât transfer rapid, cât și încărcare.",
+     "ideiCheie": [
+      "Perifericele sunt de intrare, de ieșire sau de intrare-ieșire.",
+      "Porturi uzuale: USB, HDMI, jack audio, Ethernet.",
+      "Wi-Fi și Bluetooth sunt conexiuni fără fir.",
+      "Driverul este programul care face un periferic recunoscut de sistemul de operare."
+     ],
+     "termeni": [
+      {
+       "t": "periferic",
+       "d": "dispozitiv conectat la unitatea centrală, de intrare sau de ieșire"
+      },
+      {
+       "t": "driver",
+       "d": "programul care permite sistemului de operare să comunice cu un dispozitiv"
+      },
+      {
+       "t": "Bluetooth",
+       "d": "tehnologie de conectare fără fir, pe distanțe mici"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este un driver?",
+       "v": "Programul care permite sistemului de operare să comunice cu un dispozitiv."
+      },
+      {
+       "f": "Ce port transmite imagine și sunet către un monitor?",
+       "v": "HDMI."
+      },
+      {
+       "f": "Ce conexiune fără fir se folosește pentru căști și mouse?",
+       "v": "Bluetooth."
+      },
+      {
+       "f": "Dă un exemplu de periferic de intrare-ieșire.",
+       "v": "Ecranul tactil sau imprimanta multifuncțională."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Pentru a conecta un monitor și a transmite imagine și sunet se folosește, uzual:",
+       "optiuni": [
+        "HDMI",
+        "jack audio",
+        "Ethernet",
+        "USB pentru tastatură"
+       ],
+       "corect": 0,
+       "explicatie": "HDMI transportă atât imaginea, cât și sunetul."
+      },
+      {
+       "intrebare": "Bluetooth se folosește pentru:",
+       "optiuni": [
+        "conexiuni fără fir pe distanțe mici",
+        "conectarea la internetul global",
+        "alimentarea cu energie",
+        "stocarea permanentă a datelor"
+       ],
+       "corect": 0,
+       "explicatie": "Este util pentru căști, mouse sau transfer între telefoane."
+      },
+      {
+       "intrebare": "Pentru ca un periferic nou să fie recunoscut, sistemul are nevoie de:",
+       "optiuni": [
+        "un driver",
+        "o parolă",
+        "un antivirus",
+        "o placă grafică nouă"
+       ],
+       "corect": 0,
+       "explicatie": "Driverul traduce comenzile între sistem și dispozitiv."
+      },
+      {
+       "intrebare": "Scoaterea în siguranță a unei memorii USB este importantă pentru:",
+       "optiuni": [
+        "a evita pierderea datelor aflate în curs de scriere",
+        "a economisi energie",
+        "a crește viteza portului",
+        "a instala un driver"
+       ],
+       "corect": 0,
+       "explicatie": "Deconectarea bruscă poate corupe fișierele."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tic9-c5",
+   "titlu": "Lucru eficient și sănătos",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "tic9-13",
+     "titlu": "Ergonomie, sănătate digitală și echilibru",
+     "rezumat": "Folosirea îndelungată a dispozitivelor solicită corpul și mintea. Ergonomia la calculator cere: monitorul la nivelul ochilor și la distanța unui braț, spatele sprijinit și drept, picioarele pe podea, antebrațele paralele cu masa, iluminare fără reflexii pe ecran. Regula 20-20-20 previne oboseala vizuală: la fiecare 20 de minute, privește 20 de secunde un obiect aflat la circa 20 de pași. Sănătatea digitală înseamnă și echilibrul dintre timpul petrecut online și restul vieții. Semne de folosire problematică: pierderea noțiunii timpului, neglijarea somnului, a mișcării și a relațiilor față în față, nevoia de a verifica neîncetat notificările. Măsuri utile: pauze regulate, dezactivarea notificărilor neimportante, un program fără ecrane înainte de somn (lumina albastră îngreunează adormirea), activitate fizică și timp în aer liber. Igiena atenției este o competență în sine: mediile digitale sunt proiectate să capteze atenția, iar comutarea permanentă între sarcini reduce, de fapt, performanța. Lucrul concentrat, pe o singură sarcină, cu notificările oprite, este mai eficient. Echilibrul nu înseamnă respingerea tehnologiei, ci folosirea ei deliberată, în slujba propriilor scopuri.",
+     "ideiCheie": [
+      "Ergonomia: monitor la nivelul ochilor, spate drept, picioare pe podea, fără reflexii.",
+      "Regula 20-20-20 previne oboseala vizuală.",
+      "Lumina albastră seara îngreunează adormirea.",
+      "Lucrul concentrat este mai eficient decât comutarea permanentă între sarcini."
+     ],
+     "termeni": [
+      {
+       "t": "ergonomie",
+       "d": "adaptarea locului de muncă la corp, pentru confort și sănătate"
+      },
+      {
+       "t": "regula 20-20-20",
+       "d": "la 20 de minute, o pauză de 20 de secunde privind la circa 20 de pași"
+      },
+      {
+       "t": "sănătate digitală",
+       "d": "echilibrul dintre folosirea tehnologiei și restul vieții"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "La ce distanță și înălțime se așază monitorul?",
+       "v": "La distanța unui braț și la nivelul ochilor."
+      },
+      {
+       "f": "Ce spune regula 20-20-20?",
+       "v": "La 20 de minute, privește 20 de secunde un obiect aflat la circa 20 de pași."
+      },
+      {
+       "f": "De ce se evită ecranele înainte de somn?",
+       "v": "Pentru că lumina albastră îngreunează adormirea."
+      },
+      {
+       "f": "Este eficientă comutarea permanentă între sarcini?",
+       "v": "Nu; lucrul concentrat pe o singură sarcină este mai eficient."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Regula 20-20-20 previne:",
+       "optiuni": [
+        "oboseala vizuală",
+        "încălzirea procesorului",
+        "pierderea fișierelor",
+        "infectarea cu viruși"
+       ],
+       "corect": 0,
+       "explicatie": "Ochii se relaxează privind la distanță."
+      },
+      {
+       "intrebare": "Poziția corectă la calculator presupune:",
+       "optiuni": [
+        "monitorul la nivelul ochilor și spatele sprijinit",
+        "monitorul mult sub nivelul ochilor",
+        "lucrul aplecat înainte",
+        "ecranul lipit de față"
+       ],
+       "corect": 0,
+       "explicatie": "Ergonomia reduce oboseala și problemele de postură."
+      },
+      {
+       "intrebare": "Folosirea ecranelor imediat înainte de somn:",
+       "optiuni": [
+        "îngreunează adormirea, din cauza luminii albastre",
+        "îmbunătățește somnul",
+        "nu are niciun efect",
+        "crește atenția a doua zi"
+       ],
+       "corect": 0,
+       "explicatie": "Se recomandă un interval fără ecrane seara."
+      },
+      {
+       "intrebare": "Comparativ cu lucrul concentrat, comutarea permanentă între sarcini:",
+       "optiuni": [
+        "reduce, de regulă, performanța",
+        "o crește mereu",
+        "nu o influențează",
+        "elimină oboseala"
+       ],
+       "corect": 0,
+       "explicatie": "Fiecare comutare are un cost de atenție."
+      }
+     ]
+    },
+    {
+     "id": "tic9-14",
+     "titlu": "Organizarea, arhivarea și copiile fișierelor",
+     "rezumat": "O bibliotecă digitală crește repede și devine de negăsit fără o organizare gândită. Principii: o structură de foldere logică și puțin adâncă, nume descriptive și consecvente (proiect, tip, dată în format an-lună-zi pentru sortare corectă), evitarea denumirilor „final”, „final2”, „ultimul_final”. Convențiile de denumire economisesc mai mult timp decât aproape orice alt obicei digital. Arhivarea comprimă unul sau mai multe fișiere într-un singur pachet (de exemplu .zip), reducând dimensiunea și ușurând transferul; arhiva poate fi protejată cu parolă. Compresia este fără pierderi pentru documente (textul se recuperează integral) și, uneori, cu pierderi pentru imagini sau sunet. Dezarhivarea reface fișierele originale. Copia de siguranță (backup) este plasa de salvare împotriva pierderii datelor prin defecțiune, ștergere accidentală, furt sau ransomware. Regula practică 3-2-1: trei copii ale datelor, pe două tipuri de suport, dintre care una într-o locație diferită (de exemplu în cloud). O copie păstrată lângă original nu protejează împotriva incendiului sau a furtului; de aceea contează separarea fizică.",
+     "ideiCheie": [
+      "Structură de foldere logică, nume descriptive, dată în format an-lună-zi.",
+      "Arhivarea (.zip) reduce dimensiunea și poate fi protejată cu parolă.",
+      "Copia de siguranță protejează împotriva pierderii datelor.",
+      "Regula 3-2-1: trei copii, două suporturi, una într-o locație separată."
+     ],
+     "termeni": [
+      {
+       "t": "arhivă",
+       "d": "fișier care conține, comprimate, unul sau mai multe fișiere"
+      },
+      {
+       "t": "copie de siguranță",
+       "d": "duplicat al datelor, păstrat pentru cazul pierderii originalului"
+      },
+      {
+       "t": "regula 3-2-1",
+       "d": "trei copii, pe două tipuri de suport, una într-o locație separată"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce face arhivarea unui folder?",
+       "v": "Îl comprimă într-un singur fișier, mai mic și mai ușor de transferat."
+      },
+      {
+       "f": "Ce spune regula 3-2-1 a copiilor de siguranță?",
+       "v": "Trei copii, pe două suporturi, una într-o locație separată."
+      },
+      {
+       "f": "De ce se pune data în format an-lună-zi în numele fișierelor?",
+       "v": "Pentru ca sortarea alfabetică să le ordoneze și cronologic."
+      },
+      {
+       "f": "Protejează o copie păstrată lângă original împotriva furtului?",
+       "v": "Nu; de aceea o copie se ține într-o altă locație."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Regula 3-2-1 a copiilor de siguranță cere:",
+       "optiuni": [
+        "trei copii, pe două suporturi, una într-o altă locație",
+        "o singură copie pe același disc",
+        "trei copii pe același disc",
+        "două copii în același folder"
+       ],
+       "corect": 0,
+       "explicatie": "Separarea fizică protejează împotriva incendiului sau furtului."
+      },
+      {
+       "intrebare": "Arhivarea unui folder este utilă pentru:",
+       "optiuni": [
+        "reducerea dimensiunii și transferul mai ușor",
+        "creșterea vitezei procesorului",
+        "mărirea memoriei RAM",
+        "accelerarea internetului"
+       ],
+       "corect": 0,
+       "explicatie": "Arhiva poate fi și protejată cu parolă."
+      },
+      {
+       "intrebare": "Datele în numele fișierelor se scriu, pentru sortare corectă, în format:",
+       "optiuni": [
+        "an-lună-zi",
+        "zi-lună-an",
+        "lună-zi-an",
+        "fără an"
+       ],
+       "corect": 0,
+       "explicatie": "Astfel ordinea alfabetică coincide cu cea cronologică."
+      },
+      {
+       "intrebare": "O copie de siguranță păstrată doar pe același disc cu originalul:",
+       "optiuni": [
+        "nu ajută dacă discul se defectează",
+        "este cea mai sigură",
+        "respectă regula 3-2-1",
+        "este suficientă împotriva furtului"
+       ],
+       "corect": 0,
+       "explicatie": "Copiile trebuie separate de original."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tic9-c6",
+   "titlu": "Documente structurate",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "tic9-15",
+     "titlu": "Tabele și liste în procesorul de text",
+     "rezumat": "Tabelul organizează informația în rânduri și coloane și este ideal pentru date comparabile: orare, liste de prețuri, rezultate. Se inserează precizând numărul de rânduri și de coloane, apoi se pot adăuga sau șterge linii, îmbina celule, alinia conținutul și aplica un stil de tabel pentru un aspect unitar. Rândul de antet, repetat pe fiecare pagină, ușurează citirea tabelelor lungi. Listele structurează enumerările. Lista neordonată (cu marcatori) se folosește când ordinea nu contează; lista ordonată (numerotată) când pașii se succed logic. Listele pot fi imbricate pe mai multe niveluri, iar numerotarea automată se actualizează singură când se adaugă sau se șterge un element — de aceea nu se numerotează niciodată manual. Alegerea corectă între tabel și listă ține de natura informației: tabelul pentru date pe două dimensiuni, lista pentru o înșiruire pe o singură dimensiune. Un tabel supraîncărcat sau folosit doar pentru a alinia text devine greu de întreținut; pentru aliniere se folosesc tabulatorii sau coloanele, nu tabele invizibile.",
+     "ideiCheie": [
+      "Tabelul e potrivit pentru date comparabile, pe rânduri și coloane.",
+      "Rândul de antet repetat ușurează citirea tabelelor lungi.",
+      "Lista ordonată e pentru pași succesivi; cea neordonată, când ordinea nu contează.",
+      "Numerotarea automată se actualizează singură; nu se numerotează manual."
+     ],
+     "termeni": [
+      {
+       "t": "tabel",
+       "d": "structură de rânduri și coloane pentru organizarea datelor comparabile"
+      },
+      {
+       "t": "listă ordonată",
+       "d": "enumerare numerotată automat, pentru elemente cu ordine logică"
+      },
+      {
+       "t": "rând de antet",
+       "d": "primul rând al unui tabel, care denumește coloanele"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Când se folosește un tabel?",
+       "v": "Pentru date comparabile, organizate pe rânduri și coloane."
+      },
+      {
+       "f": "Ce avantaj are numerotarea automată a listelor?",
+       "v": "Se actualizează singură când se adaugă sau se șterg elemente."
+      },
+      {
+       "f": "Când se preferă o listă ordonată?",
+       "v": "Când elementele se succed într-o ordine logică."
+      },
+      {
+       "f": "La ce folosește rândul de antet repetat?",
+       "v": "Ajută citirea tabelelor întinse pe mai multe pagini."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "O listă ordonată (numerotată) este potrivită pentru:",
+       "optiuni": [
+        "pași care se succed logic",
+        "elemente fără ordine",
+        "alinierea a două coloane de text",
+        "inserarea unei imagini"
+       ],
+       "corect": 0,
+       "explicatie": "Când ordinea nu contează se folosește lista cu marcatori."
+      },
+      {
+       "intrebare": "Numerotarea manuală a unei liste este dezavantajoasă pentru că:",
+       "optiuni": [
+        "nu se actualizează singură la adăugarea sau ștergerea elementelor",
+        "ocupă mai puțin spațiu",
+        "este mai lizibilă",
+        "permite imbricarea"
+       ],
+       "corect": 0,
+       "explicatie": "Numerotarea automată rezolvă problema."
+      },
+      {
+       "intrebare": "Pentru date comparabile pe două criterii este potrivit:",
+       "optiuni": [
+        "tabelul",
+        "lista neordonată",
+        "nota de subsol",
+        "antetul paginii"
+       ],
+       "corect": 0,
+       "explicatie": "Tabelul organizează informația pe rânduri și coloane."
+      },
+      {
+       "intrebare": "Rândul de antet al unui tabel lung, repetat pe fiecare pagină:",
+       "optiuni": [
+        "ușurează citirea și înțelegerea coloanelor",
+        "mărește mult fișierul",
+        "este interzis",
+        "înlocuiește numerotarea"
+       ],
+       "corect": 0,
+       "explicatie": "El denumește coloanele oriunde continuă tabelul."
+      }
+     ]
+    },
+    {
+     "id": "tic9-16",
+     "titlu": "Imagini și obiecte grafice în documente",
+     "rezumat": "Un document câștigă în claritate prin imagini, diagrame și obiecte grafice, dacă acestea sunt relevante și bine integrate. Imaginea se inserează dintr-un fișier și se poziționează în raport cu textul: „în linie cu textul” (se comportă ca un caracter) sau cu „încadrarea textului” în jur. Redimensionarea se face păstrând proporțiile (trăgând de un colț), pentru a nu deforma imaginea. Pe lângă fotografii, se pot insera forme, pictograme, diagrame (organigrame, procese) și grafice legate de datele dintr-un tabel. Fiecare obiect ar trebui să aibă un titlu sau o legendă și, pentru accesibilitate, un text alternativ care descrie conținutul pentru cititoarele de ecran. Rezoluția imaginii trebuie să fie suficientă pentru tipărire, dar nu excesivă, ca fișierul să rămână gestionabil. Buna practică cere ca imaginile să servească mesajul, nu să-l încarce: o diagramă limpede spune mai mult decât un paragraf, dar o imagine decorativă fără legătură distrage. Se preferă formate potrivite (fotografii în JPEG, desene și capturi cu zone plate în PNG) și se verifică drepturile de folosire ale oricărei imagini preluate din altă parte.",
+     "ideiCheie": [
+      "Imaginea se poziționează în linie cu textul sau cu încadrarea textului.",
+      "Redimensionarea se face din colț, pentru a păstra proporțiile.",
+      "Textul alternativ descrie imaginea pentru cititoarele de ecran (accesibilitate).",
+      "Formatele potrivite: JPEG pentru fotografii, PNG pentru desene și capturi."
+     ],
+     "termeni": [
+      {
+       "t": "text alternativ",
+       "d": "descriere textuală a unei imagini, citită de tehnologiile de accesibilitate"
+      },
+      {
+       "t": "încadrarea textului",
+       "d": "modul în care textul curge în jurul unei imagini"
+      },
+      {
+       "t": "legendă",
+       "d": "text scurt care explică o imagine sau o figură"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "La ce folosește textul alternativ al unei imagini?",
+       "v": "Descrie imaginea pentru cititoarele de ecran, sprijinind accesibilitatea."
+      },
+      {
+       "f": "Cum se redimensionează o imagine fără a o deforma?",
+       "v": "Trăgând de un colț, ca să se păstreze proporțiile."
+      },
+      {
+       "f": "Ce format e potrivit pentru fotografii?",
+       "v": "JPEG."
+      },
+      {
+       "f": "Ce format e potrivit pentru desene și capturi de ecran?",
+       "v": "PNG."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Pentru a nu deforma o imagine, se redimensionează:",
+       "optiuni": [
+        "trăgând de un colț, păstrând proporțiile",
+        "trăgând de o singură latură",
+        "prin decupare",
+        "schimbând doar rezoluția"
+       ],
+       "corect": 0,
+       "explicatie": "Tragerea de o latură modifică raportul laturilor."
+      },
+      {
+       "intrebare": "Textul alternativ al unei imagini servește:",
+       "optiuni": [
+        "accesibilității, fiind citit de cititoarele de ecran",
+        "creșterii rezoluției",
+        "reducerii dimensiunii fișierului",
+        "alinierii textului"
+       ],
+       "corect": 0,
+       "explicatie": "El descrie conținutul pentru cine nu vede imaginea."
+      },
+      {
+       "intrebare": "Pentru o fotografie într-un document este potrivit formatul:",
+       "optiuni": [
+        "JPEG",
+        "TXT",
+        "MP3",
+        "ZIP"
+       ],
+       "corect": 0,
+       "explicatie": "PNG este mai potrivit pentru desene și capturi cu zone plate."
+      },
+      {
+       "intrebare": "O imagine decorativă fără legătură cu textul:",
+       "optiuni": [
+        "distrage cititorul de la mesaj",
+        "este întotdeauna recomandată",
+        "înlocuiește o diagramă",
+        "crește accesibilitatea"
+       ],
+       "corect": 0,
+       "explicatie": "Imaginile trebuie să servească mesajul."
+      }
+     ]
+    }
+   ]
   }
  ],
  "teze": [
   {
    "semestru": 1,
    "test": [
+    {
+     "intrebare": "Numărul binar 1011 înseamnă, în zecimal:",
+     "optiuni": [
+      "11",
+      "9",
+      "12",
+      "15"
+     ],
+     "corect": 0,
+     "explicatie": "8 + 0 + 2 + 1 = 11."
+    },
+    {
+     "intrebare": "Cu opt biți se pot reprezenta:",
+     "optiuni": [
+      "256 de valori",
+      "8 valori",
+      "16 valori",
+      "100 de valori"
+     ],
+     "corect": 0,
+     "explicatie": "2 la puterea 8 este 256."
+    },
+    {
+     "intrebare": "O imagine raster este alcătuită din:",
+     "optiuni": [
+      "pixeli",
+      "vectori",
+      "octeți de text",
+      "eșantioane sonore"
+     ],
+     "corect": 0,
+     "explicatie": "Fiecare pixel are o culoare, uzual în modelul RGB."
+    },
+    {
+     "intrebare": "Diacriticele și emoji sunt cuprinse în standardul:",
+     "optiuni": [
+      "Unicode",
+      "ASCII pe 7 biți",
+      "binar pur",
+      "hexazecimal"
+     ],
+     "corect": 0,
+     "explicatie": "Codificarea uzuală este UTF-8."
+    },
+    {
+     "intrebare": "Pentru ca sistemul de operare să folosească un periferic nou este nevoie de:",
+     "optiuni": [
+      "un driver",
+      "o parolă",
+      "un cont de e-mail",
+      "un browser"
+     ],
+     "corect": 0,
+     "explicatie": "Driverul mediază comunicarea cu dispozitivul."
+    },
+    {
+     "intrebare": "Regula 3-2-1 a copiilor de siguranță cere:",
+     "optiuni": [
+      "trei copii, pe două suporturi, una în altă locație",
+      "o copie pe același disc",
+      "trei copii în același folder",
+      "două copii pe desktop"
+     ],
+     "corect": 0,
+     "explicatie": "Separarea fizică protejează datele."
+    },
     {
      "intrebare": "Memoria RAM este:",
      "optiuni": [
@@ -935,6 +1645,72 @@
   {
    "semestru": 2,
    "test": [
+    {
+     "intrebare": "O listă numerotată automat este preferabilă pentru că:",
+     "optiuni": [
+      "se actualizează singură la adăugarea sau ștergerea elementelor",
+      "ocupă mai puțin loc",
+      "nu poate fi modificată",
+      "se tipărește mai repede"
+     ],
+     "corect": 0,
+     "explicatie": "Numerotarea manuală trebuie refăcută la fiecare schimbare."
+    },
+    {
+     "intrebare": "Pentru date comparabile pe rânduri și coloane se folosește:",
+     "optiuni": [
+      "un tabel",
+      "o listă cu marcatori",
+      "o notă de subsol",
+      "un antet de pagină"
+     ],
+     "corect": 0,
+     "explicatie": "Tabelul organizează informația pe două dimensiuni."
+    },
+    {
+     "intrebare": "Textul alternativ al unei imagini folosește:",
+     "optiuni": [
+      "accesibilității, fiind citit de cititoarele de ecran",
+      "măririi rezoluției",
+      "reducerii fișierului",
+      "alinierii paginii"
+     ],
+     "corect": 0,
+     "explicatie": "El descrie imaginea pentru cine nu o poate vedea."
+    },
+    {
+     "intrebare": "O imagine se redimensionează fără deformare:",
+     "optiuni": [
+      "trăgând de un colț",
+      "trăgând de o latură",
+      "prin schimbarea formatului",
+      "prin decupare"
+     ],
+     "corect": 0,
+     "explicatie": "Astfel se păstrează proporțiile."
+    },
+    {
+     "intrebare": "Pentru o fotografie este potrivit formatul:",
+     "optiuni": [
+      "JPEG",
+      "TXT",
+      "MP3",
+      "ZIP"
+     ],
+     "corect": 0,
+     "explicatie": "PNG e mai potrivit pentru desene și capturi."
+    },
+    {
+     "intrebare": "O imagine decorativă fără legătură cu textul:",
+     "optiuni": [
+      "distrage cititorul de la mesaj",
+      "este mereu recomandată",
+      "crește accesibilitatea",
+      "înlocuiește o diagramă"
+     ],
+     "corect": 0,
+     "explicatie": "Imaginile trebuie să servească mesajul."
+    },
     {
      "intrebare": "Cea mai eficientă măsură împotriva parolelor furate este:",
      "optiuni": [

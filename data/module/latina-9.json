@@ -792,12 +792,871 @@
      ]
     }
    ]
+  },
+  {
+   "id": "lat9-c4",
+   "titlu": "Adjectivul și adverbul",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "lat9-10",
+     "titlu": "Adjectivele de declinarea I și a II-a",
+     "rezumat": "Adjectivele latine se împart, ca substantivele, în două mari clase. Prima clasă cuprinde adjectivele cu trei terminații care se declină după declinarea I (femininul) și a II-a (masculinul și neutrul): bonus, bona, bonum (bun). Masculinul urmează declinarea a II-a în -us sau -er, femininul declinarea I în -a, iar neutrul declinarea a II-a în -um. Se învață și se citesc în dicționar prin cele trei forme: bonus, -a, -um. Adjectivul se acordă întotdeauna cu substantivul determinat în gen, număr și caz, dar nu neapărat în aceeași declinare: „nauta bonus” (marinar bun) are substantivul de declinarea I și adjectivul de declinarea a II-a, pentru că amândouă sunt masculine. Așezarea adjectivului e liberă, dar de obicei atributul calificativ stă după substantiv: „poeta Romanus”, „bellum longum”. Adjectivele în -er pierd uneori pe -e- în flexiune: pulcher, pulchra, pulchrum; altele îl păstrează: liber, libera, liberum.",
+     "ideiCheie": [
+      "Adjectivele clasei I au trei terminații: -us (sau -er), -a, -um.",
+      "Masculinul și neutrul se declină ca declinarea a II-a, femininul ca declinarea I.",
+      "Acordul se face în gen, număr și caz, nu obligatoriu în aceeași declinare.",
+      "Adjectivele în -er pot pierde sau păstra pe -e- în flexiune."
+     ],
+     "termeni": [
+      {
+       "t": "adjectiv cu trei terminații",
+       "d": "adjectiv care are forme distincte pentru masculin, feminin și neutru la nominativ"
+      },
+      {
+       "t": "acord adjectival",
+       "d": "potrivirea adjectivului cu substantivul în gen, număr și caz"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se dau adjectivele clasei I în dicționar?",
+       "v": "Prin trei forme: bonus, -a, -um."
+      },
+      {
+       "f": "De ce „nauta bonus” are cuvinte de declinări diferite?",
+       "v": "Amândouă sunt masculine, dar substantivul e de declinarea I, adjectivul de a II-a."
+      },
+      {
+       "f": "Ce declinare urmează femininul adjectivelor clasei I?",
+       "v": "Declinarea I: bona, bonae."
+      },
+      {
+       "f": "Cum se declină „pulcher”?",
+       "v": "Pulcher, pulchra, pulchrum, pierzând pe -e- în flexiune."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Adjectivul „bonus, -a, -um” se declină după:",
+       "optiuni": [
+        "declinarea a II-a și I",
+        "declinarea a III-a",
+        "declinarea I și a IV-a",
+        "doar declinarea a II-a"
+       ],
+       "corect": 0,
+       "explicatie": "Masculin și neutru la a II-a, feminin la I."
+      },
+      {
+       "intrebare": "Adjectivul se acordă cu substantivul în:",
+       "optiuni": [
+        "gen, număr și caz",
+        "doar gen",
+        "doar caz",
+        "gen și declinare"
+       ],
+       "corect": 0,
+       "explicatie": "„Bellum longum” — ambele neutre, la nominativ singular."
+      },
+      {
+       "intrebare": "Neutrul adjectivului „magnus” este:",
+       "optiuni": [
+        "magnum",
+        "magna",
+        "magnus",
+        "magni"
+       ],
+       "corect": 0,
+       "explicatie": "Neutrul clasei I se termină în -um."
+      },
+      {
+       "intrebare": "Adjectivul „liber, libera, liberum”:",
+       "optiuni": [
+        "păstrează pe -e- în flexiune",
+        "pierde pe -e-",
+        "este de declinarea a III-a",
+        "nu are neutru"
+       ],
+       "corect": 0,
+       "explicatie": "Spre deosebire de „pulcher, pulchra”."
+      }
+     ]
+    },
+    {
+     "id": "lat9-11",
+     "titlu": "Adjectivele de declinarea a III-a",
+     "rezumat": "A doua clasă de adjective se declină după declinarea a III-a, tipul vocalic, și are trei feluri, după numărul terminațiilor la nominativ singular. Adjectivele cu trei terminații sunt puține: acer, acris, acre (ascuțit). Cele cu două terminații, cele mai numeroase, au o formă comună pentru masculin și feminin și una pentru neutru: fortis (m., f.), forte (n.) — puternic. Adjectivele cu o terminație au aceeași formă la toate genurile la nominativ și se recunosc din genitiv: felix, felicis (fericit); prudens, prudentis (chibzuit). Fiind de tip vocalic, aceste adjective au ablativul singular în -i, genitivul plural în -ium și neutrul plural în -ia: „omnia” (toate lucrurile), din omnis, omne. Această clasă dă multe cuvinte culte în română: facilis (facil), fortis (forte), gravis (grav), fragilis (fragil). Participiul prezent (amans, amantis — care iubește) se declină la fel ca un adjectiv cu o terminație.",
+     "ideiCheie": [
+      "Adjectivele clasei a II-a se declină după declinarea a III-a vocalică.",
+      "Au trei tipuri: cu trei, cu două sau cu o terminație la nominativ.",
+      "Ablativ singular -i, genitiv plural -ium, neutru plural -ia.",
+      "Participiul prezent se declină ca un adjectiv cu o terminație."
+     ],
+     "termeni": [
+      {
+       "t": "adjectiv cu două terminații",
+       "d": "adjectiv de declinarea a III-a cu o formă comună masculin-feminin și una pentru neutru"
+      },
+      {
+       "t": "tip vocalic",
+       "d": "flexiunea de declinarea a III-a cu ablativ singular în -i și genitiv plural în -ium"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se declină „fortis”?",
+       "v": "Fortis (masculin și feminin), forte (neutru), genitiv fortis."
+      },
+      {
+       "f": "Ce ablativ singular au adjectivele de declinarea a III-a?",
+       "v": "Terminația -i: forti, omni."
+      },
+      {
+       "f": "Cum recunoști un adjectiv cu o terminație?",
+       "v": "Din genitiv: felix, felicis; prudens, prudentis."
+      },
+      {
+       "f": "Cum se declină participiul prezent „amans”?",
+       "v": "Ca un adjectiv de declinarea a III-a cu o terminație: amans, amantis."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Adjectivul „fortis, forte” are:",
+       "optiuni": [
+        "două terminații",
+        "trei terminații",
+        "o terminație",
+        "patru terminații"
+       ],
+       "corect": 0,
+       "explicatie": "O formă pentru masculin-feminin, una pentru neutru."
+      },
+      {
+       "intrebare": "Ablativul singular al adjectivelor de declinarea a III-a este de regulă:",
+       "optiuni": [
+        "-i",
+        "-e",
+        "-o",
+        "-a"
+       ],
+       "corect": 0,
+       "explicatie": "„Forti”, „omni” — tip vocalic."
+      },
+      {
+       "intrebare": "Neutrul plural al lui „omnis, omne” este:",
+       "optiuni": [
+        "omnia",
+        "omnes",
+        "omnos",
+        "omna"
+       ],
+       "corect": 0,
+       "explicatie": "Neutrul plural al tipului vocalic se termină în -ia."
+      },
+      {
+       "intrebare": "Adjectivul „felix” are, la nominativ singular:",
+       "optiuni": [
+        "o singură terminație pentru toate genurile",
+        "trei terminații",
+        "două terminații",
+        "forme diferite la feminin"
+       ],
+       "corect": 0,
+       "explicatie": "Genitivul „felicis” arată tema."
+      }
+     ]
+    },
+    {
+     "id": "lat9-12",
+     "titlu": "Adverbul și formarea lui",
+     "rezumat": "Adverbul determină un verb, un adjectiv sau alt adverb, arătând modul, timpul, locul sau cantitatea. Multe adverbe se formează de la adjective. De la adjectivele clasei I (declinarea I-II) adverbul se face cu sufixul -e: longus → longe (departe), pulcher → pulchre (frumos), liber → libere. De la adjectivele de declinarea a III-a se folosește sufixul -iter: fortis → fortiter (cu tărie), celer → celeriter; iar cele în -ns fac adverbul în -nter: prudens → prudenter. Există și adverbe primare, nederivate, foarte frecvente în texte: ibi (acolo), ubi (unde), nunc (acum), semper (mereu), saepe (adesea), numquam (niciodată), hic (aici), bene (bine), male (rău). Adverbele au și grade de comparație: comparativul este egal cu neutrul comparativului adjectivului (longius — mai departe), iar superlativul se face cu -issime (longissime). Câteva sunt neregulate: bene, melius, optime; male, peius, pessime.",
+     "ideiCheie": [
+      "Adverbul determină un verb, un adjectiv sau alt adverb.",
+      "De la adjectivele clasei I: sufixul -e (longe); de la a III-a: -iter (fortiter).",
+      "Adverbe primare frecvente: nunc, semper, saepe, numquam, bene.",
+      "Adverbele au grade de comparație, unele neregulate: bene, melius, optime."
+     ],
+     "termeni": [
+      {
+       "t": "adverb",
+       "d": "partea de vorbire neflexibilă care determină un verb, un adjectiv sau alt adverb"
+      },
+      {
+       "t": "adverb derivat",
+       "d": "adverb format de la un adjectiv cu sufixele -e sau -iter"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cu ce sufix se face adverbul de la „longus”?",
+       "v": "Cu -e: longe."
+      },
+      {
+       "f": "Cu ce sufix se face adverbul de la „fortis”?",
+       "v": "Cu -iter: fortiter."
+      },
+      {
+       "f": "Ce înseamnă adverbul „semper”?",
+       "v": "Mereu, întotdeauna."
+      },
+      {
+       "f": "Care este superlativul adverbului „bene”?",
+       "v": "Optime, cu comparativul „melius”."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Adverbul de la adjectivul „liber” este:",
+       "optiuni": [
+        "libere",
+        "liberiter",
+        "libermente",
+        "liberum"
+       ],
+       "corect": 0,
+       "explicatie": "Adjectivele clasei I fac adverbul cu -e."
+      },
+      {
+       "intrebare": "Adverbul „fortiter” s-a format cu sufixul:",
+       "optiuni": [
+        "-iter",
+        "-e",
+        "-ter simplu",
+        "-ns"
+       ],
+       "corect": 0,
+       "explicatie": "De la adjectivul de declinarea a III-a „fortis”."
+      },
+      {
+       "intrebare": "„Numquam” înseamnă:",
+       "optiuni": [
+        "niciodată",
+        "mereu",
+        "adesea",
+        "acum"
+       ],
+       "corect": 0,
+       "explicatie": "Este un adverb primar de timp."
+      },
+      {
+       "intrebare": "Comparativul adverbului „bene” este:",
+       "optiuni": [
+        "melius",
+        "benius",
+        "bonus",
+        "optime"
+       ],
+       "corect": 0,
+       "explicatie": "Superlativul este „optime”."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lat9-c5",
+   "titlu": "Numeralul și pronumele de bază",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "lat9-13",
+     "titlu": "Numeralele latine și cifrele romane",
+     "rezumat": "Numeralele cardinale răspund la întrebarea „câți?”. Primele trei se declină: unus, una, unum (unu); duo, duae, duo (doi); tres, tria (trei). De la patru la o sută sunt, în general, invariabile: quattuor, quinque, sex, septem, octo, novem, decem. Zecile și sutele au forme proprii: viginti (20), triginta (30), centum (100), mille (1000). Numeralele ordinale, care arată al câtelea, se declină ca adjectivele clasei I: primus, secundus, tertius, quartus, quintus. Cifrele romane folosesc șapte litere-simbol: I (1), V (5), X (10), L (50), C (100), D (500), M (1000). Se citesc adunând valorile de la stânga la dreapta, dar un simbol mic pus înaintea unuia mai mare se scade: IV = 4, IX = 9, XL = 40, CM = 900. Astfel MCMXLIV = 1944. Sistemul roman nu are cifra zero și nici notație pozițională; el se mai folosește azi pentru numerotarea capitolelor, a secolelor și pe cadranele de ceas.",
+     "ideiCheie": [
+      "Cardinalele unus, duo, tres se declină; de la patru la o sută sunt invariabile.",
+      "Ordinalele se declină ca adjectivele clasei I: primus, secundus, tertius.",
+      "Cifrele romane folosesc șapte simboluri: I, V, X, L, C, D, M.",
+      "Un simbol mic înaintea unuia mare se scade: IV = 4, IX = 9, CM = 900."
+     ],
+     "termeni": [
+      {
+       "t": "numeral cardinal",
+       "d": "numeralul care arată numărul obiectelor: unus, duo, tres, quattuor"
+      },
+      {
+       "t": "numeral ordinal",
+       "d": "numeralul care arată ordinea: primus, secundus, tertius"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care cardinale latine se declină?",
+       "v": "Primele trei: unus, duo, tres."
+      },
+      {
+       "f": "Ce înseamnă „centum” și „mille”?",
+       "v": "O sută și o mie."
+      },
+      {
+       "f": "Cum se scrie 9 cu cifre romane?",
+       "v": "IX — unu scăzut din zece."
+      },
+      {
+       "f": "Ce valoare are litera L în cifrele romane?",
+       "v": "Cincizeci."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Numeralul „tres, tria” este:",
+       "optiuni": [
+        "un cardinal care se declină",
+        "un ordinal",
+        "invariabil",
+        "un adverb"
+       ],
+       "corect": 0,
+       "explicatie": "Primele trei cardinale au declinare."
+      },
+      {
+       "intrebare": "Cifra romană pentru 50 este:",
+       "optiuni": [
+        "L",
+        "C",
+        "D",
+        "V"
+       ],
+       "corect": 0,
+       "explicatie": "C este 100, D este 500."
+      },
+      {
+       "intrebare": "Grupul „IX” valorează:",
+       "optiuni": [
+        "9",
+        "11",
+        "6",
+        "4"
+       ],
+       "corect": 0,
+       "explicatie": "Unu pus înaintea lui zece se scade."
+      },
+      {
+       "intrebare": "Numeralul ordinal „quartus” înseamnă:",
+       "optiuni": [
+        "al patrulea",
+        "patru",
+        "de patru ori",
+        "a patra parte"
+       ],
+       "corect": 0,
+       "explicatie": "Ordinalele se declină ca adjectivele clasei I."
+      }
+     ]
+    },
+    {
+     "id": "lat9-14",
+     "titlu": "Pronumele personale și posesive",
+     "rezumat": "Pronumele personale latine au forme proprii doar pentru persoana I și a II-a: ego (eu), tu (tu), nos (noi), vos (voi). Ele se declină neregulat: ego, mei, mihi, me, me; tu, tui, tibi, te, te. Pentru persoana a III-a latina nu are pronume personal propriu și folosește demonstrativul is, ea, id (el, ea). Pronumele-subiect se exprimă separat mai ales când e accentuat, pentru că desinența verbului arată deja persoana: „amo” înseamnă deja „eu iubesc”. Pronumele posesive sunt adjective de clasa I și se acordă cu obiectul posedat: meus, mea, meum (al meu); tuus, tua, tuum (al tău); noster, nostra, nostrum (al nostru); vester, vestra, vestrum (al vostru). Pentru persoana a III-a, posesivul reflexiv „suus, sua, suum” (al său) trimite la subiectul propoziției, iar când posesorul e altcineva se folosește genitivul lui is, ea, id: „eius” (al lui, al ei). Pronumele reflexiv „se” (sui, sibi, se, se) nu are nominativ și trimite tot la subiect.",
+     "ideiCheie": [
+      "Pronumele personale au forme proprii doar la persoana I și a II-a.",
+      "Pentru persoana a III-a se folosește demonstrativul is, ea, id.",
+      "Posesivele sunt adjective de clasa I: meus, tuus, noster, vester.",
+      "Posesivul reflexiv „suus” trimite la subiectul propoziției."
+     ],
+     "termeni": [
+      {
+       "t": "pronume personal",
+       "d": "cuvântul care ține locul persoanei care vorbește, ascultă sau despre care se vorbește"
+      },
+      {
+       "t": "pronume reflexiv",
+       "d": "pronumele „se”, fără nominativ, care trimite la subiectul propoziției"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce pronume folosește latina pentru persoana a III-a?",
+       "v": "Demonstrativul is, ea, id."
+      },
+      {
+       "f": "De ce se poate omite pronumele-subiect?",
+       "v": "Pentru că desinența verbului arată deja persoana: „amo” = eu iubesc."
+      },
+      {
+       "f": "Ce arată posesivul „suus”?",
+       "v": "Posesia care trimite la subiectul propoziției: al său propriu."
+      },
+      {
+       "f": "Care este dativul lui „ego”?",
+       "v": "Mihi (mie)."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Pronumele personal de persoana a III-a în latină este redat prin:",
+       "optiuni": [
+        "demonstrativul is, ea, id",
+        "un pronume propriu, „ille” obligatoriu",
+        "pronumele reflexiv „se”",
+        "lipsa totală de exprimare"
+       ],
+       "corect": 0,
+       "explicatie": "Latina nu are pronume personal propriu de persoana a III-a."
+      },
+      {
+       "intrebare": "Posesivul „noster, nostra, nostrum” înseamnă:",
+       "optiuni": [
+        "al nostru",
+        "al vostru",
+        "al meu",
+        "al lor"
+       ],
+       "corect": 0,
+       "explicatie": "„Vester” înseamnă al vostru."
+      },
+      {
+       "intrebare": "Pronumele reflexiv „se”:",
+       "optiuni": [
+        "nu are nominativ",
+        "se folosește la toate persoanele",
+        "are formă doar de plural",
+        "este identic cu „ego”"
+       ],
+       "corect": 0,
+       "explicatie": "Trimite la subiectul propoziției, persoana a III-a."
+      },
+      {
+       "intrebare": "Forma „mihi” este:",
+       "optiuni": [
+        "dativul lui „ego”",
+        "genitivul lui „ego”",
+        "acuzativul lui „tu”",
+        "nominativul lui „nos”"
+       ],
+       "corect": 0,
+       "explicatie": "Înseamnă „mie”."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lat9-c6",
+   "titlu": "Civilizație romană — viața de zi cu zi",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "lat9-15",
+     "titlu": "Zeii și mitologia romană",
+     "rezumat": "Religia romană era politeistă, cu zei care guvernau natura și viața cetății. Panteonul principal, influențat de cel grec, avea în frunte pe Iuppiter (Jupiter, zeul cerului și al fulgerului, echivalent cu Zeus), Iuno (Junona, soția lui, protectoarea căsătoriei) și Minerva (zeița înțelepciunii, ca Atena). Alți zei mari: Mars (războiul), Venus (iubirea), Neptunus (marea), Apollo (soarele și artele), Diana (vânătoarea și luna), Mercurius (negoțul și solia), Vulcanus (focul și fierăria), Ceres (recoltele), Vesta (vatra). Pe lângă marii zei, romanii cinsteau spirite ocrotitoare ale casei: lares și penates, protectorii căminului și ai cămării, și genius, spiritul ocrotitor al fiecărui om. Cultul era condus de preoți (pontifices, în frunte cu pontifex maximus) și de vestale, preotesele care întrețineau focul sacru al zeiței Vesta. Multe nume de zei s-au păstrat în calendar și în limbile romanice: „joi” vine de la „Iovis dies” (ziua lui Jupiter), „vineri” de la „Veneris dies” (ziua lui Venus).",
+     "ideiCheie": [
+      "Religia romană era politeistă, cu un panteon influențat de cel grec.",
+      "Zeii principali: Iuppiter, Iuno, Minerva, Mars, Venus, Neptunus, Apollo.",
+      "Casa avea spirite ocrotitoare: lares, penates și genius.",
+      "Cultul era condus de pontifices și de vestale, preotesele Vestei."
+     ],
+     "termeni": [
+      {
+       "t": "politeism",
+       "d": "credința în mai mulți zei"
+      },
+      {
+       "t": "vestale",
+       "d": "preotesele zeiței Vesta, care întrețineau focul sacru al cetății"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cine era zeul suprem la romani?",
+       "v": "Iuppiter (Jupiter), zeul cerului și al fulgerului."
+      },
+      {
+       "f": "Cine erau lares și penates?",
+       "v": "Spiritele ocrotitoare ale casei și ale cămării."
+      },
+      {
+       "f": "Ce întrețineau vestalele?",
+       "v": "Focul sacru al zeiței Vesta."
+      },
+      {
+       "f": "Din ce nume vine ziua „joi”?",
+       "v": "Din „Iovis dies”, ziua lui Jupiter."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Zeița înțelepciunii la romani era:",
+       "optiuni": [
+        "Minerva",
+        "Venus",
+        "Diana",
+        "Ceres"
+       ],
+       "corect": 0,
+       "explicatie": "Corespunde zeiței grecești Atena."
+      },
+      {
+       "intrebare": "„Mars” era zeul:",
+       "optiuni": [
+        "războiului",
+        "mării",
+        "negoțului",
+        "focului"
+       ],
+       "corect": 0,
+       "explicatie": "Neptunus era zeul mării."
+      },
+      {
+       "intrebare": "Preotul suprem al religiei romane se numea:",
+       "optiuni": [
+        "pontifex maximus",
+        "genius",
+        "lar",
+        "augustus"
+       ],
+       "corect": 0,
+       "explicatie": "Conducea colegiul pontificilor."
+      },
+      {
+       "intrebare": "Numele zilei „vineri” provine de la:",
+       "optiuni": [
+        "Veneris dies, ziua lui Venus",
+        "Martis dies",
+        "Iovis dies",
+        "Solis dies"
+       ],
+       "corect": 0,
+       "explicatie": "Numele zilelor păstrează zei romani."
+      }
+     ]
+    },
+    {
+     "id": "lat9-16",
+     "titlu": "Orașul roman și viața cotidiană",
+     "rezumat": "Orașul roman era organizat după un plan regulat, moștenit din castrul militar: două străzi principale, cardo (nord-sud) și decumanus (est-vest), se intersectau lângă for (forum), piața centrală cu temple, bazilici și clădiri publice. Orașul avea apeducte care aduceau apa, terme (băi publice), un amfiteatru pentru lupte de gladiatori, un circ pentru curse de care și un teatru. Roma însăși avea peste un milion de locuitori și blocuri de locuințe cu mai multe etaje (insulae), pe lângă casele bogaților (domus). Ziua romanului liber începea în zori cu salutul clienților; urmau treburile în for, prânzul ușor, băile după-amiaza și cina (cena), masa principală, adesea cu invitați. Copiii mergeau la școală (ludus), unde învățau scrisul, cititul, socotitul și, mai târziu, retorica. Îmbrăcămintea cetățeanului era toga, semnul demnității romane, purtată peste tunică. Timpul se măsura cu ceasuri solare și clepsidre, iar ziua se împărțea în douăsprezece ore, inegale după anotimp.",
+     "ideiCheie": [
+      "Orașul roman avea două axe: cardo (nord-sud) și decumanus (est-vest).",
+      "Forul era piața centrală, cu temple, bazilici și clădiri publice.",
+      "Locuințele: insulae (blocuri) pentru mulți, domus (casă) pentru bogați.",
+      "Toga era veșmântul-semn al cetățeanului roman, purtată peste tunică."
+     ],
+     "termeni": [
+      {
+       "t": "for",
+       "d": "piața centrală a orașului roman, centrul vieții publice și comerciale"
+      },
+      {
+       "t": "terme",
+       "d": "băile publice romane, loc de igienă și de întâlnire socială"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se numeau cele două străzi principale ale orașului roman?",
+       "v": "Cardo (nord-sud) și decumanus (est-vest)."
+      },
+      {
+       "f": "Ce erau „insulae”?",
+       "v": "Blocurile de locuințe cu mai multe etaje."
+      },
+      {
+       "f": "Ce veșmânt purta cetățeanul roman?",
+       "v": "Toga, peste tunică."
+      },
+      {
+       "f": "Unde învățau copiii romani?",
+       "v": "La ludus, școala unde deprindeau scrisul, cititul și socotitul."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Piața centrală a orașului roman se numea:",
+       "optiuni": [
+        "forum",
+        "cardo",
+        "ludus",
+        "domus"
+       ],
+       "corect": 0,
+       "explicatie": "Cardo era una dintre străzile principale."
+      },
+      {
+       "intrebare": "„Insulae” desemnau:",
+       "optiuni": [
+        "blocurile de locuințe cu mai multe etaje",
+        "insulele din imperiu",
+        "casele patricienilor",
+        "templele"
+       ],
+       "corect": 0,
+       "explicatie": "„Domus” era casa unei familii înstărite."
+      },
+      {
+       "intrebare": "Termele romane erau:",
+       "optiuni": [
+        "băi publice și loc de întâlnire",
+        "tribunale",
+        "piețe de grâne",
+        "cazărmi"
+       ],
+       "corect": 0,
+       "explicatie": "Aveau apă adusă prin apeducte."
+      },
+      {
+       "intrebare": "Toga era:",
+       "optiuni": [
+        "veșmântul-semn al cetățeanului roman",
+        "uniforma soldaților",
+        "haina sclavilor",
+        "doar vestmântul preoților"
+       ],
+       "corect": 0,
+       "explicatie": "Se purta peste tunică."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lat9-c7",
+   "titlu": "Expresii latine și cultura scrisă",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "lat9-17",
+     "titlu": "Proverbe și expresii latine",
+     "rezumat": "Latina a lăsat un tezaur de expresii și proverbe folosite și azi în limbile moderne, în drept, știință, medicină și viața curentă. Multe rezumă o înțelepciune practică: „Carpe diem” (bucură-te de ziua de azi), „Festina lente” (grăbește-te încet), „Repetitio est mater studiorum” (repetiția e mama învățăturii), „Historia magistra vitae” (istoria e învățătoarea vieții), „Per aspera ad astra” (prin greutăți spre stele). Ele se citează în forma latină originală, ca formule fixe. Alte expresii au valoare tehnică sau juridică și se folosesc ca termeni: „de facto” (în fapt) și „de iure” (în drept), „nota bene” (ia bine seama), „et cetera” (și celelalte), „curriculum vitae” (parcursul vieții), „alma mater” (mama hrănitoare, universitatea). A ști ce înseamnă aceste formule ajută la citirea textelor culte și la o exprimare îngrijită. Ele arată cât de viu rămâne fondul latin în cultura europeană.",
+     "ideiCheie": [
+      "Latina a lăsat multe proverbe și expresii folosite și azi.",
+      "„Carpe diem”, „Festina lente”, „Per aspera ad astra” rezumă o înțelepciune practică.",
+      "Expresii tehnice: de facto, de iure, nota bene, et cetera, curriculum vitae.",
+      "Formulele se citează în forma latină originală."
+     ],
+     "termeni": [
+      {
+       "t": "proverb latin",
+       "d": "formulă fixă care exprimă concentrat o învățătură, păstrată în forma latină"
+      },
+      {
+       "t": "locuțiune latină",
+       "d": "expresie latină intrată ca atare în limbile moderne, cu sens tehnic sau curent"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce înseamnă „Carpe diem”?",
+       "v": "Bucură-te de ziua de azi."
+      },
+      {
+       "f": "Ce înseamnă „de facto” față de „de iure”?",
+       "v": "„De facto” = în fapt; „de iure” = în drept."
+      },
+      {
+       "f": "Ce înseamnă „Repetitio est mater studiorum”?",
+       "v": "Repetiția este mama învățăturii."
+      },
+      {
+       "f": "Ce înseamnă „curriculum vitae”?",
+       "v": "Parcursul vieții — lista studiilor și a experienței."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Expresia „Festina lente” înseamnă:",
+       "optiuni": [
+        "grăbește-te încet",
+        "grăbește-te mereu",
+        "lucrează în liniște",
+        "nu te grăbi niciodată"
+       ],
+       "corect": 0,
+       "explicatie": "Îndeamnă la repeziciune chibzuită."
+      },
+      {
+       "intrebare": "„Per aspera ad astra” înseamnă:",
+       "optiuni": [
+        "prin greutăți spre stele",
+        "stelele sunt aspre",
+        "greutățile trec",
+        "spre cer fără efort"
+       ],
+       "corect": 0,
+       "explicatie": "Exprimă biruința prin efort."
+      },
+      {
+       "intrebare": "„Nota bene” se folosește pentru a spune:",
+       "optiuni": [
+        "ia bine seama",
+        "scrie frumos",
+        "notă bună",
+        "observație finală"
+       ],
+       "corect": 0,
+       "explicatie": "Se prescurtează N.B."
+      },
+      {
+       "intrebare": "„Historia magistra vitae” înseamnă:",
+       "optiuni": [
+        "istoria este învățătoarea vieții",
+        "viața este o poveste",
+        "magistrul predă istoria",
+        "istoria se repetă"
+       ],
+       "corect": 0,
+       "explicatie": "Formula este a lui Cicero."
+      }
+     ]
+    },
+    {
+     "id": "lat9-18",
+     "titlu": "Calendarul roman și numele lunilor",
+     "rezumat": "Calendarul roman a stat la baza celui pe care îl folosim. La origine avea zece luni și începea în martie; de aceea numele lunilor September, October, November, December înseamnă a șaptea, a opta, a noua, a zecea. Mai târziu s-au adăugat Ianuarius și Februarius. Iulius Caesar a reformat calendarul în 46 î.Hr., creând calendarul iulian, cu 365 de zile și un an bisect la patru ani. Luna Iulius a fost numită în cinstea lui Caesar, iar Augustus în cinstea împăratului Augustus. În fiecare lună, romanii numărau zilele de la trei repere fixe: Kalendae (întâi), Nonae (a cincea sau a șaptea zi) și Idus (a treisprezecea sau a cincisprezecea). Zilele se socoteau înapoi, spre următorul reper: „ante diem tertium Idus Martias” însemna a treia zi înainte de Idele lui Marte. De la „Kalendae” vine cuvântul „calendar”. Idele lui Marte (15 martie) au rămas celebre ca ziua asasinării lui Caesar. Numele romane ale lunilor s-au păstrat, prin latină, în toate limbile romanice și în multe altele.",
+     "ideiCheie": [
+      "Calendarul roman avea la origine zece luni și începea în martie.",
+      "September–December înseamnă a șaptea–a zecea lună, din vechea numărătoare.",
+      "Caesar a creat calendarul iulian în 46 î.Hr., cu an bisect la patru ani.",
+      "Zilele se numărau de la trei repere: Kalendae, Nonae, Idus."
+     ],
+     "termeni": [
+      {
+       "t": "calendar iulian",
+       "d": "calendarul reformat de Iulius Caesar în 46 î.Hr., cu 365 de zile și an bisect"
+      },
+      {
+       "t": "Idus",
+       "d": "reperul de la mijlocul lunii romane, ziua a treisprezecea sau a cincisprezecea"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "De ce „September” înseamnă a șaptea lună?",
+       "v": "Pentru că vechiul calendar începea în martie."
+      },
+      {
+       "f": "Cine a reformat calendarul în 46 î.Hr.?",
+       "v": "Iulius Caesar, creând calendarul iulian."
+      },
+      {
+       "f": "Care sunt cele trei repere ale lunii romane?",
+       "v": "Kalendae, Nonae și Idus."
+      },
+      {
+       "f": "De la ce cuvânt latin vine „calendar”?",
+       "v": "De la „Kalendae”, prima zi a lunii."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Numele lunii „October” înseamnă la origine:",
+       "optiuni": [
+        "a opta lună",
+        "a zecea lună",
+        "luna recoltei",
+        "luna lui Octavian"
+       ],
+       "corect": 0,
+       "explicatie": "Vechiul an începea în martie."
+      },
+      {
+       "intrebare": "Calendarul iulian a fost introdus de:",
+       "optiuni": [
+        "Iulius Caesar",
+        "Augustus",
+        "Numa Pompilius",
+        "Cicero"
+       ],
+       "corect": 0,
+       "explicatie": "În anul 46 î.Hr."
+      },
+      {
+       "intrebare": "Reperul de la mijlocul lunii romane se numea:",
+       "optiuni": [
+        "Idus",
+        "Kalendae",
+        "Nonae",
+        "Feriae"
+       ],
+       "corect": 0,
+       "explicatie": "Kalendae era ziua întâi."
+      },
+      {
+       "intrebare": "Cuvântul „calendar” provine din:",
+       "optiuni": [
+        "Kalendae",
+        "Idus",
+        "Nonae",
+        "Iulius"
+       ],
+       "corect": 0,
+       "explicatie": "Ziua întâi a fiecărei luni romane."
+      }
+     ]
+    }
+   ]
   }
  ],
  "teze": [
   {
    "semestru": 1,
    "test": [
+    {
+     "intrebare": "Adjectivul „bonus, bona, bonum” se declină după:",
+     "optiuni": [
+      "declinarea a II-a (masculin, neutru) și I (feminin)",
+      "declinarea a III-a",
+      "declinarea a IV-a",
+      "declinarea a V-a"
+     ],
+     "corect": 0,
+     "explicatie": "Este un adjectiv din clasa I."
+    },
+    {
+     "intrebare": "Adverbul de la adjectivul „fortis” este:",
+     "optiuni": [
+      "fortiter",
+      "forte",
+      "fortmente",
+      "fortum"
+     ],
+     "corect": 0,
+     "explicatie": "Adjectivele de declinarea a III-a fac adverbul cu -iter."
+    },
+    {
+     "intrebare": "Cifra romană „L” valorează:",
+     "optiuni": [
+      "50",
+      "100",
+      "500",
+      "5"
+     ],
+     "corect": 0,
+     "explicatie": "C = 100, D = 500."
+    },
+    {
+     "intrebare": "Pentru persoana a III-a, latina folosește ca pronume:",
+     "optiuni": [
+      "demonstrativul is, ea, id",
+      "pronumele „ego”",
+      "obligatoriu pronumele reflexiv „se”",
+      "pronumele „tu”"
+     ],
+     "corect": 0,
+     "explicatie": "Nu are pronume personal propriu de persoana a III-a."
+    },
+    {
+     "intrebare": "Adjectivele de declinarea a III-a au ablativul singular în:",
+     "optiuni": [
+      "-i",
+      "-e",
+      "-o",
+      "-a"
+     ],
+     "corect": 0,
+     "explicatie": "„Forti”, „omni” — tip vocalic."
+    },
+    {
+     "intrebare": "Posesivul „suus, sua, suum” trimite la:",
+     "optiuni": [
+      "subiectul propoziției",
+      "vorbitor",
+      "interlocutor",
+      "un posesor oarecare, mereu"
+     ],
+     "corect": 0,
+     "explicatie": "Pentru alt posesor se folosește „eius”."
+    },
     {
      "intrebare": "Alfabetul latin clasic avea:",
      "optiuni": [
@@ -902,6 +1761,72 @@
   {
    "semestru": 2,
    "test": [
+    {
+     "intrebare": "Zeul suprem al panteonului roman era:",
+     "optiuni": [
+      "Iuppiter",
+      "Mars",
+      "Neptunus",
+      "Apollo"
+     ],
+     "corect": 0,
+     "explicatie": "Corespunde zeului grec Zeus."
+    },
+    {
+     "intrebare": "Cele două străzi principale ale orașului roman erau:",
+     "optiuni": [
+      "cardo și decumanus",
+      "forum și domus",
+      "cardo și forum",
+      "via și insula"
+     ],
+     "corect": 0,
+     "explicatie": "Se intersectau lângă for."
+    },
+    {
+     "intrebare": "„Carpe diem” înseamnă:",
+     "optiuni": [
+      "bucură-te de ziua de azi",
+      "grăbește-te încet",
+      "ziua trece repede",
+      "prinde ziua de mâine"
+     ],
+     "corect": 0,
+     "explicatie": "Este o expresie a lui Horațiu."
+    },
+    {
+     "intrebare": "Numele lunii „September” înseamnă la origine:",
+     "optiuni": [
+      "a șaptea lună",
+      "a noua lună",
+      "luna toamnei",
+      "luna semănatului"
+     ],
+     "corect": 0,
+     "explicatie": "Vechiul calendar începea în martie."
+    },
+    {
+     "intrebare": "Preotesele care întrețineau focul sacru al Vestei erau:",
+     "optiuni": [
+      "vestalele",
+      "pontificii",
+      "larele",
+      "augurii"
+     ],
+     "corect": 0,
+     "explicatie": "Focul Vestei simboliza dăinuirea cetății."
+    },
+    {
+     "intrebare": "Expresia „de iure” înseamnă:",
+     "optiuni": [
+      "în drept, potrivit legii",
+      "în fapt",
+      "fără drept",
+      "prin forță"
+     ],
+     "corect": 0,
+     "explicatie": "Se opune lui „de facto”."
+    },
     {
      "intrebare": "Desinențele pasive ale temei prezentului sunt:",
      "optiuni": [

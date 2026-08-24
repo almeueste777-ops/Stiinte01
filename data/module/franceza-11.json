@@ -792,12 +792,864 @@
      ]
     }
    ]
+  },
+  {
+   "id": "fra11-c4",
+   "titlu": "Timpurile trecutului",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "fra11-10",
+     "titlu": "Trecutul compus (passé composé)",
+     "rezumat": "Passé composé (trecutul compus) este timpul folosit pentru a exprima o acțiune trecută, terminată, punctuală. Se formează dintr-un auxiliar la prezent — „avoir\" sau „être\" — plus participiul trecut al verbului: „j'ai parlé\", „nous avons fini\", „elle est partie\". Majoritatea verbelor folosesc auxiliarul „avoir\".\nAuxiliarul „être\" se folosește la un grup restrâns de verbe de mișcare și de schimbare de stare (aller, venir, partir, arriver, entrer, sortir, monter, descendre, naître, mourir, rester, tomber, devenir) și la toate verbele pronominale („je me suis levé\"). Cu „être\", participiul se acordă în gen și număr cu subiectul: „elle est allée\", „ils sont partis\", „elles sont venues\". Cu „avoir\", participiul nu se acordă cu subiectul.\nParticipiul trecut are terminații după grupă: -é la grupa I (parler → parlé), -i la grupa a II-a (finir → fini), iar la verbele neregulate se învață (avoir → eu, être → été, faire → fait, prendre → pris, voir → vu, mettre → mis).",
+     "ideiCheie": [
+      "Passé composé = auxiliar (avoir/être) la prezent plus participiul trecut.",
+      "Majoritatea verbelor cer „avoir\"; verbele de mișcare și cele pronominale cer „être\".",
+      "Cu „être\", participiul se acordă cu subiectul: „elle est allée\".",
+      "Cu „avoir\", participiul nu se acordă cu subiectul."
+     ],
+     "termeni": [
+      {
+       "t": "passé composé",
+       "d": "timpul trecut care exprimă o acțiune terminată, format din auxiliar la prezent plus participiul trecut"
+      },
+      {
+       "t": "participiu trecut",
+       "d": "forma verbală (parlé, fini, pris) folosită la timpurile compuse"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se formează passé composé?",
+       "v": "Cu auxiliarul „avoir\" sau „être\" la prezent plus participiul trecut."
+      },
+      {
+       "f": "Ce verbe folosesc auxiliarul „être\"?",
+       "v": "Verbele de mișcare, cele de schimbare de stare și toate verbele pronominale."
+      },
+      {
+       "f": "Cu ce se acordă participiul când auxiliarul e „être\"?",
+       "v": "Cu subiectul, în gen și număr."
+      },
+      {
+       "f": "Care e participiul trecut al lui „faire\"?",
+       "v": "„Fait\"."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Elle ______ allée au cinéma.\" Forma corectă:",
+       "optiuni": [
+        "est",
+        "a",
+        "as",
+        "ont"
+       ],
+       "corect": 0,
+       "explicatie": "Verbele de mișcare folosesc auxiliarul „être\"."
+      },
+      {
+       "intrebare": "Cu auxiliarul „être\", participiul trecut:",
+       "optiuni": [
+        "se acordă cu subiectul",
+        "rămâne invariabil",
+        "se acordă cu complementul direct",
+        "primește „s\" în orice situație"
+       ],
+       "corect": 0,
+       "explicatie": "„Elle est partie\", „ils sont partis\"."
+      },
+      {
+       "intrebare": "Participiul trecut al lui „prendre\" este:",
+       "optiuni": [
+        "pris",
+        "prendu",
+        "prené",
+        "prit"
+       ],
+       "corect": 0,
+       "explicatie": "Este o formă neregulată."
+      },
+      {
+       "intrebare": "Passé composé exprimă, de regulă:",
+       "optiuni": [
+        "o acțiune trecută, terminată",
+        "o acțiune în desfășurare în trecut",
+        "o obișnuință din trecut",
+        "o acțiune viitoare"
+       ],
+       "corect": 0,
+       "explicatie": "Imperfectul exprimă durata și obișnuința."
+      }
+     ]
+    },
+    {
+     "id": "fra11-11",
+     "titlu": "Imperfectul (imparfait)",
+     "rezumat": "Imperfectul (imparfait) este timpul trecutului care exprimă durata, descrierea, obișnuința și acțiunile neterminate. Se formează din radicalul persoanei I plural de la prezent (nous) plus terminațiile -ais, -ais, -ait, -ions, -iez, -aient: „nous parlons\" → „je parlais\"; „nous finissons\" → „je finissais\". Singura excepție la radical este „être\", care face „j'étais\".\nValorile imperfectului: descrierea unui cadru sau a unei stări în trecut („il faisait beau\", „elle était fatiguée\"), obișnuința sau acțiunea repetată („quand j'étais petit, je jouais dans le parc\") și acțiunea în desfășurare, întreruptă de alta. Formulele „quand\", „pendant que\", „autrefois\", „tous les jours\", „souvent\" însoțesc frecvent imperfectul.\nSpre deosebire de passé composé, imperfectul nu privește acțiunea ca pe un eveniment încheiat, ci ca pe un fundal sau ca pe o repetare. De aici opoziția fundamentală dintre cele două timpuri, esențială în povestire.",
+     "ideiCheie": [
+      "Imperfectul se formează din radicalul lui „nous\" la prezent plus terminațiile -ais, -ais, -ait, -ions, -iez, -aient.",
+      "Excepția de radical este „être\": „j'étais\".",
+      "Valori: descriere, obișnuință, acțiune în desfășurare în trecut.",
+      "Formulele „autrefois\", „souvent\", „tous les jours\" cer imperfectul."
+     ],
+     "termeni": [
+      {
+       "t": "imparfait",
+       "d": "timpul trecut care exprimă durata, descrierea, obișnuința și acțiunea neterminată"
+      },
+      {
+       "t": "radical al imperfectului",
+       "d": "radicalul persoanei I plural (nous) de la prezent, la care se adaugă terminațiile imperfectului"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se formează imperfectul?",
+       "v": "Din radicalul lui „nous\" la prezent plus terminațiile -ais, -ais, -ait, -ions, -iez, -aient."
+      },
+      {
+       "f": "Care verb are radical neregulat la imperfect?",
+       "v": "„Être\": „j'étais\"."
+      },
+      {
+       "f": "Ce exprimă imperfectul?",
+       "v": "Durata, descrierea, obișnuința și acțiunea neterminată."
+      },
+      {
+       "f": "Ce timp cere „quand j'étais petit\"?",
+       "v": "Imperfectul, pentru obișnuință."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Radicalul imperfectului se ia de la:",
+       "optiuni": [
+        "persoana I plural a prezentului (nous)",
+        "infinitiv",
+        "persoana I singular",
+        "participiu"
+       ],
+       "corect": 0,
+       "explicatie": "„Nous finissons\" → „je finissais\"."
+      },
+      {
+       "intrebare": "Imperfectul lui „être\" la persoana I este:",
+       "optiuni": [
+        "j'étais",
+        "je suis",
+        "j'ai été",
+        "je serais"
+       ],
+       "corect": 0,
+       "explicatie": "Este singura excepție de radical."
+      },
+      {
+       "intrebare": "Imperfectul exprimă, de regulă:",
+       "optiuni": [
+        "descrierea și obișnuința în trecut",
+        "un eveniment punctual încheiat",
+        "o acțiune viitoare",
+        "un ordin"
+       ],
+       "corect": 0,
+       "explicatie": "Evenimentul punctual cere passé composé."
+      },
+      {
+       "intrebare": "Ce adverb cere, de obicei, imperfectul?",
+       "optiuni": [
+        "autrefois",
+        "soudain",
+        "tout à coup",
+        "immédiatement"
+       ],
+       "corect": 0,
+       "explicatie": "„Autrefois, on vivait autrement\"."
+      }
+     ]
+    },
+    {
+     "id": "fra11-12",
+     "titlu": "Passé composé și imperfectul în povestire",
+     "rezumat": "În povestirea la trecut, franceza folosește împreună passé composé și imperfectul, fiecare cu rolul lui. Imperfectul pune fundalul — decorul, vremea, starea personajelor, acțiunile în curs; passé composé aduce evenimentele — faptele care se succed și fac povestea să înainteze: „Il faisait nuit et il pleuvait\" (fundal); „Soudain, quelqu'un a frappé à la porte\" (eveniment).\nDistincția nu ține de durata reală a acțiunii, ci de felul în care vorbitorul o prezintă: aceeași acțiune poate fi fundal (imperfect) sau eveniment (passé composé), după intenție. O acțiune în desfășurare, întreruptă de alta, se pune la imperfect, iar întreruperea, la passé composé: „Je dormais quand le téléphone a sonné\".\nAlegerea corectă a celor două timpuri este unul dintre criteriile după care se recunoaște un vorbitor care stăpânește trecutul francez. Greșeala tipică este folosirea lui passé composé pentru descriere sau a imperfectului pentru evenimente punctuale.",
+     "ideiCheie": [
+      "Imperfectul dă fundalul; passé composé aduce evenimentele.",
+      "Distincția ține de prezentarea acțiunii, nu de durata ei reală.",
+      "Acțiunea întreruptă se pune la imperfect; întreruperea, la passé composé.",
+      "Greșeala tipică: descriere la passé composé sau eveniment la imperfect."
+     ],
+     "termeni": [
+      {
+       "t": "fundal narativ",
+       "d": "cadrul, starea și acțiunile în curs dintr-o povestire, exprimate prin imperfect"
+      },
+      {
+       "t": "plan al evenimentelor",
+       "d": "succesiunea faptelor care fac povestea să înainteze, exprimate prin passé composé"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce timp dă fundalul unei povestiri?",
+       "v": "Imperfectul."
+      },
+      {
+       "f": "Ce timp aduce evenimentele?",
+       "v": "Passé composé."
+      },
+      {
+       "f": "Cum se exprimă o acțiune întreruptă de alta?",
+       "v": "Acțiunea în curs la imperfect, întreruperea la passé composé."
+      },
+      {
+       "f": "De ce depinde alegerea timpului?",
+       "v": "De felul în care e prezentată acțiunea, nu de durata ei."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Je ______ (dormir) quand le téléphone a sonné.\" Forma corectă:",
+       "optiuni": [
+        "dormais",
+        "ai dormi",
+        "dormis",
+        "ai dormu"
+       ],
+       "corect": 0,
+       "explicatie": "Acțiunea în curs se pune la imperfect."
+      },
+      {
+       "intrebare": "Într-o povestire, decorul și vremea se exprimă prin:",
+       "optiuni": [
+        "imperfect",
+        "passé composé",
+        "viitor",
+        "condițional"
+       ],
+       "corect": 0,
+       "explicatie": "Evenimentele cer passé composé."
+      },
+      {
+       "intrebare": "„Soudain, il a frappé à la porte\" folosește passé composé pentru că:",
+       "optiuni": [
+        "exprimă un eveniment punctual",
+        "descrie un cadru",
+        "exprimă o obișnuință",
+        "descrie o stare"
+       ],
+       "corect": 0,
+       "explicatie": "„Soudain\" anunță un eveniment."
+      },
+      {
+       "intrebare": "Distincția passé composé / imperfect ține de:",
+       "optiuni": [
+        "modul de prezentare a acțiunii",
+        "durata reală a acțiunii",
+        "persoana verbului",
+        "lungimea frazei"
+       ],
+       "corect": 0,
+       "explicatie": "Aceeași acțiune poate fi fundal sau eveniment."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fra11-c5",
+   "titlu": "Pronumele complement",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "fra11-13",
+     "titlu": "Pronumele COD și COI",
+     "rezumat": "Pronumele complement înlocuiesc un substantiv deja cunoscut, pentru a evita repetarea. Complementul direct (COD) răspunde la întrebarea „pe cine? / ce?\" și nu e introdus prin prepoziție: formele sunt me, te, le/la, nous, vous, les. „Tu vois Marie? — Oui, je la vois.\" Complementul indirect (COI) răspunde la „cui?\" și înlocuiește un complement introdus prin „à\" pentru persoane: formele sunt me, te, lui, nous, vous, leur. „Tu parles à Paul? — Oui, je lui parle.\"\nDiferența dintre le/la/les (COD) și lui/leur (COI) apare doar la persoana a III-a; la celelalte persoane, formele coincid. Pronumele se plasează, de regulă, înaintea verbului: „je le vois\", „je lui parle\", „je ne les connais pas\". La imperativul afirmativ, însă, ele stau după verb, legate prin cratimă, iar „me\" și „te\" devin „moi\", „toi\": „regarde-moi!\", „donne-le-lui!\".\nAlegerea corectă cere să se știe dacă verbul cere sau nu prepoziția „à\": „regarder quelqu'un\" (COD) față de „téléphoner à quelqu'un\" (COI). De aceea verbele se învață împreună cu construcția lor.",
+     "ideiCheie": [
+      "COD răspunde la „pe cine? / ce?\" și nu are prepoziție: me, te, le/la, nous, vous, les.",
+      "COI răspunde la „cui?\" și înlocuiește „à + persoană\": me, te, lui, nous, vous, leur.",
+      "Formele diferă doar la persoana a III-a: le/la/les față de lui/leur.",
+      "Pronumele stau înaintea verbului, dar după verb la imperativul afirmativ."
+     ],
+     "termeni": [
+      {
+       "t": "complement direct",
+       "d": "complementul care nu e introdus prin prepoziție și răspunde la „pe cine? / ce?\""
+      },
+      {
+       "t": "complement indirect",
+       "d": "complementul introdus prin „à\", care răspunde la „cui?\""
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce pronume înlocuiesc COD la persoana a III-a?",
+       "v": "„Le\", „la\", „les\"."
+      },
+      {
+       "f": "Ce pronume înlocuiesc COI la persoana a III-a?",
+       "v": "„Lui\" (singular) și „leur\" (plural)."
+      },
+      {
+       "f": "Unde se plasează, de regulă, pronumele complement?",
+       "v": "Înaintea verbului."
+      },
+      {
+       "f": "Ce devine „me\" la imperativul afirmativ?",
+       "v": "„Moi\": „regarde-moi!\"."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Tu parles à Paul? — Oui, je ______ parle.\" Forma corectă:",
+       "optiuni": [
+        "lui",
+        "le",
+        "la",
+        "les"
+       ],
+       "corect": 0,
+       "explicatie": "„Parler à quelqu'un\" cere COI."
+      },
+      {
+       "intrebare": "„Tu vois Marie? — Oui, je ______ vois.\" Forma corectă:",
+       "optiuni": [
+        "la",
+        "lui",
+        "leur",
+        "y"
+       ],
+       "corect": 0,
+       "explicatie": "„Voir quelqu'un\" cere COD."
+      },
+      {
+       "intrebare": "Pronumele COD și COI diferă:",
+       "optiuni": [
+        "doar la persoana a III-a",
+        "la toate persoanele",
+        "niciodată",
+        "doar la plural"
+       ],
+       "corect": 0,
+       "explicatie": "La persoanele I și a II-a, formele coincid."
+      },
+      {
+       "intrebare": "La imperativul afirmativ, pronumele complement:",
+       "optiuni": [
+        "stă după verb, legat prin cratimă",
+        "dispare",
+        "stă la începutul frazei",
+        "rămâne înaintea verbului"
+       ],
+       "corect": 0,
+       "explicatie": "„Regarde-moi!\", „donne-les!\"."
+      }
+     ]
+    },
+    {
+     "id": "fra11-14",
+     "titlu": "Pronumele adverbiale „y\" și „en\"",
+     "rezumat": "Pronumele „y\" și „en\" înlocuiesc complemente introduse prin prepoziții, evitând repetarea. „Y\" înlocuiește, de regulă, un complement de loc introdus prin „à\", „dans\", „sur\", „chez\" etc.: „Tu vas à Paris? — Oui, j'y vais.\" De asemenea, „y\" înlocuiește un complement introdus prin „à\" pentru lucruri: „Tu penses à ton examen? — J'y pense.\"\n„En\" înlocuiește un complement introdus prin „de\": „Tu viens de Lyon? — J'en viens.\" El înlocuiește și un complement cu articol partitiv sau nehotărât și o cantitate: „Tu veux du café? — Oui, j'en veux.\"; „Tu as des amis? — J'en ai.\" Cu un numeral sau o expresie de cantitate, „en\" reia obiectul, iar cantitatea rămâne: „Combien de frères as-tu? — J'en ai deux.\"\nCa și celelalte pronume complement, „y\" și „en\" se plasează înaintea verbului: „j'y vais\", „j'en prends\", „je n'en veux pas\". Ele nu se folosesc, de regulă, pentru persoane, unde se preferă pronumele tonice după prepoziție („je pense à lui\").",
+     "ideiCheie": [
+      "„Y\" înlocuiește un complement de loc sau „à + lucru\": „j'y vais\", „j'y pense\".",
+      "„En\" înlocuiește „de + complement\", partitivul și cantitatea: „j'en veux\".",
+      "Cu un numeral, „en\" reia obiectul, iar numărul rămâne: „j'en ai deux\".",
+      "„Y\" și „en\" stau înaintea verbului și nu se folosesc, de regulă, pentru persoane."
+     ],
+     "termeni": [
+      {
+       "t": "pronume adverbial",
+       "d": "pronumele „y\" sau „en\", care înlocuiește un complement introdus prin prepoziție"
+      },
+      {
+       "t": "partitiv reluat",
+       "d": "complementul cu du/de la/des, reluat prin pronumele „en\""
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce înlocuiește pronumele „y\"?",
+       "v": "Un complement de loc sau introdus prin „à\" pentru lucruri."
+      },
+      {
+       "f": "Ce înlocuiește pronumele „en\"?",
+       "v": "Un complement introdus prin „de\", partitivul și cantitatea."
+      },
+      {
+       "f": "„Tu veux du café?\" — răspuns cu „en\"?",
+       "v": "„Oui, j'en veux.\""
+      },
+      {
+       "f": "Se folosesc „y\" și „en\" pentru persoane?",
+       "v": "De regulă nu; se preferă pronumele tonice după prepoziție."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Tu vas à l'école? — Oui, j'______ vais.\" Forma corectă:",
+       "optiuni": [
+        "y",
+        "en",
+        "le",
+        "lui"
+       ],
+       "corect": 0,
+       "explicatie": "„Y\" înlocuiește complementul de loc cu „à\"."
+      },
+      {
+       "intrebare": "„Tu bois du café? — Oui, j'______ bois.\" Forma corectă:",
+       "optiuni": [
+        "en",
+        "y",
+        "le",
+        "la"
+       ],
+       "corect": 0,
+       "explicatie": "„En\" înlocuiește partitivul „du\"."
+      },
+      {
+       "intrebare": "„Combien de livres as-tu? — J'______ ai trois.\"",
+       "optiuni": [
+        "en",
+        "y",
+        "les",
+        "leur"
+       ],
+       "corect": 0,
+       "explicatie": "„En\" reia obiectul; numărul rămâne."
+      },
+      {
+       "intrebare": "Pentru persoane, după „à\", franceza preferă:",
+       "optiuni": [
+        "pronumele tonic (à lui, à elle)",
+        "pronumele „y\"",
+        "pronumele „en\"",
+        "niciun pronume"
+       ],
+       "corect": 0,
+       "explicatie": "„Je pense à lui\", nu „j'y pense\" pentru persoane."
+      }
+     ]
+    },
+    {
+     "id": "fra11-15",
+     "titlu": "Ordinea pronumelor și acordul cu COD",
+     "rezumat": "Când într-o propoziție apar mai multe pronume complement înaintea verbului, ordinea lor este fixă și se memorează: me/te/se/nous/vous, apoi le/la/les, apoi lui/leur, apoi y, apoi en. Astfel: „je le lui donne\", „il m'en parle\", „nous les y avons vus\". Această ordine nu se schimbă, indiferent de sens.\nLa passé composé cu auxiliarul „avoir\", participiul trecut se acordă cu complementul direct, dar numai când acesta stă înaintea verbului. Complementul direct antepus poate fi un pronume COD, un pronume relativ „que\" sau o întrebare cu „quel\": „les lettres que j'ai écrites\", „je les ai vues\". Când complementul direct stă după verb, nu există acord: „j'ai écrit les lettres\".\nAceastă regulă a acordului cu COD antepus este una dintre cele mai riguroase din franceza scrisă și este verificată constant la evaluări. Cu auxiliarul „être\", în schimb, participiul se acordă cu subiectul, nu cu complementul.",
+     "ideiCheie": [
+      "Ordinea pronumelor înaintea verbului este fixă: me/te/se/nous/vous, le/la/les, lui/leur, y, en.",
+      "Cu „avoir\", participiul se acordă cu complementul direct antepus.",
+      "Când COD stă după verb, nu există acord.",
+      "Cu „être\", participiul se acordă cu subiectul."
+     ],
+     "termeni": [
+      {
+       "t": "complement direct antepus",
+       "d": "complementul direct plasat înaintea verbului, care cere acordul participiului cu auxiliarul „avoir\""
+      },
+      {
+       "t": "ordinea pronumelor",
+       "d": "succesiunea fixă a pronumelor complement înaintea verbului"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care e ordinea pronumelor complement?",
+       "v": "Me/te/se/nous/vous, le/la/les, lui/leur, y, en."
+      },
+      {
+       "f": "Cu „avoir\", cu ce se acordă participiul?",
+       "v": "Cu complementul direct, dacă acesta e antepus."
+      },
+      {
+       "f": "De ce se acordă în „les lettres que j'ai écrites\"?",
+       "v": "Pentru că „que\" e complement direct antepus, feminin plural."
+      },
+      {
+       "f": "Cu „être\", cu ce se acordă participiul?",
+       "v": "Cu subiectul."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Ordinea corectă este:",
+       "optiuni": [
+        "je le lui donne",
+        "je lui le donne",
+        "je donne le lui",
+        "je lui donne le"
+       ],
+       "corect": 0,
+       "explicatie": "„Le/la/les\" stă înaintea lui „lui/leur\"."
+      },
+      {
+       "intrebare": "„Les lettres que j'ai ______ (écrire)\":",
+       "optiuni": [
+        "écrites",
+        "écrit",
+        "écris",
+        "écrivé"
+       ],
+       "corect": 0,
+       "explicatie": "„Que\" e COD antepus, feminin plural."
+      },
+      {
+       "intrebare": "Participiul cu „avoir\" se acordă când:",
+       "optiuni": [
+        "complementul direct stă înaintea verbului",
+        "complementul direct stă după verb",
+        "verbul e pronominal",
+        "subiectul e feminin"
+       ],
+       "corect": 0,
+       "explicatie": "Fără COD antepus, nu există acord."
+      },
+      {
+       "intrebare": "„J'ai écrit les lettres\" nu are acord pentru că:",
+       "optiuni": [
+        "complementul direct stă după verb",
+        "verbul e intranzitiv",
+        "auxiliarul e „être\"",
+        "subiectul e masculin"
+       ],
+       "corect": 0,
+       "explicatie": "Acordul cere COD antepus."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fra11-c6",
+   "titlu": "Viitor, comparație, anterioritate",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "fra11-16",
+     "titlu": "Viitorul simplu (futur simple)",
+     "rezumat": "Viitorul simplu (futur simple) exprimă o acțiune viitoare, adesea mai îndepărtată, mai sigură sau mai formală decât cea redată prin viitorul apropiat. Se formează, de regulă, din infinitiv plus terminațiile -ai, -as, -a, -ons, -ez, -ont (aceleași cu prezentul lui „avoir\"): „je parlerai\", „tu finiras\", „il partira\". Verbele în -re pierd „e\"-ul final: „prendre\" → „je prendrai\".\nMulte verbe frecvente au un radical neregulat, care se învață, dar terminațiile rămân aceleași: être → je serai, avoir → j'aurai, aller → j'irai, faire → je ferai, venir → je viendrai, voir → je verrai, pouvoir → je pourrai, vouloir → je voudrai, devoir → je devrai, savoir → je saurai.\nViitorul simplu se folosește pentru predicții, promisiuni, planuri și, obligatoriu, după „quand\", „lorsque\", „dès que\", „aussitôt que\" când acțiunea e viitoare — spre deosebire de română, care folosește acolo prezentul: „Quand je serai grand, je voyagerai\".",
+     "ideiCheie": [
+      "Viitorul simplu se formează din infinitiv plus terminațiile -ai, -as, -a, -ons, -ez, -ont.",
+      "Verbele în -re pierd „e\"-ul final: „je prendrai\".",
+      "Multe verbe frecvente au radical neregulat, dar terminații identice.",
+      "După „quand\" cu sens viitor, franceza cere viitorul, nu prezentul."
+     ],
+     "termeni": [
+      {
+       "t": "futur simple",
+       "d": "timpul care exprimă o acțiune viitoare, format din infinitiv plus terminațiile -ai, -as, -a, -ons, -ez, -ont"
+      },
+      {
+       "t": "radical neregulat de viitor",
+       "d": "radicalul propriu al unor verbe frecvente la viitor (serai, aurai, irai, ferai)"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se formează viitorul simplu regulat?",
+       "v": "Din infinitiv plus terminațiile -ai, -as, -a, -ons, -ez, -ont."
+      },
+      {
+       "f": "Care e viitorul lui „être\" la persoana I?",
+       "v": "„Je serai\"."
+      },
+      {
+       "f": "Care e viitorul lui „aller\" la persoana I?",
+       "v": "„J'irai\"."
+      },
+      {
+       "f": "Ce timp cere „quand\" cu sens viitor?",
+       "v": "Viitorul: „quand je serai grand\"."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Terminațiile viitorului simplu sunt:",
+       "optiuni": [
+        "-ai, -as, -a, -ons, -ez, -ont",
+        "-ais, -ais, -ait, -ions, -iez, -aient",
+        "-e, -es, -e, -ons, -ez, -ent",
+        "-is, -is, -it, -issons, -issez, -issent"
+       ],
+       "corect": 0,
+       "explicatie": "Ele coincid cu prezentul lui „avoir\"."
+      },
+      {
+       "intrebare": "Viitorul lui „faire\" la persoana I este:",
+       "optiuni": [
+        "je ferai",
+        "je faisai",
+        "je ferais",
+        "je fairai"
+       ],
+       "corect": 0,
+       "explicatie": "Radical neregulat, terminații regulate."
+      },
+      {
+       "intrebare": "„Prendre\" la viitor, persoana I, este:",
+       "optiuni": [
+        "je prendrai",
+        "je prenderai",
+        "je prendrais",
+        "je prends"
+       ],
+       "corect": 0,
+       "explicatie": "Verbele în -re pierd „e\"-ul final."
+      },
+      {
+       "intrebare": "După „quand\" cu sens viitor, franceza folosește:",
+       "optiuni": [
+        "viitorul",
+        "prezentul",
+        "imperfectul",
+        "condiționalul"
+       ],
+       "corect": 0,
+       "explicatie": "„Quand je serai grand, je voyagerai\"."
+      }
+     ]
+    },
+    {
+     "id": "fra11-17",
+     "titlu": "Comparativul și superlativul",
+     "rezumat": "Comparativul compară două elemente sub raportul unei calități. Are trei grade: superioritate (plus… que), inferioritate (moins… que) și egalitate (aussi… que): „Marie est plus grande que Paul\", „il est moins rapide que toi\", „elle est aussi intelligente que lui\". Adjectivul se acordă cu substantivul pe care îl caracterizează.\nSuperlativul relativ exprimă gradul cel mai înalt sau cel mai scăzut dintr-un ansamblu: „le/la/les plus… (de)\", „le/la/les moins… (de)\": „c'est le plus grand de la classe\", „la ville la moins chère de France\". Articolul hotărât se acordă cu substantivul, iar complementul se introduce prin „de\".\nCâteva forme sunt neregulate și se învață pe de rost: „bon\" → „meilleur\" (comparativ), „le meilleur\" (superlativ); adverbul „bien\" → „mieux\", „le mieux\". Nu se spune „plus bon\", ci „meilleur\". Pentru „mauvais\" există și „pire\", alături de „plus mauvais\".",
+     "ideiCheie": [
+      "Comparativul are trei grade: plus/moins/aussi… que.",
+      "Superlativul relativ: le/la/les plus (moins)… de.",
+      "„Bon\" face „meilleur\"; adverbul „bien\" face „mieux\".",
+      "Nu se spune „plus bon\", ci „meilleur\"."
+     ],
+     "termeni": [
+      {
+       "t": "comparativ",
+       "d": "gradul care compară două elemente: plus/moins/aussi… que"
+      },
+      {
+       "t": "superlativ relativ",
+       "d": "gradul cel mai înalt sau cel mai scăzut dintr-un ansamblu: le plus / le moins… de"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt cele trei grade ale comparativului?",
+       "v": "Superioritate (plus… que), inferioritate (moins… que), egalitate (aussi… que)."
+      },
+      {
+       "f": "Cum se formează superlativul relativ?",
+       "v": "Cu „le/la/les plus\" sau „le/la/les moins\", plus „de\"."
+      },
+      {
+       "f": "Care e comparativul neregulat al lui „bon\"?",
+       "v": "„Meilleur\"."
+      },
+      {
+       "f": "Care e comparativul adverbului „bien\"?",
+       "v": "„Mieux\"."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Comparativul de egalitate se formează cu:",
+       "optiuni": [
+        "aussi… que",
+        "plus… que",
+        "moins… que",
+        "le plus"
+       ],
+       "corect": 0,
+       "explicatie": "„Aussi grand que\"."
+      },
+      {
+       "intrebare": "Comparativul lui „bon\" este:",
+       "optiuni": [
+        "meilleur",
+        "plus bon",
+        "mieux",
+        "plus meilleur"
+       ],
+       "corect": 0,
+       "explicatie": "„Plus bon\" este greșit."
+      },
+      {
+       "intrebare": "„Mieux\" este comparativul lui:",
+       "optiuni": [
+        "bien",
+        "bon",
+        "beaucoup",
+        "mauvais"
+       ],
+       "corect": 0,
+       "explicatie": "„Bon\" face „meilleur\"."
+      },
+      {
+       "intrebare": "Superlativul relativ cere complementul introdus prin:",
+       "optiuni": [
+        "de",
+        "que",
+        "à",
+        "pour"
+       ],
+       "corect": 0,
+       "explicatie": "„Le plus grand de la classe\"."
+      }
+     ]
+    },
+    {
+     "id": "fra11-18",
+     "titlu": "Mai-mult-ca-perfectul (plus-que-parfait)",
+     "rezumat": "Mai-mult-ca-perfectul (plus-que-parfait) exprimă o acțiune trecută anterioară altei acțiuni trecute. El „împinge\" acțiunea și mai în urmă: „Quand je suis arrivé, il était déjà parti\" — plecarea (plus-que-parfait) e anterioară sosirii (passé composé). Se formează din auxiliarul „avoir\" sau „être\" la imperfect plus participiul trecut: „j'avais parlé\", „elle était partie\", „nous avions fini\".\nRegulile de auxiliar și de acord sunt aceleași ca la passé composé: verbele de mișcare și cele pronominale cer „être\", cu acord cu subiectul; celelalte cer „avoir\", cu acord doar cu complementul direct antepus. Diferența față de passé composé este doar timpul auxiliarului: imperfect în loc de prezent.\nPlus-que-parfait apare des în povestire, pentru a explica un fapt prin ceva petrecut înainte, și în discursul indirect la trecut, unde passé composé din vorbirea directă devine plus-que-parfait: „Il a dit qu'il avait fini\".",
+     "ideiCheie": [
+      "Plus-que-parfait exprimă o acțiune anterioară altei acțiuni trecute.",
+      "Se formează din auxiliar la imperfect plus participiul trecut.",
+      "Regulile de auxiliar și de acord sunt ca la passé composé.",
+      "În discursul indirect la trecut, passé composé devine plus-que-parfait."
+     ],
+     "termeni": [
+      {
+       "t": "plus-que-parfait",
+       "d": "timpul care exprimă o acțiune trecută anterioară altei acțiuni trecute"
+      },
+      {
+       "t": "anterioritate",
+       "d": "raportul prin care o acțiune se petrece înaintea alteia"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce exprimă plus-que-parfait?",
+       "v": "O acțiune trecută anterioară altei acțiuni trecute."
+      },
+      {
+       "f": "Cum se formează plus-que-parfait?",
+       "v": "Din auxiliarul „avoir\" sau „être\" la imperfect plus participiul trecut."
+      },
+      {
+       "f": "Prin ce diferă de passé composé?",
+       "v": "Auxiliarul e la imperfect, nu la prezent."
+      },
+      {
+       "f": "Ce devine passé composé în discursul indirect la trecut?",
+       "v": "Plus-que-parfait."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Plus-que-parfait se formează cu auxiliarul la:",
+       "optiuni": [
+        "imperfect",
+        "prezent",
+        "viitor",
+        "condițional"
+       ],
+       "corect": 0,
+       "explicatie": "Passé composé îl folosește la prezent."
+      },
+      {
+       "intrebare": "„Quand je suis arrivé, il ______ déjà parti.\"",
+       "optiuni": [
+        "était",
+        "est",
+        "a",
+        "sera"
+       ],
+       "corect": 0,
+       "explicatie": "Plecarea e anterioară sosirii: plus-que-parfait."
+      },
+      {
+       "intrebare": "Plus-que-parfait exprimă:",
+       "optiuni": [
+        "anterioritatea în trecut",
+        "o acțiune viitoare",
+        "o obișnuință prezentă",
+        "un ordin"
+       ],
+       "corect": 0,
+       "explicatie": "„Împinge\" acțiunea și mai în urmă."
+      },
+      {
+       "intrebare": "În discursul indirect la trecut, „il a fini\" devine:",
+       "optiuni": [
+        "il avait fini",
+        "il a fini",
+        "il aura fini",
+        "il finissait"
+       ],
+       "corect": 0,
+       "explicatie": "Passé composé devine plus-que-parfait."
+      }
+     ]
+    }
+   ]
   }
  ],
  "teze": [
   {
    "semestru": 1,
    "test": [
+    {
+     "intrebare": "Passé composé se formează din:",
+     "optiuni": [
+      "auxiliar la prezent plus participiul trecut",
+      "infinitiv plus terminații",
+      "radicalul lui „nous\" plus terminații",
+      "auxiliar la imperfect plus participiu"
+     ],
+     "corect": 0,
+     "explicatie": "„J'ai parlé\", „elle est partie\"."
+    },
+    {
+     "intrebare": "Verbele de mișcare formează passé composé cu auxiliarul:",
+     "optiuni": [
+      "être",
+      "avoir",
+      "aller",
+      "faire"
+     ],
+     "corect": 0,
+     "explicatie": "„Elle est venue\", „ils sont partis\"."
+    },
+    {
+     "intrebare": "Imperfectul se formează din radicalul:",
+     "optiuni": [
+      "persoanei I plural a prezentului (nous)",
+      "infinitivului",
+      "participiului",
+      "viitorului"
+     ],
+     "corect": 0,
+     "explicatie": "Plus terminațiile -ais, -ais, -ait, -ions, -iez, -aient."
+    },
+    {
+     "intrebare": "Într-o povestire, fundalul se exprimă prin:",
+     "optiuni": [
+      "imperfect",
+      "passé composé",
+      "viitor",
+      "imperativ"
+     ],
+     "corect": 0,
+     "explicatie": "Evenimentele cer passé composé."
+    },
+    {
+     "intrebare": "„Je dormais quand le téléphone a sonné\": întreruperea este la:",
+     "optiuni": [
+      "passé composé",
+      "imperfect",
+      "plus-que-parfait",
+      "viitor"
+     ],
+     "corect": 0,
+     "explicatie": "Acțiunea în curs e la imperfect."
+    },
+    {
+     "intrebare": "Imperfectul lui „être\" la persoana I este:",
+     "optiuni": [
+      "j'étais",
+      "je suis",
+      "j'ai été",
+      "je serais"
+     ],
+     "corect": 0,
+     "explicatie": "Singura excepție de radical."
+    },
     {
      "intrebare": "Condiționalul prezent se formează din:",
      "optiuni": [
@@ -902,6 +1754,72 @@
   {
    "semestru": 2,
    "test": [
+    {
+     "intrebare": "„Tu parles à Marie? — Oui, je ______ parle.\"",
+     "optiuni": [
+      "lui",
+      "la",
+      "le",
+      "les"
+     ],
+     "corect": 0,
+     "explicatie": "„Parler à\" cere COI."
+    },
+    {
+     "intrebare": "Pronumele „en\" înlocuiește un complement introdus prin:",
+     "optiuni": [
+      "de",
+      "à",
+      "sur",
+      "pour"
+     ],
+     "corect": 0,
+     "explicatie": "„Je viens de Lyon\" → „j'en viens\"."
+    },
+    {
+     "intrebare": "Pronumele „y\" înlocuiește, de regulă:",
+     "optiuni": [
+      "un complement de loc cu „à\"",
+      "un complement cu „de\"",
+      "un subiect",
+      "un atribut"
+     ],
+     "corect": 0,
+     "explicatie": "„J'y vais\"."
+    },
+    {
+     "intrebare": "Comparativul lui „bon\" este:",
+     "optiuni": [
+      "meilleur",
+      "plus bon",
+      "mieux",
+      "le bon"
+     ],
+     "corect": 0,
+     "explicatie": "„Plus bon\" e greșit."
+    },
+    {
+     "intrebare": "Viitorul simplu al lui „aller\", persoana I:",
+     "optiuni": [
+      "j'irai",
+      "j'allerai",
+      "je vais",
+      "j'irais"
+     ],
+     "corect": 0,
+     "explicatie": "Radical neregulat."
+    },
+    {
+     "intrebare": "Plus-que-parfait se formează cu auxiliarul la:",
+     "optiuni": [
+      "imperfect",
+      "prezent",
+      "viitor",
+      "condițional"
+     ],
+     "corect": 0,
+     "explicatie": "Exprimă anterioritatea în trecut."
+    },
     {
      "intrebare": "„Il me semble que” este, în raport cu „je pense que”:",
      "optiuni": [
