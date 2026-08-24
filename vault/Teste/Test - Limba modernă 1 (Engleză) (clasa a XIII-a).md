@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Limba modernă 1 (Engleză) (clasa a XIII-a)
 
-60 întrebări din [[Limba modernă 1 (Engleză) (clasa a XIII-a)|Limba modernă 1 (Engleză) (clasa a XIII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+108 întrebări din [[Limba modernă 1 (Engleză) (clasa a XIII-a)|Limba modernă 1 (Engleză) (clasa a XIII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Aspectul continuu exprimă:
 
@@ -441,7 +441,511 @@ cssclasses: test
 > 
 > Folosirea produce competența, nu invers.
 
-### 37. Sistemul verbal englez se organizează pe axele:
+### 37. „If I had known, I would have helped” este condițional de:
+
+- a. tipul 3
+- b. tipul 1
+- c. tipul 2
+- d. tipul 0
+
+> [!success]- Răspuns
+> **a. tipul 3**
+> 
+> Past perfect + would have + participiu = ireal în trecut.
+
+### 38. După „if”, în condiționalul întâi, se folosește:
+
+- a. prezentul
+- b. will
+- c. would
+- d. past perfect
+
+> [!success]- Răspuns
+> **a. prezentul**
+> 
+> Corect: „If it rains”, nu „if it will rain”.
+
+### 39. „If I were rich, I would travel” exprimă:
+
+- a. o situație ireală în prezent
+- b. o condiție reală
+- c. un adevăr general
+- d. o condiție trecută
+
+> [!success]- Răspuns
+> **a. o situație ireală în prezent**
+> 
+> Tipul 2 folosește „were” pentru toate persoanele.
+
+### 40. Condiționalul zero exprimă:
+
+- a. adevăruri generale și legi
+- b. planuri de viitor
+- c. regrete despre trecut
+- d. ipoteze ireale
+
+> [!success]- Răspuns
+> **a. adevăruri generale și legi**
+> 
+> Exemplu: „If you heat water to 100°C, it boils.”
+
+### 41. „She said she was tired” provine din:
+
+- a. „I am tired”
+- b. „I was tired”
+- c. „I will be tired”
+- d. „I have been tired”
+
+> [!success]- Răspuns
+> **a. „I am tired”**
+> 
+> Present simple coboară la past simple prin backshift.
+
+### 42. Forma corectă a întrebării raportate este:
+
+- a. He asked where I lived
+- b. He asked where did I live
+- c. He asked where do I live
+- d. He asked where I did live
+
+> [!success]- Răspuns
+> **a. He asked where I lived**
+> 
+> Întrebarea raportată păstrează ordinea afirmativă.
+
+### 43. „Please wait”, raportat, devine:
+
+- a. He asked me to wait
+- b. He asked me waiting
+- c. He asked me that I wait
+- d. He asked me wait
+
+> [!success]- Răspuns
+> **a. He asked me to wait**
+> 
+> Rugămintea se raportează cu infinitivul.
+
+### 44. Prin backshift, „can” devine:
+
+- a. could
+- b. would
+- c. might
+- d. had to
+
+> [!success]- Răspuns
+> **a. could**
+> 
+> „Must” devine „had to”, iar „may” devine „might”.
+
+### 45. Pasivul lui „They build houses” este:
+
+- a. Houses are built
+- b. Houses are build
+- c. Houses is built
+- d. Houses were built
+
+> [!success]- Răspuns
+> **a. Houses are built**
+> 
+> Present simple pasiv = „is/are” + participiu.
+
+### 46. În „The song was written by Lennon”, „by Lennon” este:
+
+- a. autorul (agentul)
+- b. complementul de loc
+- c. subiectul
+- d. obiectul direct
+
+> [!success]- Răspuns
+> **a. autorul (agentul)**
+> 
+> Agentul se introduce prin „by”.
+
+### 47. Care verb NU poate fi pus la pasiv?
+
+- a. arrive
+- b. write
+- c. build
+- d. send
+
+> [!success]- Răspuns
+> **a. arrive**
+> 
+> „Arrive” e intranzitiv: nu are obiect.
+
+### 48. „It is said that he is rich” exprimă:
+
+- a. o opinie generală, impersonală
+- b. o certitudine dovedită
+- c. o obligație
+- d. o poruncă
+
+> [!success]- Răspuns
+> **a. o opinie generală, impersonală**
+> 
+> Structura „It is said that…” raportează impersonal.
+
+### 49. Prefixul care exprimă „greșit” este:
+
+- a. mis-
+- b. re-
+- c. over-
+- d. un-
+
+> [!success]- Răspuns
+> **a. mis-**
+> 
+> „Misunderstand” = a înțelege greșit.
+
+### 50. Substantivul de la „happy” este:
+
+- a. happiness
+- b. happyness
+- c. happiment
+- d. happity
+
+> [!success]- Răspuns
+> **a. happiness**
+> 
+> „-y” devine „-i” înainte de „-ness”.
+
+### 51. Sufixul „-ize” formează, de obicei:
+
+- a. verbe
+- b. substantive
+- c. adjective
+- d. adverbe
+
+> [!success]- Răspuns
+> **a. verbe**
+> 
+> Exemplu: „modern → modernize”.
+
+### 52. „Irregular” folosește prefixul negativ:
+
+- a. ir-
+- b. in-
+- c. im-
+- d. il-
+
+> [!success]- Răspuns
+> **a. ir-**
+> 
+> „ir-” se pune înaintea rădăcinilor cu „r”.
+
+### 53. Forma corectă cu pronume este:
+
+- a. turn it off
+- b. turn off it
+- c. off turn it
+- d. it off turn
+
+> [!success]- Răspuns
+> **a. turn it off**
+> 
+> Pronumele obiect stă între verb și particulă.
+
+### 54. „Give up” înseamnă:
+
+- a. a renunța
+- b. a oferi
+- c. a se ridica
+- d. a împărți
+
+> [!success]- Răspuns
+> **a. a renunța**
+> 
+> Sens idiomatic, nededus din părți.
+
+### 55. La „look after the baby”, verbul frazal este:
+
+- a. inseparabil
+- b. separabil
+- c. fără particulă
+- d. reflexiv
+
+> [!success]- Răspuns
+> **a. inseparabil**
+> 
+> Particula rămâne lipită de verb.
+
+### 56. Un sinonim formal pentru „put off” este:
+
+- a. postpone
+- b. promote
+- c. prepare
+- d. pursue
+
+> [!success]- Răspuns
+> **a. postpone**
+> 
+> Ambele înseamnă „a amâna”.
+
+### 57. Colocația corectă este:
+
+- a. make a mistake
+- b. do a mistake
+- c. make a homework
+- d. do a decision
+
+> [!success]- Răspuns
+> **a. make a mistake**
+> 
+> „Make” pentru a produce; „mistake” merge cu „make”.
+
+### 58. „I am good ___ maths” cere prepoziția:
+
+- a. at
+- b. in
+- c. on
+- d. for
+
+> [!success]- Răspuns
+> **a. at**
+> 
+> „Good at” e o colocație fixă.
+
+### 59. „It depends ___ the weather” cere:
+
+- a. on
+- b. of
+- c. from
+- d. in
+
+> [!success]- Răspuns
+> **a. on**
+> 
+> Corect: „depend on”, nu „depend of”.
+
+### 60. „Do” se combină firesc cu:
+
+- a. homework
+- b. a decision
+- c. progress
+- d. a mistake
+
+> [!success]- Răspuns
+> **a. homework**
+> 
+> „Do homework”, dar „make a decision/progress/mistake”.
+
+### 61. „It's too cold to swim” se transformă corect în:
+
+- a. It isn't warm enough to swim
+- b. It is warm enough to swim
+- c. It is enough warm to swim
+- d. It isn't too warm to swim
+
+> [!success]- Răspuns
+> **a. It isn't warm enough to swim**
+> 
+> „Too + adjectiv” ↔ „not + adjectiv + enough”.
+
+### 62. Într-o transformare cu cuvânt-cheie, cuvântul dat:
+
+- a. nu își schimbă forma
+- b. se pune la trecut
+- c. se pluralizează
+- d. se traduce
+
+> [!success]- Răspuns
+> **a. nu își schimbă forma**
+> 
+> Regula probei interzice modificarea lui.
+
+### 63. Golurile unui cloze testează frecvent:
+
+- a. articole și prepoziții
+- b. doar substantive
+- c. doar verbe la trecut
+- d. semne de punctuație
+
+> [!success]- Răspuns
+> **a. articole și prepoziții**
+> 
+> Cuvintele gramaticale sunt cele mai testate.
+
+### 64. La cloze, prima etapă recomandată este:
+
+- a. citirea întregului text pentru sens
+- b. completarea în ordine, fără citire
+- c. traducerea în română
+- d. numărarea literelor
+
+> [!success]- Răspuns
+> **a. citirea întregului text pentru sens**
+> 
+> Sensul global ghidează alegerile.
+
+### 65. „Yours faithfully” se folosește când:
+
+- a. nu cunoști numele destinatarului
+- b. scrii unui prieten
+- c. închei un e-mail informal
+- d. începi scrisoarea
+
+> [!success]- Răspuns
+> **a. nu cunoști numele destinatarului**
+> 
+> Cu numele cunoscut se folosește „Yours sincerely”.
+
+### 66. Un eseu de opinie bun are:
+
+- a. introducere, argumente cu exemple, concluzie
+- b. doar o listă de idei
+- c. un singur paragraf
+- d. numai întrebări
+
+> [!success]- Răspuns
+> **a. introducere, argumente cu exemple, concluzie**
+> 
+> Structura clară e criteriu de notare.
+
+### 67. Registrul formal evită:
+
+- a. contracțiile
+- b. conectorii
+- c. paragrafele
+- d. exemplele
+
+> [!success]- Răspuns
+> **a. contracțiile**
+> 
+> Se scrie „do not”, nu „don't”, în text formal.
+
+### 68. Conectorul care introduce un contrast este:
+
+- a. however
+- b. moreover
+- c. firstly
+- d. therefore
+
+> [!success]- Răspuns
+> **a. however**
+> 
+> „Moreover” adaugă, „however” contrastează.
+
+### 69. Ortografia americană a lui „centre” este:
+
+- a. center
+- b. centre
+- c. centr
+- d. sentre
+
+> [!success]- Răspuns
+> **a. center**
+> 
+> Multe cuvinte britanice în „-re” devin „-er” în americană.
+
+### 70. „Apartment” este varianta americană pentru:
+
+- a. flat
+- b. lift
+- c. lorry
+- d. biscuit
+
+> [!success]- Răspuns
+> **a. flat**
+> 
+> Britanicii spun „flat”, americanii „apartment”.
+
+### 71. Regatul Unit este o:
+
+- a. monarhie constituțională
+- b. republică federală
+- c. republică prezidențială
+- d. monarhie absolută
+
+> [!success]- Răspuns
+> **a. monarhie constituțională**
+> 
+> Parlamentul de la Westminster deține puterea legislativă.
+
+### 72. Engleza este, la nivel global, mai ales:
+
+- a. principala limbă de comunicare internațională
+- b. o limbă pe cale de dispariție
+- c. vorbită doar în Europa
+- d. o limbă exclusiv științifică
+
+> [!success]- Răspuns
+> **a. principala limbă de comunicare internațională**
+> 
+> E limba internetului, a științei și a schimburilor internaționale.
+
+### 73. „If I were you, I would apologize” este condițional de:
+
+- a. tipul 2
+- b. tipul 1
+- c. tipul 3
+- d. tipul 0
+
+> [!success]- Răspuns
+> **a. tipul 2**
+> 
+> Situație ireală în prezent: past simple + would.
+
+### 74. Vorbirea indirectă a lui „I will call you” (verb introductiv la trecut) este:
+
+- a. He said he would call me
+- b. He said he will call me
+- c. He said he calls me
+- d. He said he is calling me
+
+> [!success]- Răspuns
+> **a. He said he would call me**
+> 
+> „Will” devine „would” prin backshift.
+
+### 75. Pasivul lui „Shakespeare wrote Hamlet” este:
+
+- a. Hamlet was written by Shakespeare
+- b. Hamlet is written by Shakespeare
+- c. Hamlet was wrote by Shakespeare
+- d. Hamlet has written by Shakespeare
+
+> [!success]- Răspuns
+> **a. Hamlet was written by Shakespeare**
+> 
+> Past simple pasiv = „was/were” + participiu.
+
+### 76. Substantivul format de la „decide” este:
+
+- a. decision
+- b. decidement
+- c. deciding
+- d. decisively
+
+> [!success]- Răspuns
+> **a. decision**
+> 
+> „-sion” formează substantivul; „decisive” e adjectiv.
+
+### 77. Forma corectă cu pronume a verbului frazal este:
+
+- a. pick it up
+- b. pick up it
+- c. up pick it
+- d. it pick up
+
+> [!success]- Răspuns
+> **a. pick it up**
+> 
+> Pronumele obiect stă între verb și particulă.
+
+### 78. „I'm interested ___ history” cere prepoziția:
+
+- a. in
+- b. on
+- c. at
+- d. for
+
+> [!success]- Răspuns
+> **a. in**
+> 
+> „Interested in” e o colocație fixă.
+
+### 79. Sistemul verbal englez se organizează pe axele:
 
 - a. timp și aspect
 - b. persoană și număr
@@ -453,7 +957,7 @@ cssclasses: test
 > 
 > Din combinarea lor rezultă cele douăsprezece timpuri.
 
-### 38. Aspectul perfect leagă acțiunea:
+### 80. Aspectul perfect leagă acțiunea:
 
 - a. de un alt moment de referință
 - b. de viitor exclusiv
@@ -465,7 +969,7 @@ cssclasses: test
 > 
 > De aceea Present Perfect leagă trecutul de prezent.
 
-### 39. „She must have forgotten” exprimă:
+### 81. „She must have forgotten” exprimă:
 
 - a. o deducție despre trecut
 - b. o obligație
@@ -477,7 +981,7 @@ cssclasses: test
 > 
 > Modal + have + participiu.
 
-### 40. „You don't have to come” înseamnă:
+### 82. „You don't have to come” înseamnă:
 
 - a. nu ești obligat să vii
 - b. îți este interzis
@@ -489,7 +993,7 @@ cssclasses: test
 > 
 > Interdicția s-ar exprima cu „mustn't”.
 
-### 41. „You had better leave” este:
+### 83. „You had better leave” este:
 
 - a. un avertisment
 - b. o invitație
@@ -501,7 +1005,7 @@ cssclasses: test
 > 
 > Sugerează consecințe negative dacă sfatul nu e urmat.
 
-### 42. Forma corectă este:
+### 84. Forma corectă este:
 
 - a. „I'm interested in history.”
 - b. „I'm interested of history.”
@@ -513,7 +1017,7 @@ cssclasses: test
 > 
 > Prepoziția se învață împreună cu adjectivul.
 
-### 43. „I live here since 2010” se corectează în:
+### 85. „I live here since 2010” se corectează în:
 
 - a. „I have lived here since 2010.”
 - b. „I am living here since 2010.”
@@ -525,7 +1029,7 @@ cssclasses: test
 > 
 > Acțiunea continuă până în prezent cere Present Perfect.
 
-### 44. „She said me that…” este greșit deoarece:
+### 86. „She said me that…” este greșit deoarece:
 
 - a. „say” nu ia complement indirect fără „to”
 - b. lipsește „that”
@@ -537,7 +1041,7 @@ cssclasses: test
 > 
 > Corect: „She told me…” sau „She said to me…”.
 
-### 45. „Borrow” înseamnă:
+### 87. „Borrow” înseamnă:
 
 - a. a împrumuta de la cineva
 - b. a împrumuta cuiva
@@ -549,7 +1053,7 @@ cssclasses: test
 > 
 > „Lend” înseamnă a împrumuta cuiva.
 
-### 46. Harta unui text se face citind:
+### 88. Harta unui text se face citind:
 
 - a. titlul și prima frază a fiecărui paragraf
 - b. ultimul paragraf
@@ -561,7 +1065,7 @@ cssclasses: test
 > 
 > Prima frază conține, de regulă, ideea principală.
 
-### 47. O variantă corectă „din cunoștințe generale”, dar absentă din text:
+### 89. O variantă corectă „din cunoștințe generale”, dar absentă din text:
 
 - a. este greșită în contextul examenului
 - b. se punctează parțial
@@ -573,7 +1077,7 @@ cssclasses: test
 > 
 > Se evaluează înțelegerea textului dat.
 
-### 48. Prefixul „over-” indică:
+### 90. Prefixul „over-” indică:
 
 - a. un exces
 - b. o negație
@@ -585,7 +1089,79 @@ cssclasses: test
 > 
 > „Under-” indică insuficiența.
 
-### 49. Criteriile de evaluare la scriere sunt:
+### 91. Colocația corectă este:
+
+- a. make progress
+- b. do progress
+- c. make homework
+- d. do a mistake
+
+> [!success]- Răspuns
+> **a. make progress**
+> 
+> „Make progress”, dar „do homework”.
+
+### 92. „It's too expensive to buy” ↔ transformarea corectă:
+
+- a. It isn't cheap enough to buy
+- b. It is cheap enough to buy
+- c. It isn't too cheap to buy
+- d. It is enough cheap to buy
+
+> [!success]- Răspuns
+> **a. It isn't cheap enough to buy**
+> 
+> „Too + adjectiv” ↔ „not + adjectiv + enough”.
+
+### 93. O scrisoare formală se încheie, cu numele destinatarului cunoscut, cu:
+
+- a. Yours sincerely
+- b. Yours faithfully
+- c. Cheers
+- d. Best wishes mate
+
+> [!success]- Răspuns
+> **a. Yours sincerely**
+> 
+> „Yours faithfully” se folosește fără numele destinatarului.
+
+### 94. Ortografia britanică a lui „color” este:
+
+- a. colour
+- b. color
+- c. coloring
+- d. colur
+
+> [!success]- Răspuns
+> **a. colour**
+> 
+> Britanica păstrează grupul „-our”.
+
+### 95. Verbul frazal „take off” poate însemna:
+
+- a. a decola
+- b. a ateriza
+- c. a amâna
+- d. a renunța
+
+> [!success]- Răspuns
+> **a. a decola**
+> 
+> Are și sensul „a-și scoate haina”.
+
+### 96. „You ___ come if you don't want to” (absența obligației) cere:
+
+- a. don't have to
+- b. mustn't
+- c. can't
+- d. shouldn't
+
+> [!success]- Răspuns
+> **a. don't have to**
+> 
+> „Don't have to” = fără obligație; „mustn't” = interdicție.
+
+### 97. Criteriile de evaluare la scriere sunt:
 
 - a. sarcina, organizarea, vocabularul, gramatica
 - b. lungimea, ortografia, scrisul, viteza
@@ -597,7 +1173,7 @@ cssclasses: test
 > 
 > Un text bine scris, dar incomplet, pierde primul criteriu.
 
-### 50. Depășirea semnificativă a limitei de cuvinte:
+### 98. Depășirea semnificativă a limitei de cuvinte:
 
 - a. se penalizează
 - b. aduce puncte suplimentare
@@ -609,7 +1185,7 @@ cssclasses: test
 > 
 > Limita face parte din cerință.
 
-### 51. Planul înainte de scriere:
+### 99. Planul înainte de scriere:
 
 - a. asigură organizarea și tratarea completă
 - b. consumă timp inutil
@@ -621,7 +1197,7 @@ cssclasses: test
 > 
 > O idee pe paragraf este suficient.
 
-### 52. Neînțelegerea unei înregistrări se datorează cel mai des:
+### 100. Neînțelegerea unei înregistrări se datorează cel mai des:
 
 - a. formelor reduse și vitezei
 - b. vocabularului necunoscut
@@ -633,7 +1209,7 @@ cssclasses: test
 > 
 > Cuvinte cunoscute devin de nerecunoscut în vorbirea rapidă.
 
-### 53. Transcrierea unui fragment ascultat:
+### 101. Transcrierea unui fragment ascultat:
 
 - a. arată exact ce nu ai auzit și de ce
 - b. este pierdere de timp
@@ -645,7 +1221,7 @@ cssclasses: test
 > 
 > Este pasul care produce progres real.
 
-### 54. Înregistrarea propriei voci:
+### 102. Înregistrarea propriei voci:
 
 - a. arată obiectiv unde se pierde claritatea
 - b. corectează gramatica
@@ -657,7 +1233,7 @@ cssclasses: test
 > 
 > Este cel mai neplăcut și cel mai util exercițiu.
 
-### 55. O simulare cu dicționarul la îndemână:
+### 103. O simulare cu dicționarul la îndemână:
 
 - a. nu oferă o măsură reală a nivelului
 - b. este mai utilă
@@ -669,7 +1245,7 @@ cssclasses: test
 > 
 > Condițiile reale sunt esențiale.
 
-### 56. Simulările prea dese:
+### 104. Simulările prea dese:
 
 - a. nu lasă timp pentru corecția greșelilor
 - b. accelerează progresul
@@ -681,7 +1257,7 @@ cssclasses: test
 > 
 > Corecția produce progresul, nu repetarea.
 
-### 57. Timpul se distribuie între sarcini:
+### 105. Timpul se distribuie între sarcini:
 
 - a. proporțional cu punctajul
 - b. proporțional cu dificultatea
@@ -693,7 +1269,7 @@ cssclasses: test
 > 
 > Punctajul dictează prioritatea.
 
-### 58. Recapitularea intensă în ultima oră înainte de probă:
+### 106. Recapitularea intensă în ultima oră înainte de probă:
 
 - a. crește anxietatea fără beneficiu real
 - b. consolidează materia
@@ -705,7 +1281,7 @@ cssclasses: test
 > 
 > Consolidarea are nevoie de timp.
 
-### 59. Competența lingvistică nefolosită:
+### 107. Competența lingvistică nefolosită:
 
 - a. se pierde treptat
 - b. rămâne stabilă
@@ -717,7 +1293,7 @@ cssclasses: test
 > 
 > Fenomenul se numește atriție lingvistică.
 
-### 60. Așteptarea momentului „când voi fi pregătit” pentru a vorbi:
+### 108. Așteptarea momentului „când voi fi pregătit” pentru a vorbi:
 
 - a. întârzie cel mai mult progresul
 - b. este prudentă

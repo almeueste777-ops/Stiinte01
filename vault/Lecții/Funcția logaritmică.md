@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Funcția logaritmică
 
-[[Matematică (clasa a X-a)|Matematică]] · [[Clasa a X-a]] · lecția 2 din 9
+[[Matematică (clasa a X-a)|Matematică]] · [[Clasa a X-a]] · lecția 2 din 18
 
 **Capitolul:** Funcții și ecuații — semestrul 1
 

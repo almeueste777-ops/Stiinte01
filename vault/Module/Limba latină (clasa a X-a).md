@@ -20,7 +20,7 @@ cssclasses: fisa
 
 Latina la nivel avansat: declinările a III-a–a V-a, moduri și subordonate, texte din autorii clasici și civilizația romană.
 
-## Capitole (3)
+## Capitole (7)
 
 ### Morfologie avansată — semestrul 1
 
@@ -40,9 +40,30 @@ Latina la nivel avansat: declinările a III-a–a V-a, moduri și subordonate, t
 - [[Societatea și instituțiile romane]]
 - [[Romanizarea și Dacia romană]]
 
+### Verbul — forme nominale și verbe neregulate — semestrul 1
+
+- [[Gerunziul și gerundivul]]
+- [[Supinul și infinitivele]]
+- [[Verbe neregulate]]
+
+### Sintaxa cazurilor și a frazei — semestrul 1
+
+- [[Sintaxa cazurilor]]
+- [[Concordanța timpurilor și interogativa indirectă]]
+
+### Istoria și religia Romei — semestrul 2
+
+- [[Istoria Romei — de la cetate la imperiu]]
+- [[Religia și miturile Romei]]
+
+### Literatura latină și moștenirea ei — semestrul 2
+
+- [[Genurile literaturii latine]]
+- [[Expresii latine și moștenirea culturală]]
+
 ## Exersare
-- [[Carduri - Limba latină (clasa a X-a)]] — 36 carduri
-- [[Test - Limba latină (clasa a X-a)]] — 54 întrebări
+- [[Carduri - Limba latină (clasa a X-a)]] — 72 carduri
+- [[Test - Limba latină (clasa a X-a)]] — 96 întrebări
 
 ## Legături
 - [[Limba latină|Limba latină]]

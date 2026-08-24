@@ -21,7 +21,7 @@ cssclasses: fisa
 
 Calcul tabelar, baze de date, prelucrarea imaginii și algoritmi: instrumentele digitale de lucru cu date.
 
-## Capitole (3)
+## Capitole (6)
 
 ### Calcul tabelar — semestrul 1
 
@@ -41,9 +41,25 @@ Calcul tabelar, baze de date, prelucrarea imaginii și algoritmi: instrumentele 
 - [[Structuri repetitive și prelucrarea datelor]]
 - [[Gândire computațională și rezolvarea problemelor]]
 
+### Calcul tabelar aprofundat — semestrul 1
+
+- [[Referințe relative, absolute și denumirea celulelor]]
+- [[Funcții logice și calcul condiționat]]
+- [[Sortare, filtrare și tabele pivot]]
+
+### Tehnici algoritmice — semestrul 1
+
+- [[Structuri de decizie în algoritmi]]
+- [[Tablouri (vectori) și prelucrarea colecțiilor]]
+
+### Baze de date relaționale — semestrul 2
+
+- [[Modelul relațional - tabele, chei și relații]]
+- [[Integritatea datelor și normalizarea]]
+
 ## Exersare
-- [[Carduri - Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)]] — 36 carduri
-- [[Test - Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)]] — 60 întrebări
+- [[Carduri - Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)]] — 64 carduri
+- [[Test - Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)]] — 94 întrebări
 
 ## Legături
 - [[Tehnologia informației și a comunicațiilor (TIC)|Tehnologia informației și a comunicațiilor (TIC)]]

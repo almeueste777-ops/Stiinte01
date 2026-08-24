@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Unde mecanice și sunetul
 
-[[Fizică (clasa a X-a)|Fizică]] · [[Clasa a X-a]] · lecția 8 din 9
+[[Fizică (clasa a X-a)|Fizică]] · [[Clasa a X-a]] · lecția 8 din 18
 
 **Capitolul:** Optică, unde, fizica modernă — semestrul 2
 

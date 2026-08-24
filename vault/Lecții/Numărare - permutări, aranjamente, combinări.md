@@ -10,7 +10,7 @@ clasa: "a X-a"
 ---
 # Numărare: permutări, aranjamente, combinări
 
-[[Matematică (clasa a X-a)|Matematică]] · [[Clasa a X-a]] · lecția 4 din 9
+[[Matematică (clasa a X-a)|Matematică]] · [[Clasa a X-a]] · lecția 4 din 18
 
 **Capitolul:** Combinatorică și probabilități — semestrul 1
 

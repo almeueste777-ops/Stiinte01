@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Sarcina electrică și curentul
 
-[[Fizică (clasa a X-a)|Fizică]] · [[Clasa a X-a]] · lecția 4 din 9
+[[Fizică (clasa a X-a)|Fizică]] · [[Clasa a X-a]] · lecția 4 din 18
 
 **Capitolul:** Electricitate și magnetism — semestrul 1
 

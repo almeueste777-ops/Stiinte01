@@ -2,26 +2,27 @@
 tags:
   - lectie
   - materie/limba-moderna-1-engleza
-  - clasa/a-x-a
-id: eng10-03
-clasa: "a X-a"
+  - clasa/a-xi-a
+id: eng11-13
+clasa: "a XI-a"
 ---
 # Diateza pasivă
 
-[[Limba modernă 1 (Engleză) (clasa a X-a)|Limba modernă 1 (Engleză)]] · [[Clasa a X-a]] · lecția 3 din 18
+[[Limba modernă 1 (Engleză) (clasa a XI-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XI-a]] · lecția 13 din 18
 
-**Capitolul:** Timpuri și aspecte — semestrul 1
+**Capitolul:** Diateza pasivă și discursul indirect — semestrul 1
 
 ## Rezumat
 
-Pasivul mută accentul de pe autorul acțiunii pe acțiune sau pe obiectul ei: „The letter was written by John” în loc de „John wrote the letter”. Se formează cu verbul „to be” la timpul corespunzător plus participiul trecut. Autorul se introduce cu „by”, dar se omite când e necunoscut, evident sau irelevant — exact motivul pentru care pasivul e frecvent în texte științifice, jurnalistice și oficiale. Transformarea: complementul direct devine subiect, verbul trece la pasiv, subiectul inițial devine complement de agent. Verbele cu două complemente admit două pasive: „I was given a book” sau „A book was given to me”. Structurile impersonale („It is said that…”, „He is believed to be…”) permit transmiterea unei informații fără asumarea sursei.
+Diateza pasivă mută accentul de pe autorul acțiunii pe obiectul ei. Se formează cu verbul „to be" la timpul potrivit plus participiul trecut: „The house was built in 1900", „English is spoken here", „The report has been finished". Autorul acțiunii, dacă este menționat, se introduce cu „by": „The novel was written by Dickens". Adesea autorul lipsește, fiindcă este necunoscut, neimportant sau evident.
+Pasivul este frecvent în textele formale, științifice și jurnalistice, unde contează acțiunea, nu autorul: „Mistakes were made", „The vaccine is administered in two doses". Se poate forma la orice timp: prezent („is done"), trecut („was done"), viitor („will be done"), perfect („has been done"), cu modale („must be done"). Verbele cu două complemente permit două construcții pasive: „I was given a book" / „A book was given to me".
 
 ## Idei-cheie
 
-- Pasivul mută accentul de pe autor pe acțiune sau pe obiectul ei.
-- Se formează cu „to be” plus participiu trecut.
-- Agentul se omite când e necunoscut, evident sau irelevant.
-- Structurile impersonale transmit informația fără asumarea sursei.
+- Pasivul se formează cu „to be" + participiu trecut.
+- Autorul acțiunii se introduce cu „by", dacă este menționat.
+- Pasivul e frecvent în textele formale, unde contează acțiunea, nu autorul.
+- Verbele cu două complemente permit două construcții pasive.
 
 ## Notițele mele
 
@@ -29,6 +30,6 @@ Pasivul mută accentul de pe autorul acțiunii pe acțiune sau pe obiectul ei: �
 
 ---
 
-⬅ [[Past Perfect și succesiunea timpurilor]] · [[Condiționalele]] ➡
+⬅ [[Condiționale mixte și structuri cu wish]] · [[Discursul indirect (reported speech)]] ➡
 
-Exersează: [[Carduri - Limba modernă 1 (Engleză) (clasa a X-a)]] · [[Test - Limba modernă 1 (Engleză) (clasa a X-a)]]
+Exersează: [[Carduri - Limba modernă 1 (Engleză) (clasa a XI-a)]] · [[Test - Limba modernă 1 (Engleză) (clasa a XI-a)]]

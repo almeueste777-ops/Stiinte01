@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Modalitatea și exprimarea probabilității
 
-[[Limba modernă 1 (Engleză) (clasa a XIII-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XIII-a]] · lecția 2 din 9
+[[Limba modernă 1 (Engleză) (clasa a XIII-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XIII-a]] · lecția 2 din 18
 
 **Capitolul:** Recapitularea sistemului verbal — semestrul 1
 

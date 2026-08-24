@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)
 
-60 întrebări din [[Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)|Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+94 întrebări din [[Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)|Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Referința $A$1 este:
 
@@ -441,7 +441,415 @@ cssclasses: test
 > 
 > Multe probleme noi sunt variante ale unora rezolvate.
 
-### 37. O formulă într-o foaie de calcul începe cu:
+### 37. Referința $A$1 este:
+
+- a. absolută, nu se modifică la copiere
+- b. relativă
+- c. mixtă pe rând
+- d. o eroare de sintaxă
+
+> [!success]- Răspuns
+> **a. absolută, nu se modifică la copiere**
+> 
+> Dolarul fixează atât coloana, cât și rândul.
+
+### 38. La copierea în jos, referința relativă B2:
+
+- a. se ajustează la B3, B4 și așa mai departe
+- b. rămâne mereu B2
+- c. devine $B$2
+- d. produce eroare
+
+> [!success]- Răspuns
+> **a. se ajustează la B3, B4 și așa mai departe**
+> 
+> Adresa se adaptează rândului.
+
+### 39. O formulă într-o foaie de calcul începe cu:
+
+- a. semnul egal
+- b. semnul plus
+- c. o paranteză
+- d. ghilimele
+
+> [!success]- Răspuns
+> **a. semnul egal**
+> 
+> Fără el, textul nu este interpretat ca formulă.
+
+### 40. Pentru un procent de TVA folosit de toate rândurile, în formulă se pune:
+
+- a. o referință absolută la celula cu TVA
+- b. o referință relativă
+- c. valoarea scrisă manual în fiecare rând
+- d. un comentariu
+
+> [!success]- Răspuns
+> **a. o referință absolută la celula cu TVA**
+> 
+> Astfel o singură modificare actualizează tot tabelul.
+
+### 41. Funcția SUM(A1:A10):
+
+- a. adună cele zece celule din domeniu
+- b. adună doar A1 și A10
+- c. numără celulele
+- d. calculează media
+
+> [!success]- Răspuns
+> **a. adună cele zece celule din domeniu**
+> 
+> Domeniul A1:A10 cuprinde toate celulele dintre ele.
+
+### 42. Pentru a afișa „promovat” dacă nota este cel puțin 5 se folosește:
+
+- a. funcția IF
+- b. funcția SUM
+- c. funcția MAX
+- d. funcția COUNT
+
+> [!success]- Răspuns
+> **a. funcția IF**
+> 
+> IF alege rezultatul în funcție de condiție.
+
+### 43. Pentru a număra câți elevi au nota peste 9 se folosește:
+
+- a. COUNTIF
+- b. SUM
+- c. AVERAGE
+- d. MIN
+
+> [!success]- Răspuns
+> **a. COUNTIF**
+> 
+> COUNTIF numără celulele care respectă un criteriu.
+
+### 44. Media aritmetică a unui domeniu se obține cu:
+
+- a. AVERAGE
+- b. COUNT
+- c. MAX
+- d. IF
+
+> [!success]- Răspuns
+> **a. AVERAGE**
+> 
+> COUNT doar numără celulele cu valori numerice.
+
+### 45. Filtrarea unui tabel:
+
+- a. ascunde temporar rândurile care nu respectă criteriul
+- b. șterge definitiv rândurile
+- c. rearanjează coloanele
+- d. schimbă formulele
+
+> [!success]- Răspuns
+> **a. ascunde temporar rândurile care nu respectă criteriul**
+> 
+> La eliminarea filtrului, rândurile reapar.
+
+### 46. Pentru a obține rapid vânzările totale pe fiecare produs dintr-o listă mare se folosește:
+
+- a. un tabel pivot
+- b. o simplă sortare
+- c. o singură funcție IF
+- d. un grafic colorat
+
+> [!success]- Răspuns
+> **a. un tabel pivot**
+> 
+> Tabelul pivot grupează și însumează automat.
+
+### 47. Sortarea unui tabel păstrează:
+
+- a. legătura dintre celulele aceluiași rând
+- b. doar coloana sortată
+- c. doar antetul
+- d. doar formulele
+
+> [!success]- Răspuns
+> **a. legătura dintre celulele aceluiași rând**
+> 
+> Altfel rândurile și-ar amesteca datele.
+
+### 48. Diferența dintre filtrare și sortare este că:
+
+- a. filtrarea ascunde rânduri, iar sortarea le reordonează
+- b. sunt identice
+- c. filtrarea șterge date
+- d. sortarea ascunde coloane
+
+> [!success]- Răspuns
+> **a. filtrarea ascunde rânduri, iar sortarea le reordonează**
+> 
+> Ele răspund la nevoi diferite.
+
+### 49. Structura de decizie dintr-un algoritm:
+
+- a. alege pașii în funcție de o condiție
+- b. repetă pașii de un număr de ori
+- c. execută pașii mereu în aceeași ordine
+- d. oprește algoritmul
+
+> [!success]- Răspuns
+> **a. alege pașii în funcție de o condiție**
+> 
+> Ea face algoritmul să se adapteze la date.
+
+### 50. În schema logică, decizia se reprezintă prin:
+
+- a. romb
+- b. dreptunghi
+- c. oval
+- d. paralelogram
+
+> [!success]- Răspuns
+> **a. romb**
+> 
+> Are două ramuri de ieșire: DA și NU.
+
+### 51. O condiție dintr-un algoritm poate fi:
+
+- a. adevărată sau falsă
+- b. doar un număr
+- c. doar un text
+- d. mereu adevărată
+
+> [!success]- Răspuns
+> **a. adevărată sau falsă**
+> 
+> Pe baza ei se alege ramura de executat.
+
+### 52. Expresia „nota ≥ 5” este:
+
+- a. o condiție (expresie logică)
+- b. o secvență
+- c. o repetiție
+- d. o eroare
+
+> [!success]- Răspuns
+> **a. o condiție (expresie logică)**
+> 
+> Ea decide, de exemplu, „promovat/respins”.
+
+### 53. Un vector permite:
+
+- a. păstrarea mai multor valori de același tip sub un singur nume
+- b. o singură valoare
+- c. doar text
+- d. doar două valori
+
+> [!success]- Răspuns
+> **a. păstrarea mai multor valori de același tip sub un singur nume**
+> 
+> Elementele se accesează prin indice.
+
+### 54. Un element dintr-un vector se accesează prin:
+
+- a. indicele său (poziția)
+- b. culoare
+- c. nume propriu
+- d. dimensiune
+
+> [!success]- Răspuns
+> **a. indicele său (poziția)**
+> 
+> De exemplu, nota[3] este al treilea element.
+
+### 55. Suma elementelor unui vector se calculează, de regulă:
+
+- a. parcurgând vectorul cu o structură repetitivă
+- b. printr-o singură decizie
+- c. fără a parcurge elementele
+- d. doar pentru primul element
+
+> [!success]- Răspuns
+> **a. parcurgând vectorul cu o structură repetitivă**
+> 
+> Se acumulează valorile pe parcurgere.
+
+### 56. Un tablou bidimensional (matrice) organizează datele:
+
+- a. pe rânduri și coloane
+- b. pe o singură linie
+- c. fără ordine
+- d. doar ca text
+
+> [!success]- Răspuns
+> **a. pe rânduri și coloane**
+> 
+> Accesul se face cu doi indici.
+
+### 57. Cheia primară a unui tabel:
+
+- a. identifică unic fiecare înregistrare
+- b. leagă două tabele
+- c. este întotdeauna un text
+- d. se poate repeta
+
+> [!success]- Răspuns
+> **a. identifică unic fiecare înregistrare**
+> 
+> Fără ea, rândurile nu s-ar putea distinge cu certitudine.
+
+### 58. Legătura dintre două tabele se realizează prin:
+
+- a. o cheie externă
+- b. o formulă
+- c. un filtru
+- d. un grafic
+
+> [!success]- Răspuns
+> **a. o cheie externă**
+> 
+> Ea trimite la cheia primară a celuilalt tabel.
+
+### 59. Într-un tabel, un rând reprezintă:
+
+- a. o înregistrare (un element)
+- b. un câmp
+- c. o cheie
+- d. o coloană
+
+> [!success]- Răspuns
+> **a. o înregistrare (un element)**
+> 
+> Coloanele sunt câmpurile (atributele).
+
+### 60. Avantajul principal al modelului relațional este:
+
+- a. eliminarea redundanței datelor
+- b. folosirea culorilor
+- c. viteza de tastare
+- d. afișarea graficelor
+
+> [!success]- Răspuns
+> **a. eliminarea redundanței datelor**
+> 
+> Fiecare informație se păstrează o singură dată.
+
+### 61. Repetarea aceleiași informații în mai multe locuri se numește:
+
+- a. redundanță
+- b. normalizare
+- c. interogare
+- d. cheie primară
+
+> [!success]- Răspuns
+> **a. redundanță**
+> 
+> Ea poate duce la date contradictorii.
+
+### 62. Normalizarea unei baze de date urmărește:
+
+- a. ca fiecare informație să apară o singură dată
+- b. creșterea redundanței
+- c. folosirea culorilor
+- d. ștergerea cheilor
+
+> [!success]- Răspuns
+> **a. ca fiecare informație să apară o singură dată**
+> 
+> Astfel se evită anomaliile.
+
+### 63. O regulă care cere ca o notă să fie între 1 și 10 asigură:
+
+- a. integritatea datelor (domeniu de valori admise)
+- b. redundanța
+- c. o cheie externă
+- d. un tabel pivot
+
+> [!success]- Răspuns
+> **a. integritatea datelor (domeniu de valori admise)**
+> 
+> Valorile în afara domeniului sunt respinse.
+
+### 64. Integritatea referențială este încălcată dacă:
+
+- a. o cheie externă trimite la o înregistrare care nu există
+- b. fiecare rând are cheie primară
+- c. datele sunt normalizate
+- d. câmpurile au tipuri corecte
+
+> [!success]- Răspuns
+> **a. o cheie externă trimite la o înregistrare care nu există**
+> 
+> Legătura ar rămâne „suspendată”.
+
+### 65. Referința $A$1 este:
+
+- a. absolută, nu se modifică la copiere
+- b. relativă
+- c. o eroare
+- d. un simplu text
+
+> [!success]- Răspuns
+> **a. absolută, nu se modifică la copiere**
+> 
+> Dolarul fixează coloana și rândul.
+
+### 66. Funcția care adună un domeniu de celule este:
+
+- a. SUM
+- b. IF
+- c. COUNT
+- d. MAX
+
+> [!success]- Răspuns
+> **a. SUM**
+> 
+> De exemplu SUM(A1:A10).
+
+### 67. Pentru a număra câte celule respectă un criteriu se folosește:
+
+- a. COUNTIF
+- b. SUM
+- c. AVERAGE
+- d. MIN
+
+> [!success]- Răspuns
+> **a. COUNTIF**
+> 
+> COUNTIF numără condiționat.
+
+### 68. Filtrarea unui tabel:
+
+- a. ascunde temporar rândurile nerelevante
+- b. le șterge definitiv
+- c. reordonează coloanele
+- d. schimbă formulele
+
+> [!success]- Răspuns
+> **a. ascunde temporar rândurile nerelevante**
+> 
+> Datele reapar la eliminarea filtrului.
+
+### 69. Structura de decizie într-un algoritm:
+
+- a. alege pașii în funcție de o condiție
+- b. repetă pașii
+- c. îi execută mereu la fel
+- d. oprește execuția
+
+> [!success]- Răspuns
+> **a. alege pașii în funcție de o condiție**
+> 
+> În pseudocod: DACĂ … ATUNCI … ALTFEL …
+
+### 70. Un vector (tablou) permite:
+
+- a. păstrarea mai multor valori de același tip sub un nume
+- b. o singură valoare
+- c. doar text
+- d. doar culori
+
+> [!success]- Răspuns
+> **a. păstrarea mai multor valori de același tip sub un nume**
+> 
+> Elementele se accesează prin indice.
+
+### 71. O formulă într-o foaie de calcul începe cu:
 
 - a. semnul egal
 - b. semnul plus
@@ -453,7 +861,7 @@ cssclasses: test
 > 
 > Altfel conținutul e tratat ca text.
 
-### 38. Referința $B$3 este:
+### 72. Referința $B$3 este:
 
 - a. absolută
 - b. relativă
@@ -465,7 +873,7 @@ cssclasses: test
 > 
 > Ea nu se modifică la copiere.
 
-### 39. La copierea unei formule în jos, referința relativă:
+### 73. La copierea unei formule în jos, referința relativă:
 
 - a. se ajustează automat
 - b. rămâne neschimbată
@@ -477,7 +885,7 @@ cssclasses: test
 > 
 > De aceea trebuie ales tipul potrivit de referință.
 
-### 40. Tabelul pivot este util pentru:
+### 74. Tabelul pivot este util pentru:
 
 - a. rezumarea unui set mare de date pe categorii
 - b. formatarea textului
@@ -489,7 +897,7 @@ cssclasses: test
 > 
 > El grupează și totalizează automat.
 
-### 41. Formatarea condiționată:
+### 75. Formatarea condiționată:
 
 - a. evidențiază celulele care îndeplinesc un criteriu
 - b. modifică valorile
@@ -501,7 +909,7 @@ cssclasses: test
 > 
 > Ea face vizibile tiparele.
 
-### 42. Pentru evoluția în timp se folosește graficul:
+### 76. Pentru evoluția în timp se folosește graficul:
 
 - a. cu linii
 - b. circular
@@ -513,7 +921,7 @@ cssclasses: test
 > 
 > Graficul circular arată compoziția.
 
-### 43. Trunchierea axei verticale:
+### 77. Trunchierea axei verticale:
 
 - a. exagerează vizual diferențele
 - b. le reduce
@@ -525,7 +933,7 @@ cssclasses: test
 > 
 > Este o manipulare vizuală frecventă.
 
-### 44. Într-o bază de date, coloanele se numesc:
+### 78. Într-o bază de date, coloanele se numesc:
 
 - a. câmpuri
 - b. înregistrări
@@ -537,7 +945,7 @@ cssclasses: test
 > 
 > Rândurile sunt înregistrări.
 
-### 45. Cheia primară:
+### 79. Cheia primară:
 
 - a. identifică unic fiecare înregistrare
 - b. leagă două tabele
@@ -549,7 +957,7 @@ cssclasses: test
 > 
 > Cheia externă face legătura între tabele.
 
-### 46. Redundanța datelor produce:
+### 80. Redundanța datelor produce:
 
 - a. risc de inconsistență la actualizare
 - b. economie de spațiu
@@ -561,7 +969,7 @@ cssclasses: test
 > 
 > Normalizarea o elimină.
 
-### 47. SQL este:
+### 81. SQL este:
 
 - a. limbajul de interogare a bazelor de date relaționale
 - b. un sistem de operare
@@ -573,7 +981,7 @@ cssclasses: test
 > 
 > El permite selectarea și modificarea datelor.
 
-### 48. Formularele într-o bază de date servesc la:
+### 82. Formularele într-o bază de date servesc la:
 
 - a. introducerea și editarea validată a datelor
 - b. stocarea datelor
@@ -585,7 +993,7 @@ cssclasses: test
 > 
 > Rapoartele formatează rezultatele.
 
-### 49. Formatul PNG este preferat pentru:
+### 83. Formatul PNG este preferat pentru:
 
 - a. imagini cu transparență, fără pierdere de calitate
 - b. fotografii comprimate puternic
@@ -597,7 +1005,7 @@ cssclasses: test
 > 
 > JPEG comprimă cu pierdere.
 
-### 50. O imagine vectorială mărită:
+### 84. O imagine vectorială mărită:
 
 - a. își păstrează calitatea
 - b. se pixelizează
@@ -609,7 +1017,7 @@ cssclasses: test
 > 
 > Ea este descrisă prin formule geometrice.
 
-### 51. Eliminarea unui element dintr-o fotografie de presă este:
+### 85. Eliminarea unui element dintr-o fotografie de presă este:
 
 - a. falsificare a conținutului informativ
 - b. o corecție tehnică
@@ -621,7 +1029,7 @@ cssclasses: test
 > 
 > Corecțiile admise privesc luminozitatea și încadrarea.
 
-### 52. Un algoritm trebuie să fie:
+### 86. Un algoritm trebuie să fie:
 
 - a. finit, clar, general, corect și eficient
 - b. lung și detaliat
@@ -633,7 +1041,7 @@ cssclasses: test
 > 
 > Finitudinea este proprietatea esențială.
 
-### 53. Rombul, în schema logică, reprezintă:
+### 87. Rombul, în schema logică, reprezintă:
 
 - a. decizia
 - b. prelucrarea
@@ -645,7 +1053,7 @@ cssclasses: test
 > 
 > Dreptunghiul reprezintă prelucrarea.
 
-### 54. Orice algoritm se poate construi din:
+### 88. Orice algoritm se poate construi din:
 
 - a. secvență, decizie și repetiție
 - b. doar secvență și decizie
@@ -657,7 +1065,7 @@ cssclasses: test
 > 
 > Este teorema structurii programelor.
 
-### 55. Ciclul cu test inițial:
+### 89. Ciclul cu test inițial:
 
 - a. poate să nu se execute niciodată
 - b. se execută cel puțin o dată
@@ -669,7 +1077,7 @@ cssclasses: test
 > 
 > Condiția se verifică înaintea primei execuții.
 
-### 56. Ciclul infinit apare cel mai frecvent din cauza:
+### 90. Ciclul infinit apare cel mai frecvent din cauza:
 
 - a. neactualizării variabilei de control
 - b. lipsei de memorie
@@ -681,7 +1089,7 @@ cssclasses: test
 > 
 > Condiția rămâne mereu adevărată.
 
-### 57. Componentele gândirii computaționale sunt:
+### 91. Componentele gândirii computaționale sunt:
 
 - a. descompunere, tipare, abstractizare, algoritm, evaluare
 - b. citire, scriere, calcul
@@ -693,7 +1101,7 @@ cssclasses: test
 > 
 > Ele se aplică oricărei probleme, nu doar celor informatice.
 
-### 58. Testarea pe câteva exemple corecte:
+### 92. Testarea pe câteva exemple corecte:
 
 - a. nu demonstrează corectitudinea algoritmului
 - b. o demonstrează
@@ -705,7 +1113,7 @@ cssclasses: test
 > 
 > Cazurile limită pot invalida soluția.
 
-### 59. Un caz limită tipic este:
+### 93. Un caz limită tipic este:
 
 - a. șirul gol sau cu un singur element
 - b. un șir de zece elemente
@@ -717,7 +1125,7 @@ cssclasses: test
 > 
 > Acolo apar cele mai multe erori.
 
-### 60. Descompunerea unei probleme înseamnă:
+### 94. Descompunerea unei probleme înseamnă:
 
 - a. împărțirea ei în subprobleme mai simple
 - b. simplificarea enunțului

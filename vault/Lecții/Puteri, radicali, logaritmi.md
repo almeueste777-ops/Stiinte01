@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Puteri, radicali, logaritmi
 
-[[Matematică (clasa a IX-a)|Matematică]] · [[Clasa a IX-a]] · lecția 2 din 9
+[[Matematică (clasa a IX-a)|Matematică]] · [[Clasa a IX-a]] · lecția 2 din 18
 
 **Capitolul:** Mulțimi și numere reale — semestrul 1
 

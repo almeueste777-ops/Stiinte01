@@ -21,7 +21,7 @@ cssclasses: fisa
 
 Bazele informaticii aplicate: calculatorul, sistemul de operare, fișiere, editare de text și siguranța online.
 
-## Capitole (3)
+## Capitole (6)
 
 ### Calculatorul și sistemul de operare — semestrul 1
 
@@ -41,9 +41,25 @@ Bazele informaticii aplicate: calculatorul, sistemul de operare, fișiere, edita
 - [[Date personale, urmă digitală și confidențialitate]]
 - [[Etică digitală, drepturi de autor, dezinformare]]
 
+### Reprezentarea informației — semestrul 1
+
+- [[Sistemul binar și unitățile informației]]
+- [[Reprezentarea textului, a imaginii și a sunetului]]
+- [[Periferice, porturi și conectarea dispozitivelor]]
+
+### Lucru eficient și sănătos — semestrul 1
+
+- [[Ergonomie, sănătate digitală și echilibru]]
+- [[Organizarea, arhivarea și copiile fișierelor]]
+
+### Documente structurate — semestrul 2
+
+- [[Tabele și liste în procesorul de text]]
+- [[Imagini și obiecte grafice în documente]]
+
 ## Exersare
-- [[Carduri - Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)]] — 36 carduri
-- [[Test - Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)]] — 60 întrebări
+- [[Carduri - Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)]] — 64 carduri
+- [[Test - Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)]] — 100 întrebări
 
 ## Legături
 - [[Tehnologia informației și a comunicațiilor (TIC)|Tehnologia informației și a comunicațiilor (TIC)]]

@@ -10,7 +10,7 @@ Unde stă fiecare materie cu conținut în cei cinci ani.
 ```mermaid
 graph LR
   P["Științe sociale · FR"]
-  C0["Clasa a IX-a<br/>13 materii · 223 lecții"]
+  C0["Clasa a IX-a<br/>13 materii · 248 lecții"]
   P --> C0
   A0_0["Limbă și comunicare<br/>4 materii"]
   C0 --> A0_0
@@ -20,7 +20,7 @@ graph LR
   C0 --> A0_2
   A0_3["Tehnologii<br/>1 materii"]
   C0 --> A0_3
-  C1["Clasa a X-a<br/>13 materii · 214 lecții"]
+  C1["Clasa a X-a<br/>13 materii · 248 lecții"]
   P --> C1
   A1_0["Limbă și comunicare<br/>4 materii"]
   C1 --> A1_0
@@ -30,7 +30,7 @@ graph LR
   C1 --> A1_2
   A1_3["Tehnologii<br/>1 materii"]
   C1 --> A1_3
-  C2["Clasa a XI-a<br/>12 materii · 196 lecții"]
+  C2["Clasa a XI-a<br/>12 materii · 214 lecții"]
   P --> C2
   A2_0["Limbă și comunicare<br/>3 materii"]
   C2 --> A2_0
@@ -40,7 +40,7 @@ graph LR
   C2 --> A2_2
   A2_3["Tehnologii<br/>1 materii"]
   C2 --> A2_3
-  C3["Clasa a XII-a<br/>11 materii · 178 lecții"]
+  C3["Clasa a XII-a<br/>11 materii · 187 lecții"]
   P --> C3
   A3_0["Limbă și comunicare<br/>3 materii"]
   C3 --> A3_0
@@ -50,7 +50,7 @@ graph LR
   C3 --> A3_2
   A3_3["Tehnologii<br/>1 materii"]
   C3 --> A3_3
-  C4["Clasa a XIII-a<br/>11 materii · 200 lecții"]
+  C4["Clasa a XIII-a<br/>11 materii · 209 lecții"]
   P --> C4
   A4_0["Curriculum la decizia elevului<br/>1 materii"]
   C4 --> A4_0
@@ -68,15 +68,15 @@ graph LR
 - [[Istorie (clasa a IX-a)|Istorie]] — 24 lecții
 - [[Logică, argumentare și comunicare (clasa a IX-a)|Logică, argumentare și comunicare]] — 24 lecții
 - [[Religie (clasa a IX-a)|Religie]] — 18 lecții
-- [[Limba latină (clasa a IX-a)|Limba latină]] — 9 lecții
+- [[Limba latină (clasa a IX-a)|Limba latină]] — 18 lecții
 - [[Limba modernă 1 (Engleză) (clasa a IX-a)|Limba modernă 1 (Engleză)]] — 18 lecții
 - [[Limba modernă 2 (Franceză) (clasa a IX-a)|Limba modernă 2 (Franceză)]] — 18 lecții
 - [[Limba și literatura română (clasa a IX-a)|Limba și literatura română]] — 20 lecții
 - [[Biologie (clasa a IX-a)|Biologie]] — 18 lecții
 - [[Chimie (clasa a IX-a)|Chimie]] — 18 lecții
 - [[Fizică (clasa a IX-a)|Fizică]] — 18 lecții
-- [[Matematică (clasa a IX-a)|Matematică]] — 9 lecții
-- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)|Tehnologia informației și a comunicațiilor (TIC)]] — 9 lecții
+- [[Matematică (clasa a IX-a)|Matematică]] — 18 lecții
+- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)|Tehnologia informației și a comunicațiilor (TIC)]] — 16 lecții
 
 ### [[Clasa a X-a]]
 
@@ -84,15 +84,15 @@ graph LR
 - [[Istorie (clasa a X-a)|Istorie]] — 24 lecții
 - [[Psihologie (clasa a X-a)|Psihologie]] — 24 lecții
 - [[Religie (clasa a X-a)|Religie]] — 18 lecții
-- [[Limba latină (clasa a X-a)|Limba latină]] — 9 lecții
+- [[Limba latină (clasa a X-a)|Limba latină]] — 18 lecții
 - [[Limba modernă 1 (Engleză) (clasa a X-a)|Limba modernă 1 (Engleză)]] — 18 lecții
 - [[Limba modernă 2 (Franceză) (clasa a X-a)|Limba modernă 2 (Franceză)]] — 18 lecții
 - [[Limba și literatura română (clasa a X-a)|Limba și literatura română]] — 20 lecții
 - [[Biologie (clasa a X-a)|Biologie]] — 18 lecții
 - [[Chimie (clasa a X-a)|Chimie]] — 18 lecții
-- [[Fizică (clasa a X-a)|Fizică]] — 9 lecții
-- [[Matematică (clasa a X-a)|Matematică]] — 9 lecții
-- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)|Tehnologia informației și a comunicațiilor (TIC)]] — 9 lecții
+- [[Fizică (clasa a X-a)|Fizică]] — 18 lecții
+- [[Matematică (clasa a X-a)|Matematică]] — 18 lecții
+- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)|Tehnologia informației și a comunicațiilor (TIC)]] — 16 lecții
 
 ### [[Clasa a XI-a]]
 
@@ -102,8 +102,8 @@ graph LR
 - [[Religie (clasa a XI-a)|Religie]] — 18 lecții
 - [[Sociologie (clasa a XI-a)|Sociologie]] — 24 lecții
 - [[Studii sociale (clasa a XI-a)|Studii sociale]] — 18 lecții
-- [[Limba modernă 1 (Engleză) (clasa a XI-a)|Limba modernă 1 (Engleză)]] — 9 lecții
-- [[Limba modernă 2 (Franceză) (clasa a XI-a)|Limba modernă 2 (Franceză)]] — 9 lecții
+- [[Limba modernă 1 (Engleză) (clasa a XI-a)|Limba modernă 1 (Engleză)]] — 18 lecții
+- [[Limba modernă 2 (Franceză) (clasa a XI-a)|Limba modernă 2 (Franceză)]] — 18 lecții
 - [[Limba și literatura română (clasa a XI-a)|Limba și literatura română]] — 20 lecții
 - [[Matematică aplicată în științele sociale (clasa a XI-a)|Matematică aplicată în științele sociale]] — 18 lecții
 - [[ȘTIAM (științe integrate) (clasa a XI-a)|ȘTIAM (științe integrate)]] — 9 lecții
@@ -116,7 +116,7 @@ graph LR
 - [[Istorie (clasa a XII-a)|Istorie]] — 24 lecții
 - [[Religie (clasa a XII-a)|Religie]] — 18 lecții
 - [[Studii sociale (clasa a XII-a)|Studii sociale]] — 18 lecții
-- [[Limba modernă 1 (Engleză) (clasa a XII-a)|Limba modernă 1 (Engleză)]] — 9 lecții
+- [[Limba modernă 1 (Engleză) (clasa a XII-a)|Limba modernă 1 (Engleză)]] — 18 lecții
 - [[Limba modernă 2 (Franceză) (clasa a XII-a)|Limba modernă 2 (Franceză)]] — 9 lecții
 - [[Limba și literatura română (clasa a XII-a)|Limba și literatura română]] — 20 lecții
 - [[Matematică aplicată în științele sociale (clasa a XII-a)|Matematică aplicată în științele sociale]] — 18 lecții
@@ -132,7 +132,7 @@ graph LR
 - [[Istorie (clasa a XIII-a)|Istorie]] — 22 lecții
 - [[Religie (clasa a XIII-a)|Religie]] — 18 lecții
 - [[Studii sociale (clasa a XIII-a)|Studii sociale]] — 18 lecții
-- [[Limba modernă 1 (Engleză) (clasa a XIII-a)|Limba modernă 1 (Engleză)]] — 9 lecții
+- [[Limba modernă 1 (Engleză) (clasa a XIII-a)|Limba modernă 1 (Engleză)]] — 18 lecții
 - [[Limba modernă 2 (Franceză) (clasa a XIII-a)|Limba modernă 2 (Franceză)]] — 9 lecții
 - [[Limba și literatura română (clasa a XIII-a)|Limba și literatura română]] — 20 lecții
 - [[Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)|Pregătire pentru bacalaureat (CDEOȘ)]] — 20 lecții

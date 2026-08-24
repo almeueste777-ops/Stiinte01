@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Corespondență formală și documente profesionale
 
-[[Limba modernă 1 (Engleză) (clasa a XII-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XII-a]] · lecția 2 din 9
+[[Limba modernă 1 (Engleză) (clasa a XII-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XII-a]] · lecția 2 din 18
 
 **Capitolul:** Scriere avansată — semestrul 1
 

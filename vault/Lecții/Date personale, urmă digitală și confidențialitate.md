@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Date personale, urmă digitală și confidențialitate
 
-[[Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a IX-a]] · lecția 8 din 9
+[[Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a IX-a]] · lecția 8 din 16
 
 **Capitolul:** Siguranță și responsabilitate digitală — semestrul 2
 

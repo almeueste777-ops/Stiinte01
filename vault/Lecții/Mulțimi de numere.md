@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Mulțimi de numere
 
-[[Matematică (clasa a IX-a)|Matematică]] · [[Clasa a IX-a]] · lecția 1 din 9
+[[Matematică (clasa a IX-a)|Matematică]] · [[Clasa a IX-a]] · lecția 1 din 18
 
 **Capitolul:** Mulțimi și numere reale — semestrul 1
 

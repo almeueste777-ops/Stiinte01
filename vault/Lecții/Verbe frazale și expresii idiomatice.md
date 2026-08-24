@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Verbe frazale și expresii idiomatice
 
-[[Limba modernă 1 (Engleză) (clasa a XI-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XI-a]] · lecția 2 din 9
+[[Limba modernă 1 (Engleză) (clasa a XI-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XI-a]] · lecția 2 din 18
 
 **Capitolul:** Structuri avansate — semestrul 1
 

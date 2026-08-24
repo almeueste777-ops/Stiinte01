@@ -2,26 +2,28 @@
 tags:
   - lectie
   - materie/limba-moderna-2-franceza
-  - clasa/a-x-a
-id: fra10-10
-clasa: "a X-a"
+  - clasa/a-xi-a
+id: fra11-17
+clasa: "a XI-a"
 ---
 # Comparativul și superlativul
 
-[[Limba modernă 2 (Franceză) (clasa a X-a)|Limba modernă 2 (Franceză)]] · [[Clasa a X-a]] · lecția 10 din 18
+[[Limba modernă 2 (Franceză) (clasa a XI-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XI-a]] · lecția 17 din 18
 
-**Capitolul:** Comparație, adverbe, imperativ — semestrul 1
+**Capitolul:** Viitor, comparație, anterioritate — semestrul 2
 
 ## Rezumat
 
-Comparativul pune față în față două elemente și are trei grade: superioritate (plus… que), inferioritate (moins… que), egalitate (aussi… que). „Marie est plus grande que Paul", „ce livre est moins cher que l'autre", „il est aussi intelligent que sa sœur". Al doilea termen al comparației se introduce prin „que". Superlativul exprimă gradul cel mai înalt sau cel mai scăzut și se formează cu articolul hotărât plus „plus" sau „moins": „le plus grand", „la plus belle", „les moins chers". Complementul se introduce prin „de": „le plus grand de la classe". Articolul se acordă în gen și număr cu substantivul. Câteva forme sunt neregulate și trebuie memorate. Adjectivul „bon" (bun) face comparativul „meilleur" (mai bun) și superlativul „le meilleur"; adverbul „bien" (bine) face „mieux" (mai bine), „le mieux". Confuzia dintre „meilleur" (adjectiv) și „mieux" (adverb) este una dintre greșelile frecvente.
+Comparativul compară două elemente sub raportul unei calități. Are trei grade: superioritate (plus… que), inferioritate (moins… que) și egalitate (aussi… que): „Marie est plus grande que Paul", „il est moins rapide que toi", „elle est aussi intelligente que lui". Adjectivul se acordă cu substantivul pe care îl caracterizează.
+Superlativul relativ exprimă gradul cel mai înalt sau cel mai scăzut dintr-un ansamblu: „le/la/les plus… (de)", „le/la/les moins… (de)": „c'est le plus grand de la classe", „la ville la moins chère de France". Articolul hotărât se acordă cu substantivul, iar complementul se introduce prin „de".
+Câteva forme sunt neregulate și se învață pe de rost: „bon" → „meilleur" (comparativ), „le meilleur" (superlativ); adverbul „bien" → „mieux", „le mieux". Nu se spune „plus bon", ci „meilleur". Pentru „mauvais" există și „pire", alături de „plus mauvais".
 
 ## Idei-cheie
 
-- Comparativ: plus… que (superioritate), moins… que (inferioritate), aussi… que (egalitate).
-- Al doilea termen se introduce prin „que".
-- Superlativ: articol hotărât plus „plus/moins"; complementul, prin „de".
-- Neregulate: bon → meilleur; bien → mieux.
+- Comparativul are trei grade: plus/moins/aussi… que.
+- Superlativul relativ: le/la/les plus (moins)… de.
+- „Bon" face „meilleur"; adverbul „bien" face „mieux".
+- Nu se spune „plus bon", ci „meilleur".
 
 ## Notițele mele
 
@@ -29,6 +31,6 @@ Comparativul pune față în față două elemente și are trei grade: superiori
 
 ---
 
-⬅ [[Franța și francofonia]] · [[Adverbele și formarea lor]] ➡
+⬅ [[Viitorul simplu (futur simple)]] · [[Mai-mult-ca-perfectul (plus-que-parfait)]] ➡
 
-Exersează: [[Carduri - Limba modernă 2 (Franceză) (clasa a X-a)]] · [[Test - Limba modernă 2 (Franceză) (clasa a X-a)]]
+Exersează: [[Carduri - Limba modernă 2 (Franceză) (clasa a XI-a)]] · [[Test - Limba modernă 2 (Franceză) (clasa a XI-a)]]

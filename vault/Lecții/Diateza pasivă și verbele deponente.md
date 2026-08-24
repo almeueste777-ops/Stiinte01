@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Diateza pasivă și verbele deponente
 
-[[Limba latină (clasa a IX-a)|Limba latină]] · [[Clasa a IX-a]] · lecția 6 din 9
+[[Limba latină (clasa a IX-a)|Limba latină]] · [[Clasa a IX-a]] · lecția 6 din 18
 
 **Capitolul:** Verbul latin la indicativ — semestrul 1
 

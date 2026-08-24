@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Propoziția simplă și acordul
 
-[[Limba latină (clasa a IX-a)|Limba latină]] · [[Clasa a IX-a]] · lecția 7 din 9
+[[Limba latină (clasa a IX-a)|Limba latină]] · [[Clasa a IX-a]] · lecția 7 din 18
 
 **Capitolul:** Sintaxă, vocabular, moștenire — semestrul 2
 

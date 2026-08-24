@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Latina — limbă flexionară
 
-[[Limba latină (clasa a IX-a)|Limba latină]] · [[Clasa a IX-a]] · lecția 2 din 9
+[[Limba latină (clasa a IX-a)|Limba latină]] · [[Clasa a IX-a]] · lecția 2 din 18
 
 **Capitolul:** Alfabet, pronunție, structura limbii — semestrul 1
 

@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)
 
-60 întrebări din [[Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)|Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+100 întrebări din [[Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)|Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Memoria RAM este:
 
@@ -441,7 +441,415 @@ cssclasses: test
 > 
 > Reacția, nu corectitudinea, determină difuzarea.
 
-### 37. Memoria RAM este:
+### 37. Numărul binar 1011 corespunde, în zecimal, valorii:
+
+- a. 11
+- b. 9
+- c. 13
+- d. 15
+
+> [!success]- Răspuns
+> **a. 11**
+> 
+> 1·8 + 0·4 + 1·2 + 1·1 = 11.
+
+### 38. Cu opt biți se pot reprezenta:
+
+- a. 256 de valori
+- b. 8 valori
+- c. 64 de valori
+- d. 1024 de valori
+
+> [!success]- Răspuns
+> **a. 256 de valori**
+> 
+> 2 la puterea 8 este 256.
+
+### 39. Cea mai mică unitate de informație este:
+
+- a. bitul
+- b. octetul
+- c. kilobytul
+- d. caracterul
+
+> [!success]- Răspuns
+> **a. bitul**
+> 
+> Un octet are opt biți.
+
+### 40. Sistemul binar folosește cifrele:
+
+- a. 0 și 1
+- b. de la 0 la 9
+- c. de la 0 la 7
+- d. 0, 1 și 2
+
+> [!success]- Răspuns
+> **a. 0 și 1**
+> 
+> Ele corespund celor două stări electrice.
+
+### 41. O imagine raster este formată din:
+
+- a. pixeli
+- b. vectori
+- c. caractere
+- d. eșantioane
+
+> [!success]- Răspuns
+> **a. pixeli**
+> 
+> Fiecare pixel are o culoare proprie.
+
+### 42. Diacriticele românești și emoji sunt acoperite de:
+
+- a. Unicode
+- b. ASCII pe 7 biți
+- c. codul Morse
+- d. sistemul zecimal
+
+> [!success]- Răspuns
+> **a. Unicode**
+> 
+> UTF-8 este codificarea uzuală a Unicode.
+
+### 43. Modelul RGB combină culorile:
+
+- a. roșu, verde și albastru
+- b. roșu, galben și albastru
+- c. cyan, magenta și galben
+- d. alb și negru
+
+> [!success]- Răspuns
+> **a. roșu, verde și albastru**
+> 
+> Fiecare canal are, de obicei, câte un octet.
+
+### 44. Spre deosebire de imaginea raster, imaginea vectorială:
+
+- a. se poate mări fără pierderea calității
+- b. este formată din pixeli
+- c. are întotdeauna fișier mai mare
+- d. nu poate fi colorată
+
+> [!success]- Răspuns
+> **a. se poate mări fără pierderea calității**
+> 
+> Ea este descrisă prin formule geometrice.
+
+### 45. Pentru a conecta un monitor și a transmite imagine și sunet se folosește, uzual:
+
+- a. HDMI
+- b. jack audio
+- c. Ethernet
+- d. USB pentru tastatură
+
+> [!success]- Răspuns
+> **a. HDMI**
+> 
+> HDMI transportă atât imaginea, cât și sunetul.
+
+### 46. Bluetooth se folosește pentru:
+
+- a. conexiuni fără fir pe distanțe mici
+- b. conectarea la internetul global
+- c. alimentarea cu energie
+- d. stocarea permanentă a datelor
+
+> [!success]- Răspuns
+> **a. conexiuni fără fir pe distanțe mici**
+> 
+> Este util pentru căști, mouse sau transfer între telefoane.
+
+### 47. Pentru ca un periferic nou să fie recunoscut, sistemul are nevoie de:
+
+- a. un driver
+- b. o parolă
+- c. un antivirus
+- d. o placă grafică nouă
+
+> [!success]- Răspuns
+> **a. un driver**
+> 
+> Driverul traduce comenzile între sistem și dispozitiv.
+
+### 48. Scoaterea în siguranță a unei memorii USB este importantă pentru:
+
+- a. a evita pierderea datelor aflate în curs de scriere
+- b. a economisi energie
+- c. a crește viteza portului
+- d. a instala un driver
+
+> [!success]- Răspuns
+> **a. a evita pierderea datelor aflate în curs de scriere**
+> 
+> Deconectarea bruscă poate corupe fișierele.
+
+### 49. Regula 20-20-20 previne:
+
+- a. oboseala vizuală
+- b. încălzirea procesorului
+- c. pierderea fișierelor
+- d. infectarea cu viruși
+
+> [!success]- Răspuns
+> **a. oboseala vizuală**
+> 
+> Ochii se relaxează privind la distanță.
+
+### 50. Poziția corectă la calculator presupune:
+
+- a. monitorul la nivelul ochilor și spatele sprijinit
+- b. monitorul mult sub nivelul ochilor
+- c. lucrul aplecat înainte
+- d. ecranul lipit de față
+
+> [!success]- Răspuns
+> **a. monitorul la nivelul ochilor și spatele sprijinit**
+> 
+> Ergonomia reduce oboseala și problemele de postură.
+
+### 51. Folosirea ecranelor imediat înainte de somn:
+
+- a. îngreunează adormirea, din cauza luminii albastre
+- b. îmbunătățește somnul
+- c. nu are niciun efect
+- d. crește atenția a doua zi
+
+> [!success]- Răspuns
+> **a. îngreunează adormirea, din cauza luminii albastre**
+> 
+> Se recomandă un interval fără ecrane seara.
+
+### 52. Comparativ cu lucrul concentrat, comutarea permanentă între sarcini:
+
+- a. reduce, de regulă, performanța
+- b. o crește mereu
+- c. nu o influențează
+- d. elimină oboseala
+
+> [!success]- Răspuns
+> **a. reduce, de regulă, performanța**
+> 
+> Fiecare comutare are un cost de atenție.
+
+### 53. Regula 3-2-1 a copiilor de siguranță cere:
+
+- a. trei copii, pe două suporturi, una într-o altă locație
+- b. o singură copie pe același disc
+- c. trei copii pe același disc
+- d. două copii în același folder
+
+> [!success]- Răspuns
+> **a. trei copii, pe două suporturi, una într-o altă locație**
+> 
+> Separarea fizică protejează împotriva incendiului sau furtului.
+
+### 54. Arhivarea unui folder este utilă pentru:
+
+- a. reducerea dimensiunii și transferul mai ușor
+- b. creșterea vitezei procesorului
+- c. mărirea memoriei RAM
+- d. accelerarea internetului
+
+> [!success]- Răspuns
+> **a. reducerea dimensiunii și transferul mai ușor**
+> 
+> Arhiva poate fi și protejată cu parolă.
+
+### 55. Datele în numele fișierelor se scriu, pentru sortare corectă, în format:
+
+- a. an-lună-zi
+- b. zi-lună-an
+- c. lună-zi-an
+- d. fără an
+
+> [!success]- Răspuns
+> **a. an-lună-zi**
+> 
+> Astfel ordinea alfabetică coincide cu cea cronologică.
+
+### 56. O copie de siguranță păstrată doar pe același disc cu originalul:
+
+- a. nu ajută dacă discul se defectează
+- b. este cea mai sigură
+- c. respectă regula 3-2-1
+- d. este suficientă împotriva furtului
+
+> [!success]- Răspuns
+> **a. nu ajută dacă discul se defectează**
+> 
+> Copiile trebuie separate de original.
+
+### 57. O listă ordonată (numerotată) este potrivită pentru:
+
+- a. pași care se succed logic
+- b. elemente fără ordine
+- c. alinierea a două coloane de text
+- d. inserarea unei imagini
+
+> [!success]- Răspuns
+> **a. pași care se succed logic**
+> 
+> Când ordinea nu contează se folosește lista cu marcatori.
+
+### 58. Numerotarea manuală a unei liste este dezavantajoasă pentru că:
+
+- a. nu se actualizează singură la adăugarea sau ștergerea elementelor
+- b. ocupă mai puțin spațiu
+- c. este mai lizibilă
+- d. permite imbricarea
+
+> [!success]- Răspuns
+> **a. nu se actualizează singură la adăugarea sau ștergerea elementelor**
+> 
+> Numerotarea automată rezolvă problema.
+
+### 59. Pentru date comparabile pe două criterii este potrivit:
+
+- a. tabelul
+- b. lista neordonată
+- c. nota de subsol
+- d. antetul paginii
+
+> [!success]- Răspuns
+> **a. tabelul**
+> 
+> Tabelul organizează informația pe rânduri și coloane.
+
+### 60. Rândul de antet al unui tabel lung, repetat pe fiecare pagină:
+
+- a. ușurează citirea și înțelegerea coloanelor
+- b. mărește mult fișierul
+- c. este interzis
+- d. înlocuiește numerotarea
+
+> [!success]- Răspuns
+> **a. ușurează citirea și înțelegerea coloanelor**
+> 
+> El denumește coloanele oriunde continuă tabelul.
+
+### 61. Pentru a nu deforma o imagine, se redimensionează:
+
+- a. trăgând de un colț, păstrând proporțiile
+- b. trăgând de o singură latură
+- c. prin decupare
+- d. schimbând doar rezoluția
+
+> [!success]- Răspuns
+> **a. trăgând de un colț, păstrând proporțiile**
+> 
+> Tragerea de o latură modifică raportul laturilor.
+
+### 62. Textul alternativ al unei imagini servește:
+
+- a. accesibilității, fiind citit de cititoarele de ecran
+- b. creșterii rezoluției
+- c. reducerii dimensiunii fișierului
+- d. alinierii textului
+
+> [!success]- Răspuns
+> **a. accesibilității, fiind citit de cititoarele de ecran**
+> 
+> El descrie conținutul pentru cine nu vede imaginea.
+
+### 63. Pentru o fotografie într-un document este potrivit formatul:
+
+- a. JPEG
+- b. TXT
+- c. MP3
+- d. ZIP
+
+> [!success]- Răspuns
+> **a. JPEG**
+> 
+> PNG este mai potrivit pentru desene și capturi cu zone plate.
+
+### 64. O imagine decorativă fără legătură cu textul:
+
+- a. distrage cititorul de la mesaj
+- b. este întotdeauna recomandată
+- c. înlocuiește o diagramă
+- d. crește accesibilitatea
+
+> [!success]- Răspuns
+> **a. distrage cititorul de la mesaj**
+> 
+> Imaginile trebuie să servească mesajul.
+
+### 65. Numărul binar 1011 înseamnă, în zecimal:
+
+- a. 11
+- b. 9
+- c. 12
+- d. 15
+
+> [!success]- Răspuns
+> **a. 11**
+> 
+> 8 + 0 + 2 + 1 = 11.
+
+### 66. Cu opt biți se pot reprezenta:
+
+- a. 256 de valori
+- b. 8 valori
+- c. 16 valori
+- d. 100 de valori
+
+> [!success]- Răspuns
+> **a. 256 de valori**
+> 
+> 2 la puterea 8 este 256.
+
+### 67. O imagine raster este alcătuită din:
+
+- a. pixeli
+- b. vectori
+- c. octeți de text
+- d. eșantioane sonore
+
+> [!success]- Răspuns
+> **a. pixeli**
+> 
+> Fiecare pixel are o culoare, uzual în modelul RGB.
+
+### 68. Diacriticele și emoji sunt cuprinse în standardul:
+
+- a. Unicode
+- b. ASCII pe 7 biți
+- c. binar pur
+- d. hexazecimal
+
+> [!success]- Răspuns
+> **a. Unicode**
+> 
+> Codificarea uzuală este UTF-8.
+
+### 69. Pentru ca sistemul de operare să folosească un periferic nou este nevoie de:
+
+- a. un driver
+- b. o parolă
+- c. un cont de e-mail
+- d. un browser
+
+> [!success]- Răspuns
+> **a. un driver**
+> 
+> Driverul mediază comunicarea cu dispozitivul.
+
+### 70. Regula 3-2-1 a copiilor de siguranță cere:
+
+- a. trei copii, pe două suporturi, una în altă locație
+- b. o copie pe același disc
+- c. trei copii în același folder
+- d. două copii pe desktop
+
+> [!success]- Răspuns
+> **a. trei copii, pe două suporturi, una în altă locație**
+> 
+> Separarea fizică protejează datele.
+
+### 71. Memoria RAM este:
 
 - a. volatilă
 - b. permanentă
@@ -453,7 +861,7 @@ cssclasses: test
 > 
 > Datele nesalvate se pierd la oprire.
 
-### 38. Un octet are:
+### 72. Un octet are:
 
 - a. 8 biți
 - b. 16 biți
@@ -465,7 +873,7 @@ cssclasses: test
 > 
 > Multiplii uzuali sunt KB, MB, GB, TB.
 
-### 39. Monitorul este un dispozitiv de:
+### 73. Monitorul este un dispozitiv de:
 
 - a. ieșire
 - b. intrare
@@ -477,7 +885,7 @@ cssclasses: test
 > 
 > Tastatura este dispozitiv de intrare.
 
-### 40. Extensia unui fișier indică:
+### 74. Extensia unui fișier indică:
 
 - a. tipul de conținut și programul asociat
 - b. dimensiunea fișierului
@@ -489,7 +897,7 @@ cssclasses: test
 > 
 > De exemplu, .jpg indică o imagine.
 
-### 41. Sistemul DNS:
+### 75. Sistemul DNS:
 
 - a. traduce numele de domenii în adrese IP
 - b. criptează comunicația
@@ -501,7 +909,7 @@ cssclasses: test
 > 
 > Fără el ar trebui memorate adrese numerice.
 
-### 42. HTTPS se deosebește de HTTP prin:
+### 76. HTTPS se deosebește de HTTP prin:
 
 - a. criptarea comunicației
 - b. viteza mai mare
@@ -513,7 +921,7 @@ cssclasses: test
 > 
 > Lacătul din bara de adrese semnalează conexiunea securizată.
 
-### 43. Căutarea unei expresii exacte se face cu:
+### 77. Căutarea unei expresii exacte se face cu:
 
 - a. ghilimele
 - b. semnul plus
@@ -525,7 +933,7 @@ cssclasses: test
 > 
 > Minusul exclude un termen.
 
-### 44. Cuprinsul automat se generează pe baza:
+### 78. Cuprinsul automat se generează pe baza:
 
 - a. stilurilor aplicate titlurilor
 - b. numerotării paginilor
@@ -537,7 +945,7 @@ cssclasses: test
 > 
 > De aceea stilurile sunt esențiale.
 
-### 45. Indentarea este o formatare la nivel de:
+### 79. Indentarea este o formatare la nivel de:
 
 - a. paragraf
 - b. caracter
@@ -549,7 +957,7 @@ cssclasses: test
 > 
 > Fontul se aplică la nivel de caracter.
 
-### 46. Un slide bun conține:
+### 80. Un slide bun conține:
 
 - a. o idee, în cuvinte-cheie
 - b. un paragraf întreg
@@ -561,7 +969,7 @@ cssclasses: test
 > 
 > Detaliile aparțin discursului.
 
-### 47. Pentru o prezentare de 15 minute sunt potrivite, orientativ:
+### 81. Pentru o prezentare de 15 minute sunt potrivite, orientativ:
 
 - a. circa 10 slide-uri
 - b. 30 de slide-uri
@@ -573,7 +981,7 @@ cssclasses: test
 > 
 > Regula este un slide la un minut și jumătate.
 
-### 48. Trimiterea unui e-mail către mulți destinatari se face folosind:
+### 82. Trimiterea unui e-mail către mulți destinatari se face folosind:
 
 - a. Bcc
 - b. Cc
@@ -585,7 +993,79 @@ cssclasses: test
 > 
 > Astfel adresele nu sunt expuse.
 
-### 49. Cea mai eficientă măsură împotriva parolelor furate este:
+### 83. O listă numerotată automat este preferabilă pentru că:
+
+- a. se actualizează singură la adăugarea sau ștergerea elementelor
+- b. ocupă mai puțin loc
+- c. nu poate fi modificată
+- d. se tipărește mai repede
+
+> [!success]- Răspuns
+> **a. se actualizează singură la adăugarea sau ștergerea elementelor**
+> 
+> Numerotarea manuală trebuie refăcută la fiecare schimbare.
+
+### 84. Pentru date comparabile pe rânduri și coloane se folosește:
+
+- a. un tabel
+- b. o listă cu marcatori
+- c. o notă de subsol
+- d. un antet de pagină
+
+> [!success]- Răspuns
+> **a. un tabel**
+> 
+> Tabelul organizează informația pe două dimensiuni.
+
+### 85. Textul alternativ al unei imagini folosește:
+
+- a. accesibilității, fiind citit de cititoarele de ecran
+- b. măririi rezoluției
+- c. reducerii fișierului
+- d. alinierii paginii
+
+> [!success]- Răspuns
+> **a. accesibilității, fiind citit de cititoarele de ecran**
+> 
+> El descrie imaginea pentru cine nu o poate vedea.
+
+### 86. O imagine se redimensionează fără deformare:
+
+- a. trăgând de un colț
+- b. trăgând de o latură
+- c. prin schimbarea formatului
+- d. prin decupare
+
+> [!success]- Răspuns
+> **a. trăgând de un colț**
+> 
+> Astfel se păstrează proporțiile.
+
+### 87. Pentru o fotografie este potrivit formatul:
+
+- a. JPEG
+- b. TXT
+- c. MP3
+- d. ZIP
+
+> [!success]- Răspuns
+> **a. JPEG**
+> 
+> PNG e mai potrivit pentru desene și capturi.
+
+### 88. O imagine decorativă fără legătură cu textul:
+
+- a. distrage cititorul de la mesaj
+- b. este mereu recomandată
+- c. crește accesibilitatea
+- d. înlocuiește o diagramă
+
+> [!success]- Răspuns
+> **a. distrage cititorul de la mesaj**
+> 
+> Imaginile trebuie să servească mesajul.
+
+### 89. Cea mai eficientă măsură împotriva parolelor furate este:
 
 - a. autentificarea în doi pași
 - b. schimbarea lunară a parolei
@@ -597,7 +1077,7 @@ cssclasses: test
 > 
 > Al doilea factor blochează accesul.
 
-### 50. Ransomware-ul:
+### 90. Ransomware-ul:
 
 - a. criptează datele și cere răscumpărare
 - b. șterge sistemul de operare
@@ -609,7 +1089,7 @@ cssclasses: test
 > 
 > Copiile de siguranță sunt singura protecție reală.
 
-### 51. Actualizările de sistem:
+### 91. Actualizările de sistem:
 
 - a. corectează vulnerabilități cunoscute
 - b. schimbă doar interfața
@@ -621,7 +1101,7 @@ cssclasses: test
 > 
 > Amânarea lor lasă breșe deschise.
 
-### 52. Copiile de siguranță trebuie păstrate:
+### 92. Copiile de siguranță trebuie păstrate:
 
 - a. și într-o locație separată
 - b. doar pe același disc
@@ -633,7 +1113,7 @@ cssclasses: test
 > 
 > Altfel se pierd odată cu dispozitivul.
 
-### 53. Datele cu caracter personal sunt:
+### 93. Datele cu caracter personal sunt:
 
 - a. orice informații care pot identifica o persoană
 - b. doar numele și CNP-ul
@@ -645,7 +1125,7 @@ cssclasses: test
 > 
 > Inclusiv identificatorii online și datele de localizare.
 
-### 54. Consimțământul pentru prelucrarea datelor trebuie să fie:
+### 94. Consimțământul pentru prelucrarea datelor trebuie să fie:
 
 - a. liber, specific și informat
 - b. implicit
@@ -657,7 +1137,7 @@ cssclasses: test
 > 
 > Căsuțele bifate din start nu constituie consimțământ.
 
-### 55. Urma digitală este:
+### 95. Urma digitală este:
 
 - a. ansamblul informațiilor lăsate online, activ și pasiv
 - b. doar postările publice
@@ -669,7 +1149,7 @@ cssclasses: test
 > 
 > Ea este greu reversibilă.
 
-### 56. Plagiatul înseamnă:
+### 96. Plagiatul înseamnă:
 
 - a. preluarea muncii altcuiva fără atribuire
 - b. citarea unei surse
@@ -681,7 +1161,7 @@ cssclasses: test
 > 
 > Ușurința copierii nu îl face acceptabil.
 
-### 57. Licențele Creative Commons:
+### 97. Licențele Creative Commons:
 
 - a. precizează condițiile de reutilizare a unei opere
 - b. elimină drepturile de autor
@@ -693,7 +1173,7 @@ cssclasses: test
 > 
 > Autorul alege tipul de licență.
 
-### 58. Răspunsul corect la cyberbullying include:
+### 98. Răspunsul corect la cyberbullying include:
 
 - a. documentarea și raportarea
 - b. răspunsul în același registru
@@ -705,7 +1185,7 @@ cssclasses: test
 > 
 > Capturile de ecran permit intervenția.
 
-### 59. Dezinformarea circulă rapid online deoarece:
+### 99. Dezinformarea circulă rapid online deoarece:
 
 - a. algoritmii amplifică ce produce reacție emoțională
 - b. este verificată automat
@@ -717,7 +1197,7 @@ cssclasses: test
 > 
 > Corectitudinea nu determină difuzarea.
 
-### 60. La partajarea unui document se acordă:
+### 100. La partajarea unui document se acordă:
 
 - a. doar drepturile necesare
 - b. întotdeauna editare

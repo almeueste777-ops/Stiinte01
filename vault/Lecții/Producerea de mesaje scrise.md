@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Producerea de mesaje scrise
 
-[[Limba modernă 1 (Engleză) (clasa a XI-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XI-a]] · lecția 8 din 9
+[[Limba modernă 1 (Engleză) (clasa a XI-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XI-a]] · lecția 8 din 18
 
 **Capitolul:** Competențe de examen — semestrul 2
 

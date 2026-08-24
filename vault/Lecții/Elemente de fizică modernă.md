@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Elemente de fizică modernă
 
-[[Fizică (clasa a X-a)|Fizică]] · [[Clasa a X-a]] · lecția 9 din 9
+[[Fizică (clasa a X-a)|Fizică]] · [[Clasa a X-a]] · lecția 9 din 18
 
 **Capitolul:** Optică, unde, fizica modernă — semestrul 2
 
@@ -29,6 +29,6 @@ La începutul secolului XX, fizica clasică s-a dovedit insuficientă. Planck a 
 
 ---
 
-⬅ [[Unde mecanice și sunetul]]
+⬅ [[Unde mecanice și sunetul]] · [[Cantitatea de căldură. Calorimetria]] ➡
 
 Exersează: [[Carduri - Fizică (clasa a X-a)]] · [[Test - Fizică (clasa a X-a)]]

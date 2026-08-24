@@ -21,7 +21,7 @@ cssclasses: fisa
 
 Engleză pentru examen și pentru viața profesională: text argumentativ, corespondență, prezentări, engleză academică și de afaceri.
 
-## Capitole (3)
+## Capitole (6)
 
 ### Scriere avansată — semestrul 1
 
@@ -41,9 +41,27 @@ Engleză pentru examen și pentru viața profesională: text argumentativ, cores
 - [[Strategii pentru fiecare dimensiune]]
 - [[Autonomia în învățarea limbii]]
 
+### Vocabular și mijloace lexicale — semestrul 1
+
+- [[Formarea cuvintelor]]
+- [[Conectori și marcatori de discurs]]
+- [[Structuri comparative și de contrast]]
+
+### Funcții comunicative avansate — semestrul 2
+
+- [[Opinie, acord și dezacord]]
+- [[Negociere, persuasiune și sugestii]]
+- [[Modalitatea în comunicarea profesională]]
+
+### Cultură și civilizație anglofonă — semestrul 1
+
+- [[Instituții și viață publică în lumea anglofonă]]
+- [[Repere culturale și media]]
+- [[Engleza ca limbă globală]]
+
 ## Exersare
-- [[Carduri - Limba modernă 1 (Engleză) (clasa a XII-a)]] — 36 carduri
-- [[Test - Limba modernă 1 (Engleză) (clasa a XII-a)]] — 60 întrebări
+- [[Carduri - Limba modernă 1 (Engleză) (clasa a XII-a)]] — 72 carduri
+- [[Test - Limba modernă 1 (Engleză) (clasa a XII-a)]] — 96 întrebări
 
 ## Legături
 - [[Limba modernă 1 (Engleză)|Limba modernă 1 (Engleză)]]

@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Reprezentarea grafică a datelor
 
-[[Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a X-a]] · lecția 3 din 9
+[[Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a X-a]] · lecția 3 din 16
 
 **Capitolul:** Calcul tabelar — semestrul 1
 

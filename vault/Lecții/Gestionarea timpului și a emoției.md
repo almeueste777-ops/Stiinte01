@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Gestionarea timpului și a emoției
 
-[[Limba modernă 1 (Engleză) (clasa a XIII-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XIII-a]] · lecția 8 din 9
+[[Limba modernă 1 (Engleză) (clasa a XIII-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XIII-a]] · lecția 8 din 18
 
 **Capitolul:** Simulare și strategie finală — semestrul 2
 

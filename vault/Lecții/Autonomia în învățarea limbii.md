@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Autonomia în învățarea limbii
 
-[[Limba modernă 1 (Engleză) (clasa a XII-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XII-a]] · lecția 9 din 9
+[[Limba modernă 1 (Engleză) (clasa a XII-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XII-a]] · lecția 9 din 18
 
 **Capitolul:** Proba de competențe lingvistice — semestrul 2
 
@@ -29,6 +29,6 @@ Nivelul de competență se menține și crește doar prin folosire. Strategiile 
 
 ---
 
-⬅ [[Strategii pentru fiecare dimensiune]]
+⬅ [[Strategii pentru fiecare dimensiune]] · [[Formarea cuvintelor]] ➡
 
 Exersează: [[Carduri - Limba modernă 1 (Engleză) (clasa a XII-a)]] · [[Test - Limba modernă 1 (Engleză) (clasa a XII-a)]]

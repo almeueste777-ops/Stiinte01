@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Conjunctivul și valorile lui
 
-[[Limba latină (clasa a X-a)|Limba latină]] · [[Clasa a X-a]] · lecția 4 din 9
+[[Limba latină (clasa a X-a)|Limba latină]] · [[Clasa a X-a]] · lecția 4 din 18
 
 **Capitolul:** Sintaxa frazei — semestrul 1
 

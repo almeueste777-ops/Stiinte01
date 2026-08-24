@@ -10,7 +10,7 @@ clasa: "a XIII-a"
 ---
 # Scris: sarcinile de examen
 
-[[Limba modernă 1 (Engleză) (clasa a XIII-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XIII-a]] · lecția 5 din 9
+[[Limba modernă 1 (Engleză) (clasa a XIII-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XIII-a]] · lecția 5 din 18
 
 **Capitolul:** Consolidare pe competențe — semestrul 2
 

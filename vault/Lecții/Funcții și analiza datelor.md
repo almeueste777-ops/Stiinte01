@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Funcții și analiza datelor
 
-[[Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a X-a]] · lecția 2 din 9
+[[Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a X-a]] · lecția 2 din 16
 
 **Capitolul:** Calcul tabelar — semestrul 1
 

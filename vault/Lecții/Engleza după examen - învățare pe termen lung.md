@@ -10,7 +10,7 @@ clasa: "a XIII-a"
 ---
 # Engleza după examen: învățare pe termen lung
 
-[[Limba modernă 1 (Engleză) (clasa a XIII-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XIII-a]] · lecția 9 din 9
+[[Limba modernă 1 (Engleză) (clasa a XIII-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XIII-a]] · lecția 9 din 18
 
 **Capitolul:** Simulare și strategie finală — semestrul 2
 
@@ -31,6 +31,6 @@ Examenul este un punct de control, nu o destinație. Competența lingvistică se
 
 ---
 
-⬅ [[Gestionarea timpului și a emoției]]
+⬅ [[Gestionarea timpului și a emoției]] · [[Propozițiile condiționale (Conditionals)]] ➡
 
 Exersează: [[Carduri - Limba modernă 1 (Engleză) (clasa a XIII-a)]] · [[Test - Limba modernă 1 (Engleză) (clasa a XIII-a)]]

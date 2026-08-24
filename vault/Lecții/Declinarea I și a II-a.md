@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Declinarea I și a II-a
 
-[[Limba latină (clasa a IX-a)|Limba latină]] · [[Clasa a IX-a]] · lecția 3 din 9
+[[Limba latină (clasa a IX-a)|Limba latină]] · [[Clasa a IX-a]] · lecția 3 din 18
 
 **Capitolul:** Alfabet, pronunție, structura limbii — semestrul 1
 

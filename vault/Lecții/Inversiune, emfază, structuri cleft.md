@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Inversiune, emfază, structuri cleft
 
-[[Limba modernă 1 (Engleză) (clasa a XI-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XI-a]] · lecția 1 din 9
+[[Limba modernă 1 (Engleză) (clasa a XI-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XI-a]] · lecția 1 din 18
 
 **Capitolul:** Structuri avansate — semestrul 1
 

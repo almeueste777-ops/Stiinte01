@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Limba latină (clasa a IX-a)
 
-36 carduri pentru [[Limba latină (clasa a IX-a)|Limba latină (clasa a IX-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+72 carduri pentru [[Limba latină (clasa a IX-a)|Limba latină (clasa a IX-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/limba-latina
 
@@ -82,6 +82,78 @@ Ce este un dublet etimologic?::O pereche de cuvinte din același etimon, intrate
 Ce continuă articolul hotărât enclitic românesc?::Demonstrativul latin „ille”.
 
 Ce transformare fonetică explică perechea „lignum” – „lemn”?::Grupul gn a devenit mn.
+
+Cum se dau adjectivele clasei I în dicționar?::Prin trei forme: bonus, -a, -um.
+
+De ce „nauta bonus” are cuvinte de declinări diferite?::Amândouă sunt masculine, dar substantivul e de declinarea I, adjectivul de a II-a.
+
+Ce declinare urmează femininul adjectivelor clasei I?::Declinarea I: bona, bonae.
+
+Cum se declină „pulcher”?::Pulcher, pulchra, pulchrum, pierzând pe -e- în flexiune.
+
+Cum se declină „fortis”?::Fortis (masculin și feminin), forte (neutru), genitiv fortis.
+
+Ce ablativ singular au adjectivele de declinarea a III-a?::Terminația -i: forti, omni.
+
+Cum recunoști un adjectiv cu o terminație?::Din genitiv: felix, felicis; prudens, prudentis.
+
+Cum se declină participiul prezent „amans”?::Ca un adjectiv de declinarea a III-a cu o terminație: amans, amantis.
+
+Cu ce sufix se face adverbul de la „longus”?::Cu -e: longe.
+
+Cu ce sufix se face adverbul de la „fortis”?::Cu -iter: fortiter.
+
+Ce înseamnă adverbul „semper”?::Mereu, întotdeauna.
+
+Care este superlativul adverbului „bene”?::Optime, cu comparativul „melius”.
+
+Care cardinale latine se declină?::Primele trei: unus, duo, tres.
+
+Ce înseamnă „centum” și „mille”?::O sută și o mie.
+
+Cum se scrie 9 cu cifre romane?::IX — unu scăzut din zece.
+
+Ce valoare are litera L în cifrele romane?::Cincizeci.
+
+Ce pronume folosește latina pentru persoana a III-a?::Demonstrativul is, ea, id.
+
+De ce se poate omite pronumele-subiect?::Pentru că desinența verbului arată deja persoana: „amo” = eu iubesc.
+
+Ce arată posesivul „suus”?::Posesia care trimite la subiectul propoziției: al său propriu.
+
+Care este dativul lui „ego”?::Mihi (mie).
+
+Cine era zeul suprem la romani?::Iuppiter (Jupiter), zeul cerului și al fulgerului.
+
+Cine erau lares și penates?::Spiritele ocrotitoare ale casei și ale cămării.
+
+Ce întrețineau vestalele?::Focul sacru al zeiței Vesta.
+
+Din ce nume vine ziua „joi”?::Din „Iovis dies”, ziua lui Jupiter.
+
+Cum se numeau cele două străzi principale ale orașului roman?::Cardo (nord-sud) și decumanus (est-vest).
+
+Ce erau „insulae”?::Blocurile de locuințe cu mai multe etaje.
+
+Ce veșmânt purta cetățeanul roman?::Toga, peste tunică.
+
+Unde învățau copiii romani?::La ludus, școala unde deprindeau scrisul, cititul și socotitul.
+
+Ce înseamnă „Carpe diem”?::Bucură-te de ziua de azi.
+
+Ce înseamnă „de facto” față de „de iure”?::„De facto” = în fapt; „de iure” = în drept.
+
+Ce înseamnă „Repetitio est mater studiorum”?::Repetiția este mama învățăturii.
+
+Ce înseamnă „curriculum vitae”?::Parcursul vieții — lista studiilor și a experienței.
+
+De ce „September” înseamnă a șaptea lună?::Pentru că vechiul calendar începea în martie.
+
+Cine a reformat calendarul în 46 î.Hr.?::Iulius Caesar, creând calendarul iulian.
+
+Care sunt cele trei repere ale lunii romane?::Kalendae, Nonae și Idus.
+
+De la ce cuvânt latin vine „calendar”?::De la „Kalendae”, prima zi a lunii.
 
 ---
 

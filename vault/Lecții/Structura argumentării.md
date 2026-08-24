@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Structura argumentării
 
-[[Limba modernă 2 (Franceză) (clasa a XI-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XI-a]] · lecția 5 din 9
+[[Limba modernă 2 (Franceză) (clasa a XI-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XI-a]] · lecția 5 din 18
 
 **Capitolul:** Argumentare și opinie — semestrul 1
 

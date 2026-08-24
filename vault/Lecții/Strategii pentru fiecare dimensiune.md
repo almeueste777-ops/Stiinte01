@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Strategii pentru fiecare dimensiune
 
-[[Limba modernă 1 (Engleză) (clasa a XII-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XII-a]] · lecția 8 din 9
+[[Limba modernă 1 (Engleză) (clasa a XII-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XII-a]] · lecția 8 din 18
 
 **Capitolul:** Proba de competențe lingvistice — semestrul 2
 

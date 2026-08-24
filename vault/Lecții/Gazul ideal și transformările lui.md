@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Gazul ideal și transformările lui
 
-[[Fizică (clasa a X-a)|Fizică]] · [[Clasa a X-a]] · lecția 2 din 9
+[[Fizică (clasa a X-a)|Fizică]] · [[Clasa a X-a]] · lecția 2 din 18
 
 **Capitolul:** Căldură și termodinamică — semestrul 1
 

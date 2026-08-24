@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Romanizarea și Dacia romană
 
-[[Limba latină (clasa a X-a)|Limba latină]] · [[Clasa a X-a]] · lecția 9 din 9
+[[Limba latină (clasa a X-a)|Limba latină]] · [[Clasa a X-a]] · lecția 9 din 18
 
 **Capitolul:** Texte și civilizație — semestrul 2
 
@@ -29,6 +29,6 @@ Romanizarea a fost procesul prin care populațiile cucerite au adoptat limba lat
 
 ---
 
-⬅ [[Societatea și instituțiile romane]]
+⬅ [[Societatea și instituțiile romane]] · [[Gerunziul și gerundivul]] ➡
 
 Exersează: [[Carduri - Limba latină (clasa a X-a)]] · [[Test - Limba latină (clasa a X-a)]]

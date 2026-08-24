@@ -10,7 +10,7 @@ clasa: "a XII-a"
 ---
 # Engleza academică: citare, parafrazare, obiectivitate
 
-[[Limba modernă 1 (Engleză) (clasa a XII-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XII-a]] · lecția 5 din 9
+[[Limba modernă 1 (Engleză) (clasa a XII-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XII-a]] · lecția 5 din 18
 
 **Capitolul:** Engleză academică și profesională — semestrul 2
 

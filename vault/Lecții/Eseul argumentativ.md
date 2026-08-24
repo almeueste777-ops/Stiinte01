@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Eseul argumentativ
 
-[[Limba modernă 1 (Engleză) (clasa a XII-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XII-a]] · lecția 1 din 9
+[[Limba modernă 1 (Engleză) (clasa a XII-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XII-a]] · lecția 1 din 18
 
 **Capitolul:** Scriere avansată — semestrul 1
 

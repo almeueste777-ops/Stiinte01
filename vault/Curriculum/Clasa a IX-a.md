@@ -17,10 +17,10 @@ Anul **1** din cei 5 ai parcursului [[Parcurs școlar]].
 - [[Limba și literatura română (clasa a IX-a)|Limba și literatura română]] — 🎓 bac, 📘 20 lecții în aplicație
 - [[Limba modernă 1 (Engleză) (clasa a IX-a)|Limba modernă 1 (Engleză)]] — 🎓 bac, 📘 18 lecții în aplicație
 - [[Limba modernă 2 (Franceză) (clasa a IX-a)|Limba modernă 2 (Franceză)]] — 📘 18 lecții în aplicație
-- [[Limba latină (clasa a IX-a)|Limba latină]] — 📘 9 lecții în aplicație
+- [[Limba latină (clasa a IX-a)|Limba latină]] — 📘 18 lecții în aplicație
 
 ### [[Arie - Matematică și științe ale naturii|Matematică și științe ale naturii]]
-- [[Matematică (clasa a IX-a)|Matematică]] — 📘 9 lecții în aplicație
+- [[Matematică (clasa a IX-a)|Matematică]] — 📘 18 lecții în aplicație
 - [[Fizică (clasa a IX-a)|Fizică]] — 📘 18 lecții în aplicație
 - [[Chimie (clasa a IX-a)|Chimie]] — 📘 18 lecții în aplicație
 - [[Biologie (clasa a IX-a)|Biologie]] — 📘 18 lecții în aplicație
@@ -32,4 +32,4 @@ Anul **1** din cei 5 ai parcursului [[Parcurs școlar]].
 - [[Religie (clasa a IX-a)|Religie]] — 📘 18 lecții în aplicație
 
 ### [[Arie - Tehnologii|Tehnologii]]
-- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)|Tehnologia informației și a comunicațiilor (TIC)]] — 🎓 bac, 📘 9 lecții în aplicație
+- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)|Tehnologia informației și a comunicațiilor (TIC)]] — 🎓 bac, 📘 16 lecții în aplicație

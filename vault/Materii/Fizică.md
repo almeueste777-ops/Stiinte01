@@ -14,7 +14,7 @@ cssclasses: fisa
 ## Anii de studiu
 
 - [[Fizică (clasa a IX-a)|Clasa a IX-a]] — 18 lecții, 72 carduri, 96 întrebări
-- [[Fizică (clasa a X-a)|Clasa a X-a]] — 9 lecții, 36 carduri, 54 întrebări
+- [[Fizică (clasa a X-a)|Clasa a X-a]] — 18 lecții, 72 carduri, 102 întrebări
 
 ## Legături
 - [[00 Start aici]]

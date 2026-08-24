@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Limba latină (clasa a X-a)
 
-36 carduri pentru [[Limba latină (clasa a X-a)|Limba latină (clasa a X-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+72 carduri pentru [[Limba latină (clasa a X-a)|Limba latină (clasa a X-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/limba-latina
 
@@ -82,6 +82,78 @@ Ce a stabilit edictul lui Caracalla din 212?::A acordat cetățenia romană tutu
 Ce a însemnat retragerea aureliană?::Mutarea administrației și armatei la sud de Dunăre, între 271 și 275, populația romanizată rămânând pe loc.
 
 Care era capitala Daciei romane?::Ulpia Traiana Sarmizegetusa.
+
+Ce este gerunziul?::Un substantiv verbal neutru, folosit la cazurile oblice ale singularului.
+
+Cum se traduce „ars scribendi”?::Arta de a scrie.
+
+Ce exprimă conjugarea perifrastică pasivă?::Obligația: „liber legendus est” — cartea trebuie citită.
+
+La ce caz stă autorul obligației?::La dativ: „mihi legendus est”.
+
+Ce arată supinul în -um?::Scopul, pe lângă verbe de mișcare: „venio spectatum”.
+
+Ce se formează din tema supinului?::Participiul perfect și participiul viitor.
+
+Câte forme are infinitivul latin?::Șase: prezent, perfect, viitor, fiecare activ și pasiv.
+
+Ce arată infinitivul viitor?::Posterioritatea față de verbul regent.
+
+Cum se conjugă „possum” la prezent?::Possum, potes, potest, possumus, potestis, possunt.
+
+Din ce se compune „possum”?::Din „potis” (în stare) și „sum”.
+
+Ce înseamnă „nolo”?::A nu vrea, contrarul lui „volo”.
+
+Ce rol are „fio” față de „facere”?::Servește drept pasiv al lui „facere”: fio = sunt făcut, devin.
+
+Ce arată genitivul calității?::O însușire: „vir magnae virtutis” — bărbat de mare virtute.
+
+Cum se exprimă posesorul cu verbul „sum”?::Prin dativ: „est mihi liber” — am o carte.
+
+Ce funcții cumulează ablativul latin?::Instrument, mod, cauză, separare, comparație, loc, timp.
+
+Cum se exprimă întinderea în timp?::Prin acuzativ: „tres annos” — timp de trei ani.
+
+Ce reglează consecutio temporum?::Timpul conjunctivului din subordonată, după timpul regentei.
+
+Ce timp cere o regentă istorică pentru simultaneitate?::Conjunctivul imperfect.
+
+La ce mod stă verbul interogativei indirecte?::La conjunctiv.
+
+Cum se traduce „rogo quid facias”?::Întreb ce faci.
+
+Care sunt cele trei epoci ale istoriei romane?::Regalitatea, republica și imperiul.
+
+Când a fost întemeiată legendar Roma?::În 753 î.Hr., de către Romulus.
+
+Cine a fost primul împărat roman?::Augustus, din 27 î.Hr.
+
+Împotriva cui a purtat Roma războaiele punice?::Împotriva Cartaginei.
+
+Ce era „pax deorum”?::Buna înțelegere cu zeii, ținta cultului public roman.
+
+Cum ghiceau augurii voința zeilor?::Din zborul păsărilor.
+
+Cine sunt Romulus și Remus?::Gemenii alăptați de lupoaică, legați de întemeierea Romei.
+
+Cine a cântat legenda lui Enea?::Vergiliu, în „Eneida”.
+
+Ce vers folosește epopeea latină?::Hexametrul dactilic.
+
+Care gen literar era socotit invenție romană?::Satira.
+
+Cine sunt cei doi mari autori de comedie latină?::Plaut și Terențiu.
+
+Pe ce se întemeia poezia latină, în loc de rimă?::Pe metrica cantitativă — silabe lungi și scurte.
+
+Ce înseamnă „dura lex, sed lex”?::Legea e aspră, dar e lege și trebuie respectată.
+
+Ce înseamnă „errare humanum est”?::A greși este omenesc.
+
+A cui este formula „veni, vidi, vici”?::A lui Iulius Caesar.
+
+Ce înseamnă „quod erat demonstrandum”?::Ceea ce era de demonstrat — încheie o demonstrație.
 
 ---
 

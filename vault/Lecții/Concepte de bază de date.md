@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Concepte de bază de date
 
-[[Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a X-a]] · lecția 4 din 9
+[[Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a X-a]] · lecția 4 din 16
 
 **Capitolul:** Baze de date și structurarea informației — semestrul 2
 

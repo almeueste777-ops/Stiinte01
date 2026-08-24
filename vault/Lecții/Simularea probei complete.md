@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Simularea probei complete
 
-[[Limba modernă 1 (Engleză) (clasa a XIII-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XIII-a]] · lecția 7 din 9
+[[Limba modernă 1 (Engleză) (clasa a XIII-a)|Limba modernă 1 (Engleză)]] · [[Clasa a XIII-a]] · lecția 7 din 18
 
 **Capitolul:** Simulare și strategie finală — semestrul 2
 

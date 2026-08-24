@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Moștenirea latină în limba română
 
-[[Limba latină (clasa a IX-a)|Limba latină]] · [[Clasa a IX-a]] · lecția 9 din 9
+[[Limba latină (clasa a IX-a)|Limba latină]] · [[Clasa a IX-a]] · lecția 9 din 18
 
 **Capitolul:** Sintaxă, vocabular, moștenire — semestrul 2
 
@@ -29,6 +29,6 @@ Româna este o limbă romanică: fondul ei principal de cuvinte, structura grama
 
 ---
 
-⬅ [[Vocabular fundamental și derivare]]
+⬅ [[Vocabular fundamental și derivare]] · [[Adjectivele de declinarea I și a II-a]] ➡
 
 Exersează: [[Carduri - Limba latină (clasa a IX-a)]] · [[Test - Limba latină (clasa a IX-a)]]

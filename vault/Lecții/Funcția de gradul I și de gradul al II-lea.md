@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Funcția de gradul I și de gradul al II-lea
 
-[[Matematică (clasa a IX-a)|Matematică]] · [[Clasa a IX-a]] · lecția 5 din 9
+[[Matematică (clasa a IX-a)|Matematică]] · [[Clasa a IX-a]] · lecția 5 din 18
 
 **Capitolul:** Funcții — semestrul 1
 

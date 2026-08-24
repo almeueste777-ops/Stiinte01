@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Matematică (clasa a IX-a)
 
-36 carduri pentru [[Matematică (clasa a IX-a)|Matematică (clasa a IX-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+72 carduri pentru [[Matematică (clasa a IX-a)|Matematică (clasa a IX-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/matematica
 
@@ -82,6 +82,78 @@ Când sunt două drepte perpendiculare?::Când produsul pantelor lor este −1.
 Care e ecuația cercului cu centrul în origine și rază r?::x² + y² = r².
 
 Cum se verifică dacă trei puncte sunt coliniare?::Determinantul format cu coordonatele lor este zero.
+
+Ce este o propoziție logică?::Un enunț căruia i se poate atribui exact o valoare de adevăr.
+
+Când este adevărată conjuncția „p și q"?::Numai când ambele propoziții sunt adevărate.
+
+Când este falsă implicația „p implică q"?::Numai când p este adevărată, iar q este falsă.
+
+Care este negația enunțului „toate elementele au proprietatea"?::„Există cel puțin un element care nu are proprietatea".
+
+Ce conține reuniunea a două mulțimi?::Elementele care aparțin cel puțin uneia dintre ele.
+
+Ce conține intersecția a două mulțimi?::Elementele care aparțin ambelor mulțimi.
+
+Cum se calculează cardinalul reuniunii?::Suma cardinalelor minus cardinalul intersecției.
+
+Câte submulțimi are o mulțime cu n elemente?::Două la puterea n.
+
+Pentru ce fel de afirmații se folosește inducția matematică?::Pentru afirmații despre toate numerele naturale, de la un rang.
+
+Care este primul pas al inducției?::Verificarea afirmației pentru cazul inițial.
+
+În ce constă pasul de inducție?::În a demonstra afirmația pentru n plus unu, presupunând-o adevărată pentru n.
+
+Cât este suma primelor n numere naturale?::n înmulțit cu n plus unu, împărțit la doi.
+
+Ce rază are cercul trigonometric?::Raza 1.
+
+Câți radiani are un unghi de 180 de grade?::Pi radiani.
+
+Ce reprezintă coordonatele unui punct de pe cercul trigonometric?::Cosinusul și sinusul unghiului corespunzător.
+
+Cum se transformă gradele în radiani?::Cu o proporție, folosind echivalența 180 de grade egal pi radiani.
+
+Ce afirmă teorema sinusurilor?::Că raportul dintre o latură și sinusul unghiului opus este același pentru toate laturile.
+
+Cu ce este egal raportul din teorema sinusurilor?::Cu dublul razei cercului circumscris.
+
+A cărei teoreme este teorema cosinusului o generalizare?::A teoremei lui Pitagora.
+
+Cum se calculează aria unui triunghi din două laturi și unghiul dintre ele?::Ca jumătate din produsul laturilor înmulțit cu sinusul unghiului.
+
+Ce afirmă identitatea fundamentală a trigonometriei?::Că suma pătratelor sinusului și cosinusului aceluiași unghi este 1.
+
+Ce este tangenta unui unghi?::Raportul dintre sinusul și cosinusul lui.
+
+Ce fel de funcție este cosinusul, pară sau impară?::Pară: cosinusul opusului este egal cu cosinusul.
+
+Care este perioada principală a funcțiilor sinus și cosinus?::Doi pi.
+
+Cum se obține vectorul determinat de punctele A și B?::Scăzând vectorul de poziție al lui A din cel al lui B.
+
+Ce afirmă relația lui Chasles?::Că vectorul de la A la B plus cel de la B la C este vectorul de la A la C.
+
+Când sunt doi vectori nenuli coliniari?::Când unul este multiplu scalar al celuilalt.
+
+Ce este vectorul de poziție al mijlocului unui segment?::Media vectorilor de poziție ai capetelor.
+
+Ce reprezintă m în ecuația y egal m ori x plus n?::Panta dreptei.
+
+Ce reprezintă n în ecuația y egal m ori x plus n?::Ordonata la origine, valoarea lui y unde dreapta taie axa verticală.
+
+Cum se calculează panta unei drepte prin două puncte?::Ca raportul dintre diferența ordonatelor și diferența absciselor.
+
+Când sunt două drepte paralele?::Când au aceeași pantă.
+
+Cum se calculează distanța dintre două puncte?::Cu rădăcina din suma pătratelor diferențelor de coordonate.
+
+Cum se află mijlocul unui segment?::Făcând media aritmetică a coordonatelor capetelor.
+
+Cum se calculează aria unui triunghi cu vârfuri date?::Ca jumătate din modulul determinantului format cu coordonatele vârfurilor.
+
+Când sunt trei puncte coliniare?::Când determinantul format cu coordonatele lor este zero.
 
 ---
 

@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Media, film, cultură contemporană
 
-[[Limba modernă 2 (Franceză) (clasa a XI-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XI-a]] · lecția 9 din 9
+[[Limba modernă 2 (Franceză) (clasa a XI-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XI-a]] · lecția 9 din 18
 
 **Capitolul:** Societate și cultură — semestrul 2
 
@@ -29,6 +29,6 @@ Presa franceză are titluri cu profil clar: cotidiene naționale, reviste de ana
 
 ---
 
-⬅ [[Literatura franceză — repere]]
+⬅ [[Literatura franceză — repere]] · [[Trecutul compus (passé composé)]] ➡
 
 Exersează: [[Carduri - Limba modernă 2 (Franceză) (clasa a XI-a)]] · [[Test - Limba modernă 2 (Franceză) (clasa a XI-a)]]

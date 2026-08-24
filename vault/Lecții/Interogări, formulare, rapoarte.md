@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Interogări, formulare, rapoarte
 
-[[Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a X-a]] · lecția 5 din 9
+[[Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a X-a]] · lecția 5 din 16
 
 **Capitolul:** Baze de date și structurarea informației — semestrul 2
 

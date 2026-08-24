@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Matematică (clasa a IX-a)
 
-54 întrebări din [[Matematică (clasa a IX-a)|Matematică (clasa a IX-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+102 întrebări din [[Matematică (clasa a IX-a)|Matematică (clasa a IX-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Numărul rădăcină din 2 este:
 
@@ -441,7 +441,511 @@ cssclasses: test
 > 
 > Aria este jumătate din modulul determinantului.
 
-### 37. Mulțimea numerelor raționale se notează:
+### 37. O propoziție logică este un enunț care:
+
+- a. este adevărat sau fals, dar nu ambele
+- b. exprimă o întrebare
+- c. exprimă o părere
+- d. nu are valoare de adevăr
+
+> [!success]- Răspuns
+> **a. este adevărat sau fals, dar nu ambele**
+> 
+> Întrebările și ordinele nu sunt propoziții logice.
+
+### 38. Conjuncția „p și q" este adevărată:
+
+- a. numai când ambele propoziții sunt adevărate
+- b. când cel puțin una e adevărată
+- c. când ambele sunt false
+- d. întotdeauna
+
+> [!success]- Răspuns
+> **a. numai când ambele propoziții sunt adevărate**
+> 
+> Disjuncția e cea adevărată când cel puțin una e adevărată.
+
+### 39. Implicația „p implică q" este falsă:
+
+- a. numai când p este adevărată și q falsă
+- b. când ambele sunt adevărate
+- c. când ambele sunt false
+- d. niciodată
+
+> [!success]- Răspuns
+> **a. numai când p este adevărată și q falsă**
+> 
+> În toate celelalte cazuri implicația este adevărată.
+
+### 40. Negația propoziției „toate numerele sunt pare" este:
+
+- a. „există cel puțin un număr care nu este par"
+- b. „toate numerele sunt impare"
+- c. „niciun număr nu este par"
+- d. „toate numerele sunt pare"
+
+> [!success]- Răspuns
+> **a. „există cel puțin un număr care nu este par"**
+> 
+> Negarea universalului dă un enunț existențial.
+
+### 41. Reuniunea a două mulțimi conține elementele care aparțin:
+
+- a. cel puțin uneia dintre mulțimi
+- b. ambelor mulțimi
+- c. numai primei mulțimi
+- d. niciuneia
+
+> [!success]- Răspuns
+> **a. cel puțin uneia dintre mulțimi**
+> 
+> Elementele comune ale ambelor formează intersecția.
+
+### 42. Intersecția a două mulțimi conține elementele care aparțin:
+
+- a. ambelor mulțimi
+- b. cel puțin uneia
+- c. numai celei de-a doua
+- d. niciuneia
+
+> [!success]- Răspuns
+> **a. ambelor mulțimi**
+> 
+> Reuniunea le cuprinde pe cele din cel puțin una.
+
+### 43. Dacă o mulțime A are 5 elemente, B are 3 elemente, iar intersecția lor are 2 elemente, atunci reuniunea are:
+
+- a. 6 elemente
+- b. 8 elemente
+- c. 10 elemente
+- d. 4 elemente
+
+> [!success]- Răspuns
+> **a. 6 elemente**
+> 
+> 5 plus 3 minus 2 dă 6, ca să nu numărăm de două ori elementele comune.
+
+### 44. O mulțime cu 3 elemente are:
+
+- a. 8 submulțimi
+- b. 6 submulțimi
+- c. 3 submulțimi
+- d. 9 submulțimi
+
+> [!success]- Răspuns
+> **a. 8 submulțimi**
+> 
+> Două la puterea a treia este 8.
+
+### 45. Inducția matematică demonstrează afirmații despre:
+
+- a. toate numerele naturale, începând de la un rang
+- b. numere reale oarecare
+- c. mulțimi finite exclusiv
+- d. funcții continue
+
+> [!success]- Răspuns
+> **a. toate numerele naturale, începând de la un rang**
+> 
+> Are un pas de verificare și un pas de inducție.
+
+### 46. Primul pas al inducției matematice este:
+
+- a. verificarea afirmației pentru cazul inițial
+- b. trecerea de la n la n plus unu
+- c. găsirea unui contraexemplu
+- d. calculul unei derivate
+
+> [!success]- Răspuns
+> **a. verificarea afirmației pentru cazul inițial**
+> 
+> Fără cazul inițial, „dominoul" nu pornește.
+
+### 47. În pasul de inducție se presupune afirmația adevărată pentru n și se demonstrează pentru:
+
+- a. n plus unu
+- b. n minus unu
+- c. toate numerele odată
+- d. doar pentru n
+
+> [!success]- Răspuns
+> **a. n plus unu**
+> 
+> Astfel se trece la numărul următor.
+
+### 48. Suma 1 plus 2 plus ... plus n este egală cu:
+
+- a. n înmulțit cu (n plus unu), împărțit la doi
+- b. n la pătrat
+- c. de două ori n
+- d. n plus unu
+
+> [!success]- Răspuns
+> **a. n înmulțit cu (n plus unu), împărțit la doi**
+> 
+> Pentru n egal cu 10, suma este 55.
+
+### 49. Un unghi de 180 de grade are, în radiani, măsura:
+
+- a. pi
+- b. doi pi
+- c. pi supra doi
+- d. pi supra patru
+
+> [!success]- Răspuns
+> **a. pi**
+> 
+> Un unghi de 360 de grade are doi pi radiani.
+
+### 50. Raza cercului trigonometric este:
+
+- a. 1
+- b. 2
+- c. pi
+- d. variabilă
+
+> [!success]- Răspuns
+> **a. 1**
+> 
+> Are centrul în originea reperului.
+
+### 51. Pe cercul trigonometric, coordonatele punctului asociat unui unghi t sunt:
+
+- a. cosinusul și sinusul lui t
+- b. sinusul și tangenta lui t
+- c. t și t la pătrat
+- d. doi cosinusuri
+
+> [!success]- Răspuns
+> **a. cosinusul și sinusul lui t**
+> 
+> Prima coordonată este cosinusul, a doua sinusul.
+
+### 52. Un unghi de 90 de grade are, în radiani, măsura:
+
+- a. pi supra doi
+- b. pi
+- c. doi pi
+- d. pi supra trei
+
+> [!success]- Răspuns
+> **a. pi supra doi**
+> 
+> Este un sfert din doi pi.
+
+### 53. Teorema cosinusului este o generalizare a:
+
+- a. teoremei lui Pitagora
+- b. teoremei sinusurilor
+- c. relațiilor lui Viète
+- d. teoremei lui Thales
+
+> [!success]- Răspuns
+> **a. teoremei lui Pitagora**
+> 
+> Când unghiul e drept, cosinusul lui e zero.
+
+### 54. În teorema sinusurilor, raportul dintre o latură și sinusul unghiului opus este egal cu:
+
+- a. dublul razei cercului circumscris
+- b. raza cercului înscris
+- c. aria triunghiului
+- d. perimetrul triunghiului
+
+> [!success]- Răspuns
+> **a. dublul razei cercului circumscris**
+> 
+> Raportul este același pentru toate cele trei laturi.
+
+### 55. Într-un triunghi cu laturile de 3 și 4 și unghiul de 90 de grade între ele, a treia latură este:
+
+- a. 5
+- b. 7
+- c. 1
+- d. 12
+
+> [!success]- Răspuns
+> **a. 5**
+> 
+> Teorema cosinusului cu unghi drept redă Pitagora: rădăcina din 9 plus 16.
+
+### 56. Aria unui triunghi cu două laturi și unghiul dintre ele se calculează ca:
+
+- a. jumătate din produsul laturilor înmulțit cu sinusul unghiului
+- b. produsul laturilor înmulțit cu cosinusul unghiului
+- c. suma laturilor împărțită la doi
+- d. produsul celor trei laturi
+
+> [!success]- Răspuns
+> **a. jumătate din produsul laturilor înmulțit cu sinusul unghiului**
+> 
+> Sinusul apare în formula ariei.
+
+### 57. Identitatea fundamentală a trigonometriei este:
+
+- a. sinus la pătrat plus cosinus la pătrat egal 1
+- b. sinus plus cosinus egal 1
+- c. sinus la pătrat minus cosinus la pătrat egal 1
+- d. tangenta egal sinus ori cosinus
+
+> [!success]- Răspuns
+> **a. sinus la pătrat plus cosinus la pătrat egal 1**
+> 
+> Ea vine din teorema lui Pitagora pe cercul trigonometric.
+
+### 58. Formula sinusului unghiului dublu este:
+
+- a. sinus de 2t egal de două ori sinus t ori cosinus t
+- b. sinus de 2t egal de două ori sinus t
+- c. sinus de 2t egal sinus t plus cosinus t
+- d. sinus de 2t egal cosinus t
+
+> [!success]- Răspuns
+> **a. sinus de 2t egal de două ori sinus t ori cosinus t**
+> 
+> Cosinusul unghiului dublu este diferența pătratelor.
+
+### 59. Funcția cosinus este:
+
+- a. pară, cosinusul opusului fiind egal cu cosinusul
+- b. impară
+- c. neperiodică
+- d. fără simetrie
+
+> [!success]- Răspuns
+> **a. pară, cosinusul opusului fiind egal cu cosinusul**
+> 
+> Sinusul, în schimb, este funcție impară.
+
+### 60. Perioada principală a funcțiilor sinus și cosinus este:
+
+- a. doi pi
+- b. pi
+- c. pi supra doi
+- d. 1
+
+> [!success]- Răspuns
+> **a. doi pi**
+> 
+> Valorile se reiau la fiecare rotație completă.
+
+### 61. Relația lui Chasles spune că vectorul de la A la B plus vectorul de la B la C este egal cu:
+
+- a. vectorul de la A la C
+- b. vectorul de la C la A
+- c. vectorul nul, întotdeauna
+- d. de două ori vectorul de la A la B
+
+> [!success]- Răspuns
+> **a. vectorul de la A la C**
+> 
+> Punctul intermediar B se „simplifică".
+
+### 62. Doi vectori nenuli sunt coliniari dacă:
+
+- a. unul este multiplu scalar al celuilalt
+- b. au module egale
+- c. sunt perpendiculari
+- d. au sensuri opuse întotdeauna
+
+> [!success]- Răspuns
+> **a. unul este multiplu scalar al celuilalt**
+> 
+> Este criteriul de coliniaritate a punctelor.
+
+### 63. Vectorul de poziție al mijlocului unui segment cu capetele A și B este:
+
+- a. media vectorilor de poziție ai lui A și B
+- b. diferența lor
+- c. suma lor, neîmpărțită
+- d. produsul lor scalar
+
+> [!success]- Răspuns
+> **a. media vectorilor de poziție ai lui A și B**
+> 
+> La fel, centrul de greutate al unui triunghi e media a trei poziții.
+
+### 64. Vectorul determinat de punctele A și B se obține:
+
+- a. scăzând poziția lui A din poziția lui B
+- b. adunând pozițiile lui A și B
+- c. înmulțind pozițiile
+- d. împărțind pozițiile
+
+> [!success]- Răspuns
+> **a. scăzând poziția lui A din poziția lui B**
+> 
+> De aceea el „pornește" din A și „ajunge" în B.
+
+### 65. Panta unei drepte reprezintă:
+
+- a. tangenta unghiului format cu axa orizontală
+- b. lungimea dreptei
+- c. distanța până la origine
+- d. aria de sub dreaptă
+
+> [!success]- Răspuns
+> **a. tangenta unghiului format cu axa orizontală**
+> 
+> Arată cât de înclinată este dreapta.
+
+### 66. Două drepte sunt paralele dacă au:
+
+- a. aceeași pantă
+- b. pante cu produsul minus unu
+- c. ordonate la origine egale
+- d. lungimi egale
+
+> [!success]- Răspuns
+> **a. aceeași pantă**
+> 
+> Produsul pantelor minus unu înseamnă perpendicularitate.
+
+### 67. Ecuația dreptei care trece prin origine cu panta 2 este:
+
+- a. y egal cu 2x
+- b. y egal cu 2x plus 2
+- c. y egal cu x plus 2
+- d. y egal cu 2
+
+> [!success]- Răspuns
+> **a. y egal cu 2x**
+> 
+> Prin origine, ordonata la origine este zero.
+
+### 68. Dreapta de ecuație y egal cu 3x minus 1 taie axa verticală în punctul:
+
+- a. (0, minus 1)
+- b. (0, 3)
+- c. (minus 1, 0)
+- d. (1, 0)
+
+> [!success]- Răspuns
+> **a. (0, minus 1)**
+> 
+> Ordonata la origine este termenul liber, minus 1.
+
+### 69. Distanța dintre punctele (0, 0) și (3, 4) este:
+
+- a. 5
+- b. 7
+- c. 12
+- d. 1
+
+> [!success]- Răspuns
+> **a. 5**
+> 
+> Rădăcina din 3 la pătrat plus 4 la pătrat, adică din 25.
+
+### 70. Mijlocul segmentului cu capetele (2, 4) și (6, 8) este punctul:
+
+- a. (4, 6)
+- b. (8, 12)
+- c. (3, 4)
+- d. (2, 6)
+
+> [!success]- Răspuns
+> **a. (4, 6)**
+> 
+> Se face media coordonatelor: 2 plus 6 pe 2 și 4 plus 8 pe 2.
+
+### 71. Trei puncte sunt coliniare dacă determinantul format cu coordonatele lor este:
+
+- a. zero
+- b. pozitiv
+- c. negativ
+- d. egal cu 1
+
+> [!success]- Răspuns
+> **a. zero**
+> 
+> Un determinant nul înseamnă arie nulă a „triunghiului".
+
+### 72. Distanța dintre două puncte se calculează folosind:
+
+- a. teorema lui Pitagora aplicată diferențelor de coordonate
+- b. relațiile lui Viète
+- c. panta dreptei
+- d. produsul scalar
+
+> [!success]- Răspuns
+> **a. teorema lui Pitagora aplicată diferențelor de coordonate**
+> 
+> Este rădăcina din suma pătratelor diferențelor.
+
+### 73. O propoziție logică este un enunț care:
+
+- a. este adevărat sau fals, dar nu ambele
+- b. exprimă o întrebare
+- c. exprimă o părere
+- d. nu are valoare de adevăr
+
+> [!success]- Răspuns
+> **a. este adevărat sau fals, dar nu ambele**
+> 
+> Întrebările și ordinele nu sunt propoziții logice.
+
+### 74. Conjuncția „p și q" este adevărată:
+
+- a. numai când ambele propoziții sunt adevărate
+- b. când cel puțin una e adevărată
+- c. când ambele sunt false
+- d. întotdeauna
+
+> [!success]- Răspuns
+> **a. numai când ambele propoziții sunt adevărate**
+> 
+> Disjuncția e adevărată când cel puțin una e adevărată.
+
+### 75. Dacă mulțimea A are 4 elemente, B are 5 elemente și intersecția lor are 2 elemente, reuniunea are:
+
+- a. 7 elemente
+- b. 9 elemente
+- c. 11 elemente
+- d. 2 elemente
+
+> [!success]- Răspuns
+> **a. 7 elemente**
+> 
+> 4 plus 5 minus 2, ca elementele comune să nu fie numărate de două ori.
+
+### 76. O mulțime cu 3 elemente are:
+
+- a. 8 submulțimi
+- b. 6 submulțimi
+- c. 3 submulțimi
+- d. 9 submulțimi
+
+> [!success]- Răspuns
+> **a. 8 submulțimi**
+> 
+> Două la puterea a treia este 8.
+
+### 77. Suma primelor n numere naturale este egală cu:
+
+- a. n înmulțit cu (n plus unu), împărțit la doi
+- b. n la pătrat
+- c. de două ori n
+- d. n plus unu
+
+> [!success]- Răspuns
+> **a. n înmulțit cu (n plus unu), împărțit la doi**
+> 
+> Se demonstrează prin inducție matematică.
+
+### 78. Negația propoziției „toate numerele sunt pare" este:
+
+- a. „există cel puțin un număr care nu este par"
+- b. „toate numerele sunt impare"
+- c. „niciun număr nu este par"
+- d. „toate numerele sunt pare"
+
+> [!success]- Răspuns
+> **a. „există cel puțin un număr care nu este par"**
+> 
+> Negarea universalului dă un enunț existențial.
+
+### 79. Mulțimea numerelor raționale se notează:
 
 - a. Q
 - b. N
@@ -453,7 +957,7 @@ cssclasses: test
 > 
 > R cuprinde și iraționalele.
 
-### 38. Modulul lui −9 este:
+### 80. Modulul lui −9 este:
 
 - a. 9
 - b. −9
@@ -465,7 +969,7 @@ cssclasses: test
 > 
 > Modulul este distanța față de zero.
 
-### 39. Câtul a două puteri cu aceeași bază:
+### 81. Câtul a două puteri cu aceeași bază:
 
 - a. scade exponenții
 - b. adună exponenții
@@ -477,7 +981,7 @@ cssclasses: test
 > 
 > Produsul îi adună.
 
-### 40. Logaritmul unei puteri este:
+### 82. Logaritmul unei puteri este:
 
 - a. exponentul înmulțit cu logaritmul bazei argumentului
 - b. suma logaritmilor
@@ -489,7 +993,7 @@ cssclasses: test
 > 
 > De aceea logaritmul liniarizează puterile.
 
-### 41. Într-o progresie aritmetică, diferența a doi termeni consecutivi este:
+### 83. Într-o progresie aritmetică, diferența a doi termeni consecutivi este:
 
 - a. constantă
 - b. crescătoare
@@ -501,7 +1005,7 @@ cssclasses: test
 > 
 > Constanta se numește rație.
 
-### 42. O funcție bijectivă este:
+### 84. O funcție bijectivă este:
 
 - a. injectivă și surjectivă
 - b. doar injectivă
@@ -513,7 +1017,7 @@ cssclasses: test
 > 
 > Doar bijecțiile au inversă.
 
-### 43. Graficul funcției f(x) = ax² + bx + c este:
+### 85. Graficul funcției f(x) = ax² + bx + c este:
 
 - a. o parabolă
 - b. o dreaptă
@@ -525,7 +1029,7 @@ cssclasses: test
 > 
 > Coeficientul a decide orientarea ramurilor.
 
-### 44. Dacă discriminantul e pozitiv, ecuația de gradul al II-lea are:
+### 86. Dacă discriminantul e pozitiv, ecuația de gradul al II-lea are:
 
 - a. două rădăcini reale distincte
 - b. o rădăcină dublă
@@ -537,7 +1041,7 @@ cssclasses: test
 > 
 > Delta zero dă rădăcină dublă.
 
-### 45. Suma rădăcinilor ecuației x² − 7x + 12 = 0 este:
+### 87. Suma rădăcinilor ecuației x² − 7x + 12 = 0 este:
 
 - a. 7
 - b. −7
@@ -549,7 +1053,79 @@ cssclasses: test
 > 
 > Relațiile lui Viète: suma este −b/a.
 
-### 46. Vârful parabolei are abscisa:
+### 88. Un unghi de 180 de grade are, în radiani, măsura:
+
+- a. pi
+- b. doi pi
+- c. pi supra doi
+- d. pi supra patru
+
+> [!success]- Răspuns
+> **a. pi**
+> 
+> Un unghi de 360 de grade are doi pi radiani.
+
+### 89. Teorema cosinusului este o generalizare a:
+
+- a. teoremei lui Pitagora
+- b. teoremei sinusurilor
+- c. relațiilor lui Viète
+- d. teoremei lui Thales
+
+> [!success]- Răspuns
+> **a. teoremei lui Pitagora**
+> 
+> Când unghiul e drept, cosinusul lui e zero.
+
+### 90. Formula sinusului unghiului dublu este:
+
+- a. sinus de 2t egal de două ori sinus t ori cosinus t
+- b. sinus de 2t egal de două ori sinus t
+- c. sinus de 2t egal sinus t plus cosinus t
+- d. sinus de 2t egal cosinus t
+
+> [!success]- Răspuns
+> **a. sinus de 2t egal de două ori sinus t ori cosinus t**
+> 
+> Cosinusul unghiului dublu este diferența pătratelor.
+
+### 91. Relația lui Chasles spune că vectorul de la A la B plus vectorul de la B la C este:
+
+- a. vectorul de la A la C
+- b. vectorul de la C la A
+- c. vectorul nul mereu
+- d. de două ori vectorul de la A la B
+
+> [!success]- Răspuns
+> **a. vectorul de la A la C**
+> 
+> Punctul intermediar B se „simplifică".
+
+### 92. Distanța dintre punctele (0, 0) și (3, 4) este:
+
+- a. 5
+- b. 7
+- c. 12
+- d. 25
+
+> [!success]- Răspuns
+> **a. 5**
+> 
+> Rădăcina din 3 la pătrat plus 4 la pătrat.
+
+### 93. Pe cercul trigonometric de rază 1, punctul asociat unghiului t are coordonatele:
+
+- a. (cosinus t, sinus t)
+- b. (sinus t, cosinus t)
+- c. (t, t la pătrat)
+- d. (1, t)
+
+> [!success]- Răspuns
+> **a. (cosinus t, sinus t)**
+> 
+> Prima coordonată este cosinusul, a doua sinusul.
+
+### 94. Vârful parabolei are abscisa:
 
 - a. −b supra 2a
 - b. b supra 2a
@@ -561,7 +1137,7 @@ cssclasses: test
 > 
 > Ordonata se obține înlocuind în funcție.
 
-### 47. Un sistem de două ecuații liniare cu drepte paralele distincte este:
+### 95. Un sistem de două ecuații liniare cu drepte paralele distincte este:
 
 - a. incompatibil
 - b. nedeterminat
@@ -573,7 +1149,7 @@ cssclasses: test
 > 
 > Dreptele confundate dau sistem nedeterminat.
 
-### 48. Sinusul unui unghi ascuțit este raportul dintre:
+### 96. Sinusul unui unghi ascuțit este raportul dintre:
 
 - a. cateta opusă și ipotenuză
 - b. cateta alăturată și ipotenuză
@@ -585,7 +1161,7 @@ cssclasses: test
 > 
 > Cosinusul folosește cateta alăturată.
 
-### 49. Sinusul de 45 de grade este:
+### 97. Sinusul de 45 de grade este:
 
 - a. rădăcină din 2 supra 2
 - b. 1/2
@@ -597,7 +1173,7 @@ cssclasses: test
 > 
 > Este egal cu cosinusul aceluiași unghi.
 
-### 50. Suma pătratelor sinusului și cosinusului aceluiași unghi este:
+### 98. Suma pătratelor sinusului și cosinusului aceluiași unghi este:
 
 - a. 1
 - b. 0
@@ -609,7 +1185,7 @@ cssclasses: test
 > 
 > Este identitatea fundamentală.
 
-### 51. Un vector se caracterizează prin:
+### 99. Un vector se caracterizează prin:
 
 - a. direcție, sens și modul
 - b. doar modul
@@ -621,7 +1197,7 @@ cssclasses: test
 > 
 > Punctul de aplicație nu îl definește.
 
-### 52. Produsul scalar a doi vectori perpendiculari este:
+### 100. Produsul scalar a doi vectori perpendiculari este:
 
 - a. 0
 - b. 1
@@ -633,7 +1209,7 @@ cssclasses: test
 > 
 > Cosinusul unghiului drept este zero.
 
-### 53. Două drepte sunt perpendiculare dacă produsul pantelor este:
+### 101. Două drepte sunt perpendiculare dacă produsul pantelor este:
 
 - a. −1
 - b. 1
@@ -645,7 +1221,7 @@ cssclasses: test
 > 
 > Pante egale înseamnă paralelism.
 
-### 54. Ecuația x² + y² = 25 descrie:
+### 102. Ecuația x² + y² = 25 descrie:
 
 - a. un cerc de rază 5 cu centrul în origine
 - b. o parabolă

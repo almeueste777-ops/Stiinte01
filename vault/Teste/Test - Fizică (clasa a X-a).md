@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Fizică (clasa a X-a)
 
-54 întrebări din [[Fizică (clasa a X-a)|Fizică (clasa a X-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+102 întrebări din [[Fizică (clasa a X-a)|Fizică (clasa a X-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Căldura se transmite:
 
@@ -441,7 +441,511 @@ cssclasses: test
 > 
 > Apare la viteze apropiate de cea a luminii.
 
-### 37. Temperatura măsoară:
+### 37. Cantitatea de căldură primită de un corp care se încălzește depinde de:
+
+- a. masă, căldura specifică și variația temperaturii
+- b. doar de masă
+- c. doar de variația temperaturii
+- d. doar de volumul corpului
+
+> [!success]- Răspuns
+> **a. masă, căldura specifică și variația temperaturii**
+> 
+> Ea este produsul acestor trei mărimi.
+
+### 38. Căldura specifică a apei, față de a majorității substanțelor, este:
+
+- a. mai mare
+- b. mai mică
+- c. egală
+- d. nulă
+
+> [!success]- Răspuns
+> **a. mai mare**
+> 
+> De aceea apa se încălzește greu și moderează clima.
+
+### 39. La contactul a două corpuri cu temperaturi diferite, căldura cedată de corpul cald este:
+
+- a. egală cu cea primită de corpul rece
+- b. mai mare decât cea primită de corpul rece
+- c. mai mică decât cea primită de corpul rece
+- d. independentă de corpul rece
+
+> [!success]- Răspuns
+> **a. egală cu cea primită de corpul rece**
+> 
+> Este ecuația calorimetrică, la echilibru termic.
+
+### 40. Pentru a încălzi 2 kg de apă (căldura specifică aproximativ 4200 J/(kg·°C)) cu 5 °C sunt necesari:
+
+- a. 42000 J
+- b. 4200 J
+- c. 21000 J
+- d. 420000 J
+
+> [!success]- Răspuns
+> **a. 42000 J**
+> 
+> 2 înmulțit cu 4200 înmulțit cu 5 dă 42000 de jouli.
+
+### 41. În timpul topirii unui corp cristalin, la presiune constantă, temperatura:
+
+- a. rămâne constantă
+- b. crește continuu
+- c. scade continuu
+- d. oscilează
+
+> [!success]- Răspuns
+> **a. rămâne constantă**
+> 
+> Căldura primită rupe legăturile dintre particule, nu crește agitația termică.
+
+### 42. Trecerea din stare lichidă în stare gazoasă se numește:
+
+- a. vaporizare
+- b. topire
+- c. solidificare
+- d. sublimare
+
+> [!success]- Răspuns
+> **a. vaporizare**
+> 
+> Procesul invers este condensarea.
+
+### 43. Evaporarea, spre deosebire de fierbere, are loc:
+
+- a. doar la suprafața lichidului și la orice temperatură
+- b. în toată masa lichidului
+- c. doar la temperatura de fierbere
+- d. doar sub presiune ridicată
+
+> [!success]- Răspuns
+> **a. doar la suprafața lichidului și la orice temperatură**
+> 
+> Fierberea cuprinde toată masa lichidului.
+
+### 44. Temperatura de fierbere a apei, odată cu creșterea altitudinii:
+
+- a. scade
+- b. crește
+- c. rămâne constantă
+- d. se dublează
+
+> [!success]- Răspuns
+> **a. scade**
+> 
+> Presiunea atmosferică scade cu altitudinea.
+
+### 45. Randamentul unui motor termic este raportul dintre:
+
+- a. lucrul mecanic util și căldura primită de la sursa caldă
+- b. căldura cedată și căldura primită
+- c. căldura primită și lucrul mecanic
+- d. lucrul mecanic și căldura cedată
+
+> [!success]- Răspuns
+> **a. lucrul mecanic util și căldura primită de la sursa caldă**
+> 
+> De aceea este întotdeauna subunitar.
+
+### 46. Un motor termic primește 1000 J de la sursa caldă și cedează 700 J sursei reci. Lucrul mecanic efectuat este:
+
+- a. 300 J
+- b. 1700 J
+- c. 700 J
+- d. 1000 J
+
+> [!success]- Răspuns
+> **a. 300 J**
+> 
+> Lucrul este diferența: 1000 minus 700.
+
+### 47. Randamentul unui motor termic real este:
+
+- a. întotdeauna subunitar
+- b. egal cu 1
+- c. supraunitar la motoarele bune
+- d. nul
+
+> [!success]- Răspuns
+> **a. întotdeauna subunitar**
+> 
+> O parte din căldură se cedează mereu sursei reci.
+
+### 48. Frigiderul transferă căldură:
+
+- a. de la corpul rece la cel cald, consumând lucru mecanic
+- b. de la corpul cald la cel rece, fără consum
+- c. doar prin radiație
+- d. creând energie
+
+> [!success]- Răspuns
+> **a. de la corpul rece la cel cald, consumând lucru mecanic**
+> 
+> Este un motor termic care funcționează invers.
+
+### 49. Legea lui Ohm pentru întregul circuit exprimă intensitatea ca:
+
+- a. tensiunea electromotoare împărțită la suma rezistenței exterioare și interne
+- b. produsul tensiunii electromotoare cu rezistența
+- c. tensiunea electromotoare împărțită doar la rezistența exterioară
+- d. suma tensiunilor înmulțită cu rezistența
+
+> [!success]- Răspuns
+> **a. tensiunea electromotoare împărțită la suma rezistenței exterioare și interne**
+> 
+> Curentul întâmpină și rezistența internă a generatorului.
+
+### 50. Tensiunea la bornele unui generator real este:
+
+- a. mai mică decât tensiunea electromotoare, cu căderea pe rezistența internă
+- b. mai mare decât tensiunea electromotoare
+- c. egală mereu cu tensiunea electromotoare
+- d. nulă în circuit închis
+
+> [!success]- Răspuns
+> **a. mai mică decât tensiunea electromotoare, cu căderea pe rezistența internă**
+> 
+> De aceea farurile pălesc când demarorul cere curent mare.
+
+### 51. Un generator cu tensiunea electromotoare de 12 V și rezistența internă de 1 Ω alimentează un rezistor de 5 Ω. Intensitatea curentului este:
+
+- a. 2 A
+- b. 12 A
+- c. 6 A
+- d. 2,4 A
+
+> [!success]- Răspuns
+> **a. 2 A**
+> 
+> 12 împărțit la suma 5 plus 1 dă 2 amperi.
+
+### 52. La scurtcircuit, când rezistența exterioară tinde spre zero, intensitatea:
+
+- a. atinge valoarea maximă
+- b. devine nulă
+- c. rămâne neschimbată
+- d. devine negativă
+
+> [!success]- Răspuns
+> **a. atinge valoarea maximă**
+> 
+> Este limitată doar de rezistența internă.
+
+### 53. Două rezistoare de 3 Ω și 6 Ω legate în serie dau o rezistență echivalentă de:
+
+- a. 9 Ω
+- b. 2 Ω
+- c. 18 Ω
+- d. 4,5 Ω
+
+> [!success]- Răspuns
+> **a. 9 Ω**
+> 
+> În serie rezistențele se adună.
+
+### 54. Două rezistoare de 6 Ω fiecare, legate în paralel, dau o rezistență echivalentă de:
+
+- a. 3 Ω
+- b. 12 Ω
+- c. 6 Ω
+- d. 36 Ω
+
+> [!success]- Răspuns
+> **a. 3 Ω**
+> 
+> Pentru două rezistoare egale în paralel, echivalenta e jumătate.
+
+### 55. La gruparea în serie, prin toate rezistoarele trece:
+
+- a. același curent
+- b. aceeași tensiune
+- c. curenți diferiți
+- d. niciun curent
+
+> [!success]- Răspuns
+> **a. același curent**
+> 
+> Tensiunea se împarte între ele.
+
+### 56. Rezistența echivalentă a unei grupări în paralel este:
+
+- a. mai mică decât cea mai mică rezistență din grup
+- b. mai mare decât suma rezistențelor
+- c. egală cu suma rezistențelor
+- d. egală cu cea mai mare rezistență
+
+> [!success]- Răspuns
+> **a. mai mică decât cea mai mică rezistență din grup**
+> 
+> Se deschid mai multe căi pentru curent.
+
+### 57. Puterea electrică a unui consumator se calculează ca:
+
+- a. produsul dintre tensiune și intensitate
+- b. raportul dintre tensiune și intensitate
+- c. produsul dintre tensiune și timp
+- d. suma tensiunii și intensității
+
+> [!success]- Răspuns
+> **a. produsul dintre tensiune și intensitate**
+> 
+> Se măsoară în wați.
+
+### 58. Un bec de 100 W care funcționează 10 ore consumă:
+
+- a. 1 kWh
+- b. 10 kWh
+- c. 100 kWh
+- d. 0,1 kWh
+
+> [!success]- Răspuns
+> **a. 1 kWh**
+> 
+> 100 de wați înmulțit cu 10 ore dă 1000 de wați-oră, adică 1 kilowatt-oră.
+
+### 59. Căldura degajată prin efect Joule este proporțională cu:
+
+- a. pătratul intensității curentului
+- b. inversul intensității
+- c. rădăcina intensității
+- d. logaritmul tensiunii
+
+> [!success]- Răspuns
+> **a. pătratul intensității curentului**
+> 
+> Depinde și de rezistență, și de timp.
+
+### 60. Dacă tensiunea la capetele unui rezistor se dublează, puterea disipată de el:
+
+- a. se împătrește
+- b. se dublează
+- c. se înjumătățește
+- d. rămâne constantă
+
+> [!success]- Răspuns
+> **a. se împătrește**
+> 
+> Puterea este pătratul tensiunii împărțit la rezistență.
+
+### 61. Convergența unei lentile se măsoară în:
+
+- a. dioptrii
+- b. metri
+- c. wați
+- d. grade
+
+> [!success]- Răspuns
+> **a. dioptrii**
+> 
+> Ea este inversul distanței focale în metri.
+
+### 62. O lentilă convergentă cu distanța focală de 0,5 m are convergența de:
+
+- a. 2 dioptrii
+- b. 0,5 dioptrii
+- c. 5 dioptrii
+- d. 1 dioptrie
+
+> [!success]- Răspuns
+> **a. 2 dioptrii**
+> 
+> Convergența este 1 împărțit la 0,5.
+
+### 63. Lupa este, în esență:
+
+- a. o lentilă convergentă
+- b. o lentilă divergentă
+- c. o oglindă plană
+- d. o prismă
+
+> [!success]- Răspuns
+> **a. o lentilă convergentă**
+> 
+> Dă o imagine virtuală, dreaptă și mărită.
+
+### 64. Imaginea dată de o lentilă divergentă unui obiect real este întotdeauna:
+
+- a. virtuală, dreaptă și micșorată
+- b. reală și răsturnată
+- c. reală și mărită
+- d. la infinit
+
+> [!success]- Răspuns
+> **a. virtuală, dreaptă și micșorată**
+> 
+> Razele par să pornească dintr-un focar virtual.
+
+### 65. Interferența și difracția luminii demonstrează caracterul ei:
+
+- a. ondulatoriu
+- b. corpuscular exclusiv
+- c. pur geometric
+- d. termic
+
+> [!success]- Răspuns
+> **a. ondulatoriu**
+> 
+> Ele arată că lumina este o undă.
+
+### 66. La interferența constructivă, undele se întâlnesc:
+
+- a. în fază, iar amplitudinile se adună
+- b. în opoziție de fază, anulându-se
+- c. perpendicular
+- d. fără nicio relație de fază
+
+> [!success]- Răspuns
+> **a. în fază, iar amplitudinile se adună**
+> 
+> De aceea apar dungile luminoase.
+
+### 67. Polarizarea luminii este posibilă pentru că lumina este o undă:
+
+- a. transversală
+- b. longitudinală
+- c. staționară
+- d. sonoră
+
+> [!success]- Răspuns
+> **a. transversală**
+> 
+> Sunetul, fiind longitudinal, nu se poate polariza.
+
+### 68. Ocolirea de către lumină a marginii unui obstacol se numește:
+
+- a. difracție
+- b. reflexie
+- c. refracție
+- d. dispersie
+
+> [!success]- Răspuns
+> **a. difracție**
+> 
+> Datorită ei lumina pătrunde în zona de umbră geometrică.
+
+### 69. Undele electromagnetice se propagă în vid cu viteza:
+
+- a. de aproximativ 300000 km/s
+- b. de aproximativ 340 m/s
+- c. infinită
+- d. care depinde de sursă
+
+> [!success]- Răspuns
+> **a. de aproximativ 300000 km/s**
+> 
+> Este viteza luminii.
+
+### 70. Spre deosebire de sunet, undele electromagnetice:
+
+- a. se pot propaga în vid
+- b. au nevoie de un mediu material
+- c. sunt longitudinale
+- d. nu transportă energie
+
+> [!success]- Răspuns
+> **a. se pot propaga în vid**
+> 
+> Lumina Soarelui traversează spațiul cosmic vid.
+
+### 71. Dintre următoarele radiații, frecvența cea mai mare o au:
+
+- a. razele gamma
+- b. undele radio
+- c. radiația infraroșie
+- d. lumina vizibilă
+
+> [!success]- Răspuns
+> **a. razele gamma**
+> 
+> În spectru, razele gamma sunt la capătul frecvențelor înalte.
+
+### 72. În spectrul electromagnetic, lumina vizibilă se află:
+
+- a. între infraroșu și ultraviolet
+- b. înaintea undelor radio
+- c. după razele gamma
+- d. în afara spectrului
+
+> [!success]- Răspuns
+> **a. între infraroșu și ultraviolet**
+> 
+> Ocupă o bandă îngustă de frecvențe.
+
+### 73. Cantitatea de căldură primită de un corp care se încălzește este:
+
+- a. produsul dintre masă, căldura specifică și variația temperaturii
+- b. produsul dintre masă și viteză
+- c. raportul dintre forță și arie
+- d. egală cu temperatura corpului
+
+> [!success]- Răspuns
+> **a. produsul dintre masă, căldura specifică și variația temperaturii**
+> 
+> Căldura specifică depinde de natura substanței.
+
+### 74. În timpul topirii unui corp cristalin, la presiune constantă, temperatura:
+
+- a. rămâne constantă
+- b. crește mereu
+- c. scade mereu
+- d. se dublează
+
+> [!success]- Răspuns
+> **a. rămâne constantă**
+> 
+> Căldura primită rupe legăturile dintre particule.
+
+### 75. Evaporarea unui lichid are loc:
+
+- a. doar la suprafață și la orice temperatură
+- b. în toată masa, la temperatura de fierbere
+- c. doar sub presiune ridicată
+- d. doar la zero absolut
+
+> [!success]- Răspuns
+> **a. doar la suprafață și la orice temperatură**
+> 
+> Fierberea cuprinde toată masa lichidului.
+
+### 76. Un motor termic primește 1000 J și cedează sursei reci 600 J. Lucrul mecanic efectuat este:
+
+- a. 400 J
+- b. 1600 J
+- c. 600 J
+- d. 1000 J
+
+> [!success]- Răspuns
+> **a. 400 J**
+> 
+> Lucrul este diferența dintre căldura primită și cea cedată.
+
+### 77. Randamentul unui motor termic real este:
+
+- a. subunitar
+- b. egal cu 1
+- c. supraunitar
+- d. nul
+
+> [!success]- Răspuns
+> **a. subunitar**
+> 
+> O parte din căldură se cedează mereu sursei reci.
+
+### 78. Apa are, față de majoritatea substanțelor, o căldură specifică:
+
+- a. mare, de aceea moderează clima
+- b. mică, de aceea se încălzește ușor
+- c. nulă
+- d. negativă
+
+> [!success]- Răspuns
+> **a. mare, de aceea moderează clima**
+> 
+> Se încălzește și se răcește greu.
+
+### 79. Temperatura măsoară:
 
 - a. agitația termică medie a particulelor
 - b. cantitatea totală de energie
@@ -453,7 +957,7 @@ cssclasses: test
 > 
 > O scânteie e fierbinte, dar are puțină energie.
 
-### 38. Transferul de căldură prin deplasarea maselor de fluid se numește:
+### 80. Transferul de căldură prin deplasarea maselor de fluid se numește:
 
 - a. convecție
 - b. conducție
@@ -465,7 +969,7 @@ cssclasses: test
 > 
 > Radiația nu are nevoie de mediu.
 
-### 39. Legea Boyle-Mariotte descrie transformarea:
+### 81. Legea Boyle-Mariotte descrie transformarea:
 
 - a. izotermă
 - b. izobară
@@ -477,7 +981,7 @@ cssclasses: test
 > 
 > Presiunea e invers proporțională cu volumul.
 
-### 40. Primul principiu al termodinamicii este:
+### 82. Primul principiu al termodinamicii este:
 
 - a. conservarea energiei aplicată sistemelor termice
 - b. interdicția scăderii entropiei
@@ -489,7 +993,7 @@ cssclasses: test
 > 
 > Interzice perpetuum mobile de speța întâi.
 
-### 41. Entropia unui sistem izolat:
+### 83. Entropia unui sistem izolat:
 
 - a. nu poate scădea
 - b. scade mereu
@@ -501,7 +1005,7 @@ cssclasses: test
 > 
 > De aici ireversibilitatea proceselor.
 
-### 42. Sarcinile electrice de semn opus:
+### 84. Sarcinile electrice de semn opus:
 
 - a. se atrag
 - b. se resping
@@ -513,7 +1017,7 @@ cssclasses: test
 > 
 > Cele de același semn se resping.
 
-### 43. Legea lui Ohm leagă:
+### 85. Legea lui Ohm leagă:
 
 - a. intensitatea, tensiunea și rezistența
 - b. forța, masa și accelerația
@@ -525,7 +1029,7 @@ cssclasses: test
 > 
 > Intensitatea e direct proporțională cu tensiunea.
 
-### 44. Consumatorii casnici se leagă:
+### 86. Consumatorii casnici se leagă:
 
 - a. în paralel
 - b. în serie
@@ -537,7 +1041,7 @@ cssclasses: test
 > 
 > Ca fiecare să primească aceeași tensiune.
 
-### 45. Efectul Joule înseamnă:
+### 87. Efectul Joule înseamnă:
 
 - a. degajarea de căldură la trecerea curentului
 - b. producerea de câmp magnetic
@@ -549,7 +1053,79 @@ cssclasses: test
 > 
 > E util la reșou și periculos la cabluri subțiri.
 
-### 46. Oersted a descoperit că:
+### 88. Legea lui Ohm pentru întregul circuit exprimă intensitatea ca:
+
+- a. tensiunea electromotoare împărțită la suma rezistenței exterioare și interne
+- b. produsul tensiunii cu rezistența
+- c. tensiunea împărțită doar la rezistența exterioară
+- d. suma tensiunilor
+
+> [!success]- Răspuns
+> **a. tensiunea electromotoare împărțită la suma rezistenței exterioare și interne**
+> 
+> Curentul întâmpină și rezistența internă a generatorului.
+
+### 89. Două rezistoare de 6 Ω fiecare, legate în paralel, dau o rezistență echivalentă de:
+
+- a. 3 Ω
+- b. 12 Ω
+- c. 6 Ω
+- d. 36 Ω
+
+> [!success]- Răspuns
+> **a. 3 Ω**
+> 
+> Pentru două rezistoare egale în paralel, echivalenta e jumătate.
+
+### 90. Un bec de 60 W care funcționează 2 ore consumă:
+
+- a. 0,12 kWh
+- b. 120 kWh
+- c. 1,2 kWh
+- d. 30 kWh
+
+> [!success]- Răspuns
+> **a. 0,12 kWh**
+> 
+> 60 de wați înmulțit cu 2 ore dă 120 de wați-oră.
+
+### 91. Interferența și difracția luminii demonstrează caracterul ei:
+
+- a. ondulatoriu
+- b. corpuscular exclusiv
+- c. termic
+- d. pur geometric
+
+> [!success]- Răspuns
+> **a. ondulatoriu**
+> 
+> Ele arată că lumina este o undă.
+
+### 92. Polarizarea luminii este posibilă pentru că lumina este o undă:
+
+- a. transversală
+- b. longitudinală
+- c. sonoră
+- d. staționară
+
+> [!success]- Răspuns
+> **a. transversală**
+> 
+> Sunetul, fiind longitudinal, nu se poate polariza.
+
+### 93. Undele electromagnetice, spre deosebire de sunet:
+
+- a. se pot propaga în vid
+- b. au nevoie de un mediu material
+- c. sunt longitudinale
+- d. nu transportă energie
+
+> [!success]- Răspuns
+> **a. se pot propaga în vid**
+> 
+> Se propagă cu viteza luminii.
+
+### 94. Oersted a descoperit că:
 
 - a. curentul electric produce câmp magnetic
 - b. câmpul magnetic variabil produce curent
@@ -561,7 +1137,7 @@ cssclasses: test
 > 
 > Faraday a descoperit fenomenul invers.
 
-### 47. Legea lui Lenz precizează:
+### 95. Legea lui Lenz precizează:
 
 - a. sensul curentului indus
 - b. mărimea rezistenței
@@ -573,7 +1149,7 @@ cssclasses: test
 > 
 > Curentul indus se opune cauzei care l-a produs.
 
-### 48. Tăind un magnet în două se obțin:
+### 96. Tăind un magnet în două se obțin:
 
 - a. doi magneți, fiecare cu ambii poli
 - b. un pol nord și un pol sud separate
@@ -585,7 +1161,7 @@ cssclasses: test
 > 
 > Polii magnetici nu pot fi separați.
 
-### 49. Unghiul de reflexie este:
+### 97. Unghiul de reflexie este:
 
 - a. egal cu unghiul de incidență
 - b. dublul unghiului de incidență
@@ -597,7 +1173,7 @@ cssclasses: test
 > 
 > Ambele se măsoară față de normală.
 
-### 50. Fibra optică folosește:
+### 98. Fibra optică folosește:
 
 - a. reflexia totală
 - b. refracția simplă
@@ -609,7 +1185,7 @@ cssclasses: test
 > 
 > Lumina rămâne captivă în miez.
 
-### 51. Sunetul nu se propagă:
+### 99. Sunetul nu se propagă:
 
 - a. în vid
 - b. în aer
@@ -621,7 +1197,7 @@ cssclasses: test
 > 
 > Are nevoie de un mediu material.
 
-### 52. Frecvența unui sunet determină:
+### 100. Frecvența unui sunet determină:
 
 - a. înălțimea lui
 - b. intensitatea lui
@@ -633,7 +1209,7 @@ cssclasses: test
 > 
 > Amplitudinea determină intensitatea.
 
-### 53. Fotonul a fost introdus pentru a explica:
+### 101. Fotonul a fost introdus pentru a explica:
 
 - a. efectul fotoelectric
 - b. inducția electromagnetică
@@ -645,7 +1221,7 @@ cssclasses: test
 > 
 > Einstein a preluat ideea cuantelor lui Planck.
 
-### 54. Stelele produc energie prin:
+### 102. Stelele produc energie prin:
 
 - a. fuziune nucleară
 - b. fisiune nucleară
