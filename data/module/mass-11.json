@@ -792,12 +792,864 @@
      ]
     }
    ]
+  },
+  {
+   "id": "mas11-c4",
+   "titlu": "Serii statistice și frecvențe",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "mas11-10",
+     "titlu": "Serii de frecvențe și tabele statistice",
+     "rezumat": "După ce datele sunt culese, ele trebuie organizate pentru a putea fi înțelese. O serie statistică este un șir de valori ale unei caracteristici, înregistrate pentru unitățile studiate. Primul pas al organizării este tabelul de frecvențe, care arată de câte ori apare fiecare valoare. Frecvența absolută a unei valori este numărul de unități care o au; suma tuturor frecvențelor absolute este egală cu numărul total de observații. Frecvența relativă este raportul dintre frecvența absolută și numărul total, exprimat ca fracție, zecimală sau procent; suma frecvențelor relative este 1, adică 100%. Ea permite compararea unor serii de mărimi diferite: două clase cu efective diferite se compară prin procente, nu prin numere brute. Frecvențele cumulate se obțin adunând, în ordine, frecvențele: frecvența cumulată până la o valoare arată câte observații sunt mai mici sau egale cu ea. Aceste instrumente răspund la întrebări practice. De pildă, dacă notele unei clase sunt trecute într-un tabel de frecvențe, frecvența relativă a notelor de trecere arată direct proporția celor promovați, iar frecvența cumulată arată câți elevi au sub o anumită notă. Tabelul de frecvențe este și baza reprezentărilor grafice și a calculului indicatorilor. O serie prost organizată ascunde informația; una bine organizată o face imediat vizibilă.",
+     "ideiCheie": [
+      "Frecvența absolută: de câte ori apare o valoare; suma lor este numărul total de observații.",
+      "Frecvența relativă: raportul cu totalul; suma frecvențelor relative este 1 (100%).",
+      "Frecvențele cumulate se obțin adunând, în ordine, frecvențele.",
+      "Frecvențele relative permit compararea unor serii de mărimi diferite."
+     ],
+     "termeni": [
+      {
+       "t": "frecvență absolută",
+       "d": "numărul de unități care au o anumită valoare a caracteristicii"
+      },
+      {
+       "t": "frecvență relativă",
+       "d": "raportul dintre frecvența absolută și numărul total de observații"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este frecvența absolută a unei valori?",
+       "v": "Numărul de unități care au acea valoare."
+      },
+      {
+       "f": "Cât este suma frecvențelor relative?",
+       "v": "1, adică 100%."
+      },
+      {
+       "f": "Ce arată frecvența cumulată până la o valoare?",
+       "v": "Câte observații sunt mai mici sau egale cu acea valoare."
+      },
+      {
+       "f": "De ce sunt utile frecvențele relative?",
+       "v": "Pentru că permit compararea unor serii cu numere totale diferite."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Suma tuturor frecvențelor absolute ale unei serii este egală cu:",
+       "optiuni": [
+        "numărul total de observații",
+        "1",
+        "100",
+        "frecvența maximă"
+       ],
+       "corect": 0,
+       "explicatie": "Suma frecvențelor relative, în schimb, este 1."
+      },
+      {
+       "intrebare": "Frecvența relativă se obține:",
+       "optiuni": [
+        "împărțind frecvența absolută la numărul total",
+        "adunând frecvențele",
+        "înmulțind valorile",
+        "scăzând extremele"
+       ],
+       "corect": 0,
+       "explicatie": "Ea se poate exprima ca fracție, zecimală sau procent."
+      },
+      {
+       "intrebare": "Pentru a compara două clase cu efective diferite se folosesc:",
+       "optiuni": [
+        "frecvențele relative (procente)",
+        "frecvențele absolute",
+        "valorile maxime",
+        "sumele valorilor"
+       ],
+       "corect": 0,
+       "explicatie": "Numerele brute nu sunt comparabile direct."
+      },
+      {
+       "intrebare": "Frecvența cumulată până la nota 6 arată:",
+       "optiuni": [
+        "câți elevi au nota mai mică sau egală cu 6",
+        "câți elevi au exact nota 6",
+        "nota medie",
+        "numărul de note distincte"
+       ],
+       "corect": 0,
+       "explicatie": "Ea se obține adunând frecvențele în ordine crescătoare."
+      }
+     ]
+    },
+    {
+     "id": "mas11-11",
+     "titlu": "Gruparea datelor pe intervale",
+     "rezumat": "Când o caracteristică numerică ia multe valori diferite — venituri, înălțimi, timpi —, un tabel cu fiecare valoare devine inutilizabil. Soluția este gruparea datelor pe intervale (clase): se împarte domeniul valorilor în intervale alăturate și se numără câte observații cad în fiecare. Amplitudinea unei clase este lungimea intervalului, iar centrul clasei, mijlocul intervalului, se folosește ca valoare reprezentativă în calcule. Alegerea claselor influențează imaginea. Prea puține clase ascund detaliile; prea multe reînvie haosul valorilor individuale. Un reper practic este folosirea a câtorva clase, de amplitudine egală, astfel încât forma distribuției să iasă la iveală. Datele grupate se reprezintă prin histogramă: dreptunghiuri alăturate a căror înălțime redă frecvența clasei. Spre deosebire de diagrama cu bare, care compară categorii separate, histograma redă o variabilă numerică continuă, de aceea barele ei sunt lipite. Gruparea are un preț: se pierde informația despre valorile exacte din interior. De aceea indicatorii calculați din date grupate, precum media sau mediana, sunt aproximativi, obținuți folosind centrele claselor. Compromisul merită atunci când numărul de observații este mare: câștigul de claritate depășește pierderea de precizie. Citirea unei histograme începe cu întrebările despre axe și despre amplitudinea claselor, pentru că intervale inegale pot deforma impresia.",
+     "ideiCheie": [
+      "Gruparea pe intervale (clase) organizează datele numerice cu multe valori.",
+      "Amplitudinea clasei este lungimea intervalului; centrul clasei se folosește în calcule.",
+      "Histograma reprezintă date grupate; barele ei sunt lipite (variabilă continuă).",
+      "Gruparea câștigă claritate, dar pierde informația despre valorile exacte."
+     ],
+     "termeni": [
+      {
+       "t": "clasă statistică",
+       "d": "interval de valori în care se grupează observațiile unei caracteristici numerice"
+      },
+      {
+       "t": "centru al clasei",
+       "d": "mijlocul unui interval, folosit ca valoare reprezentativă în calcule"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Când se grupează datele pe intervale?",
+       "v": "Când o caracteristică numerică ia prea multe valori diferite."
+      },
+      {
+       "f": "Ce este centrul unei clase?",
+       "v": "Mijlocul intervalului, folosit ca valoare reprezentativă în calcule."
+      },
+      {
+       "f": "Ce reprezintă o histogramă?",
+       "v": "Date numerice grupate pe intervale, prin dreptunghiuri alăturate."
+      },
+      {
+       "f": "Ce se pierde prin grupare?",
+       "v": "Informația despre valorile exacte din interiorul fiecărei clase."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Gruparea datelor pe intervale este utilă mai ales când:",
+       "optiuni": [
+        "caracteristica numerică ia multe valori diferite",
+        "datele sunt calitative",
+        "există foarte puține observații",
+        "valorile sunt identice"
+       ],
+       "corect": 0,
+       "explicatie": "Altfel tabelul individual ar fi ilizibil."
+      },
+      {
+       "intrebare": "În histogramă, barele sunt lipite pentru că:",
+       "optiuni": [
+        "reprezintă o variabilă numerică continuă",
+        "sunt mai frumoase așa",
+        "valorile sunt categorii",
+        "frecvențele sunt egale"
+       ],
+       "corect": 0,
+       "explicatie": "Diagrama cu bare, în schimb, compară categorii separate."
+      },
+      {
+       "intrebare": "Centrul unei clase se folosește pentru:",
+       "optiuni": [
+        "a calcula aproximativ indicatori precum media",
+        "a stabili numărul de clase",
+        "a elimina valorile extreme",
+        "a ordona datele"
+       ],
+       "corect": 0,
+       "explicatie": "Din date grupate, media este aproximativă."
+      },
+      {
+       "intrebare": "Prea multe clase într-o grupare:",
+       "optiuni": [
+        "readuc haosul valorilor individuale",
+        "ascund complet forma",
+        "sunt întotdeauna preferabile",
+        "elimină erorile"
+       ],
+       "corect": 0,
+       "explicatie": "Echilibrul dintre detaliu și claritate este scopul."
+      }
+     ]
+    },
+    {
+     "id": "mas11-12",
+     "titlu": "Serii cronologice și medii mobile",
+     "rezumat": "O serie cronologică, numită și temporală, este un șir de valori ale unei mărimi înregistrate la momente succesive: populația unei țări an de an, prețul lunar al unui produs, numărul zilnic de vizitatori. Ea se reprezintă printr-un grafic cronologic, cu timpul pe axa orizontală. Analiza ei caută componente: tendința (direcția generală, de creștere sau scădere pe termen lung), sezonalitatea (variații care se repetă periodic, de pildă vânzările mai mari în decembrie) și fluctuațiile întâmplătoare. Datele brute sunt adesea „zgomotoase”: variații mari de la un moment la altul ascund tendința. Media mobilă netezește seria: fiecare valoare este înlocuită cu media câtorva valori vecine. O medie mobilă pe trei termeni, de pildă, înlocuiește fiecare punct cu media lui și a celor doi vecini; cu cât se iau mai mulți termeni, cu atât seria e mai netedă, dar și mai puțin sensibilă la schimbări recente. Media mobilă este folosită pentru a evidenția tendința și pentru a atenua sezonalitatea. Seriile cronologice stau la baza multor decizii: bugete, planificarea stocurilor, anticiparea cererii. Ele cer însă prudență. Prelungirea tendinței în viitor (extrapolarea) este utilă pe termen scurt, dar riscantă pe termen lung, pentru că tendințele se schimbă. Confundarea unei variații sezoniere cu o tendință reală este o eroare frecventă: o creștere din decembrie nu înseamnă că vânzările vor crește la nesfârșit. De aceea comparația se face, de regulă, cu aceeași perioadă a anului anterior.",
+     "ideiCheie": [
+      "Serie cronologică: valori ale unei mărimi la momente succesive în timp.",
+      "Componente: tendința, sezonalitatea și fluctuațiile întâmplătoare.",
+      "Media mobilă netezește seria, înlocuind fiecare valoare cu media vecinilor.",
+      "Extrapolarea tendinței e utilă pe termen scurt, dar riscantă pe termen lung."
+     ],
+     "termeni": [
+      {
+       "t": "serie cronologică",
+       "d": "șir de valori ale unei mărimi înregistrate la momente succesive în timp"
+      },
+      {
+       "t": "medie mobilă",
+       "d": "media unui număr fix de valori vecine, folosită pentru a netezi o serie cronologică"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este o serie cronologică?",
+       "v": "Un șir de valori ale unei mărimi înregistrate la momente succesive în timp."
+      },
+      {
+       "f": "Care sunt componentele unei serii cronologice?",
+       "v": "Tendința, sezonalitatea și fluctuațiile întâmplătoare."
+      },
+      {
+       "f": "Ce face o medie mobilă?",
+       "v": "Netezește seria, înlocuind fiecare valoare cu media câtorva valori vecine."
+      },
+      {
+       "f": "De ce e riscantă extrapolarea pe termen lung?",
+       "v": "Pentru că tendințele se pot schimba."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Variațiile care se repetă periodic, precum vânzările mari din decembrie, formează:",
+       "optiuni": [
+        "componenta sezonieră",
+        "tendința",
+        "fluctuația întâmplătoare",
+        "media mobilă"
+       ],
+       "corect": 0,
+       "explicatie": "Ele nu trebuie confundate cu o tendință durabilă."
+      },
+      {
+       "intrebare": "Media mobilă calculată pe mai mulți termeni face seria:",
+       "optiuni": [
+        "mai netedă, dar mai puțin sensibilă la schimbări recente",
+        "mai zgomotoasă",
+        "mai sensibilă la fiecare valoare",
+        "imposibil de reprezentat"
+       ],
+       "corect": 0,
+       "explicatie": "Numărul de termeni este un compromis."
+      },
+      {
+       "intrebare": "O creștere a vânzărilor din decembrie:",
+       "optiuni": [
+        "poate fi doar sezonieră, nu o tendință durabilă",
+        "înseamnă creștere la nesfârșit",
+        "este o eroare de măsurare",
+        "nu se poate interpreta"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea se compară cu aceeași lună a anului anterior."
+      },
+      {
+       "intrebare": "Media mobilă se folosește pentru a:",
+       "optiuni": [
+        "evidenția tendința, netezind fluctuațiile",
+        "crește artificial valorile",
+        "ordona date calitative",
+        "elimina orice informație"
+       ],
+       "corect": 0,
+       "explicatie": "Ea atenuează „zgomotul” dintre momente."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mas11-c5",
+   "titlu": "Combinatorică și numărare",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "mas11-13",
+     "titlu": "Reguli de numărare: multiplicare și adunare",
+     "rezumat": "Numărarea sistematică a posibilităților este baza probabilităților și a multor decizii practice. Două reguli sunt fundamentale. Principiul multiplicării: dacă o alegere se face în mai multe etape succesive, iar prima are m posibilități, a doua n posibilități și așa mai departe, atunci numărul total de rezultate este produsul m × n × … De pildă, dacă un meniu are 3 feluri principale și 4 deserturi, se pot alcătui 3 × 4 = 12 combinații. Principiul adunării se aplică atunci când alegem o singură dată, dar dintre categorii care se exclud reciproc: dacă o opțiune poate fi luată din primul grup (m posibilități) sau din al doilea grup (n posibilități), fără suprapunere, numărul total este suma m + n. Cuvântul-cheie care distinge cele două reguli este „și” (etape succesive, se înmulțește) față de „sau” (categorii disjuncte, se adună). Aceste principii par simple, dar aplicarea lor cere atenție la două întrebări: contează ordinea? se pot repeta elementele? Numărul combinațiilor posibile pentru o parolă, pentru o placă de înmatriculare sau pentru un cod crește foarte repede cu numărul de poziții, tocmai din cauza principiului multiplicării. Acesta explică și de ce o parolă mai lungă este mult mai greu de ghicit: fiecare caracter în plus multiplică numărul de variante.",
+     "ideiCheie": [
+      "Principiul multiplicării: pentru etape succesive, numărul total este produsul posibilităților.",
+      "Principiul adunării: pentru categorii care se exclud, numărul total este suma posibilităților.",
+      "„Și” înmulțește (etape), „sau” adună (categorii disjuncte).",
+      "Numărul de coduri crește foarte repede cu numărul de poziții."
+     ],
+     "termeni": [
+      {
+       "t": "principiul multiplicării",
+       "d": "dacă o alegere are etape succesive, numărul de rezultate este produsul posibilităților de la fiecare etapă"
+      },
+      {
+       "t": "principiul adunării",
+       "d": "dacă o alegere se face dintre categorii care se exclud, numărul de rezultate este suma posibilităților"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Când se aplică principiul multiplicării?",
+       "v": "Când o alegere se face în etape succesive; se înmulțesc posibilitățile."
+      },
+      {
+       "f": "Când se aplică principiul adunării?",
+       "v": "Când se alege dintre categorii care se exclud reciproc; se adună posibilitățile."
+      },
+      {
+       "f": "Ce cuvinte disting cele două principii?",
+       "v": "„Și” (etape, înmulțire) față de „sau” (categorii disjuncte, adunare)."
+      },
+      {
+       "f": "De ce e mai sigură o parolă mai lungă?",
+       "v": "Pentru că fiecare caracter în plus multiplică numărul de variante posibile."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Un meniu cu 3 feluri principale și 4 deserturi permite:",
+       "optiuni": [
+        "12 combinații fel-desert",
+        "7 combinații",
+        "4 combinații",
+        "34 de combinații"
+       ],
+       "corect": 0,
+       "explicatie": "Se aplică principiul multiplicării: 3 × 4."
+      },
+      {
+       "intrebare": "Dacă un premiu se acordă unui elev din clasa A (25 de elevi) sau din clasa B (20 de elevi), numărul de posibilități este:",
+       "optiuni": [
+        "45",
+        "500",
+        "5",
+        "20"
+       ],
+       "corect": 0,
+       "explicatie": "Categoriile se exclud, deci se aplică adunarea."
+      },
+      {
+       "intrebare": "Cuvântul „și”, în numărare, sugerează de obicei:",
+       "optiuni": [
+        "etape succesive, deci înmulțire",
+        "categorii disjuncte, deci adunare",
+        "scădere",
+        "împărțire"
+       ],
+       "corect": 0,
+       "explicatie": "„Sau” sugerează adunarea categoriilor disjuncte."
+      },
+      {
+       "intrebare": "Numărul de coduri de o anumită lungime crește:",
+       "optiuni": [
+        "foarte repede cu numărul de poziții",
+        "liniar, câte unul pe poziție",
+        "deloc",
+        "doar dacă se repetă cifrele"
+       ],
+       "corect": 0,
+       "explicatie": "Este efectul principiului multiplicării."
+      }
+     ]
+    },
+    {
+     "id": "mas11-14",
+     "titlu": "Permutări, aranjamente, combinări",
+     "rezumat": "Trei tipuri de numărări apar mereu. Permutările numără în câte moduri se pot ordona toate cele n elemente ale unei mulțimi: sunt n! (n factorial, adică 1 × 2 × … × n). De pildă, 4 persoane pot sta pe un rând în 4! = 24 de moduri. Aranjamentele numără în câte moduri se pot alege și ordona k elemente din n, atunci când ordinea contează — de exemplu, câștigătorii locurilor I, II și III dintr-un grup. Combinările numără în câte moduri se pot alege k elemente din n atunci când ordinea nu contează — de exemplu, o echipă de 3 dintr-un grup de 10: componența, nu ordinea, contează. Distincția esențială este tocmai ordinea: la aranjamente „ABC” și „CBA” sunt diferite, la combinări sunt același grup. De aceea numărul aranjamentelor este întotdeauna mai mare sau egal decât al combinărilor, pentru aceleași n și k. Alegerea instrumentului corect pornește de la două întrebări: câte elemente aleg, toate sau o parte, și contează ordinea sau nu. Dacă aleg toate și le ordonez, sunt permutări; dacă aleg o parte cu ordine, aranjamente; dacă aleg o parte fără ordine, combinări. Aceste numărări sunt indispensabile în probabilități, unde numărul cazurilor favorabile și al celor posibile trebuie calculat corect. Greșeala tipică este a folosi aranjamente când ordinea nu contează, umflând artificial numărul.",
+     "ideiCheie": [
+      "Permutări: numărul de ordonări ale tuturor celor n elemente, egal cu n!.",
+      "Aranjamente: alegerea și ordonarea a k din n, când ordinea contează.",
+      "Combinări: alegerea a k din n, când ordinea nu contează.",
+      "Întrebările-cheie: aleg toate sau o parte? contează ordinea?"
+     ],
+     "termeni": [
+      {
+       "t": "permutare",
+       "d": "fiecare mod de a ordona toate elementele unei mulțimi; numărul lor este n factorial"
+      },
+      {
+       "t": "combinare",
+       "d": "fiecare mod de a alege k elemente din n fără a ține seama de ordine"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce numără permutările?",
+       "v": "În câte moduri se pot ordona toate cele n elemente ale unei mulțimi."
+      },
+      {
+       "f": "Prin ce se deosebesc aranjamentele de combinări?",
+       "v": "La aranjamente ordinea contează, la combinări nu."
+      },
+      {
+       "f": "Când se folosesc combinările?",
+       "v": "Când se aleg k elemente din n, iar ordinea nu contează."
+      },
+      {
+       "f": "Ce întrebări decid instrumentul potrivit?",
+       "v": "Aleg toate sau o parte? Contează ordinea sau nu?"
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "În câte moduri pot sta 4 persoane pe un rând?",
+       "optiuni": [
+        "24",
+        "4",
+        "16",
+        "12"
+       ],
+       "corect": 0,
+       "explicatie": "Sunt permutări: 4! = 1 × 2 × 3 × 4 = 24."
+      },
+      {
+       "intrebare": "Alegerea unei echipe de 3 elevi dintr-un grup de 10, fără a conta ordinea, se numără prin:",
+       "optiuni": [
+        "combinări",
+        "permutări",
+        "aranjamente",
+        "principiul adunării"
+       ],
+       "corect": 0,
+       "explicatie": "Componența, nu ordinea, definește echipa."
+      },
+      {
+       "intrebare": "Acordarea locurilor I, II și III unor concurenți este un caz de:",
+       "optiuni": [
+        "aranjamente, fiindcă ordinea contează",
+        "combinări, fiindcă ordinea nu contează",
+        "permutări ale tuturor",
+        "adunare"
+       ],
+       "corect": 0,
+       "explicatie": "„ABC” și „CBA” dau clasamente diferite."
+      },
+      {
+       "intrebare": "Pentru aceleași n și k, numărul aranjamentelor față de cel al combinărilor este:",
+       "optiuni": [
+        "mai mare sau egal",
+        "întotdeauna mai mic",
+        "întotdeauna egal",
+        "fără legătură"
+       ],
+       "corect": 0,
+       "explicatie": "Aranjamentele numără și ordinea, nu doar componența."
+      }
+     ]
+    },
+    {
+     "id": "mas11-15",
+     "titlu": "Numărarea în probleme sociale",
+     "rezumat": "Numărarea nu este un exercițiu abstract: ea apare în multe situații reale. Câte parole distincte se pot forma cu un anumit număr de caractere? Câte plăci de înmatriculare permite un format? În câte moduri se poate alcătui un comitet, un juriu sau o delegație? Câte trasee posibile există între mai multe orașe? Toate aceste întrebări se rezolvă alegând corect între principiul multiplicării, permutări, aranjamente și combinări. Un domeniu în care numărarea este esențială este proiectarea sondajelor și a experimentelor: câte combinații de întrebări, ordini sau grupuri sunt posibile, câte eșantioane de o anumită mărime se pot extrage dintr-o populație. În securitatea informatică, numărul enorm de combinații posibile explică de ce anumite coduri sunt practic imposibil de ghicit prin încercări: chiar și un calculator rapid nu poate parcurge, în timp rezonabil, un număr suficient de mare de variante. Numărarea sprijină și intuiția asupra probabilităților. Când calculăm șansa unui eveniment, împărțim numărul cazurilor favorabile la numărul cazurilor posibile — ambele obținute prin numărare. Erorile de numărare duc direct la probabilități greșite. De aceea, înainte de a calcula o probabilitate, merită pusă întrebarea: am numărat corect câte rezultate sunt cu totul posibile și câte îmi convin? Ordinea și repetiția trebuie tratate la fel în ambele numărători.",
+     "ideiCheie": [
+      "Numărarea apare la parole, coduri, comitete, trasee, eșantioane.",
+      "Alegerea instrumentului depinde de ordine și de câte elemente se aleg.",
+      "Numărul uriaș de combinații explică de ce unele coduri sunt practic imposibil de ghicit.",
+      "Probabilitatea este raportul dintre cazurile favorabile și cele posibile, ambele numărate."
+     ],
+     "termeni": [
+      {
+       "t": "caz posibil",
+       "d": "fiecare rezultat pe care îl poate avea o experiență, numărat pentru calculul probabilității"
+      },
+      {
+       "t": "caz favorabil",
+       "d": "rezultat care îndeplinește condiția evenimentului studiat"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Unde apare numărarea în viața reală?",
+       "v": "La parole, coduri, comitete, trasee, eșantioane, sondaje."
+      },
+      {
+       "f": "De ce sunt unele coduri practic imposibil de ghicit?",
+       "v": "Pentru că numărul combinațiilor posibile este uriaș."
+      },
+      {
+       "f": "Cum se leagă numărarea de probabilități?",
+       "v": "Probabilitatea este raportul dintre cazurile favorabile și cele posibile, ambele numărate."
+      },
+      {
+       "f": "Ce trebuie tratat la fel în ambele numărători?",
+       "v": "Ordinea și repetiția, ca să nu apară erori."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Alcătuirea unei delegații de câțiva membri dintr-un grup, fără ordine, se rezolvă prin:",
+       "optiuni": [
+        "combinări",
+        "permutări ale tuturor",
+        "principiul adunării",
+        "serii cronologice"
+       ],
+       "corect": 0,
+       "explicatie": "Contează cine e ales, nu în ce ordine."
+      },
+      {
+       "intrebare": "Numărul uriaș de combinații ale unui cod lung explică de ce:",
+       "optiuni": [
+        "este practic imposibil de ghicit prin încercări",
+        "este ușor de spart",
+        "nu are sens să fie folosit",
+        "este mereu identic"
+       ],
+       "corect": 0,
+       "explicatie": "Niciun calculator rapid nu le poate parcurge pe toate la timp."
+      },
+      {
+       "intrebare": "Probabilitatea unui eveniment, în cazul clasic, este:",
+       "optiuni": [
+        "raportul dintre cazurile favorabile și cele posibile",
+        "suma cazurilor",
+        "produsul cazurilor",
+        "numărul cazurilor favorabile"
+       ],
+       "corect": 0,
+       "explicatie": "Ambele numărători trebuie făcute coerent."
+      },
+      {
+       "intrebare": "O eroare de numărare a cazurilor duce, de regulă, la:",
+       "optiuni": [
+        "o probabilitate greșită",
+        "un rezultat oricum corect",
+        "eliminarea incertitudinii",
+        "o serie cronologică"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea numărarea corectă este esențială."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mas11-c6",
+   "titlu": "Probabilități și decizie",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "mas11-16",
+     "titlu": "Probabilitatea clasică și regulile ei",
+     "rezumat": "Probabilitatea măsoară șansa de producere a unui eveniment, printr-un număr între 0 (imposibil) și 1 (sigur). În cazul clasic, când toate rezultatele posibile au aceeași șansă, probabilitatea unui eveniment este raportul dintre numărul cazurilor favorabile și numărul cazurilor posibile. La aruncarea unui zar corect, probabilitatea de a obține un „6” este 1/6; probabilitatea de a obține un număr par (2, 4 sau 6) este 3/6 = 1/2. Câteva reguli permit calcule mai complexe. Evenimentul complementar — evenimentul nu se produce — are probabilitatea 1 minus probabilitatea evenimentului: dacă șansa de reușită este 0,7, șansa de nereușită este 0,3. Pentru reuniunea a două evenimente care se exclud reciproc, adică nu se pot produce simultan, probabilitățile se adună. Dacă evenimentele se pot suprapune, din suma lor se scade probabilitatea suprapunerii, ca să nu fie numărată de două ori. Aceste reguli, deși simple, corectează multe erori intuitive. Regula complementului este adesea cea mai comodă: e mai ușor de calculat „probabilitatea de a obține cel puțin un cap la mai multe aruncări” prin complementul ei, „niciun cap”. Probabilitatea nu spune ce se va întâmpla într-un caz izolat, ci ce se întâmplă în medie pe termen lung. De aceea afirmații de tipul „am pierdut de cinci ori, acum sigur câștig” sunt greșite: la evenimente independente, trecutul nu schimbă șansa viitoare.",
+     "ideiCheie": [
+      "În cazul clasic: probabilitatea este raportul cazuri favorabile / cazuri posibile, cu rezultate egal probabile.",
+      "Probabilitatea este între 0 (imposibil) și 1 (sigur).",
+      "Complementul: probabilitatea că un eveniment NU se produce este 1 minus probabilitatea lui.",
+      "Pentru evenimente care se exclud, probabilitățile se adună."
+     ],
+     "termeni": [
+      {
+       "t": "eveniment complementar",
+       "d": "evenimentul care se produce exact când evenimentul dat nu se produce"
+      },
+      {
+       "t": "evenimente incompatibile",
+       "d": "evenimente care nu se pot produce în același timp"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se calculează probabilitatea în cazul clasic?",
+       "v": "Ca raport între numărul cazurilor favorabile și numărul cazurilor posibile."
+      },
+      {
+       "f": "Cât este probabilitatea evenimentului complementar?",
+       "v": "1 minus probabilitatea evenimentului dat."
+      },
+      {
+       "f": "Ce se face cu probabilitățile a două evenimente care se exclud?",
+       "v": "Se adună."
+      },
+      {
+       "f": "Schimbă trecutul șansa unui eveniment independent?",
+       "v": "Nu; la evenimente independente, trecutul nu influențează viitorul."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Probabilitatea de a obține un număr par la aruncarea unui zar corect este:",
+       "optiuni": [
+        "1/2",
+        "1/6",
+        "1/3",
+        "2/3"
+       ],
+       "corect": 0,
+       "explicatie": "Sunt 3 cazuri favorabile (2, 4, 6) din 6 posibile."
+      },
+      {
+       "intrebare": "Dacă probabilitatea unui eveniment este 0,7, complementul lui are probabilitatea:",
+       "optiuni": [
+        "0,3",
+        "0,7",
+        "1,7",
+        "0"
+       ],
+       "corect": 0,
+       "explicatie": "Suma unui eveniment și a complementului său este 1."
+      },
+      {
+       "intrebare": "Pentru două evenimente care nu se pot produce simultan, probabilitatea ca unul sau altul să se producă:",
+       "optiuni": [
+        "este suma probabilităților lor",
+        "este produsul lor",
+        "este mereu 1",
+        "nu se poate calcula"
+       ],
+       "corect": 0,
+       "explicatie": "Ele sunt evenimente incompatibile."
+      },
+      {
+       "intrebare": "Afirmația „am pierdut de cinci ori, acum sigur câștig”, la aruncări independente:",
+       "optiuni": [
+        "este greșită: trecutul nu schimbă șansa",
+        "este corectă",
+        "crește probabilitatea de câștig",
+        "scade probabilitatea de câștig"
+       ],
+       "corect": 0,
+       "explicatie": "Fiecare aruncare are aceeași probabilitate."
+      }
+     ]
+    },
+    {
+     "id": "mas11-17",
+     "titlu": "Evenimente independente și probabilitate compusă",
+     "rezumat": "Două evenimente sunt independente dacă producerea unuia nu schimbă probabilitatea celuilalt: rezultatul unei aruncări de monedă nu influențează următoarea aruncare. Pentru evenimente independente, probabilitatea ca ambele să se producă, numită probabilitate compusă, este produsul probabilităților lor. Șansa de a obține „cap” de două ori la rând este 1/2 × 1/2 = 1/4; de trei ori la rând, 1/8. Această regulă a produsului explică fenomene importante. Probabilitatea ca mai multe evenimente independente să se producă toate scade rapid cu numărul lor, pentru că se înmulțesc numere subunitare. Invers, probabilitatea ca cel puțin unul dintr-un șir de evenimente să se producă crește cu numărul încercărilor — de aceea un eveniment rar devine aproape sigur pe un număr mare de repetări. Se calculează cel mai ușor prin complement: „cel puțin unul” înseamnă 1 minus „niciunul”. Trebuie deosebite evenimentele independente de cele dependente. Dacă extragem două bile dintr-o urnă fără a pune prima înapoi, a doua extragere depinde de prima: probabilitatea se schimbă. Confuzia dintre independent și dependent este o sursă frecventă de erori. La fel, presupunerea greșită de independență între evenimente de fapt legate — de pildă riscuri care se produc împreună — a stat la baza unor greșeli grave de evaluare a riscului în asigurări și finanțe.",
+     "ideiCheie": [
+      "Evenimente independente: producerea unuia nu schimbă probabilitatea celuilalt.",
+      "Probabilitatea compusă a unor evenimente independente este produsul probabilităților.",
+      "Probabilitatea ca toate să se producă scade rapid cu numărul lor.",
+      "„Cel puțin unul” se calculează comod prin complement: 1 minus „niciunul”."
+     ],
+     "termeni": [
+      {
+       "t": "evenimente independente",
+       "d": "evenimente în care producerea unuia nu modifică probabilitatea celuilalt"
+      },
+      {
+       "t": "probabilitate compusă",
+       "d": "probabilitatea ca mai multe evenimente să se producă împreună"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Când sunt două evenimente independente?",
+       "v": "Când producerea unuia nu schimbă probabilitatea celuilalt."
+      },
+      {
+       "f": "Cum se calculează probabilitatea ca două evenimente independente să se producă amândouă?",
+       "v": "Prin produsul probabilităților lor."
+      },
+      {
+       "f": "Cum se calculează comod „cel puțin unul”?",
+       "v": "Prin complement: 1 minus probabilitatea ca niciunul să nu se producă."
+      },
+      {
+       "f": "De ce se schimbă probabilitatea la extragerea fără punere înapoi?",
+       "v": "Pentru că a doua extragere depinde de prima: evenimentele sunt dependente."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Probabilitatea de a obține „cap” de două ori la rând, cu o monedă corectă, este:",
+       "optiuni": [
+        "1/4",
+        "1/2",
+        "1/8",
+        "1"
+       ],
+       "corect": 0,
+       "explicatie": "Se înmulțesc: 1/2 × 1/2."
+      },
+      {
+       "intrebare": "Pentru evenimente independente, probabilitatea ca toate să se producă:",
+       "optiuni": [
+        "scade pe măsură ce crește numărul lor",
+        "crește",
+        "rămâne constantă",
+        "este mereu 1"
+       ],
+       "corect": 0,
+       "explicatie": "Se înmulțesc numere subunitare."
+      },
+      {
+       "intrebare": "Extragerea a două bile fără a o pune înapoi pe prima produce evenimente:",
+       "optiuni": [
+        "dependente",
+        "independente",
+        "imposibile",
+        "complementare"
+       ],
+       "corect": 0,
+       "explicatie": "A doua probabilitate depinde de prima extragere."
+      },
+      {
+       "intrebare": "Presupunerea greșită că niște riscuri legate sunt independente:",
+       "optiuni": [
+        "poate duce la subestimarea gravă a riscului total",
+        "nu are efect",
+        "crește precizia",
+        "elimină incertitudinea"
+       ],
+       "corect": 0,
+       "explicatie": "Astfel de erori au apărut în asigurări și finanțe."
+      }
+     ]
+    },
+    {
+     "id": "mas11-18",
+     "titlu": "Valoarea așteptată și decizia în incertitudine",
+     "rezumat": "Când o decizie are rezultate incerte, cu probabilități cunoscute, valoarea așteptată ajută la compararea opțiunilor. Ea este media rezultatelor posibile, fiecare ponderat cu probabilitatea lui: se înmulțește fiecare rezultat cu probabilitatea sa și se adună produsele. La un joc în care câștigi 10 lei cu probabilitate 1/2 și pierzi 6 lei cu probabilitate 1/2, valoarea așteptată este 10 × 0,5 + (−6) × 0,5 = 2 lei pe joc. Valoarea așteptată este criteriul de bază pentru deciziile repetate: pe termen lung, câștigul mediu pe joc se apropie de ea. Un joc este „corect” (echitabil) dacă valoarea așteptată este zero; este favorabil dacă e pozitivă și defavorabil dacă e negativă. Loteriile și jocurile de noroc comerciale au, prin construcție, valoare așteptată negativă pentru jucător — de aceea, jucate mult, duc sistematic la pierdere. Asigurările au și ele valoare așteptată ușor negativă, dar oamenii le cumpără pentru a se proteja de pierderi mari și rare. Valoarea așteptată nu este însă singurul criteriu. Pentru decizii unice sau cu mize foarte mari, contează și riscul: o valoare așteptată pozitivă, dar cu șansă mare de ruină, poate fi respinsă rațional. Un exemplu: un pariu cu valoare așteptată bună, dar care într-un caz nefavorabil îți ia toate economiile, nu merită acceptat dacă acel caz te ruinează. Oamenii sunt, de regulă, aversivi la risc: preferă un câștig sigur mai mic unuia incert, dar în medie mai mare. De aceea decizia bună combină valoarea așteptată cu evaluarea riscului.",
+     "ideiCheie": [
+      "Valoarea așteptată este suma rezultatelor, fiecare ponderat cu probabilitatea lui.",
+      "Un joc e corect dacă valoarea așteptată e 0; favorabil dacă e pozitivă.",
+      "Loteriile au valoare așteptată negativă pentru jucător.",
+      "Decizia bună combină valoarea așteptată cu evaluarea riscului."
+     ],
+     "termeni": [
+      {
+       "t": "valoare așteptată",
+       "d": "media rezultatelor posibile ale unei decizii, fiecare ponderat cu probabilitatea lui"
+      },
+      {
+       "t": "aversiune la risc",
+       "d": "preferința pentru un câștig sigur mai mic în locul unuia incert, dar în medie mai mare"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se calculează valoarea așteptată?",
+       "v": "Înmulțind fiecare rezultat cu probabilitatea lui și adunând produsele."
+      },
+      {
+       "f": "Când este un joc echitabil?",
+       "v": "Când valoarea așteptată este zero."
+      },
+      {
+       "f": "Ce valoare așteptată au, pentru jucător, loteriile?",
+       "v": "Negativă; de aceea, jucate mult, duc la pierdere."
+      },
+      {
+       "f": "Ce este aversiunea la risc?",
+       "v": "Preferința pentru un câștig sigur mai mic în locul unuia incert, dar în medie mai mare."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Valoarea așteptată a unui joc în care câștigi 10 lei cu probabilitate 1/2 și pierzi 6 lei cu probabilitate 1/2 este:",
+       "optiuni": [
+        "2 lei",
+        "4 lei",
+        "0 lei",
+        "16 lei"
+       ],
+       "corect": 0,
+       "explicatie": "10 × 0,5 + (−6) × 0,5 = 5 − 3 = 2."
+      },
+      {
+       "intrebare": "Un joc de noroc comercial are, pentru jucător, valoare așteptată:",
+       "optiuni": [
+        "negativă",
+        "pozitivă",
+        "zero",
+        "necunoscută"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea, jucat mult, duce sistematic la pierdere."
+      },
+      {
+       "intrebare": "Un joc este echitabil (corect) atunci când valoarea așteptată este:",
+       "optiuni": [
+        "zero",
+        "pozitivă",
+        "negativă",
+        "egală cu miza"
+       ],
+       "corect": 0,
+       "explicatie": "Pozitivă înseamnă favorabil, negativă înseamnă defavorabil."
+      },
+      {
+       "intrebare": "Un pariu cu valoare așteptată pozitivă, dar care te poate ruina într-un caz nefavorabil:",
+       "optiuni": [
+        "poate fi respins rațional, din cauza riscului",
+        "trebuie acceptat mereu",
+        "are valoare așteptată negativă",
+        "este echitabil prin definiție"
+       ],
+       "corect": 0,
+       "explicatie": "Decizia bună combină valoarea așteptată cu riscul."
+      }
+     ]
+    }
+   ]
   }
  ],
  "teze": [
   {
    "semestru": 1,
    "test": [
+    {
+     "intrebare": "Suma frecvențelor relative ale unei serii este:",
+     "optiuni": [
+      "1, adică 100%",
+      "numărul total de observații",
+      "frecvența maximă",
+      "0"
+     ],
+     "corect": 0,
+     "explicatie": "Suma frecvențelor absolute dă numărul total."
+    },
+    {
+     "intrebare": "Pentru a compara două clase cu efective diferite se folosesc:",
+     "optiuni": [
+      "frecvențele relative",
+      "frecvențele absolute",
+      "valorile maxime",
+      "sumele valorilor"
+     ],
+     "corect": 0,
+     "explicatie": "Procentele fac seriile comparabile."
+    },
+    {
+     "intrebare": "Frecvența cumulată până la o valoare arată:",
+     "optiuni": [
+      "câte observații sunt mai mici sau egale cu ea",
+      "câte observații au exact acea valoare",
+      "media seriei",
+      "valoarea maximă"
+     ],
+     "corect": 0,
+     "explicatie": "Se obține adunând frecvențele în ordine."
+    },
+    {
+     "intrebare": "Datele numerice cu foarte multe valori se organizează prin:",
+     "optiuni": [
+      "grupare pe intervale (clase)",
+      "ordonare alfabetică",
+      "eliminarea extremelor",
+      "diagramă circulară"
+     ],
+     "corect": 0,
+     "explicatie": "Histograma le reprezintă apoi grafic."
+    },
+    {
+     "intrebare": "Într-o histogramă, barele sunt lipite pentru că:",
+     "optiuni": [
+      "reprezintă o variabilă numerică continuă",
+      "valorile sunt categorii",
+      "frecvențele sunt egale",
+      "așa e mai estetic"
+     ],
+     "corect": 0,
+     "explicatie": "Diagrama cu bare compară categorii separate."
+    },
+    {
+     "intrebare": "Media mobilă a unei serii cronologice servește la:",
+     "optiuni": [
+      "netezirea fluctuațiilor și evidențierea tendinței",
+      "eliminarea tendinței",
+      "creșterea valorilor",
+      "ordonarea categoriilor"
+     ],
+     "corect": 0,
+     "explicatie": "Ea înlocuiește fiecare valoare cu media vecinilor."
+    },
     {
      "intrebare": "Eșantionul trebuie să fie:",
      "optiuni": [
@@ -902,6 +1754,72 @@
   {
    "semestru": 2,
    "test": [
+    {
+     "intrebare": "Numărul de moduri de a ordona toate cele n elemente ale unei mulțimi este:",
+     "optiuni": [
+      "n! (n factorial)",
+      "n",
+      "n la puterea a doua",
+      "2n"
+     ],
+     "corect": 0,
+     "explicatie": "Sunt permutările celor n elemente."
+    },
+    {
+     "intrebare": "Alegerea unei echipe de 3 dintr-un grup de 10, fără ordine, se numără prin:",
+     "optiuni": [
+      "combinări",
+      "permutări",
+      "aranjamente",
+      "adunare"
+     ],
+     "corect": 0,
+     "explicatie": "Contează componența, nu ordinea."
+    },
+    {
+     "intrebare": "În cazul clasic, probabilitatea unui eveniment este:",
+     "optiuni": [
+      "raportul dintre cazurile favorabile și cele posibile",
+      "suma cazurilor",
+      "produsul cazurilor",
+      "numărul cazurilor favorabile"
+     ],
+     "corect": 0,
+     "explicatie": "Rezultatele trebuie să fie egal probabile."
+    },
+    {
+     "intrebare": "Probabilitatea de a obține „cap” de două ori la rând, cu o monedă corectă, este:",
+     "optiuni": [
+      "1/4",
+      "1/2",
+      "1/8",
+      "1"
+     ],
+     "corect": 0,
+     "explicatie": "Evenimente independente: 1/2 × 1/2."
+    },
+    {
+     "intrebare": "Probabilitatea evenimentului complementar este:",
+     "optiuni": [
+      "1 minus probabilitatea evenimentului",
+      "egală cu ea",
+      "produsul lor",
+      "întotdeauna 0"
+     ],
+     "corect": 0,
+     "explicatie": "Suma lor este 1."
+    },
+    {
+     "intrebare": "Un joc de noroc comercial are, pentru jucător, valoare așteptată:",
+     "optiuni": [
+      "negativă",
+      "pozitivă",
+      "zero",
+      "egală cu miza"
+     ],
+     "corect": 0,
+     "explicatie": "De aceea, jucat mult, duce la pierdere."
+    },
     {
      "intrebare": "Probabilitatea condiționată este:",
      "optiuni": [

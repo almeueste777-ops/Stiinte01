@@ -792,12 +792,864 @@
      ]
     }
    ]
+  },
+  {
+   "id": "mas12-c4",
+   "titlu": "Progresii și matematici financiare",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "mas12-10",
+     "titlu": "Progresii aritmetice și geometrice",
+     "rezumat": "Multe fenomene evoluează după tipare regulate, descrise de progresii. O progresie aritmetică este un șir în care fiecare termen se obține din precedentul adunând o valoare constantă, numită rație: 3, 7, 11, 15, … are rația 4. Termenul de rang n este a_n = a_1 + (n − 1)·r, iar suma primilor n termeni este n·(a_1 + a_n)/2 — media primului și ultimului termen, înmulțită cu numărul lor. O progresie geometrică este un șir în care fiecare termen se obține din precedentul înmulțind cu o valoare constantă, numită rație: 2, 6, 18, 54, … are rația 3. Termenul de rang n este a_n = a_1·q^(n−1). Diferența de comportament este esențială: progresia aritmetică crește constant (liniar), pe când cea geometrică crește sau scade tot mai repede — exponențial. Pe termen lung, o progresie geometrică cu rația supraunitară depășește orice progresie aritmetică. Legătura cu finanțele este directă. Dobânda simplă, calculată mereu la suma inițială, produce o progresie aritmetică; dobânda compusă, calculată la suma acumulată, produce o progresie geometrică. Aceasta explică de ce, în timp, diferența dintre ele devine uriașă și de ce economisirea timpurie contează atât de mult. Progresiile geometrice descriu și creșterea populației, răspândirea unei informații sau deprecierea unui bun cu un procent fix pe an.",
+     "ideiCheie": [
+      "Progresie aritmetică: se adună o rație constantă; creștere liniară.",
+      "Progresie geometrică: se înmulțește cu o rație constantă; creștere exponențială.",
+      "Termen general: aritmetică a_n = a_1 + (n−1)·r; geometrică a_n = a_1·q^(n−1).",
+      "Dobânda simplă e o progresie aritmetică; dobânda compusă, una geometrică."
+     ],
+     "termeni": [
+      {
+       "t": "progresie aritmetică",
+       "d": "șir în care fiecare termen se obține din precedentul adunând o rație constantă"
+      },
+      {
+       "t": "progresie geometrică",
+       "d": "șir în care fiecare termen se obține din precedentul înmulțind cu o rație constantă"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce deosebește o progresie aritmetică de una geometrică?",
+       "v": "La cea aritmetică se adună o rație constantă, la cea geometrică se înmulțește cu una."
+      },
+      {
+       "f": "Care este termenul de rang n al unei progresii aritmetice?",
+       "v": "a_n = a_1 + (n − 1)·r."
+      },
+      {
+       "f": "Ce tip de progresie descrie dobânda compusă?",
+       "v": "O progresie geometrică."
+      },
+      {
+       "f": "De ce depășește, în timp, o progresie geometrică una aritmetică?",
+       "v": "Pentru că prima crește exponențial, a doua doar liniar."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "În șirul 3, 7, 11, 15, … rația este:",
+       "optiuni": [
+        "4, iar progresia este aritmetică",
+        "4, iar progresia este geometrică",
+        "2, iar progresia este aritmetică",
+        "variabilă"
+       ],
+       "corect": 0,
+       "explicatie": "Fiecare termen se obține adunând 4."
+      },
+      {
+       "intrebare": "Dobânda compusă produce o creștere de tip:",
+       "optiuni": [
+        "progresie geometrică",
+        "progresie aritmetică",
+        "liniar",
+        "constant"
+       ],
+       "corect": 0,
+       "explicatie": "Se aplică la suma acumulată."
+      },
+      {
+       "intrebare": "În șirul 2, 6, 18, 54, … fiecare termen se obține:",
+       "optiuni": [
+        "înmulțind precedentul cu 3",
+        "adunând 4",
+        "adunând 3",
+        "înmulțind cu 2"
+       ],
+       "corect": 0,
+       "explicatie": "Este o progresie geometrică cu rația 3."
+      },
+      {
+       "intrebare": "Pe termen lung, o progresie geometrică cu rația supraunitară, față de una aritmetică:",
+       "optiuni": [
+        "o depășește, oricât de mare ar fi rația aritmetică",
+        "rămâne mereu sub ea",
+        "crește la fel",
+        "scade"
+       ],
+       "corect": 0,
+       "explicatie": "Creșterea exponențială învinge creșterea liniară."
+      }
+     ]
+    },
+    {
+     "id": "mas12-11",
+     "titlu": "Amortizarea creditului și anuități",
+     "rezumat": "Un credit rambursat în rate egale este un exemplu clasic de aplicație a progresiilor. Anuitatea, adică rata, este suma constantă plătită la intervale regulate. Fiecare rată are două componente: o parte de dobândă, calculată la soldul rămas de plată, și o parte de principal, adică rambursarea propriu-zisă a împrumutului. Tabloul de amortizare arată, rată cu rată, cum se împarte fiecare plată și cum scade soldul. Structura acestor componente se schimbă în timp. La început, soldul este mare, deci dobânda este mare, iar partea de principal, mică. Pe măsură ce soldul scade, dobânda scade și tot mai mult din rată merge spre principal. De aceea, în primii ani ai unui credit lung, plătești mai ales dobândă și rambursezi puțin din datorie. Aceasta explică efectul rambursării anticipate: banii plătiți în plus la început reduc direct soldul, deci elimină dobânda pe care ar fi produs-o pe toată durata rămasă. Deciziile legate de credit cer câteva calcule și verificări. Costul total al creditului este suma tuturor ratelor minus suma împrumutată. O durată mai lungă înseamnă rate lunare mai mici, dar un cost total mai mare. Dobânda anuală efectivă permite compararea corectă a ofertelor, pentru că include comisioanele. Regula prudenței recomandă ca ratele să nu depășească aproximativ o treime din venit, ca să rămână spațiu pentru cheltuieli și pentru neprevăzut.",
+     "ideiCheie": [
+      "Anuitatea este suma constantă plătită periodic pentru rambursarea unui credit.",
+      "Fiecare rată se compune din dobândă (la soldul rămas) și principal.",
+      "La început rata acoperă mai ales dobânda; spre final, mai ales principalul.",
+      "O durată mai lungă înseamnă rate mai mici, dar cost total mai mare."
+     ],
+     "termeni": [
+      {
+       "t": "anuitate",
+       "d": "suma constantă plătită la intervale regulate pentru rambursarea unui credit"
+      },
+      {
+       "t": "tablou de amortizare",
+       "d": "tabelul care arată, rată cu rată, împărțirea plății în dobândă și principal și scăderea soldului"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Din ce se compune o rată de credit?",
+       "v": "Dintr-o parte de dobândă (la soldul rămas) și o parte de principal."
+      },
+      {
+       "f": "Cum se schimbă componentele ratei în timp?",
+       "v": "La început domină dobânda; spre final, principalul."
+      },
+      {
+       "f": "De ce economisește bani rambursarea anticipată timpurie?",
+       "v": "Pentru că reduce soldul devreme și elimină dobânda pe durata rămasă."
+      },
+      {
+       "f": "Cum se calculează costul total al unui credit?",
+       "v": "Ca sumă a tuturor ratelor minus suma împrumutată."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "În primii ani ai unui credit lung, cea mai mare parte a ratei acoperă:",
+       "optiuni": [
+        "dobânda",
+        "principalul",
+        "comisioanele",
+        "asigurarea"
+       ],
+       "corect": 0,
+       "explicatie": "Soldul mare produce dobândă mare la început."
+      },
+      {
+       "intrebare": "O durată mai mare a creditului, la aceeași sumă:",
+       "optiuni": [
+        "scade rata lunară, dar crește costul total",
+        "scade și rata, și costul total",
+        "crește rata lunară",
+        "nu schimbă nimic"
+       ],
+       "corect": 0,
+       "explicatie": "Se plătește dobândă pe mai mult timp."
+      },
+      {
+       "intrebare": "Rambursarea anticipată timpurie:",
+       "optiuni": [
+        "reduce soldul și elimină dobânda viitoare aferentă",
+        "crește dobânda totală",
+        "nu are efect",
+        "mărește rata"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea aduce economii însemnate."
+      },
+      {
+       "intrebare": "Costul total al unui credit este:",
+       "optiuni": [
+        "suma tuturor ratelor minus suma împrumutată",
+        "suma împrumutată",
+        "dobânda nominală",
+        "valoarea unei rate"
+       ],
+       "corect": 0,
+       "explicatie": "El crește cu durata creditului."
+      }
+     ]
+    },
+    {
+     "id": "mas12-12",
+     "titlu": "Actualizare și evaluarea investițiilor",
+     "rezumat": "Banii au o valoare care depinde de timp: o sumă disponibilă azi valorează mai mult decât aceeași sumă peste un an, pentru că poate fi investită și pentru că inflația îi erodează puterea de cumpărare. Capitalizarea calculează valoarea viitoare a unei sume de azi: la o rată i pe an, o sumă devine, peste n ani, de (1 + i)^n ori mai mare. Actualizarea face operația inversă: aduce o sumă viitoare la valoarea ei de azi, împărțind la (1 + i)^n. Actualizarea permite compararea corectă a unor sume plătite sau încasate la momente diferite. Nu se pot aduna direct 100 de lei de azi cu 100 de lei de peste trei ani: ei trebuie mai întâi aduși la același moment. Rata folosită pentru actualizare, numită rată de actualizare, reflectă costul banilor și riscul: cu cât riscul e mai mare, cu atât viitorul este „discountat” mai puternic, deci valorează mai puțin azi. Pe această idee se sprijină evaluarea investițiilor. Valoarea actualizată netă a unui proiect este suma tuturor încasărilor viitoare, aduse la prezent, minus investiția inițială. Dacă rezultatul este pozitiv, proiectul produce mai mult decât costă, la rata de actualizare aleasă, deci merită; dacă e negativ, nu. Metoda nu elimină incertitudinea — depinde de estimarea corectă a fluxurilor și a ratei —, dar oferă un criteriu clar și comparabil pentru decizii care altfel s-ar lua „din ochi”.",
+     "ideiCheie": [
+      "O sumă de azi valorează mai mult decât aceeași sumă în viitor.",
+      "Capitalizarea: valoarea viitoare = suma de azi × (1 + i)^n; actualizarea împarte la (1 + i)^n.",
+      "Sume de la momente diferite se compară doar aduse la același moment.",
+      "Valoarea actualizată netă pozitivă indică un proiect rentabil la rata aleasă."
+     ],
+     "termeni": [
+      {
+       "t": "actualizare",
+       "d": "aducerea unei sume viitoare la valoarea ei de azi, împărțind la (1 + i)^n"
+      },
+      {
+       "t": "valoare actualizată netă",
+       "d": "suma încasărilor viitoare actualizate, minus investiția inițială"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "De ce valorează o sumă de azi mai mult decât aceeași sumă viitoare?",
+       "v": "Pentru că poate fi investită, iar inflația erodează valoarea viitoare."
+      },
+      {
+       "f": "Ce face actualizarea?",
+       "v": "Aduce o sumă viitoare la valoarea ei de azi."
+      },
+      {
+       "f": "Ce arată o valoare actualizată netă pozitivă?",
+       "v": "Că proiectul produce mai mult decât costă, la rata aleasă."
+      },
+      {
+       "f": "Ce reflectă rata de actualizare?",
+       "v": "Costul banilor și riscul: la risc mai mare, viitorul valorează mai puțin azi."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Actualizarea unei sume viitoare înseamnă:",
+       "optiuni": [
+        "aducerea ei la valoarea de azi",
+        "creșterea ei cu inflația",
+        "calculul valorii viitoare",
+        "adunarea dobânzii"
+       ],
+       "corect": 0,
+       "explicatie": "Capitalizarea face operația inversă."
+      },
+      {
+       "intrebare": "Nu se pot aduna direct sume de azi cu sume de peste trei ani pentru că:",
+       "optiuni": [
+        "au valori diferite în timp și trebuie aduse la același moment",
+        "sunt exprimate în monede diferite",
+        "una e mai mare",
+        "calculul e interzis"
+       ],
+       "corect": 0,
+       "explicatie": "Actualizarea le face comparabile."
+      },
+      {
+       "intrebare": "O valoare actualizată netă pozitivă indică:",
+       "optiuni": [
+        "un proiect rentabil la rata de actualizare aleasă",
+        "o pierdere sigură",
+        "un proiect fără risc",
+        "o eroare de calcul"
+       ],
+       "corect": 0,
+       "explicatie": "La rezultat negativ, proiectul nu merită."
+      },
+      {
+       "intrebare": "Cu cât riscul unui proiect e mai mare, rata de actualizare folosită:",
+       "optiuni": [
+        "este mai mare, deci viitorul valorează mai puțin azi",
+        "este mai mică",
+        "devine zero",
+        "nu contează"
+       ],
+       "corect": 0,
+       "explicatie": "Riscul „discountează” mai puternic sumele viitoare."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mas12-c5",
+   "titlu": "Alegere socială și repartizare",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "mas12-13",
+     "titlu": "Repartizarea proporțională a mandatelor",
+     "rezumat": "Într-un sistem electoral proporțional, mandatele trebuie împărțite între partide cât mai aproape de proporția voturilor. Problema nu e banală: numărul de locuri este întreg, iar proporțiile, de regulă, nu. Nu se poate acorda „2,7 mandate”, deci este nevoie de o regulă de rotunjire echitabilă. Metoda cea mai folosită în Europa, inclusiv în România, este metoda d'Hondt. Metoda d'Hondt funcționează prin împărțiri succesive. Numărul de voturi al fiecărui partid se împarte pe rând la 1, 2, 3, 4 și așa mai departe; se obține astfel, pentru fiecare partid, un șir de câturi. Mandatele se acordă, unul câte unul, celor mai mari câturi din întreaga listă, până la epuizarea locurilor. Metoda garantează o repartizare apropiată de proporție și favorizează ușor partidele mari, ceea ce ajută la formarea majorităților. Repartizarea este precedată, de regulă, de un prag electoral: partidele sub un anumit procent nu intră în împărțire, iar voturile lor se redistribuie celor rămase. Aceasta reduce fragmentarea, dar lasă nereprezentați alegătorii partidelor mici. Există și metode alternative — de exemplu, împărțirea la 1, 3, 5, … — care favorizează mai mult partidele mici. Faptul că aceleași voturi pot da repartiții diferite după metodă arată, din nou, că alegerea regulii este o decizie politică, nu doar una tehnică.",
+     "ideiCheie": [
+      "În sistemul proporțional, mandatele (numere întregi) se repartizează cât mai aproape de proporția voturilor.",
+      "Metoda d'Hondt împarte voturile fiecărui partid la 1, 2, 3, … și alege cele mai mari câturi.",
+      "Ea favorizează ușor partidele mari și ajută la formarea majorităților.",
+      "Pragul electoral exclude partidele mici înainte de repartizare."
+     ],
+     "termeni": [
+      {
+       "t": "metoda d'Hondt",
+       "d": "metodă de repartizare a mandatelor prin împărțirea voturilor la 1, 2, 3, … și alegerea celor mai mari câturi"
+      },
+      {
+       "t": "prag electoral",
+       "d": "procentul minim de voturi sub care un partid nu participă la repartizarea mandatelor"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce problemă rezolvă o metodă de repartizare a mandatelor?",
+       "v": "Împărțirea unui număr întreg de locuri cât mai aproape de proporția voturilor."
+      },
+      {
+       "f": "Cum funcționează metoda d'Hondt?",
+       "v": "Împarte voturile fiecărui partid la 1, 2, 3, … și acordă mandatele celor mai mari câturi."
+      },
+      {
+       "f": "Pe cine favorizează ușor metoda d'Hondt?",
+       "v": "Partidele mari, ajutând la formarea majorităților."
+      },
+      {
+       "f": "Ce face pragul electoral?",
+       "v": "Exclude partidele sub un procent minim din repartizarea mandatelor."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Metoda d'Hondt repartizează mandatele:",
+       "optiuni": [
+        "împărțind voturile la 1, 2, 3, … și alegând cele mai mari câturi",
+        "prin tragere la sorți",
+        "egal între partide",
+        "doar partidului câștigător"
+       ],
+       "corect": 0,
+       "explicatie": "Ea aproximează proporția și favorizează ușor partidele mari."
+      },
+      {
+       "intrebare": "Repartizarea proporțională a mandatelor este dificilă pentru că:",
+       "optiuni": [
+        "numărul de locuri e întreg, iar proporțiile, de regulă, nu",
+        "voturile nu se pot număra",
+        "partidele sunt prea multe",
+        "proporțiile sunt mereu întregi"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea e nevoie de o regulă de rotunjire echitabilă."
+      },
+      {
+       "intrebare": "Pragul electoral are ca efect:",
+       "optiuni": [
+        "reducerea fragmentării, dar nereprezentarea partidelor mici",
+        "creșterea numărului de partide",
+        "eliminarea partidelor mari",
+        "repartizarea egală"
+       ],
+       "corect": 0,
+       "explicatie": "Voturile sub prag se redistribuie celor rămase."
+      },
+      {
+       "intrebare": "Faptul că aceleași voturi dau repartiții diferite după metodă arată că:",
+       "optiuni": [
+        "alegerea regulii de repartizare este o decizie politică",
+        "numărarea e greșită",
+        "proporționalitatea e imposibilă",
+        "toate metodele sunt identice"
+       ],
+       "corect": 0,
+       "explicatie": "Unele metode favorizează partidele mari, altele pe cele mici."
+      }
+     ]
+    },
+    {
+     "id": "mas12-14",
+     "titlu": "Împărțirea echitabilă",
+     "rezumat": "Împărțirea echitabilă studiază cum se poate diviza un bun sau o cheltuială între mai multe părți astfel încât fiecare să considere rezultatul corect. Problema apare la partajul unei moșteniri, la împărțirea unei chirii între colegi de apartament, la repartizarea cheltuielilor comune sau a unor sarcini. Dificultatea vine din faptul că părțile pot prețui diferit aceleași lucruri: pentru unul contează camera mare, pentru altul balconul. O soluție simplă și veche pentru două părți este „unul taie, celălalt alege”. Cel care taie are grijă să facă două părți pe care le consideră egale, fiindcă știe că va primi partea rămasă; cel care alege ia partea pe care o preferă. Rezultatul are o proprietate remarcabilă: fiecare consideră că a primit cel puțin jumătate din valoare, după propria apreciere. O împărțire cu această proprietate se numește proporțională. Un criteriu mai exigent este absența invidiei: nicio parte nu preferă porția altcuiva celei proprii. Pentru două persoane, „taie și alege” este și fără invidie; pentru mai multe părți, problema devine mult mai complicată, dar există proceduri care o rezolvă. Aceste metode nu presupun un arbitru care „știe” valorile corecte, ci lasă fiecare parte să judece după propriile preferințe — motiv pentru care sunt folosite în negocieri, partaje și repartizări unde o măsură obiectivă unică nu există.",
+     "ideiCheie": [
+      "Împărțirea echitabilă divizează un bun sau o cheltuială astfel încât fiecare să o considere corectă.",
+      "Părțile pot prețui diferit aceleași lucruri, ceea ce complică problema.",
+      "„Unul taie, celălalt alege” dă fiecăruia cel puțin jumătate, după propria apreciere (proporțional).",
+      "Absența invidiei cere ca nimeni să nu prefere porția altuia."
+     ],
+     "termeni": [
+      {
+       "t": "împărțire proporțională",
+       "d": "împărțire în care fiecare parte consideră că a primit cel puțin partea ce i se cuvine, după propria apreciere"
+      },
+      {
+       "t": "împărțire fără invidie",
+       "d": "împărțire în care nicio parte nu preferă porția altcuiva celei proprii"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce studiază împărțirea echitabilă?",
+       "v": "Cum se divide un bun sau o cheltuială astfel încât fiecare să considere rezultatul corect."
+      },
+      {
+       "f": "Cum funcționează „unul taie, celălalt alege”?",
+       "v": "Cel care taie face părți egale după el; celălalt alege partea preferată."
+      },
+      {
+       "f": "Ce proprietate are rezultatul metodei „taie și alege”?",
+       "v": "Fiecare consideră că a primit cel puțin jumătate, după propria apreciere."
+      },
+      {
+       "f": "Ce înseamnă o împărțire fără invidie?",
+       "v": "Nicio parte nu preferă porția altcuiva celei proprii."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "În metoda „unul taie, celălalt alege”, cel care taie are interesul să facă:",
+       "optiuni": [
+        "două părți pe care le consideră egale",
+        "o parte mult mai mare",
+        "părți inegale în favoarea lui",
+        "o singură parte"
+       ],
+       "corect": 0,
+       "explicatie": "El va primi partea rămasă, deci nu poate trișa în favoarea sa."
+      },
+      {
+       "intrebare": "O împărțire în care fiecare consideră că a primit cel puțin partea cuvenită se numește:",
+       "optiuni": [
+        "proporțională",
+        "fără invidie",
+        "egală matematic",
+        "arbitrară"
+       ],
+       "corect": 0,
+       "explicatie": "„Taie și alege” asigură, pentru două părți, această proprietate."
+      },
+      {
+       "intrebare": "Dificultatea împărțirii echitabile vine, în principal, din faptul că:",
+       "optiuni": [
+        "părțile pot prețui diferit aceleași lucruri",
+        "bunurile nu se pot diviza",
+        "lipsesc regulile",
+        "toți vor același lucru"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea nu există o singură măsură obiectivă a valorii."
+      },
+      {
+       "intrebare": "Absența invidiei într-o împărțire înseamnă că:",
+       "optiuni": [
+        "nimeni nu preferă porția altcuiva celei proprii",
+        "toate porțiile sunt identice ca mărime",
+        "există un arbitru",
+        "se trage la sorți"
+       ],
+       "corect": 0,
+       "explicatie": "Este un criteriu mai exigent decât proporționalitatea."
+      }
+     ]
+    },
+    {
+     "id": "mas12-15",
+     "titlu": "Puterea de vot în coaliții",
+     "rezumat": "În multe organisme, voturile nu sunt egale: acționarii votează după numărul de acțiuni, statele după o pondere, partidele dintr-o coaliție după numărul de mandate. Ar părea firesc ca puterea fiecăruia să fie proporțională cu ponderea lui. În realitate, puterea de vot nu coincide cu ponderea: ceea ce contează este cât de des un votant este decisiv, adică poate transforma o coaliție perdantă în una câștigătoare. Un exemplu lămuritor: trei parteneri cu ponderile 50, 49 și 1, într-un vot care cere majoritatea de 51 din 100. Partenerul cu 50 nu poate decide singur; are nevoie de un aliat, iar oricare dintre ceilalți doi îi ajunge. Astfel, partenerul cu 1 vot este exact la fel de util pentru formarea majorității ca partenerul cu 49: în ciuda diferenței enorme de pondere, cei doi au aceeași putere reală. Puterea depinde de structura coalițiilor posibile, nu doar de mărimea ponderii. Analiza puterii de vot numără, pentru fiecare votant, în câte coaliții câștigătoare el este membru decisiv, adică fără el coaliția ar pierde. Cu cât un votant este mai des decisiv, cu atât puterea lui este mai mare. Ideea are aplicații practice: în proiectarea sistemelor de vot ponderat — consilii, uniuni de state, acționariat —, o pondere nu garantează o influență proporțională, iar praguri sau reguli prost alese pot da unora putere zero (un vot care nu e niciodată decisiv) sau putere disproporționată.",
+     "ideiCheie": [
+      "Puterea de vot nu coincide cu ponderea: contează cât de des ești decisiv.",
+      "Un votant e decisiv când poate transforma o coaliție perdantă în una câștigătoare.",
+      "La ponderile 50, 49, 1 cu majoritate de 51, votantul cu 1 are aceeași putere ca cel cu 49.",
+      "O pondere nu garantează o influență proporțională."
+     ],
+     "termeni": [
+      {
+       "t": "putere de vot",
+       "d": "măsura influenței reale a unui votant, dată de cât de des este decisiv într-o coaliție câștigătoare"
+      },
+      {
+       "t": "votant decisiv",
+       "d": "votantul a cărui retragere transformă o coaliție câștigătoare în una perdantă"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Coincide puterea de vot cu ponderea?",
+       "v": "Nu; contează cât de des un votant este decisiv, nu doar mărimea ponderii."
+      },
+      {
+       "f": "Când este un votant decisiv?",
+       "v": "Când retragerea lui transformă o coaliție câștigătoare în una perdantă."
+      },
+      {
+       "f": "Ce arată exemplul ponderilor 50, 49, 1 cu majoritate de 51?",
+       "v": "Că votantul cu 1 are aceeași putere reală ca cel cu 49."
+      },
+      {
+       "f": "Ce nu garantează o pondere de vot?",
+       "v": "O influență proporțională cu ea."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Puterea reală de vot a unui participant este dată de:",
+       "optiuni": [
+        "cât de des este decisiv într-o coaliție câștigătoare",
+        "mărimea ponderii sale, mereu proporțional",
+        "numărul total de votanți",
+        "ordinea votului"
+       ],
+       "corect": 0,
+       "explicatie": "Structura coalițiilor contează, nu doar ponderea."
+      },
+      {
+       "intrebare": "La ponderile 50, 49 și 1, cu o majoritate necesară de 51:",
+       "optiuni": [
+        "votantul cu 1 are aceeași putere ca cel cu 49",
+        "votantul cu 1 nu are nicio putere",
+        "votantul cu 50 decide singur",
+        "toți au putere proporțională cu ponderea"
+       ],
+       "corect": 0,
+       "explicatie": "Oricare dintre ceilalți doi completează majoritatea partenerului cu 50."
+      },
+      {
+       "intrebare": "Un votant este decisiv într-o coaliție dacă:",
+       "optiuni": [
+        "retragerea lui o face perdantă",
+        "are cea mai mare pondere",
+        "votează primul",
+        "votează la fel ca majoritatea"
+       ],
+       "corect": 0,
+       "explicatie": "Se numără în câte coaliții câștigătoare el este decisiv."
+      },
+      {
+       "intrebare": "Un vot care nu este niciodată decisiv are putere:",
+       "optiuni": [
+        "zero, oricât de mare i-ar fi ponderea",
+        "proporțională cu ponderea",
+        "maximă",
+        "egală cu a celorlalți"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea proiectarea regulilor de vot ponderat cere atenție."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mas12-c6",
+   "titlu": "Modele de decizie și incertitudine",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "mas12-16",
+     "titlu": "Arbori de decizie și valoarea așteptată",
+     "rezumat": "Multe decizii reale se iau în incertitudine: rezultatul depinde de alegerea noastră, dar și de evenimente pe care nu le controlăm. Un arbore de decizie este un instrument care structurează astfel de probleme. El pornește dintr-un nod de decizie — ce alegem —, din care pleacă ramuri pentru fiecare opțiune; fiecare opțiune duce la noduri de șansă, din care pleacă ramuri pentru rezultatele posibile, fiecare cu probabilitatea și valoarea lui. Evaluarea arborelui se face „de la frunze spre rădăcină”. Pentru fiecare nod de șansă se calculează valoarea așteptată: se înmulțește valoarea fiecărui rezultat cu probabilitatea lui și se adună. La fiecare nod de decizie se alege opțiunea cu valoarea așteptată cea mai bună. Astfel, o problemă complicată, cu mai multe niveluri de alegeri și hazard, se reduce la o comparație clară de numere. Metoda cere însă estimări cât mai bune ale probabilităților și ale valorilor — „gunoi la intrare, gunoi la ieșire”. Arborii de decizie ajută și la evaluarea informației: uneori merită plătit pentru un test sau o expertiză care reduce incertitudinea, dacă valoarea deciziei îmbunătățite depășește costul informației. Ei nu iau decizia în locul omului și nu elimină riscul, dar fac explicite ipotezele: ce alegeri există, ce se poate întâmpla, cu ce șanse și cu ce consecințe. Făcând vizibil raționamentul, ei permit și critica lui — o discuție despre probabilități și valori, nu despre impresii.",
+     "ideiCheie": [
+      "Un arbore de decizie structurează alegeri și evenimente incerte în noduri și ramuri.",
+      "Nodurile de decizie sunt alegeri; nodurile de șansă, rezultate cu probabilități.",
+      "Evaluarea se face de la frunze spre rădăcină, cu valoarea așteptată la nodurile de șansă.",
+      "La fiecare decizie se alege opțiunea cu valoarea așteptată cea mai bună."
+     ],
+     "termeni": [
+      {
+       "t": "arbore de decizie",
+       "d": "schemă care structurează o decizie în noduri de alegere și noduri de șansă, cu probabilități și valori"
+      },
+      {
+       "t": "nod de șansă",
+       "d": "punct al arborelui din care pleacă rezultate incerte, fiecare cu probabilitatea sa"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce structurează un arbore de decizie?",
+       "v": "Alegerile și evenimentele incerte, în noduri și ramuri."
+      },
+      {
+       "f": "Cum se evaluează un arbore de decizie?",
+       "v": "De la frunze spre rădăcină, calculând valoarea așteptată la nodurile de șansă."
+      },
+      {
+       "f": "Ce se alege la un nod de decizie?",
+       "v": "Opțiunea cu valoarea așteptată cea mai bună."
+      },
+      {
+       "f": "Ce fac vizibil arborii de decizie?",
+       "v": "Ipotezele: alegerile, evenimentele posibile, probabilitățile și consecințele."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Într-un arbore de decizie, valoarea așteptată se calculează la:",
+       "optiuni": [
+        "nodurile de șansă",
+        "nodurile de decizie",
+        "frunze, direct",
+        "rădăcină, la început"
+       ],
+       "corect": 0,
+       "explicatie": "La nodurile de decizie se alege opțiunea cea mai bună."
+      },
+      {
+       "intrebare": "Evaluarea unui arbore de decizie se face:",
+       "optiuni": [
+        "de la frunze spre rădăcină",
+        "de la rădăcină spre frunze",
+        "în ordine aleatoare",
+        "doar la nodurile de decizie"
+       ],
+       "corect": 0,
+       "explicatie": "Se rezolvă întâi nodurile finale."
+      },
+      {
+       "intrebare": "„Gunoi la intrare, gunoi la ieșire” înseamnă, pentru arborii de decizie, că:",
+       "optiuni": [
+        "estimările proaste ale probabilităților dau decizii proaste",
+        "metoda e inutilă",
+        "rezultatul e mereu corect",
+        "probabilitățile nu contează"
+       ],
+       "corect": 0,
+       "explicatie": "Calitatea deciziei depinde de calitatea estimărilor."
+      },
+      {
+       "intrebare": "Plata pentru un test care reduce incertitudinea merită dacă:",
+       "optiuni": [
+        "îmbunătățirea deciziei depășește costul informației",
+        "testul e ieftin, indiferent de efect",
+        "reduce orice risc la zero",
+        "este oferit gratuit"
+       ],
+       "corect": 0,
+       "explicatie": "Arborele ajută la evaluarea valorii informației."
+      }
+     ]
+    },
+    {
+     "id": "mas12-17",
+     "titlu": "Riscul: variație, diversificare, decizie",
+     "rezumat": "Două opțiuni cu aceeași valoare așteptată pot fi foarte diferite prin risc. Riscul se referă la cât de mult pot varia rezultatele față de medie: un câștig sigur de 100 de lei și un pariu care dă 0 sau 200 de lei cu șanse egale au aceeași valoare așteptată (100), dar al doilea e mult mai riscant. Împrăștierea rezultatelor se măsoară prin variație și prin abaterea standard: cu cât sunt mai mari, cu atât rezultatul e mai incert. Majoritatea oamenilor sunt aversivi la risc: preferă un câștig sigur mai mic unuia incert, dar în medie egal sau chiar mai mare. De aceea plătesc asigurări — o pierdere mică și sigură în locul uneia mari și incerte — și cer un randament mai mare pentru investiții mai riscante, numit „primă de risc”. Aversiunea la risc nu este iraționalitate, ci reflectă faptul că o pierdere mare doare mai mult decât bucură un câștig echivalent, mai ales când poate duce la ruină. Instrumentul principal de reducere a riscului este diversificarea: repartizarea resurselor pe mai multe active sau decizii ale căror rezultate nu sunt perfect legate. „Nu pune toate ouăle într-un coș” exprimă exact această idee: dacă un plasament merge prost, altul poate merge bine, iar variația totală scade. Diversificarea reduce riscul specific, propriu fiecărui activ, dar nu poate elimina riscul general, care afectează totul deodată, cum e o criză. Decizia bună în incertitudine cântărește deci nu doar câștigul mediu, ci și riscul și capacitatea de a-l suporta.",
+     "ideiCheie": [
+      "Riscul măsoară cât de mult pot varia rezultatele față de medie (variație, abatere standard).",
+      "Aversiunea la risc: preferința pentru sigur, chiar la o valoare așteptată egală sau ceva mai mică.",
+      "Diversificarea reduce riscul specific, repartizând resursele pe active nelegate.",
+      "Riscul general, care afectează totul deodată, nu poate fi eliminat prin diversificare."
+     ],
+     "termeni": [
+      {
+       "t": "risc",
+       "d": "gradul de variație a rezultatelor posibile față de valoarea așteptată"
+      },
+      {
+       "t": "aversiune la risc",
+       "d": "preferința pentru un câștig sigur în locul unuia incert, la valoare așteptată egală sau mai mare"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Pot avea două opțiuni aceeași valoare așteptată, dar risc diferit?",
+       "v": "Da; ele pot diferi mult prin împrăștierea rezultatelor."
+      },
+      {
+       "f": "Ce înseamnă aversiunea la risc?",
+       "v": "Preferința pentru un câștig sigur în locul unuia incert, la valoare așteptată egală sau mai mare."
+      },
+      {
+       "f": "Ce reduce diversificarea?",
+       "v": "Riscul specific fiecărui activ, prin repartizarea pe active nelegate."
+      },
+      {
+       "f": "Ce risc nu poate elimina diversificarea?",
+       "v": "Riscul general, care afectează totul deodată, ca o criză."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Un câștig sigur de 100 și un pariu care dă 0 sau 200 cu șanse egale:",
+       "optiuni": [
+        "au aceeași valoare așteptată, dar risc diferit",
+        "au valori așteptate diferite",
+        "sunt identice",
+        "au același risc"
+       ],
+       "corect": 0,
+       "explicatie": "Al doilea are o împrăștiere mult mai mare."
+      },
+      {
+       "intrebare": "Aversiunea la risc explică de ce oamenii:",
+       "optiuni": [
+        "plătesc asigurări și cer prime de risc",
+        "caută mereu riscul maxim",
+        "ignoră incertitudinea",
+        "preferă pierderile"
+       ],
+       "corect": 0,
+       "explicatie": "O pierdere mare doare mai mult decât bucură un câștig egal."
+      },
+      {
+       "intrebare": "„Nu pune toate ouăle într-un coș” exprimă principiul:",
+       "optiuni": [
+        "diversificării",
+        "valorii așteptate",
+        "capitalizării",
+        "actualizării"
+       ],
+       "corect": 0,
+       "explicatie": "Repartizarea reduce riscul specific."
+      },
+      {
+       "intrebare": "Diversificarea NU poate elimina:",
+       "optiuni": [
+        "riscul general, care afectează totul deodată",
+        "riscul specific unui activ",
+        "variația unei singure investiții",
+        "pierderea unui plasament izolat"
+       ],
+       "corect": 0,
+       "explicatie": "O criză generală lovește simultan majoritatea activelor."
+      }
+     ]
+    },
+    {
+     "id": "mas12-18",
+     "titlu": "Optimizare și alocarea resurselor",
+     "rezumat": "Multe decizii înseamnă a obține cel mai bun rezultat cu resurse limitate: cum să împarți timpul de studiu între materii, bugetul între cheltuieli, o suprafață între culturi, personalul între sarcini. Aceste probleme se numesc de optimizare: căutarea maximului (profit, utilitate, rezultat) sau a minimului (cost, timp, pierdere), sub anumite restricții date de resursele disponibile. O clasă importantă o formează problemele de alocare, în care mai multe resurse limitate trebuie repartizate pe mai multe activități, fiecare cu un randament propriu. Când relațiile sunt liniare — fiecare unitate de resursă aduce un aport constant —, problema se rezolvă prin metode de programare liniară: soluția optimă se află, se poate demonstra, „într-un colț” al mulțimii soluțiilor posibile, adică acolo unde restricțiile sunt cel mai strâns respectate. Intuiția centrală: la resurse limitate, optimul înseamnă, de regulă, folosirea completă a resursei celei mai valoroase. Optimizarea are și capcane. Un optim găsit sub anumite ipoteze poate fi prost dacă ipotezele se schimbă; concentrarea pe un singur criteriu — doar costul, doar viteza — poate ignora altele importante; iar optimul „local”, cea mai bună soluție din vecinătate, nu este mereu și cel „global”. De aceea o decizie bună nu caută doar maximul unui număr, ci verifică robustețea lui: rămâne bună soluția dacă se schimbă ușor datele? Optimizarea oferă instrumente puternice, dar folosirea lor înțeleaptă cere să știi ce optimizezi și de ce.",
+     "ideiCheie": [
+      "Problemele de optimizare caută maximul sau minimul sub restricții de resurse.",
+      "Alocarea repartizează resurse limitate pe mai multe activități cu randamente proprii.",
+      "În cazul liniar, optimul se află „într-un colț” al soluțiilor posibile (programare liniară).",
+      "Un optim depinde de ipoteze; o decizie bună îi verifică robustețea."
+     ],
+     "termeni": [
+      {
+       "t": "optimizare",
+       "d": "căutarea celui mai bun rezultat, maxim sau minim, sub restricții date"
+      },
+      {
+       "t": "programare liniară",
+       "d": "metodă de optimizare a unui obiectiv liniar sub restricții liniare"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce caută o problemă de optimizare?",
+       "v": "Maximul sau minimul unui obiectiv, sub restricțiile date de resurse."
+      },
+      {
+       "f": "Ce presupune o problemă de alocare?",
+       "v": "Repartizarea unor resurse limitate pe mai multe activități cu randamente proprii."
+      },
+      {
+       "f": "Unde se află optimul în cazul liniar?",
+       "v": "„Într-un colț” al mulțimii soluțiilor posibile."
+      },
+      {
+       "f": "De ce trebuie verificată robustețea unui optim?",
+       "v": "Pentru că el depinde de ipoteze care se pot schimba."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "O problemă de optimizare caută:",
+       "optiuni": [
+        "maximul sau minimul unui obiectiv, sub restricții",
+        "doar valori întregi",
+        "o valoare aleatorie",
+        "media datelor"
+       ],
+       "corect": 0,
+       "explicatie": "Restricțiile vin din resursele limitate."
+      },
+      {
+       "intrebare": "În programarea liniară, soluția optimă se află, de regulă:",
+       "optiuni": [
+        "într-un „colț” al mulțimii soluțiilor posibile",
+        "în centrul acesteia",
+        "în afara restricțiilor",
+        "oriunde, la întâmplare"
+       ],
+       "corect": 0,
+       "explicatie": "Acolo restricțiile sunt cel mai strâns respectate."
+      },
+      {
+       "intrebare": "Concentrarea pe un singur criteriu în optimizare:",
+       "optiuni": [
+        "poate ignora alte criterii importante",
+        "garantează cea mai bună decizie",
+        "elimină orice risc",
+        "este mereu suficientă"
+       ],
+       "corect": 0,
+       "explicatie": "Costul minim, de pildă, poate însemna calitate slabă."
+      },
+      {
+       "intrebare": "Un optim „local” este:",
+       "optiuni": [
+        "cea mai bună soluție din vecinătate, nu neapărat cea globală",
+        "întotdeauna și cel global",
+        "o soluție greșită",
+        "independent de ipoteze"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea se verifică robustețea soluției."
+      }
+     ]
+    }
+   ]
   }
  ],
  "teze": [
   {
    "semestru": 1,
    "test": [
+    {
+     "intrebare": "O progresie geometrică se obține:",
+     "optiuni": [
+      "înmulțind fiecare termen cu o rație constantă",
+      "adunând o rație constantă",
+      "scăzând un termen",
+      "la întâmplare"
+     ],
+     "corect": 0,
+     "explicatie": "Progresia aritmetică adună o rație constantă."
+    },
+    {
+     "intrebare": "Dobânda compusă corespunde unei progresii:",
+     "optiuni": [
+      "geometrice",
+      "aritmetice",
+      "constante",
+      "descrescătoare liniar"
+     ],
+     "corect": 0,
+     "explicatie": "Ea se aplică la suma acumulată."
+    },
+    {
+     "intrebare": "În primii ani ai unui credit lung, rata acoperă mai ales:",
+     "optiuni": [
+      "dobânda",
+      "principalul",
+      "comisioanele",
+      "asigurarea"
+     ],
+     "corect": 0,
+     "explicatie": "Soldul mare produce dobândă mare la început."
+    },
+    {
+     "intrebare": "Actualizarea unei sume viitoare înseamnă:",
+     "optiuni": [
+      "aducerea ei la valoarea de azi",
+      "calculul valorii viitoare",
+      "adunarea inflației",
+      "creșterea cu dobânda"
+     ],
+     "corect": 0,
+     "explicatie": "Capitalizarea face operația inversă."
+    },
+    {
+     "intrebare": "O valoare actualizată netă pozitivă arată:",
+     "optiuni": [
+      "un proiect rentabil la rata aleasă",
+      "o pierdere sigură",
+      "un proiect fără risc",
+      "o eroare"
+     ],
+     "corect": 0,
+     "explicatie": "La rezultat negativ, proiectul nu merită."
+    },
+    {
+     "intrebare": "O durată mai lungă a unui credit, la aceeași sumă:",
+     "optiuni": [
+      "scade rata lunară, dar crește costul total",
+      "scade și rata, și costul total",
+      "crește rata lunară",
+      "nu schimbă costul"
+     ],
+     "corect": 0,
+     "explicatie": "Se plătește dobândă pe mai mult timp."
+    },
     {
      "intrebare": "Regula lui 72 estimează:",
      "optiuni": [
@@ -902,6 +1754,72 @@
   {
    "semestru": 2,
    "test": [
+    {
+     "intrebare": "Metoda d'Hondt repartizează mandatele:",
+     "optiuni": [
+      "împărțind voturile la 1, 2, 3, … și alegând cele mai mari câturi",
+      "egal între partide",
+      "prin tragere la sorți",
+      "doar câștigătorului"
+     ],
+     "corect": 0,
+     "explicatie": "Ea favorizează ușor partidele mari."
+    },
+    {
+     "intrebare": "În metoda „unul taie, celălalt alege”, cel care taie:",
+     "optiuni": [
+      "face părți pe care le consideră egale",
+      "ia partea cea mai mare",
+      "alege primul",
+      "decide singur"
+     ],
+     "corect": 0,
+     "explicatie": "El primește partea rămasă, deci nu poate trișa."
+    },
+    {
+     "intrebare": "Puterea reală de vot este dată de:",
+     "optiuni": [
+      "cât de des un votant este decisiv",
+      "mărimea ponderii, mereu proporțional",
+      "ordinea votului",
+      "numărul de votanți"
+     ],
+     "corect": 0,
+     "explicatie": "Contează structura coalițiilor."
+    },
+    {
+     "intrebare": "Într-un arbore de decizie, valoarea așteptată se calculează la:",
+     "optiuni": [
+      "nodurile de șansă",
+      "nodurile de decizie",
+      "rădăcină, la început",
+      "frunze, direct"
+     ],
+     "corect": 0,
+     "explicatie": "La nodurile de decizie se alege opțiunea cea mai bună."
+    },
+    {
+     "intrebare": "Diversificarea reduce:",
+     "optiuni": [
+      "riscul specific, nu și pe cel general",
+      "orice risc",
+      "valoarea așteptată",
+      "randamentul mereu"
+     ],
+     "corect": 0,
+     "explicatie": "O criză generală lovește simultan majoritatea activelor."
+    },
+    {
+     "intrebare": "În programarea liniară, optimul se află, de regulă:",
+     "optiuni": [
+      "într-un „colț” al mulțimii soluțiilor posibile",
+      "în centrul ei",
+      "în afara restricțiilor",
+      "la întâmplare"
+     ],
+     "corect": 0,
+     "explicatie": "Acolo restricțiile sunt cel mai strâns respectate."
+    },
     {
      "intrebare": "Paradoxul lui Condorcet arată că:",
      "optiuni": [
