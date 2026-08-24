@@ -2,10 +2,10 @@
   "version": "03",
   "actualizat": "2026-08-24",
   "nrModule": 60,
-  "nrLectii": 1131,
-  "nrCarduri": 4524,
-  "nrIntrebari": 4524,
-  "nrIntrebariTeze": 1912,
+  "nrLectii": 1138,
+  "nrCarduri": 4552,
+  "nrIntrebari": 4552,
+  "nrIntrebariTeze": 1924,
   "module": [
     {
       "id": "geografie-9",
@@ -7141,10 +7141,10 @@
       "bac": true,
       "socioUman": false,
       "descriere": "Competențe digitale pentru bacalaureat și pentru viață: instrumente de birou, informație, securitate, identitate digitală și tehnologii emergente.",
-      "nrLectii": 9,
-      "nrCarduri": 36,
-      "nrIntrebari": 36,
-      "nrIntrebariTeze": 24,
+      "nrLectii": 16,
+      "nrCarduri": 64,
+      "nrIntrebari": 64,
+      "nrIntrebariTeze": 36,
       "capitole": [
         {
           "id": "tic12-c1",
@@ -7202,16 +7202,65 @@
               "titlu": "Etică digitală și responsabilitate"
             }
           ]
+        },
+        {
+          "id": "tic12-c4",
+          "titlu": "Instrumente de birou",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "tic12-10",
+              "titlu": "Procesorul de text"
+            },
+            {
+              "id": "tic12-11",
+              "titlu": "Calculul tabelar"
+            },
+            {
+              "id": "tic12-12",
+              "titlu": "Prezentările electronice"
+            }
+          ]
+        },
+        {
+          "id": "tic12-c5",
+          "titlu": "Informație și baze de date",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "tic12-13",
+              "titlu": "Baze de date"
+            },
+            {
+              "id": "tic12-14",
+              "titlu": "Căutarea și evaluarea informației"
+            }
+          ]
+        },
+        {
+          "id": "tic12-c6",
+          "titlu": "Tehnologii emergente și identitate digitală",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "tic12-15",
+              "titlu": "Rețele, cloud și internetul lucrurilor"
+            },
+            {
+              "id": "tic12-16",
+              "titlu": "Inteligența artificială și tehnologii emergente"
+            }
+          ]
         }
       ],
       "teze": [
         {
           "semestru": 1,
-          "nrIntrebari": 12
+          "nrIntrebari": 18
         },
         {
           "semestru": 2,
-          "nrIntrebari": 12
+          "nrIntrebari": 18
         }
       ]
     },
