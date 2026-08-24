@@ -792,12 +792,864 @@
      ]
     }
    ]
+  },
+  {
+   "id": "rel11-c4",
+   "titlu": "Slujbele și rânduielile Bisericii",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "rel11-10",
+     "titlu": "Laudele bisericești",
+     "rezumat": "Pe lângă Sfânta Liturghie, Biserica Ortodoxă are un șir de slujbe zilnice, numite Laudele bisericești, prin care sfințește timpul de-a lungul întregii zile. Cele mai cunoscute sunt Vecernia, slujba de seară, și Utrenia, slujba de dimineață. Alături de ele stau Miezonoptica, Ceasurile și Pavecernița. Rânduiala lor urmează un ritm străvechi: ziua liturgică începe seara, după modelul biblic al creației, unde „a fost seară și a fost dimineață”. Aceste slujbe sunt alcătuite mai ales din psalmi, imne și rugăciuni, care se schimbă după sărbătoarea zilei. Ele nu au caracter de jertfă, ca Liturghia, ci de laudă, de mulțumire și de cerere. La mănăstiri se săvârșesc zilnic și întregesc viața de rugăciune; în parohii se slujesc mai ales în posturi și la sărbători. Cărțile de slujbă — Ceaslovul, Octoihul, Mineiele — cuprind aceste rânduieli și arată bogăția cultului ortodox, care unește Scriptura, poezia și rugăciunea.",
+     "ideiCheie": [
+      "Laudele bisericești sunt slujbele zilnice care sfințesc timpul.",
+      "Vecernia este slujba de seară, iar Utrenia, slujba de dimineață.",
+      "Ziua liturgică începe seara, după modelul biblic al creației.",
+      "Aceste slujbe au caracter de laudă și de rugăciune, nu de jertfă."
+     ],
+     "termeni": [
+      {
+       "t": "Vecernie",
+       "d": "slujba de seară din rânduiala Laudelor bisericești"
+      },
+      {
+       "t": "Utrenie",
+       "d": "slujba de dimineață din rânduiala Laudelor bisericești"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce sunt Laudele bisericești?",
+       "v": "Slujbele zilnice prin care Biserica sfințește timpul."
+      },
+      {
+       "f": "Care este slujba de seară și care cea de dimineață?",
+       "v": "Vecernia, seara, și Utrenia, dimineața."
+      },
+      {
+       "f": "Când începe ziua liturgică?",
+       "v": "Seara, după modelul biblic al creației."
+      },
+      {
+       "f": "Din ce sunt alcătuite mai ales aceste slujbe?",
+       "v": "Din psalmi, imne și rugăciuni."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Slujba de seară a Bisericii se numește:",
+       "optiuni": [
+        "Vecernie",
+        "Utrenie",
+        "Liturghie",
+        "Miezonoptică"
+       ],
+       "corect": 0,
+       "explicatie": "Utrenia este slujba de dimineață."
+      },
+      {
+       "intrebare": "Ziua liturgică, în Ortodoxie, începe:",
+       "optiuni": [
+        "seara",
+        "la miezul nopții",
+        "dimineața",
+        "la prânz"
+       ],
+       "corect": 0,
+       "explicatie": "După modelul „a fost seară și a fost dimineață”."
+      },
+      {
+       "intrebare": "Laudele bisericești au caracter de:",
+       "optiuni": [
+        "laudă și rugăciune",
+        "jertfă, ca Liturghia",
+        "judecată",
+        "învățătură școlară"
+       ],
+       "corect": 0,
+       "explicatie": "Numai Liturghia are caracter de jertfă."
+      },
+      {
+       "intrebare": "O carte care cuprinde rânduiala slujbelor zilnice este:",
+       "optiuni": [
+        "Ceaslovul",
+        "Pentateuhul",
+        "Apocalipsa",
+        "Cartea Faptelor"
+       ],
+       "corect": 0,
+       "explicatie": "Alături de Octoih și Minee."
+      }
+     ]
+    },
+    {
+     "id": "rel11-11",
+     "titlu": "Ierurgiile și slujbele de trebuință",
+     "rezumat": "Pe lângă cele șapte Sfinte Taine, Biserica are și ierurgiile, adică slujbe de binecuvântare și de sfințire a oamenilor, a lucrurilor și a timpului. Ele nu împărtășesc harul întemeietor al Tainelor, dar cheamă binecuvântarea lui Dumnezeu peste viața de zi cu zi. Așa sunt sfințirea casei, a apei, a roadelor, binecuvântarea ogoarelor, slujbele pentru cei bolnavi și pentru cei plecați dintre noi. Slujbele legate de trecerea prin viață însoțesc omul la momentele lui importante: rugăciuni la naștere, la botez, Cununia, slujba înmormântării și parastasele pentru pomenirea celor adormiți. Aghiasma, apa sfințită, mare la Bobotează și mică la alte slujbe, este folosită pentru binecuvântare. Prin ierurgii, credința nu rămâne închisă în biserică, ci intră în casă, în muncă și în toate momentele vieții, arătând că totul poate fi adus înaintea lui Dumnezeu.",
+     "ideiCheie": [
+      "Ierurgiile sunt slujbe de binecuvântare și de sfințire, distincte de Sfintele Taine.",
+      "Ele cheamă binecuvântarea lui Dumnezeu peste viața de zi cu zi.",
+      "Slujbele de trecere însoțesc omul la momentele importante ale vieții.",
+      "Prin ierurgii, credința intră în casă, în muncă și în toate momentele vieții."
+     ],
+     "termeni": [
+      {
+       "t": "ierurgie",
+       "d": "slujbă de binecuvântare și de sfințire a oamenilor, lucrurilor și timpului"
+      },
+      {
+       "t": "aghiasmă",
+       "d": "apa sfințită folosită pentru binecuvântare"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce sunt ierurgiile?",
+       "v": "Slujbe de binecuvântare și de sfințire, distincte de Sfintele Taine."
+      },
+      {
+       "f": "Prin ce se deosebesc ierurgiile de Taine?",
+       "v": "Nu împărtășesc harul întemeietor al Tainelor, ci cheamă binecuvântarea peste viața obișnuită."
+      },
+      {
+       "f": "Ce este aghiasma?",
+       "v": "Apa sfințită, folosită pentru binecuvântare."
+      },
+      {
+       "f": "Ce sunt parastasele?",
+       "v": "Slujbe de pomenire a celor adormiți."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Ierurgiile sunt:",
+       "optiuni": [
+        "slujbe de binecuvântare și de sfințire",
+        "Sfinte Taine",
+        "rugăciuni particulare",
+        "sărbători"
+       ],
+       "corect": 0,
+       "explicatie": "Ele nu împărtășesc harul întemeietor al Tainelor."
+      },
+      {
+       "intrebare": "Apa sfințită folosită pentru binecuvântare se numește:",
+       "optiuni": [
+        "aghiasmă",
+        "mir",
+        "untdelemn",
+        "prescură"
+       ],
+       "corect": 0,
+       "explicatie": "Este mare la Bobotează și mică la alte slujbe."
+      },
+      {
+       "intrebare": "Parastasele sunt slujbe pentru:",
+       "optiuni": [
+        "pomenirea celor adormiți",
+        "sfințirea casei",
+        "binecuvântarea roadelor",
+        "vindecarea bolnavilor"
+       ],
+       "corect": 0,
+       "explicatie": "Fac parte din slujbele de pomenire."
+      },
+      {
+       "intrebare": "Prin ierurgii, credința:",
+       "optiuni": [
+        "intră în casă, în muncă și în viața de zi cu zi",
+        "rămâne închisă în biserică",
+        "înlocuiește Tainele",
+        "privește doar sărbătorile"
+       ],
+       "corect": 0,
+       "explicatie": "Totul poate fi adus înaintea lui Dumnezeu."
+      }
+     ]
+    },
+    {
+     "id": "rel11-12",
+     "titlu": "Cântarea bisericească și muzica psaltică",
+     "rezumat": "Cântarea este parte nedespărțită a cultului ortodox: aproape totul, în slujbă, se cântă, nu se rostește simplu. Muzica bisericească nu urmărește spectacolul, ci rugăciunea: ea ajută cuvântul să pătrundă în inimă și adună comunitatea într-un singur glas. De aceea, în Ortodoxie, cântarea este vocală, fără instrumente, pentru ca glasul omenesc, purtător de cuvânt, să rămână în centru. Există două mari tradiții. Cântarea psaltică, de origine bizantină, folosește opt glasuri, adică opt moduri melodice care se schimbă pe rând, și se cântă pe o singură voce, adesea susținută de ison, un sunet ținut. Cântarea corală, pe mai multe voci, s-a răspândit mai târziu. Imnografia ortodoxă este bogată: tropare, condace, acatiste, alcătuite de mari imnografi precum Sfântul Roman Melodul și Sfântul Ioan Damaschin. Prin cântare, învățătura de credință se transmite și se ține minte mai ușor.",
+     "ideiCheie": [
+      "În cultul ortodox, aproape totul se cântă, nu se rostește simplu.",
+      "Cântarea urmărește rugăciunea, nu spectacolul; este vocală, fără instrumente.",
+      "Cântarea psaltică, bizantină, folosește opt glasuri și isonul.",
+      "Imnografia ortodoxă cuprinde tropare, condace și acatiste."
+     ],
+     "termeni": [
+      {
+       "t": "cântare psaltică",
+       "d": "cântarea bisericească de origine bizantină, cu opt glasuri"
+      },
+      {
+       "t": "ison",
+       "d": "sunetul ținut care susține melodia în cântarea psaltică"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "De ce se cântă aproape totul în slujba ortodoxă?",
+       "v": "Pentru că muzica ajută cuvântul să pătrundă în inimă și adună comunitatea într-un singur glas."
+      },
+      {
+       "f": "De ce este cântarea ortodoxă vocală, fără instrumente?",
+       "v": "Pentru ca glasul omenesc, purtător de cuvânt, să rămână în centru."
+      },
+      {
+       "f": "Câte glasuri folosește cântarea psaltică?",
+       "v": "Opt."
+      },
+      {
+       "f": "Ce este isonul?",
+       "v": "Sunetul ținut care susține melodia în cântarea psaltică."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Cântarea în cultul ortodox este:",
+       "optiuni": [
+        "vocală, fără instrumente",
+        "exclusiv instrumentală",
+        "rostită, nu cântată",
+        "opțională"
+       ],
+       "corect": 0,
+       "explicatie": "Glasul purtător de cuvânt rămâne în centru."
+      },
+      {
+       "intrebare": "Cântarea psaltică folosește:",
+       "optiuni": [
+        "opt glasuri",
+        "douăsprezece glasuri",
+        "un singur mod",
+        "patru glasuri"
+       ],
+       "corect": 0,
+       "explicatie": "Ele se schimbă pe rând."
+      },
+      {
+       "intrebare": "Sunetul ținut care susține melodia psaltică se numește:",
+       "optiuni": [
+        "ison",
+        "tropar",
+        "condac",
+        "glas"
+       ],
+       "corect": 0,
+       "explicatie": "Este specific cântării bizantine."
+      },
+      {
+       "intrebare": "Muzica bisericească urmărește, în primul rând:",
+       "optiuni": [
+        "rugăciunea",
+        "spectacolul",
+        "măiestria tehnică",
+        "distracția"
+       ],
+       "corect": 0,
+       "explicatie": "Ea ajută cuvântul să pătrundă în inimă."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rel11-c5",
+   "titlu": "Organizarea și răspândirea Ortodoxiei",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "rel11-13",
+     "titlu": "Bisericile Ortodoxe autocefale",
+     "rezumat": "Biserica Ortodoxă nu este condusă de un singur cârmuitor pământesc, ca o monarhie, ci este o comuniune de Biserici locale care mărturisesc aceeași credință și se împărtășesc din aceleași Taine. Fiecare Biserică locală care se conduce singură se numește autocefală, adică „având cap propriu”. Ele rămân în deplină comuniune una cu alta, unite prin credință, nu prin subordonare. Între Bisericile autocefale, un loc de cinste îl are Patriarhia Ecumenică de la Constantinopol, numită „cea dintâi între cele egale”, dar aceasta este o întâietate de cinstire, nu de putere. Vechile Patriarhii — Constantinopol, Alexandria, Antiohia, Ierusalim — sunt însoțite de Biserici mai noi, precum cele ale Rusiei, României, Serbiei, Bulgariei, Georgiei, Greciei. Biserica Ortodoxă Română a primit autocefalia în 1885 și a fost ridicată la rang de Patriarhie în 1925. Această organizare arată că unitatea Bisericii se ține prin credință și comuniune, nu prin centralizarea puterii.",
+     "ideiCheie": [
+      "Ortodoxia este o comuniune de Biserici locale cu aceeași credință și aceleași Taine.",
+      "O Biserică autocefală se conduce singură, rămânând în comuniune cu celelalte.",
+      "Patriarhia de la Constantinopol are o întâietate de cinstire, nu de putere.",
+      "Biserica Ortodoxă Română a primit autocefalia în 1885, iar Patriarhia în 1925."
+     ],
+     "termeni": [
+      {
+       "t": "autocefalie",
+       "d": "statutul unei Biserici locale de a se conduce singură, în comuniune cu celelalte"
+      },
+      {
+       "t": "Patriarhie",
+       "d": "Biserică locală condusă de un patriarh, treaptă înaltă de organizare bisericească"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum este organizată Biserica Ortodoxă?",
+       "v": "Ca o comuniune de Biserici locale, unite prin credință și Taine."
+      },
+      {
+       "f": "Ce înseamnă o Biserică autocefală?",
+       "v": "O Biserică ce se conduce singură, rămânând în comuniune cu celelalte."
+      },
+      {
+       "f": "Ce fel de întâietate are Patriarhia de la Constantinopol?",
+       "v": "O întâietate de cinstire, nu de putere."
+      },
+      {
+       "f": "Când a primit Biserica Ortodoxă Română autocefalia și rangul de Patriarhie?",
+       "v": "Autocefalia în 1885 și Patriarhia în 1925."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "O Biserică autocefală este una care:",
+       "optiuni": [
+        "se conduce singură, în comuniune cu celelalte",
+        "este independentă, fără comuniune",
+        "se supune unui singur conducător mondial",
+        "nu are ierarhie"
+       ],
+       "corect": 0,
+       "explicatie": "Unitatea se ține prin credință."
+      },
+      {
+       "intrebare": "Patriarhia de la Constantinopol are:",
+       "optiuni": [
+        "o întâietate de cinstire",
+        "putere asupra celorlalte Biserici",
+        "autoritate politică",
+        "dreptul de a schimba credința"
+       ],
+       "corect": 0,
+       "explicatie": "Este „cea dintâi între cele egale”."
+      },
+      {
+       "intrebare": "Biserica Ortodoxă Română a primit autocefalia în:",
+       "optiuni": [
+        "1885",
+        "1925",
+        "1054",
+        "1948"
+       ],
+       "corect": 0,
+       "explicatie": "Patriarhia a fost recunoscută în 1925."
+      },
+      {
+       "intrebare": "Unitatea Bisericii Ortodoxe se ține prin:",
+       "optiuni": [
+        "credință și comuniune",
+        "centralizarea puterii",
+        "subordonare politică",
+        "un singur conducător pământesc"
+       ],
+       "corect": 0,
+       "explicatie": "De aici forma de comuniune de Biserici locale."
+      }
+     ]
+    },
+    {
+     "id": "rel11-14",
+     "titlu": "Monahismul și marile centre monahale",
+     "rezumat": "Monahismul este forma de viață a celor care aleg să se dedice întru totul rugăciunii și căutării lui Dumnezeu, prin voturile ascultării, sărăciei de bunăvoie și curăției. El a apărut în secolul al IV-lea, în pustia Egiptului, prin Sfântul Antonie cel Mare, întemeietorul vieții pustnicești, și prin Sfântul Pahomie, care a rânduit viața de obște, în comunitate. Sfântul Vasile cel Mare a dat monahismului o rânduială legată de rugăciune și de slujirea aproapelui. Marile centre monahale au fost, de-a lungul veacurilor, focare de rugăciune, de cultură și de milostenie. Muntele Athos, în Grecia, este cea mai cunoscută republică monahală ortodoxă. În spațiul românesc, mănăstiri precum Putna, Neamț, Sihăstria și Tismana au fost vetre de credință și de cultură, în care s-au copiat manuscrise și s-au format cărturari. Monahismul nu este o fugă de lume, ci o altă cale de slujire: prin rugăciune pentru toți, prin ospitalitate și prin păstrarea unei tradiții duhovnicești vii.",
+     "ideiCheie": [
+      "Monahismul înseamnă dedicarea întru totul rugăciunii, prin voturi.",
+      "A apărut în secolul al IV-lea, în Egipt, prin Sfântul Antonie cel Mare.",
+      "Muntele Athos este cel mai cunoscut centru monahal ortodox.",
+      "Mănăstirile românești au fost vetre de credință și de cultură."
+     ],
+     "termeni": [
+      {
+       "t": "monahism",
+       "d": "forma de viață dedicată rugăciunii, prin voturile ascultării, sărăciei și curăției"
+      },
+      {
+       "t": "voturi monahale",
+       "d": "făgăduințele ascultării, sărăciei de bunăvoie și curăției"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este monahismul?",
+       "v": "Forma de viață dedicată întru totul rugăciunii, prin voturi."
+      },
+      {
+       "f": "Cine este considerat întemeietorul vieții pustnicești?",
+       "v": "Sfântul Antonie cel Mare."
+      },
+      {
+       "f": "Care este cel mai cunoscut centru monahal ortodox?",
+       "v": "Muntele Athos."
+      },
+      {
+       "f": "Sunt monahii o fugă de lume?",
+       "v": "Nu; sunt o altă cale de slujire, prin rugăciune pentru toți."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Monahismul a apărut, în secolul al IV-lea, în:",
+       "optiuni": [
+        "pustia Egiptului",
+        "Roma",
+        "Constantinopol",
+        "Țara Sfântă"
+       ],
+       "corect": 0,
+       "explicatie": "Prin Sfântul Antonie cel Mare."
+      },
+      {
+       "intrebare": "Voturile monahale sunt:",
+       "optiuni": [
+        "ascultarea, sărăcia de bunăvoie și curăția",
+        "credința, nădejdea și dragostea",
+        "postul, rugăciunea și milostenia",
+        "botezul, mirungerea și euharistia"
+       ],
+       "corect": 0,
+       "explicatie": "Ele exprimă dedicarea deplină."
+      },
+      {
+       "intrebare": "Cel mai cunoscut centru monahal ortodox este:",
+       "optiuni": [
+        "Muntele Athos",
+        "Muntele Sinai",
+        "Ierusalimul",
+        "Roma"
+       ],
+       "corect": 0,
+       "explicatie": "O adevărată republică monahală."
+      },
+      {
+       "intrebare": "Mănăstirile românești au fost, de-a lungul veacurilor:",
+       "optiuni": [
+        "vetre de credință și de cultură",
+        "doar locuri de retragere",
+        "centre politice",
+        "fără însemnătate culturală"
+       ],
+       "corect": 0,
+       "explicatie": "Acolo s-au copiat manuscrise și s-au format cărturari."
+      }
+     ]
+    },
+    {
+     "id": "rel11-15",
+     "titlu": "Misiunea creștină și încreștinarea popoarelor",
+     "rezumat": "Porunca lui Hristos „mergeți și învățați toate neamurile” a stat la temelia misiunii creștine. După răspândirea în lumea romană, credința a ajuns treptat la popoarele Europei. Un rol deosebit l-au avut, pentru lumea slavă, Sfinții Chiril și Metodie, în secolul al IX-lea: ei au alcătuit un alfabet și au tradus cărțile de cult, întemeind o cultură scrisă și arătând că Evanghelia poate fi propovăduită în limba fiecărui popor. Încreștinarea popoarelor nu a fost întotdeauna un proces lin: uneori a mers împreună cu decizii ale conducătorilor, alteori s-a răspândit de jos, prin viața comunităților. Idealul rămâne însă convertirea liberă, prin convingere, nu prin silă — căci credința impusă contrazice însuși mesajul creștin. La români, așa cum s-a arătat, creștinismul a pătruns de timpuriu, odată cu formarea limbii și a poporului. Misiunea creștină a legat, peste tot, credința de limbă, de scris și de cultură.",
+     "ideiCheie": [
+      "Misiunea creștină se întemeiază pe porunca „mergeți și învățați toate neamurile”.",
+      "Sfinții Chiril și Metodie au dat lumii slave un alfabet și cărți de cult.",
+      "Idealul misiunii este convertirea liberă, prin convingere, nu prin silă.",
+      "Misiunea a legat, peste tot, credința de limbă, de scris și de cultură."
+     ],
+     "termeni": [
+      {
+       "t": "misiune creștină",
+       "d": "lucrarea de propovăduire a Evangheliei la toate popoarele"
+      },
+      {
+       "t": "Sfinții Chiril și Metodie",
+       "d": "frații care au dat lumii slave un alfabet și cărți de cult"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Pe ce poruncă se întemeiază misiunea creștină?",
+       "v": "Pe „mergeți și învățați toate neamurile”."
+      },
+      {
+       "f": "Ce au făcut Sfinții Chiril și Metodie pentru lumea slavă?",
+       "v": "Au alcătuit un alfabet și au tradus cărțile de cult."
+      },
+      {
+       "f": "Care este idealul misiunii creștine?",
+       "v": "Convertirea liberă, prin convingere, nu prin silă."
+      },
+      {
+       "f": "Cum a pătruns creștinismul la români?",
+       "v": "De timpuriu, odată cu formarea limbii și a poporului."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Sfinții Chiril și Metodie sunt cinstiți pentru că:",
+       "optiuni": [
+        "au dat lumii slave un alfabet și cărți de cult",
+        "au condus armate",
+        "au întemeiat Patriarhia",
+        "au scris Evangheliile"
+       ],
+       "corect": 0,
+       "explicatie": "Au arătat că Evanghelia se propovăduiește în limba fiecărui popor."
+      },
+      {
+       "intrebare": "Idealul convertirii creștine este:",
+       "optiuni": [
+        "liberă, prin convingere",
+        "impusă prin silă",
+        "hotărâtă doar de conducători",
+        "interzisă neamurilor"
+       ],
+       "corect": 0,
+       "explicatie": "Credința impusă contrazice mesajul creștin."
+      },
+      {
+       "intrebare": "Misiunea creștină se întemeiază pe porunca:",
+       "optiuni": [
+        "„mergeți și învățați toate neamurile”",
+        "„păziți numai Legea”",
+        "„rămâneți în cetatea voastră”",
+        "„nu vestiți nimănui”"
+       ],
+       "corect": 0,
+       "explicatie": "Ea privește toate popoarele."
+      },
+      {
+       "intrebare": "Misiunea creștină a legat, peste tot, credința de:",
+       "optiuni": [
+        "limbă, scris și cultură",
+        "putere politică",
+        "bogăție",
+        "forța armelor"
+       ],
+       "corect": 0,
+       "explicatie": "Traducerile au întemeiat culturi scrise."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rel11-c6",
+   "titlu": "Confesiuni creștine și marile religii",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "rel11-16",
+     "titlu": "Catolicismul și protestantismul",
+     "rezumat": "Creștinismul de azi cuprinde mai multe mari ramuri. Alături de Ortodoxie, cele mai numeroase sunt Biserica Romano-Catolică și confesiunile protestante. Ele împărtășesc credința în Sfânta Treime, în Iisus Hristos, Fiul lui Dumnezeu întrupat, mort și înviat, și cinstesc Sfânta Scriptură, dar se deosebesc prin unele învățături și rânduieli, apărute mai ales după Marea Schismă din 1054 și după Reforma din secolul al XVI-lea. Catolicismul recunoaște întâietatea de putere a papei de la Roma și are unele învățături proprii, precum cele despre purcederea Duhului Sfânt sau despre purgatoriu. Protestantismul, pornit de la Martin Luther și de la alți reformatori, a pus accentul pe Scriptură ca izvor de căpătâi și pe mântuirea prin credință, ducând la apariția mai multor confesiuni: luterană, reformată, apoi altele. Cunoașterea corectă a acestor deosebiri, fără dispreț, este parte a culturii și temei al bunei conviețuiri; ea nu înseamnă că toate ar spune același lucru, dar nici că cei care cred altfel ar fi dușmani.",
+     "ideiCheie": [
+      "Marile ramuri ale creștinismului sunt Ortodoxia, Catolicismul și Protestantismul.",
+      "Ele împărtășesc credința în Sfânta Treime și în Hristos, dar au unele deosebiri.",
+      "Catolicismul recunoaște întâietatea de putere a papei de la Roma.",
+      "Protestantismul, pornit de la Luther, pune accentul pe Scriptură și pe credință."
+     ],
+     "termeni": [
+      {
+       "t": "confesiune creștină",
+       "d": "o mare ramură a creștinismului, cu învățături și rânduieli proprii"
+      },
+      {
+       "t": "Reformă",
+       "d": "mișcarea din secolul al XVI-lea din care s-au născut confesiunile protestante"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt cele trei mari ramuri ale creștinismului?",
+       "v": "Ortodoxia, Catolicismul și Protestantismul."
+      },
+      {
+       "f": "Ce împărtășesc, în comun, marile confesiuni creștine?",
+       "v": "Credința în Sfânta Treime și în Hristos, Fiul lui Dumnezeu întrupat."
+      },
+      {
+       "f": "Ce recunoaște Catolicismul despre papa de la Roma?",
+       "v": "Întâietatea lui de putere."
+      },
+      {
+       "f": "De la cine a pornit Protestantismul?",
+       "v": "De la Martin Luther și de la alți reformatori."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Cele trei mari ramuri ale creștinismului sunt:",
+       "optiuni": [
+        "Ortodoxia, Catolicismul și Protestantismul",
+        "iudaismul, creștinismul și islamul",
+        "hinduismul, budismul și șintoismul",
+        "doar Ortodoxia și Catolicismul"
+       ],
+       "corect": 0,
+       "explicatie": "Toate cinstesc pe Hristos, dar au deosebiri."
+      },
+      {
+       "intrebare": "Catolicismul recunoaște întâietatea de putere a:",
+       "optiuni": [
+        "papei de la Roma",
+        "patriarhului de la Constantinopol",
+        "unui sinod mondial",
+        "fiecărui episcop"
+       ],
+       "corect": 0,
+       "explicatie": "Aici stă o deosebire față de Ortodoxie."
+      },
+      {
+       "intrebare": "Protestantismul a pornit de la:",
+       "optiuni": [
+        "Martin Luther și alți reformatori",
+        "Sfântul Vasile cel Mare",
+        "Sinodul de la Niceea",
+        "Sfinții Chiril și Metodie"
+       ],
+       "corect": 0,
+       "explicatie": "În secolul al XVI-lea."
+      },
+      {
+       "intrebare": "Cunoașterea deosebirilor dintre confesiuni, fără dispreț:",
+       "optiuni": [
+        "este temei al bunei conviețuiri",
+        "înseamnă că toate spun același lucru",
+        "îi face pe ceilalți dușmani",
+        "este de prisos"
+       ],
+       "corect": 0,
+       "explicatie": "Nu este nici relativism, nici dușmănie."
+      }
+     ]
+    },
+    {
+     "id": "rel11-17",
+     "titlu": "Iudaismul și islamul",
+     "rezumat": "Alături de creștinism, iudaismul și islamul formează cele trei religii numite avraamice, pentru că se revendică toate de la Avraam și mărturisesc un singur Dumnezeu. Cunoașterea lor corectă, fără caricaturi, este parte a culturii generale și condiție a respectului între oameni. Iudaismul este religia poporului evreu, întemeiată pe legământul cu Dumnezeu și pe Legea din Vechiul Testament. Cartea de studiu și de tâlcuire este Talmudul, locul de rugăciune este sinagoga, iar ziua sfântă este Sabatul. Islamul a apărut în secolul al VII-lea, în Arabia, prin propovăduirea lui Mahomed; cartea sa sfântă este Coranul, locul de rugăciune este moscheea, iar credincioșii, numiți musulmani, mărturisesc un singur Dumnezeu. Cele trei religii avraamice au multe puncte comune — credința într-un singur Dumnezeu, rugăciunea, mila —, dar și deosebiri de fond, între care, pentru creștini, cea mai importantă este mărturisirea că Iisus Hristos este Fiul lui Dumnezeu.",
+     "ideiCheie": [
+      "Creștinismul, iudaismul și islamul sunt cele trei religii avraamice.",
+      "Iudaismul se întemeiază pe legământul cu Dumnezeu și pe Legea din Vechiul Testament.",
+      "Islamul a apărut în secolul al VII-lea, prin Mahomed; cartea sa este Coranul.",
+      "Cele trei religii au puncte comune, dar și deosebiri de fond."
+     ],
+     "termeni": [
+      {
+       "t": "religie avraamică",
+       "d": "religie care se revendică de la Avraam și mărturisește un singur Dumnezeu"
+      },
+      {
+       "t": "Coran",
+       "d": "cartea sfântă a islamului"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt cele trei religii avraamice?",
+       "v": "Iudaismul, creștinismul și islamul."
+      },
+      {
+       "f": "Pe ce se întemeiază iudaismul?",
+       "v": "Pe legământul cu Dumnezeu și pe Legea din Vechiul Testament."
+      },
+      {
+       "f": "Când și prin cine a apărut islamul?",
+       "v": "În secolul al VII-lea, în Arabia, prin Mahomed."
+      },
+      {
+       "f": "Care este, pentru creștini, deosebirea de fond față de celelalte religii avraamice?",
+       "v": "Mărturisirea că Iisus Hristos este Fiul lui Dumnezeu."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Cele trei religii avraamice sunt:",
+       "optiuni": [
+        "iudaismul, creștinismul și islamul",
+        "hinduismul, budismul și șintoismul",
+        "ortodoxia, catolicismul și protestantismul",
+        "doar iudaismul și islamul"
+       ],
+       "corect": 0,
+       "explicatie": "Se revendică de la Avraam."
+      },
+      {
+       "intrebare": "Cartea sfântă a islamului este:",
+       "optiuni": [
+        "Coranul",
+        "Talmudul",
+        "Evanghelia",
+        "Tora singură"
+       ],
+       "corect": 0,
+       "explicatie": "Locul de rugăciune este moscheea."
+      },
+      {
+       "intrebare": "Islamul a apărut în:",
+       "optiuni": [
+        "secolul al VII-lea",
+        "secolul I",
+        "secolul al XVI-lea",
+        "secolul al IV-lea"
+       ],
+       "corect": 0,
+       "explicatie": "În Arabia, prin Mahomed."
+      },
+      {
+       "intrebare": "Pentru creștini, deosebirea de fond față de iudaism și islam este:",
+       "optiuni": [
+        "mărturisirea că Iisus Hristos este Fiul lui Dumnezeu",
+        "credința într-un singur Dumnezeu",
+        "practica rugăciunii",
+        "cinstirea lui Avraam"
+       ],
+       "corect": 0,
+       "explicatie": "Acestea din urmă sunt puncte comune."
+      }
+     ]
+    },
+    {
+     "id": "rel11-18",
+     "titlu": "Religiile Orientului: hinduismul și budismul",
+     "rezumat": "Dincolo de religiile avraamice, marile religii ale Orientului au concepții foarte diferite despre divin, despre lume și despre mântuire. Cunoașterea lor informativă face parte din cultura generală, fără a se confunda cu împărtășirea lor. Hinduismul, răspândit mai ales în India, nu are un întemeietor unic, ci s-a format de-a lungul mileniilor; cuprinde credința în mai multe divinități, ideea reîncarnării — trecerea sufletului dintr-o viață în alta — și a karmei, legea faptelor. Budismul a apărut din propovăduirea lui Buddha, în India antică; el nu pune în centru un Dumnezeu personal, ci calea eliberării de suferință, prin depășirea dorințelor. Aceste religii au dat naștere unor mari culturi și opere de artă. Pentru creștin, deosebirile sunt profunde — mai ales credința într-un singur Dumnezeu personal și în valoarea unică a fiecărei persoane —, dar cunoașterea corectă a celuilalt rămâne o datorie a respectului.",
+     "ideiCheie": [
+      "Religiile Orientului au concepții diferite despre divin, lume și mântuire.",
+      "Hinduismul cuprinde credința în reîncarnare și în karma, legea faptelor.",
+      "Budismul, pornit de la Buddha, pune în centru eliberarea de suferință.",
+      "Cunoașterea lor informativă nu se confundă cu împărtășirea lor."
+     ],
+     "termeni": [
+      {
+       "t": "reîncarnare",
+       "d": "credința, în unele religii orientale, în trecerea sufletului dintr-o viață în alta"
+      },
+      {
+       "t": "karma",
+       "d": "în religiile indiene, legea prin care faptele determină o viață viitoare"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Au religiile Orientului aceeași concepție despre divin ca cele avraamice?",
+       "v": "Nu; ele au concepții foarte diferite despre divin, lume și mântuire."
+      },
+      {
+       "f": "Ce credințe cuprinde hinduismul?",
+       "v": "Credința în mai multe divinități, în reîncarnare și în karma."
+      },
+      {
+       "f": "Ce pune în centru budismul?",
+       "v": "Calea eliberării de suferință, prin depășirea dorințelor."
+      },
+      {
+       "f": "Ce deosebire de fond păstrează creștinul față de aceste religii?",
+       "v": "Credința într-un singur Dumnezeu personal și în valoarea unică a persoanei."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Credința în trecerea sufletului dintr-o viață în alta se numește:",
+       "optiuni": [
+        "reîncarnare",
+        "înviere",
+        "îndumnezeire",
+        "mântuire"
+       ],
+       "corect": 0,
+       "explicatie": "Este specifică unor religii orientale."
+      },
+      {
+       "intrebare": "Budismul pune în centru:",
+       "optiuni": [
+        "eliberarea de suferință",
+        "un singur Dumnezeu personal",
+        "legământul cu Avraam",
+        "Sfânta Treime"
+       ],
+       "corect": 0,
+       "explicatie": "A pornit de la propovăduirea lui Buddha."
+      },
+      {
+       "intrebare": "Hinduismul este răspândit mai ales în:",
+       "optiuni": [
+        "India",
+        "Arabia",
+        "Europa",
+        "America"
+       ],
+       "corect": 0,
+       "explicatie": "Nu are un întemeietor unic."
+      },
+      {
+       "intrebare": "Cunoașterea informativă a religiilor Orientului:",
+       "optiuni": [
+        "nu se confundă cu împărtășirea lor",
+        "înseamnă adoptarea lor",
+        "este interzisă",
+        "este de prisos"
+       ],
+       "corect": 0,
+       "explicatie": "Face parte din cultura generală și din respect."
+      }
+     ]
+    }
+   ]
   }
  ],
  "teze": [
   {
    "semestru": 1,
    "test": [
+    {
+     "intrebare": "Slujba de seară a Bisericii se numește:",
+     "optiuni": [
+      "Vecernie",
+      "Utrenie",
+      "Liturghie",
+      "Miezonoptică"
+     ],
+     "corect": 0,
+     "explicatie": "Utrenia este slujba de dimineață."
+    },
+    {
+     "intrebare": "Ierurgiile sunt:",
+     "optiuni": [
+      "slujbe de binecuvântare și de sfințire",
+      "Sfinte Taine",
+      "sărbători mari",
+      "rugăciuni particulare"
+     ],
+     "corect": 0,
+     "explicatie": "Nu împărtășesc harul întemeietor al Tainelor."
+    },
+    {
+     "intrebare": "Apa sfințită folosită pentru binecuvântare se numește:",
+     "optiuni": [
+      "aghiasmă",
+      "mir",
+      "prescură",
+      "untdelemn"
+     ],
+     "corect": 0,
+     "explicatie": "Mare la Bobotează, mică la alte slujbe."
+    },
+    {
+     "intrebare": "Cântarea psaltică folosește:",
+     "optiuni": [
+      "opt glasuri",
+      "patru glasuri",
+      "douăsprezece glasuri",
+      "un singur mod"
+     ],
+     "corect": 0,
+     "explicatie": "Susținută adesea de ison."
+    },
+    {
+     "intrebare": "Cântarea în cultul ortodox este:",
+     "optiuni": [
+      "vocală, fără instrumente",
+      "exclusiv instrumentală",
+      "rostită, nu cântată",
+      "opțională"
+     ],
+     "corect": 0,
+     "explicatie": "Glasul purtător de cuvânt rămâne în centru."
+    },
+    {
+     "intrebare": "Ziua liturgică, în Ortodoxie, începe:",
+     "optiuni": [
+      "seara",
+      "la miezul nopții",
+      "dimineața",
+      "la prânz"
+     ],
+     "corect": 0,
+     "explicatie": "După modelul biblic al creației."
+    },
     {
      "intrebare": "Însușirile Bisericii mărturisite în Crez sunt:",
      "optiuni": [
@@ -902,6 +1754,72 @@
   {
    "semestru": 2,
    "test": [
+    {
+     "intrebare": "O Biserică autocefală este una care:",
+     "optiuni": [
+      "se conduce singură, în comuniune cu celelalte",
+      "este independentă, fără comuniune",
+      "se supune unui conducător mondial",
+      "nu are ierarhie"
+     ],
+     "corect": 0,
+     "explicatie": "Unitatea se ține prin credință."
+    },
+    {
+     "intrebare": "Biserica Ortodoxă Română a primit autocefalia în:",
+     "optiuni": [
+      "1885",
+      "1925",
+      "1054",
+      "1948"
+     ],
+     "corect": 0,
+     "explicatie": "Patriarhia, în 1925."
+    },
+    {
+     "intrebare": "Monahismul a apărut, în secolul al IV-lea, în:",
+     "optiuni": [
+      "pustia Egiptului",
+      "Roma",
+      "Constantinopol",
+      "Athos"
+     ],
+     "corect": 0,
+     "explicatie": "Prin Sfântul Antonie cel Mare."
+    },
+    {
+     "intrebare": "Sfinții Chiril și Metodie au dat lumii slave:",
+     "optiuni": [
+      "un alfabet și cărți de cult",
+      "o armată",
+      "un imperiu",
+      "Evangheliile"
+     ],
+     "corect": 0,
+     "explicatie": "Evanghelia se propovăduiește în limba fiecărui popor."
+    },
+    {
+     "intrebare": "Cele trei religii avraamice sunt:",
+     "optiuni": [
+      "iudaismul, creștinismul și islamul",
+      "hinduismul, budismul și șintoismul",
+      "ortodoxia, catolicismul, protestantismul",
+      "doar iudaismul și islamul"
+     ],
+     "corect": 0,
+     "explicatie": "Se revendică de la Avraam."
+    },
+    {
+     "intrebare": "Cartea sfântă a islamului este:",
+     "optiuni": [
+      "Coranul",
+      "Talmudul",
+      "Tora singură",
+      "Evanghelia"
+     ],
+     "corect": 0,
+     "explicatie": "Apărut în secolul al VII-lea, prin Mahomed."
+    },
     {
      "intrebare": "Postul are trei dimensiuni:",
      "optiuni": [

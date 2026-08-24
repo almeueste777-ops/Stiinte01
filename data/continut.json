@@ -1,11 +1,11 @@
 {
   "version": "03",
-  "actualizat": "2026-08-22",
+  "actualizat": "2026-08-24",
   "nrModule": 60,
-  "nrLectii": 580,
-  "nrCarduri": 2320,
-  "nrIntrebari": 2320,
-  "nrIntrebariTeze": 1294,
+  "nrLectii": 764,
+  "nrCarduri": 3056,
+  "nrIntrebari": 3056,
+  "nrIntrebariTeze": 1510,
   "module": [
     {
       "id": "geografie-9",
@@ -16,10 +16,10 @@
       "bac": true,
       "socioUman": false,
       "descriere": "Geografie fizică generală: Pământul în Univers, relieful, atmosfera, apele, viețuitoarele și mediul înconjurător.",
-      "nrLectii": 10,
-      "nrCarduri": 40,
-      "nrIntrebari": 40,
-      "nrIntrebariTeze": 24,
+      "nrLectii": 20,
+      "nrCarduri": 80,
+      "nrIntrebari": 80,
+      "nrIntrebariTeze": 36,
       "capitole": [
         {
           "id": "geo9-c1",
@@ -88,16 +88,84 @@
               "titlu": "Mediul înconjurător: hazarde, poluare, protecție"
             }
           ]
+        },
+        {
+          "id": "geo9-c5",
+          "titlu": "Măsurarea și reprezentarea Pământului",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "geo9-11",
+              "titlu": "Coordonatele geografice: latitudinea și longitudinea"
+            },
+            {
+              "id": "geo9-12",
+              "titlu": "Hărțile geografice: scara, semnele convenționale, relieful"
+            },
+            {
+              "id": "geo9-13",
+              "titlu": "Măsurarea timpului: fusurile orare, ziua și calendarul"
+            }
+          ]
+        },
+        {
+          "id": "geo9-c6",
+          "titlu": "Litosfera: roci și forme majore de relief",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "geo9-14",
+              "titlu": "Mineralele și rocile"
+            },
+            {
+              "id": "geo9-15",
+              "titlu": "Marile forme de relief ale continentelor"
+            }
+          ]
+        },
+        {
+          "id": "geo9-c7",
+          "titlu": "Atmosfera și vremea (aprofundare)",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "geo9-16",
+              "titlu": "Vremea și elementele meteorologice"
+            },
+            {
+              "id": "geo9-17",
+              "titlu": "Umezeala aerului, norii și precipitațiile"
+            },
+            {
+              "id": "geo9-18",
+              "titlu": "Circulația atmosferei și masele de aer"
+            }
+          ]
+        },
+        {
+          "id": "geo9-c8",
+          "titlu": "Hidrosfera, criosfera și dinamica apelor",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "geo9-19",
+              "titlu": "Dinamica Oceanului Planetar: valuri, maree, curenți"
+            },
+            {
+              "id": "geo9-20",
+              "titlu": "Ghețarii și criosfera"
+            }
+          ]
         }
       ],
       "teze": [
         {
           "semestru": 1,
-          "nrIntrebari": 12
+          "nrIntrebari": 18
         },
         {
           "semestru": 2,
-          "nrIntrebari": 12
+          "nrIntrebari": 18
         }
       ]
     },
@@ -110,10 +178,10 @@
       "bac": true,
       "socioUman": false,
       "descriere": "Antichitatea și Evul Mediu: popoare și spații istorice, forme de organizare politică, religie și relații internaționale.",
-      "nrLectii": 12,
-      "nrCarduri": 48,
-      "nrIntrebari": 48,
-      "nrIntrebariTeze": 24,
+      "nrLectii": 24,
+      "nrCarduri": 96,
+      "nrIntrebari": 96,
+      "nrIntrebariTeze": 36,
       "capitole": [
         {
           "id": "ist9-c1",
@@ -190,16 +258,92 @@
               "titlu": "Religia și cultura în spațiul românesc medieval"
             }
           ]
+        },
+        {
+          "id": "ist9-c5",
+          "titlu": "Preistoria și zorii civilizației",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ist9-13",
+              "titlu": "Preistoria: paleolitic, neolitic, epoca metalelor"
+            },
+            {
+              "id": "ist9-14",
+              "titlu": "Scrierea, orașul și primele state"
+            },
+            {
+              "id": "ist9-15",
+              "titlu": "Religie și mitologie în lumea antică"
+            }
+          ]
+        },
+        {
+          "id": "ist9-c6",
+          "titlu": "Creștinismul și amurgul lumii antice",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ist9-16",
+              "titlu": "Nașterea și răspândirea creștinismului"
+            },
+            {
+              "id": "ist9-17",
+              "titlu": "Criza Imperiului Roman și marile migrații"
+            },
+            {
+              "id": "ist9-18",
+              "titlu": "Imperiul Bizantin timpuriu și Iustinian"
+            }
+          ]
+        },
+        {
+          "id": "ist9-c7",
+          "titlu": "Lumea medievală: religii și imperii",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ist9-19",
+              "titlu": "Islamul și civilizația arabă"
+            },
+            {
+              "id": "ist9-20",
+              "titlu": "Imperiul lui Carol cel Mare și feudalizarea"
+            },
+            {
+              "id": "ist9-21",
+              "titlu": "Bizanțul, slavii și lumea ortodoxă"
+            }
+          ]
+        },
+        {
+          "id": "ist9-c8",
+          "titlu": "Statul și societatea românească medievală",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ist9-22",
+              "titlu": "Transilvania medievală: voievodat și autonomii"
+            },
+            {
+              "id": "ist9-23",
+              "titlu": "Instituțiile centrale ale Țărilor Române"
+            },
+            {
+              "id": "ist9-24",
+              "titlu": "Economie, societate și viață cotidiană în Evul Mediu românesc"
+            }
+          ]
         }
       ],
       "teze": [
         {
           "semestru": 1,
-          "nrIntrebari": 12
+          "nrIntrebari": 18
         },
         {
           "semestru": 2,
-          "nrIntrebari": 12
+          "nrIntrebari": 18
         }
       ]
     },
@@ -337,10 +481,10 @@
       "bac": false,
       "socioUman": false,
       "descriere": "Sfânta Scriptură și Sfânta Tradiție, revelația și credința, Vechiul Testament și învățătura despre om.",
-      "nrLectii": 9,
-      "nrCarduri": 36,
-      "nrIntrebari": 36,
-      "nrIntrebariTeze": 18,
+      "nrLectii": 18,
+      "nrCarduri": 72,
+      "nrIntrebari": 72,
+      "nrIntrebariTeze": 30,
       "capitole": [
         {
           "id": "rel9-c1",
@@ -398,16 +542,73 @@
               "titlu": "Virtuți, conștiință, alegeri"
             }
           ]
+        },
+        {
+          "id": "rel9-c4",
+          "titlu": "Psalmii și cărțile de înțelepciune",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rel9-10",
+              "titlu": "Psalmii — cartea rugăciunii"
+            },
+            {
+              "id": "rel9-11",
+              "titlu": "Cărțile de înțelepciune"
+            },
+            {
+              "id": "rel9-12",
+              "titlu": "Cortul, Templul și cultul Vechiului Testament"
+            }
+          ]
+        },
+        {
+          "id": "rel9-c5",
+          "titlu": "Poporul ales: regi și istorie",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rel9-13",
+              "titlu": "Regii Saul, David și Solomon"
+            },
+            {
+              "id": "rel9-14",
+              "titlu": "Regatul împărțit și exilul babilonian"
+            },
+            {
+              "id": "rel9-15",
+              "titlu": "Țara Sfântă și mediul biblic"
+            }
+          ]
+        },
+        {
+          "id": "rel9-c6",
+          "titlu": "Sărbători, îngeri și viața de credință",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rel9-16",
+              "titlu": "Sărbătorile Vechiului Testament"
+            },
+            {
+              "id": "rel9-17",
+              "titlu": "Îngerii și lumea nevăzută"
+            },
+            {
+              "id": "rel9-18",
+              "titlu": "Numele și însușirile lui Dumnezeu"
+            }
+          ]
         }
       ],
       "teze": [
         {
           "semestru": 1,
-          "nrIntrebari": 9
+          "nrIntrebari": 15
         },
         {
           "semestru": 2,
-          "nrIntrebari": 9
+          "nrIntrebari": 15
         }
       ]
     },
@@ -759,10 +960,10 @@
       "bac": false,
       "socioUman": false,
       "descriere": "Celula și țesuturile, anatomia și fiziologia omului: sistemele de relație, de nutriție și de reproducere.",
-      "nrLectii": 9,
-      "nrCarduri": 36,
-      "nrIntrebari": 36,
-      "nrIntrebariTeze": 18,
+      "nrLectii": 18,
+      "nrCarduri": 72,
+      "nrIntrebari": 72,
+      "nrIntrebariTeze": 30,
       "capitole": [
         {
           "id": "bio9-c1",
@@ -820,16 +1021,73 @@
               "titlu": "Reproducerea și sănătatea"
             }
           ]
+        },
+        {
+          "id": "bio9-c4",
+          "titlu": "Citologie",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "bio9-10",
+              "titlu": "Compoziția chimică a celulei"
+            },
+            {
+              "id": "bio9-11",
+              "titlu": "Organitele celulare"
+            },
+            {
+              "id": "bio9-12",
+              "titlu": "Transportul prin membrană"
+            }
+          ]
+        },
+        {
+          "id": "bio9-c5",
+          "titlu": "Histologie",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "bio9-13",
+              "titlu": "Țesuturile epiteliale"
+            },
+            {
+              "id": "bio9-14",
+              "titlu": "Țesuturile conjunctive"
+            },
+            {
+              "id": "bio9-15",
+              "titlu": "Țesuturile muscular și nervos"
+            }
+          ]
+        },
+        {
+          "id": "bio9-c6",
+          "titlu": "Metabolism, imunitate și sănătate",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "bio9-16",
+              "titlu": "Metabolismul și enzimele"
+            },
+            {
+              "id": "bio9-17",
+              "titlu": "Imunitatea"
+            },
+            {
+              "id": "bio9-18",
+              "titlu": "Igiena, prevenția și stilul de viață"
+            }
+          ]
         }
       ],
       "teze": [
         {
           "semestru": 1,
-          "nrIntrebari": 9
+          "nrIntrebari": 15
         },
         {
           "semestru": 2,
-          "nrIntrebari": 9
+          "nrIntrebari": 15
         }
       ]
     },
@@ -842,10 +1100,10 @@
       "bac": false,
       "socioUman": false,
       "descriere": "Structura atomului, tabelul periodic, legături chimice, soluții și reacții chimice fundamentale.",
-      "nrLectii": 9,
-      "nrCarduri": 36,
-      "nrIntrebari": 36,
-      "nrIntrebariTeze": 18,
+      "nrLectii": 18,
+      "nrCarduri": 72,
+      "nrIntrebari": 72,
+      "nrIntrebariTeze": 30,
       "capitole": [
         {
           "id": "chi9-c1",
@@ -903,16 +1161,73 @@
               "titlu": "Viteza de reacție și chimia în viața de zi cu zi"
             }
           ]
+        },
+        {
+          "id": "chi9-c4",
+          "titlu": "Structura atomului și proprietățile periodice",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "chi9-10",
+              "titlu": "Modele atomice și învelișul electronic"
+            },
+            {
+              "id": "chi9-11",
+              "titlu": "Formarea ionilor și valența"
+            },
+            {
+              "id": "chi9-12",
+              "titlu": "Metale și nemetale. Proprietăți periodice"
+            }
+          ]
+        },
+        {
+          "id": "chi9-c5",
+          "titlu": "Compuși anorganici",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "chi9-13",
+              "titlu": "Oxizii"
+            },
+            {
+              "id": "chi9-14",
+              "titlu": "Acizii și bazele"
+            },
+            {
+              "id": "chi9-15",
+              "titlu": "Sărurile"
+            }
+          ]
+        },
+        {
+          "id": "chi9-c6",
+          "titlu": "Soluții, calcule și apa",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "chi9-16",
+              "titlu": "Dizolvarea și solubilitatea"
+            },
+            {
+              "id": "chi9-17",
+              "titlu": "Concentrația procentuală de masă"
+            },
+            {
+              "id": "chi9-18",
+              "titlu": "Apa — structură, proprietăți, importanță"
+            }
+          ]
         }
       ],
       "teze": [
         {
           "semestru": 1,
-          "nrIntrebari": 9
+          "nrIntrebari": 15
         },
         {
           "semestru": 2,
-          "nrIntrebari": 9
+          "nrIntrebari": 15
         }
       ]
     },
@@ -1174,10 +1489,10 @@
       "bac": true,
       "socioUman": false,
       "descriere": "Geografie umană și economică: populația, așezările, resursele, agricultura, industria, serviciile și harta politică a lumii.",
-      "nrLectii": 9,
-      "nrCarduri": 36,
-      "nrIntrebari": 36,
-      "nrIntrebariTeze": 24,
+      "nrLectii": 20,
+      "nrCarduri": 80,
+      "nrIntrebari": 80,
+      "nrIntrebariTeze": 36,
       "capitole": [
         {
           "id": "geo10-c1",
@@ -1242,16 +1557,88 @@
               "titlu": "Decalaje de dezvoltare și indicatori"
             }
           ]
+        },
+        {
+          "id": "geo10-c5",
+          "titlu": "Diversitatea și structura populației",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "geo10-10",
+              "titlu": "Rasele umane, limbile și religiile"
+            },
+            {
+              "id": "geo10-11",
+              "titlu": "Structura pe vârste, îmbătrânirea și dividendul demografic"
+            },
+            {
+              "id": "geo10-12",
+              "titlu": "Politicile demografice"
+            }
+          ]
+        },
+        {
+          "id": "geo10-c6",
+          "titlu": "Așezările omenești (aprofundare)",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "geo10-13",
+              "titlu": "Funcțiile și structura internă a orașului"
+            },
+            {
+              "id": "geo10-14",
+              "titlu": "Rețeaua de așezări și ierarhia urbană"
+            }
+          ]
+        },
+        {
+          "id": "geo10-c7",
+          "titlu": "Economia mondială (aprofundare)",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "geo10-15",
+              "titlu": "Marile sisteme și regiuni agricole ale lumii"
+            },
+            {
+              "id": "geo10-16",
+              "titlu": "Tipurile de industrie și regiunile industriale"
+            },
+            {
+              "id": "geo10-17",
+              "titlu": "Sistemul mondial de transporturi"
+            }
+          ]
+        },
+        {
+          "id": "geo10-c8",
+          "titlu": "Comerț, turism și globalizare",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "geo10-18",
+              "titlu": "Comerțul internațional și diviziunea mondială a muncii"
+            },
+            {
+              "id": "geo10-19",
+              "titlu": "Marile regiuni și forme ale turismului mondial"
+            },
+            {
+              "id": "geo10-20",
+              "titlu": "Globalizarea și lumea contemporană"
+            }
+          ]
         }
       ],
       "teze": [
         {
           "semestru": 1,
-          "nrIntrebari": 12
+          "nrIntrebari": 18
         },
         {
           "semestru": 2,
-          "nrIntrebari": 12
+          "nrIntrebari": 18
         }
       ]
     },
@@ -1264,10 +1651,10 @@
       "bac": true,
       "socioUman": false,
       "descriere": "Epoca modernă: Renaștere și Reformă, revoluții politice și industriale, națiunile, Europa secolului al XIX-lea și spațiul românesc modern.",
-      "nrLectii": 12,
-      "nrCarduri": 48,
-      "nrIntrebari": 48,
-      "nrIntrebariTeze": 24,
+      "nrLectii": 24,
+      "nrCarduri": 96,
+      "nrIntrebari": 96,
+      "nrIntrebariTeze": 36,
       "capitole": [
         {
           "id": "ist10-c1",
@@ -1344,16 +1731,92 @@
               "titlu": "Cultura și societatea românească modernă"
             }
           ]
+        },
+        {
+          "id": "ist10-c5",
+          "titlu": "Absolutism și monarhie parlamentară",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ist10-13",
+              "titlu": "Monarhia absolutistă: Franța lui Ludovic al XIV-lea"
+            },
+            {
+              "id": "ist10-14",
+              "titlu": "Anglia: revoluțiile secolului al XVII-lea și monarhia parlamentară"
+            },
+            {
+              "id": "ist10-15",
+              "titlu": "Echilibrul european și statul modern (secolele XVII–XVIII)"
+            }
+          ]
+        },
+        {
+          "id": "ist10-c6",
+          "titlu": "America și civilizația secolului al XIX-lea",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ist10-16",
+              "titlu": "Emanciparea Americii Latine"
+            },
+            {
+              "id": "ist10-17",
+              "titlu": "Statele Unite în secolul al XIX-lea: expansiune și Războiul de Secesiune"
+            },
+            {
+              "id": "ist10-18",
+              "titlu": "Știință, tehnică și viață cotidiană în epoca modernă"
+            }
+          ]
+        },
+        {
+          "id": "ist10-c7",
+          "titlu": "Construirea statelor naționale",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ist10-19",
+              "titlu": "Unificarea Italiei"
+            },
+            {
+              "id": "ist10-20",
+              "titlu": "Unificarea Germaniei"
+            },
+            {
+              "id": "ist10-21",
+              "titlu": "Rusia și Imperiul Otoman în secolul al XIX-lea"
+            }
+          ]
+        },
+        {
+          "id": "ist10-c8",
+          "titlu": "Spațiul românesc: modernizare și societate",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ist10-22",
+              "titlu": "Epoca fanariotă în Țările Române"
+            },
+            {
+              "id": "ist10-23",
+              "titlu": "Modernizarea economiei și a societății românești (secolul XIX)"
+            },
+            {
+              "id": "ist10-24",
+              "titlu": "Societate și viață cotidiană în România modernă"
+            }
+          ]
         }
       ],
       "teze": [
         {
           "semestru": 1,
-          "nrIntrebari": 12
+          "nrIntrebari": 18
         },
         {
           "semestru": 2,
-          "nrIntrebari": 12
+          "nrIntrebari": 18
         }
       ]
     },
@@ -1498,10 +1961,10 @@
       "bac": false,
       "socioUman": false,
       "descriere": "Noul Testament: viața și învățătura lui Iisus Hristos, Biserica primară și răspândirea creștinismului.",
-      "nrLectii": 9,
-      "nrCarduri": 36,
-      "nrIntrebari": 36,
-      "nrIntrebariTeze": 18,
+      "nrLectii": 18,
+      "nrCarduri": 72,
+      "nrIntrebari": 72,
+      "nrIntrebariTeze": 30,
       "capitole": [
         {
           "id": "rel10-c1",
@@ -1559,16 +2022,73 @@
               "titlu": "Creștinismul pe teritoriul românesc"
             }
           ]
+        },
+        {
+          "id": "rel10-c4",
+          "titlu": "Apostolii și scrierile Noului Testament",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rel10-10",
+              "titlu": "Cei doisprezece Apostoli"
+            },
+            {
+              "id": "rel10-11",
+              "titlu": "Epistolele Sfântului Apostol Pavel"
+            },
+            {
+              "id": "rel10-12",
+              "titlu": "Epistolele sobornicești și Apocalipsa"
+            }
+          ]
+        },
+        {
+          "id": "rel10-c5",
+          "titlu": "Învățătura și lucrarea Mântuitorului",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rel10-13",
+              "titlu": "Rugăciunea „Tatăl nostru”"
+            },
+            {
+              "id": "rel10-14",
+              "titlu": "Schimbarea la Față și descoperirea slavei"
+            },
+            {
+              "id": "rel10-15",
+              "titlu": "Femeile în Evanghelii"
+            }
+          ]
+        },
+        {
+          "id": "rel10-c6",
+          "titlu": "Răspândirea și viața Bisericii primare",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rel10-16",
+              "titlu": "Călătoriile misionare ale Sfântului Pavel"
+            },
+            {
+              "id": "rel10-17",
+              "titlu": "Părinții apostolici și apologeții"
+            },
+            {
+              "id": "rel10-18",
+              "titlu": "Simboluri creștine și viața în catacombe"
+            }
+          ]
         }
       ],
       "teze": [
         {
           "semestru": 1,
-          "nrIntrebari": 9
+          "nrIntrebari": 15
         },
         {
           "semestru": 2,
-          "nrIntrebari": 9
+          "nrIntrebari": 15
         }
       ]
     },
@@ -1920,10 +2440,10 @@
       "bac": false,
       "socioUman": false,
       "descriere": "Genetică și evoluție, diversitatea lumii vii, ecologie și educație pentru sănătate.",
-      "nrLectii": 9,
-      "nrCarduri": 36,
-      "nrIntrebari": 36,
-      "nrIntrebariTeze": 18,
+      "nrLectii": 18,
+      "nrCarduri": 72,
+      "nrIntrebari": 72,
+      "nrIntrebariTeze": 30,
       "capitole": [
         {
           "id": "bio10-c1",
@@ -1981,16 +2501,73 @@
               "titlu": "Sănătate și stil de viață"
             }
           ]
+        },
+        {
+          "id": "bio10-c4",
+          "titlu": "Diviziunea celulară",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "bio10-10",
+              "titlu": "Ciclul celular și mitoza"
+            },
+            {
+              "id": "bio10-11",
+              "titlu": "Meioza"
+            },
+            {
+              "id": "bio10-12",
+              "titlu": "Cromozomii și determinismul sexului"
+            }
+          ]
+        },
+        {
+          "id": "bio10-c5",
+          "titlu": "Genetică",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "bio10-13",
+              "titlu": "Monohibridarea și legile eredității"
+            },
+            {
+              "id": "bio10-14",
+              "titlu": "Genetica umană și bolile ereditare"
+            },
+            {
+              "id": "bio10-15",
+              "titlu": "Mutațiile și factorii mutageni"
+            }
+          ]
+        },
+        {
+          "id": "bio10-c6",
+          "titlu": "Ecologie",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "bio10-16",
+              "titlu": "Factorii ecologici"
+            },
+            {
+              "id": "bio10-17",
+              "titlu": "Populația și dinamica ei"
+            },
+            {
+              "id": "bio10-18",
+              "titlu": "Relații interspecifice și succesiunea ecologică"
+            }
+          ]
         }
       ],
       "teze": [
         {
           "semestru": 1,
-          "nrIntrebari": 9
+          "nrIntrebari": 15
         },
         {
           "semestru": 2,
-          "nrIntrebari": 9
+          "nrIntrebari": 15
         }
       ]
     },
@@ -2003,10 +2580,10 @@
       "bac": false,
       "socioUman": false,
       "descriere": "Chimie organică: hidrocarburi, compuși cu grupe funcționale, substanțe naturale și chimia vieții cotidiene.",
-      "nrLectii": 9,
-      "nrCarduri": 36,
-      "nrIntrebari": 36,
-      "nrIntrebariTeze": 18,
+      "nrLectii": 18,
+      "nrCarduri": 72,
+      "nrIntrebari": 72,
+      "nrIntrebariTeze": 30,
       "capitole": [
         {
           "id": "chi10-c1",
@@ -2064,16 +2641,73 @@
               "titlu": "Chimia în viața cotidiană"
             }
           ]
+        },
+        {
+          "id": "chi10-c4",
+          "titlu": "Hidrocarburi — aprofundare",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "chi10-10",
+              "titlu": "Alcanii"
+            },
+            {
+              "id": "chi10-11",
+              "titlu": "Alchene și alchine — reacții de adiție"
+            },
+            {
+              "id": "chi10-12",
+              "titlu": "Petrolul, gazul natural și combustibilii"
+            }
+          ]
+        },
+        {
+          "id": "chi10-c5",
+          "titlu": "Reacții și compuși organici cu oxigen",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "chi10-13",
+              "titlu": "Aldehide și cetone"
+            },
+            {
+              "id": "chi10-14",
+              "titlu": "Tipuri de reacții în chimia organică"
+            },
+            {
+              "id": "chi10-15",
+              "titlu": "Fermentațiile"
+            }
+          ]
+        },
+        {
+          "id": "chi10-c6",
+          "titlu": "Compuși cu importanță practică",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "chi10-16",
+              "titlu": "Lipidele"
+            },
+            {
+              "id": "chi10-17",
+              "titlu": "Săpunuri și detergenți"
+            },
+            {
+              "id": "chi10-18",
+              "titlu": "Vitaminele și compușii biologic activi"
+            }
+          ]
         }
       ],
       "teze": [
         {
           "semestru": 1,
-          "nrIntrebari": 9
+          "nrIntrebari": 15
         },
         {
           "semestru": 2,
-          "nrIntrebari": 9
+          "nrIntrebari": 15
         }
       ]
     },
@@ -2335,10 +2969,10 @@
       "bac": true,
       "socioUman": false,
       "descriere": "Probleme fundamentale ale lumii contemporane: mediul, resursele, populația, sistemul urban, geopolitica și globalizarea.",
-      "nrLectii": 9,
-      "nrCarduri": 36,
-      "nrIntrebari": 36,
-      "nrIntrebariTeze": 24,
+      "nrLectii": 20,
+      "nrCarduri": 80,
+      "nrIntrebari": 80,
+      "nrIntrebariTeze": 36,
       "capitole": [
         {
           "id": "geo11-c1",
@@ -2403,16 +3037,88 @@
               "titlu": "Harta, GIS și interpretarea datelor geografice"
             }
           ]
+        },
+        {
+          "id": "geo11-c5",
+          "titlu": "Hazardele și riscurile în lumea contemporană",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "geo11-10",
+              "titlu": "Hazardele naturale: geologice și climatice"
+            },
+            {
+              "id": "geo11-11",
+              "titlu": "Riscul, vulnerabilitatea și managementul dezastrelor"
+            },
+            {
+              "id": "geo11-12",
+              "titlu": "Apa — resursă strategică și sursă de tensiuni"
+            }
+          ]
+        },
+        {
+          "id": "geo11-c6",
+          "titlu": "Energia și dezvoltarea durabilă",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "geo11-13",
+              "titlu": "Resursele energetice și tranziția energetică"
+            },
+            {
+              "id": "geo11-14",
+              "titlu": "Dezvoltarea durabilă și Obiectivele de Dezvoltare Durabilă"
+            }
+          ]
+        },
+        {
+          "id": "geo11-c7",
+          "titlu": "Societatea și spațiul urban în lumea contemporană",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "geo11-15",
+              "titlu": "Calitatea vieții și indicatorii dezvoltării"
+            },
+            {
+              "id": "geo11-16",
+              "titlu": "Orașul durabil și provocările urbane"
+            },
+            {
+              "id": "geo11-17",
+              "titlu": "Migrațiile internaționale și refugiații"
+            }
+          ]
+        },
+        {
+          "id": "geo11-c8",
+          "titlu": "Geopolitica și mediul global",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "geo11-18",
+              "titlu": "Conflicte și securitate în lumea contemporană"
+            },
+            {
+              "id": "geo11-19",
+              "titlu": "Organizațiile internaționale și guvernanța globală"
+            },
+            {
+              "id": "geo11-20",
+              "titlu": "Problemele globale de mediu și cooperarea internațională"
+            }
+          ]
         }
       ],
       "teze": [
         {
           "semestru": 1,
-          "nrIntrebari": 12
+          "nrIntrebari": 18
         },
         {
           "semestru": 2,
-          "nrIntrebari": 12
+          "nrIntrebari": 18
         }
       ]
     },
@@ -2508,10 +3214,10 @@
       "bac": true,
       "socioUman": false,
       "descriere": "Secolul XX: războaie mondiale, democrație și totalitarism, Războiul Rece, decolonizare și construcția europeană.",
-      "nrLectii": 11,
-      "nrCarduri": 44,
-      "nrIntrebari": 44,
-      "nrIntrebariTeze": 24,
+      "nrLectii": 24,
+      "nrCarduri": 96,
+      "nrIntrebari": 96,
+      "nrIntrebariTeze": 36,
       "capitole": [
         {
           "id": "ist11-c1",
@@ -2584,16 +3290,96 @@
               "titlu": "Lumea după 1991: globalizare, conflicte, provocări"
             }
           ]
+        },
+        {
+          "id": "ist11-c5",
+          "titlu": "România interbelică și criza democrației",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ist11-12",
+              "titlu": "România interbelică: stat, economie, societate"
+            },
+            {
+              "id": "ist11-13",
+              "titlu": "Marea criză economică (1929–1933) și efectele ei"
+            },
+            {
+              "id": "ist11-14",
+              "titlu": "Ascensiunea autoritarismului în Europa anilor '30"
+            }
+          ]
+        },
+        {
+          "id": "ist11-c6",
+          "titlu": "Drumul spre al Doilea Război Mondial",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ist11-15",
+              "titlu": "Sistemul de la Versailles și eșecul securității colective"
+            },
+            {
+              "id": "ist11-16",
+              "titlu": "Expansiunea Germaniei naziste (1933–1939)"
+            },
+            {
+              "id": "ist11-17",
+              "titlu": "România și marile puteri (1938–1940): pierderile teritoriale"
+            }
+          ]
+        },
+        {
+          "id": "ist11-c7",
+          "titlu": "Al Doilea Război Mondial: aprofundări",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ist11-18",
+              "titlu": "România în Al Doilea Război Mondial"
+            },
+            {
+              "id": "ist11-19",
+              "titlu": "Holocaustul și crimele regimurilor totalitare"
+            },
+            {
+              "id": "ist11-20",
+              "titlu": "Sfârșitul războiului și noua ordine mondială"
+            }
+          ]
+        },
+        {
+          "id": "ist11-c8",
+          "titlu": "Lumea postbelică și România",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ist11-21",
+              "titlu": "Instaurarea comunismului în România"
+            },
+            {
+              "id": "ist11-22",
+              "titlu": "Blocul sovietic și crizele Războiului Rece"
+            },
+            {
+              "id": "ist11-23",
+              "titlu": "Prăbușirea comunismului și anul 1989"
+            },
+            {
+              "id": "ist11-24",
+              "titlu": "România după 1989: tranziție și integrare euroatlantică"
+            }
+          ]
         }
       ],
       "teze": [
         {
           "semestru": 1,
-          "nrIntrebari": 12
+          "nrIntrebari": 18
         },
         {
           "semestru": 2,
-          "nrIntrebari": 12
+          "nrIntrebari": 18
         }
       ]
     },
@@ -2606,10 +3392,10 @@
       "bac": false,
       "socioUman": false,
       "descriere": "Biserica: Sfintele Taine, cultul și arta liturgică, istoria creștinismului și relația credinței cu știința și cultura.",
-      "nrLectii": 9,
-      "nrCarduri": 36,
-      "nrIntrebari": 36,
-      "nrIntrebariTeze": 18,
+      "nrLectii": 18,
+      "nrCarduri": 72,
+      "nrIntrebari": 72,
+      "nrIntrebariTeze": 30,
       "capitole": [
         {
           "id": "rel11-c1",
@@ -2667,16 +3453,73 @@
               "titlu": "Religiile lumii și dialogul"
             }
           ]
+        },
+        {
+          "id": "rel11-c4",
+          "titlu": "Slujbele și rânduielile Bisericii",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rel11-10",
+              "titlu": "Laudele bisericești"
+            },
+            {
+              "id": "rel11-11",
+              "titlu": "Ierurgiile și slujbele de trebuință"
+            },
+            {
+              "id": "rel11-12",
+              "titlu": "Cântarea bisericească și muzica psaltică"
+            }
+          ]
+        },
+        {
+          "id": "rel11-c5",
+          "titlu": "Organizarea și răspândirea Ortodoxiei",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rel11-13",
+              "titlu": "Bisericile Ortodoxe autocefale"
+            },
+            {
+              "id": "rel11-14",
+              "titlu": "Monahismul și marile centre monahale"
+            },
+            {
+              "id": "rel11-15",
+              "titlu": "Misiunea creștină și încreștinarea popoarelor"
+            }
+          ]
+        },
+        {
+          "id": "rel11-c6",
+          "titlu": "Confesiuni creștine și marile religii",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rel11-16",
+              "titlu": "Catolicismul și protestantismul"
+            },
+            {
+              "id": "rel11-17",
+              "titlu": "Iudaismul și islamul"
+            },
+            {
+              "id": "rel11-18",
+              "titlu": "Religiile Orientului: hinduismul și budismul"
+            }
+          ]
         }
       ],
       "teze": [
         {
           "semestru": 1,
-          "nrIntrebari": 9
+          "nrIntrebari": 15
         },
         {
           "semestru": 2,
-          "nrIntrebari": 9
+          "nrIntrebari": 15
         }
       ]
     },
@@ -3518,10 +4361,10 @@
       "bac": true,
       "socioUman": false,
       "descriere": "Europa, România și Uniunea Europeană: relief, climă, ape, populație, așezări, economie și integrare — temele probei de bacalaureat.",
-      "nrLectii": 9,
-      "nrCarduri": 36,
-      "nrIntrebari": 36,
-      "nrIntrebariTeze": 25,
+      "nrLectii": 20,
+      "nrCarduri": 80,
+      "nrIntrebari": 80,
+      "nrIntrebariTeze": 37,
       "capitole": [
         {
           "id": "geo12-c1",
@@ -3586,16 +4429,88 @@
               "titlu": "România în Uniunea Europeană"
             }
           ]
+        },
+        {
+          "id": "geo12-c5",
+          "titlu": "Cadrul natural al Europei și al României (aprofundare)",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "geo12-10",
+              "titlu": "Mările, fluviile și lacurile Europei"
+            },
+            {
+              "id": "geo12-11",
+              "titlu": "Mediul înconjurător și hazardele naturale în Europa și România"
+            },
+            {
+              "id": "geo12-12",
+              "titlu": "Regiunile geografice ale României"
+            }
+          ]
+        },
+        {
+          "id": "geo12-c6",
+          "titlu": "Populația și orașele României (aprofundare)",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "geo12-13",
+              "titlu": "Structura populației României"
+            },
+            {
+              "id": "geo12-14",
+              "titlu": "Orașele României: București și marile orașe"
+            }
+          ]
+        },
+        {
+          "id": "geo12-c7",
+          "titlu": "Economia Europei și a României (aprofundare)",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "geo12-15",
+              "titlu": "Transporturile și căile de comunicație în România"
+            },
+            {
+              "id": "geo12-16",
+              "titlu": "Turismul în România și în Europa"
+            },
+            {
+              "id": "geo12-17",
+              "titlu": "Serviciile și economia bazată pe cunoaștere"
+            }
+          ]
+        },
+        {
+          "id": "geo12-c8",
+          "titlu": "România în Europa și în lume",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "geo12-18",
+              "titlu": "Diviziunile Europei"
+            },
+            {
+              "id": "geo12-19",
+              "titlu": "Politicile Uniunii Europene"
+            },
+            {
+              "id": "geo12-20",
+              "titlu": "România — poziție geopolitică și perspective"
+            }
+          ]
         }
       ],
       "teze": [
         {
           "semestru": 1,
-          "nrIntrebari": 12
+          "nrIntrebari": 18
         },
         {
           "semestru": 2,
-          "nrIntrebari": 13
+          "nrIntrebari": 19
         }
       ]
     },
@@ -3608,10 +4523,10 @@
       "bac": true,
       "socioUman": false,
       "descriere": "Istoria românilor pe temele de bacalaureat: romanitate, autonomii și instituții, statul modern, secolul XX, constituții și relații internaționale.",
-      "nrLectii": 12,
-      "nrCarduri": 48,
-      "nrIntrebari": 48,
-      "nrIntrebariTeze": 24,
+      "nrLectii": 24,
+      "nrCarduri": 96,
+      "nrIntrebari": 96,
+      "nrIntrebariTeze": 36,
       "capitole": [
         {
           "id": "ist12-c1",
@@ -3688,16 +4603,92 @@
               "titlu": "România în perioada Războiului Rece"
             }
           ]
+        },
+        {
+          "id": "ist12-c5",
+          "titlu": "Spiritualitate și cultură în istoria românilor",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ist12-13",
+              "titlu": "Biserica și viața religioasă în istoria românilor"
+            },
+            {
+              "id": "ist12-14",
+              "titlu": "Cultura scrisă: de la slavonă la limba română"
+            },
+            {
+              "id": "ist12-15",
+              "titlu": "Artă și ctitorii în Țările Române"
+            }
+          ]
+        },
+        {
+          "id": "ist12-c6",
+          "titlu": "Economie și societate în istoria românilor",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ist12-16",
+              "titlu": "Structuri sociale și economice medievale"
+            },
+            {
+              "id": "ist12-17",
+              "titlu": "Domnie, boierime și țărănime (secolele XV–XVIII)"
+            },
+            {
+              "id": "ist12-18",
+              "titlu": "Modernizarea economică a României (secolele XIX–XX)"
+            }
+          ]
+        },
+        {
+          "id": "ist12-c7",
+          "titlu": "Personalități ale istoriei românilor",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ist12-19",
+              "titlu": "Ctitori de stat în Evul Mediu"
+            },
+            {
+              "id": "ist12-20",
+              "titlu": "Făuritorii României moderne"
+            },
+            {
+              "id": "ist12-21",
+              "titlu": "Personalități ale secolului XX"
+            }
+          ]
+        },
+        {
+          "id": "ist12-c8",
+          "titlu": "Diversitate, memorie și continuitate",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ist12-22",
+              "titlu": "Minoritățile naționale în istoria românilor"
+            },
+            {
+              "id": "ist12-23",
+              "titlu": "Basarabia în istoria românilor și Republica Moldova"
+            },
+            {
+              "id": "ist12-24",
+              "titlu": "Continuități și rupturi în istoria românilor"
+            }
+          ]
         }
       ],
       "teze": [
         {
           "semestru": 1,
-          "nrIntrebari": 12
+          "nrIntrebari": 18
         },
         {
           "semestru": 2,
-          "nrIntrebari": 12
+          "nrIntrebari": 18
         }
       ]
     },
@@ -3710,10 +4701,10 @@
       "bac": false,
       "socioUman": false,
       "descriere": "Morala creștină: conștiință și libertate, viața personală și de familie, responsabilitatea socială și bioetica.",
-      "nrLectii": 9,
-      "nrCarduri": 36,
-      "nrIntrebari": 36,
-      "nrIntrebariTeze": 18,
+      "nrLectii": 18,
+      "nrCarduri": 72,
+      "nrIntrebari": 72,
+      "nrIntrebariTeze": 30,
       "capitole": [
         {
           "id": "rel12-c1",
@@ -3771,16 +4762,73 @@
               "titlu": "Creștinismul și provocările contemporane"
             }
           ]
+        },
+        {
+          "id": "rel12-c4",
+          "titlu": "Chemarea la sfințenie și viața duhovnicească",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rel12-10",
+              "titlu": "Fericirile — programul vieții creștine"
+            },
+            {
+              "id": "rel12-11",
+              "titlu": "Rugăciunea și viața interioară"
+            },
+            {
+              "id": "rel12-12",
+              "titlu": "Iertarea și reconcilierea"
+            }
+          ]
+        },
+        {
+          "id": "rel12-c5",
+          "titlu": "Morala relațiilor și a comunicării",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rel12-13",
+              "titlu": "Prietenia și iubirea"
+            },
+            {
+              "id": "rel12-14",
+              "titlu": "Adevăr, cuvânt, comunicare"
+            },
+            {
+              "id": "rel12-15",
+              "titlu": "Dreptatea și pacea"
+            }
+          ]
+        },
+        {
+          "id": "rel12-c6",
+          "titlu": "Provocări etice contemporane",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rel12-16",
+              "titlu": "Etica mediului și responsabilitatea ecologică"
+            },
+            {
+              "id": "rel12-17",
+              "titlu": "Etica muncii, a averii și a sărăciei"
+            },
+            {
+              "id": "rel12-18",
+              "titlu": "Voluntariatul și solidaritatea"
+            }
+          ]
         }
       ],
       "teze": [
         {
           "semestru": 1,
-          "nrIntrebari": 9
+          "nrIntrebari": 15
         },
         {
           "semestru": 2,
-          "nrIntrebari": 9
+          "nrIntrebari": 15
         }
       ]
     },
@@ -4577,10 +5625,10 @@
       "bac": true,
       "socioUman": false,
       "descriere": "Aprofundare pentru bacalaureat: regiunile Europei, analiza comparativă a statelor, harta de examen și metoda de lucru cu datele geografice.",
-      "nrLectii": 9,
-      "nrCarduri": 36,
-      "nrIntrebari": 36,
-      "nrIntrebariTeze": 24,
+      "nrLectii": 20,
+      "nrCarduri": 80,
+      "nrIntrebari": 80,
+      "nrIntrebariTeze": 36,
       "capitole": [
         {
           "id": "geo13-c1",
@@ -4638,16 +5686,88 @@
               "titlu": "Strategii de pregătire și greșeli frecvente"
             }
           ]
+        },
+        {
+          "id": "geo13-c4",
+          "titlu": "State și studii de caz europene (aprofundare)",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "geo13-10",
+              "titlu": "Studiu de caz: Franța și Germania"
+            },
+            {
+              "id": "geo13-11",
+              "titlu": "Studiu de caz: Regatul Unit, Italia și Spania"
+            },
+            {
+              "id": "geo13-12",
+              "titlu": "Statele vecine României și relațiile regionale"
+            }
+          ]
+        },
+        {
+          "id": "geo13-c5",
+          "titlu": "România — teme de sinteză pentru bacalaureat",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "geo13-13",
+              "titlu": "Sinteză: cadrul natural al României la examen"
+            },
+            {
+              "id": "geo13-14",
+              "titlu": "Sinteză: populația și așezările României la examen"
+            }
+          ]
+        },
+        {
+          "id": "geo13-c6",
+          "titlu": "Probleme fundamentale ale lumii contemporane",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "geo13-15",
+              "titlu": "Uniunea Europeană — construcție, instituții și provocări"
+            },
+            {
+              "id": "geo13-16",
+              "titlu": "Problema demografică și migrațiile în lumea de azi"
+            },
+            {
+              "id": "geo13-17",
+              "titlu": "Mediul, resursele și dezvoltarea durabilă"
+            }
+          ]
+        },
+        {
+          "id": "geo13-c7",
+          "titlu": "Metodă și pregătire pentru examen (aprofundare)",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "geo13-18",
+              "titlu": "Studiul de caz și eseul geografic structurat"
+            },
+            {
+              "id": "geo13-19",
+              "titlu": "Lucrul cu harta Europei și a României la examen"
+            },
+            {
+              "id": "geo13-20",
+              "titlu": "Calcule, grafice și erori tipice la proba de geografie"
+            }
+          ]
         }
       ],
       "teze": [
         {
           "semestru": 1,
-          "nrIntrebari": 12
+          "nrIntrebari": 18
         },
         {
           "semestru": 2,
-          "nrIntrebari": 12
+          "nrIntrebari": 18
         }
       ]
     },
@@ -4833,10 +5953,10 @@
       "bac": false,
       "socioUman": false,
       "descriere": "Sinteză: credința în lumea contemporană, spiritualitatea ortodoxă, patrimoniul creștin românesc și alegerile vieții de adult.",
-      "nrLectii": 9,
-      "nrCarduri": 36,
-      "nrIntrebari": 36,
-      "nrIntrebariTeze": 18,
+      "nrLectii": 18,
+      "nrCarduri": 72,
+      "nrIntrebari": 72,
+      "nrIntrebariTeze": 30,
       "capitole": [
         {
           "id": "rel13-c1",
@@ -4894,16 +6014,73 @@
               "titlu": "Sinteză: ce rămâne"
             }
           ]
+        },
+        {
+          "id": "rel13-c4",
+          "titlu": "Repere de istorie a Bisericii Ortodoxe Române",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rel13-10",
+              "titlu": "Organizarea Bisericii românești și mitropoliile"
+            },
+            {
+              "id": "rel13-11",
+              "titlu": "Marii ierarhi și cărturari ai Bisericii românești"
+            },
+            {
+              "id": "rel13-12",
+              "titlu": "Biserica în epoca modernă și contemporană"
+            }
+          ]
+        },
+        {
+          "id": "rel13-c5",
+          "titlu": "Sfinți și locuri de spiritualitate românească",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rel13-13",
+              "titlu": "Sfinți români și moaște cinstite"
+            },
+            {
+              "id": "rel13-14",
+              "titlu": "Mănăstiri și pelerinaje"
+            },
+            {
+              "id": "rel13-15",
+              "titlu": "Marile praznice și tradiția liturgică"
+            }
+          ]
+        },
+        {
+          "id": "rel13-c6",
+          "titlu": "Credință, cultură și viață în lumea de azi",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rel13-16",
+              "titlu": "Credință, știință și cultură contemporană"
+            },
+            {
+              "id": "rel13-17",
+              "titlu": "Demnitatea vieții și bioetica"
+            },
+            {
+              "id": "rel13-18",
+              "titlu": "Libertate, responsabilitate și sensul vieții"
+            }
+          ]
         }
       ],
       "teze": [
         {
           "semestru": 1,
-          "nrIntrebari": 9
+          "nrIntrebari": 15
         },
         {
           "semestru": 2,
-          "nrIntrebari": 9
+          "nrIntrebari": 15
         }
       ]
     },
