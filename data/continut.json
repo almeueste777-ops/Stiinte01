@@ -2,10 +2,10 @@
   "version": "03",
   "actualizat": "2026-08-24",
   "nrModule": 60,
-  "nrLectii": 773,
-  "nrCarduri": 3092,
-  "nrIntrebari": 3092,
-  "nrIntrebariTeze": 1522,
+  "nrLectii": 833,
+  "nrCarduri": 3332,
+  "nrIntrebari": 3332,
+  "nrIntrebariTeze": 1552,
   "module": [
     {
       "id": "geografie-9",
@@ -704,10 +704,10 @@
       "bac": true,
       "socioUman": false,
       "descriere": "Bazele limbii engleze: timpurile de bază, substantivul și articolul, vocabularul esențial și comunicarea în situații cotidiene.",
-      "nrLectii": 9,
-      "nrCarduri": 36,
-      "nrIntrebari": 36,
-      "nrIntrebariTeze": 24,
+      "nrLectii": 18,
+      "nrCarduri": 72,
+      "nrIntrebari": 72,
+      "nrIntrebariTeze": 36,
       "capitole": [
         {
           "id": "eng9-c1",
@@ -765,16 +765,73 @@
               "titlu": "Citit, scris și strategii de învățare"
             }
           ]
+        },
+        {
+          "id": "eng9-c4",
+          "titlu": "Pronume, prepoziții și determinanți",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "eng9-10",
+              "titlu": "Pronumele și posesivele"
+            },
+            {
+              "id": "eng9-11",
+              "titlu": "Prepozițiile de loc, de timp și de mișcare"
+            },
+            {
+              "id": "eng9-12",
+              "titlu": "„There is/there are\", some, any și cantitatea"
+            }
+          ]
+        },
+        {
+          "id": "eng9-c5",
+          "titlu": "Întrebări, comenzi și numere",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "eng9-13",
+              "titlu": "Cuvinte interogative și răspunsuri scurte"
+            },
+            {
+              "id": "eng9-14",
+              "titlu": "Imperativul, sugestiile și indicațiile de drum"
+            },
+            {
+              "id": "eng9-15",
+              "titlu": "Numere, oră, dată și prețuri"
+            }
+          ]
+        },
+        {
+          "id": "eng9-c6",
+          "titlu": "Vocabular tematic și civilizație",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "eng9-16",
+              "titlu": "Sănătate și la medic"
+            },
+            {
+              "id": "eng9-17",
+              "titlu": "Mâncare, cumpărături și la restaurant"
+            },
+            {
+              "id": "eng9-18",
+              "titlu": "Lumea vorbitoare de engleză"
+            }
+          ]
         }
       ],
       "teze": [
         {
           "semestru": 1,
-          "nrIntrebari": 12
+          "nrIntrebari": 18
         },
         {
           "semestru": 2,
-          "nrIntrebari": 12
+          "nrIntrebari": 18
         }
       ]
     },
@@ -927,10 +984,10 @@
       "bac": true,
       "socioUman": false,
       "descriere": "Ficțiunea și genurile literare, structura textului narativ, liric și dramatic, plus bazele exprimării corecte și ale comunicării.",
-      "nrLectii": 9,
-      "nrCarduri": 36,
-      "nrIntrebari": 36,
-      "nrIntrebariTeze": 24,
+      "nrLectii": 20,
+      "nrCarduri": 80,
+      "nrIntrebari": 80,
+      "nrIntrebariTeze": 30,
       "capitole": [
         {
           "id": "rom9-c1",
@@ -995,12 +1052,84 @@
               "titlu": "Redactarea textelor: rezumat, caracterizare, text argumentativ"
             }
           ]
+        },
+        {
+          "id": "rom9-c5",
+          "titlu": "Genul epic și speciile narative",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rom9-10",
+              "titlu": "Basmul popular: structură și personaje"
+            },
+            {
+              "id": "rom9-11",
+              "titlu": "Schița și nuvela"
+            },
+            {
+              "id": "rom9-12",
+              "titlu": "Povestirea și balada"
+            }
+          ]
+        },
+        {
+          "id": "rom9-c6",
+          "titlu": "Figuri de stil și limbaj poetic",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "rom9-13",
+              "titlu": "Tropii: epitetul, comparația, metafora, personificarea"
+            },
+            {
+              "id": "rom9-14",
+              "titlu": "Figuri de construcție și de gândire: hiperbola, antiteza, repetiția, enumerația"
+            },
+            {
+              "id": "rom9-15",
+              "titlu": "Speciile genului liric: pastelul, oda, elegia, meditația"
+            }
+          ]
+        },
+        {
+          "id": "rom9-c7",
+          "titlu": "Lectură, interpretare și text dramatic",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rom9-16",
+              "titlu": "Temă, motiv, laitmotiv, viziune despre lume"
+            },
+            {
+              "id": "rom9-17",
+              "titlu": "Comedia și drama: specii ale genului dramatic"
+            }
+          ]
+        },
+        {
+          "id": "rom9-c8",
+          "titlu": "Limba română: sintaxă, ortografie, stil",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "rom9-18",
+              "titlu": "Sintaxa propoziției: părțile de propoziție"
+            },
+            {
+              "id": "rom9-19",
+              "titlu": "Sintaxa frazei: propoziții principale și subordonate"
+            },
+            {
+              "id": "rom9-20",
+              "titlu": "Ortografie și punctuație: reguli esențiale"
+            }
+          ]
         }
       ],
       "teze": [
         {
           "semestru": 1,
-          "nrIntrebari": 12
+          "nrIntrebari": 18
         },
         {
           "semestru": 2,
@@ -1297,10 +1426,10 @@
       "bac": false,
       "socioUman": false,
       "descriere": "Mecanica: mișcare și repaus, principiile dinamicii, lucru mecanic și energie, echilibru și mașini simple.",
-      "nrLectii": 9,
-      "nrCarduri": 36,
-      "nrIntrebari": 36,
-      "nrIntrebariTeze": 18,
+      "nrLectii": 18,
+      "nrCarduri": 72,
+      "nrIntrebari": 72,
+      "nrIntrebariTeze": 24,
       "capitole": [
         {
           "id": "fiz9-c1",
@@ -1358,12 +1487,69 @@
               "titlu": "Presiunea în solide, lichide și gaze"
             }
           ]
+        },
+        {
+          "id": "fiz9-c4",
+          "titlu": "Cinematica vectorială și mișcarea circulară",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fiz9-10",
+              "titlu": "Vectori: reprezentare, adunare, descompunere"
+            },
+            {
+              "id": "fiz9-11",
+              "titlu": "Mișcarea circulară uniformă"
+            },
+            {
+              "id": "fiz9-12",
+              "titlu": "Compunerea mișcărilor. Aruncarea corpurilor"
+            }
+          ]
+        },
+        {
+          "id": "fiz9-c5",
+          "titlu": "Gravitația și impulsul mecanic",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "fiz9-13",
+              "titlu": "Legea atracției universale"
+            },
+            {
+              "id": "fiz9-14",
+              "titlu": "Impulsul mecanic și teorema variației impulsului"
+            },
+            {
+              "id": "fiz9-15",
+              "titlu": "Legea conservării impulsului. Ciocniri"
+            }
+          ]
+        },
+        {
+          "id": "fiz9-c6",
+          "titlu": "Teoreme de variație și oscilații",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "fiz9-16",
+              "titlu": "Teorema variației energiei cinetice"
+            },
+            {
+              "id": "fiz9-17",
+              "titlu": "Energia potențială și forțe conservative"
+            },
+            {
+              "id": "fiz9-18",
+              "titlu": "Pendulul gravitațional și conservarea energiei"
+            }
+          ]
         }
       ],
       "teze": [
         {
           "semestru": 1,
-          "nrIntrebari": 9
+          "nrIntrebari": 15
         },
         {
           "semestru": 2,
@@ -2241,9 +2427,9 @@
       "bac": true,
       "socioUman": false,
       "descriere": "Structuri intermediare: timpuri perfecte, condiționale, pasiv, vorbire indirectă și competențe de comunicare aplicată.",
-      "nrLectii": 9,
-      "nrCarduri": 36,
-      "nrIntrebari": 36,
+      "nrLectii": 18,
+      "nrCarduri": 72,
+      "nrIntrebari": 72,
       "nrIntrebariTeze": 24,
       "capitole": [
         {
@@ -2302,6 +2488,63 @@
               "titlu": "Engleza pentru studiu și examene"
             }
           ]
+        },
+        {
+          "id": "eng10-c4",
+          "titlu": "Verb și timp (aprofundare)",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "eng10-10",
+              "titlu": "Formele viitorului și viitorul continuu"
+            },
+            {
+              "id": "eng10-11",
+              "titlu": "Obișnuințe trecute: used to, would, be/get used to"
+            },
+            {
+              "id": "eng10-12",
+              "titlu": "Structuri de grad: so, such, too, enough"
+            }
+          ]
+        },
+        {
+          "id": "eng10-c5",
+          "titlu": "Cuvinte de legătură și formarea cuvintelor",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "eng10-13",
+              "titlu": "Conectori și cuvinte de legătură"
+            },
+            {
+              "id": "eng10-14",
+              "titlu": "Formarea cuvintelor: prefixe și sufixe"
+            },
+            {
+              "id": "eng10-15",
+              "titlu": "Verbe frazale de bază"
+            }
+          ]
+        },
+        {
+          "id": "eng10-c6",
+          "titlu": "Vocabular tematic aplicat",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "eng10-16",
+              "titlu": "Călătorii, turism și orientare"
+            },
+            {
+              "id": "eng10-17",
+              "titlu": "Tehnologie și comunicare digitală"
+            },
+            {
+              "id": "eng10-18",
+              "titlu": "Sănătate, sport și stil de viață"
+            }
+          ]
         }
       ],
       "teze": [
@@ -2324,9 +2567,9 @@
       "bac": false,
       "socioUman": false,
       "descriere": "Timpurile trecutului, pronumele, comunicarea în situații cotidiene și vocabularul vieții zilnice.",
-      "nrLectii": 9,
-      "nrCarduri": 36,
-      "nrIntrebari": 36,
+      "nrLectii": 18,
+      "nrCarduri": 72,
+      "nrIntrebari": 72,
       "nrIntrebariTeze": 18,
       "capitole": [
         {
@@ -2383,6 +2626,63 @@
             {
               "id": "fra10-09",
               "titlu": "Franța și francofonia"
+            }
+          ]
+        },
+        {
+          "id": "fra10-c4",
+          "titlu": "Comparație, adverbe, imperativ",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "fra10-10",
+              "titlu": "Comparativul și superlativul"
+            },
+            {
+              "id": "fra10-11",
+              "titlu": "Adverbele și formarea lor"
+            },
+            {
+              "id": "fra10-12",
+              "titlu": "Imperativul"
+            }
+          ]
+        },
+        {
+          "id": "fra10-c5",
+          "titlu": "Determinanți și legături",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "fra10-13",
+              "titlu": "Articolele contractate și prepozițiile „à\" și „de\""
+            },
+            {
+              "id": "fra10-14",
+              "titlu": "Exprimarea timpului: depuis, il y a, pendant, dans"
+            },
+            {
+              "id": "fra10-15",
+              "titlu": "Adjectivele demonstrative și posesive (aprofundare)"
+            }
+          ]
+        },
+        {
+          "id": "fra10-c6",
+          "titlu": "Comunicare: teme cotidiene",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "fra10-16",
+              "titlu": "Călătoria și orientarea în oraș"
+            },
+            {
+              "id": "fra10-17",
+              "titlu": "Sănătatea și la medic"
+            },
+            {
+              "id": "fra10-18",
+              "titlu": "Sărbătorile și tradițiile franceze"
             }
           ]
         }
@@ -5920,10 +6220,10 @@
       "bac": true,
       "socioUman": false,
       "descriere": "Sinteze pentru bacalaureat: ideologii și practici politice, biserică și școală, minorități, plus metoda de lucru cu sursele și eseul istoric.",
-      "nrLectii": 9,
-      "nrCarduri": 36,
-      "nrIntrebari": 36,
-      "nrIntrebariTeze": 24,
+      "nrLectii": 22,
+      "nrCarduri": 88,
+      "nrIntrebari": 88,
+      "nrIntrebariTeze": 30,
       "capitole": [
         {
           "id": "ist13-c1",
@@ -5988,12 +6288,92 @@
               "titlu": "Eseul istoric structurat"
             }
           ]
+        },
+        {
+          "id": "ist13-c5",
+          "titlu": "Puterea și societatea de-a lungul timpului",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ist13-10",
+              "titlu": "Forme de organizare politică: de la cetate la statul modern"
+            },
+            {
+              "id": "ist13-11",
+              "titlu": "Autonomie și independență în spațiul românesc"
+            },
+            {
+              "id": "ist13-12",
+              "titlu": "Constituțiile și drepturile cetățenești"
+            }
+          ]
+        },
+        {
+          "id": "ist13-c6",
+          "titlu": "Economie, tehnică și moduri de viață",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ist13-13",
+              "titlu": "Revoluțiile economice și modernizarea"
+            },
+            {
+              "id": "ist13-14",
+              "titlu": "Migrație, urbanizare și schimbare socială"
+            },
+            {
+              "id": "ist13-15",
+              "titlu": "Viața cotidiană și mentalități"
+            }
+          ]
+        },
+        {
+          "id": "ist13-c7",
+          "titlu": "Relații internaționale și spațiul românesc",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ist13-16",
+              "titlu": "Diplomație și conflict în Evul Mediu românesc"
+            },
+            {
+              "id": "ist13-17",
+              "titlu": "România și marile alianțe ale secolului XX"
+            },
+            {
+              "id": "ist13-18",
+              "titlu": "România în Războiul Rece"
+            },
+            {
+              "id": "ist13-19",
+              "titlu": "Integrarea europeană și euroatlantică"
+            }
+          ]
+        },
+        {
+          "id": "ist13-c8",
+          "titlu": "Repere pentru bacalaureat",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ist13-20",
+              "titlu": "Cronologia esențială a istoriei românilor"
+            },
+            {
+              "id": "ist13-21",
+              "titlu": "Personalități și instituții: fișe de sinteză"
+            },
+            {
+              "id": "ist13-22",
+              "titlu": "Studii de caz și redactarea răspunsurilor la examen"
+            }
+          ]
         }
       ],
       "teze": [
         {
           "semestru": 1,
-          "nrIntrebari": 12
+          "nrIntrebari": 18
         },
         {
           "semestru": 2,
