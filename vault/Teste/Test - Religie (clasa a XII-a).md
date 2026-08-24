@@ -1137,17 +1137,17 @@ cssclasses: test
 > 
 > Violența le contrazice frontal.
 
-### 95. Munca este, în tradiția biblică:
+### 95. Postul are, în tradiția creștină, rolul de:
 
-- a. o chemare
-- b. o pedeapsă pentru păcat
-- c. indiferentă moral
-- d. rezervată unora
+- a. înfrânare și creștere duhovnicească
+- b. simplă dietă de slăbit
+- c. pedeapsă trupească
+- d. obligație pur socială
 
 > [!success]- Răspuns
-> **a. o chemare**
+> **a. înfrânare și creștere duhovnicească**
 > 
-> Omul primește grădina spre lucrare.
+> Este însoțit de rugăciune și milostenie.
 
 ### 96. Milostenia:
 
@@ -1221,17 +1221,17 @@ cssclasses: test
 > 
 > Dezinformarea produce daune reale.
 
-### 102. Responsabilitatea ecologică are, în tradiția creștină, temeiul în:
+### 102. Iertarea, în învățătura creștină, înseamnă:
 
-- a. încredințarea creației omului
-- b. interzicerea folosirii resurselor
-- c. indiferența față de materie
-- d. stăpânirea absolută a omului
+- a. eliberarea de resentiment și refacerea relației
+- b. uitarea automată a răului
+- c. aprobarea nedreptății suferite
+- d. renunțarea la orice dreptate
 
 > [!success]- Răspuns
-> **a. încredințarea creației omului**
+> **a. eliberarea de resentiment și refacerea relației**
 > 
-> Stăpânirea e slujire, nu exploatare.
+> „Iartă-ne nouă, precum și noi iertăm.”
 
 ---
 
