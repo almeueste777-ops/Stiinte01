@@ -2,10 +2,10 @@
   "version": "03",
   "actualizat": "2026-08-24",
   "nrModule": 60,
-  "nrLectii": 1138,
-  "nrCarduri": 4552,
-  "nrIntrebari": 4552,
-  "nrIntrebariTeze": 1924,
+  "nrLectii": 1145,
+  "nrCarduri": 4580,
+  "nrIntrebari": 4580,
+  "nrIntrebariTeze": 1936,
   "module": [
     {
       "id": "geografie-9",
@@ -5449,10 +5449,10 @@
       "bac": false,
       "socioUman": false,
       "descriere": "Științe integrate: metoda științifică, materie și energie, sistemele Pământului și viața ca sistem.",
-      "nrLectii": 9,
-      "nrCarduri": 36,
-      "nrIntrebari": 36,
-      "nrIntrebariTeze": 18,
+      "nrLectii": 16,
+      "nrCarduri": 64,
+      "nrIntrebari": 64,
+      "nrIntrebariTeze": 30,
       "capitole": [
         {
           "id": "sti11-c1",
@@ -5510,16 +5510,65 @@
               "titlu": "Viața ca sistem"
             }
           ]
+        },
+        {
+          "id": "sti11-c4",
+          "titlu": "Materie și transformări",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "sti11-10",
+              "titlu": "Atomi, molecule și substanțe"
+            },
+            {
+              "id": "sti11-11",
+              "titlu": "Reacții chimice și energie"
+            },
+            {
+              "id": "sti11-12",
+              "titlu": "Amestecuri, soluții și separări"
+            }
+          ]
+        },
+        {
+          "id": "sti11-c5",
+          "titlu": "Energie și unde",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "sti11-13",
+              "titlu": "Forme și transformări ale energiei"
+            },
+            {
+              "id": "sti11-14",
+              "titlu": "Unde: lumina și sunetul"
+            }
+          ]
+        },
+        {
+          "id": "sti11-c6",
+          "titlu": "Viață și mediu",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "sti11-15",
+              "titlu": "Organismul ca sistem"
+            },
+            {
+              "id": "sti11-16",
+              "titlu": "Ecosisteme și cicluri în natură"
+            }
+          ]
         }
       ],
       "teze": [
         {
           "semestru": 1,
-          "nrIntrebari": 9
+          "nrIntrebari": 15
         },
         {
           "semestru": 2,
-          "nrIntrebari": 9
+          "nrIntrebari": 15
         }
       ]
     },

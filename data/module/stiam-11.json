@@ -792,12 +792,694 @@
      ]
     }
    ]
+  },
+  {
+   "id": "sti11-c4",
+   "titlu": "Materie și transformări",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "sti11-10",
+     "titlu": "Atomi, molecule și substanțe",
+     "rezumat": "Toată materia e alcătuită din atomi, particule extrem de mici formate dintr-un nucleu (protoni și neutroni) înconjurat de electroni. Un element chimic e o substanță formată din atomi de același fel, caracterizat prin numărul de protoni (numărul atomic). Atomii se combină în molecule prin legături chimice: legătura ionică (transfer de electroni, ca în sarea de bucătărie NaCl) și cea covalentă (electroni puși în comun, ca în apa H₂O). Substanțele pot fi simple (un singur element, ca oxigenul O₂) sau compuse (mai multe elemente, ca apa). Tabelul periodic ordonează elementele după numărul atomic și grupează elementele cu proprietăți asemănătoare. Proprietățile unei substanțe depind de atomii ei și de felul în care sunt legați, iar materia se prezintă în stări (solid, lichid, gazos), după cât de strâns sunt legate particulele.",
+     "ideiCheie": [
+      "Atomul: nucleu (protoni, neutroni) + electroni.",
+      "Elementul = atomi de același fel; numărul atomic = numărul de protoni.",
+      "Legături: ionică (transfer) și covalentă (electroni în comun).",
+      "Substanțe simple (un element) și compuse (mai multe)."
+     ],
+     "termeni": [
+      {
+       "t": "atom",
+       "d": "cea mai mică particulă a unui element care păstrează proprietățile lui"
+      },
+      {
+       "t": "moleculă",
+       "d": "grup de atomi legați chimic, cea mai mică parte a unei substanțe compuse"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Din ce e format un atom?",
+       "v": "Nucleu (protoni, neutroni) și electroni."
+      },
+      {
+       "f": "Ce este numărul atomic?",
+       "v": "Numărul de protoni din nucleu."
+      },
+      {
+       "f": "Ce tipuri de legături chimice există?",
+       "v": "Ionică (transfer) și covalentă (electroni în comun)."
+      },
+      {
+       "f": "Ce ordonează tabelul periodic?",
+       "v": "Elementele, după numărul atomic."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Numărul atomic al unui element este dat de:",
+       "optiuni": [
+        "numărul de protoni",
+        "numărul de neutroni",
+        "numărul de molecule",
+        "masa în grame"
+       ],
+       "corect": 0,
+       "explicatie": "El identifică elementul."
+      },
+      {
+       "intrebare": "Legătura din NaCl (sarea de bucătărie) este:",
+       "optiuni": [
+        "ionică",
+        "covalentă",
+        "metalică",
+        "inexistentă"
+       ],
+       "corect": 0,
+       "explicatie": "Se transferă un electron."
+      },
+      {
+       "intrebare": "O substanță compusă:",
+       "optiuni": [
+        "conține mai multe elemente",
+        "conține un singur element",
+        "e mereu gazoasă",
+        "nu are molecule"
+       ],
+       "corect": 0,
+       "explicatie": "Apa (H₂O) e un exemplu."
+      },
+      {
+       "intrebare": "Tabelul periodic ordonează elementele după:",
+       "optiuni": [
+        "numărul atomic",
+        "culoare",
+        "masa în kilograme",
+        "ordine alfabetică"
+       ],
+       "corect": 0,
+       "explicatie": "Grupele au proprietăți asemănătoare."
+      }
+     ]
+    },
+    {
+     "id": "sti11-11",
+     "titlu": "Reacții chimice și energie",
+     "rezumat": "Într-o reacție chimică, substanțele inițiale (reactanții) se transformă în substanțe noi (produșii), prin ruperea și formarea de legături. Legea conservării masei spune că, într-o reacție, masa se păstrează: atomii nu apar și nu dispar, doar se rearanjează. Reacțiile sunt însoțite de schimburi de energie: cele exoterme eliberează energie (arderea, respirația), cele endoterme absorb energie (fotosinteza). Semne că are loc o reacție: schimbarea culorii, degajarea unui gaz, formarea unui precipitat, schimbarea temperaturii. Viteza reacției depinde de temperatură, de concentrație, de suprafața de contact și de catalizatori (substanțe care o grăbesc fără a se consuma). Reacțiile chimice stau la baza vieții, a industriei și a fenomenelor din natură, iar ecuația chimică descrie reacția cu numărul de atomi echilibrat de fiecare parte.",
+     "ideiCheie": [
+      "Reactanții se transformă în produși, prin ruperea și formarea de legături.",
+      "Legea conservării masei: atomii se rearanjează, nu se pierd.",
+      "Reacții exoterme (eliberează energie) și endoterme (absorb energie).",
+      "Viteza depinde de temperatură, concentrație, suprafață, catalizatori."
+     ],
+     "termeni": [
+      {
+       "t": "reacție chimică",
+       "d": "transformarea unor substanțe în altele, prin rearanjarea atomilor"
+      },
+      {
+       "t": "reacție exotermă",
+       "d": "reacție care eliberează energie (de exemplu arderea)"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce spune legea conservării masei?",
+       "v": "Într-o reacție, masa se păstrează; atomii se rearanjează."
+      },
+      {
+       "f": "Ce este o reacție exotermă?",
+       "v": "Una care eliberează energie (arderea, respirația)."
+      },
+      {
+       "f": "Ce este o reacție endotermă?",
+       "v": "Una care absoarbe energie (fotosinteza)."
+      },
+      {
+       "f": "Ce grăbește o reacție fără a se consuma?",
+       "v": "Un catalizator."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Într-o reacție chimică, masa totală:",
+       "optiuni": [
+        "se păstrează",
+        "crește",
+        "scade",
+        "dispare"
+       ],
+       "corect": 0,
+       "explicatie": "Atomii se rearanjează, nu se pierd."
+      },
+      {
+       "intrebare": "Arderea este o reacție:",
+       "optiuni": [
+        "exotermă",
+        "endotermă",
+        "fără schimb de energie",
+        "nucleară"
+       ],
+       "corect": 0,
+       "explicatie": "Ea eliberează energie."
+      },
+      {
+       "intrebare": "Fotosinteza este o reacție:",
+       "optiuni": [
+        "endotermă (absoarbe energie)",
+        "exotermă",
+        "fără reactanți",
+        "fizică, nu chimică"
+       ],
+       "corect": 0,
+       "explicatie": "Folosește energia luminii."
+      },
+      {
+       "intrebare": "Un catalizator:",
+       "optiuni": [
+        "grăbește reacția fără a se consuma",
+        "oprește reacția",
+        "se consumă complet",
+        "schimbă masa totală"
+       ],
+       "corect": 0,
+       "explicatie": "Scade energia necesară."
+      }
+     ]
+    },
+    {
+     "id": "sti11-12",
+     "titlu": "Amestecuri, soluții și separări",
+     "rezumat": "Un amestec conține mai multe substanțe care nu s-au combinat chimic și își păstrează proprietățile. Amestecurile omogene (soluțiile) au aceeași compoziție peste tot (apa sărată, aerul), iar cele eterogene au părți distincte (apa cu nisip, granitul). Într-o soluție, substanța dizolvată e solvatul, iar cea care dizolvă e solventul (adesea apa); concentrația arată cât solvat există într-o cantitate de soluție, iar solubilitatea depinde de temperatură. Fiindcă substanțele dintr-un amestec își păstrează proprietățile, ele pot fi separate prin metode fizice: filtrarea (separă solidul de lichid), decantarea, evaporarea (recuperează solidul dizolvat), distilarea (separă lichide după punctul de fierbere), cromatografia. Alegerea metodei depinde de proprietățile componentelor. Separarea amestecurilor e folosită în laborator, în industrie și în purificarea apei.",
+     "ideiCheie": [
+      "Amestec = substanțe necombinate chimic, cu proprietăți păstrate.",
+      "Omogen (soluție) vs. eterogen.",
+      "În soluție: solvatul (dizolvat) + solventul (dizolvă).",
+      "Separări fizice: filtrare, decantare, evaporare, distilare, cromatografie."
+     ],
+     "termeni": [
+      {
+       "t": "soluție",
+       "d": "amestec omogen dintr-un solvat dizolvat într-un solvent"
+      },
+      {
+       "t": "distilare",
+       "d": "metodă de separare a lichidelor după punctul lor de fierbere"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Prin ce diferă un amestec de o substanță compusă?",
+       "v": "Componentele nu s-au combinat chimic și își păstrează proprietățile."
+      },
+      {
+       "f": "Ce este o soluție?",
+       "v": "Un amestec omogen (solvat dizolvat în solvent)."
+      },
+      {
+       "f": "Ce separă filtrarea?",
+       "v": "Solidul de lichid."
+      },
+      {
+       "f": "Ce separă distilarea?",
+       "v": "Lichide, după punctul de fierbere."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "O soluție (amestec omogen) este:",
+       "optiuni": [
+        "apa sărată",
+        "apa cu nisip",
+        "granitul",
+        "un amestec de pietre"
+       ],
+       "corect": 0,
+       "explicatie": "Are aceeași compoziție peste tot."
+      },
+      {
+       "intrebare": "Substanța care dizolvă, într-o soluție, este:",
+       "optiuni": [
+        "solventul",
+        "solvatul",
+        "precipitatul",
+        "catalizatorul"
+       ],
+       "corect": 0,
+       "explicatie": "Solvatul e cel dizolvat."
+      },
+      {
+       "intrebare": "Pentru a separa solidul de lichid se folosește:",
+       "optiuni": [
+        "filtrarea",
+        "distilarea",
+        "arderea",
+        "topirea"
+       ],
+       "corect": 0,
+       "explicatie": "Distilarea separă lichide."
+      },
+      {
+       "intrebare": "Separarea unui amestec se face, de regulă, prin:",
+       "optiuni": [
+        "metode fizice",
+        "reacții chimice obligatoriu",
+        "schimbarea atomilor",
+        "ardere"
+       ],
+       "corect": 0,
+       "explicatie": "Componentele își păstrează proprietățile."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sti11-c5",
+   "titlu": "Energie și unde",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "sti11-13",
+     "titlu": "Forme și transformări ale energiei",
+     "rezumat": "Energia este capacitatea de a produce lucru mecanic sau schimbări și apare în mai multe forme: mecanică (cinetică — a mișcării, potențială — a poziției), termică (căldura), chimică (în legături), electrică, luminoasă, nucleară. Principiul fundamental este conservarea energiei: energia nu se creează și nu se distruge, ci se transformă dintr-o formă în alta. La o cascadă, energia potențială a apei devine cinetică; într-un bec, energia electrică devine luminoasă și termică; la respirație, energia chimică a hranei devine energie pentru corp. În orice transformare reală, o parte din energie se „pierde” ca și căldură nefolosibilă, de aceea niciun proces nu e 100% eficient. Sursele de energie pot fi regenerabile (solară, eoliană, hidro) sau neregenerabile (cărbune, petrol, gaz), iar alegerea lor are consecințe asupra mediului.",
+     "ideiCheie": [
+      "Energia are forme: mecanică, termică, chimică, electrică, luminoasă, nucleară.",
+      "Conservarea energiei: ea se transformă, nu se creează sau distruge.",
+      "În orice transformare reală, o parte se pierde ca și căldură.",
+      "Surse regenerabile (solară, eoliană) și neregenerabile (cărbune, petrol)."
+     ],
+     "termeni": [
+      {
+       "t": "energie",
+       "d": "capacitatea de a produce lucru mecanic sau schimbări"
+      },
+      {
+       "t": "conservarea energiei",
+       "d": "principiul că energia nu se creează și nu se distruge, ci se transformă"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este energia?",
+       "v": "Capacitatea de a produce lucru mecanic sau schimbări."
+      },
+      {
+       "f": "Ce spune principiul conservării energiei?",
+       "v": "Energia se transformă, nu se creează sau distruge."
+      },
+      {
+       "f": "În ce devine energia electrică într-un bec?",
+       "v": "În energie luminoasă și termică."
+      },
+      {
+       "f": "De ce niciun proces nu e 100% eficient?",
+       "v": "O parte din energie se pierde ca și căldură."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Principiul conservării energiei spune că energia:",
+       "optiuni": [
+        "se transformă, nu se creează sau distruge",
+        "apare din nimic",
+        "dispare complet",
+        "scade mereu la zero"
+       ],
+       "corect": 0,
+       "explicatie": "Ea trece dintr-o formă în alta."
+      },
+      {
+       "intrebare": "Energia mișcării se numește:",
+       "optiuni": [
+        "cinetică",
+        "potențială",
+        "chimică",
+        "nucleară"
+       ],
+       "corect": 0,
+       "explicatie": "Cea a poziției e potențială."
+      },
+      {
+       "intrebare": "La o cascadă, energia potențială a apei devine:",
+       "optiuni": [
+        "cinetică",
+        "chimică",
+        "luminoasă",
+        "nucleară"
+       ],
+       "corect": 0,
+       "explicatie": "Apoi poate roti o turbină."
+      },
+      {
+       "intrebare": "O sursă de energie regenerabilă este:",
+       "optiuni": [
+        "energia solară",
+        "cărbunele",
+        "petrolul",
+        "gazul natural"
+       ],
+       "corect": 0,
+       "explicatie": "Eoliana și hidro sunt tot regenerabile."
+      }
+     ]
+    },
+    {
+     "id": "sti11-14",
+     "titlu": "Unde: lumina și sunetul",
+     "rezumat": "O undă transportă energie fără a transporta materie. Sunetul este o undă mecanică: are nevoie de un mediu (aer, apă, solid) pentru a se propaga și nu se aude în vid; se caracterizează prin frecvență (care dă înălțimea — sunet înalt sau grav) și amplitudine (care dă intensitatea — tare sau slab). Lumina este o undă electromagnetică și se propagă și în vid, cu o viteză uriașă (circa 300 000 km/s). Lumina albă e un amestec de culori, pe care le vedem când e descompusă (curcubeul, prisma). Fenomene ale luminii: reflexia (întoarcerea de pe o suprafață, oglinda) și refracția (schimbarea direcției la trecerea dintr-un mediu în altul, lentila). Spectrul electromagnetic cuprinde, dincolo de lumina vizibilă, undele radio, infraroșul, ultravioletul, razele X. Undele stau la baza comunicațiilor, a vederii și a auzului.",
+     "ideiCheie": [
+      "O undă transportă energie, nu materie.",
+      "Sunetul = undă mecanică (are nevoie de mediu, nu se aude în vid).",
+      "Lumina = undă electromagnetică (se propagă și în vid, ~300 000 km/s).",
+      "Fenomene ale luminii: reflexia și refracția."
+     ],
+     "termeni": [
+      {
+       "t": "undă mecanică",
+       "d": "undă care are nevoie de un mediu pentru a se propaga (de exemplu sunetul)"
+      },
+      {
+       "t": "undă electromagnetică",
+       "d": "undă care se propagă și în vid (de exemplu lumina)"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce transportă o undă?",
+       "v": "Energie, fără a transporta materie."
+      },
+      {
+       "f": "De ce sunetul nu se aude în vid?",
+       "v": "E o undă mecanică, are nevoie de un mediu."
+      },
+      {
+       "f": "Cu ce viteză se propagă lumina?",
+       "v": "Cu circa 300 000 km/s."
+      },
+      {
+       "f": "Ce este refracția?",
+       "v": "Schimbarea direcției luminii la trecerea dintr-un mediu în altul."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Sunetul este o undă:",
+       "optiuni": [
+        "mecanică (are nevoie de mediu)",
+        "electromagnetică",
+        "luminoasă",
+        "care se propagă în vid"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea nu se aude în vid."
+      },
+      {
+       "intrebare": "Lumina se propagă și în vid pentru că este o undă:",
+       "optiuni": [
+        "electromagnetică",
+        "mecanică",
+        "sonoră",
+        "seismică"
+       ],
+       "corect": 0,
+       "explicatie": "Cu circa 300 000 km/s."
+      },
+      {
+       "intrebare": "Întoarcerea luminii de pe o suprafață se numește:",
+       "optiuni": [
+        "reflexie",
+        "refracție",
+        "difuzie",
+        "absorbție"
+       ],
+       "corect": 0,
+       "explicatie": "Refracția e schimbarea direcției."
+      },
+      {
+       "intrebare": "Înălțimea unui sunet (înalt sau grav) e dată de:",
+       "optiuni": [
+        "frecvență",
+        "amplitudine",
+        "viteză",
+        "culoare"
+       ],
+       "corect": 0,
+       "explicatie": "Amplitudinea dă intensitatea."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sti11-c6",
+   "titlu": "Viață și mediu",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "sti11-15",
+     "titlu": "Organismul ca sistem",
+     "rezumat": "Un organism viu este un sistem: părți diferite care lucrează împreună pentru a-l menține în viață. Toate viețuitoarele au trăsături comune: sunt alcătuite din celule, folosesc energie (metabolism), cresc, reacționează la mediu, se reproduc și se adaptează. La organismele complexe, celulele formează țesuturi, țesuturile formează organe, iar organele formează sisteme (digestiv, respirator, circulator, nervos), care se coordonează. Homeostazia este menținerea unui mediu intern stabil (temperatură, apă, glucoză), în ciuda schimbărilor din exterior; ea se realizează prin reglare, adesea prin feedback negativ (o abatere declanșează un răspuns care o corectează). Nutriția aduce materie și energie, respirația eliberează energia din hrană, excreția elimină deșeurile. Sănătatea depinde de buna funcționare a întregului sistem și de echilibrul lui.",
+     "ideiCheie": [
+      "Organismul e un sistem de părți care lucrează împreună.",
+      "Trăsături ale viului: celule, metabolism, creștere, reacție, reproducere, adaptare.",
+      "Nivele: celulă → țesut → organ → sistem → organism.",
+      "Homeostazia menține mediul intern stabil, prin reglare (feedback negativ)."
+     ],
+     "termeni": [
+      {
+       "t": "homeostazie",
+       "d": "menținerea unui mediu intern stabil, în ciuda schimbărilor din exterior"
+      },
+      {
+       "t": "feedback negativ",
+       "d": "reglare prin care o abatere declanșează un răspuns care o corectează"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce trăsături au toate viețuitoarele?",
+       "v": "Celule, metabolism, creștere, reacție, reproducere, adaptare."
+      },
+      {
+       "f": "Care e ordinea nivelurilor de organizare?",
+       "v": "Celulă → țesut → organ → sistem → organism."
+      },
+      {
+       "f": "Ce este homeostazia?",
+       "v": "Menținerea unui mediu intern stabil."
+      },
+      {
+       "f": "Cum se menține homeostazia?",
+       "v": "Prin reglare, adesea prin feedback negativ."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Ordinea nivelurilor de organizare este:",
+       "optiuni": [
+        "celulă → țesut → organ → sistem",
+        "organ → celulă → sistem",
+        "sistem → celulă → țesut",
+        "țesut → sistem → celulă"
+       ],
+       "corect": 0,
+       "explicatie": "De la simplu la complex."
+      },
+      {
+       "intrebare": "Homeostazia înseamnă:",
+       "optiuni": [
+        "menținerea unui mediu intern stabil",
+        "creșterea necontrolată",
+        "oprirea metabolismului",
+        "lipsa reacției la mediu"
+       ],
+       "corect": 0,
+       "explicatie": "Se realizează prin reglare."
+      },
+      {
+       "intrebare": "O trăsătură comună tuturor viețuitoarelor este:",
+       "optiuni": [
+        "sunt alcătuite din celule",
+        "au frunze",
+        "trăiesc în apă",
+        "nu folosesc energie"
+       ],
+       "corect": 0,
+       "explicatie": "Toate folosesc energie (metabolism)."
+      },
+      {
+       "intrebare": "Feedbackul negativ:",
+       "optiuni": [
+        "corectează o abatere de la echilibru",
+        "amplifică abaterea",
+        "oprește organismul",
+        "e specific plantelor"
+       ],
+       "corect": 0,
+       "explicatie": "Menține valorile în limite."
+      }
+     ]
+    },
+    {
+     "id": "sti11-16",
+     "titlu": "Ecosisteme și cicluri în natură",
+     "rezumat": "Un ecosistem cuprinde comunitatea de viețuitoare dintr-un loc (biocenoza) împreună cu mediul lor fizic (biotopul), legate prin schimburi de materie și energie. Energia intră în ecosistem prin fotosinteza plantelor (producători), trece la ierbivore (consumatori primari), apoi la carnivore, formând lanțuri și rețele trofice; la fiecare treaptă, o mare parte din energie se pierde ca și căldură, de aceea lanțurile au puține verigi. Descompunătorii (bacterii, ciuperci) reciclează materia din organismele moarte. Spre deosebire de energie, care curge într-un sens, materia se reciclează în cicluri: ciclul apei, al carbonului, al azotului. Echilibrul unui ecosistem e fragil: dispariția unei specii sau poluarea îl pot perturba. Biodiversitatea și echilibrul între specii mențin ecosistemul sănătos, iar activitatea umană îl influențează tot mai mult.",
+     "ideiCheie": [
+      "Ecosistem = biocenoza (viețuitoare) + biotopul (mediul fizic).",
+      "Energia curge: producători → consumatori → descompunători, pierzându-se ca și căldură.",
+      "Materia se reciclează în cicluri (apă, carbon, azot).",
+      "Descompunătorii reciclează materia din organismele moarte."
+     ],
+     "termeni": [
+      {
+       "t": "ecosistem",
+       "d": "comunitatea de viețuitoare împreună cu mediul lor fizic, legate prin schimburi"
+      },
+      {
+       "t": "lanț trofic",
+       "d": "succesiunea de organisme prin care trece energia (producători → consumatori)"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Din ce e alcătuit un ecosistem?",
+       "v": "Biocenoza (viețuitoare) și biotopul (mediul fizic)."
+      },
+      {
+       "f": "Cum intră energia într-un ecosistem?",
+       "v": "Prin fotosinteza producătorilor (plantele)."
+      },
+      {
+       "f": "Ce fac descompunătorii?",
+       "v": "Reciclează materia din organismele moarte."
+      },
+      {
+       "f": "Prin ce diferă energia de materie în ecosistem?",
+       "v": "Energia curge într-un sens; materia se reciclează."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Producătorii dintr-un ecosistem sunt, de regulă:",
+       "optiuni": [
+        "plantele (prin fotosinteză)",
+        "carnivorele",
+        "descompunătorii",
+        "ierbivorele"
+       ],
+       "corect": 0,
+       "explicatie": "Ele aduc energia în sistem."
+      },
+      {
+       "intrebare": "Într-un lanț trofic, la fiecare treaptă:",
+       "optiuni": [
+        "o mare parte din energie se pierde ca și căldură",
+        "energia crește",
+        "materia dispare",
+        "nu se schimbă nimic"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea lanțurile au puține verigi."
+      },
+      {
+       "intrebare": "Materia, într-un ecosistem:",
+       "optiuni": [
+        "se reciclează în cicluri",
+        "curge într-un singur sens",
+        "dispare la descompunere",
+        "se creează din nimic"
+       ],
+       "corect": 0,
+       "explicatie": "Ciclul apei, al carbonului, al azotului."
+      },
+      {
+       "intrebare": "Descompunătorii (bacterii, ciuperci):",
+       "optiuni": [
+        "reciclează materia din organismele moarte",
+        "produc energie prin fotosinteză",
+        "sunt consumatori primari",
+        "nu au rol în ecosistem"
+       ],
+       "corect": 0,
+       "explicatie": "Închid ciclul materiei."
+      }
+     ]
+    }
+   ]
   }
  ],
  "teze": [
   {
    "semestru": 1,
    "test": [
+    {
+     "intrebare": "Numărul atomic al unui element este dat de:",
+     "optiuni": [
+      "numărul de protoni",
+      "numărul de neutroni",
+      "masa în grame",
+      "numărul de molecule"
+     ],
+     "corect": 0,
+     "explicatie": "El identifică elementul."
+    },
+    {
+     "intrebare": "Într-o reacție chimică, masa totală:",
+     "optiuni": [
+      "se păstrează",
+      "crește",
+      "scade",
+      "dispare"
+     ],
+     "corect": 0,
+     "explicatie": "Atomii se rearanjează."
+    },
+    {
+     "intrebare": "O soluție (amestec omogen) este:",
+     "optiuni": [
+      "apa sărată",
+      "apa cu nisip",
+      "granitul",
+      "un amestec de pietriș"
+     ],
+     "corect": 0,
+     "explicatie": "Are compoziție uniformă."
+    },
+    {
+     "intrebare": "Principiul conservării energiei spune că energia:",
+     "optiuni": [
+      "se transformă, nu se creează sau distruge",
+      "apare din nimic",
+      "dispare complet",
+      "scade la zero"
+     ],
+     "corect": 0,
+     "explicatie": "Trece dintr-o formă în alta."
+    },
+    {
+     "intrebare": "Arderea este o reacție:",
+     "optiuni": [
+      "exotermă (eliberează energie)",
+      "endotermă",
+      "fără schimb de energie",
+      "nucleară"
+     ],
+     "corect": 0,
+     "explicatie": "Fotosinteza e endotermă."
+    },
+    {
+     "intrebare": "Pentru a separa solidul de lichid se folosește:",
+     "optiuni": [
+      "filtrarea",
+      "distilarea",
+      "arderea",
+      "topirea"
+     ],
+     "corect": 0,
+     "explicatie": "Distilarea separă lichide."
+    },
     {
      "intrebare": "O ipoteză științifică trebuie:",
      "optiuni": [
@@ -902,6 +1584,72 @@
   {
    "semestru": 2,
    "test": [
+    {
+     "intrebare": "Sunetul este o undă:",
+     "optiuni": [
+      "mecanică (are nevoie de mediu)",
+      "electromagnetică",
+      "care se propagă în vid",
+      "luminoasă"
+     ],
+     "corect": 0,
+     "explicatie": "De aceea nu se aude în vid."
+    },
+    {
+     "intrebare": "Lumina se propagă și în vid pentru că e o undă:",
+     "optiuni": [
+      "electromagnetică",
+      "mecanică",
+      "sonoră",
+      "seismică"
+     ],
+     "corect": 0,
+     "explicatie": "Cu circa 300 000 km/s."
+    },
+    {
+     "intrebare": "Homeostazia înseamnă:",
+     "optiuni": [
+      "menținerea unui mediu intern stabil",
+      "creșterea necontrolată",
+      "oprirea metabolismului",
+      "lipsa reacției"
+     ],
+     "corect": 0,
+     "explicatie": "Prin reglare (feedback negativ)."
+    },
+    {
+     "intrebare": "Producătorii dintr-un ecosistem sunt:",
+     "optiuni": [
+      "plantele",
+      "carnivorele",
+      "descompunătorii",
+      "ierbivorele"
+     ],
+     "corect": 0,
+     "explicatie": "Ele aduc energia prin fotosinteză."
+    },
+    {
+     "intrebare": "Materia, într-un ecosistem:",
+     "optiuni": [
+      "se reciclează în cicluri",
+      "curge într-un singur sens",
+      "dispare la descompunere",
+      "se creează din nimic"
+     ],
+     "corect": 0,
+     "explicatie": "Energia, în schimb, curge într-un sens."
+    },
+    {
+     "intrebare": "Ordinea nivelurilor de organizare a organismului este:",
+     "optiuni": [
+      "celulă → țesut → organ → sistem",
+      "sistem → organ → celulă",
+      "organ → sistem → celulă",
+      "țesut → celulă → organ"
+     ],
+     "corect": 0,
+     "explicatie": "De la simplu la complex."
+    },
     {
      "intrebare": "Sistemul Pământ cuprinde:",
      "optiuni": [
