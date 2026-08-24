@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Imagine în mișcare și montaj
 
-[[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a XI-a]] · lecția 5 din 9
+[[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a XI-a]] · lecția 5 din 16
 
 **Capitolul:** Multimedia — semestrul 2
 

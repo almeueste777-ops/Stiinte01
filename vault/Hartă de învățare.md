@@ -30,7 +30,7 @@ graph LR
   C1 --> A1_2
   A1_3["Tehnologii<br/>1 materii"]
   C1 --> A1_3
-  C2["Clasa a XI-a<br/>12 materii · 214 lecții"]
+  C2["Clasa a XI-a<br/>12 materii · 221 lecții"]
   P --> C2
   A2_0["Limbă și comunicare<br/>3 materii"]
   C2 --> A2_0
@@ -107,7 +107,7 @@ graph LR
 - [[Limba și literatura română (clasa a XI-a)|Limba și literatura română]] — 20 lecții
 - [[Matematică aplicată în științele sociale (clasa a XI-a)|Matematică aplicată în științele sociale]] — 18 lecții
 - [[ȘTIAM (științe integrate) (clasa a XI-a)|ȘTIAM (științe integrate)]] — 9 lecții
-- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC)]] — 9 lecții
+- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC)]] — 16 lecții
 
 ### [[Clasa a XII-a]]
 

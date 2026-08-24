@@ -21,7 +21,7 @@ cssclasses: fisa
 
 Web, multimedia și proiecte digitale: structura unei pagini, conținut vizual și audio, publicare și management de proiect.
 
-## Capitole (3)
+## Capitole (6)
 
 ### Web: structură și publicare — semestrul 1
 
@@ -41,9 +41,25 @@ Web, multimedia și proiecte digitale: structura unei pagini, conținut vizual �
 - [[Testare, feedback, îmbunătățire]]
 - [[Prezentarea și documentarea unui produs digital]]
 
+### HTML și CSS de bază — semestrul 1
+
+- [[Structura unei pagini HTML]]
+- [[Formatarea cu CSS]]
+- [[Legături, imagini și tabele]]
+
+### Multimedia și grafică — semestrul 2
+
+- [[Imaginea digitală]]
+- [[Sunet și video digital]]
+
+### Proiecte și securitate digitală — semestrul 2
+
+- [[Managementul unui proiect digital]]
+- [[Securitate și etică pe internet]]
+
 ## Exersare
-- [[Carduri - Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)]] — 36 carduri
-- [[Test - Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)]] — 60 întrebări
+- [[Carduri - Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)]] — 64 carduri
+- [[Test - Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)]] — 100 întrebări
 
 ## Legături
 - [[Tehnologia informației și a comunicațiilor (TIC)|Tehnologia informației și a comunicațiilor (TIC)]]

@@ -31,4 +31,4 @@ Anul **3** din cei 5 ai parcursului [[Parcurs școlar]].
 - [[Religie (clasa a XI-a)|Religie]] — 📘 18 lecții în aplicație
 
 ### [[Arie - Tehnologii|Tehnologii]]
-- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC)]] — 🎓 bac, 📘 9 lecții în aplicație
+- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC)]] — 🎓 bac, 📘 16 lecții în aplicație

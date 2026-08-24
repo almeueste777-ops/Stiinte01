@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Prezentarea și documentarea unui produs digital
 
-[[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a XI-a]] · lecția 9 din 9
+[[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a XI-a]] · lecția 9 din 16
 
 **Capitolul:** Proiecte digitale — semestrul 2
 
@@ -29,6 +29,6 @@ Un produs digital nu se termină cu funcționarea lui: trebuie să poată fi în
 
 ---
 
-⬅ [[Testare, feedback, îmbunătățire]]
+⬅ [[Testare, feedback, îmbunătățire]] · [[Structura unei pagini HTML]] ➡
 
 Exersează: [[Carduri - Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)]] · [[Test - Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)]]

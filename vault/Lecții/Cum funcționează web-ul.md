@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Cum funcționează web-ul
 
-[[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a XI-a]] · lecția 1 din 9
+[[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a XI-a]] · lecția 1 din 16
 
 **Capitolul:** Web: structură și publicare — semestrul 1
 

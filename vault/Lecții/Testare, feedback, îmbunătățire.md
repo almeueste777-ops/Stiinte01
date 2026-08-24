@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Testare, feedback, îmbunătățire
 
-[[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a XI-a]] · lecția 8 din 9
+[[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a XI-a]] · lecția 8 din 16
 
 **Capitolul:** Proiecte digitale — semestrul 2
 

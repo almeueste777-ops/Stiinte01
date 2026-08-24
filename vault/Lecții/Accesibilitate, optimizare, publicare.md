@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Accesibilitate, optimizare, publicare
 
-[[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a XI-a]] · lecția 3 din 9
+[[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a XI-a]] · lecția 3 din 16
 
 **Capitolul:** Web: structură și publicare — semestrul 1
 

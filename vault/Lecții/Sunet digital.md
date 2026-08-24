@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Sunet digital
 
-[[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a XI-a]] · lecția 4 din 9
+[[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a XI-a]] · lecția 4 din 16
 
 **Capitolul:** Multimedia — semestrul 2
 

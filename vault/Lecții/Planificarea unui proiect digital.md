@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Planificarea unui proiect digital
 
-[[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a XI-a]] · lecția 7 din 9
+[[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a XI-a]] · lecția 7 din 16
 
 **Capitolul:** Proiecte digitale — semestrul 2
 
