@@ -1,6 +1,6 @@
 /* Service worker: precache + strategii de cache.
    IMPORTANT: crește CACHE la fiecare modificare a fișierelor, ca utilizatorii să primească versiunea nouă. */
-const CACHE = 'stiinte01-v10';  // v06 — „motivație și progres": onboarding, Progres, Realizări
+const CACHE = 'stiinte01-v11';  // v07 — „mai multe lecții": fiecare materie extinsă (580 → 1152 lecții)
 /* Scheletul aplicației: FĂRĂ el aplicația nu pornește, deci se cere atomic. */
 const SHELL = [
   './',

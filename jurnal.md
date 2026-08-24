@@ -1222,3 +1222,51 @@ empiric**: ținta de 40px → pastilă neinteractivă; resetările granulare cur
 se re-sădesc, ca prima recâștigată să fie iar sărbătorită; onboarding-ul nu mai apare elevilor cu
 progres anterior; copie „peste douăzeci" → „douăzeci"; ramură moartă în Setări eliminată. Raport
 complet: [[Raport verificare v06]]. Nota de rulare: [[Jurnal 2026-08-23 — Motivație și progres v06]].
+
+## 2026-08-24 — v07, „Mai multe lecții la fiecare materie"
+
+**Cererea.** Două cereri legate: (1) „m-am uitat pe programa lecțiilor implementate la fiecare
+materie, pe fiecare an, și mi se pare foarte săracă. Lecțiile sunt puține. Compară cu alte
+aplicații de acest gen, vezi dacă au mai multe lecții și implementează și în aplicație, chiar
+dacă durează mai mult." (2) Rafinare de proces: „iei doar un singur modul și îl termini, nu toate
+odată. Unul singur, cap-coadă."
+
+**Diagnoza.** Cele 60 de module aveau în medie **9,7 lecții** fiecare (206 capitole, 580 de lecții
+în total) — de obicei un singur capitol pe semestru. Aplicațiile serioase de studiu pentru bac
+acoperă programa mult mai fin: mai multe teme pe semestru, fiecare cu recapitulare proprie. Lipsa
+nu era de *sistem* (cardurile, testele, tezele, repetiția eșalonată existau), ci de *acoperire*.
+
+**Ce s-a făcut.** Fiecare modul a fost **extins aditiv**: s-au adăugat 2–3 capitole noi pe modul
+(de regulă `c4/c5/c6`), cu lecții noi, fără să se atingă nimic din ce exista. Conținutul se scrie
+în DSL-ul text din `data/sursa/*.txt` și se compilează cu `tools/text-in-modul.mjs`; fiecare lecție
+nouă vine cu rezumat, idei-cheie, termeni, carduri și grilă, iar ambele teze semestriale au primit
+întrebări în plus, ancorate pe materialul nou.
+
+| | Înainte | După |
+|---|---|---|
+| Module | 60 | 60 |
+| Capitole | 206 | **412** |
+| Lecții | 580 | **1152** |
+| Carduri | 2320 | **4608** |
+| Întrebări de lecție | 2320 | **4608** |
+| Întrebări de teză | 1294 | **1942** |
+
+**Proces — un modul, cap-coadă.** După feedbackul din a doua cerere, restul modulelor s-au făcut
+**unul câte unul**: pentru fiecare — editarea sursei (capitole + teze), `text-in-modul`, verificarea
+aditivității, `verifica-continut`, regenerarea indexului, commit, push. Nu s-a trecut la modulul
+următor înainte ca cel curent să fie complet și împins. Ultimul închis: `stiam-12` (9 → 16 lecții).
+
+**Aditivitatea, garantată mecanic.** Un verificator scris pentru rulare
+(`scratchpad/verifica-aditiv.mjs`) compară fiecare modul cu un snapshot al stării inițiale și
+respinge orice lecție, capitol sau întrebare de teză **veche** modificată sau ștearsă — acceptă
+doar adăugiri. Verdict final pe tot setul: **580 vechi + 572 noi = 1152, tot ce era vechi
+neschimbat.** Așa, elevii care aveau deja progres pe lecțiile vechi nu pierd nimic; lecțiile noi
+apar pur și simplu lângă ele.
+
+**Meta.** `CACHE` v10→**v11** (fișiere publicate schimbate: modulele și indexul). *Nu* s-a atins
+`?v=` din `index.html`/`SHELL`, fiindcă `app.css`/`app.js` au rămas neschimbate. `data/versiuni.json`:
+intrare nouă v07 (cache 11), scrisă pentru elev, `curenta`→„07".
+
+**Verificare.** Bateria locală trece integral: JSON valid pe toate modulele + index, `verifica-continut`
+(60 module, 1152 lecții, structură validă), index regenerat și sincronizat, `versiuni.json` v07 ↔
+CACHE 11, `node --check` pe JS, CSS, vault. Nota de rulare: [[Jurnal 2026-08-24 — Mai multe lecții v07]].
