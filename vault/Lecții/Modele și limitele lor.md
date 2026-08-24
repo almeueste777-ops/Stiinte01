@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Modele și limitele lor
 
-[[ȘTIAM (științe integrate) (clasa a XI-a)|ȘTIAM (științe integrate)]] · [[Clasa a XI-a]] · lecția 3 din 9
+[[ȘTIAM (științe integrate) (clasa a XI-a)|ȘTIAM (științe integrate)]] · [[Clasa a XI-a]] · lecția 3 din 16
 
 **Capitolul:** Cum funcționează știința — semestrul 1
 

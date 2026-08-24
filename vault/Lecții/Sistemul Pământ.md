@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Sistemul Pământ
 
-[[ȘTIAM (științe integrate) (clasa a XI-a)|ȘTIAM (științe integrate)]] · [[Clasa a XI-a]] · lecția 7 din 9
+[[ȘTIAM (științe integrate) (clasa a XI-a)|ȘTIAM (științe integrate)]] · [[Clasa a XI-a]] · lecția 7 din 16
 
 **Capitolul:** Pământul și viața — semestrul 2
 
