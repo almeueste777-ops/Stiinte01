@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Limba modernă 2 (Franceză) (clasa a XIII-a)
 
-54 întrebări din [[Limba modernă 2 (Franceză) (clasa a XIII-a)|Limba modernă 2 (Franceză) (clasa a XIII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+102 întrebări din [[Limba modernă 2 (Franceză) (clasa a XIII-a)|Limba modernă 2 (Franceză) (clasa a XIII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Subjonctivul prezintă acțiunea ca:
 
@@ -441,7 +441,511 @@ cssclasses: test
 > 
 > Competența e funcțională.
 
-### 37. Sistemul verbal francez se organizează pe axele:
+### 37. „Elle est ______ (venir)” se completează cu:
+
+- a. venue
+- b. venu
+- c. venus
+- d. venir
+
+> [!success]- Răspuns
+> **a. venue**
+> 
+> Cu „être”, acord cu subiectul feminin singular.
+
+### 38. Cu auxiliarul „avoir”, participiul se acordă:
+
+- a. cu COD-ul, dacă e antepus
+- b. mereu cu subiectul
+- c. niciodată
+- d. cu complementul indirect
+
+> [!success]- Răspuns
+> **a. cu COD-ul, dacă e antepus**
+> 
+> „Les livres que j'ai lus”.
+
+### 39. „J'ai acheté des pommes” — participiul:
+
+- a. nu se acordă (COD după verb)
+- b. se acordă cu subiectul
+- c. se acordă cu „pommes”
+- d. se pune la feminin
+
+> [!success]- Răspuns
+> **a. nu se acordă (COD după verb)**
+> 
+> Acordul cere COD antepus.
+
+### 40. „Les lettres que j'ai ______ (écrire)”:
+
+- a. écrites
+- b. écrit
+- c. écrits
+- d. écrire
+
+> [!success]- Răspuns
+> **a. écrites**
+> 
+> COD-ul „que” (lettres, fem. pl.), antepus → acord.
+
+### 41. „Je commence ______ comprendre” cere:
+
+- a. à
+- b. de
+- c. pour
+- d. en
+
+> [!success]- Răspuns
+> **a. à**
+> 
+> „Commencer à” + infinitiv.
+
+### 42. „Il a décidé ______ partir” cere:
+
+- a. de
+- b. à
+- c. pour
+- d. en
+
+> [!success]- Răspuns
+> **a. de**
+> 
+> „Décider de” + infinitiv.
+
+### 43. „Je vais ______ France” cere:
+
+- a. en
+- b. au
+- c. à
+- d. dans
+
+> [!success]- Răspuns
+> **a. en**
+> 
+> Țări feminine: „en France”.
+
+### 44. Care verb cere infinitiv direct (fără prepoziție)?
+
+- a. vouloir
+- b. commencer
+- c. décider
+- d. réussir
+
+> [!success]- Răspuns
+> **a. vouloir**
+> 
+> „Je veux partir”.
+
+### 45. „Ne… que” exprimă:
+
+- a. o restricție (numai)
+- b. o negație totală
+- c. o interogație
+- d. o cauză
+
+> [!success]- Răspuns
+> **a. o restricție (numai)**
+> 
+> „Il ne boit que de l'eau” = doar apă.
+
+### 46. „Je ______ comprends plus” (nu mai înțeleg):
+
+- a. ne
+- b. pas
+- c. que
+- d. jamais
+
+> [!success]- Răspuns
+> **a. ne**
+> 
+> „Ne… plus” încadrează verbul.
+
+### 47. La timpurile compuse, „ne… pas” încadrează:
+
+- a. auxiliarul
+- b. participiul
+- c. subiectul
+- d. complementul
+
+> [!success]- Răspuns
+> **a. auxiliarul**
+> 
+> „Je n'ai pas compris”.
+
+### 48. „Nu am văzut pe nimeni” se spune:
+
+- a. Je n'ai vu personne
+- b. Je n'ai pas vu personne
+- c. Je ne vu personne
+- d. Je n'ai personne vu
+
+> [!success]- Răspuns
+> **a. Je n'ai vu personne**
+> 
+> „Personne” se pune după participiu.
+
+### 49. În „Il ______ (dormir) quand le téléphone a sonné”:
+
+- a. dormait
+- b. a dormi
+- c. a dormit
+- d. dort
+
+> [!success]- Răspuns
+> **a. dormait**
+> 
+> Fundalul cere imperfectul; acțiunea, passé composé.
+
+### 50. Acțiunile punctuale ale unei povestiri se exprimă cu:
+
+- a. passé composé
+- b. imparfait
+- c. présent
+- d. futur
+
+> [!success]- Răspuns
+> **a. passé composé**
+> 
+> Imperfectul dă fundalul.
+
+### 51. Conectorul temporal care marchează o ruptură bruscă este:
+
+- a. soudain
+- b. d'abord
+- c. enfin
+- d. donc
+
+> [!success]- Răspuns
+> **a. soudain**
+> 
+> „Soudain” = deodată.
+
+### 52. Descrierea în trecut folosește mai ales:
+
+- a. imperfectul
+- b. passé composé
+- c. viitorul
+- d. condiționalul
+
+> [!success]- Răspuns
+> **a. imperfectul**
+> 
+> Imperfectul redă circumstanțele.
+
+### 53. Scrisoarea formală folosește:
+
+- a. „vous” și formule de politețe
+- b. „tu” și abrevieri
+- c. argou
+- d. prescurtări
+
+> [!success]- Răspuns
+> **a. „vous” și formule de politețe**
+> 
+> Registrul formal cere respect și claritate.
+
+### 54. O încheiere informală potrivită este:
+
+- a. À bientôt
+- b. Salutations distinguées
+- c. Veuillez agréer
+- d. Je vous prie d'agréer
+
+> [!success]- Răspuns
+> **a. À bientôt**
+> 
+> Formulele lungi aparțin registrului formal.
+
+### 55. Într-o scrisoare, greșeala de registru frecventă este:
+
+- a. amestecul „tu”/„vous”
+- b. folosirea paragrafelor
+- c. semnătura
+- d. data
+
+> [!success]- Răspuns
+> **a. amestecul „tu”/„vous”**
+> 
+> Registrul trebuie păstrat unitar.
+
+### 56. Verbul potrivit pentru „a mulțumi” este:
+
+- a. remercier
+- b. s'excuser
+- c. inviter
+- d. informer
+
+> [!success]- Răspuns
+> **a. remercier**
+> 
+> „S'excuser” = a-și cere scuze.
+
+### 57. Un rezumat bun:
+
+- a. reformulează ideile esențiale cu propriile cuvinte
+- b. copiază frazele importante
+- c. adaugă opiniile cititorului
+- d. schimbă sensul textului
+
+> [!success]- Răspuns
+> **a. reformulează ideile esențiale cu propriile cuvinte**
+> 
+> Se păstrează sensul, nu formularea.
+
+### 58. Într-un rezumat se elimină:
+
+- a. exemplele și repetițiile
+- b. ideile principale
+- c. concluzia autorului
+- d. structura logică
+
+> [!success]- Răspuns
+> **a. exemplele și repetițiile**
+> 
+> Rămâne esențialul.
+
+### 59. Sinteza, spre deosebire de rezumat:
+
+- a. confruntă mai multe texte
+- b. se face dintr-un singur text
+- c. adaugă păreri personale
+- d. e mai lungă decât originalul
+
+> [!success]- Răspuns
+> **a. confruntă mai multe texte**
+> 
+> Ea arată convergențe și divergențe.
+
+### 60. La rezumat, punctul de vedere păstrat este:
+
+- a. al autorului textului
+- b. al cititorului
+- c. al profesorului
+- d. neutru și absent
+
+> [!success]- Răspuns
+> **a. al autorului textului**
+> 
+> Nu se adaugă opinii proprii.
+
+### 61. Deviza Franței este:
+
+- a. Liberté, Égalité, Fraternité
+- b. Dieu et mon droit
+- c. In varietate concordia
+- d. Un pour tous
+
+> [!success]- Răspuns
+> **a. Liberté, Égalité, Fraternité**
+> 
+> Deviza Republicii Franceze.
+
+### 62. Ziua națională a Franței este:
+
+- a. 14 iulie
+- b. 1 mai
+- c. 11 noiembrie
+- d. 25 decembrie
+
+> [!success]- Răspuns
+> **a. 14 iulie**
+> 
+> Ea amintește căderea Bastiliei (1789).
+
+### 63. Autorul romanului „Les Misérables” este:
+
+- a. Victor Hugo
+- b. Molière
+- c. Voltaire
+- d. Balzac
+
+> [!success]- Răspuns
+> **a. Victor Hugo**
+> 
+> Hugo e un mare scriitor romantic francez.
+
+### 64. Un mare filosof francez al Iluminismului este:
+
+- a. Voltaire
+- b. Monet
+- c. Pasteur
+- d. Molière
+
+> [!success]- Răspuns
+> **a. Voltaire**
+> 
+> Voltaire și Rousseau au marcat Iluminismul.
+
+### 65. Literatura francofonă cuprinde:
+
+- a. autori de limbă franceză din afara Franței
+- b. doar autori din Paris
+- c. doar literatura medievală
+- d. numai texte traduse
+
+> [!success]- Răspuns
+> **a. autori de limbă franceză din afara Franței**
+> 
+> Belgia, Québec, Africa, Caraibe etc.
+
+### 66. Mișcarea Négritude afirmă:
+
+- a. valorile culturii negro-africane în franceză
+- b. superioritatea limbii franceze
+- c. clasicismul francez
+- d. romantismul german
+
+> [!success]- Răspuns
+> **a. valorile culturii negro-africane în franceză**
+> 
+> Senghor și Césaire sunt figuri centrale.
+
+### 67. Un reprezentant al Négritude este:
+
+- a. Léopold Sédar Senghor
+- b. Victor Hugo
+- c. Molière
+- d. Voltaire
+
+> [!success]- Răspuns
+> **a. Léopold Sédar Senghor**
+> 
+> Senghor a fost și președinte al Senegalului.
+
+### 68. O temă frecventă a literaturii francofone este:
+
+- a. identitatea și întâlnirea culturilor
+- b. mitologia greacă
+- c. viața la curtea regelui-soare
+- d. exclusiv natura
+
+> [!success]- Răspuns
+> **a. identitatea și întâlnirea culturilor**
+> 
+> Colonizarea și exilul sunt teme proprii.
+
+### 69. La proba de înțelegere se recomandă:
+
+- a. citirea textului de două ori și deducerea din context
+- b. copierea frazelor din text
+- c. traducerea integrală în română
+- d. ignorarea cuvintelor necunoscute
+
+> [!success]- Răspuns
+> **a. citirea textului de două ori și deducerea din context**
+> 
+> Contextul ajută la deducere.
+
+### 70. Ultima etapă a producerii scrise este:
+
+- a. recitirea pentru acorduri și ortografie
+- b. numărarea cuvintelor
+- c. traducerea
+- d. copierea planului
+
+> [!success]- Răspuns
+> **a. recitirea pentru acorduri și ortografie**
+> 
+> Verificarea prinde greșelile.
+
+### 71. La comprehensiune, răspunsul se dă:
+
+- a. cu propriile cuvinte
+- b. copiind din text
+- c. în română
+- d. printr-un singur cuvânt
+
+> [!success]- Răspuns
+> **a. cu propriile cuvinte**
+> 
+> Reformularea arată înțelegerea.
+
+### 72. O strategie generală bună la examen este:
+
+- a. gestionarea timpului și verificarea finală
+- b. graba și predarea rapidă
+- c. lăsarea itemilor grei nerezolvați
+- d. evitarea planificării
+
+> [!success]- Răspuns
+> **a. gestionarea timpului și verificarea finală**
+> 
+> Calmul și verificarea aduc puncte.
+
+### 73. „Elle est ______ (aller) au marché”:
+
+- a. allée
+- b. allé
+- c. allés
+- d. aller
+
+> [!success]- Răspuns
+> **a. allée**
+> 
+> Cu „être”, acord cu subiectul feminin.
+
+### 74. „Je commence ______ comprendre” cere:
+
+- a. à
+- b. de
+- c. pour
+- d. en
+
+> [!success]- Răspuns
+> **a. à**
+> 
+> „Commencer à” + infinitiv.
+
+### 75. „Ne… que” exprimă:
+
+- a. o restricție (numai)
+- b. o negație totală
+- c. o întrebare
+- d. o cauză
+
+> [!success]- Răspuns
+> **a. o restricție (numai)**
+> 
+> „Il ne mange que des fruits”.
+
+### 76. „Les fleurs que j'ai ______ (acheter)”:
+
+- a. achetées
+- b. acheté
+- c. achetés
+- d. acheter
+
+> [!success]- Răspuns
+> **a. achetées**
+> 
+> COD antepus (fem. pl.) → acord.
+
+### 77. „Je vais ______ Portugal” cere:
+
+- a. au
+- b. en
+- c. à
+- d. dans
+
+> [!success]- Răspuns
+> **a. au**
+> 
+> Țări masculine: „au Portugal”.
+
+### 78. Cu auxiliarul „avoir”, participiul se acordă:
+
+- a. cu COD-ul antepus
+- b. mereu cu subiectul
+- c. niciodată
+- d. cu complementul indirect
+
+> [!success]- Răspuns
+> **a. cu COD-ul antepus**
+> 
+> „Les livres que j'ai lus”.
+
+### 79. Sistemul verbal francez se organizează pe axele:
 
 - a. timp, mod și aspect
 - b. persoană, număr și gen
@@ -453,7 +957,7 @@ cssclasses: test
 > 
 > Fiecare axă răspunde unei întrebări.
 
-### 38. Subjonctivul prezintă acțiunea ca:
+### 80. Subjonctivul prezintă acțiunea ca:
 
 - a. dorită, cerută sau incertă
 - b. fapt sigur
@@ -465,7 +969,7 @@ cssclasses: test
 > 
 > Indicativul prezintă fapte.
 
-### 39. Într-o povestire, fundalul se dă prin:
+### 81. Într-o povestire, fundalul se dă prin:
 
 - a. imperfect
 - b. trecut compus
@@ -477,7 +981,7 @@ cssclasses: test
 > 
 > Evenimentele cer trecutul compus.
 
-### 40. Articolul partitiv:
+### 82. Articolul partitiv:
 
 - a. nu are echivalent direct în română
 - b. corespunde articolului hotărât
@@ -489,7 +993,7 @@ cssclasses: test
 > 
 > De aici greșelile frecvente.
 
-### 41. Pronumele tonice se folosesc:
+### 83. Pronumele tonice se folosesc:
 
 - a. după prepoziții și pentru insistență
 - b. doar ca subiect
@@ -501,7 +1005,7 @@ cssclasses: test
 > 
 > „Avec moi”, „chez toi”.
 
-### 42. Franceza cere spațiu insecabil:
+### 84. Franceza cere spațiu insecabil:
 
 - a. înaintea semnelor duble
 - b. după virgulă
@@ -513,7 +1017,7 @@ cssclasses: test
 > 
 > Regulă de punctuație proprie.
 
-### 43. Coordonarea leagă:
+### 85. Coordonarea leagă:
 
 - a. propoziții de același rang
 - b. o regentă cu o subordonată
@@ -525,7 +1029,7 @@ cssclasses: test
 > 
 > Subordonarea creează ierarhii.
 
-### 44. Etapele textului narativ încep cu:
+### 86. Etapele textului narativ încep cu:
 
 - a. situația inițială
 - b. punctul culminant
@@ -537,7 +1041,7 @@ cssclasses: test
 > 
 > Urmează elementul declanșator.
 
-### 45. Primul criteriu la evaluarea unui text narativ este:
+### 87. Primul criteriu la evaluarea unui text narativ este:
 
 - a. coerența timpurilor verbale
 - b. lungimea
@@ -549,7 +1053,79 @@ cssclasses: test
 > 
 > Amestecul de timpuri strică textul.
 
-### 46. Planul dialectic al unui eseu cuprinde:
+### 88. În povestire, fundalul se exprimă cu:
+
+- a. imperfectul
+- b. passé composé
+- c. viitorul
+- d. condiționalul
+
+> [!success]- Răspuns
+> **a. imperfectul**
+> 
+> Acțiunile punctuale cer passé composé.
+
+### 89. Un rezumat bun:
+
+- a. reformulează ideile esențiale cu propriile cuvinte
+- b. copiază frazele din text
+- c. adaugă opinii proprii
+- d. e mai lung decât originalul
+
+> [!success]- Răspuns
+> **a. reformulează ideile esențiale cu propriile cuvinte**
+> 
+> Se păstrează sensul.
+
+### 90. Deviza Franței este:
+
+- a. Liberté, Égalité, Fraternité
+- b. Dieu et mon droit
+- c. E pluribus unum
+- d. Un pour tous
+
+> [!success]- Răspuns
+> **a. Liberté, Égalité, Fraternité**
+> 
+> Deviza Republicii.
+
+### 91. Mișcarea Négritude a fost afirmată de:
+
+- a. Senghor și Césaire
+- b. Hugo și Balzac
+- c. Molière și Racine
+- d. Monet și Renoir
+
+> [!success]- Răspuns
+> **a. Senghor și Césaire**
+> 
+> Ea valorizează cultura negro-africană.
+
+### 92. Scrisoarea formală folosește:
+
+- a. „vous” și formule de politețe
+- b. „tu” și abrevieri
+- c. argou
+- d. emoticoane
+
+> [!success]- Răspuns
+> **a. „vous” și formule de politețe**
+> 
+> Registrul formal e obligatoriu.
+
+### 93. La proba orală se recomandă:
+
+- a. a vorbi clar și a da exemple
+- b. a memora un text fix
+- c. a evita orice exemplu
+- d. a răspunde monosilabic
+
+> [!success]- Răspuns
+> **a. a vorbi clar și a da exemple**
+> 
+> Reformularea și exemplele ajută.
+
+### 94. Planul dialectic al unui eseu cuprinde:
 
 - a. teză, antiteză, sinteză
 - b. cauze, efecte, soluții
@@ -561,7 +1137,7 @@ cssclasses: test
 > 
 > Se potrivește întrebărilor închise.
 
-### 47. Un eseu în afara subiectului:
+### 95. Un eseu în afara subiectului:
 
 - a. este penalizat, oricât de bine scris
 - b. primește punctaj pentru stil
@@ -573,7 +1149,7 @@ cssclasses: test
 > 
 > Adecvarea e criteriul prim.
 
-### 48. La proba orală se folosesc:
+### 96. La proba orală se folosesc:
 
 - a. note-suport
 - b. texte scrise integral
@@ -585,7 +1161,7 @@ cssclasses: test
 > 
 > Lectura se sesizează imediat.
 
-### 49. Când lipsește un cuvânt, cea mai bună soluție este:
+### 97. Când lipsește un cuvânt, cea mai bună soluție este:
 
 - a. perifraza sau sinonimul
 - b. tăcerea
@@ -597,7 +1173,7 @@ cssclasses: test
 > 
 > Ocolirea e o competență.
 
-### 50. „Septante” și „nonante” se folosesc în:
+### 98. „Septante” și „nonante” se folosesc în:
 
 - a. Belgia și Elveția
 - b. Franța
@@ -609,7 +1185,7 @@ cssclasses: test
 > 
 > Sunt variante regionale legitime.
 
-### 51. Viitorul demografic al limbii franceze este legat de:
+### 99. Viitorul demografic al limbii franceze este legat de:
 
 - a. Africa
 - b. Europa de Est
@@ -621,7 +1197,7 @@ cssclasses: test
 > 
 > Numărul vorbitorilor crește acolo.
 
-### 52. Eugen Ionescu a fost:
+### 100. Eugen Ionescu a fost:
 
 - a. membru al Academiei Franceze
 - b. exclusiv scriitor de limbă română
@@ -633,7 +1209,7 @@ cssclasses: test
 > 
 > A scris teatru în franceză.
 
-### 53. Cadrul european de referință are:
+### 101. Cadrul european de referință are:
 
 - a. șase niveluri, de la A1 la C2
 - b. patru niveluri
@@ -645,7 +1221,7 @@ cssclasses: test
 > 
 > Definite prin ce poate face vorbitorul.
 
-### 54. Greșeala, în învățarea unei limbi:
+### 102. Greșeala, în învățarea unei limbi:
 
 - a. face parte din proces
 - b. este semn de eșec

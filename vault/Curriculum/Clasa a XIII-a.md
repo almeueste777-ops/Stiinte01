@@ -19,7 +19,7 @@ Anul **5** din cei 5 ai parcursului [[Parcurs școlar]].
 ### [[Arie - Limbă și comunicare|Limbă și comunicare]]
 - [[Limba și literatura română (clasa a XIII-a)|Limba și literatura română]] — 🎓 bac, 📘 20 lecții în aplicație
 - [[Limba modernă 1 (Engleză) (clasa a XIII-a)|Limba modernă 1 (Engleză)]] — 🎓 bac, 📘 18 lecții în aplicație
-- [[Limba modernă 2 (Franceză) (clasa a XIII-a)|Limba modernă 2 (Franceză)]] — 📘 9 lecții în aplicație
+- [[Limba modernă 2 (Franceză) (clasa a XIII-a)|Limba modernă 2 (Franceză)]] — 📘 18 lecții în aplicație
 
 ### [[Arie - Om și societate|Om și societate]]
 - [[Istorie (clasa a XIII-a)|Istorie]] — 🎓 bac, 📘 22 lecții în aplicație

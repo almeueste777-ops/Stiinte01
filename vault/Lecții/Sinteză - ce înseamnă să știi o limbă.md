@@ -10,7 +10,7 @@ clasa: "a XIII-a"
 ---
 # Sinteză: ce înseamnă să știi o limbă
 
-[[Limba modernă 2 (Franceză) (clasa a XIII-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XIII-a]] · lecția 9 din 9
+[[Limba modernă 2 (Franceză) (clasa a XIII-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XIII-a]] · lecția 9 din 18
 
 **Capitolul:** Cultură și deschideri — semestrul 2
 
@@ -31,6 +31,6 @@ A ști o limbă nu înseamnă a cunoaște toate cuvintele, ci a putea face lucru
 
 ---
 
-⬅ [[Limba franceză și România]]
+⬅ [[Limba franceză și România]] · [[Acordul participiului trecut]] ➡
 
 Exersează: [[Carduri - Limba modernă 2 (Franceză) (clasa a XIII-a)]] · [[Test - Limba modernă 2 (Franceză) (clasa a XIII-a)]]

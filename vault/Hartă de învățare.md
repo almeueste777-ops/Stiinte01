@@ -50,7 +50,7 @@ graph LR
   C3 --> A3_2
   A3_3["Tehnologii<br/>1 materii"]
   C3 --> A3_3
-  C4["Clasa a XIII-a<br/>11 materii · 209 lecții"]
+  C4["Clasa a XIII-a<br/>11 materii · 218 lecții"]
   P --> C4
   A4_0["Curriculum la decizia elevului<br/>1 materii"]
   C4 --> A4_0
@@ -133,7 +133,7 @@ graph LR
 - [[Religie (clasa a XIII-a)|Religie]] — 18 lecții
 - [[Studii sociale (clasa a XIII-a)|Studii sociale]] — 18 lecții
 - [[Limba modernă 1 (Engleză) (clasa a XIII-a)|Limba modernă 1 (Engleză)]] — 18 lecții
-- [[Limba modernă 2 (Franceză) (clasa a XIII-a)|Limba modernă 2 (Franceză)]] — 9 lecții
+- [[Limba modernă 2 (Franceză) (clasa a XIII-a)|Limba modernă 2 (Franceză)]] — 18 lecții
 - [[Limba și literatura română (clasa a XIII-a)|Limba și literatura română]] — 20 lecții
 - [[Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)|Pregătire pentru bacalaureat (CDEOȘ)]] — 20 lecții
 

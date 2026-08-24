@@ -10,7 +10,7 @@ clasa: "a XIII-a"
 ---
 # Fraza: coordonare și subordonare
 
-[[Limba modernă 2 (Franceză) (clasa a XIII-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XIII-a]] · lecția 3 din 9
+[[Limba modernă 2 (Franceză) (clasa a XIII-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XIII-a]] · lecția 3 din 18
 
 **Capitolul:** Sinteză gramaticală — semestrul 1
 

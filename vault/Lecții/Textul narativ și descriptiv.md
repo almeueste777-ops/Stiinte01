@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Textul narativ și descriptiv
 
-[[Limba modernă 2 (Franceză) (clasa a XIII-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XIII-a]] · lecția 4 din 9
+[[Limba modernă 2 (Franceză) (clasa a XIII-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XIII-a]] · lecția 4 din 18
 
 **Capitolul:** Producerea de texte — semestrul 1
 

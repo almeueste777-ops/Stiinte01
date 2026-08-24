@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Limba modernă 2 (Franceză) (clasa a XIII-a)
 
-36 carduri pentru [[Limba modernă 2 (Franceză) (clasa a XIII-a)|Limba modernă 2 (Franceză) (clasa a XIII-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+72 carduri pentru [[Limba modernă 2 (Franceză) (clasa a XIII-a)|Limba modernă 2 (Franceză) (clasa a XIII-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/limba-moderna-2-franceza
 
@@ -82,6 +82,78 @@ Cum sunt definite nivelurile?::Prin ceea ce vorbitorul poate face, nu prin ceea 
 Ce rol are greșeala în învățarea unei limbi?::Face parte din proces; cine nu greșește nu vorbește.
 
 Ce schimbă învățarea unei limbi străine în raport cu limba proprie?::Arată că felul tău de a spune lucrurile e unul dintre mai multe posibile.
+
+Cu ce se acordă participiul cu auxiliarul „être”?::Cu subiectul, în gen și număr.
+
+Când se acordă participiul cu auxiliarul „avoir”?::Când COD-ul e plasat înaintea verbului.
+
+„Elle est ___ (partir)” — ce formă?::„Partie” (acord cu subiectul feminin).
+
+„J'ai acheté des fleurs” — de ce fără acord?::COD-ul e după verb.
+
+Ce prepoziție cere „commencer” înainte de infinitiv?::„À”: „commencer à”.
+
+Ce prepoziție cere „décider”?::„De”: „décider de”.
+
+Cum se spune „în Franța”?::„En France”.
+
+Ce verbe nu cer prepoziție înainte de infinitiv?::Vouloir, pouvoir, devoir.
+
+Cum se exprimă „nu mai”?::„Ne… plus”: „je ne travaille plus”.
+
+Ce înseamnă „ne… que”?::„Numai” — restricție, nu negație.
+
+Unde se pune „ne… pas” la timpurile compuse?::Încadrează auxiliarul: „je n'ai pas compris”.
+
+Este „ne” obligatoriu în scris?::Da, deși în vorbirea familiară dispare.
+
+Ce timp exprimă fundalul unei povestiri în trecut?::Imperfectul (imparfait).
+
+Ce timp exprimă acțiunile punctuale?::Passé composé.
+
+Numește conectori temporali.::D'abord, puis, ensuite, soudain, enfin.
+
+Ce timp folosește descrierea în trecut?::Imperfectul.
+
+Ce pronume folosește scrisoarea formală?::„Vous”.
+
+Cu ce se încheie o scrisoare formală?::Cu o formulă de politețe.
+
+Cum se adresează un mesaj informal?::Pe nume: „Cher Paul,”, „Salut,”.
+
+Ce eroare de registru trebuie evitată?::Amestecul „tu”/„vous” în același text.
+
+Ce păstrează un rezumat bun?::Ideile esențiale, sensul și punctul de vedere al autorului.
+
+Ce se elimină într-un rezumat?::Exemplele și repetițiile.
+
+Prin ce diferă sinteza de rezumat?::Sinteza confruntă mai multe texte.
+
+Ce greșeală trebuie evitată la rezumat?::Copierea frazelor în loc de reformulare.
+
+Care este deviza Franței?::„Liberté, Égalité, Fraternité”.
+
+Când este ziua națională a Franței?::La 14 iulie.
+
+Numește un mare scriitor francez.::Victor Hugo (sau Molière, Balzac, Camus).
+
+Ce eveniment amintește ziua de 14 iulie?::Căderea Bastiliei (1789).
+
+Ce cuprinde literatura francofonă?::Autori de limbă franceză din afara Franței.
+
+Ce este mișcarea Négritude?::Afirmarea culturii negro-africane în limba franceză.
+
+Numește un autor al Négritude.::Léopold Sédar Senghor (sau Aimé Césaire).
+
+Ce teme aduce literatura francofonă?::Identitatea, colonizarea, exilul, întâlnirea culturilor.
+
+Ce testează proba de competențe?::Înțelegerea și producerea, scrisă și orală.
+
+Ce faci la înțelegerea unui text?::Citești de două ori și deduci din context.
+
+Ce se face după redactare?::Se recitește pentru acorduri, gramatică și ortografie.
+
+Cum se răspunde la comprehensiune?::Cu propriile cuvinte, fără a copia.
 
 ---
 

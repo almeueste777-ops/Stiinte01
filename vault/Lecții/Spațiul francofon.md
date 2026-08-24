@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Spațiul francofon
 
-[[Limba modernă 2 (Franceză) (clasa a XIII-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XIII-a]] · lecția 7 din 9
+[[Limba modernă 2 (Franceză) (clasa a XIII-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XIII-a]] · lecția 7 din 18
 
 **Capitolul:** Cultură și deschideri — semestrul 2
 

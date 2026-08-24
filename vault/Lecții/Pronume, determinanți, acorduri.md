@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Pronume, determinanți, acorduri
 
-[[Limba modernă 2 (Franceză) (clasa a XIII-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XIII-a]] · lecția 2 din 9
+[[Limba modernă 2 (Franceză) (clasa a XIII-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XIII-a]] · lecția 2 din 18
 
 **Capitolul:** Sinteză gramaticală — semestrul 1
 

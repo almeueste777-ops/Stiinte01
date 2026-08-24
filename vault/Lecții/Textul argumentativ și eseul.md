@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Textul argumentativ și eseul
 
-[[Limba modernă 2 (Franceză) (clasa a XIII-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XIII-a]] · lecția 5 din 9
+[[Limba modernă 2 (Franceză) (clasa a XIII-a)|Limba modernă 2 (Franceză)]] · [[Clasa a XIII-a]] · lecția 5 din 18
 
 **Capitolul:** Producerea de texte — semestrul 1
 
