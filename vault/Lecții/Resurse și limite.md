@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Resurse și limite
 
-[[ȘTIAM (științe integrate) (clasa a XII-a)|ȘTIAM (științe integrate)]] · [[Clasa a XII-a]] · lecția 7 din 9
+[[ȘTIAM (științe integrate) (clasa a XII-a)|ȘTIAM (științe integrate)]] · [[Clasa a XII-a]] · lecția 7 din 16
 
 **Capitolul:** Mediu, resurse, gândire critică — semestrul 2
 

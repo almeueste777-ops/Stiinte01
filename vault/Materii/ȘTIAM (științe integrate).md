@@ -14,7 +14,7 @@ cssclasses: fisa
 ## Anii de studiu
 
 - [[ȘTIAM (științe integrate) (clasa a XI-a)|Clasa a XI-a]] — 16 lecții, 64 carduri, 94 întrebări
-- [[ȘTIAM (științe integrate) (clasa a XII-a)|Clasa a XII-a]] — 9 lecții, 36 carduri, 54 întrebări
+- [[ȘTIAM (științe integrate) (clasa a XII-a)|Clasa a XII-a]] — 16 lecții, 64 carduri, 88 întrebări
 
 ## Legături
 - [[00 Start aici]]

@@ -20,7 +20,7 @@ cssclasses: fisa
 
 Științe integrate: sănătate și corp, tehnologie și societate, mediu și resurse, gândire critică aplicată.
 
-## Capitole (3)
+## Capitole (6)
 
 ### Sănătate și corp — semestrul 1
 
@@ -40,9 +40,25 @@ cssclasses: fisa
 - [[Biodiversitate și ecosisteme]]
 - [[Gândire critică aplicată]]
 
+### Sănătate și prevenție — semestrul 1
+
+- [[Sistemul imunitar și bolile]]
+- [[Substanțe, dependențe și efecte asupra corpului]]
+- [[Sănătatea mintală și stilul de viață]]
+
+### Mediu și resurse — semestrul 2
+
+- [[Schimbările climatice și energia]]
+- [[Apa, deșeurile și economia circulară]]
+
+### Știință, tehnologie și gândire critică — semestrul 2
+
+- [[Progresul tehnologic și etica]]
+- [[Gândirea critică și pseudoștiința]]
+
 ## Exersare
-- [[Carduri - ȘTIAM (științe integrate) (clasa a XII-a)]] — 36 carduri
-- [[Test - ȘTIAM (științe integrate) (clasa a XII-a)]] — 54 întrebări
+- [[Carduri - ȘTIAM (științe integrate) (clasa a XII-a)]] — 64 carduri
+- [[Test - ȘTIAM (științe integrate) (clasa a XII-a)]] — 88 întrebări
 
 ## Legături
 - [[ȘTIAM (științe integrate)|ȘTIAM (științe integrate)]]

@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — ȘTIAM (științe integrate) (clasa a XII-a)
 
-36 carduri pentru [[ȘTIAM (științe integrate) (clasa a XII-a)|ȘTIAM (științe integrate) (clasa a XII-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+64 carduri pentru [[ȘTIAM (științe integrate) (clasa a XII-a)|ȘTIAM (științe integrate) (clasa a XII-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/stiam-stiinte-integrate
 
@@ -82,6 +82,62 @@ Cum se recunoaște pseudoștiința?::După afirmații care nu pot fi infirmate, 
 Ce înseamnă scepticismul sănătos?::A cere dovezi proporționale cu pretenția, nu a nu crede nimic.
 
 Ce este confirmarea selectivă?::Tendința de a reține doar dovezile care confirmă convingerile proprii.
+
+Care e prima linie de apărare a corpului?::Barierele: pielea, mucoasele, aciditatea.
+
+Ce produce imunitatea dobândită?::Anticorpi și celule de memorie, specifice unui agent.
+
+Pe ce principiu se bazează vaccinarea?::Pe memoria imunitară: corpul „învață” fără boală.
+
+Ce tipuri de boli există?::Infecțioase și neinfecțioase.
+
+Ce este dependența?::Nevoia repetată de o substanță, în ciuda efectelor dăunătoare.
+
+Ce substanță din tutun creează dependență?::Nicotina.
+
+Cum acționează alcoolul asupra corpului?::Asupra sistemului nervos: scade reflexele și judecata.
+
+Ce factor de risc e frecvent la adolescenți?::Presiunea grupului.
+
+Ce înseamnă sănătatea, după definiția largă?::Starea de bine fizică, mintală și socială.
+
+Cum se întreține sănătatea mintală?::Prin somn, mișcare, relații și pauze de la ecrane.
+
+Când devine stresul dăunător?::Când e cronic (prelungit).
+
+Ce are efectul cel mai mare asupra sănătății?::Obiceiurile mici, repetate zilnic.
+
+Ce intensifică schimbările climatice actuale?::Efectul de seră, prin gaze ca CO₂ și metanul.
+
+Care e sursa dominantă a emisiilor?::Arderea combustibililor fosili.
+
+Numește o sursă de energie regenerabilă.::Solară (sau eoliană, hidro).
+
+Ce înseamnă dezvoltarea durabilă?::Satisfacerea prezentului fără a compromite viitorul.
+
+Cât din apa Pământului e dulce și ușor accesibilă?::Sub 1%.
+
+Care sunt cei „3R” ai economiei circulare?::Reducere, reutilizare, reciclare.
+
+Ce face posibilă reciclarea?::Colectarea selectivă a deșeurilor.
+
+Ce transformă compostarea?::Deșeurile organice în îngrășământ.
+
+De ce ridică tehnologia dileme etice?::Aceeași descoperire poate fi folosită în bine sau în rău.
+
+Ce cere principiul precauției?::Prudență când efectele pe termen lung nu sunt cunoscute.
+
+Ce decide știința și ce decide societatea?::Știința — ce se poate; etica și societatea — ce ar trebui.
+
+Ce însoțește puterea dată de cunoaștere?::Responsabilitatea.
+
+Ce înseamnă gândirea critică?::Evaluarea afirmațiilor pe baza dovezilor și a raționamentului.
+
+Ce proprietate are o afirmație științifică?::E testabilă și falsifiabilă.
+
+Prin ce se recunoaște pseudoștiința?::Imită știința, dar fără dovezi și fără deschidere la infirmare.
+
+Corelația implică automat cauzalitate?::Nu; corelația nu înseamnă cauzalitate.
 
 ---
 

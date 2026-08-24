@@ -20,7 +20,7 @@ Anul **4** din cei 5 ai parcursului [[Parcurs școlar]].
 
 ### [[Arie - Matematică și științe ale naturii|Matematică și științe ale naturii]]
 - [[Matematică aplicată în științele sociale (clasa a XII-a)|Matematică aplicată în științele sociale]] — 📘 18 lecții în aplicație
-- [[ȘTIAM (științe integrate) (clasa a XII-a)|ȘTIAM (științe integrate)]] — 📘 9 lecții în aplicație
+- [[ȘTIAM (științe integrate) (clasa a XII-a)|ȘTIAM (științe integrate)]] — 📘 16 lecții în aplicație
 
 ### [[Arie - Om și societate|Om și societate]]
 - [[Istorie (clasa a XII-a)|Istorie]] — 🎓 bac, 📘 24 lecții în aplicație
