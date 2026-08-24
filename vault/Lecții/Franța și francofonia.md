@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Franța și francofonia
 
-[[Limba modernă 2 (Franceză) (clasa a X-a)|Limba modernă 2 (Franceză)]] · [[Clasa a X-a]] · lecția 9 din 9
+[[Limba modernă 2 (Franceză) (clasa a X-a)|Limba modernă 2 (Franceză)]] · [[Clasa a X-a]] · lecția 9 din 18
 
 **Capitolul:** Comunicare și vocabular — semestrul 2
 
@@ -29,6 +29,6 @@ Franța este o republică semiprezidențială, cu o cultură care a influențat 
 
 ---
 
-⬅ [[Descriere și povestire]]
+⬅ [[Descriere și povestire]] · [[Comparativul și superlativul]] ➡
 
 Exersează: [[Carduri - Limba modernă 2 (Franceză) (clasa a X-a)]] · [[Test - Limba modernă 2 (Franceză) (clasa a X-a)]]

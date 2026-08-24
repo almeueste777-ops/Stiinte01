@@ -20,7 +20,7 @@ cssclasses: fisa
 
 Mecanica: mișcare și repaus, principiile dinamicii, lucru mecanic și energie, echilibru și mașini simple.
 
-## Capitole (3)
+## Capitole (6)
 
 ### Mișcare și forțe — semestrul 1
 
@@ -40,9 +40,27 @@ Mecanica: mișcare și repaus, principiile dinamicii, lucru mecanic și energie,
 - [[Mașini simple]]
 - [[Presiunea în solide, lichide și gaze]]
 
+### Cinematica vectorială și mișcarea circulară — semestrul 1
+
+- [[Vectori - reprezentare, adunare, descompunere]]
+- [[Mișcarea circulară uniformă]]
+- [[Compunerea mișcărilor. Aruncarea corpurilor]]
+
+### Gravitația și impulsul mecanic — semestrul 2
+
+- [[Legea atracției universale]]
+- [[Impulsul mecanic și teorema variației impulsului]]
+- [[Legea conservării impulsului. Ciocniri]]
+
+### Teoreme de variație și oscilații — semestrul 2
+
+- [[Teorema variației energiei cinetice]]
+- [[Energia potențială și forțe conservative]]
+- [[Pendulul gravitațional și conservarea energiei]]
+
 ## Exersare
-- [[Carduri - Fizică (clasa a IX-a)]] — 36 carduri
-- [[Test - Fizică (clasa a IX-a)]] — 54 întrebări
+- [[Carduri - Fizică (clasa a IX-a)]] — 72 carduri
+- [[Test - Fizică (clasa a IX-a)]] — 96 întrebări
 
 ## Legături
 - [[Fizică|Fizică]]

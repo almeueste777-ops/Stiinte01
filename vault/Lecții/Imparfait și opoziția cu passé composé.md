@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Imparfait și opoziția cu passé composé
 
-[[Limba modernă 2 (Franceză) (clasa a X-a)|Limba modernă 2 (Franceză)]] · [[Clasa a X-a]] · lecția 2 din 9
+[[Limba modernă 2 (Franceză) (clasa a X-a)|Limba modernă 2 (Franceză)]] · [[Clasa a X-a]] · lecția 2 din 18
 
 **Capitolul:** Timpurile trecutului — semestrul 1
 

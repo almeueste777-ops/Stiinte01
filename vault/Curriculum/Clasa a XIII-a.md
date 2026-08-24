@@ -22,7 +22,7 @@ Anul **5** din cei 5 ai parcursului [[Parcurs școlar]].
 - [[Limba modernă 2 (Franceză) (clasa a XIII-a)|Limba modernă 2 (Franceză)]] — 📘 9 lecții în aplicație
 
 ### [[Arie - Om și societate|Om și societate]]
-- [[Istorie (clasa a XIII-a)|Istorie]] — 🎓 bac, 📘 9 lecții în aplicație
+- [[Istorie (clasa a XIII-a)|Istorie]] — 🎓 bac, 📘 22 lecții în aplicație
 - [[Istoria comunismului din România (clasa a XIII-a)|Istoria comunismului din România]] — 📘 9 lecții în aplicație
 - [[Geografie (clasa a XIII-a)|Geografie]] — 🎓 bac, 📘 20 lecții în aplicație
 - [[Economie și educație antreprenorială (clasa a XIII-a)|Economie și educație antreprenorială]] — 🎓 bac, 📘 12 lecții în aplicație

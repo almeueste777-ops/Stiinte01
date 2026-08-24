@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Adjectivul și acordul
 
-[[Limba modernă 2 (Franceză) (clasa a IX-a)|Limba modernă 2 (Franceză)]] · [[Clasa a IX-a]] · lecția 3 din 9
+[[Limba modernă 2 (Franceză) (clasa a IX-a)|Limba modernă 2 (Franceză)]] · [[Clasa a IX-a]] · lecția 3 din 18
 
 **Capitolul:** Sunete, articole, substantive — semestrul 1
 

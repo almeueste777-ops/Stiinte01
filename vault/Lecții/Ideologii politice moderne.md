@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Ideologii politice moderne
 
-[[Istorie (clasa a XIII-a)|Istorie]] · [[Clasa a XIII-a]] · lecția 1 din 9
+[[Istorie (clasa a XIII-a)|Istorie]] · [[Clasa a XIII-a]] · lecția 1 din 22
 
 **Capitolul:** Oamenii, societatea și lumea ideilor — semestrul 1
 

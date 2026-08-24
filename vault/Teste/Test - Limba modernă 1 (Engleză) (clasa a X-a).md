@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Limba modernă 1 (Engleză) (clasa a X-a)
 
-60 întrebări din [[Limba modernă 1 (Engleză) (clasa a X-a)|Limba modernă 1 (Engleză) (clasa a X-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+96 întrebări din [[Limba modernă 1 (Engleză) (clasa a X-a)|Limba modernă 1 (Engleză) (clasa a X-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. „I ______ this book three times.” Forma potrivită este:
 
@@ -441,7 +441,439 @@ cssclasses: test
 > 
 > Sensul trebuie păstrat, iar cuvântul folosit ca atare.
 
-### 37. Present Perfect Simple accentuează:
+### 37. „By next June, she ______ her degree." Forma corectă este:
+
+- a. will have finished
+- b. will finish
+- c. will be finishing
+- d. finishes
+
+> [!success]- Răspuns
+> **a. will have finished**
+> 
+> Acțiunea încheiată înaintea unui moment viitor cere Future Perfect.
+
+### 38. „This time next week I ______ on a beach." Forma potrivită este:
+
+- a. will be lying
+- b. will lie
+- c. will have lain
+- d. lie
+
+> [!success]- Răspuns
+> **a. will be lying**
+> 
+> Acțiunea în desfășurare la un moment viitor cere Future Continuous.
+
+### 39. „I'll call you when I ______ home." Forma corectă este:
+
+- a. get
+- b. will get
+- c. will be getting
+- d. am going to get
+
+> [!success]- Răspuns
+> **a. get**
+> 
+> După „when" cu sens de viitor se folosește prezentul.
+
+### 40. „Look at the sky! It ______ snow." Forma potrivită este:
+
+- a. is going to
+- b. will
+- c. snows
+- d. is snowing
+
+> [!success]- Răspuns
+> **a. is going to**
+> 
+> Predicția bazată pe dovezi prezente cere „be going to".
+
+### 41. „There ______ a castle here, but it was demolished." Forma corectă este:
+
+- a. used to be
+- b. would be
+- c. is used to be
+- d. use to be
+
+> [!success]- Răspuns
+> **a. used to be**
+> 
+> Pentru o stare trecută se folosește „used to", nu „would".
+
+### 42. „I'm not ______ the cold weather here yet." Forma potrivită este:
+
+- a. used to
+- b. used to be
+- c. use to
+- d. using to
+
+> [!success]- Răspuns
+> **a. used to**
+> 
+> „Be used to" înseamnă a fi obișnuit cu ceva.
+
+### 43. „When we were children, we ______ play in the street for hours." Pe lângă „used to", este corect și:
+
+- a. would
+- b. are used to
+- c. get used to
+- d. use to
+
+> [!success]- Răspuns
+> **a. would**
+> 
+> „Would" exprimă acțiuni repetate în trecut.
+
+### 44. Negativul corect este:
+
+- a. „I didn't use to like fish."
+- b. „I didn't used to like fish."
+- c. „I don't used to like fish."
+- d. „I usen't like fish."
+
+> [!success]- Răspuns
+> **a. „I didn't use to like fish."**
+> 
+> După „did/didn't", forma revine la „use to".
+
+### 45. „He isn't ______ to drive." Forma corectă este:
+
+- a. old enough
+- b. enough old
+- c. too old
+- d. so old
+
+> [!success]- Răspuns
+> **a. old enough**
+> 
+> „Enough" stă după adjectiv: „old enough".
+
+### 46. „It was ______ a good film that we watched it twice." Forma potrivită este:
+
+- a. such
+- b. so
+- c. too
+- d. very
+
+> [!success]- Răspuns
+> **a. such**
+> 
+> Înaintea grupului (a +) adjectiv + substantiv se folosește „such".
+
+### 47. „The coffee is ______ hot to drink." Forma corectă este:
+
+- a. too
+- b. enough
+- c. so
+- d. such
+
+> [!success]- Răspuns
+> **a. too**
+> 
+> „Too" exprimă excesul: prea fierbinte.
+
+### 48. „She was ______ tired that she fell asleep." Forma potrivită este:
+
+- a. so
+- b. such
+- c. too
+- d. enough
+
+> [!success]- Răspuns
+> **a. so**
+> 
+> Înaintea unui adjectiv singur se folosește „so".
+
+### 49. „______ it was raining, we decided to go for a walk." Cuvântul potrivit este:
+
+- a. Although
+- b. However
+- c. Therefore
+- d. Moreover
+
+> [!success]- Răspuns
+> **a. Although**
+> 
+> „Although" introduce un contrast în cadrul aceleiași fraze.
+
+### 50. „She studied hard; ______, she passed the exam." Cuvântul potrivit este:
+
+- a. therefore
+- b. although
+- c. because
+- d. whereas
+
+> [!success]- Răspuns
+> **a. therefore**
+> 
+> „Therefore" exprimă rezultatul.
+
+### 51. Este greșit să spui:
+
+- a. „Although it was late, but we continued."
+- b. „Although it was late, we continued."
+- c. „It was late, but we continued."
+- d. „It was late; however, we continued."
+
+> [!success]- Răspuns
+> **a. „Although it was late, but we continued."**
+> 
+> „Although" și „but" nu se folosesc împreună.
+
+### 52. „______ the heavy traffic, we were late." Pentru cauză, înaintea unui substantiv, se folosește:
+
+- a. Due to
+- b. Because
+- c. Therefore
+- d. Although
+
+> [!success]- Răspuns
+> **a. Due to**
+> 
+> „Because" cere o propoziție întreagă; „due to" precede un substantiv.
+
+### 53. Substantivul format de la „decide" este:
+
+- a. decision
+- b. deciding
+- c. decisive
+- d. decidedly
+
+> [!success]- Răspuns
+> **a. decision**
+> 
+> Sufixul „-sion" formează substantivul „decision".
+
+### 54. Prefixul de negație potrivit pentru „regular" este:
+
+- a. ir-
+- b. im-
+- c. il-
+- d. un-
+
+> [!success]- Răspuns
+> **a. ir-**
+> 
+> Înaintea lui „r" se folosește „ir-": „irregular".
+
+### 55. Adjectivul format de la „care", cu sens privativ, este:
+
+- a. careless
+- b. careful
+- c. caring
+- d. carely
+
+> [!success]- Răspuns
+> **a. careless**
+> 
+> Sufixul „-less" formează adjective cu sens privativ.
+
+### 56. „Underestimate" înseamnă:
+
+- a. a subevalua
+- b. a supraevalua
+- c. a evalua din nou
+- d. a nu evalua
+
+> [!success]- Răspuns
+> **a. a subevalua**
+> 
+> Prefixul „under-" indică insuficiența.
+
+### 57. „Turn ______." Cu pronume, forma corectă este:
+
+- a. „Turn it off."
+- b. „Turn off it."
+- c. „Turn off it now."
+- d. „It turn off."
+
+> [!success]- Răspuns
+> **a. „Turn it off."**
+> 
+> La verbele separabile, pronumele stă între verb și particulă.
+
+### 58. „Look for" înseamnă:
+
+- a. a căuta
+- b. a avea grijă
+- c. a privi înapoi
+- d. a aștepta
+
+> [!success]- Răspuns
+> **a. a căuta**
+> 
+> „Look after" înseamnă a avea grijă; „look for" înseamnă a căuta.
+
+### 59. Într-un text formal, în locul lui „find out" se folosește, de regulă:
+
+- a. discover
+- b. give up
+- c. take off
+- d. look for
+
+> [!success]- Răspuns
+> **a. discover**
+> 
+> Echivalentele latinizate aparțin registrului formal.
+
+### 60. „She takes after her mother" înseamnă:
+
+- a. seamănă cu mama ei
+- b. o urmează pe mama ei
+- c. are grijă de mama ei
+- d. pleacă după mama ei
+
+> [!success]- Răspuns
+> **a. seamănă cu mama ei**
+> 
+> „Take after" înseamnă a semăna cu (o rudă).
+
+### 61. „A ______ ticket" înseamnă dus-întors. Cuvântul potrivit este:
+
+- a. return
+- b. single
+- c. one-way
+- d. open
+
+> [!success]- Răspuns
+> **a. return**
+> 
+> „Return" = dus-întors; „single" = doar dus.
+
+### 62. Colocația corectă pentru „a pierde avionul" este:
+
+- a. „miss a flight"
+- b. „lose a flight"
+- c. „fail a flight"
+- d. „drop a flight"
+
+> [!success]- Răspuns
+> **a. „miss a flight"**
+> 
+> „Miss" se folosește pentru mijloacele de transport.
+
+### 63. „Could you tell me where the gate ______?" Forma corectă a întrebării indirecte este:
+
+- a. is
+- b. is it
+- c. does it be
+- d. it is being
+
+> [!success]- Răspuns
+> **a. is**
+> 
+> Întrebarea indirectă păstrează ordinea afirmativă: „where the gate is".
+
+### 64. „To check out" of a hotel înseamnă:
+
+- a. a preda camera și a pleca
+- b. a rezerva o cameră
+- c. a intra în cameră
+- d. a plăti un depozit
+
+> [!success]- Răspuns
+> **a. a preda camera și a pleca**
+> 
+> „Check out" = a încheia sejurul și a elibera camera.
+
+### 65. „Please ______ to your account." Verbul frazal corect este:
+
+- a. log in
+- b. log on it
+- c. login in
+- d. sign
+
+> [!success]- Răspuns
+> **a. log in**
+> 
+> „Log in" înseamnă a te autentifica într-un cont.
+
+### 66. Colocația corectă este:
+
+- a. „send an email"
+- b. „do an email"
+- c. „make an email"
+- d. „give an email"
+
+> [!success]- Răspuns
+> **a. „send an email"**
+> 
+> „Send an email" este colocația fixă.
+
+### 67. „To back up your files" înseamnă:
+
+- a. a face o copie de siguranță
+- b. a șterge fișierele
+- c. a le trimite înapoi
+- d. a le deschide
+
+> [!success]- Răspuns
+> **a. a face o copie de siguranță**
+> 
+> „Back up" = a salva o copie de rezervă.
+
+### 68. „The digital divide" se referă la:
+
+- a. decalajul de acces și de competențe digitale
+- b. viteza internetului
+- c. prețul dispozitivelor
+- d. numărul de aplicații
+
+> [!success]- Răspuns
+> **a. decalajul de acces și de competențe digitale**
+> 
+> El desemnează inegalitatea în accesul la tehnologie.
+
+### 69. Colocația corectă este:
+
+- a. „play tennis"
+- b. „do tennis"
+- c. „go tennis"
+- d. „make tennis"
+
+> [!success]- Răspuns
+> **a. „play tennis"**
+> 
+> „Play" se folosește pentru jocurile cu mingea.
+
+### 70. „Go ______", forma corectă este:
+
+- a. swimming
+- b. swim
+- c. to swim
+- d. swims
+
+> [!success]- Răspuns
+> **a. swimming**
+> 
+> „Go" este urmat de activitatea în -ing: „go swimming".
+
+### 71. „You eat ______ sugar." Pentru exces se folosește:
+
+- a. too much
+- b. enough
+- c. too many
+- d. so
+
+> [!success]- Răspuns
+> **a. too much**
+> 
+> „Sugar" este nenumărabil, deci „too much".
+
+### 72. Adverbul „hardly ever" înseamnă:
+
+- a. aproape niciodată
+- b. aproape întotdeauna
+- c. des
+- d. din greu
+
+> [!success]- Răspuns
+> **a. aproape niciodată**
+> 
+> „Hardly ever" înseamnă foarte rar, aproape niciodată.
+
+### 73. Present Perfect Simple accentuează:
 
 - a. rezultatul
 - b. durata
@@ -453,7 +885,7 @@ cssclasses: test
 > 
 > Forma continuă accentuează procesul.
 
-### 38. „My hands are dirty. I ______ in the garden.”
+### 74. „My hands are dirty. I ______ in the garden.”
 
 - a. have been working
 - b. have worked
@@ -465,7 +897,7 @@ cssclasses: test
 > 
 > Efectul vizibil al procesului cere forma continuă.
 
-### 39. Verbele de stare admit:
+### 75. Verbele de stare admit:
 
 - a. doar forma simplă
 - b. doar forma continuă
@@ -477,7 +909,7 @@ cssclasses: test
 > 
 > „I have known him for years.”
 
-### 40. „When I arrived, the film ______.”
+### 76. „When I arrived, the film ______.”
 
 - a. had already started
 - b. has already started
@@ -489,7 +921,7 @@ cssclasses: test
 > 
 > Anterioritatea în trecut cere Past Perfect.
 
-### 41. Past Perfect se formează cu:
+### 77. Past Perfect se formează cu:
 
 - a. had + participiu trecut
 - b. have + participiu
@@ -501,7 +933,7 @@ cssclasses: test
 > 
 > Forma e identică la toate persoanele.
 
-### 42. Pasivul se formează cu:
+### 78. Pasivul se formează cu:
 
 - a. „to be” + participiu trecut
 - b. „to have” + participiu
@@ -513,7 +945,7 @@ cssclasses: test
 > 
 > Timpul se marchează pe verbul „to be”.
 
-### 43. Agentul în pasiv se introduce prin:
+### 79. Agentul în pasiv se introduce prin:
 
 - a. by
 - b. with
@@ -525,7 +957,7 @@ cssclasses: test
 > 
 > „With” introduce instrumentul.
 
-### 44. „He is believed to be innocent” este:
+### 80. „He is believed to be innocent” este:
 
 - a. o structură impersonală
 - b. un pasiv cu agent exprimat
@@ -537,7 +969,7 @@ cssclasses: test
 > 
 > Ea transmite o opinie generală.
 
-### 45. „If I ______ you, I would accept.”
+### 81. „If I ______ you, I would accept.”
 
 - a. were
 - b. was
@@ -549,7 +981,7 @@ cssclasses: test
 > 
 > Al doilea condițional folosește „were” la toate persoanele.
 
-### 46. „If I had studied, I ______ the exam.”
+### 82. „If I had studied, I ______ the exam.”
 
 - a. would have passed
 - b. would pass
@@ -561,7 +993,7 @@ cssclasses: test
 > 
 > Al treilea condițional este contrafactual.
 
-### 47. După „if” nu se folosește, de regulă:
+### 83. După „if” nu se folosește, de regulă:
 
 - a. will
 - b. prezentul
@@ -573,7 +1005,7 @@ cssclasses: test
 > 
 > „If it rains, we will stay.”
 
-### 48. „Unless you hurry” înseamnă:
+### 84. „Unless you hurry” înseamnă:
 
 - a. „dacă nu te grăbești”
 - b. „dacă te grăbești”
@@ -585,7 +1017,7 @@ cssclasses: test
 > 
 > „Unless” = „if … not”.
 
-### 49. În vorbirea indirectă, timpurile:
+### 85. În vorbirea indirectă, timpurile:
 
 - a. coboară un nivel
 - b. rămân neschimbate
@@ -597,7 +1029,7 @@ cssclasses: test
 > 
 > Fenomenul se numește backshift.
 
-### 50. „Are you coming?” devine:
+### 86. „Are you coming?” devine:
 
 - a. He asked if I was coming.
 - b. He asked was I coming.
@@ -609,7 +1041,7 @@ cssclasses: test
 > 
 > Întrebările fără cuvânt interogativ cer „if” sau „whether”.
 
-### 51. „Don't touch that!” devine:
+### 87. „Don't touch that!” devine:
 
 - a. He told me not to touch that.
 - b. He told me don't touch that.
@@ -621,7 +1053,7 @@ cssclasses: test
 > 
 > Interdicția se redă cu „not to” plus infinitiv.
 
-### 52. „Enjoy” este urmat de:
+### 88. „Enjoy” este urmat de:
 
 - a. gerunziu
 - b. infinitiv cu „to”
@@ -633,7 +1065,7 @@ cssclasses: test
 > 
 > „I enjoy reading.”
 
-### 53. „Stop to smoke” înseamnă:
+### 89. „Stop to smoke” înseamnă:
 
 - a. a te opri pentru a fuma
 - b. a înceta să fumezi
@@ -645,7 +1077,7 @@ cssclasses: test
 > 
 > „Stop smoking” înseamnă a înceta.
 
-### 54. Relativele nedefinitorii:
+### 90. Relativele nedefinitorii:
 
 - a. se despart prin virgule și nu admit „that”
 - b. nu se despart prin virgule
@@ -657,7 +1089,7 @@ cssclasses: test
 > 
 > Ele adaugă informație suplimentară.
 
-### 55. Pronumele relativ se poate omite când:
+### 91. Pronumele relativ se poate omite când:
 
 - a. este complement direct într-o relativă definitorie
 - b. este subiect
@@ -669,7 +1101,7 @@ cssclasses: test
 > 
 > „The book (that) I read.”
 
-### 56. „Topic sentence” este:
+### 92. „Topic sentence” este:
 
 - a. propoziția care exprimă ideea principală a paragrafului
 - b. concluzia textului
@@ -681,7 +1113,7 @@ cssclasses: test
 > 
 > Ea orientează întregul paragraf.
 
-### 57. „Nevertheless” exprimă:
+### 93. „Nevertheless” exprimă:
 
 - a. contrast
 - b. adăugare
@@ -693,7 +1125,7 @@ cssclasses: test
 > 
 > „Furthermore” exprimă adăugarea.
 
-### 58. În interacțiunea orală contează în primul rând:
+### 94. În interacțiunea orală contează în primul rând:
 
 - a. fluența
 - b. perfecțiunea gramaticală
@@ -705,7 +1137,7 @@ cssclasses: test
 > 
 > Pauzele lungi rup comunicarea.
 
-### 59. „Not given” într-un test înseamnă:
+### 95. „Not given” într-un test înseamnă:
 
 - a. textul nu conține informația
 - b. textul afirmă contrariul
@@ -717,7 +1149,7 @@ cssclasses: test
 > 
 > Confuzia cu „false” este eroarea clasică.
 
-### 60. În engleza academică se evită:
+### 96. În engleza academică se evită:
 
 - a. prescurtările și colocvialismele
 - b. conectorii logici

@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Limba modernă 2 (Franceză) (clasa a X-a)
 
-54 întrebări din [[Limba modernă 2 (Franceză) (clasa a X-a)|Limba modernă 2 (Franceză) (clasa a X-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+90 întrebări din [[Limba modernă 2 (Franceză) (clasa a X-a)|Limba modernă 2 (Franceză) (clasa a X-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. „Elle est partie” arată acordul participiului cu:
 
@@ -441,7 +441,439 @@ cssclasses: test
 > 
 > Legăturile culturale sunt vechi.
 
-### 37. Trecutul compus se formează cu:
+### 37. Comparativul de superioritate se formează cu:
+
+- a. plus… que
+- b. moins… que
+- c. aussi… que
+- d. le plus
+
+> [!success]- Răspuns
+> **a. plus… que**
+> 
+> „Marie est plus grande que Paul".
+
+### 38. Comparativul neregulat al lui „bon" este:
+
+- a. meilleur
+- b. plus bon
+- c. mieux
+- d. le bon
+
+> [!success]- Răspuns
+> **a. meilleur**
+> 
+> „Bon" nu admite „plus bon".
+
+### 39. Superlativul „cel mai mare din clasă" este:
+
+- a. le plus grand de la classe
+- b. le plus grand que la classe
+- c. plus grand de la classe
+- d. le plus grand dans la classe
+
+> [!success]- Răspuns
+> **a. le plus grand de la classe**
+> 
+> Complementul superlativului se introduce prin „de".
+
+### 40. „Mieux" este comparativul lui:
+
+- a. bien
+- b. bon
+- c. beaucoup
+- d. grand
+
+> [!success]- Răspuns
+> **a. bien**
+> 
+> „Meilleur" e comparativul lui „bon".
+
+### 41. Adverbul format din „lent" este:
+
+- a. lentement
+- b. lentment
+- c. lentemant
+- d. lentétement
+
+> [!success]- Răspuns
+> **a. lentement**
+> 
+> Se pornește de la femininul „lente".
+
+### 42. „Prudent" dă adverbul:
+
+- a. prudemment
+- b. prudentement
+- c. prudamment
+- d. prudment
+
+> [!success]- Răspuns
+> **a. prudemment**
+> 
+> Adjectivele în „-ent" dau „-emment".
+
+### 43. Adverbul francez este:
+
+- a. invariabil
+- b. acordat în gen
+- c. acordat în număr
+- d. acordat în gen și număr
+
+> [!success]- Răspuns
+> **a. invariabil**
+> 
+> Nu se schimbă niciodată.
+
+### 44. La timpul compus, „il a ______ mangé" (bine):
+
+- a. bien
+- b. bon
+- c. bienne
+- d. meilleur
+
+> [!success]- Răspuns
+> **a. bien**
+> 
+> Adverbul scurt stă între auxiliar și participiu.
+
+### 45. Imperativul lui „tu manges" (grupa I) este:
+
+- a. mange!
+- b. manges!
+- c. mangez!
+- d. mange-tu!
+
+> [!success]- Răspuns
+> **a. mange!**
+> 
+> Persoana „tu" pierde „-s" la grupa I.
+
+### 46. „Ridică-te!" (imperativ afirmativ) se spune:
+
+- a. lève-toi!
+- b. te lève!
+- c. lève-te!
+- d. toi-lève!
+
+> [!success]- Răspuns
+> **a. lève-toi!**
+> 
+> „Te" devine „toi" după verb.
+
+### 47. Imperativul negativ al lui „se lever" (tu) este:
+
+- a. ne te lève pas!
+- b. ne lève-toi pas!
+- c. ne toi lève pas!
+- d. lève-toi pas!
+
+> [!success]- Răspuns
+> **a. ne te lève pas!**
+> 
+> La negativ, pronumele revine înaintea verbului.
+
+### 48. Imperativul lui „être" (vous) este:
+
+- a. soyez
+- b. êtes
+- c. soyiez
+- d. serez
+
+> [!success]- Răspuns
+> **a. soyez**
+> 
+> Este o formă neregulată.
+
+### 49. „Je vais ______ cinéma." Forma corectă:
+
+- a. au
+- b. à le
+- c. du
+- d. à la
+
+> [!success]- Răspuns
+> **a. au**
+> 
+> „À" plus „le" dă „au".
+
+### 50. „De" plus „les" dă:
+
+- a. des
+- b. du
+- c. aux
+- d. de les
+
+> [!success]- Răspuns
+> **a. des**
+> 
+> „La couleur des murs".
+
+### 51. Cu articolul „la", prepoziția „à":
+
+- a. nu se contractă: „à la maison"
+- b. devine „au"
+- c. devine „aux"
+- d. dispare
+
+> [!success]- Răspuns
+> **a. nu se contractă: „à la maison"**
+> 
+> Contracția e doar cu „le" și „les".
+
+### 52. „Mașina lui Paul" se spune:
+
+- a. la voiture de Paul
+- b. la voiture à Paul
+- c. la voiture du Paul
+- d. Paul de voiture
+
+> [!success]- Răspuns
+> **a. la voiture de Paul**
+> 
+> Posesia se exprimă prin „de".
+
+### 53. „J'habite ici ______ trois ans" (de trei ani). Forma corectă:
+
+- a. depuis
+- b. il y a
+- c. dans
+- d. pendant
+
+> [!success]- Răspuns
+> **a. depuis**
+> 
+> „Depuis" leagă trecutul de prezent.
+
+### 54. „Je pars ______ une semaine" (peste o săptămână):
+
+- a. dans
+- b. depuis
+- c. il y a
+- d. pendant
+
+> [!success]- Răspuns
+> **a. dans**
+> 
+> „Dans" arată un moment viitor.
+
+### 55. Cu „depuis", verbul stă, de regulă, la:
+
+- a. prezent
+- b. trecut compus
+- c. viitor
+- d. imperfect
+
+> [!success]- Răspuns
+> **a. prezent**
+> 
+> Acțiunea nu s-a încheiat.
+
+### 56. „Am sosit acum două ore" se spune:
+
+- a. je suis arrivé il y a deux heures
+- b. je suis arrivé depuis deux heures
+- c. je suis arrivé dans deux heures
+- d. je suis arrivé pendant deux heures
+
+> [!success]- Răspuns
+> **a. je suis arrivé il y a deux heures**
+> 
+> „Il y a" temporal arată un moment trecut.
+
+### 57. Demonstrativul potrivit în „______ après-midi" este:
+
+- a. cet
+- b. ce
+- c. cette
+- d. ces
+
+> [!success]- Răspuns
+> **a. cet**
+> 
+> „Cet" apare înaintea unei vocale.
+
+### 58. „Casele lor" se spune:
+
+- a. leurs maisons
+- b. leur maisons
+- c. leurs maison
+- d. ses maisons
+
+> [!success]- Răspuns
+> **a. leurs maisons**
+> 
+> „Leur" adjectiv ia „-s" doar la plural.
+
+### 59. Pentru a arăta un obiect apropiat se adaugă:
+
+- a. -ci
+- b. -là
+- c. -ce
+- d. -ces
+
+> [!success]- Răspuns
+> **a. -ci**
+> 
+> „Ce livre-ci" înseamnă „cartea asta".
+
+### 60. Înaintea cuvântului feminin „école", posesivul „meu" este:
+
+- a. mon
+- b. ma
+- c. mes
+- d. cette
+
+> [!success]- Răspuns
+> **a. mon**
+> 
+> Înaintea vocalei se folosește „mon".
+
+### 61. „Un aller-retour" este:
+
+- a. un bilet dus-întors
+- b. un bilet doar dus
+- c. un peron
+- d. un bagaj
+
+> [!success]- Răspuns
+> **a. un bilet dus-întors**
+> 
+> Opusul e „un aller simple".
+
+### 62. „Allez tout droit" înseamnă:
+
+- a. mergeți drept înainte
+- b. faceți la dreapta
+- c. faceți la stânga
+- d. opriți-vă
+
+> [!success]- Răspuns
+> **a. mergeți drept înainte**
+> 
+> „À droite" înseamnă „la dreapta".
+
+### 63. Pentru a cere un drum se începe, politicos, cu:
+
+- a. pardon / excusez-moi
+- b. au revoir
+- c. de rien
+- d. à bientôt
+
+> [!success]- Răspuns
+> **a. pardon / excusez-moi**
+> 
+> Formula de politețe e obligatorie.
+
+### 64. „Tournez à gauche" cere:
+
+- a. să faci la stânga
+- b. să faci la dreapta
+- c. să mergi drept
+- d. să te întorci
+
+> [!success]- Răspuns
+> **a. să faci la stânga**
+> 
+> „À droite" ar fi „la dreapta".
+
+### 65. „Mă doare capul" se traduce prin:
+
+- a. j'ai mal à la tête
+- b. je suis mal à la tête
+- c. je fais mal à la tête
+- d. ma tête fait mal
+
+> [!success]- Răspuns
+> **a. j'ai mal à la tête**
+> 
+> Franceza folosește „avoir mal à".
+
+### 66. „J'ai mal ______ dents" (mă dor dinții):
+
+- a. aux
+- b. à les
+- c. à la
+- d. au
+
+> [!success]- Răspuns
+> **a. aux**
+> 
+> „À" plus „les" dă „aux".
+
+### 67. „Une ordonnance" este:
+
+- a. o rețetă medicală
+- b. o farmacie
+- c. o programare
+- d. o boală
+
+> [!success]- Răspuns
+> **a. o rețetă medicală**
+> 
+> Pe baza ei se cumpără medicamentele.
+
+### 68. Ca și la „j'ai faim", franceza exprimă durerea cu:
+
+- a. avoir
+- b. être
+- c. faire
+- d. aller
+
+> [!success]- Răspuns
+> **a. avoir**
+> 
+> „J'ai mal à…", nu „je suis mal".
+
+### 69. De 1 mai, în Franța, se oferă:
+
+- a. un fir de lăcrămioară (muguet)
+- b. ouă de ciocolată
+- c. un brad
+- d. flori de mac
+
+> [!success]- Răspuns
+> **a. un fir de lăcrămioară (muguet)**
+> 
+> Este tradiția „Fête du Travail".
+
+### 70. „Le réveillon" este:
+
+- a. masa festivă din ajunul Crăciunului sau al Anului Nou
+- b. ziua națională
+- c. o sărbătoare de primăvară
+- d. un fel de mâncare regional
+
+> [!success]- Răspuns
+> **a. masa festivă din ajunul Crăciunului sau al Anului Nou**
+> 
+> Se ține în seara dinainte.
+
+### 71. Urarea „Bonne année!" se folosește:
+
+- a. de Anul Nou
+- b. de Paște
+- c. de ziua națională
+- d. de 1 mai
+
+> [!success]- Răspuns
+> **a. de Anul Nou**
+> 
+> Înseamnă „La mulți ani!".
+
+### 72. Ouăle de ciocolată ascunse pentru copii țin de:
+
+- a. Pâques (Paște)
+- b. Noël
+- c. 14 juillet
+- d. la Toussaint
+
+> [!success]- Răspuns
+> **a. Pâques (Paște)**
+> 
+> Este o tradiție de primăvară.
+
+### 73. Trecutul compus se formează cu:
 
 - a. auxiliar la prezent plus participiu trecut
 - b. auxiliar la imperfect plus participiu
@@ -453,7 +885,7 @@ cssclasses: test
 > 
 > Auxiliarul e „avoir” sau „être”.
 
-### 38. Verbele pronominale se conjugă cu:
+### 74. Verbele pronominale se conjugă cu:
 
 - a. être
 - b. avoir
@@ -465,7 +897,7 @@ cssclasses: test
 > 
 > Fără excepție.
 
-### 39. Participiul conjugat cu „être” se acordă cu:
+### 75. Participiul conjugat cu „être” se acordă cu:
 
 - a. subiectul
 - b. complementul direct
@@ -477,7 +909,7 @@ cssclasses: test
 > 
 > „Elle est partie”.
 
-### 40. Imperfectul se formează din radicalul:
+### 76. Imperfectul se formează din radicalul:
 
 - a. persoanei I plural, prezent
 - b. infinitivului
@@ -489,7 +921,7 @@ cssclasses: test
 > 
 > Excepția e „être”.
 
-### 41. Într-o povestire, fundalul se exprimă prin:
+### 77. Într-o povestire, fundalul se exprimă prin:
 
 - a. imperfect
 - b. trecut compus
@@ -501,7 +933,7 @@ cssclasses: test
 > 
 > Evenimentele cer trecutul compus.
 
-### 42. Mai-mult-ca-perfectul exprimă:
+### 78. Mai-mult-ca-perfectul exprimă:
 
 - a. anterioritatea față de o altă acțiune trecută
 - b. o acțiune viitoare
@@ -513,7 +945,7 @@ cssclasses: test
 > 
 > Se formează cu auxiliarul la imperfect.
 
-### 43. Viitorul apropiat se formează cu:
+### 79. Viitorul apropiat se formează cu:
 
 - a. aller plus infinitiv
 - b. être plus participiu
@@ -525,7 +957,7 @@ cssclasses: test
 > 
 > Exprimă iminența.
 
-### 44. Viitorul simplu al lui „aller” este:
+### 80. Viitorul simplu al lui „aller” este:
 
 - a. j'irai
 - b. j'allerai
@@ -537,7 +969,7 @@ cssclasses: test
 > 
 > Radicalul e neregulat.
 
-### 45. Pronumele „y” înlocuiește:
+### 81. Pronumele „y” înlocuiește:
 
 - a. un complement de loc
 - b. o cantitate
@@ -549,7 +981,7 @@ cssclasses: test
 > 
 > „En” înlocuiește cantitatea.
 
-### 46. „Je parle à Paul” devine:
+### 82. „Je parle à Paul” devine:
 
 - a. je lui parle
 - b. je le parle
@@ -561,7 +993,7 @@ cssclasses: test
 > 
 > „Lui” e complement indirect.
 
-### 47. În „l'homme qui parle”, „qui” este:
+### 83. În „l'homme qui parle”, „qui” este:
 
 - a. subiect
 - b. complement direct
@@ -573,7 +1005,7 @@ cssclasses: test
 > 
 > „Que” ar fi complement direct.
 
-### 48. Registrul formal al interogației folosește:
+### 84. Registrul formal al interogației folosește:
 
 - a. inversiunea subiectului
 - b. intonația
@@ -585,7 +1017,7 @@ cssclasses: test
 > 
 > „Viens-tu?”.
 
-### 49. Negația franceză standard are:
+### 85. Negația franceză standard are:
 
 - a. două elemente
 - b. un singur element
@@ -597,7 +1029,7 @@ cssclasses: test
 > 
 > „Ne” plus pas, jamais, rien.
 
-### 50. După negație, partitivul devine:
+### 86. După negație, partitivul devine:
 
 - a. de
 - b. du
@@ -609,7 +1041,7 @@ cssclasses: test
 > 
 > Cu excepția verbului „être”.
 
-### 51. „Beaucoup de livres” arată că adverbul de cantitate cere:
+### 87. „Beaucoup de livres” arată că adverbul de cantitate cere:
 
 - a. prepoziția „de”
 - b. articolul hotărât
@@ -621,7 +1053,7 @@ cssclasses: test
 > 
 > La fel „trop”, „peu”, „assez”.
 
-### 52. „Le lundi” înseamnă:
+### 88. „Le lundi” înseamnă:
 
 - a. în fiecare luni
 - b. lunea aceasta
@@ -633,7 +1065,7 @@ cssclasses: test
 > 
 > Articolul marchează repetiția.
 
-### 53. Deviza republicii franceze este:
+### 89. Deviza republicii franceze este:
 
 - a. libertate, egalitate, fraternitate
 - b. unitate, muncă, progres
@@ -645,7 +1077,7 @@ cssclasses: test
 > 
 > Vine din Revoluția de la 1789.
 
-### 54. Francofonia numără:
+### 90. Francofonia numără:
 
 - a. peste 300 de milioane de vorbitori
 - b. circa 60 de milioane

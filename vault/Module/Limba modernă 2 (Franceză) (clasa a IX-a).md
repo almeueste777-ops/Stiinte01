@@ -20,7 +20,7 @@ cssclasses: fisa
 
 Bazele limbii franceze: pronunție, substantiv și articol, prezentul verbelor, comunicare elementară și vocabular cotidian.
 
-## Capitole (3)
+## Capitole (6)
 
 ### Sunete, articole, substantive — semestrul 1
 
@@ -40,9 +40,27 @@ Bazele limbii franceze: pronunție, substantiv și articol, prezentul verbelor, 
 - [[Situații de comunicare]]
 - [[Citit, scris și strategii]]
 
+### Determinanți și pronume — semestrul 1
+
+- [[Adjectivele posesive și demonstrative]]
+- [[Pronumele personale subiect și tonice]]
+- [[Prepozițiile de loc și de timp]]
+
+### Acțiuni și rutină — semestrul 1
+
+- [[Verbele pronominale și rutina zilnică]]
+- [[Construcții impersonale - il y a, il faut, il fait]]
+- [[Viitorul apropiat (futur proche)]]
+
+### Vocabular tematic și civilizație — semestrul 2
+
+- [[Corpul, culorile și îmbrăcămintea]]
+- [[Mâncarea și la restaurant]]
+- [[Franța - geografie și simboluri]]
+
 ## Exersare
-- [[Carduri - Limba modernă 2 (Franceză) (clasa a IX-a)]] — 36 carduri
-- [[Test - Limba modernă 2 (Franceză) (clasa a IX-a)]] — 60 întrebări
+- [[Carduri - Limba modernă 2 (Franceză) (clasa a IX-a)]] — 72 carduri
+- [[Test - Limba modernă 2 (Franceză) (clasa a IX-a)]] — 108 întrebări
 
 ## Legături
 - [[Limba modernă 2 (Franceză)|Limba modernă 2 (Franceză)]]

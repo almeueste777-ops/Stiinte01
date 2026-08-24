@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Energia și conservarea ei
 
-[[Fizică (clasa a IX-a)|Fizică]] · [[Clasa a IX-a]] · lecția 6 din 9
+[[Fizică (clasa a IX-a)|Fizică]] · [[Clasa a IX-a]] · lecția 6 din 18
 
 **Capitolul:** Lucru mecanic și energie — semestrul 1
 

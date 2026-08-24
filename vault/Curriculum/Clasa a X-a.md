@@ -15,8 +15,8 @@ Anul **2** din cei 5 ai parcursului [[Parcurs școlar]].
 
 ### [[Arie - Limbă și comunicare|Limbă și comunicare]]
 - [[Limba și literatura română (clasa a X-a)|Limba și literatura română]] — 🎓 bac, 📘 9 lecții în aplicație
-- [[Limba modernă 1 (Engleză) (clasa a X-a)|Limba modernă 1 (Engleză)]] — 🎓 bac, 📘 9 lecții în aplicație
-- [[Limba modernă 2 (Franceză) (clasa a X-a)|Limba modernă 2 (Franceză)]] — 📘 9 lecții în aplicație
+- [[Limba modernă 1 (Engleză) (clasa a X-a)|Limba modernă 1 (Engleză)]] — 🎓 bac, 📘 18 lecții în aplicație
+- [[Limba modernă 2 (Franceză) (clasa a X-a)|Limba modernă 2 (Franceză)]] — 📘 18 lecții în aplicație
 - [[Limba latină (clasa a X-a)|Limba latină]] — 📘 9 lecții în aplicație
 
 ### [[Arie - Matematică și științe ale naturii|Matematică și științe ale naturii]]

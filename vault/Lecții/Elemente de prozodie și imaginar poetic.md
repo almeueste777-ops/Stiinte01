@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Elemente de prozodie și imaginar poetic
 
-[[Limba și literatura română (clasa a IX-a)|Limba și literatura română]] · [[Clasa a IX-a]] · lecția 4 din 9
+[[Limba și literatura română (clasa a IX-a)|Limba și literatura română]] · [[Clasa a IX-a]] · lecția 4 din 20
 
 **Capitolul:** Textul liric și textul dramatic — semestrul 1
 

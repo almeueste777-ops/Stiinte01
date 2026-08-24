@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Fizică (clasa a IX-a)
 
-36 carduri pentru [[Fizică (clasa a IX-a)|Fizică (clasa a IX-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+72 carduri pentru [[Fizică (clasa a IX-a)|Fizică (clasa a IX-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/fizica
 
@@ -82,6 +82,78 @@ De ce nu depinde presiunea hidrostatică de forma vasului?::Pentru că depinde d
 Ce spune principiul lui Pascal?::Presiunea aplicată unui lichid închis se transmite integral în toate direcțiile.
 
 Cine a măsurat prima dată presiunea atmosferică?::Torricelli, cu coloana de mercur.
+
+Ce deosebește o mărime vectorială de una scalară?::Mărimea vectorială are direcție și sens, pe lângă valoare.
+
+Cum se adună doi vectori?::După regula triunghiului sau a paralelogramului.
+
+Cum se calculează modulul unui vector din componente?::Ca rădăcina sumei pătratelor componentelor.
+
+În ce se descompune greutatea pe un plan înclinat?::Într-o componentă paralelă cu planul și una perpendiculară pe el.
+
+De ce există accelerație deși viteza are modul constant?::Pentru că vectorul viteză își schimbă direcția.
+
+Încotro este orientată accelerația centripetă?::Spre centrul cercului.
+
+Ce legătură există între perioadă și frecvență?::Sunt inverse: frecvența este 1 supra perioadă.
+
+Ce forță ține un satelit pe orbită circulară?::Atracția gravitațională, care joacă rol de forță centripetă.
+
+Cine a formulat principiul independenței mișcărilor?::Galilei.
+
+Ce traiectorie are un corp aruncat orizontal?::O parabolă.
+
+Care este viteza unui corp în punctul cel mai înalt al aruncării verticale?::Zero.
+
+Cum se compun viteza bărcii și cea a curentului?::Vectorial, prin regula paralelogramului.
+
+Cine a formulat legea atracției universale?::Newton.
+
+Cum depinde forța gravitațională de distanță?::Scade cu pătratul distanței.
+
+Ce este, de fapt, greutatea unui corp?::Forța cu care planeta îl atrage.
+
+Ce rol are atracția gravitațională pentru un satelit?::Rolul de forță centripetă care îl ține pe orbită.
+
+Cum se calculează impulsul mecanic al unui corp?::Ca produs între masa și viteza lui.
+
+În ce se măsoară impulsul mecanic?::În kilograme-metru pe secundă.
+
+Ce afirmă teorema variației impulsului?::Variația impulsului este egală cu produsul dintre forța rezultantă și durata acțiunii.
+
+Cum protejează airbagul pasagerul?::Prelungind durata ciocnirii, ceea ce micșorează forța.
+
+Ce se conservă într-un sistem izolat mecanic?::Impulsul total.
+
+Cum se explică reculul unei arme?::Prin conservarea impulsului: arma capătă un impuls egal și opus celui al glonțului.
+
+Ce se conservă la o ciocnire perfect plastică?::Impulsul, dar nu și energia cinetică.
+
+Ce se conservă la o ciocnire perfect elastică?::Atât impulsul, cât și energia cinetică.
+
+De ce depinde energia cinetică de viteză?::De pătratul vitezei: viteza dublă înseamnă energie de patru ori mai mare.
+
+Ce afirmă teorema variației energiei cinetice?::Lucrul forței rezultante este egal cu variația energiei cinetice.
+
+Ce se întâmplă cu energia cinetică dacă lucrul rezultant e negativ?::Scade, iar corpul încetinește.
+
+În ce se transformă energia cinetică la frânare?::În căldură, prin lucrul negativ al frecării.
+
+De ce depinde energia potențială gravitațională?::De masă, de accelerația gravitațională și de înălțime.
+
+Când este o forță conservativă?::Când lucrul ei nu depinde de drumul parcurs.
+
+Este frecarea o forță conservativă?::Nu; lucrul ei depinde de drum și se transformă în căldură.
+
+Când se conservă energia mecanică?::Când asupra corpului acționează numai forțe conservative.
+
+Ce transformări de energie au loc într-un pendul?::Energia potențială se transformă în cinetică și invers.
+
+Unde este maximă viteza pendulului?::În punctul cel mai de jos, poziția de echilibru.
+
+De ce se sting în timp oscilațiile reale?::Din cauza frecării cu aerul, care disipă energia în căldură.
+
+De ce depinde perioada micilor oscilații ale pendulului?::Doar de lungimea firului și de accelerația gravitațională.
 
 ---
 

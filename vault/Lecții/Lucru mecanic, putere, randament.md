@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Lucru mecanic, putere, randament
 
-[[Fizică (clasa a IX-a)|Fizică]] · [[Clasa a IX-a]] · lecția 5 din 9
+[[Fizică (clasa a IX-a)|Fizică]] · [[Clasa a IX-a]] · lecția 5 din 18
 
 **Capitolul:** Lucru mecanic și energie — semestrul 1
 

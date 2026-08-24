@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Limba și literatura română (clasa a IX-a)
 
-36 carduri pentru [[Limba și literatura română (clasa a IX-a)|Limba și literatura română (clasa a IX-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+80 carduri pentru [[Limba și literatura română (clasa a IX-a)|Limba și literatura română (clasa a IX-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/limba-si-literatura-romana
 
@@ -82,6 +82,94 @@ Din ce se compune o caracterizare de personaj?::Încadrare, trăsături susținu
 Care sunt cele trei părți ale textului argumentativ?::Ipoteza, argumentarea cu exemple și concluzia.
 
 De ce e insuficient un argument fără exemplu?::Pentru că rămâne o simplă afirmație, fără susținere verificabilă.
+
+Ce este basmul popular?::O specie epică în proză, cu întâmplări fabuloase și personaje cu puteri supranaturale.
+
+Ce rol au formulele fixe ale basmului?::Încadrează lumea fabuloasă: cea inițială introduce, cea mediană menține atenția, cea finală readuce în realitate.
+
+Ce înseamnă viziunea maniheistă a basmului?::Împărțirea personajelor în tabăra binelui și a răului, fără nuanțe.
+
+Dă un exemplu de ajutor în basm.::Calul năzdrăvan, animalele recunoscătoare sau Sfânta Duminică.
+
+Prin ce se deosebește schița de nuvelă?::Schița surprinde un singur episod scurt; nuvela e mai amplă, cu un conflict și o evoluție a personajului.
+
+Ce tipuri de nuvelă cunoști?::Psihologică, istorică și fantastică.
+
+Dă un exemplu de nuvelă psihologică.::„Moara cu noroc” de Ioan Slavici.
+
+Cine este considerat un maestru al schiței?::I. L. Caragiale.
+
+Ce pune în prim-plan povestirea?::Actul istorisirii însuși, relatat de un narator-personaj.
+
+Ce structură are „Hanu Ancuței”?::Structură „în ramă”: o povestire-cadru cuprinde alte povestiri.
+
+De ce este balada o specie epică, deși e în versuri?::Pentru că relatează o întâmplare; dominanta e narativă, nu lirică.
+
+Dă trei exemple de balade populare.::„Miorița”, „Meșterul Manole”, „Toma Alimoș”.
+
+Ce sunt tropii?::Figurile de stil semantice, bazate pe abaterea de la sensul propriu.
+
+Prin ce se deosebește metafora de comparație?::Metafora suprimă termenul comparat și marca de legătură, pe care comparația le păstrează.
+
+Ce este epitetul?::Cuvântul care evidențiază o însușire expresivă a unui obiect sau a unei acțiuni.
+
+Ce figură apare în „izvorul plânge”?::Personificarea.
+
+Ce exprimă hiperbola?::O exagerare, prin mărire sau micșorare peste măsură.
+
+Ce figură opune lumina și întunericul, viața și moartea?::Antiteza.
+
+Ce este anafora?::Repetiția aceluiași cuvânt la începutul mai multor versuri.
+
+Ce face inversiunea?::Schimbă ordinea obișnuită a cuvintelor, pentru a evidenția un termen.
+
+Ce descrie un pastel?::Un tablou din natură, prin care transmite indirect o stare a eului liric.
+
+Cine a impus pastelul în literatura română?::Vasile Alecsandri.
+
+Ce stare exprimă elegia?::Tristețe, melancolie, regret.
+
+Ce temă tratează meditația?::Teme grave: condiția umană, timpul, moartea, sensul existenței.
+
+Ce este tema unei opere?::Aspectul general de viață despre care vorbește opera.
+
+Prin ce se deosebește motivul de laitmotiv?::Laitmotivul este un motiv care revine insistent și structurează opera.
+
+Ce este un simbol literar?::Un semn concret care trimite la o realitate abstractă.
+
+Ce este viziunea despre lume a unei opere?::Atitudinea de ansamblu pe care opera o propune asupra existenței.
+
+Ce satirizează comedia?::Moravuri, caractere sau situații, stârnind râsul.
+
+Care sunt mijloacele comice?::Comicul de situație, de caracter, de limbaj și de nume.
+
+Ce opune tragedia?::Un erou de excepție unei forțe care îl copleșește, cu final nefericit.
+
+Cine este modelul comediei în literatura română?::I. L. Caragiale.
+
+Ce este propoziția?::Cea mai mică unitate a comunicării cu sens deplin, organizată în jurul unui predicat.
+
+Care sunt părțile principale de propoziție?::Subiectul și predicatul.
+
+Ce este predicatul nominal?::Predicatul format dintr-un verb copulativ și un nume predicativ.
+
+Ce determină atributul?::Un substantiv, răspunzând la „care?”, „ce fel de?”, „al cui?”.
+
+Ce este fraza?::Unitatea sintactică formată din două sau mai multe propoziții.
+
+Prin ce se deosebește propoziția principală de cea subordonată?::Principala are înțeles de sine stătător; subordonata depinde de o regentă.
+
+Cum se clasifică subordonatele?::Analog părților de propoziție: subiectivă, atributivă, completive, circumstanțiale.
+
+Cum se recunoaște tipul unei subordonate?::Punând întrebarea de la elementul regent.
+
+Când se scrie „â” și când „î”?::„â” în interiorul cuvântului, „î” la început și la sfârșit și după prefix.
+
+Cum deosebești „s-a” de „sa”?::„s-a” = pronume plus verb („s-a dus”); „sa” = adjectiv posesiv („cartea sa”).
+
+Ce desparte virgula?::Părți de propoziție de același fel, propoziții, apoziția, vocativul, unele subordonate.
+
+La ce folosesc ghilimelele?::La citare și la scrierea titlurilor.
 
 ---
 

@@ -10,7 +10,7 @@ clasa: "a IX-a"
 ---
 # Redactarea textelor: rezumat, caracterizare, text argumentativ
 
-[[Limba și literatura română (clasa a IX-a)|Limba și literatura română]] · [[Clasa a IX-a]] · lecția 9 din 9
+[[Limba și literatura română (clasa a IX-a)|Limba și literatura română]] · [[Clasa a IX-a]] · lecția 9 din 20
 
 **Capitolul:** Comunicare și redactare — semestrul 2
 
@@ -31,6 +31,6 @@ Rezumatul este reformularea concisă a unui text, la persoana a III-a, la timpul
 
 ---
 
-⬅ [[Situația de comunicare și registrele limbii]]
+⬅ [[Situația de comunicare și registrele limbii]] · [[Basmul popular - structură și personaje]] ➡
 
 Exersează: [[Carduri - Limba și literatura română (clasa a IX-a)]] · [[Test - Limba și literatura română (clasa a IX-a)]]

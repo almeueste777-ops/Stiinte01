@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Ascultare, vorbire, interacțiune
 
-[[Limba modernă 1 (Engleză) (clasa a X-a)|Limba modernă 1 (Engleză)]] · [[Clasa a X-a]] · lecția 8 din 9
+[[Limba modernă 1 (Engleză) (clasa a X-a)|Limba modernă 1 (Engleză)]] · [[Clasa a X-a]] · lecția 8 din 18
 
 **Capitolul:** Comunicare aplicată — semestrul 2
 

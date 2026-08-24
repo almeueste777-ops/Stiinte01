@@ -21,7 +21,7 @@ cssclasses: fisa
 
 Ficțiunea și genurile literare, structura textului narativ, liric și dramatic, plus bazele exprimării corecte și ale comunicării.
 
-## Capitole (4)
+## Capitole (8)
 
 ### Ficțiunea și lumea textului — semestrul 1
 
@@ -44,9 +44,32 @@ Ficțiunea și genurile literare, structura textului narativ, liric și dramatic
 - [[Situația de comunicare și registrele limbii]]
 - [[Redactarea textelor - rezumat, caracterizare, text argumentativ]]
 
+### Genul epic și speciile narative — semestrul 1
+
+- [[Basmul popular - structură și personaje]]
+- [[Schița și nuvela]]
+- [[Povestirea și balada]]
+
+### Figuri de stil și limbaj poetic — semestrul 1
+
+- [[Tropii - epitetul, comparația, metafora, personificarea]]
+- [[Figuri de construcție și de gândire - hiperbola, antiteza, repetiția, enumerația]]
+- [[Speciile genului liric - pastelul, oda, elegia, meditația]]
+
+### Lectură, interpretare și text dramatic — semestrul 2
+
+- [[Temă, motiv, laitmotiv, viziune despre lume]]
+- [[Comedia și drama - specii ale genului dramatic]]
+
+### Limba română: sintaxă, ortografie, stil — semestrul 2
+
+- [[Sintaxa propoziției - părțile de propoziție]]
+- [[Sintaxa frazei - propoziții principale și subordonate]]
+- [[Ortografie și punctuație - reguli esențiale]]
+
 ## Exersare
-- [[Carduri - Limba și literatura română (clasa a IX-a)]] — 36 carduri
-- [[Test - Limba și literatura română (clasa a IX-a)]] — 60 întrebări
+- [[Carduri - Limba și literatura română (clasa a IX-a)]] — 80 carduri
+- [[Test - Limba și literatura română (clasa a IX-a)]] — 110 întrebări
 
 ## Legături
 - [[Limba și literatura română|Limba și literatura română]]

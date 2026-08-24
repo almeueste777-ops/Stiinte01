@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Minorități naționale și diversitate în spațiul românesc
 
-[[Istorie (clasa a XIII-a)|Istorie]] · [[Clasa a XIII-a]] · lecția 5 din 9
+[[Istorie (clasa a XIII-a)|Istorie]] · [[Clasa a XIII-a]] · lecția 5 din 22
 
 **Capitolul:** Popoare, migrații, minorități — semestrul 1
 

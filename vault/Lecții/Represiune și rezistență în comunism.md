@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Represiune și rezistență în comunism
 
-[[Istorie (clasa a XIII-a)|Istorie]] · [[Clasa a XIII-a]] · lecția 7 din 9
+[[Istorie (clasa a XIII-a)|Istorie]] · [[Clasa a XIII-a]] · lecția 7 din 22
 
 **Capitolul:** Statul și politica: aprofundări — semestrul 2
 

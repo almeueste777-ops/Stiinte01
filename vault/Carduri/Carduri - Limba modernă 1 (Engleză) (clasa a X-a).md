@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Limba modernă 1 (Engleză) (clasa a X-a)
 
-36 carduri pentru [[Limba modernă 1 (Engleză) (clasa a X-a)|Limba modernă 1 (Engleză) (clasa a X-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+72 carduri pentru [[Limba modernă 1 (Engleză) (clasa a X-a)|Limba modernă 1 (Engleză) (clasa a X-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/limba-moderna-1-engleza
 
@@ -82,6 +82,78 @@ Ce înseamnă „not given” într-un test?::Că textul nu conține informația
 Cum se abordează un text lung la examen?::Căutând informația relevantă pentru cerință, fără a traduce tot.
 
 Ce greșeli se verifică la final?::Acordul subiect–verb, timpurile, articolele, prepozițiile, ortografia.
+
+Ce exprimă „be going to"?::Intenția deja stabilită sau o predicție bazată pe dovezi prezente.
+
+Ce exprimă Future Continuous?::O acțiune în desfășurare la un moment din viitor.
+
+Ce exprimă Future Perfect?::O acțiune încheiată înaintea unui moment din viitor.
+
+Ce timp se folosește după „when" cu sens de viitor?::Prezentul: „when I arrive", nu „when I will arrive".
+
+Ce exprimă „used to + infinitiv"?::Obișnuințe și stări din trecut care nu mai sunt valabile.
+
+Ce diferență este între „would" și „used to" pentru trecut?::„Would" exprimă doar acțiuni repetate, nu și stări.
+
+Ce înseamnă „be used to + -ing"?::A fi obișnuit cu ceva: „I'm used to working late".
+
+Cum se face negativul lui „used to"?::Cu „didn't use to": „I didn't use to like it".
+
+Unde stă „enough" față de un adjectiv?::După adjectiv: „old enough"; dar înaintea substantivului: „enough time".
+
+Ce diferență este între „so" și „such"?::„So" precede un adjectiv singur, „such" un adjectiv + substantiv.
+
+Ce înseamnă „too"?::Mai mult decât este necesar sau posibil: „too expensive".
+
+Cum se exprimă un rezultat cu „so"?::„So + adjectiv + that": „so tired that I slept".
+
+Ce relații logice marchează conectorii?::Adăugare, contrast, cauză, rezultat, exemplu, ordine.
+
+Ce exprimă „therefore"?::Un rezultat, o consecință.
+
+De ce nu se folosesc „although" și „but" împreună?::Pentru că amândouă exprimă deja același contrast.
+
+Cum se punctuează „however" la începutul unei fraze?::Este urmat de virgulă: „However, …".
+
+Ce schimbă, de regulă, prefixele?::Sensul cuvântului, nu clasa lui gramaticală.
+
+Ce sufixe formează substantive?::-tion, -ment, -ness, -ity, -ance.
+
+Ce sufixe formează adjective?::-ful, -less, -able, -ive, -ous.
+
+Ce înseamnă prefixul „over-" în „overestimate"?::Un exces: a supraevalua.
+
+Ce este un verb frazal?::O combinație de verb și particulă, cu sens propriu.
+
+Unde stă pronumele la verbele frazale separabile?::Între verb și particulă: „turn it on".
+
+Ce înseamnă „find out"?::A afla.
+
+Ce sensuri are „take off"?::A decola (avionul) sau a dezbrăca (o haină).
+
+Ce înseamnă „a return ticket"?::Un bilet dus-întors.
+
+Ce înseamnă „to check in"?::A se prezenta și a se înregistra (la hotel sau la aeroport).
+
+Ce colocație se folosește cu „a train"?::„Catch a train" (a prinde trenul).
+
+Cum se cere politicos o informație?::Printr-o întrebare indirectă: „Could you tell me…?".
+
+Ce înseamnă „to download"?::A descărca date de pe internet pe dispozitiv.
+
+Ce înseamnă „to back up"?::A face o copie de siguranță a datelor.
+
+Ce colocație se folosește cu „an email"?::„Send an email" (a trimite un e-mail).
+
+Ce este „the digital divide"?::Decalajul digital dintre cei cu acces și competențe și cei fără.
+
+Ce colocație de verb se folosește cu „football"?::„Play football" (jocuri de echipă și cu mingea).
+
+Ce verb se folosește cu „swimming"?::„Go swimming" (activități terminate în -ing).
+
+Cum se dă un sfat de stil de viață?::Cu „should": „You should exercise more".
+
+Ce este „a balanced diet"?::O alimentație echilibrată și variată.
 
 ---
 

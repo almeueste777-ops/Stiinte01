@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Passé composé
 
-[[Limba modernă 2 (Franceză) (clasa a X-a)|Limba modernă 2 (Franceză)]] · [[Clasa a X-a]] · lecția 1 din 9
+[[Limba modernă 2 (Franceză) (clasa a X-a)|Limba modernă 2 (Franceză)]] · [[Clasa a X-a]] · lecția 1 din 18
 
 **Capitolul:** Timpurile trecutului — semestrul 1
 

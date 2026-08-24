@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Lucrul cu sursele istorice la examen
 
-[[Istorie (clasa a XIII-a)|Istorie]] · [[Clasa a XIII-a]] · lecția 8 din 9
+[[Istorie (clasa a XIII-a)|Istorie]] · [[Clasa a XIII-a]] · lecția 8 din 22
 
 **Capitolul:** Metoda istorică și bacalaureatul — semestrul 2
 

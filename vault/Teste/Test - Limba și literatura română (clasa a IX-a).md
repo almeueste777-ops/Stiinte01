@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Limba și literatura română (clasa a IX-a)
 
-60 întrebări din [[Limba și literatura română (clasa a IX-a)|Limba și literatura română (clasa a IX-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+110 întrebări din [[Limba și literatura română (clasa a IX-a)|Limba și literatura română (clasa a IX-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Un text literar este verosimil atunci când:
 
@@ -441,7 +441,607 @@ cssclasses: test
 > 
 > Fără ei, argumentele par o simplă enumerare.
 
-### 37. Pactul ficțional este:
+### 37. Basmul popular se caracterizează prin faptul că este:
+
+- a. anonim, colectiv și oral
+- b. scris de un autor cunoscut
+- c. transmis exclusiv în scris
+- d. specific unei singure regiuni
+
+> [!success]- Răspuns
+> **a. anonim, colectiv și oral**
+> 
+> De aceea circulă în mai multe variante.
+
+### 38. Formula „A fost odată ca niciodată” este o formulă:
+
+- a. inițială
+- b. mediană
+- c. finală
+- d. de adresare
+
+> [!success]- Răspuns
+> **a. inițială**
+> 
+> Ea introduce cititorul în lumea fabuloasă a basmului.
+
+### 39. Împărțirea personajelor în tabăra binelui și a răului se numește viziune:
+
+- a. maniheistă
+- b. realistă
+- c. ironică
+- d. psihologică
+
+> [!success]- Răspuns
+> **a. maniheistă**
+> 
+> Ea este proprie basmului popular.
+
+### 40. Calul năzdrăvan îndeplinește în basm rolul de:
+
+- a. ajutor al eroului
+- b. antagonist
+- c. donator de probe
+- d. narator
+
+> [!success]- Răspuns
+> **a. ajutor al eroului**
+> 
+> El îl sprijină pe Făt-Frumos în trecerea probelor.
+
+### 41. Specia epică ce surprinde un singur episod semnificativ, în timp scurt, este:
+
+- a. schița
+- b. romanul
+- c. nuvela
+- d. balada
+
+> [!success]- Răspuns
+> **a. schița**
+> 
+> Ea are puține personaje și o acțiune simplă.
+
+### 42. „Moara cu noroc” de Slavici este o nuvelă:
+
+- a. psihologică
+- b. istorică
+- c. fantastică
+- d. filozofică
+
+> [!success]- Răspuns
+> **a. psihologică**
+> 
+> Accentul cade pe degradarea interioară a personajului.
+
+### 43. Față de schiță, nuvela se remarcă prin:
+
+- a. un conflict bine definit și evoluția personajului
+- b. absența oricărui personaj central
+- c. lipsa acțiunii
+- d. versificație
+
+> [!success]- Răspuns
+> **a. un conflict bine definit și evoluția personajului**
+> 
+> Ea e mai amplă și mai atentă la motivația psihologică.
+
+### 44. „Alexandru Lăpușneanul” de Costache Negruzzi este o nuvelă:
+
+- a. istorică
+- b. psihologică
+- c. fantastică
+- d. de dragoste
+
+> [!success]- Răspuns
+> **a. istorică**
+> 
+> Ea este plasată în trecutul istoric al Moldovei.
+
+### 45. Structura „în ramă” presupune că:
+
+- a. o povestire-cadru cuprinde alte povestiri
+- b. acțiunea e povestită invers cronologic
+- c. textul e scris în versuri
+- d. naratorul este omniscient
+
+> [!success]- Răspuns
+> **a. o povestire-cadru cuprinde alte povestiri**
+> 
+> „Hanu Ancuței” de Sadoveanu este un model.
+
+### 46. Balada aparține genului:
+
+- a. epic, deși e scrisă în versuri
+- b. liric, pentru că e în versuri
+- c. dramatic
+- d. didactic
+
+> [!success]- Răspuns
+> **a. epic, deși e scrisă în versuri**
+> 
+> Ea relatează o întâmplare, deci dominanta e narativă.
+
+### 47. „Miorița” este o baladă:
+
+- a. populară
+- b. cultă
+- c. fantastică
+- d. religioasă
+
+> [!success]- Răspuns
+> **a. populară**
+> 
+> Ea exprimă viziunea colectivă asupra vieții și a morții.
+
+### 48. Oralitatea unui text înseamnă:
+
+- a. păstrarea, în scris, a trăsăturilor vorbirii vii
+- b. absența dialogului
+- c. folosirea versului
+- d. lipsa naratorului
+
+> [!success]- Răspuns
+> **a. păstrarea, în scris, a trăsăturilor vorbirii vii**
+> 
+> Ea este specifică povestirii.
+
+### 49. „Ochii ca două stele” este:
+
+- a. o comparație
+- b. o metaforă
+- c. un epitet
+- d. o personificare
+
+> [!success]- Răspuns
+> **a. o comparație**
+> 
+> Se păstrează ambii termeni și marca „ca”.
+
+### 50. „Izvorul plânge” este un exemplu de:
+
+- a. personificare
+- b. comparație
+- c. epitet
+- d. hiperbolă
+
+> [!success]- Răspuns
+> **a. personificare**
+> 
+> I se atribuie izvorului o trăsătură omenească.
+
+### 51. Metafora se deosebește de comparație prin faptul că:
+
+- a. suprimă termenul comparat și marca de legătură
+- b. păstrează ambii termeni
+- c. folosește „precum”
+- d. compară două ființe
+
+> [!success]- Răspuns
+> **a. suprimă termenul comparat și marca de legătură**
+> 
+> De aceea e numită „comparație subînțeleasă”.
+
+### 52. Adjectivul devine epitet atunci când:
+
+- a. are valoare artistică, evidențiind o însușire expresivă
+- b. însoțește orice substantiv
+- c. se află la început de vers
+- d. este articulat
+
+> [!success]- Răspuns
+> **a. are valoare artistică, evidențiind o însușire expresivă**
+> 
+> Nu orice adjectiv este epitet.
+
+### 53. „Un munte de om” este:
+
+- a. o hiperbolă
+- b. o antiteză
+- c. o enumerație
+- d. o comparație
+
+> [!success]- Răspuns
+> **a. o hiperbolă**
+> 
+> Exagerarea vizează statura personajului.
+
+### 54. Figura de stil preferată de romantici, bazată pe contrast, este:
+
+- a. antiteza
+- b. enumerația
+- c. repetiția
+- d. inversiunea
+
+> [!success]- Răspuns
+> **a. antiteza**
+> 
+> Ea opune lumina și întunericul, trecutul și prezentul.
+
+### 55. Reluarea aceluiași cuvânt la începutul mai multor versuri se numește:
+
+- a. anaforă
+- b. enumerație
+- c. inversiune
+- d. comparație
+
+> [!success]- Răspuns
+> **a. anaforă**
+> 
+> Este un tip de repetiție.
+
+### 56. Inversiunea constă în:
+
+- a. schimbarea ordinii obișnuite a cuvintelor
+- b. exagerarea unei însușiri
+- c. opunerea a doi termeni
+- d. înșiruirea mai multor termeni
+
+> [!success]- Răspuns
+> **a. schimbarea ordinii obișnuite a cuvintelor**
+> 
+> Ea scoate în evidență cuvântul deplasat.
+
+### 57. Poezia care descrie un tablou din natură se numește:
+
+- a. pastel
+- b. odă
+- c. elegie
+- d. imn
+
+> [!success]- Răspuns
+> **a. pastel**
+> 
+> Ea transmite indirect o stare a eului liric.
+
+### 58. Specia lirică ce exprimă admirația și preamărirea este:
+
+- a. oda
+- b. elegia
+- c. pastelul
+- d. meditația
+
+> [!success]- Răspuns
+> **a. oda**
+> 
+> Ea are un ton solemn.
+
+### 59. Sonetul este o poezie cu formă fixă, alcătuită din:
+
+- a. paisprezece versuri
+- b. douăsprezece versuri
+- c. zece versuri
+- d. opt versuri
+
+> [!success]- Răspuns
+> **a. paisprezece versuri**
+> 
+> El are, de regulă, două catrene și două terține.
+
+### 60. O poezie filozofică despre timp și moarte este, ca specie, o:
+
+- a. meditație
+- b. idilă
+- c. odă
+- d. baladă
+
+> [!success]- Răspuns
+> **a. meditație**
+> 
+> Eul liric reflectează asupra unor teme grave.
+
+### 61. Ideea generală, aspectul de viață despre care vorbește o operă, este:
+
+- a. tema
+- b. motivul
+- c. simbolul
+- d. viziunea
+
+> [!success]- Răspuns
+> **a. tema**
+> 
+> Motivele susțin tema.
+
+### 62. Un motiv care revine insistent și structurează opera devine:
+
+- a. laitmotiv
+- b. temă
+- c. simbol
+- d. viziune
+
+> [!success]- Răspuns
+> **a. laitmotiv**
+> 
+> De exemplu, un vers-refren repetat.
+
+### 63. „Balanța” ca semn al dreptății este un exemplu de:
+
+- a. simbol
+- b. motiv
+- c. temă
+- d. epitet
+
+> [!success]- Răspuns
+> **a. simbol**
+> 
+> Un semn concret trimite la o realitate abstractă.
+
+### 64. Atitudinea de ansamblu a unei opere asupra existenței se numește:
+
+- a. viziune despre lume
+- b. temă
+- c. motiv
+- d. laitmotiv
+
+> [!success]- Răspuns
+> **a. viziune despre lume**
+> 
+> Ea poate fi optimistă sau tragică, religioasă sau laică.
+
+### 65. Comedia se caracterizează prin:
+
+- a. satirizarea moravurilor și un deznodământ fericit
+- b. un conflict tragic și moartea eroului
+- c. absența conflictului
+- d. ton solemn
+
+> [!success]- Răspuns
+> **a. satirizarea moravurilor și un deznodământ fericit**
+> 
+> Ea folosește mijloace comice variate.
+
+### 66. Numele care sugerează o trăsătură a personajului este un procedeu de:
+
+- a. comic de nume
+- b. comic de situație
+- c. comic de limbaj
+- d. comic de intrigă
+
+> [!success]- Răspuns
+> **a. comic de nume**
+> 
+> De exemplu, personajele lui Caragiale.
+
+### 67. Tragedia are, de regulă, un deznodământ:
+
+- a. nefericit, adesea moartea eroului
+- b. fericit
+- c. deschis, fără rezolvare
+- d. comic
+
+> [!success]- Răspuns
+> **a. nefericit, adesea moartea eroului**
+> 
+> Eroul de excepție e copleșit de o forță superioară.
+
+### 68. Specia dramatică ce prezintă conflicte grave din viața obișnuită, fără final neapărat tragic, este:
+
+- a. drama
+- b. comedia
+- c. tragedia
+- d. farsa
+
+> [!success]- Răspuns
+> **a. drama**
+> 
+> Ea îmbină trăsături ale comediei și tragediei.
+
+### 69. Partea principală de propoziție care arată ce face subiectul este:
+
+- a. predicatul
+- b. atributul
+- c. complementul
+- d. subiectul
+
+> [!success]- Răspuns
+> **a. predicatul**
+> 
+> Propoziția se organizează în jurul lui.
+
+### 70. În „El este elev”, „este elev” reprezintă un predicat:
+
+- a. nominal
+- b. verbal
+- c. circumstanțial
+- d. inclus
+
+> [!success]- Răspuns
+> **a. nominal**
+> 
+> „Este” e verb copulativ, „elev” e nume predicativ.
+
+### 71. Atributul determină, de regulă:
+
+- a. un substantiv
+- b. un verb
+- c. un adverb
+- d. o conjuncție
+
+> [!success]- Răspuns
+> **a. un substantiv**
+> 
+> El răspunde la „care?”, „ce fel de?”, „al cui?”.
+
+### 72. În „Citesc o carte”, subiectul este:
+
+- a. neexprimat, inclus în desinența verbului („eu”)
+- b. „o carte”
+- c. „citesc”
+- d. absent cu totul
+
+> [!success]- Răspuns
+> **a. neexprimat, inclus în desinența verbului („eu”)**
+> 
+> Complementul direct este „o carte”.
+
+### 73. Fraza se deosebește de propoziție prin faptul că:
+
+- a. este alcătuită din două sau mai multe propoziții
+- b. are un singur predicat
+- c. nu are subiect
+- d. este întotdeauna scurtă
+
+> [!success]- Răspuns
+> **a. este alcătuită din două sau mai multe propoziții**
+> 
+> Fiecare propoziție are, de regulă, propriul predicat.
+
+### 74. O propoziție care depinde de o regentă și ține locul subiectului este:
+
+- a. subiectivă
+- b. atributivă
+- c. principală
+- d. coordonată
+
+> [!success]- Răspuns
+> **a. subiectivă**
+> 
+> Ea răspunde la „cine?” sau „ce?”.
+
+### 75. Raportul dintre două propoziții de același fel, independente, este de:
+
+- a. coordonare
+- b. subordonare
+- c. regență
+- d. juxtapunere obligatorie
+
+> [!success]- Răspuns
+> **a. coordonare**
+> 
+> Subordonarea presupune dependența uneia de cealaltă.
+
+### 76. Propoziția atributivă determină, în regentă:
+
+- a. un substantiv
+- b. un verb de mișcare
+- c. un adverb
+- d. o interjecție
+
+> [!success]- Răspuns
+> **a. un substantiv**
+> 
+> Ea răspunde la întrebarea „care?”.
+
+### 77. Forma corectă este:
+
+- a. „neînțeles”, cu „î” după prefix
+- b. „neânțeles”
+- c. „ne-nțeles”
+- d. „neînțăles”
+
+> [!success]- Răspuns
+> **a. „neînțeles”, cu „î” după prefix**
+> 
+> Regula cere „î” la început de element de compunere.
+
+### 78. „S-a dus la școală” se scrie cu cratimă pentru că:
+
+- a. unește un pronume și un verb, pronunțate împreună
+- b. „sa” este adjectiv posesiv
+- c. este la trecut
+- d. așa arată mai frumos
+
+> [!success]- Răspuns
+> **a. unește un pronume și un verb, pronunțate împreună**
+> 
+> „Cartea sa”, adjectiv posesiv, se scrie fără cratimă.
+
+### 79. „â” se scrie, de regulă:
+
+- a. în interiorul cuvântului
+- b. la începutul cuvântului
+- c. la sfârșitul cuvântului
+- d. numai după prefixe
+
+> [!success]- Răspuns
+> **a. în interiorul cuvântului**
+> 
+> „î” apare la început și la sfârșit de cuvânt.
+
+### 80. Rolul virgulei într-un enunț este să:
+
+- a. marcheze pauzele și raporturile sintactice, putând schimba sensul
+- b. încheie enunțul enunțiativ
+- c. marcheze o întrebare
+- d. indice un titlu
+
+> [!success]- Răspuns
+> **a. marcheze pauzele și raporturile sintactice, putând schimba sensul**
+> 
+> „Să trăiască, nu să moară!” arată cât contează.
+
+### 81. Formula „A fost odată ca niciodată” este:
+
+- a. o formulă inițială de basm
+- b. o formulă mediană
+- c. o formulă finală
+- d. un proverb
+
+> [!success]- Răspuns
+> **a. o formulă inițială de basm**
+> 
+> Ea introduce lumea fabuloasă.
+
+### 82. Specia epică scurtă, care surprinde un singur episod, este:
+
+- a. schița
+- b. nuvela
+- c. romanul
+- d. balada
+
+> [!success]- Răspuns
+> **a. schița**
+> 
+> Are puține personaje și acțiune simplă.
+
+### 83. „Alexandru Lăpușneanul” de Costache Negruzzi este o nuvelă:
+
+- a. istorică
+- b. psihologică
+- c. fantastică
+- d. de dragoste
+
+> [!success]- Răspuns
+> **a. istorică**
+> 
+> Este plasată în trecutul Moldovei.
+
+### 84. „Ochii ca două stele” conține:
+
+- a. o comparație
+- b. o metaforă
+- c. un epitet
+- d. o personificare
+
+> [!success]- Răspuns
+> **a. o comparație**
+> 
+> Se păstrează marca „ca” și ambii termeni.
+
+### 85. Figura de stil bazată pe contrast puternic este:
+
+- a. antiteza
+- b. enumerația
+- c. hiperbola
+- d. repetiția
+
+> [!success]- Răspuns
+> **a. antiteza**
+> 
+> Ea opune lumina și întunericul, viața și moartea.
+
+### 86. Pastelul a fost impus în literatura română de:
+
+- a. Vasile Alecsandri
+- b. Mihai Eminescu
+- c. George Coșbuc
+- d. Tudor Arghezi
+
+> [!success]- Răspuns
+> **a. Vasile Alecsandri**
+> 
+> El zugrăvește un tablou din natură.
+
+### 87. Pactul ficțional este:
 
 - a. convenția prin care cititorul acceptă lumea propusă de text
 - b. promisiunea autorului de a spune adevărul
@@ -453,7 +1053,7 @@ cssclasses: test
 > 
 > Fără el, ficțiunea ar fi o serie de afirmații false.
 
-### 38. Sensul conotativ al unui cuvânt este:
+### 88. Sensul conotativ al unui cuvânt este:
 
 - a. sensul suplimentar, afectiv sau sugestiv, dat de context
 - b. sensul din dicționar
@@ -465,7 +1065,7 @@ cssclasses: test
 > 
 > Denotația e sensul de bază.
 
-### 39. Genul literar în care textul e destinat reprezentării scenice este:
+### 89. Genul literar în care textul e destinat reprezentării scenice este:
 
 - a. dramaticul
 - b. epicul
@@ -477,7 +1077,7 @@ cssclasses: test
 > 
 > Dialogul singur nu definește genul dramatic.
 
-### 40. Indicațiile scenice se numesc:
+### 90. Indicațiile scenice se numesc:
 
 - a. didascalii
 - b. replici
@@ -489,7 +1089,7 @@ cssclasses: test
 > 
 > Ele nu sunt rostite pe scenă.
 
-### 41. Naratorul homodiegetic:
+### 91. Naratorul homodiegetic:
 
 - a. povestește la persoana I, fiind el însuși personaj
 - b. povestește la persoana a III-a
@@ -501,7 +1101,7 @@ cssclasses: test
 > 
 > Perspectiva lui este limitată.
 
-### 42. Focalizarea zero presupune că naratorul:
+### 92. Focalizarea zero presupune că naratorul:
 
 - a. știe mai mult decât personajele
 - b. știe cât un personaj
@@ -513,7 +1113,7 @@ cssclasses: test
 > 
 > Este perspectiva omniscientă.
 
-### 43. Momentul care declanșează conflictul într-un text narativ este:
+### 93. Momentul care declanșează conflictul într-un text narativ este:
 
 - a. intriga
 - b. expozițiunea
@@ -525,7 +1125,7 @@ cssclasses: test
 > 
 > Expozițiunea prezintă doar situația inițială.
 
-### 44. Măsura versului reprezintă:
+### 94. Măsura versului reprezintă:
 
 - a. numărul de silabe
 - b. numărul de cuvinte
@@ -537,7 +1137,7 @@ cssclasses: test
 > 
 > Alternanța accentelor definește ritmul.
 
-### 45. „Dulce jale” este:
+### 95. „Dulce jale” este:
 
 - a. un oximoron
 - b. o metaforă
@@ -549,7 +1149,7 @@ cssclasses: test
 > 
 > Cei doi termeni se contrazic logic.
 
-### 46. Strofa de patru versuri se numește:
+### 96. Strofa de patru versuri se numește:
 
 - a. catren
 - b. distih
@@ -561,7 +1161,7 @@ cssclasses: test
 > 
 > Distihul are două versuri.
 
-### 47. „Sunet cald” este un exemplu de:
+### 97. „Sunet cald” este un exemplu de:
 
 - a. sinestezie
 - b. personificare
@@ -573,7 +1173,7 @@ cssclasses: test
 > 
 > Se asociază senzații din simțuri diferite.
 
-### 48. O scenă, ca diviziune a textului dramatic, se schimbă la:
+### 98. O scenă, ca diviziune a textului dramatic, se schimbă la:
 
 - a. intrarea sau ieșirea unui personaj
 - b. schimbarea decorului
@@ -585,7 +1185,7 @@ cssclasses: test
 > 
 > Schimbarea decorului marchează un tablou.
 
-### 49. Conversiunea este:
+### 99. Conversiunea este:
 
 - a. schimbarea valorii gramaticale fără modificarea formei
 - b. adăugarea unui sufix
@@ -597,7 +1197,7 @@ cssclasses: test
 > 
 > „Binele” provenit din adverb e un exemplu.
 
-### 50. „A evalua” și „a evolua” sunt:
+### 100. „A evalua” și „a evolua” sunt:
 
 - a. paronime
 - b. omonime
@@ -609,7 +1209,7 @@ cssclasses: test
 > 
 > Formele apropiate produc confuzii.
 
-### 51. Polisemia înseamnă:
+### 101. Polisemia înseamnă:
 
 - a. mai multe sensuri înrudite ale aceluiași cuvânt
 - b. două cuvinte cu formă identică
@@ -621,7 +1221,7 @@ cssclasses: test
 > 
 > Omonimia presupune sensuri fără legătură.
 
-### 52. Forma corectă este:
+### 102. Forma corectă este:
 
 - a. „cartea pe care am citit-o”
 - b. „cartea care am citit-o”
@@ -633,7 +1233,7 @@ cssclasses: test
 > 
 > Complementul direct cere prepoziția „pe”.
 
-### 53. Enunțul corect este:
+### 103. Enunțul corect este:
 
 - a. „Am doar zece lei.”
 - b. „Am decât zece lei.”
@@ -645,7 +1245,7 @@ cssclasses: test
 > 
 > „Decât” se folosește în construcții negative.
 
-### 54. „Din cauza” se folosește când:
+### 104. „Din cauza” se folosește când:
 
 - a. efectul este negativ
 - b. efectul este pozitiv
@@ -657,7 +1257,7 @@ cssclasses: test
 > 
 > „Datorită” introduce o cauză cu efect pozitiv.
 
-### 55. Cacofonia se evită corect prin:
+### 105. Cacofonia se evită corect prin:
 
 - a. reformularea enunțului
 - b. adăugarea lui „ca și”
@@ -669,7 +1269,7 @@ cssclasses: test
 > 
 > „Ca și” rămâne pentru comparații reale.
 
-### 56. Funcția limbajului centrată pe receptor este:
+### 106. Funcția limbajului centrată pe receptor este:
 
 - a. conativă
 - b. emotivă
@@ -681,7 +1281,7 @@ cssclasses: test
 > 
 > Ea apare în îndemnuri și apeluri.
 
-### 57. „Mă auzi?” ilustrează funcția:
+### 107. „Mă auzi?” ilustrează funcția:
 
 - a. fatică
 - b. poetică
@@ -693,7 +1293,7 @@ cssclasses: test
 > 
 > Ea verifică funcționarea canalului.
 
-### 58. Comunicarea paraverbală cuprinde:
+### 108. Comunicarea paraverbală cuprinde:
 
 - a. intonația, ritmul, pauzele, volumul
 - b. gesturile și mimica
@@ -705,7 +1305,7 @@ cssclasses: test
 > 
 > Gesturile aparțin nonverbalului.
 
-### 59. Într-un rezumat nu se folosesc:
+### 109. Într-un rezumat nu se folosesc:
 
 - a. dialogul și citatele
 - b. verbele la prezent
@@ -717,7 +1317,7 @@ cssclasses: test
 > 
 > Rezumatul reformulează, nu reproduce.
 
-### 60. Structura textului argumentativ este:
+### 110. Structura textului argumentativ este:
 
 - a. ipoteză, argumente cu exemple, concluzie
 - b. expozițiune, intrigă, deznodământ

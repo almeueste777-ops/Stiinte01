@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Vorbirea indirectă
 
-[[Limba modernă 1 (Engleză) (clasa a X-a)|Limba modernă 1 (Engleză)]] · [[Clasa a X-a]] · lecția 5 din 9
+[[Limba modernă 1 (Engleză) (clasa a X-a)|Limba modernă 1 (Engleză)]] · [[Clasa a X-a]] · lecția 5 din 18
 
 **Capitolul:** Structuri complexe — semestrul 2
 

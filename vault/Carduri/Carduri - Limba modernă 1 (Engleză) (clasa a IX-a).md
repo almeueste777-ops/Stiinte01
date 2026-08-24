@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Limba modernă 1 (Engleză) (clasa a IX-a)
 
-36 carduri pentru [[Limba modernă 1 (Engleză) (clasa a IX-a)|Limba modernă 1 (Engleză) (clasa a IX-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+72 carduri pentru [[Limba modernă 1 (Engleză) (clasa a IX-a)|Limba modernă 1 (Engleză) (clasa a IX-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/limba-moderna-1-engleza
 
@@ -82,6 +82,78 @@ Ce este scanning-ul?::Căutarea rapidă a unei informații precise într-un text
 Cum se deduce sensul unui cuvânt necunoscut?::Din context, din familia de cuvinte și din structura frazei.
 
 Ce strategie de învățare funcționează cel mai bine?::Expunerea zilnică scurtă, cu repetiție eșalonată.
+
+Care sunt pronumele complement în engleză?::Me, you, him, her, it, us, them.
+
+Care este diferența dintre „my" și „mine"?::„My" însoțește un substantiv, „mine" stă singur.
+
+Ce diferență este între „its" și „it's"?::„Its" este posesiv, „it's" înseamnă „it is".
+
+Când se folosesc pronumele reflexive?::Când subiectul și complementul sunt aceeași persoană.
+
+Ce prepoziție se folosește cu orele?::„At": at seven o'clock, at noon.
+
+Ce prepoziție se folosește cu zilele și datele?::„On": on Monday, on 5 May.
+
+Ce prepoziție se folosește cu lunile și anii?::„In": in July, in 2020.
+
+Cum se spune „ajung la Londra"?::„I arrive in London" (oraș sau țară cu „in").
+
+Când se folosește „there are"?::Cu substantive la plural: „There are two chairs".
+
+Când se folosește „any"?::În propoziții negative și interogative.
+
+Cu ce se folosește „many"?::Cu substantive numărabile la plural.
+
+Cum se întreabă despre o cantitate nenumărabilă?::Cu „How much…?": „How much water?".
+
+Care sunt cuvintele interogative de bază?::What, who, whose, which, where, when, why, how.
+
+Cum se răspunde scurt la „Do you like tea?"::„Yes, I do" sau „No, I don't".
+
+Când nu se face inversiune într-o întrebare?::Când cuvântul interogativ este subiectul: „Who called?".
+
+Ce este un „question tag"?::O scurtă întrebare la finalul unei afirmații: „…, isn't it?".
+
+Cum se formează imperativul negativ?::Cu „don't" plus verbul de bază: „Don't run".
+
+Cum se face o sugestie cu „let's"?::Cu „let's" plus verbul de bază: „Let's go home".
+
+Cum se cere politicos o direcție?::„Excuse me, how do I get to…?".
+
+Ce înseamnă „turn left"?::A o lua la stânga.
+
+Cum se citește ora 7:30?::„Half past seven" sau „seven thirty".
+
+Cum se citește ora 8:45?::„A quarter to nine" sau „eight forty-five".
+
+Cum se spune data de 5 mai?::„The fifth of May" sau „May the fifth".
+
+De ce se spune „two hundred", nu „two hundreds"?::După un număr, „hundred" rămâne la singular.
+
+Cum se spune „mă doare capul"?::„I have a headache".
+
+Ce întreabă medicul la început?::„What's the matter?" sau „What seems to be the problem?".
+
+Cum se dă un sfat de sănătate?::Cu „should": „You should rest".
+
+Unde se cumpără medicamente în Marea Britanie?::De la „the chemist's" (pharmacy).
+
+Cum se cere prețul unui produs?::„How much is it?".
+
+Cum se comandă politicos la restaurant?::„I'll have…" sau „Could I have…, please?".
+
+Cum se cere nota de plată în engleza britanică?::„Could we have the bill, please?".
+
+Cum se spune „o felie de pâine"?::„A slice of bread".
+
+Din ce părți este format Regatul Unit?::Anglia, Scoția, Țara Galilor și Irlanda de Nord.
+
+Care este capitala Statelor Unite?::Washington, D.C.
+
+Cum se scrie „culoare" în engleza britanică și în cea americană?::„Colour" (britanică), „color" (americană).
+
+Cum se spune „apartament" în engleza britanică și americană?::„Flat" (britanică), „apartment" (americană).
 
 ---
 

@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Negația și exprimarea cantității
 
-[[Limba modernă 2 (Franceză) (clasa a X-a)|Limba modernă 2 (Franceză)]] · [[Clasa a X-a]] · lecția 6 din 9
+[[Limba modernă 2 (Franceză) (clasa a X-a)|Limba modernă 2 (Franceză)]] · [[Clasa a X-a]] · lecția 6 din 18
 
 **Capitolul:** Pronume și structuri — semestrul 1
 

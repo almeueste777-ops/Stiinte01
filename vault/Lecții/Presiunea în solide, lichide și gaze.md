@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Presiunea în solide, lichide și gaze
 
-[[Fizică (clasa a IX-a)|Fizică]] · [[Clasa a IX-a]] · lecția 9 din 9
+[[Fizică (clasa a IX-a)|Fizică]] · [[Clasa a IX-a]] · lecția 9 din 18
 
 **Capitolul:** Echilibru, presiune, aplicații — semestrul 2
 
@@ -29,6 +29,6 @@ Presiunea este raportul dintre forța apăsătoare și aria pe care se exercită
 
 ---
 
-⬅ [[Mașini simple]]
+⬅ [[Mașini simple]] · [[Vectori - reprezentare, adunare, descompunere]] ➡
 
 Exersează: [[Carduri - Fizică (clasa a IX-a)]] · [[Test - Fizică (clasa a IX-a)]]

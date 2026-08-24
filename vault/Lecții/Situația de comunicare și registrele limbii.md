@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Situația de comunicare și registrele limbii
 
-[[Limba și literatura română (clasa a IX-a)|Limba și literatura română]] · [[Clasa a IX-a]] · lecția 8 din 9
+[[Limba și literatura română (clasa a IX-a)|Limba și literatura română]] · [[Clasa a IX-a]] · lecția 8 din 20
 
 **Capitolul:** Comunicare și redactare — semestrul 2
 
