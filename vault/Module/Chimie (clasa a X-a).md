@@ -20,7 +20,7 @@ cssclasses: fisa
 
 Chimie organică: hidrocarburi, compuși cu grupe funcționale, substanțe naturale și chimia vieții cotidiene.
 
-## Capitole (3)
+## Capitole (6)
 
 ### Hidrocarburi — semestrul 1
 
@@ -40,9 +40,27 @@ Chimie organică: hidrocarburi, compuși cu grupe funcționale, substanțe natur
 - [[Polimeri și materiale]]
 - [[Chimia în viața cotidiană]]
 
+### Hidrocarburi — aprofundare — semestrul 1
+
+- [[Alcanii]]
+- [[Alchene și alchine — reacții de adiție]]
+- [[Petrolul, gazul natural și combustibilii]]
+
+### Reacții și compuși organici cu oxigen — semestrul 2
+
+- [[Aldehide și cetone]]
+- [[Tipuri de reacții în chimia organică]]
+- [[Fermentațiile]]
+
+### Compuși cu importanță practică — semestrul 2
+
+- [[Lipidele]]
+- [[Săpunuri și detergenți]]
+- [[Vitaminele și compușii biologic activi]]
+
 ## Exersare
-- [[Carduri - Chimie (clasa a X-a)]] — 36 carduri
-- [[Test - Chimie (clasa a X-a)]] — 54 întrebări
+- [[Carduri - Chimie (clasa a X-a)]] — 72 carduri
+- [[Test - Chimie (clasa a X-a)]] — 102 întrebări
 
 ## Legături
 - [[Chimie|Chimie]]

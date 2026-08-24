@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Biserica primară
 
-[[Religie (clasa a X-a)|Religie]] · [[Clasa a X-a]] · lecția 6 din 9
+[[Religie (clasa a X-a)|Religie]] · [[Clasa a X-a]] · lecția 6 din 18
 
 **Capitolul:** Pătimirile, Învierea, Biserica — semestrul 1
 

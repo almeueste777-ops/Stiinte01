@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Grecia antică și moștenirea ei
 
-[[Istorie (clasa a IX-a)|Istorie]] · [[Clasa a IX-a]] · lecția 3 din 12
+[[Istorie (clasa a IX-a)|Istorie]] · [[Clasa a IX-a]] · lecția 3 din 24
 
 **Capitolul:** Popoare și spații istorice în Antichitate — semestrul 1
 

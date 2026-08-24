@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Strategii de pregătire și greșeli frecvente
 
-[[Geografie (clasa a XIII-a)|Geografie]] · [[Clasa a XIII-a]] · lecția 9 din 9
+[[Geografie (clasa a XIII-a)|Geografie]] · [[Clasa a XIII-a]] · lecția 9 din 20
 
 **Capitolul:** Bacalaureatul la geografie — semestrul 2
 
@@ -29,6 +29,6 @@ Pregătirea eficientă pentru bacalaureatul la geografie se sprijină pe trei pi
 
 ---
 
-⬅ [[Interpretarea graficelor și a tabelelor]]
+⬅ [[Interpretarea graficelor și a tabelelor]] · [[Studiu de caz - Franța și Germania]] ➡
 
 Exersează: [[Carduri - Geografie (clasa a XIII-a)]] · [[Test - Geografie (clasa a XIII-a)]]

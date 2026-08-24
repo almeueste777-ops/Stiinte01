@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Persecuțiile și victoria credinței
 
-[[Religie (clasa a X-a)|Religie]] · [[Clasa a X-a]] · lecția 7 din 9
+[[Religie (clasa a X-a)|Religie]] · [[Clasa a X-a]] · lecția 7 din 18
 
 **Capitolul:** Creștinismul în lume — semestrul 2
 

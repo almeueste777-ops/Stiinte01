@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Resurse, consum și limite ale creșterii
 
-[[Geografie (clasa a XI-a)|Geografie]] · [[Clasa a XI-a]] · lecția 2 din 9
+[[Geografie (clasa a XI-a)|Geografie]] · [[Clasa a XI-a]] · lecția 2 din 20
 
 **Capitolul:** Mediul și resursele — semestrul 1
 

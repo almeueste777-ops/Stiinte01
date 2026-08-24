@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Construcția europeană
 
-[[Istorie (clasa a XI-a)|Istorie]] · [[Clasa a XI-a]] · lecția 10 din 11
+[[Istorie (clasa a XI-a)|Istorie]] · [[Clasa a XI-a]] · lecția 10 din 24
 
 **Capitolul:** Lumea contemporană — semestrul 2
 

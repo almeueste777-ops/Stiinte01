@@ -10,7 +10,7 @@ clasa: "a IX-a"
 ---
 # Hidrosfera: oceane, râuri, lacuri, ape subterane
 
-[[Geografie (clasa a IX-a)|Geografie]] · [[Clasa a IX-a]] · lecția 8 din 10
+[[Geografie (clasa a IX-a)|Geografie]] · [[Clasa a IX-a]] · lecția 8 din 20
 
 **Capitolul:** Atmosfera și hidrosfera — semestrul 2
 

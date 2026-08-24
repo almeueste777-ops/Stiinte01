@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Resursele naturale și energia
 
-[[Geografie (clasa a X-a)|Geografie]] · [[Clasa a X-a]] · lecția 5 din 9
+[[Geografie (clasa a X-a)|Geografie]] · [[Clasa a X-a]] · lecția 5 din 20
 
 **Capitolul:** Activitățile economice — semestrul 2
 

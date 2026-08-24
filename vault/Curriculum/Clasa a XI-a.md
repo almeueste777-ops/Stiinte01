@@ -23,12 +23,12 @@ Anul **3** din cei 5 ai parcursului [[Parcurs școlar]].
 - [[ȘTIAM (științe integrate) (clasa a XI-a)|ȘTIAM (științe integrate)]] — 📘 9 lecții în aplicație
 
 ### [[Arie - Om și societate|Om și societate]]
-- [[Istorie (clasa a XI-a)|Istorie]] — 🎓 bac, 📘 11 lecții în aplicație
+- [[Istorie (clasa a XI-a)|Istorie]] — 🎓 bac, 📘 24 lecții în aplicație
 - [[Istoria evreilor. Holocaustul (clasa a XI-a)|Istoria evreilor. Holocaustul]] — 📘 9 lecții în aplicație
-- [[Geografie (clasa a XI-a)|Geografie]] — 🎓 bac, 📘 9 lecții în aplicație
+- [[Geografie (clasa a XI-a)|Geografie]] — 🎓 bac, 📘 20 lecții în aplicație
 - [[Sociologie (clasa a XI-a)|Sociologie]] — 🎓 bac, 📘 14 lecții în aplicație
 - [[Studii sociale (clasa a XI-a)|Studii sociale]] — 📘 9 lecții în aplicație
-- [[Religie (clasa a XI-a)|Religie]] — 📘 9 lecții în aplicație
+- [[Religie (clasa a XI-a)|Religie]] — 📘 18 lecții în aplicație
 
 ### [[Arie - Tehnologii|Tehnologii]]
 - [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC)]] — 🎓 bac, 📘 9 lecții în aplicație

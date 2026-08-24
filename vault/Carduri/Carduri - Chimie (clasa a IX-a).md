@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Chimie (clasa a IX-a)
 
-36 carduri pentru [[Chimie (clasa a IX-a)|Chimie (clasa a IX-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+72 carduri pentru [[Chimie (clasa a IX-a)|Chimie (clasa a IX-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/chimie
 
@@ -82,6 +82,78 @@ De ce se păstrează alimentele la rece?::Pentru că temperatura scăzută înce
 Cum curăță săpunul?::Moleculele lui au un capăt polar și unul nepolar, legând grăsimea de apă.
 
 Ce sunt enzimele?::Catalizatorii biologici ai reacțiilor din organism.
+
+Ce a descoperit Rutherford?::Că atomul are un nucleu mic, dens și pozitiv, înconjurat de electroni.
+
+Câți electroni încap cel mult pe straturile K, L și M în primele trei perioade?::2, 8 și 8.
+
+Care este configurația electronică a sodiului?::2, 8, 1.
+
+Ce sunt electronii de valență?::Electronii de pe ultimul strat, care determină comportarea chimică.
+
+Cum se formează un anion?::Prin primirea de electroni de către un atom, care capătă sarcină negativă.
+
+Ce ioni formează metalele?::Cationi, prin cedarea electronilor de valență.
+
+Ce sarcină are ionul de magneziu?::2+, adică Mg²⁺, pentru că cedează doi electroni.
+
+Ce este valența?::Capacitatea de combinare a unui element, adică numărul de legături pe care le formează.
+
+Ce proprietăți fizice au metalele?::Luciu, conductibilitate electrică și termică, maleabilitate, ductilitate.
+
+Cum variază raza atomică într-o perioadă?::Scade de la stânga la dreapta.
+
+Cum variază electronegativitatea în tabel?::Crește spre dreapta perioadei și în sus în grupă.
+
+Care este cel mai electronegativ element?::Fluorul.
+
+Cum se formează adesea oxizii?::Prin arderea unui element în prezența oxigenului.
+
+Ce fel de oxizi dau, în general, metalele?::Oxizi bazici.
+
+Ce se obține din reacția unui oxid acid cu apa?::Un acid.
+
+Ce oxizi produc ploile acide?::Oxizii de sulf și de azot.
+
+Ce ioni cedează acizii în soluție?::Ioni de hidrogen (H⁺).
+
+Ce ioni eliberează bazele în soluție?::Ioni hidroxil (OH⁻).
+
+Dă exemple de acizi și de baze uzuale.::Acizi: HCl, H₂SO₄, HNO₃; baze: NaOH, KOH, Ca(OH)₂.
+
+Cum se diluează corect acidul sulfuric?::Turnând acidul în apă, niciodată apa în acid.
+
+Din ce este formată o sare?::Dintr-un ion metalic (sau amoniu) și un rest acid.
+
+Ce săruri provin din acidul sulfuric?::Sulfații.
+
+Cum se obține o sare prin neutralizare?::Din reacția unui acid cu o bază, rezultând sare și apă.
+
+Dă exemple de utilizări ale sărurilor.::Clorura de sodiu în alimentație, carbonatul de calciu în construcții, sulfatul de cupru în agricultură.
+
+Ce este dizolvarea?::Procesul prin care solvatul se împrăștie printre moleculele solventului.
+
+Cum se poate mări viteza de dizolvare?::Prin mărunțire, agitare și încălzire.
+
+Ce este o soluție saturată?::O soluție care a dizolvat cantitatea maximă de solvat la temperatura dată.
+
+Cum variază solubilitatea solidelor cu temperatura?::De regulă, crește cu temperatura.
+
+Ce arată concentrația procentuală de masă?::Câte grame de solvat se află în 100 g de soluție.
+
+Cum se calculează concentrația procentuală?::Masa solvatului împărțită la masa soluției, înmulțit cu 100.
+
+Cât este masa soluției?::Suma dintre masa solvatului și masa solventului.
+
+Ce se întâmplă cu concentrația la diluare?::Scade, pentru că masa soluției crește, iar cea a solvatului rămâne aceeași.
+
+Ce formă și ce caracter are molecula de apă?::Este unghiulară și polară.
+
+Ce explică legăturile de hidrogen dintre moleculele de apă?::Temperatura mare de fierbere, căldura specifică mare, tensiunea superficială.
+
+De ce plutește gheața?::Pentru că apa solidă este mai puțin densă decât apa lichidă.
+
+Ce conține apa dură?::Mult calciu și magneziu, care formează depuneri de calcar.
 
 ---
 

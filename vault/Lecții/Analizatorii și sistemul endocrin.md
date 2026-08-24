@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Analizatorii și sistemul endocrin
 
-[[Biologie (clasa a IX-a)|Biologie]] · [[Clasa a IX-a]] · lecția 5 din 9
+[[Biologie (clasa a IX-a)|Biologie]] · [[Clasa a IX-a]] · lecția 5 din 18
 
 **Capitolul:** Funcțiile de relație — semestrul 1
 

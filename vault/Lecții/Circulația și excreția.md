@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Circulația și excreția
 
-[[Biologie (clasa a IX-a)|Biologie]] · [[Clasa a IX-a]] · lecția 8 din 9
+[[Biologie (clasa a IX-a)|Biologie]] · [[Clasa a IX-a]] · lecția 8 din 18
 
 **Capitolul:** Funcțiile de nutriție și reproducere — semestrul 2
 

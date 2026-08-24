@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Tabelul periodic
 
-[[Chimie (clasa a IX-a)|Chimie]] · [[Clasa a IX-a]] · lecția 2 din 9
+[[Chimie (clasa a IX-a)|Chimie]] · [[Clasa a IX-a]] · lecția 2 din 18
 
 **Capitolul:** Atomul și sistemul periodic — semestrul 1
 

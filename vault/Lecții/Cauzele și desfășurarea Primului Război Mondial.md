@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Cauzele și desfășurarea Primului Război Mondial
 
-[[Istorie (clasa a XI-a)|Istorie]] · [[Clasa a XI-a]] · lecția 1 din 11
+[[Istorie (clasa a XI-a)|Istorie]] · [[Clasa a XI-a]] · lecția 1 din 24
 
 **Capitolul:** Primul Război Mondial și lumea de după — semestrul 1
 

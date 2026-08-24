@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Reforma religioasă și consecințele ei
 
-[[Istorie (clasa a X-a)|Istorie]] · [[Clasa a X-a]] · lecția 2 din 12
+[[Istorie (clasa a X-a)|Istorie]] · [[Clasa a X-a]] · lecția 2 din 24
 
 **Capitolul:** Nașterea lumii moderne — semestrul 1
 

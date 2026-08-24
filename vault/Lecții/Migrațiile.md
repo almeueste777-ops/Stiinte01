@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Migrațiile
 
-[[Geografie (clasa a X-a)|Geografie]] · [[Clasa a X-a]] · lecția 3 din 9
+[[Geografie (clasa a X-a)|Geografie]] · [[Clasa a X-a]] · lecția 3 din 20
 
 **Capitolul:** Populația — semestrul 1
 

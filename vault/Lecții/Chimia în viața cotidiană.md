@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Chimia în viața cotidiană
 
-[[Chimie (clasa a X-a)|Chimie]] · [[Clasa a X-a]] · lecția 9 din 9
+[[Chimie (clasa a X-a)|Chimie]] · [[Clasa a X-a]] · lecția 9 din 18
 
 **Capitolul:** Substanțe naturale și aplicații — semestrul 2
 
@@ -29,6 +29,6 @@ Chimia explică ce se întâmplă în bucătărie, în baie și în trusa de med
 
 ---
 
-⬅ [[Polimeri și materiale]]
+⬅ [[Polimeri și materiale]] · [[Alcanii]] ➡
 
 Exersează: [[Carduri - Chimie (clasa a X-a)]] · [[Test - Chimie (clasa a X-a)]]

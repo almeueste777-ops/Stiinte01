@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Hidrocarburi aromatice
 
-[[Chimie (clasa a X-a)|Chimie]] · [[Clasa a X-a]] · lecția 3 din 9
+[[Chimie (clasa a X-a)|Chimie]] · [[Clasa a X-a]] · lecția 3 din 18
 
 **Capitolul:** Hidrocarburi — semestrul 1
 

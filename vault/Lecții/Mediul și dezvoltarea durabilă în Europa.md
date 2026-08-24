@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Mediul și dezvoltarea durabilă în Europa
 
-[[Geografie (clasa a XIII-a)|Geografie]] · [[Clasa a XIII-a]] · lecția 6 din 9
+[[Geografie (clasa a XIII-a)|Geografie]] · [[Clasa a XIII-a]] · lecția 6 din 20
 
 **Capitolul:** Analiza comparativă și studiile de caz — semestrul 2
 

@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Așezările rurale și urbane
 
-[[Geografie (clasa a X-a)|Geografie]] · [[Clasa a X-a]] · lecția 4 din 9
+[[Geografie (clasa a X-a)|Geografie]] · [[Clasa a X-a]] · lecția 4 din 20
 
 **Capitolul:** Așezările omenești — semestrul 1
 

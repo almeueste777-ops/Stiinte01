@@ -8,7 +8,7 @@ clasa: "a XI-a"
 ---
 # Sfânta Liturghie
 
-[[Religie (clasa a XI-a)|Religie]] · [[Clasa a XI-a]] · lecția 4 din 9
+[[Religie (clasa a XI-a)|Religie]] · [[Clasa a XI-a]] · lecția 4 din 18
 
 **Capitolul:** Cult, artă, sărbători — semestrul 1
 

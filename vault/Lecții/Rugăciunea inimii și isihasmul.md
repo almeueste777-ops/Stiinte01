@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Rugăciunea inimii și isihasmul
 
-[[Religie (clasa a XIII-a)|Religie]] · [[Clasa a XIII-a]] · lecția 1 din 9
+[[Religie (clasa a XIII-a)|Religie]] · [[Clasa a XIII-a]] · lecția 1 din 18
 
 **Capitolul:** Spiritualitatea ortodoxă — semestrul 1
 

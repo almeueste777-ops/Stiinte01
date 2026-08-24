@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Mișcarea naturală și structura populației
 
-[[Geografie (clasa a X-a)|Geografie]] · [[Clasa a X-a]] · lecția 2 din 9
+[[Geografie (clasa a X-a)|Geografie]] · [[Clasa a X-a]] · lecția 2 din 20
 
 **Capitolul:** Populația — semestrul 1
 

@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Istorie (clasa a X-a)
 
-48 carduri pentru [[Istorie (clasa a X-a)|Istorie (clasa a X-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+96 carduri pentru [[Istorie (clasa a X-a)|Istorie (clasa a X-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/istorie
 
@@ -106,6 +106,102 @@ Cine a formulat teoria „formelor fără fond”?::Titu Maiorescu.
 În ce an a fost înființată Academia Română?::În 1866, ca Societatea Literară Română.
 
 Ce revistă a impus spiritul critic junimist?::„Convorbiri literare”.
+
+Cine este modelul monarhului absolut?::Ludovic al XIV-lea al Franței, „Regele Soare".
+
+Pe ce se întemeia autoritatea monarhului absolut?::Pe „dreptul divin".
+
+Ce politică economică a aplicat Colbert?::Mercantilismul.
+
+Ce a suprimat revocarea Edictului de la Nantes (1685)?::Toleranța față de protestanții francezi.
+
+Cum s-a încheiat războiul civil englez?::Cu victoria Parlamentului și execuția regelui Carol I (1649).
+
+Ce a fost Glorioasa Revoluție (1688)?::Înlăturarea lui Iacob al II-lea și instaurarea monarhiei parlamentare.
+
+Ce a instituit Bill of Rights (1689)?::Limitarea puterii regelui și supremația Parlamentului.
+
+Ce filosof a teoretizat puterea limitată, pornind de la modelul englez?::John Locke.
+
+Ce principiu a organizat relațiile europene după 1648?::Echilibrul puterilor.
+
+Ce două puteri noi se ridică în secolul al XVIII-lea?::Prusia și Rusia.
+
+Cine a modernizat Rusia și a mutat capitala la Sankt-Petersburg?::Petru cel Mare.
+
+Ce este „despotismul luminat"?::Un regim absolutist care adoptă reforme inspirate de Iluminism.
+
+Când s-a emancipat America Latină?::La începutul secolului al XIX-lea (aproximativ 1808–1826).
+
+Cine a fost „Eliberatorul" Americii de Sud?::Simón Bolívar.
+
+Cum s-a desprins Brazilia de Portugalia?::Pașnic, devenind imperiu independent în 1822.
+
+Ce afirmă doctrina Monroe (1823)?::„America pentru americani" — opoziția față de intervențiile europene.
+
+Ce a fost „Destinul Manifest"?::Ideea că SUA erau menite să stăpânească întreg continentul.
+
+Ce teritoriu au cumpărat SUA de la Franța în 1803?::Louisiana.
+
+Între cine s-a purtat Războiul de Secesiune?::Între Nordul unionist și Sudul confederat, sclavagist.
+
+Ce a realizat Abraham Lincoln?::A condus Uniunea la victorie și a abolit sclavia.
+
+Cine a formulat teoria evoluției?::Charles Darwin.
+
+Ce invenții au „micșorat" lumea în secolul al XIX-lea?::Calea ferată, vaporul cu aburi, telegraful, telefonul.
+
+De ce a crescut speranța de viață?::Datorită progreselor medicinei și igienei.
+
+Ce probleme noi a adus urbanizarea?::Aglomerarea, poluarea, condițiile grele din fabrici.
+
+Cum a numit Metternich Italia de la începutul secolului XIX?::„O expresie geografică".
+
+Ce stat a condus unificarea Italiei?::Regatul Sardiniei (Piemont).
+
+Cine a cucerit sudul Italiei în 1860?::Giuseppe Garibaldi, cu „Cei o mie".
+
+Când a fost proclamat Regatul Italiei?::În 1861.
+
+Cine a realizat unificarea Germaniei?::Otto von Bismarck, cancelarul Prusiei.
+
+Prin ce mijloace s-a făcut unificarea Germaniei?::„Prin fier și sânge" — prin trei războaie victorioase.
+
+Unde și când a fost proclamat Imperiul German?::La Versailles, în ianuarie 1871.
+
+Ce provincii a pierdut Franța în urma războiului din 1870–1871?::Alsacia și Lorena.
+
+Cine a desființat iobăgia în Rusia și când?::Țarul Alexandru al II-lea, în 1861.
+
+Ce înfrângere a impus reformele în Rusia?::Înfrângerea din Războiul Crimeii (1853–1856).
+
+Cum era numit Imperiul Otoman în declin?::„Omul bolnav al Europei".
+
+Ce au fost reformele Tanzimat?::Reformele de modernizare din Imperiul Otoman, începute în 1839.
+
+Când și de ce începe epoca fanariotă?::La 1711/1716, din neîncrederea Porții față de domnii pământeni.
+
+De unde vine numele de „fanarioți"?::De la cartierul Fanar al Constantinopolului, de unde proveneau domnii.
+
+Ce reformă majoră a realizat Constantin Mavrocordat?::Desființarea șerbiei (rumâniei), în 1746 și 1749.
+
+Când s-a încheiat epoca fanariotă?::În 1821, odată cu mișcarea lui Tudor Vladimirescu.
+
+Când a fost dată în folosință prima cale ferată din vechea Românie?::În 1869 (linia București–Giurgiu).
+
+Cine a construit podul de la Cernavodă?::Inginerul Anghel Saligny (1895).
+
+Ce caracter avea economia României moderne?::Preponderent agrar, bazat pe exportul de cereale.
+
+Când a fost înființată Banca Națională a României?::În 1880.
+
+Cum s-a schimbat viața la oraș prin modernizare?::Prin bulevarde, iluminat, tramvaie, teatre, presă și o viață mondenă modernă.
+
+Ce model cultural au adoptat elitele românești?::Modelul occidental, mai ales francez.
+
+De ce se vorbea despre „cele două Românii"?::Din cauza contrastului dintre orașul modern și satul tradițional.
+
+Cine a inițiat reforma școlară de la începutul secolului XX?::Spiru Haret.
 
 ---
 

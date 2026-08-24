@@ -21,7 +21,7 @@ cssclasses: fisa
 
 Geografie fizică generală: Pământul în Univers, relieful, atmosfera, apele, viețuitoarele și mediul înconjurător.
 
-## Capitole (4)
+## Capitole (8)
 
 ### Pământul în Univers — semestrul 1
 
@@ -45,9 +45,31 @@ Geografie fizică generală: Pământul în Univers, relieful, atmosfera, apele,
 - [[Biosfera, solurile și zonele biogeografice]]
 - [[Mediul înconjurător - hazarde, poluare, protecție]]
 
+### Măsurarea și reprezentarea Pământului — semestrul 1
+
+- [[Coordonatele geografice - latitudinea și longitudinea]]
+- [[Hărțile geografice - scara, semnele convenționale, relieful]]
+- [[Măsurarea timpului - fusurile orare, ziua și calendarul]]
+
+### Litosfera: roci și forme majore de relief — semestrul 1
+
+- [[Mineralele și rocile]]
+- [[Marile forme de relief ale continentelor]]
+
+### Atmosfera și vremea (aprofundare) — semestrul 2
+
+- [[Vremea și elementele meteorologice]]
+- [[Umezeala aerului, norii și precipitațiile]]
+- [[Circulația atmosferei și masele de aer]]
+
+### Hidrosfera, criosfera și dinamica apelor — semestrul 2
+
+- [[Dinamica Oceanului Planetar - valuri, maree, curenți]]
+- [[Ghețarii și criosfera]]
+
 ## Exersare
-- [[Carduri - Geografie (clasa a IX-a)]] — 40 carduri
-- [[Test - Geografie (clasa a IX-a)]] — 64 întrebări
+- [[Carduri - Geografie (clasa a IX-a)]] — 80 carduri
+- [[Test - Geografie (clasa a IX-a)]] — 116 întrebări
 
 ## Legături
 - [[Geografie|Geografie]]

@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Structura probei și harta de examen
 
-[[Geografie (clasa a XIII-a)|Geografie]] · [[Clasa a XIII-a]] · lecția 7 din 9
+[[Geografie (clasa a XIII-a)|Geografie]] · [[Clasa a XIII-a]] · lecția 7 din 20
 
 **Capitolul:** Bacalaureatul la geografie — semestrul 2
 

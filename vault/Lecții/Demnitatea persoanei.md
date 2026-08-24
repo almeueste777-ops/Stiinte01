@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Demnitatea persoanei
 
-[[Religie (clasa a XII-a)|Religie]] · [[Clasa a XII-a]] · lecția 4 din 9
+[[Religie (clasa a XII-a)|Religie]] · [[Clasa a XII-a]] · lecția 4 din 18
 
 **Capitolul:** Viața personală și familia — semestrul 1
 

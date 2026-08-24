@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Omul și mediul
 
-[[Biologie (clasa a X-a)|Biologie]] · [[Clasa a X-a]] · lecția 8 din 9
+[[Biologie (clasa a X-a)|Biologie]] · [[Clasa a X-a]] · lecția 8 din 18
 
 **Capitolul:** Ecologie și sănătate — semestrul 2
 

@@ -10,7 +10,7 @@ clasa: "a IX-a"
 ---
 # Atmosfera: structură, temperatură, presiune, vânturi
 
-[[Geografie (clasa a IX-a)|Geografie]] · [[Clasa a IX-a]] · lecția 6 din 10
+[[Geografie (clasa a IX-a)|Geografie]] · [[Clasa a IX-a]] · lecția 6 din 20
 
 **Capitolul:** Atmosfera și hidrosfera — semestrul 2
 

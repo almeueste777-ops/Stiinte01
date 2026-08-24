@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Romanitatea românilor în viziunea istoricilor
 
-[[Istorie (clasa a XII-a)|Istorie]] · [[Clasa a XII-a]] · lecția 1 din 12
+[[Istorie (clasa a XII-a)|Istorie]] · [[Clasa a XII-a]] · lecția 1 din 24
 
 **Capitolul:** Popoare și spații istorice — semestrul 1
 

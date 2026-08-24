@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Biserica, cruciadele și cultura medievală
 
-[[Istorie (clasa a IX-a)|Istorie]] · [[Clasa a IX-a]] · lecția 8 din 12
+[[Istorie (clasa a IX-a)|Istorie]] · [[Clasa a IX-a]] · lecția 8 din 24
 
 **Capitolul:** Evul Mediu european — semestrul 2
 

@@ -10,7 +10,7 @@ clasa: "a XI-a"
 ---
 # Lumea după 1991: globalizare, conflicte, provocări
 
-[[Istorie (clasa a XI-a)|Istorie]] · [[Clasa a XI-a]] · lecția 11 din 11
+[[Istorie (clasa a XI-a)|Istorie]] · [[Clasa a XI-a]] · lecția 11 din 24
 
 **Capitolul:** Lumea contemporană — semestrul 2
 
@@ -31,6 +31,6 @@ Sfârșitul Războiului Rece deschide o perioadă de optimism — extinderea dem
 
 ---
 
-⬅ [[Construcția europeană]]
+⬅ [[Construcția europeană]] · [[România interbelică - stat, economie, societate]] ➡
 
 Exersează: [[Carduri - Istorie (clasa a XI-a)]] · [[Test - Istorie (clasa a XI-a)]]

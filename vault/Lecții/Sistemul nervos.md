@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Sistemul nervos
 
-[[Biologie (clasa a IX-a)|Biologie]] · [[Clasa a IX-a]] · lecția 4 din 9
+[[Biologie (clasa a IX-a)|Biologie]] · [[Clasa a IX-a]] · lecția 4 din 18
 
 **Capitolul:** Funcțiile de relație — semestrul 1
 

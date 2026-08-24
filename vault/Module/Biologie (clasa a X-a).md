@@ -20,7 +20,7 @@ cssclasses: fisa
 
 Genetică și evoluție, diversitatea lumii vii, ecologie și educație pentru sănătate.
 
-## Capitole (3)
+## Capitole (6)
 
 ### Genetică și evoluție — semestrul 1
 
@@ -40,9 +40,27 @@ Genetică și evoluție, diversitatea lumii vii, ecologie și educație pentru s
 - [[Omul și mediul]]
 - [[Sănătate și stil de viață]]
 
+### Diviziunea celulară — semestrul 1
+
+- [[Ciclul celular și mitoza]]
+- [[Meioza]]
+- [[Cromozomii și determinismul sexului]]
+
+### Genetică — semestrul 1
+
+- [[Monohibridarea și legile eredității]]
+- [[Genetica umană și bolile ereditare]]
+- [[Mutațiile și factorii mutageni]]
+
+### Ecologie — semestrul 2
+
+- [[Factorii ecologici]]
+- [[Populația și dinamica ei]]
+- [[Relații interspecifice și succesiunea ecologică]]
+
 ## Exersare
-- [[Carduri - Biologie (clasa a X-a)]] — 36 carduri
-- [[Test - Biologie (clasa a X-a)]] — 54 întrebări
+- [[Carduri - Biologie (clasa a X-a)]] — 72 carduri
+- [[Test - Biologie (clasa a X-a)]] — 102 întrebări
 
 ## Legături
 - [[Biologie|Biologie]]

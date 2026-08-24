@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Unirea Principatelor și reformele lui Cuza
 
-[[Istorie (clasa a X-a)|Istorie]] · [[Clasa a X-a]] · lecția 10 din 12
+[[Istorie (clasa a X-a)|Istorie]] · [[Clasa a X-a]] · lecția 10 din 24
 
 **Capitolul:** Spațiul românesc în epoca modernă — semestrul 2
 

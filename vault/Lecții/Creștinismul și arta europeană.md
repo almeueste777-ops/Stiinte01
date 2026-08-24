@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Creștinismul și arta europeană
 
-[[Religie (clasa a XIII-a)|Religie]] · [[Clasa a XIII-a]] · lecția 5 din 9
+[[Religie (clasa a XIII-a)|Religie]] · [[Clasa a XIII-a]] · lecția 5 din 18
 
 **Capitolul:** Patrimoniu și cultură creștină — semestrul 1
 

@@ -20,7 +20,7 @@ cssclasses: fisa
 
 Morala creștină: conștiință și libertate, viața personală și de familie, responsabilitatea socială și bioetica.
 
-## Capitole (3)
+## Capitole (6)
 
 ### Temeiurile moralei creștine — semestrul 1
 
@@ -40,9 +40,27 @@ Morala creștină: conștiință și libertate, viața personală și de familie
 - [[Bioetica]]
 - [[Creștinismul și provocările contemporane]]
 
+### Chemarea la sfințenie și viața duhovnicească — semestrul 1
+
+- [[Fericirile — programul vieții creștine]]
+- [[Rugăciunea și viața interioară]]
+- [[Iertarea și reconcilierea]]
+
+### Morala relațiilor și a comunicării — semestrul 2
+
+- [[Prietenia și iubirea]]
+- [[Adevăr, cuvânt, comunicare]]
+- [[Dreptatea și pacea]]
+
+### Provocări etice contemporane — semestrul 2
+
+- [[Etica mediului și responsabilitatea ecologică]]
+- [[Etica muncii, a averii și a sărăciei]]
+- [[Voluntariatul și solidaritatea]]
+
 ## Exersare
-- [[Carduri - Religie (clasa a XII-a)]] — 36 carduri
-- [[Test - Religie (clasa a XII-a)]] — 54 întrebări
+- [[Carduri - Religie (clasa a XII-a)]] — 72 carduri
+- [[Test - Religie (clasa a XII-a)]] — 102 întrebări
 
 ## Legături
 - [[Religie|Religie]]

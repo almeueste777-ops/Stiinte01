@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Reproducerea și sănătatea
 
-[[Biologie (clasa a IX-a)|Biologie]] · [[Clasa a IX-a]] · lecția 9 din 9
+[[Biologie (clasa a IX-a)|Biologie]] · [[Clasa a IX-a]] · lecția 9 din 18
 
 **Capitolul:** Funcțiile de nutriție și reproducere — semestrul 2
 
@@ -29,6 +29,6 @@ Sistemele de reproducere masculin și feminin produc gameți și hormoni sexuali
 
 ---
 
-⬅ [[Circulația și excreția]]
+⬅ [[Circulația și excreția]] · [[Compoziția chimică a celulei]] ➡
 
 Exersează: [[Carduri - Biologie (clasa a IX-a)]] · [[Test - Biologie (clasa a IX-a)]]

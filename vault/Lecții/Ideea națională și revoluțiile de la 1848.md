@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Ideea națională și revoluțiile de la 1848
 
-[[Istorie (clasa a X-a)|Istorie]] · [[Clasa a X-a]] · lecția 7 din 12
+[[Istorie (clasa a X-a)|Istorie]] · [[Clasa a X-a]] · lecția 7 din 24
 
 **Capitolul:** Națiuni și state în secolul al XIX-lea — semestrul 2
 

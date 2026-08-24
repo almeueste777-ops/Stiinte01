@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Proiecte politice și reforme (1821–1848)
 
-[[Istorie (clasa a XII-a)|Istorie]] · [[Clasa a XII-a]] · lecția 3 din 12
+[[Istorie (clasa a XII-a)|Istorie]] · [[Clasa a XII-a]] · lecția 3 din 24
 
 **Capitolul:** Statul român modern — semestrul 1
 

@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Virtuți și patimi
 
-[[Religie (clasa a XII-a)|Religie]] · [[Clasa a XII-a]] · lecția 3 din 9
+[[Religie (clasa a XII-a)|Religie]] · [[Clasa a XII-a]] · lecția 3 din 18
 
 **Capitolul:** Temeiurile moralei creștine — semestrul 1
 

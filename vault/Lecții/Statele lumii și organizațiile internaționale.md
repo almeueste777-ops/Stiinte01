@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Statele lumii și organizațiile internaționale
 
-[[Geografie (clasa a X-a)|Geografie]] · [[Clasa a X-a]] · lecția 8 din 9
+[[Geografie (clasa a X-a)|Geografie]] · [[Clasa a X-a]] · lecția 8 din 20
 
 **Capitolul:** Harta politică și decalajele — semestrul 2
 

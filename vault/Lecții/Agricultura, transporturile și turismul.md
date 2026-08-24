@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Agricultura, transporturile și turismul
 
-[[Geografie (clasa a XII-a)|Geografie]] · [[Clasa a XII-a]] · lecția 7 din 9
+[[Geografie (clasa a XII-a)|Geografie]] · [[Clasa a XII-a]] · lecția 7 din 20
 
 **Capitolul:** Economia și mediul — semestrul 2
 

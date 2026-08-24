@@ -22,14 +22,14 @@ Anul **2** din cei 5 ai parcursului [[Parcurs școlar]].
 ### [[Arie - Matematică și științe ale naturii|Matematică și științe ale naturii]]
 - [[Matematică (clasa a X-a)|Matematică]] — 📘 9 lecții în aplicație
 - [[Fizică (clasa a X-a)|Fizică]] — 📘 9 lecții în aplicație
-- [[Chimie (clasa a X-a)|Chimie]] — 📘 9 lecții în aplicație
-- [[Biologie (clasa a X-a)|Biologie]] — 📘 9 lecții în aplicație
+- [[Chimie (clasa a X-a)|Chimie]] — 📘 18 lecții în aplicație
+- [[Biologie (clasa a X-a)|Biologie]] — 📘 18 lecții în aplicație
 
 ### [[Arie - Om și societate|Om și societate]]
-- [[Istorie (clasa a X-a)|Istorie]] — 🎓 bac, 📘 12 lecții în aplicație
-- [[Geografie (clasa a X-a)|Geografie]] — 🎓 bac, 📘 9 lecții în aplicație
+- [[Istorie (clasa a X-a)|Istorie]] — 🎓 bac, 📘 24 lecții în aplicație
+- [[Geografie (clasa a X-a)|Geografie]] — 🎓 bac, 📘 20 lecții în aplicație
 - [[Psihologie (clasa a X-a)|Psihologie]] — 🎓 bac, 📘 16 lecții în aplicație
-- [[Religie (clasa a X-a)|Religie]] — 📘 9 lecții în aplicație
+- [[Religie (clasa a X-a)|Religie]] — 📘 18 lecții în aplicație
 
 ### [[Arie - Tehnologii|Tehnologii]]
 - [[Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)|Tehnologia informației și a comunicațiilor (TIC)]] — 🎓 bac, 📘 9 lecții în aplicație

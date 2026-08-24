@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Religie (clasa a IX-a)
 
-36 carduri pentru [[Religie (clasa a IX-a)|Religie (clasa a IX-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+72 carduri pentru [[Religie (clasa a IX-a)|Religie (clasa a IX-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/religie
 
@@ -82,6 +82,78 @@ Care sunt cele patru virtuți morale principale?::Înțelepciunea, dreptatea, cu
 De ce trebuie formată conștiința morală?::Pentru că, neformată, poate judeca greșit binele și răul.
 
 Ce înseamnă pocăința?::Schimbarea minții și întoarcerea, nu autodispreț sau simplă părere de rău.
+
+Câți psalmi cuprinde Psaltirea?::O sută cincizeci.
+
+Cine este considerat de tradiție principalul autor al psalmilor?::Regele David.
+
+Ce trăiri exprimă psalmii?::Laudă, mulțumire, cerere, pocăință și plângere, întreaga gamă a trăirilor omenești.
+
+Ce este paralelismul din psalmi?::Repetarea aceleiași idei în două forme apropiate, procedeu al poeziei biblice.
+
+Care sunt principalele cărți de înțelepciune?::Pildele lui Solomon, Iov, Ecclesiastul și Cântarea Cântărilor.
+
+Ce cuprind Pildele lui Solomon?::Sfaturi practice despre muncă, cuvânt, prietenie și frica de Dumnezeu.
+
+Ce întrebare pune cartea lui Iov?::Întrebarea suferinței celui nevinovat.
+
+Ce este numit „începutul înțelepciunii”?::Frica de Dumnezeu.
+
+Ce era Cortul întâlnirii?::Lăcașul mobil de închinare din timpul pribegiei prin pustie.
+
+Ce se păstra în Chivotul Legământului?::Tablele Legii primite pe Muntele Sinai.
+
+Cine a zidit Templul din Ierusalim?::Regele Solomon.
+
+Ce cereau profeții, pe lângă jertfă?::Dreptate și inimă curată, fără de care jertfa nu este primită.
+
+Cine a fost primul rege al lui Israel?::Saul, uns de profetul Samuel.
+
+Ce a făcut David cu cetatea Ierusalimului?::A făcut-o capitala și centrul religios al poporului.
+
+Pentru ce este vestit regele Solomon?::Pentru înțelepciune și pentru zidirea Templului.
+
+Ce așteptare hrănește făgăduința unui urmaș din neamul lui David?::Așteptarea lui Mesia.
+
+În ce s-a împărțit regatul după moartea lui Solomon?::În regatul de nord, Israel, și regatul de sud, Iuda.
+
+Cine a distrus Ierusalimul și Templul în 587 î.Hr.?::Babilonienii.
+
+Ce a însemnat exilul babilonian pentru credința poporului?::O încercare grea, dar și un timp de curățire și de păstrare a credinței prin cuvântul scris.
+
+Cine a îngăduit întoarcerea din exil?::Regele pers Cirus, în 538 î.Hr.
+
+Unde este situată Țara Sfântă?::La răscrucea dintre Africa, Asia și Marea Mediterană.
+
+Care sunt câteva repere geografice biblice?::Râul Iordan, Marea Galileei, Marea Moartă, pustia Iudeii și Ierusalimul.
+
+De unde vin multe imagini biblice, precum turma și via?::Din viața concretă a păstorilor și agricultorilor din Țara Sfântă.
+
+Ce confirmă manuscrisele de la Qumran?::Vechimea și transmiterea îngrijită a textelor biblice.
+
+Ce amintea Paștile Vechiului Testament?::Ieșirea din Egipt și eliberarea din robie.
+
+Ce sărbătoare marca, în tradiție, primirea Legii pe Sinai?::Cincizecimea, sărbătoarea Săptămânilor.
+
+Ce era Sabatul?::Ziua a șaptea, de odihnă, poruncită în Decalog.
+
+Ce sărbătoare creștină se leagă de Cincizecimea iudaică?::Pogorârea Duhului Sfânt, Rusaliile.
+
+Ce înseamnă cuvântul „înger”?::„Trimis”, „vestitor”.
+
+Care sunt cei mai cunoscuți doi arhangheli?::Mihail și Gavriil.
+
+Ce învață Biserica despre îngerul păzitor?::Că fiecare om are un înger dat spre ocrotire.
+
+Sunt îngerii divinități?::Nu; sunt făpturi create, iar cinstirea lor nu se confundă cu adorarea.
+
+Cum Se descoperă Dumnezeu lui Moise la rugul aprins?::Prin numele legat de „Eu sunt Cel ce sunt”.
+
+Ce înseamnă că Vechiul Testament este monoteist?::Că mărturisește un singur Dumnezeu.
+
+Care sunt câteva însușiri ale lui Dumnezeu?::Veșnic, atotputernic, atotștiutor, pretutindeni prezent, drept și milostiv.
+
+De ce nu sunt însușirile lui Dumnezeu simple idei abstracte?::Pentru că sunt temeiuri ale încrederii: dreptatea și mila Lui dau sens nădejdii și pocăinței.
 
 ---
 

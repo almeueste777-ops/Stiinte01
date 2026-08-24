@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Biosfera, solurile și zonele biogeografice
 
-[[Geografie (clasa a IX-a)|Geografie]] · [[Clasa a IX-a]] · lecția 9 din 10
+[[Geografie (clasa a IX-a)|Geografie]] · [[Clasa a IX-a]] · lecția 9 din 20
 
 **Capitolul:** Biosfera, solurile și mediul — semestrul 2
 

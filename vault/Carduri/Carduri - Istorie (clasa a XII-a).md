@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Istorie (clasa a XII-a)
 
-48 carduri pentru [[Istorie (clasa a XII-a)|Istorie (clasa a XII-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+96 carduri pentru [[Istorie (clasa a XII-a)|Istorie (clasa a XII-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/istorie
 
@@ -106,6 +106,102 @@ Ce a afirmat Declarația din aprilie 1964?::Egalitatea partidelor comuniste și 
 Ce gest din 1968 a adus României prestigiu internațional?::Condamnarea publică a invadării Cehoslovaciei.
 
 De ce a renunțat România la clauza națiunii celei mai favorizate în 1988?::Din cauza condiționării ei de respectarea drepturilor omului, pe care regimul a refuzat-o.
+
+Când au fost recunoscute mitropoliile Țării Românești și Moldovei?::În 1359, respectiv 1401, de Patriarhia de la Constantinopol.
+
+Ce statut avea ortodoxia românilor în Transilvania?::Cel de religie doar „tolerată", deși era majoritară.
+
+Când a devenit Biserica Ortodoxă Română autocefală și când Patriarhie?::Autocefală în 1885, Patriarhie în 1925.
+
+Ce a făcut regimul comunist cu Biserica Greco-Catolică?::A desființat-o în 1948.
+
+Care a fost limba culturii scrise românești, secole la rând?::Slavona.
+
+Cine a tipărit primele texte românești și unde?::Diaconul Coresi, la Brașov, în secolul al XVI-lea.
+
+Ce importanță are Biblia de la București (1688)?::A fixat limba literară română, ca prima traducere integrală tipărită.
+
+Ce a susținut Școala Ardeleană în privința limbii?::Originea latină a limbii române și scrierea cu alfabet latin.
+
+Ce este o ctitorie?::O biserică sau mănăstire ridicată de un domn ori un boier.
+
+Ce mănăstiri din nordul Moldovei au picturi exterioare?::Voroneț, Sucevița, Humor, Moldovița.
+
+Cine a ridicat mănăstirea Putna?::Ștefan cel Mare.
+
+Ce este stilul brâncovenesc?::Un stil artistic românesc, sinteză de influențe bizantine, occidentale și orientale.
+
+Cum era structurată societatea medievală românească?::În stări: boierime și cler, orășeni, țărănime.
+
+Cum se numeau țăranii liberi din Țara Românească și din Moldova?::Moșneni în Țara Românească, răzeși în Moldova.
+
+Pe ce se baza economia medievală românească?::Pe agricultură și creșterea animalelor, cu exploatarea sării și comerț.
+
+Ce obligații aveau țăranii dependenți?::Clacă (muncă), dijmă (produse) și dări în bani.
+
+Care erau cele trei forțe sociale din societatea premodernă românească?::Domnia, boierimea și țărănimea.
+
+Ce a însemnat „rumânirea"?::Aservirea treptată a țăranilor liberi, care deveneau dependenți.
+
+Ce reformă socială majoră a adus epoca fanariotă?::Desființarea șerbiei de către Constantin Mavrocordat (1746, 1749).
+
+În ce raport se aflau domnul și marea boierime?::Într-o tensiune permanentă: boierimea putea alege și răsturna domni.
+
+Ce a realizat reforma agrară din 1864?::Împroprietărirea clăcașilor și desființarea obligațiilor feudale.
+
+Ce structură economică a produs răscoala din 1907?::Marea proprietate moșierească și o țărănime săracă.
+
+Ce transformări economice a impus comunismul?::Naționalizarea, colectivizarea forțată și industrializarea centralizată.
+
+Câte reforme agrare majore a cunoscut România modernă?::Trei: 1864, 1921 și 1945.
+
+Ce titlu a primit Ștefan cel Mare după victoria de la Vaslui?::„Atlet al lui Hristos".
+
+Ce a realizat Mihai Viteazul în 1600?::Prima unire a Țării Românești, Transilvaniei și Moldovei.
+
+La ce cruciadă a participat Mircea cel Bătrân?::La cruciada de la Nicopole (1396).
+
+Ce politică externă a dus Ștefan cel Mare?::O politică de echilibru între Ungaria, Polonia și Imperiul Otoman.
+
+Ce reforme fundamentale a înfăptuit Cuza?::Secularizarea (1863), reforma agrară și legea instrucțiunii (1864).
+
+Cine a proclamat independența României în 1877?::Mihail Kogălniceanu, ca ministru de externe.
+
+Cât a domnit Carol I?::Aproape o jumătate de secol (1866–1914).
+
+Ce familie politică liberală a fost esențială în epocă?::Familia Brătianu.
+
+De ce este supranumit Ferdinand I „Întregitorul"?::Pentru că sub domnia lui s-a realizat Marea Unire.
+
+Ce funcție internațională a deținut Nicolae Titulescu?::Președinte, de două ori, al Adunării Societății Națiunilor.
+
+Cine a fost Iuliu Maniu?::Liderul PNȚ, simbol al democrației, mort în închisoarea comunistă de la Sighet.
+
+Ce a făcut regele Mihai I la 23 august 1944?::A ordonat arestarea lui Antonescu și a scos România din alianța cu Germania.
+
+Ce comunități au trăit alături de români în Transilvania?::Maghiari, secui, sași (germani), evrei, romi și altele.
+
+Ce pondere aveau minoritățile în România Mare?::Aproximativ 28% din populație.
+
+Ce comunități a lovit Holocaustul în spațiul românesc?::Comunitățile evreiască și romă.
+
+Ce drepturi au dobândit minoritățile după 1989?::Reprezentare parlamentară garantată, învățământ și administrație în limba maternă.
+
+Când și de cine a fost anexată Basarabia prima dată?::În 1812, de Imperiul Rus.
+
+Cine a votat unirea Basarabiei cu România în 1918?::Sfatul Țării.
+
+Ce s-a întâmplat cu Basarabia în 1940?::A fost ocupată de URSS, în urma ultimatumului sovietic.
+
+Când și-a proclamat Republica Moldova independența?::În 1991, odată cu prăbușirea URSS.
+
+Care sunt marile continuități ale istoriei românilor?::Latinitatea, continuitatea, ideea de unitate, ortodoxia, tradiția instituțională.
+
+Ce fel de rupturi a cunoscut istoria românilor?::Fărâmițarea politică, dominația imperiilor, pierderile teritoriale, schimbările de regim.
+
+Care sunt marile procese de lungă durată?::Formarea poporului și a limbii, întemeierea statelor, modernizarea, unitatea, integrarea europeană.
+
+Ce tensiune dă sens istoriei românilor?::Cea dintre voința de continuitate și presiunea marilor puteri și a schimbărilor.
 
 ---
 

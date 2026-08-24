@@ -8,7 +8,7 @@ clasa: "a XIII-a"
 ---
 # Interpretarea graficelor și a tabelelor
 
-[[Geografie (clasa a XIII-a)|Geografie]] · [[Clasa a XIII-a]] · lecția 8 din 9
+[[Geografie (clasa a XIII-a)|Geografie]] · [[Clasa a XIII-a]] · lecția 8 din 20
 
 **Capitolul:** Bacalaureatul la geografie — semestrul 2
 

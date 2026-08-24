@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Substanțe pure și amestecuri
 
-[[Chimie (clasa a IX-a)|Chimie]] · [[Clasa a IX-a]] · lecția 4 din 9
+[[Chimie (clasa a IX-a)|Chimie]] · [[Clasa a IX-a]] · lecția 4 din 18
 
 **Capitolul:** Substanțe și soluții — semestrul 1
 

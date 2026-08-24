@@ -8,7 +8,7 @@ clasa: "a IX-a"
 ---
 # Viteza de reacție și chimia în viața de zi cu zi
 
-[[Chimie (clasa a IX-a)|Chimie]] · [[Clasa a IX-a]] · lecția 9 din 9
+[[Chimie (clasa a IX-a)|Chimie]] · [[Clasa a IX-a]] · lecția 9 din 18
 
 **Capitolul:** Reacții chimice — semestrul 2
 
@@ -29,6 +29,6 @@ Viteza unei reacții chimice arată cât de repede se consumă reactanții și s
 
 ---
 
-⬅ [[Acizi, baze, săruri]]
+⬅ [[Acizi, baze, săruri]] · [[Modele atomice și învelișul electronic]] ➡
 
 Exersează: [[Carduri - Chimie (clasa a IX-a)]] · [[Test - Chimie (clasa a IX-a)]]

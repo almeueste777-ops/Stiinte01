@@ -7,7 +7,7 @@ cssclasses: carduri
 ---
 # Carduri — Religie (clasa a XIII-a)
 
-36 carduri pentru [[Religie (clasa a XIII-a)|Religie (clasa a XIII-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
+72 carduri pentru [[Religie (clasa a XIII-a)|Religie (clasa a XIII-a)]]. Formatul `întrebare::răspuns` este cel folosit de pluginul *Spaced Repetition*; fără plugin rămân simple linii de recapitulare.
 
 #flashcards/religie
 
@@ -80,6 +80,78 @@ Ce rămâne durabil din educația religioasă?::Capacitatea de a pune întrebăr
 De ce e importantă cunoașterea propriei tradiții?::Pentru că fără ea nu se înțeleg nici cultura proprie, nici cea europeană.
 
 Ce înlocuiește disprețul reciproc între cei care cred diferit?::Respectul și capacitatea de dialog.
+
+În ce se măsoară, în cele din urmă, credința?::În felul în care cineva își trăiește viața cu ceilalți.
+
+Cum a fost organizată, veacuri de-a rândul, viața bisericească a românilor?::În mitropolii.
+
+Când a fost recunoscută Mitropolia Ungrovlahiei?::În anul 1359.
+
+Ce rol au avut mitropoliile în lipsa unui stat unic?::Un factor de unitate: aceeași credință, limbă de cult și legături între țările românești.
+
+Ce a fost adesea Biserica, în vremuri grele?::Singura instituție proprie a românilor.
+
+Ce a tipărit mitropolitul Varlaam în 1643?::Cazania, „Cartea românească de învățătură”.
+
+Ce a realizat mitropolitul Dosoftei în 1673?::A versificat Psaltirea, primul text poetic amplu în română.
+
+Cine a fost Antim Ivireanul?::Mitropolit al Țării Românești, mare tipograf și autor de Didahii, martirizat în 1716.
+
+Ce au arătat acești ierarhi?::Că slujirea lui Dumnezeu și slujirea culturii merg împreună.
+
+Când a primit Biserica Ortodoxă Română autocefalia?::În anul 1885.
+
+Când a fost ridicată la rang de Patriarhie și cine a fost primul patriarh?::În 1925, cu patriarhul Miron Cristea.
+
+Ce s-a întâmplat cu credința în regimul comunist?::A fost prigonită; mulți au fost închiși, iar Biserica Greco-Catolică a fost interzisă în 1948.
+
+Ce a urmat după 1989?::Libertatea religioasă, cu redeschiderea bisericilor și cu provocările lumii de azi.
+
+Ce sfânt domnitor al Moldovei a fost canonizat în 1992?::Sfântul Ștefan cel Mare.
+
+Ce au ales Sfinții Martiri Brâncoveni?::Moartea în locul lepădării de credință.
+
+Unde se află moaștele Sfintei Cuvioase Parascheva?::La Catedrala Mitropolitană din Iași.
+
+Este cinstirea moaștelor adorare?::Nu; adorarea se cuvine numai lui Dumnezeu.
+
+Ce au fost mănăstirile în istoria românilor?::Vetre de rugăciune, de cultură și de artă.
+
+A cui ctitorie este Mănăstirea Putna?::A Sfântului Ștefan cel Mare, care este înmormântat acolo.
+
+Pentru ce sunt vestite mănăstirile din nordul Moldovei?::Pentru pictura exterioară; sunt în patrimoniul mondial UNESCO.
+
+Ce sens are pelerinajul?::Un sens duhovnicesc, de căutare și de întâlnire, nu de turism.
+
+Care este cel mai însemnat praznic creștin?::Paștile, Învierea Domnului.
+
+Când se prăznuiește Nașterea Domnului și când Boboteaza?::Nașterea la 25 decembrie, Boboteaza la 6 ianuarie.
+
+Ce deosebire este utilă la sărbători?::Cea dintre credință și folclor.
+
+Ce transmite tradiția liturgică?::Învățătura de credință într-o formă vie, trăită, din generație în generație.
+
+Este conflictul dintre credință și știință o constatare istorică?::Nu; este o construcție intelectuală târzie.
+
+La ce întrebări răspund știința și credința?::Știința la „cum”, credința la „de ce” și „ce sens are”.
+
+Care sunt cele două erori simetrice?::Fundamentalismul și scientismul.
+
+De ce este utilă alfabetizarea religioasă?::Pentru că multe opere de cultură au teme creștine.
+
+Ce stă la temelia poziției creștine în bioetică?::Demnitatea persoanei, creată după chipul lui Dumnezeu.
+
+Ce distincție este esențială la sfârșitul vieții?::Cea dintre eutanasie și renunțarea la tratamente disproporționate.
+
+Ce este îngrijirea paliativă?::Îngrijirea care combate durerea și însoțește bolnavul terminal.
+
+Cum sunt privite donarea de organe și de sânge?::Ca acte de iubire față de aproapele.
+
+Care este întrebarea cea mai importantă la capătul școlii?::Nu cât s-a memorat, ci ce rămâne folositor pentru viață.
+
+Ce aduce cu ea libertatea?::Responsabilitatea folosirii ei.
+
+Cum se descoperă sensul vieții?::Prin alegeri, prin felul de a-i trata pe ceilalți, prin ceea ce slujim.
 
 În ce se măsoară, în cele din urmă, credința?::În felul în care cineva își trăiește viața cu ceilalți.
 

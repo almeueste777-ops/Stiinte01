@@ -8,7 +8,7 @@ clasa: "a X-a"
 ---
 # Evangheliile — izvor și mărturie
 
-[[Religie (clasa a X-a)|Religie]] · [[Clasa a X-a]] · lecția 1 din 9
+[[Religie (clasa a X-a)|Religie]] · [[Clasa a X-a]] · lecția 1 din 18
 
 **Capitolul:** Iisus Hristos în Evanghelii — semestrul 1
 

@@ -8,7 +8,7 @@ clasa: "a XII-a"
 ---
 # Bioetica
 
-[[Religie (clasa a XII-a)|Religie]] · [[Clasa a XII-a]] · lecția 8 din 9
+[[Religie (clasa a XII-a)|Religie]] · [[Clasa a XII-a]] · lecția 8 din 18
 
 **Capitolul:** Responsabilitate socială și bioetică — semestrul 2
 
