@@ -1377,17 +1377,17 @@ cssclasses: test
 > 
 > Ea descrie întâlnirea dintre orizontul textului și cel al cititorului.
 
-### 115. Intenționalitatea, în fenomenologie, înseamnă că:
+### 115. Termenul „Dasein” (ființarea-aici) aparține lui:
 
-- a. orice conștiință este conștiință a ceva
-- b. omul are întotdeauna intenții
-- c. sensul e voit
-- d. conștiința e liberă
+- a. Heidegger
+- b. Descartes
+- c. Hume
+- d. Comte
 
 > [!success]- Răspuns
-> **a. orice conștiință este conștiință a ceva**
+> **a. Heidegger**
 > 
-> Conceptul este central la Husserl.
+> Este central în „Ființă și timp”.
 
 ### 116. Jocurile de limbaj aparțin lui:
 

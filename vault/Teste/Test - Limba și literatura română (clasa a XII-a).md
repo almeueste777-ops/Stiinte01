@@ -1365,17 +1365,17 @@ cssclasses: test
 > 
 > A apărut în 1969.
 
-### 114. În „Leoaică tânără, iubirea”, iubirea este înfățișată ca:
+### 114. Neomodernismul românesc se afirmă mai ales în:
 
-- a. agresiune care reorganizează percepția
-- b. amintire nostalgică
-- c. meditație abstractă
-- d. stare de calm
+- a. anii '60
+- b. perioada interbelică
+- c. secolul al XIX-lea
+- d. anii 2000
 
 > [!success]- Răspuns
-> **a. agresiune care reorganizează percepția**
+> **a. anii '60**
 > 
-> Simțurile își schimbă locurile după atac.
+> Prin poeți ca Nichita Stănescu și Marin Sorescu.
 
 ### 115. Generația '80 s-a format în:
 

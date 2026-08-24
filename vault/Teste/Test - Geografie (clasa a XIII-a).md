@@ -1065,17 +1065,17 @@ cssclasses: test
 > 
 > Activitatea vulcanică oferă acest avantaj.
 
-### 89. Cea mai mare economie a Europei este:
+### 89. Cel mai lung fluviu al Europei este:
 
-- a. Germania
-- b. Franța
-- c. Regatul Unit
-- d. Italia
+- a. Volga
+- b. Dunărea
+- c. Rinul
+- d. Tamisa
 
 > [!success]- Răspuns
-> **a. Germania**
+> **a. Volga**
 > 
-> Industria auto este una dintre ramurile ei de vârf.
+> Se varsă în Marea Caspică.
 
 ### 90. Munții hercinici sunt:
 
@@ -1125,17 +1125,17 @@ cssclasses: test
 > 
 > Franța include și teritoriile de peste mări.
 
-### 94. Contrastul nord–sud este structural în:
+### 94. Cel mai înalt vârf din Munții Alpi este:
 
-- a. Italia
-- b. Germania
-- c. Polonia
-- d. Suedia
+- a. Mont Blanc
+- b. vârful Elbrus
+- c. vârful Mulhacén
+- d. vârful Gerlachovský
 
 > [!success]- Răspuns
-> **a. Italia**
+> **a. Mont Blanc**
 > 
-> Nordul industrializat contrastează cu sudul.
+> Situat la granița Franței cu Italia.
 
 ### 95. Spania este organizată administrativ în:
 
@@ -1353,17 +1353,17 @@ cssclasses: test
 > 
 > Este o capcană frecventă în interpretarea datelor.
 
-### 113. Densitatea populației se calculează:
+### 113. Bilanțul natural al populației reprezintă:
 
-- a. împărțind numărul de locuitori la suprafață
-- b. împărțind suprafața la populație
-- c. înmulțind populația cu suprafața
-- d. scăzând mortalitatea din natalitate
+- a. diferența dintre natalitate și mortalitate
+- b. suma imigranților sosiți
+- c. numărul total de locuitori
+- d. densitatea pe kilometru pătrat
 
 > [!success]- Răspuns
-> **a. împărțind numărul de locuitori la suprafață**
+> **a. diferența dintre natalitate și mortalitate**
 > 
-> Rezultatul se exprimă în locuitori pe km².
+> Poate fi pozitiv sau negativ.
 
 ### 114. Un rezultat corect, dar fără unitate de măsură:
 
