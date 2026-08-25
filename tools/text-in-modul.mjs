@@ -31,6 +31,15 @@
      %% teza 1                                       ← teza semestrului 1
      ? …  - …  + …  ! …
 
+     [cronologie] Titlu opțional                     ← vizual: cronologie (max 2/lecție)
+     ~ 1475 :: Ștefan cel Mare învinge la Vaslui     ← pas: an :: text
+     [schema] Titlu opțional                         ← vizual: schemă de blocuri
+     ~ Substrat geto-dac :: ~160 de cuvinte          ← bloc: etichetă :: text (opțional)
+     > 0-3, 1-3, 2-3                                  ← legături între blocuri (indici 0-based)
+
+   Un vizual („~” dintr-un bloc [cronologie]/[schema]) ține până la prima altă
+   directivă. Se compilează în câmpul `vizual` al lecției (listă de cel mult 2).
+
    Rulare:  node tools/text-in-modul.mjs [fisier.txt ...]
    Fără argumente convertește tot folderul `data/sursa`.
 */
@@ -72,6 +81,7 @@ function converteste(cale) {
   const m = { id, capitole: [], teze: [] };
   let capitol = null, lectie = null, teza = null;
   let intrebare = null, rezumat = [], paragraf = [];
+  let vizual = null;                   // blocul [cronologie]/[schema] deschis
   let inAntet = true;
 
   const gata = (nr) => {               // închide întrebarea curentă
@@ -121,14 +131,14 @@ function converteste(cale) {
     }
 
     if (t.startsWith('%%')) {                       // teză
-      gata(nr); gataLectie(); lectie = null;
+      gata(nr); gataLectie(); lectie = null; vizual = null;
       const s = Number(t.replace(/^%%\s*teza\s*/i, ''));
       teza = { semestru: s, test: [] };
       m.teze.push(teza);
       return;
     }
     if (t.startsWith('###')) {                      // lecție
-      gata(nr); gataLectie(); teza = null;
+      gata(nr); gataLectie(); teza = null; vizual = null;
       const p = t.slice(3).split('|').map(x => x.trim());
       lectie = { id: p[0], titlu: p[1], rezumat: '', ideiCheie: [], termeni: [], carduri: [], test: [] };
       if (!capitol) { console.error(`${cale}:${nr}: lecție în afara unui capitol`); erori++; return; }
@@ -136,16 +146,61 @@ function converteste(cale) {
       return;
     }
     if (t.startsWith('##')) {                       // capitol
-      gata(nr); gataLectie(); lectie = null; teza = null;
+      gata(nr); gataLectie(); lectie = null; teza = null; vizual = null;
       const p = t.slice(2).split('|').map(x => x.trim());
       capitol = { id: p[1], titlu: p[2], semestru: Number(p[0]), lectii: [] };
       m.capitole.push(capitol);
       return;
     }
 
+    const vh = t.match(/^\[(cronologie|schema)\]\s*(.*)$/);
+    if (vh) {                                       // vizual: [cronologie] / [schema]
+      gata(nr); gataParagraf();
+      if (!cereLectie(nr, `vizual [${vh[1]}]`)) return;
+      if (!Array.isArray(lectie.vizual)) lectie.vizual = [];
+      vizual = { tip: vh[1] };
+      const titlu = vh[2].trim();
+      if (titlu) vizual.titlu = titlu;
+      if (vh[1] === 'cronologie') vizual.pasi = []; else vizual.blocuri = [];
+      lectie.vizual.push(vizual);
+      return;
+    }
+
     if (!t) { gataParagraf(); return; }
 
     const corp = t.slice(1).trim();
+    /* Elementele de vizual („~” pas/bloc, „>” legături) au nevoie de blocul
+       [cronologie]/[schema] deschis; le tratăm ÎNAINTE de a-l închide. Orice
+       altă directivă (mai jos) închide blocul: `vizual = null`. */
+    if (t[0] === '~') {
+      gata(nr); gataParagraf();
+      if (!cereLectie(nr, 'element de vizual (~)')) return;
+      if (!vizual) { console.error(`${cale}:${nr}: „~” în afara unui bloc [cronologie]/[schema]`); erori++; return; }
+      const [a, b] = corp.split('::').map(x => (x || '').trim());
+      if (vizual.tip === 'cronologie') {
+        if (!a || !b) { console.error(`${cale}:${nr}: pasul cronologiei cere „an :: text”`); erori++; return; }
+        vizual.pasi.push({ an: a, text: b });
+      } else {
+        if (!a) { console.error(`${cale}:${nr}: blocul schemei cere o etichetă`); erori++; return; }
+        const bloc = { eticheta: a };
+        if (b) bloc.text = b;
+        vizual.blocuri.push(bloc);
+      }
+      return;
+    }
+    if (t[0] === '>') {
+      gata(nr); gataParagraf();
+      if (!vizual || vizual.tip !== 'schema') { console.error(`${cale}:${nr}: „>” (legături) în afara unei scheme`); erori++; return; }
+      const leg = [];
+      for (const p of corp.split(',').map(s => s.trim()).filter(Boolean)) {
+        const par = p.split('-').map(x => Number(x.trim()));
+        if (par.length !== 2 || !par.every(Number.isInteger)) { console.error(`${cale}:${nr}: legătură invalidă „${p}” (aștept „i-j”)`); erori++; continue; }
+        leg.push(par);
+      }
+      if (leg.length) vizual.legaturi = (vizual.legaturi || []).concat(leg);
+      return;
+    }
+    vizual = null;
     switch (t[0]) {
       case '*':
         gata(nr); gataParagraf();

@@ -57,7 +57,7 @@ Concluzie: nu e nimic de reparat. Ce urmează **adaugă** valoare, în etosul ze
 |---|---|---|---|---|
 | **T1** | Plasă de siguranță: teste comportamentale (`node --test`) | 5 | mic | ✅ Făcut (2026-08-25) — 32 de teste, `app.js` neatins |
 | **T2** | „Raportează o greșeală" pe lecție și pe întrebare | 1 | mic | TODO |
-| **T3** | ⭐ Imagini explicative la lecție (max 2/lecție) | 4 | epic | TODO — **prioritate cerută de utilizator** |
+| **T3** | ⭐ Imagini explicative la lecție (max 2/lecție) | 4 | epic | **T3.0 ✅ făcut** (sistem+pipeline+pilot istorie-9, 2026-08-25); roll-out T3.1+ TODO |
 | **T4** | Moduri de examen în format bac + pregătire/countdown | 2 | mediu | TODO |
 | **T5** | Verificarea conținutului vs. programă + subiecte reale | 1 | mare/continuu | TODO |
 | **T6** | Backup fără fricțiune + rezistență la cotă / IndexedDB | 3 | mediu | TODO |
@@ -101,7 +101,7 @@ existente; bateria + `verificator-cod` + `verificator-ui` verzi; `CACHE` + `?v=`
 **Scop.** Fiecare lecție primește **până la două** vizuale explicative (cronologie, schemă, hartă,
 proces) care ajută înțelegerea. Cerere explicită a utilizatorului.
 
-> [!warning] Decizie de design — de confirmat la preluare
+> [!success] Decizie de design — confirmată (T3.0, 2026-08-25): **SVG inline, NU raster**
 > Recomandarea fermă: **SVG inline, NU imagini raster.** Motive:
 > 1. etosul **zero-asset / zero-build / offline** — 1152 lecții × 2 rastere ar umfla precache-ul și
 >    ar cere surse + licențe;
@@ -111,7 +111,8 @@ proces) care ajută înțelegerea. Cerere explicită a utilizatorului.
 > 4. se **generează din pipeline-ul de conținut**, ca restul materialului.
 >
 > Rasterul (PNG/foto) contrazice arhitectura și offline-ul — de evitat fără un motiv foarte puternic.
-> **Întrebare de rezolvat la preluare:** accepți „imagine = schemă/diagramă SVG desenată"? (Recomand: da.)
+> **Rezolvat (T3.0):** „imagine = schemă/diagramă SVG desenată" — implementat cu `cronologie` și `schema`,
+> temabile prin tokeni, fără hex fix, fără overflow la 320px.
 
 **Domeniu / pipeline.**
 - sintaxă nouă în DSL (`data/sursa/*.txt`) pentru un vizual (`tip` + date), compilată de
@@ -123,12 +124,16 @@ proces) care ajută înțelegerea. Cerere explicită a utilizatorului.
 - opțional, vizualele și în notele din vault (via `tools/graphify.py`).
 
 **Fazare — câte o sub-fază pe sesiune:**
-- **T3.0 — Sistem + pipeline + pilot ⟵ punct de intrare.** Definește 2–3 tipuri de vizual (ex.
-  cronologie, schemă-bloc, hartă simplă), implementează DSL→JSON→randare→stil→lint, și livrează pe un
-  **modul-pilot mic** (ex. `logica-9` sau `istorie-9`), cap-coadă, verificat integral. Demonstrează
-  abordarea înainte de scară.
-- **T3.1…n — Roll-out.** Câte un modul/materie pe sesiune, **disciplinele de BAC întâi**, fiecare
-  complet + **aditiv** (nimic vechi nu se schimbă) + verificat, exact ca la v07.
+- **T3.0 — Sistem + pipeline + pilot ✅ FĂCUT (2026-08-25).** Livrat: **2 tipuri** de vizual
+  (`cronologie`, `schema`) — nu 3, ca să bounde scopul; DSL nou (`[cronologie]`/`[schema]` + `~`/`>`)
+  compilat în câmpul `vizual` (listă de ≤2); randare SVG inline în `viewLectie` (tot textul prin
+  `esc()`, `role="img"`+`aria-label`+`title`/`desc`, temabil prin tokeni, zero overflow la 320px);
+  stil în `app.css` §18d; regulă de lint în `verifica-continut.mjs`. Pilot **aditiv** pe `istorie-9`:
+  o schemă (etnogeneza, `ist9-06`) și o cronologie (lupta antiotomană, `ist9-11`). Bateria + `test-sw`
+  + verificare UI proprie (42 combinații ecran×temă) verzi; `CACHE` v12, `?v=11`, `versiuni.json` v08.
+- **T3.1…n — Roll-out (URMĂTORUL).** Câte un modul/materie pe sesiune, **disciplinele de BAC întâi**,
+  fiecare complet + **aditiv** (nimic vechi nu se schimbă) + verificat, exact ca la v07. Reutilizează
+  întreg pipeline-ul din T3.0 — se scrie doar conținut (blocuri `[cronologie]`/`[schema]` în surse).
 
 **Gata impecabil (T3.0).** Pipeline funcțional; pilot cu ≤2 vizuale/lecție; SVG temabil pe
 luminos/întunecat/contrast fără overflow la 320–1440px + peisaj; accesibil (aria/title); bateria +
@@ -176,7 +181,10 @@ Alegere de poziționare, nu de inginerie — de decis de utilizator, nu de porni
 ## Următorul task
 
 - ✅ **T1 — făcut** (2026-08-25): plasa de teste comportamentale e în CI; `app.js` neatins.
-- **Recomandat acum:** **T3.0** (sistemul + pipeline-ul + pilotul pentru imaginile explicative) — prioritatea ta declarată.
+- ✅ **T3.0 — făcut** (2026-08-25): sistemul + pipeline-ul + pilotul (istorie-9) pentru imaginile
+  explicative. Epicul **T3 rămâne deschis** — urmează roll-out-ul.
+- **Recomandat acum:** **T3.1** — roll-out pe prima materie de BAC (o materie-an pe sesiune, aditiv,
+  reutilizând pipeline-ul din T3.0). Pipeline-ul e gata; e nevoie doar de conținut vizual în surse.
 - Alternativă ieftină: **T2** („Raportează o greșeală").
 
 La începutul sesiunii următoare, ia **unul** dintre ele (sau cel pe care îl ceri tu), și du-l la capăt

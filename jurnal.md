@@ -1333,3 +1333,106 @@ din app.js)", imediat după verificarea de sintaxă: `node --test tools/test-com
 pe `app.js`/`sw.js`, `verifica-css.mjs`, `verifica_vault.py` (1388 note, 0 rupte, 0 orfane),
 `node --test` 32/32. `git status`: **doar** fișierul nou de teste + editarea workflow-ului; niciun
 fișier publicat atins.
+
+## 2026-08-25 — T3.0, „Imagini explicative: sistem + pipeline + pilot istorie-9"
+
+Punctul de intrare al epicului **T3** (vizuale explicative la lecție, cf. [[Strategie și foaie de
+parcurs]]). Scop deliberat **minimal**, ca să nu explodeze scopul: se construiește capacitatea
+cap-coadă (DSL → JSON → randare → stil → lint) și se **demonstrează pe un singur modul-pilot** cu
+**exact 2 vizuale**. Roll-out-ul (T3.1+) e altă poveste, o materie pe sesiune.
+
+**Decizia de design (confirmată): SVG inline, nu raster.** Motivele din foaia de parcurs țin —
+zero-asset/offline, minuscul (text), se scalează perfect la 320px și, esențial, **se temează singur**
+prin `currentColor` + tokenii din `app.css` (luminos / întunecat / contrast ridicat). Un raster n-ar
+putea niciunul dintre acestea.
+
+**Două tipuri, atât (bounding scope).**
+- `cronologie` — repere pe o linie verticală: `{tip, titlu?, pasi:[{an, text}]}`.
+- `schema` — blocuri etichetate legate cu săgeți: `{tip, titlu?, blocuri:[{eticheta, text?}], legaturi?:[[i,j]]}`.
+
+**DSL (în `data/sursa/*.txt`, compilat de `tools/text-in-modul.mjs`).** Un bloc începe cu antetul
+`[cronologie]`/`[schema]` (titlu opțional pe aceeași linie), urmat de elemente `~` și, la schemă, o
+linie de legături `>`. Blocul ține până la prima altă directivă. Exemplu:
+
+```
+[cronologie] Lupta antiotomană a Țărilor Române
+~ 1475 :: Ștefan cel Mare învinge la Vaslui (Podul Înalt)
+[schema] Formarea limbii și a poporului român
+~ Substrat geto-dac :: circa 160 de cuvinte și toponime
+> 0-3, 1-3, 2-3
+```
+
+Compilatorul le adună în câmpul nou `vizual` al lecției (**listă de cel mult 2**). Markerele `[`, `~`,
+`>` nu existau în DSL, deci nu intră în coliziune cu conținutul vechi. Elementele `~`/`>` se tratează
+înainte de a închide blocul; orice altă directivă îl închide (`vizual = null`). Recompilarea sursei
+**fără** nicio schimbare produce bytes identici cu înainte (schimbarea de compilator e neutrală la
+serializare — verificat cu `diff`).
+
+**Randare (`assets/app.js`, `viewLectie`).** Funcțiile `svgCronologie` / `svgSchema` / `vizualeHTML`
+construiesc SVG-ul și îl injectează **după rezumat, înainte de „Idei-cheie"**. Reguli respectate:
+- **XSS.** Tot textul dinamic — inclusiv `aria-label`, `<title>`, `<desc>` — trece prin `esc()`.
+  Nicio interpolare neescapată (regula de aur a proiectului, lăudată la audit).
+- **Accesibilitate.** `<svg role="img">` cu `aria-label` rezumativ + `<title>`/`<desc>`; internele nu
+  sunt citite separat de cititoarele de ecran.
+- **Fără overflow.** Textul se rupe în **pipeline** (`vizRupe`, greedy pe cuvinte, cu tăiere dură
+  pentru un cuvânt mai lung decât linia), nu de browser — deci nimic nu depășește `viewBox`-ul (lat
+  de 300 de unități), iar SVG-ul are `max-width:100%; height:auto`. Zero derulare orizontală, garantat.
+- **Teme.** Culorile ies exclusiv din tokeni (`--ink`, `--brand`, `--accent`, `--surface-sunken`,
+  `--hairline`); **niciun hex fix**. Un marker de săgeată cu `id` unic per vizual (`vz-sg-N`), ca două
+  scheme pe aceeași lecție să nu împartă `id`.
+
+Schema stivuiește blocurile pe verticală; legăturile adiacente sunt săgeți drepte, cele neadiacente
+se rutează pe o **șină în marginea dreaptă** — suficient pentru tiparul „mai multe surse converg în
+rezultat" (etnogeneza), fără motor de layout de graf.
+
+**Stil (`assets/app.css`, secțiune nouă §18d).** Bloc mic, comentat, cu tokeni; `.vizual` resetează
+marginea implicită de `<figure>`; `.vizual-svg{max-width:440px;margin-inline:auto}` (centrat pe
+coloana lată de desktop, ca textul să nu se umfle). Override de contrast ridicat: liniile fine devin
+cerneală, ca restul UI-ului.
+
+**Lint (`tools/verifica-continut.mjs`).** Regulă nouă: `≤2 vizuale/lecție`, doar tipurile implementate,
+câmpuri obligatorii prezente și nevide, legături cu indici în interval — **orice vizual stricat =
+eroare de validare**. Dovadă empirică că regula chiar declanșează: pe o copie a `istorie-9` cu
+vizuale malformate (tip necunoscut, schemă cu 1 bloc, 3 vizuale) validatorul a raportat exact acele
+3 erori; pe conținutul bun, `OK`.
+
+**Pilotul: `istorie-9` (Istorie, cl. a IX-a), pur aditiv.**
+- `ist9-06` „Etnogeneza românească și romanitatea" → **schemă**: substrat geto-dac + strat latin +
+  adstrat slav → limba și poporul român (legături `[[0,3],[1,3],[2,3]]`).
+- `ist9-11` „Domnii și lupta antiotomană" → **cronologie**: Nicopole 1396, Belgrad 1456, Târgoviște
+  1462, Vaslui 1475, unirea 1600.
+
+**Aditivitate garantată mecanic.** Comparat modulul recompilat cu snapshotul dinainte: cele 24 de
+lecții și cele 2 teze sunt neschimbate; **singura** diferență este câte o cheie `vizual` nouă la
+`ist9-06` și `ist9-11` (66 de inserții, 0 ștergeri la nivel de `git`). Antetul și structura
+capitolelor — identice.
+
+**Versionare.** S-au atins fișiere publicate (JS/CSS/HTML + modul + index de conținut):
+- `sw.js`: `CACHE` v11 → **v12**; lista `MODULE` neatinsă (id-uri de fișier neschimbate).
+- `?v=` din `index.html` + `SHELL`: 10 → **12** (s-au schimbat `app.css`/`app.js`; ridicat direct la
+  `N` = numărul CACHE, cf. regulii #4 — asta resincronizează și checkul CI `CACHE ↔ ?v=`, care cerea
+  `?v == CACHE` și rămăsese roșu de la release-ul doar-date v07).
+- `data/versiuni.json`: intrare nouă **v08 „Imagini explicative"** (cache 12), scrisă pentru elev;
+  `curenta` → „08".
+- `data/continut.json`: **neschimbat** — vizualele nu intră în index (nu schimbă titluri/contoare),
+  deci regenerarea nu produce nicio diferență (index deja sincronizat).
+
+**Verificare (toată bateria verde).** JSON valid (`data/*.json` + manifest); `node --check`
+`app.js`/`sw.js`; `verifica-css`; `verifica-continut` (60 module, 1152 lecții); `verifica_vault`
+(1388 note, 0 rupte, 0 orfane); `node --test` **32/32** (suita T1 neatinsă — funcțiile de vizual sunt
+interne, necaptate). `test-sw.mjs` cu SW activ: **exact o reîncărcare** la trecerea pe v12, 60 de
+carduri, **zero erori JS**. Verificare UI proprie (Playwright, headless): cele 2 lecții-pilot × 6
+lățimi (320/360/390/768/1024/1440) + peisaj 844×390 × 3 teme (luminos/întunecat/contrast) = 42 de
+combinații — **zero derulare orizontală**, SVG randat și încadrat în coloană peste tot; capturi
+confirmă lizibilitatea în ambele teme. `git status`: doar fișierele așteptate.
+
+**Echipa de verificare (independentă) + corecții.** `verificator-cod`: **CURAT** — a reprodus empiric
+escaparea (payload-uri XSS neutralizate în titlu/an/etichetă/`aria-label`), aditivitatea (recompilarea
+sursei vechi dă modul byte-identic), parserul care cade zgomotos la malformări și declanșarea lintului.
+`verificator-ui`: **CURAT** — zero derulare orizontală / tăiere / ținte sub 44px pe 56 de combinații
+(7 lățimi × 4 teme), cu două observații cosmetice, ambele corectate și **reverificate**:
+**C1** — linia cronologiei era aproape invizibilă pe tema întunecată normală (`--hairline`, ~1,24:1) →
+trecută pe `--ink-faint` (~3,5:1), vizibilă pe ambele teme; overrideul de contrast ridicat rămâne.
+**C2** — anii cronologiei nu primeau albastrul de brand din cauza specificității (`.vizual-svg text`
+bătea `.vz-an`) → regula ridicată la `.vizual-svg .vz-an`. Tot atunci am corectat **`?v=` 11 → 12**
+(vezi Versionare) — constatare `verificator-cod`: altfel checkul CI `CACHE ↔ ?v=` rămânea roșu.
