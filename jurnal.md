@@ -1287,3 +1287,49 @@ aditivitatea se păstrează. Detector propriu pe toate cele 60 de module: **0 pe
 corecție; aditivitatea reconfirmată (580 vechi neschimbate). În plus, am **întărit validatorul**:
 `verifica-continut.mjs` respinge acum enunțurile de teză identice (clasa de defect, nu doar
 instanța), regulă care ar fi prins problema în CI. Nota de rulare: [[Jurnal 2026-08-24 — Mai multe lecții v07]].
+
+## 2026-08-25 — T1, „Plasă de siguranță: teste comportamentale"
+
+**De ce.** CI-ul verifica structură și sintaxă (JSON valid, `node --check`, acolade CSS), dar nu
+*comportament*. Un refactor putea rescrie tăcut morfologia răspunsurilor sau programarea eșalonată cu
+toate verificările verzi. T1 din foaia de parcurs închide gaura, în etosul proiectului: **zero
+dependențe, zero build** — doar `node --test` din Node.
+
+**Cum, fără să atingem fișierul livrat.** `app.js` e un IIFE fără exporturi. Modificarea lui ar fi
+cerut bump de `CACHE` + `?v=` + reverificare UI — cost pe care T1 nu-l justifică. Soluția e un
+**shim de test** în `tools/test-comportament.mjs`: fișierul citește `assets/app.js` ca text, îi pune
+la dispoziție un DOM minim (stub prin `node:vm`) și, chiar înainte de `})();`, injectează **o
+singură linie** care predă funcțiile deja definite unei funcții-capcană din gazdă. Rulează astfel
+**exact codul livrat**, nu o copie rescrisă de mână, iar `app.js` de pe disc rămâne **neatins, octet
+cu octet**. Prin urmare: **fără bump de `CACHE`/`?v=`**, fără intrare în `versiuni.json` (nimic nu se
+schimbă pentru elev — e o plasă internă de inginerie).
+
+**Ce acoperă (32 de teste, în ordinea riscului din foaia de parcurs).**
+- `normaliz` / `distanta` / `faraArticol` / `raspunsPotrivit` — morfologia românească: ambele forme
+  de „ț" (virgulă și cedilă) → aceeași normalizare; toleranța de o literă doar la cuvinte ≥5;
+  forma articulată acceptată în ambele sensuri; răspuns gol niciodată corect; plus o **limită
+  cunoscută** documentată (articolul se scoate doar de pe ultimul cuvânt → „statul de drept" ≠
+  „stat de drept").
+- `programeaza` (SM-2 simplificat) — intervale 1/2/3, ușurința mărginită la [130, 280], intervalul la
+  365 de zile, răspunsul greșit care resetează și readuce elementul în aceeași sesiune, scrierea
+  înapoi în stare.
+- `sanitizeaza` — intrare non-obiect → stare goală validă; filtrarea element-cu-element a lui `antren`
+  (bug-ul istoric „n.toFixed is not a function"); `note` cu `n` numeric obligatoriu (nota 0 se
+  păstrează, `null` se aruncă); `activ` doar cu chei-dată; migrarea v05→v06 din `zile`; insignele
+  sădite vs. nesădite; `data-tema=banana` → implicit.
+- `pct` — procent rotunjit și garda `Math.max(1, b)` care ține scorul unui test gol la 0, nu la NaN.
+
+**Dovada că nu-s vacue.** Patru bug-uri injectate în **copii** din scratchpad (niciodată în `app.js`
+real), rulate prin `STIINTE_APP_JS=<copie> node --test`: garda `pct` scoasă → pică testul „NaN";
+plafonul de interval scos → pică „365 de zile"; ieșirea scurtă din `distanta` schimbată → pică
+„distanta"; regexul din `faraArticol` neutralizat → pică „faraArticol" + „forma articulată". Pe
+fișierul real: **32/32 verzi**. (`raspunsPotrivit` are o a doua cale de potrivire fuzzy, redundantă —
+un singur prag stricat nu o dărâmă; de aceea bug-ul-dovadă a țintit `distanta`/`faraArticol`.)
+
+**Cârlig în CI.** Pas nou în `.github/workflows/verificare.yml`, „Teste comportamentale (funcții pure
+din app.js)", imediat după verificarea de sintaxă: `node --test tools/test-comportament.mjs`.
+
+**Verificare.** Bateria locală integral verde: JSON valid (`data/*.json` + manifest), `node --check`
+pe `app.js`/`sw.js`, `verifica-css.mjs`, `verifica_vault.py` (1388 note, 0 rupte, 0 orfane),
+`node --test` 32/32. `git status`: **doar** fișierul nou de teste + editarea workflow-ului; niciun
+fișier publicat atins.
