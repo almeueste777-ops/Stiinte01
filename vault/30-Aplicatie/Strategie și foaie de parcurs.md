@@ -56,7 +56,7 @@ Concluzie: nu e nimic de reparat. Ce urmează **adaugă** valoare, în etosul ze
 | ID | Task | Pilon | Cost | Stare |
 |---|---|---|---|---|
 | **T1** | Plasă de siguranță: teste comportamentale (`node --test`) | 5 | mic | ✅ Făcut (2026-08-25) — 32 de teste, `app.js` neatins |
-| **T2** | „Raportează o greșeală" pe lecție și pe întrebare | 1 | mic | TODO |
+| **T2** | „Raportează o greșeală" pe lecție și pe întrebare | 1 | mic | ✅ Făcut (2026-08-25) — raport local pe lecție + pe întrebarea greșită, inclus în export; formular accesibil; fără e-mail/`mailto` |
 | **T3** | ⭐ Imagini explicative la lecție (max 2/lecție) | 4 | epic | **T3.0 ✅ făcut** (sistem+pipeline+pilot istorie-9, 2026-08-25); roll-out T3.1+ TODO |
 | **T4** | Moduri de examen în format bac + pregătire/countdown | 2 | mediu | TODO |
 | **T5** | Verificarea conținutului vs. programă + subiecte reale | 1 | mare/continuu | TODO |
@@ -183,9 +183,13 @@ Alegere de poziționare, nu de inginerie — de decis de utilizator, nu de porni
 - ✅ **T1 — făcut** (2026-08-25): plasa de teste comportamentale e în CI; `app.js` neatins.
 - ✅ **T3.0 — făcut** (2026-08-25): sistemul + pipeline-ul + pilotul (istorie-9) pentru imaginile
   explicative. Epicul **T3 rămâne deschis** — urmează roll-out-ul.
+- ✅ **T2 — făcut** (2026-08-25): „Raportează o greșeală" pe lecție și pe întrebarea greșită din test;
+  raport salvat local (`state.rapoarte`, sanitizat aditiv), inclus în copia completă + export dedicat,
+  gestionat din Setări; formular accesibil (focus/Esc/țintă ≥44px, tot prin `esc()`); **fără e-mail**.
+  Alimentează **T5** (are acum semnalări reale de la elevi de confruntat cu sursa oficială).
 - **Recomandat acum:** **T3.1** — roll-out pe prima materie de BAC (o materie-an pe sesiune, aditiv,
   reutilizând pipeline-ul din T3.0). Pipeline-ul e gata; e nevoie doar de conținut vizual în surse.
-- Alternativă ieftină: **T2** („Raportează o greșeală").
+- Alternativă: **T4** (moduri de examen în format bac) sau **T6** (backup fără fricțiune).
 
 La începutul sesiunii următoare, ia **unul** dintre ele (sau cel pe care îl ceri tu), și du-l la capăt
 impecabil înainte de orice altceva.

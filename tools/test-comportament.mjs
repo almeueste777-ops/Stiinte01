@@ -373,6 +373,28 @@ test('sanitizeaza — clasa și ultima: doar șiruri nevide', () => {
   assert.equal(A.sanitizeaza({ ultima: 123 }).ultima, '');
 });
 
+test('sanitizeaza — rapoarte (T2): absent → [], non-array → [], intrări stricate aruncate', () => {
+  // Aditiv: o copie veche fără câmp rămâne cu tabloul gol, nu cu undefined.
+  assert.deepEqual(simplu(A.sanitizeaza({}).rapoarte), []);
+  assert.deepEqual(simplu(A.sanitizeaza({ rapoarte: 'nu' }).rapoarte), []);
+  assert.deepEqual(simplu(A.sanitizeaza({ rapoarte: { 0: 1 } }).rapoarte), []);   // obiect ≠ tablou
+
+  const s = A.sanitizeaza({ rapoarte: [
+    { id: 'a1', tip: 'lectie', refId: 'ist9-06', motiv: 'fapt', nota: 'gresit', data: 123, context: 'Istorie · X' },
+    { tip: 'intrebare', refId: 'materie:istorie-9', motiv: 'raspuns', nota: '', context: 'Q' },  // fără id → sintetizat
+    { tip: 'altceva' },              // tip invalid → aruncat
+    null, 'x', 42, [],               // non-obiecte → aruncate
+    { id: 'b', tip: 'lectie', data: -5 }   // câmpuri lipsă → ''; data negativă → 0
+  ] });
+  assert.equal(s.rapoarte.length, 3);
+  assert.deepEqual(simplu(s.rapoarte[0]),
+    { id: 'a1', tip: 'lectie', refId: 'ist9-06', motiv: 'fapt', nota: 'gresit', data: 123, context: 'Istorie · X' });
+  assert.equal(s.rapoarte[1].tip, 'intrebare');
+  assert.ok(typeof s.rapoarte[1].id === 'string' && s.rapoarte[1].id.length > 0);  // id lipsă → generat
+  assert.deepEqual(simplu(s.rapoarte[2]),
+    { id: 'b', tip: 'lectie', refId: '', motiv: '', nota: '', data: 0, context: '' });
+});
+
 /* ═══ 4. Scorul testului: pct (folosit direct în rezultatTest) ═══ */
 
 test('pct — procent rotunjit', () => {

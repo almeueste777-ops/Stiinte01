@@ -1658,6 +1658,38 @@ button.cap-head:active{background:var(--hover-tint)}
 .ob-cap p{margin:0}
 .sheet.ob h2{margin:var(--sp-6) 0 var(--sp-4)}
 
+/* Raportează o greșeală (T2) — link discret (lecție + rezultatul testului) și
+   formularul din foaia modală. Totul prin tokeni, deci se temează singur;
+   ținta de atingere ≥44px pe fiecare control. */
+.rap-link{
+  display:inline-flex; align-items:center; gap:var(--sp-3);
+  min-height:44px; margin-top:var(--sp-4); padding:var(--sp-3) var(--sp-4);
+  border:0; background:none; color:var(--ink-muted);
+  font:inherit; font-size:var(--fs-250); font-weight:var(--fw-medium);
+  text-align:left; border-radius:var(--r-2);
+  cursor:pointer; -webkit-tap-highlight-color:transparent;
+}
+.rap-link:hover{color:var(--ink)}
+.rap-link:focus-visible{outline:none; box-shadow:var(--focus-ring)}
+.rap-link > svg{width:16px; height:16px; flex:none}
+
+.sheet.rap{max-height:86vh; overflow-y:auto}
+.sheet.rap h3{margin:0 0 var(--sp-3)}
+.rap-ctx{margin:0 0 var(--sp-5)}
+.rap-lbl{display:block; margin:var(--sp-5) 0 var(--sp-2); font-weight:var(--fw-semi)}
+.rap-select{
+  display:block; width:100%; min-height:48px;
+  margin-top:var(--sp-2); padding:var(--sp-4) var(--sp-5);
+  border:1px solid var(--glass-border); border-radius:var(--r-md);
+  font:inherit; color:var(--ink);
+  background:var(--surface-sunken); box-shadow:var(--nm-inset);
+}
+.rap-select:focus{outline:none; box-shadow:var(--nm-inset), var(--focus-ring)}
+.rap-nota{min-height:84px; margin-top:var(--sp-2)}
+
+/* Toast simplu de confirmare (text singur, centrat) — reia sticla toastului. */
+.toast-simplu{justify-content:center; text-align:center}
+
 /* ══════════════════════════════════════════════════════════════════════════
    STRAT 3 — MIȘCARE „iOS”
    Trebuie să rămână ULTIMUL bloc din fișier: suprascrie intenționat câteva
