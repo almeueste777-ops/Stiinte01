@@ -1319,7 +1319,7 @@ schimbă pentru elev — e o plasă internă de inginerie).
   sădite vs. nesădite; `data-tema=banana` → implicit.
 - `pct` — procent rotunjit și garda `Math.max(1, b)` care ține scorul unui test gol la 0, nu la NaN.
 
-**Dovada că nu-s vacue.** Cinci bug-uri injectate în **copii** din scratchpad (niciodată în `app.js`
+**Dovada că nu-s vacue.** Patru bug-uri injectate în **copii** din scratchpad (niciodată în `app.js`
 real), rulate prin `STIINTE_APP_JS=<copie> node --test`: garda `pct` scoasă → pică testul „NaN";
 plafonul de interval scos → pică „365 de zile"; ieșirea scurtă din `distanta` schimbată → pică
 „distanta"; regexul din `faraArticol` neutralizat → pică „faraArticol" + „forma articulată". Pe

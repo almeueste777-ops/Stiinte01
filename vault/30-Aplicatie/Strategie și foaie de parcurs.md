@@ -55,7 +55,7 @@ Concluzie: nu e nimic de reparat. Ce urmează **adaugă** valoare, în etosul ze
 
 | ID | Task | Pilon | Cost | Stare |
 |---|---|---|---|---|
-| **T1** | Plasă de siguranță: teste comportamentale (`node --test`) | 5 | mic | TODO ⟵ URMĂTORUL (recomandat) |
+| **T1** | Plasă de siguranță: teste comportamentale (`node --test`) | 5 | mic | ✅ Făcut (2026-08-25) — 32 de teste, `app.js` neatins |
 | **T2** | „Raportează o greșeală" pe lecție și pe întrebare | 1 | mic | TODO |
 | **T3** | ⭐ Imagini explicative la lecție (max 2/lecție) | 4 | epic | TODO — **prioritate cerută de utilizator** |
 | **T4** | Moduri de examen în format bac + pregătire/countdown | 2 | mediu | TODO |
@@ -175,8 +175,9 @@ Alegere de poziționare, nu de inginerie — de decis de utilizator, nu de porni
 
 ## Următorul task
 
-- **Recomandat de inginerie:** **T1** (ieftin, apără tot restul).
-- **Prioritatea ta declarată:** **T3.0** (sistemul + pipeline-ul + pilotul pentru imaginile explicative).
+- ✅ **T1 — făcut** (2026-08-25): plasa de teste comportamentale e în CI; `app.js` neatins.
+- **Recomandat acum:** **T3.0** (sistemul + pipeline-ul + pilotul pentru imaginile explicative) — prioritatea ta declarată.
+- Alternativă ieftină: **T2** („Raportează o greșeală").
 
 La începutul sesiunii următoare, ia **unul** dintre ele (sau cel pe care îl ceri tu), și du-l la capăt
 impecabil înainte de orice altceva.
