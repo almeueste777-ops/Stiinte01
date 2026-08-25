@@ -39,6 +39,41 @@ function verificaIntrebare(q, unde) {
   if (!text(q.explicatie, 10)) erori.push(`${unde}: explicație lipsă sau prea scurtă`);
 }
 
+/* Vizual explicativ (v08): cel mult 2/lecție, doar tipurile implementate, cu
+   câmpurile obligatorii prezente și nevide. Un vizual stricat = eroare de
+   validare (ar produce SVG gol sau ar sparge randarea). */
+const TIPURI_VIZUAL = new Set(['cronologie', 'schema']);
+function verificaVizual(v, unde) {
+  if (!v || typeof v !== 'object' || Array.isArray(v)) { erori.push(`${unde}: vizual invalid`); return; }
+  if (!TIPURI_VIZUAL.has(v.tip)) { erori.push(`${unde}: „tip” necunoscut (${v.tip})`); return; }
+  if (v.titlu !== undefined && !text(v.titlu, 3)) erori.push(`${unde}: titlu prea scurt`);
+  if (v.tip === 'cronologie') {
+    if (!Array.isArray(v.pasi) || v.pasi.length < 2) erori.push(`${unde}: cronologia cere cel puțin 2 pași`);
+    else v.pasi.forEach((p, i) => {
+      if (!p || typeof p !== 'object' || !text(p.an, 1) || !text(p.text, 3))
+        erori.push(`${unde} › pasul ${i + 1}: „an” și „text” sunt obligatorii`);
+    });
+  } else {                                   // schema
+    const nb = Array.isArray(v.blocuri) ? v.blocuri.length : 0;
+    if (nb < 2) erori.push(`${unde}: schema cere cel puțin 2 blocuri`);
+    else v.blocuri.forEach((b, i) => {
+      if (!b || typeof b !== 'object' || !text(b.eticheta, 2))
+        erori.push(`${unde} › blocul ${i + 1}: „eticheta” este obligatorie`);
+      else if (b.text !== undefined && !text(b.text, 2))
+        erori.push(`${unde} › blocul ${i + 1}: „text” prea scurt`);
+    });
+    if (v.legaturi !== undefined) {
+      if (!Array.isArray(v.legaturi)) erori.push(`${unde}: „legaturi” trebuie să fie o listă`);
+      else v.legaturi.forEach((par, i) => {
+        if (!Array.isArray(par) || par.length !== 2 || !par.every(Number.isInteger))
+          erori.push(`${unde} › legătura ${i + 1}: trebuie [i, j] cu numere întregi`);
+        else if (par[0] < 0 || par[1] < 0 || par[0] >= nb || par[1] >= nb || par[0] === par[1])
+          erori.push(`${unde} › legătura ${i + 1}: indici în afara blocurilor`);
+      });
+    }
+  }
+}
+
 const fisiere = readdirSync(DIR).filter(f => f.endsWith('.json')).sort();
 for (const f of fisiere) {
   let m;
@@ -90,6 +125,11 @@ for (const f of fisiere) {
       else if (l.carduri.some(c2 => !text(c2.f, 5) || !text(c2.v, 2))) erori.push(`${u}: card incomplet`);
       if (!Array.isArray(l.test) || l.test.length < 3) erori.push(`${u}: testul lecției are sub 3 întrebări`);
       else l.test.forEach((q, i) => verificaIntrebare(q, `${u} › întrebarea ${i + 1}`));
+      if (l.vizual !== undefined) {
+        if (!Array.isArray(l.vizual)) erori.push(`${u}: „vizual” trebuie să fie o listă`);
+        else if (l.vizual.length > 2) erori.push(`${u}: cel mult 2 vizuale pe lecție (are ${l.vizual.length})`);
+        else l.vizual.forEach((v, i) => verificaVizual(v, `${u} › vizualul ${i + 1}`));
+      }
     }
   }
 

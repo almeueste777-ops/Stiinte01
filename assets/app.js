@@ -1050,6 +1050,138 @@
     return i > -1 && i + 1 < sir.length ? sir[i + 1] : null;
   }
 
+  /* ═══ vizuale explicative (SVG inline, v08) ═════════════════════════
+     Un „vizual" e un mic SVG generat din conținut (cronologie sau schemă).
+     TOT textul dinamic trece prin esc() — inclusiv atributele aria/desc. SVG-ul
+     se temează singur prin clasele din app.css (tokeni), scalează prin viewBox
+     și nu iese din coloană: textul e RUPT aici (nu de browser), iar SVG-ul are
+     max-width:100%. viewBox lat de 300 unități; nimic desenat nu-l depășește. */
+  let vizSeq = 0;
+
+  /* Rupe un text în linii de cel mult `maxCh` caractere (grație pe cuvinte, cu
+     tăiere dură pentru un singur cuvânt mai lung decât linia). Determinist. */
+  function vizRupe(str, maxCh) {
+    const cuvinte = String(str == null ? '' : str).split(/\s+/).filter(Boolean);
+    const linii = [];
+    let cur = '';
+    for (const w of cuvinte) {
+      if (!cur) cur = w;
+      else if ((cur + ' ' + w).length <= maxCh) cur += ' ' + w;
+      else { linii.push(cur); cur = w; }
+    }
+    if (cur) linii.push(cur);
+    const out = [];
+    for (let ln of linii) {
+      while (ln.length > maxCh) { out.push(ln.slice(0, maxCh)); ln = ln.slice(maxCh); }
+      if (ln) out.push(ln);
+    }
+    return out.length ? out : [''];
+  }
+  const vizNr = x => Math.round(x * 10) / 10;
+
+  function svgCronologie(v) {
+    const W = 300, pad = 8, spineX = 15, dotR = 4.5, textX = 30, dr = 8;
+    const fs = 13, lh = 17, gap = 12;
+    const maxCh = Math.max(10, Math.floor((W - textX - dr) / (fs * 0.55)));
+    const pasi = Array.isArray(v.pasi) ? v.pasi : [];
+    let y = pad, body = '';
+    const puncte = [];
+    for (const p of pasi) {
+      const anBase = y + fs;
+      puncte.push(anBase - fs * 0.32);
+      body += `<text class="vz-an" x="${textX}" y="${vizNr(anBase)}">${esc(p.an)}</text>`;
+      y += lh;
+      const linii = vizRupe(p.text, maxCh);
+      const spans = linii.map((ln, k) => `<tspan x="${textX}" dy="${k ? lh : 0}">${esc(ln)}</tspan>`).join('');
+      body += `<text class="vz-text" x="${textX}" y="${vizNr(y + fs)}">${spans}</text>`;
+      y += linii.length * lh + gap;
+    }
+    if (pasi.length) y -= gap;
+    const H = Math.ceil(y + pad);
+    let deco = '';
+    if (puncte.length) {
+      deco += `<line class="vz-linie" x1="${spineX}" y1="${vizNr(puncte[0])}" x2="${spineX}" y2="${vizNr(puncte[puncte.length - 1])}"/>`;
+      deco += puncte.map(cy => `<circle class="vz-punct" cx="${spineX}" cy="${vizNr(cy)}" r="${dotR}"/>`).join('');
+    }
+    const ani = pasi.map(p => p.an);
+    const label = `Cronologie${v.titlu ? ': ' + v.titlu : ''}. ${pasi.length} repere` +
+      (ani.length ? `, între ${ani[0]} și ${ani[ani.length - 1]}` : '') + '.';
+    const desc = pasi.map(p => `${p.an}: ${p.text}`).join('. ');
+    return `<svg class="vizual-svg" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(label)}">`
+      + `<title>${esc(v.titlu || 'Cronologie')}</title><desc>${esc(desc)}</desc>${deco}${body}</svg>`;
+  }
+
+  function svgSchema(v, uid) {
+    const W = 300, pad = 8;
+    const blocuri = Array.isArray(v.blocuri) ? v.blocuri : [];
+    const legaturi = Array.isArray(v.legaturi) ? v.legaturi : [];
+    const fsLab = 13, fsTxt = 12, labLh = 17, txtLh = 15;
+    const padX = 10, padY = 8, gap = 20, railPas = 7;
+    const nonAdj = legaturi.filter(l => Array.isArray(l) && Math.abs(l[0] - l[1]) !== 1).length;
+    const boxL = 8, boxR = W - (nonAdj ? 8 + nonAdj * railPas : 8);
+    const boxW = boxR - boxL, cx = (boxL + boxR) / 2, innerW = boxW - 2 * padX;
+    const maxLab = Math.max(8, Math.floor(innerW / (fsLab * 0.6)));
+    const maxTxt = Math.max(8, Math.floor(innerW / (fsTxt * 0.55)));
+    let y = pad;
+    const boxes = blocuri.map(b => {
+      const labLinii = vizRupe(b.eticheta, maxLab);
+      const txtLinii = b.text ? vizRupe(b.text, maxTxt) : [];
+      const h = padY + labLinii.length * labLh + (txtLinii.length ? 4 + txtLinii.length * txtLh : 0) + padY;
+      const box = { y, h, labLinii, txtLinii };
+      y += h + gap;
+      return box;
+    });
+    const H = Math.ceil((boxes.length ? y - gap : pad) + pad);
+    let conns = '', railK = 0;
+    for (const l of legaturi) {
+      if (!Array.isArray(l)) continue;
+      const [i, j] = l;
+      if (!(i >= 0 && j >= 0 && i < boxes.length && j < boxes.length && i !== j)) continue;
+      const A = boxes[i], B = boxes[j];
+      if (Math.abs(i - j) === 1) {
+        const y1 = i < j ? A.y + A.h : A.y;
+        const y2 = i < j ? B.y : B.y + B.h;
+        conns += `<path class="vz-sageata" marker-end="url(#vz-sg-${uid})" d="M${vizNr(cx)} ${vizNr(y1)} L${vizNr(cx)} ${vizNr(y2)}"/>`;
+      } else {
+        const railX = boxR + 6 + railK * railPas; railK++;
+        const ay = A.y + A.h / 2, by = B.y + B.h / 2;
+        conns += `<path class="vz-sageata" marker-end="url(#vz-sg-${uid})" d="M${vizNr(boxR)} ${vizNr(ay)} H${vizNr(railX)} V${vizNr(by)} H${vizNr(boxR)}"/>`;
+      }
+    }
+    let body = '';
+    boxes.forEach(box => {
+      body += `<rect class="vz-bloc" x="${boxL}" y="${vizNr(box.y)}" width="${vizNr(boxW)}" height="${vizNr(box.h)}" rx="8"/>`;
+      const labSpans = box.labLinii.map((ln, k) => `<tspan x="${vizNr(cx)}" dy="${k ? labLh : 0}">${esc(ln)}</tspan>`).join('');
+      body += `<text class="vz-eticheta" x="${vizNr(cx)}" y="${vizNr(box.y + padY + fsLab)}" text-anchor="middle">${labSpans}</text>`;
+      if (box.txtLinii.length) {
+        const ty = box.y + padY + box.labLinii.length * labLh + 4 + fsTxt;
+        const txtSpans = box.txtLinii.map((ln, k) => `<tspan x="${vizNr(cx)}" dy="${k ? txtLh : 0}">${esc(ln)}</tspan>`).join('');
+        body += `<text class="vz-bloc-text" x="${vizNr(cx)}" y="${vizNr(ty)}" text-anchor="middle">${txtSpans}</text>`;
+      }
+    });
+    const defs = `<defs><marker id="vz-sg-${uid}" markerWidth="9" markerHeight="9" refX="6.5" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path class="vz-varf" d="M0 0 L7 3 L0 6 Z"/></marker></defs>`;
+    const label = `Schemă${v.titlu ? ': ' + v.titlu : ''}. ${blocuri.length} blocuri: ${blocuri.map(b => b.eticheta).join(', ')}.`;
+    const desc = blocuri.map(b => b.eticheta + (b.text ? ' — ' + b.text : '')).join('. ');
+    return `<svg class="vizual-svg" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(label)}">`
+      + `<title>${esc(v.titlu || 'Schemă')}</title><desc>${esc(desc)}</desc>${defs}${conns}${body}</svg>`;
+  }
+
+  /* Randează cel mult 2 vizuale ale lecției. Tip necunoscut = ignorat (lint-ul
+     îl prinde la conținut; UI-ul nu se sparge dacă totuși apare). */
+  function vizualeHTML(lec) {
+    const vs = Array.isArray(lec.vizual) ? lec.vizual.slice(0, 2) : [];
+    if (!vs.length) return '';
+    return vs.map(v => {
+      if (!v) return '';
+      let svg = '';
+      if (v.tip === 'cronologie') svg = svgCronologie(v);
+      else if (v.tip === 'schema') svg = svgSchema(v, ++vizSeq);
+      else return '';
+      const cap = v.titlu ? `<figcaption class="vizual-titlu">${esc(v.titlu)}</figcaption>` : '';
+      return `<figure class="vizual">${cap}${svg}</figure>`;
+    }).join('');
+  }
+
   function viewLectie(modId, lecId) {
     const g = gasesteLectie(modId, lecId);
     if (!g) return viewMaterii();
@@ -1066,6 +1198,7 @@
           <p class="crumb" style="margin-bottom:10px"><b>${esc(ix.materie)}</b> › ${esc(cap.titlu)}</p>
           <h3>${esc(lec.titlu)}</h3>
           ${String(lec.rezumat).split('\n').filter(Boolean).map(t => `<p>${esc(t)}</p>`).join('')}
+          ${vizualeHTML(lec)}
           <h3 style="margin-top:14px">Idei-cheie</h3>
           <ul class="clean">${lec.ideiCheie.map(i => `<li>${esc(i)}</li>`).join('')}</ul>
           ${lec.termeni && lec.termeni.length ? `

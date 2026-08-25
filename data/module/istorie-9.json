@@ -527,6 +527,44 @@
        "corect": 0,
        "explicatie": "Ea se manifestă mai ales lexical, după secolul al VII-lea."
       }
+     ],
+     "vizual": [
+      {
+       "tip": "schema",
+       "titlu": "Formarea limbii și a poporului român",
+       "blocuri": [
+        {
+         "eticheta": "Substrat geto-dac",
+         "text": "circa 160 de cuvinte și toponime"
+        },
+        {
+         "eticheta": "Strat latin",
+         "text": "structura gramaticală și fondul lexical principal"
+        },
+        {
+         "eticheta": "Adstrat slav",
+         "text": "împrumuturi de după secolul al VII-lea"
+        },
+        {
+         "eticheta": "Limba și poporul român",
+         "text": "sinteză de limbă romanică"
+        }
+       ],
+       "legaturi": [
+        [
+         0,
+         3
+        ],
+        [
+         1,
+         3
+        ],
+        [
+         2,
+         3
+        ]
+       ]
+      }
      ]
     }
    ]
@@ -965,6 +1003,34 @@
        ],
        "corect": 0,
        "explicatie": "Scopul era uciderea sultanului Mehmed al II-lea."
+      }
+     ],
+     "vizual": [
+      {
+       "tip": "cronologie",
+       "titlu": "Lupta antiotomană a Țărilor Române",
+       "pasi": [
+        {
+         "an": "1396",
+         "text": "Nicopole — cruciada la care participă Mircea cel Bătrân"
+        },
+        {
+         "an": "1456",
+         "text": "Iancu de Hunedoara oprește otomanii la Belgrad"
+        },
+        {
+         "an": "1462",
+         "text": "Vlad Țepeș — atacul de noapte de la Târgoviște"
+        },
+        {
+         "an": "1475",
+         "text": "Ștefan cel Mare învinge la Vaslui (Podul Înalt)"
+        },
+        {
+         "an": "1600",
+         "text": "Mihai Viteazul unește cele trei țări române"
+        }
+       ]
       }
      ]
     },

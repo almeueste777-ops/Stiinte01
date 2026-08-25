@@ -1201,6 +1201,37 @@ button.rand.grav .rand-txt strong{color:var(--bad-text)}
   width:5px; height:5px; border-radius:50%; background:var(--brand);
 }
 
+/* ── 18d. Vizuale explicative la lecție (SVG inline, v08) ───────
+   Cronologie (linie + repere) și schemă (blocuri + legături), generate din
+   pipeline-ul de conținut. Se TEMEAZĂ SINGURE prin tokeni (luminos / întunecat /
+   contrast ridicat), scalează prin viewBox și nu ies niciodată din coloană:
+   textul e rupt în pipeline, iar SVG-ul are max-width:100%. Fără hex fix. */
+.vizual{margin:var(--sp-6) 0 var(--sp-5)}          /* și resetează marginea implicită de <figure> */
+.vizual-titlu{
+  margin:0 0 var(--sp-3);
+  font-weight:700; font-size:var(--fs-250); color:var(--ink);
+}
+.vizual-svg{
+  display:block; width:100%; height:auto; max-width:440px;
+  margin-inline:auto;                              /* centrat pe coloana lată de desktop */
+  font-family:var(--font-sans);
+}
+.vizual-svg text{fill:var(--ink)}                  /* implicit: cerneala temei */
+/* cronologie */
+.vz-linie{stroke:var(--ink-faint); stroke-width:2}
+.vz-punct{fill:var(--accent); stroke:var(--surface-raised); stroke-width:1.5}
+.vizual-svg .vz-an{font-weight:700; font-size:13px; fill:var(--brand)}
+.vz-text{font-size:13px}
+/* schemă */
+.vz-bloc{fill:var(--surface-sunken); stroke:var(--brand); stroke-width:1.5}
+.vz-eticheta{font-weight:700; font-size:13px}
+.vz-bloc-text{font-size:12px}
+.vz-sageata{stroke:var(--brand); stroke-width:1.5; fill:none}
+.vz-varf{fill:var(--brand)}
+/* contrast ridicat: liniile fine devin cerneală, ca restul UI-ului (§13) */
+:root:where([data-contrast="ridicat"]) .vz-linie{stroke:var(--ink)}
+:root:where([data-contrast="ridicat"]) .vz-punct{stroke:var(--ink)}
+
 /* ── Antrenament: bară de progres, cap de element, câmpuri de răspuns ──── */
 
 .antren-bara{
