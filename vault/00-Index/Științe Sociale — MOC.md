@@ -30,6 +30,7 @@ Punctul de intrare în **jumătatea scrisă de mână** a vault-ului: cum e făc
 
 ## Aplicația
 
+- [[Strategie și foaie de parcurs]] — **auditul + backlogul de task-uri** (un singur task pe sesiune)
 - [[Arhitectura aplicației]] — fișiere, rutare, date, service worker
 - [[Sistemul de învățare]] — cele șapte mecanisme din spatele Antrenamentului (v04)
 - [[Motivație și progres]] — stratul premium (v06): insigne, streak, heatmap, onboarding
