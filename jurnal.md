@@ -1436,3 +1436,80 @@ trecută pe `--ink-faint` (~3,5:1), vizibilă pe ambele teme; overrideul de cont
 **C2** — anii cronologiei nu primeau albastrul de brand din cauza specificității (`.vizual-svg text`
 bătea `.vz-an`) → regula ridicată la `.vizual-svg .vz-an`. Tot atunci am corectat **`?v=` 11 → 12**
 (vezi Versionare) — constatare `verificator-cod`: altfel checkul CI `CACHE ↔ ?v=` rămânea roșu.
+
+## 2026-08-25 — T2, „Raportează o greșeală"
+
+Din foaia de parcurs, task-ul **T2** (pilonul „încrederea în conținut", alimentează T5): un elev
+trebuie să poată semnala un fapt greșit **direct** din lecție și de la rezultatul testului. Scop mic,
+strict aditiv — nimic din fluxurile existente (citit, test, setări, export) nu se schimbă.
+
+**Ce s-a făcut.**
+- **Buton discret pe lecție** (`viewLectie`): „Raportează o greșeală", jos în coloana laterală, sub
+  „Lecția următoare". Deschide o foaie modală (reutilizează `.scrim`/`.sheet` de la onboarding) cu un
+  `<select>` de motive („Fapt greșit", „Greșeală de scriere", „Întrebare sau răspuns greșit",
+  „Altceva") + un `<textarea>` opțional de detalii. La trimitere salvează raportul și arată un toast
+  „Mulțumim — raportul a fost salvat.".
+- **Raport de la rezultatul testului** (`rezultatTest`): fiecare întrebare din lista „De recitit"
+  primește un link discret „Raportează întrebarea", care deschide același formular și **captează textul
+  întrebării** (plus materia/lecția) în context.
+- **Setări → Datele mele:** rând care arată „N rapoarte salvate", cu acțiuni de **export** dedicat și de
+  **ștergere** (cu confirmare). Când nu există rapoarte, un rând informativ liniștit în loc.
+
+**Stocare.** `state.rapoarte` = tablou de `{id, tip:'lectie'|'intrebare', refId, motiv, nota, data,
+context}` (`context` = etichetă lizibilă — materie + titlu de lecție / textul întrebării — ca cel care
+întreține conținutul să găsească rapid locul). `data` = `Date.now()`. `sanitizeaza` a fost extins
+**aditiv**: câmp absent ⇒ rămâne `[]` (deci copiile vechi se încarcă neschimbat), intrare stricată se
+aruncă element-cu-element (tip invalid, non-obiect), câmpurile se coerc și se plafonează, iar lista se
+taie la ultimele 200 (ostilitate din import). `uid()` a fost mutat **înaintea** lui `sanitizeaza` și a
+lui `state = load()`, ca rezerva de id lipsă să nu cadă în zona moartă temporală.
+
+**Export.** Copia completă (`Setări → Salvează o copie`) serializează tot `state`, deci include acum și
+`rapoarte` — fără nicio schimbare de format. Exportul dedicat („Exportă rapoartele de greșeli")
+scoate `{aplicatie, exportat, rapoarte}` printr-un mic helper `descarcaJSON` (același drum Blob/anchor
+ca exportul existent, refactorizat o dată, folosit de amândouă). **Fără e-mail, fără `mailto`, fără
+nicio trimitere în rețea** — aplicația e publică; totul rămâne local + export manual.
+
+**Accesibilitate.** Formularul e `role="dialog"` + `aria-modal="true"` + `aria-labelledby`; `<label
+for=…>` legat corect de select și textarea. La deschidere focusul trece pe primul control, la închidere
+revine pe declanșator; **Tab ciclează în interior** (capcană de focus cu ieșire mereu disponibilă),
+**Escape** / „Renunță" / atingerea fundalului o închid (scrimul, la `--z-sheet`=30, acoperă tabbarul de
+la `--z-chrome`=20, deci atingerea „în afară" nu poate naviga tăcut). Ținte de atingere: linkul discret
+44px, `<select>` 48px, `.btn` 50px, textarea 84px. Tot textul dinamic trece prin `esc()`. Toastul de
+confirmare e `role="status"` și **nu** depinde de setarea „Sărbători" (e feedback, nu felicitare).
+
+**Versionare.** S-au atins fișiere publicate (JS/CSS/HTML):
+- `sw.js`: `CACHE` v12 → **v13**; lista `MODULE`/`SHELL` neatinsă în afară de `?v=`.
+- `?v=` din `index.html` (2 linii) + `SHELL` din `sw.js` (2 linii): 12 → **13** = numărul CACHE
+  (regula #4; CI cere `?v == CACHE`).
+- `data/versiuni.json`: intrare nouă **v09 „Raportează o greșeală"** (cache 13), scrisă pentru elev;
+  `curenta` → „09". `data/continut.json` neschimbat (regenerarea nu produce diferență).
+
+**Verificare (toată bateria verde).** JSON valid (`data/*.json` + manifest); `node --check`
+`app.js`/`sw.js`; `verifica-css` (2186 linii, acolade echilibrate); `verifica-continut` (60 module,
+1152 lecții); `verifica_vault` (1389 note, 0 rupte, 0 orfane); checkul CI `CACHE ↔ ?v=` **OK v13**;
+`construieste-index` fără diferențe (index deja sincronizat). `node --test` **33/33**: suita T1 intactă
+plus **un test nou** pentru sanitizarea `rapoarte` (absent → `[]`, non-array → `[]`, intrări stricate
+aruncate, id lipsă sintetizat, `data` negativă → 0). Testul are dinți: pe o copie cu blocul `rapoarte`
+scos din `sanitizeaza` **pică** (`not ok`), pe fișierul curent trece. `test-sw.mjs` cu SW activ: **exact
+o reîncărcare** la trecerea pe v13, 60 de carduri, **zero erori JS**.
+
+**Verificare UI proprie (Playwright, headless, 320px, luminos + întunecat).** Formularul se deschide și
+din lecție, și de la rezultatul testului; **zero derulare orizontală**; toate țintele ≥44px; focusul
+ajunge pe `#rap-motiv` la deschidere; **Escape** închide; trimiterea **salvează** în stare (verificat
+în `localStorage`) și arată **toastul** de confirmare; titlul dialogului de întrebare = „Raportează
+întrebarea". Capturi în ambele teme confirmă lizibilitatea și încadrarea. `git status`: doar fișierele
+așteptate (`app.js`, `app.css`, `sw.js`, `index.html`, `data/versiuni.json`, `tools/test-comportament.mjs`),
+zero artefacte (symlink-ul temporar `node_modules/playwright` și serverul local, curățate).
+
+**Echipa de agenți (gate-ul de merge) + o corecție.** `verificator-cod`: **CURAT** — a trasat fiecare
+drum al datelor de raport spre DOM (dialog, toast, setări): tot prin `esc()`, iar câmpurile libere
+(`nota`/`motiv`) nu se randează nicăieri, doar se serializează la export (Blob, nu DOM) — XSS închis.
+A confirmat sanitizarea aditivă (plafon 200 = ultimele), lipsa TDZ, zero `mailto`/e-mail, fluxuri
+intacte, versiuni sincrone (CI `CACHE v13 ↔ ?v=13`). `verificator-ui`: **CURAT** pe 24 de combinații
+(5 lățimi + peisaj × 4 teme) + rezultatul testului + setări — zero derulare orizontală, ținte ≥44px,
+contrast ≥AA, focus vizibil. **Corecție** a unui defect real (neblocant) găsit de `verificator-cod`:
+dialogul rămânea orfan peste ecranul nou dacă utilizatorul naviga (Back din browser) cu foaia deschisă
+→ am adăugat un ascultător `hashchange` care închide foaia (simetric cu teardown-ul de `keydown`).
+Rămân, ca *polish* de accesibilitate viitor (tipar preexistent, partajat cu onboarding-ul, deci nu se
+repară doar în T2): fundal `inert` sub modal, suprapunerea a două toasturi, bordura câmpurilor în
+contrast-ridicat (WCAG 1.4.11, ≥3:1).

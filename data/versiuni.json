@@ -1,7 +1,19 @@
 {
-  "curenta": "08",
+  "curenta": "09",
   "actualizat": "2026-08-25",
   "versiuni": [
+    {
+      "v": "09",
+      "nume": "Raportează o greșeală",
+      "data": "2026-08-25",
+      "cache": 13,
+      "schimbari": [
+        "Poți raporta o greșeală direct dintr-o lecție (butonul „Raportează o greșeală”) sau de la rezultatul unui test, chiar de lângă întrebarea greșită.",
+        "Alegi ce fel de greșeală este (fapt greșit, greșeală de scriere, întrebare sau răspuns greșit, altceva) și poți adăuga un detaliu scris, dacă vrei.",
+        "Raportul se salvează pe telefonul tău, nu se trimite nicăieri automat; îl poți exporta din Setări → Datele mele și trimite celui care întreține aplicația.",
+        "În Setări vezi câte rapoarte ai, le poți exporta separat sau le poți șterge."
+      ]
+    },
     {
       "v": "08",
       "nume": "Imagini explicative",

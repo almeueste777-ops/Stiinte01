@@ -225,6 +225,10 @@
                  la prima pornire pe v06 se sădesc TĂCUT cele deja meritate, ca
                  un elev vechi să nu fie inundat de zeci de felicitări deodată. */
     activ: {}, stats: STATS_GOALE(), insigne: undefined, vazutIntro: false,
+    /* `rapoarte` = greșelile semnalate de elev (T2), un tablou de intrări
+       {id, tip, refId, motiv, nota, data, context}. Rămân doar local; se includ
+       în export, ca cel care întreține conținutul să le poată primi. */
+    rapoarte: [],
     clasa: 'a XII-a', zile: {}, ultima: '', setari: Object.assign({}, SETARI)
   });
 
@@ -246,6 +250,13 @@
     marimeText: [80, 150], obiectivZilnic: [1, 20], nrIntrebari: [0, 40],
     cronometru: [0, 60], nrCarduri: [0, 100], nrAntrenament: [5, 60]
   };
+
+  /* Identificator scurt și unic pentru un raport de greșeală (T2): baza de timp
+     + un rest aleator. Nu e nevoie de garanție criptografică — doar de o cheie
+     stabilă pentru ștergere și pentru randare fără coliziuni. Definit AICI,
+     înaintea lui `sanitizeaza` (care îl folosește ca rezervă pentru un id lipsă)
+     și a lui `state = load()`, ca să nu cadă în zona moartă temporală. */
+  const uid = () => 'r' + Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
 
   /* Curăță o stare venită din afară (localStorage sau fișier de import).
      Întoarce ÎNTOTDEAUNA un obiect complet și valid — niciodată `null` pe
@@ -339,6 +350,28 @@
     s.vazutIntro = !!brut.vazutIntro || !!areProgres;
     if (typeof brut.clasa === 'string' && brut.clasa) s.clasa = brut.clasa;
     if (typeof brut.ultima === 'string') s.ultima = brut.ultima;
+
+    /* Rapoartele de greșeli (T2): un TABLOU, nu un obiect. Absent ⇒ rămâne `[]`
+       (implicitul din STARE_GOALA), deci vechile copii de siguranță se încarcă
+       neschimbat. Fiecare intrare se validează câmp cu câmp: una stricată se
+       aruncă, nu strică restul. Plafon de 200, ca un fișier de import ostil să
+       nu poată umfla localStorage. */
+    const sir = (v, max) => (typeof v === 'string' ? v : '').slice(0, max);
+    if (Array.isArray(brut.rapoarte)) {
+      s.rapoarte = brut.rapoarte
+        .filter(r => r && typeof r === 'object' && !Array.isArray(r) &&
+                     (r.tip === 'lectie' || r.tip === 'intrebare'))
+        .map(r => ({
+          id: sir(r.id, 40) || uid(),
+          tip: r.tip,
+          refId: sir(r.refId, 200),
+          motiv: sir(r.motiv, 40),
+          nota: sir(r.nota, 2000),
+          data: nr(r.data, 0, 0, Number.MAX_SAFE_INTEGER),
+          context: sir(r.context, 400)
+        }))
+        .slice(-200);
+    }
 
     const st = Object.assign({}, SETARI, obiect(brut.setari));
     for (const k of Object.keys(SETARI)) {
@@ -1220,6 +1253,13 @@
             <button class="btn ghost" data-go="#/carduri/lectie/${encodeURIComponent(modId)}/${encodeURIComponent(lec.id)}">Carduri</button>
           </div>
           ${urm ? `<button class="btn ghost" data-go="#/lectie/${encodeURIComponent(modId)}/${encodeURIComponent(urm)}">Lecția următoare →</button>` : ''}
+          <button class="rap-link" id="raporteaza" type="button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"
+                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+              <path d="M5.5 21V4.5"/><path d="M5.5 4.5h11l-2 3.2 2 3.2h-11"/>
+            </svg>
+            Raportează o greșeală
+          </button>
         </div>
       </div>`;
 
@@ -1250,6 +1290,11 @@
       }
       state.ultima = '#/lectie/' + encodeURIComponent(modId) + '/' + encodeURIComponent(lec.id);
       save(); render();
+    };
+
+    view.querySelector('#raporteaza').onclick = () => {
+      bate(6);
+      deschideRaport({ tip: 'lectie', refId: lec.id, context: ix.materie + ' · ' + lec.titlu });
     };
 
     state.ultima = '#/lectie/' + encodeURIComponent(modId) + '/' + encodeURIComponent(lec.id);
@@ -1577,12 +1622,25 @@
         <button class="btn ghost" data-go="#/acasa">Acasă</button>
       </div>
       ${gresite.length ? `<h2>De recitit</h2>
-      <ul class="rev">${gresite.map(r => `
+      <ul class="rev">${gresite.map((r, i) => `
         <li><strong>${esc(r.q.intrebare)}</strong>
           <div><span class="nu">${esc(r.q.optiuni[r.ales])}</span> → <span class="ok">${esc(r.q.optiuni[r.q.corect])}</span></div>
-          <p class="muted" style="margin:6px 0 0">${esc(r.q.explicatie)}</p></li>`).join('')}</ul>`
+          <p class="muted" style="margin:6px 0 0">${esc(r.q.explicatie)}</p>
+          <button class="rap-link" type="button" data-rap-q="${i}">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"
+                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+              <path d="M5.5 21V4.5"/><path d="M5.5 4.5h11l-2 3.2 2 3.2h-11"/>
+            </svg>
+            Raportează întrebarea
+          </button></li>`).join('')}</ul>`
         : '<div class="card"><p>Niciun răspuns greșit. 🎯</p></div>'}`;
     view.querySelector('#reia').onclick = () => { location.hash = location.hash; render(); };
+    view.querySelectorAll('[data-rap-q]').forEach(b => b.onclick = () => {
+      const r = gresite[Number(b.dataset.rapQ)];
+      if (!r) return;
+      bate(6);
+      deschideRaport({ tip: 'intrebare', refId: qCheie, context: (r.q.sursa || qTitlu) + ' — ' + r.q.intrebare });
+    });
     paint(true);
   }
 
@@ -2538,6 +2596,20 @@
     t.addEventListener('click', scoate);
     setTimeout(scoate, 3200);
   }
+
+  /* Mesaj scurt de confirmare (T2) — un toast simplu, doar text. Separat de
+     sărbătoare: nu depinde de setarea „Sărbători" (e feedback, nu felicitare) și
+     nu lansează confetti. `role="status"` îl anunță la cititoarele de ecran. */
+  function arataMesaj(text) {
+    const t = document.createElement('div');
+    t.className = 'toast toast-simplu';
+    t.setAttribute('role', 'status');
+    t.innerHTML = `<span class="toast-txt"><strong>${esc(text)}</strong></span>`;
+    document.body.appendChild(t);
+    const scoate = () => { t.classList.add('pleaca'); setTimeout(() => t.remove(), 260); };
+    t.addEventListener('click', scoate);
+    setTimeout(scoate, 3000);
+  }
   const CF_CLASE = ['cf-a', 'cf-b', 'cf-c', 'cf-d'];
   function lanseazaConfetti() {
     const wrap = document.createElement('div');
@@ -2880,6 +2952,14 @@
       <div class="lista">
         ${randActiune('export', 'Salvează o copie', 'Descarcă progresul și notițele ca fișier JSON.')}
         ${randActiune('import', 'Încarcă o copie', 'Înlocuiește datele de pe acest dispozitiv.')}
+        ${(() => {
+          const n = Array.isArray(state.rapoarte) ? state.rapoarte.length : 0;
+          return n
+            ? randActiune('export-rapoarte', 'Exportă rapoartele de greșeli',
+                (n === 1 ? '1 raport salvat' : n + ' rapoarte salvate') + ' — trimite-le celui care întreține aplicația.') +
+              randActiune('sterge-rapoarte', 'Șterge rapoartele de greșeli', 'Le elimini de pe acest dispozitiv.', true)
+            : `<div class="rand">${randTxt('Rapoarte de greșeli', 'Niciun raport încă. Poți raporta o greșeală dintr-o lecție sau de la rezultatul unui test.')}</div>`;
+        })()}
         ${randActiune('reset-progres', 'Șterge progresul lecțiilor', 'Lecțiile devin necitite; seria și calendarul de activitate repornesc.', true)}
         ${randActiune('reset-teste', 'Șterge rezultatele testelor', 'Media revine la zero.', true)}
         ${randActiune('reset-carduri', 'Șterge istoricul cardurilor', 'Se pierde ce ai marcat „știu”.', true)}
@@ -2953,16 +3033,36 @@
     view.querySelectorAll('[data-act]').forEach(b => b.onclick = () => actiune(b.dataset.act));
   }
 
+  /* Descărcarea unui obiect ca fișier JSON — un singur drum Blob/anchor, folosit
+     și de copia completă, și de exportul rapoartelor. Zero dependențe. */
+  function descarcaJSON(obiect, nume) {
+    const blob = new Blob([JSON.stringify(obiect, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = nume;
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  }
+
   function actiune(id) {
     const cere = (mesaj) => confirm(mesaj);   // dialog nativ: nu inventăm un modal pentru o singură întrebare
     if (id === 'revezi-intro') { porneUnboarding(); return; }
     if (id === 'export') {
-      const blob = new Blob([JSON.stringify(state, null, 2)], { type: 'application/json' });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url; a.download = 'stiinte-sociale-' + azi() + '.json';
-      document.body.appendChild(a); a.click(); a.remove();
-      setTimeout(() => URL.revokeObjectURL(url), 1000);
+      /* Copia completă include și `state.rapoarte` — greșelile semnalate ajung
+         astfel la cel care întreține conținutul, fără e-mail și fără rețea. */
+      descarcaJSON(state, 'stiinte-sociale-' + azi() + '.json');
+      return;
+    }
+    if (id === 'export-rapoarte') {
+      const rapoarte = Array.isArray(state.rapoarte) ? state.rapoarte : [];
+      if (!rapoarte.length) { alert('Nu ai niciun raport de exportat.'); return; }
+      descarcaJSON({ aplicatie: 'Științe Sociale', exportat: azi(), rapoarte }, 'rapoarte-' + azi() + '.json');
+      return;
+    }
+    if (id === 'sterge-rapoarte') {
+      if (!(Array.isArray(state.rapoarte) && state.rapoarte.length)) return;
+      if (!cere('Ștergi toate rapoartele de greșeli de pe acest dispozitiv?')) return;
+      state.rapoarte = []; save(); render();
       return;
     }
     if (id === 'import') {
@@ -3061,6 +3161,109 @@
        încât PRIMA insignă recâștigată după reset să fie din nou sărbătorită. */
     verificaInsigne({ celebra: false });
     save(); aplicaPreferinte(); render();
+  }
+
+  /* ── raportează o greșeală (T2) ───────────────────────────────────────
+     Un elev poate semnala un fapt greșit direct din lecție sau de la
+     rezultatul unui test. Raportul se salvează LOCAL, în stare, și se include
+     în export — fără e-mail, fără trimitere în rețea (aplicație publică). */
+  const MOTIVE_RAPORT = [
+    { v: 'fapt',    e: 'Fapt greșit' },
+    { v: 'typo',    e: 'Greșeală de scriere' },
+    { v: 'raspuns', e: 'Întrebare sau răspuns greșit' },
+    { v: 'altceva', e: 'Altceva' }
+  ];
+
+  function salveazaRaport(info) {
+    if (!Array.isArray(state.rapoarte)) state.rapoarte = [];
+    state.rapoarte.push({
+      id: uid(),
+      tip: info.tip === 'intrebare' ? 'intrebare' : 'lectie',
+      refId: String(info.refId == null ? '' : info.refId).slice(0, 200),
+      motiv: String(info.motiv == null ? '' : info.motiv).slice(0, 40),
+      nota: String(info.nota == null ? '' : info.nota).trim().slice(0, 2000),
+      data: Date.now(),
+      context: String(info.context == null ? '' : info.context).slice(0, 400)
+    });
+    if (state.rapoarte.length > 200) state.rapoarte = state.rapoarte.slice(-200);
+    save();
+  }
+
+  /* Foaia modală de raportare — reutilizează .scrim/.sheet. Accesibilă:
+     role="dialog" + aria-modal, focus mutat pe primul control la deschidere și
+     readus pe declanșator la închidere, Tab ciclează în interior (capcană de
+     focus cu ieșire mereu disponibilă), iar Escape / „Renunță" / atingerea
+     fundalului o închid. Tot textul dinamic trece prin esc(). */
+  function deschideRaport(info) {
+    if (document.querySelector('.scrim')) return;             // deja e ceva deschis
+    const declansator = document.activeElement;               // pentru readucerea focusului
+    const scrim = document.createElement('div');
+    scrim.className = 'scrim';
+    const sheet = document.createElement('div');
+    sheet.className = 'sheet rap';
+    sheet.setAttribute('role', 'dialog');
+    sheet.setAttribute('aria-modal', 'true');
+    sheet.setAttribute('aria-labelledby', 'rap-titlu');
+    const titluText = info.tip === 'intrebare' ? 'Raportează întrebarea' : 'Raportează o greșeală';
+    sheet.innerHTML = `
+      <h3 id="rap-titlu">${esc(titluText)}</h3>
+      ${info.context ? `<p class="muted rap-ctx">${esc(info.context)}</p>` : ''}
+      <label class="rap-lbl" for="rap-motiv">Ce fel de greșeală?</label>
+      <select id="rap-motiv" class="rap-select">
+        ${MOTIVE_RAPORT.map(m => `<option value="${esc(m.v)}">${esc(m.e)}</option>`).join('')}
+      </select>
+      <label class="rap-lbl" for="rap-nota">Detalii (opțional)</label>
+      <textarea id="rap-nota" class="rap-nota" rows="3" placeholder="Ce anume e greșit?"></textarea>
+      <button class="btn" id="rap-trimite">Trimite raportul</button>
+      <button class="btn ghost" id="rap-renunta">Renunță</button>`;
+    document.body.appendChild(scrim);
+    document.body.appendChild(sheet);
+
+    let inchis = false;
+    const inchide = () => {
+      if (inchis) return;
+      inchis = true;
+      document.removeEventListener('keydown', peTasta, true);
+      window.removeEventListener('hashchange', inchide);
+      sheet.classList.add('closing'); scrim.classList.add('closing');
+      setTimeout(() => { sheet.remove(); scrim.remove(); }, 300);
+      if (declansator && declansator.focus) { try { declansator.focus(); } catch (e) {} }
+    };
+
+    const focusabile = () => Array.prototype.slice.call(
+      sheet.querySelectorAll('select, textarea, button, input, [href], [tabindex]:not([tabindex="-1"])')
+    ).filter(el => !el.disabled && el.offsetParent !== null);
+
+    function peTasta(e) {
+      if (e.key === 'Escape') { e.preventDefault(); inchide(); return; }
+      if (e.key !== 'Tab') return;
+      const f = focusabile();
+      if (!f.length) return;
+      const primul = f[0], ultimul = f[f.length - 1];
+      if (e.shiftKey && document.activeElement === primul) { e.preventDefault(); ultimul.focus(); }
+      else if (!e.shiftKey && document.activeElement === ultimul) { e.preventDefault(); primul.focus(); }
+    }
+    document.addEventListener('keydown', peTasta, true);
+    /* Navigare cât timp foaia e deschisă (Back din browser, schimbare de rută):
+       închide dialogul, altfel scrim-ul/foaia ar rămâne orfane peste ecranul nou. */
+    window.addEventListener('hashchange', inchide);
+
+    sheet.querySelector('#rap-trimite').onclick = () => {
+      salveazaRaport({
+        tip: info.tip,
+        refId: info.refId,
+        motiv: sheet.querySelector('#rap-motiv').value,
+        nota: sheet.querySelector('#rap-nota').value,
+        context: info.context
+      });
+      bate(8);
+      inchide();
+      arataMesaj('Mulțumim — raportul a fost salvat.');
+    };
+    sheet.querySelector('#rap-renunta').onclick = inchide;
+    scrim.onclick = inchide;
+    const primul = sheet.querySelector('#rap-motiv');
+    if (primul && primul.focus) primul.focus();
   }
 
   /* ── onboarding: o singură foaie la prima pornire ─────────────────────
