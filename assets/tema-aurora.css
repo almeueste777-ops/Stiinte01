@@ -234,6 +234,17 @@
   --hover-tint:  rgba(91,75,214,.06);
   --focus:       var(--brand);
   --bar-edge:    #6A3D00;   /* muchia umplerii: 4,9:1 față de șanț */
+
+  /* Rampa heatmap-ului (Progres): app.css o lasă pe cromatica veche (nisip →
+     bleumarin), deci se re-declară aici pe irisul Aurorei. Nu e text — se cere
+     doar ca cele cinci trepte să fie clar distincte, de la „gol" spre iris plin. */
+  --hm-0:#E6E2F7; --hm-1:#C4B8EA; --hm-2:#9A87DE; --hm-3:#7059D6; --hm-4:#4B39B8;
+
+  /* Gradientul cifrei-erou (aur-numar). Nota de la rezultat e TEXT informativ,
+     nu decor, deci pe porțelanul cvasi-alb (#FCFAFF) opririle trebuie să treacă
+     pragul de text mare (≥3:1). Iris 6,4:1 · ambră-text 8,1:1 · smarald ~4,8:1. */
+  --aur-numar-grad: linear-gradient(150deg,
+      var(--brand) 0%, var(--accent-text) 54%, var(--ok) 100%);
 }
 
 :root:where([data-tema="intunecat"]){
@@ -264,6 +275,13 @@
   --shadow-deep: rgba(0,0,0,.74);
   --hover-tint:  rgba(169,155,255,.08);
   --bar-edge:    #FFEBB0;
+
+  /* Heatmap nocturn: de la indigo-beznă spre iris deschis, cinci trepte. */
+  --hm-0:#1B1B44; --hm-1:#34306E; --hm-2:#514C9C; --hm-3:#7A6FD0; --hm-4:#A99BFF;
+
+  /* Pe indigo (#1A1740) culorile deschise trec lejer — se păstrează cele vii. */
+  --aur-numar-grad: linear-gradient(150deg,
+      var(--accent-2) 0%, var(--accent) 46%, var(--brand-3) 100%);
 }
 
 /* Rezervele din app.css (§11–13) folosesc tokeni pe care i-am rescris mai sus,
@@ -363,7 +381,7 @@
 /* — 4.4 Cifră-erou în degrade (scor, procent) —————————————————————————
    Fallback: pe browserele fără background-clip:text rămâne culoarea proprie. */
 .aur-numar{
-  background:linear-gradient(150deg,var(--accent-2),var(--accent) 46%,var(--brand-3));
+  background:var(--aur-numar-grad);
   -webkit-background-clip:text; background-clip:text;
   -webkit-text-fill-color:transparent; color:transparent;
 }
