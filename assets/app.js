@@ -757,6 +757,11 @@
       if (idx !== lastTabIdx && !reduced()) {
         const ic = tabs[idx].querySelector('.ico');
         if (ic) { ic.classList.remove('pop'); void ic.offsetWidth; ic.classList.add('pop'); }
+        /* Pastila indicatoare se turtește o clipă la fiecare schimbare de tab.
+           Reflow-ul e obligatoriu: o clasă re-adăugată în același cadru nu
+           repornește animația. (Aurora — vezi tema-aurora.css §4.6.) */
+        const ind = tabbar.querySelector('.tab-ind');
+        if (ind) { ind.classList.remove('aur-jump'); void ind.offsetWidth; ind.classList.add('aur-jump'); }
       }
       lastTabIdx = idx;
     } else {
@@ -811,9 +816,9 @@
         </p>
       </div>
 
-      <div class="card">
+      <div class="card aur-sheen">
         <div class="row"><h3>Astăzi</h3><span class="pill soft">${aziN}/${tinta} lecții</span></div>
-        <div class="bar"><i style="--p:${Math.min(1, aziN / Math.max(1, tinta))}"></i></div>
+        <div class="bar aur-live"><i style="--p:${Math.min(1, aziN / Math.max(1, tinta))}"></i></div>
         <div class="stats">
           <div class="stat"><b>${s}</b><span>zile la rând</span></div>
           <div class="stat"><b>${stiute}</b><span>carduri știute</span></div>
@@ -1615,8 +1620,8 @@
 
     const gresite = qRasp.filter(r => r.ales !== r.q.corect);
     view.innerHTML = `<div class="card score">
-        <h3>Rezultat: ${qScor}/${total} (${procent}%)</h3>
-        <div class="bar"><i style="--p:${procent / 100}"></i></div>
+        <h3 class="aur-numar">Rezultat: ${qScor}/${total} (${procent}%)</h3>
+        <div class="bar aur-live"><i style="--p:${procent / 100}"></i></div>
         <p class="muted" style="margin-top:10px">${esc(qTitlu)}${prec ? ' · anterior ' + prec.procent + '%' : ''}</p>
         <button class="btn" id="reia">Reia testul</button>
         <button class="btn ghost" data-go="#/acasa">Acasă</button>
@@ -2169,7 +2174,7 @@
     const stClasa = gata ? stapanireDomeniu('clasa') : null;
 
     return `
-      <div class="card">
+      <div class="card aur-sheen aur-breathe">
         <div class="row"><h3>Antrenamentul de azi</h3>${stClasa ? `<span class="pill soft">${stClasa.scadente} de repetat</span>` : ''}</div>
         <p class="muted">O sesiune scurtă, amestecată: grile, carduri, termeni, completări și
           explicații din toată clasa. Elementele revin exact înainte să le uiți.</p>
@@ -2584,7 +2589,7 @@
   }
   function arataToast(ins) {
     const t = document.createElement('div');
-    t.className = 'toast';
+    t.className = 'toast aur-island';
     t.setAttribute('role', 'status');
     t.innerHTML =
       `<span class="ins-med" data-on="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -2602,7 +2607,7 @@
      nu lansează confetti. `role="status"` îl anunță la cititoarele de ecran. */
   function arataMesaj(text) {
     const t = document.createElement('div');
-    t.className = 'toast toast-simplu';
+    t.className = 'toast toast-simplu aur-island';
     t.setAttribute('role', 'status');
     t.innerHTML = `<span class="toast-txt"><strong>${esc(text)}</strong></span>`;
     document.body.appendChild(t);
