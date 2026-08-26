@@ -1513,3 +1513,51 @@ dialogul rămânea orfan peste ecranul nou dacă utilizatorul naviga (Back din b
 Rămân, ca *polish* de accesibilitate viitor (tipar preexistent, partajat cu onboarding-ul, deci nu se
 repară doar în T2): fundal `inert` sub modal, suprapunerea a două toasturi, bordura câmpurilor în
 contrast-ridicat (WCAG 1.4.11, ≥3:1).
+
+## 2026-08-26 — v10, supra-tema „Auroră"
+
+**Cerința.** Un pachet de design extern (`HANDOFF.md` + `assets/tema-aurora.css` gata scris): paletă
+mai spectaculoasă pe ambele teme, mai multă transluciditate și efecte de mișcare, **fără** a rescrie
+arhitectura din `app.css`. Sarcina — traducerea lui în repo, în stilul repo-ului.
+
+**Abordarea.** Aurora e un **strat de tokeni**, nu un redesign. Se încarcă în `index.html` imediat după
+`app.css` și rescrie doar paleta/sticla/relieful. Zero reguli de componentă rescrise, cu o singură
+excepție documentată (§4.8): gradientele de brand trec de la două trepte la trei (intră `--brand-3`,
+cyan), iar o declarație în două trepte nu poate folosi un token nou. Regula „adâncimea aparține
+conținutului, transparența aparține cadrului" rămâne intactă.
+
+- **Luminos „porțelan de iris":** `--surface-base #F7EEE2 → #F4F1FC`, brand `#234B6F → #5B4BD6` (iris),
+  accent `#C8901E → #F2A118` (ambră), `--brand-3 #1FA8C4` (cyan) doar în gradiente.
+- **Întunecat „auroră de indigo":** `#141F33 → #0D1226`, brand `#A99BFF`, accent `#FFC24B`, cyan `#4FD8E8`.
+- **Sticlă:** alfa `.62/.58 → .42/.34`, blur `20/22 → 30/32px`, saturație `→200%`, muchii bicolore.
+- **Neumorfism** recalculat pe noile suprafețe (umbră de iris, nu gri); **mesh** pe ambră/iris/cyan.
+- **Efecte opt-in** (doar prin clase noi): `aur-sheen` (reflex specular pe carduri hero), `aur-live`
+  (shimmer în bare), `aur-numar` (cifră-erou în degrade), `aur-jump` (turtirea indicatorului de tab),
+  `aur-island` (toast tip Dynamic Island).
+
+**Ce s-a atins.** NOU `assets/tema-aurora.css`; `index.html` (link temă + `theme-color`/bootstrap pe
+noile suprafețe, `?v=13→14`); `app.js` (clase opt-in: `aur-sheen` pe „Astăzi" și „Antrenamentul de azi",
+`aur-live` pe bara „Astăzi" și de rezultat, `aur-numar` pe titlul de rezultat, turtirea `.tab-ind` cu
+reflow, `aur-island` pe toasturi); `sw.js` (`CACHE v13→v14`, `SHELL` cu `?v=14` + `tema-aurora.css`
+precache-uit); `data/versiuni.json` (intrare nouă v10 pentru elev, `curenta→"10"`).
+
+**Corecții față de pachet (înainte de merge).** (1) Regula de mișcare redusă forțată din Setări folosea
+pseudo-elemente într-un `:is()` — invalid, ignorat de parser: efectele NU s-ar fi oprit la
+`[data-miscare="redusa"]` fără preferință de sistem. Rescrisă cu selectoare separate. (2) Heatmap-ul
+(Progres) rămăsese pe rampa veche (nisip → bleumarin): `--hm-0..4` re-declarați pe iris, cinci trepte
+distincte, ambele teme (confirmat empiric). (3) `aur-numar` (nota de la rezultat = text informativ) avea
+contrast sub 3:1 pe luminos: gradientul devine per-temă (`--aur-numar-grad`) — pe luminos
+iris/ambră-text/smarald (6,4 · 8,1 · ~4,8 : 1), pe întunecat culorile vii se păstrează. (4) `aur-breathe`
+nu rula (`.view.stagger .enter` din app.css, specificitate 0,3,0, bate `.aur-breathe` 0,1,0); a o forța
+ar fi stricat animația de intrare — clasa scoasă din markup, regula CSS rămâne ca utilitar opt-in cu notă
+de avertizare.
+
+**Verificare (toată bateria verde).** JSON valid; `node --check` `app.js`/`sw.js`; `verifica-css` pe
+`app.css` (2186) și `tema-aurora.css` (444); `verifica_vault` (0 rupte); comportament **33/33**;
+sincronizare `CACHE v14 ↔ ?v=14 ↔ versiuni.json` OK; `test-sw.mjs` cu SW activ — **o singură reîncărcare**
+pe v14, 60 carduri, zero erori JS, fundal `#F4F1FC` servit prin SW. **`verificator-cod`**: niciun
+blocant; a găsit heatmap-ul și contrastul `aur-numar` (corectate). **`verificator-ui`** (Playwright,
+69 capturi, 320–1440 + peisaj × 2 teme × 3 ecrane + a11y): zero derulare orizontală, ținte ≥44px,
+sclipirea nu iese din card, cele trei moduri de accesibilitate corecte (opacizare, linii, oprirea
+mișcării fără deplasare de layout); a găsit `aur-numar` (corectat) și `aur-breathe` care nu rula (scos).
+Toate constatările corectate și reverificate înainte de merge.

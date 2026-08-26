@@ -389,7 +389,11 @@
   .aur-numar{ background:none; -webkit-text-fill-color:currentColor; color:var(--ink) }
 }
 
-/* — 4.5 Respirație lentă pe cardul principal de acțiune ————————————— */
+/* — 4.5 Respirație lentă (utilitar opt-in) —————————————————————————
+   ATENȚIE: NU se pune pe un `.card` dintr-o listă cu stagger — regula
+   `.view.stagger .enter` (specificitate 0,3,0) din app.css câștigă cascada pe
+   proprietatea `animation` și respirația nu ar rula. Se folosește pe un element
+   fără animație de intrare proprie. */
 .aur-breathe{ animation:aur-breathe 7s ease-in-out infinite }
 
 /* — 4.6 Indicatorul de tab se turtește la schimbare ————————————————

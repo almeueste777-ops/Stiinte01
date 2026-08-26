@@ -2174,7 +2174,7 @@
     const stClasa = gata ? stapanireDomeniu('clasa') : null;
 
     return `
-      <div class="card aur-sheen aur-breathe">
+      <div class="card aur-sheen">
         <div class="row"><h3>Antrenamentul de azi</h3>${stClasa ? `<span class="pill soft">${stClasa.scadente} de repetat</span>` : ''}</div>
         <p class="muted">O sesiune scurtă, amestecată: grile, carduri, termeni, completări și
           explicații din toată clasa. Elementele revin exact înainte să le uiți.</p>
