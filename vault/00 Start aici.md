@@ -64,6 +64,7 @@ Vault-ul are **două jumătăți**, în același folder:
 - [[Limba modernă 1 (Engleză) (clasa a XI-a)|Limba modernă 1 (Engleză) (clasa a XI-a)]] — 6 capitole, 18 lecții, 72 carduri, 108 întrebări
 - [[Limba modernă 2 (Franceză) (clasa a XI-a)|Limba modernă 2 (Franceză) (clasa a XI-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
 - [[Limba și literatura română (clasa a XI-a)|Limba și literatura română (clasa a XI-a)]] — 9 capitole, 20 lecții, 80 carduri, 116 întrebări
+- [[Biologie (clasa a XI-a)|Biologie (clasa a XI-a)]] — 4 capitole, 11 lecții, 44 carduri, 60 întrebări
 - [[Matematică aplicată în științele sociale (clasa a XI-a)|Matematică aplicată în științele sociale (clasa a XI-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
 - [[ȘTIAM (științe integrate) (clasa a XI-a)|ȘTIAM (științe integrate) (clasa a XI-a)]] — 6 capitole, 16 lecții, 64 carduri, 94 întrebări
 - [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)]] — 6 capitole, 16 lecții, 64 carduri, 100 întrebări
@@ -75,6 +76,7 @@ Vault-ul are **două jumătăți**, în același folder:
 - [[Limba modernă 1 (Engleză) (clasa a XII-a)|Limba modernă 1 (Engleză) (clasa a XII-a)]] — 6 capitole, 18 lecții, 72 carduri, 96 întrebări
 - [[Limba modernă 2 (Franceză) (clasa a XII-a)|Limba modernă 2 (Franceză) (clasa a XII-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
 - [[Limba și literatura română (clasa a XII-a)|Limba și literatura română (clasa a XII-a)]] — 9 capitole, 20 lecții, 80 carduri, 117 întrebări
+- [[Biologie (clasa a XII-a)|Biologie (clasa a XII-a)]] — 2 capitole, 8 lecții, 32 carduri, 48 întrebări
 - [[Matematică aplicată în științele sociale (clasa a XII-a)|Matematică aplicată în științele sociale (clasa a XII-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
 - [[ȘTIAM (științe integrate) (clasa a XII-a)|ȘTIAM (științe integrate) (clasa a XII-a)]] — 6 capitole, 16 lecții, 64 carduri, 88 întrebări
 - [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)|Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)]] — 6 capitole, 16 lecții, 64 carduri, 100 întrebări
@@ -88,6 +90,7 @@ Vault-ul are **două jumătăți**, în același folder:
 - [[Limba modernă 1 (Engleză) (clasa a XIII-a)|Limba modernă 1 (Engleză) (clasa a XIII-a)]] — 6 capitole, 18 lecții, 72 carduri, 108 întrebări
 - [[Limba modernă 2 (Franceză) (clasa a XIII-a)|Limba modernă 2 (Franceză) (clasa a XIII-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
 - [[Limba și literatura română (clasa a XIII-a)|Limba și literatura română (clasa a XIII-a)]] — 9 capitole, 20 lecții, 80 carduri, 116 întrebări
+- [[Biologie (clasa a XIII-a)|Biologie (clasa a XIII-a)]] — 3 capitole, 6 lecții, 24 carduri, 40 întrebări
 - [[Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)|Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)]] — 7 capitole, 20 lecții, 80 carduri, 116 întrebări
 
 ## Cifre
@@ -96,9 +99,9 @@ Vault-ul are **două jumătăți**, în același folder:
 | --- | --- |
 | Clase | 5 |
 | Materii distincte | 23 |
-| Module (materie × an) | 60 |
-| Capitole | 412 |
-| Lecții | 1152 |
-| Carduri | 4608 |
-| Întrebări de test | 6550 |
-| Note în vault | 1370 |
+| Module (materie × an) | 63 |
+| Capitole | 421 |
+| Lecții | 1177 |
+| Carduri | 4708 |
+| Întrebări de test | 6698 |
+| Note în vault | 1404 |

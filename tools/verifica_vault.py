@@ -10,6 +10,9 @@ import os
 import re
 import sys
 
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
 RADACINA = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 VAULT = os.path.join(RADACINA, "vault")
 

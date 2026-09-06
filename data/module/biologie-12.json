@@ -1,0 +1,893 @@
+{
+ "id": "biologie-12",
+ "materie": "Biologie",
+ "clasa": "a XII-a",
+ "an": 4,
+ "arie": "Matematică și științe ale naturii",
+ "bac": true,
+ "descriere": "Genetică moleculară, ereditate și variabilitate, evoluționism și ecologie umană pentru examenul de bacalaureat la profil real.",
+ "capitole": [
+  {
+   "id": "bio12-c1",
+   "titlu": "Genetica moleculară",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "bio12-01",
+     "titlu": "Acizii nucleici: structura ADN și ARN",
+     "rezumat": "Materialul genetic universal este reprezentat de acizii nucleici: acidul dezoxiribonucleic (ADN) și acidul ribonucleic (ARN). Unitatea structurală a unui acid nucleic este nucleotida, formată dintr-o bază azotată, o pentoză (dezoxiriboză în ADN, riboză în ARN) și o grupare fosfat. Bazele azotate sunt purinice (adenina A și guanina G) și pirimidinice (citozina C și timina T în ADN, respectiv citozina C și uracilul U în ARN). Modelul bicatenar al ADN-ului, propus de Watson și Crick în 1953, arată că molecula este formată din două catene polinucleotidice antiparalele (orientate 5'-3' și 3'-5') și complementare, răsucite într-un dublu helix. Complementaritatea se bazează pe legături de hidrogen: adenina se leagă exclusiv de timină prin două legături de hidrogen (A=T), iar guanina de citozină prin trei legături de hidrogen (G≡C). ARN-ul este de regulă monocatenar și participă la sinteza proteinelor sub formă de ARN mesager (ARNm), ARN de transport (ARNt) și ARN ribozomal (ARNr).",
+     "ideiCheie": [
+      "ADN-ul conține dezoxiriboză și timină, iar ARN-ul ribozoză și uracil.",
+      "Catenale ADN sunt antiparalele, complementare și unite prin punți de hidrogen.",
+      "Complementaritatea strictă A=T (2 punți) și G≡C (3 punți) asigură fidelitatea informației genetice.",
+      "Tipurile majore de ARN celular sunt ARNm, ARNt și ARNr."
+     ],
+     "termeni": [
+      {
+       "t": "nucleotidă",
+       "d": "unitatea monomerică a acizilor nucleici compusă din bază azotată, pentoză și fosfat"
+      },
+      {
+       "t": "complementaritate",
+       "d": "principiul potrivirii specifice a bazelor azotate în dublul helix de ADN"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt bazele azotate purinice din acizii nucleici?",
+       "v": "Adenina (A) și Guanina (G)."
+      },
+      {
+       "f": "Ce bază pirimidinică se găsește în ARN în locul timinei?",
+       "v": "Uracilul (U)."
+      },
+      {
+       "f": "Câte legături de hidrogen se formează între guanină și citozină?",
+       "v": "Trei legături de hidrogen (G≡C)."
+      },
+      {
+       "f": "Ce afirmă regula de complementaritate a lui Chargaff?",
+       "v": "Cantitatea de adenină este egală cu cea de timină (A=T), iar cea de guanină cu citozina (G=C)."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "În molecula de ADN dublucatenar, adenina se împerechează cu:",
+       "optiuni": [
+        "timina, prin două legături de hidrogen",
+        "citozina, prin trei legături de hidrogen",
+        "uracilul, prin legături peptidice",
+        "guanina, prin legături fosfodiesterice"
+       ],
+       "corect": 0,
+       "explicatie": "Regula complementarității dictează legarea A cu T."
+      },
+      {
+       "intrebare": "Pentoză prezentă în structura ARN-ului este:",
+       "optiuni": [
+        "riboza",
+        "dezoxiriboza",
+        "glucoza",
+        "fructoza"
+       ],
+       "corect": 0,
+       "explicatie": "Prezența hidroxilului suplimentar diferențiază chimic ARN de ADN."
+      },
+      {
+       "intrebare": "Orientarea antiparalelă a catenelor de ADN înseamnă că:",
+       "optiuni": [
+        "capătul 5' al unei catene corespunde capătului 3' al celeilalte catene",
+        "ambele catene au aceeași direcție de sinteză 5'-3'",
+        "catenele conțin doar baze azotate purinice",
+        "catenele sunt identice ca secvență de baze"
+       ],
+       "corect": 0,
+       "explicatie": "Răsucirea în dublu helix cere polaritate inversă."
+      },
+      {
+       "intrebare": "ARN-ul mesager (ARNm) are rolul de a:",
+       "optiuni": [
+        "copia informația genetică a unei gene și a o duce la ribozomi",
+        "transporta aminoacizii la locul sintezei proteice",
+        "forma scheletul structural al ribozomilor",
+        "replica dublul helix în nucleu"
+       ],
+       "corect": 0,
+       "explicatie": "Reprezintă matricea pentru sinteza polipeptidelor."
+      }
+     ]
+    },
+    {
+     "id": "bio12-02",
+     "titlu": "Replicarea ADN și transcripția",
+     "rezumat": "Replicarea ADN-ului este procesul prin care se realizează copierea fidelă a materialului genetic înainte de diviziunea celulară, asigurând transmiterea neschimbată a informației către celulele-fiice. Ea se desfășoară după un model semiconservativ: cele două catene ale moleculei parentale se desfac sub acțiunea enzimelor helicaze, iar fiecare catenă veche servește drept tipar pentru sinteza unei catene noi complementare de către ADN-polimerază. Rezultă două molecule identice de ADN, fiecare având o catenă veche și una nouă. Sinteza proteinelor parcurge două etape fundamentale: transcripția și translația. Transcripția reprezintă copierea secvenței de nucleotide a unei gene de pe o catenă matriță de ADN într-o catenă complementară de ARN mesager, catalizată de ARN-polimerază. La eucariote, transcripția generează un ARN premesager care suferă un proces de maturare (splicing): intronii (secvențele non-codificatoare) sunt eliminați prin excizie, iar exonii (secvențele codificatoare) sunt legați cap la cap, părăsind apoi nucleul spre citoplasmă.",
+     "ideiCheie": [
+      "Replicarea ADN este semiconservativă: fiecare moleculă nouă păstrează o catenă din molecula inițială.",
+      "ADN-polimeraza sintetizează noua catenă exclusiv în direcția 5' spre 3'.",
+      "Transcripția este sinteza ARNm pe baza catenei matriță de ADN cu participarea ARN-polimerazei.",
+      "Maturarea ARN la eucariote presupune eliminarea intronilor și unirea exonilor funcționali."
+     ],
+     "termeni": [
+      {
+       "t": "replicare semiconservativă",
+       "d": "mecanismul prin care duplexul de ADN rezultat conține o catenă veche și una nou-sintetizată"
+      },
+      {
+       "t": "maturare ARN (splicing)",
+       "d": "procesul de eliminare a intronilor și îmbinare a exonilor din ARN premesager"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce enzimă realizează polimerizarea noilor nucleotide în replicarea ADN?",
+       "v": "ADN-polimeraza."
+      },
+      {
+       "f": "De ce replicarea ADN este numită semiconservativă?",
+       "v": "Deoarece fiecare din cele două molecule-fiice conține o catenă originală și una nou sintetizată."
+      },
+      {
+       "f": "Unde are loc transcripția în celula eucariotă?",
+       "v": "În nucleul celulei."
+      },
+      {
+       "f": "Ce segmente sunt eliminate din ARN premesager în procesul de maturare?",
+       "v": "Intronii (secvențele necodificatoare)."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Sinteza ARN mesager folosind drept tipar catena de ADN se numește:",
+       "optiuni": [
+        "transcripție",
+        "translație",
+        "replicare",
+        "transducție"
+       ],
+       "corect": 0,
+       "explicatie": "Informația din ADN este transcrisă în limbaj ARN."
+      },
+      {
+       "intrebare": "Modelul semiconservativ al replicării a fost demonstrat experimental de:",
+       "optiuni": [
+        "Meselson și Stahl",
+        "Gregor Mendel",
+        "Watson și Crick",
+        "Thomas Hunt Morgan"
+       ],
+       "corect": 0,
+       "explicatie": "Au folosit izotopi grei de azot pentru a marca catenele."
+      },
+      {
+       "intrebare": "În cadrul maturării ARN la eucariote:",
+       "optiuni": [
+        "exonii se asamblează formând ARNm matur, iar intronii sunt degradați",
+        "intronii formează proteina finală",
+        "ambele catene sunt sintetizate continuu",
+        "se elimină riboza din scheletul ARN"
+       ],
+       "corect": 0,
+       "explicatie": "Numai exonii conțin secvența ce va fi tradusă în aminoacizi."
+      },
+      {
+       "intrebare": "Enzima responsabilă de desfacerea dublului helix în timpul replicării este:",
+       "optiuni": [
+        "helicaza",
+        "ligaza",
+        "amilaza",
+        "peptidaza"
+       ],
+       "corect": 0,
+       "explicatie": "Rupe punțile de hidrogen dintre bazele azotate complementare."
+      }
+     ]
+    },
+    {
+     "id": "bio12-03",
+     "titlu": "Codul genetic și translația",
+     "rezumat": "Codul genetic este sistemul de corespondență prin care succesiunea nucleotidelor din ARNm dictează succesiunea aminoacizilor în lanțul polipeptidic sintetizat. O unitate a codului genetic se numește codon și este formată dintr-un triplet de nucleotide adiacente din ARNm. Există 64 de codoni posibili (4 la puterea a 3-a): 61 codifică cei 20 de aminoacizi naturali, inclusiv codonul de start AUG (metionină), iar 3 sunt codoni STOP (UAA, UAG, UGA) care marchează oprirea sintezei. Proprietățile cheie ale codului genetic sunt: este triplet (3 baze = 1 aminoacid); este universal (același codon semnifică același aminoacid la aproape toate organismele vii, de la bacterii la om); este degenerat (mai mulți codoni diferiți pot codifica același aminoacid); este nesuprapus (codonii se citesc succesiv fără baze comune); și nu are virgule (citirea se face continuu). Translația are loc la nivelul ribozomilor din citoplasmă: ARNt aduce aminoacidul corespunzător prin recunoașterea complementarității dintre anticodonul său și codonul din ARNm.",
+     "ideiCheie": [
+      "Codul genetic face legătura dintre secvența de nucleotide și secvența de aminoacizi.",
+      "Un codon este format dintr-un triplet de nucleotide; există 64 de codoni, dintre care 3 STOP.",
+      "Proprietățile codului: universal, degenerat, nesuprapus, fără virgule.",
+      "Translația la ribozomi presupune recunoașterea codonului din ARNm de către anticodonul din ARNt."
+     ],
+     "termeni": [
+      {
+       "t": "codon",
+       "d": "triplet de nucleotide din ARNm care specifică un anumit aminoacid sau semnalul de stop"
+      },
+      {
+       "t": "translație",
+       "d": "traducerea secvenței nucleotidice din ARNm în secvența de aminoacizi a proteinei"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Câte nucleotide alcătuiesc un codon?",
+       "v": "Trei nucleotide (triplet)."
+      },
+      {
+       "f": "Ce înseamnă că un cod genetic este degenerat?",
+       "v": "Că un aminoacid poate fi codificat de mai mulți codoni sinonimi diferiți."
+      },
+      {
+       "f": "Care este codonul de start uzual și ce aminoacid codifică?",
+       "v": "AUG, care codifică aminoacidul metionină."
+      },
+      {
+       "f": "Ce rol au codonii UAA, UAG și UGA?",
+       "v": "Sunt codoni STOP (non-sens), semnalizând terminarea lanțului polipeptidic."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Universalitatea codului genetic demonstrează:",
+       "optiuni": [
+        "originea comună a tuturor organismelor vii de pe Pământ",
+        "că toate ființele au exact aceeași cantitate de ADN",
+        "lipsa mutațiilor la nivel celular",
+        "identitatea structurală a proteinelor virale și umane"
+       ],
+       "corect": 0,
+       "explicatie": "Același dicționar biochimic funcționează identic la aproape toate formele de viață."
+      },
+      {
+       "intrebare": "Codonii STOP din structura ARNm au rolul de a:",
+       "optiuni": [
+        "marca sfârșitul sintezei lanțului polipeptidic",
+        "iniția legarea ribozomului la capătul 5'",
+        "transporta aminoacidul glicină",
+        "repara legăturile fosfodiesterice"
+       ],
+       "corect": 0,
+       "explicatie": "Pentru ei nu există ARNt corespunzător."
+      },
+      {
+       "intrebare": "Proprietatea codului genetic de a fi nesuprapus înseamnă că:",
+       "optiuni": [
+        "o nucleotidă aparține unui singur codon și nu este citită de două ori",
+        "codonii sunt separați prin spații libere de nucleotide",
+        "un aminoacid are un singur codon",
+        "fiecare specie are un cod genetic propriu"
+       ],
+       "corect": 0,
+       "explicatie": "Cadrul de citire avansează din 3 în 3 nucleotide."
+      },
+      {
+       "intrebare": "Anticodonul este o secvență de trei nucleotide situată pe:",
+       "optiuni": [
+        "molecula de ARN de transport (ARNt)",
+        "catena de ADN telomeric",
+        "ARN-ul mesager",
+        "membrana ribozomală"
+       ],
+       "corect": 0,
+       "explicatie": "Se împerechează complementar cu codonul corespunzător din ARNm."
+      }
+     ]
+    },
+    {
+     "id": "bio12-04",
+     "titlu": "Genetica mendeliană și teoria cromozomială",
+     "rezumat": "Genetica clasică a fost fondată de Gregor Mendel prin experimente de hibridare la mazăre. Legea purității gameților arată că factorii ereditari (genele) există în perechi la indivizii diploizi și se separă în timpul meiozei, astfel încât fiecare gamet conține un singur factor din pereche. În monohibridare, încrucișarea a doi heterozigoți (Aa x Aa) produce în generația F2 un raport de segregare fenotipică de 3 dominanți la 1 recesiv (3:1) și genotipică de 1:2:1. Legea segregării independente arată că perechile de gene se transmit independent în dihibridare, dând în F2 raportul 9:3:3:1. Teoria cromozomială a eredității, elaborată de Thomas Hunt Morgan pe musculița de oțet (Drosophila melanogaster), a demonstrat că genele sunt dispuse liniar pe cromozomi. Genele situate pe același cromozom tind să se transmită în bloc, fenomen numit înlănțuire genică (linkage). Schimbul reciproc de segmente cromatidiene între cromozomii omologi în profaza I a meiozei (crossing-over) duce la recombinare genetică intracromozomială, rupând linkage-ul și generând o diversitate uriașă de gameți.",
+     "ideiCheie": [
+      "Legea purității gameților explică segregarea fenotipică 3:1 în monohibridare.",
+      "Legea segregării independente a caracterelor conduce la raportul fenotipic 9:3:3:1 în dihibridare.",
+      "Morgan a demonstrat dispunerea liniară a genelor pe cromozomi prin experimentele pe Drosophila.",
+      "Crossing-overul reprezintă schimbul de material genetic între cromozomi omologi în meioză."
+     ],
+     "termeni": [
+      {
+       "t": "linkage",
+       "d": "fenomenul transmiterii în bloc a genelor situate pe același cromozom"
+      },
+      {
+       "t": "crossing-over",
+       "d": "schimbul reciproc de fragmente între cromatidele nesurori ale cromozomilor omologi"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce raport fenotipic se obține în generația F2 în monohibridarea cu dominanță completă?",
+       "v": "Raportul 3:1 (trei dominanți la un recesiv)."
+      },
+      {
+       "f": "Ce este organismul heterozigot?",
+       "v": "Organismul care are alele diferite pentru o anumită genă (Aa)."
+      },
+      {
+       "f": "Cine a demonstrat experimental dispunerea liniară a genelor pe cromozomi?",
+       "v": "Thomas Hunt Morgan."
+      },
+      {
+       "f": "Când se produce procesul de crossing-over?",
+       "v": "În profaza I a meiozei, în stadiul de pachiten."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Raportul fenotipic caracteristic generației F2 în dihibridarea mendeliană este:",
+       "optiuni": [
+        "9:3:3:1",
+        "3:1",
+        "1:2:1",
+        "1:1:1:1"
+       ],
+       "corect": 0,
+       "explicatie": "Rezultă din combinarea independentă a două perechi de caractere."
+      },
+      {
+       "intrebare": "Crossing-overul are ca efect biologic:",
+       "optiuni": [
+        "creșterea variabilității genetice prin recombinare intracromozomială",
+        "dublarea numărului de cromozomi din gameți",
+        "oprirea diviziunii celulare meiotice",
+        "mutații genomice letale"
+       ],
+       "corect": 0,
+       "explicatie": "Asigură combinații noi de alele materne și paterne."
+      },
+      {
+       "intrebare": "Dacă un individ are genotipul AaBb, câte tipuri de gameți neînlănțuiți poate produce?",
+       "optiuni": [
+        "4 tipuri de gameți (AB, Ab, aB, ab) în proporții egale",
+        "2 tipuri de gameți",
+        "8 tipuri de gameți",
+        "un singur tip de gamet"
+       ],
+       "corect": 0,
+       "explicatie": "Gameții se formează prin segregare independentă (2 la puterea 2 = 4)."
+      },
+      {
+       "intrebare": "Fenomenul de linkage contrazice parțial:",
+       "optiuni": [
+        "legea segregării independente a perechilor de caractere",
+        "legea purității gameților",
+        "teoria celulară a lui Schwann",
+        "universalitatea codului genetic"
+       ],
+       "corect": 0,
+       "explicatie": "Genele de pe același cromozom nu se separă independent dacă nu apare crossing-over."
+      }
+     ]
+    },
+    {
+     "id": "bio12-05",
+     "titlu": "Mutațiile și bolile genetice umane",
+     "rezumat": "Mutația este o modificare bruscă și stabilă în structura materialului genetic, care nu provine din recombinarea normală și se transmite la descendenți dacă afectează celulele liniei germinale. Mutațiile pot fi clasificate după cantitatea de material afectat în: genice (modificări punctiforme de baze azotate prin substituție, deleție sau inserție), cromozomiale (schimbări în structura cromozomilor prin deleții, duplicații, inversii sau translocații) și genomice (variații ale numărului de cromozomi). Mutațiile genomice umane includ aneuploidiile: trisomia 21 (sindromul Down, individ cu 47 de cromozomi, având trăsături mongoloide, retard psihomotor și anomalii cardiace), sindromul Turner (monosomie X, cariotip 45,X0 la femei cu talie mică și sterilitate) și sindromul Klinefelter (cariotip 47,XXY la bărbați cu hipogonadism și ginecomastie). Mutațiile genice produc boli metabolice (albinism, fenilcetonurie) sau hemoglobinopatii (anemia falciformă). Bolile legate de sex sunt determinate de gene de pe cromozomul X, precum hemofilia și daltonismul, manifestate predominant la bărbați.",
+     "ideiCheie": [
+      "Mutațiile pot fi genice, cromozomiale sau genomice, fiind spontane sau induse de factori mutageni.",
+      "Sindromul Down este o aneuploidie autozomală caracterizată prin trisomia cromozomului 21.",
+      "Sindromul Turner (45,X0) și Klinefelter (47,XXY) reprezintă anomalii numerice ale heterozomilor.",
+      "Daltonismul și hemofilia sunt caractere recesive legate de cromozomul X."
+     ],
+     "termeni": [
+      {
+       "t": "aneuploidie",
+       "d": "anomalie genomică constând în variația numărului de cromozomi cu unul sau doi"
+      },
+      {
+       "t": "hemofilie",
+       "d": "boală genetică recesivă legată de sex caracterizată prin defecte de coagulare a sângelui"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Câți cromozomi are o persoană diagnosticată cu sindromul Down?",
+       "v": "47 de cromozomi (prezintă trei cromozomi 21)."
+      },
+      {
+       "f": "Care este cariotipul unei femei cu sindromul Turner?",
+       "v": "45,X0 (monosomie pe perechea heterozomilor)."
+      },
+      {
+       "f": "De ce hemofilia și daltonismul afectează în principal bărbații?",
+       "v": "Deoarece sunt transmise prin cromozomul X, iar bărbații (XY) au un singur cromozom X (stare hemicigoză)."
+      },
+      {
+       "f": "Cum se numesc factorii din mediu care măresc frecvența mutațiilor?",
+       "v": "Factori mutageni (fizici, chimici, biologici)."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Sindromul Down reprezintă o mutație de tip:",
+       "optiuni": [
+        "genomică, aneuploidie autozomală (trisomia 21)",
+        "genică heterozomală",
+        "cromozomială structurală prin inversie",
+        "poliploidie completă"
+       ],
+       "corect": 0,
+       "explicatie": "Prezența unui cromozom 21 suplimentar generează manifestările tipice."
+      },
+      {
+       "intrebare": "O femeie purtătoare a genei daltonismului (XDXd) căsătorită cu un bărbat sănătos (XDY) poate avea:",
+       "optiuni": [
+        "băieți cu risc de 50% de a fi daltoniști și fete fără afectare fenotipică",
+        "toți copiii afectați de daltonism",
+        "fete exclusiv daltoniste",
+        "numai băieți sănătoși"
+       ],
+       "corect": 0,
+       "explicatie": "Fiii moștenesc cromozomul X cu alela recesivă de la mamă."
+      },
+      {
+       "intrebare": "Mutațiile genice punctiforme constau în:",
+       "optiuni": [
+        "modificarea secvenței de nucleotide prin substituție, deleție sau inserție",
+        "fuziunea a doi cromozomi independenți",
+        "pierderea unui braț cromozomial întreg",
+        "multiplicarea întregului set de cromozomi (3n, 4n)"
+       ],
+       "corect": 0,
+       "explicatie": "Pot schimba un singur aminoacid în proteina rezultată."
+      },
+      {
+       "intrebare": "Radiațiile ionizante (raze X, raze gama) acționează ca factori mutageni:",
+       "optiuni": [
+        "fizici, producând rupturi în catenele de ADN",
+        "chimici de sinteză",
+        "biologici virali",
+        "exclusiv hormonali"
+       ],
+       "corect": 0,
+       "explicatie": "Provoacă leziuni severe la nivelul dublului helix."
+      }
+     ]
+    },
+    {
+     "id": "bio12-06",
+     "titlu": "Ingineria genetică și biotehnologiile",
+     "rezumat": "Ingineria genetică reprezintă ansamblul metodelor moderne de manipulare in vitro a materialului genetic, permițând transferul de gene între specii diferite și obținerea de organisme modificate genetic (OMG) cu proprietăți dorite. Etapele clonării moleculare includ: izolarea genei de interes, tăierea ADN-ului cu enzime de restricție la situsuri specifice, inserarea genei într-un vector de clonare (plasmid bacterian sau virus) cu ajutorul ADN-ligazei pentru a forma ADN recombinant și introducerea acestuia într-o celulă-gazdă. Aplicațiile practice ale ingineriei genetice sunt revoluționare: în medicină, bacterii recombinate (precum Escherichia coli) produc industrial insulină umană, hormon de creștere și vaccinuri sigure; în agricultură s-au creat plante rezistente la secetă, dăunători (porumb Bt) sau erbicide; în terapie genică se încearcă înlocuirea genelor mutante defecte cu copii normale funcționale. Totodată, clonarea organismelor și utilizarea celulelor stem pluripotente deschid perspective uriașe în medicina regenerativă, ridicând însă dileme bioetice majore.",
+     "ideiCheie": [
+      "Ingineria genetică permite transferul direcționat de gene între organisme diferite.",
+      "Enzimele de restricție și ADN-ligaza sunt instrumentele biochimice de bază pentru ADN recombinant.",
+      "Bacteriile transgenice sunt utilizate pentru producerea la scară industrială a insulinei umane.",
+      "Terapia genică vizează corectarea defectelor genetice prin introducerea de gene sănătoase."
+     ],
+     "termeni": [
+      {
+       "t": "ADN recombinant",
+       "d": "moleculă hibridă de ADN obținută artificial prin combinarea de fragmente din surse diferite"
+      },
+      {
+       "t": "plasmid",
+       "d": "moleculă mică de ADN circular extracromozomial prezentă în bacterii, folosită ca vector"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce rol au enzimele de restricție în ingineria genetică?",
+       "v": "Taie molecula de ADN în locuri specifice, generând capete adezive."
+      },
+      {
+       "f": "Ce enzimă leagă fragmentul de ADN de interes în vectorul plasmidic?",
+       "v": "ADN-ligaza."
+      },
+      {
+       "f": "Cum se produce insulina umană modernă utilizată în tratamentul diabetului?",
+       "v": "Prin cultivarea bacteriilor sau levurilor modificate genetic cu gena insulinei umane."
+      },
+      {
+       "f": "Ce este un organism modificat genetic (OMG)?",
+       "v": "Un organism în genomul căruia a fost introdusă o genă străină funcțională."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Enzimele de restricție sunt considerate „foarfece moleculare” deoarece:",
+       "optiuni": [
+        "taie legăturile fosfodiesterice la nivelul unor secvențe specifice de nucleotide",
+        "leagă covalent fragmentele libere de ADN",
+        "copiază catena de ARNm în ADN complementar",
+        "sintetizează proteine direct în celulă"
+       ],
+       "corect": 0,
+       "explicatie": "Recunosc secvențe palindromice specifice."
+      },
+      {
+       "intrebare": "Vectorul cel mai utilizat pentru transferul de gene în celulele bacteriene este:",
+       "optiuni": [
+        "plasmidul",
+        "ribozomul",
+        "mitocondria",
+        "peretele celular de peptidoglican"
+       ],
+       "corect": 0,
+       "explicatie": "Se replică autonom în interiorul celulei-gazdă."
+      },
+      {
+       "intrebare": "Terapia genică reprezintă:",
+       "optiuni": [
+        "tratarea bolilor prin introducerea de material genetic funcțional în celulele pacientului",
+        "administrarea masivă de antibiotice de sinteză",
+        "extirparea chirurgicală a organelor afectate",
+        "vaccinarea sezonieră clasică"
+       ],
+       "corect": 0,
+       "explicatie": "Țintește cauza primară moleculară a defectului genetic."
+      },
+      {
+       "intrebare": "Porumbul modificat genetic rezistent la atacul insectelor (Bt) produce:",
+       "optiuni": [
+        "o proteină toxică specifică sintetizată după o genă din bacteria Bacillus thuringiensis",
+        "erbicide chimice concentrate în frunze",
+        "o cantitate dublă de amidon",
+        "cantități letale de nicotină"
+       ],
+       "corect": 0,
+       "explicatie": "Reduce necesarul de insecticide chimice poluante."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bio12-c3",
+   "titlu": "Ecologie generală și impactul uman",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "bio12-07",
+     "titlu": "Ecosistemul: structură și trofic",
+     "rezumat": "Ecologia studiază relațiile complexe dintre organisme și mediul lor de viață. Unitatea structurală și funcțională a biosferei este ecosistemul, format din biotop (componenta abiotică nevie: sol, aer, apă, temperatură, lumină) și biocenoză (comunitatea vie a populațiilor de plante, animale și microorganisme). Factorii ecologici abiotici și biotici acționează integrat, determinând limitele de toleranță și adaptările specifice ale viețuitoarelor. Funcționarea ecosistemului se bazează pe fluxul continuu de energie și circuitul materiei. Producătorii primari (plante autotrofe, alge, fitoplancton) convertesc energia solară în substanță organică prin fotosinteză. Consumatorii consumă această materie: primari (fitofagi), secundari (carnivori de ordinul I) și terțiari (prădători de vârf). Descompunătorii (bacterii și ciuperci) descompun materia organică moartă în săruri minerale, închizând ciclul biogeochimic. Relațiile trofice se structurează în lanțuri și rețele trofice complexe.",
+     "ideiCheie": [
+      "Ecosistemul este alcătuit din biotop (mediu abiotic) și biocenoză (comunitate vie).",
+      "Producătorii sintetizează substanță organică din materie anorganică și lumină.",
+      "Consumatorii transferă energia de-a lungul verigilor din lanțurile trofice.",
+      "Descompunătorii mineralizează cadavrele și resturile organice, refăcând rezervele biotopului."
+     ],
+     "termeni": [
+      {
+       "t": "biocenoză",
+       "d": "totalitatea populațiilor de organisme legate spațial și funcțional dintr-un biotop"
+      },
+      {
+       "t": "piramidă trofică",
+       "d": "reprezentare grafică a biomasei, energiei sau numărului de indivizi pe niveluri trofice"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt cele două componente fundamentale ale oricărui ecosistem?",
+       "v": "Biotopul (mediul abiotic) și biocenoza (comunitatea de ființe vii)."
+      },
+      {
+       "f": "Ce rol trofic au plantele verzi într-o pădure?",
+       "v": "Sunt producători primari autotrofi."
+      },
+      {
+       "f": "Ce fac descompunătorii într-un ecosistem?",
+       "v": "Transformă materia organică moartă în compuși minerali anorganici."
+      },
+      {
+       "f": "De ce se pierde energie de la un nivel trofic la următorul?",
+       "v": "Datorită căldurii disipate prin respirație și activitate metabolică (randament de circa 10%)."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Nivelul trofic de bază al oricărui lanț trofic terestru este ocupat de:",
+       "optiuni": [
+        "producătorii primari fotoautotrofi",
+        "consumatorii primari erbivori",
+        "carnivorii de vârf",
+        "paraziții animali"
+       ],
+       "corect": 0,
+       "explicatie": "Fixează energia solară în legături chimice."
+      },
+      {
+       "intrebare": "Într-un lanț trofic, descompunătorii au rolul esențial de a:",
+       "optiuni": [
+        "mineraliza substanța organică și a închide circuitul materiei",
+        "consuma exclusiv plante vii",
+        "opri fluxul de energie spre biosferă",
+        "genera energie solară prin chimioluminescență"
+       ],
+       "corect": 0,
+       "explicatie": "Readuc elementele minerale la dispoziția producătorilor."
+      },
+      {
+       "intrebare": "Într-o piramidă a biomasei, masa organismelor:",
+       "optiuni": [
+        "scade de regulă de la baza reprezentată de producători spre vârful cu prădători",
+        "crește spectaculos spre nivelurile superioare",
+        "rămâne perfect identică la toate etajele",
+        "depinde exclusiv de adâncimea apei"
+       ],
+       "corect": 0,
+       "explicatie": "Randamentul ecologic transferă doar aproximativ 10% din energie."
+      },
+      {
+       "intrebare": "Factorii ecologici abiotici cuprind:",
+       "optiuni": [
+        "temperatura, lumina, umiditatea și compoziția chimică a solului",
+        "prădătorii și paraziții",
+        "concurenții pentru hrană",
+        "microorganismele patogene"
+       ],
+       "corect": 0,
+       "explicatie": "Reprezintă elementele fizico-chimice ale biotopului."
+      }
+     ]
+    },
+    {
+     "id": "bio12-08",
+     "titlu": "Dinamica ecosistemelor și impactul antropic",
+     "rezumat": "Ecosistemele nu sunt rigide, ci dinamice, evoluând în timp prin procesul de succesiune ecologică: de la stadii pioniere colonizatoare până la comunitatea stabilă de echilibru dinamic numită stadiu de climax (de exemplu, o pădure matură de stejar sau fag). Relațiile interspecifice dintre populații pot fi mutualiste (+/+, ambii beneficiază, ca în simbioza micoriziană), comensale (+/0), de pradă (+/-, prădător-pradă) sau de competiție (-/-, pentru hrană sau adăpost). Activitatea umană exercită o presiune fără precedent asupra biosferei. Poluarea aerului prin emisii de gaze cu efect de seră (CO2, metan) accelerează încălzirea globală, iar oxizii de azot și sulf provoacă ploi acide. Defrișările masive duc la eroziunea solului și distrugerea habitatelor, declanșând o criză a biodiversității. Eutrofizarea apelor, acumularea pesticidelor și a microplasticelor amenință stabilitatea biosferei. Conservarea naturii prin parcuri naționale, protejarea speciilor periclitate și dezvoltarea durabilă reprezintă priorități ecologice majore.",
+     "ideiCheie": [
+      "Succesiunea ecologică culminează cu atingerea stadiului stabil de climax.",
+      "Relațiile dintre specii pot fi de cooperare (mutualism), neutralitate sau conflict (competiție, parazitism).",
+      "Încălzirea globală este cauzată de creșterea concentrației gazelor cu efect de seră provenite din arderi.",
+      "Conservarea biodiversității implică protejarea habitatelor și exploatarea sustenabilă a resurselor."
+     ],
+     "termeni": [
+      {
+       "t": "stadiu de climax",
+       "d": "starea de maturitate și echilibru ecologic stabil al unui ecosistem"
+      },
+      {
+       "t": "efect de seră",
+       "d": "reținerea căldurii solare în atmosferă de către vaporii de apă, CO2 și metan"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce reprezintă stadiul de climax într-o succesiune ecologică?",
+       "v": "Starea finală de echilibru stabil a ecosistemului."
+      },
+      {
+       "f": "Ce este mutualismul?",
+       "v": "O relație interspecifică reciproc avantajoasă pentru ambele specii partenere."
+      },
+      {
+       "f": "Care este principalul gaz cu efect de seră eliberat prin arderea combustibililor fosili?",
+       "v": "Dioxidul de carbon (CO2)."
+      },
+      {
+       "f": "Ce fenomen produce îmbogățirea apelor cu nutrienți (azotați și fosfați), urmată de sufocarea faunei piscicole?",
+       "v": "Eutrofizarea."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Relația ecologică dintre lichen (alga și ciuperca) este un exemplu clasic de:",
+       "optiuni": [
+        "mutualism (simbioză reciproc avantajoasă)",
+        "parazitism obligat unilateral",
+        "competiție interspecifică directă",
+        "amensalism"
+       ],
+       "corect": 0,
+       "explicatie": "Alga fotosintetizează, iar ciuperca reține apa și mineralele."
+      },
+      {
+       "intrebare": "Creșterea efectului de seră la nivel planetar are drept consecință principală:",
+       "optiuni": [
+        "schimbările climatice globale și topirea ghețarilor",
+        "scăderea permanentă a nivelului mărilor",
+        "refacerea spontană a stratului de ozon",
+        "scăderea temperaturii medii a biosferei"
+       ],
+       "corect": 0,
+       "explicatie": "Conduce la fenomene meteo extreme și modificări ale habitatelor."
+      },
+      {
+       "intrebare": "Eutrofizarea lacurilor este cauzată de:",
+       "optiuni": [
+        "deversarea excesivă de îngrășăminte chimice și ape uzate bogate în fosfați și nitrați",
+        "scăderea temperaturii apei pe timpul iernii",
+        "lipsa completă a algelor din masa apei",
+        "oxigenarea puternică a apei de suprafață"
+       ],
+       "corect": 0,
+       "explicatie": "Explozia algelor consumă oxigenul, determinând asfixierea peștilor."
+      },
+      {
+       "intrebare": "Protecția biodiversității prin crearea de arii protejate urmărește:",
+       "optiuni": [
+        "menținerea fondului genetic natural și conservarea speciilor în habitatul lor",
+        "defrișarea selectivă a pădurilor seculare",
+        "introducerea masivă de specii invazive exotice",
+        "betonarea cursurilor de apă naturale"
+       ],
+       "corect": 0,
+       "explicatie": "Păstrează integritatea lanțurilor trofice naturale."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "teze": [
+  {
+   "semestru": 1,
+   "test": [
+    {
+     "intrebare": "Legăturile de hidrogen din molecula de ADN se stabilesc între:",
+     "optiuni": [
+      "bazele azotate complementare de pe cele două catene antiparalele",
+      "pentoză și gruparea fosfat",
+      "două molecule succesive de dezoxiriboză",
+      "aminoacizii din situsul catalitic"
+     ],
+     "corect": 0,
+     "explicatie": "Două punți între A și T, trei punți între G și C."
+    },
+    {
+     "intrebare": "Replicarea ADN-ului este considerată un proces semiconservativ deoarece:",
+     "optiuni": [
+      "fiecare duplex nou format conține o catenă veche și una nou sintetizată",
+      "doar jumătate din celulele fiice primesc ADN",
+      "ambele catene sunt integral nou sintetizate din nucleotide libere",
+      "catena veche se dezintegrează complet după copiere"
+     ],
+     "corect": 0,
+     "explicatie": "Garantează transmiterea neschimbată a genomului."
+    },
+    {
+     "intrebare": "În procesul de transcripție, enzima ARN-polimerază utilizează ca matriță:",
+     "optiuni": [
+      "catena de ADN cu orientare 3' spre 5'",
+      "catena de ADN 5' spre 3' exclusiv",
+      "molecula de ARN ribozomal",
+      "un lanț polipeptidic citoplasmatic"
+     ],
+     "corect": 0,
+     "explicatie": "ARN-ul este sintetizat în direcția 5'-3'."
+    },
+    {
+     "intrebare": "Un număr de 300 de nucleotide dintr-un ARNm matur codifică un lanț polipeptidic format din:",
+     "optiuni": [
+      "100 de aminoacizi (fără a lua în calcul codonul STOP)",
+      "300 de aminoacizi",
+      "50 de aminoacizi",
+      "900 de aminoacizi"
+     ],
+     "corect": 0,
+     "explicatie": "Fiecare codon este format din 3 nucleotide (300 / 3 = 100)."
+    },
+    {
+     "intrebare": "Universalitatea codului genetic înseamnă că:",
+     "optiuni": [
+      "un anumit codon determină același aminoacid la aproape toate organismele",
+      "toți indivizii unei specii au aceleași gene",
+      "codul conține doar nucleotide purinice",
+      "nu există codoni STOP în genom"
+     ],
+     "corect": 0,
+     "explicatie": "Este dovada originii biologice comune."
+    },
+    {
+     "intrebare": "În cadrul unei hibridări mendeliene, un individ heterozigot (Aa):",
+     "optiuni": [
+      "produce două tipuri de gameți, A și a, în proporții egale",
+      "produce un singur tip de gameți",
+      "manifestă fenotipul recesiv",
+      "nu poate transmite gena recesivă la urmași"
+     ],
+     "corect": 0,
+     "explicatie": "Conform legii purității gameților."
+    },
+    {
+     "intrebare": "Crossing-overul are loc în timpul diviziunii celulare:",
+     "optiuni": [
+      "meiotice, în profaza I între cromozomii omologi",
+      "mitotice, în metafază",
+      "meiotice, în anafaza II",
+      "în timpul interfazei nucleare"
+     ],
+     "corect": 0,
+     "explicatie": "Asigură recombinarea intracromozomială a caracterelor."
+    },
+    {
+     "intrebare": "Daltonismul este o anomalie a vederii cromatice determinată de:",
+     "optiuni": [
+      "o alelă recesivă situată pe cromozomul heterozom X",
+      "o genă dominantă de pe cromozomul Y",
+      "o trisomie autozomală a cromozomului 21",
+      "o mutație a ADN-ului mitocondrial"
+     ],
+     "corect": 0,
+     "explicatie": "Bărbații XY manifestă boala la o singură copie a genei mutante."
+    }
+   ]
+  },
+  {
+   "semestru": 2,
+   "test": [
+    {
+     "intrebare": "Aneuploidia caracterizată prin cariotipul 47,XXY la bărbați corespunde sindromului:",
+     "optiuni": [
+      "Klinefelter",
+      "Turner (45,X0)",
+      "Down (trisomia 21)",
+      "Patau (trisomia 13)"
+     ],
+     "corect": 0,
+     "explicatie": "Se manifestă prin hipogonadism și dezvoltare armonioasă atipică."
+    },
+    {
+     "intrebare": "Tehnologia ADN-ului recombinant utilizează ca vectori de clonare:",
+     "optiuni": [
+      "plasmide bacteriene sau genomuri virale",
+      "ribozomi liberi",
+      "molecule de ARN de transport",
+      "enzime digestive"
+     ],
+     "corect": 0,
+     "explicatie": "Plasmidele transportă gena străină în celula gazdă."
+    },
+    {
+     "intrebare": "Terapia genică somatică constă în:",
+     "optiuni": [
+      "introducerea unei gene normale funcționale în celulele somatice ale unui pacient",
+      "clonarea integrală a organismului bolnav",
+      "radioterapia țesuturilor tumorale",
+      "vaccinarea obligatorie a populației"
+     ],
+     "corect": 0,
+     "explicatie": "Remediază direct anomalia moleculară fără a se transmite descendenților."
+    },
+    {
+     "intrebare": "În cadrul oricărui ecosistem, producătorii primari realizează:",
+     "optiuni": [
+      "transformarea energiei solare în energie chimică prin fotosinteză",
+      "degradarea substanțelor organice în dioxid de carbon exclusiv noaptea",
+      "consumarea directă a ierbivorelor",
+      "absorbția exclusivă a oxigenului atmosferic"
+     ],
+     "corect": 0,
+     "explicatie": "Asigură baza nutritivă pentru toate celelalte niveluri trofice."
+    },
+    {
+     "intrebare": "De-a lungul unui lanț trofic, energia utilizabilă:",
+     "optiuni": [
+      "scade succesiv de la un nivel la altul prin pierderi metabolice și căldură",
+      "crește exponențial spre consumatorii de vârf",
+      "este reciclată integral în proporție de 100%",
+      "depinde exclusiv de prezența prădătorilor"
+     ],
+     "corect": 0,
+     "explicatie": "Se respectă legea termodinamicii și randamentul de ~10%."
+    },
+    {
+     "intrebare": "Relația ecologică de tip comensalism (+/0) se caracterizează prin:",
+     "optiuni": [
+      "o specie beneficiază, iar cealaltă nu este nici ajutată, nici vătămată",
+      "ambele specii suferă pierderi majore",
+      "ambii parteneri depind obligatoriu unul de altul",
+      "o specie o ucide și o consumă pe cealaltă"
+     ],
+     "corect": 0,
+     "explicatie": "Un organism folosește resurse fără a prejudicia gazda."
+    },
+    {
+     "intrebare": "Creșterea emisiilor industriale de dioxid de carbon accentuează:",
+     "optiuni": [
+      "efectul de seră și modificările climatice globale",
+      "refacerea stratului protector de ozon",
+      "scăderea acidității oceanului planetar",
+      "îngroșarea calotelor glaciare"
+     ],
+     "corect": 0,
+     "explicatie": "Reține radiațiile infraroșii în troposferă."
+    },
+    {
+     "intrebare": "Mutațiile genice sunt definite ca modificări la nivelul:",
+     "optiuni": [
+      "secvenței de nucleotide a unei gene individuale",
+      "numărului total de cromozomi din celulă",
+      "formei vizibile a cromozomilor metafazici",
+      "fusului de diviziune celulară"
+     ],
+     "corect": 0,
+     "explicatie": "Sunt cele mai fine modificări moleculare ale materialului genetic."
+    }
+   ]
+  }
+ ]
+}

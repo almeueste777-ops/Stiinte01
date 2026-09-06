@@ -11,7 +11,7 @@ Anul **4** din cei 5 ai parcursului [[Parcurs școlar]].
 
 ⬅ [[Clasa a XI-a]] · [[Clasa a XIII-a]] ➡
 
-## Materii (11)
+## Materii (12)
 
 ### [[Arie - Limbă și comunicare|Limbă și comunicare]]
 - [[Limba și literatura română (clasa a XII-a)|Limba și literatura română]] — 🎓 bac, 📘 20 lecții în aplicație
@@ -21,6 +21,7 @@ Anul **4** din cei 5 ai parcursului [[Parcurs școlar]].
 ### [[Arie - Matematică și științe ale naturii|Matematică și științe ale naturii]]
 - [[Matematică aplicată în științele sociale (clasa a XII-a)|Matematică aplicată în științele sociale]] — 📘 18 lecții în aplicație
 - [[ȘTIAM (științe integrate) (clasa a XII-a)|ȘTIAM (științe integrate)]] — 📘 16 lecții în aplicație
+- [[Biologie (clasa a XII-a)|Biologie]] — 🎓 bac, 📘 8 lecții în aplicație
 
 ### [[Arie - Om și societate|Om și societate]]
 - [[Istorie (clasa a XII-a)|Istorie]] — 🎓 bac, 📘 24 lecții în aplicație

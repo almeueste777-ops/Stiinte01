@@ -1,11 +1,11 @@
 {
   "version": "03",
-  "actualizat": "2026-08-24",
-  "nrModule": 60,
-  "nrLectii": 1152,
-  "nrCarduri": 4608,
-  "nrIntrebari": 4608,
-  "nrIntrebariTeze": 1942,
+  "actualizat": "2026-09-06",
+  "nrModule": 63,
+  "nrLectii": 1177,
+  "nrCarduri": 4708,
+  "nrIntrebari": 4708,
+  "nrIntrebariTeze": 1990,
   "module": [
     {
       "id": "geografie-9",
@@ -1260,7 +1260,7 @@
       "clasa": "a IX-a",
       "an": 1,
       "arie": "Matematică și științe ale naturii",
-      "bac": false,
+      "bac": true,
       "socioUman": false,
       "descriere": "Celula și țesuturile, anatomia și fiziologia omului: sistemele de relație, de nutriție și de reproducere.",
       "nrLectii": 18,
@@ -3213,7 +3213,7 @@
       "clasa": "a X-a",
       "an": 2,
       "arie": "Matematică și științe ale naturii",
-      "bac": false,
+      "bac": true,
       "socioUman": false,
       "descriere": "Genetică și evoluție, diversitatea lumii vii, ecologie și educație pentru sănătate.",
       "nrLectii": 18,
@@ -5301,6 +5301,104 @@
       ]
     },
     {
+      "id": "biologie-11",
+      "materie": "Biologie",
+      "clasa": "a XI-a",
+      "an": 3,
+      "arie": "Matematică și științe ale naturii",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Anatomia și fiziologia omului pentru bacalaureat: sistemul nervos, analizatorii, glandele endocrine, sistemul locomotor, digestia, respirația, circulația, excreția și reproducerea.",
+      "nrLectii": 11,
+      "nrCarduri": 44,
+      "nrIntrebari": 44,
+      "nrIntrebariTeze": 16,
+      "capitole": [
+        {
+          "id": "bio11-c1",
+          "titlu": "Sistemul nervos și analizatorii",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "bio11-01",
+              "titlu": "Sistemul nervos: organizare și reflexe"
+            },
+            {
+              "id": "bio11-02",
+              "titlu": "Encefalul și măduva spinării"
+            },
+            {
+              "id": "bio11-03",
+              "titlu": "Sistemul nervos vegetativ"
+            },
+            {
+              "id": "bio11-04",
+              "titlu": "Analizatorii: văzul și auzul"
+            }
+          ]
+        },
+        {
+          "id": "bio11-c2",
+          "titlu": "Sistemul endocrin și locomotor",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "bio11-05",
+              "titlu": "Glandele endocrine și reglarea hormonală"
+            },
+            {
+              "id": "bio11-06",
+              "titlu": "Sistemul osos și muscular"
+            }
+          ]
+        },
+        {
+          "id": "bio11-c3",
+          "titlu": "Funcțiile de nutriție: digestia și circulația",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "bio11-07",
+              "titlu": "Digestia și absorbția intestinală"
+            },
+            {
+              "id": "bio11-08",
+              "titlu": "Sângele și circulația cardiovasculară"
+            }
+          ]
+        },
+        {
+          "id": "bio11-c4",
+          "titlu": "Respirația, excreția și reproducerea",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "bio11-09",
+              "titlu": "Respirația la om"
+            },
+            {
+              "id": "bio11-10",
+              "titlu": "Excreția și fiziologia renală"
+            },
+            {
+              "id": "bio11-11",
+              "titlu": "Sistemul reproducător uman"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 8
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 8
+        }
+      ]
+    },
+    {
       "id": "mass-11",
       "materie": "Matematică aplicată în științele sociale",
       "clasa": "a XI-a",
@@ -6955,6 +7053,78 @@
         {
           "semestru": 2,
           "nrIntrebari": 19
+        }
+      ]
+    },
+    {
+      "id": "biologie-12",
+      "materie": "Biologie",
+      "clasa": "a XII-a",
+      "an": 4,
+      "arie": "Matematică și științe ale naturii",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Genetică moleculară, ereditate și variabilitate, evoluționism și ecologie umană pentru examenul de bacalaureat la profil real.",
+      "nrLectii": 8,
+      "nrCarduri": 32,
+      "nrIntrebari": 32,
+      "nrIntrebariTeze": 16,
+      "capitole": [
+        {
+          "id": "bio12-c1",
+          "titlu": "Genetica moleculară",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "bio12-01",
+              "titlu": "Acizii nucleici: structura ADN și ARN"
+            },
+            {
+              "id": "bio12-02",
+              "titlu": "Replicarea ADN și transcripția"
+            },
+            {
+              "id": "bio12-03",
+              "titlu": "Codul genetic și translația"
+            },
+            {
+              "id": "bio12-04",
+              "titlu": "Genetica mendeliană și teoria cromozomială"
+            },
+            {
+              "id": "bio12-05",
+              "titlu": "Mutațiile și bolile genetice umane"
+            },
+            {
+              "id": "bio12-06",
+              "titlu": "Ingineria genetică și biotehnologiile"
+            }
+          ]
+        },
+        {
+          "id": "bio12-c3",
+          "titlu": "Ecologie generală și impactul uman",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "bio12-07",
+              "titlu": "Ecosistemul: structură și trofic"
+            },
+            {
+              "id": "bio12-08",
+              "titlu": "Dinamica ecosistemelor și impactul antropic"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 8
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 8
         }
       ]
     },
@@ -8901,6 +9071,77 @@
         {
           "semestru": 2,
           "nrIntrebari": 18
+        }
+      ]
+    },
+    {
+      "id": "biologie-13",
+      "materie": "Biologie",
+      "clasa": "a XIII-a",
+      "an": 5,
+      "arie": "Matematică și științe ale naturii",
+      "bac": true,
+      "socioUman": false,
+      "descriere": "Sinteză integrată și pregătire intensivă pentru bacalaureat la biologie: rezolvarea problemelor de genetică, fiziologie comparată, scheme de sinteză și modele de subiecte complete tip examen.",
+      "nrLectii": 6,
+      "nrCarduri": 24,
+      "nrIntrebari": 24,
+      "nrIntrebariTeze": 16,
+      "capitole": [
+        {
+          "id": "bio13-c1",
+          "titlu": "Tehnici de rezolvare a problemelor de genetică",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "bio13-01",
+              "titlu": "Probleme de monohibridare și grupe sanguine"
+            },
+            {
+              "id": "bio13-02",
+              "titlu": "Probleme de dihibridare și calcul al acizilor nucleici"
+            }
+          ]
+        },
+        {
+          "id": "bio13-c2",
+          "titlu": "Sinteza fiziologiei umane pentru Bacalaureat",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "bio13-03",
+              "titlu": "Corelații între funcțiile de relație și nutriție"
+            },
+            {
+              "id": "bio13-04",
+              "titlu": "Imunitate, adaptare și patologie umană"
+            }
+          ]
+        },
+        {
+          "id": "bio13-c3",
+          "titlu": "Subiecte model și antrenament complet de examen",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "bio13-05",
+              "titlu": "Sinteză Subiectul I și Subiectul II de Bacalaureat"
+            },
+            {
+              "id": "bio13-06",
+              "titlu": "Sinteză Subiectul III: Mini-eseul și argumentarea"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 8
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 8
         }
       ]
     },
