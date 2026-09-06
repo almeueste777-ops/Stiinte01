@@ -34,7 +34,7 @@ Vault-ul are **două jumătăți**, în același folder:
 - [[Logică, argumentare și comunicare (clasa a IX-a)|Logică, argumentare și comunicare (clasa a IX-a)]] — 8 capitole, 24 lecții, 96 carduri, 132 întrebări
 - [[Religie (clasa a IX-a)|Religie (clasa a IX-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
 - [[Limba latină (clasa a IX-a)|Limba latină (clasa a IX-a)]] — 7 capitole, 18 lecții, 72 carduri, 102 întrebări
-- [[Limba modernă 1 (Engleză) (clasa a IX-a)|Limba modernă 1 (Engleză) (clasa a IX-a)]] — 6 capitole, 18 lecții, 72 carduri, 108 întrebări
+- [[Limba modernă 1 (Engleză) (clasa a IX-a)|Limba modernă 1 (Engleză) (clasa a IX-a)]] — 6 capitole, 18 lecții, 75 carduri, 117 întrebări
 - [[Limba modernă 2 (Franceză) (clasa a IX-a)|Limba modernă 2 (Franceză) (clasa a IX-a)]] — 6 capitole, 18 lecții, 72 carduri, 108 întrebări
 - [[Limba și literatura română (clasa a IX-a)|Limba și literatura română (clasa a IX-a)]] — 8 capitole, 20 lecții, 80 carduri, 110 întrebări
 - [[Biologie (clasa a IX-a)|Biologie (clasa a IX-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
@@ -87,7 +87,7 @@ Vault-ul are **două jumătăți**, în același folder:
 - [[Istorie (clasa a XIII-a)|Istorie (clasa a XIII-a)]] — 8 capitole, 22 lecții, 88 carduri, 118 întrebări
 - [[Religie (clasa a XIII-a)|Religie (clasa a XIII-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
 - [[Studii sociale (clasa a XIII-a)|Studii sociale (clasa a XIII-a)]] — 6 capitole, 18 lecții, 72 carduri, 108 întrebări
-- [[Limba modernă 1 (Engleză) (clasa a XIII-a)|Limba modernă 1 (Engleză) (clasa a XIII-a)]] — 6 capitole, 18 lecții, 72 carduri, 108 întrebări
+- [[Limba modernă 1 (Engleză) (clasa a XIII-a)|Limba modernă 1 (Engleză) (clasa a XIII-a)]] — 6 capitole, 18 lecții, 72 carduri, 109 întrebări
 - [[Limba modernă 2 (Franceză) (clasa a XIII-a)|Limba modernă 2 (Franceză) (clasa a XIII-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
 - [[Limba și literatura română (clasa a XIII-a)|Limba și literatura română (clasa a XIII-a)]] — 9 capitole, 20 lecții, 80 carduri, 116 întrebări
 - [[Biologie (clasa a XIII-a)|Biologie (clasa a XIII-a)]] — 3 capitole, 6 lecții, 24 carduri, 40 întrebări
@@ -102,6 +102,6 @@ Vault-ul are **două jumătăți**, în același folder:
 | Module (materie × an) | 63 |
 | Capitole | 421 |
 | Lecții | 1177 |
-| Carduri | 4708 |
-| Întrebări de test | 6698 |
+| Carduri | 4711 |
+| Întrebări de test | 6708 |
 | Note în vault | 1404 |

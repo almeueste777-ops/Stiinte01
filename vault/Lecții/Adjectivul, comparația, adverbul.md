@@ -29,6 +29,6 @@ Adjectivele englezești sunt invariabile: nu își schimbă forma după gen sau 
 
 ---
 
-⬅ [[Substantivul, articolul, cuantificatorii]] · [[Modalele și structurile de bază ale propoziției]] ➡
+⬅ [[Substantivul - plural regulat și neregulat, articolul și demonstrativele]] · [[Modalele și structurile de bază ale propoziției]] ➡
 
 Exersează: [[Carduri - Limba modernă 1 (Engleză) (clasa a IX-a)]] · [[Test - Limba modernă 1 (Engleză) (clasa a IX-a)]]

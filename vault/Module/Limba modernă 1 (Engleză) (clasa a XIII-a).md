@@ -32,7 +32,7 @@ Recapitulare și consolidare: sistemul verbal, structurile-cheie, erorile tipice
 ### Consolidare pe competențe — semestrul 2
 
 - [[Citit - texte de examen]]
-- [[Scris - sarcinile de examen]]
+- [[Scris - sarcinile de examen și baremul CEFR]]
 - [[Ascultare și vorbire - consolidare]]
 
 ### Simulare și strategie finală — semestrul 2
@@ -61,7 +61,7 @@ Recapitulare și consolidare: sistemul verbal, structurile-cheie, erorile tipice
 
 ## Exersare
 - [[Carduri - Limba modernă 1 (Engleză) (clasa a XIII-a)]] — 72 carduri
-- [[Test - Limba modernă 1 (Engleză) (clasa a XIII-a)]] — 108 întrebări
+- [[Test - Limba modernă 1 (Engleză) (clasa a XIII-a)]] — 109 întrebări
 
 ## Legături
 - [[Limba modernă 1 (Engleză)|Limba modernă 1 (Engleză)]]

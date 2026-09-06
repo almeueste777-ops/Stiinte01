@@ -31,6 +31,6 @@ Ascultarea se antrenează cel mai eficient prin material puțin peste nivelul ac
 
 ---
 
-⬅ [[Scris - sarcinile de examen]] · [[Simularea probei complete]] ➡
+⬅ [[Scris - sarcinile de examen și baremul CEFR]] · [[Simularea probei complete]] ➡
 
 Exersează: [[Carduri - Limba modernă 1 (Engleză) (clasa a XIII-a)]] · [[Test - Limba modernă 1 (Engleză) (clasa a XIII-a)]]

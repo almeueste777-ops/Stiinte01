@@ -43,13 +43,13 @@ Cum se deduce sensul unui cuvânt necunoscut?::Din prefixe și sufixe, din famil
 
 Ce e mai eficient: o lectură atentă sau trei grăbite?::O lectură atentă, urmată de verificări punctuale.
 
-Care sunt cele patru criterii de evaluare la scriere?::Tratarea sarcinii, organizarea, vocabularul și corectitudinea gramaticală.
+Ce lungime cere Subiectul 1 la proba scrisă de Bacalaureat?::80–100 de cuvinte (e-mail sau scrisoare informală către un prieten).
 
-Care sunt cei cinci pași ai procedurii de scriere?::Citirea cerinței, alegerea registrului, planul, scrierea, verificarea.
+Ce lungime și registru cere Subiectul 2 la Bacalaureat?::180–200 de cuvinte, în registru formal (eseu de opinie/argumentativ).
 
-Ce se verifică la final?::Timpurile, acordul, articolele, prepozițiile, ortografia și numărul de cuvinte.
+Care sunt cele 4 criterii oficiale de corectare din baremul Bacalaureat?::Îndeplinirea sarcinii (task achievement), organizarea/coeziunea, vocabularul și corectitudinea gramaticală.
 
-Ce valorează mai mult: cinci minute de verificare sau cinci propoziții în plus?::Verificarea.
+Ce nivel maxim de competență se poate atesta la proba scrisă de Bacalaureat?::Nivelul B2 (conform grilei CEFR).
 
 Care sunt cauzele obișnuite ale neînțelegerii după auz?::Formele reduse, legăturile dintre cuvinte, accentul și viteza.
 

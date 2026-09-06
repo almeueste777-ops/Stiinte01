@@ -14,14 +14,15 @@ clasa: "a IX-a"
 
 ## Rezumat
 
-Pronumele personale au două forme: de subiect (I, you, he, she, it, we, they), plasate înaintea verbului, și de complement (me, you, him, her, it, us, them), plasate după verb sau după prepoziție. „She called me", „I gave it to them" — pronumele complement urmează verbului sau prepoziției, niciodată forma de subiect: „to me", nu „to I". Adjectivele posesive (my, your, his, her, its, our, their) însoțesc un substantiv: „my book". Pronumele posesive (mine, yours, his, hers, ours, theirs) stau singure, fără substantiv: „This book is mine". Ele nu primesc apostrof. Atenție la o confuzie foarte frecventă: „its" este posesiv („its colour"), în timp ce „it's" înseamnă „it is". Pronumele reflexive (myself, yourself, himself, herself, itself, ourselves, yourselves, themselves) se folosesc când subiectul și complementul sunt aceeași persoană: „She hurt herself". Ele servesc și la accentuare: „I did it myself" (chiar eu).
+Sistemul pronumelor în limba engleză se structurează pe rolul sintactic. Pronumele personale au două seturi obligatorii: 1. Pronume de subiect (stau înaintea verbului și fac acțiunea): I (eu - mereu majusculă), you (tu/voi), he (el), she (ea), it (el/ea pt. lucruri/animale), we (noi), they (ei/ele). 2. Pronume de complement / obiect (stau după verb sau după orice prepoziție): me (pe mine/mie), you (pe tine/ție), him (pe el/lui), her (pe ea/ei), it (pe el/pe ea), us (pe noi/nouă), them (pe ei/pe ele/lor). Exemple vitale: „Look at me” (nu „Look at I”), „Listen to him”, „She invited us”, „I sent them a message”. Posesia se exprimă prin două categorii distincte: 1. Adjective posesive (însoțesc ÎNTOTDEAUNA un substantiv): my (meu/mea), your (tău/vostru), his (lui), her (ei), its (lui/ei - neutru), our (nostru), their (lor). Exemplu: „This is my car”, „Her dog is big”. 2. Pronume posesive (înlocuiesc substantivul și stau SINGURE): mine (al meu), yours (al tău/al vostru), his (al lui), hers (al ei), ours (al nostru), theirs (al lor). Exemplu: „The book is mine”, „That jacket is yours”. Atenție: nu primesc niciodată apostrof. Atenție la capcanele frecvente: „its” (posesiv: câinele dă din coada sa = its tail) vs „it's” (contracție pentru it is / it has); „their” (posesiv: mașina lor) vs „there” (acolo) vs „they're” (they are). Pronumele reflexive (myself, yourself, himself, herself, itself, ourselves, yourselves, themselves) se folosesc când subiectul și obiectul sunt identici („I taught myself”, „He hurt himself”) sau pentru emfază: „I did it myself” (eu însumi).
 
 ## Idei-cheie
 
-- Pronumele subiect stau înaintea verbului; cele complement, după verb sau prepoziție.
-- Adjectivele posesive (my, your, his…) însoțesc un substantiv; pronumele posesive (mine, yours…) stau singure.
-- „Its" este posesiv; „it's" înseamnă „it is" — o confuzie frecventă.
-- Pronumele reflexive se folosesc când subiectul și complementul coincid.
+- Pronume subiect (I, you, he, she, it, we, they) înainte de verb; pronume complement (me, you, him, her, it, us, them) după verb sau prepoziție.
+- Adjective posesive (my, your, his, her, its, our, their) + substantiv: „my dog”.
+- Pronume posesive (mine, yours, his, hers, ours, theirs) fără substantiv: „The dog is mine”.
+- Confuzii fatale eliminate: its (posesiv) vs it's (it is); their (posesiv) vs there (acolo) vs they're (ei sunt).
+- Pronume reflexive (myself, yourself... themselves): acțiunea se răsfrânge asupra subiectului.
 
 ## Notițele mele
 

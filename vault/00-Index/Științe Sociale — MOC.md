@@ -47,6 +47,7 @@ Punctul de intrare în **jumătatea scrisă de mână** a vault-ului: cum e făc
 
 ## Proces
 
+- [[Jurnal 2026-09-07 — Engleza Bacalaureat v13]] — limba modernă 1 (engleză) de la zero la bacalaureat proba B (clasele IX – XIII)
 - [[Jurnal 2026-09-06 — Romana Bacalaureat v12]] — limba și literatura română completă pentru bacalaureat (clasele IX – XIII), structură actualizată
 - [[Jurnal 2026-09-06 — Biologie Bacalaureat v11]] — biologie completă pentru bacalaureat (clasele IX – XIII), profil real
 - [[Jurnal 2026-08-26 — Supra-tema Auroră v10]] — paletă nouă pe ambele teme, sticlă mai transparentă, efecte opt-in de mișcare

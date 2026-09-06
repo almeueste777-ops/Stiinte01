@@ -25,13 +25,13 @@ Bazele limbii engleze: timpurile de bază, substantivul și articolul, vocabular
 
 ### Timpurile verbale de bază — semestrul 1
 
-- [[Present Simple și Present Continuous]]
+- [[De la zero - Alfabet, pronunție, „to be , „to have și timpurile prezentului]]
 - [[Past Simple și Past Continuous]]
 - [[Present Perfect și viitorul]]
 
 ### Structuri de bază — semestrul 2
 
-- [[Substantivul, articolul, cuantificatorii]]
+- [[Substantivul - plural regulat și neregulat, articolul și demonstrativele]]
 - [[Adjectivul, comparația, adverbul]]
 - [[Modalele și structurile de bază ale propoziției]]
 
@@ -60,8 +60,8 @@ Bazele limbii engleze: timpurile de bază, substantivul și articolul, vocabular
 - [[Lumea vorbitoare de engleză]]
 
 ## Exersare
-- [[Carduri - Limba modernă 1 (Engleză) (clasa a IX-a)]] — 72 carduri
-- [[Test - Limba modernă 1 (Engleză) (clasa a IX-a)]] — 108 întrebări
+- [[Carduri - Limba modernă 1 (Engleză) (clasa a IX-a)]] — 75 carduri
+- [[Test - Limba modernă 1 (Engleză) (clasa a IX-a)]] — 117 întrebări
 
 ## Legături
 - [[Limba modernă 1 (Engleză)|Limba modernă 1 (Engleză)]]

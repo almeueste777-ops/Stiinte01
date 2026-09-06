@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Limba modernă 1 (Engleză) (clasa a XIII-a)
 
-108 întrebări din [[Limba modernă 1 (Engleză) (clasa a XIII-a)|Limba modernă 1 (Engleză) (clasa a XIII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+109 întrebări din [[Limba modernă 1 (Engleză) (clasa a XIII-a)|Limba modernă 1 (Engleză) (clasa a XIII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Aspectul continuu exprimă:
 
@@ -201,7 +201,31 @@ cssclasses: test
 > 
 > Verificările punctuale completează lectura atentă.
 
-### 17. Depășirea semnificativă a limitei de cuvinte:
+### 17. Subiectul 1 de la proba scrisă de Bacalaureat cere o lungime de:
+
+- a. 80–100 de cuvinte
+- b. 180–200 de cuvinte
+- c. 300–400 de cuvinte
+- d. 40–50 de cuvinte
+
+> [!success]- Răspuns
+> **a. 80–100 de cuvinte**
+> 
+> Subiectul 1 este un text funcțional scurt de 80–100 de cuvinte.
+
+### 18. La Subiectul 2 (eseu argumentativ de 180–200 de cuvinte), registrul cerut este:
+
+- a. formal, evitând prescurtările și argoul
+- b. foarte informal, plin de prescurtări (I'm, don't)
+- c. poetic și metaforic
+- d. liber, fără nicio regulă
+
+> [!success]- Răspuns
+> **a. formal, evitând prescurtările și argoul**
+> 
+> Eseul argumentativ se redactează în stil academic/formal, fără contracții.
+
+### 19. Depășirea semnificativă a limitei de cuvinte:
 
 - a. se penalizează
 - b. aduce puncte suplimentare
@@ -213,43 +237,31 @@ cssclasses: test
 > 
 > Respectarea limitei face parte din sarcină.
 
-### 18. Planul înainte de scriere:
+### 20. Criteriul „task achievement” (îndeplinirea sarcinii) evaluează:
 
-- a. asigură organizarea și tratarea completă
-- b. consumă timp inutil
-- c. se face doar la eseuri lungi
-- d. înlocuiește verificarea
-
-> [!success]- Răspuns
-> **a. asigură organizarea și tratarea completă**
-> 
-> O idee pe paragraf este suficient.
-
-### 19. Criteriul „tratarea sarcinii” privește:
-
-- a. dacă toate punctele cerute au fost dezvoltate
-- b. corectitudinea gramaticală
-- c. varietatea vocabularului
-- d. lungimea textului
+- a. dacă toate cerințele din enunț au fost dezvoltate în limita de cuvinte
+- b. exclusiv frumusețea scrisului de mână
+- c. numărul de verbe la trecut
+- d. prezența glumelor în text
 
 > [!success]- Răspuns
-> **a. dacă toate punctele cerute au fost dezvoltate**
+> **a. dacă toate cerințele din enunț au fost dezvoltate în limita de cuvinte**
 > 
-> Un text bine scris, dar incomplet, pierde acest punctaj.
+> Tratarea completă a tuturor punctelor din cerință este esențială.
 
-### 20. Verificarea finală ar trebui să vizeze în primul rând:
+### 21. Nivelul maxim atestat la probele de competențe de Bacalaureat este:
 
-- a. greșelile frecvente: timpuri, acord, articole, prepoziții
-- b. stilul
-- c. lungimea frazelor
-- d. alegerea temei
+- a. B2
+- b. C2
+- c. A1
+- d. B1
 
 > [!success]- Răspuns
-> **a. greșelile frecvente: timpuri, acord, articole, prepoziții**
+> **a. B2**
 > 
-> Acestea sunt cele mai ușor de corectat.
+> Proba B de competențe lingvistice atestă nivelurile A1, A2, B1 și B2.
 
-### 21. Neînțelegerea unei înregistrări se datorează, cel mai des:
+### 22. Neînțelegerea unei înregistrări se datorează, cel mai des:
 
 - a. formelor reduse și vitezei
 - b. vocabularului necunoscut
@@ -261,7 +273,7 @@ cssclasses: test
 > 
 > Cuvintele cunoscute pot deveni de nerecunoscut în vorbirea rapidă.
 
-### 22. Transcrierea unui fragment ascultat:
+### 23. Transcrierea unui fragment ascultat:
 
 - a. arată exact ce nu ai auzit și de ce
 - b. este o pierdere de timp
@@ -273,7 +285,7 @@ cssclasses: test
 > 
 > Este pasul care produce progres real.
 
-### 23. Susținerea unei opinii timp de un minut, fără pauze:
+### 24. Susținerea unei opinii timp de un minut, fără pauze:
 
 - a. antrenează fluența
 - b. antrenează gramatica
@@ -285,7 +297,7 @@ cssclasses: test
 > 
 > Fluența se antrenează prin constrângere de timp.
 
-### 24. Înregistrarea propriei voci este utilă pentru că:
+### 25. Înregistrarea propriei voci este utilă pentru că:
 
 - a. arată obiectiv unde se pierde claritatea
 - b. îmbunătățește vocabularul
@@ -297,7 +309,7 @@ cssclasses: test
 > 
 > Autoevaluarea obiectivă e greu de obținut altfel.
 
-### 25. O simulare cu dicționarul la îndemână:
+### 26. O simulare cu dicționarul la îndemână:
 
 - a. nu oferă o măsură reală a nivelului
 - b. este mai utilă
@@ -309,7 +321,7 @@ cssclasses: test
 > 
 > Condițiile reale sunt esențiale pentru diagnostic.
 
-### 26. Simulările prea dese:
+### 27. Simulările prea dese:
 
 - a. nu lasă timp pentru corecția greșelilor
 - b. accelerează progresul
@@ -321,7 +333,7 @@ cssclasses: test
 > 
 > Corecția, nu repetarea, produce progresul.
 
-### 27. O greșeală clasificată drept „neatenție” se corectează prin:
+### 28. O greșeală clasificată drept „neatenție” se corectează prin:
 
 - a. proceduri de verificare, nu prin învățare suplimentară
 - b. studiu suplimentar
@@ -333,7 +345,7 @@ cssclasses: test
 > 
 > Cauza determină corecția.
 
-### 28. Compararea rezultatului cu descriptorii de nivel:
+### 29. Compararea rezultatului cu descriptorii de nivel:
 
 - a. oferă o evaluare obiectivă
 - b. este inutilă
@@ -345,7 +357,7 @@ cssclasses: test
 > 
 > Impresia proprie este, de regulă, inexactă.
 
-### 29. O sarcină care valorează puțin, dar pare grea:
+### 30. O sarcină care valorează puțin, dar pare grea:
 
 - a. nu merită mai mult decât timpul proporțional cu punctajul
 - b. trebuie rezolvată prima
@@ -357,7 +369,7 @@ cssclasses: test
 > 
 > Punctajul, nu dificultatea, dictează prioritatea.
 
-### 30. Recapitularea intensă în ultima oră înainte de probă:
+### 31. Recapitularea intensă în ultima oră înainte de probă:
 
 - a. crește anxietatea fără beneficiu real
 - b. consolidează materia
@@ -369,7 +381,7 @@ cssclasses: test
 > 
 > Consolidarea are nevoie de timp, nu de ultimele minute.
 
-### 31. Ancorarea în sarcina imediată înseamnă:
+### 32. Ancorarea în sarcina imediată înseamnă:
 
 - a. concentrarea pe pasul următor, nu pe consecințe
 - b. ignorarea cerinței
@@ -381,7 +393,7 @@ cssclasses: test
 > 
 > Ea întrerupe spirala gândurilor catastrofice.
 
-### 32. Ultimele minute ale probei se folosesc, ideal, pentru:
+### 33. Ultimele minute ale probei se folosesc, ideal, pentru:
 
 - a. verificare
 - b. începerea unei sarcini noi
@@ -393,7 +405,7 @@ cssclasses: test
 > 
 > Verificarea recuperează cele mai multe puncte.
 
-### 33. Competența lingvistică nefolosită:
+### 34. Competența lingvistică nefolosită:
 
 - a. se pierde treptat
 - b. rămâne neschimbată
@@ -405,7 +417,7 @@ cssclasses: test
 > 
 > Fenomenul se numește atriție lingvistică.
 
-### 34. Certificările internaționale:
+### 35. Certificările internaționale:
 
 - a. dovedesc nivelul, dar nu îl înlocuiesc
 - b. garantează competența
@@ -417,7 +429,7 @@ cssclasses: test
 > 
 > Valoarea reală stă în capacitatea de a lucra efectiv în limba respectivă.
 
-### 35. Filmele cu subtitrare în engleză, nu în română:
+### 36. Filmele cu subtitrare în engleză, nu în română:
 
 - a. ajută asocierea sunet–formă scrisă
 - b. îngreunează înțelegerea
@@ -429,7 +441,7 @@ cssclasses: test
 > 
 > Ele antrenează simultan ascultarea și cititul.
 
-### 36. Așteptarea momentului „când voi fi pregătit” pentru a vorbi:
+### 37. Așteptarea momentului „când voi fi pregătit” pentru a vorbi:
 
 - a. întârzie cel mai mult progresul
 - b. este prudentă
@@ -441,7 +453,7 @@ cssclasses: test
 > 
 > Folosirea produce competența, nu invers.
 
-### 37. „If I had known, I would have helped” este condițional de:
+### 38. „If I had known, I would have helped” este condițional de:
 
 - a. tipul 3
 - b. tipul 1
@@ -453,7 +465,7 @@ cssclasses: test
 > 
 > Past perfect + would have + participiu = ireal în trecut.
 
-### 38. După „if”, în condiționalul întâi, se folosește:
+### 39. După „if”, în condiționalul întâi, se folosește:
 
 - a. prezentul
 - b. will
@@ -465,7 +477,7 @@ cssclasses: test
 > 
 > Corect: „If it rains”, nu „if it will rain”.
 
-### 39. „If I were rich, I would travel” exprimă:
+### 40. „If I were rich, I would travel” exprimă:
 
 - a. o situație ireală în prezent
 - b. o condiție reală
@@ -477,7 +489,7 @@ cssclasses: test
 > 
 > Tipul 2 folosește „were” pentru toate persoanele.
 
-### 40. Condiționalul zero exprimă:
+### 41. Condiționalul zero exprimă:
 
 - a. adevăruri generale și legi
 - b. planuri de viitor
@@ -489,7 +501,7 @@ cssclasses: test
 > 
 > Exemplu: „If you heat water to 100°C, it boils.”
 
-### 41. „She said she was tired” provine din:
+### 42. „She said she was tired” provine din:
 
 - a. „I am tired”
 - b. „I was tired”
@@ -501,7 +513,7 @@ cssclasses: test
 > 
 > Present simple coboară la past simple prin backshift.
 
-### 42. Forma corectă a întrebării raportate este:
+### 43. Forma corectă a întrebării raportate este:
 
 - a. He asked where I lived
 - b. He asked where did I live
@@ -513,7 +525,7 @@ cssclasses: test
 > 
 > Întrebarea raportată păstrează ordinea afirmativă.
 
-### 43. „Please wait”, raportat, devine:
+### 44. „Please wait”, raportat, devine:
 
 - a. He asked me to wait
 - b. He asked me waiting
@@ -525,7 +537,7 @@ cssclasses: test
 > 
 > Rugămintea se raportează cu infinitivul.
 
-### 44. Prin backshift, „can” devine:
+### 45. Prin backshift, „can” devine:
 
 - a. could
 - b. would
@@ -537,7 +549,7 @@ cssclasses: test
 > 
 > „Must” devine „had to”, iar „may” devine „might”.
 
-### 45. Pasivul lui „They build houses” este:
+### 46. Pasivul lui „They build houses” este:
 
 - a. Houses are built
 - b. Houses are build
@@ -549,7 +561,7 @@ cssclasses: test
 > 
 > Present simple pasiv = „is/are” + participiu.
 
-### 46. În „The song was written by Lennon”, „by Lennon” este:
+### 47. În „The song was written by Lennon”, „by Lennon” este:
 
 - a. autorul (agentul)
 - b. complementul de loc
@@ -561,7 +573,7 @@ cssclasses: test
 > 
 > Agentul se introduce prin „by”.
 
-### 47. Care verb NU poate fi pus la pasiv?
+### 48. Care verb NU poate fi pus la pasiv?
 
 - a. arrive
 - b. write
@@ -573,7 +585,7 @@ cssclasses: test
 > 
 > „Arrive” e intranzitiv: nu are obiect.
 
-### 48. „It is said that he is rich” exprimă:
+### 49. „It is said that he is rich” exprimă:
 
 - a. o opinie generală, impersonală
 - b. o certitudine dovedită
@@ -585,7 +597,7 @@ cssclasses: test
 > 
 > Structura „It is said that…” raportează impersonal.
 
-### 49. Prefixul care exprimă „greșit” este:
+### 50. Prefixul care exprimă „greșit” este:
 
 - a. mis-
 - b. re-
@@ -597,7 +609,7 @@ cssclasses: test
 > 
 > „Misunderstand” = a înțelege greșit.
 
-### 50. Substantivul de la „happy” este:
+### 51. Substantivul de la „happy” este:
 
 - a. happiness
 - b. happyness
@@ -609,7 +621,7 @@ cssclasses: test
 > 
 > „-y” devine „-i” înainte de „-ness”.
 
-### 51. Sufixul „-ize” formează, de obicei:
+### 52. Sufixul „-ize” formează, de obicei:
 
 - a. verbe
 - b. substantive
@@ -621,7 +633,7 @@ cssclasses: test
 > 
 > Exemplu: „modern → modernize”.
 
-### 52. „Irregular” folosește prefixul negativ:
+### 53. „Irregular” folosește prefixul negativ:
 
 - a. ir-
 - b. in-
@@ -633,7 +645,7 @@ cssclasses: test
 > 
 > „ir-” se pune înaintea rădăcinilor cu „r”.
 
-### 53. Forma corectă cu pronume este:
+### 54. Forma corectă cu pronume este:
 
 - a. turn it off
 - b. turn off it
@@ -645,7 +657,7 @@ cssclasses: test
 > 
 > Pronumele obiect stă între verb și particulă.
 
-### 54. „Give up” înseamnă:
+### 55. „Give up” înseamnă:
 
 - a. a renunța
 - b. a oferi
@@ -657,7 +669,7 @@ cssclasses: test
 > 
 > Sens idiomatic, nededus din părți.
 
-### 55. La „look after the baby”, verbul frazal este:
+### 56. La „look after the baby”, verbul frazal este:
 
 - a. inseparabil
 - b. separabil
@@ -669,7 +681,7 @@ cssclasses: test
 > 
 > Particula rămâne lipită de verb.
 
-### 56. Un sinonim formal pentru „put off” este:
+### 57. Un sinonim formal pentru „put off” este:
 
 - a. postpone
 - b. promote
@@ -681,7 +693,7 @@ cssclasses: test
 > 
 > Ambele înseamnă „a amâna”.
 
-### 57. Colocația corectă este:
+### 58. Colocația corectă este:
 
 - a. make a mistake
 - b. do a mistake
@@ -693,7 +705,7 @@ cssclasses: test
 > 
 > „Make” pentru a produce; „mistake” merge cu „make”.
 
-### 58. „I am good ___ maths” cere prepoziția:
+### 59. „I am good ___ maths” cere prepoziția:
 
 - a. at
 - b. in
@@ -705,7 +717,7 @@ cssclasses: test
 > 
 > „Good at” e o colocație fixă.
 
-### 59. „It depends ___ the weather” cere:
+### 60. „It depends ___ the weather” cere:
 
 - a. on
 - b. of
@@ -717,7 +729,7 @@ cssclasses: test
 > 
 > Corect: „depend on”, nu „depend of”.
 
-### 60. „Do” se combină firesc cu:
+### 61. „Do” se combină firesc cu:
 
 - a. homework
 - b. a decision
@@ -729,7 +741,7 @@ cssclasses: test
 > 
 > „Do homework”, dar „make a decision/progress/mistake”.
 
-### 61. „It's too cold to swim” se transformă corect în:
+### 62. „It's too cold to swim” se transformă corect în:
 
 - a. It isn't warm enough to swim
 - b. It is warm enough to swim
@@ -741,7 +753,7 @@ cssclasses: test
 > 
 > „Too + adjectiv” ↔ „not + adjectiv + enough”.
 
-### 62. Într-o transformare cu cuvânt-cheie, cuvântul dat:
+### 63. Într-o transformare cu cuvânt-cheie, cuvântul dat:
 
 - a. nu își schimbă forma
 - b. se pune la trecut
@@ -753,7 +765,7 @@ cssclasses: test
 > 
 > Regula probei interzice modificarea lui.
 
-### 63. Golurile unui cloze testează frecvent:
+### 64. Golurile unui cloze testează frecvent:
 
 - a. articole și prepoziții
 - b. doar substantive
@@ -765,7 +777,7 @@ cssclasses: test
 > 
 > Cuvintele gramaticale sunt cele mai testate.
 
-### 64. La cloze, prima etapă recomandată este:
+### 65. La cloze, prima etapă recomandată este:
 
 - a. citirea întregului text pentru sens
 - b. completarea în ordine, fără citire
@@ -777,7 +789,7 @@ cssclasses: test
 > 
 > Sensul global ghidează alegerile.
 
-### 65. „Yours faithfully” se folosește când:
+### 66. „Yours faithfully” se folosește când:
 
 - a. nu cunoști numele destinatarului
 - b. scrii unui prieten
@@ -789,7 +801,7 @@ cssclasses: test
 > 
 > Cu numele cunoscut se folosește „Yours sincerely”.
 
-### 66. Un eseu de opinie bun are:
+### 67. Un eseu de opinie bun are:
 
 - a. introducere, argumente cu exemple, concluzie
 - b. doar o listă de idei
@@ -801,7 +813,7 @@ cssclasses: test
 > 
 > Structura clară e criteriu de notare.
 
-### 67. Registrul formal evită:
+### 68. Registrul formal evită:
 
 - a. contracțiile
 - b. conectorii
@@ -813,7 +825,7 @@ cssclasses: test
 > 
 > Se scrie „do not”, nu „don't”, în text formal.
 
-### 68. Conectorul care introduce un contrast este:
+### 69. Conectorul care introduce un contrast este:
 
 - a. however
 - b. moreover
@@ -825,7 +837,7 @@ cssclasses: test
 > 
 > „Moreover” adaugă, „however” contrastează.
 
-### 69. Ortografia americană a lui „centre” este:
+### 70. Ortografia americană a lui „centre” este:
 
 - a. center
 - b. centre
@@ -837,7 +849,7 @@ cssclasses: test
 > 
 > Multe cuvinte britanice în „-re” devin „-er” în americană.
 
-### 70. „Apartment” este varianta americană pentru:
+### 71. „Apartment” este varianta americană pentru:
 
 - a. flat
 - b. lift
@@ -849,7 +861,7 @@ cssclasses: test
 > 
 > Britanicii spun „flat”, americanii „apartment”.
 
-### 71. Regatul Unit este o:
+### 72. Regatul Unit este o:
 
 - a. monarhie constituțională
 - b. republică federală
@@ -861,7 +873,7 @@ cssclasses: test
 > 
 > Parlamentul de la Westminster deține puterea legislativă.
 
-### 72. Engleza este, la nivel global, mai ales:
+### 73. Engleza este, la nivel global, mai ales:
 
 - a. principala limbă de comunicare internațională
 - b. o limbă pe cale de dispariție
@@ -873,7 +885,7 @@ cssclasses: test
 > 
 > E limba internetului, a științei și a schimburilor internaționale.
 
-### 73. „If I were you, I would apologize” este condițional de:
+### 74. „If I were you, I would apologize” este condițional de:
 
 - a. tipul 2
 - b. tipul 1
@@ -885,7 +897,7 @@ cssclasses: test
 > 
 > Situație ireală în prezent: past simple + would.
 
-### 74. Vorbirea indirectă a lui „I will call you” (verb introductiv la trecut) este:
+### 75. Vorbirea indirectă a lui „I will call you” (verb introductiv la trecut) este:
 
 - a. He said he would call me
 - b. He said he will call me
@@ -897,7 +909,7 @@ cssclasses: test
 > 
 > „Will” devine „would” prin backshift.
 
-### 75. Pasivul lui „Shakespeare wrote Hamlet” este:
+### 76. Pasivul lui „Shakespeare wrote Hamlet” este:
 
 - a. Hamlet was written by Shakespeare
 - b. Hamlet is written by Shakespeare
@@ -909,7 +921,7 @@ cssclasses: test
 > 
 > Past simple pasiv = „was/were” + participiu.
 
-### 76. Substantivul format de la „decide” este:
+### 77. Substantivul format de la „decide” este:
 
 - a. decision
 - b. decidement
@@ -921,7 +933,7 @@ cssclasses: test
 > 
 > „-sion” formează substantivul; „decisive” e adjectiv.
 
-### 77. Forma corectă cu pronume a verbului frazal este:
+### 78. Forma corectă cu pronume a verbului frazal este:
 
 - a. pick it up
 - b. pick up it
@@ -933,7 +945,7 @@ cssclasses: test
 > 
 > Pronumele obiect stă între verb și particulă.
 
-### 78. „I'm interested ___ history” cere prepoziția:
+### 79. „I'm interested ___ history” cere prepoziția:
 
 - a. in
 - b. on
@@ -945,7 +957,7 @@ cssclasses: test
 > 
 > „Interested in” e o colocație fixă.
 
-### 79. Sistemul verbal englez se organizează pe axele:
+### 80. Sistemul verbal englez se organizează pe axele:
 
 - a. timp și aspect
 - b. persoană și număr
@@ -957,7 +969,7 @@ cssclasses: test
 > 
 > Din combinarea lor rezultă cele douăsprezece timpuri.
 
-### 80. Aspectul perfect leagă acțiunea:
+### 81. Aspectul perfect leagă acțiunea:
 
 - a. de un alt moment de referință
 - b. de viitor exclusiv
@@ -969,7 +981,7 @@ cssclasses: test
 > 
 > De aceea Present Perfect leagă trecutul de prezent.
 
-### 81. „She must have forgotten” exprimă:
+### 82. „She must have forgotten” exprimă:
 
 - a. o deducție despre trecut
 - b. o obligație
@@ -981,7 +993,7 @@ cssclasses: test
 > 
 > Modal + have + participiu.
 
-### 82. „You don't have to come” înseamnă:
+### 83. „You don't have to come” înseamnă:
 
 - a. nu ești obligat să vii
 - b. îți este interzis
@@ -993,7 +1005,7 @@ cssclasses: test
 > 
 > Interdicția s-ar exprima cu „mustn't”.
 
-### 83. „You had better leave” este:
+### 84. „You had better leave” este:
 
 - a. un avertisment
 - b. o invitație
@@ -1005,7 +1017,7 @@ cssclasses: test
 > 
 > Sugerează consecințe negative dacă sfatul nu e urmat.
 
-### 84. Forma corectă este:
+### 85. Forma corectă este:
 
 - a. „I'm interested in history.”
 - b. „I'm interested of history.”
@@ -1017,7 +1029,7 @@ cssclasses: test
 > 
 > Prepoziția se învață împreună cu adjectivul.
 
-### 85. „I live here since 2010” se corectează în:
+### 86. „I live here since 2010” se corectează în:
 
 - a. „I have lived here since 2010.”
 - b. „I am living here since 2010.”
@@ -1029,7 +1041,7 @@ cssclasses: test
 > 
 > Acțiunea continuă până în prezent cere Present Perfect.
 
-### 86. „She said me that…” este greșit deoarece:
+### 87. „She said me that…” este greșit deoarece:
 
 - a. „say” nu ia complement indirect fără „to”
 - b. lipsește „that”
@@ -1041,7 +1053,7 @@ cssclasses: test
 > 
 > Corect: „She told me…” sau „She said to me…”.
 
-### 87. „Borrow” înseamnă:
+### 88. „Borrow” înseamnă:
 
 - a. a împrumuta de la cineva
 - b. a împrumuta cuiva
@@ -1053,7 +1065,7 @@ cssclasses: test
 > 
 > „Lend” înseamnă a împrumuta cuiva.
 
-### 88. Harta unui text se face citind:
+### 89. Harta unui text se face citind:
 
 - a. titlul și prima frază a fiecărui paragraf
 - b. ultimul paragraf
@@ -1065,7 +1077,7 @@ cssclasses: test
 > 
 > Prima frază conține, de regulă, ideea principală.
 
-### 89. O variantă corectă „din cunoștințe generale”, dar absentă din text:
+### 90. O variantă corectă „din cunoștințe generale”, dar absentă din text:
 
 - a. este greșită în contextul examenului
 - b. se punctează parțial
@@ -1077,7 +1089,7 @@ cssclasses: test
 > 
 > Se evaluează înțelegerea textului dat.
 
-### 90. Prefixul „over-” indică:
+### 91. Prefixul „over-” indică:
 
 - a. un exces
 - b. o negație
@@ -1089,7 +1101,7 @@ cssclasses: test
 > 
 > „Under-” indică insuficiența.
 
-### 91. Colocația corectă este:
+### 92. Colocația corectă este:
 
 - a. make progress
 - b. do progress
@@ -1101,7 +1113,7 @@ cssclasses: test
 > 
 > „Make progress”, dar „do homework”.
 
-### 92. „It's too expensive to buy” ↔ transformarea corectă:
+### 93. „It's too expensive to buy” ↔ transformarea corectă:
 
 - a. It isn't cheap enough to buy
 - b. It is cheap enough to buy
@@ -1113,7 +1125,7 @@ cssclasses: test
 > 
 > „Too + adjectiv” ↔ „not + adjectiv + enough”.
 
-### 93. O scrisoare formală se încheie, cu numele destinatarului cunoscut, cu:
+### 94. O scrisoare formală se încheie, cu numele destinatarului cunoscut, cu:
 
 - a. Yours sincerely
 - b. Yours faithfully
@@ -1125,7 +1137,7 @@ cssclasses: test
 > 
 > „Yours faithfully” se folosește fără numele destinatarului.
 
-### 94. Ortografia britanică a lui „color” este:
+### 95. Ortografia britanică a lui „color” este:
 
 - a. colour
 - b. color
@@ -1137,7 +1149,7 @@ cssclasses: test
 > 
 > Britanica păstrează grupul „-our”.
 
-### 95. Verbul frazal „take off” poate însemna:
+### 96. Verbul frazal „take off” poate însemna:
 
 - a. a decola
 - b. a ateriza
@@ -1149,7 +1161,7 @@ cssclasses: test
 > 
 > Are și sensul „a-și scoate haina”.
 
-### 96. „You ___ come if you don't want to” (absența obligației) cere:
+### 97. „You ___ come if you don't want to” (absența obligației) cere:
 
 - a. don't have to
 - b. mustn't
@@ -1161,7 +1173,7 @@ cssclasses: test
 > 
 > „Don't have to” = fără obligație; „mustn't” = interdicție.
 
-### 97. Criteriile de evaluare la scriere sunt:
+### 98. Criteriile de evaluare la scriere sunt:
 
 - a. sarcina, organizarea, vocabularul, gramatica
 - b. lungimea, ortografia, scrisul, viteza
@@ -1173,7 +1185,7 @@ cssclasses: test
 > 
 > Un text bine scris, dar incomplet, pierde primul criteriu.
 
-### 98. Depășirea semnificativă a limitei de cuvinte:
+### 99. Depășirea semnificativă a limitei de cuvinte:
 
 - a. se penalizează
 - b. aduce puncte suplimentare
@@ -1185,7 +1197,7 @@ cssclasses: test
 > 
 > Limita face parte din cerință.
 
-### 99. Planul înainte de scriere:
+### 100. Planul înainte de scriere:
 
 - a. asigură organizarea și tratarea completă
 - b. consumă timp inutil
@@ -1197,7 +1209,7 @@ cssclasses: test
 > 
 > O idee pe paragraf este suficient.
 
-### 100. Neînțelegerea unei înregistrări se datorează cel mai des:
+### 101. Neînțelegerea unei înregistrări se datorează cel mai des:
 
 - a. formelor reduse și vitezei
 - b. vocabularului necunoscut
@@ -1209,7 +1221,7 @@ cssclasses: test
 > 
 > Cuvinte cunoscute devin de nerecunoscut în vorbirea rapidă.
 
-### 101. Transcrierea unui fragment ascultat:
+### 102. Transcrierea unui fragment ascultat:
 
 - a. arată exact ce nu ai auzit și de ce
 - b. este pierdere de timp
@@ -1221,7 +1233,7 @@ cssclasses: test
 > 
 > Este pasul care produce progres real.
 
-### 102. Înregistrarea propriei voci:
+### 103. Înregistrarea propriei voci:
 
 - a. arată obiectiv unde se pierde claritatea
 - b. corectează gramatica
@@ -1233,7 +1245,7 @@ cssclasses: test
 > 
 > Este cel mai neplăcut și cel mai util exercițiu.
 
-### 103. O simulare cu dicționarul la îndemână:
+### 104. O simulare cu dicționarul la îndemână:
 
 - a. nu oferă o măsură reală a nivelului
 - b. este mai utilă
@@ -1245,7 +1257,7 @@ cssclasses: test
 > 
 > Condițiile reale sunt esențiale.
 
-### 104. Simulările prea dese:
+### 105. Simulările prea dese:
 
 - a. nu lasă timp pentru corecția greșelilor
 - b. accelerează progresul
@@ -1257,7 +1269,7 @@ cssclasses: test
 > 
 > Corecția produce progresul, nu repetarea.
 
-### 105. Timpul se distribuie între sarcini:
+### 106. Timpul se distribuie între sarcini:
 
 - a. proporțional cu punctajul
 - b. proporțional cu dificultatea
@@ -1269,7 +1281,7 @@ cssclasses: test
 > 
 > Punctajul dictează prioritatea.
 
-### 106. Recapitularea intensă în ultima oră înainte de probă:
+### 107. Recapitularea intensă în ultima oră înainte de probă:
 
 - a. crește anxietatea fără beneficiu real
 - b. consolidează materia
@@ -1281,7 +1293,7 @@ cssclasses: test
 > 
 > Consolidarea are nevoie de timp.
 
-### 107. Competența lingvistică nefolosită:
+### 108. Competența lingvistică nefolosită:
 
 - a. se pierde treptat
 - b. rămâne stabilă
@@ -1293,7 +1305,7 @@ cssclasses: test
 > 
 > Fenomenul se numește atriție lingvistică.
 
-### 108. Așteptarea momentului „când voi fi pregătit” pentru a vorbi:
+### 109. Așteptarea momentului „când voi fi pregătit” pentru a vorbi:
 
 - a. întârzie cel mai mult progresul
 - b. este prudentă

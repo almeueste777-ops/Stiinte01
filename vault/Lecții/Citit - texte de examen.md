@@ -31,6 +31,6 @@ Textele de examen sunt, de regulă, articole informative sau de opinie de 400–
 
 ---
 
-⬅ [[Erori tipice ale vorbitorilor de română]] · [[Scris - sarcinile de examen]] ➡
+⬅ [[Erori tipice ale vorbitorilor de română]] · [[Scris - sarcinile de examen și baremul CEFR]] ➡
 
 Exersează: [[Carduri - Limba modernă 1 (Engleză) (clasa a XIII-a)]] · [[Test - Limba modernă 1 (Engleză) (clasa a XIII-a)]]

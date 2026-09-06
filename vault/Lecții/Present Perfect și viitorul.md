@@ -29,6 +29,6 @@ Present Perfect leagă trecutul de prezent: exprimă experiențe de viață făr
 
 ---
 
-⬅ [[Past Simple și Past Continuous]] · [[Substantivul, articolul, cuantificatorii]] ➡
+⬅ [[Past Simple și Past Continuous]] · [[Substantivul - plural regulat și neregulat, articolul și demonstrativele]] ➡
 
 Exersează: [[Carduri - Limba modernă 1 (Engleză) (clasa a IX-a)]] · [[Test - Limba modernă 1 (Engleză) (clasa a IX-a)]]

@@ -7,57 +7,105 @@ cssclasses: test
 ---
 # Test — Limba modernă 1 (Engleză) (clasa a IX-a)
 
-108 întrebări din [[Limba modernă 1 (Engleză) (clasa a IX-a)|Limba modernă 1 (Engleză) (clasa a IX-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+117 întrebări din [[Limba modernă 1 (Engleză) (clasa a IX-a)|Limba modernă 1 (Engleză) (clasa a IX-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
-### 1. Forma corectă este:
+### 1. Pronunția corectă a cuvântului „three” (trei) începe cu:
 
-- a. „She usually walks to school.”
-- b. „She usually is walking to school.”
-- c. „She usually walk to school.”
-- d. „She is usually walk to school.”
-
-> [!success]- Răspuns
-> **a. „She usually walks to school.”**
-> 
-> Obișnuința cere Present Simple, cu -s la persoana a III-a.
-
-### 2. Verbul „know” la forma continuă:
-
-- a. nu se folosește, fiind verb de stare
-- b. se folosește frecvent
-- c. se folosește doar la interogativ
-- d. se folosește doar la negativ
+- a. sunetul „th” pronunțat cu limba între dinți
+- b. sunetul „t” simplu românesc
+- c. sunetul „f”
+- d. sunetul „s”
 
 > [!success]- Răspuns
-> **a. nu se folosește, fiind verb de stare**
+> **a. sunetul „th” pronunțat cu limba între dinți**
 > 
-> Corect: „I know”, nu „I am knowing”.
+> Grupul „th” nu este un „t” obișnuit, ci se pronunță plasând vârful limbii între dinți.
 
-### 3. „Look! The bus is coming.” exprimă:
+### 2. Forma corectă a verbului „to be” pentru „She” este:
 
-- a. o acțiune în desfășurare acum
-- b. o obișnuință
-- c. un adevăr general
-- d. un program fix
+- a. is
+- b. are
+- c. am
+- d. be
 
 > [!success]- Răspuns
-> **a. o acțiune în desfășurare acum**
+> **a. is**
 > 
-> Present Continuous descrie momentul vorbirii.
+> Pronumele he, she, it cer forma „is” (She is a teacher).
 
-### 4. Negativul la Present Simple, persoana a III-a, se formează cu:
+### 3. Pentru a întreba „Ești pregătit?”, spunem:
 
-- a. doesn't + verb la forma de bază
-- b. don't + verb cu -s
-- c. isn't + verb cu -ing
-- d. didn't + verb
+- a. „Are you ready?”
+- b. „Do you are ready?”
+- c. „You are ready?”
+- d. „Is you ready?”
 
 > [!success]- Răspuns
-> **a. doesn't + verb la forma de bază**
+> **a. „Are you ready?”**
 > 
-> Corect: „He doesn't work”, nu „He doesn't works”.
+> Verbul „to be” formează întrebările direct prin inversiune, fără auxiliarul „do”.
 
-### 5. Forma corectă este:
+### 4. La Present Simple, forma corectă pentru „El se uită la televizor” este:
+
+- a. „He watches TV.”
+- b. „He watch TV.”
+- c. „He is watch TV.”
+- d. „He watching TV.”
+
+> [!success]- Răspuns
+> **a. „He watches TV.”**
+> 
+> Verbele terminate în -ch, -sh, -ss, -x primesc -es la persoana a III-a singular.
+
+### 5. Negativul corect al propoziției „He has got a car” este:
+
+- a. „He hasn't got a car.”
+- b. „He doesn't has got a car.”
+- c. „He not has got a car.”
+- d. „He isn't got a car.”
+
+> [!success]- Răspuns
+> **a. „He hasn't got a car.”**
+> 
+> La „has got”, negația se adaugă direct auxiliarului „has” (has not / hasn't).
+
+### 6. Verbul „understand” la timpul continuu:
+
+- a. nu se folosește, fiind un verb de stare mentală („I understand”)
+- b. este obligatoriu la prezent
+- c. se folosește doar cu „are”
+- d. primește terminația -ed
+
+> [!success]- Răspuns
+> **a. nu se folosește, fiind un verb de stare mentală („I understand”)**
+> 
+> Verbele de înțelegere și cunoaștere sunt verbe de stare și se folosesc la Present Simple.
+
+### 7. Terminația -ed din „wanted” și „decided” se pronunță:
+
+- a. /ɪd/
+- b. /t/
+- c. /d/
+- d. nu se aude deloc
+
+> [!success]- Răspuns
+> **a. /ɪd/**
+> 
+> După sunetele /t/ și /d/, terminația -ed formează o silabă suplimentară pronunțată /ɪd/.
+
+### 8. Forma corectă de trecut a propoziției „He goes to school” este:
+
+- a. He went to school
+- b. He goed to school
+- c. He was went to school
+- d. He did go to school yesterday
+
+> [!success]- Răspuns
+> **a. He went to school**
+> 
+> Verbul „go” este neregulat, cu trecutul „went”.
+
+### 9. Forma corectă este:
 
 - a. „I was reading when he called.”
 - b. „I read when he was calling.”
@@ -69,7 +117,7 @@ cssclasses: test
 > 
 > Acțiunea lungă e la Past Continuous, cea scurtă la Past Simple.
 
-### 6. Interogativul corect la Past Simple este:
+### 10. Interogativul corect la Past Simple este:
 
 - a. „Did you see the film?”
 - b. „Did you saw the film?”
@@ -81,7 +129,7 @@ cssclasses: test
 > 
 > După „did”, verbul revine la forma de bază.
 
-### 7. „While I was cooking, the phone rang.” conține:
+### 11. „While I was cooking, the phone rang.” conține:
 
 - a. o acțiune lungă și una scurtă care o întrerupe
 - b. două acțiuni simultane încheiate
@@ -93,7 +141,7 @@ cssclasses: test
 > 
 > „While” introduce, de regulă, acțiunea lungă.
 
-### 8. Trecutul verbului „go” este:
+### 12. Trecutul verbului „go” este:
 
 - a. went
 - b. goed
@@ -105,7 +153,7 @@ cssclasses: test
 > 
 > „Gone” este participiul trecut.
 
-### 9. Forma corectă este:
+### 13. Forma corectă este:
 
 - a. „I saw him yesterday.”
 - b. „I have seen him yesterday.”
@@ -117,7 +165,7 @@ cssclasses: test
 > 
 > Momentul precizat cere Past Simple.
 
-### 10. „Look at those clouds! It ______ rain.” Forma potrivită este:
+### 14. „Look at those clouds! It ______ rain.” Forma potrivită este:
 
 - a. is going to
 - b. will
@@ -129,7 +177,7 @@ cssclasses: test
 > 
 > Predicția bazată pe dovezi prezente cere „be going to”.
 
-### 11. „I have lived here ______ 2015.” Cuvântul potrivit este:
+### 15. „I have lived here ______ 2015.” Cuvântul potrivit este:
 
 - a. since
 - b. for
@@ -141,7 +189,7 @@ cssclasses: test
 > 
 > „Since” marchează momentul de început, „for” durata.
 
-### 12. „The train ______ at 7.30.” Pentru un orar fix se folosește:
+### 16. „The train ______ at 7.30.” Pentru un orar fix se folosește:
 
 - a. leaves
 - b. is leaving
@@ -153,43 +201,67 @@ cssclasses: test
 > 
 > Programele fixe se exprimă cu Present Simple.
 
-### 13. Forma corectă este:
+### 17. Pluralul substantivului „child” este:
 
-- a. „I need some information.”
-- b. „I need some informations.”
-- c. „I need an information.”
-- d. „I need many informations.”
-
-> [!success]- Răspuns
-> **a. „I need some information.”**
-> 
-> „Information” este nenumărabil.
-
-### 14. „She has ______ friends here, so she isn't lonely.” Cuvântul potrivit este:
-
-- a. a few
-- b. few
-- c. a little
-- d. much
+- a. children
+- b. childs
+- c. childrens
+- d. childes
 
 > [!success]- Răspuns
-> **a. a few**
+> **a. children**
 > 
-> „A few” are sens pozitiv.
+> „Child” are pluralul neregulat „children”, fără -s la final.
 
-### 15. Articolul „an” se folosește înaintea:
+### 18. Pluralul substantivului „knife” (cuțit) este:
 
-- a. unui sunet vocalic
-- b. unei litere vocalice, indiferent de sunet
-- c. oricărui substantiv
-- d. substantivelor la plural
+- a. knives
+- b. knifes
+- c. knifs
+- d. knive
 
 > [!success]- Răspuns
-> **a. unui sunet vocalic**
+> **a. knives**
 > 
-> „An hour”, dar „a university”.
+> Substantivele în -fe sau -f fac frecvent pluralul în -ves.
 
-### 16. „______ books are useful.” Pentru sensul general se folosește:
+### 19. Pentru un obiect aflat aproape, la singular, folosim:
+
+- a. this
+- b. that
+- c. these
+- d. those
+
+> [!success]- Răspuns
+> **a. this**
+> 
+> „This” indică apropierea la singular („this pen”), iar „these” la plural.
+
+### 20. Înaintea substantivului „university” se folosește articolul:
+
+- a. a
+- b. an
+- c. the (obligatoriu)
+- d. zero articol
+
+> [!success]- Răspuns
+> **a. a**
+> 
+> Deși începe cu litera „u”, sunetul inițial este consoana semivocalică [j] („a university”).
+
+### 21. Forma corectă pentru substantivul „advice” (sfat) este:
+
+- a. „He gave me some advice.”
+- b. „He gave me an advice.”
+- c. „He gave me many advices.”
+- d. „He gave me two advices.”
+
+> [!success]- Răspuns
+> **a. „He gave me some advice.”**
+> 
+> „Advice” este nenumărabil; pentru singular se spune „a piece of advice”.
+
+### 22. „______ books are useful.” Pentru sensul general se folosește:
 
 - a. articolul zero
 - b. the
@@ -201,7 +273,7 @@ cssclasses: test
 > 
 > Pluralul cu sens general nu primește articol.
 
-### 17. Superlativul lui „bad” este:
+### 23. Superlativul lui „bad” este:
 
 - a. the worst
 - b. the baddest
@@ -213,7 +285,7 @@ cssclasses: test
 > 
 > „Bad” are forme neregulate: bad–worse–worst.
 
-### 18. Forma corectă este:
+### 24. Forma corectă este:
 
 - a. „She sings well.”
 - b. „She sings good.”
@@ -225,7 +297,7 @@ cssclasses: test
 > 
 > Adverbul de la „good” este „well”.
 
-### 19. „He hardly works” înseamnă:
+### 25. „He hardly works” înseamnă:
 
 - a. „Abia dacă muncește.”
 - b. „Muncește din greu.”
@@ -237,7 +309,7 @@ cssclasses: test
 > 
 > „He works hard” înseamnă „muncește din greu”.
 
-### 20. Structura „The more you read, the more you learn” exprimă:
+### 26. Structura „The more you read, the more you learn” exprimă:
 
 - a. o proporționalitate
 - b. o egalitate
@@ -249,7 +321,7 @@ cssclasses: test
 > 
 > Este structura „the … the …”.
 
-### 21. „You mustn't smoke here” înseamnă:
+### 27. „You mustn't smoke here” înseamnă:
 
 - a. este interzis să fumezi aici
 - b. nu ești obligat să fumezi
@@ -261,7 +333,7 @@ cssclasses: test
 > 
 > „Don't have to” exprimă absența obligației.
 
-### 22. Forma corectă este:
+### 28. Forma corectă este:
 
 - a. „She can speak French.”
 - b. „She cans speak French.”
@@ -273,7 +345,7 @@ cssclasses: test
 > 
 > Modalele nu primesc -s și cer infinitiv fără „to”.
 
-### 23. „Who called you?” nu are inversiune deoarece:
+### 29. „Who called you?” nu are inversiune deoarece:
 
 - a. cuvântul interogativ este subiectul propoziției
 - b. este o întrebare indirectă
@@ -285,7 +357,7 @@ cssclasses: test
 > 
 > Când „who” este subiect, ordinea rămâne directă.
 
-### 24. Ordinea corectă este:
+### 30. Ordinea corectă este:
 
 - a. „She sang beautifully at the concert last night.”
 - b. „She sang last night beautifully at the concert.”
@@ -297,7 +369,7 @@ cssclasses: test
 > 
 > Mod, apoi loc, apoi timp.
 
-### 25. Colocația corectă este:
+### 31. Colocația corectă este:
 
 - a. „make a decision”
 - b. „do a decision”
@@ -309,7 +381,7 @@ cssclasses: test
 > 
 > Colocațiile se învață ca unități.
 
-### 26. Prefixul „ir-” se folosește, de regulă, înaintea cuvintelor care încep cu:
+### 32. Prefixul „ir-” se folosește, de regulă, înaintea cuvintelor care încep cu:
 
 - a. r
 - b. l
@@ -321,7 +393,7 @@ cssclasses: test
 > 
 > „Irregular”, „illegal”, „impossible”, „inactive”.
 
-### 27. Sufixul „-less” formează:
+### 33. Sufixul „-less” formează:
 
 - a. adjective cu sens privativ
 - b. substantive
@@ -333,7 +405,7 @@ cssclasses: test
 > 
 > „Homeless”, „useless”, „careless”.
 
-### 28. „Do homework” și „make a mistake” arată că:
+### 34. „Do homework” și „make a mistake” arată că:
 
 - a. verbele „do” și „make” au colocații distincte
 - b. cele două verbe sunt sinonime
@@ -345,7 +417,7 @@ cssclasses: test
 > 
 > Regula generală: „do” pentru activități, „make” pentru creație și rezultate.
 
-### 29. Cea mai politicoasă formulare este:
+### 35. Cea mai politicoasă formulare este:
 
 - a. „Could you possibly help me?”
 - b. „Help me.”
@@ -357,7 +429,7 @@ cssclasses: test
 > 
 > Modalul și structura indirectă marchează politețea.
 
-### 30. Într-o întrebare indirectă, ordinea cuvintelor este:
+### 36. Într-o întrebare indirectă, ordinea cuvintelor este:
 
 - a. directă, ca într-o afirmație
 - b. inversată, ca într-o întrebare
@@ -369,7 +441,7 @@ cssclasses: test
 > 
 > Corect: „Could you tell me where he is?”, nu „…where is he?”.
 
-### 31. Registrul formal se recunoaște prin:
+### 37. Registrul formal se recunoaște prin:
 
 - a. structuri indirecte, modale și absența prescurtărilor
 - b. cuvinte lungi
@@ -381,7 +453,7 @@ cssclasses: test
 > 
 > Prescurtările („I'm”, „can't”) aparțin registrului informal.
 
-### 32. „I'm afraid I can't” este o formulă de:
+### 38. „I'm afraid I can't” este o formulă de:
 
 - a. refuz politicos
 - b. acord
@@ -393,7 +465,7 @@ cssclasses: test
 > 
 > Ea atenuează refuzul.
 
-### 33. Când cauți ora de plecare a unui tren într-un orar, folosești:
+### 39. Când cauți ora de plecare a unui tren într-un orar, folosești:
 
 - a. scanning
 - b. skimming
@@ -405,7 +477,7 @@ cssclasses: test
 > 
 > Scanning-ul caută o informație precisă.
 
-### 34. Căutarea în dicționar a fiecărui cuvânt necunoscut:
+### 40. Căutarea în dicționar a fiecărui cuvânt necunoscut:
 
 - a. încetinește lectura și împiedică deducerea din context
 - b. este metoda recomandată
@@ -417,7 +489,7 @@ cssclasses: test
 > 
 > Se caută doar cuvintele-cheie care blochează sensul.
 
-### 35. Conectorul „however” exprimă:
+### 41. Conectorul „however” exprimă:
 
 - a. un contrast
 - b. o consecință
@@ -429,7 +501,7 @@ cssclasses: test
 > 
 > „Therefore” exprimă consecința.
 
-### 36. Vorbirea cu greșeli, în etapa de învățare:
+### 42. Vorbirea cu greșeli, în etapa de învățare:
 
 - a. este necesară, fiindcă corectitudinea vine din practică
 - b. trebuie evitată
@@ -441,19 +513,19 @@ cssclasses: test
 > 
 > Evitarea vorbirii întârzie cel mai mult progresul.
 
-### 37. Forma corectă este:
+### 43. Forma corectă este:
 
-- a. „She gave the book to him."
-- b. „She gave the book to he."
-- c. „She gave the book to his."
-- d. „She gave the book to himself."
+- a. „She gave the book to him.”
+- b. „She gave the book to he.”
+- c. „She gave the book to his.”
+- d. „She gave the book to himself.”
 
 > [!success]- Răspuns
-> **a. „She gave the book to him."**
+> **a. „She gave the book to him.”**
 > 
-> După prepoziție se folosește pronumele complement „him".
+> După prepoziție se folosește pronumele complement „him”.
 
-### 38. „This pen is ______." Forma corectă este:
+### 44. „This pen is ______.” Forma corectă este:
 
 - a. mine
 - b. my
@@ -463,9 +535,9 @@ cssclasses: test
 > [!success]- Răspuns
 > **a. mine**
 > 
-> Pronumele posesiv „mine" stă singur, fără substantiv.
+> Pronumele posesiv „mine” stă singur, fără substantiv.
 
-### 39. „The company changed ______ logo." Cuvântul potrivit este:
+### 45. „The company changed ______ logo.” Cuvântul potrivit este:
 
 - a. its
 - b. it's
@@ -475,9 +547,9 @@ cssclasses: test
 > [!success]- Răspuns
 > **a. its**
 > 
-> „Its" este posesivul lui „it"; „it's" înseamnă „it is".
+> „Its” este posesivul lui „it”; „it's” înseamnă „it is”.
 
-### 40. „He cut ______ while cooking." Forma corectă este:
+### 46. „He cut ______ while cooking.” Forma corectă este:
 
 - a. himself
 - b. him
@@ -487,9 +559,21 @@ cssclasses: test
 > [!success]- Răspuns
 > **a. himself**
 > 
-> Subiectul și complementul coincid, deci pronumele reflexiv „himself".
+> Subiectul și complementul coincid, deci pronumele reflexiv „himself”.
 
-### 41. „I have English ______ Monday." Prepoziția corectă este:
+### 47. În propoziția „Can you help ______?”, pronumele corect este:
+
+- a. us
+- b. we
+- c. our
+- d. ours
+
+> [!success]- Răspuns
+> **a. us**
+> 
+> După verbul „help” este necesar un pronume de complement (obiect): „us”.
+
+### 48. „I have English ______ Monday." Prepoziția corectă este:
 
 - a. on
 - b. in
@@ -501,7 +585,7 @@ cssclasses: test
 > 
 > Zilele săptămânii cer „on".
 
-### 42. „The keys are ______ the table." Forma corectă este:
+### 49. „The keys are ______ the table." Forma corectă este:
 
 - a. on
 - b. in
@@ -513,7 +597,7 @@ cssclasses: test
 > 
 > Suprafața cere „on".
 
-### 43. „We met ______ 2019." Prepoziția potrivită este:
+### 50. „We met ______ 2019." Prepoziția potrivită este:
 
 - a. in
 - b. on
@@ -525,7 +609,7 @@ cssclasses: test
 > 
 > Anii cer „in".
 
-### 44. „She arrived ______ the airport late." Forma corectă este:
+### 51. „She arrived ______ the airport late." Forma corectă este:
 
 - a. at
 - b. in
@@ -537,7 +621,7 @@ cssclasses: test
 > 
 > „Arrive at" un loc anume; „arrive in" un oraș sau o țară.
 
-### 45. „______ three apples on the table." Forma corectă este:
+### 52. „______ three apples on the table." Forma corectă este:
 
 - a. There are
 - b. There is
@@ -549,7 +633,7 @@ cssclasses: test
 > 
 > Pluralul „apples" cere „there are".
 
-### 46. „I don't have ______ money." Cuvântul potrivit este:
+### 53. „I don't have ______ money." Cuvântul potrivit este:
 
 - a. any
 - b. some
@@ -561,7 +645,7 @@ cssclasses: test
 > 
 > În propoziții negative se folosește „any"; „money" e nenumărabil, deci nu „many".
 
-### 47. „______ water is there in the bottle?" Forma corectă este:
+### 54. „______ water is there in the bottle?" Forma corectă este:
 
 - a. How much
 - b. How many
@@ -573,7 +657,7 @@ cssclasses: test
 > 
 > „Water" este nenumărabil, deci „how much".
 
-### 48. „Would you like ______ coffee?" Forma politicoasă folosește:
+### 55. „Would you like ______ coffee?" Forma politicoasă folosește:
 
 - a. some
 - b. any
@@ -585,7 +669,31 @@ cssclasses: test
 > 
 > În oferte se folosește „some", deși propoziția este interogativă.
 
-### 49. „______ do you live?" Cuvântul potrivit este:
+### 56. Formula ordinii corecte a cuvintelor într-o întrebare cu auxiliar este:
+
+- a. Cuvânt interogativ + Auxiliar + Subiect + Verb
+- b. Cuvânt interogativ + Subiect + Auxiliar + Verb
+- c. Subiect + Auxiliar + Cuvânt interogativ + Verb
+- d. Auxiliar + Cuvânt interogativ + Verb + Subiect
+
+> [!success]- Răspuns
+> **a. Cuvânt interogativ + Auxiliar + Subiect + Verb**
+> 
+> Formula standard este Q-A-S-V: Question word + Auxiliary + Subject + Verb.
+
+### 57. Răspunsul scurt corect la „Did you finish your homework?” este:
+
+- a. „Yes, I did.”
+- b. „Yes, I finished.”
+- c. „Yes, I do.”
+- d. „Yes, I have.”
+
+> [!success]- Răspuns
+> **a. „Yes, I did.”**
+> 
+> Răspunsul scurt reia auxiliarul de trecut „did”.
+
+### 58. „______ do you live?” Cuvântul potrivit este:
 
 - a. Where
 - b. What
@@ -595,21 +703,21 @@ cssclasses: test
 > [!success]- Răspuns
 > **a. Where**
 > 
-> „Where" întreabă despre loc.
+> „Where” întreabă despre loc.
 
-### 50. Răspunsul scurt corect la „Can you drive?" este:
+### 59. Răspunsul scurt corect la „Can you drive?” este:
 
-- a. „Yes, I can."
-- b. „Yes, I drive."
-- c. „Yes, I do."
-- d. „Yes, I am."
+- a. „Yes, I can.”
+- b. „Yes, I drive.”
+- c. „Yes, I do.”
+- d. „Yes, I am.”
 
 > [!success]- Răspuns
-> **a. „Yes, I can."**
+> **a. „Yes, I can.”**
 > 
-> Răspunsul scurt reia auxiliarul întrebării, aici „can".
+> Răspunsul scurt reia auxiliarul întrebării, aici „can”.
 
-### 51. „______ broke the window?" (cine, ca subiect) Forma corectă este:
+### 60. „______ broke the window?" (cine, ca subiect) Forma corectă este:
 
 - a. Who
 - b. Who did
@@ -621,7 +729,7 @@ cssclasses: test
 > 
 > Când „who" este subiect, nu se folosește auxiliar: „Who broke…?".
 
-### 52. „You're French, ______?" Forma corectă a întrebării de confirmare este:
+### 61. „You're French, ______?" Forma corectă a întrebării de confirmare este:
 
 - a. aren't you
 - b. are you
@@ -633,7 +741,7 @@ cssclasses: test
 > 
 > Afirmativul „you are" cere tag negativ „aren't you".
 
-### 53. Imperativul negativ corect este:
+### 62. Imperativul negativ corect este:
 
 - a. „Don't open the door."
 - b. „Not open the door."
@@ -645,7 +753,7 @@ cssclasses: test
 > 
 > Imperativul negativ folosește „don't" plus verbul de bază.
 
-### 54. „______ go to the cinema tonight." O sugestie corectă este:
+### 63. „______ go to the cinema tonight." O sugestie corectă este:
 
 - a. Let's
 - b. Let us to
@@ -657,7 +765,7 @@ cssclasses: test
 > 
 > „Let's" este urmat de verbul de bază, fără „to".
 
-### 55. „How about ______ for a walk?" Forma corectă este:
+### 64. „How about ______ for a walk?" Forma corectă este:
 
 - a. going
 - b. go
@@ -669,7 +777,7 @@ cssclasses: test
 > 
 > După „how about" se folosește forma cu -ing.
 
-### 56. „The pharmacy is ______ the supermarket." Pentru „vizavi de" se folosește:
+### 65. „The pharmacy is ______ the supermarket." Pentru „vizavi de" se folosește:
 
 - a. opposite
 - b. between
@@ -681,7 +789,7 @@ cssclasses: test
 > 
 > „Opposite" înseamnă vizavi de.
 
-### 57. Ora 9:15 se citește:
+### 66. Ora 9:15 se citește:
 
 - a. „a quarter past nine"
 - b. „a quarter to nine"
@@ -693,7 +801,7 @@ cssclasses: test
 > 
 > „Past" arată minutele trecute după oră; 9:15 = „a quarter past nine".
 
-### 58. Forma corectă este:
+### 67. Forma corectă este:
 
 - a. „three hundred people"
 - b. „three hundreds people"
@@ -705,7 +813,7 @@ cssclasses: test
 > 
 > După un număr, „hundred" rămâne la singular.
 
-### 59. Numărul ordinal pentru „3" este:
+### 68. Numărul ordinal pentru „3" este:
 
 - a. third
 - b. three
@@ -717,7 +825,7 @@ cssclasses: test
 > 
 > Ordinalele sunt: first, second, third.
 
-### 60. „______ is this book?" Pentru a întreba prețul se folosește:
+### 69. „______ is this book?" Pentru a întreba prețul se folosește:
 
 - a. How much
 - b. How many
@@ -729,7 +837,7 @@ cssclasses: test
 > 
 > „How much" întreabă despre preț sau despre o cantitate nenumărabilă.
 
-### 61. „I have ______ headache." Articolul corect este:
+### 70. „I have ______ headache." Articolul corect este:
 
 - a. a
 - b. the
@@ -741,7 +849,7 @@ cssclasses: test
 > 
 > La boli frecvente ca „headache" sau „cold" se folosește articolul „a".
 
-### 62. Pentru a da un sfat, forma potrivită este:
+### 71. Pentru a da un sfat, forma potrivită este:
 
 - a. „You should drink more water."
 - b. „You must to drink more water."
@@ -753,7 +861,7 @@ cssclasses: test
 > 
 > „Should" este urmat de verbul de bază, fără „to".
 
-### 63. „What's the ______?" întreabă medicul despre problemă. Cuvântul potrivit este:
+### 72. „What's the ______?" întreabă medicul despre problemă. Cuvântul potrivit este:
 
 - a. matter
 - b. ill
@@ -765,7 +873,7 @@ cssclasses: test
 > 
 > „What's the matter?" înseamnă „Ce s-a întâmplat? / Ce problemă aveți?".
 
-### 64. „A sore throat" înseamnă:
+### 73. „A sore throat" înseamnă:
 
 - a. durere în gât
 - b. durere de cap
@@ -777,7 +885,7 @@ cssclasses: test
 > 
 > „Throat" înseamnă gât.
 
-### 65. „______ is the milk?" Forma corectă este:
+### 74. „______ is the milk?" Forma corectă este:
 
 - a. How much
 - b. How many
@@ -789,7 +897,7 @@ cssclasses: test
 > 
 > „Milk" este nenumărabil, deci „how much".
 
-### 66. La restaurant, pentru a comanda se spune:
+### 75. La restaurant, pentru a comanda se spune:
 
 - a. „I'll have the soup, please."
 - b. „I have want the soup."
@@ -801,7 +909,7 @@ cssclasses: test
 > 
 > „I'll have…" este formula obișnuită și politicoasă de comandă.
 
-### 67. „A ______ of water", forma corectă este:
+### 76. „A ______ of water", forma corectă este:
 
 - a. bottle
 - b. slice
@@ -813,7 +921,7 @@ cssclasses: test
 > 
 > „Slice" este pentru pâine, „bar" pentru ciocolată; apa se măsoară în „a bottle" sau „a glass".
 
-### 68. Colocația corectă este:
+### 77. Colocația corectă este:
 
 - a. „have breakfast"
 - b. „do breakfast"
@@ -825,7 +933,7 @@ cssclasses: test
 > 
 > „Have breakfast" înseamnă a lua micul dejun.
 
-### 69. Capitala Regatului Unit este:
+### 78. Capitala Regatului Unit este:
 
 - a. Londra
 - b. Washington
@@ -837,7 +945,7 @@ cssclasses: test
 > 
 > Edinburgh este capitala Scoției, iar Dublin a Irlandei.
 
-### 70. Ortografia britanică a cuvântului „center" este:
+### 79. Ortografia britanică a cuvântului „center" este:
 
 - a. centre
 - b. center
@@ -849,7 +957,7 @@ cssclasses: test
 > 
 > Engleza britanică inversează „-er" în „-re": centre, theatre.
 
-### 71. „Lift", în engleza britanică, corespunde în cea americană cuvântului:
+### 80. „Lift", în engleza britanică, corespunde în cea americană cuvântului:
 
 - a. elevator
 - b. stairs
@@ -861,7 +969,7 @@ cssclasses: test
 > 
 > „Lift" (britanică) = „elevator" (americană).
 
-### 72. Regatul Unit NU include:
+### 81. Regatul Unit NU include:
 
 - a. Republica Irlanda
 - b. Anglia
@@ -873,7 +981,7 @@ cssclasses: test
 > 
 > Republica Irlanda este stat independent; doar Irlanda de Nord face parte din Regatul Unit.
 
-### 73. „This bag is ______; the other one is yours."
+### 82. „This bag is ______; the other one is yours."
 
 - a. mine
 - b. my
@@ -885,7 +993,7 @@ cssclasses: test
 > 
 > Pronumele posesiv „mine" stă singur.
 
-### 74. „We have English ______ Friday." Prepoziția corectă este:
+### 83. „We have English ______ Friday." Prepoziția corectă este:
 
 - a. on
 - b. in
@@ -897,7 +1005,7 @@ cssclasses: test
 > 
 > Zilele săptămânii cer „on".
 
-### 75. „______ some milk in the fridge." Forma corectă este:
+### 84. „______ some milk in the fridge." Forma corectă este:
 
 - a. There is
 - b. There are
@@ -909,7 +1017,7 @@ cssclasses: test
 > 
 > „Milk" este nenumărabil, deci „there is".
 
-### 76. În propoziții negative se folosește:
+### 85. În propoziții negative se folosește:
 
 - a. any
 - b. some
@@ -921,7 +1029,7 @@ cssclasses: test
 > 
 > „I don't have any money."
 
-### 77. Un sfat de sănătate se dă corect astfel:
+### 86. Un sfat de sănătate se dă corect astfel:
 
 - a. „You should rest."
 - b. „You should to rest."
@@ -933,7 +1041,7 @@ cssclasses: test
 > 
 > „Should" este urmat de verbul de bază.
 
-### 78. Capitala Statelor Unite ale Americii este:
+### 87. Capitala Statelor Unite ale Americii este:
 
 - a. Washington, D.C.
 - b. New York
@@ -945,7 +1053,7 @@ cssclasses: test
 > 
 > New York este cel mai mare oraș, dar nu capitala.
 
-### 79. Present Simple se folosește pentru:
+### 88. Present Simple se folosește pentru:
 
 - a. obișnuințe și adevăruri generale
 - b. acțiuni în desfășurare acum
@@ -957,7 +1065,7 @@ cssclasses: test
 > 
 > Adverbele tipice sunt always, usually, never.
 
-### 80. Forma corectă este:
+### 89. Forma corectă este:
 
 - a. „He doesn't work here.”
 - b. „He doesn't works here.”
@@ -969,7 +1077,7 @@ cssclasses: test
 > 
 > După „doesn't”, verbul revine la forma de bază.
 
-### 81. Verbele de stare (know, like, believe):
+### 90. Verbele de stare (know, like, believe):
 
 - a. nu se folosesc, de regulă, la forma continuă
 - b. se folosesc numai la forma continuă
@@ -981,7 +1089,7 @@ cssclasses: test
 > 
 > Corect: „I know”, nu „I am knowing”.
 
-### 82. Trecutul verbului „go” este:
+### 91. Trecutul verbului „go” este:
 
 - a. went
 - b. goed
@@ -993,7 +1101,7 @@ cssclasses: test
 > 
 > „Gone” este participiul trecut.
 
-### 83. „I was reading when he called” conține:
+### 92. „I was reading when he called” conține:
 
 - a. o acțiune lungă întreruptă de una scurtă
 - b. două acțiuni simultane încheiate
@@ -1005,7 +1113,7 @@ cssclasses: test
 > 
 > Acțiunea scurtă e la Past Simple.
 
-### 84. Cu un moment precizat din trecut se folosește:
+### 93. Cu un moment precizat din trecut se folosește:
 
 - a. Past Simple
 - b. Present Perfect
@@ -1017,7 +1125,7 @@ cssclasses: test
 > 
 > „I saw him yesterday”, nu „I have seen him yesterday”.
 
-### 85. „Look at those clouds! It ______ rain.”
+### 94. „Look at those clouds! It ______ rain.”
 
 - a. is going to
 - b. will
@@ -1029,7 +1137,7 @@ cssclasses: test
 > 
 > Predicția bazată pe dovezi cere „be going to”.
 
-### 86. „Information” este un substantiv:
+### 95. „Information” este un substantiv:
 
 - a. nenumărabil
 - b. numărabil
@@ -1041,7 +1149,7 @@ cssclasses: test
 > 
 > Corect: „some information”, nu „informations”.
 
-### 87. „She has a few friends” înseamnă:
+### 96. „She has a few friends” înseamnă:
 
 - a. are câțiva prieteni (sens pozitiv)
 - b. are prea puțini prieteni
@@ -1053,7 +1161,7 @@ cssclasses: test
 > 
 > „Few” fără articol are sens negativ.
 
-### 88. Superlativul lui „bad” este:
+### 97. Superlativul lui „bad” este:
 
 - a. the worst
 - b. the baddest
@@ -1065,7 +1173,7 @@ cssclasses: test
 > 
 > Formele sunt bad–worse–worst.
 
-### 89. Adverbul de la „good” este:
+### 98. Adverbul de la „good” este:
 
 - a. well
 - b. goodly
@@ -1077,7 +1185,7 @@ cssclasses: test
 > 
 > „She sings well”, nu „She sings good”.
 
-### 90. „He hardly works” înseamnă:
+### 99. „He hardly works” înseamnă:
 
 - a. abia dacă muncește
 - b. muncește din greu
@@ -1089,7 +1197,7 @@ cssclasses: test
 > 
 > „He works hard” înseamnă „muncește din greu”.
 
-### 91. Răspunsul scurt corect la „Do you speak English?" este:
+### 100. Răspunsul scurt corect la „Do you speak English?" este:
 
 - a. „Yes, I do."
 - b. „Yes, I speak."
@@ -1101,7 +1209,7 @@ cssclasses: test
 > 
 > Răspunsul scurt reia auxiliarul „do".
 
-### 92. „______ wrote this letter?" (cine, ca subiect) Forma corectă este:
+### 101. „______ wrote this letter?" (cine, ca subiect) Forma corectă este:
 
 - a. Who
 - b. Who did
@@ -1113,7 +1221,7 @@ cssclasses: test
 > 
 > Când „who" este subiect, nu se folosește auxiliar.
 
-### 93. Imperativul negativ corect este:
+### 102. Imperativul negativ corect este:
 
 - a. „Don't be late."
 - b. „Not be late."
@@ -1125,7 +1233,7 @@ cssclasses: test
 > 
 > Imperativul negativ folosește „don't" plus verbul de bază.
 
-### 94. O sugestie corectă este:
+### 103. O sugestie corectă este:
 
 - a. „Let's watch a film."
 - b. „Let's to watch a film."
@@ -1137,7 +1245,7 @@ cssclasses: test
 > 
 > „Let's" este urmat de verbul de bază.
 
-### 95. Ora 10:30 se citește:
+### 104. Ora 10:30 se citește:
 
 - a. „half past ten"
 - b. „half to ten"
@@ -1149,7 +1257,7 @@ cssclasses: test
 > 
 > „Half past ten" înseamnă 10:30.
 
-### 96. Forma corectă este:
+### 105. Forma corectă este:
 
 - a. „two hundred euros"
 - b. „two hundreds euros"
@@ -1161,7 +1269,7 @@ cssclasses: test
 > 
 > După un număr, „hundred" rămâne la singular.
 
-### 97. Verbele modale sunt urmate de:
+### 106. Verbele modale sunt urmate de:
 
 - a. infinitiv fără „to”
 - b. infinitiv cu „to”
@@ -1173,7 +1281,7 @@ cssclasses: test
 > 
 > „She can swim”, nu „She can to swim”.
 
-### 98. „You mustn't smoke here” înseamnă:
+### 107. „You mustn't smoke here” înseamnă:
 
 - a. este interzis să fumezi
 - b. nu ești obligat să fumezi
@@ -1185,7 +1293,7 @@ cssclasses: test
 > 
 > „Don't have to” exprimă absența obligației.
 
-### 99. „He must be tired” exprimă:
+### 108. „He must be tired” exprimă:
 
 - a. o deducție logică
 - b. o obligație
@@ -1197,7 +1305,7 @@ cssclasses: test
 > 
 > Modalul „must” are și sens deductiv.
 
-### 100. Ordinea corectă a complementelor este:
+### 109. Ordinea corectă a complementelor este:
 
 - a. mod, loc, timp
 - b. timp, loc, mod
@@ -1209,7 +1317,7 @@ cssclasses: test
 > 
 > „She sang beautifully at the concert last night.”
 
-### 101. În întrebarea „Who called you?” nu apare inversiune deoarece:
+### 110. În întrebarea „Who called you?” nu apare inversiune deoarece:
 
 - a. „who” este subiectul
 - b. verbul e la trecut
@@ -1221,7 +1329,7 @@ cssclasses: test
 > 
 > Când cuvântul interogativ e subiect, ordinea rămâne directă.
 
-### 102. Colocația corectă este:
+### 111. Colocația corectă este:
 
 - a. „make a decision”
 - b. „do a decision”
@@ -1233,7 +1341,7 @@ cssclasses: test
 > 
 > „Do” se folosește pentru activități, „make” pentru rezultate.
 
-### 103. Prefixul „im-” apare, de regulă, înaintea cuvintelor care încep cu:
+### 112. Prefixul „im-” apare, de regulă, înaintea cuvintelor care încep cu:
 
 - a. m sau p
 - b. r
@@ -1245,7 +1353,7 @@ cssclasses: test
 > 
 > „Impossible”, „immature”; „irregular”, „illegal”.
 
-### 104. Sufixul „-ness” formează:
+### 113. Sufixul „-ness” formează:
 
 - a. substantive
 - b. adjective
@@ -1257,7 +1365,7 @@ cssclasses: test
 > 
 > „Happiness”, „kindness”, „darkness”.
 
-### 105. Cea mai politicoasă formulare este:
+### 114. Cea mai politicoasă formulare este:
 
 - a. „Could you possibly help me?”
 - b. „Help me.”
@@ -1269,7 +1377,7 @@ cssclasses: test
 > 
 > Politețea vine din structura indirectă și din modal.
 
-### 106. Într-o întrebare indirectă, ordinea cuvintelor este:
+### 115. Într-o întrebare indirectă, ordinea cuvintelor este:
 
 - a. directă, ca într-o afirmație
 - b. inversată
@@ -1281,7 +1389,7 @@ cssclasses: test
 > 
 > „Could you tell me where he is?”
 
-### 107. Când cauți o informație precisă într-un text, folosești:
+### 116. Când cauți o informație precisă într-un text, folosești:
 
 - a. scanning
 - b. skimming
@@ -1293,7 +1401,7 @@ cssclasses: test
 > 
 > Skimming-ul dă doar ideea generală.
 
-### 108. Conectorul „therefore” exprimă:
+### 117. Conectorul „therefore” exprimă:
 
 - a. o consecință
 - b. un contrast

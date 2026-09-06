@@ -361,43 +361,70 @@
     },
     {
      "id": "eng13-05",
-     "titlu": "Scris: sarcinile de examen",
-     "rezumat": "Sarcinile de scriere la examen sunt scurte și precise: un e-mail, o scrisoare, un articol, un eseu de opinie sau un raport, de obicei între 120 și 250 de cuvinte. Punctajul depinde de patru criterii: tratarea completă a sarcinii, organizarea, vocabularul și corectitudinea gramaticală. Procedura în cinci pași: (1) citește cerința și subliniază fiecare punct; (2) alege registrul și tipul de text; (3) fă un plan de trei-patru paragrafe, cu o idee fiecare; (4) scrie, folosind conectori și variind structurile; (5) verifică timpurile, acordul, articolele, prepozițiile, ortografia și numărul de cuvinte. Cinci minute de verificare valorează mai mult decât cinci propoziții suplimentare.",
+     "titlu": "Scris: sarcinile de examen și baremul CEFR",
+     "rezumat": "Proba B scrisă de la Bacalaureat (evaluarea competențelor lingvistice) cuprinde două subiecte obligatorii redactate conform Cadrului European Comun de Referință pentru Limbi (CEFR: A1, A2, B1, B2): 1. Subiectul 1 (80–100 de cuvinte): text funcțional informal sau semi-formal (e-mail către un prieten, scrisoare personală, invitație sau descriere a unei experiențe). Cere formule firești de adresare („Dear Alex,” / „Hi Maria,”), introducere amicală („Hope you're doing well”), tratarea a 3 cerințe punctuale din enunț și încheiere specifică („Best wishes,” / „Write back soon,”). Baremul vizează nivelurile A1–B1. 2. Subiectul 2 (180–200 de cuvinte): eseu de opinie sau text argumentativ structurat formal (pe teme de tineret, tehnologie, societate, mediu sau școală). Cere: introducere cu prezentarea temei și a tezei personale, 2 paragrafe de cuprins cu argumente pro/contra susținute prin exemple concrete, paragraf de concluzie („In conclusion,”) care sintetizează fără idei noi. Registru strict formal (fără contracții!), folosind conectori variați („On the one hand”, „Furthermore”, „Consequently”, „However”). Baremul vizează nivelul B2. Baremul de corectare al Ministerului evaluează 4 criterii exacte (câte 25% fiecare): • Task achievement (îndeplinirea integrală a cerinței și încadrarea în limita de cuvinte — abaterile mai mari de 10% sunt penalizate); • Organization & Cohesion (structură vizibilă pe paragrafe și legături logice prin conectori); • Vocabulary range & accuracy (varietate lexicală adecvată nivelului B2, sinonime, formule academice); • Grammatical accuracy (corectitudinea timpurilor verbale, a ordinii cuvintelor, a acordului și a punctuației).",
      "ideiCheie": [
-      "Sarcinile sunt scurte și precise: 120–250 de cuvinte.",
-      "Criterii: sarcina, organizarea, vocabularul, gramatica.",
-      "Procedura în cinci pași, cu plan înainte de scriere.",
-      "Cinci minute de verificare valorează mai mult decât cinci propoziții în plus."
+      "Subiectul 1 Bac: 80–100 cuvinte (e-mail/scrisoare informală, registru prietenesc, nivel A1–B1).",
+      "Subiectul 2 Bac: 180–200 cuvinte (eseu argumentativ/opinie formal, fără contracții, nivel B2).",
+      "Criterii oficiale de evaluare: îndeplinirea sarcinii, coeziune/organizare, vocabular și gramatică.",
+      "Respectarea numărului de cuvinte este obligatorie: abaterile majore atrag scăderea punctajului.",
+      "Verificarea finală de 5 minute elimină greșelile de acord, ortografie și prepoziții."
      ],
      "termeni": [
       {
-       "t": "word limit",
-       "d": "numărul de cuvinte impus pentru o sarcină de scriere"
+       "t": "task achievement",
+       "d": "gradul de îndeplinire a tuturor cerințelor din enunțul probei de examen"
       },
       {
-       "t": "proofreading",
-       "d": "verificarea finală a textului pentru greșeli de limbă"
+       "t": "CEFR",
+       "d": "Cadrul European Comun de Referință pentru Limbi Străine (A1, A2, B1, B2)"
+      },
+      {
+       "t": "opinion essay",
+       "d": "eseu argumentativ de opinie în registru formal (introducere, argumente, concluzie)"
       }
      ],
      "carduri": [
       {
-       "f": "Care sunt cele patru criterii de evaluare la scriere?",
-       "v": "Tratarea sarcinii, organizarea, vocabularul și corectitudinea gramaticală."
+       "f": "Ce lungime cere Subiectul 1 la proba scrisă de Bacalaureat?",
+       "v": "80–100 de cuvinte (e-mail sau scrisoare informală către un prieten)."
       },
       {
-       "f": "Care sunt cei cinci pași ai procedurii de scriere?",
-       "v": "Citirea cerinței, alegerea registrului, planul, scrierea, verificarea."
+       "f": "Ce lungime și registru cere Subiectul 2 la Bacalaureat?",
+       "v": "180–200 de cuvinte, în registru formal (eseu de opinie/argumentativ)."
       },
       {
-       "f": "Ce se verifică la final?",
-       "v": "Timpurile, acordul, articolele, prepozițiile, ortografia și numărul de cuvinte."
+       "f": "Care sunt cele 4 criterii oficiale de corectare din baremul Bacalaureat?",
+       "v": "Îndeplinirea sarcinii (task achievement), organizarea/coeziunea, vocabularul și corectitudinea gramaticală."
       },
       {
-       "f": "Ce valorează mai mult: cinci minute de verificare sau cinci propoziții în plus?",
-       "v": "Verificarea."
+       "f": "Ce nivel maxim de competență se poate atesta la proba scrisă de Bacalaureat?",
+       "v": "Nivelul B2 (conform grilei CEFR)."
       }
      ],
      "test": [
+      {
+       "intrebare": "Subiectul 1 de la proba scrisă de Bacalaureat cere o lungime de:",
+       "optiuni": [
+        "80–100 de cuvinte",
+        "180–200 de cuvinte",
+        "300–400 de cuvinte",
+        "40–50 de cuvinte"
+       ],
+       "corect": 0,
+       "explicatie": "Subiectul 1 este un text funcțional scurt de 80–100 de cuvinte."
+      },
+      {
+       "intrebare": "La Subiectul 2 (eseu argumentativ de 180–200 de cuvinte), registrul cerut este:",
+       "optiuni": [
+        "formal, evitând prescurtările și argoul",
+        "foarte informal, plin de prescurtări (I'm, don't)",
+        "poetic și metaforic",
+        "liber, fără nicio regulă"
+       ],
+       "corect": 0,
+       "explicatie": "Eseul argumentativ se redactează în stil academic/formal, fără contracții."
+      },
       {
        "intrebare": "Depășirea semnificativă a limitei de cuvinte:",
        "optiuni": [
@@ -410,37 +437,26 @@
        "explicatie": "Respectarea limitei face parte din sarcină."
       },
       {
-       "intrebare": "Planul înainte de scriere:",
+       "intrebare": "Criteriul „task achievement” (îndeplinirea sarcinii) evaluează:",
        "optiuni": [
-        "asigură organizarea și tratarea completă",
-        "consumă timp inutil",
-        "se face doar la eseuri lungi",
-        "înlocuiește verificarea"
+        "dacă toate cerințele din enunț au fost dezvoltate în limita de cuvinte",
+        "exclusiv frumusețea scrisului de mână",
+        "numărul de verbe la trecut",
+        "prezența glumelor în text"
        ],
        "corect": 0,
-       "explicatie": "O idee pe paragraf este suficient."
+       "explicatie": "Tratarea completă a tuturor punctelor din cerință este esențială."
       },
       {
-       "intrebare": "Criteriul „tratarea sarcinii” privește:",
+       "intrebare": "Nivelul maxim atestat la probele de competențe de Bacalaureat este:",
        "optiuni": [
-        "dacă toate punctele cerute au fost dezvoltate",
-        "corectitudinea gramaticală",
-        "varietatea vocabularului",
-        "lungimea textului"
+        "B2",
+        "C2",
+        "A1",
+        "B1"
        ],
        "corect": 0,
-       "explicatie": "Un text bine scris, dar incomplet, pierde acest punctaj."
-      },
-      {
-       "intrebare": "Verificarea finală ar trebui să vizeze în primul rând:",
-       "optiuni": [
-        "greșelile frecvente: timpuri, acord, articole, prepoziții",
-        "stilul",
-        "lungimea frazelor",
-        "alegerea temei"
-       ],
-       "corect": 0,
-       "explicatie": "Acestea sunt cele mai ușor de corectat."
+       "explicatie": "Proba B de competențe lingvistice atestă nivelurile A1, A2, B1 și B2."
       }
      ]
     },
