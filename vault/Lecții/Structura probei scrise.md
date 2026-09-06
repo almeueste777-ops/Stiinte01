@@ -14,14 +14,15 @@ clasa: "a XIII-a"
 
 ## Rezumat
 
-Proba scrisă la limba și literatura română are trei subiecte, cu punctaje distincte, și durează trei ore. Subiectul I (50 de puncte) pornește de la un text-suport la prima vedere, literar sau nonliterar, și cuprinde cerințe de înțelegere a textului (30 de puncte) și o compunere de tip text argumentativ sau reflexiv (20 de puncte). Subiectul al II-lea (10 puncte) cere, de regulă, prezentarea unei trăsături a unui text dat sau o scurtă analiză aplicată. Subiectul al III-lea (30 de puncte) cere un eseu structurat despre o operă studiată — particularitățile unui curent literar, caracterizarea unui personaj, tema și viziunea despre lume, relația dintre două personaje, particularitățile unui text narativ, liric sau dramatic. Din oficiu se acordă 10 puncte. Se punctează separat redactarea: coerența textului, registrul stilistic adecvat, ortografia, punctuația, așezarea în pagină și lizibilitatea. Aceste puncte se pierd ușor și se recuperează greu: un eseu bun ca idei, dar scris neglijent, pierde până la o zecime din notă.
+Proba scrisă la limba și literatura română are trei subiecte, cu punctaje distincte, și durează trei ore. Punctajul maxim este de 100 de puncte, din care 10 puncte se acordă din oficiu. Subiectul I (50 de puncte) pornește de la un text-suport la prima vedere (frecvent memorialistic, epistolar, jurnal sau critică literară) și este împărțit în două părți: Partea A (30 de puncte — 5 cerințe punctuale de câte 6 puncte privind înțelegerea textului, sensul unor cuvinte, identificarea unor detalii, explicarea motivelor sau a stărilor) și Partea B (20 de puncte — redactarea unui text argumentativ de minimum 150 de cuvinte, pe o temă legată de mesajul fragmentului suport). Subiectul al II-lea (10 puncte) evaluează competențele de analiză aplicată pe un text literar la prima vedere (în jur de 50–100 de cuvinte). În sesiunile recente de bacalaureat, cerința vizează obligatoriu unul dintre cele patru mari tipare: (1) prezentarea perspectivei narative (obiectivă vs. subiectivă) și a relației narator-personaj; (2) evidențierea rolului notațiilor autorului (didascaliilor) în textul dramatic; (3) ilustrarea relației dintre ideea poetică și mijloacele artistice în textul liric; (4) precizarea și ilustrarea a două modalități de caracterizare a unui personaj dintr-un fragment de proză sau teatru. Subiectul al III-lea (30 de puncte) cere elaborarea unui eseu structurat de minimum 400 de cuvinte despre o operă studiată aparținând autorilor canonici sau curentelor prevăzute în programă: particularități ale unui text narativ, poetic sau dramatic, tema și viziunea despre lume într-un text studiat, particularități de construcție a unui personaj sau relația dintre două personaje (la profilul umanist/pedagogic). Redactarea este evaluată strict pe întreaga lucrare (12 puncte din cele 30 la Subiectul III, plus punctajele de redactare la Subiectul I.B): coerență, ortografie, punctuație, așezare în pagină, lizibilitate și registrul stilistic adecvat.
 
 ## Idei-cheie
 
-- Trei subiecte: I (50p), II (10p), III (30p), plus 10 puncte din oficiu; durata, trei ore.
-- Subiectul I: text la prima vedere, cerințe de înțelegere plus compunere.
-- Subiectul III: eseu structurat despre o operă studiată.
-- Redactarea se punctează separat: coerență, registru, ortografie, punctuație, așezare în pagină.
+- Trei subiecte: I (50p: Partea A 30p + Partea B 20p), II (10p aplicat), III (30p eseu), plus 10 puncte din oficiu.
+- Subiectul I: text la prima vedere (memorialistic/nonliterar), 5 cerințe punctuale și eseu argumentativ (min. 150 cuvinte).
+- Subiectul II (10p): 4 tipare recurente — perspectivă narativă, didascalii, idee poetică și mijloace artistice, modalități de caracterizare.
+- Subiectul III: eseu structurat (min. 400 cuvinte) — temă și viziune, caracterizare personaj sau relație între personaje.
+- Redactarea se punctează separat: coerență, registru cult, ortografie, punctuație, limita minimă de cuvinte.
 
 ## Notițele mele
 

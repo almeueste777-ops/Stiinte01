@@ -11,21 +11,21 @@ cssclasses: carduri
 
 #flashcards/limba-si-literatura-romana
 
-Cum sunt împărțite punctajele la proba de română?::Subiectul I — 50 p, al II-lea — 10 p, al III-lea — 30 p, plus 10 p din oficiu.
+Cum este structurată proba scrisă de bacalaureat?::Subiectul I (50p: 30p Partea A + 20p Partea B), Subiectul II (10p), Subiectul III (30p), plus 10p din oficiu.
 
-Ce se cere la subiectul al III-lea?::Un eseu structurat despre o operă studiată.
+Care sunt cele 4 cerințe tipice de la Subiectul al II-lea?::Perspectiva narativă, rolul didascaliilor, relația idee poetică-mijloace artistice, modalitățile de caracterizare.
 
-Ce se punctează separat, la toate subiectele?::Redactarea: coerență, registru, ortografie, punctuație, așezare în pagină.
+Care este limita minimă de cuvinte la Subiectul I.B și Subiectul III?::Minimum 150 de cuvinte la textul argumentativ și minimum 400 de cuvinte la eseul structurat.
 
-Cât durează proba scrisă?::Trei ore.
+Ce se depunctează la redactare pe întreaga lucrare?::Greșelile de ortografie, punctuație, lipsa conectorilor, registrul colocvial și nerespectarea numărului minim de cuvinte.
 
-Ce verifică cerințele de la subiectul I?::Înțelegerea textului dat, nu memorarea altor texte.
+Cum se răspunde la cerința 1 de la Subiectul I.A (sensul din text)?::Se explică sensul prin sinonim sau perifrază adaptată contextului, integrată într-un enunț complet.
 
-Ce trebuie adăugat după identificarea unei figuri de stil?::Explicarea rolului ei în context, adică ce sugerează.
+Ce surse trebuie să aibă cele două exemple din textul argumentativ (I.B)?::Primul exemplu trebuie extras obligatoriu din textul-suport; al doilea poate proveni din experiența culturală sau personală.
 
-Ce structură are compunerea de la subiectul I?::Ipoteză, argumente cu exemple, concluzie.
+Ce conectori sunt esențiali în textul argumentativ?::„În primul rând”, „în al doilea rând”, „pe de o parte/pe de altă parte”, „prin urmare”, „în concluzie”.
 
-De ce contează limita de cuvinte?::Pentru că este punctată: prea puțin înseamnă argumentare insuficientă, prea mult, risc de digresiune.
+Ce se întâmplă dacă textul argumentativ are sub 150 de cuvinte?::Nu se acordă punctajul pentru respectarea normei de lungime și se pierd puncte importante de redactare.
 
 Ce cuprinde introducerea unui eseu despre temă și viziune?::Încadrarea în curent, cu trăsături ilustrate, plus autorul, opera și anul.
 
@@ -43,13 +43,13 @@ Ce este caracterizarea indirectă?::Conturarea personajului prin fapte, vorbe, g
 
 Care e greșeala tipică la caracterizare?::Lista de adjective fără susținere în text.
 
-Ce elemente se cer la eseul despre un text narativ?::Încadrarea, tema, două secvențe și două elemente de structură.
+Care este algoritmul de rezolvare pentru cerința „relația idee poetică – mijloace artistice”?::Numirea temei și a stării eului liric, urmată de identificarea și explicarea rolului a minimum două figuri de stil sau imagini artistice cu citate din text.
 
-Ce înseamnă analiza unei figuri de stil?::Explicarea efectului ei în context, nu simpla identificare.
+Ce roluri au notațiile autorului într-un text dramatic la Subiectul II?::Rol scenic (decor, spațiu, timp, mișcare) și rol de caracterizare a personajelor (stare afectivă, mimică, ton, atitudine).
 
-Ce elemente de structură are textul dramatic?::Actele și scenele, conflictul, didascaliile, construcția personajelor prin replici.
+Cum recunoști o perspectivă narativă obiectivă la Subiectul II?::Mărci verbale și pronominale la persoana a III-a, narator omniscient, neimplicat, cu focalizare zero.
 
-De ce contează folosirea exactă a conceptelor?::Pentru că un termen greșit folosit se sancționează mai aspru decât absența lui.
+Ce cuprind modalitățile de caracterizare directă?::Portretul făcut de narator, aprecierile altor personaje și autocaracterizarea personajului.
 
 Ce fixează DOOM?::Normele actuale de ortografie, ortoepie și morfologie ale limbii române.
 
@@ -67,13 +67,13 @@ Ce este un barbarism?::Un împrumut nejustificat, folosit deși există un terme
 
 Care e regula practică pentru claritate?::Taie cuvintele care nu adaugă sens și sparge frazele care cer recitire.
 
-Ce înseamnă autor canonic?::Autor prevăzut de programă, ale cărui opere pot face obiectul cerințelor de examen.
+Câți autori canonici sunt menționați în programa oficială de bacalaureat?::16 autori canonici fundamentali (de la clasici până la postbelici).
 
-Numește trei autori canonici interbelici.::Tudor Arghezi, Lucian Blaga, Liviu Rebreanu.
+Care sunt autorii canonici critici literari prevăzuți de programă?::Titu Maiorescu (Junimea) și Eugen Lovinescu (Sburătorul).
 
-Ce strategie de pregătire este recomandată?::Două-trei opere temeinic stăpânite din fiecare gen, în loc de toate superficial.
+Care sunt autorii canonici postbelici?::Marin Preda (proză), Nichita Stănescu (poezie neomodernistă), Marin Sorescu (dramaturgie).
 
-Ce opere postbelice apar frecvent la examen?::„Moromeții”, „Cel mai iubit dintre pământeni”, „Leoaică tânără, iubirea”, „Iona”.
+Ce cerință specifică apare la profilul umanist la Subiectul al III-lea?::Relația dintre două personaje dintr-un roman, nuvelă sau piesă de teatru.
 
 Cum se repartizează orientativ cele trei ore?::70 min subiectul I, 15 min al II-lea, 70 min al III-lea și 25 min pentru recitire.
 

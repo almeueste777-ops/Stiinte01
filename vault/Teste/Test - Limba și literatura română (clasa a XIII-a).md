@@ -9,101 +9,101 @@ cssclasses: test
 
 116 întrebări din [[Limba și literatura română (clasa a XIII-a)|Limba și literatura română (clasa a XIII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
-### 1. Punctajul subiectului I este de:
+### 1. La Subiectul al II-lea (10 puncte), una dintre cerințele recurente la Bacalaureat este:
 
-- a. 50 de puncte
-- b. 30 de puncte
-- c. 10 puncte
-- d. 20 de puncte
-
-> [!success]- Răspuns
-> **a. 50 de puncte**
-> 
-> Subiectul al III-lea valorează 30 de puncte.
-
-### 2. Textul-suport de la subiectul I este:
-
-- a. un text la prima vedere, literar sau nonliterar
-- b. o operă studiată în clasă
-- c. un text memorat
-- d. un fragment din manual
+- a. relația dintre ideea poetică și mijloacele artistice
+- b. rezumatul întregului roman din care provine textul
+- c. biografia autorului fragmentului
+- d. scrierea unui eseu de 400 de cuvinte
 
 > [!success]- Răspuns
-> **a. un text la prima vedere, literar sau nonliterar**
+> **a. relația dintre ideea poetică și mijloacele artistice**
 > 
-> De aceea contează metoda de lucru, nu memorarea.
+> Subiectul II este o aplicație scurtă (50-100 cuvinte) pe text la prima vedere.
 
-### 3. Punctele acordate pentru redactare:
+### 2. Numărul minim de cuvinte obligatoriu pentru eseul de la Subiectul al III-lea este:
 
-- a. se pierd ușor prin greșeli de ortografie și de punctuație
-- b. nu influențează nota
-- c. se acordă automat
-- d. se acordă doar la subiectul III
+- a. 400 de cuvinte
+- b. 150 de cuvinte
+- c. 250 de cuvinte
+- d. 600 de cuvinte
 
 > [!success]- Răspuns
-> **a. se pierd ușor prin greșeli de ortografie și de punctuație**
+> **a. 400 de cuvinte**
 > 
-> Ele pot însemna până la o zecime din notă.
+> Sub 400 de cuvinte nu se mai acordă punctajul pentru redactare (12 puncte).
 
-### 4. Din oficiu se acordă:
+### 3. La Subiectul I, Partea B, textul argumentativ trebuie să aibă minimum:
 
-- a. 10 puncte
-- b. 5 puncte
-- c. 20 de puncte
-- d. niciun punct
+- a. 150 de cuvinte
+- b. 50 de cuvinte
+- c. 300 de cuvinte
+- d. 400 de cuvinte
 
 > [!success]- Răspuns
-> **a. 10 puncte**
+> **a. 150 de cuvinte**
 > 
-> Restul punctelor se împart între cele trei subiecte.
+> Respectarea normei de lungime este condiție eliminatorie pentru acordarea punctelor de redactare.
 
-### 5. La cerința „explică rolul epitetului”, răspunsul trebuie să:
+### 4. Rolul notațiilor autorului (didascaliilor) se cere frecvent la:
 
-- a. arate ce sugerează epitetul în contextul dat
-- b. numească doar figura de stil
-- c. indice locul din text
-- d. ofere o definiție a epitetului
+- a. Subiectul al II-lea, pe un fragment de text dramatic
+- b. Subiectul I Partea A, la exercițiul 1
+- c. Subiectul al III-lea, exclusiv la poezie
+- d. oficiu
 
 > [!success]- Răspuns
-> **a. arate ce sugerează epitetul în contextul dat**
+> **a. Subiectul al II-lea, pe un fragment de text dramatic**
 > 
-> Identificarea singură nu se punctează integral.
+> Didascaliile oferă indicații de regie, joc scenic, mimică și cadru spațio-temporal.
 
-### 6. Răspunsurile de la subiectul I se dau:
+### 5. La Subiectul I, Partea A, un răspuns la cerințele 1-5 trebuie formulat:
 
-- a. în enunțuri complete, cu referire la text
-- b. în cuvinte izolate
-- c. sub formă de listă
-- d. prin citate fără comentariu
+- a. într-un enunț complet, respectând normele gramaticale
+- b. doar prin copierea unui paragraf lung
+- c. într-un singur cuvânt sau sintagmă izolată
+- d. printr-o schemă cu liniuțe
 
 > [!success]- Răspuns
-> **a. în enunțuri complete, cu referire la text**
+> **a. într-un enunț complet, respectând normele gramaticale**
 > 
-> Citatul trebuie însoțit de explicație.
+> Punctajul baremului acordă fracțiuni distincte pentru conținut și formulare în enunț.
 
-### 7. Compunerea de la subiectul I este, de regulă:
+### 6. În textul argumentativ de la Subiectul I.B, primul exemplu trebuie să fie:
 
-- a. un text argumentativ sau reflexiv de 150–300 de cuvinte
-- b. un rezumat
-- c. o caracterizare de personaj
-- d. o analiză de text liric
+- a. raportat direct la informația din textul-suport
+- b. inventat fără legătură cu tema
+- c. extras dintr-o operă lirică oarecare
+- d. preluat dintr-un dicționar explicativ
 
 > [!success]- Răspuns
-> **a. un text argumentativ sau reflexiv de 150–300 de cuvinte**
+> **a. raportat direct la informația din textul-suport**
 > 
-> Structura argumentativă este obligatorie.
+> Barem oficial cere valorificarea explicită a fragmentului dat în cel puțin un argument.
 
-### 8. Folosirea unui exemplu din alt text decât cel dat este:
+### 7. Rolul conectorilor de tipul „în primul rând”, „pe de altă parte”, „în concluzie” este să:
 
-- a. acceptabilă în compunere, dar nu la cerințele „pe baza textului”
-- b. interzisă complet
-- c. obligatorie
-- d. punctată suplimentar
+- a. asigure coerența și succesiunea logică a argumentării
+- b. mărească artificial numărul de cuvinte
+- c. înlocuiască exemplele cerute
+- d. decoreze stilistic textul
 
 > [!success]- Răspuns
-> **a. acceptabilă în compunere, dar nu la cerințele „pe baza textului”**
+> **a. asigure coerența și succesiunea logică a argumentării**
 > 
-> Cerințele „pe baza textului” se rezolvă exclusiv din textul-suport.
+> Conectorii sunt criteriu explicit de notare în baremul oficial.
+
+### 8. Dacă la Subiectul I.B eseul are 140 de cuvinte:
+
+- a. se pierd punctele alocate limitei inferioare de lungime (baremul impune min. 150 cuvinte)
+- b. lucrarea este anulată
+- c. se notează cu 0 întregul Subiect I
+- d. nu se aplică nicio penalizare
+
+> [!success]- Răspuns
+> **a. se pierd punctele alocate limitei inferioare de lungime (baremul impune min. 150 cuvinte)**
+> 
+> Baremul condiționează punctajul de lungime de pragul strict de 150 de cuvinte.
 
 ### 9. Într-un eseu despre temă și viziune, cele două secvențe alese trebuie:
 
@@ -201,53 +201,53 @@ cssclasses: test
 > 
 > Personajul plat rămâne definit de o singură trăsătură.
 
-### 17. Analiza unei figuri de stil presupune:
+### 17. La Subiectul II, cerința privind „ideea poetică și mijloacele artistice” solicită:
 
-- a. explicarea efectului ei în context
-- b. numirea ei
-- c. indicarea versului
-- d. definirea ei teoretică
-
-> [!success]- Răspuns
-> **a. explicarea efectului ei în context**
-> 
-> Identificarea singură nu aduce punctajul integral.
-
-### 18. Mărcile eului liric sunt cerute la eseul despre:
-
-- a. textul liric
-- b. textul narativ
-- c. textul dramatic
-- d. textul nonliterar
+- a. numirea temei, a stării eului liric și comentarea a cel puțin două procedee artistice din text
+- b. doar transcrierea a trei strofe întregi
+- c. povestirea firului epic al poeziei
+- d. o listă de noțiuni prozodice fără comentariu
 
 > [!success]- Răspuns
-> **a. textul liric**
+> **a. numirea temei, a stării eului liric și comentarea a cel puțin două procedee artistice din text**
 > 
-> Ele semnalează prezența vocii care exprimă trăirea.
+> Trebuie demonstrat modul în care procedeele artistice susțin mesajul eului liric.
 
-### 19. Sursele comicului sunt un element de analiză specific:
+### 18. Perspectiva narativă într-un text povestit la persoana I este:
 
-- a. comediei
-- b. tragediei
-- c. romanului
-- d. poeziei lirice
+- a. subiectivă, cu narator implicat (homodiegetic) și focalizare internă
+- b. obiectivă, omniscientă și omniprezentă
+- c. heterodiegetică, neutră și detașată
+- d. scenică, exclusiv prin dialog dramatic
 
 > [!success]- Răspuns
-> **a. comediei**
+> **a. subiectivă, cu narator implicat (homodiegetic) și focalizare internă**
 > 
-> Ele includ comicul de situație, de caracter, de limbaj, de nume.
+> Persoana I indică viziunea „împreună cu”, unde naratorul este și personaj sau martor.
 
-### 20. Perspectiva narativă și focalizarea se analizează la:
+### 19. Rolul notațiilor autorului (didascaliilor) dintr-un fragment de teatru vizează:
 
-- a. textul narativ
-- b. textul liric
-- c. textul dramatic
-- d. textul argumentativ
+- a. atât îndrumarea jocului actoricesc/scenic, cât și caracterizarea directă sau indirectă a personajelor
+- b. doar stabilirea prețului biletelor la spectacol
+- c. exclusiv rimarea replicilor personajelor
+- d. indicarea biografiei dramaturgului
 
 > [!success]- Răspuns
-> **a. textul narativ**
+> **a. atât îndrumarea jocului actoricesc/scenic, cât și caracterizarea directă sau indirectă a personajelor**
 > 
-> În textul dramatic naratorul lipsește.
+> Didascaliile oferă detalii esențiale despre mișcare, ton, decor și trăirile personajelor.
+
+### 20. Caracterizarea indirectă a unui personaj se deduce din:
+
+- a. faptele, vorbele, comportamentul, vestimentația și relațiile cu ceilalți
+- b. prezentarea făcută explicit de către narator în incipit
+- c. mărturisirea făcută direct de personaj despre sine
+- d. etichetele puse tranșant de un alt personaj
+
+> [!success]- Răspuns
+> **a. faptele, vorbele, comportamentul, vestimentația și relațiile cu ceilalți**
+> 
+> Indirectă înseamnă că cititorul desprinde trăsăturile prin deducție logică din acțiuni și limbaj.
 
 ### 21. Forma corectă, potrivit normei actuale, este:
 
@@ -345,53 +345,53 @@ cssclasses: test
 > 
 > Precizia, nu efectul, justifică neologismul.
 
-### 29. „Baltagul” aparține lui:
+### 29. Cei patru mari clasici din programa de bacalaureat sunt:
 
-- a. Mihail Sadoveanu
-- b. Liviu Rebreanu
-- c. Camil Petrescu
-- d. Marin Preda
-
-> [!success]- Răspuns
-> **a. Mihail Sadoveanu**
-> 
-> Romanul valorifică mitul mioritic.
-
-### 30. Strategia recomandată pentru examen este:
-
-- a. pregătirea temeinică a câtorva opere folosibile la mai multe cerințe
-- b. memorarea tuturor titlurilor din programă
-- c. învățarea unor eseuri gata scrise
-- d. citirea doar a rezumatelor
+- a. Mihai Eminescu, Ion Creangă, I. L. Caragiale, Ioan Slavici
+- b. Vasile Alecsandri, Grigore Alexandrescu, Dimitrie Cantemir, Ion Budai-Deleanu
+- c. Tudor Arghezi, Lucian Blaga, Ion Barbu, George Bacovia
+- d. Marin Preda, Nichita Stănescu, Marin Sorescu, Mircea Cărtărescu
 
 > [!success]- Răspuns
-> **a. pregătirea temeinică a câtorva opere folosibile la mai multe cerințe**
+> **a. Mihai Eminescu, Ion Creangă, I. L. Caragiale, Ioan Slavici**
 > 
-> Aceeași operă poate servi la temă, personaj și particularități.
+> Grupul marilor clasici a fost lansat în cadrul societății literare Junimea.
 
-### 31. „Jocul ielelor” aparține lui:
+### 30. Cei doi critici literari canonici din programa de examen sunt:
 
-- a. Camil Petrescu
-- b. Lucian Blaga
-- c. Mihail Sebastian
-- d. Marin Sorescu
+- a. Titu Maiorescu și Eugen Lovinescu
+- b. George Călinescu și Garabet Ibrăileanu
+- c. Tudor Vianu și Eugen Simion
+- d. Mihail Kogălniceanu și Nicolae Iorga
 
 > [!success]- Răspuns
-> **a. Camil Petrescu**
+> **a. Titu Maiorescu și Eugen Lovinescu**
 > 
-> Este o dramă de idei.
+> Maiorescu a fundamentat junimismul, iar Lovinescu a teoretizat modernismul și sincronismul.
 
-### 32. Un autor canonic este:
+### 31. La profilul umanist, o cerință frecventă la Subiectul al III-lea care nu se dă la profilul real este:
 
-- a. prevăzut explicit de programa de bacalaureat
-- b. cel mai citit autor al epocii
-- c. autorul preferat al profesorului
-- d. orice autor român important
+- a. relația dintre două personaje dintr-o operă studiată
+- b. numirea temei operei
+- c. precizarea a două secvențe reprezentative
+- d. prezentarea titlului și a incipitului
 
 > [!success]- Răspuns
-> **a. prevăzut explicit de programa de bacalaureat**
+> **a. relația dintre două personaje dintr-o operă studiată**
 > 
-> Lista este stabilită prin programă.
+> Relația dintre două personaje solicită analiza evoluției și a raporturilor psihologice.
+
+### 32. Scriitorii canonici reprezentativi pentru dramaturgie la Bacalaureat sunt:
+
+- a. I. L. Caragiale (comedia) și Marin Sorescu (parabola dramatică modernă)
+- b. Liviu Rebreanu și Mihail Sadoveanu
+- c. George Bacovia și Nichita Stănescu
+- d. Titu Maiorescu și Eugen Lovinescu
+
+> [!success]- Răspuns
+> **a. I. L. Caragiale (comedia) și Marin Sorescu (parabola dramatică modernă)**
+> 
+> „O scrisoare pierdută” și „Iona” sunt operele fundamentale din dramaturgie pentru bac.
 
 ### 33. Recitirea lucrării ajută în primul rând la:
 

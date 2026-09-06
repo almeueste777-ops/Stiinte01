@@ -14,14 +14,15 @@ clasa: "a XIII-a"
 
 ## Rezumat
 
-Eseul despre „particularitățile unui text narativ” cere: încadrarea în specie și curent; tema; două secvențe reprezentative; două elemente de structură (perspectiva narativă, tehnica narativă, timpul și spațiul, incipitul și finalul, conflictul, construcția personajelor). Se punctează folosirea corectă a conceptelor: narator obiectiv/subiectiv, focalizare, moduri de expunere. Pentru textul liric se cer: încadrarea în curent și în specie; tema și motivele; două elemente de structură și de limbaj (titlul, incipitul, relația dintre secvențe, prozodia); două figuri de stil sau imagini artistice analizate în context; mărcile eului liric. Analiza figurilor nu înseamnă identificare, ci explicarea efectului: ce sugerează, ce stare produce, cum se leagă de temă. Pentru textul dramatic: încadrarea în specie (comedie, dramă, tragedie); tema; două secvențe; două elemente de structură (actele și scenele, conflictul, didascaliile, construcția personajelor prin replici, sursele comicului la comedie). Un sfat comun tuturor: conceptele operaționale trebuie folosite exact — un termen greșit folosit se sancționează mai aspru decât absența lui.
+La bacalaureat, analiza textelor se aplică atât la Subiectul al II-lea (aplicație scurtă pe text necunoscut, 10 puncte), cât și la Subiectul al III-lea (eseu de sinteză pe o operă studiată, 30 puncte). Cele patru mari cerințe de Subiectul II (rezolvare în 50–100 de cuvinte): 1. Relația dintre ideea poetică și mijloacele artistice: se identifică tema textului liric și starea transmisă de eul liric (ex. melancolie, nostalgie), urmată de ilustrarea a cel puțin două procedee artistice (figuri de stil — metaforă, epitet, antiteză și imagini artistice — vizuale, auditive, motorii), explicând explicit semnificația lor contextuală și armonia prozodică. 2. Rolul notațiilor autorului (didascaliilor) în textul dramatic: se precizează dublul lor rol — la nivel textual (caracterizarea directă sau indirectă a personajelor prin mimică, gesturi, vestimentație, ton) și la nivel scenic (indicații de regie privind decorul, timpul, spațiul și dinamica jocului actoricesc). 3. Perspectiva narativă: se precizează tipul de narator — obiectiv/omniscient/heterodiegetic (narațiune la persoana a III-a, focalizare zero, viziune „din spate”) sau subiectiv/implicat/homodiegetic (narațiune la persoana I, focalizare internă, viziune „împreună cu”), ilustrând cu verbe/pronume și explicând relația de distanțare sau implicare afectivă față de evenimente. 4. Modalitățile de caracterizare a personajului: se numesc două modalități — directă (făcută de narator, de alte personaje sau autocaracterizare) și indirectă (desprinsă din fapte, limbaj, comportament, relații), fiecare susținută cu citate scurte comentate. La Subiectul al III-lea, eseul structurat valorifică aceleași concepte operaționale, dezvoltate pe 400 de cuvinte: tema și viziunea, secvențe reprezentative, instanțele comunicării și construcția discursului literar.
 
 ## Idei-cheie
 
-- Textul narativ: perspectivă, tehnică narativă, timp și spațiu, incipit și final, conflict.
-- Textul liric: temă și motive, structură și limbaj, figuri analizate în context, mărcile eului liric.
-- Textul dramatic: specie, conflict, acte și scene, didascalii, replici, surse ale comicului.
-- Conceptele operaționale trebuie folosite exact; termenul greșit costă mai mult decât absența lui.
+- Subiectul II: aplicație scurtă (50-100 cuvinte), punctată pe identificare corectă, ilustrare cu citat și explicare pertinentă.
+- Ideea poetică și mijloacele artistice: tema + starea eului liric + minimum 2 figuri/imagini comentate în context.
+- Didascaliile: dublu rol — scenic (decor, mișcare, joc) și de caracterizare a personajelor (mimică, ton, stare).
+- Perspectiva narativă: obiectivă (pers. a III-a, omnisciență, focalizare zero) vs. subiectivă (pers. I, actor/martor, focalizare internă).
+- Modalități de caracterizare: directă (narator, personaje, autocaracterizare) și indirectă (fapte, vorbe, vestimentație, relații).
 
 ## Notițele mele
 

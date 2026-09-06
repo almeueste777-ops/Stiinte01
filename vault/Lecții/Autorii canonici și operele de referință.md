@@ -14,14 +14,15 @@ clasa: "a XIII-a"
 
 ## Rezumat
 
-Programa de bacalaureat prevede autori canonici ale căror opere pot face obiectul eseului. Din perioada clasică: Mihai Eminescu („Luceafărul”, „Floare albastră”, „Scrisoarea I”), Ion Creangă („Povestea lui Harap-Alb”, „Amintiri din copilărie”), I. L. Caragiale („O scrisoare pierdută”, nuvele), Ioan Slavici („Moara cu noroc”, „Mara”), Titu Maiorescu (studii critice). Din perioada interbelică: Tudor Arghezi („Testament”, „Psalmi”, „Flori de mucigai”), Lucian Blaga („Eu nu strivesc corola de minuni a lumii”), Ion Barbu („Riga Crypto și lapona Enigel”, „Joc secund”), George Bacovia („Plumb”), Liviu Rebreanu („Ion”, „Pădurea spânzuraților”), Camil Petrescu („Ultima noapte...”, „Jocul ielelor”), Mihail Sadoveanu („Baltagul”, „Hanu Ancuței”), G. Călinescu („Enigma Otiliei”), Hortensia Papadat-Bengescu, E. Lovinescu. Din perioada postbelică: Marin Preda („Moromeții”, „Cel mai iubit dintre pământeni”), Nichita Stănescu („Leoaică tânără, iubirea”), Marin Sorescu („Iona”). Recomandarea practică pentru examen: pregătește temeinic două-trei opere din fiecare gen (narativ, liric, dramatic), pe care să le poți folosi la mai multe tipuri de cerință, în loc să atingi superficial toate titlurile.
+Programa oficială de Bacalaureat menționează 16-17 autori canonici obligatorii, din ale căror opere se extrag cerințele pentru Subiectul al III-lea: 1. Marii clasici și junimismul: Mihai Eminescu („Luceafărul”, „Floare albastră”), Ion Creangă („Povestea lui Harap-Alb”), I. L. Caragiale („O scrisoare pierdută”), Ioan Slavici („Moara cu noroc”) și criticul Titu Maiorescu („O cercetare critică asupra poeziei române de la 1867”, „În contra direcției de astăzi în cultura română”). 2. Simbolismul: George Bacovia („Plumb”, „Lacustră”). 3. Modernismul interbelic (poezie și teorie): Tudor Arghezi („Testament”, „Flori de mucigai”), Lucian Blaga („Eu nu strivesc corola de minuni a lumii”), Ion Barbu („Riga Crypto și lapona Enigel”, „Din ceas, dedus...”) și criticul Eugen Lovinescu („Istoria civilizației române moderne”, teoria sincronismului și a mutației valorilor estetice). 4. Romanul interbelic și autenticitatea: Liviu Rebreanu („Ion” — roman realist obiectiv), Camil Petrescu („Ultima noapte de dragoste, întâia noapte de război” — roman modern de analiză psihologică), Mihail Sadoveanu („Baltagul” — roman tradițional/mitic), George Călinescu („Enigma Otiliei” — roman balzacian/clasicizant) și Hortensia Papadat-Bengescu („Concert din muzică de Bach” — roman modern citadin). Mircea Eliade („Maitreyi”) este inclus pentru romanul experienței. 5. Perioada postbelică: Marin Preda („Moromeții” — roman postbelic realist), Nichita Stănescu („Leoaică tânără, iubirea” — neomodernism poetic), Marin Sorescu („Iona” — parabolă dramatică/teatru postbelic). Diferențe între profiluri: la profilul real/tehnologic se cere predominant „tema și viziunea despre lume” sau „particularitățile unui text narativ/poetic/dramatic”; la profilul umanist/pedagogic se adaugă cerințele complexe de „caracterizare a unui personaj” sau „relația dintre două personaje”.
 
 ## Idei-cheie
 
-- Autori canonici clasici: Eminescu, Creangă, Caragiale, Slavici, Maiorescu.
-- Interbelici: Arghezi, Blaga, Barbu, Bacovia, Rebreanu, Camil Petrescu, Sadoveanu, Călinescu.
-- Postbelici: Marin Preda, Nichita Stănescu, Marin Sorescu.
-- Strategie: două-trei opere temeinic pregătite din fiecare gen, folosibile la mai multe cerințe.
+- Programa oficială cuprinde 16 autori canonici din care se formulează cerințele la Subiectul III.
+- Clasicii: Eminescu, Creangă, Caragiale, Slavici, Maiorescu.
+- Interbelicii: Bacovia, Arghezi, Blaga, Barbu, Rebreanu, Camil Petrescu, Sadoveanu, Călinescu, Lovinescu, Papadat-Bengescu.
+- Postbelicii: Marin Preda, Nichita Stănescu, Marin Sorescu.
+- Profilul real cere frecvent tema și viziunea sau particularitățile textului; profilul umanist solicită și caracterizarea sau relația dintre două personaje.
 
 ## Notițele mele
 
