@@ -31,7 +31,7 @@ Sinteză și consolidare: recapitularea structurilor, producerea de texte comple
 ### Producerea de texte — semestrul 1
 
 - [[Textul narativ și descriptiv]]
-- [[Textul argumentativ și eseul]]
+- [[Producerea scrisă la Bacalaureat - sarcinile de examen și baremul CEFR]]
 - [[Oralul - prezentare și interacțiune]]
 
 ### Cultură și deschideri — semestrul 2
@@ -56,11 +56,11 @@ Sinteză și consolidare: recapitularea structurilor, producerea de texte comple
 
 - [[Repere de cultură și civilizație franceză]]
 - [[Literatura francofonă]]
-- [[Strategii pentru proba de competențe]]
+- [[Simularea și strategiile Bacalaureat Proba B (Franceză)]]
 
 ## Exersare
 - [[Carduri - Limba modernă 2 (Franceză) (clasa a XIII-a)]] — 72 carduri
-- [[Test - Limba modernă 2 (Franceză) (clasa a XIII-a)]] — 102 întrebări
+- [[Test - Limba modernă 2 (Franceză) (clasa a XIII-a)]] — 105 întrebări
 
 ## Legături
 - [[Limba modernă 2 (Franceză)|Limba modernă 2 (Franceză)]]

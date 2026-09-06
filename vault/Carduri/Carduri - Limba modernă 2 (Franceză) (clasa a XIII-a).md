@@ -43,13 +43,13 @@ După ce principii se poate organiza o descriere?::De la general la detaliu, de 
 
 Ce efect are alternanța dintre narativ și descriptiv?::Dă ritm textului: descrierea încetinește, narațiunea accelerează.
 
-Care sunt cele trei tipuri de plan pentru un eseu?::Dialectic, tematic și analitic.
+Ce lungime are Subiectul 1 la proba scrisă de Bacalaureat pentru limba franceză?::80–100 de cuvinte (e-mail sau scrisoare informală către un prieten).
 
-Ce conține introducerea unui eseu?::Situarea temei, problematizarea și anunțarea planului.
+Ce structură și lungime cere Subiectul 2 de Bacalaureat?::160–180 de cuvinte (eseu argumentativ structurat: introducere, argumente cu exemple, concluzie).
 
-De ce sunt preferabile exemplele precise?::Pentru că o referință concretă convinge mai mult decât o generalizare.
+Care sunt cele 4 criterii oficiale de notare din baremul de examen?::Îndeplinirea sarcinii, coerența/coeziunea, vocabularul și corectitudinea gramaticală/ortografică.
 
-Ce se întâmplă cu un text care nu răspunde la subiect?::Este penalizat, oricât de bine ar fi scris.
+Ce conectori francezi sunt recomandați pentru a exprima contrastul și consecința?::„Cependant” sau „pourtant” pentru contrast; „par conséquent” sau „donc” pentru consecință.
 
 De ce nu se citește un text la proba orală?::Pentru că lectura se sesizează imediat și este penalizată.
 
@@ -147,13 +147,13 @@ Numește un autor al Négritude.::Léopold Sédar Senghor (sau Aimé Césaire).
 
 Ce teme aduce literatura francofonă?::Identitatea, colonizarea, exilul, întâlnirea culturilor.
 
-Ce testează proba de competențe?::Înțelegerea și producerea, scrisă și orală.
+Care sunt cele 4 componente ale probei de competențe lingvistice (Proba B) la Bacalaureat?::Înțelegerea orală, înțelegerea textului scris, producerea scrisă și producerea/interacțiunea orală.
 
-Ce faci la înțelegerea unui text?::Citești de două ori și deduci din context.
+Cum se abordează eficient proba de înțelegere orală?::Se citesc întrebările înainte de prima difuzare, se iau notițe la prima ascultare și se verifică la a doua.
 
-Ce se face după redactare?::Se recitește pentru acorduri, gramatică și ortografie.
+Ce conține proba orală de Bacalaureat la limba franceză?::Un monolog pregătit pe un bilet extras (imagine/temă) și o conversație spontană cu examinatorii.
 
-Cum se răspunde la comprehensiune?::Cu propriile cuvinte, fără a copia.
+Care sunt nivelurile CEFR ce pot fi înscrise pe atestatul de Bacalaureat?::Nivelurile A1, A2, B1 sau B2.
 
 ---
 

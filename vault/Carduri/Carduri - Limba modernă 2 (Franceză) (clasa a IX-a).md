@@ -11,13 +11,13 @@ cssclasses: carduri
 
 #flashcards/limba-moderna-2-franceza
 
-Cum se pronunță grupul „ou” în franceză?::Ca „u” românesc.
+Cum se pronunță cuvântul „petit” la masculin comparativ cu femininul „petite”?::La masculin „t” este mut [pəti], iar la feminin „e” final forțează pronunțarea lui „t” [pətit].
 
-Ce este liaison-ul?::Legarea consoanei finale mute de vocala inițială a cuvântului următor.
+Cum se pronunță grupurile „ou” și „oi” în limba franceză?::„ou” se pronunță [u] (ca în „bonjour”), iar „oi” se pronunță [wa] (ca în „moi”, „bonsoir”).
 
-Ce rol are „e” final?::Nu se pronunță, dar face să se audă consoana dinaintea lui.
+Ce este liaison-ul și ce sunet produce litera „s” în „les amis”?::Liaison-ul este legătura consoanei finale cu vocala următoare; litera „s” se aude ca un [z] sonor ([lezami]).
 
-Ce sunt vocalele nazale?::Vocalele pronunțate și pe nas, notate prin on, an, in, un.
+Care sunt cele 5 diacritice din limba franceză?::Accentul ascuțit (é), grav (è, à), circumflex (ê, â), cedila (ç) și trema (ë, ï).
 
 Ce exprimă articolul partitiv?::O cantitate nedeterminată dintr-o materie.
 
@@ -43,21 +43,21 @@ De ce scriem „nous mangeons”?::Pentru a păstra sunetul „j” înaintea lu
 
 Ce verb în -er este neregulat?::„Aller”.
 
-Care sunt formele prezentului pentru „être”?::Je suis, tu es, il est, nous sommes, vous êtes, ils sont.
+Cum se conjugă verbul „être” la prezent?::Je suis, tu es, il est, nous sommes, vous êtes, ils sont.
 
-Care sunt formele prezentului pentru „avoir”?::J'ai, tu as, il a, nous avons, vous avez, ils ont.
+Cum se conjugă verbul „avoir” la prezent?::J'ai, tu as, il a, nous avons, vous avez, ils ont.
 
-De ce sunt esențiale être și avoir?::Pentru că servesc și ca auxiliare la timpurile compuse.
+Cum se spune corect în franceză „am 16 ani” și „mi-e sete”?::„J'ai 16 ans” și „J'ai soif” (ambele obligatoriu cu verbul avoir).
 
-Cum se spune „mi-e foame”?::„J'ai faim.”
+Care este diferența fonetică dintre „ils ont” și „ils sont”?::La „ils ont” se face liaison cu sunetul [z] ([ilzɔ̃]), în timp ce la „ils sont” se aude sunetul [s] ([ilsɔ̃]).
 
-Cum se formează negația în franceză?::Cu „ne … pas”, care încadrează verbul conjugat.
+Cum se modifică articolele partitive și nehotărâte după negația „ne ... pas”?::Se transformă în simplul „de” / „d'” („Je ne bois pas de lait”).
 
-Care sunt cele trei forme de interogație?::Prin intonație, cu „est-ce que” și prin inversiune.
+Care sunt cele 3 modalități de a pune o întrebare în franceză?::Prin intonație simplă, cu formula „est-ce que” și prin inversiune verbul-subiect.
 
-Ce înlocuiește „on” în vorbirea curentă?::Pe „nous”.
+Ce cuvânt interogativ se folosește pentru „unde” și „de ce”?::„Où” pentru unde și „Pourquoi” pentru de ce.
 
-Unde se plasează pronumele complement direct?::Înaintea verbului.
+Unde se așază pronumele complement direct față de verbul conjugat?::Înaintea verbului conjugat („Je le connais”).
 
 Cum se spune „șaptezeci” în franceză?::„Soixante-dix.”
 

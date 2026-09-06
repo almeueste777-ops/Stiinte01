@@ -29,6 +29,6 @@ Substantivele franceze au două genuri: masculin și feminin. Genul nu coincide 
 
 ---
 
-⬅ [[Pronunție și ortografie]] · [[Adjectivul și acordul]] ➡
+⬅ [[Pronunție și ortografie de la zero]] · [[Adjectivul și acordul]] ➡
 
 Exersează: [[Carduri - Limba modernă 2 (Franceză) (clasa a IX-a)]] · [[Test - Limba modernă 2 (Franceză) (clasa a IX-a)]]

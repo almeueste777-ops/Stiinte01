@@ -29,6 +29,6 @@ Câmpurile esențiale: identitatea (nom, prénom, âge, nationalité, adresse), 
 
 ---
 
-⬅ [[Negația, interogația, pronumele]] · [[Situații de comunicare]] ➡
+⬅ [[Negația, interogația și pronumele de bază]] · [[Situații de comunicare]] ➡
 
 Exersează: [[Carduri - Limba modernă 2 (Franceză) (clasa a IX-a)]] · [[Test - Limba modernă 2 (Franceză) (clasa a IX-a)]]

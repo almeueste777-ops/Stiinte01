@@ -35,7 +35,7 @@ Vault-ul are **două jumătăți**, în același folder:
 - [[Religie (clasa a IX-a)|Religie (clasa a IX-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
 - [[Limba latină (clasa a IX-a)|Limba latină (clasa a IX-a)]] — 7 capitole, 18 lecții, 72 carduri, 102 întrebări
 - [[Limba modernă 1 (Engleză) (clasa a IX-a)|Limba modernă 1 (Engleză) (clasa a IX-a)]] — 6 capitole, 18 lecții, 75 carduri, 117 întrebări
-- [[Limba modernă 2 (Franceză) (clasa a IX-a)|Limba modernă 2 (Franceză) (clasa a IX-a)]] — 6 capitole, 18 lecții, 72 carduri, 108 întrebări
+- [[Limba modernă 2 (Franceză) (clasa a IX-a)|Limba modernă 2 (Franceză) (clasa a IX-a)]] — 6 capitole, 18 lecții, 72 carduri, 114 întrebări
 - [[Limba și literatura română (clasa a IX-a)|Limba și literatura română (clasa a IX-a)]] — 8 capitole, 20 lecții, 80 carduri, 110 întrebări
 - [[Biologie (clasa a IX-a)|Biologie (clasa a IX-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
 - [[Chimie (clasa a IX-a)|Chimie (clasa a IX-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
@@ -88,7 +88,7 @@ Vault-ul are **două jumătăți**, în același folder:
 - [[Religie (clasa a XIII-a)|Religie (clasa a XIII-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
 - [[Studii sociale (clasa a XIII-a)|Studii sociale (clasa a XIII-a)]] — 6 capitole, 18 lecții, 72 carduri, 108 întrebări
 - [[Limba modernă 1 (Engleză) (clasa a XIII-a)|Limba modernă 1 (Engleză) (clasa a XIII-a)]] — 6 capitole, 18 lecții, 72 carduri, 109 întrebări
-- [[Limba modernă 2 (Franceză) (clasa a XIII-a)|Limba modernă 2 (Franceză) (clasa a XIII-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
+- [[Limba modernă 2 (Franceză) (clasa a XIII-a)|Limba modernă 2 (Franceză) (clasa a XIII-a)]] — 6 capitole, 18 lecții, 72 carduri, 105 întrebări
 - [[Limba și literatura română (clasa a XIII-a)|Limba și literatura română (clasa a XIII-a)]] — 9 capitole, 20 lecții, 80 carduri, 116 întrebări
 - [[Biologie (clasa a XIII-a)|Biologie (clasa a XIII-a)]] — 3 capitole, 6 lecții, 24 carduri, 40 întrebări
 - [[Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)|Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)]] — 7 capitole, 20 lecții, 80 carduri, 116 întrebări
@@ -103,5 +103,5 @@ Vault-ul are **două jumătăți**, în același folder:
 | Capitole | 421 |
 | Lecții | 1177 |
 | Carduri | 4711 |
-| Întrebări de test | 6708 |
+| Întrebări de test | 6717 |
 | Note în vault | 1404 |

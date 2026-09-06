@@ -24,15 +24,15 @@ Bazele limbii franceze: pronunție, substantiv și articol, prezentul verbelor, 
 
 ### Sunete, articole, substantive — semestrul 1
 
-- [[Pronunție și ortografie]]
+- [[Pronunție și ortografie de la zero]]
 - [[Substantivul, genul, numărul, articolele]]
 - [[Adjectivul și acordul]]
 
 ### Verbele la prezent — semestrul 2
 
 - [[Verbele de grupa I și a II-a]]
-- [[Verbele neregulate uzuale]]
-- [[Negația, interogația, pronumele]]
+- [[Verbele neregulate fundamentale (Grupa a III-a)]]
+- [[Negația, interogația și pronumele de bază]]
 
 ### Comunicare și vocabular — semestrul 2
 
@@ -60,7 +60,7 @@ Bazele limbii franceze: pronunție, substantiv și articol, prezentul verbelor, 
 
 ## Exersare
 - [[Carduri - Limba modernă 2 (Franceză) (clasa a IX-a)]] — 72 carduri
-- [[Test - Limba modernă 2 (Franceză) (clasa a IX-a)]] — 108 întrebări
+- [[Test - Limba modernă 2 (Franceză) (clasa a IX-a)]] — 114 întrebări
 
 ## Legături
 - [[Limba modernă 2 (Franceză)|Limba modernă 2 (Franceză)]]

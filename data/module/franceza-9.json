@@ -14,43 +14,70 @@
    "lectii": [
     {
      "id": "fra9-01",
-     "titlu": "Pronunție și ortografie",
-     "rezumat": "Franceza are o distanță mare între scriere și pronunție. Regulile de bază: consoanele finale sunt, de regulă, mute (petit, grand, vous), cu excepții (c, r, f, l — „careful”); „e” final nu se pronunță, dar face să se audă consoana dinainte (petit–petite); „h” nu se pronunță niciodată, dar „h aspirat” împiedică legătura și eliziunea. Grupurile de litere au valori fixe: „ou” = u, „au/eau” = o, „ai/ei” = e deschis, „oi” = ua, „eu/œu” = ö, „on/an/in/un” = vocale nazale. Legătura (liaison) leagă consoana finală mută de vocala următoare: „les amis” se citește „lezami”. Accentele schimbă sensul sau pronunția: é închis, è deschis, ê lung, ç = s înaintea lui a, o, u.",
+     "titlu": "Pronunție și ortografie de la zero",
+     "rezumat": "Pentru cei care nu au studiat deloc franceza în gimnaziu, prima barieră este diferența dintre ceea ce se scrie și ceea ce se aude. Alfabetul francez are 26 de litere latine, completate de 5 semne diacritice: accentul ascuțit (l'accent aigu: é — sunet „e” închis ca în „café”), accentul grav (l'accent grave: è, à, ù — deschide vocala: „mère”, sau diferențiază sensuri: a=are vs à=la; ou=sau vs où=unde), accentul circumflex (l'accent circonflexe: ê, â, î, ô, û — alungește sunetul și marchează adesea un „s” istoric dispărut: „fête”, „hôpital”), cedila (la cédille: ç — transformă litera „c” în „s” înaintea lui a, o, u: „français”, „garçon”) și trema (le tréma: ë, ï — desparte două vocale pentru a fi citite separat: „Noël”, „naïf”). Reguli fonetice de fier: (1) Consoanele finale sunt, de regulă, mute: literele d, p, s, t, x, z la final de cuvânt NU se pronunță („petit”, „grand”, „vous”, „deux”, „lit”). Excepție formează regula mnemonică CaReFuL (consoanele c, r, f, l se pronunță adesea: „sac”, „parc”, „chef”, „fil”, „mer”, cu excepția infinitivelor în -er unde „r” e mut: „parler” se citește [parle]). (2) Litera „e” finală neaccentuată este mută, însă forțează pronunțarea consoanei din fața ei: comparați masculinul „petit” [pəti] cu femininul „petite” [pətit], „grand” [grɑ̃] cu „grande” [grɑ̃d]. (3) Litera „h” nu se pronunță niciodată: „l'homme” [lɔm], „l'hôtel” [lotɛl]. „H aspirat” (în cuvinte ca „le héros”, „la Hollande”) blochează însă eliziunea și legătura sonoră. (4) Grupuri vocalice fixe: „ou” = [u] („bonjour”, „nous”); „au” / „eau” = [o] („beau”, „tableau”); „ai” / „ei” = [ɛ] („mai”, „treize”); „oi” = [wa] („moi”, „toi”, „bonsoir”); „eu” / „œu” = [ø] sau [œ] („bleu”, „sœur”); „ch” = [ʃ] (ca „ș” românesc: „chat”, „chercher”); „ph” = [f] („photo”); „gn” = [ɲ] (un „n” muiat: „montagne”, „Espagne”). (5) Vocalele nazale (aerul iese simultan pe gură și pe nas când vocala e urmată de m sau n la final de silabă): „an/en/am/em” [ɑ̃] („enfant”, „France”), „on/om” [ɔ̃] („bonbon”, „nom”), „in/im/ain/ein” [ɛ̃] („matin”, „pain”), „un/um” [œ̃] („un parfum”). (6) Legătura sonoră (la liaison): leagă consoana finală altfel mută de vocala inițială a cuvântului următor („les amis” se citește [lezami], unde „s” devine [z]; „un petit enfant” [œ̃ pətitɑ̃fɑ̃], unde „t” se aude clar).",
      "ideiCheie": [
-      "Consoanele finale sunt, de regulă, mute; „e” final face să se audă consoana dinainte.",
-      "Grupurile ou, au/eau, ai, oi, eu au valori fixe de pronunție.",
-      "Vocalele nazale: on, an, in, un.",
-      "Legătura leagă consoana finală mută de vocala următoare."
+      "Alfabetul are 26 de litere și 5 semne diacritice: é (aigu), è/à/ù (grave), ê/â/î/ô/û (circonflexe), ç (cédille), ë/ï (tréma).",
+      "Consoanele finale d, p, s, t, x, z sunt mute; „e” final mut forțează pronunțarea consoanei anterioare (petit [pəti] vs petite [pətit]).",
+      "Grupurile au valori fixe: „ou” = u, „eau/au” = o, „ai” = e, „oi” = ua, „ch” = ș, „gn” = n muiat.",
+      "Vocalele nazale: an/en [ɑ̃], on [ɔ̃], in/ain [ɛ̃], un [œ̃] (aerul trece pe nas).",
+      "Legătura (liaison): leagă consoana finală mută de vocala următoare („les amis” [lezami], „s” se aude „z”)."
      ],
      "termeni": [
       {
        "t": "liaison",
-       "d": "legarea consoanei finale mute de vocala inițială a cuvântului următor"
+       "d": "legarea consoanei finale mute de vocala inițială a cuvântului următor (les amis -> lezami)"
       },
       {
        "t": "voyelle nasale",
        "d": "vocală pronunțată cu aer și pe nas, notată prin on, an, in, un"
+      },
+      {
+       "t": "cédille",
+       "d": "semnul plasat sub litera c (ç) pentru a reda sunetul „s” înaintea vocalelor a, o, u"
       }
      ],
      "carduri": [
       {
-       "f": "Cum se pronunță grupul „ou” în franceză?",
-       "v": "Ca „u” românesc."
+       "f": "Cum se pronunță cuvântul „petit” la masculin comparativ cu femininul „petite”?",
+       "v": "La masculin „t” este mut [pəti], iar la feminin „e” final forțează pronunțarea lui „t” [pətit]."
       },
       {
-       "f": "Ce este liaison-ul?",
-       "v": "Legarea consoanei finale mute de vocala inițială a cuvântului următor."
+       "f": "Cum se pronunță grupurile „ou” și „oi” în limba franceză?",
+       "v": "„ou” se pronunță [u] (ca în „bonjour”), iar „oi” se pronunță [wa] (ca în „moi”, „bonsoir”)."
       },
       {
-       "f": "Ce rol are „e” final?",
-       "v": "Nu se pronunță, dar face să se audă consoana dinaintea lui."
+       "f": "Ce este liaison-ul și ce sunet produce litera „s” în „les amis”?",
+       "v": "Liaison-ul este legătura consoanei finale cu vocala următoare; litera „s” se aude ca un [z] sonor ([lezami])."
       },
       {
-       "f": "Ce sunt vocalele nazale?",
-       "v": "Vocalele pronunțate și pe nas, notate prin on, an, in, un."
+       "f": "Care sunt cele 5 diacritice din limba franceză?",
+       "v": "Accentul ascuțit (é), grav (è, à), circumflex (ê, â), cedila (ç) și trema (ë, ï)."
       }
      ],
      "test": [
+      {
+       "intrebare": "În cuvântul „français”, cedila de sub litera „c” are rolul de a:",
+       "optiuni": [
+        "reda sunetul „s” înaintea vocalei „a”",
+        "reda sunetul „k”",
+        "alungi vocala „a”",
+        "arăta că „c” este mut"
+       ],
+       "corect": 0,
+       "explicatie": "Înaintea vocalelor a, o, u, litera „c” se citește „k”, de aceea cedila (ç) este necesară pentru a obține sunetul „s”."
+      },
+      {
+       "intrebare": "Grupul de litere „oi” din cuvintele „moi”, „toi”, „croissant” se pronunță:",
+       "optiuni": [
+        "[wa] (ua)",
+        "[oi]",
+        "[o]",
+        "[i]"
+       ],
+       "corect": 0,
+       "explicatie": "În franceză, grupul „oi” are valoarea fonetică fixă [wa]."
+      },
       {
        "intrebare": "În „les amis”, legătura face să se audă:",
        "optiuni": [
@@ -361,43 +388,70 @@
     },
     {
      "id": "fra9-05",
-     "titlu": "Verbele neregulate uzuale",
-     "rezumat": "Grupa a III-a cuprinde verbele neregulate, puține ca număr, dar foarte frecvente: être (je suis, tu es, il est, nous sommes, vous êtes, ils sont), avoir (j'ai, tu as, il a, nous avons, vous avez, ils ont), aller (je vais, tu vas, il va, nous allons, vous allez, ils vont), faire (je fais, tu fais, il fait, nous faisons, vous faites, ils font). Alte verbe uzuale: pouvoir, vouloir, devoir, savoir, venir, prendre, mettre, dire, voir, partir, sortir, dormir. Ele se învață în context, prin expresii curente: „j'ai faim”, „il fait beau”, „je vais bien”, „on prend le bus”. Verbele „être” și „avoir” sunt esențiale și pentru că servesc drept auxiliare la timpurile compuse.",
+     "titlu": "Verbele neregulate fundamentale (Grupa a III-a)",
+     "rezumat": "Pentru orice elev care începe franceza de la zero, stăpânirea verbelor neregulate de bază este cheia întregii limbi: (1) Être (a fi) — indicativ prezent: • je suis [ʒə sɥi] • tu es [ty ɛ] • il/elle/on est [il ɛ] • nous sommes [nu sɔm] • vous êtes [vuzɛt] (cu liaison obligatoriu) • ils/elles sont [il sɔ̃] (2) Avoir (a avea) — indicativ prezent: • j'ai [ʒe] (atenție la eliziune: j'ai, nu je ai) • tu as [ty a] • il/elle/on a [il a] • nous avons [nuzavɔ̃] (cu liaison) • vous avez [vuzave] (cu liaison) • ils/elles ont [ilzɔ̃] (cu liaison — nu confundați „ils ont” [ilzɔ̃] cu „ils sont” [ilsɔ̃]!) Atenție: în franceză senzațiile fizice și vârsta se exprimă cu „avoir”, nu cu „être”: „J'ai 16 ans” (am 16 ani), „j'ai faim” (mi-e foame), „j'ai soif” (mi-e sete), „j'ai chaud/froid” (mi-e cald/frig), „j'ai peur” (mi-e frică), „j'ai sommeil” (mi-e somn). (3) Aller (a merge / a se duce): je vais, tu vas, il va, nous allons, vous allez, ils vont. Folosit și pentru sănătate („Comment ça va? — Je vais bien”) și pentru viitorul apropiat. (4) Faire (a face): je fais, tu fais, il fait, nous faisons [nufəzɔ̃], vous faites [vufɛt], ils font. Folosit și pentru vreme: „il fait beau”, „il fait froid”. (5) Alte verbe vitale de grupa a III-a: • Venir (a veni): je viens, tu viens, il vient, nous venons, vous venez, ils viennent. • Prendre (a lua): je prends, tu prends, il prend, nous prenons, vous prenez, ils prennent. • Pouvoir (a putea): je peux, tu peux, il peut, nous pouvons, vous pouvez, ils peuvent. • Vouloir (a vrea): je veux, tu veux, il veut, nous voulons, vous voulez, ils veulent.",
      "ideiCheie": [
-      "Grupa a III-a cuprinde verbele neregulate, puține, dar foarte frecvente.",
-      "Être, avoir, aller, faire sunt cele mai importante.",
-      "Ele se învață în context, prin expresii uzuale.",
-      "Être și avoir servesc drept auxiliare la timpurile compuse."
+      "Être (je suis, tu es, il est, nous sommes, vous êtes, ils sont) și Avoir (j'ai, tu as, il a, nous avons, vous avez, ils ont).",
+      "Vârsta și senzațiile se exprimă cu AVOIR: j'ai 16 ans, j'ai faim, j'ai soif, j'ai froid.",
+      "Distincție auditivă capitală: ils ont [ilzɔ̃] (au) vs ils sont [ilsɔ̃] (sunt).",
+      "Aller (je vais, tu vas, il va...) și Faire (je fais, tu fais, il fait, nous faisons, vous faites, ils font).",
+      "Venir (je viens), Prendre (je prends), Pouvoir (je peux), Vouloir (je veux) sunt indispensabile comunicării de bază."
      ],
      "termeni": [
       {
        "t": "verbe irrégulier",
-       "d": "verb cu forme proprii, care nu urmează un tipar regulat"
+       "d": "verb cu forme proprii, care nu urmează un tipar regulat (être, avoir, aller, faire)"
       },
       {
        "t": "auxiliaire",
-       "d": "verb ajutător folosit la formarea timpurilor compuse"
+       "d": "verb ajutător (être sau avoir) folosit la formarea timpurilor compuse"
+      },
+      {
+       "t": "expression avec avoir",
+       "d": "expresie idiomatică de senzație sau stare formată cu verbul avoir (avoir faim, avoir peur)"
       }
      ],
      "carduri": [
       {
-       "f": "Care sunt formele prezentului pentru „être”?",
+       "f": "Cum se conjugă verbul „être” la prezent?",
        "v": "Je suis, tu es, il est, nous sommes, vous êtes, ils sont."
       },
       {
-       "f": "Care sunt formele prezentului pentru „avoir”?",
+       "f": "Cum se conjugă verbul „avoir” la prezent?",
        "v": "J'ai, tu as, il a, nous avons, vous avez, ils ont."
       },
       {
-       "f": "De ce sunt esențiale être și avoir?",
-       "v": "Pentru că servesc și ca auxiliare la timpurile compuse."
+       "f": "Cum se spune corect în franceză „am 16 ani” și „mi-e sete”?",
+       "v": "„J'ai 16 ans” și „J'ai soif” (ambele obligatoriu cu verbul avoir)."
       },
       {
-       "f": "Cum se spune „mi-e foame”?",
-       "v": "„J'ai faim.”"
+       "f": "Care este diferența fonetică dintre „ils ont” și „ils sont”?",
+       "v": "La „ils ont” se face liaison cu sunetul [z] ([ilzɔ̃]), în timp ce la „ils sont” se aude sunetul [s] ([ilsɔ̃])."
       }
      ],
      "test": [
+      {
+       "intrebare": "Propoziția „Ei au o casă” se traduce corect:",
+       "optiuni": [
+        "Ils ont une maison",
+        "Ils sont une maison",
+        "Ils font une maison",
+        "Ils vont une maison"
+       ],
+       "corect": 0,
+       "explicatie": "„Ils ont” provine de la verbul „avoir” (a avea), pe când „ils sont” este de la „être” (a fi)."
+      },
+      {
+       "intrebare": "În limba franceză, vârsta se exprimă cu verbul:",
+       "optiuni": [
+        "avoir („J'ai 17 ans”)",
+        "être („Je suis 17 ans”)",
+        "faire („Je fais 17 ans”)",
+        "porter („Je porte 17 ans”)"
+       ],
+       "corect": 0,
+       "explicatie": "Vârsta se exprimă întotdeauna cu verbul „avoir”."
+      },
       {
        "intrebare": "„Vous ______ (être) étudiants.”",
        "optiuni": [
@@ -446,43 +500,71 @@
     },
     {
      "id": "fra9-06",
-     "titlu": "Negația, interogația, pronumele",
-     "rezumat": "Negația franceză este dublă: „ne … pas” încadrează verbul conjugat („je ne parle pas”). Variante: ne … plus (nu mai), ne … jamais (niciodată), ne … rien (nimic), ne … personne (pe nimeni), ne … que (doar). În vorbirea curentă „ne” se omite adesea, dar în scris rămâne obligatoriu. Interogația are trei forme: prin intonație („Tu viens?”), cu „est-ce que” („Est-ce que tu viens?”) și prin inversiune („Viens-tu?”), ultima fiind cea mai formală. Cuvintele interogative: qui, que/quoi, où, quand, comment, pourquoi, combien, quel. Pronumele personale subiect: je, tu, il/elle/on, nous, vous, ils/elles; „on” înlocuiește frecvent „nous” în vorbirea curentă. Pronumele complement direct: me, te, le/la, nous, vous, les — plasate înaintea verbului.",
+     "titlu": "Negația, interogația și pronumele de bază",
+     "rezumat": "Negația în limba franceză funcționează ca o „paranteză” formată din două părți în jurul verbului conjugat: (1) Negația standard: „ne ... pas” (ne + verb + pas). Înaintea unei vocale sau a unui h mut, „ne” devine „n'”: „Je ne parle pas”, „Il n'aime pas le café”. (2) Negații nuanțate (înlocuiesc pe „pas”, nu se cumulează cu el!): • ne ... plus = nu mai („Je ne fume plus” = nu mai fumez) • ne ... jamais = niciodată („Elle ne ment jamais”) • ne ... rien = nimic („Je ne comprends rien”) • ne ... personne = nimeni („Je ne vois personne”) • ne ... que = doar / numai (restricție, nu negație: „Je n'ai que deux euros”). Atenție: la negație, articolele nehotărâte (un, une, des) și partitive (du, de la, des) se transformă obligatoriu în simplul „de” / „d'”: „J'ai un livre” → „Je n'ai pas de livre”; „Je bois du café” → „Je ne bois pas de café” (excepție doar cu verbul être: „C'est un problème” → „Ce n'est pas un problème”). Interogația se realizează pe 3 niveluri de formalitate (registru): (1) Registrul colocvial / familiar (oral): prin intonație ascendentă („Tu viens ce soir?”). (2) Registrul neutru / standard (recomandat în examene și eseuri): cu formula „est-ce que” + topica directă a propoziției („Est-ce que tu viens ce soir?”, „Où est-ce que vous habitez?”). (3) Registrul formal / literar: prin inversiunea verbului cu pronumele subiect legat cu cratimă („Viens-tu ce soir?”, „Parlez-vous français?”; la pers. a III-a cu verb terminat în vocală se adaugă un „-t-” eufonic: „Aime-t-il la musique?”). Cuvinte interogative de bază: Qui (cine), Que / Qu'est-ce que / Quoi (ce), Où (unde), Quand (când), Comment (cum), Pourquoi (de ce — se răspunde cu „Parce que...”), Combien (cât / câtă), Quel / Quelle / Quels / Quelles (care / ce fel de). Pronumele personale subiect (obligatorii): je, tu, il, elle, on (cu sens de „noi” sau „se”), nous, vous, ils, elles. Pronumele complement direct (COD: me, te, le, la, nous, vous, les) stau ÎNAINTEA verbului: „Je te vois” (te văd), „Je l'aime” (îl/o iubesc).",
      "ideiCheie": [
-      "Negația este dublă: ne … pas, cu variante pentru sensuri diferite.",
-      "Interogația: prin intonație, cu „est-ce que” sau prin inversiune.",
-      "„On” înlocuiește frecvent „nous” în vorbirea curentă.",
-      "Pronumele complement se plasează înaintea verbului."
+      "Negația standard: ne ... pas (ne devine n' înaintea vocalei).",
+      "Negațiile compuse înlocuiesc „pas”: ne ... plus (nu mai), ne ... jamais (niciodată), ne ... rien (nimic).",
+      "Articolele un, une, des, du devin „de” după negație (Je n'ai pas de voiture).",
+      "Cele 3 tipuri de întrebări: intonație (familiar), „est-ce que” (standard) și inversiune (formal: Parlez-vous?).",
+      "Cuvinte interogative cheie: Qui, Que/Quoi, Où, Quand, Comment, Pourquoi, Combien, Quel.",
+      "Pronumele complement (COD) se plasează înaintea verbului: „Je te regarde”, „Je le prends”."
      ],
      "termeni": [
       {
        "t": "négation double",
-       "d": "construcția „ne … pas”, care încadrează verbul conjugat"
+       "d": "construcția „ne … pas” sau echivalentele ei, care încadrează verbul conjugat"
       },
       {
        "t": "est-ce que",
-       "d": "formulă care introduce o întrebare fără inversiune"
+       "d": "formulă fixă neutră care introduce o întrebare menținând topica normală"
+      },
+      {
+       "t": "inversion interrogative",
+       "d": "inversarea verbului cu pronumele subiect (formal: Viens-tu?)"
       }
      ],
      "carduri": [
       {
-       "f": "Cum se formează negația în franceză?",
-       "v": "Cu „ne … pas”, care încadrează verbul conjugat."
+       "f": "Cum se modifică articolele partitive și nehotărâte după negația „ne ... pas”?",
+       "v": "Se transformă în simplul „de” / „d'” („Je ne bois pas de lait”)."
       },
       {
-       "f": "Care sunt cele trei forme de interogație?",
-       "v": "Prin intonație, cu „est-ce que” și prin inversiune."
+       "f": "Care sunt cele 3 modalități de a pune o întrebare în franceză?",
+       "v": "Prin intonație simplă, cu formula „est-ce que” și prin inversiune verbul-subiect."
       },
       {
-       "f": "Ce înlocuiește „on” în vorbirea curentă?",
-       "v": "Pe „nous”."
+       "f": "Ce cuvânt interogativ se folosește pentru „unde” și „de ce”?",
+       "v": "„Où” pentru unde și „Pourquoi” pentru de ce."
       },
       {
-       "f": "Unde se plasează pronumele complement direct?",
-       "v": "Înaintea verbului."
+       "f": "Unde se așază pronumele complement direct față de verbul conjugat?",
+       "v": "Înaintea verbului conjugat („Je le connais”)."
       }
      ],
      "test": [
+      {
+       "intrebare": "În propoziția negativă „Je ne veux pas ______ café”, cuvântul corect este:",
+       "optiuni": [
+        "de",
+        "du",
+        "un",
+        "le"
+       ],
+       "corect": 0,
+       "explicatie": "La forma negativă, articolul partitiv „du” devine obligatoriu „de”."
+      },
+      {
+       "intrebare": "Forma interogativă din registrul formal este:",
+       "optiuni": [
+        "Aimez-vous le cinéma?",
+        "Vous aimez le cinéma?",
+        "Est-ce que vous aimez le cinéma?",
+        "Le cinéma vous aimez?"
+       ],
+       "corect": 0,
+       "explicatie": "Inversiunea verbului cu subiectul („Aimez-vous”) marchează stilul formal/îngrijit."
+      },
       {
        "intrebare": "„Je ne mange ______ de viande” cu sensul „nu mai mănânc”:",
        "optiuni": [

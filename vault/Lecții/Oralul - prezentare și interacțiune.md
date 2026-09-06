@@ -31,6 +31,6 @@ Proba orală presupune, de regulă, o prezentare pregătită și o interacțiune
 
 ---
 
-⬅ [[Textul argumentativ și eseul]] · [[Spațiul francofon]] ➡
+⬅ [[Producerea scrisă la Bacalaureat - sarcinile de examen și baremul CEFR]] · [[Spațiul francofon]] ➡
 
 Exersează: [[Carduri - Limba modernă 2 (Franceză) (clasa a XIII-a)]] · [[Test - Limba modernă 2 (Franceză) (clasa a XIII-a)]]

@@ -29,6 +29,6 @@ Textul narativ presupune o structură clară: situația inițială, elementul ca
 
 ---
 
-⬅ [[Fraza - coordonare și subordonare]] · [[Textul argumentativ și eseul]] ➡
+⬅ [[Fraza - coordonare și subordonare]] · [[Producerea scrisă la Bacalaureat - sarcinile de examen și baremul CEFR]] ➡
 
 Exersează: [[Carduri - Limba modernă 2 (Franceză) (clasa a XIII-a)]] · [[Test - Limba modernă 2 (Franceză) (clasa a XIII-a)]]

@@ -29,6 +29,6 @@ Literatura de limbă franceză nu se reduce la Franța: ea cuprinde autori din �
 
 ---
 
-⬅ [[Repere de cultură și civilizație franceză]] · [[Strategii pentru proba de competențe]] ➡
+⬅ [[Repere de cultură și civilizație franceză]] · [[Simularea și strategiile Bacalaureat Proba B (Franceză)]] ➡
 
 Exersează: [[Carduri - Limba modernă 2 (Franceză) (clasa a XIII-a)]] · [[Test - Limba modernă 2 (Franceză) (clasa a XIII-a)]]

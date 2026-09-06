@@ -29,6 +29,6 @@ Verbele franceze se împart în trei grupe. Grupa I cuprinde verbele în -er (pa
 
 ---
 
-⬅ [[Adjectivul și acordul]] · [[Verbele neregulate uzuale]] ➡
+⬅ [[Adjectivul și acordul]] · [[Verbele neregulate fundamentale (Grupa a III-a)]] ➡
 
 Exersează: [[Carduri - Limba modernă 2 (Franceză) (clasa a IX-a)]] · [[Test - Limba modernă 2 (Franceză) (clasa a IX-a)]]
