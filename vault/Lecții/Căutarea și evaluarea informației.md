@@ -10,18 +10,18 @@ clasa: "a XII-a"
 
 [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a XII-a]] · lecția 14 din 16
 
-**Capitolul:** Informație și baze de date — semestrul 2
+**Capitolul:** Baze de date și căutare — semestrul 2
 
 ## Rezumat
 
-Internetul oferă multă informație, dar de calitate inegală; regăsirea și evaluarea ei sunt competențe esențiale. Motoarele de căutare indexează paginile și le ordonează după relevanță, iar căutarea eficientă folosește cuvinte-cheie potrivite, ghilimele pentru expresii exacte și filtre (dată, tip, limbă). Evaluarea sursei cere întrebări: cine e autorul, ce autoritate are, care e scopul (a informa, a vinde, a convinge), cât de actuală e informația, poate fi verificată din surse independente? Dezinformarea și știrile false circulă ușor; verificarea încrucișată (mai multe surse) și atenția la manipulare sunt apărarea. Citarea corectă a surselor respectă dreptul de autor și dă credibilitate. Un utilizator informat nu ia de bun primul rezultat, ci confruntă și verifică.
+Pregătirea exhaustivă pentru cerințele de cercetare online din cadrul Fișei A de examen: 1. Strategii avansate de interogare pe web: Combinarea operatorilor booleeni permite izolarea precisă a documentelor oficiale necesare: • Căutarea bazei de date educaționale: `"calendar bacalaureat 2026" site:edu.ro filetype:pdf`; • Căutarea datelor statistice oficiale: `"populatie rezidenta" site:insse.ro filetype:xls`; • Utilizarea căutării avansate din interfața grafică Google (Google Advanced Search): setarea limbii române, a regiunii România și a intervalului de timp (ultimul an). 2. Tehnici de descărcare și organizare locală a resurselor: La Fișa A candidatul este evaluat pe acuratețea salvării: • Salvarea unei pagini web complete (Webpage, Complete) sau doar a fișierului HTML simplu; • Salvarea textului selectat dintr-un articol într-un fișier text `raspuns.txt` deschis în Notepad; • Descărcarea imaginilor la rezoluția maximă nativă (nu salvarea miniaturii / thumbnail-ului). 3. Redactarea e-mailului de examen la Fișa A: Biletul specifică exact cerințele ce trebuie bifate pentru obținerea punctajului maxim: • Adresa destinatarului scrisă impecabil (ex: `comisie_bac@liceu.ro`); • Subiectul (Subject) identic cu textul cerut în bilet (ex: `Rezultate cautare Popescu Ion`); • Corpul mesajului formulat respectând formulele de politețe cerute; • Atașarea fișierului specificat din folderul de pe Desktop (verificând că fișierul este atașat complet înainte de a apăsa butonul Send).
 
 ## Idei-cheie
 
-- Motoarele indexează și ordonează paginile după relevanță.
-- Căutare eficientă: cuvinte-cheie, ghilimele, filtre.
-- Evaluarea sursei: autor, autoritate, scop, actualitate, verificabilitate.
-- Verificarea încrucișată apără de dezinformare.
+- Operatorii Google combinați (`" "`, `site:`, `filetype:`) identifică documentele oficiale în câteva secunde.
+- Textul cerut la Fișa A se copiază și se salvează adesea într-un fișier `.txt` creat pe Desktop.
+- Subiectul e-mailului trebuie completat exact conform textului menționat în cerința biletului.
+- Atașarea corectă a fișierului descărcat este obligatorie pentru punctajul complet la Fișa A.
 
 ## Notițele mele
 

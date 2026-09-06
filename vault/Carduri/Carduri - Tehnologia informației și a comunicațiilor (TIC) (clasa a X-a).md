@@ -11,133 +11,133 @@ cssclasses: carduri
 
 #flashcards/tehnologia-informatiei-si-a-comunicatiilor-tic
 
-Cu ce începe o formulă într-o foaie de calcul?::Cu semnul egal.
+Cu ce caracter începe în mod obligatoriu orice formulă în Excel?::Cu semnul egal (=).
 
-Ce este o referință absolută?::O referință care nu se modifică la copierea formulei, marcată cu semnul dolarului.
+Cum este aliniat implicit un număr într-o celulă de calcul tabelar?::Aliniat la marginea din dreapta a celulei.
 
-Care este avantajul esențial al foii de calcul?::Recalcularea automată a rezultatelor la modificarea datelor.
+Ce reprezintă referința C10?::Intersecția dintre coloana C și rândul 10.
 
-Care este cea mai frecventă sursă de erori la copierea formulelor?::Folosirea unui tip greșit de referință.
+Care este rezultatul formulei =10 + 2 * 5 ?::20 (înmulțirea are prioritate în fața adunării).
 
-Ce face o funcție condițională?::Returnează o valoare dacă o condiție este adevărată și alta dacă este falsă.
+Cum se notează intervalul continuu de celule de la C1 până la C20?::C1:C20.
 
-La ce servește un tabel pivot?::La rezumarea și gruparea automată a unui set mare de date.
+Ce funcție calculează cea mai mare notă dintr-un catalog de la B2 la B30?::=MAX(B2:B30).
 
-Ce face formatarea condiționată?::Evidențiază vizual celulele care îndeplinesc un criteriu.
+Ce semnifică apariția șirului ##### într-o celulă numerică?::Coloana este prea îngustă pentru număr; trebuie mărită lățimea coloanei.
 
-Ce funcție folosești pentru a număra elementele care îndeplinesc o condiție?::O funcție de numărare condiționată.
+Ce diferență există între funcțiile COUNT și COUNTA?::COUNT numără doar celulele cu numere, iar COUNTA numără toate celulele nevide (și cu text).
 
-Ce tip de grafic se folosește pentru evoluția în timp?::Graficul cu linii.
+Ce tip de diagramă este cel mai indicat pentru a ilustra distribuția procentuală a bugetului școlii?::Graficul circular (Pie Chart / Plăcintă).
 
-Ce arată o histogramă?::Distribuția valorilor unei variabile pe intervale.
+Ce tip de grafic alegi pentru a arăta evoluția temperaturii medii pe cele 12 luni ale anului?::Graficul liniar (Line Chart).
 
-Ce efect are trunchierea axei verticale?::Exagerează vizual diferențele dintre valori.
+Ce element al graficului explică ce semnifică fiecare culoare a seriilor de date?::Legenda (Legend).
 
-Care este regula de bază a unui grafic?::Să facă datele mai ușor de înțeles, nu mai impresionante.
+Ce se întâmplă cu graficul dacă modifici o valoare numerică în tabelul sursă?::Se actualizează automat instantaneu pentru a reflecta noua cifră.
 
-Ce este cheia primară?::Câmpul care identifică unic fiecare înregistrare dintr-un tabel.
+Ce este o înregistrare (Record) într-un tabel de bază de date?::Un rând complet de date referitor la o singură entitate (ex: un elev).
 
-Ce face cheia externă?::Leagă înregistrările dintr-un tabel de cele din alt tabel.
+De ce este obligatorie definirea unei Chei Primare într-un tabel?::Pentru a identifica unic fiecare rând și a împiedica înregistrările duplicate.
 
-Ce avantaje are o bază de date față de o foaie de calcul?::Evitarea redundanței, integritatea datelor, accesul concurent, controlul drepturilor.
+Ce tip de date este cel mai potrivit pentru data nașterii unui elev?::Date/Time (Dată/Oră).
 
-Ce este normalizarea?::Organizarea tabelelor pentru eliminarea redundanței și a anomaliilor de actualizare.
+Ce este un SGBD (Sistem de Gestiune a Bazelor de Date)?::Programul software care creează, populează și interoghează baza de date (ex: Microsoft Access).
 
-Ce face o interogare?::Selectează, filtrează, ordonează, grupează și calculează date din tabele.
+La ce folosește o interogare (Query) în Access?::La filtrarea și afișarea exclusivă a datelor care îndeplinesc anumite criterii.
 
-Care este limbajul standard al bazelor de date relaționale?::SQL.
+Ce criteriu scrii într-o interogare pentru a găsi toți elevii cu media peste 9?::> 9 (sau >= 9.01).
 
-La ce servesc formularele?::La introducerea și editarea comodă și validată a datelor.
+Ce rol are un Raport (Report) într-o bază de date?::Pregătirea datelor într-un aspect elegant pentru tipărire sau export în PDF.
 
-De ce se separă datele, logica și interfața?::Pentru a putea modifica una fără a le strica pe celelalte.
+Cum selectezi într-o interogare toate orașele care încep cu litera C?::Folosind criteriul LIKE "C*".
 
-Prin ce se deosebesc imaginile raster de cele vectoriale?::Rasterul e format din pixeli și depinde de rezoluție; vectorialul e descris prin formule și se scalează fără pierdere.
+Care este avantajul principal al unei sigle realizate în format vectorial (SVG)?::Poate fi mărită la orice dimensiune fără să se piardă deloc din claritate.
 
-Ce format este potrivit pentru un logo?::Un format vectorial, precum SVG.
+Ce se întâmplă când mărești exagerat o fotografie în format JPEG?::Apare fenomenul de pixelare (se văd pătrățelele individuale ale pixelilor).
 
-Ce înseamnă comprimare cu pierdere?::Reducerea dimensiunii fișierului prin eliminarea unor informații, ireversibil.
+Ce rol au straturile (Layers) într-un program de editare foto?::Permit editarea unui obiect sau text separat, fără a distruge fundalul imaginii.
 
-Unde este falsificare prelucrarea unei imagini?::Când modifică conținutul informativ al unei imagini documentare sau jurnalistice.
+Ce rezoluție în DPI este considerată standard pentru tipărirea impecabilă a fotografiilor?::300 DPI.
 
-Ce este un algoritm?::O succesiune finită și ordonată de pași care rezolvă o categorie de probleme.
+Ce formă geometrică are blocul de decizie într-o schemă logică?::Romb (având două ieșiri: Da / Nu sau Adevărat / Fals).
 
-Care sunt proprietățile unui algoritm?::Claritate, finitudine, generalitate, eficiență, corectitudine.
+Ce înseamnă proprietatea de generalitate a unui algoritm?::Algoritmul poate rezolva orice problemă din clasa respectivă, pentru orice date de intrare permise.
 
-Care sunt cele trei structuri fundamentale?::Secvența, decizia și repetiția.
+Ce formă geometrică reprezintă operațiile de calcul și atribuire într-o schemă logică?::Dreptunghi.
 
-Ce simbol reprezintă decizia într-o schemă logică?::Rombul.
+Ce se întâmplă dacă un program conține un algoritm fără proprietatea de finititudine?::Intră într-o buclă infinită (se blochează și nu se mai oprește niciodată).
 
-Când se folosește ciclul cu contor?::Când numărul de repetări este cunoscut dinainte.
+Câte structuri de control fundamentale există conform teoremei fundamentale?::Trei: secvențială (liniară), alternativă (decizie) și repetitivă (ciclică).
 
-Ce deosebește ciclul cu test final de cel cu test inițial?::Cel cu test final se execută cel puțin o dată.
+De câte ori se execută corpul unei bucle CÂT TIMP dacă de la bun început condiția este falsă?::De zero ori (nu se execută deloc).
 
-Ce provoacă un ciclu infinit?::O condiție care rămâne mereu adevărată sau lipsa actualizării variabilei de control.
+Când este indicată folosirea buclei PENTRU (FOR)?::Când numărul exact de repetiții este cunoscut înainte de începerea buclei.
 
-Numește patru prelucrări clasice pe un șir de valori.::Suma, media, minimul și maximul (de asemenea numărarea, căutarea, sortarea).
+Ce este o iterație?::O trecere completă prin comenzile din interiorul unei bucle repetitive.
 
-Care sunt componentele gândirii computaționale?::Descompunerea, recunoașterea tiparelor, abstractizarea, proiectarea și evaluarea algoritmului.
+Ce reprezintă pilonul „Descompunere” în gândirea computațională?::Împărțirea unei probleme complexe în subprobleme mici și independente.
 
-De ce se testează cazurile limită?::Pentru că acolo apar cele mai multe erori ale soluțiilor aparent corecte.
+Cum este definită „Abstractizarea”?::Selectarea detaliilor esențiale și ignorarea aspectelor nesemnificative.
 
-Ce demonstrează testarea?::Absența erorilor găsite, nu corectitudinea soluției.
+Dați un exemplu comun de abstractizare din viața de zi cu zi.::Harta traseelor de transport public (arată stațiile fără a desena toate casele sau copacii).
 
-Ce este abstractizarea, în rezolvarea problemelor?::Ignorarea detaliilor irelevante pentru soluție.
+Ce avantaj oferă „Recunoașterea tiparelor”?::Permite folosirea unei soluții deja testate pentru o problemă nouă care seamănă cu cea veche.
 
-Cu ce semn începe o formulă într-o foaie de calcul?::Cu semnul egal.
+Ce rol are simbolul $ în referința $C$5?::Blochează atât coloana C, cât și rândul 5, transformând adresa într-una absolută ce nu se schimbă la copiere.
 
-Ce este o referință absolută?::O adresă fixată cu „$”, care nu se schimbă la copiere.
+Dacă celula B2 conține formula =A2*2, ce formulă va conține celula B3 după copiere în jos?::=A3*2 (referința fiind relativă, rândul s-a mărit cu 1).
 
-Cum se scrie referința absolută la celula A1?::$A$1.
+Ce tastă funcțională adaugă instantaneu semnele $ unei adrese de celulă?::Tasta F4.
 
-Când se folosește o referință absolută?::Când o valoare (de exemplu TVA) trebuie folosită fix de toate rândurile.
+Când este obligatorie folosirea unei referințe absolute?::Când toate elementele dintr-o coloană trebuie înmulțite cu o aceeași celulă fixă (ex: cota de TVA).
 
-Ce face funcția SUM?::Adună valorile dintr-un domeniu de celule.
+Ce va afișa formula =IF(10 > 5, "Corect", "Greșit")?::Va afișa textul „Corect”, deoarece condiția 10 > 5 este adevărată.
 
-Cum se scrie un domeniu de la A1 la A10?::A1:A10.
+Ce funcție folosești pentru a afla câți elevi din intervalul D2:D40 au obținut nota 10?::=COUNTIF(D2:D40, 10).
 
-Ce face funcția IF?::Alege între două rezultate, în funcție de o condiție.
+Ce funcție adună veniturile exclusiv pentru filiala din Iași?::Funcția =SUMIF.
 
-La ce folosește COUNTIF?::Numără celulele care îndeplinesc un criteriu dat.
+De ce trebuie pus textul între ghilimele duble în formulele Excel (ex: "Promovat")?::Pentru a semnala programului că este un șir de caractere și nu numele unei funcții sau celule.
 
-Ce face sortarea unui tabel?::Rearanjează rândurile după valorile unei coloane.
+Ce se întâmplă cu rândurile care nu corespund criteriului la aplicarea unui filtru?::Sunt ascunse temporar, fără a fi șterse de pe foaie.
 
-Prin ce diferă filtrarea de ștergere?::Filtrarea doar ascunde temporar rândurile; datele nu se pierd.
+Ce este un tabel pivot (Pivot Table)?::Un instrument interactiv care calculează sume, medii și totaluri grupate din seturi mari de date.
 
-La ce folosește un tabel pivot?::Rezumă un set mare de date, grupându-le și calculând totaluri.
+Cum sortezi o listă de elevi după clasă, iar în cadrul fiecărei clase după medie?::Folosind comanda Custom Sort cu două niveluri: nivelul 1 Clasa, nivelul 2 Media.
 
-Se poate sorta după mai multe coloane?::Da, pe mai multe niveluri succesive.
+La ce ajută formatarea condiționată?::Colorează automat cu roșu notele sub 5 sau cu verde cele peste 9 pentru identificare vizuală imediată.
 
-Ce face o structură de decizie?::Alege pașii de executat în funcție de o condiție.
+Când este adevărată o expresie compusă legată prin operatorul logic ȘI (AND)?::Doar atunci când toate condițiile componente sunt simultan adevărate.
 
-Cum se scrie o decizie în pseudocod?::DACĂ condiție ATUNCI … ALTFEL …
+Ce returnează expresia (5 > 2) SAU (10 < 3)?::Adevărat (prima condiție 5 > 2 este adevărată, deci întreaga disjuncție devine adevărată).
 
-Prin ce figură se reprezintă decizia în schema logică?::Prin romb, cu ramuri DA și NU.
+Ce structură de control înlocuiește o înlănțuire lungă de instrucțiuni IF repetitive?::Structura de decizie multiplă (CASE / SWITCH).
 
-Ce valori poate lua o condiție?::Adevărat sau fals.
+Care este rezultatul negației logice NOT(FALS)?::ADEVĂRAT.
 
-Ce este un vector (tablou unidimensional)?::O colecție ordonată de elemente de același tip, sub un singur nume.
+Ce este un tablou unidimensional (vector)?::O colecție ordonată de date de același tip, accesibile printr-un indice.
 
-Cum se accesează un element dintr-un vector?::Prin indicele (poziția) său, de exemplu nota[3].
+Cum se accesează al treilea element al unui vector numit Note?::Note[3] (sau Note[2] în limbaje cu indexare de la 0).
 
-Cum se prelucrează, de obicei, un vector?::Parcurgându-l cu o structură repetitivă.
+Ce structură de control este folosită de regulă pentru a parcurge un vector de lungime n?::Bucla FOR (pentru i de la 1 la n).
 
-Ce este o matrice?::Un tablou bidimensional, cu date pe rânduri și coloane.
+Cum inițializezi variabila `suma` înainte de a aduna elementele unui vector?::Cu valoarea 0 (elementul neutru al adunării).
 
-Ce este cheia primară?::Câmpul care identifică unic fiecare înregistrare dintr-un tabel.
+Ce este o Cheie Străină (Foreign Key)?::Un câmp care face legătura cu cheia primară a unui alt tabel.
 
-Ce face o cheie externă?::Leagă un tabel de cheia primară a altui tabel.
+Dați un exemplu de relație 1:N (Unu-la-Mulți).::O editură publică mai multe cărți; o școală are mai multe clase.
 
-Ce sunt rândurile și coloanele unui tabel?::Rândurile sunt înregistrări, coloanele sunt câmpuri.
+Cum se implementează practic o relație Mulți-la-Mulți într-o bază de date relațională?::Prin crearea unui al treilea tabel intermediar de legătură.
 
-Ce avantaj aduce modelul relațional?::Elimină repetarea datelor: fiecare informație se scrie o singură dată.
+Ce problemă gravă cauzează redundanța datelor?::Irosește spațiu și provoacă anomalii la actualizare (date contradictorii).
 
-Ce este integritatea datelor?::Ansamblul regulilor care mențin datele corecte și consecvente.
+Ce este integritatea referențială?::Regula care garantează că o cheie străină trimite întotdeauna la o cheie primară existentă.
 
-De ce este problematică redundanța?::Duce la contradicții când o informație se schimbă doar în unele locuri.
+Ce se întâmplă la activarea opțiunii Cascade Delete dacă ștergi o clasă?::Se șterg automat și toți elevii asociați acelei clase.
 
-Ce este normalizarea?::Organizarea tabelelor ca fiecare informație să apară o singură dată.
+Ce presupune cerința de atomicitate din Forma Normală 1 (1NF)?::Fiecare celulă trebuie să conțină o singură valoare elementară (nu liste sau grupuri de valori).
 
-Ce cere integritatea referențială?::Ca o cheie externă să trimită mereu la o înregistrare existentă.
+Ce risc apare dacă nu activezi integritatea referențială?::Pot apărea date orfane în sistem (ex: comenzi atribuite unor clienți inexistenți).
 
 ---
 

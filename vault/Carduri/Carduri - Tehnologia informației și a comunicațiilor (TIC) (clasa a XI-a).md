@@ -11,133 +11,133 @@ cssclasses: carduri
 
 #flashcards/tehnologia-informatiei-si-a-comunicatiilor-tic
 
-Ce înseamnă modelul client–server?::Clientul cere o resursă, serverul o furnizează.
+Care este rolul browserului web în modelul client-server?::Trimite cereri HTTP la server și interpretează codul HTML/CSS/JS pentru a-l desena pe ecran.
 
-Ce cuprinde un URL?::Protocolul, numele de domeniu, calea și eventualii parametri.
+Ce diferențiază protocolul HTTPS de protocolul HTTP clasic?::HTTPS include un nivel de securitate criptată (SSL/TLS) ce împiedică interceptarea parolelor.
 
-Ce deosebește un site static de unul dinamic?::Static livrează fișiere ca atare; dinamic generează paginile la cerere, din baze de date.
+Din ce elemente este alcătuit un URL complet?::Protocol (https), nume de domeniu (site.ro), calea folderelor și numele fișierului căutat.
 
-Ce face găzduirea?::Păstrează fișierele site-ului pe un server accesibil permanent.
+Ce organizație gestionează domeniile cu terminația „.ro” în România?::RoTLD (Institutul Național de Cercetare-Dezvoltare în Informatică).
 
-Care sunt cele trei straturi ale unei pagini web?::Conținutul (HTML), prezentarea (CSS) și comportamentul (JavaScript).
+Ce rol are limbajul HTML într-o pagină web?::Definește conținutul și structura logică a informațiilor din pagină.
 
-Ce este marcarea semantică?::Folosirea elementelor potrivit rolului lor, nu aspectului dorit.
+Ce tehnologie este responsabilă de culori, margini și aranjarea pe coloane a unui site?::Limbajul CSS (Cascading Style Sheets).
 
-De ce contează separarea straturilor?::Pentru că permite schimbarea aspectului fără a afecta conținutul.
+Ce aduce limbajul JavaScript unei pagini web?::Interactivitate, animații complexe și reacție dinamică la acțiunile utilizatorului.
 
-Cine beneficiază de marcarea semantică?::Motoarele de căutare și tehnologiile de asistență ale persoanelor cu dizabilități.
+Care este avantajul separării CSS-ului într-un fișier extern?::Permite schimbarea aspectului întregului site dintr-un singur loc, fără a rescrie paginile.
 
-Ce este textul alternativ al unei imagini?::Descrierea citită de tehnologiile de asistență pentru cei care nu văd imaginea.
+La ce folosește atributul `alt` din cadrul etichetei de imagine HTML?::Oferă o descriere textuală a imaginii pentru persoanele nevăzătoare și dacă poza nu se poate încărca.
 
-Ce cerințe de accesibilitate sunt esențiale?::Text alternativ, contrast suficient, navigare de la tastatură, subtitrări, etichete la formulare.
+Ce este un Screen Reader?::Un program software care citește cu voce tare textul și etichetele de pe ecran pentru nevăzători.
 
-Ce presupune optimizarea unui site?::Viteză (imagini comprimate, cod redus) și vizibilitate în motoarele de căutare.
+Cum influențează optimizarea imaginilor performanța unui site?::Reduce dimensiunea fișierelor în Kilobytes, permițând încărcarea aproape instantanee a paginii.
 
-De ce trebuie actualizat periodic un site?::Pentru că pierde altfel vizitatori și devine vulnerabil din punct de vedere al securității.
+Ce program este frecvent utilizat pentru a transfera fișiere prin FTP/SFTP pe un server web?::Aplicația FileZilla (sau WinSCP).
 
-Ce este eșantionarea?::Măsurarea semnalului analogic la intervale regulate de timp.
+Ce rată de eșantionare este standardul internațional pentru calitatea de CD audio?::44.1 kHz (44.100 de mostre pe secundă).
 
-De ce depinde fidelitatea unei înregistrări digitale?::De frecvența de eșantionare și de adâncimea de biți.
+Care este diferența de stocare între formatele WAV și MP3?::WAV este necomprimat (fișiere mari), în timp ce MP3 este comprimat cu pierderi (fișiere de 10 ori mai mici).
 
-Ce format audio este comprimat fără pierdere?::FLAC.
+Ce efect audio realizează intrarea lină a volumului unei melodii de la zero la nivel normal?::Efectul de Fade In.
 
-Ce contează cel mai mult pentru o înregistrare bună?::Condițiile: cameră liniștită, microfon aproape de sursă, evitarea suprasaturării.
+La ce folosește filtrarea de reducere a zgomotului (Noise Reduction) în Audacity?::La eliminarea zgomotului static sau a fâșâitului microfonului dintr-o înregistrare.
 
-Ce este un codec?::Algoritmul care comprimă și decomprimă imaginea sau sunetul.
+Ce rezoluție în pixeli are un videoclip Full HD (1080p)?::1920 x 1080 pixeli.
 
-Ce diferență e între codec și container?::Codecul comprimă fluxurile; containerul le împachetează într-un fișier.
+Ce măsoară valoarea FPS a unui fișier video?::Numărul de cadre afișate într-o secundă (Frames Per Second).
 
-Ce determină fluiditatea mișcării într-un video?::Numărul de cadre pe secundă.
+Care este raportul de aspect standard pentru ecranele panoramice moderne și YouTube?::Raportul 16:9.
 
-De ce sunt importante subtitrările?::Pentru accesibilitate și pentru vizionarea fără sunet.
+Ce rol are un codec video (precum H.264)?::Comprimă fluxul video masiv pentru a putea fi transmis și redat cursiv pe internet.
 
-Ce face ierarhia vizuală?::Ghidează privirea spre elementul cel mai important.
+Ce recomandă Regula Treimilor în compoziția vizuală?::Plasarea subiectului principal la intersecția liniilor imaginare care împart cadrul în treimi.
 
-De ce este util spațiul liber?::Pentru că structurează compoziția și face conținutul lizibil.
+Ce rol are „spațiul alb” (White Space) într-un afiș sau o pagină web?::Oferă lizibilitate, eleganță și împiedică aglomerarea sufocantă a textului.
 
-Câte familii de litere se folosesc, de regulă, într-un material?::Cel mult două.
+De ce sunt preferate fonturile Sans-Serif pe ecranele telefoanelor și calculatoarelor?::Deoarece liniile lor drepte și curate se citesc mult mai clar la rezoluțiile pixelilor de ecran.
 
-Ce separă un material profesionist de unul amator?::Consecvența aplicării acelorași reguli în tot materialul.
+Câte tipuri diferite de fonturi este indicat să combini pe un singur afiș promoțional?::Maximum două sau trei familii de fonturi.
 
-Ce trebuie definit la începutul unui proiect digital?::Produsul, publicul, problema rezolvată și criteriul de succes.
+Ce reprezintă o diagramă Gantt în planificarea unui proiect?::Un calendar vizual cu bare orizontale ce arată durata și suprapunerea sarcinilor în timp.
 
-Ce este o versiune minimă funcțională?::Cea mai simplă variantă care rezolvă deja problema și poate fi testată.
+Ce semnifică litera „M” din acronimul obiectivelor SMART?::Măsurabil (rezultatul poate fi evaluat cantitativ sau procentual).
 
-Care sunt riscurile tipice ale unui proiect?::Cerințe schimbătoare, subestimarea timpului, dependența de o persoană, lipsa verificărilor intermediare.
+Care este prima etapă din ciclul de viață al oricărui proiect digital?::Etapa de inițiere (stabilirea scopului și a cerințelor de bază).
 
-La ce servește un sistem de versionare?::La păstrarea istoricului modificărilor și la lucrul în echipă fără pierderi.
+De ce este periculoasă începerea scrierii de cod înainte de finalizarea etapei de planificare?::Se riscă construirea unui produs neconform cu cerințele beneficiarului, cerând refacerea costisitoare.
 
-Ce verifică testarea de utilizabilitate?::Dacă utilizatorii reali reușesc să ducă la capăt sarcinile fără explicații.
+Ce verifică testarea de responsivitate a unui site web?::Dacă pagina arată impecabil și este ușor de utilizat atât pe telefonul mobil, cât și pe monitorul desktop.
 
-Câți utilizatori sunt, de regulă, suficienți pentru a descoperi problemele majore?::Aproximativ cinci, observați atent.
+Ce este un „bug” în informatică?::O eroare, defecțiune sau comportament neprevăzut în codul unui program.
 
-De ce nu se ajută utilizatorul în timpul testului?::Pentru că produsul trebuie să funcționeze fără autor lângă utilizator.
+Cum funcționează un sprint în metodologia agilă Scrum?::Este o perioadă scurtă de lucru (1-3 săptămâni) la capătul căreia echipa prezintă o funcționalitate terminată și testată.
 
-Cum se prioritizează feedbackul?::După impactul asupra utilizatorilor și efortul necesar implementării.
+De ce este importantă testarea cross-browser?::Pentru că utilizatorii folosesc motoare diferite de randare (Blink în Chrome, Gecko în Firefox, WebKit în Safari) ce pot interpreta CSS-ul diferit.
 
-Ce cuprinde documentația minimă a unui produs digital?::Scopul, publicul, instalarea, folosirea, structura, deciziile importante și limitele cunoscute.
+Ce conține fișierul standard README.md dintr-un depozit de proiect software?::Prezentarea proiectului, tehnologiile utilizate și pașii clari de instalare și rulare.
 
-Cum se structurează o prezentare de proiect?::Problemă, soluție, demonstrație, rezultate, lecții învățate, pași următori.
+Cui îi este adresat Manualul de Utilizare al unui site sau al unei aplicații?::Utilizatorilor obișnuiți, fiind explicat simplu și însoțit de capturi de ecran.
 
-De ce se pregătește o variantă de rezervă pentru demonstrație?::Pentru cazul în care demonstrația live nu funcționează.
+De ce se inserează comentarii în codul sursă dacă ele sunt ignorate de calculator la rulare?::Pentru ca alți programatori (sau autorul însuși peste 6 luni) să înțeleagă logica deciziilor din cod.
 
-De ce se menționează limitele cunoscute?::Pentru că întăresc credibilitatea și ajută pe cine continuă proiectul.
+Ce măsură de siguranță iei când susții o demonstrație pe internet în fața unei comisii?::Pregătești o copie offline sau o înregistrare video a funcționării, în caz că pică rețeaua.
 
-Ce descrie HTML?::Structura (sensul) unei pagini web.
+Ce declară prima linie `<!DOCTYPE html>` dintr-un document web?::Declară tipul documentului ca fiind scris în standardul modern HTML5.
 
-Ce conține secțiunea head?::Metadatele: titlu, codare, legături.
+Unde se plasează tagul `<title>` și ce rol are el?::Se plasează în secțiunea `<head>` și stabilește textul afișat în fila sau tab-ul browserului.
 
-Ce etichetă marchează un paragraf?::Eticheta p (<p>).
+Care este tagul corect pentru introducerea unui paragraf simplu de text în HTML?::Tagul `<p>` închis cu `</p>`.
 
-Ce dă aspectul unei pagini, dacă nu HTML?::CSS-ul.
+Ce tag HTML produce o trecere la rând nou fără a crea un paragraf complet nou?::Tagul vid `<br>`.
 
-Ce descrie CSS?::Aspectul paginilor: culori, fonturi, așezare.
+Cu ce caracter începe obligatoriu un selector de clasă în CSS?::Cu punctul (ex: `.evidentiat`).
 
-Din ce se compune o regulă CSS?::Un selector și un bloc de declarații.
+Cu ce simbol se prefixează un selector de identificator (id) în CSS?::Cu simbolul diez (ex: `#antet`).
 
-Care mod de a pune stiluri e recomandat?::Fișierul CSS extern.
+Care este diferența dintre Margin și Padding în CSS Box Model?::Padding este spațiul interior (dintre conținut și chenar), iar Margin este spațiul exterior (dintre chenar și elementele vecine).
 
-Cum se scrie un selector de clasă?::Cu punct: .nume.
+Cum legi un fișier extern de stiluri numit `stil.css` la o pagină HTML?::Prin `<link rel="stylesheet" href="stil.css">` plasat în interiorul etichetei `<head>`.
 
-Ce etichetă creează o legătură?::Eticheta a, cu atributul href.
+Ce etichetă HTML este utilizată pentru a crea o legătură către un alt site?::Eticheta `<a>` împreună cu atributul `href`.
 
-Ce rol are atributul alt la imagini?::Text alternativ pentru accesibilitate.
+Ce efect are adăugarea atributului `target="_blank"` la o legătură hipertext?::Deschide pagina de destinație într-o filă nouă a browserului.
 
-Din ce se compune un rând de tabel?::Din celule th (antet) sau td (date).
+Ce etichetă definește un rând orizontal într-un tabel HTML?::Eticheta `<tr>` (Table Row).
 
-Ce atribut indică destinația unei legături?::Atributul href.
+Cum creezi o listă ordonată numerotată (1, 2, 3...) în HTML?::Folosind tagul `<ol>` ce conține elemente `<li>`.
 
-Din ce e formată o imagine raster?::Din pixeli.
+Ce avantaj major oferă o mască de strat față de ștergerea directă cu radiera?::Este complet reversibilă: pixelii ascunși pot fi restaurați oricând vopsind masca cu alb.
 
-De ce o imagine vectorială se mărește fără pierdere?::E descrisă prin formule geometrice.
+Ce format de fișier grafic este bazat pe cod XML și nu se distorsionează la mărire?::Formatul SVG.
 
-Ce format raster e bun pentru fotografii?::JPEG.
+De ce nu se încarcă direct fotografii brute de 20 Megabytes pe un site web?::Deoarece consumă banda de internet a utilizatorilor și fac pagina să se încarce extrem de lent.
 
-Ce format raster păstrează transparența?::PNG.
+Ce indică culoarea neagră pe o mască de strat?::Ascunde complet porțiunea respectivă din strat (o face transparentă).
 
-Cum se digitizează sunetul?::Prin eșantionare și cuantizare.
+Ce etichetă HTML5 este dedicată redării unui clip video direct în pagină?::Eticheta `<video>`.
 
-Ce format audio e necomprimat?::WAV.
+De ce este important să adaugi atributul `controls` la tagul `<video>`?::Pentru ca vizitatorul să aibă butoane vizibile pentru pornire, oprire, derulare și volum.
 
-Ce parametri descriu un video?::Rezoluția și rata de cadre (fps).
+Ce rol are atributul `poster` dintr-un tag video?::Afișează o imagine statică de copertă până când utilizatorul apasă Play.
 
-Ce face un codec?::Comprimă și decomprimă sunetul sau videoul.
+Ce format video este universal suportat în etichetele video HTML5 moderne?::Formatul MP4 (codec H.264).
 
-Care sunt etapele unui proiect digital?::Analiză, proiectare, realizare, testare, publicare, întreținere.
+Ce rol are designerul de UI/UX într-un proiect digital?::Se ocupă de ușurința în utilizare (UX) și aspectul vizual al interfețelor (UI).
 
-Ce este un wireframe?::O schiță a structurii și așezării, înainte de realizare.
+Ce este un sistem de control al versiunilor (cum este Git)?::Un program care ține istoricul fiecărei modificări aduse fișierelor și permite colaborarea în echipă.
 
-Ce stabilește etapa de analiză?::Scopul, publicul-țintă și cerințele.
+Ce reprezintă un „commit” în Git?::O salvare oficială a modificărilor realizate, însoțită de un mesaj explicativ clar.
 
-Ce ajută întreținerea unui proiect?::Documentarea.
+La ce folosesc ramurile (Branches) într-un depozit de cod?::Permit lucrul la funcționalități noi fără a deranja sau strica codul stabil din ramura principală.
 
-Ce este phishingul?::O înșelătorie prin mesaje care cer date, imitând surse de încredere.
+Cum trebuie salvate parolele utilizatorilor într-o bază de date securizată?::Criptate sub formă de hash cu salt (niciodată în clar).
 
-Cum se protejează un cont?::Prin parole puternice, diferite, și autentificare în doi pași.
+Ce este un atac de tip SQL Injection?::O tentativă a hackerilor de a transmite comenzi de baze de date prin căsuțele unui formular web.
 
-Ce este amprenta digitală?::Urmele lăsate de o persoană pe internet.
+Ce pericol reprezintă bulele informaționale (Echo Chambers) pe rețelele sociale?::Izolează oamenii în convingeri înguste și reduc capacitatea de a evalua critic opinii diferite.
 
-Ce înseamnă respectarea dreptului de autor?::A nu copia și distribui fără permisiune.
+Ce presupune principiul „Data Minimization” din regulamentul GDPR?::Să ceri de la vizitator doar datele absolut indispensabile funcționării serviciului.
 
 ---
 

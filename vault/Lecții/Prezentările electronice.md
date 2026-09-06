@@ -10,18 +10,18 @@ clasa: "a XII-a"
 
 [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a XII-a]] · lecția 12 din 16
 
-**Capitolul:** Instrumente de birou — semestrul 1
+**Capitolul:** Instrumente de birou: cerințe avansate — semestrul 2
 
 ## Rezumat
 
-Programul de prezentări (PowerPoint, Impress, Google Slides) creează secvențe de diapozitive (slide-uri) pentru a susține o expunere. O prezentare bună respectă câteva reguli: un mesaj clar per diapozitiv, text puțin (idei, nu paragrafe), imagini relevante, contrast bun între text și fundal, un font lizibil. Elementele: titluri, liste, imagini, grafice, eventual animații și tranziții — folosite cu măsură, ca să nu distragă. Șabloanele (template) asigură un aspect unitar. Regula practică: prezentarea sprijină vorbitorul, nu îl înlocuiește, iar diapozitivul nu se citește cuvânt cu cuvânt. La final, o structură clară (introducere, cuprins, concluzie) și repetiția expunerii fac diferența; exportul în PDF păstrează aspectul pentru distribuire.
+Crearea prezentărilor interactive de impact necesită utilizarea funcționalităților avansate din Microsoft PowerPoint: 1. Butoane de acțiune și hiperlinkuri interactive: PowerPoint permite transformarea unei expuneri liniare într-o aplicație interactivă (ex: un joc didactic, un chestionar cu întrebări sau un meniu interactiv de muzeu): • Inserarea formelor de tip Action Buttons (Butoane de acțiune: buton Acasă, Înainte, Înapoi); • Meniul Insert -> Link / Action -> salt direct la un anumit diapozitiv (Slide...), deschiderea unui fișier extern sau lansarea unei pagini web. 2. Înregistrarea și temporizarea expunerii: • Temporizări de probă (Rehearse Timings): măsoară secundele petrecute pe fiecare diapozitiv pentru încadrarea strictă în timpul alocat la conferințe; • Înregistrarea prezentării (Record Slide Show): înregistrează vocea prezentatorului, camera web și mișcările de pointer laser pe fiecare slide, permițând exportul întregii prezentări ca fișier video autonom (.mp4). 3. Exportul și portabilitatea prezentării: • Prezentare portabilă PowerPoint Show (`.ppsx`): se deschide direct în ecran complet la dublu clic, ideală pentru trimiterea la clienți; • Împachetarea pentru CD / Folder partajat (Package for Presentation): reunește prezentarea, videoclipurile inserate și fonturile utilizate într-un singur folder pentru a rula fără erori pe orice alt calculator.
 
 ## Idei-cheie
 
-- Un mesaj clar per diapozitiv; text puțin, idei, nu paragrafe.
-- Contrast bun, font lizibil, imagini relevante.
-- Animațiile și tranzițiile se folosesc cu măsură.
-- Prezentarea sprijină vorbitorul, nu îl înlocuiește.
+- Butoanele de acțiune (Action Buttons) permit navigarea neliniară prin salturi directe la slide-uri alese.
+- Rehearse Timings cronometrează durata vorbirii pentru a asigura respectarea timpului de expunere.
+- Prezentarea poate fi înregistrată complet cu narațiune vocală și exportată ca fișier video MP4.
+- Formatul `.ppsx` pornește instantaneu în modul de expunere pe tot ecranul la dublu clic.
 
 ## Notițele mele
 

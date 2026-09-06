@@ -14,14 +14,14 @@ clasa: "a XII-a"
 
 ## Rezumat
 
-La nivel aplicat, foaia de calcul rezolvă probleme reale: bugetul personal sau al unui proiect, evidența notelor și calculul mediilor, planificarea unei activități, analiza unui set de date, generarea unor facturi simple. Instrumentele necesare: funcții condiționale, funcții de căutare, validarea datelor, protejarea celulelor cu formule, formatarea condiționată, tabele pivot și grafice. Buna practică: separarea datelor de calcule (o zonă de intrare clar delimitată), evitarea valorilor scrise direct în formule (se pun în celule proprii, ca să poată fi modificate ușor), denumirea zonelor importante, documentarea foilor prin comentarii, verificarea rezultatelor prin calcule de control. O foaie de calcul în care nimeni nu mai înțelege de unde vine un număr este o sursă de erori, nu un instrument.
+Subiectul II din Fișa B evaluează precizia în foaia de calcul Microsoft Excel: 1. Construirea machetei de tabel conform biletului: • Introducerea corectă a textelor de antet și a valorilor numerice; • Fuzionarea celulelor de titlu peste lățimea tabelului cu Merge & Center; • Aplicarea bordurilor: All Borders pentru interior și Thick Outside Border pentru conturul exterior; • Formatarea celulelor: clic dreapta -> Format Cells -> Number -> Decimal places: 2 (două zecimale) sau Currency / Monedă (adăugarea simbolului „lei” sau „EUR”). 2. Formule aritmetice și funcții standard de calcul: • Calculul de totaluri: `=SUM(C3:C12)`; • Calculul mediilor: `=AVERAGE(D3:D12)`; • Găsirea extremelor: `=MAX(E3:E12)` și `=MIN(E3:E12)`; • Numărare: `=COUNT(B3:B20)` pentru celule numerice și `=COUNTA(A3:A20)` pentru nume de elevi. 3. Formule condiționate cu funcția =IF: Cerință tipică de examen: „În coloana Rezultat, să se afișeze textul ADMIS dacă media din celula E3 este mai mare sau egală cu 6, altfel RESPINS”: `=IF(E3>=6, "ADMIS", "RESPINS")` Copierea formulei în jos pe toată coloana folosind mânerul de umplere (Fill Handle). 4. Generarea și formatarea diagramei cerute: Selectarea coloanei cu categorii (numele elevilor sau județele) și a coloanei cu valori numerice (folosind tasta Ctrl pentru selectarea coloanelor nealăturate): • Meniul Insert -> Column (Coloane grupate 2D) sau Pie (Circular); • Adăugarea elementelor obligatorii din meniul Chart Elements (+): Titlul graficului conform biletului, Legenda poziționată la baza graficului (Bottom) și Etichete de date (Data Labels) deasupra coloanelor.
 
 ## Idei-cheie
 
-- Aplicații reale: buget, evidențe, planificare, analiză de date.
-- Instrumente: funcții condiționale și de căutare, validare, protejare, pivot, grafice.
-- Se separă datele de calcule; valorile nu se scriu direct în formule.
-- Verificarea prin calcule de control previne erorile care trec neobservate.
+- Subiectul II impune respectarea întocmai a formatelor cerute (2 zecimale, Monedă, procente).
+- Funcția IF rezolvă automat atribuirile condiționate cerute în bilet (ex: ADMIS / RESPINS).
+- Selectarea a două coloane despărțite de alte coloane se face ținând apăsată tasta Ctrl.
+- Graficul complet conține obligatoriu: Titlu clar, Legendă și Etichete de date vizibile.
 
 ## Notițele mele
 

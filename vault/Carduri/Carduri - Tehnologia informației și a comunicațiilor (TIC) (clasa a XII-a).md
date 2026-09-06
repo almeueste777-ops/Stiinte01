@@ -11,133 +11,133 @@ cssclasses: carduri
 
 #flashcards/tehnologia-informatiei-si-a-comunicatiilor-tic
 
-Cum se evaluează proba D?::Prin sarcini practice rezolvate pe calculator, cu rezultat exprimat în niveluri de competență.
+Câte minute durează secțiunea cu acces la internet (Fișa A) la Bacalaureat Proba D?::15 minute.
 
-Ce domenii cuprinde proba D?::Sistem de operare, editare de text, calcul tabelar, prezentări, informație, comunicare online, securitate.
+Ce punctaj minim trebuie să obțină un elev pentru nivelul de „Utilizator experimentat”?::Cel puțin 76 de puncte (din maximul de 100).
 
-Ce se punctează, pe lângă rezultatul final?::Salvarea corectă a fișierului, cu numele și formatul cerute, și respectarea tuturor cerințelor.
+Ce aplicații de birou sunt evaluate în cadrul Fișei B?::Microsoft Word (30p), Microsoft Excel (30p) și PowerPoint / Access / HTML (30p).
 
-Este proba D obligatorie?::Da, susținerea ei este obligatorie pentru promovarea bacalaureatului.
+Ce se întâmplă cu conexiunea la internet după expirarea timpului pentru Fișa A?::Este întreruptă de comisie, Fișa B derulându-se complet offline.
 
-De ce se folosesc stilurile într-un document complex?::Pentru cuprins automat, numerotare, navigare și modificări unitare.
+Din ce meniu împarți un fragment de text în două coloane cu linie între ele în Word?::Meniul Layout -> Columns -> More Columns -> bifezi „Line between”.
 
-Ce este o referință încrucișată?::O trimitere automată la un alt element din document, care se actualizează singură.
+Cum faci ca numărul de pagină să nu apară pe coperta documentului?::Bifezi opțiunea „Different First Page” din meniul Header & Footer.
 
-De ce se evită formatarea manuală?::Pentru că la fiecare modificare trebuie refăcută, cu risc de erori.
+Ce efect de formatare folosești pentru a scrie formula chimică a apei (H₂O)?::Efectul Subscript (Indice).
 
-Ce se verifică înainte de predarea unui document complex?::Cuprinsul actualizat, numerotarea, legendele, bibliografia și spațierea.
+Ce setare de paragraf deplasează spre dreapta doar primul rând al fiecărui alineat?::First Line Indent (Indentare primul rând) la 1.25 cm.
 
-De ce se separă datele de calcule?::Pentru ca modificarea datelor să nu ceară rescrierea formulelor.
+Cum selectezi coloana A și coloana D dintr-o foaie Excel fără a selecta și coloanele B și C?::Selectezi coloana A, ții apăsată tasta Ctrl și selectezi coloana D.
 
-De ce nu se scriu valorile direct în formule?::Pentru că devin greu de găsit și de modificat.
+Ce formulă scrii în Excel pentru a afișa „Bursier” dacă media din M2 este de cel puțin 9.50, altfel „Fără bursă”?::`=IF(M2>=9.5, "Bursier", "Fără bursă")`.
 
-Ce face validarea datelor?::Restricționează valorile care pot fi introduse într-o celulă.
+Cum adaugi simbolul monedei „lei” lângă sumele dintr-o coloană?::Format Cells -> Category: Currency (sau Accounting) -> Symbol: lei.
 
-La ce servește un calcul de control?::La verificarea independentă a unui rezultat, prin altă metodă.
+Ce comandă unește patru celule de pe un rând și centrează titlul tabelului?::Butonul Merge & Center.
 
-Ce operatori rafinează o căutare?::Ghilimelele, minusul, site:, filetype: și filtrele de dată.
+Cum cauți pe Google doar documente PDF referitoare la examenul de Bacalaureat?::`bacalaureat filetype:pdf`.
 
-Ce criterii se folosesc la evaluarea unei surse?::Autorul, editorul, data, referințele și confirmarea din surse independente.
+Cum cauți informații despre admitere exclusiv pe site-ul oficial al Ministerului Educației?::`admitere site:edu.ro`.
 
-Ce este o sursă primară?::Sursa originală a informației, nu o preluare a ei.
+Ce efect are plasarea unei expresii între ghilimele duble în caseta de căutare?::Găsește doar paginile care conțin exact acea succesiune de cuvinte.
 
-Ce spune regula despre afirmațiile extraordinare?::Că cer dovezi pe măsură de solide.
+Cum salvezi o imagine de pe o pagină web în folderul tău de pe Desktop?::Clic dreapta pe imagine -> Save image as -> selectezi folderul de pe Desktop -> Save.
 
-Care sunt semnele unui mesaj de phishing?::Urgență artificială, expeditor ușor modificat, cereri de date, linkuri înșelătoare, greșeli de limbă.
+Cum funcționează o tentativă de înșelăciune de tip phishing?::Atacatorul trimite un e-mail fals de la o bancă, cerând introducerea parolei pe un site clonat.
 
-Ce este ingineria socială?::Manipularea persoanelor pentru a obține acces sau informații.
+Ce este un atac de tip DDoS?::Un asalt informatic coordonat care blochează un site web prin trimiterea simultană a milioane de cereri false.
 
-Ce faci dacă un cont a fost compromis?::Schimbi parola de pe alt dispozitiv, deconectezi sesiunile active, verifici setările de recuperare.
+De ce este riscant să faci plăți cu cardul fiind conectat la un Wi-Fi gratuit din gară?::Deoarece traficul poate fi interceptat de atacatori aflați pe aceeași rețea necriptată.
 
-De ce sunt riscante rețelele wireless publice?::Pentru că traficul poate fi interceptat sau redirecționat.
+Ce avantaj oferă un Password Manager?::Creează și reține parole unice și extrem de lungi pentru fiecare serviciu în parte.
 
-Ce este identitatea digitală?::Ansamblul informațiilor care te reprezintă online.
+De ce verifică adesea companiile profilurile de social media ale candidaților la angajare?::Pentru a evalua conduita profesională, caracterul, valorile și reputația digitală a candidatului.
 
-De ce contează reputația online?::Pentru că angajatorii și instituțiile caută informații publice despre candidați.
+Ce este fenomenul de Cyberbullying?::Hărțuirea sau intimidarea repetată a unei persoane prin intermediul mediului online.
 
-Ce presupune gestionarea reputației online?::Verificarea periodică, revizuirea setărilor, curățarea conținutului, construirea unei prezențe utile.
+Ce presupune practica numită „Doxxing”?::Publicarea neautorizată pe internet a adresei, telefonului sau datelor private ale cuiva pentru a-i face rău.
 
-Care este regula de prudență la publicare?::Nu publica nimic ce nu ai vrea citit de profesor, angajator și părinte deopotrivă.
+Cum îți poți proteja intimitatea pe platformele de socializare?::Setând contul pe modul Privat și selectând cu atenție cine poate vedea postările și fotografiile.
 
-Care sunt avantajele serviciilor în cloud?::Acces de oriunde, colaborare simultană, copii automate, actualizări continue.
+Ce înseamnă colaborarea sincronă pe un document Google Docs?::Mai mulți utilizatori pot scrie și edita în același timp, văzând modificările fiecăruia instantaneu.
 
-Ce este dependența de furnizor?::Dificultatea de a migra datele și serviciile către alt furnizor.
+Cum ajută Cloud Computing-ul mobilitatea unui elev?::Își poate începe referatul la școală pe calculator și îl poate continua acasă pe telefon sau laptop.
 
-De ce se păstrează o copie locală?::Pentru cazul pierderii accesului la serviciu sau la conexiune.
+Ce este elasticitatea rapidă în cloud?::Posibilitatea de a crește imediat capacitatea de stocare sau procesare printr-un singur clic.
 
-Ce protecție cer datele sensibile în cloud?::Criptare sau găzduire proprie, plus autentificare în doi pași.
+De ce a scăzut importanța stick-urilor USB odată cu răspândirea serviciilor de cloud storage?::Pentru că fișierele sunt salvate automat online și pot fi accesate direct fără transfer fizic pe memorie portabilă.
 
-Ce preia automatizarea?::Sarcinile repetitive, eliberând timp pentru cele care cer judecată.
+Ce rol are automatizarea software (RPA) într-o organizație?::Preia sarcinile repetitive de rutină (ex: completare formulare, sortare e-mailuri), eliminând erorile.
 
-În ce stă valoarea datelor mari?::În tiparele descoperite prin analiză, nu în volumul în sine.
+Ce este un Dashboard (tablou de bord)?::O fereastră vizuală cu grafice și cifre sintetice actualizate în timp real.
 
-De ce pot greși sistemele de inteligență artificială?::Pentru că învață din date și moștenesc erorile și prejudecățile lor.
+Cum ajută analiza predictivă un spital?::Poate anticipa numărul de pacienți dintr-o anumită săptămână pe baza tendințelor din anii precedenți.
 
-Cine răspunde de verificarea rezultatelor?::Utilizatorul care le folosește.
+Numiți o aplicație comună a Machine Learning-ului întâlnită zilnic în telefon.::Recunoașterea facială pentru deblocare sau tastatura predictivă.
 
-Ce înseamnă că tehnologia nu este neutră?::Că modul în care e proiectată și folosită produce consecințe sociale reale.
+De ce nu trebuie lăsate deciziile medicale exclusiv pe seama unui algoritm AI?::Pentru că mașinile pot greși sau halucina, fiind obligatorie supravegherea și validarea unui medic uman.
 
-Ce este decalajul digital?::Diferența dintre cei care au acces și competențe digitale și cei care nu au.
+Ce măsuri cuprinde conceptul de „Green IT”?::Eficientizarea consumului de curent al serverelor și reciclarea corectă a telefoanelor și calculatoarelor uzate.
 
-Care este prima responsabilitate a utilizatorului?::Verificarea informației înainte de a o distribui.
+De ce este periculos să arunci un laptop vechi la ghena obișnuită de gunoi?::Bateria și circuitele conțin metale grele toxice (litiu, plumb, mercur) ce otrăvesc solul și pânza freatică.
 
-Ce include competența digitală completă?::Nu doar folosirea instrumentelor, ci și înțelegerea efectelor lor.
+Ce este „părtinirea algoritmică” (Algorithmic Bias)?::Favorizarea sau defavorizarea nedreaptă a anumitor grupuri de oameni de către un algoritm antrenat pe date viciate.
 
-Ce avantaj dau stilurile într-un document?::Consecvența și generarea automată a cuprinsului.
+Cum poți pune doar a treia pagină dintr-un document Word în format Landscape (orizontal)?::Inserezi Section Break înainte și după pagina respectivă, apoi schimbi orientarea doar acelei secțiuni.
 
-Ce este mail merge?::Îmbinarea unui document tip cu o listă de date.
+La ce folosește comanda „Repeat Header Rows” la tabelele lungi din Word?::Reafișează automat primul rând cu denumirile coloanelor în capul fiecărei pagini noi.
 
-Numește un format standard de document.::DOCX (sau PDF, ODT).
+Ce face efectul tipografic Drop Cap (Inițială căzută)?::Mărește prima literă a paragrafului pe înălțimea a 3 rânduri de text.
 
-La ce nivel se face alinierea?::La nivel de paragraf.
+Cum decuplezi antetul secțiunii 2 pentru a nu mai fi identic cu cel din secțiunea 1?::Faci dublu clic în antetul secțiunii 2 și dezactivezi butonul „Link to Previous”.
 
-Cu ce semn încep formulele?::Cu semnul egal (=).
+Ce rol are funcția =VLOOKUP în Excel?::Caută o valoare pe verticală și aduce informația asociată dintr-o altă coloană a tabelului.
 
-Ce funcție calculează media?::AVERAGE.
+Cum creezi o căsuță cu listă derulantă de selecție (ex: județe) într-o celulă Excel?::Data -> Data Validation -> Allow: List -> introduci opțiunile separate prin virgulă.
 
-Ce e o referință absolută?::O referință fixă la copiere, scrisă cu $ ($A$1).
+La ce folosește comanda „Protect Sheet” din meniul Review?::Protejează foaia cu parolă pentru a împiedica modificarea sau ștergerea formulelor de către alți utilizatori.
 
-Ce arată un grafic?::Datele într-o formă vizuală, ușor de înțeles.
+Ce regulă de validare setezi pe o coloană de note pentru a exclude valorile greșite?::Allow: Decimal (sau Whole Number) între 1 și 10.
 
-Câte idei principale ar trebui să aibă un diapozitiv?::Una, clară.
+Cum creezi un buton care să ducă direct la slide-ul 5 la apăsare în PowerPoint?::Inserezi o formă -> Insert -> Action (sau Link) -> alegi Hyperlink to: Slide... -> selectezi Slide 5.
 
-Ce rol are prezentarea față de vorbitor?::Îl sprijină, nu îl înlocuiește.
+Ce avantaj oferă salvarea prezentării în formatul `.ppsx`?::Pornește direct în modul de vizualizare pe tot ecranul, fără a deschide interfața de editare.
 
-De ce se folosesc animațiile cu măsură?::Ca să nu distragă de la mesaj.
+La ce folosește comanda Rehearse Timings?::Înregistrează timpii petrecuți pe fiecare slide pentru a automatiza derularea prezentării.
 
-Ce asigură un șablon?::Un aspect unitar al prezentării.
+Cum poți distribui o prezentare cu tot cu clipurile video inserate fără riscul ruperii legăturilor?::Folosind funcția File -> Export -> Package Presentation for CD (creează un folder complet).
 
-Cum sunt organizate datele într-o bază relațională?::În tabele cu rânduri (înregistrări) și coloane (câmpuri).
+Cum creezi un câmp calculat numit Venit într-o interogare Access?::Scrii în rândul Field: `Venit: [Salariu] + [Bonus]`.
 
-Ce face cheia primară?::Identifică unic fiecare înregistrare.
+Ce mesaj afișează Access dacă utilizatorul încalcă o regulă de validare?::Textul scris de proiectant în proprietatea „Validation Text”.
 
-Cum se leagă tabelele între ele?::Prin relații, folosind chei externe.
+Ce proprietate a unui câmp forțează utilizatorul să completeze obligatoriu date în el?::Proprietatea Required setată pe Yes.
 
-Ce este o interogare?::O căutare care extrage datele cerute după criterii.
+La ce folosește o interogare de tip „Update Query”?::La modificarea simultană a datelor din sute de înregistrări pe baza unei formule sau valori noi.
 
-Ce fac motoarele de căutare?::Indexează paginile și le ordonează după relevanță.
+Cum găsești exclusiv pe site-ul Ministerului Sănătății (`ms.ro`) un ghid oficial în format PDF?::`"ghid" site:ms.ro filetype:pdf`.
 
-Ce întrebări ajută la evaluarea unei surse?::Cine e autorul, ce scop are, cât de actuală și verificabilă e.
+De ce nu trebuie să dai clic dreapta pe imaginea mică din pagina de rezultate Google când biletul cere salvarea pozei?::Deoarece salvezi doar o miniatură neclară la rezoluție mică în loc de imaginea originală de înaltă calitate.
 
-Cum se caută o expresie exactă?::Punând-o între ghilimele.
+Ce consecință are scrierea greșită a unei singure litere din adresa de e-mail a comisiei la Fișa A?::E-mailul nu ajunge la destinație (bounced email), pierzând punctele alocate comunicării.
 
-Cum ne apărăm de dezinformare?::Prin verificare încrucișată, din mai multe surse.
+Ce program simplu din Windows se folosește pentru a crea rapid fișiere cu extensia `.txt`?::Aplicația Notepad.
 
-Ce este o rețea de calculatoare?::Dispozitive legate ca să comunice și să partajeze resurse.
+Ce avantaj critic aduce rețeaua 5G față de 4G în conducerea mașinilor autonome?::Latența extrem de redusă (sub 5 milisecunde), ce permite frânarea instantanee la obstacole.
 
-Ce înseamnă cloud computing?::Folosirea de resurse găzduite la distanță, prin internet.
+Ce este un „actuator” într-un sistem IoT?::Piesa mecanică sau electronică ce execută comanda fizică (ex: deschide o electrovalvă de udare a plantelor).
 
-Prin ce diferă LAN de WAN?::LAN acoperă o zonă mică; WAN, distanțe mari.
+De ce este utilă procesarea de tip Edge Computing?::Reduce timpul de răspuns și nu supraaglomerează conexiunea de internet cu date brute inutile.
 
-Ce este IoT?::Conectarea la internet a obiectelor obișnuite.
+Ce măsură elementară de siguranță trebuie aplicată imediat la montarea unui router sau a unei camere smart?::Schimbarea numelui de utilizator și a parolei implicite venite din fabricație (admin/admin).
 
-Ce este inteligența artificială?::Domeniul care creează sisteme capabile de sarcini ce par să ceară inteligență.
+Ce proprietate fundamentală face ca datele înregistrate într-un Blockchain să nu poată fi falsificate?::Imutabilitatea garantată prin legături criptografice și consens distribuit între mii de noduri.
 
-Ce face învățarea automată?::Învață tipare din multe exemple, nu din reguli fixe.
+Ce este un qubit în calculul cuantic?::Unitatea de informație cuantică capabilă să fie simultan 0 și 1 datorită superpoziției.
 
-Numește o folosire curentă a IA.::Asistenți vocali, filtre de spam, recomandări.
+Cum poate fi utilizat Blockchain-ul în educație?::Pentru stocarea și verificarea instantanee a diplomelor școlare și certificatelor fără risc de falsificare.
 
-Ce întrebări etice ridică IA?::Confidențialitatea, corectitudinea deciziilor, efectele asupra muncii.
+Ce rol esențial are gândirea critică în fața asistenților de inteligență artificială?::Permite verificarea veridicității răspunsurilor și detectarea erorilor, halucinațiilor sau manipulărilor.
 
 ---
 

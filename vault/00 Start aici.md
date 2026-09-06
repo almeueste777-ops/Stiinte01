@@ -32,7 +32,6 @@ Vault-ul are **două jumătăți**, în același folder:
 - [[Geografie (clasa a IX-a)|Geografie (clasa a IX-a)]] — 8 capitole, 20 lecții, 80 carduri, 116 întrebări
 - [[Istorie (clasa a IX-a)|Istorie (clasa a IX-a)]] — 8 capitole, 24 lecții, 96 carduri, 133 întrebări
 - [[Logică, argumentare și comunicare (clasa a IX-a)|Logică, argumentare și comunicare (clasa a IX-a)]] — 8 capitole, 24 lecții, 96 carduri, 132 întrebări
-- [[Religie (clasa a IX-a)|Religie (clasa a IX-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
 - [[Limba latină (clasa a IX-a)|Limba latină (clasa a IX-a)]] — 7 capitole, 18 lecții, 72 carduri, 102 întrebări
 - [[Limba modernă 1 (Engleză) (clasa a IX-a)|Limba modernă 1 (Engleză) (clasa a IX-a)]] — 6 capitole, 18 lecții, 75 carduri, 117 întrebări
 - [[Limba modernă 2 (Franceză) (clasa a IX-a)|Limba modernă 2 (Franceză) (clasa a IX-a)]] — 6 capitole, 18 lecții, 72 carduri, 114 întrebări
@@ -41,11 +40,11 @@ Vault-ul are **două jumătăți**, în același folder:
 - [[Chimie (clasa a IX-a)|Chimie (clasa a IX-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
 - [[Fizică (clasa a IX-a)|Fizică (clasa a IX-a)]] — 6 capitole, 18 lecții, 72 carduri, 96 întrebări
 - [[Matematică (clasa a IX-a)|Matematică (clasa a IX-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
-- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)|Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)]] — 6 capitole, 16 lecții, 64 carduri, 100 întrebări
+- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)|Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)]] — 6 capitole, 16 lecții, 64 carduri, 84 întrebări
+- [[Educație antreprenorială (clasa a X-a)|Educație antreprenorială (clasa a X-a)]] — 6 capitole, 18 lecții, 72 carduri, 92 întrebări
 - [[Geografie (clasa a X-a)|Geografie (clasa a X-a)]] — 8 capitole, 20 lecții, 80 carduri, 116 întrebări
 - [[Istorie (clasa a X-a)|Istorie (clasa a X-a)]] — 8 capitole, 24 lecții, 96 carduri, 132 întrebări
 - [[Psihologie (clasa a X-a)|Psihologie (clasa a X-a)]] — 9 capitole, 24 lecții, 96 carduri, 132 întrebări
-- [[Religie (clasa a X-a)|Religie (clasa a X-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
 - [[Limba latină (clasa a X-a)|Limba latină (clasa a X-a)]] — 7 capitole, 18 lecții, 72 carduri, 96 întrebări
 - [[Limba modernă 1 (Engleză) (clasa a X-a)|Limba modernă 1 (Engleză) (clasa a X-a)]] — 6 capitole, 18 lecții, 72 carduri, 96 întrebări
 - [[Limba modernă 2 (Franceză) (clasa a X-a)|Limba modernă 2 (Franceză) (clasa a X-a)]] — 6 capitole, 18 lecții, 72 carduri, 90 întrebări
@@ -54,39 +53,29 @@ Vault-ul are **două jumătăți**, în același folder:
 - [[Chimie (clasa a X-a)|Chimie (clasa a X-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
 - [[Fizică (clasa a X-a)|Fizică (clasa a X-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
 - [[Matematică (clasa a X-a)|Matematică (clasa a X-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
-- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)|Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)]] — 6 capitole, 16 lecții, 64 carduri, 94 întrebări
+- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)|Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)]] — 6 capitole, 16 lecții, 64 carduri, 84 întrebări
+- [[Economie (clasa a XI-a)|Economie (clasa a XI-a)]] — 9 capitole, 24 lecții, 96 carduri, 133 întrebări
 - [[Geografie (clasa a XI-a)|Geografie (clasa a XI-a)]] — 8 capitole, 20 lecții, 80 carduri, 116 întrebări
 - [[Istoria evreilor. Holocaustul (clasa a XI-a)|Istoria evreilor. Holocaustul (clasa a XI-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
 - [[Istorie (clasa a XI-a)|Istorie (clasa a XI-a)]] — 8 capitole, 24 lecții, 96 carduri, 132 întrebări
-- [[Religie (clasa a XI-a)|Religie (clasa a XI-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
 - [[Sociologie (clasa a XI-a)|Sociologie (clasa a XI-a)]] — 10 capitole, 24 lecții, 96 carduri, 132 întrebări
-- [[Studii sociale (clasa a XI-a)|Studii sociale (clasa a XI-a)]] — 6 capitole, 18 lecții, 72 carduri, 108 întrebări
 - [[Limba modernă 1 (Engleză) (clasa a XI-a)|Limba modernă 1 (Engleză) (clasa a XI-a)]] — 6 capitole, 18 lecții, 72 carduri, 108 întrebări
 - [[Limba modernă 2 (Franceză) (clasa a XI-a)|Limba modernă 2 (Franceză) (clasa a XI-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
 - [[Limba și literatura română (clasa a XI-a)|Limba și literatura română (clasa a XI-a)]] — 9 capitole, 20 lecții, 80 carduri, 116 întrebări
 - [[Biologie (clasa a XI-a)|Biologie (clasa a XI-a)]] — 4 capitole, 11 lecții, 44 carduri, 60 întrebări
-- [[Matematică aplicată în științele sociale (clasa a XI-a)|Matematică aplicată în științele sociale (clasa a XI-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
-- [[ȘTIAM (științe integrate) (clasa a XI-a)|ȘTIAM (științe integrate) (clasa a XI-a)]] — 6 capitole, 16 lecții, 64 carduri, 94 întrebări
-- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)]] — 6 capitole, 16 lecții, 64 carduri, 100 întrebări
-- [[Filosofie (clasa a XII-a)|Filosofie (clasa a XII-a)]] — 9 capitole, 24 lecții, 96 carduri, 133 întrebări
+- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)]] — 6 capitole, 16 lecții, 64 carduri, 84 întrebări
+- [[Educație antreprenorială (clasa a XII-a)|Educație antreprenorială (clasa a XII-a)]] — 5 capitole, 12 lecții, 48 carduri, 68 întrebări
 - [[Geografie (clasa a XII-a)|Geografie (clasa a XII-a)]] — 8 capitole, 20 lecții, 80 carduri, 117 întrebări
 - [[Istorie (clasa a XII-a)|Istorie (clasa a XII-a)]] — 8 capitole, 24 lecții, 96 carduri, 132 întrebări
-- [[Religie (clasa a XII-a)|Religie (clasa a XII-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
-- [[Studii sociale (clasa a XII-a)|Studii sociale (clasa a XII-a)]] — 6 capitole, 18 lecții, 72 carduri, 108 întrebări
 - [[Limba modernă 1 (Engleză) (clasa a XII-a)|Limba modernă 1 (Engleză) (clasa a XII-a)]] — 6 capitole, 18 lecții, 72 carduri, 96 întrebări
 - [[Limba modernă 2 (Franceză) (clasa a XII-a)|Limba modernă 2 (Franceză) (clasa a XII-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
 - [[Limba și literatura română (clasa a XII-a)|Limba și literatura română (clasa a XII-a)]] — 9 capitole, 20 lecții, 80 carduri, 117 întrebări
 - [[Biologie (clasa a XII-a)|Biologie (clasa a XII-a)]] — 2 capitole, 8 lecții, 32 carduri, 48 întrebări
-- [[Matematică aplicată în științele sociale (clasa a XII-a)|Matematică aplicată în științele sociale (clasa a XII-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
-- [[ȘTIAM (științe integrate) (clasa a XII-a)|ȘTIAM (științe integrate) (clasa a XII-a)]] — 6 capitole, 16 lecții, 64 carduri, 88 întrebări
-- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)|Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)]] — 6 capitole, 16 lecții, 64 carduri, 100 întrebări
+- [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)|Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)]] — 6 capitole, 16 lecții, 64 carduri, 84 întrebări
 - [[Economie și educație antreprenorială (clasa a XIII-a)|Economie și educație antreprenorială (clasa a XIII-a)]] — 9 capitole, 24 lecții, 96 carduri, 133 întrebări
-- [[Filosofie (clasa a XIII-a)|Filosofie (clasa a XIII-a)]] — 7 capitole, 22 lecții, 88 carduri, 124 întrebări
 - [[Geografie (clasa a XIII-a)|Geografie (clasa a XIII-a)]] — 7 capitole, 20 lecții, 80 carduri, 116 întrebări
 - [[Istoria comunismului din România (clasa a XIII-a)|Istoria comunismului din România (clasa a XIII-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
 - [[Istorie (clasa a XIII-a)|Istorie (clasa a XIII-a)]] — 8 capitole, 22 lecții, 88 carduri, 119 întrebări
-- [[Religie (clasa a XIII-a)|Religie (clasa a XIII-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
-- [[Studii sociale (clasa a XIII-a)|Studii sociale (clasa a XIII-a)]] — 6 capitole, 18 lecții, 72 carduri, 108 întrebări
 - [[Limba modernă 1 (Engleză) (clasa a XIII-a)|Limba modernă 1 (Engleză) (clasa a XIII-a)]] — 6 capitole, 18 lecții, 72 carduri, 109 întrebări
 - [[Limba modernă 2 (Franceză) (clasa a XIII-a)|Limba modernă 2 (Franceză) (clasa a XIII-a)]] — 6 capitole, 18 lecții, 72 carduri, 105 întrebări
 - [[Limba și literatura română (clasa a XIII-a)|Limba și literatura română (clasa a XIII-a)]] — 9 capitole, 20 lecții, 80 carduri, 116 întrebări
@@ -98,10 +87,10 @@ Vault-ul are **două jumătăți**, în același folder:
 | | |
 | --- | --- |
 | Clase | 5 |
-| Materii distincte | 23 |
-| Module (materie × an) | 63 |
-| Capitole | 421 |
-| Lecții | 1177 |
-| Carduri | 4711 |
-| Întrebări de test | 6719 |
-| Note în vault | 1404 |
+| Materii distincte | 20 |
+| Module (materie × an) | 52 |
+| Capitole | 353 |
+| Lecții | 973 |
+| Carduri | 3895 |
+| Întrebări de test | 5477 |
+| Note în vault | 1164 |

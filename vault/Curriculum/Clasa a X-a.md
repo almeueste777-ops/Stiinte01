@@ -29,7 +29,7 @@ Anul **2** din cei 5 ai parcursului [[Parcurs școlar]].
 - [[Istorie (clasa a X-a)|Istorie]] — 🎓 bac, 📘 24 lecții în aplicație
 - [[Geografie (clasa a X-a)|Geografie]] — 🎓 bac, 📘 20 lecții în aplicație
 - [[Psihologie (clasa a X-a)|Psihologie]] — 🎓 bac, 📘 24 lecții în aplicație
-- [[Religie (clasa a X-a)|Religie]] — 📘 18 lecții în aplicație
+- [[Educație antreprenorială (clasa a X-a)|Educație antreprenorială]] — 🎓 bac, 📘 18 lecții în aplicație
 
 ### [[Arie - Tehnologii|Tehnologii]]
 - [[Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)|Tehnologia informației și a comunicațiilor (TIC)]] — 🎓 bac, 📘 16 lecții în aplicație

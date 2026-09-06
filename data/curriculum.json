@@ -21,7 +21,7 @@
     "probaEa": "Limba și literatura română",
     "probaEb": "Limba modernă (competențe lingvistice)",
     "probaEc": "Istorie SAU Matematică",
-    "probaEd": "Biologie (Anatomie-fiziologie-genetică sau Biologie vegetală-animală) / Geografie / Logică / Psihologie / Sociologie / Filosofie / Economie / Fizică / Chimie / Informatică",
+    "probaEd": "Biologie (Anatomie-fiziologie-genetică sau Biologie vegetală-animală) / Geografie / Logică / Psihologie / Sociologie / Economie / Fizică / Chimie / Informatică",
     "probaA": "Competențe de comunicare în limba română",
     "probaB": "Competențe lingvistice într-o limbă de circulație internațională",
     "probaD": "Competențe digitale"
@@ -42,7 +42,6 @@
         { "nume": "Istorie", "arie": "Om și societate", "bac": true },
         { "nume": "Geografie", "arie": "Om și societate", "bac": true },
         { "nume": "Logică, argumentare și comunicare", "arie": "Om și societate", "bac": true, "socioUman": true },
-        { "nume": "Religie", "arie": "Om și societate", "bac": false },
         { "nume": "Tehnologia informației și a comunicațiilor (TIC)", "arie": "Tehnologii", "bac": true }
       ]
     },
@@ -61,7 +60,7 @@
         { "nume": "Istorie", "arie": "Om și societate", "bac": true },
         { "nume": "Geografie", "arie": "Om și societate", "bac": true },
         { "nume": "Psihologie", "arie": "Om și societate", "bac": true, "socioUman": true },
-        { "nume": "Religie", "arie": "Om și societate", "bac": false },
+        { "nume": "Educație antreprenorială", "arie": "Om și societate", "bac": true, "socioUman": true },
         { "nume": "Tehnologia informației și a comunicațiilor (TIC)", "arie": "Tehnologii", "bac": true }
       ]
     },
@@ -76,10 +75,7 @@
         { "nume": "Istoria evreilor. Holocaustul", "arie": "Om și societate", "bac": false },
         { "nume": "Geografie", "arie": "Om și societate", "bac": true },
         { "nume": "Sociologie", "arie": "Om și societate", "bac": true, "socioUman": true },
-        { "nume": "Studii sociale", "arie": "Om și societate", "bac": false },
-        { "nume": "Religie", "arie": "Om și societate", "bac": false },
-        { "nume": "Matematică aplicată în științele sociale", "arie": "Matematică și științe ale naturii", "bac": false },
-        { "nume": "ȘTIAM (științe integrate)", "arie": "Matematică și științe ale naturii", "bac": false },
+        { "nume": "Economie", "arie": "Om și societate", "bac": true, "socioUman": true },
         { "nume": "Biologie", "arie": "Matematică și științe ale naturii", "bac": true },
         { "nume": "Tehnologia informației și a comunicațiilor (TIC)", "arie": "Tehnologii", "bac": true }
       ]
@@ -93,11 +89,7 @@
         { "nume": "Limba modernă 2 (Franceză)", "arie": "Limbă și comunicare", "bac": false },
         { "nume": "Istorie", "arie": "Om și societate", "bac": true },
         { "nume": "Geografie", "arie": "Om și societate", "bac": true },
-        { "nume": "Filosofie", "arie": "Om și societate", "bac": true, "socioUman": true },
-        { "nume": "Studii sociale", "arie": "Om și societate", "bac": false },
-        { "nume": "Religie", "arie": "Om și societate", "bac": false },
-        { "nume": "Matematică aplicată în științele sociale", "arie": "Matematică și științe ale naturii", "bac": false },
-        { "nume": "ȘTIAM (științe integrate)", "arie": "Matematică și științe ale naturii", "bac": false },
+        { "nume": "Educație antreprenorială", "arie": "Om și societate", "bac": true, "socioUman": true },
         { "nume": "Biologie", "arie": "Matematică și științe ale naturii", "bac": true },
         { "nume": "Tehnologia informației și a comunicațiilor (TIC)", "arie": "Tehnologii", "bac": true }
       ]
@@ -113,9 +105,6 @@
         { "nume": "Istoria comunismului din România", "arie": "Om și societate", "bac": false },
         { "nume": "Geografie", "arie": "Om și societate", "bac": true },
         { "nume": "Economie și educație antreprenorială", "arie": "Om și societate", "bac": true, "socioUman": true },
-        { "nume": "Filosofie", "arie": "Om și societate", "bac": true },
-        { "nume": "Studii sociale", "arie": "Om și societate", "bac": false },
-        { "nume": "Religie", "arie": "Om și societate", "bac": false },
         { "nume": "Biologie", "arie": "Matematică și științe ale naturii", "bac": true },
         { "nume": "Pregătire pentru bacalaureat (CDEOȘ)", "arie": "Curriculum la decizia elevului", "bac": true }
       ]

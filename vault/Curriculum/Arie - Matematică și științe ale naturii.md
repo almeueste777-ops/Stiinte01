@@ -15,8 +15,6 @@ Arie curriculară din planul-cadru.
 - [[Chimie]]
 - [[Fizică]]
 - [[Matematică]]
-- [[Matematică aplicată în științele sociale]]
-- [[ȘTIAM (științe integrate)]]
 
 ## Se studiază în
 

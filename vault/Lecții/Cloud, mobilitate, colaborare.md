@@ -10,18 +10,18 @@ clasa: "a XII-a"
 
 [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a XII-a]] · lecția 7 din 16
 
-**Capitolul:** Tehnologii și societate — semestrul 2
+**Capitolul:** Tehnologii și societate — semestrul 1
 
 ## Rezumat
 
-Serviciile în cloud oferă stocare și aplicații accesate prin rețea, fără instalare locală. Avantaje: acces de pe orice dispozitiv, colaborare simultană, copii de siguranță automate, actualizări continue, costuri inițiale mici. Limite și riscuri: dependența de conexiune, dependența de furnizor, confidențialitatea datelor stocate, costurile pe termen lung, dificultatea migrării datelor spre alt serviciu. Buna practică: păstrarea unei copii locale a documentelor importante, atenție la ce date se încarcă (datele sensibile cer criptare sau găzduire proprie), verificarea drepturilor de partajare, folosirea autentificării în doi pași pentru contul de cloud, verificarea condițiilor de utilizare privind proprietatea asupra conținutului încărcat.
+Revoluția Cloud Computing a redefinit modul în care învățăm și muncim, permițând mobilitate completă și acces ubiquitar la documente de pe orice dispozitiv (smartphone, laptop, tabletă) conectat la internet: 1. Caracteristicile fundamentale ale Cloud Computing: • Autoservire la cerere (On-demand self-service): alocarea instantanee de spațiu sau resurse fără intervenție umană; • Acces larg prin rețea (Broad network access): fișierele sunt disponibile oriunde prin browser sau aplicații mobile; • Agruparea resurselor (Resource pooling): infrastructura furnizorului deservește mai mulți clienți prin virtualizare securizată; • Elasticitate rapidă (Rapid elasticity): capacitatea de a mări sau micșora instantaneu spațiul de stocare; • Servicii măsurate (Measured service): plata exclusivă a resurselor consumate (modelul Pay-as-you-go). 2. Colaborarea sincronă și asincronă în educație: Platformele educaționale cloud (Google Workspace for Education, Microsoft Teams, Moodle) permit: • Editarea colaborativă în timp real a referatelor și proiectelor de grup de către mai mulți colegi simultan; • Gestionarea comentariilor de revizuire și a sarcinilor de lucru atribuite colegilor; • Centralizarea temelor școlare și a feedback-ului profesorilor fără hârtie tipărită; • Sincronizarea automată a modificărilor în fundal, eliminând riscul pierderii datelor la închiderea calculatorului.
 
 ## Idei-cheie
 
-- Cloudul oferă acces de oriunde, colaborare și copii automate.
-- Riscuri: dependență de conexiune și de furnizor, confidențialitate, migrare dificilă.
-- Se păstrează o copie locală a documentelor importante.
-- Datele sensibile cer criptare sau soluții proprii de găzduire.
+- Cloud-ul asigură accesibilitatea documentelor de pe orice dispozitiv conectat la internet.
+- Elasticitatea rapidă permite extinderea imediată a spațiului de stocare la nevoie.
+- Editarea colaborativă în timp real permite mai multor elevi să lucreze simultan pe același document.
+- Salvarea automată în cloud elimină riscul pierderii muncii în caz de pană de curent.
 
 ## Notițele mele
 

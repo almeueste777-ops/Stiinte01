@@ -7,1207 +7,1015 @@ cssclasses: test
 ---
 # Test — Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)
 
-100 întrebări din [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)|Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+84 întrebări din [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)|Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
-### 1. Rezultatul probei D se exprimă:
+### 1. Timpul total alocat desfășurării examenului de Bacalaureat Proba D este de:
 
-- a. în niveluri de competență
-- b. în note de la 1 la 10
-- c. prin admis sau respins
-- d. prin calificative
+- a. 90 de minute (15 min Fișa A + 75 min Fișa B)
+- b. 10 minute
+- c. 5 ore
+- d. 24 de ore
 
 > [!success]- Răspuns
-> **a. în niveluri de competență**
+> **a. 90 de minute (15 min Fișa A + 75 min Fișa B)**
 > 
-> Susținerea rămâne obligatorie pentru promovare.
+> 15 minute pentru căutare web/e-mail și 75 minute pentru suita Office.
 
-### 2. Salvarea fișierului cu alt nume decât cel cerut:
+### 2. Nivelul maxim de competență digitală acordat pe certificatul de Bacalaureat este:
 
-- a. duce la pierderea punctajului aferent
-- b. nu are consecințe
-- c. se corectează automat
-- d. se punctează parțial
+- a. Utilizator experimentat (76 – 100 puncte)
+- b. Mare Maestru IT
+- c. Administrator global
+- d. Utilizator începător
 
 > [!success]- Răspuns
-> **a. duce la pierderea punctajului aferent**
+> **a. Utilizator experimentat (76 – 100 puncte)**
 > 
-> Cerințele de salvare fac parte din sarcină.
+> Utilizator experimentat confirmă stăpânirea excelentă a instrumentelor digitale.
 
-### 3. Proba D evaluează:
+### 3. În cadrul Fișei A a probei de competențe digitale, cerințele includ în mod tipic:
 
-- a. competențe practice, nu cunoștințe teoretice
-- b. definiții din manual
-- c. istoria informaticii
-- d. programarea avansată
+- a. căutarea unei informații pe internet, salvarea unui fișier și trimiterea unui e-mail cu atașament
+- b. demontarea fizică a procesorului din calculator
+- c. instalarea unui cablu de fibră optică pe stâlp
+- d. scrierea unui eseu literar de 10 pagini
 
 > [!success]- Răspuns
-> **a. competențe practice, nu cunoștințe teoretice**
+> **a. căutarea unei informații pe internet, salvarea unui fișier și trimiterea unui e-mail cu atașament**
 > 
-> Se rezolvă efectiv sarcini pe calculator.
+> Fișa A testează abilitățile de bază de informare și comunicare online.
 
-### 4. Pregătirea eficientă pentru proba D presupune:
+### 4. La predarea lucrării practice la Fișa B, fișierele create se salvează:
 
-- a. rezolvarea repetată a unor sarcini practice
-- b. memorarea meniurilor
-- c. citirea manualului
-- d. vizionarea de tutoriale
+- a. în folderul personal indicat de comisie (pe Desktop sau pe o partiție specificată)
+- b. în coșul de gunoi (Recycle Bin)
+- c. pe un site străin
+- d. se șterg înainte de ieșirea din sală
 
 > [!success]- Răspuns
-> **a. rezolvarea repetată a unor sarcini practice**
+> **a. în folderul personal indicat de comisie (pe Desktop sau pe o partiție specificată)**
 > 
-> Competența se dovedește făcând, nu descriind.
+> Comisia evaluează fișierele salvate de candidat în folderul său de examen.
 
-### 5. Folosirea rândurilor goale pentru a împinge textul pe pagina următoare:
+### 5. Pentru a scrie expresia matematică x la puterea a 3-a (x³), se aplică efectul:
 
-- a. este o soluție fragilă, care se strică la orice modificare
-- b. este metoda recomandată
-- c. economisește timp
-- d. nu are dezavantaje
+- a. Superscript (Exponent)
+- b. Subscript (Indice)
+- c. Strikethrough (Tăiat)
+- d. Shadow (Umbră)
 
 > [!success]- Răspuns
-> **a. este o soluție fragilă, care se strică la orice modificare**
+> **a. Superscript (Exponent)**
 > 
-> Există întrerupere de pagină exact pentru acest scop.
+> Superscript poziționează caracterul deasupra liniei de bază a textului.
 
-### 6. Cuprinsul generat automat se actualizează:
+### 6. Opțiunea din Word care împiedică afișarea numărului de pagină pe prima filă a documentului este:
 
-- a. la comanda de actualizare, după modificări
-- b. niciodată
-- c. doar la salvare
-- d. doar la tipărire
+- a. Different First Page (Pagină de început diferită)
+- b. Remove All Numbers
+- c. Hide All Pages
+- d. Close Header
 
 > [!success]- Răspuns
-> **a. la comanda de actualizare, după modificări**
+> **a. Different First Page (Pagină de început diferită)**
 > 
-> De aceea trebuie actualizat înainte de predare.
+> Different First Page lasă pagina 1 curată, continuând numerotarea pe paginile următoare.
 
-### 7. Secțiunile dintr-un document permit:
+### 7. Formatul de hârtie standard obligatoriu pe care se configurează documentele la Bacalaureat este:
 
-- a. antete și numerotări diferite pe părți diferite
-- b. schimbarea fontului implicit
-- c. protejarea cu parolă
-- d. comprimarea imaginilor
+- a. A4
+- b. B5
+- c. Letter american
+- d. Plic DL
 
 > [!success]- Răspuns
-> **a. antete și numerotări diferite pe părți diferite**
+> **a. A4**
 > 
-> Ele sunt esențiale în lucrările lungi.
+> Formatul european standard de tipar este A4 (210 x 297 mm).
 
-### 8. Bibliografia gestionată prin instrumentul dedicat:
+### 8. Alinierea textului distribuit uniform între marginea stângă și cea dreaptă a foii se numește:
 
-- a. păstrează consecvența și se actualizează automat
-- b. ocupă mai mult spațiu
-- c. nu poate fi modificată
-- d. se aplică doar la lucrări științifice
+- a. Justify
+- b. Align Left
+- c. Center
+- d. Align Right
 
 > [!success]- Răspuns
-> **a. păstrează consecvența și se actualizează automat**
+> **a. Justify**
 > 
-> Ea evită erorile din listele scrise manual.
+> Justify creează blocuri de text drepte și curate pe ambele laturi.
 
-### 9. Scrierea unei cote de impozit direct în formulă:
+### 9. Formula corectă pentru a calcula media aritmetică a valorilor din celulele B2, B3, B4 și B5 este:
 
-- a. face modificarea ulterioară dificilă și predispusă la erori
-- b. este metoda recomandată
-- c. protejează formula
-- d. reduce dimensiunea fișierului
+- a. =AVERAGE(B2:B5)
+- b. =MEDIA(B2+B5)
+- c. =SUM(B2:B5)/10
+- d. =MED(B2..B5)
 
 > [!success]- Răspuns
-> **a. face modificarea ulterioară dificilă și predispusă la erori**
+> **a. =AVERAGE(B2:B5)**
 > 
-> Valoarea se pune într-o celulă proprie, referită de formule.
+> AVERAGE calculează automat media aritmetică a oricărui interval de celule.
 
-### 10. Protejarea celulelor cu formule este utilă pentru:
+### 10. Butonul utilizat pentru a îmbina mai multe celule într-una singură și a centra textul în ea este:
 
-- a. a împiedica ștergerea accidentală a calculelor
-- b. a reduce dimensiunea fișierului
-- c. a accelera recalcularea
-- d. a ascunde datele
+- a. Merge & Center
+- b. Wrap Text
+- c. AutoSum
+- d. Conditional Formatting
 
 > [!success]- Răspuns
-> **a. a împiedica ștergerea accidentală a calculelor**
+> **a. Merge & Center**
 > 
-> Zonele de introducere rămân editabile.
+> Merge & Center este comanda clasică de titlu de tabel în Excel.
 
-### 11. Validarea datelor previne:
+### 11. Dacă un bilet de examen cere să creezi un grafic circular cu ponderile procentuale, vei insera un grafic:
 
-- a. introducerea unor valori nepermise
-- b. erorile de formulă
-- c. pierderea fișierului
-- d. ștergerea foii
+- a. Pie (Plăcintă)
+- b. Scatter (Dispersie)
+- c. Radar
+- d. Bară orizontală stivuită
 
 > [!success]- Răspuns
-> **a. introducerea unor valori nepermise**
+> **a. Pie (Plăcintă)**
 > 
-> De exemplu, o notă în afara intervalului admis.
+> Graficul Pie reflectă distribuția procentuală pe categorii dintr-un total.
 
-### 12. O foaie de calcul în care nu se mai înțelege proveniența unui rezultat:
+### 12. Elementul graficului care arată numărul sau procentul exact deasupra fiecărei coloane se numește:
 
-- a. devine o sursă de erori
-- b. este mai sigură
-- c. este mai rapidă
-- d. este bine documentată
+- a. Etichetă de date (Data Label)
+- b. Axă secundară
+- c. Grilă de fundal
+- d. Machete de pagină
 
 > [!success]- Răspuns
-> **a. devine o sursă de erori**
+> **a. Etichetă de date (Data Label)**
 > 
-> Documentarea și structura clară sunt esențiale.
+> Data Labels permit citirea cifrelor fără a aproxima pe axa verticală.
 
-### 13. Operatorul site: se folosește pentru:
+### 13. Operatorul Google utilizat pentru a căuta doar fișiere de calcul tabelar Excel este:
 
-- a. limitarea căutării la un anumit domeniu
-- b. excluderea unui cuvânt
-- c. căutarea unei expresii exacte
-- d. filtrarea după dată
+- a. filetype:xlsx
+- b. format:excel
+- c. extension:calc
+- d. search:sheets
 
 > [!success]- Răspuns
-> **a. limitarea căutării la un anumit domeniu**
+> **a. filetype:xlsx**
 > 
-> Minusul exclude un termen.
+> `filetype:` specifică extensia fișierului căutat pe serverele indexate.
 
-### 14. O sursă fără autor identificabil și fără dată:
+### 14. Pentru a căuta mențiuni despre liceu doar pe site-ul oficial al Inspectoratului Școlar Neamț (isjneamt.ro), scrii:
 
-- a. trebuie tratată cu prudență sporită
-- b. este la fel de credibilă
-- c. este preferabilă
-- d. se acceptă dacă are multe distribuiri
+- a. Ion Creanga site:isjneamt.ro
+- b. Ion Creanga goto isjneamt
+- c. isjneamt.ro -> Ion Creanga
+- d. find Ion Creanga on isjneamt
 
 > [!success]- Răspuns
-> **a. trebuie tratată cu prudență sporită**
+> **a. Ion Creanga site:isjneamt.ro**
 > 
-> Numărul de distribuiri nu are legătură cu veridicitatea.
+> Sintaxa `termen site:domeniu` restrânge indexarea la acel site.
 
-### 15. Confirmarea unei informații din surse independente înseamnă:
+### 15. Semnul minus (-) pus direct în fața unui cuvânt într-o căutare Google are ca efect:
 
-- a. surse care nu se citează reciproc și nu au aceeași origine
-- b. mai multe site-uri care preiau aceeași știre
-- c. rețele sociale diferite
-- d. surse din țări diferite
+- a. excluderea din rezultate a paginilor care conțin acel cuvânt
+- b. mărirea fontului pe ecran
+- c. descărcarea automată a fișierului
+- d. trimiterea unui e-mail de avertizare
 
 > [!success]- Răspuns
-> **a. surse care nu se citează reciproc și nu au aceeași origine**
+> **a. excluderea din rezultate a paginilor care conțin acel cuvânt**
 > 
-> Preluarea aceleiași surse nu constituie confirmare.
+> Semnul minus elimină rezultatele irelevante din căutare.
 
-### 16. Formularea unei căutări ca propoziție întreagă:
+### 16. O sursă de informare pe internet este considerată foarte sigură dacă provine de pe un domeniu:
 
-- a. dă, de regulă, rezultate mai slabe decât termenii specifici
-- b. este metoda recomandată
-- c. restrânge corect rezultatele
-- d. nu influențează rezultatele
+- a. guvernamental sau instituțional oficial (.gov.ro, .edu.ro)
+- b. plin de reclame agresive
+- c. anonim fără niciun autor menționat
+- d. cu adresa scrisă cu greșeli gramaticale
 
 > [!success]- Răspuns
-> **a. dă, de regulă, rezultate mai slabe decât termenii specifici**
+> **a. guvernamental sau instituțional oficial (.gov.ro, .edu.ro)**
 > 
-> Cuvintele-cheie precise funcționează mai bine.
+> Instituțiile publice și universitățile verifică riguros datele publicate.
 
-### 17. Un mesaj care cere urgent datele de card pentru a „debloca contul” este, cel mai probabil:
+### 17. Manipularea psihologică a unei persoane pentru a-i afla parola prin telefon poartă denumirea de:
 
-- a. phishing
-- b. o notificare legitimă
-- c. o eroare tehnică
-- d. un mesaj automat inofensiv
+- a. Inginerie socială (Social Engineering / Vishing)
+- b. Compilare C++
+- c. Formatare tabelară
+- d. Răcire procesor
 
 > [!success]- Răspuns
-> **a. phishing**
+> **a. Inginerie socială (Social Engineering / Vishing)**
 > 
-> Instituțiile serioase nu cer astfel de date prin mesaj.
+> Ingineria socială atacă omul, nu calculatorul, exploatând credulitatea sau frica.
 
-### 18. Verificarea adresei reale a unui link se face:
+### 18. Mesajul primit pe telefon care spune că ai un colet blocat și cere să plătești 5 lei pe un link este:
 
-- a. înainte de a-l apăsa, observând destinația reală
-- b. după deschiderea paginii
-- c. prin introducerea datelor
-- d. prin răspuns la mesaj
+- a. o tentativă de smishing (phishing prin SMS)
+- b. un cadou oficial
+- c. o scrisoare recomandată
+- d. un test de ecran
 
 > [!success]- Răspuns
-> **a. înainte de a-l apăsa, observând destinația reală**
+> **a. o tentativă de smishing (phishing prin SMS)**
 > 
-> Textul afișat poate ascunde o altă destinație.
+> Smishing-ul este versiunea pe SMS a phishing-ului clasic.
 
-### 19. Refolosirea aceleiași parole pe mai multe site-uri:
+### 19. Rețeaua formată din mii de calculatoare infectate controlate de hackeri pentru atacuri cibernetice este:
 
-- a. permite compromiterea în lanț a conturilor
-- b. este sigură dacă parola e lungă
-- c. e recomandată pentru simplitate
-- d. nu are consecințe
+- a. un Botnet
+- b. un Switch de rețea
+- c. un fișier PDF
+- d. o placă de bază
 
 > [!success]- Răspuns
-> **a. permite compromiterea în lanț a conturilor**
+> **a. un Botnet**
 > 
-> O singură scurgere compromite toate conturile.
+> Calculatoarele zombi dintr-un botnet execută comenzile atacatorului fără știrea proprietarilor.
 
-### 20. Prima măsură după compromiterea unui cont este:
+### 20. Măsura recomandată pentru a nu uita zecile de parole complexe folosite online este:
 
-- a. schimbarea parolei de pe un dispozitiv sigur
-- b. ștergerea contului
-- c. anunțarea publică
-- d. reinstalarea sistemului
+- a. utilizarea unei aplicații de tip Password Manager securizate
+- b. folosirea parolei „123456” la toate conturile
+- c. scrierea parolelor pe o foaie lipită de monitor
+- d. dezactivarea tuturor parolelor
 
 > [!success]- Răspuns
-> **a. schimbarea parolei de pe un dispozitiv sigur**
+> **a. utilizarea unei aplicații de tip Password Manager securizate**
 > 
-> Apoi se deconectează sesiunile active.
+> Un manager de parole criptează seiful de credențiale în spatele unei singure parole principale robuste.
 
-### 21. Verificarea periodică a propriului nume într-un motor de căutare:
+### 21. Publicarea rău-intenționată pe un forum a numărului de telefon și a adresei unui coleg fără acordul lui se numește:
 
-- a. arată ce văd ceilalți despre tine
-- b. este inutilă
-- c. încalcă confidențialitatea
-- d. este posibilă doar cu cont
+- a. Doxxing
+- b. Backup
+- c. Căutare binară
+- d. Formatare
 
 > [!success]- Răspuns
-> **a. arată ce văd ceilalți despre tine**
+> **a. Doxxing**
 > 
-> Este primul pas în gestionarea reputației.
+> Doxxing-ul încalcă dreptul la intimitate și legislația de protecție a datelor.
 
-### 22. Un profil profesional eficient conține:
+### 22. Actul de intimidare, amenințare sau batjocorire repetată a unui elev pe grupurile de chat constituie:
 
-- a. informații exacte și dovezi concrete ale competențelor
-- b. cât mai multe contacte
-- c. fotografii personale numeroase
-- d. opinii politice
+- a. Cyberbullying (hărțuire online)
+- b. o glumă inofensivă
+- c. un exercițiu de tastare
+- d. un test de viteză
 
 > [!success]- Răspuns
-> **a. informații exacte și dovezi concrete ale competențelor**
+> **a. Cyberbullying (hărțuire online)**
 > 
-> Dovezile concrete cântăresc cel mai mult.
+> Cyberbullying-ul provoacă suferință psihică și este pedepsit de lege.
 
-### 23. Ștergerea unei postări publice:
+### 23. Un principiu esențial de igienă a reputației online este:
 
-- a. nu garantează dispariția ei, dacă a fost deja copiată
-- b. o elimină definitiv de pe internet
-- c. este imposibilă
-- d. se face automat după un an
+- a. să nu publici niciodată conținut pe care nu ai dori să-l vadă viitorul tău angajator sau familia
+- b. să postezi parola bancară pe rețelele sociale
+- c. să jignești toți colegii din clasă
+- d. să ai toate conturile complet publice
 
 > [!success]- Răspuns
-> **a. nu garantează dispariția ei, dacă a fost deja copiată**
+> **a. să nu publici niciodată conținut pe care nu ai dori să-l vadă viitorul tău angajator sau familia**
 > 
-> Urma digitală este greu reversibilă.
+> Autocenzura responsabilă protejează viitorul personal și profesional.
 
-### 24. Setările de confidențialitate ale conturilor ar trebui:
+### 24. Pentru a împiedica persoanele străine să îți vadă fotografiile personale, configurezi profilul ca:
 
-- a. revizuite periodic, fiindcă se schimbă odată cu platformele
-- b. lăsate implicite
-- c. modificate o singură dată
-- d. ignorate
+- a. Privat (vizibil doar prietenilor confirmați)
+- b. Public pentru întreaga planetă
+- c. Deschis fără nicio parolă
+- d. Vizibil pentru toți roboții de căutare
 
 > [!success]- Răspuns
-> **a. revizuite periodic, fiindcă se schimbă odată cu platformele**
+> **a. Privat (vizibil doar prietenilor confirmați)**
 > 
-> Actualizările platformelor pot reseta preferințele.
+> Profilul privat limitează accesul exclusiv la cercul de persoane de încredere.
 
-### 25. Un risc real al serviciilor în cloud este:
+### 25. Caracteristica prin care fișierele din Google Drive se pot deschide de pe telefon, tabletă sau laptop se numește:
 
-- a. dependența de furnizor și dificultatea migrării
-- b. imposibilitatea colaborării
-- c. lipsa copiilor de siguranță
-- d. costul inițial ridicat
+- a. acces larg prin rețea (mobilitate)
+- b. limitare locală
+- c. formatare condiționată
+- d. decupare vectorială
 
 > [!success]- Răspuns
-> **a. dependența de furnizor și dificultatea migrării**
+> **a. acces larg prin rețea (mobilitate)**
 > 
-> Avantajele sunt reale, dar nu elimină riscurile.
+> Accesibilitatea multi-platformă este un pilon al cloud-ului.
 
-### 26. Păstrarea unei copii locale a documentelor importante:
+### 26. Lucrul simultan a 3 elevi pe aceeași prezentare PowerPoint partajată în Microsoft 365 este o colaborare:
 
-- a. protejează împotriva pierderii accesului la serviciu
-- b. este inutilă
-- c. încalcă condițiile de utilizare
-- d. consumă spațiu fără rost
+- a. sincronă în timp real
+- b. imposibilă din punct de vedere tehnic
+- c. periculoasă pentru ecran
+- d. exclusiv offline
 
 > [!success]- Răspuns
-> **a. protejează împotriva pierderii accesului la serviciu**
+> **a. sincronă în timp real**
 > 
-> Redundanța este principiul de bază al siguranței datelor.
+> Colaborarea sincronă accelerează finalizarea proiectelor de echipă.
 
-### 27. Înainte de a încărca date sensibile într-un serviciu gratuit:
+### 27. Tehnologia software care permite rularea a 10 calculatoare virtuale pe un singur server fizic se numește:
 
-- a. se verifică condițiile de utilizare și opțiunile de criptare
-- b. se încarcă direct, e mai simplu
-- c. se comprimă fișierele
-- d. se schimbă numele fișierelor
+- a. Virtualizare
+- b. Defragmentare
+- c. Overclocking
+- d. Tipărire laser
 
 > [!success]- Răspuns
-> **a. se verifică condițiile de utilizare și opțiunile de criptare**
+> **a. Virtualizare**
 > 
-> Condițiile pot include drepturi asupra conținutului.
+> Virtualizarea stă la baza arhitecturii tuturor centrelor de date cloud.
 
-### 28. Colaborarea simultană în cloud presupune:
+### 28. Plata resurselor de calcul doar pe durata și volumul efectiv consumat este denumită modelul:
 
-- a. istoric al versiunilor și drepturi diferențiate de acces
-- b. un singur editor
-- c. descărcarea prealabilă a fișierului
-- d. trimiterea prin e-mail
+- a. Pay-as-you-go (Plătești pe măsură ce consumi)
+- b. Preț fix pe 50 de ani
+- c. Achiziție definitivă
+- d. Monopol
 
 > [!success]- Răspuns
-> **a. istoric al versiunilor și drepturi diferențiate de acces**
+> **a. Pay-as-you-go (Plătești pe măsură ce consumi)**
 > 
-> Acestea sunt avantajele față de schimbul de fișiere.
+> Modelul Pay-as-you-go reduce costurile eliminând investițiile neutilizate.
 
-### 29. Prejudecata algoritmică apare pentru că:
+### 29. Prelucrarea automată a facturilor de către un program fără intervenție umană reprezintă:
 
-- a. sistemul învață din date care conțin ele însele prejudecăți
-- b. programatorii o introduc intenționat
-- c. algoritmii sunt aleatorii
-- d. datele sunt prea puține
+- a. Automatizare software (RPA)
+- b. Editare video manuală
+- c. Tipărire offset
+- d. Formatare fizică de hard disk
 
 > [!success]- Răspuns
-> **a. sistemul învață din date care conțin ele însele prejudecăți**
+> **a. Automatizare software (RPA)**
 > 
-> De aceea contează calitatea și reprezentativitatea datelor.
+> Automatizarea crește viteza și eficiența muncii administrative.
 
-### 30. Un rezultat generat de un sistem de inteligență artificială:
+### 30. Utilizarea datelor istorice pentru a anticipa evoluția prețului grâului în anul următor se numește:
 
-- a. trebuie verificat înainte de a fi folosit ca atare
-- b. este întotdeauna corect
-- c. nu poate fi verificat
-- d. înlocuiește sursele
+- a. Analiză predictivă
+- b. Criptare asimetrică
+- c. Descompunere vizuală
+- d. Resetare din fabrică
 
 > [!success]- Răspuns
-> **a. trebuie verificat înainte de a fi folosit ca atare**
+> **a. Analiză predictivă**
 > 
-> Sistemele pot formula convingător informații false.
+> Analiza predictivă modelează scenarii viitoare pe baze statistice solide.
 
-### 31. Valoarea datelor mari stă în:
+### 31. Ecranul unic care sintetizează pe grafice interactive vânzările, profitul și numărul de clienți este:
 
-- a. tiparele descoperite prin analiză
-- b. volumul lor
-- c. viteza de colectare
-- d. formatul de stocare
+- a. un Dashboard (Tablou de bord)
+- b. un fișier audio MP3
+- c. un cablu VGA
+- d. un algoritm de căutare
 
 > [!success]- Răspuns
-> **a. tiparele descoperite prin analiză**
+> **a. un Dashboard (Tablou de bord)**
 > 
-> Datele neanalizate nu produc valoare.
+> Dashboard-ul oferă factorilor de decizie o privire de ansamblu instantanee.
 
-### 32. Automatizarea sarcinilor repetitive:
+### 32. Algoritmii care filtrează automat mesajele de tip Spam din căsuța ta de e-mail folosesc:
 
-- a. schimbă structura competențelor cerute pe piața muncii
-- b. elimină munca în general
-- c. nu afectează ocuparea
-- d. privește doar industria
+- a. Machine Learning (clasificare automată a textelor)
+- b. doar o monedă aruncată în sus
+- c. cabluri speciale de internet
+- d. monitoare mai luminoase
 
 > [!success]- Răspuns
-> **a. schimbă structura competențelor cerute pe piața muncii**
+> **a. Machine Learning (clasificare automată a textelor)**
 > 
-> Dispar sarcini, apar altele, iar recalificarea devine permanentă.
+> Filtrele antispam învață permanent noi tipare de mesaje frauduloase.
 
-### 33. Decalajul digital privește:
+### 33. Disciplina care studiază reciclarea responsabilă a calculatoarelor și reducerea consumului de curent este:
 
-- a. atât accesul la tehnologie, cât și competențele de folosire
-- b. doar viteza internetului
-- c. doar prețul dispozitivelor
-- d. doar mediul rural
+- a. Green IT
+- b. Blue Web
+- c. Overclocking extrem
+- d. Criptare forțată
 
 > [!success]- Răspuns
-> **a. atât accesul la tehnologie, cât și competențele de folosire**
+> **a. Green IT**
 > 
-> Accesul fără competențe nu produce beneficii.
+> Green IT protejează mediul înconjurător de poluarea tehnologică.
 
-### 34. Distribuirea unei informații neverificate:
+### 34. Dispozitivele electronice defecte sau învechite (telefoane, televizoare, monitoare) se predau la:
 
-- a. contribuie la răspândirea dezinformării
-- b. este neutră
-- c. este responsabilitatea platformei
-- d. nu are efecte
+- a. centre specializate de colectare a deșeurilor DEEE (E-waste)
+- b. ghena de gunoi menajer
+- c. în pădure
+- d. în râu
 
 > [!success]- Răspuns
-> **a. contribuie la răspândirea dezinformării**
+> **a. centre specializate de colectare a deșeurilor DEEE (E-waste)**
 > 
-> Fiecare distribuire amplifică mesajul.
+> Reciclarea DEEE recuperează metale prețioase și izolează substanțele toxice.
 
-### 35. Infrastructura digitală are un impact de mediu prin:
+### 35. Principiul etic conform căruia un om trebuie să aibă ultimul cuvânt în deciziile de viață asistate de AI se numește:
 
-- a. consumul de energie al centrelor de date și al dispozitivelor
-- b. lipsa hârtiei
-- c. durata de viață a software-ului
-- d. numărul de utilizatori
+- a. Supraveghere umană (Human-in-the-loop)
+- b. Automatizare totală
+- c. Deconectare de la priză
+- d. Formatare completă
 
 > [!success]- Răspuns
-> **a. consumul de energie al centrelor de date și al dispozitivelor**
+> **a. Supraveghere umană (Human-in-the-loop)**
 > 
-> Producția și reciclarea dispozitivelor contează la fel de mult.
+> Supravegherea umană garantează responsabilitatea etică și juridică.
 
-### 36. Competența digitală completă înseamnă:
+### 36. Antrenarea unui model AI exclusiv pe texte care promovează prejudecăți va conduce inevitabil la:
 
-- a. folosirea instrumentelor plus înțelegerea efectelor lor
-- b. cunoașterea tuturor aplicațiilor
-- c. programarea avansată
-- d. viteza de tastare
+- a. un algoritm părtinitor și discriminatoriu (Bias)
+- b. un calculator mai rapid
+- c. o conexiune Wi-Fi mai puternică
+- d. o imagine vectorială
 
 > [!success]- Răspuns
-> **a. folosirea instrumentelor plus înțelegerea efectelor lor**
+> **a. un algoritm părtinitor și discriminatoriu (Bias)**
 > 
-> Dimensiunea critică este parte din competență.
+> Inteligența artificială reflectă direct calitatea și etica datelor cu care a fost hrănită.
 
-### 37. Generarea automată a cuprinsului se bazează pe:
+### 37. Pentru a avea pagini cu orientare diferită (portret și vedere) în cadrul aceluiași fișier Word, se utilizează:
 
-- a. stiluri
-- b. culoarea textului
-- c. numărul de pagini
-- d. font
+- a. Întreruperi de secțiune (Section Breaks -> Next Page)
+- b. Page Break simplu
+- c. dublu clic pe text
+- d. micșorarea fontului
 
 > [!success]- Răspuns
-> **a. stiluri**
+> **a. Întreruperi de secțiune (Section Breaks -> Next Page)**
 > 
-> Stilurile de titlu structurează documentul.
+> Secțiunile permit setări de pagină complet independente.
 
-### 38. Formatarea la nivel de paragraf include:
+### 38. Opțiunea care trebuie debifată pentru ca noul antet să nu mai copieze antetul paginilor precedente este:
 
-- a. alinierea și spațierea
-- b. fontul unei litere
-- c. îngroșarea unui cuvânt
-- d. culoarea unei litere
+- a. Link to Previous (Legătură la anteriorul)
+- b. Different First Page
+- c. Show Document Text
+- d. Close Header
 
 > [!success]- Răspuns
-> **a. alinierea și spațierea**
+> **a. Link to Previous (Legătură la anteriorul)**
 > 
-> Fontul e formatare de caracter.
+> Decuplarea legăturii rupe dependența dintre secțiuni.
 
-### 39. Un format standard de document text este:
+### 39. Efectul vizual de revistă prin care prima literă a unui articol ocupă înălțimea a 3 rânduri este:
 
-- a. DOCX
-- b. MP3
-- c. JPEG
-- d. EXE
+- a. Drop Cap (Inițială căzută)
+- b. WordArt
+- c. Subscript
+- d. Small Caps
 
 > [!success]- Răspuns
-> **a. DOCX**
+> **a. Drop Cap (Inițială căzută)**
 > 
-> PDF și ODT sunt și ele standard.
+> Drop Cap este un element clasic de punere în pagină editorială.
 
-### 40. Mail merge servește la:
+### 40. Formula internă utilizată într-un tabel Word pentru a aduna numerele aflate deasupra celulei curente este:
 
-- a. generarea de scrisori personalizate dintr-o listă
-- b. comprimarea imaginilor
-- c. crearea de grafice
-- d. protejarea parolei
+- a. =SUM(ABOVE)
+- b. =SUM(LEFT)
+- c. =ADD(TOP)
+- d. =TOTAL()
 
 > [!success]- Răspuns
-> **a. generarea de scrisori personalizate dintr-o listă**
+> **a. =SUM(ABOVE)**
 > 
-> Îmbină un șablon cu date.
+> `=SUM(ABOVE)` este funcția standard integrată în tabelele Word.
 
-### 41. O formulă într-o celulă începe cu:
+### 41. Funcția Excel utilizată tradițional pentru a găsi prețul unui produs pe baza codului său într-un tabel catalog este:
 
-- a. semnul egal (=)
-- b. semnul plus
-- c. o literă
-- d. ghilimele
+- a. =VLOOKUP
+- b. =COUNT
+- c. =AVERAGE
+- d. =CONCATENATE
 
 > [!success]- Răspuns
-> **a. semnul egal (=)**
+> **a. =VLOOKUP**
 > 
-> De exemplu =A1+B1.
+> VLOOKUP este cea mai utilizată funcție de căutare în baze de date tabulare.
 
-### 42. Funcția care adună valorile este:
+### 42. Instrumentul din Excel care împiedică utilizatorul să tasteze o notă mai mare de 10 într-un catalog se numește:
 
-- a. SUM
-- b. IF
-- c. COUNT
-- d. MAX
+- a. Validarea datelor (Data Validation)
+- b. Protecție antivirus
+- c. Sortare multinivel
+- d. Formatare ca tabel
 
 > [!success]- Răspuns
-> **a. SUM**
+> **a. Validarea datelor (Data Validation)**
 > 
-> AVERAGE calculează media.
+> Validarea datelor respinge automat valorile ce încalcă regula stabilită.
 
-### 43. Referința $A$1 este:
+### 43. Pentru a permite introducerea exclusivă a opțiunilor „Masculin” și „Feminin” dintr-o listă derulantă, la Data Validation alegi:
 
-- a. absolută (nu se schimbă la copiere)
-- b. relativă
-- c. o funcție
-- d. un grafic
+- a. List
+- b. Any value
+- c. Text length
+- d. Date
 
 > [!success]- Răspuns
-> **a. absolută (nu se schimbă la copiere)**
+> **a. List**
 > 
-> Relativa (A1) se modifică la copiere.
+> Opțiunea List generează meniul de selecție controlată.
 
-### 44. Un grafic cu sectoare (circular) e potrivit pentru:
+### 44. Securizarea formulelor dintr-un tabel astfel încât colegii să poată introduce doar date fără să strice calculele se face prin:
 
-- a. proporții dintr-un întreg
-- b. evoluția în timp
-- c. text simplu
-- d. formule
+- a. Protejarea foii de calcul (Protect Sheet)
+- b. Ștergerea formulelor
+- c. Colorarea cu negru a celulelor
+- d. Închiderea calculatorului
 
 > [!success]- Răspuns
-> **a. proporții dintr-un întreg**
+> **a. Protejarea foii de calcul (Protect Sheet)**
 > 
-> Liniile arată evoluția în timp.
+> Protect Sheet blochează editarea celulelor protejate.
 
-### 45. O prezentare bună are, pe un diapozitiv:
+### 45. Formatul de fișier PowerPoint care se deschide instantaneu ca expunere pe tot ecranul la dublu clic este:
 
-- a. text puțin și un mesaj clar
-- b. paragrafe lungi
-- c. cât mai multe animații
-- d. text mic și dens
+- a. .ppsx
+- b. .txt
+- c. .zip
+- d. .bmp
 
 > [!success]- Răspuns
-> **a. text puțin și un mesaj clar**
+> **a. .ppsx**
 > 
-> Diapozitivul sprijină, nu înlocuiește vorbitorul.
+> Fișierele `.ppsx` intră direct în modul Slide Show.
 
-### 46. Animațiile și tranzițiile trebuie folosite:
+### 46. Instrumentul care măsoară secundele dedicate fiecărui diapozitiv pentru antrenarea discursului este:
 
-- a. cu măsură, ca să nu distragă
-- b. cât mai multe
-- c. pe fiecare cuvânt
-- d. niciodată
+- a. Rehearse Timings (Temporizări de probă)
+- b. Task Manager
+- c. Format Painter
+- d. Calculator
 
 > [!success]- Răspuns
-> **a. cu măsură, ca să nu distragă**
+> **a. Rehearse Timings (Temporizări de probă)**
 > 
-> Ele susțin mesajul, nu îl acoperă.
+> Rehearse Timings ajută vorbitorul să se încadreze în timpul alocat.
 
-### 47. Un aspect unitar al prezentării îl asigură:
+### 47. Pentru a permite publicului să aleagă capitolele dintr-un ecran principal de meniu, se folosesc:
 
-- a. șablonul (template)
-- b. animațiile
-- c. numărul de diapozitive
-- d. fontul mic
+- a. Hiperlinkuri și Butoane de acțiune (Action Buttons)
+- b. Doar tranziții automate
+- c. Tastele de volum
+- d. Închiderea programului
 
 > [!success]- Răspuns
-> **a. șablonul (template)**
+> **a. Hiperlinkuri și Butoane de acțiune (Action Buttons)**
 > 
-> Șablonul dă stilul comun.
+> Acțiunile interactive transformă prezentarea într-un catalog multimedia neliniar.
 
-### 48. Regula de aur a unei prezentări este:
+### 48. O prezentare PowerPoint sonorizată complet poate fi salvată direct ca fișier video în format:
 
-- a. sprijină vorbitorul, nu îl înlocuiește
-- b. conține tot textul discursului
-- c. se citește cuvânt cu cuvânt
-- d. are cât mai mult text
+- a. .mp4
+- b. .exe
+- c. .wav pur
+- d. .docx
 
 > [!success]- Răspuns
-> **a. sprijină vorbitorul, nu îl înlocuiește**
+> **a. .mp4**
 > 
-> Publicul ascultă, nu citește diapozitivul.
+> PowerPoint poate randa întreaga animație ca film video MP4 de înaltă rezoluție.
 
-### 49. Într-o bază relațională, datele stau în:
+### 49. Proprietatea unui câmp care garantează că elevul nu poate fi salvat fără a introduce CNP-ul este:
 
-- a. tabele legate între ele
-- b. imagini
-- c. fișiere audio
-- d. pagini web
+- a. Required: Yes
+- b. Indexed: No
+- c. Visible: False
+- d. Smart Tag
 
 > [!success]- Răspuns
-> **a. tabele legate între ele**
+> **a. Required: Yes**
 > 
-> Rândurile sunt înregistrări, coloanele câmpuri.
+> Required impune completarea obligatorie a valorii.
 
-### 50. Cheia primară:
+### 50. Câmpul calculat care calculează valoarea TVA de 19% din prețul produsului se scrie în interogare ca:
 
-- a. identifică unic fiecare înregistrare
-- b. comprimă datele
-- c. criptează tabelul
-- d. desenează grafice
+- a. `ValoareTVA: [Pret] * 0.19`
+- b. `Pret = TVA * 19`
+- c. `SUM Pret ON TVA`
+- d. `FORMAT Pret AS 19`
 
 > [!success]- Răspuns
-> **a. identifică unic fiecare înregistrare**
+> **a. `ValoareTVA: [Pret] * 0.19`**
 > 
-> Evită confundarea înregistrărilor.
+> Parantezele drepte `[ ]` marchează numele câmpului multiplicat cu procentul.
 
-### 51. Legarea tabelelor între ele:
+### 51. Butonul cu simbolul literei grecești Sigma (Σ) activează într-o interogare Access:
 
-- a. evită repetarea datelor
-- b. mărește repetarea
-- c. șterge datele
-- d. schimbă fonturile
+- a. rândul de Totaluri (Totals) pentru grupări și agregări statistice
+- b. formatarea fonturilor
+- c. verificarea gramaticală
+- d. ștergerea definitivă a bazei de date
 
 > [!success]- Răspuns
-> **a. evită repetarea datelor**
+> **a. rândul de Totaluri (Totals) pentru grupări și agregări statistice**
 > 
-> Se face prin chei externe.
+> Rândul Totals permite aplicarea funcțiilor Group By, Sum, Avg, Count.
 
-### 52. O interogare (query) servește la:
+### 52. Regula de validare corectă pentru a accepta doar persoane majore născute înainte de anul 2008 este:
 
-- a. extragerea datelor după criterii
-- b. formatarea textului
-- c. comprimarea imaginilor
-- d. crearea de animații
+- a. `< #01/01/2008#`
+- b. `> 2008`
+- c. `Text = Major`
+- d. `Age == True`
 
 > [!success]- Răspuns
-> **a. extragerea datelor după criterii**
+> **a. `< #01/01/2008#`**
 > 
-> Extrage exact ce se cere.
+> Datele calendaristice se încadrează între simbolurile diez (#) în Access.
 
-### 53. Căutarea unei expresii exacte se face:
+### 53. Interogarea optimă pentru a descărca programa școlară oficială de Bacalaureat în format PDF este:
 
-- a. punând-o între ghilimele
-- b. cu majuscule
-- c. fără cuvinte-cheie
-- d. cu semnul plus
+- a. programa bacalaureat site:edu.ro filetype:pdf
+- b. cauta programa pe net
+- c. descarca bac gratis
+- d. edu.ro -> pdf -> bac
 
 > [!success]- Răspuns
-> **a. punând-o între ghilimele**
+> **a. programa bacalaureat site:edu.ro filetype:pdf**
 > 
-> Ghilimelele cer potrivirea exactă.
+> Combinația dintre site oficial și tipul de fișier oferă direct documentul original.
 
-### 54. La evaluarea unei surse contează:
+### 54. Pentru a salva un text găsit pe o pagină web într-un fișier text conform biletului:
 
-- a. autorul, scopul și actualitatea
-- b. doar culoarea paginii
-- c. numărul de imagini
-- d. fontul folosit
+- a. selectezi textul, apeși Ctrl+C, deschizi Notepad, apeși Ctrl+V și salvezi fișierul
+- b. oprești monitorul
+- c. faci o poză cu telefonul
+- d. printezi pe hârtie și o lipești pe carcasă
 
 > [!success]- Răspuns
-> **a. autorul, scopul și actualitatea**
+> **a. selectezi textul, apeși Ctrl+C, deschizi Notepad, apeși Ctrl+V și salvezi fișierul**
 > 
-> Și dacă poate fi verificată independent.
+> Copierea textului în Notepad creează fișierul curat `.txt` solicitat la examen.
 
-### 55. Apărarea împotriva știrilor false este:
+### 55. Butonul dintr-o interfață de e-mail utilizat pentru a trimite un fișier alături de mesaj este reprezentat de regulă prin:
 
-- a. verificarea din mai multe surse
-- b. încrederea în primul rezultat
-- c. distribuirea rapidă
-- d. ignorarea autorului
+- a. o agrafă de birou (Paperclip / Attach)
+- b. o foarfecă
+- c. o radieră
+- d. o sticlă
 
 > [!success]- Răspuns
-> **a. verificarea din mai multe surse**
+> **a. o agrafă de birou (Paperclip / Attach)**
 > 
-> Verificarea încrucișată dezvăluie falsul.
+> Agrafa de birou este simbolul universal pentru atașarea documentelor.
 
-### 56. Motorul de căutare ordonează paginile după:
+### 56. Mesajul returnat automat dacă ai tastat greșit adresa de e-mail a destinatarului provine de regulă de la:
 
-- a. relevanță
-- b. ordine alfabetică
-- c. dimensiunea fișierului
-- d. culoare
+- a. Mail Delivery Subsystem (Mailer-Daemon)
+- b. Creatorul internetului
+- c. Poliția locală
+- d. Ministerul Finanțelor
 
 > [!success]- Răspuns
-> **a. relevanță**
+> **a. Mail Delivery Subsystem (Mailer-Daemon)**
 > 
-> Indexarea stă la baza rezultatelor.
+> Mailer-Daemon informează expeditorul că adresa nu a putut fi găsită pe serverul destinație.
 
-### 57. Cloud computingul înseamnă:
+### 57. Timpul extrem de scurt necesar unui semnal pentru a ajunge la destinație se numește:
 
-- a. folosirea de resurse găzduite la distanță, prin internet
-- b. un tip de cablu
-- c. un program antivirus
-- d. o rețea locală
+- a. Latență redusă
+- b. Lățime de bandă
+- c. Frecvență de ceas
+- d. Capacitate de stocare
 
 > [!success]- Răspuns
-> **a. folosirea de resurse găzduite la distanță, prin internet**
+> **a. Latență redusă**
 > 
-> De exemplu stocarea online.
+> Latența redusă este vitală pentru reacții în timp real.
 
-### 58. O rețea LAN acoperă:
+### 58. Componenta unui sistem inteligent care primește comanda de la calculator și închide fizic o ușă este:
 
-- a. o zonă mică (casă, școală)
-- b. întreg globul
-- c. doar un cablu
-- d. un continent
+- a. un actuator
+- b. un pixel
+- c. o tastatură
+- d. un fișier PDF
 
 > [!success]- Răspuns
-> **a. o zonă mică (casă, școală)**
+> **a. un actuator**
 > 
-> WAN acoperă distanțe mari.
+> Actuatorul transformă instrucțiunea software în mișcare fizică.
 
-### 59. Internetul lucrurilor (IoT) conectează:
+### 59. Procesarea datelor culese de o cameră inteligentă chiar în cipul ei local se numește:
 
-- a. obiecte obișnuite la internet
-- b. doar calculatoarele
-- c. doar telefoanele
-- d. doar serverele
+- a. Edge Computing
+- b. Formatare condiționată
+- c. Sortare inversă
+- d. Arhivare cloud
 
 > [!success]- Răspuns
-> **a. obiecte obișnuite la internet**
+> **a. Edge Computing**
 > 
-> Becuri, termostate, ceasuri inteligente.
+> Edge Computing procesează datele local, fără întârzierea transferului pe servere îndepărtate.
 
-### 60. Un dezavantaj al cloudului este:
+### 60. Pericolul major de securitate al aparatelor IoT casnice ieftine este cauzat de:
 
-- a. dependența de conexiune și de furnizor
-- b. accesul de oriunde
-- c. colaborarea ușoară
-- d. lipsa instalării
+- a. parolele implicite simple neschimbate și lipsa actualizărilor de securitate
+- b. cablurile prea scurte
+- c. lipsa culorilor pe carcasă
+- d. faptul că nu au boxe mari
 
 > [!success]- Răspuns
-> **a. dependența de conexiune și de furnizor**
+> **a. parolele implicite simple neschimbate și lipsa actualizărilor de securitate**
 > 
-> Apar și întrebări de confidențialitate.
+> Parolele din fabrică sunt primele testate de programele automate ale atacatorilor.
 
-### 61. Învățarea automată (machine learning):
+### 61. Tehnologia de registru distribuit descentralizat ale cărui date nu pot fi modificate retroactiv este:
 
-- a. învață tipare din exemple
-- b. urmează doar reguli fixe scrise de om
-- c. este un tip de cablu
-- d. comprimă imagini
+- a. Blockchain
+- b. Defragmentare
+- c. Paginare la 1.5 linii
+- d. Scanare optică
 
 > [!success]- Răspuns
-> **a. învață tipare din exemple**
+> **a. Blockchain**
 > 
-> De aceea are nevoie de multe date.
+> Blockchain asigură încredere matematică fără a necesita o autoritate centrală intermediară.
 
-### 62. O folosire curentă a IA este:
+### 62. Unitatea fundamentală de calcul a computerelor cuantice se numește:
 
-- a. filtrele de spam și recomandările
-- b. răcirea procesorului
-- c. alimentarea cu energie
-- d. tipărirea documentelor
+- a. qubit (quantum bit)
+- b. byte clasic
+- c. pixel
+- d. octet binar
 
 > [!success]- Răspuns
-> **a. filtrele de spam și recomandările**
+> **a. qubit (quantum bit)**
 > 
-> Și asistenții vocali.
+> Qubitul exploatează mecanica cuantică pentru calcule paralele masive.
 
-### 63. IA ridică întrebarea etică a:
+### 63. Aplicațiile software autonome care se execută automat pe blockchain când sunt îndeplinite condițiile se numesc:
 
-- a. confidențialității datelor și a deciziilor automate
-- b. culorii ecranului
-- c. vitezei de tastare
-- d. mărimii fișierelor
+- a. Contracte inteligente (Smart Contracts)
+- b. Fișiere temporare
+- c. Macrocomenzi Word
+- d. Rețele LAN
 
 > [!success]- Răspuns
-> **a. confidențialității datelor și a deciziilor automate**
+> **a. Contracte inteligente (Smart Contracts)**
 > 
-> Folosirea trebuie să fie responsabilă.
+> Smart Contracts automatizează acordurile financiare și juridice fără avocați sau intermediari.
 
-### 64. O tehnologie emergentă este:
+### 64. În fața avalanșei de conținut digital generat de AI, cea mai importantă deprindere umană rămâne:
 
-- a. realitatea virtuală și augmentată
-- b. procesorul de text clasic
-- c. tastatura
-- d. mouse-ul
+- a. gândirea critică și verificarea surselor primare de informare
+- b. credulitatea oarbă
+- c. renunțarea la lectură
+- d. memorarea mecanică
 
 > [!success]- Răspuns
-> **a. realitatea virtuală și augmentată**
+> **a. gândirea critică și verificarea surselor primare de informare**
 > 
-> Alături de roboți, blockchain, tipărire 3D.
+> Gândirea critică permite discernerea adevărului factual de narațiunile artificiale.
 
-### 65. Generarea automată a cuprinsului se bazează pe:
+### 65. În cadrul probei de evaluare a competențelor digitale (Proba D) de la Bacalaureat, Fișa A durează:
 
-- a. stiluri
-- b. culoarea textului
-- c. font
-- d. numărul paginilor
+- a. 15 minute (cu acces la internet)
+- b. 3 ore
+- c. 2 minute
+- d. 75 de minute
 
 > [!success]- Răspuns
-> **a. stiluri**
+> **a. 15 minute (cu acces la internet)**
 > 
-> Stilurile de titlu structurează documentul.
+> Fișa A alocă 15 minute pentru căutare web și trimitere de e-mail.
 
-### 66. O formulă de calcul tabelar începe cu:
+### 66. Numărul maxim de puncte acordat pentru secțiunea offline (Fișa B) la Bacalaureat Proba D este de:
 
-- a. semnul egal (=)
-- b. o literă
-- c. semnul plus
-- d. ghilimele
+- a. 90 de puncte
+- b. 10 puncte
+- c. 100 de puncte
+- d. 50 de puncte
 
 > [!success]- Răspuns
-> **a. semnul egal (=)**
+> **a. 90 de puncte**
 > 
-> De exemplu =A1+B1.
+> Fișa B are 90 de puncte (Word 30p, Excel 30p, opțional 30p).
 
-### 67. Funcția care calculează media este:
+### 67. Opțiunea din Word utilizată pentru ca antetul sau numărul de pagină să nu apară pe prima filă a referatului este:
 
-- a. AVERAGE
-- b. SUM
-- c. COUNT
-- d. IF
+- a. Different First Page (Pagină de început diferită)
+- b. Blank Document
+- c. Landscape Mode
+- d. Bold All
 
 > [!success]- Răspuns
-> **a. AVERAGE**
+> **a. Different First Page (Pagină de început diferită)**
 > 
-> SUM adună valorile.
+> Different First Page lasă pagina de titlu curată.
 
-### 68. Cheia primară dintr-o bază de date:
+### 68. Efectul de text din Word utilizat pentru scrierea formulelor matematice de tipul x la pătrat (x²) este:
 
-- a. identifică unic fiecare înregistrare
-- b. comprimă datele
-- c. criptează tabelul
-- d. desenează grafice
+- a. Superscript (Exponent)
+- b. Subscript (Indice)
+- c. Shadow
+- d. Outline
 
 > [!success]- Răspuns
-> **a. identifică unic fiecare înregistrare**
+> **a. Superscript (Exponent)**
 > 
-> Evită confundarea înregistrărilor.
+> Superscript ridică cifra ca exponent.
 
-### 69. Referința $A$1 este:
+### 69. Formatul de hârtie standard obligatoriu pe care se configurează documentele la examen este:
 
-- a. absolută (nu se schimbă la copiere)
-- b. relativă
-- c. o funcție
-- d. un grafic
+- a. A4
+- b. A3
+- c. Letter
+- d. B4
 
 > [!success]- Răspuns
-> **a. absolută (nu se schimbă la copiere)**
+> **a. A4**
 > 
-> Relativa (A1) se modifică la copiere.
+> A4 este formatul de pagină standard.
 
-### 70. Într-o bază relațională, un rând reprezintă:
+### 70. În Microsoft Excel, funcția utilizată pentru a calcula media valorilor dintr-un interval este:
 
-- a. o înregistrare
-- b. un câmp
-- c. o formulă
-- d. un grafic
+- a. =AVERAGE
+- b. =MED
+- c. =SUMA
+- d. =COUNT
 
 > [!success]- Răspuns
-> **a. o înregistrare**
+> **a. =AVERAGE**
 > 
-> Coloana este un câmp.
+> AVERAGE calculează automat media aritmetică.
 
-### 71. Rezultatul probei D se exprimă:
+### 71. Formula corectă pentru a afișa „ADMIS” la note de la 5 în sus și „RESPINS” în rest este:
 
-- a. în niveluri de competență
-- b. în note
-- c. prin calificative
-- d. prin admis/respins
+- a. =IF(B2>=5, "ADMIS", "RESPINS")
+- b. =TEST(B2, 5, ADMIS)
+- c. =IF B2>5 THEN ADMIS
+- d. =COND(B2:5)
 
 > [!success]- Răspuns
-> **a. în niveluri de competență**
+> **a. =IF(B2>=5, "ADMIS", "RESPINS")**
 > 
-> Susținerea rămâne obligatorie pentru promovare.
+> Sintaxa corectă folosește IF cu condiția și cele două ramuri.
 
-### 72. Salvarea fișierului cu alt nume decât cel cerut la examen:
+### 72. Pentru a selecta două coloane despărțite de alte coloane într-o foaie Excel, se ține apăsată tasta:
 
-- a. duce la pierderea punctajului aferent
-- b. nu contează
-- c. se corectează automat
-- d. se punctează parțial
+- a. Ctrl
+- b. Space
+- c. Alt
+- d. Tab
 
 > [!success]- Răspuns
-> **a. duce la pierderea punctajului aferent**
+> **a. Ctrl**
 > 
-> Cerințele de salvare fac parte din sarcină.
+> Tasta Ctrl permite selectarea zonelor discontinue de celule.
 
-### 73. Folosirea rândurilor goale pentru a împinge textul pe pagina următoare:
+### 73. În PowerPoint, comanda rapidă care părăsește modul de expunere pe tot ecranul este:
 
-- a. este o soluție fragilă
-- b. este recomandată
-- c. economisește timp
-- d. nu are dezavantaje
+- a. Esc
+- b. F5
+- c. Enter
+- d. Shift
 
 > [!success]- Răspuns
-> **a. este o soluție fragilă**
+> **a. Esc**
 > 
-> Există întreruperea de pagină pentru acest scop.
+> Esc anulează proiecția și revine la editare.
 
-### 74. Cuprinsul automat:
+### 74. În Microsoft Access, modul de vizualizare în care se definesc numele și tipurile câmpurilor este:
 
-- a. trebuie actualizat înainte de predare
-- b. se actualizează la fiecare tastă
-- c. nu se actualizează niciodată
-- d. se generează la tipărire
+- a. Design View (Vizualizare proiect)
+- b. Datasheet View
+- c. Pivot View
+- d. Layout View
 
 > [!success]- Răspuns
-> **a. trebuie actualizat înainte de predare**
+> **a. Design View (Vizualizare proiect)**
 > 
-> El citește stilurile aplicate titlurilor.
+> Design View permite configurarea tehnică a câmpurilor și a cheii primare.
 
-### 75. Secțiunile dintr-un document permit:
+### 75. Modelul de servicii Cloud în care aplicațiile sunt rulate complet prin browserul web (ex: Google Docs) este:
 
-- a. antete și numerotări diferite pe părți diferite
-- b. schimbarea limbii
-- c. comprimarea imaginilor
-- d. protejarea cu parolă
+- a. SaaS (Software as a Service)
+- b. IaaS
+- c. SCSI
+- d. BIOS
 
 > [!success]- Răspuns
-> **a. antete și numerotări diferite pe părți diferite**
+> **a. SaaS (Software as a Service)**
 > 
-> Sunt esențiale în lucrările lungi.
+> SaaS livrează software complet accesibil online.
 
-### 76. Scrierea unei valori direct în formulă:
+### 76. Tehnologia care conectează aparate fizice din casă la internet pentru comunicare automată poartă numele de:
 
-- a. face modificarea ulterioară dificilă
-- b. protejează calculul
-- c. este recomandată
-- d. reduce dimensiunea fișierului
+- a. Internet of Things (IoT)
+- b. Calcul tabelar
+- c. Editare grafică
+- d. Scanare laser
 
 > [!success]- Răspuns
-> **a. face modificarea ulterioară dificilă**
+> **a. Internet of Things (IoT)**
 > 
-> Valoarea se pune într-o celulă proprie.
+> IoT interconectează dispozitivele inteligente de zi cu zi.
 
-### 77. Validarea datelor previne:
+### 77. Caracteristica Big Data referitoare la generarea și procesarea fluxurilor de date în timp real este:
 
-- a. introducerea unor valori nepermise
-- b. erorile de formulă
-- c. pierderea fișierului
-- d. ștergerea foii
+- a. Viteza
+- b. Culoarea
+- c. Volumul fix
+- d. Formatarea
 
 > [!success]- Răspuns
-> **a. introducerea unor valori nepermise**
+> **a. Viteza**
 > 
-> De exemplu, o notă în afara intervalului admis.
+> Viteza impune prelucrarea milisecundă cu milisecundă a datelor culese.
 
-### 78. Operatorul site: limitează căutarea:
+### 78. Domeniul inteligenței artificiale în care computerele învață reguli matematice direct din date masive de antrenament este:
 
-- a. la un anumit domeniu
-- b. la un tip de fișier
-- c. la o perioadă
-- d. la o limbă
+- a. Machine Learning (Învățare automată)
+- b. Defragmentare
+- c. Paginare automată
+- d. Rețea LAN
 
 > [!success]- Răspuns
-> **a. la un anumit domeniu**
+> **a. Machine Learning (Învățare automată)**
 > 
-> filetype: limitează la un tip de fișier.
+> Machine Learning învață tipare fără a fi programat manual linie cu linie.
 
-### 79. Confirmarea unei informații presupune:
+### 79. Răspunsurile factuale false sau inventate generate de un model mare de limbaj (LLM) se numesc:
 
-- a. surse independente, care nu se citează reciproc
-- b. mai multe site-uri care preiau aceeași știre
-- c. mai multe rețele sociale
-- d. surse din țări diferite
+- a. halucinații AI
+- b. viruși troieni
+- c. macrocomenzi
+- d. pixeli morți
 
 > [!success]- Răspuns
-> **a. surse independente, care nu se citează reciproc**
+> **a. halucinații AI**
 > 
-> Preluarea nu este confirmare.
+> Halucinațiile sunt erori de generare ce trebuie verificate critic de utilizator.
 
-### 80. Un mesaj care cere urgent date de card pentru „deblocarea contului” este:
+### 80. Pentru a aplica un fundal diferențiat exclusiv pe al doilea diapozitiv într-o prezentare, se alege fundalul și:
 
-- a. cel mai probabil phishing
-- b. o notificare legitimă
-- c. o eroare tehnică
-- d. un mesaj automat inofensiv
+- a. NU se apasă butonul „Apply to All”
+- b. se apasă obligatoriu „Apply to All”
+- c. se deconectează monitorul
+- d. se șterge primul slide
 
 > [!success]- Răspuns
-> **a. cel mai probabil phishing**
+> **a. NU se apasă butonul „Apply to All”**
 > 
-> Instituțiile serioase nu cer astfel de date prin mesaj.
+> Fără Apply to All modificarea rămâne izolată pe slide-ul curent.
 
-### 81. Refolosirea aceleiași parole:
+### 81. În limbajul HTML, tagul dedicat inserării unei legături hipertext către o altă pagină este:
 
-- a. permite compromiterea în lanț a conturilor
-- b. este sigură dacă parola e lungă
-- c. simplifică fără riscuri
-- d. este recomandată
+- a. `<a>`
+- b. `<link>`
+- c. `<goto>`
+- d. `<url>`
 
 > [!success]- Răspuns
-> **a. permite compromiterea în lanț a conturilor**
+> **a. `<a>`**
 > 
-> O singură scurgere compromite tot.
+> Tagul ancorei `<a>` cu atributul `href` creează legătura.
 
-### 82. Prima măsură la compromiterea unui cont este:
+### 82. Simbolul grafic care indică o Cheie Primară lângă numele unui câmp în Access este:
 
-- a. schimbarea parolei de pe un dispozitiv sigur
-- b. ștergerea contului
-- c. anunțarea publică
-- d. reinstalarea sistemului
+- a. o cheiță aurie
+- b. un semn de exclamare
+- c. o săgeată verde
+- d. un ceas
 
 > [!success]- Răspuns
-> **a. schimbarea parolei de pe un dispozitiv sigur**
+> **a. o cheiță aurie**
 > 
-> Apoi se deconectează sesiunile active.
+> Cheița indică identificatorul unic al înregistrării.
 
-### 83. Căutarea unei expresii exacte se face:
+### 83. La nivelul orașelor inteligente (Smart Cities), optimizarea semafoarelor în funcție de fluxul de mașini utilizează:
 
-- a. punând-o între ghilimele
-- b. cu majuscule
-- c. fără cuvinte-cheie
-- d. cu semnul minus
+- a. senzori IoT și analiza datelor de trafic în timp real
+- b. oprirea curentului noaptea
+- c. ștergerea marcajelor rutiere
+- d. interzicerea transportului public
 
 > [!success]- Răspuns
-> **a. punând-o între ghilimele**
+> **a. senzori IoT și analiza datelor de trafic în timp real**
 > 
-> Ghilimelele cer potrivirea exactă.
+> Camerele și senzorii IoT adaptează timpii de semaforizare pentru fluidizare.
 
-### 84. Cloud computingul înseamnă:
+### 84. La utilizarea sistemelor generative de inteligență artificială, regula de aur de securitate a datelor este:
 
-- a. resurse găzduite la distanță, accesate prin internet
-- b. un tip de imprimantă
-- c. o rețea de cabluri
-- d. un antivirus
+- a. să nu introduci niciodată parole, coduri PIN sau date personale confidențiale
+- b. să trimiți toate secretele personale în chat
+- c. să crezi necondiționat orice răspuns afișat
+- d. să nu salvezi niciodată fișierele pe calculator
 
 > [!success]- Răspuns
-> **a. resurse găzduite la distanță, accesate prin internet**
+> **a. să nu introduci niciodată parole, coduri PIN sau date personale confidențiale**
 > 
-> De exemplu stocarea online.
-
-### 85. Învățarea automată:
-
-- a. învață tipare din exemple
-- b. urmează doar reguli fixe
-- c. este un cablu de rețea
-- d. comprimă sunetul
-
-> [!success]- Răspuns
-> **a. învață tipare din exemple**
-> 
-> Are nevoie de multe date.
-
-### 86. Apărarea împotriva dezinformării este:
-
-- a. verificarea din mai multe surse
-- b. încrederea în primul rezultat
-- c. distribuirea rapidă
-- d. ignorarea autorului
-
-> [!success]- Răspuns
-> **a. verificarea din mai multe surse**
-> 
-> Verificarea încrucișată dezvăluie falsul.
-
-### 87. Internetul lucrurilor (IoT) conectează:
-
-- a. obiecte obișnuite la internet
-- b. doar serverele
-- c. doar imprimantele
-- d. doar telefoanele
-
-> [!success]- Răspuns
-> **a. obiecte obișnuite la internet**
-> 
-> Becuri, termostate, ceasuri inteligente.
-
-### 88. O rețea LAN acoperă:
-
-- a. o zonă mică (casă, școală)
-- b. întreg globul
-- c. un continent
-- d. doar un cablu
-
-> [!success]- Răspuns
-> **a. o zonă mică (casă, școală)**
-> 
-> WAN acoperă distanțe mari.
-
-### 89. Identitatea digitală este:
-
-- a. ansamblul informațiilor care te reprezintă online
-- b. numele de utilizator
-- c. adresa de e-mail
-- d. contul principal
-
-> [!success]- Răspuns
-> **a. ansamblul informațiilor care te reprezintă online**
-> 
-> Ea este verificată în practică de angajatori și instituții.
-
-### 90. Ștergerea unei postări publice:
-
-- a. nu garantează dispariția ei
-- b. o elimină definitiv
-- c. este imposibilă
-- d. se face automat
-
-> [!success]- Răspuns
-> **a. nu garantează dispariția ei**
-> 
-> Urma digitală e greu reversibilă.
-
-### 91. Setările de confidențialitate ar trebui:
-
-- a. revizuite periodic
-- b. lăsate implicite
-- c. modificate o singură dată
-- d. ignorate
-
-> [!success]- Răspuns
-> **a. revizuite periodic**
-> 
-> Actualizările platformelor pot reseta preferințele.
-
-### 92. Un risc real al cloudului este:
-
-- a. dependența de furnizor și migrarea dificilă
-- b. imposibilitatea colaborării
-- c. lipsa copiilor de siguranță
-- d. costul inițial ridicat
-
-> [!success]- Răspuns
-> **a. dependența de furnizor și migrarea dificilă**
-> 
-> Avantajele nu elimină riscurile.
-
-### 93. Copia locală a documentelor importante:
-
-- a. protejează împotriva pierderii accesului
-- b. este inutilă
-- c. încalcă regulile
-- d. consumă spațiu fără rost
-
-> [!success]- Răspuns
-> **a. protejează împotriva pierderii accesului**
-> 
-> Redundanța este principiul siguranței datelor.
-
-### 94. Prejudecata algoritmică provine din:
-
-- a. datele pe care sistemul a fost antrenat
-- b. intenția programatorilor
-- c. caracterul aleatoriu al algoritmilor
-- d. lipsa de putere de calcul
-
-> [!success]- Răspuns
-> **a. datele pe care sistemul a fost antrenat**
-> 
-> De aceea contează reprezentativitatea datelor.
-
-### 95. Un rezultat generat automat:
-
-- a. trebuie verificat înainte de folosire
-- b. este întotdeauna corect
-- c. nu poate fi verificat
-- d. înlocuiește sursele
-
-> [!success]- Răspuns
-> **a. trebuie verificat înainte de folosire**
-> 
-> Sistemele pot formula convingător informații false.
-
-### 96. Valoarea datelor mari stă în:
-
-- a. tiparele descoperite prin analiză
-- b. volumul lor
-- c. formatul de stocare
-- d. viteza de colectare
-
-> [!success]- Răspuns
-> **a. tiparele descoperite prin analiză**
-> 
-> Datele neanalizate nu produc valoare.
-
-### 97. Automatizarea sarcinilor repetitive:
-
-- a. schimbă competențele cerute pe piața muncii
-- b. elimină munca
-- c. nu afectează ocuparea
-- d. privește doar industria
-
-> [!success]- Răspuns
-> **a. schimbă competențele cerute pe piața muncii**
-> 
-> Recalificarea devine permanentă.
-
-### 98. Decalajul digital privește:
-
-- a. accesul și competențele deopotrivă
-- b. doar viteza internetului
-- c. doar prețul dispozitivelor
-- d. doar vârsta utilizatorilor
-
-> [!success]- Răspuns
-> **a. accesul și competențele deopotrivă**
-> 
-> Accesul fără competențe nu produce beneficii.
-
-### 99. Distribuirea unei informații neverificate:
-
-- a. contribuie la răspândirea dezinformării
-- b. este neutră
-- c. e responsabilitatea platformei
-- d. nu are efecte
-
-> [!success]- Răspuns
-> **a. contribuie la răspândirea dezinformării**
-> 
-> Fiecare distribuire amplifică mesajul.
-
-### 100. Competența digitală completă include:
-
-- a. înțelegerea efectelor tehnologiei, nu doar folosirea ei
-- b. cunoașterea tuturor aplicațiilor
-- c. programarea avansată
-- d. viteza de tastare
-
-> [!success]- Răspuns
-> **a. înțelegerea efectelor tehnologiei, nu doar folosirea ei**
-> 
-> Dimensiunea critică face parte din competență.
+> Datele transmise în chat-urile publice pot fi stocate și procesate pe servere externe.
 
 ---
 

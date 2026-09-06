@@ -3,852 +3,821 @@ clasa: a IX-a
 an: 1
 arie: Tehnologii
 bac: da
-descriere: Bazele informaticii aplicate: calculatorul, sistemul de operare, fișiere, editare de text și siguranța online.
+descriere: Arhitectura calculatorului, sisteme de operare, editare de text, prezentări multimedia, rețele și securitate cibernetică.
 
 ## 1 | tic9-c1 | Calculatorul și sistemul de operare
-### tic9-01 | Componentele unui sistem de calcul
-Un sistem de calcul are componente hardware (fizice) și software (programe). Hardware-ul cuprinde unitatea centrală de prelucrare (procesorul, care execută instrucțiunile), memoria internă — RAM, volatilă, care păstrează datele în lucru, și ROM —, memoria externă (hard disk, SSD, memorii flash, discuri optice), dispozitivele de intrare (tastatură, mouse, scaner, microfon, cameră) și de ieșire (monitor, imprimantă, difuzoare).
-Performanța depinde de frecvența și numărul de nuclee ale procesorului, de cantitatea de RAM, de tipul memoriei externe (SSD-ul este mult mai rapid decât hard diskul clasic) și de placa grafică. Unitatea de măsură a informației este bitul; un octet (byte) are 8 biți, iar multiplii uzuali sunt kilo-, mega-, giga- și terabyte.
-* Hardware = componente fizice; software = programe.
-* RAM este memorie volatilă; datele nesalvate se pierd la oprire.
-* SSD-ul este semnificativ mai rapid decât hard diskul clasic.
-* Un octet are 8 biți; multiplii sunt KB, MB, GB, TB.
-= memorie volatilă :: memorie care își pierde conținutul la întreruperea alimentării
-= procesor :: componenta care execută instrucțiunile programelor
-@ Ce se întâmplă cu datele din RAM la oprirea calculatorului? :: Se pierd, fiindcă RAM-ul este memorie volatilă.
-@ Câți biți are un octet? :: Opt.
-@ Ce dispozitive sunt de intrare? :: Tastatura, mouse-ul, scanerul, microfonul, camera.
-@ De ce este SSD-ul preferabil hard diskului clasic? :: Pentru că are viteză de acces mult mai mare, fără componente mecanice.
-? Memoria RAM este:
-+ volatilă
-- permanentă
-- doar pentru citire
-- externă
-! De aceea documentele nesalvate se pierd.
-? Monitorul este un dispozitiv de:
-+ ieșire
-- intrare
-- stocare
-- prelucrare
-! Tastatura este dispozitiv de intrare.
-? Un gigabyte este aproximativ:
-+ 1024 megabytes
-- 1024 kilobytes
-- 100 megabytes
-- 1024 terabytes
-! Multiplii cresc, uzual, din 1024 în 1024.
-? Performanța unui calculator NU depinde direct de:
-+ culoarea carcasei
-- cantitatea de RAM
-- frecvența procesorului
-- tipul memoriei externe
-! Componentele interne determină performanța.
+### tic9-01 | Componentele hardware ale unui sistem de calcul
+Un sistem de calcul este un ansamblu integrat de componente hardware (fizice, electronice și mecanice) și software (programe și date). Arhitectura clasică a unui calculator (modelul Von Neumann) cuprinde: Unitatea Centrală de Prelucrare (CPU - procesorul), memoria internă (RAM și ROM), memoria externă (discuri SSD, HDD, memorii flash USB), dispozitivele periferice de intrare (tastatură, mouse, scaner, microfon, cameră web), perifericele de ieșire (monitor, imprimantă, boxe) și dispozitivele de intrare-ieșire (placă de rețea, touchscreen, modem).
+Procesorul (CPU) reprezintă „creierul” calculatorului și coordonează execuția instrucțiunilor. Performanța sa este determinată de frecvența de tact (măsurată în GHz), numărul de nuclee (cores) și memoria cache internă (L1, L2, L3). Memoria RAM (Random Access Memory) este memorie de lucru rapidă, dar volatilă — tot conținutul ei se pierde la oprirea alimentării cu energie. Memoria ROM (Read-Only Memory) este nevolatilă și păstrează firmware-ul de bază (BIOS/UEFI) necesar inițializării hardware-ului la pornire. Unitățile SSD (Solid State Drive) bazate pe memorie flash au înlocuit vechile hard disk-uri mecanice (HDD), oferind viteze de citire și scriere de 5-30 de ori mai mari și rezistență la șocuri.
+* Hardware = componente fizice; Software = totalitatea programelor ce rulează pe hardware.
+* Memoria RAM este volatilă (datele nesalvate se pierd); SSD/HDD asigură stocarea permanentă.
+* BIOS/UEFI este stocat în cipul ROM și inițiază pornirea calculatorului (POST - Power-On Self Test).
+* Performanța generală depinde de echilibrul dintre procesor, cantitatea de memorie RAM și viteza SSD-ului.
+= memorie volatilă :: memorie de lucru (RAM) care își pierde conținutul la întreruperea alimentării electrice
+= unitate SSD :: dispozitiv de stocare pe memorie flash rapidă, fără piese mecanice în mișcare
+= UEFI :: interfață modernă firmware ce înlocuiește vechiul BIOS pentru inițializarea securizată a sistemului
+= frecvență CPU :: numărul de cicluri de instrucțiuni executate într-o secundă, măsurat în Gigahertz (GHz)
+@ Ce se întâmplă cu datele din memoria RAM la repornirea calculatorului? :: Se pierd complet, RAM-ul fiind o memorie volatilă.
+@ Ce componentă inițializează verificarea hardware la pornire? :: Firmware-ul BIOS/UEFI stocat pe placa de bază în memoria ROM.
+@ Care este avantajul unui SSD comparativ cu un HDD mecanic? :: Timp de acces aproape instantaneu, rate de transfer mult superioare și silențiozitate.
+@ Ce măsoară frecvența în GHz a unui procesor? :: Numărul de miliarde de cicluri de instrucțiuni pe secundă.
+? Memoria RAM este caracterizată prin faptul că:
++ își pierde conținutul la oprirea alimentării cu energie electrică (volatilă)
+- păstrează datele definitiv timp de 10 ani fără curent
+- conține doar programele din fabricație care nu se pot șterge
+- este mai lentă decât un hard disk mecanic
+! RAM-ul asigură viteza de lucru a sistemului, dar necesită alimentare continuă pentru a păstra datele.
+? Unitatea periferică folosită exclusiv pentru introducerea datelor în calculator este:
++ scanerul optic
+- monitorul LED clasic
+- imprimanta laser
+- difuzorul audio
+! Scanerul convertește imagini sau documente tipărite în format digital introdus în sistem.
+? Viteza de transfer și pornirea rapidă a sistemului de operare sunt îmbunătățite cel mai mult prin:
++ instalarea unui SSD NVMe în locul unui HDD mecanic
+- schimbarea carcasei calculatorului
+- mărirea luminozității monitorului
+- folosirea unui mouse cu fir
+! Stocarea flash pe magistrala NVMe elimină blocajele cauzate de viteza redusă a capetelor magnetice HDD.
+? Firmware-ul care execută testul de autodiagnosticare la pornire (POST) se numește:
++ BIOS / UEFI
+- Microsoft Office
+- Adobe Reader
+- Google Chrome
+! UEFI verifică integritatea memoriei, a procesorului și a perifericelor înainte de încărcarea sistemului de operare.
 
-### tic9-02 | Sistemul de operare și gestionarea fișierelor
-Sistemul de operare este programul care gestionează resursele calculatorului și face legătura dintre utilizator, aplicații și hardware. Funcțiile lui: gestionarea proceselor, a memoriei, a fișierelor, a dispozitivelor și interfața cu utilizatorul. Exemple: Windows, macOS, Linux, Android, iOS.
-Fișierul este o colecție de date identificată printr-un nume și o extensie care indică tipul (.txt, .docx, .pdf, .jpg, .mp4, .exe). Fișierele se organizează în foldere, într-o structură arborescentă. Operațiile de bază: creare, copiere, mutare, redenumire, ștergere, căutare, arhivare. Buna organizare — nume descriptive, structură logică, denumiri cu dată pentru versiuni — economisește mai mult timp decât orice altă deprindere digitală.
-* Sistemul de operare gestionează procese, memorie, fișiere, dispozitive și interfața.
-* Extensia indică tipul fișierului și programul care îl deschide.
-* Fișierele se organizează arborescent, în foldere.
-* Numele descriptive și structura logică economisesc timp real.
-= extensie de fișier :: sufixul din numele fișierului, care indică tipul de conținut
-= structură arborescentă :: organizare ierarhică a folderelor, cu ramificații succesive
-@ Ce face un sistem de operare? :: Gestionează resursele calculatorului și mediază între utilizator, aplicații și hardware.
-@ Ce indică extensia unui fișier? :: Tipul de conținut și programul asociat pentru deschidere.
-@ Cum se organizează fișierele? :: Arborescent, în foldere, pe niveluri ierarhice.
-@ De ce contează numele descriptive ale fișierelor? :: Pentru că fac regăsirea rapidă și evită confuziile între versiuni.
-? Extensia .docx indică, de regulă:
-+ un document de text formatat
-- o imagine
-- un fișier executabil
-- o arhivă
-! Extensia .jpg indică o imagine.
-? Un sistem de operare NU are ca funcție:
-+ redactarea documentelor
-- gestionarea memoriei
-- gestionarea fișierelor
-- interfața cu utilizatorul
-! Redactarea se face în aplicații dedicate.
-? Arhivarea unui folder este utilă pentru:
-+ reducerea dimensiunii și transferul mai ușor
-- creșterea vitezei procesorului
-- creșterea memoriei RAM
-- protejarea de viruși
-! Arhivele pot fi și protejate cu parolă.
-? Structura arborescentă a folderelor înseamnă:
-+ organizare ierarhică, cu foldere în interiorul altor foldere
-- toate fișierele într-un singur loc
-- ordonare alfabetică
-- ordonare după dată
-! Ea permite regăsirea rapidă.
+### tic9-02 | Sistemul de operare și gestionarea avansată a fișierelor
+Sistemul de operare (SO) este componenta software fundamentală care administrează resursele hardware (memorie, procesor, dispozitive de intrare/ieșire) și furnizează o interfață grafică (GUI) sau în linie de comandă (CLI) prin care utilizatorii și aplicațiile interacționează cu calculatorul. Exemple de sisteme de operare: Microsoft Windows, Linux (Ubuntu, Fedora, Debian), macOS, Android și iOS. Principalele funcții ale SO includ: managementul proceselor (multitasking preemptiv), managementul memoriei virtuale, gestionarea sistemului de fișiere și asigurarea securității utilizatorilor prin permisiuni.
+În sistemul de operare Windows, informațiile sunt stocate sub formă de fișiere, organizate ierarhic în foldere (directoare) pe discuri logice (ex: C:, D:). Numele complet al unui fișier include calea (path), numele propriu-zis și extensia (separată prin punct), care indică tipul conținutului și aplicația asociată (ex: .docx pentru Word, .xlsx pentru Excel, .pptx pentru PowerPoint, .pdf pentru documente portabile, .jpg/.png pentru imagini, .mp3 pentru audio, .zip/.rar pentru arhive).
+Scurtăturile esențiale de tastatură în lucrul cu fișierele și ferestrele sunt: Ctrl+C (copiere), Ctrl+X (tăiere/mutare), Ctrl+V (lipire), Ctrl+Z (anulare acțiune), F2 (redenumire fișier), Shift+Delete (ștergere definitivă, ocolind Recycle Bin), Win+E (deschidere File Explorer), Alt+Tab (comutare între ferestre deschise) și Ctrl+Shift+Esc (deschidere Task Manager).
+* Sistemul de operare mediază între aplicații, utilizator și componentele hardware fizice.
+* Structura de fișiere este ierarhică (arborescentă), pornind de la rădăcina partiției (ex: C:\).
+* Extensia fișierului stabilește programul prestabilit cu care sistemul va deschide fișierul respectiv.
+* Tastele rapide (Ctrl+C, Ctrl+V, F2, Win+E) optimizează semnificativ timpul de operare.
+= sistem de fișiere :: mod de organizare și indexare a datelor pe disc (ex: NTFS, FAT32, ext4)
+= proces :: un program aflat în stare de execuție activă în memoria RAM
+= cale absolută :: adresa completă a unui fișier pornind de la rădăcina discului (ex: C:\Scoala\Referat.docx)
+= multitasking :: capacitatea sistemului de a rula și gestiona simultan mai multe procese și aplicații
+@ Care este rolul extensiei unui fișier? :: Indică formatul datelor și instruiește sistemul de operare ce aplicație să folosească la deschidere.
+@ Cum ștergi un fișier definitiv în Windows fără a-l mai trimite în Recycle Bin? :: Folosind combinația de taste Shift + Delete.
+@ Ce scurtătură de tastatură deschide rapid File Explorer? :: Tasta Windows + E.
+@ Ce rol are Task Manager (Ctrl+Shift+Esc)? :: Monitorizează consumul de CPU/RAM și permite oprirea proceselor blocate.
+? Pentru a redenumi rapid un fișier selectat în File Explorer, tasta funcțională utilizată este:
++ F2
+- F1
+- F5
+- F12
+! F2 activează direct editarea numelui fișierului selectat.
+? Combinația de taste care permite comutarea instantanee între ferestrele deschise este:
++ Alt + Tab
+- Ctrl + P
+- Shift + F3
+- Alt + F4
+! Alt+Tab deschide comutatorul vizual de aplicații active.
+? Extensia specifică documentelor portabile care păstrează fidel aspectul indiferent de platformă este:
++ .pdf
+- .exe
+- .bat
+- .tmp
+! PDF (Portable Document Format) garantează același aspect vizual pe orice ecran sau imprimantă.
+? Sistemul de fișiere standard utilizat pe partițiile moderne de Windows se numește:
++ NTFS
+- FAT16
+- EXT2
+- DOS
+! NTFS oferă securitate cu permisiuni pe fișiere, jurnalizare și suport pentru discuri de mari dimensiuni.
 
-### tic9-03 | Rețele, internet și servicii web
-O rețea de calculatoare leagă dispozitive pentru a partaja date și resurse. După întindere: LAN (locală), MAN (metropolitană), WAN (extinsă). Internetul este rețeaua globală care leagă rețele, funcționând pe baza protocoalelor TCP/IP. Fiecare dispozitiv are o adresă IP; sistemul DNS traduce numele de domenii în adrese IP.
-Serviciile principale: web-ul (paginile accesate prin HTTP/HTTPS, cu HTTPS criptând comunicația), poșta electronică, transferul de fișiere, mesageria, streamingul, serviciile în cloud. Browserul este aplicația care afișează paginile web. Motorul de căutare indexează paginile și le ordonează după relevanță; folosirea eficientă presupune cuvinte-cheie precise, operatori de căutare (ghilimele pentru expresie exactă, minus pentru excludere, site: pentru un anumit domeniu) și verificarea sursei.
-* Rețele: LAN, MAN, WAN; internetul funcționează pe protocoalele TCP/IP.
-* DNS traduce numele de domenii în adrese IP.
-* HTTPS criptează comunicația dintre browser și server.
-* Căutarea eficientă folosește cuvinte precise și operatori.
-= adresă IP :: identificatorul numeric al unui dispozitiv într-o rețea
-= DNS :: sistemul care traduce numele de domenii în adrese IP
-@ Ce este o adresă IP? :: Identificatorul numeric al unui dispozitiv într-o rețea.
-@ Ce face sistemul DNS? :: Traduce numele de domenii în adrese IP.
-@ Prin ce diferă HTTPS de HTTP? :: HTTPS criptează comunicația dintre browser și server.
-@ Ce operatori ajută la căutarea eficientă? :: Ghilimelele pentru expresie exactă, minusul pentru excludere, site: pentru un domeniu anume.
-? HTTPS se deosebește de HTTP prin:
-+ criptarea comunicației
-- viteza mai mare
-- afișarea imaginilor
-- accesul la fișiere
-! Lacătul din bara de adrese indică o conexiune securizată.
-? O rețea LAN este:
-+ o rețea locală, într-o clădire sau într-o instituție
-- rețeaua globală
-- o rețea metropolitană
-- o rețea de telefonie
-! WAN desemnează rețelele extinse.
-? Căutarea unei expresii exacte se face folosind:
-+ ghilimelele
-- semnul plus
-- semnul întrebării
-- asteriscul
-! Minusul exclude un termen din rezultate.
-? Browserul este:
-+ aplicația care afișează paginile web
-- motorul de căutare
-- serverul care găzduiește site-ul
-- protocolul de comunicație
-! Motorul de căutare este un serviciu accesat prin browser.
+### tic9-03 | Rețele de calculatoare, internet și servicii web
+O rețea de calculatoare este un ansamblu de sisteme autonome interconectate prin medii fizice (cablu torsadat UTP/STP, fibră optică) sau unde radio (Wi-Fi, Bluetooth, rețele mobile 4G/5G) în scopul comunicării și partajării de resurse hardware, software și date. După aria de acoperire geografică, rețelele se clasifică în: LAN (Local Area Network — o sală de clasă, o clădire), MAN (Metropolitan Area Network — un oraș) și WAN (Wide Area Network — o țară sau o rețea globală).
+Internetul este rețeaua mondială a rețelelor, funcționând pe baza suitei de protocoale standard TCP/IP. Protocolul IP (Internet Protocol) gestionează adresarea logică a dispozitivelor (adrese IPv4 de 32 biți de tipul 192.168.1.1 sau IPv6 de 128 biți). Protocolul TCP (Transmission Control Protocol) garantează transmiterea corectă, ordonată și fără pierderi a pachetelor de date. Serviciul DNS (Domain Name System) acționează ca o carte de telefon a internetului, convertind numele ușor de reținut (ex: www.edu.ro) în adrese IP numerice înțelese de routere.
+Serviciile majore ale internetului includ: World Wide Web (WWW — pagini hipertext transferate prin protocoalele HTTP/HTTPS), poșta electronică (E-mail prin SMTP, IMAP, POP3), transferul de fișiere (FTP/SFTP) și stocarea în cloud (Google Drive, OneDrive). Pentru navigare sigură pe web, protocolul HTTPS folosește criptare SSL/TLS, garantând că datele trimise (parole, formulare) nu pot fi interceptate pe traseu.
+* Rețelele se clasifică după întindere în LAN (locale), MAN (metropolitane) și WAN (globale).
+* Adresa IP identifică unic un echipament conectat la o rețea TCP/IP.
+* Serviciul DNS traduce adresele URL alfanumerice în adrese IP numerice.
+* HTTPS criptează traficul web, prevenind interceptarea datelor confidențiale.
+= LAN :: rețea locală de calculatoare ce acoperă o zonă restrânsă (locuință, școală, birou)
+= DNS :: sistem distribuit care asociază nume de domenii web adreselor IP corespondente
+= router :: echipament de rețea care direcționează pachetele de date între rețele diferite
+= HTTPS :: versiunea securizată și criptată a protocolului de transfer al paginilor web
+@ Ce transformare realizează serverul DNS? :: Traduce numele de domeniu (ex: liceu.ro) în adresa IP a serverului gazdă.
+@ Care este deosebirea cheie dintre HTTP și HTTPS? :: HTTPS folosește criptare SSL/TLS pentru a proteja confidențialitatea datelor transmise.
+@ Ce protocol garantează că pachetele de date ajung integre și în ordine la destinație? :: Protocolul TCP.
+@ Ce tip de rețea deservește un laborator școlar? :: O rețea LAN (Local Area Network).
+? Adresa logică utilizată pentru rutarea datelor pe internet este:
++ Adresa IP
+- Adresa poștală
+- Codul numeric personal
+- Numărul de înmatriculare
+! Adresa IP identifică nodul de rețea sursă și destinație.
+? Protocolul dedicat trimiterii mesajelor de e-mail către serverul de destinație este:
++ SMTP
+- HTTP
+- DHCP
+- FTP
+! SMTP (Simple Mail Transfer Protocol) expediază mesajele de poștă electronică.
+? Cablul de rețea cel mai frecvent utilizat în rețelele LAN școlare este:
++ cablul UTP cu mufă RJ-45
+- cablul coaxial TV
+- cablul audio jack
+- cablul VGA
+! UTP categoria 5e sau 6 este standardul de cablare ethernet în rețele locale.
+? Dacă într-un browser web adresa începe cu „https://” și are un lacăt închis, înseamnă că:
++ comunicarea dintre calculator și server este criptată și securizată
+- site-ul este complet offline
+- calculatorul nu are memorie RAM
+- descărcarea de fișiere este blocată definitiv
+! Lacătul confirmă prezența unui certificat SSL/TLS valid și criptarea traficului.
 
-## 2 | tic9-c2 | Editare de text și prezentări
-### tic9-04 | Procesorul de text: formatare și structură
-Un procesor de text permite redactarea, formatarea și tipărirea documentelor. Formatarea la nivel de caracter: font, dimensiune, stil, culoare, indici. La nivel de paragraf: aliniere, indentare, spațiere, spațiu înainte și după, liste. La nivel de pagină: margini, orientare, dimensiune, antet și subsol, numerotare.
-Regula profesională este să nu formatezi manual, ci prin stiluri: aplicarea stilului „Titlu 1” pentru capitole și „Titlu 2” pentru subcapitole permite generarea automată a cuprinsului, navigarea rapidă și modificarea unitară a aspectului. Alte instrumente utile: verificarea ortografică, căutare și înlocuire, note de subsol, referințe, comentarii, urmărirea modificărilor, îmbinarea corespondenței.
-* Formatarea se face la nivel de caracter, paragraf și pagină.
-* Folosirea stilurilor permite cuprins automat și modificări unitare.
-* Instrumente utile: căutare-înlocuire, note de subsol, comentarii, urmărirea modificărilor.
-* Formatarea manuală repetată este sursa cea mai frecventă de documente inconsecvente.
-= stil (în procesorul de text) :: set predefinit de formatări aplicabil unitar unui tip de conținut
-= cuprins automat :: listă de titluri generată de program pe baza stilurilor aplicate
-@ De ce se folosesc stilurile într-un document? :: Pentru cuprins automat, navigare rapidă și modificarea unitară a formatării.
-@ Ce se formatează la nivel de paragraf? :: Alinierea, indentarea, spațierea și listele.
-@ Ce este îmbinarea corespondenței? :: Procedeul de a genera documente personalizate dintr-un șablon și o listă de date.
-@ Care este cel mai frecvent defect al documentelor formatate manual? :: Inconsecvența aspectului între secțiuni.
-? Cuprinsul automat se poate genera dacă:
-+ titlurile au stiluri aplicate
-- documentul are numerotare
-- textul este aliniat
-- se folosesc tabele
-! Programul citește ierarhia stilurilor.
-? Indentarea este o formatare la nivel de:
-+ paragraf
-- caracter
-- pagină
-- document
-! Fontul este formatare la nivel de caracter.
-? Urmărirea modificărilor este utilă pentru:
-+ lucrul în colaborare, cu vizualizarea schimbărilor
-- reducerea dimensiunii fișierului
-- protejarea cu parolă
-- tipărirea rapidă
-! Fiecare modificare poate fi acceptată sau respinsă.
-? Formatarea manuală repetată a titlurilor:
-+ produce inconsecvențe și îngreunează modificările
-- este mai rapidă
-- permite cuprins automat
-- este recomandată
-! Stilurile rezolvă ambele probleme.
+## 1 | tic9-c2 | Editare de text și prezentări
+### tic9-04 | Procesorul de text: formatare, stiluri și structură profesională
+Procesorul de text (Microsoft Word, Google Docs, LibreOffice Writer) este aplicația fundamentală pentru redactarea documentelor școlare, științifice și administrative. Un document bine redactat respectă ierarhia vizuală și regulile tipografice: paginarea (margini standard de 2 cm sau 2.5 cm, orientare Portret sau Vedere), formatarea caracterelor (familie de fonturi lizibile precum Times New Roman, Calibri sau Arial, dimensiune font 12 pt pentru textul de bază, îngroșat/Bold pentru evidențieri, cursiv/Italic pentru termeni străini sau titluri de cărți).
+Formatarea la nivel de paragraf include: alinierea textului (Justified pentru documente formale, Left pentru liste sau documente relaxate), spațierea între rânduri (Line Spacing la 1.15 sau 1.5 linii) și spațierea înainte/după paragraf (Before/After 6 pt), evitând apăsarea repetată a tastei Enter pentru a crea spații goale. De asemenea, indentarea primei linii (First Line Indent la 1.25 cm) structurează lectura.
+Utilizarea Stilurilor (Heading 1, Heading 2, Heading 3, Normal) este obligatorie pentru documentele lungi. Stilurile permit: schimbarea unitară a aspectului printr-un singur clic, generarea automată a Cuprinsului (Table of Contents) din meniul Referințe, precum și navigarea rapidă prin panoul de navigare (Ctrl+F).
+Scurtăturile esențiale în procesorul de text sunt: Ctrl+B (Bold), Ctrl+I (Italic), Ctrl+U (Underline), Ctrl+J (aliniere Justify), Ctrl+L (aliniere la stânga), Ctrl+E (centrare), Ctrl+Enter (inserare întrerupere de pagină - Page Break) și Ctrl+F (căutare în text).
+* Ierarhia documentului se realizează prin stiluri de titlu (Heading 1, Heading 2), nu prin mărire manuală a fontului.
+* Cuprinsul automat se generează pe baza stilurilor Heading marcate în text.
+* Tasta Ctrl+Enter inserează un Page Break curat, fără spațiere forțată cu taste Enter repetate.
+* Formatarea de paragraf Justified distribuie cuvintele uniform între marginile stânga și dreapta.
+= stil de paragraf :: colecție predefinită de caracteristici de formatare aplicabilă cu un singur clic
+= cuprins automat :: tabel de conținut generat dinamic pe baza nivelurilor de titlu din document
+= page break :: instrucțiune specială care forțează continuarea textului pe pagina următoare
+= aliniere justified :: alinierea simultană a textului atât la marginea stângă, cât și la cea dreaptă a paginii
+@ Cum se generează un cuprins automat în Word? :: Se aplică stilurile Heading titlurilor, apoi din meniul Referințe se alege Table of Contents.
+@ Ce combinație de taste inserează instantaneu o pagină nouă? :: Ctrl + Enter.
+@ De ce nu este recomandat să apeși tasta Enter de mai multe ori pentru a trece pe pagina următoare? :: Deoarece la adăugarea ulterioară de text, spațiile libere se decalează și strică așezarea în pagină.
+@ Ce comandă rapidă aliniază textul stânga-dreapta (Justify)? :: Ctrl + J.
+? Pentru a crea o structură ierarhică corectă ce permite generarea cuprinsului, titlurilor li se aplică:
++ Stilurile Heading 1, Heading 2, Heading 3
+- formatarea WordArt cu umbră
+- doar culoarea roșie fără stil
+- scrierea cu majuscule la întâmplare
+! Generatorul de cuprins scanează automat stilurile Heading din document.
+? Trecerea forțată a textului la începutul unei pagini noi se realizează corect prin:
++ Inserare -> Întrerupere de pagină (Page Break / Ctrl+Enter)
+- apăsarea tastei Enter de 30 de ori
+- micșorarea marginilor la zero
+- schimbarea orientării întregului fișier
+! Page Break menține titlul pe pagina nouă indiferent de modificările aduse textului anterior.
+? Spațierea standard recomandată între rândurile unui referat sau document formal este:
++ 1.15 sau 1.5 linii
+- 3 linii
+- 0.5 linii
+- spațiere dublă la fiecare literă
+! Spațierea de 1.15 sau 1.5 linii oferă lizibilitate optimă și spațiu pentru adnotări.
+? Butonul „Format Painter” (Descriptor de formate) este utilizat pentru:
++ copierea caracteristicilor de formatare de la un text selectat la altul
+- pictarea de desene libere în Word
+- verificarea ortografică a limbii
+- ștergerea definitivă a documentului
+! Format Painter preia fontul, mărimea, culoarea și stilul și le aplică pe noul text selectat.
 
-### tic9-05 | Prezentări electronice
-O prezentare electronică susține un discurs, nu îl înlocuiește. Principiile de bază: o idee pe slide, text minim (cuvinte-cheie, nu paragrafe), contrast suficient între text și fundal, font lizibil de la distanță, imagini relevante și de calitate, consecvență vizuală prin folosirea unui șablon.
-Greșelile frecvente: slide-uri încărcate cu text pe care vorbitorul le citește, animații excesive, culori care reduc lizibilitatea, grafice fără etichete, prea multe slide-uri pentru timpul disponibil. Regula practică: aproximativ un slide la un minut și jumătate de vorbire. Instrumentele utile: modul de vizualizare cu note pentru vorbitor, tranzițiile simple, verificarea prezentării pe ecranul real înainte de susținere.
-* Prezentarea susține discursul; nu îl înlocuiește.
-* O idee pe slide, text minim, contrast bun, font lizibil, consecvență vizuală.
-* Regula practică: circa un slide la un minut și jumătate.
-* Se verifică prezentarea pe ecranul real înainte de susținere.
-= șablon de prezentare :: set predefinit de culori, fonturi și așezări, aplicat unitar tuturor slide-urilor
-= note pentru vorbitor :: text vizibil doar prezentatorului, care îl ghidează în timpul expunerii
-@ Care este principiul de bază al unui slide bun? :: O idee pe slide, cu text minim.
-@ Care este regula practică pentru numărul de slide-uri? :: Aproximativ un slide la un minut și jumătate de vorbire.
-@ Ce sunt notele pentru vorbitor? :: Text vizibil doar prezentatorului, care îl ghidează în expunere.
-@ Care este greșeala cea mai frecventă într-o prezentare? :: Slide-uri încărcate cu text, citite cu voce tare.
-? Un slide bun conține:
-+ o idee, exprimată prin cuvinte-cheie
-- un paragraf complet
-- toate detaliile expunerii
-- cel puțin trei imagini
-! Textul detaliat aparține discursului, nu slide-ului.
-? Pentru o prezentare de 15 minute sunt potrivite, orientativ:
-+ circa 10 slide-uri
-- 30 de slide-uri
-- 3 slide-uri
-- 50 de slide-uri
-! Regula este circa un slide la un minut și jumătate.
-? Folosirea unui șablon asigură:
-+ consecvența vizuală a prezentării
-- reducerea dimensiunii fișierului
-- animații automate
-- corectarea greșelilor
-! Consecvența ajută înțelegerea și profesionalismul.
-? Citirea slide-urilor cu voce tare de către prezentator:
-+ face prezentarea redundantă și plictisitoare
-- este recomandată
-- ajută publicul
-- economisește timp
-! Publicul citește mai repede decât vorbește prezentatorul.
+### tic9-05 | Prezentări electronice interactive și design vizual
+Aplicațiile de prezentare (Microsoft PowerPoint, Google Slides, Canva) permit sintetizarea vizuală și susținerea unui discurs în fața unui auditoriu. O prezentare eficientă respectă regula simplității: diapozitivele (slide-urile) nu sunt pagini de carte ce trebuie citite cuvânt cu cuvânt, ci suporturi vizuale cu idei-cheie, diagrame, imagini sugestive și date statistice. Regula 6x6 recomandă maximum 6 rânduri pe slide și maximum 6 cuvinte pe rând.
+Structura clasică a unei prezentări cuprinde: slide-ul de titlu (tema, autorul, instituția), slide-ul de cuprins/agendă, slide-urile de conținut (organizate pe secțiuni logice) și slide-ul de concluzii cu date de contact sau bibliografie. Coordonatorul de diapozitive (Slide Master) permite stabilirea unui șablon vizual unitar (fonturi, culori, logo de colț) valabil automat pentru toate slide-urile.
+Efectele de tranziție (trecerea de la un slide la altul) și de animație (apariția elementelor din slide: Intrare, Accent, Ieșire) trebuie să fie sobre și discrete, fără a distrage atenția de la mesajul prezentatorului. Scurtăturile critice la susținerea unei prezentări sunt: F5 (pornire prezentare de la primul slide), Shift+F5 (pornire de la slide-ul curent), B (ecran negru pentru captarea atenției), W (ecran alb) și Esc (ieșire din modul prezentare).
+* Slide-urile susțin discursul vorbitorului prin idei schematice, imagini și grafice clare.
+* Slide Master (Coordonatorul) garantează aplicarea automată a identității vizuale pe tot parcursul prezentării.
+* Animațiile exagerate obosesc publicul și diluează impactul profesional al mesajului.
+* Tasta F5 lansează prezentarea de la început, iar Shift+F5 de la slide-ul selectat.
+= diapozitiv :: pagina individuală a unei prezentări electronice (slide)
+= Slide Master :: macheta coordonatoare ce dictează structura grafică și fonturile pentru toate diapozitivele
+= tranziție :: efectul animat care însoțește trecerea de la un slide la următorul
+= animație :: efectul de mișcare aplicat unui text sau obiect din interiorul unui slide
+@ Ce rol are tasta funcțională F5 într-o aplicație de prezentări? :: Pornește expunerea (Slide Show) de la primul diapozitiv.
+@ Cum lansezi prezentarea începând exact de la slide-ul curent pe care lucrezi? :: Folosind Shift + F5.
+@ Care este scopul instrumentului Slide Master? :: Definirea unui design unitar (fonturi, poziții, logo) aplicat automat tuturor diapozitivelor.
+@ De ce nu este recomandat să umpli slide-ul cu blocuri mari de text? :: Deoarece publicul va încerca să citească textul în loc să asculte prezentatorul.
+? Pentru a porni expunerea de la slide-ul selectat în acel moment, se apasă:
++ Shift + F5
+- F1
+- Ctrl + S
+- Alt + F4
+! Shift+F5 lansează proiecția exact de la poziția curentă de editare.
+? Coordonatorul de diapozitive (Slide Master) se găsește în meniul:
++ Vizualizare (View)
+- Fișier (File)
+- Tranziții (Transitions)
+- Ajutor (Help)
+! Meniul View conține accesul la Slide Master pentru editarea șablonului de bază.
+? În timpul unei expuneri de tip Slide Show, apăsarea tastei B are ca efect:
++ afișarea unui ecran complet negru (Black screen) pentru a orienta atenția către vorbitor
+- închiderea forțată a calculatorului
+- ștergerea tuturor notițelor
+- mărirea sonorului la maximum
+! Tasta B permite prezentatorului să suspende temporar proiecția pentru a purta un dialog cu sala.
+? O regulă de bază a designului unei prezentări profesionale este:
++ contrast ridicat între culoarea textului și cea a fundalului
+- folosirea a cel puțin 10 fonturi diferite pe fiecare pagină
+- includerea a cât mai mult text mărunt posibil
+- utilizarea exclusivă a textului galben pe fundal alb
+! Contrastul optim (ex: text închis la culoare pe fundal deschis sau invers) asigură lizibilitatea din fundul sălii.
 
-### tic9-06 | Comunicare online și colaborare
-Poșta electronică rămâne instrumentul standard al comunicării formale. Un e-mail bun are: subiect clar și specific, formulă de adresare potrivită, mesaj scurt și structurat, cerere explicită, formulă de încheiere, semnătură. Câmpurile Cc (copie) și Bcc (copie ascunsă) au reguli: Bcc pentru liste mari, ca să nu expui adresele altora.
-Colaborarea online permite lucrul simultan în același document, cu istoric al versiunilor, comentarii, sugestii și drepturi de acces diferențiate (vizualizare, comentare, editare). Reguli de bună practică: se acordă doar drepturile necesare, se folosesc comentarii în loc de modificări directe în textul altcuiva, se verifică cine are acces înainte de a partaja un document cu date personale. Netiquette-ul cere claritate, politețe, evitarea majusculelor (care sugerează strigăt) și răbdare în interpretarea tonului.
-* E-mailul formal: subiect clar, adresare, mesaj structurat, cerere explicită, semnătură.
-* Bcc protejează adresele destinatarilor în listele mari.
-* Colaborarea online: istoric al versiunilor, comentarii, drepturi diferențiate.
-* Se acordă doar drepturile de acces necesare.
-= Bcc :: câmp de e-mail prin care destinatarii nu văd adresele celorlalți
-= drepturi de acces :: nivelul de permisiune acordat unui utilizator asupra unui document partajat
-@ Ce trebuie să conțină un e-mail formal? :: Subiect clar, formulă de adresare, mesaj structurat, cerere explicită, semnătură.
-@ Când se folosește Bcc? :: La liste mari de destinatari, pentru a nu expune adresele lor.
-@ Ce drepturi se pot acorda la partajarea unui document? :: Vizualizare, comentare sau editare.
-@ De ce se evită majusculele în comunicarea online? :: Pentru că sugerează strigăt și sunt percepute ca agresive.
-? Trimiterea unui e-mail către 50 de destinatari se face corect folosind:
-+ Bcc
-- Cc
-- câmpul „Către”
-- răspuns tuturor
-! Astfel adresele nu sunt expuse.
-? Un subiect de e-mail bun este:
-+ scurt și specific pentru conținut
-- lipsă, pentru a nu limita mesajul
-- format din întregul mesaj
-- scris cu majuscule
-! El determină dacă mesajul e deschis și găsit ulterior.
-? La partajarea unui document se acordă:
-+ doar drepturile necesare scopului
-- întotdeauna drept de editare
-- acces public implicit
-- drepturi de administrator
-! Este principiul privilegiului minim.
-? Comentariile într-un document colaborativ sunt preferabile pentru că:
-+ semnalează problema fără a modifica textul altcuiva
-- sunt mai rapide
-- nu pot fi șterse
-- se tipăresc automat
-! Ele păstrează responsabilitatea autorului asupra textului.
+### tic9-06 | Comunicare online, e-mail profesional și instrumente de colaborare
+Comunicarea digitală modernă combină instrumentele asincrone (e-mail, forumuri) cu cele sincrone (chat în timp real, apeluri video). Poșta electronică rămâne standardul formal de comunicare în mediul academic și profesional. O adresă de e-mail corectă este formată din: nume utilizator, simbolul @ (a rond / at) și numele de domeniu al furnizorului (ex: prenume.nume@liceu.ro).
+Structura unui e-mail profesional cuprinde: destinatarul principal (câmpul To/Către), persoanele puse în copie informativă (câmpul Cc - Carbon Copy), persoanele în copie ascunsă (câmpul Bcc - Blind Carbon Copy, obligatoriu când se trimit mesaje la grupuri mari pentru a le proteja confidențialitatea adreselor), un Subiect (Subject) clar și concis, formula formală de adresare, corpul concis al mesajului, formula de încheiere și semnătura digitală cu date de contact.
+Platformele de colaborare în cloud (Google Workspace, Microsoft 365) permit editarea simultană a documentelor de către mai mulți colegi, oferind opțiuni granulare de partajare: Viewer (doar vizualizare), Commenter (poate adăuga comentarii de revizuire) și Editor (drepturi depline de modificare). Istoricul versiunilor (Version History) permite vizualizarea modificărilor făcute de fiecare utilizator și restaurarea oricărei versiuni anterioare în caz de eroare.
+* Câmpul Bcc (copie ascunsă) protejează intimitatea destinatarilor în mesajele trimise către grupuri.
+* Subiectul e-mailului trebuie să rezume clar scopul mesajului (ex: „Solicitare adeverință elev - Popescu Ion”).
+* Instrumentele cloud permit editarea colaborativă în timp real și salvarea automată a modificărilor.
+* Istoricul versiunilor (Version History) garantează recuperarea conținutului anterior.
+= Bcc :: copie de carbon oarbă; adresele din acest câmp nu sunt vizibile pentru ceilalți destinatari
+= etichetă digitală (Netiquette) :: ansamblul de reguli de politețe și respect în comunicarea pe internet
+= istoric de versiuni :: funcție cloud ce ține evidența fiecărei modificări aduse fișierului în timp
+= partajare cloud :: acordarea de drepturi de acces la un fișier stocat pe serverele de internet
+@ La ce folosește câmpul Bcc la trimiterea unui e-mail? :: Ascunde adresele destinatarilor din listă, protejându-le confidențialitatea.
+@ Ce drepturi are un utilizator cu rolul „Viewer” pe un document Google Docs? :: Poate doar să citească documentul, fără a-l modifica sau comenta.
+@ Ce este Netiquette? :: Codul de conduită civilizată și respect reciproc în mediul online.
+@ Cum poți anula o modificare greșită făcută de un coleg pe un document partajat în cloud? :: Accesezi Istoricul versiunilor și restaurezi versiunea de dinainte de modificare.
+? Câmpul utilizat pentru a trimite o copie a mesajului fără ca ceilalți destinatari să știe se numește:
++ Bcc (Blind Carbon Copy)
+- To (Către)
+- Cc (Carbon Copy)
+- Subject (Subiect)
+! Bcc menține invizibilă adresa destinatarilor din acest câmp.
+? În redactarea unui e-mail formal, scrierea integrală a textului cu MAJUSCULE este considerată:
++ echivalentul strigătului sau agresivității verbale (lipsă de politețe)
+- o dovadă de înalt respect
+- obligatorie prin lege
+- o tehnică de îmbunătățire a vitezei de internet
+! Scrierea cu majuscule încalcă regulile de netichetă și denotă agresivitate.
+? Istoricul versiunilor (Version History) dintr-o aplicație de colaborare cloud permite:
++ restaurarea unei versiuni anterioare a documentului și identificarea autorilor modificărilor
+- ștergerea definitivă a contului Google sau Microsoft
+- blocarea automată a calculatorului
+- mărirea vitezei de tastare
+! Istoricul ține evidența cronologică a fiecărui paragraf adăugat sau șters.
+? Pentru a permite cuiva să citească un document din cloud fără a avea dreptul de a scrie sau șterge nimic, îi acorzi permisiunea de:
++ Vizualizator (Viewer)
+- Editor (Editor)
+- Administrator de sistem
+- Proprietar (Owner)
+! Rolul Viewer permite doar consultarea securizată a conținutului.
 
-## 2 | tic9-c3 | Siguranță și responsabilitate digitală
-### tic9-07 | Securitate: parole, malware, actualizări
-Securitatea digitală începe cu parolele. O parolă bună este lungă (peste 12 caractere), unică pentru fiecare serviciu și greu de ghicit; o frază de acces formată din mai multe cuvinte este mai sigură și mai ușor de reținut decât un șir scurt cu simboluri. Managerul de parole rezolvă problema unicității. Autentificarea în doi pași adaugă un al doilea factor și blochează majoritatea atacurilor bazate pe parole furate.
-Programele malițioase (malware) includ viruși, viermi, troieni, ransomware (criptează datele și cere răscumpărare), spyware. Măsuri de bază: actualizarea sistemului și a aplicațiilor, program antivirus activ, atenție la atașamente și la linkuri, descărcarea aplicațiilor doar din surse oficiale, copii de siguranță regulate. Copia de siguranță este singura protecție reală împotriva ransomware-ului.
-* Parolă lungă, unică, ideal o frază de acces; manager de parole pentru unicitate.
-* Autentificarea în doi pași blochează majoritatea atacurilor cu parole furate.
-* Malware: viruși, viermi, troieni, ransomware, spyware.
-* Copia de siguranță este singura protecție reală împotriva ransomware-ului.
-= autentificare în doi pași :: verificare suplimentară, printr-un al doilea factor, la conectare
-= ransomware :: program malițios care criptează datele și cere răscumpărare
-@ Ce face o parolă puternică? :: Lungimea, unicitatea și imprevizibilitatea; o frază de acces e ideală.
-@ Ce este autentificarea în doi pași? :: Verificarea suplimentară printr-un al doilea factor, pe lângă parolă.
-@ Ce este ransomware-ul? :: Un program care criptează datele și cere răscumpărare pentru deblocare.
-@ Care este singura protecție reală împotriva ransomware-ului? :: Copiile de siguranță făcute regulat.
-? Cea mai eficientă măsură împotriva parolelor furate este:
-+ autentificarea în doi pași
-- schimbarea lunară a parolei
-- folosirea aceleiași parole peste tot
-- notarea parolelor pe hârtie
-! Al doilea factor blochează accesul chiar cu parola compromisă.
-? O frază de acces formată din patru cuvinte:
-+ este, de regulă, mai sigură decât o parolă scurtă cu simboluri
-- este mai slabă
-- este imposibil de reținut
-- nu poate fi folosită
-! Lungimea contează mai mult decât complexitatea aparentă.
-? Actualizările de sistem sunt importante deoarece:
-+ corectează vulnerabilități de securitate cunoscute
-- schimbă aspectul interfeței
-- eliberează spațiu
-- măresc viteza procesorului
-! Amânarea lor lasă breșe deschise.
-? Copiile de siguranță ar trebui păstrate:
-+ și într-o locație separată de calculator
-- exclusiv pe același disc
-- doar în memoria RAM
-- doar pe desktop
-! Altfel se pierd odată cu dispozitivul.
+## 1 | tic9-c3 | Siguranță și responsabilitate digitală
+### tic9-07 | Securitate cibernetică: parole, autentificare 2FA și protecție anti-malware
+Securitatea cibernetică cuprinde totalitatea măsurilor tehnice și comportamentale adoptate pentru a proteja dispozitivele, rețelele și datele împotriva accesului neautorizat, a furtului de identitate sau a deteriorării provocate de atacuri malițioase. Prima barieră de apărare o constituie parolele de acces. O parolă robustă conține cel puțin 12-16 caractere, combinând litere mari, litere mici, cifre și simboluri speciale (@, #, $, %), fiind unică pentru fiecare serviciu în parte.
+Autentificarea în doi factori (2FA / MFA - Multi-Factor Authentication) adaugă un nivel critic de protecție: chiar dacă parola este aflată sau compromisă, atacatorul nu se poate conecta fără un al doilea factor de validare (un cod temporar primit prin aplicație de autentificare, SMS securizat sau amprentă biometrică).
+Programele malware (malicious software) reprezintă software proiectat să infecteze și să exploateze calculatoarele. Principalele categorii sunt: virușii (se atașează de alte fișiere și se multiplică), viermii de rețea (se propagă automat prin conexiuni), troienii (se deghizează în aplicații utile pentru a deschide porți secrete / backdoors), spyware-ul (monitorizează tastele apăsate și istoricul de navigare) și ransomware-ul (criptează datele victimei și cere răscumpărare financiară).
+Protecția eficientă impune: folosirea unei soluții antivirus active cu actualizare zilnică a bazelor de semnături, menținerea sistemului de operare și a aplicațiilor actualizate (patching) pentru a elimina vulnerabilitățile cunoscute, și prudență extremă la descărcarea de fișiere executabile (.exe, .scr) de pe site-uri nesigure.
+* O parolă sigură este lungă (12+ caractere), complexă și folosită exclusiv pe un singur cont.
+* Autentificarea în doi pași (2FA) blochează atacurile chiar și atunci când parola a fost spartă.
+* Ransomware-ul criptează fișierele personale și solicită bani pentru cheia de decriptare.
+* Actualizările regulate ale sistemului de operare corectează breșele de securitate critice.
+= autentificare în doi factori :: metodă de securitate ce cere doi pași diferiți pentru confirmarea identității
+= ransomware :: program malware care blochează accesul la date prin criptare, cerând răscumpărare
+= troian :: aplicație aparent legitimă care ascunde un cod malițios ce permite preluarea controlului
+= vulnerabilitate :: breșă de securitate sau eroare în codul unui program ce poate fi exploatată de hackeri
+@ De ce este periculoasă folosirea aceleiași parole pe mai multe site-uri? :: Dacă un singur site este spart, hackerii obțin acces automat la toate celelalte conturi.
+@ Ce este 2FA (autentificarea în doi pași)? :: Un sistem de siguranță ce cere parola plus un cod unic temporar de pe telefon.
+@ Ce face un atac de tip ransomware? :: Criptează fișierele și blochează accesul la ele până când se plătește o răscumpărare.
+@ Ce rol au actualizările de securitate ale sistemului de operare? :: Închid breșele (vulnerabilitățile) prin care hackerii ar putea pătrunde în sistem.
+? Cel mai sigur nivel de protecție pentru conturile online este asigurat prin:
++ activarea autentificării în doi pași (2FA) și parole unice complexe
+- folosirea numelui propriu drept parolă pe toate site-urile
+- notarea parolelor pe un bilet lipit pe monitor
+- dezactivarea tuturor actualizărilor de securitate
+! 2FA solicită validare fizică pe un al doilea dispozitiv, oprind accesul neautorizat.
+? Tipul de malware care criptează datele utilizatorului și cere o sumă de bani pentru deblocare este:
++ ransomware
+- adware
+- browser web
+- driver video
+! Ransomware-ul este una dintre cele mai agresive amenințări cibernetice moderne.
+? O aplicație malițioasă ce pare a fi un joc gratuit, dar în fundal deschide acces atacatorilor la sistem este:
++ un cal troian (trojan)
+- un fișier text curat
+- un procesor de text
+- un motor de căutare
+! Troianul își înșală victima afișând o utilitate aparent legitimă.
+? Menținerea sistemului de operare actualizat permanent este esențială deoarece:
++ instalează corecții pentru breșele de securitate descoperite recent
+- mărește dimensiunea ecranului monitorului
+- șterge automat toate fotografiile din calculator
+- reduce viteza conexiunii la internet
+! Actualizările de securitate elimină breșele înainte ca ele să fie exploatate de hackeri.
 
-### tic9-08 | Date personale, urmă digitală și confidențialitate
-Datele cu caracter personal sunt orice informații care pot identifica o persoană: nume, adresă, CNP, e-mail, fotografii, date de localizare, identificatori online. Regulamentul general privind protecția datelor (GDPR) stabilește drepturile persoanei: informare, acces, rectificare, ștergere, restricționare, portabilitate, opoziție. Prelucrarea trebuie să aibă un temei legal, iar consimțământul trebuie să fie liber, specific și informat.
-Urma digitală este ansamblul informațiilor lăsate online, activ (postări, comentarii) sau pasiv (istoric, localizare, cookie-uri). Ea este greu reversibilă: ceea ce a fost publicat poate fi copiat și redistribuit. Reguli practice: verifică setările de confidențialitate, gândește înainte de a posta, nu publica date care identifică locul unde te afli în timp real, nu distribui date personale ale altora fără acordul lor, revizuiește periodic permisiunile acordate aplicațiilor.
-* Datele personale identifică, direct sau indirect, o persoană.
-* GDPR dă drepturi: informare, acces, rectificare, ștergere, opoziție.
-* Consimțământul trebuie să fie liber, specific și informat.
-* Urma digitală e greu reversibilă: ce a fost publicat poate fi copiat.
-= date cu caracter personal :: orice informații care pot identifica, direct sau indirect, o persoană
-= urmă digitală :: ansamblul informațiilor lăsate de o persoană în mediul online
-@ Ce sunt datele cu caracter personal? :: Orice informații care pot identifica, direct sau indirect, o persoană.
-@ Ce drepturi dă GDPR? :: Informare, acces, rectificare, ștergere, restricționare, portabilitate, opoziție.
-@ Ce este urma digitală? :: Ansamblul informațiilor lăsate online, activ sau pasiv.
-@ De ce este urma digitală greu reversibilă? :: Pentru că ceea ce a fost publicat poate fi copiat și redistribuit de oricine.
-? Adresa de e-mail este:
-+ o dată cu caracter personal
-- o informație publică fără protecție
-- un identificator anonim
-- o dată tehnică nereglementată
-! Ea permite identificarea persoanei.
-? Consimțământul pentru prelucrarea datelor trebuie să fie:
-+ liber, specific și informat
-- implicit
-- dat o singură dată, pentru orice scop
-- acordat de altcineva
-! Bifarea prealabilă a unei căsuțe nu este consimțământ valid.
-? Publicarea locației în timp real:
-+ crește riscurile de securitate personală
-- este recomandată
-- nu are consecințe
-- este obligatorie în aplicații
-! Ea permite localizarea fizică a persoanei.
-? Dreptul la ștergerea datelor („dreptul de a fi uitat”):
-+ poate fi exercitat în condițiile prevăzute de lege
-- este absolut și necondiționat
-- nu există
-- se aplică doar minorilor
-! Există și excepții, de exemplu pentru arhivare în interes public.
+### tic9-08 | Date personale, amprentă digitală și confidențialitate online
+Fiecare activitate desfășurată pe internet — căutările pe Google, postările pe rețelele sociale, achizițiile online, locațiile GPS înregistrate de smartphone și comentariile pe forumuri — contribuie la crearea unei amprente digitale (digital footprint). Aceasta poate fi activă (date pe care le partajăm conștient: fotografii, videoclipuri, formulare completate) sau pasivă (informații colectate automat în fundal: adresa IP, tipul dispozitivului, rezoluția ecranului, istoricul de navigare și fișierele cookie).
+Fișierele cookie sunt mici fișiere text trimise de serverele web și stocate în browserul utilizatorului. Ele au roluri funcționale esențiale (păstrarea stării de autentificare, memorarea produselor din coșul de cumpărături), dar pot fi utilizate și de agențiile de publicitate (third-party cookies) pentru a urmări utilizatorul de la un site la altul și a construi profiluri comportamentale de marketing.
+Regulamentul General privind Protecția Datelor (GDPR), aplicat la nivelul Uniunii Europene, conferă cetățenilor drepturi fundamentale asupra propriilor date: dreptul de a fi informat ce date se colectează, dreptul de acces la date, dreptul la rectificare și dreptul de a fi uitat (ștergerea definitivă a datelor cu caracter personal de pe serverele companiilor).
+* Amprenta digitală este permanentă și poate influența viitorul profesional sau admiterea la studii.
+* Cookie-urile funcționale mențin sesiunea activă, în timp ce cookie-urile terțe urmăresc comportamentul.
+* Regulamentul GDPR garantează dreptul cetățenilor de a solicita ștergerea datelor lor personale.
+* Setările de confidențialitate ale conturilor trebuie verificate și configurate pe nivel strict.
+= amprentă digitală :: totalitatea urmelor de date lăsate în urmă prin activitatea pe internet
+= cookie :: fișier text restrâns stocat de browser pentru a păstra preferințe și stări de sesiune
+= GDPR :: regulament european obligatoriu pentru protecția datelor cu caracter personal
+= dreptul de a fi uitat :: dreptul legal de a cere companiilor ștergerea definitivă a datelor proprii
+@ Ce cuprinde amprenta digitală pasivă? :: Date colectate automat în fundal: adresa IP, locația aproximativă, tipul browserului și click-urile.
+@ Ce rol pozitiv are un fișier cookie de sesiune? :: Păstrează utilizatorul conectat în cont și ține minte produsele adăugate în coș.
+@ Ce drept esențial aduce GDPR cetățenilor europeni? :: Dreptul de a cere accesul, rectificarea sau ștergerea definitivă a datelor lor personale.
+@ De ce este important să filtrezi conținutul postat public pe rețelele sociale? :: Pentru că postările rămân arhivate pe internet și pot fi văzute de viitori angajatori.
+? Urma lăsată pe internet prin comentarii, poze, navigare și căutări se numește:
++ amprentă digitală
+- memorie cache
+- adresă MAC
+- fișier executabil
+! Amprenta digitală reflectă istoricul complet al activității unui utilizator online.
+? Fișierele de tip „third-party cookie” sunt utilizate în principal pentru:
++ urmărirea navigării între site-uri diferite pentru afișarea reclamelor țintite
+- mărirea vitezei de procesare a calculatorului
+- răcirea componentelor hardware
+- instalarea automată a sistemului de operare
+! Cookie-urile de la terți construiesc profilul de marketing al utilizatorului.
+? În baza Regulamentului European GDPR, un utilizator are dreptul legal:
++ de a solicita ștergerea definitivă a datelor sale cu caracter personal („dreptul de a fi uitat”)
+- de a cere gratuit calculatoare de la companii
+- de a folosi parolele altor persoane
+- de a naviga fără conexiune la internet
+! GDPR oferă control deplin cetățeanului asupra propriilor date cu caracter personal.
+? Pentru a limita colectarea datelor de către terți, este recomandat să:
++ respingi cookie-urile de urmărire și să ajustezi setările de confidențialitate din browser
+- permiți toate permisiunile solicitate fără citire
+- îți publici adresa de domiciliu pe forumuri deschise
+- nu folosești niciodată parole pe conturi
+! Selectarea strictă a cookie-urilor protejează intimitatea în timpul navigării.
 
-### tic9-09 | Etică digitală, drepturi de autor, dezinformare
-Etica digitală privește comportamentul responsabil online: respectul față de ceilalți, veridicitatea informației distribuite, respectarea drepturilor de autor și a proprietății intelectuale. Plagiatul — preluarea muncii altcuiva fără atribuire — este la fel de grav în mediul digital ca pe hârtie, iar ușurința copierii nu îl face acceptabil. Licențele deschise (Creative Commons) precizează ce este permis: reutilizare, modificare, folosire comercială, cu obligația atribuirii.
-Dezinformarea circulă online mai repede decât informația verificată, fiindcă algoritmii amplifică ce produce reacție. Verificarea de bază: sursa primară, autorul, data, confirmarea din surse independente, căutarea inversă a imaginilor. Cyberbullyingul — hărțuirea repetată în mediul online — are efecte reale și grave; răspunsul corect este documentarea (capturi de ecran), raportarea în platformă, informarea unui adult și, la nevoie, sesizarea autorităților, nu răspunsul în același registru.
-* Plagiatul este la fel de grav în mediul digital ca pe hârtie.
-* Licențele Creative Commons precizează ce reutilizare este permisă.
-* Verificarea informației: sursă primară, autor, dată, confirmare independentă.
-* La cyberbullying: documentează, raportează, cere ajutor; nu răspunde în același registru.
-= plagiat :: preluarea muncii altcuiva fără atribuirea sursei
-= Creative Commons :: sistem de licențe care precizează condițiile de reutilizare a unei opere
-@ Ce este plagiatul? :: Preluarea muncii altcuiva fără atribuirea sursei.
-@ Ce precizează o licență Creative Commons? :: Condițiile de reutilizare: atribuire, modificare, folosire comercială.
-@ Care sunt pașii verificării unei informații? :: Sursa primară, autorul, data, confirmarea din surse independente, căutarea inversă de imagini.
-@ Cum se răspunde corect la cyberbullying? :: Documentând, raportând în platformă, cerând ajutorul unui adult, nu răspunzând în același registru.
-? Folosirea unei imagini găsite online, fără verificarea licenței:
-+ poate încălca drepturile de autor
-- este întotdeauna permisă
-- este permisă în scop școlar, fără nicio condiție
-- nu are consecințe legale
-! Multe imagini sunt protejate; atribuirea singură nu e mereu suficientă.
-? Răspunsul corect la cyberbullying include:
-+ documentarea și raportarea în platformă
-- răspunsul în același registru
-- ștergerea contului imediat
-- ignorarea completă și tăcerea
-! Documentarea permite intervenția eficientă.
-? Licențele Creative Commons:
-+ precizează ce reutilizări sunt permise
-- elimină drepturile de autor
-- se aplică automat oricărei opere
-- sunt valabile doar în scop comercial
-! Autorul alege tipul de licență.
-? Dezinformarea circulă mai repede decât informația verificată pentru că:
-+ algoritmii amplifică ce produce reacție emoțională
-- este mai scurtă
-- provine din surse oficiale
-- este verificată automat
-! Reacția, nu corectitudinea, determină difuzarea.
+### tic9-09 | Etică digitală, drepturi de autor, licențe software și combaterea dezinformării
+Comportamentul în spațiul virtual este reglementat de norme juridice și principii etice. Proprietatea intelectuală protejează creațiile minții umane: texte, cod software, muzică, ilustrații și fotografii. Legea drepturilor de autor (Copyright) stipulează că autorul unei opere deține dreptul exclusiv de reproducere, distribuire și exploatare comercială a acesteia. Utilizarea sau distribuirea fără permisiune constituie infracțiunea de piraterie digitală.
+În lumea software-ului și a resurselor educaționale există multiple tipuri de licențe:
+1. Licențe proprietare (comerciale): utilizatorul cumpără doar dreptul de utilizare (EULA), codul sursă fiind închis și secret (ex: Windows, Adobe Photoshop).
+2. Licențe Open Source (Free Software): codul sursă este liber accesibil, putând fi studiat, modificat și redistribuit (ex: nucleul Linux, LibreOffice, Python, serverul web Apache).
+3. Licențe Creative Commons (CC): permit partajarea gratuită a operelor artistice sau didactice, cu specificarea unor condiții clare (CC-BY = atribuire autor, CC-NC = necomercial, CC-ND = fără opere derivate).
+Dezinformarea pe internet reprezintă o amenințare majoră la adresa societății. Tipurile de conținut înșelător includ: Fake News (știri complet fabricate pentru click-uri sau manipulare), Deepfake (videoclipuri și înregistrări audio manipulate realist cu inteligență artificială) și Phishing (site-uri clonate ce imită bănci sau servicii cunoscute pentru a fura date). Verificarea informațiilor (Fact-Checking) presupune: consultarea a cel puțin 3 surse independente, verificarea autorului și a datei publicării, căutarea inversă a imaginilor pe motoare de căutare și verificarea domeniului web real.
+* Pirateria software încalcă legislația și expune calculatoarele la infecții malware grave.
+* Software-ul Open Source oferă libertatea de a inspecta și îmbunătăți codul sursă.
+* Licențele Creative Commons permit utilizarea legală a imaginilor și textelor cu menționarea autorului.
+* Verificarea critică a surselor (fact-checking) este scutul principal împotriva știrilor false și a dezinformării.
+= proprietate intelectuală :: dreptul legal de proprietate asupra creațiilor minții (software, cărți, muzică)
+= Open Source :: software al cărui cod sursă este disponibil public pentru studiu și modificare
+= Creative Commons :: sistem flexibil de licențiere gratuită a conținutului protejat de drepturi de autor
+= deepfake :: conținut media sintetic manipulat digital prin algoritmi avansați de inteligență artificială
+@ Ce semnifică licența Creative Commons CC-BY? :: Opera poate fi folosită liber, cu condiția obligatorie de a menționa numele autorului original.
+@ Ce este un atac de tip phishing? :: O încercare de a păcăli victima prin e-mailuri sau site-uri false pentru a-i fura parolele sau cardul.
+@ Ce diferențiază software-ul Open Source de cel proprietar? :: La Open Source, codul sursă este public, oricine putând să-l verifice, modifice și redistribuie.
+@ Cum poți verifica dacă o imagine dintr-o știre este autentică? :: Realizând o căutare inversă de imagine (Reverse Image Search) pe motoarele de căutare.
+? Software-ul al cărui cod sursă este public și poate fi modificat liber de oricine este:
++ software Open Source
+- software proprietar cu licență închisă
+- malware
+- spyware
+! Open Source încurajează colaborarea globală și transparența deplină a programelor.
+? Copierea unui referat de pe internet și prezentarea lui ca lucrare proprie constituie:
++ plagiat și încălcare a eticii academice
+- o metodă profesională de cercetare
+- o obligație legală a fiecărui elev
+- o procedură standard de salvare
+! Preluarea ideilor sau textelor altor autori fără citare corectă reprezintă furt intelectual.
+? Un mesaj primit pe e-mail care te avertizează urgent că ți-a fost blocat contul bancar și cere să apeși pe un link suspect este:
++ o tentativă de phishing
+- o felicitare legitimă de ziua ta
+- o actualizare automată de Windows
+- o scrisoare recomandată
+! Phishing-ul mizează pe panică și urgență pentru a determina victima să introducă date sensibile.
+? Clauza „NC” (Non-Commercial) dintr-o licență Creative Commons interzice:
++ utilizarea operei pentru a obține câștiguri bănești sau comerciale
+- citirea operei pe calculator
+- descărcarea fișierului acasă
+- vizualizarea imaginilor de către elevi
+! NC restricționează strict utilizarea operei în scopuri lucrative.
 
-## 1 | tic9-c4 | Reprezentarea informației
-### tic9-10 | Sistemul binar și unitățile informației
-Calculatorul lucrează cu două stări electrice, pe care le notăm 0 și 1. De aceea toată informația — numere, text, imagini, sunet — este codificată în sistemul binar (baza 2). Cifra binară se numește bit, iar un grup de opt biți formează un octet (byte), unitatea de bază pentru măsurarea datelor.
-Un număr întreg se scrie în binar folosind puteri ale lui 2: de exemplu 1011 în binar înseamnă 1·8 + 0·4 + 1·2 + 1·1 = 11 în zecimal. Cu n biți se pot reprezenta 2 la puterea n valori distincte: opt biți acoperă 256 de valori, de la 0 la 255. Multiplii octetului cresc, uzual, din 1024 în 1024: kilooctet (KB), megaoctet (MB), gigaoctet (GB), teraoctet (TB).
-Alegerea sistemului binar nu este întâmplătoare: două stări (prezența sau absența curentului) sunt ușor de distins și de menținut fiabil în circuite. Sistemul hexazecimal (baza 16) se folosește ca scriere prescurtată a binarului, mai ales pentru culori și adrese de memorie.
-* În binar există doar două cifre: 0 și 1; unitatea este bitul.
-* Un octet are opt biți și poate reprezenta 256 de valori (0–255).
-* Cu n biți se reprezintă 2 la puterea n valori distincte.
-* Multiplii octetului cresc, uzual, din 1024 în 1024: KB, MB, GB, TB.
-= bit :: cea mai mică unitate de informație, care poate lua valoarea 0 sau 1
-= sistem binar :: sistemul de numerație în baza 2, folosit de calculatoare
-= octet :: grup de opt biți, unitatea de bază pentru măsurarea datelor
-@ Ce este un bit? :: Cea mai mică unitate de informație, cu valoarea 0 sau 1.
-@ Câte valori se pot reprezenta cu opt biți? :: 256, adică 2 la puterea 8, de la 0 la 255.
-@ În ce bază lucrează sistemul binar? :: În baza 2.
-@ Cât face numărul binar 1011 în zecimal? :: 11 (8 + 0 + 2 + 1).
-? Numărul binar 1011 corespunde, în zecimal, valorii:
-+ 11
-- 9
-- 13
-- 15
-! 1·8 + 0·4 + 1·2 + 1·1 = 11.
-? Cu opt biți se pot reprezenta:
-+ 256 de valori
-- 8 valori
-- 64 de valori
-- 1024 de valori
-! 2 la puterea 8 este 256.
-? Cea mai mică unitate de informație este:
-+ bitul
-- octetul
-- kilobytul
-- caracterul
-! Un octet are opt biți.
-? Sistemul binar folosește cifrele:
-+ 0 și 1
-- de la 0 la 9
-- de la 0 la 7
-- 0, 1 și 2
-! Ele corespund celor două stări electrice.
+## 2 | tic9-c4 | Reprezentarea informației și arhitectura fizică
+### tic9-10 | Sistemul binar, unitățile de măsură ale informației și conversii
+Calculatoarele electronice funcționează exclusiv pe baza sistemului binar (baza 2), deoarece circuitele electronice fundamentale (tranzistorii) au două stări fizice stabile: blocat (fără tensiune, asociat convențional cu cifra binară 0) și saturat (sub tensiune, asociat cu cifra binară 1).
+Unitatea elementară de măsură a informației este bitul (binary digit), notat cu litera mică „b”. Un bit poate avea doar valorile 0 sau 1. O grupare de 8 biți formează un octet (byte), notat cu litera mare „B”. Un octet poate reprezenta 2 la puterea 8 = 256 de stări distincte (valori de la 0 la 255).
+Multiplii octetului în informatică utilizează puteri ale lui 2 (standardul binar tradițional):
+• 1 Kilobyte (KB) = 1024 Bytes (2^10 bytes)
+• 1 Megabyte (MB) = 1024 KB (2^20 bytes)
+• 1 Gigabyte (GB) = 1024 MB (2^30 bytes)
+• 1 Terabyte (TB) = 1024 GB (2^40 bytes)
+Conversia unui număr întreg din baza 10 în baza 2 se realizează prin metoda împărțirilor succesive la 2: se notează resturile împărțirilor până când câtul devine 0, iar numărul binar se obține citind resturile de jos în sus (în ordinea inversă obținerii). De exemplu, pentru numărul 13 în baza 10: 13 / 2 = 6 rest 1; 6 / 2 = 3 rest 0; 3 / 2 = 1 rest 1; 1 / 2 = 0 rest 1. Citind resturile invers, obținem 1101 în baza 2.
+Conversia inversă, din binar în zecimal, se face însumând puterile lui 2 corespunzătoare pozițiilor cifrelor de 1: 1101 binar = 1*2^3 + 1*2^2 + 0*2^1 + 1*2^0 = 8 + 4 + 0 + 1 = 13 zecimal.
+* Bitul este unitatea fundamentală de informație (0 sau 1); Octetul (Byte) are 8 biți.
+* Cu n biți se pot reprezenta 2^n combinații sau numere distincte.
+* 1 KB = 1024 Bytes; 1 MB = 1024 KB; 1 GB = 1024 MB.
+* Conversia zecimal -> binar se face prin împărțiri la 2 și citirea resturilor invers.
+= bit :: cifra binară 0 sau 1, cea mai mică unitate de stocare a datelor
+= octet (byte) :: grupare de 8 biți ce poate codifica un caracter sau un număr între 0 și 255
+= sistem binar :: sistem de numerație pozițional în baza 2 ce utilizează doar simbolurile 0 și 1
+= putere a lui 2 :: factor de multiplicare în informatică (2, 4, 8, 16, 32, 64, 128, 256, 512, 1024)
+@ Câți biți conține un octet (byte)? :: 8 biți.
+@ Câte valori distincte pot fi reprezentate pe un octet? :: 256 de valori (de la 0 la 255).
+@ Cum se convertește numărul 10 din baza 10 în baza 2? :: 10/2=5 r 0; 5/2=2 r 1; 2/2=1 r 0; 1/2=0 r 1; citit invers: 1010.
+@ Câți megabytes sunt într-un gigabyte? :: 1024 MB.
+? Valoarea în baza zecimală a numărului binar 1111 este:
++ 15
+- 16
+- 8
+- 10
+! 1*8 + 1*4 + 1*2 + 1*1 = 8 + 4 + 2 + 1 = 15.
+? Câți octeți (bytes) are un fișier cu dimensiunea exactă de 2 Kilobytes?
++ 2048 bytes
+- 2000 bytes
+- 1024 bytes
+- 16 bytes
+! 2 * 1024 = 2048 bytes.
+? Unitatea de măsură a vitezei de descărcare a conexiunii la internet este exprimată de regulă în:
++ Megabiți pe secundă (Mbps)
+- Gigabytes pe oră (GB/h)
+- Pixeli pe inch (DPI)
+- Hertzi (Hz)
+! Vitezele de rețea se măsoară în biți/s (Mbps, Gbps), iar dimensiunile fișierelor în Bytes (MB, GB).
+? Reprezentarea binară a numărului zecimal 5 este:
++ 101
+- 110
+- 011
+- 100
+! 5 = 4 + 1 = 1*2^2 + 0*2^1 + 1*2^0 = 101 binar.
 
-### tic9-11 | Reprezentarea textului, a imaginii și a sunetului
-Textul se codifică asociind fiecărui caracter un număr. Codul ASCII a folosit inițial 7–8 biți și acoperea literele latine, cifrele și semnele de bază. Pentru a reprezenta toate sistemele de scriere ale lumii — inclusiv diacriticele românești, chineza sau emoji — s-a impus standardul Unicode, cu codificarea UTF-8, care folosește un număr variabil de octeți pentru fiecare caracter.
-Imaginea digitală de tip raster este o rețea de puncte colorate numite pixeli. Fiecare pixel are o culoare, exprimată de regulă în modelul RGB (roșu, verde, albastru), câte un octet pentru fiecare canal, deci circa 16,7 milioane de culori posibile. Rezoluția (numărul de pixeli) și adâncimea de culoare determină calitatea și dimensiunea fișierului. Imaginile vectoriale, în schimb, sunt descrise prin formule geometrice și se pot mări fără pierderea calității.
-Sunetul, o undă continuă, se digitizează prin eșantionare: se măsoară amplitudinea la intervale regulate (rata de eșantionare, de exemplu 44 100 de ori pe secundă la calitate CD) și se cuantizează pe un număr de biți. Cu cât rata de eșantionare și adâncimea în biți sunt mai mari, cu atât redarea este mai fidelă, dar fișierul mai mare. Compresia (JPEG pentru imagini, MP3 pentru sunet) reduce dimensiunea, uneori cu pierderi.
-* Textul se codifică prin numere; Unicode/UTF-8 acoperă toate scrierile lumii.
-* Imaginea raster e formată din pixeli; culoarea se dă în modelul RGB.
-* Sunetul se digitizează prin eșantionare și cuantizare.
-* Compresia (JPEG, MP3) reduce dimensiunea fișierelor, uneori cu pierderi.
-= pixel :: cel mai mic punct dintr-o imagine raster, cu o culoare proprie
-= Unicode :: standardul care atribuie un cod unic fiecărui caracter din scrierile lumii
-= eșantionare :: măsurarea la intervale regulate a unei mărimi continue, pentru digitizare
-@ Ce este un pixel? :: Cel mai mic punct colorat dintr-o imagine raster.
-@ Ce standard acoperă diacriticele și emoji? :: Unicode, cu codificarea UTF-8.
-@ Ce înseamnă modelul RGB? :: Combinarea a trei culori: roșu, verde și albastru.
-@ Cum se digitizează sunetul? :: Prin eșantionare (măsurare la intervale regulate) și cuantizare.
-? O imagine raster este formată din:
-+ pixeli
-- vectori
-- caractere
-- eșantioane
-! Fiecare pixel are o culoare proprie.
-? Diacriticele românești și emoji sunt acoperite de:
-+ Unicode
-- ASCII pe 7 biți
-- codul Morse
-- sistemul zecimal
-! UTF-8 este codificarea uzuală a Unicode.
-? Modelul RGB combină culorile:
-+ roșu, verde și albastru
-- roșu, galben și albastru
-- cyan, magenta și galben
-- alb și negru
-! Fiecare canal are, de obicei, câte un octet.
-? Spre deosebire de imaginea raster, imaginea vectorială:
-+ se poate mări fără pierderea calității
-- este formată din pixeli
-- are întotdeauna fișier mai mare
-- nu poate fi colorată
-! Ea este descrisă prin formule geometrice.
-
-### tic9-12 | Periferice, porturi și conectarea dispozitivelor
-Perifericele sunt dispozitivele conectate la unitatea centrală. Se împart în periferice de intrare (tastatură, mouse, scaner, cameră web, microfon), de ieșire (monitor, imprimantă, difuzoare, videoproiector) și de intrare-ieșire (ecran tactil, imprimantă multifuncțională, memorie externă). Legătura se face prin porturi și cabluri sau fără fir.
-Porturile uzuale: USB (universal, pentru majoritatea perifericelor și pentru alimentare), HDMI (imagine și sunet către monitor sau televizor), jack audio, Ethernet (rețea cu fir). Conexiunile fără fir folosesc Wi-Fi (rețea locală) și Bluetooth (distanțe mici, între căști, mouse, telefon). Pentru ca sistemul de operare să recunoască un periferic, este nevoie de un driver — programul care traduce comenzile între sistem și dispozitiv.
-Alegerea și întreținerea perifericelor țin de ergonomie și fiabilitate: o tastatură și un mouse potrivite reduc oboseala, un monitor bine reglat protejează vederea, iar conectarea și deconectarea corectă (scoaterea în siguranță a memoriilor externe) previn pierderea datelor. Standardul USB-C actual permite, printr-un singur cablu reversibil, atât transfer rapid, cât și încărcare.
-* Perifericele sunt de intrare, de ieșire sau de intrare-ieșire.
-* Porturi uzuale: USB, HDMI, jack audio, Ethernet.
-* Wi-Fi și Bluetooth sunt conexiuni fără fir.
-* Driverul este programul care face un periferic recunoscut de sistemul de operare.
-= periferic :: dispozitiv conectat la unitatea centrală, de intrare sau de ieșire
-= driver :: programul care permite sistemului de operare să comunice cu un dispozitiv
-= Bluetooth :: tehnologie de conectare fără fir, pe distanțe mici
-@ Ce este un driver? :: Programul care permite sistemului de operare să comunice cu un dispozitiv.
-@ Ce port transmite imagine și sunet către un monitor? :: HDMI.
-@ Ce conexiune fără fir se folosește pentru căști și mouse? :: Bluetooth.
-@ Dă un exemplu de periferic de intrare-ieșire. :: Ecranul tactil sau imprimanta multifuncțională.
-? Pentru a conecta un monitor și a transmite imagine și sunet se folosește, uzual:
-+ HDMI
-- jack audio
-- Ethernet
-- USB pentru tastatură
-! HDMI transportă atât imaginea, cât și sunetul.
-? Bluetooth se folosește pentru:
-+ conexiuni fără fir pe distanțe mici
-- conectarea la internetul global
-- alimentarea cu energie
-- stocarea permanentă a datelor
-! Este util pentru căști, mouse sau transfer între telefoane.
-? Pentru ca un periferic nou să fie recunoscut, sistemul are nevoie de:
-+ un driver
-- o parolă
-- un antivirus
-- o placă grafică nouă
-! Driverul traduce comenzile între sistem și dispozitiv.
-? Scoaterea în siguranță a unei memorii USB este importantă pentru:
-+ a evita pierderea datelor aflate în curs de scriere
-- a economisi energie
-- a crește viteza portului
-- a instala un driver
-! Deconectarea bruscă poate corupe fișierele.
-
-## 1 | tic9-c5 | Lucru eficient și sănătos
-### tic9-13 | Ergonomie, sănătate digitală și echilibru
-Folosirea îndelungată a dispozitivelor solicită corpul și mintea. Ergonomia la calculator cere: monitorul la nivelul ochilor și la distanța unui braț, spatele sprijinit și drept, picioarele pe podea, antebrațele paralele cu masa, iluminare fără reflexii pe ecran. Regula 20-20-20 previne oboseala vizuală: la fiecare 20 de minute, privește 20 de secunde un obiect aflat la circa 20 de pași.
-Sănătatea digitală înseamnă și echilibrul dintre timpul petrecut online și restul vieții. Semne de folosire problematică: pierderea noțiunii timpului, neglijarea somnului, a mișcării și a relațiilor față în față, nevoia de a verifica neîncetat notificările. Măsuri utile: pauze regulate, dezactivarea notificărilor neimportante, un program fără ecrane înainte de somn (lumina albastră îngreunează adormirea), activitate fizică și timp în aer liber.
-Igiena atenției este o competență în sine: mediile digitale sunt proiectate să capteze atenția, iar comutarea permanentă între sarcini reduce, de fapt, performanța. Lucrul concentrat, pe o singură sarcină, cu notificările oprite, este mai eficient. Echilibrul nu înseamnă respingerea tehnologiei, ci folosirea ei deliberată, în slujba propriilor scopuri.
-* Ergonomia: monitor la nivelul ochilor, spate drept, picioare pe podea, fără reflexii.
-* Regula 20-20-20 previne oboseala vizuală.
-* Lumina albastră seara îngreunează adormirea.
-* Lucrul concentrat este mai eficient decât comutarea permanentă între sarcini.
-= ergonomie :: adaptarea locului de muncă la corp, pentru confort și sănătate
-= regula 20-20-20 :: la 20 de minute, o pauză de 20 de secunde privind la circa 20 de pași
-= sănătate digitală :: echilibrul dintre folosirea tehnologiei și restul vieții
-@ La ce distanță și înălțime se așază monitorul? :: La distanța unui braț și la nivelul ochilor.
-@ Ce spune regula 20-20-20? :: La 20 de minute, privește 20 de secunde un obiect aflat la circa 20 de pași.
-@ De ce se evită ecranele înainte de somn? :: Pentru că lumina albastră îngreunează adormirea.
-@ Este eficientă comutarea permanentă între sarcini? :: Nu; lucrul concentrat pe o singură sarcină este mai eficient.
-? Regula 20-20-20 previne:
-+ oboseala vizuală
-- încălzirea procesorului
-- pierderea fișierelor
-- infectarea cu viruși
-! Ochii se relaxează privind la distanță.
-? Poziția corectă la calculator presupune:
-+ monitorul la nivelul ochilor și spatele sprijinit
-- monitorul mult sub nivelul ochilor
-- lucrul aplecat înainte
-- ecranul lipit de față
-! Ergonomia reduce oboseala și problemele de postură.
-? Folosirea ecranelor imediat înainte de somn:
-+ îngreunează adormirea, din cauza luminii albastre
-- îmbunătățește somnul
-- nu are niciun efect
-- crește atenția a doua zi
-! Se recomandă un interval fără ecrane seara.
-? Comparativ cu lucrul concentrat, comutarea permanentă între sarcini:
-+ reduce, de regulă, performanța
-- o crește mereu
-- nu o influențează
-- elimină oboseala
-! Fiecare comutare are un cost de atenție.
-
-### tic9-14 | Organizarea, arhivarea și copiile fișierelor
-O bibliotecă digitală crește repede și devine de negăsit fără o organizare gândită. Principii: o structură de foldere logică și puțin adâncă, nume descriptive și consecvente (proiect, tip, dată în format an-lună-zi pentru sortare corectă), evitarea denumirilor „final”, „final2”, „ultimul_final”. Convențiile de denumire economisesc mai mult timp decât aproape orice alt obicei digital.
-Arhivarea comprimă unul sau mai multe fișiere într-un singur pachet (de exemplu .zip), reducând dimensiunea și ușurând transferul; arhiva poate fi protejată cu parolă. Compresia este fără pierderi pentru documente (textul se recuperează integral) și, uneori, cu pierderi pentru imagini sau sunet. Dezarhivarea reface fișierele originale.
-Copia de siguranță (backup) este plasa de salvare împotriva pierderii datelor prin defecțiune, ștergere accidentală, furt sau ransomware. Regula practică 3-2-1: trei copii ale datelor, pe două tipuri de suport, dintre care una într-o locație diferită (de exemplu în cloud). O copie păstrată lângă original nu protejează împotriva incendiului sau a furtului; de aceea contează separarea fizică.
-* Structură de foldere logică, nume descriptive, dată în format an-lună-zi.
-* Arhivarea (.zip) reduce dimensiunea și poate fi protejată cu parolă.
-* Copia de siguranță protejează împotriva pierderii datelor.
-* Regula 3-2-1: trei copii, două suporturi, una într-o locație separată.
-= arhivă :: fișier care conține, comprimate, unul sau mai multe fișiere
-= copie de siguranță :: duplicat al datelor, păstrat pentru cazul pierderii originalului
-= regula 3-2-1 :: trei copii, pe două tipuri de suport, una într-o locație separată
-@ Ce face arhivarea unui folder? :: Îl comprimă într-un singur fișier, mai mic și mai ușor de transferat.
-@ Ce spune regula 3-2-1 a copiilor de siguranță? :: Trei copii, pe două suporturi, una într-o locație separată.
-@ De ce se pune data în format an-lună-zi în numele fișierelor? :: Pentru ca sortarea alfabetică să le ordoneze și cronologic.
-@ Protejează o copie păstrată lângă original împotriva furtului? :: Nu; de aceea o copie se ține într-o altă locație.
-? Regula 3-2-1 a copiilor de siguranță cere:
-+ trei copii, pe două suporturi, una într-o altă locație
-- o singură copie pe același disc
-- trei copii pe același disc
-- două copii în același folder
-! Separarea fizică protejează împotriva incendiului sau furtului.
-? Arhivarea unui folder este utilă pentru:
-+ reducerea dimensiunii și transferul mai ușor
-- creșterea vitezei procesorului
-- mărirea memoriei RAM
-- accelerarea internetului
-! Arhiva poate fi și protejată cu parolă.
-? Datele în numele fișierelor se scriu, pentru sortare corectă, în format:
-+ an-lună-zi
-- zi-lună-an
-- lună-zi-an
-- fără an
-! Astfel ordinea alfabetică coincide cu cea cronologică.
-? O copie de siguranță păstrată doar pe același disc cu originalul:
-+ nu ajută dacă discul se defectează
-- este cea mai sigură
-- respectă regula 3-2-1
-- este suficientă împotriva furtului
-! Copiile trebuie separate de original.
-
-## 2 | tic9-c6 | Documente structurate
-### tic9-15 | Tabele și liste în procesorul de text
-Tabelul organizează informația în rânduri și coloane și este ideal pentru date comparabile: orare, liste de prețuri, rezultate. Se inserează precizând numărul de rânduri și de coloane, apoi se pot adăuga sau șterge linii, îmbina celule, alinia conținutul și aplica un stil de tabel pentru un aspect unitar. Rândul de antet, repetat pe fiecare pagină, ușurează citirea tabelelor lungi.
-Listele structurează enumerările. Lista neordonată (cu marcatori) se folosește când ordinea nu contează; lista ordonată (numerotată) când pașii se succed logic. Listele pot fi imbricate pe mai multe niveluri, iar numerotarea automată se actualizează singură când se adaugă sau se șterge un element — de aceea nu se numerotează niciodată manual.
-Alegerea corectă între tabel și listă ține de natura informației: tabelul pentru date pe două dimensiuni, lista pentru o înșiruire pe o singură dimensiune. Un tabel supraîncărcat sau folosit doar pentru a alinia text devine greu de întreținut; pentru aliniere se folosesc tabulatorii sau coloanele, nu tabele invizibile.
-* Tabelul e potrivit pentru date comparabile, pe rânduri și coloane.
-* Rândul de antet repetat ușurează citirea tabelelor lungi.
-* Lista ordonată e pentru pași succesivi; cea neordonată, când ordinea nu contează.
-* Numerotarea automată se actualizează singură; nu se numerotează manual.
-= tabel :: structură de rânduri și coloane pentru organizarea datelor comparabile
-= listă ordonată :: enumerare numerotată automat, pentru elemente cu ordine logică
-= rând de antet :: primul rând al unui tabel, care denumește coloanele
-@ Când se folosește un tabel? :: Pentru date comparabile, organizate pe rânduri și coloane.
-@ Ce avantaj are numerotarea automată a listelor? :: Se actualizează singură când se adaugă sau se șterg elemente.
-@ Când se preferă o listă ordonată? :: Când elementele se succed într-o ordine logică.
-@ La ce folosește rândul de antet repetat? :: Ajută citirea tabelelor întinse pe mai multe pagini.
-? O listă ordonată (numerotată) este potrivită pentru:
-+ pași care se succed logic
-- elemente fără ordine
-- alinierea a două coloane de text
-- inserarea unei imagini
-! Când ordinea nu contează se folosește lista cu marcatori.
-? Numerotarea manuală a unei liste este dezavantajoasă pentru că:
-+ nu se actualizează singură la adăugarea sau ștergerea elementelor
-- ocupă mai puțin spațiu
-- este mai lizibilă
-- permite imbricarea
-! Numerotarea automată rezolvă problema.
-? Pentru date comparabile pe două criterii este potrivit:
-+ tabelul
-- lista neordonată
-- nota de subsol
-- antetul paginii
-! Tabelul organizează informația pe rânduri și coloane.
-? Rândul de antet al unui tabel lung, repetat pe fiecare pagină:
-+ ușurează citirea și înțelegerea coloanelor
-- mărește mult fișierul
-- este interzis
-- înlocuiește numerotarea
-! El denumește coloanele oriunde continuă tabelul.
-
-### tic9-16 | Imagini și obiecte grafice în documente
-Un document câștigă în claritate prin imagini, diagrame și obiecte grafice, dacă acestea sunt relevante și bine integrate. Imaginea se inserează dintr-un fișier și se poziționează în raport cu textul: „în linie cu textul” (se comportă ca un caracter) sau cu „încadrarea textului” în jur. Redimensionarea se face păstrând proporțiile (trăgând de un colț), pentru a nu deforma imaginea.
-Pe lângă fotografii, se pot insera forme, pictograme, diagrame (organigrame, procese) și grafice legate de datele dintr-un tabel. Fiecare obiect ar trebui să aibă un titlu sau o legendă și, pentru accesibilitate, un text alternativ care descrie conținutul pentru cititoarele de ecran. Rezoluția imaginii trebuie să fie suficientă pentru tipărire, dar nu excesivă, ca fișierul să rămână gestionabil.
-Buna practică cere ca imaginile să servească mesajul, nu să-l încarce: o diagramă limpede spune mai mult decât un paragraf, dar o imagine decorativă fără legătură distrage. Se preferă formate potrivite (fotografii în JPEG, desene și capturi cu zone plate în PNG) și se verifică drepturile de folosire ale oricărei imagini preluate din altă parte.
-* Imaginea se poziționează în linie cu textul sau cu încadrarea textului.
-* Redimensionarea se face din colț, pentru a păstra proporțiile.
-* Textul alternativ descrie imaginea pentru cititoarele de ecran (accesibilitate).
-* Formatele potrivite: JPEG pentru fotografii, PNG pentru desene și capturi.
-= text alternativ :: descriere textuală a unei imagini, citită de tehnologiile de accesibilitate
-= încadrarea textului :: modul în care textul curge în jurul unei imagini
-= legendă :: text scurt care explică o imagine sau o figură
-@ La ce folosește textul alternativ al unei imagini? :: Descrie imaginea pentru cititoarele de ecran, sprijinind accesibilitatea.
-@ Cum se redimensionează o imagine fără a o deforma? :: Trăgând de un colț, ca să se păstreze proporțiile.
-@ Ce format e potrivit pentru fotografii? :: JPEG.
-@ Ce format e potrivit pentru desene și capturi de ecran? :: PNG.
-? Pentru a nu deforma o imagine, se redimensionează:
-+ trăgând de un colț, păstrând proporțiile
-- trăgând de o singură latură
-- prin decupare
-- schimbând doar rezoluția
-! Tragerea de o latură modifică raportul laturilor.
-? Textul alternativ al unei imagini servește:
-+ accesibilității, fiind citit de cititoarele de ecran
-- creșterii rezoluției
-- reducerii dimensiunii fișierului
-- alinierii textului
-! El descrie conținutul pentru cine nu vede imaginea.
-? Pentru o fotografie într-un document este potrivit formatul:
-+ JPEG
-- TXT
-- MP3
-- ZIP
-! PNG este mai potrivit pentru desene și capturi cu zone plate.
-? O imagine decorativă fără legătură cu textul:
-+ distrage cititorul de la mesaj
-- este întotdeauna recomandată
-- înlocuiește o diagramă
-- crește accesibilitatea
-! Imaginile trebuie să servească mesajul.
-
-%% teza 1
-? Numărul binar 1011 înseamnă, în zecimal:
-+ 11
-- 9
-- 12
-- 15
-! 8 + 0 + 2 + 1 = 11.
-? Cu opt biți se pot reprezenta:
-+ 256 de valori
-- 8 valori
-- 16 valori
-- 100 de valori
-! 2 la puterea 8 este 256.
-? O imagine raster este alcătuită din:
-+ pixeli
-- vectori
-- octeți de text
-- eșantioane sonore
-! Fiecare pixel are o culoare, uzual în modelul RGB.
-? Diacriticele și emoji sunt cuprinse în standardul:
-+ Unicode
-- ASCII pe 7 biți
-- binar pur
-- hexazecimal
-! Codificarea uzuală este UTF-8.
-? Pentru ca sistemul de operare să folosească un periferic nou este nevoie de:
-+ un driver
-- o parolă
-- un cont de e-mail
-- un browser
-! Driverul mediază comunicarea cu dispozitivul.
-? Regula 3-2-1 a copiilor de siguranță cere:
-+ trei copii, pe două suporturi, una în altă locație
-- o copie pe același disc
-- trei copii în același folder
-- două copii pe desktop
-! Separarea fizică protejează datele.
-? Memoria RAM este:
-+ volatilă
-- permanentă
-- doar pentru citire
-- externă
-! Datele nesalvate se pierd la oprire.
-? Un octet are:
-+ 8 biți
-- 16 biți
+### tic9-11 | Reprezentarea textului, a imaginii și a sunetului în format digital
+Orice tip de informație din lumea reală (analogică) trebuie digitizată — transformată într-o secvență de biți (0 și 1) — pentru a putea fi prelucrată și stocată de un calculator.
+1. Codificarea textului: fiecărui caracter îi este asociat un cod numeric standard. Tabelul ASCII clasic asociază coduri pe 7 biți (128 caractere: alfabet englezesc, cifre, semne de punctuație). Standardul modern Unicode (cu formatele UTF-8 și UTF-16) utilizează coduri pe 1 până la 4 octeți, permițând codificarea a peste 140.000 de caractere din toate limbile pământului, inclusiv diacriticele limbii române (ă, â, î, ș, ț) și simboluri emoji.
+2. Codificarea imaginilor: o imagine digitală raster (bitmap) este împărțită într-o matrice fină de puncte numite pixeli (picture elements). Rezoluția reprezintă numărul total de pixeli (ex: 1920x1080 Full HD). Culoarea fiecărui pixel este compusă prin modelul aditiv RGB (Roșu, Verde, Albastru). În codificarea True Color pe 24 de biți, fiecărui canal de culoare îi sunt alocați 8 biți (256 niveluri de intensitate de la 0 la 255), obținându-se peste 16.7 milioane de nuanțe diferite.
+3. Codificarea sunetului: semnalul audio analogic continuu este eșantionat la intervale regulate de timp (rata de eșantionare, ex: 44.1 kHz pentru calitatea audio de CD) și cuantizat (pe 16 sau 24 de biți), convertind unda sonoră în valori numerice binare.
+Formatele media utilizează algoritmi de compresie: fără pierderi (lossless: PNG pentru imagini, FLAC pentru audio) sau cu pierderi calculate (lossy: JPEG pentru imagini, MP3 pentru audio, MP4 pentru video).
+* Standardul Unicode (UTF-8) permite scrierea corectă a oricărui text cu diacritice românești.
+* O imagine raster este o grilă de pixeli, fiecare având o valoare RGB compusă din 3 canale.
+* Modelul RGB asociază câte 8 biți (valori 0-255) pentru culorile Roșu, Verde și Albastru.
+* Compresia lossy (JPEG, MP3) micșorează fișierele eliminând detalii imperceptibile pentru ochiul sau urechea umană.
+= pixel :: cel mai mic element constitutiv al unei imagini digitale afișate pe ecran
+= Unicode (UTF-8) :: standard universal de codificare a caracterelor text din toate limbile lumii
+= RGB :: model de culoare aditiv bazat pe combinarea luminii Roșii, Verzi și Albastre
+= eșantionare audio :: măsurarea periodică a valorii unei unde sonore pentru a o converti în semnal digital
+@ Ce standard de codificare a textului garantează afișarea corectă a diacriticelor românești? :: Standardul Unicode (codificarea UTF-8).
+@ Ce semnifică acronimul RGB în grafica digitală? :: Red, Green, Blue (Roșu, Verde, Albastru).
+@ Ce este un pixel? :: Cel mai mic punct luminos individual care compune o imagine pe ecran.
+@ Care este diferența dintre compresia PNG și JPEG? :: PNG este o compresie fără pierderi de calitate (lossless), în timp ce JPEG este cu pierderi (lossy).
+? Numărul de biți alocat pentru reprezentarea culorii unui pixel în formatul True Color este:
++ 24 biți (câte 8 biți pentru Roșu, Verde și Albastru)
+- 1 bit
 - 4 biți
 - 1024 biți
-! Multiplii uzuali sunt KB, MB, GB, TB.
-? Monitorul este un dispozitiv de:
-+ ieșire
-- intrare
-- stocare
-- prelucrare
-! Tastatura este dispozitiv de intrare.
-? Extensia unui fișier indică:
-+ tipul de conținut și programul asociat
-- dimensiunea fișierului
-- data creării
-- autorul
-! De exemplu, .jpg indică o imagine.
-? Sistemul DNS:
-+ traduce numele de domenii în adrese IP
-- criptează comunicația
-- stochează paginile web
-- filtrează conținutul
-! Fără el ar trebui memorate adrese numerice.
-? HTTPS se deosebește de HTTP prin:
-+ criptarea comunicației
-- viteza mai mare
-- accesul la imagini
-- portul folosit exclusiv
-! Lacătul din bara de adrese semnalează conexiunea securizată.
-? Căutarea unei expresii exacte se face cu:
-+ ghilimele
-- semnul plus
-- asterisc
-- paranteze
-! Minusul exclude un termen.
-? Cuprinsul automat se generează pe baza:
-+ stilurilor aplicate titlurilor
-- numerotării paginilor
-- alinierii textului
-- tabelelor inserate
-! De aceea stilurile sunt esențiale.
-? Indentarea este o formatare la nivel de:
-+ paragraf
-- caracter
-- pagină
-- secțiune
-! Fontul se aplică la nivel de caracter.
-? Un slide bun conține:
-+ o idee, în cuvinte-cheie
-- un paragraf întreg
-- toate detaliile
-- minimum cinci imagini
-! Detaliile aparțin discursului.
-? Pentru o prezentare de 15 minute sunt potrivite, orientativ:
-+ circa 10 slide-uri
-- 30 de slide-uri
-- 3 slide-uri
-- 45 de slide-uri
-! Regula este un slide la un minut și jumătate.
-? Trimiterea unui e-mail către mulți destinatari se face folosind:
+! 3 canale * 8 biți = 24 biți, permițând 16.777.216 culori distincte.
+? Dacă toate cele trei canale RGB au valoarea maximă (255, 255, 255), culoarea obținută pe ecran este:
++ Alb pur
+- Negru pur
+- Verde crud
+- Albastru marin
+! În modelul aditiv de lumină, combinarea la intensitate maximă a culorilor primare dă culoarea albă.
+? Formatul de imagine care suportă transparență fără pierderi de calitate este:
++ .png
+- .txt
+- .bmp clasic
+- .mp3
+! PNG (Portable Network Graphics) suportă canal alfa de transparență și compresie fără pierderi.
+? Rata standard de eșantionare a sunetului pentru calitate audio de CD este:
++ 44.1 kHz
+- 10 Hz
+- 500 MHz
+- 1000 GHz
+! 44.100 de eșantioane pe secundă acoperă întreg spectrul audibil de către om (până la 20 kHz conform teoremei Nyquist).
+
+### tic9-12 | Porturi de comunicație, periferice și conectarea dispozitivelor
+Conectarea perifericelor la placa de bază a calculatorului se face prin intermediul porturilor de comunicație fizice și al conexiunilor fără fir (wireless).
+1. Portul USB (Universal Serial Bus): standardul universal pentru conectarea tastaturilor, mouse-urilor, imprimantelor și memoriilor flash. Generațiile USB au crescut exponențial viteza: USB 2.0 (până la 480 Mbps), USB 3.0/3.2 (până la 5-20 Gbps). Conectorul modern reversibil USB Type-C a devenit standardul internațional, suportând transfer rapid de date, alimentare de putere (Power Delivery) și semnal video simultan.
+2. Porturi video pentru monitoare:
+• HDMI (High-Definition Multimedia Interface): transmite simultan semnal video digital de înaltă definiție și sunet multicanal.
+• DisplayPort (DP): standardul profesional pentru monitoare de calculator de mare performanță, suportând rate ridicate de reîmprospătare (Hz) și rezoluții 4K/8K.
+• VGA (Video Graphics Array): vechiul conector analogic albastru cu 15 pini, fără suport de sunet, înlocuit complet în sistemele moderne.
+3. Conectivitate de rețea și audio: portul Ethernet RJ-45 pentru cablu de rețea LAN și mufele jack de 3.5 mm pentru căști și microfon.
+4. Conexiuni wireless: tehnologia Bluetooth (rază scurtă, consum redus, ideală pentru căști, mouse și tastatură) și Wi-Fi (conexiune radio de mare viteză la rețea locală și internet).
+Instalarea unui periferic necesită un driver (software de comandă). Tehnologia Plug and Play (PnP) permite sistemului de operare să recunoască dispozitivul imediat ce este conectat și să configureze automat driverul necesar.
+* Portul USB Type-C oferă conectivitate reversibilă, viteze mari și suport pentru alimentare și video.
+* HDMI și DisplayPort transmit semnal digital de înaltă calitate; VGA este un standard analogic învechit.
+* Conexiunea Bluetooth este optimizată pentru dispozitive periferice pe distanțe scurte (sub 10 metri).
+* Plug and Play permite recunoașterea și configurarea automată a perifericelor conectate.
+= USB-C :: conector reversibil modern utilizat pentru date rapide, semnal video și încărcare rapidă
+= HDMI :: interfață multimedia digitală ce transmite semnal video și audio pe un singur cablu
+= driver :: program software dedicat care permite sistemului de operare să comunice cu o piesă de hardware
+= Plug and Play :: tehnologie prin care calculatorul configurează automat un periferic nou conectat
+@ Ce cablu transmite simultan semnal video și audio de înaltă definiție către un televizor sau monitor? :: Cablul HDMI.
+@ Ce este un driver de dispozitiv? :: Un program care face legătura dintre sistemul de operare și componenta hardware.
+@ Ce avantaj practic are conectorul USB Type-C? :: Este reversibil (se poate introduce în ambele sensuri) și suportă transferuri rapide și alimentare de putere.
+@ Pe ce tehnologie fără fir funcționează căștile audio wireless conectate la telefon? :: Pe tehnologia radio Bluetooth.
+? Portul standard utilizat pentru conectarea cablului de rețea internet cu fir la calculator este:
++ RJ-45 (Ethernet)
+- VGA
+- Jack 3.5 mm
+- PS/2
+! Mufa RJ-45 conectează cablul UTP de rețea la placa de rețea a calculatorului.
+? Cablul video analogic cu mufă albastră și 15 pini se numește:
++ VGA
+- DisplayPort
+- HDMI
+- Thunderbolt
+! VGA este o conexiune video analogică din generațiile anterioare de calculatoare.
+? Tehnologia prin care sistemul de operare recunoaște și instalează automat un mouse conectat la USB este:
++ Plug and Play
+- Overclocking
+- Formatare
+- Defragmentare
+! Plug and Play elimină necesitatea configurărilor manuale complexe la adăugarea perifericelor.
+? Conexiunea radio fără fir de distanță scurtă utilizată pentru periferice și accesorii este:
++ Bluetooth
+- Satelit GPS
+- Fibră optică
+- Cablu torsadat
+! Bluetooth consumă puțină energie și este ideal pentru sincronizarea accesoriilor pe distanțe de câțiva metri.
+
+## 2 | tic9-c5 | Lucru eficient și sănătos
+### tic9-13 | Ergonomie, sănătate digitală și organizarea spațiului de lucru
+Utilizarea îndelungată a calculatorului fără măsuri preventive poate cauza afecțiuni fizice și cognitive: sindromul de tunel carpian (inflamația nervului median la nivelul încheieturii mâinii cauzată de folosirea incorectă a mouse-ului), dureri cronice de coloană vertebrală și gât (postura cocoșată), precum și sindromul vederii la calculator (ochi uscați, vedere încețoșată, dureri de cap).
+Ergonomia reprezintă știința adaptării locului de muncă la anatomia umană:
+1. Poziția corpului: scaunul trebuie să ofere suport lombar; tălpile trebuie să stea sprijinite complet pe podea, iar genunchii să formeze un unghi de 90 de grade. Coatele trebuie sprijinite pe brațele scaunului la nivelul biroului.
+2. Poziția monitorului: marginea superioară a ecranului trebuie să fie la nivelul ochilor sau ușor mai jos, la o distanță de aproximativ 50-70 cm (lungimea unui braț întins), prevenind înclinarea capului înainte.
+3. Protecția ochilor: se recomandă aplicarea regulii 20-20-20 — la fiecare 20 de minute de lucru la ecran, privește timp de 20 de secunde un obiect situat la cel puțin 20 de picioare (circa 6 metri) distanță, permițând relaxarea mușchilor oculari de focalizare. De asemenea, lumina ambientală trebuie să fie uniformă, fără reflexii directe pe ecran.
+4. Sănătatea mentală: gestionarea timpului petrecut în fața ecranelor (Screen Time) și pauzele active cu mișcare la fiecare 50-60 de minute reduc oboseala și cresc randamentul intelectual.
+* Monitorul trebuie poziționat la nivelul ochilor, la o distanță de 50-70 cm de utilizator.
+* Spatele trebuie menținut drept, cu suport lombar, iar picioarele sprijinite complet pe podea.
+* Regula 20-20-20 relaxează musculatura ochilor și previne sindromul de ochi uscat.
+* Pauzele regulate de mișcare combat sedentarismul și mențin capacitatea de concentrare.
+= ergonomie :: disciplina care proiectează echipamentele și spațiul de lucru pentru a maximiza confortul și sănătatea
+= regula 20-20-20 :: metodă de relaxare oculară: la 20 de minute de ecran, privești 20 de secunde la 6 metri
+= tunel carpian :: afecțiune a încheieturii mâinii provocată de mișcări repetitive și poziție incorectă pe mouse
+= suport lombar :: perna sau forma scaunului care susține curbura naturală a părții inferioare a spatelui
+@ Unde trebuie să se afle marginea superioară a ecranului față de privire? :: Exact la nivelul ochilor sau puțin mai jos, pentru ca privirea să coboare natural.
+@ Ce recomandă regula de sănătate oculară 20-20-20? :: La fiecare 20 de minute, privești 20 de secunde un obiect la 6 metri distanță.
+@ Care este unghiul corect format de genunchi și coate în timpul lucrului la birou? :: Un unghi drept, de aproximativ 90 de grade.
+@ De ce sunt necesare pauzele de mișcare la fiecare oră de lucru la calculator? :: Pentru a stimula circulația sangvină, a detensiona coloana și a relaxa mușchii.
+? Distanța optimă recomandată între ochi și monitorul calculatorului este de:
++ 50 – 70 cm (lungimea unui braț)
+- 10 cm
+- 3 metri
+- 5 milimetri
+! Această distanță previne oboseala oculară și permite vizualizarea ecranului fără înclinarea gâtului.
+? Afecțiunea încheieturii cauzată de poziționarea incorectă a mâinii pe mouse și tastatură este:
++ sindromul de tunel carpian
+- miopia
+- entorsa de gleznă
+- febra musculară
+! Sprijinirea corectă a antebrațelor previne presiunea pe nervul median din canalul carpian.
+? Pentru a preveni reflexiile deranjante pe ecranul monitorului, acesta trebuie așezat:
++ perpendicular față de ferestre, fără lumină solară directă pe sticlă
+- lipit de geam cu fața spre soare
+- complet în întuneric total fără nicio lumină
+- la nivelul podelei
+! Poziționarea perpendiculară elimină strălucirea și reflexiile orbitoare pe monitor.
+? Regula ergonomică 20-20-20 are ca scop principal:
++ protejarea vederii și prevenirea oboselii musculaturii ochilor
+- descărcarea mai rapidă a jocurilor
+- economisirea bateriei laptopului
+- curățarea automată a prafului din unitate
+! Focalizarea la distanță relaxează cristalinul și reduce tensiunea oculară.
+
+### tic9-14 | Organizarea, arhivarea și strategiile sigure de backup (copii de rezervă)
+Pierderea datelor digitale se poate produce oricând din cauza defecțiunilor hardware (arderea unui SSD), a atacurilor de malware (ransomware), a erorilor umane (ștergere accidentală) sau a calamităților fizice. De aceea, salvarea copiilor de siguranță (Backup) este cea mai importantă procedură de mentenanță digitală.
+Regula de aur a siguranței datelor este Strategia de Backup 3-2-1:
+• 3 copii ale oricărui fișier important (originalul plus două copii de siguranță);
+• 2 suporturi de stocare diferite (de exemplu: copia pe SSD-ul calculatorului și pe un hard disk extern USB);
+• 1 copie stocată off-site (într-o altă locație fizică sau într-un serviciu securizat de Cloud Storage precum Google Drive, OneDrive sau iCloud).
+Arhivarea fișierelor reprezintă împachetarea mai multor fișiere și foldere într-un singur fișier arhivă (.zip, .rar, .7z), adesea însoțită de compresie fără pierderi pentru a economisi spațiu pe disc și a ușura transmiterea prin e-mail. Windows integrează nativ suport pentru arhive .zip: clic dreapta pe fișiere -> Send to (Trimite la) -> Compressed (zipped) folder.
+Organizarea eficientă a documentelor presupune crearea unei structuri arborescente logice de foldere (pe ani, materii, proiecte) și aplicarea unei convenții stricte de denumire (ex: An-Luna-Zi_NumeProiect_Versiune, precum 2026-09-07_Referat_v2.docx), evitând denumirile ambigue precum „referat_nou_final3.docx”.
+* Strategia 3-2-1 presupune 3 copii ale datelor, pe 2 medii diferite, dintre care 1 în afara casei/în cloud.
+* Arhivarea (.zip) grupează mai multe fișiere într-unul singur și comprimă datele pentru partajare facilă.
+* Copiile de rezervă trebuie realizate periodic și testate pentru a verifica dacă pot fi restaurate.
+* O structură logică de foldere și nume clare cu dată economisește timp și previne ștergerile accidentale.
+= backup :: copie de siguranță a fișierelor realizată pentru a preveni pierderea definitivă a datelor
+= regula 3-2-1 :: 3 copii ale datelor, pe 2 suporturi de stocare distincte, 1 copie stocată în cloud
+= arhivă (.zip) :: fișier unic ce conține mai multe fișiere comprimate pentru stocare și transport
+= compresie fără pierderi :: reducere a mărimii fișierelor fără a distruge niciun bit din conținutul original
+@ Ce presupune regula de backup 3-2-1? :: 3 copii ale datelor, pe 2 suporturi diferite, cu 1 copie în altă locație (cloud).
+@ Care este avantajul creării unei arhive .zip? :: Reunește zeci de fișiere într-unul singur și reduce dimensiunea totală ocupată.
+@ Cum creezi o arhivă .zip rapid în Windows? :: Selectezi fișierele, dai clic dreapta, alegi Send to și apoi Compressed (zipped) folder.
+@ De ce este periculoasă păstrarea copiei de siguranță doar pe aceeași partiție a aceluiași disc fizic? :: Dacă discul se defectează mecanic, se pierd simultan și datele originale și copia de siguranță.
+? Conform strategiei 3-2-1, câte copii ale datelor importante trebuie păstrate în total?
++ 3 copii
+- 1 singură copie
+- 50 de copii
+- zero copii
+! Cele 3 copii includ fișierul de lucru original plus două copii de rezervă independente.
+? O copie de siguranță stocată „off-site” înseamnă că:
++ copia se află într-o altă locație geografică sau în cloud, protejată de incidente locale
+- copia este ștearsă în fiecare seară
+- fișierul este tipărit pe hârtie
+- datele sunt făcute publice pe internet
+! Copia off-site garantează salvarea datelor chiar și în caz de furt, incendiu sau inundație a locuinței.
+? Formatul standard nativ de arhivă suportat direct de sistemul Windows fără programe terțe este:
++ .zip
+- .mp4
+- .psd
+- .exe
+! Windows poate crea și decomprima foldere comprimate .zip direct din interfața File Explorer.
+? O convenție corectă și profesională de denumire a fișierelor este:
++ 2026-10-15_Proiect_TIC_Popescu_v01.docx
+- doc.docx
+- asdasd.docx
+- final_final_acum_chiar_gata.docx
+! Folosirea datei în format ISO (AN-LUNĂ-ZI) și a numelui proiectului permite sortarea cronologică automată.
+
+## 2 | tic9-c6 | Documente structurate avansate în procesorul de text
+### tic9-15 | Tabele, liste și îmbinarea corespondenței (Mail Merge) în Word
+Structurarea informațiilor complexe într-un document de text necesită stăpânirea tabelelor, a listelor ierarhice și a uneltelor de automatizare.
+1. Tabele în Word: inserate din meniul Insert -> Table, acestea sunt formate din rânduri și coloane, a căror intersecție formează celule. Operațiile esențiale asupra tabelelor includ: îmbinarea celulelor (Merge Cells), divizarea celulelor (Split Cells), alinierea verticală și orizontală a textului în celulă, aplicarea bordurilor și a umbririlor colorate (Shading). În documentele profesionale de Bacalaureat se cere frecvent: distribuirea uniformă a lățimii coloanelor, repetarea rândului de antet pe fiecare pagină (Repeat Header Rows) și alinierea centrală a datelor numerice.
+2. Liste ordonate și neordonate: listele cu buline (bulleted lists) se folosesc când ordinea elementelor nu contează, iar listele numerotate când pașii sunt secvențiali. Listele multinivel (Multilevel Lists) permit crearea de ierarhii numerice (1., 1.1, 1.1.1), utilizând tastele Tab (pentru coborâre cu un nivel spre dreapta) și Shift+Tab (pentru urcare cu un nivel spre stânga).
+3. Îmbinarea corespondenței (Mail Merge): este un instrument de mare productivitate din meniul Mailings. Permite generarea automată a sutelor de documente personalizate (diplome, invitații, adeverințe de elev, etichete poștale) prin fuzionarea unui document șablon cu o bază de date externă (un tabel Excel cu numele, prenumele și clasa elevilor).
+* Tabelele organizează datele în linii și coloane; celulele pot fi îmbinate (Merge) sau divizate (Split).
+* Tastele Tab și Shift+Tab modifică nivelul de indentare într-o listă multinivel.
+* Mail Merge combină un document tipizant cu o listă de date pentru a genera documente personalizate.
+* Repetarea antetului de tabel pe pagini succesive asigură claritatea tabelelor lungi.
+= celulă de tabel :: spațiul de intersecție dintre o linie și o coloană unde se introduce text sau cifre
+= Merge Cells :: unirea a două sau mai multe celule adiacente într-o singură celulă continuă
+= listă multinivel :: listă structurată ierarhic pe mai multe niveluri de subpuncte numerotate
+= Mail Merge :: procedură automată de combinare a unui șablon de text cu o listă de destinatari
+@ Ce operație unește trei celule dintr-un rând de tabel într-una singură? :: Îmbinarea celulelor (Merge Cells).
+@ Ce tastă coboară un element pe un subnivel într-o listă numerotată? :: Tasta Tab.
+@ La ce folosește funcția Mail Merge din Word? :: La generarea automată de diplome sau scrisori personalizate pentru o listă întreagă de persoane.
+@ Cum păstrezi vizibil capul de tabel când acesta se întinde pe 3 pagini? :: Se activează opțiunea Repeat Header Rows (Repetare rânduri antet).
+? Operația de combinare a mai multor celule selectate dintr-un tabel într-o singură celulă se numește:
++ Îmbinare celule (Merge Cells)
+- Divizare celule (Split Cells)
+- Ștergere tabel
+- Colorare font
+! Merge Cells unește celulele fără a șterge conținutul lor.
+? Într-o listă numerotată pe mai multe niveluri, revenirea la nivelul ierarhic superior se face cu:
++ Shift + Tab
+- Enter apăsat de 5 ori
+- Ctrl + P
+- Spacebar
+! Shift+Tab reduce indentarea și urcă pe nivelul ierarhic precedent.
+? Pentru a tipări 100 de diplome diferite cu numele elevilor preluat dintr-un fișier Excel, se utilizează:
++ Îmbinare corespondență (Mail Merge)
+- copierea și lipirea manuală de 100 de ori
+- tasta Caps Lock
+- schimbarea imprimantei
+! Mail Merge completează automat câmpurile marcate cu datele din fiecare rând al tabelului Excel.
+? Alinierea textului în interiorul unei celule de tabel poate fi reglată:
++ atât pe orizontală (stânga, centru, dreapta), cât și pe verticală (sus, mijloc, jos)
+- doar la stânga fără altă opțiune
+- exclusiv în afara tabelului
+- doar prin rotirea monitorului
+! Proprietățile de aliniere din meniul Table Tools permit centrarea perfectă pe mijlocul celulei.
+
+### tic9-16 | Imagini, diagrame SmartArt și obiecte grafice în documente
+Documentele moderne integrează componente vizuale pentru a ilustra conceptele și a sintetiza fluxurile logice:
+1. Inserarea și poziționarea imaginilor: imaginile se inserează din Insert -> Pictures. Elementul esențial cerut la testările practice este modul de încadrare a textului în jurul imaginii (Text Wrapping):
+• In Line with Text (În linie cu textul): imaginea se comportă ca un caracter mare de text;
+• Square / Tight: textul curge uniform în jurul imaginii, formând un dreptunghi sau urmărind conturul;
+• Behind Text (În spatele textului) sau In Front of Text (În fața textului): imaginea plutește liber peste sau sub text (util pentru filigran/watermark).
+2. Diagrame conceptuale SmartArt: disponibile în meniul Insert -> SmartArt, permit crearea instantanee a diagramelor de proces (pași succesivi), a ierarhiilor organizaționale (organigrame), a ciclurilor repetitive și a matricelor de comparație, fără a desena manual forme geometrice.
+3. Forme geometrice (Shapes) și casete de text (Text Box): permit evidențierea unor citate sau concluzii, putând fi grupate (Group) pentru a fi mutate împreună ca un singur bloc unitar.
+4. Note de subsol (Footnotes) și Note de final (Endnotes): din meniul References -> Insert Footnote (Ctrl+Alt+F), plasează numărul de referință în text și explicația la baza paginii curente, fiind obligatorii pentru citarea surselor bibliografice.
+* Modul de încadrare a imaginii (Text Wrapping) stabilește cum curge textul în jurul pozei.
+* Diagramele SmartArt structurează vizual procese, ierarhii și organigrame profesionale.
+* Notele de subsol (Footnotes) citează sursele și se plasează automat în josul paginii curente.
+* Casetele de text (Text Box) pot fi poziționate liber oriunde pe pagină.
+= Text Wrapping :: opțiune Word ce stabilește modul în care paragrafele curg în jurul unui obiect grafic
+= SmartArt :: colecție de diagrame vizuale predefinite pentru comunicarea grafică a ideilor
+= notă de subsol (Footnote) :: adnotare sau referință bibliografică plasată la subsolul paginii curente
+= filigran (Watermark) :: text sau imagine discretă plasată în fundalul paginii (ex: „CONFIDENȚIAL”)
+@ Ce setare de imagine face ca textul să curgă fluid pe lângă conturul unei fotografii? :: Opțiunea Text Wrapping setată pe Square sau Tight.
+@ Ce combinație de taste inserează rapid o notă de subsol în Word? :: Ctrl + Alt + F.
+@ Unde se poziționează automat o notă de subsol (Footnote)? :: La baza (subsolul) paginii pe care se află referința numerică.
+@ Ce tip de grafic SmartArt alegi pentru a ilustra o organigramă de conducere a școlii? :: Un grafic din categoria Hierarchy (Ierarhie).
+? Pentru a plasa o imagine exact în fundalul documentului, sub rândurile de text, opțiunea de Text Wrapping este:
++ Behind Text (În spatele textului)
+- In Line with Text
+- Square
+- Top and Bottom
+! Behind Text permite textului să se așeze peste imagine ca peste un fundal.
+? Inserarea unei referințe bibliografice numerotate automat în partea de jos a paginii se face prin:
++ Insert Footnote (Notă de subsol) din meniul Referințe
+- scrierea manuală a textului cu caractere mici
+- inserarea unei imagini cu carte
+- desenarea unei linii cu rigla
+! Word numerotează automat notele de subsol și le recalculează poziția la adăugarea de pagini noi.
+? Elementul grafic SmartArt de tip „Cycle” (Ciclu) este cel mai potrivit pentru a reprezenta:
++ un proces repetitiv care revine la starea inițială (ex: circuitul apei în natură)
+- o listă simplă de cumpărături
+- o parolă secretă
+- o melodie audio
+! Graficele de tip Ciclu ilustrează etape circulare continue.
+? Pentru a împiedica deplasarea accidentală a mai multor forme geometrice desenate, acestea se selectează și se aplică:
++ Grupare (Group)
+- Ștergere (Delete)
+- Formatare ca tabel
+- Criptare cu parolă
+! Gruparea unește mai multe obiecte grafice într-un singur bloc manevrabil unitar.
+
+%% teza 1
+? Unitatea centrală de prelucrare (CPU) are ca rol principal:
++ executarea instrucțiunilor și coordonarea funcționării întregului sistem
+- afișarea imaginilor pe hârtie
+- stocarea permanentă a fișierelor fără curent
+- alimentarea cu energie a prizei de perete
+! CPU este procesorul care efectuează calculele și controlează celelalte componente.
+? Care dintre următoarele memorii își pierde conținutul la oprirea calculatorului?
++ RAM
+- ROM
+- SSD
+- Hard disk
+! Memoria RAM este volatilă.
+? Tasta funcțională utilizată pentru redenumirea unui fișier selectat este:
++ F2
+- F5
+- F1
+- Esc
+! F2 activează caseta de redenumire în File Explorer.
+? Protocolul securizat și criptat de comunicare pe World Wide Web este:
++ HTTPS
+- FTP
+- HTTP simplu
+- Telnet
+! HTTPS criptează datele cu certificate SSL/TLS.
+? Generarea automată a cuprinsului într-un document Word se bazează pe:
++ aplicarea stilurilor Heading 1, Heading 2 pe titluri
+- scrierea tuturor cuvintelor cu litere mari
+- introducerea a 50 de spații libere
+- numărarea manuală a paginilor
+! Stilurile Heading permit indexarea automată a structurii.
+? Trecerea forțată pe o pagină nouă la redactarea unui referat se face prin:
++ Ctrl + Enter (Page Break)
+- Enter apăsat repetat
+- dublu clic pe monitor
+- micșorarea marginilor
+! Page Break menține textul curat la începutul noii pagini.
+? Pentru a lansa o prezentare PowerPoint începând cu primul diapozitiv, se apasă:
++ F5
+- F4
+- Ctrl + P
+- Shift + Esc
+! F5 pornește prezentarea de la început.
+? Câmpul de e-mail care ascunde adresele destinatarilor pentru a le proteja intimitatea este:
 + Bcc
+- To
 - Cc
-- „Către”
-- „Răspunde tuturor”
-! Astfel adresele nu sunt expuse.
+- Subject
+! Bcc este copie ascunsă.
+? O parolă digitală puternică se caracterizează prin:
++ cel puțin 12-16 caractere diverse (mari, mici, cifre, simboluri) și unicitate
+- data de naștere a utilizatorului
+- cuvântul „parola123”
+- numele animalului de companie scris cu litere mici
+! Parolele lungi și complexe sunt rezistente la atacurile de tip dicționar sau forță brută.
+? Componenta software esențială care administrează hardware-ul și permite rularea aplicațiilor este:
++ Sistemul de operare
+- Placa video
+- Browserul web
+- Antivirusul
+! Sistemul de operare este platforma de bază a oricărui calculator.
 
 %% teza 2
-? O listă numerotată automat este preferabilă pentru că:
-+ se actualizează singură la adăugarea sau ștergerea elementelor
-- ocupă mai puțin loc
-- nu poate fi modificată
-- se tipărește mai repede
-! Numerotarea manuală trebuie refăcută la fiecare schimbare.
-? Pentru date comparabile pe rânduri și coloane se folosește:
-+ un tabel
-- o listă cu marcatori
-- o notă de subsol
-- un antet de pagină
-! Tabelul organizează informația pe două dimensiuni.
-? Textul alternativ al unei imagini folosește:
-+ accesibilității, fiind citit de cititoarele de ecran
-- măririi rezoluției
-- reducerii fișierului
-- alinierii paginii
-! El descrie imaginea pentru cine nu o poate vedea.
-? O imagine se redimensionează fără deformare:
-+ trăgând de un colț
-- trăgând de o latură
-- prin schimbarea formatului
-- prin decupare
-! Astfel se păstrează proporțiile.
-? Pentru o fotografie este potrivit formatul:
-+ JPEG
-- TXT
-- MP3
-- ZIP
-! PNG e mai potrivit pentru desene și capturi.
-? O imagine decorativă fără legătură cu textul:
-+ distrage cititorul de la mesaj
-- este mereu recomandată
-- crește accesibilitatea
-- înlocuiește o diagramă
-! Imaginile trebuie să servească mesajul.
-? Cea mai eficientă măsură împotriva parolelor furate este:
-+ autentificarea în doi pași
-- schimbarea lunară a parolei
-- parola scurtă cu simboluri
-- reutilizarea aceleiași parole
-! Al doilea factor blochează accesul.
-? Ransomware-ul:
-+ criptează datele și cere răscumpărare
-- șterge sistemul de operare
-- fură parolele
-- încetinește calculatorul
-! Copiile de siguranță sunt singura protecție reală.
-? Actualizările de sistem:
-+ corectează vulnerabilități cunoscute
-- schimbă doar interfața
-- eliberează spațiu
-- cresc viteza procesorului
-! Amânarea lor lasă breșe deschise.
-? Copiile de siguranță trebuie păstrate:
-+ și într-o locație separată
-- doar pe același disc
-- doar pe desktop
-- doar în memoria RAM
-! Altfel se pierd odată cu dispozitivul.
-? Datele cu caracter personal sunt:
-+ orice informații care pot identifica o persoană
-- doar numele și CNP-ul
-- doar datele bancare
-- doar fotografiile
-! Inclusiv identificatorii online și datele de localizare.
-? Consimțământul pentru prelucrarea datelor trebuie să fie:
-+ liber, specific și informat
-- implicit
-- general și permanent
-- acordat de terți
-! Căsuțele bifate din start nu constituie consimțământ.
-? Urma digitală este:
-+ ansamblul informațiilor lăsate online, activ și pasiv
-- doar postările publice
-- doar istoricul de navigare
-- doar datele din formulare
-! Ea este greu reversibilă.
-? Plagiatul înseamnă:
-+ preluarea muncii altcuiva fără atribuire
-- citarea unei surse
-- parafrazarea cu trimitere
-- folosirea unei imagini licențiate
-! Ușurința copierii nu îl face acceptabil.
-? Licențele Creative Commons:
-+ precizează condițiile de reutilizare a unei opere
-- elimină drepturile de autor
-- se aplică automat
-- interzic orice reutilizare
-! Autorul alege tipul de licență.
-? Răspunsul corect la cyberbullying include:
-+ documentarea și raportarea
-- răspunsul în același registru
-- ștergerea imediată a probelor
-- tăcerea completă
-! Capturile de ecran permit intervenția.
-? Dezinformarea circulă rapid online deoarece:
-+ algoritmii amplifică ce produce reacție emoțională
-- este verificată automat
-- provine din surse oficiale
-- este mai scurtă
-! Corectitudinea nu determină difuzarea.
-? La partajarea unui document se acordă:
-+ doar drepturile necesare
-- întotdeauna editare
-- acces public
-- drepturi de administrator
-! Este principiul privilegiului minim.
+? În sistemul binar, numărul de valori distincte ce pot fi reprezentate pe 8 biți (1 octet) este:
++ 256
+- 100
+- 1024
+- 8
+! 2^8 = 256 combinații (valori de la 0 la 255).
+? Câți Kilobytes (KB) conține un fișier cu mărimea de 3 Megabytes (MB)?
++ 3072 KB
+- 300 KB
+- 3000 KB
+- 30 KB
+! 3 * 1024 = 3072 KB.
+? Standardul de codificare a textului capabil să reprezinte diacriticele românești și caractere din toate limbile este:
++ Unicode (UTF-8)
+- ASCII pur pe 7 biți
+- BCD
+- Morse
+! Unicode este standardul universal modern de codificare textuală.
+? Modelul aditiv de culoare utilizat la redarea imaginilor pe ecran este:
++ RGB
+- CMYK
+- Alb-negru pur
+- Sepia
+! RGB (Red, Green, Blue) compune lumina pe ecran.
+? Portul modern cu conector reversibil utilizat pentru date rapide, video și alimentare este:
++ USB Type-C
+- VGA
+- PS/2
+- Serial COM
+! USB-C este standardul universal reversibil.
+? Regula de relaxare a ochilor 20-20-20 recomandă ca la fiecare 20 de minute să privești timp de 20 de secunde:
++ la un obiect aflat la aproximativ 6 metri distanță
+- direct în soare
+- la tastatură
+- cu un singur ochi închis
+! Privirea la distanță relaxează mușchiul ciliar al ochiului.
+? Strategia sigură de backup 3-2-1 prevede păstrarea a cel puțin:
++ 1 copie într-o altă locație sau în cloud
+- zero copii
+- toate copiile pe aceeași dischetă
+- copii doar pe hârtie
+! Copia externă off-site protejează datele în caz de dezastre locale.
+? Operația din Word care unește mai multe celule selectate dintr-un tabel se numește:
++ Îmbinare celule (Merge Cells)
+- Divizare tabel
+- Răsturnare rânduri
+- Calcul sumă
+! Merge Cells unește celulele într-una singură.
+? Instrumentul din Word care permite generarea a sute de scrisori personalizate dintr-o listă se numește:
++ Îmbinare corespondență (Mail Merge)
+- WordArt
+- Format Painter
+- SmartArt
+! Mail Merge combină șablonul cu baza de date de destinatari.
+? Notele de subsol (Footnotes) se inserează în document din meniul:
++ Referințe (References)
+- Vizualizare (View)
+- Aspect pagină (Page Layout)
+- Desenare (Draw)
+! Meniul References gestionează notele de subsol, cuprinsul și bibliografia.

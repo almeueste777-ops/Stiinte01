@@ -7,9 +7,897 @@ cssclasses: test
 ---
 # Test — Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)
 
-94 întrebări din [[Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)|Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+84 întrebări din [[Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)|Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
-### 1. Referința $A$1 este:
+### 1. Într-o foaie de calcul, o formulă corectă pentru a aduna celulele A1 și B1 este:
+
+- a. =A1+B1
+- b. A1+B1
+- c. SUM A1 AND B1
+- d. =ADUNA(A1 B1)
+
+> [!success]- Răspuns
+> **a. =A1+B1**
+> 
+> Semnul egal la început este obligatoriu pentru ca Excel să interpreteze textul ca formulă.
+
+### 2. Caracteristica prin care valorile dependente se actualizează automat la schimbarea datelor sursă se numește:
+
+- a. recalculare automată
+- b. formatare condiționată
+- c. filtrare dinamică
+- d. îmbinare de celule
+
+> [!success]- Răspuns
+> **a. recalculare automată**
+> 
+> Recalcularea automată elimină necesitatea de a reintroduce formulele.
+
+### 3. Dacă într-o celulă scrii formula =2+3*4, rezultatul afișat este:
+
+- a. 14
+- b. 20
+- c. 24
+- d. 9
+
+> [!success]- Răspuns
+> **a. 14**
+> 
+> Operația de înmulțire (3*4 = 12) se efectuează prima, apoi adunarea (+2), dând 14.
+
+### 4. Alinierea implicită a textului simplu într-o celulă nouă este:
+
+- a. la stânga
+- b. la dreapta
+- c. centrat perfect
+- d. pe verticală
+
+> [!success]- Răspuns
+> **a. la stânga**
+> 
+> Textul se aliniază la stânga, în timp ce numerele și datele se aliniază la dreapta.
+
+### 5. Funcția corectă pentru a calcula media aritmetică a celulelor din intervalul D2:D15 este:
+
+- a. =AVERAGE(D2:D15)
+- b. =MEDIA(D2:D15)
+- c. =SUM(D2:D15)/COUNTALL
+- d. =MED(D2-D15)
+
+> [!success]- Răspuns
+> **a. =AVERAGE(D2:D15)**
+> 
+> AVERAGE este funcția standard recunoscută internațional în Excel.
+
+### 6. Dacă într-o celulă apare eroarea #DIV/0!, cauza este:
+
+- a. o împărțire la zero sau referirea la o celulă goală la numitor
+- b. culoarea necorespunzătoare a textului
+- c. lipsa conexiunii la internet
+- d. virusarea registrului de lucru
+
+> [!success]- Răspuns
+> **a. o împărțire la zero sau referirea la o celulă goală la numitor**
+> 
+> #DIV/0! apare când numitorul unei fracții are valoarea 0.
+
+### 7. Ce funcție folosești pentru a afla numărul total de elevi prezenți dintr-o listă cu nume în A2:A40?
+
+- a. =COUNTA(A2:A40)
+- b. =SUM(A2:A40)
+- c. =MAX(A2:A40)
+- d. =AVERAGE(A2:A40)
+
+> [!success]- Răspuns
+> **a. =COUNTA(A2:A40)**
+> 
+> COUNTA numără celulele care conțin orice tip de text sau dată, fiind ideală pentru nume.
+
+### 8. Pentru a rotunji valoarea din A1 la două zecimale, formula corectă este:
+
+- a. =ROUND(A1, 2)
+- b. =TRUNC(A1:2)
+- c. =ROT(A1, 2)
+- d. =DECIMALS(A1, 2)
+
+> [!success]- Răspuns
+> **a. =ROUND(A1, 2)**
+> 
+> ROUND primește referința și numărul de zecimale dorite.
+
+### 9. Tipul de grafic cel mai recomandat pentru a compara vânzările a 5 magazine concurente este:
+
+- a. Graficul de tip coloană (Column) sau bare (Bar)
+- b. Graficul de dispersie
+- c. O diagramă de flux
+- d. O schemă arborescentă
+
+> [!success]- Răspuns
+> **a. Graficul de tip coloană (Column) sau bare (Bar)**
+> 
+> Coloanele oferă o comparare vizuală imediată a înălțimilor fiecărui magazin.
+
+### 10. Într-un grafic circular (Pie Chart), feliile reprezintă:
+
+- a. părți procentuale componente dintr-un întreg de 100%
+- b. evoluția vitezei unui automobil pe autostradă
+- c. conexiunile de rețea dintr-un laborator
+- d. erorile din formulele matematice
+
+> [!success]- Răspuns
+> **a. părți procentuale componente dintr-un întreg de 100%**
+> 
+> Graficul Pie este conceput special pentru raportarea părților la întreg.
+
+### 11. Elementul de pe grafic care afișează valoarea numerică exactă chiar pe coloană se numește:
+
+- a. Etichetă de date (Data Label)
+- b. Titlu de axă
+- c. Linie de grilă
+- d. Casetă de căutare
+
+> [!success]- Răspuns
+> **a. Etichetă de date (Data Label)**
+> 
+> Data Labels fac citirea cifrelor imediată, fără a mai fi nevoie de proiecția pe axa Y.
+
+### 12. Inserarea unui grafic într-o foaie de calcul Excel se realizează din meniul:
+
+- a. Inserare (Insert)
+- b. Date (Data)
+- c. Formule (Formulas)
+- d. Revizuire (Review)
+
+> [!success]- Răspuns
+> **a. Inserare (Insert)**
+> 
+> Meniul Insert găzduiește întreaga galerie de diagrame și grafice.
+
+### 13. Într-un tabel al unei baze de date relaționale, o coloană reprezintă:
+
+- a. un Câmp (Field / Atribut)
+- b. o Înregistrare completă
+- c. o cheie străină
+- d. un raport de imprimare
+
+> [!success]- Răspuns
+> **a. un Câmp (Field / Atribut)**
+> 
+> Câmpul definește proprietatea stocată (ex: Nume, Clasa, Nota).
+
+### 14. Proprietatea esențială a unei Chei Primare (Primary Key) este că:
+
+- a. conține valori unice și nu poate avea valoarea NULL (fără date)
+- b. poate conține zeci de valori identice
+- c. se modifică automat în fiecare zi
+- d. conține doar cuvinte scrise greșit
+
+> [!success]- Răspuns
+> **a. conține valori unice și nu poate avea valoarea NULL (fără date)**
+> 
+> Unicitatea cheii primare permite diferențierea oricăror două rânduri, chiar dacă au același nume.
+
+### 15. Tipul de date din Microsoft Access care generează automat numere de ordine crescătoare fără intervenția utilizatorului este:
+
+- a. AutoNumber
+- b. Short Text
+- c. OLE Object
+- d. Hyperlink
+
+> [!success]- Răspuns
+> **a. AutoNumber**
+> 
+> AutoNumber alocă 1, 2, 3... automat la fiecare rând nou creat.
+
+### 16. Rândul orizontal complet dintr-un tabel de elevi care conține (101, Popescu, Maria, 10A) se numește:
+
+- a. Înregistrare (Record / Tuplu)
+- b. Bază de date
+- c. Câmp de selecție
+- d. Nume de coloană
+
+> [!success]- Răspuns
+> **a. Înregistrare (Record / Tuplu)**
+> 
+> Rândul orizontal reunește toate atributele unui obiect unic din tabel.
+
+### 17. Obiectul din baza de date utilizat pentru a filtra datele pe baza unor criterii logice este:
+
+- a. Interogarea (Query)
+- b. Tabelul gol
+- c. Meniul Ajutor
+- d. Driverul de imprimantă
+
+> [!success]- Răspuns
+> **a. Interogarea (Query)**
+> 
+> Interogarea interoghează tabelele și returnează doar rândurile dorite.
+
+### 18. Criteriul corect pentru a selecta produsele cu prețul cuprins între 50 și 100 de lei este:
+
+- a. Between 50 And 100
+- b. 50 to 100
+- c. From 50 Until 100
+- d. Preț == 50-100
+
+> [!success]- Răspuns
+> **a. Between 50 And 100**
+> 
+> Between ... And ... este sintaxa standard de interval în Access și SQL.
+
+### 19. Pentru a oferi unui operator o fereastră intuitivă cu butoane pentru culegerea datelor, creezi:
+
+- a. un Formular (Form)
+- b. un cablu de rețea
+- c. o arhivă .zip
+- d. un fișier de sunet
+
+> [!success]- Răspuns
+> **a. un Formular (Form)**
+> 
+> Formularul oferă o mască prietenoasă de introducere a datelor în câmpuri.
+
+### 20. Obiectul destinat special formatării datelor cu titluri, grupări și totaluri pentru tipar se numește:
+
+- a. Raport (Report)
+- b. Interogare de ștergere
+- c. Macrocomandă ascunsă
+- d. Foaie de stil CSS
+
+> [!success]- Răspuns
+> **a. Raport (Report)**
+> 
+> Raportul aranjează informațiile exact așa cum vor apărea pe foaia de hârtie A4.
+
+### 21. Imaginile definite prin ecuații matematice care nu își pierd calitatea la mărire aparțin graficii:
+
+- a. vectoriale
+- b. raster
+- c. analogice
+- d. comprimate audio
+
+> [!success]- Răspuns
+> **a. vectoriale**
+> 
+> Grafica vectorială recalculează curbele la orice nivel de mărire.
+
+### 22. Formatul standard de imagine vectorială utilizat pe scară largă pe paginile web moderne este:
+
+- a. .svg
+- b. .jpg
+- c. .gif
+- d. .bmp
+
+> [!success]- Răspuns
+> **a. .svg**
+> 
+> SVG (Scalable Vector Graphics) este un standard deschis XML recunoscut direct de browsere.
+
+### 23. Instrumentul utilizat pentru a tăia marginile nedorite ale unei fotografii se numește:
+
+- a. Decupare (Crop)
+- b. Defragmentare
+- c. Scalare 3D
+- d. Paginare automată
+
+> [!success]- Răspuns
+> **a. Decupare (Crop)**
+> 
+> Instrumentul Crop decupează cadrul dorit din întreaga fotografie.
+
+### 24. Rezoluția standard de ecran folosită în mod tradițional pentru grafica web este de:
+
+- a. 72 – 96 DPI / PPI
+- b. 1000 DPI
+- c. 5 DPI
+- d. 12000 DPI
+
+> [!success]- Răspuns
+> **a. 72 – 96 DPI / PPI**
+> 
+> Ecranele clasice afișează între 72 și 96 de pixeli pe inch.
+
+### 25. Figura geometrică standard folosită într-o schemă logică pentru decizii condiționate este:
+
+- a. rombul
+- b. cercul
+- c. triunghiul
+- d. dreptunghiul
+
+> [!success]- Răspuns
+> **a. rombul**
+> 
+> Rombul evaluează condiția logică și ramifică execuția pe DA sau NU.
+
+### 26. Proprietatea prin care fiecare comandă a algoritmului este formulată precis și fără dubiu se numește:
+
+- a. claritate (determinism)
+- b. infinitate
+- c. aproximare
+- d. confidențialitate
+
+> [!success]- Răspuns
+> **a. claritate (determinism)**
+> 
+> Determinismul garantează același comportament la fiecare rulare cu aceleași date.
+
+### 27. În schemele logice, introducerea datelor de intrare (citirea) se reprezintă prin:
+
+- a. paralelogram
+- b. romb
+- c. trapez
+- d. stea
+
+> [!success]- Răspuns
+> **a. paralelogram**
+> 
+> Paralelogramul simbolizează operațiile de intrare/ieșire (I/O).
+
+### 28. Un algoritm corect trebuie să se oprească după un număr finit de operații conform proprietății de:
+
+- a. finititudine
+- b. complexitate
+- c. recursivitate
+- d. redundanță
+
+> [!success]- Răspuns
+> **a. finititudine**
+> 
+> Finititudinea exclude buclele infinite.
+
+### 29. Structura repetitivă care garantează executarea blocului de instrucțiuni cel puțin o dată este:
+
+- a. structura repetitivă cu test final (Repetă ... Până când)
+- b. structura repetitivă cu test inițial (Cât timp)
+- c. structura secvențială
+- d. structura de decizie simplă
+
+> [!success]- Răspuns
+> **a. structura repetitivă cu test final (Repetă ... Până când)**
+> 
+> La bucla cu test final, condiția se află după instrucțiuni, asigurând o primă rulare.
+
+### 30. În structura alternativă (Dacă ... Atunci ... Altfel), ramura „Altfel” este parcursă când:
+
+- a. condiția logică testată este Falsă
+- b. condiția este Adevărată
+- c. calculatorul este oprit
+- d. bucla a rulat de 100 de ori
+
+> [!success]- Răspuns
+> **a. condiția logică testată este Falsă**
+> 
+> Dacă condiția este falsă, fluxul comută pe ramura alternativă Else.
+
+### 31. Pentru a calcula suma primelor 100 de numere naturale, cea mai comodă structură repetitivă este:
+
+- a. bucla PENTRU (FOR) de la 1 la 100
+- b. 100 de comenzi scrise manual una sub alta
+- c. o structură de decizie fără buclă
+- d. un fișier audio
+
+> [!success]- Răspuns
+> **a. bucla PENTRU (FOR) de la 1 la 100**
+> 
+> Bucla FOR parcurge automat contorul de la 1 la 100.
+
+### 32. Ce risc apare dacă într-o buclă CÂT TIMP condiția rămâne permanent Adevărată și nu se modifică?
+
+- a. algoritmul intră într-o buclă infinită și nu se mai termină
+- b. calculatorul se formatează singur
+- c. programul se termină instantaneu
+- d. ecranul devine complet verde
+
+> [!success]- Răspuns
+> **a. algoritmul intră într-o buclă infinită și nu se mai termină**
+> 
+> Variabila din condiție trebuie actualizată în interiorul buclei pentru a asigura oprirea.
+
+### 33. Procesul de împărțire a unei teme ample de proiect în sarcini mici de lucru pentru fiecare membru al echipei este:
+
+- a. Descompunere
+- b. Compresie lossy
+- c. Sortare alfabetică
+- d. Criptare
+
+> [!success]- Răspuns
+> **a. Descompunere**
+> 
+> Descompunerea face problema ușor de atacat și organizat pe etape.
+
+### 34. Eliminarea detaliilor inutile pentru a construi un model matematic simplificat reprezintă:
+
+- a. Abstractizare
+- b. Buclă infinită
+- c. Scanare optică
+- d. Formatare condiționată
+
+> [!success]- Răspuns
+> **a. Abstractizare**
+> 
+> Abstractizarea izolează esența funcțională a sistemului.
+
+### 35. Identificarea faptului că algoritmul de calcul al mediei la matematică este identic cu cel de la fizică constituie:
+
+- a. Recunoaștere de tipare
+- b. Plagiat software
+- c. Eroare de compilare
+- d. Suprascriere de date
+
+> [!success]- Răspuns
+> **a. Recunoaștere de tipare**
+> 
+> Recunoașterea structurii comune permite aplicarea aceluiași algoritm matematic.
+
+### 36. Elaborarea unei succesiuni riguroase de pași pe care oricine îi poate urma pentru asamblarea unei bănci reprezintă:
+
+- a. Conceperea unui algoritm
+- b. Căutare binară
+- c. Arhivare .zip
+- d. Conexiune Bluetooth
+
+> [!success]- Răspuns
+> **a. Conceperea unui algoritm**
+> 
+> Manualul de asamblare este un algoritm pas-cu-pas formulat pentru utilizator.
+
+### 37. Referința de celulă $D$10 este o referință:
+
+- a. absolută
+- b. relativă
+- c. mixtă
+- d. eronată
+
+> [!success]- Răspuns
+> **a. absolută**
+> 
+> Prezența semnului $ în fața coloanei D și a rândului 10 blochează ambele coordonate.
+
+### 38. Dacă formula =$A$1+B1 din celula C1 este copiată în celula C2, ea devine:
+
+- a. =$A$1+B2
+- b. =A2+B2
+- c. =$A$2+B1
+- d. =$B$2+C2
+
+> [!success]- Răspuns
+> **a. =$A$1+B2**
+> 
+> $A$1 rămâne neschimbat (absolut), iar B1 se incrementează relativ la B2.
+
+### 39. Tasta de pe tastatură utilizată pentru a transforma o adresă relativă în absolută este:
+
+- a. F4
+- b. F1
+- c. F12
+- d. Caps Lock
+
+> [!success]- Răspuns
+> **a. F4**
+> 
+> F4 adaugă sau elimină simbolurile $ în mod ciclabil.
+
+### 40. Într-o referință mixtă de tipul $B5, ce componentă este blocată la copiere orizontală?
+
+- a. coloana B
+- b. rândul 5
+- c. ambele componente
+- d. niciuna
+
+> [!success]- Răspuns
+> **a. coloana B**
+> 
+> Semnul $ plasat direct în fața literei B blochează coloana.
+
+### 41. Formula corectă pentru a afișa „Major” dacă vârsta din A1 este de cel puțin 18 ani este:
+
+- a. =IF(A1>=18, "Major", "Minor")
+- b. =IF(A1=18, Major, Minor)
+- c. =COND(A1>18, "Major")
+- d. =TEST(A1:18, "Major")
+
+> [!success]- Răspuns
+> **a. =IF(A1>=18, "Major", "Minor")**
+> 
+> Sintaxa corectă folosește IF, condiția logică, urmată de cele două ramuri separate prin virgulă/punct și virgulă.
+
+### 42. Pentru a număra câte persoane din coloana B sunt din orașul „Piatra Neamț”, formula optimă este:
+
+- a. =COUNTIF(B2:B100, "Piatra Neamț")
+- b. =SUMIF(B2:B100, "Piatra Neamț")
+- c. =COUNT(B2:B100)
+- d. =TOTAL(B2:B100, "Piatra Neamț")
+
+> [!success]- Răspuns
+> **a. =COUNTIF(B2:B100, "Piatra Neamț")**
+> 
+> COUNTIF este funcția specializată în numărare condiționată.
+
+### 43. Rezultatul evaluării formulei =IF(3 >= 7, 100, 200) este:
+
+- a. 200
+- b. 100
+- c. ADEVĂRAT
+- d. #VALUE!
+
+> [!success]- Răspuns
+> **a. 200**
+> 
+> Deoarece 3 nu este mai mare sau egal cu 7 (condiția este falsă), se execută a doua ramură: 200.
+
+### 44. Funcția =SUMIF diferă de =SUM prin faptul că:
+
+- a. adună doar celulele care satisfac o condiție logică specificată
+- b. nu poate aduna mai mult de 2 celule
+- c. șterge celulele adunate
+- d. funcționează doar pe telefoane mobile
+
+> [!success]- Răspuns
+> **a. adună doar celulele care satisfac o condiție logică specificată**
+> 
+> SUMIF efectuează însumarea selectivă conform criteriului.
+
+### 45. Instrumentul care sintetizează rapid mii de rânduri de date grupându-le pe categorii fără formule manuale este:
+
+- a. Tabelul Pivot (Pivot Table)
+- b. Calculatorul simplu de Windows
+- c. Linia de comandă CMD
+- d. Tastatura virtuală
+
+> [!success]- Răspuns
+> **a. Tabelul Pivot (Pivot Table)**
+> 
+> Tabelele pivot sunt standardul profesional de agregare și raportare rapidă a datelor.
+
+### 46. La aplicarea comenzii Filtru (Filter), pe primul rând al tabelului apar:
+
+- a. săgeți derulante (butoane dropdown) pentru fiecare coloană
+- b. desene animate
+- c. mesaje de eroare cu roșu
+- d. parole de acces
+
+> [!success]- Răspuns
+> **a. săgeți derulante (butoane dropdown) pentru fiecare coloană**
+> 
+> Butoanele derulante permit selectarea rapidă a valorilor care trebuie afișate.
+
+### 47. Dacă dorești să rearanjezi o listă de prețuri de la cel mai scump produs la cel mai ieftin, aplici:
+
+- a. Sortare descrescătoare (Z la A / de la mare la mic)
+- b. Sortare crescătoare
+- c. Ștergere celule
+- d. Numărare simplă
+
+> [!success]- Răspuns
+> **a. Sortare descrescătoare (Z la A / de la mare la mic)**
+> 
+> Sortarea descrescătoare poziționează valorile cele mai mari în capul listei.
+
+### 48. Instrumentul din Excel care colorează automat celulele cu fundal galben dacă valoarea este între 7 și 8.50 este:
+
+- a. Formatarea condiționată (Conditional Formatting)
+- b. Vopseaua digitală
+- c. Editorul de text Word
+- d. Verificatorul de ortografie
+
+> [!success]- Răspuns
+> **a. Formatarea condiționată (Conditional Formatting)**
+> 
+> Formatarea condiționată aplică stiluri vizuale bazate pe reguli matematice dinamice.
+
+### 49. Expresia compusă (nota >= 5) ȘI (absente <= 10) este evaluată ca FALSĂ dacă:
+
+- a. elevul are nota 4 și 2 absențe
+- b. elevul are nota 8 și 3 absențe
+- c. elevul are nota 10 și 0 absențe
+- d. elevul are nota 5 și 10 absențe
+
+> [!success]- Răspuns
+> **a. elevul are nota 4 și 2 absențe**
+> 
+> Deoarece nota 4 nu respectă prima condiție, operatorul AND face ca întreaga expresie să devină falsă.
+
+### 50. Expresia logică (A SAU B) este FALSĂ numai atunci când:
+
+- a. atât A, cât și B sunt false simultan
+- b. A este adevărat și B este fals
+- c. ambele sunt adevărate
+- d. A este fals și B este adevărat
+
+> [!success]- Răspuns
+> **a. atât A, cât și B sunt false simultan**
+> 
+> Operatorul SAU necesită cel puțin o valoare adevărată pentru a fi adevărat.
+
+### 51. Structura algoritmică recomandată pentru afișarea numelui lunii din an în funcție de numărul ei (1-12) este:
+
+- a. selecție multiplă (În cazul în care / Switch-Case)
+- b. buclă infinită
+- c. structură secvențială fără decizie
+- d. formatare condiționată
+
+> [!success]- Răspuns
+> **a. selecție multiplă (În cazul în care / Switch-Case)**
+> 
+> Switch-Case compară direct valoarea numerică 1..12 și alege denumirea lunii.
+
+### 52. Dacă variabila X are valoarea 7, expresia NOT(X > 10) este:
+
+- a. ADEVĂRATĂ
+- b. FALSĂ
+- c. 70
+- d. nedeterminată
+
+> [!success]- Răspuns
+> **a. ADEVĂRATĂ**
+> 
+> 7 > 10 este fals, iar negația lui fals este Adevărat.
+
+### 53. Un vector este o colecție de elemente care:
+
+- a. au același tip de date și sunt identificate prin indici
+- b. conțin doar imagini
+- c. nu pot fi numărate niciodată
+- d. au lungime infinită
+
+> [!success]- Răspuns
+> **a. au același tip de date și sunt identificate prin indici**
+> 
+> Omogenitatea tipului de date este proprietatea fundamentală a tabloului clasic.
+
+### 54. Pentru a parcurge un vector cu 50 de elemente, contorul buclei FOR va lua valori de la:
+
+- a. 1 la 50
+- b. 1 la 2
+- c. 0 la 1
+- d. 50 la 5000
+
+> [!success]- Răspuns
+> **a. 1 la 50**
+> 
+> Bucla va itera prin toate cele 50 de poziții ale vectorului.
+
+### 55. La căutarea valorii maxime dintr-un vector, valoarea inițială atribuită variabilei max este uzual:
+
+- a. primul element al vectorului: V[1]
+- b. cifra 9999999
+- c. textul „eroare”
+- d. zero absolut întotdeauna
+
+> [!success]- Răspuns
+> **a. primul element al vectorului: V[1]**
+> 
+> Inițializarea cu V[1] garantează că maximul va fi ales corect chiar dacă toate numerele sunt negative.
+
+### 56. Dacă un vector A conține valorile (4, 10, 2), rezultatul expresiei A[1] + A[2] este:
+
+- a. 14
+- b. 6
+- c. 12
+- d. 410
+
+> [!success]- Răspuns
+> **a. 14**
+> 
+> A[1] este 4, iar A[2] este 10; 4 + 10 = 14.
+
+### 57. Câmpul dintr-un tabel secundar care trimite la cheia primară a tabelului principal se numește:
+
+- a. Cheie Străină (Foreign Key)
+- b. Cheie de rezervă
+- c. Titlu de câmp
+- d. Formular extern
+
+> [!success]- Răspuns
+> **a. Cheie Străină (Foreign Key)**
+> 
+> Cheia străină leagă datele din tabelul copil de cele din tabelul părinte.
+
+### 58. Relația dintre o Școală și Elevii înscriși în acea școală este de tipul:
+
+- a. Unu-la-Mulți (1:N)
+- b. Unu-la-Unu (1:1)
+- c. Zero-la-Zero
+- d. Infinit
+
+> [!success]- Răspuns
+> **a. Unu-la-Mulți (1:N)**
+> 
+> O școală conține mulți elevi, dar fiecare elev aparține unei singure școli.
+
+### 59. Relația Mulți-la-Mulți (N:M) între Medici și Pacienți se rezolvă corect prin:
+
+- a. introducerea unui tabel de legătură intermediar (ex: Consultații / Programări)
+- b. ștergerea tuturor medicilor
+- c. scrierea tuturor numelor într-o singură celulă
+- d. renunțarea la baza de date
+
+> [!success]- Răspuns
+> **a. introducerea unui tabel de legătură intermediar (ex: Consultații / Programări)**
+> 
+> Tabelul Programări reține cheia medicului și cheia pacientului, formând două relații 1:N.
+
+### 60. Separarea datelor în tabele distincte relaționate are ca scop principal:
+
+- a. eliminarea redundanței și asigurarea coerenței datelor
+- b. încetinirea calculatorului
+- c. blocarea utilizatorilor
+- d. mărirea consumului de memorie RAM
+
+> [!success]- Răspuns
+> **a. eliminarea redundanței și asigurarea coerenței datelor**
+> 
+> Normalizarea bazelor de date elimină dublurile și erorile de sincronizare.
+
+### 61. Regula care împiedică atribuirea unui elev la o clasă care nu a fost creată în sistem se numește:
+
+- a. Integritate referențială
+- b. Protecție antivirus
+- c. Arhivare automată
+- d. Sortare multinivel
+
+> [!success]- Răspuns
+> **a. Integritate referențială**
+> 
+> Integritatea referențială validează corespondența cheilor între tabele.
+
+### 62. Opțiunea „Cascade Delete Related Records” dintr-o relație de bază de date determină:
+
+- a. ștergerea automată a înregistrărilor dependente când înregistrarea părinte este ștearsă
+- b. blocarea definitivă a bazei de date
+- c. ștergerea întregului sistem de operare
+- d. imposibilitatea de a șterge vreun rând
+
+> [!success]- Răspuns
+> **a. ștergerea automată a înregistrărilor dependente când înregistrarea părinte este ștearsă**
+> 
+> Ștergerea în cascadă curăță automat ramurile asociate fără a lăsa rânduri orfane.
+
+### 63. O valoare care nu mai poate fi divizată în părți mai mici (ex: Numărul străzii) este o valoare:
+
+- a. atomică
+- b. moleculară
+- c. vectorială
+- d. recursivă
+
+> [!success]- Răspuns
+> **a. atomică**
+> 
+> Atomicitatea este cerința centrală a primei forme normale (1NF).
+
+### 64. Dacă o bază de date respectă Formele Normale 1, 2 și 3, ea este considerată:
+
+- a. optimizată împotriva redundanțelor și a anomaliilor de actualizare
+- b. plină de erori
+- c. neutilizabilă pe calculatoare noi
+- d. periculoasă pentru securitate
+
+> [!success]- Răspuns
+> **a. optimizată împotriva redundanțelor și a anomaliilor de actualizare**
+> 
+> Normalizarea este procesul standard de proiectare a unei baze de date robuste.
+
+### 65. În Microsoft Excel, formula corectă pentru a aduna celulele de la A1 până la A10 este:
+
+- a. =SUM(A1:A10)
+- b. =ADUNA(A1-A10)
+- c. SUM(A1..A10)
+- d. =A1+A10
+
+> [!success]- Răspuns
+> **a. =SUM(A1:A10)**
+> 
+> Funcția =SUM(A1:A10) însumează întregul interval.
+
+### 66. Alinierea implicită a valorilor numerice într-o celulă de calcul tabelar este:
+
+- a. la dreapta
+- b. la stânga
+- c. centrat
+- d. sus
+
+> [!success]- Răspuns
+> **a. la dreapta**
+> 
+> Numerele se aliniază la dreapta pentru lizibilitate la compararea zecimalelor.
+
+### 67. Tipul de grafic cel mai indicat pentru a reprezenta evoluția cursului valutar pe 30 de zile este:
+
+- a. graficul liniar (Line)
+- b. graficul circular (Pie)
+- c. graficul cu bare orizontale
+- d. organigrama
+
+> [!success]- Răspuns
+> **a. graficul liniar (Line)**
+> 
+> Graficul liniar este optim pentru fenomene continue în timp.
+
+### 68. Eroarea #DIV/0! semnalează:
+
+- a. o împărțire la zero
+- b. un nume greșit de funcție
+- c. o coloană prea îngustă
+- d. o imagine lipsă
+
+> [!success]- Răspuns
+> **a. o împărțire la zero**
+> 
+> Apare când numitorul calculului este 0 sau o celulă goală.
+
+### 69. Într-un tabel de bază de date, o înregistrare (Record) reprezintă:
+
+- a. un rând orizontal complet cu datele unei entități
+- b. o coloană verticală
+- c. numele bazei de date
+- d. un buton de meniu
+
+> [!success]- Răspuns
+> **a. un rând orizontal complet cu datele unei entități**
+> 
+> Înregistrarea grupează toate valorile atributelor unui obiect.
+
+### 70. Câmpul unic care identifică fără duplicat fiecare rând dintr-un tabel se numește:
+
+- a. Cheie Primară (Primary Key)
+- b. Cheie secundară
+- c. Număr de telefon
+- d. Text scurt
+
+> [!success]- Răspuns
+> **a. Cheie Primară (Primary Key)**
+> 
+> Cheia primară garantează unicitatea fiecărui rând.
+
+### 71. Obiectul din Access utilizat pentru a extrage date după anumite criterii este:
+
+- a. Interogarea (Query)
+- b. Formularul
+- c. Modulul de sunet
+- d. Driverul video
+
+> [!success]- Răspuns
+> **a. Interogarea (Query)**
+> 
+> Interogarea selectează doar înregistrările conforme criteriului.
+
+### 72. Grafica vectorială se caracterizează în mod esențial prin:
+
+- a. scalabilitate infinită fără pierderea calității imaginii
+- b. formare exclusivă din pixeli mari
+- c. imposibilitatea de a fi mărită
+- d. compatibilitate doar cu imprimante cu ace
+
+> [!success]- Răspuns
+> **a. scalabilitate infinită fără pierderea calității imaginii**
+> 
+> Formulele matematice ale vectorilor se redesenează perfect la orice zoom.
+
+### 73. Figura geometrică dintr-o schemă logică ce evaluează o condiție de decizie este:
+
+- a. rombul
+- b. dreptunghiul
+- c. paralelogramul
+- d. cercul
+
+> [!success]- Răspuns
+> **a. rombul**
+> 
+> Rombul ramifică execuția în funcție de adevărul condiției.
+
+### 74. Proprietatea unui algoritm de a se opri garantat după un număr finit de pași se numește:
+
+- a. finititudine
+- b. generalitate
+- c. claritate
+- d. redundanță
+
+> [!success]- Răspuns
+> **a. finititudine**
+> 
+> Finititudinea împiedică rularea la infinit.
+
+### 75. Referința de celulă $B$4 este o referință:
 
 - a. absolută
 - b. relativă
@@ -19,1123 +907,115 @@ cssclasses: test
 > [!success]- Răspuns
 > **a. absolută**
 > 
-> Ea nu se modifică la copierea formulei.
+> Semnele $ blochează atât coloana, cât și linia.
 
-### 2. La copierea formulei din B2 în B3, referința relativă A2 devine:
+### 76. Tasta funcțională care transformă o referință relativă în una absolută în Excel este:
 
-- a. A3
-- b. A2
-- c. $A$2
-- d. B3
+- a. F4
+- b. F1
+- c. F5
+- d. F10
 
 > [!success]- Răspuns
-> **a. A3**
+> **a. F4**
 > 
-> Referințele relative se ajustează după deplasare.
+> F4 inserează automat simbolurile $.
 
-### 3. Recalcularea automată înseamnă că:
+### 77. Formula =IF(8 > 10, "A", "B") returnează valoarea:
 
-- a. rezultatele se actualizează la modificarea datelor de intrare
-- b. formulele se scriu singure
-- c. fișierul se salvează automat
-- d. se corectează erorile
+- a. B
+- b. A
+- c. ADEVĂRAT
+- d. #NAME?
 
 > [!success]- Răspuns
-> **a. rezultatele se actualizează la modificarea datelor de intrare**
+> **a. B**
 > 
-> Este avantajul central al calculului tabelar.
+> Condiția 8 > 10 este falsă, deci se afișează valoarea pentru fals: B.
 
-### 4. Mesajul de eroare pentru împărțire la zero indică:
+### 78. Funcția care numără câte celule dintr-un interval satisfac un anumit criteriu este:
 
-- a. o problemă în datele sau în formula folosită
-- b. lipsa memoriei
-- c. un fișier corupt
-- d. o versiune veche a programului
+- a. =COUNTIF
+- b. =SUMIF
+- c. =AVERAGE
+- d. =MAX
 
 > [!success]- Răspuns
-> **a. o problemă în datele sau în formula folosită**
+> **a. =COUNTIF**
 > 
-> Erorile afișate ghidează corectarea.
+> COUNTIF este funcția de numărare condiționată.
 
-### 5. Pentru a calcula media notelor dintr-un interval se folosește:
+### 79. Instrumentul din Excel care permite sintetizarea și gruparea a mii de date fără formule manuale este:
 
-- a. o funcție statistică de medie
-- b. o funcție de text
-- c. o funcție de dată
-- d. o funcție de căutare
+- a. Tabelul Pivot (Pivot Table)
+- b. Arhiva ZIP
+- c. Editorul de text
+- d. Instrumentul Paint
 
 > [!success]- Răspuns
-> **a. o funcție statistică de medie**
+> **a. Tabelul Pivot (Pivot Table)**
 > 
-> Funcțiile statistice acoperă media, minimul, maximul și numărarea.
+> Tabelul pivot este instrumentul analitic suprem în Excel.
 
-### 6. Un tabel pivot este util atunci când:
+### 80. O colecție ordonată de elemente de același tip stocate la adrese succesive se numește:
 
-- a. vrei să rezumi rapid un set mare de date, pe categorii
-- b. ai doar câteva valori
-- c. vrei să formatezi textul
-- d. vrei să tipărești foaia
+- a. vector (tablou unidimensional)
+- b. fișier video
+- c. adresă IP
+- d. cablu coaxial
 
 > [!success]- Răspuns
-> **a. vrei să rezumi rapid un set mare de date, pe categorii**
+> **a. vector (tablou unidimensional)**
 > 
-> El grupează și totalizează automat.
+> Vectorul organizează date omogene indexate numeric.
 
-### 7. Formatarea condiționată:
+### 81. Operatorul logic care impune ca toate condițiile să fie simultan adevărate este:
 
-- a. colorează automat celulele care îndeplinesc un criteriu
-- b. modifică valorile
-- c. adaugă formule
-- d. ordonează datele
+- a. AND (ȘI)
+- b. OR (SAU)
+- c. NOT (NEGAȚIE)
+- d. XOR
 
 > [!success]- Răspuns
-> **a. colorează automat celulele care îndeplinesc un criteriu**
+> **a. AND (ȘI)**
 > 
-> Ea face vizibile tiparele din date.
+> Conjuncția AND cere adevărul tuturor termenilor.
 
-### 8. Filtrarea unei liste:
+### 82. Relația clasică dintre un Profesor și Elevii din clasele la care predă este de tipul:
 
-- a. afișează doar rândurile care îndeplinesc un criteriu
-- b. șterge celelalte rânduri
-- c. sortează alfabetic
-- d. calculează totalul
+- a. Unu-la-Mulți (1:N)
+- b. Unu-la-Unu (1:1)
+- c. Zero-la-Unu
+- d. Fără legătură
 
 > [!success]- Răspuns
-> **a. afișează doar rândurile care îndeplinesc un criteriu**
+> **a. Unu-la-Mulți (1:N)**
 > 
-> Datele ascunse rămân în foaie.
+> Un profesor predă la mulți elevi.
 
-### 9. Pentru compoziția procentuală a unui întreg este potrivit:
+### 83. Regula care garantează că o cheie străină indică o cheie primară existentă se numește:
 
-- a. graficul circular, cu puține categorii
-- b. graficul cu linii
-- c. histograma
-- d. norul de puncte
+- a. Integritate referențială
+- b. Defragmentare
+- c. Overclocking
+- d. Autentificare 2FA
 
 > [!success]- Răspuns
-> **a. graficul circular, cu puține categorii**
+> **a. Integritate referențială**
 > 
-> Cu multe categorii devine ilizibil.
+> Integritatea referențială exclude legăturile orfane.
 
-### 10. Trunchierea axei verticale:
+### 84. Formatul de imagine vectorială standard pentru paginile web este:
 
-- a. exagerează diferențele dintre valori
-- b. le reduce
-- c. nu are efect
-- d. corectează scara
+- a. .svg
+- b. .jpg
+- c. .bmp
+- d. .mp3
 
 > [!success]- Răspuns
-> **a. exagerează diferențele dintre valori**
+> **a. .svg**
 > 
-> Este o manipulare vizuală frecventă.
-
-### 11. Norul de puncte se folosește pentru:
-
-- a. relația dintre două variabile
-- b. evoluția în timp
-- c. compoziția unui întreg
-- d. comparația între categorii
-
-> [!success]- Răspuns
-> **a. relația dintre două variabile**
-> 
-> El arată dacă există o corelație.
-
-### 12. Un grafic fără etichete pe axe:
-
-- a. nu poate fi interpretat corect
-- b. este mai clar
-- c. este acceptabil dacă are titlu
-- d. se folosește pentru date confidențiale
-
-> [!success]- Răspuns
-> **a. nu poate fi interpretat corect**
-> 
-> Unitățile de măsură sunt obligatorii.
-
-### 13. Într-un tabel de bază de date, rândurile se numesc:
-
-- a. înregistrări
-- b. câmpuri
-- c. chei
-- d. relații
-
-> [!success]- Răspuns
-> **a. înregistrări**
-> 
-> Coloanele sunt câmpuri.
-
-### 14. Cheia primară trebuie să fie:
-
-- a. unică pentru fiecare înregistrare
-- b. identică pentru toate înregistrările
-- c. opțională
-- d. de tip text obligatoriu
-
-> [!success]- Răspuns
-> **a. unică pentru fiecare înregistrare**
-> 
-> Ea garantează identificarea fără ambiguitate.
-
-### 15. Redundanța datelor produce:
-
-- a. risc de inconsistență la actualizare
-- b. economie de spațiu
-- c. viteză mai mare
-- d. integritate sporită
-
-> [!success]- Răspuns
-> **a. risc de inconsistență la actualizare**
-> 
-> Aceeași informație modificată într-un loc rămâne veche în altul.
-
-### 16. Legătura dintre două tabele se realizează prin:
-
-- a. cheia externă
-- b. formatarea condiționată
-- c. filtrare
-- d. sortare
-
-> [!success]- Răspuns
-> **a. cheia externă**
-> 
-> Ea referă cheia primară din celălalt tabel.
-
-### 17. Valorile agregate dintr-o interogare sunt, de exemplu:
-
-- a. suma, media, numărul de înregistrări
-- b. numele câmpurilor
-- c. tipurile de date
-- d. cheile primare
-
-> [!success]- Răspuns
-> **a. suma, media, numărul de înregistrări**
-> 
-> Ele rezultă din gruparea înregistrărilor.
-
-### 18. Formularele au rolul de a:
-
-- a. facilita introducerea corectă a datelor
-- b. stoca datele
-- c. genera grafice
-- d. crea tabele
-
-> [!success]- Răspuns
-> **a. facilita introducerea corectă a datelor**
-> 
-> Validările previn erorile de introducere.
-
-### 19. Un raport dintr-o bază de date:
-
-- a. prezintă datele formatat, pentru tipărire sau distribuire
-- b. stochează datele
-- c. validează introducerea
-- d. creează relații
-
-> [!success]- Răspuns
-> **a. prezintă datele formatat, pentru tipărire sau distribuire**
-> 
-> El poate include grupări și totaluri.
-
-### 20. SQL este:
-
-- a. limbajul standard de interogare a bazelor de date relaționale
-- b. un sistem de operare
-- c. un format de fișier
-- d. un tip de rețea
-
-> [!success]- Răspuns
-> **a. limbajul standard de interogare a bazelor de date relaționale**
-> 
-> Instrucțiunile lui permit selectarea și modificarea datelor.
-
-### 21. Formatul JPEG folosește:
-
-- a. comprimare cu pierdere
-- b. comprimare fără pierdere
-- c. descriere vectorială
-- d. doar transparență
-
-> [!success]- Răspuns
-> **a. comprimare cu pierdere**
-> 
-> De aceea nu e potrivit pentru salvări repetate.
-
-### 22. Pentru o imagine cu fundal transparent se folosește:
-
-- a. PNG
-- b. JPEG
-- c. BMP
-- d. TIFF necomprimat
-
-> [!success]- Răspuns
-> **a. PNG**
-> 
-> PNG păstrează canalul de transparență.
-
-### 23. O imagine vectorială mărită de zece ori:
-
-- a. își păstrează calitatea
-- b. se pixelizează
-- c. își pierde culorile
-- d. devine mai mică
-
-> [!success]- Răspuns
-> **a. își păstrează calitatea**
-> 
-> Ea este descrisă prin formule geometrice.
-
-### 24. Eliminarea unei persoane dintr-o fotografie de presă este:
-
-- a. falsificare a conținutului informativ
-- b. o corecție tehnică obișnuită
-- c. o practică recomandată
-- d. fără consecințe etice
-
-> [!success]- Răspuns
-> **a. falsificare a conținutului informativ**
-> 
-> Corecțiile admise privesc luminozitatea și încadrarea.
-
-### 25. Proprietatea de finitudine a unui algoritm înseamnă că:
-
-- a. se termină după un număr finit de pași
-- b. rezolvă o singură problemă
-- c. folosește puține resurse
-- d. are pași clari
-
-> [!success]- Răspuns
-> **a. se termină după un număr finit de pași**
-> 
-> Un algoritm care nu se oprește nu este algoritm.
-
-### 26. Rombul, într-o schemă logică, reprezintă:
-
-- a. o decizie
-- b. o prelucrare
-- c. o citire
-- d. începutul algoritmului
-
-> [!success]- Răspuns
-> **a. o decizie**
-> 
-> Dreptunghiul reprezintă prelucrarea.
-
-### 27. Orice algoritm poate fi construit folosind:
-
-- a. secvență, decizie și repetiție
-- b. doar secvență
-- c. doar repetiție
-- d. cel puțin cinci structuri
-
-> [!success]- Răspuns
-> **a. secvență, decizie și repetiție**
-> 
-> Este teorema structurii programelor.
-
-### 28. Pseudocodul este:
-
-- a. o descriere între limbajul natural și cel de programare
-- b. un limbaj de programare
-- c. o schemă logică
-- d. un tip de algoritm
-
-> [!success]- Răspuns
-> **a. o descriere între limbajul natural și cel de programare**
-> 
-> El permite descrierea fără constrângerile unui limbaj anume.
-
-### 29. Un ciclu cu test inițial:
-
-- a. poate să nu se execute niciodată
-- b. se execută cel puțin o dată
-- c. se execută exact o dată
-- d. se execută întotdeauna de n ori
-
-> [!success]- Răspuns
-> **a. poate să nu se execute niciodată**
-> 
-> Condiția se verifică înainte de prima execuție.
-
-### 30. Ciclul infinit apare, cel mai des, din cauza:
-
-- a. neactualizării variabilei de control
-- b. numărului mare de date
-- c. lipsei de memorie
-- d. unei erori de sintaxă
-
-> [!success]- Răspuns
-> **a. neactualizării variabilei de control**
-> 
-> Condiția rămâne mereu adevărată.
-
-### 31. Determinarea maximului dintr-un șir presupune:
-
-- a. compararea succesivă a fiecărui element cu maximul curent
-- b. sortarea obligatorie a șirului
-- c. calculul mediei
-- d. numărarea elementelor
-
-> [!success]- Răspuns
-> **a. compararea succesivă a fiecărui element cu maximul curent**
-> 
-> Este una dintre prelucrările clasice.
-
-### 32. Când numărul de repetări nu e cunoscut dinainte, se folosește:
-
-- a. un ciclu cu test
-- b. un ciclu cu contor
-- c. o structură de decizie
-- d. o secvență
-
-> [!success]- Răspuns
-> **a. un ciclu cu test**
-> 
-> Condiția determină oprirea.
-
-### 33. Descompunerea unei probleme înseamnă:
-
-- a. împărțirea ei în subprobleme mai simple
-- b. simplificarea enunțului
-- c. eliminarea restricțiilor
-- d. reducerea datelor de intrare
-
-> [!success]- Răspuns
-> **a. împărțirea ei în subprobleme mai simple**
-> 
-> Fiecare subproblemă se rezolvă separat.
-
-### 34. Testarea unui algoritm pe trei exemple corecte:
-
-- a. nu garantează corectitudinea lui
-- b. demonstrează corectitudinea
-- c. este suficientă
-- d. înlocuiește verificarea logică
-
-> [!success]- Răspuns
-> **a. nu garantează corectitudinea lui**
-> 
-> Cazurile limită pot invalida soluția.
-
-### 35. Un caz limită tipic pentru prelucrarea unui șir este:
-
-- a. șirul gol sau cu un singur element
-- b. un șir de zece elemente
-- c. un șir ordonat crescător
-- d. un șir cu numere pare
-
-> [!success]- Răspuns
-> **a. șirul gol sau cu un singur element**
-> 
-> Acolo apar cele mai multe erori.
-
-### 36. Recunoașterea tiparelor ajută pentru că:
-
-- a. permite reutilizarea unor soluții deja cunoscute
-- b. simplifică enunțul
-- c. reduce numărul de date
-- d. elimină testarea
-
-> [!success]- Răspuns
-> **a. permite reutilizarea unor soluții deja cunoscute**
-> 
-> Multe probleme noi sunt variante ale unora rezolvate.
-
-### 37. Referința $A$1 este:
-
-- a. absolută, nu se modifică la copiere
-- b. relativă
-- c. mixtă pe rând
-- d. o eroare de sintaxă
-
-> [!success]- Răspuns
-> **a. absolută, nu se modifică la copiere**
-> 
-> Dolarul fixează atât coloana, cât și rândul.
-
-### 38. La copierea în jos, referința relativă B2:
-
-- a. se ajustează la B3, B4 și așa mai departe
-- b. rămâne mereu B2
-- c. devine $B$2
-- d. produce eroare
-
-> [!success]- Răspuns
-> **a. se ajustează la B3, B4 și așa mai departe**
-> 
-> Adresa se adaptează rândului.
-
-### 39. O formulă într-o foaie de calcul începe cu:
-
-- a. semnul egal
-- b. semnul plus
-- c. o paranteză
-- d. ghilimele
-
-> [!success]- Răspuns
-> **a. semnul egal**
-> 
-> Fără el, textul nu este interpretat ca formulă.
-
-### 40. Pentru un procent de TVA folosit de toate rândurile, în formulă se pune:
-
-- a. o referință absolută la celula cu TVA
-- b. o referință relativă
-- c. valoarea scrisă manual în fiecare rând
-- d. un comentariu
-
-> [!success]- Răspuns
-> **a. o referință absolută la celula cu TVA**
-> 
-> Astfel o singură modificare actualizează tot tabelul.
-
-### 41. Funcția SUM(A1:A10):
-
-- a. adună cele zece celule din domeniu
-- b. adună doar A1 și A10
-- c. numără celulele
-- d. calculează media
-
-> [!success]- Răspuns
-> **a. adună cele zece celule din domeniu**
-> 
-> Domeniul A1:A10 cuprinde toate celulele dintre ele.
-
-### 42. Pentru a afișa „promovat” dacă nota este cel puțin 5 se folosește:
-
-- a. funcția IF
-- b. funcția SUM
-- c. funcția MAX
-- d. funcția COUNT
-
-> [!success]- Răspuns
-> **a. funcția IF**
-> 
-> IF alege rezultatul în funcție de condiție.
-
-### 43. Pentru a număra câți elevi au nota peste 9 se folosește:
-
-- a. COUNTIF
-- b. SUM
-- c. AVERAGE
-- d. MIN
-
-> [!success]- Răspuns
-> **a. COUNTIF**
-> 
-> COUNTIF numără celulele care respectă un criteriu.
-
-### 44. Media aritmetică a unui domeniu se obține cu:
-
-- a. AVERAGE
-- b. COUNT
-- c. MAX
-- d. IF
-
-> [!success]- Răspuns
-> **a. AVERAGE**
-> 
-> COUNT doar numără celulele cu valori numerice.
-
-### 45. Filtrarea unui tabel:
-
-- a. ascunde temporar rândurile care nu respectă criteriul
-- b. șterge definitiv rândurile
-- c. rearanjează coloanele
-- d. schimbă formulele
-
-> [!success]- Răspuns
-> **a. ascunde temporar rândurile care nu respectă criteriul**
-> 
-> La eliminarea filtrului, rândurile reapar.
-
-### 46. Pentru a obține rapid vânzările totale pe fiecare produs dintr-o listă mare se folosește:
-
-- a. un tabel pivot
-- b. o simplă sortare
-- c. o singură funcție IF
-- d. un grafic colorat
-
-> [!success]- Răspuns
-> **a. un tabel pivot**
-> 
-> Tabelul pivot grupează și însumează automat.
-
-### 47. Sortarea unui tabel păstrează:
-
-- a. legătura dintre celulele aceluiași rând
-- b. doar coloana sortată
-- c. doar antetul
-- d. doar formulele
-
-> [!success]- Răspuns
-> **a. legătura dintre celulele aceluiași rând**
-> 
-> Altfel rândurile și-ar amesteca datele.
-
-### 48. Diferența dintre filtrare și sortare este că:
-
-- a. filtrarea ascunde rânduri, iar sortarea le reordonează
-- b. sunt identice
-- c. filtrarea șterge date
-- d. sortarea ascunde coloane
-
-> [!success]- Răspuns
-> **a. filtrarea ascunde rânduri, iar sortarea le reordonează**
-> 
-> Ele răspund la nevoi diferite.
-
-### 49. Structura de decizie dintr-un algoritm:
-
-- a. alege pașii în funcție de o condiție
-- b. repetă pașii de un număr de ori
-- c. execută pașii mereu în aceeași ordine
-- d. oprește algoritmul
-
-> [!success]- Răspuns
-> **a. alege pașii în funcție de o condiție**
-> 
-> Ea face algoritmul să se adapteze la date.
-
-### 50. În schema logică, decizia se reprezintă prin:
-
-- a. romb
-- b. dreptunghi
-- c. oval
-- d. paralelogram
-
-> [!success]- Răspuns
-> **a. romb**
-> 
-> Are două ramuri de ieșire: DA și NU.
-
-### 51. O condiție dintr-un algoritm poate fi:
-
-- a. adevărată sau falsă
-- b. doar un număr
-- c. doar un text
-- d. mereu adevărată
-
-> [!success]- Răspuns
-> **a. adevărată sau falsă**
-> 
-> Pe baza ei se alege ramura de executat.
-
-### 52. Expresia „nota ≥ 5” este:
-
-- a. o condiție (expresie logică)
-- b. o secvență
-- c. o repetiție
-- d. o eroare
-
-> [!success]- Răspuns
-> **a. o condiție (expresie logică)**
-> 
-> Ea decide, de exemplu, „promovat/respins”.
-
-### 53. Un vector permite:
-
-- a. păstrarea mai multor valori de același tip sub un singur nume
-- b. o singură valoare
-- c. doar text
-- d. doar două valori
-
-> [!success]- Răspuns
-> **a. păstrarea mai multor valori de același tip sub un singur nume**
-> 
-> Elementele se accesează prin indice.
-
-### 54. Un element dintr-un vector se accesează prin:
-
-- a. indicele său (poziția)
-- b. culoare
-- c. nume propriu
-- d. dimensiune
-
-> [!success]- Răspuns
-> **a. indicele său (poziția)**
-> 
-> De exemplu, nota[3] este al treilea element.
-
-### 55. Suma elementelor unui vector se calculează, de regulă:
-
-- a. parcurgând vectorul cu o structură repetitivă
-- b. printr-o singură decizie
-- c. fără a parcurge elementele
-- d. doar pentru primul element
-
-> [!success]- Răspuns
-> **a. parcurgând vectorul cu o structură repetitivă**
-> 
-> Se acumulează valorile pe parcurgere.
-
-### 56. Un tablou bidimensional (matrice) organizează datele:
-
-- a. pe rânduri și coloane
-- b. pe o singură linie
-- c. fără ordine
-- d. doar ca text
-
-> [!success]- Răspuns
-> **a. pe rânduri și coloane**
-> 
-> Accesul se face cu doi indici.
-
-### 57. Cheia primară a unui tabel:
-
-- a. identifică unic fiecare înregistrare
-- b. leagă două tabele
-- c. este întotdeauna un text
-- d. se poate repeta
-
-> [!success]- Răspuns
-> **a. identifică unic fiecare înregistrare**
-> 
-> Fără ea, rândurile nu s-ar putea distinge cu certitudine.
-
-### 58. Legătura dintre două tabele se realizează prin:
-
-- a. o cheie externă
-- b. o formulă
-- c. un filtru
-- d. un grafic
-
-> [!success]- Răspuns
-> **a. o cheie externă**
-> 
-> Ea trimite la cheia primară a celuilalt tabel.
-
-### 59. Într-un tabel, un rând reprezintă:
-
-- a. o înregistrare (un element)
-- b. un câmp
-- c. o cheie
-- d. o coloană
-
-> [!success]- Răspuns
-> **a. o înregistrare (un element)**
-> 
-> Coloanele sunt câmpurile (atributele).
-
-### 60. Avantajul principal al modelului relațional este:
-
-- a. eliminarea redundanței datelor
-- b. folosirea culorilor
-- c. viteza de tastare
-- d. afișarea graficelor
-
-> [!success]- Răspuns
-> **a. eliminarea redundanței datelor**
-> 
-> Fiecare informație se păstrează o singură dată.
-
-### 61. Repetarea aceleiași informații în mai multe locuri se numește:
-
-- a. redundanță
-- b. normalizare
-- c. interogare
-- d. cheie primară
-
-> [!success]- Răspuns
-> **a. redundanță**
-> 
-> Ea poate duce la date contradictorii.
-
-### 62. Normalizarea unei baze de date urmărește:
-
-- a. ca fiecare informație să apară o singură dată
-- b. creșterea redundanței
-- c. folosirea culorilor
-- d. ștergerea cheilor
-
-> [!success]- Răspuns
-> **a. ca fiecare informație să apară o singură dată**
-> 
-> Astfel se evită anomaliile.
-
-### 63. O regulă care cere ca o notă să fie între 1 și 10 asigură:
-
-- a. integritatea datelor (domeniu de valori admise)
-- b. redundanța
-- c. o cheie externă
-- d. un tabel pivot
-
-> [!success]- Răspuns
-> **a. integritatea datelor (domeniu de valori admise)**
-> 
-> Valorile în afara domeniului sunt respinse.
-
-### 64. Integritatea referențială este încălcată dacă:
-
-- a. o cheie externă trimite la o înregistrare care nu există
-- b. fiecare rând are cheie primară
-- c. datele sunt normalizate
-- d. câmpurile au tipuri corecte
-
-> [!success]- Răspuns
-> **a. o cheie externă trimite la o înregistrare care nu există**
-> 
-> Legătura ar rămâne „suspendată”.
-
-### 65. Referința $A$1 este:
-
-- a. absolută, nu se modifică la copiere
-- b. relativă
-- c. o eroare
-- d. un simplu text
-
-> [!success]- Răspuns
-> **a. absolută, nu se modifică la copiere**
-> 
-> Dolarul fixează coloana și rândul.
-
-### 66. Funcția care adună un domeniu de celule este:
-
-- a. SUM
-- b. IF
-- c. COUNT
-- d. MAX
-
-> [!success]- Răspuns
-> **a. SUM**
-> 
-> De exemplu SUM(A1:A10).
-
-### 67. Pentru a număra câte celule respectă un criteriu se folosește:
-
-- a. COUNTIF
-- b. SUM
-- c. AVERAGE
-- d. MIN
-
-> [!success]- Răspuns
-> **a. COUNTIF**
-> 
-> COUNTIF numără condiționat.
-
-### 68. Filtrarea unui tabel:
-
-- a. ascunde temporar rândurile nerelevante
-- b. le șterge definitiv
-- c. reordonează coloanele
-- d. schimbă formulele
-
-> [!success]- Răspuns
-> **a. ascunde temporar rândurile nerelevante**
-> 
-> Datele reapar la eliminarea filtrului.
-
-### 69. Structura de decizie într-un algoritm:
-
-- a. alege pașii în funcție de o condiție
-- b. repetă pașii
-- c. îi execută mereu la fel
-- d. oprește execuția
-
-> [!success]- Răspuns
-> **a. alege pașii în funcție de o condiție**
-> 
-> În pseudocod: DACĂ … ATUNCI … ALTFEL …
-
-### 70. Un vector (tablou) permite:
-
-- a. păstrarea mai multor valori de același tip sub un nume
-- b. o singură valoare
-- c. doar text
-- d. doar culori
-
-> [!success]- Răspuns
-> **a. păstrarea mai multor valori de același tip sub un nume**
-> 
-> Elementele se accesează prin indice.
-
-### 71. O formulă într-o foaie de calcul începe cu:
-
-- a. semnul egal
-- b. semnul plus
-- c. ghilimele
-- d. paranteză
-
-> [!success]- Răspuns
-> **a. semnul egal**
-> 
-> Altfel conținutul e tratat ca text.
-
-### 72. Referința $B$3 este:
-
-- a. absolută
-- b. relativă
-- c. mixtă
-- d. invalidă
-
-> [!success]- Răspuns
-> **a. absolută**
-> 
-> Ea nu se modifică la copiere.
-
-### 73. La copierea unei formule în jos, referința relativă:
-
-- a. se ajustează automat
-- b. rămâne neschimbată
-- c. devine absolută
-- d. produce eroare
-
-> [!success]- Răspuns
-> **a. se ajustează automat**
-> 
-> De aceea trebuie ales tipul potrivit de referință.
-
-### 74. Tabelul pivot este util pentru:
-
-- a. rezumarea unui set mare de date pe categorii
-- b. formatarea textului
-- c. crearea graficelor 3D
-- d. protejarea fișierului
-
-> [!success]- Răspuns
-> **a. rezumarea unui set mare de date pe categorii**
-> 
-> El grupează și totalizează automat.
-
-### 75. Formatarea condiționată:
-
-- a. evidențiază celulele care îndeplinesc un criteriu
-- b. modifică valorile
-- c. adaugă formule
-- d. sortează datele
-
-> [!success]- Răspuns
-> **a. evidențiază celulele care îndeplinesc un criteriu**
-> 
-> Ea face vizibile tiparele.
-
-### 76. Pentru evoluția în timp se folosește graficul:
-
-- a. cu linii
-- b. circular
-- c. cu bare orizontale
-- d. de tip nor de puncte
-
-> [!success]- Răspuns
-> **a. cu linii**
-> 
-> Graficul circular arată compoziția.
-
-### 77. Trunchierea axei verticale:
-
-- a. exagerează vizual diferențele
-- b. le reduce
-- c. nu are efect
-- d. corectează proporțiile
-
-> [!success]- Răspuns
-> **a. exagerează vizual diferențele**
-> 
-> Este o manipulare vizuală frecventă.
-
-### 78. Într-o bază de date, coloanele se numesc:
-
-- a. câmpuri
-- b. înregistrări
-- c. chei
-- d. relații
-
-> [!success]- Răspuns
-> **a. câmpuri**
-> 
-> Rândurile sunt înregistrări.
-
-### 79. Cheia primară:
-
-- a. identifică unic fiecare înregistrare
-- b. leagă două tabele
-- c. stochează datele
-- d. validează formularele
-
-> [!success]- Răspuns
-> **a. identifică unic fiecare înregistrare**
-> 
-> Cheia externă face legătura între tabele.
-
-### 80. Redundanța datelor produce:
-
-- a. risc de inconsistență la actualizare
-- b. economie de spațiu
-- c. integritate sporită
-- d. acces mai rapid
-
-> [!success]- Răspuns
-> **a. risc de inconsistență la actualizare**
-> 
-> Normalizarea o elimină.
-
-### 81. SQL este:
-
-- a. limbajul de interogare a bazelor de date relaționale
-- b. un sistem de operare
-- c. un format de imagine
-- d. un protocol de rețea
-
-> [!success]- Răspuns
-> **a. limbajul de interogare a bazelor de date relaționale**
-> 
-> El permite selectarea și modificarea datelor.
-
-### 82. Formularele într-o bază de date servesc la:
-
-- a. introducerea și editarea validată a datelor
-- b. stocarea datelor
-- c. generarea graficelor
-- d. crearea relațiilor
-
-> [!success]- Răspuns
-> **a. introducerea și editarea validată a datelor**
-> 
-> Rapoartele formatează rezultatele.
-
-### 83. Formatul PNG este preferat pentru:
-
-- a. imagini cu transparență, fără pierdere de calitate
-- b. fotografii comprimate puternic
-- c. animații complexe
-- d. desene vectoriale
-
-> [!success]- Răspuns
-> **a. imagini cu transparență, fără pierdere de calitate**
-> 
-> JPEG comprimă cu pierdere.
-
-### 84. O imagine vectorială mărită:
-
-- a. își păstrează calitatea
-- b. se pixelizează
-- c. își pierde culorile
-- d. devine neclară
-
-> [!success]- Răspuns
-> **a. își păstrează calitatea**
-> 
-> Ea este descrisă prin formule geometrice.
-
-### 85. Eliminarea unui element dintr-o fotografie de presă este:
-
-- a. falsificare a conținutului informativ
-- b. o corecție tehnică
-- c. o practică recomandată
-- d. fără implicații etice
-
-> [!success]- Răspuns
-> **a. falsificare a conținutului informativ**
-> 
-> Corecțiile admise privesc luminozitatea și încadrarea.
-
-### 86. Un algoritm trebuie să fie:
-
-- a. finit, clar, general, corect și eficient
-- b. lung și detaliat
-- c. scris într-un limbaj de programare
-- d. reprezentat obligatoriu prin schemă logică
-
-> [!success]- Răspuns
-> **a. finit, clar, general, corect și eficient**
-> 
-> Finitudinea este proprietatea esențială.
-
-### 87. Rombul, în schema logică, reprezintă:
-
-- a. decizia
-- b. prelucrarea
-- c. citirea datelor
-- d. sfârșitul algoritmului
-
-> [!success]- Răspuns
-> **a. decizia**
-> 
-> Dreptunghiul reprezintă prelucrarea.
-
-### 88. Orice algoritm se poate construi din:
-
-- a. secvență, decizie și repetiție
-- b. doar secvență și decizie
-- c. doar repetiție
-- d. cel puțin șase structuri
-
-> [!success]- Răspuns
-> **a. secvență, decizie și repetiție**
-> 
-> Este teorema structurii programelor.
-
-### 89. Ciclul cu test inițial:
-
-- a. poate să nu se execute niciodată
-- b. se execută cel puțin o dată
-- c. se execută exact de n ori
-- d. este întotdeauna infinit
-
-> [!success]- Răspuns
-> **a. poate să nu se execute niciodată**
-> 
-> Condiția se verifică înaintea primei execuții.
-
-### 90. Ciclul infinit apare cel mai frecvent din cauza:
-
-- a. neactualizării variabilei de control
-- b. lipsei de memorie
-- c. unei erori de sintaxă
-- d. datelor prea multe
-
-> [!success]- Răspuns
-> **a. neactualizării variabilei de control**
-> 
-> Condiția rămâne mereu adevărată.
-
-### 91. Componentele gândirii computaționale sunt:
-
-- a. descompunere, tipare, abstractizare, algoritm, evaluare
-- b. citire, scriere, calcul
-- c. analiză, sinteză, comparație
-- d. planificare, execuție, control
-
-> [!success]- Răspuns
-> **a. descompunere, tipare, abstractizare, algoritm, evaluare**
-> 
-> Ele se aplică oricărei probleme, nu doar celor informatice.
-
-### 92. Testarea pe câteva exemple corecte:
-
-- a. nu demonstrează corectitudinea algoritmului
-- b. o demonstrează
-- c. este suficientă
-- d. înlocuiește analiza
-
-> [!success]- Răspuns
-> **a. nu demonstrează corectitudinea algoritmului**
-> 
-> Cazurile limită pot invalida soluția.
-
-### 93. Un caz limită tipic este:
-
-- a. șirul gol sau cu un singur element
-- b. un șir de zece elemente
-- c. un șir ordonat
-- d. un șir cu valori pozitive
-
-> [!success]- Răspuns
-> **a. șirul gol sau cu un singur element**
-> 
-> Acolo apar cele mai multe erori.
-
-### 94. Descompunerea unei probleme înseamnă:
-
-- a. împărțirea ei în subprobleme mai simple
-- b. simplificarea enunțului
-- c. reducerea datelor
-- d. eliminarea restricțiilor
-
-> [!success]- Răspuns
-> **a. împărțirea ei în subprobleme mai simple**
-> 
-> Fiecare subproblemă se rezolvă separat.
+> SVG este formatul vectorial universal pentru web.
 
 ---
 

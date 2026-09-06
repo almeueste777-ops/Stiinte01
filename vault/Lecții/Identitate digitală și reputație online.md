@@ -10,18 +10,18 @@ clasa: "a XII-a"
 
 [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a XII-a]] · lecția 6 din 16
 
-**Capitolul:** Informație, securitate, identitate — semestrul 2
+**Capitolul:** Informație, securitate, identitate — semestrul 1
 
 ## Rezumat
 
-Identitatea digitală este ansamblul informațiilor care te reprezintă online: conturi, postări, fotografii, comentarii, activitate publică. Ea este verificată în practică: angajatorii, universitățile și instituțiile caută informații publice despre candidați. Ceea ce apare la o căutare simplă contează mai mult decât ceea ce declari despre tine. Gestionarea reputației online presupune: verificarea periodică a rezultatelor căutării propriului nume, revizuirea setărilor de confidențialitate, ștergerea sau restricționarea conținutului nepotrivit, construirea deliberată a unei prezențe utile (portofoliu, proiecte, lucrări). Un profil profesional coerent — informații exacte, fotografie potrivită, descrierea competențelor, dovezi concrete — este un avantaj real. Regula de prudență: nu publica nimic ce nu ai vrea să fie citit de un profesor, de un angajator și de un părinte în același timp.
+Identitatea digitală este suma tuturor datelor, activităților, interacțiunilor și conținuturilor asociate unei persoane în mediul virtual. 1. Construirea identității și a reputației online: Reputația digitală (e-Reputation) are un impact direct asupra vieții reale: viitorii angajatori și comisiile de admitere universitare verifică în mod curent profilurile de social media ale candidaților. Postările impulsive, comentariile agresive sau conținutul nepotrivit publicat în anii de liceu rămân arhivate pe internet și pot bloca oportunități de carieră peste ani. 2. Fenomene nocive în mediul online și protecția juridică: • Cyberbullying (hărțuire cibernetică): intimidarea, umilirea sau jignirea repetată prin mesaje, grupuri de chat sau rețele sociale; este sancționată contravențional și penal conform legii; • Doxxing: căutarea și publicarea rău-intenționată a datelor personale ale unei persoane (adresa de acasă, număr de telefon, școala la care învață) fără consimțământul acesteia; • Sharenting: publicarea excesivă de către părinți sau apropiați a fotografiilor cu minori, afectându-le intimitatea viitoare. 3. Protecția identității și setări de securitate: • Configurarea profilurilor de rețele sociale pe modul „Privat”; • Limitarea vizibilității listei de prieteni și a postărilor din trecut; • Atenție la permisiunile cerute de aplicațiile mobile (acces la cameră, microfon, contacte, geolocație permanentă).
 
 ## Idei-cheie
 
-- Identitatea digitală este verificată în practică de angajatori și instituții.
-- Ce apare la o căutare simplă contează mai mult decât ce declari.
-- Gestionarea reputației: verificare periodică, setări, curățare, prezență utilă.
-- Regula de prudență: nu publica ce nu ai vrea citit de profesor, angajator și părinte.
+- Reputația digitală reflectă imaginea publică creată pe internet și influențează cariera viitoare.
+- Ce postezi pe internet nu dispare niciodată cu adevărat (permanența digitală).
+- Cyberbullying-ul și hărțuirea online au consecințe juridice reale și trebuie raportate autorităților.
+- Setările de confidențialitate ale conturilor trebuie revizuite periodic pentru a limita expunerea.
 
 ## Notițele mele
 

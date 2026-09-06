@@ -7,1207 +7,1015 @@ cssclasses: test
 ---
 # Test — Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)
 
-100 întrebări din [[Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)|Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+84 întrebări din [[Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)|Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
-### 1. Memoria RAM este:
+### 1. Memoria RAM este caracterizată prin faptul că:
 
-- a. volatilă
-- b. permanentă
-- c. doar pentru citire
-- d. externă
+- a. își pierde conținutul la oprirea alimentării cu energie electrică (volatilă)
+- b. păstrează datele definitiv timp de 10 ani fără curent
+- c. conține doar programele din fabricație care nu se pot șterge
+- d. este mai lentă decât un hard disk mecanic
 
 > [!success]- Răspuns
-> **a. volatilă**
+> **a. își pierde conținutul la oprirea alimentării cu energie electrică (volatilă)**
 > 
-> De aceea documentele nesalvate se pierd.
+> RAM-ul asigură viteza de lucru a sistemului, dar necesită alimentare continuă pentru a păstra datele.
 
-### 2. Monitorul este un dispozitiv de:
+### 2. Unitatea periferică folosită exclusiv pentru introducerea datelor în calculator este:
 
-- a. ieșire
-- b. intrare
-- c. stocare
-- d. prelucrare
+- a. scanerul optic
+- b. monitorul LED clasic
+- c. imprimanta laser
+- d. difuzorul audio
 
 > [!success]- Răspuns
-> **a. ieșire**
+> **a. scanerul optic**
 > 
-> Tastatura este dispozitiv de intrare.
+> Scanerul convertește imagini sau documente tipărite în format digital introdus în sistem.
 
-### 3. Un gigabyte este aproximativ:
+### 3. Viteza de transfer și pornirea rapidă a sistemului de operare sunt îmbunătățite cel mai mult prin:
 
-- a. 1024 megabytes
-- b. 1024 kilobytes
-- c. 100 megabytes
-- d. 1024 terabytes
+- a. instalarea unui SSD NVMe în locul unui HDD mecanic
+- b. schimbarea carcasei calculatorului
+- c. mărirea luminozității monitorului
+- d. folosirea unui mouse cu fir
 
 > [!success]- Răspuns
-> **a. 1024 megabytes**
+> **a. instalarea unui SSD NVMe în locul unui HDD mecanic**
 > 
-> Multiplii cresc, uzual, din 1024 în 1024.
+> Stocarea flash pe magistrala NVMe elimină blocajele cauzate de viteza redusă a capetelor magnetice HDD.
 
-### 4. Performanța unui calculator NU depinde direct de:
+### 4. Firmware-ul care execută testul de autodiagnosticare la pornire (POST) se numește:
 
-- a. culoarea carcasei
-- b. cantitatea de RAM
-- c. frecvența procesorului
-- d. tipul memoriei externe
+- a. BIOS / UEFI
+- b. Microsoft Office
+- c. Adobe Reader
+- d. Google Chrome
 
 > [!success]- Răspuns
-> **a. culoarea carcasei**
+> **a. BIOS / UEFI**
 > 
-> Componentele interne determină performanța.
+> UEFI verifică integritatea memoriei, a procesorului și a perifericelor înainte de încărcarea sistemului de operare.
 
-### 5. Extensia .docx indică, de regulă:
+### 5. Pentru a redenumi rapid un fișier selectat în File Explorer, tasta funcțională utilizată este:
 
-- a. un document de text formatat
-- b. o imagine
-- c. un fișier executabil
-- d. o arhivă
+- a. F2
+- b. F1
+- c. F5
+- d. F12
 
 > [!success]- Răspuns
-> **a. un document de text formatat**
+> **a. F2**
 > 
-> Extensia .jpg indică o imagine.
+> F2 activează direct editarea numelui fișierului selectat.
 
-### 6. Un sistem de operare NU are ca funcție:
+### 6. Combinația de taste care permite comutarea instantanee între ferestrele deschise este:
 
-- a. redactarea documentelor
-- b. gestionarea memoriei
-- c. gestionarea fișierelor
-- d. interfața cu utilizatorul
+- a. Alt + Tab
+- b. Ctrl + P
+- c. Shift + F3
+- d. Alt + F4
 
 > [!success]- Răspuns
-> **a. redactarea documentelor**
+> **a. Alt + Tab**
 > 
-> Redactarea se face în aplicații dedicate.
+> Alt+Tab deschide comutatorul vizual de aplicații active.
 
-### 7. Arhivarea unui folder este utilă pentru:
+### 7. Extensia specifică documentelor portabile care păstrează fidel aspectul indiferent de platformă este:
 
-- a. reducerea dimensiunii și transferul mai ușor
-- b. creșterea vitezei procesorului
-- c. creșterea memoriei RAM
-- d. protejarea de viruși
+- a. .pdf
+- b. .exe
+- c. .bat
+- d. .tmp
 
 > [!success]- Răspuns
-> **a. reducerea dimensiunii și transferul mai ușor**
+> **a. .pdf**
 > 
-> Arhivele pot fi și protejate cu parolă.
+> PDF (Portable Document Format) garantează același aspect vizual pe orice ecran sau imprimantă.
 
-### 8. Structura arborescentă a folderelor înseamnă:
+### 8. Sistemul de fișiere standard utilizat pe partițiile moderne de Windows se numește:
 
-- a. organizare ierarhică, cu foldere în interiorul altor foldere
-- b. toate fișierele într-un singur loc
-- c. ordonare alfabetică
-- d. ordonare după dată
+- a. NTFS
+- b. FAT16
+- c. EXT2
+- d. DOS
 
 > [!success]- Răspuns
-> **a. organizare ierarhică, cu foldere în interiorul altor foldere**
+> **a. NTFS**
 > 
-> Ea permite regăsirea rapidă.
+> NTFS oferă securitate cu permisiuni pe fișiere, jurnalizare și suport pentru discuri de mari dimensiuni.
 
-### 9. HTTPS se deosebește de HTTP prin:
+### 9. Adresa logică utilizată pentru rutarea datelor pe internet este:
 
-- a. criptarea comunicației
-- b. viteza mai mare
-- c. afișarea imaginilor
-- d. accesul la fișiere
+- a. Adresa IP
+- b. Adresa poștală
+- c. Codul numeric personal
+- d. Numărul de înmatriculare
 
 > [!success]- Răspuns
-> **a. criptarea comunicației**
+> **a. Adresa IP**
 > 
-> Lacătul din bara de adrese indică o conexiune securizată.
+> Adresa IP identifică nodul de rețea sursă și destinație.
 
-### 10. O rețea LAN este:
+### 10. Protocolul dedicat trimiterii mesajelor de e-mail către serverul de destinație este:
 
-- a. o rețea locală, într-o clădire sau într-o instituție
-- b. rețeaua globală
-- c. o rețea metropolitană
-- d. o rețea de telefonie
+- a. SMTP
+- b. HTTP
+- c. DHCP
+- d. FTP
 
 > [!success]- Răspuns
-> **a. o rețea locală, într-o clădire sau într-o instituție**
+> **a. SMTP**
 > 
-> WAN desemnează rețelele extinse.
+> SMTP (Simple Mail Transfer Protocol) expediază mesajele de poștă electronică.
 
-### 11. Căutarea unei expresii exacte se face folosind:
+### 11. Cablul de rețea cel mai frecvent utilizat în rețelele LAN școlare este:
 
-- a. ghilimelele
-- b. semnul plus
-- c. semnul întrebării
-- d. asteriscul
+- a. cablul UTP cu mufă RJ-45
+- b. cablul coaxial TV
+- c. cablul audio jack
+- d. cablul VGA
 
 > [!success]- Răspuns
-> **a. ghilimelele**
+> **a. cablul UTP cu mufă RJ-45**
 > 
-> Minusul exclude un termen din rezultate.
+> UTP categoria 5e sau 6 este standardul de cablare ethernet în rețele locale.
 
-### 12. Browserul este:
+### 12. Dacă într-un browser web adresa începe cu „https://” și are un lacăt închis, înseamnă că:
 
-- a. aplicația care afișează paginile web
-- b. motorul de căutare
-- c. serverul care găzduiește site-ul
-- d. protocolul de comunicație
+- a. comunicarea dintre calculator și server este criptată și securizată
+- b. site-ul este complet offline
+- c. calculatorul nu are memorie RAM
+- d. descărcarea de fișiere este blocată definitiv
 
 > [!success]- Răspuns
-> **a. aplicația care afișează paginile web**
+> **a. comunicarea dintre calculator și server este criptată și securizată**
 > 
-> Motorul de căutare este un serviciu accesat prin browser.
+> Lacătul confirmă prezența unui certificat SSL/TLS valid și criptarea traficului.
 
-### 13. Cuprinsul automat se poate genera dacă:
+### 13. Pentru a crea o structură ierarhică corectă ce permite generarea cuprinsului, titlurilor li se aplică:
 
-- a. titlurile au stiluri aplicate
-- b. documentul are numerotare
-- c. textul este aliniat
-- d. se folosesc tabele
+- a. Stilurile Heading 1, Heading 2, Heading 3
+- b. formatarea WordArt cu umbră
+- c. doar culoarea roșie fără stil
+- d. scrierea cu majuscule la întâmplare
 
 > [!success]- Răspuns
-> **a. titlurile au stiluri aplicate**
+> **a. Stilurile Heading 1, Heading 2, Heading 3**
 > 
-> Programul citește ierarhia stilurilor.
+> Generatorul de cuprins scanează automat stilurile Heading din document.
 
-### 14. Indentarea este o formatare la nivel de:
+### 14. Trecerea forțată a textului la începutul unei pagini noi se realizează corect prin:
 
-- a. paragraf
-- b. caracter
-- c. pagină
-- d. document
+- a. Inserare -> Întrerupere de pagină (Page Break / Ctrl+Enter)
+- b. apăsarea tastei Enter de 30 de ori
+- c. micșorarea marginilor la zero
+- d. schimbarea orientării întregului fișier
 
 > [!success]- Răspuns
-> **a. paragraf**
+> **a. Inserare -> Întrerupere de pagină (Page Break / Ctrl+Enter)**
 > 
-> Fontul este formatare la nivel de caracter.
+> Page Break menține titlul pe pagina nouă indiferent de modificările aduse textului anterior.
 
-### 15. Urmărirea modificărilor este utilă pentru:
+### 15. Spațierea standard recomandată între rândurile unui referat sau document formal este:
 
-- a. lucrul în colaborare, cu vizualizarea schimbărilor
-- b. reducerea dimensiunii fișierului
-- c. protejarea cu parolă
-- d. tipărirea rapidă
+- a. 1.15 sau 1.5 linii
+- b. 3 linii
+- c. 0.5 linii
+- d. spațiere dublă la fiecare literă
 
 > [!success]- Răspuns
-> **a. lucrul în colaborare, cu vizualizarea schimbărilor**
+> **a. 1.15 sau 1.5 linii**
 > 
-> Fiecare modificare poate fi acceptată sau respinsă.
+> Spațierea de 1.15 sau 1.5 linii oferă lizibilitate optimă și spațiu pentru adnotări.
 
-### 16. Formatarea manuală repetată a titlurilor:
+### 16. Butonul „Format Painter” (Descriptor de formate) este utilizat pentru:
 
-- a. produce inconsecvențe și îngreunează modificările
-- b. este mai rapidă
-- c. permite cuprins automat
-- d. este recomandată
+- a. copierea caracteristicilor de formatare de la un text selectat la altul
+- b. pictarea de desene libere în Word
+- c. verificarea ortografică a limbii
+- d. ștergerea definitivă a documentului
 
 > [!success]- Răspuns
-> **a. produce inconsecvențe și îngreunează modificările**
+> **a. copierea caracteristicilor de formatare de la un text selectat la altul**
 > 
-> Stilurile rezolvă ambele probleme.
+> Format Painter preia fontul, mărimea, culoarea și stilul și le aplică pe noul text selectat.
 
-### 17. Un slide bun conține:
+### 17. Pentru a porni expunerea de la slide-ul selectat în acel moment, se apasă:
 
-- a. o idee, exprimată prin cuvinte-cheie
-- b. un paragraf complet
-- c. toate detaliile expunerii
-- d. cel puțin trei imagini
+- a. Shift + F5
+- b. F1
+- c. Ctrl + S
+- d. Alt + F4
 
 > [!success]- Răspuns
-> **a. o idee, exprimată prin cuvinte-cheie**
+> **a. Shift + F5**
 > 
-> Textul detaliat aparține discursului, nu slide-ului.
+> Shift+F5 lansează proiecția exact de la poziția curentă de editare.
 
-### 18. Pentru o prezentare de 15 minute sunt potrivite, orientativ:
+### 18. Coordonatorul de diapozitive (Slide Master) se găsește în meniul:
 
-- a. circa 10 slide-uri
-- b. 30 de slide-uri
-- c. 3 slide-uri
-- d. 50 de slide-uri
+- a. Vizualizare (View)
+- b. Fișier (File)
+- c. Tranziții (Transitions)
+- d. Ajutor (Help)
 
 > [!success]- Răspuns
-> **a. circa 10 slide-uri**
+> **a. Vizualizare (View)**
 > 
-> Regula este circa un slide la un minut și jumătate.
+> Meniul View conține accesul la Slide Master pentru editarea șablonului de bază.
 
-### 19. Folosirea unui șablon asigură:
+### 19. În timpul unei expuneri de tip Slide Show, apăsarea tastei B are ca efect:
 
-- a. consecvența vizuală a prezentării
-- b. reducerea dimensiunii fișierului
-- c. animații automate
-- d. corectarea greșelilor
+- a. afișarea unui ecran complet negru (Black screen) pentru a orienta atenția către vorbitor
+- b. închiderea forțată a calculatorului
+- c. ștergerea tuturor notițelor
+- d. mărirea sonorului la maximum
 
 > [!success]- Răspuns
-> **a. consecvența vizuală a prezentării**
+> **a. afișarea unui ecran complet negru (Black screen) pentru a orienta atenția către vorbitor**
 > 
-> Consecvența ajută înțelegerea și profesionalismul.
+> Tasta B permite prezentatorului să suspende temporar proiecția pentru a purta un dialog cu sala.
 
-### 20. Citirea slide-urilor cu voce tare de către prezentator:
+### 20. O regulă de bază a designului unei prezentări profesionale este:
 
-- a. face prezentarea redundantă și plictisitoare
-- b. este recomandată
-- c. ajută publicul
-- d. economisește timp
+- a. contrast ridicat între culoarea textului și cea a fundalului
+- b. folosirea a cel puțin 10 fonturi diferite pe fiecare pagină
+- c. includerea a cât mai mult text mărunt posibil
+- d. utilizarea exclusivă a textului galben pe fundal alb
 
 > [!success]- Răspuns
-> **a. face prezentarea redundantă și plictisitoare**
+> **a. contrast ridicat între culoarea textului și cea a fundalului**
 > 
-> Publicul citește mai repede decât vorbește prezentatorul.
+> Contrastul optim (ex: text închis la culoare pe fundal deschis sau invers) asigură lizibilitatea din fundul sălii.
 
-### 21. Trimiterea unui e-mail către 50 de destinatari se face corect folosind:
+### 21. Câmpul utilizat pentru a trimite o copie a mesajului fără ca ceilalți destinatari să știe se numește:
 
-- a. Bcc
-- b. Cc
-- c. câmpul „Către”
-- d. răspuns tuturor
+- a. Bcc (Blind Carbon Copy)
+- b. To (Către)
+- c. Cc (Carbon Copy)
+- d. Subject (Subiect)
 
 > [!success]- Răspuns
-> **a. Bcc**
+> **a. Bcc (Blind Carbon Copy)**
 > 
-> Astfel adresele nu sunt expuse.
+> Bcc menține invizibilă adresa destinatarilor din acest câmp.
 
-### 22. Un subiect de e-mail bun este:
+### 22. În redactarea unui e-mail formal, scrierea integrală a textului cu MAJUSCULE este considerată:
 
-- a. scurt și specific pentru conținut
-- b. lipsă, pentru a nu limita mesajul
-- c. format din întregul mesaj
-- d. scris cu majuscule
+- a. echivalentul strigătului sau agresivității verbale (lipsă de politețe)
+- b. o dovadă de înalt respect
+- c. obligatorie prin lege
+- d. o tehnică de îmbunătățire a vitezei de internet
 
 > [!success]- Răspuns
-> **a. scurt și specific pentru conținut**
+> **a. echivalentul strigătului sau agresivității verbale (lipsă de politețe)**
 > 
-> El determină dacă mesajul e deschis și găsit ulterior.
+> Scrierea cu majuscule încalcă regulile de netichetă și denotă agresivitate.
 
-### 23. La partajarea unui document se acordă:
+### 23. Istoricul versiunilor (Version History) dintr-o aplicație de colaborare cloud permite:
 
-- a. doar drepturile necesare scopului
-- b. întotdeauna drept de editare
-- c. acces public implicit
-- d. drepturi de administrator
+- a. restaurarea unei versiuni anterioare a documentului și identificarea autorilor modificărilor
+- b. ștergerea definitivă a contului Google sau Microsoft
+- c. blocarea automată a calculatorului
+- d. mărirea vitezei de tastare
 
 > [!success]- Răspuns
-> **a. doar drepturile necesare scopului**
+> **a. restaurarea unei versiuni anterioare a documentului și identificarea autorilor modificărilor**
 > 
-> Este principiul privilegiului minim.
+> Istoricul ține evidența cronologică a fiecărui paragraf adăugat sau șters.
 
-### 24. Comentariile într-un document colaborativ sunt preferabile pentru că:
+### 24. Pentru a permite cuiva să citească un document din cloud fără a avea dreptul de a scrie sau șterge nimic, îi acorzi permisiunea de:
 
-- a. semnalează problema fără a modifica textul altcuiva
-- b. sunt mai rapide
-- c. nu pot fi șterse
-- d. se tipăresc automat
+- a. Vizualizator (Viewer)
+- b. Editor (Editor)
+- c. Administrator de sistem
+- d. Proprietar (Owner)
 
 > [!success]- Răspuns
-> **a. semnalează problema fără a modifica textul altcuiva**
+> **a. Vizualizator (Viewer)**
 > 
-> Ele păstrează responsabilitatea autorului asupra textului.
+> Rolul Viewer permite doar consultarea securizată a conținutului.
 
-### 25. Cea mai eficientă măsură împotriva parolelor furate este:
+### 25. Cel mai sigur nivel de protecție pentru conturile online este asigurat prin:
 
-- a. autentificarea în doi pași
-- b. schimbarea lunară a parolei
-- c. folosirea aceleiași parole peste tot
-- d. notarea parolelor pe hârtie
+- a. activarea autentificării în doi pași (2FA) și parole unice complexe
+- b. folosirea numelui propriu drept parolă pe toate site-urile
+- c. notarea parolelor pe un bilet lipit pe monitor
+- d. dezactivarea tuturor actualizărilor de securitate
 
 > [!success]- Răspuns
-> **a. autentificarea în doi pași**
+> **a. activarea autentificării în doi pași (2FA) și parole unice complexe**
 > 
-> Al doilea factor blochează accesul chiar cu parola compromisă.
+> 2FA solicită validare fizică pe un al doilea dispozitiv, oprind accesul neautorizat.
 
-### 26. O frază de acces formată din patru cuvinte:
+### 26. Tipul de malware care criptează datele utilizatorului și cere o sumă de bani pentru deblocare este:
 
-- a. este, de regulă, mai sigură decât o parolă scurtă cu simboluri
-- b. este mai slabă
-- c. este imposibil de reținut
-- d. nu poate fi folosită
+- a. ransomware
+- b. adware
+- c. browser web
+- d. driver video
 
 > [!success]- Răspuns
-> **a. este, de regulă, mai sigură decât o parolă scurtă cu simboluri**
+> **a. ransomware**
 > 
-> Lungimea contează mai mult decât complexitatea aparentă.
+> Ransomware-ul este una dintre cele mai agresive amenințări cibernetice moderne.
 
-### 27. Actualizările de sistem sunt importante deoarece:
+### 27. O aplicație malițioasă ce pare a fi un joc gratuit, dar în fundal deschide acces atacatorilor la sistem este:
 
-- a. corectează vulnerabilități de securitate cunoscute
-- b. schimbă aspectul interfeței
-- c. eliberează spațiu
-- d. măresc viteza procesorului
+- a. un cal troian (trojan)
+- b. un fișier text curat
+- c. un procesor de text
+- d. un motor de căutare
 
 > [!success]- Răspuns
-> **a. corectează vulnerabilități de securitate cunoscute**
+> **a. un cal troian (trojan)**
 > 
-> Amânarea lor lasă breșe deschise.
+> Troianul își înșală victima afișând o utilitate aparent legitimă.
 
-### 28. Copiile de siguranță ar trebui păstrate:
+### 28. Menținerea sistemului de operare actualizat permanent este esențială deoarece:
 
-- a. și într-o locație separată de calculator
-- b. exclusiv pe același disc
-- c. doar în memoria RAM
-- d. doar pe desktop
+- a. instalează corecții pentru breșele de securitate descoperite recent
+- b. mărește dimensiunea ecranului monitorului
+- c. șterge automat toate fotografiile din calculator
+- d. reduce viteza conexiunii la internet
 
 > [!success]- Răspuns
-> **a. și într-o locație separată de calculator**
+> **a. instalează corecții pentru breșele de securitate descoperite recent**
 > 
-> Altfel se pierd odată cu dispozitivul.
+> Actualizările de securitate elimină breșele înainte ca ele să fie exploatate de hackeri.
 
-### 29. Adresa de e-mail este:
+### 29. Urma lăsată pe internet prin comentarii, poze, navigare și căutări se numește:
 
-- a. o dată cu caracter personal
-- b. o informație publică fără protecție
-- c. un identificator anonim
-- d. o dată tehnică nereglementată
+- a. amprentă digitală
+- b. memorie cache
+- c. adresă MAC
+- d. fișier executabil
 
 > [!success]- Răspuns
-> **a. o dată cu caracter personal**
+> **a. amprentă digitală**
 > 
-> Ea permite identificarea persoanei.
+> Amprenta digitală reflectă istoricul complet al activității unui utilizator online.
 
-### 30. Consimțământul pentru prelucrarea datelor trebuie să fie:
+### 30. Fișierele de tip „third-party cookie” sunt utilizate în principal pentru:
 
-- a. liber, specific și informat
-- b. implicit
-- c. dat o singură dată, pentru orice scop
-- d. acordat de altcineva
+- a. urmărirea navigării între site-uri diferite pentru afișarea reclamelor țintite
+- b. mărirea vitezei de procesare a calculatorului
+- c. răcirea componentelor hardware
+- d. instalarea automată a sistemului de operare
 
 > [!success]- Răspuns
-> **a. liber, specific și informat**
+> **a. urmărirea navigării între site-uri diferite pentru afișarea reclamelor țintite**
 > 
-> Bifarea prealabilă a unei căsuțe nu este consimțământ valid.
+> Cookie-urile de la terți construiesc profilul de marketing al utilizatorului.
 
-### 31. Publicarea locației în timp real:
+### 31. În baza Regulamentului European GDPR, un utilizator are dreptul legal:
 
-- a. crește riscurile de securitate personală
-- b. este recomandată
-- c. nu are consecințe
-- d. este obligatorie în aplicații
+- a. de a solicita ștergerea definitivă a datelor sale cu caracter personal („dreptul de a fi uitat”)
+- b. de a cere gratuit calculatoare de la companii
+- c. de a folosi parolele altor persoane
+- d. de a naviga fără conexiune la internet
 
 > [!success]- Răspuns
-> **a. crește riscurile de securitate personală**
+> **a. de a solicita ștergerea definitivă a datelor sale cu caracter personal („dreptul de a fi uitat”)**
 > 
-> Ea permite localizarea fizică a persoanei.
+> GDPR oferă control deplin cetățeanului asupra propriilor date cu caracter personal.
 
-### 32. Dreptul la ștergerea datelor („dreptul de a fi uitat”):
+### 32. Pentru a limita colectarea datelor de către terți, este recomandat să:
 
-- a. poate fi exercitat în condițiile prevăzute de lege
-- b. este absolut și necondiționat
-- c. nu există
-- d. se aplică doar minorilor
+- a. respingi cookie-urile de urmărire și să ajustezi setările de confidențialitate din browser
+- b. permiți toate permisiunile solicitate fără citire
+- c. îți publici adresa de domiciliu pe forumuri deschise
+- d. nu folosești niciodată parole pe conturi
 
 > [!success]- Răspuns
-> **a. poate fi exercitat în condițiile prevăzute de lege**
+> **a. respingi cookie-urile de urmărire și să ajustezi setările de confidențialitate din browser**
 > 
-> Există și excepții, de exemplu pentru arhivare în interes public.
+> Selectarea strictă a cookie-urilor protejează intimitatea în timpul navigării.
 
-### 33. Folosirea unei imagini găsite online, fără verificarea licenței:
+### 33. Software-ul al cărui cod sursă este public și poate fi modificat liber de oricine este:
 
-- a. poate încălca drepturile de autor
-- b. este întotdeauna permisă
-- c. este permisă în scop școlar, fără nicio condiție
-- d. nu are consecințe legale
+- a. software Open Source
+- b. software proprietar cu licență închisă
+- c. malware
+- d. spyware
 
 > [!success]- Răspuns
-> **a. poate încălca drepturile de autor**
+> **a. software Open Source**
 > 
-> Multe imagini sunt protejate; atribuirea singură nu e mereu suficientă.
+> Open Source încurajează colaborarea globală și transparența deplină a programelor.
 
-### 34. Răspunsul corect la cyberbullying include:
+### 34. Copierea unui referat de pe internet și prezentarea lui ca lucrare proprie constituie:
 
-- a. documentarea și raportarea în platformă
-- b. răspunsul în același registru
-- c. ștergerea contului imediat
-- d. ignorarea completă și tăcerea
+- a. plagiat și încălcare a eticii academice
+- b. o metodă profesională de cercetare
+- c. o obligație legală a fiecărui elev
+- d. o procedură standard de salvare
 
 > [!success]- Răspuns
-> **a. documentarea și raportarea în platformă**
+> **a. plagiat și încălcare a eticii academice**
 > 
-> Documentarea permite intervenția eficientă.
+> Preluarea ideilor sau textelor altor autori fără citare corectă reprezintă furt intelectual.
 
-### 35. Licențele Creative Commons:
+### 35. Un mesaj primit pe e-mail care te avertizează urgent că ți-a fost blocat contul bancar și cere să apeși pe un link suspect este:
 
-- a. precizează ce reutilizări sunt permise
-- b. elimină drepturile de autor
-- c. se aplică automat oricărei opere
-- d. sunt valabile doar în scop comercial
+- a. o tentativă de phishing
+- b. o felicitare legitimă de ziua ta
+- c. o actualizare automată de Windows
+- d. o scrisoare recomandată
 
 > [!success]- Răspuns
-> **a. precizează ce reutilizări sunt permise**
+> **a. o tentativă de phishing**
 > 
-> Autorul alege tipul de licență.
+> Phishing-ul mizează pe panică și urgență pentru a determina victima să introducă date sensibile.
 
-### 36. Dezinformarea circulă mai repede decât informația verificată pentru că:
+### 36. Clauza „NC” (Non-Commercial) dintr-o licență Creative Commons interzice:
 
-- a. algoritmii amplifică ce produce reacție emoțională
-- b. este mai scurtă
-- c. provine din surse oficiale
-- d. este verificată automat
+- a. utilizarea operei pentru a obține câștiguri bănești sau comerciale
+- b. citirea operei pe calculator
+- c. descărcarea fișierului acasă
+- d. vizualizarea imaginilor de către elevi
 
 > [!success]- Răspuns
-> **a. algoritmii amplifică ce produce reacție emoțională**
+> **a. utilizarea operei pentru a obține câștiguri bănești sau comerciale**
 > 
-> Reacția, nu corectitudinea, determină difuzarea.
+> NC restricționează strict utilizarea operei în scopuri lucrative.
 
-### 37. Numărul binar 1011 corespunde, în zecimal, valorii:
+### 37. Valoarea în baza zecimală a numărului binar 1111 este:
 
-- a. 11
-- b. 9
-- c. 13
-- d. 15
+- a. 15
+- b. 16
+- c. 8
+- d. 10
 
 > [!success]- Răspuns
-> **a. 11**
+> **a. 15**
 > 
-> 1·8 + 0·4 + 1·2 + 1·1 = 11.
+> 1*8 + 1*4 + 1*2 + 1*1 = 8 + 4 + 2 + 1 = 15.
 
-### 38. Cu opt biți se pot reprezenta:
+### 38. Câți octeți (bytes) are un fișier cu dimensiunea exactă de 2 Kilobytes?
 
-- a. 256 de valori
-- b. 8 valori
-- c. 64 de valori
-- d. 1024 de valori
+- a. 2048 bytes
+- b. 2000 bytes
+- c. 1024 bytes
+- d. 16 bytes
 
 > [!success]- Răspuns
-> **a. 256 de valori**
+> **a. 2048 bytes**
 > 
-> 2 la puterea 8 este 256.
+> 2 * 1024 = 2048 bytes.
 
-### 39. Cea mai mică unitate de informație este:
+### 39. Unitatea de măsură a vitezei de descărcare a conexiunii la internet este exprimată de regulă în:
 
-- a. bitul
-- b. octetul
-- c. kilobytul
-- d. caracterul
+- a. Megabiți pe secundă (Mbps)
+- b. Gigabytes pe oră (GB/h)
+- c. Pixeli pe inch (DPI)
+- d. Hertzi (Hz)
 
 > [!success]- Răspuns
-> **a. bitul**
+> **a. Megabiți pe secundă (Mbps)**
 > 
-> Un octet are opt biți.
+> Vitezele de rețea se măsoară în biți/s (Mbps, Gbps), iar dimensiunile fișierelor în Bytes (MB, GB).
 
-### 40. Sistemul binar folosește cifrele:
+### 40. Reprezentarea binară a numărului zecimal 5 este:
 
-- a. 0 și 1
-- b. de la 0 la 9
-- c. de la 0 la 7
-- d. 0, 1 și 2
+- a. 101
+- b. 110
+- c. 011
+- d. 100
 
 > [!success]- Răspuns
-> **a. 0 și 1**
+> **a. 101**
 > 
-> Ele corespund celor două stări electrice.
+> 5 = 4 + 1 = 1*2^2 + 0*2^1 + 1*2^0 = 101 binar.
 
-### 41. O imagine raster este formată din:
+### 41. Numărul de biți alocat pentru reprezentarea culorii unui pixel în formatul True Color este:
 
-- a. pixeli
-- b. vectori
-- c. caractere
-- d. eșantioane
-
-> [!success]- Răspuns
-> **a. pixeli**
-> 
-> Fiecare pixel are o culoare proprie.
-
-### 42. Diacriticele românești și emoji sunt acoperite de:
-
-- a. Unicode
-- b. ASCII pe 7 biți
-- c. codul Morse
-- d. sistemul zecimal
-
-> [!success]- Răspuns
-> **a. Unicode**
-> 
-> UTF-8 este codificarea uzuală a Unicode.
-
-### 43. Modelul RGB combină culorile:
-
-- a. roșu, verde și albastru
-- b. roșu, galben și albastru
-- c. cyan, magenta și galben
-- d. alb și negru
-
-> [!success]- Răspuns
-> **a. roșu, verde și albastru**
-> 
-> Fiecare canal are, de obicei, câte un octet.
-
-### 44. Spre deosebire de imaginea raster, imaginea vectorială:
-
-- a. se poate mări fără pierderea calității
-- b. este formată din pixeli
-- c. are întotdeauna fișier mai mare
-- d. nu poate fi colorată
-
-> [!success]- Răspuns
-> **a. se poate mări fără pierderea calității**
-> 
-> Ea este descrisă prin formule geometrice.
-
-### 45. Pentru a conecta un monitor și a transmite imagine și sunet se folosește, uzual:
-
-- a. HDMI
-- b. jack audio
-- c. Ethernet
-- d. USB pentru tastatură
-
-> [!success]- Răspuns
-> **a. HDMI**
-> 
-> HDMI transportă atât imaginea, cât și sunetul.
-
-### 46. Bluetooth se folosește pentru:
-
-- a. conexiuni fără fir pe distanțe mici
-- b. conectarea la internetul global
-- c. alimentarea cu energie
-- d. stocarea permanentă a datelor
-
-> [!success]- Răspuns
-> **a. conexiuni fără fir pe distanțe mici**
-> 
-> Este util pentru căști, mouse sau transfer între telefoane.
-
-### 47. Pentru ca un periferic nou să fie recunoscut, sistemul are nevoie de:
-
-- a. un driver
-- b. o parolă
-- c. un antivirus
-- d. o placă grafică nouă
-
-> [!success]- Răspuns
-> **a. un driver**
-> 
-> Driverul traduce comenzile între sistem și dispozitiv.
-
-### 48. Scoaterea în siguranță a unei memorii USB este importantă pentru:
-
-- a. a evita pierderea datelor aflate în curs de scriere
-- b. a economisi energie
-- c. a crește viteza portului
-- d. a instala un driver
-
-> [!success]- Răspuns
-> **a. a evita pierderea datelor aflate în curs de scriere**
-> 
-> Deconectarea bruscă poate corupe fișierele.
-
-### 49. Regula 20-20-20 previne:
-
-- a. oboseala vizuală
-- b. încălzirea procesorului
-- c. pierderea fișierelor
-- d. infectarea cu viruși
-
-> [!success]- Răspuns
-> **a. oboseala vizuală**
-> 
-> Ochii se relaxează privind la distanță.
-
-### 50. Poziția corectă la calculator presupune:
-
-- a. monitorul la nivelul ochilor și spatele sprijinit
-- b. monitorul mult sub nivelul ochilor
-- c. lucrul aplecat înainte
-- d. ecranul lipit de față
-
-> [!success]- Răspuns
-> **a. monitorul la nivelul ochilor și spatele sprijinit**
-> 
-> Ergonomia reduce oboseala și problemele de postură.
-
-### 51. Folosirea ecranelor imediat înainte de somn:
-
-- a. îngreunează adormirea, din cauza luminii albastre
-- b. îmbunătățește somnul
-- c. nu are niciun efect
-- d. crește atenția a doua zi
-
-> [!success]- Răspuns
-> **a. îngreunează adormirea, din cauza luminii albastre**
-> 
-> Se recomandă un interval fără ecrane seara.
-
-### 52. Comparativ cu lucrul concentrat, comutarea permanentă între sarcini:
-
-- a. reduce, de regulă, performanța
-- b. o crește mereu
-- c. nu o influențează
-- d. elimină oboseala
-
-> [!success]- Răspuns
-> **a. reduce, de regulă, performanța**
-> 
-> Fiecare comutare are un cost de atenție.
-
-### 53. Regula 3-2-1 a copiilor de siguranță cere:
-
-- a. trei copii, pe două suporturi, una într-o altă locație
-- b. o singură copie pe același disc
-- c. trei copii pe același disc
-- d. două copii în același folder
-
-> [!success]- Răspuns
-> **a. trei copii, pe două suporturi, una într-o altă locație**
-> 
-> Separarea fizică protejează împotriva incendiului sau furtului.
-
-### 54. Arhivarea unui folder este utilă pentru:
-
-- a. reducerea dimensiunii și transferul mai ușor
-- b. creșterea vitezei procesorului
-- c. mărirea memoriei RAM
-- d. accelerarea internetului
-
-> [!success]- Răspuns
-> **a. reducerea dimensiunii și transferul mai ușor**
-> 
-> Arhiva poate fi și protejată cu parolă.
-
-### 55. Datele în numele fișierelor se scriu, pentru sortare corectă, în format:
-
-- a. an-lună-zi
-- b. zi-lună-an
-- c. lună-zi-an
-- d. fără an
-
-> [!success]- Răspuns
-> **a. an-lună-zi**
-> 
-> Astfel ordinea alfabetică coincide cu cea cronologică.
-
-### 56. O copie de siguranță păstrată doar pe același disc cu originalul:
-
-- a. nu ajută dacă discul se defectează
-- b. este cea mai sigură
-- c. respectă regula 3-2-1
-- d. este suficientă împotriva furtului
-
-> [!success]- Răspuns
-> **a. nu ajută dacă discul se defectează**
-> 
-> Copiile trebuie separate de original.
-
-### 57. O listă ordonată (numerotată) este potrivită pentru:
-
-- a. pași care se succed logic
-- b. elemente fără ordine
-- c. alinierea a două coloane de text
-- d. inserarea unei imagini
-
-> [!success]- Răspuns
-> **a. pași care se succed logic**
-> 
-> Când ordinea nu contează se folosește lista cu marcatori.
-
-### 58. Numerotarea manuală a unei liste este dezavantajoasă pentru că:
-
-- a. nu se actualizează singură la adăugarea sau ștergerea elementelor
-- b. ocupă mai puțin spațiu
-- c. este mai lizibilă
-- d. permite imbricarea
-
-> [!success]- Răspuns
-> **a. nu se actualizează singură la adăugarea sau ștergerea elementelor**
-> 
-> Numerotarea automată rezolvă problema.
-
-### 59. Pentru date comparabile pe două criterii este potrivit:
-
-- a. tabelul
-- b. lista neordonată
-- c. nota de subsol
-- d. antetul paginii
-
-> [!success]- Răspuns
-> **a. tabelul**
-> 
-> Tabelul organizează informația pe rânduri și coloane.
-
-### 60. Rândul de antet al unui tabel lung, repetat pe fiecare pagină:
-
-- a. ușurează citirea și înțelegerea coloanelor
-- b. mărește mult fișierul
-- c. este interzis
-- d. înlocuiește numerotarea
-
-> [!success]- Răspuns
-> **a. ușurează citirea și înțelegerea coloanelor**
-> 
-> El denumește coloanele oriunde continuă tabelul.
-
-### 61. Pentru a nu deforma o imagine, se redimensionează:
-
-- a. trăgând de un colț, păstrând proporțiile
-- b. trăgând de o singură latură
-- c. prin decupare
-- d. schimbând doar rezoluția
-
-> [!success]- Răspuns
-> **a. trăgând de un colț, păstrând proporțiile**
-> 
-> Tragerea de o latură modifică raportul laturilor.
-
-### 62. Textul alternativ al unei imagini servește:
-
-- a. accesibilității, fiind citit de cititoarele de ecran
-- b. creșterii rezoluției
-- c. reducerii dimensiunii fișierului
-- d. alinierii textului
-
-> [!success]- Răspuns
-> **a. accesibilității, fiind citit de cititoarele de ecran**
-> 
-> El descrie conținutul pentru cine nu vede imaginea.
-
-### 63. Pentru o fotografie într-un document este potrivit formatul:
-
-- a. JPEG
-- b. TXT
-- c. MP3
-- d. ZIP
-
-> [!success]- Răspuns
-> **a. JPEG**
-> 
-> PNG este mai potrivit pentru desene și capturi cu zone plate.
-
-### 64. O imagine decorativă fără legătură cu textul:
-
-- a. distrage cititorul de la mesaj
-- b. este întotdeauna recomandată
-- c. înlocuiește o diagramă
-- d. crește accesibilitatea
-
-> [!success]- Răspuns
-> **a. distrage cititorul de la mesaj**
-> 
-> Imaginile trebuie să servească mesajul.
-
-### 65. Numărul binar 1011 înseamnă, în zecimal:
-
-- a. 11
-- b. 9
-- c. 12
-- d. 15
-
-> [!success]- Răspuns
-> **a. 11**
-> 
-> 8 + 0 + 2 + 1 = 11.
-
-### 66. Cu opt biți se pot reprezenta:
-
-- a. 256 de valori
-- b. 8 valori
-- c. 16 valori
-- d. 100 de valori
-
-> [!success]- Răspuns
-> **a. 256 de valori**
-> 
-> 2 la puterea 8 este 256.
-
-### 67. O imagine raster este alcătuită din:
-
-- a. pixeli
-- b. vectori
-- c. octeți de text
-- d. eșantioane sonore
-
-> [!success]- Răspuns
-> **a. pixeli**
-> 
-> Fiecare pixel are o culoare, uzual în modelul RGB.
-
-### 68. Diacriticele și emoji sunt cuprinse în standardul:
-
-- a. Unicode
-- b. ASCII pe 7 biți
-- c. binar pur
-- d. hexazecimal
-
-> [!success]- Răspuns
-> **a. Unicode**
-> 
-> Codificarea uzuală este UTF-8.
-
-### 69. Pentru ca sistemul de operare să folosească un periferic nou este nevoie de:
-
-- a. un driver
-- b. o parolă
-- c. un cont de e-mail
-- d. un browser
-
-> [!success]- Răspuns
-> **a. un driver**
-> 
-> Driverul mediază comunicarea cu dispozitivul.
-
-### 70. Regula 3-2-1 a copiilor de siguranță cere:
-
-- a. trei copii, pe două suporturi, una în altă locație
-- b. o copie pe același disc
-- c. trei copii în același folder
-- d. două copii pe desktop
-
-> [!success]- Răspuns
-> **a. trei copii, pe două suporturi, una în altă locație**
-> 
-> Separarea fizică protejează datele.
-
-### 71. Memoria RAM este:
-
-- a. volatilă
-- b. permanentă
-- c. doar pentru citire
-- d. externă
-
-> [!success]- Răspuns
-> **a. volatilă**
-> 
-> Datele nesalvate se pierd la oprire.
-
-### 72. Un octet are:
-
-- a. 8 biți
-- b. 16 biți
+- a. 24 biți (câte 8 biți pentru Roșu, Verde și Albastru)
+- b. 1 bit
 - c. 4 biți
 - d. 1024 biți
 
 > [!success]- Răspuns
-> **a. 8 biți**
+> **a. 24 biți (câte 8 biți pentru Roșu, Verde și Albastru)**
 > 
-> Multiplii uzuali sunt KB, MB, GB, TB.
+> 3 canale * 8 biți = 24 biți, permițând 16.777.216 culori distincte.
 
-### 73. Monitorul este un dispozitiv de:
+### 42. Dacă toate cele trei canale RGB au valoarea maximă (255, 255, 255), culoarea obținută pe ecran este:
 
-- a. ieșire
-- b. intrare
-- c. stocare
-- d. prelucrare
+- a. Alb pur
+- b. Negru pur
+- c. Verde crud
+- d. Albastru marin
 
 > [!success]- Răspuns
-> **a. ieșire**
+> **a. Alb pur**
 > 
-> Tastatura este dispozitiv de intrare.
+> În modelul aditiv de lumină, combinarea la intensitate maximă a culorilor primare dă culoarea albă.
 
-### 74. Extensia unui fișier indică:
+### 43. Formatul de imagine care suportă transparență fără pierderi de calitate este:
 
-- a. tipul de conținut și programul asociat
-- b. dimensiunea fișierului
-- c. data creării
-- d. autorul
+- a. .png
+- b. .txt
+- c. .bmp clasic
+- d. .mp3
 
 > [!success]- Răspuns
-> **a. tipul de conținut și programul asociat**
+> **a. .png**
 > 
-> De exemplu, .jpg indică o imagine.
+> PNG (Portable Network Graphics) suportă canal alfa de transparență și compresie fără pierderi.
 
-### 75. Sistemul DNS:
+### 44. Rata standard de eșantionare a sunetului pentru calitate audio de CD este:
 
-- a. traduce numele de domenii în adrese IP
-- b. criptează comunicația
-- c. stochează paginile web
-- d. filtrează conținutul
+- a. 44.1 kHz
+- b. 10 Hz
+- c. 500 MHz
+- d. 1000 GHz
 
 > [!success]- Răspuns
-> **a. traduce numele de domenii în adrese IP**
+> **a. 44.1 kHz**
 > 
-> Fără el ar trebui memorate adrese numerice.
+> 44.100 de eșantioane pe secundă acoperă întreg spectrul audibil de către om (până la 20 kHz conform teoremei Nyquist).
 
-### 76. HTTPS se deosebește de HTTP prin:
+### 45. Portul standard utilizat pentru conectarea cablului de rețea internet cu fir la calculator este:
 
-- a. criptarea comunicației
-- b. viteza mai mare
-- c. accesul la imagini
-- d. portul folosit exclusiv
+- a. RJ-45 (Ethernet)
+- b. VGA
+- c. Jack 3.5 mm
+- d. PS/2
 
 > [!success]- Răspuns
-> **a. criptarea comunicației**
+> **a. RJ-45 (Ethernet)**
 > 
-> Lacătul din bara de adrese semnalează conexiunea securizată.
+> Mufa RJ-45 conectează cablul UTP de rețea la placa de rețea a calculatorului.
 
-### 77. Căutarea unei expresii exacte se face cu:
+### 46. Cablul video analogic cu mufă albastră și 15 pini se numește:
 
-- a. ghilimele
-- b. semnul plus
-- c. asterisc
-- d. paranteze
+- a. VGA
+- b. DisplayPort
+- c. HDMI
+- d. Thunderbolt
 
 > [!success]- Răspuns
-> **a. ghilimele**
+> **a. VGA**
 > 
-> Minusul exclude un termen.
+> VGA este o conexiune video analogică din generațiile anterioare de calculatoare.
 
-### 78. Cuprinsul automat se generează pe baza:
+### 47. Tehnologia prin care sistemul de operare recunoaște și instalează automat un mouse conectat la USB este:
 
-- a. stilurilor aplicate titlurilor
-- b. numerotării paginilor
-- c. alinierii textului
-- d. tabelelor inserate
+- a. Plug and Play
+- b. Overclocking
+- c. Formatare
+- d. Defragmentare
 
 > [!success]- Răspuns
-> **a. stilurilor aplicate titlurilor**
+> **a. Plug and Play**
 > 
-> De aceea stilurile sunt esențiale.
+> Plug and Play elimină necesitatea configurărilor manuale complexe la adăugarea perifericelor.
 
-### 79. Indentarea este o formatare la nivel de:
+### 48. Conexiunea radio fără fir de distanță scurtă utilizată pentru periferice și accesorii este:
 
-- a. paragraf
-- b. caracter
-- c. pagină
-- d. secțiune
+- a. Bluetooth
+- b. Satelit GPS
+- c. Fibră optică
+- d. Cablu torsadat
 
 > [!success]- Răspuns
-> **a. paragraf**
+> **a. Bluetooth**
 > 
-> Fontul se aplică la nivel de caracter.
+> Bluetooth consumă puțină energie și este ideal pentru sincronizarea accesoriilor pe distanțe de câțiva metri.
 
-### 80. Un slide bun conține:
+### 49. Distanța optimă recomandată între ochi și monitorul calculatorului este de:
 
-- a. o idee, în cuvinte-cheie
-- b. un paragraf întreg
-- c. toate detaliile
-- d. minimum cinci imagini
+- a. 50 – 70 cm (lungimea unui braț)
+- b. 10 cm
+- c. 3 metri
+- d. 5 milimetri
 
 > [!success]- Răspuns
-> **a. o idee, în cuvinte-cheie**
+> **a. 50 – 70 cm (lungimea unui braț)**
 > 
-> Detaliile aparțin discursului.
+> Această distanță previne oboseala oculară și permite vizualizarea ecranului fără înclinarea gâtului.
 
-### 81. Pentru o prezentare de 15 minute sunt potrivite, orientativ:
+### 50. Afecțiunea încheieturii cauzată de poziționarea incorectă a mâinii pe mouse și tastatură este:
 
-- a. circa 10 slide-uri
-- b. 30 de slide-uri
-- c. 3 slide-uri
-- d. 45 de slide-uri
+- a. sindromul de tunel carpian
+- b. miopia
+- c. entorsa de gleznă
+- d. febra musculară
 
 > [!success]- Răspuns
-> **a. circa 10 slide-uri**
+> **a. sindromul de tunel carpian**
 > 
-> Regula este un slide la un minut și jumătate.
+> Sprijinirea corectă a antebrațelor previne presiunea pe nervul median din canalul carpian.
 
-### 82. Trimiterea unui e-mail către mulți destinatari se face folosind:
+### 51. Pentru a preveni reflexiile deranjante pe ecranul monitorului, acesta trebuie așezat:
+
+- a. perpendicular față de ferestre, fără lumină solară directă pe sticlă
+- b. lipit de geam cu fața spre soare
+- c. complet în întuneric total fără nicio lumină
+- d. la nivelul podelei
+
+> [!success]- Răspuns
+> **a. perpendicular față de ferestre, fără lumină solară directă pe sticlă**
+> 
+> Poziționarea perpendiculară elimină strălucirea și reflexiile orbitoare pe monitor.
+
+### 52. Regula ergonomică 20-20-20 are ca scop principal:
+
+- a. protejarea vederii și prevenirea oboselii musculaturii ochilor
+- b. descărcarea mai rapidă a jocurilor
+- c. economisirea bateriei laptopului
+- d. curățarea automată a prafului din unitate
+
+> [!success]- Răspuns
+> **a. protejarea vederii și prevenirea oboselii musculaturii ochilor**
+> 
+> Focalizarea la distanță relaxează cristalinul și reduce tensiunea oculară.
+
+### 53. Conform strategiei 3-2-1, câte copii ale datelor importante trebuie păstrate în total?
+
+- a. 3 copii
+- b. 1 singură copie
+- c. 50 de copii
+- d. zero copii
+
+> [!success]- Răspuns
+> **a. 3 copii**
+> 
+> Cele 3 copii includ fișierul de lucru original plus două copii de rezervă independente.
+
+### 54. O copie de siguranță stocată „off-site” înseamnă că:
+
+- a. copia se află într-o altă locație geografică sau în cloud, protejată de incidente locale
+- b. copia este ștearsă în fiecare seară
+- c. fișierul este tipărit pe hârtie
+- d. datele sunt făcute publice pe internet
+
+> [!success]- Răspuns
+> **a. copia se află într-o altă locație geografică sau în cloud, protejată de incidente locale**
+> 
+> Copia off-site garantează salvarea datelor chiar și în caz de furt, incendiu sau inundație a locuinței.
+
+### 55. Formatul standard nativ de arhivă suportat direct de sistemul Windows fără programe terțe este:
+
+- a. .zip
+- b. .mp4
+- c. .psd
+- d. .exe
+
+> [!success]- Răspuns
+> **a. .zip**
+> 
+> Windows poate crea și decomprima foldere comprimate .zip direct din interfața File Explorer.
+
+### 56. O convenție corectă și profesională de denumire a fișierelor este:
+
+- a. 2026-10-15_Proiect_TIC_Popescu_v01.docx
+- b. doc.docx
+- c. asdasd.docx
+- d. final_final_acum_chiar_gata.docx
+
+> [!success]- Răspuns
+> **a. 2026-10-15_Proiect_TIC_Popescu_v01.docx**
+> 
+> Folosirea datei în format ISO (AN-LUNĂ-ZI) și a numelui proiectului permite sortarea cronologică automată.
+
+### 57. Operația de combinare a mai multor celule selectate dintr-un tabel într-o singură celulă se numește:
+
+- a. Îmbinare celule (Merge Cells)
+- b. Divizare celule (Split Cells)
+- c. Ștergere tabel
+- d. Colorare font
+
+> [!success]- Răspuns
+> **a. Îmbinare celule (Merge Cells)**
+> 
+> Merge Cells unește celulele fără a șterge conținutul lor.
+
+### 58. Într-o listă numerotată pe mai multe niveluri, revenirea la nivelul ierarhic superior se face cu:
+
+- a. Shift + Tab
+- b. Enter apăsat de 5 ori
+- c. Ctrl + P
+- d. Spacebar
+
+> [!success]- Răspuns
+> **a. Shift + Tab**
+> 
+> Shift+Tab reduce indentarea și urcă pe nivelul ierarhic precedent.
+
+### 59. Pentru a tipări 100 de diplome diferite cu numele elevilor preluat dintr-un fișier Excel, se utilizează:
+
+- a. Îmbinare corespondență (Mail Merge)
+- b. copierea și lipirea manuală de 100 de ori
+- c. tasta Caps Lock
+- d. schimbarea imprimantei
+
+> [!success]- Răspuns
+> **a. Îmbinare corespondență (Mail Merge)**
+> 
+> Mail Merge completează automat câmpurile marcate cu datele din fiecare rând al tabelului Excel.
+
+### 60. Alinierea textului în interiorul unei celule de tabel poate fi reglată:
+
+- a. atât pe orizontală (stânga, centru, dreapta), cât și pe verticală (sus, mijloc, jos)
+- b. doar la stânga fără altă opțiune
+- c. exclusiv în afara tabelului
+- d. doar prin rotirea monitorului
+
+> [!success]- Răspuns
+> **a. atât pe orizontală (stânga, centru, dreapta), cât și pe verticală (sus, mijloc, jos)**
+> 
+> Proprietățile de aliniere din meniul Table Tools permit centrarea perfectă pe mijlocul celulei.
+
+### 61. Pentru a plasa o imagine exact în fundalul documentului, sub rândurile de text, opțiunea de Text Wrapping este:
+
+- a. Behind Text (În spatele textului)
+- b. In Line with Text
+- c. Square
+- d. Top and Bottom
+
+> [!success]- Răspuns
+> **a. Behind Text (În spatele textului)**
+> 
+> Behind Text permite textului să se așeze peste imagine ca peste un fundal.
+
+### 62. Inserarea unei referințe bibliografice numerotate automat în partea de jos a paginii se face prin:
+
+- a. Insert Footnote (Notă de subsol) din meniul Referințe
+- b. scrierea manuală a textului cu caractere mici
+- c. inserarea unei imagini cu carte
+- d. desenarea unei linii cu rigla
+
+> [!success]- Răspuns
+> **a. Insert Footnote (Notă de subsol) din meniul Referințe**
+> 
+> Word numerotează automat notele de subsol și le recalculează poziția la adăugarea de pagini noi.
+
+### 63. Elementul grafic SmartArt de tip „Cycle” (Ciclu) este cel mai potrivit pentru a reprezenta:
+
+- a. un proces repetitiv care revine la starea inițială (ex: circuitul apei în natură)
+- b. o listă simplă de cumpărături
+- c. o parolă secretă
+- d. o melodie audio
+
+> [!success]- Răspuns
+> **a. un proces repetitiv care revine la starea inițială (ex: circuitul apei în natură)**
+> 
+> Graficele de tip Ciclu ilustrează etape circulare continue.
+
+### 64. Pentru a împiedica deplasarea accidentală a mai multor forme geometrice desenate, acestea se selectează și se aplică:
+
+- a. Grupare (Group)
+- b. Ștergere (Delete)
+- c. Formatare ca tabel
+- d. Criptare cu parolă
+
+> [!success]- Răspuns
+> **a. Grupare (Group)**
+> 
+> Gruparea unește mai multe obiecte grafice într-un singur bloc manevrabil unitar.
+
+### 65. Unitatea centrală de prelucrare (CPU) are ca rol principal:
+
+- a. executarea instrucțiunilor și coordonarea funcționării întregului sistem
+- b. afișarea imaginilor pe hârtie
+- c. stocarea permanentă a fișierelor fără curent
+- d. alimentarea cu energie a prizei de perete
+
+> [!success]- Răspuns
+> **a. executarea instrucțiunilor și coordonarea funcționării întregului sistem**
+> 
+> CPU este procesorul care efectuează calculele și controlează celelalte componente.
+
+### 66. Care dintre următoarele memorii își pierde conținutul la oprirea calculatorului?
+
+- a. RAM
+- b. ROM
+- c. SSD
+- d. Hard disk
+
+> [!success]- Răspuns
+> **a. RAM**
+> 
+> Memoria RAM este volatilă.
+
+### 67. Tasta funcțională utilizată pentru redenumirea unui fișier selectat este:
+
+- a. F2
+- b. F5
+- c. F1
+- d. Esc
+
+> [!success]- Răspuns
+> **a. F2**
+> 
+> F2 activează caseta de redenumire în File Explorer.
+
+### 68. Protocolul securizat și criptat de comunicare pe World Wide Web este:
+
+- a. HTTPS
+- b. FTP
+- c. HTTP simplu
+- d. Telnet
+
+> [!success]- Răspuns
+> **a. HTTPS**
+> 
+> HTTPS criptează datele cu certificate SSL/TLS.
+
+### 69. Generarea automată a cuprinsului într-un document Word se bazează pe:
+
+- a. aplicarea stilurilor Heading 1, Heading 2 pe titluri
+- b. scrierea tuturor cuvintelor cu litere mari
+- c. introducerea a 50 de spații libere
+- d. numărarea manuală a paginilor
+
+> [!success]- Răspuns
+> **a. aplicarea stilurilor Heading 1, Heading 2 pe titluri**
+> 
+> Stilurile Heading permit indexarea automată a structurii.
+
+### 70. Trecerea forțată pe o pagină nouă la redactarea unui referat se face prin:
+
+- a. Ctrl + Enter (Page Break)
+- b. Enter apăsat repetat
+- c. dublu clic pe monitor
+- d. micșorarea marginilor
+
+> [!success]- Răspuns
+> **a. Ctrl + Enter (Page Break)**
+> 
+> Page Break menține textul curat la începutul noii pagini.
+
+### 71. Pentru a lansa o prezentare PowerPoint începând cu primul diapozitiv, se apasă:
+
+- a. F5
+- b. F4
+- c. Ctrl + P
+- d. Shift + Esc
+
+> [!success]- Răspuns
+> **a. F5**
+> 
+> F5 pornește prezentarea de la început.
+
+### 72. Câmpul de e-mail care ascunde adresele destinatarilor pentru a le proteja intimitatea este:
 
 - a. Bcc
-- b. Cc
-- c. „Către”
-- d. „Răspunde tuturor”
+- b. To
+- c. Cc
+- d. Subject
 
 > [!success]- Răspuns
 > **a. Bcc**
 > 
-> Astfel adresele nu sunt expuse.
+> Bcc este copie ascunsă.
 
-### 83. O listă numerotată automat este preferabilă pentru că:
+### 73. O parolă digitală puternică se caracterizează prin:
 
-- a. se actualizează singură la adăugarea sau ștergerea elementelor
-- b. ocupă mai puțin loc
-- c. nu poate fi modificată
-- d. se tipărește mai repede
-
-> [!success]- Răspuns
-> **a. se actualizează singură la adăugarea sau ștergerea elementelor**
-> 
-> Numerotarea manuală trebuie refăcută la fiecare schimbare.
-
-### 84. Pentru date comparabile pe rânduri și coloane se folosește:
-
-- a. un tabel
-- b. o listă cu marcatori
-- c. o notă de subsol
-- d. un antet de pagină
+- a. cel puțin 12-16 caractere diverse (mari, mici, cifre, simboluri) și unicitate
+- b. data de naștere a utilizatorului
+- c. cuvântul „parola123”
+- d. numele animalului de companie scris cu litere mici
 
 > [!success]- Răspuns
-> **a. un tabel**
+> **a. cel puțin 12-16 caractere diverse (mari, mici, cifre, simboluri) și unicitate**
 > 
-> Tabelul organizează informația pe două dimensiuni.
+> Parolele lungi și complexe sunt rezistente la atacurile de tip dicționar sau forță brută.
 
-### 85. Textul alternativ al unei imagini folosește:
+### 74. Componenta software esențială care administrează hardware-ul și permite rularea aplicațiilor este:
 
-- a. accesibilității, fiind citit de cititoarele de ecran
-- b. măririi rezoluției
-- c. reducerii fișierului
-- d. alinierii paginii
+- a. Sistemul de operare
+- b. Placa video
+- c. Browserul web
+- d. Antivirusul
 
 > [!success]- Răspuns
-> **a. accesibilității, fiind citit de cititoarele de ecran**
+> **a. Sistemul de operare**
 > 
-> El descrie imaginea pentru cine nu o poate vedea.
+> Sistemul de operare este platforma de bază a oricărui calculator.
 
-### 86. O imagine se redimensionează fără deformare:
+### 75. În sistemul binar, numărul de valori distincte ce pot fi reprezentate pe 8 biți (1 octet) este:
 
-- a. trăgând de un colț
-- b. trăgând de o latură
-- c. prin schimbarea formatului
-- d. prin decupare
+- a. 256
+- b. 100
+- c. 1024
+- d. 8
 
 > [!success]- Răspuns
-> **a. trăgând de un colț**
+> **a. 256**
 > 
-> Astfel se păstrează proporțiile.
+> 2^8 = 256 combinații (valori de la 0 la 255).
 
-### 87. Pentru o fotografie este potrivit formatul:
+### 76. Câți Kilobytes (KB) conține un fișier cu mărimea de 3 Megabytes (MB)?
 
-- a. JPEG
-- b. TXT
-- c. MP3
-- d. ZIP
+- a. 3072 KB
+- b. 300 KB
+- c. 3000 KB
+- d. 30 KB
 
 > [!success]- Răspuns
-> **a. JPEG**
+> **a. 3072 KB**
 > 
-> PNG e mai potrivit pentru desene și capturi.
+> 3 * 1024 = 3072 KB.
 
-### 88. O imagine decorativă fără legătură cu textul:
+### 77. Standardul de codificare a textului capabil să reprezinte diacriticele românești și caractere din toate limbile este:
 
-- a. distrage cititorul de la mesaj
-- b. este mereu recomandată
-- c. crește accesibilitatea
-- d. înlocuiește o diagramă
+- a. Unicode (UTF-8)
+- b. ASCII pur pe 7 biți
+- c. BCD
+- d. Morse
 
 > [!success]- Răspuns
-> **a. distrage cititorul de la mesaj**
+> **a. Unicode (UTF-8)**
 > 
-> Imaginile trebuie să servească mesajul.
+> Unicode este standardul universal modern de codificare textuală.
 
-### 89. Cea mai eficientă măsură împotriva parolelor furate este:
+### 78. Modelul aditiv de culoare utilizat la redarea imaginilor pe ecran este:
 
-- a. autentificarea în doi pași
-- b. schimbarea lunară a parolei
-- c. parola scurtă cu simboluri
-- d. reutilizarea aceleiași parole
+- a. RGB
+- b. CMYK
+- c. Alb-negru pur
+- d. Sepia
 
 > [!success]- Răspuns
-> **a. autentificarea în doi pași**
+> **a. RGB**
 > 
-> Al doilea factor blochează accesul.
+> RGB (Red, Green, Blue) compune lumina pe ecran.
 
-### 90. Ransomware-ul:
+### 79. Portul modern cu conector reversibil utilizat pentru date rapide, video și alimentare este:
 
-- a. criptează datele și cere răscumpărare
-- b. șterge sistemul de operare
-- c. fură parolele
-- d. încetinește calculatorul
+- a. USB Type-C
+- b. VGA
+- c. PS/2
+- d. Serial COM
 
 > [!success]- Răspuns
-> **a. criptează datele și cere răscumpărare**
+> **a. USB Type-C**
 > 
-> Copiile de siguranță sunt singura protecție reală.
+> USB-C este standardul universal reversibil.
 
-### 91. Actualizările de sistem:
+### 80. Regula de relaxare a ochilor 20-20-20 recomandă ca la fiecare 20 de minute să privești timp de 20 de secunde:
 
-- a. corectează vulnerabilități cunoscute
-- b. schimbă doar interfața
-- c. eliberează spațiu
-- d. cresc viteza procesorului
+- a. la un obiect aflat la aproximativ 6 metri distanță
+- b. direct în soare
+- c. la tastatură
+- d. cu un singur ochi închis
 
 > [!success]- Răspuns
-> **a. corectează vulnerabilități cunoscute**
+> **a. la un obiect aflat la aproximativ 6 metri distanță**
 > 
-> Amânarea lor lasă breșe deschise.
+> Privirea la distanță relaxează mușchiul ciliar al ochiului.
 
-### 92. Copiile de siguranță trebuie păstrate:
+### 81. Strategia sigură de backup 3-2-1 prevede păstrarea a cel puțin:
 
-- a. și într-o locație separată
-- b. doar pe același disc
-- c. doar pe desktop
-- d. doar în memoria RAM
+- a. 1 copie într-o altă locație sau în cloud
+- b. zero copii
+- c. toate copiile pe aceeași dischetă
+- d. copii doar pe hârtie
 
 > [!success]- Răspuns
-> **a. și într-o locație separată**
+> **a. 1 copie într-o altă locație sau în cloud**
 > 
-> Altfel se pierd odată cu dispozitivul.
+> Copia externă off-site protejează datele în caz de dezastre locale.
 
-### 93. Datele cu caracter personal sunt:
+### 82. Operația din Word care unește mai multe celule selectate dintr-un tabel se numește:
 
-- a. orice informații care pot identifica o persoană
-- b. doar numele și CNP-ul
-- c. doar datele bancare
-- d. doar fotografiile
+- a. Îmbinare celule (Merge Cells)
+- b. Divizare tabel
+- c. Răsturnare rânduri
+- d. Calcul sumă
 
 > [!success]- Răspuns
-> **a. orice informații care pot identifica o persoană**
+> **a. Îmbinare celule (Merge Cells)**
 > 
-> Inclusiv identificatorii online și datele de localizare.
+> Merge Cells unește celulele într-una singură.
 
-### 94. Consimțământul pentru prelucrarea datelor trebuie să fie:
+### 83. Instrumentul din Word care permite generarea a sute de scrisori personalizate dintr-o listă se numește:
 
-- a. liber, specific și informat
-- b. implicit
-- c. general și permanent
-- d. acordat de terți
+- a. Îmbinare corespondență (Mail Merge)
+- b. WordArt
+- c. Format Painter
+- d. SmartArt
 
 > [!success]- Răspuns
-> **a. liber, specific și informat**
+> **a. Îmbinare corespondență (Mail Merge)**
 > 
-> Căsuțele bifate din start nu constituie consimțământ.
+> Mail Merge combină șablonul cu baza de date de destinatari.
 
-### 95. Urma digitală este:
+### 84. Notele de subsol (Footnotes) se inserează în document din meniul:
 
-- a. ansamblul informațiilor lăsate online, activ și pasiv
-- b. doar postările publice
-- c. doar istoricul de navigare
-- d. doar datele din formulare
+- a. Referințe (References)
+- b. Vizualizare (View)
+- c. Aspect pagină (Page Layout)
+- d. Desenare (Draw)
 
 > [!success]- Răspuns
-> **a. ansamblul informațiilor lăsate online, activ și pasiv**
+> **a. Referințe (References)**
 > 
-> Ea este greu reversibilă.
-
-### 96. Plagiatul înseamnă:
-
-- a. preluarea muncii altcuiva fără atribuire
-- b. citarea unei surse
-- c. parafrazarea cu trimitere
-- d. folosirea unei imagini licențiate
-
-> [!success]- Răspuns
-> **a. preluarea muncii altcuiva fără atribuire**
-> 
-> Ușurința copierii nu îl face acceptabil.
-
-### 97. Licențele Creative Commons:
-
-- a. precizează condițiile de reutilizare a unei opere
-- b. elimină drepturile de autor
-- c. se aplică automat
-- d. interzic orice reutilizare
-
-> [!success]- Răspuns
-> **a. precizează condițiile de reutilizare a unei opere**
-> 
-> Autorul alege tipul de licență.
-
-### 98. Răspunsul corect la cyberbullying include:
-
-- a. documentarea și raportarea
-- b. răspunsul în același registru
-- c. ștergerea imediată a probelor
-- d. tăcerea completă
-
-> [!success]- Răspuns
-> **a. documentarea și raportarea**
-> 
-> Capturile de ecran permit intervenția.
-
-### 99. Dezinformarea circulă rapid online deoarece:
-
-- a. algoritmii amplifică ce produce reacție emoțională
-- b. este verificată automat
-- c. provine din surse oficiale
-- d. este mai scurtă
-
-> [!success]- Răspuns
-> **a. algoritmii amplifică ce produce reacție emoțională**
-> 
-> Corectitudinea nu determină difuzarea.
-
-### 100. La partajarea unui document se acordă:
-
-- a. doar drepturile necesare
-- b. întotdeauna editare
-- c. acces public
-- d. drepturi de administrator
-
-> [!success]- Răspuns
-> **a. doar drepturile necesare**
-> 
-> Este principiul privilegiului minim.
+> Meniul References gestionează notele de subsol, cuprinsul și bibliografia.
 
 ---
 

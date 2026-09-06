@@ -7,1207 +7,1015 @@ cssclasses: test
 ---
 # Test — Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)
 
-100 întrebări din [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+84 întrebări din [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
-### 1. În modelul client–server, browserul este:
+### 1. Modelul de comunicare prin care un browser cere o pagină de la un calculator conectat permanent la internet se numește:
 
-- a. clientul
-- b. serverul
-- c. protocolul
-- d. domeniul
+- a. Client-Server
+- b. Peer-to-Peer exclusiv
+- c. Offline local
+- d. Circuit integrat
 
 > [!success]- Răspuns
-> **a. clientul**
+> **a. Client-Server**
 > 
-> Serverul furnizează resursa cerută.
+> Browserul este clientul care cere resursa, iar serverul web este cel care o livrează.
 
-### 2. Un site dinamic:
+### 2. Protocolul standard securizat care utilizează portul 443 pentru pagini web criptate este:
 
-- a. generează paginile la cerere, din baze de date
-- b. livrează fișiere neschimbate
-- c. funcționează fără server
-- d. nu poate fi actualizat
+- a. HTTPS
+- b. FTP
+- c. Telnet
+- d. POP3
 
 > [!success]- Răspuns
-> **a. generează paginile la cerere, din baze de date**
+> **a. HTTPS**
 > 
-> Un magazin online este un exemplu tipic.
+> HTTPS garantează securitatea și confidențialitatea tranzacțiilor pe web.
 
-### 3. Numele de domeniu este tradus în adresă IP de:
+### 3. În adresa „https://www.exemplu.ro/cursuri/tic.html”, șirul „tic.html” reprezintă:
 
-- a. sistemul DNS
-- b. protocolul HTTP
-- c. browser
-- d. serverul de e-mail
+- a. numele fișierului resursă solicitat de la server
+- b. protocolul de comunicație
+- c. parola de administrator
+- d. numele furnizorului de energie
 
 > [!success]- Răspuns
-> **a. sistemul DNS**
+> **a. numele fișierului resursă solicitat de la server**
 > 
-> Fără DNS ar trebui memorate adrese numerice.
+> Este fișierul fizic specificat la capătul căii de pe server.
 
-### 4. Adaptarea unui site la ecrane mici este importantă deoarece:
+### 4. Aplicația software instalată pe server pentru a răspunde cererilor utilizatorilor este:
 
-- a. majoritatea accesărilor se fac de pe dispozitive mobile
-- b. serverele o cer
-- c. reduce costurile de găzduire
-- d. crește securitatea
+- a. Serverul web (ex: Apache sau Nginx)
+- b. Un joc pe consolă
+- c. Un procesor de calcul tabelar
+- d. O cartelă SIM
 
 > [!success]- Răspuns
-> **a. majoritatea accesărilor se fac de pe dispozitive mobile**
+> **a. Serverul web (ex: Apache sau Nginx)**
 > 
-> Un site neadaptat pierde majoritatea vizitatorilor.
+> Apache și Nginx sunt cele mai răspândite programe de server web din lume.
 
-### 5. Culorile și așezarea elementelor unei pagini se stabilesc prin:
+### 5. Limbajul utilizat exclusiv pentru a da structură logică conținutului unei pagini web este:
 
-- a. foile de stil
-- b. limbajul de marcare
-- c. limbajul de scriptare
-- d. protocolul HTTP
+- a. HTML
+- b. CSS
+- c. SQL
+- d. BIOS
 
 > [!success]- Răspuns
-> **a. foile de stil**
+> **a. HTML**
 > 
-> HTML descrie structura, nu aspectul.
+> HTML este scheletul textual și structural al oricărei pagini de internet.
 
-### 6. Marcarea semantică înseamnă:
+### 6. Modificarea culorii de fundal și a fontului unui paragraf se realizează prin:
 
-- a. folosirea elementului potrivit rolului conținutului
-- b. folosirea celui mai scurt element
-- c. evitarea foilor de stil
-- d. reducerea numărului de etichete
+- a. proprietăți CSS
+- b. taguri video
+- c. formule Excel
+- d. tabele Access
 
 > [!success]- Răspuns
-> **a. folosirea elementului potrivit rolului conținutului**
+> **a. proprietăți CSS**
 > 
-> Un titlu se marchează ca titlu, nu ca text îngroșat.
+> CSS controlează toate aspectele vizuale ale prezentării.
 
-### 7. Validarea unui formular în pagină, fără reîncărcare, se face prin:
+### 7. Validarea instantanee a unei adrese de e-mail într-un formular web la tastare se face de către:
 
-- a. limbajul de scriptare
-- b. limbajul de marcare
-- c. foaia de stil
-- d. protocolul HTTP
+- a. JavaScript
+- b. HTML simplu
+- c. O imprimantă
+- d. Un cablu de rețea
 
 > [!success]- Răspuns
-> **a. limbajul de scriptare**
+> **a. JavaScript**
 > 
-> JavaScript adaugă comportament paginii.
+> JavaScript rulează direct în browserul clientului și procesează logica interactivă.
 
-### 8. Separarea conținutului de prezentare permite:
+### 8. Tagul semantic HTML5 recomandat pentru bara principală de navigare a site-ului este:
 
-- a. schimbarea aspectului fără modificarea conținutului
-- b. reducerea numărului de fișiere
-- c. creșterea securității
-- d. eliminarea nevoii de server
+- a. `<nav>`
+- b. `<bold>`
+- c. `<color>`
+- d. `<jump>`
 
 > [!success]- Răspuns
-> **a. schimbarea aspectului fără modificarea conținutului**
+> **a. `<nav>`**
 > 
-> Este principiul de bază al web-ului modern.
+> `<nav>` indică motoarelor de căutare și cititoarelor de ecran zona cu meniuri de linkuri.
 
-### 9. Textul alternativ al unei imagini este util în primul rând pentru:
+### 9. Atributul HTML obligatoriu pentru a oferi o descriere accesibilă unei imagini este:
 
-- a. persoanele care folosesc cititoare de ecran
-- b. reducerea dimensiunii imaginii
-- c. creșterea vitezei de încărcare
-- d. protejarea drepturilor de autor
+- a. alt
+- b. src
+- c. href
+- d. font
 
 > [!success]- Răspuns
-> **a. persoanele care folosesc cititoare de ecran**
+> **a. alt**
 > 
-> El este citit atunci când imaginea nu poate fi văzută.
+> Atributul alt conține textul alternativ pentru accesibilitate și motoare de căutare.
 
-### 10. Navigarea completă de la tastatură este necesară pentru:
+### 10. Formatul modern de imagine conceput de Google pentru a oferi compresie superioară pe web este:
 
-- a. utilizatorii care nu pot folosi mouse-ul
-- b. creșterea vitezei site-ului
-- c. optimizarea în căutări
-- d. reducerea codului
+- a. .webp
+- b. .exe
+- c. .bmp clasic
+- d. .wav
 
 > [!success]- Răspuns
-> **a. utilizatorii care nu pot folosi mouse-ul**
+> **a. .webp**
 > 
-> Este o cerință fundamentală de accesibilitate.
+> WebP oferă imagini la o calitate similară cu JPEG, dar cu o dimensiune cu 30% mai mică.
 
-### 11. Un contrast insuficient între text și fundal:
+### 11. Protocolul criptat recomandat pentru încărcarea sigură a fișierelor pe serverul de găzduire este:
 
-- a. face textul greu de citit pentru mulți utilizatori
-- b. crește eleganța paginii
-- c. nu afectează accesibilitatea
-- d. este recomandat pentru mobil
+- a. SFTP (SSH File Transfer Protocol)
+- b. Telnet
+- c. HTTP simplu
+- d. Bluetooth
 
 > [!success]- Răspuns
-> **a. face textul greu de citit pentru mulți utilizatori**
+> **a. SFTP (SSH File Transfer Protocol)**
 > 
-> Există praguri minime recomandate de standarde.
+> SFTP criptează datele și parolele în timpul transferului către server.
 
-### 12. Certificatul de securitate al unui site permite:
+### 12. Pentru ca o pagină să poată fi navigată de persoane care nu pot folosi mouse-ul, interfața trebuie să suporte:
 
-- a. conexiunea criptată prin HTTPS
-- b. indexarea în motoarele de căutare
-- c. găzduirea gratuită
-- d. accesul de pe mobil
+- a. navigarea completă cu ajutorul tastei Tab
+- b. doar comenzi vocale în engleză
+- c. ecrane tactile de mari dimensiuni
+- d. două tastaturi simultan
 
 > [!success]- Răspuns
-> **a. conexiunea criptată prin HTTPS**
+> **a. navigarea completă cu ajutorul tastei Tab**
 > 
-> Fără el, browserele avertizează utilizatorii.
+> Focalizarea secvențială cu Tab este pilonul accesibilității fizice pe web.
 
-### 13. Formatul MP3 folosește:
+### 13. Numărul de măsurători ale undei de sunet efectuate într-o singură secundă se numește:
 
-- a. comprimare cu pierdere
-- b. comprimare fără pierdere
-- c. format necomprimat
-- d. codare vectorială
+- a. rată de eșantionare (Sampling Rate)
+- b. rezoluție optică
+- c. lățime de bandă
+- d. volum de disc
 
 > [!success]- Răspuns
-> **a. comprimare cu pierdere**
+> **a. rată de eșantionare (Sampling Rate)**
 > 
-> FLAC comprimă fără pierdere.
+> Rata de eșantionare dictează frecvența maximă ce poate fi reprodusă din semnal.
 
-### 14. Frecvența de eșantionare de 44,1 kHz înseamnă:
+### 14. Formatul de fișier audio comprimat utilizat pe scară largă pentru muzică pe internet este:
 
-- a. 44 100 de măsurători pe secundă
-- b. 44 de biți pe eșantion
-- c. 44 100 de biți pe secundă
-- d. 44 de secunde de înregistrare
+- a. .mp3
+- b. .bmp
+- c. .docx
+- d. .zip
 
 > [!success]- Răspuns
-> **a. 44 100 de măsurători pe secundă**
+> **a. .mp3**
 > 
-> Ea determină banda de frecvențe redată.
+> MP3 este cel mai celebru format audio comprimat din lume.
 
-### 15. Suprasaturarea semnalului la înregistrare produce:
+### 15. Pentru a crea o încheiere armonioasă a unei piese audio prin scăderea lentă a volumului până la liniște completă, se aplică:
 
-- a. distorsiune ireversibilă
-- b. volum mai mare, fără efecte
-- c. reducerea zgomotului
-- d. creșterea fidelității
+- a. Fade Out
+- b. Fade In
+- c. Mute total brusc
+- d. Overclocking
 
 > [!success]- Răspuns
-> **a. distorsiune ireversibilă**
+> **a. Fade Out**
 > 
-> De aceea se lasă o rezervă de nivel.
+> Fade Out atenuează treptat volumul sonor la finalul melodiei.
 
-### 16. Normalizarea volumului:
+### 16. O înregistrare audio de tip „Stereo” se distinge de una „Mono” prin faptul că:
 
-- a. aduce nivelul semnalului la o valoare de referință
-- b. elimină zgomotul
-- c. taie frecvențele înalte
-- d. comprimă fișierul
+- a. conține două canale de sunet independente (stânga și dreapta)
+- b. conține doar zgomot alb
+- c. nu se poate asculta la căști
+- d. are o singură pistă mută
 
 > [!success]- Răspuns
-> **a. aduce nivelul semnalului la o valoare de referință**
+> **a. conține două canale de sunet independente (stânga și dreapta)**
 > 
-> Ea uniformizează volumul între înregistrări diferite.
+> Stereo oferă spațialitate prin separarea canalelor stâng și drept.
 
-### 17. Într-un fișier video, MP4 este:
+### 17. Rata standard de cadre pe secundă utilizată în producțiile cinematografice clasice este de:
 
-- a. containerul
-- b. codecul
-- c. rezoluția
-- d. rata de biți
+- a. 24 FPS
+- b. 1 FPS
+- c. 500 FPS
+- d. 10.000 FPS
 
 > [!success]- Răspuns
-> **a. containerul**
+> **a. 24 FPS**
 > 
-> H.264 și H.265 sunt codecuri.
+> 24 de cadre pe secundă creează iluzia naturală de mișcare a cinematografului.
 
-### 18. Într-un material video, un sunet de proastă calitate:
+### 18. Rezoluția video 4K UHD are o lățime de:
 
-- a. afectează percepția mai mult decât o imagine mediocră
-- b. nu contează
-- c. se corectează automat
-- d. crește dimensiunea fișierului
+- a. 3840 pixeli
+- b. 640 pixeli
+- c. 100 pixeli
+- d. 1920 pixeli
 
 > [!success]- Răspuns
-> **a. afectează percepția mai mult decât o imagine mediocră**
+> **a. 3840 pixeli**
 > 
-> Spectatorii tolerează mai ușor imaginea slabă decât sunetul prost.
+> 4K oferă 3840 x 2160 pixeli, dublând rezoluția pe fiecare axă față de Full HD.
 
-### 19. Tranzițiile complicate între cadre:
+### 19. Pe axa cronologică (Timeline) dintr-un editor video se așază:
 
-- a. distrag atenția de la mesaj
-- b. cresc profesionalismul
-- c. reduc dimensiunea fișierului
-- d. sunt obligatorii
+- a. pistele video, pistele de sunet și titlurile în ordinea derulării lor
+- b. doar fișiere de text Word
+- c. adresele IP ale utilizatorilor
+- d. meniurile de BIOS
 
 > [!success]- Răspuns
-> **a. distrag atenția de la mesaj**
+> **a. pistele video, pistele de sunet și titlurile în ordinea derulării lor**
 > 
-> Tăietura simplă este, de regulă, cea mai bună alegere.
+> Timeline-ul permite tăierea, potrivirea și sincronizarea precisă a imaginilor cu muzica.
 
-### 20. Rata de biți influențează:
+### 20. Formatul cel mai popular și universal compatibil pentru videoclipuri pe web este containerul:
 
-- a. calitatea imaginii și dimensiunea fișierului
-- b. numărul de cadre pe secundă
-- c. durata materialului
-- d. formatul containerului
+- a. .mp4 (cu codec H.264)
+- b. .txt
+- c. .wav
+- d. .psd
 
 > [!success]- Răspuns
-> **a. calitatea imaginii și dimensiunea fișierului**
+> **a. .mp4 (cu codec H.264)**
 > 
-> O rată prea mică produce artefacte vizibile.
+> MP4 este redat nativ pe toate telefoanele, calculatoarele și televizoarele inteligente.
 
-### 21. Spațiul liber dintr-o compoziție este:
+### 21. Categoria de fonturi caracterizată prin linii drepte, fără tălpice la capete, ideală pentru ecrane este:
 
-- a. un element activ de structurare
-- b. spațiu pierdut
-- c. semn de conținut insuficient
-- d. de evitat
+- a. Sans-Serif
+- b. Serif
+- c. Gotice decorative
+- d. Cursiv de mână ilizibil
 
 > [!success]- Răspuns
-> **a. un element activ de structurare**
+> **a. Sans-Serif**
 > 
-> El face conținutul lizibil și ordonat.
+> Sans-Serif (precum Arial, Calibri sau Roboto) este optimizat pentru monitoare.
 
-### 22. Folosirea a cinci familii de litere într-un afiș:
+### 22. Spațiul lăsat liber cu intenție între paragrafe, imagini și borduri se numește în design:
 
-- a. produce dezordine vizuală
-- b. arată creativitate
-- c. îmbunătățește lizibilitatea
-- d. este recomandată
+- a. Spațiu alb (White Space / Spațiu negativ)
+- b. Spațiu pierdut
+- c. Eroare de tipar
+- d. Zonă interzisă
 
 > [!success]- Răspuns
-> **a. produce dezordine vizuală**
+> **a. Spațiu alb (White Space / Spațiu negativ)**
 > 
-> Regula practică este maximum două.
+> Spațiul alb separă grupurile de informații și ghidează lectura.
 
-### 23. Ierarhia vizuală se obține prin:
+### 23. Două culori aflate pe poziții opuse pe cercul cromatic (precum albastru și portocaliu) sunt:
 
-- a. dimensiune, contrast și poziție
-- b. numărul de culori
-- c. cantitatea de text
-- d. tipul de fișier
+- a. complementare
+- b. identice
+- c. monocrome
+- d. invizibile
 
 > [!success]- Răspuns
-> **a. dimensiune, contrast și poziție**
+> **a. complementare**
 > 
-> Elementul important trebuie să fie cel mai vizibil.
+> Culorile complementare oferă cel mai puternic contrast vizual.
 
-### 24. Contrastul insuficient dintre text și fundal:
+### 24. Dispunerea elementelor vizuale astfel încât titlul să fie remarcat primul, urmat de subtitlu și detalii definește:
 
-- a. face textul inaccesibil pentru mulți utilizatori
-- b. este o alegere estetică neutră
-- c. crește eleganța
-- d. nu are efecte
+- a. Ierarhia vizuală
+- b. Redundanța
+- c. Indexarea
+- d. Criptarea
 
 > [!success]- Răspuns
-> **a. face textul inaccesibil pentru mulți utilizatori**
+> **a. Ierarhia vizuală**
 > 
-> Există praguri minime recomandate.
+> Ierarhia vizuală organizează fluxul natural de lectură.
 
-### 25. Împărțirea muncii pe sarcini mici, cu responsabil și termen:
+### 25. Graficul vizual cu bare care arată calendarul de desfășurare a fiecărei activități dintr-un proiect se numește:
 
-- a. face progresul verificabil
-- b. complică proiectul
-- c. încetinește echipa
-- d. este necesară doar la proiecte mari
+- a. Diagrama Gantt
+- b. Piramida vârstelor
+- c. Schemă de culori
+- d. Tablă de șah
 
 > [!success]- Răspuns
-> **a. face progresul verificabil**
+> **a. Diagrama Gantt**
 > 
-> Fără ea, întârzierile se descoperă prea târziu.
+> Diagrama Gantt este standardul mondial de management al timpului în proiecte.
 
-### 26. Livrarea în etape reduce riscul deoarece:
+### 26. Un obiectiv SMART trebuie să fie în mod obligatoriu:
 
-- a. permite testarea și corectarea din mers
-- b. scurtează proiectul
-- c. elimină cerințele
-- d. reduce costurile de personal
+- a. delimitat clar în timp (având un termen limită precis)
+- b. secret pentru toți membrii echipei
+- c. imposibil de atins
+- d. scris fără cuvinte
 
 > [!success]- Răspuns
-> **a. permite testarea și corectarea din mers**
+> **a. delimitat clar în timp (având un termen limită precis)**
 > 
-> Un produs testat devreme evită erorile costisitoare.
+> Litera T din SMART impune un termen limită strict pentru finalizare.
 
-### 27. Dependența de o singură persoană într-un proiect este:
+### 27. În cadrul etapei de inițiere a unui proiect digital se stabilește:
 
-- a. un risc major
-- b. o garanție de calitate
-- c. un avantaj de coordonare
-- d. irelevantă
+- a. scopul general, publicul țintă și cerințele fundamentale
+- b. tipărirea pe hârtie a diplomei de final
+- c. vânzarea calculatoarelor
+- d. dezinstalarea sistemului de operare
 
 > [!success]- Răspuns
-> **a. un risc major**
+> **a. scopul general, publicul țintă și cerințele fundamentale**
 > 
-> Indisponibilitatea ei blochează întregul proiect.
+> Inițierea trasează direcția strategică a întregului efort al echipei.
 
-### 28. Sistemul de versionare este util pentru că:
+### 28. Descompunerea ierarhică a unui proiect în module de lucru concrete se numește:
 
-- a. păstrează istoricul și permite revenirea la variante anterioare
-- b. comprimă fișierele
-- c. publică automat proiectul
-- d. generează documentația
+- a. WBS (Work Breakdown Structure)
+- b. Formatare condiționată
+- c. Sortare alfabetică
+- d. Căutare binară
 
 > [!success]- Răspuns
-> **a. păstrează istoricul și permite revenirea la variante anterioare**
+> **a. WBS (Work Breakdown Structure)**
 > 
-> El face posibil lucrul simultan al mai multor persoane.
+> WBS transformă un proiect uriaș într-o listă clară de pachete de lucru atribuite colegilor.
 
-### 29. În testarea cu utilizatori se urmărește:
+### 29. Verificarea funcționării corecte a unui site web pe Google Chrome, Mozilla Firefox și Safari se numește:
 
-- a. ce fac efectiv utilizatorii
-- b. ce declară că le place
-- c. opinia echipei
-- d. numărul de sugestii
+- a. testare cross-browser
+- b. formatare de disc
+- c. testare de tastatură
+- d. montaj video
 
 > [!success]- Răspuns
-> **a. ce fac efectiv utilizatorii**
+> **a. testare cross-browser**
 > 
-> Comportamentul observat e mai fiabil decât declarațiile.
+> Fiecare browser are propriul motor intern de randare ce trebuie validat.
 
-### 30. Implementarea tuturor sugestiilor primite:
+### 30. Ciclul scurt de lucru de 2 săptămâni specific metodologiilor Agile poartă denumirea de:
 
-- a. duce la pierderea coerenței produsului
-- b. garantează succesul
-- c. este obligatorie
-- d. reduce timpul de dezvoltare
+- a. Sprint
+- b. Decupare
+- c. Rezoluție
+- d. Bucle infinite
 
 > [!success]- Răspuns
-> **a. duce la pierderea coerenței produsului**
+> **a. Sprint**
 > 
-> Prioritizarea este parte din decizia de produs.
+> Sprintul menține ritmul de livrare continuă și adaptabilitate în echipă.
 
-### 31. Testarea funcțională verifică:
+### 31. O eroare din codul unui program care împiedică trimiterea unui formular pe site este numită:
 
-- a. dacă produsul îndeplinește cerințele stabilite
-- b. dacă utilizatorii îl înțeleg
-- c. dacă aspectul este plăcut
-- d. dacă se încarcă rapid
+- a. bug (eroare software)
+- b. caracter special
+- c. rezoluție
+- d. font Sans-Serif
 
 > [!success]- Răspuns
-> **a. dacă produsul îndeplinește cerințele stabilite**
+> **a. bug (eroare software)**
 > 
-> Utilizabilitatea este o dimensiune distinctă.
+> Identificarea și eliminarea bug-urilor se numește „debugging”.
 
-### 32. Explicarea interfeței în timpul testului cu utilizatori:
+### 32. Proiectarea unei pagini web care își rearanjează automat coloanele când este privită pe ecranul îngust al telefonului se bazează pe:
 
-- a. invalidează rezultatul testului
-- b. îmbunătățește feedbackul
-- c. este necesară
-- d. economisește timp
+- a. Responsive Web Design (Design receptiv)
+- b. Scanare optică
+- c. Conexiune Bluetooth
+- d. Tipărire offset
 
 > [!success]- Răspuns
-> **a. invalidează rezultatul testului**
+> **a. Responsive Web Design (Design receptiv)**
 > 
-> Utilizatorul real nu are pe cine întreba.
+> Designul receptiv optimizează experiența mobilă fără a crea un site separat.
 
-### 33. O documentație bună este:
+### 33. Fișierul text standard plasat în rădăcina unui proiect pentru a documenta instalarea și utilizarea se numește:
 
-- a. scurtă și exactă
-- b. lungă și detaliată la maximum
-- c. opțională
-- d. scrisă doar pentru autor
+- a. README.md
+- b. VIRUS.exe
+- c. LOG.tmp
+- d. PASSWORDS.doc
 
 > [!success]- Răspuns
-> **a. scurtă și exactă**
+> **a. README.md**
 > 
-> Ea trebuie să permită altcuiva să folosească produsul.
+> README.md este standardul recunoscut internațional pe platformele de cod (GitHub, GitLab).
 
-### 34. Într-o prezentare de proiect, demonstrația:
+### 34. O caracteristică obligatorie a unui manual de utilizare bine conceput este:
 
-- a. este mai convingătoare decât descrierea
-- b. poate fi omisă
-- c. înlocuiește rezultatele
-- d. se face la final, dacă rămâne timp
+- a. claritatea limbajului, capturile de ecran sugestive și lipsa termenilor excesiv de tehnici
+- b. scrierea codului binar în clar pe 500 de pagini
+- c. ascunderea tuturor butoanelor din aplicație
+- d. lipsa oricăror imagini
 
 > [!success]- Răspuns
-> **a. este mai convingătoare decât descrierea**
+> **a. claritatea limbajului, capturile de ecran sugestive și lipsa termenilor excesiv de tehnici**
 > 
-> „Arată, nu descrie” este regula practică.
+> Manualul trebuie să ghideze omul obișnuit fără efort în rezolvarea sarcinilor din program.
 
-### 35. Menționarea a ceea ce nu a funcționat:
+### 35. Inserarea de comentarii în codul HTML sau CSS este utilă pentru:
 
-- a. întărește credibilitatea prezentării
-- b. o slăbește
-- c. trebuie evitată
-- d. se face doar la cerere
+- a. explicarea structurii pentru colegii de echipă și organizarea logică a fișierului
+- b. mărirea vitezei de încărcare a internetului
+- c. blocarea atacurilor cibernetice
+- d. descărcarea automată de muzică
 
 > [!success]- Răspuns
-> **a. întărește credibilitatea prezentării**
+> **a. explicarea structurii pentru colegii de echipă și organizarea logică a fișierului**
 > 
-> Ea arată capacitatea de evaluare critică.
+> Comentariile documentează rațiunea tehnică a soluțiilor adoptate.
 
-### 36. Structura fișierelor este inclusă în documentație pentru că:
+### 36. În cadrul unei demonstrații live (Live Demo), cea mai gravă eroare de organizare este:
 
-- a. permite altcuiva să continue proiectul
-- b. reduce dimensiunea produsului
-- c. crește viteza
-- d. este cerută de lege
+- a. bazarea exclusivă pe conexiunea la internet fără niciun plan de rezervă offline
+- b. testarea prealabilă a proiectorului
+- c. pregătirea datelor de test
+- d. prezentarea zâmbitoare și sigură
 
 > [!success]- Răspuns
-> **a. permite altcuiva să continue proiectul**
+> **a. bazarea exclusivă pe conexiunea la internet fără niciun plan de rezervă offline**
 > 
-> Continuitatea depinde de claritatea organizării.
+> Problemele de rețea neprevăzute pot compromite prezentarea dacă nu există un backup local.
 
-### 37. HTML descrie, în principal:
+### 37. Zona din documentul HTML care conține informații despre pagină, stiluri și titlul filei browserului este:
 
-- a. structura conținutului
-- b. aspectul vizual
-- c. baza de date
-- d. viteza rețelei
+- a. `<head>`
+- b. `<body>`
+- c. `<footer>`
+- d. `<nav>`
 
 > [!success]- Răspuns
-> **a. structura conținutului**
+> **a. `<head>`**
 > 
-> Aspectul îl dă CSS-ul.
+> În `<head>` stau metadatele, în timp ce în `<body>` stă conținutul vizual.
 
-### 38. Conținutul vizibil al paginii se pune în:
+### 38. Tagul HTML dedicat celui mai important titlu dintr-o pagină web este:
 
-- a. body
-- b. head
-- c. title
-- d. meta
+- a. `<h1>`
+- b. `<h6>`
+- c. `<header>`
+- d. `<title>`
 
 > [!success]- Răspuns
-> **a. body**
+> **a. `<h1>`**
 > 
-> head conține metadatele.
+> `<h1>` este titlul de rang maxim pe pagină.
 
-### 39. Eticheta pentru un titlu principal este:
+### 39. Pentru a scrie un text îngroșat cu valoare semantică de importanță, se folosește eticheta:
 
-- a. h1
-- b. p
-- c. a
-- d. li
+- a. `<strong>`
+- b. `<italic>`
+- c. `<u>`
+- d. `<font size="large">`
 
 > [!success]- Răspuns
-> **a. h1**
+> **a. `<strong>`**
 > 
-> h1–h6 sunt niveluri de titlu.
+> `<strong>` marchează textul cu importanță ridicată și îl afișează îngroșat (Bold).
 
-### 40. Un element HTML este delimitat de:
+### 40. Atributul din tagul `<meta>` care garantează afișarea literelor ă, î, ș, ț este:
 
-- a. o etichetă de deschidere și una de închidere
-- b. ghilimele
-- c. paranteze rotunde
-- d. două puncte
+- a. charset="UTF-8"
+- b. language="Romanian"
+- c. font="Arial"
+- d. mode="diacritics"
 
 > [!success]- Răspuns
-> **a. o etichetă de deschidere și una de închidere**
+> **a. charset="UTF-8"**
 > 
-> De exemplu <p>…</p>.
+> Codificarea UTF-8 acoperă întreg setul de caractere universale.
 
-### 41. O regulă CSS conține:
+### 41. Selectorul CSS care aplică stilul elementului unic ce are atributul `id="sigla"` este:
 
-- a. un selector și declarații
-- b. doar text simplu
-- c. o adresă IP
-- d. o etichetă HTML
+- a. #sigla
+- b. .sigla
+- c. $sigla
+- d. sigla()
 
 > [!success]- Răspuns
-> **a. un selector și declarații**
+> **a. #sigla**
 > 
-> De exemplu p { color: red; }.
+> Simbolul diez (#) indică întotdeauna un identificator unic (ID).
 
-### 42. Selectorul de clasă se scrie cu:
+### 42. Proprietatea CSS utilizată pentru a schimba culoarea textului dintr-un paragraf este:
 
-- a. punct (.nume)
-- b. diez (#nume)
-- c. fără niciun simbol
-- d. două puncte
+- a. color
+- b. background-color
+- c. text-color
+- d. font-style
 
 > [!success]- Răspuns
-> **a. punct (.nume)**
+> **a. color**
 > 
-> Diezul (#) indică un id.
+> Proprietatea `color` dictează nuanța literelor, iar `background-color` nuanța fundalului.
 
-### 43. Modul recomandat de a aplica stiluri este:
+### 43. În cadrul CSS Box Model, stratul transparent situat între chenar (border) și elementele vecine este:
 
-- a. fișierul CSS extern
-- b. stilul în linie peste tot
-- c. lipsa oricărui stil
-- d. comentariile
+- a. Margin (Marginea exterioară)
+- b. Padding (Căptușeala)
+- c. Content (Conținutul)
+- d. Title (Titlul)
 
 > [!success]- Răspuns
-> **a. fișierul CSS extern**
+> **a. Margin (Marginea exterioară)**
 > 
-> El separă conținutul de prezentare.
+> Marginea exterioară (Margin) împinge elementele din jur pentru a crea spațiu liber.
 
-### 44. CSS controlează, de pildă:
+### 44. În fișierul CSS, o clasă numită `rezumat` se definește corect prin:
 
-- a. culoarea și fontul
-- b. structura logică a datelor
-- c. protocolul de rețea
-- d. adresa serverului
+- a. `.rezumat { font-size: 14px; }`
+- b. `rezumat { font-size: 14px; }`
+- c. `#rezumat { font-size: 14px; }`
+- d. `<rezumat> { font-size: 14px; }`
 
 > [!success]- Răspuns
-> **a. culoarea și fontul**
+> **a. `.rezumat { font-size: 14px; }`**
 > 
-> Structura o dă HTML.
+> Punctul din fața numelui marchează o clasă reutilizabilă în CSS.
 
-### 45. Legătura se creează cu eticheta:
+### 45. Codul HTML corect pentru o legătură către pagina Ministerului Educației este:
 
-- a. a
-- b. img
-- c. table
-- d. p
+- a. `<a href="https://www.edu.ro">Ministerul Educației</a>`
+- b. `<link src="https://www.edu.ro">Ministerul Educației</link>`
+- c. `<url to="https://www.edu.ro">Ministerul Educației</url>`
+- d. `<a>https://www.edu.ro</a>`
 
 > [!success]- Răspuns
-> **a. a**
+> **a. `<a href="https://www.edu.ro">Ministerul Educației</a>`**
 > 
-> Atributul href dă destinația.
+> Sintaxa standard asociază tagul `<a>` cu atributul `href`.
 
-### 46. Atributul alt al unei imagini oferă:
+### 46. Atributul utilizat pentru a indica fișierul grafic ce trebuie încărcat în tagul `<img>` este:
 
-- a. un text alternativ pentru accesibilitate
-- b. adresa serverului
-- c. dimensiunea fișierului
-- d. culoarea de fundal
+- a. src
+- b. href
+- c. link
+- d. url
 
 > [!success]- Răspuns
-> **a. un text alternativ pentru accesibilitate**
+> **a. src**
 > 
-> Util și când imaginea nu se încarcă.
+> Atributul `src` (source) indică adresa fișierului de imagine.
 
-### 47. Un rând de tabel se marchează cu:
+### 47. În cadrul unui tabel HTML, o celulă obișnuită de date se definește prin tagul:
 
-- a. tr
-- b. td
-- c. table
-- d. th
+- a. `<td>`
+- b. `<tr>`
+- c. `<th>`
+- d. `<tc>`
 
 > [!success]- Răspuns
-> **a. tr**
+> **a. `<td>`**
 > 
-> td și th sunt celulele din rând.
+> `<td>` (Table Data) reprezintă celula standard a tabelului.
 
-### 48. Tabelele HTML ar trebui folosite pentru:
+### 48. Pentru ca o celulă dintr-un tabel să se întindă pe orizontală peste 3 coloane unite, se folosește atributul:
 
-- a. date tabelare
-- b. așezarea întregii pagini
-- c. inserarea sunetului
-- d. crearea legăturilor
+- a. colspan="3"
+- b. rowspan="3"
+- c. width="3"
+- d. expand="3"
 
 > [!success]- Răspuns
-> **a. date tabelare**
+> **a. colspan="3"**
 > 
-> Așezarea se face cu CSS.
+> `colspan` fuzionează coloanele, în timp ce `rowspan` fuzionează liniile verticale.
 
-### 49. Imaginea raster este formată din:
+### 49. Metoda de editare foto care nu distruge niciodată pixelii originali se numește:
 
-- a. pixeli
-- b. formule geometrice
-- c. vectori
-- d. caractere
+- a. editare nedistructivă (prin măști și straturi de ajustare)
+- b. ștergere permanentă
+- c. salvare cu pierdere totală
+- d. formatare rapidă
 
 > [!success]- Răspuns
-> **a. pixeli**
+> **a. editare nedistructivă (prin măști și straturi de ajustare)**
 > 
-> Calitatea depinde de rezoluție.
+> Editarea nedistructivă permite modificări nelimitate fără degradarea fișierului sursă.
 
-### 50. Se mărește fără pierdere de calitate:
+### 50. Formatul de imagine care permite redarea graficii vectoriale folosind text și taguri XML este:
 
-- a. imaginea vectorială
-- b. imaginea raster
-- c. fotografia JPEG
-- d. fișierul GIF
+- a. .svg
+- b. .jpg
+- c. .bmp
+- d. .mp3
 
 > [!success]- Răspuns
-> **a. imaginea vectorială**
+> **a. .svg**
 > 
-> Ea e descrisă prin formule.
+> SVG este integrat direct în codul HTML și se stilizează chiar prin CSS.
 
-### 51. Formatul potrivit pentru fotografii este:
+### 51. Pentru a afișa o siglă circulară pe un fundal colorat fără colțuri albe inestetice, salvezi imaginea cu:
 
-- a. JPEG
-- b. SVG
-- c. TXT
-- d. MP3
+- a. fundal transparent în format PNG sau SVG
+- b. fundal negru în format BMP
+- c. format text TXT
+- d. format audio WAV
 
 > [!success]- Răspuns
-> **a. JPEG**
+> **a. fundal transparent în format PNG sau SVG**
 > 
-> JPEG folosește compresie cu pierdere.
+> Transparența din PNG și SVG lasă fundalul paginii să se vadă natural în spate.
 
-### 52. Compresia „cu pierdere”:
+### 52. Dimensiunea rezonabilă recomandată pentru o imagine optimizată de tip banner pe o pagină web este de:
 
-- a. aruncă o parte din informație pentru a micșora fișierul
-- b. păstrează toată informația
-- c. mărește fișierul
-- d. criptează imaginea
+- a. 100 – 300 Kilobytes (KB)
+- b. 50 Gigabytes (GB)
+- c. 1 Terabyte (TB)
+- d. 1 singur bit
 
 > [!success]- Răspuns
-> **a. aruncă o parte din informație pentru a micșora fișierul**
+> **a. 100 – 300 Kilobytes (KB)**
 > 
-> JPEG e un exemplu.
+> Dimensiunea sub câteva sute de KB asigură descărcarea în mai puțin de o secundă pe conexiuni mobile.
 
-### 53. Sunetul digital se obține prin:
+### 53. Codul corect pentru a reda un fișier audio cu butoane vizibile de control în HTML5 este:
 
-- a. eșantionare și cuantizare
-- b. vectorizare
-- c. compilare
-- d. criptare
+- a. `<audio src="sunet.mp3" controls></audio>`
+- b. `<sound play="sunet.mp3">`
+- c. `<music src="sunet.mp3"></music>`
+- d. `<mp3 link="sunet.mp3">`
 
 > [!success]- Răspuns
-> **a. eșantionare și cuantizare**
+> **a. `<audio src="sunet.mp3" controls></audio>`**
 > 
-> Frecvența tipică: 44,1 kHz.
+> Tagul `<audio>` cu atributul `controls` este sintaxa oficială HTML5.
 
-### 54. Un format audio comprimat, larg folosit, este:
+### 54. Imaginea statică afișată pe ecran înainte de a porni un clip video se definește prin atributul:
 
-- a. MP3
-- b. WAV
-- c. SVG
-- d. HTML
+- a. poster="imagine.jpg"
+- b. cover="imagine.jpg"
+- c. photo="imagine.jpg"
+- d. start="imagine.jpg"
 
 > [!success]- Răspuns
-> **a. MP3**
+> **a. poster="imagine.jpg"**
 > 
-> WAV este necomprimat.
+> Atributul `poster` definește coperta de pornire a playerului video.
 
-### 55. Videoul este, în esență:
+### 55. Pentru a face ca un clip video să ruleze continuu într-o buclă infinită, se adaugă atributul:
 
-- a. o succesiune de cadre afișate rapid
-- b. o singură imagine
-- c. un fișier text
-- d. o bază de date
+- a. loop
+- b. repeat_always
+- c. circle
+- d. forever
 
 > [!success]- Răspuns
-> **a. o succesiune de cadre afișate rapid**
+> **a. loop**
 > 
-> Rata de cadre se măsoară în fps.
+> Atributul boolean `loop` determină reluarea automată a redării de la capăt.
 
-### 56. Un container video obișnuit este:
+### 56. Dacă un browser foarte vechi nu recunoaște tagul `<video>`, el va afișa:
 
-- a. MP4
-- b. MP3
-- c. JPEG
-- d. CSS
+- a. textul de rezervă scris între tagul de deschidere și cel de închidere
+- b. o eroare care oprește calculatorul
+- c. un ecran complet albastru
+- d. o melodie la întâmplare
 
 > [!success]- Răspuns
-> **a. MP4**
+> **a. textul de rezervă scris între tagul de deschidere și cel de închidere**
 > 
-> MP3 este audio, JPEG este imagine.
+> Textul dintre `<video>` și `</video>` este fallback-ul dedicat browserelor fără suport HTML5.
 
-### 57. Prima etapă a unui proiect este, de regulă:
+### 57. Sistemul distribuit de control al versiunilor utilizat pe scară largă de echipele de programatori este:
 
-- a. analiza cerințelor
-- b. publicarea
-- c. întreținerea
-- d. testarea
+- a. Git
+- b. Microsoft Paint
+- c. Notepad
+- d. Calculator
 
 > [!success]- Răspuns
-> **a. analiza cerințelor**
+> **a. Git**
 > 
-> Ea stabilește scopul și cerințele.
+> Git este standardul absolut de versionare a codului în industria software mondială.
 
-### 58. Un wireframe este:
+### 58. Membrul echipei a cărui responsabilitate principală este găsirea erorilor din aplicație se numește:
 
-- a. o schiță a structurii, înainte de realizare
-- b. codul final
-- c. o bază de date
-- d. un format de imagine
+- a. Tester (Quality Assurance - QA)
+- b. Designer UI
+- c. Director de vânzări
+- d. Contabil șef
 
 > [!success]- Răspuns
-> **a. o schiță a structurii, înainte de realizare**
+> **a. Tester (Quality Assurance - QA)**
 > 
-> Ajută la planificarea așezării.
+> Testerul simulează scenarii variate pentru a descoperi bug-uri înainte de lansare.
 
-### 59. Testarea unui proiect servește la:
+### 59. Pe platforma GitHub, ramura principală stabilă a unui proiect poartă de regulă denumirea de:
 
-- a. verificarea funcționării și corectarea erorilor
-- b. stabilirea scopului
-- c. scrierea documentației legale
-- d. alegerea culorilor
+- a. main (sau master)
+- b. draft
+- c. junk
+- d. temporary
 
 > [!success]- Răspuns
-> **a. verificarea funcționării și corectarea erorilor**
+> **a. main (sau master)**
 > 
-> Vine înainte de publicare.
+> `main` găzduiește versiunea stabilă și verificată a proiectului.
 
-### 60. Munca în echipă la un proiect cere:
+### 60. Salvarea unui pas de lucru în Git însoțită de un mesaj descriptiv (ex: git commit -m "...") reprezintă:
 
-- a. sarcini, termene și comunicare
-- b. un singur om care face tot
-- c. absența planificării
-- d. lipsa documentației
+- a. un commit
+- b. o descărcare ilegală
+- c. o formatare de disc
+- d. o eroare de sintaxă
 
 > [!success]- Răspuns
-> **a. sarcini, termene și comunicare**
+> **a. un commit**
 > 
-> Ea reduce riscul de eșec.
+> Commit-ul este o cărămidă permanentă în istoricul evoluției codului sursă.
 
-### 61. Phishingul este:
+### 61. Păstrarea parolelor utilizatorilor într-o bază de date se realizează corect prin:
 
-- a. o înșelătorie care cere date prin mesaje false
-- b. un tip de imagine
-- c. un protocol de rețea
-- d. un program antivirus
+- a. generarea unui hash criptografic securizat (hashing)
+- b. scrierea lor în clar într-un fișier text deschis
+- c. trimiterea lor pe e-mail tuturor colegilor
+- d. afișarea lor pe prima pagină a site-ului
 
 > [!success]- Răspuns
-> **a. o înșelătorie care cere date prin mesaje false**
+> **a. generarea unui hash criptografic securizat (hashing)**
 > 
-> Imită surse de încredere.
+> Hash-ul este ireversibil; chiar dacă baza de date este furată, hackerii nu pot citi parola originală direct.
 
-### 62. O măsură bună de securitate este:
+### 62. Atacul prin care un infractor introduce textul `' OR '1'='1` în căsuța de conectare pentru a sparge sistemul este:
 
-- a. parole puternice și autentificare în doi pași
-- b. aceeași parolă peste tot
-- c. deschiderea oricărui atașament
-- d. dezactivarea antivirusului
+- a. o injecție SQL (SQL Injection)
+- b. o arhivare de fișiere
+- c. o optimizare de imagine
+- d. o comutare de font
 
 > [!success]- Răspuns
-> **a. parole puternice și autentificare în doi pași**
+> **a. o injecție SQL (SQL Injection)**
 > 
-> Prudența reduce riscul.
+> Criteriul `'1'='1` este întotdeauna adevărat și forțează autentificarea neautorizată fără parolă corectă.
 
-### 63. Amprenta digitală se referă la:
+### 63. Pentru a preveni atacurile de tip Cross-Site Scripting (XSS), dezvoltatorii web trebuie să:
 
-- a. urmele lăsate de o persoană online
-- b. viteza internetului
-- c. mărimea unui fișier
-- d. adresa IP a serverului
+- a. igienizeze și să scape (escape) caracterele speciale din datele introduse de utilizatori
+- b. oprească serverul definitiv
+- c. dezinstaleze toate browserele
+- d. interzică folosirea limbii române
 
 > [!success]- Răspuns
-> **a. urmele lăsate de o persoană online**
+> **a. igienizeze și să scape (escape) caracterele speciale din datele introduse de utilizatori**
 > 
-> Poate influența reputația.
+> Conversia caracterelor periculoase (`<`, `>`) în entități HTML sigure blochează rularea codului străin.
 
-### 64. Respectarea dreptului de autor înseamnă:
+### 64. Fenomenul prin care algoritmii rețelelor sociale îți arată doar conținut care îți confirmă prejudecățile se numește:
 
-- a. a nu copia și distribui fără permisiune
-- b. a descărca orice, gratuit
-- c. a ignora sursele
-- d. a publica orice imagine
+- a. bulă informațională (Echo Chamber)
+- b. decupare vectorială
+- c. lățime de bandă
+- d. adresă MAC
 
 > [!success]- Răspuns
-> **a. a nu copia și distribui fără permisiune**
+> **a. bulă informațională (Echo Chamber)**
 > 
-> Etica digitală îi protejează și pe ceilalți.
+> Bulele informaționale amplifică polarizarea și dezinformarea.
 
-### 65. HTML descrie, în principal:
+### 65. În modelul arhitectural World Wide Web, aplicația software care solicită și afișează paginile este:
 
-- a. structura conținutului
-- b. doar culorile
-- c. viteza rețelei
-- d. baza de date
+- a. Clientul (browserul web)
+- b. Baza de date exclusiv
+- c. Routerul de cartier
+- d. Placa de sunet
 
 > [!success]- Răspuns
-> **a. structura conținutului**
+> **a. Clientul (browserul web)**
 > 
-> Aspectul îl dă CSS-ul.
+> Browserul este clientul din arhitectura web.
 
-### 66. Selectorul de clasă în CSS se scrie cu:
+### 66. Separarea responsabilităților în dezvoltarea web modernă atribuie aspectul și culorile limbajului:
 
-- a. punct (.nume)
-- b. diez (#nume)
-- c. fără simbol
-- d. două puncte
+- a. CSS
+- b. HTML
+- c. SQL
+- d. BIOS
 
 > [!success]- Răspuns
-> **a. punct (.nume)**
+> **a. CSS**
 > 
-> Diezul indică un id.
+> CSS controlează prezentarea grafică.
 
-### 67. Atributul alt al unei imagini oferă:
+### 67. Atributul HTML obligatoriu pentru descrierea accesibilă a unei imagini este:
 
-- a. un text alternativ, util la accesibilitate
-- b. dimensiunea fișierului
-- c. culoarea
-- d. adresa serverului
+- a. alt
+- b. src
+- c. link
+- d. width
 
 > [!success]- Răspuns
-> **a. un text alternativ, util la accesibilitate**
+> **a. alt**
 > 
-> Apare și când imaginea nu se încarcă.
+> Atributul alt descrie imaginea pentru nevăzători și screen readers.
 
-### 68. Se mărește fără pierdere de calitate:
+### 68. Rata de eșantionare standard pentru calitatea sunetului pe CD audio este:
 
-- a. imaginea vectorială
-- b. imaginea raster
-- c. fotografia JPEG
-- d. fișierul GIF
+- a. 44.1 kHz
+- b. 10 Hz
+- c. 500 MHz
+- d. 1000 GHz
 
 > [!success]- Răspuns
-> **a. imaginea vectorială**
+> **a. 44.1 kHz**
 > 
-> E descrisă prin formule geometrice.
+> 44.100 de eșantioane pe secundă acoperă spectrul audibil uman.
 
-### 69. Modul recomandat de a aplica stiluri este:
+### 69. Rezoluția video standard Full HD (1080p) are dimensiunile în pixeli:
 
-- a. fișierul CSS extern
-- b. stilul în linie peste tot
-- c. lipsa oricărui stil
-- d. comentariile
+- a. 1920 x 1080
+- b. 1280 x 720
+- c. 640 x 480
+- d. 3840 x 2160
 
 > [!success]- Răspuns
-> **a. fișierul CSS extern**
+> **a. 1920 x 1080**
 > 
-> Separă conținutul de prezentare.
+> 1920x1080 pixeli este standardul panoramic Full HD.
 
-### 70. Conținutul vizibil al unei pagini se pune în:
+### 70. Categoria de fonturi fără tălpice decorative, recomandată pe ecrane digitale pentru lizibilitate, este:
 
-- a. body
-- b. head
-- c. title
-- d. meta
+- a. Sans-Serif
+- b. Serif
+- c. Manuscris
+- d. Gotice
 
 > [!success]- Răspuns
-> **a. body**
+> **a. Sans-Serif**
 > 
-> head conține metadatele.
+> Fonturile Sans-Serif (Arial, Roboto) sunt ideale pe ecran.
 
-### 71. În modelul client–server, browserul este:
+### 71. Graficul utilizat în managementul proiectelor pentru a arăta calendarul sarcinilor în timp se numește:
 
-- a. clientul
-- b. serverul
-- c. protocolul
-- d. containerul
+- a. Diagrama Gantt
+- b. Grafic Pie
+- c. Romb decizional
+- d. Hartă termică
 
 > [!success]- Răspuns
-> **a. clientul**
+> **a. Diagrama Gantt**
 > 
-> Serverul furnizează resursa cerută.
+> Diagrama Gantt ilustrează durata activităților pe o axă a timpului.
 
-### 72. Sistemul DNS are rolul de a:
+### 72. Verificarea afișării corecte a unui site pe Google Chrome, Firefox și Edge se numește:
 
-- a. traduce numele de domenii în adrese IP
-- b. criptează traficul
-- c. găzduiește site-uri
-- d. comprimă imaginile
+- a. testare cross-browser
+- b. scanare optică
+- c. formatare condiționată
+- d. backup 3-2-1
 
 > [!success]- Răspuns
-> **a. traduce numele de domenii în adrese IP**
+> **a. testare cross-browser**
 > 
-> Fără el ar trebui memorate adrese numerice.
+> Validează compatibilitatea cu diversele motoare de randare.
 
-### 73. Un site dinamic:
+### 73. Fișierul text standard ce explică pașii de instalare și prezentare ai unui proiect software poartă numele:
 
-- a. generează paginile la cerere
-- b. livrează fișiere neschimbate
-- c. funcționează fără server
-- d. nu are baze de date
+- a. README.md
+- b. INDEX.exe
+- c. PASSWORDS.txt
+- d. STYLE.css
 
 > [!success]- Răspuns
-> **a. generează paginile la cerere**
+> **a. README.md**
 > 
-> Magazinele online sunt exemple tipice.
+> README.md este ghidul tehnic de bază.
 
-### 74. Prezentarea vizuală a unei pagini se stabilește prin:
+### 74. Tagul HTML dedicat celui mai înalt titlu ierarhic dintr-o pagină este:
 
-- a. foile de stil
-- b. limbajul de marcare
-- c. limbajul de scriptare
-- d. protocolul de transfer
+- a. `<h1>`
+- b. `<h6>`
+- c. `<p>`
+- d. `<div>`
 
 > [!success]- Răspuns
-> **a. foile de stil**
+> **a. `<h1>`**
 > 
-> HTML descrie structura.
+> `<h1>` definește titlul principal al paginii.
 
-### 75. Marcarea semantică înseamnă:
+### 75. În cadrul CSS Box Model, spațiul interior dintre textul propriu-zis și chenar se numește:
 
-- a. folosirea elementului potrivit rolului conținutului
-- b. reducerea numărului de etichete
-- c. evitarea foilor de stil
-- d. folosirea elementelor scurte
+- a. Padding
+- b. Margin
+- c. Border
+- d. Content
 
 > [!success]- Răspuns
-> **a. folosirea elementului potrivit rolului conținutului**
+> **a. Padding**
 > 
-> Ea ajută motoarele de căutare și cititoarele de ecran.
+> Padding este căptușeala interioară a cutiei elementului.
 
-### 76. Textul alternativ al imaginilor este necesar pentru:
+### 76. Selectorul CSS care se aplică unui element pe baza atributului său `id="antet"` începe cu:
 
-- a. accesibilitate
-- b. comprimarea imaginii
-- c. indexarea automată a fișierelor
-- d. protejarea drepturilor de autor
+- a. # (diez)
+- b. . (punct)
+- c. $ (dolar)
+- d. ! (semn de exclamare)
 
 > [!success]- Răspuns
-> **a. accesibilitate**
+> **a. # (diez)**
 > 
-> El este citit de cititoarele de ecran.
+> Simbolul diez (#) indică un ID unic în CSS.
 
-### 77. Certificatul de securitate permite:
+### 77. Tagul HTML utilizat pentru a crea o legătură hipertext este:
 
-- a. conexiunea criptată prin HTTPS
-- b. găzduirea gratuită
-- c. indexarea rapidă
-- d. accesul de pe mobil
+- a. `<a>`
+- b. `<link>`
+- c. `<href>`
+- d. `<goto>`
 
 > [!success]- Răspuns
-> **a. conexiunea criptată prin HTTPS**
+> **a. `<a>`**
 > 
-> Fără el, browserele avertizează utilizatorii.
+> Eticheta ancorei `<a>` creează hyperlinkul.
 
-### 78. Eșantionarea este:
+### 78. Atributul dintr-o celulă de tabel HTML utilizat pentru a uni două coloane pe orizontală este:
 
-- a. măsurarea semnalului la intervale regulate
-- b. comprimarea fișierului
-- c. eliminarea zgomotului
-- d. normalizarea volumului
+- a. colspan="2"
+- b. rowspan="2"
+- c. merge="2"
+- d. width="2"
 
 > [!success]- Răspuns
-> **a. măsurarea semnalului la intervale regulate**
+> **a. colspan="2"**
 > 
-> Împreună cu cuantizarea, produce sunetul digital.
+> Colspan unește coloanele pe orizontală.
 
-### 79. MP3 folosește:
+### 79. Formatul de imagine vectorială descris prin cod XML utilizat nativ pe web este:
 
-- a. comprimare cu pierdere
-- b. comprimare fără pierdere
-- c. format necomprimat
-- d. codare vectorială
+- a. .svg
+- b. .jpg
+- c. .bmp
+- d. .mp3
 
 > [!success]- Răspuns
-> **a. comprimare cu pierdere**
+> **a. .svg**
 > 
-> FLAC comprimă fără pierdere.
+> SVG este formatul vectorial standard pentru web.
 
-### 80. Suprasaturarea semnalului audio produce:
+### 80. Pentru a reda un fișier video nativ în HTML5 cu butoane vizibile de control, se folosește:
 
-- a. distorsiune ireversibilă
-- b. volum mai mare, curat
-- c. reducerea zgomotului
-- d. creșterea fidelității
+- a. `<video controls>`
+- b. `<movie play>`
+- c. `<media auto>`
+- d. `<film>`
 
 > [!success]- Răspuns
-> **a. distorsiune ireversibilă**
+> **a. `<video controls>`**
 > 
-> De aceea se lasă rezervă de nivel la înregistrare.
+> `<video controls>` este tagul nativ oficial HTML5.
 
-### 81. MP4 este:
+### 81. Imaginea statică de copertă afișată peste un videoclip HTML5 înainte de apăsarea Play se specifică prin:
 
-- a. un container
-- b. un codec
-- c. o rezoluție
-- d. o rată de biți
+- a. poster
+- b. cover
+- c. screen
+- d. image
 
 > [!success]- Răspuns
-> **a. un container**
+> **a. poster**
 > 
-> H.264 este un codec.
+> Atributul poster stabilește imaginea de previzualizare.
 
-### 82. Într-un material video, sunetul prost:
+### 82. Sistemul universal de control al versiunilor utilizat de echipele software se numește:
 
-- a. deranjează mai mult decât imaginea mediocră
-- b. nu contează
-- c. se corectează automat
-- d. crește dimensiunea fișierului
+- a. Git
+- b. Word
+- c. Excel
+- d. Access
 
 > [!success]- Răspuns
-> **a. deranjează mai mult decât imaginea mediocră**
+> **a. Git**
 > 
-> Spectatorii abandonează mai repede din cauza sunetului.
+> Git gestionează versiunile și colaborarea pe cod.
 
-### 83. Sunetul digital se obține prin:
+### 83. Salvarea corectă a parolelor într-o bază de date impune utilizarea:
 
-- a. eșantionare și cuantizare
-- b. vectorizare
-- c. compilare
-- d. criptare
+- a. unei funcții de hash criptografic cu salt
+- b. textului simplu necriptat
+- c. fișierelor PDF cu parolă
+- d. capturilor de ecran
 
 > [!success]- Răspuns
-> **a. eșantionare și cuantizare**
+> **a. unei funcții de hash criptografic cu salt**
 > 
-> Frecvența tipică e 44,1 kHz.
+> Hash-ul protejează parola împotriva furtului de date.
 
-### 84. Un format audio necomprimat este:
+### 84. Atacul cibernetic ce exploatează câmpurile unui formular web pentru a introduce comenzi neautorizate în baza de date se numește:
 
-- a. WAV
-- b. MP3
-- c. AAC
-- d. SVG
+- a. SQL Injection
+- b. Defragmentare
+- c. Paginare automată
+- d. Rețea LAN
 
 > [!success]- Răspuns
-> **a. WAV**
+> **a. SQL Injection**
 > 
-> MP3 și AAC sunt comprimate.
-
-### 85. Prima etapă a unui proiect digital este:
-
-- a. analiza cerințelor
-- b. publicarea
-- c. întreținerea
-- d. testarea
-
-> [!success]- Răspuns
-> **a. analiza cerințelor**
-> 
-> Ea stabilește scopul.
-
-### 86. Phishingul este:
-
-- a. o înșelătorie care cere date prin mesaje false
-- b. un format video
-- c. un tip de selector CSS
-- d. un antivirus
-
-> [!success]- Răspuns
-> **a. o înșelătorie care cere date prin mesaje false**
-> 
-> Imită surse de încredere.
-
-### 87. Videoul este, în esență:
-
-- a. o succesiune de cadre afișate rapid
-- b. o singură imagine
-- c. un fișier text
-- d. o pagină HTML
-
-> [!success]- Răspuns
-> **a. o succesiune de cadre afișate rapid**
-> 
-> Rata de cadre se măsoară în fps.
-
-### 88. O măsură bună de securitate online este:
-
-- a. autentificarea în doi pași
-- b. aceeași parolă peste tot
-- c. deschiderea oricărui link
-- d. dezactivarea antivirusului
-
-> [!success]- Răspuns
-> **a. autentificarea în doi pași**
-> 
-> Prudența protejează datele.
-
-### 89. Ierarhia vizuală se realizează prin:
-
-- a. dimensiune, contrast și poziție
-- b. numărul de culori
-- c. cantitatea de text
-- d. tipul de fișier
-
-> [!success]- Răspuns
-> **a. dimensiune, contrast și poziție**
-> 
-> Elementul important trebuie să fie cel mai vizibil.
-
-### 90. Spațiul liber într-o compoziție:
-
-- a. structurează și ușurează lectura
-- b. este spațiu pierdut
-- c. trebuie umplut
-- d. indică lipsa de conținut
-
-> [!success]- Răspuns
-> **a. structurează și ușurează lectura**
-> 
-> El este un element activ de design.
-
-### 91. Regula practică pentru familiile de litere într-un material este:
-
-- a. cel mult două
-- b. cel puțin cinci
-- c. una singură, obligatoriu
-- d. oricâte, pentru diversitate
-
-> [!success]- Răspuns
-> **a. cel mult două**
-> 
-> Prea multe produc dezordine vizuală.
-
-### 92. Un proiect digital începe cu:
-
-- a. definirea produsului, a publicului și a criteriului de succes
-- b. alegerea tehnologiei
-- c. stabilirea bugetului
-- d. crearea siglei
-
-> [!success]- Răspuns
-> **a. definirea produsului, a publicului și a criteriului de succes**
-> 
-> Fără criteriu de succes nu se poate evalua rezultatul.
-
-### 93. Versiunea minimă funcțională este:
-
-- a. cea mai simplă variantă care rezolvă deja problema
-- b. prototipul nefuncțional
-- c. versiunea finală
-- d. documentația
-
-> [!success]- Răspuns
-> **a. cea mai simplă variantă care rezolvă deja problema**
-> 
-> Ea permite testarea timpurie.
-
-### 94. Dependența de o singură persoană într-un proiect:
-
-- a. este un risc major
-- b. garantează coerența
-- c. ușurează coordonarea
-- d. nu contează
-
-> [!success]- Răspuns
-> **a. este un risc major**
-> 
-> Indisponibilitatea ei blochează proiectul.
-
-### 95. Sistemul de versionare:
-
-- a. păstrează istoricul și permite revenirea la variante anterioare
-- b. comprimă fișierele
-- c. publică proiectul
-- d. testează produsul
-
-> [!success]- Răspuns
-> **a. păstrează istoricul și permite revenirea la variante anterioare**
-> 
-> El face posibil lucrul simultan în echipă.
-
-### 96. În testarea cu utilizatori se urmărește:
-
-- a. ce fac efectiv
-- b. ce declară că le place
-- c. opinia echipei
-- d. numărul de sugestii primite
-
-> [!success]- Răspuns
-> **a. ce fac efectiv**
-> 
-> Comportamentul observat e mai fiabil.
-
-### 97. Numărul de utilizatori suficient pentru a descoperi majoritatea problemelor majore este, orientativ:
-
-- a. cinci
-- b. unu
-- c. cincizeci
-- d. o sută
-
-> [!success]- Răspuns
-> **a. cinci**
-> 
-> Observarea atentă contează mai mult decât numărul.
-
-### 98. Implementarea tuturor sugestiilor primite:
-
-- a. duce la pierderea coerenței produsului
-- b. garantează succesul
-- c. este obligatorie
-- d. reduce timpul de lucru
-
-> [!success]- Răspuns
-> **a. duce la pierderea coerenței produsului**
-> 
-> Prioritizarea face parte din decizia de produs.
-
-### 99. Documentația minimă trebuie să includă:
-
-- a. scopul, folosirea, structura și limitele cunoscute
-- b. doar codul sursă
-- c. doar capturile de ecran
-- d. doar lista autorilor
-
-> [!success]- Răspuns
-> **a. scopul, folosirea, structura și limitele cunoscute**
-> 
-> Ea permite altcuiva să continue proiectul.
-
-### 100. Într-o prezentare de proiect, menționarea limitelor:
-
-- a. întărește credibilitatea
-- b. o slăbește
-- c. trebuie evitată
-- d. este obligatorie prin regulament
-
-> [!success]- Răspuns
-> **a. întărește credibilitatea**
-> 
-> Ea arată capacitate de evaluare critică.
+> SQL Injection este una dintre cele mai critice vulnerabilități web.
 
 ---
 

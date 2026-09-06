@@ -3603,13 +3603,13 @@
   }
 
   function mateDidacticHTML(modId, lec) {
-    if (!modId.startsWith('mat') && !modId.startsWith('mass')) return '';
     const date = MATE_DIDACTIC && MATE_DIDACTIC[lec.id];
     if (!date) return '';
 
     const { video, tabla } = date;
     let videoHTML = '';
     if (video) {
+      const ytUrl = `https://www.youtube.com/watch?v=${encodeURIComponent(video.youtubeId)}`;
       videoHTML = `
         <div class="card-mate-video">
           <div class="video-card-header">
@@ -3621,12 +3621,17 @@
             </div>
           </div>
           <div class="video-player-container" id="video-container-${esc(lec.id)}">
-            <button class="btn btn-video-play" id="btn-play-video-${esc(lec.id)}" type="button">
-              ▶ Vizionează lecția video
-            </button>
+            <div style="display:flex; flex-wrap:wrap; gap:10px; align-items:center; justify-content:center; padding:16px;">
+              <button class="btn btn-video-play" id="btn-play-video-${esc(lec.id)}" type="button">
+                ▶ Vizionează lecția video
+              </button>
+              <a class="btn ghost btn-video-yt" href="${ytUrl}" target="_blank" rel="noopener noreferrer">
+                ↗ Deschide pe YouTube
+              </a>
+            </div>
           </div>
           <p class="muted small" style="margin:8px 0 0;">
-            ℹ️ Clipurile video se încarcă prin internet. Dacă ești offline, folosește <strong>Tabla Pas-cu-Pas</strong> de mai jos (100% disponibilă offline).
+            ℹ️ Clipurile video se încarcă prin conexiunea la internet (fără reclame). ${tabla && tabla.pasi && tabla.pasi.length ? 'Dacă ești offline, folosește <strong>Tabla Pas-cu-Pas</strong> de mai jos (100% disponibilă offline).' : 'Dacă ești offline, conținutul lecției și testele rămân 100% disponibile offline.'}
           </p>
         </div>`;
     }
@@ -3655,7 +3660,6 @@
   }
 
   function legaMateDidactic(modId, lec) {
-    if (!modId.startsWith('mat') && !modId.startsWith('mass')) return;
     const date = MATE_DIDACTIC && MATE_DIDACTIC[lec.id];
     if (!date) return;
 

@@ -10,18 +10,18 @@ clasa: "a XII-a"
 
 [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a XII-a]] · lecția 11 din 16
 
-**Capitolul:** Instrumente de birou — semestrul 1
+**Capitolul:** Instrumente de birou: cerințe avansate — semestrul 2
 
 ## Rezumat
 
-Programul de calcul tabelar (Excel, Calc, Google Sheets) organizează date în foi formate din celule, identificate prin coloană și rând (A1, B2). Puterea lui stă în formule, care încep cu semnul egal, de exemplu =A1+B1. Referințele pot fi relative (se schimbă la copiere: A1) sau absolute (rămân fixe: $A$1). Funcțiile efectuează calcule predefinite: SUM (sumă), AVERAGE (medie), MIN, MAX, COUNT (numărare), IF (condiție). Datele pot fi sortate, filtrate și reprezentate în grafice (coloane, linii, sectoare), pentru a fi înțelese vizual. Calculul tabelar e folosit pentru bugete, statistici, evidențe; o foaie bine făcută separă datele de calcule și folosește referințe corecte. Formatarea condiționată evidențiază valorile după reguli.
+Consolidarea abilităților de calcul tabelar în Microsoft Excel pentru rezolvarea scenariilor complexe: 1. Funcții avansate de căutare: • =VLOOKUP (Vertical Lookup): caută o valoare cheie în prima coloană a unui tabel și returnează valoarea corespondentă dintr-o coloană indicată: Sintaxa: `=VLOOKUP(valoare_căutată, tabel, număr_coloană_rezultat, FALSE)` Exemplu: căutarea automată a prețului unui produs pe baza codului său unic de bare; • =XLOOKUP: versiunea modernă și flexibilă ce permite căutarea bidirecțională fără restricția primei coloane. 2. Validarea datelor (Data Validation): Instrument din meniul Data ce previne introducerea de date eronate de la tastatură: • Restricționarea la numere întregi între 1 și 10 (pentru note școlare); • Crearea unei liste derulante (Dropdown List) prin opțiunea Allow: List, forțând utilizatorul să aleagă dintr-un set prestabilit de valori (ex: "Bucuresti, Iasi, Cluj, Timisoara"). 3. Protecția foii de calcul: Meniul Review -> Protect Sheet — blochează modificarea accidentală a celulelor ce conțin formule complexe, permițând tastarea doar în celulele de intrare deblocate în prealabil.
 
 ## Idei-cheie
 
-- Datele stau în celule (coloană + rând: A1).
-- Formulele încep cu „=”; referințe relative (A1) sau absolute ($A$1).
-- Funcții: SUM, AVERAGE, MIN, MAX, COUNT, IF.
-- Datele se pot sorta, filtra și reprezenta în grafice.
+- VLOOKUP caută o valoare în prima coloană a unei matrice și extrage datele asociate din rândul respectiv.
+- Validarea datelor (Data Validation) blochează introducerea de valori incorecte în celule.
+- Crearea unei liste derulante (Dropdown List) standardizează culegerea datelor pe foaie.
+- Protect Sheet securizează formulele matematice împotriva ștergerii sau modificării accidentale.
 
 ## Notițele mele
 

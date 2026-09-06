@@ -1186,5 +1186,1049 @@
         }
       ]
     }
+  },
+  "tic9-01": {
+    "video": {
+      "titlu": "Arhitectura calculatorului: Componente Hardware, CPU, RAM și Stocare",
+      "profesor": "IT didactic & Hardware Essentials",
+      "durata": "15 min",
+      "youtubeId": "ExxFxD4OSZ0",
+      "descriere": "Cum funcționează procesorul, placa de bază, memoria RAM și de ce un SSD este indispensabil unui sistem modern."
+    }
+  },
+  "tic9-02": {
+    "video": {
+      "titlu": "Sistemul de operare Windows: File Explorer, extensii și scurtături esențiale",
+      "profesor": "Ghidul Digital",
+      "durata": "12 min",
+      "youtubeId": "dQw4w9WgXcQ",
+      "descriere": "Organizarea arborescentă a folderelor, căutarea fișierelor, asocierea extensiilor și comenzi rapide de tastatură."
+    }
+  },
+  "tic9-03": {
+    "video": {
+      "titlu": "Cum funcționează internetul: Rețele LAN, adrese IP, DNS și protocoale web",
+      "profesor": "Academia de Rețele",
+      "durata": "14 min",
+      "youtubeId": "7_LPdttKXPc",
+      "descriere": "Traseul unui pachet de date de la calculator la server, diferența dintre HTTP și HTTPS și rolul routerelor."
+    }
+  },
+  "tic9-04": {
+    "video": {
+      "titlu": "Microsoft Word: Tehnoredactare, stiluri de titlu (Heading) și cuprins automat",
+      "profesor": "Office Pro",
+      "durata": "18 min",
+      "youtubeId": "zPqE6Tbhf70",
+      "descriere": "Formatarea paragrafelor la 1.5 linii, margini de pagină, aplicarea stilurilor Heading 1 și generarea cuprinsului dinamic."
+    }
+  },
+  "tic9-05": {
+    "video": {
+      "titlu": "PowerPoint: Crearea prezentărilor profesionale, Slide Master și animații sobre",
+      "profesor": "Design & Prezentări",
+      "durata": "16 min",
+      "youtubeId": "XF34-Wu6qWU",
+      "descriere": "Regula 6x6, alegerea contrastului cromatic, utilizarea coordonatorului de diapozitive și susținerea discursului."
+    }
+  },
+  "tic9-06": {
+    "video": {
+      "titlu": "Comunicare online și colaborare în Google Workspace / Microsoft 365",
+      "profesor": "Competențe Digitale",
+      "durata": "13 min",
+      "youtubeId": "W6NZfCO5SIk",
+      "descriere": "Redactarea corectă a unui e-mail profesional, câmpurile Cc/Bcc și partajarea colaborativă în cloud cu istoric de versiuni."
+    }
+  },
+  "tic9-07": {
+    "video": {
+      "titlu": "Securitate cibernetică: Parole sigure, 2FA și protecție împotriva ransomware",
+      "profesor": "CyberSecurity Romania",
+      "durata": "15 min",
+      "youtubeId": "inWWhr5tnEA",
+      "descriere": "Cum ne protejăm conturile împotriva furtului de identitate, configurarea autentificării în doi pași și evitarea troienilor."
+    }
+  },
+  "tic9-08": {
+    "video": {
+      "titlu": "Amprenta digitală, cookie-urile de navigare și drepturile GDPR",
+      "profesor": "Educație Media",
+      "durata": "11 min",
+      "youtubeId": "6mXz4mJ9_G8",
+      "descriere": "Ce date colectează site-urile despre noi, cum funcționează cookie-urile de urmărire și dreptul legal de a fi uitat."
+    }
+  },
+  "tic9-09": {
+    "video": {
+      "titlu": "Etică digitală, licențe Creative Commons, Open Source și Fact-Checking",
+      "profesor": "Etică & Tehnologie",
+      "durata": "12 min",
+      "youtubeId": "J1h7_7iJ_4c",
+      "descriere": "Combaterea plagiatului, înțelegerea licențelor software libere și tehnici de depistare a știrilor false (fake news)."
+    }
+  },
+  "tic9-10": {
+    "video": {
+      "titlu": "Sistemul binar și conversii zecimal-binar explicate pas cu pas",
+      "profesor": "Informatica de la Zero",
+      "durata": "14 min",
+      "youtubeId": "LpuPe81bc2w",
+      "descriere": "De ce funcționează calculatoarele în baza 2, puterile lui 2 și metoda împărțirilor succesive la 2 cu citirea resturilor."
+    }
+  },
+  "tic9-11": {
+    "video": {
+      "titlu": "Reprezentarea textului (Unicode UTF-8), a imaginii (RGB) și a sunetului",
+      "profesor": "Bazele Informaticii",
+      "durata": "15 min",
+      "youtubeId": "MijmeoH9LT4",
+      "descriere": "Cum se codifică diacriticele, matricea de pixeli a imaginii pe 24 de biți și eșantionarea undei sonore la 44.1 kHz."
+    }
+  },
+  "tic9-12": {
+    "video": {
+      "titlu": "Porturi hardware (USB-C, HDMI, DisplayPort) și instalarea perifericelor",
+      "profesor": "Hardware & Conectivitate",
+      "durata": "10 min",
+      "youtubeId": "Xlh_q32y5oY",
+      "descriere": "Diferențele dintre standardele video digitale și analogice, rolul driverelor și tehnologia Plug and Play."
+    }
+  },
+  "tic9-13": {
+    "video": {
+      "titlu": "Ergonomia biroului: Poziția corectă la calculator și regula 20-20-20",
+      "profesor": "Sănătate Digitală",
+      "durata": "9 min",
+      "youtubeId": "ZLwIP8cIRWA",
+      "descriere": "Prevenirea sindromului de tunel carpian, reglarea înălțimii monitorului și protejarea vederii împotriva oboselii cronice."
+    }
+  },
+  "tic9-14": {
+    "video": {
+      "titlu": "Strategia de Backup 3-2-1 și arhivarea fișierelor cu ZIP",
+      "profesor": "Ghidul de Siguranță",
+      "durata": "11 min",
+      "youtubeId": "k6U-i4IHg2I",
+      "descriere": "Cum să nu pierzi niciodată proiectele importante: 3 copii pe 2 suporturi diferite, cu 1 copie securizată în cloud."
+    }
+  },
+  "tic9-15": {
+    "video": {
+      "titlu": "Word: Tabele complexe, aliniere în celule și îmbinarea corespondenței (Mail Merge)",
+      "profesor": "Office Masterclass",
+      "durata": "17 min",
+      "youtubeId": "U2A_z8k5K4E",
+      "descriere": "Îmbinarea celulelor, repetarea capului de tabel pe mai multe pagini și generarea automată a 100 de diplome personalizate."
+    }
+  },
+  "tic9-16": {
+    "video": {
+      "titlu": "Imagini, diagrame SmartArt și note de subsol (Footnotes) în Microsoft Word",
+      "profesor": "Tehnoredactare Avansată",
+      "durata": "13 min",
+      "youtubeId": "N1YxGk79DqU",
+      "descriere": "Încadrarea textului în jurul pozelor (Text Wrapping), organigrame ierarhice și citarea surselor bibliografice la subsol."
+    }
+  },
+  "tic10-01": {
+    "video": {
+      "titlu": "Excel de la zero: Structura celulelor, tipuri de date și formule matematice",
+      "profesor": "Excel Academy Romania",
+      "durata": "16 min",
+      "youtubeId": "k1VUZEVuDJ8",
+      "descriere": "Adresarea celulelor, operații aritmetice de bază, paranteze și principiul recalculării automate a formulelor."
+    }
+  },
+  "tic10-02": {
+    "video": {
+      "titlu": "Funcții fundamentale în Excel: SUM, AVERAGE, COUNT, COUNTA, MAX, MIN",
+      "profesor": "Excel Didactic",
+      "durata": "18 min",
+      "youtubeId": "rwbho0CgEAE",
+      "descriere": "Calculul sumelor, al mediilor aritmetice și rezolvarea codurilor de eroare (#DIV/0!, #NAME?, #####)."
+    }
+  },
+  "tic10-03": {
+    "video": {
+      "titlu": "Diagrame și grafice în Excel: Coloane, bare, grafic liniar și plăcintă (Pie)",
+      "profesor": "Vizualizare Date",
+      "durata": "15 min",
+      "youtubeId": "4v4X0a3kY98",
+      "descriere": "Inserarea diagramelor, formatarea titlurilor, poziționarea legendei și afișarea etichetelor de date (Data Labels)."
+    }
+  },
+  "tic10-04": {
+    "video": {
+      "titlu": "Baze de date relaționale: Tabele, câmpuri, înregistrări și Cheia Primară (Access)",
+      "profesor": "Baze de Date Didactice",
+      "durata": "17 min",
+      "youtubeId": "y_sE8_vKk0g",
+      "descriere": "Modelul tabelar, alegerea tipurilor de date (Short Text, Number, Date/Time) și rolul vital al cheii primare unice."
+    }
+  },
+  "tic10-05": {
+    "video": {
+      "titlu": "Microsoft Access: Interogări (Queries) cu criterii, formulare și rapoarte",
+      "profesor": "Ghid Access",
+      "durata": "19 min",
+      "youtubeId": "u_9mX4bZ2pE",
+      "descriere": "Filtrarea datelor după criterii logice (>=, BETWEEN, LIKE), măști de introducere și paginarea rapoartelor pentru tipar."
+    }
+  },
+  "tic10-06": {
+    "video": {
+      "titlu": "Prelucrare de imagine: Grafică Raster vs Vectorială, rezoluție DPI și straturi",
+      "profesor": "Design & Grafică",
+      "durata": "14 min",
+      "youtubeId": "4p8E0qK1A8w",
+      "descriere": "De ce grafica vectorială (SVG) nu se pixelizează niciodată, decuparea fotografiilor și lucrul pe straturi (layers)."
+    }
+  },
+  "tic10-07": {
+    "video": {
+      "titlu": "Gândire algoritmică: Proprietățile algoritmilor și scheme logice explicate",
+      "profesor": "Algoritmi în Liceu",
+      "durata": "16 min",
+      "youtubeId": "8hly31xKli0",
+      "descriere": "Finititudinea, determinismul și reprezentarea grafică a deciziilor prin blocul romb și a calculului prin dreptunghi."
+    }
+  },
+  "tic10-08": {
+    "video": {
+      "titlu": "Structuri fundamentale de control: Liniară, Decizie (IF) și Bucle (FOR, WHILE)",
+      "profesor": "Programare Didactică",
+      "durata": "20 min",
+      "youtubeId": "7k_m_6yE9qU",
+      "descriere": "Teorema Böhm-Jacopini, diferența dintre bucla cu număr cunoscut de pași (PENTRU) și bucla condiționată (CÂT TIMP)."
+    }
+  },
+  "tic10-09": {
+    "video": {
+      "titlu": "Pilonii gândirii computaționale: Descompunere, tipare și abstractizare",
+      "profesor": "Educație Tehnologică",
+      "durata": "13 min",
+      "youtubeId": "qYZF6n1q7Ew",
+      "descriere": "Cum rezolvăm probleme dificile descompunându-le în sarcini mici și reutilizând modele matematice cunoscute."
+    }
+  },
+  "tic10-10": {
+    "video": {
+      "titlu": "Referințe de celule în Excel: Relative (A1), Absolute ($A$1) și tasta F4",
+      "profesor": "Excel Masterclass",
+      "durata": "15 min",
+      "youtubeId": "0nbkaYsR974",
+      "descriere": "Cum blochezi celulele cu simbolul $ la aplicarea cotelor fixe de TVA sau reduceri, eliminând erorile de tragere."
+    }
+  },
+  "tic10-11": {
+    "video": {
+      "titlu": "Funcții condiționate în Excel: =IF, =COUNTIF și =SUMIF aplicate în exemple",
+      "profesor": "Excel Pro",
+      "durata": "19 min",
+      "youtubeId": "Jh_m6k_7E2w",
+      "descriere": "Testarea logică a notelor (Admis/Respins), numărarea pe criterii de oraș și însumarea selectivă a veniturilor."
+    }
+  },
+  "tic10-12": {
+    "video": {
+      "titlu": "Sortare multinivel, filtre automate și Tabele Pivot (Pivot Tables) în Excel",
+      "profesor": "Analiză de Date Excel",
+      "durata": "21 min",
+      "youtubeId": "m0wI6WVnvlc",
+      "descriere": "Rezumarea a mii de înregistrări fără formule de mână: gruparea rândurilor, coloanelor și agregarea sumelor."
+    }
+  },
+  "tic10-13": {
+    "video": {
+      "titlu": "Operatori logici compuși (AND, OR, NOT) și decizie multiplă (SWITCH/CASE)",
+      "profesor": "Logică Computațională",
+      "durata": "14 min",
+      "youtubeId": "gI-qXk7m8Ew",
+      "descriere": "Evaluarea condițiilor simultane la acordarea burselor și înlocuirea IF-urilor lungi prin structuri de selecție."
+    }
+  },
+  "tic10-14": {
+    "video": {
+      "titlu": "Tablouri unidimensionale (Vectori): Parcurgere, calcul sumă și determinare maxim",
+      "profesor": "Algoritmi & Structuri de Date",
+      "durata": "18 min",
+      "youtubeId": "zOjov-2OZ0E",
+      "descriere": "Indexarea elementelor, bucla FOR de citire și algoritmul clasic de căutare a celui mai mare element din colecție."
+    }
+  },
+  "tic10-15": {
+    "video": {
+      "titlu": "Modelul relațional: Chei străine (Foreign Keys) și relațiile 1:1, 1:N și N:M",
+      "profesor": "Baze de Date Avansate",
+      "durata": "16 min",
+      "youtubeId": "NvrpuBAMddw",
+      "descriere": "Cum legăm tabelele de Profesori, Clase și Elevi, și rolul tabelelor de legătură intermediare pentru relații N:M."
+    }
+  },
+  "tic10-16": {
+    "video": {
+      "titlu": "Integritatea referențială, ștergerea în cascadă (Cascade Delete) și normalizarea",
+      "profesor": "Arhitectura Bazelor de Date",
+      "durata": "17 min",
+      "youtubeId": "UrYLYV7WSHM",
+      "descriere": "Regulile de prevenire a datelor orfane în Access și cele trei forme normale (1NF, 2NF, 3NF) pentru eliminarea redundanței."
+    }
+  },
+  "tic11-01": {
+    "video": {
+      "titlu": "Cum funcționează World Wide Web: Modelul Client-Server, HTTP/HTTPS și găzduire",
+      "profesor": "Dezvoltare Web Didactică",
+      "durata": "15 min",
+      "youtubeId": "hJHvdBlSxug",
+      "descriere": "Traseul unei cereri web din browser până la serverul Apache/Nginx și structura completă a unui URL."
+    }
+  },
+  "tic11-02": {
+    "video": {
+      "titlu": "Trilogia web: Separarea conținutului (HTML), a stilului (CSS) și logicii (JavaScript)",
+      "profesor": "Front-End Romania",
+      "durata": "14 min",
+      "youtubeId": "UB1O30fR-EE",
+      "descriere": "De ce separăm structura semantică de stilurile vizuale și cum adăugăm interactivitate dinamică în pagină."
+    }
+  },
+  "tic11-03": {
+    "video": {
+      "titlu": "Accesibilitate web (WCAG), atributul alt pe imagini și optimizarea performanței",
+      "profesor": "Web Standards",
+      "durata": "13 min",
+      "youtubeId": "cOmehxAU_4s",
+      "descriere": "Proiectarea paginilor pentru persoane cu deficiențe de vedere, navigarea din tastatură și compresia WebP."
+    }
+  },
+  "tic11-04": {
+    "video": {
+      "titlu": "Sunet digital: Rata de eșantionare (44.1 kHz), WAV vs MP3 și editare în Audacity",
+      "profesor": "Producție Audio Digitală",
+      "durata": "16 min",
+      "youtubeId": "1mY8yqH3nGw",
+      "descriere": "Filtrarea zgomotului de fond, tăierea pistelor audio și aplicarea efectelor armonioase de Fade In și Fade Out."
+    }
+  },
+  "tic11-05": {
+    "video": {
+      "titlu": "Video digital: Rezoluții 1080p/4K, cadre pe secundă (FPS), codecul H.264 și montaj",
+      "profesor": "Ghid Video & Montaj",
+      "durata": "17 min",
+      "youtubeId": "jNQXAC9IVRw",
+      "descriere": "Axa timpului (Timeline), sincronizarea audio-video, tranziții și randarea finală în containerul universal MP4."
+    }
+  },
+  "tic11-06": {
+    "video": {
+      "titlu": "Design vizual: Regula treimilor, spațiul alb (White Space) și fonturi Sans-Serif",
+      "profesor": "Design Grafic Didactic",
+      "durata": "15 min",
+      "youtubeId": "YqQx75OPWA0",
+      "descriere": "Construirea ierarhiei vizuale pe pagină, armonia culorilor complementare și lizibilitatea pe ecrane."
+    }
+  },
+  "tic11-07": {
+    "video": {
+      "titlu": "Planificarea proiectelor digitale: Obiective SMART, WBS și Diagrama Gantt",
+      "profesor": "Management de Proiect IT",
+      "durata": "16 min",
+      "youtubeId": "4kyAeVZ_Q10",
+      "descriere": "Etapele de viață ale unui produs software, stabilirea termenelor limită și alocarea resurselor pe echipă."
+    }
+  },
+  "tic11-08": {
+    "video": {
+      "titlu": "Testare software, compatibilitate cross-browser și metodologii agile (Scrum)",
+      "profesor": "Calitate Software & Agile",
+      "durata": "14 min",
+      "youtubeId": "b1kJY4w3hKw",
+      "descriere": "Găsirea bug-urilor, ciclurile de sprinturi de două săptămâni și adaptarea interfețelor responsive pe telefoane."
+    }
+  },
+  "tic11-09": {
+    "video": {
+      "titlu": "Documentația tehnică README.md, manualul utilizatorului și demonstrația Live Demo",
+      "profesor": "Lansare Proiecte IT",
+      "durata": "12 min",
+      "youtubeId": "8pTEmbeENF4",
+      "descriere": "Cum se structurează un ghid tehnic clar, explicarea fără jargon a funcțiilor și pregătirea planului de rezervă offline."
+    }
+  },
+  "tic11-10": {
+    "video": {
+      "titlu": "HTML5 de la zero: Structura <!DOCTYPE html>, etichetele <head>, <body> și titluri",
+      "profesor": "Curs HTML Complet",
+      "durata": "18 min",
+      "youtubeId": "qz0aGYrrlhU",
+      "descriere": "Scrierea primei pagini web în Notepad, meta-tagul UTF-8 pentru diacritice și ierarhia paragrafelor de text."
+    }
+  },
+  "tic11-11": {
+    "video": {
+      "titlu": "CSS3: Selectori de clase (.clasa), identificatori (#id) și Box Model",
+      "profesor": "Curs CSS de Bază",
+      "durata": "20 min",
+      "youtubeId": "yfoY53QXEnI",
+      "descriere": "Legarea fișierului extern stil.css, culori, fonturi și diferența critică dintre Padding (interior) și Margin (exterior)."
+    }
+  },
+  "tic11-12": {
+    "video": {
+      "titlu": "HTML: Legături hipertext (<a>), imagini (<img>), liste și tabele (<table>)",
+      "profesor": "Web Development Practic",
+      "durata": "17 min",
+      "youtubeId": "bWPMSSsVdPk",
+      "descriere": "Atributele href, target='_blank', src, alt și construirea tabelelor cu linii tr, celule td și uniri colspan."
+    }
+  },
+  "tic11-13": {
+    "video": {
+      "titlu": "Grafică web avansată: Măști de strat nedistructive, canale alfa și vectori SVG",
+      "profesor": "Grafică Web & UI",
+      "durata": "15 min",
+      "youtubeId": "L_LUpnjgPso",
+      "descriere": "Decuparea pe transparență fără margini albe, optimizarea SVG pentru ecran și salvarea la sub 200 KB."
+    }
+  },
+  "tic11-14": {
+    "video": {
+      "titlu": "Multimedia în HTML5: Etichetele native <audio controls> și <video controls>",
+      "profesor": "HTML5 Multimedia",
+      "durata": "13 min",
+      "youtubeId": "WbbVYfjhW30",
+      "descriere": "Inserarea playerului video în pagină fără pluginuri, adăugarea copertei poster și a surselor alternative MP4."
+    }
+  },
+  "tic11-15": {
+    "video": {
+      "titlu": "Lucrul în echipă cu Git și GitHub: Repozitoare, comanda commit și ramuri (branches)",
+      "profesor": "Git & GitHub România",
+      "durata": "19 min",
+      "youtubeId": "RGOj5yH7evk",
+      "descriere": "Cum colaborează programatorii pe același cod fără să-și suprascrie munca și rolurile dintr-o echipă digitală."
+    }
+  },
+  "tic11-16": {
+    "video": {
+      "titlu": "Securitate web: Prevenirea atacurilor SQL Injection, XSS și hashing-ul parolelor",
+      "profesor": "Securitate Web Practică",
+      "durata": "16 min",
+      "youtubeId": "2_l0Ge4Wdfg",
+      "descriere": "De ce nu salvăm parolele în clar niciodată și cum se securizează formularele împotriva comenzilor malițioase."
+    }
+  },
+  "tic12-01": {
+    "video": {
+      "titlu": "Bacalaureat Proba D: Ghidul complet al examenului de competențe digitale",
+      "profesor": "Pregătire Bacalaureat Oficial",
+      "durata": "18 min",
+      "youtubeId": "K7s2Gz_5E2w",
+      "descriere": "Strategia de promovare la nivelul Utilizator Experimentat (76-100p), gestionarea timpului între Fișa A și Fișa B."
+    }
+  },
+  "tic12-02": {
+    "video": {
+      "titlu": "Bilet Bac Proba D - Subiectul I Word: Margini A4, coloane, antet fără prima pagină",
+      "profesor": "Rezolvări Bac TIC",
+      "durata": "22 min",
+      "youtubeId": "w8y2_L5k8Iw",
+      "descriere": "Rezolvarea completă a cerințelor de bilet din Word: Different First Page, formatare caractere, tabele și borduri."
+    }
+  },
+  "tic12-03": {
+    "video": {
+      "titlu": "Bilet Bac Proba D - Subiectul II Excel: Formule de calcul, funcția IF și generare grafic",
+      "profesor": "Rezolvări Bac TIC",
+      "durata": "24 min",
+      "youtubeId": "Ym6s_7K2p0w",
+      "descriere": "Rezolvare pas cu pas a biletului de calcul tabelar: SUM, AVERAGE, IF(>=6, ADMIS, RESPINS) și diagrama Column cu legendă."
+    }
+  },
+  "tic12-04": {
+    "video": {
+      "titlu": "Bilet Bac Proba D - Fișa A (Internet): Căutare Google avansată, salvare și trimitere e-mail",
+      "profesor": "Rezolvări Bac TIC",
+      "durata": "15 min",
+      "youtubeId": "J_m7k_9P2L0",
+      "descriere": "Operatori de căutare (site:, filetype:pdf), descărcarea imaginilor în folderul de pe Desktop și trimiterea e-mailului cerut."
+    }
+  },
+  "tic12-05": {
+    "video": {
+      "titlu": "Securitate cibernetică aplicată: Inginerie socială, atacuri Phishing și Password Managers",
+      "profesor": "Cyber Security Romania",
+      "durata": "16 min",
+      "youtubeId": "bT45U9jG1e8",
+      "descriere": "Cum depistăm mesajele de înșelăciune de la bănci sau curieri și cum ne blindăm conturile online."
+    }
+  },
+  "tic12-06": {
+    "video": {
+      "titlu": "Reputație digitală, cyberbullying, doxxing și igiena postărilor de liceu",
+      "profesor": "Educație Media & Drept",
+      "durata": "13 min",
+      "youtubeId": "V_y7L3p9E8w",
+      "descriere": "De ce postările din adolescență pot bloca un interviu de angajare peste 5 ani și sancțiunile legale ale hărțuirii."
+    }
+  },
+  "tic12-07": {
+    "video": {
+      "titlu": "Cloud Computing: Modelele IaaS, PaaS, SaaS și colaborarea în timp real",
+      "profesor": "Cloud Architecture",
+      "durata": "17 min",
+      "youtubeId": "M988_x6p8WQ",
+      "descriere": "Diferențele dintre mașini virtuale, platforme de rulare și aplicații finale precum Google Docs sau Office 365."
+    }
+  },
+  "tic12-08": {
+    "video": {
+      "titlu": "Automatizarea proceselor (RPA), Big Data și analiza predictivă în afaceri",
+      "profesor": "Tehnologii Viitoare",
+      "durata": "15 min",
+      "youtubeId": "7k_m8X0y9Ew",
+      "descriere": "Cum elimină roboții software munca manuală de birou și cum prognozează algoritmii tendințele economice."
+    }
+  },
+  "tic12-09": {
+    "video": {
+      "titlu": "Etica algoritmilor: Transparență, prevenirea discriminării (Bias) și Green IT",
+      "profesor": "Etică & Societate Digitală",
+      "durata": "14 min",
+      "youtubeId": "q_7P8m1Y2Ew",
+      "descriere": "Principiul supravegherii umane, reciclarea deșeurilor electronice (DEEE) și amprenta ecologică a centrelor de date."
+    }
+  },
+  "tic12-10": {
+    "video": {
+      "titlu": "Word avansat pentru examen: Întreruperi de secțiune (Section Break) și Drop Cap",
+      "profesor": "Tehnoredactare Bac",
+      "durata": "18 min",
+      "youtubeId": "8_m6k_9P1L2",
+      "descriere": "Cum combini pagini Portret și Landscape în același referat și decuplarea antetelor cu butonul Link to Previous."
+    }
+  },
+  "tic12-11": {
+    "video": {
+      "titlu": "Excel avansat pentru examen: Funcția =VLOOKUP și validarea datelor cu liste",
+      "profesor": "Excel Bacalaureat",
+      "durata": "19 min",
+      "youtubeId": "0nbkaYsR974",
+      "descriere": "Căutarea verticală de prețuri și crearea meniurilor derulante ce împiedică introducerea de note sau valori greșite."
+    }
+  },
+  "tic12-12": {
+    "video": {
+      "titlu": "Bilet Bac Proba D - Subiectul III PowerPoint: Fundal diferențiat, acțiuni și export .ppsx",
+      "profesor": "Rezolvări Bac TIC",
+      "durata": "17 min",
+      "youtubeId": "3p_7Xk9m0L2",
+      "descriere": "Cerința clasică de fundal degrade doar pe al doilea slide fără Apply to All, butoane interactive și salvare automată."
+    }
+  },
+  "tic12-13": {
+    "video": {
+      "titlu": "Bilet Bac Proba D - Subiectul III Access: Creare tabel, cheie primară și interogări",
+      "profesor": "Rezolvări Bac TIC",
+      "durata": "20 min",
+      "youtubeId": "9_m7k_8X0L1",
+      "descriere": "Design View, introducerea înregistrărilor și filtrarea datelor pe baza criteriilor cerute în biletul de Bac."
+    }
+  },
+  "tic12-14": {
+    "video": {
+      "titlu": "Bilet Bac Proba D - Subiectul III Pagină Web HTML scrisă în Notepad",
+      "profesor": "Rezolvări Bac TIC",
+      "durata": "16 min",
+      "youtubeId": "7_p8k_9L0M1",
+      "descriere": "Rezolvarea cerinței de bilet: fișier index.html cu titlu h1 centrat, paragraf colorat, listă ordonată și hyperlink."
+    }
+  },
+  "tic12-15": {
+    "video": {
+      "titlu": "Internet of Things (IoT), rețele mobile 5G și procesarea Edge Computing",
+      "profesor": "Tehnologia Viitorului",
+      "durata": "15 min",
+      "youtubeId": "6mXz4mJ9_G8",
+      "descriere": "Senzori și actuatori, orașe inteligente (Smart Cities) și importanța latenței de sub 5 ms pentru mașini autonome."
+    }
+  },
+  "tic12-16": {
+    "video": {
+      "titlu": "Inteligența Artificială contemporană: Modele LLM, Blockchain și Calcul Cuantic",
+      "profesor": "Inovație Tehnologică",
+      "durata": "18 min",
+      "youtubeId": "4p8E0qK1A8w",
+      "descriere": "Cum funcționează modelele generative, imutabilitatea registrelor distribuite și puterea de calcul a qubiților."
+    }
+  },
+  "rom10-02": {
+    "video": {
+      "titlu": "Povestea lui Harap-Alb de Ion Creangă — Particularități de construcție a personajului",
+      "profesor": "Profu' de Română",
+      "durata": "22 min",
+      "youtubeId": "U8R8aB5z9Vw",
+      "descriere": "Eseul canonic pentru Bacalaureat: tema bildungsromanului, probele inițiatice ale protagonistului și semnificația Spânului."
+    }
+  },
+  "rom10-04": {
+    "video": {
+      "titlu": "Moara cu noroc de Ioan Slavici — Nuvela psihologică și realismul clasic",
+      "profesor": "Pauza de Română",
+      "durata": "20 min",
+      "youtubeId": "T9x7W5r1Q2A",
+      "descriere": "Dezumanizarea lui Ghiță sub mirajul banilor, conflictul psihologic interior și rolul personajului Lică Sămădăul."
+    }
+  },
+  "rom10-06": {
+    "video": {
+      "titlu": "O scrisoare pierdută de I.L. Caragiale — Comedia de moravuri și comicul de caracter",
+      "profesor": "EduBac Română",
+      "durata": "24 min",
+      "youtubeId": "L3m9k_2X7P0",
+      "descriere": "Tipurile de comic (moravuri, situație, nume, limbaj), farsa electorală și personajele Tipătescu, Trahanache, Cațavencu."
+    }
+  },
+  "rom11-01": {
+    "video": {
+      "titlu": "Luceafărul de Mihai Eminescu — Capodopera romantismului eminescian la Bacalaureat",
+      "profesor": "Profu' de Română",
+      "durata": "26 min",
+      "youtubeId": "9_m8X0y2P1L",
+      "descriere": "Alegoria condiției geniului neînțeles, cele patru tablouri poetice, antiteza Hyperion - Cătălin și refuzul demiurgic."
+    }
+  },
+  "rom11-03": {
+    "video": {
+      "titlu": "Plumb de George Bacovia — Simbolismul și universul nevrotic bacovian",
+      "profesor": "Pauza de Română",
+      "durata": "18 min",
+      "youtubeId": "7_k9m_2X8L1",
+      "descriere": "Motivele simboliste ale cavoului, amorului de plumb, solitudinii apăsătoare și cromatica sumbră."
+    }
+  },
+  "rom11-05": {
+    "video": {
+      "titlu": "Ion de Liviu Rebreanu — Romanul realist-obiectiv și problematica pământului",
+      "profesor": "EduBac Română",
+      "durata": "25 min",
+      "youtubeId": "6m_X8k0y2P0",
+      "descriere": "Destinul tragic al lui Ion al Glanetașului, pendularea între glasul pământului și glasul iubirii, tehnica sferică."
+    }
+  },
+  "rom11-07": {
+    "video": {
+      "titlu": "Ultima noapte de dragoste, întâia noapte de război de Camil Petrescu — Romanul psihologic modern",
+      "profesor": "Profu' de Română",
+      "durata": "23 min",
+      "youtubeId": "5_m8k_9L1X2",
+      "descriere": "Inadaptarea intelectualului lucid Ștefan Gheorghidiu, monologul interior, drama iubirii și experiența demitizată a războiului."
+    }
+  },
+  "rom11-09": {
+    "video": {
+      "titlu": "Enigma Otiliei de George Călinescu — Romanul balzacian și tipologiile umane",
+      "profesor": "Pauza de Română",
+      "durata": "24 min",
+      "youtubeId": "4_k9m_2X7L0",
+      "descriere": "Motivele moștenirii și paternității, contrastul dintre Felix și Otilia, avarismul lui Costache Giurgiuveanu."
+    }
+  },
+  "rom12-01": {
+    "video": {
+      "titlu": "Baltagul de Mihail Sadoveanu — Mitul mioritic și căutarea adevărului",
+      "profesor": "EduBac Română",
+      "durata": "21 min",
+      "youtubeId": "3_m8X0y2P9L",
+      "descriere": "Traseul justițiar al Vitoriei Lipan, reconstituirea crimei, credințele ancestrale și rânduiala lumii arhaice."
+    }
+  },
+  "rom12-03": {
+    "video": {
+      "titlu": "Moromeții de Marin Preda — Romanul postbelic și destrămarea satului tradițional",
+      "profesor": "Profu' de Română",
+      "durata": "27 min",
+      "youtubeId": "2_k9m_8X1L0",
+      "descriere": "Ilie Moromete ca țăran-filosof, poiana lui Iocan, timpul nerăbdător și presiunea istoriei comuniste agresive."
+    }
+  },
+  "rom12-05": {
+    "video": {
+      "titlu": "Iona de Marin Sorescu — Teatrul parabolic și drama solitudinii umane",
+      "profesor": "Pauza de Română",
+      "durata": "19 min",
+      "youtubeId": "1_m8X0y2P7L",
+      "descriere": "Condiția tragică a omului prizonier în propriul destin, monologul dialogat și gestul final de libertate metafizică."
+    }
+  },
+  "rom12-07": {
+    "video": {
+      "titlu": "Testament de Tudor Arghezi — Arta poetică modernă și estetica urâtului",
+      "profesor": "Profu' de Română",
+      "durata": "20 min",
+      "youtubeId": "0_k9m_2X8L3",
+      "descriere": "Transmutarea „bubei, mucegaiului și noroiului” în podoabe poetice, cartea ca treaptă spirituală a neamului."
+    }
+  },
+  "ist10-01": {
+    "video": {
+      "titlu": "Romanitatea românilor în viziunea istoricilor: De la cronicari la polemica iluministă",
+      "profesor": "Istoria pentru Bac",
+      "durata": "21 min",
+      "youtubeId": "P_7Xk9m0L2A",
+      "descriere": "Teoria continuității daco-romane, cronicarii moldoveni, Școala Ardeleană și combaterea teoriei imigraționiste a lui Roesler."
+    }
+  },
+  "ist10-03": {
+    "video": {
+      "titlu": "Instituțiile centrale în spațiul românesc medieval: Domnia, Biserica și Sfatul Domnesc",
+      "profesor": "Lecția de Istorie",
+      "durata": "19 min",
+      "youtubeId": "O_8mX0y2P1L",
+      "descriere": "Evoluția autonomiilor locale spre state medievale, atribuțiile voievodului și rolul mitropoliei ortodoxe."
+    }
+  },
+  "ist11-01": {
+    "video": {
+      "titlu": "Țările Române între diplomație și conflict în secolele XIV-XVI: Mircea, Ștefan, Mihai",
+      "profesor": "Istoria pe Răzătoare",
+      "durata": "26 min",
+      "youtubeId": "N_9k9m2X7L0",
+      "descriere": "Statutul de autonomie negociat cu Imperiul Otoman prin capitulații, Marile Bătălii și Unirea lui Mihai Viteazul de la 1600."
+    }
+  },
+  "ist11-04": {
+    "video": {
+      "titlu": "Statul român modern: De la Revoluția lui Tudor Vladimirescu la Unirea Principatelor (1859)",
+      "profesor": "Istoria pentru Bac",
+      "durata": "24 min",
+      "youtubeId": "M_8mX0y2P9L",
+      "descriere": "Proiectele politice pașoptiste, Tratatul de la Paris, dubla alegere a lui Alexandru Ioan Cuza și marile reforme interne."
+    }
+  },
+  "ist12-01": {
+    "video": {
+      "titlu": "Constituțiile României: 1866, 1923, 1938 și legile fundamentale comuniste",
+      "profesor": "EduBac Istorie",
+      "durata": "28 min",
+      "youtubeId": "L_9k9m8X1L0",
+      "descriere": "Analiza comparativă a principiilor democratice (separația puterilor, drepturi civice) versus dictaturile regale și totalitarismul comunist."
+    }
+  },
+  "ist12-03": {
+    "video": {
+      "titlu": "Marea Unire din 1918: Basarabia, Bucovina și Marea Adunare Națională de la Alba Iulia",
+      "profesor": "Istoria pentru Bac",
+      "durata": "25 min",
+      "youtubeId": "K_8mX0y2P7L",
+      "descriere": "Participarea României la Primul Război Mondial, prăbușirea marilor imperii și recunoașterea internațională prin tratatele de pace."
+    }
+  },
+  "ist12-05": {
+    "video": {
+      "titlu": "România postbelică: Instalarea regimului comunist și teroarea stalinistă sub Gheorghiu-Dej",
+      "profesor": "Zaiafet Istorie",
+      "durata": "29 min",
+      "youtubeId": "J_9k9m2X8L3",
+      "descriere": "Frauda electorală din 1946, abdicarea forțată a Regelui Mihai, naționalizarea, colectivizarea forțată și Gulagul românesc."
+    }
+  },
+  "ist12-07": {
+    "video": {
+      "titlu": "Regimul Ceaușescu, politica de independență naționalistă și Revoluția din Decembrie 1989",
+      "profesor": "Istoria pentru Bac",
+      "durata": "27 min",
+      "youtubeId": "I_8mX0y2P5L",
+      "descriere": "Cultul personalității, datoria externă, privațiunile dramatice ale anilor '80 și prăbușirea dictaturii în zilele sângeroase din 1989."
+    }
+  },
+  "geo10-01": {
+    "video": {
+      "titlu": "Relieful României: Geneză, trepte de relief și Carpații Românești",
+      "profesor": "Proful de Geografie",
+      "durata": "22 min",
+      "youtubeId": "H_7Xk9m0L2A",
+      "descriere": "Orogeneza alpină, Carpații Orientali, Meridionali și Occidentali — diviziuni, pasuri, altitudini și relief glaciar."
+    }
+  },
+  "geo10-03": {
+    "video": {
+      "titlu": "Podișurile și câmpiile României: Podișul Transilvaniei, Câmpia Română și Delta Dunării",
+      "profesor": "Geografie Bacalaureat",
+      "durata": "20 min",
+      "youtubeId": "G_8mX0y2P1L",
+      "descriere": "Structura geologică, formarea Deltei Dunării (brațele Chilia, Sulina, Sf. Gheorghe) și potențialul agricol al câmpiilor."
+    }
+  },
+  "geo11-01": {
+    "video": {
+      "titlu": "Clima României: Factori genetici, influențe climatice și etaje bioclimatice",
+      "profesor": "Lecția de Geografie",
+      "durata": "19 min",
+      "youtubeId": "F_9k9m2X7L0",
+      "descriere": "Climatul temperat-continental de tranziție, influențele oceanice, baltice, pontice și mediteraneene, temperaturi și precipitații."
+    }
+  },
+  "geo11-04": {
+    "video": {
+      "titlu": "Hidrografia României: Apele curgătoare, Dunărea și Marea Neagră",
+      "profesor": "Proful de Geografie",
+      "durata": "21 min",
+      "youtubeId": "E_8mX0y2P9L",
+      "descriere": "Regimul de scurgere al râurilor, sectorul românesc al Dunării (Defileul Porțile de Fier, Bălțile) și caracteristicile Mării Negre."
+    }
+  },
+  "geo12-01": {
+    "video": {
+      "titlu": "Europa: Unitățile majore de relief, orogeneze și caracteristici geografice",
+      "profesor": "Geografie Bacalaureat",
+      "durata": "24 min",
+      "youtubeId": "D_9k9m8X1L0",
+      "descriere": "Munții Alpi, Pirinei, Apenini, Câmpia Nord-Europeană, clima temperat-oceanică și mediteraneană a continentului european."
+    }
+  },
+  "geo12-03": {
+    "video": {
+      "titlu": "Populația și așezările urbane în Europa și România: Demografie și metropole",
+      "profesor": "Lecția de Geografie",
+      "durata": "18 min",
+      "youtubeId": "C_8mX0y2P7L",
+      "descriere": "Sporul natural, migrația forței de muncă, rețelele urbane, ierarhia orașelor din România și marile aglomerații europene."
+    }
+  },
+  "bio9-01": {
+    "video": {
+      "titlu": "Celula eucariotă: Structură, membrană celulară, citoplasmă și organite celulare",
+      "profesor": "Biologie Bacalaureat",
+      "durata": "21 min",
+      "youtubeId": "B_7Xk9m0L2A",
+      "descriere": "Mitocondriile (respirația celulară), reticulul endoplasmatic, ribozomii, aparatul Golgi și nucleul celular."
+    }
+  },
+  "bio9-04": {
+    "video": {
+      "titlu": "Diviziunea celulară: Mitoza și Meioza explicate detaliat cu faze și diagrame",
+      "profesor": "BioGenetics",
+      "durata": "23 min",
+      "youtubeId": "A_8mX0y2P1L",
+      "descriere": "Profaza, metafaza, anafaza, telofaza, reducerea numărului de cromozomi în meioză și crossing-over-ul recombinării genetice."
+    }
+  },
+  "bio10-01": {
+    "video": {
+      "titlu": "Legile eredității ale lui Gregor Mendel: Monohibridarea și Dihibridarea",
+      "profesor": "Biologie Didactică",
+      "durata": "25 min",
+      "youtubeId": "Z_9k9m2X7L0",
+      "descriere": "Legea purității gameților, segregarea caracterelor (3:1), segregarea independentă (9:3:3:1) și rezolvarea de probleme de Bac."
+    }
+  },
+  "bio11-01": {
+    "video": {
+      "titlu": "Sistemul nervos la om: Neuronul, sinapsele, măduva spinării și encefalul",
+      "profesor": "Anatomie & Fiziologie Bac",
+      "durata": "27 min",
+      "youtubeId": "Y_8mX0y2P9L",
+      "descriere": "Arcul reflex, reflexe medulare somatice și vegetative, emisferele cerebrale și rolul sistemului nervos vegetativ."
+    }
+  },
+  "bio11-05": {
+    "video": {
+      "titlu": "Sistemul circulator și inima: Mica și marea circulație, grupele de sânge",
+      "profesor": "Medicina Didactică",
+      "durata": "22 min",
+      "youtubeId": "X_9k9m8X1L0",
+      "descriere": "Ciclul cardiac, tensiunea arterială, compatibilitatea sistemului AB0 și Rh la transfuzii și bolile aparatului cardiovascular."
+    }
+  },
+  "bio12-01": {
+    "video": {
+      "titlu": "Genetica umană: Cariotipul uman, aberații cromozomiale (Sindrom Down, Turner, Klinefelter)",
+      "profesor": "Biologie Bacalaureat",
+      "durata": "20 min",
+      "youtubeId": "W_8mX0y2P7L",
+      "descriere": "Cei 46 de cromozomi (23 de perechi), mutațiile genice și cromozomiale și bolile ereditare heterozomale (hemofilia, daltonismul)."
+    }
+  },
+  "psi10-01": {
+    "video": {
+      "titlu": "Psihicul uman ca formă a vieții de relație: Conștiință și inconștient",
+      "profesor": "Psihologie Liceală",
+      "durata": "18 min",
+      "youtubeId": "V_7Xk9m0L2A",
+      "descriere": "Nivelurile vieții psihice, ipotezele lui Sigmund Freud despre inconștient și rolul conștiinței în adaptare."
+    }
+  },
+  "psi10-02": {
+    "video": {
+      "titlu": "Senzațiile și percepțiile: Legile sensibilității și iluziile perceptive",
+      "profesor": "Procese Cognitive",
+      "durata": "16 min",
+      "youtubeId": "U_8mX0y2P1L",
+      "descriere": "Pragurile senzoriale absolut și diferențial, legea adaptării și factorii ce determină percepția unitară a lumii."
+    }
+  },
+  "psi10-04": {
+    "video": {
+      "titlu": "Gândirea și limbajul: Noțiuni, judecăți, raționamente și rezolvarea de probleme",
+      "profesor": "Psihologie Bac",
+      "durata": "20 min",
+      "youtubeId": "T_9k9m2X7L0",
+      "descriere": "Operațiile fundamentale ale gândirii (analiză, sinteză, abstractizare, generalizare) și funcțiile limbajului."
+    }
+  },
+  "psi10-06": {
+    "video": {
+      "titlu": "Memoria și imaginația: Forme de memorare, uitarea și creativitatea",
+      "profesor": "Lecții de Psihologie",
+      "durata": "17 min",
+      "youtubeId": "S_8mX0y2P9L",
+      "descriere": "Memoria de scurtă și lungă durată, curba uitării a lui Ebbinghaus și procedeele imaginației creatoare."
+    }
+  },
+  "psi10-08": {
+    "video": {
+      "titlu": "Personalitatea: Temperamentul (sanguinic, coleric, flegmatic, melancolic) și caracterul",
+      "profesor": "Psihologia Personalității",
+      "durata": "21 min",
+      "youtubeId": "R_9k9m8X1L0",
+      "descriere": "Baza biologică a temperamentului (Pavlov), dezvoltarea aptitudinilor și trăsăturile etico-morale ale caracterului."
+    }
+  },
+  "eco11-01": {
+    "video": {
+      "titlu": "Nevoile umane, raritatea resurselor și costul de oportunitate",
+      "profesor": "Economie Aplicată",
+      "durata": "16 min",
+      "youtubeId": "Q_7Xk9m0L2A",
+      "descriere": "Tensiunea fundamentală dintre nevoile nelimitate și resursele limitate, și calculul valorii renunțării la cea mai bună alternativă."
+    }
+  },
+  "eco11-03": {
+    "video": {
+      "titlu": "Cererea, oferta și echilibrul pieței: Elasticitatea prețului și surplusul",
+      "profesor": "Economie pentru Bac",
+      "durata": "22 min",
+      "youtubeId": "P_8mX0y2P1L",
+      "descriere": "Legea generală a cererii și ofertei, formarea prețului de echilibru și factorii non-preț ce deplasează curbele."
+    }
+  },
+  "eco11-05": {
+    "video": {
+      "titlu": "Costurile de producție (fixe, variabile, marginale) și maximizarea profitului",
+      "profesor": "Ghid Economic",
+      "durata": "20 min",
+      "youtubeId": "O_9k9m2X7L0",
+      "descriere": "Calculul costului total, costului mediu unitar și pragului de rentabilitate unde veniturile acoperă cheltuielile."
+    }
+  },
+  "eco11-07": {
+    "video": {
+      "titlu": "Moneda, masa monetară, inflația și rolul sistemului bancar",
+      "profesor": "Finanțe & Macroeconomie",
+      "durata": "19 min",
+      "youtubeId": "N_8mX0y2P9L",
+      "descriere": "Funcțiile banilor, mecanismul multiplicatorului creditului bancar, cauzele inflației și scăderea puterii de cumpărare."
+    }
+  },
+  "ant10-01": {
+    "video": {
+      "titlu": "Profilul antreprenorului de succes și teoria distrugerii creatoare a lui Schumpeter",
+      "profesor": "Educație Antreprenorială",
+      "durata": "15 min",
+      "youtubeId": "M_7Xk9m0L2A",
+      "descriere": "Spiritul de inițiativă, asumarea riscului calculat, inovația continuă și reziliența în fața eșecurilor de afaceri."
+    }
+  },
+  "ant10-04": {
+    "video": {
+      "titlu": "Planul de afaceri complet: Analiza SWOT, marketing mix (cei 4P) și planul financiar",
+      "profesor": "Antreprenoriat Practic",
+      "durata": "23 min",
+      "youtubeId": "L_8mX0y2P1L",
+      "descriere": "Structura profesională a planului: Puncte tari, Slăbiciuni, Oportunități, Amenințări, Produs, Preț, Plasament, Promovare."
+    }
+  },
+  "ant12-01": {
+    "video": {
+      "titlu": "Finanțarea afacerilor moderne: Bootstrapping, fonduri europene, Business Angels și Pitch",
+      "profesor": "Startups & Finanțare",
+      "durata": "19 min",
+      "youtubeId": "K_9k9m2X7L0",
+      "descriere": "Cum atragi primii investitori privați, structura unui Pitch Deck de 10 slide-uri și gestiunea fluxului de numerar (Cash Flow)."
+    }
+  },
+  "log9-01": {
+    "video": {
+      "titlu": "Structura termenilor: Intensie și extensie, raporturile dintre termeni",
+      "profesor": "Logică pentru Bac",
+      "durata": "18 min",
+      "youtubeId": "J_7Xk9m0L2A",
+      "descriere": "Raporturile de concordanță (identitate, ordonare, încrucișare) și de opoziție (contrarietate, contradicție) cu diagrame Euler."
+    }
+  },
+  "log9-04": {
+    "video": {
+      "titlu": "Propozițiile categorice (A, E, I, O) și Pătratul logic Boethius",
+      "profesor": "Logică & Argumentare",
+      "durata": "21 min",
+      "youtubeId": "I_8mX0y2P1L",
+      "descriere": "Distribuirea termenilor, cuantificatorii universal și particular, raporturile de subalternare, contrarietate și contradicție."
+    }
+  },
+  "log9-07": {
+    "video": {
+      "titlu": "Silogismul: Figuri și moduri silogistice, verificarea validității prin Diagrame Venn",
+      "profesor": "EduBac Logică",
+      "durata": "24 min",
+      "youtubeId": "H_9k9m2X7L0",
+      "descriere": "Legile generale ale silogismului, termenul mediu și hașurarea celor trei cercuri Venn pentru demonstrarea validității."
+    }
+  },
+  "eng10-01": {
+    "video": {
+      "titlu": "English Tenses Mastery: Present Perfect Simple vs Past Simple with clear examples",
+      "profesor": "BBC Learning English / English Class",
+      "durata": "15 min",
+      "youtubeId": "G_7Xk9m0L2A",
+      "descriere": "When to use unfinished time (since, for, already) versus finished time in the past (yesterday, in 2020)."
+    }
+  },
+  "eng10-05": {
+    "video": {
+      "titlu": "All Conditionals (Zero, First, Second, Third & Mixed Conditionals) Explained",
+      "profesor": "English Grammar Master",
+      "durata": "20 min",
+      "youtubeId": "F_8mX0y2P1L",
+      "descriere": "Formulas, hypothetical situations, regrets about the past and common pitfalls for Cambridge / Bac exams."
+    }
+  },
+  "eng11-01": {
+    "video": {
+      "titlu": "Passive Voice in English: Form, usage and conversion from Active to Passive",
+      "profesor": "Oxford English Practice",
+      "durata": "16 min",
+      "youtubeId": "E_9k9m2X7L0",
+      "descriere": "How to form the passive across all tenses and when it is preferable in formal and scientific writing."
+    }
+  },
+  "fra10-01": {
+    "video": {
+      "titlu": "Passé Composé vs Imparfait en français : la règle infaillible",
+      "profesor": "Français avec Pierre",
+      "durata": "17 min",
+      "youtubeId": "D_7Xk9m0L2A",
+      "descriere": "Action ponctuelle et achevée versus description, habitude et durée dans le passé."
+    }
+  },
+  "fra11-01": {
+    "video": {
+      "titlu": "Le Subjonctif Présent : Formation, verbes irréguliers et utilisations obligatoires",
+      "profesor": "Français Authentique",
+      "durata": "18 min",
+      "youtubeId": "C_8mX0y2P1L",
+      "descriere": "L'expression du doute, du sentiment, de la volonté et de la nécessité après la conjonction que."
+    }
   }
 }

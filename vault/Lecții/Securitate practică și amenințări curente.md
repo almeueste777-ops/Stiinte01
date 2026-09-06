@@ -10,18 +10,18 @@ clasa: "a XII-a"
 
 [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)|Tehnologia informației și a comunicațiilor (TIC)]] · [[Clasa a XII-a]] · lecția 5 din 16
 
-**Capitolul:** Informație, securitate, identitate — semestrul 2
+**Capitolul:** Informație, securitate, identitate — semestrul 1
 
 ## Rezumat
 
-Amenințările curente nu sunt, de regulă, tehnice, ci sociale. Phishingul imită un mesaj legitim pentru a obține date de autentificare; semnele: adresă de expeditor ușor modificată, urgență artificială, cereri de date confidențiale, linkuri care duc în altă parte decât textul afișat, greșeli de limbă. Ingineria socială exploatează încrederea, curiozitatea, frica sau dorința de a fi de ajutor. Măsuri practice: verifică adresa reală a linkului înainte de a apăsa, nu introduce date de autentificare din linkuri primite prin mesaje, folosește autentificarea în doi pași, nu refolosi parole, actualizează sistemul, nu instala aplicații din surse necunoscute, fii prudent pe rețele wireless publice, fă copii de siguranță. Dacă un cont a fost compromis: schimbă parola de pe un alt dispozitiv, deconectează sesiunile active, verifică setările de recuperare și anunță persoanele afectate.
+În mediul digital contemporan, amenințările de securitate cibernetică evoluează continuu, exploatând atât breșele tehnice (Software Exploits), cât și factorul uman prin tehnici de Inginerie Socială (Social Engineering): 1. Ingineria socială și atacurile psihologice: • Phishing: mesaje frauduloase trimise prin e-mail sau SMS (Smishing) ce imită bănci sau curieri pentru a convinge victima să își introducă parolele sau numărul de card pe un site clonat; • Spear Phishing: atacuri țintite personalizat asupra unui angajat cheie; • Vishing: atacuri vocale prin apel telefonic în care atacatorul se dă drept polițist sau ofițer bancar. 2. Amenințări malware moderne: • Ransomware: criptarea fără drept a datelor și solicitarea de plăți în criptomonede pentru decriptare; • Spyware și Keyloggers: înregistrarea fiecărei taste apăsate pentru capturarea parolelor bancare; • Botnets: rețele uriașe de calculatoare zombi infectate, controlate de la distanță pentru a lansa atacuri de tip DDoS (Distributed Denial of Service) ce blochează site-urile prin suprasolicitare. 3. Reguli de igienă digitală practică: • Utilizarea unui manager de parole (Password Manager) pentru parole unice de 16+ caractere; • Verificarea autenticității adresei expeditorului de e-mail și a certificatului SSL (lacătul verde/închis); • Evitarea rețelelor Wi-Fi publice nesecurizate pentru tranzacții financiare; • Păstrarea copiilor de rezervă offline conform strategiei 3-2-1.
 
 ## Idei-cheie
 
-- Amenințările curente exploatează mai ales factorul uman.
-- Semne de phishing: urgență artificială, expeditor modificat, linkuri înșelătoare.
-- Măsuri: verificarea linkurilor, doi pași, parole unice, actualizări, copii de siguranță.
-- La compromitere: schimbă parola de pe alt dispozitiv și deconectează sesiunile active.
+- Ingineria socială manipulează psihologic utilizatorii pentru a obține date confidențiale.
+- Phishing-ul folosește mesaje alarmiste false pentru a fura date de conectare sau carduri bancare.
+- Atacurile DDoS blochează serverele țintă inundându-le cu milioane de cereri false de la o rețea botnet.
+- Managerul de parole permite generarea și stocarea sigură a parolelor lungi și unice.
 
 ## Notițele mele
 

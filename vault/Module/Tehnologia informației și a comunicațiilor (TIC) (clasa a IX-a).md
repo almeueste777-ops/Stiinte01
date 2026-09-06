@@ -19,47 +19,47 @@ cssclasses: fisa
 > **Arie curriculară:** [[Arie - Tehnologii|Tehnologii]]
 > **La bacalaureat:** da 🎓
 
-Bazele informaticii aplicate: calculatorul, sistemul de operare, fișiere, editare de text și siguranța online.
+Arhitectura calculatorului, sisteme de operare, editare de text, prezentări multimedia, rețele și securitate cibernetică.
 
 ## Capitole (6)
 
 ### Calculatorul și sistemul de operare — semestrul 1
 
-- [[Componentele unui sistem de calcul]]
-- [[Sistemul de operare și gestionarea fișierelor]]
-- [[Rețele, internet și servicii web]]
+- [[Componentele hardware ale unui sistem de calcul]]
+- [[Sistemul de operare și gestionarea avansată a fișierelor]]
+- [[Rețele de calculatoare, internet și servicii web]]
 
-### Editare de text și prezentări — semestrul 2
+### Editare de text și prezentări — semestrul 1
 
-- [[Procesorul de text - formatare și structură]]
-- [[Prezentări electronice]]
-- [[Comunicare online și colaborare]]
+- [[Procesorul de text - formatare, stiluri și structură profesională]]
+- [[Prezentări electronice interactive și design vizual]]
+- [[Comunicare online, e-mail profesional și instrumente de colaborare]]
 
-### Siguranță și responsabilitate digitală — semestrul 2
+### Siguranță și responsabilitate digitală — semestrul 1
 
-- [[Securitate - parole, malware, actualizări]]
-- [[Date personale, urmă digitală și confidențialitate]]
-- [[Etică digitală, drepturi de autor, dezinformare]]
+- [[Securitate cibernetică - parole, autentificare 2FA și protecție anti-malware]]
+- [[Date personale, amprentă digitală și confidențialitate online]]
+- [[Etică digitală, drepturi de autor, licențe software și combaterea dezinformării]]
 
-### Reprezentarea informației — semestrul 1
+### Reprezentarea informației și arhitectura fizică — semestrul 2
 
-- [[Sistemul binar și unitățile informației]]
-- [[Reprezentarea textului, a imaginii și a sunetului]]
-- [[Periferice, porturi și conectarea dispozitivelor]]
+- [[Sistemul binar, unitățile de măsură ale informației și conversii]]
+- [[Reprezentarea textului, a imaginii și a sunetului în format digital]]
+- [[Porturi de comunicație, periferice și conectarea dispozitivelor]]
 
-### Lucru eficient și sănătos — semestrul 1
+### Lucru eficient și sănătos — semestrul 2
 
-- [[Ergonomie, sănătate digitală și echilibru]]
-- [[Organizarea, arhivarea și copiile fișierelor]]
+- [[Ergonomie, sănătate digitală și organizarea spațiului de lucru]]
+- [[Organizarea, arhivarea și strategiile sigure de backup (copii de rezervă)]]
 
-### Documente structurate — semestrul 2
+### Documente structurate avansate în procesorul de text — semestrul 2
 
-- [[Tabele și liste în procesorul de text]]
-- [[Imagini și obiecte grafice în documente]]
+- [[Tabele, liste și îmbinarea corespondenței (Mail Merge) în Word]]
+- [[Imagini, diagrame SmartArt și obiecte grafice în documente]]
 
 ## Exersare
 - [[Carduri - Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)]] — 64 carduri
-- [[Test - Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)]] — 100 întrebări
+- [[Test - Tehnologia informației și a comunicațiilor (TIC) (clasa a IX-a)]] — 84 întrebări
 
 ## Legături
 - [[Tehnologia informației și a comunicațiilor (TIC)|Tehnologia informației și a comunicațiilor (TIC)]]

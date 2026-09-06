@@ -701,6 +701,12 @@ def main():
 
     ordine_clase = [c["clasa"] for c in clase]
 
+    # Curățăm folderele generate automat pentru a nu lăsa note orfane din materii eliminate
+    for subfolder in ["Carduri", "Curriculum", "Lecții", "Materii", "Module", "Teste"]:
+        cale_sub = os.path.join(VAULT, subfolder)
+        if os.path.exists(cale_sub):
+            shutil.rmtree(cale_sub)
+
     # Curriculum
     scrie("Curriculum/%s.md" % N_SCOALA, nota_scoala(curriculum["scoala"], curriculum["parcurs"]))
     scrie("Curriculum/%s.md" % N_PARCURS, nota_parcurs(curriculum["parcurs"], clase, curriculum["scoala"]))

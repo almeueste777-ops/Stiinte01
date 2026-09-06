@@ -21,11 +21,11 @@ cssclasses: fisa
 
 | Clasă | An | Materii |
 | --- | --- | --- |
-| [[Clasa a IX-a]] | 1 | 13 |
+| [[Clasa a IX-a]] | 1 | 12 |
 | [[Clasa a X-a]] | 2 | 13 |
-| [[Clasa a XI-a]] | 3 | 13 |
-| [[Clasa a XII-a]] | 4 | 12 |
-| [[Clasa a XIII-a]] | 5 | 12 |
+| [[Clasa a XI-a]] | 3 | 10 |
+| [[Clasa a XII-a]] | 4 | 8 |
+| [[Clasa a XIII-a]] | 5 | 9 |
 
 ## Legături
 - [[Școala|Liceul Tehnologic „Ion Creangă”]]

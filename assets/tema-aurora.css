@@ -713,6 +713,26 @@
   gap:8px;
   box-shadow:0 4px 14px rgba(91, 75, 214, 0.4);
 }
+.btn-video-yt{
+  background:rgba(255, 255, 255, 0.08);
+  border:1px solid rgba(255, 255, 255, 0.2);
+  color:#E2E8F0;
+  padding:11px 20px;
+  font-weight:600;
+  font-size:0.95rem;
+  border-radius:var(--r-full);
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  text-decoration:none;
+  transition:all 0.15s ease;
+}
+.btn-video-yt:hover{
+  background:rgba(255, 255, 255, 0.16);
+  border-color:rgba(255, 255, 255, 0.35);
+  color:#FFFFFF;
+  transform:translateY(-1px);
+}
 
 .mate-tabla-box{
   background:#141B2D;

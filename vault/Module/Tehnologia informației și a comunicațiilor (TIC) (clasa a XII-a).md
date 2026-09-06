@@ -19,7 +19,7 @@ cssclasses: fisa
 > **Arie curriculară:** [[Arie - Tehnologii|Tehnologii]]
 > **La bacalaureat:** da 🎓
 
-Competențe digitale pentru bacalaureat și pentru viață: instrumente de birou, informație, securitate, identitate digitală și tehnologii emergente.
+Pregătire completă pentru Bacalaureat Proba D (Competențe Digitale), suită de birou avansată, Cloud, securitate și Inteligență Artificială.
 
 ## Capitole (6)
 
@@ -29,37 +29,37 @@ Competențe digitale pentru bacalaureat și pentru viață: instrumente de birou
 - [[Documente complexe și lucru profesional cu textul]]
 - [[Calcul tabelar aplicat]]
 
-### Informație, securitate, identitate — semestrul 2
+### Informație, securitate, identitate — semestrul 1
 
 - [[Căutarea și evaluarea informației]]
 - [[Securitate practică și amenințări curente]]
 - [[Identitate digitală și reputație online]]
 
-### Tehnologii și societate — semestrul 2
+### Tehnologii și societate — semestrul 1
 
 - [[Cloud, mobilitate, colaborare]]
 - [[Automatizare, date mari, inteligență artificială]]
 - [[Etică digitală și responsabilitate]]
 
-### Instrumente de birou — semestrul 1
+### Instrumente de birou: cerințe avansate — semestrul 2
 
 - [[Procesorul de text]]
 - [[Calculul tabelar]]
 - [[Prezentările electronice]]
 
-### Informație și baze de date — semestrul 2
+### Baze de date și căutare — semestrul 2
 
 - [[Baze de date]]
 - [[Căutarea și evaluarea informației]]
 
-### Tehnologii emergente și identitate digitală — semestrul 2
+### Tehnologii emergente și viitorul digital — semestrul 2
 
 - [[Rețele, cloud și internetul lucrurilor]]
 - [[Inteligența artificială și tehnologii emergente]]
 
 ## Exersare
 - [[Carduri - Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)]] — 64 carduri
-- [[Test - Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)]] — 100 întrebări
+- [[Test - Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)]] — 84 întrebări
 
 ## Legături
 - [[Tehnologia informației și a comunicațiilor (TIC)|Tehnologia informației și a comunicațiilor (TIC)]]

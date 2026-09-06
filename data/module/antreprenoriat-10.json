@@ -1,0 +1,1932 @@
+{
+ "id": "antreprenoriat-10",
+ "materie": "Educație antreprenorială",
+ "clasa": "a X-a",
+ "an": 2,
+ "arie": "Om și societate",
+ "bac": true,
+ "socioUman": true,
+ "descriere": "Inițierea și gestionarea unei afaceri: oportunități, legislație, plan de afaceri, marketing, finanțe și responsabilitate socială.",
+ "capitole": [
+  {
+   "id": "ant10-c1",
+   "titlu": "Spiritul antreprenorial și oportunitatea de afaceri",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "ant10-01",
+     "titlu": "Profilul antreprenorului și competențele-cheie",
+     "rezumat": "Antreprenorul este persoana care identifică oportunități de afaceri pe piață, își asumă riscuri personale și financiare calculate, mobilizează resurse materiale, umane și informaționale și inițiază o activitate economică aducătoare de valoare și profit. Spiritul antreprenorial nu este un talent înnăscut rezervat câtorva aleși, ci un set de competențe ce pot fi educate: spirit de inițiativă, creativitate, perseverență, negociere și orientare spre rezolvarea problemelor. Joseph Schumpeter definea antreprenorul drept motorul „distrugerii creatoare” — cel care introduce produse noi, tehnologii inovatoare, deschide piețe noi sau modernizează modelele de organizare, înlocuind structurile economice rigide ale trecutului. Trăsăturile indispensabile ale antreprenorului modern sunt: reziliența (capacitatea de a depăși eșecurile), viziunea strategică, leadership-ul motivațional și responsabilitatea față de echipă și societate.",
+     "ideiCheie": [
+      "Antreprenorul descoperă oportunități neacoperite pe piață și își asumă riscuri calculate.",
+      "Spiritul antreprenorial presupune inițiativă, inovație, negociere și perseverență continuă.",
+      "Teoria distrugerii creatoare (Schumpeter) arată cum inovația antreprenorială înnoiește economia.",
+      "Reziliența în fața obstacolelor diferențiază antreprenorii de succes de cei care abandonează."
+     ],
+     "termeni": [
+      {
+       "t": "antreprenor",
+       "d": "persoană care mobilizează resurse și își asumă riscuri pentru a crea o afacere profitabilă"
+      },
+      {
+       "t": "spirit antreprenorial",
+       "d": "ansamblul de atitudini și abilități proactive orientate spre inițiativă și inovație"
+      },
+      {
+       "t": "distrugere creatoare",
+       "d": "procesul prin care inovațiile antreprenoriale înlocuiesc tehnologiile și produsele vechi"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce definește un antreprenor?",
+       "v": "Asumarea conștientă a riscurilor pentru a valorifica o oportunitate economică."
+      },
+      {
+       "f": "Ce este spiritul antreprenorial?",
+       "v": "O atitudine proactivă bazată pe creativitate, autonomie și orientare spre soluții."
+      },
+      {
+       "f": "Cine a formulat teoria distrugerii creatoare?",
+       "v": "Economistul austriac Joseph Schumpeter."
+      },
+      {
+       "f": "De ce este reziliența critică în afaceri?",
+       "v": "Pentru că permite învățarea din eșecuri și adaptarea rapidă la schimbările pieței."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Antreprenorul se deosebește de un manager salariat în principal prin:",
+       "optiuni": [
+        "asumarea conștientă a riscului patrimonial și inițierea directă a afacerii",
+        "refuzul de a obține profit financiar",
+        "subordonarea obligatorie față de o comisie de stat",
+        "evitarea oricărei tehnologii moderne"
+       ],
+       "corect": 0,
+       "explicatie": "Antreprenorul creează afacerea și își riscă propriul capital, pe când managerul administrează o structură existentă."
+      },
+      {
+       "intrebare": "Conform lui Joseph Schumpeter, forța motrice a progresului economic este:",
+       "optiuni": [
+        "distrugerea creatoare adusă de inovațiile antreprenoriale",
+        "menținerea neschimbată a metodelor tradiționale de producție",
+        "eliminarea totală a concurenței",
+        "intervenția administrativă strictă a statului"
+       ],
+       "corect": 0,
+       "explicatie": "Inovațiile antreprenoriale revoluționează industriile și cresc eficiența întregii societăți."
+      },
+      {
+       "intrebare": "Reziliența antreprenorială se manifestă prin:",
+       "optiuni": [
+        "capacitatea de a rezista presiunilor, a învăța din erori și a merge mai departe",
+        "abandonarea imediată a afacerii la prima reclamație a unui client",
+        "refuzul oricărui sfat din partea mentorilor",
+        "cheltuirea întregului buget pe reclame inutile"
+       ],
+       "corect": 0,
+       "explicatie": "Perseverența și învățarea din încercări permit atingerea stabilității financiare."
+      },
+      {
+       "intrebare": "O competență antreprenorială esențială pe care școala o dezvoltă este:",
+       "optiuni": [
+        "gândirea critică și capacitatea de a rezolva probleme practice",
+        "memorarea pasivă fără aplicare",
+        "frica de a lua decizii",
+        "așteptarea permanentă a ajutorului din exterior"
+       ],
+       "corect": 0,
+       "explicatie": "Afacerile cer luarea de decizii rapide și asumate în condiții de incertitudine."
+      }
+     ]
+    },
+    {
+     "id": "ant10-02",
+     "titlu": "Generarea, evaluarea și validarea ideilor de afaceri",
+     "rezumat": "O idee de afaceri viabilă nu se naște din fantezie pură, ci din identificarea unei probleme reale, a unei nevoi nesatisfăcute sau a unei nemulțumiri resimțite de un grup de oameni (publicul țintă). Oportunitatea apare atunci când există o discrepanță între ceea ce oferă piața în prezent și ceea ce își doresc consumatorii. Metodele uzuale de generare a ideilor cuprind: brainstorming-ul (furtuna de idei fără cenzură inițială), metoda SCAMPER (substituie, combină, adaptează, modifică, propune altă utilizare, elimină, rearanjează), observarea schimbărilor de comportament (creșterea cererii de hrană bio, servicii la domiciliu, mobilitate electrică) și adaptarea locală a unor modele validate internațional. Validarea ideii este testul suprem înainte de a cheltui bani. Ea presupune crearea unui Produs Minim Viabil (MVP) — o versiune simplificată a produsului sau serviciului, realizată cu efort minim, folosită pentru a măsura reacția concretă a clienților. Dacă primii utilizatori sunt dispuși să plătească pentru MVP sau oferă feedback pozitiv, ideea este validată; altfel, afacerea trebuie pivotată (modificată) sau abandonată.",
+     "ideiCheie": [
+      "O afacere profitabilă rezolvă o problemă reală și dureroasă a unui grup de clienți.",
+      "Brainstorming-ul și metoda SCAMPER stimulează creativitatea și generarea de soluții neconvenționale.",
+      "MVP (Produsul Minim Viabil) testează ipotezele pe bani puțini și reduce riscul de faliment.",
+      "Pivotarea reprezintă reorientarea strategică a afacerii pe baza feedback-ului real primit din piață."
+     ],
+     "termeni": [
+      {
+       "t": "oportunitate de afaceri",
+       "d": "situație favorabilă pe piață prin care o nevoie nesatisfăcută poate fi transformată în profit"
+      },
+      {
+       "t": "produs minim viabil (MVP)",
+       "d": "versiunea incipientă a unui produs cu funcționalități de bază pentru testarea cererii"
+      },
+      {
+       "t": "pivotare",
+       "d": "schimbarea direcției sau a modelului de afaceri în urma reacțiilor concrete ale clienților"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "De unde pornește o idee de afaceri de succes?",
+       "v": "De la o problemă nerezolvată sau o nevoie acută a clienților."
+      },
+      {
+       "f": "Ce este un MVP?",
+       "v": "Un produs minim viabil realizat cu resurse puține pentru a valida piața."
+      },
+      {
+       "f": "Ce presupune pivotarea?",
+       "v": "Ajustarea strategică a produsului sau serviciului conform cerințelor reale exprimate."
+      },
+      {
+       "f": "Ce rol are brainstorming-ul?",
+       "v": "Generarea liberă și necenzurată a unui număr mare de idei într-o echipă."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Primul pas obligatoriu înainte de investirea banilor într-o afacere nouă este:",
+       "optiuni": [
+        "validarea ideii prin discuții directe și teste pe piață cu potențiali clienți",
+        "închirierea imediată a unui sediu somptuos",
+        "angajarea a 50 de salariați",
+        "tipărirea a mii de cărți de vizită aurite"
+       ],
+       "corect": 0,
+       "explicatie": "Fără clienți dornici să plătească, nicio investiție materială nu poate avea succes."
+      },
+      {
+       "intrebare": "Un Produs Minim Viabil (MVP) este util deoarece:",
+       "optiuni": [
+        "permite testarea rapidă a interesului pieței cu costuri și riscuri financiare minime",
+        "este varianta perfectă și definitivă a produsului",
+        "garantează un profit de un milion de euro din prima zi",
+        "împiedică orice concurent să intre pe piață"
+       ],
+       "corect": 0,
+       "explicatie": "MVP-ul adună date reale din interacțiunea cu primii cumpărători."
+      },
+      {
+       "intrebare": "Dacă în urma testării prototipului se constată că publicul refuză oferta, antreprenorul rațional va:",
+       "optiuni": [
+        "analiza motivele și ajusta produsul (pivotare) sau alege altă idee",
+        "insiste agresiv obligând oamenii să cumpere",
+        "dea în judecată clienții",
+        "închidă definitiv fără nicio explicație"
+       ],
+       "corect": 0,
+       "explicatie": "Flexibilitatea și adaptarea rapidă sunt cheia supraviețuirii antreprenoriale."
+      },
+      {
+       "intrebare": "O tendință globală majoră care generează oportunități antreprenoriale în prezent este:",
+       "optiuni": [
+        "digitalizarea serviciilor și sustenabilitatea ecologică",
+        "revenirea la scrisul de mână pe pergament",
+        "interzicerea calculatoarelor în școli",
+        "desființarea comerțului online"
+       ],
+       "corect": 0,
+       "explicatie": "Tehnologiile verzi și comerțul digital oferă cele mai mari ritmuri de creștere."
+      }
+     ]
+    },
+    {
+     "id": "ant10-03",
+     "titlu": "Analiza pieței, a concurenței și segmentarea clienților",
+     "rezumat": "O afacere nu poate vinde totul tuturor. Segmentarea pieței este procesul de împărțire a pieței globale în grupuri distincte de consumatori (segmente) care împărtășesc caracteristici, nevoi și comportamente similare. Criteriile uzuale de segmentare sunt: demografice (vârstă, gen, venit, ocupație), geografice (urban/rural, regiune), psihografice (stil de viață, valori, personalitate) și comportamentale (frecvența cumpărării, fidelitatea față de brand). Piața țintă (target market) este segmentul specific căruia afacerea decide să i se adreseze cu prioritate, adaptându-și produsul, prețul și comunicarea. Pentru a înțelege în profunzime clientul ideal, antreprenorii construiesc profilul consumatorului (Buyer Persona) — un portret fictiv detaliat al utilizatorului reprezentativ. Analiza concurenței presupune identificarea rivalilor direcți (firme care oferă produse identice aceleiași categorii de clienți) și indirecți (firme care oferă produse de substituție satisfăcând aceeași nevoie prin alte mijloace). Evaluarea punctelor tari și a slăbiciunilor concurenților permite descoperirea avantajului competitiv — motivul unic pentru care clienții vor alege firma ta în detrimentul celorlalte.",
+     "ideiCheie": [
+      "Segmentarea pieței împarte consumatorii în grupuri omogene după criterii clare.",
+      "Piața țintă reprezintă segmentul ales spre a fi deservit excelent de către afacere.",
+      "Concurența directă vinde produse similare, pe când cea indirectă oferă bunuri substituibile.",
+      "Avantajul competitiv este atuul distinctiv care determină decizia de cumpărare a clientului."
+     ],
+     "termeni": [
+      {
+       "t": "segmentare a pieței",
+       "d": "divizarea pieței în grupuri omogene de clienți cu nevoi și comportamente comune"
+      },
+      {
+       "t": "piață țintă",
+       "d": "segmentul specific de consumatori către care își concentrează eforturile o firmă"
+      },
+      {
+       "t": "concurență directă",
+       "d": "firme care comercializează produse identice aceluiași public țintă"
+      },
+      {
+       "t": "avantaj competitiv",
+       "d": "caracteristica unică a ofertei care o face superioară rivalilor în ochii cumpărătorilor"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "De ce este necesară segmentarea pieței?",
+       "v": "Deoarece consumatorii au nevoi diferite și nicio firmă nu poate satisface toți oamenii la fel."
+      },
+      {
+       "f": "Ce este Buyer Persona?",
+       "v": "Portretul fictiv, detaliat și umanizat al clientului ideal al companiei."
+      },
+      {
+       "f": "Care este diferența dintre concurența directă și cea indirectă?",
+       "v": "Concurența directă vinde același produs (ex. două pizzerii); cea indirectă vinde alternative (ex. pizzerie vs. shaormerie)."
+      },
+      {
+       "f": "Ce reprezintă avantajul competitiv?",
+       "v": "Trăsătura distinctivă (preț, viteză, calitate, inovație) care atrage clienții."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Împărțirea cumpărătorilor după vârstă, nivel de studii și venit reprezintă o segmentare:",
+       "optiuni": [
+        "demografică",
+        "strict geografică",
+        "psihografică exclusiv",
+        "aleatorie"
+       ],
+       "corect": 0,
+       "explicatie": "Criteriile demografice măsoară parametri statistici clari ai populației."
+      },
+      {
+       "intrebare": "Pentru un cinematograf local, o platformă de streaming video online (precum Netflix) reprezintă:",
+       "optiuni": [
+        "o concurență indirectă (produs de substituție pentru divertisment)",
+        "o concurență directă identică",
+        "un furnizor de floricele de porumb",
+        "un client intern"
+       ],
+       "corect": 0,
+       "explicatie": "Ambele satisfac nevoia de vizionare de filme, dar prin canale și tehnologii diferite."
+      },
+      {
+       "intrebare": "Avantajul competitiv al unei mici brutării artizanale de cartier în fața marilor supermarketuri poate fi:",
+       "optiuni": [
+        "prospețimea autentică a pâinii cu maia și relația caldă și personală cu vecinii",
+        "prețul cel mai mic din galaxie prin producție de miliarde de tone",
+        "vânzarea de piese de tractor",
+        "absența oricărui angajat"
+       ],
+       "corect": 0,
+       "explicatie": "Diferențierea prin calitate superioară și proximitate umană bate adesea producția industrială rece."
+      },
+      {
+       "intrebare": "Portretul fictiv al clientului ideal, care include dorințele, frustrările și obiceiurile sale, se numește:",
+       "optiuni": [
+        "Buyer Persona",
+        "Bilanț contabil",
+        "Proces-verbal de recepție",
+        "Organigramă de conducere"
+       ],
+       "corect": 0,
+       "explicatie": "Buyer Persona ajută echipa de marketing să își personalizeze mesajele și reclamele."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ant10-c2",
+   "titlu": "Cadrul juridic și înființarea afacerii",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "ant10-04",
+     "titlu": "Forme juridice de afaceri: PFA, SRL, SA",
+     "rezumat": "În România, inițierea unei afaceri legale presupune alegerea unei forme juridice reglementate de legislația națională (Legea societăților nr. 31/1990 și OUG nr. 44/2008). Principalele opțiuni pentru antreprenori sunt: 1. Persoana Fizică Autorizată (PFA): formă simplă, potrivită pentru activități liber-profesioniste sau meserii independente (IT, consultanță, meșteșuguri). Avantaje: contabilitate în partidă simplă, acces direct și imediat la banii încasați fără plata impozitului pe dividende, costuri reduse de înființare. Dezavantaj major: răspunderea patrimonială este nelimitată (antreprenorul răspunde pentru datorii cu întreaga sa avere personală). 2. Societatea cu Răspundere Limitată (SRL): cea mai populară formă pentru afaceri mici și mijlocii. Poate fi fondată de 1 până la 50 de asociați. Avantaj cardinal: răspunderea asociaților este limitată strict la valoarea capitalului social subscris (bunurile personale ale fondatorilor sunt protejate în caz de faliment). Banii firmei sunt separați de banii asociaților, putând fi retrași doar sub formă de dividende sau salarii. 3. Societatea pe Acțiuni (SA): formă destinată marilor afaceri, necesitând minimum 2 acționari și un capital social de cel puțin 90.000 de lei (sau echivalentul în euro). Capitalul este divizat în acțiuni tranzacționabile, iar SA-urile pot atrage fonduri prin listarea la bursa de valori.",
+     "ideiCheie": [
+      "PFA este flexibilă, dar implică răspunderea cu întreaga avere personală a titularului.",
+      "SRL protejează averea personală a asociaților, răspunderea fiind limitată la capitalul social.",
+      "Într-un SRL banii firmei aparțin persoanei juridice și se retrag doar prin dividende sau salarii.",
+      "SA este potrivită pentru afaceri de mari dimensiuni ce urmăresc listarea la bursă."
+     ],
+     "termeni": [
+      {
+       "t": "persoană fizică autorizată (PFA)",
+       "d": "formă individuală de activitate economică cu răspundere patrimonială nelimitată"
+      },
+      {
+       "t": "societate cu răspundere limitată (SRL)",
+       "d": "societate comercială ai cărei asociați răspund doar în limita capitalului social"
+      },
+      {
+       "t": "capital social",
+       "d": "valoarea totală a aporturilor în bani și bunuri aduse de fondatori la înființarea firmei"
+      },
+      {
+       "t": "dividend",
+       "d": "cota-parte din profitul net al societății comerciale distribuită asociaților sau acționarilor"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care este diferența majoră de răspundere între un PFA și un SRL?",
+       "v": "Titularul PFA răspunde cu bunurile personale; asociații din SRL răspund doar în limita capitalului social."
+      },
+      {
+       "f": "Câți asociați poate avea un SRL?",
+       "v": "Între 1 (asociat unic) și maximum 50 de asociați."
+      },
+      {
+       "f": "Cum își pot retrage fondatorii banii dintr-un SRL?",
+       "v": "Legal, doar prin distribuire de dividende (din profit net) sau prin contract de muncă (salariu)."
+      },
+      {
+       "f": "Ce formă juridică permite atragerea de capital prin listarea la Bursa de Valori?",
+       "v": "Societatea pe Acțiuni (SA)."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Un tânăr dorește să deschidă un magazin online de haine și vrea ca în caz de eșec să nu își piardă apartamentul personal. Forma recomandată este:",
+       "optiuni": [
+        "Societate cu Răspundere Limitată (SRL)",
+        "Persoană Fizică Autorizată (PFA) fără personalitate juridică",
+        "Asociație familială fără răspundere",
+        "Întreprindere Individuală (II)"
+       ],
+       "corect": 0,
+       "explicatie": "SRL separă patrimoniul personal de cel al firmei, protejând bunurile proprii ale antreprenorului."
+      },
+      {
+       "intrebare": "În cadrul unui PFA, contabilitatea este de regulă:",
+       "optiuni": [
+        "în partidă simplă (evidențierea încasărilor și a plăților)",
+        "una dintre cele mai complicate din lume",
+        "ținută exclusiv de un auditor de la Londra",
+        "interzisă prin lege"
+       ],
+       "corect": 0,
+       "explicatie": "PFA beneficiază de evidență financiară simplificată și acces direct la lichidități."
+      },
+      {
+       "intrebare": "Capitalul social al unui SRL reprezintă:",
+       "optiuni": [
+        "garanția inițială pusă la dispoziția firmei de către asociați pentru demararea activității",
+        "suma împrumutată obligatoriu de la cămătari",
+        "profitul net după 10 ani de funcționare",
+        "datoria totală către fisc"
+       ],
+       "corect": 0,
+       "explicatie": "Capitalul social reflectă contribuția fondatorilor și limita răspunderii lor legale."
+      },
+      {
+       "intrebare": "Societatea pe Acțiuni (SA) se adresează cu precădere:",
+       "optiuni": [
+        "companiilor mari care au nevoie de investiții masive și intenționează să emită acțiuni",
+        "meșteșugarilor care vând covrigi la colț de stradă",
+        "elevilor de liceu fără fonduri",
+        "cluburilor sportive amatoare"
+       ],
+       "corect": 0,
+       "explicatie": "SA are cerințe ridicate de capital social (minim 90.000 lei) și guvernanță corporativă complexă."
+      }
+     ]
+    },
+    {
+     "id": "ant10-05",
+     "titlu": "Pașii legali pentru înființarea firmei la Registrul Comerțului (ONRC)",
+     "rezumat": "Înmatricularea unei societăți comerciale în România este o procedură standardizată, gestionată de Oficiul Național al Registrului Comerțului (ONRC), instituție aflată în subordinea Ministerului Justiției. Procedura se poate derula fizic la ghișeu sau complet online prin portalul securizat al ONRC. Etapele parcurse pentru înființarea unui SRL sunt: 1. Verificarea și rezervarea denumirii firmei: alegerea unui nume distinctiv care să nu fie identic sau similar cu alte denumiri existente. 2. Stabilirea sediului social: obținerea dreptului de folosință asupra spațiului (contract de comodat, închiriere sau găzduire la cabinet de avocat) și acordul vecinilor dacă sediul este într-un bloc și se declară activitate cu public. 3. Selectarea obiectului de activitate conform clasificării CAEN (Clasificarea Activităților din Economia Națională), stabilind codul CAEN principal și codurile secundare. 4. Redactarea Actului Constitutiv: documentul fondator al societății, care cuprinde datele asociaților, sediul, capitalul social, cotele de participare la profit și pierdere, numirea administratorului și puterile acestuia. 5. Depunerea dosarului complet la ONRC și eliberarea Certificatului de Înregistrare, document care conține Codul Unic de Înregistrare (CUI) atribuit de Ministerul Finanțelor.",
+     "ideiCheie": [
+      "ONRC este instituția publică oficială unde se înmatriculează toate firmele din România.",
+      "Rezervarea numelui de firmă este primul pas formal și garantează unicitatea denumirii la nivel național.",
+      "Codurile CAEN definesc cu precizie ramurile economice în care societatea are voie să funcționeze.",
+      "Certificatul de Înregistrare emis de ONRC atestă nașterea legală a noii persoane juridice."
+     ],
+     "termeni": [
+      {
+       "t": "Oficiul Național al Registrului Comerțului (ONRC)",
+       "d": "autoritatea publică responsabilă cu înregistrarea și evidența companiilor"
+      },
+      {
+       "t": "cod CAEN",
+       "d": "cod numeric standardizat ce clasifică activitățile economice autorizate ale unei societăți"
+      },
+      {
+       "t": "act constitutiv",
+       "d": "contractul fundamental de asociere prin care se pun bazele legale ale unui SRL sau SA"
+      },
+      {
+       "t": "cod unic de înregistrare (CUI)",
+       "d": "codul de identificare fiscală atribuit fiecărei persoane juridice la înmatriculare"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce rol are Oficiul Național al Registrului Comerțului (ONRC)?",
+       "v": "Înmatriculează legal firmele și păstrează evidența oficială a societăților comerciale."
+      },
+      {
+       "f": "Ce este un cod CAEN?",
+       "v": "Codul din Clasificarea Activităților din Economia Națională care arată ce domenii de activitate are voie să practice firma."
+      },
+      {
+       "f": "Ce conține Actul Constitutiv al unei societăți?",
+       "v": "Datele asociaților, sediul social, capitalul, modul de împărțire a profitului și numirea administratorului."
+      },
+      {
+       "f": "Ce document atestă existența legală a firmei?",
+       "v": "Certificatul de Înregistrare conținând Codul Unic de Înregistrare (CUI)."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Primul pas administrativ în înființarea unui SRL este:",
+       "optiuni": [
+        "verificarea disponibilității și rezervarea denumirii firmei la ONRC",
+        "comandarea ștampilei firmei",
+        "achiziția de calculatoare scumpe",
+        "începerea vânzărilor fără factură"
+       ],
+       "corect": 0,
+       "explicatie": "Fără dovada rezervării denumirii nu se poate redacta legal Actul Constitutiv."
+      },
+      {
+       "intrebare": "Pentru a deschide un restaurant, antreprenorul trebuie să declare în actul constitutiv:",
+       "optiuni": [
+        "codul CAEN specific pentru activități de alimentație publică (restaurante)",
+        "codul CAEN pentru extracția petrolului",
+        "un cod secret de securitate",
+        "doar coduri de construcții navale"
+       ],
+       "corect": 0,
+       "explicatie": "O firmă poate desfășura legal doar activitățile economice autorizate prin coduri CAEN."
+      },
+      {
+       "intrebare": "Documentul fundamental semnat de toți fondatorii unui SRL, care stabilește regulile de funcționare a companiei, este:",
+       "optiuni": [
+        "Actul Constitutiv",
+        "Factura fiscală",
+        "Chestionarul de satisfacție",
+        "Contractul colectiv de muncă"
+       ],
+       "corect": 0,
+       "explicatie": "Actul constitutiv reprezintă „legea internă” a firmei, definind drepturile fiecărui asociat."
+      },
+      {
+       "intrebare": "După aprobarea dosarului de către registratorul ONRC, firma primește:",
+       "optiuni": [
+        "Certificatul de Înregistrare cu Codul Unic de Înregistrare (CUI)",
+        "un premiu de fidelitate",
+        "un împrumut nerambursabil automat",
+        "o scrisoare de felicitare fără valoare juridică"
+       ],
+       "corect": 0,
+       "explicatie": "Certificatul de înregistrare conferă personalitate juridică deplină noii societăți."
+      }
+     ]
+    },
+    {
+     "id": "ant10-06",
+     "titlu": "Relația cu instituțiile statului: ANAF, ITM, contabilitate și fiscalitate primară",
+     "rezumat": "După obținerea certificatului de înregistrare de la ONRC, viața firmei implică relații continue și obligatorii cu instituțiile de reglementare ale statului: 1. Agenția Națională de Administrare Fiscală (ANAF): gestionează colectarea taxelor și a impozitelor. În funcție de statutul ales și cifra de afaceri, un SRL poate fi plătitor de impozit pe veniturile microîntreprinderilor (1% sau 3% din cifra de afaceri, în condițiile legii) sau plătitor de impozit pe profit (16% din profitul fiscal). De asemenea, firma devine plătitoare de TVA (Taxa pe Valoarea Adăugată) obligatoriu dacă depășește plafonul anual de scutire sau opțional, prin opțiune directă. 2. Inspectoratul Teritorial de Muncă (ITM): supraveghează relațiile de muncă. Orice angajare trebuie încheiată prin contract individual de muncă și raportată în registrul electronic Revisal/REGES înainte ca angajatul să își înceapă activitatea. Munca fără contract (munca la negru) constituie contravenție gravă sancționată cu amenzi usturătoare. 3. Contabilitatea și arhivarea documentelor: legea impune ca societățile comerciale să aibă contabilitatea organizată de un expert contabil autorizat (membru CECCAR). Toate vânzările se fac cu factură sau bon fiscal emis de casa de marcat electronică legată la serverele ANAF, iar documentele contabile se păstrează conform termenelor legale.",
+     "ideiCheie": [
+      "ANAF colectează impozitele: impozit pe venit/profit, impozit pe dividende și TVA.",
+      "ITM verifică respectarea legislației muncii; toți salariații trebuie înregistrați în prealabil în Revisal.",
+      "Munca nedeclarată atrage sancțiuni administrative drastice și răspundere legală.",
+      "Orice tranzacție comercială este însoțită obligatoriu de documente justificative (factură, bon fiscal)."
+     ],
+     "termeni": [
+      {
+       "t": "Agenția Națională de Administrare Fiscală (ANAF)",
+       "d": "autoritatea centrală responsabilă cu fiscalitatea și colectarea veniturilor bugetare"
+      },
+      {
+       "t": "Inspectoratul Teritorial de Muncă (ITM)",
+       "d": "instituția care verifică aplicarea legislației muncii și protecția salariaților"
+      },
+      {
+       "t": "Revisal / REGES",
+       "d": "registrul electronic general de evidență a contractelor individuale de muncă"
+      },
+      {
+       "t": "taxă pe valoarea adăugată (TVA)",
+       "d": "impozit indirect aplicat consumului de bunuri și servicii"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cu ce instituție a statului interacționează firma pentru plata impozitelor?",
+       "v": "Cu ANAF (Agenția Națională de Administrare Fiscală)."
+      },
+      {
+       "f": "Înainte de ce moment trebuie raportat un contract de muncă în Revisal?",
+       "v": "Înainte ca salariatul să înceapă efectiv prima zi de muncă."
+      },
+      {
+       "f": "Ce rol are Inspectoratul Teritorial de Muncă (ITM)?",
+       "v": "Asigură respectarea drepturilor angajaților și combaterea muncii nedeclarate."
+      },
+      {
+       "f": "Ce documente justificative fiscale obligatorii însoțesc vânzările către populație?",
+       "v": "Bonul fiscal emis de casa de marcat fiscalizată sau factura fiscală."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Angajarea unei persoane fără contract individual de muncă și fără înregistrare în Revisal constituie:",
+       "optiuni": [
+        "muncă la negru, faptă sancționată cu amenzi contravenționale foarte mari de către ITM",
+        "o practică legală recomandată începătorilor",
+        "o dovadă de generozitate antreprenorială",
+        "o simplă convenție verbală fără obligații"
+       ],
+       "corect": 0,
+       "explicatie": "Legislația muncii pedepsește aspru munca nedeclarată pentru a proteja drepturile sociale ale lucrătorilor."
+      },
+      {
+       "intrebare": "Impozitul pe dividende se plătește către stat atunci când:",
+       "optiuni": [
+        "asociații hotărăsc retragerea profitului net din firmă pentru uz personal",
+        "firma își cumpără un camion nou",
+        "se plătește chiria sediului",
+        "se face curățenie în depozit"
+       ],
+       "corect": 0,
+       "explicatie": "Dividendele reprezintă venituri din investiții ale asociaților și se impozitează conform Codului Fiscal."
+      },
+      {
+       "intrebare": "Casele de marcat electronice utilizate în comerțul cu amănuntul sunt:",
+       "optiuni": [
+        "conectate online direct la serverele ANAF pentru transmiterea automată a datelor fiscale",
+        "folosite doar ca ceas de perete",
+        "complet interzise pe teritoriul României",
+        "destinate exclusiv plăților cu monede de aur"
+       ],
+       "corect": 0,
+       "explicatie": "Conectarea caselor de marcat reduce evaziunea fiscală și asigură transparența încasărilor."
+      },
+      {
+       "intrebare": "Contabilitatea unui SRL trebuie organizată și semnată de către:",
+       "optiuni": [
+        "un contabil autorizat sau expert contabil membru al corpului profesional (CECCAR)",
+        "orice persoană de pe stradă",
+        "portarul clădirii",
+        "exclusiv de directorul băncii"
+       ],
+       "corect": 0,
+       "explicatie": "Răspunderea legală a evidenței contabile cere competențe certificate și calificare profesională."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ant10-c3",
+   "titlu": "Planul de afaceri și planificarea strategică",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "ant10-07",
+     "titlu": "Rolul, structura și sinteza planului de afaceri",
+     "rezumat": "Planul de afaceri este documentul strategic fundamental care descrie în detaliu obiectivele unei întreprinderi, strategiile de piață, operațiunile zilnice, managementul resurselor și previziunile financiare pe o perioadă de 3 până la 5 ani. El are o dublă funcțiune: este un instrument intern de navigație și control pentru antreprenor și un instrument extern esențial pentru convingerea băncilor, a investitorilor privați sau a juriilor care acordă granturi nerambursabile (Start-up Nation, fonduri europene). Structura clasică a unui plan de afaceri complet cuprinde: 1. Sinteza planului de afaceri (Executive Summary) 2. Descrierea întreprinderii și viziunea strategică 3. Analiza pieței și a concurenței 4. Planul de marketing și vânzări 5. Planul operațional și de producție 6. Structura echipei și managementul resurselor umane 7. Planul financiar (buget, flux de numerar, prag de rentabilitate, profit și pierdere). Sinteza planului de afaceri (Executive Summary) este cea mai importantă secțiune. Deși este așezată chiar la începutul documentului, ea se redactează ultima, condensând în 1-2 pagini esența întregului proiect: problema rezolvată, soluția unică, piața adresabilă, avantajul competitiv, experiența echipei, nevoia de finanțare și rentabilitatea estimată. Dacă sinteza nu captează interesul finanțatorului în primele două minute de lectură, restul dosarului riscă să nu mai fie citit niciodată.",
+     "ideiCheie": [
+      "Planul de afaceri este ghidul intern al firmei și pașaportul pentru obținerea de finanțare externă.",
+      "El armonizează obiectivele antreprenorului cu realitatea pieței și cu limitele bugetare.",
+      "Structura acoperă strategia, marketingul, operațiunile, echipa și proiecțiile financiare.",
+      "Sinteza executivă se scrie la final, dar este prima citită de bănci și investitori."
+     ],
+     "termeni": [
+      {
+       "t": "plan de afaceri",
+       "d": "document scris ce detaliază viziunea, obiectivele, operațiunile și finanțele unei afaceri"
+      },
+      {
+       "t": "sinteză a planului de afaceri",
+       "d": "rezumat executiv plasat la începutul planului, concentrând punctele-cheie"
+      },
+      {
+       "t": "grant nerambursabil",
+       "d": "fond financiar acordat unei firme fără obligația restituirii dacă obiectivele sunt atinse"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt cele două mari roluri ale planului de afaceri?",
+       "v": "Ghid de acțiune pentru antreprenor și instrument de atragere a investitorilor sau finanțărilor."
+      },
+      {
+       "f": "De ce se redactează sinteza executivă la finalul scrierii planului?",
+       "v": "Pentru că trebuie să sintetizeze fidel toate concluziile secțiunilor dezvoltate anterior."
+      },
+      {
+       "f": "Ce conține secțiunea de analiză a pieței dintr-un plan de afaceri?",
+       "v": "Dimensiunea pieței, descrierea clienților țintă, tendințele din domeniu și analiza rivalilor."
+      },
+      {
+       "f": "Ce perioadă de timp vizează de regulă un plan de afaceri?",
+       "v": "Între 3 și 5 ani de activitate previzionată."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Sinteza executivă (Executive Summary) a unui plan de afaceri trebuie să fie:",
+       "optiuni": [
+        "concisă, convingătoare, clară și redactată după finalizarea celorlalte capitole",
+        "redactată pe 200 de pagini fără cifre concrete",
+        "scrisă prima, înainte de a cunoaște costurile reale",
+        "un secret pe care nimeni nu are voie să îl citească"
+       ],
+       "corect": 0,
+       "explicatie": "Un rezumat bine structurat în 1-2 pagini atrage atenția investitorilor ocupați."
+      },
+      {
+       "intrebare": "Un plan de afaceri bine întocmit ajută antreprenorul să:",
+       "optiuni": [
+        "anticipeze riscurile, să planifice cheltuielile și să ia decizii informate",
+        "elimine complet orice plată a taxelor către stat",
+        "fie sigur că nu va avea niciodată concurență",
+        "comande produse inutile"
+       ],
+       "corect": 0,
+       "explicatie": "Planificarea riguroasă transformă o simplă dorință într-un set de pași pragmatici."
+      },
+      {
+       "intrebare": "În cadrul unui program guvernamental precum Start-up Nation, planul de afaceri este:",
+       "optiuni": [
+        "documentul de bază pe baza căruia se acordă punctajul și finanțarea nerambursabilă",
+        "o foaie decorativă opțională",
+        "trimis doar dacă firma intră în faliment",
+        "o poezie despre succesul în afaceri"
+       ],
+       "corect": 0,
+       "explicatie": "Evaluatorii analizează fezabilitatea, locurile de muncă create și sustenabilitatea financiară din plan."
+      },
+      {
+       "intrebare": "Proiecțiile financiare dintr-un plan de afaceri cuprind obligatoriu:",
+       "optiuni": [
+        "veniturile estimate, costurile preconizate, fluxul de numerar și pragul de rentabilitate",
+        "numărul de like-uri primite de la prieteni",
+        "salariile concurenților direcți din Germania",
+        "doar lista cumpărăturilor personale ale patronului"
+       ],
+       "corect": 0,
+       "explicatie": "Cifrele financiare demonstrează dacă afacerea poate deveni profitabilă și autosustenabilă."
+      }
+     ]
+    },
+    {
+     "id": "ant10-08",
+     "titlu": "Viziunea, misiunea, valorile și obiectivele SMART ale întreprinderii",
+     "rezumat": "Fundația identității strategice a oricărei afaceri este alcătuită din triunghiul format din viziune, misiune și valori: 1. Viziunea: descrie starea viitoare dorită a organizației pe termen lung — imaginea a ceea ce firma dorește să devină peste 5-10 ani (răspunde la întrebarea: „Unde vrem să ajungem?”). 2. Misiunea: exprimă scopul existențial al firmei în prezent, ce problemă rezolvă, cui se adresează și ce valoare unică aduce clienților săi (răspunde la întrebarea: „Ce facem, pentru cine facem și cum facem astăzi?”). 3. Valorile organizaționale: principiile etice și convingerile fundamentale care ghidează deciziile zilnice ale echipei și comportamentul față de clienți (ex. integritate, calitate fără compromis, sustenabilitate, transparență). Pentru a transpune viziunea în realitate, conducerea trebuie să formuleze obiective strategice și operaționale folosind metodologia SMART: • S (Specific) — clar formulat, precis delimitat, fără ambiguități. • M (Măsurabil) — cuantificabil numeric prin indicatori cheie de performanță (KPI). • A (Abordabil / Realist) — ambițios, dar fezabil raportat la resursele disponibile. • R (Relevant) — aliniat cu misiunea generală și important pentru succesul afacerii. • T (Încadrat în Timp) — cu un termen limită (deadline) bine fixat.",
+     "ideiCheie": [
+      "Viziunea indică destinația viitoare a firmei; misiunea explică activitatea și scopul prezent.",
+      "Valorile companiei sunt busola etică ce guvernează cultura internă și relația cu clienții.",
+      "Metodologia SMART transformă dorințele vagi în ținte concrete, măsurabile și temporizate.",
+      "Un obiectiv SMART conține cifre precise și un termen clar de realizare."
+     ],
+     "termeni": [
+      {
+       "t": "viziune a firmei",
+       "d": "imaginea aspirațională pe termen lung despre ceea ce dorește organizația să devină"
+      },
+      {
+       "t": "misiune a firmei",
+       "d": "declarația formală privind scopul fundamental și utilitatea socială a afacerii în prezent"
+      },
+      {
+       "t": "obiective SMART",
+       "d": "ținte de performanță caracterizate prin specificitate, măsurabilitate, realism și termen"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce diferență este între viziunea și misiunea unei companii?",
+       "v": "Viziunea privește viitorul („unde vrem să ajungem”), misiunea privește prezentul („de ce existăm și ce facem acum”)."
+      },
+      {
+       "f": "Ce reprezintă valorile unei afaceri?",
+       "v": "Principiile morale și standardele de conduită după care funcționează echipa."
+      },
+      {
+       "f": "Ce semnifică acronimul SMART?",
+       "v": "Specific, Măsurabil, Abordabil (atins), Relevant și Încadrat în Timp."
+      },
+      {
+       "f": "Dați un exemplu de obiectiv formulat greșit (non-SMART).",
+       "v": "„Vrem să vindem foarte mult anul acesta” (nu are cifre, nici dată fixă)."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Care dintre următoarele formulări reprezintă un obiectiv SMART corect?",
+       "optiuni": [
+        "„Atragerea a 500 de clienți noi plătitori și realizarea unei cifre de afaceri de 100.000 lei până la 31 decembrie 2027”",
+        "„Să fim cei mai tari de pe piață cândva”",
+        "„Să facem mulți bani dacă ne ajută norocul”",
+        "„Să încercăm să fim mai buni decât concurenții”"
+       ],
+       "corect": 0,
+       "explicatie": "Conține cifre precise (500 clienți, 100.000 lei) și un termen limită clar (31 decembrie 2027)."
+      },
+      {
+       "intrebare": "Misiunea unei clinici veterinare poate fi formulată astfel:",
+       "optiuni": [
+        "„Oferim îngrijire medicală de înaltă calitate și compasiune pentru sănătatea animalelor de companie din comunitatea noastră”",
+        "„Vom deveni stăpânii universului peste 100 de ani”",
+        "„Obiectivul nostru secret este să nu vorbim cu stăpânii câinilor”",
+        "„Să plătim zero salarii medicilor”"
+       ],
+       "corect": 0,
+       "explicatie": "Misiunea explică clar ce servicii oferă, cui se adresează și cu ce standard de calitate."
+      },
+      {
+       "intrebare": "Valorile corporative declarate au rolul practic de a:",
+       "optiuni": [
+        "ghida atitudinea salariaților și modul în care sunt tratați clienții în fiecare zi",
+        "decora pereții sediului fără niciun efect real",
+        "înlocui plata taxelor legale",
+        "reduce numărul orelor de somn ale patronului"
+       ],
+       "corect": 0,
+       "explicatie": "Valorile autentice construiesc încrederea și reputația de brand a companiei."
+      },
+      {
+       "intrebare": "Un obiectiv care este imposibil de atins cu bugetul și echipa actuală încalcă cerința SMART:",
+       "optiuni": [
+        "Abordabil / Realist (Achievable)",
+        "Specific",
+        "Măsurabil",
+        "Încadrat în Timp"
+       ],
+       "corect": 0,
+       "explicatie": "Obiectivele nerealiste demotivează echipa și conduc la eșec previzibil."
+      }
+     ]
+    },
+    {
+     "id": "ant10-09",
+     "titlu": "Analiza mediului de afaceri: Matricea SWOT și micromediul/macromediul",
+     "rezumat": "Orice întreprindere funcționează într-un mediu economic dinamic, pe care trebuie să îl cerceteze continuu. Mediul de afaceri se împarte în: 1. Micromediul: factorii apropiați cu care firma interacționează direct și pe care îi poate influența (clienții, furnizorii de materii prime, intermediarii comerciali, concurenții și publicul local). 2. Macromediul: forțele largi ale societății asupra cărora firma nu are control direct, analizate prin modelul PESTLE: factori Politici (stabilitate guvernamentală), Economici (inflație, dobânzi, PIB), Sociali (demografie, stil de viață), Tehnologici (automatizare, internet), Legali (legi fiscale, legislația muncii) și Ecologici (standarde de mediu). Matricea SWOT este instrumentul strategic clasic de diagnoză a companiei, realizând o punte între mediul intern și cel extern: • Mediul intern (controlabil de firmă): (a) Puncte tari (Strengths): avantaje competitive, brevete, echipă loială, brand recunoscut, costuri mici. (b) Puncte slabe (Weaknesses): lipsă de fonduri, tehnologie învechită, notorietate scăzută, lipsă de experiență. • Mediul extern (necontrolabil direct): (a) Oportunități (Opportunities): deschiderea unei piețe noi, programe de granturi europene, retragerea unui concurent mare, noi tehnologii accesibile. (b) Amenințări (Threats): creșterea taxelor, scumpirea masivă a energiei, intrarea unor corporații rivale, declinul demografic.",
+     "ideiCheie": [
+      "Micromediul cuprinde clienții, furnizorii și concurenții cu care firma interacționează direct.",
+      "Macromediul (PESTLE) cuprinde factorii globali economici, politici, sociali și tehnologici.",
+      "Matricea SWOT corelează punctele tari și slabe interne cu oportunitățile și amenințările externe.",
+      "Strategia optimă folosește punctele tari pentru a profita de oportunități și a diminua amenințările."
+     ],
+     "termeni": [
+      {
+       "t": "micromediu al firmei",
+       "d": "ansamblul forțelor din proximitatea imediată a întreprinderii ce influențează direct activitatea"
+      },
+      {
+       "t": "macromediu al firmei",
+       "d": "factorii generali de context (economici, legali, tehnologici) independenți de firmă"
+      },
+      {
+       "t": "matrice SWOT",
+       "d": "instrument de analiză strategică a Punctelor Tari, Punctelor Slabe, Oportunităților și Amenințărilor"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt cele patru cadrane ale matricei SWOT?",
+       "v": "Puncte tari (Strengths), Puncte slabe (Weaknesses), Oportunități (Opportunities) și Amenințări (Threats)."
+      },
+      {
+       "f": "Ce elemente din analiza SWOT țin de mediul intern al firmei?",
+       "v": "Punctele tari și punctele slabe (sunt sub controlul direct al antreprenorului)."
+      },
+      {
+       "f": "Ce elemente din analiza SWOT țin de mediul extern al pieței?",
+       "v": "Oportunitățile și amenințările (vin din piață și nu depind exclusiv de firmă)."
+      },
+      {
+       "f": "Dați un exemplu de oportunitate pentru o firmă de panouri solare.",
+       "v": "Lansarea unui program guvernamental masiv de subvenții pentru energie regenerabilă."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "O echipă formată din ingineri software de elită cu 10 ani de experiență reprezintă pentru o firmă de IT:",
+       "optiuni": [
+        "un Punct Tare (Strength) intern",
+        "o Amenințare externă",
+        "o Oportunitate necontrolabilă",
+        "un Punct Slab"
+       ],
+       "corect": 0,
+       "explicatie": "Competențele excepționale ale echipei sunt atuuri interne directe ale companiei."
+      },
+      {
+       "intrebare": "Scumpirea cu 40% a prețului la energia electrică la nivel național constituie pentru o fabrică de cărămidă:",
+       "optiuni": [
+        "o Amenințare (Threat) provenită din macromediul extern",
+        "un Punct Tare intern",
+        "o Oportunitate de economisire",
+        "o decizie voluntară a administratorului"
+       ],
+       "corect": 0,
+       "explicatie": "Variațiile globale de preț la utilități sunt forțe externe care amenință profitabilitatea."
+      },
+      {
+       "intrebare": "Lipsa fondurilor pentru promovare și un site web învechit reprezintă într-o analiză SWOT:",
+       "optiuni": [
+        "Puncte Slabe (Weaknesses) ale mediului intern",
+        "Oportunități avantajoase",
+        "Puncte Tari competitive",
+        "Forțe exterioare prietenoase"
+       ],
+       "corect": 0,
+       "explicatie": "Slăbiciunile interne trebuie recunoscute onest pentru a fi remediate prin strategie."
+      },
+      {
+       "intrebare": "Analiza macromediului prin modelul PESTLE analizează:",
+       "optiuni": [
+        "factorii Politici, Economici, Sociali, Tehnologici, Legali și Ecologici",
+        "doar salariul zilierilor",
+        "exclusiv culoarea siglei concurentului",
+        "stocurile de hârtie din birou"
+       ],
+       "corect": 0,
+       "explicatie": "PESTLE oferă o radiografie completă a marilor forțe ce guvernează mediul de afaceri."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ant10-c4",
+   "titlu": "Marketingul și vânzările firmei",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "ant10-10",
+     "titlu": "Mixul de marketing — cei 4P: Produs, Preț, Plasament, Promovare",
+     "rezumat": "Marketingul reprezintă arta și știința de a identifica, anticipa și satisface profitabil nevoile consumatorilor. Conceptul clasic operaționalizat de E. Jerome McCarthy este Mixul de Marketing, cunoscut drept „cei 4P”: 1. Produsul (Product): ce oferi pe piață (bun tangibil sau serviciu). Include atributele fizice, calitatea, designul, ambalajul, funcționalitățile, gama sortimentală, marca (brandul) și serviciile post-vânzare (garanție, asistență). 2. Prețul (Price): suma de bani cerută pentru produs. Este singurul element al mixului care generează venituri (ceilalți trei generează costuri). Strategiile uzuale de stabilire a prețului: pe baza costurilor (Cost-Plus: cost + marjă de profit), pe baza concurenței (la nivelul pieței) sau pe baza valorii percepute de client (preț premium pentru produse de lux/statut). Strategii de lansare: prețul de penetrare (preț mic pentru atragerea rapidă a cotei de piață) sau prețul de smântânire (preț mare la început, vizând pasionații dispuși să plătească mult). 3. Plasamentul / Distribuția (Place): canalele prin care produsul ajunge de la fabrică la consumator. Distribuția poate fi directă (producător -> consumator prin magazin propriu sau site) sau indirectă (producător -> angrosist -> retailer -> consumator). 4. Promovarea (Promotion): ansamblul acțiunilor de comunicare menite să informeze, să convingă și să reamintească clienților despre produs (publicitate, relații publice, promovarea vânzărilor, forța de vânzare și marketingul direct).",
+     "ideiCheie": [
+      "Mixul de marketing reunește instrumentele operaționale fundamentale: Produs, Preț, Plasament și Promovare.",
+      "Prețul este unicul component din mix care aduce venituri, ceilalți generând cheltuieli.",
+      "Distribuția decide rapiditatea și accesibilitatea fizică sau digitală a ofertei pentru clienți.",
+      "Promovarea construiește notorietatea și stimulează decizia de cumpărare prin mesaje convingătoare."
+     ],
+     "termeni": [
+      {
+       "t": "mix de marketing",
+       "d": "ansamblul celor patru instrumente tactice (Produs, Preț, Plasament, Promovare) controlate de firmă"
+      },
+      {
+       "t": "strategie de penetrare",
+       "d": "practicarea unor prețuri inițiale reduse pentru a câștiga rapid o cotă importantă de piață"
+      },
+      {
+       "t": "canal de distribuție",
+       "d": "traseul parcurs de un produs de la producător până la consumatorul final"
+      },
+      {
+       "t": "promovare",
+       "d": "comunicarea orientată spre informarea și stimularea cumpărătorilor potențiali"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt componentele mixului clasic de marketing (cei 4P)?",
+       "v": "Produsul (Product), Prețul (Price), Plasamentul (Place) și Promovarea (Promotion)."
+      },
+      {
+       "f": "Ce deosebește Prețul de ceilalți trei P?",
+       "v": "Prețul este singurul element care generează venituri; Produsul, Distribuția și Promovarea generează costuri."
+      },
+      {
+       "f": "Ce este distribuția directă?",
+       "v": "Vânzarea mărfurilor direct de către producător către client, fără intermediari comerciali."
+      },
+      {
+       "f": "Ce presupune strategia prețului de penetrare?",
+       "v": "Intrarea pe piață cu prețuri mici pentru a atrage rapid mulți clienți de la concurență."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Strategia de a lansa un nou sortiment de biscuiți la un preț foarte mic pentru a cuceri rapid rafturile magazinelor este:",
+       "optiuni": [
+        "o strategie a prețului de penetrare pe piață",
+        "o strategie a prețului de smântânire de lux",
+        "un monopol administrativ",
+        "faliment voluntar"
+       ],
+       "corect": 0,
+       "explicatie": "Prețul mic deschide porțile magazinelor și convinge consumatorii să încerce noutatea."
+      },
+      {
+       "intrebare": "Din perspectiva mixului de marketing, ambalajul atractiv, garanția extinsă de 3 ani și logo-ul fac parte din:",
+       "optiuni": [
+        "politica de Produs (Product)",
+        "politica de Preț (Price)",
+        "canalul de Distribuție (Place)",
+        "contabilitatea bancară"
+       ],
+       "corect": 0,
+       "explicatie": "Atributele fizice, de siguranță și de design îmbogățesc valoarea totală a produsului."
+      },
+      {
+       "intrebare": "Vânzarea legumelor cultivate în propria seră exclusiv prin magazinul online propriu reprezintă:",
+       "optiuni": [
+        "un canal de distribuție directă, fără intermediari",
+        "un canal de distribuție lung cu 5 niveluri",
+        "concurență neloială",
+        "comerț ilicit"
+       ],
+       "corect": 0,
+       "explicatie": "Producătorul livrează comanda direct la ușa cumpărătorului final."
+      },
+      {
+       "intrebare": "Campania de reduceri „Cumperi 2 produse și primești 1 gratuit” este un instrument clasic de:",
+       "optiuni": [
+        "promovare a vânzărilor (sales promotion)",
+        "politică de personal",
+        "ecologie aplicată",
+        "audit fiscal"
+       ],
+       "corect": 0,
+       "explicatie": "Promoțiile punctuale stimulează cumpărăturile impulsive și lichidează stocurile."
+      }
+     ]
+    },
+    {
+     "id": "ant10-11",
+     "titlu": "Marketing digital, rețele sociale și construirea brandului",
+     "rezumat": "În era internetului, prezența digitală nu mai este opțională, ci reprezintă cartea de vizită principală a oricărei afaceri. Marketingul digital cuprinde totalitatea activităților de promovare desfășurate prin canale electronice: motoare de căutare, rețele sociale, website-uri, e-mail și aplicații mobile. Canalele digitale esențiale sunt: 1. Website-ul propriu: magazinul sau vitrina oficială, care trebuie să fie rapid, optimizat pentru telefoane mobile (responsive) și securizat (HTTPS). 2. Optimizarea pentru motoare de căutare (SEO): ansamblul tehnicilor prin care site-ul ajunge pe primele poziții în căutările organice (gratuite) pe Google. 3. Rețelele sociale (Social Media Marketing): platforme precum Instagram, TikTok, Facebook, LinkedIn sau YouTube permit dialogul direct cu comunitatea, construirea de conținut video captivant și reclame plătite hiper-targetate după vârstă, locație și interese exacte. Brandul (marca) este mai mult decât un nume sau o siglă grafică: este promisiunea pe care firma o face clienților săi, sentimentul de încredere și reputația consolidată în timp. Construirea unui brand puternic oferă loialitate, protecție în fața războaielor de prețuri și permite practicarea unor marje de profit superioare.",
+     "ideiCheie": [
+      "Marketingul digital oferă măsurabilitate precisă a costurilor și rezultatelor în timp real.",
+      "Rețelele sociale permit comunicarea directă și targetarea minuțioasă a publicului interesat.",
+      "SEO îmbunătățește vizibilitatea organică a afacerii pe Google fără a plăti pe fiecare click.",
+      "Brandul este capitalul de încredere și reputație care fidelizează cumpărătorii pe termen lung."
+     ],
+     "termeni": [
+      {
+       "t": "marketing digital",
+       "d": "promovarea produselor și brandului prin intermediul tehnologiilor și platformelor online"
+      },
+      {
+       "t": "optimizare SEO",
+       "d": "procesul de creștere a vizibilității unui site în rezultatele neplătite ale motoarelor de căutare"
+      },
+      {
+       "t": "targetare",
+       "d": "selecția strictă a publicului căruia i se adresează o campanie publicitară după date concrete"
+      },
+      {
+       "t": "brand (marcă)",
+       "d": "identitatea unică, reputația și percepția emoțională a unei companii în mintea publicului"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care este principalul avantaj al publicității online față de cea tradițională (panouri, TV)?",
+       "v": "Măsurabilitatea exactă a rezultatelor și posibilitatea de a targeta doar publicul interesat."
+      },
+      {
+       "f": "Ce este SEO (Search Engine Optimization)?",
+       "v": "Tehnicile folosite pentru ca un site să apară gratuit printre primele rezultate la căutările pe Google."
+      },
+      {
+       "f": "Ce definește un brand autentic?",
+       "v": "Promisiunea consecventă de valoare și încrederea câștigată în fața clienților."
+      },
+      {
+       "f": "De ce contează conținutul video pe rețelele sociale?",
+       "v": "Are o rată uriașă de vizualizare și reține atenția mult mai bine decât textul static."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "O companie afișează reclame pe Instagram doar utilizatorilor din Iași, cu vârste între 18 și 25 de ani, pasionați de alergare. Această facilitate ilustrează:",
+       "optiuni": [
+        "puterea de targetare precisă a publicului în marketingul digital",
+        "o eroare tehnică de soft",
+        "încălcarea secretului de stat",
+        "ineficiența internetului"
+       ],
+       "corect": 0,
+       "explicatie": "Canalele online permit orientarea mesajului exact către cei cu probabilitate maximă de cumpărare."
+      },
+      {
+       "intrebare": "Optimizarea SEO aduce ca beneficiu esențial:",
+       "optiuni": [
+        "atragerea de vizitatori interesați pe site fără costuri plătite pe fiecare click",
+        "dublarea automată a banilor din contul bancar",
+        "blocarea tuturor vizitatorilor necunoscuți",
+        "ștergerea site-urilor concurente"
+       ],
+       "corect": 0,
+       "explicatie": "Apariția în topul căutărilor organice asigură un flux constant și gratuit de clienți."
+      },
+      {
+       "intrebare": "Construirea unei reputații solide de brand permite companiei:",
+       "optiuni": [
+        "să fidelizeze clienții și să vândă la prețuri mai mari decât produsele anonime",
+        "să nu mai livreze marfa comandată",
+        "să refuze plata salariilor",
+        "să scape de concurență prin magie"
+       ],
+       "corect": 0,
+       "explicatie": "Încrederea în marcă reduce ezitările cumpărătorilor și sporește valoarea afacerii."
+      },
+      {
+       "intrebare": "Care dintre următoarele acțiuni contribuie negativ la imaginea de brand a unei afaceri?",
+       "optiuni": [
+        "ignorarea sau ștergerea comentariilor prin care clienții reclamă produse defecte",
+        "livrarea comenzilor înainte de termenul promis",
+        "un ambalaj elegant și reciclabil",
+        "un suport tehnic amabil și eficient"
+       ],
+       "corect": 0,
+       "explicatie": "Lipsa de transparență și indiferența față de problemele clienților distrug rapid reputația online."
+      }
+     ]
+    },
+    {
+     "id": "ant10-12",
+     "titlu": "Tehnici de vânzare, negociere și fidelizarea clienților",
+     "rezumat": "Vânzarea este momentul adevărului în afaceri: dacă nu se produc vânzări, afacerea moare, indiferent cât de strălucită este ideea inițială. Vânzarea consultativă modernă nu înseamnă manipulare agresivă, ci identificarea problemelor clientului și oferirea soluției optime. Etapele procesului de vânzare cuprind: prospectarea (identificarea potențialilor clienți), stabilirea primului contact, investigarea nevoilor (prin întrebări deschise), prezentarea beneficiilor (nu doar a caracteristicilor tehnice), tratarea obiecțiilor și încheierea tranzacției (closing). Negocierea comercială este procesul de comunicare prin care două părți cu interese parțial divergente caută să ajungă la o înțelegere reciproc avantajoasă (principiul Win-Win — Câștig-Câștig). O negociere de succes presupune pregătire riguroasă, cunoașterea marjei de concesii și a alternativei de rezervă (BATNA — Best Alternative to a Negotiated Agreement). Fidelizarea clienților este adesea mai profitabilă decât atragerea de clienți noi: statistic, atragerea unui cumpărător nou costă de 5 până la 7 ori mai mult decât păstrarea unui client existent. Programele de loialitate (carduri cu puncte, reduceri speciale pentru clienți fideli, asistență post-vânzare excepțională) transformă cumpărătorii ocazionali în ambasadori voluntari ai brandului.",
+     "ideiCheie": [
+      "Vânzarea consultativă pune nevoile reale ale clientului înaintea dorinței oarbe de a vinde.",
+      "În negocierea Win-Win, ambele părți obțin avantaje reale și mențin o relație pe termen lung.",
+      "BATNA reprezintă cea mai bună alternativă de rezervă în cazul în care negocierile eșuează.",
+      "Păstrarea și fidelizarea clienților este semnificativ mai ieftină și profitabilă decât căutarea continuă de noi cumpărători."
+     ],
+     "termeni": [
+      {
+       "t": "vânzare consultativă",
+       "d": "abordarea în care agentul acționează ca un consilier de încredere oferind soluții"
+      },
+      {
+       "t": "negociere Win-Win",
+       "d": "model de negociere cooperativă în care ambele părți ies în câștig"
+      },
+      {
+       "t": "BATNA",
+       "d": "cea mai bună alternativă de acțiune disponibilă dacă negocierea actuală nu se finalizează"
+      },
+      {
+       "t": "fidelizare a clienților",
+       "d": "strategia pe termen lung de menținere a satisfacției și loialității cumpărătorilor existenți"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce deosebește vânzarea consultativă de vânzarea agresivă?",
+       "v": "Vânzarea consultativă ascultă și rezolvă nevoia clientului; cea agresivă împinge produsul cu orice preț."
+      },
+      {
+       "f": "Ce presupune o negociere comercială de tip Win-Win?",
+       "v": "Găsirea unei soluții prin care ambii parteneri se simt avantajați și respectați."
+      },
+      {
+       "f": "Ce este BATNA?",
+       "v": "Cea mai bună alternativă pe care o ai dacă negocierea prezentă eșuează."
+      },
+      {
+       "f": "De ce este fidelizarea clienților crucială pentru profitabilitate?",
+       "v": "Pentru că un client fidel cumpără recurent, iar costul de păstrare este de câteva ori mai mic decât cel de achiziție."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Un agent comercial care îi recomandă clientului un laptop mai ieftin, dar perfect adaptat nevoilor de studiu ale acestuia, practică:",
+       "optiuni": [
+        "o vânzare consultativă orientată pe încredere și satisfacție",
+        "o tentativă de a ruina compania",
+        "o negociere agresivă de tip pierdere-pierdere",
+        "o infracțiune comercială"
+       ],
+       "corect": 0,
+       "explicatie": "Construirea unei relații de lungă durată aduce recomandări și clienți fideli."
+      },
+      {
+       "intrebare": "Principiul de negociere „Win-Win” urmărește ca:",
+       "optiuni": [
+        "ambele părți să își atingă obiectivele majore și să continue colaborarea",
+        "o parte să câștige totul iar cealaltă să fie ruinată",
+        "niciun contract să nu fie semnat",
+        "prețul să fie stabilit de un judecător"
+       ],
+       "corect": 0,
+       "explicatie": "Colaborările durabile și sănătoase se bazează pe satisfacție și beneficii reciproce."
+      },
+      {
+       "intrebare": "Conceptul BATNA reprezintă:",
+       "optiuni": [
+        "cea mai bună opțiune de rezervă dacă negocierile actuale eșuează",
+        "o amendă fiscală plătită la ANAF",
+        "o reducere promoțională de Paște",
+        "un tip de credit bancar"
+       ],
+       "corect": 0,
+       "explicatie": "Cunoașterea alternativei de rezervă oferă siguranță și putere în timpul negocierilor."
+      },
+      {
+       "intrebare": "Programele de fidelizare (puncte bonus, cadouri aniversare, tratament VIP) au ca scop:",
+       "optiuni": [
+        "transformarea clienților ocazionali în clienți fideli pe viață",
+        "creșterea costurilor fără niciun rezultat",
+        "alungarea cumpărătorilor din magazin",
+        "complicarea plății la casă"
+       ],
+       "corect": 0,
+       "explicatie": "Clienții fideli cumpără mai des, cheltuiesc mai mult și recomandă afacerea cunoscuților."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ant10-c5",
+   "titlu": "Managementul operațiunilor și al resurselor umane",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "ant10-13",
+     "titlu": "Planul operațional: spațiu, furnizori, stocuri și flux de lucru",
+     "rezumat": "Planul operațional este secțiunea practică din viața unei afaceri care explică modul concret în care ideea este transformată zi de zi în produse sau servicii livrate clienților. Fără operațiuni bine puse la punct, vânzările promise rămân simple iluzii. Componentele esențiale ale planului operațional sunt: 1. Locația și spațiul de lucru: alegerea sediului sau a halei de producție (suprafață, utilități, acces pentru transport, costul chiriei). 2. Echipamentele și tehnologia: utilaje, mașini, calculatoare, softuri de gestiune necesare bunei funcționări. 3. Relația cu furnizorii: selectarea partenerilor care livrează materiile prime și mărfurile. O afacere prudentă evită dependența de un singur furnizor, negociind termene de plată avantajoase (ex. plata la 30 sau 60 de zile). 4. Managementul stocurilor: menținerea echilibrului între a nu avea stocuri suficiente (ruptură de stoc, clienți pierduți) și a avea stocuri excesive (bani blocați în marfă nevândută, riscuri de deteriorare). Filosofia modernă Just-in-Time (JIT) urmărește aprovizionarea exact la momentul intrării în fabricație, minimizând spațiul și costul de depozitare. 5. Fluxul de lucru (workflow): secvența logică a etapelor de lucru, de la preluarea comenzii până la livrarea finală și service.",
+     "ideiCheie": [
+      "Planul operațional transformă strategia comercială în activități de producție zilnice.",
+      "Selectarea riguroasă a furnizorilor garantează calitatea materiilor prime și respectarea termenelor.",
+      "Gestiunea stocurilor previne atât blocarea inutilă a banilor, cât și pierderea vânzărilor prin lipsă de marfă.",
+      "Metoda Just-in-Time (JIT) reduce costurile de stocare aprovizionând materialele doar când sunt cerute."
+     ],
+     "termeni": [
+      {
+       "t": "plan operațional",
+       "d": "descrierea detaliată a resurselor fizice, a proceselor și a fluxurilor productive ale firmei"
+      },
+      {
+       "t": "ruptură de stoc",
+       "d": "epuizarea produselor din depozit care împiedică onorarea comenzilor către clienți"
+      },
+      {
+       "t": "Just-in-Time (JIT)",
+       "d": "sistem de producție și aprovizionare prin care materialele sosesc exact când este nevoie de ele"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce cuprinde planul operațional al unei afaceri?",
+       "v": "Spațiul, utilajele, relația cu furnizorii, gestiunea stocurilor și procedurile de producție."
+      },
+      {
+       "f": "Ce risc implică dependența de un singur furnizor?",
+       "v": "Dacă furnizorul are probleme sau mărește nejustificat prețurile, afacerea poate fi paralizată."
+      },
+      {
+       "f": "Ce este ruptura de stoc?",
+       "v": "Situația în care nu mai ai produse pe stoc pentru a onora cererile clienților."
+      },
+      {
+       "f": "Ce avantaj oferă metoda de gestiune Just-in-Time?",
+       "v": "Scade costurile de depozitare și evită blocarea capitalului în marfă care zace în depozit."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "O firmă comandă stocuri uriașe de mărfuri perisabile fără să aibă comenzi ferme. Consecința probabilă este:",
+       "optiuni": [
+        "blocarea fondurilor bănești și riscul masiv de alterare sau expirare a produselor",
+        "creșterea automată a profitului de zece ori",
+        "eliminarea totală a oricărui risc",
+        "felicitări din partea băncii"
+       ],
+       "corect": 0,
+       "explicatie": "Stocurile excesive imobilizează lichiditățile și aduc cheltuieli mari de conservare."
+      },
+      {
+       "intrebare": "Metoda de organizare operațională „Just-in-Time” presupune:",
+       "optiuni": [
+        "aprovizionarea cu piese și materiale exact în momentul în care intră pe linia de asamblare",
+        "cumpărarea de materiale pentru următorii 50 de ani",
+        "livrarea produselor doar o dată pe deceniu",
+        "oprirea definitivă a utilajelor"
+       ],
+       "corect": 0,
+       "explicatie": "JIT maximizează viteza de rotație a capitalului și reduce costurile cu depozitele."
+      },
+      {
+       "intrebare": "Un antreprenor care deschide o spălătorie auto trebuie să verifice cu prioritate în planul operațional:",
+       "optiuni": [
+        "racordul la rețeaua de apă, canalizare, puterea electrică instalată și autorizațiile de mediu",
+        "culoarea mașinilor vecinilor",
+        "prețul aurului la bursa din Tokyo",
+        "numărul de stele de pe cer"
+       ],
+       "corect": 0,
+       "explicatie": "Utilitățile industriale adecvate sunt indispensabile funcționării zilnice a afacerii."
+      },
+      {
+       "intrebare": "Negocierea unor termene de plată la 60 de zile cu furnizorii de materii prime ajută firma să:",
+       "optiuni": [
+        "își mențină banii în cont (lichiditatea) până încasează vânzările de la propriii clienți",
+        "uite să mai plătească vreodată factura",
+        "își concedieze toți contabilii",
+        "devină o organizație caritabilă"
+       ],
+       "corect": 0,
+       "explicatie": "Creditul-furnizor este una dintre cele mai ieftine și sănătoase forme de finanțare a activității curente."
+      }
+     ]
+    },
+    {
+     "id": "ant10-14",
+     "titlu": "Managementul echipei: recrutare, motivare, delegare și leadership",
+     "rezumat": "Oamenii reprezintă cel mai valoros activ al unei organizații: utilajele pot fi cumpărate de oricine, dar o echipă unită, competentă și motivată este aproape imposibil de copiat de către concurență. Etapele managementului resurselor umane cuprind: 1. Planificarea și recrutarea: identificarea posturilor necesare, redactarea clară a Fișei Postului (care detaliază sarcinile, responsabilitățile și cerințele), publicarea anunțurilor și selecția candidaților prin interviuri și probe practice. 2. Integrarea (onboarding): instruirea noului angajat în primele săptămâni, prezentarea valorilor firmei și desemnarea unui mentor. 3. Motivarea personalului: îmbinarea motivării financiare (salariu fix competitiv, bonusuri de performanță, comisioane) cu motivarea non-financiară (recunoașterea meritelor, oportunități de avansare, flexibilitatea programului, o atmosferă de lucru bazată pe respect). Conform teoriei bifactoriale a lui Herzberg, salariul previne nemulțumirea, dar adevărata motivare vine din realizarea profesională și responsabilitate. 4. Delegarea eficientă: capacitatea antreprenorului de a transfera autoritatea și realizarea unor sarcini către colaboratori, fără a face micromanagement sufocant. 5. Leadership vs. Management: managerul administrează procese și bugete, pe când liderul inspiră oamenii, construiește o viziune comună și creează noi lideri.",
+     "ideiCheie": [
+      "Resursele umane constituie motorul inovării și al excelenței în serviciul clienților.",
+      "Fișa postului clarifică atribuțiile, competențele cerute și indicatorii de performanță.",
+      "Motivarea non-financiară (aprecierea, autonomia, respectul) este la fel de importantă ca salariul.",
+      "Delegarea inteligentă eliberează timpul antreprenorului pentru gândire strategică și dezvoltare."
+     ],
+     "termeni": [
+      {
+       "t": "fișă a postului",
+       "d": "document intern ce descrie rolul, atribuțiile, responsabilitățile și cerințele unui loc de muncă"
+      },
+      {
+       "t": "motivare non-financiară",
+       "d": "stimulente psihologice și profesionale (recunoaștere, flexibilitate) ce sporesc implicarea"
+      },
+      {
+       "t": "delegare",
+       "d": "transferul asumat al autorității de executare a unor sarcini către membrii echipei"
+      },
+      {
+       "t": "leadership",
+       "d": "abilitatea de a ghida, inspira și mobiliza o echipă spre realizarea unei viziuni comune"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este fișa postului?",
+       "v": "Documentul care definește sarcinile, cerințele și responsabilitățile concrete ale unui salariat."
+      },
+      {
+       "f": "Care este diferența dintre motivarea financiară și cea non-financiară?",
+       "v": "Financiara ține de bani (salarii, prime); non-financiara ține de recunoaștere, autonomie, respect și dezvoltare."
+      },
+      {
+       "f": "Ce riscă antreprenorul care refuză să delege sarcini?",
+       "v": "Riscă epuizarea (burnout), sufocarea afacerii și blocarea creșterii din lipsă de timp."
+      },
+      {
+       "f": "Ce deosebește un lider de un simplu șef autoritar?",
+       "v": "Liderul inspiră prin exemplu personal și dezvoltă oamenii, în timp ce șeful controlează prin frică."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Documentul care descrie exact sarcinile de serviciu, relațiile de subordonare și calificările cerute pentru un angajat se numește:",
+       "optiuni": [
+        "Fișa Postului",
+        "Certificat de urbanism",
+        "Extras de cont bancar",
+        "Contract de comodat"
+       ],
+       "corect": 0,
+       "explicatie": "Fișa postului elimină confuziile și stabilește criteriile clare de evaluare a muncii."
+      },
+      {
+       "intrebare": "În teoria motivației a lui Herzberg, recunoașterea meritelor și oportunitatea de creștere profesională reprezintă:",
+       "optiuni": [
+        "factori motivatori autentici care generează satisfacție profundă și implicare",
+        "motive de concediere imediată",
+        "obligații fiscale către stat",
+        "factori de igienă secundari fără efect"
+       ],
+       "corect": 0,
+       "explicatie": "Oamenii se implică cu pasiune atunci când simt că munca lor contează și sunt apreciați."
+      },
+      {
+       "intrebare": "Un antreprenor care verifică fiecare minut din activitatea angajaților și nu lasă pe nimeni să ia nicio decizie practică:",
+       "optiuni": [
+        "micromanagement dăunător care distruge inițiativa și autonomia echipei",
+        "un leadership modern desăvârșit",
+        "o metodă ecologică de lucru",
+        "un plan financiar de succes"
+       ],
+       "corect": 0,
+       "explicatie": "Lipsa de încredere alungă oamenii valoroși și frânează dezvoltarea companiei."
+      },
+      {
+       "intrebare": "Delegarea eficientă a sarcinilor îi permite antreprenorului:",
+       "optiuni": [
+        "să își dedice timpul strategiei de creștere și atragerii de parteneri cheie",
+        "să nu mai vină niciodată la muncă",
+        "să își șteargă firma din Registrul Comerțului",
+        "să uite cum se numesc produsele sale"
+       ],
+       "corect": 0,
+       "explicatie": "Prin delegare, fondatorul trece de la nivelul de executant la cel de arhitect al afacerii."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ant10-c6",
+   "titlu": "Finanțele afacerii, riscuri și etică",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "ant10-15",
+     "titlu": "Costuri de pornire, bugete și fluxul de numerar (Cash Flow)",
+     "rezumat": "Multe afaceri eșuează nu din lipsă de idei bune, ci din gestionarea defectuoasă a banilor. O distincție capitală în finanțele afacerii este cea dintre cheltuielile de capital (CAPEX) și cheltuielile operaționale (OPEX): 1. CAPEX (Capital Expenditures): investițiile inițiale sau de dezvoltare în active corporale pe termen lung (cumpărarea de mașini, renovarea sediului, utilaje, calculatoare). 2. OPEX (Operating Expenses): costurile curente recurente necesare funcționării zilnice (salariile lunare, chiriile, facturile la curent și internet, materiile prime, abonamentele software). Bugetul de Venituri și Cheltuieli (BVC) planifică încasările și plățile estimate, calculând rezultatul financiar previzionat (profit sau pierdere). Fluxul de numerar (Cash Flow) este oxigenul oricărei companii: el măsoară intrările și ieșirile efective de bani lichizi din conturi pe parcursul fiecărei săptămâni sau luni. O firmă poate fi profitabilă pe hârtie (a emis facturi mari), dar să intre în faliment dacă acele facturi nu sunt plătite la timp de clienți, iar firma rămâne fără lichidități pentru a plăti salariile și taxele. „Profitul este o opinie contabilă, dar Cash Flow-ul este o realitate concretă.”",
+     "ideiCheie": [
+      "CAPEX reprezintă cheltuielile de investiții inițiale, pe când OPEX sunt costurile curente lunare.",
+      "Bugetul de Venituri și Cheltuieli (BVC) planifică performanța financiară a firmei pe o perioadă dată.",
+      "Cash Flow-ul (fluxul de numerar) urmărește lichiditățile reale disponibile pentru plăți imediate.",
+      "O companie poate fi profitabilă pe hârtie, dar să intre în incapacitate de plată din lipsă de lichidități."
+     ],
+     "termeni": [
+      {
+       "t": "CAPEX",
+       "d": "cheltuieli de capital pentru achiziționarea și modernizarea activelor pe termen lung"
+      },
+      {
+       "t": "OPEX",
+       "d": "cheltuieli operaționale curente necesare desfășurării activității de zi cu zi"
+      },
+      {
+       "t": "flux de numerar (Cash Flow)",
+       "d": "mișcarea efectivă a banilor lichizi care intră și ies dintr-o companie"
+      },
+      {
+       "t": "insolvență",
+       "d": "incapacitatea unei firme de a-și achita datoriile exigibile cu fondurile bănești disponibile"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este CAPEX?",
+       "v": "Cheltuielile de investiții inițiale în echipamente și active durabile."
+      },
+      {
+       "f": "Ce este OPEX?",
+       "v": "Cheltuielile curente de funcționare (salarii, chirii, utilități)."
+      },
+      {
+       "f": "De ce este Cash Flow-ul considerat oxigenul afacerii?",
+       "v": "Pentru că lipsa de bani lichizi în cont blochează plățile urgente, chiar dacă firma a facturat mult."
+      },
+      {
+       "f": "Ce diferență există între profit și flux de numerar pozitiv?",
+       "v": "Profitul este diferența dintre venituri și cheltuieli facturate; cash flow-ul pozitiv înseamnă bani efectiv încasați în bancă."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Cumpărarea unui cuptor industrial de covrigi de 30.000 de lei reprezintă o cheltuială de tip:",
+       "optiuni": [
+        "CAPEX (cheltuială de capital/investiție inițială)",
+        "OPEX recurent lunar",
+        "dividend pentru asociați",
+        "penalitate bancară"
+       ],
+       "corect": 0,
+       "explicatie": "Cuptorul este un activ fix ce va fi folosit mulți ani și se recuperează prin amortizare."
+      },
+      {
+       "intrebare": "Plata lunară a chiriei pentru spațiul magazinului și factura de curent reprezintă cheltuieli:",
+       "optiuni": [
+        "OPEX (cheltuieli operaționale de exploatare curentă)",
+        "exclusiv de investiții pe viață",
+        "sponsorizări facultative",
+        "certificate de garanție"
+       ],
+       "corect": 0,
+       "explicatie": "Cheltuielile operaționale se repetă lună de lună pentru a menține ușa deschisă clienților."
+      },
+      {
+       "intrebare": "O firmă facturează produse în valoare de 200.000 lei cu termen de încasare la 90 de zile, dar are de plătit salarii de 50.000 lei la sfârșitul lunii curente, având contul gol. Firma se confruntă cu:",
+       "optiuni": [
+        "o criză acută de flux de numerar (Cash Flow negativ), riscând incapacitatea de plată",
+        "un excedent de bani lichizi",
+        "un succes financiar deplin",
+        "o reducere voluntară a capitalului"
+       ],
+       "corect": 0,
+       "explicatie": "Fără lichidități imediate, firma nu își poate onora scadențele, chiar dacă pe hârtie are profit viitor."
+      },
+      {
+       "intrebare": "Menținerea unei rezerve de siguranță de lichiditate (tampon financiar) pentru cel puțin 3-6 luni de funcționare ajută afacerea să:",
+       "optiuni": [
+        "supraviețuiască perioadelor dificile, întârzierilor la plată sau crizelor neprevăzute",
+        "își dubleze numărul de administratori",
+        "scape de orice control contabil",
+        "nu mai folosească niciodată internetul"
+       ],
+       "corect": 0,
+       "explicatie": "Rezerva financiară conferă stabilitate și liniște în momentele de impas comercial."
+      }
+     ]
+    },
+    {
+     "id": "ant10-16",
+     "titlu": "Calculul pragului de rentabilitate și marja de profit",
+     "rezumat": "Pentru a nu naviga în derivă, orice antreprenor trebuie să știe la ce volum de vânzări afacerea sa iese din zona pierderilor și începe să producă profit net. Pragul de rentabilitate (Break-Even Point — BEP) reprezintă acel punct critic al activității în care veniturile totale din vânzări sunt riguros egale cu cheltuielile totale: Încasări Totale = Cheltuieli Totale (Profit = 0). Formula de calcul a pragului de rentabilitate în unități fizice (câte bucăți trebuie vândute) este: Qpr = Costuri Fixe Totale / (Preț Unitar - Cost Variabil Unitar). Diferența (Preț Unitar - Cost Variabil Unitar) se numește marjă brută pe unitate (sau contribuție unitară) și arată cât din prețul fiecărui produs vândut rămâne disponibil pentru a acoperi costurile fixe (chiria, salariile de bază, amortizarea). După ce s-a atins pragul de rentabilitate, fiecare unitate suplimentară vândută generează profit direct egal cu marja sa brută. Marja de profit exprimă procentual cât reprezintă profitul din cifra de afaceri realizată: Marja = (Profit Net / Cifra de Afaceri) × 100. O marjă confortabilă oferă siguranță în fața scumpirii materiilor prime sau a presiunilor concurenței.",
+     "ideiCheie": [
+      "Pragul de rentabilitate este nivelul minim de activitate la care încasările acoperă exact toate costurile.",
+      "Formula BEP: Qpr = CF / (Preț - Cost Variabil Unitar).",
+      "Marja brută pe produs acoperă întâi costurile fixe, iar după depășirea pragului generează profit net.",
+      "Marja de profit reflectă eficiența transformării cifrei de afaceri în câștig financiar curat."
+     ],
+     "termeni": [
+      {
+       "t": "prag de rentabilitate (BEP)",
+       "d": "volumul producției sau vânzărilor la care profitul este nul (încasări = costuri)"
+      },
+      {
+       "t": "marjă brută unitară",
+       "d": "diferența dintre prețul de vânzare și costul variabil pe o bucată"
+      },
+      {
+       "t": "marjă de profit",
+       "d": "procentul din cifra de afaceri care rămâne ca profit net după achitarea costurilor"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este pragul de rentabilitate?",
+       "v": "Nivelul vânzărilor la care firma își acoperă toate cheltuielile, fără a avea nici profit, nici pierdere."
+      },
+      {
+       "f": "Care este formula pragului de rentabilitate în bucăți?",
+       "v": "Qpr = Costuri Fixe / (Preț unitar - Cost variabil unitar)."
+      },
+      {
+       "f": "Ce reprezintă marja brută pe produs?",
+       "v": "Diferența dintre prețul de vânzare și costul variabil al fabricării acelui produs."
+      },
+      {
+       "f": "Ce se întâmplă cu profitul odată ce firma a depășit pragul de rentabilitate?",
+       "v": "Fiecare produs suplimentar vândut aduce un profit net egal cu marja brută unitară."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Un atelier produce tricouri personalizate. Costurile fixe lunare (chirie, utilități) sunt de 6.000 lei. Prețul unui tricou este 50 lei, iar costul variabil (tricou alb + print) este 20 lei. Pragul de rentabilitate este:",
+       "optiuni": [
+        "200 de tricouri pe lună",
+        "600 de tricouri pe lună",
+        "120 de tricouri pe lună",
+        "50 de tricouri pe lună"
+       ],
+       "corect": 0,
+       "explicatie": "Qpr = CF / (P - CVM) = 6.000 / (50 - 20) = 6.000 / 30 = 200 tricouri."
+      },
+      {
+       "intrebare": "Dacă atelierul din exemplul anterior vinde 250 de tricouri într-o lună, profitul realizat va fi de:",
+       "optiuni": [
+        "1.500 lei",
+        "12.500 lei",
+        "6.000 lei",
+        "zero"
+       ],
+       "corect": 0,
+       "explicatie": "S-au vândut 50 de bucăți peste prag: Profit = 50 tricouri × 30 lei marjă = 1.500 lei."
+      },
+      {
+       "intrebare": "Înainte de a atinge pragul de rentabilitate, firma:",
+       "optiuni": [
+        "înregistrează pierderi financiare și consumă din capitalul de pornire",
+        "obține cel mai mare profit din istorie",
+        "este scutită de plata chiriei",
+        "își majorează automat prețurile"
+       ],
+       "corect": 0,
+       "explicatie": "Până la acoperirea integrală a costurilor fixe, afacerea funcționează pe minus."
+      },
+      {
+       "intrebare": "O marjă de profit net de 20% dintr-o cifră de afaceri de 500.000 lei înseamnă un profit net de:",
+       "optiuni": [
+        "100.000 lei",
+        "20.000 lei",
+        "50.000 lei",
+        "2.500 lei"
+       ],
+       "corect": 0,
+       "explicatie": "Profit = 500.000 × 0,20 = 100.000 lei."
+      }
+     ]
+    },
+    {
+     "id": "ant10-17",
+     "titlu": "Surse de finanțare a afacerii: bootstrapping, credite, fonduri nerambursabile și investitori",
+     "rezumat": "Orice afacere are nevoie de combustibil financiar pentru demarare și extindere. Principalele surse de finanțare disponibile sunt: 1. Autofinanțarea (Bootstrapping): folosirea exclusivă a economiilor personale ale fondatorului și reinvestirea profitului inițial. Avantaj: păstrarea controlului total și a independenței. Dezavantaj: ritm de creștere lent din cauza fondurilor limitate. 2. Prieteni, familie și apropiați (cele 3F — Friends, Fools and Family): împrumuturi informale la început de drum, bazate pe încredere personală. 3. Credite bancare și linii de credit: împrumuturi comerciale ce presupun dobândă și garanții materiale (ipoteci). Sunt greu accesibile pentru firmele la început de drum (start-up-uri fără istoric financiar). 4. Fonduri nerambursabile (Granturi de la stat și UE): programe precum Start-up Nation, Femeia Antreprenor sau Fondurile Structurale Europene. Oferă sume nerambursabile (până la 50.000 - 200.000 euro) dacă firma îndeplinește criterii stricte, creează locuri de muncă și respectă planul de afaceri aprobat. 5. Investitori privați (Business Angels): antreprenori de succes care investesc propriii bani și expertiză (smart money) în fazele timpurii ale afacerii, în schimbul unei cote de părți sociale. 6. Fonduri de capital de risc (Venture Capital — VC): fonduri profesionale care investesc milioane de euro în start-up-uri cu potențial masiv de scalare internațională. 7. Crowdfunding: finanțarea colectivă prin platforme online (Kickstarter, Indiegogo), unde sute sau mii de susținători precomandă produsul înainte de fabricație.",
+     "ideiCheie": [
+      "Bootstrapping-ul înseamnă dezvoltarea afacerii din resurse proprii fără datorii exterioare.",
+      "Fondurile nerambursabile oferă capital valoros, dar cer respectarea strictă a procedurilor și auditului.",
+      "Business Angels aduc capital inițial, mentorat și rețele de contacte (smart money).",
+      "Crowdfunding-ul validează cererea de piață direct prin precomenzi colective de la fani."
+     ],
+     "termeni": [
+      {
+       "t": "bootstrapping",
+       "d": "dezvoltarea unei afaceri bazată exclusiv pe resurse proprii și reinvestirea profitului generat"
+      },
+      {
+       "t": "fonduri nerambursabile",
+       "d": "finanțări publice acordate pentru dezvoltare economică fără obligația rambursării"
+      },
+      {
+       "t": "Business Angel",
+       "d": "investitor individual privat care susține financiar și oferă mentorat unui start-up promițător"
+      },
+      {
+       "t": "crowdfunding",
+       "d": "metodă de strângere de fonduri prin intermediul unei comunități online largi"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce înseamnă conceptul de „bootstrapping” în antreprenoriat?",
+       "v": "Construirea și creșterea afacerii doar pe baza banilor proprii și a veniturilor generate de firmă."
+      },
+      {
+       "f": "Ce este un Business Angel?",
+       "v": "Un investitor privat cu experiență care oferă fonduri și mentorat în schimbul unei părți din firmă."
+      },
+      {
+       "f": "Ce presupune obținerea unui grant prin Start-up Nation?",
+       "v": "Elaborarea unui plan de afaceri solid, crearea și menținerea de noi locuri de muncă."
+      },
+      {
+       "f": "Cum funcționează o campanie de crowdfunding?",
+       "v": "Oamenii obișnuiți susțin financiar proiectul online prin precomenzi sau mici donații."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Un antreprenor care își începe afacerea cu 2.000 de euro din propriile economii și reinvestește fiecare leu câștigat aplică:",
+       "optiuni": [
+        "o strategie de tip bootstrapping (autofinanțare)",
+        "o finanțare prin fonduri de investiții gigant din New York",
+        "un credit guvernamental masiv",
+        "o ofertă publică la bursa internațională"
+       ],
+       "corect": 0,
+       "explicatie": "Autofinanțarea oferă libertate absolută de decizie, chiar dacă resursele sunt modeste la început."
+      },
+      {
+       "intrebare": "Fondurile europene nerambursabile au avantajul că:",
+       "optiuni": [
+        "banii primiți nu trebuie restituiți dacă sunt respectate condițiile și indicatorii din contract",
+        "se acordă fără nicio verificare sau document",
+        "pot fi cheltuiți pe vacanțe personale ale patronului",
+        "sunt disponibili a doua zi fără niciun dosar"
+       ],
+       "corect": 0,
+       "explicatie": "Respectarea strictă a destinației cheltuielilor și menținerea locurilor de muncă sunt cerințe cheie."
+      },
+      {
+       "intrebare": "Un Business Angel oferă pe lângă banii investiți și:",
+       "optiuni": [
+        "experiență de afaceri, conexiuni valoroase și mentorat strategic (smart money)",
+        "garanții că nu se va plăti niciun impozit",
+        "obligația de a închide firma",
+        "interzicerea vânzărilor online"
+       ],
+       "corect": 0,
+       "explicatie": "Aportul de cunoștințe și deschiderea de uși în industrie sunt adesea mai valoroase decât suma investită."
+      },
+      {
+       "intrebare": "Campania de crowdfunding este deosebit de utilă pentru un produs inovator deoarece:",
+       "optiuni": [
+        "validează interesul publicului și adună bani înainte de începerea producției de serie",
+        "exclude utilizarea internetului",
+        "se adresează doar băncilor comerciale",
+        "obligă fondatorii să renunțe la 99% din firmă"
+       ],
+       "corect": 0,
+       "explicatie": "Precomenzile obținute demonstrează certitudinea că produsul are căutare reală."
+      }
+     ]
+    },
+    {
+     "id": "ant10-18",
+     "titlu": "Etica în afaceri, responsabilitatea socială corporativă (CSR) și sustenabilitatea",
+     "rezumat": "Succesul durabil al unei afaceri nu se măsoară exclusiv în cifre contabile, ci și în impactul pe care îl are asupra comunității și a mediului. Etica în afaceri reprezintă ansamblul normelor morale de integritate, corectitudine, respect și transparență care guvernează relațiile companiei cu salariații, clienții, furnizorii și autoritățile. Comportamentele lipsite de etică (publicitatea înșelătoare, încălcarea siguranței produselor, discriminarea angajaților, poluarea ascunsă) pot aduce un profit temporar, dar distrug iremediabil reputația pe termen lung, conducând la boicotul consumatorilor și la amenzi colosale. Responsabilitatea Socială Corporativă (CSR — Corporate Social Responsibility) este angajamentul voluntar al întreprinderii de a contribui activ la dezvoltarea economică sustenabilă, colaborând cu angajații, comunitatea locală și societatea în ansamblu pentru a îmbunătăți calitatea vieții. Acțiunile de CSR cuprind: sponsorizarea școlilor și spitalelor locale, campanii de voluntariat corporativ, susținerea tinerilor defavorizați. Sustenabilitatea și Economia Circulară impun trecerea de la modelul tradițional liniar „ia-produce-aruncă” la un model regenerativ bazat pe reciclare, reutilizare, reducerea deșeurilor și utilizarea energiei verzi. Afacerile care adoptă principii de sustenabilitate atrag mai ușor clienți tineri, obțin credite verzi mai ieftine și asigură un viitor curat generațiilor de mâine.",
+     "ideiCheie": [
+      "Etica în afaceri promovează onestitatea, corectitudinea și transparența în toate tranzacțiile.",
+      "CSR înseamnă implicarea voluntară a companiei în proiecte sociale și ecologice în beneficiul comunității.",
+      "Economia circulară reduce risipa prin reutilizarea, repararea și reciclarea resurselor materiale.",
+      "Sustenabilitatea consolidează loialitatea clienților și protejează mediul pe termen lung."
+     ],
+     "termeni": [
+      {
+       "t": "etică în afaceri",
+       "d": "aplicarea principiilor morale de integritate și corectitudine în mediul economic"
+      },
+      {
+       "t": "responsabilitate socială corporativă (CSR)",
+       "d": "implicarea conștientă și voluntară a companiilor în rezolvarea problemelor societății"
+      },
+      {
+       "t": "economie circulară",
+       "d": "sistem economic regenerativ în care deșeurile sunt reduse la minimum prin reciclare și reutilizare"
+      },
+      {
+       "t": "sustenabilitate",
+       "d": "dezvoltarea care satisface nevoile curente fără a distruge mediul generațiilor viitoare"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce înseamnă responsabilitatea socială a unei companii (CSR)?",
+       "v": "Implicarea voluntară în sprijinirea comunității, a educației, sănătății și protecției mediului."
+      },
+      {
+       "f": "Ce diferență este între economia liniară și cea circulară?",
+       "v": "Economia liniară aruncă bunurile după consum; economia circulară le repară, reutilizează și reciclează."
+      },
+      {
+       "f": "Ce riscuri generează comportamentele necinstite în afaceri?",
+       "v": "Pierderea definitivă a încrederii clienților, boicot comercial, procese judiciare și faliment."
+      },
+      {
+       "f": "De ce companiile moderne investesc în tehnologii ecologice?",
+       "v": "Reduc costurile cu energia pe termen lung, respectă legile de mediu și câștigă simpatia cumpărătorilor."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "O companie care finanțează renovarea laboratorului de informatică al unui liceu local din profitul său derulează:",
+       "optiuni": [
+        "o acțiune de responsabilitate socială corporativă (CSR)",
+        "o tranzacție de speculație bursieră",
+        "o schemă de fraudă bancară",
+        "o procedură de executare silită"
+       ],
+       "corect": 0,
+       "explicatie": "Implicarea în comunitatea locală creează valoare socială și consolidează respectul reciproc."
+      },
+      {
+       "intrebare": "Trecerea la ambalaje din carton biodegradabil și reciclarea resturilor de fabricație reflectă principiile:",
+       "optiuni": [
+        "economiei circulare și sustenabilității de mediu",
+        "risipei necontrolate de resurse",
+        "concurenței neloiale",
+        "falimentului iminent"
+       ],
+       "corect": 0,
+       "explicatie": "Reducerea amprentei ecologice este apreciată de consumatori și protejează natura."
+      },
+      {
+       "intrebare": "Ascunderea defectelor periculoase ale unui produs pentru a nu pierde vânzările constituie:",
+       "optiuni": [
+        "o încălcare gravă a eticii în afaceri și a legislației de protecție a consumatorilor",
+        "o tactică genială de marketing",
+        "o cerință a Registrului Comerțului",
+        "un semn de loialitate corporativă"
+       ],
+       "corect": 0,
+       "explicatie": "Înșelarea consumatorilor atrage amenzi usturătoare, procese penale și distrugerea reputației."
+      },
+      {
+       "intrebare": "Clienții din generațiile tinere tind să prefere și să susțină acele branduri care:",
+       "optiuni": [
+        "demonstrează grijă autentică față de mediu, corectitudine față de angajați și implicare socială",
+        "poluează cel mai mult apele curate",
+        "exploatează salariații peste program fără plată",
+        "refuză orice regulă de igienă"
+       ],
+       "corect": 0,
+       "explicatie": "Valorile etice și sustenabilitatea au devenit criterii majore în alegerea produselor pe piață."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "teze": [
+  {
+   "semestru": 1,
+   "test": [
+    {
+     "intrebare": "Antreprenorul se definește prin:",
+     "optiuni": [
+      "inițiativă, asumarea de riscuri calculate și inovare pentru obținerea de profit",
+      "execuția pasivă a ordinelor altora",
+      "teama paralizantă de orice noutate",
+      "refuzul activității economice"
+     ],
+     "corect": 0,
+     "explicatie": "Asumarea riscului calculat este trăsătura distinctivă a antreprenoriatului."
+    },
+    {
+     "intrebare": "Versiunea simplificată a unui produs utilizată pentru a testa cererea pieței cu costuri minime este:",
+     "optiuni": [
+      "Produsul Minim Viabil (MVP)",
+      "Brevetul de invenție de lux",
+      "Raportul final de lichidare",
+      "Catalogul tipărit de lux"
+     ],
+     "corect": 0,
+     "explicatie": "MVP-ul adună date și validează ideea înainte de investițiile majore."
+    },
+    {
+     "intrebare": "Forma juridică în care asociații răspund pentru datorii doar în limita capitalului social este:",
+     "optiuni": [
+      "Societatea cu Răspundere Limitată (SRL)",
+      "Persoana Fizică Autorizată (PFA)",
+      "Întreprinderea Individuală (II)",
+      "Societatea în Nume Colectiv cu răspundere totală"
+     ],
+     "corect": 0,
+     "explicatie": "SRL protejează averea personală a asociaților."
+    },
+    {
+     "intrebare": "Un obiectiv strategic bine formulat conform regulilor SMART trebuie să fie:",
+     "optiuni": [
+      "Specific, Măsurabil, Abordabil, Relevant și Încadrat în Timp",
+      "secret, vag și fără nicio cifră",
+      "imposibil de realizat vreodată",
+      "formulat fără niciun termen limită"
+     ],
+     "corect": 0,
+     "explicatie": "Metodologia SMART oferă repere clare de evaluare a performanței."
+    },
+    {
+     "intrebare": "În cadrul unei analize SWOT, o criză energetică globală reprezintă:",
+     "optiuni": [
+      "o Amenințare externă",
+      "un Punct Tare intern",
+      "o Punct Slab al echipei",
+      "o Oportunitate sigură"
+     ],
+     "corect": 0,
+     "explicatie": "Evenimentele macroeconomice nefavorabile constituie amenințări externe."
+    },
+    {
+     "intrebare": "Un PFA se caracterizează prin faptul că:",
+     "optiuni": [
+      "răspunderea titularului pentru datoriile afacerii este nelimitată (cu toată averea personală)",
+      "asociații nu pot fi dați niciodată în judecată",
+      "este obligatoriu să aibă 100 de angajați",
+      "capitalul social minim este de 1 milion de euro"
+     ],
+     "corect": 0,
+     "explicatie": "Titularul de PFA garantează obligațiile cu propriile sale bunuri."
+    },
+    {
+     "intrebare": "Codurile CAEN declarate în actul constitutiv arată:",
+     "optiuni": [
+      "activitățile economice pe care societatea este autorizată legal să le desfășoare",
+      "numărul de conturi bancare deschise",
+      "adresele de e-mail ale clienților",
+      "numărul de telefon al primăriei"
+     ],
+     "corect": 0,
+     "explicatie": "Clasificarea CAEN delimitează domeniile autorizate de activitate."
+    },
+    {
+     "intrebare": "Raportarea contractului individual de muncă în registrul Revisal se face:",
+     "optiuni": [
+      "înainte de începerea efectivă a activității de către salariat",
+      "la un an după angajare",
+      "doar dacă angajatul solicită expres",
+      "numai în caz de control ITM"
+     ],
+     "corect": 0,
+     "explicatie": "Declararea prealabilă a muncii este obligatorie conform legii."
+    },
+    {
+     "intrebare": "Conceptul schumpeterian de „distrugere creatoare” explică:",
+     "optiuni": [
+      "modul în care inovațiile antreprenoriale revoluționează industriile și înlocuiesc vechile modele",
+      "falimentul tuturor băncilor",
+      "devalorizarea forțată a monedei",
+      "distrugerea fizică a magazinelor"
+     ],
+     "corect": 0,
+     "explicatie": "Inovația continuă înnoiește structurile economice."
+    },
+    {
+     "intrebare": "În cadrul piramidei nevoilor a lui Maslow, la baza ierarhiei se află:",
+     "optiuni": [
+      "nevoile fiziologice fundamentale (hrană, adăpost)",
+      "nevoia de lux",
+      "nevoia de recunoaștere publică",
+      "nevoia de putere politică"
+     ],
+     "corect": 0,
+     "explicatie": "Supraviețuirea biologică are prioritate absolută în fața altor trebuințe."
+    }
+   ]
+  },
+  {
+   "semestru": 2,
+   "test": [
+    {
+     "intrebare": "Planul operațional al unei afaceri stabilește în primul rând:",
+     "optiuni": [
+      "resursele fizice, echipamentele, furnizorii, stocurile și fluxul concret de producție",
+      "culoarea mașinii personale a administratorului",
+      "lista concediilor de odihnă ale investitorilor",
+      "prognoza vremii din alt continent"
+     ],
+     "corect": 0,
+     "explicatie": "Operațiunile asigură transformarea materiilor prime în bunuri livrabile clienților."
+    },
+    {
+     "intrebare": "Delegarea eficientă a sarcinilor către membrii echipei permite antreprenorului:",
+     "optiuni": [
+      "să se concentreze pe strategia de dezvoltare și oportunitățile mari de afaceri",
+      "să își închidă firma",
+      "să nu mai plătească salariile cuvenite",
+      "să piardă orice contact cu realitatea"
+     ],
+     "corect": 0,
+     "explicatie": "O echipă autonomă și bine pregătită susține extinderea sustenabilă a afacerii."
+    },
+    {
+     "intrebare": "Fluxul de numerar (Cash Flow) pozitiv înseamnă că:",
+     "optiuni": [
+      "încasările efective de bani în cont depășesc plățile bănești realizate în acea perioadă",
+      "firma are mii de facturi emise dar niciun ban în bancă",
+      "contul firmei este pe zero",
+      "s-au anulat toate tranzacțiile comerciale"
+     ],
+     "corect": 0,
+     "explicatie": "Disponibilitatea lichidităților garantează plata la timp a salariilor și furnizorilor."
+    },
+    {
+     "intrebare": "Punctul critic în care încasările dintr-o afacere egalează exact totalul costurilor se numește:",
+     "optiuni": [
+      "prag de rentabilitate (Break-Even Point)",
+      "deficit fiscal",
+      "amortizare totală",
+      "capital social"
+     ],
+     "corect": 0,
+     "explicatie": "Peste acest prag, afacerea trece pe profit net."
+    },
+    {
+     "intrebare": "Un Business Angel se remarcă prin faptul că:",
+     "optiuni": [
+      "oferă finanțare inițială și expertiză de afaceri (smart money) unui start-up în schimbul unei părți din firmă",
+      "este un funcționar de la ghișeul de taxe",
+      "acordă credite cu dobândă uriașă fără să cunoască afacerea",
+      "închide firmele concurente"
+     ],
+     "corect": 0,
+     "explicatie": "Implicarea directă a investitorului aduce know-how și relații esențiale la început de drum."
+    },
+    {
+     "intrebare": "Din perspectiva mixului de marketing (cei 4P), distribuția produsului se referă la:",
+     "optiuni": [
+      "canalele prin care marfa ajunge de la producător la consumatorul final",
+      "stabilirea prețului la casă",
+      "campania de publicitate pe TikTok",
+      "auditul intern al calității"
+     ],
+     "corect": 0,
+     "explicatie": "Plasamentul (Place) organizează logistica și rețelele comerciale."
+    },
+    {
+     "intrebare": "Un contract de comodat pentru sediul social este:",
+     "optiuni": [
+      "un contract de folosință gratuită a unui spațiu imobiliar",
+      "un contract de vânzare de acțiuni la bursă",
+      "o amendă de la inspectoratul de muncă",
+      "o poliță de asigurare de sănătate"
+     ],
+     "corect": 0,
+     "explicatie": "Comodatul dovedește legal dreptul de a folosi sediul social."
+    },
+    {
+     "intrebare": "Elementul din analiza financiară CAPEX reprezintă:",
+     "optiuni": [
+      "cheltuielile de capital destinate achiziției de active pe termen lung (utilaje, sedii)",
+      "cheltuielile zilnice cu hârtia de imprimantă",
+      "facturile lunare de telefon",
+      "plata salariilor pentru zilieri"
+     ],
+     "corect": 0,
+     "explicatie": "CAPEX materializează marile investiții de dezvoltare ale afacerii."
+    },
+    {
+     "intrebare": "Într-o negociere comercială de succes de tip Win-Win:",
+     "optiuni": [
+      "ambele părți obțin avantaje reale și pun bazele unei colaborări durabile",
+      "o parte este înșelată complet",
+      "contractul este reziliat a doua zi",
+      "prețul este fixat prin tragere la sorți"
+     ],
+     "corect": 0,
+     "explicatie": "Colaborările pe termen lung se clădesc pe satisfacție reciprocă."
+    },
+    {
+     "intrebare": "Obiectivul fundamental al unei campanii SEO (Search Engine Optimization) este:",
+     "optiuni": [
+      "obținerea de trafic calificat și gratuit pe site prin poziționarea pe primele locuri în căutările Google",
+      "plata a 10 lei pentru fiecare vizită",
+      "blocarea tuturor vizitatorilor din afara orașului",
+      "ștergerea reclamelor de televiziune"
+     ],
+     "corect": 0,
+     "explicatie": "SEO aduce vizitatori organici direct interesați de serviciile promovate."
+    }
+   ]
+  }
+ ]
+}

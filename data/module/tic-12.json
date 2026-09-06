@@ -5,7 +5,7 @@
  "an": 4,
  "arie": "Tehnologii",
  "bac": true,
- "descriere": "Competențe digitale pentru bacalaureat și pentru viață: instrumente de birou, informație, securitate, identitate digitală și tehnologii emergente.",
+ "descriere": "Pregătire completă pentru Bacalaureat Proba D (Competențe Digitale), suită de birou avansată, Cloud, securitate și Inteligență Artificială.",
  "capitole": [
   {
    "id": "tic12-c1",
@@ -15,255 +15,279 @@
     {
      "id": "tic12-01",
      "titlu": "Structura probei de competențe digitale",
-     "rezumat": "Proba D evaluează competențele digitale prin sarcini practice rezolvate pe calculator, în timp limitat. Domeniile evaluate: utilizarea sistemului de operare și gestionarea fișierelor, editarea de text, calculul tabelar, prezentările, căutarea și evaluarea informației, comunicarea online și elemente de securitate. Rezultatul se exprimă în niveluri de competență, nu în note, dar susținerea probei este obligatorie pentru promovarea bacalaureatului. Evaluarea privește produsul final și pașii de rezolvare: se punctează salvarea corectă a fișierului, cu numele și în formatul cerut, aplicarea exactă a formatărilor solicitate, corectitudinea formulelor și respectarea tuturor cerințelor, nu doar a celor ușoare.",
+     "rezumat": "Examenul de Bacalaureat pentru evaluarea competențelor digitale (Proba D) este o probă practică obligatorie pentru toți absolvenții de liceu, structurată pe două secțiuni independente ce însumează un punctaj maxim de 100 de puncte: 1. Fișa A (durată de lucru: 15 minute, punctaj: 10 puncte): Se desfășoară cu acces direct la rețeaua internet. Candidatul primește cerințe practice de navigare web: • Căutarea precisă a unei informații pe internet utilizând un motor de căutare (Google) și operatori avansați; • Descărcarea unui fișier sau a unei imagini și salvarea ei într-un folder dedicat de pe spațiul de lucru (ex: pe Desktop în folderul candidatului); • Redactarea și expedierea unui mesaj de poștă electronică (E-mail) către o adresă indicată în bilet, respectând cu strictețe subiectul cerut și atașând fișierul descărcat anterior. După scurgerea celor 15 minute, conexiunea la internet a calculatoarelor este întreruptă obligatoriu de către comisie. 2. Fișa B (durată de lucru: 75 minute, punctaj: 90 puncte): Se desfășoară fără acces la internet și evaluează operarea în suita de birou (Office): • Subiectul I (30 puncte): Procesare de text (Microsoft Word) — tehnoredactare, formatare stiluri, tabele, coloane, antet/subsol; • Subiectul II (30 puncte): Calcul tabelar (Microsoft Excel) — tabele, formule, funcții de calcul și condiționale, generare grafic; • Subiectul III (30 puncte): La alegere conform biletului: Prezentări electronice (PowerPoint), Baze de date (Access) sau Pagină web simplă (HTML). Nivelurile de competență acordate pe diplomă în funcție de punctajul total obținut sunt: • Utilizator începător (11 – 25 puncte); • Utilizator de nivel mediu (26 – 50 puncte); • Utilizator avansat (51 – 75 puncte); • Utilizator experimentat (76 – 100 puncte).",
      "ideiCheie": [
-      "Proba D constă în sarcini practice, rezolvate pe calculator, în timp limitat.",
-      "Domenii: sistem de operare, text, calcul tabelar, prezentări, informație, comunicare, securitate.",
-      "Rezultatul se exprimă în niveluri de competență, nu în note.",
-      "Se punctează inclusiv salvarea corectă a fișierului, cu numele și formatul cerute."
+      "Examenul Proba D are două componente: Fișa A (15 min, cu internet) și Fișa B (75 min, fără internet).",
+      "Punctajul maxim este de 100 de puncte; pragul de Utilizator Experimentat începe de la 76 de puncte.",
+      "Fișa A verifică motoarele de căutare, salvarea resurselor și trimiterea de e-mailuri cu atașamente.",
+      "Fișa B testează competențele practice în Word (30p), Excel (30p) și PowerPoint/Access/HTML (30p)."
      ],
      "termeni": [
       {
-       "t": "sarcină practică",
-       "d": "cerință rezolvată efectiv pe calculator, nu prin răspuns teoretic"
+       "t": "Proba D",
+       "d": "proba de evaluare a competențelor digitale din cadrul examenului național de Bacalaureat"
       },
       {
-       "t": "nivel de competență",
-       "d": "rezultatul probei D, exprimat pe o scară, nu prin notă"
+       "t": "Fișa A",
+       "d": "secțiunea probei D cu acces la internet (15 minute, 10 puncte)"
+      },
+      {
+       "t": "Fișa B",
+       "d": "secțiunea probei D fără acces la internet axată pe aplicațiile de birou (75 minute, 90 puncte)"
+      },
+      {
+       "t": "utilizator experimentat",
+       "d": "cel mai înalt nivel de competență digitală recunoscut pe certificatul de Bac (76-100p)"
       }
      ],
      "carduri": [
       {
-       "f": "Cum se evaluează proba D?",
-       "v": "Prin sarcini practice rezolvate pe calculator, cu rezultat exprimat în niveluri de competență."
+       "f": "Câte minute durează secțiunea cu acces la internet (Fișa A) la Bacalaureat Proba D?",
+       "v": "15 minute."
       },
       {
-       "f": "Ce domenii cuprinde proba D?",
-       "v": "Sistem de operare, editare de text, calcul tabelar, prezentări, informație, comunicare online, securitate."
+       "f": "Ce punctaj minim trebuie să obțină un elev pentru nivelul de „Utilizator experimentat”?",
+       "v": "Cel puțin 76 de puncte (din maximul de 100)."
       },
       {
-       "f": "Ce se punctează, pe lângă rezultatul final?",
-       "v": "Salvarea corectă a fișierului, cu numele și formatul cerute, și respectarea tuturor cerințelor."
+       "f": "Ce aplicații de birou sunt evaluate în cadrul Fișei B?",
+       "v": "Microsoft Word (30p), Microsoft Excel (30p) și PowerPoint / Access / HTML (30p)."
       },
       {
-       "f": "Este proba D obligatorie?",
-       "v": "Da, susținerea ei este obligatorie pentru promovarea bacalaureatului."
+       "f": "Ce se întâmplă cu conexiunea la internet după expirarea timpului pentru Fișa A?",
+       "v": "Este întreruptă de comisie, Fișa B derulându-se complet offline."
       }
      ],
      "test": [
       {
-       "intrebare": "Rezultatul probei D se exprimă:",
+       "intrebare": "Timpul total alocat desfășurării examenului de Bacalaureat Proba D este de:",
        "optiuni": [
-        "în niveluri de competență",
-        "în note de la 1 la 10",
-        "prin admis sau respins",
-        "prin calificative"
+        "90 de minute (15 min Fișa A + 75 min Fișa B)",
+        "10 minute",
+        "5 ore",
+        "24 de ore"
        ],
        "corect": 0,
-       "explicatie": "Susținerea rămâne obligatorie pentru promovare."
+       "explicatie": "15 minute pentru căutare web/e-mail și 75 minute pentru suita Office."
       },
       {
-       "intrebare": "Salvarea fișierului cu alt nume decât cel cerut:",
+       "intrebare": "Nivelul maxim de competență digitală acordat pe certificatul de Bacalaureat este:",
        "optiuni": [
-        "duce la pierderea punctajului aferent",
-        "nu are consecințe",
-        "se corectează automat",
-        "se punctează parțial"
+        "Utilizator experimentat (76 – 100 puncte)",
+        "Mare Maestru IT",
+        "Administrator global",
+        "Utilizator începător"
        ],
        "corect": 0,
-       "explicatie": "Cerințele de salvare fac parte din sarcină."
+       "explicatie": "Utilizator experimentat confirmă stăpânirea excelentă a instrumentelor digitale."
       },
       {
-       "intrebare": "Proba D evaluează:",
+       "intrebare": "În cadrul Fișei A a probei de competențe digitale, cerințele includ în mod tipic:",
        "optiuni": [
-        "competențe practice, nu cunoștințe teoretice",
-        "definiții din manual",
-        "istoria informaticii",
-        "programarea avansată"
+        "căutarea unei informații pe internet, salvarea unui fișier și trimiterea unui e-mail cu atașament",
+        "demontarea fizică a procesorului din calculator",
+        "instalarea unui cablu de fibră optică pe stâlp",
+        "scrierea unui eseu literar de 10 pagini"
        ],
        "corect": 0,
-       "explicatie": "Se rezolvă efectiv sarcini pe calculator."
+       "explicatie": "Fișa A testează abilitățile de bază de informare și comunicare online."
       },
       {
-       "intrebare": "Pregătirea eficientă pentru proba D presupune:",
+       "intrebare": "La predarea lucrării practice la Fișa B, fișierele create se salvează:",
        "optiuni": [
-        "rezolvarea repetată a unor sarcini practice",
-        "memorarea meniurilor",
-        "citirea manualului",
-        "vizionarea de tutoriale"
+        "în folderul personal indicat de comisie (pe Desktop sau pe o partiție specificată)",
+        "în coșul de gunoi (Recycle Bin)",
+        "pe un site străin",
+        "se șterg înainte de ieșirea din sală"
        ],
        "corect": 0,
-       "explicatie": "Competența se dovedește făcând, nu descriind."
+       "explicatie": "Comisia evaluează fișierele salvate de candidat în folderul său de examen."
       }
      ]
     },
     {
      "id": "tic12-02",
      "titlu": "Documente complexe și lucru profesional cu textul",
-     "rezumat": "Un document complex — lucrare, raport, proiect — cere instrumente pe care majoritatea utilizatorilor nu le folosesc: stiluri pentru toate nivelurile de titlu, cuprins generat automat, numerotare automată a capitolelor, note de subsol, referințe încrucișate, bibliografie gestionată prin instrumentul dedicat, secțiuni cu antete și numerotări diferite, tabele cu titluri repetate pe pagini. Regula profesională: nimic nu se numerotează, nu se aliniază și nu se formatează manual dacă programul o poate face automat. Motivul este practic: la o modificare, versiunea automată se actualizează singură, iar cea manuală trebuie refăcută integral, cu riscul erorilor. Verificarea finală: cuprins actualizat, numerotare continuă, imagini cu legendă și referire în text, bibliografie completă și consecventă, fără spații duble și fără rânduri goale folosite pentru poziționare.",
+     "rezumat": "Rezolvarea fără greșeală a Subiectului I din Fișa B solicită aplicarea riguroasă a cerințelor de tehnoredactare: 1. Configurarea paginii (Page Setup): • Setarea marginilor: meniul Layout -> Margins -> Custom Margins (stânga, dreapta, sus, jos la valorile cerute în centimetri, ex: 2 cm sau 2.5 cm); • Orientarea paginii: Portrait (Portret / vertical) sau Landscape (Vedere / orizontal); • Dimensiunea hârtiei: obligatoriu A4 (21 x 29.7 cm). 2. Formatarea caracterelor și a paragrafelor: • Fontul specificat (Times New Roman, Arial, Calibri), mărimea în puncte (ex: 12 pt), culoarea cerută; • Efecte de text cerute frecvent la examen: Subscript (indice, ex: H2O), Superscript (exponent, ex: x2), Small Caps (majuscule mici); • Alinierea paragrafului: Justify (stânga-dreapta), Center (centrat) sau Left (la stânga); • Spațierea între rânduri: Line Spacing setat la 1.5 lines sau Multiple; • Spațierea înainte și după paragraf: Spacing Before / After (ex: 6 pt sau 12 pt); • Indentarea primei linii: Special -> First Line la 1.25 cm. 3. Coloane tip ziar și chenare: • Împărțirea unui paragraf pe două coloane egale cu linie despărțitoare între ele: Layout -> Columns -> Two -> Line between; • Bordură de pagină: Design -> Page Borders (chenar simplu sau artistic) sau bordură de paragraf (Borders and Shading). 4. Antet, subsol și numerotare pagini: • Meniul Insert -> Header & Footer -> Page Number; • Cerință clasică de examen: „Numărul de pagină să nu apară pe prima pagină a documentului” -> se bifează opțiunea Different First Page (Pagină de început diferită) din meniul Header & Footer Tools.",
      "ideiCheie": [
-      "Documentele complexe cer stiluri, cuprins automat, numerotare automată, referințe.",
-      "Nimic nu se face manual dacă programul o poate face automat.",
-      "Versiunile automate se actualizează singure la modificări.",
-      "Verificare finală: cuprins, numerotare, legende, bibliografie, spații."
+      "Configurarea corectă a paginii A4 cu marginile specificate este primul pas obligatoriu la Subiectul I.",
+      "Efectele de caractere Subscript (indice) și Superscript (exponent) apar frecvent în cerințele de bilet.",
+      "Opțiunea Different First Page elimină automat numărul de pagină de pe prima filă a referatului.",
+      "Împărțirea pe două coloane cu linie între ele se face din Layout -> Columns -> More Columns."
      ],
      "termeni": [
       {
-       "t": "referință încrucișată",
-       "d": "trimitere automată la un alt element din document, care se actualizează singură"
+       "t": "Page Setup",
+       "d": "fereastra de configurare a marginilor, orientării și dimensiunii paginii A4"
       },
       {
-       "t": "secțiune",
-       "d": "parte a documentului cu formatare de pagină proprie (antet, numerotare, orientare)"
+       "t": "Superscript",
+       "d": "efect de formatare ce ridică textul ca exponent (ex: x^2)"
+      },
+      {
+       "t": "Subscript",
+       "d": "efect de formatare ce coboară textul ca indice (ex: CO_2)"
+      },
+      {
+       "t": "Different First Page",
+       "d": "opțiune care permite un antet și subsol diferit pe prima pagină a documentului"
       }
      ],
      "carduri": [
       {
-       "f": "De ce se folosesc stilurile într-un document complex?",
-       "v": "Pentru cuprins automat, numerotare, navigare și modificări unitare."
+       "f": "Din ce meniu împarți un fragment de text în două coloane cu linie între ele în Word?",
+       "v": "Meniul Layout -> Columns -> More Columns -> bifezi „Line between”."
       },
       {
-       "f": "Ce este o referință încrucișată?",
-       "v": "O trimitere automată la un alt element din document, care se actualizează singură."
+       "f": "Cum faci ca numărul de pagină să nu apară pe coperta documentului?",
+       "v": "Bifezi opțiunea „Different First Page” din meniul Header & Footer."
       },
       {
-       "f": "De ce se evită formatarea manuală?",
-       "v": "Pentru că la fiecare modificare trebuie refăcută, cu risc de erori."
+       "f": "Ce efect de formatare folosești pentru a scrie formula chimică a apei (H₂O)?",
+       "v": "Efectul Subscript (Indice)."
       },
       {
-       "f": "Ce se verifică înainte de predarea unui document complex?",
-       "v": "Cuprinsul actualizat, numerotarea, legendele, bibliografia și spațierea."
+       "f": "Ce setare de paragraf deplasează spre dreapta doar primul rând al fiecărui alineat?",
+       "v": "First Line Indent (Indentare primul rând) la 1.25 cm."
       }
      ],
      "test": [
       {
-       "intrebare": "Folosirea rândurilor goale pentru a împinge textul pe pagina următoare:",
+       "intrebare": "Pentru a scrie expresia matematică x la puterea a 3-a (x³), se aplică efectul:",
        "optiuni": [
-        "este o soluție fragilă, care se strică la orice modificare",
-        "este metoda recomandată",
-        "economisește timp",
-        "nu are dezavantaje"
+        "Superscript (Exponent)",
+        "Subscript (Indice)",
+        "Strikethrough (Tăiat)",
+        "Shadow (Umbră)"
        ],
        "corect": 0,
-       "explicatie": "Există întrerupere de pagină exact pentru acest scop."
+       "explicatie": "Superscript poziționează caracterul deasupra liniei de bază a textului."
       },
       {
-       "intrebare": "Cuprinsul generat automat se actualizează:",
+       "intrebare": "Opțiunea din Word care împiedică afișarea numărului de pagină pe prima filă a documentului este:",
        "optiuni": [
-        "la comanda de actualizare, după modificări",
-        "niciodată",
-        "doar la salvare",
-        "doar la tipărire"
+        "Different First Page (Pagină de început diferită)",
+        "Remove All Numbers",
+        "Hide All Pages",
+        "Close Header"
        ],
        "corect": 0,
-       "explicatie": "De aceea trebuie actualizat înainte de predare."
+       "explicatie": "Different First Page lasă pagina 1 curată, continuând numerotarea pe paginile următoare."
       },
       {
-       "intrebare": "Secțiunile dintr-un document permit:",
+       "intrebare": "Formatul de hârtie standard obligatoriu pe care se configurează documentele la Bacalaureat este:",
        "optiuni": [
-        "antete și numerotări diferite pe părți diferite",
-        "schimbarea fontului implicit",
-        "protejarea cu parolă",
-        "comprimarea imaginilor"
+        "A4",
+        "B5",
+        "Letter american",
+        "Plic DL"
        ],
        "corect": 0,
-       "explicatie": "Ele sunt esențiale în lucrările lungi."
+       "explicatie": "Formatul european standard de tipar este A4 (210 x 297 mm)."
       },
       {
-       "intrebare": "Bibliografia gestionată prin instrumentul dedicat:",
+       "intrebare": "Alinierea textului distribuit uniform între marginea stângă și cea dreaptă a foii se numește:",
        "optiuni": [
-        "păstrează consecvența și se actualizează automat",
-        "ocupă mai mult spațiu",
-        "nu poate fi modificată",
-        "se aplică doar la lucrări științifice"
+        "Justify",
+        "Align Left",
+        "Center",
+        "Align Right"
        ],
        "corect": 0,
-       "explicatie": "Ea evită erorile din listele scrise manual."
+       "explicatie": "Justify creează blocuri de text drepte și curate pe ambele laturi."
       }
      ]
     },
     {
      "id": "tic12-03",
      "titlu": "Calcul tabelar aplicat",
-     "rezumat": "La nivel aplicat, foaia de calcul rezolvă probleme reale: bugetul personal sau al unui proiect, evidența notelor și calculul mediilor, planificarea unei activități, analiza unui set de date, generarea unor facturi simple. Instrumentele necesare: funcții condiționale, funcții de căutare, validarea datelor, protejarea celulelor cu formule, formatarea condiționată, tabele pivot și grafice. Buna practică: separarea datelor de calcule (o zonă de intrare clar delimitată), evitarea valorilor scrise direct în formule (se pun în celule proprii, ca să poată fi modificate ușor), denumirea zonelor importante, documentarea foilor prin comentarii, verificarea rezultatelor prin calcule de control. O foaie de calcul în care nimeni nu mai înțelege de unde vine un număr este o sursă de erori, nu un instrument.",
+     "rezumat": "Subiectul II din Fișa B evaluează precizia în foaia de calcul Microsoft Excel: 1. Construirea machetei de tabel conform biletului: • Introducerea corectă a textelor de antet și a valorilor numerice; • Fuzionarea celulelor de titlu peste lățimea tabelului cu Merge & Center; • Aplicarea bordurilor: All Borders pentru interior și Thick Outside Border pentru conturul exterior; • Formatarea celulelor: clic dreapta -> Format Cells -> Number -> Decimal places: 2 (două zecimale) sau Currency / Monedă (adăugarea simbolului „lei” sau „EUR”). 2. Formule aritmetice și funcții standard de calcul: • Calculul de totaluri: `=SUM(C3:C12)`; • Calculul mediilor: `=AVERAGE(D3:D12)`; • Găsirea extremelor: `=MAX(E3:E12)` și `=MIN(E3:E12)`; • Numărare: `=COUNT(B3:B20)` pentru celule numerice și `=COUNTA(A3:A20)` pentru nume de elevi. 3. Formule condiționate cu funcția =IF: Cerință tipică de examen: „În coloana Rezultat, să se afișeze textul ADMIS dacă media din celula E3 este mai mare sau egală cu 6, altfel RESPINS”: `=IF(E3>=6, \"ADMIS\", \"RESPINS\")` Copierea formulei în jos pe toată coloana folosind mânerul de umplere (Fill Handle). 4. Generarea și formatarea diagramei cerute: Selectarea coloanei cu categorii (numele elevilor sau județele) și a coloanei cu valori numerice (folosind tasta Ctrl pentru selectarea coloanelor nealăturate): • Meniul Insert -> Column (Coloane grupate 2D) sau Pie (Circular); • Adăugarea elementelor obligatorii din meniul Chart Elements (+): Titlul graficului conform biletului, Legenda poziționată la baza graficului (Bottom) și Etichete de date (Data Labels) deasupra coloanelor.",
      "ideiCheie": [
-      "Aplicații reale: buget, evidențe, planificare, analiză de date.",
-      "Instrumente: funcții condiționale și de căutare, validare, protejare, pivot, grafice.",
-      "Se separă datele de calcule; valorile nu se scriu direct în formule.",
-      "Verificarea prin calcule de control previne erorile care trec neobservate."
+      "Subiectul II impune respectarea întocmai a formatelor cerute (2 zecimale, Monedă, procente).",
+      "Funcția IF rezolvă automat atribuirile condiționate cerute în bilet (ex: ADMIS / RESPINS).",
+      "Selectarea a două coloane despărțite de alte coloane se face ținând apăsată tasta Ctrl.",
+      "Graficul complet conține obligatoriu: Titlu clar, Legendă și Etichete de date vizibile."
      ],
      "termeni": [
       {
-       "t": "validare a datelor",
-       "d": "restricționarea valorilor care pot fi introduse într-o celulă"
+       "t": "Merge & Center",
+       "d": "comandă Excel ce fuzionează celulele selectate și centrează textul pe orizontală"
       },
       {
-       "t": "calcul de control",
-       "d": "verificare independentă a unui rezultat, prin altă metodă"
+       "t": "Format Cells",
+       "d": "fereastra de configurare a tipului de afișare (Număr, Monedă, Procent, Dată)"
+      },
+      {
+       "t": "Data Labels",
+       "d": "etichete numerice sau procentuale afișate direct pe barele sau feliile graficului"
+      },
+      {
+       "t": "tasta Ctrl la selecție",
+       "d": "permite selectarea simultană a unor zone discontinue de celule dintr-un tabel"
       }
      ],
      "carduri": [
       {
-       "f": "De ce se separă datele de calcule?",
-       "v": "Pentru ca modificarea datelor să nu ceară rescrierea formulelor."
+       "f": "Cum selectezi coloana A și coloana D dintr-o foaie Excel fără a selecta și coloanele B și C?",
+       "v": "Selectezi coloana A, ții apăsată tasta Ctrl și selectezi coloana D."
       },
       {
-       "f": "De ce nu se scriu valorile direct în formule?",
-       "v": "Pentru că devin greu de găsit și de modificat."
+       "f": "Ce formulă scrii în Excel pentru a afișa „Bursier” dacă media din M2 este de cel puțin 9.50, altfel „Fără bursă”?",
+       "v": "`=IF(M2>=9.5, \"Bursier\", \"Fără bursă\")`."
       },
       {
-       "f": "Ce face validarea datelor?",
-       "v": "Restricționează valorile care pot fi introduse într-o celulă."
+       "f": "Cum adaugi simbolul monedei „lei” lângă sumele dintr-o coloană?",
+       "v": "Format Cells -> Category: Currency (sau Accounting) -> Symbol: lei."
       },
       {
-       "f": "La ce servește un calcul de control?",
-       "v": "La verificarea independentă a unui rezultat, prin altă metodă."
+       "f": "Ce comandă unește patru celule de pe un rând și centrează titlul tabelului?",
+       "v": "Butonul Merge & Center."
       }
      ],
      "test": [
       {
-       "intrebare": "Scrierea unei cote de impozit direct în formulă:",
+       "intrebare": "Formula corectă pentru a calcula media aritmetică a valorilor din celulele B2, B3, B4 și B5 este:",
        "optiuni": [
-        "face modificarea ulterioară dificilă și predispusă la erori",
-        "este metoda recomandată",
-        "protejează formula",
-        "reduce dimensiunea fișierului"
+        "=AVERAGE(B2:B5)",
+        "=MEDIA(B2+B5)",
+        "=SUM(B2:B5)/10",
+        "=MED(B2..B5)"
        ],
        "corect": 0,
-       "explicatie": "Valoarea se pune într-o celulă proprie, referită de formule."
+       "explicatie": "AVERAGE calculează automat media aritmetică a oricărui interval de celule."
       },
       {
-       "intrebare": "Protejarea celulelor cu formule este utilă pentru:",
+       "intrebare": "Butonul utilizat pentru a îmbina mai multe celule într-una singură și a centra textul în ea este:",
        "optiuni": [
-        "a împiedica ștergerea accidentală a calculelor",
-        "a reduce dimensiunea fișierului",
-        "a accelera recalcularea",
-        "a ascunde datele"
+        "Merge & Center",
+        "Wrap Text",
+        "AutoSum",
+        "Conditional Formatting"
        ],
        "corect": 0,
-       "explicatie": "Zonele de introducere rămân editabile."
+       "explicatie": "Merge & Center este comanda clasică de titlu de tabel în Excel."
       },
       {
-       "intrebare": "Validarea datelor previne:",
+       "intrebare": "Dacă un bilet de examen cere să creezi un grafic circular cu ponderile procentuale, vei insera un grafic:",
        "optiuni": [
-        "introducerea unor valori nepermise",
-        "erorile de formulă",
-        "pierderea fișierului",
-        "ștergerea foii"
+        "Pie (Plăcintă)",
+        "Scatter (Dispersie)",
+        "Radar",
+        "Bară orizontală stivuită"
        ],
        "corect": 0,
-       "explicatie": "De exemplu, o notă în afara intervalului admis."
+       "explicatie": "Graficul Pie reflectă distribuția procentuală pe categorii dintr-un total."
       },
       {
-       "intrebare": "O foaie de calcul în care nu se mai înțelege proveniența unui rezultat:",
+       "intrebare": "Elementul graficului care arată numărul sau procentul exact deasupra fiecărei coloane se numește:",
        "optiuni": [
-        "devine o sursă de erori",
-        "este mai sigură",
-        "este mai rapidă",
-        "este bine documentată"
+        "Etichetă de date (Data Label)",
+        "Axă secundară",
+        "Grilă de fundal",
+        "Machete de pagină"
        ],
        "corect": 0,
-       "explicatie": "Documentarea și structura clară sunt esențiale."
+       "explicatie": "Data Labels permit citirea cifrelor fără a aproxima pe axa verticală."
       }
      ]
     }
@@ -272,260 +296,284 @@
   {
    "id": "tic12-c2",
    "titlu": "Informație, securitate, identitate",
-   "semestru": 2,
+   "semestru": 1,
    "lectii": [
     {
      "id": "tic12-04",
      "titlu": "Căutarea și evaluarea informației",
-     "rezumat": "Căutarea eficientă începe cu formularea precisă a întrebării și cu alegerea cuvintelor-cheie potrivite — substantive și termeni specifici, nu propoziții întregi. Operatorii rafinează căutarea: ghilimele pentru expresie exactă, minus pentru excludere, site: pentru un anumit domeniu, filetype: pentru un tip de fișier, intervale de dată pentru actualitate. Evaluarea sursei urmează criterii verificabile: cine este autorul și ce competență are, cine publică și cu ce interes, când a fost publicat și dacă a fost actualizat, dacă afirmațiile sunt susținute de referințe verificabile, dacă alte surse independente confirmă. Sursele academice, instituționale și publicațiile cu proces editorial oferă garanții mai mari, dar nu absolute. Regula practică: cu cât afirmația este mai extraordinară, cu atât dovezile cerute trebuie să fie mai solide.",
+     "rezumat": "Căutarea eficientă pe internet la Fișa A solicită stăpânirea operatorilor de căutare avansată în Google: 1. Operatori de căutare fundamentale: • Ghilimelele drepte `\"expresie exactă\"`: forțează motorul să caute exact succesiunea de cuvinte specificată, eliminând sinonimele (ex: `\"Liceul Tehnologic Ion Creangă\"`); • Operatorul `site:`: restricționează căutarea exclusiv pe un anumit domeniu web (ex: `admitere bac site:edu.ro`); • Operatorul `filetype:`: caută exclusiv fișiere cu o anumită extensie (ex: `calendar bac 2026 filetype:pdf` sau `statistica filetype:xlsx`); • Semnul minus `-`: exclude termenii nedoriți din rezultate (ex: `jaguar -auto` pentru animalul jaguar); • Operatorul `intitle:`: găsește pagini care conțin cuvântul căutat chiar în titlu. 2. Evaluarea critică a surselor de pe internet: Criteriile esențiale de validare: autoritatea autorului sau a instituției emitente (.gov, .edu), actualitatea informației (data ultimei actualizări), obiectivitatea și lipsa conflictelor de interese comerciale. 3. Salvarea resurselor: La Fișa A, comisia cere salvarea unei imagini de pe web în folderul de examen: clic dreapta pe imagine -> Save Image As -> navigare pe Desktop în folderul personal -> confirmare nume.",
      "ideiCheie": [
-      "Căutarea eficientă folosește termeni specifici și operatori.",
-      "Evaluarea sursei: autor, editor, dată, referințe, confirmare independentă.",
-      "Sursele instituționale și cele cu proces editorial oferă garanții mai mari.",
-      "Afirmațiile extraordinare cer dovezi pe măsură."
+      "Ghilimelele `\" \"` caută fraze exacte, iar operatorul `site:` limitează rezultatele la domeniul dorit.",
+      "Operatorul `filetype:pdf` filtrează doar documentele oficiale în format PDF descărcabil.",
+      "Sursele din domenii guvernamentale (.gov.ro) și academice (.edu.ro) au un grad ridicat de încredere.",
+      "Salvarea resurselor web se face prin clic dreapta -> Save As direct în folderul de candidat."
      ],
      "termeni": [
       {
-       "t": "operator de căutare",
-       "d": "cuvânt sau simbol care rafinează rezultatele unei căutări"
+       "t": "operator site:",
+       "d": "comandă de căutare care filtrează paginile de pe un singur domeniu web (ex: site:gov.ro)"
       },
       {
-       "t": "sursă primară",
-       "d": "sursa originală a unei informații, nu o preluare a ei"
+       "t": "operator filetype:",
+       "d": "comandă ce restrânge căutarea la un anumit format de fișier (ex: filetype:pdf)"
+      },
+      {
+       "t": "căutare cu ghilimele",
+       "d": "căutare textuală exactă cuvinte cu cuvinte în ordinea dată"
+      },
+      {
+       "t": "evaluare critică",
+       "d": "analiza credibilității, autorității și actualității unei surse de pe web"
       }
      ],
      "carduri": [
       {
-       "f": "Ce operatori rafinează o căutare?",
-       "v": "Ghilimelele, minusul, site:, filetype: și filtrele de dată."
+       "f": "Cum cauți pe Google doar documente PDF referitoare la examenul de Bacalaureat?",
+       "v": "`bacalaureat filetype:pdf`."
       },
       {
-       "f": "Ce criterii se folosesc la evaluarea unei surse?",
-       "v": "Autorul, editorul, data, referințele și confirmarea din surse independente."
+       "f": "Cum cauți informații despre admitere exclusiv pe site-ul oficial al Ministerului Educației?",
+       "v": "`admitere site:edu.ro`."
       },
       {
-       "f": "Ce este o sursă primară?",
-       "v": "Sursa originală a informației, nu o preluare a ei."
+       "f": "Ce efect are plasarea unei expresii între ghilimele duble în caseta de căutare?",
+       "v": "Găsește doar paginile care conțin exact acea succesiune de cuvinte."
       },
       {
-       "f": "Ce spune regula despre afirmațiile extraordinare?",
-       "v": "Că cer dovezi pe măsură de solide."
+       "f": "Cum salvezi o imagine de pe o pagină web în folderul tău de pe Desktop?",
+       "v": "Clic dreapta pe imagine -> Save image as -> selectezi folderul de pe Desktop -> Save."
       }
      ],
      "test": [
       {
-       "intrebare": "Operatorul site: se folosește pentru:",
+       "intrebare": "Operatorul Google utilizat pentru a căuta doar fișiere de calcul tabelar Excel este:",
        "optiuni": [
-        "limitarea căutării la un anumit domeniu",
-        "excluderea unui cuvânt",
-        "căutarea unei expresii exacte",
-        "filtrarea după dată"
+        "filetype:xlsx",
+        "format:excel",
+        "extension:calc",
+        "search:sheets"
        ],
        "corect": 0,
-       "explicatie": "Minusul exclude un termen."
+       "explicatie": "`filetype:` specifică extensia fișierului căutat pe serverele indexate."
       },
       {
-       "intrebare": "O sursă fără autor identificabil și fără dată:",
+       "intrebare": "Pentru a căuta mențiuni despre liceu doar pe site-ul oficial al Inspectoratului Școlar Neamț (isjneamt.ro), scrii:",
        "optiuni": [
-        "trebuie tratată cu prudență sporită",
-        "este la fel de credibilă",
-        "este preferabilă",
-        "se acceptă dacă are multe distribuiri"
+        "Ion Creanga site:isjneamt.ro",
+        "Ion Creanga goto isjneamt",
+        "isjneamt.ro -> Ion Creanga",
+        "find Ion Creanga on isjneamt"
        ],
        "corect": 0,
-       "explicatie": "Numărul de distribuiri nu are legătură cu veridicitatea."
+       "explicatie": "Sintaxa `termen site:domeniu` restrânge indexarea la acel site."
       },
       {
-       "intrebare": "Confirmarea unei informații din surse independente înseamnă:",
+       "intrebare": "Semnul minus (-) pus direct în fața unui cuvânt într-o căutare Google are ca efect:",
        "optiuni": [
-        "surse care nu se citează reciproc și nu au aceeași origine",
-        "mai multe site-uri care preiau aceeași știre",
-        "rețele sociale diferite",
-        "surse din țări diferite"
+        "excluderea din rezultate a paginilor care conțin acel cuvânt",
+        "mărirea fontului pe ecran",
+        "descărcarea automată a fișierului",
+        "trimiterea unui e-mail de avertizare"
        ],
        "corect": 0,
-       "explicatie": "Preluarea aceleiași surse nu constituie confirmare."
+       "explicatie": "Semnul minus elimină rezultatele irelevante din căutare."
       },
       {
-       "intrebare": "Formularea unei căutări ca propoziție întreagă:",
+       "intrebare": "O sursă de informare pe internet este considerată foarte sigură dacă provine de pe un domeniu:",
        "optiuni": [
-        "dă, de regulă, rezultate mai slabe decât termenii specifici",
-        "este metoda recomandată",
-        "restrânge corect rezultatele",
-        "nu influențează rezultatele"
+        "guvernamental sau instituțional oficial (.gov.ro, .edu.ro)",
+        "plin de reclame agresive",
+        "anonim fără niciun autor menționat",
+        "cu adresa scrisă cu greșeli gramaticale"
        ],
        "corect": 0,
-       "explicatie": "Cuvintele-cheie precise funcționează mai bine."
+       "explicatie": "Instituțiile publice și universitățile verifică riguros datele publicate."
       }
      ]
     },
     {
      "id": "tic12-05",
      "titlu": "Securitate practică și amenințări curente",
-     "rezumat": "Amenințările curente nu sunt, de regulă, tehnice, ci sociale. Phishingul imită un mesaj legitim pentru a obține date de autentificare; semnele: adresă de expeditor ușor modificată, urgență artificială, cereri de date confidențiale, linkuri care duc în altă parte decât textul afișat, greșeli de limbă. Ingineria socială exploatează încrederea, curiozitatea, frica sau dorința de a fi de ajutor. Măsuri practice: verifică adresa reală a linkului înainte de a apăsa, nu introduce date de autentificare din linkuri primite prin mesaje, folosește autentificarea în doi pași, nu refolosi parole, actualizează sistemul, nu instala aplicații din surse necunoscute, fii prudent pe rețele wireless publice, fă copii de siguranță. Dacă un cont a fost compromis: schimbă parola de pe un alt dispozitiv, deconectează sesiunile active, verifică setările de recuperare și anunță persoanele afectate.",
+     "rezumat": "În mediul digital contemporan, amenințările de securitate cibernetică evoluează continuu, exploatând atât breșele tehnice (Software Exploits), cât și factorul uman prin tehnici de Inginerie Socială (Social Engineering): 1. Ingineria socială și atacurile psihologice: • Phishing: mesaje frauduloase trimise prin e-mail sau SMS (Smishing) ce imită bănci sau curieri pentru a convinge victima să își introducă parolele sau numărul de card pe un site clonat; • Spear Phishing: atacuri țintite personalizat asupra unui angajat cheie; • Vishing: atacuri vocale prin apel telefonic în care atacatorul se dă drept polițist sau ofițer bancar. 2. Amenințări malware moderne: • Ransomware: criptarea fără drept a datelor și solicitarea de plăți în criptomonede pentru decriptare; • Spyware și Keyloggers: înregistrarea fiecărei taste apăsate pentru capturarea parolelor bancare; • Botnets: rețele uriașe de calculatoare zombi infectate, controlate de la distanță pentru a lansa atacuri de tip DDoS (Distributed Denial of Service) ce blochează site-urile prin suprasolicitare. 3. Reguli de igienă digitală practică: • Utilizarea unui manager de parole (Password Manager) pentru parole unice de 16+ caractere; • Verificarea autenticității adresei expeditorului de e-mail și a certificatului SSL (lacătul verde/închis); • Evitarea rețelelor Wi-Fi publice nesecurizate pentru tranzacții financiare; • Păstrarea copiilor de rezervă offline conform strategiei 3-2-1.",
      "ideiCheie": [
-      "Amenințările curente exploatează mai ales factorul uman.",
-      "Semne de phishing: urgență artificială, expeditor modificat, linkuri înșelătoare.",
-      "Măsuri: verificarea linkurilor, doi pași, parole unice, actualizări, copii de siguranță.",
-      "La compromitere: schimbă parola de pe alt dispozitiv și deconectează sesiunile active."
+      "Ingineria socială manipulează psihologic utilizatorii pentru a obține date confidențiale.",
+      "Phishing-ul folosește mesaje alarmiste false pentru a fura date de conectare sau carduri bancare.",
+      "Atacurile DDoS blochează serverele țintă inundându-le cu milioane de cereri false de la o rețea botnet.",
+      "Managerul de parole permite generarea și stocarea sigură a parolelor lungi și unice."
      ],
      "termeni": [
       {
-       "t": "phishing",
-       "d": "încercarea de a obține date confidențiale prin imitarea unui mesaj legitim"
+       "t": "inginerie socială",
+       "d": "manipularea psihologică a persoanelor pentru a divulga informații confidențiale"
       },
       {
-       "t": "inginerie socială",
-       "d": "manipularea persoanelor pentru a obține acces sau informații"
+       "t": "phishing",
+       "d": "fraudă online bazată pe mesaje ce imită instituții oficiale pentru a fura date sensibile"
+      },
+      {
+       "t": "DDoS",
+       "d": "atac distribuit ce indisponibilizează un server prin trimiterea unui volum uriaș de trafic fals"
+      },
+      {
+       "t": "password manager",
+       "d": "aplicație criptată ce memorează și generează parole sigure pentru toate conturile"
       }
      ],
      "carduri": [
       {
-       "f": "Care sunt semnele unui mesaj de phishing?",
-       "v": "Urgență artificială, expeditor ușor modificat, cereri de date, linkuri înșelătoare, greșeli de limbă."
+       "f": "Cum funcționează o tentativă de înșelăciune de tip phishing?",
+       "v": "Atacatorul trimite un e-mail fals de la o bancă, cerând introducerea parolei pe un site clonat."
       },
       {
-       "f": "Ce este ingineria socială?",
-       "v": "Manipularea persoanelor pentru a obține acces sau informații."
+       "f": "Ce este un atac de tip DDoS?",
+       "v": "Un asalt informatic coordonat care blochează un site web prin trimiterea simultană a milioane de cereri false."
       },
       {
-       "f": "Ce faci dacă un cont a fost compromis?",
-       "v": "Schimbi parola de pe alt dispozitiv, deconectezi sesiunile active, verifici setările de recuperare."
+       "f": "De ce este riscant să faci plăți cu cardul fiind conectat la un Wi-Fi gratuit din gară?",
+       "v": "Deoarece traficul poate fi interceptat de atacatori aflați pe aceeași rețea necriptată."
       },
       {
-       "f": "De ce sunt riscante rețelele wireless publice?",
-       "v": "Pentru că traficul poate fi interceptat sau redirecționat."
+       "f": "Ce avantaj oferă un Password Manager?",
+       "v": "Creează și reține parole unice și extrem de lungi pentru fiecare serviciu în parte."
       }
      ],
      "test": [
       {
-       "intrebare": "Un mesaj care cere urgent datele de card pentru a „debloca contul” este, cel mai probabil:",
+       "intrebare": "Manipularea psihologică a unei persoane pentru a-i afla parola prin telefon poartă denumirea de:",
        "optiuni": [
-        "phishing",
-        "o notificare legitimă",
-        "o eroare tehnică",
-        "un mesaj automat inofensiv"
+        "Inginerie socială (Social Engineering / Vishing)",
+        "Compilare C++",
+        "Formatare tabelară",
+        "Răcire procesor"
        ],
        "corect": 0,
-       "explicatie": "Instituțiile serioase nu cer astfel de date prin mesaj."
+       "explicatie": "Ingineria socială atacă omul, nu calculatorul, exploatând credulitatea sau frica."
       },
       {
-       "intrebare": "Verificarea adresei reale a unui link se face:",
+       "intrebare": "Mesajul primit pe telefon care spune că ai un colet blocat și cere să plătești 5 lei pe un link este:",
        "optiuni": [
-        "înainte de a-l apăsa, observând destinația reală",
-        "după deschiderea paginii",
-        "prin introducerea datelor",
-        "prin răspuns la mesaj"
+        "o tentativă de smishing (phishing prin SMS)",
+        "un cadou oficial",
+        "o scrisoare recomandată",
+        "un test de ecran"
        ],
        "corect": 0,
-       "explicatie": "Textul afișat poate ascunde o altă destinație."
+       "explicatie": "Smishing-ul este versiunea pe SMS a phishing-ului clasic."
       },
       {
-       "intrebare": "Refolosirea aceleiași parole pe mai multe site-uri:",
+       "intrebare": "Rețeaua formată din mii de calculatoare infectate controlate de hackeri pentru atacuri cibernetice este:",
        "optiuni": [
-        "permite compromiterea în lanț a conturilor",
-        "este sigură dacă parola e lungă",
-        "e recomandată pentru simplitate",
-        "nu are consecințe"
+        "un Botnet",
+        "un Switch de rețea",
+        "un fișier PDF",
+        "o placă de bază"
        ],
        "corect": 0,
-       "explicatie": "O singură scurgere compromite toate conturile."
+       "explicatie": "Calculatoarele zombi dintr-un botnet execută comenzile atacatorului fără știrea proprietarilor."
       },
       {
-       "intrebare": "Prima măsură după compromiterea unui cont este:",
+       "intrebare": "Măsura recomandată pentru a nu uita zecile de parole complexe folosite online este:",
        "optiuni": [
-        "schimbarea parolei de pe un dispozitiv sigur",
-        "ștergerea contului",
-        "anunțarea publică",
-        "reinstalarea sistemului"
+        "utilizarea unei aplicații de tip Password Manager securizate",
+        "folosirea parolei „123456” la toate conturile",
+        "scrierea parolelor pe o foaie lipită de monitor",
+        "dezactivarea tuturor parolelor"
        ],
        "corect": 0,
-       "explicatie": "Apoi se deconectează sesiunile active."
+       "explicatie": "Un manager de parole criptează seiful de credențiale în spatele unei singure parole principale robuste."
       }
      ]
     },
     {
      "id": "tic12-06",
      "titlu": "Identitate digitală și reputație online",
-     "rezumat": "Identitatea digitală este ansamblul informațiilor care te reprezintă online: conturi, postări, fotografii, comentarii, activitate publică. Ea este verificată în practică: angajatorii, universitățile și instituțiile caută informații publice despre candidați. Ceea ce apare la o căutare simplă contează mai mult decât ceea ce declari despre tine. Gestionarea reputației online presupune: verificarea periodică a rezultatelor căutării propriului nume, revizuirea setărilor de confidențialitate, ștergerea sau restricționarea conținutului nepotrivit, construirea deliberată a unei prezențe utile (portofoliu, proiecte, lucrări). Un profil profesional coerent — informații exacte, fotografie potrivită, descrierea competențelor, dovezi concrete — este un avantaj real. Regula de prudență: nu publica nimic ce nu ai vrea să fie citit de un profesor, de un angajator și de un părinte în același timp.",
+     "rezumat": "Identitatea digitală este suma tuturor datelor, activităților, interacțiunilor și conținuturilor asociate unei persoane în mediul virtual. 1. Construirea identității și a reputației online: Reputația digitală (e-Reputation) are un impact direct asupra vieții reale: viitorii angajatori și comisiile de admitere universitare verifică în mod curent profilurile de social media ale candidaților. Postările impulsive, comentariile agresive sau conținutul nepotrivit publicat în anii de liceu rămân arhivate pe internet și pot bloca oportunități de carieră peste ani. 2. Fenomene nocive în mediul online și protecția juridică: • Cyberbullying (hărțuire cibernetică): intimidarea, umilirea sau jignirea repetată prin mesaje, grupuri de chat sau rețele sociale; este sancționată contravențional și penal conform legii; • Doxxing: căutarea și publicarea rău-intenționată a datelor personale ale unei persoane (adresa de acasă, număr de telefon, școala la care învață) fără consimțământul acesteia; • Sharenting: publicarea excesivă de către părinți sau apropiați a fotografiilor cu minori, afectându-le intimitatea viitoare. 3. Protecția identității și setări de securitate: • Configurarea profilurilor de rețele sociale pe modul „Privat”; • Limitarea vizibilității listei de prieteni și a postărilor din trecut; • Atenție la permisiunile cerute de aplicațiile mobile (acces la cameră, microfon, contacte, geolocație permanentă).",
      "ideiCheie": [
-      "Identitatea digitală este verificată în practică de angajatori și instituții.",
-      "Ce apare la o căutare simplă contează mai mult decât ce declari.",
-      "Gestionarea reputației: verificare periodică, setări, curățare, prezență utilă.",
-      "Regula de prudență: nu publica ce nu ai vrea citit de profesor, angajator și părinte."
+      "Reputația digitală reflectă imaginea publică creată pe internet și influențează cariera viitoare.",
+      "Ce postezi pe internet nu dispare niciodată cu adevărat (permanența digitală).",
+      "Cyberbullying-ul și hărțuirea online au consecințe juridice reale și trebuie raportate autorităților.",
+      "Setările de confidențialitate ale conturilor trebuie revizuite periodic pentru a limita expunerea."
      ],
      "termeni": [
       {
        "t": "identitate digitală",
-       "d": "ansamblul informațiilor care reprezintă o persoană în mediul online"
+       "d": "totalitatea informațiilor și a urmelor ce definesc prezența unei persoane pe internet"
       },
       {
        "t": "reputație online",
-       "d": "imaginea care rezultă din informațiile publice despre o persoană"
+       "d": "percepția publică a celorlalți utilizatori despre un individ pe baza activității sale digitale"
+      },
+      {
+       "t": "cyberbullying",
+       "d": "utilizarea tehnologiilor digitale pentru a hărțui, amenința sau umili o persoană"
+      },
+      {
+       "t": "doxxing",
+       "d": "dezvăluirea publică malițioasă a datelor de identificare privată ale unei persoane"
       }
      ],
      "carduri": [
       {
-       "f": "Ce este identitatea digitală?",
-       "v": "Ansamblul informațiilor care te reprezintă online."
+       "f": "De ce verifică adesea companiile profilurile de social media ale candidaților la angajare?",
+       "v": "Pentru a evalua conduita profesională, caracterul, valorile și reputația digitală a candidatului."
       },
       {
-       "f": "De ce contează reputația online?",
-       "v": "Pentru că angajatorii și instituțiile caută informații publice despre candidați."
+       "f": "Ce este fenomenul de Cyberbullying?",
+       "v": "Hărțuirea sau intimidarea repetată a unei persoane prin intermediul mediului online."
       },
       {
-       "f": "Ce presupune gestionarea reputației online?",
-       "v": "Verificarea periodică, revizuirea setărilor, curățarea conținutului, construirea unei prezențe utile."
+       "f": "Ce presupune practica numită „Doxxing”?",
+       "v": "Publicarea neautorizată pe internet a adresei, telefonului sau datelor private ale cuiva pentru a-i face rău."
       },
       {
-       "f": "Care este regula de prudență la publicare?",
-       "v": "Nu publica nimic ce nu ai vrea citit de profesor, angajator și părinte deopotrivă."
+       "f": "Cum îți poți proteja intimitatea pe platformele de socializare?",
+       "v": "Setând contul pe modul Privat și selectând cu atenție cine poate vedea postările și fotografiile."
       }
      ],
      "test": [
       {
-       "intrebare": "Verificarea periodică a propriului nume într-un motor de căutare:",
+       "intrebare": "Publicarea rău-intenționată pe un forum a numărului de telefon și a adresei unui coleg fără acordul lui se numește:",
        "optiuni": [
-        "arată ce văd ceilalți despre tine",
-        "este inutilă",
-        "încalcă confidențialitatea",
-        "este posibilă doar cu cont"
+        "Doxxing",
+        "Backup",
+        "Căutare binară",
+        "Formatare"
        ],
        "corect": 0,
-       "explicatie": "Este primul pas în gestionarea reputației."
+       "explicatie": "Doxxing-ul încalcă dreptul la intimitate și legislația de protecție a datelor."
       },
       {
-       "intrebare": "Un profil profesional eficient conține:",
+       "intrebare": "Actul de intimidare, amenințare sau batjocorire repetată a unui elev pe grupurile de chat constituie:",
        "optiuni": [
-        "informații exacte și dovezi concrete ale competențelor",
-        "cât mai multe contacte",
-        "fotografii personale numeroase",
-        "opinii politice"
+        "Cyberbullying (hărțuire online)",
+        "o glumă inofensivă",
+        "un exercițiu de tastare",
+        "un test de viteză"
        ],
        "corect": 0,
-       "explicatie": "Dovezile concrete cântăresc cel mai mult."
+       "explicatie": "Cyberbullying-ul provoacă suferință psihică și este pedepsit de lege."
       },
       {
-       "intrebare": "Ștergerea unei postări publice:",
+       "intrebare": "Un principiu esențial de igienă a reputației online este:",
        "optiuni": [
-        "nu garantează dispariția ei, dacă a fost deja copiată",
-        "o elimină definitiv de pe internet",
-        "este imposibilă",
-        "se face automat după un an"
+        "să nu publici niciodată conținut pe care nu ai dori să-l vadă viitorul tău angajator sau familia",
+        "să postezi parola bancară pe rețelele sociale",
+        "să jignești toți colegii din clasă",
+        "să ai toate conturile complet publice"
        ],
        "corect": 0,
-       "explicatie": "Urma digitală este greu reversibilă."
+       "explicatie": "Autocenzura responsabilă protejează viitorul personal și profesional."
       },
       {
-       "intrebare": "Setările de confidențialitate ale conturilor ar trebui:",
+       "intrebare": "Pentru a împiedica persoanele străine să îți vadă fotografiile personale, configurezi profilul ca:",
        "optiuni": [
-        "revizuite periodic, fiindcă se schimbă odată cu platformele",
-        "lăsate implicite",
-        "modificate o singură dată",
-        "ignorate"
+        "Privat (vizibil doar prietenilor confirmați)",
+        "Public pentru întreaga planetă",
+        "Deschis fără nicio parolă",
+        "Vizibil pentru toți roboții de căutare"
        ],
        "corect": 0,
-       "explicatie": "Actualizările platformelor pot reseta preferințele."
+       "explicatie": "Profilul privat limitează accesul exclusiv la cercul de persoane de încredere."
       }
      ]
     }
@@ -534,260 +582,284 @@
   {
    "id": "tic12-c3",
    "titlu": "Tehnologii și societate",
-   "semestru": 2,
+   "semestru": 1,
    "lectii": [
     {
      "id": "tic12-07",
      "titlu": "Cloud, mobilitate, colaborare",
-     "rezumat": "Serviciile în cloud oferă stocare și aplicații accesate prin rețea, fără instalare locală. Avantaje: acces de pe orice dispozitiv, colaborare simultană, copii de siguranță automate, actualizări continue, costuri inițiale mici. Limite și riscuri: dependența de conexiune, dependența de furnizor, confidențialitatea datelor stocate, costurile pe termen lung, dificultatea migrării datelor spre alt serviciu. Buna practică: păstrarea unei copii locale a documentelor importante, atenție la ce date se încarcă (datele sensibile cer criptare sau găzduire proprie), verificarea drepturilor de partajare, folosirea autentificării în doi pași pentru contul de cloud, verificarea condițiilor de utilizare privind proprietatea asupra conținutului încărcat.",
+     "rezumat": "Revoluția Cloud Computing a redefinit modul în care învățăm și muncim, permițând mobilitate completă și acces ubiquitar la documente de pe orice dispozitiv (smartphone, laptop, tabletă) conectat la internet: 1. Caracteristicile fundamentale ale Cloud Computing: • Autoservire la cerere (On-demand self-service): alocarea instantanee de spațiu sau resurse fără intervenție umană; • Acces larg prin rețea (Broad network access): fișierele sunt disponibile oriunde prin browser sau aplicații mobile; • Agruparea resurselor (Resource pooling): infrastructura furnizorului deservește mai mulți clienți prin virtualizare securizată; • Elasticitate rapidă (Rapid elasticity): capacitatea de a mări sau micșora instantaneu spațiul de stocare; • Servicii măsurate (Measured service): plata exclusivă a resurselor consumate (modelul Pay-as-you-go). 2. Colaborarea sincronă și asincronă în educație: Platformele educaționale cloud (Google Workspace for Education, Microsoft Teams, Moodle) permit: • Editarea colaborativă în timp real a referatelor și proiectelor de grup de către mai mulți colegi simultan; • Gestionarea comentariilor de revizuire și a sarcinilor de lucru atribuite colegilor; • Centralizarea temelor școlare și a feedback-ului profesorilor fără hârtie tipărită; • Sincronizarea automată a modificărilor în fundal, eliminând riscul pierderii datelor la închiderea calculatorului.",
      "ideiCheie": [
-      "Cloudul oferă acces de oriunde, colaborare și copii automate.",
-      "Riscuri: dependență de conexiune și de furnizor, confidențialitate, migrare dificilă.",
-      "Se păstrează o copie locală a documentelor importante.",
-      "Datele sensibile cer criptare sau soluții proprii de găzduire."
+      "Cloud-ul asigură accesibilitatea documentelor de pe orice dispozitiv conectat la internet.",
+      "Elasticitatea rapidă permite extinderea imediată a spațiului de stocare la nevoie.",
+      "Editarea colaborativă în timp real permite mai multor elevi să lucreze simultan pe același document.",
+      "Salvarea automată în cloud elimină riscul pierderii muncii în caz de pană de curent."
      ],
      "termeni": [
       {
-       "t": "cloud",
-       "d": "servicii de stocare și de aplicații accesate prin rețea, fără instalare locală"
+       "t": "mobilitate digitală",
+       "d": "capacitatea de a accesa și prelucra datele profesionale de oriunde"
       },
       {
-       "t": "dependență de furnizor",
-       "d": "dificultatea de a migra datele și serviciile către alt furnizor"
+       "t": "colaborare sincronă",
+       "d": "lucru simultan în timp real al mai multor utilizatori pe același fișier partajat"
+      },
+      {
+       "t": "virtualizare",
+       "d": "tehnologie care împarte un server fizic puternic în zeci de mașini virtuale independente"
+      },
+      {
+       "t": "Pay-as-you-go",
+       "d": "model economic în care plătești doar resursele informatice efectiv utilizate"
       }
      ],
      "carduri": [
       {
-       "f": "Care sunt avantajele serviciilor în cloud?",
-       "v": "Acces de oriunde, colaborare simultană, copii automate, actualizări continue."
+       "f": "Ce înseamnă colaborarea sincronă pe un document Google Docs?",
+       "v": "Mai mulți utilizatori pot scrie și edita în același timp, văzând modificările fiecăruia instantaneu."
       },
       {
-       "f": "Ce este dependența de furnizor?",
-       "v": "Dificultatea de a migra datele și serviciile către alt furnizor."
+       "f": "Cum ajută Cloud Computing-ul mobilitatea unui elev?",
+       "v": "Își poate începe referatul la școală pe calculator și îl poate continua acasă pe telefon sau laptop."
       },
       {
-       "f": "De ce se păstrează o copie locală?",
-       "v": "Pentru cazul pierderii accesului la serviciu sau la conexiune."
+       "f": "Ce este elasticitatea rapidă în cloud?",
+       "v": "Posibilitatea de a crește imediat capacitatea de stocare sau procesare printr-un singur clic."
       },
       {
-       "f": "Ce protecție cer datele sensibile în cloud?",
-       "v": "Criptare sau găzduire proprie, plus autentificare în doi pași."
+       "f": "De ce a scăzut importanța stick-urilor USB odată cu răspândirea serviciilor de cloud storage?",
+       "v": "Pentru că fișierele sunt salvate automat online și pot fi accesate direct fără transfer fizic pe memorie portabilă."
       }
      ],
      "test": [
       {
-       "intrebare": "Un risc real al serviciilor în cloud este:",
+       "intrebare": "Caracteristica prin care fișierele din Google Drive se pot deschide de pe telefon, tabletă sau laptop se numește:",
        "optiuni": [
-        "dependența de furnizor și dificultatea migrării",
-        "imposibilitatea colaborării",
-        "lipsa copiilor de siguranță",
-        "costul inițial ridicat"
+        "acces larg prin rețea (mobilitate)",
+        "limitare locală",
+        "formatare condiționată",
+        "decupare vectorială"
        ],
        "corect": 0,
-       "explicatie": "Avantajele sunt reale, dar nu elimină riscurile."
+       "explicatie": "Accesibilitatea multi-platformă este un pilon al cloud-ului."
       },
       {
-       "intrebare": "Păstrarea unei copii locale a documentelor importante:",
+       "intrebare": "Lucrul simultan a 3 elevi pe aceeași prezentare PowerPoint partajată în Microsoft 365 este o colaborare:",
        "optiuni": [
-        "protejează împotriva pierderii accesului la serviciu",
-        "este inutilă",
-        "încalcă condițiile de utilizare",
-        "consumă spațiu fără rost"
+        "sincronă în timp real",
+        "imposibilă din punct de vedere tehnic",
+        "periculoasă pentru ecran",
+        "exclusiv offline"
        ],
        "corect": 0,
-       "explicatie": "Redundanța este principiul de bază al siguranței datelor."
+       "explicatie": "Colaborarea sincronă accelerează finalizarea proiectelor de echipă."
       },
       {
-       "intrebare": "Înainte de a încărca date sensibile într-un serviciu gratuit:",
+       "intrebare": "Tehnologia software care permite rularea a 10 calculatoare virtuale pe un singur server fizic se numește:",
        "optiuni": [
-        "se verifică condițiile de utilizare și opțiunile de criptare",
-        "se încarcă direct, e mai simplu",
-        "se comprimă fișierele",
-        "se schimbă numele fișierelor"
+        "Virtualizare",
+        "Defragmentare",
+        "Overclocking",
+        "Tipărire laser"
        ],
        "corect": 0,
-       "explicatie": "Condițiile pot include drepturi asupra conținutului."
+       "explicatie": "Virtualizarea stă la baza arhitecturii tuturor centrelor de date cloud."
       },
       {
-       "intrebare": "Colaborarea simultană în cloud presupune:",
+       "intrebare": "Plata resurselor de calcul doar pe durata și volumul efectiv consumat este denumită modelul:",
        "optiuni": [
-        "istoric al versiunilor și drepturi diferențiate de acces",
-        "un singur editor",
-        "descărcarea prealabilă a fișierului",
-        "trimiterea prin e-mail"
+        "Pay-as-you-go (Plătești pe măsură ce consumi)",
+        "Preț fix pe 50 de ani",
+        "Achiziție definitivă",
+        "Monopol"
        ],
        "corect": 0,
-       "explicatie": "Acestea sunt avantajele față de schimbul de fișiere."
+       "explicatie": "Modelul Pay-as-you-go reduce costurile eliminând investițiile neutilizate."
       }
      ]
     },
     {
      "id": "tic12-08",
      "titlu": "Automatizare, date mari, inteligență artificială",
-     "rezumat": "Automatizarea preia sarcini repetitive: completarea unor formulare, prelucrarea unor fișiere, generarea de rapoarte. Ea eliberează timp pentru activitățile care cer judecată, dar transformă și piața muncii: dispar sarcini, apar altele, iar competențele cerute se schimbă mai repede decât înainte. Datele mari (big data) desemnează seturi de date prea mari sau prea rapide pentru instrumentele clasice; valoarea lor stă în tiparele descoperite prin analiză. Inteligența artificială cuprinde sisteme care îndeplinesc sarcini care cereau, în trecut, inteligență umană: recunoaștere de imagini, traducere, generare de text, recomandări. Limitele sunt importante: sistemele învață din date și moștenesc erorile și prejudecățile lor; pot produce rezultate false formulate convingător; nu înțeleg contextul așa cum îl înțelege un om. Verificarea rezultatelor rămâne responsabilitatea utilizatorului.",
+     "rezumat": "Evoluția tehnologică actuală converge spre automatizarea proceselor repetitive și valorificarea inteligentă a fluxurilor masive de date (Data-Driven Decision Making): 1. Automatizarea fluxurilor de lucru (RPA - Robotic Process Automation): Utilizarea de scripturi software și algoritmi inteligenți pentru a prelua sarcini monotone și consumatoare de timp: sortarea automată a e-mailurilor, extragerea datelor din facturi PDF, generarea de rapoarte periodice și sincronizarea bazelor de date. Automatizarea reduce erorile umane la zero și permite oamenilor să se concentreze pe activități creative de concepție și analiză. 2. Ciclul de prelucrare în Big Data: • Colectarea (Data Ingestion) din surse multiple: senzori, rețele sociale, baze de date tranzacționale; • Stocarea distribuită în clustere scalabile (sisteme precum Apache Hadoop HDFS); • Prelucrarea și analiza avansată (Data Analytics): analize predictive care estimează evenimente viitoare (ex: anticiparea aglomerației din spitale sau a cererii de energie electrică); • Vizualizarea datelor (Data Visualization) prin tablouri de bord interactive (Dashboards). 3. Rolul Inteligenței Artificiale în societate: Algoritmii de învățare automată (Machine Learning) sunt integrați în toate aspectele cotidiene: filtrele antispam din căsuța poștală, motoarele de recomandare muzicală și video (Spotify, YouTube), recunoașterea facială biometrică la deblocarea smartphone-ului și asistenții virtuali personali.",
      "ideiCheie": [
-      "Automatizarea preia sarcini repetitive și schimbă competențele cerute.",
-      "Datele mari au valoare prin tiparele descoperite, nu prin volum în sine.",
-      "Sistemele de inteligență artificială moștenesc erorile și prejudecățile din date.",
-      "Verificarea rezultatelor rămâne responsabilitatea utilizatorului."
+      "Automatizarea preia sarcinile repetitive, crescând precizia și eliberând timpul utilizatorilor.",
+      "Big Data transformă volumele astronomice de date brute în decizii strategice informate.",
+      "Analiza predictivă anticipează tendințe viitoare pe baza tiparelor istorice descoperite de algoritmi.",
+      "Tablourile de bord interactive (Dashboards) sintetizează vizual indicatorii cheie de performanță."
      ],
      "termeni": [
       {
-       "t": "date mari",
-       "d": "seturi de date prea voluminoase sau prea rapide pentru instrumentele clasice"
+       "t": "automatizare (RPA)",
+       "d": "utilizarea programelor pentru a executa automat sarcini digitale repetitive"
       },
       {
-       "t": "prejudecată algoritmică",
-       "d": "eroare sistematică a unui sistem, moștenită din datele pe care a fost antrenat"
+       "t": "analiză predictivă",
+       "d": "utilizarea datelor istorice și a modelelor AI pentru a prognoza evenimente viitoare"
+      },
+      {
+       "t": "Dashboard",
+       "d": "interfață vizuală unificată care afișează indicatori și grafice dinamice în timp real"
+      },
+      {
+       "t": "date brute (Raw Data)",
+       "d": "informații neprelucrate colectate direct de la sursă"
       }
      ],
      "carduri": [
       {
-       "f": "Ce preia automatizarea?",
-       "v": "Sarcinile repetitive, eliberând timp pentru cele care cer judecată."
+       "f": "Ce rol are automatizarea software (RPA) într-o organizație?",
+       "v": "Preia sarcinile repetitive de rutină (ex: completare formulare, sortare e-mailuri), eliminând erorile."
       },
       {
-       "f": "În ce stă valoarea datelor mari?",
-       "v": "În tiparele descoperite prin analiză, nu în volumul în sine."
+       "f": "Ce este un Dashboard (tablou de bord)?",
+       "v": "O fereastră vizuală cu grafice și cifre sintetice actualizate în timp real."
       },
       {
-       "f": "De ce pot greși sistemele de inteligență artificială?",
-       "v": "Pentru că învață din date și moștenesc erorile și prejudecățile lor."
+       "f": "Cum ajută analiza predictivă un spital?",
+       "v": "Poate anticipa numărul de pacienți dintr-o anumită săptămână pe baza tendințelor din anii precedenți."
       },
       {
-       "f": "Cine răspunde de verificarea rezultatelor?",
-       "v": "Utilizatorul care le folosește."
+       "f": "Numiți o aplicație comună a Machine Learning-ului întâlnită zilnic în telefon.",
+       "v": "Recunoașterea facială pentru deblocare sau tastatura predictivă."
       }
      ],
      "test": [
       {
-       "intrebare": "Prejudecata algoritmică apare pentru că:",
+       "intrebare": "Prelucrarea automată a facturilor de către un program fără intervenție umană reprezintă:",
        "optiuni": [
-        "sistemul învață din date care conțin ele însele prejudecăți",
-        "programatorii o introduc intenționat",
-        "algoritmii sunt aleatorii",
-        "datele sunt prea puține"
+        "Automatizare software (RPA)",
+        "Editare video manuală",
+        "Tipărire offset",
+        "Formatare fizică de hard disk"
        ],
        "corect": 0,
-       "explicatie": "De aceea contează calitatea și reprezentativitatea datelor."
+       "explicatie": "Automatizarea crește viteza și eficiența muncii administrative."
       },
       {
-       "intrebare": "Un rezultat generat de un sistem de inteligență artificială:",
+       "intrebare": "Utilizarea datelor istorice pentru a anticipa evoluția prețului grâului în anul următor se numește:",
        "optiuni": [
-        "trebuie verificat înainte de a fi folosit ca atare",
-        "este întotdeauna corect",
-        "nu poate fi verificat",
-        "înlocuiește sursele"
+        "Analiză predictivă",
+        "Criptare asimetrică",
+        "Descompunere vizuală",
+        "Resetare din fabrică"
        ],
        "corect": 0,
-       "explicatie": "Sistemele pot formula convingător informații false."
+       "explicatie": "Analiza predictivă modelează scenarii viitoare pe baze statistice solide."
       },
       {
-       "intrebare": "Valoarea datelor mari stă în:",
+       "intrebare": "Ecranul unic care sintetizează pe grafice interactive vânzările, profitul și numărul de clienți este:",
        "optiuni": [
-        "tiparele descoperite prin analiză",
-        "volumul lor",
-        "viteza de colectare",
-        "formatul de stocare"
+        "un Dashboard (Tablou de bord)",
+        "un fișier audio MP3",
+        "un cablu VGA",
+        "un algoritm de căutare"
        ],
        "corect": 0,
-       "explicatie": "Datele neanalizate nu produc valoare."
+       "explicatie": "Dashboard-ul oferă factorilor de decizie o privire de ansamblu instantanee."
       },
       {
-       "intrebare": "Automatizarea sarcinilor repetitive:",
+       "intrebare": "Algoritmii care filtrează automat mesajele de tip Spam din căsuța ta de e-mail folosesc:",
        "optiuni": [
-        "schimbă structura competențelor cerute pe piața muncii",
-        "elimină munca în general",
-        "nu afectează ocuparea",
-        "privește doar industria"
+        "Machine Learning (clasificare automată a textelor)",
+        "doar o monedă aruncată în sus",
+        "cabluri speciale de internet",
+        "monitoare mai luminoase"
        ],
        "corect": 0,
-       "explicatie": "Dispar sarcini, apar altele, iar recalificarea devine permanentă."
+       "explicatie": "Filtrele antispam învață permanent noi tipare de mesaje frauduloase."
       }
      ]
     },
     {
      "id": "tic12-09",
      "titlu": "Etică digitală și responsabilitate",
-     "rezumat": "Tehnologia nu este neutră în efecte: modul în care e proiectată și folosită produce consecințe sociale. Problemele etice actuale: confidențialitatea datelor și supravegherea, dependența de dispozitive și efectele asupra atenției, dezinformarea amplificată algoritmic, decalajul digital dintre cei care au acces și competențe și cei care nu, impactul de mediu al infrastructurii digitale, drepturile de autor în epoca reproducerii nelimitate. Responsabilitatea utilizatorului: verificarea informației înainte de distribuire, respectarea drepturilor de autor, protejarea datelor proprii și ale altora, comportament decent în interacțiunile online, folosirea conștientă a timpului petrecut pe ecrane. Competența digitală completă nu înseamnă doar a ști să folosești instrumentele, ci a înțelege ce fac ele cu tine și cu ceilalți.",
+     "rezumat": "Dezvoltarea accelerată a tehnologiilor digitale ridică dileme etice profunde ce impun responsabilitate civică și discernământ critic: 1. Etica algoritmilor și Inteligența Artificială: • Transparența decizională: algoritmii folosiți pentru acordarea de credite bancare sau selecția CV-urilor de angajare nu trebuie să fie cutii negre opace (Black Box), ci trebuie să poată fi auditați și explicați; • Nediscriminarea: prevenirea învățării prejudecăților de gen, rasă sau vârstă din datele istorice; • Supravegherea umană (Human-in-the-loop): deciziile critice care privesc libertatea, sănătatea sau viața oamenilor nu trebuie lăsate niciodată exclusiv pe seama mașinilor. 2. Proprietatea intelectuală în era generativă: Utilizarea operelor artiștilor, scriitorilor și fotografilor pentru antrenarea modelelor generative fără acordul sau remunerarea acestora stârnește dispute legale internaționale majore. Respectarea drepturilor de autor și menționarea transparentă a contribuțiilor AI sunt imperative morale. 3. Impactul ecologic al tehnologiei (Green IT): Centrele de date uriașe consumă cantități gigantice de energie electrică și apă pentru răcire. Deșeurile electronice (E-waste: telefoane vechi, calculatoare casate) conțin substanțe toxice (plumb, mercur) și trebuie reciclate exclusiv prin puncte autorizate de colectare.",
      "ideiCheie": [
-      "Tehnologia nu e neutră: proiectarea și folosirea produc consecințe sociale.",
-      "Probleme: confidențialitate, atenție, dezinformare, decalaj digital, mediu, drepturi de autor.",
-      "Responsabilitatea utilizatorului începe cu verificarea înainte de distribuire.",
-      "Competența digitală completă include înțelegerea efectelor, nu doar folosirea instrumentelor."
+      "Algoritmii de decizie trebuie să fie transparenți, auditabili și lipsiți de discriminare.",
+      "Deciziile critice despre viața umană impun obligatoriu supravegherea unui operator uman.",
+      "Utilizarea conținutului creat de alții impune respectarea legislației privind drepturile de autor.",
+      "Green IT promovează eficiența energetică a serverelor și reciclarea corectă a deșeurilor electronice (E-waste)."
      ],
      "termeni": [
       {
-       "t": "decalaj digital",
-       "d": "diferența dintre cei care au acces și competențe digitale și cei care nu au"
+       "t": "etică digitală",
+       "d": "ansamblul de principii morale care ghidează dezvoltarea și folosirea tehnologiei"
       },
       {
-       "t": "impact de mediu al infrastructurii digitale",
-       "d": "consumul de energie și resurse al centrelor de date și al dispozitivelor"
+       "t": "Green IT",
+       "d": "practici ecologice de reducere a consumului de energie și reciclare a echipamentelor IT"
+      },
+      {
+       "t": "E-waste",
+       "d": "deșeuri de echipamente electrice și electronice ce necesită reciclare specializată"
+      },
+      {
+       "t": "transparență algoritmică",
+       "d": "dreptul utilizatorilor de a înțelege pe baza căror criterii a luat un algoritm o decizie"
       }
      ],
      "carduri": [
       {
-       "f": "Ce înseamnă că tehnologia nu este neutră?",
-       "v": "Că modul în care e proiectată și folosită produce consecințe sociale reale."
+       "f": "De ce nu trebuie lăsate deciziile medicale exclusiv pe seama unui algoritm AI?",
+       "v": "Pentru că mașinile pot greși sau halucina, fiind obligatorie supravegherea și validarea unui medic uman."
       },
       {
-       "f": "Ce este decalajul digital?",
-       "v": "Diferența dintre cei care au acces și competențe digitale și cei care nu au."
+       "f": "Ce măsuri cuprinde conceptul de „Green IT”?",
+       "v": "Eficientizarea consumului de curent al serverelor și reciclarea corectă a telefoanelor și calculatoarelor uzate."
       },
       {
-       "f": "Care este prima responsabilitate a utilizatorului?",
-       "v": "Verificarea informației înainte de a o distribui."
+       "f": "De ce este periculos să arunci un laptop vechi la ghena obișnuită de gunoi?",
+       "v": "Bateria și circuitele conțin metale grele toxice (litiu, plumb, mercur) ce otrăvesc solul și pânza freatică."
       },
       {
-       "f": "Ce include competența digitală completă?",
-       "v": "Nu doar folosirea instrumentelor, ci și înțelegerea efectelor lor."
+       "f": "Ce este „părtinirea algoritmică” (Algorithmic Bias)?",
+       "v": "Favorizarea sau defavorizarea nedreaptă a anumitor grupuri de oameni de către un algoritm antrenat pe date viciate."
       }
      ],
      "test": [
       {
-       "intrebare": "Decalajul digital privește:",
+       "intrebare": "Disciplina care studiază reciclarea responsabilă a calculatoarelor și reducerea consumului de curent este:",
        "optiuni": [
-        "atât accesul la tehnologie, cât și competențele de folosire",
-        "doar viteza internetului",
-        "doar prețul dispozitivelor",
-        "doar mediul rural"
+        "Green IT",
+        "Blue Web",
+        "Overclocking extrem",
+        "Criptare forțată"
        ],
        "corect": 0,
-       "explicatie": "Accesul fără competențe nu produce beneficii."
+       "explicatie": "Green IT protejează mediul înconjurător de poluarea tehnologică."
       },
       {
-       "intrebare": "Distribuirea unei informații neverificate:",
+       "intrebare": "Dispozitivele electronice defecte sau învechite (telefoane, televizoare, monitoare) se predau la:",
        "optiuni": [
-        "contribuie la răspândirea dezinformării",
-        "este neutră",
-        "este responsabilitatea platformei",
-        "nu are efecte"
+        "centre specializate de colectare a deșeurilor DEEE (E-waste)",
+        "ghena de gunoi menajer",
+        "în pădure",
+        "în râu"
        ],
        "corect": 0,
-       "explicatie": "Fiecare distribuire amplifică mesajul."
+       "explicatie": "Reciclarea DEEE recuperează metale prețioase și izolează substanțele toxice."
       },
       {
-       "intrebare": "Infrastructura digitală are un impact de mediu prin:",
+       "intrebare": "Principiul etic conform căruia un om trebuie să aibă ultimul cuvânt în deciziile de viață asistate de AI se numește:",
        "optiuni": [
-        "consumul de energie al centrelor de date și al dispozitivelor",
-        "lipsa hârtiei",
-        "durata de viață a software-ului",
-        "numărul de utilizatori"
+        "Supraveghere umană (Human-in-the-loop)",
+        "Automatizare totală",
+        "Deconectare de la priză",
+        "Formatare completă"
        ],
        "corect": 0,
-       "explicatie": "Producția și reciclarea dispozitivelor contează la fel de mult."
+       "explicatie": "Supravegherea umană garantează responsabilitatea etică și juridică."
       },
       {
-       "intrebare": "Competența digitală completă înseamnă:",
+       "intrebare": "Antrenarea unui model AI exclusiv pe texte care promovează prejudecăți va conduce inevitabil la:",
        "optiuni": [
-        "folosirea instrumentelor plus înțelegerea efectelor lor",
-        "cunoașterea tuturor aplicațiilor",
-        "programarea avansată",
-        "viteza de tastare"
+        "un algoritm părtinitor și discriminatoriu (Bias)",
+        "un calculator mai rapid",
+        "o conexiune Wi-Fi mai puternică",
+        "o imagine vectorială"
        ],
        "corect": 0,
-       "explicatie": "Dimensiunea critică este parte din competență."
+       "explicatie": "Inteligența artificială reflectă direct calitatea și etica datelor cu care a fost hrănită."
       }
      ]
     }
@@ -795,261 +867,285 @@
   },
   {
    "id": "tic12-c4",
-   "titlu": "Instrumente de birou",
-   "semestru": 1,
+   "titlu": "Instrumente de birou: cerințe avansate",
+   "semestru": 2,
    "lectii": [
     {
      "id": "tic12-10",
      "titlu": "Procesorul de text",
-     "rezumat": "Procesorul de text (Word, Writer, Google Docs) creează documente formatate. Formatarea la nivel de caracter cuprinde font, dimensiune, îngroșat, cursiv, subliniat, culoare; cea la nivel de paragraf cuprinde aliniere, spațiere, indentare, liste. Stilurile aplică o formatare consecventă și permit generarea automată a cuprinsului, fiind cheia documentelor lungi și îngrijite. Alte instrumente: inserarea de imagini și tabele, antet și subsol, numerotarea paginilor, corectarea ortografică, îmbinarea corespondenței (mail merge). Un document bine structurat folosește stiluri, nu formatări manuale repetate. Salvarea în formate standard (DOCX, PDF, ODT) și organizarea în fișiere și foldere fac documentul ușor de partajat și de regăsit, iar scurtăturile de tastatură (Ctrl+C, Ctrl+V, Ctrl+Z) grăbesc lucrul.",
+     "rezumat": "Aprofundarea tehnicilor de redactare în Microsoft Word solicită stăpânirea instrumentelor de productivitate avansată: 1. Secțiuni de document și întreruperi complexe: Un document profesional combină adesea pagini orientate vertical (Portret) cu pagini orientate orizontal (Vedere / Landscape — de exemplu pentru a găzdui un tabel foarte lat). Această alternanță este posibilă exclusiv prin inserarea de Întreruperi de Secțiune (Section Breaks -> Next Page din meniul Layout). Fiecare secțiune poate avea orientare, margini, antet și numerotare complet independente. Pentru ca antetul noii secțiuni să fie diferit, se debifează butonul „Link to Previous” (Legătură la anteriorul). 2. Tabele profesionale și formule de calcul: Tabelele Word pot include formule matematice de bază (`=SUM(ABOVE)`, `=AVERAGE(LEFT)`) din meniul Layout -> Formula. De asemenea, repetarea rândului de antet (Repeat Header Rows) este obligatorie pentru tabelele ce se întind pe mai multe pagini. 3. Formate speciale de paragraf: • Borduri și umbriri de paragraf (Borders and Shading) — aplicarea unui fundal gri sau colorat pe un singur paragraf selectat; • Drop Cap (Inițială căzută) — mărirea primei litere a unui capitol peste 3 rânduri de text, specific stilului editorial clasic (Insert -> Drop Cap).",
      "ideiCheie": [
-      "Formatare la nivel de caracter (font) și de paragraf (aliniere, spațiere).",
-      "Stilurile dau consecvență și generează automat cuprinsul.",
-      "Instrumente: imagini, tabele, antet/subsol, numerotare, mail merge.",
-      "Salvare în formate standard: DOCX, PDF, ODT."
+      "Întreruperea de secțiune (Section Break) permite combinarea paginilor Portret cu cele Landscape în același document.",
+      "Debifarea opțiunii „Link to Previous” permite antete și subsoluri diferite între secțiuni.",
+      "Efectul Drop Cap (Inițială căzută) mărește spectaculos prima literă a primului paragraf.",
+      "Tabelele Word permit calculul automat al sumelor pe coloane prin formula `=SUM(ABOVE)`."
      ],
      "termeni": [
       {
-       "t": "stil (procesor de text)",
-       "d": "set de formatări aplicat unitar, care asigură consecvența documentului"
+       "t": "Section Break",
+       "d": "separator special ce împarte documentul în zone cu paginare și orientare independente"
       },
       {
-       "t": "mail merge",
-       "d": "îmbinarea unui document tip cu o listă de date, pentru scrisori personalizate"
+       "t": "Link to Previous",
+       "d": "legătură activă între antetele a două secțiuni succesive ce trebuie decuplată pentru diversificare"
+      },
+      {
+       "t": "Drop Cap",
+       "d": "literă inițială stilizată de mari dimensiuni ce se întinde pe înălțimea a 2-4 rânduri"
+      },
+      {
+       "t": "Repeat Header Rows",
+       "d": "comandă ce duplică automat capul de tabel pe fiecare pagină nouă"
       }
      ],
      "carduri": [
       {
-       "f": "Ce avantaj dau stilurile într-un document?",
-       "v": "Consecvența și generarea automată a cuprinsului."
+       "f": "Cum poți pune doar a treia pagină dintr-un document Word în format Landscape (orizontal)?",
+       "v": "Inserezi Section Break înainte și după pagina respectivă, apoi schimbi orientarea doar acelei secțiuni."
       },
       {
-       "f": "Ce este mail merge?",
-       "v": "Îmbinarea unui document tip cu o listă de date."
+       "f": "La ce folosește comanda „Repeat Header Rows” la tabelele lungi din Word?",
+       "v": "Reafișează automat primul rând cu denumirile coloanelor în capul fiecărei pagini noi."
       },
       {
-       "f": "Numește un format standard de document.",
-       "v": "DOCX (sau PDF, ODT)."
+       "f": "Ce face efectul tipografic Drop Cap (Inițială căzută)?",
+       "v": "Mărește prima literă a paragrafului pe înălțimea a 3 rânduri de text."
       },
       {
-       "f": "La ce nivel se face alinierea?",
-       "v": "La nivel de paragraf."
+       "f": "Cum decuplezi antetul secțiunii 2 pentru a nu mai fi identic cu cel din secțiunea 1?",
+       "v": "Faci dublu clic în antetul secțiunii 2 și dezactivezi butonul „Link to Previous”."
       }
      ],
      "test": [
       {
-       "intrebare": "Generarea automată a cuprinsului se bazează pe:",
+       "intrebare": "Pentru a avea pagini cu orientare diferită (portret și vedere) în cadrul aceluiași fișier Word, se utilizează:",
        "optiuni": [
-        "stiluri",
-        "culoarea textului",
-        "numărul de pagini",
-        "font"
+        "Întreruperi de secțiune (Section Breaks -> Next Page)",
+        "Page Break simplu",
+        "dublu clic pe text",
+        "micșorarea fontului"
        ],
        "corect": 0,
-       "explicatie": "Stilurile de titlu structurează documentul."
+       "explicatie": "Secțiunile permit setări de pagină complet independente."
       },
       {
-       "intrebare": "Formatarea la nivel de paragraf include:",
+       "intrebare": "Opțiunea care trebuie debifată pentru ca noul antet să nu mai copieze antetul paginilor precedente este:",
        "optiuni": [
-        "alinierea și spațierea",
-        "fontul unei litere",
-        "îngroșarea unui cuvânt",
-        "culoarea unei litere"
+        "Link to Previous (Legătură la anteriorul)",
+        "Different First Page",
+        "Show Document Text",
+        "Close Header"
        ],
        "corect": 0,
-       "explicatie": "Fontul e formatare de caracter."
+       "explicatie": "Decuplarea legăturii rupe dependența dintre secțiuni."
       },
       {
-       "intrebare": "Un format standard de document text este:",
+       "intrebare": "Efectul vizual de revistă prin care prima literă a unui articol ocupă înălțimea a 3 rânduri este:",
        "optiuni": [
-        "DOCX",
-        "MP3",
-        "JPEG",
-        "EXE"
+        "Drop Cap (Inițială căzută)",
+        "WordArt",
+        "Subscript",
+        "Small Caps"
        ],
        "corect": 0,
-       "explicatie": "PDF și ODT sunt și ele standard."
+       "explicatie": "Drop Cap este un element clasic de punere în pagină editorială."
       },
       {
-       "intrebare": "Mail merge servește la:",
+       "intrebare": "Formula internă utilizată într-un tabel Word pentru a aduna numerele aflate deasupra celulei curente este:",
        "optiuni": [
-        "generarea de scrisori personalizate dintr-o listă",
-        "comprimarea imaginilor",
-        "crearea de grafice",
-        "protejarea parolei"
+        "=SUM(ABOVE)",
+        "=SUM(LEFT)",
+        "=ADD(TOP)",
+        "=TOTAL()"
        ],
        "corect": 0,
-       "explicatie": "Îmbină un șablon cu date."
+       "explicatie": "`=SUM(ABOVE)` este funcția standard integrată în tabelele Word."
       }
      ]
     },
     {
      "id": "tic12-11",
      "titlu": "Calculul tabelar",
-     "rezumat": "Programul de calcul tabelar (Excel, Calc, Google Sheets) organizează date în foi formate din celule, identificate prin coloană și rând (A1, B2). Puterea lui stă în formule, care încep cu semnul egal, de exemplu =A1+B1. Referințele pot fi relative (se schimbă la copiere: A1) sau absolute (rămân fixe: $A$1). Funcțiile efectuează calcule predefinite: SUM (sumă), AVERAGE (medie), MIN, MAX, COUNT (numărare), IF (condiție). Datele pot fi sortate, filtrate și reprezentate în grafice (coloane, linii, sectoare), pentru a fi înțelese vizual. Calculul tabelar e folosit pentru bugete, statistici, evidențe; o foaie bine făcută separă datele de calcule și folosește referințe corecte. Formatarea condiționată evidențiază valorile după reguli.",
+     "rezumat": "Consolidarea abilităților de calcul tabelar în Microsoft Excel pentru rezolvarea scenariilor complexe: 1. Funcții avansate de căutare: • =VLOOKUP (Vertical Lookup): caută o valoare cheie în prima coloană a unui tabel și returnează valoarea corespondentă dintr-o coloană indicată: Sintaxa: `=VLOOKUP(valoare_căutată, tabel, număr_coloană_rezultat, FALSE)` Exemplu: căutarea automată a prețului unui produs pe baza codului său unic de bare; • =XLOOKUP: versiunea modernă și flexibilă ce permite căutarea bidirecțională fără restricția primei coloane. 2. Validarea datelor (Data Validation): Instrument din meniul Data ce previne introducerea de date eronate de la tastatură: • Restricționarea la numere întregi între 1 și 10 (pentru note școlare); • Crearea unei liste derulante (Dropdown List) prin opțiunea Allow: List, forțând utilizatorul să aleagă dintr-un set prestabilit de valori (ex: \"Bucuresti, Iasi, Cluj, Timisoara\"). 3. Protecția foii de calcul: Meniul Review -> Protect Sheet — blochează modificarea accidentală a celulelor ce conțin formule complexe, permițând tastarea doar în celulele de intrare deblocate în prealabil.",
      "ideiCheie": [
-      "Datele stau în celule (coloană + rând: A1).",
-      "Formulele încep cu „=”; referințe relative (A1) sau absolute ($A$1).",
-      "Funcții: SUM, AVERAGE, MIN, MAX, COUNT, IF.",
-      "Datele se pot sorta, filtra și reprezenta în grafice."
+      "VLOOKUP caută o valoare în prima coloană a unei matrice și extrage datele asociate din rândul respectiv.",
+      "Validarea datelor (Data Validation) blochează introducerea de valori incorecte în celule.",
+      "Crearea unei liste derulante (Dropdown List) standardizează culegerea datelor pe foaie.",
+      "Protect Sheet securizează formulele matematice împotriva ștergerii sau modificării accidentale."
      ],
      "termeni": [
       {
-       "t": "formulă",
-       "d": "expresie de calcul dintr-o celulă, care începe cu semnul egal"
+       "t": "VLOOKUP",
+       "d": "funcție de căutare verticală ce returnează valori corelate dintr-un tabel de referință"
       },
       {
-       "t": "referință absolută",
-       "d": "referință care nu se schimbă la copiere, marcată cu $ ($A$1)"
+       "t": "Data Validation",
+       "d": "set de reguli ce restricționează tipul și intervalul valorilor introduse într-o celulă"
+      },
+      {
+       "t": "Dropdown List",
+       "d": "listă derulantă ce obligă selectarea unei opțiuni dintr-un meniu fix"
+      },
+      {
+       "t": "Protect Sheet",
+       "d": "funcție de blocare a editării celulelor pentru a proteja formulele"
       }
      ],
      "carduri": [
       {
-       "f": "Cu ce semn încep formulele?",
-       "v": "Cu semnul egal (=)."
+       "f": "Ce rol are funcția =VLOOKUP în Excel?",
+       "v": "Caută o valoare pe verticală și aduce informația asociată dintr-o altă coloană a tabelului."
       },
       {
-       "f": "Ce funcție calculează media?",
-       "v": "AVERAGE."
+       "f": "Cum creezi o căsuță cu listă derulantă de selecție (ex: județe) într-o celulă Excel?",
+       "v": "Data -> Data Validation -> Allow: List -> introduci opțiunile separate prin virgulă."
       },
       {
-       "f": "Ce e o referință absolută?",
-       "v": "O referință fixă la copiere, scrisă cu $ ($A$1)."
+       "f": "La ce folosește comanda „Protect Sheet” din meniul Review?",
+       "v": "Protejează foaia cu parolă pentru a împiedica modificarea sau ștergerea formulelor de către alți utilizatori."
       },
       {
-       "f": "Ce arată un grafic?",
-       "v": "Datele într-o formă vizuală, ușor de înțeles."
+       "f": "Ce regulă de validare setezi pe o coloană de note pentru a exclude valorile greșite?",
+       "v": "Allow: Decimal (sau Whole Number) între 1 și 10."
       }
      ],
      "test": [
       {
-       "intrebare": "O formulă într-o celulă începe cu:",
+       "intrebare": "Funcția Excel utilizată tradițional pentru a găsi prețul unui produs pe baza codului său într-un tabel catalog este:",
        "optiuni": [
-        "semnul egal (=)",
-        "semnul plus",
-        "o literă",
-        "ghilimele"
+        "=VLOOKUP",
+        "=COUNT",
+        "=AVERAGE",
+        "=CONCATENATE"
        ],
        "corect": 0,
-       "explicatie": "De exemplu =A1+B1."
+       "explicatie": "VLOOKUP este cea mai utilizată funcție de căutare în baze de date tabulare."
       },
       {
-       "intrebare": "Funcția care adună valorile este:",
+       "intrebare": "Instrumentul din Excel care împiedică utilizatorul să tasteze o notă mai mare de 10 într-un catalog se numește:",
        "optiuni": [
-        "SUM",
-        "IF",
-        "COUNT",
-        "MAX"
+        "Validarea datelor (Data Validation)",
+        "Protecție antivirus",
+        "Sortare multinivel",
+        "Formatare ca tabel"
        ],
        "corect": 0,
-       "explicatie": "AVERAGE calculează media."
+       "explicatie": "Validarea datelor respinge automat valorile ce încalcă regula stabilită."
       },
       {
-       "intrebare": "Referința $A$1 este:",
+       "intrebare": "Pentru a permite introducerea exclusivă a opțiunilor „Masculin” și „Feminin” dintr-o listă derulantă, la Data Validation alegi:",
        "optiuni": [
-        "absolută (nu se schimbă la copiere)",
-        "relativă",
-        "o funcție",
-        "un grafic"
+        "List",
+        "Any value",
+        "Text length",
+        "Date"
        ],
        "corect": 0,
-       "explicatie": "Relativa (A1) se modifică la copiere."
+       "explicatie": "Opțiunea List generează meniul de selecție controlată."
       },
       {
-       "intrebare": "Un grafic cu sectoare (circular) e potrivit pentru:",
+       "intrebare": "Securizarea formulelor dintr-un tabel astfel încât colegii să poată introduce doar date fără să strice calculele se face prin:",
        "optiuni": [
-        "proporții dintr-un întreg",
-        "evoluția în timp",
-        "text simplu",
-        "formule"
+        "Protejarea foii de calcul (Protect Sheet)",
+        "Ștergerea formulelor",
+        "Colorarea cu negru a celulelor",
+        "Închiderea calculatorului"
        ],
        "corect": 0,
-       "explicatie": "Liniile arată evoluția în timp."
+       "explicatie": "Protect Sheet blochează editarea celulelor protejate."
       }
      ]
     },
     {
      "id": "tic12-12",
      "titlu": "Prezentările electronice",
-     "rezumat": "Programul de prezentări (PowerPoint, Impress, Google Slides) creează secvențe de diapozitive (slide-uri) pentru a susține o expunere. O prezentare bună respectă câteva reguli: un mesaj clar per diapozitiv, text puțin (idei, nu paragrafe), imagini relevante, contrast bun între text și fundal, un font lizibil. Elementele: titluri, liste, imagini, grafice, eventual animații și tranziții — folosite cu măsură, ca să nu distragă. Șabloanele (template) asigură un aspect unitar. Regula practică: prezentarea sprijină vorbitorul, nu îl înlocuiește, iar diapozitivul nu se citește cuvânt cu cuvânt. La final, o structură clară (introducere, cuprins, concluzie) și repetiția expunerii fac diferența; exportul în PDF păstrează aspectul pentru distribuire.",
+     "rezumat": "Crearea prezentărilor interactive de impact necesită utilizarea funcționalităților avansate din Microsoft PowerPoint: 1. Butoane de acțiune și hiperlinkuri interactive: PowerPoint permite transformarea unei expuneri liniare într-o aplicație interactivă (ex: un joc didactic, un chestionar cu întrebări sau un meniu interactiv de muzeu): • Inserarea formelor de tip Action Buttons (Butoane de acțiune: buton Acasă, Înainte, Înapoi); • Meniul Insert -> Link / Action -> salt direct la un anumit diapozitiv (Slide...), deschiderea unui fișier extern sau lansarea unei pagini web. 2. Înregistrarea și temporizarea expunerii: • Temporizări de probă (Rehearse Timings): măsoară secundele petrecute pe fiecare diapozitiv pentru încadrarea strictă în timpul alocat la conferințe; • Înregistrarea prezentării (Record Slide Show): înregistrează vocea prezentatorului, camera web și mișcările de pointer laser pe fiecare slide, permițând exportul întregii prezentări ca fișier video autonom (.mp4). 3. Exportul și portabilitatea prezentării: • Prezentare portabilă PowerPoint Show (`.ppsx`): se deschide direct în ecran complet la dublu clic, ideală pentru trimiterea la clienți; • Împachetarea pentru CD / Folder partajat (Package for Presentation): reunește prezentarea, videoclipurile inserate și fonturile utilizate într-un singur folder pentru a rula fără erori pe orice alt calculator.",
      "ideiCheie": [
-      "Un mesaj clar per diapozitiv; text puțin, idei, nu paragrafe.",
-      "Contrast bun, font lizibil, imagini relevante.",
-      "Animațiile și tranzițiile se folosesc cu măsură.",
-      "Prezentarea sprijină vorbitorul, nu îl înlocuiește."
+      "Butoanele de acțiune (Action Buttons) permit navigarea neliniară prin salturi directe la slide-uri alese.",
+      "Rehearse Timings cronometrează durata vorbirii pentru a asigura respectarea timpului de expunere.",
+      "Prezentarea poate fi înregistrată complet cu narațiune vocală și exportată ca fișier video MP4.",
+      "Formatul `.ppsx` pornește instantaneu în modul de expunere pe tot ecranul la dublu clic."
      ],
      "termeni": [
       {
-       "t": "diapozitiv (slide)",
-       "d": "o pagină a unei prezentări electronice"
+       "t": "Action Button",
+       "d": "formă geometrică presetatată cu acțiuni interactive de salt între diapozitive"
       },
       {
-       "t": "șablon (template)",
-       "d": "model de aspect care asigură un stil unitar prezentării"
+       "t": "Rehearse Timings",
+       "d": "instrument de cronometrare a timpului alocat fiecărui diapozitiv"
+      },
+      {
+       "t": "Package for Presentation",
+       "d": "funcție de colectare a tuturor resurselor externe (video, fonturi) într-un folder unitar"
+      },
+      {
+       "t": "export video MP4",
+       "d": "salvarea întregii prezentări animate și sonorizate ca film autonom"
       }
      ],
      "carduri": [
       {
-       "f": "Câte idei principale ar trebui să aibă un diapozitiv?",
-       "v": "Una, clară."
+       "f": "Cum creezi un buton care să ducă direct la slide-ul 5 la apăsare în PowerPoint?",
+       "v": "Inserezi o formă -> Insert -> Action (sau Link) -> alegi Hyperlink to: Slide... -> selectezi Slide 5."
       },
       {
-       "f": "Ce rol are prezentarea față de vorbitor?",
-       "v": "Îl sprijină, nu îl înlocuiește."
+       "f": "Ce avantaj oferă salvarea prezentării în formatul `.ppsx`?",
+       "v": "Pornește direct în modul de vizualizare pe tot ecranul, fără a deschide interfața de editare."
       },
       {
-       "f": "De ce se folosesc animațiile cu măsură?",
-       "v": "Ca să nu distragă de la mesaj."
+       "f": "La ce folosește comanda Rehearse Timings?",
+       "v": "Înregistrează timpii petrecuți pe fiecare slide pentru a automatiza derularea prezentării."
       },
       {
-       "f": "Ce asigură un șablon?",
-       "v": "Un aspect unitar al prezentării."
+       "f": "Cum poți distribui o prezentare cu tot cu clipurile video inserate fără riscul ruperii legăturilor?",
+       "v": "Folosind funcția File -> Export -> Package Presentation for CD (creează un folder complet)."
       }
      ],
      "test": [
       {
-       "intrebare": "O prezentare bună are, pe un diapozitiv:",
+       "intrebare": "Formatul de fișier PowerPoint care se deschide instantaneu ca expunere pe tot ecranul la dublu clic este:",
        "optiuni": [
-        "text puțin și un mesaj clar",
-        "paragrafe lungi",
-        "cât mai multe animații",
-        "text mic și dens"
+        ".ppsx",
+        ".txt",
+        ".zip",
+        ".bmp"
        ],
        "corect": 0,
-       "explicatie": "Diapozitivul sprijină, nu înlocuiește vorbitorul."
+       "explicatie": "Fișierele `.ppsx` intră direct în modul Slide Show."
       },
       {
-       "intrebare": "Animațiile și tranzițiile trebuie folosite:",
+       "intrebare": "Instrumentul care măsoară secundele dedicate fiecărui diapozitiv pentru antrenarea discursului este:",
        "optiuni": [
-        "cu măsură, ca să nu distragă",
-        "cât mai multe",
-        "pe fiecare cuvânt",
-        "niciodată"
+        "Rehearse Timings (Temporizări de probă)",
+        "Task Manager",
+        "Format Painter",
+        "Calculator"
        ],
        "corect": 0,
-       "explicatie": "Ele susțin mesajul, nu îl acoperă."
+       "explicatie": "Rehearse Timings ajută vorbitorul să se încadreze în timpul alocat."
       },
       {
-       "intrebare": "Un aspect unitar al prezentării îl asigură:",
+       "intrebare": "Pentru a permite publicului să aleagă capitolele dintr-un ecran principal de meniu, se folosesc:",
        "optiuni": [
-        "șablonul (template)",
-        "animațiile",
-        "numărul de diapozitive",
-        "fontul mic"
+        "Hiperlinkuri și Butoane de acțiune (Action Buttons)",
+        "Doar tranziții automate",
+        "Tastele de volum",
+        "Închiderea programului"
        ],
        "corect": 0,
-       "explicatie": "Șablonul dă stilul comun."
+       "explicatie": "Acțiunile interactive transformă prezentarea într-un catalog multimedia neliniar."
       },
       {
-       "intrebare": "Regula de aur a unei prezentări este:",
+       "intrebare": "O prezentare PowerPoint sonorizată complet poate fi salvată direct ca fișier video în format:",
        "optiuni": [
-        "sprijină vorbitorul, nu îl înlocuiește",
-        "conține tot textul discursului",
-        "se citește cuvânt cu cuvânt",
-        "are cât mai mult text"
+        ".mp4",
+        ".exe",
+        ".wav pur",
+        ".docx"
        ],
        "corect": 0,
-       "explicatie": "Publicul ascultă, nu citește diapozitivul."
+       "explicatie": "PowerPoint poate randa întreaga animație ca film video MP4 de înaltă rezoluție."
       }
      ]
     }
@@ -1057,176 +1153,192 @@
   },
   {
    "id": "tic12-c5",
-   "titlu": "Informație și baze de date",
+   "titlu": "Baze de date și căutare",
    "semestru": 2,
    "lectii": [
     {
      "id": "tic12-13",
      "titlu": "Baze de date",
-     "rezumat": "O bază de date organizează informația astfel încât să poată fi stocată, căutată și actualizată eficient. Modelul cel mai răspândit e cel relațional: datele stau în tabele formate din rânduri (înregistrări) și coloane (câmpuri). Fiecare tabel are o cheie primară — un câmp care identifică unic fiecare înregistrare (de exemplu un cod). Tabelele se leagă între ele prin relații, folosind chei externe, ceea ce evită repetarea datelor. Operațiile de bază: adăugare, căutare (interogare), actualizare, ștergere; interogările extrag exact datele cerute după criterii, iar un sistem de gestiune a bazelor de date (SGBD) administrează totul. Bazele de date stau în spatele aplicațiilor: magazine online, biblioteci, bănci, rețele sociale. O bază bine proiectată nu repetă datele și le păstrează corecte.",
+     "rezumat": "Proiectarea și exploatarea bazelor de date relaționale la nivel avansat: 1. Constrângeri de integritate și validare la nivel de câmp: În Microsoft Access, modul Design View permite impunerea unor reguli stricte de validare (Field Properties): • Required: Yes (câmpul devine obligatoriu, nu poate fi lăsat necompletat); • Validation Rule (Regulă de validare): expresie logică (ex: `>= 1 And <= 10` pentru note, sau `> #01/01/2000#` pentru date calendaristice); • Validation Text: mesajul de eroare în limba română afișat pe ecran dacă utilizatorul introduce o valoare interzisă; • Default Value: valoarea completată automat dacă utilizatorul nu scrie nimic (ex: \"Romania\" la câmpul Țară). 2. Interogări complexe cu câmpuri calculate și totaluri: • Câmpuri calculate: într-o interogare se pot crea coloane noi inexistente fizic în tabel (ex: `Total: [Pret] * [Cantitate]` sau `MedieGenerala: ([Nota1] + [Nota2]) / 2`); • Interogări de totaluri (Totals - butonul Sigma): permit gruparea datelor (Group By) și aplicarea funcțiilor de agregare: Sum (suma vânzărilor pe orașe), Avg (media notelor pe clase), Count (numărul de elevi din fiecare profil). 3. Interogări de acțiune (Action Queries): Spre deosebire de interogările de selecție simple, interogările de acțiune modifică datele din tabele: • Update Query (interogare de actualizare): mărește prețurile cu 10% pentru o categorie; • Delete Query (interogare de ștergere): elimină automat înregistrările mai vechi de 5 ani; • Append Query: adaugă date dintr-un tabel în altul.",
      "ideiCheie": [
-      "Modelul relațional: date în tabele (rânduri = înregistrări, coloane = câmpuri).",
-      "Cheia primară identifică unic fiecare înregistrare.",
-      "Tabelele se leagă prin relații (chei externe), evitând repetarea.",
-      "Operații: adăugare, interogare, actualizare, ștergere."
+      "Proprietatea Required: Yes impune completarea obligatorie a unui câmp.",
+      "Validation Rule blochează la nivel de bază de date introducerea cifrelor eronate.",
+      "Câmpurile calculate într-o interogare efectuează operații matematice pe baza valorilor din paranteze drepte `[Camp]`.",
+      "Interogările de totaluri (Totals) calculează sume, medii și numărători agregate pe grupuri de date."
      ],
      "termeni": [
       {
-       "t": "bază de date relațională",
-       "d": "bază de date în care informația e organizată în tabele legate între ele"
+       "t": "Validation Rule",
+       "d": "expresie ce dictează valorile permise la introducerea într-un câmp de tabel"
       },
       {
-       "t": "cheie primară",
-       "d": "câmp care identifică unic fiecare înregistrare dintr-un tabel"
+       "t": "câmp calculat",
+       "d": "coloană virtuală definită într-o interogare prin formule între câmpurile existente"
+      },
+      {
+       "t": "funcție de agregare",
+       "d": "funcție statistică aplicată grupurilor de date (Sum, Avg, Min, Max, Count)"
+      },
+      {
+       "t": "Update Query",
+       "d": "interogare de acțiune ce modifică în bloc valorile dintr-un tabel conform unui criteriu"
       }
      ],
      "carduri": [
       {
-       "f": "Cum sunt organizate datele într-o bază relațională?",
-       "v": "În tabele cu rânduri (înregistrări) și coloane (câmpuri)."
+       "f": "Cum creezi un câmp calculat numit Venit într-o interogare Access?",
+       "v": "Scrii în rândul Field: `Venit: [Salariu] + [Bonus]`."
       },
       {
-       "f": "Ce face cheia primară?",
-       "v": "Identifică unic fiecare înregistrare."
+       "f": "Ce mesaj afișează Access dacă utilizatorul încalcă o regulă de validare?",
+       "v": "Textul scris de proiectant în proprietatea „Validation Text”."
       },
       {
-       "f": "Cum se leagă tabelele între ele?",
-       "v": "Prin relații, folosind chei externe."
+       "f": "Ce proprietate a unui câmp forțează utilizatorul să completeze obligatoriu date în el?",
+       "v": "Proprietatea Required setată pe Yes."
       },
       {
-       "f": "Ce este o interogare?",
-       "v": "O căutare care extrage datele cerute după criterii."
+       "f": "La ce folosește o interogare de tip „Update Query”?",
+       "v": "La modificarea simultană a datelor din sute de înregistrări pe baza unei formule sau valori noi."
       }
      ],
      "test": [
       {
-       "intrebare": "Într-o bază relațională, datele stau în:",
+       "intrebare": "Proprietatea unui câmp care garantează că elevul nu poate fi salvat fără a introduce CNP-ul este:",
        "optiuni": [
-        "tabele legate între ele",
-        "imagini",
-        "fișiere audio",
-        "pagini web"
+        "Required: Yes",
+        "Indexed: No",
+        "Visible: False",
+        "Smart Tag"
        ],
        "corect": 0,
-       "explicatie": "Rândurile sunt înregistrări, coloanele câmpuri."
+       "explicatie": "Required impune completarea obligatorie a valorii."
       },
       {
-       "intrebare": "Cheia primară:",
+       "intrebare": "Câmpul calculat care calculează valoarea TVA de 19% din prețul produsului se scrie în interogare ca:",
        "optiuni": [
-        "identifică unic fiecare înregistrare",
-        "comprimă datele",
-        "criptează tabelul",
-        "desenează grafice"
+        "`ValoareTVA: [Pret] * 0.19`",
+        "`Pret = TVA * 19`",
+        "`SUM Pret ON TVA`",
+        "`FORMAT Pret AS 19`"
        ],
        "corect": 0,
-       "explicatie": "Evită confundarea înregistrărilor."
+       "explicatie": "Parantezele drepte `[ ]` marchează numele câmpului multiplicat cu procentul."
       },
       {
-       "intrebare": "Legarea tabelelor între ele:",
+       "intrebare": "Butonul cu simbolul literei grecești Sigma (Σ) activează într-o interogare Access:",
        "optiuni": [
-        "evită repetarea datelor",
-        "mărește repetarea",
-        "șterge datele",
-        "schimbă fonturile"
+        "rândul de Totaluri (Totals) pentru grupări și agregări statistice",
+        "formatarea fonturilor",
+        "verificarea gramaticală",
+        "ștergerea definitivă a bazei de date"
        ],
        "corect": 0,
-       "explicatie": "Se face prin chei externe."
+       "explicatie": "Rândul Totals permite aplicarea funcțiilor Group By, Sum, Avg, Count."
       },
       {
-       "intrebare": "O interogare (query) servește la:",
+       "intrebare": "Regula de validare corectă pentru a accepta doar persoane majore născute înainte de anul 2008 este:",
        "optiuni": [
-        "extragerea datelor după criterii",
-        "formatarea textului",
-        "comprimarea imaginilor",
-        "crearea de animații"
+        "`< #01/01/2008#`",
+        "`> 2008`",
+        "`Text = Major`",
+        "`Age == True`"
        ],
        "corect": 0,
-       "explicatie": "Extrage exact ce se cere."
+       "explicatie": "Datele calendaristice se încadrează între simbolurile diez (#) în Access."
       }
      ]
     },
     {
      "id": "tic12-14",
      "titlu": "Căutarea și evaluarea informației",
-     "rezumat": "Internetul oferă multă informație, dar de calitate inegală; regăsirea și evaluarea ei sunt competențe esențiale. Motoarele de căutare indexează paginile și le ordonează după relevanță, iar căutarea eficientă folosește cuvinte-cheie potrivite, ghilimele pentru expresii exacte și filtre (dată, tip, limbă). Evaluarea sursei cere întrebări: cine e autorul, ce autoritate are, care e scopul (a informa, a vinde, a convinge), cât de actuală e informația, poate fi verificată din surse independente? Dezinformarea și știrile false circulă ușor; verificarea încrucișată (mai multe surse) și atenția la manipulare sunt apărarea. Citarea corectă a surselor respectă dreptul de autor și dă credibilitate. Un utilizator informat nu ia de bun primul rezultat, ci confruntă și verifică.",
+     "rezumat": "Pregătirea exhaustivă pentru cerințele de cercetare online din cadrul Fișei A de examen: 1. Strategii avansate de interogare pe web: Combinarea operatorilor booleeni permite izolarea precisă a documentelor oficiale necesare: • Căutarea bazei de date educaționale: `\"calendar bacalaureat 2026\" site:edu.ro filetype:pdf`; • Căutarea datelor statistice oficiale: `\"populatie rezidenta\" site:insse.ro filetype:xls`; • Utilizarea căutării avansate din interfața grafică Google (Google Advanced Search): setarea limbii române, a regiunii România și a intervalului de timp (ultimul an). 2. Tehnici de descărcare și organizare locală a resurselor: La Fișa A candidatul este evaluat pe acuratețea salvării: • Salvarea unei pagini web complete (Webpage, Complete) sau doar a fișierului HTML simplu; • Salvarea textului selectat dintr-un articol într-un fișier text `raspuns.txt` deschis în Notepad; • Descărcarea imaginilor la rezoluția maximă nativă (nu salvarea miniaturii / thumbnail-ului). 3. Redactarea e-mailului de examen la Fișa A: Biletul specifică exact cerințele ce trebuie bifate pentru obținerea punctajului maxim: • Adresa destinatarului scrisă impecabil (ex: `comisie_bac@liceu.ro`); • Subiectul (Subject) identic cu textul cerut în bilet (ex: `Rezultate cautare Popescu Ion`); • Corpul mesajului formulat respectând formulele de politețe cerute; • Atașarea fișierului specificat din folderul de pe Desktop (verificând că fișierul este atașat complet înainte de a apăsa butonul Send).",
      "ideiCheie": [
-      "Motoarele indexează și ordonează paginile după relevanță.",
-      "Căutare eficientă: cuvinte-cheie, ghilimele, filtre.",
-      "Evaluarea sursei: autor, autoritate, scop, actualitate, verificabilitate.",
-      "Verificarea încrucișată apără de dezinformare."
+      "Operatorii Google combinați (`\" \"`, `site:`, `filetype:`) identifică documentele oficiale în câteva secunde.",
+      "Textul cerut la Fișa A se copiază și se salvează adesea într-un fișier `.txt` creat pe Desktop.",
+      "Subiectul e-mailului trebuie completat exact conform textului menționat în cerința biletului.",
+      "Atașarea corectă a fișierului descărcat este obligatorie pentru punctajul complet la Fișa A."
      ],
      "termeni": [
       {
-       "t": "motor de căutare",
-       "d": "serviciu care indexează paginile web și le ordonează după relevanță"
+       "t": "căutare combinată",
+       "d": "interogare ce folosește simultan mai mulți operatori logici și de domeniu"
       },
       {
-       "t": "verificare încrucișată",
-       "d": "confruntarea informației cu mai multe surse independente"
+       "t": "thumbnail (miniatură)",
+       "d": "versiune mică și de rezoluție scăzută a unei imagini de pe web"
+      },
+      {
+       "t": "atașament de e-mail",
+       "d": "fișier digital expediat împreună cu mesajul de poștă electronică"
+      },
+      {
+       "t": "salvare pagină completă",
+       "d": "descărcarea codului HTML împreună cu folderul său de imagini asociate"
       }
      ],
      "carduri": [
       {
-       "f": "Ce fac motoarele de căutare?",
-       "v": "Indexează paginile și le ordonează după relevanță."
+       "f": "Cum găsești exclusiv pe site-ul Ministerului Sănătății (`ms.ro`) un ghid oficial în format PDF?",
+       "v": "`\"ghid\" site:ms.ro filetype:pdf`."
       },
       {
-       "f": "Ce întrebări ajută la evaluarea unei surse?",
-       "v": "Cine e autorul, ce scop are, cât de actuală și verificabilă e."
+       "f": "De ce nu trebuie să dai clic dreapta pe imaginea mică din pagina de rezultate Google când biletul cere salvarea pozei?",
+       "v": "Deoarece salvezi doar o miniatură neclară la rezoluție mică în loc de imaginea originală de înaltă calitate."
       },
       {
-       "f": "Cum se caută o expresie exactă?",
-       "v": "Punând-o între ghilimele."
+       "f": "Ce consecință are scrierea greșită a unei singure litere din adresa de e-mail a comisiei la Fișa A?",
+       "v": "E-mailul nu ajunge la destinație (bounced email), pierzând punctele alocate comunicării."
       },
       {
-       "f": "Cum ne apărăm de dezinformare?",
-       "v": "Prin verificare încrucișată, din mai multe surse."
+       "f": "Ce program simplu din Windows se folosește pentru a crea rapid fișiere cu extensia `.txt`?",
+       "v": "Aplicația Notepad."
       }
      ],
      "test": [
       {
-       "intrebare": "Căutarea unei expresii exacte se face:",
+       "intrebare": "Interogarea optimă pentru a descărca programa școlară oficială de Bacalaureat în format PDF este:",
        "optiuni": [
-        "punând-o între ghilimele",
-        "cu majuscule",
-        "fără cuvinte-cheie",
-        "cu semnul plus"
+        "programa bacalaureat site:edu.ro filetype:pdf",
+        "cauta programa pe net",
+        "descarca bac gratis",
+        "edu.ro -> pdf -> bac"
        ],
        "corect": 0,
-       "explicatie": "Ghilimelele cer potrivirea exactă."
+       "explicatie": "Combinația dintre site oficial și tipul de fișier oferă direct documentul original."
       },
       {
-       "intrebare": "La evaluarea unei surse contează:",
+       "intrebare": "Pentru a salva un text găsit pe o pagină web într-un fișier text conform biletului:",
        "optiuni": [
-        "autorul, scopul și actualitatea",
-        "doar culoarea paginii",
-        "numărul de imagini",
-        "fontul folosit"
+        "selectezi textul, apeși Ctrl+C, deschizi Notepad, apeși Ctrl+V și salvezi fișierul",
+        "oprești monitorul",
+        "faci o poză cu telefonul",
+        "printezi pe hârtie și o lipești pe carcasă"
        ],
        "corect": 0,
-       "explicatie": "Și dacă poate fi verificată independent."
+       "explicatie": "Copierea textului în Notepad creează fișierul curat `.txt` solicitat la examen."
       },
       {
-       "intrebare": "Apărarea împotriva știrilor false este:",
+       "intrebare": "Butonul dintr-o interfață de e-mail utilizat pentru a trimite un fișier alături de mesaj este reprezentat de regulă prin:",
        "optiuni": [
-        "verificarea din mai multe surse",
-        "încrederea în primul rezultat",
-        "distribuirea rapidă",
-        "ignorarea autorului"
+        "o agrafă de birou (Paperclip / Attach)",
+        "o foarfecă",
+        "o radieră",
+        "o sticlă"
        ],
        "corect": 0,
-       "explicatie": "Verificarea încrucișată dezvăluie falsul."
+       "explicatie": "Agrafa de birou este simbolul universal pentru atașarea documentelor."
       },
       {
-       "intrebare": "Motorul de căutare ordonează paginile după:",
+       "intrebare": "Mesajul returnat automat dacă ai tastat greșit adresa de e-mail a destinatarului provine de regulă de la:",
        "optiuni": [
-        "relevanță",
-        "ordine alfabetică",
-        "dimensiunea fișierului",
-        "culoare"
+        "Mail Delivery Subsystem (Mailer-Daemon)",
+        "Creatorul internetului",
+        "Poliția locală",
+        "Ministerul Finanțelor"
        ],
        "corect": 0,
-       "explicatie": "Indexarea stă la baza rezultatelor."
+       "explicatie": "Mailer-Daemon informează expeditorul că adresa nu a putut fi găsită pe serverul destinație."
       }
      ]
     }
@@ -1234,176 +1346,192 @@
   },
   {
    "id": "tic12-c6",
-   "titlu": "Tehnologii emergente și identitate digitală",
+   "titlu": "Tehnologii emergente și viitorul digital",
    "semestru": 2,
    "lectii": [
     {
      "id": "tic12-15",
      "titlu": "Rețele, cloud și internetul lucrurilor",
-     "rezumat": "O rețea de calculatoare leagă dispozitive ca să comunice și să partajeze resurse; internetul este rețeaua globală care leagă toate rețelele. Rețelele locale (LAN) acoperă o zonă mică (o casă, o școală), cele extinse (WAN) acoperă distanțe mari. Cloud computingul înseamnă folosirea unor resurse (stocare, programe, putere de calcul) găzduite pe servere la distanță și accesate prin internet: e-mail, stocare online, aplicații care rulează în browser. Avantaje: acces de oriunde, fără instalare, colaborare ușoară; dezavantaje: dependența de conexiune și de furnizor, întrebări de confidențialitate. Internetul lucrurilor (IoT) conectează la internet obiecte obișnuite — becuri, termostate, ceasuri — care culeg și schimbă date. Aceste tehnologii aduc comoditate, dar și noi riscuri de securitate și de viață privată.",
+     "rezumat": "Infrastructura digitală modernă interconectează miliarde de dispozitive la scară planetară printr-o fuziune între rețele de mare viteză, virtualizare cloud și sisteme fizice cibernetice: 1. Rețele wireless de generație nouă: • Wi-Fi 6 / Wi-Fi 7: tehnologii wireless de mare capacitate ce suportă simultan zeci de dispozitive active într-o clasă sau locuință fără degradarea vitezei, utilizând benzi de frecvență de 2.4 GHz, 5 GHz și 6 GHz; • Rețele mobile 5G: oferă lățimi de bandă gigabit pe mobil și latență extrem de redusă (sub 5 milisecunde), indispensabilă pentru chirurgia robotică de la distanță și automobilele autonome fără șofer. 2. Arhitectura Internet of Things (IoT): Sistemele IoT funcționează pe o arhitectură stratificată: • Stratul de percepție (Perception Layer): senzori fizici (temperatură, umiditate, camere optice, accelerometre) și actuatori (relee care închid sau deschid circuite); • Stratul de rețea (Network Layer): protocoale ușoare de comunicație wireless (Zigbee, LoRaWAN, Bluetooth Low Energy, 5G); • Stratul de procesare și aplicații (Edge / Cloud): prelucrarea datelor în apropierea senzorului (Edge Computing) pentru decizii instantanee sau centralizarea în Cloud pentru analize globale. 3. Provocări majore de securitate în ecosistemele IoT: Multe dispozitive inteligente casnice (camere de supraveghere ieftine, prize smart) au parole implicite neschimbate (default passwords) și firmware neactualizat, devenind ținte ușoare pentru hackeri care le încorporează în botneturi masive. Securizarea IoT impune izolarea lor pe o rețea Wi-Fi separată (Guest Network).",
      "ideiCheie": [
-      "Rețea = dispozitive legate pentru a comunica; internetul = rețeaua globală.",
-      "LAN (local) vs. WAN (extins).",
-      "Cloud = resurse găzduite la distanță, accesate prin internet.",
-      "IoT = obiecte obișnuite conectate la internet, care schimbă date."
+      "Rețelele 5G oferă viteze mari și latență ultra-redusă (sub 5 ms), esențială pentru mașini autonome.",
+      "Dispozitivele IoT conțin senzori de monitorizare și actuatori care execută acțiuni fizice.",
+      "Edge Computing prelucrează datele local, chiar pe dispozitiv, fără a mai trimite totul în cloud.",
+      "Echipamentele IoT trebuie securizate prin schimbarea obligatorie a parolelor din fabrică."
      ],
      "termeni": [
       {
-       "t": "cloud computing",
-       "d": "folosirea unor resurse informatice găzduite la distanță și accesate prin internet"
+       "t": "latență de rețea",
+       "d": "timpul necesar unui pachet de date pentru a călători de la sursă la destinație (în milisecunde)"
       },
       {
-       "t": "internetul lucrurilor (IoT)",
-       "d": "conectarea la internet a unor obiecte obișnuite, care culeg și schimbă date"
+       "t": "actuator",
+       "d": "componentă a unui sistem IoT care transformă un semnal digital într-o mișcare sau acțiune fizică"
+      },
+      {
+       "t": "Edge Computing",
+       "d": "procesarea datelor în imediata apropiere a sursei de colectare (la marginea rețelei)"
+      },
+      {
+       "t": "Wi-Fi 6",
+       "d": "standard modern de rețea fără fir optimizat pentru densități mari de aparate conectate"
       }
      ],
      "carduri": [
       {
-       "f": "Ce este o rețea de calculatoare?",
-       "v": "Dispozitive legate ca să comunice și să partajeze resurse."
+       "f": "Ce avantaj critic aduce rețeaua 5G față de 4G în conducerea mașinilor autonome?",
+       "v": "Latența extrem de redusă (sub 5 milisecunde), ce permite frânarea instantanee la obstacole."
       },
       {
-       "f": "Ce înseamnă cloud computing?",
-       "v": "Folosirea de resurse găzduite la distanță, prin internet."
+       "f": "Ce este un „actuator” într-un sistem IoT?",
+       "v": "Piesa mecanică sau electronică ce execută comanda fizică (ex: deschide o electrovalvă de udare a plantelor)."
       },
       {
-       "f": "Prin ce diferă LAN de WAN?",
-       "v": "LAN acoperă o zonă mică; WAN, distanțe mari."
+       "f": "De ce este utilă procesarea de tip Edge Computing?",
+       "v": "Reduce timpul de răspuns și nu supraaglomerează conexiunea de internet cu date brute inutile."
       },
       {
-       "f": "Ce este IoT?",
-       "v": "Conectarea la internet a obiectelor obișnuite."
+       "f": "Ce măsură elementară de siguranță trebuie aplicată imediat la montarea unui router sau a unei camere smart?",
+       "v": "Schimbarea numelui de utilizator și a parolei implicite venite din fabricație (admin/admin)."
       }
      ],
      "test": [
       {
-       "intrebare": "Cloud computingul înseamnă:",
+       "intrebare": "Timpul extrem de scurt necesar unui semnal pentru a ajunge la destinație se numește:",
        "optiuni": [
-        "folosirea de resurse găzduite la distanță, prin internet",
-        "un tip de cablu",
-        "un program antivirus",
-        "o rețea locală"
+        "Latență redusă",
+        "Lățime de bandă",
+        "Frecvență de ceas",
+        "Capacitate de stocare"
        ],
        "corect": 0,
-       "explicatie": "De exemplu stocarea online."
+       "explicatie": "Latența redusă este vitală pentru reacții în timp real."
       },
       {
-       "intrebare": "O rețea LAN acoperă:",
+       "intrebare": "Componenta unui sistem inteligent care primește comanda de la calculator și închide fizic o ușă este:",
        "optiuni": [
-        "o zonă mică (casă, școală)",
-        "întreg globul",
-        "doar un cablu",
-        "un continent"
+        "un actuator",
+        "un pixel",
+        "o tastatură",
+        "un fișier PDF"
        ],
        "corect": 0,
-       "explicatie": "WAN acoperă distanțe mari."
+       "explicatie": "Actuatorul transformă instrucțiunea software în mișcare fizică."
       },
       {
-       "intrebare": "Internetul lucrurilor (IoT) conectează:",
+       "intrebare": "Procesarea datelor culese de o cameră inteligentă chiar în cipul ei local se numește:",
        "optiuni": [
-        "obiecte obișnuite la internet",
-        "doar calculatoarele",
-        "doar telefoanele",
-        "doar serverele"
+        "Edge Computing",
+        "Formatare condiționată",
+        "Sortare inversă",
+        "Arhivare cloud"
        ],
        "corect": 0,
-       "explicatie": "Becuri, termostate, ceasuri inteligente."
+       "explicatie": "Edge Computing procesează datele local, fără întârzierea transferului pe servere îndepărtate."
       },
       {
-       "intrebare": "Un dezavantaj al cloudului este:",
+       "intrebare": "Pericolul major de securitate al aparatelor IoT casnice ieftine este cauzat de:",
        "optiuni": [
-        "dependența de conexiune și de furnizor",
-        "accesul de oriunde",
-        "colaborarea ușoară",
-        "lipsa instalării"
+        "parolele implicite simple neschimbate și lipsa actualizărilor de securitate",
+        "cablurile prea scurte",
+        "lipsa culorilor pe carcasă",
+        "faptul că nu au boxe mari"
        ],
        "corect": 0,
-       "explicatie": "Apar și întrebări de confidențialitate."
+       "explicatie": "Parolele din fabrică sunt primele testate de programele automate ale atacatorilor."
       }
      ]
     },
     {
      "id": "tic12-16",
      "titlu": "Inteligența artificială și tehnologii emergente",
-     "rezumat": "Inteligența artificială (IA) este domeniul care creează sisteme capabile să îndeplinească sarcini care par să ceară inteligență: recunoașterea imaginilor și a vorbirii, traducerea, recomandările, conducerea autonomă. Multe sisteme moderne folosesc învățarea automată (machine learning): programul „învață” tipare din multe exemple, în loc să fie programat cu reguli fixe. IA e deja în jurul nostru: asistenți vocali, filtre de spam, recomandări în magazine online și rețele sociale. Alte tehnologii emergente: realitatea virtuală și augmentată, roboții, tehnologia blockchain, tipărirea 3D. Aceste tehnologii aduc oportunități mari, dar ridică și întrebări etice: confidențialitatea datelor, corectitudinea deciziilor automate, efectele asupra muncii, dezinformarea. Un cetățean digital informat înțelege ce pot și ce nu pot aceste sisteme și le folosește critic și responsabil.",
+     "rezumat": "Tehnologiile emergente redefinesc modul în care societatea umană produce valoare, comunică și gândește: 1. Rețele Neuronale Profunde și Modele Generative: Sistemele avansate de inteligență artificială generativă (Generative AI) pot crea conținut original realist: redactare de cod informatic în Python sau C++, rezumarea a sute de pagini de studii, generare de ilustrații artistice și compunere muzicală. Aceste modele funcționează prin identificarea corelațiilor statistice din date de antrenament gigantice. 2. Tehnologia Blockchain și registrele distribuite: O bază de date distribuită și descentralizată în care informațiile sunt organizate în blocuri legate criptografic între ele. Proprietatea revoluționară a Blockchain-ului este imutabilitatea: odată ce o tranzacție a fost validată de consensul rețelei, ea nu mai poate fi modificată, falsificată sau ștearsă de nicio entitate centrală. Domenii de aplicare: contracte inteligente (Smart Contracts), certificarea diplomelor de studii împotriva falsurilor și trasabilitatea lanțurilor farmaceutice. 3. Calculul Cuantic (Quantum Computing): Calculatoarele viitorului bazate pe biți cuantici (qubiți) care pot exista simultan în stările 0 și 1 (fenomenul de superpoziție cuantică), permițând rezolvarea în câteva minute a unor calcule științifice ce ar necesita mii de ani pe supercalculatoarele clasice. 4. Responsabilitatea absolventului de liceu în era digitală: Tehnologia este un instrument neutru din punct de vedere moral; impactul ei depinde în totalitate de intenția și discernământul uman. Absolventul cu competențe digitale experimentate știe să valorifice instrumentele moderne pentru a învăța continuu, menținându-și gândirea critică, empatia și integritatea etică.",
      "ideiCheie": [
-      "IA creează sisteme care îndeplinesc sarcini ce par să ceară inteligență.",
-      "Învățarea automată învață tipare din exemple, nu din reguli fixe.",
-      "IA e deja în asistenți vocali, filtre de spam, recomandări.",
-      "Tehnologiile emergente ridică întrebări etice (date, muncă, decizii automate)."
+      "Inteligența Artificială generativă creează conținut text, cod și grafică pe baza modelelor statistice.",
+      "Tehnologia Blockchain asigură imutabilitatea și transparența tranzacțiilor descentralizate.",
+      "Calculatoarele cuantice utilizează qubiți în superpoziție pentru a atinge puteri uriașe de procesare.",
+      "Discernământul critic și etica digitală diferențiază utilizatorul responsabil de cel manipulat."
      ],
      "termeni": [
       {
-       "t": "inteligență artificială",
-       "d": "domeniu care creează sisteme capabile de sarcini ce par să ceară inteligență"
+       "t": "Inteligență Artificială generativă",
+       "d": "sisteme AI capabile să producă conținut original nou (text, imagini, cod)"
       },
       {
-       "t": "învățare automată (machine learning)",
-       "d": "metodă prin care un program învață tipare din exemple, nu din reguli fixe"
+       "t": "Blockchain",
+       "d": "registru digital descentralizat și imutabil protejat prin algoritmi criptografici"
+      },
+      {
+       "t": "qubit",
+       "d": "unitatea elementară a informației cuantice ce poate exista în superpoziție de stări"
+      },
+      {
+       "t": "contract inteligent (Smart Contract)",
+       "d": "program stocat pe blockchain care se execută automat la îndeplinirea condițiilor"
       }
      ],
      "carduri": [
       {
-       "f": "Ce este inteligența artificială?",
-       "v": "Domeniul care creează sisteme capabile de sarcini ce par să ceară inteligență."
+       "f": "Ce proprietate fundamentală face ca datele înregistrate într-un Blockchain să nu poată fi falsificate?",
+       "v": "Imutabilitatea garantată prin legături criptografice și consens distribuit între mii de noduri."
       },
       {
-       "f": "Ce face învățarea automată?",
-       "v": "Învață tipare din multe exemple, nu din reguli fixe."
+       "f": "Ce este un qubit în calculul cuantic?",
+       "v": "Unitatea de informație cuantică capabilă să fie simultan 0 și 1 datorită superpoziției."
       },
       {
-       "f": "Numește o folosire curentă a IA.",
-       "v": "Asistenți vocali, filtre de spam, recomandări."
+       "f": "Cum poate fi utilizat Blockchain-ul în educație?",
+       "v": "Pentru stocarea și verificarea instantanee a diplomelor școlare și certificatelor fără risc de falsificare."
       },
       {
-       "f": "Ce întrebări etice ridică IA?",
-       "v": "Confidențialitatea, corectitudinea deciziilor, efectele asupra muncii."
+       "f": "Ce rol esențial are gândirea critică în fața asistenților de inteligență artificială?",
+       "v": "Permite verificarea veridicității răspunsurilor și detectarea erorilor, halucinațiilor sau manipulărilor."
       }
      ],
      "test": [
       {
-       "intrebare": "Învățarea automată (machine learning):",
+       "intrebare": "Tehnologia de registru distribuit descentralizat ale cărui date nu pot fi modificate retroactiv este:",
        "optiuni": [
-        "învață tipare din exemple",
-        "urmează doar reguli fixe scrise de om",
-        "este un tip de cablu",
-        "comprimă imagini"
+        "Blockchain",
+        "Defragmentare",
+        "Paginare la 1.5 linii",
+        "Scanare optică"
        ],
        "corect": 0,
-       "explicatie": "De aceea are nevoie de multe date."
+       "explicatie": "Blockchain asigură încredere matematică fără a necesita o autoritate centrală intermediară."
       },
       {
-       "intrebare": "O folosire curentă a IA este:",
+       "intrebare": "Unitatea fundamentală de calcul a computerelor cuantice se numește:",
        "optiuni": [
-        "filtrele de spam și recomandările",
-        "răcirea procesorului",
-        "alimentarea cu energie",
-        "tipărirea documentelor"
+        "qubit (quantum bit)",
+        "byte clasic",
+        "pixel",
+        "octet binar"
        ],
        "corect": 0,
-       "explicatie": "Și asistenții vocali."
+       "explicatie": "Qubitul exploatează mecanica cuantică pentru calcule paralele masive."
       },
       {
-       "intrebare": "IA ridică întrebarea etică a:",
+       "intrebare": "Aplicațiile software autonome care se execută automat pe blockchain când sunt îndeplinite condițiile se numesc:",
        "optiuni": [
-        "confidențialității datelor și a deciziilor automate",
-        "culorii ecranului",
-        "vitezei de tastare",
-        "mărimii fișierelor"
+        "Contracte inteligente (Smart Contracts)",
+        "Fișiere temporare",
+        "Macrocomenzi Word",
+        "Rețele LAN"
        ],
        "corect": 0,
-       "explicatie": "Folosirea trebuie să fie responsabilă."
+       "explicatie": "Smart Contracts automatizează acordurile financiare și juridice fără avocați sau intermediari."
       },
       {
-       "intrebare": "O tehnologie emergentă este:",
+       "intrebare": "În fața avalanșei de conținut digital generat de AI, cea mai importantă deprindere umană rămâne:",
        "optiuni": [
-        "realitatea virtuală și augmentată",
-        "procesorul de text clasic",
-        "tastatura",
-        "mouse-ul"
+        "gândirea critică și verificarea surselor primare de informare",
+        "credulitatea oarbă",
+        "renunțarea la lectură",
+        "memorarea mecanică"
        ],
        "corect": 0,
-       "explicatie": "Alături de roboți, blockchain, tipărire 3D."
+       "explicatie": "Gândirea critică permite discernerea adevărului factual de narațiunile artificiale."
       }
      ]
     }
@@ -1415,202 +1543,114 @@
    "semestru": 1,
    "test": [
     {
-     "intrebare": "Generarea automată a cuprinsului se bazează pe:",
+     "intrebare": "În cadrul probei de evaluare a competențelor digitale (Proba D) de la Bacalaureat, Fișa A durează:",
      "optiuni": [
-      "stiluri",
-      "culoarea textului",
-      "font",
-      "numărul paginilor"
+      "15 minute (cu acces la internet)",
+      "3 ore",
+      "2 minute",
+      "75 de minute"
      ],
      "corect": 0,
-     "explicatie": "Stilurile de titlu structurează documentul."
+     "explicatie": "Fișa A alocă 15 minute pentru căutare web și trimitere de e-mail."
     },
     {
-     "intrebare": "O formulă de calcul tabelar începe cu:",
+     "intrebare": "Numărul maxim de puncte acordat pentru secțiunea offline (Fișa B) la Bacalaureat Proba D este de:",
      "optiuni": [
-      "semnul egal (=)",
-      "o literă",
-      "semnul plus",
-      "ghilimele"
+      "90 de puncte",
+      "10 puncte",
+      "100 de puncte",
+      "50 de puncte"
      ],
      "corect": 0,
-     "explicatie": "De exemplu =A1+B1."
+     "explicatie": "Fișa B are 90 de puncte (Word 30p, Excel 30p, opțional 30p)."
     },
     {
-     "intrebare": "Funcția care calculează media este:",
+     "intrebare": "Opțiunea din Word utilizată pentru ca antetul sau numărul de pagină să nu apară pe prima filă a referatului este:",
      "optiuni": [
-      "AVERAGE",
-      "SUM",
-      "COUNT",
-      "IF"
+      "Different First Page (Pagină de început diferită)",
+      "Blank Document",
+      "Landscape Mode",
+      "Bold All"
      ],
      "corect": 0,
-     "explicatie": "SUM adună valorile."
+     "explicatie": "Different First Page lasă pagina de titlu curată."
     },
     {
-     "intrebare": "Cheia primară dintr-o bază de date:",
+     "intrebare": "Efectul de text din Word utilizat pentru scrierea formulelor matematice de tipul x la pătrat (x²) este:",
      "optiuni": [
-      "identifică unic fiecare înregistrare",
-      "comprimă datele",
-      "criptează tabelul",
-      "desenează grafice"
+      "Superscript (Exponent)",
+      "Subscript (Indice)",
+      "Shadow",
+      "Outline"
      ],
      "corect": 0,
-     "explicatie": "Evită confundarea înregistrărilor."
+     "explicatie": "Superscript ridică cifra ca exponent."
     },
     {
-     "intrebare": "Referința $A$1 este:",
+     "intrebare": "Formatul de hârtie standard obligatoriu pe care se configurează documentele la examen este:",
      "optiuni": [
-      "absolută (nu se schimbă la copiere)",
-      "relativă",
-      "o funcție",
-      "un grafic"
+      "A4",
+      "A3",
+      "Letter",
+      "B4"
      ],
      "corect": 0,
-     "explicatie": "Relativa (A1) se modifică la copiere."
+     "explicatie": "A4 este formatul de pagină standard."
     },
     {
-     "intrebare": "Într-o bază relațională, un rând reprezintă:",
+     "intrebare": "În Microsoft Excel, funcția utilizată pentru a calcula media valorilor dintr-un interval este:",
      "optiuni": [
-      "o înregistrare",
-      "un câmp",
-      "o formulă",
-      "un grafic"
+      "=AVERAGE",
+      "=MED",
+      "=SUMA",
+      "=COUNT"
      ],
      "corect": 0,
-     "explicatie": "Coloana este un câmp."
+     "explicatie": "AVERAGE calculează automat media aritmetică."
     },
     {
-     "intrebare": "Rezultatul probei D se exprimă:",
+     "intrebare": "Formula corectă pentru a afișa „ADMIS” la note de la 5 în sus și „RESPINS” în rest este:",
      "optiuni": [
-      "în niveluri de competență",
-      "în note",
-      "prin calificative",
-      "prin admis/respins"
+      "=IF(B2>=5, \"ADMIS\", \"RESPINS\")",
+      "=TEST(B2, 5, ADMIS)",
+      "=IF B2>5 THEN ADMIS",
+      "=COND(B2:5)"
      ],
      "corect": 0,
-     "explicatie": "Susținerea rămâne obligatorie pentru promovare."
+     "explicatie": "Sintaxa corectă folosește IF cu condiția și cele două ramuri."
     },
     {
-     "intrebare": "Salvarea fișierului cu alt nume decât cel cerut la examen:",
+     "intrebare": "Pentru a selecta două coloane despărțite de alte coloane într-o foaie Excel, se ține apăsată tasta:",
      "optiuni": [
-      "duce la pierderea punctajului aferent",
-      "nu contează",
-      "se corectează automat",
-      "se punctează parțial"
+      "Ctrl",
+      "Space",
+      "Alt",
+      "Tab"
      ],
      "corect": 0,
-     "explicatie": "Cerințele de salvare fac parte din sarcină."
+     "explicatie": "Tasta Ctrl permite selectarea zonelor discontinue de celule."
     },
     {
-     "intrebare": "Folosirea rândurilor goale pentru a împinge textul pe pagina următoare:",
+     "intrebare": "În PowerPoint, comanda rapidă care părăsește modul de expunere pe tot ecranul este:",
      "optiuni": [
-      "este o soluție fragilă",
-      "este recomandată",
-      "economisește timp",
-      "nu are dezavantaje"
+      "Esc",
+      "F5",
+      "Enter",
+      "Shift"
      ],
      "corect": 0,
-     "explicatie": "Există întreruperea de pagină pentru acest scop."
+     "explicatie": "Esc anulează proiecția și revine la editare."
     },
     {
-     "intrebare": "Cuprinsul automat:",
+     "intrebare": "În Microsoft Access, modul de vizualizare în care se definesc numele și tipurile câmpurilor este:",
      "optiuni": [
-      "trebuie actualizat înainte de predare",
-      "se actualizează la fiecare tastă",
-      "nu se actualizează niciodată",
-      "se generează la tipărire"
+      "Design View (Vizualizare proiect)",
+      "Datasheet View",
+      "Pivot View",
+      "Layout View"
      ],
      "corect": 0,
-     "explicatie": "El citește stilurile aplicate titlurilor."
-    },
-    {
-     "intrebare": "Secțiunile dintr-un document permit:",
-     "optiuni": [
-      "antete și numerotări diferite pe părți diferite",
-      "schimbarea limbii",
-      "comprimarea imaginilor",
-      "protejarea cu parolă"
-     ],
-     "corect": 0,
-     "explicatie": "Sunt esențiale în lucrările lungi."
-    },
-    {
-     "intrebare": "Scrierea unei valori direct în formulă:",
-     "optiuni": [
-      "face modificarea ulterioară dificilă",
-      "protejează calculul",
-      "este recomandată",
-      "reduce dimensiunea fișierului"
-     ],
-     "corect": 0,
-     "explicatie": "Valoarea se pune într-o celulă proprie."
-    },
-    {
-     "intrebare": "Validarea datelor previne:",
-     "optiuni": [
-      "introducerea unor valori nepermise",
-      "erorile de formulă",
-      "pierderea fișierului",
-      "ștergerea foii"
-     ],
-     "corect": 0,
-     "explicatie": "De exemplu, o notă în afara intervalului admis."
-    },
-    {
-     "intrebare": "Operatorul site: limitează căutarea:",
-     "optiuni": [
-      "la un anumit domeniu",
-      "la un tip de fișier",
-      "la o perioadă",
-      "la o limbă"
-     ],
-     "corect": 0,
-     "explicatie": "filetype: limitează la un tip de fișier."
-    },
-    {
-     "intrebare": "Confirmarea unei informații presupune:",
-     "optiuni": [
-      "surse independente, care nu se citează reciproc",
-      "mai multe site-uri care preiau aceeași știre",
-      "mai multe rețele sociale",
-      "surse din țări diferite"
-     ],
-     "corect": 0,
-     "explicatie": "Preluarea nu este confirmare."
-    },
-    {
-     "intrebare": "Un mesaj care cere urgent date de card pentru „deblocarea contului” este:",
-     "optiuni": [
-      "cel mai probabil phishing",
-      "o notificare legitimă",
-      "o eroare tehnică",
-      "un mesaj automat inofensiv"
-     ],
-     "corect": 0,
-     "explicatie": "Instituțiile serioase nu cer astfel de date prin mesaj."
-    },
-    {
-     "intrebare": "Refolosirea aceleiași parole:",
-     "optiuni": [
-      "permite compromiterea în lanț a conturilor",
-      "este sigură dacă parola e lungă",
-      "simplifică fără riscuri",
-      "este recomandată"
-     ],
-     "corect": 0,
-     "explicatie": "O singură scurgere compromite tot."
-    },
-    {
-     "intrebare": "Prima măsură la compromiterea unui cont este:",
-     "optiuni": [
-      "schimbarea parolei de pe un dispozitiv sigur",
-      "ștergerea contului",
-      "anunțarea publică",
-      "reinstalarea sistemului"
-     ],
-     "corect": 0,
-     "explicatie": "Apoi se deconectează sesiunile active."
+     "explicatie": "Design View permite configurarea tehnică a câmpurilor și a cheii primare."
     }
    ]
   },
@@ -1618,202 +1658,114 @@
    "semestru": 2,
    "test": [
     {
-     "intrebare": "Căutarea unei expresii exacte se face:",
+     "intrebare": "Modelul de servicii Cloud în care aplicațiile sunt rulate complet prin browserul web (ex: Google Docs) este:",
      "optiuni": [
-      "punând-o între ghilimele",
-      "cu majuscule",
-      "fără cuvinte-cheie",
-      "cu semnul minus"
+      "SaaS (Software as a Service)",
+      "IaaS",
+      "SCSI",
+      "BIOS"
      ],
      "corect": 0,
-     "explicatie": "Ghilimelele cer potrivirea exactă."
+     "explicatie": "SaaS livrează software complet accesibil online."
     },
     {
-     "intrebare": "Cloud computingul înseamnă:",
+     "intrebare": "Tehnologia care conectează aparate fizice din casă la internet pentru comunicare automată poartă numele de:",
      "optiuni": [
-      "resurse găzduite la distanță, accesate prin internet",
-      "un tip de imprimantă",
-      "o rețea de cabluri",
-      "un antivirus"
+      "Internet of Things (IoT)",
+      "Calcul tabelar",
+      "Editare grafică",
+      "Scanare laser"
      ],
      "corect": 0,
-     "explicatie": "De exemplu stocarea online."
+     "explicatie": "IoT interconectează dispozitivele inteligente de zi cu zi."
     },
     {
-     "intrebare": "Învățarea automată:",
+     "intrebare": "Caracteristica Big Data referitoare la generarea și procesarea fluxurilor de date în timp real este:",
      "optiuni": [
-      "învață tipare din exemple",
-      "urmează doar reguli fixe",
-      "este un cablu de rețea",
-      "comprimă sunetul"
+      "Viteza",
+      "Culoarea",
+      "Volumul fix",
+      "Formatarea"
      ],
      "corect": 0,
-     "explicatie": "Are nevoie de multe date."
+     "explicatie": "Viteza impune prelucrarea milisecundă cu milisecundă a datelor culese."
     },
     {
-     "intrebare": "Apărarea împotriva dezinformării este:",
+     "intrebare": "Domeniul inteligenței artificiale în care computerele învață reguli matematice direct din date masive de antrenament este:",
      "optiuni": [
-      "verificarea din mai multe surse",
-      "încrederea în primul rezultat",
-      "distribuirea rapidă",
-      "ignorarea autorului"
+      "Machine Learning (Învățare automată)",
+      "Defragmentare",
+      "Paginare automată",
+      "Rețea LAN"
      ],
      "corect": 0,
-     "explicatie": "Verificarea încrucișată dezvăluie falsul."
+     "explicatie": "Machine Learning învață tipare fără a fi programat manual linie cu linie."
     },
     {
-     "intrebare": "Internetul lucrurilor (IoT) conectează:",
+     "intrebare": "Răspunsurile factuale false sau inventate generate de un model mare de limbaj (LLM) se numesc:",
      "optiuni": [
-      "obiecte obișnuite la internet",
-      "doar serverele",
-      "doar imprimantele",
-      "doar telefoanele"
+      "halucinații AI",
+      "viruși troieni",
+      "macrocomenzi",
+      "pixeli morți"
      ],
      "corect": 0,
-     "explicatie": "Becuri, termostate, ceasuri inteligente."
+     "explicatie": "Halucinațiile sunt erori de generare ce trebuie verificate critic de utilizator."
     },
     {
-     "intrebare": "O rețea LAN acoperă:",
+     "intrebare": "Pentru a aplica un fundal diferențiat exclusiv pe al doilea diapozitiv într-o prezentare, se alege fundalul și:",
      "optiuni": [
-      "o zonă mică (casă, școală)",
-      "întreg globul",
-      "un continent",
-      "doar un cablu"
+      "NU se apasă butonul „Apply to All”",
+      "se apasă obligatoriu „Apply to All”",
+      "se deconectează monitorul",
+      "se șterge primul slide"
      ],
      "corect": 0,
-     "explicatie": "WAN acoperă distanțe mari."
+     "explicatie": "Fără Apply to All modificarea rămâne izolată pe slide-ul curent."
     },
     {
-     "intrebare": "Identitatea digitală este:",
+     "intrebare": "În limbajul HTML, tagul dedicat inserării unei legături hipertext către o altă pagină este:",
      "optiuni": [
-      "ansamblul informațiilor care te reprezintă online",
-      "numele de utilizator",
-      "adresa de e-mail",
-      "contul principal"
+      "`<a>`",
+      "`<link>`",
+      "`<goto>`",
+      "`<url>`"
      ],
      "corect": 0,
-     "explicatie": "Ea este verificată în practică de angajatori și instituții."
+     "explicatie": "Tagul ancorei `<a>` cu atributul `href` creează legătura."
     },
     {
-     "intrebare": "Ștergerea unei postări publice:",
+     "intrebare": "Simbolul grafic care indică o Cheie Primară lângă numele unui câmp în Access este:",
      "optiuni": [
-      "nu garantează dispariția ei",
-      "o elimină definitiv",
-      "este imposibilă",
-      "se face automat"
+      "o cheiță aurie",
+      "un semn de exclamare",
+      "o săgeată verde",
+      "un ceas"
      ],
      "corect": 0,
-     "explicatie": "Urma digitală e greu reversibilă."
+     "explicatie": "Cheița indică identificatorul unic al înregistrării."
     },
     {
-     "intrebare": "Setările de confidențialitate ar trebui:",
+     "intrebare": "La nivelul orașelor inteligente (Smart Cities), optimizarea semafoarelor în funcție de fluxul de mașini utilizează:",
      "optiuni": [
-      "revizuite periodic",
-      "lăsate implicite",
-      "modificate o singură dată",
-      "ignorate"
+      "senzori IoT și analiza datelor de trafic în timp real",
+      "oprirea curentului noaptea",
+      "ștergerea marcajelor rutiere",
+      "interzicerea transportului public"
      ],
      "corect": 0,
-     "explicatie": "Actualizările platformelor pot reseta preferințele."
+     "explicatie": "Camerele și senzorii IoT adaptează timpii de semaforizare pentru fluidizare."
     },
     {
-     "intrebare": "Un risc real al cloudului este:",
+     "intrebare": "La utilizarea sistemelor generative de inteligență artificială, regula de aur de securitate a datelor este:",
      "optiuni": [
-      "dependența de furnizor și migrarea dificilă",
-      "imposibilitatea colaborării",
-      "lipsa copiilor de siguranță",
-      "costul inițial ridicat"
+      "să nu introduci niciodată parole, coduri PIN sau date personale confidențiale",
+      "să trimiți toate secretele personale în chat",
+      "să crezi necondiționat orice răspuns afișat",
+      "să nu salvezi niciodată fișierele pe calculator"
      ],
      "corect": 0,
-     "explicatie": "Avantajele nu elimină riscurile."
-    },
-    {
-     "intrebare": "Copia locală a documentelor importante:",
-     "optiuni": [
-      "protejează împotriva pierderii accesului",
-      "este inutilă",
-      "încalcă regulile",
-      "consumă spațiu fără rost"
-     ],
-     "corect": 0,
-     "explicatie": "Redundanța este principiul siguranței datelor."
-    },
-    {
-     "intrebare": "Prejudecata algoritmică provine din:",
-     "optiuni": [
-      "datele pe care sistemul a fost antrenat",
-      "intenția programatorilor",
-      "caracterul aleatoriu al algoritmilor",
-      "lipsa de putere de calcul"
-     ],
-     "corect": 0,
-     "explicatie": "De aceea contează reprezentativitatea datelor."
-    },
-    {
-     "intrebare": "Un rezultat generat automat:",
-     "optiuni": [
-      "trebuie verificat înainte de folosire",
-      "este întotdeauna corect",
-      "nu poate fi verificat",
-      "înlocuiește sursele"
-     ],
-     "corect": 0,
-     "explicatie": "Sistemele pot formula convingător informații false."
-    },
-    {
-     "intrebare": "Valoarea datelor mari stă în:",
-     "optiuni": [
-      "tiparele descoperite prin analiză",
-      "volumul lor",
-      "formatul de stocare",
-      "viteza de colectare"
-     ],
-     "corect": 0,
-     "explicatie": "Datele neanalizate nu produc valoare."
-    },
-    {
-     "intrebare": "Automatizarea sarcinilor repetitive:",
-     "optiuni": [
-      "schimbă competențele cerute pe piața muncii",
-      "elimină munca",
-      "nu afectează ocuparea",
-      "privește doar industria"
-     ],
-     "corect": 0,
-     "explicatie": "Recalificarea devine permanentă."
-    },
-    {
-     "intrebare": "Decalajul digital privește:",
-     "optiuni": [
-      "accesul și competențele deopotrivă",
-      "doar viteza internetului",
-      "doar prețul dispozitivelor",
-      "doar vârsta utilizatorilor"
-     ],
-     "corect": 0,
-     "explicatie": "Accesul fără competențe nu produce beneficii."
-    },
-    {
-     "intrebare": "Distribuirea unei informații neverificate:",
-     "optiuni": [
-      "contribuie la răspândirea dezinformării",
-      "este neutră",
-      "e responsabilitatea platformei",
-      "nu are efecte"
-     ],
-     "corect": 0,
-     "explicatie": "Fiecare distribuire amplifică mesajul."
-    },
-    {
-     "intrebare": "Competența digitală completă include:",
-     "optiuni": [
-      "înțelegerea efectelor tehnologiei, nu doar folosirea ei",
-      "cunoașterea tuturor aplicațiilor",
-      "programarea avansată",
-      "viteza de tastare"
-     ],
-     "corect": 0,
-     "explicatie": "Dimensiunea critică face parte din competență."
+     "explicatie": "Datele transmise în chat-urile publice pot fi stocate și procesate pe servere externe."
     }
    ]
   }

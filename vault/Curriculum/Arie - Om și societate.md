@@ -11,17 +11,16 @@ Arie curriculară din planul-cadru.
 
 ## Materii
 
+- [[Economie]]
 - [[Economie și educație antreprenorială]]
-- [[Filosofie]]
+- [[Educație antreprenorială]]
 - [[Geografie]]
 - [[Istoria comunismului din România]]
 - [[Istoria evreilor. Holocaustul]]
 - [[Istorie]]
 - [[Logică, argumentare și comunicare]]
 - [[Psihologie]]
-- [[Religie]]
 - [[Sociologie]]
-- [[Studii sociale]]
 
 ## Se studiază în
 

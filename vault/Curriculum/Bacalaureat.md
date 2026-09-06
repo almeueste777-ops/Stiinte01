@@ -10,7 +10,7 @@ cssclasses: fisa
 | **E)a)** | Limba și literatura română |
 | **E)b)** | Limba modernă (competențe lingvistice) |
 | **E)c)** | Istorie SAU Matematică |
-| **E)d)** | Biologie (Anatomie-fiziologie-genetică sau Biologie vegetală-animală) / Geografie / Logică / Psihologie / Sociologie / Filosofie / Economie / Fizică / Chimie / Informatică |
+| **E)d)** | Biologie (Anatomie-fiziologie-genetică sau Biologie vegetală-animală) / Geografie / Logică / Psihologie / Sociologie / Economie / Fizică / Chimie / Informatică |
 | **A** | Competențe de comunicare în limba română |
 | **B** | Competențe lingvistice într-o limbă de circulație internațională |
 | **D** | Competențe digitale |
@@ -18,8 +18,9 @@ cssclasses: fisa
 ## Materii care intră la bac
 
 - [[Biologie]]
+- [[Economie]]
 - [[Economie și educație antreprenorială]]
-- [[Filosofie]]
+- [[Educație antreprenorială]]
 - [[Geografie]]
 - [[Istorie]]
 - [[Limba modernă 1 (Engleză)]]

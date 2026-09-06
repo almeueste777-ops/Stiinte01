@@ -19,47 +19,47 @@ cssclasses: fisa
 > **Arie curriculară:** [[Arie - Tehnologii|Tehnologii]]
 > **La bacalaureat:** da 🎓
 
-Web, multimedia și proiecte digitale: structura unei pagini, conținut vizual și audio, publicare și management de proiect.
+Tehnologii Web (HTML5 & CSS3), procesare multimedia audio-video, managementul proiectelor digitale și securitate avansată.
 
 ## Capitole (6)
 
-### Web: structură și publicare — semestrul 1
+### Web: structură, protocoale și publicare — semestrul 1
 
-- [[Cum funcționează web-ul]]
-- [[Structura unei pagini - conținut, prezentare, comportament]]
-- [[Accesibilitate, optimizare, publicare]]
+- [[Arhitectura World Wide Web și funcționarea internetului]]
+- [[Structura paginii web moderne - conținut, prezentare și comportament]]
+- [[Accesibilitate web, optimizarea performanței și publicarea pe internet]]
 
-### Multimedia — semestrul 2
+### Multimedia: sunet, imagine în mișcare și montaj digital — semestrul 1
 
-- [[Sunet digital]]
-- [[Imagine în mișcare și montaj]]
-- [[Design vizual pentru materiale digitale]]
+- [[Prelucrarea și optimizarea sunetului digital]]
+- [[Imagine în mișcare, formatele video și montajul digital]]
+- [[Principii de design vizual, compoziție și identitate grafică]]
 
-### Proiecte digitale — semestrul 2
+### Managementul proiectelor digitale și asigurarea calității — semestrul 1
 
-- [[Planificarea unui proiect digital]]
-- [[Testare, feedback, îmbunătățire]]
-- [[Prezentarea și documentarea unui produs digital]]
+- [[Etapele ciclului de viață al unui proiect digital și planificarea]]
+- [[Testarea produselor digitale, feedback-ul și metodologii agile]]
+- [[Documentarea tehnică, manualul utilizatorului și prezentarea produsului]]
 
-### HTML și CSS de bază — semestrul 1
+### Dezvoltare web practică: HTML5 și CSS3 de bază — semestrul 2
 
-- [[Structura unei pagini HTML]]
-- [[Formatarea cu CSS]]
-- [[Legături, imagini și tabele]]
+- [[Structura schelet a unei pagini HTML5 și elemente semantice]]
+- [[Formatarea stilistică cu CSS - reguli, selectori și Box Model]]
+- [[Legături hipertext, imagini și tabele în limbajul HTML]]
 
-### Multimedia și grafică — semestrul 2
+### Multimedia avansată și proiecte web — semestrul 2
 
-- [[Imaginea digitală]]
-- [[Sunet și video digital]]
+- [[Grafică digitală avansată - straturi, măști și optimizare pentru web]]
+- [[Sunet și video integrate în HTML5 - elementele audio și video]]
 
-### Proiecte și securitate digitală — semestrul 2
+### Managementul echipei, securitate și etică web — semestrul 2
 
-- [[Managementul unui proiect digital]]
-- [[Securitate și etică pe internet]]
+- [[Roluri în proiectele digitale, versionare cu Git și lucru colaborativ]]
+- [[Securitate web, prevenirea atacurilor și etica platformelor online]]
 
 ## Exersare
 - [[Carduri - Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)]] — 64 carduri
-- [[Test - Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)]] — 100 întrebări
+- [[Test - Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)]] — 84 întrebări
 
 ## Legături
 - [[Tehnologia informației și a comunicațiilor (TIC)|Tehnologia informației și a comunicațiilor (TIC)]]

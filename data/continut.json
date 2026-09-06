@@ -1,11 +1,11 @@
 {
   "version": "03",
   "actualizat": "2026-09-06",
-  "nrModule": 63,
-  "nrLectii": 1177,
-  "nrCarduri": 4711,
-  "nrIntrebari": 4729,
-  "nrIntrebariTeze": 1990,
+  "nrModule": 52,
+  "nrLectii": 973,
+  "nrCarduri": 3895,
+  "nrIntrebari": 3913,
+  "nrIntrebariTeze": 1564,
   "module": [
     {
       "id": "geografie-9",
@@ -522,146 +522,6 @@
         {
           "semestru": 2,
           "nrIntrebari": 18
-        }
-      ]
-    },
-    {
-      "id": "religie-9",
-      "materie": "Religie",
-      "clasa": "a IX-a",
-      "an": 1,
-      "arie": "Om și societate",
-      "bac": false,
-      "socioUman": false,
-      "descriere": "Sfânta Scriptură și Sfânta Tradiție, revelația și credința, Vechiul Testament și învățătura despre om.",
-      "nrLectii": 18,
-      "nrCarduri": 72,
-      "nrIntrebari": 72,
-      "nrIntrebariTeze": 30,
-      "capitole": [
-        {
-          "id": "rel9-c1",
-          "titlu": "Revelație, Scriptură, Tradiție",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "rel9-01",
-              "titlu": "Religia și căutarea sensului"
-            },
-            {
-              "id": "rel9-02",
-              "titlu": "Sfânta Scriptură"
-            },
-            {
-              "id": "rel9-03",
-              "titlu": "Sfânta Tradiție"
-            }
-          ]
-        },
-        {
-          "id": "rel9-c2",
-          "titlu": "Vechiul Testament",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "rel9-04",
-              "titlu": "Creația și omul"
-            },
-            {
-              "id": "rel9-05",
-              "titlu": "Patriarhii și Legea"
-            },
-            {
-              "id": "rel9-06",
-              "titlu": "Profeții și așteptarea lui Mesia"
-            }
-          ]
-        },
-        {
-          "id": "rel9-c3",
-          "titlu": "Credință și viață",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "rel9-07",
-              "titlu": "Simbolul de credință"
-            },
-            {
-              "id": "rel9-08",
-              "titlu": "Rugăciunea și viața liturgică"
-            },
-            {
-              "id": "rel9-09",
-              "titlu": "Virtuți, conștiință, alegeri"
-            }
-          ]
-        },
-        {
-          "id": "rel9-c4",
-          "titlu": "Psalmii și cărțile de înțelepciune",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "rel9-10",
-              "titlu": "Psalmii — cartea rugăciunii"
-            },
-            {
-              "id": "rel9-11",
-              "titlu": "Cărțile de înțelepciune"
-            },
-            {
-              "id": "rel9-12",
-              "titlu": "Cortul, Templul și cultul Vechiului Testament"
-            }
-          ]
-        },
-        {
-          "id": "rel9-c5",
-          "titlu": "Poporul ales: regi și istorie",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "rel9-13",
-              "titlu": "Regii Saul, David și Solomon"
-            },
-            {
-              "id": "rel9-14",
-              "titlu": "Regatul împărțit și exilul babilonian"
-            },
-            {
-              "id": "rel9-15",
-              "titlu": "Țara Sfântă și mediul biblic"
-            }
-          ]
-        },
-        {
-          "id": "rel9-c6",
-          "titlu": "Sărbători, îngeri și viața de credință",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "rel9-16",
-              "titlu": "Sărbătorile Vechiului Testament"
-            },
-            {
-              "id": "rel9-17",
-              "titlu": "Îngerii și lumea nevăzută"
-            },
-            {
-              "id": "rel9-18",
-              "titlu": "Numele și însușirile lui Dumnezeu"
-            }
-          ]
-        }
-      ],
-      "teze": [
-        {
-          "semestru": 1,
-          "nrIntrebari": 15
-        },
-        {
-          "semestru": 2,
-          "nrIntrebari": 15
         }
       ]
     },
@@ -1822,11 +1682,11 @@
       "arie": "Tehnologii",
       "bac": true,
       "socioUman": false,
-      "descriere": "Bazele informaticii aplicate: calculatorul, sistemul de operare, fișiere, editare de text și siguranța online.",
+      "descriere": "Arhitectura calculatorului, sisteme de operare, editare de text, prezentări multimedia, rețele și securitate cibernetică.",
       "nrLectii": 16,
       "nrCarduri": 64,
       "nrIntrebari": 64,
-      "nrIntrebariTeze": 36,
+      "nrIntrebariTeze": 20,
       "capitole": [
         {
           "id": "tic9-c1",
@@ -1835,102 +1695,102 @@
           "lectii": [
             {
               "id": "tic9-01",
-              "titlu": "Componentele unui sistem de calcul"
+              "titlu": "Componentele hardware ale unui sistem de calcul"
             },
             {
               "id": "tic9-02",
-              "titlu": "Sistemul de operare și gestionarea fișierelor"
+              "titlu": "Sistemul de operare și gestionarea avansată a fișierelor"
             },
             {
               "id": "tic9-03",
-              "titlu": "Rețele, internet și servicii web"
+              "titlu": "Rețele de calculatoare, internet și servicii web"
             }
           ]
         },
         {
           "id": "tic9-c2",
           "titlu": "Editare de text și prezentări",
-          "semestru": 2,
+          "semestru": 1,
           "lectii": [
             {
               "id": "tic9-04",
-              "titlu": "Procesorul de text: formatare și structură"
+              "titlu": "Procesorul de text: formatare, stiluri și structură profesională"
             },
             {
               "id": "tic9-05",
-              "titlu": "Prezentări electronice"
+              "titlu": "Prezentări electronice interactive și design vizual"
             },
             {
               "id": "tic9-06",
-              "titlu": "Comunicare online și colaborare"
+              "titlu": "Comunicare online, e-mail profesional și instrumente de colaborare"
             }
           ]
         },
         {
           "id": "tic9-c3",
           "titlu": "Siguranță și responsabilitate digitală",
-          "semestru": 2,
+          "semestru": 1,
           "lectii": [
             {
               "id": "tic9-07",
-              "titlu": "Securitate: parole, malware, actualizări"
+              "titlu": "Securitate cibernetică: parole, autentificare 2FA și protecție anti-malware"
             },
             {
               "id": "tic9-08",
-              "titlu": "Date personale, urmă digitală și confidențialitate"
+              "titlu": "Date personale, amprentă digitală și confidențialitate online"
             },
             {
               "id": "tic9-09",
-              "titlu": "Etică digitală, drepturi de autor, dezinformare"
+              "titlu": "Etică digitală, drepturi de autor, licențe software și combaterea dezinformării"
             }
           ]
         },
         {
           "id": "tic9-c4",
-          "titlu": "Reprezentarea informației",
-          "semestru": 1,
+          "titlu": "Reprezentarea informației și arhitectura fizică",
+          "semestru": 2,
           "lectii": [
             {
               "id": "tic9-10",
-              "titlu": "Sistemul binar și unitățile informației"
+              "titlu": "Sistemul binar, unitățile de măsură ale informației și conversii"
             },
             {
               "id": "tic9-11",
-              "titlu": "Reprezentarea textului, a imaginii și a sunetului"
+              "titlu": "Reprezentarea textului, a imaginii și a sunetului în format digital"
             },
             {
               "id": "tic9-12",
-              "titlu": "Periferice, porturi și conectarea dispozitivelor"
+              "titlu": "Porturi de comunicație, periferice și conectarea dispozitivelor"
             }
           ]
         },
         {
           "id": "tic9-c5",
           "titlu": "Lucru eficient și sănătos",
-          "semestru": 1,
+          "semestru": 2,
           "lectii": [
             {
               "id": "tic9-13",
-              "titlu": "Ergonomie, sănătate digitală și echilibru"
+              "titlu": "Ergonomie, sănătate digitală și organizarea spațiului de lucru"
             },
             {
               "id": "tic9-14",
-              "titlu": "Organizarea, arhivarea și copiile fișierelor"
+              "titlu": "Organizarea, arhivarea și strategiile sigure de backup (copii de rezervă)"
             }
           ]
         },
         {
           "id": "tic9-c6",
-          "titlu": "Documente structurate",
+          "titlu": "Documente structurate avansate în procesorul de text",
           "semestru": 2,
           "lectii": [
             {
               "id": "tic9-15",
-              "titlu": "Tabele și liste în procesorul de text"
+              "titlu": "Tabele, liste și îmbinarea corespondenței (Mail Merge) în Word"
             },
             {
               "id": "tic9-16",
-              "titlu": "Imagini și obiecte grafice în documente"
+              "titlu": "Imagini, diagrame SmartArt și obiecte grafice în documente"
             }
           ]
         }
@@ -1938,11 +1798,151 @@
       "teze": [
         {
           "semestru": 1,
-          "nrIntrebari": 18
+          "nrIntrebari": 10
         },
         {
           "semestru": 2,
-          "nrIntrebari": 18
+          "nrIntrebari": 10
+        }
+      ]
+    },
+    {
+      "id": "antreprenoriat-10",
+      "materie": "Educație antreprenorială",
+      "clasa": "a X-a",
+      "an": 2,
+      "arie": "Om și societate",
+      "bac": true,
+      "socioUman": true,
+      "descriere": "Inițierea și gestionarea unei afaceri: oportunități, legislație, plan de afaceri, marketing, finanțe și responsabilitate socială.",
+      "nrLectii": 18,
+      "nrCarduri": 72,
+      "nrIntrebari": 72,
+      "nrIntrebariTeze": 20,
+      "capitole": [
+        {
+          "id": "ant10-c1",
+          "titlu": "Spiritul antreprenorial și oportunitatea de afaceri",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ant10-01",
+              "titlu": "Profilul antreprenorului și competențele-cheie"
+            },
+            {
+              "id": "ant10-02",
+              "titlu": "Generarea, evaluarea și validarea ideilor de afaceri"
+            },
+            {
+              "id": "ant10-03",
+              "titlu": "Analiza pieței, a concurenței și segmentarea clienților"
+            }
+          ]
+        },
+        {
+          "id": "ant10-c2",
+          "titlu": "Cadrul juridic și înființarea afacerii",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ant10-04",
+              "titlu": "Forme juridice de afaceri: PFA, SRL, SA"
+            },
+            {
+              "id": "ant10-05",
+              "titlu": "Pașii legali pentru înființarea firmei la Registrul Comerțului (ONRC)"
+            },
+            {
+              "id": "ant10-06",
+              "titlu": "Relația cu instituțiile statului: ANAF, ITM, contabilitate și fiscalitate primară"
+            }
+          ]
+        },
+        {
+          "id": "ant10-c3",
+          "titlu": "Planul de afaceri și planificarea strategică",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "ant10-07",
+              "titlu": "Rolul, structura și sinteza planului de afaceri"
+            },
+            {
+              "id": "ant10-08",
+              "titlu": "Viziunea, misiunea, valorile și obiectivele SMART ale întreprinderii"
+            },
+            {
+              "id": "ant10-09",
+              "titlu": "Analiza mediului de afaceri: Matricea SWOT și micromediul/macromediul"
+            }
+          ]
+        },
+        {
+          "id": "ant10-c4",
+          "titlu": "Marketingul și vânzările firmei",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ant10-10",
+              "titlu": "Mixul de marketing — cei 4P: Produs, Preț, Plasament, Promovare"
+            },
+            {
+              "id": "ant10-11",
+              "titlu": "Marketing digital, rețele sociale și construirea brandului"
+            },
+            {
+              "id": "ant10-12",
+              "titlu": "Tehnici de vânzare, negociere și fidelizarea clienților"
+            }
+          ]
+        },
+        {
+          "id": "ant10-c5",
+          "titlu": "Managementul operațiunilor și al resurselor umane",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ant10-13",
+              "titlu": "Planul operațional: spațiu, furnizori, stocuri și flux de lucru"
+            },
+            {
+              "id": "ant10-14",
+              "titlu": "Managementul echipei: recrutare, motivare, delegare și leadership"
+            }
+          ]
+        },
+        {
+          "id": "ant10-c6",
+          "titlu": "Finanțele afacerii, riscuri și etică",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "ant10-15",
+              "titlu": "Costuri de pornire, bugete și fluxul de numerar (Cash Flow)"
+            },
+            {
+              "id": "ant10-16",
+              "titlu": "Calculul pragului de rentabilitate și marja de profit"
+            },
+            {
+              "id": "ant10-17",
+              "titlu": "Surse de finanțare a afacerii: bootstrapping, credite, fonduri nerambursabile și investitori"
+            },
+            {
+              "id": "ant10-18",
+              "titlu": "Etica în afaceri, responsabilitatea socială corporativă (CSR) și sustenabilitatea"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 10
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 10
         }
       ]
     },
@@ -2468,146 +2468,6 @@
         {
           "semestru": 2,
           "nrIntrebari": 18
-        }
-      ]
-    },
-    {
-      "id": "religie-10",
-      "materie": "Religie",
-      "clasa": "a X-a",
-      "an": 2,
-      "arie": "Om și societate",
-      "bac": false,
-      "socioUman": false,
-      "descriere": "Noul Testament: viața și învățătura lui Iisus Hristos, Biserica primară și răspândirea creștinismului.",
-      "nrLectii": 18,
-      "nrCarduri": 72,
-      "nrIntrebari": 72,
-      "nrIntrebariTeze": 30,
-      "capitole": [
-        {
-          "id": "rel10-c1",
-          "titlu": "Iisus Hristos în Evanghelii",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "rel10-01",
-              "titlu": "Evangheliile — izvor și mărturie"
-            },
-            {
-              "id": "rel10-02",
-              "titlu": "Nașterea, botezul, ispitirea"
-            },
-            {
-              "id": "rel10-03",
-              "titlu": "Predica de pe Munte și parabolele"
-            }
-          ]
-        },
-        {
-          "id": "rel10-c2",
-          "titlu": "Pătimirile, Învierea, Biserica",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "rel10-04",
-              "titlu": "Minunile și semnele"
-            },
-            {
-              "id": "rel10-05",
-              "titlu": "Pătimirile și Învierea"
-            },
-            {
-              "id": "rel10-06",
-              "titlu": "Biserica primară"
-            }
-          ]
-        },
-        {
-          "id": "rel10-c3",
-          "titlu": "Creștinismul în lume",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "rel10-07",
-              "titlu": "Persecuțiile și victoria credinței"
-            },
-            {
-              "id": "rel10-08",
-              "titlu": "Sinoadele și învățătura de credință"
-            },
-            {
-              "id": "rel10-09",
-              "titlu": "Creștinismul pe teritoriul românesc"
-            }
-          ]
-        },
-        {
-          "id": "rel10-c4",
-          "titlu": "Apostolii și scrierile Noului Testament",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "rel10-10",
-              "titlu": "Cei doisprezece Apostoli"
-            },
-            {
-              "id": "rel10-11",
-              "titlu": "Epistolele Sfântului Apostol Pavel"
-            },
-            {
-              "id": "rel10-12",
-              "titlu": "Epistolele sobornicești și Apocalipsa"
-            }
-          ]
-        },
-        {
-          "id": "rel10-c5",
-          "titlu": "Învățătura și lucrarea Mântuitorului",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "rel10-13",
-              "titlu": "Rugăciunea „Tatăl nostru”"
-            },
-            {
-              "id": "rel10-14",
-              "titlu": "Schimbarea la Față și descoperirea slavei"
-            },
-            {
-              "id": "rel10-15",
-              "titlu": "Femeile în Evanghelii"
-            }
-          ]
-        },
-        {
-          "id": "rel10-c6",
-          "titlu": "Răspândirea și viața Bisericii primare",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "rel10-16",
-              "titlu": "Călătoriile misionare ale Sfântului Pavel"
-            },
-            {
-              "id": "rel10-17",
-              "titlu": "Părinții apostolici și apologeții"
-            },
-            {
-              "id": "rel10-18",
-              "titlu": "Simboluri creștine și viața în catacombe"
-            }
-          ]
-        }
-      ],
-      "teze": [
-        {
-          "semestru": 1,
-          "nrIntrebari": 15
-        },
-        {
-          "semestru": 2,
-          "nrIntrebari": 15
         }
       ]
     },
@@ -3775,115 +3635,300 @@
       "arie": "Tehnologii",
       "bac": true,
       "socioUman": false,
-      "descriere": "Calcul tabelar, baze de date, prelucrarea imaginii și algoritmi: instrumentele digitale de lucru cu date.",
+      "descriere": "Calcul tabelar avansat (Excel), baze de date relaționale (Access), prelucrare de imagine și gândire algoritmică.",
       "nrLectii": 16,
       "nrCarduri": 64,
       "nrIntrebari": 64,
-      "nrIntrebariTeze": 30,
+      "nrIntrebariTeze": 20,
       "capitole": [
         {
           "id": "tic10-c1",
-          "titlu": "Calcul tabelar",
+          "titlu": "Calcul tabelar: baze, structură și formule",
           "semestru": 1,
           "lectii": [
             {
               "id": "tic10-01",
-              "titlu": "Foaia de calcul: structură și formule"
+              "titlu": "Foaia de calcul: structură, celule și formule aritmetice"
             },
             {
               "id": "tic10-02",
-              "titlu": "Funcții și analiza datelor"
+              "titlu": "Funcții predefinite și analiza datelor numerice"
             },
             {
               "id": "tic10-03",
-              "titlu": "Reprezentarea grafică a datelor"
+              "titlu": "Reprezentarea grafică a datelor (diagrame Excel)"
             }
           ]
         },
         {
           "id": "tic10-c2",
           "titlu": "Baze de date și structurarea informației",
-          "semestru": 2,
+          "semestru": 1,
           "lectii": [
             {
               "id": "tic10-04",
-              "titlu": "Concepte de bază de date"
+              "titlu": "Concepte fundamentale de baze de date relaționale"
             },
             {
               "id": "tic10-05",
-              "titlu": "Interogări, formulare, rapoarte"
+              "titlu": "Interogări (Queries), formulare și rapoarte în Microsoft Access"
             },
             {
               "id": "tic10-06",
-              "titlu": "Prelucrarea imaginii digitale"
+              "titlu": "Prelucrarea imaginii digitale: raster versus vectorial și tehnici de editare"
             }
           ]
         },
         {
           "id": "tic10-c3",
           "titlu": "Algoritmi și gândire computațională",
-          "semestru": 2,
+          "semestru": 1,
           "lectii": [
             {
               "id": "tic10-07",
-              "titlu": "Algoritmi: definiție, proprietăți, reprezentare"
+              "titlu": "Algoritmi: definiție, proprietăți, etape și moduri de reprezentare"
             },
             {
               "id": "tic10-08",
-              "titlu": "Structuri repetitive și prelucrarea datelor"
+              "titlu": "Structuri fundamentale de control și instrucțiuni repetitive"
             },
             {
               "id": "tic10-09",
-              "titlu": "Gândire computațională și rezolvarea problemelor"
+              "titlu": "Gândire computațională: descompunere, recunoașterea tiparelor și abstractizare"
             }
           ]
         },
         {
           "id": "tic10-c4",
-          "titlu": "Calcul tabelar aprofundat",
-          "semestru": 1,
+          "titlu": "Calcul tabelar aprofundat: referințe și funcții logice",
+          "semestru": 2,
           "lectii": [
             {
               "id": "tic10-10",
-              "titlu": "Referințe relative, absolute și denumirea celulelor"
+              "titlu": "Tipuri de referințe de celule: relative, absolute și mixte în Excel"
             },
             {
               "id": "tic10-11",
-              "titlu": "Funcții logice și calcul condiționat"
+              "titlu": "Funcții logice și calcul condiționat: IF, COUNTIF și SUMIF"
             },
             {
               "id": "tic10-12",
-              "titlu": "Sortare, filtrare și tabele pivot"
-            }
-          ]
-        },
-        {
-          "id": "tic10-c6",
-          "titlu": "Tehnici algoritmice",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "tic10-13",
-              "titlu": "Structuri de decizie în algoritmi"
-            },
-            {
-              "id": "tic10-14",
-              "titlu": "Tablouri (vectori) și prelucrarea colecțiilor"
+              "titlu": "Sortare, filtrare avansată și tabele pivot (Pivot Tables)"
             }
           ]
         },
         {
           "id": "tic10-c5",
-          "titlu": "Baze de date relaționale",
+          "titlu": "Tehnici algoritmice și colecții de date (vectori)",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "tic10-13",
+              "titlu": "Tehnici de decizie în algoritmi și condiții compuse"
+            },
+            {
+              "id": "tic10-14",
+              "titlu": "Tablouri unidimensionale (vectori) și prelucrarea colecțiilor de date"
+            }
+          ]
+        },
+        {
+          "id": "tic10-c6",
+          "titlu": "Baze de date relaționale: relații și integritate",
           "semestru": 2,
           "lectii": [
             {
               "id": "tic10-15",
-              "titlu": "Modelul relațional: tabele, chei și relații"
+              "titlu": "Modelul relațional: tabele legate, chei străine și tipuri de relații"
             },
             {
               "id": "tic10-16",
-              "titlu": "Integritatea datelor și normalizarea"
+              "titlu": "Integritatea referențială și normalizarea bazelor de date"
+            }
+          ]
+        }
+      ],
+      "teze": [
+        {
+          "semestru": 1,
+          "nrIntrebari": 10
+        },
+        {
+          "semestru": 2,
+          "nrIntrebari": 10
+        }
+      ]
+    },
+    {
+      "id": "economie-11",
+      "materie": "Economie",
+      "clasa": "a XI-a",
+      "an": 3,
+      "arie": "Om și societate",
+      "bac": true,
+      "socioUman": true,
+      "descriere": "Teoria economică completă pentru liceu și Bacalaureat: consumator, producător, piețe, bani, bănci, piața muncii, macroeconomie și inflație.",
+      "nrLectii": 24,
+      "nrCarduri": 96,
+      "nrIntrebari": 96,
+      "nrIntrebariTeze": 37,
+      "capitole": [
+        {
+          "id": "eco11-c1",
+          "titlu": "Economia și consumatorul",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "eco11-01",
+              "titlu": "Nevoi, resurse, alegere"
+            },
+            {
+              "id": "eco11-02",
+              "titlu": "Consumatorul și cererea"
+            }
+          ]
+        },
+        {
+          "id": "eco11-c2",
+          "titlu": "Producătorul",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "eco11-03",
+              "titlu": "Factorii de producție și combinarea lor"
+            },
+            {
+              "id": "eco11-04",
+              "titlu": "Costuri, venituri, profit"
+            }
+          ]
+        },
+        {
+          "id": "eco11-c3",
+          "titlu": "Piața",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "eco11-05",
+              "titlu": "Oferta și echilibrul pieței"
+            },
+            {
+              "id": "eco11-06",
+              "titlu": "Concurența și formele pieței"
+            }
+          ]
+        },
+        {
+          "id": "eco11-c4",
+          "titlu": "Piețe particulare",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "eco11-07",
+              "titlu": "Banii și piața monetară"
+            },
+            {
+              "id": "eco11-08",
+              "titlu": "Piața muncii și șomajul"
+            },
+            {
+              "id": "eco11-09",
+              "titlu": "Economia deschisă: comerț, curs de schimb, integrare"
+            }
+          ]
+        },
+        {
+          "id": "eco11-c5",
+          "titlu": "Educație antreprenorială",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "eco11-10",
+              "titlu": "Întreprinzătorul și ideea de afacere"
+            },
+            {
+              "id": "eco11-11",
+              "titlu": "Planul de afaceri și finanțarea"
+            },
+            {
+              "id": "eco11-12",
+              "titlu": "Marketing, resurse umane, etică în afaceri"
+            }
+          ]
+        },
+        {
+          "id": "eco11-c6",
+          "titlu": "Indicatorii macroeconomici",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "eco11-13",
+              "titlu": "Produsul intern brut și indicatorii macroeconomici"
+            },
+            {
+              "id": "eco11-14",
+              "titlu": "Creșterea și dezvoltarea economică"
+            },
+            {
+              "id": "eco11-15",
+              "titlu": "Ciclul economic: expansiune, recesiune, criză"
+            }
+          ]
+        },
+        {
+          "id": "eco11-c7",
+          "titlu": "Finanțele publice și politica economică",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "eco11-16",
+              "titlu": "Bugetul de stat: venituri, cheltuieli, deficit"
+            },
+            {
+              "id": "eco11-17",
+              "titlu": "Impozitele și sistemul fiscal"
+            },
+            {
+              "id": "eco11-18",
+              "titlu": "Politica fiscală și politica monetară"
+            }
+          ]
+        },
+        {
+          "id": "eco11-c8",
+          "titlu": "Aprofundări de microeconomie",
+          "semestru": 1,
+          "lectii": [
+            {
+              "id": "eco11-19",
+              "titlu": "Elasticitatea cererii și a ofertei"
+            },
+            {
+              "id": "eco11-20",
+              "titlu": "Costurile pe termen lung și economiile de scară"
+            },
+            {
+              "id": "eco11-21",
+              "titlu": "Eșecurile pieței și rolul statului"
+            }
+          ]
+        },
+        {
+          "id": "eco11-c9",
+          "titlu": "Sistemul financiar și economia globală",
+          "semestru": 2,
+          "lectii": [
+            {
+              "id": "eco11-22",
+              "titlu": "Sistemul bancar și creația monetară"
+            },
+            {
+              "id": "eco11-23",
+              "titlu": "Piața de capital: acțiuni, obligațiuni, bursa"
+            },
+            {
+              "id": "eco11-24",
+              "titlu": "Globalizarea și dezvoltarea durabilă"
             }
           ]
         }
@@ -3895,7 +3940,7 @@
         },
         {
           "semestru": 2,
-          "nrIntrebari": 12
+          "nrIntrebari": 19
         }
       ]
     },
@@ -4380,146 +4425,6 @@
       ]
     },
     {
-      "id": "religie-11",
-      "materie": "Religie",
-      "clasa": "a XI-a",
-      "an": 3,
-      "arie": "Om și societate",
-      "bac": false,
-      "socioUman": false,
-      "descriere": "Biserica: Sfintele Taine, cultul și arta liturgică, istoria creștinismului și relația credinței cu știința și cultura.",
-      "nrLectii": 18,
-      "nrCarduri": 72,
-      "nrIntrebari": 72,
-      "nrIntrebariTeze": 30,
-      "capitole": [
-        {
-          "id": "rel11-c1",
-          "titlu": "Biserica și Sfintele Taine",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "rel11-01",
-              "titlu": "Biserica — comuniune și instituție"
-            },
-            {
-              "id": "rel11-02",
-              "titlu": "Sfintele Taine ale inițierii"
-            },
-            {
-              "id": "rel11-03",
-              "titlu": "Celelalte Sfinte Taine"
-            }
-          ]
-        },
-        {
-          "id": "rel11-c2",
-          "titlu": "Cult, artă, sărbători",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "rel11-04",
-              "titlu": "Sfânta Liturghie"
-            },
-            {
-              "id": "rel11-05",
-              "titlu": "Icoana și arta bisericească"
-            },
-            {
-              "id": "rel11-06",
-              "titlu": "Sărbătorile și posturile"
-            }
-          ]
-        },
-        {
-          "id": "rel11-c3",
-          "titlu": "Creștinismul, cultura și lumea",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "rel11-07",
-              "titlu": "Marile momente ale istoriei creștine"
-            },
-            {
-              "id": "rel11-08",
-              "titlu": "Credință, rațiune, știință"
-            },
-            {
-              "id": "rel11-09",
-              "titlu": "Religiile lumii și dialogul"
-            }
-          ]
-        },
-        {
-          "id": "rel11-c4",
-          "titlu": "Slujbele și rânduielile Bisericii",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "rel11-10",
-              "titlu": "Laudele bisericești"
-            },
-            {
-              "id": "rel11-11",
-              "titlu": "Ierurgiile și slujbele de trebuință"
-            },
-            {
-              "id": "rel11-12",
-              "titlu": "Cântarea bisericească și muzica psaltică"
-            }
-          ]
-        },
-        {
-          "id": "rel11-c5",
-          "titlu": "Organizarea și răspândirea Ortodoxiei",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "rel11-13",
-              "titlu": "Bisericile Ortodoxe autocefale"
-            },
-            {
-              "id": "rel11-14",
-              "titlu": "Monahismul și marile centre monahale"
-            },
-            {
-              "id": "rel11-15",
-              "titlu": "Misiunea creștină și încreștinarea popoarelor"
-            }
-          ]
-        },
-        {
-          "id": "rel11-c6",
-          "titlu": "Confesiuni creștine și marile religii",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "rel11-16",
-              "titlu": "Catolicismul și protestantismul"
-            },
-            {
-              "id": "rel11-17",
-              "titlu": "Iudaismul și islamul"
-            },
-            {
-              "id": "rel11-18",
-              "titlu": "Religiile Orientului: hinduismul și budismul"
-            }
-          ]
-        }
-      ],
-      "teze": [
-        {
-          "semestru": 1,
-          "nrIntrebari": 15
-        },
-        {
-          "semestru": 2,
-          "nrIntrebari": 15
-        }
-      ]
-    },
-    {
       "id": "sociologie-11",
       "materie": "Sociologie",
       "clasa": "a XI-a",
@@ -4696,146 +4601,6 @@
             {
               "id": "soc11-24",
               "titlu": "Mișcări sociale și acțiune colectivă"
-            }
-          ]
-        }
-      ],
-      "teze": [
-        {
-          "semestru": 1,
-          "nrIntrebari": 18
-        },
-        {
-          "semestru": 2,
-          "nrIntrebari": 18
-        }
-      ]
-    },
-    {
-      "id": "studii-sociale-11",
-      "materie": "Studii sociale",
-      "clasa": "a XI-a",
-      "an": 3,
-      "arie": "Om și societate",
-      "bac": false,
-      "socioUman": false,
-      "descriere": "Educație interculturală și pentru drepturile omului: identitate, diversitate, stereotipuri, discriminare, drepturi și responsabilități.",
-      "nrLectii": 18,
-      "nrCarduri": 72,
-      "nrIntrebari": 72,
-      "nrIntrebariTeze": 36,
-      "capitole": [
-        {
-          "id": "ss11-c1",
-          "titlu": "Identitate și diversitate culturală",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "ss11-01",
-              "titlu": "Cultură, identitate, apartenență"
-            },
-            {
-              "id": "ss11-02",
-              "titlu": "Diversitate culturală și interculturalitate"
-            },
-            {
-              "id": "ss11-03",
-              "titlu": "Stereotipuri, prejudecăți, discriminare"
-            }
-          ]
-        },
-        {
-          "id": "ss11-c2",
-          "titlu": "Drepturile omului",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "ss11-04",
-              "titlu": "Fundamentele și generațiile drepturilor"
-            },
-            {
-              "id": "ss11-05",
-              "titlu": "Drepturile copilului și drepturile elevului"
-            },
-            {
-              "id": "ss11-06",
-              "titlu": "Mecanisme de protecție și participare civică"
-            }
-          ]
-        },
-        {
-          "id": "ss11-c3",
-          "titlu": "Conflict, comunicare, comunitate",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "ss11-07",
-              "titlu": "Conflictul și rezolvarea lui"
-            },
-            {
-              "id": "ss11-08",
-              "titlu": "Comunicarea în situații interculturale"
-            },
-            {
-              "id": "ss11-09",
-              "titlu": "Proiect comunitar și acțiune civică"
-            }
-          ]
-        },
-        {
-          "id": "ss11-c4",
-          "titlu": "Cetățenie și democrație",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "ss11-10",
-              "titlu": "Cetățenia: statut, drepturi, îndatoriri"
-            },
-            {
-              "id": "ss11-11",
-              "titlu": "Democrația: concept, principii, forme"
-            },
-            {
-              "id": "ss11-12",
-              "titlu": "Pluralismul politic și alegerile"
-            }
-          ]
-        },
-        {
-          "id": "ss11-c5",
-          "titlu": "Statul de drept și separația puterilor",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "ss11-13",
-              "titlu": "Statul de drept"
-            },
-            {
-              "id": "ss11-14",
-              "titlu": "Separarea și echilibrul puterilor"
-            },
-            {
-              "id": "ss11-15",
-              "titlu": "Constituția și drepturile fundamentale"
-            }
-          ]
-        },
-        {
-          "id": "ss11-c6",
-          "titlu": "Societate civilă și participare",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "ss11-16",
-              "titlu": "Societatea civilă și organizațiile neguvernamentale"
-            },
-            {
-              "id": "ss11-17",
-              "titlu": "Opinia publică și participarea democratică"
-            },
-            {
-              "id": "ss11-18",
-              "titlu": "Egalitatea de șanse și incluziunea"
             }
           ]
         }
@@ -5399,278 +5164,6 @@
       ]
     },
     {
-      "id": "mass-11",
-      "materie": "Matematică aplicată în științele sociale",
-      "clasa": "a XI-a",
-      "an": 3,
-      "arie": "Matematică și științe ale naturii",
-      "bac": false,
-      "socioUman": false,
-      "descriere": "Culegerea și reprezentarea datelor, indicatori statistici, elemente de probabilități și modele de creștere aplicate în social.",
-      "nrLectii": 18,
-      "nrCarduri": 72,
-      "nrIntrebari": 72,
-      "nrIntrebariTeze": 30,
-      "capitole": [
-        {
-          "id": "mas11-c1",
-          "titlu": "Date și reprezentări",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "mas11-01",
-              "titlu": "Ce studiază statistica socială"
-            },
-            {
-              "id": "mas11-02",
-              "titlu": "Culegerea datelor"
-            },
-            {
-              "id": "mas11-03",
-              "titlu": "Reprezentări grafice"
-            }
-          ]
-        },
-        {
-          "id": "mas11-c2",
-          "titlu": "Indicatori și probabilități",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "mas11-04",
-              "titlu": "Indicatori de tendință centrală"
-            },
-            {
-              "id": "mas11-05",
-              "titlu": "Indicatori de împrăștiere"
-            },
-            {
-              "id": "mas11-06",
-              "titlu": "Probabilități în situații sociale"
-            }
-          ]
-        },
-        {
-          "id": "mas11-c3",
-          "titlu": "Modele și aplicații",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "mas11-07",
-              "titlu": "Creștere și evoluție"
-            },
-            {
-              "id": "mas11-08",
-              "titlu": "Procente, indici, comparații"
-            },
-            {
-              "id": "mas11-09",
-              "titlu": "Corelație, cauzalitate, decizie"
-            }
-          ]
-        },
-        {
-          "id": "mas11-c4",
-          "titlu": "Serii statistice și frecvențe",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "mas11-10",
-              "titlu": "Serii de frecvențe și tabele statistice"
-            },
-            {
-              "id": "mas11-11",
-              "titlu": "Gruparea datelor pe intervale"
-            },
-            {
-              "id": "mas11-12",
-              "titlu": "Serii cronologice și medii mobile"
-            }
-          ]
-        },
-        {
-          "id": "mas11-c5",
-          "titlu": "Combinatorică și numărare",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "mas11-13",
-              "titlu": "Reguli de numărare: multiplicare și adunare"
-            },
-            {
-              "id": "mas11-14",
-              "titlu": "Permutări, aranjamente, combinări"
-            },
-            {
-              "id": "mas11-15",
-              "titlu": "Numărarea în probleme sociale"
-            }
-          ]
-        },
-        {
-          "id": "mas11-c6",
-          "titlu": "Probabilități și decizie",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "mas11-16",
-              "titlu": "Probabilitatea clasică și regulile ei"
-            },
-            {
-              "id": "mas11-17",
-              "titlu": "Evenimente independente și probabilitate compusă"
-            },
-            {
-              "id": "mas11-18",
-              "titlu": "Valoarea așteptată și decizia în incertitudine"
-            }
-          ]
-        }
-      ],
-      "teze": [
-        {
-          "semestru": 1,
-          "nrIntrebari": 15
-        },
-        {
-          "semestru": 2,
-          "nrIntrebari": 15
-        }
-      ]
-    },
-    {
-      "id": "stiam-11",
-      "materie": "ȘTIAM (științe integrate)",
-      "clasa": "a XI-a",
-      "an": 3,
-      "arie": "Matematică și științe ale naturii",
-      "bac": false,
-      "socioUman": false,
-      "descriere": "Științe integrate: metoda științifică, materie și energie, sistemele Pământului și viața ca sistem.",
-      "nrLectii": 16,
-      "nrCarduri": 64,
-      "nrIntrebari": 64,
-      "nrIntrebariTeze": 30,
-      "capitole": [
-        {
-          "id": "sti11-c1",
-          "titlu": "Cum funcționează știința",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "sti11-01",
-              "titlu": "Metoda științifică"
-            },
-            {
-              "id": "sti11-02",
-              "titlu": "Măsurare, incertitudine, date"
-            },
-            {
-              "id": "sti11-03",
-              "titlu": "Modele și limitele lor"
-            }
-          ]
-        },
-        {
-          "id": "sti11-c2",
-          "titlu": "Materie și energie",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "sti11-04",
-              "titlu": "Structura materiei"
-            },
-            {
-              "id": "sti11-05",
-              "titlu": "Energia și transformările ei"
-            },
-            {
-              "id": "sti11-06",
-              "titlu": "Unde, semnale, comunicații"
-            }
-          ]
-        },
-        {
-          "id": "sti11-c3",
-          "titlu": "Pământul și viața",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "sti11-07",
-              "titlu": "Sistemul Pământ"
-            },
-            {
-              "id": "sti11-08",
-              "titlu": "Clima și schimbările ei"
-            },
-            {
-              "id": "sti11-09",
-              "titlu": "Viața ca sistem"
-            }
-          ]
-        },
-        {
-          "id": "sti11-c4",
-          "titlu": "Materie și transformări",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "sti11-10",
-              "titlu": "Atomi, molecule și substanțe"
-            },
-            {
-              "id": "sti11-11",
-              "titlu": "Reacții chimice și energie"
-            },
-            {
-              "id": "sti11-12",
-              "titlu": "Amestecuri, soluții și separări"
-            }
-          ]
-        },
-        {
-          "id": "sti11-c5",
-          "titlu": "Energie și unde",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "sti11-13",
-              "titlu": "Forme și transformări ale energiei"
-            },
-            {
-              "id": "sti11-14",
-              "titlu": "Unde: lumina și sunetul"
-            }
-          ]
-        },
-        {
-          "id": "sti11-c6",
-          "titlu": "Viață și mediu",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "sti11-15",
-              "titlu": "Organismul ca sistem"
-            },
-            {
-              "id": "sti11-16",
-              "titlu": "Ecosisteme și cicluri în natură"
-            }
-          ]
-        }
-      ],
-      "teze": [
-        {
-          "semestru": 1,
-          "nrIntrebari": 15
-        },
-        {
-          "semestru": 2,
-          "nrIntrebari": 15
-        }
-      ]
-    },
-    {
       "id": "tic-11",
       "materie": "Tehnologia informației și a comunicațiilor (TIC)",
       "clasa": "a XI-a",
@@ -5678,115 +5171,115 @@
       "arie": "Tehnologii",
       "bac": true,
       "socioUman": false,
-      "descriere": "Web, multimedia și proiecte digitale: structura unei pagini, conținut vizual și audio, publicare și management de proiect.",
+      "descriere": "Tehnologii Web (HTML5 & CSS3), procesare multimedia audio-video, managementul proiectelor digitale și securitate avansată.",
       "nrLectii": 16,
       "nrCarduri": 64,
       "nrIntrebari": 64,
-      "nrIntrebariTeze": 36,
+      "nrIntrebariTeze": 20,
       "capitole": [
         {
           "id": "tic11-c1",
-          "titlu": "Web: structură și publicare",
+          "titlu": "Web: structură, protocoale și publicare",
           "semestru": 1,
           "lectii": [
             {
               "id": "tic11-01",
-              "titlu": "Cum funcționează web-ul"
+              "titlu": "Arhitectura World Wide Web și funcționarea internetului"
             },
             {
               "id": "tic11-02",
-              "titlu": "Structura unei pagini: conținut, prezentare, comportament"
+              "titlu": "Structura paginii web moderne: conținut, prezentare și comportament"
             },
             {
               "id": "tic11-03",
-              "titlu": "Accesibilitate, optimizare, publicare"
+              "titlu": "Accesibilitate web, optimizarea performanței și publicarea pe internet"
             }
           ]
         },
         {
           "id": "tic11-c2",
-          "titlu": "Multimedia",
-          "semestru": 2,
+          "titlu": "Multimedia: sunet, imagine în mișcare și montaj digital",
+          "semestru": 1,
           "lectii": [
             {
               "id": "tic11-04",
-              "titlu": "Sunet digital"
+              "titlu": "Prelucrarea și optimizarea sunetului digital"
             },
             {
               "id": "tic11-05",
-              "titlu": "Imagine în mișcare și montaj"
+              "titlu": "Imagine în mișcare, formatele video și montajul digital"
             },
             {
               "id": "tic11-06",
-              "titlu": "Design vizual pentru materiale digitale"
+              "titlu": "Principii de design vizual, compoziție și identitate grafică"
             }
           ]
         },
         {
           "id": "tic11-c3",
-          "titlu": "Proiecte digitale",
-          "semestru": 2,
+          "titlu": "Managementul proiectelor digitale și asigurarea calității",
+          "semestru": 1,
           "lectii": [
             {
               "id": "tic11-07",
-              "titlu": "Planificarea unui proiect digital"
+              "titlu": "Etapele ciclului de viață al unui proiect digital și planificarea"
             },
             {
               "id": "tic11-08",
-              "titlu": "Testare, feedback, îmbunătățire"
+              "titlu": "Testarea produselor digitale, feedback-ul și metodologii agile"
             },
             {
               "id": "tic11-09",
-              "titlu": "Prezentarea și documentarea unui produs digital"
+              "titlu": "Documentarea tehnică, manualul utilizatorului și prezentarea produsului"
             }
           ]
         },
         {
           "id": "tic11-c4",
-          "titlu": "HTML și CSS de bază",
-          "semestru": 1,
+          "titlu": "Dezvoltare web practică: HTML5 și CSS3 de bază",
+          "semestru": 2,
           "lectii": [
             {
               "id": "tic11-10",
-              "titlu": "Structura unei pagini HTML"
+              "titlu": "Structura schelet a unei pagini HTML5 și elemente semantice"
             },
             {
               "id": "tic11-11",
-              "titlu": "Formatarea cu CSS"
+              "titlu": "Formatarea stilistică cu CSS: reguli, selectori și Box Model"
             },
             {
               "id": "tic11-12",
-              "titlu": "Legături, imagini și tabele"
+              "titlu": "Legături hipertext, imagini și tabele în limbajul HTML"
             }
           ]
         },
         {
           "id": "tic11-c5",
-          "titlu": "Multimedia și grafică",
+          "titlu": "Multimedia avansată și proiecte web",
           "semestru": 2,
           "lectii": [
             {
               "id": "tic11-13",
-              "titlu": "Imaginea digitală"
+              "titlu": "Grafică digitală avansată: straturi, măști și optimizare pentru web"
             },
             {
               "id": "tic11-14",
-              "titlu": "Sunet și video digital"
+              "titlu": "Sunet și video integrate în HTML5: elementele audio și video"
             }
           ]
         },
         {
           "id": "tic11-c6",
-          "titlu": "Proiecte și securitate digitală",
+          "titlu": "Managementul echipei, securitate și etică web",
           "semestru": 2,
           "lectii": [
             {
               "id": "tic11-15",
-              "titlu": "Managementul unui proiect digital"
+              "titlu": "Roluri în proiectele digitale, versionare cu Git și lucru colaborativ"
             },
             {
               "id": "tic11-16",
-              "titlu": "Securitate și etică pe internet"
+              "titlu": "Securitate web, prevenirea atacurilor și etica platformelor online"
             }
           ]
         }
@@ -5794,184 +5287,108 @@
       "teze": [
         {
           "semestru": 1,
-          "nrIntrebari": 18
+          "nrIntrebari": 10
         },
         {
           "semestru": 2,
-          "nrIntrebari": 18
+          "nrIntrebari": 10
         }
       ]
     },
     {
-      "id": "filosofie-12",
-      "materie": "Filosofie",
+      "id": "antreprenoriat-12",
+      "materie": "Educație antreprenorială",
       "clasa": "a XII-a",
       "an": 4,
       "arie": "Om și societate",
       "bac": true,
       "socioUman": true,
-      "descriere": "Marile teme ale filosofiei: omul, morala, politica, cunoașterea și rostul însuși al întrebării filosofice.",
-      "nrLectii": 24,
-      "nrCarduri": 96,
-      "nrIntrebari": 96,
-      "nrIntrebariTeze": 37,
+      "descriere": "Antreprenoriat aplicat și management strategic: lansarea pe piață, scalare, modele de business Canvas, finanțări europene și simulări de afaceri.",
+      "nrLectii": 12,
+      "nrCarduri": 48,
+      "nrIntrebari": 48,
+      "nrIntrebariTeze": 20,
       "capitole": [
         {
-          "id": "fil12-c1",
-          "titlu": "Introducere în filosofie",
+          "id": "ant12-c1",
+          "titlu": "Modele de afaceri și gândire strategică",
           "semestru": 1,
           "lectii": [
             {
-              "id": "fil12-01",
-              "titlu": "Ce este filosofia"
+              "id": "ant12-01",
+              "titlu": "Modelul Business Model Canvas (BMC) — cele 9 blocuri fundamentale"
             },
             {
-              "id": "fil12-02",
-              "titlu": "Nașterea filosofiei și marile momente"
+              "id": "ant12-02",
+              "titlu": "Strategii competitive: diferențiere, leadership prin cost și focalizare"
+            },
+            {
+              "id": "ant12-03",
+              "titlu": "Inovație, proprietate intelectuală și protecția mărcilor"
             }
           ]
         },
         {
-          "id": "fil12-c2",
-          "titlu": "Omul",
+          "id": "ant12-c2",
+          "titlu": "Cercetarea avansată a pieței și atragerea primilor clienți",
           "semestru": 1,
           "lectii": [
             {
-              "id": "fil12-03",
-              "titlu": "Problematica naturii umane"
+              "id": "ant12-04",
+              "titlu": "Metode de cercetare de piață: calitativ vs. cantitativ și testarea A/B"
             },
             {
-              "id": "fil12-04",
-              "titlu": "Libertate și responsabilitate"
+              "id": "ant12-05",
+              "titlu": "Strategii de lansare pe piață (Go-to-Market) și achiziția primilor clienți"
             },
             {
-              "id": "fil12-05",
-              "titlu": "Sensul vieții și moartea"
+              "id": "ant12-06",
+              "titlu": "Pâlnia de vânzări (Sales Funnel) și indicatorii cheie: CAC, LTV, Churn Rate"
             }
           ]
         },
         {
-          "id": "fil12-c3",
-          "titlu": "Morala",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "fil12-06",
-              "titlu": "Binele și răul. Specificul moralei"
-            },
-            {
-              "id": "fil12-07",
-              "titlu": "Teorii etice: datoria și utilitatea"
-            }
-          ]
-        },
-        {
-          "id": "fil12-c4",
-          "titlu": "Politica",
+          "id": "ant12-c3",
+          "titlu": "Gestiunea financiară strategică și atragerea de capital",
           "semestru": 2,
           "lectii": [
             {
-              "id": "fil12-08",
-              "titlu": "Libertate socială și politică"
+              "id": "ant12-07",
+              "titlu": "Situațiile financiare fundamentale: Bilanțul, Contul de Profit și Pierdere și Cash Flow"
             },
             {
-              "id": "fil12-09",
-              "titlu": "Egalitate și dreptate"
-            },
-            {
-              "id": "fil12-10",
-              "titlu": "Puterea politică, statul și legitimitatea"
-            },
-            {
-              "id": "fil12-11",
-              "titlu": "Drepturile omului"
+              "id": "ant12-08",
+              "titlu": "Pitch deck-ul antreprenorial: arta de a prezenta afacerea investitorilor"
             }
           ]
         },
         {
-          "id": "fil12-c5",
-          "titlu": "Cunoașterea",
+          "id": "ant12-c4",
+          "titlu": "Digitalizare, scalare și e-commerce",
           "semestru": 2,
           "lectii": [
             {
-              "id": "fil12-12",
-              "titlu": "Problema cunoașterii: izvoare și limite"
+              "id": "ant12-09",
+              "titlu": "Comerț electronic (E-commerce), platforme și logistică modernă"
             },
             {
-              "id": "fil12-13",
-              "titlu": "Adevăr și eroare"
-            },
-            {
-              "id": "fil12-14",
-              "titlu": "Rolul filosofiei în viața socială"
+              "id": "ant12-10",
+              "titlu": "Digitalizarea proceselor: sisteme CRM, ERP și automatizări"
             }
           ]
         },
         {
-          "id": "fil12-c6",
-          "titlu": "Metafizica și divinitatea",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "fil12-15",
-              "titlu": "Teorii despre existență: materialism, idealism, dualism"
-            },
-            {
-              "id": "fil12-16",
-              "titlu": "Existența lui Dumnezeu: argumente și obiecții"
-            },
-            {
-              "id": "fil12-17",
-              "titlu": "Credință și rațiune"
-            }
-          ]
-        },
-        {
-          "id": "fil12-c7",
-          "titlu": "Marii filosofi",
+          "id": "ant12-c5",
+          "titlu": "Leadership, inovație și sustenabilitate",
           "semestru": 2,
           "lectii": [
             {
-              "id": "fil12-18",
-              "titlu": "Platon: teoria Ideilor, mitul peșterii, cetatea dreaptă"
+              "id": "ant12-11",
+              "titlu": "Leadership agil, managementul schimbării și cultura organizațională"
             },
             {
-              "id": "fil12-19",
-              "titlu": "Aristotel: substanță, cele patru cauze, virtutea"
-            },
-            {
-              "id": "fil12-20",
-              "titlu": "Descartes și raționalismul modern"
-            }
-          ]
-        },
-        {
-          "id": "fil12-c8",
-          "titlu": "Empirismul și limitele cunoașterii",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "fil12-21",
-              "titlu": "Empirismul: Locke, Berkeley, Hume"
-            },
-            {
-              "id": "fil12-22",
-              "titlu": "Scepticismul și problema certitudinii"
-            }
-          ]
-        },
-        {
-          "id": "fil12-c9",
-          "titlu": "Etică și politică aprofundate",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "fil12-23",
-              "titlu": "Fericirea și artele de a trăi: hedonism, epicureism, stoicism"
-            },
-            {
-              "id": "fil12-24",
-              "titlu": "Teorii ale dreptății sociale: utilitarism, liberalism egalitar, libertarianism"
+              "id": "ant12-12",
+              "titlu": "Managementul riscurilor, continuitatea afacerii și scalarea durabilă"
             }
           ]
         }
@@ -5979,11 +5396,11 @@
       "teze": [
         {
           "semestru": 1,
-          "nrIntrebari": 18
+          "nrIntrebari": 10
         },
         {
           "semestru": 2,
-          "nrIntrebari": 19
+          "nrIntrebari": 10
         }
       ]
     },
@@ -6312,286 +5729,6 @@
             {
               "id": "ist12-24",
               "titlu": "Continuități și rupturi în istoria românilor"
-            }
-          ]
-        }
-      ],
-      "teze": [
-        {
-          "semestru": 1,
-          "nrIntrebari": 18
-        },
-        {
-          "semestru": 2,
-          "nrIntrebari": 18
-        }
-      ]
-    },
-    {
-      "id": "religie-12",
-      "materie": "Religie",
-      "clasa": "a XII-a",
-      "an": 4,
-      "arie": "Om și societate",
-      "bac": false,
-      "socioUman": false,
-      "descriere": "Morala creștină: conștiință și libertate, viața personală și de familie, responsabilitatea socială și bioetica.",
-      "nrLectii": 18,
-      "nrCarduri": 72,
-      "nrIntrebari": 72,
-      "nrIntrebariTeze": 30,
-      "capitole": [
-        {
-          "id": "rel12-c1",
-          "titlu": "Temeiurile moralei creștine",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "rel12-01",
-              "titlu": "Libertate, responsabilitate, conștiință"
-            },
-            {
-              "id": "rel12-02",
-              "titlu": "Legea morală și poruncile"
-            },
-            {
-              "id": "rel12-03",
-              "titlu": "Virtuți și patimi"
-            }
-          ]
-        },
-        {
-          "id": "rel12-c2",
-          "titlu": "Viața personală și familia",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "rel12-04",
-              "titlu": "Demnitatea persoanei"
-            },
-            {
-              "id": "rel12-05",
-              "titlu": "Familia și relațiile"
-            },
-            {
-              "id": "rel12-06",
-              "titlu": "Munca, timpul, bunurile"
-            }
-          ]
-        },
-        {
-          "id": "rel12-c3",
-          "titlu": "Responsabilitate socială și bioetică",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "rel12-07",
-              "titlu": "Creștinul în societate"
-            },
-            {
-              "id": "rel12-08",
-              "titlu": "Bioetica"
-            },
-            {
-              "id": "rel12-09",
-              "titlu": "Creștinismul și provocările contemporane"
-            }
-          ]
-        },
-        {
-          "id": "rel12-c4",
-          "titlu": "Chemarea la sfințenie și viața duhovnicească",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "rel12-10",
-              "titlu": "Fericirile — programul vieții creștine"
-            },
-            {
-              "id": "rel12-11",
-              "titlu": "Rugăciunea și viața interioară"
-            },
-            {
-              "id": "rel12-12",
-              "titlu": "Iertarea și reconcilierea"
-            }
-          ]
-        },
-        {
-          "id": "rel12-c5",
-          "titlu": "Morala relațiilor și a comunicării",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "rel12-13",
-              "titlu": "Prietenia și iubirea"
-            },
-            {
-              "id": "rel12-14",
-              "titlu": "Adevăr, cuvânt, comunicare"
-            },
-            {
-              "id": "rel12-15",
-              "titlu": "Dreptatea și pacea"
-            }
-          ]
-        },
-        {
-          "id": "rel12-c6",
-          "titlu": "Provocări etice contemporane",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "rel12-16",
-              "titlu": "Etica mediului și responsabilitatea ecologică"
-            },
-            {
-              "id": "rel12-17",
-              "titlu": "Etica muncii, a averii și a sărăciei"
-            },
-            {
-              "id": "rel12-18",
-              "titlu": "Voluntariatul și solidaritatea"
-            }
-          ]
-        }
-      ],
-      "teze": [
-        {
-          "semestru": 1,
-          "nrIntrebari": 15
-        },
-        {
-          "semestru": 2,
-          "nrIntrebari": 15
-        }
-      ]
-    },
-    {
-      "id": "studii-sociale-12",
-      "materie": "Studii sociale",
-      "clasa": "a XII-a",
-      "an": 4,
-      "arie": "Om și societate",
-      "bac": false,
-      "socioUman": false,
-      "descriere": "Educație economică și pentru dezvoltare: bugetul personal, consumatorul, munca, dezvoltarea durabilă și responsabilitatea socială.",
-      "nrLectii": 18,
-      "nrCarduri": 72,
-      "nrIntrebari": 72,
-      "nrIntrebariTeze": 36,
-      "capitole": [
-        {
-          "id": "ss12-c1",
-          "titlu": "Educație financiară personală",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "ss12-01",
-              "titlu": "Venituri, cheltuieli, buget personal"
-            },
-            {
-              "id": "ss12-02",
-              "titlu": "Economisire, credit, dobândă"
-            },
-            {
-              "id": "ss12-03",
-              "titlu": "Consumatorul: drepturi și decizii"
-            }
-          ]
-        },
-        {
-          "id": "ss12-c2",
-          "titlu": "Munca și cariera",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "ss12-04",
-              "titlu": "Piața muncii și contractul de muncă"
-            },
-            {
-              "id": "ss12-05",
-              "titlu": "Orientare în carieră și competențe"
-            },
-            {
-              "id": "ss12-06",
-              "titlu": "Antreprenoriat social și economie socială"
-            }
-          ]
-        },
-        {
-          "id": "ss12-c3",
-          "titlu": "Dezvoltare și responsabilitate",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "ss12-07",
-              "titlu": "Dezvoltarea durabilă și obiectivele globale"
-            },
-            {
-              "id": "ss12-08",
-              "titlu": "Responsabilitate socială și consum responsabil"
-            },
-            {
-              "id": "ss12-09",
-              "titlu": "Etică, corupție și integritate publică"
-            }
-          ]
-        },
-        {
-          "id": "ss12-c4",
-          "titlu": "Uniunea Europeană",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "ss12-10",
-              "titlu": "Construcția europeană: istorie și valori"
-            },
-            {
-              "id": "ss12-11",
-              "titlu": "Instituțiile Uniunii Europene"
-            },
-            {
-              "id": "ss12-12",
-              "titlu": "Cetățenia europeană și piața unică"
-            }
-          ]
-        },
-        {
-          "id": "ss12-c5",
-          "titlu": "Participare și reprezentare",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "ss12-13",
-              "titlu": "Alegeri și sisteme electorale"
-            },
-            {
-              "id": "ss12-14",
-              "titlu": "Participarea civică și politică"
-            },
-            {
-              "id": "ss12-15",
-              "titlu": "Partide, campanii și votul informat"
-            }
-          ]
-        },
-        {
-          "id": "ss12-c6",
-          "titlu": "Egalitate, minorități, nediscriminare",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "ss12-16",
-              "titlu": "Egalitatea de șanse și egalitatea de gen"
-            },
-            {
-              "id": "ss12-17",
-              "titlu": "Minorități și drepturile lor"
-            },
-            {
-              "id": "ss12-18",
-              "titlu": "Discriminarea și combaterea ei"
             }
           ]
         }
@@ -7129,278 +6266,6 @@
       ]
     },
     {
-      "id": "mass-12",
-      "materie": "Matematică aplicată în științele sociale",
-      "clasa": "a XII-a",
-      "an": 4,
-      "arie": "Matematică și științe ale naturii",
-      "bac": false,
-      "socioUman": false,
-      "descriere": "Modele matematice pentru decizie: matematici financiare, sondaje și eroare, teoria alegerii sociale, grafuri și rețele.",
-      "nrLectii": 18,
-      "nrCarduri": 72,
-      "nrIntrebari": 72,
-      "nrIntrebariTeze": 30,
-      "capitole": [
-        {
-          "id": "mas12-c1",
-          "titlu": "Matematici financiare",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "mas12-01",
-              "titlu": "Dobândă, credit, economisire"
-            },
-            {
-              "id": "mas12-02",
-              "titlu": "Inflație, valoare în timp, investiții"
-            },
-            {
-              "id": "mas12-03",
-              "titlu": "Bugetul personal și decizia economică"
-            }
-          ]
-        },
-        {
-          "id": "mas12-c2",
-          "titlu": "Sondaje, alegeri, decizie colectivă",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "mas12-04",
-              "titlu": "Sondaje de opinie și marja de eroare"
-            },
-            {
-              "id": "mas12-05",
-              "titlu": "Sisteme de vot și paradoxuri"
-            },
-            {
-              "id": "mas12-06",
-              "titlu": "Teoria jocurilor și cooperarea"
-            }
-          ]
-        },
-        {
-          "id": "mas12-c3",
-          "titlu": "Rețele și decizie",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "mas12-07",
-              "titlu": "Grafuri și rețele sociale"
-            },
-            {
-              "id": "mas12-08",
-              "titlu": "Algoritmi, date, societate"
-            },
-            {
-              "id": "mas12-09",
-              "titlu": "Sinteză: gândirea cantitativă în viața publică"
-            }
-          ]
-        },
-        {
-          "id": "mas12-c4",
-          "titlu": "Progresii și matematici financiare",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "mas12-10",
-              "titlu": "Progresii aritmetice și geometrice"
-            },
-            {
-              "id": "mas12-11",
-              "titlu": "Amortizarea creditului și anuități"
-            },
-            {
-              "id": "mas12-12",
-              "titlu": "Actualizare și evaluarea investițiilor"
-            }
-          ]
-        },
-        {
-          "id": "mas12-c5",
-          "titlu": "Alegere socială și repartizare",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "mas12-13",
-              "titlu": "Repartizarea proporțională a mandatelor"
-            },
-            {
-              "id": "mas12-14",
-              "titlu": "Împărțirea echitabilă"
-            },
-            {
-              "id": "mas12-15",
-              "titlu": "Puterea de vot în coaliții"
-            }
-          ]
-        },
-        {
-          "id": "mas12-c6",
-          "titlu": "Modele de decizie și incertitudine",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "mas12-16",
-              "titlu": "Arbori de decizie și valoarea așteptată"
-            },
-            {
-              "id": "mas12-17",
-              "titlu": "Riscul: variație, diversificare, decizie"
-            },
-            {
-              "id": "mas12-18",
-              "titlu": "Optimizare și alocarea resurselor"
-            }
-          ]
-        }
-      ],
-      "teze": [
-        {
-          "semestru": 1,
-          "nrIntrebari": 15
-        },
-        {
-          "semestru": 2,
-          "nrIntrebari": 15
-        }
-      ]
-    },
-    {
-      "id": "stiam-12",
-      "materie": "ȘTIAM (științe integrate)",
-      "clasa": "a XII-a",
-      "an": 4,
-      "arie": "Matematică și științe ale naturii",
-      "bac": false,
-      "socioUman": false,
-      "descriere": "Științe integrate: sănătate și corp, tehnologie și societate, mediu și resurse, gândire critică aplicată.",
-      "nrLectii": 16,
-      "nrCarduri": 64,
-      "nrIntrebari": 64,
-      "nrIntrebariTeze": 24,
-      "capitole": [
-        {
-          "id": "sti12-c1",
-          "titlu": "Sănătate și corp",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "sti12-01",
-              "titlu": "Nutriție și metabolism"
-            },
-            {
-              "id": "sti12-02",
-              "titlu": "Imunitate, boli, prevenție"
-            },
-            {
-              "id": "sti12-03",
-              "titlu": "Creier, comportament, sănătate mintală"
-            }
-          ]
-        },
-        {
-          "id": "sti12-c2",
-          "titlu": "Tehnologie și societate",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "sti12-04",
-              "titlu": "Energia și tranziția energetică"
-            },
-            {
-              "id": "sti12-05",
-              "titlu": "Digital, inteligență artificială, date"
-            },
-            {
-              "id": "sti12-06",
-              "titlu": "Tehnologie, etică, responsabilitate"
-            }
-          ]
-        },
-        {
-          "id": "sti12-c3",
-          "titlu": "Mediu, resurse, gândire critică",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "sti12-07",
-              "titlu": "Resurse și limite"
-            },
-            {
-              "id": "sti12-08",
-              "titlu": "Biodiversitate și ecosisteme"
-            },
-            {
-              "id": "sti12-09",
-              "titlu": "Gândire critică aplicată"
-            }
-          ]
-        },
-        {
-          "id": "sti12-c4",
-          "titlu": "Sănătate și prevenție",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "sti12-10",
-              "titlu": "Sistemul imunitar și bolile"
-            },
-            {
-              "id": "sti12-11",
-              "titlu": "Substanțe, dependențe și efecte asupra corpului"
-            },
-            {
-              "id": "sti12-12",
-              "titlu": "Sănătatea mintală și stilul de viață"
-            }
-          ]
-        },
-        {
-          "id": "sti12-c5",
-          "titlu": "Mediu și resurse",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "sti12-13",
-              "titlu": "Schimbările climatice și energia"
-            },
-            {
-              "id": "sti12-14",
-              "titlu": "Apa, deșeurile și economia circulară"
-            }
-          ]
-        },
-        {
-          "id": "sti12-c6",
-          "titlu": "Știință, tehnologie și gândire critică",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "sti12-15",
-              "titlu": "Progresul tehnologic și etica"
-            },
-            {
-              "id": "sti12-16",
-              "titlu": "Gândirea critică și pseudoștiința"
-            }
-          ]
-        }
-      ],
-      "teze": [
-        {
-          "semestru": 1,
-          "nrIntrebari": 15
-        },
-        {
-          "semestru": 2,
-          "nrIntrebari": 9
-        }
-      ]
-    },
-    {
       "id": "tic-12",
       "materie": "Tehnologia informației și a comunicațiilor (TIC)",
       "clasa": "a XII-a",
@@ -7408,11 +6273,11 @@
       "arie": "Tehnologii",
       "bac": true,
       "socioUman": false,
-      "descriere": "Competențe digitale pentru bacalaureat și pentru viață: instrumente de birou, informație, securitate, identitate digitală și tehnologii emergente.",
+      "descriere": "Pregătire completă pentru Bacalaureat Proba D (Competențe Digitale), suită de birou avansată, Cloud, securitate și Inteligență Artificială.",
       "nrLectii": 16,
       "nrCarduri": 64,
       "nrIntrebari": 64,
-      "nrIntrebariTeze": 36,
+      "nrIntrebariTeze": 20,
       "capitole": [
         {
           "id": "tic12-c1",
@@ -7436,7 +6301,7 @@
         {
           "id": "tic12-c2",
           "titlu": "Informație, securitate, identitate",
-          "semestru": 2,
+          "semestru": 1,
           "lectii": [
             {
               "id": "tic12-04",
@@ -7455,7 +6320,7 @@
         {
           "id": "tic12-c3",
           "titlu": "Tehnologii și societate",
-          "semestru": 2,
+          "semestru": 1,
           "lectii": [
             {
               "id": "tic12-07",
@@ -7473,8 +6338,8 @@
         },
         {
           "id": "tic12-c4",
-          "titlu": "Instrumente de birou",
-          "semestru": 1,
+          "titlu": "Instrumente de birou: cerințe avansate",
+          "semestru": 2,
           "lectii": [
             {
               "id": "tic12-10",
@@ -7492,7 +6357,7 @@
         },
         {
           "id": "tic12-c5",
-          "titlu": "Informație și baze de date",
+          "titlu": "Baze de date și căutare",
           "semestru": 2,
           "lectii": [
             {
@@ -7507,7 +6372,7 @@
         },
         {
           "id": "tic12-c6",
-          "titlu": "Tehnologii emergente și identitate digitală",
+          "titlu": "Tehnologii emergente și viitorul digital",
           "semestru": 2,
           "lectii": [
             {
@@ -7524,11 +6389,11 @@
       "teze": [
         {
           "semestru": 1,
-          "nrIntrebari": 18
+          "nrIntrebari": 10
         },
         {
           "semestru": 2,
-          "nrIntrebari": 18
+          "nrIntrebari": 10
         }
       ]
     },
@@ -7714,169 +6579,6 @@
         {
           "semestru": 2,
           "nrIntrebari": 19
-        }
-      ]
-    },
-    {
-      "id": "filosofie-13",
-      "materie": "Filosofie",
-      "clasa": "a XIII-a",
-      "an": 5,
-      "arie": "Om și societate",
-      "bac": true,
-      "socioUman": false,
-      "descriere": "Aprofundare: metafizică și existență, filosofia religiei, estetica, filosofia științei, curente contemporane și metoda eseului filosofic.",
-      "nrLectii": 22,
-      "nrCarduri": 88,
-      "nrIntrebari": 88,
-      "nrIntrebariTeze": 36,
-      "capitole": [
-        {
-          "id": "fil13-c1",
-          "titlu": "Existența și cunoașterea ei",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "fil13-01",
-              "titlu": "Metafizica: ființă, substanță, devenire"
-            },
-            {
-              "id": "fil13-02",
-              "titlu": "Filosofia științei"
-            },
-            {
-              "id": "fil13-03",
-              "titlu": "Filosofia religiei"
-            }
-          ]
-        },
-        {
-          "id": "fil13-c2",
-          "titlu": "Valori și interpretare",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "fil13-04",
-              "titlu": "Estetica: frumosul, arta, gustul"
-            },
-            {
-              "id": "fil13-05",
-              "titlu": "Hermeneutica și problema interpretării"
-            },
-            {
-              "id": "fil13-06",
-              "titlu": "Curente filosofice contemporane"
-            }
-          ]
-        },
-        {
-          "id": "fil13-c3",
-          "titlu": "Eseul filosofic și bacalaureatul",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "fil13-07",
-              "titlu": "Structura probei și tipurile de cerințe"
-            },
-            {
-              "id": "fil13-08",
-              "titlu": "Cum se scrie un eseu filosofic"
-            },
-            {
-              "id": "fil13-09",
-              "titlu": "Teme recurente și pregătirea pentru examen"
-            }
-          ]
-        },
-        {
-          "id": "fil13-c4",
-          "titlu": "Filosofia morală aprofundată",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "fil13-10",
-              "titlu": "Deontologia: Kant și etica datoriei"
-            },
-            {
-              "id": "fil13-11",
-              "titlu": "Consecințialismul: utilitarismul de la Bentham la Mill"
-            },
-            {
-              "id": "fil13-12",
-              "titlu": "Etica virtuții și etica aplicată"
-            }
-          ]
-        },
-        {
-          "id": "fil13-c5",
-          "titlu": "Filosofia politică aprofundată",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "fil13-13",
-              "titlu": "Contractul social: Hobbes, Locke, Rousseau"
-            },
-            {
-              "id": "fil13-14",
-              "titlu": "Teorii ale dreptății: Rawls, Nozick, comunitarism"
-            },
-            {
-              "id": "fil13-15",
-              "titlu": "Libertate, putere, democrație"
-            }
-          ]
-        },
-        {
-          "id": "fil13-c6",
-          "titlu": "Filosofia minții și a științei",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "fil13-16",
-              "titlu": "Problema minte-corp: dualism, materialism, funcționalism"
-            },
-            {
-              "id": "fil13-17",
-              "titlu": "Conștiința, identitatea personală și liberul arbitru"
-            },
-            {
-              "id": "fil13-18",
-              "titlu": "Inteligența artificială și filosofia"
-            },
-            {
-              "id": "fil13-19",
-              "titlu": "Explicație științifică, inducție și problema lui Hume"
-            }
-          ]
-        },
-        {
-          "id": "fil13-c7",
-          "titlu": "Fenomenologie, existențialism, estetică",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "fil13-20",
-              "titlu": "Existențialismul: libertate, angoasă, autenticitate"
-            },
-            {
-              "id": "fil13-21",
-              "titlu": "Fenomenologia și lumea trăită"
-            },
-            {
-              "id": "fil13-22",
-              "titlu": "Estetica: teorii ale artei și definiția operei"
-            }
-          ]
-        }
-      ],
-      "teze": [
-        {
-          "semestru": 1,
-          "nrIntrebari": 18
-        },
-        {
-          "semestru": 2,
-          "nrIntrebari": 18
         }
       ]
     },
@@ -8342,286 +7044,6 @@
         {
           "semestru": 2,
           "nrIntrebari": 12
-        }
-      ]
-    },
-    {
-      "id": "religie-13",
-      "materie": "Religie",
-      "clasa": "a XIII-a",
-      "an": 5,
-      "arie": "Om și societate",
-      "bac": false,
-      "socioUman": false,
-      "descriere": "Sinteză: credința în lumea contemporană, spiritualitatea ortodoxă, patrimoniul creștin românesc și alegerile vieții de adult.",
-      "nrLectii": 18,
-      "nrCarduri": 72,
-      "nrIntrebari": 72,
-      "nrIntrebariTeze": 30,
-      "capitole": [
-        {
-          "id": "rel13-c1",
-          "titlu": "Spiritualitatea ortodoxă",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "rel13-01",
-              "titlu": "Rugăciunea inimii și isihasmul"
-            },
-            {
-              "id": "rel13-02",
-              "titlu": "Sfinții și modelele de viață"
-            },
-            {
-              "id": "rel13-03",
-              "titlu": "Suferința, moartea, nădejdea"
-            }
-          ]
-        },
-        {
-          "id": "rel13-c2",
-          "titlu": "Patrimoniu și cultură creștină",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "rel13-04",
-              "titlu": "Biserica și cultura română"
-            },
-            {
-              "id": "rel13-05",
-              "titlu": "Creștinismul și arta europeană"
-            },
-            {
-              "id": "rel13-06",
-              "titlu": "Ecumenism și relații între confesiuni"
-            }
-          ]
-        },
-        {
-          "id": "rel13-c3",
-          "titlu": "Alegerile vieții de adult",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "rel13-07",
-              "titlu": "Vocație, profesie, sens"
-            },
-            {
-              "id": "rel13-08",
-              "titlu": "Adevăr, informație, manipulare"
-            },
-            {
-              "id": "rel13-09",
-              "titlu": "Sinteză: ce rămâne"
-            }
-          ]
-        },
-        {
-          "id": "rel13-c4",
-          "titlu": "Repere de istorie a Bisericii Ortodoxe Române",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "rel13-10",
-              "titlu": "Organizarea Bisericii românești și mitropoliile"
-            },
-            {
-              "id": "rel13-11",
-              "titlu": "Marii ierarhi și cărturari ai Bisericii românești"
-            },
-            {
-              "id": "rel13-12",
-              "titlu": "Biserica în epoca modernă și contemporană"
-            }
-          ]
-        },
-        {
-          "id": "rel13-c5",
-          "titlu": "Sfinți și locuri de spiritualitate românească",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "rel13-13",
-              "titlu": "Sfinți români și moaște cinstite"
-            },
-            {
-              "id": "rel13-14",
-              "titlu": "Mănăstiri și pelerinaje"
-            },
-            {
-              "id": "rel13-15",
-              "titlu": "Marile praznice și tradiția liturgică"
-            }
-          ]
-        },
-        {
-          "id": "rel13-c6",
-          "titlu": "Credință, cultură și viață în lumea de azi",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "rel13-16",
-              "titlu": "Credință, știință și cultură contemporană"
-            },
-            {
-              "id": "rel13-17",
-              "titlu": "Demnitatea vieții și bioetica"
-            },
-            {
-              "id": "rel13-18",
-              "titlu": "Libertate, responsabilitate și sensul vieții"
-            }
-          ]
-        }
-      ],
-      "teze": [
-        {
-          "semestru": 1,
-          "nrIntrebari": 15
-        },
-        {
-          "semestru": 2,
-          "nrIntrebari": 15
-        }
-      ]
-    },
-    {
-      "id": "studii-sociale-13",
-      "materie": "Studii sociale",
-      "clasa": "a XIII-a",
-      "an": 5,
-      "arie": "Om și societate",
-      "bac": false,
-      "socioUman": false,
-      "descriere": "Competențe sociale și civice: democrația în practică, instituțiile statului, media și gândirea critică, proiectul civic.",
-      "nrLectii": 18,
-      "nrCarduri": 72,
-      "nrIntrebari": 72,
-      "nrIntrebariTeze": 36,
-      "capitole": [
-        {
-          "id": "ss13-c1",
-          "titlu": "Democrația în practică",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "ss13-01",
-              "titlu": "Statul de drept și separarea puterilor"
-            },
-            {
-              "id": "ss13-02",
-              "titlu": "Instituțiile statului român"
-            },
-            {
-              "id": "ss13-03",
-              "titlu": "Alegeri, partide, societate civilă"
-            }
-          ]
-        },
-        {
-          "id": "ss13-c2",
-          "titlu": "Media, informație, gândire critică",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "ss13-04",
-              "titlu": "Mass-media și rolul ei democratic"
-            },
-            {
-              "id": "ss13-05",
-              "titlu": "Dezinformare, verificarea informației"
-            },
-            {
-              "id": "ss13-06",
-              "titlu": "Gândire critică și argumentare publică"
-            }
-          ]
-        },
-        {
-          "id": "ss13-c3",
-          "titlu": "Proiectul civic",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "ss13-07",
-              "titlu": "Identificarea unei probleme publice"
-            },
-            {
-              "id": "ss13-08",
-              "titlu": "Planificarea și implementarea unui proiect civic"
-            },
-            {
-              "id": "ss13-09",
-              "titlu": "Evaluare, impact și continuitate"
-            }
-          ]
-        },
-        {
-          "id": "ss13-c4",
-          "titlu": "Probleme sociale contemporane",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "ss13-10",
-              "titlu": "Sărăcia și inegalitatea socială"
-            },
-            {
-              "id": "ss13-11",
-              "titlu": "Excluziunea socială și incluziunea"
-            },
-            {
-              "id": "ss13-12",
-              "titlu": "Migrația și mobilitatea populației"
-            }
-          ]
-        },
-        {
-          "id": "ss13-c5",
-          "titlu": "Mediu, dezvoltare durabilă, globalizare",
-          "semestru": 1,
-          "lectii": [
-            {
-              "id": "ss13-13",
-              "titlu": "Problemele de mediu și schimbările climatice"
-            },
-            {
-              "id": "ss13-14",
-              "titlu": "Dezvoltarea durabilă și economia verde"
-            },
-            {
-              "id": "ss13-15",
-              "titlu": "Globalizarea și efectele ei"
-            }
-          ]
-        },
-        {
-          "id": "ss13-c6",
-          "titlu": "Politici publice și soluții",
-          "semestru": 2,
-          "lectii": [
-            {
-              "id": "ss13-16",
-              "titlu": "Politicile publice: de la problemă la soluție"
-            },
-            {
-              "id": "ss13-17",
-              "titlu": "Statul bunăstării și protecția socială"
-            },
-            {
-              "id": "ss13-18",
-              "titlu": "Cetățean activ într-o lume globală"
-            }
-          ]
-        }
-      ],
-      "teze": [
-        {
-          "semestru": 1,
-          "nrIntrebari": 18
-        },
-        {
-          "semestru": 2,
-          "nrIntrebari": 18
         }
       ]
     },

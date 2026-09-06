@@ -11,7 +11,7 @@ Anul **3** din cei 5 ai parcursului [[Parcurs școlar]].
 
 ⬅ [[Clasa a X-a]] · [[Clasa a XII-a]] ➡
 
-## Materii (13)
+## Materii (10)
 
 ### [[Arie - Limbă și comunicare|Limbă și comunicare]]
 - [[Limba și literatura română (clasa a XI-a)|Limba și literatura română]] — 🎓 bac, 📘 20 lecții în aplicație
@@ -19,8 +19,6 @@ Anul **3** din cei 5 ai parcursului [[Parcurs școlar]].
 - [[Limba modernă 2 (Franceză) (clasa a XI-a)|Limba modernă 2 (Franceză)]] — 📘 18 lecții în aplicație
 
 ### [[Arie - Matematică și științe ale naturii|Matematică și științe ale naturii]]
-- [[Matematică aplicată în științele sociale (clasa a XI-a)|Matematică aplicată în științele sociale]] — 📘 18 lecții în aplicație
-- [[ȘTIAM (științe integrate) (clasa a XI-a)|ȘTIAM (științe integrate)]] — 📘 16 lecții în aplicație
 - [[Biologie (clasa a XI-a)|Biologie]] — 🎓 bac, 📘 11 lecții în aplicație
 
 ### [[Arie - Om și societate|Om și societate]]
@@ -28,8 +26,7 @@ Anul **3** din cei 5 ai parcursului [[Parcurs școlar]].
 - [[Istoria evreilor. Holocaustul (clasa a XI-a)|Istoria evreilor. Holocaustul]] — 📘 18 lecții în aplicație
 - [[Geografie (clasa a XI-a)|Geografie]] — 🎓 bac, 📘 20 lecții în aplicație
 - [[Sociologie (clasa a XI-a)|Sociologie]] — 🎓 bac, 📘 24 lecții în aplicație
-- [[Studii sociale (clasa a XI-a)|Studii sociale]] — 📘 18 lecții în aplicație
-- [[Religie (clasa a XI-a)|Religie]] — 📘 18 lecții în aplicație
+- [[Economie (clasa a XI-a)|Economie]] — 🎓 bac, 📘 24 lecții în aplicație
 
 ### [[Arie - Tehnologii|Tehnologii]]
 - [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC)]] — 🎓 bac, 📘 16 lecții în aplicație

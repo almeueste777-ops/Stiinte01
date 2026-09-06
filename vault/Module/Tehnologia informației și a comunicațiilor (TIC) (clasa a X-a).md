@@ -19,47 +19,47 @@ cssclasses: fisa
 > **Arie curriculară:** [[Arie - Tehnologii|Tehnologii]]
 > **La bacalaureat:** da 🎓
 
-Calcul tabelar, baze de date, prelucrarea imaginii și algoritmi: instrumentele digitale de lucru cu date.
+Calcul tabelar avansat (Excel), baze de date relaționale (Access), prelucrare de imagine și gândire algoritmică.
 
 ## Capitole (6)
 
-### Calcul tabelar — semestrul 1
+### Calcul tabelar: baze, structură și formule — semestrul 1
 
-- [[Foaia de calcul - structură și formule]]
-- [[Funcții și analiza datelor]]
-- [[Reprezentarea grafică a datelor]]
+- [[Foaia de calcul - structură, celule și formule aritmetice]]
+- [[Funcții predefinite și analiza datelor numerice]]
+- [[Reprezentarea grafică a datelor (diagrame Excel)]]
 
-### Baze de date și structurarea informației — semestrul 2
+### Baze de date și structurarea informației — semestrul 1
 
-- [[Concepte de bază de date]]
-- [[Interogări, formulare, rapoarte]]
-- [[Prelucrarea imaginii digitale]]
+- [[Concepte fundamentale de baze de date relaționale]]
+- [[Interogări (Queries), formulare și rapoarte în Microsoft Access]]
+- [[Prelucrarea imaginii digitale - raster versus vectorial și tehnici de editare]]
 
-### Algoritmi și gândire computațională — semestrul 2
+### Algoritmi și gândire computațională — semestrul 1
 
-- [[Algoritmi - definiție, proprietăți, reprezentare]]
-- [[Structuri repetitive și prelucrarea datelor]]
-- [[Gândire computațională și rezolvarea problemelor]]
+- [[Algoritmi - definiție, proprietăți, etape și moduri de reprezentare]]
+- [[Structuri fundamentale de control și instrucțiuni repetitive]]
+- [[Gândire computațională - descompunere, recunoașterea tiparelor și abstractizare]]
 
-### Calcul tabelar aprofundat — semestrul 1
+### Calcul tabelar aprofundat: referințe și funcții logice — semestrul 2
 
-- [[Referințe relative, absolute și denumirea celulelor]]
-- [[Funcții logice și calcul condiționat]]
-- [[Sortare, filtrare și tabele pivot]]
+- [[Tipuri de referințe de celule - relative, absolute și mixte în Excel]]
+- [[Funcții logice și calcul condiționat - IF, COUNTIF și SUMIF]]
+- [[Sortare, filtrare avansată și tabele pivot (Pivot Tables)]]
 
-### Tehnici algoritmice — semestrul 1
+### Tehnici algoritmice și colecții de date (vectori) — semestrul 2
 
-- [[Structuri de decizie în algoritmi]]
-- [[Tablouri (vectori) și prelucrarea colecțiilor]]
+- [[Tehnici de decizie în algoritmi și condiții compuse]]
+- [[Tablouri unidimensionale (vectori) și prelucrarea colecțiilor de date]]
 
-### Baze de date relaționale — semestrul 2
+### Baze de date relaționale: relații și integritate — semestrul 2
 
-- [[Modelul relațional - tabele, chei și relații]]
-- [[Integritatea datelor și normalizarea]]
+- [[Modelul relațional - tabele legate, chei străine și tipuri de relații]]
+- [[Integritatea referențială și normalizarea bazelor de date]]
 
 ## Exersare
 - [[Carduri - Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)]] — 64 carduri
-- [[Test - Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)]] — 94 întrebări
+- [[Test - Tehnologia informației și a comunicațiilor (TIC) (clasa a X-a)]] — 84 întrebări
 
 ## Legături
 - [[Tehnologia informației și a comunicațiilor (TIC)|Tehnologia informației și a comunicațiilor (TIC)]]
