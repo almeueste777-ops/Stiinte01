@@ -3,6 +3,7 @@ tags:
   - modul
   - materie/biologie
   - clasa/a-ix-a
+  - bac
 aliases:
   - Biologie (clasa a IX-a)
 id: biologie-9
@@ -16,7 +17,7 @@ cssclasses: fisa
 > **Materia:** [[Biologie|Biologie]]
 > **Anul:** 1 — [[Clasa a IX-a]]
 > **Arie curriculară:** [[Arie - Matematică și științe ale naturii|Matematică și științe ale naturii]]
-> **La bacalaureat:** nu
+> **La bacalaureat:** da 🎓
 
 Celula și țesuturile, anatomia și fiziologia omului: sistemele de relație, de nutriție și de reproducere.
 

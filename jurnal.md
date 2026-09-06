@@ -1561,3 +1561,18 @@ blocant; a găsit heatmap-ul și contrastul `aur-numar` (corectate). **`verifica
 sclipirea nu iese din card, cele trei moduri de accesibilitate corecte (opacizare, linii, oprirea
 mișcării fără deplasare de layout); a găsit `aur-numar` (corectat) și `aur-breathe` care nu rula (scos).
 Toate constatările corectate și reverificate înainte de merge.
+
+## 2026-09-06 — v11, Biologie completă pentru Bacalaureat (clasele IX – XIII)
+
+**Cerința.** Adaptarea conținutului pentru profil real și pregătirea examenului de Bacalaureat la disciplina Biologie: integrarea întregii materii din clasele a IX-a până la a XIII-a (atât Biologie vegetală și animală, cât și Anatomie, fiziologie umană, genetică și ecologie).
+
+**Ce s-a făcut.**
+1. **Conținut adăugat:** Am creat de la zero modulele `biologie-11.txt`, `biologie-12.txt` și `biologie-13.txt` în DSL-ul aplicației:
+   - Clasa a XI-a: 11 lecții detaliate de anatomie și fiziologie umană (sistem nervos, analizatori, glande endocrine, locomotor, nutriție, respirație, circulație, excreție, reproducere), 44 întrebări grilă, 16 de teză și 44 carduri.
+   - Clasa a XII-a: 8 lecții de genetică moleculară (acizi nucleici, sinteza proteinelor, legile mendeliene, mutații, inginerie genetică) și ecologie generală, 32 întrebări de lecție, 16 de teză și 32 carduri.
+   - Clasa a XIII-a: 6 lecții aplicative de pregătire intensivă de Bacalaureat (rezolvarea problemelor de monohibridare, dihibridare, grupe sanguine, calcul ADN/ARN, corelații fiziologice în efort, imunitate, tehnica Subiectului I, II și III / mini-eseu).
+   - Clasele a IX-a și a X-a: marcat `bac: da` pentru ambele filiere de examen.
+2. **Arhitectură & date:** Actualizat `data/curriculum.json` cu Biologie la clasele 11-13 și marcat la proba de Bacalaureat. Reconstruit indexul `data/continut.json` (63 module, 1.177 lecții, 4.708 carduri, 6.698 întrebări).
+3. **PWA & Cache:** Bump `CACHE` în `sw.js` de la `stiinte01-v14` la `stiinte01-v15`, sincronizat `?v=15` în `index.html` și adăugat jurnalul de versiune v11 în `data/versiuni.json`.
+4. **Obsidian Vault:** Regenerat integral prin `tools/graphify.py` (1.425 note, 9.677 wikilink-uri), validat cu `tools/verifica_vault.py`.
+

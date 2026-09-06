@@ -23,7 +23,7 @@ Anul **1** din cei 5 ai parcursului [[Parcurs școlar]].
 - [[Matematică (clasa a IX-a)|Matematică]] — 📘 18 lecții în aplicație
 - [[Fizică (clasa a IX-a)|Fizică]] — 📘 18 lecții în aplicație
 - [[Chimie (clasa a IX-a)|Chimie]] — 📘 18 lecții în aplicație
-- [[Biologie (clasa a IX-a)|Biologie]] — 📘 18 lecții în aplicație
+- [[Biologie (clasa a IX-a)|Biologie]] — 🎓 bac, 📘 18 lecții în aplicație
 
 ### [[Arie - Om și societate|Om și societate]]
 - [[Istorie (clasa a IX-a)|Istorie]] — 🎓 bac, 📘 24 lecții în aplicație

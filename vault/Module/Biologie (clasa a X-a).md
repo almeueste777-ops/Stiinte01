@@ -3,6 +3,7 @@ tags:
   - modul
   - materie/biologie
   - clasa/a-x-a
+  - bac
 aliases:
   - Biologie (clasa a X-a)
 id: biologie-10
@@ -16,7 +17,7 @@ cssclasses: fisa
 > **Materia:** [[Biologie|Biologie]]
 > **Anul:** 2 — [[Clasa a X-a]]
 > **Arie curriculară:** [[Arie - Matematică și științe ale naturii|Matematică și științe ale naturii]]
-> **La bacalaureat:** nu
+> **La bacalaureat:** da 🎓
 
 Genetică și evoluție, diversitatea lumii vii, ecologie și educație pentru sănătate.
 

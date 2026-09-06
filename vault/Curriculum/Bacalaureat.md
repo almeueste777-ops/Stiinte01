@@ -9,14 +9,15 @@ cssclasses: fisa
 | --- | --- |
 | **E)a)** | Limba și literatura română |
 | **E)b)** | Limba modernă (competențe lingvistice) |
-| **E)c)** | Istorie SAU Matematică — la profil umanist, științe sociale se alege de regulă ISTORIE |
-| **E)d)** | Geografie / Logică / Psihologie / Sociologie / Filosofie / Economie (o disciplină la alegere) |
+| **E)c)** | Istorie SAU Matematică |
+| **E)d)** | Biologie (Anatomie-fiziologie-genetică sau Biologie vegetală-animală) / Geografie / Logică / Psihologie / Sociologie / Filosofie / Economie / Fizică / Chimie / Informatică |
 | **A** | Competențe de comunicare în limba română |
 | **B** | Competențe lingvistice într-o limbă de circulație internațională |
 | **D** | Competențe digitale |
 
 ## Materii care intră la bac
 
+- [[Biologie]]
 - [[Economie și educație antreprenorială]]
 - [[Filosofie]]
 - [[Geografie]]

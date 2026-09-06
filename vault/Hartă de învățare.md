@@ -30,34 +30,36 @@ graph LR
   C1 --> A1_2
   A1_3["Tehnologii<br/>1 materii"]
   C1 --> A1_3
-  C2["Clasa a XI-a<br/>12 materii · 228 lecții"]
+  C2["Clasa a XI-a<br/>13 materii · 239 lecții"]
   P --> C2
   A2_0["Limbă și comunicare<br/>3 materii"]
   C2 --> A2_0
-  A2_1["Matematică și științe ale naturii<br/>2 materii"]
+  A2_1["Matematică și științe ale naturii<br/>3 materii"]
   C2 --> A2_1
   A2_2["Om și societate<br/>6 materii"]
   C2 --> A2_2
   A2_3["Tehnologii<br/>1 materii"]
   C2 --> A2_3
-  C3["Clasa a XII-a<br/>11 materii · 210 lecții"]
+  C3["Clasa a XII-a<br/>12 materii · 218 lecții"]
   P --> C3
   A3_0["Limbă și comunicare<br/>3 materii"]
   C3 --> A3_0
-  A3_1["Matematică și științe ale naturii<br/>2 materii"]
+  A3_1["Matematică și științe ale naturii<br/>3 materii"]
   C3 --> A3_1
   A3_2["Om și societate<br/>5 materii"]
   C3 --> A3_2
   A3_3["Tehnologii<br/>1 materii"]
   C3 --> A3_3
-  C4["Clasa a XIII-a<br/>11 materii · 218 lecții"]
+  C4["Clasa a XIII-a<br/>12 materii · 224 lecții"]
   P --> C4
   A4_0["Curriculum la decizia elevului<br/>1 materii"]
   C4 --> A4_0
   A4_1["Limbă și comunicare<br/>3 materii"]
   C4 --> A4_1
-  A4_2["Om și societate<br/>7 materii"]
+  A4_2["Matematică și științe ale naturii<br/>1 materii"]
   C4 --> A4_2
+  A4_3["Om și societate<br/>7 materii"]
+  C4 --> A4_3
 ```
 
 ## Ordinea recomandată
@@ -105,6 +107,7 @@ graph LR
 - [[Limba modernă 1 (Engleză) (clasa a XI-a)|Limba modernă 1 (Engleză)]] — 18 lecții
 - [[Limba modernă 2 (Franceză) (clasa a XI-a)|Limba modernă 2 (Franceză)]] — 18 lecții
 - [[Limba și literatura română (clasa a XI-a)|Limba și literatura română]] — 20 lecții
+- [[Biologie (clasa a XI-a)|Biologie]] — 11 lecții
 - [[Matematică aplicată în științele sociale (clasa a XI-a)|Matematică aplicată în științele sociale]] — 18 lecții
 - [[ȘTIAM (științe integrate) (clasa a XI-a)|ȘTIAM (științe integrate)]] — 16 lecții
 - [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC)]] — 16 lecții
@@ -119,6 +122,7 @@ graph LR
 - [[Limba modernă 1 (Engleză) (clasa a XII-a)|Limba modernă 1 (Engleză)]] — 18 lecții
 - [[Limba modernă 2 (Franceză) (clasa a XII-a)|Limba modernă 2 (Franceză)]] — 18 lecții
 - [[Limba și literatura română (clasa a XII-a)|Limba și literatura română]] — 20 lecții
+- [[Biologie (clasa a XII-a)|Biologie]] — 8 lecții
 - [[Matematică aplicată în științele sociale (clasa a XII-a)|Matematică aplicată în științele sociale]] — 18 lecții
 - [[ȘTIAM (științe integrate) (clasa a XII-a)|ȘTIAM (științe integrate)]] — 16 lecții
 - [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)|Tehnologia informației și a comunicațiilor (TIC)]] — 16 lecții
@@ -135,6 +139,7 @@ graph LR
 - [[Limba modernă 1 (Engleză) (clasa a XIII-a)|Limba modernă 1 (Engleză)]] — 18 lecții
 - [[Limba modernă 2 (Franceză) (clasa a XIII-a)|Limba modernă 2 (Franceză)]] — 18 lecții
 - [[Limba și literatura română (clasa a XIII-a)|Limba și literatura română]] — 20 lecții
+- [[Biologie (clasa a XIII-a)|Biologie]] — 6 lecții
 - [[Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)|Pregătire pentru bacalaureat (CDEOȘ)]] — 20 lecții
 
 Înapoi la [[00 Start aici]]

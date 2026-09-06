@@ -23,9 +23,9 @@ cssclasses: fisa
 | --- | --- | --- |
 | [[Clasa a IX-a]] | 1 | 13 |
 | [[Clasa a X-a]] | 2 | 13 |
-| [[Clasa a XI-a]] | 3 | 12 |
-| [[Clasa a XII-a]] | 4 | 11 |
-| [[Clasa a XIII-a]] | 5 | 11 |
+| [[Clasa a XI-a]] | 3 | 13 |
+| [[Clasa a XII-a]] | 4 | 12 |
+| [[Clasa a XIII-a]] | 5 | 12 |
 
 ## Legături
 - [[Școala|Colegiul Tehnic „Alexandru Ioan Cuza”]]

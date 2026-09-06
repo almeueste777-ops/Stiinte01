@@ -24,3 +24,4 @@ Arie curriculară din planul-cadru.
 - [[Clasa a X-a]]
 - [[Clasa a XI-a]]
 - [[Clasa a XII-a]]
+- [[Clasa a XIII-a]]

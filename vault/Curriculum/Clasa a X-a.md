@@ -23,7 +23,7 @@ Anul **2** din cei 5 ai parcursului [[Parcurs școlar]].
 - [[Matematică (clasa a X-a)|Matematică]] — 📘 18 lecții în aplicație
 - [[Fizică (clasa a X-a)|Fizică]] — 📘 18 lecții în aplicație
 - [[Chimie (clasa a X-a)|Chimie]] — 📘 18 lecții în aplicație
-- [[Biologie (clasa a X-a)|Biologie]] — 📘 18 lecții în aplicație
+- [[Biologie (clasa a X-a)|Biologie]] — 🎓 bac, 📘 18 lecții în aplicație
 
 ### [[Arie - Om și societate|Om și societate]]
 - [[Istorie (clasa a X-a)|Istorie]] — 🎓 bac, 📘 24 lecții în aplicație

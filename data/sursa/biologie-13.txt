@@ -1,0 +1,337 @@
+materie: Biologie
+clasa: a XIII-a
+an: 5
+arie: Matematică și științe ale naturii
+bac: da
+descriere: Sinteză integrată și pregătire intensivă pentru bacalaureat la biologie: rezolvarea problemelor de genetică, fiziologie comparată, scheme de sinteză și modele de subiecte complete tip examen.
+
+## 1 | bio13-c1 | Tehnici de rezolvare a problemelor de genetică
+### bio13-01 | Probleme de monohibridare și grupe sanguine
+Rezolvarea problemelor de genetică la bacalaureat presupune stăpânirea terminologiei și parcurgerea logică a pașilor de calcul: scrierea simbolurilor genelor, stabilirea genotipurilor părinților (P), identificarea tipurilor de gameți formați și întocmirea tablei de combinare a gameților (șahul genetic Punnett). În cazul monohibridării cu dominanță completă (A dominant, a recesiv), încrucișarea a doi heterozigoți (Aa x Aa) dă raportul genotipic 1 AA : 2 Aa : 1 aa (adică 25% AA, 50% Aa, 25% aa) și raportul fenotipic 3 [A] : 1 [a] (75% dominant, 25% recesiv).
+La specia umană, grupele sanguine din sistemul AB0 sunt determinate de o genă cu trei alele (alele multiple): alelele codominante LA și LB, respectiv alela recesivă l. Genotipurile posibile sunt: grupa 0 (I) are genotipul ll; grupa A (II) poate fi homozigotă LA LA sau heterozigotă LA l; grupa B (III) poate fi LB LB sau LB l; iar grupa AB (IV) este heterozigotă LA LB, manifestând codominanța. În sistemul Rh, prezența antigenului D conferă fenotipul Rh+ (genotip D-), dominant față de absența antigenului Rh- (genotip dd).
+* În monohibridare, raportul fenotipic la heterozigoți este 3:1, iar cel genotipic 1:2:1.
+* Sistemul AB0 este determinat de trei alele: LA și LB codominante, l recesivă.
+* Grupa AB (IV) ilustrează fenomenul de codominanță, ambele alele exprimându-se fenotipic.
+* Factorul Rh este determinat monogenic: Rh+ (DD sau Dd) și Rh- (dd).
+= codominanță :: fenomenul în care două alele diferite se exprimă simultan și integral în fenotipul heterozigotului
+= pătrat Punnett :: tabel grafic cu două intrări folosit pentru determinarea tuturor combinațiilor posibile de gameți
+@ Ce genotip are o persoană cu grupa sanguină 0 (I)? :: Genotipul homozigot recesiv ll.
+@ Ce genotipuri poate avea o persoană cu grupa sanguină A (II)? :: Homozigot LA LA sau heterozigot LA l.
+@ Pot doi părinți cu grupa A heterozigotă și respectiv B heterozigotă să aibă un copil cu grupa 0? :: Da, copilul moștenește alela recesivă l de la ambii părinți (probabilitate de 25%).
+@ Ce raport fenotipic rezultă din încrucișarea unui organism heterozigot Aa cu unul homozigot recesiv aa? :: Raportul de 1:1 (50% dominant [A], 50% recesiv [a]).
+? În sistemul AB0, codominanța este demonstrată de grupa:
++ AB (IV), având genotipul LA LB
+- 0 (I), având genotipul ll
+- A (II), având genotipul LA l
+- B (III), având genotipul LB LB
+! Ambele antigene, A și B, sunt prezente simultan pe suprafața hematiilor.
+? Dacă ambii părinți au genotipul Dd (Rh pozitiv heterozigot), probabilitatea de a avea un copil Rh negativ (dd) este de:
++ 25% (1 din 4)
+- 50% (2 din 4)
+- 75% (3 din 4)
+- 0%
+! Un sfert din descendenți moștenesc ambele alele recesive dd.
+? O femeie cu grupa 0 (ll) și un bărbat cu grupa AB (LA LB) pot avea copii cu grupele:
++ exclusiv A heterozigot (LA l) sau B heterozigot (LB l)
+- numai grupa 0 și grupa AB
+- exclusiv grupa AB
+- orice grupă sanguină cu șanse egale
+! Mama donează doar alela l, iar tatăl donează fie LA, fie LB.
+? Încrucișarea de testare (backcross) se realizează între:
++ un organism cu fenotip dominant și genotip necunoscut și un organism homozigot recesiv
+- doi indivizi homozigoți dominanți
+- doi indivizi heterozigoți
+- doi indivizi cu fenotip recesiv
+! Permite aflarea dacă individul testat este homozigot sau heterozigot.
+
+### bio13-02 | Probleme de dihibridare și calcul al acizilor nucleici
+În dihibridare se urmărește transmiterea a două perechi independente de caractere (de exemplu, A/a și B/b). Un individ dublu heterozigot (AaBb) formează patru tipuri de gameți în proporții egale de 25%: AB, Ab, aB și ab. Prin autofecundare sau încrucișarea a doi dubli heterozigoți (AaBb x AaBb), în generația F2 rezultă 16 combinații genotipice grupate în 9 genotipuri diferite și 4 clase fenotipice, cu raportul clasic mendelian 9:3:3:1 (9 dublu dominanți, 3 dominanți pentru primul și recesivi pentru al doilea, 3 recesivi pentru primul și dominanți pentru al doilea, 1 dublu recesiv).
+Problemele de genetică moleculară cer frecvent calculul numărului de baze azotate sau aminoacizi. Se aplică relațiile: într-o moleculă de ADN dublucatenar, A = T și G = C; numărul total de nucleotide N = 2 x (A + G) sau 2 x (T + C); numărul punților de hidrogen este 2 x A + 3 x G. De asemenea, 3 nucleotide în ARNm = 1 codon = 1 aminoacid în lanțul polipeptidic. Masa moleculară a unei nucleotide este considerată în medie de 300-330 Da.
+* Dublul heterozigot AaBb generează patru tipuri de gameți în proporție egală de 25%.
+* În F2 raportul clasic de dihibridare este 9:3:3:1.
+* Într-o moleculă de ADN bicatenar numărul nucleotidelor A este egal cu T, iar G cu C.
+* Fiecare aminoacid din structura primară a unei proteine este codificat de un triplet (codon) de 3 nucleotide.
+= dihibridare :: încrucișarea a doi indivizi care diferă prin două perechi de caractere ereditare
+= punți de hidrogen ADN :: legături necovalente ce unesc bazele complementare (2 pentru A-T, 3 pentru G-C)
+@ Câte tipuri de gameți produce un individ cu genotipul AaBB? :: Două tipuri de gameți: AB și aB, în proporții egale de 50%.
+@ Câte legături de hidrogen are un fragment de ADN cu 100 de perechi A-T și 100 de perechi G-C? :: 100x2 + 100x3 = 500 legături de hidrogen.
+@ Câți aminoacizi conține o proteină sintetizată după un ARNm cu 600 de nucleotide codificatoare? :: 200 de aminoacizi (600 / 3 = 200).
+@ Câte combinații posibile apar în tabla de combinare a gameților la dihibridare? :: 16 combinații (4 gameți masculini x 4 gameți feminini).
+? Dacă într-o moleculă de ADN dublucatenar adenina reprezintă 20% din totalul bazelor, guanina reprezintă:
++ 30%
+- 20%
+- 60%
+- 80%
+! A=20%, T=20% (total 40%); rămân 60% împărțiți egal: G=30% și C=30%.
+? Numărul de punți de hidrogen dintr-o moleculă de ADN formată din 200 de nucleotide cu 40 de adenină este:
++ 260 de punți de hidrogen
+- 200 de punți
+- 300 de punți
+- 180 de punți
+! A=40 (deci T=40). Rămân G+C=120, adică G=60, C=60. Punți: 40x2 + 60x3 = 80 + 180 = 260.
+? Un organism cu genotipul AABb formează gameții:
++ AB și Ab în proporție de 50% fiecare
+- A, B și b în proporții egale
+- numai gameți AB
+- 4 clase de gameți diferite
+! Gena A este homozigotă (donează doar A), iar gena B este heterozigotă (donează B sau b).
+? Pentru a sintetiza o enzimă formată din 150 de aminoacizi, ARNm matur trebuie să conțină:
++ 450 de nucleotide (fără a lua în considerare codonul STOP)
+- 150 de nucleotide
+- 300 de nucleotide
+- 900 de nucleotide
+! Fiecare aminoacid cere un codon de 3 nucleotide (150 x 3 = 450).
+
+## 1 | bio13-c2 | Sinteza fiziologiei umane pentru Bacalaureat
+### bio13-03 | Corelații între funcțiile de relație și nutriție
+Organismul uman funcționează ca un tot unitar, homeostazia fiind menținută prin strânsa interdependență dintre sistemul nervos, endocrin și organele efectoare de nutriție. În timpul efortului fizic intens, sistemul nervos simpatic mobilizează rezervele energetice: crește frecvența și forța de contracție cardiacă prin acțiunea adrenalinei, bronhiile se dilată pentru a asigura un debit respirator maxim, iar fluxul sanguin este redistribuit prioritar către mușchii striați și creier, prin vasoconstricție în teritoriul splanhnic și renal.
+La nivel metabolic, ficatul transformă glicogenul depozitat în glucoză liberă (glicogenoliză stimulată de glucagon și adrenalină). Respirația celulară accelerată produce cantități masive de dioxid de carbon și căldură; centrul respirator din bulbul rahidian este stimulat direct de scăderea pH-ului sanguin și creșterea presiunii parțiale a CO2, determinând tahipnee. Transpirația abundentă răcește corpul, dar duce la pierderi de apă și săruri, declanșând secreția crescută de hormon antidiuretic (ADH) și aldosteron pentru a împiedica deshidratarea și scăderea critică a tensiunii arteriale.
+* Sistemul nervos și sistemul endocrin asigură reglarea integrată a funcțiilor vegetative.
+* În efort, simpaticul crește debitul cardiac și ventilația pulmonară pentru aport optim de O2.
+* Centrul respirator bulbar este reglat reflex de concentrația ionilor de hidrogen și a CO2 din sânge.
+* Rinichii și glandele sudoripare colaborează cu hipofiza (ADH) pentru menținerea volumului plasmatic.
+= homeostazie :: proprietatea organismului de a menține constante constantele mediului intern (temperatură, pH, glicemie)
+= debit cardiac :: volumul de sânge pompat de fiecare ventricul într-un minut (frecvență x volum-bătaie)
+@ Ce se întâmplă cu frecvența cardiacă și respiratorie în timpul unui efort susținut? :: Cresc semnificativ (tahicardie și tahipnee) sub acțiunea stimulării simpatice.
+@ Cum reacționează centrul respirator bulbar la acumularea de CO2 în sânge? :: Este stimulat puternic, determinând mărirea frecvenței și profunzimii respirației.
+@ De ce scade volumul urinei eliminate în condiții de caniculă și efort? :: Datorită hipersecreției de ADH și aldosteron, care stimulează reabsorbția apei în rinichi.
+@ Ce organ realizează stocarea surplusului de glucoză sub formă de glicogen? :: Ficatul (și mușchii striați).
+? Principalul factor umoral care reglează activitatea centrului respirator din bulb este:
++ presiunea parțială a dioxidului de carbon și concentrația ionilor de H+ din sânge
+- nivelul glicemiei din capilare
+- concentrația de sodiu din limfă
+- temperatura membrelor inferioare
+! Acidoza sanguină hipercapnică stimulează direct chemoreceptorii centrali.
+? În cursul efortului fizic, vasele de sânge din mușchii striați scheletici:
++ se dilată pentru a asigura un aport crescut de nutrienți și oxigen
+- se îngustează puternic prin vasoconstricție
+- își opresc complet fluxul capilar
+- sunt comprimate fără a primi sânge
+! Asigură oxigenarea necesară sintezei intense de ATP.
+? Glicogenoliza hepatică eliberează glucoză în torentul sanguin sub stimulul:
++ glucagonului și adrenalinei
+- insulinei
+- hormonului de creștere exclusiv
+- estrogenilor ovarieni
+! Reechilibrează glicemia în stări de hipoglicemie sau efort.
+? Menținerea echilibrului hidric al corpului în condiții de transpirație intensă este realizată prin:
++ secreție crescută de ADH, care intensifică reabsorbția apei în tubii renali
+- blocarea totală a filtrării glomerulare
+- secreție de insulină hipoglicemiantă
+- eliminarea de urină primară diluată
+! Se reduce diureza pentru a conserva apa în mediul intern.
+
+### bio13-04 | Imunitate, adaptare și patologie umană
+Sistemul imunitar apără organismul de agenți patogeni (bacterii, virusuri, paraziți) și celule tumorale modificate. Imunitatea este de două tipuri: înnăscută (nespecifică, realizată prin bariere mecanice precum pielea și mucoasele, lizozimul din secreții, fagocitoza de către neutrofile și macrofage) și dobândită (specifică, mediată de limfocite). Imunitatea dobândită se clasifică în umorală (limfocitele B se transformă în plasmocite și secretă anticorpi/imunoglobuline) și celulară (limfocitele T citotoxice distrug direct celulele infectate sau străine).
+Vaccinarea conferă o imunitate activă artificială de lungă durată prin stimularea formării de celule cu memorie imunologică fără dezvoltarea bolii. Seroterapia oferă o imunitate pasivă artificială imediată, dar de scurtă durată, prin administrarea de anticorpi gata preparați (de exemplu, ser antitetanic). Bolile autoimune (scleroza multiplă, diabetul zaharat de tip I, lupusul) apar când sistemul imun recunoaște structurile proprii ca fiind străine și le atacă, iar imunodeficiențele (cum este SIDA provocată de virusul HIV) se caracterizează prin distrugerea limfocitelor T helper (CD4+), lăsând corpul lipsit de apărare în fața infecțiilor oportuniste.
+* Imunitatea nespecifică asigură prima linie de apărare prin fagocitoză și bariere epiteliale.
+* Limfocitele B produc anticorpi specifici (imunitate umorală), iar limfocitele T distrug celulele țintă (celulară).
+* Vaccinul induce imunitate activă cu celule de memorie; serul conferă protecție pasivă imediată.
+* Virusul HIV distruge limfocitele T helper, provocând sindromul imunodeficienței dobândite (SIDA).
+= anticorp :: proteină plasmatică din clasa imunoglobulinelor produsă de plasmocite, capabilă să lege specific un antigen
+= vaccinare :: procedeu imunologic de stimulare activă a apărării prin administrarea de antigene atenuate sau inactivate
+@ Care este rolul limfocitelor B în organism? :: Producerea și secreția de anticorpi specifici împotriva antigenelor.
+@ Ce diferență există între un vaccin și un ser terapeutic? :: Vaccinul conține antigene și creează imunitate activă durabilă; serul conține anticorpi gata formați și dă imunitate pasivă temporară.
+@ Ce celule imunitare sunt atacate și distruse specific de virusul HIV? :: Limfocitele T helper (CD4+).
+@ Ce este o boală autoimună? :: O boală în care sistemul imunitar atacă propriile țesuturi și organe ale corpului.
+? Imunitatea specifică umorală este realizată prin intermediul:
++ anticorpilor secretați de plasmocitele derivate din limfocitele B
+- fagocitelor mononucleare din splină
+- trombocitelor din plasma sanguină
+- barierei cutanate keratinizate
+! Imunoglobulinele circulă liber în plasmă neutralizând toxinele și agenții patogeni.
+? Celulele cu memorie imunologică au proprietatea esențială de a:
++ reacționa rapid și masiv la un contact ulterior cu același antigen
+- distruge eritrocitele îmbătrânite
+- sintetiza acid clorhidric
+- produce hormoni gonadotropi
+! Stau la baza eficacității îndelungate a vaccinurilor.
+? În cadrul reacției inflamatorii locale, fagocitoza bacteriilor este realizată în principal de:
++ neutrofile și macrofage
+- hematii
+- celule Schwann
+- osteoblaste
+! Înglobează și digeră particulele străine prin enzime lizozomale.
+? Seroterapia este indicată în practica medicală de urgență pentru:
++ neutralizarea rapidă a toxinelor bacteriene sau a veninurilor prin anticorpi gata preparați
+- prevenirea îmbolnăvirii pe termen de câțiva ani
+- vaccinarea sugarilor
+- tratarea anemiilor feriprive
+! Oferă protecție critică imediată.
+
+## 2 | bio13-c3 | Subiecte model și antrenament complet de examen
+### bio13-05 | Sinteză Subiectul I și Subiectul II de Bacalaureat
+Structura examenului scris de bacalaureat la biologie cuprinde trei subiecte notate cu câte 30 de puncte fiecare (plus 10 puncte din oficiu). Subiectul I evaluează cunoștințele factuale și vocabularul de specialitate prin: itemi cu alegere multiplă (grilă simplă), asocieri de termeni între două coloane, completarea spațiilor punctate cu noțiuni adecvate și stabilirea valorii de adevăr (adevărat/fals) pentru afirmații date, cu reformularea obligatorie a afirmațiilor false pentru a deveni adevărate.
+Subiectul II constă în rezolvarea a două probleme aplicative complexe: o problemă de genetică moleculară sau clasică (mendeliană / grupe sanguine) și o problemă de fiziologie (respiratorie, cardiacă sau renală). Pentru punctaj maxim, este esențială respectarea algoritmului complet: menționarea explicită a formulelor sau principiilor utilizate, prezentarea detaliată a fiecărei etape a calculului matematic și redactarea unui răspuns clar, însoțit de unitățile de măsură corespunzătoare (ml, l, bătăi/min, procente etc.).
+* Subiectul I testează noțiunile de bază prin grile, completări și formularea enunțurilor adevărate.
+* Subiectul II cuprinde probleme de genetică și fiziologie, punctând raționamentul și calculul matematic.
+* Modificarea propozițiilor false trebuie făcută fără a folosi negația simplă.
+* Răspunsul la probleme trebuie argumentat prin calcule etapizate și notații clare.
+= item grilă :: întrebare cu mai multe variante de răspuns, dintre care una singură este corectă
+= problemă de fiziologie :: exercițiu de calcul cantitativ al unor parametri biologici (debite, volume, mase)
+@ Câte puncte are fiecare dintre cele trei subiecte mari de bacalaureat? :: Câte 30 de puncte fiecare (total 90 puncte + 10 din oficiu = 100 puncte).
+@ Cum trebuie corectată o afirmație falsă la Subiectul I? :: Prin înlocuirea noțiunilor incorecte cu cele adevărate, fără a se utiliza negația simplă.
+@ Ce elemente sunt obligatorii în rezolvarea unei probleme de genetică la Subiectul II? :: Simbolurile genelor, genotipurile părinților, gameții, tabla de combinare Punnett și răspunsurile la cerințe.
+@ De ce este esențială scrierea unităților de măsură la problemele de fiziologie? :: Pentru validarea fizică a rezultatului calculat și acordarea baremului complet.
+? La Subiectul I, cerința de corectare a unei afirmații false cere:
++ modificarea termenilor eronați fără folosirea negației, păstrând sensul biologic
+- adăugarea cuvântului „nu” în fața predicatului
+- ștergerea completă a propoziției
+- copierea enunțului identic
+! Baremările interzic explicit transformarea prin negație directă.
+? Într-o problemă de fiziologie cardiacă, dacă volumul-bătaie sistolic este 70 ml, iar frecvența cardiacă 70 bătăi/min, debitul cardiac este:
++ 4900 ml/min (4,9 l/min)
+- 140 ml/min
+- 1000 ml/min
+- 7000 ml/min
+! Debitul = volumul-bătaie x frecvența (70 x 70 = 4900 ml).
+? Capacitatea pulmonară totală reprezintă suma dintre:
++ capacitatea vitală și volumul rezidual
+- volumul curent și volumul inspirator de rezervă
+- volumul expirator de rezervă și aerul alveolar
+- debitul respirator și frecvența respiratorie
+! Include tot aerul care poate exista în plămâni.
+? La o problemă de genetică cu două caractere independente, tabla de combinare a gameților are:
++ 16 căsuțe
+- 4 căsuțe
+- 8 căsuțe
+- 2 căsuțe
+! Fiecare părinte heterozigot formează câte 4 tipuri de gameți (4x4=16).
+
+### bio13-06 | Sinteză Subiectul III: Mini-eseul și argumentarea
+Subiectul al III-lea evaluează capacitatea de sinteză, argumentare științifică și redactare coerentă a unui text biologic structurat pe o temă dată. El cuprinde cerințe specifice cu subpuncte (descrieri anatomice, precizări de roluri fiziologice, cauze și manifestări ale unor boli) și redactarea unui eseu structurat / mini-eseu. Textul redactat trebuie să respecte un număr cerut de rânduri (de regulă 15-20 de rânduri) și să integreze logic o serie de noțiuni cheie obligatorii indicate în cerință.
+Pentru a obține punctajul maxim la mini-eseu, elevul trebuie să atribuie un titlu adecvat lucrării, să evidențieze relația cauză-efect între structură și funcție, să folosească corect termenii biologici în context și să evite descrierile vagi sau confuziile conceptuale. Structura recomandată conține: introducere cu definirea noțiunii principale, cuprins cu explicarea mecanismului biologic integrat și concluzie referitoare la importanța pentru sănătatea sau homeostazia organismului uman.
+* Subiectul III include întrebări deschise de sinteză și redactarea unui mini-eseu structurat.
+* Mini-eseul trebuie să aibă un titlu adecvat și să cuprindă noțiunile cerute în barem.
+* Se punctează utilizarea corectă a limbajului științific, logica textului și încadrarea în limita de spațiu.
+* Cunoașterea bolilor (cauze, manifestări, prevenție) este frecvent cerută la Subiectul III.
+= mini-eseu biologic :: text argumentativ coerent structurat pe baza unor termeni biologici obligatorii
+= barem de corectare :: documentul oficial care stabilește punctajul detaliat pentru fiecare element de conținut
+@ Ce element obligatoriu trebuie formulat în deschiderea mini-eseului la Subiectul III? :: Un titlu adecvat, corespunzător temei cerute.
+@ Cum trebuie integrată lista de noțiuni date în textul eseului? :: Natural, în fraze cu sens biologic riguros, subliniind noțiunile pentru evidențiere.
+@ Ce aspecte trebuie prezentate în cazul cerințelor legate de o afecțiune a unui sistem de organe? :: Cauza bolii, două manifestări clinice caracteristice și o măsură eficientă de prevenire.
+@ De ce este importantă respectarea numărului minim și maxim de rânduri la eseu? :: Pentru a nu pierde punctajul alocat structurării și sintezei.
+? La redactarea mini-eseului de la Subiectul III, acordarea punctajului pentru termeni cere ca aceștia:
++ să fie integrați coerent în enunțuri cu sens biologic corect legate de temă
+- să fie înșirați într-o listă la începutul paginii
+- să fie definiți ca într-un dicționar, fără legătură între fraze
+- să fie omiși dacă eseul depășește 10 rânduri
+! Se evaluează capacitatea de integrare noțională.
+? O măsură universală de prevenire a afecțiunilor sistemului cardiovascular este:
++ practicarea regulată a exercițiului fizic moderat și evitarea fumatului
+- consumul masiv de grăsimi saturate de origine animală
+- un stil de viață complet sedentar
+- evitarea consumului de fructe proaspete
+! Reduce riscul de ateroscleroză și hipertensiune arterială.
+? În cadrul descrierii unui organ la Subiectul III, precizarea localizării trebuie să indice:
++ așezarea anatomică precisă în cavitățile corpului și raporturile de vecinătate
+- exclusiv greutatea organului în grame
+- numele medicului care l-a descoperit
+- culoarea organului la microscop
+! Arată înțelegerea topografiei anatomice a corpului uman.
+? Pentru a descrie o boală a sistemului excretor precum glomerulonefrita, se menționează:
++ inflamația glomerulilor renali apărută adesea post-streptococic, manifestată prin hematurie și edeme
+- blocarea mecanică a ureterului de un calcul biliar
+- creșterea secreției de hormon de creștere
+- formarea de calculi de colesterol în vezica biliară
+! Corelează agentul cauzal cu simptomele renale specifice.
+
+%% teza 1
+? Un individ cu genotipul AaBb formează gameții AB, Ab, aB, ab în proporții:
++ egale de 25% fiecare, conform segregării independente
+- 50% AB și 50% ab
+- 75% dominanți și 25% recesivi
+- 90% AB și 10% ab
+! Cele două perechi de alele sunt neînlănțuite.
+? Într-o familie în care mama are grupa A heterozigotă (LA l) și tatăl grupa B heterozigotă (LB l):
++ copiii pot avea oricare dintre cele patru grupe sanguine (0, A, B, AB)
+- copiii pot avea numai grupa AB
+- este imposibil să apară grupa 0
+- toți copiii vor fi băieți
+! Probabilitatea pentru fiecare grupă este de câte 25%.
+? Într-un fragment de ADN bicatenar format din 600 de nucleotide, numărul total de perechi de baze este:
++ 300 de perechi de nucleotide
+- 600 de perechi
+- 150 de perechi
+- 1200 de perechi
+! Două nucleotide formează o pereche pe dublul helix.
+? Dacă un fragment de ADN conține 80 de baze de timină și 120 de citozină, numărul total de nucleotide este:
++ 400 de nucleotide
+- 200 de nucleotide
+- 800 de nucleotide
+- 300 de nucleotide
+! A=T=80, G=C=120. Total = 80+80+120+120 = 400.
+? Simbolul Dd definește un individ:
++ heterozigot cu fenotip Rh pozitiv
+- homozigot dominant
+- Rh negativ cu anticorpi anti-D
+- cu grupa sanguină 0
+! Alela D dominantă determină prezența antigenului Rh.
+? În cadrul dihibridării, raportul fenotipic 9:3:3:1 demonstrează:
++ transmiterea independentă a două perechi de caractere nemodificate
+- interacțiunea epistatică a genelor
+- înlănțuirea genică absolută pe același cromozom
+- apariția de mutații letale în zigot
+! A doua lege fundamentală a geneticii mendeliene.
+? O celulă somatică umană normală conține:
++ 46 de cromozomi organizați în 23 de perechi
+- 23 de cromozomi independenți
+- 48 de cromozomi ca la cimpanzeu
+- 92 de cromozomi în faza G1
+! 22 de perechi autozomi și o pereche heterozomi.
+? Un codon din ARNm este format din:
++ trei nucleotide alăturate ce codifică un aminoacid
+- o singură bază azotată cuaternară
+- două aminoacizi legați peptidic
+- patru legături de hidrogen
+! Reprezintă unitatea de translație a mesajului genetic.
+
+%% teza 2
+? Debitul cardiac se calculează ca produs între:
++ volumul-bătaie sistolic și frecvența cardiacă
+- tensiunea arterială sistolică și cea diastolică
+- capacitatea vitală și numărul de respirații pe minut
+- volumul de plasmă și hematocrit
+! Măsoară volumul pompat de inimă pe minut.
+? În efortul fizic intens, stimularea simpatică determină:
++ tahicardie, bronhodilatație și glicogenoliză hepatică
+- bradicardie și adormire imediată
+- stimularea puternică a motilității gastrice
+- scăderea presiunii arteriale sistemice
+! Pregătește organismul pentru consum energetic masiv.
+? Răspunsul imun specific este declanșat la contactul cu:
++ un antigen recunoscut ca non-self (străin de organism)
+- moleculele de hemoglobină sănătoasă
+- bila secretată de ficat
+- aerul alveolar încălzit
+! Stimulează proliferarea clonelor specifice de limfocite.
+? Vaccinul induce o stare de imunitate:
++ activă dobândită artificial, cu formare de celule de memorie
+- pasivă naturală prin transfer transplacentar
+- pasivă de scurtă durată de câteva ore
+- nespecifică mediată exclusiv de piele
+! Antigenele atenuate învață sistemul imunitar să reacționeze la viitoare infecții.
+? La Subiectul al II-lea din proba de bacalaureat, calculele:
++ trebuie să fie detaliate pas cu pas, precizând formulele și unitățile de măsură
+- se scriu direct ca rezultat final fără etape intermediare
+- sunt opționale dacă se explică teoretic
+- nu sunt luate în considerare în barem
+! Baremarea punctează fiecare etapă a raționamentului.
+? În cadrul unei descrieri clinice a aterosclerozei, se menționează:
++ depunerea de lipide și colesterol în peretele arterial cu îngustarea lumenului
+- scăderea congenitală a numărului de eritrocite
+- inflamația acută a pleurei parietale
+- dilatarea congenitală a vaselor capilare
+! Crește riscul de infarct miocardic și accident vascular cerebral.
+? Capacitatea vitală reprezintă suma volumelor:
++ volum curent + volum inspirator de rezervă + volum expirator de rezervă
+- volum curent + volum rezidual
+- capacitate pulmonară totală + volum rezidual
+- volum inspirator + debit cardiac
+! Este volumul de aer mobilizabil maxim.
+? Un mini-eseu la Subiectul al III-lea este evaluat maxim dacă:
++ are titlu potrivit, este coerent structurat și integrează toți termenii biologici ceruți
+- este cât mai lung posibil, depășind 5 pagini
+- conține doar scheme desenate fără text
+- copiază cerința fără a o dezvolta
+! Punctajul urmărește logica argumentării științifice și claritatea ideilor.

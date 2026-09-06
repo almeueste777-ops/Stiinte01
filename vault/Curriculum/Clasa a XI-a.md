@@ -11,7 +11,7 @@ Anul **3** din cei 5 ai parcursului [[Parcurs școlar]].
 
 ⬅ [[Clasa a X-a]] · [[Clasa a XII-a]] ➡
 
-## Materii (12)
+## Materii (13)
 
 ### [[Arie - Limbă și comunicare|Limbă și comunicare]]
 - [[Limba și literatura română (clasa a XI-a)|Limba și literatura română]] — 🎓 bac, 📘 20 lecții în aplicație
@@ -21,6 +21,7 @@ Anul **3** din cei 5 ai parcursului [[Parcurs școlar]].
 ### [[Arie - Matematică și științe ale naturii|Matematică și științe ale naturii]]
 - [[Matematică aplicată în științele sociale (clasa a XI-a)|Matematică aplicată în științele sociale]] — 📘 18 lecții în aplicație
 - [[ȘTIAM (științe integrate) (clasa a XI-a)|ȘTIAM (științe integrate)]] — 📘 16 lecții în aplicație
+- [[Biologie (clasa a XI-a)|Biologie]] — 🎓 bac, 📘 11 lecții în aplicație
 
 ### [[Arie - Om și societate|Om și societate]]
 - [[Istorie (clasa a XI-a)|Istorie]] — 🎓 bac, 📘 24 lecții în aplicație

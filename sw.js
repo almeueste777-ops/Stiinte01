@@ -1,15 +1,15 @@
 /* Service worker: precache + strategii de cache.
    IMPORTANT: crește CACHE la fiecare modificare a fișierelor, ca utilizatorii să primească versiunea nouă. */
-const CACHE = 'stiinte01-v14';  // v10 — supra-tema „Auroră": paletă nouă, sticlă mai transparentă, efecte opt-in
+const CACHE = 'stiinte01-v15';  // v10 — supra-tema „Auroră": paletă nouă, sticlă mai transparentă, efecte opt-in
 /* Scheletul aplicației: FĂRĂ el aplicația nu pornește, deci se cere atomic. */
 const SHELL = [
   './',
   './index.html',
   /* ?v= trebuie să fie IDENTIC cu cel din index.html (cache-ul SW potrivește
      URL-ul exact, cu tot cu query) — CI-ul verifică sincronizarea. */
-  './assets/app.css?v=14',
-  './assets/tema-aurora.css?v=14',
-  './assets/app.js?v=14',
+  './assets/app.css?v=15',
+  './assets/tema-aurora.css?v=15',
+  './assets/app.js?v=15',
   './manifest.webmanifest',
   './data/curriculum.json',
   './data/continut.json',
@@ -67,6 +67,7 @@ const MODULE = [
   './data/module/engleza-11.json',
   './data/module/franceza-11.json',
   './data/module/romana-11.json',
+  './data/module/biologie-11.json',
   './data/module/mass-11.json',
   './data/module/stiam-11.json',
   './data/module/tic-11.json',
@@ -78,6 +79,7 @@ const MODULE = [
   './data/module/engleza-12.json',
   './data/module/franceza-12.json',
   './data/module/romana-12.json',
+  './data/module/biologie-12.json',
   './data/module/mass-12.json',
   './data/module/stiam-12.json',
   './data/module/tic-12.json',
@@ -91,6 +93,7 @@ const MODULE = [
   './data/module/engleza-13.json',
   './data/module/franceza-13.json',
   './data/module/romana-13.json',
+  './data/module/biologie-13.json',
   './data/module/bac-13.json',
   /* MODULE:STOP */
 ];

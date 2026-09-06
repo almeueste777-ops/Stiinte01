@@ -47,6 +47,7 @@ Punctul de intrare în **jumătatea scrisă de mână** a vault-ului: cum e făc
 
 ## Proces
 
+- [[Jurnal 2026-09-06 — Biologie Bacalaureat v11]] — biologie completă pentru bacalaureat (clasele IX – XIII), profil real
 - [[Jurnal 2026-08-26 — Supra-tema Auroră v10]] — paletă nouă pe ambele teme, sticlă mai transparentă, efecte opt-in de mișcare
 - [[Jurnal 2026-08-25 — Raportează o greșeală v09]] — buton „raportează o greșeală" pe lecție și pe întrebare, salvat local + export
 - [[Jurnal 2026-08-25 — Imagini explicative v08]] — vizuale SVG explicative la lecție: sistem + pipeline + pilot istorie-9
