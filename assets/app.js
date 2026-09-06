@@ -810,10 +810,14 @@
       <div class="card">
         <div class="row"><h3>Progres general</h3><span class="pill soft">${citite()}/${totalLectii()} lecții</span></div>
         <div class="bar"><i style="--p:${p / 100}"></i></div>
-        <p class="muted" style="margin-top:10px">
-          ${esc(CUR.parcurs.specializare)} · ${esc(CUR.parcurs.profil)} · ${esc(CUR.parcurs.forma)}<br>
-          ${esc(CUR.scoala.nume)}, ${esc(CUR.scoala.localitate)}
-        </p>
+        <div class="scoala-card-row">
+          <img src="./assets/emblema.png" alt="Emblema ${esc(CUR.scoala.nume)}" class="emblema-scoala" width="60" height="60">
+          <p class="muted" style="margin:0">
+            <strong style="color:var(--ink)">${esc(CUR.scoala.nume)}</strong><br>
+            ${esc(CUR.parcurs.profil)} · ${esc(CUR.parcurs.specializare)}<br>
+            ${esc(CUR.scoala.localitate)} · ${esc(CUR.parcurs.forma)}
+          </p>
+        </div>
       </div>
 
       <div class="card aur-sheen">
@@ -1654,9 +1658,15 @@
     title.textContent = 'Plan de învățământ';
     view.innerHTML = `
       <div class="card">
-        <h3>${esc(CUR.scoala.nume)}</h3>
+        <div class="scoala-card-row" style="margin-top:0;margin-bottom:12px">
+          <img src="./assets/emblema.png" alt="Emblema ${esc(CUR.scoala.nume)}" class="emblema-scoala" width="60" height="60">
+          <div>
+            <h3 style="margin:0">${esc(CUR.scoala.nume)}</h3>
+            <p class="muted" style="margin:2px 0 0">${esc(CUR.parcurs.filiera)} · ${esc(CUR.parcurs.profil)}</p>
+          </div>
+        </div>
         <p class="muted">${esc(CUR.scoala.adresa)}<br>Secretariat: ${esc(CUR.scoala.telefonSecretariat)} (${esc(CUR.scoala.programSecretariat)})</p>
-        <p style="margin-top:10px">${esc(CUR.parcurs.filiera)} · ${esc(CUR.parcurs.profil)} · ${esc(CUR.parcurs.specializare)}<br>
+        <p style="margin-top:10px">${esc(CUR.parcurs.specializare)}<br>
         <span class="muted">${esc(CUR.parcurs.forma)} — ${esc(CUR.parcurs.durata)}</span></p>
       </div>
       <div class="card"><p class="muted">${esc(CUR.parcurs.observatie)}</p></div>
@@ -2988,8 +2998,10 @@
           'Jurnalul versiunilor aplicației.')}<span class="lec-sag" aria-hidden="true"></span></button>` : ''}
         ${randActiune('revezi-intro', 'Revezi introducerea', 'Foaia de bun-venit, cu clasa și obiectivul zilnic.')}
         ${randActiune('reimprospateaza', 'Caută o versiune nouă', 'Golește memoria locală a aplicației și reîncarcă.')}
-      </div>
-      <p class="muted">${esc(CUR.scoala.nume)} · ${esc(CUR.scoala.localitate)}</p>`;
+      <div class="scoala-card-row" style="justify-content:center;text-align:center;flex-direction:column;margin:18px 0 6px">
+        <img src="./assets/emblema.png" alt="Emblema ${esc(CUR.scoala.nume)}" class="emblema-scoala" width="70" height="70" style="width:70px;height:70px">
+        <p class="muted" style="margin-top:8px">${esc(CUR.scoala.nume)} · ${esc(CUR.scoala.localitate)}<br>Profil Real</p>
+      </div>`;
 
     legaSetari();
   }

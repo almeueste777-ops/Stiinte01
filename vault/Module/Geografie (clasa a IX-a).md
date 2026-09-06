@@ -25,8 +25,8 @@ Geografie fizică generală: Pământul în Univers, relieful, atmosfera, apele,
 
 ### Pământul în Univers — semestrul 1
 
-- [[Sistemul Solar și Pământul ca planetă]]
-- [[Mișcările Pământului și consecințele lor]]
+- [[De la zero - Pământul ca planetă, coordonate geografice și orientare]]
+- [[Mișcările Pământului, fusurile orare și anotimpurile]]
 
 ### Relieful terestru — semestrul 1
 

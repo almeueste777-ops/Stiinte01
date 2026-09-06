@@ -7,7 +7,7 @@ cssclasses: test
 ---
 # Test — Istorie (clasa a XIII-a)
 
-118 întrebări din [[Istorie (clasa a XIII-a)|Istorie (clasa a XIII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
+119 întrebări din [[Istorie (clasa a XIII-a)|Istorie (clasa a XIII-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
 ### 1. Conservatorismul modern a fost formulat de:
 
@@ -345,91 +345,103 @@ cssclasses: test
 > 
 > Semnatarii erau foști demnitari comuniști.
 
-### 29. La cerința „pe baza sursei”, informația trebuie să provină:
+### 29. Pentru a puncta integral cerința de cauză–efect la Bacalaureat, răspunsul trebuie:
 
-- a. exclusiv din textul dat
-- b. din memoria candidatului
-- c. din manual
-- d. din orice sursă cunoscută
-
-> [!success]- Răspuns
-> **a. exclusiv din textul dat**
-> 
-> Altfel răspunsul nu se punctează, chiar dacă e corect istoric.
-
-### 30. Verbul „menționează” cere:
-
-- a. numirea unui element, fără explicație
-- b. o relație cauză–efect
-- c. o comparație
-- d. un punct de vedere argumentat
+- a. să conțină ambele elemente legate explicit prin conectori de cauză și de efect
+- b. să conțină doar citatul complet al unui paragraf
+- c. să prezinte doar cauza, fără efect
+- d. să fie formulat ca opinie personală
 
 > [!success]- Răspuns
-> **a. numirea unui element, fără explicație**
+> **a. să conțină ambele elemente legate explicit prin conectori de cauză și de efect**
 > 
-> Explicația se cere prin verbul „explică”.
+> Baremul cere precizarea explicită a cauzei și a efectului, susținute prin conectori specifici.
 
-### 31. O comparație corect formulată presupune:
+### 30. La cerința de formulare a unui punct de vedere pe baza textului, sunt necesare:
 
-- a. aceleași criterii aplicate ambelor realități
-- b. descrierea separată a fiecăreia
-- c. doar asemănările
-- d. doar deosebirile
+- a. formularea punctului de vedere și două informații selectate din sursă
+- b. o singură informație din text și o concluzie filozofică
+- c. exclusiv date din afara textului
+- d. o compunere liberă fără trimitere la sursă
 
 > [!success]- Răspuns
-> **a. aceleași criterii aplicate ambelor realități**
+> **a. formularea punctului de vedere și două informații selectate din sursă**
 > 
-> Simetria criteriilor face comparația verificabilă.
+> Punctajul maxim se acordă doar pentru formularea punctului de vedere susținut de două informații din text.
 
-### 32. Absența conectorilor logici afectează în primul rând:
+### 31. La cerința „menționați din sursa A o trăsătură a statului”, răspunsul corect:
 
-- a. explicația și argumentarea
-- b. extragerea informației
-- c. menționarea unui element
-- d. numirea unui personaj
+- a. extrage strict trăsătura menționată în textul A
+- b. explică detaliat evoluția istorică din manual
+- c. oferă o comparație cu sursa B
+- d. rezumă întregul text
 
 > [!success]- Răspuns
-> **a. explicația și argumentarea**
+> **a. extrage strict trăsătura menționată în textul A**
 > 
-> Relația dintre idei trebuie să fie explicită.
+> Cerința cere extragerea punctuală a informației solicitate din textul indicat.
 
-### 33. Într-un eseu de bacalaureat, informația corectă dar nesolicitată:
+### 32. O relație cauză–efect formulată fără conectori logici:
 
-- a. nu aduce puncte
-- b. aduce puncte suplimentare
-- c. compensează o cerință omisă
-- d. se punctează pe jumătate
+- a. este depunctată conform baremului oficial de redactare
+- b. primește punctaj maxim automat
+- c. anulează întreaga lucrare
+- d. se compensează la Subiectul III
 
 > [!success]- Răspuns
-> **a. nu aduce puncte**
+> **a. este depunctată conform baremului oficial de redactare**
 > 
-> Punctajul urmează strict cerințele formulate.
+> Conectorii sunt obligatorii pentru demonstrarea raționamentului istoric.
 
-### 34. Încheierea unui eseu istoric trebuie să conțină:
+### 33. Teoria imigraționistă care nega continuitatea românilor a fost publicată de:
 
-- a. o concluzie, nu un simplu rezumat
-- b. repetarea introducerii
-- c. o listă de date
-- d. o opinie personală nesusținută
+- a. Robert Roësler în 1871
+- b. A.D. Xenopol în 1884
+- c. Grigore Ureche în 1647
+- d. Dimitrie Cantemir în 1716
 
 > [!success]- Răspuns
-> **a. o concluzie, nu un simplu rezumat**
+> **a. Robert Roësler în 1871**
 > 
-> Concluzia leagă faptele prezentate de tema anunțată.
+> Robert Roësler a susținut că românii s-ar fi format la sud de Dunăre și ar fi imigrat în sec. al XIII-lea.
 
-### 35. Afirmația „România s-a modernizat în timpul lui Cuza” devine punctabilă dacă:
+### 34. În cadrul eseului de Bacalaureat, respectarea ordinii cerințelor din enunț este importantă deoarece:
 
-- a. este însoțită de fapte concrete și datate
-- b. este repetată în încheiere
-- c. este scrisă în introducere
-- d. este formulată la superlativ
+- a. baremul de corectare urmărește succesiunea cerințelor pentru acordarea punctajului
+- b. schimbarea ordinii anulează automat lucrarea
+- c. lungimea eseului este dictată de această ordine
+- d. dictează data bătăliilor
 
 > [!success]- Răspuns
-> **a. este însoțită de fapte concrete și datate**
+> **a. baremul de corectare urmărește succesiunea cerințelor pentru acordarea punctajului**
 > 
-> De exemplu: secularizarea din 1863 și legea rurală din 1864.
+> Corectorii acordă punctele urmărind pas cu pas cerințele din baremul oficial.
 
-### 36. Greșeala cea mai costisitoare într-un eseu structurat este:
+### 35. Colectivizarea agriculturii în România comunistă s-a încheiat oficial în:
+
+- a. 1962
+- b. 1948
+- c. 1953
+- d. 1989
+
+> [!success]- Răspuns
+> **a. 1962**
+> 
+> Începută în martie 1949, colectivizarea a fost declarată încheiată în aprilie 1962.
+
+### 36. Prima constituție modernă a României a fost adoptată în:
+
+- a. 1866
+- b. 1859
+- c. 1923
+- d. 1878
+
+> [!success]- Răspuns
+> **a. 1866**
+> 
+> Inspirată din constituția belgiană din 1831, a instituit monarhia constituțională.
+
+### 37. Greșeala cea mai costisitoare într-un eseu structurat este:
 
 - a. povestirea cronologică generală în locul răspunsului la cerințe
 - b. folosirea prea multor date
@@ -441,7 +453,7 @@ cssclasses: test
 > 
 > Punctele se acordă pe cerințe, nu pe cantitatea de text.
 
-### 37. Democrația directă a fost inventată în:
+### 38. Democrația directă a fost inventată în:
 
 - a. orașele-state grecești
 - b. Roma republicană
@@ -453,7 +465,7 @@ cssclasses: test
 > 
 > Romanii au dezvoltat republica cu magistraturi și Senat.
 
-### 38. Instituțiile reprezentative medievale (Parlamentul, Stările Generale) aveau rolul de a:
+### 39. Instituțiile reprezentative medievale (Parlamentul, Stările Generale) aveau rolul de a:
 
 - a. limita puterea regelui
 - b. conduce armata
@@ -465,7 +477,7 @@ cssclasses: test
 > 
 > Ele reuneau reprezentanții stărilor.
 
-### 39. Statul modern a apărut mai ales prin:
+### 40. Statul modern a apărut mai ales prin:
 
 - a. revoluțiile din secolele al XVIII-lea și al XIX-lea
 - b. Marile descoperiri geografice
@@ -477,7 +489,7 @@ cssclasses: test
 > 
 > Suveranitatea a trecut de la rege la națiune.
 
-### 40. Monarhia constituțională și republica sunt:
+### 41. Monarhia constituțională și republica sunt:
 
 - a. forme de guvernământ
 - b. regimuri totalitare
@@ -489,7 +501,7 @@ cssclasses: test
 > 
 > Democrația și autoritarismul sunt regimuri politice.
 
-### 41. Statele medievale românești, sub suzeranitate otomană:
+### 42. Statele medievale românești, sub suzeranitate otomană:
 
 - a. își păstrau o largă autonomie internă
 - b. erau administrate direct de pași otomani
@@ -501,7 +513,7 @@ cssclasses: test
 > 
 > Ele aveau domn, legi, Biserică și armată proprii.
 
-### 42. Independența de stat a României a fost proclamată la:
+### 43. Independența de stat a României a fost proclamată la:
 
 - a. 9 mai 1877
 - b. 24 ianuarie 1859
@@ -513,7 +525,7 @@ cssclasses: test
 > 
 > Ea a fost recunoscută la Congresul de la Berlin (1878).
 
-### 43. Suveranitatea României a fost grav limitată, în secolul XX, prin:
+### 44. Suveranitatea României a fost grav limitată, în secolul XX, prin:
 
 - a. regimul comunist, subordonat Moscovei
 - b. Constituția din 1923
@@ -525,7 +537,7 @@ cssclasses: test
 > 
 > Pierderile teritoriale din 1940 au precedat această limitare.
 
-### 44. După 1989, România și-a reafirmat suveranitatea mai ales prin:
+### 45. După 1989, România și-a reafirmat suveranitatea mai ales prin:
 
 - a. integrarea euroatlantică (NATO, Uniunea Europeană)
 - b. neutralitate permanentă
@@ -537,7 +549,7 @@ cssclasses: test
 > 
 > Alianțele au fost, de această dată, liber alese.
 
-### 45. Constituția din 1866 a instituit:
+### 46. Constituția din 1866 a instituit:
 
 - a. monarhia constituțională și votul cenzitar
 - b. republica
@@ -549,7 +561,7 @@ cssclasses: test
 > 
 > Ea a fost inspirată de constituția belgiană.
 
-### 46. Cea mai democratică constituție interbelică a fost cea din:
+### 47. Cea mai democratică constituție interbelică a fost cea din:
 
 - a. 1923
 - b. 1866
@@ -561,7 +573,7 @@ cssclasses: test
 > 
 > Ea a consacrat votul universal masculin.
 
-### 47. Constituția din 1991 a restabilit:
+### 48. Constituția din 1991 a restabilit:
 
 - a. democrația și separarea puterilor
 - b. monarhia
@@ -573,7 +585,7 @@ cssclasses: test
 > 
 > Ea a introdus Curtea Constituțională și Avocatul Poporului.
 
-### 48. Trecerea de la „supus" la „cetățean" a fost marcată de:
+### 49. Trecerea de la „supus" la „cetățean" a fost marcată de:
 
 - a. constituțiile moderne și afirmarea drepturilor omului
 - b. monarhia absolută
@@ -585,7 +597,7 @@ cssclasses: test
 > 
 > Cetățeanul este titular de drepturi, nu doar subordonat.
 
-### 49. Revoluția neolitică a însemnat trecerea la:
+### 50. Revoluția neolitică a însemnat trecerea la:
 
 - a. agricultură și creșterea animalelor
 - b. industrie
@@ -597,7 +609,7 @@ cssclasses: test
 > 
 > Ea a făcut posibile sedentarizarea și primele state.
 
-### 50. Revoluția industrială a început în:
+### 51. Revoluția industrială a început în:
 
 - a. Anglia, în secolul al XVIII-lea
 - b. Franța, în secolul al XVII-lea
@@ -609,7 +621,7 @@ cssclasses: test
 > 
 > Ea a creat societatea industrială.
 
-### 51. Revoluția digitală se bazează pe:
+### 52. Revoluția digitală se bazează pe:
 
 - a. informatică, internet și automatizare
 - b. mașina cu abur
@@ -621,7 +633,7 @@ cssclasses: test
 > 
 > Ea transformă economia contemporană.
 
-### 52. Modernizarea economică a României a fost:
+### 53. Modernizarea economică a României a fost:
 
 - a. inegală, cu industrializare forțată sub comunism
 - b. rapidă și uniformă
@@ -633,7 +645,7 @@ cssclasses: test
 > 
 > Țara a rămas multă vreme preponderent agrară.
 
-### 53. Urbanizarea modernă a fost legată mai ales de:
+### 54. Urbanizarea modernă a fost legată mai ales de:
 
 - a. revoluția industrială
 - b. revoluția neolitică
@@ -645,7 +657,7 @@ cssclasses: test
 > 
 > Milioane de oameni s-au mutat de la sat la oraș.
 
-### 54. În România, urbanizarea s-a accelerat mai ales prin:
+### 55. În România, urbanizarea s-a accelerat mai ales prin:
 
 - a. industrializarea comunistă
 - b. reformele fanariote
@@ -657,7 +669,7 @@ cssclasses: test
 > 
 > Ea a mutat masiv populația la oraș.
 
-### 55. Colonizările medievale din Transilvania au adus:
+### 56. Colonizările medievale din Transilvania au adus:
 
 - a. sași și secui
 - b. greci și armeni
@@ -669,7 +681,7 @@ cssclasses: test
 > 
 > Ele au contribuit la diversitatea etnică.
 
-### 56. Emigrația de după 1989 a avut ca efect demografic:
+### 57. Emigrația de după 1989 a avut ca efect demografic:
 
 - a. scăderea și îmbătrânirea populației
 - b. creșterea rapidă a populației
@@ -681,7 +693,7 @@ cssclasses: test
 > 
 > Ea a adus însă și remitențe și legături transnaționale.
 
-### 57. Istoria mentalităților studiază:
+### 58. Istoria mentalităților studiază:
 
 - a. felul de a gândi și de a simți al oamenilor din trecut
 - b. doar bătăliile și tratatele
@@ -693,7 +705,7 @@ cssclasses: test
 > 
 > Ea arată că și modul de a gândi are o istorie.
 
-### 58. În lumea tradițională, viața cotidiană era modelată de:
+### 59. În lumea tradițională, viața cotidiană era modelată de:
 
 - a. ritmul naturii și de religie
 - b. fabrică și oraș
@@ -705,7 +717,7 @@ cssclasses: test
 > 
 > Mentalitățile se schimbau foarte lent.
 
-### 59. Istoria vieții cotidiene folosește izvoare precum:
+### 60. Istoria vieții cotidiene folosește izvoare precum:
 
 - a. jurnale, scrisori, inventare, obiecte
 - b. doar tratate internaționale
@@ -717,7 +729,7 @@ cssclasses: test
 > 
 > Ele dezvăluie viața oamenilor obișnuiți.
 
-### 60. Studierea mentalităților ne învață să:
+### 61. Studierea mentalităților ne învață să:
 
 - a. nu judecăm oamenii din trecut după criteriile de azi
 - b. ignorăm contextul epocii
@@ -729,7 +741,7 @@ cssclasses: test
 > 
 > Ea ne ajută să înțelegem trecutul „din interior".
 
-### 61. Domnii români foloseau vasalitatea multiplă pentru a:
+### 62. Domnii români foloseau vasalitatea multiplă pentru a:
 
 - a. obține protecție și a evita dominația unei singure puteri
 - b. plăti un tribut mai mare
@@ -741,7 +753,7 @@ cssclasses: test
 > 
 > Ea cerea un echilibru diplomatic permanent.
 
-### 62. Plata tributului către Poartă a permis Țărilor Române:
+### 63. Plata tributului către Poartă a permis Țărilor Române:
 
 - a. să-și păstreze autonomia, evitând transformarea în pașalâc
 - b. să devină independente
@@ -753,7 +765,7 @@ cssclasses: test
 > 
 > Ele nu au fost transformate în provincii otomane.
 
-### 63. Ștefan cel Mare a obținut recunoașterea rezistenței antiotomane prin victoria de la:
+### 64. Ștefan cel Mare a obținut recunoașterea rezistenței antiotomane prin victoria de la:
 
 - a. Vaslui (1475)
 - b. Posada (1330)
@@ -765,7 +777,7 @@ cssclasses: test
 > 
 > El a alternat alianțele cu Polonia și Ungaria.
 
-### 64. Războaiele ruso-austro-turce din secolele XVII–XVIII:
+### 65. Războaiele ruso-austro-turce din secolele XVII–XVIII:
 
 - a. s-au purtat adesea pe teritoriul Țărilor Române
 - b. au ocolit spațiul românesc
@@ -777,7 +789,7 @@ cssclasses: test
 > 
 > Tratatele de pace le modificau statutul fără participarea lor.
 
-### 65. Înainte de Primul Război Mondial, România era legată, prin tratat secret, de:
+### 66. Înainte de Primul Război Mondial, România era legată, prin tratat secret, de:
 
 - a. Puterile Centrale
 - b. Antanta
@@ -789,7 +801,7 @@ cssclasses: test
 > 
 > Opinia publică o apropia însă de Antanta.
 
-### 66. Diplomația interbelică a lui Titulescu s-a bazat pe:
+### 67. Diplomația interbelică a lui Titulescu s-a bazat pe:
 
 - a. securitatea colectivă și alianțele regionale
 - b. alianța cu Germania
@@ -801,7 +813,7 @@ cssclasses: test
 > 
 > Mica Înțelegere și Înțelegerea Balcanică au fost expresiile ei.
 
-### 67. În al Doilea Război Mondial, România a fost:
+### 68. În al Doilea Război Mondial, România a fost:
 
 - a. întâi aliata Germaniei, apoi a Aliaților
 - b. neutră tot timpul
@@ -813,7 +825,7 @@ cssclasses: test
 > 
 > Schimbarea s-a produs la 23 august 1944.
 
-### 68. După 1989, România a ales să adere la:
+### 69. După 1989, România a ales să adere la:
 
 - a. NATO și Uniunea Europeană
 - b. Pactul de la Varșovia
@@ -825,7 +837,7 @@ cssclasses: test
 > 
 > Alianțele au fost, de această dată, liber alese.
 
-### 69. România a aderat la Pactul de la Varșovia în:
+### 70. România a aderat la Pactul de la Varșovia în:
 
 - a. 1955
 - b. 1949
@@ -837,7 +849,7 @@ cssclasses: test
 > 
 > La CAER aderase în 1949.
 
-### 70. Condamnarea invadării Cehoslovaciei (1968) i-a adus lui Ceaușescu:
+### 71. Condamnarea invadării Cehoslovaciei (1968) i-a adus lui Ceaușescu:
 
 - a. prestigiu internațional
 - b. excluderea din Pactul de la Varșovia
@@ -849,7 +861,7 @@ cssclasses: test
 > 
 > Gestul a fost folosit pentru legitimarea internă a regimului.
 
-### 71. Linia externă relativ autonomă a României:
+### 72. Linia externă relativ autonomă a României:
 
 - a. nu a schimbat natura totalitară a regimului
 - b. a dus la democratizare
@@ -861,7 +873,7 @@ cssclasses: test
 > 
 > Ea a servit mai ales legitimării interne.
 
-### 72. Pentru România, Războiul Rece s-a încheiat cu:
+### 73. Pentru România, Războiul Rece s-a încheiat cu:
 
 - a. revoluția violentă din decembrie 1989
 - b. aderarea la NATO
@@ -873,7 +885,7 @@ cssclasses: test
 > 
 > Regimul Ceaușescu a căzut atunci.
 
-### 73. Construcția europeană a pornit, după 1945, din dorința de a:
+### 74. Construcția europeană a pornit, după 1945, din dorința de a:
 
 - a. face imposibil un nou război între statele Europei
 - b. crea un imperiu european
@@ -885,7 +897,7 @@ cssclasses: test
 > 
 > Mai ales reconcilierea franco-germană a stat la bază.
 
-### 74. Uniunea Europeană a fost creată prin:
+### 75. Uniunea Europeană a fost creată prin:
 
 - a. Tratatul de la Maastricht (1992)
 - b. Declarația Schuman (1950)
@@ -897,7 +909,7 @@ cssclasses: test
 > 
 > Ea are piață unică, monedă comună și instituții proprii.
 
-### 75. Pentru România, integrarea euroatlantică a fost, după 1989:
+### 76. Pentru România, integrarea euroatlantică a fost, după 1989:
 
 - a. obiectivul strategic major
 - b. un obiectiv respins
@@ -909,7 +921,7 @@ cssclasses: test
 > 
 > Ea a presupus reforme profunde.
 
-### 76. România a aderat la Uniunea Europeană la:
+### 77. România a aderat la Uniunea Europeană la:
 
 - a. 1 ianuarie 2007
 - b. 2004
@@ -921,7 +933,7 @@ cssclasses: test
 > 
 > Aderarea la NATO avusese loc în 2004.
 
-### 77. Dacia a devenit provincie romană în:
+### 78. Dacia a devenit provincie romană în:
 
 - a. 106
 - b. 101
@@ -933,7 +945,7 @@ cssclasses: test
 > 
 > După al doilea război daco-roman.
 
-### 78. Moldova a devenit stat independent sub Bogdan I în:
+### 79. Moldova a devenit stat independent sub Bogdan I în:
 
 - a. 1359
 - b. 1330
@@ -945,7 +957,7 @@ cssclasses: test
 > 
 > Țara Românească își câștigase independența în 1330.
 
-### 79. Independența României a fost recunoscută internațional în:
+### 80. Independența României a fost recunoscută internațional în:
 
 - a. 1878
 - b. 1877
@@ -957,7 +969,7 @@ cssclasses: test
 > 
 > La Congresul de la Berlin.
 
-### 80. România a aderat la Uniunea Europeană în:
+### 81. România a aderat la Uniunea Europeană în:
 
 - a. 2007
 - b. 2004
@@ -969,7 +981,7 @@ cssclasses: test
 > 
 > La NATO aderase în 2004.
 
-### 81. O fișă de personalitate bună cuprinde:
+### 82. O fișă de personalitate bună cuprinde:
 
 - a. cine a fost, când a trăit, ce a realizat și ce importanță are
 - b. doar numele și data nașterii
@@ -981,7 +993,7 @@ cssclasses: test
 > 
 > Faptele trebuie să fie concrete și datate.
 
-### 82. Instituția centrală a Evului Mediu românesc a fost:
+### 83. Instituția centrală a Evului Mediu românesc a fost:
 
 - a. domnia
 - b. Parlamentul
@@ -993,7 +1005,7 @@ cssclasses: test
 > 
 > Sfatul domnesc și Adunarea Țării erau organe consultative și reprezentative.
 
-### 83. La examen, o afirmație despre o instituție valorează dacă:
+### 84. La examen, o afirmație despre o instituție valorează dacă:
 
 - a. este însoțită de fapte concrete, datate, legate de temă
 - b. este formulată general
@@ -1005,7 +1017,7 @@ cssclasses: test
 > 
 > Punctajul se acordă pe conținut, nu pe generalități.
 
-### 84. Legătura esențială într-o fișă de sinteză este cea dintre:
+### 85. Legătura esențială într-o fișă de sinteză este cea dintre:
 
 - a. personalitate/instituție și procesele istorice mai largi
 - b. două date apropiate
@@ -1017,7 +1029,7 @@ cssclasses: test
 > 
 > Cuza nu doar „a domnit", ci a construit statul modern.
 
-### 85. Un studiu de caz se rezolvă prin:
+### 86. Un studiu de caz se rezolvă prin:
 
 - a. analiză (fapte, cauze, consecințe), nu prin repovestire
 - b. rezumarea manualului
@@ -1029,7 +1041,7 @@ cssclasses: test
 > 
 > El aplică metoda istorică unei situații concrete.
 
-### 86. La redactarea răspunsului, fiecare afirmație generală trebuie:
+### 87. La redactarea răspunsului, fiecare afirmație generală trebuie:
 
 - a. susținută cu un fapt concret și datat
 - b. repetată de două ori
@@ -1041,7 +1053,7 @@ cssclasses: test
 > 
 > Altfel, ea nu aduce puncte.
 
-### 87. Informația corectă, dar nesolicitată de cerință:
+### 88. Informația corectă, dar nesolicitată de cerință:
 
 - a. nu aduce puncte
 - b. aduce puncte suplimentare
@@ -1053,7 +1065,7 @@ cssclasses: test
 > 
 > Punctajul urmează strict cerințele.
 
-### 88. Cea mai bună pregătire pentru bacalaureat este:
+### 89. Cea mai bună pregătire pentru bacalaureat este:
 
 - a. exersarea pe subiecte reale, cu bareme
 - b. citirea o singură dată a manualului
@@ -1065,7 +1077,7 @@ cssclasses: test
 > 
 > Baremul arată cum trebuie formulat răspunsul pentru a fi punctat.
 
-### 89. Democrația directă a fost inventată în:
+### 90. Democrația directă a fost inventată în:
 
 - a. orașele-state grecești
 - b. Roma imperială
@@ -1077,7 +1089,7 @@ cssclasses: test
 > 
 > Romanii au dezvoltat republica.
 
-### 90. Independența de stat a României a fost proclamată la:
+### 91. Independența de stat a României a fost proclamată la:
 
 - a. 9 mai 1877
 - b. 24 ianuarie 1859
@@ -1089,7 +1101,7 @@ cssclasses: test
 > 
 > Ea a fost recunoscută la Berlin, în 1878.
 
-### 91. Cea mai democratică constituție românească interbelică a fost cea din:
+### 92. Cea mai democratică constituție românească interbelică a fost cea din:
 
 - a. 1923
 - b. 1866
@@ -1101,7 +1113,7 @@ cssclasses: test
 > 
 > Ea a consacrat votul universal masculin.
 
-### 92. Revoluția industrială a început în:
+### 93. Revoluția industrială a început în:
 
 - a. Anglia, în secolul al XVIII-lea
 - b. Franța, în secolul al XVII-lea
@@ -1113,7 +1125,7 @@ cssclasses: test
 > 
 > Ea a creat societatea industrială.
 
-### 93. În România, urbanizarea s-a accelerat mai ales prin:
+### 94. În România, urbanizarea s-a accelerat mai ales prin:
 
 - a. industrializarea comunistă
 - b. reformele fanariote
@@ -1125,7 +1137,7 @@ cssclasses: test
 > 
 > Ea a mutat masiv populația la oraș.
 
-### 94. Istoria mentalităților studiază:
+### 95. Istoria mentalităților studiază:
 
 - a. felul de a gândi și de a simți al oamenilor din trecut
 - b. doar bătăliile și tratatele
@@ -1137,7 +1149,7 @@ cssclasses: test
 > 
 > Ea arată că și modul de a gândi are o istorie.
 
-### 95. Conservatorismul modern a fost formulat de:
+### 96. Conservatorismul modern a fost formulat de:
 
 - a. Edmund Burke
 - b. John Locke
@@ -1149,7 +1161,7 @@ cssclasses: test
 > 
 > În „Reflecții asupra Revoluției din Franța” (1790).
 
-### 96. Social-democrația se deosebește de marxism-leninism prin:
+### 97. Social-democrația se deosebește de marxism-leninism prin:
 
 - a. folosirea mijloacelor democratice, nu revoluționare
 - b. respingerea sindicatelor
@@ -1161,7 +1173,7 @@ cssclasses: test
 > 
 > Despărțirea se produce la începutul secolului XX.
 
-### 97. Principiul subsidiarității cere ca decizia să fie luată:
+### 98. Principiul subsidiarității cere ca decizia să fie luată:
 
 - a. la nivelul cel mai apropiat de cetățean
 - b. exclusiv la nivel central
@@ -1173,7 +1185,7 @@ cssclasses: test
 > 
 > Este un principiu al creștin-democrației și al Uniunii Europene.
 
-### 98. Un regim în care alegerile au un singur candidat este:
+### 99. Un regim în care alegerile au un singur candidat este:
 
 - a. nedemocratic
 - b. o democrație directă
@@ -1185,7 +1197,7 @@ cssclasses: test
 > 
 > Alegerea presupune alternative reale.
 
-### 99. Limbajul de lemn servea regimurilor totalitare pentru:
+### 100. Limbajul de lemn servea regimurilor totalitare pentru:
 
 - a. a împiedica gândirea critică
 - b. a simplifica administrația
@@ -1197,7 +1209,7 @@ cssclasses: test
 > 
 > Formulele stereotipe golesc discursul de conținut verificabil.
 
-### 100. Mitropolia Moldovei a fost recunoscută de Patriarhia de la Constantinopol în:
+### 101. Mitropolia Moldovei a fost recunoscută de Patriarhia de la Constantinopol în:
 
 - a. 1401
 - b. 1359
@@ -1209,7 +1221,7 @@ cssclasses: test
 > 
 > Cea a Țării Românești fusese recunoscută în 1359.
 
-### 101. Unirea unei părți a românilor ardeleni cu Biserica Romei a avut loc în:
+### 102. Unirea unei părți a românilor ardeleni cu Biserica Romei a avut loc în:
 
 - a. 1698–1701
 - b. 1791
@@ -1221,7 +1233,7 @@ cssclasses: test
 > 
 > Ea a deschis accesul la învățământul catolic superior.
 
-### 102. Biserica Greco-Catolică a fost desființată de regimul comunist în:
+### 103. Biserica Greco-Catolică a fost desființată de regimul comunist în:
 
 - a. 1948
 - b. 1945
@@ -1233,7 +1245,7 @@ cssclasses: test
 > 
 > A fost repusă în drepturi după 1989.
 
-### 103. Andrei Șaguna a organizat:
+### 104. Andrei Șaguna a organizat:
 
 - a. Mitropolia ortodoxă a Transilvaniei și rețeaua ei școlară
 - b. Școala Ardeleană
@@ -1245,7 +1257,7 @@ cssclasses: test
 > 
 > Activitatea lui se desfășoară în secolul al XIX-lea.
 
-### 104. Paul de Alep a descris mai ales:
+### 105. Paul de Alep a descris mai ales:
 
 - a. viața religioasă din Țara Românească
 - b. reformele fanariote
@@ -1257,7 +1269,7 @@ cssclasses: test
 > 
 > Relatarea lui datează din secolul al XVII-lea.
 
-### 105. Minoritățile reprezentau, în România Mare, aproximativ:
+### 106. Minoritățile reprezentau, în România Mare, aproximativ:
 
 - a. 28% din populație
 - b. 10% din populație
@@ -1269,7 +1281,7 @@ cssclasses: test
 > 
 > Tratatul minorităților din 1919 impunea garanții pentru drepturile lor.
 
-### 106. Raportul Comisiei Internaționale „Elie Wiesel” a fost publicat în:
+### 107. Raportul Comisiei Internaționale „Elie Wiesel” a fost publicat în:
 
 - a. 2004
 - b. 1994
@@ -1281,7 +1293,7 @@ cssclasses: test
 > 
 > El a documentat Holocaustul din România.
 
-### 107. Teoria sincronismului aparține lui:
+### 108. Teoria sincronismului aparține lui:
 
 - a. Eugen Lovinescu
 - b. Titu Maiorescu
@@ -1293,7 +1305,7 @@ cssclasses: test
 > 
 > Ea răspunde criticii junimiste a „formelor fără fond”.
 
-### 108. Ștefan Zeletin a susținut rolul decisiv, în crearea statului român modern, al:
+### 109. Ștefan Zeletin a susținut rolul decisiv, în crearea statului român modern, al:
 
 - a. burgheziei
 - b. boierimii
@@ -1305,7 +1317,7 @@ cssclasses: test
 > 
 > Teza apare în „Burghezia română. Originea și rolul ei istoric”.
 
-### 109. Securitatea a fost înființată în:
+### 110. Securitatea a fost înființată în:
 
 - a. 1948
 - b. 1945
@@ -1317,7 +1329,7 @@ cssclasses: test
 > 
 > Ea a fost principalul instrument al represiunii comuniste.
 
-### 110. „Reeducarea” de la Pitești s-a desfășurat în:
+### 111. „Reeducarea” de la Pitești s-a desfășurat în:
 
 - a. 1949–1952
 - b. 1945–1947
@@ -1329,7 +1341,7 @@ cssclasses: test
 > 
 > Deținuții erau transformați în torționari ai propriilor colegi.
 
-### 111. Deportările în Bărăgan au avut loc în:
+### 112. Deportările în Bărăgan au avut loc în:
 
 - a. 1951
 - b. 1948
@@ -1341,7 +1353,7 @@ cssclasses: test
 > 
 > Ele au vizat populația din zona de graniță cu Iugoslavia.
 
-### 112. Revolta muncitorilor din Brașov a avut loc la:
+### 113. Revolta muncitorilor din Brașov a avut loc la:
 
 - a. 15 noiembrie 1987
 - b. 2 august 1977
@@ -1353,7 +1365,7 @@ cssclasses: test
 > 
 > Ea a fost reprimată, iar participanții au fost condamnați.
 
-### 113. Scrisoarea celor șase a fost făcută publică în:
+### 114. Scrisoarea celor șase a fost făcută publică în:
 
 - a. martie 1989
 - b. noiembrie 1987
@@ -1365,7 +1377,7 @@ cssclasses: test
 > 
 > Semnatarii erau foști demnitari comuniști.
 
-### 114. La cerința „pe baza sursei”, informația trebuie luată:
+### 115. La cerința „pe baza sursei”, informația trebuie luată:
 
 - a. exclusiv din textul dat
 - b. din manual
@@ -1377,7 +1389,7 @@ cssclasses: test
 > 
 > Altfel răspunsul nu se punctează.
 
-### 115. Verbul „explică” dintr-o cerință de examen presupune:
+### 116. Verbul „explică” dintr-o cerință de examen presupune:
 
 - a. prezentarea relației cauză–efect, cu conectori logici
 - b. simpla numire a unui element
@@ -1389,7 +1401,7 @@ cssclasses: test
 > 
 > „Menționează” cere doar numirea elementului.
 
-### 116. O comparație corect formulată presupune:
+### 117. O comparație corect formulată presupune:
 
 - a. aplicarea acelorași criterii ambelor realități
 - b. descrierea separată a fiecăreia
@@ -1401,7 +1413,7 @@ cssclasses: test
 > 
 > Simetria criteriilor face comparația verificabilă.
 
-### 117. Într-un eseu structurat, informația corectă dar nesolicitată:
+### 118. Într-un eseu structurat, informația corectă dar nesolicitată:
 
 - a. nu aduce puncte
 - b. aduce puncte suplimentare
@@ -1413,7 +1425,7 @@ cssclasses: test
 > 
 > Punctajul urmează strict cerințele din subiect.
 
-### 118. Încheierea unui eseu istoric trebuie să fie:
+### 119. Încheierea unui eseu istoric trebuie să fie:
 
 - a. o concluzie legată de tema anunțată
 - b. un rezumat al cuprinsului

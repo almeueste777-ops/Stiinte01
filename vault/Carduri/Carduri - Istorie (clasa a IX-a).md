@@ -11,13 +11,13 @@ cssclasses: carduri
 
 #flashcards/istorie
 
-Ce este un izvor istoric?::Orice urmă lăsată de oameni din care se poate afla ceva despre trecut.
+Cum se calculează secolul pentru anul 1330?::Se ia numărul sutelor (13) și se adaugă 1, rezultând secolul al XIV-lea.
 
-Care e deosebirea dintre critica externă și cea internă?::Externa verifică autenticitatea izvorului; interna, credibilitatea informației transmise.
+Există anul 0 în cronologia istorică?::Nu, după anul 1 î.Hr. urmează direct anul 1 d.Hr.
 
-Ce eveniment marchează, convențional, sfârșitul Antichității?::Căderea Imperiului Roman de Apus, în 476 d.Hr.
+Care este deosebirea dintre critica externă și cea internă a unui izvor?::Externa stabilește autenticitatea documentului; interna analizează sinceritatea și credibilitatea informațiilor.
 
-De ce poate fi util un izvor fals?::Pentru că spune multe despre epoca și interesele celor care l-au fabricat.
+Ce eveniment marchează convențional sfârșitul Antichității?::Căderea Imperiului Roman de Apus, în anul 476 d.Hr.
 
 Unde apar primele civilizații și de ce acolo?::În văile marilor fluvii, fiindcă agricultura irigată producea surplusuri.
 

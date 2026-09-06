@@ -23,9 +23,8 @@ Punctul de intrare în **jumătatea scrisă de mână** a vault-ului: cum e făc
 > `Carduri`, `Teste`) și nu scrie peste configurația `.obsidian`. Cele două jumătăți nu se calcă.
 
 > [!info] Aplicația
-> PWA de studiu pentru liceu, filiera teoretică, profil umanist, specializarea
-> **Științe sociale**, formă cu **frecvență redusă** (clasele a IX-a – a XIII-a).
-> Colegiul Tehnic „Alexandru Ioan Cuza”, Suceava.
+> PWA de studiu pentru liceu, **Liceul Tehnologic „Ion Creangă” din Târgu Neamț, profil real**
+> (clasele a IX-a – a XIII-a).
 > Zero dependențe, zero build, funcționare 100% offline.
 
 ## Aplicația
@@ -47,6 +46,7 @@ Punctul de intrare în **jumătatea scrisă de mână** a vault-ului: cum e făc
 
 ## Proces
 
+- [[Jurnal 2026-09-07 — Liceul Ion Creanga, Emblema, Istorie si Geografie v15]] — Liceul Tehnologic „Ion Creangă” Tg. Neamț (profil real), emblemă nouă, Istorie și Geografie Bacalaureat
 - [[Jurnal 2026-09-07 — Franceza Bacalaureat v14]] — limba modernă 2 (franceză) de la zero la bacalaureat proba B (clasele IX – XIII)
 - [[Jurnal 2026-09-07 — Engleza Bacalaureat v13]] — limba modernă 1 (engleză) de la zero la bacalaureat proba B (clasele IX – XIII)
 - [[Jurnal 2026-09-06 — Romana Bacalaureat v12]] — limba și literatura română completă pentru bacalaureat (clasele IX – XIII), structură actualizată

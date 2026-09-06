@@ -41,8 +41,8 @@ Sinteze pentru bacalaureat: ideologii și practici politice, biserică și școa
 
 ### Metoda istorică și bacalaureatul — semestrul 2
 
-- [[Lucrul cu sursele istorice la examen]]
-- [[Eseul istoric structurat]]
+- [[Lucrul cu sursele istorice la examen - Subiectul I și II]]
+- [[Eseul istoric structurat - Cele 7 mari teme de Bacalaureat]]
 
 ### Puterea și societatea de-a lungul timpului — semestrul 1
 
@@ -71,7 +71,7 @@ Sinteze pentru bacalaureat: ideologii și practici politice, biserică și școa
 
 ## Exersare
 - [[Carduri - Istorie (clasa a XIII-a)]] — 88 carduri
-- [[Test - Istorie (clasa a XIII-a)]] — 118 întrebări
+- [[Test - Istorie (clasa a XIII-a)]] — 119 întrebări
 
 ## Legături
 - [[Istorie|Istorie]]

@@ -1,15 +1,16 @@
 /* Service worker: precache + strategii de cache.
    IMPORTANT: crește CACHE la fiecare modificare a fișierelor, ca utilizatorii să primească versiunea nouă. */
-const CACHE = 'stiinte01-v18';  // v13 — Limba modernă 1 (Engleză) Bacalaureat și bază gimnaziu
+const CACHE = 'stiinte01-v19';  // v15 — Liceul Tehnologic Ion Creanga, emblema noua, Geografie si Istorie Bacalaureat
 /* Scheletul aplicației: FĂRĂ el aplicația nu pornește, deci se cere atomic. */
 const SHELL = [
   './',
   './index.html',
   /* ?v= trebuie să fie IDENTIC cu cel din index.html (cache-ul SW potrivește
      URL-ul exact, cu tot cu query) — CI-ul verifică sincronizarea. */
-  './assets/app.css?v=18',
-  './assets/tema-aurora.css?v=18',
-  './assets/app.js?v=18',
+  './assets/app.css?v=19',
+  './assets/tema-aurora.css?v=19',
+  './assets/app.js?v=19',
+  './assets/emblema.png',
   './manifest.webmanifest',
   './data/curriculum.json',
   './data/continut.json',

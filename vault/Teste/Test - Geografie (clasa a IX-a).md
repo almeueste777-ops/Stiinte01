@@ -9,101 +9,101 @@ cssclasses: test
 
 116 întrebări din [[Geografie (clasa a IX-a)|Geografie (clasa a IX-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
-### 1. Pământul este, ca ordine de la Soare:
+### 1. Latitudinea unui punct geografic se măsoară:
 
-- a. a treia planetă
-- b. a doua planetă
-- c. a patra planetă
-- d. prima planetă
-
-> [!success]- Răspuns
-> **a. a treia planetă**
-> 
-> Venus este a doua, Marte a patra.
-
-### 2. Planetele gigante gazoase sunt:
-
-- a. Jupiter, Saturn, Uranus, Neptun
-- b. Mercur, Venus, Terra, Marte
-- c. Marte, Jupiter, Saturn, Uranus
-- d. Venus, Terra, Marte, Jupiter
+- a. de la Ecuator spre Nord sau spre Sud (0°–90°)
+- b. de la Meridianul Greenwich spre Est sau Vest
+- c. de la Polul Nord spre Polul Sud
+- d. de la linia schimbării datei
 
 > [!success]- Răspuns
-> **a. Jupiter, Saturn, Uranus, Neptun**
+> **a. de la Ecuator spre Nord sau spre Sud (0°–90°)**
 > 
-> Planetele terestre sunt cele patru interioare.
+> Ecuatorul este paralela de referință 0°.
 
-### 3. Uscatul ocupă din suprafața Pământului aproximativ:
+### 2. O hartă cu scara de 1:50 000 înseamnă că 2 cm pe hartă reprezintă în realitate:
 
-- a. 29%
+- a. 1 kilometru
+- b. 500 de metri
+- c. 5 kilometri
+- d. 10 kilometri
+
+> [!success]- Răspuns
+> **a. 1 kilometru**
+> 
+> 1 cm = 50 000 cm = 500 m; așadar 2 cm = 1 000 m = 1 km.
+
+### 3. Meridianul de 0° trece prin localitatea:
+
+- a. Greenwich (Londra)
+- b. Paris
+- c. Roma
+- d. Washington
+
+> [!success]- Răspuns
+> **a. Greenwich (Londra)**
+> 
+> Meridianul Greenwich a fost stabilit internațional ca reper de 0° longitudine.
+
+### 4. Apele Oceanului Planetar acoperă din suprafața Terrei aproximativ:
+
+- a. 71%
 - b. 50%
-- c. 71%
-- d. 15%
+- c. 29%
+- d. 85%
 
 > [!success]- Răspuns
-> **a. 29%**
+> **a. 71%**
 > 
-> Apele ocupă circa 71%.
+> Continentele și insulele ocupă restul de circa 29%.
 
-### 4. Forma de geoid înseamnă că Pământul este:
+### 5. Forța Coriolis deviază masele de aer în emisfera nordică:
 
-- a. turtit la poli și umflat la ecuator
-- b. perfect sferic
-- c. cilindric
-- d. eliptic în plan
+- a. spre dreapta direcției de deplasare
+- b. spre stânga direcției de deplasare
+- c. exclusiv spre Ecuator
+- d. vertical spre stratosferă
 
 > [!success]- Răspuns
-> **a. turtit la poli și umflat la ecuator**
+> **a. spre dreapta direcției de deplasare**
 > 
-> Turtirea se datorează mișcării de rotație.
+> În emisfera nordică devierea este spre dreapta, iar în emisfera sudică spre stânga.
 
-### 5. Numărul fusurilor orare este:
+### 6. Dacă la meridianul 0° (Greenwich) este ora 12:00, la meridianul de 30° Est este ora:
 
-- a. 24, de câte 15° fiecare
-- b. 12, de câte 30° fiecare
-- c. 36, de câte 10° fiecare
-- d. 18, de câte 20° fiecare
+- a. 14:00
+- b. 10:00
+- c. 13:00
+- d. 15:00
 
 > [!success]- Răspuns
-> **a. 24, de câte 15° fiecare**
+> **a. 14:00**
 > 
-> Ele rezultă din împărțirea celor 360° la 24 de ore.
+> 30° împărțit la 15° = 2 fusuri; spre Est timpul crește: 12 + 2 = 14:00.
 
-### 6. Solstițiul de vară în emisfera nordică are loc la:
+### 7. La data de 21 iunie, în emisfera nordică are loc:
 
-- a. 22 iunie
-- b. 22 decembrie
-- c. 21 martie
-- d. 23 septembrie
+- a. solstițiul de vară (ziua cea mai lungă)
+- b. solstițiul de iarnă (noaptea cea mai lungă)
+- c. echinocțiul de primăvară
+- d. echinocțiul de toamnă
 
 > [!success]- Răspuns
-> **a. 22 iunie**
+> **a. solstițiul de vară (ziua cea mai lungă)**
 > 
-> Atunci ziua este cea mai lungă în emisfera nordică.
+> Razele cad perpendicular pe Tropicul Racului, marcând solstițiul de vară boreal.
 
-### 7. Succesiunea anotimpurilor este cauzată de:
+### 8. Echinocțiul înseamnă că:
 
-- a. revoluție, combinată cu înclinarea axei
-- b. rotație
-- c. forma de geoid
-- d. distanța variabilă față de Soare
+- a. durata zilei este egală cu durata nopții pe întreg globul
+- b. noaptea durează 24 de ore la poli
+- c. ziua durează 16 ore la Ecuator
+- d. Soarele este cel mai aproape de Pământ
 
 > [!success]- Răspuns
-> **a. revoluție, combinată cu înclinarea axei**
+> **a. durata zilei este egală cu durata nopții pe întreg globul**
 > 
-> Fără înclinarea axei nu ar exista anotimpuri.
-
-### 8. Forța Coriolis deviază corpurile, în emisfera nordică:
-
-- a. spre dreapta
-- b. spre stânga
-- c. spre ecuator
-- d. spre pol
-
-> [!success]- Răspuns
-> **a. spre dreapta**
-> 
-> În emisfera sudică devierea este spre stânga.
+> La echinocții (21 martie și 23 septembrie), ziua și noaptea au câte 12 ore oriunde pe Terra.
 
 ### 9. Dorsalele oceanice se formează la limite:
 

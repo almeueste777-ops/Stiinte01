@@ -29,6 +29,6 @@ Harta este instrumentul central al probei de geografie: subiectul I se bazează 
 
 ---
 
-⬅ [[Studiul de caz și eseul geografic structurat]] · [[Calcule, grafice și erori tipice la proba de geografie]] ➡
+⬅ [[Studiul de caz, eseul geografic și metoda comparației la Bacalaureat]] · [[Calcule geografice de Bacalaureat, formule și grafice]] ➡
 
 Exersează: [[Carduri - Geografie (clasa a XIII-a)]] · [[Test - Geografie (clasa a XIII-a)]]

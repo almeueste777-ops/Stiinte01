@@ -14,7 +14,7 @@ Vault-ul are **două jumătăți**, în același folder:
 > Secțiunea **Notițele mele** din fiecare lecție și orice notă nouă pe care o > creezi în afara folderelor generate rămân neatinse.
 
 ## Parcursul
-- [[Parcurs școlar]] — Teoretică, Științe sociale, Frecvență redusă (FR)
+- [[Parcurs școlar]] — Tehnologică / Teoretică, Profil Real, Frecvență redusă (FR) / Zi
 - [[Școala]]
 - [[Bacalaureat]]
 - [[Hartă de învățare]]
@@ -30,7 +30,7 @@ Vault-ul are **două jumătăți**, în același folder:
 ## Module (materie × an)
 
 - [[Geografie (clasa a IX-a)|Geografie (clasa a IX-a)]] — 8 capitole, 20 lecții, 80 carduri, 116 întrebări
-- [[Istorie (clasa a IX-a)|Istorie (clasa a IX-a)]] — 8 capitole, 24 lecții, 96 carduri, 132 întrebări
+- [[Istorie (clasa a IX-a)|Istorie (clasa a IX-a)]] — 8 capitole, 24 lecții, 96 carduri, 133 întrebări
 - [[Logică, argumentare și comunicare (clasa a IX-a)|Logică, argumentare și comunicare (clasa a IX-a)]] — 8 capitole, 24 lecții, 96 carduri, 132 întrebări
 - [[Religie (clasa a IX-a)|Religie (clasa a IX-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
 - [[Limba latină (clasa a IX-a)|Limba latină (clasa a IX-a)]] — 7 capitole, 18 lecții, 72 carduri, 102 întrebări
@@ -84,7 +84,7 @@ Vault-ul are **două jumătăți**, în același folder:
 - [[Filosofie (clasa a XIII-a)|Filosofie (clasa a XIII-a)]] — 7 capitole, 22 lecții, 88 carduri, 124 întrebări
 - [[Geografie (clasa a XIII-a)|Geografie (clasa a XIII-a)]] — 7 capitole, 20 lecții, 80 carduri, 116 întrebări
 - [[Istoria comunismului din România (clasa a XIII-a)|Istoria comunismului din România (clasa a XIII-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
-- [[Istorie (clasa a XIII-a)|Istorie (clasa a XIII-a)]] — 8 capitole, 22 lecții, 88 carduri, 118 întrebări
+- [[Istorie (clasa a XIII-a)|Istorie (clasa a XIII-a)]] — 8 capitole, 22 lecții, 88 carduri, 119 întrebări
 - [[Religie (clasa a XIII-a)|Religie (clasa a XIII-a)]] — 6 capitole, 18 lecții, 72 carduri, 102 întrebări
 - [[Studii sociale (clasa a XIII-a)|Studii sociale (clasa a XIII-a)]] — 6 capitole, 18 lecții, 72 carduri, 108 întrebări
 - [[Limba modernă 1 (Engleză) (clasa a XIII-a)|Limba modernă 1 (Engleză) (clasa a XIII-a)]] — 6 capitole, 18 lecții, 72 carduri, 109 întrebări
@@ -103,5 +103,5 @@ Vault-ul are **două jumătăți**, în același folder:
 | Capitole | 421 |
 | Lecții | 1177 |
 | Carduri | 4711 |
-| Întrebări de test | 6717 |
+| Întrebări de test | 6719 |
 | Note în vault | 1404 |

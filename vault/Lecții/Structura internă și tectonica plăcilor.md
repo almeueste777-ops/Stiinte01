@@ -29,6 +29,6 @@ Pământul are o structură concentrică: scoarța (crustă) — subțire, de 5�
 
 ---
 
-⬅ [[Mișcările Pământului și consecințele lor]] · [[Agenții interni și formele majore de relief]] ➡
+⬅ [[Mișcările Pământului, fusurile orare și anotimpurile]] · [[Agenții interni și formele majore de relief]] ➡
 
 Exersează: [[Carduri - Geografie (clasa a IX-a)]] · [[Test - Geografie (clasa a IX-a)]]

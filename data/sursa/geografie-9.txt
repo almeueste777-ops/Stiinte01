@@ -6,83 +6,94 @@ bac: da
 descriere: Geografie fizică generală: Pământul în Univers, relieful, atmosfera, apele, viețuitoarele și mediul înconjurător.
 
 ## 1 | geo9-c1 | Pământul în Univers
-### geo9-01 | Sistemul Solar și Pământul ca planetă
-Universul este ansamblul materiei și energiei existente. Galaxia noastră, Calea Lactee, are formă spiralată și conține sute de miliarde de stele. Sistemul Solar cuprinde Soarele — o stea de mărime medie — și corpurile care gravitează în jurul lui: opt planete, planete pitice, sateliți, asteroizi, comete, meteoroizi.
-Planetele se împart în terestre (Mercur, Venus, Terra, Marte — mici, dense, solide) și gigante gazoase (Jupiter, Saturn, Uranus, Neptun — mari, cu densitate mică, cu inele și mulți sateliți). Pământul este a treia planetă de la Soare, singura pe care se cunoaște existența vieții, datorită distanței potrivite față de Soare, atmosferei, apei în stare lichidă și câmpului magnetic protector.
-Forma Pământului este de geoid — o sferă turtită la poli și umflată la ecuator, cu neregularități. Dimensiuni: raza ecuatorială aproximativ 6 378 km, circumferința ecuatorială circa 40 075 km, suprafața totală aproximativ 510 milioane km², din care 71% ape și 29% uscat.
-* Sistemul Solar: Soarele, opt planete, planete pitice, sateliți, asteroizi, comete.
-* Planete terestre (mici, dense) și gigante gazoase (mari, cu densitate mică).
-* Pământul are formă de geoid: turtit la poli, umflat la ecuator.
-* Suprafața Pământului: 71% ape, 29% uscat.
-= geoid :: forma reală a Pământului, o sferă turtită la poli, cu neregularități
-= planetă terestră :: planetă mică și densă, cu suprafață solidă
-@ Care este forma Pământului? :: De geoid — sferă turtită la poli și umflată la ecuator.
-@ Câte planete are Sistemul Solar și cum se împart? :: Opt: patru terestre și patru gigante gazoase.
-@ Ce proporție ocupă apele din suprafața Pământului? :: Aproximativ 71%.
-@ Care este raza ecuatorială a Pământului? :: Aproximativ 6 378 km.
-? Pământul este, ca ordine de la Soare:
-+ a treia planetă
-- a doua planetă
-- a patra planetă
-- prima planetă
-! Venus este a doua, Marte a patra.
-? Planetele gigante gazoase sunt:
-+ Jupiter, Saturn, Uranus, Neptun
-- Mercur, Venus, Terra, Marte
-- Marte, Jupiter, Saturn, Uranus
-- Venus, Terra, Marte, Jupiter
-! Planetele terestre sunt cele patru interioare.
-? Uscatul ocupă din suprafața Pământului aproximativ:
-+ 29%
+### geo9-01 | De la zero: Pământul ca planetă, coordonate geografice și orientare
+Pentru elevii care încep studiul geografiei de la zero, primul pas este înțelegerea Pământului în spațiu și orientarea pe suprafața terestră. Pământul (Terra) este a treia planetă de la Soare în Sistemul Solar, având forma reală de geoid — o sferă turtită la poli și bombată la ecuator din cauza forței centrifuge generate de rotație. Dimensiuni esențiale: raza ecuatorială de circa 6 378 km, circumferința ecuatorului de circa 40 075 km, suprafața totală de 510 milioane km² (din care 71% Oceanul Planetar și 29% continente și insule).
+Pentru localizarea oricărui punct pe glob se folosește rețeaua cartografică formată din paralele și meridiane:
+1. Latitudinea reprezintă distanța în grade de la Ecuator (0°) până la un punct oarecare, măsurată spre Nord (0°–90° lat. N) sau spre Sud (0°–90° lat. S). Ecuatorul împarte Terra în Emisfera Nordică (boreală) și Emisfera Sudică (australă). Linii paralele importante: Tropicul Racului (23°27' N), Tropicul Capricornului (23°27' S), Cercul Polar de Nord (66°33' N) și Cercul Polar de Sud (66°33' S).
+2. Longitudinea reprezintă distanța în grade de la Meridianul 0° (Greenwich, lângă Londra) spre Est (0°–180° long. E) sau spre Vest (0°–180° long. V). Meridianul 0° și antimeridianul său de 180° împart Terra în Emisfera Estică și Emisfera Vestică. România este situată în Emisfera Nordică și Emisfera Estică (coordonate aproximative: 43°37' — 48°15' lat. N și 20°15' — 29°41' long. E).
+3. Orientarea și scara hărții: punctele cardinale de bază sunt Nord (N), Sud (S), Est (E), Vest (V). Scara hărții arată de câte ori a fost redusă o distanță reală pe plan sau hartă. Scara numerică se scrie ca o fracție: 1:100 000 înseamnă că 1 cm de pe hartă reprezintă 100 000 cm în realitate (adică 1 000 metri sau 1 kilometru). Cu cât numitorul este mai mic, cu atât scara este mai mare și harta mai detaliată.
+* Pământul are formă de geoid: turtit la poli și bombat la ecuator; 71% apă, 29% uscat.
+* Latitudinea se măsoară de la Ecuator (0°) spre N și S (până la 90° la poli).
+* Longitudinea se măsoară de la Meridianul Greenwich (0°) spre E și V (până la 180°).
+* Scara numerică 1:100 000 înseamnă că 1 cm pe hartă reprezintă 1 km în teren.
+= geoid :: forma fizică reală a Pământului, determinată de suprafața de nivel a oceanelor prelungită pe sub continente
+= latitudine geografică :: distanța unghiulară a unui punct față de Ecuator, spre Nord sau Sud (0°–90°)
+= longitudine geografică :: distanța unghiulară a unui punct față de Meridianul Greenwich, spre Est sau Vest (0°–180°)
+= scară a hărții :: raportul matematic dintre distanța măsurată pe hartă și distanța corespunzătoare din teren
+@ Care este forma reală a Terrei? :: De geoid — sferă turtită la cei doi poli și bombată la Ecuator.
+@ Cum se măsoară latitudinea și între ce valori? :: De la Ecuator (0°) spre Nord (0°–90° N) sau spre Sud (0°–90° S).
+@ Ce înseamnă scara unei hărți de 1:200 000? :: Că 1 cm de pe hartă reprezintă 200 000 cm în teren (adică 2 000 m sau 2 km).
+@ În ce emisfere este așezată România? :: În Emisfera Nordică (după Ecuator) și Emisfera Estică (după Meridianul Greenwich).
+? Latitudinea unui punct geografic se măsoară:
++ de la Ecuator spre Nord sau spre Sud (0°–90°)
+- de la Meridianul Greenwich spre Est sau Vest
+- de la Polul Nord spre Polul Sud
+- de la linia schimbării datei
+! Ecuatorul este paralela de referință 0°.
+? O hartă cu scara de 1:50 000 înseamnă că 2 cm pe hartă reprezintă în realitate:
++ 1 kilometru
+- 500 de metri
+- 5 kilometri
+- 10 kilometri
+! 1 cm = 50 000 cm = 500 m; așadar 2 cm = 1 000 m = 1 km.
+? Meridianul de 0° trece prin localitatea:
++ Greenwich (Londra)
+- Paris
+- Roma
+- Washington
+! Meridianul Greenwich a fost stabilit internațional ca reper de 0° longitudine.
+? Apele Oceanului Planetar acoperă din suprafața Terrei aproximativ:
++ 71%
 - 50%
-- 71%
-- 15%
-! Apele ocupă circa 71%.
-? Forma de geoid înseamnă că Pământul este:
-+ turtit la poli și umflat la ecuator
-- perfect sferic
-- cilindric
-- eliptic în plan
-! Turtirea se datorează mișcării de rotație.
+- 29%
+- 85%
+! Continentele și insulele ocupă restul de circa 29%.
 
-### geo9-02 | Mișcările Pământului și consecințele lor
-Mișcarea de rotație se face în jurul axei polilor, de la vest la est, în 23 de ore, 56 de minute și 4 secunde (ziua siderală). Consecințe: succesiunea zilei și a nopții, turtirea la poli, devierea corpurilor în mișcare (forța Coriolis — spre dreapta în emisfera nordică, spre stânga în cea sudică), existența fusurilor orare (24 de fusuri, câte 15° fiecare).
-Mișcarea de revoluție se face în jurul Soarelui, pe o orbită eliptică, în 365 de zile, 5 ore, 48 de minute și 46 de secunde (anul tropic). Deoarece axa Pământului este înclinată cu 66°33' față de planul orbitei, revoluția produce succesiunea anotimpurilor, inegalitatea zilelor și nopților și zonele de climă.
-Datele astronomice: 21 martie (echinocțiul de primăvară) și 23 septembrie (echinocțiul de toamnă) — zi egală cu noapte pe tot globul; 22 iunie (solstițiul de vară) — ziua cea mai lungă în emisfera nordică; 22 decembrie (solstițiul de iarnă) — ziua cea mai scurtă. Cercurile importante: Ecuatorul (0°), tropicele (23°27'), cercurile polare (66°33').
-* Rotația: în jurul axei, de la vest la est, în 23 h 56 min 4 s.
-* Consecințe ale rotației: zi și noapte, turtirea la poli, forța Coriolis, fusurile orare.
-* Revoluția, cu axa înclinată, produce anotimpurile și zonele de climă.
-* Echinocții: 21 martie și 23 septembrie; solstiții: 22 iunie și 22 decembrie.
-= forța Coriolis :: devierea corpurilor în mișcare, cauzată de rotația Pământului
-= echinocțiu :: momentul în care ziua este egală cu noaptea pe întreg globul
-@ Cât durează mișcarea de rotație? :: 23 de ore, 56 de minute și 4 secunde.
-@ Ce produce înclinarea axei Pământului? :: Succesiunea anotimpurilor și inegalitatea zilelor și nopților.
-@ Ce este forța Coriolis? :: Devierea corpurilor în mișcare, spre dreapta în emisfera nordică și spre stânga în cea sudică.
-@ Când au loc echinocțiile? :: La 21 martie și 23 septembrie.
-? Numărul fusurilor orare este:
-+ 24, de câte 15° fiecare
-- 12, de câte 30° fiecare
-- 36, de câte 10° fiecare
-- 18, de câte 20° fiecare
-! Ele rezultă din împărțirea celor 360° la 24 de ore.
-? Solstițiul de vară în emisfera nordică are loc la:
-+ 22 iunie
-- 22 decembrie
-- 21 martie
-- 23 septembrie
-! Atunci ziua este cea mai lungă în emisfera nordică.
-? Succesiunea anotimpurilor este cauzată de:
-+ revoluție, combinată cu înclinarea axei
-- rotație
-- forma de geoid
-- distanța variabilă față de Soare
-! Fără înclinarea axei nu ar exista anotimpuri.
-? Forța Coriolis deviază corpurile, în emisfera nordică:
-+ spre dreapta
-- spre stânga
-- spre ecuator
-- spre pol
-! În emisfera sudică devierea este spre stânga.
+### geo9-02 | Mișcările Pământului, fusurile orare și anotimpurile
+Pământul execută simultan două mișcări astronomice principale care determină ritmul vieții și al climei pe glob:
+1. Mișcarea de rotație: se efectuează în jurul axei polilor, de la Vest spre Est, într-o perioadă de 24 de ore (ziua solară medie; 23h 56m 4s ziua siderală). Consecințe majore:
+(a) Alternanța zilelor și a nopților: lumina solară atinge succesiv diferite meridiane.
+(b) Forța Coriolis (forța de deviere inerțială): corpurile aflate în mișcare pe orizontală (vânturi, curenți marini) sunt deviate spre dreapta în Emisfera Nordică și spre stânga în Emisfera Sudică.
+(c) Fusurile orare: circumferința globului de 360° împărțită la cele 24 de ore ale zilei dă exact 15° longitudine pentru fiecare fus orar (15° = 1 oră diferență de timp). Deplasarea spre Est adaugă ore (+1 oră pentru fiecare fus de 15° străbătut), iar deplasarea spre Vest scade ore (-1 oră). Linia internațională a schimbării datei este fixată la antimeridianul de 180° (trecerea ei de la Vest la Est scade o zi calendaristică, iar de la Est la Vest adaugă o zi). România folosește ora Europei de Est (fusul GMT+2, iar în perioada orei de vară GMT+3).
+2. Mișcarea de revoluție: se efectuează în jurul Soarelui, pe o orbită eliptică (cu Pământul la periheliu în ianuarie și la afeliu în iulie), în 365 de zile, 5 ore, 48 de minute și 46 de secunde. Datorită înclinării constante a axei terestre cu 66°33' față de planul orbitei (sau 23°27' față de perpendiculară), unghiul sub care cad razele solare pe suprafața Pământului variază de-a lungul anului, generând cele patru anotimpuri în zonele temperate și inegalitatea zilelor și nopților. Momente astronomice: la Solstițiul de vară (21 iunie), razele cad perpendicular pe Tropicul Racului (23°27' N), în emisfera nordică fiind cea mai lungă zi și ziua polară la Cercul Polar de Nord; la Echinocțiul de toamnă (23 septembrie), razele cad perpendicular pe Ecuator, ziua fiind egală cu noaptea (câte 12 ore) pe tot globul; la Solstițiul de iarnă (21/22 decembrie), razele cad perpendicular pe Tropicul Capricornului (23°27' S), marcând cea mai scurtă zi în emisfera nordică și noaptea polară la nord; la Echinocțiul de primăvară (21 martie), razele cad din nou perpendicular pe Ecuator, ziua fiind egală cu noaptea peste tot.
+* Rotația se face de la Vest la Est în 24 de ore; generează alternanța zi/noapte și forța Coriolis.
+* Fusurile orare: globul este împărțit în 24 de fusuri a câte 15° longitudine (15° = 1 oră).
+* Revoluția se face în 365 de zile și 6 ore; împreună cu înclinarea axei produce succesiunea anotimpurilor.
+* Solstiții: 21 iunie (ziua cea mai lungă în emisfera nordică) și 21/22 decembrie (ziua cea mai scurtă).
+* Echinocții: 21 martie și 23 septembrie (ziua egală cu noaptea pe tot globul).
+= forță Coriolis :: forță de inerție generată de rotația Terrei, care deviază vânturile spre dreapta în N și stânga în S
+= fus orar :: fâșie terestră lată de 15° longitudine pe cuprinsul căreia ora oficială este identică
+= solstițiu :: momentul când Soarele culminează la zenit la unul dintre cele două tropice, marcând maxima inegalitate zi/noapte
+= echinocțiu :: momentul când Soarele culminează la zenit la Ecuator, iar ziua este egală cu noaptea pe tot globul
+@ Ce lățime în grade de longitudine are un fus orar? :: 15° longitudine, corespunzând unei diferențe de o oră de timp.
+@ În ce direcție deviază vânturile forța Coriolis în emisfera nordică? :: Spre dreapta direcției de deplasare.
+@ Ce se întâmplă la solstițiul de vară (21 iunie) în emisfera nordică? :: Este ziua cu cea mai mare durată din an și începutul verii astronomice.
+@ Când este ziua egală cu noaptea pe tot globul? :: La cele două echinocții: de primăvară (21 martie) și de toamnă (23 septembrie).
+? Forța Coriolis deviază masele de aer în emisfera nordică:
++ spre dreapta direcției de deplasare
+- spre stânga direcției de deplasare
+- exclusiv spre Ecuator
+- vertical spre stratosferă
+! În emisfera nordică devierea este spre dreapta, iar în emisfera sudică spre stânga.
+? Dacă la meridianul 0° (Greenwich) este ora 12:00, la meridianul de 30° Est este ora:
++ 14:00
+- 10:00
+- 13:00
+- 15:00
+! 30° împărțit la 15° = 2 fusuri; spre Est timpul crește: 12 + 2 = 14:00.
+? La data de 21 iunie, în emisfera nordică are loc:
++ solstițiul de vară (ziua cea mai lungă)
+- solstițiul de iarnă (noaptea cea mai lungă)
+- echinocțiul de primăvară
+- echinocțiul de toamnă
+! Razele cad perpendicular pe Tropicul Racului, marcând solstițiul de vară boreal.
+? Echinocțiul înseamnă că:
++ durata zilei este egală cu durata nopții pe întreg globul
+- noaptea durează 24 de ore la poli
+- ziua durează 16 ore la Ecuator
+- Soarele este cel mai aproape de Pământ
+! La echinocții (21 martie și 23 septembrie), ziua și noaptea au câte 12 ore oriunde pe Terra.
+
 
 ## 1 | geo9-c2 | Relieful terestru
 ### geo9-03 | Structura internă și tectonica plăcilor

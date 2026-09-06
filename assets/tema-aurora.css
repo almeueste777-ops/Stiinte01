@@ -442,3 +442,19 @@
 :root:where([data-miscare="redusa"]) .tab-ind.aur-jump,
 :root:where([data-miscare="redusa"]) .aur-island{ animation:none }
 :root:where([data-miscare="redusa"]) .aur-halo::before{ opacity:.35 }
+
+/* — 4.10 Emblema oficială a liceului ————————————————————————————— */
+.scoala-card-row{
+  display:flex;
+  align-items:center;
+  gap:var(--sp-4);
+  margin-top:10px;
+}
+.emblema-scoala{
+  width:60px;
+  height:60px;
+  border-radius:var(--r-md);
+  box-shadow:0 4px 14px rgba(16,25,42,.28), 0 0 0 1.5px rgba(233,180,92,.5);
+  flex-shrink:0;
+  object-fit:cover;
+}

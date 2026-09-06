@@ -67,21 +67,21 @@ Ce s-a întâmplat la Brașov, la 15 noiembrie 1987?::A avut loc o revoltă a mu
 
 Ce a fost Scrisoarea celor șase?::Protestul public din martie 1989 al șase foști demnitari comuniști împotriva politicii lui Ceaușescu.
 
-Care este primul pas în rezolvarea unui subiect cu sursă?::Citirea cerinței, nu a sursei.
+Care sunt conectorii obligatorii pentru relația cauză–efect?::Conectori de cauză („deoarece”, „întrucât”) și conectori de efect („drept urmare”, „în consecință”).
 
-Ce cere verbul „explică”?::Relația cauză–efect, formulată cu conectori logici.
+Ce cuprinde structura unui punct de vedere de punctaj maxim?::Formularea opiniei proprii („În opinia mea”) susținută cu două informații distincte citate din text.
 
-Ce greșeală se face la cerințele „pe baza sursei”?::Folosirea informațiilor din memorie în locul celor din text.
+Ce eroare frecventă duce la pierderea punctelor la Subiectul I și II?::Folosirea cunoștințelor din memorie atunci când cerința cere expres informații „din sursă”.
 
-Cum se formulează o comparație corectă?::Simetric: aceleași criterii aplicate ambelor realități, cu asemănări și deosebiri explicite.
+Care este diferența dintre „menționați” și „prezentați”?::„Menționați” cere doar numirea elementului; „prezentați” cere dezvoltarea lui cu context și trăsături.
 
-Cum se structurează un eseu istoric de bacalaureat?::Introducere care încadrează tema, cuprins organizat pe cerințe, încheiere cu o concluzie.
+Câte cuvinte trebuie să aibă un eseu structurat la Bacalaureat?::Aproximativ 400 de cuvinte (circa două pagini de teză).
 
-De ce trebuie respectată ordinea cerințelor?::Pentru că punctajul urmează ordinea din subiect.
+Care sunt cele trei constituții democratice fundamentale ale României?::Constituțiile din 1866, 1923 și 1991 (revizuită în 2003).
 
-Ce lipsă face inutilă o afirmație generală?::Lipsa unui fapt istoric concret și datat care să o susțină.
+Când s-a desfășurat procesul de colectivizare a agriculturii în România?::Între anii 1949 și 1962.
 
-Cum se recunoaște un eseu bun?::Fiecare paragraf poate fi pus în dreptul unei cerințe din subiect.
+În ce an a fost publicată teoria imigraționistă a lui Robert Roësler?::În anul 1871 (lucrarea „Romänische Studien”).
 
 Ce forme de organizare politică a cunoscut Antichitatea?::Orașul-stat, republica și imperiul.
 

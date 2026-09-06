@@ -29,6 +29,6 @@ Represiunea comunistă a avut instrumente și etape. Instrumentele: Securitatea 
 
 ---
 
-⬅ [[Statul român modern - continuitate și ruptură]] · [[Lucrul cu sursele istorice la examen]] ➡
+⬅ [[Statul român modern - continuitate și ruptură]] · [[Lucrul cu sursele istorice la examen - Subiectul I și II]] ➡
 
 Exersează: [[Carduri - Istorie (clasa a XIII-a)]] · [[Test - Istorie (clasa a XIII-a)]]

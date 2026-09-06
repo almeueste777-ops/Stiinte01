@@ -11,21 +11,21 @@ cssclasses: carduri
 
 #flashcards/geografie
 
-Care este forma Pământului?::De geoid — sferă turtită la poli și umflată la ecuator.
+Care este forma reală a Terrei?::De geoid — sferă turtită la cei doi poli și bombată la Ecuator.
 
-Câte planete are Sistemul Solar și cum se împart?::Opt: patru terestre și patru gigante gazoase.
+Cum se măsoară latitudinea și între ce valori?::De la Ecuator (0°) spre Nord (0°–90° N) sau spre Sud (0°–90° S).
 
-Ce proporție ocupă apele din suprafața Pământului?::Aproximativ 71%.
+Ce înseamnă scara unei hărți de 1:200 000?::Că 1 cm de pe hartă reprezintă 200 000 cm în teren (adică 2 000 m sau 2 km).
 
-Care este raza ecuatorială a Pământului?::Aproximativ 6 378 km.
+În ce emisfere este așezată România?::În Emisfera Nordică (după Ecuator) și Emisfera Estică (după Meridianul Greenwich).
 
-Cât durează mișcarea de rotație?::23 de ore, 56 de minute și 4 secunde.
+Ce lățime în grade de longitudine are un fus orar?::15° longitudine, corespunzând unei diferențe de o oră de timp.
 
-Ce produce înclinarea axei Pământului?::Succesiunea anotimpurilor și inegalitatea zilelor și nopților.
+În ce direcție deviază vânturile forța Coriolis în emisfera nordică?::Spre dreapta direcției de deplasare.
 
-Ce este forța Coriolis?::Devierea corpurilor în mișcare, spre dreapta în emisfera nordică și spre stânga în cea sudică.
+Ce se întâmplă la solstițiul de vară (21 iunie) în emisfera nordică?::Este ziua cu cea mai mare durată din an și începutul verii astronomice.
 
-Când au loc echinocțiile?::La 21 martie și 23 septembrie.
+Când este ziua egală cu noaptea pe tot globul?::La cele două echinocții: de primăvară (21 martie) și de toamnă (23 septembrie).
 
 Care sunt cele trei învelișuri interne ale Pământului?::Scoarța, mantaua și nucleul.
 

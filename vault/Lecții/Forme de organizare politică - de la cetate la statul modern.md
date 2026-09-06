@@ -32,6 +32,6 @@ De-a lungul istoriei, oamenii au organizat puterea în forme foarte diferite. Î
 
 ---
 
-⬅ [[Eseul istoric structurat]] · [[Autonomie și independență în spațiul românesc]] ➡
+⬅ [[Eseul istoric structurat - Cele 7 mari teme de Bacalaureat]] · [[Autonomie și independență în spațiul românesc]] ➡
 
 Exersează: [[Carduri - Istorie (clasa a XIII-a)]] · [[Test - Istorie (clasa a XIII-a)]]

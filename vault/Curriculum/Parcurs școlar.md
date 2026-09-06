@@ -7,15 +7,15 @@ cssclasses: fisa
 
 | Câmp | Valoare |
 | --- | --- |
-| Filieră | Teoretică |
-| Profil | Umanist |
-| Specializare | Științe sociale |
-| Formă de învățământ | Frecvență redusă (FR) |
+| Filieră | Tehnologică / Teoretică |
+| Profil | Real |
+| Specializare | Profil Real |
+| Formă de învățământ | Frecvență redusă (FR) / Zi |
 | Durată | 5 ani (clasele a IX-a – a XIII-a) |
 | Locuri în oferta 2026–2027 | 60 |
 
 > [!warning] Cum se comprimă materia la frecvență redusă
-> La frecvență redusă liceul teoretic durează 5 ani. Conținuturile de la clasele IX–XI zi se parcurg în IX, X, XI și prima jumătate a clasei a XII-a; conținuturile clasei a XII-a zi se parcurg în a doua jumătate a clasei a XII-a și în clasa a XIII-a.
+> La frecvență redusă liceul tehnologic / teoretic durează 5 ani. Profilul real include pregătirea completă pentru probele de Bacalaureat: Limba și literatura română (Proba E.a), Limba modernă (Proba B), Matematică / Istorie (Proba E.c) și proba la alegere a profilului (Proba E.d: Biologie vegetală și animală, Anatomie și fiziologie, Geografie, etc.).
 
 ## Cei cinci ani
 
@@ -28,5 +28,5 @@ cssclasses: fisa
 | [[Clasa a XIII-a]] | 5 | 12 |
 
 ## Legături
-- [[Școala|Colegiul Tehnic „Alexandru Ioan Cuza”]]
+- [[Școala|Liceul Tehnologic „Ion Creangă”]]
 - [[Bacalaureat]]

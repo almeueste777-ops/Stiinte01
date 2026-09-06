@@ -147,13 +147,13 @@ Ce obiectiv fixează Acordul de la Paris?::Limitarea încălzirii sub 2°C, cu e
 
 Ce obiectiv fixează Pactul Ecologic European?::Neutralitatea climatică a Uniunii Europene până în 2050.
 
-Ce structură are un studiu de caz bun?::Obiect, date pe criterii, explicație prin factori, concluzie.
+Care sunt criteriile de bază pentru compararea a două unități de relief?::Geneza (modul de formare), alcătuirea petrografică (rocile), altitudinile, fragmentarea și relieful specific.
 
-Care este operația cea mai valoroasă într-un răspuns geografic?::Explicația, adică arătarea relației cauză–efect.
+Care sunt criteriile de bază pentru compararea a două tipuri de climă?::Etajul de climă, influențele climatice, temperaturile medii, precipitațiile anuale și vânturile.
 
-Ce indică verbul unei cerințe?::Operația cerută: a preciza, a caracteriza, a compara, a explica, a calcula.
+Cum trebuie formulat un răspuns la punctul D pentru a primi punctaj maxim?::Simetric, menționând criteriul și ambele unități în cadrul aceleiași afirmații.
 
-Ce greșeală apare când se cere „explicați”, iar elevul descrie?::Nu primește punctajul, fiindcă lipsește relația cauză–efect.
+Ce forme alcătuiesc relieful glaciar din Carpați?::Circuri glaciare (care adăpostesc lacuri glaciare), văi în „U” și creste ascuțite (custuri).
 
 Pe ce se bazează subiectul I și subiectul al II-lea la proba de geografie?::Subiectul I pe harta Europei, al II-lea pe harta României.
 
@@ -163,13 +163,13 @@ Care este cea mai eficientă metodă de pregătire cu harta?::Localizarea repeta
 
 Ce se scrie dacă se cere „numele statului marcat cu litera A”?::Numele statului, nu al capitalei.
 
-Cum se calculează densitatea populației?::Împărțind numărul de locuitori la suprafață; rezultatul se dă în loc./km².
+Care este formula matematică pentru calculul densității populației?::D = Populație / Suprafață, exprimată în loc./km².
 
-Cum se calculează sporul natural?::Ca diferență între natalitate și mortalitate.
+Cum se calculează corect amplitudinea termică anuală?::At = Temperatura maximă (iulie) − Temperatura minimă (ianuarie), în °C.
 
-Ce se pierde dacă rezultatul unui calcul nu are unitate de măsură?::Puncte, chiar dacă valoarea este corectă.
+Ce este sporul natural negativ (deficitul demografic)?::Situația în care numărul decedaților este mai mare decât numărul născuților vii (M > N).
 
-Care este referința actuală pentru datele despre populația României?::Recensământul din 2021.
+De ce este obligatorie unitatea de măsură la examen?::Pentru că baremul oficial depunctează orice rezultat numeric nesusținut de unitatea specifică (loc./km², °C, ‰).
 
 ---
 

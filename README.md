@@ -1,10 +1,10 @@
 # Științe Sociale — aplicație PWA de studiu
 
-Aplicație web progresivă (PWA) pentru elevii de liceu de la **filiera teoretică, profil umanist,
-specializarea Științe sociale, forma cu frecvență redusă (clasele a IX-a – a XIII-a)**.
+Aplicație web progresivă (PWA) pentru elevii de liceu de la **Liceul Tehnologic „Ion Creangă”, Târgu Neamț,
+profil real (clasele a IX-a – a XIII-a)**.
 
-Construită pentru **Colegiul Tehnic „Alexandru Ioan Cuza”, Suceava**, dar conținutul este
-editabil și poate fi adaptat oricărei alte școli.
+Construită special pentru **Liceul Tehnologic „Ion Creangă” din Târgu Neamț, profil real**, integrând
+materia completă pentru liceu și examenul de Bacalaureat.
 
 ## Ce face
 

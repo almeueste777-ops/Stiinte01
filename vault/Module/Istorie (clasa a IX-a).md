@@ -25,7 +25,7 @@ Antichitatea și Evul Mediu: popoare și spații istorice, forme de organizare p
 
 ### Popoare și spații istorice în Antichitate — semestrul 1
 
-- [[Izvoarele istorice și munca istoricului]]
+- [[De la zero - Cronologie, calculul secolelor, periodizare și izvoare istorice]]
 - [[Civilizațiile Orientului Antic]]
 - [[Grecia antică și moștenirea ei]]
 
@@ -73,7 +73,7 @@ Antichitatea și Evul Mediu: popoare și spații istorice, forme de organizare p
 
 ## Exersare
 - [[Carduri - Istorie (clasa a IX-a)]] — 96 carduri
-- [[Test - Istorie (clasa a IX-a)]] — 132 întrebări
+- [[Test - Istorie (clasa a IX-a)]] — 133 întrebări
 
 ## Legături
 - [[Istorie|Istorie]]

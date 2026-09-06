@@ -825,53 +825,53 @@ cssclasses: test
 > 
 > Niciuna nu poate fi sacrificată durabil.
 
-### 69. Într-un studiu de caz, partea cea mai valoroasă este:
+### 69. La o cerință de comparare a reliefului, menționarea unei deosebiri numai pentru o unitate:
 
-- a. explicația diferențelor prin factori concreți
-- b. enumerarea datelor
-- c. descrierea generală
-- d. lista criteriilor
-
-> [!success]- Răspuns
-> **a. explicația diferențelor prin factori concreți**
-> 
-> Explicația arată relația cauză–efect.
-
-### 70. Verbul „explicați” dintr-o cerință solicită:
-
-- a. arătarea cauzelor unui fenomen
-- b. numirea unui element
-- c. descrierea aspectului
-- d. localizarea pe hartă
-
-> [!success]- Răspuns
-> **a. arătarea cauzelor unui fenomen**
-> 
-> Un răspuns descriptiv nu primește punctajul.
-
-### 71. La cerința „precizați două unități de relief”, un răspuns cu o singură unitate:
-
-- a. primește doar jumătate din punctaj
+- a. este depunctată, cerându-se formulare simetrică pentru ambele unități
 - b. primește punctajul integral
-- c. este anulat complet
-- d. se punctează suplimentar
+- c. este considerată eroare gravă și anulează subiectul
+- d. aduce punctaj de bonus
 
 > [!success]- Răspuns
-> **a. primește doar jumătate din punctaj**
+> **a. este depunctată, cerându-se formulare simetrică pentru ambele unități**
 > 
-> Numărul cerut trebuie respectat exact.
+> Baremul cere precizarea explicită a trăsăturii pentru ambele unități comparate.
 
-### 72. Un răspuns structurat corect se încheie, de regulă, cu:
+### 70. Relieful glaciar (circuri, lacuri glaciare) este prezent în România în:
 
-- a. o concluzie care explică
-- b. o listă de date
-- c. o întrebare
-- d. o descriere suplimentară
+- a. Carpații Meridionali și Munții Rodnei
+- b. Podișul Dobrogei
+- c. Câmpia Română
+- d. Subcarpații Getici
 
 > [!success]- Răspuns
-> **a. o concluzie care explică**
+> **a. Carpații Meridionali și Munții Rodnei**
 > 
-> Concluzia leagă și interpretează informațiile prezentate.
+> Ghețarii cuaternari au acționat doar la altitudini de peste 1 800–2 000 m.
+
+### 71. O deosebire climatică între Câmpia de Vest și Câmpia Română este:
+
+- a. Câmpia de Vest are influențe oceanice, pe când Câmpia Română are influențe de ariditate (est-europene)
+- b. în Câmpia de Vest cad sub 300 mm precipitații pe an
+- c. Câmpia Română are un climat subpolar
+- d. ambele au climat montan
+
+> [!success]- Răspuns
+> **a. Câmpia de Vest are influențe oceanice, pe când Câmpia Română are influențe de ariditate (est-europene)**
+> 
+> Circulația vestică aduce umiditate în vest, iar masele continentale uscate aduc ariditate în est.
+
+### 72. Un răspuns structurat corect la geografie se caracterizează prin:
+
+- a. utilizarea terminologiei geografice precise și demonstrarea relației cauză–efect
+- b. compunere narativă fără date
+- c. doar enumerarea cifrelor fără unități de măsură
+- d. desenarea schemei fără text
+
+> [!success]- Răspuns
+> **a. utilizarea terminologiei geografice precise și demonstrarea relației cauză–efect**
+> 
+> Punctajul urmărește conceptele geografice, cauzalitatea și rigoarea exprimării.
 
 ### 73. Subiectul al II-lea al probei de geografie se bazează pe:
 
@@ -921,53 +921,53 @@ cssclasses: test
 > 
 > Recunoașterea pe hartă este exact ceea ce se cere.
 
-### 77. Densitatea populației se calculează:
+### 77. Densitatea populației se calculează prin formula:
 
-- a. împărțind numărul de locuitori la suprafață
-- b. împărțind suprafața la numărul de locuitori
-- c. înmulțind populația cu suprafața
-- d. scăzând mortalitatea din natalitate
-
-> [!success]- Răspuns
-> **a. împărțind numărul de locuitori la suprafață**
-> 
-> Rezultatul se exprimă în locuitori pe km².
-
-### 78. Graficul circular este potrivit pentru a reprezenta:
-
-- a. structura procentuală a unui întreg
-- b. evoluția în timp
-- c. densitatea populației
-- d. comparația între state
+- a. numărul de locuitori împărțit la suprafață (loc./km²)
+- b. suprafața împărțită la numărul de locuitori
+- c. numărul de locuitori înmulțit cu suprafața
+- d. natalitatea minus mortalitatea
 
 > [!success]- Răspuns
-> **a. structura procentuală a unui întreg**
+> **a. numărul de locuitori împărțit la suprafață (loc./km²)**
 > 
-> Graficul liniar arată evoluția în timp.
+> Rezultatul corect se dă obligatoriu în locuitori pe kilometru pătrat (loc./km²).
 
-### 79. Un rezultat corect, dar fără unitate de măsură:
+### 78. Dacă temperatura maximă este de +20°C, iar temperatura minimă este de -5°C, amplitudinea termică este:
 
-- a. pierde puncte
-- b. primește punctajul integral
-- c. este anulat complet
-- d. se punctează suplimentar
+- a. 25°C
+- b. 15°C
+- c. -25°C
+- d. 20°C
 
 > [!success]- Răspuns
-> **a. pierde puncte**
+> **a. 25°C**
 > 
-> Unitatea face parte din răspuns.
+> At = 20 − (-5) = 20 + 5 = 25°C.
 
-### 80. Majoritatea punctelor pierdute la geografie se datorează:
+### 79. Sporul natural al unei populații reprezintă:
 
-- a. nerespectării cerinței
-- b. necunoașterii materiei
-- c. lipsei de timp
-- d. scrisului ilizibil
+- a. diferența dintre natalitate și mortalitate
+- b. diferența dintre imigranți și emigranți
+- c. raportul dintre populație și suprafață
+- d. numărul total de persoane active
 
 > [!success]- Răspuns
-> **a. nerespectării cerinței**
+> **a. diferența dintre natalitate și mortalitate**
 > 
-> De aceea se subliniază verbul și numărul de elemente cerute.
+> Diferența dintre intrările prin naștere și ieșirile prin deces dă sporul natural.
+
+### 80. Un rezultat numeric obținut la Bacalaureat fără specificarea unității de măsură:
+
+- a. este depunctat conform baremului oficial de corectare
+- b. se punctează integral dacă numărul e corect
+- c. este anulat complet împreună cu tot subiectul
+- d. primește punctaj dublu
+
+> [!success]- Răspuns
+> **a. este depunctat conform baremului oficial de corectare**
+> 
+> Unitatea de măsură (loc./km², °C, ‰) este cerută explicit în barem.
 
 ### 81. Cea mai mare economie a Europei este:
 

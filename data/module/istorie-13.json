@@ -630,160 +630,187 @@
    "lectii": [
     {
      "id": "ist13-08",
-     "titlu": "Lucrul cu sursele istorice la examen",
-     "rezumat": "Subiectele de bacalaureat la istorie folosesc surse: fragmente de text istoriografic sau de document. Metoda de lucru are pași ficși. Întâi se citește cerința, nu sursa: ea spune ce anume trebuie căutat. Apoi se citește sursa integral, subliniind numele, datele, instituțiile și verbele care exprimă acțiuni. Tipurile de cerințe și ce așteaptă fiecare: „precizează” cere extragerea unei informații explicite; „menționează” cere numirea unui element, fără explicație; „numește” cere identificarea unei realități istorice; „prezintă” cere doi-trei pași de dezvoltare; „explică” cere relația cauză–efect, cu conectori („deoarece”, „prin urmare”); „compară” cere asemănări și deosebiri, formulate simetric; „argumentează” cere afirmarea unui punct de vedere plus temeiuri concrete. Greșeli frecvente: răspunsul care repetă sursa fără a răspunde la întrebare, folosirea informațiilor din memorie când cerința spune „din sursă”, confuzia dintre a menționa și a explica, absența conectorilor logici. La cerințele „pe baza sursei”, informația trebuie să provină din text; la cele „folosind cunoștințele proprii”, din materia studiată.",
+     "titlu": "Lucrul cu sursele istorice la examen: Subiectul I și II",
+     "rezumat": "Subiectele I și II de la examenul de Bacalaureat evaluează analiza pe sursă istorică (texte istoriografice sau documente de epocă). Pentru a obține punctajul maxim (30 de puncte la Subiectul I și 30 de puncte la Subiectul II), candidatul trebuie să stăpânească algoritmii de rezolvare conform baremului oficial: 1. Cerințele de identificare (1–5): se citește întâi cerința, se identifică cuvântul-cheie și se extrage informația exactă din text prin citat („...”) sau parafrază fidelă. Dacă se cere un an, un personaj sau o instituție, se menționează strict elementul solicitat, fără divagații. 2. Cerința de cauză–efect (6 puncte): presupune identificarea din sursă a două informații aflate în raport cauzal și formularea răspunsului utilizând obligatoriu conectorii logici de cauză („deoarece”, „întrucât”, „din cauză că”, „cauza fiind...”) și de efect („a determinat”, „drept urmare”, „prin urmare”, „în consecință”, „efectul fiind...”). Șablon de punctaj maxim: „Cauza este reprezentată de [informația din text], fapt indicat prin conectorul 'deoarece' / 'din cauză că', iar efectul acesteia este [informația din text], marcat prin conectorul 'drept urmare' / 'a determinat'.” 3. Formularea punctului de vedere argumentat (4 puncte): se solicită susținerea unei opinii pe baza sursei. Structura obligatorie: (a) Enunțarea punctului de vedere («În opinia mea, autorul consideră că / evenimentul a reprezentat...»); (b) Selectarea a DOUĂ informații distincte din text care susțin această afirmație («O primă informație din text este: '...'»; «O a doua informație din text este: '...'»). Lipsa conectorilor sau menționarea unei singure informații reduce punctajul.",
      "ideiCheie": [
-      "Se citește întâi cerința, apoi sursa.",
-      "„Precizează/menționează” cer informația; „explică/argumentează” cer relația și temeiurile.",
-      "La cerințele „din sursă” nu se folosesc informații din memorie.",
-      "Conectorii logici sunt obligatorii la explicație și la argumentare."
+      "La cerințele „pe baza sursei”, informația se preia exclusiv din text, fără adaosuri din memorie.",
+      "Relația de cauzalitate cere conectori obligatorii de cauză (deoarece/întrucât) și de efect (prin urmare/drept urmare).",
+      "Punctul de vedere cere formulare clară („În opinia mea”) plus DOUĂ informații selectate din sursă.",
+      "Verbul „menționează” cere doar numirea elementului; verbul „prezintă” cere o dezvoltare în 2–3 fraze logice."
      ],
      "termeni": [
       {
-       "t": "sursă istorică (la examen)",
-       "d": "fragment de text pe baza căruia se formulează cerințele de examen"
+       "t": "relație de cauzalitate",
+       "d": "legătura logică dintre cauza unui eveniment istoric și consecința directă a acestuia"
       },
       {
-       "t": "conector logic",
-       "d": "cuvânt care exprimă relația dintre idei („deoarece”, „prin urmare”, „în consecință”)"
+       "t": "punct de vedere argumentat",
+       "d": "formularea unei opinii istorice susținută cu două dovezi concrete extrase din textul-suport"
+      },
+      {
+       "t": "conector de cauză",
+       "d": "cuvânt de legătură care introduce motivul („deoarece”, „întrucât”, „având în vedere”)"
+      },
+      {
+       "t": "conector de efect",
+       "d": "cuvânt de legătură care introduce urmarea („drept urmare”, „prin urmare”, „a condus la”)"
       }
      ],
      "carduri": [
       {
-       "f": "Care este primul pas în rezolvarea unui subiect cu sursă?",
-       "v": "Citirea cerinței, nu a sursei."
+       "f": "Care sunt conectorii obligatorii pentru relația cauză–efect?",
+       "v": "Conectori de cauză („deoarece”, „întrucât”) și conectori de efect („drept urmare”, „în consecință”)."
       },
       {
-       "f": "Ce cere verbul „explică”?",
-       "v": "Relația cauză–efect, formulată cu conectori logici."
+       "f": "Ce cuprinde structura unui punct de vedere de punctaj maxim?",
+       "v": "Formularea opiniei proprii („În opinia mea”) susținută cu două informații distincte citate din text."
       },
       {
-       "f": "Ce greșeală se face la cerințele „pe baza sursei”?",
-       "v": "Folosirea informațiilor din memorie în locul celor din text."
+       "f": "Ce eroare frecventă duce la pierderea punctelor la Subiectul I și II?",
+       "v": "Folosirea cunoștințelor din memorie atunci când cerința cere expres informații „din sursă”."
       },
       {
-       "f": "Cum se formulează o comparație corectă?",
-       "v": "Simetric: aceleași criterii aplicate ambelor realități, cu asemănări și deosebiri explicite."
+       "f": "Care este diferența dintre „menționați” și „prezentați”?",
+       "v": "„Menționați” cere doar numirea elementului; „prezentați” cere dezvoltarea lui cu context și trăsături."
       }
      ],
      "test": [
       {
-       "intrebare": "La cerința „pe baza sursei”, informația trebuie să provină:",
+       "intrebare": "Pentru a puncta integral cerința de cauză–efect la Bacalaureat, răspunsul trebuie:",
        "optiuni": [
-        "exclusiv din textul dat",
-        "din memoria candidatului",
-        "din manual",
-        "din orice sursă cunoscută"
+        "să conțină ambele elemente legate explicit prin conectori de cauză și de efect",
+        "să conțină doar citatul complet al unui paragraf",
+        "să prezinte doar cauza, fără efect",
+        "să fie formulat ca opinie personală"
        ],
        "corect": 0,
-       "explicatie": "Altfel răspunsul nu se punctează, chiar dacă e corect istoric."
+       "explicatie": "Baremul cere precizarea explicită a cauzei și a efectului, susținute prin conectori specifici."
       },
       {
-       "intrebare": "Verbul „menționează” cere:",
+       "intrebare": "La cerința de formulare a unui punct de vedere pe baza textului, sunt necesare:",
        "optiuni": [
-        "numirea unui element, fără explicație",
-        "o relație cauză–efect",
-        "o comparație",
-        "un punct de vedere argumentat"
+        "formularea punctului de vedere și două informații selectate din sursă",
+        "o singură informație din text și o concluzie filozofică",
+        "exclusiv date din afara textului",
+        "o compunere liberă fără trimitere la sursă"
        ],
        "corect": 0,
-       "explicatie": "Explicația se cere prin verbul „explică”."
+       "explicatie": "Punctajul maxim se acordă doar pentru formularea punctului de vedere susținut de două informații din text."
       },
       {
-       "intrebare": "O comparație corect formulată presupune:",
+       "intrebare": "La cerința „menționați din sursa A o trăsătură a statului”, răspunsul corect:",
        "optiuni": [
-        "aceleași criterii aplicate ambelor realități",
-        "descrierea separată a fiecăreia",
-        "doar asemănările",
-        "doar deosebirile"
+        "extrage strict trăsătura menționată în textul A",
+        "explică detaliat evoluția istorică din manual",
+        "oferă o comparație cu sursa B",
+        "rezumă întregul text"
        ],
        "corect": 0,
-       "explicatie": "Simetria criteriilor face comparația verificabilă."
+       "explicatie": "Cerința cere extragerea punctuală a informației solicitate din textul indicat."
       },
       {
-       "intrebare": "Absența conectorilor logici afectează în primul rând:",
+       "intrebare": "O relație cauză–efect formulată fără conectori logici:",
        "optiuni": [
-        "explicația și argumentarea",
-        "extragerea informației",
-        "menționarea unui element",
-        "numirea unui personaj"
+        "este depunctată conform baremului oficial de redactare",
+        "primește punctaj maxim automat",
+        "anulează întreaga lucrare",
+        "se compensează la Subiectul III"
        ],
        "corect": 0,
-       "explicatie": "Relația dintre idei trebuie să fie explicită."
+       "explicatie": "Conectorii sunt obligatorii pentru demonstrarea raționamentului istoric."
       }
      ]
     },
     {
      "id": "ist13-09",
-     "titlu": "Eseul istoric structurat",
-     "rezumat": "Eseul de la bacalaureat este un text structurat pe o temă dată, cu cerințe punctate separat. Structura recomandată: introducere care încadrează tema în timp și spațiu și anunță planul; cuprins organizat pe cerințele din subiect, în ordinea lor, fiecare cu fapte istorice concrete (nume, date, instituții, acte); încheiere care formulează o concluzie, nu un rezumat. Reguli practice. Fiecare afirmație generală trebuie însoțită de un fapt concret: „România s-a modernizat” nu valorează nimic fără „prin legea rurală din 1864, care a împroprietărit clăcașii”. Faptele se datează. Se respectă ordinea cerințelor din subiect, fiindcă punctajul le urmează. Se scrie cu conectori și cu paragrafe separate pentru fiecare cerință. Greșeli frecvente care costă puncte: povestirea cronologică generală în locul răspunsului la cerință, afirmațiile fără fapte, confuzia între evenimente apropiate ca dată, introducerea unor informații corecte dar nesolicitate, lipsa concluziei. Un eseu bun se recunoaște ușor: fiecare paragraf poate fi pus în dreptul unei cerințe din subiect.",
+     "titlu": "Eseul istoric structurat: Cele 7 mari teme de Bacalaureat",
+     "rezumat": "Subiectul al III-lea al probei de Bacalaureat la Istorie constă în redactarea unui eseu structurat de aproximativ două pagini (circa 400 de cuvinte), punctat cu 30 de puncte (din care 18–24 puncte pentru conținutul istoric și 6–12 puncte pentru calitatea redactării: introducere, cuprins pe repere, încheiere, limbaj istoric, cauzalitate și cronologie). Programa de Bacalaureat se concentrează pe 7 mari teme istorice fundamentale: 1. Romanitatea românilor în viziunea istoricilor: de la umaniștii Renașterii (Poggio Bracciolini, Flavio Biondo) și cronicarii români (Grigore Ureche, Miron Costin, Constantin Cantacuzino, Dimitrie Cantemir), la Școala Ardeleană (Samuil Micu, Gheorghe Șincai, Petru Maior — latinitatea pură), teoria imigraționistă a lui Robert Roësler (1871, „Die Romanischen Studien”) și combaterea ei științifică de către B.P. Hasdeu, A.D. Xenopol și Nicolae Iorga. 2. Autonomii locale și instituții centrale în spațiul românesc (secolele IX–XVIII): cnezatele și voievodatele atestate în Gesta Hungarorum și Diploma Cavalerilor Ioaniți (1247), întemeierea Țării Românești (Basarab I, bătălia de la Posada 1330) și a Moldovei (Bogdan I 1359), formarea instituțiilor (Domnia, Sfatul domnesc, Adunarea Țării, Mitropolia). 3. Spațiul românesc între diplomație și conflict în Evul Mediu și la începutul modernității: marile bătălii antiotomane și tratatele diplomatice (Mircea cel Bătrân — Rovine 1395, Tratatul de la Brașov cu Ungaria; Iancu de Hunedoara — victoria de la Belgrad 1456; Vlad Țepeș — Atacul de noapte 1462; Ștefan cel Mare — Vaslui 1475, Războieni 1476, tratatele de la Colomeea și Hârlău; Mihai Viteazul — Călugăreni 1595, Tratatul de la Alba Iulia, unirea din 1600 a Țării Românești, Transilvaniei și Moldovei). 4. Statul român modern: de la proiect politic la România Mare: memoriile boierești și cererile naționale din 1821 (Tudor Vladimirescu, „Cererile norodului românesc”), Proclamația de la Islaz din 1848, Unirea Principatelor din 1859 (dubla alegere a lui Alexandru Ioan Cuza, secularizarea averilor mănăstirești 1863, reforma agrară și reforma instrucțiunii 1864), aducerea principelui Carol I (1866), cucerirea independenței de stat (1877–1878, recunoscută la Tratatul de la Berlin), proclamarea Regatului (1881) și desăvârșirea Marii Uniri din 1918 (Basarabia la 27 martie, Bucovina la 28 noiembrie, Transilvania, Banatul, Crișana și Maramureșul la 1 Decembrie 1918 la Alba Iulia). 5. Constituțiile României: compararea constituțiilor democratice (1866 — prima constituție modernă, monarhie constituțională, vot cenzitar, proprietate sacră; 1923 — constituția unificării, vot universal masculin, egalitate civică deplină; 1991/2003 — revenirea la democrație, stat de drept, pluralism politic, economie de piață) cu cele autoritare și totalitare (1938 sub Carol al II-lea — concentrarea puterii în mâinile regelui; constituțiile comuniste din 1948, 1952 și 1965 — suprimarea separării puterilor, partidul unic conducător, proprietatea socialistă). 6. Secolul XX între democrație și totalitarism: regimul parlamentar interbelic, regimurile autoritare (carlist, legionar, antonescian) și regimul totalitar comunist cu cele două mari etape: stalinismul / etapa dejistă (1948–1965: naționalizarea din 11 iunie 1948, colectivizarea forțată a agriculturii 1949–1962, Securitatea înființată în 1948, închisorile politice de la Sighet, Aiud, Gherla și experimentul Pitești, deportările în Bărăgan din 1951) și etapa național-comunistă a lui Nicolae Ceaușescu (1965–1989: cultul personalității după Tezele din iulie 1971, industrializarea forțată, plata accelerată a datoriei externe, lipsurile acute de alimente, căldură și libertate, mișcările de protest de la Valea Jiului 1977 și Brașov 1987, Revoluția din Decembrie 1989). 7. România și relațiile internaționale în Războiul Rece: subordonarea față de URSS prin CAER (1949) și Tratatul de la Varșovia (1955), retragerea trupelor sovietice în 1958, „Declarația din aprilie 1964” a PMR privind autonomia față de Moscova, condamnarea invadării Cehoslovaciei de către Ceaușescu în august 1968, iar după 1989 reorientarea strategică spre democrație și integrare euroatlantică (parteneriat strategic cu SUA, aderarea la NATO în 2004 și la Uniunea Europeană la 1 ianuarie 2007). Structura redactării unui eseu: introducere cu încadrare spațio-temporală precisă; cuprins structurat pe paragrafe distincte pentru fiecare cerință din enunț (obligatoriu susținute cu fapte istorice datate și noțiuni de specialitate); încheiere sintetică cu o judecată de valoare.",
      "ideiCheie": [
-      "Structura: introducere care încadrează, cuprins pe cerințe, încheiere cu concluzie.",
-      "Fiecare afirmație generală cere un fapt concret, datat.",
-      "Se respectă ordinea cerințelor, fiindcă punctajul o urmează.",
-      "Informația corectă, dar nesolicitată, nu aduce puncte."
+      "Eseul de bacalaureat cuprinde circa 400 de cuvinte și este structurat strict pe cerințele enunțului.",
+      "Punctajul de redactare cere introducere, cuprins închegat, concluzie și folosirea conectorilor.",
+      "Faptele istorice trebuie obligatoriu datate (anul exact al evenimentului sau secolul/deceniul).",
+      "Cele 7 teme acoperă romanitatea, autonomiile, bătăliile/diplomația medievală, modernitatea, constituțiile, totalitarismul și relațiile externe."
      ],
      "termeni": [
       {
-       "t": "eseu structurat",
-       "d": "text organizat pe cerințe date, fiecare punctată separat"
+       "t": "eseu structurat de bacalaureat",
+       "d": "compoziție istorică argumentată, redactată pe baza cerințelor enunțate în subiect"
       },
       {
-       "t": "încadrare",
-       "d": "precizarea contextului de timp, spațiu și cauzalitate la începutul unui eseu istoric"
+       "t": "fapt istoric",
+       "d": "eveniment concret, petrecut în timp și spațiu, documentat prin izvoare istorice"
+      },
+      {
+       "t": "Teoria roesleriană",
+       "d": "teorie imigraționistă lansată de Robert Roësler în 1871, care nega continuitatea românilor la nord de Dunăre"
+      },
+      {
+       "t": "colectivizarea agriculturii",
+       "d": "procesul violent (1949–1962) prin care țăranii au fost forțați să cedeze pământurile către GAC/CAP"
       }
      ],
      "carduri": [
       {
-       "f": "Cum se structurează un eseu istoric de bacalaureat?",
-       "v": "Introducere care încadrează tema, cuprins organizat pe cerințe, încheiere cu o concluzie."
+       "f": "Câte cuvinte trebuie să aibă un eseu structurat la Bacalaureat?",
+       "v": "Aproximativ 400 de cuvinte (circa două pagini de teză)."
       },
       {
-       "f": "De ce trebuie respectată ordinea cerințelor?",
-       "v": "Pentru că punctajul urmează ordinea din subiect."
+       "f": "Care sunt cele trei constituții democratice fundamentale ale României?",
+       "v": "Constituțiile din 1866, 1923 și 1991 (revizuită în 2003)."
       },
       {
-       "f": "Ce lipsă face inutilă o afirmație generală?",
-       "v": "Lipsa unui fapt istoric concret și datat care să o susțină."
+       "f": "Când s-a desfășurat procesul de colectivizare a agriculturii în România?",
+       "v": "Între anii 1949 și 1962."
       },
       {
-       "f": "Cum se recunoaște un eseu bun?",
-       "v": "Fiecare paragraf poate fi pus în dreptul unei cerințe din subiect."
+       "f": "În ce an a fost publicată teoria imigraționistă a lui Robert Roësler?",
+       "v": "În anul 1871 (lucrarea „Romänische Studien”)."
       }
      ],
      "test": [
       {
-       "intrebare": "Într-un eseu de bacalaureat, informația corectă dar nesolicitată:",
+       "intrebare": "Teoria imigraționistă care nega continuitatea românilor a fost publicată de:",
        "optiuni": [
-        "nu aduce puncte",
-        "aduce puncte suplimentare",
-        "compensează o cerință omisă",
-        "se punctează pe jumătate"
+        "Robert Roësler în 1871",
+        "A.D. Xenopol în 1884",
+        "Grigore Ureche în 1647",
+        "Dimitrie Cantemir în 1716"
        ],
        "corect": 0,
-       "explicatie": "Punctajul urmează strict cerințele formulate."
+       "explicatie": "Robert Roësler a susținut că românii s-ar fi format la sud de Dunăre și ar fi imigrat în sec. al XIII-lea."
       },
       {
-       "intrebare": "Încheierea unui eseu istoric trebuie să conțină:",
+       "intrebare": "În cadrul eseului de Bacalaureat, respectarea ordinii cerințelor din enunț este importantă deoarece:",
        "optiuni": [
-        "o concluzie, nu un simplu rezumat",
-        "repetarea introducerii",
-        "o listă de date",
-        "o opinie personală nesusținută"
+        "baremul de corectare urmărește succesiunea cerințelor pentru acordarea punctajului",
+        "schimbarea ordinii anulează automat lucrarea",
+        "lungimea eseului este dictată de această ordine",
+        "dictează data bătăliilor"
        ],
        "corect": 0,
-       "explicatie": "Concluzia leagă faptele prezentate de tema anunțată."
+       "explicatie": "Corectorii acordă punctele urmărind pas cu pas cerințele din baremul oficial."
       },
       {
-       "intrebare": "Afirmația „România s-a modernizat în timpul lui Cuza” devine punctabilă dacă:",
+       "intrebare": "Colectivizarea agriculturii în România comunistă s-a încheiat oficial în:",
        "optiuni": [
-        "este însoțită de fapte concrete și datate",
-        "este repetată în încheiere",
-        "este scrisă în introducere",
-        "este formulată la superlativ"
+        "1962",
+        "1948",
+        "1953",
+        "1989"
        ],
        "corect": 0,
-       "explicatie": "De exemplu: secularizarea din 1863 și legea rurală din 1864."
+       "explicatie": "Începută în martie 1949, colectivizarea a fost declarată încheiată în aprilie 1962."
+      },
+      {
+       "intrebare": "Prima constituție modernă a României a fost adoptată în:",
+       "optiuni": [
+        "1866",
+        "1859",
+        "1923",
+        "1878"
+       ],
+       "corect": 0,
+       "explicatie": "Inspirată din constituția belgiană din 1831, a instituit monarhia constituțională."
       },
       {
        "intrebare": "Greșeala cea mai costisitoare într-un eseu structurat este:",

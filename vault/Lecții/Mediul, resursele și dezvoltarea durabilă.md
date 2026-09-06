@@ -29,6 +29,6 @@ Problemele de mediu sunt printre cele mai importante teme ale lumii contemporane
 
 ---
 
-⬅ [[Problema demografică și migrațiile în lumea de azi]] · [[Studiul de caz și eseul geografic structurat]] ➡
+⬅ [[Problema demografică și migrațiile în lumea de azi]] · [[Studiul de caz, eseul geografic și metoda comparației la Bacalaureat]] ➡
 
 Exersează: [[Carduri - Geografie (clasa a XIII-a)]] · [[Test - Geografie (clasa a XIII-a)]]

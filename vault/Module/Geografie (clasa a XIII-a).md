@@ -60,9 +60,9 @@ Aprofundare pentru bacalaureat: regiunile Europei, analiza comparativă a statel
 
 ### Metodă și pregătire pentru examen (aprofundare) — semestrul 2
 
-- [[Studiul de caz și eseul geografic structurat]]
+- [[Studiul de caz, eseul geografic și metoda comparației la Bacalaureat]]
 - [[Lucrul cu harta Europei și a României la examen]]
-- [[Calcule, grafice și erori tipice la proba de geografie]]
+- [[Calcule geografice de Bacalaureat, formule și grafice]]
 
 ## Exersare
 - [[Carduri - Geografie (clasa a XIII-a)]] — 80 carduri

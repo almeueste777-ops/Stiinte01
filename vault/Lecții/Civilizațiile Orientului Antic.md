@@ -29,6 +29,6 @@ Primele civilizații apar în văile marilor fluvii, unde agricultura irigată a
 
 ---
 
-⬅ [[Izvoarele istorice și munca istoricului]] · [[Grecia antică și moștenirea ei]] ➡
+⬅ [[De la zero - Cronologie, calculul secolelor, periodizare și izvoare istorice]] · [[Grecia antică și moștenirea ei]] ➡
 
 Exersează: [[Carduri - Istorie (clasa a IX-a)]] · [[Test - Istorie (clasa a IX-a)]]
