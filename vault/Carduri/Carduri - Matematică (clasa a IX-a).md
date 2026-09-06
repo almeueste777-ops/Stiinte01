@@ -19,9 +19,9 @@ Cât este |−7|?::7, pentru că modulul este distanța față de zero.
 
 Ce valori poate lua partea fracționară a unui număr real?::Valori din intervalul de la 0 inclusiv la 1 exclusiv.
 
-Cât este a la puterea zero, pentru a nenul?::1.
+Cât este a^0 = 1, pentru a nenul?::1.
 
-Ce înseamnă exponent negativ?::Inversul puterii cu exponent pozitiv: a la −n este 1 supra a la n.
+Ce înseamnă exponent negativ?::Inversul puterii cu exponent pozitiv: a la −n este \frac{1}{a^n}.
 
 Ce face logaritmul cu un produs?::Îl transformă în sumă de logaritmi.
 
@@ -113,7 +113,7 @@ Câți radiani are un unghi de 180 de grade?::Pi radiani.
 
 Ce reprezintă coordonatele unui punct de pe cercul trigonometric?::Cosinusul și sinusul unghiului corespunzător.
 
-Cum se transformă gradele în radiani?::Cu o proporție, folosind echivalența 180 de grade egal pi radiani.
+Cum se transformă gradele în radiani?::Cu o proporție, folosind echivalența 180 de grade egal \pi \text{ radiani}.
 
 Ce afirmă teorema sinusurilor?::Că raportul dintre o latură și sinusul unghiului opus este același pentru toate laturile.
 

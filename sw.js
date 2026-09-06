@@ -1,20 +1,21 @@
 /* Service worker: precache + strategii de cache.
    IMPORTANT: crește CACHE la fiecare modificare a fișierelor, ca utilizatorii să primească versiunea nouă. */
-const CACHE = 'stiinte01-v19';  // v15 — Liceul Tehnologic Ion Creanga, emblema noua, Geografie si Istorie Bacalaureat
+const CACHE = 'stiinte01-v20';  // v16 — Tastatura Matematica Nativa, Ciorna, Video si Tabla Pas cu Pas
 /* Scheletul aplicației: FĂRĂ el aplicația nu pornește, deci se cere atomic. */
 const SHELL = [
   './',
   './index.html',
   /* ?v= trebuie să fie IDENTIC cu cel din index.html (cache-ul SW potrivește
      URL-ul exact, cu tot cu query) — CI-ul verifică sincronizarea. */
-  './assets/app.css?v=19',
-  './assets/tema-aurora.css?v=19',
-  './assets/app.js?v=19',
+  './assets/app.css?v=20',
+  './assets/tema-aurora.css?v=20',
+  './assets/app.js?v=20',
   './assets/emblema.png',
   './manifest.webmanifest',
   './data/curriculum.json',
   './data/continut.json',
   './data/versiuni.json',
+  './data/mate-didactic.json',
   './icons/icon-192.png',
   './icons/icon-512.png',
   './icons/icon-maskable-512.png'

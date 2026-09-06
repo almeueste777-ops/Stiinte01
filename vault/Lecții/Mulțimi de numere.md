@@ -18,7 +18,7 @@ Mulțimile de numere se cuprind una pe alta: naturale (N), întregi (Z), rațion
 
 ## Idei-cheie
 
-- Incluziunea mulțimilor: N inclus în Z inclus în Q inclus în R.
+- Incluziunea mulțimilor: \mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}.
 - Raționalele au dezvoltare zecimală finită sau periodică; iraționalele, infinită neperiodică.
 - Modulul unui număr real este distanța lui față de zero.
 - Partea fracționară este mereu în intervalul de la 0 la 1.

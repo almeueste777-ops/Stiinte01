@@ -53,10 +53,10 @@
 <!-- ?v= sparge intrările vechi din cache-ul HTTP (fișierele nu au amprentă în
      nume, iar înainte de v02.1 aveau max-age de 7 zile). Se crește ODATĂ cu
      versiunea CACHE din sw.js — CI-ul verifică sincronizarea. -->
-<link rel="stylesheet" href="./assets/app.css?v=19">
+<link rel="stylesheet" href="./assets/app.css?v=20">
 <!-- Supra-tema „Auroră” — strat de tokeni încărcat DUPĂ app.css (rescrie doar
      paleta, sticla și relieful + efecte opt-in). Ordinea nu e negociabilă. -->
-<link rel="stylesheet" href="./assets/tema-aurora.css?v=19">
+<link rel="stylesheet" href="./assets/tema-aurora.css?v=20">
 </head>
 <body>
 <header class="topbar">
@@ -68,6 +68,9 @@
   </button>
   <h1 id="page-title">Științe Sociale</h1>
   <span id="net-badge" class="badge" hidden>offline</span>
+  <button id="btn-tastatura-mate" class="icon-btn topbar-mate-btn" aria-label="Tastatură Matematică și Ciornă" title="Tastatură Matematică și Ciornă">
+    <span aria-hidden="true">√x</span>
+  </button>
   <button id="btn-setari" class="icon-btn end" aria-label="Setări">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"
          stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
@@ -144,6 +147,6 @@
   </button>
 </nav>
 
-<script src="./assets/app.js?v=19"></script>
+<script src="./assets/app.js?v=20"></script>
 </body>
 </html>

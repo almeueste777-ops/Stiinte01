@@ -1,0 +1,1190 @@
+{
+  "mat9-01": {
+    "video": {
+      "titlu": "Mulțimi de numere (N, Z, Q, R) și calculul cu radicali",
+      "profesor": "Pauza de Mate",
+      "durata": "14 min",
+      "youtubeId": "P7QYjGzPZz4",
+      "descriere": "Cum deosebim numerele raționale de cele iraționale, modulul și partea întreagă a unui număr real."
+    },
+    "tabla": {
+      "titlu": "Calculul părții întregi și a modulului unui număr real negativ",
+      "enunt": "Să se calculeze: E = |-3,7| + [-3,7] + {-3,7}.",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Definiția și calculul modulului |-3,7|",
+          "explicatie": "Modulul reprezintă distanța față de origine pe axa numerelor. Pentru orice număr negativ x < 0, |x| = -x (opusul său pozitiv).",
+          "formula": "|-3,7| = -(-3,7) = 3,7"
+        },
+        {
+          "pas": 2,
+          "titlu": "Definiția și calculul părții întregi [-3,7]",
+          "explicatie": "Partea întreagă [x] este cel mai mare număr întreg mai mic sau egal cu x. Pe axa numerelor, cel mai mare întreg situat la stânga lui -3,7 este -4 (nu -3!).",
+          "formula": "[-3,7] = -4 \\quad (deoarece -4 \\le -3,7 < -3)"
+        },
+        {
+          "pas": 3,
+          "titlu": "Definiția și calculul părții fracționare {-3,7}",
+          "explicatie": "Partea fracționară este diferența dintre număr și partea sa întreagă: {x} = x - [x]. Ea este întotdeauna în intervalul [0, 1).",
+          "formula": "{-3,7} = -3,7 - [-3,7] = -3,7 - (-4) = -3,7 + 4 = 0,3"
+        },
+        {
+          "pas": 4,
+          "titlu": "Însumarea termenilor și calculul final",
+          "explicatie": "Înlocuim cele trei valori calculate în expresia inițială E și efectuăm adunările fără a sări pași.",
+          "formula": "E = 3,7 + (-4) + 0,3 = (3,7 + 0,3) - 4 = 4 - 4 = 0"
+        },
+        {
+          "pas": 5,
+          "titlu": "Concluzie și verificare",
+          "explicatie": "Deoarece {x} + [x] = x prin definiție, E = |x| + x. Pentru x = -3,7, avem |-3,7| + (-3,7) = 3,7 - 3,7 = 0. Rezultatul este corect.",
+          "formula": "Rezultat final: E = 0"
+        }
+      ]
+    }
+  },
+  "mat9-02": {
+    "video": {
+      "titlu": "Puteri, radicali și raționalizarea numitorilor",
+      "profesor": "Proful Online",
+      "durata": "16 min",
+      "youtubeId": "L4Y_z7l1h5k",
+      "descriere": "Regulile de calcul cu puteri, amplificarea cu conjugata și eliminarea radicalilor de la numitor."
+    },
+    "tabla": {
+      "titlu": "Raționalizarea numitorului unei fracții cu radical compus",
+      "enunt": "Să se raționalizeze numitorul și să se calculeze: F = \\frac{6}{\\sqrt{5} - \\sqrt{2}} - \\frac{6}{\\sqrt{5} + \\sqrt{2}}.",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Identificarea conjugatei fiecărui numitor",
+          "explicatie": "Pentru a elimina radicalii de ordinul 2 de la numitor, folosim formula diferenței de pătrate: (a - b)(a + b) = a^2 - b^2. Conjugata lui (\\sqrt{5} - \\sqrt{2}) este (\\sqrt{5} + \\sqrt{2}).",
+          "formula": "Conjugata lui (\\sqrt{5} - \\sqrt{2}) \\text{ este } (\\sqrt{5} + \\sqrt{2})"
+        },
+        {
+          "pas": 2,
+          "titlu": "Amplificarea primei fracții cu conjugata sa",
+          "explicatie": "Înmulțim atât numărătorul, cât și numitorul primei fracții cu (\\sqrt{5} + \\sqrt{2}).",
+          "formula": "\\frac{6}{\\sqrt{5} - \\sqrt{2}} = \\frac{6(\\sqrt{5} + \\sqrt{2})}{(\\sqrt{5} - \\sqrt{2})(\\sqrt{5} + \\sqrt{2})} = \\frac{6(\\sqrt{5} + \\sqrt{2})}{(\\sqrt{5})^2 - (\\sqrt{2})^2} = \\frac{6(\\sqrt{5} + \\sqrt{2})}{5 - 2} = \\frac{6(\\sqrt{5} + \\sqrt{2})}{3}"
+        },
+        {
+          "pas": 3,
+          "titlu": "Simplificarea primei fracții",
+          "explicatie": "Simplificăm 6 cu 3 și distribuim factorul 2 în paranteză.",
+          "formula": "\\frac{6(\\sqrt{5} + \\sqrt{2})}{3} = 2(\\sqrt{5} + \\sqrt{2}) = 2\\sqrt{5} + 2\\sqrt{2}"
+        },
+        {
+          "pas": 4,
+          "titlu": "Amplificarea și simplificarea celei de-a doua fracții",
+          "explicatie": "Amplificăm a doua fracție cu conjugata (\\sqrt{5} - \\sqrt{2}) și simplificăm similar.",
+          "formula": "\\frac{6}{\\sqrt{5} + \\sqrt{2}} = \\frac{6(\\sqrt{5} - \\sqrt{2})}{5 - 2} = \\frac{6(\\sqrt{5} - \\sqrt{2})}{3} = 2(\\sqrt{5} - \\sqrt{2}) = 2\\sqrt{5} - 2\\sqrt{2}"
+        },
+        {
+          "pas": 5,
+          "titlu": "Scăderea termenilor cu atenție la semnul minus",
+          "explicatie": "Punem a doua expresie în paranteză pentru a nu greși semnele la desfacere.",
+          "formula": "F = (2\\sqrt{5} + 2\\sqrt{2}) - (2\\sqrt{5} - 2\\sqrt{2}) = 2\\sqrt{5} + 2\\sqrt{2} - 2\\sqrt{5} + 2\\sqrt{2} = 4\\sqrt{2}"
+        }
+      ]
+    }
+  },
+  "mat9-03": {
+    "video": {
+      "titlu": "Progresii aritmetice și progresii geometrice — Formule și exerciții tip Bac",
+      "profesor": "Pauza de Mate",
+      "durata": "18 min",
+      "youtubeId": "w3w6n5l4y8A",
+      "descriere": "Termenul general, rația, condiția ca trei termeni să fie în progresie și suma primilor n termeni."
+    },
+    "tabla": {
+      "titlu": "Determinarea termenului general și a sumei unei progresii aritmetice",
+      "enunt": "Într-o progresie aritmetică (a_n)_{n \\ge 1} se cunosc a_1 = 3 și a_4 = 15. Să se determine rația r și suma primilor 10 termeni S_{10}.",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Formula termenului general al progresiei aritmetice",
+          "explicatie": "Fiecare termen se obține adăugând rația r la termenul precedent: a_n = a_1 + (n - 1) \\cdot r.",
+          "formula": "a_n = a_1 + (n - 1) \\cdot r \\quad \\Rightarrow \\quad a_4 = a_1 + 3r"
+        },
+        {
+          "pas": 2,
+          "titlu": "Calculul rației r prin înlocuire",
+          "explicatie": "Înlocuim a_1 = 3 și a_4 = 15 în ecuație și izolăm rația r pas cu pas.",
+          "formula": "15 = 3 + 3r \\quad \\Rightarrow \\quad 3r = 15 - 3 = 12 \\quad \\Rightarrow \\quad r = \\frac{12}{3} = 4"
+        },
+        {
+          "pas": 3,
+          "titlu": "Calculul celui de-al 10-lea termen a_{10}",
+          "explicatie": "Aflăm a_{10} folosind formula termenului general cu n = 10 și r = 4.",
+          "formula": "a_{10} = a_1 + (10 - 1) \\cdot r = 3 + 9 \\cdot 4 = 3 + 36 = 39"
+        },
+        {
+          "pas": 4,
+          "titlu": "Formula sumei primilor n termeni",
+          "explicatie": "Suma primilor n termeni este media primului și ultimului termen înmulțită cu numărul de termeni: S_n = \\frac{(a_1 + a_n) \\cdot n}{2}.",
+          "formula": "S_{10} = \\frac{(a_1 + a_{10}) \\cdot 10}{2} = (a_1 + a_{10}) \\cdot 5"
+        },
+        {
+          "pas": 5,
+          "titlu": "Efectuarea calculului numeric final",
+          "explicatie": "Înlocuim a_1 = 3 și a_{10} = 39 și calculăm produsul.",
+          "formula": "S_{10} = (3 + 39) \\cdot 5 = 42 \\cdot 5 = 210"
+        }
+      ]
+    }
+  },
+  "mat9-05": {
+    "video": {
+      "titlu": "Funcția de gradul al II-lea: Vârf, grafic, semn și tabel de variație",
+      "profesor": "Proful Online",
+      "durata": "20 min",
+      "youtubeId": "N7_g7p2x9zA",
+      "descriere": "Forma canonică, coordonatele vârfului parabolei V(-b/2a, -Delta/4a), monotonia și semnul funcției."
+    },
+    "tabla": {
+      "titlu": "Aflarea coordonatelor vârfului parabolei și a valorii minime",
+      "enunt": "Fie funcția f: R -> R, f(x) = x^2 - 6x + 5. Să se determine coordonatele vârfului parabolei V și valoarea minimă a funcției.",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Identificarea coeficienților a, b, c",
+          "explicatie": "Funcția de gradul al II-lea are forma generală f(x) = ax^2 + bx + c. Extragem coeficienții respectând semnele fiecăruia.",
+          "formula": "a = 1, \\quad b = -6, \\quad c = 5"
+        },
+        {
+          "pas": 2,
+          "titlu": "Calculul discriminantului Delta",
+          "explicatie": "Aplicăm formula discriminantului Delta = b^2 - 4ac, calculând separat pătratul și produsul.",
+          "formula": "\\Delta = b^2 - 4ac = (-6)^2 - 4 \\cdot 1 \\cdot 5 = 36 - 20 = 16"
+        },
+        {
+          "pas": 3,
+          "titlu": "Calculul abscisei vârfului (x_V)",
+          "explicatie": "Abscisa vârfului este x_V = -\\frac{b}{2a}. Aceasta reprezintă și axa de simetrie a parabolei.",
+          "formula": "x_V = -\\frac{b}{2a} = -\\frac{-6}{2 \\cdot 1} = -\\frac{-6}{2} = 3"
+        },
+        {
+          "pas": 4,
+          "titlu": "Calculul ordonatei vârfului (y_V)",
+          "explicatie": "Ordonata vârfului este y_V = -\\frac{\\Delta}{4a} (sau f(x_V) = f(3)).",
+          "formula": "y_V = -\\frac{\\Delta}{4a} = -\\frac{16}{4 \\cdot 1} = -\\frac{16}{4} = -4 \\quad \\text{sau } f(3) = 3^2 - 6 \\cdot 3 + 5 = 9 - 18 + 5 = -4"
+        },
+        {
+          "pas": 5,
+          "titlu": "Concluzie: Coordonatele vârfului și minimul",
+          "explicatie": "Deoarece coeficientul a = 1 > 0, parabola are ramurile orientate în sus (U), deci vârful este punct de minim global.",
+          "formula": "V(3, -4) \\quad \\text{iar valoarea minimă a funcției este } f_{\\min} = -4"
+        }
+      ]
+    }
+  },
+  "mat9-06": {
+    "video": {
+      "titlu": "Rezolvarea ecuațiilor și inecuațiilor de gradul al II-lea pas cu pas",
+      "profesor": "Pauza de Mate",
+      "durata": "17 min",
+      "youtubeId": "H5k9_x8m1Qo",
+      "descriere": "Calculul lui Delta, determinarea rădăcinilor reale și tabelul de semn pentru rezolvarea inecuațiilor."
+    },
+    "tabla": {
+      "titlu": "Rezolvarea inecuației de gradul al II-lea prin tabel de semn",
+      "enunt": "Să se rezolve în R inecuația: 2x^2 - 5x + 2 \\le 0.",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Atașarea ecuației și identificarea coeficienților",
+          "explicatie": "Pentru a afla semnul expresiei, rezolvăm mai întâi ecuația atașată 2x^2 - 5x + 2 = 0 pentru a găsi rădăcinile.",
+          "formula": "a = 2, \\quad b = -5, \\quad c = 2"
+        },
+        {
+          "pas": 2,
+          "titlu": "Calculul discriminantului Delta",
+          "explicatie": "Calculăm Delta = b^2 - 4ac fără a sări pași.",
+          "formula": "\\Delta = (-5)^2 - 4 \\cdot 2 \\cdot 2 = 25 - 16 = 9 > 0"
+        },
+        {
+          "pas": 3,
+          "titlu": "Calculul celor două rădăcini reale distincte",
+          "explicatie": "Aplicăm formula rădăcinilor cu \\sqrt{\\Delta} = \\sqrt{9} = 3.",
+          "formula": "x_{1,2} = \\frac{-b \\pm \\sqrt{\\Delta}}{2a} = \\frac{-(-5) \\pm 3}{2 \\cdot 2} = \\frac{5 \\pm 3}{4} \\quad \\Rightarrow \\quad x_1 = \\frac{5-3}{4} = \\frac{2}{4} = \\frac{1}{2}, \\quad x_2 = \\frac{5+3}{4} = \\frac{8}{4} = 2"
+        },
+        {
+          "pas": 4,
+          "titlu": "Regula semnelor pentru trinomul de gradul al II-lea",
+          "explicatie": "Regula de aur: între rădăcini trinomul are semn contrar lui a, iar în afara rădăcinilor are semnul lui a. Aici a = 2 > 0 (pozitiv), deci între rădăcini este negativ (-).",
+          "formula": "\\text{Pentru } x \\in [\\frac{1}{2}, 2], \\quad 2x^2 - 5x + 2 \\le 0"
+        },
+        {
+          "pas": 5,
+          "titlu": "Scrierea mulțimii de soluții S",
+          "explicatie": "Inecuația cere \\le 0 (mai mic sau egal cu zero), deci intervalul este închis la ambele capete.",
+          "formula": "S = \\left[ \\frac{1}{2}, 2 \\right]"
+        }
+      ]
+    }
+  },
+  "mat9-14": {
+    "video": {
+      "titlu": "Teorema Sinusurilor și Teorema Cosinusului în triunghiul oarecare",
+      "profesor": "Proful Online",
+      "durata": "15 min",
+      "youtubeId": "K8_y3v9L4xA",
+      "descriere": "Formule, demonstrații și aplicarea lor directă la calculul laturilor, unghiurilor și razei cercului circumscris."
+    },
+    "tabla": {
+      "titlu": "Aflarea lungimii unei laturi folosind Teorema Cosinusului",
+      "enunt": "În triunghiul ABC se cunosc laturile AB = 5, AC = 8 și măsura unghiului A = 60°. Să se calculeze lungimea laturii BC.",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Enunțarea formulei Teoremei Cosinusului",
+          "explicatie": "Pătratul oricărei laturi este egal cu suma pătratelor celorlalte două laturi minus de două ori produsul lor înmulțit cu cosinusul unghiului dintre ele.",
+          "formula": "BC^2 = AB^2 + AC^2 - 2 \\cdot AB \\cdot AC \\cdot \\cos(A)"
+        },
+        {
+          "pas": 2,
+          "titlu": "Valoarea trigonometrică a lui cos(60°)",
+          "explicatie": "Din tabelul valorilor trigonometrice uzuale, \\cos(60°) = 1/2.",
+          "formula": "\\cos(60^\\circ) = \\frac{1}{2}"
+        },
+        {
+          "pas": 3,
+          "titlu": "Înlocuirea numerică a datelor în formulă",
+          "explicatie": "Înlocuim AB = 5, AC = 8 și \\cos(A) = 1/2 fără a sări niciun calcul.",
+          "formula": "BC^2 = 5^2 + 8^2 - 2 \\cdot 5 \\cdot 8 \\cdot \\frac{1}{2}"
+        },
+        {
+          "pas": 4,
+          "titlu": "Efectuarea calculelor parțiale",
+          "explicatie": "Calculăm pătratele 25 și 64, iar la termenul de scădere simplificăm factorul 2 cu 2 de la numitor.",
+          "formula": "BC^2 = 25 + 64 - (2 \\cdot \\frac{1}{2}) \\cdot 40 = 89 - 40 = 49"
+        },
+        {
+          "pas": 5,
+          "titlu": "Extragerea rădăcinii pătrate",
+          "explicatie": "Deoarece lungimea unei laturi este întotdeauna un număr real pozitiv, extragem radicalul din 49.",
+          "formula": "BC = \\sqrt{49} = 7"
+        }
+      ]
+    }
+  },
+  "mat10-02": {
+    "video": {
+      "titlu": "Logaritmi: Definiție, proprietăți și formule de calcul",
+      "profesor": "Pauza de Mate",
+      "durata": "19 min",
+      "youtubeId": "T9_u5x2K7zA",
+      "descriere": "Logaritmul produsului, câtului, puterii, schimbarea de bază și condițiile de existență obligatorii."
+    },
+    "tabla": {
+      "titlu": "Calculul unei expresii logaritmice folosind proprietățile de bază",
+      "enunt": "Să se calculeze valoarea expresiei: E = \\log_2(24) - \\log_2(3) + \\log_3(\\sqrt{27}).",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Proprietatea diferenței de logaritmi în aceeași bază",
+          "explicatie": "Diferența a doi logaritmi cu aceeași bază este egală cu logaritmul câtului: \\log_a(x) - \\log_a(y) = \\log_a(\\frac{x}{y}).",
+          "formula": "\\log_2(24) - \\log_2(3) = \\log_2\\left(\\frac{24}{3}\\right) = \\log_2(8)"
+        },
+        {
+          "pas": 2,
+          "titlu": "Calculul primului termen log_2(8)",
+          "explicatie": "Scriem argumentul 8 ca putere a bazei 2: 8 = 2^3. Folosim formula \\log_a(a^k) = k.",
+          "formula": "\\log_2(8) = \\log_2(2^3) = 3"
+        },
+        {
+          "pas": 3,
+          "titlu": "Scrierea radicalului ca putere fracționară pentru termenul al doilea",
+          "explicatie": "Scriem 27 ca 3^3, iar radicalul pătrat ca exponent 1/2. Puterea unei puteri înmulțește exponenții: (3^3)^{1/2} = 3^{3/2}.",
+          "formula": "\\sqrt{27} = \\sqrt{3^3} = (3^3)^{\\frac{1}{2}} = 3^{\\frac{3}{2}}"
+        },
+        {
+          "pas": 4,
+          "titlu": "Calculul celui de-al doilea logaritm log_3(3^{3/2})",
+          "explicatie": "Aplicăm din nou proprietatea \\log_a(a^k) = k.",
+          "formula": "\\log_3\\left(3^{\\frac{3}{2}}\\right) = \\frac{3}{2} = 1,5"
+        },
+        {
+          "pas": 5,
+          "titlu": "Adunarea celor două rezultate parțiale",
+          "explicatie": "Aducem la numitor comun și calculăm suma finală.",
+          "formula": "E = 3 + \\frac{3}{2} = \\frac{6}{2} + \\frac{3}{2} = \\frac{9}{2} = 4,5"
+        }
+      ]
+    }
+  },
+  "mat10-03": {
+    "video": {
+      "titlu": "Ecuații Logaritmice și Exponențiale — Condiții de existență și metode de rezolvare",
+      "profesor": "Proful Online",
+      "durata": "22 min",
+      "youtubeId": "V7_q2w8M4xA",
+      "descriere": "Punerea condițiilor de existență la logaritmi, injectivitatea funcțiilor și verificarea soluțiilor găsite."
+    },
+    "tabla": {
+      "titlu": "Rezolvarea unei ecuații logaritmice cu condiții stricte de existență",
+      "enunt": "Să se rezolve în R ecuația: \\log_3(x^2 - 7) = \\log_3(2x + 1).",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Punerea condițiilor de existență (C.E.)",
+          "explicatie": "Argumentul oricărui logaritm trebuie să fie strict pozitiv (> 0). Avem două condiții simultane:",
+          "formula": "\\text{C.E.: } \\begin{cases} x^2 - 7 > 0 \\Rightarrow x \\in (-\\infty, -\\sqrt{7}) \\cup (\\sqrt{7}, +\\infty) \\\\ 2x + 1 > 0 \\Rightarrow 2x > -1 \\Rightarrow x > -\\frac{1}{2} \\end{cases}"
+        },
+        {
+          "pas": 2,
+          "titlu": "Egalarea argumentelor datorită injectivității",
+          "explicatie": "Deoarece funcția f(t) = \\log_3(t) este strict crescătoare, ea este injectivă: \\log_3(u) = \\log_3(v) \\Leftrightarrow u = v.",
+          "formula": "x^2 - 7 = 2x + 1"
+        },
+        {
+          "pas": 3,
+          "titlu": "Trecerea tuturor termenilor în membrul stâng",
+          "explicatie": "Mutăm termenii 2x și 1 în stânga cu semne schimbate pentru a obține ecuația egalată cu zero.",
+          "formula": "x^2 - 7 - 2x - 1 = 0 \\quad \\Rightarrow \\quad x^2 - 2x - 8 = 0"
+        },
+        {
+          "pas": 4,
+          "titlu": "Rezolvarea ecuației de gradul al II-lea",
+          "explicatie": "Calculăm discriminantul Delta și rădăcinile algebrice.",
+          "formula": "\\Delta = (-2)^2 - 4 \\cdot 1 \\cdot (-8) = 4 + 32 = 36 \\quad \\Rightarrow \\quad x_{1,2} = \\frac{-(-2) \\pm \\sqrt{36}}{2 \\cdot 1} = \\frac{2 \\pm 6}{2} \\quad \\Rightarrow \\quad x_1 = -2, \\quad x_2 = 4"
+        },
+        {
+          "pas": 5,
+          "titlu": "Verificarea soluțiilor în raport cu Condițiile de Existență",
+          "explicatie": "Verificăm dacă soluțiile respectă condițiile inițiale: x_1 = -2 nu respectă 2x + 1 > 0 (2(-2)+1 = -3 < 0), deci se respinge! x_2 = 4 verifică: 4^2 - 7 = 9 > 0 și 2(4)+1 = 9 > 0. Valid!",
+          "formula": "x_1 = -2 \\notin \\text{D}_{CE}, \\quad x_2 = 4 \\in \\text{D}_{CE} \\quad \\Rightarrow \\quad S = \\{4\\}"
+        }
+      ]
+    }
+  },
+  "mat10-13": {
+    "video": {
+      "titlu": "Numere Complexe: Forma algebrică, operații, modul și conjugat",
+      "profesor": "Pauza de Mate",
+      "durata": "16 min",
+      "youtubeId": "Y3_k8x1N9zA",
+      "descriere": "Unitatea imaginară i (unde i^2 = -1), adunarea, înmulțirea, împărțirea numerelor complexe și modulul |z|."
+    },
+    "tabla": {
+      "titlu": "Aflarea părții reale și imaginare după împărțirea a două numere complexe",
+      "enunt": "Să se scrie sub formă algebrică z = a + bi numărul complex: z = \\frac{3 + 4i}{1 - 2i}.",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Identificarea conjugatei numitorului",
+          "explicatie": "Pentru a împărți două numere complexe, amplificăm fracția cu conjugatul numitorului. Conjugatul lui 1 - 2i este 1 + 2i.",
+          "formula": "\\overline{1 - 2i} = 1 + 2i"
+        },
+        {
+          "pas": 2,
+          "titlu": "Amplificarea fracției cu conjugata",
+          "explicatie": "Înmulțim atât numărătorul, cât și numitorul cu 1 + 2i.",
+          "formula": "z = \\frac{(3 + 4i)(1 + 2i)}{(1 - 2i)(1 + 2i)}"
+        },
+        {
+          "pas": 3,
+          "titlu": "Calculul numitorului folosind proprietatea z \\cdot \\overline{z} = a^2 + b^2",
+          "explicatie": "Numitorul este (1)^2 - (2i)^2 = 1 - 4i^2. Deoarece i^2 = -1, avem 1 - 4(-1) = 1 + 4 = 5.",
+          "formula": "(1 - 2i)(1 + 2i) = 1^2 - 4i^2 = 1 - 4(-1) = 1 + 4 = 5"
+        },
+        {
+          "pas": 4,
+          "titlu": "Calculul numărătorului prin înmulțire termen cu termen",
+          "explicatie": "Înmulțim parantezele: 3(1) + 3(2i) + 4i(1) + 4i(2i) = 3 + 6i + 4i + 8i^2. Înlocuim 8i^2 cu 8(-1) = -8.",
+          "formula": "(3 + 4i)(1 + 2i) = 3 + 6i + 4i + 8(-1) = (3 - 8) + (6i + 4i) = -5 + 10i"
+        },
+        {
+          "pas": 5,
+          "titlu": "Separarea părții reale de partea imaginară",
+          "explicatie": "Împărțim fiecare termen al numărătorului la numitorul 5.",
+          "formula": "z = \\frac{-5 + 10i}{5} = -\\frac{5}{5} + \\frac{10}{5}i = -1 + 2i \\quad \\Rightarrow \\quad \\text{Re}(z) = -1, \\quad \\text{Im}(z) = 2"
+        }
+      ]
+    }
+  },
+  "mat9-04": {
+    "video": {
+      "titlu": "Noțiunea de funcție — Explicații și rezolvări de examen",
+      "profesor": "Prof. de Matematică (Pauza de Mate / Proful Online)",
+      "durata": "15 min",
+      "youtubeId": "P7QYjGzPZz4",
+      "descriere": "Domeniu, codomeniu și lege de corespondență"
+    },
+    "tabla": {
+      "titlu": "Rezolvare pas-cu-pas fără pași omiși",
+      "enunt": "Aflarea domeniului maxim de definiție al funcției f(x) = \\frac{1}{\\sqrt{x - 3}}",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Condițiile de existență",
+          "explicatie": "Expresia de sub radical trebuie să fie pozitivă, iar numitorul nenul.",
+          "formula": "x - 3 > 0"
+        },
+        {
+          "pas": 2,
+          "titlu": "Rezolvarea inecuației",
+          "explicatie": "Trecem termenul liber în dreapta cu semn schimbat.",
+          "formula": "x > 3"
+        },
+        {
+          "pas": 3,
+          "titlu": "Scrierea intervalului",
+          "explicatie": "Domeniul maxim de definiție este intervalul deschis de la 3 la infinit.",
+          "formula": "D = (3, +\\infty)"
+        }
+      ]
+    }
+  },
+  "mat9-07": {
+    "video": {
+      "titlu": "Trigonometrie în triunghiul dreptunghic — Explicații și rezolvări de examen",
+      "profesor": "Prof. de Matematică (Pauza de Mate / Proful Online)",
+      "durata": "15 min",
+      "youtubeId": "P7QYjGzPZz4",
+      "descriere": "Sinus, cosinus, tangentă și cotangentă"
+    },
+    "tabla": {
+      "titlu": "Rezolvare pas-cu-pas fără pași omiși",
+      "enunt": "Calculul sin(B) și tg(B) dacă AC = 6 și BC = 10",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Teorema lui Pitagora pentru cateta AB",
+          "explicatie": "Aflăm cateta alăturată AB: AB^2 = BC^2 - AC^2.",
+          "formula": "AB = \\sqrt{10^2 - 6^2} = \\sqrt{100 - 36} = \\sqrt{64} = 8"
+        },
+        {
+          "pas": 2,
+          "titlu": "Definiția sinusului",
+          "explicatie": "Sinusul este raportul dintre cateta opusă și ipotenuză.",
+          "formula": "\\sin(B) = \\frac{AC}{BC} = \\frac{6}{10} = \\frac{3}{5} = 0,6"
+        },
+        {
+          "pas": 3,
+          "titlu": "Definiția tangentei",
+          "explicatie": "Tangenta este raportul dintre cateta opusă și cateta alăturată.",
+          "formula": "\\text{tg}(B) = \\frac{AC}{AB} = \\frac{6}{8} = \\frac{3}{4} = 0,75"
+        }
+      ]
+    }
+  },
+  "mat9-08": {
+    "video": {
+      "titlu": "Vectori în plan — Explicații și rezolvări de examen",
+      "profesor": "Prof. de Matematică (Pauza de Mate / Proful Online)",
+      "durata": "15 min",
+      "youtubeId": "P7QYjGzPZz4",
+      "descriere": "Adunarea vectorilor, regula triunghiului și a paralelogramului"
+    },
+    "tabla": {
+      "titlu": "Rezolvare pas-cu-pas fără pași omiși",
+      "enunt": "Calculul modulului vectorului sumă \\vec{v} = 3\\vec{i} + 4\\vec{j}",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Componentele vectorului pe axe",
+          "explicatie": "Vectorii \\vec{i} și \\vec{j} sunt versorii axelor perpendiculare Ox și Oy.",
+          "formula": "v_x = 3, \\quad v_y = 4"
+        },
+        {
+          "pas": 2,
+          "titlu": "Formula modulului unui vector",
+          "explicatie": "Modulul este lungimea segmentului orientat: |\\vec{v}| = \\sqrt{v_x^2 + v_y^2}.",
+          "formula": "|\\vec{v}| = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5"
+        }
+      ]
+    }
+  },
+  "mat9-09": {
+    "video": {
+      "titlu": "Elemente de geometrie analitică — Explicații și rezolvări de examen",
+      "profesor": "Prof. de Matematică (Pauza de Mate / Proful Online)",
+      "durata": "15 min",
+      "youtubeId": "P7QYjGzPZz4",
+      "descriere": "Coordonate carteziene, mijlocul unui segment și distanța între două puncte"
+    },
+    "tabla": {
+      "titlu": "Rezolvare pas-cu-pas fără pași omiși",
+      "enunt": "Distanța dintre punctele A(1, 2) și B(4, 6)",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Formula distanței carteziene",
+          "explicatie": "Distanța este lungimea ipotenuzei formate de diferențele pe coordonate.",
+          "formula": "AB = \\sqrt{(x_B - x_A)^2 + (y_B - y_A)^2}"
+        },
+        {
+          "pas": 2,
+          "titlu": "Calculul diferențelor pe coordonate",
+          "explicatie": "x_B - x_A = 4 - 1 = 3 și y_B - y_A = 6 - 2 = 4.",
+          "formula": "AB = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5"
+        },
+        {
+          "pas": 3,
+          "titlu": "Calculul coordonatelor mijlocului segmentului M",
+          "explicatie": "Coordonatele mijlocului sunt mediile aritmetice ale capetelor.",
+          "formula": "x_M = \\frac{1 + 4}{2} = 2,5, \\quad y_M = \\frac{2 + 6}{2} = 4 \\quad \\Rightarrow \\quad M(2,5; 4)"
+        }
+      ]
+    }
+  },
+  "mat9-10": {
+    "video": {
+      "titlu": "Propoziții și operații logice — Explicații și rezolvări de examen",
+      "profesor": "Prof. de Matematică (Pauza de Mate / Proful Online)",
+      "durata": "15 min",
+      "youtubeId": "P7QYjGzPZz4",
+      "descriere": "Implicație, echivalență, negație și tabele de adevăr"
+    },
+    "tabla": {
+      "titlu": "Rezolvare pas-cu-pas fără pași omiși",
+      "enunt": "Tabelul de adevăr al implicației p \\Rightarrow q",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Definiția implicației logice",
+          "explicatie": "Implicația p \\Rightarrow q este falsă într-un singur caz: când ipoteza p este adevărată, iar concluzia q este falsă (1 \\Rightarrow 0 este 0).",
+          "formula": "p \\Rightarrow q \\equiv \\neg p \\lor q"
+        },
+        {
+          "pas": 2,
+          "titlu": "Valoarea când ipoteza este falsă",
+          "explicatie": "Din fals rezultă orice: dacă p = 0, implicația este mereu adevărată (1).",
+          "formula": "0 \\Rightarrow 0 = 1, \\quad 0 \\Rightarrow 1 = 1"
+        }
+      ]
+    }
+  },
+  "mat9-11": {
+    "video": {
+      "titlu": "Mulțimi: operații și proprietăți — Explicații și rezolvări de examen",
+      "profesor": "Prof. de Matematică (Pauza de Mate / Proful Online)",
+      "durata": "15 min",
+      "youtubeId": "P7QYjGzPZz4",
+      "descriere": "Reuniune, intersecție, diferență și produs cartezian"
+    },
+    "tabla": {
+      "titlu": "Rezolvare pas-cu-pas fără pași omiși",
+      "enunt": "Calculul A \\cap B și A \\setminus B pentru intervale",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Intersecția intervalelor A = [-2, 3) și B = [0, 5]",
+          "explicatie": "Intersecția cuprinde elementele comune ambelor intervale.",
+          "formula": "A \\cap B = [0, 3)"
+        },
+        {
+          "pas": 2,
+          "titlu": "Diferența intervalelor A \\setminus B",
+          "explicatie": "Diferența conține elementele care sunt în A, dar nu sunt în B.",
+          "formula": "A \\setminus B = [-2, 0)"
+        }
+      ]
+    }
+  },
+  "mat9-12": {
+    "video": {
+      "titlu": "Metoda inducției matematice — Explicații și rezolvări de examen",
+      "profesor": "Prof. de Matematică (Pauza de Mate / Proful Online)",
+      "durata": "15 min",
+      "youtubeId": "P7QYjGzPZz4",
+      "descriere": "Etapa de verificare și etapa de demonstrație a pasului inductiv"
+    },
+    "tabla": {
+      "titlu": "Rezolvare pas-cu-pas fără pași omiși",
+      "enunt": "Demonstrarea egalității 1 + 2 + ... + n = \\frac{n(n+1)}{2}",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Etapa de verificare (n = 1)",
+          "explicatie": "Verificăm dacă propoziția este adevărată pentru prima valoare naturală nenulă.",
+          "formula": "P(1): 1 = \\frac{1(1+1)}{2} = \\frac{2}{2} = 1 \\quad (Adevărat)"
+        },
+        {
+          "pas": 2,
+          "titlu": "Ipoteza inducției",
+          "explicatie": "Presupunem P(k) adevărată pentru un număr natural k \\ge 1.",
+          "formula": "1 + 2 + ... + k = \\frac{k(k+1)}{2}"
+        },
+        {
+          "pas": 3,
+          "titlu": "Demonstrarea pasului inductiv P(k+1)",
+          "explicatie": "Adunăm termenul următor (k+1) la ambele părți și aducem la numitor comun.",
+          "formula": "\\frac{k(k+1)}{2} + (k+1) = (k+1)\\left(\\frac{k}{2} + 1\\right) = \\frac{(k+1)(k+2)}{2}"
+        },
+        {
+          "pas": 4,
+          "titlu": "Concluzia inducției matematice",
+          "explicatie": "Deoarece P(1) este adevărată și P(k) implică P(k+1), formula este valabilă pentru orice n natural.",
+          "formula": "\\forall n \\in \\mathbb{N}^*, \\quad S_n = \\frac{n(n+1)}{2}"
+        }
+      ]
+    }
+  },
+  "mat9-13": {
+    "video": {
+      "titlu": "Cercul trigonometric și radianul — Explicații și rezolvări de examen",
+      "profesor": "Prof. de Matematică (Pauza de Mate / Proful Online)",
+      "durata": "15 min",
+      "youtubeId": "P7QYjGzPZz4",
+      "descriere": "Transformarea gradelor în radiani și semnele funcțiilor trigonometrice"
+    },
+    "tabla": {
+      "titlu": "Rezolvare pas-cu-pas fără pași omiși",
+      "enunt": "Conversia unghiului de 150° în radiani și calculul sin(150°)",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Formula de conversie grade - radiani",
+          "explicatie": "180 de grade corespund la \\pi radiani. Regula de trei simplă dă: \\alpha_{rad} = \\frac{x^\\circ \\cdot \\pi}{180^\\circ}.",
+          "formula": "150^\\circ = \\frac{150 \\cdot \\pi}{180} = \\frac{5\\pi}{6} \\text{ radiani}"
+        },
+        {
+          "pas": 2,
+          "titlu": "Calculul sin(150°) prin reducerea la primul cadran",
+          "explicatie": "Unghiul de 150° este în cadranul II. Formula de reducere este \\sin(180^\\circ - x) = \\sin(x).",
+          "formula": "\\sin(150^\\circ) = \\sin(180^\\circ - 30^\\circ) = \\sin(30^\\circ) = \\frac{1}{2}"
+        }
+      ]
+    }
+  },
+  "mat9-15": {
+    "video": {
+      "titlu": "Formule trigonometrice fundamentale — Explicații și rezolvări de examen",
+      "profesor": "Prof. de Matematică (Pauza de Mate / Proful Online)",
+      "durata": "15 min",
+      "youtubeId": "P7QYjGzPZz4",
+      "descriere": "Formula fundamentală sin^2 + cos^2 = 1 și unghiul dublu"
+    },
+    "tabla": {
+      "titlu": "Rezolvare pas-cu-pas fără pași omiși",
+      "enunt": "Aflarea cos(x) dacă sin(x) = 3/5 și x este în cadranul II",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Aplicarea formulei fundamentale a trigonometriei",
+          "explicatie": "Suma pătratelor sinusului și cosinusului este mereu 1: \\cos^2(x) = 1 - \\sin^2(x).",
+          "formula": "\\cos^2(x) = 1 - \\left(\\frac{3}{5}\\right)^2 = 1 - \\frac{9}{25} = \\frac{25 - 9}{25} = \\frac{16}{25}"
+        },
+        {
+          "pas": 2,
+          "titlu": "Stabilirea semnului în funcție de cadran",
+          "explicatie": "În cadranul II (90° < x < 180°), abscisa cosinus este strict negativă (< 0).",
+          "formula": "x \\in \\left(\\frac{\\pi}{2}, \\pi\\right) \\Rightarrow \\cos(x) = -\\sqrt{\\frac{16}{25}} = -\\frac{4}{5}"
+        }
+      ]
+    }
+  },
+  "mat9-16": {
+    "video": {
+      "titlu": "Aplicații ale vectorilor în geometrie — Explicații și rezolvări de examen",
+      "profesor": "Prof. de Matematică (Pauza de Mate / Proful Online)",
+      "durata": "15 min",
+      "youtubeId": "P7QYjGzPZz4",
+      "descriere": "Vectorul de poziție al centrului de greutate al unui triunghi"
+    },
+    "tabla": {
+      "titlu": "Rezolvare pas-cu-pas fără pași omiși",
+      "enunt": "Exprimarea vectorului de poziție \\vec{r}_G în funcție de vârfuri",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Formula centrului de greutate G",
+          "explicatie": "Centrul de greutate G este media aritmetică vectorială a celor trei vârfuri ale triunghiului.",
+          "formula": "\\vec{r}_G = \\frac{\\vec{r}_A + \\vec{r}_B + \\vec{r}_C}{3}"
+        },
+        {
+          "pas": 2,
+          "titlu": "Proprietatea de împărțire a medianelor",
+          "explicatie": "G se află pe fiecare mediană la 2/3 de vârf și 1/3 de bază.",
+          "formula": "\\vec{AG} = \\frac{2}{3}\\vec{AA'}"
+        }
+      ]
+    }
+  },
+  "mat9-17": {
+    "video": {
+      "titlu": "Dreapta în plan — Explicații și rezolvări de examen",
+      "profesor": "Prof. de Matematică (Pauza de Mate / Proful Online)",
+      "durata": "15 min",
+      "youtubeId": "P7QYjGzPZz4",
+      "descriere": "Panta unei drepte, ecuația punct-pantă și paralelismul/perpendicularitatea"
+    },
+    "tabla": {
+      "titlu": "Rezolvare pas-cu-pas fără pași omiși",
+      "enunt": "Ecuația dreptei care trece prin A(2, 3) și are panta m = 4",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Formula ecuației punct-pantă",
+          "explicatie": "Ecuația unei drepte când cunoaștem un punct A(x_A, y_A) și panta m este y - y_A = m(x - x_A).",
+          "formula": "y - 3 = 4(x - 2)"
+        },
+        {
+          "pas": 2,
+          "titlu": "Desfacerea parantezelor și forma generală",
+          "explicatie": "Distribuim 4 și mutăm toți termenii într-o singură parte.",
+          "formula": "y - 3 = 4x - 8 \\quad \\Rightarrow \\quad 4x - y - 5 = 0"
+        }
+      ]
+    }
+  },
+  "mat9-18": {
+    "video": {
+      "titlu": "Distanțe, arii și aplicații în plan — Explicații și rezolvări de examen",
+      "profesor": "Prof. de Matematică (Pauza de Mate / Proful Online)",
+      "durata": "15 min",
+      "youtubeId": "P7QYjGzPZz4",
+      "descriere": "Formula ariei triunghiului cu determinant și distanța de la un punct la o dreaptă"
+    },
+    "tabla": {
+      "titlu": "Rezolvare pas-cu-pas fără pași omiși",
+      "enunt": "Calculul distanței de la punctul P(1, 2) la dreapta d: 3x + 4y - 1 = 0",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Formula distanței de la un punct la o dreaptă",
+          "explicatie": "dist(P, d) = \\frac{|a x_P + b y_P + c|}{\\sqrt{a^2 + b^2}}.",
+          "formula": "a = 3, \\quad b = 4, \\quad c = -1, \\quad x_P = 1, \\quad y_P = 2"
+        },
+        {
+          "pas": 2,
+          "titlu": "Calculul numărătorului și numitorului",
+          "explicatie": "Înlocuim coordonatele și calculăm modulul și radicalul.",
+          "formula": "\\text{dist}(P, d) = \\frac{|3(1) + 4(2) - 1|}{\\sqrt{3^2 + 4^2}} = \\frac{|3 + 8 - 1|}{\\sqrt{9 + 16}} = \\frac{|10|}{\\sqrt{25}} = \\frac{10}{5} = 2"
+        }
+      ]
+    }
+  },
+  "mat10-01": {
+    "video": {
+      "titlu": "Funcția exponențială — Explicații și rezolvări de examen",
+      "profesor": "Prof. de Matematică (Pauza de Mate / Proful Online)",
+      "durata": "15 min",
+      "youtubeId": "P7QYjGzPZz4",
+      "descriere": "Monotonie, grafic și rezolvarea ecuației a^x = b"
+    },
+    "tabla": {
+      "titlu": "Rezolvare pas-cu-pas fără pași omiși",
+      "enunt": "Rezolvarea ecuației 3^{2x - 1} = 27",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Aducerea la aceeași bază",
+          "explicatie": "Scriem termenul 27 ca o putere a bazei 3: 27 = 3^3.",
+          "formula": "3^{2x - 1} = 3^3"
+        },
+        {
+          "pas": 2,
+          "titlu": "Egalarea exponenților datorită injectivității",
+          "explicatie": "Deoarece baza 3 > 1, funcția exponențială este strict crescătoare și injectivă.",
+          "formula": "2x - 1 = 3 \\quad \\Rightarrow \\quad 2x = 4 \\quad \\Rightarrow \\quad x = 2"
+        }
+      ]
+    }
+  },
+  "mat10-04": {
+    "video": {
+      "titlu": "Numărare: permutări, aranjamente, combinări — Explicații și rezolvări de examen",
+      "profesor": "Prof. de Matematică (Pauza de Mate / Proful Online)",
+      "durata": "15 min",
+      "youtubeId": "P7QYjGzPZz4",
+      "descriere": "Formulele P_n, A_n^k, C_n^k și proprietăți"
+    },
+    "tabla": {
+      "titlu": "Rezolvare pas-cu-pas fără pași omiși",
+      "enunt": "Calculul numărului de submulțimi cu 2 elemente ale unei mulțimi cu 5 elemente (C_5^2)",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Formula combinărilor",
+          "explicatie": "Combinările reprezintă numărul de submulțimi de k elemente alese din n elemente: C_n^k = \\frac{n!}{k!(n-k)!}.",
+          "formula": "C_5^2 = \\frac{5!}{2!(5 - 2)!} = \\frac{5!}{2! \\cdot 3!}"
+        },
+        {
+          "pas": 2,
+          "titlu": "Simplificarea factorialelor",
+          "explicatie": "Scriem 5! = 5 \\cdot 4 \\cdot 3! și simplificăm cu 3! de la numitor.",
+          "formula": "C_5^2 = \\frac{5 \\cdot 4 \\cdot 3!}{2 \\cdot 1 \\cdot 3!} = \\frac{20}{2} = 10"
+        }
+      ]
+    }
+  },
+  "mat10-05": {
+    "video": {
+      "titlu": "Probabilități — Explicații și rezolvări de examen",
+      "profesor": "Prof. de Matematică (Pauza de Mate / Proful Online)",
+      "durata": "15 min",
+      "youtubeId": "P7QYjGzPZz4",
+      "descriere": "Formula clasică a probabilității: cazuri favorabile / cazuri posibile"
+    },
+    "tabla": {
+      "titlu": "Rezolvare pas-cu-pas fără pași omiși",
+      "enunt": "Calculul probabilității ca la aruncarea a două zaruri suma să fie 7",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Calculul numărului total de cazuri posibile",
+          "explicatie": "Fiecare zar are 6 fețe. Numărul total de perechi este 6 \\cdot 6 = 36.",
+          "formula": "N_{posibile} = 6 \\times 6 = 36"
+        },
+        {
+          "pas": 2,
+          "titlu": "Identificarea cazurilor favorabile",
+          "explicatie": "Perechile cu suma 7 sunt: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1). În total sunt 6 cazuri.",
+          "formula": "N_{favorabile} = 6"
+        },
+        {
+          "pas": 3,
+          "titlu": "Calculul și simplificarea probabilității",
+          "explicatie": "P = \\frac{N_{favorabile}}{N_{posibile}}.",
+          "formula": "P = \\frac{6}{36} = \\frac{1}{6} \\approx 16,67\\%"
+        }
+      ]
+    }
+  },
+  "mat10-06": {
+    "video": {
+      "titlu": "Elemente de statistică — Explicații și rezolvări de examen",
+      "profesor": "Prof. de Matematică (Pauza de Mate / Proful Online)",
+      "durata": "15 min",
+      "youtubeId": "P7QYjGzPZz4",
+      "descriere": "Media aritmetică, dispersia și abaterea medie pătratică"
+    },
+    "tabla": {
+      "titlu": "Rezolvare pas-cu-pas fără pași omiși",
+      "enunt": "Calculul mediei aritmetice a valorilor 4, 7, 8, 9",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Suma valorilor seriei",
+          "explicatie": "Adunăm toate valorile observate: 4 + 7 + 8 + 9 = 28.",
+          "formula": "\\sum x_i = 4 + 7 + 8 + 9 = 28"
+        },
+        {
+          "pas": 2,
+          "titlu": "Împărțirea la numărul de observații n",
+          "explicatie": "Seria are n = 4 valori.",
+          "formula": "\\bar{x} = \\frac{28}{4} = 7"
+        }
+      ]
+    }
+  },
+  "mat10-07": {
+    "video": {
+      "titlu": "Procente, dobânzi, credite — Explicații și rezolvări de examen",
+      "profesor": "Prof. de Matematică (Pauza de Mate / Proful Online)",
+      "durata": "15 min",
+      "youtubeId": "P7QYjGzPZz4",
+      "descriere": "Dobânda simplă și compusă"
+    },
+    "tabla": {
+      "titlu": "Rezolvare pas-cu-pas fără pași omiși",
+      "enunt": "Calculul dobânzii simple pentru un capital de 1000 lei cu 5% pe an timp de 3 ani",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Formula dobânzii simple",
+          "explicatie": "D = \\frac{C \\cdot p \\cdot t}{100}, unde C este capitalul, p procentul, t timpul.",
+          "formula": "D = \\frac{1000 \\cdot 5 \\cdot 3}{100} = 10 \\cdot 15 = 150 \\text{ lei}"
+        },
+        {
+          "pas": 2,
+          "titlu": "Suma totală finală",
+          "explicatie": "Capitalul final este suma dintre capitalul inițial și dobândă.",
+          "formula": "S_{total} = 1000 + 150 = 1150 \\text{ lei}"
+        }
+      ]
+    }
+  },
+  "mat10-08": {
+    "video": {
+      "titlu": "Funcții și modele de creștere — Explicații și rezolvări de examen",
+      "profesor": "Prof. de Matematică (Pauza de Mate / Proful Online)",
+      "durata": "15 min",
+      "youtubeId": "P7QYjGzPZz4",
+      "descriere": "Creștere liniară vs exponențială"
+    },
+    "tabla": {
+      "titlu": "Rezolvare pas-cu-pas fără pași omiși",
+      "enunt": "Diferența dintre creșterea aritmetică (+r) și geometrică (*q)",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Creșterea liniară",
+          "explicatie": "La fiecare pas se adaugă o cantitate constantă: f(n) = a \\cdot n + b.",
+          "formula": "f(n+1) - f(n) = a = \\text{constant}"
+        },
+        {
+          "pas": 2,
+          "titlu": "Creșterea exponențială",
+          "explicatie": "La fiecare pas cantitatea se multiplică cu un factor constant: g(n) = C \\cdot a^n.",
+          "formula": "\\frac{g(n+1)}{g(n)} = a = \\text{constant}"
+        }
+      ]
+    }
+  },
+  "mat10-09": {
+    "video": {
+      "titlu": "Raționament, demonstrație, erori — Explicații și rezolvări de examen",
+      "profesor": "Prof. de Matematică (Pauza de Mate / Proful Online)",
+      "durata": "15 min",
+      "youtubeId": "P7QYjGzPZz4",
+      "descriere": "Reducerea la absurd și contraexemple"
+    },
+    "tabla": {
+      "titlu": "Rezolvare pas-cu-pas fără pași omiși",
+      "enunt": "Demonstrarea prin reducere la absurd că \\sqrt{2} este irațional",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Presupunerea contrară",
+          "explicatie": "Presupunem prin absurd că \\sqrt{2} este rațional, adică \\sqrt{2} = \\frac{a}{b} cu a, b primi între ei.",
+          "formula": "\\sqrt{2} = \\frac{a}{b} \\quad \\Rightarrow \\quad 2 = \\frac{a^2}{b^2} \\quad \\Rightarrow \\quad a^2 = 2b^2"
+        },
+        {
+          "pas": 2,
+          "titlu": "Deducerea parității lui a",
+          "explicatie": "Deoarece a^2 este par, rezultă că a este par: a = 2k.",
+          "formula": "(2k)^2 = 2b^2 \\Rightarrow 4k^2 = 2b^2 \\Rightarrow b^2 = 2k^2"
+        },
+        {
+          "pas": 3,
+          "titlu": "Contradicția finală",
+          "explicatie": "Rezultă că și b este par, ceea ce contrazice faptul că a și b erau primi între ei! Deci \\sqrt{2} este irațional.",
+          "formula": "\\text{Contradicție! } \\Rightarrow \\sqrt{2} \\in \\mathbb{R} \\setminus \\mathbb{Q}"
+        }
+      ]
+    }
+  },
+  "mat10-10": {
+    "video": {
+      "titlu": "Funcția putere și funcția radical — Explicații și rezolvări de examen",
+      "profesor": "Prof. de Matematică (Pauza de Mate / Proful Online)",
+      "durata": "15 min",
+      "youtubeId": "P7QYjGzPZz4",
+      "descriere": "Proprietăți, grafice și radicali de ordin superior"
+    },
+    "tabla": {
+      "titlu": "Rezolvare pas-cu-pas fără pași omiși",
+      "enunt": "Rezolvarea ecuației cu radical \\sqrt{2x + 3} = x",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Condițiile de existență",
+          "explicatie": "Ce este sub radical trebuie să fie \\ge 0, iar rezultatul unui radical de ordin par este \\ge 0.",
+          "formula": "\\begin{cases} 2x + 3 \\ge 0 \\Rightarrow x \\ge -1,5 \\\\ x \\ge 0 \\end{cases} \\quad \\Rightarrow \\quad x \\in [0, +\\infty)"
+        },
+        {
+          "pas": 2,
+          "titlu": "Ridicarea ambilor membri la pătrat",
+          "explicatie": "(\\sqrt{2x + 3})^2 = x^2 \\Rightarrow 2x + 3 = x^2.",
+          "formula": "x^2 - 2x - 3 = 0"
+        },
+        {
+          "pas": 3,
+          "titlu": "Rădăcinile ecuației de gradul II",
+          "explicatie": "\\Delta = (-2)^2 - 4(1)(-3) = 16. x_1 = -1, x_2 = 3.",
+          "formula": "x_1 = -1 \\notin [0, +\\infty) \\text{ (respins!)}, \\quad x_2 = 3 \\in [0, +\\infty) \\quad \\Rightarrow \\quad S = \\{3\\}"
+        }
+      ]
+    }
+  },
+  "mat10-11": {
+    "video": {
+      "titlu": "Funcții trigonometrice — Explicații și rezolvări de examen",
+      "profesor": "Prof. de Matematică (Pauza de Mate / Proful Online)",
+      "durata": "15 min",
+      "youtubeId": "P7QYjGzPZz4",
+      "descriere": "Periodicitate, paritate și graficele funcțiilor sin, cos, tg, ctg"
+    },
+    "tabla": {
+      "titlu": "Rezolvare pas-cu-pas fără pași omiși",
+      "enunt": "Studiul parității funcției f(x) = x \\cdot \\sin(x)",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Calculul lui f(-x)",
+          "explicatie": "Înlocuim x cu -x: f(-x) = (-x) \\cdot \\sin(-x).",
+          "formula": "\\sin(-x) = -\\sin(x)"
+        },
+        {
+          "pas": 2,
+          "titlu": "Regula semnelor (- cu - dă +)",
+          "explicatie": "f(-x) = (-x) \\cdot (-\\sin(x)) = x \\cdot \\sin(x) = f(x).",
+          "formula": "f(-x) = f(x) \\quad \\Rightarrow \\quad f \\text{ este funcție pară (simetrică față de Oy)}"
+        }
+      ]
+    }
+  },
+  "mat10-12": {
+    "video": {
+      "titlu": "Ecuații trigonometrice — Explicații și rezolvări de examen",
+      "profesor": "Prof. de Matematică (Pauza de Mate / Proful Online)",
+      "durata": "15 min",
+      "youtubeId": "P7QYjGzPZz4",
+      "descriere": "Rezolvarea ecuațiilor fundamentale sin(x) = a și cos(x) = a"
+    },
+    "tabla": {
+      "titlu": "Rezolvare pas-cu-pas fără pași omiși",
+      "enunt": "Rezolvarea în [0, 2\\pi) a ecuației \\sin(x) = \\frac{1}{2}",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Soluția din primul cadran",
+          "explicatie": "Unghiul ascuțit pentru care sinusul este 1/2 este 30° adică \\pi/6.",
+          "formula": "x_1 = \\frac{\\pi}{6}"
+        },
+        {
+          "pas": 2,
+          "titlu": "Soluția din cadranul II",
+          "explicatie": "Sinusul este pozitiv și în cadranul II: \\pi - x_1 = \\pi - \\frac{\\pi}{6} = \\frac{5\\pi}{6}.",
+          "formula": "x_2 = \\frac{5\\pi}{6} \\quad \\Rightarrow \\quad S = \\left\\{\\frac{\\pi}{6}, \\frac{5\\pi}{6}\\right\\}"
+        }
+      ]
+    }
+  },
+  "mat10-14": {
+    "video": {
+      "titlu": "Modul, conjugat și forma trigonometrică — Explicații și rezolvări de examen",
+      "profesor": "Prof. de Matematică (Pauza de Mate / Proful Online)",
+      "durata": "15 min",
+      "youtubeId": "P7QYjGzPZz4",
+      "descriere": "Modulul unui număr complex și formula z = r(cos t + i sin t)"
+    },
+    "tabla": {
+      "titlu": "Rezolvare pas-cu-pas fără pași omiși",
+      "enunt": "Calculul modulului numărului complex z = 3 - 4i",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Formula modulului unui număr complex",
+          "explicatie": "Modulul este distanța de la originea planului complex la imaginea geometrică: |z| = \\sqrt{a^2 + b^2}.",
+          "formula": "a = 3, \\quad b = -4"
+        },
+        {
+          "pas": 2,
+          "titlu": "Calculul numeric",
+          "explicatie": "|z| = \\sqrt{3^2 + (-4)^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5.",
+          "formula": "|z| = 5"
+        }
+      ]
+    }
+  },
+  "mat10-15": {
+    "video": {
+      "titlu": "Ecuații în mulțimea numerelor complexe — Explicații și rezolvări de examen",
+      "profesor": "Prof. de Matematică (Pauza de Mate / Proful Online)",
+      "durata": "15 min",
+      "youtubeId": "P7QYjGzPZz4",
+      "descriere": "Ecuații de gradul al II-lea cu Delta negativ"
+    },
+    "tabla": {
+      "titlu": "Rezolvare pas-cu-pas fără pași omiși",
+      "enunt": "Rezolvarea în mulțimea C a ecuației x^2 - 4x + 13 = 0",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Calculul discriminantului Delta",
+          "explicatie": "\\Delta = (-4)^2 - 4 \\cdot 1 \\cdot 13 = 16 - 52 = -36 < 0.",
+          "formula": "\\Delta = -36 = 36 i^2"
+        },
+        {
+          "pas": 2,
+          "titlu": "Extragerea rădăcinilor complexe conjugate",
+          "explicatie": "\\sqrt{\\Delta} = \\pm 6i. Rădăcinile sunt x_{1,2} = \\frac{-(-4) \\pm 6i}{2} = \\frac{4 \\pm 6i}{2} = 2 \\pm 3i.",
+          "formula": "S = \\{2 - 3i, 2 + 3i\\}"
+        }
+      ]
+    }
+  },
+  "mat10-16": {
+    "video": {
+      "titlu": "Vectori și coordonate în plan — Explicații și rezolvări de examen",
+      "profesor": "Prof. de Matematică (Pauza de Mate / Proful Online)",
+      "durata": "15 min",
+      "youtubeId": "P7QYjGzPZz4",
+      "descriere": "Condiția de coliniaritate a doi vectori exprimați analitic"
+    },
+    "tabla": {
+      "titlu": "Rezolvare pas-cu-pas fără pași omiși",
+      "enunt": "Stabilirea dacă vectorii \\vec{u} = 2\\vec{i} + 3\\vec{j} și \\vec{v} = 6\\vec{i} + 9\\vec{j} sunt coliniari",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Condiția de proporționalitate a coordonatelor",
+          "explicatie": "Doi vectori sunt coliniari dacă și numai dacă rapoartele coordonatelor lor sunt egale: \\frac{x_u}{x_v} = \\frac{y_u}{y_v}.",
+          "formula": "\\frac{2}{6} = \\frac{3}{9}"
+        },
+        {
+          "pas": 2,
+          "titlu": "Simplificarea fracțiilor",
+          "explicatie": "Ambele fracții simplificate dau 1/3. Deci vectorii sunt coliniari.",
+          "formula": "\\frac{1}{3} = \\frac{1}{3} \\quad \\Rightarrow \\quad \\vec{v} = 3\\vec{u} \\quad (\\text{coliniari})"
+        }
+      ]
+    }
+  },
+  "mat10-17": {
+    "video": {
+      "titlu": "Dreapta în plan — Explicații și rezolvări de examen",
+      "profesor": "Prof. de Matematică (Pauza de Mate / Proful Online)",
+      "durata": "15 min",
+      "youtubeId": "P7QYjGzPZz4",
+      "descriere": "Condiția de paralelism și perpendicularitate a două drepte prin pante"
+    },
+    "tabla": {
+      "titlu": "Rezolvare pas-cu-pas fără pași omiși",
+      "enunt": "Aflarea pantei unei drepte perpendiculare pe dreapta de pantă m_1 = 2",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Condiția de perpendicularitate a două drepte",
+          "explicatie": "Două drepte sunt perpendiculare dacă și numai dacă produsul pantelor lor este -1: m_1 \\cdot m_2 = -1.",
+          "formula": "m_1 \\cdot m_2 = -1"
+        },
+        {
+          "pas": 2,
+          "titlu": "Calculul pantei m_2",
+          "explicatie": "Înlocuim m_1 = 2: 2 \\cdot m_2 = -1 \\Rightarrow m_2 = -\\frac{1}{2}.",
+          "formula": "m_2 = -\\frac{1}{2} = -0,5"
+        }
+      ]
+    }
+  },
+  "mat10-18": {
+    "video": {
+      "titlu": "Cercul în plan — Explicații și rezolvări de examen",
+      "profesor": "Prof. de Matematică (Pauza de Mate / Proful Online)",
+      "durata": "15 min",
+      "youtubeId": "P7QYjGzPZz4",
+      "descriere": "Ecuația carteziană a cercului cu centrul C(a, b) și raza R"
+    },
+    "tabla": {
+      "titlu": "Rezolvare pas-cu-pas fără pași omiși",
+      "enunt": "Ecuația cercului cu centrul C(2, -3) și raza R = 5",
+      "pasi": [
+        {
+          "pas": 1,
+          "titlu": "Formula generală a cercului în coordonate",
+          "explicatie": "Locul geometric al punctelor situate la distanța R de centru este (x - a)^2 + (y - b)^2 = R^2.",
+          "formula": "(x - x_C)^2 + (y - y_C)^2 = R^2"
+        },
+        {
+          "pas": 2,
+          "titlu": "Înlocuirea coordonatelor centrului și a razei",
+          "explicatie": "(x - 2)^2 + (y - (-3))^2 = 5^2.",
+          "formula": "(x - 2)^2 + (y + 3)^2 = 25"
+        },
+        {
+          "pas": 3,
+          "titlu": "Desfacerea pătratelor pentru ecuația generală",
+          "explicatie": "x^2 - 4x + 4 + y^2 + 6y + 9 = 25 \\Rightarrow x^2 + y^2 - 4x + 6y - 12 = 0.",
+          "formula": "x^2 + y^2 - 4x + 6y - 12 = 0"
+        }
+      ]
+    }
+  }
+}

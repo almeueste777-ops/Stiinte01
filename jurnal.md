@@ -1692,4 +1692,49 @@ Legături: [[Științe Sociale — MOC]] · [[Arhitectura aplicației]] · [[Ver
 - Bump cache la **stiinte01-v19** în `sw.js` (incluzând `./assets/emblema.png`) și query string `?v=19` în `index.html`.
 - Regenerat vaultul Obsidian prin `python tools/graphify.py`.
 
+---
+
+## 2026-09-07 — Faza 16: Tastatură Matematică Nativă, Ciornă, Video Explicativ cu profesor și Tablă Pas-cu-Pas (v16)
+
+**Obiectiv primit:** Rezolvarea nevoilor esențiale pentru studiul individual al matematicii la profilul real fără profesor:
+1. O tastatură matematică nativă cu care elevul să poată scrie formule și exerciții și să le rezolve în cadrul testelor și antrenamentelor, accesibilă nativ direct din aplicație.
+2. Un video explicativ dedicat pentru fiecare lecție de matematică.
+3. Explicații în pași mici, fără să se sară peste vreun pas intermediar („fără pași omiși”).
+
+### 1. Tastatură Matematică Nativă & Ciornă Retractabilă
+- Creată componenta nativă accesibilă prin butonul `[ √x ]` din bara de sus, precum și din interiorul testelor, lecțiilor și antrenamentului.
+- Panou modal retractabil cu 4 categorii organizate pe tab-uri:
+  - **Bază & Algebră:** cifre 0–9, operații $+$, $-$, $\times$, $\div$, $=$, $\neq$, $\pm$, radical $\sqrt{\ }$, puteri $x^2, x^3, x^n$, fracții $\frac{a}{b}$, paranteze și modul $|x|$.
+  - **Mulțimi & Relații:** $<, >, \le, \ge, \in, \notin, \subset, \subseteq, \cup, \cap, \emptyset, \mathbb{N}, \mathbb{Z}, \mathbb{Q}, \mathbb{R}, \Rightarrow, \Leftrightarrow, \forall, \exists$.
+  - **Litere & Simboluri:** $x, y, z, t, a, b, c, \Delta, \pi, \alpha, \beta, \theta, \infty, ^\circ, \perp, \parallel, \sin, \cos, \text{tg}, \text{ctg}, x_1$.
+  - **Funcții & Bacalaureat:** $f(x), f'(x), \log_a, \ln, \lim, \sum, \int, e, \frac{1}{x}, x_2, x_n, \sqrt{\Delta}, V(-b/2a, -\Delta/4a), i^2 = -1$.
+- Încorporat câmp de ciornă cu previzualizare matematică tipografică în timp real și buton inteligent `[ 📋 Copiază în răspuns ]` care transferă direct calculul în câmpul de test activ.
+
+### 2. Micro-Motor Tipografic de Formule Matematice (100% Offline)
+- Implementată funcția `formateazaMateHTML(str)` în `assets/app.js`:
+  - Randează fracții etajate verticale cu bară orizontală: `<span class="math-frac"><span class="math-num">...</span><span class="math-den">...</span></span>`.
+  - Randează radicali cu bară continuă: `<span class="math-rad"><span class="math-rad-sym">&radic;</span><span class="math-rad-line">...</span></span>`.
+  - Exponenți `<sup>...</sup>`, indici `<sub>...</sub>`, litere grecești ($\Delta, \pi, \alpha, \beta$) și simboluri de relație ($\le, \ge, \neq, \pm, \Rightarrow$).
+- Integrat în toate lecțiile, grilele de test, antrenamente și recapitulări de rezultate.
+
+### 3. Sistem Dual Video Explicativ & Tablă Didactică Pas-cu-Pas
+- Generată baza de date didactică completă `data/mate-didactic.json` pentru toate cele 36 de lecții de matematică (clasele a IX-a și a X-a).
+- **Online:** Card dedicat de video cu profesor (Pauza de Mate / Proful Online), integrat nativ cu player embed YouTube la click (`▶ Vizionează lecția video`).
+- **Offline («Tabla Neagră Pas-cu-Pas»):** Tablă interactivă pe stil chalkboard întunecat cu contrast ridicat, care descompune problema cheie a fiecărei lecții în pași atomici:
+  - Pasul 1: Ipoteză & formulă aplicabilă.
+  - Pasul 2: Condiții de existență (numitor $\neq 0$, radicand $\ge 0$, argument logaritm $>0$).
+  - Pasul 3: Transformări algebrice fără pași omiși (semne schimbate, numitor comun).
+  - Pasul 4: Calcul intermediar complet (calculul pas cu pas al lui $\Delta$, etc.).
+  - Pasul 5: Concluzia și mulțimea de soluții $S$.
+  - Butoane interactive de navigare între pași: `‹ Pasul anterior`, `Pasul următor ›`, `↺ Reia de la început`.
+
+### 4. Versionare (v16) & Validare
+- Modul compilat și verificat cu `node tools/verifica-continut.mjs` (63 module, 1177 lecții valide).
+- Toate cele 33 de teste de comportament trecute (`node tools/test-comportament.mjs` — 33/33 pass).
+- Verificat CSS: `assets/app.css` și `assets/tema-aurora.css` (0 erori sintactice).
+- Verificat precache service worker: 77 resurse, 0 erori.
+- Actualizat la versiunea **v16** (cache v20).
+- Vault Obsidian actualizat (`python tools/graphify.py` și `python tools/verifica_vault.py` — 0 erori, 0 legături rupte).
+
+
 

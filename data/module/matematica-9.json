@@ -17,7 +17,7 @@
      "titlu": "Mulțimi de numere",
      "rezumat": "Mulțimile de numere se cuprind una pe alta: naturale (N), întregi (Z), raționale (Q), reale (R). Numerele naturale servesc la numărare; întregii adaugă opusele, făcând scăderea mereu posibilă; raționalele sunt fracțiile a/b cu b diferit de zero și fac împărțirea posibilă; realele adaugă numerele iraționale, care nu se pot scrie ca fracție — radicalii care nu se extrag, pi, e. Un număr rațional are dezvoltare zecimală finită sau periodică; unul irațional are dezvoltare infinită neperiodică. Operațiile cu numere reale respectă proprietățile de comutativitate, asociativitate și distributivitate. Modulul unui număr real este distanța lui față de zero: |a| = a dacă a este pozitiv sau zero și −a dacă a este negativ. Partea întreagă [a] este cel mai mare întreg mai mic sau egal cu a, iar partea fracționară este diferența a − [a], mereu în intervalul de la 0 la 1.",
      "ideiCheie": [
-      "Incluziunea mulțimilor: N inclus în Z inclus în Q inclus în R.",
+      "Incluziunea mulțimilor: \\mathbb{N} \\subset \\mathbb{Z} \\subset \\mathbb{Q} \\subset \\mathbb{R}.",
       "Raționalele au dezvoltare zecimală finită sau periodică; iraționalele, infinită neperiodică.",
       "Modulul unui număr real este distanța lui față de zero.",
       "Partea fracționară este mereu în intervalul de la 0 la 1."
@@ -52,7 +52,7 @@
      ],
      "test": [
       {
-       "intrebare": "Numărul rădăcină din 2 este:",
+       "intrebare": "Numărul \\sqrt{2} este:",
        "optiuni": [
         "irațional",
         "rațional",
@@ -100,7 +100,7 @@
     {
      "id": "mat9-02",
      "titlu": "Puteri, radicali, logaritmi",
-     "rezumat": "Puterea cu exponent natural înseamnă înmulțire repetată. Regulile de calcul: produsul puterilor cu aceeași bază adună exponenții, câtul le scade, puterea unei puteri îi înmulțește, iar puterea unui produs se distribuie. Exponentul zero dă 1 pentru orice bază nenulă, iar exponentul negativ dă inversul: a la puterea −n este 1 supra a la puterea n. Radicalul de ordin n este operația inversă ridicării la putere; radicalul de ordin par cere radicand pozitiv. Raționalizarea numitorului elimină radicalul de la numitor prin amplificare cu conjugata. Logaritmul în baza a al lui x este exponentul la care trebuie ridicat a pentru a obține x; regulile lui transformă produsul în sumă, câtul în diferență și puterea în produs, ceea ce l-a făcut instrumentul de calcul al secolelor trecute și baza scărilor logaritmice de azi.",
+     "rezumat": "Puterea cu exponent natural înseamnă înmulțire repetată. Regulile de calcul: produsul puterilor cu aceeași bază adună exponenții, câtul le scade, puterea unei puteri îi înmulțește, iar puterea unui produs se distribuie. Exponentul zero dă 1 pentru orice bază nenulă, iar exponentul negativ dă inversul: a^{-n} este 1 supra a^n. Radicalul de ordin n este operația inversă ridicării la putere; radicalul de ordin par cere radicand pozitiv. Raționalizarea numitorului elimină radicalul de la numitor prin amplificare cu conjugata. Logaritmul în baza a al lui x este exponentul la care trebuie ridicat a pentru a obține x; regulile lui transformă produsul în sumă, câtul în diferență și puterea în produs, ceea ce l-a făcut instrumentul de calcul al secolelor trecute și baza scărilor logaritmice de azi.",
      "ideiCheie": [
       "Produsul puterilor cu aceeași bază adună exponenții; câtul îi scade.",
       "Exponentul negativ dă inversul; exponentul zero dă 1 pentru bază nenulă.",
@@ -119,12 +119,12 @@
      ],
      "carduri": [
       {
-       "f": "Cât este a la puterea zero, pentru a nenul?",
+       "f": "Cât este a^0 = 1, pentru a nenul?",
        "v": "1."
       },
       {
        "f": "Ce înseamnă exponent negativ?",
-       "v": "Inversul puterii cu exponent pozitiv: a la −n este 1 supra a la n."
+       "v": "Inversul puterii cu exponent pozitiv: a la −n este \\frac{1}{a^n}."
       },
       {
        "f": "Ce face logaritmul cu un produs?",
@@ -185,7 +185,7 @@
     {
      "id": "mat9-03",
      "titlu": "Progresii aritmetice și geometrice",
-     "rezumat": "O progresie aritmetică este un șir în care fiecare termen se obține adunând la precedentul o constantă numită rație. Termenul general este primul termen plus (n−1) înmulțit cu rația. Suma primilor n termeni este media primului și ultimului termen, înmulțită cu numărul de termeni — formula descoperită, după legendă, de Gauss copil, care a adunat numerele de la 1 la 100 grupându-le în perechi cu aceeași sumă. O progresie geometrică se obține înmulțind fiecare termen cu o rație constantă nenulă. Termenul general este primul termen înmulțit cu rația la puterea n−1. Suma primilor n termeni are formulă proprie, iar când rația are modulul mai mic decât 1, suma tuturor termenilor converge către o valoare finită. Progresiile modelează situații reale: dobânda simplă este aritmetică, dobânda compusă și creșterea populației sunt geometrice.",
+     "rezumat": "O progresie aritmetică este un șir în care fiecare termen se obține adunând la precedentul o constantă numită rație. Termenul general este primul termen plus (n−1) înmulțit cu rația. Suma primilor n termeni este media primului și ultimului termen, înmulțită cu numărul de termeni — formula descoperită, după legendă, de Gauss copil, care a adunat numerele de la 1 la 100 grupându-le în perechi cu aceeași sumă. O progresie geometrică se obține înmulțind fiecare termen cu o rație constantă nenulă. Termenul general este primul termen înmulțit cu rația^n−1. Suma primilor n termeni are formulă proprie, iar când rația are modulul mai mic decât 1, suma tuturor termenilor converge către o valoare finită. Progresiile modelează situații reale: dobânda simplă este aritmetică, dobânda compusă și creșterea populației sunt geometrice.",
      "ideiCheie": [
       "Progresia aritmetică adaugă o rație constantă; cea geometrică înmulțește cu o rație constantă.",
       "Termenul general aritmetic: primul termen plus (n−1) ori rația.",
@@ -246,10 +246,10 @@
       {
        "intrebare": "Termenul general al progresiei geometrice este:",
        "optiuni": [
-        "primul termen înmulțit cu rația la puterea n−1",
+        "primul termen înmulțit cu rația^n−1",
         "primul termen plus rația ori n",
         "suma primilor n termeni",
-        "rația la puterea n"
+        "rația^n"
        ],
        "corect": 0,
        "explicatie": "Exponentul e n−1, nu n."
@@ -539,7 +539,7 @@
     {
      "id": "mat9-07",
      "titlu": "Trigonometrie în triunghiul dreptunghic",
-     "rezumat": "În triunghiul dreptunghic, sinusul unui unghi ascuțit este raportul dintre cateta opusă și ipotenuză, cosinusul este raportul dintre cateta alăturată și ipotenuză, iar tangenta este raportul dintre cateta opusă și cea alăturată. Aceste rapoarte depind doar de unghi, nu de mărimea triunghiului, pentru că triunghiurile dreptunghice cu același unghi ascuțit sunt asemenea. Valorile remarcabile se memorează: pentru 30 de grade sinusul este 1/2, pentru 45 de grade sinusul și cosinusul sunt egale cu rădăcină din 2 supra 2, pentru 60 de grade sinusul este rădăcină din 3 supra 2. Identitatea fundamentală spune că suma pătratelor sinusului și cosinusului aceluiași unghi este 1. Teorema lui Pitagora leagă laturile: pătratul ipotenuzei este suma pătratelor catetelor. Aplicațiile practice sunt directe: măsurarea înălțimilor inaccesibile, panta unui drum, calculul distanțelor prin triangulație.",
+     "rezumat": "În triunghiul dreptunghic, sinusul unui unghi ascuțit este raportul dintre cateta opusă și ipotenuză, cosinusul este raportul dintre cateta alăturată și ipotenuză, iar tangenta este raportul dintre cateta opusă și cea alăturată. Aceste rapoarte depind doar de unghi, nu de mărimea triunghiului, pentru că triunghiurile dreptunghice cu același unghi ascuțit sunt asemenea. Valorile remarcabile se memorează: pentru 30 de grade sinusul este 1/2, pentru 45 de grade sinusul și cosinusul sunt egale cu \\sqrt{2} supra 2, pentru 60 de grade sinusul este rădăcină din 3 supra 2. Identitatea fundamentală spune că suma pătratelor sinusului și cosinusului aceluiași unghi este 1. Teorema lui Pitagora leagă laturile: pătratul ipotenuzei este suma pătratelor catetelor. Aplicațiile practice sunt directe: măsurarea înălțimilor inaccesibile, panta unui drum, calculul distanțelor prin triangulație.",
      "ideiCheie": [
       "Sinus = catetă opusă supra ipotenuză; cosinus = catetă alăturată supra ipotenuză.",
       "Rapoartele depind doar de unghi, nu de mărimea triunghiului.",
@@ -580,7 +580,7 @@
        "optiuni": [
         "1/2",
         "rădăcină din 3 supra 2",
-        "rădăcină din 2 supra 2",
+        "\\sqrt{2} supra 2",
         "1"
        ],
        "corect": 0,
@@ -602,7 +602,7 @@
        "optiuni": [
         "1",
         "0",
-        "rădăcină din 2",
+        "\\sqrt{2}",
         "1/2"
        ],
        "corect": 0,
@@ -1063,12 +1063,12 @@
     {
      "id": "mat9-13",
      "titlu": "Cercul trigonometric și radianul",
-     "rezumat": "Cercul trigonometric este cercul de rază 1 cu centrul în originea reperului. Pe el, măsura unghiurilor se poate exprima în grade sau în radiani. Un radian este unghiul la centru care subîntinde un arc de lungime egală cu raza; deoarece circumferința este de două ori pi înmulțit cu raza, unui unghi de 360 de grade îi corespund doi pi radiani, iar unui unghi de 180 de grade, pi radiani.\nCercul trigonometric permite extinderea funcțiilor trigonometrice de la unghiurile ascuțite la orice unghi. Punctul de pe cerc care corespunde unui unghi are drept coordonate cosinusul și sinusul acelui unghi: prima coordonată este cosinusul, a doua este sinusul. De aici se citesc direct semnele funcțiilor în fiecare cadran și valorile pentru unghiurile de 0, 90, 180 și 270 de grade. Transformarea între grade și radiani se face cu o simplă proporție, folosind echivalența dintre 180 de grade și pi radiani.",
+     "rezumat": "Cercul trigonometric este cercul de rază 1 cu centrul în originea reperului. Pe el, măsura unghiurilor se poate exprima în grade sau în radiani. Un radian este unghiul la centru care subîntinde un arc de lungime egală cu raza; deoarece circumferința este de două ori pi înmulțit cu raza, unui unghi de 360 de grade îi corespund doi \\pi \\text{ radiani}, iar unui unghi de 180 de grade, \\pi \\text{ radiani}.\nCercul trigonometric permite extinderea funcțiilor trigonometrice de la unghiurile ascuțite la orice unghi. Punctul de pe cerc care corespunde unui unghi are drept coordonate cosinusul și sinusul acelui unghi: prima coordonată este cosinusul, a doua este sinusul. De aici se citesc direct semnele funcțiilor în fiecare cadran și valorile pentru unghiurile de 0, 90, 180 și 270 de grade. Transformarea între grade și radiani se face cu o simplă proporție, folosind echivalența dintre 180 de grade și \\pi \\text{ radiani}.",
      "ideiCheie": [
       "Cercul trigonometric are raza 1 și centrul în origine.",
-      "Un unghi de 180 de grade are măsura pi radiani; unul de 360 de grade, doi pi.",
+      "Un unghi de 180 de grade are măsura \\pi \\text{ radiani}; unul de 360 de grade, doi pi.",
       "Coordonatele punctului de pe cerc sunt cosinusul și sinusul unghiului.",
-      "Transformarea grade-radiani folosește echivalența 180 de grade egal pi radiani."
+      "Transformarea grade-radiani folosește echivalența 180 de grade egal \\pi \\text{ radiani}."
      ],
      "termeni": [
       {
@@ -1095,7 +1095,7 @@
       },
       {
        "f": "Cum se transformă gradele în radiani?",
-       "v": "Cu o proporție, folosind echivalența 180 de grade egal pi radiani."
+       "v": "Cu o proporție, folosind echivalența 180 de grade egal \\pi \\text{ radiani}."
       }
      ],
      "test": [
@@ -1108,7 +1108,7 @@
         "pi supra patru"
        ],
        "corect": 0,
-       "explicatie": "Un unghi de 360 de grade are doi pi radiani."
+       "explicatie": "Un unghi de 360 de grade are doi \\pi \\text{ radiani}."
       },
       {
        "intrebare": "Raza cercului trigonometric este:",
@@ -1763,7 +1763,7 @@
       "pi supra patru"
      ],
      "corect": 0,
-     "explicatie": "Un unghi de 360 de grade are doi pi radiani."
+     "explicatie": "Un unghi de 360 de grade are doi \\pi \\text{ radiani}."
     },
     {
      "intrebare": "Teorema cosinusului este o generalizare a:",
@@ -1856,7 +1856,7 @@
     {
      "intrebare": "Sinusul de 45 de grade este:",
      "optiuni": [
-      "rădăcină din 2 supra 2",
+      "\\sqrt{2} supra 2",
       "1/2",
       "rădăcină din 3 supra 2",
       "1"
@@ -1917,7 +1917,7 @@
       "o elipsă"
      ],
      "corect": 0,
-     "explicatie": "Raza este rădăcina din 25."
+     "explicatie": "Raza este \\sqrt{2}5."
     }
    ]
   }

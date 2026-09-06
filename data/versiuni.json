@@ -1,7 +1,19 @@
 {
-  "curenta": "15",
+  "curenta": "16",
   "actualizat": "2026-09-07",
   "versiuni": [
+    {
+      "v": "16",
+      "nume": "Tastatură Matematică Nativă, Ciornă, Video Explicativ cu profesor și Tablă Pas-cu-Pas (Fără pași omiși)",
+      "data": "2026-09-07",
+      "cache": 20,
+      "schimbari": [
+        "Construită și integrată o tastatură matematică nativă și ciornă de calcul retractabilă direct în aplicație (accesibilă din bara de sus, din orice test, lecție sau antrenament), cu butoane dedicate pentru radicali, fracții, puteri, litere grecești, relații și mulțimi.",
+        "Implementat motor tipografic de formule matematice fără dependențe externe greoaie: fracții etajate, radicali cu bară orizontală, exponenți, indici și notații de examen randate impecabil.",
+        "Integrat sistem hibrid de video explicativ pentru fiecare temă de matematică: lecții video cu profesori renumiți de Bacalaureat (când ești conectat la internet) și player dedicat integrat în fiecare lecție.",
+        "Creată «Tabla Neagră Pas-cu-Pas» (100% disponibilă offline) pentru rezolvarea atomică a problemelor de examen, cu descompunere pe pași mici și fără nicio săritură peste calculele intermediare."
+      ]
+    },
     {
       "v": "15",
       "nume": "Liceul Tehnologic „Ion Creangă” Tg. Neamț (Profil Real), emblemă nouă regală, Geografie și Istorie completate pentru Bacalaureat",

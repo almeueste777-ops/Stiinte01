@@ -871,7 +871,7 @@ cssclasses: test
 > [!success]- Răspuns
 > **a. 5**
 > 
-> Raza este rădăcina din 25.
+> Raza este \sqrt{2}5.
 
 ### 73. Funcția f de x egal cu x la pătrat este:
 

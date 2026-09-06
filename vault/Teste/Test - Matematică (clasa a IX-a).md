@@ -9,7 +9,7 @@ cssclasses: test
 
 102 întrebări din [[Matematică (clasa a IX-a)|Matematică (clasa a IX-a)]] — testele de lecție și tezele semestriale. Răspunsurile sunt ascunse: apasă pe săgeata callout-ului ca să le vezi.
 
-### 1. Numărul rădăcină din 2 este:
+### 1. Numărul \sqrt{2} este:
 
 - a. irațional
 - b. rațional
@@ -131,13 +131,13 @@ cssclasses: test
 
 ### 11. Termenul general al progresiei geometrice este:
 
-- a. primul termen înmulțit cu rația la puterea n−1
+- a. primul termen înmulțit cu rația^n−1
 - b. primul termen plus rația ori n
 - c. suma primilor n termeni
-- d. rația la puterea n
+- d. rația^n
 
 > [!success]- Răspuns
-> **a. primul termen înmulțit cu rația la puterea n−1**
+> **a. primul termen înmulțit cu rația^n−1**
 > 
 > Exponentul e n−1, nu n.
 
@@ -301,7 +301,7 @@ cssclasses: test
 
 - a. 1/2
 - b. rădăcină din 3 supra 2
-- c. rădăcină din 2 supra 2
+- c. \sqrt{2} supra 2
 - d. 1
 
 > [!success]- Răspuns
@@ -325,7 +325,7 @@ cssclasses: test
 
 - a. 1
 - b. 0
-- c. rădăcină din 2
+- c. \sqrt{2}
 - d. 1/2
 
 > [!success]- Răspuns
@@ -595,7 +595,7 @@ cssclasses: test
 > [!success]- Răspuns
 > **a. pi**
 > 
-> Un unghi de 360 de grade are doi pi radiani.
+> Un unghi de 360 de grade are doi \pi \text{ radiani}.
 
 ### 50. Raza cercului trigonometric este:
 
@@ -1063,7 +1063,7 @@ cssclasses: test
 > [!success]- Răspuns
 > **a. pi**
 > 
-> Un unghi de 360 de grade are doi pi radiani.
+> Un unghi de 360 de grade are doi \pi \text{ radiani}.
 
 ### 89. Teorema cosinusului este o generalizare a:
 
@@ -1163,13 +1163,13 @@ cssclasses: test
 
 ### 97. Sinusul de 45 de grade este:
 
-- a. rădăcină din 2 supra 2
+- a. \sqrt{2} supra 2
 - b. 1/2
 - c. rădăcină din 3 supra 2
 - d. 1
 
 > [!success]- Răspuns
-> **a. rădăcină din 2 supra 2**
+> **a. \sqrt{2} supra 2**
 > 
 > Este egal cu cosinusul aceluiași unghi.
 
@@ -1231,7 +1231,7 @@ cssclasses: test
 > [!success]- Răspuns
 > **a. un cerc de rază 5 cu centrul în origine**
 > 
-> Raza este rădăcina din 25.
+> Raza este \sqrt{2}5.
 
 ---
 

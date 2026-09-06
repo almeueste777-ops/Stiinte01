@@ -21,8 +21,16 @@
   const backBtn = document.getElementById('btn-back');
   const netBadge = document.getElementById('net-badge');
   const setariBtn = document.getElementById('btn-setari');
+  const mateBtn = document.getElementById('btn-tastatura-mate');
   const metaTema = document.getElementById('meta-tema');
   const doc = document.documentElement;
+
+  let ultimulInputMate = null;
+  document.addEventListener('focusin', e => {
+    if (e.target && (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') && !e.target.classList.contains('mate-input')) {
+      ultimulInputMate = e.target;
+    }
+  }, true);
 
   /* ═══ §1  infrastructură de mișcare (stratul 3 din app.css) ═══════════ */
   const stage  = document.getElementById('stage');
@@ -1234,19 +1242,21 @@
 
     /* .two-col: pe telefon curge normal; ≥900px textul stă la stânga,
        notițele la dreapta (lipicioase), ca să nu derulezi ca să notezi. */
+    const esteMate = modId.startsWith('mat') || modId.startsWith('mass') || ix.materie.includes('Matematică');
     view.innerHTML = `
       <div class="two-col">
         <div class="card">
           <p class="crumb" style="margin-bottom:10px"><b>${esc(ix.materie)}</b> › ${esc(cap.titlu)}</p>
           <h3>${esc(lec.titlu)}</h3>
-          ${String(lec.rezumat).split('\n').filter(Boolean).map(t => `<p>${esc(t)}</p>`).join('')}
+          ${String(lec.rezumat).split('\n').filter(Boolean).map(t => `<p>${formateazaMateHTML(esc(t))}</p>`).join('')}
           ${vizualeHTML(lec)}
+          ${mateDidacticHTML(modId, lec)}
           <h3 style="margin-top:14px">Idei-cheie</h3>
-          <ul class="clean">${lec.ideiCheie.map(i => `<li>${esc(i)}</li>`).join('')}</ul>
+          <ul class="clean">${lec.ideiCheie.map(i => `<li>${formateazaMateHTML(esc(i))}</li>`).join('')}</ul>
           ${lec.termeni && lec.termeni.length ? `
             <h3 style="margin-top:18px">Termeni</h3>
             <table><tr><th>Termen</th><th>Înțeles</th></tr>
-            ${lec.termeni.map(t => `<tr><td><strong>${esc(t.t)}</strong></td><td class="muted">${esc(t.d)}</td></tr>`).join('')}
+            ${lec.termeni.map(t => `<tr><td><strong>${formateazaMateHTML(esc(t.t))}</strong></td><td class="muted">${formateazaMateHTML(esc(t.d))}</td></tr>`).join('')}
             </table>` : ''}
         </div>
         <div class="two-col-side">
@@ -1255,6 +1265,9 @@
             <textarea id="nota" rows="4" placeholder="Scrie aici...">${esc(nota)}</textarea>
             <p class="muted" id="nota-stare" style="margin:6px 0 0">Salvate automat pe acest dispozitiv.</p>
           </div>
+          ${esteMate ? `
+            <button class="btn ghost" id="btn-ciorna-lectie" style="margin-bottom:10px; width:100%;">⌨️ Ciornă & Tastatură matematică</button>
+          ` : ''}
           <button class="btn" id="marcheaza">${state.lectiiCitite[lec.id] ? '✓ Marcată ca citită — anulează' : 'Marchează drept citită'}</button>
           <div class="grid2" style="margin-top:12px">
             <button class="btn" data-go="#/antren/lectie/${encodeURIComponent(modId)}/${encodeURIComponent(lec.id)}">Antrenează lecția</button>
@@ -1271,6 +1284,10 @@
           </button>
         </div>
       </div>`;
+
+    legaMateDidactic(modId, lec);
+    const bCiornaLec = view.querySelector('#btn-ciorna-lectie');
+    if (bCiornaLec) bCiornaLec.onclick = () => { bate(6); deschideTastaturaMate(); };
 
     const ta = view.querySelector('#nota');
     const stare = view.querySelector('#nota-stare');
@@ -1572,10 +1589,16 @@
     const q = quiz[qPos];
     const cron = qTimerId ? `<span class="timer" id="cron">${formatTimp(qRamas)}</span>` : '';
     view.innerHTML = `
-      <p class="muted">Întrebarea ${qPos + 1} din ${quiz.length} · ${esc(q.sursa || qTitlu)} ${cron}</p>
-      <div class="card"><h3>${esc(q.intrebare)}</h3></div>
-      <div id="opt">${q.optiuni.map((o, i) => `<button class="opt" data-i="${i}">${esc(o)}</button>`).join('')}</div>
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+        <p class="muted" style="margin:0;">Întrebarea ${qPos + 1} din ${quiz.length} · ${esc(q.sursa || qTitlu)} ${cron}</p>
+        <button class="btn ghost btn-sm" id="btn-ciorna-test" type="button" style="padding:4px 10px; font-size:0.85rem;">⌨️ Ciornă / Tastatură</button>
+      </div>
+      <div class="card"><h3>${formateazaMateHTML(esc(q.intrebare))}</h3></div>
+      <div id="opt">${q.optiuni.map((o, i) => `<button class="opt" data-i="${i}">${formateazaMateHTML(esc(o))}</button>`).join('')}</div>
       <div id="fb"></div>`;
+
+    const bCiornaTest = view.querySelector('#btn-ciorna-test');
+    if (bCiornaTest) bCiornaTest.onclick = () => { bate(6); deschideTastaturaMate(); };
 
     view.querySelectorAll('.opt').forEach(b => b.onclick = () => {
       const i = Number(b.dataset.i);
@@ -1604,7 +1627,7 @@
         else if (xi === i) x.classList.add('wrong');
       });
       view.querySelector('#fb').innerHTML =
-        `<div class="card"><p>${bun ? '<strong>Corect.</strong> ' : '<strong>Greșit.</strong> '}${esc(q.explicatie)}</p>
+        `<div class="card"><p>${bun ? '<strong>Corect.</strong> ' : '<strong>Greșit.</strong> '}${formateazaMateHTML(esc(q.explicatie))}</p>
          <button class="btn" id="next">${qPos + 1 === quiz.length ? 'Vezi rezultatul' : 'Următoarea'}</button></div>`;
       view.querySelector('#next').onclick = () => { qPos++; drawQ(); };
     });
@@ -1632,9 +1655,9 @@
       </div>
       ${gresite.length ? `<h2>De recitit</h2>
       <ul class="rev">${gresite.map((r, i) => `
-        <li><strong>${esc(r.q.intrebare)}</strong>
-          <div><span class="nu">${esc(r.q.optiuni[r.ales])}</span> → <span class="ok">${esc(r.q.optiuni[r.q.corect])}</span></div>
-          <p class="muted" style="margin:6px 0 0">${esc(r.q.explicatie)}</p>
+        <li><strong>${formateazaMateHTML(esc(r.q.intrebare))}</strong>
+          <div><span class="nu">${formateazaMateHTML(esc(r.q.optiuni[r.ales]))}</span> → <span class="ok">${formateazaMateHTML(esc(r.q.optiuni[r.q.corect]))}</span></div>
+          <p class="muted" style="margin:6px 0 0">${formateazaMateHTML(esc(r.q.explicatie))}</p>
           <button class="rap-link" type="button" data-rap-q="${i}">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"
                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
@@ -1939,20 +1962,26 @@
     if (el.tip === 'g') {
       const q = amestecaOptiuni(el);
       ses.grilaCurenta = q;
-      return `<h3>${esc(q.intrebare)}</h3>
+      return `<h3>${formateazaMateHTML(esc(q.intrebare))}</h3>
         <div id="opt">${q.optiuni.map((o, i) =>
-          `<button class="opt" data-i="${i}">${esc(o)}</button>`).join('')}</div>`;
+          `<button class="opt" data-i="${i}">${formateazaMateHTML(esc(o))}</button>`).join('')}</div>`;
     }
-    if (el.tip === 'c') return `<h3>${esc(el.f)}</h3><p class="muted">${TIPURI.c.expl}</p>`;
-    if (el.tip === 't') return `<h3>${esc(el.t)}</h3><p class="muted">${TIPURI.t.expl}</p>`;
+    if (el.tip === 'c') return `<h3>${formateazaMateHTML(esc(el.f))}</h3><p class="muted">${TIPURI.c.expl}</p>`;
+    if (el.tip === 't') return `<h3>${formateazaMateHTML(esc(el.t))}</h3><p class="muted">${TIPURI.t.expl}</p>`;
     if (el.tip === 'z') {
       return `<p class="muted">Ce termen se potrivește definiției?</p>
-        <h3>${esc(el.d)}</h3>
-        <input class="camp" id="raspuns" type="text" autocomplete="off" autocapitalize="off"
-               spellcheck="false" placeholder="scrie termenul" aria-label="Termenul care lipsește">`;
+        <h3>${formateazaMateHTML(esc(el.d))}</h3>
+        <div style="display:flex; gap:8px; align-items:center; margin-top:8px;">
+          <input class="camp" id="raspuns" type="text" autocomplete="off" autocapitalize="off"
+                 spellcheck="false" placeholder="scrie termenul" aria-label="Termenul care lipsește">
+          <button type="button" class="btn ghost btn-sm" id="btn-tastatura-antren">⌨️ √x</button>
+        </div>`;
     }
     return `<p class="muted">Scrie ideea cu cuvintele tale, apoi compară.</p>
-      <h3>${esc(el.lectieTitlu)}</h3>
+      <h3>${formateazaMateHTML(esc(el.lectieTitlu))}</h3>
+      <div style="display:flex; justify-content:flex-end; margin-bottom:6px;">
+        <button type="button" class="btn ghost btn-sm" id="btn-tastatura-antren">⌨️ Tastatură matematică</button>
+      </div>
       <textarea class="camp camp-mare" id="raspuns" rows="4"
                 placeholder="explică pe scurt…" aria-label="Explicația ta"></textarea>`;
   }
@@ -1985,6 +2014,8 @@
     if (el.tip === 'z' || el.tip === 'x') {
       z.innerHTML = `<button class="btn" id="verifica">${el.tip === 'z' ? 'Verifică' : 'Arată ideea'}</button>`;
       const camp = view.querySelector('#raspuns');
+      const btnMate = view.querySelector('#btn-tastatura-antren');
+      if (btnMate && camp) btnMate.onclick = () => { bate(6); deschideTastaturaMate(camp); };
       if (camp) camp.focus({ preventScroll: true });
       z.querySelector('#verifica').onclick = () => arataRaspuns(el, camp ? camp.value : '');
       if (camp && el.tip === 'z') camp.onkeydown = e => { if (e.key === 'Enter') { e.preventDefault(); arataRaspuns(el, camp.value); } };
@@ -3343,6 +3374,357 @@
     scrim.onclick = inchide;
   }
 
+  /* ═══ §8b Tipografie Matematică, Tastatură Nativă și Tablă Didactică ═ */
+
+  function formateazaMateHTML(str) {
+    if (!str || typeof str !== 'string') return '';
+    let out = str;
+    out = out.replace(/&lt;=|\\le/g, '&le;');
+    out = out.replace(/&gt;=|\\ge/g, '&ge;');
+    out = out.replace(/\\neq|!=/g, '&ne;');
+    out = out.replace(/\\pm|\+-/g, '&plusmn;');
+    out = out.replace(/\\Delta/g, '&Delta;');
+    out = out.replace(/\\pi/g, '&pi;');
+    out = out.replace(/\\infty/g, '&infin;');
+    out = out.replace(/\\in/g, '&isin;');
+    out = out.replace(/\\notin/g, '&notin;');
+    out = out.replace(/\\subset/g, '&sub;');
+    out = out.replace(/\\subseteq/g, '&sube;');
+    out = out.replace(/\\cup/g, '&cup;');
+    out = out.replace(/\\cap/g, '&cap;');
+    out = out.replace(/\\emptyset/g, '&empty;');
+    out = out.replace(/\\Rightarrow|=&gt;/g, '&rArr;');
+    out = out.replace(/\\Leftrightarrow|&lt;=&gt;/g, '&hArr;');
+
+    let lim = 0;
+    while (lim++ < 15 && /\\sqrt\{([^{}]+)\}/.test(out)) {
+      out = out.replace(/\\sqrt\{([^{}]+)\}/g, '<span class="math-rad"><span class="math-rad-sym">&radic;</span><span class="math-rad-line">$1</span></span>');
+    }
+    lim = 0;
+    while (lim++ < 15 && /√\(([^()]+)\)/.test(out)) {
+      out = out.replace(/√\(([^()]+)\)/g, '<span class="math-rad"><span class="math-rad-sym">&radic;</span><span class="math-rad-line">$1</span></span>');
+    }
+    lim = 0;
+    while (lim++ < 15 && /\\frac\{([^{}]+)\}\{([^{}]+)\}/.test(out)) {
+      out = out.replace(/\\frac\{([^{}]+)\}\{([^{}]+)\}/g, '<span class="math-frac"><span class="math-num">$1</span><span class="math-den">$2</span></span>');
+    }
+
+    out = out.replace(/\^\{([^{}]+)\}/g, '<sup>$1</sup>');
+    out = out.replace(/\^([0-9a-zA-Z+−-]+)/g, '<sup>$1</sup>');
+    out = out.replace(/_\{([^{}]+)\}/g, '<sub>$1</sub>');
+    out = out.replace(/_([0-9a-zA-Z])/g, '<sub>$1</sub>');
+    return out;
+  }
+
+  const TASTE_MATE = {
+    baza: [
+      { k: '7', i: '7' }, { k: '8', i: '8' }, { k: '9', i: '9' }, { k: '+', i: ' + ' }, { k: '−', i: ' - ' }, { k: '×', i: ' \\cdot ' }, { k: '÷', i: ' / ' },
+      { k: '4', i: '4' }, { k: '5', i: '5' }, { k: '6', i: '6' }, { k: '=', i: ' = ' }, { k: '≠', i: ' \\neq ' }, { k: '±', i: ' \\pm ' }, { k: '√x', i: '\\sqrt{ }', c: -1 },
+      { k: '1', i: '1' }, { k: '2', i: '2' }, { k: '3', i: '3' }, { k: 'x²', i: '^2' }, { k: 'x³', i: '^3' }, { k: 'xⁿ', i: '^{ }', c: -1 }, { k: 'a/b', i: '\\frac{ }{ }', c: -4 },
+      { k: '0', i: '0' }, { k: '.', i: '.' }, { k: ',', i: ', ' }, { k: '|x|', i: '| |', c: -1 }, { k: '(', i: '(' }, { k: ')', i: ')' }, { k: '[ ]', i: '[ ]', c: -1 }
+    ],
+    multimi: [
+      { k: '<', i: ' < ' }, { k: '>', i: ' > ' }, { k: '≤', i: ' \\le ' }, { k: '≥', i: ' \\ge ' }, { k: '∈', i: ' \\in ' }, { k: '∉', i: ' \\notin ' }, { k: '∅', i: ' \\emptyset ' },
+      { k: '⊂', i: ' \\subset ' }, { k: '⊆', i: ' \\subseteq ' }, { k: '∪', i: ' \\cup ' }, { k: '∩', i: ' \\cap ' }, { k: 'ℕ', i: 'ℕ' }, { k: 'ℤ', i: 'ℤ' }, { k: 'ℚ', i: 'ℚ' },
+      { k: 'ℝ', i: 'ℝ' }, { k: '⇒', i: ' \\Rightarrow ' }, { k: '⇔', i: ' \\Leftrightarrow ' }, { k: '∀', i: '∀' }, { k: '∃', i: '∃' }, { k: '\\', i: ' \\setminus ' }, { k: 'S={ }', i: 'S = { }', c: -1 }
+    ],
+    algebra: [
+      { k: 'x', i: 'x' }, { k: 'y', i: 'y' }, { k: 'z', i: 'z' }, { k: 't', i: 't' }, { k: 'a', i: 'a' }, { k: 'b', i: 'b' }, { k: 'c', i: 'c' },
+      { k: 'Δ', i: '\\Delta' }, { k: 'π', i: '\\pi' }, { k: 'α', i: '\\alpha' }, { k: 'β', i: '\\beta' }, { k: 'θ', i: '\\theta' }, { k: '∞', i: '\\infty' }, { k: '°', i: '^\\circ' },
+      { k: '⊥', i: ' \\perp ' }, { k: '∥', i: ' \\parallel ' }, { k: 'sin', i: '\\sin(' }, { k: 'cos', i: '\\cos(' }, { k: 'tg', i: '\\text{tg}(' }, { k: 'ctg', i: '\\text{ctg}(' }, { k: 'x₁', i: 'x_1' }
+    ],
+    functii: [
+      { k: 'f(x)', i: 'f(x)' }, { k: 'f\'(x)', i: 'f\'(x)' }, { k: 'log_a', i: '\\log_{ }( )', c: -4 }, { k: 'ln', i: '\\ln(' }, { k: 'lim', i: '\\lim_{x \\to }', c: -1 }, { k: '∑', i: '\\sum' }, { k: '∫', i: '\\int' },
+      { k: 'e', i: 'e' }, { k: '1/x', i: '\\frac{1}{x}' }, { k: 'x₂', i: 'x_2' }, { k: 'x_n', i: 'x_n' }, { k: '√Δ', i: '\\sqrt{\\Delta}' }, { k: 'V(xv,yv)', i: 'V(-b/2a, -\\Delta/4a)' }, { k: 'i²', i: 'i^2 = -1' }
+    ]
+  };
+
+  function deschideTastaturaMate(tinta) {
+    if (document.querySelector('.tastatura-mate-modal')) return;
+    const dest = tinta || ultimulInputMate;
+    const scrim = document.createElement('div');
+    scrim.className = 'scrim';
+    const sheet = document.createElement('div');
+    sheet.className = 'sheet tastatura-mate-modal';
+    sheet.setAttribute('role', 'dialog');
+    sheet.setAttribute('aria-modal', 'true');
+    sheet.setAttribute('aria-labelledby', 'mate-titlu');
+
+    let categorieActiva = 'baza';
+
+    sheet.innerHTML = `
+      <div class="mate-modal-header">
+        <h3 id="mate-titlu"><span>⌨️</span> Tastatură Matematică & Ciornă</h3>
+        <button class="icon-btn" id="mate-inchide" aria-label="Închide" style="font-size:1.1rem; padding:4px 8px;">✕</button>
+      </div>
+      <div class="mate-preview-box" id="mate-preview" aria-live="polite"></div>
+      <textarea id="mate-ciorna" class="mate-input" rows="3" placeholder="Scrie pașii calculului tău sau folosește tastele de mai jos...">${dest && dest.value ? esc(dest.value) : ''}</textarea>
+      <div class="mate-tabs" role="tablist">
+        <button class="mate-tab-btn activ" data-cat="baza" role="tab">🔢 Bază & Algebră</button>
+        <button class="mate-tab-btn" data-cat="multimi" role="tab">📐 Mulțimi & Relații</button>
+        <button class="mate-tab-btn" data-cat="algebra" role="tab">🏛️ Litere & Simboluri</button>
+        <button class="mate-tab-btn" data-cat="functii" role="tab">📈 Funcții & Bac</button>
+      </div>
+      <div class="mate-grid" id="mate-grid"></div>
+      <div class="mate-actions">
+        <button class="btn ghost btn-sm" id="mate-sterge">⌫ Șterge</button>
+        <button class="btn ghost btn-sm" id="mate-spatiu">␣ Spațiu</button>
+        <button class="btn ghost btn-sm" id="mate-rand-nou">↵ Rând nou</button>
+        ${dest ? `<button class="btn btn-sm" id="mate-aplica">📋 Copiază în răspuns</button>` : ''}
+        <button class="btn ghost btn-sm" id="mate-curata">🗑️ Curăță</button>
+      </div>
+    `;
+
+    document.body.appendChild(scrim);
+    document.body.appendChild(sheet);
+
+    const ciorna = sheet.querySelector('#mate-ciorna');
+    const preview = sheet.querySelector('#mate-preview');
+    const grid = sheet.querySelector('#mate-grid');
+
+    const actualizeazaPreview = () => {
+      preview.innerHTML = formateazaMateHTML(esc(ciorna.value));
+    };
+    actualizeazaPreview();
+    ciorna.oninput = actualizeazaPreview;
+
+    const deseneazaTaste = (cat) => {
+      categorieActiva = cat;
+      sheet.querySelectorAll('.mate-tab-btn').forEach(b => {
+        b.classList.toggle('activ', b.dataset.cat === cat);
+      });
+      const taste = TASTE_MATE[cat] || TASTE_MATE.baza;
+      grid.innerHTML = taste.map((t, idx) => `
+        <button class="mate-key ${t.k.length > 2 ? 'fn' : ''}" data-idx="${idx}">
+          ${esc(t.k)}
+        </button>
+      `).join('');
+
+      grid.querySelectorAll('.mate-key').forEach(btn => {
+        btn.onclick = () => {
+          const t = taste[Number(btn.dataset.idx)];
+          if (!t) return;
+          bate(6);
+          const start = ciorna.selectionStart || 0;
+          const end = ciorna.selectionEnd || 0;
+          const val = ciorna.value;
+          ciorna.value = val.slice(0, start) + t.i + val.slice(end);
+          const offset = t.c != null ? t.c : 0;
+          ciorna.selectionStart = ciorna.selectionEnd = start + t.i.length + offset;
+          ciorna.focus();
+          actualizeazaPreview();
+        };
+      });
+    };
+
+    deseneazaTaste('baza');
+
+    sheet.querySelectorAll('.mate-tab-btn').forEach(tb => {
+      tb.onclick = () => deseneazaTaste(tb.dataset.cat);
+    });
+
+    sheet.querySelector('#mate-spatiu').onclick = () => {
+      bate(6);
+      const start = ciorna.selectionStart || 0;
+      ciorna.value = ciorna.value.slice(0, start) + ' ' + ciorna.value.slice(ciorna.selectionEnd || 0);
+      ciorna.selectionStart = ciorna.selectionEnd = start + 1;
+      ciorna.focus();
+      actualizeazaPreview();
+    };
+
+    sheet.querySelector('#mate-rand-nou').onclick = () => {
+      bate(6);
+      const start = ciorna.selectionStart || 0;
+      ciorna.value = ciorna.value.slice(0, start) + '\n' + ciorna.value.slice(ciorna.selectionEnd || 0);
+      ciorna.selectionStart = ciorna.selectionEnd = start + 1;
+      ciorna.focus();
+      actualizeazaPreview();
+    };
+
+    sheet.querySelector('#mate-sterge').onclick = () => {
+      bate(8);
+      const start = ciorna.selectionStart || 0;
+      const end = ciorna.selectionEnd || 0;
+      if (start === end && start > 0) {
+        ciorna.value = ciorna.value.slice(0, start - 1) + ciorna.value.slice(end);
+        ciorna.selectionStart = ciorna.selectionEnd = start - 1;
+      } else if (start !== end) {
+        ciorna.value = ciorna.value.slice(0, start) + ciorna.value.slice(end);
+        ciorna.selectionStart = ciorna.selectionEnd = start;
+      }
+      ciorna.focus();
+      actualizeazaPreview();
+    };
+
+    sheet.querySelector('#mate-curata').onclick = () => {
+      bate(12);
+      ciorna.value = '';
+      ciorna.focus();
+      actualizeazaPreview();
+    };
+
+    const btnAplica = sheet.querySelector('#mate-aplica');
+    if (btnAplica && dest) {
+      btnAplica.onclick = () => {
+        bate(10);
+        dest.value = ciorna.value;
+        try { dest.dispatchEvent(new Event('input', { bubbles: true })); } catch {}
+        inchide();
+      };
+    }
+
+    let inchis = false;
+    const inchide = () => {
+      if (inchis) return;
+      inchis = true;
+      window.removeEventListener('hashchange', inchide);
+      document.removeEventListener('keydown', peTasta, true);
+      sheet.classList.add('closing'); scrim.classList.add('closing');
+      setTimeout(() => { sheet.remove(); scrim.remove(); }, 250);
+      if (dest && dest.focus) { try { dest.focus(); } catch {} }
+    };
+
+    const peTasta = e => {
+      if (e.key === 'Escape') { e.stopPropagation(); inchide(); }
+    };
+    document.addEventListener('keydown', peTasta, true);
+    scrim.onclick = inchide;
+    sheet.querySelector('#mate-inchide').onclick = inchide;
+    window.addEventListener('hashchange', inchide);
+  }
+
+  let MATE_DIDACTIC = null;
+  function obtineMateDidactic() {
+    if (MATE_DIDACTIC) return Promise.resolve(MATE_DIDACTIC);
+    return fetch('./data/mate-didactic.json')
+      .then(r => r.ok ? r.json() : null)
+      .then(d => { MATE_DIDACTIC = d || {}; return MATE_DIDACTIC; })
+      .catch(() => { MATE_DIDACTIC = {}; return MATE_DIDACTIC; });
+  }
+
+  function mateDidacticHTML(modId, lec) {
+    if (!modId.startsWith('mat') && !modId.startsWith('mass')) return '';
+    const date = MATE_DIDACTIC && MATE_DIDACTIC[lec.id];
+    if (!date) return '';
+
+    const { video, tabla } = date;
+    let videoHTML = '';
+    if (video) {
+      videoHTML = `
+        <div class="card-mate-video">
+          <div class="video-card-header">
+            <span class="video-card-icon">🎬</span>
+            <div class="video-card-meta">
+              <h4>${esc(video.titlu)}</h4>
+              <span class="muted small">${esc(video.profesor)} · ${esc(video.durata)}</span>
+              <p style="margin:4px 0 0; font-size:0.9rem;" class="muted">${esc(video.descriere)}</p>
+            </div>
+          </div>
+          <div class="video-player-container" id="video-container-${esc(lec.id)}">
+            <button class="btn btn-video-play" id="btn-play-video-${esc(lec.id)}" type="button">
+              ▶ Vizionează lecția video
+            </button>
+          </div>
+          <p class="muted small" style="margin:8px 0 0;">
+            ℹ️ Clipurile video se încarcă prin internet. Dacă ești offline, folosește <strong>Tabla Pas-cu-Pas</strong> de mai jos (100% disponibilă offline).
+          </p>
+        </div>`;
+    }
+
+    let tablaHTML = '';
+    if (tabla && tabla.pasi && tabla.pasi.length) {
+      tablaHTML = `
+        <div class="mate-tabla-box">
+          <div class="mate-tabla-antet">
+            <span>🧑‍🏫 Tabla explicativă pas-cu-pas (100% Offline)</span>
+            <span class="badge" style="background:#A78BFA; color:#1E1B4B; font-weight:700;">FĂRĂ PAȘI OMIȘI</span>
+          </div>
+          <p style="color:#FDE68A; font-weight:600; margin:0 0 12px; font-size:1.05rem;">
+            📌 ${formateazaMateHTML(esc(tabla.enunt))}
+          </p>
+          <div id="mate-tabla-continut-${esc(lec.id)}"></div>
+          <div class="mate-tabla-nav">
+            <button class="btn ghost btn-sm" id="tabla-prev-${esc(lec.id)}" style="color:#E2E8F0; border-color:rgba(255,255,255,0.2);">‹ Pasul anterior</button>
+            <span id="tabla-indicator-${esc(lec.id)}" style="color:#A78BFA; font-weight:700; font-size:0.9rem;">Pasul 1 din ${tabla.pasi.length}</span>
+            <button class="btn btn-sm" id="tabla-next-${esc(lec.id)}">Pasul următor ›</button>
+          </div>
+        </div>`;
+    }
+
+    return videoHTML + tablaHTML;
+  }
+
+  function legaMateDidactic(modId, lec) {
+    if (!modId.startsWith('mat') && !modId.startsWith('mass')) return;
+    const date = MATE_DIDACTIC && MATE_DIDACTIC[lec.id];
+    if (!date) return;
+
+    const btnPlay = view.querySelector('#btn-play-video-' + lec.id);
+    const vBox = view.querySelector('#video-container-' + lec.id);
+    if (btnPlay && vBox && date.video) {
+      btnPlay.onclick = () => {
+        bate(8);
+        vBox.innerHTML = `
+          <iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(date.video.youtubeId)}?autoplay=1"
+                  title="${esc(date.video.titlu)}"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>`;
+      };
+    }
+
+    const cBox = view.querySelector('#mate-tabla-continut-' + lec.id);
+    const bPrev = view.querySelector('#tabla-prev-' + lec.id);
+    const bNext = view.querySelector('#tabla-next-' + lec.id);
+    const ind = view.querySelector('#tabla-indicator-' + lec.id);
+
+    if (cBox && date.tabla && date.tabla.pasi && date.tabla.pasi.length) {
+      const pasi = date.tabla.pasi;
+      let pasIdx = 0;
+
+      const deseneazaPas = () => {
+        const p = pasi[pasIdx];
+        cBox.innerHTML = `
+          <div class="mate-tabla-pas-card activ">
+            <span class="pas-numar">Pasul ${p.pas} din ${pasi.length}</span>
+            <h5 class="pas-titlu">${esc(p.titlu)}</h5>
+            <p class="pas-explicatie">${esc(p.explicatie)}</p>
+            <div class="pas-formula">${formateazaMateHTML(esc(p.formula))}</div>
+          </div>`;
+        if (ind) ind.textContent = 'Pasul ' + (pasIdx + 1) + ' din ' + pasi.length;
+        if (bPrev) bPrev.disabled = pasIdx === 0;
+        if (bNext) {
+          if (pasIdx === pasi.length - 1) {
+            bNext.textContent = '↺ Reia de la început';
+          } else {
+            bNext.textContent = 'Pasul următor ›';
+          }
+        }
+      };
+
+      if (bPrev) {
+        bPrev.onclick = () => {
+          if (pasIdx > 0) {
+            bate(6);
+            pasIdx--;
+            deseneazaPas();
+          }
+        };
+      }
+      if (bNext) {
+        bNext.onclick = () => {
+          bate(6);
+          if (pasIdx < pasi.length - 1) {
+            pasIdx++;
+          } else {
+            pasIdx = 0;
+          }
+          deseneazaPas();
+        };
+      }
+      deseneazaPas();
+    }
+  }
+
   /* ═══ §9  legături ══════════════════════════════════════════════════ */
 
   /* UN SINGUR ascultător delegat pentru toată navigarea [data-go], atașat o
@@ -3354,6 +3736,7 @@
 
   tabs.forEach(t => t.onclick = () => { bate(6); location.hash = '#/' + t.dataset.route; });
   setariBtn.onclick = () => { bate(6); location.hash = '#/setari'; };
+  if (mateBtn) mateBtn.onclick = () => { bate(6); deschideTastaturaMate(); };
   backBtn.onclick = () => history.back();
   window.addEventListener('hashchange', () => { opresteCronometru(); render(); });
 
@@ -3375,12 +3758,11 @@
   Promise.all([
     fetch('./data/curriculum.json').then(r => r.json()),
     fetch('./data/continut.json').then(r => r.json()),
-    /* Jurnalul de versiuni: mic, dar cerut deja pe ecranul Setări. Un eșec al
-       lui nu are voie să oprească pornirea aplicației — de aceea `catch`, nu
-       poziția a treia într-un `all` care respinge. */
-    fetch('./data/versiuni.json').then(r => r.json()).catch(() => null)
-  ]).then(([cur, idx, ver]) => {
+    fetch('./data/versiuni.json').then(r => r.json()).catch(() => null),
+    fetch('./data/mate-didactic.json').then(r => r.json()).catch(() => null)
+  ]).then(([cur, idx, ver, mateDid]) => {
     CUR = cur; IDX = idx; VER = ver;
+    if (mateDid) MATE_DIDACTIC = mateDid;
     curataProgresulOrfan();
     /* Sădire tăcută a insignelor deja meritate (prima pornire pe v06): fără
        felicitări, doar înregistrare — vezi verificaInsigne. */
