@@ -1,7 +1,20 @@
 {
-  "curenta": "17",
+  "curenta": "18",
   "actualizat": "2026-09-07",
   "versiuni": [
+    {
+      "v": "18",
+      "nume": "Tablă Matematică Didactică Pas-cu-Pas (Nivel Elementar Fără Pași Omiși) & Căutare Inteligentă Videoclipuri Disponibile YouTube",
+      "data": "2026-09-07",
+      "cache": 22,
+      "schimbari": [
+        "Rescrise integral rezolvările de pe tabla neagră pentru toate cele 36 de lecții de matematică (clasele a IX-a și a X-a), detaliate ca pentru clasa I, cu 6–11 pași atomici, fără nicio săritură peste calcule (regula semnelor, înmulțiri/adunări parțiale, descompuneri, simplificări de fracții și verificare).",
+        "Adăugat buton de comutare a vizualizării pe tablă: elevul poate alege între «Pas cu pas interactiv» și «Afișează toți pașii» pentru citirea dintr-o privire a întregii demonstrații.",
+        "Implementată căutarea inteligentă directă a videoclipurilor pe YouTube («🔍 Caută videoclipuri disponibile pe YouTube») pentru absolut toate lecțiile din aplicație, eliminând definitiv erorile de tip «Videoclip indisponibil» și deschizând direct rezultatele active și disponibile pe YouTube.",
+        "Reparat playerul integrat cu bară de siguranță (fallback) și linkuri de salvare directă către YouTube dacă redarea este restricționată pe dispozitivul utilizatorului.",
+        "Actualizat Service Worker-ul la cache stiinte01-v22 și actualizată documentația completă."
+      ]
+    },
     {
       "v": "17",
       "nume": "Curriculum Modernizat (Psihologie, Economie, Antreprenoriat), TIC Reconstruit Complet și Video Didactic Universal YouTube cu Link Direct",

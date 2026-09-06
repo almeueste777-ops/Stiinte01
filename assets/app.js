@@ -1250,7 +1250,7 @@
           <h3>${esc(lec.titlu)}</h3>
           ${String(lec.rezumat).split('\n').filter(Boolean).map(t => `<p>${formateazaMateHTML(esc(t))}</p>`).join('')}
           ${vizualeHTML(lec)}
-          ${mateDidacticHTML(modId, lec)}
+          ${mateDidacticHTML(modId, lec, ix.materie)}
           <h3 style="margin-top:14px">Idei-cheie</h3>
           <ul class="clean">${lec.ideiCheie.map(i => `<li>${formateazaMateHTML(esc(i))}</li>`).join('')}</ul>
           ${lec.termeni && lec.termeni.length ? `
@@ -3602,14 +3602,17 @@
       .catch(() => { MATE_DIDACTIC = {}; return MATE_DIDACTIC; });
   }
 
-  function mateDidacticHTML(modId, lec) {
+  function mateDidacticHTML(modId, lec, materie) {
     const date = MATE_DIDACTIC && MATE_DIDACTIC[lec.id];
-    if (!date) return '';
-
-    const { video, tabla } = date;
+    const { video, tabla } = date || {};
     let videoHTML = '';
+
     if (video) {
-      const ytUrl = `https://www.youtube.com/watch?v=${encodeURIComponent(video.youtubeId)}`;
+      const q = video.searchQuery || `${materie || ''} ${lec.titlu} Bacalaureat explicatii`.trim();
+      const searchUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(q)}`;
+      const ytUrl = `https://www.youtube.com/watch?v=${encodeURIComponent(video.youtubeId || '')}`;
+      const areVideoId = video.youtubeId && !video.youtubeId.startsWith('dummy');
+
       videoHTML = `
         <div class="card-mate-video">
           <div class="video-card-header">
@@ -3622,33 +3625,59 @@
           </div>
           <div class="video-player-container" id="video-container-${esc(lec.id)}">
             <div style="display:flex; flex-wrap:wrap; gap:10px; align-items:center; justify-content:center; padding:16px;">
-              <button class="btn btn-video-play" id="btn-play-video-${esc(lec.id)}" type="button">
-                ▶ Vizionează lecția video
-              </button>
-              <a class="btn ghost btn-video-yt" href="${ytUrl}" target="_blank" rel="noopener noreferrer">
-                ↗ Deschide pe YouTube
+              <a class="btn btn-video-search" href="${searchUrl}" target="_blank" rel="noopener noreferrer">
+                🔍 Caută videoclipuri disponibile pe YouTube
               </a>
+              ${areVideoId ? `
+                <button class="btn btn-video-play" id="btn-play-video-${esc(lec.id)}" type="button">
+                  ▶ Vizionează în aplicație
+                </button>
+                <a class="btn ghost btn-video-yt" href="${ytUrl}" target="_blank" rel="noopener noreferrer">
+                  ↗ Deschide pe YouTube
+                </a>
+              ` : ''}
             </div>
           </div>
           <p class="muted small" style="margin:8px 0 0;">
-            ℹ️ Clipurile video se încarcă prin conexiunea la internet (fără reclame). ${tabla && tabla.pasi && tabla.pasi.length ? 'Dacă ești offline, folosește <strong>Tabla Pas-cu-Pas</strong> de mai jos (100% disponibilă offline).' : 'Dacă ești offline, conținutul lecției și testele rămân 100% disponibile offline.'}
+            ℹ️ Butonul de căutare afișează pe YouTube <strong>doar videoclipurile disponibile și active</strong> pentru această temă. ${tabla && tabla.pasi && tabla.pasi.length ? 'Dacă ești offline, folosește <strong>Tabla Pas-cu-Pas</strong> de mai jos (100% disponibilă offline, fără pași omiși).' : 'Conținutul scris și testele sunt 100% disponibile offline.'}
           </p>
+        </div>`;
+    } else {
+      const qGen = `${materie || ''} ${lec.titlu} Bacalaureat explicatii lectie`.trim();
+      const sUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(qGen)}`;
+      videoHTML = `
+        <div class="card-video-sugestie">
+          <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px;">
+            <div>
+              <span style="font-size:1.15rem; margin-right:6px;">🎬</span>
+              <strong>Materiale video & tutoriale:</strong>
+              <span class="muted small" style="margin-left:6px;">Lecții video disponibile pe YouTube</span>
+            </div>
+            <a class="btn ghost btn-sm btn-video-search" href="${sUrl}" target="_blank" rel="noopener noreferrer">
+              🔍 Caută videoclipuri disponibile pe YouTube
+            </a>
+          </div>
         </div>`;
     }
 
     let tablaHTML = '';
     if (tabla && tabla.pasi && tabla.pasi.length) {
       tablaHTML = `
-        <div class="mate-tabla-box">
+        <div class="mate-tabla-box" id="mate-tabla-box-${esc(lec.id)}">
           <div class="mate-tabla-antet">
-            <span>🧑‍🏫 Tabla explicativă pas-cu-pas (100% Offline)</span>
-            <span class="badge" style="background:#A78BFA; color:#1E1B4B; font-weight:700;">FĂRĂ PAȘI OMIȘI</span>
+            <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+              <span>🧑‍🏫 Tabla explicativă pas-cu-pas (100% Offline)</span>
+              <span class="badge" style="background:#A78BFA; color:#1E1B4B; font-weight:700;">FĂRĂ PAȘI OMIȘI</span>
+            </div>
+            <button class="btn ghost btn-xs btn-tabla-toggle" id="btn-toggle-tabla-${esc(lec.id)}" type="button">
+              📄 Afișează toți pașii
+            </button>
           </div>
           <p style="color:#FDE68A; font-weight:600; margin:0 0 12px; font-size:1.05rem;">
             📌 ${formateazaMateHTML(esc(tabla.enunt))}
           </p>
           <div id="mate-tabla-continut-${esc(lec.id)}"></div>
-          <div class="mate-tabla-nav">
+          <div class="mate-tabla-nav" id="mate-tabla-nav-${esc(lec.id)}">
             <button class="btn ghost btn-sm" id="tabla-prev-${esc(lec.id)}" style="color:#E2E8F0; border-color:rgba(255,255,255,0.2);">‹ Pasul anterior</button>
             <span id="tabla-indicator-${esc(lec.id)}" style="color:#A78BFA; font-weight:700; font-size:0.9rem;">Pasul 1 din ${tabla.pasi.length}</span>
             <button class="btn btn-sm" id="tabla-next-${esc(lec.id)}">Pasul următor ›</button>
@@ -3661,18 +3690,33 @@
 
   function legaMateDidactic(modId, lec) {
     const date = MATE_DIDACTIC && MATE_DIDACTIC[lec.id];
-    if (!date) return;
 
     const btnPlay = view.querySelector('#btn-play-video-' + lec.id);
     const vBox = view.querySelector('#video-container-' + lec.id);
-    if (btnPlay && vBox && date.video) {
+    if (btnPlay && vBox && date && date.video) {
       btnPlay.onclick = () => {
         bate(8);
+        const q = date.video.searchQuery || `${date.video.titlu} explicatii Bacalaureat`;
+        const searchUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(q)}`;
+        const ytUrl = `https://www.youtube.com/watch?v=${encodeURIComponent(date.video.youtubeId || '')}`;
         vBox.innerHTML = `
-          <iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(date.video.youtubeId)}?autoplay=1"
-                  title="${esc(date.video.titlu)}"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>`;
+          <div class="video-embed-wrapper">
+            <iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(date.video.youtubeId)}?autoplay=1"
+                    title="${esc(date.video.titlu)}"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            <div class="video-fallback-bar">
+              <span class="muted small">Dacă videoclipul este indisponibil pe dispozitivul tău sau restricționat de autor:</span>
+              <div style="display:flex; gap:8px; justify-content:center; flex-wrap:wrap; margin-top:6px;">
+                <a class="btn btn-xs btn-video-search" href="${searchUrl}" target="_blank" rel="noopener noreferrer">
+                  🔍 Caută doar videoclipurile disponibile pe YouTube
+                </a>
+                <a class="btn ghost btn-xs btn-video-yt" href="${ytUrl}" target="_blank" rel="noopener noreferrer">
+                  ↗ Deschide pe YouTube
+                </a>
+              </div>
+            </div>
+          </div>`;
       };
     }
 
@@ -3680,10 +3724,13 @@
     const bPrev = view.querySelector('#tabla-prev-' + lec.id);
     const bNext = view.querySelector('#tabla-next-' + lec.id);
     const ind = view.querySelector('#tabla-indicator-' + lec.id);
+    const bToggle = view.querySelector('#btn-toggle-tabla-' + lec.id);
+    const navBox = view.querySelector('#mate-tabla-nav-' + lec.id);
 
-    if (cBox && date.tabla && date.tabla.pasi && date.tabla.pasi.length) {
+    if (cBox && date && date.tabla && date.tabla.pasi && date.tabla.pasi.length) {
       const pasi = date.tabla.pasi;
       let pasIdx = 0;
+      let modTotiPasii = false;
 
       const deseneazaPas = () => {
         const p = pasi[pasIdx];
@@ -3704,6 +3751,32 @@
           }
         }
       };
+
+      if (bToggle) {
+        bToggle.onclick = () => {
+          bate(6);
+          modTotiPasii = !modTotiPasii;
+          if (modTotiPasii) {
+            bToggle.textContent = '‹ Pas cu pas';
+            if (navBox) navBox.style.display = 'none';
+            cBox.innerHTML = `
+              <div class="mate-tabla-toti-pasii">
+                ${pasi.map(p => `
+                  <div class="mate-tabla-pas-card complet">
+                    <span class="pas-numar">Pasul ${p.pas} din ${pasi.length}</span>
+                    <h5 class="pas-titlu">${esc(p.titlu)}</h5>
+                    <p class="pas-explicatie">${esc(p.explicatie)}</p>
+                    <div class="pas-formula">${formateazaMateHTML(esc(p.formula))}</div>
+                  </div>
+                `).join('')}
+              </div>`;
+          } else {
+            bToggle.textContent = '📄 Afișează toți pașii';
+            if (navBox) navBox.style.display = 'flex';
+            deseneazaPas();
+          }
+        };
+      }
 
       if (bPrev) {
         bPrev.onclick = () => {

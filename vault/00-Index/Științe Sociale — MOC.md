@@ -46,6 +46,7 @@ Punctul de intrare în **jumătatea scrisă de mână** a vault-ului: cum e făc
 
 ## Proces
 
+- [[Jurnal 2026-09-07 — Tabla Matematica Nivel Elementar si Cautare Disponibile YouTube v18]] — Tablă matematică didactică fără pași omiși (nivel elementar) și căutare inteligentă doar videoclipuri disponibile YouTube
 - [[Jurnal 2026-09-07 — Curriculum Modernizat, TIC Reconstruit si Video Universal YouTube v17]] — Curriculum modernizat (Psihologie, Economie, Antreprenoriat), TIC reconstruit complet și video didactic universal YouTube cu link direct
 - [[Jurnal 2026-09-07 — Tastatura Matematica, Video si Tabla Didactica v16]] — Tastatură matematică nativă, ciornă, video explicativ cu profesor și tablă pas-cu-pas fără pași omiși
 - [[Jurnal 2026-09-07 — Liceul Ion Creanga, Emblema, Istorie si Geografie v15]] — Liceul Tehnologic „Ion Creangă” Tg. Neamț (profil real), emblemă nouă, Istorie și Geografie Bacalaureat
