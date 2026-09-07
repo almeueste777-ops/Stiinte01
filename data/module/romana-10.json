@@ -1,0 +1,2194 @@
+{
+ "id": "romana-10",
+ "materie": "Limba și literatura română",
+ "clasa": "a X-a",
+ "an": 2,
+ "arie": "Limbă și comunicare",
+ "bac": true,
+ "descriere": "Genuri și specii literare ilustrate prin texte reprezentative: basmul, nuvela, romanul, poezia, comedia, plus stilistică și text nonliterar.",
+ "capitole": [
+  {
+   "id": "rom10-c1",
+   "titlu": "Proza scurtă",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "rom10-01",
+     "titlu": "Basmul cult: „Povestea lui Harap-Alb”",
+     "rezumat": "Basmul este specia epică în proză sau în versuri, în care personaje reale și fabuloase intră în conflict, iar binele învinge întotdeauna. Basmul cult are autor cunoscut și păstrează schema basmului popular, dar o îmbogățește cu individualizare psihologică, umor și oralitate proprie autorului. „Povestea lui Harap-Alb” de Ion Creangă (publicată în 1877 în „Convorbiri literare”) urmează schema propusă de Vladimir Propp: situația inițială de echilibru, lipsa (Verde-Împărat nu are urmași), plecarea eroului, probele (ursul, cerbul, casa de aramă, salățile din grădina ursului, pielea cerbului, aducerea fetei împăratului Roș), sprijinitorii (Sfânta Duminică, calul năzdrăvan, cei cinci prieteni fabuloși — Gerilă, Flămânzilă, Setilă, Ochilă, Păsări-Lăți-Lungilă), antagonistul (Spânul), pedeapsa răului și răsplata (căsătoria, împărăția). Originalitatea lui Creangă stă în umanizarea fabulosului și în limbaj: personajele vorbesc moldovenește, cu zicători, proverbe, expresii populare; naratorul intervine cu comentarii („Și unde nu se ia...”); umorul e permanent. Harap-Alb nu e un erou invincibil, ci un tânăr care greșește, ascultă sfaturi și învață — de aceea basmul e și un roman de formare (bildungsroman) în miniatură.",
+     "ideiCheie": [
+      "Basmul cult păstrează schema populară, dar adaugă individualizare, umor și oralitate.",
+      "„Povestea lui Harap-Alb” urmează etapele descrise de Propp.",
+      "Spânul e antagonistul; sprijinitorii sunt Sfânta Duminică, calul și cei cinci prieteni.",
+      "Harap-Alb este un erou care învață: basmul e și un bildungsroman."
+     ],
+     "termeni": [
+      {
+       "t": "basm cult",
+       "d": "basm cu autor cunoscut, care preia schema populară și o îmbogățește"
+      },
+      {
+       "t": "bildungsroman",
+       "d": "operă care urmărește formarea și maturizarea unui personaj"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "În ce an și unde a apărut „Povestea lui Harap-Alb”?",
+       "v": "În 1877, în revista „Convorbiri literare”."
+      },
+      {
+       "f": "Cine este antagonistul din „Povestea lui Harap-Alb”?",
+       "v": "Spânul."
+      },
+      {
+       "f": "Care sunt cei cinci prieteni fabuloși ai lui Harap-Alb?",
+       "v": "Gerilă, Flămânzilă, Setilă, Ochilă și Păsări-Lăți-Lungilă."
+      },
+      {
+       "f": "De ce este „Harap-Alb” și un bildungsroman?",
+       "v": "Pentru că eroul greșește, primește sfaturi și se maturizează pe parcursul probelor."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Povestea lui Harap-Alb” a fost publicată în:",
+       "optiuni": [
+        "1877, în „Convorbiri literare”",
+        "1883, în „Convorbiri literare”",
+        "1866, în „Familia”",
+        "1894, în „Adevărul”"
+       ],
+       "corect": 0,
+       "explicatie": "Creangă a fost introdus la Junimea de Eminescu."
+      },
+      {
+       "intrebare": "Trăsătura care deosebește basmul cult de cel popular este:",
+       "optiuni": [
+        "existența unui autor cunoscut și individualizarea stilistică",
+        "prezența fabulosului",
+        "victoria binelui",
+        "structura în probe"
+       ],
+       "corect": 0,
+       "explicatie": "Schema rămâne, dar tratarea devine personală."
+      },
+      {
+       "intrebare": "Sfânta Duminică, calul năzdrăvan și cei cinci prieteni sunt:",
+       "optiuni": [
+        "personaje ajutătoare",
+        "antagoniști",
+        "personaje episodice fără rol",
+        "personaje-narator"
+       ],
+       "corect": 0,
+       "explicatie": "Ei îl sprijină pe erou în trecerea probelor."
+      },
+      {
+       "intrebare": "Umanizarea fabulosului la Creangă înseamnă că:",
+       "optiuni": [
+        "personajele fantastice vorbesc și se poartă ca țăranii moldoveni",
+        "fabulosul dispare din text",
+        "eroul devine invincibil",
+        "basmul își pierde structura"
+       ],
+       "corect": 0,
+       "explicatie": "De aici umorul și savoarea limbajului."
+      }
+     ]
+    },
+    {
+     "id": "rom10-02",
+     "titlu": "Nuvela psihologică: „Moara cu noroc”",
+     "rezumat": "Nuvela este specia epică în proză, mai amplă decât schița și mai concentrată decât romanul, cu un singur fir narativ, conflict puternic și un personaj principal bine conturat. Nuvela psihologică pune accentul pe transformarea interioară a personajului, urmărind conflictul din conștiința lui. „Moara cu noroc” de Ioan Slavici (1881) prezintă degradarea lui Ghiță, cizmar care ia în arendă cârciuma de la Moara cu noroc pentru a se îmbogăți. Confruntarea cu Lică Sămădăul, șeful porcarilor, îl împinge treptat spre complicitate, minciună față de Ana, violență și, în final, spre crimă și moarte. Finalul moralizator — incendiul, moartea protagoniștilor, supraviețuirea bătrânei și a copiilor — confirmă avertismentul din incipit: „omul să fie mulțumit cu sărăcia sa, căci, dacă e vorba, nu bogăția, ci liniștea colibei tale te face fericit”. Conflictul central este interior: dorința de înavuțire luptă cu conștiința morală și cu dragostea de familie. Slavici realizează primul mare studiu de psihologie din proza românească, prin analiză, monolog interior și notarea reacțiilor fizice. Personajele sunt tipuri morale: Ghiță (omul slab, prins între dorință și conștiință), Lică (răul lucid), Ana (victima), bătrâna (vocea înțelepciunii tradiționale).",
+     "ideiCheie": [
+      "Nuvela psihologică urmărește transformarea interioară a personajului.",
+      "„Moara cu noroc” (1881) prezintă degradarea lui Ghiță sub influența lui Lică.",
+      "Conflictul central e interior: dorința de îmbogățire contra conștiinței morale.",
+      "Incipitul și finalul dau caracterul moralizator al nuvelei."
+     ],
+     "termeni": [
+      {
+       "t": "nuvelă psihologică",
+       "d": "nuvelă centrată pe conflictul interior și pe evoluția conștiinței personajului"
+      },
+      {
+       "t": "monolog interior",
+       "d": "redarea gândurilor personajului, ca vorbire nerostită"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cine este autorul nuvelei „Moara cu noroc” și când a apărut?",
+       "v": "Ioan Slavici, în 1881, în volumul „Novele din popor”."
+      },
+      {
+       "f": "Care este conflictul central din „Moara cu noroc”?",
+       "v": "Conflictul interior al lui Ghiță, între dorința de îmbogățire și conștiința morală."
+      },
+      {
+       "f": "Ce rol are bătrâna în nuvelă?",
+       "v": "Este vocea înțelepciunii tradiționale, care enunță morala din incipit și din final."
+      },
+      {
+       "f": "Cum realizează Slavici analiza psihologică?",
+       "v": "Prin monolog interior, analiza naratorului și notarea reacțiilor fizice."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Replica „omul să fie mulțumit cu sărăcia sa” aparține:",
+       "optiuni": [
+        "bătrânei, soacra lui Ghiță",
+        "lui Ghiță",
+        "Anei",
+        "lui Lică"
+       ],
+       "corect": 0,
+       "explicatie": "Ea deschide și încheie, ca un cadru moral, nuvela."
+      },
+      {
+       "intrebare": "Lică Sămădăul este:",
+       "optiuni": [
+        "șeful porcarilor, personaj malefic și lucid",
+        "un cârciumar concurent",
+        "un jandarm",
+        "un negustor de vite onest"
+       ],
+       "corect": 0,
+       "explicatie": "El îl atrage treptat pe Ghiță în complicitate."
+      },
+      {
+       "intrebare": "Conflictul principal din „Moara cu noroc” este:",
+       "optiuni": [
+        "interior, în conștiința lui Ghiță",
+        "exterior, între Ghiță și autorități",
+        "social, între bogați și săraci",
+        "religios"
+       ],
+       "corect": 0,
+       "explicatie": "Conflictele exterioare sunt subordonate celui interior."
+      },
+      {
+       "intrebare": "„Moara cu noroc” este considerată nuvelă psihologică deoarece:",
+       "optiuni": [
+        "urmărește transformarea interioară a personajului principal",
+        "are un singur fir narativ",
+        "se petrece într-un spațiu restrâns",
+        "are final tragic"
+       ],
+       "corect": 0,
+       "explicatie": "Celelalte trăsături aparțin nuvelei în general."
+      }
+     ]
+    },
+    {
+     "id": "rom10-03",
+     "titlu": "Povestirea și schița",
+     "rezumat": "Povestirea este specia epică în care accentul cade pe actul povestirii însuși: există un povestitor care se adresează unui auditoriu, adesea într-un cadru care justifică istorisirea. „Hanu Ancuței” de Mihail Sadoveanu (1928) este modelul: nouă povestiri legate de cadrul hanului, cu povestitori diferiți, într-o atmosferă de vreme suspendată, cu vin, foc și amintire. Schița este specia epică scurtă, cu acțiune restrânsă la un moment sau la o secvență din viața personajului, cu număr redus de personaje și final adesea neașteptat. I. L. Caragiale este maestrul speciei: „Vizită”, „D-l Goe...”, „Bubico” surprind, în câteva pagini, tipuri sociale prin dialog și gest. Deosebirile sunt de tehnică, nu de valoare. În schiță contează concentrarea și tăietura finală; în povestire, ceremonia rostirii, ritmul oral, formulele („Aveam un cal...”), relația cu ascultătorii. Amândouă cer economie: fiecare detaliu trebuie să lucreze, fiindcă nu există spațiu pentru pregătiri lungi.",
+     "ideiCheie": [
+      "Povestirea pune accentul pe actul povestirii, cu povestitor și auditoriu.",
+      "„Hanu Ancuței” (1928) este modelul povestirii în ramă.",
+      "Schița concentrează acțiunea într-un singur moment, cu final neașteptat.",
+      "Caragiale este maestrul schiței de moravuri („Vizită”, „D-l Goe...”)."
+     ],
+     "termeni": [
+      {
+       "t": "povestire în ramă",
+       "d": "structură în care un cadru narativ cuprinde mai multe povestiri distincte"
+      },
+      {
+       "t": "schiță",
+       "d": "specie epică scurtă, concentrată asupra unui singur moment din viața personajului"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este povestirea în ramă?",
+       "v": "Structura în care un cadru narativ cuprinde mai multe povestiri distincte."
+      },
+      {
+       "f": "Câte povestiri cuprinde „Hanu Ancuței”?",
+       "v": "Nouă."
+      },
+      {
+       "f": "Ce caracterizează schița?",
+       "v": "Acțiunea restrânsă la un moment, număr redus de personaje, final adesea neașteptat."
+      },
+      {
+       "f": "Prin ce se deosebește povestirea de schiță?",
+       "v": "Povestirea accentuează ceremonia rostirii; schița, concentrarea și tăietura finală."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Hanu Ancuței” este:",
+       "optiuni": [
+        "un ciclu de povestiri în ramă",
+        "un roman",
+        "o nuvelă psihologică",
+        "un poem epic"
+       ],
+       "corect": 0,
+       "explicatie": "Cadrul hanului leagă cele nouă povestiri."
+      },
+      {
+       "intrebare": "Trăsătura specifică povestirii este:",
+       "optiuni": [
+        "prezența unui povestitor care se adresează unui auditoriu",
+        "finalul neașteptat",
+        "numărul mare de personaje",
+        "analiza psihologică"
+       ],
+       "corect": 0,
+       "explicatie": "De aici oralitatea și formulele de adresare."
+      },
+      {
+       "intrebare": "„D-l Goe...” de I. L. Caragiale este:",
+       "optiuni": [
+        "o schiță",
+        "o nuvelă",
+        "o povestire",
+        "o comedie"
+       ],
+       "corect": 0,
+       "explicatie": "Textul surprinde un singur episod, cu tăietură finală ironică."
+      },
+      {
+       "intrebare": "În schiță, economia mijloacelor este obligatorie deoarece:",
+       "optiuni": [
+        "nu există spațiu pentru pregătiri lungi",
+        "personajele sunt puține",
+        "naratorul e obiectiv",
+        "acțiunea e cronologică"
+       ],
+       "corect": 0,
+       "explicatie": "Fiecare detaliu trebuie să contribuie la efect."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rom10-c2",
+   "titlu": "Romanul",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "rom10-04",
+     "titlu": "Romanul realist obiectiv: „Ion”",
+     "rezumat": "Romanul este specia epică amplă, cu acțiune complexă desfășurată pe mai multe planuri, personaje numeroase și conflicte multiple. Romanul realist urmărește reprezentarea veridică a societății, cu personaje tipice în împrejurări tipice, narator obiectiv, omniscient și omniprezent, la persoana a III-a. „Ion” de Liviu Rebreanu (1920) este primul mare roman realist-obiectiv românesc. Structura: două părți — „Glasul pământului” și „Glasul iubirii” — care numesc cele două forțe ce îl stăpânesc pe protagonist. Ion, țăran sărac dar inteligent și energic, o seduce pe Ana lui Vasile Baciu pentru a-i lua pământul, o duce la disperare și la sinucidere, apoi revine la Florica, femeia pe care o iubise, și moare ucis de George Bulbuc. Tehnicile: simetria (romanul începe și se sfârșește cu drumul care intră și iese din Pripas), construcția circulară, planurile paralele (planul țărănesc și cel al intelectualilor satului — Titu Herdelea, familia învățătorului), scenele-cheie (hora, nunta, sfințirea bisericii). Rebreanu a formulat el însuși principiul: „am urmărit să creez viață, nu literatură”. Personajele sunt caracterizate mai ales indirect, prin fapte și replici, iar naratorul nu comentează moral.",
+     "ideiCheie": [
+      "Romanul realist: reprezentare veridică, personaje tipice, narator obiectiv omniscient.",
+      "„Ion” (1920): două părți — „Glasul pământului” și „Glasul iubirii”.",
+      "Structura este circulară și simetrică: drumul care intră și iese din Pripas.",
+      "Rebreanu urmărește „să creeze viață, nu literatură”: narator nemoralizator."
+     ],
+     "termeni": [
+      {
+       "t": "roman realist obiectiv",
+       "d": "roman cu narator omniscient la persoana a III-a, care nu intervine moralizator"
+      },
+      {
+       "t": "construcție circulară",
+       "d": "structură în care finalul reia, simetric, elementul din incipit"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt cele două părți ale romanului „Ion”?",
+       "v": "„Glasul pământului” și „Glasul iubirii”."
+      },
+      {
+       "f": "Ce simbolizează drumul din incipitul și finalul romanului?",
+       "v": "Deschiderea și închiderea lumii ficționale; construcția circulară a romanului."
+      },
+      {
+       "f": "Ce principiu a formulat Rebreanu despre proza sa?",
+       "v": "„Am urmărit să creez viață, nu literatură.”"
+      },
+      {
+       "f": "Cum moare Ion?",
+       "v": "Ucis de George Bulbuc, soțul Floricăi."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Romanul „Ion” a fost publicat în:",
+       "optiuni": [
+        "1920",
+        "1917",
+        "1933",
+        "1927"
+       ],
+       "corect": 0,
+       "explicatie": "El deschide seria marilor romane realiste românești."
+      },
+      {
+       "intrebare": "Naratorul din „Ion” este:",
+       "optiuni": [
+        "obiectiv, omniscient, la persoana a III-a",
+        "subiectiv, la persoana I",
+        "personaj secundar",
+        "absent"
+       ],
+       "corect": 0,
+       "explicatie": "El nu intervine cu judecăți morale."
+      },
+      {
+       "intrebare": "Cele două „glasuri” care îl stăpânesc pe Ion sunt:",
+       "optiuni": [
+        "glasul pământului și glasul iubirii",
+        "glasul rațiunii și glasul inimii",
+        "glasul satului și glasul orașului",
+        "glasul tinereții și glasul bătrâneții"
+       ],
+       "corect": 0,
+       "explicatie": "Ele dau titlurile celor două părți ale romanului."
+      },
+      {
+       "intrebare": "Construcția circulară a romanului „Ion” este dată de:",
+       "optiuni": [
+        "drumul care intră și iese din Pripas",
+        "împărțirea în două părți",
+        "alternanța planurilor",
+        "prezența horei"
+       ],
+       "corect": 0,
+       "explicatie": "Simetria închide lumea ficțională ca între paranteze."
+      }
+     ]
+    },
+    {
+     "id": "rom10-05",
+     "titlu": "Romanul subiectiv, de analiză: „Ultima noapte de dragoste, întâia noapte de război”",
+     "rezumat": "Romanul modern subiectiv abandonează naratorul omniscient: povestește un personaj, la persoana I, cu perspectivă limitată, memorie selectivă și acces direct doar la propria conștiință. Camil Petrescu a teoretizat această opțiune: „să nu descriu decât ceea ce văd, ceea ce aud, ceea ce înregistrează simțurile mele, ceea ce gândesc eu... Din mine însumi nu pot ieși.” „Ultima noapte de dragoste, întâia noapte de război” (1930) are două părți autonome tematic, unite de conștiința lui Ștefan Gheorghidiu. Prima parte urmărește gelozia și disecția relației cu Ela — o dragoste trăită ca luptă pentru certitudine absolută. A doua, construită pe experiența reală a autorului pe front, prezintă războiul demistificat: frică, dezordine, absurd, moarte administrativă. Tehnicile romanului modern: memoria involuntară, introspecția, autoanaliza lucidă, anticalofilismul (refuzul scrisului „frumos” în favoarea preciziei), jurnalul ca formă. Finalul e caracteristic: după experiența frontului, gelozia își pierde importanța, iar Gheorghidiu îi lasă Elei „tot trecutul” — nu o iertare, ci o eliberare prin schimbarea scării de valori.",
+     "ideiCheie": [
+      "Romanul subiectiv: narator-personaj la persoana I, perspectivă limitată, introspecție.",
+      "Camil Petrescu: „Din mine însumi nu pot ieși.”",
+      "Cele două părți: drama iubirii și experiența frontului.",
+      "Anticalofilismul: refuzul scrisului frumos în favoarea preciziei."
+     ],
+     "termeni": [
+      {
+       "t": "anticalofilism",
+       "d": "refuzul scrisului „frumos”, în favoarea exactității notației"
+      },
+      {
+       "t": "introspecție",
+       "d": "analiza propriilor stări de conștiință"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este anticalofilismul?",
+       "v": "Refuzul scrisului „frumos” în favoarea preciziei notației, teoretizat de Camil Petrescu."
+      },
+      {
+       "f": "Care sunt cele două părți ale romanului lui Camil Petrescu?",
+       "v": "Drama iubirii și geloziei, respectiv experiența frontului."
+      },
+      {
+       "f": "Ce perspectivă narativă folosește romanul?",
+       "v": "Persoana I, cu narator-personaj și perspectivă limitată."
+      },
+      {
+       "f": "Cum se încheie romanul?",
+       "v": "Gheorghidiu îi lasă Elei „tot trecutul”, după ce experiența frontului i-a schimbat scara de valori."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Formula „Din mine însumi nu pot ieși” exprimă:",
+       "optiuni": [
+        "opțiunea pentru perspectiva subiectivă, limitată la propria conștiință",
+        "neputința de a scrie",
+        "refuzul autobiografiei",
+        "respingerea psihologiei"
+       ],
+       "corect": 0,
+       "explicatie": "Ea justifică narațiunea la persoana I."
+      },
+      {
+       "intrebare": "Romanul „Ultima noapte de dragoste, întâia noapte de război” a apărut în:",
+       "optiuni": [
+        "1930",
+        "1920",
+        "1933",
+        "1938"
+       ],
+       "corect": 0,
+       "explicatie": "Este unul dintre romanele care impun modernismul în proza românească."
+      },
+      {
+       "intrebare": "Anticalofilismul înseamnă:",
+       "optiuni": [
+        "refuzul scrisului frumos în favoarea preciziei",
+        "respingerea metaforei",
+        "folosirea limbajului popular",
+        "evitarea dialogului"
+       ],
+       "corect": 0,
+       "explicatie": "Camil Petrescu îl consideră o condiție a autenticității."
+      },
+      {
+       "intrebare": "A doua parte a romanului prezintă războiul:",
+       "optiuni": [
+        "demistificat, ca dezordine, frică și absurd",
+        "eroic și glorios",
+        "ca fundal romantic",
+        "ca simplă alegorie"
+       ],
+       "corect": 0,
+       "explicatie": "Autorul a folosit propriile note de pe front."
+      }
+     ]
+    },
+    {
+     "id": "rom10-06",
+     "titlu": "Romanul balzacian și cel postbelic: „Enigma Otiliei”, „Moromeții”",
+     "rezumat": "„Enigma Otiliei” de G. Călinescu (1938) este un roman realist de tip balzacian, cu deschidere modernă. Elementele balzaciene: tema moștenirii și a paternității, descrierea amănunțită a interioarelor și a străzii ca indiciu al caracterului, tipurile (avarul Costache Giurgiuveanu, baba absolută Aglae, arivistul Stănică Rațiu). Elementele moderne: ambiguitatea Otiliei, care rămâne „enigmă” pentru toate personajele, și perspectiva reflectorului Felix. „Moromeții” de Marin Preda (volumul I, 1955; volumul II, 1967) urmărește destrămarea unei familii de țărani și, prin ea, sfârșitul unei lumi. Volumul I se petrece cu câțiva ani înainte de al Doilea Război Mondial, într-un timp care „avea cu oamenii nesfârșită răbdare”; volumul II arată accelerarea istoriei după 1945: cotele, colectivizarea, ruptura dintre tată și fii. Ilie Moromete este unul dintre marile personaje ale literaturii române: țăran-filosof, ironic, disimulat, care privește lumea de pe stănoaga podiștei și încearcă să păstreze intactă o ordine care se prăbușește. Scenele antologice — tăierea salcâmului, cina, secerișul, plecarea fiilor la București — funcționează ca revelații ale destrămării.",
+     "ideiCheie": [
+      "„Enigma Otiliei” (1938): realism balzacian cu deschidere modernă.",
+      "Tipurile balzaciene: avarul, baba absolută, arivistul.",
+      "„Moromeții” (I, 1955; II, 1967): destrămarea familiei și sfârșitul unei lumi țărănești.",
+      "Ilie Moromete: țăran-filosof, ironic, disimulat."
+     ],
+     "termeni": [
+      {
+       "t": "reflector",
+       "d": "personaj prin conștiința căruia sunt filtrate faptele și celelalte personaje"
+      },
+      {
+       "t": "incipit",
+       "d": "începutul unei opere, care fixează cadrul și tonul"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce elemente balzaciene are „Enigma Otiliei”?",
+       "v": "Tema moștenirii, descrierea interioarelor ca indiciu de caracter, tipurile umane."
+      },
+      {
+       "f": "În ce ani au apărut cele două volume ale „Moromeților”?",
+       "v": "1955 și 1967."
+      },
+      {
+       "f": "Ce spune incipitul volumului I din „Moromeții” despre timp?",
+       "v": "Că, în acea vreme, timpul „avea cu oamenii nesfârșită răbdare”."
+      },
+      {
+       "f": "Ce tip de personaj este Ilie Moromete?",
+       "v": "Țăran-filosof, ironic și disimulat, care apără o ordine a lumii pe cale de a se prăbuși."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Costache Giurgiuveanu, Aglae Tulea și Stănică Rațiu sunt:",
+       "optiuni": [
+        "tipuri balzaciene din „Enigma Otiliei”",
+        "personaje din „Moromeții”",
+        "personaje din „Ion”",
+        "personaje din „Moara cu noroc”"
+       ],
+       "corect": 0,
+       "explicatie": "Avarul, baba absolută și arivistul sunt tipuri realiste clasice."
+      },
+      {
+       "intrebare": "Deschiderea modernă a romanului „Enigma Otiliei” este dată mai ales de:",
+       "optiuni": [
+        "ambiguitatea personajului Otilia",
+        "descrierea străzii Antim",
+        "tema moștenirii",
+        "prezența unui narator omniscient"
+       ],
+       "corect": 0,
+       "explicatie": "Otilia rămâne „enigmă” pentru toate personajele, inclusiv pentru Felix."
+      },
+      {
+       "intrebare": "Volumul al doilea din „Moromeții” prezintă:",
+       "optiuni": [
+        "accelerarea istoriei după 1945: cotele și colectivizarea",
+        "copilăria lui Niculae",
+        "perioada interbelică",
+        "războiul"
+       ],
+       "corect": 0,
+       "explicatie": "Volumul I se petrece înainte de al Doilea Război Mondial."
+      },
+      {
+       "intrebare": "Scena tăierii salcâmului din „Moromeții” funcționează ca:",
+       "optiuni": [
+        "semn al destrămării lumii țărănești",
+        "simplu episod de muncă",
+        "moment comic",
+        "descriere de natură"
+       ],
+       "corect": 0,
+       "explicatie": "Ea anunță pierderile care vor urma."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rom10-c3",
+   "titlu": "Poezia și teatrul",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "rom10-07",
+     "titlu": "Poezia: de la pastel la meditație",
+     "rezumat": "Pastelul este specia lirică în care se descrie un tablou din natură, cu sentimentele pe care le trezește. Vasile Alecsandri, creatorul speciei în literatura română, publică între 1867 și 1869 ciclul „Pasteluri”, cu texte precum „Iarna”, „Malul Siretului”, „Sfârșit de toamnă”. Structura tipică: tabloul, detaliile senzoriale, prezența discretă a eului liric. Meditația este poezia care pornește de la un motiv concret și se ridică la o reflecție asupra condiției umane, a timpului, a morții. „Glossă” de Mihai Eminescu este un exemplu de meditație în formă fixă: o strofă-temă urmată de strofe care preiau, fiecare, câte un vers, iar finalul reia strofa inițială în ordine inversă — o formă care ilustrează prin ea însăși ideea de repetiție și de detașare. Oda, elegia, idila, satira, sonetul completează repertoriul. Analiza unui text liric urmează pași ficși: identificarea temei și a motivelor, delimitarea secvențelor, urmărirea eului liric (mărci: verbe și pronume la persoana I, vocativ, interogație), figurile de stil și imaginile artistice, elementele de prozodie și, în final, formularea mesajului susținută de citate.",
+     "ideiCheie": [
+      "Pastelul descrie un tablou din natură; Alecsandri l-a impus în literatura română.",
+      "Meditația pornește de la un motiv concret spre reflecția asupra condiției umane.",
+      "„Glossă” este o meditație în formă fixă, cu structură circulară.",
+      "Analiza lirică: temă și motive, secvențe, mărci ale eului liric, figuri, prozodie, mesaj."
+     ],
+     "termeni": [
+      {
+       "t": "pastel",
+       "d": "specie lirică descriptivă, care înfățișează un tablou din natură"
+      },
+      {
+       "t": "glossă",
+       "d": "poezie cu formă fixă, în care strofa inițială se dezvoltă vers cu vers și se reia la final"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cine a creat pastelul în literatura română?",
+       "v": "Vasile Alecsandri, prin ciclul „Pasteluri” (1867–1869)."
+      },
+      {
+       "f": "Ce structură are glossa?",
+       "v": "O strofă-temă, strofe care dezvoltă fiecare câte un vers al ei și reluarea finală, în ordine inversă."
+      },
+      {
+       "f": "Care sunt mărcile eului liric?",
+       "v": "Verbe și pronume la persoana I, vocativul, interogația, exclamația."
+      },
+      {
+       "f": "Ce este meditația, ca specie lirică?",
+       "v": "Poezia care pornește de la un motiv concret spre reflecția asupra condiției umane."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Ciclul „Pasteluri” aparține lui:",
+       "optiuni": [
+        "Vasile Alecsandri",
+        "Mihai Eminescu",
+        "George Coșbuc",
+        "Octavian Goga"
+       ],
+       "corect": 0,
+       "explicatie": "El a fost publicat în „Convorbiri literare”, între 1867 și 1869."
+      },
+      {
+       "intrebare": "„Glossă” de Eminescu ilustrează:",
+       "optiuni": [
+        "o meditație într-o formă fixă, circulară",
+        "un pastel",
+        "o idilă",
+        "o satiră politică"
+       ],
+       "corect": 0,
+       "explicatie": "Forma repetă ideea de detașare și de reîntoarcere."
+      },
+      {
+       "intrebare": "Mărcile eului liric sunt, între altele:",
+       "optiuni": [
+        "verbele și pronumele la persoana I",
+        "descrierile de natură",
+        "rima împerecheată",
+        "prezența dialogului"
+       ],
+       "corect": 0,
+       "explicatie": "Ele semnalează prezența vocii care exprimă trăirea."
+      },
+      {
+       "intrebare": "Analiza unui text liric începe cu:",
+       "optiuni": [
+        "identificarea temei și a motivelor",
+        "numărarea silabelor",
+        "identificarea rimei",
+        "rezumarea acțiunii"
+       ],
+       "corect": 0,
+       "explicatie": "Textul liric nu are acțiune de rezumat."
+      }
+     ]
+    },
+    {
+     "id": "rom10-08",
+     "titlu": "Comedia: „O scrisoare pierdută”",
+     "rezumat": "Comedia este specia dramatică ce provoacă râsul prin situații, personaje și limbaj, corectând moravurile — ridendo castigat mores. Sursele comicului: de situație (încurcături, coincidențe, quiproquo), de caracter (tipuri exagerate), de limbaj (greșeli, ticuri verbale, contradicții), de nume, de moravuri. „O scrisoare pierdută” de I. L. Caragiale (1884) este comedia de moravuri politice prin excelență. Intriga: pierderea și recuperarea repetată a unei scrisori compromițătoare, folosită drept instrument de șantaj în timpul unei campanii electorale. Structura: patru acte, cu final circular — totul se termină în petrecere generală, iar personajele rămân neschimbate. Tipurile comice: Ștefan Tipătescu (amorezul și omul puterii), Zoe (femeia adulterină, adevăratul factor de decizie), Zaharia Trahanache (încornoratul cu „ai puțintică răbdare”), Nae Cațavencu (demagogul), Agamiță Dandanache („mai prost ca Farfuridi și mai canalie decât Cațavencu”), Farfuridi și Brânzovenescu (prostia doctrinară), Ghiță Pristanda (funcționarul servil, cu „curat murdar”), Cetățeanul turmentat (vocea alegătorului derutat). Limbajul lor este marca de identitate: fiecare are ticuri și greșeli proprii, iar comicul de limbaj devine instrument de caracterizare.",
+     "ideiCheie": [
+      "Comedia corectează moravurile prin râs: ridendo castigat mores.",
+      "Surse ale comicului: situație, caracter, limbaj, nume, moravuri.",
+      "„O scrisoare pierdută” (1884): comedie de moravuri politice, cu final circular.",
+      "Ticurile verbale sunt principalul instrument de caracterizare la Caragiale."
+     ],
+     "termeni": [
+      {
+       "t": "quiproquo",
+       "d": "încurcătură comică bazată pe confundarea unei persoane sau a unui lucru cu altul"
+      },
+      {
+       "t": "comic de limbaj",
+       "d": "sursă a comicului bazată pe greșeli, ticuri verbale, contradicții în vorbire"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "În ce an a fost publicată „O scrisoare pierdută”?",
+       "v": "În 1884."
+      },
+      {
+       "f": "Care sunt sursele comicului la Caragiale?",
+       "v": "De situație, de caracter, de limbaj, de nume și de moravuri."
+      },
+      {
+       "f": "Ce tic verbal are Trahanache?",
+       "v": "„Ai puțintică răbdare.”"
+      },
+      {
+       "f": "Cum este descris Agamiță Dandanache?",
+       "v": "„Mai prost ca Farfuridi și mai canalie decât Cațavencu.”"
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Replica „curat murdar” aparține lui:",
+       "optiuni": [
+        "Ghiță Pristanda",
+        "Nae Cațavencu",
+        "Zaharia Trahanache",
+        "Farfuridi"
+       ],
+       "corect": 0,
+       "explicatie": "Ea ilustrează comicul de limbaj prin contradicție în termeni."
+      },
+      {
+       "intrebare": "Finalul comediei „O scrisoare pierdută” este:",
+       "optiuni": [
+        "circular: totul revine la starea inițială, în petrecere generală",
+        "tragic",
+        "deschis, fără rezolvare",
+        "moralizator, cu pedepsirea vinovaților"
+       ],
+       "corect": 0,
+       "explicatie": "Personajele nu se schimbă, ceea ce accentuează satira."
+      },
+      {
+       "intrebare": "Adevăratul factor de decizie din piesă este:",
+       "optiuni": [
+        "Zoe Trahanache",
+        "Ștefan Tipătescu",
+        "Nae Cațavencu",
+        "Agamiță Dandanache"
+       ],
+       "corect": 0,
+       "explicatie": "Ea obține candidatura dorită și controlează deznodământul."
+      },
+      {
+       "intrebare": "Expresia „ridendo castigat mores” înseamnă:",
+       "optiuni": [
+        "râzând, îndreaptă moravurile",
+        "râsul este molipsitor",
+        "comedia nu are morală",
+        "moravurile nu se schimbă"
+       ],
+       "corect": 0,
+       "explicatie": "Ea exprimă funcția corectivă a comediei."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rom10-c4",
+   "titlu": "Stil, text nonliterar, redactare",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "rom10-09",
+     "titlu": "Stiluri funcționale și texte nonliterare",
+     "rezumat": "Stilurile funcționale sunt variante ale limbii adaptate unui domeniu de activitate. Stilul științific: precizie, termeni de specialitate, obiectivitate, absența afectivității, structuri standardizate. Stilul juridic-administrativ: formule fixe, impersonalitate, claritate, lipsa ambiguității, termeni juridici. Stilul publicistic: informare și influențare, titluri, subtitluri, actualitate, mixaj de registre. Stilul beletristic: expresivitate, conotație, ambiguitate voită, libertate față de normă. Textele nonliterare de uz curent: cererea, curriculum vitae, scrisoarea de intenție, procesul-verbal, referatul, e-mailul oficial. Fiecare are convenții stricte de formă: destinatar, formulă de adresare, expunerea concisă a obiectului, formulă de încheiere, semnătură, dată. Textele din presă cer o lectură critică: distincția dintre știre (fapte verificabile, surse citate) și opinie (interpretare, argumentare), identificarea sursei, verificarea datei, atenția la titlurile senzaționale care nu sunt susținute de conținut. Manipularea prin selecție (ce se omite), prin încadrare (cum e prezentat faptul) și prin limbaj afectiv este mai frecventă decât minciuna directă.",
+     "ideiCheie": [
+      "Stiluri funcționale: științific, juridic-administrativ, publicistic, beletristic.",
+      "Textele de uz curent au convenții stricte de formă.",
+      "Lectura critică distinge știrea de opinie și verifică sursa și data.",
+      "Manipularea prin selecție, încadrare și limbaj afectiv e mai frecventă decât minciuna directă."
+     ],
+     "termeni": [
+      {
+       "t": "stil funcțional",
+       "d": "variantă a limbii adaptată unui domeniu de activitate"
+      },
+      {
+       "t": "încadrare (framing)",
+       "d": "prezentarea unui fapt dintr-un anumit unghi, care influențează interpretarea"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt stilurile funcționale?",
+       "v": "Științific, juridic-administrativ, publicistic și beletristic."
+      },
+      {
+       "f": "Ce distinge o știre de o opinie?",
+       "v": "Știrea prezintă fapte verificabile cu surse; opinia oferă interpretare și argumentare."
+      },
+      {
+       "f": "Ce elemente sunt obligatorii într-o cerere?",
+       "v": "Destinatarul, formula de adresare, obiectul cererii, formula de încheiere, semnătura și data."
+      },
+      {
+       "f": "Ce forme de manipulare sunt mai frecvente decât minciuna directă?",
+       "v": "Selecția (ce se omite), încadrarea și limbajul afectiv."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Absența afectivității și folosirea termenilor de specialitate caracterizează stilul:",
+       "optiuni": [
+        "științific",
+        "beletristic",
+        "publicistic",
+        "colocvial"
+       ],
+       "corect": 0,
+       "explicatie": "Stilul beletristic mizează tocmai pe conotație și afectivitate."
+      },
+      {
+       "intrebare": "Într-un text jurnalistic, distincția esențială pentru lectura critică este între:",
+       "optiuni": [
+        "fapte verificabile și opinii",
+        "titlu și subtitlu",
+        "text și imagine",
+        "autor și redacție"
+       ],
+       "corect": 0,
+       "explicatie": "Amestecul lor deliberat e o formă frecventă de manipulare."
+      },
+      {
+       "intrebare": "Formulele fixe și impersonalitatea sunt specifice stilului:",
+       "optiuni": [
+        "juridic-administrativ",
+        "publicistic",
+        "beletristic",
+        "colocvial"
+       ],
+       "corect": 0,
+       "explicatie": "Ele urmăresc eliminarea ambiguității."
+      },
+      {
+       "intrebare": "Manipularea prin selecție constă în:",
+       "optiuni": [
+        "omiterea unor informații relevante",
+        "inventarea unor fapte",
+        "folosirea unui limbaj tehnic",
+        "citarea unei surse"
+       ],
+       "corect": 0,
+       "explicatie": "Faptele prezentate pot fi adevărate, dar tabloul, incomplet."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rom10-c5",
+   "titlu": "Genul epic: basmul și nuvela istorică",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "rom10-10",
+     "titlu": "Basmul popular și basmul cult",
+     "rezumat": "Basmul este specia epică în care întâmplări fabuloase, cu personaje înzestrate cu puteri supranaturale, se organizează după schema tipică a triumfului binelui asupra răului. Basmul popular este anonim (fără autor cunoscut), colectiv (rezultat al mai multor generații), oral (transmis prin viu grai) și, de aceea, existent în mai multe variante. Basmul cult are un autor cunoscut, o formă fixată în scris și o marcă stilistică personală. Basmul cult preia schema populară descrisă de Vladimir Propp — situația inițială, tulburarea echilibrului, plecarea eroului, probele trecute cu ajutoare, confruntarea cu răul, biruința și răsplata — dar o îmbogățește. „Povestea lui Harap-Alb” de Creangă adaugă umanizarea fabulosului, umorul și oralitatea moldovenească; „Făt-Frumos din lacrimă” de Eminescu adaugă lirismul și viziunea romantică. Exemple de basme populare culese și fixate în scris: „Tinerețe fără bătrânețe și viață fără de moarte” și „Prâslea cel voinic și merele de aur”, ambele din colecția lui Petre Ispirescu. Deosebirile nu privesc structura, ci tratarea. În basmul popular formulele fixe, cifrele magice (trei, șapte, nouă) și personajele-tip sunt convenții colective; în basmul cult ele devin material pe care autorul îl modelează, individualizând personaje, comentând acțiunea, presărând zicători și reflecții proprii. Astfel, basmul cult păstrează sufletul basmului popular, dar îl trece prin filtrul unei conștiințe artistice.",
+     "ideiCheie": [
+      "Basmul popular este anonim, colectiv, oral și circulă în mai multe variante.",
+      "Basmul cult are autor cunoscut, formă fixată și marcă stilistică personală.",
+      "Ambele urmează schema lui Propp: echilibru, tulburare, probe, biruință, răsplată.",
+      "„Tinerețe fără bătrânețe...” și „Prâslea cel voinic...” au fost culese de Petre Ispirescu."
+     ],
+     "termeni": [
+      {
+       "t": "basm cult",
+       "d": "basm cu autor cunoscut, care preia schema populară și o individualizează stilistic"
+      },
+      {
+       "t": "schema lui Propp",
+       "d": "succesiunea tipică de funcții narative comune basmelor"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Prin ce se deosebește basmul cult de cel popular?",
+       "v": "Prin autorul cunoscut, forma fixată și marca stilistică personală, nu prin structură."
+      },
+      {
+       "f": "Cine a cules „Tinerețe fără bătrânețe și viață fără de moarte”?",
+       "v": "Petre Ispirescu."
+      },
+      {
+       "f": "Ce păstrează basmul cult din cel popular?",
+       "v": "Schema narativă, formulele, cifrele magice și tipurile de personaje."
+      },
+      {
+       "f": "Dă un exemplu de basm cult românesc.",
+       "v": "„Povestea lui Harap-Alb” de Ion Creangă sau „Făt-Frumos din lacrimă” de Eminescu."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Basmul popular se caracterizează prin faptul că este:",
+       "optiuni": [
+        "anonim, colectiv și oral",
+        "scris de un autor cunoscut",
+        "fixat într-o singură variantă",
+        "lipsit de formule fixe"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea circulă în mai multe variante."
+      },
+      {
+       "intrebare": "„Tinerețe fără bătrânețe și viață fără de moarte” a fost cules de:",
+       "optiuni": [
+        "Petre Ispirescu",
+        "Ion Creangă",
+        "Mihai Eminescu",
+        "Vladimir Propp"
+       ],
+       "corect": 0,
+       "explicatie": "El a strâns basmele în volumul „Legende sau basmele românilor”."
+      },
+      {
+       "intrebare": "Schema comună tuturor basmelor a fost descrisă de:",
+       "optiuni": [
+        "Vladimir Propp",
+        "Titu Maiorescu",
+        "George Călinescu",
+        "Nicolae Manolescu"
+       ],
+       "corect": 0,
+       "explicatie": "Ea cuprinde funcțiile narative repetabile ale basmului."
+      },
+      {
+       "intrebare": "Deosebirea dintre basmul cult și cel popular privește:",
+       "optiuni": [
+        "tratarea și stilul, nu structura",
+        "prezența fabulosului",
+        "victoria binelui",
+        "existența probelor"
+       ],
+       "corect": 0,
+       "explicatie": "Schema rămâne, dar tratarea devine personală."
+      }
+     ]
+    },
+    {
+     "id": "rom10-11",
+     "titlu": "Nuvela istorică: „Alexandru Lăpușneanul”",
+     "rezumat": "Nuvela istorică este specia epică în proză care plasează acțiunea în trecut, cu personaje și evenimente inspirate din documente, dar recompuse literar. „Alexandru Lăpușneanul” de Costache Negruzzi, apărută în 1840 în primul număr al „Daciei literare”, este prima nuvelă istorică din literatura română și un model al speciei. Sursa documentară principală este „Letopisețul Țării Moldovei” al lui Grigore Ureche. Nuvela are patru capitole, fiecare precedat de un moto care rezumă esența acțiunii: „Dacă voi nu mă vreți, eu vă vreu...”, „Ai să dai samă, Doamnă!...”, „Capul lui Moțoc vrem...”, „De mă voi scula, pre mulți am să popesc și eu...”. Acțiunea urmărește a doua domnie a lui Lăpușneanul (1564–1569): revenirea la tron, răzbunarea împotriva boierilor, uciderea celor 47 de boieri la ospăț, „leșul lui Moțoc” aruncat mulțimii, otrăvirea domnului de către propria familie și de mitropolit. Nuvela îmbină trăsături clasice și romantice. Clasice: construcția echilibrată, personajele-tip, obiectivitatea aparentă a naratorului. Romantice: personajul excepțional în situații excepționale, antiteza (Lăpușneanul crud — Doamna Ruxanda blândă), culoarea istorică, scenele de mulțime, gustul pentru violent și spectaculos. Lăpușneanul rămâne unul dintre marile personaje ale literaturii române: tiran lucid, cinic, stăpân pe scenă chiar și în moarte.",
+     "ideiCheie": [
+      "Nuvela istorică plasează acțiunea în trecut, pornind de la documente recompuse literar.",
+      "„Alexandru Lăpușneanul” (1840) este prima nuvelă istorică românească, de Costache Negruzzi.",
+      "Are patru capitole, fiecare cu un moto, și sursa în letopisețul lui Ureche.",
+      "Îmbină trăsături clasice (echilibru, tipuri) și romantice (antiteză, personaj excepțional)."
+     ],
+     "termeni": [
+      {
+       "t": "nuvelă istorică",
+       "d": "nuvelă cu acțiune plasată în trecut, inspirată din documente și recompusă literar"
+      },
+      {
+       "t": "moto",
+       "d": "citat scurt așezat în fruntea unei opere sau a unui capitol, care îi sugerează sensul"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cine a scris „Alexandru Lăpușneanul” și când?",
+       "v": "Costache Negruzzi, în 1840, în „Dacia literară”."
+      },
+      {
+       "f": "Care este sursa documentară a nuvelei?",
+       "v": "„Letopisețul Țării Moldovei” al lui Grigore Ureche."
+      },
+      {
+       "f": "Câte capitole are nuvela și ce le precedă?",
+       "v": "Patru capitole, fiecare precedat de un moto."
+      },
+      {
+       "f": "Ce trăsături romantice are nuvela?",
+       "v": "Personajul excepțional, antiteza, culoarea istorică, scenele de mulțime."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Alexandru Lăpușneanul” este:",
+       "optiuni": [
+        "prima nuvelă istorică din literatura română",
+        "primul roman istoric românesc",
+        "o cronică",
+        "o baladă"
+       ],
+       "corect": 0,
+       "explicatie": "A apărut în primul număr al „Daciei literare”, în 1840."
+      },
+      {
+       "intrebare": "Replica „Dacă voi nu mă vreți, eu vă vreu” aparține:",
+       "optiuni": [
+        "lui Alexandru Lăpușneanul",
+        "lui Moțoc",
+        "Doamnei Ruxanda",
+        "mitropolitului"
+       ],
+       "corect": 0,
+       "explicatie": "Ea este și motoul primului capitol."
+      },
+      {
+       "intrebare": "Sursa documentară a nuvelei este:",
+       "optiuni": [
+        "letopisețul lui Grigore Ureche",
+        "„O samă de cuvinte” a lui Neculce",
+        "„Descrierea Moldovei” a lui Cantemir",
+        "„Istoria ieroglifică”"
+       ],
+       "corect": 0,
+       "explicatie": "Negruzzi a prelucrat literar faptele consemnate acolo."
+      },
+      {
+       "intrebare": "Nuvela „Alexandru Lăpușneanul” îmbină:",
+       "optiuni": [
+        "trăsături clasice și romantice",
+        "realism și naturalism",
+        "simbolism și modernism",
+        "clasicism pur"
+       ],
+       "corect": 0,
+       "explicatie": "Antiteza și personajul excepțional sunt romantice; echilibrul construcției, clasic."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rom10-c6",
+   "titlu": "Romantismul și Mihai Eminescu",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "rom10-12",
+     "titlu": "Romantismul: trăsături și teme",
+     "rezumat": "Romantismul este curentul literar și artistic care domină Europa în prima jumătate a secolului al XIX-lea, ca reacție împotriva raționalismului clasic și iluminist. El pune sentimentul, imaginația și individualitatea mai presus de rațiune și de regulile fixe. Repere europene: Novalis și Hölderlin în spațiul german, Byron și Shelley în cel englez, Victor Hugo și Lamartine în cel francez, Leopardi în cel italian. Trăsăturile romantismului: primatul sentimentului și al fanteziei; cultul eului și al geniului; evadarea din prezent spre trecutul istoric, spre natură, spre vis, spre exotic sau spre folclor; antiteza ca procedeu fundamental (înger–demon, viață–moarte, trecut–prezent); natura ca proiecție a stărilor sufletești; personajul excepțional în împrejurări excepționale; amestecul genurilor și al registrelor; interesul pentru mituri, legende și fantastic. În literatura română, romantismul are două vârste. Prima este cea pașoptistă (1830–1860), militantă și națională, prin Alecsandri, Grigore Alexandrescu, Bolintineanu, Negruzzi. A doua este romantismul înalt, filosofic și universal, atins de Mihai Eminescu în a doua jumătate a secolului. Eminescu adună toate temele și procedeele romantice și le duce la o adâncime metafizică fără egal în literatura română.",
+     "ideiCheie": [
+      "Romantismul domină Europa în prima jumătate a secolului al XIX-lea, ca reacție la clasicism.",
+      "Trăsături: primatul sentimentului, cultul geniului, evadarea, antiteza, natura-stare, folclorul.",
+      "În România: romantismul pașoptist (militant) și romantismul înalt, eminescian.",
+      "Antiteza este procedeul romantic fundamental (înger–demon, viață–moarte)."
+     ],
+     "termeni": [
+      {
+       "t": "romantism",
+       "d": "curent care pune sentimentul, imaginația și individualitatea mai presus de rațiune"
+      },
+      {
+       "t": "evadare romantică",
+       "d": "refugiul din prezent spre trecut, natură, vis, exotic sau folclor"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Când domină romantismul în Europa?",
+       "v": "În prima jumătate a secolului al XIX-lea."
+      },
+      {
+       "f": "Care este procedeul romantic fundamental?",
+       "v": "Antiteza."
+      },
+      {
+       "f": "Care sunt cele două vârste ale romantismului românesc?",
+       "v": "Cea pașoptistă, militantă, și romantismul înalt, eminescian."
+      },
+      {
+       "f": "Ce rol are natura în romantism?",
+       "v": "Devine proiecție a stărilor sufletești ale eului liric."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Romantismul apare ca reacție împotriva:",
+       "optiuni": [
+        "raționalismului clasic și iluminist",
+        "realismului",
+        "simbolismului",
+        "modernismului"
+       ],
+       "corect": 0,
+       "explicatie": "El pune sentimentul mai presus de rațiune."
+      },
+      {
+       "intrebare": "Procedeul fundamental al romantismului este:",
+       "optiuni": [
+        "antiteza",
+        "ironia",
+        "sugestia",
+        "enumerația"
+       ],
+       "corect": 0,
+       "explicatie": "Ea opune înger și demon, viață și moarte, trecut și prezent."
+      },
+      {
+       "intrebare": "Romantismul înalt din literatura română este reprezentat de:",
+       "optiuni": [
+        "Mihai Eminescu",
+        "Vasile Alecsandri",
+        "Grigore Alexandrescu",
+        "Dimitrie Bolintineanu"
+       ],
+       "corect": 0,
+       "explicatie": "Ceilalți aparțin romantismului pașoptist."
+      },
+      {
+       "intrebare": "Evadarea romantică se îndreaptă spre:",
+       "optiuni": [
+        "trecut, natură, vis, exotic și folclor",
+        "realitatea socială imediată",
+        "viața citadină",
+        "documentul istoric exact"
+       ],
+       "corect": 0,
+       "explicatie": "Ea exprimă refuzul prezentului prozaic."
+      }
+     ]
+    },
+    {
+     "id": "rom10-13",
+     "titlu": "Eminescu: „Floare albastră” — iubirea și natura",
+     "rezumat": "„Floare albastră” de Mihai Eminescu, publicată în 1873 în „Convorbiri literare”, valorifică un motiv romantic european — floarea albastră, simbol al idealului și al aspirației infinite, venit de la Novalis. Poezia este o idilă cu structură de meditație: dialogul dintre două ipostaze ale existenței, cea a cunoașterii absolute și cea a iubirii trăite în cadrul naturii. Textul are trei părți. În prima, fata (glasul iubirii și al vieții) îi reproșează eului liric că se pierde în „câmpiile asire” și în „întunecata mare” a cunoașterii abstracte, uitând iubirea. În a doua, ea îl cheamă în natură, într-un tablou senzorial de pădure, izvor și sărut, cu invitația „Hai în codrul cu verdeață...”. În a treia, după consumarea idilei, revine vocea reflexivă a eului: „Ca un stâlp eu stam în lună!”, iar poezia se închide cu versul „Totuși este trist în lume!”. Poezia ilustrează antiteza romantică dintre geniu și omul comun, dintre aspirația spre absolut și fericirea terestră, trecătoare. Iubirea și natura oferă o împlinire de o clipă, dar melancolia finală arată că geniul nu poate rămâne în lumea mărginită a fericirii obișnuite. Motivele romantice — codrul, izvorul, luna, floarea — și tonul nostalgic fac din text una dintre marile poezii ale iubirii din literatura română.",
+     "ideiCheie": [
+      "„Floare albastră” (1873) valorifică motivul romantic al florii albastre, de la Novalis.",
+      "Structura: reproșul fetei, chemarea în natură, melancolia finală a eului liric.",
+      "Antiteza: aspirația spre cunoașterea absolută contra fericirii terestre, trecătoare.",
+      "Versul final, „Totuși este trist în lume!”, fixează melancolia geniului."
+     ],
+     "termeni": [
+      {
+       "t": "floare albastră",
+       "d": "simbol romantic al idealului și al aspirației infinite, preluat de la Novalis"
+      },
+      {
+       "t": "idilă",
+       "d": "specie lirică ce prezintă iubirea senină, într-un cadru natural"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Când și unde a apărut „Floare albastră”?",
+       "v": "În 1873, în revista „Convorbiri literare”."
+      },
+      {
+       "f": "De la cine provine motivul florii albastre?",
+       "v": "De la romanticul german Novalis."
+      },
+      {
+       "f": "Ce îi reproșează fata eului liric?",
+       "v": "Că se pierde în cunoașterea abstractă, uitând iubirea și viața."
+      },
+      {
+       "f": "Ce exprimă versul final „Totuși este trist în lume!”?",
+       "v": "Melancolia geniului, care nu poate rămâne în fericirea terestră."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Motivul florii albastre din poezia lui Eminescu provine de la:",
+       "optiuni": [
+        "Novalis",
+        "Byron",
+        "Lamartine",
+        "Leopardi"
+       ],
+       "corect": 0,
+       "explicatie": "El simbolizează idealul și aspirația infinită."
+      },
+      {
+       "intrebare": "„Floare albastră” se încheie cu versul:",
+       "optiuni": [
+        "„Totuși este trist în lume!”",
+        "„Nu credeam să învăț a muri vrodată”",
+        "„Ci eu în lumea mea mă simt”",
+        "„De ce te legeni, codrule?”"
+       ],
+       "corect": 0,
+       "explicatie": "El fixează melancolia eului liric după idila trăită."
+      },
+      {
+       "intrebare": "În poezie, fata întruchipează:",
+       "optiuni": [
+        "chemarea spre iubire și viața terestră",
+        "aspirația spre cunoașterea absolută",
+        "idealul politic pașoptist",
+        "spiritul justițiar"
+       ],
+       "corect": 0,
+       "explicatie": "Eul liric întruchipează, dimpotrivă, setea de cunoaștere."
+      },
+      {
+       "intrebare": "„Floare albastră” poate fi încadrată ca:",
+       "optiuni": [
+        "idilă cu structură de meditație",
+        "pastel",
+        "odă",
+        "satiră"
+       ],
+       "corect": 0,
+       "explicatie": "Iubirea în natură se împletește cu reflecția asupra condiției geniului."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rom10-c7",
+   "titlu": "Realismul și proza lui Caragiale",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "rom10-14",
+     "titlu": "Realismul: trăsături și context",
+     "rezumat": "Realismul este curentul literar afirmat în a doua jumătate a secolului al XIX-lea, ca reacție împotriva idealizării romantice. El urmărește reprezentarea veridică și obiectivă a realității sociale, cu personaje tipice surprinse în împrejurări tipice. Modele europene: Honoré de Balzac (ciclul „Comedia umană”), Gustave Flaubert („Doamna Bovary”), Lev Tolstoi, Charles Dickens. Trăsăturile realismului: observația exactă a societății și a mediilor sociale; personajele-tip (avarul, arivistul, parvenitul), determinate de mediu și de moștenire; naratorul obiectiv, omniscient și omniprezent, la persoana a III-a, care nu-și judecă personajele; veridicitatea detaliului; refuzul idealizării și al fantasticului; interesul pentru relația dintre individ și societate, adesea pentru puterea banului. În literatura română, realismul se afirmă prin Nicolae Filimon („Ciocoii vechi și noi”, primul roman realist românesc), prin Ioan Slavici (realismul satului ardelean), prin I. L. Caragiale (satira lumii urbane) și atinge maturitatea, în secolul al XX-lea, prin Liviu Rebreanu și G. Călinescu. Adesea, realismul românesc se împletește cu elemente romantice și cu tradiția populară, ceea ce îi dă un caracter propriu.",
+     "ideiCheie": [
+      "Realismul (a doua jumătate a secolului al XIX-lea) urmărește reprezentarea veridică a societății.",
+      "Personaje tipice în împrejurări tipice, narator obiectiv, refuzul idealizării.",
+      "Modele europene: Balzac, Flaubert, Tolstoi, Dickens.",
+      "În România: Filimon, Slavici, Caragiale, apoi Rebreanu și Călinescu."
+     ],
+     "termeni": [
+      {
+       "t": "realism",
+       "d": "curent care urmărește reprezentarea veridică și obiectivă a realității sociale"
+      },
+      {
+       "t": "personaj-tip",
+       "d": "personaj care întruchipează trăsăturile dominante ale unei categorii sociale sau morale"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Când se afirmă realismul?",
+       "v": "În a doua jumătate a secolului al XIX-lea, ca reacție la idealizarea romantică."
+      },
+      {
+       "f": "Care este primul roman realist românesc?",
+       "v": "„Ciocoii vechi și noi” de Nicolae Filimon."
+      },
+      {
+       "f": "Ce tip de narator are romanul realist?",
+       "v": "Obiectiv, omniscient, la persoana a III-a."
+      },
+      {
+       "f": "Cine a scris ciclul „Comedia umană”?",
+       "v": "Honoré de Balzac."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Realismul urmărește:",
+       "optiuni": [
+        "reprezentarea veridică a realității sociale",
+        "evadarea în trecut și în vis",
+        "sugestia stărilor vagi",
+        "perfecțiunea formală a versului"
+       ],
+       "corect": 0,
+       "explicatie": "El refuză idealizarea romantică."
+      },
+      {
+       "intrebare": "„Ciocoii vechi și noi” de Nicolae Filimon este:",
+       "optiuni": [
+        "primul roman realist din literatura română",
+        "prima nuvelă istorică",
+        "primul basm cult",
+        "prima comedie"
+       ],
+       "corect": 0,
+       "explicatie": "El înfățișează ascensiunea parvenitului Dinu Păturică."
+      },
+      {
+       "intrebare": "Naratorul realist tipic este:",
+       "optiuni": [
+        "obiectiv și omniscient, la persoana a III-a",
+        "subiectiv, la persoana I",
+        "un personaj-martor",
+        "absent din text"
+       ],
+       "corect": 0,
+       "explicatie": "El nu-și judecă moral personajele."
+      },
+      {
+       "intrebare": "„Comedia umană” este ciclul de romane al lui:",
+       "optiuni": [
+        "Honoré de Balzac",
+        "Gustave Flaubert",
+        "Charles Dickens",
+        "Lev Tolstoi"
+       ],
+       "corect": 0,
+       "explicatie": "El urmărește să dea o „istorie a moravurilor” societății."
+      }
+     ]
+    },
+    {
+     "id": "rom10-15",
+     "titlu": "„Momente și schițe”: proza scurtă a lui Caragiale",
+     "rezumat": "I. L. Caragiale nu este doar dramaturg, ci și un maestru al prozei scurte. Volumul „Momente și schițe” (1901) adună texte publicate mai întâi în ziare: schițe și „momente” care surprind, în câteva pagini, lumea mic-burgheză a Bucureștiului de la sfârșitul secolului al XIX-lea. Textele reprezentative: „D-l Goe...”, „Vizită”, „Bubico”, „Un pedagog de școală nouă”, „Telegrame”, „Căldură mare”, „Five o'clock”. Caragiale creează tipuri comice memorabile: Mitică, bucureșteanul spiritual și superficial; Lache și Mache, funcționarii; junele „de familie bună”, prost-crescut, ca Goe. Sursele comicului sunt aceleași ca în teatru: comicul de situație (quiproquo, coincidențe), de caracter, de limbaj (ticuri, greșeli, prețiozitate) și de moravuri. Dialogul, redus la esență, este principalul instrument: personajele se caracterizează prin felul lor de a vorbi. Satira vizează pretenția de cultură fără fond, snobismul, corupția măruntă, prostul-gust, relația falsă dintre părinți și copii. Sub aparența anecdotei banale, textele surprind mecanisme sociale durabile. Concizia, tăietura finală neașteptată și oralitatea replicilor fac din Caragiale un model al prozei scurte românești, alături de opera lui dramatică.",
+     "ideiCheie": [
+      "„Momente și schițe” (1901) adună texte publicate întâi în ziare.",
+      "Tipuri comice: Mitică, Lache și Mache, junele prost-crescut (Goe).",
+      "Sursele comicului: de situație, de caracter, de limbaj, de moravuri — ca în teatru.",
+      "Satira vizează snobismul, cultura fără fond, corupția măruntă, prostul-gust."
+     ],
+     "termeni": [
+      {
+       "t": "momente și schițe",
+       "d": "proză scurtă a lui Caragiale, care surprinde satiric lumea mic-burgheză urbană"
+      },
+      {
+       "t": "comic de moravuri",
+       "d": "sursă a comicului bazată pe satirizarea obiceiurilor unei categorii sociale"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "În ce an a apărut volumul „Momente și schițe”?",
+       "v": "În 1901."
+      },
+      {
+       "f": "Cine este Mitică?",
+       "v": "Tipul bucureșteanului spiritual și superficial, creat de Caragiale."
+      },
+      {
+       "f": "Care sunt sursele comicului în proza lui Caragiale?",
+       "v": "De situație, de caracter, de limbaj și de moravuri."
+      },
+      {
+       "f": "Ce satirizează schița „D-l Goe...”?",
+       "v": "Proasta creștere și relația falsă dintre copil și familie."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Volumul „Momente și schițe” cuprinde:",
+       "optiuni": [
+        "proză scurtă satirică publicată întâi în ziare",
+        "comedii",
+        "nuvele istorice",
+        "poezii"
+       ],
+       "corect": 0,
+       "explicatie": "Textele surprind lumea mic-burgheză bucureșteană."
+      },
+      {
+       "intrebare": "„D-l Goe...” este:",
+       "optiuni": [
+        "o schiță",
+        "o comedie",
+        "o nuvelă psihologică",
+        "o povestire în ramă"
+       ],
+       "corect": 0,
+       "explicatie": "Ea satirizează proasta creștere a junelui."
+      },
+      {
+       "intrebare": "Principalul instrument de caracterizare în proza lui Caragiale este:",
+       "optiuni": [
+        "dialogul și felul de a vorbi al personajelor",
+        "descrierea amănunțită",
+        "monologul interior",
+        "analiza naratorului"
+       ],
+       "corect": 0,
+       "explicatie": "Personajele se trădează prin ticuri și greșeli de limbaj."
+      },
+      {
+       "intrebare": "Tipul bucureșteanului spiritual și superficial din opera lui Caragiale este:",
+       "optiuni": [
+        "Mitică",
+        "Goe",
+        "Lache",
+        "Bubico"
+       ],
+       "corect": 0,
+       "explicatie": "El apare în mai multe schițe și momente."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rom10-c8",
+   "titlu": "Proza lui Sadoveanu și tipologia romanului",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "rom10-16",
+     "titlu": "„Baltagul”: realism și mit",
+     "rezumat": "„Baltagul” de Mihail Sadoveanu (1930) este un roman care îmbină realismul etnografic cu dimensiunea mitică. Acțiunea pornește de la dispariția ciobanului Nechifor Lipan, plecat să cumpere oi și neîntors acasă. Soția lui, Vitoria Lipan, pornește într-o călătorie de căutare, reconstituie drumul, descoperă crima și îi pedepsește pe ucigași — Calistrat Bogza și Ilie Cuțui —, restabilind dreptatea. Romanul valorifică mitul mioritic, dar îl răstoarnă: acolo unde ciobanul din „Miorița” se resemnează, Vitoria acționează, cercetează, judecă și pedepsește. Ea este un personaj puternic, lucid și tenace, un adevărat spirit justițiar. Motoul romanului — „Stăpâne, stăpâne,/ Mai cheamă ș-un câne” — leagă textul de balada populară. Câinele Lupu, regăsit, devine martorul și instrumentul descoperirii adevărului. Dimensiunea realistă este dată de descrierea amănunțită a lumii pastorale, a obiceiurilor, a sărbătorilor, a drumului prin munte. Dimensiunea mitică rezultă din ritmul arhaic al vieții, din legătura cu natura, din caracterul inițiatic al călătoriei fiului, Gheorghiță, care se maturizează pe parcursul căutării. Baltagul — toporul — este atât arma crimei, cât și instrumentul dreptății.",
+     "ideiCheie": [
+      "„Baltagul” (1930) îmbină realismul etnografic cu dimensiunea mitică.",
+      "Vitoria Lipan pornește să-și caute soțul dispărut, Nechifor, și îi pedepsește pe ucigași.",
+      "Romanul valorifică mitul mioritic, dar îl răstoarnă: Vitoria acționează, nu se resemnează.",
+      "Călătoria are caracter inițiatic pentru fiul Gheorghiță; baltagul e armă și instrument al dreptății."
+     ],
+     "termeni": [
+      {
+       "t": "mit mioritic",
+       "d": "viziunea asupra lumii transmisă de balada „Miorița”, cu tema morții și a integrării în natură"
+      },
+      {
+       "t": "roman inițiatic",
+       "d": "roman în care un personaj se maturizează prin experiențele unei călătorii sau probe"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cine este autorul romanului „Baltagul” și când a apărut?",
+       "v": "Mihail Sadoveanu, în 1930."
+      },
+      {
+       "f": "Cine pornește în căutarea lui Nechifor Lipan?",
+       "v": "Soția lui, Vitoria Lipan."
+      },
+      {
+       "f": "Cum răstoarnă „Baltagul” mitul mioritic?",
+       "v": "Vitoria acționează și face dreptate, în loc să se resemneze."
+      },
+      {
+       "f": "Ce reprezintă baltagul în roman?",
+       "v": "Toporul — arma crimei și, totodată, instrumentul dreptății."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Baltagul” de Sadoveanu îmbină:",
+       "optiuni": [
+        "realismul etnografic cu dimensiunea mitică",
+        "simbolismul cu expresionismul",
+        "clasicismul cu iluminismul",
+        "naturalismul cu fantasticul"
+       ],
+       "corect": 0,
+       "explicatie": "Lumea pastorală e redată realist, dar are un ritm arhaic, mitic."
+      },
+      {
+       "intrebare": "Personajul principal al romanului este:",
+       "optiuni": [
+        "Vitoria Lipan",
+        "Nechifor Lipan",
+        "Gheorghiță",
+        "Calistrat Bogza"
+       ],
+       "corect": 0,
+       "explicatie": "Ea conduce căutarea și restabilește dreptatea."
+      },
+      {
+       "intrebare": "Motoul romanului „Baltagul” este preluat din balada:",
+       "optiuni": [
+        "„Miorița”",
+        "„Meșterul Manole”",
+        "„Toma Alimoș”",
+        "„Mioara năzdrăvană”"
+       ],
+       "corect": 0,
+       "explicatie": "Versul „Stăpâne, stăpâne,/ Mai cheamă ș-un câne” trimite la mitul mioritic."
+      },
+      {
+       "intrebare": "Călătoria Vitoriei și a lui Gheorghiță are, pentru fiu, un caracter:",
+       "optiuni": [
+        "inițiatic, de maturizare",
+        "pur turistic",
+        "comic",
+        "fantastic"
+       ],
+       "corect": 0,
+       "explicatie": "El trece de la copilărie la responsabilitatea vârstei adulte."
+      }
+     ]
+    },
+    {
+     "id": "rom10-17",
+     "titlu": "Tipologia romanului",
+     "rezumat": "Romanul este specia epică amplă, cu acțiune desfășurată pe mai multe planuri, personaje numeroase și conflicte multiple. De-a lungul timpului, critica a propus mai multe clasificări, utile pentru încadrarea și analiza operelor. După raportul cu realitatea și după epocă: roman realist, romantic, naturalist, modern, postmodern. După temă: roman social, psihologic, istoric, de dragoste, de aventuri, al experienței. După tipul de narator, Nicolae Manolescu propune, în „Arca lui Noe”, o clasificare devenită clasică: romanul doric (obiectiv, cu narator omniscient la persoana a III-a, care creează iluzia unei lumi coerente — „Ion”, „Baltagul”); romanul ionic (subiectiv, cu narator-personaj la persoana I, centrat pe analiza conștiinței — „Ultima noapte de dragoste, întâia noapte de război”); romanul corintic (autoreflexiv, care își arată propria construcție). Aceste clasificări nu se exclud: același roman poate fi realist, social și doric în același timp. Utilitatea lor este de a orienta analiza: identificarea tipului de roman ajută la înțelegerea perspectivei narative, a construcției personajelor și a viziunii despre lume. Evoluția romanului românesc, de la „Ion” (1920) la proza contemporană, ilustrează trecerea de la formula obiectivă spre cea subiectivă și autoreflexivă.",
+     "ideiCheie": [
+      "Romanul se clasifică după raportul cu realitatea, după temă și după tipul de narator.",
+      "Manolescu, în „Arca lui Noe”: roman doric (obiectiv), ionic (subiectiv), corintic (autoreflexiv).",
+      "„Ion” și „Baltagul” sunt dorice; „Ultima noapte...” este ionic.",
+      "Clasificările orientează analiza perspectivei narative și a viziunii despre lume."
+     ],
+     "termeni": [
+      {
+       "t": "roman doric",
+       "d": "roman obiectiv, cu narator omniscient la persoana a III-a (termen propus de Nicolae Manolescu)"
+      },
+      {
+       "t": "roman ionic",
+       "d": "roman subiectiv, cu narator-personaj la persoana I, centrat pe analiza conștiinței"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce specie este romanul?",
+       "v": "Specie epică amplă, cu acțiune pe mai multe planuri, personaje numeroase și conflicte multiple."
+      },
+      {
+       "f": "Ce clasificare propune Manolescu în „Arca lui Noe”?",
+       "v": "Roman doric (obiectiv), ionic (subiectiv) și corintic (autoreflexiv)."
+      },
+      {
+       "f": "Ce tip de roman este „Ion”?",
+       "v": "Un roman doric, obiectiv, cu narator omniscient."
+      },
+      {
+       "f": "La ce ajută încadrarea unui roman într-un tip?",
+       "v": "La înțelegerea perspectivei narative, a personajelor și a viziunii despre lume."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Romanul doric, în clasificarea lui Manolescu, este:",
+       "optiuni": [
+        "obiectiv, cu narator omniscient la persoana a III-a",
+        "subiectiv, la persoana I",
+        "autoreflexiv",
+        "fără narator"
+       ],
+       "corect": 0,
+       "explicatie": "„Ion” și „Baltagul” sunt exemple."
+      },
+      {
+       "intrebare": "„Ultima noapte de dragoste, întâia noapte de război” este un roman:",
+       "optiuni": [
+        "ionic, subiectiv",
+        "doric, obiectiv",
+        "corintic, autoreflexiv",
+        "realist balzacian"
+       ],
+       "corect": 0,
+       "explicatie": "El este centrat pe analiza conștiinței lui Ștefan Gheorghidiu."
+      },
+      {
+       "intrebare": "Clasificarea în roman doric, ionic și corintic aparține lui:",
+       "optiuni": [
+        "Nicolae Manolescu",
+        "Titu Maiorescu",
+        "Eugen Lovinescu",
+        "George Călinescu"
+       ],
+       "corect": 0,
+       "explicatie": "Ea este expusă în „Arca lui Noe”."
+      },
+      {
+       "intrebare": "Clasificările romanului sunt utile pentru că:",
+       "optiuni": [
+        "orientează analiza perspectivei și a viziunii despre lume",
+        "stabilesc valoarea operei",
+        "înlocuiesc lectura",
+        "clasifică autorii"
+       ],
+       "corect": 0,
+       "explicatie": "Același roman poate aparține mai multor categorii simultan."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rom10-c9",
+   "titlu": "Elemente de teorie literară: versificație, figuri, gen dramatic",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "rom10-18",
+     "titlu": "Prozodia și versificația",
+     "rezumat": "Prozodia studiază organizarea sonoră a versului. Elementele ei de bază sunt versul (rândul dintr-o poezie), strofa (grupul de versuri), rima, ritmul și măsura. Strofele se numesc după numărul de versuri: distih (două), terțină (trei), catren (patru), cvinarie (cinci), sextină (șase). Măsura este numărul de silabe dintr-un vers. Rima este potrivirea sunetelor de la sfârșitul versurilor. După dispunere: împerecheată (aabb — primul cu al doilea, al treilea cu al patrulea), încrucișată (abab), îmbrățișată (abba) și monorimă (aaaa). Ritmul rezultă din alternanța silabelor accentuate și neaccentuate în picioare metrice: trohaic (accent–neaccent), iambic (neaccent–accent), dactilic, amfibrahic, anapestic. Ritmul trohaic dă o cadență apăsată; cel iambic, una mai suplă. Poezia modernă slăbește sau abandonează aceste convenții. Versul alb păstrează ritmul, dar renunță la rimă; versul liber renunță și la măsura fixă, și la rimă, organizându-se după alte principii (imaginea, respirația frazei). Alte procedee: cezura (pauza din interiorul versului), ingambamentul (continuarea sensului dintr-un vers în cel următor, fără pauză de sens la capăt de rând). Prozodia nu se analizează de dragul etichetelor, ci pentru a arăta cum sunetul susține sensul.",
+     "ideiCheie": [
+      "Elementele prozodiei: versul, strofa, rima, ritmul, măsura.",
+      "Strofe: distih (2), terțină (3), catren (4), cvinarie (5), sextină (6).",
+      "Rima: împerecheată (aabb), încrucișată (abab), îmbrățișată (abba), monorimă (aaaa).",
+      "Versul alb renunță la rimă; versul liber, și la rimă, și la măsura fixă."
+     ],
+     "termeni": [
+      {
+       "t": "măsură",
+       "d": "numărul de silabe dintr-un vers"
+      },
+      {
+       "t": "ingambament",
+       "d": "continuarea sensului dintr-un vers în cel următor, fără pauză la capătul rândului"
+      },
+      {
+       "t": "vers liber",
+       "d": "vers care renunță atât la rima fixă, cât și la măsura constantă"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este măsura unui vers?",
+       "v": "Numărul de silabe din care este alcătuit."
+      },
+      {
+       "f": "Cum se numește strofa de patru versuri?",
+       "v": "Catren."
+      },
+      {
+       "f": "Ce este rima încrucișată?",
+       "v": "Rima în care primul vers rimează cu al treilea, iar al doilea cu al patrulea (abab)."
+      },
+      {
+       "f": "Prin ce se deosebește versul alb de cel liber?",
+       "v": "Versul alb păstrează ritmul, dar renunță la rimă; cel liber renunță și la măsura fixă."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Strofa de trei versuri se numește:",
+       "optiuni": [
+        "terțină",
+        "distih",
+        "catren",
+        "sextină"
+       ],
+       "corect": 0,
+       "explicatie": "Distihul are două versuri, catrenul, patru."
+      },
+      {
+       "intrebare": "Rima aabb, în care versurile vecine rimează două câte două, este:",
+       "optiuni": [
+        "împerecheată",
+        "încrucișată",
+        "îmbrățișată",
+        "monorimă"
+       ],
+       "corect": 0,
+       "explicatie": "În rima îmbrățișată, primul vers rimează cu al patrulea."
+      },
+      {
+       "intrebare": "Continuarea sensului dintr-un vers în cel următor, fără pauză la capăt de rând, se numește:",
+       "optiuni": [
+        "ingambament",
+        "cezură",
+        "măsură",
+        "monorimă"
+       ],
+       "corect": 0,
+       "explicatie": "Ea creează o curgere continuă a frazei poetice."
+      },
+      {
+       "intrebare": "Versul liber se caracterizează prin faptul că:",
+       "optiuni": [
+        "renunță atât la rima fixă, cât și la măsura constantă",
+        "păstrează rima, dar nu ritmul",
+        "are întotdeauna cezură",
+        "are măsură fixă de zece silabe"
+       ],
+       "corect": 0,
+       "explicatie": "El se organizează după imagine și după respirația frazei."
+      }
+     ]
+    },
+    {
+     "id": "rom10-19",
+     "titlu": "Figurile de stil: tropi și figuri de construcție",
+     "rezumat": "Figurile de stil sunt procedee de expresivitate care abat limbajul de la forma obișnuită, pentru a produce un efect estetic. Ele se împart în trei mari clase: tropii (figuri semantice), figurile de construcție (privind așezarea cuvintelor) și figurile de sunet. Tropii transferă sau modifică sensul cuvintelor: epitetul (evidențiază o însușire expresivă), comparația (alătură doi termeni printr-un element de legătură), metafora (suprimă termenul comparat și marca), personificarea (atribuie însușiri omenești), hiperbola (exagerează), metonimia (înlocuiește un termen cu altul aflat în legătură logică — cauza cu efectul, autorul cu opera: „citesc pe Eminescu”), sinecdoca (partea pentru întreg sau invers), oximoronul (alătură termeni contradictorii), sinestezia (asociază senzații din simțuri diferite), alegoria și simbolul. Figurile de construcție organizează textul: repetiția, anafora (reluarea unui cuvânt la începutul mai multor versuri), enumerația, inversiunea (schimbarea ordinii obișnuite), antiteza (opoziția puternică), paralelismul, refrenul. Figurile de sunet mizează pe sonoritate: aliterația (repetarea unei consoane), asonanța (repetarea unei vocale), onomatopeea. A recunoaște o figură nu înseamnă a o eticheta, ci a explica ce sens nou naște ea în context.",
+     "ideiCheie": [
+      "Trei clase de figuri: tropi (semantice), de construcție, de sunet.",
+      "Tropi: epitet, comparație, metaforă, personificare, hiperbolă, metonimie, sinecdocă, oximoron.",
+      "Figuri de construcție: repetiție, anaforă, enumerație, inversiune, antiteză, refren.",
+      "Figuri de sunet: aliterație, asonanță, onomatopee."
+     ],
+     "termeni": [
+      {
+       "t": "metonimie",
+       "d": "trop care înlocuiește un termen cu altul aflat în legătură logică (cauza cu efectul, autorul cu opera)"
+      },
+      {
+       "t": "sinecdocă",
+       "d": "trop care exprimă partea prin întreg sau întregul prin parte"
+      },
+      {
+       "t": "aliterație",
+       "d": "figură de sunet bazată pe repetarea aceleiași consoane"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt cele trei clase de figuri de stil?",
+       "v": "Tropii, figurile de construcție și figurile de sunet."
+      },
+      {
+       "f": "Ce este metonimia?",
+       "v": "Trop care înlocuiește un termen cu altul aflat în legătură logică, precum autorul cu opera."
+      },
+      {
+       "f": "Ce este anafora?",
+       "v": "Reluarea aceluiași cuvânt la începutul mai multor versuri."
+      },
+      {
+       "f": "Prin ce se deosebește aliterația de asonanță?",
+       "v": "Aliterația repetă o consoană, asonanța, o vocală."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "„Citesc pe Eminescu” (în loc de „opera lui Eminescu”) este un exemplu de:",
+       "optiuni": [
+        "metonimie",
+        "metaforă",
+        "hiperbolă",
+        "sinecdocă"
+       ],
+       "corect": 0,
+       "explicatie": "Autorul este pus în locul operei sale."
+      },
+      {
+       "intrebare": "Reluarea aceluiași cuvânt la începutul mai multor versuri se numește:",
+       "optiuni": [
+        "anaforă",
+        "enumerație",
+        "inversiune",
+        "aliterație"
+       ],
+       "corect": 0,
+       "explicatie": "Este un tip de repetiție cu rol de accentuare."
+      },
+      {
+       "intrebare": "Repetarea aceleiași consoane pentru efect sonor este:",
+       "optiuni": [
+        "aliterația",
+        "asonanța",
+        "onomatopeea",
+        "rima"
+       ],
+       "corect": 0,
+       "explicatie": "Asonanța repetă, în schimb, o vocală."
+      },
+      {
+       "intrebare": "Sinecdoca constă în:",
+       "optiuni": [
+        "exprimarea părții prin întreg sau a întregului prin parte",
+        "alăturarea a doi termeni contradictorii",
+        "exagerarea unei însușiri",
+        "atribuirea de însușiri omenești"
+       ],
+       "corect": 0,
+       "explicatie": "De exemplu, „a-și câștiga pâinea” pentru hrană în general."
+      }
+     ]
+    },
+    {
+     "id": "rom10-20",
+     "titlu": "Genul dramatic: comedia, drama, tragedia",
+     "rezumat": "Genul dramatic cuprinde operele scrise pentru a fi reprezentate pe scenă. Textul dramatic se organizează în acte (diviziunile mari), scene (delimitate de intrarea sau ieșirea unui personaj) și tablouri (schimbări de decor). Modalitățile de expunere sunt dialogul și monologul; naratorul lipsește, iar informația ajunge la spectator prin replici și prin didascalii (indicațiile scenice). Motorul acțiunii este conflictul, exterior sau interior. Cele trei specii clasice se deosebesc prin natura conflictului și prin deznodământ. Comedia stârnește râsul, satirizând moravuri și caractere, și are un final fericit; sursele comicului sunt de situație, de caracter, de limbaj, de nume și de moravuri (modelul românesc: I. L. Caragiale). Tragedia opune un erou de excepție unei forțe copleșitoare — destinul, o lege morală, zeii — și se încheie nefericit, adesea cu moartea eroului; ea provoacă spectatorului catharsisul, purificarea prin milă și teamă (modele antice: „Oedip rege”, „Antigona”). Drama, ca specie, îmbină trăsături ale comediei și ale tragediei: prezintă conflicte grave din viața obișnuită, cu personaje complexe, fără a impune un final tragic. Ea cunoaște variante — drama romantică, istorică, de idei. Alături de speciile majore există și forme minore: farsa, vodevilul, melodrama. Cunoașterea speciilor ajută la înțelegerea faptului că genul dramatic înseamnă moduri diferite de a pune în scenă conflictul uman.",
+     "ideiCheie": [
+      "Textul dramatic: acte, scene, tablouri; dialog, monolog, didascalii; conflict.",
+      "Comedia stârnește râsul, satirizează moravuri și are final fericit.",
+      "Tragedia opune un erou de excepție unei forțe copleșitoare și provoacă catharsisul.",
+      "Drama îmbină trăsături ale comediei și tragediei, cu conflicte grave din viața obișnuită."
+     ],
+     "termeni": [
+      {
+       "t": "tragedie",
+       "d": "specie dramatică ce opune un erou de excepție unei forțe copleșitoare, cu final nefericit"
+      },
+      {
+       "t": "catharsis",
+       "d": "purificarea spectatorului prin milă și teamă, produsă de tragedie"
+      },
+      {
+       "t": "didascalii",
+       "d": "indicațiile scenice din textul dramatic, care nu sunt rostite de personaje"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se delimitează o scenă într-un text dramatic?",
+       "v": "Prin intrarea sau ieșirea unui personaj."
+      },
+      {
+       "f": "Ce provoacă tragedia spectatorului?",
+       "v": "Catharsisul — purificarea prin milă și teamă."
+      },
+      {
+       "f": "Care sunt sursele comicului în comedie?",
+       "v": "De situație, de caracter, de limbaj, de nume și de moravuri."
+      },
+      {
+       "f": "Ce îmbină drama, ca specie?",
+       "v": "Trăsături ale comediei și ale tragediei, cu conflicte grave din viața obișnuită."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Purificarea spectatorului prin milă și teamă, produsă de tragedie, se numește:",
+       "optiuni": [
+        "catharsis",
+        "quiproquo",
+        "didascalie",
+        "parabolă"
+       ],
+       "corect": 0,
+       "explicatie": "Conceptul este teoretizat încă de Aristotel."
+      },
+      {
+       "intrebare": "Într-un text dramatic, indicațiile scenice se numesc:",
+       "optiuni": [
+        "didascalii",
+        "replici",
+        "monologuri",
+        "tablouri"
+       ],
+       "corect": 0,
+       "explicatie": "Ele nu sunt rostite pe scenă."
+      },
+      {
+       "intrebare": "Tragedia se caracterizează prin:",
+       "optiuni": [
+        "un erou de excepție copleșit de o forță superioară, cu final nefericit",
+        "satirizarea moravurilor și final fericit",
+        "conflicte din viața obișnuită",
+        "absența conflictului"
+       ],
+       "corect": 0,
+       "explicatie": "„Oedip rege” și „Antigona” sunt modele antice."
+      },
+      {
+       "intrebare": "Specia dramatică ce prezintă conflicte grave din viața obișnuită, fără final neapărat tragic, este:",
+       "optiuni": [
+        "drama",
+        "comedia",
+        "tragedia",
+        "farsa"
+       ],
+       "corect": 0,
+       "explicatie": "Ea îmbină trăsături ale comediei și ale tragediei."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "teze": [
+  {
+   "semestru": 1,
+   "test": [
+    {
+     "intrebare": "„Tinerețe fără bătrânețe și viață fără de moarte” a fost cules de:",
+     "optiuni": [
+      "Petre Ispirescu",
+      "Ion Creangă",
+      "Vasile Alecsandri",
+      "Mihai Eminescu"
+     ],
+     "corect": 0,
+     "explicatie": "El l-a inclus în „Legende sau basmele românilor”."
+    },
+    {
+     "intrebare": "Prima nuvelă istorică din literatura română este:",
+     "optiuni": [
+      "„Alexandru Lăpușneanul”",
+      "„Moara cu noroc”",
+      "„Ciocoii vechi și noi”",
+      "„Baltagul”"
+     ],
+     "corect": 0,
+     "explicatie": "A fost scrisă de Costache Negruzzi, în 1840."
+    },
+    {
+     "intrebare": "Procedeul fundamental al romantismului este:",
+     "optiuni": [
+      "antiteza",
+      "sugestia",
+      "ironia",
+      "enumerația"
+     ],
+     "corect": 0,
+     "explicatie": "Ea opune înger și demon, viață și moarte, trecut și prezent."
+    },
+    {
+     "intrebare": "Motivul florii albastre, din poezia lui Eminescu, provine de la:",
+     "optiuni": [
+      "Novalis",
+      "Byron",
+      "Lamartine",
+      "Hugo"
+     ],
+     "corect": 0,
+     "explicatie": "El simbolizează idealul și aspirația infinită."
+    },
+    {
+     "intrebare": "Rima în care primul vers rimează cu al treilea și al doilea cu al patrulea este:",
+     "optiuni": [
+      "încrucișată",
+      "împerecheată",
+      "îmbrățișată",
+      "monorimă"
+     ],
+     "corect": 0,
+     "explicatie": "Schema ei este abab."
+    },
+    {
+     "intrebare": "Purificarea spectatorului prin milă și teamă, produsă de tragedie, se numește:",
+     "optiuni": [
+      "catharsis",
+      "quiproquo",
+      "parabolă",
+      "didascalie"
+     ],
+     "corect": 0,
+     "explicatie": "Conceptul este teoretizat de Aristotel."
+    },
+    {
+     "intrebare": "„Povestea lui Harap-Alb” a apărut în:",
+     "optiuni": [
+      "1877",
+      "1883",
+      "1866",
+      "1894"
+     ],
+     "corect": 0,
+     "explicatie": "A fost publicată în „Convorbiri literare”."
+    },
+    {
+     "intrebare": "Antagonistul din „Povestea lui Harap-Alb” este:",
+     "optiuni": [
+      "Spânul",
+      "Împăratul Roș",
+      "Gerilă",
+      "Ursul"
+     ],
+     "corect": 0,
+     "explicatie": "Împăratul Roș este un adversar secundar."
+    },
+    {
+     "intrebare": "„Moara cu noroc” a fost publicată în:",
+     "optiuni": [
+      "1881",
+      "1877",
+      "1894",
+      "1920"
+     ],
+     "corect": 0,
+     "explicatie": "Este inclusă în volumul „Novele din popor”."
+    },
+    {
+     "intrebare": "Conflictul principal din „Moara cu noroc” este:",
+     "optiuni": [
+      "interior, în conștiința lui Ghiță",
+      "exterior, cu autoritățile",
+      "social",
+      "religios"
+     ],
+     "corect": 0,
+     "explicatie": "Nuvela este una psihologică."
+    },
+    {
+     "intrebare": "„Hanu Ancuței” este:",
+     "optiuni": [
+      "un ciclu de povestiri în ramă",
+      "un roman",
+      "o nuvelă",
+      "un poem epic"
+     ],
+     "corect": 0,
+     "explicatie": "Cadrul hanului leagă cele nouă povestiri."
+    },
+    {
+     "intrebare": "Romanul „Ion” a apărut în:",
+     "optiuni": [
+      "1920",
+      "1917",
+      "1930",
+      "1938"
+     ],
+     "corect": 0,
+     "explicatie": "Cele două părți se numesc „Glasul pământului” și „Glasul iubirii”."
+    },
+    {
+     "intrebare": "Naratorul din „Ion” este:",
+     "optiuni": [
+      "obiectiv, omniscient, la persoana a III-a",
+      "subiectiv, la persoana I",
+      "personaj-martor",
+      "absent"
+     ],
+     "corect": 0,
+     "explicatie": "El nu intervine cu judecăți morale."
+    },
+    {
+     "intrebare": "Formula „Din mine însumi nu pot ieși” aparține lui:",
+     "optiuni": [
+      "Camil Petrescu",
+      "Liviu Rebreanu",
+      "G. Călinescu",
+      "Marin Preda"
+     ],
+     "corect": 0,
+     "explicatie": "Ea justifică perspectiva subiectivă."
+    },
+    {
+     "intrebare": "Anticalofilismul înseamnă:",
+     "optiuni": [
+      "refuzul scrisului frumos în favoarea preciziei",
+      "respingerea metaforei",
+      "folosirea limbajului popular",
+      "evitarea dialogului"
+     ],
+     "corect": 0,
+     "explicatie": "Este o condiție a autenticității la Camil Petrescu."
+    },
+    {
+     "intrebare": "„Enigma Otiliei” a apărut în:",
+     "optiuni": [
+      "1938",
+      "1930",
+      "1955",
+      "1920"
+     ],
+     "corect": 0,
+     "explicatie": "Este un roman balzacian cu deschidere modernă."
+    },
+    {
+     "intrebare": "Volumul I din „Moromeții” a apărut în:",
+     "optiuni": [
+      "1955",
+      "1967",
+      "1948",
+      "1972"
+     ],
+     "corect": 0,
+     "explicatie": "Volumul al doilea a apărut în 1967."
+    },
+    {
+     "intrebare": "Ilie Moromete este caracterizat mai ales prin:",
+     "optiuni": [
+      "ironie, disimulare și reflecție",
+      "violență și impulsivitate",
+      "lăcomie",
+      "naivitate"
+     ],
+     "corect": 0,
+     "explicatie": "El încearcă să apere o ordine a lumii care se prăbușește."
+    }
+   ]
+  },
+  {
+   "semestru": 2,
+   "test": [
+    {
+     "intrebare": "Realismul urmărește:",
+     "optiuni": [
+      "reprezentarea veridică și obiectivă a realității sociale",
+      "evadarea în trecut și în vis",
+      "sugestia stărilor vagi",
+      "perfecțiunea formală a versului"
+     ],
+     "corect": 0,
+     "explicatie": "El refuză idealizarea romantică."
+    },
+    {
+     "intrebare": "Primul roman realist din literatura română este:",
+     "optiuni": [
+      "„Ciocoii vechi și noi” de Nicolae Filimon",
+      "„Ion” de Liviu Rebreanu",
+      "„Baltagul” de Sadoveanu",
+      "„Mara” de Slavici"
+     ],
+     "corect": 0,
+     "explicatie": "El înfățișează ascensiunea parvenitului Dinu Păturică."
+    },
+    {
+     "intrebare": "Volumul „Momente și schițe” de Caragiale a apărut în:",
+     "optiuni": [
+      "1901",
+      "1884",
+      "1881",
+      "1920"
+     ],
+     "corect": 0,
+     "explicatie": "El adună proză scurtă publicată întâi în ziare."
+    },
+    {
+     "intrebare": "Personajul principal din „Baltagul” de Sadoveanu este:",
+     "optiuni": [
+      "Vitoria Lipan",
+      "Nechifor Lipan",
+      "Gheorghiță",
+      "Calistrat Bogza"
+     ],
+     "corect": 0,
+     "explicatie": "Ea conduce căutarea și restabilește dreptatea."
+    },
+    {
+     "intrebare": "Clasificarea romanelor în dorice, ionice și corintice aparține lui:",
+     "optiuni": [
+      "Nicolae Manolescu",
+      "Titu Maiorescu",
+      "Eugen Lovinescu",
+      "George Călinescu"
+     ],
+     "corect": 0,
+     "explicatie": "Ea este expusă în „Arca lui Noe”."
+    },
+    {
+     "intrebare": "Ciclul „Comedia umană” aparține lui:",
+     "optiuni": [
+      "Honoré de Balzac",
+      "Gustave Flaubert",
+      "Charles Dickens",
+      "Lev Tolstoi"
+     ],
+     "corect": 0,
+     "explicatie": "El este modelul realismului european."
+    },
+    {
+     "intrebare": "Pastelul a fost impus în literatura română de:",
+     "optiuni": [
+      "Vasile Alecsandri",
+      "Mihai Eminescu",
+      "George Coșbuc",
+      "Ion Pillat"
+     ],
+     "corect": 0,
+     "explicatie": "Prin ciclul „Pasteluri” (1867–1869)."
+    },
+    {
+     "intrebare": "Glossa se caracterizează prin:",
+     "optiuni": [
+      "dezvoltarea vers cu vers a strofei inițiale și reluarea ei finală",
+      "absența rimei",
+      "prezența refrenului liber",
+      "structura în distihuri"
+     ],
+     "corect": 0,
+     "explicatie": "Forma exprimă însăși ideea de repetiție și detașare."
+    },
+    {
+     "intrebare": "Mărcile eului liric includ:",
+     "optiuni": [
+      "verbe și pronume la persoana I",
+      "descrierea naturii",
+      "prezența dialogului",
+      "rima încrucișată"
+     ],
+     "corect": 0,
+     "explicatie": "Ele semnalează vocea care exprimă trăirea."
+    },
+    {
+     "intrebare": "„O scrisoare pierdută” a fost publicată în:",
+     "optiuni": [
+      "1884",
+      "1877",
+      "1881",
+      "1890"
+     ],
+     "corect": 0,
+     "explicatie": "Este o comedie de moravuri politice."
+    },
+    {
+     "intrebare": "Replica „curat murdar” aparține lui:",
+     "optiuni": [
+      "Ghiță Pristanda",
+      "Nae Cațavencu",
+      "Farfuridi",
+      "Trahanache"
+     ],
+     "corect": 0,
+     "explicatie": "Ea ilustrează comicul de limbaj."
+    },
+    {
+     "intrebare": "Adevăratul factor de decizie din „O scrisoare pierdută” este:",
+     "optiuni": [
+      "Zoe Trahanache",
+      "Tipătescu",
+      "Cațavencu",
+      "Dandanache"
+     ],
+     "corect": 0,
+     "explicatie": "Ea obține candidatura dorită."
+    },
+    {
+     "intrebare": "Finalul comediei este:",
+     "optiuni": [
+      "circular, cu revenirea la starea inițială",
+      "tragic",
+      "deschis",
+      "moralizator prin pedeapsă"
+     ],
+     "corect": 0,
+     "explicatie": "Personajele rămân neschimbate."
+    },
+    {
+     "intrebare": "„Ridendo castigat mores” înseamnă:",
+     "optiuni": [
+      "râzând, îndreaptă moravurile",
+      "comedia nu are morală",
+      "râsul e molipsitor",
+      "moravurile nu se schimbă"
+     ],
+     "corect": 0,
+     "explicatie": "Este deviza clasică a comediei."
+    },
+    {
+     "intrebare": "Stilul științific se caracterizează prin:",
+     "optiuni": [
+      "precizie, obiectivitate, termeni de specialitate",
+      "conotație și ambiguitate",
+      "formule fixe de adresare",
+      "amestec de registre"
+     ],
+     "corect": 0,
+     "explicatie": "Ambiguitatea voită aparține stilului beletristic."
+    },
+    {
+     "intrebare": "Formulele fixe și impersonalitatea aparțin stilului:",
+     "optiuni": [
+      "juridic-administrativ",
+      "științific",
+      "publicistic",
+      "beletristic"
+     ],
+     "corect": 0,
+     "explicatie": "Ele elimină ambiguitatea."
+    },
+    {
+     "intrebare": "Lectura critică a presei cere, în primul rând:",
+     "optiuni": [
+      "distingerea faptelor verificabile de opinii",
+      "citirea doar a titlurilor",
+      "alegerea unei singure surse",
+      "evitarea comentariilor"
+     ],
+     "corect": 0,
+     "explicatie": "Amestecul lor deliberat e o formă frecventă de manipulare."
+    },
+    {
+     "intrebare": "Manipularea prin încadrare constă în:",
+     "optiuni": [
+      "prezentarea faptului dintr-un anumit unghi",
+      "inventarea faptului",
+      "omiterea sursei",
+      "folosirea unui limbaj tehnic"
+     ],
+     "corect": 0,
+     "explicatie": "Faptele pot fi adevărate, dar interpretarea, dirijată."
+    }
+   ]
+  }
+ ]
+}

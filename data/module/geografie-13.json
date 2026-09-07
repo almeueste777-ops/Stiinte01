@@ -1,0 +1,2221 @@
+{
+ "id": "geografie-13",
+ "materie": "Geografie",
+ "clasa": "a XIII-a",
+ "an": 5,
+ "arie": "Om și societate",
+ "bac": true,
+ "descriere": "Aprofundare pentru bacalaureat: regiunile Europei, analiza comparativă a statelor, harta de examen și metoda de lucru cu datele geografice.",
+ "capitole": [
+  {
+   "id": "geo13-c1",
+   "titlu": "Regiunile Europei",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "geo13-01",
+     "titlu": "Europa Nordică și Europa Vestică",
+     "rezumat": "Europa Nordică cuprinde Norvegia, Suedia, Finlanda, Danemarca și Islanda. Relieful: Munții Scandinaviei (vechi, tociți, cu fiorduri spectaculoase), Podișul Finlandei cu mii de lacuri glaciare, Islanda vulcanică. Clima: subpolară și temperat-oceanică, moderată de Golfstream. Economia: energie hidraulică și geotermală, petrol și gaze în Marea Nordului, lemn și hârtie, pescuit, tehnologie și servicii de vârf. Model social: stat al bunăstării, impozitare ridicată, indicatori sociali foarte buni. Europa Vestică cuprinde Franța, Regatul Unit, Irlanda, Țările de Jos, Belgia, Luxemburg. Relief variat: câmpii întinse, Masivul Central, Alpii francezi, Pirineii. Clima: temperat-oceanică, cu amplitudini mici. Economia: una dintre cele mai puternice din lume — industrie de vârf, servicii financiare (Londra, Paris, Amsterdam), agricultură intensivă, turism. Densitate mare a populației și rețea urbană foarte dezvoltată.",
+     "ideiCheie": [
+      "Europa Nordică: fiorduri, lacuri glaciare, Islanda vulcanică, stat al bunăstării.",
+      "Golfstreamul moderează clima nordului european.",
+      "Europa Vestică: câmpii, climă oceanică, economie și servicii financiare puternice.",
+      "Ambele regiuni au indicatori sociali și economici ridicați."
+     ],
+     "termeni": [
+      {
+       "t": "fiord",
+       "d": "golf îngust și adânc, format prin invadarea de către mare a unei văi glaciare"
+      },
+      {
+       "t": "stat al bunăstării",
+       "d": "model social cu impozitare ridicată și servicii publice extinse"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce sunt fiordurile și unde apar?",
+       "v": "Golfuri înguste și adânci, formate în văi glaciare invadate de mare; sunt tipice Norvegiei."
+      },
+      {
+       "f": "Ce moderează clima Europei Nordice?",
+       "v": "Curentul cald al Golfstreamului."
+      },
+      {
+       "f": "Ce caracterizează modelul social nordic?",
+       "v": "Impozitare ridicată, servicii publice extinse, indicatori sociali foarte buni."
+      },
+      {
+       "f": "Care sunt marile centre financiare ale Europei Vestice?",
+       "v": "Londra, Paris și Amsterdam."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Fiordurile sunt specifice mai ales:",
+       "optiuni": [
+        "Norvegiei",
+        "Finlandei",
+        "Islandei",
+        "Danemarcei"
+       ],
+       "corect": 0,
+       "explicatie": "Ele s-au format în văi glaciare invadate de mare."
+      },
+      {
+       "intrebare": "Islanda valorifică pe scară largă energia:",
+       "optiuni": [
+        "geotermală",
+        "nucleară",
+        "din cărbune",
+        "din petrol"
+       ],
+       "corect": 0,
+       "explicatie": "Activitatea vulcanică oferă acest avantaj."
+      },
+      {
+       "intrebare": "Clima Europei Vestice este:",
+       "optiuni": [
+        "temperat-oceanică, cu amplitudini termice mici",
+        "temperat-continentală",
+        "mediteraneeană",
+        "subpolară"
+       ],
+       "corect": 0,
+       "explicatie": "Influența Atlanticului este determinantă."
+      },
+      {
+       "intrebare": "Petrolul și gazele din Marea Nordului sunt exploatate mai ales de:",
+       "optiuni": [
+        "Norvegia și Regatul Unit",
+        "Suedia și Finlanda",
+        "Danemarca și Islanda",
+        "Țările de Jos și Belgia"
+       ],
+       "corect": 0,
+       "explicatie": "Norvegia a folosit veniturile pentru un fond suveran."
+      }
+     ]
+    },
+    {
+     "id": "geo13-02",
+     "titlu": "Europa Centrală, Sudică și Estică",
+     "rezumat": "Europa Centrală cuprinde Germania, Polonia, Cehia, Slovacia, Ungaria, Austria, Elveția, Slovenia. Relief: câmpii în nord, munți hercinici în centru, Alpi și Carpați în sud și est. Climă temperat-continentală. Economie puternic industrializată: Germania este cea mai mare economie a Europei, cu industrie auto, chimică, mașini-unelte; Cehia, Slovacia, Polonia și Ungaria s-au integrat în lanțurile de producție europene. Europa Sudică cuprinde Portugalia, Spania, Italia, Grecia, Malta, statele din Balcanii de Vest. Relief muntos, cu peninsule și insule. Climă mediteraneeană. Economie: turism, agricultură specializată (măsline, citrice, viță-de-vie), industrie în nordul Italiei și în nord-estul Spaniei. Probleme: șomaj ridicat în rândul tinerilor, secetă, incendii, presiunea migrației. Europa Estică cuprinde Rusia europeană, Ucraina, Belarus, Republica Moldova, statele baltice. Câmpii întinse, climă continentală, resurse importante (gaze, petrol, cărbune, minereuri, cernoziomuri). Statele baltice s-au integrat rapid în structurile euroatlantice; restul regiunii cunoaște instabilitate și conflicte.",
+     "ideiCheie": [
+      "Europa Centrală: industrializare puternică, Germania — cea mai mare economie europeană.",
+      "Europa Sudică: climă mediteraneeană, turism, agricultură specializată, șomaj tânăr ridicat.",
+      "Europa Estică: câmpii, climă continentală, resurse importante, instabilitate.",
+      "Statele baltice s-au integrat rapid în structurile euroatlantice."
+     ],
+     "termeni": [
+      {
+       "t": "munți hercinici",
+       "d": "munți vechi, formați în orogeneza hercinică, tociți de eroziune"
+      },
+      {
+       "t": "agricultură mediteraneeană",
+       "d": "agricultură specializată pe măslin, viță-de-vie, citrice, adaptată verilor secetoase"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care este cea mai mare economie a Europei?",
+       "v": "Germania."
+      },
+      {
+       "f": "Ce culturi sunt specifice agriculturii mediteraneene?",
+       "v": "Măslinul, vița-de-vie și citricele."
+      },
+      {
+       "f": "Ce resurse importante are Europa Estică?",
+       "v": "Gaze, petrol, cărbune, minereuri și cernoziomuri fertile."
+      },
+      {
+       "f": "Ce probleme are Europa Sudică?",
+       "v": "Șomaj ridicat în rândul tinerilor, secetă, incendii, presiunea migrației."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Munții hercinici sunt:",
+       "optiuni": [
+        "munți vechi, tociți de eroziune",
+        "munți tineri, cu creste ascuțite",
+        "munți vulcanici",
+        "munți de blocuri recente"
+       ],
+       "corect": 0,
+       "explicatie": "Alpii și Carpații s-au format în orogeneza alpină."
+      },
+      {
+       "intrebare": "Cea mai mare economie a Europei este:",
+       "optiuni": [
+        "Germania",
+        "Franța",
+        "Italia",
+        "Regatul Unit"
+       ],
+       "corect": 0,
+       "explicatie": "Industria auto și cea a mașinilor-unelte sunt ramuri de vârf."
+      },
+      {
+       "intrebare": "Cernoziomurile fertile din Europa Estică se află mai ales în:",
+       "optiuni": [
+        "Ucraina și sudul Rusiei europene",
+        "Finlanda",
+        "Statele baltice",
+        "Belarus de nord"
+       ],
+       "corect": 0,
+       "explicatie": "Ele fac din regiune un mare producător de cereale."
+      },
+      {
+       "intrebare": "Șomajul ridicat în rândul tinerilor este o problemă structurală mai ales în:",
+       "optiuni": [
+        "Europa Sudică",
+        "Europa Nordică",
+        "Europa Centrală",
+        "statele baltice"
+       ],
+       "corect": 0,
+       "explicatie": "El s-a agravat după criza din 2008."
+      }
+     ]
+    },
+    {
+     "id": "geo13-03",
+     "titlu": "România în context regional",
+     "rezumat": "România se află la intersecția a trei mari unități geografice europene: Carpații, Dunărea și Marea Neagră. Această poziție îi conferă atât avantaje (acces la mare, culoar de transport european, diversitate naturală), cât și vulnerabilități (poziție de frontieră a Uniunii Europene, expunere la instabilitatea regională). Comparativ cu statele vecine, România are cea mai mare suprafață și populație din regiune, un potențial agricol superior, resurse energetice diversificate, dar o infrastructură de transport mai slab dezvoltată și un PIB pe locuitor sub media europeană, deși în creștere rapidă. Față de statele Grupului de la Vișegrad, decalajul de infrastructură și de valoare adăugată industrială rămâne semnificativ. Coridoarele de transport european care traversează România — culoarul Dunării, coridorul Rin–Dunăre, legăturile spre Marea Neagră — reprezintă principalul avantaj strategic nevalorificat. Portul Constanța, canalul Dunăre–Marea Neagră și rețeaua de gazoducte pot transforma poziția geografică în avantaj economic, cu condiția investițiilor în infrastructură.",
+     "ideiCheie": [
+      "România se află la intersecția Carpaților, Dunării și Mării Negre.",
+      "Are cea mai mare suprafață și populație din regiune și un potențial agricol superior.",
+      "Rămâne în urmă la infrastructură și la valoarea adăugată industrială.",
+      "Coridoarele de transport european sunt principalul avantaj strategic nevalorificat."
+     ],
+     "termeni": [
+      {
+       "t": "coridor de transport",
+       "d": "axă majoră de circulație, cu infrastructură integrată la nivel european"
+      },
+      {
+       "t": "valoare adăugată industrială",
+       "d": "sporul de valoare obținut prin prelucrarea materiilor prime"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "La intersecția căror unități geografice se află România?",
+       "v": "Carpații, Dunărea și Marea Neagră."
+      },
+      {
+       "f": "Ce avantaje îi dă României poziția geografică?",
+       "v": "Acces la mare, culoar de transport european, diversitate naturală."
+      },
+      {
+       "f": "Care este principalul dezavantaj comparativ al României în regiune?",
+       "v": "Infrastructura de transport slab dezvoltată."
+      },
+      {
+       "f": "Ce ar transforma poziția geografică în avantaj economic?",
+       "v": "Investițiile în infrastructură: porturi, coridoare, rețele de transport."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "România se învecinează cu Marea Neagră în partea:",
+       "optiuni": [
+        "de sud-est",
+        "de sud-vest",
+        "de nord-est",
+        "de est"
+       ],
+       "corect": 0,
+       "explicatie": "Litoralul are aproximativ 245 km."
+      },
+      {
+       "intrebare": "Față de statele Grupului de la Vișegrad, România rămâne în urmă mai ales la:",
+       "optiuni": [
+        "infrastructură și valoare adăugată industrială",
+        "suprafață agricolă",
+        "resurse energetice",
+        "populație"
+       ],
+       "corect": 0,
+       "explicatie": "Decalajul se reduce, dar rămâne semnificativ."
+      },
+      {
+       "intrebare": "Coridorul Rin–Dunăre este important pentru România pentru că:",
+       "optiuni": [
+        "o conectează la principalele axe de transport europene",
+        "îi asigură independența energetică",
+        "îi delimitează frontiera de nord",
+        "reglementează pescuitul"
+       ],
+       "corect": 0,
+       "explicatie": "Valorificarea lui depinde de investiții."
+      },
+      {
+       "intrebare": "Poziția de frontieră externă a Uniunii Europene reprezintă pentru România:",
+       "optiuni": [
+        "atât o responsabilitate, cât și o vulnerabilitate",
+        "exclusiv un avantaj",
+        "un element neutru",
+        "o piedică în calea comerțului"
+       ],
+       "corect": 0,
+       "explicatie": "Ea implică gestionarea migrației și securitatea regională."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "geo13-c2",
+   "titlu": "Analiza comparativă și studiile de caz",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "geo13-04",
+     "titlu": "Metoda comparației în geografie",
+     "rezumat": "Comparația geografică cere criterii explicite și aceleași pentru toate elementele comparate: poziție, suprafață, relief, climă, ape, populație, așezări, economie, mediu. Fără criterii comune, comparația devine o simplă enumerare de descrieri paralele. Structura unei comparații corecte: se precizează ce se compară și după ce criterii; se prezintă asemănările; se prezintă deosebirile, grupate pe criterii; se formulează o concluzie care explică diferențele prin factori (poziție, istorie, resurse, politici). Explicația este partea care valorează cel mai mult: a spune că Germania are un PIB mai mare decât România e o constatare; a explica prin ce anume — istorie industrială, capital, instituții, poziție — este analiză. Greșeli frecvente: compararea unor unități de scări diferite fără a preciza acest lucru, folosirea unor date din ani diferiți, confuzia dintre valori absolute și relative (populația totală față de densitate, PIB total față de PIB pe locuitor).",
+     "ideiCheie": [
+      "Comparația cere criterii explicite, aceleași pentru toate elementele.",
+      "Structura: obiect și criterii, asemănări, deosebiri, concluzie explicativă.",
+      "Explicația diferențelor valorează mai mult decât constatarea lor.",
+      "Greșeli: scări diferite, ani diferiți, confuzia absolut–relativ."
+     ],
+     "termeni": [
+      {
+       "t": "criteriu de comparație",
+       "d": "aspectul după care se pun față în față două realități geografice"
+      },
+      {
+       "t": "valoare relativă",
+       "d": "mărime raportată la o bază (pe locuitor, pe km²), care permite comparații corecte"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce cere o comparație geografică corectă?",
+       "v": "Criterii explicite, aceleași pentru toate elementele comparate."
+      },
+      {
+       "f": "Care este partea cea mai valoroasă a unei comparații?",
+       "v": "Explicația diferențelor prin factori concreți."
+      },
+      {
+       "f": "De ce nu se compară PIB-ul total al unor state de mărimi diferite?",
+       "v": "Pentru că valorile absolute nu sunt comparabile; se folosește PIB-ul pe locuitor."
+      },
+      {
+       "f": "Ce greșeli apar frecvent în comparații?",
+       "v": "Scări diferite, date din ani diferiți, confuzia dintre valori absolute și relative."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Compararea populației totale a două state de suprafețe foarte diferite:",
+       "optiuni": [
+        "este incorectă fără raportarea la suprafață",
+        "este întotdeauna corectă",
+        "nu are sens niciodată",
+        "se face doar pentru state vecine"
+       ],
+       "corect": 0,
+       "explicatie": "Densitatea este indicatorul relativ potrivit."
+      },
+      {
+       "intrebare": "Într-o comparație, concluzia trebuie să:",
+       "optiuni": [
+        "explice diferențele prin factori concreți",
+        "repete datele prezentate",
+        "enumere criteriile",
+        "prezinte doar asemănările"
+       ],
+       "corect": 0,
+       "explicatie": "Explicația este partea cea mai valoroasă."
+      },
+      {
+       "intrebare": "Folosirea unor date din ani diferiți într-o comparație:",
+       "optiuni": [
+        "denaturează rezultatul",
+        "este acceptabilă întotdeauna",
+        "nu influențează concluzia",
+        "este obligatorie"
+       ],
+       "corect": 0,
+       "explicatie": "Comparabilitatea cere aceeași bază temporală."
+      },
+      {
+       "intrebare": "Un criteriu de comparație este:",
+       "optiuni": [
+        "aspectul după care se pun față în față două realități",
+        "o concluzie",
+        "un indicator statistic",
+        "o hartă tematică"
+       ],
+       "corect": 0,
+       "explicatie": "Criteriile trebuie enunțate explicit la început."
+      }
+     ]
+    },
+    {
+     "id": "geo13-05",
+     "titlu": "Studii de caz: state europene reprezentative",
+     "rezumat": "Germania: 83 de milioane de locuitori, stat federal, cea mai mare economie europeană. Relief etajat de la nord spre sud: Câmpia Germano-Polonă, munți hercinici, podișuri, Alpii Bavarezi. Industrie auto și de echipamente, export puternic, îmbătrânire demografică compensată prin imigrație, tranziție energetică ambițioasă. Franța: cea mai mare suprafață a Uniunii Europene, relief variat, agricultură performantă susținută de Politica Agricolă Comună, energie preponderent nucleară, turism de primă mărime (una dintre cele mai vizitate țări din lume), centralizare administrativă puternică în jurul Parisului. Italia: peninsulă cu relief muntos (Alpi, Apenini), vulcanism activ (Vezuviu, Etna), contrast puternic nord–sud (nordul industrializat, sudul mai puțin dezvoltat), patrimoniu cultural excepțional, îmbătrânire demografică accentuată. Spania: relief dominat de Meseta, climă mediteraneeană și oceanică în nord-vest, turism, agricultură irigată, energie regenerabilă în creștere, organizare pe comunități autonome.",
+     "ideiCheie": [
+      "Germania: stat federal, cea mai mare economie europeană, tranziție energetică.",
+      "Franța: cea mai mare suprafață din Uniune, energie nucleară, turism de primă mărime.",
+      "Italia: contrast nord–sud, vulcanism activ, patrimoniu cultural excepțional.",
+      "Spania: Meseta, turism, agricultură irigată, comunități autonome."
+     ],
+     "termeni": [
+      {
+       "t": "Meseta",
+       "d": "podișul întins care ocupă cea mai mare parte a Peninsulei Iberice"
+      },
+      {
+       "t": "contrast nord–sud",
+       "d": "decalajul de dezvoltare dintre nordul industrializat și sudul mai puțin dezvoltat al Italiei"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce formă de stat are Germania?",
+       "v": "Stat federal."
+      },
+      {
+       "f": "Pe ce sursă se bazează preponderent energia electrică a Franței?",
+       "v": "Pe energia nucleară."
+      },
+      {
+       "f": "Ce vulcani activi are Italia?",
+       "v": "Vezuviul și Etna."
+      },
+      {
+       "f": "Ce este Meseta?",
+       "v": "Podișul întins care ocupă cea mai mare parte a Peninsulei Iberice."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Cea mai mare suprafață dintre statele Uniunii Europene o are:",
+       "optiuni": [
+        "Franța",
+        "Germania",
+        "Spania",
+        "Polonia"
+       ],
+       "corect": 0,
+       "explicatie": "Franța include și teritoriile de peste mări."
+      },
+      {
+       "intrebare": "Contrastul nord–sud este o trăsătură structurală a:",
+       "optiuni": [
+        "Italiei",
+        "Germaniei",
+        "Franței",
+        "Poloniei"
+       ],
+       "corect": 0,
+       "explicatie": "Nordul industrializat contrastează cu sudul mai puțin dezvoltat."
+      },
+      {
+       "intrebare": "Spania este organizată administrativ în:",
+       "optiuni": [
+        "comunități autonome",
+        "landuri",
+        "regiuni de dezvoltare",
+        "departamente"
+       ],
+       "corect": 0,
+       "explicatie": "Germania are landuri, Franța, departamente."
+      },
+      {
+       "intrebare": "Tranziția energetică ambițioasă, cu renunțarea la energia nucleară, caracterizează:",
+       "optiuni": [
+        "Germania",
+        "Franța",
+        "Italia",
+        "Spania"
+       ],
+       "corect": 0,
+       "explicatie": "Franța a mizat, dimpotrivă, pe energia nucleară."
+      }
+     ]
+    },
+    {
+     "id": "geo13-06",
+     "titlu": "Mediul și dezvoltarea durabilă în Europa",
+     "rezumat": "Uniunea Europeană are una dintre cele mai stricte legislații de mediu din lume. Instrumentele: directive privind calitatea aerului și a apei, rețeaua de arii protejate Natura 2000, schema de comercializare a certificatelor de emisii, standarde pentru deșeuri și pentru economia circulară. Obiectivul asumat prin Pactul Ecologic European este neutralitatea climatică până în 2050. România participă la aceste politici: rețeaua Natura 2000 acoperă aproximativ 23% din teritoriu, Delta Dunării este rezervație a biosferei și sit UNESCO, pădurile virgine din Carpați fac parte din patrimoniul mondial. Problemele rămân: tăierile ilegale de păduri, gestionarea deșeurilor, poluarea urbană, exploatarea neregulată a resurselor, infrastructura de apă și canalizare incompletă în mediul rural. Dezvoltarea durabilă cere echilibrul dintre trei dimensiuni: economică (competitivitate, locuri de muncă), socială (echitate, incluziune) și de mediu (conservarea resurselor). Niciuna nu poate fi sacrificată durabil în favoarea celorlalte: o economie care distruge baza naturală se autodistruge, iar o protecție care ignoră nevoile sociale își pierde sprijinul.",
+     "ideiCheie": [
+      "Uniunea Europeană are una dintre cele mai stricte legislații de mediu din lume.",
+      "Pactul Ecologic European: neutralitate climatică până în 2050.",
+      "Natura 2000 acoperă aproximativ 23% din teritoriul României.",
+      "Dezvoltarea durabilă cere echilibrul dintre dimensiunea economică, socială și de mediu."
+     ],
+     "termeni": [
+      {
+       "t": "Natura 2000",
+       "d": "rețeaua europeană de arii naturale protejate"
+      },
+      {
+       "t": "neutralitate climatică",
+       "d": "situația în care emisiile de gaze cu efect de seră sunt compensate integral"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce obiectiv fixează Pactul Ecologic European?",
+       "v": "Neutralitatea climatică a Uniunii Europene până în 2050."
+      },
+      {
+       "f": "Ce pondere din teritoriul României este inclusă în Natura 2000?",
+       "v": "Aproximativ 23%."
+      },
+      {
+       "f": "Care sunt cele trei dimensiuni ale dezvoltării durabile?",
+       "v": "Economică, socială și de mediu."
+      },
+      {
+       "f": "Ce probleme de mediu are România?",
+       "v": "Tăierile ilegale, gestionarea deșeurilor, poluarea urbană, infrastructura de apă incompletă."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Rețeaua Natura 2000 este:",
+       "optiuni": [
+        "rețeaua europeană de arii naturale protejate",
+        "un program de finanțare agricolă",
+        "o schemă de comercializare a emisiilor",
+        "un sistem de monitorizare a apelor"
+       ],
+       "corect": 0,
+       "explicatie": "Ea protejează habitate și specii de interes comunitar."
+      },
+      {
+       "intrebare": "Neutralitatea climatică înseamnă:",
+       "optiuni": [
+        "compensarea integrală a emisiilor de gaze cu efect de seră",
+        "emisii zero absolute",
+        "interzicerea industriei",
+        "renunțarea la transporturi"
+       ],
+       "corect": 0,
+       "explicatie": "Emisiile reziduale sunt compensate prin absorbție."
+      },
+      {
+       "intrebare": "Pădurile virgine din Carpați sunt:",
+       "optiuni": [
+        "incluse în patrimoniul mondial UNESCO",
+        "exploatate industrial",
+        "lipsite de protecție",
+        "situate exclusiv în Apuseni"
+       ],
+       "corect": 0,
+       "explicatie": "Ele sunt printre ultimele din Europa temperată."
+      },
+      {
+       "intrebare": "Dezvoltarea durabilă presupune că:",
+       "optiuni": [
+        "niciuna dintre cele trei dimensiuni nu poate fi sacrificată durabil",
+        "mediul primează întotdeauna",
+        "economia primează întotdeauna",
+        "dimensiunea socială e secundară"
+       ],
+       "corect": 0,
+       "explicatie": "Echilibrul dintre ele este chiar definiția conceptului."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "geo13-c3",
+   "titlu": "Bacalaureatul la geografie",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "geo13-07",
+     "titlu": "Structura probei și harta de examen",
+     "rezumat": "Proba de geografie de la bacalaureat cuprinde trei subiecte. Subiectul I se bazează pe harta Europei, cu state, orașe, unități de relief, ape și alte elemente marcate prin litere și cifre: se cer identificări, precizări, comparații și explicații. Subiectul al II-lea se bazează pe harta României, cu aceeași logică. Subiectul al III-lea cuprinde un grafic, un tabel sau o temă privind Uniunea Europeană și problemele fundamentale. Lucrul cu harta cere metodă. Se citește întâi legenda și se identifică ce reprezintă literele și cifrele. Se localizează elementele pornind de la repere sigure (mări, fluvii mari, capitale). Se răspunde exact la ce se cere: dacă cerința spune „numele statului marcat cu litera A”, se scrie numele statului, nu al capitalei. Pregătirea eficientă înseamnă exersarea pe hărți mute: state europene cu capitale, unități de relief ale României, râuri principale, orașe mari, resurse. Memorarea pasivă a listelor este mult mai puțin eficientă decât localizarea repetată pe hartă.",
+     "ideiCheie": [
+      "Subiectul I: harta Europei; subiectul al II-lea: harta României; al III-lea: grafice, tabele, Uniunea Europeană.",
+      "Se citește întâi legenda, apoi se localizează pornind de la repere sigure.",
+      "Se răspunde exact la ce se cere: statul, nu capitala.",
+      "Exersarea pe hărți mute este mai eficientă decât memorarea listelor."
+     ],
+     "termeni": [
+      {
+       "t": "hartă mută",
+       "d": "hartă fără denumiri, folosită pentru exersarea localizării"
+      },
+      {
+       "t": "legenda hărții",
+       "d": "explicarea semnelor convenționale folosite pe hartă"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Pe ce se bazează subiectul I la proba de geografie?",
+       "v": "Pe harta Europei, cu elemente marcate prin litere și cifre."
+      },
+      {
+       "f": "Care este primul pas în lucrul cu harta de examen?",
+       "v": "Citirea legendei și identificarea a ceea ce reprezintă literele și cifrele."
+      },
+      {
+       "f": "Ce este o hartă mută?",
+       "v": "O hartă fără denumiri, folosită pentru exersarea localizării."
+      },
+      {
+       "f": "Ce se cere la subiectul al III-lea?",
+       "v": "Interpretarea unui grafic sau tabel și teme privind Uniunea Europeană."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Subiectul al II-lea al probei de geografie se bazează pe:",
+       "optiuni": [
+        "harta României",
+        "harta Europei",
+        "harta lumii",
+        "un text-suport"
+       ],
+       "corect": 0,
+       "explicatie": "Subiectul I se bazează pe harta Europei."
+      },
+      {
+       "intrebare": "Dacă cerința spune „numele statului marcat cu litera A”, se scrie:",
+       "optiuni": [
+        "numele statului",
+        "numele capitalei",
+        "numele regiunii",
+        "numele fluviului"
+       ],
+       "corect": 0,
+       "explicatie": "Răspunsul trebuie să corespundă exact cerinței."
+      },
+      {
+       "intrebare": "Exersarea pe hărți mute este eficientă pentru că:",
+       "optiuni": [
+        "antrenează localizarea activă, nu memorarea pasivă",
+        "este mai rapidă",
+        "necesită mai puține materiale",
+        "se face fără profesor"
+       ],
+       "corect": 0,
+       "explicatie": "Recunoașterea pe hartă este exact ceea ce se cere la examen."
+      },
+      {
+       "intrebare": "Legenda unei hărți explică:",
+       "optiuni": [
+        "semnele convenționale folosite",
+        "scara hărții",
+        "orientarea",
+        "sursa datelor"
+       ],
+       "corect": 0,
+       "explicatie": "Fără ea, harta nu poate fi citită corect."
+      }
+     ]
+    },
+    {
+     "id": "geo13-08",
+     "titlu": "Interpretarea graficelor și a tabelelor",
+     "rezumat": "Subiectul al III-lea cere adesea citirea unui grafic sau a unui tabel. Tipuri frecvente: grafice cu bare (comparații între valori), grafice liniare (evoluție în timp), grafice circulare (structură procentuală), piramide ale vârstelor, cartograme. Metoda: se citește titlul, apoi unitățile de măsură și perioada; se identifică valorile extreme (maxim, minim); se descrie tendința generală (creștere, scădere, stagnare, fluctuație); se explică prin factori geografici, economici sau demografici. O greșeală frecventă este confundarea creșterii valorii absolute cu creșterea ponderii: o valoare poate crește, în timp ce ponderea ei scade, dacă întregul crește mai repede. La calcule simple se cer: diferențe, medii, ponderi, densități, spor natural. Regula practică: se scrie formula, apoi se înlocuiesc valorile, apoi se dă rezultatul cu unitatea de măsură. Un rezultat corect fără unitate de măsură pierde puncte.",
+     "ideiCheie": [
+      "Se citește titlul, unitățile și perioada înainte de a interpreta un grafic.",
+      "Se identifică extremele, apoi tendința, apoi se explică prin factori.",
+      "Creșterea valorii absolute nu înseamnă automat creșterea ponderii.",
+      "La calcule: formulă, înlocuire, rezultat cu unitatea de măsură."
+     ],
+     "termeni": [
+      {
+       "t": "cartogramă",
+       "d": "hartă pe care valorile unui indicator sunt reprezentate prin culori sau hașuri"
+      },
+      {
+       "t": "pondere",
+       "d": "partea pe care o reprezintă o valoare din întreg, exprimată procentual"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt pașii interpretării unui grafic?",
+       "v": "Titlu și unități, extreme, tendință generală, explicație prin factori."
+      },
+      {
+       "f": "Ce greșeală apare frecvent la citirea datelor?",
+       "v": "Confundarea creșterii valorii absolute cu creșterea ponderii."
+      },
+      {
+       "f": "Ce se pierde dacă rezultatul unui calcul nu are unitate de măsură?",
+       "v": "Puncte, chiar dacă valoarea este corectă."
+      },
+      {
+       "f": "Ce este o cartogramă?",
+       "v": "O hartă pe care valorile unui indicator sunt reprezentate prin culori sau hașuri."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Un grafic circular este potrivit pentru a reprezenta:",
+       "optiuni": [
+        "structura procentuală a unui întreg",
+        "evoluția în timp",
+        "comparația între state",
+        "densitatea populației"
+       ],
+       "corect": 0,
+       "explicatie": "Graficul liniar arată evoluția în timp."
+      },
+      {
+       "intrebare": "O valoare absolută poate crește, iar ponderea ei poate scădea, dacă:",
+       "optiuni": [
+        "întregul crește mai repede",
+        "valoarea scade",
+        "întregul rămâne constant",
+        "ponderea e fixă"
+       ],
+       "corect": 0,
+       "explicatie": "Este o capcană frecventă în interpretarea datelor."
+      },
+      {
+       "intrebare": "La un calcul de densitate a populației se împarte:",
+       "optiuni": [
+        "numărul de locuitori la suprafață",
+        "suprafața la numărul de locuitori",
+        "populația urbană la cea rurală",
+        "natalitatea la mortalitate"
+       ],
+       "corect": 0,
+       "explicatie": "Rezultatul se exprimă în locuitori pe km²."
+      },
+      {
+       "intrebare": "Primul pas în citirea unui tabel statistic este:",
+       "optiuni": [
+        "identificarea titlului, a unităților și a perioadei",
+        "calcularea mediei",
+        "compararea extremelor",
+        "formularea concluziei"
+       ],
+       "corect": 0,
+       "explicatie": "Fără ele, cifrele pot fi complet greșit interpretate."
+      }
+     ]
+    },
+    {
+     "id": "geo13-09",
+     "titlu": "Strategii de pregătire și greșeli frecvente",
+     "rezumat": "Pregătirea eficientă pentru bacalaureatul la geografie se sprijină pe trei piloni: harta (localizare activă, repetată), noțiunile (definiții precise, folosite corect) și metoda (lucrul cu grafice, comparații, explicații). Simpla citire a manualului nu produce rezultate: geografia se învață desenând, localizând și explicând. Greșeli frecvente la examen: confundarea unităților de relief vecine, atribuirea greșită a resurselor unei regiuni, folosirea unor date depășite, răspunsuri care descriu în loc să explice, omiterea unităților de măsură, răspunsuri incomplete la cerințele cu mai multe puncte („precizați două...” — se dau două, nu unul). Recomandare practică: la fiecare cerință, se subliniază verbul (precizați, explicați, comparați, calculați) și numărul de elemente cerute. Majoritatea punctelor pierdute la geografie nu se datorează necunoașterii, ci nerespectării cerinței — un element care se corectează prin exercițiu, nu prin memorare suplimentară.",
+     "ideiCheie": [
+      "Cei trei piloni: harta, noțiunile, metoda.",
+      "Geografia se învață localizând și explicând, nu doar citind.",
+      "Greșeli: confuzii de unități, date depășite, descriere în loc de explicație, cerințe incomplete.",
+      "Se subliniază verbul cerinței și numărul de elemente cerute."
+     ],
+     "termeni": [
+      {
+       "t": "localizare activă",
+       "d": "exersarea repetată a poziționării elementelor pe hartă, fără suport scris"
+      },
+      {
+       "t": "cerință cu mai multe elemente",
+       "d": "cerință care solicită explicit un anumit număr de răspunsuri"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt cei trei piloni ai pregătirii la geografie?",
+       "v": "Harta, noțiunile și metoda de lucru."
+      },
+      {
+       "f": "De ce se pierd cele mai multe puncte la geografie?",
+       "v": "Din nerespectarea cerinței, nu din necunoaștere."
+      },
+      {
+       "f": "Ce trebuie subliniat la fiecare cerință?",
+       "v": "Verbul cerinței și numărul de elemente solicitate."
+      },
+      {
+       "f": "Cum se învață eficient geografia?",
+       "v": "Localizând activ pe hartă și explicând, nu doar citind."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "La cerința „precizați două unități de relief”, un răspuns cu o singură unitate:",
+       "optiuni": [
+        "primește doar jumătate din punctaj",
+        "primește punctajul integral",
+        "este anulat",
+        "se punctează suplimentar"
+       ],
+       "corect": 0,
+       "explicatie": "Numărul cerut trebuie respectat exact."
+      },
+      {
+       "intrebare": "Un răspuns care descrie în loc să explice:",
+       "optiuni": [
+        "nu primește punctajul pentru cerințele de tip „explicați”",
+        "este întotdeauna corect",
+        "primește punctaj parțial garantat",
+        "se punctează la fel"
+       ],
+       "corect": 0,
+       "explicatie": "Explicația cere relația cauză–efect."
+      },
+      {
+       "intrebare": "Localizarea activă înseamnă:",
+       "optiuni": [
+        "exersarea poziționării pe hartă, fără suport scris",
+        "citirea repetată a listelor",
+        "memorarea coordonatelor",
+        "desenarea hărților la scară"
+       ],
+       "corect": 0,
+       "explicatie": "Ea antrenează exact ce se cere la examen."
+      },
+      {
+       "intrebare": "Folosirea unor date statistice depășite într-un răspuns:",
+       "optiuni": [
+        "poate duce la concluzii greșite și la pierderea punctajului",
+        "este acceptabilă întotdeauna",
+        "nu influențează nota",
+        "este preferabilă"
+       ],
+       "corect": 0,
+       "explicatie": "Recensământul din 2021 este referința actuală pentru România."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "geo13-c4",
+   "titlu": "State și studii de caz europene (aprofundare)",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "geo13-10",
+     "titlu": "Studiu de caz: Franța și Germania",
+     "rezumat": "Franța și Germania sunt cele două mari puteri ale Uniunii Europene și „motorul” integrării. Comparația lor, după criterii clare, este un exercițiu-model de bacalaureat. Poziție și relief: Germania, în centrul Europei, are relief etajat de la Câmpia Germano-Polonă în nord, prin munți hercinici și podișuri, până la Alpii Bavarezi în sud; Franța, în vestul continentului, are relief variat, cu câmpii întinse, Masivul Central, Alpii și Pirineii, și deschidere dublă, la Atlantic și la Mediterană. Economie: Germania este cea mai mare economie a Europei, bazată pe industria auto, chimică și pe construcția de mașini, cu un export foarte puternic; Franța are o economie diversificată, cu industrie de vârf (aeronautică, nucleară), agricultură performantă susținută de Politica Agricolă Comună și cel mai mare turism din lume. Energie: Germania a mizat pe o tranziție energetică ambițioasă, cu renunțarea la energia nucleară; Franța se bazează, dimpotrivă, preponderent pe energia nucleară. Populație și organizare: Germania are peste 80 de milioane de locuitori, este stat federal (landuri) și compensează îmbătrânirea prin imigrație; Franța, cu peste 65 de milioane, este stat unitar puternic centralizat în jurul Parisului. Explicarea diferențelor — nu doar constatarea lor — este cheia unei comparații reușite: structura industrială, opțiunile energetice, tradiția administrativă și istoria explică traseele diferite ale celor două state.",
+     "ideiCheie": [
+      "Germania: relief etajat spre sud, cea mai mare economie a Europei, stat federal.",
+      "Franța: relief variat, dublă deschidere maritimă, energie nucleară, turism de vârf.",
+      "Germania a renunțat la nuclear; Franța se bazează pe el.",
+      "O comparație reușită explică diferențele, nu doar le constată."
+     ],
+     "termeni": [
+      {
+       "t": "stat federal",
+       "d": "stat format din unități (landuri) cu competențe proprii, garantate constituțional"
+      },
+      {
+       "t": "stat unitar",
+       "d": "stat cu administrație centralizată, fără unități cu competențe legislative proprii"
+      },
+      {
+       "t": "tranziție energetică",
+       "d": "trecerea de la combustibilii fosili și nuclear spre surse regenerabile"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care este cea mai mare economie a Europei?",
+       "v": "Germania."
+      },
+      {
+       "f": "Pe ce sursă se bazează preponderent energia electrică a Franței?",
+       "v": "Pe energia nucleară."
+      },
+      {
+       "f": "Ce formă de stat are Germania?",
+       "v": "Stat federal, format din landuri."
+      },
+      {
+       "f": "Ce deosebește opțiunea energetică a Germaniei de cea a Franței?",
+       "v": "Germania renunță la nuclear; Franța se bazează pe el."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Cea mai mare economie a Europei este:",
+       "optiuni": [
+        "Germania",
+        "Franța",
+        "Italia",
+        "Spania"
+       ],
+       "corect": 0,
+       "explicatie": "Industria auto și construcția de mașini sunt ramuri de vârf."
+      },
+      {
+       "intrebare": "Franța se bazează, pentru energia electrică, mai ales pe:",
+       "optiuni": [
+        "energia nucleară",
+        "cărbune",
+        "energie eoliană",
+        "hidroenergie"
+       ],
+       "corect": 0,
+       "explicatie": "Este una dintre cele mai nuclearizate economii din lume."
+      },
+      {
+       "intrebare": "Germania este organizată ca:",
+       "optiuni": [
+        "stat federal, format din landuri",
+        "stat unitar centralizat",
+        "monarhie absolută",
+        "confederație fără constituție"
+       ],
+       "corect": 0,
+       "explicatie": "Franța, dimpotrivă, este stat unitar centralizat."
+      },
+      {
+       "intrebare": "O comparație geografică reușită între Franța și Germania trebuie să:",
+       "optiuni": [
+        "explice diferențele prin factori concreți",
+        "enumere doar asemănările",
+        "prezinte cât mai multe cifre",
+        "descrie separat fiecare stat"
+       ],
+       "corect": 0,
+       "explicatie": "Explicația valorează mai mult decât constatarea."
+      }
+     ]
+    },
+    {
+     "id": "geo13-11",
+     "titlu": "Studiu de caz: Regatul Unit, Italia și Spania",
+     "rezumat": "Regatul Unit, stat insular din nord-vestul Europei, are relief variat (câmpii în sud-est, podișuri și munți vechi în nord și vest), climă oceanică și o economie dominată de servicii, cu Londra ca mare centru financiar mondial. A fost prima țară industrializată; astăzi este puternic terțiarizat. În 2020 a părăsit Uniunea Europeană (Brexit), un caz unic de dezintegrare, cu efecte economice și politice încă în desfășurare. Italia, peninsulă mediteraneeană cu relief muntos (Alpi, Apenini) și vulcanism activ (Vezuviu, Etna), are un contrast structural nord–sud: nordul industrializat și bogat, sudul mai puțin dezvoltat. Are un patrimoniu cultural excepțional, turism de primă mărime, dar și o îmbătrânire demografică accentuată și un declin al populației. Spania, cu relief dominat de Meseta, climă mediteraneeană și oceanică în nord-vest, are o economie bazată pe turism, agricultură irigată și energie regenerabilă în creștere; este organizată în comunități autonome. Aceste trei state ilustrează diversitatea Europei Sudice și Vestice și oferă teme clasice de comparație: contrastul nord–sud (Italia), regionalizarea (Spania, cu comunitățile autonome), relația cu Uniunea Europeană (Regatul Unit, prin Brexit). Analiza lor cere raportarea la aceleași criterii — poziție, relief, climă, economie, populație, organizare — și explicarea diferențelor prin istorie, resurse și opțiuni politice.",
+     "ideiCheie": [
+      "Regatul Unit: stat insular, economie de servicii, Londra centru financiar, Brexit (2020).",
+      "Italia: contrast nord–sud, vulcanism activ, patrimoniu cultural, îmbătrânire.",
+      "Spania: Meseta, turism, agricultură irigată, comunități autonome.",
+      "Cele trei state ilustrează diversitatea Europei Sudice și Vestice."
+     ],
+     "termeni": [
+      {
+       "t": "Brexit",
+       "d": "retragerea Regatului Unit din Uniunea Europeană, intrată în vigoare în 2020"
+      },
+      {
+       "t": "contrast nord–sud",
+       "d": "decalajul de dezvoltare dintre nordul industrializat și sudul mai puțin dezvoltat al Italiei"
+      },
+      {
+       "t": "comunitate autonomă",
+       "d": "unitate teritorială a Spaniei, cu un grad ridicat de autoguvernare"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este Brexitul?",
+       "v": "Retragerea Regatului Unit din Uniunea Europeană, în 2020."
+      },
+      {
+       "f": "Ce contrast structural caracterizează Italia?",
+       "v": "Contrastul nord–sud, între nordul dezvoltat și sudul mai sărac."
+      },
+      {
+       "f": "Cum este organizată administrativ Spania?",
+       "v": "În comunități autonome."
+      },
+      {
+       "f": "Ce vulcani activi are Italia?",
+       "v": "Vezuviul și Etna."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Contrastul nord–sud este o trăsătură structurală a:",
+       "optiuni": [
+        "Italiei",
+        "Germaniei",
+        "Franței",
+        "Poloniei"
+       ],
+       "corect": 0,
+       "explicatie": "Nordul industrializat contrastează cu sudul mai puțin dezvoltat."
+      },
+      {
+       "intrebare": "Spania este organizată administrativ în:",
+       "optiuni": [
+        "comunități autonome",
+        "landuri",
+        "regiuni de dezvoltare",
+        "departamente"
+       ],
+       "corect": 0,
+       "explicatie": "Germania are landuri, Franța, departamente."
+      },
+      {
+       "intrebare": "Retragerea Regatului Unit din Uniunea Europeană (Brexit) a avut loc în:",
+       "optiuni": [
+        "2020",
+        "2007",
+        "2015",
+        "2004"
+       ],
+       "corect": 0,
+       "explicatie": "Este un caz unic de dezintegrare europeană."
+      },
+      {
+       "intrebare": "Economia Regatului Unit este dominată de:",
+       "optiuni": [
+        "servicii, cu Londra ca mare centru financiar",
+        "agricultură",
+        "industria grea",
+        "exploatarea cărbunelui"
+       ],
+       "corect": 0,
+       "explicatie": "A fost însă prima țară industrializată din lume."
+      }
+     ]
+    },
+    {
+     "id": "geo13-12",
+     "titlu": "Statele vecine României și relațiile regionale",
+     "rezumat": "România se învecinează cu cinci state și cu Marea Neagră: Ucraina la nord și est, Republica Moldova la est (peste Prut), Bulgaria la sud (peste Dunăre, în cea mai mare parte), Serbia la sud-vest, Ungaria la vest. Aceste vecinătăți definesc relațiile regionale, schimburile economice și cooperarea transfrontalieră. Cu statele membre ale Uniunii Europene (Ungaria, Bulgaria) cooperarea se desfășoară în cadrul pieței unice și al politicilor comune. Republica Moldova are legături istorice, lingvistice și culturale deosebit de strânse cu România; cooperarea economică, energetică și în domeniul infrastructurii s-a intensificat, iar parcursul european al Republicii Moldova este sprijinit de România. Ucraina, vecin de mari dimensiuni, este un partener important, dar și o sursă de preocupări de securitate, mai ales în contextul instabilității regionale. Cooperarea regională se realizează prin structuri și inițiative: euroregiuni transfrontaliere, cooperarea la Marea Neagră, coridoarele de transport, proiecte energetice. Poziția României — la frontiera estică a Uniunii Europene și a NATO, la Dunăre și la Marea Neagră — o transformă într-un actor regional cu responsabilități de securitate și cu oportunități de a deveni un nod de transport și energetic între Europa Centrală, spațiul Mării Negre și Balcani.",
+     "ideiCheie": [
+      "România se învecinează cu Ucraina, Republica Moldova, Bulgaria, Serbia, Ungaria și Marea Neagră.",
+      "Cu Ungaria și Bulgaria, cooperarea se desfășoară în cadrul Uniunii Europene.",
+      "Republica Moldova are legături istorice și culturale strânse cu România.",
+      "Poziția de frontieră a UE și NATO dă României responsabilități și oportunități regionale."
+     ],
+     "termeni": [
+      {
+       "t": "cooperare transfrontalieră",
+       "d": "colaborarea dintre regiunile situate de o parte și de alta a unei frontiere"
+      },
+      {
+       "t": "euroregiune",
+       "d": "structură de cooperare între regiuni din state vecine, sprijinită de Uniunea Europeană"
+      },
+      {
+       "t": "parcurs european",
+       "d": "procesul de apropiere și integrare a unui stat în Uniunea Europeană"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cu ce state se învecinează România?",
+       "v": "Ucraina, Republica Moldova, Bulgaria, Serbia și Ungaria."
+      },
+      {
+       "f": "Peste ce râu se învecinează România cu Republica Moldova?",
+       "v": "Peste Prut."
+      },
+      {
+       "f": "Cu ce stat vecin are România cele mai strânse legături istorice și culturale?",
+       "v": "Cu Republica Moldova."
+      },
+      {
+       "f": "Ce dă României poziția de frontieră a Uniunii Europene și a NATO?",
+       "v": "Responsabilități de securitate și oportunități de nod regional."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "România se învecinează la vest cu:",
+       "optiuni": [
+        "Ungaria",
+        "Ucraina",
+        "Bulgaria",
+        "Serbia"
+       ],
+       "corect": 0,
+       "explicatie": "Granița este parțial dată de râuri de câmpie."
+      },
+      {
+       "intrebare": "România se învecinează cu Republica Moldova peste:",
+       "optiuni": [
+        "râul Prut",
+        "Dunăre",
+        "Tisa",
+        "Nistru"
+       ],
+       "corect": 0,
+       "explicatie": "Legăturile istorice și culturale sunt deosebit de strânse."
+      },
+      {
+       "intrebare": "Cea mai mare parte a graniței dintre România și Bulgaria este dată de:",
+       "optiuni": [
+        "Dunăre",
+        "Prut",
+        "Munții Carpați",
+        "Marea Neagră"
+       ],
+       "corect": 0,
+       "explicatie": "În Dobrogea granița este terestră."
+      },
+      {
+       "intrebare": "Poziția României la frontiera estică a Uniunii Europene și a NATO reprezintă:",
+       "optiuni": [
+        "atât o responsabilitate de securitate, cât și o oportunitate regională",
+        "exclusiv un dezavantaj",
+        "un element neutru",
+        "o piedică în calea cooperării"
+       ],
+       "corect": 0,
+       "explicatie": "Ea o transformă într-un potențial nod de transport și energetic."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "geo13-c5",
+   "titlu": "România — teme de sinteză pentru bacalaureat",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "geo13-13",
+     "titlu": "Sinteză: cadrul natural al României la examen",
+     "rezumat": "La proba de bacalaureat, subiectul al II-lea se bazează pe harta României; de aceea cadrul natural trebuie stăpânit sistematic. Relieful: trei trepte aproape egale (munți 31%, dealuri și podișuri 36%, câmpii 33%), dispuse concentric și etajat în jurul Depresiunii Transilvaniei. Unitățile majore care se cer frecvent: Carpații Orientali, Meridionali (cu vârful Moldoveanu, 2 544 m) și Occidentali (cu Apusenii, relief carstic), Subcarpații, podișurile (Transilvaniei, Moldovei, Getic, Dobrogei — cel mai vechi), câmpiile (Română, de Vest), Delta Dunării (cea mai nouă). Clima: temperat-continentală de tranziție, cu cinci tipuri de influențe (oceanice în vest, submediteraneene în sud-vest, de ariditate în est, scandinavo-baltice în nord, pontice în sud-est). Apele: Dunărea (1 075 km pe teritoriul României, din 2 860 km) colectează aproape toate râurile interioare (Mureș, Olt, Siret, Prut, Someș, Jiu, Argeș); lacuri glaciare (Bâlea, Bucura), vulcanice (Sfânta Ana), de baraj (Vidraru, Porțile de Fier), lagune și limanuri pe litoral. Vegetația, fauna și solurile urmează etajarea reliefului: stepă și silvostepă cu cernoziomuri fertile în câmpie, păduri de foioase și soluri brune pe dealuri, conifere și podzoluri la altitudine, pajiști alpine pe culmi. Cheia pregătirii este localizarea repetată pe harta mută: elevul trebuie să poată plasa corect unitățile de relief, râurile și orașele, fiindcă exact aceasta se cere la examen.",
+     "ideiCheie": [
+      "Relieful: trei trepte aproape egale, dispuse concentric în jurul Transilvaniei.",
+      "Vârful Moldoveanu (2 544 m), în Făgăraș, este cel mai înalt; Dobrogea, cel mai vechi relief.",
+      "Climat temperat-continental de tranziție, cu cinci tipuri de influențe.",
+      "Dunărea colectează aproape toate râurile țării; lacuri glaciare, vulcanice, de baraj."
+     ],
+     "termeni": [
+      {
+       "t": "relief concentric",
+       "d": "dispunerea treptelor de relief în cercuri, în jurul Depresiunii Transilvaniei"
+      },
+      {
+       "t": "climat de tranziție",
+       "d": "climat aflat la întâlnirea mai multor influențe climatice"
+      },
+      {
+       "t": "etajare",
+       "d": "succesiunea, pe verticală, a vegetației și a solurilor, odată cu altitudinea"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt proporțiile treptelor de relief din România?",
+       "v": "Munți 31%, dealuri și podișuri 36%, câmpii 33%."
+      },
+      {
+       "f": "Care este cel mai înalt vârf al României?",
+       "v": "Moldoveanu, 2 544 m, în Munții Făgăraș."
+      },
+      {
+       "f": "Ce climat are România?",
+       "v": "Temperat-continental de tranziție, cu cinci tipuri de influențe."
+      },
+      {
+       "f": "Ce fluviu colectează aproape toate râurile României?",
+       "v": "Dunărea."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Cel mai vechi relief al României se află în:",
+       "optiuni": [
+        "Podișul Dobrogei",
+        "Delta Dunării",
+        "Câmpia Română",
+        "Carpații Meridionali"
+       ],
+       "corect": 0,
+       "explicatie": "Delta este, dimpotrivă, cea mai nouă unitate."
+      },
+      {
+       "intrebare": "Vârful cel mai înalt al României, Moldoveanu, se află în:",
+       "optiuni": [
+        "Carpații Meridionali (Munții Făgăraș)",
+        "Carpații Orientali",
+        "Munții Apuseni",
+        "Podișul Transilvaniei"
+       ],
+       "corect": 0,
+       "explicatie": "El are 2 544 m."
+      },
+      {
+       "intrebare": "Influența climatică de ariditate se resimte în România mai ales în:",
+       "optiuni": [
+        "est",
+        "vest",
+        "sud-vest",
+        "nord"
+       ],
+       "corect": 0,
+       "explicatie": "Influențele oceanice se resimt în vest."
+      },
+      {
+       "intrebare": "Pe harta de examen, unitățile de relief ale României se învață cel mai eficient prin:",
+       "optiuni": [
+        "localizare repetată pe harta mută",
+        "memorarea listelor",
+        "citirea manualului",
+        "copierea definițiilor"
+       ],
+       "corect": 0,
+       "explicatie": "Exact localizarea se cere la subiectul al II-lea."
+      }
+     ]
+    },
+    {
+     "id": "geo13-14",
+     "titlu": "Sinteză: populația și așezările României la examen",
+     "rezumat": "Populația și așezările României sunt teme frecvente la subiectul al II-lea și al III-lea. Datele de bază, cerute la examen: aproximativ 19 milioane de locuitori la recensământul din 2021 (în scădere de la 22,8 milioane în 1992), densitate medie de circa 80 loc./km², structură pe medii de aproximativ 54% urban și 46% rural. Factorul demografic dominant după 1990 a fost emigrația (peste trei milioane de persoane), care, împreună cu sporul natural negativ, explică scăderea și îmbătrânirea populației. Repartiția populației este inegală: densități mari în zonele de câmpie și subcarpatice, mici în munți și în Delta Dunării. Structura etnică: majoritate română, cu minorități (cea maghiară fiind cea mai numeroasă). Îmbătrânirea demografică se accentuează: peste 19% din populație are peste 65 de ani. Așezările: 320 de orașe (103 municipii) și circa 2 860 de comune, cu peste 12 000 de sate. Ierarhia urbană este dominată de București (peste 1,7 milioane de locuitori), urmat de Cluj-Napoca, Timișoara, Iași, Constanța, Craiova, Brașov. Organizarea administrativă: 41 de județe plus municipiul București; opt regiuni de dezvoltare, fără statut administrativ, folosite pentru statistică și pentru fondurile europene. Aceste cifre și denumiri trebuie cunoscute exact, fiindcă sunt cerute direct la examen.",
+     "ideiCheie": [
+      "România, la recensământul din 2021: aproximativ 19 milioane de locuitori; densitate circa 80 loc./km².",
+      "Emigrația de după 1990 (peste trei milioane) și sporul negativ explică scăderea populației.",
+      "320 de orașe (103 municipii); Bucureștiul domină ierarhia urbană.",
+      "41 de județe plus municipiul București; opt regiuni de dezvoltare, fără statut administrativ."
+     ],
+     "termeni": [
+      {
+       "t": "recensământ",
+       "d": "înregistrarea oficială, periodică, a populației unei țări"
+      },
+      {
+       "t": "regiune de dezvoltare",
+       "d": "cadru teritorial pentru statistică și pentru politica de coeziune, fără statut administrativ"
+      },
+      {
+       "t": "spor natural negativ",
+       "d": "situația în care mortalitatea depășește natalitatea"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Câți locuitori avea România la recensământul din 2021?",
+       "v": "Aproximativ 19 milioane."
+      },
+      {
+       "f": "Câte județe are România?",
+       "v": "41, plus municipiul București."
+      },
+      {
+       "f": "Câte regiuni de dezvoltare are România?",
+       "v": "Opt, fără statut administrativ."
+      },
+      {
+       "f": "Care a fost factorul demografic dominant după 1990?",
+       "v": "Emigrația, care a depășit trei milioane de persoane."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Populația României la recensământul din 2021 era de aproximativ:",
+       "optiuni": [
+        "19 milioane",
+        "22 de milioane",
+        "17 milioane",
+        "25 de milioane"
+       ],
+       "corect": 0,
+       "explicatie": "În 1992 erau 22,8 milioane."
+      },
+      {
+       "intrebare": "România are:",
+       "optiuni": [
+        "41 de județe plus municipiul București",
+        "40 de județe",
+        "42 de județe",
+        "39 de județe"
+       ],
+       "corect": 0,
+       "explicatie": "Organizarea actuală datează, în linii mari, din 1968."
+      },
+      {
+       "intrebare": "Regiunile de dezvoltare ale României sunt în număr de:",
+       "optiuni": [
+        "opt, fără statut administrativ",
+        "șase",
+        "zece",
+        "patruzeci și unu"
+       ],
+       "corect": 0,
+       "explicatie": "Ele servesc statisticii europene și fondurilor de coeziune."
+      },
+      {
+       "intrebare": "Densitatea mică a populației se înregistrează în România mai ales în:",
+       "optiuni": [
+        "zona montană înaltă și în Delta Dunării",
+        "Câmpia Română",
+        "zonele subcarpatice",
+        "Podișul Transilvaniei"
+       ],
+       "corect": 0,
+       "explicatie": "Condițiile naturale explică repartiția inegală."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "geo13-c6",
+   "titlu": "Probleme fundamentale ale lumii contemporane",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "geo13-15",
+     "titlu": "Uniunea Europeană — construcție, instituții și provocări",
+     "rezumat": "Uniunea Europeană este cel mai avansat proiect de integrare regională din lume și o temă constantă la subiectul al III-lea. Construcția s-a făcut în etape: Declarația Schuman (1950), CECO (1951), Tratatele de la Roma (1957, CEE), Actul Unic European (1986), Tratatul de la Maastricht (1992, care creează Uniunea Europeană), Lisabona (2007). Uniunea are astăzi 27 de state membre, după retragerea Regatului Unit (Brexit, 2020). Instituțiile principale: Parlamentul European (ales direct, colegislator), Consiliul European (șefii de stat și de guvern, orientările politice), Consiliul Uniunii Europene (miniștrii, colegislator), Comisia Europeană (inițiativa legislativă și executivul), Curtea de Justiție, Banca Centrală Europeană. Piața internă se sprijină pe cele patru libertăți: libera circulație a mărfurilor, serviciilor, capitalurilor și persoanelor. Zona euro folosește moneda unică; spațiul Schengen elimină controalele la frontierele interne. Provocările Uniunii sunt numeroase: decalajele dintre regiuni și state, gestionarea migrației, securitatea și apărarea, tranziția energetică și climatică, competitivitatea față de marile economii mondiale, coeziunea politică. Pentru România, membră din 2007, integrarea a adus acces la piața unică și la fonduri, dar rămân provocări: absorbția fondurilor, aderarea la Schengen și la zona euro, reducerea decalajelor. Uniunea este un proiect în evoluție, între aprofundare și tensiuni.",
+     "ideiCheie": [
+      "Etape: 1950, 1951, 1957, 1986, 1992, 2007; 27 de state membre după Brexit (2020).",
+      "Instituții: Parlamentul, Consiliul European, Consiliul UE, Comisia, Curtea de Justiție, BCE.",
+      "Patru libertăți: mărfuri, servicii, capitaluri, persoane; zona euro; spațiul Schengen.",
+      "Provocări: decalaje, migrație, securitate, tranziție climatică, competitivitate."
+     ],
+     "termeni": [
+      {
+       "t": "piață internă",
+       "d": "spațiu economic unic, bazat pe cele patru libertăți de circulație"
+      },
+      {
+       "t": "zonă euro",
+       "d": "ansamblul statelor Uniunii care au adoptat moneda unică, euro"
+      },
+      {
+       "t": "spațiu Schengen",
+       "d": "zonă în care controalele la frontierele interne sunt eliminate"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Prin ce tratat a fost creată Uniunea Europeană?",
+       "v": "Prin Tratatul de la Maastricht (1992)."
+      },
+      {
+       "f": "Câte state membre are Uniunea Europeană?",
+       "v": "27, după retragerea Regatului Unit în 2020."
+      },
+      {
+       "f": "Care sunt cele patru libertăți ale pieței interne?",
+       "v": "Libera circulație a mărfurilor, serviciilor, capitalurilor și persoanelor."
+      },
+      {
+       "f": "Ce instituție are dreptul de inițiativă legislativă?",
+       "v": "Comisia Europeană."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Uniunea Europeană a fost creată prin Tratatul de la:",
+       "optiuni": [
+        "Maastricht (1992)",
+        "Roma (1957)",
+        "Lisabona (2007)",
+        "Nisa (2001)"
+       ],
+       "corect": 0,
+       "explicatie": "El a pregătit și moneda unică."
+      },
+      {
+       "intrebare": "Numărul actual de state membre ale Uniunii Europene este:",
+       "optiuni": [
+        "27",
+        "28",
+        "25",
+        "30"
+       ],
+       "corect": 0,
+       "explicatie": "El a scăzut la 27 după Brexit, în 2020."
+      },
+      {
+       "intrebare": "Spațiul Schengen se caracterizează prin:",
+       "optiuni": [
+        "eliminarea controalelor la frontierele interne",
+        "adoptarea monedei unice",
+        "o armată comună",
+        "un sistem fiscal unic"
+       ],
+       "corect": 0,
+       "explicatie": "Zona euro, în schimb, privește moneda."
+      },
+      {
+       "intrebare": "Dreptul de inițiativă legislativă în Uniunea Europeană aparține:",
+       "optiuni": [
+        "Comisiei Europene",
+        "Parlamentului European",
+        "Consiliului European",
+        "Curții de Justiție"
+       ],
+       "corect": 0,
+       "explicatie": "Parlamentul și Consiliul adoptă legislația propusă."
+      }
+     ]
+    },
+    {
+     "id": "geo13-16",
+     "titlu": "Problema demografică și migrațiile în lumea de azi",
+     "rezumat": "Lumea contemporană cunoaște simultan două regimuri demografice opuse, o temă majoră a problemelor fundamentale. În Africa subsahariană și în părți din Asia de Sud, creșterea rămâne rapidă, cu populație tânără și presiune pe educație și pe locurile de muncă. În Europa, Asia de Est și America de Nord, natalitatea este sub pragul de înlocuire, iar îmbătrânirea se accelerează. Populația mondială, de peste 8 miliarde, continuă să crească, dar tot mai încet. Îmbătrânirea demografică pune probleme serioase: scade raportul dintre activi și pensionari, crește presiunea pe sistemele de sănătate și de pensii, apare deficitul de forță de muncă. Soluțiile discutate: prelungirea vieții active, imigrație controlată, automatizare, sprijin pentru familii. România este un caz de declin accentuat: natalitate scăzută, emigrație masivă după 1990, îmbătrânire, depopularea unor zone rurale. Migrațiile internaționale leagă cele două lumi demografice. Ele sunt descrise prin factori de respingere (push) și de atracție (pull) și au consecințe duble: pentru țările de plecare, remitențe, dar și exod al creierelor și îmbătrânire; pentru cele de destinație, forță de muncă și diversitate, dar și tensiuni, dacă integrarea eșuează. Refugiații, care fug de război și de persecuție, formează un caz aparte, cu protecție internațională. Gestionarea acestor fenomene cere cooperare, căi legale de migrație și politici de integrare.",
+     "ideiCheie": [
+      "Lumea are simultan regiuni cu creștere rapidă și regiuni cu îmbătrânire accelerată.",
+      "Îmbătrânirea reduce raportul activi/pensionari și presează sănătatea și pensiile.",
+      "România: declin demografic — natalitate scăzută, emigrație masivă, depopulare rurală.",
+      "Migrațiile: factori push și pull; refugiații au protecție internațională."
+     ],
+     "termeni": [
+      {
+       "t": "prag de înlocuire a generațiilor",
+       "d": "rata fertilității (circa 2,1 copii pe femeie) care menține populația constantă"
+      },
+      {
+       "t": "raport de dependență",
+       "d": "raportul dintre populația inactivă (tineri și vârstnici) și cea activă"
+      },
+      {
+       "t": "refugiat",
+       "d": "persoană care fuge de persecuție sau război și beneficiază de protecție internațională"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt cele două regimuri demografice ale lumii contemporane?",
+       "v": "Creștere rapidă cu populație tânără și, respectiv, natalitate scăzută cu îmbătrânire."
+      },
+      {
+       "f": "Care sunt cauzele declinului demografic al României?",
+       "v": "Natalitatea scăzută, emigrația masivă și îmbătrânirea."
+      },
+      {
+       "f": "Prin ce factori se descriu migrațiile?",
+       "v": "Prin factori de respingere (push) și de atracție (pull)."
+      },
+      {
+       "f": "Prin ce se deosebește un refugiat de un migrant economic?",
+       "v": "Refugiatul fuge de persecuție sau război și are protecție internațională."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Pragul de înlocuire a generațiilor este de aproximativ:",
+       "optiuni": [
+        "2,1 copii pe femeie",
+        "1 copil pe femeie",
+        "3,5 copii pe femeie",
+        "5 copii pe femeie"
+       ],
+       "corect": 0,
+       "explicatie": "Sub el, populația scade pe termen lung."
+      },
+      {
+       "intrebare": "Declinul demografic al României este cauzat în principal de:",
+       "optiuni": [
+        "natalitatea scăzută și emigrația masivă",
+        "imigrația",
+        "mortalitatea infantilă ridicată",
+        "creșterea urbanizării"
+       ],
+       "corect": 0,
+       "explicatie": "Cele două efecte se cumulează."
+      },
+      {
+       "intrebare": "Îmbătrânirea demografică are ca efect principal:",
+       "optiuni": [
+        "scăderea raportului dintre activi și pensionari",
+        "creșterea natalității",
+        "reducerea speranței de viață",
+        "scăderea imigrației"
+       ],
+       "corect": 0,
+       "explicatie": "Ea presează sistemele de sănătate și de pensii."
+      },
+      {
+       "intrebare": "Un refugiat este o persoană care:",
+       "optiuni": [
+        "fuge de persecuție sau război și are protecție internațională",
+        "emigrează pentru un salariu mai bun",
+        "se mută în alt oraș",
+        "călătorește în interes turistic"
+       ],
+       "corect": 0,
+       "explicatie": "El nu se poate întoarce acasă în siguranță."
+      }
+     ]
+    },
+    {
+     "id": "geo13-17",
+     "titlu": "Mediul, resursele și dezvoltarea durabilă",
+     "rezumat": "Problemele de mediu sunt printre cele mai importante teme ale lumii contemporane și apar frecvent la subiectul al III-lea. Ele sunt globale și legate între ele: schimbările climatice (încălzirea provocată de gazele cu efect de seră), pierderea biodiversității, poluarea aerului, apelor și solurilor, despăduririle, deșertificarea, deșeurile — mai ales plasticul din oceane. Cauzele au adesea efecte îndepărtate în spațiu și în timp, ceea ce face deciziile de mediu dificile. Resursele naturale — regenerabile și neregenerabile — sunt inegal distribuite și tot mai solicitate. O resursă regenerabilă exploatată peste rata de refacere se comportă ca una neregenerabilă. Soluțiile discutate: economia circulară (produse proiectate pentru reparare, refolosire și reciclare) în locul modelului „extrage – produce – aruncă”, tranziția energetică, eficiența, decuplarea creșterii de consumul de resurse. Dezvoltarea durabilă — satisfacerea nevoilor prezentului fără a compromite generațiile viitoare — îmbină trei dimensiuni: economică, socială și de mediu. Ea este ghidată de Obiectivele de Dezvoltare Durabilă ale ONU (Agenda 2030, 17 obiective) și, în Europa, de Pactul Ecologic European (neutralitate climatică până în 2050). Cadrul climatic internațional: Protocolul de la Kyoto (1997), Acordul de la Paris (2015, sub 2°C, cu efort spre 1,5°C). Obstacolul principal nu este tehnic, ci ține de voința politică și de cooperare.",
+     "ideiCheie": [
+      "Probleme de mediu globale și legate între ele: climă, biodiversitate, poluare, deșeuri.",
+      "O resursă regenerabilă exploatată excesiv se comportă ca una neregenerabilă.",
+      "Economia circulară înlocuiește modelul „extrage – produce – aruncă”.",
+      "Dezvoltarea durabilă: trei dimensiuni; Agenda 2030 și Pactul Ecologic European."
+     ],
+     "termeni": [
+      {
+       "t": "dezvoltare durabilă",
+       "d": "dezvoltare care satisface nevoile prezentului fără a compromite generațiile viitoare"
+      },
+      {
+       "t": "economie circulară",
+       "d": "model economic bazat pe reparare, refolosire și reciclare"
+      },
+      {
+       "t": "Acordul de la Paris",
+       "d": "acordul din 2015 care fixează limitarea încălzirii sub 2°C, cu efort spre 1,5°C"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt principalele probleme globale de mediu?",
+       "v": "Schimbările climatice, pierderea biodiversității, poluarea și deșeurile."
+      },
+      {
+       "f": "Care sunt cele trei dimensiuni ale dezvoltării durabile?",
+       "v": "Economică, socială și de mediu."
+      },
+      {
+       "f": "Ce obiectiv fixează Acordul de la Paris?",
+       "v": "Limitarea încălzirii sub 2°C, cu efort spre 1,5°C."
+      },
+      {
+       "f": "Ce obiectiv fixează Pactul Ecologic European?",
+       "v": "Neutralitatea climatică a Uniunii Europene până în 2050."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Acordul de la Paris privind clima a fost adoptat în:",
+       "optiuni": [
+        "2015",
+        "1992",
+        "1997",
+        "2009"
+       ],
+       "corect": 0,
+       "explicatie": "Protocolul de la Kyoto datează din 1997."
+      },
+      {
+       "intrebare": "O resursă regenerabilă exploatată peste rata de refacere:",
+       "optiuni": [
+        "se comportă ca o resursă neregenerabilă",
+        "rămâne inepuizabilă",
+        "devine mai productivă",
+        "își crește biodiversitatea"
+       ],
+       "corect": 0,
+       "explicatie": "Distincția depinde și de ritmul exploatării."
+      },
+      {
+       "intrebare": "Economia circulară se opune modelului:",
+       "optiuni": [
+        "„extrage – produce – aruncă”",
+        "„repară – refolosește – reciclează”",
+        "„importă – exportă”",
+        "„produce – stochează”"
+       ],
+       "corect": 0,
+       "explicatie": "Ea urmărește închiderea buclelor de materiale."
+      },
+      {
+       "intrebare": "Dezvoltarea durabilă presupune echilibrul între:",
+       "optiuni": [
+        "dimensiunea economică, socială și de mediu",
+        "economie și armată",
+        "industrie și agricultură",
+        "oraș și sat"
+       ],
+       "corect": 0,
+       "explicatie": "Niciuna nu poate fi sacrificată durabil."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "geo13-c7",
+   "titlu": "Metodă și pregătire pentru examen (aprofundare)",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "geo13-18",
+     "titlu": "Studiul de caz, eseul geografic și metoda comparației la Bacalaureat",
+     "rezumat": "La proba de Bacalaureat la Geografie, cerințele comparative (punctul D de la Subiectele I și II — 6 puncte) și studiile de caz solicită aplicarea unei metodologii riguroase pe criterii geografice paralele: 1. Algoritmul comparativ pentru relief (deosebiri sau asemănări între două unități): (a) Modul de formare / orogeneza: încrețirea scoarței terestre (orogeneza alpină pentru Carpați sau Alpi, orogeneza hercinică/caledoniană pentru Munții Măcinului sau Masivul Central Francez), vulcanism sau acumulare sedimentară (câmpii, podișuri); (b) Tipurile de roci dominante: roci magmatice/vulcanice (andezite, bazalte), roci metamorfice (șisturi cristaline) sau roci sedimentare (calcare, gresii, marne, loess, nisip); (c) Altitudini: altitudinea maximă absolută și ecartul mediu (ex. Carpații Meridionali depășesc 2 500 m — vf. Moldoveanu 2 544 m, în timp ce Munții Banatului abia ating 1 446 m în vf. Semenic); (d) Fragmentarea reliefului și orientarea culmilor: culmi paralele orietate NV-SE, masivitate pronunțată vs fragmentare accentuată prin văi, depresiuni și trecători; (e) Tipuri de relief specific: relief glaciar (circuri și văi glaciare, custuri), carstic (peșteri, chei, doline pe calcare), vulcanic (crater, con vulcanic), ruiniform sau eolian (dune de nisip). 2. Algoritmul comparativ pentru climă: (a) Etajul climatic: montan (>800–1 000 m), de deal și podiș (300–800 m), de câmpie (<200–300 m), litoral sau deltaic; (b) Influențele climatice specifice: oceanice (în vest), scandinavo-baltice (în nord), de ariditate/est-europene (în est), submediteraneene (în sud-vest) sau pontice (pe litoral); (c) Parametrii termici: temperatura medie anuală (ex. 10–11°C la câmpie vs -2...2°C pe culmile montane), temperatura medie a lunii iulie și a lunii ianuarie; (d) Regimul precipitațiilor medii anuale: peste 1 000–1 400 mm/an la munte vs 400–500 mm/an în câmpiile din est și sub 400 mm/an în Delta Dunării; (e) Vânturile caracteristice: Crivățul (est/sud-est), Vânturile de Vest, Austrul (sud-vest), Nemira, Vântul Mare / Föhnul. Regula de redactare: fiecare deosebire sau asemănare se formulează simetric, numind ambele unități geografice și criteriul de comparație («Unitatea A s-a format prin cutare alpină, pe când unitatea B s-a format prin sedimentare»).",
+     "ideiCheie": [
+      "Punctul D la examen cere 3 deosebiri sau asemănări formulate pe criterii clare.",
+      "Criterii relief: geneză, petrografie (roci), altitudini maxime/medii, fragmentare, relief specific (glaciar, carstic).",
+      "Criterii climă: etaj climatic, influențe climatice, temperaturi medii, cantitatea de precipitații, vânturi.",
+      "Formularea trebuie să fie simetrică: ambele unități analizate în cadrul aceleiași fraze."
+     ],
+     "termeni": [
+      {
+       "t": "algoritm comparativ",
+       "d": "schemă logică de confruntare a două regiuni geografice pe baza acelorași parametri"
+      },
+      {
+       "t": "simetrie a răspunsului",
+       "d": "prezentarea în paralel a trăsăturilor ambelor unități pentru acordarea punctajului complet"
+      },
+      {
+       "t": "relief carstic",
+       "d": "forme de relief formate prin dizolvarea rocilor solubile (calcare, ghips, sare): peșteri, chei, doline"
+      },
+      {
+       "t": "relief glaciar",
+       "d": "forme sculptate de ghețarii cuaternari: circuri glaciare, custuri, lacuri glaciare, văi în formă de „U”"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt criteriile de bază pentru compararea a două unități de relief?",
+       "v": "Geneza (modul de formare), alcătuirea petrografică (rocile), altitudinile, fragmentarea și relieful specific."
+      },
+      {
+       "f": "Care sunt criteriile de bază pentru compararea a două tipuri de climă?",
+       "v": "Etajul de climă, influențele climatice, temperaturile medii, precipitațiile anuale și vânturile."
+      },
+      {
+       "f": "Cum trebuie formulat un răspuns la punctul D pentru a primi punctaj maxim?",
+       "v": "Simetric, menționând criteriul și ambele unități în cadrul aceleiași afirmații."
+      },
+      {
+       "f": "Ce forme alcătuiesc relieful glaciar din Carpați?",
+       "v": "Circuri glaciare (care adăpostesc lacuri glaciare), văi în „U” și creste ascuțite (custuri)."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "La o cerință de comparare a reliefului, menționarea unei deosebiri numai pentru o unitate:",
+       "optiuni": [
+        "este depunctată, cerându-se formulare simetrică pentru ambele unități",
+        "primește punctajul integral",
+        "este considerată eroare gravă și anulează subiectul",
+        "aduce punctaj de bonus"
+       ],
+       "corect": 0,
+       "explicatie": "Baremul cere precizarea explicită a trăsăturii pentru ambele unități comparate."
+      },
+      {
+       "intrebare": "Relieful glaciar (circuri, lacuri glaciare) este prezent în România în:",
+       "optiuni": [
+        "Carpații Meridionali și Munții Rodnei",
+        "Podișul Dobrogei",
+        "Câmpia Română",
+        "Subcarpații Getici"
+       ],
+       "corect": 0,
+       "explicatie": "Ghețarii cuaternari au acționat doar la altitudini de peste 1 800–2 000 m."
+      },
+      {
+       "intrebare": "O deosebire climatică între Câmpia de Vest și Câmpia Română este:",
+       "optiuni": [
+        "Câmpia de Vest are influențe oceanice, pe când Câmpia Română are influențe de ariditate (est-europene)",
+        "în Câmpia de Vest cad sub 300 mm precipitații pe an",
+        "Câmpia Română are un climat subpolar",
+        "ambele au climat montan"
+       ],
+       "corect": 0,
+       "explicatie": "Circulația vestică aduce umiditate în vest, iar masele continentale uscate aduc ariditate în est."
+      },
+      {
+       "intrebare": "Un răspuns structurat corect la geografie se caracterizează prin:",
+       "optiuni": [
+        "utilizarea terminologiei geografice precise și demonstrarea relației cauză–efect",
+        "compunere narativă fără date",
+        "doar enumerarea cifrelor fără unități de măsură",
+        "desenarea schemei fără text"
+       ],
+       "corect": 0,
+       "explicatie": "Punctajul urmărește conceptele geografice, cauzalitatea și rigoarea exprimării."
+      }
+     ]
+    },
+    {
+     "id": "geo13-19",
+     "titlu": "Lucrul cu harta Europei și a României la examen",
+     "rezumat": "Harta este instrumentul central al probei de geografie: subiectul I se bazează pe harta Europei, subiectul al II-lea pe harta României, ambele cu elemente marcate prin litere și cifre. Lucrul corect cu harta cere metodă. Primul pas este citirea legendei și identificarea a ceea ce reprezintă literele (de obicei state, unități de relief) și cifrele (de obicei orașe, râuri, alte elemente). Al doilea pas este localizarea, pornind de la repere sigure: mări, fluvii mari, capitale. La harta Europei se cer frecvent: state și capitale, unități de relief (Alpi, Carpați, Pirinei, Meseta, câmpii), mări și fluvii (Dunărea, Rinul, Volga), elemente ale Uniunii Europene. La harta României se cer: unități de relief (Carpații și subdiviziunile lor, podișuri, câmpii, Delta), râuri (Mureș, Olt, Siret, Prut), orașe, resurse, elemente climatice. Localizarea repetată pe hărți mute este cea mai eficientă metodă de pregătire — mult mai eficientă decât memorarea pasivă a listelor. Regula de răspuns este exactitatea: dacă se cere „numele statului marcat cu litera A”, se scrie numele statului, nu al capitalei; dacă se cere un râu, se scrie râul, nu orașul de pe el. Greșelile frecvente: confundarea unităților vecine, atribuirea greșită a unei resurse, răspunsul la altă categorie decât cea cerută. Antrenamentul sistematic pe hartă reduce aceste erori și transformă cunoașterea în puncte.",
+     "ideiCheie": [
+      "Subiectul I: harta Europei; subiectul al II-lea: harta României.",
+      "Metodă: se citește legenda, apoi se localizează pornind de la repere sigure.",
+      "Localizarea pe hărți mute este mai eficientă decât memorarea listelor.",
+      "Se răspunde exact la categoria cerută: statul, nu capitala; râul, nu orașul."
+     ],
+     "termeni": [
+      {
+       "t": "hartă mută",
+       "d": "hartă fără denumiri, folosită pentru exersarea localizării"
+      },
+      {
+       "t": "legenda hărții",
+       "d": "explicarea semnelor convenționale folosite pe hartă"
+      },
+      {
+       "t": "reper de localizare",
+       "d": "element sigur (mare, fluviu mare, capitală) de la care se pornește localizarea"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Pe ce se bazează subiectul I și subiectul al II-lea la proba de geografie?",
+       "v": "Subiectul I pe harta Europei, al II-lea pe harta României."
+      },
+      {
+       "f": "Care este primul pas în lucrul cu harta de examen?",
+       "v": "Citirea legendei și identificarea a ceea ce reprezintă literele și cifrele."
+      },
+      {
+       "f": "Care este cea mai eficientă metodă de pregătire cu harta?",
+       "v": "Localizarea repetată pe hărți mute."
+      },
+      {
+       "f": "Ce se scrie dacă se cere „numele statului marcat cu litera A”?",
+       "v": "Numele statului, nu al capitalei."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Subiectul al II-lea al probei de geografie se bazează pe:",
+       "optiuni": [
+        "harta României",
+        "harta Europei",
+        "harta lumii",
+        "un text-suport"
+       ],
+       "corect": 0,
+       "explicatie": "Subiectul I se bazează pe harta Europei."
+      },
+      {
+       "intrebare": "Primul pas în lucrul cu harta de examen este:",
+       "optiuni": [
+        "citirea legendei și identificarea literelor și cifrelor",
+        "calcularea distanțelor",
+        "formularea concluziei",
+        "memorarea coordonatelor"
+       ],
+       "corect": 0,
+       "explicatie": "Fără legendă, harta nu poate fi citită corect."
+      },
+      {
+       "intrebare": "Dacă cerința spune „numele statului marcat cu litera A”, se scrie:",
+       "optiuni": [
+        "numele statului",
+        "numele capitalei",
+        "numele fluviului",
+        "numele regiunii"
+       ],
+       "corect": 0,
+       "explicatie": "Răspunsul trebuie să corespundă exact cerinței."
+      },
+      {
+       "intrebare": "Cea mai eficientă metodă de pregătire cu harta este:",
+       "optiuni": [
+        "localizarea repetată pe hărți mute",
+        "citirea listelor",
+        "memorarea pasivă",
+        "copierea hărților la scară"
+       ],
+       "corect": 0,
+       "explicatie": "Recunoașterea pe hartă este exact ceea ce se cere."
+      }
+     ]
+    },
+    {
+     "id": "geo13-20",
+     "titlu": "Calcule geografice de Bacalaureat, formule și grafice",
+     "rezumat": "La Subiectul al III-lea al probei de Bacalaureat se evaluează aplicarea calculelor matematice geografice și interpretarea reprezentărilor grafice. Pentru a obține punctajul integral, rezolvarea trebuie să conțină: (1) Formula matematică completă; (2) Înlocuirea valorilor numerice din datele problemei; (3) Rezultatul final însoțit obligatoriu de unitatea de măsură corespunzătoare. Formulele fundamentale de calcul geografic la examen: 1. Densitatea populației (D): exprimă numărul mediu de locuitori pe un kilometru pătrat de teritoriu. Formula: D = Populație / Suprafață (rezultatul se dă în loc./km²). Exemplu: pentru o populație de 19 000 000 locuitori și o suprafață de 238 397 km², D = 19 000 000 / 238 397 ≈ 79,7 loc./km². 2. Bilanțul natural (sporul natural) al populației: (a) În valori absolute (SN) reprezintă diferența dintre numărul de născuți vii (N) și numărul de decedați (M) dintr-un an: Formula SN = N - M (persoane); dacă M > N, sporul este negativ (deficit natural); (b) În valori relative / rata sporului natural (sn) se calculează la 1 000 de locuitori: Formula sn = n - m (rezultatul se exprimă în promile, ‰), unde n este rata natalității, iar m rata mortalității. 3. Bilanțul migratoriu (sporul migratoriu — SM): diferența dintre numărul imigranților stabiliți (I) și numărul emigranților plecați (E). Formula: SM = I - E (persoane). 4. Bilanțul total al populației (creșterea sau scăderea totală): Formula: ST = SN + SM (persoane). 5. Amplitudinea termică (At): diferența dintre temperatura maximă (Tmax) și temperatura minimă (Tmin) înregistrate într-o perioadă dată (zilnică sau anuală). Formula: At = Tmax - Tmin (rezultatul se exprimă în grade Celsius, °C). Exemplu: dacă temperatura lunii iulie este de +22°C, iar a lunii ianuarie este de -3°C, At = 22 - (-3) = 22 + 3 = 25°C. 6. Panta sau căderea unui râu: căderea reprezintă diferența de altitudine între izvor și vărsare (C = h1 - h2, în metri), iar panta medie este raportul dintre cădere și lungimea râului (P = C / L, în m/km sau ‰). 7. Interpretarea graficelor: grafice cu bare (pentru comparații directe între state/regiuni), grafice liniare (pentru evoluții temporale pe ani), grafice circulare (pentru structura procentuală din total 100%) și piramide ale vârstelor (pentru structura pe grupe de vârstă și sexe).",
+     "ideiCheie": [
+      "Formula densității: D = P / S, exprimată obligatoriu în loc./km².",
+      "Sporul natural absolut: SN = N − M (născuți minus decedați); rata sporului: sn = n − m (în ‰).",
+      "Bilanțul migratoriu: SM = I − E (imigranți minus emigranți).",
+      "Amplitudinea termică: At = Tmax − Tmin (rezultat în °C). Atenție la scăderea valorilor negative!",
+      "Rezultatul fără unitate de măsură este penalizat conform baremului de corectare."
+     ],
+     "termeni": [
+      {
+       "t": "densitate a populației",
+       "d": "raportul dintre numărul total de locuitori și suprafața teritoriului (loc./km²)"
+      },
+      {
+       "t": "spor natural",
+       "d": "diferența dintre numărul de născuți vii și decedați într-o perioadă dată"
+      },
+      {
+       "t": "bilanț migratoriu",
+       "d": "diferența dintre imigranți și emigranți"
+      },
+      {
+       "t": "amplitudine termică",
+       "d": "diferența matematică dintre temperatura maximă și cea minimă (°C)"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care este formula matematică pentru calculul densității populației?",
+       "v": "D = Populație / Suprafață, exprimată în loc./km²."
+      },
+      {
+       "f": "Cum se calculează corect amplitudinea termică anuală?",
+       "v": "At = Temperatura maximă (iulie) − Temperatura minimă (ianuarie), în °C."
+      },
+      {
+       "f": "Ce este sporul natural negativ (deficitul demografic)?",
+       "v": "Situația în care numărul decedaților este mai mare decât numărul născuților vii (M > N)."
+      },
+      {
+       "f": "De ce este obligatorie unitatea de măsură la examen?",
+       "v": "Pentru că baremul oficial depunctează orice rezultat numeric nesusținut de unitatea specifică (loc./km², °C, ‰)."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Densitatea populației se calculează prin formula:",
+       "optiuni": [
+        "numărul de locuitori împărțit la suprafață (loc./km²)",
+        "suprafața împărțită la numărul de locuitori",
+        "numărul de locuitori înmulțit cu suprafața",
+        "natalitatea minus mortalitatea"
+       ],
+       "corect": 0,
+       "explicatie": "Rezultatul corect se dă obligatoriu în locuitori pe kilometru pătrat (loc./km²)."
+      },
+      {
+       "intrebare": "Dacă temperatura maximă este de +20°C, iar temperatura minimă este de -5°C, amplitudinea termică este:",
+       "optiuni": [
+        "25°C",
+        "15°C",
+        "-25°C",
+        "20°C"
+       ],
+       "corect": 0,
+       "explicatie": "At = 20 − (-5) = 20 + 5 = 25°C."
+      },
+      {
+       "intrebare": "Sporul natural al unei populații reprezintă:",
+       "optiuni": [
+        "diferența dintre natalitate și mortalitate",
+        "diferența dintre imigranți și emigranți",
+        "raportul dintre populație și suprafață",
+        "numărul total de persoane active"
+       ],
+       "corect": 0,
+       "explicatie": "Diferența dintre intrările prin naștere și ieșirile prin deces dă sporul natural."
+      },
+      {
+       "intrebare": "Un rezultat numeric obținut la Bacalaureat fără specificarea unității de măsură:",
+       "optiuni": [
+        "este depunctat conform baremului oficial de corectare",
+        "se punctează integral dacă numărul e corect",
+        "este anulat complet împreună cu tot subiectul",
+        "primește punctaj dublu"
+       ],
+       "corect": 0,
+       "explicatie": "Unitatea de măsură (loc./km², °C, ‰) este cerută explicit în barem."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "teze": [
+  {
+   "semestru": 1,
+   "test": [
+    {
+     "intrebare": "Cea mai mare economie a Europei este:",
+     "optiuni": [
+      "Germania",
+      "Franța",
+      "Italia",
+      "Spania"
+     ],
+     "corect": 0,
+     "explicatie": "Industria auto este una dintre ramurile ei de vârf."
+    },
+    {
+     "intrebare": "Contrastul nord–sud este structural în:",
+     "optiuni": [
+      "Italia",
+      "Germania",
+      "Franța",
+      "Polonia"
+     ],
+     "corect": 0,
+     "explicatie": "Nordul industrializat contrastează cu sudul."
+    },
+    {
+     "intrebare": "România se învecinează cu Republica Moldova peste:",
+     "optiuni": [
+      "râul Prut",
+      "Dunăre",
+      "Tisa",
+      "Nistru"
+     ],
+     "corect": 0,
+     "explicatie": "Legăturile istorice și culturale sunt strânse."
+    },
+    {
+     "intrebare": "Cel mai vechi relief al României se află în:",
+     "optiuni": [
+      "Podișul Dobrogei",
+      "Delta Dunării",
+      "Câmpia Română",
+      "Carpații Meridionali"
+     ],
+     "corect": 0,
+     "explicatie": "Delta este cea mai nouă unitate."
+    },
+    {
+     "intrebare": "Populația României la recensământul din 2021 era de aproximativ:",
+     "optiuni": [
+      "19 milioane",
+      "22 de milioane",
+      "17 milioane",
+      "25 de milioane"
+     ],
+     "corect": 0,
+     "explicatie": "În 1992 erau 22,8 milioane."
+    },
+    {
+     "intrebare": "Retragerea Regatului Unit din Uniunea Europeană (Brexit) a avut loc în:",
+     "optiuni": [
+      "2020",
+      "2007",
+      "2015",
+      "2004"
+     ],
+     "corect": 0,
+     "explicatie": "Uniunea are, de atunci, 27 de state membre."
+    },
+    {
+     "intrebare": "Fiordurile sunt specifice mai ales:",
+     "optiuni": [
+      "Norvegiei",
+      "Islandei",
+      "Finlandei",
+      "Danemarcei"
+     ],
+     "corect": 0,
+     "explicatie": "Ele s-au format în văi glaciare invadate de mare."
+    },
+    {
+     "intrebare": "Islanda valorifică pe scară largă energia:",
+     "optiuni": [
+      "geotermală",
+      "nucleară",
+      "eoliană offshore",
+      "din cărbune"
+     ],
+     "corect": 0,
+     "explicatie": "Activitatea vulcanică oferă acest avantaj."
+    },
+    {
+     "intrebare": "Cel mai lung fluviu al Europei este:",
+     "optiuni": [
+      "Volga",
+      "Dunărea",
+      "Rinul",
+      "Tamisa"
+     ],
+     "corect": 0,
+     "explicatie": "Se varsă în Marea Caspică."
+    },
+    {
+     "intrebare": "Munții hercinici sunt:",
+     "optiuni": [
+      "munți vechi, tociți de eroziune",
+      "munți tineri",
+      "munți vulcanici",
+      "munți de blocuri"
+     ],
+     "corect": 0,
+     "explicatie": "Alpii și Carpații aparțin orogenezei alpine."
+    },
+    {
+     "intrebare": "Cernoziomurile fertile din Europa Estică se află mai ales în:",
+     "optiuni": [
+      "Ucraina și sudul Rusiei europene",
+      "Finlanda",
+      "Belarus de nord",
+      "statele baltice"
+     ],
+     "corect": 0,
+     "explicatie": "Ele susțin o mare producție de cereale."
+    },
+    {
+     "intrebare": "România se află la intersecția:",
+     "optiuni": [
+      "Carpaților, Dunării și Mării Negre",
+      "Alpilor, Rinului și Mediteranei",
+      "Balcanilor, Volgăi și Mării Negre",
+      "Uralilor, Dunării și Balticii"
+     ],
+     "corect": 0,
+     "explicatie": "Această poziție îi dă avantaje și vulnerabilități."
+    },
+    {
+     "intrebare": "Cea mai mare suprafață dintre statele Uniunii Europene o are:",
+     "optiuni": [
+      "Franța",
+      "Germania",
+      "Spania",
+      "Polonia"
+     ],
+     "corect": 0,
+     "explicatie": "Franța include și teritoriile de peste mări."
+    },
+    {
+     "intrebare": "Cel mai înalt vârf din Munții Alpi este:",
+     "optiuni": [
+      "Mont Blanc",
+      "vârful Elbrus",
+      "vârful Mulhacén",
+      "vârful Gerlachovský"
+     ],
+     "corect": 0,
+     "explicatie": "Situat la granița Franței cu Italia."
+    },
+    {
+     "intrebare": "Spania este organizată administrativ în:",
+     "optiuni": [
+      "comunități autonome",
+      "landuri",
+      "departamente",
+      "voievodate"
+     ],
+     "corect": 0,
+     "explicatie": "Germania are landuri, Polonia, voievodate."
+    },
+    {
+     "intrebare": "Franța se bazează, pentru energia electrică, mai ales pe:",
+     "optiuni": [
+      "energia nucleară",
+      "cărbune",
+      "energie eoliană",
+      "hidroenergie"
+     ],
+     "corect": 0,
+     "explicatie": "Este una dintre cele mai nuclearizate economii din lume."
+    },
+    {
+     "intrebare": "Rețeaua Natura 2000 acoperă în România aproximativ:",
+     "optiuni": [
+      "23% din teritoriu",
+      "5%",
+      "40%",
+      "12%"
+     ],
+     "corect": 0,
+     "explicatie": "Este una dintre cele mai mari ponderi din Uniune."
+    },
+    {
+     "intrebare": "Pactul Ecologic European fixează neutralitatea climatică până în:",
+     "optiuni": [
+      "2050",
+      "2030",
+      "2040",
+      "2070"
+     ],
+     "corect": 0,
+     "explicatie": "Etapa intermediară vizează reducerea emisiilor până în 2030."
+    }
+   ]
+  },
+  {
+   "semestru": 2,
+   "test": [
+    {
+     "intrebare": "Uniunea Europeană a fost creată prin Tratatul de la:",
+     "optiuni": [
+      "Maastricht (1992)",
+      "Roma (1957)",
+      "Lisabona (2007)",
+      "Nisa (2001)"
+     ],
+     "corect": 0,
+     "explicatie": "El a pregătit și moneda unică."
+    },
+    {
+     "intrebare": "Pragul de înlocuire a generațiilor este de aproximativ:",
+     "optiuni": [
+      "2,1 copii pe femeie",
+      "1 copil pe femeie",
+      "3,5 copii pe femeie",
+      "5 copii pe femeie"
+     ],
+     "corect": 0,
+     "explicatie": "Sub el, populația scade pe termen lung."
+    },
+    {
+     "intrebare": "Acordul de la Paris privind clima a fost adoptat în:",
+     "optiuni": [
+      "2015",
+      "1992",
+      "1997",
+      "2009"
+     ],
+     "corect": 0,
+     "explicatie": "Protocolul de la Kyoto datează din 1997."
+    },
+    {
+     "intrebare": "Într-un studiu de caz, partea cea mai valoroasă este:",
+     "optiuni": [
+      "explicația diferențelor prin factori",
+      "enumerarea datelor",
+      "descrierea generală",
+      "lista criteriilor"
+     ],
+     "corect": 0,
+     "explicatie": "Explicația arată relația cauză–efect."
+    },
+    {
+     "intrebare": "Subiectul al II-lea al probei de geografie se bazează pe:",
+     "optiuni": [
+      "harta României",
+      "harta Europei",
+      "harta lumii",
+      "un grafic"
+     ],
+     "corect": 0,
+     "explicatie": "Subiectul I se bazează pe harta Europei."
+    },
+    {
+     "intrebare": "Densitatea populației se calculează:",
+     "optiuni": [
+      "împărțind numărul de locuitori la suprafață",
+      "împărțind suprafața la populație",
+      "înmulțind populația cu suprafața",
+      "scăzând mortalitatea din natalitate"
+     ],
+     "corect": 0,
+     "explicatie": "Rezultatul se exprimă în locuitori pe km²."
+    },
+    {
+     "intrebare": "O comparație geografică corectă cere:",
+     "optiuni": [
+      "criterii explicite, aceleași pentru toate elementele",
+      "descrieri paralele",
+      "cât mai multe date",
+      "exclusiv asemănări"
+     ],
+     "corect": 0,
+     "explicatie": "Fără criterii comune, comparația devine enumerare."
+    },
+    {
+     "intrebare": "Compararea populației totale a două state de suprafețe foarte diferite:",
+     "optiuni": [
+      "cere raportarea la suprafață",
+      "este întotdeauna corectă",
+      "nu are sens",
+      "se face doar între vecini"
+     ],
+     "corect": 0,
+     "explicatie": "Densitatea este indicatorul relativ potrivit."
+    },
+    {
+     "intrebare": "Concluzia unei comparații trebuie să:",
+     "optiuni": [
+      "explice diferențele prin factori concreți",
+      "repete datele",
+      "enumere criteriile",
+      "prezinte doar deosebirile"
+     ],
+     "corect": 0,
+     "explicatie": "Explicația este partea cea mai valoroasă."
+    },
+    {
+     "intrebare": "Subiectul I al probei de geografie se bazează pe:",
+     "optiuni": [
+      "harta Europei",
+      "harta României",
+      "harta lumii",
+      "un grafic"
+     ],
+     "corect": 0,
+     "explicatie": "Subiectul al II-lea se bazează pe harta României."
+    },
+    {
+     "intrebare": "Dacă cerința solicită „numele statului marcat cu litera A”, se scrie:",
+     "optiuni": [
+      "numele statului",
+      "numele capitalei",
+      "numele regiunii",
+      "numele fluviului principal"
+     ],
+     "corect": 0,
+     "explicatie": "Răspunsul trebuie să corespundă exact cerinței."
+    },
+    {
+     "intrebare": "Harta mută este folosită pentru:",
+     "optiuni": [
+      "exersarea localizării active",
+      "măsurarea distanțelor",
+      "calcularea suprafețelor",
+      "reprezentarea reliefului"
+     ],
+     "corect": 0,
+     "explicatie": "Ea antrenează exact competența cerută la examen."
+    },
+    {
+     "intrebare": "Graficul liniar este potrivit pentru a reprezenta:",
+     "optiuni": [
+      "evoluția în timp",
+      "structura procentuală",
+      "comparația între categorii",
+      "densitatea"
+     ],
+     "corect": 0,
+     "explicatie": "Graficul circular arată structura procentuală."
+    },
+    {
+     "intrebare": "O valoare absolută poate crește, iar ponderea ei să scadă, dacă:",
+     "optiuni": [
+      "întregul crește mai repede",
+      "valoarea scade",
+      "întregul e constant",
+      "ponderea e fixă"
+     ],
+     "corect": 0,
+     "explicatie": "Este o capcană frecventă în interpretarea datelor."
+    },
+    {
+     "intrebare": "Bilanțul natural al populației reprezintă:",
+     "optiuni": [
+      "diferența dintre natalitate și mortalitate",
+      "suma imigranților sosiți",
+      "numărul total de locuitori",
+      "densitatea pe kilometru pătrat"
+     ],
+     "corect": 0,
+     "explicatie": "Poate fi pozitiv sau negativ."
+    },
+    {
+     "intrebare": "Un rezultat corect, dar fără unitate de măsură:",
+     "optiuni": [
+      "pierde puncte",
+      "primește punctajul integral",
+      "este anulat",
+      "se punctează suplimentar"
+     ],
+     "corect": 0,
+     "explicatie": "Unitatea face parte din răspuns."
+    },
+    {
+     "intrebare": "La cerința „precizați două unități de relief”, un singur răspuns:",
+     "optiuni": [
+      "primește doar jumătate din punctaj",
+      "primește punctajul integral",
+      "este anulat complet",
+      "se punctează suplimentar"
+     ],
+     "corect": 0,
+     "explicatie": "Numărul cerut trebuie respectat."
+    },
+    {
+     "intrebare": "Majoritatea punctelor pierdute la geografie se datorează:",
+     "optiuni": [
+      "nerespectării cerinței",
+      "necunoașterii materiei",
+      "lipsei de timp",
+      "scrisului ilizibil"
+     ],
+     "corect": 0,
+     "explicatie": "De aceea se subliniază verbul și numărul de elemente cerute."
+    }
+   ]
+  }
+ ]
+}

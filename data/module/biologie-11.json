@@ -1,0 +1,1162 @@
+{
+ "id": "biologie-11",
+ "materie": "Biologie",
+ "clasa": "a XI-a",
+ "an": 3,
+ "arie": "Matematică și științe ale naturii",
+ "bac": true,
+ "descriere": "Anatomia și fiziologia omului pentru bacalaureat: sistemul nervos, analizatorii, glandele endocrine, sistemul locomotor, digestia, respirația, circulația, excreția și reproducerea.",
+ "capitole": [
+  {
+   "id": "bio11-c1",
+   "titlu": "Sistemul nervos și analizatorii",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "bio11-01",
+     "titlu": "Sistemul nervos: organizare și reflexe",
+     "rezumat": "Sistemul nervos coordonează activitatea tuturor organelor și adaptează organismul la variațiile mediului. Unitatea structurală și funcțională este neuronul, celulă specializată cu corp celular, dendrite receptoare și un axon eferent protejat adesea de o teacă de mielină. Conducerea impulsului este saltatorie în fibrele mielinizate și continuă în cele amielinice. Transmiterea informației la nivelul sinapselor se realizează unidirecțional prin eliberarea mediatorilor chimici din veziculele presinaptice în fanta sinaptică. Măduva spinării și encefalul formează sistemul nervos central, în timp ce nervii și ganglionii constituie sistemul nervos periferic. Arcul reflex reprezintă substratul anatomic al actului reflex și cuprinde receptorul, calea aferentă senzitivă, centrul nervos reflex, calea eferentă motorie și efectorul (mușchi sau glandă). Reflexele medulare somatice pot fi monosinaptice (miotatice, precum reflexul rotulian) sau polisinaptice (reflexele nociceptive de flexie).",
+     "ideiCheie": [
+      "Neuronul este unitatea morfo-funcțională a sistemului nervos, adaptat recepționării și transmiterii influxului.",
+      "Sinapsa asigură conducerea unidirecțională a impulsului nervos prin mediatori chimici.",
+      "Arcul reflex are cinci componente: receptor, cale aferentă, centru reflex, cale eferentă și efector.",
+      "Reflexele monosinaptice au două elemente neuronale, fără neuroni de asociație."
+     ],
+     "termeni": [
+      {
+       "t": "neuron",
+       "d": "celulă nervoasă înalt specializată în generarea și conducerea impulsurilor nervoase"
+      },
+      {
+       "t": "arc reflex",
+       "d": "substratul anatomic al actului reflex, format din receptor, căi nervoase, centru și efector"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt componentele fundamentale ale neuronului?",
+       "v": "Corpul celular (pericarionul), prelungirile celulare (dendritele și axonul)."
+      },
+      {
+       "f": "Ce este arcul reflex?",
+       "v": "Baza anatomică a actului reflex, compusă din receptor, neuron senzitiv, centru nervos, neuron motor și efector."
+      },
+      {
+       "f": "Cum se transmite impulsul nervos într-o fibră mielinizată?",
+       "v": "Saltatoriu, de la un nod Ranvier la altul, cu viteză mare."
+      },
+      {
+       "f": "Ce deosebește un reflex monosinaptic de unul polisinaptic?",
+       "v": "Reflexul monosinaptic nu are interneuroni (neuroni de asociație), având o singură sinapsă centrală."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Transmiterea impulsului nervos la nivelul sinapsei chimice este:",
+       "optiuni": [
+        "unidirecțională, de la zona presinaptică la cea postsinaptică",
+        "bidirecțională, în funcție de concentrația de ioni",
+        "exclusiv electrică, fără mediatori",
+        "inversă, de la dendrite la axon"
+       ],
+       "corect": 0,
+       "explicatie": "Mediatorul chimic se eliberează doar din terminația presinaptică."
+      },
+      {
+       "intrebare": "Centrul reflexului rotulian se află în:",
+       "optiuni": [
+        "substanța cenușie a măduvei spinării",
+        "scoarța cerebrală",
+        "cerebel",
+        "trunchiul cerebral"
+       ],
+       "corect": 0,
+       "explicatie": "Este un reflex miotatic medular monosinaptic."
+      },
+      {
+       "intrebare": "Arcul reflex somatic are ca efector:",
+       "optiuni": [
+        "mușchiul scheletic striat",
+        "miocardul",
+        "glandele endocrine",
+        "mușchiul neted visceral"
+       ],
+       "corect": 0,
+       "explicatie": "Reflexele somatice controlează motricitatea voluntară și postura."
+      },
+      {
+       "intrebare": "Teaca de mielină din sistemul nervos periferic este produsă de:",
+       "optiuni": [
+        "celulele Schwann",
+        "oligodendrocite",
+        "astrocite",
+        "microglia"
+       ],
+       "corect": 0,
+       "explicatie": "În sistemul nervos central mielina este formată de oligodendrocite."
+      }
+     ]
+    },
+    {
+     "id": "bio11-02",
+     "titlu": "Encefalul și măduva spinării",
+     "rezumat": "Măduva spinării prezintă la interior substanță cenușie dispusă în formă de fluture sau litera H, alcătuită din corpi neuronali, și la exterior substanță albă formată din căi ascendente ale sensibilității, căi descendente ale motricității și căi de asociație. Coarnele anterioare conțin neuroni motori, cele posterioare neuroni senzitivi, iar coarnele laterale neuroni vegetativi simpatici. Căile ascendente conduc sensibilitatea exteroceptivă, proprioceptivă și interoceptivă spre etajele superioare. Encefalul cuprinde trunchiul cerebral (bulb, punte, mezencefal), cerebelul, diencefalul (talamus, hipotalamus, metatalamus, epitalamus) și emisferele cerebrale. Trunchiul cerebral adăpostește originea a zece din cele douăsprezece perechi de nervi cranieni și centri vitali cardiovasculari și respiratori. Cerebelul asigură menținerea echilibrului, tonusului muscular și coordonarea mișcărilor fine. Scoarța cerebrală reprezintă etajul superior de integrare neuropsihică, cu arii senzitive, motorii și de asociație.",
+     "ideiCheie": [
+      "Măduva spinării are substanță cenușie la interior și substanță albă organizată în cordoane la exterior.",
+      "Trunchiul cerebral controlează reflexe vitale (respiratorii, cardiovasculare) și reflexe vegetative de apărare.",
+      "Cerebelul reglează echilibrul static și dinamic și coordonează mișcările comandate de cortex.",
+      "Emisferele cerebrale dețin centrii gândirii conștiente, memoriei, vorbirii și activității motorii voluntare."
+     ],
+     "termeni": [
+      {
+       "t": "diencefal",
+       "d": "regiune a creierului formată din talamus, hipotalamus, epitalamus și metatalamus"
+      },
+      {
+       "t": "cerebel",
+       "d": "organ situat în fosa posterioară a craniului, implicat în reglarea tonusului și coordonarea motorie"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Unde se află neuronii motori în măduva spinării?",
+       "v": "În coarnele anterioare ale substanței cenușii."
+      },
+      {
+       "f": "Ce rol are cerebelul?",
+       "v": "Menținerea echilibrului și coordonarea mișcărilor voluntare fine."
+      },
+      {
+       "f": "Care sunt cele trei etaje ale trunchiului cerebral?",
+       "v": "Bulbul rahidian, puntea lui Varolio și mezencefalul."
+      },
+      {
+       "f": "Ce funcție principală îndeplinește hipotalamusul?",
+       "v": "Centru superior de integrare vegetativă, control al temperaturii, setei, foamei și glandelor endocrine."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Coarnele posterioare ale măduvei spinării conțin:",
+       "optiuni": [
+        "neuroni senzitivi care primesc informații de la periferie",
+        "neuroni motori somatici",
+        "neuroni vegetativi simpatici preganglionari",
+        "celule ependimare exclusiv"
+       ],
+       "corect": 0,
+       "explicatie": "Coarnele posterioare primesc fibrele centripete aduse de rădăcina posterioară."
+      },
+      {
+       "intrebare": "Lezarea gravă a cerebelului determină:",
+       "optiuni": [
+        "ataxie, hipotonie și pierderea coordonării mișcărilor",
+        "pierderea vederii",
+        "stop respirator imediat",
+        "pierderea totală a sensibilității dureroase"
+       ],
+       "corect": 0,
+       "explicatie": "Sindromul cerebelos afectează echilibrul și fluența motorie."
+      },
+      {
+       "intrebare": "În mezencefal se găsesc:",
+       "optiuni": [
+        "coliculii cvadrigemeni și nucleii roșii",
+        "centrii reflexului de deglutiție",
+        "oliva bulbară",
+        "hipofiza"
+       ],
+       "corect": 0,
+       "explicatie": "Coliculii cvadrigemeni participă la reflexele de orientare vizuală și auditivă."
+      },
+      {
+       "intrebare": "Căile piramidale conduc impulsuri pentru motricitatea:",
+       "optiuni": [
+        "voluntară, conștientă",
+        "automată și involuntară",
+        "exclusiv viscerală vegetativă",
+        "reflexă nociceptivă simplă"
+       ],
+       "corect": 0,
+       "explicatie": "Fasciculele cortico-spinale pleacă din cortexul motor frontal."
+      }
+     ]
+    },
+    {
+     "id": "bio11-03",
+     "titlu": "Sistemul nervos vegetativ",
+     "rezumat": "Sistemul nervos vegetativ coordonează activitatea organelor interne, a vaselor sanguine și a glandelor, reglând homeostazia în mod autonom, independent de controlul voluntar direct. El este alcătuit din două componente anatomice și funcționale antagoniste: sistemul nervos simpatic și sistemul nervos parasimpatic. La nivel sinaptic periferic, simpaticul folosește noradrenalina ca mediator postganglionar, în timp ce parasimpaticul folosește acetilcolina. Sistemul simpatic intervine predominant în situații de stres, alertă sau efort fizic intens (reacția de „luptă sau fugă”), producând midriază, bronhodilatație, tahicardie, vasoconstricție periferică cu creșterea tensiunii arteriale și inhibarea motilității gastro-intestinale. Sistemul parasimpatic acționează în stări de repaus și digestie, determinând mioză, bronhoconstricție, bradicardie, stimularea secrețiilor glandulare digestive și a motilității tractului digestiv.",
+     "ideiCheie": [
+      "Sistemul nervos vegetativ reglează activitatea viscerelor și vaselor, menținând homeostazia.",
+      "Componenta simpatică pregătește organismul pentru efort și apărare (catabolism).",
+      "Componenta parasimpatică favorizează refacerea rezervelor energetice și digestia (anabolism).",
+      "Majoritatea organelor interne primesc inervație vegetativă dublă și antagonistă."
+     ],
+     "termeni": [
+      {
+       "t": "sistem nervos simpatic",
+       "d": "componentă vegetativă ce activează organismul în condiții de efort și stres"
+      },
+      {
+       "t": "mioză",
+       "d": "micșorarea diametrului pupilei, comandată de sistemul parasimpatic"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce mediator chimic este eliberat de fibrele simpatice postganglionare?",
+       "v": "Noradrenalina (norepinefrina)."
+      },
+      {
+       "f": "Ce efect are stimularea simpatică asupra inimii?",
+       "v": "Crește frecvența cardiacă (tahicardie) și forța de contracție a miocardului."
+      },
+      {
+       "f": "Care este acțiunea parasimpaticului asupra pupilei?",
+       "v": "Produce mioză (îngustarea pupilei)."
+      },
+      {
+       "f": "Unde se află centrii nervoși parasimpatici?",
+       "v": "În trunchiul cerebral (nucleii nervilor cranieni III, VII, IX, X) și în măduva sacrată (S2-S4)."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Stimularea sistemului nervos simpatic determină:",
+       "optiuni": [
+        "bronhodilatație și accelerarea ritmului cardiac",
+        "bronhoconstricție și bradicardie",
+        "stimularea peristaltismului intestinal",
+        "contracția vezicii urinare"
+       ],
+       "corect": 0,
+       "explicatie": "Asigură aportul crescut de oxigen în efort."
+      },
+      {
+       "intrebare": "Sistemul parasimpatic sacrat controlează:",
+       "optiuni": [
+        "micțiunea, defecația și activitatea organelor erectile",
+        "ritmul cardiac bazal",
+        "secreția salivară",
+        "reflexul pupilar fotomotor"
+       ],
+       "corect": 0,
+       "explicatie": "Centrii sacrați inervează organele pelviene."
+      },
+      {
+       "intrebare": "Pupila se dilată (midriază) sub influența:",
+       "optiuni": [
+        "sistemului nervos simpatic",
+        "sistemului nervos parasimpatic",
+        "nervului oculomotor prin fibre parasimpatice",
+        "hipotalamusului anterior"
+       ],
+       "corect": 0,
+       "explicatie": "Midriaza mărește câmpul vizual în condiții de alertă sau lumină slabă."
+      },
+      {
+       "intrebare": "Centrul parasimpatic al nervului vag (X) inervează:",
+       "optiuni": [
+        "inima, plămânii și tubul digestiv până la colonul stâng",
+        "musculatura gambei",
+        "glandele sudoripare din piele",
+        "mușchii extensori ai coloanei"
+       ],
+       "corect": 0,
+       "explicatie": "Nervul vag este principalul nerv parasimpatic al viscerelor toraco-abdominale."
+      }
+     ]
+    },
+    {
+     "id": "bio11-04",
+     "titlu": "Analizatorii: văzul și auzul",
+     "rezumat": "Analizatorul este un sistem morfofuncțional complex care recepționează, conduce și transformă stimulii specifici din mediu în senzații conștiente. Fiecare analizator cuprinde un segment periferic (receptorul), un segment intermediar (calea de conducere) și un segment central (aria corticală de proiecție). Analizatorul vizual are receptorii în retină: celulele cu conuri asigură vederea diurnă cromatică, iar celulele cu bastonașe vederea nocturnă alb-negru. Segmentul central se proiectează în lobul occipital. Analizatorul auditiv are receptorii în melcul membranos din urechea internă, la nivelul organului Corti, unde celulele auditive ciliate transformă vibrațiile endolimfei în potențiale de acțiune. Calea auditivă ajunge în lobul temporal al scoarței cerebrale. În urechea internă se găsește și receptorul analizatorului vestibular (maculele otolitice și crestele ampulare), responsabil de detectarea poziției capului și a mișcărilor de rotație și accelerație liniară.",
+     "ideiCheie": [
+      "Analizatorul are trei segmente: periferic (receptor), de conducere (cale senzitivă) și central (cortex).",
+      "Celulele cu conuri din retină detectează culorile, iar celulele cu bastonașe lumina slabă.",
+      "Organul Corti conține celulele receptoare auditive și se află în canalul cohlear.",
+      "Segmentul vestibular informează creierul asupra poziției și accelerației capului în spațiu."
+     ],
+     "termeni": [
+      {
+       "t": "organul Corti",
+       "d": "receptorul acustic situat pe membrana bazilară din urechea internă"
+      },
+      {
+       "t": "fovea centralis",
+       "d": "zona de acuitate vizuală maximă de pe retină, conținând doar celule cu conuri"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Unde se află receptorii pentru auz?",
+       "v": "În urechea internă, în organul Corti din cohlee."
+      },
+      {
+       "f": "Ce rol au celulele cu bastonașe din retină?",
+       "v": "Recepționează lumina crepusculară și contururile, fără aprecierea culorilor."
+      },
+      {
+       "f": "În ce lob cerebral se proiectează impulsurile vizuale?",
+       "v": "În lobul occipital, în jurul scizurii calcarine."
+      },
+      {
+       "f": "Ce structuri vestibulare detectează accelerațiile liniare?",
+       "v": "Maculele utriculare și saculare cu otolite."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Zona cu cea mai mare densitate de celule cu conuri și acuitate maximă este:",
+       "optiuni": [
+        "pata galbenă (fovea centralis)",
+        "pata oarbă",
+        "ora serrata",
+        "coroida"
+       ],
+       "corect": 0,
+       "explicatie": "La nivelul foveei se formează imaginea cea mai clară."
+      },
+      {
+       "intrebare": "Pata oarbă a retinei se caracterizează prin:",
+       "optiuni": [
+        "absența totală a fotoreceptorilor",
+        "aglomerare exclusivă de conuri",
+        "abundență de bastonașe",
+        "vascularizație capilară intensă"
+       ],
+       "corect": 0,
+       "explicatie": "Reprezintă locul de emergență al nervului optic."
+      },
+      {
+       "intrebare": "Receptorii pentru mișcările de rotație ale capului sunt situați în:",
+       "optiuni": [
+        "crestele ampulare de la baza canalelor semicirculare",
+        "organul Corti",
+        "utriculă și saculă",
+        "timpan"
+       ],
+       "corect": 0,
+       "explicatie": "Cilii celulelor senzoriale sunt mișcați de deplasarea endolimfei la rotație."
+      },
+      {
+       "intrebare": "Sunetele de frecvență înaltă (acute) stimulează receptorii situați:",
+       "optiuni": [
+        "la baza melcului membranos",
+        "la vârful (apexul) melcului membranos",
+        "în ciocănel și nicovală",
+        "pe membrana timpanului exclusiv"
+       ],
+       "corect": 0,
+       "explicatie": "Membrana bazilară este mai îngustă și mai rigidă la bază."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bio11-c2",
+   "titlu": "Sistemul endocrin și locomotor",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "bio11-05",
+     "titlu": "Glandele endocrine și reglarea hormonală",
+     "rezumat": "Glandele endocrine secretă hormoni direct în fluxul sanguin, asigurând reglarea umorală pe termen mediu și lung a proceselor metabolice, de creștere și reproducere. Hipofiza, situată la baza creierului, este denumită glanda coordonatoare: adenohipofiza secretă hormonul de creștere (STH) și hormoni tropi (TSH, ACTH, FSH, LH), iar neurohipofiza depozitează ocitocina și vasopresina (ADH) produse în hipotalamus. Dereglările STH determină gigantism sau nanism hipofizar la copil și acromegalie la adult. Tiroida sintetizează tiroxina și triiodotironina, dependente de iod, care intensifică metabolismul bazal și dezvoltarea sistemului nervos. Hipotiroidismul la copil provoacă cretinism gușogen, iar la adult mixedem; hipertiroidismul determină boala Basedow-Graves. Suprarenalele secretă în corticală glucocorticoizi (cortizol), mineralocorticoizi (aldosteron) și hormoni sexosteroizi, iar în medulară catecolamine (adrenalină și noradrenalină). Pancreasul endocrin secretă insulina hipoglicemiantă și glucagonul hiperglicemiant.",
+     "ideiCheie": [
+      "Hormonii sunt mesageri chimici transportați de sânge spre celulele-țintă specifice.",
+      "Hipofiza controlează activitatea altor glande endocrine prin hormonii glandulotropi.",
+      "Hormonii tiroidieni stimulează schimburile nutritive, respirația celulară și diferențierea neuronală.",
+      "Insulina scade glicemia facilitând pătrunderea glucozei în celule și stocarea în glicogen."
+     ],
+     "termeni": [
+      {
+       "t": "hormon",
+       "d": "substanță bioactivă secretată intern, cu acțiune la distanță asupra organelor receptoare"
+      },
+      {
+       "t": "insulină",
+       "d": "hormon pancreatic cu acțiune hipoglicemiantă majoră"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce efect are hormonul de creștere (STH) la adult când este secretat în exces?",
+       "v": "Provoacă acromegalie (dezvoltarea exagerată a extremităților și oaselor feței)."
+      },
+      {
+       "f": "Ce hormon secretă celulele beta din insulele Langerhans pancreatice?",
+       "v": "Insulina."
+      },
+      {
+       "f": "Ce rol are hormonul antidiuretic (ADH / vasopresina)?",
+       "v": "Stimulează reabsorbția apei la nivelul tubilor renali, micșorând volumul urinei."
+      },
+      {
+       "f": "Ce boală determină hipertiroidismul asociat cu exoftalmie?",
+       "v": "Boala Basedow-Graves."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Insulina scade glicemia prin stimularea:",
+       "optiuni": [
+        "glicogenogenezei hepatice și musculare",
+        "glicogenolizei în ficat",
+        "gluconeogenezei din proteine",
+        "degradării lipidelor în acizi grași"
+       ],
+       "corect": 0,
+       "explicatie": "Favorizează stocarea surplusului de glucoză."
+      },
+      {
+       "intrebare": "Hiposecreția de STH în perioada copilăriei determină:",
+       "optiuni": [
+        "nanism hipofizar (dezvoltare armonioasă, intelect normal)",
+        "cretinism endemic cu deficit mental",
+        "gigantism cu alungirea membrelor",
+        "boala Addison"
+       ],
+       "corect": 0,
+       "explicatie": "Statura este redusă, dar proporțiile corporale și mintea sunt normale."
+      },
+      {
+       "intrebare": "Aldosteronul secretat de corticosuprarenală produce:",
+       "optiuni": [
+        "retenție de sodiu și apă și eliminare de potasiu în urină",
+        "eliminare crescută de sodiu prin rinichi",
+        "scăderea tensiunii arteriale",
+        "scăderea volumului plasmatic"
+       ],
+       "corect": 0,
+       "explicatie": "Menține echilibrul hidroelectrolitic și presiunea sângelui."
+      },
+      {
+       "intrebare": "Medulosuprarenala este stimulată direct de:",
+       "optiuni": [
+        "sistemul nervos simpatic preganglionar",
+        "hormonul adenohipofizar ACTH",
+        "nivelul calciului plasmatic",
+        "glanda paratiroidă"
+       ],
+       "corect": 0,
+       "explicatie": "Secreția de adrenalină răspunde fulgerător la stările de primejdie."
+      }
+     ]
+    },
+    {
+     "id": "bio11-06",
+     "titlu": "Sistemul osos și muscular",
+     "rezumat": "Sistemul osteoarticular asigură suportul mecanic, postura, protecția organelor interne și rezerva de calciu și fosfor a organismului. Scheletul omului cuprinde oasele capului (neurocraniu și viscerocraniu), ale trunchiului (coloana vertebrală, coaste, stern) și ale membrelor superioare și inferioare legate prin centuri. Articulațiile mobile (diartroze) au cartilaj articular, capsulă, ligamente și lichid sinovial cu rol lubrifiant, amortizând frecarea și socurile mecanice. Sistemul muscular conține peste 600 de mușchi scheletici voluntari, vascularizați și inervați abundent. Unitatea funcțională a fibrei musculare striate este sarcomerul, delimitat de două membrane Z și alcătuit din miofilamente de actină și miozină. Contracția musculară se explică prin teoria glisării: în prezența calciului eliberat din reticulul sarcoplasmatic și a energiei furnizate de ATP, miofilamentele subțiri de actină glisează printre filamentele groase de miozină, scurtând sarcomerul.",
+     "ideiCheie": [
+      "Scheletul uman are rol structural, de protecție a viscerelor și de pârghie mecanică.",
+      "Sarcomerul este unitatea morfofuncțională a aparatului contractil din fibra striată.",
+      "Contracția implică glisarea filamentelor de actină printre cele de miozină cu consum de ATP și ioni de calciu.",
+      "Proprietățile fundamentale ale mușchiului sunt excitabilitatea, contractilitatea, elasticitatea și tonusul."
+     ],
+     "termeni": [
+      {
+       "t": "sarcomer",
+       "d": "segment muscular contractil cuprins între două linii Z succesive"
+      },
+      {
+       "t": "tonus muscular",
+       "d": "starea de contracție ușoară și permanentă a mușchilor scheletici în repaus"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce element delimitează extremitățile unui sarcomer?",
+       "v": "Două linii (membrane) Z vecine."
+      },
+      {
+       "f": "Ce ioni declanșează cuplarea dintre actină și miozină în contracție?",
+       "v": "Ionii de calciu eliberați din reticulul sarcoplasmatic."
+      },
+      {
+       "f": "Care sunt oasele care alcătuiesc centura scapulară?",
+       "v": "Clavicula și omoplatul (scapula)."
+      },
+      {
+       "f": "Ce pârghii biologice formează oasele în mișcare?",
+       "v": "Pârghii de gradul I, II și III acționate de forța musculară."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "În timpul contracției musculare striate:",
+       "optiuni": [
+        "filamentele de actină glisează printre cele de miozină, scurtând sarcomerul",
+        "filamentele de miozină se contractă și își reduc lungimea",
+        "liniile Z se îndepărtează una de cealaltă",
+        "banda A întunecată se reduce la zero"
+       ],
+       "corect": 0,
+       "explicatie": "Lungimea filamentelor individuale rămâne constantă."
+      },
+      {
+       "intrebare": "Cutia toracică la om este alcătuită din:",
+       "optiuni": [
+        "coloana toracală, 12 perechi de coaste și stern",
+        "clavicule, omoplați și stern",
+        "bazin, sacrum și coaste",
+        "vertebre lombare și coaste flotante"
+       ],
+       "corect": 0,
+       "explicatie": "Protejează inima, plămânii și marile vase."
+      },
+      {
+       "intrebare": "Mușchiul scheletic manifestă proprietatea de contractilitate prin:",
+       "optiuni": [
+        "dezvoltarea unei forțe și scurtare sau creșterea tensiunii interne",
+        "conducerea unidirecțională a luminii",
+        "secreția de hormoni în sânge",
+        "sinteza de os prin osteoblaste"
+       ],
+       "corect": 0,
+       "explicatie": "Răspunde la stimulul nervos prin scurtare mecanică."
+      },
+      {
+       "intrebare": "Lichidul sinovial dintr-o articulație mobilă are rolul de a:",
+       "optiuni": [
+        "lubrifia suprafețele articulare și a reduce frecarea",
+        "calcifica articulația pentru rigiditate",
+        "produce celule sanguine",
+        "conduce impulsuri electrice"
+       ],
+       "corect": 0,
+       "explicatie": "Hrănește cartilajul articular avascular."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bio11-c3",
+   "titlu": "Funcțiile de nutriție: digestia și circulația",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "bio11-07",
+     "titlu": "Digestia și absorbția intestinală",
+     "rezumat": "Digestia reprezintă ansamblul transformărilor mecanice, fizice și biochimice prin care alimentele sunt descompuse în compuși simpli, absorbabili (nutrienți). În cavitatea bucală, dinții mărunțesc hrana, iar amilaza salivară începe hidroliza amidonului preparat. În stomac, sucul gastric conține acid clorhidric (care activează enzimele și distruge bacteriile) și pepsină, enzimă proteolitică ce descompune proteinele în fragmente polipeptidice mai mici. În duoden se varsă bila ficatului și sucul pancreatic. Bila nu conține enzime, dar sărurile biliare emulsionează lipidele, crescând suprafața de contact pentru lipaza pancreatică. Sucul pancreatic și cel intestinal finalizează digestia glucidelor la monozaharide, a proteinelor la aminoacizi și a lipidelor la glicerol și acizi grași. Absorbția nutrienților se desfășoară masiv la nivelul vilozităților intestinului subțire, care măresc enorm suprafața mucoasei. Glucidele și aminoacizii trec în capilarele sanguine spre vena portă, iar chilomicronii lipidici în vasele chilifere limfatice.",
+     "ideiCheie": [
+      "Digestia chimică presupune hidroliza enzimatică a macronutrienților în molecule simple absorbabile.",
+      "Sucul gastric conține acid clorhidric și pepsină pentru digestia proteinelor.",
+      "Bila emulsionează grăsimile prin săruri biliare, facilitând acțiunea lipazelor.",
+      "Vilozitățile intestinului subțire asigură absorbția selectivă în sânge și limfă."
+     ],
+     "termeni": [
+      {
+       "t": "vilozitate intestinală",
+       "d": "prelungire microscopică a mucoasei intestinale adaptată absorbției nutrienților"
+      },
+      {
+       "t": "chilifer central",
+       "d": "vas limfatic situat în axul vilozității intestinale, care preia lipidele absorbite"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce conține bila și care este rolul ei?",
+       "v": "Săruri biliare, pigmenți și colesterol; emulsionează grăsimile, neavând enzime."
+      },
+      {
+       "f": "Care sunt produșii finali ai digestiei proteinelor?",
+       "v": "Aminoacizii."
+      },
+      {
+       "f": "Unde se absoarbe cea mai mare cantitate de apă și nutrienți?",
+       "v": "În intestinul subțire (jejun și ileon)."
+      },
+      {
+       "f": "În ce vas ajung glucidele și aminoacizii absorbiți din intestin?",
+       "v": "În vena portă, mergând direct către ficat."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Bila secretată de ficat are rolul de a:",
+       "optiuni": [
+        "emulsiona lipidele pentru a fi hidrolizate de lipaze",
+        "digera proteinele prin enzime proteolitice",
+        "sintetiza glucoza din acizi grași",
+        "coagula laptele în stomac"
+       ],
+       "corect": 0,
+       "explicatie": "Lipsa enzimelor este compensată de prezența sărurilor biliare."
+      },
+      {
+       "intrebare": "Pepsina este o enzimă gastrică ce acționează optim:",
+       "optiuni": [
+        "în mediu puternic acid asigurat de acidul clorhidric",
+        "în mediu bazic la pH peste 8",
+        "în prezența sărurilor biliare",
+        "numai la temperaturi sub 20 grade"
+       ],
+       "corect": 0,
+       "explicatie": "Acidul clorhidric transformă pepsinogenul inactiv în pepsină activă."
+      },
+      {
+       "intrebare": "Chilomicronii rezultați din digestia și resinteza lipidelor sunt preluați de:",
+       "optiuni": [
+        "capilarele limfatice (vasele chilifere) din vilozități",
+        "capilarele sanguine direct în vena cavă",
+        "artera mezenterică superioară",
+        "canalele hepatice"
+       ],
+       "corect": 0,
+       "explicatie": "Trec prin canalul toracic înainte de a pătrunde în sângele venos."
+      },
+      {
+       "intrebare": "Amidonul este descompus treptat în maltoză sub acțiunea:",
+       "optiuni": [
+        "amilazei salivare și pancreatice",
+        "pepsinei gastrice",
+        "lipazei linguale",
+        "peptidazelor intestinale"
+       ],
+       "corect": 0,
+       "explicatie": "Amilaza hidrolizează legăturile glucozidice."
+      }
+     ]
+    },
+    {
+     "id": "bio11-08",
+     "titlu": "Sângele și circulația cardiovasculară",
+     "rezumat": "Sângele este un țesut conjunctiv fluid compus din plasmă (55%) și elemente figurate (45%): hematii (eritrocite), leucocite și trombocite. Hematiile, celule anucleate la mamifere, conțin hemoglobină și transportă oxigenul de la plămâni la țesuturi și parțial dioxidul de carbon. Leucocitele asigură apărarea imunitară prin fagocitoză și producție de anticorpi, iar trombocitele inițiază procesul de hemostază și coagulare a sângelui. Aparatul cardiovascular este format din inimă și o rețea închisă de vase. Inima este un organ tetracameral (două atrii și două ventricule), împărțită complet în jumătate dreaptă (cu sânge neoxigenat) și jumătate stângă (cu sânge oxigenat). Circulația mare (sistemică) pleacă din ventriculul stâng prin aortă și distribuie sânge oxigenat întregului organism, întorcându-se prin venele cave în atriul drept. Circulația mică (pulmonară) pleacă din ventriculul drept prin artera pulmonară la plămâni, unde sângele se oxigenează și revine prin patru vene pulmonare în atriul stâng.",
+     "ideiCheie": [
+      "Sângele realizează transportul gazelor respiratorii, al nutrienților, hormonilor și termoreglarea.",
+      "Eritrocitele transportă oxigenul combinat reversibil cu fierul din hemoglobină (oxihemoglobină).",
+      "Inima funcționează ca o pompă aspiro-respingătoare, ritmată de țesutul nodal excitoconductor.",
+      "Cele două circuite, mare și mic, sunt complet separate la adult."
+     ],
+     "termeni": [
+      {
+       "t": "hemoglobină",
+       "d": "heteroproteină cu fier din eritrocite responsabilă de transportul gazelor respiratorii"
+      },
+      {
+       "t": "țesut nodal",
+       "d": "rețeaua musculară specializată din miocard ce generează și conduce impulsurile cardiace"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "De unde pornește și unde se termină circulația mare (sistemică)?",
+       "v": "Pornește din ventriculul stâng prin aortă și se varsă în atriul drept prin venele cave."
+      },
+      {
+       "f": "Ce vase aduc sângele oxigenat de la plămâni în atriul stâng?",
+       "v": "Cele patru vene pulmonare."
+      },
+      {
+       "f": "Care sunt elementele figurate ale sângelui cu rol esențial în coagulare?",
+       "v": "Trombocitele (plachetele sanguine)."
+      },
+      {
+       "f": "Ce rol are nodulul sinoatrial din atriul drept?",
+       "v": "Este pacemakerul natural al inimii, generând ritmul cardiac normal."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "În ventriculul stâng al inimii se găsește sânge:",
+       "optiuni": [
+        "oxigenat, primit din atriul stâng",
+        "neoxigenat (venos), trimis spre plămâni",
+        "mixt, cu oxigenare intermediară",
+        "sărac în nutrienți"
+       ],
+       "corect": 0,
+       "explicatie": "Ventriculul stâng pompează sângele bogat în oxigen în marea circulație."
+      },
+      {
+       "intrebare": "Trombocitele intervin esențial în:",
+       "optiuni": [
+        "hemostază și formarea cheagului de fibrină",
+        "transportul dioxidului de carbon",
+        "producerea anticorpilor specifici",
+        "fagocitarea bacteriilor patogene"
+       ],
+       "corect": 0,
+       "explicatie": "Formează dopul plachetar la nivelul leziunilor vasculare."
+      },
+      {
+       "intrebare": "Valvula bicuspidă (mitrală) este situată între:",
+       "optiuni": [
+        "atriul stâng și ventriculul stâng",
+        "atriul drept și ventriculul drept",
+        "ventriculul stâng și artera aortă",
+        "ventriculul drept și artera pulmonară"
+       ],
+       "corect": 0,
+       "explicatie": "Împiedică refularea sângelui în atriu în timpul sistolei ventriculare."
+      },
+      {
+       "intrebare": "Hemoglobina leagă reversibil oxigenul la nivelul:",
+       "optiuni": [
+        "atomului de fier bivalent din gruparea hem",
+        "aminoacizilor din lanțul globinic exclusiv",
+        "membranei plasmatice a hematiilor",
+        "nucleului eritrocitar"
+       ],
+       "corect": 0,
+       "explicatie": "Se formează compusul instabil oxihemoglobină."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bio11-c4",
+   "titlu": "Respirația, excreția și reproducerea",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "bio11-09",
+     "titlu": "Respirația la om",
+     "rezumat": "Sistemul respirator este alcătuit din căile respiratorii (cavitate nazală, faringe, laringe, trahee, bronhii) și plămâni. Mucoasa nazală încălzește, umezește și filtrează aerul inspirat prin perii nazali și mucus. Laringele are și rol fonator, conținând corzile vocale. Traheea și bronhiile se ramifică în arborele bronșic până la bronhiole terminale și acini pulmonari. Alveolele pulmonare constituie unitatea funcțională de schimb gazos, având un perete unistratificat extrem de subțire înconjurat de o densă rețea capilară. Ventilația pulmonară cuprinde două faze: inspirația, un proces activ realizat prin contracția diafragmei și a mușchilor intercostali externi, și expirația, un proces pasiv în repaus cauzat de relaxarea musculară și reculul elastic al plămânilor. Difuzia gazelor la nivelul membranei alveolo-capilare se produce pasiv, conform diferențelor de presiune parțială: oxigenul trece din aerul alveolar în sângele capilar, iar dioxidul de carbon din sânge în alveole pentru a fi eliminat.",
+     "ideiCheie": [
+      "Alveola pulmonară este unitatea structurală și funcțională de schimb gazos.",
+      "Membrana alveolo-capilară permite difuzia pasivă rapidă a oxigenului și a dioxidului de carbon.",
+      "Inspirația este un proces activ asigurat de coborârea diafragmei și mărirea volumului toracic.",
+      "Expirația de repaus este pasivă, determinată de elasticitatea țesutului pulmonar."
+     ],
+     "termeni": [
+      {
+       "t": "membrană alveolo-capilară",
+       "d": "structură fină prin care se realizează schimburile de gaze între aer și sânge"
+      },
+      {
+       "t": "capacitate vitală",
+       "d": "volumul maxim de aer eliminat printr-o expirație forțată după o inspirație forțată"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce mușchi principal realizează coborârea bazei toracelui în inspirație?",
+       "v": "Diafragma (mușchiul diafragmatic)."
+      },
+      {
+       "f": "Cum trec gazele respiratorii prin membrana alveolo-capilară?",
+       "v": "Prin difuzie simplă, de la presiune parțială mare la presiune parțială mică."
+      },
+      {
+       "f": "Ce fenomen caracterizează expirația normală de repaus?",
+       "v": "Este pasivă, bazată pe relaxarea musculaturii și elasticitatea plămânilor."
+      },
+      {
+       "f": "Ce conțin alveolele pulmonare pentru a preveni colapsul la expirație?",
+       "v": "Surfactant (substanță tensioactivă)."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Schimbul de gaze la nivelul alveolelor pulmonare are loc prin:",
+       "optiuni": [
+        "difuzie pasivă bazată pe gradientul presiunilor parțiale",
+        "transport activ mediat de pompe ionice de ATP",
+        "osmoză prin porii membranari",
+        "pinocitoză prin celulele endoteliale"
+       ],
+       "corect": 0,
+       "explicatie": "Oxigenul difuzează spre sânge deoarece presiunea lui alveolară este mai mare."
+      },
+      {
+       "intrebare": "Mușchiul diafragm separă:",
+       "optiuni": [
+        "cavitatea toracică de cavitatea abdominală",
+        "cavitatea bucală de faringe",
+        "emisferele cerebrale de cerebel",
+        "atriile cardiace de ventricule"
+       ],
+       "corect": 0,
+       "explicatie": "Este mușchiul motor respirator principal."
+      },
+      {
+       "intrebare": "Volumul curent de aer inspirat și expirat într-o respirație normală este de circa:",
+       "optiuni": [
+        "500 ml",
+        "1500 ml",
+        "3000 ml",
+        "150 ml"
+       ],
+       "corect": 0,
+       "explicatie": "Reprezintă aerul ventilat în condiții bazale de repaus."
+      },
+      {
+       "intrebare": "În sânge, dioxidul de carbon este transportat predominant sub formă de:",
+       "optiuni": [
+        "bicarbonat dizolvat în plasmă",
+        "carbhemoglobină combinată cu fierul",
+        "bule de gaz libere",
+        "carbonați insolubili"
+       ],
+       "corect": 0,
+       "explicatie": "Anhidraza carbonică din eritrocite accelerează hidratarea CO2."
+      }
+     ]
+    },
+    {
+     "id": "bio11-10",
+     "titlu": "Excreția și fiziologia renală",
+     "rezumat": "Excreția reprezintă eliminarea substanțelor toxice, nefolositoare sau în exces rezultate din metabolismul celular, contribuind decisiv la menținerea echilibrului hidric, electrolitic și acido-bazic al mediului intern. Rinichii sunt organele principale ale aparatului excretor, completați de căile urinare: calice, pelvis renal, uretere, vezică urinară și uretră. Fiecare rinichi conține aproximativ un milion de nefroni, unitățile structurale și funcționale renale. Nefronul este format din glomerulul vascular Malpighi încapsulat în capsula Bowman și din tubul urinifer (tub contort proximal, ansa Henle și tub contort distal, care se varsă în tubul colector). Formarea urinei parcurge trei etape: ultrafiltrarea glomerulară (nespecifică, dependentă de tensiunea din capilare, din care rezultă urina primară), reabsorbția tubulară (recuperarea a peste 99% din apă, a glucozei, aminoacizilor și ionilor) și secreția tubulară (eliminarea activă a ionilor de hidrogen, potasiu, amoniac și a unor medicamente).",
+     "ideiCheie": [
+      "Nefronul este unitatea de filtrare și reglare a compoziției sângelui din rinichi.",
+      "Ultrafiltrarea glomerulară produce urina primară, lipsită de proteine mari și elemente figurate.",
+      "Reabsorbția tubulară recuperează substanțele utile (glucoză, ioni, apă) în circulația sangvină.",
+      "Secreția tubulară îndepărtează metaboliții acizi și substanțele toxice direct în urina finală."
+     ],
+     "termeni": [
+      {
+       "t": "nefron",
+       "d": "unitatea morfologică și fiziologică a rinichiului responsabilă de formarea urinei"
+      },
+      {
+       "t": "ultrafiltrare",
+       "d": "filtrarea plasmei sanguine sub presiune prin endoteliul capilar glomerular"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Unde se formează urina primară?",
+       "v": "La nivelul corpusculului renal, prin filtrare în capsula Bowman."
+      },
+      {
+       "f": "Ce substanță utilă este reabsorbită integral în tubul contort proximal în condiții normale?",
+       "v": "Glucoza."
+      },
+      {
+       "f": "Ce rol are ansa Henle?",
+       "v": "Concentrarea urinei prin reabsorbția apei și a sărurilor în medulara renală."
+      },
+      {
+       "f": "Ce efect are hormonul ADH (vasopresina) asupra tubilor contorți distali și colectori?",
+       "v": "Mărește reabsorbția facultativă a apei, concentrând urina finală."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Urina primară se deosebește de plasma sanguină prin faptul că:",
+       "optiuni": [
+        "nu conține proteine mari cu masă moleculară ridicată",
+        "conține o concentrație triplă de uree",
+        "conține numeroase hematii și leucocite",
+        "este lipsită complet de săruri și glucoză"
+       ],
+       "corect": 0,
+       "explicatie": "Bariera de filtrare oprește macromoleculele proteice."
+      },
+      {
+       "intrebare": "Glucoza prezentă în urina definitivă (glicozurie) indică:",
+       "optiuni": [
+        "depășirea pragului renal de reabsorbție al glucozei (peste 180 mg/dl)",
+        "o funcționare impecabilă a nefronului",
+        "un deficit congenital de sodiu",
+        "un consum crescut de apă distilată"
+       ],
+       "corect": 0,
+       "explicatie": "Apare tipic în diabetul zaharat necompensat."
+      },
+      {
+       "intrebare": "Reabsorbția apei la nivelul tubilor colectori este stimulată direct de:",
+       "optiuni": [
+        "hormonul antidiuretic (ADH / vasopresină)",
+        "oxitocină",
+        "parathormon",
+        "tiroxină"
+       ],
+       "corect": 0,
+       "explicatie": "Determină scăderea diurezei și creșterea densității urinei."
+      },
+      {
+       "intrebare": "Rinichii contribuie la reglarea tensiunii arteriale prin secreția enzimei:",
+       "optiuni": [
+        "renină",
+        "pepsină",
+        "tripsină",
+        "amilază"
+       ],
+       "corect": 0,
+       "explicatie": "Renina inițiază cascada sistemului renină-angiotensină-aldosteron."
+      }
+     ]
+    },
+    {
+     "id": "bio11-11",
+     "titlu": "Sistemul reproducător uman",
+     "rezumat": "Sistemul reproducător asigură perpetuarea speciei și transmiterea informației ereditare prin reproducere sexuată. Aparatul reproducător masculin este format din testicule, căi spermatice (epididim, canal deferent, canal ejaculator, uretră), glande anexe (vezicule seminale, prostată, glande bulbouretrale) și penis. Testiculele îndeplinesc o funcție exocrină (spermatogeneza în tubii seminiferi contorți) și una endocrină (secreția de testosteron de către celulele interstițiale Leydig sub stimulul hormonului LH). Aparatul reproducător feminin cuprinde ovarele, trompele uterine (oviductele), uterul, vaginul și vulva. Ovarele produc ovocite prin ovogeneză și secretă hormoni steroizi (estrogeni și progesteron). Ciclul ovarian este coordonat de hormonii gonadotropi adenohipofizari: FSH stimulează maturarea foliculară, iar LH declanșează ovulația în ziua a 14-a a unui ciclu tipic de 28 de zile. Fecundația are loc în treimea externă a trompei uterine, iar celula-ou (zigotul) se divide prin segmentare și se implantează (nidație) în endometrul uterin pregătit hormonal.",
+     "ideiCheie": [
+      "Testiculele produc spermatozoizi prin spermatogeneză și testosteron prin celulele Leydig.",
+      "Ovarele eliberează ciclic ovocitul secundar și sintetizează estrogeni și progesteron.",
+      "Ovulația este declanșată la jumătatea ciclului menstrual de vârful preovulator de hormon luteinizant (LH).",
+      "Fecundația are loc în trompa uterină, iar implantarea blastocistului în peretele uterului."
+     ],
+     "termeni": [
+      {
+       "t": "spermatogeneză",
+       "d": "procesul meiotic de formare a spermatozoizilor haploizi în testicule"
+      },
+      {
+       "t": "nidație",
+       "d": "fixarea embrionului (blastocistului) în mucoasa vascularizată a uterului"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Unde are loc fecundarea ovulului de către spermatozoid?",
+       "v": "În treimea externă a trompei uterine (trompa lui Fallopio)."
+      },
+      {
+       "f": "Ce hormon hipofizar induce ruperea foliculului matur și ovulația?",
+       "v": "Hormonul luteinizant (LH)."
+      },
+      {
+       "f": "Ce celule testiculare secretă principalul hormon androgen masculin, testosteronul?",
+       "v": "Celulele interstițiale Leydig."
+      },
+      {
+       "f": "Ce rol are corpul galben ovarian format după ovulație?",
+       "v": "Secretă cantități mari de progesteron pentru a susține mucoasa uterină în sarcină."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Fecundația se definește ca:",
+       "optiuni": [
+        "unirea gameților haploizi (spermatozoid și ovul) cu restabilirea garniturii diploide",
+        "diviziunea meiotică a celulelor foliculare",
+        "eliberarea ovocitului din ovar în cavitatea peritoneală",
+        "eliminarea lunară a mucoasei uterine superficiale"
+       ],
+       "corect": 0,
+       "explicatie": "Se reface numărul caracteristic de 46 de cromozomi."
+      },
+      {
+       "intrebare": "Ovulația la femeie are loc în mod obișnuit în:",
+       "optiuni": [
+        "a 14-a zi a unui ciclu menstrual mediu de 28 de zile",
+        "prima zi a sângerării menstruale",
+        "ziua a 25-a a ciclului menstrual",
+        "orice moment, fără reglare hormonală"
+       ],
+       "corect": 0,
+       "explicatie": "Este precedată de o creștere masivă a nivelului de LH."
+      },
+      {
+       "intrebare": "Implantarea ovulului fecundat (nidația) are loc în:",
+       "optiuni": [
+        "endometrul uterului",
+        "trompa uterină",
+        "ovarul contralateral",
+        "colul uterin"
+       ],
+       "corect": 0,
+       "explicatie": "Mucoasa îngroșată hrănește embrionul în fazele incipiente."
+      },
+      {
+       "intrebare": "Testosteronul este responsabil de:",
+       "optiuni": [
+        "apariția și menținerea caracterelor sexuale secundare masculine",
+        "stimularea secreției de prolactină",
+        "îngroșarea lunară a endometrului",
+        "scăderea masei musculare"
+       ],
+       "corect": 0,
+       "explicatie": "Stimulează anabolismul proteic și dezvoltarea scheletică."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "teze": [
+  {
+   "semestru": 1,
+   "test": [
+    {
+     "intrebare": "Sinapsa chimică realizează transmiterea impulsului:",
+     "optiuni": [
+      "unidirecțional, datorită localizării mediatorului chimic doar în butonul presinaptic",
+      "în ambele direcții în mod egal",
+      "numai prin contact mecanic direct între membrane",
+      "cu pierderea completă a semnalului"
+     ],
+     "corect": 0,
+     "explicatie": "Veziculele sinaptice există exclusiv în segmentul presinaptic."
+    },
+    {
+     "intrebare": "Rădăcina posterioară a nervului spinal este:",
+     "optiuni": [
+      "senzitivă și prezintă pe traiectul ei ganglionul spinal",
+      "pur motorie, lipsită de ganglioni",
+      "mixtă motorie și senzitivă în interiorul canalului vertebral",
+      "vegetativă fără legătură cu sensibilitatea"
+     ],
+     "corect": 0,
+     "explicatie": "Axonii neuronilor pseudounipolari intră prin rădăcina posterioară."
+    },
+    {
+     "intrebare": "Reflexul medular miotatic (rotulian) se caracterizează prin:",
+     "optiuni": [
+      "arc reflex monosinaptic format din doi neuroni",
+      "intervenția a cel puțin trei interneuroni inhibitori",
+      "prezența centrului în scoarța cerebrală parietală",
+      "mișcare de flexie lentă a gambei"
+     ],
+     "corect": 0,
+     "explicatie": "Cuprinde doar neuronul senzitiv și neuronul motor."
+    },
+    {
+     "intrebare": "În analizatorul vizual, celulele fotoreceptoare cu conuri au rolul de a:",
+     "optiuni": [
+      "asigura vederea colorată și distingerea detaliilor la lumină intensă",
+      "percepe exclusiv contururile în întuneric",
+      "conduce impulsul prin fanta sinaptică spre ureche",
+      "forma pata oarbă a retinei"
+     ],
+     "corect": 0,
+     "explicatie": "Conțin pigmenți iodopsine sensibili la lungimi de undă diferite."
+    },
+    {
+     "intrebare": "Receptorul acustic reprezentat de organul Corti se sprijină pe:",
+     "optiuni": [
+      "membrana bazilară din melcul membranos",
+      "timpanul extern",
+      "ciocănelul din urechea medie",
+      "nicovală și scăriță"
+     ],
+     "corect": 0,
+     "explicatie": "Deplasarea endolimfei mișcă cilii pe membrana tectoria."
+    },
+    {
+     "intrebare": "Ocitocina și vasopresina (ADH) sunt sintetizate în:",
+     "optiuni": [
+      "nucleii hipotalamici anteriori și depozitate în neurohipofiză",
+      "adenohipofiză direct de celulele bazofile",
+      "tiroidă și eliberate în limfă",
+      "medulosuprarenală în condiții de stres"
+     ],
+     "corect": 0,
+     "explicatie": "Neurohipofiza este doar organ de stocare și eliberare."
+    },
+    {
+     "intrebare": "Glanda tiroidă folosește pentru sinteza hormonilor săi:",
+     "optiuni": [
+      "iodul captat activ din plasma sanguină",
+      "calciul ionic din oase",
+      "fierul eliberat prin hemoliză",
+      "magneziul circulant"
+     ],
+     "corect": 0,
+     "explicatie": "Carența de iod duce la apariția gușei endemice."
+    },
+    {
+     "intrebare": "Glucagonul secretat de celulele alfa pancreatice este un hormon:",
+     "optiuni": [
+      "hiperglicemiant ce stimulează glicogenoliza hepatică",
+      "hipoglicemiant asemănător insulinei",
+      "proteic ce scade concentrația de aminoacizi",
+      "lipidic produs de celulele exocrine acinare"
+     ],
+     "corect": 0,
+     "explicatie": "Asigură aportul de glucoză în sânge între mese."
+    }
+   ]
+  },
+  {
+   "semestru": 2,
+   "test": [
+    {
+     "intrebare": "Digestia glucidelor începe în cavitatea bucală prin acțiunea enzimei:",
+     "optiuni": [
+      "amilază salivară (ptialină)",
+      "pepsină",
+      "lipază gastrică",
+      "maltază intestinală"
+     ],
+     "corect": 0,
+     "explicatie": "Descompune amidonul preparat în dextrine și maltoză."
+    },
+    {
+     "intrebare": "Absorbția vitaminelor liposolubile (A, D, E, K) depinde direct de:",
+     "optiuni": [
+      "prezența sărurilor biliare care emulsionează lipidele",
+      "secreția de acid clorhidric din stomac",
+      "amilaza pancreatică",
+      "bacteriile patogene din colon"
+     ],
+     "corect": 0,
+     "explicatie": "Fără micele lipidice emulsionate vitaminele nu se absorb."
+    },
+    {
+     "intrebare": "Sângele oxigenat părăsește ventriculul stâng prin:",
+     "optiuni": [
+      "artera aortă către toate țesuturile corpului",
+      "arterele pulmonare spre plămâni",
+      "vena cavă inferioară",
+      "sinusul coronarian"
+     ],
+     "corect": 0,
+     "explicatie": "Aorta distribuie sângele în marea circulație."
+    },
+    {
+     "intrebare": "În faza de expirație liniștită normală:",
+     "optiuni": [
+      "diafragma se relaxează și se ridică pasiv spre torace",
+      "mușchii intercostali se contractă puternic",
+      "volumul cutiei toracice crește semnificativ",
+      "presiunea intrapulmonară scade sub cea atmosferică"
+     ],
+     "corect": 0,
+     "explicatie": "Aerul iese datorită elasticității plămânilor și cutiei toracice."
+    },
+    {
+     "intrebare": "Membrana prin care se realizează hemataza pulmonară este:",
+     "optiuni": [
+      "membrana alveolo-capilară foarte subțire",
+      "pleura parietală externă",
+      "pericardul seros",
+      "septul atrioventricular"
+     ],
+     "corect": 0,
+     "explicatie": "Gazele o traversează instantaneu prin difuzie liberă."
+    },
+    {
+     "intrebare": "Unitatea funcțională microscopică a rinichiului se numește:",
+     "optiuni": [
+      "nefron",
+      "lobul hepatic",
+      "acin glandular",
+      "folicul tiroidian"
+     ],
+     "corect": 0,
+     "explicatie": "Filtrează sângele și secretă urina."
+    },
+    {
+     "intrebare": "Reabsorbția apei în nefron este stimulată de hormonul:",
+     "optiuni": [
+      "ADH (vasopresină)",
+      "insulină",
+      "parathormon",
+      "glucagon"
+     ],
+     "corect": 0,
+     "explicatie": "Lipsa ADH provoacă diabetul insipid cu poliurie masivă."
+    },
+    {
+     "intrebare": "Fecundarea ovulului de către spermatozoid are loc în mod natural în:",
+     "optiuni": [
+      "trompa uterină",
+      "cavitatea uterină",
+      "vagin",
+      "foliculul de Graaf"
+     ],
+     "corect": 0,
+     "explicatie": "Zigotul parcurge ulterior trompa pentru a se fixa în uter."
+    }
+   ]
+  }
+ ]
+}

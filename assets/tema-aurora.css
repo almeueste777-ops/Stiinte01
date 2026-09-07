@@ -1,0 +1,999 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   ȘTIINȚE SOCIALE — supra-temă „AURORĂ”.  Extensie pentru assets/app.css.
+
+   CE ESTE: un strat de TOKENI care se încarcă DUPĂ app.css și rescrie numai
+   paleta, sticla și relieful. Zero reguli de componente rescrise, zero
+   selectoare noi pe .card/.btn/.tab — deci arhitectura din app.css rămâne
+   intactă și orice regulă adăugată acolo mai târziu continuă să funcționeze.
+
+   REGULA DIN app.css SE RESPECTĂ INTEGRAL:
+     „Adâncimea aparține conținutului. Transparența aparține cadrului.”
+   Aurora nu mută nimic dintr-o tabără în alta. Doar:
+     · duce sticla cadrului mai departe în transparență (blur mai mare,
+       alfa mai mic, saturație mai mare) — sticla are acum mai mult de arătat;
+     · schimbă meshul ambiental pe iris / violet / cyan, ca sticla să aibă
+       ce estompa;
+     · recalculează umbrele neomorfice pe noile suprafețe (--nm-l / --nm-d),
+       fiindcă umbrele DERIVĂ din culoarea suprafeței, nu sunt fixe;
+     · adaugă, la final, un set OPT-IN de efecte („spectacol”) care se aplică
+       doar prin clase/atribute noi — nimic nu se activează singur.
+
+   CONTRAST: fiecare pereche ink/surface a fost recalculată, nu presupusă.
+   Pragurile din app.css se păstrează: --ink ≥ 12:1, --ink-muted ≥ 4.7:1,
+   --ink-faint DOAR decorativ (niciodată text citibil).
+
+   INSTALARE (o linie în index.html, imediat după app.css):
+     <link rel="stylesheet" href="assets/tema-aurora.css">
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   1 · TEMA LUMINOASĂ — „Porțelan de iris”
+   Suprafețele trec de pe nisip cald (hue 30°) pe porțelan cu tentă de iris
+   (hue 265°, saturație foarte joasă): rămân luminoase și „de hârtie”, dar
+   fundalul are acum trei surse de lumină colorată în loc de una singură.
+   Brandul devine iris, accentul rămâne ambră (puntea cu vechea paletă),
+   iar cyan-ul intră ca a treia voce doar în gradiente și halouri.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+:root{
+
+  /* — Suprafețe (îngropat < bază < ridicat) ——————————————————————————— */
+  --surface-base:    #F4F1FC;  /* porțelan de iris — fundalul paginii */
+  --surface-raised:  #FCFAFF;  /* alb-liliac — carduri, butoane, foi */
+  --surface-sunken:  #E6E2F7;  /* iris spălat — câmpuri, șanțuri, inactiv */
+  --surface-overlay: #F9F7FE;  /* opac de rezervă când sticla nu e disponibilă */
+
+  /* — Cerneală ————————————————————————————————————————————————————————
+     --ink        #1E1636 pe #FCFAFF → 15,4:1   (prag: ≥12:1)   ✓
+     --ink-muted  #574A80 pe #FCFAFF →  6,6:1   (prag: ≥4,7:1)  ✓
+                  aceeași pe #F4F1FC →  6,2:1                   ✓
+     --ink-faint  decorativ, nu se scrie text cu el             ✓ */
+  --ink:        #1E1636;
+  --ink-muted:  #574A80;
+  --ink-faint:  #8A7CB0;
+
+  /* — Linii ————————————————————————————————————————————————————————— */
+  --hairline:        #DED8F2;
+  --hairline-strong: #BEB3E0;
+
+  /* — Brand / semantic ————————————————————————————————————————————————
+     --brand      #5B4BD6 pe #FCFAFF → 6,4:1  (text de link, AA)  ✓
+     --brand-ink  #F7F5FF pe #5B4BD6 → 6,1:1  (text pe umplutură) ✓
+     --accent-text#6A3D00 pe #FCFAFF → 8,1:1  (ambră ca TEXT)     ✓
+     --accent-ink #2A1A00 pe ambră   → 9,7:1                      ✓ */
+  --brand:       #5B4BD6;   /* iris — identitatea aplicației */
+  --brand-ink:   #F7F5FF;
+  --accent:      #F2A118;   /* ambră — umpluturi, .pill, .badge */
+  --accent-text: #6A3D00;   /* varianta SIGURĂ pentru text pe suprafață */
+  --accent-ink:  #2A1A00;
+  --ok:          #12855F;   /* smarald cald */
+  --bad:         #D02B62;   /* magenta-zmeură */
+
+  /* — Mesh ambiental: trei lumini, aceleași centre ca în app.css ————————
+     Rămâne desenat de body::before (strat fix, compus o dată pe GPU). */
+  --ambient:
+    radial-gradient(1100px 640px at  6% -8%, #FFE0AE 0%, rgba(255,224,174,0) 62%),
+    radial-gradient( 920px 720px at 104%  2%, #D9CCFF 0%, rgba(217,204,255,0) 58%),
+    radial-gradient( 780px 640px at  48% 106%, #C8ECF5 0%, rgba(200,236,245,0) 60%),
+    linear-gradient(180deg, #F8F5FF 0%, #EFEAFB 100%);
+
+  /* — Neumorfism recalculat pentru #FCFAFF ————————————————————————————
+     Lumina rămâne alb pur; umbra devine iris închis, NU gri și NU maro:
+     o umbră neutră pe o suprafață colorată se citește ca murdărie. */
+  --nm-l: 255,255,255;   /* #FFFFFF */
+  --nm-d: 112,92,180;    /* #705CB4 — umbră de iris */
+  --nm-raised:
+      -8px -8px 20px rgba(var(--nm-l),.95),
+       8px  8px 22px rgba(var(--nm-d),.24);
+  --nm-subtle:
+      -3px -3px  9px rgba(var(--nm-l),.90),
+       4px  4px 11px rgba(var(--nm-d),.20);
+  --nm-pressed:
+      inset -4px -4px 11px rgba(var(--nm-l),.95),
+      inset  5px  5px 13px rgba(var(--nm-d),.26);
+  --nm-flat:
+      0 0 0 1px var(--hairline),
+      0 1px 2px rgba(var(--nm-d),.12);
+
+  /* — Sticlă: mai transparentă, mai difuză, mai saturată ————————————————
+     .62 → .42 pe alfa și 20px → 30px pe blur. Alfa mai mic fără blur mai
+     mare ar da o folie murdară; împreună dau sticlă. Saturația urcă la 200%
+     ca petele ambientale să rămână colorate după estompare. */
+  --glass-bg:       rgba(255,255,255,.42);
+  --glass-bg-solid: var(--surface-overlay);
+  --glass-blur:     blur(30px) saturate(200%);
+  --glass-border:   rgba(255,255,255,.70);
+  --glass-shadow:
+      0 18px 44px rgba(74,56,140,.20),
+      inset 0  1px 0 rgba(255,255,255,.92),
+      inset 0 -1px 0 rgba(31,168,196,.16);   /* fir de cyan în muchia de jos */
+  --glass-specular:
+      linear-gradient(155deg,
+        rgba(255,255,255,.70)  0%,
+        rgba(255,255,255,.18) 34%,
+        rgba(255,255,255,0)   60%);
+
+  --focus-ring: 0 0 0 3px rgba(91,75,214,.32), 0 0 0 1px var(--brand);
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   2 · TEMA ÎNTUNECATĂ — „Auroră de indigo”
+   Bleumarinul de miezul nopții coboară spre indigo-violet (hue 250°) și se
+   închide mai mult (#0D1226 în loc de #141F33), ca aurora să aibă contrast
+   pe ce să strălucească. Cerneala devine liliac-fildeș: rămâne caldă, dar
+   nu mai trage a nisip pe un fundal violet.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+:root:where([data-tema="intunecat"]){
+
+  --surface-base:    #0D1226;
+  --surface-raised:  #1A1740;
+  --surface-sunken:  #080B1A;
+  --surface-overlay: #221D4E;
+
+  /* --ink       #F4EEFF pe #1A1740 → 13,9:1  ✓
+     --ink-muted #BDAEE0 pe #1A1740 →  8,3:1  ✓
+     --ink-faint decorativ                    ✓ */
+  --ink:        #F4EEFF;
+  --ink-muted:  #BDAEE0;
+  --ink-faint:  #8E7FB8;
+
+  --hairline:        #2E2860;
+  --hairline-strong: #4B4390;
+
+  /* --brand      #A99BFF pe #1A1740 → 7,4:1  (link, AA mare)   ✓
+     --brand-ink  #0C0824 pe #A99BFF → 9,6:1                    ✓
+     --accent-text#FFD37A pe #1A1740 → 10,8:1                   ✓ */
+  --brand:       #A99BFF;   /* iris deschis — rezistă pe indigo */
+  --brand-ink:   #0C0824;
+  --accent:      #FFC24B;
+  --accent-text: #FFD37A;
+  --accent-ink:  #2A1B00;
+  --ok:          #3BE8A5;
+  --bad:         #FF6E9C;
+
+  /* Mesh nocturn: aceleași trei centre, aurora în loc de jar. */
+  --ambient:
+    radial-gradient(1100px 640px at  6% -8%, #3A2A78 0%, rgba(58,42,120,0) 62%),
+    radial-gradient( 920px 720px at 104%  2%, #262A6E 0%, rgba(38,42,110,0) 58%),
+    radial-gradient( 780px 640px at  48% 106%, #10324A 0%, rgba(16,50,74,0) 60%),
+    linear-gradient(180deg, #171238 0%, #08091A 100%);
+
+  /* Neumorfism pentru #1A1740: ridicare de iris, umbră indigo-beznă. */
+  --nm-l: 124,107,245;   /* #7C6BF5 */
+  --nm-d: 3,4,14;        /* #03040E */
+  --nm-raised:
+      -8px -8px 22px rgba(var(--nm-l),.20),
+       8px  8px 24px rgba(var(--nm-d),.70);
+  --nm-subtle:
+      -3px -3px 10px rgba(var(--nm-l),.16),
+       4px  4px 12px rgba(var(--nm-d),.58);
+  --nm-pressed:
+      inset -4px -4px 12px rgba(var(--nm-l),.18),
+      inset  5px  5px 14px rgba(var(--nm-d),.72);
+  --nm-flat:
+      0 0 0 1px var(--hairline),
+      0 1px 2px rgba(var(--nm-d),.45);
+
+  /* Sticlă nocturnă: .58 → .34 pe alfa, 22px → 32px pe blur.
+     Muchia de sus e liliac, cea de jos cyan — două culori diferite pe cele
+     două margini este ce face sticla să pară groasă, nu doar pictată. */
+  --glass-bg:     rgba(30,24,66,.34);
+  --glass-blur:   blur(32px) saturate(190%);
+  --glass-border: rgba(196,178,255,.26);
+  --glass-shadow:
+      0 22px 52px rgba(3,4,16,.80),
+      inset 0  1px 0 rgba(230,214,255,.28),
+      inset 0 -1px 0 rgba(79,216,232,.16);
+  --glass-specular:
+      linear-gradient(155deg,
+        rgba(224,214,255,.20)  0%,
+        rgba(224,214,255,.05) 32%,
+        rgba(224,214,255,0)   58%);
+
+  --focus-ring: 0 0 0 3px rgba(169,155,255,.34), 0 0 0 1px var(--brand);
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   3 · TOKENI DERIVAȚI (stratul 1b din app.css)
+   Trepte de gradient, halouri, stări. Aici e locul unde intră a treia voce:
+   cyan-ul. Nu are rol semantic — doar capătul rece al gradientelor.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+:root{
+  --glass-bg-strong:   rgba(255,255,255,.60);
+  --glass-highlight:   rgba(255,255,255,.72);
+  --glass-inner-shadow:rgba(74,56,140,.12);
+
+  --brand-2:     #7C6BF5;                /* capătul luminos al irisului */
+  --brand-3:     #1FA8C4;                /* NOU: capătul cyan (gradiente triple) */
+  --brand-glow:  rgba(91,75,214,.50);
+  --accent-2:    #FFC24B;
+  --accent-glow: rgba(242,161,24,.42);
+  --accent-halo: rgba(242,161,24,.18);
+  --amber:       #FFD46B;
+
+  /* --ok-text  #0C5C42 pe fundalul compus al opțiunii → 6,9:1  ✓
+     --bad-text #96114A pe fundalul compus al opțiunii → 6,4:1  ✓ */
+  --ok-bg:    rgba(18,133,95,.12);
+  --ok-line:  rgba(18,133,95,.42);
+  --ok-glow:  rgba(18,133,95,.45);
+  --ok-halo:  rgba(18,133,95,.18);
+  --ok-text:  #0C5C42;
+
+  --bad-bg:   rgba(208,43,98,.11);
+  --bad-line: rgba(208,43,98,.38);
+  --bad-glow: rgba(208,43,98,.45);
+  --bad-halo: rgba(208,43,98,.16);
+  --bad-text: #96114A;
+
+  --shadow-deep: rgba(40,28,90,.52);
+  --hover-tint:  rgba(91,75,214,.06);
+  --focus:       var(--brand);
+  --bar-edge:    #6A3D00;   /* muchia umplerii: 4,9:1 față de șanț */
+
+  /* Rampa heatmap-ului (Progres): app.css o lasă pe cromatica veche (nisip →
+     bleumarin), deci se re-declară aici pe irisul Aurorei. Nu e text — se cere
+     doar ca cele cinci trepte să fie clar distincte, de la „gol" spre iris plin. */
+  --hm-0:#E6E2F7; --hm-1:#C4B8EA; --hm-2:#9A87DE; --hm-3:#7059D6; --hm-4:#4B39B8;
+
+  /* Gradientul cifrei-erou (aur-numar). Nota de la rezultat e TEXT informativ,
+     nu decor, deci pe porțelanul cvasi-alb (#FCFAFF) opririle trebuie să treacă
+     pragul de text mare (≥3:1). Iris 6,4:1 · ambră-text 8,1:1 · smarald ~4,8:1. */
+  --aur-numar-grad: linear-gradient(150deg,
+      var(--brand) 0%, var(--accent-text) 54%, var(--ok) 100%);
+}
+
+:root:where([data-tema="intunecat"]){
+  --glass-bg-strong:   rgba(30,24,66,.62);
+  --glass-highlight:   rgba(230,214,255,.14);
+  --glass-inner-shadow:rgba(0,0,0,.38);
+
+  --brand-2:     #C4B8FF;
+  --brand-3:     #4FD8E8;
+  --brand-glow:  rgba(169,155,255,.44);
+  --accent-2:    #FFE38A;
+  --accent-glow: rgba(255,194,75,.36);
+  --accent-halo: rgba(255,194,75,.16);
+  --amber:       #FFEBB0;
+
+  --ok-bg:    rgba(59,232,165,.14);
+  --ok-line:  rgba(59,232,165,.40);
+  --ok-glow:  rgba(59,232,165,.40);
+  --ok-halo:  rgba(59,232,165,.20);
+  --ok-text:  #9EF5D2;    /* 11,2:1 pe fundalul compus */
+
+  --bad-bg:   rgba(255,110,156,.14);
+  --bad-line: rgba(255,110,156,.38);
+  --bad-glow: rgba(255,110,156,.38);
+  --bad-halo: rgba(255,110,156,.20);
+  --bad-text: #FFB3C9;    /* 9,4:1 pe fundalul compus */
+
+  --shadow-deep: rgba(0,0,0,.74);
+  --hover-tint:  rgba(169,155,255,.08);
+  --bar-edge:    #FFEBB0;
+
+  /* Heatmap nocturn: de la indigo-beznă spre iris deschis, cinci trepte. */
+  --hm-0:#1B1B44; --hm-1:#34306E; --hm-2:#514C9C; --hm-3:#7A6FD0; --hm-4:#A99BFF;
+
+  /* Pe indigo (#1A1740) culorile deschise trec lejer — se păstrează cele vii. */
+  --aur-numar-grad: linear-gradient(150deg,
+      var(--accent-2) 0%, var(--accent) 46%, var(--brand-3) 100%);
+}
+
+/* Rezervele din app.css (§11–13) folosesc tokeni pe care i-am rescris mai sus,
+   deci se re-declară aici cu valorile Aurorei. Ordinea e aceeași ca acolo:
+   fără backdrop-filter → opac; transparență redusă → opac; contrast → linii. */
+
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))){
+  :root{
+    --glass-bg:       var(--glass-bg-solid);
+    --glass-blur:     none;
+    --glass-specular: none;
+    --glass-shadow:   0 8px 26px rgba(74,56,140,.20);
+  }
+  :root:where([data-tema="intunecat"]){ --glass-shadow: 0 10px 30px rgba(0,0,0,.62); }
+}
+
+:root:where([data-transparenta="redusa"]){
+  --glass-bg:       var(--glass-bg-solid);
+  --glass-blur:     none;
+  --glass-specular: none;
+  --glass-border:   var(--hairline);
+  --glass-shadow:   0 5px 20px rgba(74,56,140,.18);
+  --glass-bg-strong:var(--surface-raised);
+  --ambient:        none;
+}
+:root:where([data-transparenta="redusa"][data-tema="intunecat"]){ --glass-shadow: 0 7px 22px rgba(0,0,0,.60); }
+
+:root:where([data-contrast="ridicat"]){
+  --ink-muted:  #3F3468;                 /* 9,6:1 pe porțelan */
+  --hairline:   var(--hairline-strong);
+  --nm-raised:  0 0 0 1px var(--hairline), 0 2px 6px rgba(var(--nm-d),.20);
+  --nm-subtle:  0 0 0 1px var(--hairline);
+  --nm-pressed: inset 0 0 0 2px var(--hairline);
+  --nm-flat:    0 0 0 1px var(--hairline);
+  --glass-bg:       var(--glass-bg-solid);
+  --glass-bg-strong:var(--surface-raised);
+  --glass-blur:     none;
+  --glass-specular: none;
+  --glass-highlight:transparent;
+  --glass-border:   var(--hairline-strong);
+  --ambient:        none;
+  --focus-ring: 0 0 0 3px var(--surface-base), 0 0 0 6px var(--brand);
+}
+:root:where([data-contrast="ridicat"][data-tema="intunecat"]){
+  --ink-muted: #DCCEFF;                  /* 11,1:1 pe indigo */
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   4 · SPECTACOL — efecte OPT-IN
+   Nimic de aici nu se activează singur: fiecare efect cere o clasă sau un
+   atribut nou în markup (vezi HANDOFF.md pentru unde se pun).
+   Toate respectă `prefers-reduced-motion` și `[data-miscare="redusa"]`.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+@keyframes aur-sheen   { 0%{transform:translate3d(-130%,0,0) rotate(12deg)} 100%{transform:translate3d(330%,0,0) rotate(12deg)} }
+@keyframes aur-shimmer { 0%{transform:translateX(-100%)} 55%,100%{transform:translateX(340%)} }
+@keyframes aur-spin    { to{transform:rotate(1turn)} }
+@keyframes aur-breathe { 0%,100%{transform:scale(1)} 50%{transform:scale(1.012)} }
+@keyframes aur-squish  { 0%,100%{scale:1 1} 34%{scale:1.16 .84} 70%{scale:.95 1.06} }
+@keyframes aur-island  { 0%{opacity:0;transform:translate(-50%,-14px) scale(.72)} 56%{transform:translate(-50%,2px) scale(1.04)} 100%{opacity:1;transform:translate(-50%,0) scale(1)} }
+
+/* — 4.1 Reflex specular care traversează o suprafață ————————————————————
+   Se pune pe un card-erou (Astăzi, Antrenamentul de azi). Cere `position`
+   și `overflow:clip` pe gazdă — le setează chiar regula, ca să nu fie nevoie
+   de modificări în app.css. */
+.aur-sheen{ position:relative; overflow:clip }
+.aur-sheen::after{
+  content:""; position:absolute; top:0; bottom:0; left:0; width:32%;
+  pointer-events:none; z-index:1;
+  background:linear-gradient(100deg,transparent,var(--glass-highlight),transparent);
+  animation:aur-sheen 6.5s var(--ease-ios,cubic-bezier(.25,.1,.25,1)) infinite 1.2s;
+}
+.aur-sheen > *{ position:relative; z-index:2 }
+
+/* — 4.2 Shimmer în umplerea barei de progres ————————————————————————
+   Se pune pe .bar; ținta e copilul `> i`, care există deja în app.css §10. */
+.bar.aur-live > i{ overflow:hidden }
+.bar.aur-live > i::before{
+  content:""; position:absolute; inset:0; width:42%; border-radius:inherit;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.80),transparent);
+  animation:aur-shimmer 2.8s var(--ease-ios,cubic-bezier(.25,.1,.25,1)) infinite;
+}
+
+/* — 4.3 Aureolă conică în spatele inelului de progres ————————————————
+   Pe containerul inelului (poziționat relativ). Blurul mare + opacitatea
+   joasă sunt ce transformă gradientul conic din „morișcă” în „lumină”. */
+.aur-halo{ position:relative; isolation:isolate }
+.aur-halo::before{
+  content:""; position:absolute; inset:-16px; border-radius:50%;
+  z-index:-1; pointer-events:none; opacity:.55; filter:blur(16px);
+  background:conic-gradient(from 0deg,
+    transparent, var(--accent) 22%, var(--brand-3) 48%, transparent 64%);
+  animation:aur-spin 9s linear infinite;
+}
+
+/* — 4.4 Cifră-erou în degrade (scor, procent) —————————————————————————
+   Fallback: pe browserele fără background-clip:text rămâne culoarea proprie. */
+.aur-numar{
+  background:var(--aur-numar-grad);
+  -webkit-background-clip:text; background-clip:text;
+  -webkit-text-fill-color:transparent; color:transparent;
+}
+@supports not ((-webkit-background-clip:text) or (background-clip:text)){
+  .aur-numar{ background:none; -webkit-text-fill-color:currentColor; color:var(--ink) }
+}
+
+/* — 4.5 Respirație lentă (utilitar opt-in) —————————————————————————
+   ATENȚIE: NU se pune pe un `.card` dintr-o listă cu stagger — regula
+   `.view.stagger .enter` (specificitate 0,3,0) din app.css câștigă cascada pe
+   proprietatea `animation` și respirația nu ar rula. Se folosește pe un element
+   fără animație de intrare proprie. */
+.aur-breathe{ animation:aur-breathe 7s ease-in-out infinite }
+
+/* — 4.6 Indicatorul de tab se turtește la schimbare ————————————————
+   app.css desenează .tab-ind; aici doar îi adăugăm turtirea. app.js pune
+   clasa `aur-jump` pentru o clipă la fiecare schimbare de tab (vezi handoff). */
+.tab-ind.aur-jump{ animation:aur-squish .5s var(--ease-spring,cubic-bezier(.34,1.56,.64,1)) }
+
+/* — 4.7 Toast în stil Dynamic Island ————————————————————————————— */
+.aur-island{ animation:aur-island .5s var(--ease-spring,cubic-bezier(.34,1.56,.64,1)) both }
+
+/* — 4.8 Gradiente triple pe suprafețele de brand ————————————————————
+   Singurele reguli din fișier care ating componente existente. Motivul:
+   `--brand-3` e o valoare nouă, iar un gradient în două trepte nu o poate
+   folosi — declarația trebuie rescrisă, nu doar tokenul. */
+.btn:not(.ghost),
+.chip[aria-pressed="true"],
+.opt.ales,
+.tab-ind{
+  background-image:linear-gradient(142deg,
+    var(--brand-2) 0%, var(--brand) 62%, color-mix(in oklch,var(--brand) 74%,var(--brand-3)) 100%);
+}
+@supports not (color:color-mix(in oklch,red,blue)){
+  .btn:not(.ghost),
+  .chip[aria-pressed="true"],
+  .opt.ales,
+  .tab-ind{ background-image:linear-gradient(142deg,var(--brand-2),var(--brand)) }
+}
+.bar > i{
+  background:linear-gradient(90deg,
+    var(--accent) 0%, var(--accent-2) 48%, var(--amber) 74%, var(--brand-3) 100%);
+}
+
+/* — 4.9 Mișcare redusă: totul se oprește, nimic nu dispare ————————— */
+@media (prefers-reduced-motion:reduce){
+  .aur-sheen::after,.bar.aur-live > i::before,.aur-halo::before,
+  .aur-breathe,.tab-ind.aur-jump,.aur-island{ animation:none }
+  .aur-halo::before{ opacity:.35 }
+}
+/* Aceleași opriri când mișcarea e REDUSĂ din Setări (fără preferință de sistem).
+   Pseudo-elementele NU pot sta într-un :is() — ar invalida întreaga regulă și
+   efectele ar continua să ruleze — așa că se enumeră ca selectoare separate. */
+:root:where([data-miscare="redusa"]) .aur-sheen::after,
+:root:where([data-miscare="redusa"]) .bar.aur-live > i::before,
+:root:where([data-miscare="redusa"]) .aur-halo::before,
+:root:where([data-miscare="redusa"]) .aur-breathe,
+:root:where([data-miscare="redusa"]) .tab-ind.aur-jump,
+:root:where([data-miscare="redusa"]) .aur-island{ animation:none }
+:root:where([data-miscare="redusa"]) .aur-halo::before{ opacity:.35 }
+
+/* — 4.10 Emblema oficială a liceului ————————————————————————————— */
+.scoala-card-row{
+  display:flex;
+  align-items:center;
+  gap:var(--sp-4);
+  margin-top:10px;
+}
+.emblema-scoala{
+  width:60px;
+  height:60px;
+  border-radius:var(--r-md);
+  box-shadow:0 4px 14px rgba(16,25,42,.28), 0 0 0 1.5px rgba(233,180,92,.5);
+  flex-shrink:0;
+  object-fit:cover;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   4.11 Tastatură Matematică Nativă și Ciornă de Calcul
+   ═══════════════════════════════════════════════════════════════════════════ */
+.topbar-mate-btn{
+  font-weight:700;
+  font-family:var(--f-serif, "Georgia", serif);
+  font-size:1.15rem;
+  color:var(--accent);
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  margin-left: 0;
+}
+#btn-despre {
+  margin-left: 0;
+  color: var(--accent);
+}
+#btn-despre svg {
+  width: 20px;
+  height: 20px;
+}
+.despre-contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--sp-3);
+  margin-top: var(--sp-2);
+}
+.despre-contact-card {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  padding: var(--sp-3);
+  border-radius: var(--r-card, 16px);
+  background: var(--surface-overlay, rgba(255,255,255,0.06));
+  border: 1px solid var(--glass-border);
+  text-decoration: none;
+  color: var(--ink);
+  transition: transform var(--dur-fast) ease, background var(--dur-fast) ease, border-color var(--dur-fast) ease;
+}
+.despre-contact-card:hover {
+  transform: translateY(-2px);
+  background: var(--surface-elevated, rgba(255,255,255,0.12));
+  border-color: var(--accent);
+}
+.despre-contact-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 1.25rem;
+  background: var(--accent-subtle, rgba(217,119,6,0.12));
+  color: var(--accent);
+  flex-shrink: 0;
+}
+.despre-stat-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: var(--r-pill, 999px);
+  background: var(--surface-overlay, rgba(255,255,255,0.05));
+  border: 1px solid var(--glass-border);
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--ink);
+}
+.despre-stat-chip b {
+  color: var(--accent);
+  font-weight: 700;
+}
+.sheet.tastatura-mate-modal{
+  max-width:680px;
+  max-height:92vh;
+  overflow-y:auto;
+  display:flex;
+  flex-direction:column;
+  gap:var(--sp-3);
+  padding:var(--sp-4);
+}
+.mate-modal-header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  border-bottom:1px solid var(--hairline);
+  padding-bottom:var(--sp-2);
+}
+.mate-modal-header h3{
+  margin:0;
+  font-size:1.1rem;
+  display:flex;
+  align-items:center;
+  gap:var(--sp-2);
+}
+.mate-preview-box{
+  min-height:52px;
+  padding:var(--sp-3);
+  background:var(--surface-sunken);
+  border:1.5px solid var(--hairline-strong);
+  border-radius:var(--r-md);
+  font-family:var(--f-serif, "Cambria Math", "Georgia", serif);
+  font-size:1.2rem;
+  line-height:1.5;
+  color:var(--ink);
+  overflow-x:auto;
+  white-space:pre-wrap;
+  word-break:break-word;
+  box-shadow:inset 0 2px 5px rgba(0,0,0,0.05);
+}
+.mate-preview-box:empty::before{
+  content:"Previzualizarea formulei va apărea aici...";
+  color:var(--ink-faint);
+  font-style:italic;
+  font-size:0.95rem;
+  font-family:var(--f-sans, sans-serif);
+}
+.mate-input{
+  width:100%;
+  box-sizing:border-box;
+  font-family:monospace;
+  font-size:1rem;
+  padding:var(--sp-2) var(--sp-3);
+  border-radius:var(--r-md);
+  border:1px solid var(--hairline);
+  background:var(--surface-base);
+  color:var(--ink);
+  resize:vertical;
+}
+.mate-tabs{
+  display:flex;
+  gap:var(--sp-2);
+  overflow-x:auto;
+  padding-bottom:4px;
+}
+.mate-tab-btn{
+  padding:6px 12px;
+  font-size:0.85rem;
+  font-weight:600;
+  border-radius:var(--r-full);
+  border:1px solid var(--hairline);
+  background:var(--surface-raised);
+  color:var(--ink-muted);
+  cursor:pointer;
+  white-space:nowrap;
+  transition:background .15s, color .15s, border-color .15s;
+}
+.mate-tab-btn.activ{
+  background:var(--brand);
+  color:var(--brand-ink);
+  border-color:var(--brand);
+}
+.mate-grid{
+  display:grid;
+  grid-template-columns:repeat(7, 1fr);
+  gap:6px;
+}
+@media (max-width: 480px){
+  .mate-grid{
+    grid-template-columns:repeat(6, 1fr);
+    gap:4px;
+  }
+}
+.mate-key{
+  height:44px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:var(--surface-raised);
+  border:1px solid var(--hairline);
+  border-radius:var(--r-sm);
+  font-family:var(--f-serif, "Cambria Math", "Georgia", serif);
+  font-size:1.15rem;
+  color:var(--ink);
+  cursor:pointer;
+  user-select:none;
+  box-shadow:0 1px 3px rgba(0,0,0,0.08);
+  transition:transform .08s, background .12s, box-shadow .08s;
+}
+.mate-key:active{
+  transform:scale(0.94);
+  background:var(--surface-sunken);
+  box-shadow:inset 0 1px 3px rgba(0,0,0,0.15);
+}
+.mate-key.fn{
+  background:var(--surface-sunken);
+  color:var(--brand);
+  font-weight:600;
+  font-size:0.95rem;
+}
+.mate-actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:var(--sp-2);
+  margin-top:var(--sp-2);
+}
+.mate-actions .btn{
+  flex:1;
+  min-width:110px;
+  padding:8px 12px;
+  font-size:0.9rem;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   4.12 Tipografie Matematică și Formule
+   ═══════════════════════════════════════════════════════════════════════════ */
+.math-formula{
+  font-family:var(--f-serif, "Cambria Math", "Georgia", serif);
+  font-size:1.1em;
+  color:var(--ink);
+  display:inline-flex;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:2px;
+}
+.math-block{
+  display:block;
+  text-align:center;
+  margin:var(--sp-3) 0;
+  padding:var(--sp-3);
+  background:var(--surface-sunken);
+  border-radius:var(--r-md);
+  font-size:1.2em;
+  overflow-x:auto;
+}
+.math-frac{
+  display:inline-flex;
+  flex-direction:column;
+  vertical-align:-0.65em;
+  text-align:center;
+  padding:0 4px;
+  font-size:0.9em;
+  line-height:1;
+}
+.math-num{
+  border-bottom:1.5px solid currentColor;
+  padding-bottom:2px;
+}
+.math-den{
+  padding-top:2px;
+}
+.math-rad{
+  display:inline-flex;
+  align-items:baseline;
+  white-space:nowrap;
+}
+.math-rad-sym{
+  font-size:1.15em;
+  line-height:1;
+  margin-right:1px;
+}
+.math-rad-line{
+  border-top:1.5px solid currentColor;
+  padding:1px 3px 0 2px;
+  display:inline-block;
+}
+.math-sym{
+  font-style:italic;
+  padding:0 1px;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   4.13 Video Explicativ și Tabla Interactivă Pas-cu-Pas
+   ═══════════════════════════════════════════════════════════════════════════ */
+.card-mate-video{
+  background:var(--surface-raised);
+  border:1px solid var(--hairline);
+  border-left:4px solid var(--brand);
+  border-radius:var(--r-md);
+  padding:var(--sp-4);
+  margin:var(--sp-4) 0;
+}
+.video-card-header{
+  display:flex;
+  align-items:flex-start;
+  gap:var(--sp-3);
+  margin-bottom:var(--sp-3);
+}
+.video-card-icon{
+  font-size:1.8rem;
+  line-height:1;
+}
+.video-card-meta h4{
+  margin:0 0 4px;
+  font-size:1.05rem;
+  color:var(--ink);
+}
+.video-player-container{
+  width:100%;
+  border-radius:var(--r-md);
+  overflow:hidden;
+  background:#0B0F1C;
+  min-height:180px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.video-player-container iframe{
+  width:100%;
+  aspect-ratio:16 / 9;
+  border:none;
+  border-radius:var(--r-md);
+}
+.btn-video-play{
+  background:var(--brand);
+  color:var(--brand-ink);
+  padding:12px 24px;
+  font-weight:700;
+  border-radius:var(--r-full);
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  box-shadow:0 4px 14px rgba(91, 75, 214, 0.4);
+}
+.btn-video-yt{
+  background:rgba(255, 255, 255, 0.08);
+  border:1px solid rgba(255, 255, 255, 0.2);
+  color:#E2E8F0;
+  padding:11px 20px;
+  font-weight:600;
+  font-size:0.95rem;
+  border-radius:var(--r-full);
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  text-decoration:none;
+  transition:all 0.15s ease;
+}
+.btn-video-yt:hover{
+  background:rgba(255, 255, 255, 0.16);
+  border-color:rgba(255, 255, 255, 0.35);
+  color:#FFFFFF;
+  transform:translateY(-1px);
+}
+
+.mate-tabla-box{
+  background:#141B2D;
+  color:#E2E8F0;
+  border-radius:var(--r-lg);
+  padding:var(--sp-4);
+  margin:var(--sp-4) 0;
+  box-shadow:0 6px 20px rgba(10, 14, 26, 0.45), 0 0 0 1px rgba(255,255,255,0.08);
+}
+.mate-tabla-antet{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  border-bottom:1px solid rgba(255,255,255,0.12);
+  padding-bottom:10px;
+  margin-bottom:14px;
+  font-weight:600;
+  font-size:0.95rem;
+  color:#F8FAFC;
+}
+.mate-tabla-pas-card{
+  background:rgba(255,255,255,0.04);
+  border:1px solid rgba(255,255,255,0.08);
+  border-radius:var(--r-md);
+  padding:var(--sp-3);
+  margin-bottom:12px;
+  transition:all .2s;
+}
+.mate-tabla-pas-card.activ{
+  background:rgba(91, 75, 214, 0.15);
+  border-color:#A78BFA;
+  box-shadow:0 0 15px rgba(167, 139, 250, 0.2);
+}
+.pas-numar{
+  display:inline-block;
+  background:#A78BFA;
+  color:#1E1B4B;
+  font-weight:800;
+  font-size:0.75rem;
+  padding:2px 8px;
+  border-radius:var(--r-full);
+  margin-bottom:6px;
+  text-transform:uppercase;
+}
+.pas-titlu{
+  font-size:1.05rem;
+  font-weight:700;
+  color:#FFFFFF;
+  margin:0 0 6px;
+}
+.pas-explicatie{
+  font-size:0.92rem;
+  color:#CBD5E1;
+  line-height:1.5;
+  margin:0 0 8px;
+}
+.pas-formula{
+  background:rgba(0,0,0,0.3);
+  padding:8px 12px;
+  border-radius:var(--r-sm);
+  border-left:3px solid #F59E0B;
+  font-family:var(--f-serif, "Cambria Math", "Georgia", serif);
+  font-size:1.15rem;
+  color:#FDE68A;
+  margin-top:6px;
+  overflow-x:auto;
+}
+.mate-tabla-nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-top:14px;
+  padding-top:10px;
+  border-top:1px solid rgba(255,255,255,0.08);
+}
+
+.btn-video-search{
+  background:linear-gradient(135deg, rgba(239, 68, 68, 0.25) 0%, rgba(220, 38, 38, 0.4) 100%);
+  border:1px solid rgba(239, 68, 68, 0.45);
+  color:#FEE2E2;
+  font-weight:600;
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  text-decoration:none;
+  padding:8px 14px;
+  border-radius:var(--r-md);
+  transition:all .2s ease;
+}
+.btn-video-search:hover{
+  background:linear-gradient(135deg, rgba(239, 68, 68, 0.45) 0%, rgba(220, 38, 38, 0.6) 100%);
+  border-color:rgba(239, 68, 68, 0.7);
+  color:#FFFFFF;
+  transform:translateY(-1px);
+  box-shadow:0 4px 14px rgba(239, 68, 68, 0.3);
+}
+
+.btn-tabla-toggle{
+  border-color:rgba(167, 139, 250, 0.35);
+  color:#DDD6FE;
+  font-size:0.8rem;
+}
+.btn-tabla-toggle:hover{
+  background:rgba(167, 139, 250, 0.15);
+  color:#FFFFFF;
+  border-color:#A78BFA;
+}
+
+.mate-tabla-toti-pasii{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  max-height:550px;
+  overflow-y:auto;
+  padding-right:6px;
+}
+.mate-tabla-pas-card.complet{
+  border-left:3px solid #A78BFA;
+  background:rgba(255, 255, 255, 0.03);
+}
+
+.video-fallback-bar{
+  margin-top:10px;
+  padding:8px 12px;
+  background:rgba(0,0,0,0.25);
+  border-radius:var(--r-md);
+  border:1px dashed rgba(255,255,255,0.15);
+  text-align:center;
+}
+
+.card-video-sugestie{
+  background:var(--card-bg, rgba(255,255,255,0.05));
+  border:1px solid var(--b-subtil, rgba(255,255,255,0.1));
+  border-radius:var(--r-lg);
+  padding:var(--sp-3) var(--sp-4);
+  margin:var(--sp-4) 0;
+}
+
+@media print {
+  body {
+    background: #FFFFFF !important;
+    color: #111827 !important;
+    font-size: 11pt !important;
+  }
+  .topbar, .tabbar, #btn-despre, #btn-tastatura-mate, #btn-setari, #btn-back,
+  .two-col-side, .card-mate-video, .video-fallback-bar, .rap-link,
+  .btn, .mate-tabla-nav, .icon-btn, .scrim, .sheet, #net-badge {
+    display: none !important;
+  }
+  .stage, .view, .two-col {
+    display: block !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+  }
+  .card {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    page-break-inside: avoid;
+  }
+  .mate-tabla-box {
+    background: #F9FAFB !important;
+    color: #111827 !important;
+    border: 1px solid #D1D5DB !important;
+    box-shadow: none !important;
+    page-break-inside: avoid;
+  }
+  .mate-tabla-antet {
+    color: #111827 !important;
+    border-bottom: 1px solid #D1D5DB !important;
+  }
+  .mate-tabla-pas-card {
+    background: #FFFFFF !important;
+    border: 1px solid #E5E7EB !important;
+    color: #111827 !important;
+    page-break-inside: avoid;
+  }
+  .pas-titlu {
+    color: #111827 !important;
+  }
+  .pas-explicatie {
+    color: #374151 !important;
+  }
+  .pas-formula {
+    background: #F3F4F6 !important;
+    color: #1E3A8A !important;
+    border-left: 3px solid #3B82F6 !important;
+  }
+  .pas-numar {
+    background: #4B5563 !important;
+    color: #FFFFFF !important;
+  }
+  .mate-tabla-toti-pasii {
+    max-height: none !important;
+    overflow: visible !important;
+  }
+  a {
+    text-decoration: none !important;
+    color: inherit !important;
+  }
+}
+
+

@@ -1,0 +1,1925 @@
+{
+ "id": "biologie-10",
+ "materie": "Biologie",
+ "clasa": "a X-a",
+ "an": 2,
+ "arie": "Matematică și științe ale naturii",
+ "bac": true,
+ "descriere": "Genetică și evoluție, diversitatea lumii vii, ecologie și educație pentru sănătate.",
+ "capitole": [
+  {
+   "id": "bio10-c1",
+   "titlu": "Genetică și evoluție",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "bio10-01",
+     "titlu": "Legile eredității",
+     "rezumat": "Gregor Mendel a descoperit, studiind mazărea, legile fundamentale ale eredității. Legea purității gameților spune că cei doi factori ereditari ai unei perechi se separă la formarea gameților, fiecare gamet primind doar unul. Legea segregării independente arată că perechile diferite de caractere se transmit independent, dacă genele lor se află pe cromozomi diferiți. O genă poate avea forme diferite, numite alele. Alela dominantă se exprimă și în prezența celeilalte; cea recesivă se exprimă doar în stare homozigotă. Un organism heterozigot poartă alela recesivă fără să o manifeste, ceea ce explică apariția unui caracter la copii când părinții nu îl aveau. Nu toate caracterele urmează modelul simplu: există dominanță incompletă, codominanță (grupele sangvine AB), alele multiple și caractere poligenice, precum înălțimea sau culoarea pielii, influențate și de mediu.",
+     "ideiCheie": [
+      "Legea purității gameților: factorii ereditari se separă la formarea gameților.",
+      "Alela dominantă se exprimă și în heterozigot; cea recesivă, doar în homozigot.",
+      "Heterozigoții pot transmite caractere pe care nu le manifestă.",
+      "Caracterele poligenice depind de mai multe gene și de mediu."
+     ],
+     "termeni": [
+      {
+       "t": "alelă",
+       "d": "una dintre formele posibile ale unei gene"
+      },
+      {
+       "t": "heterozigot",
+       "d": "organism care poartă două alele diferite pentru aceeași genă"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce spune legea purității gameților?",
+       "v": "Cei doi factori ereditari ai unei perechi se separă, fiecare gamet primind doar unul."
+      },
+      {
+       "f": "Când se manifestă o alelă recesivă?",
+       "v": "Doar în stare homozigotă."
+      },
+      {
+       "f": "Ce este codominanța?",
+       "v": "Situația în care ambele alele se exprimă simultan, ca la grupa sangvină AB."
+      },
+      {
+       "f": "De ce poate apărea un caracter la copil, deși părinții nu îl au?",
+       "v": "Pentru că ambii părinți erau heterozigoți purtători ai alelei recesive."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Un organism heterozigot are:",
+       "optiuni": [
+        "două alele diferite pentru aceeași genă",
+        "două alele identice",
+        "o singură alelă",
+        "trei alele"
+       ],
+       "corect": 0,
+       "explicatie": "Manifestă alela dominantă."
+      },
+      {
+       "intrebare": "Grupa sangvină AB este un exemplu de:",
+       "optiuni": [
+        "codominanță",
+        "dominanță completă",
+        "recesivitate",
+        "caracter poligenic"
+       ],
+       "corect": 0,
+       "explicatie": "Ambele alele se exprimă."
+      },
+      {
+       "intrebare": "Înălțimea omului este un caracter:",
+       "optiuni": [
+        "poligenic, influențat și de mediu",
+        "determinat de o singură genă",
+        "exclusiv recesiv",
+        "codominant"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea variază continuu."
+      },
+      {
+       "intrebare": "Mendel a lucrat pe:",
+       "optiuni": [
+        "mazăre",
+        "muscă de oțet",
+        "șoareci",
+        "bacterii"
+       ],
+       "corect": 0,
+       "explicatie": "Alesese o plantă cu caractere clar distincte."
+      }
+     ]
+    },
+    {
+     "id": "bio10-02",
+     "titlu": "ADN, gene, biotehnologii",
+     "rezumat": "Informația genetică este stocată în ADN sub forma succesiunii de baze azotate. Replicarea copiază ADN-ul înaintea diviziunii; transcripția produce ARN mesager după modelul ADN; translația citește ARN-ul la nivelul ribozomilor și construiește proteina, câte un aminoacid pentru fiecare grup de trei baze. Codul genetic este practic universal, ceea ce arată originea comună a viețuitoarelor și face posibile biotehnologiile. Mutațiile sunt modificări ale materialului genetic: pot fi genice, cromozomiale sau genomice. Cele mai multe sunt neutre sau dăunătoare, dar unele aduc avantaje și constituie materia primă a evoluției. Biotehnologiile moderne folosesc ADN recombinant pentru a produce insulină umană în bacterii, vaccinuri, enzime industriale și plante rezistente. Editarea genetică permite modificări precise, ridicând întrebări etice serioase despre limitele intervenției, mai ales asupra celulelor germinale umane.",
+     "ideiCheie": [
+      "ADN → ARN mesager → proteină: replicare, transcripție, translație.",
+      "Codul genetic este practic universal.",
+      "Mutațiile sunt materia primă a evoluției, deși majoritatea sunt neutre sau dăunătoare.",
+      "Biotehnologiile ridică întrebări etice, mai ales la editarea celulelor germinale."
+     ],
+     "termeni": [
+      {
+       "t": "transcripție",
+       "d": "sinteza unei molecule de ARN mesager după modelul unei secvențe de ADN"
+      },
+      {
+       "t": "mutație",
+       "d": "modificare a materialului genetic, transmisibilă celulelor descendente"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt cele trei procese fundamentale ale informației genetice?",
+       "v": "Replicarea, transcripția și translația."
+      },
+      {
+       "f": "De ce este importantă universalitatea codului genetic?",
+       "v": "Arată originea comună a viețuitoarelor și permite transferul de gene între specii."
+      },
+      {
+       "f": "Ce rol au mutațiile în evoluție?",
+       "v": "Sunt sursa variabilității asupra căreia acționează selecția naturală."
+      },
+      {
+       "f": "Ce produs medical major se obține prin ADN recombinant?",
+       "v": "Insulina umană, produsă de bacterii modificate."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Translația are loc la nivelul:",
+       "optiuni": [
+        "ribozomilor",
+        "nucleului",
+        "mitocondriilor",
+        "aparatului Golgi"
+       ],
+       "corect": 0,
+       "explicatie": "Acolo se construiește proteina."
+      },
+      {
+       "intrebare": "Un grup de trei baze din ARN codifică:",
+       "optiuni": [
+        "un aminoacid",
+        "o proteină întreagă",
+        "o genă",
+        "un cromozom"
+       ],
+       "corect": 0,
+       "explicatie": "Se numește codon."
+      },
+      {
+       "intrebare": "Majoritatea mutațiilor sunt:",
+       "optiuni": [
+        "neutre sau dăunătoare",
+        "benefice",
+        "letale întotdeauna",
+        "imposibil de detectat"
+       ],
+       "corect": 0,
+       "explicatie": "Cele avantajoase sunt rare, dar decisive evolutiv."
+      },
+      {
+       "intrebare": "Editarea genetică a celulelor germinale umane ridică:",
+       "optiuni": [
+        "probleme etice serioase",
+        "doar probleme tehnice",
+        "nicio problemă",
+        "exclusiv probleme economice"
+       ],
+       "corect": 0,
+       "explicatie": "Modificările s-ar transmite generațiilor următoare."
+      }
+     ]
+    },
+    {
+     "id": "bio10-03",
+     "titlu": "Evoluția",
+     "rezumat": "Evoluția este schimbarea în timp a caracteristicilor ereditare ale populațiilor. Darwin a propus mecanismul selecției naturale: în orice populație există variabilitate, resursele sunt limitate, iar indivizii cu trăsături avantajoase supraviețuiesc și se reproduc mai mult, transmițându-le. Cu ADN-ul descoperit ulterior, sinteza modernă a explicat sursa variabilității: mutațiile și recombinarea genetică. Dovezile evoluției sunt multiple și convergente: fosilele arată forme intermediare și succesiunea în timp; anatomia comparată arată organe omoloage (aripa liliacului, laba pisicii, mâna omului) construite pe același plan; embriologia arată asemănări în dezvoltarea timpurie; biochimia și genetica arată gene comune. Speciația apare când populațiile se izolează reproductiv. Selecția artificială, practicată de om, a creat rasele de animale domestice și soiurile de plante. Rezistența bacteriilor la antibiotice este evoluție observabilă în timp real și un motiv serios de sănătate publică.",
+     "ideiCheie": [
+      "Selecția naturală acționează asupra variabilității ereditare a populațiilor.",
+      "Sursa variabilității: mutațiile și recombinarea genetică.",
+      "Dovezi: fosile, anatomie comparată, embriologie, biochimie, genetică.",
+      "Rezistența la antibiotice este evoluție observabilă în timp real."
+     ],
+     "termeni": [
+      {
+       "t": "selecție naturală",
+       "d": "procesul prin care indivizii cu trăsături avantajoase lasă mai mulți descendenți"
+      },
+      {
+       "t": "organe omoloage",
+       "d": "organe cu aceeași origine și plan de construcție, dar cu funcții eventual diferite"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce a propus Darwin ca mecanism al evoluției?",
+       "v": "Selecția naturală."
+      },
+      {
+       "f": "Ce sunt organele omoloage?",
+       "v": "Organe cu aceeași origine și același plan de construcție, chiar dacă au funcții diferite."
+      },
+      {
+       "f": "De unde vine variabilitatea asupra căreia acționează selecția?",
+       "v": "Din mutații și din recombinarea genetică."
+      },
+      {
+       "f": "De ce e importantă rezistența la antibiotice?",
+       "v": "E o dovadă de evoluție în timp real și o problemă majoră de sănătate publică."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Aripa liliacului și mâna omului sunt organe:",
+       "optiuni": [
+        "omoloage",
+        "analoage",
+        "rudimentare",
+        "fără legătură evolutivă"
+       ],
+       "corect": 0,
+       "explicatie": "Au același plan de construcție."
+      },
+      {
+       "intrebare": "Speciația apare când populațiile:",
+       "optiuni": [
+        "se izolează reproductiv",
+        "migrează împreună",
+        "au aceleași mutații",
+        "trăiesc în același areal"
+       ],
+       "corect": 0,
+       "explicatie": "Izolarea permite divergența."
+      },
+      {
+       "intrebare": "Selecția artificială a produs:",
+       "optiuni": [
+        "rasele de animale domestice și soiurile de plante",
+        "speciile sălbatice",
+        "mutațiile genetice",
+        "izolarea reproductivă"
+       ],
+       "corect": 0,
+       "explicatie": "Omul alege trăsăturile pe care le înmulțește."
+      },
+      {
+       "intrebare": "Fosilele constituie dovezi ale evoluției pentru că:",
+       "optiuni": [
+        "arată forme intermediare și succesiunea lor în timp",
+        "conțin ADN intact",
+        "se găsesc doar în anumite zone",
+        "sunt identice cu speciile actuale"
+       ],
+       "corect": 0,
+       "explicatie": "Straturile geologice le datează."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bio10-c2",
+   "titlu": "Diversitatea lumii vii",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "bio10-04",
+     "titlu": "Clasificarea organismelor",
+     "rezumat": "Clasificarea ordonează diversitatea vie. Sistemul binar, introdus de Linné, dă fiecărei specii un nume din două cuvinte: genul și epitetul specific — Homo sapiens, Quercus robur. Categoriile sistematice se cuprind ierarhic: specie, gen, familie, ordin, clasă, încrengătură, regn, domeniu. Specia este definită prin capacitatea indivizilor de a se reproduce între ei și de a lăsa descendenți fertili. Marile grupe sunt: bacteriile și arheele (procariote), protistele, ciupercile, plantele și animalele. Virusurile sunt un caz aparte: nu au structură celulară și se pot replica doar în celule-gazdă, ceea ce le plasează la granița dintre viu și neviu. Clasificarea modernă nu mai folosește doar asemănările de formă, ci și datele moleculare, care reconstituie înrudirile reale; de aceea unele grupări tradiționale au fost regândite complet.",
+     "ideiCheie": [
+      "Sistemul binar dă fiecărei specii un nume din gen și epitet specific.",
+      "Categoriile sistematice se cuprind ierarhic, de la specie la domeniu.",
+      "Specia se definește prin descendenți fertili.",
+      "Clasificarea modernă folosește și datele moleculare, nu doar forma."
+     ],
+     "termeni": [
+      {
+       "t": "nomenclatură binară",
+       "d": "sistemul de denumire a speciilor prin două cuvinte latinești"
+      },
+      {
+       "t": "specie",
+       "d": "grup de organisme care se pot reproduce între ele și lasă descendenți fertili"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cine a introdus nomenclatura binară?",
+       "v": "Carl Linné."
+      },
+      {
+       "f": "Cum se definește specia?",
+       "v": "Prin capacitatea indivizilor de a se reproduce între ei și de a lăsa descendenți fertili."
+      },
+      {
+       "f": "De ce sunt virusurile un caz aparte?",
+       "v": "Nu au structură celulară și se replică doar în interiorul unei celule-gazdă."
+      },
+      {
+       "f": "Ce a schimbat în clasificare analiza moleculară?",
+       "v": "A dezvăluit înrudirile reale și a dus la regândirea unor grupări tradiționale."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Numele „Homo sapiens” este format din:",
+       "optiuni": [
+        "gen și epitet specific",
+        "familie și ordin",
+        "clasă și încrengătură",
+        "regn și domeniu"
+       ],
+       "corect": 0,
+       "explicatie": "Este nomenclatura binară."
+      },
+      {
+       "intrebare": "Virusurile:",
+       "optiuni": [
+        "se replică doar în celule-gazdă",
+        "au structură celulară proprie",
+        "se hrănesc independent",
+        "sunt bacterii mici"
+       ],
+       "corect": 0,
+       "explicatie": "Sunt la granița dintre viu și neviu."
+      },
+      {
+       "intrebare": "Categoria sistematică imediat superioară genului este:",
+       "optiuni": [
+        "familia",
+        "ordinul",
+        "specia",
+        "clasa"
+       ],
+       "corect": 0,
+       "explicatie": "Ierarhia urcă spre domeniu."
+      },
+      {
+       "intrebare": "Doi indivizi aparțin aceleiași specii dacă:",
+       "optiuni": [
+        "lasă împreună descendenți fertili",
+        "seamănă la înfățișare",
+        "trăiesc în același loc",
+        "au aceeași hrană"
+       ],
+       "corect": 0,
+       "explicatie": "Criteriul e reproductiv, nu doar morfologic."
+      }
+     ]
+    },
+    {
+     "id": "bio10-05",
+     "titlu": "Plantele",
+     "rezumat": "Plantele sunt organisme autotrofe: își produc singure hrana prin fotosinteză, folosind lumina, apa și dioxidul de carbon, cu eliberare de oxigen. Ele stau la baza aproape tuturor lanțurilor trofice și au oxigenat atmosfera Pământului. Rădăcina absoarbe apa și sărurile minerale și fixează planta; tulpina susține și conduce seva prin vase; frunza este sediul fotosintezei, al transpirației și al schimbului de gaze prin stomate. Reproducerea poate fi asexuată (butași, bulbi, stoloni) sau sexuată, prin floare, fruct și sămânță. Polenizarea, făcută de vânt sau de animale — mai ales insecte —, este esențială pentru producția agricolă; declinul polenizatorilor este o problemă majoră. Marile grupe de plante sunt algele, briofitele (mușchii), pteridofitele (ferigile), gimnospermele (coniferele) și angiospermele (plantele cu flori), acestea din urmă fiind cele mai numeroase și diverse.",
+     "ideiCheie": [
+      "Plantele sunt autotrofe și produc oxigen prin fotosinteză.",
+      "Rădăcina absoarbe, tulpina conduce, frunza fotosintetizează.",
+      "Polenizarea, în mare parte făcută de insecte, e esențială pentru agricultură.",
+      "Angiospermele, plantele cu flori, sunt cel mai numeros grup."
+     ],
+     "termeni": [
+      {
+       "t": "autotrof",
+       "d": "organism care își sintetizează singur substanțele organice, folosind o sursă externă de energie"
+      },
+      {
+       "t": "stomată",
+       "d": "deschidere microscopică din epiderma frunzei, prin care se fac schimburile de gaze"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce produce fotosinteza?",
+       "v": "Substanțe organice și oxigen, din apă și dioxid de carbon, folosind energia luminii."
+      },
+      {
+       "f": "Ce rol au stomatele?",
+       "v": "Permit schimbul de gaze și transpirația la nivelul frunzei."
+      },
+      {
+       "f": "De ce e importantă polenizarea pentru om?",
+       "v": "Pentru că de ea depinde producția majorității culturilor agricole."
+      },
+      {
+       "f": "Care e cel mai numeros grup de plante?",
+       "v": "Angiospermele, plantele cu flori."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Fotosinteza eliberează:",
+       "optiuni": [
+        "oxigen",
+        "dioxid de carbon",
+        "azot",
+        "metan"
+       ],
+       "corect": 0,
+       "explicatie": "Și produce substanțe organice."
+      },
+      {
+       "intrebare": "Organul specializat pentru fotosinteză este:",
+       "optiuni": [
+        "frunza",
+        "rădăcina",
+        "tulpina",
+        "floarea"
+       ],
+       "corect": 0,
+       "explicatie": "Rădăcina absoarbe apa și sărurile."
+      },
+      {
+       "intrebare": "Coniferele fac parte din:",
+       "optiuni": [
+        "gimnosperme",
+        "angiosperme",
+        "pteridofite",
+        "briofite"
+       ],
+       "corect": 0,
+       "explicatie": "Au semințe neînchise în fruct."
+      },
+      {
+       "intrebare": "Declinul insectelor polenizatoare afectează direct:",
+       "optiuni": [
+        "producția agricolă",
+        "calitatea aerului",
+        "fertilitatea solului",
+        "ciclul apei"
+       ],
+       "corect": 0,
+       "explicatie": "Multe culturi depind de ele."
+      }
+     ]
+    },
+    {
+     "id": "bio10-06",
+     "titlu": "Animalele",
+     "rezumat": "Animalele sunt heterotrofe: își procură hrana din alte organisme. Nevertebratele cuprind majoritatea speciilor: spongieri, celenterate, viermi, moluște, artropode (insecte, arahnide, crustacee, miriapode) și echinoderme. Insectele sunt cel mai divers grup de pe planetă, cu rol esențial în polenizare, descompunere și lanțurile trofice. Vertebratele au coloană vertebrală și cuprind peștii, amfibienii, reptilele, păsările și mamiferele. Evoluția lor arată adaptarea progresivă la viața terestră: respirația branhială devine pulmonară, oul cu înveliș protector eliberează reptilele de dependența de apă, homeotermia păsărilor și mamiferelor permite ocuparea mediilor extreme. Omul este mamifer, din ordinul primatelor, caracterizat prin poziție bipedă, mână prehensilă cu police opozabil, creier voluminos și limbaj articulat.",
+     "ideiCheie": [
+      "Animalele sunt heterotrofe: își procură hrana din alte organisme.",
+      "Insectele sunt cel mai divers grup de pe planetă.",
+      "Evoluția vertebratelor arată adaptarea progresivă la viața terestră.",
+      "Omul este un mamifer din ordinul primatelor."
+     ],
+     "termeni": [
+      {
+       "t": "heterotrof",
+       "d": "organism care își procură substanțele organice consumând alte organisme"
+      },
+      {
+       "t": "homeotermie",
+       "d": "capacitatea de a menține constantă temperatura corpului"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care este cel mai divers grup de animale?",
+       "v": "Insectele."
+      },
+      {
+       "f": "Ce a permis reptilelor să se elibereze de dependența de apă?",
+       "v": "Oul cu înveliș protector."
+      },
+      {
+       "f": "Ce înseamnă homeotermie?",
+       "v": "Menținerea constantă a temperaturii corpului, la păsări și mamifere."
+      },
+      {
+       "f": "Din ce ordin de mamifere face parte omul?",
+       "v": "Din ordinul primatelor."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Artropodele cuprind:",
+       "optiuni": [
+        "insectele, arahnidele, crustaceele și miriapodele",
+        "doar insectele",
+        "moluștele și viermii",
+        "peștii și amfibienii"
+       ],
+       "corect": 0,
+       "explicatie": "Au schelet extern și corp segmentat."
+      },
+      {
+       "intrebare": "Homeotermia caracterizează:",
+       "optiuni": [
+        "păsările și mamiferele",
+        "reptilele",
+        "amfibienii",
+        "peștii"
+       ],
+       "corect": 0,
+       "explicatie": "Le permite să ocupe medii extreme."
+      },
+      {
+       "intrebare": "Trăsăturile distinctive ale omului includ:",
+       "optiuni": [
+        "bipedia, policele opozabil, creierul voluminos, limbajul articulat",
+        "respirația branhială",
+        "homeotermia exclusiv",
+        "reproducerea prin ouă"
+       ],
+       "corect": 0,
+       "explicatie": "Toate țin de linia primatelor."
+      },
+      {
+       "intrebare": "Animalele sunt organisme:",
+       "optiuni": [
+        "heterotrofe",
+        "autotrofe",
+        "fotosintetizante",
+        "chemosintetizante exclusiv"
+       ],
+       "corect": 0,
+       "explicatie": "Își iau hrana din alte organisme."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bio10-c3",
+   "titlu": "Ecologie și sănătate",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "bio10-07",
+     "titlu": "Ecosisteme și fluxuri",
+     "rezumat": "Ecosistemul cuprinde biotopul (mediul fizic) și biocenoza (totalitatea organismelor) și funcționează prin relațiile dintre ele. Energia intră prin producători, care o captează din lumină, trece la consumatori și se pierde în mare parte ca și căldură la fiecare nivel: doar aproximativ 10% se transferă mai departe, motiv pentru care lanțurile trofice au puține verigi și pentru care o dietă bazată pe plante e mai eficientă energetic. Descompunătorii — bacterii și ciuperci — reintroduc materia în circuit. Spre deosebire de energie, care curge într-un singur sens, materia circulă: ciclurile apei, carbonului, azotului și fosforului leagă viul de neviu. Relațiile dintre specii sunt de competiție, prădătorism, parazitism, comensalism și mutualism. Ecosistemele au capacitatea de a-și reveni după perturbări, dar peste un prag depășit schimbarea devine ireversibilă, iar biodiversitatea pierdută nu se mai recuperează.",
+     "ideiCheie": [
+      "Ecosistemul cuprinde biotopul și biocenoza.",
+      "Energia curge într-un singur sens; materia circulă în cicluri.",
+      "Doar circa 10% din energie trece la nivelul trofic următor.",
+      "Peste un prag, schimbarea ecosistemelor devine ireversibilă."
+     ],
+     "termeni": [
+      {
+       "t": "biocenoză",
+       "d": "totalitatea organismelor care conviețuiesc într-un anumit mediu"
+      },
+      {
+       "t": "nivel trofic",
+       "d": "poziția unui organism în lanțul de transfer al energiei într-un ecosistem"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Din ce se compune un ecosistem?",
+       "v": "Din biotop, mediul fizic, și biocenoză, totalitatea organismelor."
+      },
+      {
+       "f": "Cât din energie trece la nivelul trofic următor?",
+       "v": "Aproximativ 10%."
+      },
+      {
+       "f": "Ce rol au descompunătorii?",
+       "v": "Reintroduc materia organică în circuitul substanțelor."
+      },
+      {
+       "f": "Prin ce se deosebește circulația materiei de cea a energiei?",
+       "v": "Materia circulă în cicluri; energia curge într-un singur sens și se pierde ca și căldură."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Lanțurile trofice au puține verigi pentru că:",
+       "optiuni": [
+        "se pierde multă energie la fiecare transfer",
+        "speciile sunt puține",
+        "prădătorii lipsesc",
+        "materia nu circulă"
+       ],
+       "corect": 0,
+       "explicatie": "Doar circa 10% ajunge la nivelul următor."
+      },
+      {
+       "intrebare": "Mutualismul este o relație în care:",
+       "optiuni": [
+        "ambele specii au de câștigat",
+        "o specie câștigă, cealaltă pierde",
+        "o specie câștigă, cealaltă nu e afectată",
+        "ambele pierd"
+       ],
+       "corect": 0,
+       "explicatie": "Parazitismul avantajează doar o parte."
+      },
+      {
+       "intrebare": "Descompunătorii sunt, în principal:",
+       "optiuni": [
+        "bacterii și ciuperci",
+        "plante verzi",
+        "insecte prădătoare",
+        "animale erbivore"
+       ],
+       "corect": 0,
+       "explicatie": "Ei închid circuitul materiei."
+      },
+      {
+       "intrebare": "Biodiversitatea pierdută:",
+       "optiuni": [
+        "nu se mai recuperează",
+        "revine automat în câțiva ani",
+        "crește după perturbare",
+        "nu influențează ecosistemul"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea conservarea e preventivă."
+      }
+     ]
+    },
+    {
+     "id": "bio10-08",
+     "titlu": "Omul și mediul",
+     "rezumat": "Activitatea umană schimbă biosfera la scară planetară. Arderea combustibililor fosili crește concentrația gazelor cu efect de seră și determină încălzirea globală, cu efecte în lanț: topirea ghețarilor, creșterea nivelului mării, evenimente meteorologice extreme, deplasarea zonelor climatice. Defrișările reduc capacitatea de absorbție a carbonului și distrug habitate. Poluarea apei, aerului și solului afectează sănătatea, iar deșeurile, mai ales cele plastice, se acumulează în ecosisteme. Soluțiile există la toate nivelurile: energie regenerabilă, eficiență energetică, transport public, agricultură durabilă, reducerea risipei alimentare, reciclare, arii protejate, refacerea habitatelor. Deciziile individuale contează, dar politicile publice și acordurile internaționale au impactul cel mai mare. Educația ecologică formează cetățeni capabili să evalueze informația și să ia decizii în cunoștință de cauză, în loc să reacționeze la alarmism sau la negaționism.",
+     "ideiCheie": [
+      "Arderea combustibililor fosili determină încălzirea globală.",
+      "Defrișările reduc absorbția carbonului și distrug habitate.",
+      "Soluțiile există la nivel individual, dar politicile publice au impactul cel mai mare.",
+      "Educația ecologică formează capacitatea de a evalua informația."
+     ],
+     "termeni": [
+      {
+       "t": "efect de seră",
+       "d": "reținerea căldurii în atmosferă de către anumite gaze, ceea ce încălzește planeta"
+      },
+      {
+       "t": "dezvoltare durabilă",
+       "d": "dezvoltarea care satisface nevoile prezentului fără a compromite nevoile generațiilor viitoare"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce determină încălzirea globală?",
+       "v": "Creșterea concentrației gazelor cu efect de seră, în special prin arderea combustibililor fosili."
+      },
+      {
+       "f": "De ce sunt importante pădurile pentru climă?",
+       "v": "Absorb dioxid de carbon și adăpostesc o mare parte din biodiversitate."
+      },
+      {
+       "f": "Ce este dezvoltarea durabilă?",
+       "v": "Dezvoltarea care satisface nevoile prezentului fără a compromite nevoile generațiilor viitoare."
+      },
+      {
+       "f": "Cine are impactul cel mai mare asupra mediului: individul sau politicile publice?",
+       "v": "Politicile publice și acordurile internaționale, deși deciziile individuale contează."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Efectul de seră este produs de:",
+       "optiuni": [
+        "gaze care rețin căldura în atmosferă",
+        "particulele de praf",
+        "radiația ultravioletă",
+        "ozonul stratosferic"
+       ],
+       "corect": 0,
+       "explicatie": "Dioxidul de carbon și metanul sunt principalele."
+      },
+      {
+       "intrebare": "Defrișările contribuie la schimbările climatice pentru că:",
+       "optiuni": [
+        "reduc absorbția dioxidului de carbon",
+        "răcesc atmosfera",
+        "cresc umiditatea aerului",
+        "nu au efect asupra climei"
+       ],
+       "corect": 0,
+       "explicatie": "Distrug totodată habitate."
+      },
+      {
+       "intrebare": "Cea mai eficientă cale de reducere a impactului asupra mediului este:",
+       "optiuni": [
+        "combinarea deciziilor individuale cu politici publice",
+        "exclusiv reciclarea individuală",
+        "exclusiv tehnologia",
+        "așteptarea soluțiilor viitoare"
+       ],
+       "corect": 0,
+       "explicatie": "Amploarea problemei cere ambele niveluri."
+      },
+      {
+       "intrebare": "Educația ecologică urmărește:",
+       "optiuni": [
+        "capacitatea de a evalua informația și de a decide în cunoștință de cauză",
+        "memorarea cifrelor despre poluare",
+        "alarmismul",
+        "negarea problemelor"
+       ],
+       "corect": 0,
+       "explicatie": "Deciziile bune cer informație verificată."
+      }
+     ]
+    },
+    {
+     "id": "bio10-09",
+     "titlu": "Sănătate și stil de viață",
+     "rezumat": "Sănătatea nu înseamnă doar absența bolii, ci și starea de bine fizică, psihică și socială. Alimentația echilibrată cuprinde toate grupele de alimente în proporții potrivite, cu legume, fructe și cereale integrale în prim-plan și cu limitarea zahărului adăugat, a sării și a grăsimilor saturate. Mișcarea regulată reduce riscul de boli cardiovasculare, diabet, obezitate și depresie. Somnul suficient consolidează memoria și reface organismul. Prevenția este mai eficientă decât tratarea: vaccinarea, igiena, controalele periodice, protecția solară. Consumul de tutun, alcool și droguri produce dependență și boli grave; dependența are bază neurobiologică, ceea ce explică de ce voința singură rareori e de ajuns și de ce ajutorul specializat funcționează. Sănătatea mintală merită aceeași atenție ca cea fizică: stresul cronic, anxietatea și depresia se pot trata, iar cererea de ajutor este un semn de responsabilitate, nu de slăbiciune. Informația medicală trebuie luată din surse verificate.",
+     "ideiCheie": [
+      "Sănătatea este stare de bine fizică, psihică și socială, nu doar absența bolii.",
+      "Prevenția — vaccinare, igienă, controale periodice — e mai eficientă decât tratarea.",
+      "Dependența are bază neurobiologică; ajutorul specializat funcționează.",
+      "Sănătatea mintală merită aceeași atenție ca cea fizică."
+     ],
+     "termeni": [
+      {
+       "t": "prevenție",
+       "d": "ansamblul măsurilor prin care se evită apariția bolilor"
+      },
+      {
+       "t": "dependență",
+       "d": "stare în care consumul unei substanțe devine necesar, cu modificări neurobiologice durabile"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se definește sănătatea?",
+       "v": "Ca stare de bine fizică, psihică și socială, nu doar absența bolii."
+      },
+      {
+       "f": "De ce nu e suficientă voința în cazul dependenței?",
+       "v": "Pentru că dependența modifică circuitele neurobiologice ale recompensei."
+      },
+      {
+       "f": "Ce măsuri de prevenție sunt cele mai eficiente?",
+       "v": "Vaccinarea, igiena, controalele periodice, alimentația și mișcarea."
+      },
+      {
+       "f": "De ce contează sursa informației medicale?",
+       "v": "Pentru că informația greșită poate duce la decizii periculoase pentru sănătate."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Somnul suficient are rol în:",
+       "optiuni": [
+        "consolidarea memoriei și refacerea organismului",
+        "creșterea masei musculare exclusiv",
+        "reducerea apetitului",
+        "eliminarea toxinelor din intestin"
+       ],
+       "corect": 0,
+       "explicatie": "Lipsa lui afectează atenția și starea de spirit."
+      },
+      {
+       "intrebare": "Cererea de ajutor pentru o problemă de sănătate mintală este:",
+       "optiuni": [
+        "un semn de responsabilitate",
+        "un semn de slăbiciune",
+        "inutilă",
+        "necesară doar în cazuri extreme"
+       ],
+       "corect": 0,
+       "explicatie": "Anxietatea și depresia se pot trata."
+      },
+      {
+       "intrebare": "Prevenția, față de tratare, este:",
+       "optiuni": [
+        "mai eficientă și mai ieftină",
+        "mai costisitoare",
+        "la fel de eficientă",
+        "utilă doar la copii"
+       ],
+       "corect": 0,
+       "explicatie": "Vaccinarea e exemplul clasic."
+      },
+      {
+       "intrebare": "Alimentația echilibrată pune în prim-plan:",
+       "optiuni": [
+        "legumele, fructele și cerealele integrale",
+        "carnea roșie",
+        "produsele procesate",
+        "băuturile îndulcite"
+       ],
+       "corect": 0,
+       "explicatie": "Zahărul adăugat și sarea se limitează."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bio10-c4",
+   "titlu": "Diviziunea celulară",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "bio10-10",
+     "titlu": "Ciclul celular și mitoza",
+     "rezumat": "Ciclul celular este succesiunea de etape prin care trece o celulă de la formare până la propria diviziune. El cuprinde interfaza, perioada cea mai lungă, în care celula crește și își copiază materialul genetic, și diviziunea propriu-zisă. Interfaza are trei subetape: G1 (creștere), S (replicarea ADN-ului, când fiecare cromozom devine format din doi cromatizi) și G2 (pregătirea diviziunii). Mitoza este diviziunea prin care dintr-o celulă rezultă două celule identice între ele și cu celula-mamă, având același număr de cromozomi. Ea se desfășoară în patru faze: profaza (cromozomii se condensează, se formează fusul de diviziune), metafaza (cromozomii se așază la ecuatorul celulei), anafaza (cromatizii se separă și migrează spre poli) și telofaza (se refac nucleii). Urmează citokineza, împărțirea citoplasmei. Mitoza asigură creșterea organismului, regenerarea și înlocuirea celulelor uzate, precum și reproducerea asexuată. Controlul ciclului celular este strict: când acest control se pierde, celulele se divid necontrolat și apare cancerul. De aceea studiul ciclului celular este esențial în medicină.",
+     "ideiCheie": [
+      "Ciclul celular cuprinde interfaza (G1, S, G2) și diviziunea.",
+      "În faza S se replică ADN-ul; fiecare cromozom ajunge cu doi cromatizi.",
+      "Mitoza are patru faze: profază, metafază, anafază, telofază.",
+      "Mitoza dă două celule identice cu celula-mamă."
+     ],
+     "termeni": [
+      {
+       "t": "ciclu celular",
+       "d": "succesiunea de etape prin care trece o celulă, de la formare până la diviziune"
+      },
+      {
+       "t": "interfază",
+       "d": "etapa dintre două diviziuni, în care celula crește și își copiază ADN-ul"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce se întâmplă în faza S a interfazei?",
+       "v": "Se replică ADN-ul; fiecare cromozom ajunge format din doi cromatizi."
+      },
+      {
+       "f": "Care sunt cele patru faze ale mitozei?",
+       "v": "Profaza, metafaza, anafaza și telofaza."
+      },
+      {
+       "f": "Câte celule rezultă din mitoză și cum sunt?",
+       "v": "Două celule identice între ele și cu celula-mamă."
+      },
+      {
+       "f": "Ce se întâmplă când controlul ciclului celular se pierde?",
+       "v": "Celulele se divid necontrolat și poate apărea cancerul."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Replicarea ADN-ului are loc în:",
+       "optiuni": [
+        "faza S a interfazei",
+        "profază",
+        "anafază",
+        "telofază"
+       ],
+       "corect": 0,
+       "explicatie": "Atunci fiecare cromozom devine format din doi cromatizi."
+      },
+      {
+       "intrebare": "În anafază:",
+       "optiuni": [
+        "cromatizii se separă și migrează spre poli",
+        "cromozomii se condensează",
+        "se replică ADN-ul",
+        "se reface nucleul"
+       ],
+       "corect": 0,
+       "explicatie": "Astfel fiecare celulă-fiică primește un set complet."
+      },
+      {
+       "intrebare": "Mitoza produce celule:",
+       "optiuni": [
+        "identice cu celula-mamă, cu același număr de cromozomi",
+        "cu jumătate din numărul de cromozomi",
+        "cu număr dublu de cromozomi",
+        "fără nucleu"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea asigură creșterea și regenerarea."
+      },
+      {
+       "intrebare": "Diviziunea necontrolată a celulelor stă la baza:",
+       "optiuni": [
+        "cancerului",
+        "meiozei",
+        "fecundației",
+        "fotosintezei"
+       ],
+       "corect": 0,
+       "explicatie": "Controlul ciclului celular este esențial."
+      }
+     ]
+    },
+    {
+     "id": "bio10-11",
+     "titlu": "Meioza",
+     "rezumat": "Meioza este diviziunea prin care se formează celulele sexuale (gameții) și prin care numărul de cromozomi se reduce la jumătate. Dintr-o celulă cu număr diploid (2n) de cromozomi rezultă patru celule cu număr haploid (n). Reducerea este necesară pentru ca, la fecundație, prin unirea a doi gameți, să se refacă numărul diploid caracteristic speciei; altfel numărul de cromozomi s-ar dubla la fiecare generație. Meioza cuprinde două diviziuni succesive. În prima, cromozomii omologi se împerechează și fac schimb de fragmente — fenomenul de recombinare (crossing-over) —, apoi se separă. În a doua diviziune se separă cromatizii, ca la mitoză. Rezultatul sunt patru celule diferite genetic între ele. Meioza este sursa principală a variabilității genetice, prin două mecanisme: recombinarea dintre cromozomii omologi și repartizarea întâmplătoare a cromozomilor materni și paterni în gameți. Împreună cu combinarea întâmplătoare a gameților la fecundație, ele explică de ce frații, deși au aceiași părinți, sunt diferiți între ei.",
+     "ideiCheie": [
+      "Meioza reduce numărul de cromozomi de la diploid (2n) la haploid (n).",
+      "Dintr-o celulă rezultă patru celule diferite genetic.",
+      "Recombinarea (crossing-over) amestecă fragmente între cromozomii omologi.",
+      "Meioza este sursa principală a variabilității genetice."
+     ],
+     "termeni": [
+      {
+       "t": "meioză",
+       "d": "diviziunea prin care se formează gameții, cu reducerea numărului de cromozomi la jumătate"
+      },
+      {
+       "t": "recombinare genetică",
+       "d": "schimbul de fragmente între cromozomii omologi, sursă de variabilitate"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "De ce trebuie redus numărul de cromozomi în meioză?",
+       "v": "Ca la fecundație, prin unirea gameților, să se refacă numărul diploid al speciei."
+      },
+      {
+       "f": "Câte celule rezultă din meioză și cum sunt?",
+       "v": "Patru celule haploide, diferite genetic între ele."
+      },
+      {
+       "f": "Ce este crossing-overul?",
+       "v": "Schimbul de fragmente între cromozomii omologi, în prima diviziune a meiozei."
+      },
+      {
+       "f": "De ce sunt frații diferiți între ei?",
+       "v": "Din cauza recombinării și a repartizării întâmplătoare a cromozomilor, plus combinarea gameților."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Meioza are ca rezultat celule cu:",
+       "optiuni": [
+        "număr redus la jumătate de cromozomi (haploid)",
+        "același număr ca celula-mamă",
+        "număr dublu de cromozomi",
+        "fără cromozomi"
+       ],
+       "corect": 0,
+       "explicatie": "Se formează gameții."
+      },
+      {
+       "intrebare": "Numărul de cromozomi al speciei se reface la:",
+       "optiuni": [
+        "fecundație",
+        "mitoză",
+        "prima diviziune a meiozei",
+        "interfază"
+       ],
+       "corect": 0,
+       "explicatie": "Prin unirea a doi gameți haploizi."
+      },
+      {
+       "intrebare": "Crossing-overul constă în:",
+       "optiuni": [
+        "schimbul de fragmente între cromozomii omologi",
+        "separarea cromatizilor",
+        "replicarea ADN-ului",
+        "dublarea numărului de cromozomi"
+       ],
+       "corect": 0,
+       "explicatie": "Este o sursă de variabilitate genetică."
+      },
+      {
+       "intrebare": "Din meioză rezultă:",
+       "optiuni": [
+        "patru celule diferite genetic",
+        "două celule identice",
+        "o singură celulă",
+        "opt celule identice"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea gameții sunt unici."
+      }
+     ]
+    },
+    {
+     "id": "bio10-12",
+     "titlu": "Cromozomii și determinismul sexului",
+     "rezumat": "Cromozomul este forma condensată a ADN-ului, vizibilă în timpul diviziunii. La om, celulele somatice conțin 46 de cromozomi, grupați în 23 de perechi. Dintre acestea, 22 de perechi sunt autozomi, identici la ambele sexe, iar o pereche o formează cromozomii sexuali (heterozomi), care determină sexul: XX la femeie, XY la bărbat. Determinismul sexului la om este dat de spermatozoid: ovulul poartă întotdeauna un cromozom X, în timp ce spermatozoidul poate purta X sau Y. Dacă fecundează un spermatozoid cu X, rezultă o fată (XX); dacă unul cu Y, un băiat (XY). Astfel, teoretic, raportul dintre sexe este de aproximativ unu la unu. Anomaliile numerice ale cromozomilor apar când, în meioză, cromozomii nu se separă corect. Sindromul Down este determinat de prezența unui cromozom 21 în plus (trisomia 21). Cariotipul — imaginea ordonată a tuturor cromozomilor unei celule — permite depistarea acestor anomalii. Astfel de studii stau la baza sfatului genetic.",
+     "ideiCheie": [
+      "Omul are 46 de cromozomi: 22 de perechi de autozomi și o pereche de heterozomi.",
+      "Sexul e determinat de heterozomi: XX la femeie, XY la bărbat.",
+      "Spermatozoidul (X sau Y) determină sexul viitorului copil.",
+      "Sindromul Down este dat de un cromozom 21 în plus (trisomia 21)."
+     ],
+     "termeni": [
+      {
+       "t": "autozomi",
+       "d": "cei 44 de cromozomi (22 de perechi) identici la ambele sexe"
+      },
+      {
+       "t": "cariotip",
+       "d": "imaginea ordonată a tuturor cromozomilor unei celule"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Câte perechi de cromozomi are omul și cum se împart?",
+       "v": "23 de perechi: 22 de autozomi și o pereche de heterozomi."
+      },
+      {
+       "f": "Ce cromozomi sexuali au femeia și bărbatul?",
+       "v": "Femeia XX, bărbatul XY."
+      },
+      {
+       "f": "Cine determină sexul copilului?",
+       "v": "Spermatozoidul, care poate purta X sau Y."
+      },
+      {
+       "f": "Ce este trisomia 21?",
+       "v": "Prezența unui cromozom 21 în plus, care determină sindromul Down."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Sexul masculin la om este determinat de cromozomii:",
+       "optiuni": [
+        "XY",
+        "XX",
+        "YY",
+        "doar X"
+       ],
+       "corect": 0,
+       "explicatie": "Femeia are XX."
+      },
+      {
+       "intrebare": "Sexul viitorului copil este determinat de:",
+       "optiuni": [
+        "spermatozoid, care poartă X sau Y",
+        "ovul, care poartă X sau Y",
+        "numărul de autozomi",
+        "mediul intrauterin"
+       ],
+       "corect": 0,
+       "explicatie": "Ovulul poartă întotdeauna X."
+      },
+      {
+       "intrebare": "Sindromul Down este cauzat de:",
+       "optiuni": [
+        "un cromozom 21 în plus",
+        "lipsa unui cromozom X",
+        "o mutație a unei singure gene",
+        "un autozom lipsă"
+       ],
+       "corect": 0,
+       "explicatie": "Se numește trisomia 21."
+      },
+      {
+       "intrebare": "Cele 22 de perechi de cromozomi identici la ambele sexe se numesc:",
+       "optiuni": [
+        "autozomi",
+        "heterozomi",
+        "cromozomi sexuali",
+        "cromatizi"
+       ],
+       "corect": 0,
+       "explicatie": "Perechea 23 dă heterozomii."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bio10-c5",
+   "titlu": "Genetică",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "bio10-13",
+     "titlu": "Monohibridarea și legile eredității",
+     "rezumat": "Monohibridarea este încrucișarea a doi indivizi care diferă printr-o singură pereche de caractere. Mendel a încrucișat plante de mazăre cu flori roșii și albe: în prima generație (F1) toate plantele aveau flori roșii, ceea ce arată dominanța roșului. Genotipul lor era heterozigot, dar fenotipul, dominant. Încrucișând între ei descendenții din F1, în a doua generație (F2) a reapărut caracterul recesiv, într-un raport de aproximativ trei plante dominante la una recesivă (3:1). Acest raport se explică prin legea segregării: alelele perechii se separă în gameți și se recombină întâmplător la fecundație. Prin folosirea unei diagrame simple, pătratul lui Punnett, se pot prezice proporțiile descendenților. Aceste raporturi sunt statistice: se verifică pe un număr mare de urmași, nu la fiecare individ. Modelul lui Mendel se aplică la caracterele determinate de o singură genă cu dominanță completă; multe caractere reale sunt mai complexe, dar principiul segregării alelelor rămâne valabil. El stă la baza înțelegerii transmiterii bolilor ereditare.",
+     "ideiCheie": [
+      "Monohibridarea urmărește o singură pereche de caractere.",
+      "În F1 apare doar caracterul dominant; în F2 reapare recesivul, în raport 3:1.",
+      "Alelele se separă în gameți și se recombină întâmplător la fecundație.",
+      "Pătratul lui Punnett prezice proporțiile descendenților."
+     ],
+     "termeni": [
+      {
+       "t": "monohibridare",
+       "d": "încrucișarea a doi indivizi care diferă printr-o singură pereche de caractere"
+      },
+      {
+       "t": "pătratul lui Punnett",
+       "d": "diagramă folosită pentru a prezice proporțiile genotipurilor descendenților"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce se observă în generația F1 la monohibridare?",
+       "v": "Toți descendenții manifestă caracterul dominant."
+      },
+      {
+       "f": "Ce raport apare în F2?",
+       "v": "Aproximativ 3:1, trei dominanți la un recesiv."
+      },
+      {
+       "f": "De ce reapare caracterul recesiv în F2?",
+       "v": "Pentru că alelele se separă în gameți și se pot recombina în stare homozigotă."
+      },
+      {
+       "f": "La ce folosește pătratul lui Punnett?",
+       "v": "La prezicerea proporțiilor genotipurilor și fenotipurilor descendenților."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "În generația F1 a unei monohibridări cu dominanță completă apar:",
+       "optiuni": [
+        "doar indivizi cu caracterul dominant",
+        "doar indivizi recesivi",
+        "raport 3:1",
+        "raport 1:1"
+       ],
+       "corect": 0,
+       "explicatie": "Toți sunt heterozigoți."
+      },
+      {
+       "intrebare": "Raportul fenotipic din F2 este de aproximativ:",
+       "optiuni": [
+        "3:1",
+        "1:1",
+        "9:3:3:1",
+        "2:1"
+       ],
+       "corect": 0,
+       "explicatie": "Trei dominanți la un recesiv."
+      },
+      {
+       "intrebare": "Raporturile mendeliene sunt:",
+       "optiuni": [
+        "statistice, valabile pe un număr mare de urmași",
+        "exacte pentru fiecare individ",
+        "valabile doar la plante",
+        "independente de fecundație"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea se verifică pe eșantioane mari."
+      },
+      {
+       "intrebare": "Separarea alelelor unei perechi în gameți diferiți este:",
+       "optiuni": [
+        "legea segregării (purității gameților)",
+        "legea conservării masei",
+        "crossing-overul",
+        "codominanța"
+       ],
+       "corect": 0,
+       "explicatie": "Ea explică raportul 3:1."
+      }
+     ]
+    },
+    {
+     "id": "bio10-14",
+     "titlu": "Genetica umană și bolile ereditare",
+     "rezumat": "Genetica umană studiază transmiterea caracterelor și a bolilor la om. Multe boli au o componentă ereditară. Bolile determinate de o singură genă pot fi recesive (se manifestă doar la homozigoți) sau dominante. Fibroza chistică și anemia falciformă sunt boli recesive: părinții sănătoși, dar purtători, pot avea copii bolnavi. Alte boli sunt legate de cromozomul X, precum hemofilia sau daltonismul, care apar mai frecvent la băieți. Bolile cromozomiale sunt date de anomalii de număr sau de structură ale cromozomilor, precum sindromul Down. Multe boli frecvente — diabetul de tip 2, hipertensiunea, unele forme de cancer — sunt multifactoriale: rezultă din interacțiunea mai multor gene cu factori de mediu și de stil de viață, ceea ce înseamnă că predispoziția moștenită nu este o condamnare. Sfatul genetic ajută familiile să înțeleagă riscul de a transmite o boală ereditară. Progresele geneticii au adus teste de diagnostic, terapii țintite și speranțe pentru terapia genică, dar ridică și probleme de etică și de confidențialitate. Informarea corectă combate atât teama nejustificată, cât și optimismul exagerat.",
+     "ideiCheie": [
+      "Bolile monogenice pot fi recesive sau dominante; unele sunt legate de cromozomul X.",
+      "Hemofilia și daltonismul apar mai frecvent la băieți.",
+      "Bolile multifactoriale rezultă din gene și factori de mediu.",
+      "Sfatul genetic evaluează riscul de transmitere a bolilor ereditare."
+     ],
+     "termeni": [
+      {
+       "t": "boală ereditară",
+       "d": "boală determinată de modificări ale materialului genetic, transmisibile descendenților"
+      },
+      {
+       "t": "boală multifactorială",
+       "d": "boală care rezultă din interacțiunea mai multor gene cu factori de mediu"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum pot avea părinți sănătoși un copil cu o boală recesivă?",
+       "v": "Dacă ambii sunt purtători heterozigoți ai alelei bolnave."
+      },
+      {
+       "f": "De ce apar hemofilia și daltonismul mai des la băieți?",
+       "v": "Pentru că sunt legate de cromozomul X, iar băieții au un singur X."
+      },
+      {
+       "f": "Ce sunt bolile multifactoriale?",
+       "v": "Boli rezultate din interacțiunea mai multor gene cu factori de mediu și de stil de viață."
+      },
+      {
+       "f": "La ce folosește sfatul genetic?",
+       "v": "Ajută familiile să înțeleagă riscul de a transmite o boală ereditară."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Fibroza chistică și anemia falciformă sunt boli:",
+       "optiuni": [
+        "recesive",
+        "dominante",
+        "cromozomiale de număr",
+        "infecțioase"
+       ],
+       "corect": 0,
+       "explicatie": "Se manifestă doar la homozigoți."
+      },
+      {
+       "intrebare": "Hemofilia apare mai frecvent la băieți pentru că:",
+       "optiuni": [
+        "este legată de cromozomul X, iar băieții au un singur X",
+        "este dominantă",
+        "se transmite prin cromozomul Y",
+        "este multifactorială"
+       ],
+       "corect": 0,
+       "explicatie": "Fetele au un al doilea X care compensează."
+      },
+      {
+       "intrebare": "Diabetul de tip 2 și hipertensiunea sunt, de regulă, boli:",
+       "optiuni": [
+        "multifactoriale",
+        "monogenice recesive",
+        "cromozomiale",
+        "pur ereditare"
+       ],
+       "corect": 0,
+       "explicatie": "Depind de gene și de stilul de viață."
+      },
+      {
+       "intrebare": "Predispoziția genetică la o boală multifactorială:",
+       "optiuni": [
+        "nu este o condamnare, fiind influențată de mediu",
+        "garantează apariția bolii",
+        "nu poate fi influențată deloc",
+        "se transmite după raportul 3:1"
+       ],
+       "corect": 0,
+       "explicatie": "Stilul de viață contează mult."
+      }
+     ]
+    },
+    {
+     "id": "bio10-15",
+     "titlu": "Mutațiile și factorii mutageni",
+     "rezumat": "Mutațiile sunt modificări ale materialului genetic, care pot fi transmise celulelor descendente. După amploare, ele sunt genice (afectează o genă, prin schimbarea unei baze), cromozomiale (afectează structura unui cromozom) sau genomice (afectează numărul de cromozomi). O mutație în celulele somatice afectează doar individul; una în celulele germinale se transmite descendenților. Cauzele mutațiilor pot fi spontane, apărute din erorile de replicare a ADN-ului, sau induse de factori mutageni: radiațiile (ultraviolete, razele X, radioactivitatea), unele substanțe chimice (din fumul de țigară, unii poluanți) și anumiți viruși. Frecvența mutațiilor crește în prezența acestor factori, motiv pentru care expunerea la radiații și la substanțe cancerigene este periculoasă. Cele mai multe mutații sunt neutre sau dăunătoare, dar unele, rare, aduc un avantaj și devin materia primă a evoluției, asupra căreia acționează selecția naturală. Mutațiile explică apariția rezistenței bacteriilor la antibiotice și a dăunătorilor la pesticide. Fără mutații nu ar exista variabilitate și, deci, nici evoluție.",
+     "ideiCheie": [
+      "Mutațiile pot fi genice, cromozomiale sau genomice.",
+      "Mutațiile din celulele germinale se transmit descendenților; cele somatice, nu.",
+      "Factori mutageni: radiațiile, unele substanțe chimice, anumiți viruși.",
+      "Majoritatea mutațiilor sunt neutre sau dăunătoare, dar unele sunt materia primă a evoluției."
+     ],
+     "termeni": [
+      {
+       "t": "mutație",
+       "d": "modificare a materialului genetic, transmisibilă celulelor descendente"
+      },
+      {
+       "t": "factor mutagen",
+       "d": "agent (radiație, substanță, virus) care crește frecvența mutațiilor"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt cele trei tipuri de mutații după amploare?",
+       "v": "Genice, cromozomiale și genomice."
+      },
+      {
+       "f": "Ce mutații se transmit descendenților?",
+       "v": "Cele din celulele germinale (sexuale)."
+      },
+      {
+       "f": "Dă exemple de factori mutageni.",
+       "v": "Radiațiile ultraviolete și X, radioactivitatea, unele substanțe chimice, anumiți viruși."
+      },
+      {
+       "f": "De ce sunt importante mutațiile pentru evoluție?",
+       "v": "Sunt sursa variabilității asupra căreia acționează selecția naturală."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "O mutație apărută în celulele germinale:",
+       "optiuni": [
+        "se transmite descendenților",
+        "afectează doar individul",
+        "nu are niciun efect",
+        "dispare imediat"
+       ],
+       "corect": 0,
+       "explicatie": "Cele somatice nu se transmit."
+      },
+      {
+       "intrebare": "Razele ultraviolete și razele X sunt:",
+       "optiuni": [
+        "factori mutageni",
+        "catalizatori",
+        "hormoni",
+        "nutrienți"
+       ],
+       "corect": 0,
+       "explicatie": "Cresc frecvența mutațiilor."
+      },
+      {
+       "intrebare": "Majoritatea mutațiilor sunt:",
+       "optiuni": [
+        "neutre sau dăunătoare",
+        "benefice",
+        "letale întotdeauna",
+        "imposibil de produs"
+       ],
+       "corect": 0,
+       "explicatie": "Cele avantajoase sunt rare, dar decisive evolutiv."
+      },
+      {
+       "intrebare": "Rezistența bacteriilor la antibiotice apare prin:",
+       "optiuni": [
+        "mutații favorabile selectate de prezența antibioticului",
+        "lipsa totală a mutațiilor",
+        "transmiterea caracterelor dobândite",
+        "fecundație"
+       ],
+       "corect": 0,
+       "explicatie": "Este evoluție observabilă."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bio10-c6",
+   "titlu": "Ecologie",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "bio10-16",
+     "titlu": "Factorii ecologici",
+     "rezumat": "Factorii ecologici sunt elementele mediului care influențează viețuitoarele. Ei se împart în factori abiotici (nevii) — lumina, temperatura, apa, aerul, solul, presiunea — și factori biotici (vii) — relațiile dintre organisme. Fiecare specie are cerințe proprii față de acești factori și trăiește doar acolo unde ele sunt satisfăcute. Pentru fiecare factor, o specie are un interval de toleranță, cu o valoare optimă la mijloc și cu limite dincolo de care nu poate supraviețui. Legea factorului limitant arată că dezvoltarea unui organism este restrânsă de factorul aflat cel mai departe de valoarea optimă, chiar dacă toți ceilalți sunt favorabili — degeaba are o plantă lumină și căldură, dacă îi lipsește apa. După toleranța lor, speciile sunt euriece (suportă variații mari ale unui factor) sau stenoece (suportă doar variații mici). Speciile stenoece, sensibile, sunt bune indicatoare ale calității mediului: dispariția lichenilor din orașe, de exemplu, semnalează poluarea aerului. Cunoașterea factorilor ecologici este esențială în agricultură și în protecția mediului.",
+     "ideiCheie": [
+      "Factorii ecologici sunt abiotici (nevii) și biotici (vii).",
+      "Fiecare specie are un interval de toleranță, cu o valoare optimă.",
+      "Legea factorului limitant: dezvoltarea e restrânsă de factorul cel mai defavorabil.",
+      "Speciile stenoece, sensibile, sunt indicatoare ale calității mediului."
+     ],
+     "termeni": [
+      {
+       "t": "factor abiotic",
+       "d": "element neviu al mediului (lumină, temperatură, apă, sol) care influențează viețuitoarele"
+      },
+      {
+       "t": "factor limitant",
+       "d": "factorul ecologic aflat cel mai departe de valoarea optimă, care restrânge dezvoltarea"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt cele două categorii de factori ecologici?",
+       "v": "Factorii abiotici (nevii) și factorii biotici (vii)."
+      },
+      {
+       "f": "Ce spune legea factorului limitant?",
+       "v": "Dezvoltarea unui organism este restrânsă de factorul cel mai defavorabil, chiar dacă ceilalți sunt favorabili."
+      },
+      {
+       "f": "Ce este intervalul de toleranță?",
+       "v": "Domeniul de valori ale unui factor în care o specie poate supraviețui."
+      },
+      {
+       "f": "De ce sunt lichenii indicatori ai poluării?",
+       "v": "Pentru că sunt sensibili (stenoeci) și dispar când aerul e poluat."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Temperatura, lumina și apa sunt factori:",
+       "optiuni": [
+        "abiotici",
+        "biotici",
+        "limitanți întotdeauna",
+        "exclusiv marini"
+       ],
+       "corect": 0,
+       "explicatie": "Relațiile dintre organisme sunt factori biotici."
+      },
+      {
+       "intrebare": "Legea factorului limitant spune că dezvoltarea e restrânsă de:",
+       "optiuni": [
+        "factorul cel mai defavorabil",
+        "factorul cel mai favorabil",
+        "media tuturor factorilor",
+        "numărul de specii"
+       ],
+       "corect": 0,
+       "explicatie": "Chiar dacă ceilalți factori sunt optimi."
+      },
+      {
+       "intrebare": "O specie stenoecă:",
+       "optiuni": [
+        "suportă doar variații mici ale unui factor",
+        "suportă variații mari",
+        "nu depinde de mediu",
+        "trăiește oriunde"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea e un bun indicator ecologic."
+      },
+      {
+       "intrebare": "Dispariția lichenilor din orașe semnalează:",
+       "optiuni": [
+        "poluarea aerului",
+        "încălzirea globală exclusiv",
+        "lipsa apei",
+        "exces de lumină"
+       ],
+       "corect": 0,
+       "explicatie": "Sunt specii sensibile."
+      }
+     ]
+    },
+    {
+     "id": "bio10-17",
+     "titlu": "Populația și dinamica ei",
+     "rezumat": "Populația este totalitatea indivizilor aceleiași specii care trăiesc într-un anumit teritoriu și se pot reproduce între ei. Ea are caracteristici proprii, care nu se pot atribui unui singur individ: densitatea (numărul de indivizi pe unitatea de suprafață), natalitatea (numărul de nou-născuți), mortalitatea (numărul de morți), structura pe vârste și pe sexe. Efectivul unei populații se schimbă în timp. El crește prin natalitate și imigrare și scade prin mortalitate și emigrare. Când resursele sunt abundente, creșterea poate fi rapidă, dar ea este limitată de capacitatea de suport a mediului — numărul maxim de indivizi pe care mediul îi poate întreține durabil. Peste acest prag, resursele se epuizează și populația scade. Factorii care reglează efectivul pot depinde de densitate (hrana, bolile, prădătorii, care acționează mai puternic când populația e densă) sau nu (fenomenele climatice extreme). Înțelegerea dinamicii populațiilor este esențială pentru gestionarea pescuitului, a vânatului, a dăunătorilor și pentru protecția speciilor pe cale de dispariție.",
+     "ideiCheie": [
+      "Populația are densitate, natalitate, mortalitate, structură pe vârste și sexe.",
+      "Efectivul crește prin natalitate și imigrare, scade prin mortalitate și emigrare.",
+      "Capacitatea de suport este numărul maxim de indivizi întreținuți durabil de mediu.",
+      "Reglarea poate depinde de densitate (hrană, boli, prădători) sau nu (clima)."
+     ],
+     "termeni": [
+      {
+       "t": "populație",
+       "d": "totalitatea indivizilor aceleiași specii dintr-un teritoriu, care se pot reproduce între ei"
+      },
+      {
+       "t": "capacitate de suport",
+       "d": "numărul maxim de indivizi ai unei populații pe care mediul îi poate întreține durabil"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este densitatea unei populații?",
+       "v": "Numărul de indivizi pe unitatea de suprafață sau de volum."
+      },
+      {
+       "f": "Prin ce crește și prin ce scade efectivul unei populații?",
+       "v": "Crește prin natalitate și imigrare; scade prin mortalitate și emigrare."
+      },
+      {
+       "f": "Ce este capacitatea de suport?",
+       "v": "Numărul maxim de indivizi pe care mediul îi poate întreține durabil."
+      },
+      {
+       "f": "Dă exemple de factori de reglare dependenți de densitate.",
+       "v": "Hrana, bolile, prădătorii."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Densitatea, natalitatea și mortalitatea sunt caracteristici ale:",
+       "optiuni": [
+        "populației",
+        "unui singur individ",
+        "ecosistemului fizic",
+        "factorilor abiotici"
+       ],
+       "corect": 0,
+       "explicatie": "Ele nu se pot atribui unui singur individ."
+      },
+      {
+       "intrebare": "Efectivul unei populații crește prin:",
+       "optiuni": [
+        "natalitate și imigrare",
+        "mortalitate și emigrare",
+        "doar prin emigrare",
+        "scăderea resurselor"
+       ],
+       "corect": 0,
+       "explicatie": "Scade prin mortalitate și emigrare."
+      },
+      {
+       "intrebare": "Numărul maxim de indivizi întreținuți durabil de mediu este:",
+       "optiuni": [
+        "capacitatea de suport",
+        "densitatea optimă",
+        "natalitatea",
+        "factorul limitant"
+       ],
+       "corect": 0,
+       "explicatie": "Peste el, resursele se epuizează."
+      },
+      {
+       "intrebare": "Bolile și prădătorii sunt factori de reglare:",
+       "optiuni": [
+        "dependenți de densitate",
+        "independenți de densitate",
+        "exclusiv climatici",
+        "fără efect asupra populației"
+       ],
+       "corect": 0,
+       "explicatie": "Acționează mai puternic la densitate mare."
+      }
+     ]
+    },
+    {
+     "id": "bio10-18",
+     "titlu": "Relații interspecifice și succesiunea ecologică",
+     "rezumat": "În biocenoză, speciile intră în relații care le influențează supraviețuirea. Relațiile pot fi de hrănire (trofice) sau de altă natură. Competiția apare când două specii au nevoie de aceeași resursă limitată. Prădătorismul (o specie o consumă pe alta) și parazitismul (parazitul trăiește pe seama gazdei, fără a o ucide de obicei) avantajează o parte și dezavantajează cealaltă. Alte relații sunt mai puțin conflictuale. În comensalism, o specie are de câștigat, iar cealaltă nu este afectată. În mutualism (simbioză), ambele specii au de câștigat — lichenul (alga plus ciuperca), micorizele dintre ciuperci și rădăcini, bacteriile din intestinul rumegătoarelor. Aceste relații arată că natura nu este doar competiție, ci și cooperare. Ecosistemele nu sunt statice. Succesiunea ecologică este înlocuirea treptată a unor biocenoze cu altele, într-un anumit loc: pe o stâncă goală se instalează întâi lichenii, apoi mușchii, ierburile, tufișurile și, în final, pădurea — stadiul de echilibru, numit climax. După o perturbare (incendiu, defrișare), succesiunea reia procesul. Cunoașterea ei ghidează refacerea ecosistemelor degradate.",
+     "ideiCheie": [
+      "Competiția, prădătorismul și parazitismul dezavantajează cel puțin o specie.",
+      "În mutualism (simbioză) ambele specii câștigă; în comensalism, una câștigă, cealaltă e neafectată.",
+      "Succesiunea ecologică înlocuiește treptat biocenozele, până la stadiul de climax.",
+      "După o perturbare, succesiunea reia refacerea ecosistemului."
+     ],
+     "termeni": [
+      {
+       "t": "mutualism",
+       "d": "relație între două specii din care ambele au de câștigat"
+      },
+      {
+       "t": "succesiune ecologică",
+       "d": "înlocuirea treptată a biocenozelor dintr-un loc, până la un stadiu de echilibru"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este mutualismul?",
+       "v": "O relație între două specii din care ambele au de câștigat."
+      },
+      {
+       "f": "Prin ce diferă comensalismul de mutualism?",
+       "v": "În comensalism doar o specie câștigă, cealaltă nefiind afectată; în mutualism câștigă ambele."
+      },
+      {
+       "f": "Ce este succesiunea ecologică?",
+       "v": "Înlocuirea treptată a biocenozelor dintr-un loc, până la stadiul de echilibru."
+      },
+      {
+       "f": "Cum se numește stadiul de echilibru al unei succesiuni?",
+       "v": "Climax."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Lichenul, format din algă și ciupercă, este un exemplu de:",
+       "optiuni": [
+        "mutualism",
+        "parazitism",
+        "competiție",
+        "comensalism"
+       ],
+       "corect": 0,
+       "explicatie": "Ambii parteneri au de câștigat."
+      },
+      {
+       "intrebare": "Relația în care o specie o consumă pe alta este:",
+       "optiuni": [
+        "prădătorismul",
+        "mutualismul",
+        "comensalismul",
+        "competiția"
+       ],
+       "corect": 0,
+       "explicatie": "Avantajează prădătorul, dezavantajează prada."
+      },
+      {
+       "intrebare": "Stadiul de echilibru al unei succesiuni ecologice se numește:",
+       "optiuni": [
+        "climax",
+        "biotop",
+        "nișă",
+        "populație"
+       ],
+       "corect": 0,
+       "explicatie": "Pădurea matură este adesea climaxul."
+      },
+      {
+       "intrebare": "Competiția între două specii apare când:",
+       "optiuni": [
+        "au nevoie de aceeași resursă limitată",
+        "una o consumă pe cealaltă",
+        "ambele câștigă",
+        "niciuna nu e afectată"
+       ],
+       "corect": 0,
+       "explicatie": "Resursa insuficientă le pune în concurență."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "teze": [
+  {
+   "semestru": 1,
+   "test": [
+    {
+     "intrebare": "Replicarea ADN-ului are loc în:",
+     "optiuni": [
+      "faza S a interfazei",
+      "profază",
+      "anafază",
+      "meioză exclusiv"
+     ],
+     "corect": 0,
+     "explicatie": "Atunci fiecare cromozom ajunge cu doi cromatizi."
+    },
+    {
+     "intrebare": "Mitoza produce:",
+     "optiuni": [
+      "două celule identice cu celula-mamă",
+      "patru celule haploide",
+      "gameți",
+      "celule fără nucleu"
+     ],
+     "corect": 0,
+     "explicatie": "Meioza produce patru celule haploide."
+    },
+    {
+     "intrebare": "Numărul de cromozomi se reduce la jumătate în:",
+     "optiuni": [
+      "meioză",
+      "mitoză",
+      "interfază",
+      "fecundație"
+     ],
+     "corect": 0,
+     "explicatie": "Se formează gameții."
+    },
+    {
+     "intrebare": "Sexul copilului este determinat de:",
+     "optiuni": [
+      "spermatozoid (X sau Y)",
+      "ovul",
+      "numărul de autozomi",
+      "mediu"
+     ],
+     "corect": 0,
+     "explicatie": "Ovulul poartă întotdeauna X."
+    },
+    {
+     "intrebare": "Raportul fenotipic din F2, la monohibridare, este de aproximativ:",
+     "optiuni": [
+      "3:1",
+      "1:1",
+      "9:3:3:1",
+      "4:0"
+     ],
+     "corect": 0,
+     "explicatie": "Trei dominanți la un recesiv."
+    },
+    {
+     "intrebare": "Hemofilia și daltonismul se transmit legat de:",
+     "optiuni": [
+      "cromozomul X",
+      "cromozomul Y",
+      "un autozom dominant",
+      "mitocondrii"
+     ],
+     "corect": 0,
+     "explicatie": "De aceea apar mai des la băieți."
+    },
+    {
+     "intrebare": "Alela recesivă se manifestă:",
+     "optiuni": [
+      "doar în stare homozigotă",
+      "și în stare heterozigotă",
+      "niciodată",
+      "doar la prima generație"
+     ],
+     "corect": 0,
+     "explicatie": "Heterozigotul o poartă fără să o arate."
+    },
+    {
+     "intrebare": "Grupele sangvine AB ilustrează:",
+     "optiuni": [
+      "codominanța",
+      "dominanța completă",
+      "caracterul poligenic",
+      "mutația"
+     ],
+     "corect": 0,
+     "explicatie": "Ambele alele se exprimă."
+    },
+    {
+     "intrebare": "Sinteza proteinei pornind de la ARN mesager se numește:",
+     "optiuni": [
+      "translație",
+      "transcripție",
+      "replicare",
+      "mutație"
+     ],
+     "corect": 0,
+     "explicatie": "Are loc la ribozomi."
+    },
+    {
+     "intrebare": "Mutațiile sunt importante pentru evoluție pentru că:",
+     "optiuni": [
+      "sunt sursa variabilității ereditare",
+      "sunt întotdeauna benefice",
+      "apar doar în celulele somatice",
+      "opresc selecția naturală"
+     ],
+     "corect": 0,
+     "explicatie": "Selecția acționează asupra variabilității."
+    },
+    {
+     "intrebare": "Selecția naturală a fost propusă de:",
+     "optiuni": [
+      "Darwin",
+      "Mendel",
+      "Linné",
+      "Lamarck"
+     ],
+     "corect": 0,
+     "explicatie": "Mendel a descoperit legile eredității."
+    },
+    {
+     "intrebare": "Organele omoloage au:",
+     "optiuni": [
+      "aceeași origine și același plan de construcție",
+      "aceeași funcție, dar origini diferite",
+      "structură identică și funcție identică",
+      "doar asemănare superficială"
+     ],
+     "corect": 0,
+     "explicatie": "Aripa liliacului și mâna omului sunt un exemplu."
+    },
+    {
+     "intrebare": "Nomenclatura binară a fost introdusă de:",
+     "optiuni": [
+      "Linné",
+      "Darwin",
+      "Mendel",
+      "Pasteur"
+     ],
+     "corect": 0,
+     "explicatie": "Fiecare specie primește gen și epitet specific."
+    },
+    {
+     "intrebare": "Plantele sunt organisme:",
+     "optiuni": [
+      "autotrofe",
+      "heterotrofe",
+      "saprofite exclusiv",
+      "parazite"
+     ],
+     "corect": 0,
+     "explicatie": "Își produc hrana prin fotosinteză."
+    },
+    {
+     "intrebare": "Cel mai divers grup de animale este:",
+     "optiuni": [
+      "insectele",
+      "mamiferele",
+      "peștii",
+      "moluștele"
+     ],
+     "corect": 0,
+     "explicatie": "Fac parte din artropode."
+    }
+   ]
+  },
+  {
+   "semestru": 2,
+   "test": [
+    {
+     "intrebare": "Temperatura, lumina și apa sunt factori:",
+     "optiuni": [
+      "abiotici",
+      "biotici",
+      "exclusiv limitanți",
+      "vii"
+     ],
+     "corect": 0,
+     "explicatie": "Relațiile dintre organisme sunt biotice."
+    },
+    {
+     "intrebare": "Legea factorului limitant spune că dezvoltarea e restrânsă de:",
+     "optiuni": [
+      "factorul cel mai defavorabil",
+      "factorul cel mai favorabil",
+      "numărul de specii",
+      "media factorilor"
+     ],
+     "corect": 0,
+     "explicatie": "Chiar dacă ceilalți sunt optimi."
+    },
+    {
+     "intrebare": "Capacitatea de suport a mediului reprezintă:",
+     "optiuni": [
+      "numărul maxim de indivizi întreținuți durabil",
+      "natalitatea populației",
+      "densitatea minimă",
+      "numărul de specii"
+     ],
+     "corect": 0,
+     "explicatie": "Peste el, populația scade."
+    },
+    {
+     "intrebare": "Efectivul unei populații crește prin:",
+     "optiuni": [
+      "natalitate și imigrare",
+      "mortalitate și emigrare",
+      "competiție",
+      "parazitism"
+     ],
+     "corect": 0,
+     "explicatie": "Și scade prin mortalitate și emigrare."
+    },
+    {
+     "intrebare": "Relația din care ambele specii câștigă este:",
+     "optiuni": [
+      "mutualismul",
+      "prădătorismul",
+      "parazitismul",
+      "competiția"
+     ],
+     "corect": 0,
+     "explicatie": "Lichenul este un exemplu."
+    },
+    {
+     "intrebare": "Stadiul de echilibru al unei succesiuni ecologice se numește:",
+     "optiuni": [
+      "climax",
+      "biotop",
+      "nișă ecologică",
+      "populație"
+     ],
+     "corect": 0,
+     "explicatie": "Adesea o pădure matură."
+    },
+    {
+     "intrebare": "Ecosistemul este format din:",
+     "optiuni": [
+      "biotop și biocenoză",
+      "doar plante și animale",
+      "doar mediul fizic",
+      "doar lanțurile trofice"
+     ],
+     "corect": 0,
+     "explicatie": "Relațiile dintre ele îl fac să funcționeze."
+    },
+    {
+     "intrebare": "Energia dintr-un ecosistem:",
+     "optiuni": [
+      "curge într-un singur sens și se pierde ca și căldură",
+      "circulă în cicluri închise",
+      "se conservă integral la fiecare nivel",
+      "crește la fiecare nivel trofic"
+     ],
+     "corect": 0,
+     "explicatie": "Materia, în schimb, circulă."
+    },
+    {
+     "intrebare": "La fiecare nivel trofic se transferă aproximativ:",
+     "optiuni": [
+      "10% din energie",
+      "90%",
+      "50%",
+      "100%"
+     ],
+     "corect": 0,
+     "explicatie": "De aceea lanțurile trofice sunt scurte."
+    },
+    {
+     "intrebare": "Homeotermia este specifică:",
+     "optiuni": [
+      "păsărilor și mamiferelor",
+      "reptilelor",
+      "amfibienilor",
+      "peștilor"
+     ],
+     "corect": 0,
+     "explicatie": "Permite ocuparea mediilor extreme."
+    },
+    {
+     "intrebare": "Efectul de seră este amplificat mai ales de:",
+     "optiuni": [
+      "arderea combustibililor fosili",
+      "eroziunea solului",
+      "radiația ultravioletă",
+      "vânturile puternice"
+     ],
+     "corect": 0,
+     "explicatie": "Crește concentrația gazelor care rețin căldura."
+    },
+    {
+     "intrebare": "Dezvoltarea durabilă înseamnă:",
+     "optiuni": [
+      "satisfacerea nevoilor prezentului fără a compromite viitorul",
+      "creștere economică maximă",
+      "oprirea oricărei producții",
+      "exploatarea intensivă a resurselor"
+     ],
+     "corect": 0,
+     "explicatie": "Îmbină economicul, socialul și mediul."
+    },
+    {
+     "intrebare": "Sănătatea este definită ca:",
+     "optiuni": [
+      "stare de bine fizică, psihică și socială",
+      "absența bolii",
+      "capacitate fizică maximă",
+      "lipsa medicației"
+     ],
+     "corect": 0,
+     "explicatie": "Include sănătatea mintală."
+    },
+    {
+     "intrebare": "Dependența de substanțe:",
+     "optiuni": [
+      "are bază neurobiologică",
+      "ține exclusiv de voință",
+      "dispare de la sine",
+      "nu afectează creierul"
+     ],
+     "corect": 0,
+     "explicatie": "De aceea ajutorul specializat funcționează."
+    },
+    {
+     "intrebare": "Prevenția cuprinde:",
+     "optiuni": [
+      "vaccinarea, igiena și controalele periodice",
+      "doar tratamentul medicamentos",
+      "doar intervențiile chirurgicale",
+      "exclusiv dieta"
+     ],
+     "corect": 0,
+     "explicatie": "Este mai eficientă decât tratarea."
+    }
+   ]
+  }
+ ]
+}

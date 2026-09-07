@@ -1,0 +1,58 @@
+name: Graphify
+
+# Regenerează vault-ul Obsidian din data/*.json și îl comite înapoi în repo.
+# Se declanșează doar când se schimbă datele sau generatorul, deci commit-ul
+# de rezultat (care atinge numai vault/) nu poate porni workflow-ul din nou.
+
+on:
+  push:
+    paths:
+      - 'data/**'
+      - 'tools/graphify.py'
+      - 'tools/verifica_vault.py'
+      - '.github/workflows/graphify.yml'
+  pull_request:
+    paths:
+      - 'data/**'
+      - 'tools/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  graphify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Generează vault-ul Obsidian
+        run: python3 tools/graphify.py
+
+      - name: Verifică legăturile din vault
+        run: python3 tools/verifica_vault.py
+
+      - name: Arhivează vault-ul pentru descărcare
+        uses: actions/upload-artifact@v4
+        with:
+          name: vault-obsidian
+          path: vault/
+          include-hidden-files: true
+          retention-days: 30
+
+      - name: Comite vault-ul dacă s-a schimbat
+        if: github.event_name != 'pull_request'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- vault; then
+            echo "Vault-ul este deja la zi — nimic de comis."
+            exit 0
+          fi
+          git add vault
+          git commit -m "Graphify: regenerez vault-ul Obsidian din date"
+          git push origin HEAD:${GITHUB_REF_NAME}

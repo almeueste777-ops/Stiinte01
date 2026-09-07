@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <!-- Paletă de fundal miez de noapte și safir regal -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="40%" y2="100%">
+      <stop offset="0%" stop-color="#1B2845"/>
+      <stop offset="35%" stop-color="#10192E"/>
+      <stop offset="75%" stop-color="#0B132B"/>
+      <stop offset="100%" stop-color="#060913"/>
+    </linearGradient>
+
+    <!-- Rază de strălucire / sheen auroră -->
+    <radialGradient id="auroraSheen" cx="50%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#4E89FF" stop-opacity="0.32"/>
+      <stop offset="45%" stop-color="#1FD1A5" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0B132B" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Aur regal pentru bordură și blazon -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2B2"/>
+      <stop offset="25%" stop-color="#F3C864"/>
+      <stop offset="60%" stop-color="#D49A32"/>
+      <stop offset="85%" stop-color="#FCD374"/>
+      <stop offset="100%" stop-color="#9C6B1B"/>
+    </linearGradient>
+
+    <!-- Aur deschis pentru pagini și atom -->
+    <linearGradient id="lightGold" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#DFAC46"/>
+      <stop offset="50%" stop-color="#FFEBB0"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+
+    <!-- Cian luminescent pentru orbitele științei reale -->
+    <linearGradient id="cyanGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#70F3FF"/>
+      <stop offset="100%" stop-color="#1797FF"/>
+    </linearGradient>
+
+    <!-- Filtru umbră adâncă -->
+    <filter id="goldShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <!-- Fundal squircle luxos cu reflexie -->
+  <rect x="8" y="8" width="496" height="496" rx="108" ry="108" fill="url(#bgGrad)"/>
+  <rect x="8" y="8" width="496" height="496" rx="108" ry="108" fill="url(#auroraSheen)"/>
+
+  <!-- Bordură dublă aurită -->
+  <rect x="12" y="12" width="488" height="488" rx="104" ry="104" fill="none" stroke="url(#goldGrad)" stroke-width="6"/>
+  <rect x="22" y="22" width="468" height="468" rx="96" ry="96" fill="none" stroke="url(#goldGrad)" stroke-width="1.8" stroke-opacity="0.6"/>
+
+  <!-- Emblema centrală -->
+  <g filter="url(#goldShadow)">
+    <!-- Cununiță de lauri aurii -->
+    <g fill="url(#goldGrad)" opacity="0.92">
+      <!-- Ramura stângă -->
+      <path d="M 120 180 C 105 230 110 300 150 350 C 135 320 132 250 145 200 Z"/>
+      <path d="M 112 210 C 95 215 90 235 102 245 C 112 245 122 235 125 220 Z"/>
+      <path d="M 115 255 C 98 265 96 285 109 292 C 120 290 128 278 128 265 Z"/>
+      <path d="M 128 300 C 114 315 116 335 130 338 C 140 332 144 318 140 305 Z"/>
+      <!-- Ramura dreaptă -->
+      <path d="M 392 180 C 407 230 402 300 362 350 C 377 320 380 250 367 200 Z"/>
+      <path d="M 400 210 C 417 215 422 235 410 245 C 400 245 390 235 387 220 Z"/>
+      <path d="M 397 255 C 414 265 416 285 403 292 C 392 290 384 278 384 265 Z"/>
+      <path d="M 384 300 C 398 315 396 335 382 338 C 372 332 368 318 372 305 Z"/>
+    </g>
+
+    <!-- Cartea deschisă a cunoașterii -->
+    <g id="book">
+      <!-- Paginile de jos -->
+      <path d="M 160 365 Q 256 385 256 350 Q 256 385 352 365 L 340 385 Q 256 398 256 370 Q 256 398 172 385 Z" fill="#9C6B1B"/>
+      <!-- Paginile stângi -->
+      <path d="M 160 360 Q 210 338 256 348 L 256 280 Q 210 270 160 290 Z" fill="url(#lightGold)"/>
+      <path d="M 165 305 Q 210 288 250 298" stroke="#9C6B1B" stroke-width="1.8" fill="none"/>
+      <path d="M 167 322 Q 210 305 250 315" stroke="#9C6B1B" stroke-width="1.8" fill="none"/>
+      <path d="M 170 340 Q 210 322 250 332" stroke="#9C6B1B" stroke-width="1.8" fill="none"/>
+      <!-- Paginile drepte -->
+      <path d="M 352 360 Q 302 338 256 348 L 256 280 Q 302 270 352 290 Z" fill="url(#lightGold)"/>
+      <path d="M 347 305 Q 302 288 262 298" stroke="#9C6B1B" stroke-width="1.8" fill="none"/>
+      <path d="M 345 322 Q 302 305 262 315" stroke="#9C6B1B" stroke-width="1.8" fill="none"/>
+      <path d="M 342 340 Q 302 322 262 332" stroke="#9C6B1B" stroke-width="1.8" fill="none"/>
+      <!-- Cotoraș central de aur -->
+      <polygon points="252,278 260,278 258,368 254,368" fill="url(#goldGrad)"/>
+    </g>
+
+    <!-- Orbitele atomului (Profilul Real / Științe ale Naturii și Tehnologie) -->
+    <g id="atom" transform="translate(256, 230)">
+      <!-- Elipsa 1 -->
+      <ellipse cx="0" cy="0" rx="72" ry="26" fill="none" stroke="url(#cyanGlow)" stroke-width="3.5" transform="rotate(30)"/>
+      <!-- Elipsa 2 -->
+      <ellipse cx="0" cy="0" rx="72" ry="26" fill="none" stroke="url(#cyanGlow)" stroke-width="3.5" transform="rotate(-30)"/>
+      <!-- Elipsa 3 -->
+      <ellipse cx="0" cy="0" rx="72" ry="24" fill="none" stroke="url(#goldGrad)" stroke-width="2.5" transform="rotate(90)"/>
+
+      <!-- Nucleul central radiant -->
+      <circle cx="0" cy="0" r="11" fill="url(#goldGrad)"/>
+      <circle cx="-2" cy="-2" r="3.5" fill="#FFFFFF" opacity="0.8"/>
+
+      <!-- Electroni pe orbite -->
+      <circle cx="58" cy="22" r="4.5" fill="#70F3FF"/>
+      <circle cx="-58" cy="-22" r="4.5" fill="#70F3FF"/>
+      <circle cx="0" cy="-68" r="4.5" fill="#FFEBB0"/>
+    </g>
+
+    <!-- Pana de scris și Steaua excelenței (Ion Creangă & Educație) -->
+    <g id="crest-top">
+      <!-- Vârful penei stilizate -->
+      <path d="M 256 115 L 263 155 L 259 155 L 256 168 L 253 155 L 249 155 Z" fill="url(#goldGrad)"/>
+      <!-- Steaua călăuzitoare în 5 colțuri -->
+      <polygon points="256,76 262,94 281,94 266,105 272,123 256,112 240,123 246,105 231,94 250,94" fill="url(#goldGrad)"/>
+    </g>
+
+    <!-- Panglica heraldică inferioară -->
+    <g id="ribbon" transform="translate(0, 10)">
+      <path d="M 118 420 L 140 405 L 140 435 Z" fill="#9C6B1B"/>
+      <path d="M 394 420 L 372 405 L 372 435 Z" fill="#9C6B1B"/>
+      <rect x="135" y="405" width="242" height="34" rx="6" fill="url(#goldGrad)"/>
+      <text x="256" y="427" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="800" letter-spacing="2.2" fill="#0B132B" text-anchor="middle">ION CREANGĂ · REAL</text>
+    </g>
+  </g>
+</svg>

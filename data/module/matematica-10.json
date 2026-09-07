@@ -1,0 +1,1925 @@
+{
+ "id": "matematica-10",
+ "materie": "Matematică",
+ "clasa": "a X-a",
+ "an": 2,
+ "arie": "Matematică și științe ale naturii",
+ "bac": false,
+ "descriere": "Funcții exponențiale și logaritmice, combinatorică și probabilități, elemente de statistică și matematici financiare.",
+ "capitole": [
+  {
+   "id": "mat10-c1",
+   "titlu": "Funcții și ecuații",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "mat10-01",
+     "titlu": "Funcția exponențială",
+     "rezumat": "Funcția exponențială are forma f(x) = a la puterea x, cu baza a strict pozitivă și diferită de 1. Domeniul ei este mulțimea numerelor reale, iar imaginea, intervalul numerelor strict pozitive: valoarea nu atinge niciodată zero. Graficul trece întotdeauna prin punctul de coordonate (0, 1), pentru că orice bază la puterea zero dă 1, și are axa Ox ca asimptotă orizontală. Funcția este strict crescătoare dacă baza este mai mare decât 1 și strict descrescătoare dacă baza este între 0 și 1. Fiind strict monotonă, este injectivă, ceea ce permite rezolvarea ecuațiilor exponențiale prin egalarea exponenților atunci când bazele sunt egale. Creșterea exponențială depășește orice creștere polinomială și modelează fenomene reale: dobânda compusă, înmulțirea bacteriilor, dezintegrarea radioactivă (cu bază subunitară), răspândirea unei epidemii în faza inițială.",
+     "ideiCheie": [
+      "Baza funcției exponențiale este strict pozitivă și diferită de 1.",
+      "Graficul trece prin (0, 1) și are axa Ox ca asimptotă.",
+      "Este crescătoare pentru bază supraunitară, descrescătoare pentru bază subunitară.",
+      "Modelează dobânda compusă, creșterea populațiilor și dezintegrarea radioactivă."
+     ],
+     "termeni": [
+      {
+       "t": "funcție exponențială",
+       "d": "funcția în care variabila apare ca exponent al unei baze constante"
+      },
+      {
+       "t": "asimptotă orizontală",
+       "d": "dreapta de care graficul se apropie oricât de mult, fără să o atingă"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Prin ce punct trece graficul oricărei funcții exponențiale?",
+       "v": "Prin punctul (0, 1)."
+      },
+      {
+       "f": "Când este funcția exponențială descrescătoare?",
+       "v": "Când baza este între 0 și 1."
+      },
+      {
+       "f": "Ce valori ia funcția exponențială?",
+       "v": "Doar valori strict pozitive."
+      },
+      {
+       "f": "De ce se pot egala exponenții la aceeași bază?",
+       "v": "Pentru că funcția exponențială este injectivă."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Imaginea funcției exponențiale este:",
+       "optiuni": [
+        "mulțimea numerelor strict pozitive",
+        "mulțimea numerelor reale",
+        "intervalul de la 0 la 1",
+        "mulțimea numerelor întregi"
+       ],
+       "corect": 0,
+       "explicatie": "Nu atinge niciodată zero."
+      },
+      {
+       "intrebare": "Funcția f(x) = 2 la puterea x este:",
+       "optiuni": [
+        "strict crescătoare",
+        "strict descrescătoare",
+        "constantă",
+        "periodică"
+       ],
+       "corect": 0,
+       "explicatie": "Baza este supraunitară."
+      },
+      {
+       "intrebare": "Axa Ox este pentru graficul exponențialei:",
+       "optiuni": [
+        "asimptotă orizontală",
+        "axă de simetrie",
+        "tangentă în origine",
+        "secantă"
+       ],
+       "corect": 0,
+       "explicatie": "Graficul se apropie de ea fără să o atingă."
+      },
+      {
+       "intrebare": "Dezintegrarea radioactivă se modelează cu o exponențială având baza:",
+       "optiuni": [
+        "subunitară",
+        "supraunitară",
+        "egală cu 1",
+        "negativă"
+       ],
+       "corect": 0,
+       "explicatie": "Cantitatea scade în timp."
+      }
+     ]
+    },
+    {
+     "id": "mat10-02",
+     "titlu": "Funcția logaritmică",
+     "rezumat": "Funcția logaritmică este inversa celei exponențiale: logaritmul în baza a al lui x este exponentul la care se ridică a pentru a obține x. Domeniul ei este mulțimea numerelor strict pozitive, iar imaginea, întreaga mulțime a numerelor reale. Graficul trece prin punctul (1, 0) și are axa Oy ca asimptotă verticală; este simetricul graficului exponențialei față de prima bisectoare. Proprietățile logaritmilor transformă operațiile: logaritmul produsului este suma logaritmilor, al câtului este diferența, al puterii este exponentul înmulțit cu logaritmul. Formula schimbării bazei permite calculul oricărui logaritm cu ajutorul celor din baza 10 sau baza e. Logaritmii stau la baza scărilor practice care comprimă intervale enorme: scara Richter pentru cutremure, decibelul pentru intensitatea sunetului, pH-ul pentru aciditate.",
+     "ideiCheie": [
+      "Funcția logaritmică este inversa celei exponențiale.",
+      "Domeniul: numere strict pozitive; imaginea: toate numerele reale.",
+      "Graficul trece prin (1, 0) și are axa Oy ca asimptotă verticală.",
+      "Scara Richter, decibelul și pH-ul sunt scări logaritmice."
+     ],
+     "termeni": [
+      {
+       "t": "funcție logaritmică",
+       "d": "inversa funcției exponențiale, definită pentru argumente strict pozitive"
+      },
+      {
+       "t": "schimbare de bază",
+       "d": "formula care exprimă un logaritm dintr-o bază prin logaritmi din altă bază"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care este domeniul funcției logaritmice?",
+       "v": "Numerele strict pozitive."
+      },
+      {
+       "f": "Prin ce punct trece graficul funcției logaritmice?",
+       "v": "Prin punctul (1, 0)."
+      },
+      {
+       "f": "Ce relație are graficul logaritmului cu cel al exponențialei?",
+       "v": "Este simetricul lui față de prima bisectoare."
+      },
+      {
+       "f": "Ce scări practice sunt logaritmice?",
+       "v": "Scara Richter, decibelul, pH-ul."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Logaritmul în baza 10 al lui 1000 este:",
+       "optiuni": [
+        "3",
+        "10",
+        "100",
+        "1"
+       ],
+       "corect": 0,
+       "explicatie": "10 la puterea 3 este 1000."
+      },
+      {
+       "intrebare": "Logaritmul unui produs este:",
+       "optiuni": [
+        "suma logaritmilor",
+        "produsul logaritmilor",
+        "diferența logaritmilor",
+        "câtul logaritmilor"
+       ],
+       "corect": 0,
+       "explicatie": "Această proprietate a făcut posibile tabelele de logaritmi."
+      },
+      {
+       "intrebare": "Axa Oy este pentru graficul logaritmului:",
+       "optiuni": [
+        "asimptotă verticală",
+        "axă de simetrie",
+        "tangentă",
+        "secantă"
+       ],
+       "corect": 0,
+       "explicatie": "Funcția nu e definită pentru argumente nepozitive."
+      },
+      {
+       "intrebare": "Scara Richter este logaritmică pentru că:",
+       "optiuni": [
+        "comprimă intervale foarte mari de energie",
+        "măsoară adâncimea cutremurului",
+        "se bazează pe numere întregi",
+        "este mai ușor de citit pe hartă"
+       ],
+       "corect": 0,
+       "explicatie": "Fiecare grad înseamnă o creștere multiplicativă a energiei."
+      }
+     ]
+    },
+    {
+     "id": "mat10-03",
+     "titlu": "Ecuații exponențiale și logaritmice",
+     "rezumat": "Ecuația exponențială se rezolvă prin aducerea ambilor membri la aceeași bază și egalarea exponenților, prin substituție (când apar puteri ale aceleiași expresii) sau prin logaritmare. Trebuie verificată mereu condiția de existență: baza pozitivă și diferită de 1. Inecuațiile exponențiale păstrează sensul inegalității când baza e supraunitară și îl schimbă când baza e subunitară — greșeala cea mai frecventă la acest capitol. Ecuația logaritmică se rezolvă punând întâi condițiile de existență — toate argumentele logaritmilor strict pozitive și bazele valide — apoi folosind proprietățile pentru a reduce ecuația la egalitatea a doi logaritmi de aceeași bază sau la forma exponențială. Soluțiile obținute se verifică obligatoriu în condițiile de existență, pentru că transformările pot introduce soluții străine. Aceleași reguli de schimbare a sensului se aplică inecuațiilor logaritmice cu bază subunitară.",
+     "ideiCheie": [
+      "Ecuațiile exponențiale se rezolvă prin aceeași bază, substituție sau logaritmare.",
+      "La bază subunitară, inecuația își schimbă sensul.",
+      "Ecuațiile logaritmice cer condiții de existență puse înainte de rezolvare.",
+      "Soluțiile trebuie verificate: transformările pot introduce soluții străine."
+     ],
+     "termeni": [
+      {
+       "t": "condiție de existență",
+       "d": "restricția pe care trebuie să o îndeplinească necunoscuta pentru ca expresia să aibă sens"
+      },
+      {
+       "t": "soluție străină",
+       "d": "valoare obținută prin calcul, dar care nu verifică ecuația inițială"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se rezolvă o ecuație exponențială cu aceeași bază?",
+       "v": "Se egalează exponenții, pentru că funcția e injectivă."
+      },
+      {
+       "f": "Ce se întâmplă cu sensul inecuației la bază subunitară?",
+       "v": "Se schimbă."
+      },
+      {
+       "f": "De ce se pun condiții de existență la ecuațiile logaritmice?",
+       "v": "Pentru că logaritmul cere argument strict pozitiv și bază validă."
+      },
+      {
+       "f": "De ce se verifică soluțiile?",
+       "v": "Pentru că transformările pot introduce soluții străine."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Ecuația 2 la puterea x = 8 are soluția:",
+       "optiuni": [
+        "3",
+        "4",
+        "2",
+        "8"
+       ],
+       "corect": 0,
+       "explicatie": "2 la puterea 3 este 8."
+      },
+      {
+       "intrebare": "La rezolvarea unei inecuații cu baza 0,5, sensul inegalității:",
+       "optiuni": [
+        "se schimbă",
+        "rămâne același",
+        "devine egalitate",
+        "depinde de exponent"
+       ],
+       "corect": 0,
+       "explicatie": "Funcția este descrescătoare."
+      },
+      {
+       "intrebare": "Înainte de a rezolva o ecuație logaritmică se pun:",
+       "optiuni": [
+        "condițiile de existență",
+        "relațiile lui Viète",
+        "limitele funcției",
+        "derivatele"
+       ],
+       "corect": 0,
+       "explicatie": "Argumentul trebuie să fie strict pozitiv."
+      },
+      {
+       "intrebare": "O soluție străină este:",
+       "optiuni": [
+        "o valoare obținută prin calcul care nu verifică ecuația inițială",
+        "o soluție complexă",
+        "o soluție irațională",
+        "o soluție negativă"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea verificarea e obligatorie."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mat10-c2",
+   "titlu": "Combinatorică și probabilități",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "mat10-04",
+     "titlu": "Numărare: permutări, aranjamente, combinări",
+     "rezumat": "Regula produsului spune că, dacă o alegere se face în m moduri și alta, independentă, în n moduri, împreună se pot face în m înmulțit cu n moduri. Permutările de n obiecte sunt toate ordonările lor, în număr de n factorial. Aranjamentele de n luate câte k sunt submulțimile ordonate de k elemente; combinările de n luate câte k sunt submulțimile neordonate. Deosebirea esențială este dacă ordinea contează: la aranjamente da, la combinări nu, de aceea numărul combinărilor este cel al aranjamentelor împărțit la k factorial. Combinările au proprietăți utile: simetria (combinări de n luate câte k este egal cu combinări de n luate câte n−k) și formula lui Pascal, care generează triunghiul lui Pascal. Binomul lui Newton dezvoltă puterea unei sume folosind combinările drept coeficienți.",
+     "ideiCheie": [
+      "Regula produsului înmulțește numărul de posibilități ale alegerilor independente.",
+      "Permutările de n obiecte sunt n factorial.",
+      "Aranjamentele țin cont de ordine, combinările nu.",
+      "Binomul lui Newton folosește combinările drept coeficienți."
+     ],
+     "termeni": [
+      {
+       "t": "permutare",
+       "d": "o ordonare posibilă a tuturor elementelor unei mulțimi"
+      },
+      {
+       "t": "combinare",
+       "d": "submulțime de k elemente, luată fără a ține cont de ordine"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Câte permutări are o mulțime cu 5 elemente?",
+       "v": "120, adică 5 factorial."
+      },
+      {
+       "f": "Ce deosebește aranjamentele de combinări?",
+       "v": "La aranjamente ordinea contează, la combinări nu."
+      },
+      {
+       "f": "Ce spune proprietatea de simetrie a combinărilor?",
+       "v": "Combinări de n luate câte k este egal cu combinări de n luate câte n−k."
+      },
+      {
+       "f": "La ce servește binomul lui Newton?",
+       "v": "La dezvoltarea puterii unei sume, cu combinările drept coeficienți."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Numărul de moduri de a alege 3 elevi dintr-o clasă de 10, fără a conta ordinea, se calculează cu:",
+       "optiuni": [
+        "combinări",
+        "aranjamente",
+        "permutări",
+        "regula sumei"
+       ],
+       "corect": 0,
+       "explicatie": "Ordinea alegerii nu contează."
+      },
+      {
+       "intrebare": "4 factorial este egal cu:",
+       "optiuni": [
+        "24",
+        "12",
+        "16",
+        "10"
+       ],
+       "corect": 0,
+       "explicatie": "4·3·2·1 dă 24 de permutări."
+      },
+      {
+       "intrebare": "Triunghiul lui Pascal se construiește cu:",
+       "optiuni": [
+        "formula lui Pascal pentru combinări",
+        "regula produsului",
+        "binomul lui Viète",
+        "permutările circulare"
+       ],
+       "corect": 0,
+       "explicatie": "Fiecare număr e suma celor două de deasupra."
+      },
+      {
+       "intrebare": "Dacă ordinea contează, se folosesc:",
+       "optiuni": [
+        "aranjamente",
+        "combinări",
+        "submulțimi",
+        "partiții"
+       ],
+       "corect": 0,
+       "explicatie": "Aranjamentele sunt submulțimi ordonate."
+      }
+     ]
+    },
+    {
+     "id": "mat10-05",
+     "titlu": "Probabilități",
+     "rezumat": "Probabilitatea unui eveniment, în cazul clasic al cazurilor egal posibile, este raportul dintre numărul cazurilor favorabile și numărul cazurilor posibile; ea este întotdeauna un număr între 0 și 1. Evenimentul sigur are probabilitatea 1, cel imposibil are probabilitatea 0. Probabilitatea evenimentului contrar este 1 minus probabilitatea evenimentului. Pentru reuniunea a două evenimente se folosește formula care adună probabilitățile și scade probabilitatea intersecției, ca să nu se numere de două ori. Două evenimente sunt independente dacă probabilitatea intersecției este produsul probabilităților; altfel se lucrează cu probabilitate condiționată. Interpretarea frecvențială leagă teoria de practică: repetând experimentul de multe ori, frecvența relativă a evenimentului se apropie de probabilitatea lui — legea numerelor mari. Aplicațiile merg de la asigurări și controlul calității la testele medicale și sondajele de opinie.",
+     "ideiCheie": [
+      "Probabilitatea clasică este raportul cazuri favorabile supra cazuri posibile.",
+      "Orice probabilitate este cuprinsă între 0 și 1.",
+      "La reuniune se scade probabilitatea intersecției.",
+      "Legea numerelor mari leagă frecvența observată de probabilitatea teoretică."
+     ],
+     "termeni": [
+      {
+       "t": "eveniment contrar",
+       "d": "evenimentul care se produce exact când evenimentul dat nu se produce"
+      },
+      {
+       "t": "evenimente independente",
+       "d": "evenimente la care producerea unuia nu schimbă probabilitatea celuilalt"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care e formula probabilității clasice?",
+       "v": "Numărul cazurilor favorabile supra numărul cazurilor posibile."
+      },
+      {
+       "f": "Cât este probabilitatea evenimentului sigur?",
+       "v": "1."
+      },
+      {
+       "f": "Cum se calculează probabilitatea evenimentului contrar?",
+       "v": "1 minus probabilitatea evenimentului."
+      },
+      {
+       "f": "Ce spune legea numerelor mari?",
+       "v": "Că frecvența relativă observată se apropie de probabilitate când numărul de repetări crește."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Probabilitatea de a obține un număr par la aruncarea unui zar este:",
+       "optiuni": [
+        "1/2",
+        "1/3",
+        "1/6",
+        "2/3"
+       ],
+       "corect": 0,
+       "explicatie": "Trei fețe favorabile din șase."
+      },
+      {
+       "intrebare": "La reuniunea a două evenimente se scade:",
+       "optiuni": [
+        "probabilitatea intersecției",
+        "probabilitatea contrarului",
+        "produsul probabilităților",
+        "diferența probabilităților"
+       ],
+       "corect": 0,
+       "explicatie": "Altfel cazurile comune s-ar număra de două ori."
+      },
+      {
+       "intrebare": "Două evenimente sunt independente dacă:",
+       "optiuni": [
+        "probabilitatea intersecției este produsul probabilităților",
+        "se exclud reciproc",
+        "au aceeași probabilitate",
+        "unul îl implică pe celălalt"
+       ],
+       "corect": 0,
+       "explicatie": "Evenimentele incompatibile nu sunt, de regulă, independente."
+      },
+      {
+       "intrebare": "Probabilitatea unui eveniment imposibil este:",
+       "optiuni": [
+        "0",
+        "1",
+        "1/2",
+        "nedefinită"
+       ],
+       "corect": 0,
+       "explicatie": "Evenimentul sigur are probabilitatea 1."
+      }
+     ]
+    },
+    {
+     "id": "mat10-06",
+     "titlu": "Elemente de statistică",
+     "rezumat": "Statistica descriptivă organizează datele: populația este mulțimea studiată, eșantionul este partea observată, iar caracteristica este însușirea măsurată. Datele se prezintă prin tabele de frecvențe și grafice: diagrama cu bare pentru date calitative, histograma pentru date grupate, diagrama circulară pentru structuri, poligonul frecvențelor pentru evoluții. Indicatorii de tendință centrală sunt media aritmetică (sensibilă la valorile extreme), mediana (valoarea din mijloc, robustă la extreme) și modul (valoarea cea mai frecventă). Alegerea între ele contează: la venituri, media poate fi trasă în sus de câteva valori foarte mari, iar mediana descrie mai fidel situația tipică. Indicatorii de împrăștiere — amplitudinea, abaterea medie și abaterea standard — arată cât de omogene sunt datele. Un eșantion nereprezentativ invalidează orice concluzie, oricât de corect ar fi calculul.",
+     "ideiCheie": [
+      "Populația este mulțimea studiată; eșantionul, partea observată.",
+      "Media este sensibilă la valorile extreme; mediana este robustă.",
+      "Modul este valoarea cu frecvența cea mai mare.",
+      "Abaterea standard măsoară împrăștierea datelor față de medie."
+     ],
+     "termeni": [
+      {
+       "t": "mediană",
+       "d": "valoarea care împarte seria ordonată în două părți egale ca număr de termeni"
+      },
+      {
+       "t": "abatere standard",
+       "d": "indicator al împrăștierii datelor față de medie"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce indicator e mai potrivit pentru venituri, media sau mediana?",
+       "v": "Mediana, pentru că nu e trasă de valorile extreme."
+      },
+      {
+       "f": "Ce este modul unei serii statistice?",
+       "v": "Valoarea care apare cel mai frecvent."
+      },
+      {
+       "f": "Ce arată abaterea standard?",
+       "v": "Cât de mult se împrăștie datele față de medie."
+      },
+      {
+       "f": "Ce se întâmplă dacă eșantionul nu e reprezentativ?",
+       "v": "Concluziile sunt invalide, oricât de corect ar fi calculul."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Mediana unei serii ordonate este:",
+       "optiuni": [
+        "valoarea din mijloc",
+        "valoarea cea mai frecventă",
+        "media valorilor",
+        "diferența dintre extreme"
+       ],
+       "corect": 0,
+       "explicatie": "Modul este valoarea cea mai frecventă."
+      },
+      {
+       "intrebare": "Histograma se folosește pentru:",
+       "optiuni": [
+        "date numerice grupate pe intervale",
+        "date calitative",
+        "structuri procentuale",
+        "serii cronologice exclusiv"
+       ],
+       "corect": 0,
+       "explicatie": "Diagrama circulară arată structuri."
+      },
+      {
+       "intrebare": "Media aritmetică este:",
+       "optiuni": [
+        "sensibilă la valorile extreme",
+        "robustă la valorile extreme",
+        "egală mereu cu mediana",
+        "independentă de date"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea se raportează adesea și mediana."
+      },
+      {
+       "intrebare": "Amplitudinea unei serii este:",
+       "optiuni": [
+        "diferența dintre valoarea maximă și cea minimă",
+        "media abaterilor",
+        "valoarea cea mai frecventă",
+        "suma frecvențelor"
+       ],
+       "corect": 0,
+       "explicatie": "Este cel mai simplu indicator de împrăștiere."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mat10-c3",
+   "titlu": "Matematici financiare și aplicații",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "mat10-07",
+     "titlu": "Procente, dobânzi, credite",
+     "rezumat": "Procentul este o fracție cu numitorul 100 și se folosește pentru comparații. Creșterea cu p procente înseamnă înmulțirea cu (1 + p/100), iar scăderea, înmulțirea cu (1 − p/100). O greșeală frecventă: o creștere de 20% urmată de o scădere de 20% nu readuce la valoarea inițială, ci la 96% din ea, pentru că procentele se aplică la baze diferite. Dobânda simplă se calculează mereu la suma inițială și crește aritmetic. Dobânda compusă se calculează la suma acumulată și crește geometric: suma finală este suma inițială înmulțită cu (1 + rata) la puterea numărului de perioade. La credite, dobânda anuală efectivă cuprinde și comisioanele, deci este indicatorul comparabil între oferte; rata lunară se calculează dintr-o formulă bazată pe progresii geometrice. Inflația reduce puterea de cumpărare, de aceea randamentul real este randamentul nominal minus rata inflației.",
+     "ideiCheie": [
+      "Creșterea cu p procente înseamnă înmulțirea cu (1 + p/100).",
+      "O creștere de 20% urmată de o scădere de 20% dă 96% din valoarea inițială.",
+      "Dobânda simplă crește aritmetic; dobânda compusă, geometric.",
+      "Randamentul real este randamentul nominal minus inflația."
+     ],
+     "termeni": [
+      {
+       "t": "dobândă compusă",
+       "d": "dobânda calculată la suma acumulată, incluzând dobânzile anterioare"
+      },
+      {
+       "t": "dobândă anuală efectivă",
+       "d": "costul total al creditului, exprimat procentual, incluzând comisioanele"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cu ce se înmulțește o valoare care crește cu 15%?",
+       "v": "Cu 1,15."
+      },
+      {
+       "f": "De ce o creștere de 20% urmată de o scădere de 20% nu readuce la valoarea inițială?",
+       "v": "Pentru că procentele se aplică la baze diferite; rezultatul e 96%."
+      },
+      {
+       "f": "Care e diferența dintre dobânda simplă și cea compusă?",
+       "v": "Simpla se calculează la suma inițială, compusa la suma acumulată."
+      },
+      {
+       "f": "De ce se compară creditele după dobânda anuală efectivă?",
+       "v": "Pentru că include și comisioanele, nu doar dobânda nominală."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "O sumă crescută cu 10% și apoi scăzută cu 10% ajunge la:",
+       "optiuni": [
+        "99% din valoarea inițială",
+        "100%",
+        "101%",
+        "90%"
+       ],
+       "corect": 0,
+       "explicatie": "1,1 înmulțit cu 0,9 dă 0,99."
+      },
+      {
+       "intrebare": "Dobânda compusă corespunde unei creșteri:",
+       "optiuni": [
+        "geometrice",
+        "aritmetice",
+        "liniare",
+        "constante"
+       ],
+       "corect": 0,
+       "explicatie": "Se aplică la suma acumulată."
+      },
+      {
+       "intrebare": "Randamentul real al unei investiții se obține scăzând:",
+       "optiuni": [
+        "rata inflației",
+        "comisioanele bancare",
+        "impozitul pe profit",
+        "rata dobânzii nominale"
+       ],
+       "corect": 0,
+       "explicatie": "Inflația erodează puterea de cumpărare."
+      },
+      {
+       "intrebare": "Dobânda anuală efectivă include:",
+       "optiuni": [
+        "dobânda și comisioanele",
+        "doar dobânda nominală",
+        "doar comisioanele",
+        "doar taxele de stat"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea e indicatorul comparabil."
+      }
+     ]
+    },
+    {
+     "id": "mat10-08",
+     "titlu": "Funcții și modele de creștere",
+     "rezumat": "Modelarea matematică alege funcția potrivită pentru un fenomen. Creșterea liniară adaugă o cantitate constantă în fiecare perioadă și se descrie printr-o funcție de gradul I; e potrivită pentru salariul fix pe oră sau consumul constant. Creșterea exponențială înmulțește cu un factor constant și se potrivește populațiilor, dobânzii compuse și fazei inițiale a unei epidemii. Creșterea logistică pornește exponențial, apoi încetinește și se apropie de un plafon (capacitatea de suport); ea descrie mai bine realitatea, pentru că resursele sunt finite. Alegerea modelului se face uitându-te la date: dacă diferențele succesive sunt aproape constante, modelul e liniar; dacă rapoartele succesive sunt aproape constante, e exponențial. Extrapolarea unui model dincolo de intervalul observat este riscantă — o exponențială extrapolată prea departe dă predicții absurde.",
+     "ideiCheie": [
+      "Creșterea liniară adaugă o cantitate constantă; cea exponențială înmulțește cu un factor constant.",
+      "Creșterea logistică are un plafon: capacitatea de suport.",
+      "Diferențe constante indică model liniar; rapoarte constante, model exponențial.",
+      "Extrapolarea dincolo de datele observate este riscantă."
+     ],
+     "termeni": [
+      {
+       "t": "model matematic",
+       "d": "descrierea unui fenomen real printr-o relație matematică"
+      },
+      {
+       "t": "capacitate de suport",
+       "d": "valoarea-plafon spre care tinde o creștere logistică"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce fel de creștere are dobânda compusă?",
+       "v": "Exponențială."
+      },
+      {
+       "f": "Cum se recunoaște un model liniar din date?",
+       "v": "Diferențele succesive sunt aproximativ constante."
+      },
+      {
+       "f": "Ce descrie modelul logistic?",
+       "v": "O creștere care pornește exponențial și se apropie apoi de un plafon."
+      },
+      {
+       "f": "De ce e riscantă extrapolarea?",
+       "v": "Pentru că modelul poate fi valabil doar pe intervalul observat."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Dacă rapoartele succesive ale datelor sunt constante, modelul este:",
+       "optiuni": [
+        "exponențial",
+        "liniar",
+        "logistic",
+        "constant"
+       ],
+       "corect": 0,
+       "explicatie": "Diferențele constante indică liniaritate."
+      },
+      {
+       "intrebare": "Capacitatea de suport apare în modelul:",
+       "optiuni": [
+        "logistic",
+        "liniar",
+        "exponențial pur",
+        "logaritmic"
+       ],
+       "corect": 0,
+       "explicatie": "Este plafonul spre care tinde creșterea."
+      },
+      {
+       "intrebare": "Creșterea liniară se descrie printr-o funcție de:",
+       "optiuni": [
+        "gradul I",
+        "gradul al II-lea",
+        "tip exponențial",
+        "tip logaritmic"
+       ],
+       "corect": 0,
+       "explicatie": "Graficul ei este o dreaptă."
+      },
+      {
+       "intrebare": "O epidemie în faza inițială se modelează cel mai bine:",
+       "optiuni": [
+        "exponențial",
+        "liniar",
+        "logaritmic",
+        "constant"
+       ],
+       "corect": 0,
+       "explicatie": "Apoi modelul devine logistic."
+      }
+     ]
+    },
+    {
+     "id": "mat10-09",
+     "titlu": "Raționament, demonstrație, erori",
+     "rezumat": "Matematica se construiește prin demonstrație. Metodele uzuale sunt: demonstrația directă, care pornește de la ipoteză și ajunge la concluzie prin implicații; demonstrația prin reducere la absurd, care presupune contrariul concluziei și obține o contradicție; și inducția matematică, folosită pentru afirmații despre toate numerele naturale, cu pasul de verificare inițial și pasul de trecere de la n la n+1. Un contraexemplu este suficient pentru a respinge o afirmație universală, dar niciun număr de exemple nu o demonstrează. Erorile logice frecvente în raționamentul cotidian sunt confundarea implicației cu reciproca ei, confundarea corelației cu cauzalitatea și generalizarea pripită de la un eșantion mic. Statistica prost folosită produce concluzii false chiar cu date corecte: grafice cu axa trunchiată, procente raportate la baze diferite, eșantioane autoselectate.",
+     "ideiCheie": [
+      "Metodele de demonstrație: directă, prin reducere la absurd, prin inducție matematică.",
+      "Un contraexemplu respinge o afirmație universală; exemplele nu o demonstrează.",
+      "Corelația nu implică automat cauzalitate.",
+      "Graficele cu axa trunchiată exagerează diferențele reale."
+     ],
+     "termeni": [
+      {
+       "t": "reducere la absurd",
+       "d": "metodă de demonstrație care presupune contrariul concluziei și obține o contradicție"
+      },
+      {
+       "t": "inducție matematică",
+       "d": "metodă de demonstrație pentru afirmații despre toate numerele naturale"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce demonstrează un contraexemplu?",
+       "v": "Că o afirmație universală este falsă."
+      },
+      {
+       "f": "Care sunt cei doi pași ai inducției matematice?",
+       "v": "Verificarea cazului inițial și trecerea de la n la n+1."
+      },
+      {
+       "f": "De ce corelația nu implică cauzalitate?",
+       "v": "Pentru că legătura poate veni dintr-o cauză comună sau din întâmplare."
+      },
+      {
+       "f": "Cum înșală un grafic cu axa trunchiată?",
+       "v": "Exagerează vizual diferențele mici."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Reducerea la absurd presupune:",
+       "optiuni": [
+        "contrariul concluziei, pentru a obține o contradicție",
+        "ipoteza, pentru a ajunge la concluzie",
+        "verificarea tuturor cazurilor",
+        "un contraexemplu"
+       ],
+       "corect": 0,
+       "explicatie": "Contradicția arată că presupunerea era falsă."
+      },
+      {
+       "intrebare": "Pentru a respinge afirmația „toate numerele prime sunt impare” e nevoie de:",
+       "optiuni": [
+        "un singur contraexemplu",
+        "o demonstrație prin inducție",
+        "verificarea tuturor primelor",
+        "o reducere la absurd"
+       ],
+       "corect": 0,
+       "explicatie": "Numărul 2 este contraexemplul."
+      },
+      {
+       "intrebare": "Inducția matematică se folosește pentru afirmații despre:",
+       "optiuni": [
+        "toate numerele naturale",
+        "numere reale oarecare",
+        "mulțimi finite exclusiv",
+        "funcții continue"
+       ],
+       "corect": 0,
+       "explicatie": "Are pas de bază și pas de inducție."
+      },
+      {
+       "intrebare": "Un eșantion autoselectat produce, de regulă:",
+       "optiuni": [
+        "concluzii distorsionate",
+        "concluzii mai precise",
+        "aceleași rezultate ca unul aleatoriu",
+        "rezultate imposibil de calculat"
+       ],
+       "corect": 0,
+       "explicatie": "Cei care răspund diferă sistematic de cei care nu răspund."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mat10-c4",
+   "titlu": "Funcția putere, radical și trigonometrie",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "mat10-10",
+     "titlu": "Funcția putere și funcția radical",
+     "rezumat": "Funcția putere are forma f de x egal cu x la puterea n, cu n număr natural nenul. Comportarea ei depinde de paritatea exponentului. Pentru exponent par, funcția este pară: graficul este simetric față de axa verticală, valorile sunt nenegative, iar forma seamănă cu a parabolei. Pentru exponent impar, funcția este impară: graficul este simetric față de origine, iar funcția ia atât valori pozitive, cât și negative.\nFuncția radical de ordin n este inversa funcției putere: ea „desface\" ridicarea la putere. Ordinul radicalului îi impune domeniul. Radicalul de ordin par este definit numai pentru numere nenegative, pentru că nicio putere pară a unui număr real nu poate fi negativă; radicalul de ordin impar este definit pentru orice număr real. Pe domeniul numerelor nenegative, funcția radical este strict crescătoare, iar graficul ei este simetricul graficului funcției putere față de prima bisectoare, ca la orice pereche de funcții inverse.",
+     "ideiCheie": [
+      "Funcția putere cu exponent par este pară; cu exponent impar, impară.",
+      "Funcția radical este inversa funcției putere.",
+      "Radicalul de ordin par este definit doar pentru numere nenegative.",
+      "Radicalul de ordin impar este definit pentru orice număr real."
+     ],
+     "termeni": [
+      {
+       "t": "funcție putere",
+       "d": "funcția f de x egal cu x la puterea n, cu n natural nenul"
+      },
+      {
+       "t": "funcție radical",
+       "d": "inversa funcției putere, notată cu semnul rădăcinii de ordin n"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce fel de funcție este f de x egal cu x la pătrat?",
+       "v": "O funcție pară, cu graficul simetric față de axa verticală."
+      },
+      {
+       "f": "Ce fel de funcție este f de x egal cu x la cub?",
+       "v": "O funcție impară, cu graficul simetric față de origine."
+      },
+      {
+       "f": "Pentru ce numere este definit radicalul de ordin par?",
+       "v": "Pentru numerele nenegative."
+      },
+      {
+       "f": "Ce relație are graficul radicalului cu cel al puterii?",
+       "v": "Este simetricul lui față de prima bisectoare."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Funcția f de x egal cu x la pătrat este:",
+       "optiuni": [
+        "pară, cu graficul simetric față de axa verticală",
+        "impară, cu graficul simetric față de origine",
+        "fără simetrie",
+        "strict descrescătoare pe tot domeniul"
+       ],
+       "corect": 0,
+       "explicatie": "Valorile ei sunt nenegative."
+      },
+      {
+       "intrebare": "Funcția radical de ordin par este definită pentru:",
+       "optiuni": [
+        "numere nenegative",
+        "orice număr real",
+        "numere negative",
+        "numere întregi"
+       ],
+       "corect": 0,
+       "explicatie": "O putere pară nu poate fi negativă."
+      },
+      {
+       "intrebare": "Funcția f de x egal cu x la cub este:",
+       "optiuni": [
+        "impară, cu graficul simetric față de origine",
+        "pară",
+        "fără simetrie",
+        "constantă"
+       ],
+       "corect": 0,
+       "explicatie": "Ia atât valori pozitive, cât și negative."
+      },
+      {
+       "intrebare": "Funcția radical este inversa:",
+       "optiuni": [
+        "funcției putere",
+        "funcției exponențiale",
+        "funcției de gradul I",
+        "funcției logaritmice"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea „desface\" ridicarea la putere."
+      }
+     ]
+    },
+    {
+     "id": "mat10-11",
+     "titlu": "Funcții trigonometrice",
+     "rezumat": "Funcțiile trigonometrice extind rapoartele din triunghiul dreptunghic la orice unghi, folosind cercul trigonometric. Funcția sinus asociază fiecărui număr real ordonata punctului corespunzător de pe cerc, iar funcția cosinus, abscisa lui. Amândouă au domeniul mulțimea tuturor numerelor reale, iar imaginea, intervalul de la minus unu la unu: valorile lor nu ies niciodată din acest interval.\nSinusul și cosinusul sunt funcții periodice, cu perioada principală doi pi, pentru că valorile se reiau la fiecare rotație completă pe cerc. Funcția sinus este impară, iar funcția cosinus este pară. Funcția tangentă, definită ca raportul dintre sinus și cosinus, nu este definită acolo unde cosinusul se anulează și are perioada pi. Graficele lor, sinusoida și cosinusoida, sunt curbe ondulate care descriu fenomene ce se repetă: oscilații, unde, curentul alternativ, fazele Lunii.",
+     "ideiCheie": [
+      "Sinusul și cosinusul au domeniul toate numerele reale și imaginea de la minus unu la unu.",
+      "Sinusul și cosinusul au perioada principală doi pi.",
+      "Sinusul este funcție impară; cosinusul este funcție pară.",
+      "Tangenta nu e definită unde cosinusul se anulează și are perioada pi."
+     ],
+     "termeni": [
+      {
+       "t": "funcție sinus",
+       "d": "funcția care asociază fiecărui unghi ordonata punctului de pe cercul trigonometric"
+      },
+      {
+       "t": "perioadă principală",
+       "d": "cel mai mic interval după care valorile unei funcții periodice se repetă"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care este imaginea funcției sinus?",
+       "v": "Intervalul de la minus unu la unu."
+      },
+      {
+       "f": "Care este perioada principală a funcției sinus?",
+       "v": "Doi pi."
+      },
+      {
+       "f": "Ce fel de funcție este cosinusul, pară sau impară?",
+       "v": "Pară."
+      },
+      {
+       "f": "Care este perioada funcției tangentă?",
+       "v": "Pi."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Imaginea funcției sinus este intervalul:",
+       "optiuni": [
+        "de la minus unu la unu",
+        "de la zero la unu",
+        "toate numerele reale",
+        "de la minus doi la doi"
+       ],
+       "corect": 0,
+       "explicatie": "Valorile sinusului nu ies din acest interval."
+      },
+      {
+       "intrebare": "Perioada principală a funcției sinus este:",
+       "optiuni": [
+        "doi pi",
+        "pi",
+        "pi supra doi",
+        "1"
+       ],
+       "corect": 0,
+       "explicatie": "Valorile se reiau la fiecare rotație completă."
+      },
+      {
+       "intrebare": "Funcția cosinus este:",
+       "optiuni": [
+        "pară",
+        "impară",
+        "neperiodică",
+        "strict crescătoare"
+       ],
+       "corect": 0,
+       "explicatie": "Sinusul, în schimb, este impar."
+      },
+      {
+       "intrebare": "Valoarea maximă pe care o poate lua funcția cosinus este:",
+       "optiuni": [
+        "1",
+        "0",
+        "doi pi",
+        "infinit"
+       ],
+       "corect": 0,
+       "explicatie": "Cosinusul ia valori între minus unu și unu."
+      }
+     ]
+    },
+    {
+     "id": "mat10-12",
+     "titlu": "Ecuații trigonometrice",
+     "rezumat": "O ecuație trigonometrică conține necunoscuta în argumentul unei funcții trigonometrice. Cele mai simple sunt ecuațiile fundamentale, de forma sinus de x egal a sau cosinus de x egal a. Pentru că sinusul și cosinusul iau valori numai între minus unu și unu, aceste ecuații au soluții reale doar dacă numărul a se află în acest interval; dacă a este în afara lui, ecuația nu are nicio soluție reală.\nRezolvarea se face pe cercul trigonometric, unde se identifică unghiurile care dau valoarea cerută. Pentru că funcțiile sunt periodice, o ecuație are de regulă o infinitate de soluții, obținute adăugând multipli întregi ai perioadei la soluțiile de bază. De exemplu, ecuația sinus de x egal zero are soluțiile date de multiplii lui pi, iar ecuația cosinus de x egal unu are soluțiile date de multiplii lui doi pi. Verificarea și scrierea corectă a mulțimii tuturor soluțiilor, cu ajutorul unui întreg oarecare, sunt esențiale.",
+     "ideiCheie": [
+      "O ecuație trigonometrică are necunoscuta în argumentul unei funcții trigonometrice.",
+      "Ecuația sinus de x egal a are soluții reale doar dacă a este între minus unu și unu.",
+      "Din cauza periodicității, soluțiile sunt în număr infinit, cu multipli ai perioadei.",
+      "Ecuația sinus de x egal zero are drept soluții multiplii lui pi."
+     ],
+     "termeni": [
+      {
+       "t": "ecuație trigonometrică",
+       "d": "ecuație în care necunoscuta apare în argumentul unei funcții trigonometrice"
+      },
+      {
+       "t": "ecuație fundamentală",
+       "d": "ecuație de forma sinus de x egal a sau cosinus de x egal a"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Când are ecuația sinus de x egal a soluții reale?",
+       "v": "Doar dacă a este cuprins între minus unu și unu."
+      },
+      {
+       "f": "De ce are o ecuație trigonometrică o infinitate de soluții?",
+       "v": "Din cauza periodicității funcțiilor trigonometrice."
+      },
+      {
+       "f": "Care sunt soluțiile ecuației sinus de x egal zero?",
+       "v": "Multiplii întregi ai lui pi."
+      },
+      {
+       "f": "Care sunt soluțiile ecuației cosinus de x egal unu?",
+       "v": "Multiplii întregi ai lui doi pi."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Ecuația sinus de x egal a are soluții reale doar dacă:",
+       "optiuni": [
+        "a este cuprins între minus unu și unu",
+        "a este orice număr real",
+        "a este mai mare decât unu",
+        "a este întreg"
+       ],
+       "corect": 0,
+       "explicatie": "Sinusul nu iese din intervalul de la minus unu la unu."
+      },
+      {
+       "intrebare": "Ecuația cosinus de x egal unu are soluțiile:",
+       "optiuni": [
+        "multiplii lui doi pi",
+        "multiplii lui pi",
+        "pi supra doi plus multiplii lui pi",
+        "doar zero"
+       ],
+       "corect": 0,
+       "explicatie": "Cosinusul este unu la fiecare rotație completă."
+      },
+      {
+       "intrebare": "Ecuația sinus de x egal zero are soluțiile:",
+       "optiuni": [
+        "multiplii lui pi",
+        "multiplii lui doi pi",
+        "pi supra doi plus multiplii lui pi",
+        "doar unu"
+       ],
+       "corect": 0,
+       "explicatie": "Sinusul se anulează la fiecare jumătate de rotație."
+      },
+      {
+       "intrebare": "Ecuația sinus de x egal 2:",
+       "optiuni": [
+        "nu are soluții reale",
+        "are o singură soluție",
+        "are exact două soluții",
+        "are soluțiile multiplii lui pi"
+       ],
+       "corect": 0,
+       "explicatie": "Numărul 2 nu este în intervalul de la minus unu la unu."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mat10-c5",
+   "titlu": "Numere complexe",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "mat10-13",
+     "titlu": "Forma algebrică a numerelor complexe",
+     "rezumat": "Numerele complexe extind numerele reale pentru a face rezolvabilă orice ecuație de gradul al doilea, chiar și x la pătrat plus unu egal zero, care nu are soluții reale. Cheia este unitatea imaginară, notată i, definită prin proprietatea că pătratul ei este minus unu. Un număr complex se scrie în formă algebrică drept a plus b înmulțit cu i, unde a se numește partea reală, iar b partea imaginară; numerele reale sunt cazul particular în care partea imaginară este zero.\nAdunarea și scăderea numerelor complexe se fac pe componente: se adună separat părțile reale și separat părțile imaginare. Înmulțirea se face ca la binoame, ținând seama că pătratul unității imaginare este minus unu. Puterile lui i se repetă din patru în patru: i la puterea întâi este i, i la pătrat este minus unu, i la cub este minus i, iar i la puterea a patra este unu, după care ciclul reîncepe. Numerele complexe se reprezintă geometric ca puncte în plan, cu partea reală pe axa orizontală și partea imaginară pe axa verticală.",
+     "ideiCheie": [
+      "Unitatea imaginară i are pătratul egal cu minus unu.",
+      "Un număr complex are forma a plus b ori i, cu a partea reală și b partea imaginară.",
+      "Adunarea numerelor complexe se face pe componente.",
+      "Puterile lui i se repetă din patru în patru: i, minus unu, minus i, unu."
+     ],
+     "termeni": [
+      {
+       "t": "unitate imaginară",
+       "d": "numărul i, definit prin proprietatea că pătratul lui este minus unu"
+      },
+      {
+       "t": "parte reală",
+       "d": "componenta a dintr-un număr complex scris sub forma a plus b ori i"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce proprietate definește unitatea imaginară i?",
+       "v": "Pătratul ei este minus unu."
+      },
+      {
+       "f": "Cum se scrie forma algebrică a unui număr complex?",
+       "v": "Ca a plus b înmulțit cu i."
+      },
+      {
+       "f": "Cum se adună două numere complexe?",
+       "v": "Adunând separat părțile reale și separat părțile imaginare."
+      },
+      {
+       "f": "Cât este i la puterea a patra?",
+       "v": "Unu."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Unitatea imaginară i satisface relația:",
+       "optiuni": [
+        "i la pătrat egal minus unu",
+        "i la pătrat egal unu",
+        "i egal zero",
+        "i la pătrat egal i"
+       ],
+       "corect": 0,
+       "explicatie": "Pe această proprietate se construiesc numerele complexe."
+      },
+      {
+       "intrebare": "În numărul complex z egal a plus b ori i, partea reală este:",
+       "optiuni": [
+        "a",
+        "b",
+        "b ori i",
+        "a plus b"
+       ],
+       "corect": 0,
+       "explicatie": "b este partea imaginară."
+      },
+      {
+       "intrebare": "Valoarea lui i la puterea a patra este:",
+       "optiuni": [
+        "1",
+        "minus 1",
+        "i",
+        "minus i"
+       ],
+       "corect": 0,
+       "explicatie": "i la pătrat este minus unu, deci i la a patra este unu."
+      },
+      {
+       "intrebare": "Suma numerelor complexe 2 plus 3i și 1 minus i este:",
+       "optiuni": [
+        "3 plus 2i",
+        "3 plus 4i",
+        "1 plus 2i",
+        "2 plus 3i"
+       ],
+       "corect": 0,
+       "explicatie": "Se adună separat: 2 plus 1 și 3i minus i."
+      }
+     ]
+    },
+    {
+     "id": "mat10-14",
+     "titlu": "Modul, conjugat și forma trigonometrică",
+     "rezumat": "Fiecărui număr complex i se asociază conjugatul său, obținut schimbând semnul părții imaginare: conjugatul lui a plus b ori i este a minus b ori i. Modulul numărului complex este distanța de la punctul care îl reprezintă până la origine și se calculează cu teorema lui Pitagora, ca rădăcina din suma pătratelor părții reale și părții imaginare. Produsul dintre un număr complex și conjugatul său este un număr real nenegativ, egal cu pătratul modulului.\nConjugatul este util și la împărțirea numerelor complexe: se amplifică fracția cu conjugatul numitorului, iar numitorul devine real. Pe lângă forma algebrică, un număr complex se poate scrie în formă trigonometrică, ca produsul dintre modulul său și paranteza formată din cosinusul și sinusul argumentului, unghiul pe care îl face cu axa reală. Forma trigonometrică simplifică înmulțirea, împărțirea și ridicarea la putere a numerelor complexe.",
+     "ideiCheie": [
+      "Conjugatul lui a plus b ori i este a minus b ori i.",
+      "Modulul este rădăcina din suma pătratelor părții reale și imaginare.",
+      "Produsul unui număr complex cu conjugatul său este pătratul modulului, un număr real.",
+      "Forma trigonometrică folosește modulul și argumentul numărului complex."
+     ],
+     "termeni": [
+      {
+       "t": "conjugat",
+       "d": "numărul complex obținut schimbând semnul părții imaginare"
+      },
+      {
+       "t": "modul al unui număr complex",
+       "d": "distanța de la punctul care îl reprezintă până la origine, rădăcina din suma pătratelor componentelor"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se obține conjugatul unui număr complex?",
+       "v": "Schimbând semnul părții imaginare."
+      },
+      {
+       "f": "Cum se calculează modulul unui număr complex?",
+       "v": "Ca rădăcina din suma pătratelor părții reale și părții imaginare."
+      },
+      {
+       "f": "Ce fel de număr este produsul dintre un complex și conjugatul său?",
+       "v": "Un număr real nenegativ, egal cu pătratul modulului."
+      },
+      {
+       "f": "La ce ajută conjugatul în împărțirea numerelor complexe?",
+       "v": "La a face numitorul real, amplificând cu conjugatul lui."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Conjugatul numărului complex 3 plus 4i este:",
+       "optiuni": [
+        "3 minus 4i",
+        "minus 3 plus 4i",
+        "4 plus 3i",
+        "3 plus 4i"
+       ],
+       "corect": 0,
+       "explicatie": "Se schimbă doar semnul părții imaginare."
+      },
+      {
+       "intrebare": "Modulul numărului complex 3 plus 4i este:",
+       "optiuni": [
+        "5",
+        "7",
+        "25",
+        "1"
+       ],
+       "corect": 0,
+       "explicatie": "Rădăcina din 3 la pătrat plus 4 la pătrat, adică din 25."
+      },
+      {
+       "intrebare": "Produsul dintre un număr complex și conjugatul său este:",
+       "optiuni": [
+        "un număr real, egal cu pătratul modulului",
+        "întotdeauna zero",
+        "un număr pur imaginar",
+        "egal cu numărul complex"
+       ],
+       "corect": 0,
+       "explicatie": "Părțile imaginare se anulează."
+      },
+      {
+       "intrebare": "Forma trigonometrică a unui număr complex folosește:",
+       "optiuni": [
+        "modulul și argumentul lui",
+        "doar partea reală",
+        "doar partea imaginară",
+        "două module diferite"
+       ],
+       "corect": 0,
+       "explicatie": "Se scrie ca modulul înmulțit cu cosinusul plus i sinusul argumentului."
+      }
+     ]
+    },
+    {
+     "id": "mat10-15",
+     "titlu": "Ecuații în mulțimea numerelor complexe",
+     "rezumat": "Marele câștig al numerelor complexe este că, în mulțimea lor, orice ecuație de gradul al doilea are soluții, indiferent de semnul discriminantului. Când discriminantul este pozitiv sau zero, soluțiile sunt reale, ca de obicei. Când discriminantul este negativ, ecuația nu are soluții reale, dar are două soluții complexe, care sunt conjugate una alteia.\nFormula soluțiilor rămâne aceeași, doar că rădăcina dintr-un număr negativ se scrie cu ajutorul unității imaginare. Cea mai simplă ecuație de acest fel, x la pătrat plus unu egal zero, are soluțiile i și minus i, pentru că pătratul lui i este minus unu. La fel, x la pătrat egal minus patru are soluțiile doi i și minus doi i. Relațiile lui Viète, care leagă suma și produsul soluțiilor de coeficienți, rămân valabile și în mulțimea numerelor complexe, ceea ce arată coerența extinderii.",
+     "ideiCheie": [
+      "În mulțimea numerelor complexe, orice ecuație de gradul al doilea are soluții.",
+      "Când discriminantul e negativ, soluțiile sunt complexe și conjugate.",
+      "Ecuația x la pătrat plus unu egal zero are soluțiile i și minus i.",
+      "Relațiile lui Viète rămân valabile și pentru numere complexe."
+     ],
+     "termeni": [
+      {
+       "t": "soluții conjugate",
+       "d": "cele două soluții complexe ale unei ecuații de gradul al doilea cu discriminant negativ"
+      },
+      {
+       "t": "discriminant negativ",
+       "d": "cazul în care ecuația nu are soluții reale, ci două soluții complexe conjugate"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Câte soluții are, în mulțimea complexă, o ecuație de gradul al doilea?",
+       "v": "Are întotdeauna soluții, indiferent de discriminant."
+      },
+      {
+       "f": "Ce fel de soluții are o ecuație de gradul al doilea cu discriminant negativ?",
+       "v": "Două soluții complexe, conjugate una alteia."
+      },
+      {
+       "f": "Care sunt soluțiile ecuației x la pătrat plus unu egal zero?",
+       "v": "i și minus i."
+      },
+      {
+       "f": "Rămân valabile relațiile lui Viète pentru numere complexe?",
+       "v": "Da, ele leagă suma și produsul soluțiilor de coeficienți."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "În mulțimea numerelor complexe, ecuația x la pătrat plus unu egal zero are soluțiile:",
+       "optiuni": [
+        "i și minus i",
+        "unu și minus unu",
+        "doar zero",
+        "niciuna"
+       ],
+       "corect": 0,
+       "explicatie": "Pentru că pătratul lui i este minus unu."
+      },
+      {
+       "intrebare": "Dacă discriminantul unei ecuații de gradul al doilea cu coeficienți reali este negativ, ecuația are:",
+       "optiuni": [
+        "două soluții complexe conjugate",
+        "două soluții reale distincte",
+        "o singură soluție reală",
+        "nicio soluție, nici măcar complexă"
+       ],
+       "corect": 0,
+       "explicatie": "În complex, orice ecuație pătratică are soluții."
+      },
+      {
+       "intrebare": "Ecuația x la pătrat egal minus patru are, în mulțimea complexă, soluțiile:",
+       "optiuni": [
+        "doi i și minus doi i",
+        "doi și minus doi",
+        "patru i",
+        "niciuna"
+       ],
+       "corect": 0,
+       "explicatie": "Pentru că pătratul lui doi i este minus patru."
+      },
+      {
+       "intrebare": "În mulțimea numerelor complexe, orice ecuație de gradul al doilea:",
+       "optiuni": [
+        "are soluții",
+        "nu are niciodată soluții",
+        "are soluții doar dacă discriminantul e pozitiv",
+        "are o singură soluție"
+       ],
+       "corect": 0,
+       "explicatie": "Aceasta a fost motivația extinderii numerelor."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mat10-c6",
+   "titlu": "Geometrie analitică",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "mat10-16",
+     "titlu": "Vectori și coordonate în plan",
+     "rezumat": "În reperul cartezian, un vector se descrie prin componentele lui pe cele două axe. Vectorul determinat de două puncte are drept componente diferențele coordonatelor: din coordonatele punctului final se scad coordonatele punctului inițial. Modulul vectorului, adică lungimea lui, se calculează cu teorema lui Pitagora, ca rădăcina din suma pătratelor componentelor.\nAdunarea vectorilor se face pe componente, iar înmulțirea cu un scalar înmulțește fiecare componentă. Produsul scalar a doi vectori dați prin componente este suma produselor componentelor corespunzătoare; el este legat și de modulele vectorilor și de cosinusul unghiului dintre ei. De aici rezultă criteriul de perpendicularitate: doi vectori nenuli sunt perpendiculari exact atunci când produsul lor scalar este zero. Calculul vectorial în coordonate permite rezolvarea numerică a problemelor de geometrie: distanțe, unghiuri, arii, coliniaritate.",
+     "ideiCheie": [
+      "Componentele vectorului dintre două puncte sunt diferențele coordonatelor.",
+      "Modulul vectorului este rădăcina din suma pătratelor componentelor.",
+      "Produsul scalar este suma produselor componentelor corespunzătoare.",
+      "Doi vectori nenuli sunt perpendiculari dacă produsul lor scalar este zero."
+     ],
+     "termeni": [
+      {
+       "t": "componente ale unui vector",
+       "d": "proiecțiile vectorului pe axele reperului cartezian"
+      },
+      {
+       "t": "produs scalar",
+       "d": "suma produselor componentelor corespunzătoare a doi vectori, legată de cosinusul unghiului dintre ei"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se află componentele vectorului dintre două puncte?",
+       "v": "Scăzând coordonatele punctului inițial din cele ale punctului final."
+      },
+      {
+       "f": "Cum se calculează modulul unui vector din componente?",
+       "v": "Ca rădăcina din suma pătratelor componentelor."
+      },
+      {
+       "f": "Cum se calculează produsul scalar din componente?",
+       "v": "Ca suma produselor componentelor corespunzătoare."
+      },
+      {
+       "f": "Când sunt doi vectori perpendiculari?",
+       "v": "Când produsul lor scalar este zero."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Vectorul determinat de punctele A(1, 2) și B(4, 6) are componentele:",
+       "optiuni": [
+        "(3, 4)",
+        "(5, 8)",
+        "(4, 6)",
+        "(1, 2)"
+       ],
+       "corect": 0,
+       "explicatie": "Se scad coordonatele: 4 minus 1 și 6 minus 2."
+      },
+      {
+       "intrebare": "Modulul vectorului de componente (3, 4) este:",
+       "optiuni": [
+        "5",
+        "7",
+        "12",
+        "25"
+       ],
+       "corect": 0,
+       "explicatie": "Rădăcina din 3 la pătrat plus 4 la pătrat."
+      },
+      {
+       "intrebare": "Produsul scalar al vectorilor de componente (1, 2) și (3, 4) este:",
+       "optiuni": [
+        "11",
+        "10",
+        "7",
+        "24"
+       ],
+       "corect": 0,
+       "explicatie": "1 ori 3 plus 2 ori 4, adică 3 plus 8."
+      },
+      {
+       "intrebare": "Doi vectori nenuli sunt perpendiculari dacă produsul lor scalar este:",
+       "optiuni": [
+        "0",
+        "1",
+        "egal cu produsul modulelor",
+        "negativ"
+       ],
+       "corect": 0,
+       "explicatie": "Cosinusul unghiului drept este zero."
+      }
+     ]
+    },
+    {
+     "id": "mat10-17",
+     "titlu": "Dreapta în plan",
+     "rezumat": "O dreaptă din plan se descrie prin ecuații. Forma explicită este y egal cu m înmulțit cu x plus n, unde m este panta, iar n este ordonata la origine. Panta arată înclinarea dreptei: este tangenta unghiului format cu axa orizontală. Forma generală, în care toți termenii sunt trecuți într-un membru, este a înmulțit cu x plus b înmulțit cu y plus c egal zero.\nPanta unei drepte care trece prin două puncte cunoscute este raportul dintre diferența ordonatelor și diferența absciselor. Două drepte sunt paralele dacă au aceeași pantă și perpendiculare dacă produsul pantelor lor este minus unu. Intersecția a două drepte se află rezolvând sistemul format din ecuațiile lor, iar poziția relativă a dreptelor se citește din pante: pante egale și ordonate diferite înseamnă drepte paralele distincte. Distanța de la un punct la o dreaptă se calculează cu o formulă bazată pe coeficienții ecuației generale.",
+     "ideiCheie": [
+      "Forma explicită a dreptei: y egal m ori x plus n, cu panta m și ordonata la origine n.",
+      "Panta prin două puncte este diferența ordonatelor supra diferența absciselor.",
+      "Două drepte sunt paralele dacă au aceeași pantă.",
+      "Două drepte sunt perpendiculare dacă produsul pantelor este minus unu."
+     ],
+     "termeni": [
+      {
+       "t": "pantă",
+       "d": "coeficientul m din ecuația dreptei, egal cu tangenta unghiului cu axa orizontală"
+      },
+      {
+       "t": "drepte perpendiculare",
+       "d": "drepte ale căror pante au produsul egal cu minus unu"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce reprezintă m în ecuația y egal m ori x plus n?",
+       "v": "Panta dreptei."
+      },
+      {
+       "f": "Cum se calculează panta unei drepte prin două puncte?",
+       "v": "Ca raportul dintre diferența ordonatelor și diferența absciselor."
+      },
+      {
+       "f": "Când sunt două drepte paralele?",
+       "v": "Când au aceeași pantă."
+      },
+      {
+       "f": "Când sunt două drepte perpendiculare?",
+       "v": "Când produsul pantelor lor este minus unu."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Panta dreptei care trece prin punctele (1, 1) și (3, 5) este:",
+       "optiuni": [
+        "2",
+        "3",
+        "4",
+        "o jumătate"
+       ],
+       "corect": 0,
+       "explicatie": "Diferența ordonatelor, 5 minus 1, supra diferența absciselor, 3 minus 1."
+      },
+      {
+       "intrebare": "Două drepte cu pantele 2 și minus o jumătate sunt:",
+       "optiuni": [
+        "perpendiculare",
+        "paralele",
+        "confundate",
+        "fără intersecție"
+       ],
+       "corect": 0,
+       "explicatie": "Produsul pantelor este minus unu."
+      },
+      {
+       "intrebare": "Forma generală a ecuației unei drepte este:",
+       "optiuni": [
+        "a ori x plus b ori y plus c egal zero",
+        "y egal x la pătrat",
+        "x la pătrat plus y la pătrat egal r la pătrat",
+        "y egal a la puterea x"
+       ],
+       "corect": 0,
+       "explicatie": "Ultimele descriu o parabolă, un cerc și o exponențială."
+      },
+      {
+       "intrebare": "Dreapta y egal minus doi ori x plus trei taie axa verticală în punctul:",
+       "optiuni": [
+        "(0, 3)",
+        "(3, 0)",
+        "(0, minus 2)",
+        "(minus 2, 3)"
+       ],
+       "corect": 0,
+       "explicatie": "Ordonata la origine este termenul liber, 3."
+      }
+     ]
+    },
+    {
+     "id": "mat10-18",
+     "titlu": "Cercul în plan",
+     "rezumat": "Cercul este locul geometric al punctelor egal depărtate de un punct fix, centrul, distanța comună fiind raza. În reperul cartezian, cercul cu centrul într-un punct de coordonate cunoscute și cu rază dată are ecuația în care suma pătratelor diferențelor dintre coordonatele unui punct oarecare și cele ale centrului este egală cu pătratul razei. Dacă centrul este chiar originea, ecuația se simplifică: suma pătratelor coordonatelor este egală cu pătratul razei.\nDin ecuația unui cerc se citesc direct centrul și raza. Poziția unei drepte față de un cerc se stabilește comparând distanța de la centru la dreaptă cu raza: dacă distanța este mai mare decât raza, dreapta este exterioară și nu taie cercul; dacă este egală cu raza, dreapta este tangentă și atinge cercul într-un singur punct; dacă este mai mică decât raza, dreapta este secantă și taie cercul în două puncte. Aceste relații permit rezolvarea numerică a problemelor despre cercuri, tangente și intersecții.",
+     "ideiCheie": [
+      "Cercul este locul punctelor egal depărtate de centru, la distanța egală cu raza.",
+      "Cercul cu centrul în origine și raza r are ecuația: pătratul lui x plus pătratul lui y egal r la pătrat.",
+      "Din ecuația cercului se citesc direct centrul și raza.",
+      "O dreaptă este tangentă la cerc dacă distanța de la centru la ea este egală cu raza."
+     ],
+     "termeni": [
+      {
+       "t": "cerc",
+       "d": "locul geometric al punctelor din plan aflate la o distanță constantă, raza, față de un punct fix, centrul"
+      },
+      {
+       "t": "dreaptă tangentă la cerc",
+       "d": "dreapta aflată la distanță egală cu raza față de centru, atingând cercul într-un singur punct"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este un cerc, ca loc geometric?",
+       "v": "Mulțimea punctelor egal depărtate de un punct fix, centrul."
+      },
+      {
+       "f": "Care este ecuația cercului cu centrul în origine și raza r?",
+       "v": "Pătratul lui x plus pătratul lui y egal r la pătrat."
+      },
+      {
+       "f": "Ce se citește direct din ecuația unui cerc?",
+       "v": "Centrul și raza."
+      },
+      {
+       "f": "Când este o dreaptă tangentă la un cerc?",
+       "v": "Când distanța de la centru la dreaptă este egală cu raza."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Ecuația cercului cu centrul în origine și raza 3 este:",
+       "optiuni": [
+        "pătratul lui x plus pătratul lui y egal 9",
+        "pătratul lui x plus pătratul lui y egal 3",
+        "x plus y egal 3",
+        "pătratul lui x minus pătratul lui y egal 9"
+       ],
+       "corect": 0,
+       "explicatie": "Raza la pătrat este 9."
+      },
+      {
+       "intrebare": "Cercul de ecuație (x minus 1) la pătrat plus (y plus 2) la pătrat egal 16 are:",
+       "optiuni": [
+        "centrul în (1, minus 2) și raza 4",
+        "centrul în (minus 1, 2) și raza 16",
+        "centrul în (1, 2) și raza 4",
+        "centrul în origine și raza 16"
+       ],
+       "corect": 0,
+       "explicatie": "Raza este rădăcina din 16."
+      },
+      {
+       "intrebare": "O dreaptă este tangentă la un cerc dacă distanța de la centru la dreaptă este:",
+       "optiuni": [
+        "egală cu raza",
+        "mai mare decât raza",
+        "mai mică decât raza",
+        "nulă"
+       ],
+       "corect": 0,
+       "explicatie": "Distanța mai mică dă o dreaptă secantă."
+      },
+      {
+       "intrebare": "Raza cercului de ecuație pătratul lui x plus pătratul lui y egal 25 este:",
+       "optiuni": [
+        "5",
+        "25",
+        "10",
+        "12,5"
+       ],
+       "corect": 0,
+       "explicatie": "Raza este \\sqrt{2}5."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "teze": [
+  {
+   "semestru": 1,
+   "test": [
+    {
+     "intrebare": "Funcția f de x egal cu x la pătrat este:",
+     "optiuni": [
+      "pară, cu graficul simetric față de axa verticală",
+      "impară, cu graficul simetric față de origine",
+      "fără simetrie",
+      "strict descrescătoare peste tot"
+     ],
+     "corect": 0,
+     "explicatie": "Valorile ei sunt nenegative."
+    },
+    {
+     "intrebare": "Funcția radical de ordin par este definită pentru:",
+     "optiuni": [
+      "numere nenegative",
+      "orice număr real",
+      "numere negative",
+      "numere întregi"
+     ],
+     "corect": 0,
+     "explicatie": "O putere pară nu poate fi negativă."
+    },
+    {
+     "intrebare": "Imaginea funcției sinus este intervalul:",
+     "optiuni": [
+      "de la minus unu la unu",
+      "de la zero la unu",
+      "toate numerele reale",
+      "de la minus doi la doi"
+     ],
+     "corect": 0,
+     "explicatie": "Valorile sinusului nu ies din acest interval."
+    },
+    {
+     "intrebare": "Perioada principală a funcției cosinus este:",
+     "optiuni": [
+      "doi pi",
+      "pi",
+      "pi supra doi",
+      "1"
+     ],
+     "corect": 0,
+     "explicatie": "Valorile se reiau la fiecare rotație completă."
+    },
+    {
+     "intrebare": "Ecuația sinus de x egal 2:",
+     "optiuni": [
+      "nu are soluții reale",
+      "are o singură soluție",
+      "are exact două soluții",
+      "are o infinitate de soluții"
+     ],
+     "corect": 0,
+     "explicatie": "Numărul 2 nu este în intervalul de la minus unu la unu."
+    },
+    {
+     "intrebare": "Funcția f de x egal cu x la cub este:",
+     "optiuni": [
+      "impară, cu graficul simetric față de origine",
+      "pară",
+      "constantă",
+      "fără simetrie"
+     ],
+     "corect": 0,
+     "explicatie": "Ia atât valori pozitive, cât și negative."
+    },
+    {
+     "intrebare": "Baza unei funcții exponențiale trebuie să fie:",
+     "optiuni": [
+      "strict pozitivă și diferită de 1",
+      "orice număr real",
+      "doar supraunitară",
+      "doar întreagă"
+     ],
+     "corect": 0,
+     "explicatie": "Altfel funcția nu ar fi bine definită."
+    },
+    {
+     "intrebare": "Graficul funcției logaritmice trece prin:",
+     "optiuni": [
+      "(1, 0)",
+      "(0, 1)",
+      "(0, 0)",
+      "(1, 1)"
+     ],
+     "corect": 0,
+     "explicatie": "Exponențiala trece prin (0, 1)."
+    },
+    {
+     "intrebare": "La bază subunitară, inecuația exponențială:",
+     "optiuni": [
+      "își schimbă sensul",
+      "își păstrează sensul",
+      "devine egalitate",
+      "nu are soluții"
+     ],
+     "corect": 0,
+     "explicatie": "Funcția este descrescătoare."
+    },
+    {
+     "intrebare": "Logaritmul în baza 2 al lui 32 este:",
+     "optiuni": [
+      "5",
+      "4",
+      "6",
+      "16"
+     ],
+     "corect": 0,
+     "explicatie": "2 la puterea 5 este 32."
+    },
+    {
+     "intrebare": "Permutările a 4 obiecte sunt în număr de:",
+     "optiuni": [
+      "24",
+      "12",
+      "16",
+      "4"
+     ],
+     "corect": 0,
+     "explicatie": "4 factorial."
+    },
+    {
+     "intrebare": "Când ordinea nu contează se folosesc:",
+     "optiuni": [
+      "combinări",
+      "aranjamente",
+      "permutări",
+      "produse carteziene"
+     ],
+     "corect": 0,
+     "explicatie": "Aranjamentele iau în calcul ordinea."
+    },
+    {
+     "intrebare": "Probabilitatea unui eveniment este întotdeauna:",
+     "optiuni": [
+      "între 0 și 1",
+      "mai mare decât 1",
+      "un număr întreg",
+      "negativă uneori"
+     ],
+     "corect": 0,
+     "explicatie": "0 înseamnă imposibil, 1 înseamnă sigur."
+    },
+    {
+     "intrebare": "Probabilitatea evenimentului contrar se calculează:",
+     "optiuni": [
+      "1 minus probabilitatea evenimentului",
+      "1 împărțit la probabilitate",
+      "probabilitatea la pătrat",
+      "0,5 minus probabilitatea"
+     ],
+     "corect": 0,
+     "explicatie": "Suma celor două este 1."
+    },
+    {
+     "intrebare": "Mediana este preferată mediei când:",
+     "optiuni": [
+      "există valori extreme",
+      "datele sunt simetrice",
+      "seria are puțini termeni",
+      "toate valorile sunt egale"
+     ],
+     "corect": 0,
+     "explicatie": "Media e trasă de extreme."
+    }
+   ]
+  },
+  {
+   "semestru": 2,
+   "test": [
+    {
+     "intrebare": "Unitatea imaginară i satisface relația:",
+     "optiuni": [
+      "i la pătrat egal minus unu",
+      "i la pătrat egal unu",
+      "i egal zero",
+      "i la pătrat egal i"
+     ],
+     "corect": 0,
+     "explicatie": "Pe ea se construiesc numerele complexe."
+    },
+    {
+     "intrebare": "Modulul numărului complex 3 plus 4i este:",
+     "optiuni": [
+      "5",
+      "7",
+      "25",
+      "1"
+     ],
+     "corect": 0,
+     "explicatie": "Rădăcina din 3 la pătrat plus 4 la pătrat."
+    },
+    {
+     "intrebare": "Conjugatul numărului complex 3 plus 4i este:",
+     "optiuni": [
+      "3 minus 4i",
+      "minus 3 plus 4i",
+      "4 plus 3i",
+      "3 plus 4i"
+     ],
+     "corect": 0,
+     "explicatie": "Se schimbă doar semnul părții imaginare."
+    },
+    {
+     "intrebare": "În mulțimea numerelor complexe, ecuația x la pătrat plus unu egal zero are soluțiile:",
+     "optiuni": [
+      "i și minus i",
+      "unu și minus unu",
+      "doar zero",
+      "niciuna"
+     ],
+     "corect": 0,
+     "explicatie": "Pentru că pătratul lui i este minus unu."
+    },
+    {
+     "intrebare": "Ecuația cercului cu centrul în origine și raza 3 este:",
+     "optiuni": [
+      "pătratul lui x plus pătratul lui y egal 9",
+      "pătratul lui x plus pătratul lui y egal 3",
+      "x plus y egal 3",
+      "pătratul lui x minus pătratul lui y egal 9"
+     ],
+     "corect": 0,
+     "explicatie": "Raza la pătrat este 9."
+    },
+    {
+     "intrebare": "Produsul scalar al vectorilor de componente (1, 2) și (3, 4) este:",
+     "optiuni": [
+      "11",
+      "10",
+      "7",
+      "24"
+     ],
+     "corect": 0,
+     "explicatie": "1 ori 3 plus 2 ori 4, adică 3 plus 8."
+    },
+    {
+     "intrebare": "Abaterea standard măsoară:",
+     "optiuni": [
+      "împrăștierea datelor față de medie",
+      "tendința centrală",
+      "valoarea cea mai frecventă",
+      "numărul de observații"
+     ],
+     "corect": 0,
+     "explicatie": "Media și mediana măsoară tendința centrală."
+    },
+    {
+     "intrebare": "O creștere de 20% urmată de o scădere de 20% dă:",
+     "optiuni": [
+      "96% din valoarea inițială",
+      "100%",
+      "104%",
+      "80%"
+     ],
+     "corect": 0,
+     "explicatie": "Procentele se aplică la baze diferite."
+    },
+    {
+     "intrebare": "Dobânda compusă se calculează la:",
+     "optiuni": [
+      "suma acumulată",
+      "suma inițială, mereu",
+      "dobânda anterioară exclusiv",
+      "valoarea medie"
+     ],
+     "corect": 0,
+     "explicatie": "De aceea crește geometric."
+    },
+    {
+     "intrebare": "Randamentul real se obține scăzând din cel nominal:",
+     "optiuni": [
+      "rata inflației",
+      "rata dobânzii",
+      "comisionul bancar",
+      "impozitul"
+     ],
+     "corect": 0,
+     "explicatie": "Inflația reduce puterea de cumpărare."
+    },
+    {
+     "intrebare": "Modelul logistic se deosebește de cel exponențial prin:",
+     "optiuni": [
+      "existența unui plafon",
+      "creșterea mai rapidă",
+      "lipsa creșterii inițiale",
+      "forma liniară"
+     ],
+     "corect": 0,
+     "explicatie": "Plafonul se numește capacitate de suport."
+    },
+    {
+     "intrebare": "Diferențe succesive constante într-o serie de date indică:",
+     "optiuni": [
+      "un model liniar",
+      "un model exponențial",
+      "un model logistic",
+      "absența unui model"
+     ],
+     "corect": 0,
+     "explicatie": "Rapoartele constante indică exponențial."
+    },
+    {
+     "intrebare": "Un contraexemplu:",
+     "optiuni": [
+      "respinge o afirmație universală",
+      "demonstrează o afirmație universală",
+      "confirmă o regulă",
+      "înlocuiește o demonstrație"
+     ],
+     "corect": 0,
+     "explicatie": "Exemplele nu demonstrează afirmații universale."
+    },
+    {
+     "intrebare": "Inducția matematică are:",
+     "optiuni": [
+      "un pas de bază și un pas de trecere",
+      "doar un pas de verificare",
+      "trei pași obligatorii",
+      "un singur contraexemplu"
+     ],
+     "corect": 0,
+     "explicatie": "Pasul de trecere merge de la n la n+1."
+    },
+    {
+     "intrebare": "Corelația dintre două variabile:",
+     "optiuni": [
+      "nu implică automat cauzalitate",
+      "demonstrează cauzalitatea",
+      "exclude cauzalitatea",
+      "înseamnă că variabilele sunt egale"
+     ],
+     "corect": 0,
+     "explicatie": "Poate veni dintr-o cauză comună."
+    }
+   ]
+  }
+ ]
+}

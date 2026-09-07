@@ -1,0 +1,261 @@
+{
+  "scoala": {
+    "nume": "Liceul Tehnologic „Ion Creangă”",
+    "localitate": "Târgu Neamț",
+    "adresa": "Bulevardul Ștefan cel Mare nr. 64, Târgu Neamț, 615200, jud. Neamț",
+    "telefonSecretariat": "0233 790 357",
+    "programSecretariat": "08:00 – 16:00",
+    "site": "https://liceulioncreangatgneamt.ro/",
+    "email": "lic_creanga_tgneamt@yahoo.com"
+  },
+  "parcurs": {
+    "filiera": "Tehnologică / Teoretică",
+    "profil": "Real",
+    "specializare": "Profil Real",
+    "forma": "Frecvență redusă (FR) / Zi",
+    "durata": "5 ani (clasele a IX-a – a XIII-a)",
+    "locuriOferta20262027": 60,
+    "observatie": "La frecvență redusă liceul tehnologic / teoretic durează 5 ani. Profilul real include pregătirea completă pentru probele de Bacalaureat: Limba și literatura română (Proba E.a), Limba modernă (Proba B), Matematică / Istorie (Proba E.c) și proba la alegere a profilului (Proba E.d: Biologie vegetală și animală, Anatomie și fiziologie, Geografie, Fizică, Chimie)."
+  },
+  "bacalaureat": {
+    "probaEa": "Limba și literatura română",
+    "probaEb": "Limba modernă (competențe lingvistice)",
+    "probaEc": "Istorie SAU Matematică",
+    "probaEd": "Biologie (Anatomie-fiziologie-genetică sau Biologie vegetală-animală) / Geografie / Fizică / Chimie / Informatică",
+    "probaA": "Competențe de comunicare în limba română",
+    "probaB": "Competențe lingvistice într-o limbă de circulație internațională",
+    "probaD": "Competențe digitale"
+  },
+  "clase": [
+    {
+      "clasa": "a IX-a",
+      "an": 1,
+      "materii": [
+        {
+          "nume": "Limba și literatura română",
+          "arie": "Limbă și comunicare",
+          "bac": true
+        },
+        {
+          "nume": "Limba modernă 1 (Engleză)",
+          "arie": "Limbă și comunicare",
+          "bac": true
+        },
+        {
+          "nume": "Limba modernă 2 (Franceză)",
+          "arie": "Limbă și comunicare",
+          "bac": false
+        },
+        {
+          "nume": "Matematică",
+          "arie": "Matematică și științe ale naturii",
+          "bac": false
+        },
+        {
+          "nume": "Fizică",
+          "arie": "Matematică și științe ale naturii",
+          "bac": false
+        },
+        {
+          "nume": "Chimie",
+          "arie": "Matematică și științe ale naturii",
+          "bac": false
+        },
+        {
+          "nume": "Biologie",
+          "arie": "Matematică și științe ale naturii",
+          "bac": true
+        },
+        {
+          "nume": "Istorie",
+          "arie": "Om și societate",
+          "bac": true
+        },
+        {
+          "nume": "Geografie",
+          "arie": "Om și societate",
+          "bac": true
+        },
+        {
+          "nume": "Tehnologia informației și a comunicațiilor (TIC)",
+          "arie": "Tehnologii",
+          "bac": true
+        }
+      ]
+    },
+    {
+      "clasa": "a X-a",
+      "an": 2,
+      "materii": [
+        {
+          "nume": "Limba și literatura română",
+          "arie": "Limbă și comunicare",
+          "bac": true
+        },
+        {
+          "nume": "Limba modernă 1 (Engleză)",
+          "arie": "Limbă și comunicare",
+          "bac": true
+        },
+        {
+          "nume": "Limba modernă 2 (Franceză)",
+          "arie": "Limbă și comunicare",
+          "bac": false
+        },
+        {
+          "nume": "Matematică",
+          "arie": "Matematică și științe ale naturii",
+          "bac": false
+        },
+        {
+          "nume": "Fizică",
+          "arie": "Matematică și științe ale naturii",
+          "bac": false
+        },
+        {
+          "nume": "Chimie",
+          "arie": "Matematică și științe ale naturii",
+          "bac": false
+        },
+        {
+          "nume": "Biologie",
+          "arie": "Matematică și științe ale naturii",
+          "bac": true
+        },
+        {
+          "nume": "Istorie",
+          "arie": "Om și societate",
+          "bac": true
+        },
+        {
+          "nume": "Geografie",
+          "arie": "Om și societate",
+          "bac": true
+        },
+        {
+          "nume": "Tehnologia informației și a comunicațiilor (TIC)",
+          "arie": "Tehnologii",
+          "bac": true
+        }
+      ]
+    },
+    {
+      "clasa": "a XI-a",
+      "an": 3,
+      "materii": [
+        {
+          "nume": "Limba și literatura română",
+          "arie": "Limbă și comunicare",
+          "bac": true
+        },
+        {
+          "nume": "Limba modernă 1 (Engleză)",
+          "arie": "Limbă și comunicare",
+          "bac": true
+        },
+        {
+          "nume": "Limba modernă 2 (Franceză)",
+          "arie": "Limbă și comunicare",
+          "bac": false
+        },
+        {
+          "nume": "Biologie",
+          "arie": "Matematică și științe ale naturii",
+          "bac": true
+        },
+        {
+          "nume": "Istorie",
+          "arie": "Om și societate",
+          "bac": true
+        },
+        {
+          "nume": "Geografie",
+          "arie": "Om și societate",
+          "bac": true
+        },
+        {
+          "nume": "Tehnologia informației și a comunicațiilor (TIC)",
+          "arie": "Tehnologii",
+          "bac": true
+        }
+      ]
+    },
+    {
+      "clasa": "a XII-a",
+      "an": 4,
+      "materii": [
+        {
+          "nume": "Limba și literatura română",
+          "arie": "Limbă și comunicare",
+          "bac": true
+        },
+        {
+          "nume": "Limba modernă 1 (Engleză)",
+          "arie": "Limbă și comunicare",
+          "bac": true
+        },
+        {
+          "nume": "Limba modernă 2 (Franceză)",
+          "arie": "Limbă și comunicare",
+          "bac": false
+        },
+        {
+          "nume": "Biologie",
+          "arie": "Matematică și științe ale naturii",
+          "bac": true
+        },
+        {
+          "nume": "Istorie",
+          "arie": "Om și societate",
+          "bac": true
+        },
+        {
+          "nume": "Geografie",
+          "arie": "Om și societate",
+          "bac": true
+        },
+        {
+          "nume": "Tehnologia informației și a comunicațiilor (TIC)",
+          "arie": "Tehnologii",
+          "bac": true
+        }
+      ]
+    },
+    {
+      "clasa": "a XIII-a",
+      "an": 5,
+      "materii": [
+        {
+          "nume": "Limba și literatura română",
+          "arie": "Limbă și comunicare",
+          "bac": true
+        },
+        {
+          "nume": "Limba modernă 1 (Engleză)",
+          "arie": "Limbă și comunicare",
+          "bac": true
+        },
+        {
+          "nume": "Limba modernă 2 (Franceză)",
+          "arie": "Limbă și comunicare",
+          "bac": false
+        },
+        {
+          "nume": "Biologie",
+          "arie": "Matematică și științe ale naturii",
+          "bac": true
+        },
+        {
+          "nume": "Istorie",
+          "arie": "Om și societate",
+          "bac": true
+        },
+        {
+          "nume": "Geografie",
+          "arie": "Om și societate",
+          "bac": true
+        }
+      ]
+    }
+  ]
+}

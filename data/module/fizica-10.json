@@ -1,0 +1,1925 @@
+{
+  "id": "fizica-10",
+  "materie": "Fizică",
+  "clasa": "a X-a",
+  "an": 2,
+  "arie": "Matematică și științe ale naturii",
+  "bac": false,
+  "descriere": "Fizică aprofundată și pregătire Bacalaureat (clasele X–XIII): termodinamică și gaze ideale, calorimetrie, electrocinetică și circuite electrice, electromagnetism, optică geometrică și ondulatorie, unde și fizică modernă.",
+  "capitole": [
+    {
+      "id": "fiz10-c1",
+      "titlu": "Căldură și termodinamică",
+      "semestru": 1,
+      "lectii": [
+        {
+          "id": "fiz10-01",
+          "titlu": "Temperatură, căldură, dilatare",
+          "rezumat": "Temperatura măsoară agitația termică medie a particulelor unui corp, nu cantitatea de energie conținută: o scânteie are temperatură mai mare decât un cazan cu apă caldă, dar mult mai puțină energie. Scările de temperatură uzuale sunt Celsius și Kelvin; zero absolut, la aproximativ minus 273,15 grade Celsius, este limita inferioară teoretică, la care agitația termică ar înceta. Căldura este energie transferată între corpuri cu temperaturi diferite, întotdeauna de la cel cald la cel rece, până la echilibru termic. Transferul se face prin conducție (în solide, prin contact direct între particule), convecție (în fluide, prin deplasarea maselor de fluid) și radiație (prin unde electromagnetice, fără mediu). Dilatarea termică este creșterea dimensiunilor la încălzire; ea explică rosturile de dilatare de pe poduri și șine și funcționarea termometrului cu lichid. Apa face excepție între 0 și 4 grade, anomalie care permite viețuitoarelor să supraviețuiască sub gheața lacurilor.",
+          "ideiCheie": [
+            "Temperatura măsoară agitația termică medie, nu cantitatea de energie.",
+            "Căldura trece întotdeauna de la corpul cald spre cel rece.",
+            "Transferul termic se face prin conducție, convecție și radiație.",
+            "Anomalia apei între 0 și 4 grade permite viața sub gheață."
+          ],
+          "termeni": [
+            {
+              "t": "echilibru termic",
+              "d": "starea în care două corpuri în contact au aceeași temperatură"
+            },
+            {
+              "t": "zero absolut",
+              "d": "temperatura minimă teoretică, aproximativ minus 273,15 grade Celsius"
+            }
+          ],
+          "carduri": [
+            {
+              "f": "Ce măsoară temperatura?",
+              "v": "Agitația termică medie a particulelor."
+            },
+            {
+              "f": "Care sunt cele trei moduri de transfer termic?",
+              "v": "Conducția, convecția și radiația."
+            },
+            {
+              "f": "De ce se pun rosturi de dilatare la poduri?",
+              "v": "Pentru că materialele își măresc dimensiunile la încălzire."
+            },
+            {
+              "f": "De ce nu îngheață lacurile până la fund?",
+              "v": "Din cauza anomaliei apei: la 4 grade are densitatea maximă și se așază la fund."
+            }
+          ],
+          "test": [
+            {
+              "intrebare": "Căldura se transmite:",
+              "optiuni": [
+                "de la corpul cald spre cel rece",
+                "de la corpul rece spre cel cald",
+                "în ambele sensuri egal",
+                "doar prin contact direct"
+              ],
+              "corect": 0,
+              "explicatie": "Până la atingerea echilibrului termic."
+            },
+            {
+              "intrebare": "Transferul de căldură prin unde electromagnetice se numește:",
+              "optiuni": [
+                "radiație",
+                "conducție",
+                "convecție",
+                "dilatare"
+              ],
+              "corect": 0,
+              "explicatie": "Este singurul care nu are nevoie de mediu."
+            },
+            {
+              "intrebare": "Zero absolut corespunde aproximativ la:",
+              "optiuni": [
+                "minus 273,15 grade Celsius",
+                "0 grade Celsius",
+                "100 grade Celsius",
+                "minus 100 grade Celsius"
+              ],
+              "corect": 0,
+              "explicatie": "Este limita inferioară teoretică a temperaturii."
+            },
+            {
+              "intrebare": "O scânteie are, față de un cazan cu apă caldă:",
+              "optiuni": [
+                "temperatură mai mare, dar energie mai mică",
+                "și temperatură, și energie mai mari",
+                "temperatură mai mică",
+                "aceeași energie"
+              ],
+              "corect": 0,
+              "explicatie": "Temperatura și cantitatea de energie sunt mărimi diferite."
+            }
+          ]
+        },
+        {
+          "id": "fiz10-02",
+          "titlu": "Gazul ideal și transformările lui",
+          "rezumat": "Modelul gazului ideal presupune molecule punctiforme, fără interacțiuni la distanță, care se ciocnesc perfect elastic. Starea unui gaz este descrisă de presiune, volum și temperatură, legate prin ecuația de stare. Transformările simple păstrează câte un parametru constant: izotermă (temperatură constantă, legea Boyle-Mariotte, presiunea invers proporțională cu volumul), izobară (presiune constantă, volumul proporțional cu temperatura absolută) și izocoră (volum constant, presiunea proporțională cu temperatura absolută). Aplicațiile sunt peste tot: seringa care comprimă aerul, balonul care se umflă la căldură, oala sub presiune care fierbe apa peste 100 de grade, anvelopa care își crește presiunea după un drum lung. Presiunea unui gaz se explică microscopic prin ciocnirile moleculelor cu pereții vasului; cu cât temperatura e mai mare, cu atât viteza medie a moleculelor și numărul de ciocniri sunt mai mari.",
+          "ideiCheie": [
+            "Gazul ideal are molecule punctiforme, fără interacțiuni la distanță.",
+            "Starea gazului e dată de presiune, volum și temperatură.",
+            "Transformările simple: izotermă, izobară, izocoră.",
+            "Presiunea se explică microscopic prin ciocnirile moleculelor cu pereții."
+          ],
+          "termeni": [
+            {
+              "t": "gaz ideal",
+              "d": "model teoretic de gaz cu molecule punctiforme și ciocniri perfect elastice"
+            },
+            {
+              "t": "transformare izotermă",
+              "d": "transformarea unui gaz la temperatură constantă"
+            }
+          ],
+          "carduri": [
+            {
+              "f": "Ce spune legea Boyle-Mariotte?",
+              "v": "La temperatură constantă, presiunea e invers proporțională cu volumul."
+            },
+            {
+              "f": "Ce se păstrează constant într-o transformare izocoră?",
+              "v": "Volumul."
+            },
+            {
+              "f": "Cum se explică microscopic presiunea unui gaz?",
+              "v": "Prin ciocnirile moleculelor cu pereții vasului."
+            },
+            {
+              "f": "De ce crește presiunea în anvelope după un drum lung?",
+              "v": "Pentru că temperatura crește, iar la volum aproape constant presiunea crește odată cu ea."
+            }
+          ],
+          "test": [
+            {
+              "intrebare": "Într-o transformare izotermă, dacă volumul se înjumătățește, presiunea:",
+              "optiuni": [
+                "se dublează",
+                "se înjumătățește",
+                "rămâne aceeași",
+                "se împătrește"
+              ],
+              "corect": 0,
+              "explicatie": "Produsul presiune-volum rămâne constant."
+            },
+            {
+              "intrebare": "Transformarea la presiune constantă se numește:",
+              "optiuni": [
+                "izobară",
+                "izotermă",
+                "izocoră",
+                "adiabatică"
+              ],
+              "corect": 0,
+              "explicatie": "Izocora păstrează volumul constant."
+            },
+            {
+              "intrebare": "Oala sub presiune permite fierberea apei:",
+              "optiuni": [
+                "peste 100 de grade",
+                "sub 100 de grade",
+                "exact la 100 de grade",
+                "fără încălzire"
+              ],
+              "corect": 0,
+              "explicatie": "Presiunea ridicată crește temperatura de fierbere."
+            },
+            {
+              "intrebare": "În modelul gazului ideal, ciocnirile moleculelor sunt:",
+              "optiuni": [
+                "perfect elastice",
+                "perfect plastice",
+                "inexistente",
+                "însoțite de pierdere de masă"
+              ],
+              "corect": 0,
+              "explicatie": "Energia cinetică totală se păstrează."
+            }
+          ]
+        },
+        {
+          "id": "fiz10-03",
+          "titlu": "Principiile termodinamicii",
+          "rezumat": "Primul principiu al termodinamicii este legea conservării energiei aplicată sistemelor termice: variația energiei interne a unui sistem este egală cu căldura primită minus lucrul mecanic efectuat de sistem. El interzice mașinile care produc energie din nimic, adică perpetuum mobile de speța întâi. Al doilea principiu introduce un sens al proceselor: căldura nu trece spontan de la corpul rece la cel cald, iar entropia unui sistem izolat nu poate scădea. De aici rezultă că nicio mașină termică nu poate transforma integral căldura în lucru mecanic; randamentul maxim este dat de ciclul Carnot și depinde doar de temperaturile sursei calde și ale celei reci. Motoarele reale, cu ardere internă, au randamente de 25–40%, iar restul energiei se pierde ca și căldură. Al doilea principiu explică ireversibilitatea: paharul spart nu se reface, cafeaua nu se reîncălzește singură.",
+          "ideiCheie": [
+            "Primul principiu este conservarea energiei aplicată sistemelor termice.",
+            "Perpetuum mobile de speța întâi este interzis de primul principiu.",
+            "Al doilea principiu dă sens proceselor: entropia unui sistem izolat nu scade.",
+            "Randamentul maxim al unei mașini termice depinde doar de temperaturile surselor."
+          ],
+          "termeni": [
+            {
+              "t": "energie internă",
+              "d": "energia totală a agitației termice și a interacțiunilor din interiorul unui sistem"
+            },
+            {
+              "t": "entropie",
+              "d": "mărime care măsoară gradul de dezordine sau numărul de stări microscopice posibile"
+            }
+          ],
+          "carduri": [
+            {
+              "f": "Ce afirmă primul principiu al termodinamicii?",
+              "v": "Variația energiei interne este căldura primită minus lucrul mecanic efectuat."
+            },
+            {
+              "f": "De ce nu poate o mașină termică să transforme toată căldura în lucru mecanic?",
+              "v": "Din cauza celui de-al doilea principiu, care impune o sursă rece și pierderi."
+            },
+            {
+              "f": "Ce spune al doilea principiu despre entropie?",
+              "v": "Că entropia unui sistem izolat nu poate scădea."
+            },
+            {
+              "f": "Ce randament au motoarele cu ardere internă?",
+              "v": "Aproximativ 25–40%."
+            }
+          ],
+          "test": [
+            {
+              "intrebare": "Perpetuum mobile de speța întâi este interzis de:",
+              "optiuni": [
+                "primul principiu al termodinamicii",
+                "al doilea principiu",
+                "legea lui Hooke",
+                "principiul lui Arhimede"
+              ],
+              "corect": 0,
+              "explicatie": "Ar însemna crearea de energie din nimic."
+            },
+            {
+              "intrebare": "Entropia unui sistem izolat:",
+              "optiuni": [
+                "nu poate scădea",
+                "scade întotdeauna",
+                "rămâne mereu constantă",
+                "poate lua valori negative"
+              ],
+              "corect": 0,
+              "explicatie": "De aici ireversibilitatea proceselor."
+            },
+            {
+              "intrebare": "Randamentul maxim al unei mașini termice depinde de:",
+              "optiuni": [
+                "temperaturile sursei calde și ale celei reci",
+                "masa combustibilului",
+                "presiunea atmosferică",
+                "volumul motorului"
+              ],
+              "corect": 0,
+              "explicatie": "Este limita dată de ciclul Carnot."
+            },
+            {
+              "intrebare": "Faptul că un pahar spart nu se reface singur ilustrează:",
+              "optiuni": [
+                "al doilea principiu al termodinamicii",
+                "primul principiu",
+                "principiul inerției",
+                "legea lui Pascal"
+              ],
+              "corect": 0,
+              "explicatie": "Procesele naturale sunt ireversibile."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fiz10-c2",
+      "titlu": "Electricitate și magnetism",
+      "semestru": 1,
+      "lectii": [
+        {
+          "id": "fiz10-04",
+          "titlu": "Sarcina electrică și curentul",
+          "rezumat": "Sarcina electrică este o proprietate fundamentală a materiei, de două feluri: pozitivă și negativă. Sarcinile de același fel se resping, cele de fel opus se atrag, cu o forță descrisă de legea lui Coulomb, direct proporțională cu produsul sarcinilor și invers proporțională cu pătratul distanței. Sarcina electrică se conservă: ea nu se creează și nu se distruge, ci doar se transferă. Curentul electric este deplasarea ordonată a purtătorilor de sarcină, în metale electronii liberi. Intensitatea curentului este sarcina care trece printr-o secțiune în unitatea de timp și se măsoară în amperi. Tensiunea electrică este lucrul mecanic efectuat de câmp pentru a deplasa unitatea de sarcină și se măsoară în volți. Materialele se împart în conductoare (metale, soluții de electroliți), izolatoare (sticlă, cauciuc, plastic) și semiconductoare, acestea din urmă stând la baza întregii electronici moderne.",
+          "ideiCheie": [
+            "Sarcinile de același fel se resping, cele opuse se atrag.",
+            "Legea lui Coulomb: forța scade cu pătratul distanței.",
+            "Intensitatea curentului se măsoară în amperi, tensiunea în volți.",
+            "Semiconductoarele stau la baza electronicii moderne."
+          ],
+          "termeni": [
+            {
+              "t": "intensitate a curentului",
+              "d": "sarcina electrică ce traversează o secțiune în unitatea de timp"
+            },
+            {
+              "t": "semiconductor",
+              "d": "material cu conductivitate intermediară, controlabilă, între conductor și izolator"
+            }
+          ],
+          "carduri": [
+            {
+              "f": "Cum acționează două sarcini de același semn?",
+              "v": "Se resping."
+            },
+            {
+              "f": "Cum variază forța electrostatică cu distanța?",
+              "v": "Scade cu pătratul distanței."
+            },
+            {
+              "f": "Care sunt purtătorii de sarcină în metale?",
+              "v": "Electronii liberi."
+            },
+            {
+              "f": "În ce se măsoară tensiunea electrică?",
+              "v": "În volți."
+            }
+          ],
+          "test": [
+            {
+              "intrebare": "Legea lui Coulomb spune că forța este:",
+              "optiuni": [
+                "invers proporțională cu pătratul distanței",
+                "direct proporțională cu distanța",
+                "independentă de distanță",
+                "invers proporțională cu distanța"
+              ],
+              "corect": 0,
+              "explicatie": "Și direct proporțională cu produsul sarcinilor."
+            },
+            {
+              "intrebare": "Intensitatea curentului se măsoară în:",
+              "optiuni": [
+                "amperi",
+                "volți",
+                "ohmi",
+                "wați"
+              ],
+              "corect": 0,
+              "explicatie": "Voltul măsoară tensiunea."
+            },
+            {
+              "intrebare": "Cauciucul este un:",
+              "optiuni": [
+                "izolator",
+                "conductor",
+                "semiconductor",
+                "supraconductor"
+              ],
+              "corect": 0,
+              "explicatie": "De aceea se folosește la izolarea cablurilor."
+            },
+            {
+              "intrebare": "Sarcina electrică:",
+              "optiuni": [
+                "se conservă",
+                "se creează prin frecare",
+                "dispare la contact",
+                "crește în circuite închise"
+              ],
+              "corect": 0,
+              "explicatie": "Prin frecare se transferă, nu se creează."
+            }
+          ]
+        },
+        {
+          "id": "fiz10-05",
+          "titlu": "Circuite electrice",
+          "rezumat": "Legea lui Ohm leagă cele trei mărimi de bază: intensitatea curentului printr-un conductor este direct proporțională cu tensiunea aplicată și invers proporțională cu rezistența. Rezistența se măsoară în ohmi și depinde de material (prin rezistivitate), de lungime (direct proporțional) și de secțiune (invers proporțional); ea crește, la metale, cu temperatura. Rezistoarele se pot lega în serie, când rezistențele se adună și curentul este același prin toate, sau în paralel, când se adună inversele rezistențelor și tensiunea este aceeași. Instalațiile casnice folosesc legarea în paralel, ca fiecare consumator să primească aceeași tensiune și să poată fi oprit separat. Puterea electrică este produsul dintre tensiune și intensitate, iar efectul Joule transformă energia electrică în căldură — util la reșou și fier de călcat, periculos la cabluri subdimensionate. Siguranțele și întrerupătoarele diferențiale protejează instalația și oamenii.",
+          "ideiCheie": [
+            "Legea lui Ohm: intensitatea e direct proporțională cu tensiunea și invers cu rezistența.",
+            "Rezistența crește cu lungimea și scade cu secțiunea conductorului.",
+            "În serie se adună rezistențele; în paralel se adună inversele lor.",
+            "Efectul Joule transformă energia electrică în căldură."
+          ],
+          "termeni": [
+            {
+              "t": "rezistență electrică",
+              "d": "mărimea care exprimă opoziția unui conductor la trecerea curentului"
+            },
+            {
+              "t": "efect Joule",
+              "d": "degajarea de căldură la trecerea curentului electric printr-un conductor"
+            }
+          ],
+          "carduri": [
+            {
+              "f": "Cum se enunță legea lui Ohm?",
+              "v": "Intensitatea este direct proporțională cu tensiunea și invers proporțională cu rezistența."
+            },
+            {
+              "f": "De ce se leagă consumatorii casnici în paralel?",
+              "v": "Ca fiecare să primească aceeași tensiune și să poată fi oprit independent."
+            },
+            {
+              "f": "Cum se calculează puterea electrică?",
+              "v": "Ca produs între tensiune și intensitate."
+            },
+            {
+              "f": "Ce rol are siguranța dintr-un circuit?",
+              "v": "Întrerupe circuitul când curentul depășește o valoare periculoasă."
+            }
+          ],
+          "test": [
+            {
+              "intrebare": "La legarea în serie a două rezistoare:",
+              "optiuni": [
+                "rezistențele se adună",
+                "inversele rezistențelor se adună",
+                "rezistența totală scade",
+                "tensiunea e aceeași pe fiecare"
+              ],
+              "corect": 0,
+              "explicatie": "Curentul este același prin toate."
+            },
+            {
+              "intrebare": "Rezistența unui conductor crește dacă:",
+              "optiuni": [
+                "îi crește lungimea",
+                "îi crește secțiunea",
+                "îi scade lungimea",
+                "scade temperatura, la metale"
+              ],
+              "corect": 0,
+              "explicatie": "Secțiunea mai mare înseamnă rezistență mai mică."
+            },
+            {
+              "intrebare": "Efectul Joule este util la:",
+              "optiuni": [
+                "reșou și fier de călcat",
+                "transformatoare",
+                "condensatoare",
+                "diode"
+              ],
+              "corect": 0,
+              "explicatie": "La cabluri subdimensionate devine periculos."
+            },
+            {
+              "intrebare": "Rezistența electrică se măsoară în:",
+              "optiuni": [
+                "ohmi",
+                "amperi",
+                "volți",
+                "jouli"
+              ],
+              "corect": 0,
+              "explicatie": "Amperul măsoară intensitatea."
+            }
+          ]
+        },
+        {
+          "id": "fiz10-06",
+          "titlu": "Magnetism și inducție electromagnetică",
+          "rezumat": "Magneții au doi poli, nord și sud, care nu pot fi separați: tăind un magnet în două se obțin doi magneți compleți. Câmpul magnetic se reprezintă prin linii de câmp care ies din polul nord și intră în polul sud. Pământul are propriul câmp magnetic, care orientează busola și deviază particulele încărcate din vântul solar, protejând viața și producând aurorele polare. Oersted a descoperit că un curent electric produce câmp magnetic, iar Faraday, că un câmp magnetic variabil produce tensiune electromotoare — fenomenul inducției electromagnetice. Legea lui Lenz precizează sensul: curentul indus se opune cauzei care l-a produs. Pe inducție se bazează generatorul electric, transformatorul, plita cu inducție, cardul contactless și încărcarea fără fir. Motorul electric face drumul invers: transformă energia electrică în mișcare, prin forța care acționează asupra unui conductor parcurs de curent aflat în câmp magnetic.",
+          "ideiCheie": [
+            "Polii magnetici nu pot fi separați: orice bucată de magnet are ambii poli.",
+            "Curentul electric produce câmp magnetic (Oersted).",
+            "Un câmp magnetic variabil produce tensiune electromotoare (Faraday).",
+            "Legea lui Lenz: curentul indus se opune cauzei care l-a produs."
+          ],
+          "termeni": [
+            {
+              "t": "inducție electromagnetică",
+              "d": "apariția unei tensiuni electromotoare într-un circuit străbătut de un flux magnetic variabil"
+            },
+            {
+              "t": "lege a lui Lenz",
+              "d": "regula după care curentul indus se opune variației care l-a generat"
+            }
+          ],
+          "carduri": [
+            {
+              "f": "Ce se întâmplă dacă tai un magnet în două?",
+              "v": "Obții doi magneți compleți, fiecare cu ambii poli."
+            },
+            {
+              "f": "Ce a descoperit Oersted?",
+              "v": "Că un curent electric produce câmp magnetic."
+            },
+            {
+              "f": "Pe ce se bazează transformatorul?",
+              "v": "Pe inducția electromagnetică."
+            },
+            {
+              "f": "Ce spune legea lui Lenz?",
+              "v": "Curentul indus se opune cauzei care l-a produs."
+            }
+          ],
+          "test": [
+            {
+              "intrebare": "Aurorele polare se produc pentru că:",
+              "optiuni": [
+                "câmpul magnetic terestru deviază particulele din vântul solar",
+                "atmosfera reflectă lumina solară",
+                "Soarele emite lumină colorată",
+                "gheața polară difuzează lumina"
+              ],
+              "corect": 0,
+              "explicatie": "Particulele excită gazele din atmosfera înaltă."
+            },
+            {
+              "intrebare": "Faraday a descoperit că:",
+              "optiuni": [
+                "un câmp magnetic variabil produce tensiune electromotoare",
+                "un curent produce câmp magnetic",
+                "sarcinile opuse se atrag",
+                "rezistența depinde de lungime"
+              ],
+              "corect": 0,
+              "explicatie": "Oersted descoperise efectul invers."
+            },
+            {
+              "intrebare": "Plita cu inducție funcționează pe baza:",
+              "optiuni": [
+                "inducției electromagnetice",
+                "efectului Joule direct în plită",
+                "radiației infraroșii",
+                "conducției termice"
+              ],
+              "corect": 0,
+              "explicatie": "Curenții induși încălzesc vasul, nu plita."
+            },
+            {
+              "intrebare": "Motorul electric transformă:",
+              "optiuni": [
+                "energia electrică în energie mecanică",
+                "energia mecanică în electrică",
+                "căldura în lucru mecanic",
+                "lumina în electricitate"
+              ],
+              "corect": 0,
+              "explicatie": "Generatorul face transformarea inversă."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fiz10-c3",
+      "titlu": "Optică, unde, fizica modernă",
+      "semestru": 2,
+      "lectii": [
+        {
+          "id": "fiz10-07",
+          "titlu": "Lumina și optica geometrică",
+          "rezumat": "Lumina se propagă rectiliniu în medii omogene, cu viteza de aproximativ 300.000 de kilometri pe secundă în vid — limita superioară a oricărei viteze din univers. La întâlnirea unei suprafețe, lumina se reflectă după legea potrivit căreia unghiul de reflexie este egal cu unghiul de incidență, ambele măsurate față de normală. Oglinzile plane dau imagini virtuale, drepte, de aceeași mărime, simetrice față de suprafață. Refracția este schimbarea direcției la trecerea dintr-un mediu în altul, din cauza schimbării vitezei; ea explică bățul care pare frânt în apă și adâncimea aparentă mai mică a bazinelor. La trecerea dintr-un mediu mai dens într-unul mai puțin dens, peste un unghi-limită apare reflexia totală, principiul fibrei optice. Lentilele convergente formează imagini reale sau virtuale, după poziția obiectului, și corectează hipermetropia; cele divergente corectează miopia. Dispersia luminii albe prin prismă arată că ea este un amestec de culori, iar curcubeul este dispersie și reflexie în picăturile de apă.",
+          "ideiCheie": [
+            "Lumina se propagă rectiliniu, cu aproximativ 300.000 km/s în vid.",
+            "Unghiul de reflexie este egal cu unghiul de incidență.",
+            "Refracția vine din schimbarea vitezei luminii la trecerea între medii.",
+            "Reflexia totală stă la baza fibrei optice."
+          ],
+          "termeni": [
+            {
+              "t": "refracție",
+              "d": "schimbarea direcției de propagare a luminii la trecerea dintr-un mediu în altul"
+            },
+            {
+              "t": "reflexie totală",
+              "d": "fenomenul prin care lumina se întoarce integral în mediul mai dens, peste unghiul-limită"
+            }
+          ],
+          "carduri": [
+            {
+              "f": "Care e viteza luminii în vid?",
+              "v": "Aproximativ 300.000 de kilometri pe secundă."
+            },
+            {
+              "f": "De ce pare frânt un băț scufundat în apă?",
+              "v": "Din cauza refracției la suprafața de separare dintre apă și aer."
+            },
+            {
+              "f": "Pe ce fenomen se bazează fibra optică?",
+              "v": "Pe reflexia totală."
+            },
+            {
+              "f": "Ce arată dispersia luminii albe printr-o prismă?",
+              "v": "Că lumina albă e un amestec de culori."
+            }
+          ],
+          "test": [
+            {
+              "intrebare": "Legea reflexiei spune că:",
+              "optiuni": [
+                "unghiul de reflexie este egal cu cel de incidență",
+                "unghiul de reflexie e dublul celui de incidență",
+                "reflexia nu depinde de unghi",
+                "lumina se oprește la suprafață"
+              ],
+              "corect": 0,
+              "explicatie": "Ambele se măsoară față de normală."
+            },
+            {
+              "intrebare": "Imaginea într-o oglindă plană este:",
+              "optiuni": [
+                "virtuală, dreaptă, de aceeași mărime",
+                "reală și răsturnată",
+                "virtuală și mărită",
+                "reală și micșorată"
+              ],
+              "corect": 0,
+              "explicatie": "Este simetrică față de suprafața oglinzii."
+            },
+            {
+              "intrebare": "Miopia se corectează cu lentile:",
+              "optiuni": [
+                "divergente",
+                "convergente",
+                "cilindrice exclusiv",
+                "fără dioptrii"
+              ],
+              "corect": 0,
+              "explicatie": "Hipermetropia se corectează cu lentile convergente."
+            },
+            {
+              "intrebare": "Curcubeul se formează prin:",
+              "optiuni": [
+                "dispersie și reflexie în picăturile de apă",
+                "reflexie totală în nori",
+                "difracție pe cristale de gheață",
+                "absorbția selectivă a luminii"
+              ],
+              "corect": 0,
+              "explicatie": "Fiecare culoare se refractă sub un unghi ușor diferit."
+            }
+          ]
+        },
+        {
+          "id": "fiz10-08",
+          "titlu": "Unde mecanice și sunetul",
+          "rezumat": "O undă este propagarea unei perturbații într-un mediu, fără transport de substanță — dopul de pe apă urcă și coboară, dar nu se deplasează odată cu valul. Undele sunt transversale, când oscilația e perpendiculară pe direcția de propagare (unda de pe o coardă), sau longitudinale, când oscilația e paralelă cu propagarea (sunetul în aer). Mărimile caracteristice sunt lungimea de undă, frecvența, perioada și amplitudinea, legate prin relația dintre viteză, frecvență și lungime de undă. Sunetul este o undă longitudinală care are nevoie de mediu: în vid nu se propagă. Viteza lui în aer este de aproximativ 340 de metri pe secundă și crește în lichide și solide. Înălțimea sunetului e dată de frecvență, intensitatea de amplitudine, iar timbrul de armonice — de aceea aceeași notă sună diferit la vioară și la pian. Urechea umană aude între aproximativ 20 și 20.000 de hertzi; sub acest domeniu sunt infrasunetele, deasupra ultrasunetele, folosite în ecografie și sonar. Efectul Doppler explică schimbarea tonului unei sirene care se apropie și apoi se îndepărtează.",
+          "ideiCheie": [
+            "Unda propagă o perturbație, nu substanță.",
+            "Sunetul este o undă longitudinală și nu se propagă în vid.",
+            "Frecvența dă înălțimea, amplitudinea dă intensitatea, armonicele dau timbrul.",
+            "Efectul Doppler explică schimbarea tonului unei surse în mișcare."
+          ],
+          "termeni": [
+            {
+              "t": "undă longitudinală",
+              "d": "undă în care oscilația particulelor are loc pe direcția de propagare"
+            },
+            {
+              "t": "efect Doppler",
+              "d": "modificarea frecvenței percepute când sursa sau observatorul se deplasează"
+            }
+          ],
+          "carduri": [
+            {
+              "f": "De ce nu se propagă sunetul în vid?",
+              "v": "Pentru că este o undă mecanică și are nevoie de un mediu material."
+            },
+            {
+              "f": "Ce dă timbrul unui sunet?",
+              "v": "Compoziția în armonice."
+            },
+            {
+              "f": "Care e domeniul de audibilitate al urechii umane?",
+              "v": "Aproximativ 20–20.000 de hertzi."
+            },
+            {
+              "f": "Ce explică efectul Doppler?",
+              "v": "Schimbarea frecvenței percepute când sursa se apropie sau se îndepărtează."
+            }
+          ],
+          "test": [
+            {
+              "intrebare": "Sunetul este o undă:",
+              "optiuni": [
+                "longitudinală",
+                "transversală",
+                "electromagnetică",
+                "staționară întotdeauna"
+              ],
+              "corect": 0,
+              "explicatie": "Oscilația are loc pe direcția de propagare."
+            },
+            {
+              "intrebare": "Viteza sunetului în aer este de aproximativ:",
+              "optiuni": [
+                "340 m/s",
+                "300.000 km/s",
+                "34 m/s",
+                "3.400 m/s"
+              ],
+              "corect": 0,
+              "explicatie": "În solide este mult mai mare."
+            },
+            {
+              "intrebare": "Ultrasunetele sunt folosite în:",
+              "optiuni": [
+                "ecografie și sonar",
+                "iluminat",
+                "transmisia radio",
+                "încălzirea locuințelor"
+              ],
+              "corect": 0,
+              "explicatie": "Au frecvențe peste 20.000 Hz."
+            },
+            {
+              "intrebare": "Înălțimea unui sunet este dată de:",
+              "optiuni": [
+                "frecvență",
+                "amplitudine",
+                "timbru",
+                "viteza de propagare"
+              ],
+              "corect": 0,
+              "explicatie": "Amplitudinea dă intensitatea."
+            }
+          ]
+        },
+        {
+          "id": "fiz10-09",
+          "titlu": "Elemente de fizică modernă",
+          "rezumat": "La începutul secolului XX, fizica clasică s-a dovedit insuficientă. Planck a introdus ideea că energia se schimbă în porții discrete, numite cuante, iar Einstein a explicat efectul fotoelectric presupunând că lumina însăși este formată din fotoni. De aici dualismul undă-corpuscul: lumina și particulele au, în funcție de experiment, comportare de undă sau de corpuscul. Teoria relativității restrânse a lui Einstein pornește de la două postulate: legile fizicii sunt aceleași în toate sistemele inerțiale, iar viteza luminii în vid este aceeași pentru toți observatorii. Consecințele contrazic intuiția: dilatarea timpului, contracția lungimilor, echivalența dintre masă și energie. Fizica nucleară studiază nucleul: fisiunea (spargerea nucleelor grele, folosită în centralele nucleare) și fuziunea (unirea nucleelor ușoare, sursa energiei stelelor). Radioactivitatea are aplicații medicale și de datare, dar cere protecție riguroasă.",
+          "ideiCheie": [
+            "Planck a introdus cuantele; Einstein a explicat efectul fotoelectric prin fotoni.",
+            "Dualismul undă-corpuscul: comportarea depinde de experiment.",
+            "Relativitatea restrânsă pornește de la constanța vitezei luminii.",
+            "Fisiunea alimentează centralele nucleare; fuziunea alimentează stelele."
+          ],
+          "termeni": [
+            {
+              "t": "cuantă",
+              "d": "cea mai mică porție de energie care poate fi schimbată într-un proces fizic"
+            },
+            {
+              "t": "fuziune nucleară",
+              "d": "unirea a două nuclee ușoare, cu eliberare de energie"
+            }
+          ],
+          "carduri": [
+            {
+              "f": "Ce a introdus Planck în fizică?",
+              "v": "Ideea că energia se schimbă în porții discrete, numite cuante."
+            },
+            {
+              "f": "Ce este dualismul undă-corpuscul?",
+              "v": "Faptul că lumina și particulele se comportă, după experiment, ca unde sau ca particule."
+            },
+            {
+              "f": "Care sunt cele două postulate ale relativității restrânse?",
+              "v": "Legile fizicii sunt aceleași în toate sistemele inerțiale și viteza luminii în vid e constantă."
+            },
+            {
+              "f": "Ce reacție alimentează stelele?",
+              "v": "Fuziunea nucleară."
+            }
+          ],
+          "test": [
+            {
+              "intrebare": "Efectul fotoelectric a fost explicat de:",
+              "optiuni": [
+                "Einstein, prin ipoteza fotonilor",
+                "Planck, prin unde continue",
+                "Newton, prin corpusculi",
+                "Faraday, prin inducție"
+              ],
+              "corect": 0,
+              "explicatie": "I-a adus premiul Nobel."
+            },
+            {
+              "intrebare": "Centralele nucleare actuale folosesc:",
+              "optiuni": [
+                "fisiunea",
+                "fuziunea",
+                "fotosinteza",
+                "efectul Joule"
+              ],
+              "corect": 0,
+              "explicatie": "Fuziunea controlată e încă în cercetare."
+            },
+            {
+              "intrebare": "Viteza luminii în vid, potrivit relativității, este:",
+              "optiuni": [
+                "aceeași pentru toți observatorii",
+                "diferită pentru fiecare observator",
+                "variabilă cu direcția",
+                "dependentă de sursa de lumină"
+              ],
+              "corect": 0,
+              "explicatie": "Este al doilea postulat al teoriei."
+            },
+            {
+              "intrebare": "Dilatarea timpului este o consecință a:",
+              "optiuni": [
+                "relativității restrânse",
+                "mecanicii cuantice",
+                "termodinamicii",
+                "electromagnetismului clasic"
+              ],
+              "corect": 0,
+              "explicatie": "Apare la viteze apropiate de cea a luminii."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fiz10-c4",
+      "titlu": "Calorimetrie și stări de agregare",
+      "semestru": 1,
+      "lectii": [
+        {
+          "id": "fiz10-10",
+          "titlu": "Cantitatea de căldură. Calorimetria",
+          "rezumat": "Cantitatea de căldură primită sau cedată de un corp atunci când își schimbă temperatura este produsul dintre masa corpului, căldura specifică a substanței și variația temperaturii. Căldura specifică arată câtă energie trebuie schimbată cu un kilogram de substanță pentru a-i modifica temperatura cu un grad; ea depinde de natura substanței și se măsoară în jouli pe kilogram și pe grad.\nApa are o căldură specifică neobișnuit de mare, aproximativ 4180 de jouli pe kilogram și pe grad, mai mare decât a aproape tuturor substanțelor obișnuite. De aceea apa se încălzește și se răcește greu, moderează clima regiunilor de coastă și este un bun agent de răcire. Calorimetrul este un vas izolat termic în care se studiază schimburile de căldură: la contactul a două corpuri cu temperaturi diferite, căldura cedată de corpul cald este egală cu căldura primită de corpul rece, până la echilibrul termic — aceasta este ecuația calorimetrică.",
+          "ideiCheie": [
+            "Cantitatea de căldură este produsul dintre masă, căldura specifică și variația temperaturii.",
+            "Căldura specifică depinde de natura substanței și se măsoară în jouli pe kilogram și pe grad.",
+            "Apa are o căldură specifică foarte mare, de aceea moderează clima.",
+            "La echilibru termic, căldura cedată de corpul cald egalează căldura primită de cel rece."
+          ],
+          "termeni": [
+            {
+              "t": "căldură specifică",
+              "d": "energia necesară pentru a modifica cu un grad temperatura unui kilogram de substanță"
+            },
+            {
+              "t": "ecuație calorimetrică",
+              "d": "egalitatea dintre căldura cedată de corpul cald și cea primită de corpul rece"
+            }
+          ],
+          "carduri": [
+            {
+              "f": "De ce depinde cantitatea de căldură primită de un corp?",
+              "v": "De masă, de căldura specifică și de variația temperaturii."
+            },
+            {
+              "f": "Ce arată căldura specifică a unei substanțe?",
+              "v": "Câtă energie schimbă un kilogram din ea pentru a-și schimba temperatura cu un grad."
+            },
+            {
+              "f": "De ce moderează apa clima zonelor de coastă?",
+              "v": "Pentru că are o căldură specifică mare și se încălzește și se răcește greu."
+            },
+            {
+              "f": "Ce afirmă ecuația calorimetrică?",
+              "v": "Că într-un calorimetru căldura cedată de corpul cald este egală cu cea primită de corpul rece."
+            }
+          ],
+          "test": [
+            {
+              "intrebare": "Cantitatea de căldură primită de un corp care se încălzește depinde de:",
+              "optiuni": [
+                "masă, căldura specifică și variația temperaturii",
+                "doar de masă",
+                "doar de variația temperaturii",
+                "doar de volumul corpului"
+              ],
+              "corect": 0,
+              "explicatie": "Ea este produsul acestor trei mărimi."
+            },
+            {
+              "intrebare": "Căldura specifică a apei, față de a majorității substanțelor, este:",
+              "optiuni": [
+                "mai mare",
+                "mai mică",
+                "egală",
+                "nulă"
+              ],
+              "corect": 0,
+              "explicatie": "De aceea apa se încălzește greu și moderează clima."
+            },
+            {
+              "intrebare": "La contactul a două corpuri cu temperaturi diferite, căldura cedată de corpul cald este:",
+              "optiuni": [
+                "egală cu cea primită de corpul rece",
+                "mai mare decât cea primită de corpul rece",
+                "mai mică decât cea primită de corpul rece",
+                "independentă de corpul rece"
+              ],
+              "corect": 0,
+              "explicatie": "Este ecuația calorimetrică, la echilibru termic."
+            },
+            {
+              "intrebare": "Pentru a încălzi 2 kg de apă (căldura specifică aproximativ 4200 J/(kg·°C)) cu 5 °C sunt necesari:",
+              "optiuni": [
+                "42000 J",
+                "4200 J",
+                "21000 J",
+                "420000 J"
+              ],
+              "corect": 0,
+              "explicatie": "2 înmulțit cu 4200 înmulțit cu 5 dă 42000 de jouli."
+            }
+          ]
+        },
+        {
+          "id": "fiz10-11",
+          "titlu": "Transformări de stare de agregare",
+          "rezumat": "Substanța trece dintr-o stare de agregare în alta prin transformări cu nume proprii: topirea (solid în lichid) și solidificarea (lichid în solid), vaporizarea (lichid în gaz) și condensarea (gaz în lichid), sublimarea (solid direct în gaz) și desublimarea. La presiune constantă, în timpul unei schimbări de stare temperatura rămâne constantă, deși corpul primește sau cedează căldură: energia schimbată rupe sau reface legăturile dintre particule, nu crește agitația termică.\nCăldura schimbată la o transformare de stare, fără variație de temperatură, este produsul dintre masa corpului și o mărime numită căldură latentă, specifică fiecărei transformări. Vaporizarea are două forme: evaporarea, care are loc numai la suprafața lichidului și la orice temperatură, și fierberea, care are loc în toată masa lichidului, la o temperatură bine determinată. Temperatura de fierbere depinde de presiune: scade cu altitudinea, fiindcă presiunea atmosferică scade, motiv pentru care la munte apa fierbe sub 100 de grade, iar în oala sub presiune, peste 100.",
+          "ideiCheie": [
+            "Schimbările de stare: topire, solidificare, vaporizare, condensare, sublimare, desublimare.",
+            "În timpul schimbării de stare, la presiune constantă, temperatura rămâne constantă.",
+            "Căldura latentă este căldura schimbată pe unitatea de masă la o transformare de stare.",
+            "Evaporarea are loc doar la suprafață și la orice temperatură; fierberea, în toată masa lichidului."
+          ],
+          "termeni": [
+            {
+              "t": "căldură latentă",
+              "d": "căldura schimbată de unitatea de masă a unei substanțe la o transformare de stare, fără variație de temperatură"
+            },
+            {
+              "t": "fierbere",
+              "d": "vaporizarea în toată masa lichidului, la o temperatură determinată de presiune"
+            }
+          ],
+          "carduri": [
+            {
+              "f": "Ce se întâmplă cu temperatura în timpul topirii, la presiune constantă?",
+              "v": "Rămâne constantă, deși corpul primește căldură."
+            },
+            {
+              "f": "Prin ce se deosebește evaporarea de fierbere?",
+              "v": "Evaporarea are loc doar la suprafață și la orice temperatură, fierberea în toată masa, la temperatura de fierbere."
+            },
+            {
+              "f": "Cum se numește trecerea directă din solid în gaz?",
+              "v": "Sublimare."
+            },
+            {
+              "f": "De ce fierbe apa mai greu în oala sub presiune?",
+              "v": "Pentru că presiunea ridicată crește temperatura de fierbere peste 100 de grade."
+            }
+          ],
+          "test": [
+            {
+              "intrebare": "În timpul topirii unui corp cristalin, la presiune constantă, temperatura:",
+              "optiuni": [
+                "rămâne constantă",
+                "crește continuu",
+                "scade continuu",
+                "oscilează"
+              ],
+              "corect": 0,
+              "explicatie": "Căldura primită rupe legăturile dintre particule, nu crește agitația termică."
+            },
+            {
+              "intrebare": "Trecerea din stare lichidă în stare gazoasă se numește:",
+              "optiuni": [
+                "vaporizare",
+                "topire",
+                "solidificare",
+                "sublimare"
+              ],
+              "corect": 0,
+              "explicatie": "Procesul invers este condensarea."
+            },
+            {
+              "intrebare": "Evaporarea, spre deosebire de fierbere, are loc:",
+              "optiuni": [
+                "doar la suprafața lichidului și la orice temperatură",
+                "în toată masa lichidului",
+                "doar la temperatura de fierbere",
+                "doar sub presiune ridicată"
+              ],
+              "corect": 0,
+              "explicatie": "Fierberea cuprinde toată masa lichidului."
+            },
+            {
+              "intrebare": "Temperatura de fierbere a apei, odată cu creșterea altitudinii:",
+              "optiuni": [
+                "scade",
+                "crește",
+                "rămâne constantă",
+                "se dublează"
+              ],
+              "corect": 0,
+              "explicatie": "Presiunea atmosferică scade cu altitudinea."
+            }
+          ]
+        },
+        {
+          "id": "fiz10-12",
+          "titlu": "Motoare termice și randamentul lor",
+          "rezumat": "Un motor termic transformă căldura în lucru mecanic: primește o cantitate de căldură de la o sursă caldă, transformă o parte în lucru mecanic util și cedează restul unei surse reci. Din legea conservării energiei, lucrul mecanic efectuat este egal cu diferența dintre căldura primită de la sursa caldă și căldura cedată sursei reci.\nRandamentul motorului este raportul dintre lucrul mecanic util și căldura primită de la sursa caldă; el este întotdeauna subunitar, pentru că o parte din căldură se cedează obligatoriu sursei reci — o consecință directă a principiului al doilea al termodinamicii. Randamentul maxim, dat de ciclul Carnot, depinde numai de temperaturile celor două surse. Motoarele cu ardere internă, turbinele și motoarele cu abur sunt motoare termice; frigiderul și pompa de căldură fac drumul invers, transferând căldură de la corpul rece la cel cald cu consum de lucru mecanic.",
+          "ideiCheie": [
+            "Un motor termic primește căldură de la sursa caldă, produce lucru mecanic și cedează căldură sursei reci.",
+            "Lucrul mecanic este diferența dintre căldura primită și cea cedată.",
+            "Randamentul este raportul dintre lucrul mecanic util și căldura primită, mereu subunitar.",
+            "Frigiderul transferă căldură de la corpul rece la cel cald, consumând lucru mecanic."
+          ],
+          "termeni": [
+            {
+              "t": "motor termic",
+              "d": "dispozitiv care transformă o parte din căldura primită în lucru mecanic"
+            },
+            {
+              "t": "randament al motorului termic",
+              "d": "raportul dintre lucrul mecanic util și căldura primită de la sursa caldă"
+            }
+          ],
+          "carduri": [
+            {
+              "f": "Cum se calculează lucrul mecanic al unui motor termic?",
+              "v": "Ca diferență dintre căldura primită de la sursa caldă și căldura cedată sursei reci."
+            },
+            {
+              "f": "De ce este randamentul unui motor termic subunitar?",
+              "v": "Pentru că o parte din căldură se cedează obligatoriu sursei reci."
+            },
+            {
+              "f": "De ce depinde randamentul maxim al unui motor termic?",
+              "v": "Doar de temperaturile sursei calde și ale celei reci."
+            },
+            {
+              "f": "Ce face un frigider?",
+              "v": "Transferă căldură de la corpul rece la cel cald, consumând lucru mecanic."
+            }
+          ],
+          "test": [
+            {
+              "intrebare": "Randamentul unui motor termic este raportul dintre:",
+              "optiuni": [
+                "lucrul mecanic util și căldura primită de la sursa caldă",
+                "căldura cedată și căldura primită",
+                "căldura primită și lucrul mecanic",
+                "lucrul mecanic și căldura cedată"
+              ],
+              "corect": 0,
+              "explicatie": "De aceea este întotdeauna subunitar."
+            },
+            {
+              "intrebare": "Un motor termic primește 1000 J de la sursa caldă și cedează 700 J sursei reci. Lucrul mecanic efectuat este:",
+              "optiuni": [
+                "300 J",
+                "1700 J",
+                "700 J",
+                "1000 J"
+              ],
+              "corect": 0,
+              "explicatie": "Lucrul este diferența: 1000 minus 700."
+            },
+            {
+              "intrebare": "Randamentul unui motor termic real este:",
+              "optiuni": [
+                "întotdeauna subunitar",
+                "egal cu 1",
+                "supraunitar la motoarele bune",
+                "nul"
+              ],
+              "corect": 0,
+              "explicatie": "O parte din căldură se cedează mereu sursei reci."
+            },
+            {
+              "intrebare": "Frigiderul transferă căldură:",
+              "optiuni": [
+                "de la corpul rece la cel cald, consumând lucru mecanic",
+                "de la corpul cald la cel rece, fără consum",
+                "doar prin radiație",
+                "creând energie"
+              ],
+              "corect": 0,
+              "explicatie": "Este un motor termic care funcționează invers."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fiz10-c5",
+      "titlu": "Curentul electric continuu",
+      "semestru": 2,
+      "lectii": [
+        {
+          "id": "fiz10-13",
+          "titlu": "Legea lui Ohm pentru întregul circuit",
+          "rezumat": "Un generator real (baterie, acumulator) are o tensiune electromotoare, care măsoară energia dată de generator fiecărei unități de sarcină, și o rezistență internă proprie. Într-un circuit simplu, curentul trece atât prin rezistorul exterior, cât și prin generator, întâmpinând ambele rezistențe.\nLegea lui Ohm pentru întregul circuit spune că intensitatea curentului este egală cu tensiunea electromotoare împărțită la suma dintre rezistența exterioară și rezistența internă. Tensiunea la bornele generatorului este mai mică decât tensiunea electromotoare, cu exact căderea de tensiune pe rezistența internă; de aceea farurile unei mașini pălesc la pornirea demarorului, care cere un curent mare. La scurtcircuit, când rezistența exterioară tinde spre zero, intensitatea atinge valoarea maximă, egală cu tensiunea electromotoare împărțită la rezistența internă — situație periculoasă, care poate distruge generatorul.",
+          "ideiCheie": [
+            "Un generator real are o tensiune electromotoare și o rezistență internă.",
+            "Intensitatea este tensiunea electromotoare împărțită la suma rezistenței exterioare și interne.",
+            "Tensiunea la borne e mai mică decât tensiunea electromotoare cu căderea pe rezistența internă.",
+            "La scurtcircuit intensitatea atinge valoarea maximă și poate distruge generatorul."
+          ],
+          "termeni": [
+            {
+              "t": "tensiune electromotoare",
+              "d": "energia furnizată de generator fiecărei unități de sarcină"
+            },
+            {
+              "t": "rezistență internă",
+              "d": "rezistența proprie a generatorului, la trecerea curentului prin el"
+            }
+          ],
+          "carduri": [
+            {
+              "f": "Ce mărimi caracterizează un generator real?",
+              "v": "Tensiunea electromotoare și rezistența internă."
+            },
+            {
+              "f": "Cum se enunță legea lui Ohm pentru întregul circuit?",
+              "v": "Intensitatea este tensiunea electromotoare împărțită la suma rezistenței exterioare și interne."
+            },
+            {
+              "f": "De ce e tensiunea la borne mai mică decât tensiunea electromotoare?",
+              "v": "Din cauza căderii de tensiune pe rezistența internă."
+            },
+            {
+              "f": "Ce se întâmplă la scurtcircuit?",
+              "v": "Intensitatea atinge valoarea maximă, egală cu tensiunea electromotoare împărțită la rezistența internă."
+            }
+          ],
+          "test": [
+            {
+              "intrebare": "Legea lui Ohm pentru întregul circuit exprimă intensitatea ca:",
+              "optiuni": [
+                "tensiunea electromotoare împărțită la suma rezistenței exterioare și interne",
+                "produsul tensiunii electromotoare cu rezistența",
+                "tensiunea electromotoare împărțită doar la rezistența exterioară",
+                "suma tensiunilor înmulțită cu rezistența"
+              ],
+              "corect": 0,
+              "explicatie": "Curentul întâmpină și rezistența internă a generatorului."
+            },
+            {
+              "intrebare": "Tensiunea la bornele unui generator real este:",
+              "optiuni": [
+                "mai mică decât tensiunea electromotoare, cu căderea pe rezistența internă",
+                "mai mare decât tensiunea electromotoare",
+                "egală mereu cu tensiunea electromotoare",
+                "nulă în circuit închis"
+              ],
+              "corect": 0,
+              "explicatie": "De aceea farurile pălesc când demarorul cere curent mare."
+            },
+            {
+              "intrebare": "Un generator cu tensiunea electromotoare de 12 V și rezistența internă de 1 Ω alimentează un rezistor de 5 Ω. Intensitatea curentului este:",
+              "optiuni": [
+                "2 A",
+                "12 A",
+                "6 A",
+                "2,4 A"
+              ],
+              "corect": 0,
+              "explicatie": "12 împărțit la suma 5 plus 1 dă 2 amperi."
+            },
+            {
+              "intrebare": "La scurtcircuit, când rezistența exterioară tinde spre zero, intensitatea:",
+              "optiuni": [
+                "atinge valoarea maximă",
+                "devine nulă",
+                "rămâne neschimbată",
+                "devine negativă"
+              ],
+              "corect": 0,
+              "explicatie": "Este limitată doar de rezistența internă."
+            }
+          ]
+        },
+        {
+          "id": "fiz10-14",
+          "titlu": "Gruparea rezistoarelor",
+          "rezumat": "Rezistoarele se pot lega în serie sau în paralel. La gruparea în serie, rezistoarele sunt parcurse de același curent, iar rezistența echivalentă este suma rezistențelor; tensiunea totală se împarte între ele. Rezistența echivalentă în serie este mereu mai mare decât oricare dintre rezistențele grupate.\nLa gruparea în paralel, rezistoarele au aceeași tensiune la capete, iar curentul total se împarte între ele; inversul rezistenței echivalente este suma inverselor rezistențelor. Rezistența echivalentă în paralel este mai mică decât cea mai mică rezistență din grup, pentru că se deschid mai multe căi pentru curent. Instalațiile casnice folosesc legarea în paralel, astfel încât fiecare consumator să primească aceeași tensiune și să poată fi pornit sau oprit separat, fără să-i afecteze pe ceilalți.",
+          "ideiCheie": [
+            "În serie, rezistoarele au același curent, iar rezistențele se adună.",
+            "Rezistența echivalentă în serie e mai mare decât oricare dintre rezistențele grupate.",
+            "În paralel, rezistoarele au aceeași tensiune, iar inversele rezistențelor se adună.",
+            "Rezistența echivalentă în paralel e mai mică decât cea mai mică rezistență din grup."
+          ],
+          "termeni": [
+            {
+              "t": "grupare în serie",
+              "d": "legarea rezistoarelor una după alta, parcurse de același curent"
+            },
+            {
+              "t": "grupare în paralel",
+              "d": "legarea rezistoarelor între aceleași două puncte, cu aceeași tensiune la capete"
+            }
+          ],
+          "carduri": [
+            {
+              "f": "Ce se conservă la gruparea în serie?",
+              "v": "Intensitatea curentului este aceeași prin toate rezistoarele."
+            },
+            {
+              "f": "Cum se calculează rezistența echivalentă la gruparea în serie?",
+              "v": "Prin adunarea rezistențelor."
+            },
+            {
+              "f": "Ce se conservă la gruparea în paralel?",
+              "v": "Tensiunea la capetele rezistoarelor este aceeași."
+            },
+            {
+              "f": "De ce se leagă consumatorii casnici în paralel?",
+              "v": "Ca fiecare să primească aceeași tensiune și să poată fi oprit separat."
+            }
+          ],
+          "test": [
+            {
+              "intrebare": "Două rezistoare de 3 Ω și 6 Ω legate în serie dau o rezistență echivalentă de:",
+              "optiuni": [
+                "9 Ω",
+                "2 Ω",
+                "18 Ω",
+                "4,5 Ω"
+              ],
+              "corect": 0,
+              "explicatie": "În serie rezistențele se adună."
+            },
+            {
+              "intrebare": "Două rezistoare de 6 Ω fiecare, legate în paralel, dau o rezistență echivalentă de:",
+              "optiuni": [
+                "3 Ω",
+                "12 Ω",
+                "6 Ω",
+                "36 Ω"
+              ],
+              "corect": 0,
+              "explicatie": "Pentru două rezistoare egale în paralel, echivalenta e jumătate."
+            },
+            {
+              "intrebare": "La gruparea în serie, prin toate rezistoarele trece:",
+              "optiuni": [
+                "același curent",
+                "aceeași tensiune",
+                "curenți diferiți",
+                "niciun curent"
+              ],
+              "corect": 0,
+              "explicatie": "Tensiunea se împarte între ele."
+            },
+            {
+              "intrebare": "Rezistența echivalentă a unei grupări în paralel este:",
+              "optiuni": [
+                "mai mică decât cea mai mică rezistență din grup",
+                "mai mare decât suma rezistențelor",
+                "egală cu suma rezistențelor",
+                "egală cu cea mai mare rezistență"
+              ],
+              "corect": 0,
+              "explicatie": "Se deschid mai multe căi pentru curent."
+            }
+          ]
+        },
+        {
+          "id": "fiz10-15",
+          "titlu": "Energia și puterea electrică",
+          "rezumat": "Puterea electrică dezvoltată într-un consumator este produsul dintre tensiunea la capetele lui și intensitatea curentului care îl străbate; se măsoară în wați. Pentru un rezistor, folosind legea lui Ohm, puterea se poate scrie și ca produsul dintre rezistență și pătratul intensității, sau ca raportul dintre pătratul tensiunii și rezistență. Energia electrică consumată este produsul dintre putere și timp.\nEfectul Joule este transformarea energiei electrice în căldură la trecerea curentului printr-un conductor; căldura degajată este proporțională cu rezistența, cu pătratul intensității și cu timpul. El este util la reșou, fier de călcat și radiator, dar periculos la cablurile subdimensionate, care se pot supraîncălzi. În practică, energia electrică se măsoară în kilowați-oră: un aparat de o mie de wați care funcționează o oră consumă exact un kilowatt-oră.",
+          "ideiCheie": [
+            "Puterea electrică este produsul dintre tensiune și intensitate, măsurată în wați.",
+            "Pentru un rezistor, puterea este și rezistența înmulțită cu pătratul intensității.",
+            "Energia electrică este produsul dintre putere și timp.",
+            "Efectul Joule transformă energia electrică în căldură, proporțional cu pătratul intensității."
+          ],
+          "termeni": [
+            {
+              "t": "putere electrică",
+              "d": "energia electrică transformată în unitatea de timp, produsul dintre tensiune și intensitate"
+            },
+            {
+              "t": "kilowatt-oră",
+              "d": "unitatea practică de energie, egală cu energia unui consumator de o mie de wați într-o oră"
+            }
+          ],
+          "carduri": [
+            {
+              "f": "Cum se calculează puterea electrică a unui consumator?",
+              "v": "Ca produs între tensiunea la capete și intensitatea curentului."
+            },
+            {
+              "f": "De ce depinde căldura degajată prin efect Joule?",
+              "v": "De rezistență, de pătratul intensității și de timp."
+            },
+            {
+              "f": "Ce înseamnă un kilowatt-oră?",
+              "v": "Energia consumată de un aparat de o mie de wați într-o oră."
+            },
+            {
+              "f": "Unde este util și unde este periculos efectul Joule?",
+              "v": "Util la reșou și fier de călcat, periculos la cablurile subdimensionate."
+            }
+          ],
+          "test": [
+            {
+              "intrebare": "Puterea electrică a unui consumator se calculează ca:",
+              "optiuni": [
+                "produsul dintre tensiune și intensitate",
+                "raportul dintre tensiune și intensitate",
+                "produsul dintre tensiune și timp",
+                "suma tensiunii și intensității"
+              ],
+              "corect": 0,
+              "explicatie": "Se măsoară în wați."
+            },
+            {
+              "intrebare": "Un bec de 100 W care funcționează 10 ore consumă:",
+              "optiuni": [
+                "1 kWh",
+                "10 kWh",
+                "100 kWh",
+                "0,1 kWh"
+              ],
+              "corect": 0,
+              "explicatie": "100 de wați înmulțit cu 10 ore dă 1000 de wați-oră, adică 1 kilowatt-oră."
+            },
+            {
+              "intrebare": "Căldura degajată prin efect Joule este proporțională cu:",
+              "optiuni": [
+                "pătratul intensității curentului",
+                "inversul intensității",
+                "rădăcina intensității",
+                "logaritmul tensiunii"
+              ],
+              "corect": 0,
+              "explicatie": "Depinde și de rezistență, și de timp."
+            },
+            {
+              "intrebare": "Dacă tensiunea la capetele unui rezistor se dublează, puterea disipată de el:",
+              "optiuni": [
+                "se împătrește",
+                "se dublează",
+                "se înjumătățește",
+                "rămâne constantă"
+              ],
+              "corect": 0,
+              "explicatie": "Puterea este pătratul tensiunii împărțit la rezistență."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fiz10-c6",
+      "titlu": "Fenomene ondulatorii și optică",
+      "semestru": 2,
+      "lectii": [
+        {
+          "id": "fiz10-16",
+          "titlu": "Lentile subțiri și instrumente optice",
+          "rezumat": "Lentilele sunt corpuri transparente mărginite de suprafețe curbe, care schimbă direcția razelor de lumină prin refracție. Lentila convergentă adună razele paralele într-un punct numit focar, iar lentila divergentă le împrăștie ca și cum ar porni dintr-un focar virtual. Distanța de la lentilă la focar este distanța focală; inversul ei, exprimat în metri, dă convergența lentilei, măsurată în dioptrii.\nO lentilă convergentă formează, după poziția obiectului, imagini reale (răsturnate, pe un ecran) sau virtuale (drepte, mărite, ca la lupă). O lentilă divergentă dă unui obiect real întotdeauna o imagine virtuală, dreaptă și micșorată. Pe lentile se construiesc instrumentele optice: lupa este o singură lentilă convergentă, microscopul și luneta combină mai multe lentile, aparatul foto proiectează o imagine reală pe senzor, iar ochiul folosește o lentilă vie, cristalinul. Ochelarii corectează defectele: lentile divergente pentru miopie, convergente pentru hipermetropie.",
+          "ideiCheie": [
+            "Lentila convergentă adună razele într-un focar; cea divergentă le împrăștie.",
+            "Convergența lentilei este inversul distanței focale și se măsoară în dioptrii.",
+            "O lentilă convergentă dă imagini reale sau virtuale, după poziția obiectului.",
+            "Lupa, microscopul, luneta, aparatul foto și ochiul folosesc lentile."
+          ],
+          "termeni": [
+            {
+              "t": "lentilă convergentă",
+              "d": "lentilă care adună razele paralele de lumină într-un focar real"
+            },
+            {
+              "t": "convergență",
+              "d": "inversul distanței focale a unei lentile, exprimat în dioptrii"
+            }
+          ],
+          "carduri": [
+            {
+              "f": "Ce face o lentilă convergentă cu razele paralele?",
+              "v": "Le adună într-un focar."
+            },
+            {
+              "f": "În ce se măsoară convergența unei lentile?",
+              "v": "În dioptrii."
+            },
+            {
+              "f": "Ce fel de imagine dă o lentilă divergentă unui obiect real?",
+              "v": "Una virtuală, dreaptă și micșorată."
+            },
+            {
+              "f": "Cu ce fel de lentile se corectează miopia?",
+              "v": "Cu lentile divergente."
+            }
+          ],
+          "test": [
+            {
+              "intrebare": "Convergența unei lentile se măsoară în:",
+              "optiuni": [
+                "dioptrii",
+                "metri",
+                "wați",
+                "grade"
+              ],
+              "corect": 0,
+              "explicatie": "Ea este inversul distanței focale în metri."
+            },
+            {
+              "intrebare": "O lentilă convergentă cu distanța focală de 0,5 m are convergența de:",
+              "optiuni": [
+                "2 dioptrii",
+                "0,5 dioptrii",
+                "5 dioptrii",
+                "1 dioptrie"
+              ],
+              "corect": 0,
+              "explicatie": "Convergența este 1 împărțit la 0,5."
+            },
+            {
+              "intrebare": "Lupa este, în esență:",
+              "optiuni": [
+                "o lentilă convergentă",
+                "o lentilă divergentă",
+                "o oglindă plană",
+                "o prismă"
+              ],
+              "corect": 0,
+              "explicatie": "Dă o imagine virtuală, dreaptă și mărită."
+            },
+            {
+              "intrebare": "Imaginea dată de o lentilă divergentă unui obiect real este întotdeauna:",
+              "optiuni": [
+                "virtuală, dreaptă și micșorată",
+                "reală și răsturnată",
+                "reală și mărită",
+                "la infinit"
+              ],
+              "corect": 0,
+              "explicatie": "Razele par să pornească dintr-un focar virtual."
+            }
+          ]
+        },
+        {
+          "id": "fiz10-17",
+          "titlu": "Interferența, difracția și polarizarea luminii",
+          "rezumat": "Interferența, difracția și polarizarea sunt fenomene care dovedesc că lumina este o undă. Interferența apare la suprapunerea a două unde coerente: acolo unde undele se întâlnesc în fază, amplitudinile se adună și lumina se întărește (interferență constructivă); acolo unde se întâlnesc în opoziție de fază, se anulează și apare întuneric (interferență distructivă). Experimentul lui Young, cu două fante, produce pe ecran o alternanță de dungi luminoase și întunecate.\nDifracția este ocolirea de către undă a marginilor unui obstacol sau a marginilor unei fante înguste, ceea ce face ca lumina să pătrundă și în zona de umbră geometrică. Polarizarea este posibilă numai pentru undele transversale: ea selectează o singură direcție de oscilație, ceea ce dovedește că lumina este o undă transversală, spre deosebire de sunet, care fiind longitudinal nu se poate polariza. Polarizarea se folosește la ochelarii de soare polarizați și la ecranele cu cristale lichide.",
+          "ideiCheie": [
+            "Interferența, difracția și polarizarea dovedesc caracterul ondulatoriu al luminii.",
+            "La interferența constructivă undele sunt în fază și amplitudinile se adună.",
+            "Difracția este ocolirea marginilor unui obstacol sau ale unei fante de către undă.",
+            "Polarizarea e posibilă doar pentru unde transversale, deci lumina este transversală."
+          ],
+          "termeni": [
+            {
+              "t": "interferență",
+              "d": "suprapunerea a două unde coerente, cu întărire sau anulare, după fază"
+            },
+            {
+              "t": "polarizare",
+              "d": "selectarea unei singure direcții de oscilație, posibilă numai la undele transversale"
+            }
+          ],
+          "carduri": [
+            {
+              "f": "Ce dovedesc interferența și difracția luminii?",
+              "v": "Că lumina este o undă."
+            },
+            {
+              "f": "Când apare interferența constructivă?",
+              "v": "Când undele se întâlnesc în fază și amplitudinile se adună."
+            },
+            {
+              "f": "Ce este difracția?",
+              "v": "Ocolirea de către undă a marginilor unui obstacol sau ale unei fante."
+            },
+            {
+              "f": "De ce se poate polariza lumina, dar nu și sunetul?",
+              "v": "Pentru că lumina e undă transversală, iar sunetul, longitudinal."
+            }
+          ],
+          "test": [
+            {
+              "intrebare": "Interferența și difracția luminii demonstrează caracterul ei:",
+              "optiuni": [
+                "ondulatoriu",
+                "corpuscular exclusiv",
+                "pur geometric",
+                "termic"
+              ],
+              "corect": 0,
+              "explicatie": "Ele arată că lumina este o undă."
+            },
+            {
+              "intrebare": "La interferența constructivă, undele se întâlnesc:",
+              "optiuni": [
+                "în fază, iar amplitudinile se adună",
+                "în opoziție de fază, anulându-se",
+                "perpendicular",
+                "fără nicio relație de fază"
+              ],
+              "corect": 0,
+              "explicatie": "De aceea apar dungile luminoase."
+            },
+            {
+              "intrebare": "Polarizarea luminii este posibilă pentru că lumina este o undă:",
+              "optiuni": [
+                "transversală",
+                "longitudinală",
+                "staționară",
+                "sonoră"
+              ],
+              "corect": 0,
+              "explicatie": "Sunetul, fiind longitudinal, nu se poate polariza."
+            },
+            {
+              "intrebare": "Ocolirea de către lumină a marginii unui obstacol se numește:",
+              "optiuni": [
+                "difracție",
+                "reflexie",
+                "refracție",
+                "dispersie"
+              ],
+              "corect": 0,
+              "explicatie": "Datorită ei lumina pătrunde în zona de umbră geometrică."
+            }
+          ]
+        },
+        {
+          "id": "fiz10-18",
+          "titlu": "Undele electromagnetice și spectrul lor",
+          "rezumat": "Unda electromagnetică este oscilația cuplată a unui câmp electric și a unui câmp magnetic, perpendiculare între ele și pe direcția de propagare. Existența ei a fost prezisă teoretic de Maxwell și confirmată experimental de Hertz. Spre deosebire de undele mecanice, undele electromagnetice se propagă și în vid, cu viteza luminii, aproximativ 300000 de kilometri pe secundă; de aceea lumina Soarelui ajunge la noi prin spațiul cosmic vid.\nToate undele electromagnetice au aceeași natură, dar frecvențe și lungimi de undă diferite, legate prin relația dintre viteză, frecvență și lungime de undă. Ordonate după frecvența crescătoare, ele formează spectrul electromagnetic: unde radio, microunde, infraroșu, lumină vizibilă, ultraviolet, raze X și raze gamma. Lumina vizibilă ocupă o bandă îngustă, între infraroșu și ultraviolet, cu lungimi de undă de la roșu la violet. Fiecare domeniu are aplicații: undele radio în comunicații, microundele în cuptoare și radare, infraroșul în termografie, razele X în radiografii, razele gamma în tratamente medicale.",
+          "ideiCheie": [
+            "Unda electromagnetică este oscilația cuplată a câmpului electric și a celui magnetic.",
+            "Undele electromagnetice se propagă și în vid, cu viteza luminii.",
+            "Spectrul, după frecvența crescătoare: unde radio, microunde, infraroșu, vizibil, ultraviolet, raze X, raze gamma.",
+            "Lumina vizibilă este o bandă îngustă între infraroșu și ultraviolet."
+          ],
+          "termeni": [
+            {
+              "t": "undă electromagnetică",
+              "d": "oscilația cuplată a unui câmp electric și a unuia magnetic, care se propagă și în vid"
+            },
+            {
+              "t": "spectru electromagnetic",
+              "d": "ansamblul undelor electromagnetice, ordonate după frecvență sau lungime de undă"
+            }
+          ],
+          "carduri": [
+            {
+              "f": "Din ce este alcătuită o undă electromagnetică?",
+              "v": "Dintr-un câmp electric și unul magnetic care oscilează cuplat."
+            },
+            {
+              "f": "Cu ce viteză se propagă undele electromagnetice în vid?",
+              "v": "Cu viteza luminii, aproximativ 300000 de kilometri pe secundă."
+            },
+            {
+              "f": "Care este ordinea spectrului după frecvența crescătoare?",
+              "v": "Unde radio, microunde, infraroșu, vizibil, ultraviolet, raze X, raze gamma."
+            },
+            {
+              "f": "Ce loc ocupă lumina vizibilă în spectru?",
+              "v": "O bandă îngustă, între infraroșu și ultraviolet."
+            }
+          ],
+          "test": [
+            {
+              "intrebare": "Undele electromagnetice se propagă în vid cu viteza:",
+              "optiuni": [
+                "de aproximativ 300000 km/s",
+                "de aproximativ 340 m/s",
+                "infinită",
+                "care depinde de sursă"
+              ],
+              "corect": 0,
+              "explicatie": "Este viteza luminii."
+            },
+            {
+              "intrebare": "Spre deosebire de sunet, undele electromagnetice:",
+              "optiuni": [
+                "se pot propaga în vid",
+                "au nevoie de un mediu material",
+                "sunt longitudinale",
+                "nu transportă energie"
+              ],
+              "corect": 0,
+              "explicatie": "Lumina Soarelui traversează spațiul cosmic vid."
+            },
+            {
+              "intrebare": "Dintre următoarele radiații, frecvența cea mai mare o au:",
+              "optiuni": [
+                "razele gamma",
+                "undele radio",
+                "radiația infraroșie",
+                "lumina vizibilă"
+              ],
+              "corect": 0,
+              "explicatie": "În spectru, razele gamma sunt la capătul frecvențelor înalte."
+            },
+            {
+              "intrebare": "În spectrul electromagnetic, lumina vizibilă se află:",
+              "optiuni": [
+                "între infraroșu și ultraviolet",
+                "înaintea undelor radio",
+                "după razele gamma",
+                "în afara spectrului"
+              ],
+              "corect": 0,
+              "explicatie": "Ocupă o bandă îngustă de frecvențe."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "teze": [
+    {
+      "semestru": 1,
+      "test": [
+        {
+          "intrebare": "Cantitatea de căldură primită de un corp care se încălzește este:",
+          "optiuni": [
+            "produsul dintre masă, căldura specifică și variația temperaturii",
+            "produsul dintre masă și viteză",
+            "raportul dintre forță și arie",
+            "egală cu temperatura corpului"
+          ],
+          "corect": 0,
+          "explicatie": "Căldura specifică depinde de natura substanței."
+        },
+        {
+          "intrebare": "În timpul topirii unui corp cristalin, la presiune constantă, temperatura:",
+          "optiuni": [
+            "rămâne constantă",
+            "crește mereu",
+            "scade mereu",
+            "se dublează"
+          ],
+          "corect": 0,
+          "explicatie": "Căldura primită rupe legăturile dintre particule."
+        },
+        {
+          "intrebare": "Evaporarea unui lichid are loc:",
+          "optiuni": [
+            "doar la suprafață și la orice temperatură",
+            "în toată masa, la temperatura de fierbere",
+            "doar sub presiune ridicată",
+            "doar la zero absolut"
+          ],
+          "corect": 0,
+          "explicatie": "Fierberea cuprinde toată masa lichidului."
+        },
+        {
+          "intrebare": "Un motor termic primește 1000 J și cedează sursei reci 600 J. Lucrul mecanic efectuat este:",
+          "optiuni": [
+            "400 J",
+            "1600 J",
+            "600 J",
+            "1000 J"
+          ],
+          "corect": 0,
+          "explicatie": "Lucrul este diferența dintre căldura primită și cea cedată."
+        },
+        {
+          "intrebare": "Randamentul unui motor termic real este:",
+          "optiuni": [
+            "subunitar",
+            "egal cu 1",
+            "supraunitar",
+            "nul"
+          ],
+          "corect": 0,
+          "explicatie": "O parte din căldură se cedează mereu sursei reci."
+        },
+        {
+          "intrebare": "Apa are, față de majoritatea substanțelor, o căldură specifică:",
+          "optiuni": [
+            "mare, de aceea moderează clima",
+            "mică, de aceea se încălzește ușor",
+            "nulă",
+            "negativă"
+          ],
+          "corect": 0,
+          "explicatie": "Se încălzește și se răcește greu."
+        },
+        {
+          "intrebare": "Temperatura măsoară:",
+          "optiuni": [
+            "agitația termică medie a particulelor",
+            "cantitatea totală de energie",
+            "masa corpului",
+            "densitatea corpului"
+          ],
+          "corect": 0,
+          "explicatie": "O scânteie e fierbinte, dar are puțină energie."
+        },
+        {
+          "intrebare": "Transferul de căldură prin deplasarea maselor de fluid se numește:",
+          "optiuni": [
+            "convecție",
+            "conducție",
+            "radiație",
+            "dilatare"
+          ],
+          "corect": 0,
+          "explicatie": "Radiația nu are nevoie de mediu."
+        },
+        {
+          "intrebare": "Legea Boyle-Mariotte descrie transformarea:",
+          "optiuni": [
+            "izotermă",
+            "izobară",
+            "izocoră",
+            "adiabatică"
+          ],
+          "corect": 0,
+          "explicatie": "Presiunea e invers proporțională cu volumul."
+        },
+        {
+          "intrebare": "Primul principiu al termodinamicii este:",
+          "optiuni": [
+            "conservarea energiei aplicată sistemelor termice",
+            "interdicția scăderii entropiei",
+            "legea gazului ideal",
+            "legea lui Ohm"
+          ],
+          "corect": 0,
+          "explicatie": "Interzice perpetuum mobile de speța întâi."
+        },
+        {
+          "intrebare": "Entropia unui sistem izolat:",
+          "optiuni": [
+            "nu poate scădea",
+            "scade mereu",
+            "este constantă mereu",
+            "poate fi negativă"
+          ],
+          "corect": 0,
+          "explicatie": "De aici ireversibilitatea proceselor."
+        },
+        {
+          "intrebare": "Sarcinile electrice de semn opus:",
+          "optiuni": [
+            "se atrag",
+            "se resping",
+            "nu interacționează",
+            "se anulează"
+          ],
+          "corect": 0,
+          "explicatie": "Cele de același semn se resping."
+        },
+        {
+          "intrebare": "Legea lui Ohm leagă:",
+          "optiuni": [
+            "intensitatea, tensiunea și rezistența",
+            "forța, masa și accelerația",
+            "presiunea, volumul și temperatura",
+            "energia, puterea și timpul"
+          ],
+          "corect": 0,
+          "explicatie": "Intensitatea e direct proporțională cu tensiunea."
+        },
+        {
+          "intrebare": "Consumatorii casnici se leagă:",
+          "optiuni": [
+            "în paralel",
+            "în serie",
+            "mixt, obligatoriu",
+            "fără schemă fixă"
+          ],
+          "corect": 0,
+          "explicatie": "Ca fiecare să primească aceeași tensiune."
+        },
+        {
+          "intrebare": "Efectul Joule înseamnă:",
+          "optiuni": [
+            "degajarea de căldură la trecerea curentului",
+            "producerea de câmp magnetic",
+            "inducerea unei tensiuni",
+            "dispersia luminii"
+          ],
+          "corect": 0,
+          "explicatie": "E util la reșou și periculos la cabluri subțiri."
+        }
+      ]
+    },
+    {
+      "semestru": 2,
+      "test": [
+        {
+          "intrebare": "Legea lui Ohm pentru întregul circuit exprimă intensitatea ca:",
+          "optiuni": [
+            "tensiunea electromotoare împărțită la suma rezistenței exterioare și interne",
+            "produsul tensiunii cu rezistența",
+            "tensiunea împărțită doar la rezistența exterioară",
+            "suma tensiunilor"
+          ],
+          "corect": 0,
+          "explicatie": "Curentul întâmpină și rezistența internă a generatorului."
+        },
+        {
+          "intrebare": "Două rezistoare de 6 Ω fiecare, legate în paralel, dau o rezistență echivalentă de:",
+          "optiuni": [
+            "3 Ω",
+            "12 Ω",
+            "6 Ω",
+            "36 Ω"
+          ],
+          "corect": 0,
+          "explicatie": "Pentru două rezistoare egale în paralel, echivalenta e jumătate."
+        },
+        {
+          "intrebare": "Un bec de 60 W care funcționează 2 ore consumă:",
+          "optiuni": [
+            "0,12 kWh",
+            "120 kWh",
+            "1,2 kWh",
+            "30 kWh"
+          ],
+          "corect": 0,
+          "explicatie": "60 de wați înmulțit cu 2 ore dă 120 de wați-oră."
+        },
+        {
+          "intrebare": "Interferența și difracția luminii demonstrează caracterul ei:",
+          "optiuni": [
+            "ondulatoriu",
+            "corpuscular exclusiv",
+            "termic",
+            "pur geometric"
+          ],
+          "corect": 0,
+          "explicatie": "Ele arată că lumina este o undă."
+        },
+        {
+          "intrebare": "Polarizarea luminii este posibilă pentru că lumina este o undă:",
+          "optiuni": [
+            "transversală",
+            "longitudinală",
+            "sonoră",
+            "staționară"
+          ],
+          "corect": 0,
+          "explicatie": "Sunetul, fiind longitudinal, nu se poate polariza."
+        },
+        {
+          "intrebare": "Undele electromagnetice, spre deosebire de sunet:",
+          "optiuni": [
+            "se pot propaga în vid",
+            "au nevoie de un mediu material",
+            "sunt longitudinale",
+            "nu transportă energie"
+          ],
+          "corect": 0,
+          "explicatie": "Se propagă cu viteza luminii."
+        },
+        {
+          "intrebare": "Oersted a descoperit că:",
+          "optiuni": [
+            "curentul electric produce câmp magnetic",
+            "câmpul magnetic variabil produce curent",
+            "sarcinile se conservă",
+            "lumina e formată din fotoni"
+          ],
+          "corect": 0,
+          "explicatie": "Faraday a descoperit fenomenul invers."
+        },
+        {
+          "intrebare": "Legea lui Lenz precizează:",
+          "optiuni": [
+            "sensul curentului indus",
+            "mărimea rezistenței",
+            "viteza luminii",
+            "randamentul Carnot"
+          ],
+          "corect": 0,
+          "explicatie": "Curentul indus se opune cauzei care l-a produs."
+        },
+        {
+          "intrebare": "Tăind un magnet în două se obțin:",
+          "optiuni": [
+            "doi magneți, fiecare cu ambii poli",
+            "un pol nord și un pol sud separate",
+            "un magnet și o bucată nemagnetică",
+            "doi magneți fără poli"
+          ],
+          "corect": 0,
+          "explicatie": "Polii magnetici nu pot fi separați."
+        },
+        {
+          "intrebare": "Unghiul de reflexie este:",
+          "optiuni": [
+            "egal cu unghiul de incidență",
+            "dublul unghiului de incidență",
+            "jumătatea unghiului de incidență",
+            "independent de incidență"
+          ],
+          "corect": 0,
+          "explicatie": "Ambele se măsoară față de normală."
+        },
+        {
+          "intrebare": "Fibra optică folosește:",
+          "optiuni": [
+            "reflexia totală",
+            "refracția simplă",
+            "dispersia",
+            "difracția"
+          ],
+          "corect": 0,
+          "explicatie": "Lumina rămâne captivă în miez."
+        },
+        {
+          "intrebare": "Sunetul nu se propagă:",
+          "optiuni": [
+            "în vid",
+            "în aer",
+            "în apă",
+            "în metale"
+          ],
+          "corect": 0,
+          "explicatie": "Are nevoie de un mediu material."
+        },
+        {
+          "intrebare": "Frecvența unui sunet determină:",
+          "optiuni": [
+            "înălțimea lui",
+            "intensitatea lui",
+            "timbrul lui",
+            "viteza lui"
+          ],
+          "corect": 0,
+          "explicatie": "Amplitudinea determină intensitatea."
+        },
+        {
+          "intrebare": "Fotonul a fost introdus pentru a explica:",
+          "optiuni": [
+            "efectul fotoelectric",
+            "inducția electromagnetică",
+            "dilatarea termică",
+            "legea lui Ohm"
+          ],
+          "corect": 0,
+          "explicatie": "Einstein a preluat ideea cuantelor lui Planck."
+        },
+        {
+          "intrebare": "Stelele produc energie prin:",
+          "optiuni": [
+            "fuziune nucleară",
+            "fisiune nucleară",
+            "ardere chimică",
+            "efect Joule"
+          ],
+          "corect": 0,
+          "explicatie": "Nucleele ușoare se unesc, eliberând energie."
+        }
+      ]
+    }
+  ]
+}

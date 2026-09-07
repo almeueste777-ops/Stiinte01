@@ -1,0 +1,853 @@
+materie: Fizică
+clasa: a IX-a
+an: 1
+arie: Matematică și științe ale naturii
+bac: nu
+descriere: Mecanica: mișcare și repaus, principiile dinamicii, lucru mecanic și energie, echilibru și mașini simple.
+
+## 1 | fiz9-c1 | Mișcare și forțe
+### fiz9-01 | Mișcare, repaus, sisteme de referință
+Mișcarea este schimbarea poziției unui corp față de un reper, într-un interval de timp. Repausul și mișcarea sunt relative: același corp poate fi în repaus față de un sistem de referință și în mișcare față de altul — pasagerul stă pe scaun față de tren, dar se mișcă față de gară. Un sistem de referință cuprinde un corp de referință, un sistem de axe și un ceas.
+Mărimile care descriu mișcarea sunt vectorul de poziție, deplasarea (vectorul dintre poziția inițială și cea finală) și distanța parcursă (lungimea traiectoriei, o mărime scalară). Viteza medie este raportul dintre deplasare și durata mișcării, iar viteza instantanee este viteza la un moment dat. În Sistemul Internațional, lungimea se măsoară în metri, timpul în secunde, viteza în metri pe secundă. Traiectoria poate fi rectilinie sau curbilinie și depinde tot de sistemul de referință ales.
+* Mișcarea și repausul sunt relative: depind de sistemul de referință ales.
+* Deplasarea este vectorială; distanța parcursă este scalară.
+* Viteza medie este raportul dintre deplasare și timp.
+* Unitățile SI: metrul, secunda, metrul pe secundă.
+= sistem de referință :: ansamblul format dintr-un corp de referință, un sistem de axe și un ceas
+= deplasare :: vectorul care unește poziția inițială cu cea finală a unui corp
+@ De ce sunt relative mișcarea și repausul? :: Pentru că depind de sistemul de referință față de care se raportează corpul.
+@ Ce diferență e între deplasare și distanța parcursă? :: Deplasarea e vectorială și leagă capetele, distanța e lungimea traiectoriei.
+@ Care e unitatea de măsură a vitezei în SI? :: Metrul pe secundă.
+@ Din ce se compune un sistem de referință? :: Dintr-un corp de referință, un sistem de axe și un ceas.
+? Un pasager care stă pe scaunul unui tren în mers este:
++ în repaus față de tren și în mișcare față de gară
+- în repaus în orice sistem de referință
+- în mișcare în orice sistem de referință
+- fără sistem de referință
+! Este exemplul clasic al relativității mișcării.
+? Distanța parcursă este o mărime:
++ scalară
+- vectorială
+- fără unitate de măsură
+- negativă uneori
+! Deplasarea este vectorială.
+? Viteza medie se calculează ca:
++ raportul dintre deplasare și durata mișcării
+- produsul dintre deplasare și timp
+- raportul dintre timp și deplasare
+- suma vitezelor instantanee
+! Viteza instantanee e viteza la un moment dat.
+? Traiectoria unui corp depinde de:
++ sistemul de referință ales
+- masa corpului
+- temperatura mediului
+- culoarea corpului
+! De aceea aceeași mișcare poate apărea rectilinie sau curbilinie.
+
+### fiz9-02 | Mișcarea rectilinie uniformă și variată
+Mișcarea rectilinie uniformă are traiectoria dreaptă și viteza constantă: corpul parcurge distanțe egale în intervale de timp egale. Legea ei de mișcare exprimă poziția ca sumă între poziția inițială și produsul dintre viteză și timp. Graficul poziției în funcție de timp este o dreaptă a cărei pantă dă viteza; graficul vitezei este o dreaptă orizontală, iar aria de sub el reprezintă distanța parcursă.
+Mișcarea rectilinie uniform variată are accelerație constantă. Accelerația este variația vitezei raportată la timp și se măsoară în metri pe secundă la pătrat. Viteza crește liniar în timp, iar poziția variază pătratic. Căderea liberă este cazul particular cu accelerația gravitațională, aproximativ 9,8 metri pe secundă la pătrat; în absența frecării cu aerul, toate corpurile cad cu aceeași accelerație, indiferent de masă — experiment confirmat pe Lună.
+* Mișcarea uniformă are viteză constantă; panta graficului poziție-timp o dă.
+* Accelerația este variația vitezei raportată la timp, măsurată în m/s².
+* În mișcarea uniform variată, viteza crește liniar și poziția, pătratic.
+* În vid, toate corpurile cad cu aceeași accelerație, indiferent de masă.
+= accelerație :: variația vitezei în unitatea de timp
+= cădere liberă :: mișcarea unui corp sub acțiunea exclusivă a greutății
+@ Ce reprezintă panta graficului poziție-timp? :: Viteza corpului.
+@ Care e unitatea accelerației în SI? :: Metrul pe secundă la pătrat.
+@ Cu ce accelerație cad corpurile la suprafața Pământului? :: Cu aproximativ 9,8 metri pe secundă la pătrat.
+@ De ce cad corpurile la fel în vid? :: Pentru că accelerația gravitațională nu depinde de masă, iar frecarea cu aerul lipsește.
+? În mișcarea rectilinie uniformă, graficul vitezei în funcție de timp este:
++ o dreaptă orizontală
+- o dreaptă înclinată
+- o parabolă
+- o hiperbolă
+! Aria de sub el dă distanța parcursă.
+? Accelerația se măsoară în:
++ metri pe secundă la pătrat
+- metri pe secundă
+- newtoni
+- jouli
+! Este o variație de viteză în timp.
+? În mișcarea uniform variată, poziția variază:
++ pătratic în timp
+- liniar în timp
+- exponențial
+- constant
+! Viteza variază liniar.
+? Un pietroi și o pană lăsate să cadă în vid ajung jos:
++ în același timp
+- pietroiul mai repede
+- pana mai repede
+- în funcție de forma lor
+! Experimentul a fost repetat pe Lună.
+
+### fiz9-03 | Principiile mecanicii
+Principiul inerției spune că un corp își păstrează starea de repaus sau de mișcare rectilinie uniformă atât timp cât asupra lui nu acționează forțe sau cât acestea se compensează. Inerția se măsoară prin masă: cu cât masa e mai mare, cu atât corpul își schimbă mai greu starea de mișcare. Sistemele în care e valabil acest principiu se numesc inerțiale.
+Principiul fundamental leagă forța rezultantă de accelerație: forța este egală cu produsul dintre masă și accelerație. Forța se măsoară în newtoni; un newton este forța care imprimă unui kilogram o accelerație de un metru pe secundă la pătrat. Principiul acțiunii și reacțiunii spune că, dacă un corp acționează asupra altuia cu o forță, al doilea acționează asupra primului cu o forță egală în modul și opusă ca sens; cele două forțe se aplică unor corpuri diferite, de aceea nu se anulează reciproc.
+* Principiul inerției: fără forțe necompensate, starea de mișcare nu se schimbă.
+* Masa măsoară inerția unui corp.
+* Principiul fundamental: forța rezultantă este masa înmulțită cu accelerația.
+* Acțiunea și reacțiunea se aplică unor corpuri diferite, deci nu se anulează.
+= inerție :: proprietatea corpurilor de a-și păstra starea de repaus sau de mișcare rectilinie uniformă
+= newton :: forța care imprimă unei mase de un kilogram accelerația de un metru pe secundă la pătrat
+@ Ce măsoară masa unui corp? :: Inerția lui, adică opoziția la schimbarea stării de mișcare.
+@ Cum se enunță principiul fundamental al mecanicii? :: Forța rezultantă este egală cu produsul dintre masă și accelerație.
+@ De ce nu se anulează acțiunea și reacțiunea? :: Pentru că se aplică unor corpuri diferite.
+@ Ce este un newton? :: Forța care imprimă unui kilogram o accelerație de un metru pe secundă la pătrat.
+? Un corp asupra căruia forțele se compensează:
++ își păstrează starea de mișcare
+- se oprește brusc
+- accelerează
+- își schimbă direcția
+! Este principiul inerției.
+? Dacă masa se dublează, la aceeași forță, accelerația:
++ se înjumătățește
+- se dublează
+- rămâne aceeași
+- devine nulă
+! Accelerația e invers proporțională cu masa.
+? Forța se măsoară în:
++ newtoni
+- jouli
+- wați
+- kilograme
+! Joulul măsoară energia.
+? Acțiunea și reacțiunea sunt forțe:
++ egale în modul și opuse ca sens, aplicate corpurilor diferite
+- egale și aplicate aceluiași corp
+- diferite ca mărime
+- care se anulează întotdeauna
+! De aceea o rachetă poate accelera.
+
+## 1 | fiz9-c2 | Lucru mecanic și energie
+### fiz9-04 | Tipuri de forțe
+Greutatea este forța cu care Pământul atrage un corp și este egală cu produsul dintre masă și accelerația gravitațională; ea se schimbă cu locul, în timp ce masa rămâne aceeași — pe Lună un corp cântărește de aproape șase ori mai puțin, dar are aceeași masă. Forța elastică apare la deformarea unui corp elastic și, conform legii lui Hooke, este proporțională cu deformarea, orientată în sens opus ei.
+Forța de frecare apare la contactul dintre suprafețe și se opune mișcării relative; ea depinde de natura suprafețelor și de forța de apăsare normală, dar nu de aria de contact. Frecarea statică e mai mare decât cea cinetică, de aceea e mai greu să pornești un obiect decât să-l ții în mișcare. Frecarea este uneori dăunătoare (uzura pieselor) și alteori indispensabilă (mersul, frânarea, prinderea obiectelor). Tensiunea din fir și forța normală completează tabloul forțelor de contact.
+* Greutatea depinde de loc; masa nu.
+* Legea lui Hooke: forța elastică e proporțională cu deformarea.
+* Frecarea depinde de natura suprafețelor și de apăsarea normală, nu de arie.
+* Frecarea statică e mai mare decât cea cinetică.
+= greutate :: forța cu care Pământul atrage un corp, egală cu masa înmulțită cu accelerația gravitațională
+= lege a lui Hooke :: relația de proporționalitate dintre forța elastică și deformare
+@ Care e diferența dintre masă și greutate? :: Masa e o măsură a inerției și nu se schimbă; greutatea e o forță și depinde de loc.
+@ De ce e mai greu să pornești un obiect decât să-l menții în mișcare? :: Pentru că frecarea statică e mai mare decât cea cinetică.
+@ De ce nu depinde frecarea de aria de contact? :: Pentru că apăsarea se distribuie proporțional pe suprafață, iar efectul total rămâne același.
+@ Ce spune legea lui Hooke? :: Forța elastică e proporțională cu deformarea și orientată în sens opus ei.
+? Greutatea unui corp pe Lună, față de Pământ:
++ este de aproape șase ori mai mică
+- este aceeași
+- este de șase ori mai mare
+- este nulă
+! Masa rămâne neschimbată.
+? Forța de frecare depinde de:
++ natura suprafețelor și apăsarea normală
+- aria de contact
+- volumul corpului
+- temperatura aerului
+! Aria nu intervine în modelul uzual.
+? Forța elastică este orientată:
++ în sens opus deformării
+- în sensul deformării
+- perpendicular pe deformare
+- aleatoriu
+! Tinde să readucă corpul la forma inițială.
+? Frecarea este indispensabilă pentru:
++ mers și frânare
+- căderea liberă
+- mișcarea planetelor
+- propagarea luminii
+! Fără ea nu am putea nici să pornim, nici să oprim.
+
+### fiz9-05 | Lucru mecanic, putere, randament
+Lucrul mecanic se efectuează când o forță deplasează punctul ei de aplicație; el este produsul dintre forță, deplasare și cosinusul unghiului dintre ele. Dacă forța e perpendiculară pe deplasare, lucrul mecanic este nul — de aceea forța centripetă nu efectuează lucru mecanic. Unitatea de măsură este joulul: un joule este lucrul efectuat de o forță de un newton pe o deplasare de un metru în direcția forței.
+Puterea este lucrul mecanic efectuat în unitatea de timp și se măsoară în wați; un cal-putere este aproximativ 736 de wați. Randamentul unei mașini este raportul dintre lucrul mecanic util și lucrul mecanic consumat, exprimat procentual; el este întotdeauna subunitar, pentru că o parte din energie se pierde prin frecare și încălzire. Nicio mașină reală nu are randament 100%, iar perpetuum mobile este imposibil.
+* Lucrul mecanic este produsul dintre forță, deplasare și cosinusul unghiului dintre ele.
+* O forță perpendiculară pe deplasare nu efectuează lucru mecanic.
+* Puterea este lucrul mecanic în unitatea de timp, măsurată în wați.
+* Randamentul e mereu subunitar: o parte din energie se pierde prin frecare.
+= joule :: unitatea de măsură a lucrului mecanic și a energiei
+= randament :: raportul dintre lucrul mecanic util și cel consumat
+@ Când este nul lucrul mecanic al unei forțe? :: Când forța e perpendiculară pe deplasare sau când nu există deplasare.
+@ Care e unitatea de măsură a puterii? :: Wattul.
+@ De ce nu poate exista un perpetuum mobile? :: Pentru că o parte din energie se pierde inevitabil prin frecare și încălzire.
+@ Cât înseamnă un cal-putere? :: Aproximativ 736 de wați.
+? Un hamal care ține o greutate nemișcată efectuează:
++ lucru mecanic nul
+- lucru mecanic pozitiv
+- lucru mecanic negativ
+- putere infinită
+! Fără deplasare nu există lucru mecanic.
+? Puterea se măsoară în:
++ wați
+- jouli
+- newtoni
+- pascali
+! Joulul măsoară lucrul mecanic.
+? Randamentul unei mașini reale este:
++ întotdeauna sub 100%
+- exact 100%
+- peste 100% la mașinile bune
+- egal cu zero
+! Pierderile prin frecare sunt inevitabile.
+? Forța centripetă efectuează:
++ lucru mecanic nul
+- lucru mecanic pozitiv
+- lucru mecanic negativ
+- lucru mecanic variabil
+! Este perpendiculară pe deplasare.
+
+### fiz9-06 | Energia și conservarea ei
+Energia cinetică este energia mișcării și depinde de masă și de pătratul vitezei; dublarea vitezei împătrește energia cinetică — motiv fizic pentru care distanța de frânare crește atât de rapid cu viteza. Energia potențială gravitațională depinde de masă, de accelerația gravitațională și de înălțimea față de un nivel de referință. Energia potențială elastică este înmagazinată într-un corp deformat elastic.
+Energia mecanică totală este suma energiei cinetice și a celei potențiale. În absența frecărilor, ea se conservă: la căderea unui corp, energia potențială se transformă continuu în energie cinetică, suma rămânând constantă. În prezența frecărilor, o parte se transformă în căldură, dar energia totală a sistemului se conservă tot — este legea generală a conservării energiei, unul dintre principiile fundamentale ale fizicii. Energia nu se creează și nu se distruge, ci doar se transformă dintr-o formă în alta.
+* Energia cinetică depinde de pătratul vitezei: viteză dublă înseamnă energie de patru ori mai mare.
+* Energia potențială gravitațională depinde de masă, accelerație și înălțime.
+* În absența frecărilor, energia mecanică se conservă.
+* Energia nu se creează și nu se distruge, ci se transformă.
+= energie cinetică :: energia pe care un corp o are datorită mișcării sale
+= conservare a energiei :: principiul potrivit căruia energia totală a unui sistem izolat rămâne constantă
+@ De ce crește atât de mult distanța de frânare cu viteza? :: Pentru că energia cinetică depinde de pătratul vitezei.
+@ Ce se conservă la căderea liberă fără frecare? :: Energia mecanică totală, suma dintre cinetică și potențială.
+@ Unde se duce energia pierdută prin frecare? :: Se transformă în căldură; energia totală se conservă.
+@ De ce depinde energia potențială gravitațională? :: De masă, de accelerația gravitațională și de înălțimea față de un nivel de referință.
+? Dacă viteza unui corp se dublează, energia lui cinetică:
++ se împătrește
+- se dublează
+- rămâne aceeași
+- se înjumătățește
+! Depinde de pătratul vitezei.
+? Energia mecanică se conservă:
++ în absența forțelor de frecare
+- întotdeauna, în orice condiții
+- doar în cădere liberă
+- doar la corpurile în repaus
+! Frecarea transformă o parte în căldură.
+? Legea conservării energiei spune că energia:
++ se transformă, dar nu se creează și nu se distruge
+- se consumă complet
+- crește în sistemele izolate
+- scade în sistemele izolate
+! Este un principiu fundamental al fizicii.
+? Energia potențială elastică este înmagazinată:
++ într-un corp deformat elastic
+- într-un corp aflat la înălțime
+- într-un corp în mișcare
+- într-un corp încălzit
+! Cea gravitațională ține de înălțime.
+
+## 2 | fiz9-c3 | Echilibru, presiune, aplicații
+### fiz9-07 | Echilibrul corpurilor
+Un corp este în echilibru de translație când rezultanta forțelor care acționează asupra lui este nulă și în echilibru de rotație când suma momentelor forțelor față de orice punct este nulă. Momentul unei forțe față de un punct este produsul dintre forță și brațul ei — distanța de la punct la direcția forței. Ambele condiții trebuie îndeplinite simultan pentru echilibrul complet.
+Centrul de greutate este punctul de aplicație al greutății; un corp sprijinit rămâne în echilibru dacă verticala prin centrul de greutate cade în interiorul bazei de susținere. Echilibrul poate fi stabil (corpul revine după o mică perturbare), instabil (se îndepărtează) sau indiferent (rămâne în noua poziție). Stabilitatea crește cu baza largă și centrul de greutate coborât — de aceea vehiculele de curse sunt joase și late.
+* Echilibrul cere rezultanta forțelor nulă și suma momentelor nulă.
+* Momentul unei forțe este produsul dintre forță și brațul ei.
+* Un corp stă în echilibru dacă verticala prin centrul de greutate cade în baza de susținere.
+* Stabilitatea crește cu baza largă și centrul de greutate coborât.
+= moment al forței :: produsul dintre forță și distanța de la punctul de rotație la direcția ei
+= centru de greutate :: punctul în care se consideră aplicată greutatea întregului corp
+@ Care sunt cele două condiții de echilibru? :: Rezultanta forțelor nulă și suma momentelor nulă.
+@ Ce este brațul unei forțe? :: Distanța de la punctul de rotație la direcția forței.
+@ Când este stabil echilibrul unui corp? :: Când corpul revine în poziția inițială după o mică perturbare.
+@ De ce sunt mașinile de curse joase și late? :: Pentru că baza largă și centrul de greutate coborât cresc stabilitatea.
+? Momentul unei forțe se calculează ca:
++ produsul dintre forță și braț
+- raportul dintre forță și braț
+- suma forței și brațului
+- produsul dintre forță și masă
+! Brațul e distanța perpendiculară la direcția forței.
+? Un corp cade dacă verticala prin centrul de greutate:
++ iese din baza de susținere
+- trece prin centrul bazei
+- rămâne în interiorul bazei
+- este perpendiculară pe sol
+! Este criteriul de stabilitate a echilibrului.
+? Echilibrul indiferent înseamnă că, după o mică perturbare, corpul:
++ rămâne în noua poziție
+- revine în poziția inițială
+- se îndepărtează accelerat
+- se răstoarnă
+! Bila pe o suprafață orizontală e exemplul clasic.
+? Pentru echilibrul complet trebuie îndeplinite:
++ ambele condiții, de translație și de rotație
+- doar condiția de translație
+- doar condiția de rotație
+- niciuna, dacă corpul e în repaus
+! Altfel corpul se rotește chiar dacă nu se translatează.
+
+### fiz9-08 | Mașini simple
+Mașinile simple nu creează energie: ele schimbă doar direcția sau mărimea forței, păstrând (idealizat) lucrul mecanic. Pârghia se sprijină pe un punct de sprijin și respectă condiția de echilibru: produsul dintre forța activă și brațul ei este egal cu produsul dintre forța rezistentă și brațul ei. Pârghiile sunt de trei feluri, după poziția relativă a punctului de sprijin, a forței active și a celei rezistente.
+Scripetele fix schimbă doar direcția forței; scripetele mobil înjumătățește forța necesară, dublând drumul parcurs. Planul înclinat reduce forța necesară ridicării, cu prețul unei distanțe mai mari — șuruburile și rampele sunt aplicații ale lui. Regula de aur a mecanicii sintetizează totul: ce câștigi în forță pierzi în deplasare. Corpul uman folosește pârghii peste tot: antebrațul, mușchiul și articulația cotului formează o pârghie de gradul al treilea, care câștigă în viteză, nu în forță.
+* Mașinile simple schimbă forța sau direcția, nu creează energie.
+* Pârghia este în echilibru când momentele celor două forțe sunt egale.
+* Scripetele fix schimbă direcția; cel mobil înjumătățește forța.
+* Regula de aur: ce câștigi în forță pierzi în deplasare.
+= pârghie :: bară rigidă care se poate roti în jurul unui punct de sprijin
+= regulă de aur a mecanicii :: principiul potrivit căruia câștigul în forță se plătește prin pierdere în deplasare
+@ Ce face scripetele fix? :: Schimbă doar direcția forței, nu și mărimea ei.
+@ Cum se enunță regula de aur a mecanicii? :: Ce câștigi în forță pierzi în deplasare.
+@ Ce tip de pârghie este antebrațul? :: O pârghie de gradul al treilea, care câștigă în viteză, nu în forță.
+@ Ce câștigă planul înclinat? :: Reduce forța necesară ridicării, mărind distanța parcursă.
+? Scripetele mobil:
++ înjumătățește forța necesară, dublând drumul
+- dublează forța necesară
+- schimbă doar direcția forței
+- crește energia disponibilă
+! Lucrul mecanic rămâne același.
+? O pârghie este în echilibru când:
++ momentele celor două forțe sunt egale
+- forțele sunt egale
+- brațele sunt egale
+- punctul de sprijin e la mijloc
+! Momentul e forța înmulțită cu brațul.
+? Planul înclinat reduce forța necesară:
++ mărind distanța parcursă
+- creând energie suplimentară
+- eliminând frecarea
+- reducând greutatea corpului
+! Este regula de aur în acțiune.
+? Mașinile simple:
++ nu creează energie
+- creează energie
+- pot avea randament peste 100%
+- elimină frecarea
+! Ele redistribuie doar forța și deplasarea.
+
+### fiz9-09 | Presiunea în solide, lichide și gaze
+Presiunea este raportul dintre forța apăsătoare și aria pe care se exercită, măsurată în pascali. De aceea un cuțit ascuțit taie mai ușor: aceeași forță pe o arie mult mai mică dă o presiune mult mai mare. Invers, schiurile și șenilele distribuie greutatea pe o suprafață mare, reducând presiunea și împiedicând scufundarea.
+În lichide, presiunea hidrostatică crește cu adâncimea și depinde de densitatea lichidului, nu de forma vasului. Principiul lui Pascal spune că presiunea aplicată unui lichid închis se transmite integral în toate direcțiile — baza preselor și frânelor hidraulice. Legea lui Arhimede afirmă că un corp scufundat este împins de jos în sus cu o forță egală cu greutatea lichidului dezlocuit; de aici plutirea, submarinele și baloanele. Presiunea atmosferică, măsurată prima dată de Torricelli, scade cu altitudinea.
+* Presiunea este forța raportată la arie și se măsoară în pascali.
+* Presiunea hidrostatică crește cu adâncimea, indiferent de forma vasului.
+* Principiul lui Pascal stă la baza preselor și frânelor hidraulice.
+* Legea lui Arhimede explică plutirea corpurilor.
+= presiune :: raportul dintre forța apăsătoare și aria suprafeței pe care se exercită
+= forță arhimedică :: forța de jos în sus care acționează asupra unui corp scufundat, egală cu greutatea lichidului dezlocuit
+@ De ce taie mai bine un cuțit ascuțit? :: Pentru că aceeași forță pe o arie mai mică dă o presiune mult mai mare.
+@ De ce nu depinde presiunea hidrostatică de forma vasului? :: Pentru că depinde doar de adâncime și de densitatea lichidului.
+@ Ce spune principiul lui Pascal? :: Presiunea aplicată unui lichid închis se transmite integral în toate direcțiile.
+@ Cine a măsurat prima dată presiunea atmosferică? :: Torricelli, cu coloana de mercur.
+? Presiunea se măsoară în:
++ pascali
+- newtoni
+- jouli
+- wați
+! Un pascal e un newton pe metru pătrat.
+? Forța arhimedică este egală cu:
++ greutatea lichidului dezlocuit
+- greutatea corpului
+- presiunea la fundul vasului
+- volumul corpului
+! De aici condiția de plutire.
+? Presiunea atmosferică, odată cu altitudinea:
++ scade
+- crește
+- rămâne constantă
+- devine nulă imediat
+! Coloana de aer de deasupra e mai scurtă.
+? Frânele hidraulice se bazează pe:
++ principiul lui Pascal
+- legea lui Arhimede
+- legea lui Hooke
+- principiul inerției
+! Presiunea se transmite integral prin lichid.
+
+## 1 | fiz9-c4 | Cinematica vectorială și mișcarea circulară
+### fiz9-10 | Vectori: reprezentare, adunare, descompunere
+Mărimile fizice sunt scalare, descrise complet printr-un număr și o unitate (masa, timpul, temperatura, energia), sau vectoriale, care au în plus direcție și sens (deplasarea, viteza, accelerația, forța). Un vector se reprezintă printr-un segment orientat — o săgeată — a cărei lungime dă modulul, a cărei dreaptă-suport dă direcția și al cărei vârf dă sensul.
+Doi vectori se adună după regula triunghiului (se așază al doilea cu originea în vârful primului, iar suma unește originea primului cu vârful celui de-al doilea) sau după regula paralelogramului. Înmulțirea unui vector cu un scalar îi schimbă modulul, iar dacă scalarul este negativ, îi schimbă și sensul. Într-un reper cartezian, un vector se descrie prin componentele sale pe cele două axe, iar modulul se află cu teorema lui Pitagora, ca rădăcina sumei pătratelor componentelor.
+Descompunerea este operația inversă compunerii: un vector se înlocuiește prin componente pe direcții alese convenabil. Este esențială în dinamică: pe un plan înclinat, greutatea se descompune într-o componentă paralelă cu planul, egală cu produsul dintre greutate și sinusul unghiului, care trage corpul la vale, și o componentă perpendiculară, egală cu produsul dintre greutate și cosinusul unghiului, care apasă pe plan.
+* Mărimile vectoriale au modul, direcție și sens; cele scalare, doar valoare numerică.
+* Vectorii se adună după regula triunghiului sau a paralelogramului.
+* Modulul unui vector se calculează din componente, cu teorema lui Pitagora.
+* Pe planul înclinat, greutatea se descompune în componentă paralelă și componentă normală.
+= vector :: mărime fizică ce are modul, direcție și sens, reprezentată printr-un segment orientat
+= descompunere a unui vector :: înlocuirea unui vector prin componente pe direcții date
+@ Ce deosebește o mărime vectorială de una scalară? :: Mărimea vectorială are direcție și sens, pe lângă valoare.
+@ Cum se adună doi vectori? :: După regula triunghiului sau a paralelogramului.
+@ Cum se calculează modulul unui vector din componente? :: Ca rădăcina sumei pătratelor componentelor.
+@ În ce se descompune greutatea pe un plan înclinat? :: Într-o componentă paralelă cu planul și una perpendiculară pe el.
+? Un vector este complet determinat de:
++ modul, direcție și sens
+- doar modul
+- doar direcție
+- punctul de aplicație
+! Un scalar are numai valoare numerică.
+? Modulul unui vector cu componentele 3 și 4 este:
++ 5
+- 7
+- 12
+- 1
+! Rădăcina din 3² + 4² = rădăcina din 25 = 5.
+? Înmulțirea unui vector cu un scalar negativ:
++ îi schimbă sensul și îi modifică modulul
+- îi schimbă doar direcția
+- îl lasă neschimbat
+- îl transformă în scalar
+! Direcția (dreapta-suport) rămâne aceeași.
+? Pe un plan înclinat de unghi α, componenta greutății paralelă cu planul este:
++ G·sin α
+- G·cos α
+- G·tg α
+- G
+! Componenta perpendiculară pe plan este G·cos α.
+
+### fiz9-11 | Mișcarea circulară uniformă
+Un corp are mișcare circulară uniformă dacă parcurge un cerc cu viteză de modul constant. Deși valoarea vitezei nu se schimbă, vectorul viteză își schimbă neîncetat direcția (rămâne mereu tangent la cerc), iar o schimbare a vectorului viteză înseamnă accelerație. Această accelerație, numită centripetă, este orientată în permanență spre centrul cercului.
+Mișcarea se descrie prin perioadă — durata unei rotații complete — și prin frecvență — numărul de rotații în unitatea de timp; ele sunt inverse una alteia, iar frecvența se măsoară în hertzi. Viteza unghiulară arată cât de repede se rotește raza și este egală cu 2π împărțit la perioadă. Viteza liniară (tangențială) este produsul dintre viteza unghiulară și rază.
+Accelerația centripetă este egală cu pătratul vitezei împărțit la rază. Ea nu apare din senin: este produsă de o forță rezultantă îndreptată spre centru, forța centripetă, egală cu produsul dintre masă și accelerația centripetă. În funcție de situație, rolul de forță centripetă îl joacă tensiunea dintr-un fir, frecarea dintre roți și șosea la un viraj sau atracția gravitațională pentru un satelit.
+* În mișcarea circulară uniformă, modulul vitezei e constant, dar direcția ei se schimbă.
+* Accelerația centripetă este orientată mereu spre centrul cercului.
+* Perioada și frecvența sunt mărimi inverse: frecvența este 1 împărțit la perioadă.
+* Forța centripetă este produsul dintre masă și accelerația centripetă.
+= accelerație centripetă :: accelerația orientată spre centrul cercului, egală cu pătratul vitezei împărțit la rază
+= perioadă :: durata unei rotații complete în mișcarea circulară
+@ De ce există accelerație deși viteza are modul constant? :: Pentru că vectorul viteză își schimbă direcția.
+@ Încotro este orientată accelerația centripetă? :: Spre centrul cercului.
+@ Ce legătură există între perioadă și frecvență? :: Sunt inverse: frecvența este 1 supra perioadă.
+@ Ce forță ține un satelit pe orbită circulară? :: Atracția gravitațională, care joacă rol de forță centripetă.
+? Frecvența unei mișcări circulare este legată de perioadă prin relația:
++ frecvența este 1 împărțit la perioadă
+- frecvența este egală cu perioada
+- frecvența este dublul perioadei
+- frecvența este pătratul perioadei
+! Frecvența se măsoară în hertzi.
+? Accelerația centripetă este orientată:
++ spre centrul cercului
+- tangent la cerc, în sensul mișcării
+- spre exteriorul cercului
+- în sensul vitezei
+! De aceea se numește „centripetă", adică „spre centru".
+? Un corp se rotește uniform cu perioada de 2 secunde. Frecvența lui este:
++ 0,5 Hz
+- 2 Hz
+- 1 Hz
+- 4 Hz
+! Frecvența este 1 supra 2 = 0,5 rotații pe secundă.
+? La un automobil care intră într-un viraj pe drum orizontal, rolul de forță centripetă îl joacă:
++ frecarea dintre roți și șosea
+- greutatea automobilului
+- forța de tracțiune a motorului
+- rezistența aerului
+! Fără frecare suficientă, mașina ar aluneca în afara virajului.
+
+### fiz9-12 | Compunerea mișcărilor. Aruncarea corpurilor
+Principiul independenței mișcărilor, formulat de Galilei, spune că mișcările unui corp pe direcții perpendiculare se desfășoară independent una de cealaltă. Datorită lui, o mișcare complicată se poate studia descompunând-o în mișcări simple pe orizontală și pe verticală, exact cum un vector se descompune în componente.
+La aruncarea pe orizontală, corpul are simultan o mișcare uniformă pe orizontală, cu viteza inițială, și o cădere liberă pe verticală, sub acțiunea greutății; compunerea lor dă o traiectorie parabolică. O consecință surprinzătoare: un corp aruncat orizontal și unul lăsat să cadă din același punct, în același moment, ating solul în același timp, fiindcă mișcarea lor pe verticală este identică și independentă de cea orizontală.
+La aruncarea pe verticală în sus, corpul urcă încetinit, deoarece greutatea i se opune; în punctul cel mai înalt viteza se anulează pentru o clipă, apoi corpul cade liber. Înălțimea maximă atinsă crește cu pătratul vitezei inițiale. Compunerea vitezelor apare și în viața de zi cu zi: viteza unei bărci față de mal este suma vectorială dintre viteza ei față de apă și viteza curentului.
+* Principiul independenței mișcărilor: mișcările pe direcții perpendiculare sunt independente.
+* Aruncat orizontal, un corp descrie o parabolă.
+* Un corp aruncat orizontal și unul lăsat liber din același loc ating solul simultan.
+* La aruncarea pe verticală în sus, în punctul cel mai înalt viteza este nulă.
+= principiul independenței mișcărilor :: mișcările unui corp pe direcții perpendiculare se desfășoară independent
+= traiectorie parabolică :: traiectoria în formă de parabolă a unui corp aruncat oblic sau orizontal
+@ Cine a formulat principiul independenței mișcărilor? :: Galilei.
+@ Ce traiectorie are un corp aruncat orizontal? :: O parabolă.
+@ Care este viteza unui corp în punctul cel mai înalt al aruncării verticale? :: Zero.
+@ Cum se compun viteza bărcii și cea a curentului? :: Vectorial, prin regula paralelogramului.
+? Traiectoria unui corp aruncat orizontal, neglijând frecarea cu aerul, este:
++ o parabolă
+- o dreaptă verticală
+- un cerc
+- o dreaptă orizontală
+! Ea rezultă din compunerea mișcării uniforme cu căderea liberă.
+? La aruncarea pe verticală în sus, în punctul cel mai înalt, viteza corpului este:
++ nulă
+- maximă
+- egală cu cea inițială
+- egală cu accelerația gravitațională
+! Imediat după aceea, corpul începe să cadă.
+? Un corp aruncat orizontal și unul lăsat să cadă din același punct, în același moment, ating solul:
++ în același timp
+- cel aruncat orizontal, mai târziu
+- cel lăsat liber, mai târziu
+- în funcție de viteza orizontală
+! Mișcarea pe verticală este identică și independentă de cea orizontală.
+? Principiul independenței mișcărilor afirmă că mișcările pe direcții perpendiculare:
++ se desfășoară independent una de cealaltă
+- se influențează reciproc
+- se anulează
+- au aceeași viteză
+! De aceea o mișcare compusă se descompune în mișcări simple.
+
+## 2 | fiz9-c5 | Gravitația și impulsul mecanic
+### fiz9-13 | Legea atracției universale
+Newton a înțeles că forța care face mărul să cadă și forța care ține Luna pe orbită sunt de aceeași natură: orice două corpuri din Univers se atrag. Legea atracției universale spune că forța de atracție dintre două corpuri este direct proporțională cu produsul maselor lor și invers proporțională cu pătratul distanței dintre centrele lor. Constanta de proporționalitate se numește constanta atracției universale și are o valoare foarte mică, de aceea atracția devine importantă doar la mase mari, cum sunt cele astronomice.
+Fiindcă forța scade cu pătratul distanței, dublarea distanței o face de patru ori mai mică, iar triplarea ei, de nouă ori mai mică. Greutatea unui corp este chiar forța cu care Pământul îl atrage; de aceea accelerația gravitațională la suprafața unei planete depinde de masa și de raza planetei, fiind mai mică pe Lună decât pe Pământ.
+Legea explică mișcarea planetelor în jurul Soarelui, a sateliților în jurul planetelor, mareele produse de Lună și de Soare, precum și traiectoriile cometelor. Pentru un satelit pe orbită circulară, atracția gravitațională joacă rolul de forță centripetă, ceea ce leagă viteza lui de raza orbitei; pe acest principiu se calculează orbitele sateliților artificiali.
+* Orice două corpuri se atrag cu o forță de atracție universală.
+* Forța este direct proporțională cu produsul maselor.
+* Forța este invers proporțională cu pătratul distanței dintre corpuri.
+* Greutatea este cazul particular al atracției dintre un corp și planetă.
+= lege a atracției universale :: forța de atracție dintre două corpuri, proporțională cu produsul maselor și invers cu pătratul distanței
+= constanta atracției universale :: constanta foarte mică din legea atracției universale, aceeași pentru orice corpuri
+@ Cine a formulat legea atracției universale? :: Newton.
+@ Cum depinde forța gravitațională de distanță? :: Scade cu pătratul distanței.
+@ Ce este, de fapt, greutatea unui corp? :: Forța cu care planeta îl atrage.
+@ Ce rol are atracția gravitațională pentru un satelit? :: Rolul de forță centripetă care îl ține pe orbită.
+? Forța de atracție gravitațională dintre două corpuri este invers proporțională cu:
++ pătratul distanței dintre ele
+- distanța dintre ele
+- suma maselor
+- produsul maselor
+! Este însă direct proporțională cu produsul maselor.
+? Dacă distanța dintre două corpuri se dublează, forța gravitațională dintre ele devine:
++ de patru ori mai mică
+- de două ori mai mică
+- de două ori mai mare
+- neschimbată
+! Pătratul lui 2 este 4, iar forța scade cu pătratul distanței.
+? Legea atracției universale a fost formulată de:
++ Newton
+- Galilei
+- Kepler
+- Coulomb
+! Ea a unificat căderea corpurilor cu mișcarea aștrilor.
+? Greutatea unui corp reprezintă, în esență:
++ forța de atracție gravitațională exercitată de planetă asupra lui
+- o forță de frecare
+- o forță elastică
+- forța centripetă a rotației proprii a corpului
+! De aceea greutatea aceluiași corp diferă de la o planetă la alta.
+
+### fiz9-14 | Impulsul mecanic și teorema variației impulsului
+Impulsul mecanic (cantitatea de mișcare) al unui corp este produsul dintre masa lui și viteza lui. Este o mărime vectorială, orientată la fel ca viteza, și se măsoară în kilograme-metru pe secundă. Impulsul măsoară „elanul" unui corp: un camion și o bicicletă cu aceeași viteză au impulsuri foarte diferite, la fel ca două corpuri identice cu viteze diferite.
+Teorema variației impulsului leagă forța de efectul ei în timp: variația impulsului unui corp este egală cu produsul dintre forța rezultantă și durata cât acționează, mărime numită impulsul forței. Cu alte cuvinte, aceeași variație de impuls se poate obține fie cu o forță mare într-un timp scurt, fie cu o forță mică într-un timp lung.
+De aici vin numeroase aplicații de siguranță. Airbagul, centura cu prindere elastică, zona de deformare controlată a caroseriei, plasa pompierilor și genunchii îndoiți la aterizare prelungesc toate durata ciocnirii; la aceeași variație de impuls, o durată mai mare înseamnă o forță mai mică asupra corpului, deci mai puține vătămări.
+* Impulsul mecanic este produsul dintre masă și viteză și este o mărime vectorială.
+* Impulsul se măsoară în kilograme-metru pe secundă.
+* Teorema variației impulsului: variația impulsului este egală cu impulsul forței rezultante.
+* Prelungirea duratei ciocnirii reduce forța, la aceeași variație de impuls.
+= impuls mecanic :: produsul dintre masa unui corp și viteza lui, mărime vectorială
+= impuls al forței :: produsul dintre forța rezultantă și durata cât acționează
+@ Cum se calculează impulsul mecanic al unui corp? :: Ca produs între masa și viteza lui.
+@ În ce se măsoară impulsul mecanic? :: În kilograme-metru pe secundă.
+@ Ce afirmă teorema variației impulsului? :: Variația impulsului este egală cu produsul dintre forța rezultantă și durata acțiunii.
+@ Cum protejează airbagul pasagerul? :: Prelungind durata ciocnirii, ceea ce micșorează forța.
+? Impulsul mecanic al unui corp se calculează ca:
++ produsul dintre masă și viteză
+- produsul dintre masă și accelerație
+- raportul dintre forță și timp
+- produsul dintre forță și distanță
+! Este o mărime vectorială, orientată ca viteza.
+? Impulsul mecanic se măsoară în:
++ kilograme-metru pe secundă
+- newtoni
+- jouli
+- wați
+! Newtonul măsoară forța, joulul energia.
+? Teorema variației impulsului spune că variația impulsului este egală cu:
++ produsul dintre forța rezultantă și durata acțiunii ei
+- masa înmulțită cu accelerația
+- lucrul mecanic al forței
+- energia cinetică a corpului
+! Aceasta este definiția impulsului forței.
+? Airbagul reduce forța asupra pasagerului deoarece:
++ mărește durata ciocnirii, la aceeași variație de impuls
+- mărește variația impulsului
+- anulează impulsul corpului
+- crește viteza de impact
+! O durată mai mare, la același impuls, înseamnă o forță mai mică.
+
+### fiz9-15 | Legea conservării impulsului. Ciocniri
+Un sistem de corpuri este izolat mecanic dacă forțele exterioare se compensează, astfel încât asupra lui acționează doar forțe interne. Legea conservării impulsului afirmă că impulsul total al unui sistem izolat rămâne constant, oricâte interacțiuni ar avea loc între corpurile din interior. Ea este una dintre legile fundamentale ale fizicii și decurge din principiul acțiunii și reacțiunii.
+Legea explică reculul: la tragere, impulsul glonțului spre înainte este egal și de sens opus cu impulsul armei spre înapoi, astfel încât impulsul total rămâne nul. Tot ea stă la baza propulsiei rachetei, care aruncă gaze într-un sens și înaintează în sensul opus, chiar și în vidul cosmic, unde nu are de ce să se sprijine.
+Ciocnirile sunt interacțiuni de scurtă durată. La o ciocnire perfect plastică, corpurile rămân lipite după impact: impulsul se conservă, dar o parte din energia cinetică se transformă în căldură și în lucru de deformare, deci energia cinetică nu se conservă. La o ciocnire perfect elastică, un model idealizat, se conservă atât impulsul, cât și energia cinetică totală.
+* Impulsul total al unui sistem izolat se conservă.
+* Legea conservării impulsului decurge din principiul acțiunii și reacțiunii.
+* Reculul armei și propulsia rachetei se explică prin conservarea impulsului.
+* La ciocnirea plastică se conservă impulsul, dar nu energia cinetică.
+= sistem izolat :: sistem asupra căruia forțele exterioare se compensează, acționând doar forțe interne
+= ciocnire plastică :: ciocnire după care corpurile rămân împreună, cu pierdere de energie cinetică
+@ Ce se conservă într-un sistem izolat mecanic? :: Impulsul total.
+@ Cum se explică reculul unei arme? :: Prin conservarea impulsului: arma capătă un impuls egal și opus celui al glonțului.
+@ Ce se conservă la o ciocnire perfect plastică? :: Impulsul, dar nu și energia cinetică.
+@ Ce se conservă la o ciocnire perfect elastică? :: Atât impulsul, cât și energia cinetică.
+? Într-un sistem izolat mecanic se conservă:
++ impulsul total
+- viteza fiecărui corp
+- energia cinetică, în orice ciocnire
+- forța rezultantă internă
+! Este legea conservării impulsului.
+? La o ciocnire perfect plastică:
++ impulsul se conservă, iar energia cinetică nu
+- se conservă și impulsul, și energia cinetică
+- nu se conservă nici impulsul, nici energia cinetică
+- se conservă doar energia cinetică
+! O parte din energia cinetică devine căldură și deformare.
+? Reculul unei arme la tragere se explică prin:
++ conservarea impulsului
+- conservarea energiei cinetice
+- legea lui Hooke
+- creșterea masei glonțului
+! Impulsul armei este egal și opus impulsului glonțului.
+? La o ciocnire perfect elastică se conservă:
++ atât impulsul, cât și energia cinetică
+- doar impulsul
+- doar energia cinetică
+- nici impulsul, nici energia cinetică
+! Este un model idealizat, fără pierderi de energie.
+
+## 2 | fiz9-c6 | Teoreme de variație și oscilații
+### fiz9-16 | Teorema variației energiei cinetice
+Energia cinetică este energia pe care un corp o are datorită mișcării sale și este egală cu jumătate din produsul dintre masă și pătratul vitezei. Fiindcă depinde de pătratul vitezei, la viteză dublă energia cinetică devine de patru ori mai mare — motivul fizic pentru care distanța de frânare a unui vehicul crește atât de repede cu viteza.
+Teorema variației energiei cinetice leagă lucrul mecanic de mișcare: lucrul mecanic total, efectuat de forța rezultantă asupra unui corp, este egal cu variația energiei cinetice a corpului. Dacă lucrul rezultant este pozitiv, energia cinetică crește și corpul accelerează; dacă este negativ, energia cinetică scade și corpul încetinește.
+Teorema oferă o metodă comodă de calcul, care ocolește detaliile mișcării: pentru a afla cât de mult încetinește un corp, este suficient să calculăm lucrul forțelor, fără a urmări clipă de clipă accelerația. La frânare, forța de frecare efectuează un lucru negativ care consumă întreaga energie cinetică, transformând-o în căldură.
+* Energia cinetică este jumătate din produsul dintre masă și pătratul vitezei.
+* La viteză dublă, energia cinetică devine de patru ori mai mare.
+* Lucrul mecanic al forței rezultante este egal cu variația energiei cinetice.
+* Un lucru rezultant negativ micșorează energia cinetică a corpului.
+= energie cinetică :: energia unui corp datorată mișcării, egală cu jumătate din masă înmulțit cu pătratul vitezei
+= teorema variației energiei cinetice :: lucrul mecanic al forței rezultante este egal cu variația energiei cinetice
+@ De ce depinde energia cinetică de viteză? :: De pătratul vitezei: viteza dublă înseamnă energie de patru ori mai mare.
+@ Ce afirmă teorema variației energiei cinetice? :: Lucrul forței rezultante este egal cu variația energiei cinetice.
+@ Ce se întâmplă cu energia cinetică dacă lucrul rezultant e negativ? :: Scade, iar corpul încetinește.
+@ În ce se transformă energia cinetică la frânare? :: În căldură, prin lucrul negativ al frecării.
+? Energia cinetică a unui corp este egală cu:
++ jumătate din produsul dintre masă și pătratul vitezei
+- produsul dintre masă și viteză
+- produsul dintre masă, accelerația gravitațională și înălțime
+- produsul dintre masă și pătratul accelerației
+! De aceea se măsoară în jouli.
+? Teorema variației energiei cinetice afirmă că lucrul forței rezultante este egal cu:
++ variația energiei cinetice
+- variația energiei potențiale
+- impulsul forței
+- puterea dezvoltată
+! Este o teoremă de variație a mecanicii.
+? Energia cinetică a unui corp de masă 2 kg care se mișcă cu viteza de 3 m/s este:
++ 9 J
+- 6 J
+- 18 J
+- 3 J
+! Jumătate din 2 înmulțit cu 3² = 1 înmulțit cu 9 = 9 J.
+? Dacă forța rezultantă efectuează asupra unui corp un lucru mecanic negativ, energia lui cinetică:
++ scade
+- crește
+- rămâne constantă
+- se dublează
+! Variația energiei cinetice este egală cu lucrul, care este negativ.
+
+### fiz9-17 | Energia potențială și forțe conservative
+Energia potențială este energia pe care o are un corp datorită poziției sau stării sale de deformare. Energia potențială gravitațională a unui corp aflat la o înălțime față de un nivel de referință este egală cu produsul dintre masă, accelerația gravitațională și înălțime; energia potențială elastică este înmagazinată într-un corp deformat elastic, ca un resort comprimat sau întins.
+O forță se numește conservativă dacă lucrul ei mecanic nu depinde de drumul parcurs, ci numai de pozițiile inițială și finală ale corpului; greutatea și forța elastică sunt conservative. Pentru astfel de forțe se poate defini o energie potențială, iar lucrul lor este egal cu scăderea energiei potențiale. Forța de frecare, dimpotrivă, nu este conservativă: lucrul ei depinde de lungimea drumului și se transformă ireversibil în căldură.
+Energia mecanică a unui corp este suma dintre energia lui cinetică și cea potențială. Când asupra corpului acționează numai forțe conservative, energia mecanică se conservă: la căderea unui corp, energia potențială scade exact cât crește energia cinetică. Când intervin forțe neconservative, precum frecarea, o parte din energia mecanică se transformă în căldură, dar energia totală se conservă mereu.
+* Energia potențială gravitațională este produsul dintre masă, accelerația gravitațională și înălțime.
+* O forță conservativă are un lucru care nu depinde de drum, ci doar de capete.
+* Greutatea și forța elastică sunt conservative; frecarea nu este.
+* Când acționează doar forțe conservative, energia mecanică se conservă.
+= energie potențială gravitațională :: energia datorată poziției pe verticală, egală cu masa înmulțită cu accelerația gravitațională și cu înălțimea
+= forță conservativă :: forță al cărei lucru mecanic nu depinde de drum, ci doar de pozițiile inițială și finală
+@ De ce depinde energia potențială gravitațională? :: De masă, de accelerația gravitațională și de înălțime.
+@ Când este o forță conservativă? :: Când lucrul ei nu depinde de drumul parcurs.
+@ Este frecarea o forță conservativă? :: Nu; lucrul ei depinde de drum și se transformă în căldură.
+@ Când se conservă energia mecanică? :: Când asupra corpului acționează numai forțe conservative.
+? Energia potențială gravitațională a unui corp este:
++ produsul dintre masă, accelerația gravitațională și înălțime
+- jumătate din masă înmulțit cu pătratul vitezei
+- produsul dintre masă și viteză
+- produsul dintre forță și durată
+! Se măsoară față de un nivel de referință ales.
+? O forță este conservativă dacă lucrul ei mecanic:
++ nu depinde de drum, ci doar de pozițiile inițială și finală
+- depinde de lungimea drumului parcurs
+- este întotdeauna negativ
+- este întotdeauna nul
+! Greutatea și forța elastică au această proprietate.
+? Forța de frecare este:
++ neconservativă, fiindcă lucrul ei depinde de drum
+- conservativă
+- lipsită de lucru mecanic
+- mereu perpendiculară pe deplasare
+! Lucrul ei se transformă ireversibil în căldură.
+? Energia potențială gravitațională a unui corp de masă 5 kg ridicat la 2 m (accelerația gravitațională aproximativ 10 m/s²) este:
++ 100 J
+- 50 J
+- 10 J
+- 25 J
+! Produsul 5 înmulțit cu 10 înmulțit cu 2 este 100 J.
+
+### fiz9-18 | Pendulul gravitațional și conservarea energiei
+Pendulul gravitațional este un corp greu (bob) suspendat de un fir, care oscilează de o parte și de alta a poziției de echilibru sub acțiunea greutății. Este unul dintre cele mai simple sisteme care ilustrează transformarea neîncetată a energiei dintr-o formă în alta și conservarea energiei mecanice.
+La capetele oscilației, bobul se oprește pentru o clipă: viteza lui este nulă, deci energia cinetică este nulă, iar energia potențială gravitațională este maximă, fiindcă acolo bobul se află la înălțimea cea mai mare. Pe măsură ce coboară spre poziția de echilibru, energia potențială se transformă în energie cinetică; în punctul cel mai de jos viteza este maximă, energia cinetică este maximă, iar energia potențială este minimă. În absența frecărilor, suma celor două rămâne constantă, iar oscilația s-ar repeta identic la nesfârșit.
+În realitate, frecarea cu aerul disipă treptat energia mecanică, transformând-o în căldură, astfel încât amplitudinea scade și oscilațiile se sting — sunt oscilații amortizate. Galilei a descoperit o proprietate remarcabilă: pentru oscilații mici, durata unei oscilații complete depinde numai de lungimea firului și de accelerația gravitațională, nu de masa bobului și nici de amplitudine. Această proprietate, numită izocronism, stă la baza ceasurilor cu pendul.
+* Pendulul transformă neîncetat energia potențială în cinetică și invers.
+* La capete, viteza este nulă și energia potențială e maximă.
+* În punctul cel mai de jos, viteza și energia cinetică sunt maxime.
+* Perioada micilor oscilații depinde doar de lungimea firului și de accelerația gravitațională.
+= pendul gravitațional :: corp suspendat de un fir, care oscilează în jurul poziției de echilibru sub acțiunea greutății
+= izocronism :: proprietatea pendulului ca perioada micilor oscilații să nu depindă de amplitudine sau de masă
+@ Ce transformări de energie au loc într-un pendul? :: Energia potențială se transformă în cinetică și invers.
+@ Unde este maximă viteza pendulului? :: În punctul cel mai de jos, poziția de echilibru.
+@ De ce se sting în timp oscilațiile reale? :: Din cauza frecării cu aerul, care disipă energia în căldură.
+@ De ce depinde perioada micilor oscilații ale pendulului? :: Doar de lungimea firului și de accelerația gravitațională.
+? Într-un pendul ideal, în punctul cel mai de jos al traiectoriei:
++ energia cinetică este maximă, iar cea potențială minimă
+- energia cinetică este nulă
+- energia potențială este maximă
+- viteza este nulă
+! Acolo viteza bobului este cea mai mare.
+? La capetele oscilației (pozițiile extreme), viteza pendulului este:
++ nulă
+- maximă
+- constantă
+- egală cu cea din punctul de jos
+! Acolo întreaga energie mecanică este potențială.
+? Perioada micilor oscilații ale unui pendul gravitațional depinde de:
++ lungimea firului și accelerația gravitațională
+- masa bobului
+- amplitudinea oscilației
+- forma bobului
+! Este proprietatea de izocronism descoperită de Galilei.
+? Oscilațiile reale ale unui pendul se sting treptat din cauza:
++ frecării cu aerul, care disipă energia mecanică
+- creșterii masei bobului
+- conservării energiei
+- dispariției greutății
+! Energia mecanică se transformă în căldură.
+
+%% teza 1
+? Un vector este caracterizat prin:
++ modul, direcție și sens
+- doar modul
+- doar direcție
+- doar punctul de aplicație
+! Mărimile scalare au numai valoare numerică.
+? Modulul unui vector cu componentele 6 și 8 este:
++ 10
+- 14
+- 48
+- 2
+! Rădăcina din 6² + 8² = rădăcina din 100 = 10.
+? Accelerația centripetă este orientată:
++ spre centrul cercului
+- tangent la traiectorie
+- spre exteriorul cercului
+- în sensul vitezei
+! De aceea produce mișcarea pe cerc.
+? Un mobil parcurge un cerc complet în 4 secunde; frecvența mișcării este:
++ 0,25 Hz
+- 4 Hz
+- 1 Hz
+- 0,5 Hz
+! Frecvența este 1 supra 4 = 0,25 rotații pe secundă.
+? Traiectoria unui corp aruncat orizontal, neglijând frecarea, este:
++ o parabolă
+- o dreaptă
+- un cerc
+- o spirală
+! Rezultă din compunerea mișcării uniforme cu căderea liberă.
+? Un corp aruncat vertical în sus are, în punctul cel mai înalt, viteza:
++ nulă
+- maximă
+- egală cu cea inițială
+- infinită
+! Apoi corpul cade liber.
+? Mișcarea și repausul sunt:
++ relative, dependente de sistemul de referință
+- absolute
+- independente de observator
+- determinate doar de masă
+! Pasagerul din tren e exemplul clasic.
+? Deplasarea este o mărime:
++ vectorială
+- scalară
+- adimensională
+- constantă
+! Distanța parcursă e scalară.
+? Accelerația gravitațională la suprafața Pământului este aproximativ:
++ 9,8 m/s²
+- 9,8 m/s
+- 1 m/s²
+- 736 m/s²
+! Nu depinde de masa corpului care cade.
+? Principiul inerției afirmă că un corp fără forțe necompensate:
++ își păstrează starea de mișcare
+- se oprește
+- accelerează uniform
+- se rotește
+! Inerția se măsoară prin masă.
+? Forța rezultantă este egală cu:
++ masa înmulțită cu accelerația
+- masa împărțită la accelerație
+- greutatea împărțită la masă
+- lucrul mecanic pe timp
+! Este principiul fundamental al mecanicii.
+? Greutatea unui corp:
++ depinde de locul în care se află
+- este aceeași peste tot
+- se măsoară în kilograme
+- este egală cu masa
+! Masa e cea care nu se schimbă.
+? Frecarea statică, față de cea cinetică, este:
++ mai mare
+- mai mică
+- egală
+- nulă
+! De aceea pornirea cere mai multă forță.
+? Lucrul mecanic se măsoară în:
++ jouli
+- wați
+- newtoni
+- pascali
+! Wattul măsoară puterea.
+? Randamentul unei mașini reale este:
++ subunitar
+- egal cu 1
+- supraunitar
+- nedefinit
+! Frecarea produce pierderi inevitabile.
+
+%% teza 2
+? Energia cinetică depinde de:
++ pătratul vitezei
+- viteza la puterea întâi
+- inversul vitezei
+- doar de masă
+! De aceea frânarea la viteză dublă cere de patru ori mai mult spațiu.
+? În absența frecărilor, la căderea unui corp se conservă:
++ energia mecanică totală
+- doar energia cinetică
+- doar energia potențială
+- viteza
+! Potențiala se transformă în cinetică.
+? Un corp e în echilibru de rotație când:
++ suma momentelor este nulă
+- rezultanta forțelor este nulă
+- viteza e constantă
+- masa e mică
+! Ambele condiții sunt necesare pentru echilibru complet.
+? Stabilitatea unui corp crește când centrul de greutate este:
++ mai coborât
+- mai ridicat
+- în afara corpului
+- pe verticala bazei
+! Și când baza de susținere e mai largă.
+? Scripetele fix:
++ schimbă doar direcția forței
+- înjumătățește forța
+- dublează forța
+- creează energie
+! Cel mobil înjumătățește forța.
+? Regula de aur a mecanicii spune că:
++ ce câștigi în forță pierzi în deplasare
+- forța se poate multiplica fără cost
+- randamentul poate depăși 100%
+- energia se poate crea
+! Se aplică tuturor mașinilor simple.
+? Presiunea hidrostatică depinde de:
++ adâncime și densitatea lichidului
+- forma vasului
+- volumul total de lichid
+- aria bazei
+! De aceea vasele comunicante au același nivel.
+? Un corp plutește dacă forța arhimedică:
++ echilibrează greutatea lui
+- este mai mică decât greutatea
+- este nulă
+- acționează de sus în jos
+! Forța arhimedică e egală cu greutatea lichidului dezlocuit.
+? Presiunea se calculează ca:
++ forța împărțită la arie
+- forța înmulțită cu aria
+- aria împărțită la forță
+- masa împărțită la volum
+! Ultimul raport dă densitatea.

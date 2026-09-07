@@ -1,0 +1,308 @@
+{
+  "curenta": "22",
+  "actualizat": "2026-09-07",
+  "versiuni": [
+    {
+      "v": "22",
+      "nume": "Secțiune Dedicată «Despre Aplicație & Liceu» Direct la Vedere în Topbar, Acasă și Setări",
+      "data": "2026-09-07",
+      "cache": 27,
+      "schimbari": [
+        "Adăugat butonul permanent «ℹ️ Despre aplicație și liceu» în bara de sus (topbar) a fiecărui ecran, permițând accesul instantaneu la informații fără a mai naviga prin setări.",
+        "Integrat cardul interactiv proeminent «ℹ️ Despre liceu & aplicație» chiar în capul ecranului principal (Acasă), oferind elevilor dintr-o singură privire datele esențiale ale liceului și salt direct către ghid.",
+        "Creat ecranul dedicat «#/despre» (viewDespre) cu date complete de contact ale secretariatului (telefon cu apel direct, email oficial, program, portal web cu link extern și adresă fizică).",
+        "Detaliat parcursul educațional pentru Profil Real (Frecvență Redusă și Zi), cu structura examenului de Bacalaureat (probe scrise E.a, E.c, E.d și probe de competențe A, B, D).",
+        "Sintetizată arhitectura aplicației PWA: 100% offline prin Service Worker, confidențialitate totală (date locale fără conturi), Tablă Neagră explicativă de la clasa I, tastatură matematică cu ciornă și asistent vocal audio.",
+        "Adăugat banner de acces rapid la «Despre aplicație & Liceu» chiar în partea de sus a ecranului de Setări.",
+        "Actualizat Service Worker-ul la cache stiinte01-v27 și sincronizate atributele ?v=27 în index.html și sw.js."
+      ]
+    },
+    {
+      "v": "21",
+      "nume": "Audit & Super-Upgrade: Identitate Liceul Creangă, Căutare Directă Lecții, Asistent Vocal Audio (TTS), Breviar Formule & Export PDF",
+      "data": "2026-09-07",
+      "cache": 25,
+      "schimbari": [
+        "Corectat complet brandingul și metadatele aplicației în index.html și manifest.webmanifest (Liceul Tehnologic „Ion Creangă” Târgu Neamț, profil real, eliminând vechile etichete reziduale de științe sociale).",
+        "Adăugat modul de Căutare Directă a Lecțiilor în ecranul Materii: elevul poate căuta orice concept, autor sau formulă și primește instant rezultate directe către lecția căutată cu salt dintr-un singur click.",
+        "Integrat Asistentul Audio Vocal (Text-to-Speech nativ): buton «🔊 Ascultă rezumatul» la fiecare lecție și «🔊 Pronunță» la carduri (cu detectare automată a limbii: ro-RO, en-US pentru engleză, fr-FR pentru franceză).",
+        "Adăugată fila «⚡ Formule & Legi» în tastatura didactică nativă cu formule esențiale gata de inserat pentru matematică, fizică, chimie și biologie.",
+        "Extins suportul pentru Ciornă & Tastatură științifică la disciplina Biologie (pentru probleme de genetică mendeliană, arbori genealogici și ecuații biologice).",
+        "Adăugate stiluri dedicate pentru tipărire (@media print) și butonul «🖨️ PDF» pentru salvarea și printarea curată a lecțiilor și tablelor negre fără elemente de interfață.",
+        "Actualizat Service Worker-ul la cache stiinte01-v25 și sincronizate atributele ?v=25."
+      ]
+    },
+    {
+      "v": "20",
+      "nume": "Curățare Aplicație: Păstrarea Exclusivă a Materiilor Create / Restructurate pentru Profilul Real & Tehnologic",
+      "data": "2026-09-07",
+      "cache": 24,
+      "schimbari": [
+        "Curățat depozitul de conținut: eliminate complet toate cele 12 module socio-umane moștenite din vechiul șablon (Latină, Logică, Psihologie, Sociologie, Economie, Antreprenoriat, Holocaust, Comunism, Bac CDEOȘ).",
+        "Aplicația conține acum strict cele 10 materii (40 de module, 731 de lecții) create, extinse și modernizate dedicat pentru utilizator și Liceul Tehnologic Ion Creangă Târgu Neamț: Biologie, Matematică, Fizică, Chimie, Limba română, Limba engleză, Limba franceză, TIC, Istorie și Geografie.",
+        "Actualizat planul-cadru din data/curriculum.json pentru a reflecta exclusiv parcursul tehnologic / real cu cele 10 discipline de bază și pregătire completă pentru toate probele de Bacalaureat (E.a, E.b, E.c, E.d și competențe digitale D).",
+        "Reconstruit indexul central de conținut (data/continut.json) și optimizat precache-ul Service Worker la 40 de fișiere de module.",
+        "Regenerat complet Obsidian Vault-ul cu 905 notițe interconectate, 0 legături rupte și 0 note orfane.",
+        "Actualizat Service Worker-ul la cache stiinte01-v24 și sincronizate atributele ?v=24 în index.html."
+      ]
+    },
+    {
+      "v": "19",
+      "nume": "Fizică și Chimie Reconstruite (Clasele VI–XIII), 72 de Table Pas-cu-Pas Fără Etape Omise, Video YouTube și Tastatură Extinsă de Științe",
+      "data": "2026-09-07",
+      "cache": 23,
+      "schimbari": [
+        "Extinse materiile Fizică și Chimie pentru a acoperi progresiv întregul parcurs educațional de la noțiunile fundamentale de gimnaziu (clasele VI–VIII) până la nivelul complet de Bacalaureat tehnologic și real (clasele IX–XIII).",
+        "Introduse 72 de Table Negre explicative pas-cu-pas (36 la Fizică și 36 la Chimie) în data/mate-didactic.json, cu rezolvări de probleme și ecuații chimice ultra-detaliate (6–9 pași fiecare), unde nu se sare absolut peste nicio etapă (transformări detaliate de unități în SI, egalarea atomilor, izolarea necunoscutei și calcule aritmetice intermediate pas cu pas ca pentru clasa 1).",
+        "Optimizată integrarea video educațională YouTube pentru toate cele 72 de teme din Fizică și Chimie, prin căutare inteligentă dedicată ce afișează exclusiv materiale active și disponibile pe YouTube.",
+        "Extinsă tastatura nativă și ciorna din aplicație cu tabul dedicat «🧪 Fizică & Chimie», adăugând elemente chimice uzuale (H, C, O, N, Cl, Na, S), săgeți de reacție (→, ⇌, ↑, ↓), litere grecești (ρ, μ, λ, Ω) și unități de măsură din Sistemul Internațional.",
+        "Actualizat motorul tipografic formateazaMateHTML pentru redarea corectă a formulelor chimice, indicilor, săgeților și simbolurilor științifice.",
+        "Actualizat Service Worker-ul la cache stiinte01-v23 și sincronizat indexul de conținut."
+      ]
+    },
+    {
+      "v": "18",
+      "nume": "Tablă Matematică Didactică Pas-cu-Pas (Nivel Elementar Fără Pași Omiși) & Căutare Inteligentă Videoclipuri Disponibile YouTube",
+      "data": "2026-09-07",
+      "cache": 22,
+      "schimbari": [
+        "Rescrise integral rezolvările de pe tabla neagră pentru toate cele 36 de lecții de matematică (clasele a IX-a și a X-a), detaliate ca pentru clasa I, cu 6–11 pași atomici, fără nicio săritură peste calcule (regula semnelor, înmulțiri/adunări parțiale, descompuneri, simplificări de fracții și verificare).",
+        "Adăugat buton de comutare a vizualizării pe tablă: elevul poate alege între «Pas cu pas interactiv» și «Afișează toți pașii» pentru citirea dintr-o privire a întregii demonstrații.",
+        "Implementată căutarea inteligentă directă a videoclipurilor pe YouTube («🔍 Caută videoclipuri disponibile pe YouTube») pentru absolut toate lecțiile din aplicație, eliminând definitiv erorile de tip «Videoclip indisponibil» și deschizând direct rezultatele active și disponibile pe YouTube.",
+        "Reparat playerul integrat cu bară de siguranță (fallback) și linkuri de salvare directă către YouTube dacă redarea este restricționată pe dispozitivul utilizatorului.",
+        "Actualizat Service Worker-ul la cache stiinte01-v22 și actualizată documentația completă."
+      ]
+    },
+    {
+      "v": "17",
+      "nume": "Curriculum Modernizat (Psihologie, Economie, Antreprenoriat), TIC Reconstruit Complet și Video Didactic Universal YouTube cu Link Direct",
+      "data": "2026-09-07",
+      "cache": 21,
+      "schimbari": [
+        "Eliminate definitiv din aplicație disciplinele solicitate: Filosofie, Religie, Studii sociale, Matematică aplicată în științele sociale (MASS) și ȘTIAM.",
+        "Introduse și structurate complet materiile socio-umane moderne: Psihologie (clasa a X-a, 24 lecții), Economie (clasa a XI-a, 24 lecții) și Educație antreprenorială (clasa a X-a, 18 lecții și clasa a XII-a, 12 lecții).",
+        "Reconstruit integral Tehnologia informației și a comunicațiilor (TIC, clasele a IX-a – a XII-a, 64 de lecții detaliate) cu proceduri practice pentru Word, Excel, PowerPoint, Access, HTML/CSS, rețele, securitate cibernetică, Cloud, IoT, AI și rezolvări complete pentru Fișa A și Fișa B de la Bacalaureat Proba D (Competențe Digitale).",
+        "Generalizată funcționalitatea video educațională YouTube la toate materiile: player securizat fără reclame și buton direct «↗ Deschide pe YouTube», plus Tabla Pas-cu-Pas offline pentru materii tehnice.",
+        "Sincronizat și regenerat vault-ul Obsidian cu 1168 de note interconectate și zero legături rupte sau note orfane."
+      ]
+    },
+    {
+      "v": "16",
+      "nume": "Tastatură Matematică Nativă, Ciornă, Video Explicativ cu profesor și Tablă Pas-cu-Pas (Fără pași omiși)",
+      "data": "2026-09-07",
+      "cache": 20,
+      "schimbari": [
+        "Construită și integrată o tastatură matematică nativă și ciornă de calcul retractabilă direct în aplicație (accesibilă din bara de sus, din orice test, lecție sau antrenament), cu butoane dedicate pentru radicali, fracții, puteri, litere grecești, relații și mulțimi.",
+        "Implementat motor tipografic de formule matematice fără dependențe externe greoaie: fracții etajate, radicali cu bară orizontală, exponenți, indici și notații de examen randate impecabil.",
+        "Integrat sistem hibrid de video explicativ pentru fiecare temă de matematică: lecții video cu profesori renumiți de Bacalaureat (când ești conectat la internet) și player dedicat integrat în fiecare lecție.",
+        "Creată «Tabla Neagră Pas-cu-Pas» (100% disponibilă offline) pentru rezolvarea atomică a problemelor de examen, cu descompunere pe pași mici și fără nicio săritură peste calculele intermediare."
+      ]
+    },
+    {
+      "v": "15",
+      "nume": "Liceul Tehnologic „Ion Creangă” Tg. Neamț (Profil Real), emblemă nouă regală, Geografie și Istorie completate pentru Bacalaureat",
+      "data": "2026-09-07",
+      "cache": 19,
+      "schimbari": [
+        "Actualizat datele instituționale: Liceul Tehnologic «Ion Creangă» din Târgu Neamț, profil real (clasele IX–XIII), integrând pregătirea completă pentru filiera tehnologică/teoretică reală.",
+        "Creată și integrată o emblemă nouă, elegantă și modernă a liceului (blazon heraldic 3D aurit cu cartea cunoașterii, orbitele atomului pentru științe reale, condeiul lui Ion Creangă și lauri), generată în iconițele PWA (192x192, 512x512, maskable) și afișată în ecranul Acasă, Plan și Despre.",
+        "Consolidat materia de Istorie: de la zero în clasa a IX-a (cronologie, calculul secolelor, axa timpului fără anul 0, tipologia izvoarelor, critica internă/externă) până la Bacalaureat Proba E.c în clasa a XIII-a (metodologia Subiectelor I și II cu relația cauză-efect, conectori obligatorii, formularea punctului de vedere și sinteza celor 7 mari teme de eseu structurat de 400 de cuvinte).",
+        "Consolidat materia de Geografie: de la zero în clasa a IX-a (coordonate geografice, latitudinea și longitudinea, orientare pe hartă, scara hărții, calculul fusurilor orare, solstiții și echinocții) până la Bacalaureat Proba E.d în clasa a XIII-a (criterii comparative simetrice de barem pentru relief și climă, toate formulele de calcul pentru Subiectul III: densitate, spor natural absolut/relativ, bilanț migratoriu, amplitudine termică)."
+      ]
+    },
+    {
+      "v": "14",
+      "nume": "Limba modernă 2 (Franceză) — Consolidare de la zero (VI–VIII) până la Bacalaureat Proba B (IX–XIII)",
+      "data": "2026-09-07",
+      "cache": 18,
+      "schimbari": [
+        "Adăugat fundamentul complet pentru începători în clasa a IX-a (alfabet, cele 5 diacritice, regula consoanelor mute CaReFuL, grupurile fonetice fixe ou/au/eau/ai/oi/ch/gn, vocalele nazale și mecanismul liaison-ului).",
+        "Conjugarea completă și exercițiile pentru verbele neregulate vitale: être, avoir (cu expresiile de senzații și vârstă), aller, faire, venir, prendre, pouvoir, vouloir și diferențierea auditivă ils ont vs ils sont.",
+        "Structurarea mecanicilor negației (ne... pas/plus/jamais/rien/que cu transformarea partitivelor în 'de') și a celor trei registre interogative (familiar, 'est-ce que' și inversiune formală).",
+        "Detaliat cerințele pentru examenul de Bacalaureat Proba B (competențe lingvistice): Subiectul 1 (text funcțional informal 80–100 cuvinte), Subiectul 2 (eseu argumentativ formal 160–180 cuvinte), înțelegere orală, înțelegere scrisă, proba orală și grila CEFR (A1–B2)."
+      ]
+    },
+    {
+      "v": "13",
+      "nume": "Limba modernă 1 (Engleză) — Consolidare de la zero (VI–VIII) până la Bacalaureat Proba B (IX–XIII)",
+      "data": "2026-09-07",
+      "cache": 17,
+      "schimbari": [
+        "Consolidat fundamentul limbii engleze în clasa a IX-a pentru elevii fără bază din gimnaziu (alfabet, fonetică, pronunția terminației -ed, verbul to be, to have got, Present Simple & Continuous).",
+        "Detaliat regulile esențiale de gramatică de pornire: pronume subiect vs pronume complement/obiect, adjective vs pronume posesive, pluralul regulat și neregulat, substantive numărabile vs nenumărabile și formula de aur a întrebărilor Q-A-S-V.",
+        "Structurat complet cerințele pentru examenul de Bacalaureat Proba B (evaluarea competențelor lingvistice): Subiectul 1 (text funcțional informal 80–100 cuvinte), Subiectul 2 (eseu argumentativ formal 180–200 cuvinte), descriptorii CEFR (A1–B2) și baremul de notare pe cele 4 criterii oficiale."
+      ]
+    },
+    {
+      "v": "12",
+      "nume": "Limba și literatura română — Ghid complet și actualizat pentru Bacalaureat",
+      "data": "2026-09-06",
+      "cache": 16,
+      "schimbari": [
+        "Actualizat integral modulul de Limba și literatura română (clasele IX–XIII) cu noile cerințe și tipare de la examenul de Bacalaureat.",
+        "Structurat detaliat Subiectul al II-lea pe cele 4 mari tipare recurente din sesiunile recente: perspectiva narativă, rolul didascaliilor, relația dintre ideea poetică și mijloacele artistice, modalitățile de caracterizare a personajului.",
+        "Aprofundat cerințele de la Subiectul I (Partea A — răspunsuri în enunț, sens contextual și Partea B — algoritmul riguros al textului argumentativ de minimum 150 de cuvinte cu conectori logici și exemple din text și cultură).",
+        "Clarificat lista completă a autorilor canonici pentru Subiectul al III-lea, distincțiile dintre profilul real și profilul umanist, baremul de redactare și pragurile obligatorii de cuvinte."
+      ]
+    },
+    {
+      "v": "11",
+      "nume": "Biologie pentru Bacalaureat (IX - XIII)",
+      "data": "2026-09-06",
+      "cache": 15,
+      "schimbari": [
+        "Am adăugat Biologia pentru clasele a XI-a, a XII-a și a XIII-a, acoperind integral programa pentru examenul de bacalaureat la profil real.",
+        "Lecții detaliate de anatomie și fiziologie umană (sistem nervos, analizatori, glande endocrine, digestie, circulație, respirație, excreție, reproducere).",
+        "Genetică moleculară completă (acizi nucleici, sinteza proteinelor, inginerie genetică, mutații) și ecologie generală.",
+        "Grile, carduri de memorare și modele complete de rezolvare a problemelor de genetică mendeliană și fiziologie pentru Subiectul I, II și III de Bacalaureat."
+      ]
+    },
+    {
+      "v": "10",
+      "nume": "Temă nouă „Auroră”",
+      "data": "2026-08-26",
+      "cache": 14,
+      "schimbari": [
+        "Aplicația are o înfățișare nouă, mai vie: la temă luminoasă culorile trec spre un mov delicat de iris cu accente de chihlimbar și un strop de cyan, iar la temă întunecată fundalul devine un indigo profund cu lumini de auroră.",
+        "Sticla panourilor (bara de sus, meniul de jos, mesajele) e acum mai transparentă și mai catifelată, așa că se vede mai frumos fundalul colorat prin ea.",
+        "Câteva locuri prind puțină viață: cardul „Astăzi” și „Antrenamentul de azi” au o sclipire care trece peste ele, barele de progres lucesc ușor, iar nota de la sfârșitul testului apare în degrade.",
+        "Totul rămâne la fel de lizibil ca înainte, iar dacă ai pornit „mișcare redusă”, „transparență redusă” sau „contrast ridicat” din Setări, efectele se opresc și culorile rămân clare."
+      ]
+    },
+    {
+      "v": "09",
+      "nume": "Raportează o greșeală",
+      "data": "2026-08-25",
+      "cache": 13,
+      "schimbari": [
+        "Poți raporta o greșeală direct dintr-o lecție (butonul „Raportează o greșeală”) sau de la rezultatul unui test, chiar de lângă întrebarea greșită.",
+        "Alegi ce fel de greșeală este (fapt greșit, greșeală de scriere, întrebare sau răspuns greșit, altceva) și poți adăuga un detaliu scris, dacă vrei.",
+        "Raportul se salvează pe telefonul tău, nu se trimite nicăieri automat; îl poți exporta din Setări → Datele mele și trimite celui care întreține aplicația.",
+        "În Setări vezi câte rapoarte ai, le poți exporta separat sau le poți șterge."
+      ]
+    },
+    {
+      "v": "08",
+      "nume": "Imagini explicative",
+      "data": "2026-08-25",
+      "cache": 12,
+      "schimbari": [
+        "Unele lecții au acum mici imagini explicative — cronologii (șiruri de evenimente pe ani) și scheme (căsuțe legate cu săgeți) — care ajută să înțelegi mai ușor.",
+        "Deocamdată sunt doar la Istorie, clasa a IX-a, ca să vedem cum arată; urmează să le adăugăm treptat la mai multe materii.",
+        "Imaginile sunt desenate în aplicație, așa că se văd clar pe orice ecran, se potrivesc cu tema aleasă (luminos, întunecat, contrast ridicat) și nu îngreunează descărcarea.",
+        "Nimic din lecțiile de dinainte nu s-a schimbat: imaginile doar s-au adăugat lângă text."
+      ]
+    },
+    {
+      "v": "07",
+      "nume": "Mai multe lecții la fiecare materie",
+      "data": "2026-08-24",
+      "cache": 11,
+      "schimbari": [
+        "Fiecare materie, la fiecare an, are acum mult mai multe lecții — de la 580 de lecții în total am ajuns la peste 1150. La majoritatea materiilor numărul de lecții s-a dublat.",
+        "Lecțiile noi acoperă părți din programă care lipseau: capitole noi cu rezumat, idei-cheie, termeni, carduri și grile, exact ca cele de dinainte.",
+        "Nimic din ce era înainte nu s-a pierdut sau schimbat: lecțiile vechi au rămas la fel, iar cele noi s-au adăugat lângă ele.",
+        "Fiecare lecție nouă vine cu propriile carduri de memorare și întrebări de test, iar tezele de la sfârșit de semestru au primit întrebări în plus.",
+        "Lecțiile se descarcă în continuare doar când le deschizi, ca aplicația să rămână ușoară."
+      ]
+    },
+    {
+      "v": "06",
+      "nume": "Motivație și progres",
+      "data": "2026-08-23",
+      "cache": 10,
+      "schimbari": [
+        "Ecran nou „Progresul meu”: un calendar de activitate pe ultimele săptămâni, seria ta de zile de studiu la rând, câte lecții și carduri ai făcut, stăpânirea pe fiecare materie și ce ai de reluat curând.",
+        "Realizări: douăzeci de insigne care se deblochează singure din ce faci deja — prima lecție, șapte zile la rând, nota 10, o materie citită complet și altele. Când deblochezi una, primești o mică sărbătoare.",
+        "Seria de zile numără acum orice studiu — lecție, antrenament, test sau simulare — nu doar lecțiile citite.",
+        "La prima pornire, o foaie scurtă de bun-venit te întreabă clasa și câte lecții pe zi îți propui. O poți revedea oricând din Setări.",
+        "Acasă arată acum seria ta de zile și câte insigne ai deblocat, cu scurtături către progres și realizări.",
+        "În Setări poți opri sărbătorile (confetti) dacă preferi liniște."
+      ]
+    },
+    {
+      "v": "05",
+      "nume": "Culori noi: bleumarin și nisip cald",
+      "data": "2026-08-22",
+      "cache": 9,
+      "schimbari": [
+        "Aplicația are o cromatică nouă: în modul luminos rămâne hârtia caldă de nisip și crem, cu bleumarin liniștit pe butoane, linkuri și selecții, și aur cald ca accent.",
+        "Modul întunecat a devenit un bleumarin de miezul nopții, cu scrisul de culoarea nisipului — se citește ușor și odihnește ochii seara.",
+        "S-au schimbat doar culorile: toate ecranele, butoanele, mărimile și așezarea au rămas exact la fel, ca să nu trebuiască să te obișnuiești din nou.",
+        "Culorile au fost alese să fie citețe pe orice fundal, inclusiv pe contrast ridicat."
+      ]
+    },
+    {
+      "v": "04",
+      "nume": "Antrenament și simulare de notă",
+      "data": "2026-08-22",
+      "cache": 8,
+      "schimbari": [
+        "Antrenament: o sesiune scurtă care amestecă grile, carduri, termeni, completări și explicații din mai multe lecții deodată — se învață mai bine decât o lecție pe rând.",
+        "Aplicația ține minte ce știi și îți dă fiecare lucru înapoi exact înainte să-l uiți; ce greșești revine mai des.",
+        "Înainte de fiecare răspuns te întreabă cât de sigur ești, iar la final îți arată de câte ori ai zis „sigur” și ai greșit.",
+        "Tipuri noi de exercițiu: scrii termenul care lipsește dintr-o definiție și explici ideea cu cuvintele tale.",
+        "Simulare de notă la fiecare materie: cinci puncte a câte 2 puncte, douăzeci de întrebări din toate capitolele. Punctajul obținut este nota.",
+        "Înainte de simulare îți spui singur ce notă crezi că iei, iar la final vezi cât de aproape ai fost.",
+        "După simulare vezi punctajul pe fiecare dintre cele cinci puncte și toate greșelile, cu explicații.",
+        "Ecranul Acasă și fiecare materie arată cât ai stăpânit și câte elemente ai de repetat azi."
+      ]
+    },
+    {
+      "v": "03",
+      "nume": "Temă, setări, conținut complet",
+      "data": "2026-08-22",
+      "cache": 7,
+      "schimbari": [
+        "Modul luminos și modul întunecat se aleg din Setări, nu mai depind doar de telefon.",
+        "Ecran nou de Setări: temă, contrast, transparență, mișcare, densitate, literă, mărimea textului.",
+        "Setări de studiu: clasa implicită, amestecarea întrebărilor și a opțiunilor, explicații, cronometru, numărul de întrebări.",
+        "Datele tale se pot salva într-un fișier și încărca înapoi; resetările sunt separate, nu totul deodată.",
+        "Tot planul-cadru are conținut: 60 de module (materie × an), 206 capitole, 580 de lecții.",
+        "2320 de carduri de memorare și 3614 întrebări — test la fiecare lecție și teză la fiecare semestru.",
+        "Navigare nouă: an → materie → capitol → lecție, cu test de lecție, de capitol, de materie și de an.",
+        "Lecțiile se descarcă doar când sunt deschise, dar rămân salvate pe dispozitiv pentru offline."
+      ]
+    },
+    {
+      "v": "02.1",
+      "nume": "Reparația cache-ului",
+      "data": "2026-08-21",
+      "cache": 4,
+      "schimbari": [
+        "Reparat cazul în care aplicația pornea nestilizată, cu fișiere vechi rămase în memoria browserului.",
+        "Versiunea nouă se aliniază singură, dar niciodată peste un test în desfășurare sau peste notițele în curs de scriere."
+      ]
+    },
+    {
+      "v": "02",
+      "nume": "Responsiv total",
+      "data": "2026-08-21",
+      "cache": 3,
+      "schimbari": [
+        "Aplicația se așază corect pe orice ecran: telefon mic, telefon în peisaj, tabletă, calculator.",
+        "Pe ecran lat, bara de jos devine o coloană de navigare la stânga, iar lecția are notițele alături de text.",
+        "Pornire instantanee: aplicația se deschide din memorie, iar versiunea nouă se descarcă în fundal."
+      ]
+    },
+    {
+      "v": "01",
+      "nume": "Sticlă caldă",
+      "data": "2026-08-21",
+      "cache": 2,
+      "schimbari": [
+        "Identitate vizuală proprie: paletă caldă, suprafețe de sticlă și relief, animații în stil iOS.",
+        "Bară de navigare flotantă, cu indicator care alunecă între taburi."
+      ]
+    },
+    {
+      "v": "00",
+      "nume": "Prima versiune",
+      "data": "2026-08-20",
+      "cache": 1,
+      "schimbari": [
+        "Lecții, carduri de memorare, teste grilă, progres salvat pe dispozitiv și funcționare offline."
+      ]
+    }
+  ]
+}

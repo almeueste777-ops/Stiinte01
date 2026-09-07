@@ -1,0 +1,889 @@
+materie: Matematică
+clasa: a X-a
+an: 2
+arie: Matematică și științe ale naturii
+bac: nu
+descriere: Funcții exponențiale și logaritmice, combinatorică și probabilități, elemente de statistică și matematici financiare.
+
+## 1 | mat10-c1 | Funcții și ecuații
+### mat10-01 | Funcția exponențială
+Funcția exponențială are forma f(x) = a la puterea x, cu baza a strict pozitivă și diferită de 1. Domeniul ei este mulțimea numerelor reale, iar imaginea, intervalul numerelor strict pozitive: valoarea nu atinge niciodată zero. Graficul trece întotdeauna prin punctul de coordonate (0, 1), pentru că orice bază la puterea zero dă 1, și are axa Ox ca asimptotă orizontală.
+Funcția este strict crescătoare dacă baza este mai mare decât 1 și strict descrescătoare dacă baza este între 0 și 1. Fiind strict monotonă, este injectivă, ceea ce permite rezolvarea ecuațiilor exponențiale prin egalarea exponenților atunci când bazele sunt egale. Creșterea exponențială depășește orice creștere polinomială și modelează fenomene reale: dobânda compusă, înmulțirea bacteriilor, dezintegrarea radioactivă (cu bază subunitară), răspândirea unei epidemii în faza inițială.
+* Baza funcției exponențiale este strict pozitivă și diferită de 1.
+* Graficul trece prin (0, 1) și are axa Ox ca asimptotă.
+* Este crescătoare pentru bază supraunitară, descrescătoare pentru bază subunitară.
+* Modelează dobânda compusă, creșterea populațiilor și dezintegrarea radioactivă.
+= funcție exponențială :: funcția în care variabila apare ca exponent al unei baze constante
+= asimptotă orizontală :: dreapta de care graficul se apropie oricât de mult, fără să o atingă
+@ Prin ce punct trece graficul oricărei funcții exponențiale? :: Prin punctul (0, 1).
+@ Când este funcția exponențială descrescătoare? :: Când baza este între 0 și 1.
+@ Ce valori ia funcția exponențială? :: Doar valori strict pozitive.
+@ De ce se pot egala exponenții la aceeași bază? :: Pentru că funcția exponențială este injectivă.
+? Imaginea funcției exponențiale este:
++ mulțimea numerelor strict pozitive
+- mulțimea numerelor reale
+- intervalul de la 0 la 1
+- mulțimea numerelor întregi
+! Nu atinge niciodată zero.
+? Funcția f(x) = 2 la puterea x este:
++ strict crescătoare
+- strict descrescătoare
+- constantă
+- periodică
+! Baza este supraunitară.
+? Axa Ox este pentru graficul exponențialei:
++ asimptotă orizontală
+- axă de simetrie
+- tangentă în origine
+- secantă
+! Graficul se apropie de ea fără să o atingă.
+? Dezintegrarea radioactivă se modelează cu o exponențială având baza:
++ subunitară
+- supraunitară
+- egală cu 1
+- negativă
+! Cantitatea scade în timp.
+
+### mat10-02 | Funcția logaritmică
+Funcția logaritmică este inversa celei exponențiale: logaritmul în baza a al lui x este exponentul la care se ridică a pentru a obține x. Domeniul ei este mulțimea numerelor strict pozitive, iar imaginea, întreaga mulțime a numerelor reale. Graficul trece prin punctul (1, 0) și are axa Oy ca asimptotă verticală; este simetricul graficului exponențialei față de prima bisectoare.
+Proprietățile logaritmilor transformă operațiile: logaritmul produsului este suma logaritmilor, al câtului este diferența, al puterii este exponentul înmulțit cu logaritmul. Formula schimbării bazei permite calculul oricărui logaritm cu ajutorul celor din baza 10 sau baza e. Logaritmii stau la baza scărilor practice care comprimă intervale enorme: scara Richter pentru cutremure, decibelul pentru intensitatea sunetului, pH-ul pentru aciditate.
+* Funcția logaritmică este inversa celei exponențiale.
+* Domeniul: numere strict pozitive; imaginea: toate numerele reale.
+* Graficul trece prin (1, 0) și are axa Oy ca asimptotă verticală.
+* Scara Richter, decibelul și pH-ul sunt scări logaritmice.
+= funcție logaritmică :: inversa funcției exponențiale, definită pentru argumente strict pozitive
+= schimbare de bază :: formula care exprimă un logaritm dintr-o bază prin logaritmi din altă bază
+@ Care este domeniul funcției logaritmice? :: Numerele strict pozitive.
+@ Prin ce punct trece graficul funcției logaritmice? :: Prin punctul (1, 0).
+@ Ce relație are graficul logaritmului cu cel al exponențialei? :: Este simetricul lui față de prima bisectoare.
+@ Ce scări practice sunt logaritmice? :: Scara Richter, decibelul, pH-ul.
+? Logaritmul în baza 10 al lui 1000 este:
++ 3
+- 10
+- 100
+- 1
+! 10 la puterea 3 este 1000.
+? Logaritmul unui produs este:
++ suma logaritmilor
+- produsul logaritmilor
+- diferența logaritmilor
+- câtul logaritmilor
+! Această proprietate a făcut posibile tabelele de logaritmi.
+? Axa Oy este pentru graficul logaritmului:
++ asimptotă verticală
+- axă de simetrie
+- tangentă
+- secantă
+! Funcția nu e definită pentru argumente nepozitive.
+? Scara Richter este logaritmică pentru că:
++ comprimă intervale foarte mari de energie
+- măsoară adâncimea cutremurului
+- se bazează pe numere întregi
+- este mai ușor de citit pe hartă
+! Fiecare grad înseamnă o creștere multiplicativă a energiei.
+
+### mat10-03 | Ecuații exponențiale și logaritmice
+Ecuația exponențială se rezolvă prin aducerea ambilor membri la aceeași bază și egalarea exponenților, prin substituție (când apar puteri ale aceleiași expresii) sau prin logaritmare. Trebuie verificată mereu condiția de existență: baza pozitivă și diferită de 1. Inecuațiile exponențiale păstrează sensul inegalității când baza e supraunitară și îl schimbă când baza e subunitară — greșeala cea mai frecventă la acest capitol.
+Ecuația logaritmică se rezolvă punând întâi condițiile de existență — toate argumentele logaritmilor strict pozitive și bazele valide — apoi folosind proprietățile pentru a reduce ecuația la egalitatea a doi logaritmi de aceeași bază sau la forma exponențială. Soluțiile obținute se verifică obligatoriu în condițiile de existență, pentru că transformările pot introduce soluții străine. Aceleași reguli de schimbare a sensului se aplică inecuațiilor logaritmice cu bază subunitară.
+* Ecuațiile exponențiale se rezolvă prin aceeași bază, substituție sau logaritmare.
+* La bază subunitară, inecuația își schimbă sensul.
+* Ecuațiile logaritmice cer condiții de existență puse înainte de rezolvare.
+* Soluțiile trebuie verificate: transformările pot introduce soluții străine.
+= condiție de existență :: restricția pe care trebuie să o îndeplinească necunoscuta pentru ca expresia să aibă sens
+= soluție străină :: valoare obținută prin calcul, dar care nu verifică ecuația inițială
+@ Cum se rezolvă o ecuație exponențială cu aceeași bază? :: Se egalează exponenții, pentru că funcția e injectivă.
+@ Ce se întâmplă cu sensul inecuației la bază subunitară? :: Se schimbă.
+@ De ce se pun condiții de existență la ecuațiile logaritmice? :: Pentru că logaritmul cere argument strict pozitiv și bază validă.
+@ De ce se verifică soluțiile? :: Pentru că transformările pot introduce soluții străine.
+? Ecuația 2 la puterea x = 8 are soluția:
++ 3
+- 4
+- 2
+- 8
+! 2 la puterea 3 este 8.
+? La rezolvarea unei inecuații cu baza 0,5, sensul inegalității:
++ se schimbă
+- rămâne același
+- devine egalitate
+- depinde de exponent
+! Funcția este descrescătoare.
+? Înainte de a rezolva o ecuație logaritmică se pun:
++ condițiile de existență
+- relațiile lui Viète
+- limitele funcției
+- derivatele
+! Argumentul trebuie să fie strict pozitiv.
+? O soluție străină este:
++ o valoare obținută prin calcul care nu verifică ecuația inițială
+- o soluție complexă
+- o soluție irațională
+- o soluție negativă
+! De aceea verificarea e obligatorie.
+
+## 1 | mat10-c2 | Combinatorică și probabilități
+### mat10-04 | Numărare: permutări, aranjamente, combinări
+Regula produsului spune că, dacă o alegere se face în m moduri și alta, independentă, în n moduri, împreună se pot face în m înmulțit cu n moduri. Permutările de n obiecte sunt toate ordonările lor, în număr de n factorial. Aranjamentele de n luate câte k sunt submulțimile ordonate de k elemente; combinările de n luate câte k sunt submulțimile neordonate.
+Deosebirea esențială este dacă ordinea contează: la aranjamente da, la combinări nu, de aceea numărul combinărilor este cel al aranjamentelor împărțit la k factorial. Combinările au proprietăți utile: simetria (combinări de n luate câte k este egal cu combinări de n luate câte n−k) și formula lui Pascal, care generează triunghiul lui Pascal. Binomul lui Newton dezvoltă puterea unei sume folosind combinările drept coeficienți.
+* Regula produsului înmulțește numărul de posibilități ale alegerilor independente.
+* Permutările de n obiecte sunt n factorial.
+* Aranjamentele țin cont de ordine, combinările nu.
+* Binomul lui Newton folosește combinările drept coeficienți.
+= permutare :: o ordonare posibilă a tuturor elementelor unei mulțimi
+= combinare :: submulțime de k elemente, luată fără a ține cont de ordine
+@ Câte permutări are o mulțime cu 5 elemente? :: 120, adică 5 factorial.
+@ Ce deosebește aranjamentele de combinări? :: La aranjamente ordinea contează, la combinări nu.
+@ Ce spune proprietatea de simetrie a combinărilor? :: Combinări de n luate câte k este egal cu combinări de n luate câte n−k.
+@ La ce servește binomul lui Newton? :: La dezvoltarea puterii unei sume, cu combinările drept coeficienți.
+? Numărul de moduri de a alege 3 elevi dintr-o clasă de 10, fără a conta ordinea, se calculează cu:
++ combinări
+- aranjamente
+- permutări
+- regula sumei
+! Ordinea alegerii nu contează.
+? 4 factorial este egal cu:
++ 24
+- 12
+- 16
+- 10
+! 4·3·2·1 dă 24 de permutări.
+? Triunghiul lui Pascal se construiește cu:
++ formula lui Pascal pentru combinări
+- regula produsului
+- binomul lui Viète
+- permutările circulare
+! Fiecare număr e suma celor două de deasupra.
+? Dacă ordinea contează, se folosesc:
++ aranjamente
+- combinări
+- submulțimi
+- partiții
+! Aranjamentele sunt submulțimi ordonate.
+
+### mat10-05 | Probabilități
+Probabilitatea unui eveniment, în cazul clasic al cazurilor egal posibile, este raportul dintre numărul cazurilor favorabile și numărul cazurilor posibile; ea este întotdeauna un număr între 0 și 1. Evenimentul sigur are probabilitatea 1, cel imposibil are probabilitatea 0. Probabilitatea evenimentului contrar este 1 minus probabilitatea evenimentului.
+Pentru reuniunea a două evenimente se folosește formula care adună probabilitățile și scade probabilitatea intersecției, ca să nu se numere de două ori. Două evenimente sunt independente dacă probabilitatea intersecției este produsul probabilităților; altfel se lucrează cu probabilitate condiționată. Interpretarea frecvențială leagă teoria de practică: repetând experimentul de multe ori, frecvența relativă a evenimentului se apropie de probabilitatea lui — legea numerelor mari. Aplicațiile merg de la asigurări și controlul calității la testele medicale și sondajele de opinie.
+* Probabilitatea clasică este raportul cazuri favorabile supra cazuri posibile.
+* Orice probabilitate este cuprinsă între 0 și 1.
+* La reuniune se scade probabilitatea intersecției.
+* Legea numerelor mari leagă frecvența observată de probabilitatea teoretică.
+= eveniment contrar :: evenimentul care se produce exact când evenimentul dat nu se produce
+= evenimente independente :: evenimente la care producerea unuia nu schimbă probabilitatea celuilalt
+@ Care e formula probabilității clasice? :: Numărul cazurilor favorabile supra numărul cazurilor posibile.
+@ Cât este probabilitatea evenimentului sigur? :: 1.
+@ Cum se calculează probabilitatea evenimentului contrar? :: 1 minus probabilitatea evenimentului.
+@ Ce spune legea numerelor mari? :: Că frecvența relativă observată se apropie de probabilitate când numărul de repetări crește.
+? Probabilitatea de a obține un număr par la aruncarea unui zar este:
++ 1/2
+- 1/3
+- 1/6
+- 2/3
+! Trei fețe favorabile din șase.
+? La reuniunea a două evenimente se scade:
++ probabilitatea intersecției
+- probabilitatea contrarului
+- produsul probabilităților
+- diferența probabilităților
+! Altfel cazurile comune s-ar număra de două ori.
+? Două evenimente sunt independente dacă:
++ probabilitatea intersecției este produsul probabilităților
+- se exclud reciproc
+- au aceeași probabilitate
+- unul îl implică pe celălalt
+! Evenimentele incompatibile nu sunt, de regulă, independente.
+? Probabilitatea unui eveniment imposibil este:
++ 0
+- 1
+- 1/2
+- nedefinită
+! Evenimentul sigur are probabilitatea 1.
+
+### mat10-06 | Elemente de statistică
+Statistica descriptivă organizează datele: populația este mulțimea studiată, eșantionul este partea observată, iar caracteristica este însușirea măsurată. Datele se prezintă prin tabele de frecvențe și grafice: diagrama cu bare pentru date calitative, histograma pentru date grupate, diagrama circulară pentru structuri, poligonul frecvențelor pentru evoluții.
+Indicatorii de tendință centrală sunt media aritmetică (sensibilă la valorile extreme), mediana (valoarea din mijloc, robustă la extreme) și modul (valoarea cea mai frecventă). Alegerea între ele contează: la venituri, media poate fi trasă în sus de câteva valori foarte mari, iar mediana descrie mai fidel situația tipică. Indicatorii de împrăștiere — amplitudinea, abaterea medie și abaterea standard — arată cât de omogene sunt datele. Un eșantion nereprezentativ invalidează orice concluzie, oricât de corect ar fi calculul.
+* Populația este mulțimea studiată; eșantionul, partea observată.
+* Media este sensibilă la valorile extreme; mediana este robustă.
+* Modul este valoarea cu frecvența cea mai mare.
+* Abaterea standard măsoară împrăștierea datelor față de medie.
+= mediană :: valoarea care împarte seria ordonată în două părți egale ca număr de termeni
+= abatere standard :: indicator al împrăștierii datelor față de medie
+@ Ce indicator e mai potrivit pentru venituri, media sau mediana? :: Mediana, pentru că nu e trasă de valorile extreme.
+@ Ce este modul unei serii statistice? :: Valoarea care apare cel mai frecvent.
+@ Ce arată abaterea standard? :: Cât de mult se împrăștie datele față de medie.
+@ Ce se întâmplă dacă eșantionul nu e reprezentativ? :: Concluziile sunt invalide, oricât de corect ar fi calculul.
+? Mediana unei serii ordonate este:
++ valoarea din mijloc
+- valoarea cea mai frecventă
+- media valorilor
+- diferența dintre extreme
+! Modul este valoarea cea mai frecventă.
+? Histograma se folosește pentru:
++ date numerice grupate pe intervale
+- date calitative
+- structuri procentuale
+- serii cronologice exclusiv
+! Diagrama circulară arată structuri.
+? Media aritmetică este:
++ sensibilă la valorile extreme
+- robustă la valorile extreme
+- egală mereu cu mediana
+- independentă de date
+! De aceea se raportează adesea și mediana.
+? Amplitudinea unei serii este:
++ diferența dintre valoarea maximă și cea minimă
+- media abaterilor
+- valoarea cea mai frecventă
+- suma frecvențelor
+! Este cel mai simplu indicator de împrăștiere.
+
+## 2 | mat10-c3 | Matematici financiare și aplicații
+### mat10-07 | Procente, dobânzi, credite
+Procentul este o fracție cu numitorul 100 și se folosește pentru comparații. Creșterea cu p procente înseamnă înmulțirea cu (1 + p/100), iar scăderea, înmulțirea cu (1 − p/100). O greșeală frecventă: o creștere de 20% urmată de o scădere de 20% nu readuce la valoarea inițială, ci la 96% din ea, pentru că procentele se aplică la baze diferite.
+Dobânda simplă se calculează mereu la suma inițială și crește aritmetic. Dobânda compusă se calculează la suma acumulată și crește geometric: suma finală este suma inițială înmulțită cu (1 + rata) la puterea numărului de perioade. La credite, dobânda anuală efectivă cuprinde și comisioanele, deci este indicatorul comparabil între oferte; rata lunară se calculează dintr-o formulă bazată pe progresii geometrice. Inflația reduce puterea de cumpărare, de aceea randamentul real este randamentul nominal minus rata inflației.
+* Creșterea cu p procente înseamnă înmulțirea cu (1 + p/100).
+* O creștere de 20% urmată de o scădere de 20% dă 96% din valoarea inițială.
+* Dobânda simplă crește aritmetic; dobânda compusă, geometric.
+* Randamentul real este randamentul nominal minus inflația.
+= dobândă compusă :: dobânda calculată la suma acumulată, incluzând dobânzile anterioare
+= dobândă anuală efectivă :: costul total al creditului, exprimat procentual, incluzând comisioanele
+@ Cu ce se înmulțește o valoare care crește cu 15%? :: Cu 1,15.
+@ De ce o creștere de 20% urmată de o scădere de 20% nu readuce la valoarea inițială? :: Pentru că procentele se aplică la baze diferite; rezultatul e 96%.
+@ Care e diferența dintre dobânda simplă și cea compusă? :: Simpla se calculează la suma inițială, compusa la suma acumulată.
+@ De ce se compară creditele după dobânda anuală efectivă? :: Pentru că include și comisioanele, nu doar dobânda nominală.
+? O sumă crescută cu 10% și apoi scăzută cu 10% ajunge la:
++ 99% din valoarea inițială
+- 100%
+- 101%
+- 90%
+! 1,1 înmulțit cu 0,9 dă 0,99.
+? Dobânda compusă corespunde unei creșteri:
++ geometrice
+- aritmetice
+- liniare
+- constante
+! Se aplică la suma acumulată.
+? Randamentul real al unei investiții se obține scăzând:
++ rata inflației
+- comisioanele bancare
+- impozitul pe profit
+- rata dobânzii nominale
+! Inflația erodează puterea de cumpărare.
+? Dobânda anuală efectivă include:
++ dobânda și comisioanele
+- doar dobânda nominală
+- doar comisioanele
+- doar taxele de stat
+! De aceea e indicatorul comparabil.
+
+### mat10-08 | Funcții și modele de creștere
+Modelarea matematică alege funcția potrivită pentru un fenomen. Creșterea liniară adaugă o cantitate constantă în fiecare perioadă și se descrie printr-o funcție de gradul I; e potrivită pentru salariul fix pe oră sau consumul constant. Creșterea exponențială înmulțește cu un factor constant și se potrivește populațiilor, dobânzii compuse și fazei inițiale a unei epidemii.
+Creșterea logistică pornește exponențial, apoi încetinește și se apropie de un plafon (capacitatea de suport); ea descrie mai bine realitatea, pentru că resursele sunt finite. Alegerea modelului se face uitându-te la date: dacă diferențele succesive sunt aproape constante, modelul e liniar; dacă rapoartele succesive sunt aproape constante, e exponențial. Extrapolarea unui model dincolo de intervalul observat este riscantă — o exponențială extrapolată prea departe dă predicții absurde.
+* Creșterea liniară adaugă o cantitate constantă; cea exponențială înmulțește cu un factor constant.
+* Creșterea logistică are un plafon: capacitatea de suport.
+* Diferențe constante indică model liniar; rapoarte constante, model exponențial.
+* Extrapolarea dincolo de datele observate este riscantă.
+= model matematic :: descrierea unui fenomen real printr-o relație matematică
+= capacitate de suport :: valoarea-plafon spre care tinde o creștere logistică
+@ Ce fel de creștere are dobânda compusă? :: Exponențială.
+@ Cum se recunoaște un model liniar din date? :: Diferențele succesive sunt aproximativ constante.
+@ Ce descrie modelul logistic? :: O creștere care pornește exponențial și se apropie apoi de un plafon.
+@ De ce e riscantă extrapolarea? :: Pentru că modelul poate fi valabil doar pe intervalul observat.
+? Dacă rapoartele succesive ale datelor sunt constante, modelul este:
++ exponențial
+- liniar
+- logistic
+- constant
+! Diferențele constante indică liniaritate.
+? Capacitatea de suport apare în modelul:
++ logistic
+- liniar
+- exponențial pur
+- logaritmic
+! Este plafonul spre care tinde creșterea.
+? Creșterea liniară se descrie printr-o funcție de:
++ gradul I
+- gradul al II-lea
+- tip exponențial
+- tip logaritmic
+! Graficul ei este o dreaptă.
+? O epidemie în faza inițială se modelează cel mai bine:
++ exponențial
+- liniar
+- logaritmic
+- constant
+! Apoi modelul devine logistic.
+
+### mat10-09 | Raționament, demonstrație, erori
+Matematica se construiește prin demonstrație. Metodele uzuale sunt: demonstrația directă, care pornește de la ipoteză și ajunge la concluzie prin implicații; demonstrația prin reducere la absurd, care presupune contrariul concluziei și obține o contradicție; și inducția matematică, folosită pentru afirmații despre toate numerele naturale, cu pasul de verificare inițial și pasul de trecere de la n la n+1.
+Un contraexemplu este suficient pentru a respinge o afirmație universală, dar niciun număr de exemple nu o demonstrează. Erorile logice frecvente în raționamentul cotidian sunt confundarea implicației cu reciproca ei, confundarea corelației cu cauzalitatea și generalizarea pripită de la un eșantion mic. Statistica prost folosită produce concluzii false chiar cu date corecte: grafice cu axa trunchiată, procente raportate la baze diferite, eșantioane autoselectate.
+* Metodele de demonstrație: directă, prin reducere la absurd, prin inducție matematică.
+* Un contraexemplu respinge o afirmație universală; exemplele nu o demonstrează.
+* Corelația nu implică automat cauzalitate.
+* Graficele cu axa trunchiată exagerează diferențele reale.
+= reducere la absurd :: metodă de demonstrație care presupune contrariul concluziei și obține o contradicție
+= inducție matematică :: metodă de demonstrație pentru afirmații despre toate numerele naturale
+@ Ce demonstrează un contraexemplu? :: Că o afirmație universală este falsă.
+@ Care sunt cei doi pași ai inducției matematice? :: Verificarea cazului inițial și trecerea de la n la n+1.
+@ De ce corelația nu implică cauzalitate? :: Pentru că legătura poate veni dintr-o cauză comună sau din întâmplare.
+@ Cum înșală un grafic cu axa trunchiată? :: Exagerează vizual diferențele mici.
+? Reducerea la absurd presupune:
++ contrariul concluziei, pentru a obține o contradicție
+- ipoteza, pentru a ajunge la concluzie
+- verificarea tuturor cazurilor
+- un contraexemplu
+! Contradicția arată că presupunerea era falsă.
+? Pentru a respinge afirmația „toate numerele prime sunt impare” e nevoie de:
++ un singur contraexemplu
+- o demonstrație prin inducție
+- verificarea tuturor primelor
+- o reducere la absurd
+! Numărul 2 este contraexemplul.
+? Inducția matematică se folosește pentru afirmații despre:
++ toate numerele naturale
+- numere reale oarecare
+- mulțimi finite exclusiv
+- funcții continue
+! Are pas de bază și pas de inducție.
+? Un eșantion autoselectat produce, de regulă:
++ concluzii distorsionate
+- concluzii mai precise
+- aceleași rezultate ca unul aleatoriu
+- rezultate imposibil de calculat
+! Cei care răspund diferă sistematic de cei care nu răspund.
+
+## 1 | mat10-c4 | Funcția putere, radical și trigonometrie
+### mat10-10 | Funcția putere și funcția radical
+Funcția putere are forma f de x egal cu x la puterea n, cu n număr natural nenul. Comportarea ei depinde de paritatea exponentului. Pentru exponent par, funcția este pară: graficul este simetric față de axa verticală, valorile sunt nenegative, iar forma seamănă cu a parabolei. Pentru exponent impar, funcția este impară: graficul este simetric față de origine, iar funcția ia atât valori pozitive, cât și negative.
+
+Funcția radical de ordin n este inversa funcției putere: ea „desface" ridicarea la putere. Ordinul radicalului îi impune domeniul. Radicalul de ordin par este definit numai pentru numere nenegative, pentru că nicio putere pară a unui număr real nu poate fi negativă; radicalul de ordin impar este definit pentru orice număr real. Pe domeniul numerelor nenegative, funcția radical este strict crescătoare, iar graficul ei este simetricul graficului funcției putere față de prima bisectoare, ca la orice pereche de funcții inverse.
+* Funcția putere cu exponent par este pară; cu exponent impar, impară.
+* Funcția radical este inversa funcției putere.
+* Radicalul de ordin par este definit doar pentru numere nenegative.
+* Radicalul de ordin impar este definit pentru orice număr real.
+= funcție putere :: funcția f de x egal cu x la puterea n, cu n natural nenul
+= funcție radical :: inversa funcției putere, notată cu semnul rădăcinii de ordin n
+@ Ce fel de funcție este f de x egal cu x la pătrat? :: O funcție pară, cu graficul simetric față de axa verticală.
+@ Ce fel de funcție este f de x egal cu x la cub? :: O funcție impară, cu graficul simetric față de origine.
+@ Pentru ce numere este definit radicalul de ordin par? :: Pentru numerele nenegative.
+@ Ce relație are graficul radicalului cu cel al puterii? :: Este simetricul lui față de prima bisectoare.
+? Funcția f de x egal cu x la pătrat este:
++ pară, cu graficul simetric față de axa verticală
+- impară, cu graficul simetric față de origine
+- fără simetrie
+- strict descrescătoare pe tot domeniul
+! Valorile ei sunt nenegative.
+? Funcția radical de ordin par este definită pentru:
++ numere nenegative
+- orice număr real
+- numere negative
+- numere întregi
+! O putere pară nu poate fi negativă.
+? Funcția f de x egal cu x la cub este:
++ impară, cu graficul simetric față de origine
+- pară
+- fără simetrie
+- constantă
+! Ia atât valori pozitive, cât și negative.
+? Funcția radical este inversa:
++ funcției putere
+- funcției exponențiale
+- funcției de gradul I
+- funcției logaritmice
+! De aceea „desface" ridicarea la putere.
+
+### mat10-11 | Funcții trigonometrice
+Funcțiile trigonometrice extind rapoartele din triunghiul dreptunghic la orice unghi, folosind cercul trigonometric. Funcția sinus asociază fiecărui număr real ordonata punctului corespunzător de pe cerc, iar funcția cosinus, abscisa lui. Amândouă au domeniul mulțimea tuturor numerelor reale, iar imaginea, intervalul de la minus unu la unu: valorile lor nu ies niciodată din acest interval.
+
+Sinusul și cosinusul sunt funcții periodice, cu perioada principală doi pi, pentru că valorile se reiau la fiecare rotație completă pe cerc. Funcția sinus este impară, iar funcția cosinus este pară. Funcția tangentă, definită ca raportul dintre sinus și cosinus, nu este definită acolo unde cosinusul se anulează și are perioada pi. Graficele lor, sinusoida și cosinusoida, sunt curbe ondulate care descriu fenomene ce se repetă: oscilații, unde, curentul alternativ, fazele Lunii.
+* Sinusul și cosinusul au domeniul toate numerele reale și imaginea de la minus unu la unu.
+* Sinusul și cosinusul au perioada principală doi pi.
+* Sinusul este funcție impară; cosinusul este funcție pară.
+* Tangenta nu e definită unde cosinusul se anulează și are perioada pi.
+= funcție sinus :: funcția care asociază fiecărui unghi ordonata punctului de pe cercul trigonometric
+= perioadă principală :: cel mai mic interval după care valorile unei funcții periodice se repetă
+@ Care este imaginea funcției sinus? :: Intervalul de la minus unu la unu.
+@ Care este perioada principală a funcției sinus? :: Doi pi.
+@ Ce fel de funcție este cosinusul, pară sau impară? :: Pară.
+@ Care este perioada funcției tangentă? :: Pi.
+? Imaginea funcției sinus este intervalul:
++ de la minus unu la unu
+- de la zero la unu
+- toate numerele reale
+- de la minus doi la doi
+! Valorile sinusului nu ies din acest interval.
+? Perioada principală a funcției sinus este:
++ doi pi
+- pi
+- pi supra doi
+- 1
+! Valorile se reiau la fiecare rotație completă.
+? Funcția cosinus este:
++ pară
+- impară
+- neperiodică
+- strict crescătoare
+! Sinusul, în schimb, este impar.
+? Valoarea maximă pe care o poate lua funcția cosinus este:
++ 1
+- 0
+- doi pi
+- infinit
+! Cosinusul ia valori între minus unu și unu.
+
+### mat10-12 | Ecuații trigonometrice
+O ecuație trigonometrică conține necunoscuta în argumentul unei funcții trigonometrice. Cele mai simple sunt ecuațiile fundamentale, de forma sinus de x egal a sau cosinus de x egal a. Pentru că sinusul și cosinusul iau valori numai între minus unu și unu, aceste ecuații au soluții reale doar dacă numărul a se află în acest interval; dacă a este în afara lui, ecuația nu are nicio soluție reală.
+
+Rezolvarea se face pe cercul trigonometric, unde se identifică unghiurile care dau valoarea cerută. Pentru că funcțiile sunt periodice, o ecuație are de regulă o infinitate de soluții, obținute adăugând multipli întregi ai perioadei la soluțiile de bază. De exemplu, ecuația sinus de x egal zero are soluțiile date de multiplii lui pi, iar ecuația cosinus de x egal unu are soluțiile date de multiplii lui doi pi. Verificarea și scrierea corectă a mulțimii tuturor soluțiilor, cu ajutorul unui întreg oarecare, sunt esențiale.
+* O ecuație trigonometrică are necunoscuta în argumentul unei funcții trigonometrice.
+* Ecuația sinus de x egal a are soluții reale doar dacă a este între minus unu și unu.
+* Din cauza periodicității, soluțiile sunt în număr infinit, cu multipli ai perioadei.
+* Ecuația sinus de x egal zero are drept soluții multiplii lui pi.
+= ecuație trigonometrică :: ecuație în care necunoscuta apare în argumentul unei funcții trigonometrice
+= ecuație fundamentală :: ecuație de forma sinus de x egal a sau cosinus de x egal a
+@ Când are ecuația sinus de x egal a soluții reale? :: Doar dacă a este cuprins între minus unu și unu.
+@ De ce are o ecuație trigonometrică o infinitate de soluții? :: Din cauza periodicității funcțiilor trigonometrice.
+@ Care sunt soluțiile ecuației sinus de x egal zero? :: Multiplii întregi ai lui pi.
+@ Care sunt soluțiile ecuației cosinus de x egal unu? :: Multiplii întregi ai lui doi pi.
+? Ecuația sinus de x egal a are soluții reale doar dacă:
++ a este cuprins între minus unu și unu
+- a este orice număr real
+- a este mai mare decât unu
+- a este întreg
+! Sinusul nu iese din intervalul de la minus unu la unu.
+? Ecuația cosinus de x egal unu are soluțiile:
++ multiplii lui doi pi
+- multiplii lui pi
+- pi supra doi plus multiplii lui pi
+- doar zero
+! Cosinusul este unu la fiecare rotație completă.
+? Ecuația sinus de x egal zero are soluțiile:
++ multiplii lui pi
+- multiplii lui doi pi
+- pi supra doi plus multiplii lui pi
+- doar unu
+! Sinusul se anulează la fiecare jumătate de rotație.
+? Ecuația sinus de x egal 2:
++ nu are soluții reale
+- are o singură soluție
+- are exact două soluții
+- are soluțiile multiplii lui pi
+! Numărul 2 nu este în intervalul de la minus unu la unu.
+
+## 2 | mat10-c5 | Numere complexe
+### mat10-13 | Forma algebrică a numerelor complexe
+Numerele complexe extind numerele reale pentru a face rezolvabilă orice ecuație de gradul al doilea, chiar și x la pătrat plus unu egal zero, care nu are soluții reale. Cheia este unitatea imaginară, notată i, definită prin proprietatea că pătratul ei este minus unu. Un număr complex se scrie în formă algebrică drept a plus b înmulțit cu i, unde a se numește partea reală, iar b partea imaginară; numerele reale sunt cazul particular în care partea imaginară este zero.
+
+Adunarea și scăderea numerelor complexe se fac pe componente: se adună separat părțile reale și separat părțile imaginare. Înmulțirea se face ca la binoame, ținând seama că pătratul unității imaginare este minus unu. Puterile lui i se repetă din patru în patru: i la puterea întâi este i, i la pătrat este minus unu, i la cub este minus i, iar i la puterea a patra este unu, după care ciclul reîncepe. Numerele complexe se reprezintă geometric ca puncte în plan, cu partea reală pe axa orizontală și partea imaginară pe axa verticală.
+* Unitatea imaginară i are pătratul egal cu minus unu.
+* Un număr complex are forma a plus b ori i, cu a partea reală și b partea imaginară.
+* Adunarea numerelor complexe se face pe componente.
+* Puterile lui i se repetă din patru în patru: i, minus unu, minus i, unu.
+= unitate imaginară :: numărul i, definit prin proprietatea că pătratul lui este minus unu
+= parte reală :: componenta a dintr-un număr complex scris sub forma a plus b ori i
+@ Ce proprietate definește unitatea imaginară i? :: Pătratul ei este minus unu.
+@ Cum se scrie forma algebrică a unui număr complex? :: Ca a plus b înmulțit cu i.
+@ Cum se adună două numere complexe? :: Adunând separat părțile reale și separat părțile imaginare.
+@ Cât este i la puterea a patra? :: Unu.
+? Unitatea imaginară i satisface relația:
++ i la pătrat egal minus unu
+- i la pătrat egal unu
+- i egal zero
+- i la pătrat egal i
+! Pe această proprietate se construiesc numerele complexe.
+? În numărul complex z egal a plus b ori i, partea reală este:
++ a
+- b
+- b ori i
+- a plus b
+! b este partea imaginară.
+? Valoarea lui i la puterea a patra este:
++ 1
+- minus 1
+- i
+- minus i
+! i la pătrat este minus unu, deci i la a patra este unu.
+? Suma numerelor complexe 2 plus 3i și 1 minus i este:
++ 3 plus 2i
+- 3 plus 4i
+- 1 plus 2i
+- 2 plus 3i
+! Se adună separat: 2 plus 1 și 3i minus i.
+
+### mat10-14 | Modul, conjugat și forma trigonometrică
+Fiecărui număr complex i se asociază conjugatul său, obținut schimbând semnul părții imaginare: conjugatul lui a plus b ori i este a minus b ori i. Modulul numărului complex este distanța de la punctul care îl reprezintă până la origine și se calculează cu teorema lui Pitagora, ca rădăcina din suma pătratelor părții reale și părții imaginare. Produsul dintre un număr complex și conjugatul său este un număr real nenegativ, egal cu pătratul modulului.
+
+Conjugatul este util și la împărțirea numerelor complexe: se amplifică fracția cu conjugatul numitorului, iar numitorul devine real. Pe lângă forma algebrică, un număr complex se poate scrie în formă trigonometrică, ca produsul dintre modulul său și paranteza formată din cosinusul și sinusul argumentului, unghiul pe care îl face cu axa reală. Forma trigonometrică simplifică înmulțirea, împărțirea și ridicarea la putere a numerelor complexe.
+* Conjugatul lui a plus b ori i este a minus b ori i.
+* Modulul este rădăcina din suma pătratelor părții reale și imaginare.
+* Produsul unui număr complex cu conjugatul său este pătratul modulului, un număr real.
+* Forma trigonometrică folosește modulul și argumentul numărului complex.
+= conjugat :: numărul complex obținut schimbând semnul părții imaginare
+= modul al unui număr complex :: distanța de la punctul care îl reprezintă până la origine, rădăcina din suma pătratelor componentelor
+@ Cum se obține conjugatul unui număr complex? :: Schimbând semnul părții imaginare.
+@ Cum se calculează modulul unui număr complex? :: Ca rădăcina din suma pătratelor părții reale și părții imaginare.
+@ Ce fel de număr este produsul dintre un complex și conjugatul său? :: Un număr real nenegativ, egal cu pătratul modulului.
+@ La ce ajută conjugatul în împărțirea numerelor complexe? :: La a face numitorul real, amplificând cu conjugatul lui.
+? Conjugatul numărului complex 3 plus 4i este:
++ 3 minus 4i
+- minus 3 plus 4i
+- 4 plus 3i
+- 3 plus 4i
+! Se schimbă doar semnul părții imaginare.
+? Modulul numărului complex 3 plus 4i este:
++ 5
+- 7
+- 25
+- 1
+! Rădăcina din 3 la pătrat plus 4 la pătrat, adică din 25.
+? Produsul dintre un număr complex și conjugatul său este:
++ un număr real, egal cu pătratul modulului
+- întotdeauna zero
+- un număr pur imaginar
+- egal cu numărul complex
+! Părțile imaginare se anulează.
+? Forma trigonometrică a unui număr complex folosește:
++ modulul și argumentul lui
+- doar partea reală
+- doar partea imaginară
+- două module diferite
+! Se scrie ca modulul înmulțit cu cosinusul plus i sinusul argumentului.
+
+### mat10-15 | Ecuații în mulțimea numerelor complexe
+Marele câștig al numerelor complexe este că, în mulțimea lor, orice ecuație de gradul al doilea are soluții, indiferent de semnul discriminantului. Când discriminantul este pozitiv sau zero, soluțiile sunt reale, ca de obicei. Când discriminantul este negativ, ecuația nu are soluții reale, dar are două soluții complexe, care sunt conjugate una alteia.
+
+Formula soluțiilor rămâne aceeași, doar că rădăcina dintr-un număr negativ se scrie cu ajutorul unității imaginare. Cea mai simplă ecuație de acest fel, x la pătrat plus unu egal zero, are soluțiile i și minus i, pentru că pătratul lui i este minus unu. La fel, x la pătrat egal minus patru are soluțiile doi i și minus doi i. Relațiile lui Viète, care leagă suma și produsul soluțiilor de coeficienți, rămân valabile și în mulțimea numerelor complexe, ceea ce arată coerența extinderii.
+* În mulțimea numerelor complexe, orice ecuație de gradul al doilea are soluții.
+* Când discriminantul e negativ, soluțiile sunt complexe și conjugate.
+* Ecuația x la pătrat plus unu egal zero are soluțiile i și minus i.
+* Relațiile lui Viète rămân valabile și pentru numere complexe.
+= soluții conjugate :: cele două soluții complexe ale unei ecuații de gradul al doilea cu discriminant negativ
+= discriminant negativ :: cazul în care ecuația nu are soluții reale, ci două soluții complexe conjugate
+@ Câte soluții are, în mulțimea complexă, o ecuație de gradul al doilea? :: Are întotdeauna soluții, indiferent de discriminant.
+@ Ce fel de soluții are o ecuație de gradul al doilea cu discriminant negativ? :: Două soluții complexe, conjugate una alteia.
+@ Care sunt soluțiile ecuației x la pătrat plus unu egal zero? :: i și minus i.
+@ Rămân valabile relațiile lui Viète pentru numere complexe? :: Da, ele leagă suma și produsul soluțiilor de coeficienți.
+? În mulțimea numerelor complexe, ecuația x la pătrat plus unu egal zero are soluțiile:
++ i și minus i
+- unu și minus unu
+- doar zero
+- niciuna
+! Pentru că pătratul lui i este minus unu.
+? Dacă discriminantul unei ecuații de gradul al doilea cu coeficienți reali este negativ, ecuația are:
++ două soluții complexe conjugate
+- două soluții reale distincte
+- o singură soluție reală
+- nicio soluție, nici măcar complexă
+! În complex, orice ecuație pătratică are soluții.
+? Ecuația x la pătrat egal minus patru are, în mulțimea complexă, soluțiile:
++ doi i și minus doi i
+- doi și minus doi
+- patru i
+- niciuna
+! Pentru că pătratul lui doi i este minus patru.
+? În mulțimea numerelor complexe, orice ecuație de gradul al doilea:
++ are soluții
+- nu are niciodată soluții
+- are soluții doar dacă discriminantul e pozitiv
+- are o singură soluție
+! Aceasta a fost motivația extinderii numerelor.
+
+## 2 | mat10-c6 | Geometrie analitică
+### mat10-16 | Vectori și coordonate în plan
+În reperul cartezian, un vector se descrie prin componentele lui pe cele două axe. Vectorul determinat de două puncte are drept componente diferențele coordonatelor: din coordonatele punctului final se scad coordonatele punctului inițial. Modulul vectorului, adică lungimea lui, se calculează cu teorema lui Pitagora, ca rădăcina din suma pătratelor componentelor.
+
+Adunarea vectorilor se face pe componente, iar înmulțirea cu un scalar înmulțește fiecare componentă. Produsul scalar a doi vectori dați prin componente este suma produselor componentelor corespunzătoare; el este legat și de modulele vectorilor și de cosinusul unghiului dintre ei. De aici rezultă criteriul de perpendicularitate: doi vectori nenuli sunt perpendiculari exact atunci când produsul lor scalar este zero. Calculul vectorial în coordonate permite rezolvarea numerică a problemelor de geometrie: distanțe, unghiuri, arii, coliniaritate.
+* Componentele vectorului dintre două puncte sunt diferențele coordonatelor.
+* Modulul vectorului este rădăcina din suma pătratelor componentelor.
+* Produsul scalar este suma produselor componentelor corespunzătoare.
+* Doi vectori nenuli sunt perpendiculari dacă produsul lor scalar este zero.
+= componente ale unui vector :: proiecțiile vectorului pe axele reperului cartezian
+= produs scalar :: suma produselor componentelor corespunzătoare a doi vectori, legată de cosinusul unghiului dintre ei
+@ Cum se află componentele vectorului dintre două puncte? :: Scăzând coordonatele punctului inițial din cele ale punctului final.
+@ Cum se calculează modulul unui vector din componente? :: Ca rădăcina din suma pătratelor componentelor.
+@ Cum se calculează produsul scalar din componente? :: Ca suma produselor componentelor corespunzătoare.
+@ Când sunt doi vectori perpendiculari? :: Când produsul lor scalar este zero.
+? Vectorul determinat de punctele A(1, 2) și B(4, 6) are componentele:
++ (3, 4)
+- (5, 8)
+- (4, 6)
+- (1, 2)
+! Se scad coordonatele: 4 minus 1 și 6 minus 2.
+? Modulul vectorului de componente (3, 4) este:
++ 5
+- 7
+- 12
+- 25
+! Rădăcina din 3 la pătrat plus 4 la pătrat.
+? Produsul scalar al vectorilor de componente (1, 2) și (3, 4) este:
++ 11
+- 10
+- 7
+- 24
+! 1 ori 3 plus 2 ori 4, adică 3 plus 8.
+? Doi vectori nenuli sunt perpendiculari dacă produsul lor scalar este:
++ 0
+- 1
+- egal cu produsul modulelor
+- negativ
+! Cosinusul unghiului drept este zero.
+
+### mat10-17 | Dreapta în plan
+O dreaptă din plan se descrie prin ecuații. Forma explicită este y egal cu m înmulțit cu x plus n, unde m este panta, iar n este ordonata la origine. Panta arată înclinarea dreptei: este tangenta unghiului format cu axa orizontală. Forma generală, în care toți termenii sunt trecuți într-un membru, este a înmulțit cu x plus b înmulțit cu y plus c egal zero.
+
+Panta unei drepte care trece prin două puncte cunoscute este raportul dintre diferența ordonatelor și diferența absciselor. Două drepte sunt paralele dacă au aceeași pantă și perpendiculare dacă produsul pantelor lor este minus unu. Intersecția a două drepte se află rezolvând sistemul format din ecuațiile lor, iar poziția relativă a dreptelor se citește din pante: pante egale și ordonate diferite înseamnă drepte paralele distincte. Distanța de la un punct la o dreaptă se calculează cu o formulă bazată pe coeficienții ecuației generale.
+* Forma explicită a dreptei: y egal m ori x plus n, cu panta m și ordonata la origine n.
+* Panta prin două puncte este diferența ordonatelor supra diferența absciselor.
+* Două drepte sunt paralele dacă au aceeași pantă.
+* Două drepte sunt perpendiculare dacă produsul pantelor este minus unu.
+= pantă :: coeficientul m din ecuația dreptei, egal cu tangenta unghiului cu axa orizontală
+= drepte perpendiculare :: drepte ale căror pante au produsul egal cu minus unu
+@ Ce reprezintă m în ecuația y egal m ori x plus n? :: Panta dreptei.
+@ Cum se calculează panta unei drepte prin două puncte? :: Ca raportul dintre diferența ordonatelor și diferența absciselor.
+@ Când sunt două drepte paralele? :: Când au aceeași pantă.
+@ Când sunt două drepte perpendiculare? :: Când produsul pantelor lor este minus unu.
+? Panta dreptei care trece prin punctele (1, 1) și (3, 5) este:
++ 2
+- 3
+- 4
+- o jumătate
+! Diferența ordonatelor, 5 minus 1, supra diferența absciselor, 3 minus 1.
+? Două drepte cu pantele 2 și minus o jumătate sunt:
++ perpendiculare
+- paralele
+- confundate
+- fără intersecție
+! Produsul pantelor este minus unu.
+? Forma generală a ecuației unei drepte este:
++ a ori x plus b ori y plus c egal zero
+- y egal x la pătrat
+- x la pătrat plus y la pătrat egal r la pătrat
+- y egal a la puterea x
+! Ultimele descriu o parabolă, un cerc și o exponențială.
+? Dreapta y egal minus doi ori x plus trei taie axa verticală în punctul:
++ (0, 3)
+- (3, 0)
+- (0, minus 2)
+- (minus 2, 3)
+! Ordonata la origine este termenul liber, 3.
+
+### mat10-18 | Cercul în plan
+Cercul este locul geometric al punctelor egal depărtate de un punct fix, centrul, distanța comună fiind raza. În reperul cartezian, cercul cu centrul într-un punct de coordonate cunoscute și cu rază dată are ecuația în care suma pătratelor diferențelor dintre coordonatele unui punct oarecare și cele ale centrului este egală cu pătratul razei. Dacă centrul este chiar originea, ecuația se simplifică: suma pătratelor coordonatelor este egală cu pătratul razei.
+
+Din ecuația unui cerc se citesc direct centrul și raza. Poziția unei drepte față de un cerc se stabilește comparând distanța de la centru la dreaptă cu raza: dacă distanța este mai mare decât raza, dreapta este exterioară și nu taie cercul; dacă este egală cu raza, dreapta este tangentă și atinge cercul într-un singur punct; dacă este mai mică decât raza, dreapta este secantă și taie cercul în două puncte. Aceste relații permit rezolvarea numerică a problemelor despre cercuri, tangente și intersecții.
+* Cercul este locul punctelor egal depărtate de centru, la distanța egală cu raza.
+* Cercul cu centrul în origine și raza r are ecuația: pătratul lui x plus pătratul lui y egal r la pătrat.
+* Din ecuația cercului se citesc direct centrul și raza.
+* O dreaptă este tangentă la cerc dacă distanța de la centru la ea este egală cu raza.
+= cerc :: locul geometric al punctelor din plan aflate la o distanță constantă, raza, față de un punct fix, centrul
+= dreaptă tangentă la cerc :: dreapta aflată la distanță egală cu raza față de centru, atingând cercul într-un singur punct
+@ Ce este un cerc, ca loc geometric? :: Mulțimea punctelor egal depărtate de un punct fix, centrul.
+@ Care este ecuația cercului cu centrul în origine și raza r? :: Pătratul lui x plus pătratul lui y egal r la pătrat.
+@ Ce se citește direct din ecuația unui cerc? :: Centrul și raza.
+@ Când este o dreaptă tangentă la un cerc? :: Când distanța de la centru la dreaptă este egală cu raza.
+? Ecuația cercului cu centrul în origine și raza 3 este:
++ pătratul lui x plus pătratul lui y egal 9
+- pătratul lui x plus pătratul lui y egal 3
+- x plus y egal 3
+- pătratul lui x minus pătratul lui y egal 9
+! Raza la pătrat este 9.
+? Cercul de ecuație (x minus 1) la pătrat plus (y plus 2) la pătrat egal 16 are:
++ centrul în (1, minus 2) și raza 4
+- centrul în (minus 1, 2) și raza 16
+- centrul în (1, 2) și raza 4
+- centrul în origine și raza 16
+! Raza este rădăcina din 16.
+? O dreaptă este tangentă la un cerc dacă distanța de la centru la dreaptă este:
++ egală cu raza
+- mai mare decât raza
+- mai mică decât raza
+- nulă
+! Distanța mai mică dă o dreaptă secantă.
+? Raza cercului de ecuație pătratul lui x plus pătratul lui y egal 25 este:
++ 5
+- 25
+- 10
+- 12,5
+! Raza este \sqrt{2}5.
+
+%% teza 1
+? Funcția f de x egal cu x la pătrat este:
++ pară, cu graficul simetric față de axa verticală
+- impară, cu graficul simetric față de origine
+- fără simetrie
+- strict descrescătoare peste tot
+! Valorile ei sunt nenegative.
+? Funcția radical de ordin par este definită pentru:
++ numere nenegative
+- orice număr real
+- numere negative
+- numere întregi
+! O putere pară nu poate fi negativă.
+? Imaginea funcției sinus este intervalul:
++ de la minus unu la unu
+- de la zero la unu
+- toate numerele reale
+- de la minus doi la doi
+! Valorile sinusului nu ies din acest interval.
+? Perioada principală a funcției cosinus este:
++ doi pi
+- pi
+- pi supra doi
+- 1
+! Valorile se reiau la fiecare rotație completă.
+? Ecuația sinus de x egal 2:
++ nu are soluții reale
+- are o singură soluție
+- are exact două soluții
+- are o infinitate de soluții
+! Numărul 2 nu este în intervalul de la minus unu la unu.
+? Funcția f de x egal cu x la cub este:
++ impară, cu graficul simetric față de origine
+- pară
+- constantă
+- fără simetrie
+! Ia atât valori pozitive, cât și negative.
+? Baza unei funcții exponențiale trebuie să fie:
++ strict pozitivă și diferită de 1
+- orice număr real
+- doar supraunitară
+- doar întreagă
+! Altfel funcția nu ar fi bine definită.
+? Graficul funcției logaritmice trece prin:
++ (1, 0)
+- (0, 1)
+- (0, 0)
+- (1, 1)
+! Exponențiala trece prin (0, 1).
+? La bază subunitară, inecuația exponențială:
++ își schimbă sensul
+- își păstrează sensul
+- devine egalitate
+- nu are soluții
+! Funcția este descrescătoare.
+? Logaritmul în baza 2 al lui 32 este:
++ 5
+- 4
+- 6
+- 16
+! 2 la puterea 5 este 32.
+? Permutările a 4 obiecte sunt în număr de:
++ 24
+- 12
+- 16
+- 4
+! 4 factorial.
+? Când ordinea nu contează se folosesc:
++ combinări
+- aranjamente
+- permutări
+- produse carteziene
+! Aranjamentele iau în calcul ordinea.
+? Probabilitatea unui eveniment este întotdeauna:
++ între 0 și 1
+- mai mare decât 1
+- un număr întreg
+- negativă uneori
+! 0 înseamnă imposibil, 1 înseamnă sigur.
+? Probabilitatea evenimentului contrar se calculează:
++ 1 minus probabilitatea evenimentului
+- 1 împărțit la probabilitate
+- probabilitatea la pătrat
+- 0,5 minus probabilitatea
+! Suma celor două este 1.
+? Mediana este preferată mediei când:
++ există valori extreme
+- datele sunt simetrice
+- seria are puțini termeni
+- toate valorile sunt egale
+! Media e trasă de extreme.
+
+%% teza 2
+? Unitatea imaginară i satisface relația:
++ i la pătrat egal minus unu
+- i la pătrat egal unu
+- i egal zero
+- i la pătrat egal i
+! Pe ea se construiesc numerele complexe.
+? Modulul numărului complex 3 plus 4i este:
++ 5
+- 7
+- 25
+- 1
+! Rădăcina din 3 la pătrat plus 4 la pătrat.
+? Conjugatul numărului complex 3 plus 4i este:
++ 3 minus 4i
+- minus 3 plus 4i
+- 4 plus 3i
+- 3 plus 4i
+! Se schimbă doar semnul părții imaginare.
+? În mulțimea numerelor complexe, ecuația x la pătrat plus unu egal zero are soluțiile:
++ i și minus i
+- unu și minus unu
+- doar zero
+- niciuna
+! Pentru că pătratul lui i este minus unu.
+? Ecuația cercului cu centrul în origine și raza 3 este:
++ pătratul lui x plus pătratul lui y egal 9
+- pătratul lui x plus pătratul lui y egal 3
+- x plus y egal 3
+- pătratul lui x minus pătratul lui y egal 9
+! Raza la pătrat este 9.
+? Produsul scalar al vectorilor de componente (1, 2) și (3, 4) este:
++ 11
+- 10
+- 7
+- 24
+! 1 ori 3 plus 2 ori 4, adică 3 plus 8.
+? Abaterea standard măsoară:
++ împrăștierea datelor față de medie
+- tendința centrală
+- valoarea cea mai frecventă
+- numărul de observații
+! Media și mediana măsoară tendința centrală.
+? O creștere de 20% urmată de o scădere de 20% dă:
++ 96% din valoarea inițială
+- 100%
+- 104%
+- 80%
+! Procentele se aplică la baze diferite.
+? Dobânda compusă se calculează la:
++ suma acumulată
+- suma inițială, mereu
+- dobânda anterioară exclusiv
+- valoarea medie
+! De aceea crește geometric.
+? Randamentul real se obține scăzând din cel nominal:
++ rata inflației
+- rata dobânzii
+- comisionul bancar
+- impozitul
+! Inflația reduce puterea de cumpărare.
+? Modelul logistic se deosebește de cel exponențial prin:
++ existența unui plafon
+- creșterea mai rapidă
+- lipsa creșterii inițiale
+- forma liniară
+! Plafonul se numește capacitate de suport.
+? Diferențe succesive constante într-o serie de date indică:
++ un model liniar
+- un model exponențial
+- un model logistic
+- absența unui model
+! Rapoartele constante indică exponențial.
+? Un contraexemplu:
++ respinge o afirmație universală
+- demonstrează o afirmație universală
+- confirmă o regulă
+- înlocuiește o demonstrație
+! Exemplele nu demonstrează afirmații universale.
+? Inducția matematică are:
++ un pas de bază și un pas de trecere
+- doar un pas de verificare
+- trei pași obligatorii
+- un singur contraexemplu
+! Pasul de trecere merge de la n la n+1.
+? Corelația dintre două variabile:
++ nu implică automat cauzalitate
+- demonstrează cauzalitatea
+- exclude cauzalitatea
+- înseamnă că variabilele sunt egale
+! Poate veni dintr-o cauză comună.

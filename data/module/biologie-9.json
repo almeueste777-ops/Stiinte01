@@ -1,0 +1,1925 @@
+{
+ "id": "biologie-9",
+ "materie": "Biologie",
+ "clasa": "a IX-a",
+ "an": 1,
+ "arie": "Matematică și științe ale naturii",
+ "bac": true,
+ "descriere": "Celula și țesuturile, anatomia și fiziologia omului: sistemele de relație, de nutriție și de reproducere.",
+ "capitole": [
+  {
+   "id": "bio9-c1",
+   "titlu": "Celula și țesuturile",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "bio9-01",
+     "titlu": "Celula — unitatea vieții",
+     "rezumat": "Teoria celulară afirmă că toate organismele sunt formate din celule, că celula este unitatea de structură și de funcție a viului și că orice celulă provine dintr-o celulă preexistentă. Celulele procariote, ale bacteriilor, nu au nucleu delimitat de membrană; cele eucariote, ale plantelor, animalelor, ciupercilor și protistelor, au nucleu și organite membranare. Membrana celulară, formată dintr-un dublu strat de lipide cu proteine inserate, controlează schimburile cu exteriorul: difuzia și osmoza se fac fără consum de energie, transportul activ cu consum. Citoplasma conține organitele: mitocondriile produc energie prin respirație celulară, ribozomii sintetizează proteine, reticulul endoplasmatic și aparatul Golgi prelucrează și transportă substanțe, lizozomii digeră. Nucleul păstrează materialul genetic. Celula vegetală are, în plus, perete celular, cloroplaste și o vacuolă mare.",
+     "ideiCheie": [
+      "Teoria celulară: celula e unitatea de structură și funcție a viului.",
+      "Procariotele nu au nucleu delimitat de membrană; eucariotele au.",
+      "Membrana controlează schimburile prin difuzie, osmoză și transport activ.",
+      "Celula vegetală are perete celular, cloroplaste și vacuolă mare."
+     ],
+     "termeni": [
+      {
+       "t": "celulă eucariotă",
+       "d": "celulă cu nucleu delimitat de membrană și organite membranare"
+      },
+      {
+       "t": "osmoză",
+       "d": "trecerea apei printr-o membrană semipermeabilă, dinspre soluția diluată spre cea concentrată"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce afirmă teoria celulară?",
+       "v": "Toate organismele sunt formate din celule, celula e unitatea de structură și funcție, iar orice celulă provine din alta."
+      },
+      {
+       "f": "Ce organit produce energia celulei?",
+       "v": "Mitocondria, prin respirație celulară."
+      },
+      {
+       "f": "Ce are în plus celula vegetală față de cea animală?",
+       "v": "Perete celular, cloroplaste și o vacuolă mare."
+      },
+      {
+       "f": "Prin ce diferă transportul activ de difuzie?",
+       "v": "Consumă energie și poate merge împotriva gradientului de concentrație."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Bacteriile sunt organisme:",
+       "optiuni": [
+        "procariote",
+        "eucariote",
+        "pluricelulare",
+        "fără material genetic"
+       ],
+       "corect": 0,
+       "explicatie": "Nu au nucleu delimitat de membrană."
+      },
+      {
+       "intrebare": "Ribozomii au rolul de a:",
+       "optiuni": [
+        "sintetiza proteine",
+        "produce energie",
+        "digera substanțe",
+        "stoca apa"
+       ],
+       "corect": 0,
+       "explicatie": "Mitocondriile produc energia."
+      },
+      {
+       "intrebare": "Osmoza este trecerea:",
+       "optiuni": [
+        "apei printr-o membrană semipermeabilă",
+        "proteinelor prin membrană",
+        "ionilor cu consum de energie",
+        "gazelor prin perete celular"
+       ],
+       "corect": 0,
+       "explicatie": "Se face fără consum de energie."
+      },
+      {
+       "intrebare": "Materialul genetic al celulei eucariote se află:",
+       "optiuni": [
+        "în nucleu",
+        "în citoplasmă liber",
+        "în ribozomi",
+        "în aparatul Golgi"
+       ],
+       "corect": 0,
+       "explicatie": "Mitocondriile au și ele o cantitate mică de ADN."
+      }
+     ]
+    },
+    {
+     "id": "bio9-02",
+     "titlu": "Diviziunea celulară și ereditatea",
+     "rezumat": "Mitoza este diviziunea prin care o celulă dă naștere la două celule identice cu ea și între ele; ea asigură creșterea, regenerarea și reproducerea asexuată. Meioza este diviziunea prin care se formează celulele sexuale: numărul de cromozomi se înjumătățește, iar prin schimbul de fragmente între cromozomii omologi apare variabilitatea genetică, sursa diversității dintre frați. Materialul genetic este ADN-ul, o macromoleculă în formă de dublu helix, alcătuită din nucleotide cu patru baze azotate care se împerechează complementar. Gena este segmentul de ADN care conține informația pentru o proteină; genotipul este ansamblul genelor, fenotipul este ansamblul caracterelor observabile, rezultat din interacțiunea genotipului cu mediul. Omul are 46 de cromozomi, în 23 de perechi, dintre care o pereche determină sexul.",
+     "ideiCheie": [
+      "Mitoza produce celule identice; meioza înjumătățește numărul de cromozomi.",
+      "Meioza generează variabilitate prin schimbul de fragmente între cromozomi omologi.",
+      "ADN-ul are structură de dublu helix, cu baze împerecheate complementar.",
+      "Fenotipul rezultă din interacțiunea genotipului cu mediul."
+     ],
+     "termeni": [
+      {
+       "t": "mitoză",
+       "d": "diviziune celulară din care rezultă două celule identice cu celula-mamă"
+      },
+      {
+       "t": "fenotip",
+       "d": "ansamblul caracterelor observabile ale unui organism"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce rol are mitoza?",
+       "v": "Creșterea, regenerarea țesuturilor și reproducerea asexuată."
+      },
+      {
+       "f": "De ce sunt frații diferiți între ei?",
+       "v": "Din cauza variabilității produse de meioză și de combinarea gameților."
+      },
+      {
+       "f": "Câți cromozomi are omul?",
+       "v": "46, adică 23 de perechi."
+      },
+      {
+       "f": "Ce este gena?",
+       "v": "Segmentul de ADN care conține informația pentru o proteină."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Meioza are ca rezultat:",
+       "optiuni": [
+        "celule cu număr redus la jumătate de cromozomi",
+        "celule identice cu cea inițială",
+        "celule fără nucleu",
+        "celule cu număr dublu de cromozomi"
+       ],
+       "corect": 0,
+       "explicatie": "Se formează celulele sexuale."
+      },
+      {
+       "intrebare": "ADN-ul are structura de:",
+       "optiuni": [
+        "dublu helix",
+        "lanț simplu ramificat",
+        "inel închis, la eucariote",
+        "rețea tridimensională"
+       ],
+       "corect": 0,
+       "explicatie": "Bazele se împerechează complementar."
+      },
+      {
+       "intrebare": "Fenotipul este:",
+       "optiuni": [
+        "ansamblul caracterelor observabile",
+        "ansamblul genelor",
+        "numărul de cromozomi",
+        "tipul de diviziune"
+       ],
+       "corect": 0,
+       "explicatie": "Rezultă din genotip și mediu."
+      },
+      {
+       "intrebare": "Perechea de cromozomi care determină sexul la om este:",
+       "optiuni": [
+        "una singură, din cele 23",
+        "niciuna",
+        "toate cele 23",
+        "două perechi"
+       ],
+       "corect": 0,
+       "explicatie": "Restul sunt autozomi."
+      }
+     ]
+    },
+    {
+     "id": "bio9-03",
+     "titlu": "Țesuturi și organizarea corpului",
+     "rezumat": "Țesutul este un grup de celule cu aceeași structură și funcție. Țesutul epitelial acoperă suprafețele și căptușește cavitățile, având rol de protecție, secreție și absorbție. Țesutul conjunctiv leagă și susține: variantele lui sunt țesutul conjunctiv propriu-zis, cartilaginos, osos și sângele. Țesutul muscular, contractil, este de trei feluri: striat scheletic (voluntar), neted (involuntar, în pereții organelor interne) și cardiac. Țesutul nervos generează și conduce impulsuri. Organele sunt formate din mai multe țesuturi și au funcții precise; sistemele de organe cooperează pentru marile funcții. Funcțiile de relație (nervoasă, endocrină, locomotorie, senzorială) leagă organismul de mediu; funcțiile de nutriție (digestivă, respiratorie, circulatorie, excretoare) asigură materia și energia; funcția de reproducere asigură perpetuarea speciei. Homeostazia este menținerea constantă a mediului intern, condiție a supraviețuirii.",
+     "ideiCheie": [
+      "Țesutul este un grup de celule cu aceeași structură și funcție.",
+      "Cele patru tipuri fundamentale: epitelial, conjunctiv, muscular, nervos.",
+      "Sistemele de organe îndeplinesc funcții de relație, de nutriție și de reproducere.",
+      "Homeostazia este menținerea constantă a mediului intern."
+     ],
+     "termeni": [
+      {
+       "t": "țesut",
+       "d": "grup de celule cu aceeași structură, origine și funcție"
+      },
+      {
+       "t": "homeostazie",
+       "d": "menținerea constantă a parametrilor mediului intern al organismului"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt cele patru tipuri fundamentale de țesuturi?",
+       "v": "Epitelial, conjunctiv, muscular și nervos."
+      },
+      {
+       "f": "Ce fel de țesut este sângele?",
+       "v": "Un țesut conjunctiv, cu substanță fundamentală lichidă."
+      },
+      {
+       "f": "Ce este homeostazia?",
+       "v": "Menținerea constantă a parametrilor mediului intern."
+      },
+      {
+       "f": "Ce funcții leagă organismul de mediu?",
+       "v": "Funcțiile de relație: nervoasă, endocrină, locomotorie, senzorială."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Mușchiul din pereții stomacului este:",
+       "optiuni": [
+        "neted, involuntar",
+        "striat scheletic, voluntar",
+        "cardiac",
+        "conjunctiv"
+       ],
+       "corect": 0,
+       "explicatie": "Contracția lui nu depinde de voință."
+      },
+      {
+       "intrebare": "Țesutul epitelial are rol de:",
+       "optiuni": [
+        "protecție, secreție și absorbție",
+        "contracție",
+        "conducere a impulsurilor",
+        "susținere"
+       ],
+       "corect": 0,
+       "explicatie": "Acoperă suprafețele și căptușește cavitățile."
+      },
+      {
+       "intrebare": "Funcțiile de nutriție cuprind:",
+       "optiuni": [
+        "digestia, respirația, circulația și excreția",
+        "doar digestia",
+        "reproducerea",
+        "funcția senzorială"
+       ],
+       "corect": 0,
+       "explicatie": "Ele asigură materia și energia."
+      },
+      {
+       "intrebare": "Sângele este un țesut:",
+       "optiuni": [
+        "conjunctiv",
+        "epitelial",
+        "muscular",
+        "nervos"
+       ],
+       "corect": 0,
+       "explicatie": "Are substanța fundamentală lichidă."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bio9-c2",
+   "titlu": "Funcțiile de relație",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "bio9-04",
+     "titlu": "Sistemul nervos",
+     "rezumat": "Neuronul este celula nervoasă: are corp celular, dendrite care primesc informația și un axon care o transmite. Impulsul nervos este un semnal electric care se propagă de-a lungul axonului, iar transmiterea între neuroni se face chimic, la nivelul sinapsei, prin neurotransmițători. Teaca de mielină accelerează mult conducerea. Sistemul nervos central cuprinde encefalul și măduva spinării; cel periferic, nervii și ganglionii. Encefalul are emisferele cerebrale (gândire, memorie, limbaj, control voluntar), cerebelul (echilibru și coordonare fină), trunchiul cerebral (funcții vitale: respirație, ritm cardiac). Sistemul nervos vegetativ, autonom, reglează organele interne prin două componente antagoniste: simpaticul, care pregătește organismul pentru efort, și parasimpaticul, care favorizează odihna și digestia. Actul reflex este răspunsul automat, cu circuit prin măduvă, fără participarea conștiinței.",
+     "ideiCheie": [
+      "Neuronul are corp celular, dendrite și axon; sinapsa transmite chimic informația.",
+      "Sistemul nervos central cuprinde encefalul și măduva spinării.",
+      "Cerebelul coordonează echilibrul; trunchiul cerebral reglează funcțiile vitale.",
+      "Simpaticul pregătește efortul, parasimpaticul favorizează odihna și digestia."
+     ],
+     "termeni": [
+      {
+       "t": "sinapsă",
+       "d": "locul de contact funcțional dintre doi neuroni, unde transmiterea se face chimic"
+      },
+      {
+       "t": "act reflex",
+       "d": "răspuns automat al organismului la un stimul, prin circuit nervos fără participarea conștiinței"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce parte a neuronului transmite impulsul mai departe?",
+       "v": "Axonul."
+      },
+      {
+       "f": "Cum se transmite informația între doi neuroni?",
+       "v": "Chimic, prin neurotransmițători, la nivelul sinapsei."
+      },
+      {
+       "f": "Ce coordonează cerebelul?",
+       "v": "Echilibrul și coordonarea fină a mișcărilor."
+      },
+      {
+       "f": "Ce face sistemul nervos simpatic?",
+       "v": "Pregătește organismul pentru efort și reacție."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Funcțiile vitale, precum respirația, sunt reglate de:",
+       "optiuni": [
+        "trunchiul cerebral",
+        "emisferele cerebrale",
+        "cerebel",
+        "măduva spinării exclusiv"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea leziunile lui sunt fatale."
+      },
+      {
+       "intrebare": "Teaca de mielină are rolul de a:",
+       "optiuni": [
+        "accelera conducerea impulsului nervos",
+        "produce neurotransmițători",
+        "hrăni neuronul",
+        "forma sinapse"
+       ],
+       "corect": 0,
+       "explicatie": "Impulsul sare de la un nod la altul."
+      },
+      {
+       "intrebare": "Actul reflex:",
+       "optiuni": [
+        "are loc fără participarea conștiinței",
+        "necesită decizie voluntară",
+        "se produce doar în encefal",
+        "durează mai mult decât un act voluntar"
+       ],
+       "corect": 0,
+       "explicatie": "Retragerea mâinii de pe o suprafață fierbinte e exemplul clasic."
+      },
+      {
+       "intrebare": "Parasimpaticul favorizează:",
+       "optiuni": [
+        "odihna și digestia",
+        "efortul intens",
+        "creșterea ritmului cardiac",
+        "dilatarea pupilei"
+       ],
+       "corect": 0,
+       "explicatie": "Este antagonistul simpaticului."
+      }
+     ]
+    },
+    {
+     "id": "bio9-05",
+     "titlu": "Analizatorii și sistemul endocrin",
+     "rezumat": "Analizatorii transformă stimulii din mediu în impulsuri nervoase: vizual, auditiv și vestibular, olfactiv, gustativ, cutanat. Ochiul focalizează lumina pe retină, unde celulele cu conuri și bastonașe o transformă în semnal; nervul optic îl duce la scoarța occipitală, unde se formează imaginea. Urechea are trei părți: externă (captează), medie (amplifică prin oscioare) și internă (transformă vibrațiile în impuls și conține organul echilibrului). Sistemul endocrin reglează prin hormoni, mesageri chimici transportați de sânge, care acționează lent, dar durabil. Hipofiza coordonează celelalte glande; tiroida reglează metabolismul; pancreasul secretă insulină și glucagon, care mențin glicemia; suprarenalele produc adrenalină și cortizol, hormonii stresului; gonadele produc hormonii sexuali. Reglarea se face prin feedback negativ: creșterea unui hormon inhibă producerea lui. Dezechilibrele produc boli precum diabetul zaharat, hipotiroidismul sau nanismul hipofizar.",
+     "ideiCheie": [
+      "Analizatorii transformă stimulii din mediu în impulsuri nervoase.",
+      "Retina conține conuri și bastonașe; imaginea se formează în scoarța occipitală.",
+      "Hormonii acționează lent, dar durabil, prin sânge.",
+      "Reglarea endocrină se face prin feedback negativ."
+     ],
+     "termeni": [
+      {
+       "t": "hormon",
+       "d": "mesager chimic secretat de o glandă endocrină și transportat prin sânge"
+      },
+      {
+       "t": "feedback negativ",
+       "d": "mecanism de reglare prin care creșterea unui parametru inhibă cauza care a produs-o"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Unde se formează imaginea vizuală?",
+       "v": "În scoarța cerebrală occipitală, pe baza impulsurilor de la retină."
+      },
+      {
+       "f": "Ce hormoni mențin glicemia?",
+       "v": "Insulina și glucagonul, secretate de pancreas."
+      },
+      {
+       "f": "Ce glandă coordonează sistemul endocrin?",
+       "v": "Hipofiza."
+      },
+      {
+       "f": "Ce este feedbackul negativ?",
+       "v": "Mecanismul prin care creșterea unui hormon inhibă producerea lui ulterioară."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Organul echilibrului se află în:",
+       "optiuni": [
+        "urechea internă",
+        "urechea medie",
+        "urechea externă",
+        "nervul optic"
+       ],
+       "corect": 0,
+       "explicatie": "Alături de organul auzului."
+      },
+      {
+       "intrebare": "Insulina are rolul de a:",
+       "optiuni": [
+        "scădea glicemia",
+        "crește glicemia",
+        "regla metabolismul bazal",
+        "stimula creșterea"
+       ],
+       "corect": 0,
+       "explicatie": "Glucagonul face acțiunea inversă."
+      },
+      {
+       "intrebare": "Hormonii, spre deosebire de impulsurile nervoase, acționează:",
+       "optiuni": [
+        "lent, dar durabil",
+        "rapid și scurt",
+        "doar local",
+        "fără mediere sangvină"
+       ],
+       "corect": 0,
+       "explicatie": "Sistemul nervos acționează rapid și punctual."
+      },
+      {
+       "intrebare": "Adrenalina este produsă de:",
+       "optiuni": [
+        "glandele suprarenale",
+        "tiroidă",
+        "hipofiză",
+        "pancreas"
+       ],
+       "corect": 0,
+       "explicatie": "Este unul dintre hormonii stresului."
+      }
+     ]
+    },
+    {
+     "id": "bio9-06",
+     "titlu": "Sistemul locomotor",
+     "rezumat": "Sistemul locomotor cuprinde oasele, articulațiile și mușchii. Scheletul, cu peste 200 de oase, are rol de susținere, de protecție a organelor vitale, de depozit de calciu și de producere a celulelor sangvine în măduva roșie. Oasele sunt lungi, late sau scurte, iar creșterea în lungime are loc la nivelul cartilajelor de creștere, care se osifică la sfârșitul adolescenței. Articulațiile pot fi fixe (oasele craniului), semimobile (vertebrele) sau mobile (umărul, genunchiul), acestea din urmă având cartilaj articular, capsulă și lichid sinovial. Mușchii scheletici se prind de oase prin tendoane și acționează în perechi antagoniste: unul flexează, celălalt extinde. Contracția transformă energia chimică în lucru mecanic și căldură, motiv pentru care efortul încălzește corpul. Activitatea fizică regulată crește densitatea osoasă și forța musculară, iar sedentarismul le reduce; postura greșită și ridicarea incorectă a greutăților produc afecțiuni ale coloanei.",
+     "ideiCheie": [
+      "Scheletul susține, protejează, depozitează calciu și produce celule sangvine.",
+      "Creșterea în lungime are loc la cartilajele de creștere.",
+      "Mușchii scheletici lucrează în perechi antagoniste.",
+      "Activitatea fizică regulată crește densitatea osoasă și forța musculară."
+     ],
+     "termeni": [
+      {
+       "t": "articulație mobilă",
+       "d": "articulație cu cartilaj, capsulă și lichid sinovial, care permite mișcări ample"
+      },
+      {
+       "t": "mușchi antagoniști",
+       "d": "pereche de mușchi cu acțiuni opuse asupra aceleiași articulații"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Unde se produc celulele sangvine?",
+       "v": "În măduva roșie a oaselor."
+      },
+      {
+       "f": "Ce sunt mușchii antagoniști?",
+       "v": "Perechi de mușchi cu acțiuni opuse: unul flexează, celălalt extinde."
+      },
+      {
+       "f": "Unde are loc creșterea în lungime a oaselor?",
+       "v": "La nivelul cartilajelor de creștere."
+      },
+      {
+       "f": "Prin ce se prind mușchii scheletici de oase?",
+       "v": "Prin tendoane."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Articulațiile oaselor craniului sunt:",
+       "optiuni": [
+        "fixe",
+        "mobile",
+        "semimobile",
+        "cartilaginoase mobile"
+       ],
+       "corect": 0,
+       "explicatie": "Protejează creierul printr-o cutie rigidă."
+      },
+      {
+       "intrebare": "Lichidul sinovial se găsește în:",
+       "optiuni": [
+        "articulațiile mobile",
+        "interiorul oaselor",
+        "tendoane",
+        "mușchi"
+       ],
+       "corect": 0,
+       "explicatie": "Reduce frecarea între suprafețele articulare."
+      },
+      {
+       "intrebare": "Contracția musculară transformă energia chimică în:",
+       "optiuni": [
+        "lucru mecanic și căldură",
+        "doar lucru mecanic",
+        "energie electrică",
+        "energie luminoasă"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea efortul încălzește corpul."
+      },
+      {
+       "intrebare": "Sedentarismul duce la:",
+       "optiuni": [
+        "scăderea densității osoase și a forței musculare",
+        "creșterea masei musculare",
+        "întărirea articulațiilor",
+        "accelerarea creșterii"
+       ],
+       "corect": 0,
+       "explicatie": "Activitatea fizică are efectul invers."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bio9-c3",
+   "titlu": "Funcțiile de nutriție și reproducere",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "bio9-07",
+     "titlu": "Digestia și respirația",
+     "rezumat": "Digestia transformă alimentele în substanțe simple, absorbabile. Ea începe în cavitatea bucală, prin masticație și prin amilaza salivară, continuă în stomac, unde acidul clorhidric și pepsina atacă proteinele, și se desăvârșește în intestinul subțire, sub acțiunea sucului pancreatic, a bilei și a sucului intestinal. Absorbția are loc la nivelul vilozităților intestinale, care măresc enorm suprafața; intestinul gros absoarbe apa și găzduiește microbiota, cu rol în sinteza unor vitamine. Respirația aduce oxigenul necesar și elimină dioxidul de carbon. Aerul trece prin căile respiratorii până la alveolele pulmonare, unde are loc schimbul de gaze prin difuzie: oxigenul trece în sânge, dioxidul de carbon iese. Respirația celulară, în mitocondrii, eliberează energia din glucoză. Mișcările respiratorii sunt asigurate de diafragmă și de mușchii intercostali, iar ritmul este reglat automat de centrii bulbari, mai ales după concentrația de dioxid de carbon din sânge.",
+     "ideiCheie": [
+      "Digestia începe în cavitatea bucală și se desăvârșește în intestinul subțire.",
+      "Absorbția are loc la nivelul vilozităților intestinale.",
+      "Schimbul de gaze se face prin difuzie, la nivelul alveolelor pulmonare.",
+      "Ritmul respirator e reglat automat, mai ales după concentrația de dioxid de carbon."
+     ],
+     "termeni": [
+      {
+       "t": "vilozitate intestinală",
+       "d": "prelungire a mucoasei intestinale care mărește suprafața de absorbție"
+      },
+      {
+       "t": "respirație celulară",
+       "d": "procesul prin care celula eliberează energia din glucoză, folosind oxigen"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Unde se desăvârșește digestia?",
+       "v": "În intestinul subțire."
+      },
+      {
+       "f": "Unde are loc schimbul de gaze?",
+       "v": "La nivelul alveolelor pulmonare, prin difuzie."
+      },
+      {
+       "f": "Ce rol au vilozitățile intestinale?",
+       "v": "Măresc suprafața de absorbție a nutrienților."
+      },
+      {
+       "f": "După ce parametru se reglează, în principal, ritmul respirator?",
+       "v": "După concentrația de dioxid de carbon din sânge."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Amilaza salivară acționează asupra:",
+       "optiuni": [
+        "amidonului",
+        "proteinelor",
+        "lipidelor",
+        "vitaminelor"
+       ],
+       "corect": 0,
+       "explicatie": "Digestia glucidelor începe în gură."
+      },
+      {
+       "intrebare": "Pepsina din stomac digeră:",
+       "optiuni": [
+        "proteinele",
+        "glucidele",
+        "lipidele",
+        "fibrele"
+       ],
+       "corect": 0,
+       "explicatie": "Acționează în mediu puternic acid."
+      },
+      {
+       "intrebare": "Intestinul gros are rolul principal de a:",
+       "optiuni": [
+        "absorbi apa",
+        "digera proteinele",
+        "absorbi lipidele",
+        "produce bila"
+       ],
+       "corect": 0,
+       "explicatie": "Găzduiește și microbiota intestinală."
+      },
+      {
+       "intrebare": "Respirația celulară are loc în:",
+       "optiuni": [
+        "mitocondrii",
+        "ribozomi",
+        "nucleu",
+        "aparatul Golgi"
+       ],
+       "corect": 0,
+       "explicatie": "Acolo se eliberează energia din glucoză."
+      }
+     ]
+    },
+    {
+     "id": "bio9-08",
+     "titlu": "Circulația și excreția",
+     "rezumat": "Sângele este format din plasmă și elemente figurate: hematiile transportă oxigenul prin hemoglobină, leucocitele apără organismul, trombocitele participă la coagulare. Grupele sangvine și factorul Rh trebuie compatibile la transfuzie. Inima, un organ musculos cu patru camere, funcționează ca o pompă dublă: circulația mică duce sângele la plămâni, cea mare, la restul corpului. Arterele duc sângele de la inimă, venele îl aduc înapoi, iar capilarele, foarte subțiri, permit schimburile cu țesuturile. Tensiunea arterială și pulsul sunt indicatori de bază ai sănătății. Excreția elimină produșii toxici: rinichii filtrează sângele prin nefroni, formând urina, care este eliminată prin căile urinare; pielea elimină prin transpirație, iar plămânii, dioxidul de carbon. Rinichii reglează și echilibrul hidric și mineral, contribuind decisiv la homeostazie.",
+     "ideiCheie": [
+      "Hematiile transportă oxigenul, leucocitele apără, trombocitele coagulează.",
+      "Inima funcționează ca o pompă dublă: circulația mică și cea mare.",
+      "Capilarele permit schimburile dintre sânge și țesuturi.",
+      "Rinichii filtrează sângele prin nefroni și reglează echilibrul hidric."
+     ],
+     "termeni": [
+      {
+       "t": "nefron",
+       "d": "unitatea structurală și funcțională a rinichiului, care filtrează sângele"
+      },
+      {
+       "t": "circulație mică",
+       "d": "circuitul sângelui între inimă și plămâni, pentru oxigenare"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce transportă hematiile?",
+       "v": "Oxigenul, prin hemoglobină."
+      },
+      {
+       "f": "Care este unitatea funcțională a rinichiului?",
+       "v": "Nefronul."
+      },
+      {
+       "f": "Ce este circulația mică?",
+       "v": "Circuitul sângelui între inimă și plămâni."
+      },
+      {
+       "f": "Ce rol au trombocitele?",
+       "v": "Participă la coagularea sângelui."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Vasele care duc sângele de la inimă se numesc:",
+       "optiuni": [
+        "artere",
+        "vene",
+        "capilare",
+        "limfatice"
+       ],
+       "corect": 0,
+       "explicatie": "Venele îl aduc înapoi la inimă."
+      },
+      {
+       "intrebare": "Schimburile dintre sânge și țesuturi au loc la nivelul:",
+       "optiuni": [
+        "capilarelor",
+        "arterelor mari",
+        "venelor cave",
+        "inimii"
+       ],
+       "corect": 0,
+       "explicatie": "Pereții lor sunt foarte subțiri."
+      },
+      {
+       "intrebare": "Leucocitele au rol în:",
+       "optiuni": [
+        "apărarea organismului",
+        "transportul oxigenului",
+        "coagulare",
+        "reglarea temperaturii"
+       ],
+       "corect": 0,
+       "explicatie": "Hematiile transportă oxigenul."
+      },
+      {
+       "intrebare": "Rinichii contribuie la homeostazie prin:",
+       "optiuni": [
+        "reglarea echilibrului hidric și mineral",
+        "producerea hormonilor sexuali",
+        "digestia proteinelor",
+        "schimbul de gaze"
+       ],
+       "corect": 0,
+       "explicatie": "Filtrează sângele prin nefroni."
+      }
+     ]
+    },
+    {
+     "id": "bio9-09",
+     "titlu": "Reproducerea și sănătatea",
+     "rezumat": "Sistemele de reproducere masculin și feminin produc gameți și hormoni sexuali. Ciclul ovarian și cel uterin, coordonate hormonal, pregătesc lunar organismul feminin pentru o eventuală sarcină. Fecundația, unirea ovulului cu spermatozoidul, are loc în trompa uterină; zigotul se implantează în uter și se dezvoltă timp de aproximativ 40 de săptămâni, hrănit prin placentă. Pubertatea aduce maturizarea sexuală și schimbări fizice și psihice determinate hormonal. Sănătatea reproducerii presupune informare corectă: metodele contraceptive, prevenirea infecțiilor cu transmitere sexuală prin folosirea prezervativului și prin vaccinare (de exemplu împotriva HPV), controalele medicale periodice și dreptul de a spune nu. Consumul de alcool, tutun și droguri în sarcină afectează grav dezvoltarea fătului. Stilul de viață sănătos — alimentație echilibrată, mișcare, somn suficient, igienă, evitarea substanțelor nocive — susține toate funcțiile organismului.",
+     "ideiCheie": [
+      "Fecundația are loc în trompa uterină; dezvoltarea durează circa 40 de săptămâni.",
+      "Pubertatea aduce maturizarea sexuală, determinată hormonal.",
+      "Prezervativul și vaccinarea previn infecțiile cu transmitere sexuală.",
+      "Alcoolul, tutunul și drogurile afectează grav dezvoltarea fătului."
+     ],
+     "termeni": [
+      {
+       "t": "fecundație",
+       "d": "unirea celulei sexuale masculine cu cea feminină, cu formarea zigotului"
+      },
+      {
+       "t": "placentă",
+       "d": "organul temporar prin care fătul primește substanțe nutritive și oxigen de la mamă"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Unde are loc fecundația?",
+       "v": "În trompa uterină."
+      },
+      {
+       "f": "Cât durează, în medie, sarcina?",
+       "v": "Aproximativ 40 de săptămâni."
+      },
+      {
+       "f": "Ce rol are placenta?",
+       "v": "Asigură fătului substanțe nutritive și oxigen și elimină produșii de metabolism."
+      },
+      {
+       "f": "Împotriva cărei infecții cu transmitere sexuală există vaccin larg folosit?",
+       "v": "Împotriva HPV."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Zigotul se formează prin:",
+       "optiuni": [
+        "unirea ovulului cu spermatozoidul",
+        "diviziunea ovulului",
+        "diviziunea spermatozoidului",
+        "implantarea în uter"
+       ],
+       "corect": 0,
+       "explicatie": "Este prima celulă a noului organism."
+      },
+      {
+       "intrebare": "Prezervativul previne:",
+       "optiuni": [
+        "infecțiile cu transmitere sexuală și sarcina nedorită",
+        "doar sarcina",
+        "doar infecțiile bacteriene",
+        "numai infecțiile virale"
+       ],
+       "corect": 0,
+       "explicatie": "Este singura metodă cu dublă protecție."
+      },
+      {
+       "intrebare": "Consumul de alcool în sarcină:",
+       "optiuni": [
+        "afectează grav dezvoltarea fătului",
+        "este lipsit de efecte",
+        "are efect doar în ultimul trimestru",
+        "ajută la relaxare, fără risc"
+       ],
+       "corect": 0,
+       "explicatie": "Nu există o cantitate sigură."
+      },
+      {
+       "intrebare": "Modificările din pubertate sunt determinate în principal de:",
+       "optiuni": [
+        "hormoni",
+        "alimentație exclusiv",
+        "activitatea fizică",
+        "factori sociali"
+       ],
+       "corect": 0,
+       "explicatie": "Hipofiza declanșează procesul."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bio9-c4",
+   "titlu": "Citologie",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "bio9-10",
+     "titlu": "Compoziția chimică a celulei",
+     "rezumat": "Materia vie este alcătuită din aceleași elemente chimice ca materia nevie, dar în proporții caracteristice. Cele mai abundente sunt carbonul, hidrogenul, oxigenul și azotul, la care se adaugă fosforul și sulful; împreună formează scheletul substanțelor organice. Apa este componenta majoritară a celulei, reprezentând circa 60–70% din masa ei, și îndeplinește rol de solvent, de mediu pentru reacții și de reglator termic. Substanțele anorganice ale celulei sunt apa și sărurile minerale; ionii de sodiu, potasiu, calciu, magneziu, fier și clor intervin în transmiterea impulsului nervos, în contracția musculară, în coagulare și în structura oaselor. Substanțele organice sunt glucidele (sursă rapidă de energie), lipidele (rezervă de energie și componentă a membranelor), proteinele (rol structural, enzimatic, de apărare și de transport) și acizii nucleici (ADN și ARN, care păstrează și transmit informația genetică). Fiecare clasă de substanțe are un rol precis, iar dezechilibrele se resimt în întreg organismul: lipsa fierului duce la anemie, lipsa calciului slăbește oasele, iar un aport insuficient de proteine afectează creșterea. Vitaminele, deși necesare în cantități mici, sunt indispensabile ca reglatori ai reacțiilor. O alimentație echilibrată asigură toate aceste componente în proporțiile potrivite.",
+     "ideiCheie": [
+      "Apa reprezintă circa 60–70% din masa celulei și e solvent, mediu de reacție și reglator termic.",
+      "Elementele cele mai abundente în materia vie: carbon, hidrogen, oxigen, azot.",
+      "Substanțe organice: glucide, lipide, proteine, acizi nucleici.",
+      "Sărurile minerale intervin în impulsul nervos, contracție, coagulare și structura oaselor."
+     ],
+     "termeni": [
+      {
+       "t": "substanțe organice",
+       "d": "compuși ai carbonului sintetizați de organisme: glucide, lipide, proteine, acizi nucleici"
+      },
+      {
+       "t": "acizi nucleici",
+       "d": "substanțe organice (ADN și ARN) care păstrează și transmit informația genetică"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cât din masa celulei reprezintă apa?",
+       "v": "Aproximativ 60–70%."
+      },
+      {
+       "f": "Care sunt cele patru elemente cele mai abundente în materia vie?",
+       "v": "Carbonul, hidrogenul, oxigenul și azotul."
+      },
+      {
+       "f": "Ce rol au acizii nucleici?",
+       "v": "Păstrează și transmit informația genetică."
+      },
+      {
+       "f": "La ce duce lipsa fierului din organism?",
+       "v": "La anemie."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Componenta majoritară a celulei este:",
+       "optiuni": [
+        "apa",
+        "proteinele",
+        "glucidele",
+        "sărurile minerale"
+       ],
+       "corect": 0,
+       "explicatie": "Ea reprezintă circa 60–70% din masă."
+      },
+      {
+       "intrebare": "ADN-ul și ARN-ul fac parte din clasa:",
+       "optiuni": [
+        "acizilor nucleici",
+        "glucidelor",
+        "lipidelor",
+        "sărurilor minerale"
+       ],
+       "corect": 0,
+       "explicatie": "Ei păstrează și transmit informația genetică."
+      },
+      {
+       "intrebare": "Rezerva de energie și componenta de bază a membranelor celulare sunt asigurate de:",
+       "optiuni": [
+        "lipide",
+        "acizi nucleici",
+        "săruri minerale",
+        "apă"
+       ],
+       "corect": 0,
+       "explicatie": "Glucidele sunt sursa rapidă de energie."
+      },
+      {
+       "intrebare": "Ionul de calciu intervine, printre altele, în:",
+       "optiuni": [
+        "contracția musculară și structura oaselor",
+        "transmiterea informației genetice",
+        "fotosinteză",
+        "sinteza ARN-ului"
+       ],
+       "corect": 0,
+       "explicatie": "Este un mineral esențial pentru organism."
+      }
+     ]
+    },
+    {
+     "id": "bio9-11",
+     "titlu": "Organitele celulare",
+     "rezumat": "Citoplasma nu este un lichid omogen, ci un mediu structurat, care conține organitele — mici „organe” ale celulei, fiecare cu o funcție proprie. Mitocondriile sunt centralele energetice: în ele are loc respirația celulară, prin care energia din glucoză este eliberată și stocată sub formă de ATP. Reticulul endoplasmatic este o rețea de canale: cel rugos, acoperit cu ribozomi, participă la sinteza proteinelor, iar cel neted, la sinteza lipidelor și la detoxifiere. Ribozomii sunt sediul sintezei proteinelor, după informația adusă de ARN-ul mesager. Aparatul Golgi prelucrează, împachetează și expediază substanțele produse de celulă. Lizozomii conțin enzime digestive și descompun substanțele uzate sau particulele înglobate. Nucleul, delimitat de o membrană dublă cu pori, adăpostește cromatina, adică ADN-ul, și coordonează întreaga activitate a celulei; în nucleu se află nucleolul, unde se formează ribozomii. Celula vegetală are, în plus față de cea animală, perete celular din celuloză, care îi dă rigiditate, cloroplaste, care realizează fotosinteza, și o vacuolă mare, care menține turgescența. Această organizare pe organite permite celulei să desfășoare simultan mai multe procese, fiecare izolat în compartimentul potrivit.",
+     "ideiCheie": [
+      "Mitocondriile realizează respirația celulară și produc ATP.",
+      "Ribozomii sintetizează proteinele; aparatul Golgi le împachetează și le expediază.",
+      "Lizozomii conțin enzime digestive și descompun substanțele uzate.",
+      "Nucleul adăpostește ADN-ul și coordonează activitatea celulei."
+     ],
+     "termeni": [
+      {
+       "t": "ATP",
+       "d": "substanța care stochează și furnizează energia în celulă"
+      },
+      {
+       "t": "aparat Golgi",
+       "d": "organitul care prelucrează, împachetează și distribuie substanțele produse de celulă"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce se produce în mitocondrii?",
+       "v": "Energie, sub formă de ATP, prin respirația celulară."
+      },
+      {
+       "f": "Care organit sintetizează proteinele?",
+       "v": "Ribozomul."
+      },
+      {
+       "f": "Ce rol au lizozomii?",
+       "v": "Conțin enzime digestive și descompun substanțele uzate sau particulele înglobate."
+      },
+      {
+       "f": "Ce conține nucleul?",
+       "v": "ADN-ul (cromatina) și nucleolul, unde se formează ribozomii."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "ATP-ul este produs mai ales în:",
+       "optiuni": [
+        "mitocondrii",
+        "ribozomi",
+        "lizozomi",
+        "aparatul Golgi"
+       ],
+       "corect": 0,
+       "explicatie": "Acolo are loc respirația celulară."
+      },
+      {
+       "intrebare": "Reticulul endoplasmatic rugos participă la:",
+       "optiuni": [
+        "sinteza proteinelor",
+        "respirația celulară",
+        "fotosinteză",
+        "digestia intracelulară"
+       ],
+       "corect": 0,
+       "explicatie": "Este acoperit cu ribozomi."
+      },
+      {
+       "intrebare": "Peretele celular din celuloză este specific:",
+       "optiuni": [
+        "celulei vegetale",
+        "celulei animale",
+        "tuturor celulelor",
+        "bacteriilor exclusiv"
+       ],
+       "corect": 0,
+       "explicatie": "El îi dă rigiditate."
+      },
+      {
+       "intrebare": "Nucleolul are rolul de a:",
+       "optiuni": [
+        "forma ribozomii",
+        "produce ATP",
+        "digera substanțele",
+        "realiza fotosinteza"
+       ],
+       "corect": 0,
+       "explicatie": "Se află în interiorul nucleului."
+      }
+     ]
+    },
+    {
+     "id": "bio9-12",
+     "titlu": "Transportul prin membrană",
+     "rezumat": "Membrana celulară controlează strict ce intră și ce iese din celulă, fiind semipermeabilă. Transportul pasiv se face fără consum de energie, în sensul gradientului de concentrație, adică dinspre zona mai concentrată spre cea mai diluată. Difuzia simplă permite trecerea moleculelor mici (oxigen, dioxid de carbon), difuzia facilitată folosește proteine transportoare, iar osmoza este difuzia apei printr-o membrană semipermeabilă. Transportul activ se face cu consum de energie (ATP) și poate merge împotriva gradientului de concentrație, de la zona diluată spre cea concentrată; un exemplu este pompa de sodiu-potasiu, esențială pentru funcționarea neuronilor și a mușchilor. Pentru particule mari, celula folosește endocitoza (înglobarea, prin înfundarea membranei) și exocitoza (eliminarea, prin fuziunea unei vezicule cu membrana). Osmoza explică fenomene importante: o celulă pusă într-o soluție mai diluată decât conținutul ei absoarbe apă și se umflă, iar într-o soluție mai concentrată pierde apă și se zbârcește. De aceea perfuziile trebuie să aibă concentrația potrivită și de aceea legumele puse în apă cu sare lasă apă. Reglarea acestor schimburi menține echilibrul intern al celulei.",
+     "ideiCheie": [
+      "Transportul pasiv nu consumă energie și urmează gradientul de concentrație.",
+      "Osmoza este difuzia apei printr-o membrană semipermeabilă.",
+      "Transportul activ consumă ATP și poate merge împotriva gradientului.",
+      "Endocitoza înglobează, exocitoza elimină particule mari."
+     ],
+     "termeni": [
+      {
+       "t": "transport pasiv",
+       "d": "trecerea substanțelor prin membrană fără consum de energie, în sensul gradientului de concentrație"
+      },
+      {
+       "t": "transport activ",
+       "d": "trecerea substanțelor prin membrană cu consum de energie, împotriva gradientului de concentrație"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Prin ce diferă transportul activ de cel pasiv?",
+       "v": "Transportul activ consumă energie și poate merge împotriva gradientului de concentrație."
+      },
+      {
+       "f": "Ce este osmoza?",
+       "v": "Difuzia apei printr-o membrană semipermeabilă."
+      },
+      {
+       "f": "Cum înglobează celula particule mari?",
+       "v": "Prin endocitoză."
+      },
+      {
+       "f": "Ce se întâmplă cu o celulă pusă într-o soluție mai concentrată?",
+       "v": "Pierde apă și se zbârcește."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Difuzia se face:",
+       "optiuni": [
+        "fără consum de energie, în sensul gradientului",
+        "cu consum de energie, împotriva gradientului",
+        "doar prin endocitoză",
+        "numai pentru particule mari"
+       ],
+       "corect": 0,
+       "explicatie": "Este o formă de transport pasiv."
+      },
+      {
+       "intrebare": "Pompa de sodiu-potasiu este un exemplu de:",
+       "optiuni": [
+        "transport activ",
+        "difuzie simplă",
+        "osmoză",
+        "exocitoză"
+       ],
+       "corect": 0,
+       "explicatie": "Consumă ATP și merge împotriva gradientului."
+      },
+      {
+       "intrebare": "O celulă pusă într-o soluție mai diluată decât conținutul ei:",
+       "optiuni": [
+        "absoarbe apă și se umflă",
+        "pierde apă și se zbârcește",
+        "rămâne neschimbată",
+        "se divide imediat"
+       ],
+       "corect": 0,
+       "explicatie": "Apa intră prin osmoză."
+      },
+      {
+       "intrebare": "Eliminarea unor particule mari din celulă se face prin:",
+       "optiuni": [
+        "exocitoză",
+        "endocitoză",
+        "difuzie simplă",
+        "osmoză"
+       ],
+       "corect": 0,
+       "explicatie": "O veziculă fuzionează cu membrana."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bio9-c5",
+   "titlu": "Histologie",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "bio9-13",
+     "titlu": "Țesuturile epiteliale",
+     "rezumat": "Țesutul epitelial este format din celule strâns unite, așezate pe o membrană bazală, fără vase de sânge proprii; se hrănește prin difuzie de la țesuturile vecine. După rol, se împarte în epitelii de acoperire, care căptușesc suprafețele externe și cavitățile interne, și epitelii glandulare, specializate în secreție. Epiteliile de acoperire se clasifică după numărul de straturi (unistratificate sau pluristratificate) și după forma celulelor (pavimentoase, cubice, cilindrice). Epidermul, stratul exterior al pielii, este un epiteliu pluristratificat pavimentos, cu rol de protecție; mucoasa care căptușește intestinul este un epiteliu unistratificat cilindric, adaptat pentru absorbție. Epiteliile glandulare formează glandele. Glandele exocrine își varsă produsul printr-un canal, la suprafață sau într-o cavitate — glandele sudoripare, salivare, sebacee. Glandele endocrine nu au canal și își varsă hormonii direct în sânge — tiroida, hipofiza. Există și glande mixte, precum pancreasul, care are atât o parte exocrină (sucul pancreatic), cât și una endocrină (insulina și glucagonul).",
+     "ideiCheie": [
+      "Țesutul epitelial nu are vase proprii și se hrănește prin difuzie.",
+      "Epiteliile de acoperire căptușesc suprafețele; cele glandulare secretă.",
+      "Glandele exocrine au canal; cele endocrine varsă hormonii direct în sânge.",
+      "Pancreasul este o glandă mixtă, exo- și endocrină."
+     ],
+     "termeni": [
+      {
+       "t": "epiteliu de acoperire",
+       "d": "țesut epitelial care căptușește suprafețele externe și cavitățile interne ale corpului"
+      },
+      {
+       "t": "glandă endocrină",
+       "d": "glandă fără canal, care își varsă hormonii direct în sânge"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "De ce nu are țesutul epitelial vase de sânge proprii?",
+       "v": "Se hrănește prin difuzie de la țesuturile vecine."
+      },
+      {
+       "f": "Prin ce diferă o glandă exocrină de una endocrină?",
+       "v": "Cea exocrină are canal de eliminare; cea endocrină varsă hormonii direct în sânge."
+      },
+      {
+       "f": "Ce fel de epiteliu este epidermul?",
+       "v": "Un epiteliu pluristratificat pavimentos, cu rol de protecție."
+      },
+      {
+       "f": "De ce este pancreasul o glandă mixtă?",
+       "v": "Are o parte exocrină (sucul pancreatic) și una endocrină (insulina și glucagonul)."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Țesutul epitelial se hrănește prin:",
+       "optiuni": [
+        "difuzie de la țesuturile vecine",
+        "vase de sânge proprii",
+        "nervi",
+        "vase limfatice proprii"
+       ],
+       "corect": 0,
+       "explicatie": "Nu are vase proprii."
+      },
+      {
+       "intrebare": "Glandele care își varsă produsul printr-un canal sunt:",
+       "optiuni": [
+        "exocrine",
+        "endocrine",
+        "mixte exclusiv",
+        "fără secreție"
+       ],
+       "corect": 0,
+       "explicatie": "Glandele sudoripare și salivare sunt exocrine."
+      },
+      {
+       "intrebare": "Epidermul este un epiteliu:",
+       "optiuni": [
+        "pluristratificat, de protecție",
+        "unistratificat, de absorbție",
+        "glandular endocrin",
+        "muscular"
+       ],
+       "corect": 0,
+       "explicatie": "Protejează suprafața corpului."
+      },
+      {
+       "intrebare": "Tiroida și hipofiza sunt glande:",
+       "optiuni": [
+        "endocrine",
+        "exocrine",
+        "sudoripare",
+        "sebacee"
+       ],
+       "corect": 0,
+       "explicatie": "Varsă hormonii direct în sânge."
+      }
+     ]
+    },
+    {
+     "id": "bio9-14",
+     "titlu": "Țesuturile conjunctive",
+     "rezumat": "Țesutul conjunctiv leagă, susține și hrănește celelalte țesuturi. Spre deosebire de epitelii, are puține celule și multă substanță fundamentală, în care se găsesc fibre. După consistența substanței fundamentale, se deosebesc mai multe tipuri: moale, semidur, dur și lichid. Țesutul conjunctiv moale umple spațiile dintre organe și depozitează grăsime (țesutul adipos). Țesutul cartilaginos, semidur și elastic, se află la capetele oaselor, în pavilionul urechii și în inelele traheei; nu are vase, de aceea se vindecă greu. Țesutul osos, dur, este mineralizat cu săruri de calciu și formează scheletul; conține și măduva, unde se produc celulele sangvine. Sângele este un țesut conjunctiv cu substanță fundamentală lichidă, plasma, în care plutesc elementele figurate: hematiile, care transportă oxigenul, leucocitele, care apără organismul, și trombocitele, care participă la coagulare. Faptul că sângele este considerat țesut arată cât de largă este categoria conjunctivelor, unite prin abundența substanței fundamentale.",
+     "ideiCheie": [
+      "Țesuturile conjunctive au puține celule și multă substanță fundamentală.",
+      "Tipuri: moale (adipos), cartilaginos, osos și sângele.",
+      "Cartilajul nu are vase și se vindecă greu.",
+      "Sângele este un țesut conjunctiv cu substanță fundamentală lichidă."
+     ],
+     "termeni": [
+      {
+       "t": "substanță fundamentală",
+       "d": "masa dintre celulele unui țesut conjunctiv, în care se află fibrele"
+      },
+      {
+       "t": "țesut cartilaginos",
+       "d": "țesut conjunctiv semidur și elastic, fără vase de sânge"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce caracterizează țesuturile conjunctive față de epitelii?",
+       "v": "Au puține celule și multă substanță fundamentală."
+      },
+      {
+       "f": "De ce se vindecă greu cartilajul?",
+       "v": "Pentru că nu are vase de sânge."
+      },
+      {
+       "f": "Ce tip de țesut este sângele?",
+       "v": "Un țesut conjunctiv cu substanță fundamentală lichidă."
+      },
+      {
+       "f": "Unde se produc celulele sangvine?",
+       "v": "În măduva roșie din interiorul oaselor."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Substanța fundamentală este abundentă în:",
+       "optiuni": [
+        "țesuturile conjunctive",
+        "țesuturile epiteliale",
+        "țesutul nervos",
+        "epiteliile glandulare"
+       ],
+       "corect": 0,
+       "explicatie": "Ea conține fibrele."
+      },
+      {
+       "intrebare": "Țesutul adipos, care depozitează grăsime, este un conjunctiv:",
+       "optiuni": [
+        "moale",
+        "osos",
+        "cartilaginos",
+        "lichid"
+       ],
+       "corect": 0,
+       "explicatie": "Umple și spațiile dintre organe."
+      },
+      {
+       "intrebare": "Inelele traheei și pavilionul urechii conțin țesut:",
+       "optiuni": [
+        "cartilaginos",
+        "osos",
+        "adipos",
+        "epitelial"
+       ],
+       "corect": 0,
+       "explicatie": "Este semidur și elastic."
+      },
+      {
+       "intrebare": "Plasma este substanța fundamentală a:",
+       "optiuni": [
+        "sângelui",
+        "cartilajului",
+        "osului",
+        "epidermului"
+       ],
+       "corect": 0,
+       "explicatie": "De aceea sângele e țesut conjunctiv."
+      }
+     ]
+    },
+    {
+     "id": "bio9-15",
+     "titlu": "Țesuturile muscular și nervos",
+     "rezumat": "Țesutul muscular este format din celule alungite, contractile, care transformă energia chimică în mișcare. Există trei tipuri. Mușchiul striat scheletic, cu aspect vărgat la microscop, se prinde de oase și este voluntar, adică se contractă la comandă. Mușchiul neted, fără striații, se află în pereții organelor interne (stomac, intestine, vase) și este involuntar. Mușchiul cardiac, striat dar involuntar, formează inima și se contractă ritmic, neobosit, toată viața. Țesutul nervos este specializat în recepționarea, prelucrarea și transmiterea informației. Este format din neuroni, celulele funcționale, și din celule gliale, care îi susțin și îi hrănesc. Neuronul are un corp celular, prelungiri scurte și ramificate (dendritele), care primesc informația, și o prelungire lungă (axonul), care o transmite mai departe. Impulsul nervos este un semnal electric care circulă de-a lungul neuronului; între doi neuroni, transmiterea se face chimic, la nivelul sinapsei, prin substanțe numite neurotransmițători. Aceste două țesuturi, muscular și nervos, colaborează strâns: sistemul nervos comandă, iar mușchii execută mișcarea, într-o coordonare permanentă.",
+     "ideiCheie": [
+      "Mușchiul striat scheletic este voluntar; cel neted și cel cardiac sunt involuntare.",
+      "Mușchiul cardiac este striat, dar se contractă involuntar și ritmic.",
+      "Neuronul are corp celular, dendrite (primesc) și axon (transmite).",
+      "Între neuroni, transmiterea se face chimic, la sinapsă."
+     ],
+     "termeni": [
+      {
+       "t": "mușchi neted",
+       "d": "țesut muscular involuntar, fără striații, din pereții organelor interne"
+      },
+      {
+       "t": "celule gliale",
+       "d": "celule ale țesutului nervos care susțin și hrănesc neuronii"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt cele trei tipuri de țesut muscular?",
+       "v": "Striat scheletic, neted și cardiac."
+      },
+      {
+       "f": "Ce particularitate are mușchiul cardiac?",
+       "v": "Este striat, dar involuntar, și se contractă ritmic toată viața."
+      },
+      {
+       "f": "Ce prelungire a neuronului transmite informația mai departe?",
+       "v": "Axonul."
+      },
+      {
+       "f": "Cum se transmite impulsul între doi neuroni?",
+       "v": "Chimic, prin neurotransmițători, la nivelul sinapsei."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Mușchiul din pereții intestinului este:",
+       "optiuni": [
+        "neted, involuntar",
+        "striat scheletic, voluntar",
+        "cardiac",
+        "epitelial"
+       ],
+       "corect": 0,
+       "explicatie": "Nu se contractă la comandă."
+      },
+      {
+       "intrebare": "Mușchiul cardiac este:",
+       "optiuni": [
+        "striat, dar involuntar",
+        "neted și voluntar",
+        "striat și voluntar",
+        "neted și involuntar"
+       ],
+       "corect": 0,
+       "explicatie": "Se contractă ritmic, neobosit."
+      },
+      {
+       "intrebare": "Prelungirile scurte ale neuronului, care primesc informația, sunt:",
+       "optiuni": [
+        "dendritele",
+        "axonul",
+        "sinapsele",
+        "celulele gliale"
+       ],
+       "corect": 0,
+       "explicatie": "Axonul o transmite mai departe."
+      },
+      {
+       "intrebare": "Celulele care susțin și hrănesc neuronii se numesc:",
+       "optiuni": [
+        "celule gliale",
+        "hematii",
+        "fibre musculare",
+        "celule epiteliale"
+       ],
+       "corect": 0,
+       "explicatie": "Neuronii sunt celulele funcționale."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bio9-c6",
+   "titlu": "Metabolism, imunitate și sănătate",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "bio9-16",
+     "titlu": "Metabolismul și enzimele",
+     "rezumat": "Metabolismul este ansamblul reacțiilor chimice prin care organismul își asigură materia și energia. El are două laturi complementare. Anabolismul cuprinde reacțiile de construcție, prin care din substanțe simple se sintetizează substanțe complexe, cu consum de energie — de exemplu, formarea proteinelor din aminoacizi. Catabolismul cuprinde reacțiile de descompunere, prin care substanțele complexe sunt desfăcute, cu eliberare de energie — de exemplu, descompunerea glucozei în respirația celulară. Energia eliberată prin catabolism este stocată în ATP și folosită apoi de anabolism, de contracția musculară, de transportul activ și de menținerea temperaturii corpului. Metabolismul bazal este energia minimă necesară pentru funcțiile vitale în repaus; el variază cu vârsta, sexul și masa musculară. Aproape toate reacțiile din organism sunt catalizate de enzime, proteine care măresc viteza reacțiilor fără a se consuma. Fiecare enzimă acționează specific, asupra unui anumit substrat, ca o cheie într-o broască. Enzimele sunt sensibile la temperatură și la pH: în afara valorilor optime, ele se denaturează și își pierd activitatea, motiv pentru care febra mare este periculoasă.",
+     "ideiCheie": [
+      "Anabolismul construiește, cu consum de energie; catabolismul descompune, cu eliberare de energie.",
+      "Energia este stocată și furnizată sub formă de ATP.",
+      "Enzimele catalizează reacțiile organismului, fără a se consuma.",
+      "Enzimele acționează specific și sunt sensibile la temperatură și pH."
+     ],
+     "termeni": [
+      {
+       "t": "metabolism",
+       "d": "ansamblul reacțiilor de sinteză (anabolism) și de descompunere (catabolism) din organism"
+      },
+      {
+       "t": "enzimă",
+       "d": "proteină care mărește viteza unei reacții biochimice fără a se consuma"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este anabolismul?",
+       "v": "Ansamblul reacțiilor de construcție, cu consum de energie."
+      },
+      {
+       "f": "Ce este catabolismul?",
+       "v": "Ansamblul reacțiilor de descompunere, cu eliberare de energie."
+      },
+      {
+       "f": "Ce rol au enzimele?",
+       "v": "Catalizează reacțiile din organism, mărindu-le viteza fără a se consuma."
+      },
+      {
+       "f": "De ce este periculoasă febra mare?",
+       "v": "Pentru că temperatura ridicată denaturează enzimele."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Respirația celulară, prin care glucoza e descompusă cu eliberare de energie, aparține:",
+       "optiuni": [
+        "catabolismului",
+        "anabolismului",
+        "fotosintezei",
+        "digestiei mecanice"
+       ],
+       "corect": 0,
+       "explicatie": "Descompune substanțe complexe."
+      },
+      {
+       "intrebare": "Energia din celulă este stocată sub formă de:",
+       "optiuni": [
+        "ATP",
+        "ADN",
+        "glicogen exclusiv",
+        "apă"
+       ],
+       "corect": 0,
+       "explicatie": "Ea este apoi folosită de procesele consumatoare."
+      },
+      {
+       "intrebare": "Enzimele sunt, din punct de vedere chimic:",
+       "optiuni": [
+        "proteine",
+        "glucide",
+        "lipide",
+        "săruri minerale"
+       ],
+       "corect": 0,
+       "explicatie": "Ele catalizează reacțiile biochimice."
+      },
+      {
+       "intrebare": "Fiecare enzimă acționează:",
+       "optiuni": [
+        "specific, asupra unui anumit substrat",
+        "asupra oricărei substanțe",
+        "doar la temperaturi foarte mari",
+        "fără legătură cu pH-ul"
+       ],
+       "corect": 0,
+       "explicatie": "Funcționează ca o cheie într-o broască."
+      }
+     ]
+    },
+    {
+     "id": "bio9-17",
+     "titlu": "Imunitatea",
+     "rezumat": "Imunitatea este capacitatea organismului de a se apăra împotriva agenților patogeni: bacterii, virusuri, ciuperci, paraziți. Prima linie de apărare este imunitatea nespecifică (înnăscută), care acționează la fel împotriva oricărui intrus: bariere fizice și chimice (pielea, mucoasele, aciditatea sucului gastric), inflamația și fagocitoza, prin care anumite leucocite înglobează și distrug microbii. Când agentul patogen trece de aceste bariere, intră în acțiune imunitatea specifică (dobândită), mai lentă, dar precisă și cu memorie. Ea recunoaște antigenul — substanța străină — și produce anticorpi, proteine care se leagă specific de el și îl neutralizează. După o primă întâlnire, organismul păstrează celule de memorie, astfel încât la o expunere ulterioară reacția este mult mai rapidă și mai puternică. Pe acest principiu se bazează vaccinarea: introducerea unui agent patogen slăbit, omorât sau a unei părți din el determină organismul să producă anticorpi și celule de memorie, fără să treacă prin boală. Vaccinurile au eradicat variola și au redus drastic boli grave precum poliomielita, rujeola sau tetanosul. Imunitatea explică și de ce, de regulă, nu ne îmbolnăvim de două ori de aceeași boală.",
+     "ideiCheie": [
+      "Imunitatea nespecifică e prima linie de apărare, la fel împotriva oricărui intrus.",
+      "Imunitatea specifică recunoaște antigenul și produce anticorpi.",
+      "Celulele de memorie fac reacția mai rapidă la o nouă expunere.",
+      "Vaccinarea produce anticorpi și memorie, fără a trece prin boală."
+     ],
+     "termeni": [
+      {
+       "t": "anticorp",
+       "d": "proteină produsă de organism, care se leagă specific de un antigen și îl neutralizează"
+      },
+      {
+       "t": "vaccinare",
+       "d": "introducerea unui agent patogen slăbit sau a unei părți din el, pentru a stimula imunitatea"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care este prima linie de apărare a organismului?",
+       "v": "Imunitatea nespecifică: bariere, inflamație, fagocitoză."
+      },
+      {
+       "f": "Ce sunt anticorpii?",
+       "v": "Proteine care se leagă specific de un antigen și îl neutralizează."
+      },
+      {
+       "f": "Pe ce se bazează efectul vaccinării?",
+       "v": "Pe producerea de anticorpi și de celule de memorie, fără a trece prin boală."
+      },
+      {
+       "f": "De ce, de regulă, nu ne îmbolnăvim de două ori de aceeași boală?",
+       "v": "Datorită celulelor de memorie ale imunității specifice."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Fagocitoza, prin care leucocitele înglobează microbii, aparține imunității:",
+       "optiuni": [
+        "nespecifice",
+        "specifice",
+        "exclusiv dobândite",
+        "prin anticorpi"
+       ],
+       "corect": 0,
+       "explicatie": "Acționează la fel împotriva oricărui intrus."
+      },
+      {
+       "intrebare": "Anticorpii sunt produși de imunitatea:",
+       "optiuni": [
+        "specifică",
+        "nespecifică",
+        "înnăscută",
+        "prin bariere fizice"
+       ],
+       "corect": 0,
+       "explicatie": "Ea recunoaște antigenul."
+      },
+      {
+       "intrebare": "Vaccinarea determină organismul să:",
+       "optiuni": [
+        "producă anticorpi și celule de memorie",
+        "se îmbolnăvească grav",
+        "piardă imunitatea",
+        "producă antigene proprii"
+       ],
+       "corect": 0,
+       "explicatie": "Toate astea fără a trece prin boală."
+      },
+      {
+       "intrebare": "Pielea și aciditatea sucului gastric sunt:",
+       "optiuni": [
+        "bariere ale imunității nespecifice",
+        "anticorpi",
+        "antigene",
+        "celule de memorie"
+       ],
+       "corect": 0,
+       "explicatie": "Reprezintă prima linie de apărare."
+      }
+     ]
+    },
+    {
+     "id": "bio9-18",
+     "titlu": "Igiena, prevenția și stilul de viață",
+     "rezumat": "Sănătatea se păstrează mai ușor decât se recâștigă, de aceea prevenția este esențială. Igiena personală — spălatul mâinilor, îngrijirea dinților, curățenia corpului și a hainelor — reduce mult riscul de infecții. Igiena alimentară presupune spălarea alimentelor, prepararea corectă și păstrarea lor la temperatura potrivită, pentru a împiedica înmulțirea microbilor. Un stil de viață sănătos se sprijină pe câțiva piloni: alimentație echilibrată, bogată în legume, fructe și cereale integrale și săracă în zahăr, sare și grăsimi saturate; mișcare fizică regulată, care întărește inima, mușchii și oasele; somn suficient, care reface organismul și consolidează memoria; și evitarea substanțelor nocive — tutun, alcool, droguri. Bolile se împart, după cauză, în transmisibile (produse de agenți patogeni, precum gripa sau tuberculoza) și netransmisibile (legate de stilul de viață și de ereditate, precum diabetul, bolile cardiovasculare sau obezitatea). Multe boli netransmisibile pot fi prevenite prin alimentație, mișcare și renunțarea la fumat. Controalele medicale periodice depistează problemele din timp, când sunt mai ușor de tratat. Informația despre sănătate trebuie luată din surse verificate.",
+     "ideiCheie": [
+      "Igiena personală și alimentară reduce mult riscul de infecții.",
+      "Pilonii unui stil de viață sănătos: alimentație, mișcare, somn, evitarea nocivelor.",
+      "Bolile pot fi transmisibile sau netransmisibile.",
+      "Controalele periodice depistează bolile din timp."
+     ],
+     "termeni": [
+      {
+       "t": "boală transmisibilă",
+       "d": "boală produsă de un agent patogen, care se poate transmite de la un organism la altul"
+      },
+      {
+       "t": "prevenție",
+       "d": "ansamblul măsurilor prin care se evită apariția bolilor"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "De ce este importantă igiena mâinilor?",
+       "v": "Reduce mult riscul de infecții."
+      },
+      {
+       "f": "Care sunt pilonii unui stil de viață sănătos?",
+       "v": "Alimentația echilibrată, mișcarea, somnul suficient și evitarea substanțelor nocive."
+      },
+      {
+       "f": "Prin ce se deosebesc bolile transmisibile de cele netransmisibile?",
+       "v": "Cele transmisibile sunt produse de agenți patogeni; cele netransmisibile țin de stilul de viață și de ereditate."
+      },
+      {
+       "f": "La ce folosesc controalele medicale periodice?",
+       "v": "Depistează bolile din timp, când sunt mai ușor de tratat."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Diabetul și bolile cardiovasculare sunt, de regulă, boli:",
+       "optiuni": [
+        "netransmisibile",
+        "transmisibile",
+        "produse de virusuri",
+        "contagioase"
+       ],
+       "corect": 0,
+       "explicatie": "Țin de stilul de viață și de ereditate."
+      },
+      {
+       "intrebare": "Gripa și tuberculoza sunt boli:",
+       "optiuni": [
+        "transmisibile",
+        "netransmisibile",
+        "ereditare exclusiv",
+        "provocate de alimentație"
+       ],
+       "corect": 0,
+       "explicatie": "Sunt produse de agenți patogeni."
+      },
+      {
+       "intrebare": "Somnul suficient are rolul de a:",
+       "optiuni": [
+        "reface organismul și a consolida memoria",
+        "crește masa musculară exclusiv",
+        "înlocui alimentația",
+        "elimina nevoia de mișcare"
+       ],
+       "corect": 0,
+       "explicatie": "Lipsa lui afectează atenția și sănătatea."
+      },
+      {
+       "intrebare": "Cea mai eficientă cale de a păstra sănătatea este:",
+       "optiuni": [
+        "prevenția, prin stil de viață sănătos și controale periodice",
+        "tratarea bolilor după ce apar",
+        "folosirea multor medicamente",
+        "evitarea medicilor"
+       ],
+       "corect": 0,
+       "explicatie": "Sănătatea se păstrează mai ușor decât se recâștigă."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "teze": [
+  {
+   "semestru": 1,
+   "test": [
+    {
+     "intrebare": "Apa reprezintă din masa celulei aproximativ:",
+     "optiuni": [
+      "60–70%",
+      "10%",
+      "30%",
+      "95%"
+     ],
+     "corect": 0,
+     "explicatie": "Este componenta majoritară."
+    },
+    {
+     "intrebare": "Acizii nucleici (ADN și ARN) au rolul de a:",
+     "optiuni": [
+      "păstra și transmite informația genetică",
+      "produce energie",
+      "forma membranele",
+      "transporta oxigenul"
+     ],
+     "corect": 0,
+     "explicatie": "Sunt substanțe organice esențiale."
+    },
+    {
+     "intrebare": "Transportul activ prin membrană:",
+     "optiuni": [
+      "consumă energie și poate merge împotriva gradientului",
+      "nu consumă energie",
+      "se face doar prin osmoză",
+      "este identic cu difuzia"
+     ],
+     "corect": 0,
+     "explicatie": "Pompa de sodiu-potasiu este un exemplu."
+    },
+    {
+     "intrebare": "Sinteza proteinelor are loc la nivelul:",
+     "optiuni": [
+      "ribozomilor",
+      "mitocondriilor",
+      "lizozomilor",
+      "aparatului Golgi"
+     ],
+     "corect": 0,
+     "explicatie": "Mitocondriile produc energie."
+    },
+    {
+     "intrebare": "Lizozomii conțin:",
+     "optiuni": [
+      "enzime digestive",
+      "pigmenți fotosintetici",
+      "ADN",
+      "hemoglobină"
+     ],
+     "corect": 0,
+     "explicatie": "Descompun substanțele uzate."
+    },
+    {
+     "intrebare": "Osmoza este trecerea:",
+     "optiuni": [
+      "apei printr-o membrană semipermeabilă",
+      "proteinelor prin membrană",
+      "ionilor cu consum de energie",
+      "gazelor prin perete celular"
+     ],
+     "corect": 0,
+     "explicatie": "Se face fără consum de energie."
+    },
+    {
+     "intrebare": "Celula procariotă se deosebește prin:",
+     "optiuni": [
+      "lipsa nucleului delimitat de membrană",
+      "lipsa membranei celulare",
+      "lipsa materialului genetic",
+      "prezența cloroplastelor"
+     ],
+     "corect": 0,
+     "explicatie": "Bacteriile sunt procariote."
+    },
+    {
+     "intrebare": "Mitocondria are rol în:",
+     "optiuni": [
+      "producerea energiei",
+      "sinteza proteinelor",
+      "digestia intracelulară",
+      "depozitarea apei"
+     ],
+     "corect": 0,
+     "explicatie": "Acolo are loc respirația celulară."
+    },
+    {
+     "intrebare": "Mitoza produce:",
+     "optiuni": [
+      "două celule identice cu cea inițială",
+      "patru celule cu jumătate din cromozomi",
+      "celule sexuale",
+      "celule fără nucleu"
+     ],
+     "corect": 0,
+     "explicatie": "Meioza produce gameți."
+    },
+    {
+     "intrebare": "Omul are:",
+     "optiuni": [
+      "46 de cromozomi",
+      "23 de cromozomi",
+      "48 de cromozomi",
+      "44 de cromozomi"
+     ],
+     "corect": 0,
+     "explicatie": "Grupați în 23 de perechi."
+    },
+    {
+     "intrebare": "Sângele este un țesut:",
+     "optiuni": [
+      "conjunctiv",
+      "epitelial",
+      "muscular",
+      "nervos"
+     ],
+     "corect": 0,
+     "explicatie": "Are substanță fundamentală lichidă."
+    },
+    {
+     "intrebare": "Transmiterea informației între doi neuroni se face:",
+     "optiuni": [
+      "chimic, prin sinapsă",
+      "electric, direct",
+      "prin difuzie simplă",
+      "prin sânge"
+     ],
+     "corect": 0,
+     "explicatie": "Neurotransmițătorii traversează spațiul sinaptic."
+    },
+    {
+     "intrebare": "Echilibrul și coordonarea fină sunt asigurate de:",
+     "optiuni": [
+      "cerebel",
+      "emisferele cerebrale",
+      "trunchiul cerebral",
+      "măduva spinării"
+     ],
+     "corect": 0,
+     "explicatie": "Trunchiul reglează funcțiile vitale."
+    },
+    {
+     "intrebare": "Insulina este secretată de:",
+     "optiuni": [
+      "pancreas",
+      "tiroidă",
+      "hipofiză",
+      "suprarenale"
+     ],
+     "corect": 0,
+     "explicatie": "Scade glicemia."
+    },
+    {
+     "intrebare": "Măduva roșie a oaselor produce:",
+     "optiuni": [
+      "celulele sangvine",
+      "hormoni sexuali",
+      "enzime digestive",
+      "lichid sinovial"
+     ],
+     "corect": 0,
+     "explicatie": "Este și depozit de calciu osul în ansamblu."
+    }
+   ]
+  },
+  {
+   "semestru": 2,
+   "test": [
+    {
+     "intrebare": "Sângele este un țesut conjunctiv pentru că:",
+     "optiuni": [
+      "are multă substanță fundamentală, lichidă (plasma)",
+      "are celule strâns unite",
+      "conduce impulsuri nervoase",
+      "se contractă"
+     ],
+     "corect": 0,
+     "explicatie": "Elementele figurate plutesc în plasmă."
+    },
+    {
+     "intrebare": "Mușchiul neted din pereții organelor interne este:",
+     "optiuni": [
+      "involuntar",
+      "voluntar",
+      "striat și voluntar",
+      "prins de oase"
+     ],
+     "corect": 0,
+     "explicatie": "Nu se contractă la comandă."
+    },
+    {
+     "intrebare": "Glandele endocrine își varsă produsul:",
+     "optiuni": [
+      "direct în sânge",
+      "printr-un canal, la suprafață",
+      "în intestin",
+      "în afara corpului"
+     ],
+     "corect": 0,
+     "explicatie": "Tiroida și hipofiza sunt exemple."
+    },
+    {
+     "intrebare": "Catabolismul este ansamblul reacțiilor de:",
+     "optiuni": [
+      "descompunere, cu eliberare de energie",
+      "construcție, cu consum de energie",
+      "transport prin membrană",
+      "diviziune celulară"
+     ],
+     "corect": 0,
+     "explicatie": "Respirația celulară este un exemplu."
+    },
+    {
+     "intrebare": "Anticorpii sunt produși de imunitatea:",
+     "optiuni": [
+      "specifică",
+      "nespecifică",
+      "înnăscută exclusiv",
+      "prin bariere fizice"
+     ],
+     "corect": 0,
+     "explicatie": "Ei se leagă specific de antigen."
+    },
+    {
+     "intrebare": "Vaccinarea protejează prin:",
+     "optiuni": [
+      "producerea de anticorpi și celule de memorie",
+      "îmbolnăvirea gravă a organismului",
+      "distrugerea imunității",
+      "eliminarea antigenelor proprii"
+     ],
+     "corect": 0,
+     "explicatie": "Nu trece prin boală."
+    },
+    {
+     "intrebare": "Mușchii scheletici se prind de oase prin:",
+     "optiuni": [
+      "tendoane",
+      "ligamente",
+      "cartilaje",
+      "capsule articulare"
+     ],
+     "corect": 0,
+     "explicatie": "Ligamentele leagă oasele între ele."
+    },
+    {
+     "intrebare": "Digestia amidonului începe:",
+     "optiuni": [
+      "în cavitatea bucală",
+      "în stomac",
+      "în intestinul subțire",
+      "în intestinul gros"
+     ],
+     "corect": 0,
+     "explicatie": "Prin amilaza salivară."
+    },
+    {
+     "intrebare": "Absorbția nutrienților are loc mai ales:",
+     "optiuni": [
+      "în intestinul subțire",
+      "în stomac",
+      "în intestinul gros",
+      "în esofag"
+     ],
+     "corect": 0,
+     "explicatie": "La nivelul vilozităților intestinale."
+    },
+    {
+     "intrebare": "Schimbul de gaze din plămâni se face prin:",
+     "optiuni": [
+      "difuzie",
+      "transport activ",
+      "osmoză",
+      "fagocitoză"
+     ],
+     "corect": 0,
+     "explicatie": "La nivelul alveolelor pulmonare."
+    },
+    {
+     "intrebare": "Hemoglobina se află în:",
+     "optiuni": [
+      "hematii",
+      "leucocite",
+      "trombocite",
+      "plasmă"
+     ],
+     "corect": 0,
+     "explicatie": "Ea transportă oxigenul."
+    },
+    {
+     "intrebare": "Unitatea funcțională a rinichiului este:",
+     "optiuni": [
+      "nefronul",
+      "alveola",
+      "neuronul",
+      "vilozitatea"
+     ],
+     "corect": 0,
+     "explicatie": "Filtrează sângele și formează urina."
+    },
+    {
+     "intrebare": "Circulația mare duce sângele:",
+     "optiuni": [
+      "de la inimă la restul corpului",
+      "de la inimă la plămâni",
+      "de la plămâni la inimă",
+      "doar prin capilare"
+     ],
+     "corect": 0,
+     "explicatie": "Circulația mică merge la plămâni."
+    },
+    {
+     "intrebare": "Fecundația are loc în:",
+     "optiuni": [
+      "trompa uterină",
+      "uter",
+      "ovar",
+      "vagin"
+     ],
+     "corect": 0,
+     "explicatie": "Zigotul se implantează apoi în uter."
+    },
+    {
+     "intrebare": "Vaccinarea împotriva HPV previne:",
+     "optiuni": [
+      "o infecție cu transmitere sexuală",
+      "gripa sezonieră",
+      "hepatita A",
+      "tuberculoza"
+     ],
+     "corect": 0,
+     "explicatie": "Reduce riscul de cancer de col uterin."
+    }
+   ]
+  }
+ ]
+}

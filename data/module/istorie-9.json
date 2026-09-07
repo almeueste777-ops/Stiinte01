@@ -1,0 +1,2613 @@
+{
+ "id": "istorie-9",
+ "materie": "Istorie",
+ "clasa": "a IX-a",
+ "an": 1,
+ "arie": "Om și societate",
+ "bac": true,
+ "descriere": "Antichitatea și Evul Mediu: popoare și spații istorice, forme de organizare politică, religie și relații internaționale.",
+ "capitole": [
+  {
+   "id": "ist9-c1",
+   "titlu": "Popoare și spații istorice în Antichitate",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "ist9-01",
+     "titlu": "De la zero: Cronologie, calculul secolelor, periodizare și izvoare istorice",
+     "rezumat": "Pentru oricine începe studiul istoriei de la zero, primul pas este stăpânirea timpului istoric și a izvoarelor. Timpul istoric se măsoară pe o axă orientată convențional în jurul nașterii lui Hristos: evenimentele petrecute înainte sunt notate „î.Hr.” (înainte de Hristos) sau „î.e.n.” (înaintea erei noastre), iar cele ulterioare sunt notate „d.Hr.” (după Hristos) sau „e.n.” (era noastră). Atenție: în cronologia istorică NU există anul 0; după anul 1 î.Hr. urmează direct anul 1 d.Hr. Înainte de Hristos, anii se numără descrescător spre 1, iar după Hristos, anii cresc continuu. Calculul secolelor și al mileniilor urmează o regulă simplă: un secol are 100 de ani, iar un mileniu are 1000 de ani. Pentru a afla secolul unui an: dacă anul se termină în două zerouri (ex. 800, 1900), secolul este numărul format din primele cifre (anul 800 = sec. VIII; anul 1900 = sec. XIX). Dacă anul NU se termină în zerouri, se ia numărul sutelor și se adaugă 1 (ex. anul 44 î.Hr. are 0 sute + 1 = sec. I î.Hr.; anul 106 d.Hr. = sec. II; anul 1330 = sec. XIV; anul 1859 = sec. XIX; anul 1918 = sec. XX; anul 2026 = sec. XXI). O jumătate de secol are 50 de ani (anii 1–50 reprezintă prima jumătate, iar anii 51–00 a doua jumătate a secolului). Izvorul istoric este orice urmă materială, scrisă sau spirituală lăsată de oameni. Izvoarele se împart în: (1) Nescrise — arheologice (unelte, arme, ceramică, morminte, ruine), antropologice (schelete umane), numismatice (monede), cartografice (hărți vechi) și orale (mituri, legende, mărturii ale martorilor oculari); (2) Scrise — epigrafice (inscripții pe piatră sau metal), papirusuri, pergamente, hrisoave de cancelarie, cronici, letopisețe, memorii, jurnale, tratate și presă. Izvoarele directe provin din epoca studiată, pe când cele indirecte au fost redactate ulterior. Munca istoricului presupune critica metodică a izvoarelor: critica externă verifică autenticitatea (suportul material, cerneala, limba, dacă documentul nu este un fals), iar critica internă verifică credibilitatea conținutului (sinceritatea autorului, interesele politice sau contextul epocii). Periodizarea istoriei împarte trecutul în cinci mari epoci: Preistoria (până la inventarea scrierii, cca 3500 î.Hr.), Antichitatea (până la căderea Imperiului Roman de Apus în 476 d.Hr.), Evul Mediu (până la căderea Constantinopolului în 1453 sau descoperirea Americii în 1492), Epoca Modernă (până la sfârșitul Primului Război Mondial în 1918) și Epoca Contemporană (din 1918 până în prezent).",
+     "ideiCheie": [
+      "Axa timpului nu conține anul 0; anii î.Hr. se numără descrescător, iar anii d.Hr. crescător.",
+      "Calculul secolului: la anii care nu se termină în 00, se adaugă 1 la numărul sutelor (1859 → sec. XIX).",
+      "Izvoarele sunt nescrise (arheologice, numismatice, orale) și scrise (epigrafice, cronici, documente, presă).",
+      "Critica externă verifică autenticitatea izvorului; critica internă verifică credibilitatea mesajului.",
+      "Periodizarea: Preistorie (până la scris), Antichitate (până în 476), Ev Mediu (până în 1453/1492), Epoca Modernă (1918), Epoca Contemporană."
+     ],
+     "termeni": [
+      {
+       "t": "cronologie",
+       "d": "știința auxiliară a istoriei care se ocupă cu stabilirea și calculul timpului istoric"
+      },
+      {
+       "t": "critică externă",
+       "d": "examinarea materială a izvorului pentru stabilirea autenticității, autorului și datei"
+      },
+      {
+       "t": "critică internă",
+       "d": "analiza conținutului izvorului pentru stabilirea gradului de adevăr și a credibilității"
+      },
+      {
+       "t": "secol",
+       "d": "unitate de timp istoric egală cu 100 de ani (veac)"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se calculează secolul pentru anul 1330?",
+       "v": "Se ia numărul sutelor (13) și se adaugă 1, rezultând secolul al XIV-lea."
+      },
+      {
+       "f": "Există anul 0 în cronologia istorică?",
+       "v": "Nu, după anul 1 î.Hr. urmează direct anul 1 d.Hr."
+      },
+      {
+       "f": "Care este deosebirea dintre critica externă și cea internă a unui izvor?",
+       "v": "Externa stabilește autenticitatea documentului; interna analizează sinceritatea și credibilitatea informațiilor."
+      },
+      {
+       "f": "Ce eveniment marchează convențional sfârșitul Antichității?",
+       "v": "Căderea Imperiului Roman de Apus, în anul 476 d.Hr."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Anul 1859 aparține:",
+       "optiuni": [
+        "secolului al XIX-lea, a doua jumătate",
+        "secolului al XVIII-lea, prima jumătate",
+        "secolului al XX-lea, prima jumătate",
+        "secolului al XIX-lea, prima jumătate"
+       ],
+       "corect": 0,
+       "explicatie": "18 sute + 1 = secolul 19; anul 59 depășește mijlocul secolului (anii 51–00 sunt a doua jumătate)."
+      },
+      {
+       "intrebare": "Trecerea de la Preistorie la Antichitate este marcată convențional de:",
+       "optiuni": [
+        "apariția scrisului",
+        "apariția agriculturii",
+        "întemeierea Romei",
+        "descoperirea focului"
+       ],
+       "corect": 0,
+       "explicatie": "Scrisul face posibilă istoria ca disciplină bazată pe izvoare scrise."
+      },
+      {
+       "intrebare": "Critica externă a unui izvor stabilește:",
+       "optiuni": [
+        "dacă izvorul este autentic",
+        "dacă informația este adevărată",
+        "ce interes avea autorul",
+        "ce importanță are pentru prezent"
+       ],
+       "corect": 0,
+       "explicatie": "Credibilitatea conținutului ține de critica internă."
+      },
+      {
+       "intrebare": "O monedă antică din bronz descoperită într-un mormânt este un izvor:",
+       "optiuni": [
+        "nescris, arheologic și numismatic",
+        "scris, narativ",
+        "indirect și iconografic",
+        "secundar și cartografic"
+       ],
+       "corect": 0,
+       "explicatie": "Monedele sunt izvoare numismatice directe, cercetate de arheologi."
+      },
+      {
+       "intrebare": "Anul 476 d.Hr. marchează:",
+       "optiuni": [
+        "căderea Imperiului Roman de Apus",
+        "căderea Constantinopolului",
+        "descoperirea Americii",
+        "încoronarea lui Carol cel Mare"
+       ],
+       "corect": 0,
+       "explicatie": "Constantinopolul cade în 1453, iar America e descoperită în 1492."
+      }
+     ]
+    },
+    {
+     "id": "ist9-02",
+     "titlu": "Civilizațiile Orientului Antic",
+     "rezumat": "Primele civilizații apar în văile marilor fluvii, unde agricultura irigată a permis surplusuri și, odată cu ele, orașe, state și scriere. Mesopotamia, între Tigru și Eufrat, dă orașele-state sumeriene, scrierea cuneiformă și, prin Hammurabi (secolul al XVIII-lea î.Hr.), primul mare cod de legi păstrat, întemeiat pe principiul talionului. Egiptul antic, „darul Nilului”, este un stat centralizat condus de faraon, considerat divin. Scrierea hieroglifică, calendarul solar, medicina și arhitectura funerară — piramidele de la Giza — sunt realizările lui durabile. India și China adaugă sistemul de caste, budismul, confucianismul, hârtia, busola și tiparul. Fenicienii, negustori și navigatori, răspândesc alfabetul consonantic, strămoșul alfabetelor european. Evreii aduc monoteismul și ideea de legământ, cu efecte istorice imense prin creștinism și islam. Persia lui Cirus și Darius creează primul imperiu multietnic organizat pe satrapii, cu drumuri, poștă și toleranță religioasă relativă.",
+     "ideiCheie": [
+      "Primele civilizații apar în văile fluviilor, pe baza agriculturii irigate.",
+      "Mesopotamia: scriere cuneiformă, Codul lui Hammurabi, principiul talionului.",
+      "Egiptul: stat centralizat, faraon divinizat, hieroglife, piramide.",
+      "Fenicienii răspândesc alfabetul; evreii aduc monoteismul; perșii, imperiul pe satrapii."
+     ],
+     "termeni": [
+      {
+       "t": "cuneiform",
+       "d": "scriere mesopotamiană realizată prin apăsarea unui stilet în tăblițe de lut"
+      },
+      {
+       "t": "satrapie",
+       "d": "provincie a Imperiului Persan, condusă de un guvernator numit satrap"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Unde apar primele civilizații și de ce acolo?",
+       "v": "În văile marilor fluvii, fiindcă agricultura irigată producea surplusuri."
+      },
+      {
+       "f": "Cine a dat primul mare cod de legi păstrat?",
+       "v": "Hammurabi, în Mesopotamia, în secolul al XVIII-lea î.Hr."
+      },
+      {
+       "f": "Ce moștenire durabilă au lăsat fenicienii?",
+       "v": "Alfabetul consonantic, strămoșul alfabetelor europene."
+      },
+      {
+       "f": "Cum era organizat Imperiul Persan?",
+       "v": "În satrapii conduse de guvernatori, cu drumuri, poștă și o relativă toleranță religioasă."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Codul lui Hammurabi se întemeiază pe:",
+       "optiuni": [
+        "principiul talionului",
+        "egalitatea deplină în fața legii",
+        "separarea puterilor",
+        "suveranitatea poporului"
+       ],
+       "corect": 0,
+       "explicatie": "„Ochi pentru ochi” exprimă proporționalitatea pedepsei cu fapta."
+      },
+      {
+       "intrebare": "Expresia „Egiptul este darul Nilului” aparține lui:",
+       "optiuni": [
+        "Herodot",
+        "Tucidide",
+        "Hammurabi",
+        "Darius"
+       ],
+       "corect": 0,
+       "explicatie": "Ea subliniază dependența civilizației egiptene de inundațiile fluviului."
+      },
+      {
+       "intrebare": "Alfabetul consonantic a fost răspândit în Mediterana de:",
+       "optiuni": [
+        "fenicieni",
+        "egipteni",
+        "perși",
+        "sumerieni"
+       ],
+       "corect": 0,
+       "explicatie": "Din el derivă alfabetul grec și, prin acesta, cel latin."
+      },
+      {
+       "intrebare": "Provincia condusă de un guvernator în Imperiul Persan se numea:",
+       "optiuni": [
+        "satrapie",
+        "polis",
+        "nomă",
+        "provincie senatorială"
+       ],
+       "corect": 0,
+       "explicatie": "Satrapii erau supravegheați de inspectori numiți „ochii regelui”."
+      }
+     ]
+    },
+    {
+     "id": "ist9-03",
+     "titlu": "Grecia antică și moștenirea ei",
+     "rezumat": "Civilizația greacă se organizează în polisuri — orașe-state independente, cu teritoriu, cetățeni și instituții proprii. Sparta dezvoltă un regim oligarhic militarizat; Atena, în schimb, ajunge, prin reformele lui Solon, Clistene și Pericle, la democrația directă: adunarea poporului (ecclesia) decide, magistrații sunt trași la sorți sau aleși pe termen scurt, iar tribunalele populare judecă. Democrația ateniană exclude femeile, metecii și sclavii — o limită care nu anulează noutatea principiului. Războaiele medice (490–479 î.Hr.) opresc expansiunea persană; Războiul peloponesiac (431–404) epuizează lumea greacă. Cuceririle lui Alexandru Macedon deschid epoca elenistică, în care cultura greacă se răspândește din Egipt până în India. Moștenirea greacă e uriașă: filosofia (Socrate, Platon, Aristotel), istoria ca disciplină critică (Herodot, Tucidide), teatrul, ordinele arhitecturale, geometria lui Euclid, medicina lui Hipocrate, Jocurile Olimpice și, mai presus de toate, ideea că treburile publice se decid prin dezbatere între cetățeni egali.",
+     "ideiCheie": [
+      "Polisul este orașul-stat grec, cu instituții proprii.",
+      "Atena dezvoltă democrația directă, cu limite: exclude femeile, metecii, sclavii.",
+      "Războaiele medice opresc Persia; Războiul peloponesiac slăbește lumea greacă.",
+      "Moștenirea: filosofie, istorie critică, teatru, geometrie, ideea deciziei prin dezbatere."
+     ],
+     "termeni": [
+      {
+       "t": "polis",
+       "d": "oraș-stat grec, cu teritoriu, cetățeni și instituții proprii"
+      },
+      {
+       "t": "ecclesia",
+       "d": "adunarea cetățenilor atenieni, organul suprem al democrației directe"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este un polis?",
+       "v": "Un oraș-stat grec independent, cu teritoriu, cetățeni și instituții proprii."
+      },
+      {
+       "f": "Cine erau excluși din democrația ateniană?",
+       "v": "Femeile, metecii (străinii stabiliți) și sclavii."
+      },
+      {
+       "f": "Ce au însemnat războaiele medice?",
+       "v": "Confruntarea grecilor cu Imperiul Persan, care a oprit expansiunea persană în Europa."
+      },
+      {
+       "f": "Numește doi istorici greci antici.",
+       "v": "Herodot și Tucidide."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Organul suprem al democrației ateniene era:",
+       "optiuni": [
+        "adunarea poporului (ecclesia)",
+        "senatul",
+        "consiliul celor 30",
+        "colegiul preoților"
+       ],
+       "corect": 0,
+       "explicatie": "Ea decidea legile, războiul și pacea."
+      },
+      {
+       "intrebare": "Democrația ateniană era „directă” pentru că:",
+       "optiuni": [
+        "cetățenii decideau ei înșiși, nu prin reprezentanți",
+        "votau toți locuitorii",
+        "nu existau magistrați",
+        "deciziile erau luate de rege"
+       ],
+       "corect": 0,
+       "explicatie": "Reprezentarea este o invenție a epocii moderne."
+      },
+      {
+       "intrebare": "Războiul peloponesiac a opus:",
+       "optiuni": [
+        "Atena și Sparta",
+        "Grecia și Persia",
+        "Roma și Cartagina",
+        "Macedonia și Egiptul"
+       ],
+       "corect": 0,
+       "explicatie": "El a slăbit decisiv lumea greacă, pregătind hegemonia macedoneană."
+      },
+      {
+       "intrebare": "Epoca elenistică a început după:",
+       "optiuni": [
+        "cuceririle lui Alexandru Macedon",
+        "războaiele medice",
+        "reformele lui Pericle",
+        "căderea Troiei"
+       ],
+       "corect": 0,
+       "explicatie": "Cultura greacă s-a răspândit atunci din Egipt până în India."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ist9-c2",
+   "titlu": "Roma, romanitatea și lumea daco-romană",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "ist9-04",
+     "titlu": "Roma: republică și imperiu",
+     "rezumat": "Roma trece prin trei forme de organizare. Regalitatea (753–509 î.Hr., tradițional) se încheie cu alungarea ultimului rege. Republica (509–27 î.Hr.) are un echilibru între magistraturi (consuli, pretori, cenzori), Senat și adunările poporului; lupta dintre patricieni și plebei duce la instituția tribunului plebei și la Legea celor XII Table. Imperiul începe cu Octavian Augustus (27 î.Hr.) și cunoaște apogeul teritorial sub Traian. Expansiunea romană se face prin războaiele punice împotriva Cartaginei, prin cucerirea Greciei, a Galiei (Cezar) și a Daciei (Traian). Romanizarea este procesul prin care populațiile cucerite adoptă limba latină, instituțiile, religia și modul de viață roman — prin administrație, armată, colonizare, orașe, drumuri și, mai târziu, creștinism. Moștenirea romană: dreptul roman (baza sistemelor juridice europene), limba latină și limbile romanice, urbanismul, ingineria (drumuri, apeducte), organizarea administrativă și ideea de cetățenie extinsă — Edictul lui Caracalla (212) o acordă tuturor locuitorilor liberi ai imperiului.",
+     "ideiCheie": [
+      "Roma: regalitate, republică, imperiu.",
+      "Republica îmbină magistraturile, Senatul și adunările poporului.",
+      "Romanizarea se realizează prin administrație, armată, colonizare, orașe și limbă.",
+      "Moștenirea: dreptul roman, limbile romanice, urbanismul, ideea de cetățenie."
+     ],
+     "termeni": [
+      {
+       "t": "romanizare",
+       "d": "procesul de adoptare a limbii, instituțiilor și modului de viață roman de către populațiile cucerite"
+      },
+      {
+       "t": "Edictul lui Caracalla",
+       "d": "actul din 212 prin care cetățenia romană a fost acordată tuturor locuitorilor liberi ai imperiului"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt cele trei forme de organizare ale statului roman?",
+       "v": "Regalitatea, republica și imperiul."
+      },
+      {
+       "f": "Ce este romanizarea?",
+       "v": "Procesul prin care populațiile cucerite adoptă limba, instituțiile și modul de viață roman."
+      },
+      {
+       "f": "Ce a stabilit Edictul lui Caracalla din 212?",
+       "v": "Cetățenia romană pentru toți locuitorii liberi ai imperiului."
+      },
+      {
+       "f": "Sub care împărat a atins Imperiul Roman întinderea maximă?",
+       "v": "Sub Traian."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Instituția creată în urma luptei plebeilor cu patricienii a fost:",
+       "optiuni": [
+        "tribunatul plebei",
+        "consulatul",
+        "cenzura",
+        "pretura"
+       ],
+       "corect": 0,
+       "explicatie": "Tribunul avea drept de veto asupra hotărârilor defavorabile plebei."
+      },
+      {
+       "intrebare": "Imperiul Roman începe, convențional, în:",
+       "optiuni": [
+        "27 î.Hr., cu Octavian Augustus",
+        "509 î.Hr.",
+        "476 d.Hr.",
+        "212 d.Hr."
+       ],
+       "corect": 0,
+       "explicatie": "476 marchează căderea Imperiului Roman de Apus."
+      },
+      {
+       "intrebare": "Romanizarea s-a realizat în principal prin:",
+       "optiuni": [
+        "administrație, armată, colonizare, orașe și limbă",
+        "convertirea forțată la o religie",
+        "interzicerea limbilor locale",
+        "deportarea populațiilor"
+       ],
+       "corect": 0,
+       "explicatie": "Procesul a fost lung și mai ales indirect."
+      },
+      {
+       "intrebare": "Vestigiul cel mai durabil al Romei în dreptul european este:",
+       "optiuni": [
+        "dreptul roman",
+        "religia oficială",
+        "moneda",
+        "organizarea militară"
+       ],
+       "corect": 0,
+       "explicatie": "Codificarea justiniană a transmis dreptul roman Evului Mediu și modernității."
+      }
+     ]
+    },
+    {
+     "id": "ist9-05",
+     "titlu": "Geto-dacii și Dacia romană",
+     "rezumat": "Geto-dacii fac parte din marea familie a tracilor și ocupă spațiul carpato-danubiano-pontic. Primele mențiuni scrise apar la Herodot, care îi numește „cei mai viteji și mai drepți dintre traci”, cu ocazia expediției lui Darius (514 î.Hr.). Statul dac se organizează sub Burebista (secolul I î.Hr.), care unifică triburile, și atinge apogeul politic sub Decebal. Religia dacilor este centrată pe Zalmoxis; sanctuarele de la Sarmizegetusa Regia arată o organizare sacerdotală și cunoștințe astronomice. Economia se sprijină pe agricultură, creșterea animalelor, exploatarea aurului și a sării și pe comerțul cu lumea greacă și romană. Războaiele daco-romane (101–102 și 105–106) se încheie cu transformarea unei părți a Daciei în provincie romană. Urmează 165 de ani de administrație romană, colonizare intensă, urbanizare (Ulpia Traiana Sarmizegetusa, Apulum, Napoca), drumuri și exploatări miniere. Retragerea aureliană (271–275) mută administrația și armata la sud de Dunăre, dar populația romanizată rămâne — fapt esențial pentru problema continuității.",
+     "ideiCheie": [
+      "Geto-dacii aparțin lumii tracice; primele mențiuni sunt la Herodot.",
+      "Burebista unifică triburile; Decebal conduce în războaiele cu Roma.",
+      "Dacia devine provincie romană în 106, după două războaie cu Traian.",
+      "Retragerea aureliană (271–275) mută administrația, nu și populația romanizată."
+     ],
+     "termeni": [
+      {
+       "t": "Zalmoxis",
+       "d": "divinitatea centrală a religiei geto-dacilor"
+      },
+      {
+       "t": "retragerea aureliană",
+       "d": "retragerea administrației și a armatei romane din Dacia, în anii 271–275"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cine i-a numit pe geți „cei mai viteji și mai drepți dintre traci”?",
+       "v": "Herodot."
+      },
+      {
+       "f": "În ce ani au avut loc războaiele daco-romane?",
+       "v": "101–102 și 105–106."
+      },
+      {
+       "f": "Ce a însemnat retragerea aureliană?",
+       "v": "Retragerea administrației și armatei romane la sud de Dunăre, în 271–275."
+      },
+      {
+       "f": "Care era capitala regatului dac?",
+       "v": "Sarmizegetusa Regia."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Statul dac a fost unificat pentru prima dată sub:",
+       "optiuni": [
+        "Burebista",
+        "Decebal",
+        "Dromichaites",
+        "Oroles"
+       ],
+       "corect": 0,
+       "explicatie": "Decebal conduce statul dac în perioada războaielor cu Traian."
+      },
+      {
+       "intrebare": "Dacia a devenit provincie romană în anul:",
+       "optiuni": [
+        "106",
+        "101",
+        "271",
+        "275"
+       ],
+       "corect": 0,
+       "explicatie": "Al doilea război daco-roman s-a încheiat în 106."
+      },
+      {
+       "intrebare": "Retragerea aureliană a avut ca efect direct:",
+       "optiuni": [
+        "mutarea administrației și a armatei romane la sud de Dunăre",
+        "dispariția populației romanizate",
+        "cucerirea Daciei de către goți",
+        "creștinarea oficială a Daciei"
+       ],
+       "corect": 0,
+       "explicatie": "Populația romanizată a rămas pe loc, argument central al continuității."
+      },
+      {
+       "intrebare": "Sanctuarele de la Sarmizegetusa Regia dovedesc:",
+       "optiuni": [
+        "o organizare religioasă complexă și cunoștințe astronomice",
+        "influența creștină",
+        "dominația romană",
+        "lipsa unei religii proprii"
+       ],
+       "corect": 0,
+       "explicatie": "Preoții aveau un rol politic important în statul dac."
+      }
+     ]
+    },
+    {
+     "id": "ist9-06",
+     "titlu": "Etnogeneza românească și romanitatea",
+     "rezumat": "Etnogeneza românească este procesul de formare a poporului român și a limbii române, desfășurat între secolele al II-lea și al VIII-lea. Componentele: substratul geto-dac (aproximativ 160–170 de cuvinte, toponime), stratul latin (structura gramaticală și fondul principal lexical) și adstratul slav (împrumuturi lexicale ulterioare secolului al VII-lea). Argumentele romanității: lingvistice (româna e limbă romanică, cu structură latină), arheologice (continuitatea așezărilor, obiecte cu inscripții latine, cultura Ipotești-Cândești), istorice (izvoare care menționează populația romanică la nord de Dunăre) și etnografice. Teoria imigraționistă, formulată de Franz Josef Sulzer în secolul al XVIII-lea și reluată de Robert Roesler în 1871, susține că românii s-ar fi format la sud de Dunăre și ar fi imigrat târziu. Ea a fost combătută sistematic de istoriografia românească — de la Școala Ardeleană (Samuil Micu, Gheorghe Șincai, Petru Maior) la Dimitrie Onciul, A. D. Xenopol și Nicolae Iorga — pe temeiuri lingvistice, arheologice și istorice.",
+     "ideiCheie": [
+      "Etnogeneza românească se desfășoară între secolele II și VIII.",
+      "Componentele: substrat geto-dac, strat latin, adstrat slav.",
+      "Argumentele romanității sunt lingvistice, arheologice, istorice și etnografice.",
+      "Teoria imigraționistă (Sulzer, Roesler) a fost combătută de Școala Ardeleană și de istoriografia modernă."
+     ],
+     "termeni": [
+      {
+       "t": "etnogeneză",
+       "d": "procesul de formare a unui popor și a limbii sale"
+      },
+      {
+       "t": "adstrat",
+       "d": "influență lingvistică ulterioară, suprapusă unei limbi deja constituite"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care sunt cele trei componente ale limbii române?",
+       "v": "Substratul geto-dac, stratul latin și adstratul slav."
+      },
+      {
+       "f": "Cine a formulat teoria imigraționistă?",
+       "v": "Franz Josef Sulzer, în secolul al XVIII-lea, reluată de Robert Roesler în 1871."
+      },
+      {
+       "f": "Ce a susținut Școala Ardeleană?",
+       "v": "Originea latină a limbii și a poporului român și continuitatea în spațiul carpato-dunărean."
+      },
+      {
+       "f": "Între ce secole se desfășoară etnogeneza românească?",
+       "v": "Între secolele al II-lea și al VIII-lea."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Fondul principal lexical și structura gramaticală a limbii române provin din:",
+       "optiuni": [
+        "latină",
+        "slavă",
+        "dacă",
+        "greacă"
+       ],
+       "corect": 0,
+       "explicatie": "Substratul dac a lăsat un număr redus de cuvinte, iar slava e adstrat."
+      },
+      {
+       "intrebare": "Teoria imigraționistă susține că:",
+       "optiuni": [
+        "românii s-ar fi format la sud de Dunăre și ar fi imigrat târziu la nord",
+        "românii s-au format în spațiul carpato-dunărean",
+        "dacii au dispărut complet",
+        "slavii sunt strămoșii românilor"
+       ],
+       "corect": 0,
+       "explicatie": "Ea a fost combătută cu argumente lingvistice, arheologice și istorice."
+      },
+      {
+       "intrebare": "Reprezentanții Școlii Ardelene sunt:",
+       "optiuni": [
+        "Samuil Micu, Gheorghe Șincai, Petru Maior",
+        "Dimitrie Onciul, A. D. Xenopol, Nicolae Iorga",
+        "Franz Sulzer, Robert Roesler",
+        "Miron Costin, Grigore Ureche"
+       ],
+       "corect": 0,
+       "explicatie": "Onciul, Xenopol și Iorga aparțin istoriografiei moderne."
+      },
+      {
+       "intrebare": "Influența slavă asupra limbii române este considerată:",
+       "optiuni": [
+        "adstrat, deci ulterioară constituirii limbii",
+        "substrat",
+        "strat de bază",
+        "inexistentă"
+       ],
+       "corect": 0,
+       "explicatie": "Ea se manifestă mai ales lexical, după secolul al VII-lea."
+      }
+     ],
+     "vizual": [
+      {
+       "tip": "schema",
+       "titlu": "Formarea limbii și a poporului român",
+       "blocuri": [
+        {
+         "eticheta": "Substrat geto-dac",
+         "text": "circa 160 de cuvinte și toponime"
+        },
+        {
+         "eticheta": "Strat latin",
+         "text": "structura gramaticală și fondul lexical principal"
+        },
+        {
+         "eticheta": "Adstrat slav",
+         "text": "împrumuturi de după secolul al VII-lea"
+        },
+        {
+         "eticheta": "Limba și poporul român",
+         "text": "sinteză de limbă romanică"
+        }
+       ],
+       "legaturi": [
+        [
+         0,
+         3
+        ],
+        [
+         1,
+         3
+        ],
+        [
+         2,
+         3
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ist9-c3",
+   "titlu": "Evul Mediu european",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "ist9-07",
+     "titlu": "Societatea feudală și structurile ei",
+     "rezumat": "Evul Mediu european se construiește pe ruinele Imperiului Roman de Apus, prin sinteza a trei elemente: moștenirea romană, lumea germanică și creștinismul. Feudalismul este sistemul de relații personale în care seniorul acordă vasalului un feud (o moșie) în schimbul credinței și al serviciului militar, prin ceremonia omagiului și a învestiturii. Societatea e împărțită în trei ordine, potrivit formulei medievale: cei care se roagă (oratores), cei care luptă (bellatores) și cei care muncesc (laboratores). Baza economică e domeniul feudal, cu rezerva seniorială și loturile țăranilor, care datorează rentă în muncă (clacă), în produse (dijmă) și în bani. Din secolul al XI-lea, renașterea orașelor schimbă tabloul: apar comunele, breslele meșteșugărești, negustorii, universitățile (Bologna, Paris, Oxford), băncile. Se formează o a patra categorie — burghezia — care va submina treptat ordinea feudală. Marea criză a secolului al XIV-lea (foamete, Moartea Neagră, Războiul de 100 de ani) accelerează schimbarea.",
+     "ideiCheie": [
+      "Evul Mediu se naște din sinteza moștenirii romane, a lumii germanice și a creștinismului.",
+      "Feudalismul leagă seniorul și vasalul prin omagiu, credință și serviciu militar.",
+      "Cele trei ordine: oratores, bellatores, laboratores.",
+      "Renașterea orașelor din secolul XI produce breslele, universitățile și burghezia."
+     ],
+     "termeni": [
+      {
+       "t": "vasalitate",
+       "d": "legătură personală prin care vasalul primește un feud în schimbul credinței și al serviciului militar"
+      },
+      {
+       "t": "domeniu feudal",
+       "d": "unitatea economică formată din rezerva seniorială și loturile țăranilor dependenți"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce primea vasalul de la senior și ce datora în schimb?",
+       "v": "Primea un feud; datora credință și serviciu militar."
+      },
+      {
+       "f": "Care sunt cele trei ordine ale societății medievale?",
+       "v": "Cei care se roagă, cei care luptă și cei care muncesc."
+      },
+      {
+       "f": "Ce schimbare aduce secolul al XI-lea?",
+       "v": "Renașterea orașelor, cu bresle, universități, negustori și apariția burgheziei."
+      },
+      {
+       "f": "Ce forme lua renta feudală?",
+       "v": "În muncă (clacă), în produse (dijmă) și în bani."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Ceremonia prin care se stabilea legătura dintre senior și vasal se numea:",
+       "optiuni": [
+        "omagiu",
+        "învestitură canonică",
+        "interdict",
+        "excomunicare"
+       ],
+       "corect": 0,
+       "explicatie": "Ea era urmată de învestitura cu feudul."
+      },
+      {
+       "intrebare": "Formula „cei care se roagă, cei care luptă, cei care muncesc” descrie:",
+       "optiuni": [
+        "împărțirea societății medievale în trei ordine",
+        "organizarea armatei",
+        "ierarhia bisericească",
+        "structura breslelor"
+       ],
+       "corect": 0,
+       "explicatie": "Este modelul teoretic al societății feudale."
+      },
+      {
+       "intrebare": "Apariția burgheziei este legată de:",
+       "optiuni": [
+        "renașterea orașelor din secolul al XI-lea",
+        "reforma protestantă",
+        "cruciade",
+        "Marea Schismă"
+       ],
+       "corect": 0,
+       "explicatie": "Orașele au produs o categorie socială nouă, urbană și negustorească."
+      },
+      {
+       "intrebare": "Renta în muncă prestată de țăran pe rezerva seniorială se numea:",
+       "optiuni": [
+        "clacă",
+        "dijmă",
+        "cens",
+        "birul"
+       ],
+       "corect": 0,
+       "explicatie": "Dijma era renta în produse."
+      }
+     ]
+    },
+    {
+     "id": "ist9-08",
+     "titlu": "Biserica, cruciadele și cultura medievală",
+     "rezumat": "Biserica este instituția centrală a Evului Mediu: deține pământ, educație, asistență socială și autoritate morală. Marea Schismă din 1054 desparte Biserica Catolică (Roma) de cea Ortodoxă (Constantinopol), pe temeiuri dogmatice (Filioque), liturgice și, mai ales, de autoritate. Cearta pentru învestitură între papalitate și Imperiu se încheie prin Concordatul de la Worms (1122). Cruciadele (1096–1291) au motivații religioase, dar și economice și politice. Prima cruciadă cucerește Ierusalimul (1099); a patra deviază și jefuiește Constantinopolul (1204), slăbind definitiv Imperiul Bizantin. Consecințele: intensificarea schimburilor cu Orientul, întărirea orașelor italiene, transferul de cunoaștere (matematică, medicină, filosofie arabă și greacă). Cultura medievală se organizează în jurul mănăstirilor și, din secolul al XII-lea, al universităților. Scolastica încearcă acordul dintre credință și rațiune (Toma d'Aquino). Arta trece de la romanic (ziduri groase, arcade semicirculare, spații închise) la gotic (arc frânt, contraforți, vitralii, verticalitate).",
+     "ideiCheie": [
+      "Marea Schismă (1054) separă Biserica Catolică de cea Ortodoxă.",
+      "Cruciadele (1096–1291) au motivații religioase, economice și politice.",
+      "Cruciada a IV-a jefuiește Constantinopolul (1204).",
+      "Scolastica caută acordul dintre credință și rațiune; arta trece de la romanic la gotic."
+     ],
+     "termeni": [
+      {
+       "t": "Marea Schismă",
+       "d": "ruptura din 1054 dintre Biserica de Apus și cea de Răsărit"
+      },
+      {
+       "t": "scolastică",
+       "d": "metodă intelectuală medievală care caută acordul dintre credință și rațiune"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "În ce an s-a produs Marea Schismă?",
+       "v": "În 1054."
+      },
+      {
+       "f": "Ce a făcut Cruciada a IV-a?",
+       "v": "A deviat spre Constantinopol și l-a jefuit, în 1204."
+      },
+      {
+       "f": "Ce este scolastica?",
+       "v": "Metoda intelectuală medievală care caută acordul dintre credință și rațiune."
+      },
+      {
+       "f": "Prin ce se deosebește goticul de romanic?",
+       "v": "Prin arcul frânt, contraforți, vitralii și accentul pe verticalitate."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Marea Schismă a avut loc în anul:",
+       "optiuni": [
+        "1054",
+        "1099",
+        "1204",
+        "1122"
+       ],
+       "corect": 0,
+       "explicatie": "Ea a separat Biserica Catolică de cea Ortodoxă."
+      },
+      {
+       "intrebare": "Cruciada a IV-a s-a încheiat cu:",
+       "optiuni": [
+        "jefuirea Constantinopolului",
+        "cucerirea Ierusalimului",
+        "eliberarea Spaniei",
+        "pacea cu Saladin"
+       ],
+       "corect": 0,
+       "explicatie": "Evenimentul din 1204 a slăbit decisiv Imperiul Bizantin."
+      },
+      {
+       "intrebare": "Cearta pentru învestitură s-a încheiat prin:",
+       "optiuni": [
+        "Concordatul de la Worms (1122)",
+        "Marea Schismă",
+        "Conciliul de la Niceea",
+        "Pacea de la Augsburg"
+       ],
+       "corect": 0,
+       "explicatie": "Ea opusese papalitatea și Imperiul romano-german."
+      },
+      {
+       "intrebare": "Stilul arhitectural caracterizat prin arc frânt, contraforți și vitralii este:",
+       "optiuni": [
+        "goticul",
+        "romanicul",
+        "bizantinul",
+        "barocul"
+       ],
+       "corect": 0,
+       "explicatie": "Romanicul are ziduri groase și arcade semicirculare."
+      }
+     ]
+    },
+    {
+     "id": "ist9-09",
+     "titlu": "Statul medieval: monarhii, imperii, forme de guvernare",
+     "rezumat": "În Occident, monarhia se consolidează treptat împotriva fărâmițării feudale. Anglia obține Magna Carta (1215), care limitează puterea regelui și dă naștere Parlamentului; Franța construiește o monarhie centralizată prin Capețieni, cu Stările Generale convocate din 1302. Sfântul Imperiu Roman rămâne o construcție electivă și fragmentată. Imperiul Bizantin păstrează tradiția romană răsăriteană: împăratul (basileus) are autoritate și în chestiuni bisericești, ceea ce s-a numit cezaropapism. Bizanțul transmite dreptul roman codificat de Justinian, arta și modelul de stat, dar cade în 1453 sub asaltul otoman. În lumea islamică, califatele arabe creează un imperiu întins din Spania până în India, cu o cultură strălucită: algebra, medicina, filosofia, traducerile din greacă. Otomanii, apoi, construiesc un imperiu multietnic condus de sultan, care va domina sud-estul Europei aproape cinci secole și va influența decisiv istoria Țărilor Române.",
+     "ideiCheie": [
+      "Magna Carta (1215) limitează puterea regelui Angliei și pregătește Parlamentul.",
+      "Franța construiește o monarhie centralizată; Stările Generale sunt convocate din 1302.",
+      "Bizanțul păstrează tradiția romană; cade în 1453.",
+      "Imperiul Otoman domină sud-estul Europei aproape cinci secole."
+     ],
+     "termeni": [
+      {
+       "t": "Magna Carta",
+       "d": "actul din 1215 prin care nobilimea engleză a limitat puterea regelui"
+      },
+      {
+       "t": "cezaropapism",
+       "d": "sistem în care împăratul are autoritate și asupra chestiunilor bisericești"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce a stabilit Magna Carta?",
+       "v": "Limitarea puterii regelui Angliei și garanții pentru nobilime, în 1215."
+      },
+      {
+       "f": "Ce înseamnă cezaropapism?",
+       "v": "Sistemul în care împăratul deține autoritate și în chestiunile bisericești, ca în Bizanț."
+      },
+      {
+       "f": "În ce an a căzut Constantinopolul?",
+       "v": "În 1453, sub asaltul otoman."
+      },
+      {
+       "f": "Ce moștenire juridică a transmis Bizanțul?",
+       "v": "Dreptul roman codificat sub Justinian."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Magna Carta a fost adoptată în:",
+       "optiuni": [
+        "1215",
+        "1302",
+        "1453",
+        "1054"
+       ],
+       "corect": 0,
+       "explicatie": "Ea limita puterea regelui Ioan fără Țară."
+      },
+      {
+       "intrebare": "Adunarea reprezentativă convocată în Franța din 1302 se numea:",
+       "optiuni": [
+        "Stările Generale",
+        "Parlamentul",
+        "Dieta",
+        "Senatul"
+       ],
+       "corect": 0,
+       "explicatie": "În Anglia, instituția echivalentă era Parlamentul."
+      },
+      {
+       "intrebare": "Cezaropapismul bizantin înseamnă:",
+       "optiuni": [
+        "autoritatea împăratului și asupra chestiunilor bisericești",
+        "supremația papei asupra împăratului",
+        "separarea bisericii de stat",
+        "alegerea împăratului de către episcopi"
+       ],
+       "corect": 0,
+       "explicatie": "În Occident, raportul dintre cele două puteri a fost conflictual."
+      },
+      {
+       "intrebare": "Constantinopolul a căzut sub stăpânire otomană în:",
+       "optiuni": [
+        "1453",
+        "1204",
+        "1492",
+        "1526"
+       ],
+       "corect": 0,
+       "explicatie": "Data marchează convențional sfârșitul Evului Mediu pentru unii istorici."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ist9-c4",
+   "titlu": "Spațiul românesc în Evul Mediu",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "ist9-10",
+     "titlu": "Autonomii locale și întemeierea statelor medievale românești",
+     "rezumat": "Între secolele al IX-lea și al XIII-lea, izvoarele menționează în spațiul românesc autonomii locale: cnezate, voievodate și „țări” — Gelu, Glad și Menumorut în Cronica notarului anonim, apoi Litovoi, Ioan, Farcaș și Seneslau în Diploma cavalerilor ioaniți (1247). Ele sunt formațiuni prestatale, cu conducător, teritoriu și oaste proprie. Transilvania intră treptat sub stăpânirea maghiară și este organizată ca voievodat autonom, cu colonizări de sași și secui. Țara Românească se întemeiază prin „descălecatul” lui Negru Vodă din Făgăraș și se consolidează sub Basarab I, care obține independența prin victoria de la Posada (1330) împotriva lui Carol Robert de Anjou. Moldova se întemeiază prin descălecatul lui Dragoș, ca marcă de apărare, și devine independentă sub Bogdan I (1359). Structurile statului medieval românesc: domnul (conducător cu puteri largi, „unsul lui Dumnezeu”), Sfatul domnesc, Adunarea Țării, dregătorii (vornic, logofăt, vistier, spătar), Biserica Ortodoxă cu mitropolia recunoscută de Patriarhia de la Constantinopol (1359 pentru Țara Românească, 1401 pentru Moldova).",
+     "ideiCheie": [
+      "Autonomiile locale: cnezate, voievodate, „țări”, atestate în secolele IX–XIII.",
+      "Basarab I obține independența Țării Românești prin victoria de la Posada (1330).",
+      "Bogdan I întemeiază Moldova independentă (1359).",
+      "Instituțiile: domnul, Sfatul domnesc, Adunarea Țării, dregătorii, mitropolia."
+     ],
+     "termeni": [
+      {
+       "t": "descălecat",
+       "d": "termen tradițional pentru întemeierea unui stat medieval românesc prin trecerea unui grup condus de un voievod"
+      },
+      {
+       "t": "Sfatul domnesc",
+       "d": "organul consultativ format din marii boieri și dregători, alături de domn"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "În ce document apar Litovoi, Ioan, Farcaș și Seneslau?",
+       "v": "În Diploma cavalerilor ioaniți, din 1247."
+      },
+      {
+       "f": "Ce a însemnat victoria de la Posada (1330)?",
+       "v": "Independența Țării Românești sub Basarab I."
+      },
+      {
+       "f": "Cine a întemeiat Moldova independentă și în ce an?",
+       "v": "Bogdan I, în 1359."
+      },
+      {
+       "f": "Ce era Sfatul domnesc?",
+       "v": "Organul consultativ al domnului, format din marii boieri și dregători."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Diploma cavalerilor ioaniți datează din anul:",
+       "optiuni": [
+        "1247",
+        "1330",
+        "1359",
+        "1401"
+       ],
+       "corect": 0,
+       "explicatie": "Ea menționează formațiunile politice de la sud de Carpați."
+      },
+      {
+       "intrebare": "Victoria de la Posada a fost obținută de:",
+       "optiuni": [
+        "Basarab I împotriva lui Carol Robert de Anjou",
+        "Bogdan I împotriva lui Ludovic I",
+        "Mircea cel Bătrân împotriva otomanilor",
+        "Ștefan cel Mare împotriva lui Matia Corvin"
+       ],
+       "corect": 0,
+       "explicatie": "Ea a consfințit independența Țării Românești."
+      },
+      {
+       "intrebare": "Moldova a devenit stat independent sub:",
+       "optiuni": [
+        "Bogdan I",
+        "Dragoș",
+        "Petru I Mușat",
+        "Alexandru cel Bun"
+       ],
+       "corect": 0,
+       "explicatie": "Dragoș întemeiase o marcă de apărare dependentă de regatul maghiar."
+      },
+      {
+       "intrebare": "Mitropolia Țării Românești a fost recunoscută de Patriarhia de la Constantinopol în:",
+       "optiuni": [
+        "1359",
+        "1401",
+        "1330",
+        "1247"
+       ],
+       "corect": 0,
+       "explicatie": "Mitropolia Moldovei a fost recunoscută în 1401."
+      }
+     ]
+    },
+    {
+     "id": "ist9-11",
+     "titlu": "Domnii și lupta antiotomană",
+     "rezumat": "Presiunea otomană asupra spațiului românesc începe la sfârșitul secolului al XIV-lea. Mircea cel Bătrân (1386–1418) participă la bătălia de la Rovine (1394 sau 1395) și la cruciada de la Nicopole (1396), consolidând totodată statul prin fortificații, monetărie și relații cu Ungaria și Polonia. Iancu de Hunedoara, voievod al Transilvaniei și guvernator al Ungariei, obține victoria de la Belgrad (1456), care oprește înaintarea otomană spre Europa Centrală pentru decenii. Vlad Țepeș (1448, 1456–1462, 1476) organizează rezistența prin atacul de noapte de la Târgoviște (1462) și prin tactica pământului pârjolit. Ștefan cel Mare (1457–1504) este figura centrală: victoria de la Vaslui/Podul Înalt (1475) împotriva unei armate otomane mult superioare numeric îi aduce titlul de „atlet al lui Hristos”; înfrângerea de la Valea Albă (1476) nu duce la pierderea țării. El întărește domnia, ridică zeci de biserici și mănăstiri și duce o politică externă de echilibru între Ungaria, Polonia și Imperiul Otoman. Mihai Viteazul realizează, în 1600, prima unire politică a celor trei țări române, efemeră, dar cu mare valoare simbolică.",
+     "ideiCheie": [
+      "Mircea cel Bătrân: Rovine (1394/1395) și Nicopole (1396).",
+      "Iancu de Hunedoara oprește ofensiva otomană la Belgrad (1456).",
+      "Ștefan cel Mare: victoria de la Vaslui (1475), înfrângerea de la Valea Albă (1476).",
+      "Mihai Viteazul realizează unirea celor trei țări române în 1600."
+     ],
+     "termeni": [
+      {
+       "t": "atlet al lui Hristos",
+       "d": "titlu acordat lui Ștefan cel Mare de papa Sixt al IV-lea, după victoria de la Vaslui"
+      },
+      {
+       "t": "tactica pământului pârjolit",
+       "d": "metodă de apărare prin distrugerea resurselor din calea armatei invadatoare"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce victorie a obținut Ștefan cel Mare în 1475?",
+       "v": "Victoria de la Vaslui (Podul Înalt), împotriva armatei otomane."
+      },
+      {
+       "f": "Cine a oprit înaintarea otomană la Belgrad, în 1456?",
+       "v": "Iancu de Hunedoara."
+      },
+      {
+       "f": "Ce a realizat Mihai Viteazul în 1600?",
+       "v": "Prima unire politică a Țării Românești, Transilvaniei și Moldovei."
+      },
+      {
+       "f": "Ce tactică a folosit Vlad Țepeș împotriva otomanilor?",
+       "v": "Pământul pârjolit și atacul de noapte de la Târgoviște (1462)."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Bătălia de la Nicopole (1396) a fost:",
+       "optiuni": [
+        "o cruciadă antiotomană la care a participat Mircea cel Bătrân",
+        "o victorie a lui Ștefan cel Mare",
+        "o bătălie între Ungaria și Polonia",
+        "un asediu al Constantinopolului"
+       ],
+       "corect": 0,
+       "explicatie": "Cruciada s-a încheiat cu înfrângerea creștinilor."
+      },
+      {
+       "intrebare": "Titlul de „atlet al lui Hristos” i-a fost acordat lui Ștefan cel Mare după:",
+       "optiuni": [
+        "victoria de la Vaslui (1475)",
+        "înfrângerea de la Valea Albă",
+        "asediul Chiliei",
+        "pacea cu Polonia"
+       ],
+       "corect": 0,
+       "explicatie": "Titlul a fost acordat de papa Sixt al IV-lea."
+      },
+      {
+       "intrebare": "Unirea celor trei țări române din 1600 a fost realizată de:",
+       "optiuni": [
+        "Mihai Viteazul",
+        "Ștefan cel Mare",
+        "Mircea cel Bătrân",
+        "Vlad Țepeș"
+       ],
+       "corect": 0,
+       "explicatie": "Unirea a fost efemeră, dar a rămas un puternic reper simbolic."
+      },
+      {
+       "intrebare": "Atacul de noapte de la Târgoviște (1462) a fost organizat de:",
+       "optiuni": [
+        "Vlad Țepeș",
+        "Iancu de Hunedoara",
+        "Ștefan cel Mare",
+        "Radu cel Frumos"
+       ],
+       "corect": 0,
+       "explicatie": "Scopul era uciderea sultanului Mehmed al II-lea."
+      }
+     ],
+     "vizual": [
+      {
+       "tip": "cronologie",
+       "titlu": "Lupta antiotomană a Țărilor Române",
+       "pasi": [
+        {
+         "an": "1396",
+         "text": "Nicopole — cruciada la care participă Mircea cel Bătrân"
+        },
+        {
+         "an": "1456",
+         "text": "Iancu de Hunedoara oprește otomanii la Belgrad"
+        },
+        {
+         "an": "1462",
+         "text": "Vlad Țepeș — atacul de noapte de la Târgoviște"
+        },
+        {
+         "an": "1475",
+         "text": "Ștefan cel Mare învinge la Vaslui (Podul Înalt)"
+        },
+        {
+         "an": "1600",
+         "text": "Mihai Viteazul unește cele trei țări române"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ist9-12",
+     "titlu": "Religia și cultura în spațiul românesc medieval",
+     "rezumat": "Biserica Ortodoxă a fost, în Țara Românească și Moldova, instituția care a asigurat unitatea de credință, cultura scrisă și legitimarea domniei. Mitropoliile recunoscute de Patriarhia din Constantinopol (1359, respectiv 1401) au integrat spațiul românesc în lumea bizantină. Limba de cult și de cancelarie a fost, secole la rând, slavona. Transilvania a cunoscut o situație aparte: după Reformă, dieta a recunoscut patru religii recepte — catolică, luterană, calvină, unitariană — în timp ce ortodoxia românilor a rămas doar „tolerată”, deși majoritară. Unirea unei părți a românilor ardeleni cu Biserica Romei (1698–1701) a creat Biserica Greco-Catolică, cu efecte culturale majore: accesul la școlile catolice a produs Școala Ardeleană. Cultura medievală românească se exprimă în arhitectură (bisericile lui Ștefan cel Mare, Mănăstirea Putna, Voroneț cu picturile exterioare, Curtea de Argeș), în manuscrise și în cronici. Tiparul e introdus de Macarie (1508); primele texte românești tipărite apar prin Coresi, la Brașov, în a doua jumătate a secolului al XVI-lea, iar Biblia de la București (1688) fixează limba literară.",
+     "ideiCheie": [
+      "Mitropoliile (1359, 1401) integrează spațiul românesc în lumea bizantină.",
+      "Slavona a fost secole la rând limba de cult și de cancelarie.",
+      "În Transilvania: patru religii recepte, ortodoxia doar tolerată.",
+      "Repere culturale: Macarie (1508), Coresi, Biblia de la București (1688)."
+     ],
+     "termeni": [
+      {
+       "t": "religii recepte",
+       "d": "cele patru confesiuni recunoscute oficial în Transilvania după Reformă"
+      },
+      {
+       "t": "slavonă",
+       "d": "limba slavă folosită în cult și în cancelariile Țărilor Române"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Care erau cele patru religii recepte din Transilvania?",
+       "v": "Catolică, luterană, calvină și unitariană."
+      },
+      {
+       "f": "Cine a tipărit prima carte pe teritoriul Țărilor Române și în ce an?",
+       "v": "Macarie, în 1508."
+      },
+      {
+       "f": "Ce importanță are Biblia de la București (1688)?",
+       "v": "A fixat limba literară românească prin prima traducere integrală tipărită."
+      },
+      {
+       "f": "Ce a produs, cultural, unirea unei părți a românilor ardeleni cu Roma?",
+       "v": "Accesul la școlile catolice și, prin el, Școala Ardeleană."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Ortodoxia românilor din Transilvania, după Reformă, avea statutul de religie:",
+       "optiuni": [
+        "tolerată",
+        "receptă",
+        "oficială",
+        "interzisă"
+       ],
+       "corect": 0,
+       "explicatie": "Cele patru religii recepte erau catolică, luterană, calvină și unitariană."
+      },
+      {
+       "intrebare": "Prima carte tipărită pe teritoriul Țărilor Române datează din:",
+       "optiuni": [
+        "1508",
+        "1688",
+        "1359",
+        "1698"
+       ],
+       "corect": 0,
+       "explicatie": "A fost tipărită de călugărul Macarie."
+      },
+      {
+       "intrebare": "Biblia de la București a apărut în anul:",
+       "optiuni": [
+        "1688",
+        "1508",
+        "1698",
+        "1640"
+       ],
+       "corect": 0,
+       "explicatie": "Este prima traducere integrală tipărită a Bibliei în limba română."
+      },
+      {
+       "intrebare": "Limba de cult și de cancelarie în Țările Române medievale a fost, secole la rând:",
+       "optiuni": [
+        "slavona",
+        "latina",
+        "greaca",
+        "maghiara"
+       ],
+       "corect": 0,
+       "explicatie": "Româna se impune treptat, începând cu secolul al XVI-lea."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ist9-c5",
+   "titlu": "Preistoria și zorii civilizației",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "ist9-13",
+     "titlu": "Preistoria: paleolitic, neolitic, epoca metalelor",
+     "rezumat": "Preistoria acoperă cea mai lungă parte a trecutului omenirii, de la apariția primilor hominizi până la inventarea scrisului (circa 3500 î.Hr.). Ea se împarte, după materialul uneltelor, în epoca pietrei și epoca metalelor. Paleoliticul (epoca pietrei cioplite) este perioada vânătorilor-culegători nomazi, care foloseau unelte din piatră cioplită, os și lemn, stăpâneau focul și au lăsat primele manifestări artistice — picturile rupestre de la Lascaux și Altamira, statuetele feminine numite „Venus\". Neoliticul (epoca pietrei șlefuite) aduce cea mai importantă schimbare din preistorie: revoluția neolitică. Oamenii trec de la cules și vânătoare la agricultură și creșterea animalelor, devin sedentari, întemeiază sate, fac ceramică și țesături. Această „revoluție\" a produs surplusuri de hrană, creșterea populației și, pe termen lung, diviziunea muncii. Pe teritoriul României, culturile neolitice Cucuteni și Hamangia au lăsat ceramică pictată și celebrele statuete „Gânditorul de la Hamangia\". Epoca metalelor începe cu prelucrarea aramei și a bronzului (aliaj de cupru și cositor), apoi a fierului, mai dur și mai răspândit. Metalurgia a perfecționat uneltele și armele, a intensificat schimburile și a accentuat inegalitățile sociale. Apar căpetenii, războinici și meșteri specializați — premisele apariției statelor și a civilizațiilor urbane.",
+     "ideiCheie": [
+      "Preistoria ține de la apariția omului până la inventarea scrisului (cca 3500 î.Hr.).",
+      "Paleoliticul: vânători-culegători nomazi, piatră cioplită, foc, artă rupestră.",
+      "Revoluția neolitică: agricultură, creșterea animalelor, sedentarizare, ceramică.",
+      "Culturile Cucuteni și Hamangia reprezintă neoliticul de pe teritoriul României.",
+      "Epoca metalelor (aramă, bronz, fier) a adâncit diviziunea muncii și inegalitățile."
+     ],
+     "termeni": [
+      {
+       "t": "revoluție neolitică",
+       "d": "trecerea de la vânătoare și cules la agricultură și creșterea animalelor, cu sedentarizarea comunităților"
+      },
+      {
+       "t": "paleolitic",
+       "d": "epoca pietrei cioplite, a vânătorilor-culegători nomazi"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce eveniment marchează sfârșitul preistoriei?",
+       "v": "Inventarea scrisului, în jurul anului 3500 î.Hr."
+      },
+      {
+       "f": "Ce este revoluția neolitică?",
+       "v": "Trecerea la agricultură, creșterea animalelor și viață sedentară."
+      },
+      {
+       "f": "Ce cultură neolitică de pe teritoriul României e cunoscută pentru ceramica pictată?",
+       "v": "Cultura Cucuteni."
+      },
+      {
+       "f": "Din ce se obține bronzul?",
+       "v": "Din aliajul de cupru cu cositor."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Preistoria se încheie, convențional, odată cu:",
+       "optiuni": [
+        "inventarea scrisului",
+        "descoperirea focului",
+        "apariția agriculturii",
+        "prelucrarea fierului"
+       ],
+       "corect": 0,
+       "explicatie": "Scrisul face trecerea la istorie ca disciplină bazată pe izvoare scrise."
+      },
+      {
+       "intrebare": "Oamenii din paleolitic erau:",
+       "optiuni": [
+        "vânători-culegători nomazi",
+        "agricultori sedentari",
+        "meșteri metalurgiști",
+        "negustori"
+       ],
+       "corect": 0,
+       "explicatie": "Sedentarizarea și agricultura apar abia în neolitic."
+      },
+      {
+       "intrebare": "Statuetele „Gânditorul\" aparțin culturii:",
+       "optiuni": [
+        "Hamangia",
+        "Cucuteni",
+        "Gumelnița",
+        "Boian"
+       ],
+       "corect": 0,
+       "explicatie": "Ele au fost descoperite la Cernavodă, în Dobrogea."
+      },
+      {
+       "intrebare": "Bronzul este un aliaj de:",
+       "optiuni": [
+        "cupru și cositor",
+        "fier și cărbune",
+        "aur și argint",
+        "plumb și zinc"
+       ],
+       "corect": 0,
+       "explicatie": "Fierul, mai dur, a fost prelucrat ulterior bronzului."
+      }
+     ]
+    },
+    {
+     "id": "ist9-14",
+     "titlu": "Scrierea, orașul și primele state",
+     "rezumat": "Apariția scrisului, în Mesopotamia și Egipt, în jurul anilor 3500–3000 î.Hr., a fost o cotitură a istoriei. Scrisul a permis administrarea recoltelor și a impozitelor, consemnarea legilor, transmiterea cunoștințelor și a credințelor. Primele forme au fost pictografice (semne-imagine), apoi ideografice și, în cele din urmă, fonetice. Scrierea cuneiformă mesopotamiană se realiza prin apăsarea unui stilet în tăblițe de lut, iar hieroglifele egiptene, pe papirus și pe pereții templelor. Odată cu surplusurile agricole și cu specializarea meșteșugurilor a apărut orașul — centru economic, religios și politic. În jurul templului și al palatului s-au concentrat administrația, negustorii și meșterii. Orașele-state sumeriene (Ur, Uruk, Lagaș) au fost primele forme de organizare statală, cu un conducător, o birocrație, o armată și legi scrise. Statul a însemnat o putere publică distinctă de familie și de trib: fiscalitate, justiție, apărare, lucrări publice (canale de irigație, ziduri, temple). Marile monarhii ale Orientului — Egiptul faraonic, imperiile mesopotamiene, mai târziu Persia — au dezvoltat administrații complexe, coduri de legi și o scriere pusă în slujba puterii.",
+     "ideiCheie": [
+      "Scrisul apare în Mesopotamia și Egipt în jurul anilor 3500–3000 î.Hr.",
+      "De la pictograme la semne fonetice: scrisul devine tot mai abstract.",
+      "Orașul concentrează templul, palatul, administrația, meșteșugul și comerțul.",
+      "Orașele-state sumeriene sunt primele forme de organizare statală.",
+      "Statul înseamnă putere publică: fiscalitate, justiție, apărare, lucrări publice."
+     ],
+     "termeni": [
+      {
+       "t": "pictogramă",
+       "d": "semn-imagine care reprezintă direct un obiect sau o ființă"
+      },
+      {
+       "t": "oraș-stat",
+       "d": "comunitate urbană independentă, cu teritoriu, conducător și instituții proprii"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Unde și când apare scrisul?",
+       "v": "În Mesopotamia și Egipt, în jurul anilor 3500–3000 î.Hr."
+      },
+      {
+       "f": "Cum se realiza scrierea cuneiformă?",
+       "v": "Prin apăsarea unui stilet în tăblițe de lut."
+      },
+      {
+       "f": "Care au fost primele forme de organizare statală?",
+       "v": "Orașele-state sumeriene, precum Ur, Uruk și Lagaș."
+      },
+      {
+       "f": "La ce foloseau egiptenii papirusul?",
+       "v": "Ca suport pentru scrierea hieroglifică."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Scrierea cuneiformă era specifică:",
+       "optiuni": [
+        "Mesopotamiei",
+        "Egiptului",
+        "Chinei",
+        "Feniciei"
+       ],
+       "corect": 0,
+       "explicatie": "Egiptenii foloseau scrierea hieroglifică."
+      },
+      {
+       "intrebare": "Primele orașe-state din istorie au apărut la:",
+       "optiuni": [
+        "sumerieni",
+        "perși",
+        "fenicieni",
+        "evrei"
+       ],
+       "corect": 0,
+       "explicatie": "Ur, Uruk și Lagaș sunt exemple sumeriene."
+      },
+      {
+       "intrebare": "Cel mai vechi tip de scriere folosea:",
+       "optiuni": [
+        "pictograme (semne-imagine)",
+        "litere ale unui alfabet",
+        "cifre arabe",
+        "exclusiv semne fonetice"
+       ],
+       "corect": 0,
+       "explicatie": "De la pictograme s-a trecut treptat la semne fonetice."
+      },
+      {
+       "intrebare": "Apariția statului presupune:",
+       "optiuni": [
+        "o putere publică, distinctă de familie și trib, cu fiscalitate și justiție",
+        "desființarea proprietății",
+        "dispariția religiei",
+        "egalitatea deplină între oameni"
+       ],
+       "corect": 0,
+       "explicatie": "Statul a organizat impozitele, apărarea și lucrările publice."
+      }
+     ]
+    },
+    {
+     "id": "ist9-15",
+     "titlu": "Religie și mitologie în lumea antică",
+     "rezumat": "Religia a fost, în Antichitate, temelia vieții sociale și politice. Cele mai vechi credințe au fost politeiste: oamenii venerau numeroși zei, adesea legați de forțele naturii (soarele, furtuna, fertilitatea) și de cetate. Mitologiile mesopotamiană, egipteană, greacă și romană explicau originea lumii, ordinea socială și soarta după moarte. În Egipt, credința în viața de apoi a modelat practicile funerare — mumificarea și piramidele. Grecii și romanii aveau panteoane asemănătoare: Zeus/Jupiter, Hera/Iunona, Atena/Minerva, Ares/Marte. Religia greco-romană era o religie „civică\": cultul zeilor era o datorie față de cetate, nu o chestiune de credință personală. Alături de ea existau cultele cu mistere (Eleusis, Dionysos) și, în epoca romană, culte orientale (Isis, Mithras). O excepție majoră a fost monoteismul evreilor: credința într-un singur Dumnezeu, ideea de legământ și de lege morală, consemnate în Biblia ebraică. Din această tradiție s-au născut, mai târziu, creștinismul și islamul. Trecerea de la politeism la monoteism a fost una dintre marile transformări spirituale ale istoriei, cu efecte de lungă durată asupra civilizației.",
+     "ideiCheie": [
+      "Cele mai vechi religii erau politeiste, legate de forțele naturii și de cetate.",
+      "Mitologiile explicau originea lumii, ordinea socială și soarta după moarte.",
+      "Religia greco-romană era civică: o datorie față de cetate.",
+      "Evreii au dezvoltat monoteismul și ideea de lege morală revelată.",
+      "Din monoteismul evreiesc s-au născut creștinismul și islamul."
+     ],
+     "termeni": [
+      {
+       "t": "politeism",
+       "d": "credința în mai mulți zei"
+      },
+      {
+       "t": "monoteism",
+       "d": "credința într-un singur Dumnezeu"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce este politeismul?",
+       "v": "Credința în mai mulți zei."
+      },
+      {
+       "f": "Cărui zeu grec îi corespunde Jupiter la romani?",
+       "v": "Lui Zeus."
+      },
+      {
+       "f": "Ce practică funerară exprima credința egiptenilor în viața de apoi?",
+       "v": "Mumificarea."
+      },
+      {
+       "f": "Ce religii s-au născut din monoteismul evreiesc?",
+       "v": "Creștinismul și islamul."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Religia greco-romană era, în esență:",
+       "optiuni": [
+        "o religie civică, o datorie față de cetate",
+        "o religie monoteistă",
+        "o filosofie fără zei",
+        "o credință personală, ruptă de stat"
+       ],
+       "corect": 0,
+       "explicatie": "Cultul zeilor era o obligație publică."
+      },
+      {
+       "intrebare": "Monoteismul a fost dezvoltat în Antichitate de:",
+       "optiuni": [
+        "evrei",
+        "greci",
+        "romani",
+        "egipteni"
+       ],
+       "corect": 0,
+       "explicatie": "Din el s-au născut creștinismul și islamul."
+      },
+      {
+       "intrebare": "Mumificarea egipteană exprima:",
+       "optiuni": [
+        "credința în viața de apoi",
+        "cultul soarelui",
+        "teama de zei",
+        "respectul față de faraon"
+       ],
+       "corect": 0,
+       "explicatie": "Trupul trebuia păstrat pentru existența de dincolo."
+      },
+      {
+       "intrebare": "Zeiței Atena îi corespunde, la romani:",
+       "optiuni": [
+        "Minerva",
+        "Iunona",
+        "Venus",
+        "Diana"
+       ],
+       "corect": 0,
+       "explicatie": "Panteonul roman a preluat, în mare parte, zeii greci."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ist9-c6",
+   "titlu": "Creștinismul și amurgul lumii antice",
+   "semestru": 1,
+   "lectii": [
+    {
+     "id": "ist9-16",
+     "titlu": "Nașterea și răspândirea creștinismului",
+     "rezumat": "Creștinismul a apărut în secolul I d.Hr., în Iudeea, provincie a Imperiului Roman, pornind de la predica lui Iisus din Nazaret. Mesajul creștin — iubirea aproapelui, egalitatea tuturor oamenilor în fața lui Dumnezeu, mântuirea și viața veșnică — s-a răspândit prin apostoli, mai ales prin Pavel din Tars, care a dus noua credință în lumea greco-romană. Scrierile fundamentale sunt adunate în Noul Testament. La început, creștinii au fost persecutați, fiindcă refuzau cultul împăratului și al zeilor cetății. Persecuțiile (Nero, Dioclețian) nu au oprit însă răspândirea religiei, favorizată de rețeaua de drumuri, de limba greacă comună și de mesajul ei universal, adresat săracilor, sclavilor și femeilor. Comunitățile creștine s-au organizat treptat, conduse de episcopi. Cotitura a venit în secolul al IV-lea. Prin Edictul de la Milano (313), împăratul Constantin cel Mare a acordat libertate de cult creștinilor. La Conciliul de la Niceea (325) s-au stabilit dogmele de bază (Crezul). În 380, prin edictul lui Teodosiu, creștinismul a devenit religie oficială a Imperiului Roman. Dintr-o credință persecutată, creștinismul a ajuns, în mai puțin de trei secole, religia dominantă a lumii mediteraneene.",
+     "ideiCheie": [
+      "Creștinismul apare în secolul I d.Hr., în Iudeea romană, din predica lui Iisus.",
+      "Pavel din Tars răspândește credința în lumea greco-romană.",
+      "La început creștinii au fost persecutați pentru refuzul cultului imperial.",
+      "Edictul de la Milano (313) a acordat libertate de cult creștinilor.",
+      "Prin edictul lui Teodosiu (380), creștinismul devine religie oficială."
+     ],
+     "termeni": [
+      {
+       "t": "Edictul de la Milano",
+       "d": "actul din 313 prin care Constantin cel Mare a acordat libertate de cult creștinilor"
+      },
+      {
+       "t": "episcop",
+       "d": "conducătorul unei comunități creștine dintr-un oraș"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Unde și când apare creștinismul?",
+       "v": "În Iudeea, provincie romană, în secolul I d.Hr."
+      },
+      {
+       "f": "Cine a răspândit creștinismul în lumea greco-romană?",
+       "v": "Apostolul Pavel din Tars."
+      },
+      {
+       "f": "Ce a stabilit Edictul de la Milano (313)?",
+       "v": "Libertatea de cult pentru creștini."
+      },
+      {
+       "f": "Când a devenit creștinismul religie oficială a Imperiului Roman?",
+       "v": "În 380, prin edictul lui Teodosiu."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Edictul de la Milano (313) a fost dat de:",
+       "optiuni": [
+        "Constantin cel Mare",
+        "Nero",
+        "Dioclețian",
+        "Teodosiu"
+       ],
+       "corect": 0,
+       "explicatie": "El a acordat libertate de cult creștinilor."
+      },
+      {
+       "intrebare": "Creștinismul a devenit religie oficială a Imperiului Roman în:",
+       "optiuni": [
+        "380",
+        "313",
+        "325",
+        "476"
+       ],
+       "corect": 0,
+       "explicatie": "Prin edictul împăratului Teodosiu."
+      },
+      {
+       "intrebare": "Primul Conciliu ecumenic s-a ținut, în 325, la:",
+       "optiuni": [
+        "Niceea",
+        "Roma",
+        "Constantinopol",
+        "Milano"
+       ],
+       "corect": 0,
+       "explicatie": "Acolo a fost formulat Crezul."
+      },
+      {
+       "intrebare": "Creștinii au fost persecutați inițial pentru că:",
+       "optiuni": [
+        "refuzau cultul împăratului și al zeilor cetății",
+        "nu plăteau impozite",
+        "se revoltau cu armele",
+        "refuzau orice serviciu militar"
+       ],
+       "corect": 0,
+       "explicatie": "Refuzul cultului imperial era considerat un act de neloialitate."
+      }
+     ]
+    },
+    {
+     "id": "ist9-17",
+     "titlu": "Criza Imperiului Roman și marile migrații",
+     "rezumat": "Din secolul al III-lea, Imperiul Roman a intrat într-o criză profundă: instabilitate politică (împărați numiți și uciși de armată), inflație, scăderea populației, presiunea popoarelor de la granițe. Împărații Dioclețian și Constantin au încercat reforme: împărțirea administrativă a imperiului, întărirea birocrației și a armatei, mutarea capitalei la Constantinopol (330). În 395, imperiul s-a împărțit definitiv în două: Imperiul Roman de Apus și Imperiul Roman de Răsărit. Marile migrații ale popoarelor (secolele IV–VII) au fost declanșate de înaintarea hunilor din Asia. Popoarele germanice — vizigoți, ostrogoți, vandali, franci, longobarzi, anglo-saxoni — au pătruns în imperiu, unele așezându-se ca federate, altele jefuind. Roma a fost cucerită de vizigoți (410) și de vandali (455). În 476, generalul Odoacru l-a înlăturat pe ultimul împărat roman de Apus, Romulus Augustulus — moment considerat convențional sfârșitul Antichității. Pe teritoriul fostului imperiu de Apus s-au format regatele germanice (vizigot, ostrogot, franc), care au îmbinat moștenirea romană cu tradițiile germanice și cu creștinismul — sinteza din care se va naște Evul Mediu occidental.",
+     "ideiCheie": [
+      "Din secolul al III-lea, Imperiul Roman intră în criză politică, economică și militară.",
+      "Constantin mută capitala la Constantinopol (330).",
+      "În 395 imperiul se împarte definitiv în Apus și Răsărit.",
+      "Marile migrații (sec. IV–VII) sunt declanșate de înaintarea hunilor.",
+      "În 476 cade Imperiul Roman de Apus; se formează regatele germanice."
+     ],
+     "termeni": [
+      {
+       "t": "mari migrații",
+       "d": "deplasările popoarelor germanice și asiatice în spațiul roman, între secolele IV și VII"
+      },
+      {
+       "t": "federați",
+       "d": "popoare barbare așezate în imperiu cu obligația de a-l apăra"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "În ce an s-a împărțit definitiv Imperiul Roman?",
+       "v": "În 395, în Apus și Răsărit."
+      },
+      {
+       "f": "Ce popor asiatic a declanșat marile migrații?",
+       "v": "Hunii."
+      },
+      {
+       "f": "Cine a fost înlăturat în 476?",
+       "v": "Ultimul împărat roman de Apus, Romulus Augustulus."
+      },
+      {
+       "f": "Unde a mutat Constantin capitala imperiului?",
+       "v": "La Constantinopol, în 330."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Imperiul Roman de Apus a căzut în anul:",
+       "optiuni": [
+        "476",
+        "395",
+        "330",
+        "410"
+       ],
+       "corect": 0,
+       "explicatie": "Odoacru l-a înlăturat pe Romulus Augustulus."
+      },
+      {
+       "intrebare": "Marile migrații au fost declanșate de înaintarea:",
+       "optiuni": [
+        "hunilor",
+        "vizigoților",
+        "francilor",
+        "vandalilor"
+       ],
+       "corect": 0,
+       "explicatie": "Presiunea hunilor a împins popoarele germanice spre imperiu."
+      },
+      {
+       "intrebare": "Împărțirea definitivă a Imperiului Roman a avut loc în:",
+       "optiuni": [
+        "395",
+        "476",
+        "330",
+        "313"
+       ],
+       "corect": 0,
+       "explicatie": "Au rezultat Imperiul de Apus și cel de Răsărit."
+      },
+      {
+       "intrebare": "Pe teritoriul Imperiului Roman de Apus s-au format, după 476:",
+       "optiuni": [
+        "regatele germanice",
+        "orașele-state grecești",
+        "califatele arabe",
+        "cnezatele slave"
+       ],
+       "corect": 0,
+       "explicatie": "Ele au îmbinat moștenirea romană cu tradițiile germanice și creștinismul."
+      }
+     ]
+    },
+    {
+     "id": "ist9-18",
+     "titlu": "Imperiul Bizantin timpuriu și Iustinian",
+     "rezumat": "Imperiul Roman de Răsărit, numit de istorici Imperiul Bizantin (după vechiul nume al Constantinopolului, Bizanț), a supraviețuit căderii Apusului cu aproape o mie de ani. El a păstrat tradiția statală romană, limba greacă, cultura elenistică și creștinismul ortodox. Împăratul (basileus) avea o autoritate aproape sacră, extinsă și asupra Bisericii — sistem numit cezaropapism. Apogeul timpuriu a fost atins sub Iustinian (527–565). El a încercat să refacă Imperiul Roman, recucerind Italia, Africa de Nord și sudul Spaniei. A ridicat catedrala Sfânta Sofia din Constantinopol, capodoperă a arhitecturii bizantine. Cea mai durabilă realizare a fost însă codificarea dreptului roman — Corpus Iuris Civilis (Codul lui Iustinian) — care a transmis dreptul roman Evului Mediu și modernității. Bizanțul a fost o punte între Antichitate și Evul Mediu și un centru de civilizație strălucit, într-o vreme în care Occidentul trecea prin „veacurile întunecate\". El a creștinat popoarele slave (prin misiunea lui Chiril și Metodiu, creatorii alfabetului chirilic), a influențat arta, dreptul și modelul de stat din întreaga Europă răsăriteană, inclusiv din spațiul românesc.",
+     "ideiCheie": [
+      "Imperiul Bizantin este continuarea răsăriteană a Imperiului Roman.",
+      "Basileus-ul avea autoritate și asupra Bisericii (cezaropapism).",
+      "Iustinian (527–565) recucerește temporar Italia, Africa, sudul Spaniei.",
+      "Corpus Iuris Civilis transmite dreptul roman posterității.",
+      "Bizanțul creștinează slavii; Chiril și Metodiu creează alfabetul chirilic."
+     ],
+     "termeni": [
+      {
+       "t": "Corpus Iuris Civilis",
+       "d": "codificarea dreptului roman realizată sub Iustinian"
+      },
+      {
+       "t": "basileus",
+       "d": "titlul împăratului bizantin"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum se numește continuarea răsăriteană a Imperiului Roman?",
+       "v": "Imperiul Bizantin."
+      },
+      {
+       "f": "Sub ce împărat a atins Bizanțul apogeul timpuriu?",
+       "v": "Sub Iustinian (527–565)."
+      },
+      {
+       "f": "Ce operă juridică a lăsat Iustinian?",
+       "v": "Corpus Iuris Civilis, codificarea dreptului roman."
+      },
+      {
+       "f": "Ce catedrală a ridicat Iustinian la Constantinopol?",
+       "v": "Sfânta Sofia."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Codificarea dreptului roman a fost realizată sub:",
+       "optiuni": [
+        "Iustinian",
+        "Constantin cel Mare",
+        "Teodosiu",
+        "Traian"
+       ],
+       "corect": 0,
+       "explicatie": "Corpus Iuris Civilis a transmis dreptul roman posterității."
+      },
+      {
+       "intrebare": "Sistemul în care împăratul are autoritate și asupra Bisericii se numește:",
+       "optiuni": [
+        "cezaropapism",
+        "teocrație",
+        "separarea puterilor",
+        "absolutism"
+       ],
+       "corect": 0,
+       "explicatie": "El este caracteristic Imperiului Bizantin."
+      },
+      {
+       "intrebare": "Alfabetul chirilic a fost creat de:",
+       "optiuni": [
+        "Chiril și Metodiu",
+        "Iustinian",
+        "Constantin cel Mare",
+        "apostolul Pavel"
+       ],
+       "corect": 0,
+       "explicatie": "Ei au misionarizat popoarele slave."
+      },
+      {
+       "intrebare": "Catedrala Sfânta Sofia a fost ridicată la:",
+       "optiuni": [
+        "Constantinopol",
+        "Roma",
+        "Ravenna",
+        "Atena"
+       ],
+       "corect": 0,
+       "explicatie": "Este capodopera arhitecturii bizantine."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ist9-c7",
+   "titlu": "Lumea medievală: religii și imperii",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "ist9-19",
+     "titlu": "Islamul și civilizația arabă",
+     "rezumat": "Islamul a apărut în secolul al VII-lea, în Peninsula Arabică, prin predica lui Mahomed (Muhammad), considerat de musulmani ultimul profet. Credința musulmană este strict monoteistă (un singur Dumnezeu, Allah) și are ca temei Coranul. Cei „cinci stâlpi ai islamului\" sunt: mărturisirea de credință, rugăciunea, postul din luna Ramadan, milostenia și pelerinajul la Mecca. Anul 622, al emigrării (Hegira) lui Mahomed de la Mecca la Medina, marchează începutul erei musulmane. După moartea lui Mahomed (632), succesorii săi — califii — au condus o expansiune fulgerătoare. În mai puțin de un secol, arabii au cucerit Orientul Apropiat, Persia, Egiptul, Africa de Nord și Spania (711). Înaintarea lor în Europa a fost oprită de franci la Poitiers (732). Califatul a devenit un imperiu întins din Atlantic până în India. Civilizația arabo-islamică a fost, în Evul Mediu timpuriu, una dintre cele mai avansate din lume. Arabii au preluat și dezvoltat moștenirea greacă și persană: algebra, medicina, astronomia, filosofia. Au transmis Occidentului cifrele „arabe\" (de origine indiană), hârtia, numeroase traduceri din autorii antici. Orașe precum Bagdad, Cordoba și Cairo au fost mari centre de cultură.",
+     "ideiCheie": [
+      "Islamul apare în secolul al VII-lea, prin predica lui Mahomed, în Arabia.",
+      "Coranul este cartea sfântă; islamul este strict monoteist.",
+      "Hegira (622) marchează începutul erei musulmane.",
+      "Arabii cuceresc un imperiu din Atlantic până în India; opriți la Poitiers (732).",
+      "Civilizația arabă a transmis Occidentului știință, filosofie și cifrele „arabe\"."
+     ],
+     "termeni": [
+      {
+       "t": "Coran",
+       "d": "cartea sfântă a musulmanilor"
+      },
+      {
+       "t": "Hegira",
+       "d": "emigrarea lui Mahomed de la Mecca la Medina (622), începutul erei musulmane"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cine a întemeiat islamul?",
+       "v": "Mahomed (Muhammad), în secolul al VII-lea."
+      },
+      {
+       "f": "Care este cartea sfântă a musulmanilor?",
+       "v": "Coranul."
+      },
+      {
+       "f": "Ce eveniment marchează începutul erei musulmane?",
+       "v": "Hegira, emigrarea lui Mahomed la Medina (622)."
+      },
+      {
+       "f": "Unde a fost oprită înaintarea arabă în Europa Occidentală?",
+       "v": "La Poitiers (732), de către franci."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Începutul erei musulmane este marcat de:",
+       "optiuni": [
+        "Hegira (622)",
+        "nașterea lui Mahomed",
+        "cucerirea Spaniei",
+        "bătălia de la Poitiers"
+       ],
+       "corect": 0,
+       "explicatie": "Este emigrarea lui Mahomed de la Mecca la Medina."
+      },
+      {
+       "intrebare": "Înaintarea arabă în Occident a fost oprită, în 732, la:",
+       "optiuni": [
+        "Poitiers",
+        "Constantinopol",
+        "Cordoba",
+        "Bagdad"
+       ],
+       "corect": 0,
+       "explicatie": "Francii lui Carol Martel i-au învins pe arabi."
+      },
+      {
+       "intrebare": "Cartea sfântă a islamului este:",
+       "optiuni": [
+        "Coranul",
+        "Tora",
+        "Biblia",
+        "Talmudul"
+       ],
+       "corect": 0,
+       "explicatie": "Ea cuprinde revelația transmisă lui Mahomed."
+      },
+      {
+       "intrebare": "Cifrele numite „arabe\" au fost transmise Occidentului de arabi, dar provin din:",
+       "optiuni": [
+        "India",
+        "Persia",
+        "Egipt",
+        "Grecia"
+       ],
+       "corect": 0,
+       "explicatie": "Arabii le-au preluat și le-au răspândit în Europa."
+      }
+     ]
+    },
+    {
+     "id": "ist9-20",
+     "titlu": "Imperiul lui Carol cel Mare și feudalizarea",
+     "rezumat": "În Occidentul postroman, cel mai puternic regat germanic a fost cel al francilor. Sub dinastia carolingiană, Carol cel Mare (768–814) a construit un imperiu care cuprindea o bună parte a Europei Occidentale. În anul 800, el a fost încoronat împărat la Roma, de papă — act care simboliza renașterea ideii imperiale în Apus și alianța dintre puterea politică și Biserică. Carol cel Mare a încercat să refacă unitatea și cultura Occidentului: a organizat administrația prin comiți și missi dominici (trimiși imperiali), a sprijinit școlile și copierea manuscriselor („renașterea carolingiană\"). După moartea sa, imperiul s-a destrămat: prin Tratatul de la Verdun (843), a fost împărțit între nepoții săi, dând naștere embrionelor viitoarelor Franța, Germania și Italia. Slăbirea puterii centrale, invaziile (normanzi, maghiari, arabi) și nevoia de apărare locală au dus la feudalizare: puterea s-a fărâmițat în mâinile seniorilor, legați prin raporturi de vasalitate. Fiecare senior stăpânea un domeniu, împărțea dreptate și strângea dări. Astfel s-a construit societatea feudală a Evului Mediu occidental, cu ierarhia ei de suzerani și vasali.",
+     "ideiCheie": [
+      "Carol cel Mare (768–814) construiește un mare imperiu în Occident.",
+      "În 800 este încoronat împărat la Roma, de papă.",
+      "Tratatul de la Verdun (843) împarte imperiul între nepoții săi.",
+      "Din fărâmițare se nasc embrionii Franței, Germaniei și Italiei.",
+      "Slăbirea puterii centrale și invaziile duc la feudalizarea Occidentului."
+     ],
+     "termeni": [
+      {
+       "t": "renaștere carolingiană",
+       "d": "reînviorarea culturii și a școlii în Imperiul lui Carol cel Mare"
+      },
+      {
+       "t": "Tratatul de la Verdun",
+       "d": "împărțirea, în 843, a Imperiului carolingian între nepoții lui Carol cel Mare"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cine a fost încoronat împărat la Roma în anul 800?",
+       "v": "Carol cel Mare."
+      },
+      {
+       "f": "Ce a stabilit Tratatul de la Verdun (843)?",
+       "v": "Împărțirea Imperiului carolingian în trei părți."
+      },
+      {
+       "f": "Ce state au prefigurat cele trei părți din 843?",
+       "v": "Franța, Germania și Italia."
+      },
+      {
+       "f": "Ce a favorizat feudalizarea Occidentului?",
+       "v": "Slăbirea puterii centrale și invaziile."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Carol cel Mare a fost încoronat împărat, la Roma, în anul:",
+       "optiuni": [
+        "800",
+        "843",
+        "768",
+        "814"
+       ],
+       "corect": 0,
+       "explicatie": "Încoronarea a fost făcută de papă."
+      },
+      {
+       "intrebare": "Tratatul de la Verdun (843) a dus la:",
+       "optiuni": [
+        "împărțirea Imperiului carolingian în trei",
+        "încoronarea lui Carol cel Mare",
+        "creștinarea francilor",
+        "oprirea arabilor"
+       ],
+       "corect": 0,
+       "explicatie": "Din cele trei părți s-au născut Franța, Germania și Italia."
+      },
+      {
+       "intrebare": "Feudalizarea Occidentului a fost favorizată de:",
+       "optiuni": [
+        "slăbirea puterii centrale și de invazii",
+        "întărirea orașelor",
+        "expansiunea arabă în Asia",
+        "Marea Schismă"
+       ],
+       "corect": 0,
+       "explicatie": "Apărarea locală a trecut în mâinile seniorilor."
+      },
+      {
+       "intrebare": "„Renașterea carolingiană\" a însemnat:",
+       "optiuni": [
+        "o reînviorare a culturii și a școlilor",
+        "o revoltă țărănească",
+        "o reformă religioasă",
+        "o expansiune militară în Asia"
+       ],
+       "corect": 0,
+       "explicatie": "Carol cel Mare a sprijinit școlile și copierea manuscriselor."
+      }
+     ]
+    },
+    {
+     "id": "ist9-21",
+     "titlu": "Bizanțul, slavii și lumea ortodoxă",
+     "rezumat": "Timp de un mileniu, Imperiul Bizantin a fost cea mai mare putere a Europei răsăritene. După epoca lui Iustinian, el a rezistat presiunii arabilor, bulgarilor și, mai târziu, a turcilor selgiucizi și otomani. Bizanțul a fost un far de civilizație: a păstrat cultura antică, a dezvoltat o artă religioasă rafinată (icoane, mozaicuri, arhitectura cu cupole) și un drept elaborat. Rolul cel mai însemnat al Bizanțului a fost creștinarea și culturalizarea popoarelor slave. Misionarii Chiril și Metodiu au tradus textele sfinte în slavonă și au creat alfabetul care le poartă numele (chirilic). Astfel s-a format o vastă comunitate ortodoxă: bulgari, sârbi, ruși și, în bună parte, românii au primit credința ortodoxă și, prin ea, modelul cultural bizantin. Din secolul al XI-lea, între Bizanț și Occident s-a adâncit ruptura. Marea Schismă (1054) a despărțit Biserica Ortodoxă de cea Catolică. Cruciada a IV-a a jefuit Constantinopolul (1204). Deși refăcut, imperiul a slăbit continuu, până la cucerirea Constantinopolului de către otomani (1453). Moștenirea bizantină a supraviețuit însă în lumea ortodoxă, inclusiv în Țările Române, care s-au considerat continuatoare ale tradiției bizantine.",
+     "ideiCheie": [
+      "Bizanțul a fost, un mileniu, cea mai mare putere a Europei răsăritene.",
+      "A dezvoltat o artă religioasă rafinată: icoane, mozaicuri, cupole.",
+      "Chiril și Metodiu au creștinat slavii și au creat alfabetul chirilic.",
+      "S-a format o vastă comunitate ortodoxă: bulgari, sârbi, ruși, români.",
+      "Constantinopolul cade în 1453; moștenirea bizantină rămâne în lumea ortodoxă."
+     ],
+     "termeni": [
+      {
+       "t": "slavonă",
+       "d": "limba slavă bisericească, folosită în cult și în cancelariile ortodoxe"
+      },
+      {
+       "t": "icoană",
+       "d": "imagine religioasă venerată în tradiția ortodoxă"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce popoare a creștinat Bizanțul?",
+       "v": "Popoarele slave: bulgari, sârbi, ruși și altele."
+      },
+      {
+       "f": "Cine a creat alfabetul chirilic?",
+       "v": "Misionarii Chiril și Metodiu."
+      },
+      {
+       "f": "Când a căzut Constantinopolul sub otomani?",
+       "v": "În 1453."
+      },
+      {
+       "f": "Ce a despărțit Marea Schismă din 1054?",
+       "v": "Biserica Ortodoxă de cea Catolică."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Popoarele slave au fost creștinate mai ales de:",
+       "optiuni": [
+        "Bizanț",
+        "papalitatea de la Roma",
+        "califatul arab",
+        "Imperiul carolingian"
+       ],
+       "corect": 0,
+       "explicatie": "Chiril și Metodiu au tradus textele sfinte în slavonă."
+      },
+      {
+       "intrebare": "Constantinopolul a fost cucerit de otomani în:",
+       "optiuni": [
+        "1453",
+        "1054",
+        "1204",
+        "1492"
+       ],
+       "corect": 0,
+       "explicatie": "Data marchează și sfârșitul Imperiului Bizantin."
+      },
+      {
+       "intrebare": "Alfabetul chirilic a fost folosit, secole la rând, și în:",
+       "optiuni": [
+        "cancelariile Țărilor Române",
+        "Imperiul carolingian",
+        "califatul de la Cordoba",
+        "regatul franc"
+       ],
+       "corect": 0,
+       "explicatie": "Slavona a fost limba de cult și de cancelarie în spațiul românesc."
+      },
+      {
+       "intrebare": "Marea Schismă din 1054 a separat:",
+       "optiuni": [
+        "Biserica Ortodoxă de cea Catolică",
+        "creștinismul de islam",
+        "Bizanțul de Persia",
+        "papalitatea de Imperiul carolingian"
+       ],
+       "corect": 0,
+       "explicatie": "Ruptura a fost dogmatică, liturgică și de autoritate."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ist9-c8",
+   "titlu": "Statul și societatea românească medievală",
+   "semestru": 2,
+   "lectii": [
+    {
+     "id": "ist9-22",
+     "titlu": "Transilvania medievală: voievodat și autonomii",
+     "rezumat": "Transilvania a avut, în Evul Mediu, o evoluție deosebită de a celorlalte două țări române. După destrămarea autonomiilor locale românești (voievodatele lui Gelu, Glad, Menumorut, menționate în cronica notarului anonim), regatul maghiar și-a extins treptat stăpânirea, din secolul al XI-lea până în al XIII-lea. Transilvania a fost organizată ca voievodat, condus de un voievod numit de regele Ungariei, dar cu o largă autonomie. Pentru a-și consolida stăpânirea și a apăra granițele, regalitatea maghiară a colonizat sași (germani) și secui și a adus temporar cavalerii teutoni (în Țara Bârsei). Sașii au întemeiat orașe înfloritoare (Sibiu, Brașov, Sighișoara, Bistrița, Mediaș, Sebeș — cele „șapte scaune\"), centre meșteșugărești și comerciale. Organizarea politică a Transilvaniei s-a bazat pe cele „trei națiuni\" privilegiate — nobilimea (majoritar maghiară), sașii și secuii — recunoscute prin înțelegerea Unio Trium Nationum (1437), încheiată după răscoala de la Bobâlna. Românii, deși majoritari, au fost excluși treptat de la viața politică, iar ortodoxia lor a rămas o religie doar tolerată. Această situație a marcat istoria Transilvaniei până în epoca modernă.",
+     "ideiCheie": [
+      "Transilvania a fost organizată ca voievodat autonom sub suzeranitate maghiară.",
+      "Regalitatea a colonizat sași și secui pentru apărare și dezvoltare.",
+      "Sașii au întemeiat orașe puternice: Sibiu, Brașov, Sighișoara, Bistrița.",
+      "Cele „trei națiuni\" privilegiate: nobilimea, sașii și secuii (Unio Trium Nationum, 1437).",
+      "Românii, majoritari, au fost excluși de la viața politică; ortodoxia, tolerată."
+     ],
+     "termeni": [
+      {
+       "t": "voievodat",
+       "d": "formă de organizare politică autonomă, condusă de un voievod"
+      },
+      {
+       "t": "Unio Trium Nationum",
+       "d": "alianța din 1437 a celor trei „națiuni\" privilegiate din Transilvania"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Cum a fost organizată Transilvania sub stăpânire maghiară?",
+       "v": "Ca voievodat autonom, condus de un voievod."
+      },
+      {
+       "f": "Ce populații a colonizat regalitatea maghiară în Transilvania?",
+       "v": "Sași și secui."
+      },
+      {
+       "f": "Care erau cele „trei națiuni\" privilegiate?",
+       "v": "Nobilimea, sașii și secuii."
+      },
+      {
+       "f": "Ce oraș transilvănean a fost întemeiat de sași?",
+       "v": "De exemplu, Sibiul, Brașovul sau Sighișoara."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Transilvania medievală a fost organizată ca:",
+       "optiuni": [
+        "voievodat autonom sub suzeranitate maghiară",
+        "regat independent",
+        "provincie otomană",
+        "republică orășenească"
+       ],
+       "corect": 0,
+       "explicatie": "Voievodul era numit de regele Ungariei."
+      },
+      {
+       "intrebare": "Unio Trium Nationum (1437) reunea:",
+       "optiuni": [
+        "nobilimea, sașii și secuii",
+        "românii, sașii și maghiarii",
+        "ortodocșii, catolicii și calvinii",
+        "orașele, satele și mănăstirile"
+       ],
+       "corect": 0,
+       "explicatie": "Românii, deși majoritari, erau excluși."
+      },
+      {
+       "intrebare": "Orașele Sibiu, Brașov și Sighișoara au fost întemeiate de:",
+       "optiuni": [
+        "coloniștii sași",
+        "secui",
+        "cavalerii teutoni",
+        "negustorii greci"
+       ],
+       "corect": 0,
+       "explicatie": "Ei au dezvoltat meșteșugurile și comerțul."
+      },
+      {
+       "intrebare": "Ortodoxia românilor din Transilvania medievală avea statutul de religie:",
+       "optiuni": [
+        "tolerată",
+        "receptă",
+        "oficială",
+        "dominantă"
+       ],
+       "corect": 0,
+       "explicatie": "Ea nu se număra printre confesiunile recunoscute politic."
+      }
+     ]
+    },
+    {
+     "id": "ist9-23",
+     "titlu": "Instituțiile centrale ale Țărilor Române",
+     "rezumat": "Țara Românească și Moldova, întemeiate în secolul al XIV-lea, au dezvoltat instituții asemănătoare, de tradiție bizantino-slavă. În fruntea statului se afla domnul, considerat „din mila lui Dumnezeu\" stăpânitor. El deținea puteri largi: conducea armata, bătea monedă, numea dregătorii, împărțea dreptate, încheia tratate. Domnia era, în principiu, ereditar-electivă: domnul era ales dintre membrii familiei domnitoare, cu acordul boierimii. Domnul era ajutat de Sfatul domnesc, alcătuit din marii boieri și dregători. Dregătorii îndeplineau funcții la curte și în stat: vornicul (justiție, curte), logofătul (cancelaria), vistiernicul (finanțele), spătarul (armata), postelnicul (relațiile externe). Adunarea Țării (Adunarea Stărilor), reunind boierimea, clerul și, uneori, orășenimea, era convocată pentru hotărâri importante: alegerea domnului, dări, război. Biserica Ortodoxă era strâns legată de stat. Mitropolitul, recunoscut de Patriarhia de la Constantinopol (1359 pentru Țara Românească, 1401 pentru Moldova), era primul sfetnic al domnului și îl încorona. Aceste instituții au dat statelor românești medievale stabilitate și identitate, păstrându-se, cu schimbări, până în epoca modernă.",
+     "ideiCheie": [
+      "Domnul avea puteri largi: armată, monedă, justiție, tratate, numirea dregătorilor.",
+      "Domnia era ereditar-electivă: ales din familia domnitoare, cu acordul boierimii.",
+      "Sfatul domnesc reunea marii boieri și dregători.",
+      "Dregătorii: vornic, logofăt, vistiernic, spătar, postelnic.",
+      "Mitropolitul, recunoscut de Constantinopol, era primul sfetnic al domnului."
+     ],
+     "termeni": [
+      {
+       "t": "domn",
+       "d": "conducătorul suprem al Țării Românești sau al Moldovei în Evul Mediu"
+      },
+      {
+       "t": "dregător",
+       "d": "mare demnitar cu funcție la curtea domnească și în stat"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce puteri avea domnul în Țările Române?",
+       "v": "Conducea armata, bătea monedă, împărțea dreptate, numea dregătorii, încheia tratate."
+      },
+      {
+       "f": "Cum era transmisă domnia?",
+       "v": "Ereditar-electiv: alegere din familia domnitoare, cu acordul boierimii."
+      },
+      {
+       "f": "Ce era Sfatul domnesc?",
+       "v": "Organul consultativ format din marii boieri și dregători."
+      },
+      {
+       "f": "Ce dregător conducea cancelaria domnească?",
+       "v": "Logofătul."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "În fruntea Țării Românești și a Moldovei se afla:",
+       "optiuni": [
+        "domnul",
+        "un voievod numit de rege",
+        "sultanul",
+        "mitropolitul"
+       ],
+       "corect": 0,
+       "explicatie": "El deținea puteri largi, politice și militare."
+      },
+      {
+       "intrebare": "Dregătorul care se ocupa de finanțele țării era:",
+       "optiuni": [
+        "vistiernicul",
+        "vornicul",
+        "spătarul",
+        "postelnicul"
+       ],
+       "corect": 0,
+       "explicatie": "Logofătul conducea cancelaria."
+      },
+      {
+       "intrebare": "Domnia în Țările Române era:",
+       "optiuni": [
+        "ereditar-electivă",
+        "pur ereditară, din tată în fiu",
+        "pur electivă, prin vot popular",
+        "numită de sultan de la început"
+       ],
+       "corect": 0,
+       "explicatie": "Domnul era ales din familia domnitoare, cu acordul boierimii."
+      },
+      {
+       "intrebare": "Mitropolitul Țării Românești a fost recunoscut de Patriarhia de la Constantinopol în:",
+       "optiuni": [
+        "1359",
+        "1401",
+        "1330",
+        "1247"
+       ],
+       "corect": 0,
+       "explicatie": "Cel al Moldovei, în 1401."
+      }
+     ]
+    },
+    {
+     "id": "ist9-24",
+     "titlu": "Economie, societate și viață cotidiană în Evul Mediu românesc",
+     "rezumat": "Economia Țărilor Române medievale era, în esență, agrară. Cea mai mare parte a populației era formată din țărani, care lucrau pământul, creșteau animale și datorau dări și munci stăpânilor. Se cultivau cereale, viță de vie, pomi; se creșteau oi, vite, cai. Un rol important îl aveau exploatarea sării, a metalelor și pescuitul. Comerțul se desfășura pe drumurile care legau Marea Neagră și Dunărea de Europa Centrală, prin orașe și târguri. Societatea era împărțită în stări (categorii sociale) cu drepturi inegale. Boierimea, stăpână de moșii și de dregătorii, era categoria privilegiată. Clerul avea un rol spiritual și economic însemnat, mănăstirile fiind mari proprietare de pământ. Orășenimea, formată din meșteșugari și negustori, era încă puțin numeroasă. Baza societății era țărănimea: liberă (moșneni, răzeși) sau dependentă (rumâni în Țara Românească, vecini în Moldova), obligată la clacă și dijmă. Viața cotidiană era modelată de religie și de ritmul agricol. Satul era comunitatea de bază, cu biserica în centru. Casele erau modeste, din lemn și lut; hrana, simplă. Bolile, foametea și războaiele făceau viața nesigură și scurtă. Cultura scrisă era apanajul clerului și al curții domnești; slavona era limba Bisericii și a cancelariei, până la pătrunderea treptată a limbii române, din secolul al XVI-lea.",
+     "ideiCheie": [
+      "Economia era agrară: cereale, viță de vie, creșterea animalelor, sare, comerț.",
+      "Societatea era împărțită în stări cu drepturi inegale.",
+      "Boierimea și clerul (mănăstirile) erau marii proprietari de pământ.",
+      "Țărănimea, liberă (moșneni, răzeși) sau dependentă (rumâni, vecini), forma baza societății.",
+      "Viața cotidiană era modelată de religie și de ritmul agricol."
+     ],
+     "termeni": [
+      {
+       "t": "rumân",
+       "d": "țăran dependent din Țara Românească, obligat la clacă și dijmă"
+      },
+      {
+       "t": "răzeș",
+       "d": "țăran liber, proprietar de pământ în devălmășie, în Moldova"
+      }
+     ],
+     "carduri": [
+      {
+       "f": "Ce ocupație avea cea mai mare parte a populației medievale românești?",
+       "v": "Agricultura și creșterea animalelor."
+      },
+      {
+       "f": "Care era categoria socială privilegiată?",
+       "v": "Boierimea."
+      },
+      {
+       "f": "Cum se numeau țăranii dependenți din Țara Românească?",
+       "v": "Rumâni (în Moldova, vecini)."
+      },
+      {
+       "f": "Ce dări datorau țăranii dependenți?",
+       "v": "Clacă (muncă) și dijmă (produse)."
+      }
+     ],
+     "test": [
+      {
+       "intrebare": "Economia Țărilor Române medievale era, în principal:",
+       "optiuni": [
+        "agrară",
+        "industrială",
+        "bazată pe comerțul maritim",
+        "exclusiv meșteșugărească"
+       ],
+       "corect": 0,
+       "explicatie": "Majoritatea populației lucra pământul."
+      },
+      {
+       "intrebare": "Țăranii liberi, proprietari de pământ în Moldova, se numeau:",
+       "optiuni": [
+        "răzeși",
+        "vecini",
+        "rumâni",
+        "clăcași"
+       ],
+       "corect": 0,
+       "explicatie": "În Țara Românească, țăranii dependenți erau rumânii."
+      },
+      {
+       "intrebare": "Marii proprietari de pământ, alături de boierime, erau:",
+       "optiuni": [
+        "mănăstirile",
+        "orășenii",
+        "negustorii străini",
+        "răzeșii"
+       ],
+       "corect": 0,
+       "explicatie": "Clerul avea un rol economic însemnat."
+      },
+      {
+       "intrebare": "Limba Bisericii și a cancelariei în Țările Române medievale era:",
+       "optiuni": [
+        "slavona",
+        "latina",
+        "greaca",
+        "germana"
+       ],
+       "corect": 0,
+       "explicatie": "Româna pătrunde în scris din secolul al XVI-lea."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "teze": [
+  {
+   "semestru": 1,
+   "test": [
+    {
+     "intrebare": "Revoluția neolitică a însemnat:",
+     "optiuni": [
+      "trecerea la agricultură și la viață sedentară",
+      "inventarea scrisului",
+      "prelucrarea fierului",
+      "apariția orașelor-state"
+     ],
+     "corect": 0,
+     "explicatie": "Ea a produs surplusuri, sate și creșterea populației."
+    },
+    {
+     "intrebare": "Primele orașe-state din istorie au apărut la:",
+     "optiuni": [
+      "sumerieni",
+      "egipteni",
+      "perși",
+      "fenicieni"
+     ],
+     "corect": 0,
+     "explicatie": "Ur, Uruk și Lagaș sunt exemple."
+    },
+    {
+     "intrebare": "Edictul de la Milano (313) a acordat:",
+     "optiuni": [
+      "libertate de cult creștinilor",
+      "cetățenie tuturor locuitorilor imperiului",
+      "pământ veteranilor",
+      "autonomie provinciilor"
+     ],
+     "corect": 0,
+     "explicatie": "A fost dat de Constantin cel Mare."
+    },
+    {
+     "intrebare": "Imperiul Roman de Apus a căzut în anul:",
+     "optiuni": [
+      "476",
+      "395",
+      "330",
+      "313"
+     ],
+     "corect": 0,
+     "explicatie": "Odoacru l-a înlăturat pe Romulus Augustulus."
+    },
+    {
+     "intrebare": "Codificarea dreptului roman (Corpus Iuris Civilis) a fost realizată sub:",
+     "optiuni": [
+      "Iustinian",
+      "Constantin cel Mare",
+      "Traian",
+      "Teodosiu"
+     ],
+     "corect": 0,
+     "explicatie": "Ea a transmis dreptul roman Evului Mediu."
+    },
+    {
+     "intrebare": "Marile migrații au fost declanșate de înaintarea:",
+     "optiuni": [
+      "hunilor",
+      "francilor",
+      "vizigoților",
+      "arabilor"
+     ],
+     "corect": 0,
+     "explicatie": "Presiunea lor a împins popoarele germanice spre imperiu."
+    },
+    {
+     "intrebare": "Critica externă a unui izvor istoric stabilește:",
+     "optiuni": [
+      "autenticitatea izvorului",
+      "veridicitatea informației",
+      "importanța pentru prezent",
+      "interesul autorului"
+     ],
+     "corect": 0,
+     "explicatie": "Credibilitatea conținutului ține de critica internă."
+    },
+    {
+     "intrebare": "Primul mare cod de legi păstrat aparține lui:",
+     "optiuni": [
+      "Hammurabi",
+      "Solon",
+      "Iustinian",
+      "Darius"
+     ],
+     "corect": 0,
+     "explicatie": "Se întemeiază pe principiul talionului."
+    },
+    {
+     "intrebare": "Alfabetul consonantic a fost răspândit în Mediterana de:",
+     "optiuni": [
+      "fenicieni",
+      "egipteni",
+      "perși",
+      "greci"
+     ],
+     "corect": 0,
+     "explicatie": "Din el derivă alfabetul grec și cel latin."
+    },
+    {
+     "intrebare": "Organul suprem al democrației ateniene era:",
+     "optiuni": [
+      "adunarea poporului",
+      "senatul",
+      "consiliul aristocratic",
+      "colegiul arhonților"
+     ],
+     "corect": 0,
+     "explicatie": "Democrația ateniană era directă."
+    },
+    {
+     "intrebare": "Războiul peloponesiac a opus:",
+     "optiuni": [
+      "Atena și Sparta",
+      "Grecia și Persia",
+      "Roma și Cartagina",
+      "Macedonia și Persia"
+     ],
+     "corect": 0,
+     "explicatie": "El a slăbit decisiv lumea greacă."
+    },
+    {
+     "intrebare": "Imperiul Roman începe convențional în:",
+     "optiuni": [
+      "27 î.Hr.",
+      "509 î.Hr.",
+      "476 d.Hr.",
+      "212 d.Hr."
+     ],
+     "corect": 0,
+     "explicatie": "Odată cu instaurarea principatului lui Octavian Augustus."
+    },
+    {
+     "intrebare": "Edictul lui Caracalla (212) a acordat:",
+     "optiuni": [
+      "cetățenia romană tuturor locuitorilor liberi ai imperiului",
+      "libertate religioasă creștinilor",
+      "autonomie provinciilor",
+      "scutire de impozite"
+     ],
+     "corect": 0,
+     "explicatie": "Libertatea de cult pentru creștini vine prin Edictul de la Milano (313)."
+    },
+    {
+     "intrebare": "Dacia a devenit provincie romană în:",
+     "optiuni": [
+      "106",
+      "101",
+      "271",
+      "275"
+     ],
+     "corect": 0,
+     "explicatie": "După al doilea război daco-roman."
+    },
+    {
+     "intrebare": "Retragerea aureliană a avut loc în:",
+     "optiuni": [
+      "271–275",
+      "101–102",
+      "105–106",
+      "313"
+     ],
+     "corect": 0,
+     "explicatie": "Administrația și armata s-au retras la sud de Dunăre."
+    },
+    {
+     "intrebare": "Structura gramaticală a limbii române provine din:",
+     "optiuni": [
+      "latină",
+      "slavă",
+      "dacă",
+      "greacă"
+     ],
+     "corect": 0,
+     "explicatie": "Substratul dac a lăsat un număr redus de cuvinte."
+    },
+    {
+     "intrebare": "Teoria imigraționistă a fost formulată de:",
+     "optiuni": [
+      "Franz Josef Sulzer",
+      "Dimitrie Onciul",
+      "Nicolae Iorga",
+      "Petru Maior"
+     ],
+     "corect": 0,
+     "explicatie": "A fost reluată de Robert Roesler în 1871."
+    },
+    {
+     "intrebare": "Statul dac a fost unificat pentru prima dată sub:",
+     "optiuni": [
+      "Burebista",
+      "Decebal",
+      "Dromichaites",
+      "Zalmoxis"
+     ],
+     "corect": 0,
+     "explicatie": "Decebal a condus statul dac în timpul războaielor cu Traian."
+    }
+   ]
+  },
+  {
+   "semestru": 2,
+   "test": [
+    {
+     "intrebare": "Islamul a apărut în secolul al VII-lea, prin predica lui:",
+     "optiuni": [
+      "Mahomed",
+      "Iisus",
+      "Chiril",
+      "Carol cel Mare"
+     ],
+     "corect": 0,
+     "explicatie": "Cartea sfântă a islamului este Coranul."
+    },
+    {
+     "intrebare": "Carol cel Mare a fost încoronat împărat, la Roma, în anul:",
+     "optiuni": [
+      "800",
+      "843",
+      "768",
+      "814"
+     ],
+     "corect": 0,
+     "explicatie": "Încoronarea a fost făcută de papă."
+    },
+    {
+     "intrebare": "Alfabetul chirilic, folosit și în cancelariile Țărilor Române, a fost creat de:",
+     "optiuni": [
+      "Chiril și Metodiu",
+      "Iustinian",
+      "Coresi",
+      "Macarie"
+     ],
+     "corect": 0,
+     "explicatie": "Slavona a fost limba de cult și de cancelarie."
+    },
+    {
+     "intrebare": "Cele „trei națiuni\" privilegiate din Transilvania erau:",
+     "optiuni": [
+      "nobilimea, sașii și secuii",
+      "românii, sașii și maghiarii",
+      "catolicii, calvinii și luteranii",
+      "orașele, mănăstirile și satele"
+     ],
+     "corect": 0,
+     "explicatie": "Românii, majoritari, erau excluși de la viața politică."
+    },
+    {
+     "intrebare": "Dregătorul care conducea cancelaria domnească era:",
+     "optiuni": [
+      "logofătul",
+      "vistiernicul",
+      "spătarul",
+      "vornicul"
+     ],
+     "corect": 0,
+     "explicatie": "Vistiernicul se ocupa de finanțe."
+    },
+    {
+     "intrebare": "Țăranii liberi din Moldova, proprietari de pământ, se numeau:",
+     "optiuni": [
+      "răzeși",
+      "rumâni",
+      "vecini",
+      "clăcași"
+     ],
+     "corect": 0,
+     "explicatie": "În Țara Românească, țăranii dependenți erau rumânii."
+    },
+    {
+     "intrebare": "Legătura personală dintre senior și vasal se stabilea prin:",
+     "optiuni": [
+      "omagiu și învestitură",
+      "excomunicare",
+      "interdict",
+      "concordat"
+     ],
+     "corect": 0,
+     "explicatie": "Vasalul primea un feud în schimbul credinței și al serviciului militar."
+    },
+    {
+     "intrebare": "Renta feudală în produse se numea:",
+     "optiuni": [
+      "dijmă",
+      "clacă",
+      "cens",
+      "bir"
+     ],
+     "corect": 0,
+     "explicatie": "Claca era renta în muncă."
+    },
+    {
+     "intrebare": "Marea Schismă s-a produs în:",
+     "optiuni": [
+      "1054",
+      "1099",
+      "1204",
+      "1215"
+     ],
+     "corect": 0,
+     "explicatie": "Ea a separat Biserica Catolică de cea Ortodoxă."
+    },
+    {
+     "intrebare": "Cruciada a IV-a s-a încheiat cu:",
+     "optiuni": [
+      "jefuirea Constantinopolului în 1204",
+      "cucerirea Ierusalimului",
+      "eliberarea Peninsulei Iberice",
+      "pacea cu Saladin"
+     ],
+     "corect": 0,
+     "explicatie": "Evenimentul a slăbit decisiv Imperiul Bizantin."
+    },
+    {
+     "intrebare": "Magna Carta a fost adoptată în:",
+     "optiuni": [
+      "1215",
+      "1302",
+      "1122",
+      "1453"
+     ],
+     "corect": 0,
+     "explicatie": "Ea limita puterea regelui Angliei."
+    },
+    {
+     "intrebare": "Constantinopolul a căzut sub otomani în:",
+     "optiuni": [
+      "1453",
+      "1204",
+      "1492",
+      "1526"
+     ],
+     "corect": 0,
+     "explicatie": "Data este considerată de mulți istorici sfârșitul Evului Mediu."
+    },
+    {
+     "intrebare": "Diploma cavalerilor ioaniți datează din:",
+     "optiuni": [
+      "1247",
+      "1330",
+      "1359",
+      "1401"
+     ],
+     "corect": 0,
+     "explicatie": "Ea menționează formațiunile politice de la sud de Carpați."
+    },
+    {
+     "intrebare": "Independența Țării Românești a fost obținută prin victoria de la:",
+     "optiuni": [
+      "Posada (1330)",
+      "Rovine (1394)",
+      "Nicopole (1396)",
+      "Vaslui (1475)"
+     ],
+     "corect": 0,
+     "explicatie": "Basarab I l-a învins pe Carol Robert de Anjou."
+    },
+    {
+     "intrebare": "Moldova a devenit independentă sub:",
+     "optiuni": [
+      "Bogdan I, în 1359",
+      "Dragoș, în 1345",
+      "Petru I Mușat, în 1375",
+      "Alexandru cel Bun, în 1400"
+     ],
+     "corect": 0,
+     "explicatie": "Dragoș întemeiase doar o marcă de apărare."
+    },
+    {
+     "intrebare": "Titlul de „atlet al lui Hristos” i-a fost acordat lui Ștefan cel Mare după bătălia de la:",
+     "optiuni": [
+      "Vaslui (1475)",
+      "Valea Albă (1476)",
+      "Baia (1467)",
+      "Codrii Cosminului (1497)"
+     ],
+     "corect": 0,
+     "explicatie": "Titlul a venit din partea papei Sixt al IV-lea."
+    },
+    {
+     "intrebare": "Unirea celor trei țări române din 1600 a fost realizată de:",
+     "optiuni": [
+      "Mihai Viteazul",
+      "Ștefan cel Mare",
+      "Mircea cel Bătrân",
+      "Petru Rareș"
+     ],
+     "corect": 0,
+     "explicatie": "Unirea a fost de scurtă durată, dar cu mare valoare simbolică."
+    },
+    {
+     "intrebare": "Cele patru religii recepte din Transilvania erau:",
+     "optiuni": [
+      "catolică, luterană, calvină, unitariană",
+      "ortodoxă, catolică, luterană, calvină",
+      "ortodoxă, greco-catolică, calvină, unitariană",
+      "catolică, ortodoxă, mozaică, luterană"
+     ],
+     "corect": 0,
+     "explicatie": "Ortodoxia, majoritară, avea doar statutul de religie tolerată."
+    }
+   ]
+  }
+ ]
+}

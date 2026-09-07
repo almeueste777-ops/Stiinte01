@@ -1,0 +1,961 @@
+materie: Tehnologia informației și a comunicațiilor (TIC)
+clasa: a XI-a
+an: 3
+arie: Tehnologii
+bac: da
+descriere: Tehnologii Web (HTML5 & CSS3), procesare multimedia audio-video, managementul proiectelor digitale și securitate avansată.
+
+## 1 | tic11-c1 | Web: structură, protocoale și publicare
+### tic11-01 | Arhitectura World Wide Web și funcționarea internetului
+World Wide Web (WWW) este un sistem global de documente hipertext interconectate, accesibile prin intermediul rețelei internet. Arhitectura fundamentală a web-ului este de tip Client-Server:
+1. Clientul (User Agent): este aplicația software rulată pe calculatorul sau telefonul utilizatorului (browserul web: Google Chrome, Mozilla Firefox, Microsoft Edge, Safari). Rolul clientului este de a trimite cereri (HTTP Requests) către servere, de a primi datele de răspuns (HTTP Responses) și de a le parsa și afișa vizual pe ecran.
+2. Serverul Web: este un calculator de mare putere conectat permanent la internet, care rulează software specializat (Apache, Nginx, Microsoft IIS). Serverul stochează fișierele site-ului (pagini HTML, fișiere CSS, scripturi, imagini) și le transmite clienților la cerere.
+Comunicarea se bazează pe protocolul HTTP (Hypertext Transfer Protocol) sau varianta sa criptată și securizată HTTPS (portul standard 443). O adresă web completă poartă numele de URL (Uniform Resource Locator) și are structura:
+protocol://domeniu:port/cale/fisier?parametri#ancora
+Exemplu: https://liceulioncreangatgneamt.ro/admitere/rezultate.html
+Un rol esențial îl are procesul de găzduire web (Web Hosting) și înregistrarea numelor de domenii prin registratori oficiali (ex: RoTLD pentru domeniile naționale românești .ro).
+* Arhitectura web este client-server: browserul cere resurse, iar serverul web le livrează.
+* Protocolul HTTPS folosește criptare TLS/SSL pentru a securiza transmiterea datelor pe internet.
+* URL-ul este adresa globală unică a unei resurse pe web (protocol, domeniu, cale, fișier).
+* Serverele web populare care deservesc pagini sunt Nginx și Apache.
+= Client-Server :: model arhitectural în care clienții solicită servicii, iar serverele le furnizează
+= URL :: identificatorul global și adresa unică a unei pagini sau a unui fișier pe internet
+= browser web :: aplicație client care descarcă, interpretează și afișează paginile web
+= găzduire web (Hosting) :: serviciul prin care un server stochează și menține accesibile fișierele unui site
+@ Care este rolul browserului web în modelul client-server? :: Trimite cereri HTTP la server și interpretează codul HTML/CSS/JS pentru a-l desena pe ecran.
+@ Ce diferențiază protocolul HTTPS de protocolul HTTP clasic? :: HTTPS include un nivel de securitate criptată (SSL/TLS) ce împiedică interceptarea parolelor.
+@ Din ce elemente este alcătuit un URL complet? :: Protocol (https), nume de domeniu (site.ro), calea folderelor și numele fișierului căutat.
+@ Ce organizație gestionează domeniile cu terminația „.ro” în România? :: RoTLD (Institutul Național de Cercetare-Dezvoltare în Informatică).
+? Modelul de comunicare prin care un browser cere o pagină de la un calculator conectat permanent la internet se numește:
++ Client-Server
+- Peer-to-Peer exclusiv
+- Offline local
+- Circuit integrat
+! Browserul este clientul care cere resursa, iar serverul web este cel care o livrează.
+? Protocolul standard securizat care utilizează portul 443 pentru pagini web criptate este:
++ HTTPS
+- FTP
+- Telnet
+- POP3
+! HTTPS garantează securitatea și confidențialitatea tranzacțiilor pe web.
+? În adresa „https://www.exemplu.ro/cursuri/tic.html”, șirul „tic.html” reprezintă:
++ numele fișierului resursă solicitat de la server
+- protocolul de comunicație
+- parola de administrator
+- numele furnizorului de energie
+! Este fișierul fizic specificat la capătul căii de pe server.
+? Aplicația software instalată pe server pentru a răspunde cererilor utilizatorilor este:
++ Serverul web (ex: Apache sau Nginx)
+- Un joc pe consolă
+- Un procesor de calcul tabelar
+- O cartelă SIM
+! Apache și Nginx sunt cele mai răspândite programe de server web din lume.
+
+### tic11-02 | Structura paginii web moderne: conținut, prezentare și comportament
+Dezvoltarea web modernă respectă principiul strict al separării responsabilităților (Separation of Concerns), divizând o pagină în trei straturi tehnologice independente:
+1. Stratul de Structură și Conținut — limbajul HTML (HyperText Markup Language):
+Definește „ce” conține pagina: titluri, paragrafe de text, imagini, tabele, liste, formulare și legături hipertext. HTML nu trebuie să dicteze culori sau așezare în pagină, ci doar sensul logic al elementelor (semantică web: `<header>`, `<nav>`, `<main>`, `<article>`, `<footer>`).
+2. Stratul de Prezentare și Stil — limbajul CSS (Cascading Style Sheets):
+Definește „cum” arată elementele din pagină: culori, fundaluri, familii de fonturi, dimensiuni, margini, borduri, așezare pe coloane (CSS Flexbox, CSS Grid) și adaptare la ecrane de telefon mobil (Responsive Design prin Media Queries).
+3. Stratul de Comportament și Interactivitate — limbajul JavaScript (JS):
+Definește „ce face” pagina: validează formularele înainte de trimitere, afișează ferestre modale, preia date asincron fără reîncărcarea paginii (AJAX / Fetch API) și reacționează la acțiunile utilizatorului (clicuri de mouse, tastare, derulare).
+Această decuplare permite, de exemplu, schimbarea completă a temei grafice a unui site întreg prin modificarea unui singur fișier CSS, fără a atinge conținutul scris în paginile HTML.
+* Dezvoltarea web separă strict conținutul (HTML), prezentarea vizuală (CSS) și logica (JavaScript).
+* HTML5 pune accent pe elementele semantice (`<header>`, `<nav>`, `<main>`, `<footer>`).
+* CSS controlează paleta de culori, tipografia și așezarea elementelor pe ecrane diferite.
+* JavaScript transformă paginile statice în aplicații web interactive și dinamice.
+= HTML :: limbaj de marcare care structurează conținutul și semantica unei pagini web
+= CSS :: limbaj de foi de stil care definește aspectul vizual și machetarea grafică a paginii
+= JavaScript :: limbaj de programare care oferă dinamism și interactivitate în browser
+= semantică web :: folosirea tagurilor HTML conform semnificației lor logice reale
+@ Ce rol are limbajul HTML într-o pagină web? :: Definește conținutul și structura logică a informațiilor din pagină.
+@ Ce tehnologie este responsabilă de culori, margini și aranjarea pe coloane a unui site? :: Limbajul CSS (Cascading Style Sheets).
+@ Ce aduce limbajul JavaScript unei pagini web? :: Interactivitate, animații complexe și reacție dinamică la acțiunile utilizatorului.
+@ Care este avantajul separării CSS-ului într-un fișier extern? :: Permite schimbarea aspectului întregului site dintr-un singur loc, fără a rescrie paginile.
+? Limbajul utilizat exclusiv pentru a da structură logică conținutului unei pagini web este:
++ HTML
+- CSS
+- SQL
+- BIOS
+! HTML este scheletul textual și structural al oricărei pagini de internet.
+? Modificarea culorii de fundal și a fontului unui paragraf se realizează prin:
++ proprietăți CSS
+- taguri video
+- formule Excel
+- tabele Access
+! CSS controlează toate aspectele vizuale ale prezentării.
+? Validarea instantanee a unei adrese de e-mail într-un formular web la tastare se face de către:
++ JavaScript
+- HTML simplu
+- O imprimantă
+- Un cablu de rețea
+! JavaScript rulează direct în browserul clientului și procesează logica interactivă.
+? Tagul semantic HTML5 recomandat pentru bara principală de navigare a site-ului este:
++ `<nav>`
+- `<bold>`
+- `<color>`
+- `<jump>`
+! `<nav>` indică motoarelor de căutare și cititoarelor de ecran zona cu meniuri de linkuri.
+
+### tic11-03 | Accesibilitate web, optimizarea performanței și publicarea pe internet
+Un site web profesional trebuie să poată fi accesat în condiții optime de către toți utilizatorii, indiferent de dispozitivul folosit sau de eventualele dizabilități:
+1. Accesibilitatea Web (standardele W3C / WAI-WCAG):
+• Asigurarea contrastului adecvat între text și fundal (raport minim de contrast 4.5:1 pentru text normal);
+• Prezența obligatorie a atributului `alt` pe toate imaginile (`<img src="poza.jpg" alt="Descriere clară">`), permițând persoanelor nevăzătoare ce utilizează software de tip cititor de ecran (Screen Reader) să înțeleagă conținutul vizual;
+• Navigare completă din tastatură (fără a depinde exclusiv de mouse, folosind tasta Tab);
+• Ierarhie clară de titluri (un singur `<h1>` per pagină, urmat ordonat de `<h2>` și `<h3>`).
+2. Optimizarea performanței (Web Performance):
+Viteza de încărcare a unei pagini influențează experiența utilizatorului și poziționarea în căutările Google (SEO):
+• Comprimarea imaginilor și utilizarea formatelor moderne ușoare (WebP, SVG);
+• Minificarea fișierelor CSS și JavaScript (eliminarea spațiilor și a comentariilor pentru micșorarea dimensiunii fișierelor descărcate);
+• Folosirea memoriei cache a browserului pentru resursele statice.
+3. Publicarea pe internet:
+Încărcarea fișierelor locale pe serverul de hosting se realizează prin protocoale de transfer securizat de fișiere (SFTP / FTPS) folosind aplicații dedicate (ex: FileZilla, WinSCP) sau prin fluxuri moderne de integrare continuă bazate pe Git și GitHub Pages.
+* Accesibilitatea web asigură că persoanele cu dizabilități pot naviga eficient pe site.
+* Atributul `alt` este obligatoriu pe tagurile `<img>` pentru cititoarele de ecran.
+* Optimizarea imaginilor (format WebP) și minificarea codului reduc dramatic timpul de încărcare.
+* Publicarea paginilor pe server se realizează prin transfer securizat SFTP sau platforme moderne de hosting.
+= accesibilitate (WCAG) :: principii internaționale pentru a face web-ul utilizabil de persoanele cu dizabilități
+= atribut alt :: text descriptiv alternativ afișat dacă imaginea nu se încarcă sau este citită de un screen reader
+= format WebP :: format modern de compresie a imaginilor pentru web, mult mai mic decât JPEG și PNG
+= SFTP :: protocol securizat de transfer de fișiere între calculatorul local și serverul de internet
+@ La ce folosește atributul `alt` din cadrul etichetei de imagine HTML? :: Oferă o descriere textuală a imaginii pentru persoanele nevăzătoare și dacă poza nu se poate încărca.
+@ Ce este un Screen Reader? :: Un program software care citește cu voce tare textul și etichetele de pe ecran pentru nevăzători.
+@ Cum influențează optimizarea imaginilor performanța unui site? :: Reduce dimensiunea fișierelor în Kilobytes, permițând încărcarea aproape instantanee a paginii.
+@ Ce program este frecvent utilizat pentru a transfera fișiere prin FTP/SFTP pe un server web? :: Aplicația FileZilla (sau WinSCP).
+? Atributul HTML obligatoriu pentru a oferi o descriere accesibilă unei imagini este:
++ alt
+- src
+- href
+- font
+! Atributul alt conține textul alternativ pentru accesibilitate și motoare de căutare.
+? Formatul modern de imagine conceput de Google pentru a oferi compresie superioară pe web este:
++ .webp
+- .exe
+- .bmp clasic
+- .wav
+! WebP oferă imagini la o calitate similară cu JPEG, dar cu o dimensiune cu 30% mai mică.
+? Protocolul criptat recomandat pentru încărcarea sigură a fișierelor pe serverul de găzduire este:
++ SFTP (SSH File Transfer Protocol)
+- Telnet
+- HTTP simplu
+- Bluetooth
+! SFTP criptează datele și parolele în timpul transferului către server.
+? Pentru ca o pagină să poată fi navigată de persoane care nu pot folosi mouse-ul, interfața trebuie să suporte:
++ navigarea completă cu ajutorul tastei Tab
+- doar comenzi vocale în engleză
+- ecrane tactile de mari dimensiuni
+- două tastaturi simultan
+! Focalizarea secvențială cu Tab este pilonul accesibilității fizice pe web.
+
+## 1 | tic11-c2 | Multimedia: sunet, imagine în mișcare și montaj digital
+### tic11-04 | Prelucrarea și optimizarea sunetului digital
+Sunetul este o undă mecanică analogică produsă de vibrații. Pentru a fi procesat pe calculator, semnalul captat de microfon este convertit digital prin placă de sunet (ADC - Analog-to-Digital Converter).
+Parametrii esențiali ai calității audio digitale:
+1. Rata de eșantionare (Sample Rate): numărul de măsurători efectuate pe secundă, exprimat în Hertz (Hz) sau KiloHertz (kHz). Standardul pentru voce este de 22.05 kHz, standardul de CD audio este de 44.1 kHz, iar cel pentru producții video profesionale este de 48 kHz.
+2. Rezoluția pe eșantion (Bit Depth): numărul de biți alocați fiecărui eșantion pentru a descrie amplitudinea undei (16 biți permit o dinamică de 96 dB, iar 24 de biți sunt standardul de studio).
+3. Numărul de canale: Mono (un singur canal de sunet) sau Stereo (două canale independente: stânga și dreapta).
+Formate audio:
+• Necomprimate (Lossless): WAV, AIFF — fidelitate maximă, dar fișiere foarte mari (aproximativ 10 MB per minut de audio stereo);
+• Comprimate fără pierderi: FLAC — reduce dimensiunea cu aproximativ 50% fără a distruge niciun bit de informație;
+• Comprimate cu pierderi (Lossy): MP3, AAC, OGG Vorbis — folosesc modele psihoacustice pentru a elimina frecvențele inaudibile pentru om, reducând fișierul de până la 10-12 ori (ex: bitrate de 128-320 kbps).
+Aplicațiile de editare audio (Audacity) permit: decuparea zgomotului de fond (Noise Reduction), tăierea segmentelor de liniște, aplicarea de efecte de amplificare, egalizare și tranziții line de volum (Fade In la intrare și Fade Out la ieșire).
+* Calitatea sunetului depinde de rata de eșantionare (ex: 44.1 kHz) și adâncimea de biți (16 sau 24 biți).
+* Formatul WAV este necomprimat și fidel, în timp ce MP3 este comprimat cu pierderi calculate.
+* Efectele Fade In (creștere treptată) și Fade Out (scădere treptată) evită pocniturile audio la început și final.
+* Reducerea zgomotului (Noise Reduction) curăță fâșâitul de fond din înregistrările vocale.
+= rată de eșantionare :: numărul de măsurători ale undei sonore realizate într-o secundă (ex: 44.100 Hz)
+= bitrate audio :: cantitatea de date procesată pe secundă de un flux de sunet (ex: 320 kbps)
+= Fade In / Fade Out :: tranziții sonore line de creștere sau descreștere a volumului audio
+= psihoacustică :: știința care studiază percepția auditivă umană, stând la baza compresiei MP3
+@ Ce rată de eșantionare este standardul internațional pentru calitatea de CD audio? :: 44.1 kHz (44.100 de mostre pe secundă).
+@ Care este diferența de stocare între formatele WAV și MP3? :: WAV este necomprimat (fișiere mari), în timp ce MP3 este comprimat cu pierderi (fișiere de 10 ori mai mici).
+@ Ce efect audio realizează intrarea lină a volumului unei melodii de la zero la nivel normal? :: Efectul de Fade In.
+@ La ce folosește filtrarea de reducere a zgomotului (Noise Reduction) în Audacity? :: La eliminarea zgomotului static sau a fâșâitului microfonului dintr-o înregistrare.
+? Numărul de măsurători ale undei de sunet efectuate într-o singură secundă se numește:
++ rată de eșantionare (Sampling Rate)
+- rezoluție optică
+- lățime de bandă
+- volum de disc
+! Rata de eșantionare dictează frecvența maximă ce poate fi reprodusă din semnal.
+? Formatul de fișier audio comprimat utilizat pe scară largă pentru muzică pe internet este:
++ .mp3
+- .bmp
+- .docx
+- .zip
+! MP3 este cel mai celebru format audio comprimat din lume.
+? Pentru a crea o încheiere armonioasă a unei piese audio prin scăderea lentă a volumului până la liniște completă, se aplică:
++ Fade Out
+- Fade In
+- Mute total brusc
+- Overclocking
+! Fade Out atenuează treptat volumul sonor la finalul melodiei.
+? O înregistrare audio de tip „Stereo” se distinge de una „Mono” prin faptul că:
++ conține două canale de sunet independente (stânga și dreapta)
+- conține doar zgomot alb
+- nu se poate asculta la căști
+- are o singură pistă mută
+! Stereo oferă spațialitate prin separarea canalelor stâng și drept.
+
+### tic11-05 | Imagine în mișcare, formatele video și montajul digital
+Un fișier video este compus dintr-o succesiune rapidă de cadre statice (imagini/frame-uri) afișate la un interval scurt de timp, exploatând fenomenul de persistență a vederii pe retina umană pentru a crea iluzia mișcării continue.
+Parametrii tehnici fundamentale ai producției video:
+1. Rata de cadre pe secundă (FPS - Frames Per Second):
+• 24 FPS — standardul tradițional al cinematografiei (oferă aspectul cald „cinematic”);
+• 25 / 30 FPS — standardele televiziunii europene (PAL) și americane (NTSC);
+• 60 FPS — standardul pentru transmisiuni sportive și jocuri video fluide.
+2. Rezoluția video (numărul de pixeli pe orizontală și verticală):
+• HD Ready: 1280 x 720 pixeli (720p);
+• Full HD: 1920 x 1080 pixeli (1080p) — standardul cel mai răspândit pe internet;
+• 4K UHD: 3840 x 2160 pixeli (2160p) — de 4 ori mai mulți pixeli decât Full HD.
+3. Raportul de aspect (Aspect Ratio): raportul dintre lățime și înălțime. 16:9 este standardul panoramic pentru ecrane TV, monitoare și YouTube; 9:16 este formatul vertical optimizat pentru smartphone-uri (TikTok, YouTube Shorts, Instagram Reels).
+4. Codecuri și containere:
+• Containerul video (.mp4, .mkv, .avi) este cutia care împachetează pista video, pistele audio și subtitrările;
+• Codecul (H.264 / AVC, H.265 / HEVC, AV1) este algoritmul care comprimă datele video uriașe pentru a putea fi transmise pe internet.
+Etapele montajului video într-o aplicație de editare (CapCut, DaVinci Resolve, Premiere): importul materialelor brute, aranjarea pe axa cronologică (Timeline), tăierea cadrelor (Split / Trim), tranzițiile între secvențe, adăugarea de text și titluri, mixajul coloanei sonore și randarea/exportul final.
+* Mișcarea video este creată de succesiunea rapidă de cadre afișate pe secundă (FPS).
+* 1080p (Full HD) are rezoluția de 1920x1080 pixeli, iar formatul standard pe ecran este panoramic 16:9.
+* H.264 este cel mai compatibil codec video modern integrat în containerul MP4.
+* Montajul video pe axa cronologică (Timeline) combină secvențele filmate, tranzițiile și sunetul.
+= FPS :: cadre pe secundă (Frames Per Second), indicând fluiditatea fluxului video
+= codec video :: algoritm hardware sau software de compresie și decompresie a semnalului video
+= rezoluție 1080p :: format video cu 1080 de linii orizontale având 1920 pixeli pe linie (Full HD)
+= Timeline :: axa timpului din programele de montaj pe care se aliniază pistele video și audio
+@ Ce rezoluție în pixeli are un videoclip Full HD (1080p)? :: 1920 x 1080 pixeli.
+@ Ce măsoară valoarea FPS a unui fișier video? :: Numărul de cadre afișate într-o secundă (Frames Per Second).
+@ Care este raportul de aspect standard pentru ecranele panoramice moderne și YouTube? :: Raportul 16:9.
+@ Ce rol are un codec video (precum H.264)? :: Comprimă fluxul video masiv pentru a putea fi transmis și redat cursiv pe internet.
+? Rata standard de cadre pe secundă utilizată în producțiile cinematografice clasice este de:
++ 24 FPS
+- 1 FPS
+- 500 FPS
+- 10.000 FPS
+! 24 de cadre pe secundă creează iluzia naturală de mișcare a cinematografului.
+? Rezoluția video 4K UHD are o lățime de:
++ 3840 pixeli
+- 640 pixeli
+- 100 pixeli
+- 1920 pixeli
+! 4K oferă 3840 x 2160 pixeli, dublând rezoluția pe fiecare axă față de Full HD.
+? Pe axa cronologică (Timeline) dintr-un editor video se așază:
++ pistele video, pistele de sunet și titlurile în ordinea derulării lor
+- doar fișiere de text Word
+- adresele IP ale utilizatorilor
+- meniurile de BIOS
+! Timeline-ul permite tăierea, potrivirea și sincronizarea precisă a imaginilor cu muzica.
+? Formatul cel mai popular și universal compatibil pentru videoclipuri pe web este containerul:
++ .mp4 (cu codec H.264)
+- .txt
+- .wav
+- .psd
+! MP4 este redat nativ pe toate telefoanele, calculatoarele și televizoarele inteligente.
+
+### tic11-06 | Principii de design vizual, compoziție și identitate grafică
+Crearea materialelor promoționale, a afișelor școlare sau a interfețelor digitale cere aplicarea unor principii fundamentale de design grafic:
+1. Compoziția și Ierarhia Vizuală: ochiul privitorului trebuie ghidat natural prin pagină în funcție de importanța informațiilor. Elementul cel mai important (titlul mare sau imaginea cheie) trebuie să aibă cea mai mare greutate vizuală. Regula treimilor (Rule of Thirds) împarte spațiul în 9 dreptunghiuri egale prin două linii orizontale și două verticale, recomandând plasarea punctelor de interes la intersecțiile acestor linii.
+2. Spațiul alb (Negative / White Space): spațiul liber lăsat în mod deliberat între elementele grafice și blocuri de text. Spațiul alb nu este spațiu irosit, ci aerul care oferă respirație, claritate și eleganță compoziției, prevenind aglomerarea obositoare.
+3. Teoria culorilor: culorile transmit emoții și stabilesc tonul comunicării. Roata culorilor permite construirea de scheme armonioase: culori complementare (aflate pe poziții diametral opuse: albastru-portocaliu, galben-violet, ce creează contrast puternic), culori analoage (alăturate pe roată, ce inspiră liniște) și culori monocromatice.
+4. Tipografia: arta de a alege și combina fonturile.
+• Fonturi Serif (cu mici tălpice decorative la capetele literelor, ex: Times New Roman, Georgia) — tradiționale, formale, excelente pentru cărți tipărite lungi;
+• Fonturi Sans-Serif (fără tălpice, drepte și moderne, ex: Arial, Roboto, Open Sans) — ideale pentru ecrane digitale, oferind lizibilitate clară la orice mărime;
+• Regula de aur a tipografiei: nu combinați mai mult de 2-3 familii de fonturi într-un singur material.
+* Ierarhia vizuală conduce privirea cititorului de la elementul dominant către detaliile secundare.
+* Spațiul alb (White Space) aerisește compoziția și crește senzația de profesionalism.
+* Fonturile Sans-Serif (fără tălpice) sunt recomandate pentru lizibilitatea optimă pe ecrane digitale.
+* Se recomandă utilizarea a maximum două familii de fonturi complementare într-o machetă.
+= ierarhie vizuală :: ordonarea mărimii, grosimii și poziției elementelor pentru a ghida atenția privitorului
+= White Space :: spațiul liber din jurul elementelor de design care conferă claritate vizuală
+= font Sans-Serif :: categorie de fonturi moderne lipsite de tălpice la extremitățile literelor (ex: Arial)
+= culori complementare :: nuanțe diametral opuse pe cercul cromatic ce produc un contrast viu
+@ Ce recomandă Regula Treimilor în compoziția vizuală? :: Plasarea subiectului principal la intersecția liniilor imaginare care împart cadrul în treimi.
+@ Ce rol are „spațiul alb” (White Space) într-un afiș sau o pagină web? :: Oferă lizibilitate, eleganță și împiedică aglomerarea sufocantă a textului.
+@ De ce sunt preferate fonturile Sans-Serif pe ecranele telefoanelor și calculatoarelor? :: Deoarece liniile lor drepte și curate se citesc mult mai clar la rezoluțiile pixelilor de ecran.
+@ Câte tipuri diferite de fonturi este indicat să combini pe un singur afiș promoțional? :: Maximum două sau trei familii de fonturi.
+? Categoria de fonturi caracterizată prin linii drepte, fără tălpice la capete, ideală pentru ecrane este:
++ Sans-Serif
+- Serif
+- Gotice decorative
+- Cursiv de mână ilizibil
+! Sans-Serif (precum Arial, Calibri sau Roboto) este optimizat pentru monitoare.
+? Spațiul lăsat liber cu intenție între paragrafe, imagini și borduri se numește în design:
++ Spațiu alb (White Space / Spațiu negativ)
+- Spațiu pierdut
+- Eroare de tipar
+- Zonă interzisă
+! Spațiul alb separă grupurile de informații și ghidează lectura.
+? Două culori aflate pe poziții opuse pe cercul cromatic (precum albastru și portocaliu) sunt:
++ complementare
+- identice
+- monocrome
+- invizibile
+! Culorile complementare oferă cel mai puternic contrast vizual.
+? Dispunerea elementelor vizuale astfel încât titlul să fie remarcat primul, urmat de subtitlu și detalii definește:
++ Ierarhia vizuală
+- Redundanța
+- Indexarea
+- Criptarea
+! Ierarhia vizuală organizează fluxul natural de lectură.
+
+## 1 | tic11-c3 | Managementul proiectelor digitale și asigurarea calității
+### tic11-07 | Etapele ciclului de viață al unui proiect digital și planificarea
+Orice proiect digital de anvergură (crearea unui site web al școlii, dezvoltarea unei aplicații mobile sau organizarea unui eveniment online) presupune parcurgerea etapelor clasice ale ciclului de viață:
+1. Inițierea: definirea scopului proiectului, a obiectivelor SMART (Specifice, Măsurabile, Atinse, Relevante, Încadrate în Timp), a publicului țintă și a rezultatelor așteptate (Deliverables).
+2. Planificarea: descompunerea proiectului în activități concrete (Work Breakdown Structure - WBS), stabilirea dependențelor dintre sarcini (ex: nu poți programa baza de date înainte de a avea specificațiile), alocarea responsabilităților pe membri și estimarea bugetului și a termenelor limită.
+Instrumentul clasic de planificare temporală este Diagrama Gantt — o reprezentare grafică cu bare orizontale care arată data de început, durata și data de finalizare a fiecărei sarcini, precum și sarcinile care se desfășoară în paralel.
+3. Execuția și dezvoltarea: crearea propriu-zisă a conținutului, a designului și scrierea codului de către echipă.
+4. Monitorizarea și controlul: verificarea ritmului de lucru față de graficul Gantt și ajustarea resurselor.
+5. Încheierea: predarea proiectului, instruirea utilizatorilor și analiza lecțiilor învățate (post-mortem).
+* Etapele fundamentale ale unui proiect sunt: inițiere, planificare, execuție, monitorizare și finalizare.
+* Obiectivele SMART garantează claritatea și măsurabilitatea rezultatelor dorite.
+* Diagrama Gantt ilustrează vizual calendarul sarcinilor și dependențele dintre etape.
+* Structura WBS descompune proiectul mare în livrabile mici și ușor de repartizat membrilor echipei.
+= ciclu de viață al proiectului :: totalitatea fazelor parcurse de la idee până la lansarea finală a produsului
+= diagrama Gantt :: grafic cu bare orizontale ce vizualizează calendarul și desfășurarea sarcinilor în timp
+= obiectiv SMART :: țintă specifică, măsurabilă, accesibilă, relevantă și delimitată în timp
+= livrabil (Deliverable) :: rezultat concret verificabil realizat în cadrul unui proiect (ex: un site gata)
+@ Ce reprezintă o diagramă Gantt în planificarea unui proiect? :: Un calendar vizual cu bare orizontale ce arată durata și suprapunerea sarcinilor în timp.
+@ Ce semnifică litera „M” din acronimul obiectivelor SMART? :: Măsurabil (rezultatul poate fi evaluat cantitativ sau procentual).
+@ Care este prima etapă din ciclul de viață al oricărui proiect digital? :: Etapa de inițiere (stabilirea scopului și a cerințelor de bază).
+@ De ce este periculoasă începerea scrierii de cod înainte de finalizarea etapei de planificare? :: Se riscă construirea unui produs neconform cu cerințele beneficiarului, cerând refacerea costisitoare.
+? Graficul vizual cu bare care arată calendarul de desfășurare a fiecărei activități dintr-un proiect se numește:
++ Diagrama Gantt
+- Piramida vârstelor
+- Schemă de culori
+- Tablă de șah
+! Diagrama Gantt este standardul mondial de management al timpului în proiecte.
+? Un obiectiv SMART trebuie să fie în mod obligatoriu:
++ delimitat clar în timp (având un termen limită precis)
+- secret pentru toți membrii echipei
+- imposibil de atins
+- scris fără cuvinte
+! Litera T din SMART impune un termen limită strict pentru finalizare.
+? În cadrul etapei de inițiere a unui proiect digital se stabilește:
++ scopul general, publicul țintă și cerințele fundamentale
+- tipărirea pe hârtie a diplomei de final
+- vânzarea calculatoarelor
+- dezinstalarea sistemului de operare
+! Inițierea trasează direcția strategică a întregului efort al echipei.
+? Descompunerea ierarhică a unui proiect în module de lucru concrete se numește:
++ WBS (Work Breakdown Structure)
+- Formatare condiționată
+- Sortare alfabetică
+- Căutare binară
+! WBS transformă un proiect uriaș într-o listă clară de pachete de lucru atribuite colegilor.
+
+### tic11-08 | Testarea produselor digitale, feedback-ul și metodologii agile
+Niciun produs software sau material digital nu se lansează public fără o etapă riguroasă de testare și asigurare a calității (QA - Quality Assurance):
+1. Tipuri de testare în dezvoltarea web și digitală:
+• Testarea funcțională: verificarea dacă toate butoanele, formularele, legăturile și meniurile funcționează conform specificațiilor;
+• Testarea cross-browser: verificarea afișării corecte și a comportamentului pe toate marile browsere (Chrome, Firefox, Safari, Edge);
+• Testarea de responsivitate (Responsive Testing): verificarea adaptării interfeței pe o varietate de ecrane (smartphone vertical, tabletă, laptop, monitor 4K ultra-wide);
+• Testarea de performanță și securitate: măsurarea timpilor de răspuns și testarea rezistenței la intrări malițioase în formulare.
+2. Ciclul de feedback și îmbunătățire:
+Colectarea impresiilor de la utilizatori reali (User Testing) evidențiază probleme de uzabilitate (UX) pe care dezvoltatorii nu le-au observat.
+3. Metodologii Agile (Scrum / Kanban):
+Spre deosebire de modelul rigid în cascadă (Waterfall) unde totul se livrează la final după luni de zile, metodologiile Agile împart munca în cicluri scurte de 1-3 săptămâni numite Sprinturi. La finalul fiecărui sprint se livrează o versiune funcțională testabilă, permițând adaptarea rapidă la schimbările de cerințe ale clientului.
+* Testarea cross-browser garantează afișarea identică a site-ului pe toate browserele.
+* Designul receptiv (Responsive) asigură adaptarea fluentă a paginii pe telefoane și calculatoare.
+* Metodologia Agile lucrează în iterații scurte (sprinturi) cu livrări frecvente de software util.
+* Feedback-ul colectat de la utilizatorii reali ghidează corectarea dificultăților de utilizare (UX).
+= asigurarea calității (QA) :: procesul de prevenire și detectare a erorilor dintr-un produs digital
+= testare cross-browser :: verificarea rulării uniforme a site-ului pe diferite browsere web
+= sprint (Scrum) :: ciclu de lucru scurt și intens de 1-3 săptămâni la finalul căruia se livrează o versiune gata
+= Responsive Web Design :: tehnică de construire a paginilor web ce se redimensionează automat pe orice ecran
+@ Ce verifică testarea de responsivitate a unui site web? :: Dacă pagina arată impecabil și este ușor de utilizat atât pe telefonul mobil, cât și pe monitorul desktop.
+@ Ce este un „bug” în informatică? :: O eroare, defecțiune sau comportament neprevăzut în codul unui program.
+@ Cum funcționează un sprint în metodologia agilă Scrum? :: Este o perioadă scurtă de lucru (1-3 săptămâni) la capătul căreia echipa prezintă o funcționalitate terminată și testată.
+@ De ce este importantă testarea cross-browser? :: Pentru că utilizatorii folosesc motoare diferite de randare (Blink în Chrome, Gecko în Firefox, WebKit în Safari) ce pot interpreta CSS-ul diferit.
+? Verificarea funcționării corecte a unui site web pe Google Chrome, Mozilla Firefox și Safari se numește:
++ testare cross-browser
+- formatare de disc
+- testare de tastatură
+- montaj video
+! Fiecare browser are propriul motor intern de randare ce trebuie validat.
+? Ciclul scurt de lucru de 2 săptămâni specific metodologiilor Agile poartă denumirea de:
++ Sprint
+- Decupare
+- Rezoluție
+- Bucle infinite
+! Sprintul menține ritmul de livrare continuă și adaptabilitate în echipă.
+? O eroare din codul unui program care împiedică trimiterea unui formular pe site este numită:
++ bug (eroare software)
+- caracter special
+- rezoluție
+- font Sans-Serif
+! Identificarea și eliminarea bug-urilor se numește „debugging”.
+? Proiectarea unei pagini web care își rearanjează automat coloanele când este privită pe ecranul îngust al telefonului se bazează pe:
++ Responsive Web Design (Design receptiv)
+- Scanare optică
+- Conexiune Bluetooth
+- Tipărire offset
+! Designul receptiv optimizează experiența mobilă fără a crea un site separat.
+
+### tic11-09 | Documentarea tehnică, manualul utilizatorului și prezentarea produsului
+Finalizarea unui produs digital impune realizarea unei documentații profesionale complete care asigură sustenabilitatea în timp:
+1. Documentația tehnică internă: destinată altor dezvoltatori sau administratori de sistem care vor prelua sau extinde proiectul în viitor:
+• Descrierea arhitecturii sistemului și a bazei de date;
+• Comentariile curate din codul sursă (Code Comments) care explică rațiunea funcțiilor complexe;
+• Fișierul README (de regulă în format Markdown: README.md), ce explică pașii de instalare, dependințele, librăriile necesare și modul de rulare locală.
+2. Manualul de utilizare (User Guide): redactat într-un limbaj accesibil, lipsit de jargon tehnic obscur, destinat utilizatorului final neexperimentat:
+• Ghid pas cu pas de pornire și conectare în cont;
+• Capturi de ecran adnotate (cu săgeți și cercuri pe butoanele importante);
+• Secțiunea de întrebări frecvente și depanare simplă (FAQ / Troubleshooting).
+3. Susținerea prezentării de lansare (Live Demo):
+Prezentarea unui produs digital în fața comisiei de evaluare sau a clienților necesită o demonstrație practică pe viu. Recomandări pentru un Live Demo reușit: pregătirea din timp a unui cont de test populat cu date realiste, testarea conexiunii de proiecție înainte de începerea sesiunii și pregătirea unui scenariu de rezervă (captură video sau prezentare offline) în cazul în care conexiunea la internet pică în timpul expunerii.
+* Documentația tehnică (README) explică arhitectura și cerințele de instalare pentru dezvoltatori.
+* Manualul utilizatorului ghidează publicul prin capturi de ecran și explicații fără jargon complicat.
+* Comentariile din codul sursă ușurează întreținerea și depanarea viitoare a aplicației.
+* Înaintea oricărei demonstrații practice pe viu (Live Demo) este obligatorie pregătirea unui plan de rezervă offline.
+= README.md :: fișier text structurat ce conține ghidul de prezentare și instalare al unui proiect software
+= manual de utilizare :: ghid pas cu pas conceput pentru a ajuta utilizatorii să folosească aplicația
+= Live Demo :: demonstrarea practică în timp real a funcționalităților unui produs în fața unui public
+= depanare (Troubleshooting) :: identificarea sistematică și rezolvarea problemelor tehnice reclamate
+@ Ce conține fișierul standard README.md dintr-un depozit de proiect software? :: Prezentarea proiectului, tehnologiile utilizate și pașii clari de instalare și rulare.
+@ Cui îi este adresat Manualul de Utilizare al unui site sau al unei aplicații? :: Utilizatorilor obișnuiți, fiind explicat simplu și însoțit de capturi de ecran.
+@ De ce se inserează comentarii în codul sursă dacă ele sunt ignorate de calculator la rulare? :: Pentru ca alți programatori (sau autorul însuși peste 6 luni) să înțeleagă logica deciziilor din cod.
+@ Ce măsură de siguranță iei când susții o demonstrație pe internet în fața unei comisii? :: Pregătești o copie offline sau o înregistrare video a funcționării, în caz că pică rețeaua.
+? Fișierul text standard plasat în rădăcina unui proiect pentru a documenta instalarea și utilizarea se numește:
++ README.md
+- VIRUS.exe
+- LOG.tmp
+- PASSWORDS.doc
+! README.md este standardul recunoscut internațional pe platformele de cod (GitHub, GitLab).
+? O caracteristică obligatorie a unui manual de utilizare bine conceput este:
++ claritatea limbajului, capturile de ecran sugestive și lipsa termenilor excesiv de tehnici
+- scrierea codului binar în clar pe 500 de pagini
+- ascunderea tuturor butoanelor din aplicație
+- lipsa oricăror imagini
+! Manualul trebuie să ghideze omul obișnuit fără efort în rezolvarea sarcinilor din program.
+? Inserarea de comentarii în codul HTML sau CSS este utilă pentru:
++ explicarea structurii pentru colegii de echipă și organizarea logică a fișierului
+- mărirea vitezei de încărcare a internetului
+- blocarea atacurilor cibernetice
+- descărcarea automată de muzică
+! Comentariile documentează rațiunea tehnică a soluțiilor adoptate.
+? În cadrul unei demonstrații live (Live Demo), cea mai gravă eroare de organizare este:
++ bazarea exclusivă pe conexiunea la internet fără niciun plan de rezervă offline
+- testarea prealabilă a proiectorului
+- pregătirea datelor de test
+- prezentarea zâmbitoare și sigură
+! Problemele de rețea neprevăzute pot compromite prezentarea dacă nu există un backup local.
+
+## 2 | tic11-c4 | Dezvoltare web practică: HTML5 și CSS3 de bază
+### tic11-10 | Structura schelet a unei pagini HTML5 și elemente semantice
+O pagină web validă respectă o structură arborescentă strictă definită de limbajul HTML5. Fișierul se salvează obligatoriu cu extensia `.html` (de regulă `index.html` pentru pagina principală de pornire a oricărui site).
+Structura de bază minimală a unui document HTML5:
+```html
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titlul Paginii în Fila Browserului</title>
+</head>
+<body>
+    <!-- Conținutul vizibil pe ecran se scrie aici -->
+</body>
+</html>
+```
+Elementele structurale principale:
+1. `<!DOCTYPE html>`: declară versiunea modernă HTML5 și forțează browserul să randeze în modul standard corect;
+2. `<html>`: elementul rădăcină (root) care înglobează întregul document;
+3. `<head>`: conține metadate (informații despre pagină care nu se afișează direct în corpul paginii): codificarea caracterelor (`UTF-8` pentru diacritice românești), setările pentru dispozitive mobile (`viewport`), legătura către fișierul extern de stiluri CSS și textul din fila browserului (`<title>`);
+4. `<body>`: conține tot ceea ce vede și cu ce interacționează utilizatorul pe ecran;
+5. Elemente de conținut și semantice:
+• Titluri ierarhice: `<h1>` (titlul principal al paginii, unic), `<h2>`, `<h3>` până la `<h6>`;
+• Paragrafe: tagul `<p>`;
+• Întrerupere de rând forțată: tagul vid `<br>`;
+• Linie orizontală despărțitoare: tagul vid `<hr>`;
+• Text evidențiat: `<strong>` (text îngroșat semantic) și `<em>` (text cursiv cu accent).
+* Declarația `<!DOCTYPE html>` instruiește browserul că documentul folosește standardul HTML5.
+* În interiorul `<head>` se plasează metadatele, setarea UTF-8 și legăturile către stiluri.
+* Tot conținutul vizibil pe ecranul paginii se scrie în interiorul tagului `<body>`.
+* Ierarhia titlurilor pornește de la `<h1>` (cel mai important) până la `<h6>` (cel mai mărunt).
+= tag (etichetă HTML) :: element de sintaxă încadrat între paranteze unghiulare (ex: `<p>` și `</p>`)
+= metadată :: informație ce descrie datele paginii (stocată în secțiunea `<head>`)
+= UTF-8 :: codificare universală ce asigură afișarea corectă a literelor românești cu diacritice
+= semantică HTML5 :: utilizarea etichetelor care reflectă semnificația logică a conținutului
+@ Ce declară prima linie `<!DOCTYPE html>` dintr-un document web? :: Declară tipul documentului ca fiind scris în standardul modern HTML5.
+@ Unde se plasează tagul `<title>` și ce rol are el? :: Se plasează în secțiunea `<head>` și stabilește textul afișat în fila sau tab-ul browserului.
+@ Care este tagul corect pentru introducerea unui paragraf simplu de text în HTML? :: Tagul `<p>` închis cu `</p>`.
+@ Ce tag HTML produce o trecere la rând nou fără a crea un paragraf complet nou? :: Tagul vid `<br>`.
+? Zona din documentul HTML care conține informații despre pagină, stiluri și titlul filei browserului este:
++ `<head>`
+- `<body>`
+- `<footer>`
+- `<nav>`
+! În `<head>` stau metadatele, în timp ce în `<body>` stă conținutul vizual.
+? Tagul HTML dedicat celui mai important titlu dintr-o pagină web este:
++ `<h1>`
+- `<h6>`
+- `<header>`
+- `<title>`
+! `<h1>` este titlul de rang maxim pe pagină.
+? Pentru a scrie un text îngroșat cu valoare semantică de importanță, se folosește eticheta:
++ `<strong>`
+- `<italic>`
+- `<u>`
+- `<font size="large">`
+! `<strong>` marchează textul cu importanță ridicată și îl afișează îngroșat (Bold).
+? Atributul din tagul `<meta>` care garantează afișarea literelor ă, î, ș, ț este:
++ charset="UTF-8"
+- language="Romanian"
+- font="Arial"
+- mode="diacritics"
+! Codificarea UTF-8 acoperă întreg setul de caractere universale.
+
+### tic11-11 | Formatarea stilistică cu CSS: reguli, selectori și Box Model
+CSS (Cascading Style Sheets) oferă control deplin asupra aspectului vizual al paginilor web.
+Sintaxa fundamentală a unei reguli CSS:
+```css
+selector {
+    proprietate: valoare;
+    proprietate: valoare;
+}
+```
+1. Modalități de includere a stilurilor CSS:
+• CSS Extern (recomandat profesional): un fișier separat `.css` legat în `<head>` prin linia:
+`<link rel="stylesheet" href="stil.css">`
+• CSS Intern: scris direct în secțiunea `<head>` a paginii în interiorul unui bloc `<style>...</style>`;
+• CSS Inline: scris direct pe tag prin atributul `style="color: blue;"` (de evitat în proiecte mari).
+2. Selectori fundamentale în CSS:
+• Selector de tip element (tag): `p { color: #333333; }` — aplică regula tuturor paragrafelor;
+• Selector de clasă (precedat de punct): `.buton-salvare { background-color: green; }` — aplicat oricărui element care conține `class="buton-salvare"`; o clasă poate fi reutilizată pe zeci de elemente;
+• Selector de identificator unic (precedat de diez): `#meniu-principal { width: 100%; }` — aplicat elementului cu `id="meniu-principal"`; id-ul trebuie să fie unic pe pagină.
+3. Modelul cutiei (CSS Box Model):
+Fiecare element HTML este tratat de browser ca o cutie dreptunghiulară compusă din 4 straturi succesive din interior spre exterior:
+• Conținutul (Content): textul sau imaginea propriu-zisă;
+• Spațiul interior (Padding): spațiul liber dintre conținut și chenar;
+• Chenarul (Border): linia de contur ce înconjoară elementul;
+• Marginea exterioară (Margin): spațiul liber de respirație dintre chenar și elementele vecine din pagină.
+* Fișierul CSS extern se leagă în secțiunea `<head>` cu eticheta `<link rel="stylesheet">`.
+* Selectorul de clasă începe cu punct (.nume), iar cel de identificator cu diez (#nume).
+* Box Model este format din Conținut, Padding (spațiu interior), Border (chenar) și Margin (margine exterioară).
+* Proprietățile fundamentale de text sunt: `color`, `font-size`, `font-family` și `text-align`.
+= selector CSS :: șablon ce indică browserului căror elemente HTML li se aplică regula de stil
+= CSS extern :: fișier independent de stiluri (.css) partajat de toate paginile site-ului
+= Box Model :: conceptul structural prin care fiecare element este format din conținut, padding, border și margin
+= Padding :: distanța interioară dintre text și marginea chenarului cutiei
+@ Cu ce caracter începe obligatoriu un selector de clasă în CSS? :: Cu punctul (ex: `.evidentiat`).
+@ Cu ce simbol se prefixează un selector de identificator (id) în CSS? :: Cu simbolul diez (ex: `#antet`).
+@ Care este diferența dintre Margin și Padding în CSS Box Model? :: Padding este spațiul interior (dintre conținut și chenar), iar Margin este spațiul exterior (dintre chenar și elementele vecine).
+@ Cum legi un fișier extern de stiluri numit `stil.css` la o pagină HTML? :: Prin `<link rel="stylesheet" href="stil.css">` plasat în interiorul etichetei `<head>`.
+? Selectorul CSS care aplică stilul elementului unic ce are atributul `id="sigla"` este:
++ #sigla
+- .sigla
+- $sigla
+- sigla()
+! Simbolul diez (#) indică întotdeauna un identificator unic (ID).
+? Proprietatea CSS utilizată pentru a schimba culoarea textului dintr-un paragraf este:
++ color
+- background-color
+- text-color
+- font-style
+! Proprietatea `color` dictează nuanța literelor, iar `background-color` nuanța fundalului.
+? În cadrul CSS Box Model, stratul transparent situat între chenar (border) și elementele vecine este:
++ Margin (Marginea exterioară)
+- Padding (Căptușeala)
+- Content (Conținutul)
+- Title (Titlul)
+! Marginea exterioară (Margin) împinge elementele din jur pentru a crea spațiu liber.
+? În fișierul CSS, o clasă numită `rezumat` se definește corect prin:
++ `.rezumat { font-size: 14px; }`
+- `rezumat { font-size: 14px; }`
+- `#rezumat { font-size: 14px; }`
+- `<rezumat> { font-size: 14px; }`
+! Punctul din fața numelui marchează o clasă reutilizabilă în CSS.
+
+### tic11-12 | Legături hipertext, imagini și tabele în limbajul HTML
+Interactivitatea și bogăția vizuală a paginilor web depind de tagurile fundamentale de conectare și reprezentare a datelor:
+1. Legături hipertext (Hyperlinks): se creează cu tagul ancorei `<a>`:
+`<a href="adresa_destinatie" target="_blank">Textul pe care dai clic</a>`
+• Atributul `href` (hypertext reference): specifică URL-ul paginii spre care trimite linkul;
+• Atributul `target="_blank"`: forțează deschiderea linkului într-o filă nouă a browserului;
+• Legături locale (relative): ex: `href="contact.html"` sau către o ancoră internă din aceeași pagină: `href="#capitol3"`.
+2. Inserarea imaginilor: se realizează cu eticheta vidă `<img>`:
+`<img src="imagini/peisaj.jpg" alt="Vedere panoramică din Ceahlău" width="600" height="400">`
+• Atributul `src` (source): calea către fișierul imagine;
+• Atributul `alt`: textul alternativ descriptiv (esențial pentru accesibilitate);
+• Atributele `width` și `height`: dimensiunile de afișare în pixeli.
+3. Tabele în HTML: organizează datele în linii și celule:
+• `<table>`: containerul principal al tabelului;
+• `<tr>` (table row): definește un rând orizontal;
+• `<th>` (table header): celulă de antet (textul apare automat aliniat centrat și îngroșat);
+• `<td>` (table data): celulă standard de conținut;
+• Fuzionarea celulelor: atributul `colspan="2"` (întinde celula peste 2 coloane) și `rowspan="3"` (întinde celula pe verticală peste 3 rânduri).
+4. Liste HTML:
+• Liste neordonate (cu buline): `<ul>` cu elemente `<li>`;
+• Liste ordonate (numerotate 1, 2, 3): `<ol>` cu elemente `<li>`.
+* Tagul `<a>` cu atributul `href` creează legături hipertext către alte pagini sau fișiere.
+* Atributul `target="_blank"` deschide legătura într-o fereastră sau filă nouă de navigare.
+* Tagul `<img>` cere atributele obligatorii `src` (sursa) și `alt` (descrierea accesibilă).
+* Tabelele HTML se compun din rânduri `<tr>`, celule de antet `<th>` și celule de date `<td>`.
+= tagul `<a>` :: element HTML pentru crearea legăturilor hipertext (ancoră)
+= atributul href :: specifică adresa URL sau calea de destinație a unei legături
+= `<th>` :: celulă de antet de tabel, afișată implicit cu text îngroșat și centrat
+= colspan :: atribut de celulă care unește mai multe coloane orizontale adiacente
+@ Ce etichetă HTML este utilizată pentru a crea o legătură către un alt site? :: Eticheta `<a>` împreună cu atributul `href`.
+@ Ce efect are adăugarea atributului `target="_blank"` la o legătură hipertext? :: Deschide pagina de destinație într-o filă nouă a browserului.
+@ Ce etichetă definește un rând orizontal într-un tabel HTML? :: Eticheta `<tr>` (Table Row).
+@ Cum creezi o listă ordonată numerotată (1, 2, 3...) în HTML? :: Folosind tagul `<ol>` ce conține elemente `<li>`.
+? Codul HTML corect pentru o legătură către pagina Ministerului Educației este:
++ `<a href="https://www.edu.ro">Ministerul Educației</a>`
+- `<link src="https://www.edu.ro">Ministerul Educației</link>`
+- `<url to="https://www.edu.ro">Ministerul Educației</url>`
+- `<a>https://www.edu.ro</a>`
+! Sintaxa standard asociază tagul `<a>` cu atributul `href`.
+? Atributul utilizat pentru a indica fișierul grafic ce trebuie încărcat în tagul `<img>` este:
++ src
+- href
+- link
+- url
+! Atributul `src` (source) indică adresa fișierului de imagine.
+? În cadrul unui tabel HTML, o celulă obișnuită de date se definește prin tagul:
++ `<td>`
+- `<tr>`
+- `<th>`
+- `<tc>`
+! `<td>` (Table Data) reprezintă celula standard a tabelului.
+? Pentru ca o celulă dintr-un tabel să se întindă pe orizontală peste 3 coloane unite, se folosește atributul:
++ colspan="3"
+- rowspan="3"
+- width="3"
+- expand="3"
+! `colspan` fuzionează coloanele, în timp ce `rowspan` fuzionează liniile verticale.
+
+## 2 | tic11-c5 | Multimedia avansată și proiecte web
+### tic11-13 | Grafică digitală avansată: straturi, măști și optimizare pentru web
+Pregătirea resurselor grafice pentru interfețe web solicită stăpânirea tehnicilor de compoziție grafică:
+1. Măști de strat (Layer Masks):
+În loc să ștergi definitiv o porțiune dintr-o fotografie cu guma (Eraser) — acțiune distructivă ce nu mai poate fi remediată —, programele profesionale (Photoshop, GIMP) folosesc măștile de strat. Masca funcționează pe bază de niveluri de gri: albul păstrează vizibilitatea completă a pixelilor, negrul ascunde complet zona (o face transparentă), iar nuanțele de gri creează transparențe treptate. Astfel, orice decupaj poate fi corectat oricând prin simpla vopsire cu alb a zonei ascunse.
+2. Canale alfa și decuparea pe transparență:
+Formatul PNG suportă canal alfa pe 8 biți (256 niveluri de transparență), permițând decuparea fină a părului sau a obiectelor de sticlă ce se așază impecabil peste orice culoare de fundal a paginii web, fără margini albe zimțate.
+3. Formatele moderne de grafică pentru web:
+• SVG (Scalable Vector Graphics): cod XML pur pentru icoane și logouri, ocupând câțiva Kilobytes și randat perfect ascuțit pe orice ecran Retina sau 4K;
+• WebP: oferă compresie superioară cu 25-35% față de clasicul JPEG la aceeași calitate vizuală;
+• AVIF: cea mai nouă tehnologie de compresie a imaginilor derivată din codecul video AV1.
+Optimizarea dimensiunii fișierelor grafice este o cerință majoră: imaginile brute de la camerele foto (care au adesea 15-30 MB) trebuie redimensionate la lățimea maximă necesară pe ecran (ex: 1920 px) și comprimate la 80% calitate, ajungând la sub 200-300 KB pentru a nu bloca navigarea pe mobil.
+* Măștile de strat permit ascunderea reversibilă și nedistructivă a zonelor dintr-o imagine.
+* Canalul alfa pe 8 biți asigură transparențe fine și tranziții naturale peste orice fundal.
+* Formatul vectorial SVG este descris prin cod XML și este scalabil infinit fără consum mare de memorie.
+* Imaginile pentru web trebuie redimensionate și comprimate la sub 300 KB pentru încărcare rapidă.
+= mască de strat :: instrument nedistructiv de ascundere sau afișare a pixelilor pe baza nuanțelor de gri
+= canal alfa :: canal de date suplimentar ce definește gradul de transparență al fiecărui pixel
+= editare nedistructivă :: metodă de prelucrare grafică ce păstrează intacte datele originale ale imaginii
+= optimizare grafică web :: reducerea mărimii în KB a imaginilor păstrând o calitate vizuală plăcută
+@ Ce avantaj major oferă o mască de strat față de ștergerea directă cu radiera? :: Este complet reversibilă: pixelii ascunși pot fi restaurați oricând vopsind masca cu alb.
+@ Ce format de fișier grafic este bazat pe cod XML și nu se distorsionează la mărire? :: Formatul SVG.
+@ De ce nu se încarcă direct fotografii brute de 20 Megabytes pe un site web? :: Deoarece consumă banda de internet a utilizatorilor și fac pagina să se încarce extrem de lent.
+@ Ce indică culoarea neagră pe o mască de strat? :: Ascunde complet porțiunea respectivă din strat (o face transparentă).
+? Metoda de editare foto care nu distruge niciodată pixelii originali se numește:
++ editare nedistructivă (prin măști și straturi de ajustare)
+- ștergere permanentă
+- salvare cu pierdere totală
+- formatare rapidă
+! Editarea nedistructivă permite modificări nelimitate fără degradarea fișierului sursă.
+? Formatul de imagine care permite redarea graficii vectoriale folosind text și taguri XML este:
++ .svg
+- .jpg
+- .bmp
+- .mp3
+! SVG este integrat direct în codul HTML și se stilizează chiar prin CSS.
+? Pentru a afișa o siglă circulară pe un fundal colorat fără colțuri albe inestetice, salvezi imaginea cu:
++ fundal transparent în format PNG sau SVG
+- fundal negru în format BMP
+- format text TXT
+- format audio WAV
+! Transparența din PNG și SVG lasă fundalul paginii să se vadă natural în spate.
+? Dimensiunea rezonabilă recomandată pentru o imagine optimizată de tip banner pe o pagină web este de:
++ 100 – 300 Kilobytes (KB)
+- 50 Gigabytes (GB)
+- 1 Terabyte (TB)
+- 1 singur bit
+! Dimensiunea sub câteva sute de KB asigură descărcarea în mai puțin de o secundă pe conexiuni mobile.
+
+### tic11-14 | Sunet și video integrate în HTML5: elementele audio și video
+Înainte de HTML5, redarea conținutului multimedia pe web impunea instalarea de pluginuri terțe nesigure și consumatoare de baterie (precum Adobe Flash). Standardul HTML5 a revoluționat industria prin introducerea elementelor multimedia native `<audio>` și `<video>`:
+1. Eticheta `<audio>` pentru fișiere de sunet:
+```html
+<audio controls preload="auto">
+    <source src="muzica/podcast.mp3" type="audio/mpeg">
+    <source src="muzica/podcast.ogg" type="audio/ogg">
+    Browserul dumneavoastră nu suportă redarea audio HTML5.
+</audio>
+```
+Atribute esențiale:
+• `controls`: afișează bara standard a browserului cu butoane de Play/Pauză, volum și progres;
+• `autoplay`: pornește automat redarea (adesea blocat de browsere dacă sunetul nu este pe mut);
+• `loop`: reia redarea de la început în mod continuu;
+• `muted`: pornește sunetul oprit.
+2. Eticheta `<video>` pentru filme și animații:
+```html
+<video width="800" height="450" controls poster="imagini/coperta.jpg">
+    <source src="video/lectie.mp4" type="video/mp4">
+    <source src="video/lectie.webm" type="video/webm">
+    Mesaj de rezervă pentru browsere învechite.
+</video>
+```
+Atribute suplimentare specifice video:
+• `poster`: specifică o imagine statică afișată ca și copertă înainte de apăsarea butonului Play;
+• `width` și `height`: stabilesc dimensiunea exactă a casetei video pentru a preveni saltul vizual al paginii în timpul încărcării;
+Tagul `<source>` din interior permite specificarea mai multor formate alternative; browserul îl va alege și reda automat pe primul pe care îl suportă nativ.
+* HTML5 redă audio și video direct în browser fără a necesita pluginuri nesigure precum Flash.
+* Atributul `controls` este obligatoriu pentru a oferi utilizatorului butoanele de Play și volum.
+* Atributul `poster` afișează o imagine de copertă peste caseta video înainte de pornire.
+* Se pot include mai multe taguri `<source>` pentru a asigura compatibilitatea pe orice sistem.
+= `<audio>` :: element nativ HTML5 pentru redarea fișierelor sonore
+= `<video>` :: element nativ HTML5 pentru afișarea și redarea fluxurilor video
+= atributul controls :: afișează comenzile native de redare (Play, Pause, volum, bară de derulare)
+= atributul poster :: imaginea de previzualizare afișată înaintea pornirii unui clip video
+@ Ce etichetă HTML5 este dedicată redării unui clip video direct în pagină? :: Eticheta `<video>`.
+@ De ce este important să adaugi atributul `controls` la tagul `<video>`? :: Pentru ca vizitatorul să aibă butoane vizibile pentru pornire, oprire, derulare și volum.
+@ Ce rol are atributul `poster` dintr-un tag video? :: Afișează o imagine statică de copertă până când utilizatorul apasă Play.
+@ Ce format video este universal suportat în etichetele video HTML5 moderne? :: Formatul MP4 (codec H.264).
+? Codul corect pentru a reda un fișier audio cu butoane vizibile de control în HTML5 este:
++ `<audio src="sunet.mp3" controls></audio>`
+- `<sound play="sunet.mp3">`
+- `<music src="sunet.mp3"></music>`
+- `<mp3 link="sunet.mp3">`
+! Tagul `<audio>` cu atributul `controls` este sintaxa oficială HTML5.
+? Imaginea statică afișată pe ecran înainte de a porni un clip video se definește prin atributul:
++ poster="imagine.jpg"
+- cover="imagine.jpg"
+- photo="imagine.jpg"
+- start="imagine.jpg"
+! Atributul `poster` definește coperta de pornire a playerului video.
+? Pentru a face ca un clip video să ruleze continuu într-o buclă infinită, se adaugă atributul:
++ loop
+- repeat_always
+- circle
+- forever
+! Atributul boolean `loop` determină reluarea automată a redării de la capăt.
+? Dacă un browser foarte vechi nu recunoaște tagul `<video>`, el va afișa:
++ textul de rezervă scris între tagul de deschidere și cel de închidere
+- o eroare care oprește calculatorul
+- un ecran complet albastru
+- o melodie la întâmplare
+! Textul dintre `<video>` și `</video>` este fallback-ul dedicat browserelor fără suport HTML5.
+
+## 2 | tic11-c6 | Managementul echipei, securitate și etică web
+### tic11-15 | Roluri în proiectele digitale, versionare cu Git și lucru colaborativ
+Dezvoltarea aplicațiilor și a soluțiilor digitale profesionale este o activitate de echipă, reunind roluri specializate:
+1. Rolurile fundamentale într-un proiect digital:
+• Project Manager (Manager de proiect): răspunde de calendarul Gantt, alocarea bugetului și comunicarea cu clientul;
+• Designer UI/UX: proiectează experiența utilizatorului (UX - fluxul logic, ușurința în navigare) și interfața vizuală (UI - culori, tipografie, machete);
+• Front-End Developer: programează tot ceea ce rulează în browserul utilizatorului (HTML, CSS, JavaScript);
+• Back-End Developer: programează logica de pe server, conexiunea la baza de date și securitatea API-urilor;
+• Inginer QA (Tester): caută sistematic erori și validează calitatea înainte de fiecare lansare.
+2. Sistemul de control al versiunilor (Git):
+Pentru a evita haosul salvării fișierelor sub nume precum „site_final_v2_modificat.zip”, echipele moderne folosesc Git:
+• Depozit (Repository / Repo): baza de date care ține istoricul complet al modificărilor din proiect;
+• Commit: o salvare oficială a stării proiectului, însoțită de un mesaj descriptiv (ex: „Adăugat formularul de contact”);
+• Ramuri (Branches): permit dezvoltatorilor să lucreze izolat la o funcționalitate nouă fără a strica versiunea principală (`main`);
+• Merge: îmbinarea modificărilor testate în ramura principală;
+• Platforme cloud colaborative: GitHub, GitLab — permit găzduirea codului și evaluarea reciprocă a codului (Code Review).
+* Echipele digitale reunesc manageri, designeri UI/UX, programatori front-end/back-end și testeri.
+* Git este sistemul universal de control al versiunilor ce ține evidența fiecărei linii de cod modificate.
+* Comanda commit salvează un punct de reper în istoria proiectului cu un mesaj explicativ.
+* Ramurile (Branches) permit dezvoltarea paralelă a unor funcționalități fără a afecta codul funcțional.
+= Git :: sistem distribuit de control al versiunilor pentru urmărirea modificărilor din codul sursă
+= commit :: înregistrare permanentă a unui set de modificări în istoricul unui depozit Git
+= ramură (Branch) :: linie paralelă independentă de dezvoltare a unei funcționalități dintr-un proiect
+= GitHub :: platformă online de colaborare, găzduire și partajare a depozitelor Git
+@ Ce rol are designerul de UI/UX într-un proiect digital? :: Se ocupă de ușurința în utilizare (UX) și aspectul vizual al interfețelor (UI).
+@ Ce este un sistem de control al versiunilor (cum este Git)? :: Un program care ține istoricul fiecărei modificări aduse fișierelor și permite colaborarea în echipă.
+@ Ce reprezintă un „commit” în Git? :: O salvare oficială a modificărilor realizate, însoțită de un mesaj explicativ clar.
+@ La ce folosesc ramurile (Branches) într-un depozit de cod? :: Permit lucrul la funcționalități noi fără a deranja sau strica codul stabil din ramura principală.
+? Sistemul distribuit de control al versiunilor utilizat pe scară largă de echipele de programatori este:
++ Git
+- Microsoft Paint
+- Notepad
+- Calculator
+! Git este standardul absolut de versionare a codului în industria software mondială.
+? Membrul echipei a cărui responsabilitate principală este găsirea erorilor din aplicație se numește:
++ Tester (Quality Assurance - QA)
+- Designer UI
+- Director de vânzări
+- Contabil șef
+! Testerul simulează scenarii variate pentru a descoperi bug-uri înainte de lansare.
+? Pe platforma GitHub, ramura principală stabilă a unui proiect poartă de regulă denumirea de:
++ main (sau master)
+- draft
+- junk
+- temporary
+! `main` găzduiește versiunea stabilă și verificată a proiectului.
+? Salvarea unui pas de lucru în Git însoțită de un mesaj descriptiv (ex: git commit -m "...") reprezintă:
++ un commit
+- o descărcare ilegală
+- o formatare de disc
+- o eroare de sintaxă
+! Commit-ul este o cărămidă permanentă în istoricul evoluției codului sursă.
+
+### tic11-16 | Securitate web, prevenirea atacurilor și etica platformelor online
+Securitatea aplicațiilor web este o necesitate critică, serverele fiind expuse permanent tentativelor de intruziune automatizate:
+1. Amenințări cibernetice comune pe web:
+• Injecția SQL (SQL Injection): introducerea de comenzi malițioase de baze de date în câmpurile unui formular web nesecurizat pentru a fura parole sau a șterge întreaga bază de date; protecția impune utilizarea interogărilor parametrizate (Prepared Statements);
+• Cross-Site Scripting (XSS): injectarea de scripturi malițioase JavaScript în paginile vizualizate de alți utilizatori (ex: într-un comentariu pe forum), având ca scop furtul cookie-urilor de sesiune;
+• Stocarea nesigură a parolelor: este strict interzisă păstrarea parolelor în clar (Plain Text) în bazele de date; parolele trebuie trecute printr-o funcție criptografică de dispersie (Hashing: bcrypt, Argon2, SHA-256) cu adăugarea unei valori aleatorii de securitate (Salt).
+2. Etica digitală și responsabilitatea platformelor:
+• Algoritmii de recomandare ai rețelelor sociale tind să promoveze conținut senzaționalist, polarizant și știri false (Clickbait) pentru a maximiza timpul petrecut pe ecran;
+• Bulele informaționale (Echo Chambers) izolează utilizatorii în grupuri ce împărtășesc aceleași opinii, reducând gândirea critică și dialogul democratic;
+• Respectarea vieții private a utilizatorilor și colectarea exclusivă a datelor strict necesare (Data Minimization conform GDPR) constituie o obligație juridică și etică a oricărui dezvoltator web.
+* Parolele utilizatorilor nu se stochează niciodată în clar, ci exclusiv sub formă de hash criptografic.
+* Injecția SQL exploatează formularele nevalidate pentru a manipula baza de date de pe server.
+* Atacurile XSS încearcă să execute cod JavaScript malițios în browserul altor vizitatori.
+* Principiul minimizării datelor din GDPR impune colectarea doar a informațiilor strict necesare.
+= SQL Injection :: atac cibernetic prin care se injectează comenzi SQL prin intermediul formularelor web
+= hash criptografic :: transformare ireversibilă a unui text într-un șir de caractere de lungime fixă (ex: SHA-256)
+= XSS :: atac ce injectează scripturi malițioase în paginile web vizitate de alte persoane
+= bulă informațională :: mediu digital închis în care un utilizator este expus doar opiniilor care îi confirmă convingerile
+@ Cum trebuie salvate parolele utilizatorilor într-o bază de date securizată? :: Criptate sub formă de hash cu salt (niciodată în clar).
+@ Ce este un atac de tip SQL Injection? :: O tentativă a hackerilor de a transmite comenzi de baze de date prin căsuțele unui formular web.
+@ Ce pericol reprezintă bulele informaționale (Echo Chambers) pe rețelele sociale? :: Izolează oamenii în convingeri înguste și reduc capacitatea de a evalua critic opinii diferite.
+@ Ce presupune principiul „Data Minimization” din regulamentul GDPR? :: Să ceri de la vizitator doar datele absolut indispensabile funcționării serviciului.
+? Păstrarea parolelor utilizatorilor într-o bază de date se realizează corect prin:
++ generarea unui hash criptografic securizat (hashing)
+- scrierea lor în clar într-un fișier text deschis
+- trimiterea lor pe e-mail tuturor colegilor
+- afișarea lor pe prima pagină a site-ului
+! Hash-ul este ireversibil; chiar dacă baza de date este furată, hackerii nu pot citi parola originală direct.
+? Atacul prin care un infractor introduce textul `' OR '1'='1` în căsuța de conectare pentru a sparge sistemul este:
++ o injecție SQL (SQL Injection)
+- o arhivare de fișiere
+- o optimizare de imagine
+- o comutare de font
+! Criteriul `'1'='1` este întotdeauna adevărat și forțează autentificarea neautorizată fără parolă corectă.
+? Pentru a preveni atacurile de tip Cross-Site Scripting (XSS), dezvoltatorii web trebuie să:
++ igienizeze și să scape (escape) caracterele speciale din datele introduse de utilizatori
+- oprească serverul definitiv
+- dezinstaleze toate browserele
+- interzică folosirea limbii române
+! Conversia caracterelor periculoase (`<`, `>`) în entități HTML sigure blochează rularea codului străin.
+? Fenomenul prin care algoritmii rețelelor sociale îți arată doar conținut care îți confirmă prejudecățile se numește:
++ bulă informațională (Echo Chamber)
+- decupare vectorială
+- lățime de bandă
+- adresă MAC
+! Bulele informaționale amplifică polarizarea și dezinformarea.
+
+%% teza 1
+? În modelul arhitectural World Wide Web, aplicația software care solicită și afișează paginile este:
++ Clientul (browserul web)
+- Baza de date exclusiv
+- Routerul de cartier
+- Placa de sunet
+! Browserul este clientul din arhitectura web.
+? Separarea responsabilităților în dezvoltarea web modernă atribuie aspectul și culorile limbajului:
++ CSS
+- HTML
+- SQL
+- BIOS
+! CSS controlează prezentarea grafică.
+? Atributul HTML obligatoriu pentru descrierea accesibilă a unei imagini este:
++ alt
+- src
+- link
+- width
+! Atributul alt descrie imaginea pentru nevăzători și screen readers.
+? Rata de eșantionare standard pentru calitatea sunetului pe CD audio este:
++ 44.1 kHz
+- 10 Hz
+- 500 MHz
+- 1000 GHz
+! 44.100 de eșantioane pe secundă acoperă spectrul audibil uman.
+? Rezoluția video standard Full HD (1080p) are dimensiunile în pixeli:
++ 1920 x 1080
+- 1280 x 720
+- 640 x 480
+- 3840 x 2160
+! 1920x1080 pixeli este standardul panoramic Full HD.
+? Categoria de fonturi fără tălpice decorative, recomandată pe ecrane digitale pentru lizibilitate, este:
++ Sans-Serif
+- Serif
+- Manuscris
+- Gotice
+! Fonturile Sans-Serif (Arial, Roboto) sunt ideale pe ecran.
+? Graficul utilizat în managementul proiectelor pentru a arăta calendarul sarcinilor în timp se numește:
++ Diagrama Gantt
+- Grafic Pie
+- Romb decizional
+- Hartă termică
+! Diagrama Gantt ilustrează durata activităților pe o axă a timpului.
+? Verificarea afișării corecte a unui site pe Google Chrome, Firefox și Edge se numește:
++ testare cross-browser
+- scanare optică
+- formatare condiționată
+- backup 3-2-1
+! Validează compatibilitatea cu diversele motoare de randare.
+? Fișierul text standard ce explică pașii de instalare și prezentare ai unui proiect software poartă numele:
++ README.md
+- INDEX.exe
+- PASSWORDS.txt
+- STYLE.css
+! README.md este ghidul tehnic de bază.
+? Tagul HTML dedicat celui mai înalt titlu ierarhic dintr-o pagină este:
++ `<h1>`
+- `<h6>`
+- `<p>`
+- `<div>`
+! `<h1>` definește titlul principal al paginii.
+
+%% teza 2
+? În cadrul CSS Box Model, spațiul interior dintre textul propriu-zis și chenar se numește:
++ Padding
+- Margin
+- Border
+- Content
+! Padding este căptușeala interioară a cutiei elementului.
+? Selectorul CSS care se aplică unui element pe baza atributului său `id="antet"` începe cu:
++ # (diez)
+- . (punct)
+- $ (dolar)
+- ! (semn de exclamare)
+! Simbolul diez (#) indică un ID unic în CSS.
+? Tagul HTML utilizat pentru a crea o legătură hipertext este:
++ `<a>`
+- `<link>`
+- `<href>`
+- `<goto>`
+! Eticheta ancorei `<a>` creează hyperlinkul.
+? Atributul dintr-o celulă de tabel HTML utilizat pentru a uni două coloane pe orizontală este:
++ colspan="2"
+- rowspan="2"
+- merge="2"
+- width="2"
+! Colspan unește coloanele pe orizontală.
+? Formatul de imagine vectorială descris prin cod XML utilizat nativ pe web este:
++ .svg
+- .jpg
+- .bmp
+- .mp3
+! SVG este formatul vectorial standard pentru web.
+? Pentru a reda un fișier video nativ în HTML5 cu butoane vizibile de control, se folosește:
++ `<video controls>`
+- `<movie play>`
+- `<media auto>`
+- `<film>`
+! `<video controls>` este tagul nativ oficial HTML5.
+? Imaginea statică de copertă afișată peste un videoclip HTML5 înainte de apăsarea Play se specifică prin:
++ poster
+- cover
+- screen
+- image
+! Atributul poster stabilește imaginea de previzualizare.
+? Sistemul universal de control al versiunilor utilizat de echipele software se numește:
++ Git
+- Word
+- Excel
+- Access
+! Git gestionează versiunile și colaborarea pe cod.
+? Salvarea corectă a parolelor într-o bază de date impune utilizarea:
++ unei funcții de hash criptografic cu salt
+- textului simplu necriptat
+- fișierelor PDF cu parolă
+- capturilor de ecran
+! Hash-ul protejează parola împotriva furtului de date.
+? Atacul cibernetic ce exploatează câmpurile unui formular web pentru a introduce comenzi neautorizate în baza de date se numește:
++ SQL Injection
+- Defragmentare
+- Paginare automată
+- Rețea LAN
+! SQL Injection este una dintre cele mai critice vulnerabilități web.
