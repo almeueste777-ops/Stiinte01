@@ -1951,3 +1951,30 @@ Aplicația se concentrează acum 100% pe parcursul liceului tehnologic / profil 
 - Obsidian Vault validat: 905 note, 0 legături rupte.
 - Sincronizat Service Worker cu cache `stiinte01-v25` și `?v=25` în `index.html`.
 
+---
+
+## 2026-09-07 — Faza 22: Secțiune Dedicată «Despre Aplicație & Liceu» Direct la Vedere în Topbar, Acasă și Setări (v22)
+
+**Cerință primită:**
+„eu as pune sectiunea despre aplicatie prima la vedere si cea mai la indemana, sa nu o caut la setari permanent”
+
+### 1. Modificări de arhitectură și interfață
+1. **Buton permanent în Topbar (`#btn-despre`)**:
+   - Integrat în bara de antet (`index.html`) un buton dedicat `ℹ️ Despre aplicație și liceu`, poziționat înainte de tastatura matematică `√x` și Setări.
+   - Butonul este vizibil pe orice ecran al aplicației și oferă acces la un singur tap către informații.
+2. **Card proeminent în capul ecranului principal (`viewAcasa`)**:
+   - Adăugat un banner interactiv stilizat cu sticlă și bordură aurie (`.card.aur-sheen.aur-tap`) chiar în capul ecranului Acasă: afișează emblema liceului, denumirea oficială, profilul real și un link direct către secțiunea Despre.
+3. **Ecran dedicat complet `#/despre` (`viewDespre`)**:
+   - **Contact Secretariat & Conducere**: Telefon cu apelare directă (`tel:0233790357`), email oficial (`mailto:lic_creanga_tgneamt@yahoo.com`), link direct către portalul oficial al liceului (`liceulioncreangatgneamt.ro`) și adresa poștală completă.
+   - **Profil Real & Programe de Bacalaureat**: Detalierea probelor E.a, E.c, E.d și a competențelor lingvistice / digitale pentru clasele IX–XIII (Frecvență Redusă & Zi).
+   - **Arhitectura PWA & Privacy**: Explicații pe înțelesul elevilor despre funcționarea 100% offline prin Service Worker, securitatea datelor personale salvate exclusiv local și uneltele de studiu (Tablă Neagră explicativă de la clasa I, tastatură matematică cu ciornă, sinteză vocală TTS, formule științifice și căutare directă).
+   - **Statistici conținut**: 40 de module, 731 de lecții, 2.927 de carduri, 4.137 de întrebări.
+4. **Card de acces rapid în Setări (`viewSetari`)**:
+   - Plasat chiar în capul ecranului de setări (înainte de setările de aspect) un card de trimitere directă către `#/despre`, eliminând necesitatea de a derula până la finalul paginii.
+
+### 2. Validare, Cache & PWA
+- Sincronizat Service Worker cu cache `stiinte01-v26` și referințele `?v=26` în `index.html` și `sw.js`.
+- Rulate și validate toate testele de conținut și comportament.
+- Actualizat `data/versiuni.json` cu versiunea 22.
+
+

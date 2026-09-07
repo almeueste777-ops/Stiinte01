@@ -1,7 +1,22 @@
 {
-  "curenta": "21",
+  "curenta": "22",
   "actualizat": "2026-09-07",
   "versiuni": [
+    {
+      "v": "22",
+      "nume": "Secțiune Dedicată «Despre Aplicație & Liceu» Direct la Vedere în Topbar, Acasă și Setări",
+      "data": "2026-09-07",
+      "cache": 26,
+      "schimbari": [
+        "Adăugat butonul permanent «ℹ️ Despre aplicație și liceu» în bara de sus (topbar) a fiecărui ecran, permițând accesul instantaneu la informații fără a mai naviga prin setări.",
+        "Integrat cardul interactiv proeminent «ℹ️ Despre liceu & aplicație» chiar în capul ecranului principal (Acasă), oferind elevilor dintr-o singură privire datele esențiale ale liceului și salt direct către ghid.",
+        "Creat ecranul dedicat «#/despre» (viewDespre) cu date complete de contact ale secretariatului (telefon cu apel direct, email oficial, program, portal web cu link extern și adresă fizică).",
+        "Detaliat parcursul educațional pentru Profil Real (Frecvență Redusă și Zi), cu structura examenului de Bacalaureat (probe scrise E.a, E.c, E.d și probe de competențe A, B, D).",
+        "Sintetizată arhitectura aplicației PWA: 100% offline prin Service Worker, confidențialitate totală (date locale fără conturi), Tablă Neagră explicativă de la clasa I, tastatură matematică cu ciornă și asistent vocal audio.",
+        "Adăugat banner de acces rapid la «Despre aplicație & Liceu» chiar în partea de sus a ecranului de Setări.",
+        "Actualizat Service Worker-ul la cache stiinte01-v26 și sincronizate atributele ?v=26 în index.html și sw.js."
+      ]
+    },
     {
       "v": "21",
       "nume": "Audit & Super-Upgrade: Identitate Liceul Creangă, Căutare Directă Lecții, Asistent Vocal Audio (TTS), Breviar Formule & Export PDF",

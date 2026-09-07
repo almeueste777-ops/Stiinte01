@@ -470,6 +470,65 @@
   display:inline-flex;
   align-items:center;
   justify-content:center;
+  margin-left: 0;
+}
+#btn-despre {
+  margin-left: 0;
+  color: var(--accent);
+}
+#btn-despre svg {
+  width: 20px;
+  height: 20px;
+}
+.despre-contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--sp-3);
+  margin-top: var(--sp-2);
+}
+.despre-contact-card {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  padding: var(--sp-3);
+  border-radius: var(--r-card, 16px);
+  background: var(--surface-overlay, rgba(255,255,255,0.06));
+  border: 1px solid var(--glass-border);
+  text-decoration: none;
+  color: var(--ink);
+  transition: transform var(--dur-fast) ease, background var(--dur-fast) ease, border-color var(--dur-fast) ease;
+}
+.despre-contact-card:hover {
+  transform: translateY(-2px);
+  background: var(--surface-elevated, rgba(255,255,255,0.12));
+  border-color: var(--accent);
+}
+.despre-contact-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 1.25rem;
+  background: var(--accent-subtle, rgba(217,119,6,0.12));
+  color: var(--accent);
+  flex-shrink: 0;
+}
+.despre-stat-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: var(--r-pill, 999px);
+  background: var(--surface-overlay, rgba(255,255,255,0.05));
+  border: 1px solid var(--glass-border);
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--ink);
+}
+.despre-stat-chip b {
+  color: var(--accent);
+  font-weight: 700;
 }
 .sheet.tastatura-mate-modal{
   max-width:680px;
@@ -877,7 +936,7 @@
     color: #111827 !important;
     font-size: 11pt !important;
   }
-  .topbar, .tabbar, #btn-tastatura-mate, #btn-setari, #btn-back,
+  .topbar, .tabbar, #btn-despre, #btn-tastatura-mate, #btn-setari, #btn-back,
   .two-col-side, .card-mate-video, .video-fallback-bar, .rap-link,
   .btn, .mate-tabla-nav, .icon-btn, .scrim, .sheet, #net-badge {
     display: none !important;

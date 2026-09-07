@@ -21,6 +21,7 @@
   const backBtn = document.getElementById('btn-back');
   const netBadge = document.getElementById('net-badge');
   const setariBtn = document.getElementById('btn-setari');
+  const despreBtn = document.getElementById('btn-despre');
   const mateBtn = document.getElementById('btn-tastatura-mate');
   const metaTema = document.getElementById('meta-tema');
   const doc = document.documentElement;
@@ -67,7 +68,7 @@
      deschid peste ecranul curent, din rotița barei de sus, și „înapoi” trebuie
      să întoarcă exact acolo. Tratate ca rădăcină, goleau stiva, iar ecranul de
      dinainte reintra alunecând dinspre dreapta — adică fix pe dos. */
-  const esteSuprapunere = h => /^#\/(setari|noutati|progres|realizari)(\/|$)/.test(String(h));
+  const esteSuprapunere = h => /^#\/(setari|noutati|progres|realizari|despre)(\/|$)/.test(String(h));
 
   function navDirection(hash) {
     if (!navStack.length) { navStack = [hash]; return 'fade'; }        // prima randare
@@ -632,7 +633,8 @@
     progres: viewProgres,
     realizari: viewRealizari,
     setari: viewSetari,
-    noutati: viewNoutati
+    noutati: viewNoutati,
+    despre: viewDespre
   };
 
   function parseHash() {
@@ -778,6 +780,7 @@
     }
     tabbar.classList.toggle('fara-tab', idx === -1);
     setariBtn.setAttribute('aria-current', String(name === 'setari'));
+    if (despreBtn) despreBtn.setAttribute('aria-current', String(name === 'despre'));
 
     /* Titlul din topbar face fade doar dacă s-a schimbat efectiv. */
     if (title.textContent !== prevTitle) {
@@ -816,6 +819,22 @@
     const nrDebl = INSIGNE.filter(i => debl[i.id]).length;
 
     view.innerHTML = `
+      <div class="card aur-sheen aur-tap" data-go="#/despre" style="cursor:pointer; display:flex; align-items:center; justify-content:space-between; margin-bottom:var(--sp-3); border-left:4px solid var(--accent); padding:var(--sp-3) var(--sp-4);">
+        <div style="display:flex; align-items:center; gap:var(--sp-3);">
+          <img src="./assets/emblema.png" alt="Emblema ${esc(CUR.scoala.nume)}" class="emblema-scoala" width="44" height="44" style="width:44px;height:44px;border-radius:10px;object-fit:contain;flex-shrink:0;">
+          <div>
+            <div style="display:flex; align-items:center; gap:var(--sp-2); flex-wrap:wrap;">
+              <strong style="font-size:1.02rem; color:var(--ink);">${esc(CUR.scoala.nume)}</strong>
+              <span class="pill soft" style="font-size:0.75rem;">ℹ️ Despre liceu & aplicație</span>
+            </div>
+            <p class="muted" style="margin:2px 0 0 0; font-size:0.83rem;">
+              Profil Real · Contact secretariat, ghid aplicație, statistici & noutăți →
+            </p>
+          </div>
+        </div>
+        <span class="lec-sag" aria-hidden="true" style="margin-left:var(--sp-2);"></span>
+      </div>
+
       <div class="card">
         <div class="row"><h3>Progres general</h3><span class="pill soft">${citite()}/${totalLectii()} lecții</span></div>
         <div class="bar"><i style="--p:${p / 100}"></i></div>
@@ -2999,6 +3018,154 @@
   const actualaVer = () =>
     (VER && VER.versiuni.find(x => x.v === VER.curenta)) || { nume: '', data: '' };
 
+  /* ═══ Ecranul Despre: Liceu, Contact, Aplicație & Programe ═══════════════ */
+  function viewDespre() {
+    title.textContent = 'Despre aplicație & Liceu';
+    const sc = (CUR && CUR.scoala) || {};
+    const pa = (CUR && CUR.parcurs) || {};
+    const ba = (CUR && CUR.bacalaureat) || {};
+    const vCur = (VER && VER.curenta) || '22';
+    const vObj = (VER && VER.versiuni && VER.versiuni.find(x => x.v === vCur)) || { nume: 'Despre aplicație', data: '2026-09-07' };
+
+    view.innerHTML = `
+      <div class="card aur-sheen" style="text-align:center; padding:var(--sp-5) var(--sp-4);">
+        <img src="./assets/emblema.png" alt="Emblema ${esc(sc.nume || 'Liceul Ion Creangă')}" class="emblema-scoala" width="80" height="80" style="width:80px;height:80px;margin:0 auto var(--sp-3);display:block;border-radius:18px;box-shadow:0 4px 16px rgba(0,0,0,0.15);">
+        <h2 style="margin:0 0 var(--sp-2); font-size:1.35rem; color:var(--ink);">${esc(sc.nume || 'Liceul Tehnologic „Ion Creangă”')}</h2>
+        <p class="muted" style="margin:0 0 var(--sp-3); font-size:0.95rem;">
+          <strong>${esc(pa.profil || 'Profil Real')}</strong> · ${esc(pa.specializare || 'Științe & Tehnologie')}<br>
+          ${esc(sc.localitate || 'Târgu Neamț')} · ${esc(pa.forma || 'Frecvență redusă (FR) / Zi')}
+        </p>
+        <div style="display:flex; justify-content:center; gap:var(--sp-2); flex-wrap:wrap;">
+          <span class="despre-stat-chip"><b>${IDX ? IDX.nrModule : 40}</b> module</span>
+          <span class="despre-stat-chip"><b>${IDX ? IDX.nrLectii : 731}</b> lecții</span>
+          <span class="despre-stat-chip"><b>${IDX ? IDX.nrCarduri : 2927}</b> carduri</span>
+          <span class="despre-stat-chip"><b>${IDX ? (IDX.nrIntrebari + (IDX.nrIntrebariTeze || 0)) : 4137}</b> întrebări</span>
+        </div>
+      </div>
+
+      <h2>Contact Secretariat & Conducere</h2>
+      <div class="despre-contact-grid">
+        <a class="despre-contact-card aur-tap" href="tel:${esc((sc.telefonSecretariat || '').replace(/\s+/g, ''))}">
+          <div class="despre-contact-icon">📞</div>
+          <div>
+            <span class="muted" style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em;">Telefon Secretariat</span>
+            <div style="font-weight:600; color:var(--ink); font-size:0.95rem;">${esc(sc.telefonSecretariat || '0233 790 357')}</div>
+            <div class="muted" style="font-size:0.75rem;">Program: ${esc(sc.programSecretariat || '08:00 – 16:00')}</div>
+          </div>
+        </a>
+
+        <a class="despre-contact-card aur-tap" href="mailto:${esc(sc.email || 'lic_creanga_tgneamt@yahoo.com')}">
+          <div class="despre-contact-icon">✉️</div>
+          <div>
+            <span class="muted" style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em;">Email Oficial</span>
+            <div style="font-weight:600; color:var(--ink); font-size:0.95rem; word-break:break-all;">${esc(sc.email || 'lic_creanga_tgneamt@yahoo.com')}</div>
+            <div class="muted" style="font-size:0.75rem;">Secretariat & relații elevi</div>
+          </div>
+        </a>
+
+        <a class="despre-contact-card aur-tap" href="${esc(sc.site || 'https://liceulioncreangatgneamt.ro/')}" target="_blank" rel="noopener noreferrer">
+          <div class="despre-contact-icon">🌐</div>
+          <div>
+            <span class="muted" style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em;">Portal Web Liceu</span>
+            <div style="font-weight:600; color:var(--ink); font-size:0.95rem;">liceulioncreangatgneamt.ro</div>
+            <div class="muted" style="font-size:0.75rem;">Anunțuri, orar & examene ↗</div>
+          </div>
+        </a>
+
+        <div class="despre-contact-card" style="cursor:default;">
+          <div class="despre-contact-icon">📍</div>
+          <div>
+            <span class="muted" style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em;">Adresă Fizică</span>
+            <div style="font-weight:600; color:var(--ink); font-size:0.9rem; line-height:1.35;">${esc(sc.adresa || 'Bulevardul Ștefan cel Mare nr. 64, Târgu Neamț, 615200, jud. Neamț')}</div>
+          </div>
+        </div>
+      </div>
+
+      <h2>Despre Aplicația de Studiu (PWA)</h2>
+      <div class="card">
+        <p style="margin:0 0 var(--sp-3); line-height:1.5;">
+          Aplicația a fost concepută ca un asistent de studiu complet, autonom și dedicat elevilor de la <strong>Liceul Tehnologic „Ion Creangă”</strong>, cu precădere pentru parcursul de <strong>Frecvență Redusă (FR)</strong> și <strong>Profil Real</strong>.
+        </p>
+        <ul class="clean" style="display:flex; flex-direction:column; gap:var(--sp-3);">
+          <li style="display:flex; align-items:flex-start; gap:var(--sp-3);">
+            <span style="font-size:1.25rem; line-height:1.2;">📶</span>
+            <div>
+              <strong style="color:var(--ink)">100% Funcțională Offline:</strong>
+              <div class="muted" style="font-size:0.85rem;">Toate cele 40 de module, 731 de lecții, cardurile și testele sunt stocate direct pe dispozitivul tău prin Service Worker. Poți învăța oriunde, fără conexiune la internet sau consum de date mobile.</div>
+            </div>
+          </li>
+          <li style="display:flex; align-items:flex-start; gap:var(--sp-3);">
+            <span style="font-size:1.25rem; line-height:1.2;">🔒</span>
+            <div>
+              <strong style="color:var(--ink)">Confidențialitate Totală (Privacy First):</strong>
+              <div class="muted" style="font-size:0.85rem;">Fără conturi obligatorii, fără parole, fără reclame și fără urmărire. Progresul, notițele personale și simulările tale de notă rămân exclusiv în memoria locală a telefonului sau calculatorului tău.</div>
+            </div>
+          </li>
+          <li style="display:flex; align-items:flex-start; gap:var(--sp-3);">
+            <span style="font-size:1.25rem; line-height:1.2;">⬛</span>
+            <div>
+              <strong style="color:var(--ink)">Tablă Neagră Pas-cu-Pas (Rezolvări Complete):</strong>
+              <div class="muted" style="font-size:0.85rem;">Exercițiile de Matematică, Fizică și ecuațiile de Chimie au rezolvări detaliate pas cu pas ca pentru clasa I, fără etape sărite, cu transformări de unități în SI și calcule intermediare explicite.</div>
+            </div>
+          </li>
+          <li style="display:flex; align-items:flex-start; gap:var(--sp-3);">
+            <span style="font-size:1.25rem; line-height:1.2;">⌨️</span>
+            <div>
+              <strong style="color:var(--ink)">Tastatură Matematică Nativă, Ciornă & Breviar de Formule:</strong>
+              <div class="muted" style="font-size:0.85rem;">Simboluri matematice, reacții chimice, mărimi fizice și formule esențiale la un singur tap distanță prin butonul permanent <code>√x</code> din bara de sus.</div>
+            </div>
+          </li>
+          <li style="display:flex; align-items:flex-start; gap:var(--sp-3);">
+            <span style="font-size:1.25rem; line-height:1.2;">🔊</span>
+            <div>
+              <strong style="color:var(--ink)">Asistent Vocal & Pronunție (TTS):</strong>
+              <div class="muted" style="font-size:0.85rem;">Ascultă rezumatul oricărei lecții și exersează pronunția corectă a termenilor în Română, Engleză și Franceză direct din browser.</div>
+            </div>
+          </li>
+          <li style="display:flex; align-items:flex-start; gap:var(--sp-3);">
+            <span style="font-size:1.25rem; line-height:1.2;">🔍</span>
+            <div>
+              <strong style="color:var(--ink)">Căutare Instantanee în Toate Lecțiile:</strong>
+              <div class="muted" style="font-size:0.85rem;">Găsești rapid orice concept, autor, teoremă sau lege direct din fila «Materii», cu salt instantaneu către lecție.</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <h2>Pregătire Bacalaureat (Profil Real)</h2>
+      <div class="card">
+        <div class="row"><h3>Structura Examenului</h3><span class="pill soft">Liceul Tehnologic Ion Creangă</span></div>
+        <div style="display:flex; flex-direction:column; gap:var(--sp-2); margin-top:var(--sp-2);">
+          <div><strong>Proba E.a (Scris):</strong> <span class="muted">${esc(ba.probaEa || 'Limba și literatura română')}</span></div>
+          <div><strong>Proba E.c (Scris):</strong> <span class="muted">${esc(ba.probaEc || 'Matematică SAU Istorie')}</span></div>
+          <div><strong>Proba E.d (Scris la alegere):</strong> <span class="muted">${esc(ba.probaEd || 'Biologie vegetală și animală / Anatomie / Fizică / Chimie / Geografie')}</span></div>
+          <div style="border-top:1px solid var(--glass-border); padding-top:var(--sp-2); margin-top:var(--sp-2);">
+            <strong>Probe de Competențe:</strong> <span class="muted">Comunicare în limba română (Proba A), Competențe lingvistice în engleză / franceză (Proba B), Competențe digitale TIC (Proba D).</span>
+          </div>
+        </div>
+      </div>
+
+      <h2>Versiunea Aplicației & Jurnal</h2>
+      <div class="card">
+        <div class="row">
+          <div>
+            <strong style="font-size:1.05rem; color:var(--ink);">Versiunea ${esc(vCur)}</strong>
+            <div class="muted" style="font-size:0.85rem;">„${esc(vObj.nume)}” · ${esc(dataRo(vObj.data))}</div>
+          </div>
+          <span class="pill">instalat</span>
+        </div>
+        <p class="muted" style="margin:var(--sp-3) 0 var(--sp-3);">
+          Stare rețea: <strong>${navigator.onLine ? 'online (sincronizat)' : 'offline (complet funcțional din cache)'}</strong> · Cache SW: <code>${CACHE}</code>
+        </p>
+        <div style="display:flex; gap:var(--sp-2); flex-wrap:wrap;">
+          <button class="btn aur-tap" data-go="#/noutati">📋 Vezi ce s-a schimbat</button>
+          <button class="btn ghost aur-tap" data-go="#/setari">⚙️ Deschide Setări</button>
+          <button class="btn ghost aur-tap" data-go="#/acasa">🏠 Mergi la Acasă</button>
+        </div>
+      </div>
+    `;
+  }
+
   /* Jurnalul de versiuni al APLICAȚIEI (nu al conținutului): ce s-a schimbat
      pentru cel care o folosește, scris fără jargon. Sursa: data/versiuni.json,
      completat la fiecare livrare — vezi CLAUDE.md. */
@@ -3028,6 +3195,17 @@
     title.textContent = 'Setări';
     const s = state.setari;
     view.innerHTML = `
+      <div class="card aur-sheen aur-tap" data-go="#/despre" style="cursor:pointer; display:flex; align-items:center; justify-content:space-between; margin-bottom:var(--sp-4); border:1px solid var(--glass-border); border-left:4px solid var(--accent); padding:var(--sp-3) var(--sp-4);">
+        <div style="display:flex; align-items:center; gap:var(--sp-3);">
+          <span style="font-size:1.6rem; line-height:1;">ℹ️</span>
+          <div>
+            <strong style="font-size:1.02rem; color:var(--ink);">Despre aplicație & Liceu</strong>
+            <p class="muted" style="margin:2px 0 0 0; font-size:0.83rem;">Contact liceu, programă școlară, statistici & detalii versiune →</p>
+          </div>
+        </div>
+        <span class="lec-sag" aria-hidden="true" style="margin-left:var(--sp-2);"></span>
+      </div>
+
       <h2>Aspect</h2>
       <div class="lista">
         ${randSeg('tema', 'Temă', 'Modul luminos, modul întunecat sau după setarea telefonului.',
@@ -3115,6 +3293,7 @@
 
       <h2>Despre</h2>
       <div class="lista">
+        <button class="rand" data-go="#/despre">${randTxt('Despre aplicație & Liceu', 'Informații complete, date contact secretariat, programă & detalii PWA')}<span class="lec-sag" aria-hidden="true"></span></button>
         ${VER ? `<div class="rand">${randTxt('Aplicația',
           `versiunea ${esc(VER.curenta)} — „${esc(actualaVer().nume)}” · ${dataRo(actualaVer().data)}`)}</div>` : ''}
         <div class="rand">${randTxt('Conținut', `versiunea ${IDX.version} · actualizat ${IDX.actualizat}`)}</div>
@@ -3965,6 +4144,7 @@
 
   tabs.forEach(t => t.onclick = () => { bate(6); location.hash = '#/' + t.dataset.route; });
   setariBtn.onclick = () => { bate(6); location.hash = '#/setari'; };
+  if (despreBtn) despreBtn.onclick = () => { bate(6); location.hash = '#/despre'; };
   if (mateBtn) mateBtn.onclick = () => { bate(6); deschideTastaturaMate(); };
   backBtn.onclick = () => history.back();
   window.addEventListener('hashchange', () => { opresteCronometru(); render(); });

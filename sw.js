@@ -1,15 +1,15 @@
 /* Service worker: precache + strategii de cache.
    IMPORTANT: crește CACHE la fiecare modificare a fișierelor, ca utilizatorii să primească versiunea nouă. */
-const CACHE = 'stiinte01-v25';  // v21 — Corecturi identitate Liceul Creangă, Căutare directă lecții, Audio TTS & Breviar Formule
+const CACHE = 'stiinte01-v26';  // v22 — Secțiune dedicată Despre aplicație & Liceu accesibilă direct din topbar și Acasă
 /* Scheletul aplicației: FĂRĂ el aplicația nu pornește, deci se cere atomic. */
 const SHELL = [
   './',
   './index.html',
   /* ?v= trebuie să fie IDENTIC cu cel din index.html (cache-ul SW potrivește
      URL-ul exact, cu tot cu query) — CI-ul verifică sincronizarea. */
-  './assets/app.css?v=25',
-  './assets/tema-aurora.css?v=25',
-  './assets/app.js?v=25',
+  './assets/app.css?v=26',
+  './assets/tema-aurora.css?v=26',
+  './assets/app.js?v=26',
   './assets/emblema.png',
   './manifest.webmanifest',
   './data/curriculum.json',
