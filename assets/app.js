@@ -3155,7 +3155,7 @@
           <span class="pill">instalat</span>
         </div>
         <p class="muted" style="margin:var(--sp-3) 0 var(--sp-3);">
-          Stare rețea: <strong>${navigator.onLine ? 'online (sincronizat)' : 'offline (complet funcțional din cache)'}</strong> · Cache SW: <code>${CACHE}</code>
+          Stare rețea: <strong>${navigator.onLine ? 'online (sincronizat)' : 'offline (complet funcțional din cache)'}</strong>${vObj && vObj.cache ? ' · Cache SW: <code>stiinte01-v' + esc(vObj.cache) + '</code>' : ''}
         </p>
         <div style="display:flex; gap:var(--sp-2); flex-wrap:wrap;">
           <button class="btn aur-tap" data-go="#/noutati">📋 Vezi ce s-a schimbat</button>

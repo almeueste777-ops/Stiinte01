@@ -1977,4 +1977,26 @@ Aplicația se concentrează acum 100% pe parcursul liceului tehnologic / profil 
 - Rulate și validate toate testele de conținut și comportament.
 - Actualizat `data/versiuni.json` cu versiunea 22.
 
+---
+
+## 2026-09-07 — Faza 22 (Hotfix): Corecție Ecran Gol «Despre», Bump Cache v27 & Teste Automate Randare Rute
+
+**Problemă raportată:**
+„la sectiunea despre liceu si aplicatie cand intri in ea este un ecran gol.”
+
+### 1. Diagnoză și remediere bug
+- **Cauza erorii:** La linia 3158 din `assets/app.js`, șablonul HTML al ecranului `viewDespre()` referenția direct variabila globală `CACHE` (`Cache SW: <code>${CACHE}</code>`). Întrucât `CACHE` este definit exclusiv în contextul Service Worker-ului (`sw.js`), apelul routerului în firul principal al aplicației arunca `ReferenceError: CACHE is not defined`, întrerupând execuția funcției chiar după ce `deseneaza()` resetase `view.innerHTML = ''`. Ca urmare, ecranul rămânea complet alb/gol.
+- **Soluție implementată:** Înlocuit referința globală cu expresia sigură extrasă din metadatele de versiune: `${vObj && vObj.cache ? ' · Cache SW: <code>stiinte01-v' + esc(vObj.cache) + '</code>' : ''}`.
+
+### 2. Actualizare Cache & PWA
+- Crescut cache-ul Service Worker la `stiinte01-v27` în `sw.js`.
+- Actualizat parametrii de spargere cache la `?v=27` în `index.html` (`app.css`, `tema-aurora.css`, `app.js`) și în scheletul `SHELL` din `sw.js`.
+- Sincronizat `data/versiuni.json` cu `cache: 27` și descrierea remedierii.
+
+### 3. Teste comportamentale și plasă de siguranță automată
+- Extins `tools/test-comportament.mjs` cu verificări automate pentru randarea tuturor rutelor principale (`despre`, `acasa`, `setari`, `noutati`, `materii`, `plan`, `progres`, `realizari`). Testele verifică nu doar absența excepțiilor, ci și faptul că `view.innerHTML` este efectiv populat cu conținut HTML valid și nevid.
+- Toate cele 35 de teste comportamentale trecute cu succes: 35 pass, 0 fail.
+- Validat `node tools/verifica-continut.mjs` (40 module, 731 lecții) și `python tools/verifica_vault.py` (0 legături rupte).
+
+
 

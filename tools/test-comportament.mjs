@@ -95,7 +95,9 @@ function creeazaSandbox() {
    Nu schimbă niciun comportament — doar expune referințele deja existente. */
 const CAPTURA = ';__capteaza({ raspunsPotrivit, distanta, faraArticol, normaliz, ' +
   'programeaza, sanitizeaza, pct, STARE_GOALA, SETARI, VALORI, LIMITE, ANTREN_NOU, ' +
-  'ZI, __getState: () => state, __setState: v => { state = v; } });';
+  'ZI, __getState: () => state, __setState: v => { state = v; }, ' +
+  'routes, deseneaza, setDateInit: (c, i, v) => { CUR = c; IDX = i; VER = v; }, ' +
+  '__getView: () => view });';
 
 function incarcaApp(src) {
   const poz = src.lastIndexOf('})();');
@@ -410,3 +412,30 @@ test('pct — test gol nu produce NaN (garda Math.max(1, b))', () => {
   assert.equal(A.pct(0, 0), 0);
   assert.equal(Number.isNaN(A.pct(0, 0)), false);
 });
+
+/* ═══ 5. Randarea ecranelor: fără excepții la apelul rutelor ═══ */
+
+const cur = JSON.parse(readFileSync(join(__dirname, '..', 'data', 'curriculum.json'), 'utf8'));
+const idx = JSON.parse(readFileSync(join(__dirname, '..', 'data', 'continut.json'), 'utf8'));
+const ver = JSON.parse(readFileSync(join(__dirname, '..', 'data', 'versiuni.json'), 'utf8'));
+
+test('rute principale — deseneaza nu arunca si populeaza view pe ecranul despre', () => {
+  A.setDateInit(cur, idx, ver);
+  assert.doesNotThrow(() => {
+    A.deseneaza('#/despre', 'despre', []);
+  });
+  const html = A.__getView().innerHTML;
+  assert.ok(typeof html === 'string' && html.trim().length > 0, 'view.innerHTML nu trebuie sa fie gol');
+});
+
+test('rute principale — deseneaza nu arunca si populeaza view pe acasa, setari, noutati, materii, plan, progres, realizari', () => {
+  A.setDateInit(cur, idx, ver);
+  for (const r of ['acasa', 'setari', 'noutati', 'materii', 'plan', 'progres', 'realizari']) {
+    assert.doesNotThrow(() => {
+      A.deseneaza('#/' + r, r, []);
+    }, `Eroare la randarea rutei #${r}`);
+    const html = A.__getView().innerHTML;
+    assert.ok(typeof html === 'string' && html.trim().length > 0, `view.innerHTML este gol pentru ruta #${r}`);
+  }
+});
+

@@ -1,15 +1,15 @@
 /* Service worker: precache + strategii de cache.
    IMPORTANT: crește CACHE la fiecare modificare a fișierelor, ca utilizatorii să primească versiunea nouă. */
-const CACHE = 'stiinte01-v26';  // v22 — Secțiune dedicată Despre aplicație & Liceu accesibilă direct din topbar și Acasă
+const CACHE = 'stiinte01-v27';  // v22 — Corecție randare Despre & Cache SW
 /* Scheletul aplicației: FĂRĂ el aplicația nu pornește, deci se cere atomic. */
 const SHELL = [
   './',
   './index.html',
   /* ?v= trebuie să fie IDENTIC cu cel din index.html (cache-ul SW potrivește
      URL-ul exact, cu tot cu query) — CI-ul verifică sincronizarea. */
-  './assets/app.css?v=26',
-  './assets/tema-aurora.css?v=26',
-  './assets/app.js?v=26',
+  './assets/app.css?v=27',
+  './assets/tema-aurora.css?v=27',
+  './assets/app.js?v=27',
   './assets/emblema.png',
   './manifest.webmanifest',
   './data/curriculum.json',
