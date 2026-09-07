@@ -1920,3 +1920,34 @@ Aplicația se concentrează acum 100% pe parcursul liceului tehnologic / profil 
 - `python tools/verifica_vault.py`: validat 100%.
 - Bump Service Worker cache la `stiinte01-v24` și actualizate referințele `?v=24` în `index.html`.
 
+---
+
+## 2026-09-07 — Faza 21: Audit Complet, Eliminare Bug-uri & Super-Upgrade Didactic (v21)
+
+**Cerință primită:**
+„bun. acum verifica aplicatia de la buguri la ce i-ar mai trebui ca sa fie o aplicatie superbuna.”
+
+### 1. Corecturi de bug-uri și neconcordanțe vizuale
+- **Identitate și metadate**: eliminat vechiul titlu „Științe Sociale” și mențiunea „profil umanist” din `index.html` și `manifest.webmanifest`. Titlul este acum dedicat **Liceul Tehnologic „Ion Creangă” — Profil Real & Bacalaureat**.
+- **Topbar & rutare**: `viewAcasa()` din `assets/app.js` afișează dinamic `Liceul „Ion Creangă”`, iar exportul de date a fost redenumit `liceu-creanga-*.json`.
+- **Parser matematic**: `formateazaMateHTML` elimină automat delimitatorii LaTeX `$ ... $`, curățând caracterele parazite din formule.
+
+### 2. Îmbunătățiri majore pentru o aplicație „superbă”
+1. **Căutare directă a lecțiilor în ecranul Materii**:
+   - Căutarea în `viewMaterii()` afișează acum cardul de rezultate instantanee cu lecțiile găsite direct (titlu, materie, clasă, capitol), oferind salt dintr-un singur click direct la conținut.
+2. **Asistent Audio / Sinteză Vocală (Text-to-Speech nativ Web Speech API)**:
+   - Buton «🔊 Ascultă» integrat la fiecare lecție: citește cursiv titlul, rezumatul și ideile-cheie în limba română (`ro-RO`).
+   - Buton «🔊 Pronunță» pe fiecare card de memorie: detectează automat limba modulului (`en-US` pentru Engleză, `fr-FR` pentru Franceză, `ro-RO` pentru științe și română), un instrument didactic esențial pentru pregătirea probelor orale de Bacalaureat.
+3. **Breviar «⚡ Formule & Legi» în tastatura didactică nativă**:
+   - Adăugată categoria `formule` în `TASTE_MATE`, cu formule pre-completate de fizică, matematică, chimie și genetică/biologie.
+4. **Ciornă & tastatură extinsă pentru Biologie**:
+   - Activat butonul de ciornă pentru rezolvarea problemelor de genetică (Mendel, grupe sangvine, arbori genealogici).
+5. **Tipărire și Export Curat în PDF**:
+   - Buton «🖨️ PDF» integrat la lecție și adăugat modul de stiluri `@media print` în `assets/tema-aurora.css` (ascunde controalele, barele de navigație și optimizează contrastul pe fundal alb curat).
+
+### 3. Validare, Cache & PWA
+- Toate cele 33 de teste comportamentale `node --test tools/test-comportament.mjs`: PASSED.
+- Verificare structură conținut `tools/verifica-continut.mjs`: 0 erori.
+- Obsidian Vault validat: 905 note, 0 legături rupte.
+- Sincronizat Service Worker cu cache `stiinte01-v25` și `?v=25` în `index.html`.
+

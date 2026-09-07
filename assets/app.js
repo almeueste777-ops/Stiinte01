@@ -738,6 +738,7 @@
 
   function deseneaza(hash, name, args) {
     opresteCronometru();          // orice ecran nou anulează un test în desfășurare
+    if ('speechSynthesis' in window && window.speechSynthesis.speaking) window.speechSynthesis.cancel();
     const dir = navDirection(hash);
     spawnGhost(dir);                        // ÎNAINTE de a goli #view
 
@@ -792,7 +793,7 @@
   /* ═══ §5  ecrane ════════════════════════════════════════════════════ */
 
   function viewAcasa() {
-    title.textContent = 'Științe Sociale';
+    title.textContent = (CUR && CUR.scoala && CUR.scoala.nume) || 'Liceul „Ion Creangă”';
     const p = pct(citite(), totalLectii());
     const testKeys = Object.keys(state.teste);
     const medie = testKeys.length
@@ -956,13 +957,49 @@
       faraDiacritice(m.descriere).includes(q) ||
       m.capitole.some(c => faraDiacritice(c.titlu).includes(q) ||
         c.lectii.some(l => faraDiacritice(l.titlu).includes(q))));
-    if (!lista.length) {
+
+    let lectiiGasiteHTML = '';
+    if (q.length >= 2) {
+      const gasite = [];
+      for (const m of IDX.module) {
+        if (filtruAn && m.an !== filtruAn) continue;
+        for (const c of m.capitole) {
+          for (const l of c.lectii) {
+            if (faraDiacritice(l.titlu).includes(q)) {
+              gasite.push({ mod: m, cap: c, lec: l });
+              if (gasite.length >= 15) break;
+            }
+          }
+          if (gasite.length >= 15) break;
+        }
+      }
+      if (gasite.length) {
+        lectiiGasiteHTML = `
+          <div class="card aur-sheen" style="margin-bottom:18px; border-left:4px solid var(--accent, #6366F1);">
+            <div class="row">
+              <h3 style="margin:0">🔍 Lecții găsite direct (${gasite.length})</h3>
+              <span class="pill soft">Salt instant</span>
+            </div>
+            <div style="display:flex; flex-direction:column; gap:8px; margin-top:12px;">
+              ${gasite.map(item => `
+                <button class="card tap" data-go="#/lectie/${encodeURIComponent(item.mod.id)}/${encodeURIComponent(item.lec.id)}" style="margin:0; padding:10px 14px; text-align:left; background:rgba(255,255,255,0.04);">
+                  <div style="font-size:0.78rem; font-weight:700; color:var(--accent, #6366F1); text-transform:uppercase;">${esc(item.mod.materie)} · Clasa ${esc(ROMAN[item.mod.an])}</div>
+                  <div style="font-size:1rem; font-weight:600; margin:3px 0 2px;">${esc(item.lec.titlu)}</div>
+                  <div class="muted" style="font-size:0.82rem;">${esc(item.cap.titlu)}</div>
+                </button>
+              `).join('')}
+            </div>
+          </div>`;
+      }
+    }
+
+    if (!lista.length && !lectiiGasiteHTML) {
       return `<div class="card"><h3>Nicio materie găsită</h3>
         <p class="muted">Încearcă alt cuvânt sau schimbă anul.</p></div>`;
     }
     /* Grupate pe ani, ca elevul să vadă în ce an se află fiecare disciplină. */
     const ani = [...new Set(lista.map(m => m.an))].sort((a, b) => a - b);
-    return ani.map(an => `
+    return lectiiGasiteHTML + ani.map(an => `
       <h2>Clasa ${esc(ROMAN[an])}</h2>
       <div class="grid-cards">${lista.filter(m => m.an === an).map(cardMaterieHTML).join('')}</div>`).join('');
   }
@@ -1242,12 +1279,18 @@
 
     /* .two-col: pe telefon curge normal; ≥900px textul stă la stânga,
        notițele la dreapta (lipicioase), ca să nu derulezi ca să notezi. */
-    const esteStiintaExacta = modId.startsWith('mat') || modId.startsWith('mass') || modId.startsWith('fiz') || modId.startsWith('chim') || ix.materie.includes('Matematică') || ix.materie.includes('Fizic') || ix.materie.includes('Chim');
+    const esteStiintaExacta = modId.startsWith('mat') || modId.startsWith('fiz') || modId.startsWith('chim') || modId.startsWith('bio') || ix.materie.includes('Matematică') || ix.materie.includes('Fizic') || ix.materie.includes('Chim') || ix.materie.includes('Biolog');
     view.innerHTML = `
       <div class="two-col">
         <div class="card">
           <p class="crumb" style="margin-bottom:10px"><b>${esc(ix.materie)}</b> › ${esc(cap.titlu)}</p>
-          <h3>${esc(lec.titlu)}</h3>
+          <div class="row" style="align-items:flex-start; margin-bottom:6px;">
+            <h3 style="margin:0">${esc(lec.titlu)}</h3>
+            <div style="display:inline-flex; gap:6px; flex-shrink:0;">
+              <button class="btn ghost sm" id="btn-audio-lectie" title="Ascultă rezumatul lecției cu voce tare" style="font-size:0.78rem; padding:4px 8px;">🔊 Ascultă</button>
+              <button class="btn ghost sm" id="btn-print-lectie" title="Tipărește lecția sau salvează ca PDF" style="font-size:0.78rem; padding:4px 8px;">🖨️ PDF</button>
+            </div>
+          </div>
           ${String(lec.rezumat).split('\n').filter(Boolean).map(t => `<p>${formateazaMateHTML(esc(t))}</p>`).join('')}
           ${vizualeHTML(lec)}
           ${mateDidacticHTML(modId, lec, ix.materie)}
@@ -1288,6 +1331,37 @@
     legaMateDidactic(modId, lec);
     const bCiornaLec = view.querySelector('#btn-ciorna-lectie');
     if (bCiornaLec) bCiornaLec.onclick = () => { bate(6); deschideTastaturaMate(); };
+
+    const bAudio = view.querySelector('#btn-audio-lectie');
+    if (bAudio) {
+      if ('speechSynthesis' in window) {
+        bAudio.onclick = () => {
+          bate(6);
+          if (window.speechSynthesis.speaking) {
+            window.speechSynthesis.cancel();
+            bAudio.textContent = '🔊 Ascultă';
+            bAudio.classList.remove('aur-live');
+            return;
+          }
+          const txt = `${lec.titlu}. ${lec.rezumat}. Idei-cheie: ${lec.ideiCheie.join('. ')}`;
+          const u = new SpeechSynthesisUtterance(txt.replace(/<[^>]+>/g, '').replace(/[$_{}^\\#]/g, ' '));
+          u.lang = 'ro-RO';
+          u.rate = 1.0;
+          u.onend = () => { if (bAudio.isConnected) { bAudio.textContent = '🔊 Ascultă'; bAudio.classList.remove('aur-live'); } };
+          u.onerror = () => { if (bAudio.isConnected) { bAudio.textContent = '🔊 Ascultă'; bAudio.classList.remove('aur-live'); } };
+          bAudio.textContent = '⏹ Oprește';
+          bAudio.classList.add('aur-live');
+          window.speechSynthesis.speak(u);
+        };
+      } else {
+        bAudio.hidden = true;
+      }
+    }
+
+    const bPrint = view.querySelector('#btn-print-lectie');
+    if (bPrint) {
+      bPrint.onclick = () => { bate(6); window.print(); };
+    }
 
     const ta = view.querySelector('#nota');
     const stare = view.querySelector('#nota-stare');
@@ -1475,7 +1549,10 @@
 
     const c = deck[deckPos];
     view.innerHTML = `
-      <p class="muted">Cardul ${deckPos + 1} din ${deck.length} · ${esc(c.sursa)}</p>
+      <div class="row" style="align-items:center; margin-bottom:4px;">
+        <p class="muted" style="margin:0">Cardul ${deckPos + 1} din ${deck.length} · ${esc(c.sursa)}</p>
+        <button class="btn ghost sm" id="btn-audio-card" title="Pronunță textul cardului" style="font-size:0.78rem; padding:2px 8px;">🔊 Pronunță</button>
+      </div>
       <div class="flip" id="flip">
         <div class="flip-inner">
           <div class="card flash face front">${esc(c.f)}</div>
@@ -1483,6 +1560,26 @@
         </div>
       </div>
       <div id="card-actions"><button class="btn" id="intoarce">Arată răspunsul</button></div>`;
+
+    const bAudioCard = view.querySelector('#btn-audio-card');
+    if (bAudioCard) {
+      if ('speechSynthesis' in window) {
+        bAudioCard.onclick = () => {
+          bate(6);
+          const textDeCitit = flipped ? c.v : c.f;
+          const u = new SpeechSynthesisUtterance(textDeCitit.replace(/<[^>]+>/g, '').replace(/[$_{}^\\#]/g, ' '));
+          const sL = (c.sursa || '').toLowerCase();
+          if (sL.includes('englez') || sL.includes('english')) u.lang = 'en-US';
+          else if (sL.includes('francez') || sL.includes('français')) u.lang = 'fr-FR';
+          else u.lang = 'ro-RO';
+          u.rate = 0.95;
+          window.speechSynthesis.cancel();
+          window.speechSynthesis.speak(u);
+        };
+      } else {
+        bAudioCard.hidden = true;
+      }
+    }
 
     const flip    = view.querySelector('#flip');
     const actions = view.querySelector('#card-actions');
@@ -3098,13 +3195,13 @@
     if (id === 'export') {
       /* Copia completă include și `state.rapoarte` — greșelile semnalate ajung
          astfel la cel care întreține conținutul, fără e-mail și fără rețea. */
-      descarcaJSON(state, 'stiinte-sociale-' + azi() + '.json');
+      descarcaJSON(state, 'liceu-creanga-' + azi() + '.json');
       return;
     }
     if (id === 'export-rapoarte') {
       const rapoarte = Array.isArray(state.rapoarte) ? state.rapoarte : [];
       if (!rapoarte.length) { alert('Nu ai niciun raport de exportat.'); return; }
-      descarcaJSON({ aplicatie: 'Științe Sociale', exportat: azi(), rapoarte }, 'rapoarte-' + azi() + '.json');
+      descarcaJSON({ aplicatie: (CUR && CUR.scoala && CUR.scoala.nume) || 'Liceul Tehnologic „Ion Creangă”', exportat: azi(), rapoarte }, 'rapoarte-' + azi() + '.json');
       return;
     }
     if (id === 'sterge-rapoarte') {
@@ -3379,6 +3476,7 @@
   function formateazaMateHTML(str) {
     if (!str || typeof str !== 'string') return '';
     let out = str;
+    out = out.replace(/\$([^$]+)\$/g, '$1');
     out = out.replace(/&lt;=|\\le/g, '&le;');
     out = out.replace(/&gt;=|\\ge/g, '&ge;');
     out = out.replace(/\\neq|!=/g, '&ne;');
@@ -3435,7 +3533,7 @@
     out = out.replace(/\^\{([^{}]+)\}/g, '<sup>$1</sup>');
     out = out.replace(/\^([0-9a-zA-Z+−-]+)/g, '<sup>$1</sup>');
     out = out.replace(/_\{([^{}]+)\}/g, '<sub>$1</sub>');
-    out = out.replace(/_([0-9a-zA-Z])/g, '<sub>$1</sub>');
+    out = out.replace(/_([0-9a-zA-Z+−-]+)/g, '<sub>$1</sub>');
     return out;
   }
 
@@ -3465,6 +3563,29 @@
       { k: '→', i: ' \\rightarrow ' }, { k: '⇌', i: ' \\rightleftharpoons ' }, { k: '↑', i: ' \\uparrow ' }, { k: '↓', i: ' \\downarrow ' }, { k: 'ρ', i: '\\rho' }, { k: 'μ', i: '\\mu' }, { k: 'λ', i: '\\lambda' },
       { k: 'Ω', i: '\\Omega' }, { k: 'ΔT', i: '\\Delta T' }, { k: '°C', i: '^\\circ\\text{C}' }, { k: 'm/s', i: '\\text{ m/s}' }, { k: 'm/s²', i: '\\text{ m/s}^2' }, { k: 'kg', i: '\\text{ kg}' }, { k: 'N', i: '\\text{ N}' },
       { k: 'J', i: '\\text{ J}' }, { k: 'W', i: '\\text{ W}' }, { k: 'V', i: '\\text{ V}' }, { k: 'A', i: '\\text{ A}' }, { k: 'mol', i: '\\text{ mol}' }, { k: 'cp%', i: 'c_p = \\frac{m_d}{m_s} \\cdot 100' }, { k: 'pV=νRT', i: 'p \\cdot V = \\nu \\cdot R \\cdot T' }
+    ],
+    formule: [
+      { k: 'Δ=b²-4ac', i: '\\Delta = b^2 - 4ac' },
+      { k: 'x₁,₂', i: 'x_{1,2} = \\frac{-b \\pm \\sqrt{\\Delta}}{2a}' },
+      { k: 'Vârful V', i: 'V(-\\frac{b}{2a}, -\\frac{\\Delta}{4a})' },
+      { k: 'F=m·a', i: 'F = m \\cdot a' },
+      { k: 'G=m·g', i: 'G = m \\cdot g' },
+      { k: 'Ff=μ·N', i: 'F_f = \\mu \\cdot N' },
+      { k: 'Ec=½mv²', i: 'E_c = \\frac{1}{2} m v^2' },
+      { k: 'Ep=mgh', i: 'E_p = m g h' },
+      { k: 'L=F·d', i: 'L = F \\cdot d \\cdot \\cos(\\alpha)' },
+      { k: 'pV=νRT', i: 'p \\cdot V = \\nu \\cdot R \\cdot T' },
+      { k: 'I=U/R', i: 'I = \\frac{U}{R}' },
+      { k: 'I=E/(R+r)', i: 'I = \\frac{E}{R + r}' },
+      { k: 'Q=m·c·ΔT', i: 'Q = m \\cdot c \\cdot \\Delta T' },
+      { k: 'cp%', i: 'c_p = \\frac{m_d}{m_s} \\cdot 100' },
+      { k: 'n=m/M', i: '\\nu = \\frac{m}{M}' },
+      { k: 'Ard.CH4', i: 'CH_4 + 2O_2 \\rightarrow CO_2 + 2H_2O' },
+      { k: 'Fotosinteză', i: '6CO_2 + 6H_2O \\rightarrow C_6H_{12}O_6 + 6O_2' },
+      { k: 'Respirație', i: 'C_6H_{12}O_6 + 6O_2 \\rightarrow 6CO_2 + 6H_2O' },
+      { k: 'Mendel 3:1', i: 'F_2: 3 \\text{ dominanți} : 1 \\text{ recesiv}' },
+      { k: 'ADN A-T/G-C', i: 'A = T, G \\equiv C' },
+      { k: 'sin²x+cos²x', i: '\\sin^2(x) + \\cos^2(x) = 1' }
     ]
   };
 
@@ -3494,6 +3615,7 @@
         <button class="mate-tab-btn" data-cat="algebra" role="tab">🏛️ Litere & Simboluri</button>
         <button class="mate-tab-btn" data-cat="functii" role="tab">📈 Funcții & Bac</button>
         <button class="mate-tab-btn" data-cat="stiinte" role="tab">🧪 Fizică & Chimie</button>
+        <button class="mate-tab-btn" data-cat="formule" role="tab">⚡ Formule & Legi</button>
       </div>
       <div class="mate-grid" id="mate-grid"></div>
       <div class="mate-actions">

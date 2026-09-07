@@ -1,7 +1,22 @@
 {
-  "curenta": "20",
+  "curenta": "21",
   "actualizat": "2026-09-07",
   "versiuni": [
+    {
+      "v": "21",
+      "nume": "Audit & Super-Upgrade: Identitate Liceul Creangă, Căutare Directă Lecții, Asistent Vocal Audio (TTS), Breviar Formule & Export PDF",
+      "data": "2026-09-07",
+      "cache": 25,
+      "schimbari": [
+        "Corectat complet brandingul și metadatele aplicației în index.html și manifest.webmanifest (Liceul Tehnologic „Ion Creangă” Târgu Neamț, profil real, eliminând vechile etichete reziduale de științe sociale).",
+        "Adăugat modul de Căutare Directă a Lecțiilor în ecranul Materii: elevul poate căuta orice concept, autor sau formulă și primește instant rezultate directe către lecția căutată cu salt dintr-un singur click.",
+        "Integrat Asistentul Audio Vocal (Text-to-Speech nativ): buton «🔊 Ascultă rezumatul» la fiecare lecție și «🔊 Pronunță» la carduri (cu detectare automată a limbii: ro-RO, en-US pentru engleză, fr-FR pentru franceză).",
+        "Adăugată fila «⚡ Formule & Legi» în tastatura didactică nativă cu formule esențiale gata de inserat pentru matematică, fizică, chimie și biologie.",
+        "Extins suportul pentru Ciornă & Tastatură științifică la disciplina Biologie (pentru probleme de genetică mendeliană, arbori genealogici și ecuații biologice).",
+        "Adăugate stiluri dedicate pentru tipărire (@media print) și butonul «🖨️ PDF» pentru salvarea și printarea curată a lecțiilor și tablelor negre fără elemente de interfață.",
+        "Actualizat Service Worker-ul la cache stiinte01-v25 și sincronizate atributele ?v=25."
+      ]
+    },
     {
       "v": "20",
       "nume": "Curățare Aplicație: Păstrarea Exclusivă a Materiilor Create / Restructurate pentru Profilul Real & Tehnologic",
