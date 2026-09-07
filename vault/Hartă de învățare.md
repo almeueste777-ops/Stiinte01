@@ -10,56 +10,54 @@ Unde stă fiecare materie cu conținut în cei cinci ani.
 ```mermaid
 graph LR
   P["Științe sociale · FR"]
-  C0["Clasa a IX-a<br/>12 materii · 230 lecții"]
+  C0["Clasa a IX-a<br/>10 materii · 188 lecții"]
   P --> C0
-  A0_0["Limbă și comunicare<br/>4 materii"]
+  A0_0["Limbă și comunicare<br/>3 materii"]
   C0 --> A0_0
   A0_1["Matematică și științe ale naturii<br/>4 materii"]
   C0 --> A0_1
-  A0_2["Om și societate<br/>3 materii"]
+  A0_2["Om și societate<br/>2 materii"]
   C0 --> A0_2
   A0_3["Tehnologii<br/>1 materii"]
   C0 --> A0_3
-  C1["Clasa a X-a<br/>13 materii · 248 lecții"]
+  C1["Clasa a X-a<br/>10 materii · 188 lecții"]
   P --> C1
-  A1_0["Limbă și comunicare<br/>4 materii"]
+  A1_0["Limbă și comunicare<br/>3 materii"]
   C1 --> A1_0
   A1_1["Matematică și științe ale naturii<br/>4 materii"]
   C1 --> A1_1
-  A1_2["Om și societate<br/>4 materii"]
+  A1_2["Om și societate<br/>2 materii"]
   C1 --> A1_2
   A1_3["Tehnologii<br/>1 materii"]
   C1 --> A1_3
-  C2["Clasa a XI-a<br/>10 materii · 193 lecții"]
+  C2["Clasa a XI-a<br/>7 materii · 127 lecții"]
   P --> C2
   A2_0["Limbă și comunicare<br/>3 materii"]
   C2 --> A2_0
   A2_1["Matematică și științe ale naturii<br/>1 materii"]
   C2 --> A2_1
-  A2_2["Om și societate<br/>5 materii"]
+  A2_2["Om și societate<br/>2 materii"]
   C2 --> A2_2
   A2_3["Tehnologii<br/>1 materii"]
   C2 --> A2_3
-  C3["Clasa a XII-a<br/>8 materii · 136 lecții"]
+  C3["Clasa a XII-a<br/>7 materii · 124 lecții"]
   P --> C3
   A3_0["Limbă și comunicare<br/>3 materii"]
   C3 --> A3_0
   A3_1["Matematică și științe ale naturii<br/>1 materii"]
   C3 --> A3_1
-  A3_2["Om și societate<br/>3 materii"]
+  A3_2["Om și societate<br/>2 materii"]
   C3 --> A3_2
   A3_3["Tehnologii<br/>1 materii"]
   C3 --> A3_3
-  C4["Clasa a XIII-a<br/>9 materii · 166 lecții"]
+  C4["Clasa a XIII-a<br/>6 materii · 104 lecții"]
   P --> C4
-  A4_0["Curriculum la decizia elevului<br/>1 materii"]
+  A4_0["Limbă și comunicare<br/>3 materii"]
   C4 --> A4_0
-  A4_1["Limbă și comunicare<br/>3 materii"]
+  A4_1["Matematică și științe ale naturii<br/>1 materii"]
   C4 --> A4_1
-  A4_2["Matematică și științe ale naturii<br/>1 materii"]
+  A4_2["Om și societate<br/>2 materii"]
   C4 --> A4_2
-  A4_3["Om și societate<br/>4 materii"]
-  C4 --> A4_3
 ```
 
 ## Ordinea recomandată
@@ -68,8 +66,6 @@ graph LR
 
 - [[Geografie (clasa a IX-a)|Geografie]] — 20 lecții
 - [[Istorie (clasa a IX-a)|Istorie]] — 24 lecții
-- [[Logică, argumentare și comunicare (clasa a IX-a)|Logică, argumentare și comunicare]] — 24 lecții
-- [[Limba latină (clasa a IX-a)|Limba latină]] — 18 lecții
 - [[Limba modernă 1 (Engleză) (clasa a IX-a)|Limba modernă 1 (Engleză)]] — 18 lecții
 - [[Limba modernă 2 (Franceză) (clasa a IX-a)|Limba modernă 2 (Franceză)]] — 18 lecții
 - [[Limba și literatura română (clasa a IX-a)|Limba și literatura română]] — 20 lecții
@@ -81,11 +77,8 @@ graph LR
 
 ### [[Clasa a X-a]]
 
-- [[Educație antreprenorială (clasa a X-a)|Educație antreprenorială]] — 18 lecții
 - [[Geografie (clasa a X-a)|Geografie]] — 20 lecții
 - [[Istorie (clasa a X-a)|Istorie]] — 24 lecții
-- [[Psihologie (clasa a X-a)|Psihologie]] — 24 lecții
-- [[Limba latină (clasa a X-a)|Limba latină]] — 18 lecții
 - [[Limba modernă 1 (Engleză) (clasa a X-a)|Limba modernă 1 (Engleză)]] — 18 lecții
 - [[Limba modernă 2 (Franceză) (clasa a X-a)|Limba modernă 2 (Franceză)]] — 18 lecții
 - [[Limba și literatura română (clasa a X-a)|Limba și literatura română]] — 20 lecții
@@ -97,11 +90,8 @@ graph LR
 
 ### [[Clasa a XI-a]]
 
-- [[Economie (clasa a XI-a)|Economie]] — 24 lecții
 - [[Geografie (clasa a XI-a)|Geografie]] — 20 lecții
-- [[Istoria evreilor. Holocaustul (clasa a XI-a)|Istoria evreilor. Holocaustul]] — 18 lecții
 - [[Istorie (clasa a XI-a)|Istorie]] — 24 lecții
-- [[Sociologie (clasa a XI-a)|Sociologie]] — 24 lecții
 - [[Limba modernă 1 (Engleză) (clasa a XI-a)|Limba modernă 1 (Engleză)]] — 18 lecții
 - [[Limba modernă 2 (Franceză) (clasa a XI-a)|Limba modernă 2 (Franceză)]] — 18 lecții
 - [[Limba și literatura română (clasa a XI-a)|Limba și literatura română]] — 20 lecții
@@ -110,7 +100,6 @@ graph LR
 
 ### [[Clasa a XII-a]]
 
-- [[Educație antreprenorială (clasa a XII-a)|Educație antreprenorială]] — 12 lecții
 - [[Geografie (clasa a XII-a)|Geografie]] — 20 lecții
 - [[Istorie (clasa a XII-a)|Istorie]] — 24 lecții
 - [[Limba modernă 1 (Engleză) (clasa a XII-a)|Limba modernă 1 (Engleză)]] — 18 lecții
@@ -121,14 +110,11 @@ graph LR
 
 ### [[Clasa a XIII-a]]
 
-- [[Economie și educație antreprenorială (clasa a XIII-a)|Economie și educație antreprenorială]] — 24 lecții
 - [[Geografie (clasa a XIII-a)|Geografie]] — 20 lecții
-- [[Istoria comunismului din România (clasa a XIII-a)|Istoria comunismului din România]] — 18 lecții
 - [[Istorie (clasa a XIII-a)|Istorie]] — 22 lecții
 - [[Limba modernă 1 (Engleză) (clasa a XIII-a)|Limba modernă 1 (Engleză)]] — 18 lecții
 - [[Limba modernă 2 (Franceză) (clasa a XIII-a)|Limba modernă 2 (Franceză)]] — 18 lecții
 - [[Limba și literatura română (clasa a XIII-a)|Limba și literatura română]] — 20 lecții
 - [[Biologie (clasa a XIII-a)|Biologie]] — 6 lecții
-- [[Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)|Pregătire pentru bacalaureat (CDEOȘ)]] — 20 lecții
 
 Înapoi la [[00 Start aici]]

@@ -11,7 +11,7 @@ Anul **4** din cei 5 ai parcursului [[Parcurs școlar]].
 
 ⬅ [[Clasa a XI-a]] · [[Clasa a XIII-a]] ➡
 
-## Materii (8)
+## Materii (7)
 
 ### [[Arie - Limbă și comunicare|Limbă și comunicare]]
 - [[Limba și literatura română (clasa a XII-a)|Limba și literatura română]] — 🎓 bac, 📘 20 lecții în aplicație
@@ -24,7 +24,6 @@ Anul **4** din cei 5 ai parcursului [[Parcurs școlar]].
 ### [[Arie - Om și societate|Om și societate]]
 - [[Istorie (clasa a XII-a)|Istorie]] — 🎓 bac, 📘 24 lecții în aplicație
 - [[Geografie (clasa a XII-a)|Geografie]] — 🎓 bac, 📘 20 lecții în aplicație
-- [[Educație antreprenorială (clasa a XII-a)|Educație antreprenorială]] — 🎓 bac, 📘 12 lecții în aplicație
 
 ### [[Arie - Tehnologii|Tehnologii]]
 - [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XII-a)|Tehnologia informației și a comunicațiilor (TIC)]] — 🎓 bac, 📘 16 lecții în aplicație

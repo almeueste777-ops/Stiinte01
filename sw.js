@@ -1,15 +1,15 @@
 /* Service worker: precache + strategii de cache.
    IMPORTANT: crește CACHE la fiecare modificare a fișierelor, ca utilizatorii să primească versiunea nouă. */
-const CACHE = 'stiinte01-v23';  // v19 — Fizică și Chimie (VI-XIII), Tablă Pas-cu-Pas Ecuații Detaliate & Video YouTube
+const CACHE = 'stiinte01-v24';  // v20 — Curățare aplicație: păstrare exclusivă materii profil liceu tehnologic / real
 /* Scheletul aplicației: FĂRĂ el aplicația nu pornește, deci se cere atomic. */
 const SHELL = [
   './',
   './index.html',
   /* ?v= trebuie să fie IDENTIC cu cel din index.html (cache-ul SW potrivește
      URL-ul exact, cu tot cu query) — CI-ul verifică sincronizarea. */
-  './assets/app.css?v=23',
-  './assets/tema-aurora.css?v=23',
-  './assets/app.js?v=23',
+  './assets/app.css?v=24',
+  './assets/tema-aurora.css?v=24',
+  './assets/app.js?v=24',
   './assets/emblema.png',
   './manifest.webmanifest',
   './data/curriculum.json',
@@ -36,8 +36,6 @@ const MODULE = [
   /* MODULE:START */
   './data/module/geografie-9.json',
   './data/module/istorie-9.json',
-  './data/module/logica-9.json',
-  './data/module/latina-9.json',
   './data/module/engleza-9.json',
   './data/module/franceza-9.json',
   './data/module/romana-9.json',
@@ -46,11 +44,8 @@ const MODULE = [
   './data/module/fizica-9.json',
   './data/module/matematica-9.json',
   './data/module/tic-9.json',
-  './data/module/antreprenoriat-10.json',
   './data/module/geografie-10.json',
   './data/module/istorie-10.json',
-  './data/module/psihologie-10.json',
-  './data/module/latina-10.json',
   './data/module/engleza-10.json',
   './data/module/franceza-10.json',
   './data/module/romana-10.json',
@@ -59,17 +54,13 @@ const MODULE = [
   './data/module/fizica-10.json',
   './data/module/matematica-10.json',
   './data/module/tic-10.json',
-  './data/module/economie-11.json',
   './data/module/geografie-11.json',
-  './data/module/holocaust-11.json',
   './data/module/istorie-11.json',
-  './data/module/sociologie-11.json',
   './data/module/engleza-11.json',
   './data/module/franceza-11.json',
   './data/module/romana-11.json',
   './data/module/biologie-11.json',
   './data/module/tic-11.json',
-  './data/module/antreprenoriat-12.json',
   './data/module/geografie-12.json',
   './data/module/istorie-12.json',
   './data/module/engleza-12.json',
@@ -77,15 +68,12 @@ const MODULE = [
   './data/module/romana-12.json',
   './data/module/biologie-12.json',
   './data/module/tic-12.json',
-  './data/module/economie-13.json',
   './data/module/geografie-13.json',
-  './data/module/comunism-13.json',
   './data/module/istorie-13.json',
   './data/module/engleza-13.json',
   './data/module/franceza-13.json',
   './data/module/romana-13.json',
   './data/module/biologie-13.json',
-  './data/module/bac-13.json',
   /* MODULE:STOP */
 ];
 

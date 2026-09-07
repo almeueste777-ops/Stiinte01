@@ -11,7 +11,7 @@ Anul **3** din cei 5 ai parcursului [[Parcurs școlar]].
 
 ⬅ [[Clasa a X-a]] · [[Clasa a XII-a]] ➡
 
-## Materii (10)
+## Materii (7)
 
 ### [[Arie - Limbă și comunicare|Limbă și comunicare]]
 - [[Limba și literatura română (clasa a XI-a)|Limba și literatura română]] — 🎓 bac, 📘 20 lecții în aplicație
@@ -23,10 +23,7 @@ Anul **3** din cei 5 ai parcursului [[Parcurs școlar]].
 
 ### [[Arie - Om și societate|Om și societate]]
 - [[Istorie (clasa a XI-a)|Istorie]] — 🎓 bac, 📘 24 lecții în aplicație
-- [[Istoria evreilor. Holocaustul (clasa a XI-a)|Istoria evreilor. Holocaustul]] — 📘 18 lecții în aplicație
 - [[Geografie (clasa a XI-a)|Geografie]] — 🎓 bac, 📘 20 lecții în aplicație
-- [[Sociologie (clasa a XI-a)|Sociologie]] — 🎓 bac, 📘 24 lecții în aplicație
-- [[Economie (clasa a XI-a)|Economie]] — 🎓 bac, 📘 24 lecții în aplicație
 
 ### [[Arie - Tehnologii|Tehnologii]]
 - [[Tehnologia informației și a comunicațiilor (TIC) (clasa a XI-a)|Tehnologia informației și a comunicațiilor (TIC)]] — 🎓 bac, 📘 16 lecții în aplicație

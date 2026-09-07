@@ -11,7 +11,6 @@ Arie curriculară din planul-cadru.
 
 ## Materii
 
-- [[Limba latină]]
 - [[Limba modernă 1 (Engleză)]]
 - [[Limba modernă 2 (Franceză)]]
 - [[Limba și literatura română]]

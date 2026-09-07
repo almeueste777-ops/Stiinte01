@@ -1,7 +1,21 @@
 {
-  "curenta": "19",
+  "curenta": "20",
   "actualizat": "2026-09-07",
   "versiuni": [
+    {
+      "v": "20",
+      "nume": "Curățare Aplicație: Păstrarea Exclusivă a Materiilor Create / Restructurate pentru Profilul Real & Tehnologic",
+      "data": "2026-09-07",
+      "cache": 24,
+      "schimbari": [
+        "Curățat depozitul de conținut: eliminate complet toate cele 12 module socio-umane moștenite din vechiul șablon (Latină, Logică, Psihologie, Sociologie, Economie, Antreprenoriat, Holocaust, Comunism, Bac CDEOȘ).",
+        "Aplicația conține acum strict cele 10 materii (40 de module, 731 de lecții) create, extinse și modernizate dedicat pentru utilizator și Liceul Tehnologic Ion Creangă Târgu Neamț: Biologie, Matematică, Fizică, Chimie, Limba română, Limba engleză, Limba franceză, TIC, Istorie și Geografie.",
+        "Actualizat planul-cadru din data/curriculum.json pentru a reflecta exclusiv parcursul tehnologic / real cu cele 10 discipline de bază și pregătire completă pentru toate probele de Bacalaureat (E.a, E.b, E.c, E.d și competențe digitale D).",
+        "Reconstruit indexul central de conținut (data/continut.json) și optimizat precache-ul Service Worker la 40 de fișiere de module.",
+        "Regenerat complet Obsidian Vault-ul cu 905 notițe interconectate, 0 legături rupte și 0 note orfane.",
+        "Actualizat Service Worker-ul la cache stiinte01-v24 și sincronizate atributele ?v=24 în index.html."
+      ]
+    },
     {
       "v": "19",
       "nume": "Fizică și Chimie Reconstruite (Clasele VI–XIII), 72 de Table Pas-cu-Pas Fără Etape Omise, Video YouTube și Tastatură Extinsă de Științe",

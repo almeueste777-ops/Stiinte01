@@ -11,10 +11,7 @@ Anul **5** din cei 5 ai parcursului [[Parcurs școlar]].
 
 ⬅ [[Clasa a XII-a]]
 
-## Materii (9)
-
-### [[Arie - Curriculum la decizia elevului|Curriculum la decizia elevului]]
-- [[Pregătire pentru bacalaureat (CDEOȘ) (clasa a XIII-a)|Pregătire pentru bacalaureat (CDEOȘ)]] — 🎓 bac, 📘 20 lecții în aplicație
+## Materii (6)
 
 ### [[Arie - Limbă și comunicare|Limbă și comunicare]]
 - [[Limba și literatura română (clasa a XIII-a)|Limba și literatura română]] — 🎓 bac, 📘 20 lecții în aplicație
@@ -26,6 +23,4 @@ Anul **5** din cei 5 ai parcursului [[Parcurs școlar]].
 
 ### [[Arie - Om și societate|Om și societate]]
 - [[Istorie (clasa a XIII-a)|Istorie]] — 🎓 bac, 📘 22 lecții în aplicație
-- [[Istoria comunismului din România (clasa a XIII-a)|Istoria comunismului din România]] — 📘 18 lecții în aplicație
 - [[Geografie (clasa a XIII-a)|Geografie]] — 🎓 bac, 📘 20 lecții în aplicație
-- [[Economie și educație antreprenorială (clasa a XIII-a)|Economie și educație antreprenorială]] — 🎓 bac, 📘 24 lecții în aplicație

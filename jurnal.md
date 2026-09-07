@@ -1877,3 +1877,46 @@ Legături: [[Științe Sociale — MOC]] · [[Arhitectura aplicației]] · [[Ver
 - Versiune înregistrată în `data/versiuni.json`: v19 (cache 23).
 - Obsidian Vault regenerat cu succes: 1170 note, 7944 wikilink-uri, 0 legături rupte, 0 note orfane.
 
+---
+
+## 2026-09-07 — Faza 20: Curățare Aplicație: Păstrarea Exclusivă a Materiilor Create / Restructurate pentru Profilul Real & Tehnologic (v20)
+
+**Cerință primită:**
+„in afara de ce-ai creat tu, te rog sa stergi din aplicatie.” — Eliminarea din depozit a tuturor disciplinelor și modulelor moștenite din vechiul șablon de științe sociale care nu au fost create sau cerute în colaborarea curentă.
+
+### 1. Curățarea modulelor și a fișierelor sursă
+- Eliminate definitiv din `data/module/` și `data/sursa/` cele 12 fișiere socio-umane/filologice din vechiul șablon:
+  - `latina-9` și `latina-10` (Limba latină);
+  - `logica-9` (Logică, argumentare și comunicare);
+  - `psihologie-10` (Psihologie);
+  - `sociologie-11` (Sociologie);
+  - `economie-11` și `economie-13` (Economie și educație antreprenorială);
+  - `antreprenoriat-10` și `antreprenoriat-12` (Educație antreprenorială);
+  - `holocaust-11` (Istoria evreilor. Holocaustul);
+  - `comunism-13` (Istoria comunismului din România);
+  - `bac-13` (Pregătire CDEOȘ).
+
+### 2. Păstrarea celor 10 materii dezvoltate în colaborare (40 de module, 731 de lecții)
+Aplicația se concentrează acum 100% pe parcursul liceului tehnologic / profil real:
+1. **Biologie** (clasele 9–13, 5 module, 61 de lecții);
+2. **Matematică** (clasele 9–10, 2 module, 36 de lecții cu Tablă Neagră și tastatură nativă);
+3. **Fizică** (clasele 9–10, 2 module, 36 de lecții cu cunoștințe clasele 6–13 și Tablă Neagră);
+4. **Chimie** (clasele 9–10, 2 module, 36 de lecții cu cunoștințe clasele 6–13 și Tablă Neagră);
+5. **Limba și literatura română** (clasele 9–13, 5 module, 100 de lecții pentru Bacalaureat);
+6. **Limba modernă 1 - Engleză** (clasele 9–13, 5 module, 90 de lecții, recapitulare 6–8 și Proba B);
+7. **Limba modernă 2 - Franceză** (clasele 9–13, 5 module, 90 de lecții, recapitulare 6–8 și Proba B);
+8. **TIC** (clasele 9–12, 4 module, 64 de lecții pentru Competențe Digitale Bacalaureat Proba D);
+9. **Istorie** (clasele 9–13, 5 module, 118 lecții pentru Bacalaureat);
+10. **Geografie** (clasele 9–13, 5 module, 100 lecții pentru Bacalaureat).
+
+### 3. Actualizarea planului-cadru, a indexului și a Obsidian Vault
+- `data/curriculum.json` actualizat pentru cele 5 clase (IX–XIII) reflectând strict cele 10 discipline de bază ale profilului.
+- Reconstruit indexul central `data/continut.json` și lista de precache din `sw.js` (40 module, 731 lecții, 2.927 carduri, 2.945 întrebări de lecție + 1.192 de teză).
+- Obsidian Vault regenerat prin `tools/graphify.py`: 905 note, 6.139 legături, 0 legături rupte, 0 note orfane.
+
+### 4. Validare, Cache & PWA
+- `node tools/verifica-continut.mjs`: 0 erori (structură validă 40 module).
+- `node --test tools/test-comportament.mjs`: 33/33 teste trecute cu succes.
+- `python tools/verifica_vault.py`: validat 100%.
+- Bump Service Worker cache la `stiinte01-v24` și actualizate referințele `?v=24` în `index.html`.
+
