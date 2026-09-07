@@ -18,7 +18,7 @@ cssclasses: fisa
 > **Arie curriculară:** [[Arie - Matematică și științe ale naturii|Matematică și științe ale naturii]]
 > **La bacalaureat:** nu
 
-Mecanica: mișcare și repaus, principiile dinamicii, lucru mecanic și energie, echilibru și mașini simple.
+Fizică de la zero (clasele VI–IX): mărimi scalare și vectoriale, mișcare și repaus, principiile dinamicii newtoniene, forțe, lucru mecanic, conservarea energiei, echilibru, mașini simple, hidrostatică și gravitație.
 
 ## Capitole (6)
 

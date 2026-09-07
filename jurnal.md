@@ -1829,3 +1829,51 @@ Legături: [[Științe Sociale — MOC]] · [[Arhitectura aplicației]] · [[Ver
 - Service Worker actualizat la cache `stiinte01-v22`, `index.html` cache-busting actualizat la `?v=22`.
 - Versiune înregistrată în `data/versiuni.json`: v18 (cache 22).
 - Obsidian Vault: 1170 note, 7944 wikilink-uri, 0 legături rupte, 0 note orfane.
+
+---
+
+## 2026-09-07 — Faza 19: Modernizare Fizică și Chimie (Clasele VI–XIII), 72 de Table Pas-cu-Pas Fără Etape Omise, Video YouTube și Tastatură Extinsă de Științe (v19)
+
+**Feedback & Cerințe primite:**
+1. Modernizarea disciplinelor **Chimia** și **Fizica** din aplicație, integrând cunoștințele progresiv de la nivel de bază (clasa a VI-a / a VII-a din gimnaziu) până la nivelul complet de liceu și Bacalaureat (clasa a XIII-a).
+2. Introducerea „Tablei Negre Pas-cu-Pas” la ambele materii (la fel ca la Matematică), cu cerința strictă ca la ecuații și calcule să **NU se sară peste nicio etapă** („ca pentru clasa I”), cu toate calculele, transformările de unități și egalările de ecuații detaliate complet.
+3. Căutare video YouTube dedicată și tastatură nativă de științe exacte.
+
+### 1. Structura curriculară și pedagogică progresivă (Clasele VI–XIII)
+- **Fizică (36 de lecții în `fizica-9` și `fizica-10`):**
+  - Parcurs complet pornind de la conceptele introductive de clasa a VI-a (mărimi scalare, sisteme de referință, mișcare rectilinie, viteză medie, inerție);
+  - Dinamica forțelor și mașini simple (clasele VII–IX: forțe de frecare, greutate, elasticitate, pârghii, scripeți, plan înclinat, presiune hidrostatică, legea lui Pascal);
+  - Cinematica vectorială și conservare (clasele IX–XI: vectori, compunerea vitezelor, aruncări, mișcare circulară uniformă, gravitație, impuls mecanic, ciocniri, pendul gravitațional);
+  - Termodinamică, electromagnetism și optică (clasele X–XIII: dilatare termică, gazul ideal Clapeyron-Mendeleev, principiul I, calorimetrie, motoare termice și ciclul Carnot, legea lui Ohm pentru întregul circuit, gruparea rezistoarelor serie/paralel, forța Laplace, optică geometrică, interferența Young, unde electromagnetice și efectul fotoelectric extern).
+- **Chimie (36 de lecții în `chimie-9` și `chimie-10`):**
+  - Noțiuni fundamentale anorganice (clasele VII–IX: structura atomului, protoni/neutroni/electroni, tabelul periodic, legături ionice și covalente, soluții și concentrații procentuale de masă, molul și masa molară, tipuri de reacții chimice, acizi, baze, săruri și neutralizare);
+  - Aprofundare anorganică și stoechiometrie Bac (clasele IX–XI: configurații pe substraturi s/p/d, regula lui Hund, valențe și formula compușilor, seria reactivității metalelor, oxizi, precipitarea sărurilor, curbe de solubilitate, diluarea soluțiilor și electroliza apei);
+  - Chimie organică și biochimie (clasele X–XIII: catene de carbon, hidrocarburi - arderea metanului, nitrarea benzenului, clorurarea fotochimică, adiția la alchene conform regulii lui Markovnikov, puterea calorică a combustibililor, compuși cu funcțiuni oxigenate - alcooli, esterificare, aldehide cu reactivii Tollens și Fehling, fermentația alcoolică a glucozei, acizi grași și hidrogenarea uleiurilor, saponificarea și săpunurile amfifile, aminoacizi și legătura peptidică, dozarea vitaminei C).
+
+### 2. Implementarea celor 72 de Table Negre explicative pas-cu-pas („Fără pași omiși”)
+- Integrate 72 de probleme rezolvate atomic în `data/mate-didactic.json` (36 pentru Fizică + 36 pentru Chimie).
+- Fiecare rezolvare conține între 7 și 9 pași succesivi:
+  - Datele problemei și identificarea necunoscutei;
+  - Transformările explicite ale unităților de măsură în Sistemul Internațional ($km/h \to m/s$, $g \to kg$, $cm \to m$, $mm^2 \to m^2$, $L \to m^3$, $^\circ\text{C} \to K$, $MHz \to Hz$);
+  - Legea fizică aplicată sau ecuația chimică complet egalată pe baza bilanțului atomilor;
+  - Relația literală cu izolarea pas cu pas a necunoscutei;
+  - Înlocuirea numerică directă cu cifre și unități de măsură;
+  - Calculele aritmetice intermediate efectuate pe rând (înmulțiri, adunări, simplificări de fracții, puteri ale lui 10 și extrageri de radicali);
+  - Concluzia fizico-chimică și interpretarea practică a rezultatului obținut.
+
+### 3. Optimizări ale interfeței și motorului didactic în `assets/app.js`
+- Butonul de ciornă și tastatură (`⌨️ Ciornă & Tastatură formule & calcule`) a fost extins pe toate lecțiile de Fizică și Chimie.
+- Tastatura nativă din aplicație a fost îmbogățită cu tab-ul dedicat **`🧪 Fizică & Chimie`**, oferind acces rapid la:
+  - Simboluri chimice uzuale ($H, C, O, N, Cl, Na, S$);
+  - Săgeți de reacție și fenomene ($\to$, $\rightleftharpoons$, $\uparrow$ precipitat/gaz, $\downarrow$);
+  - Litere grecești din formulele de fizică ($\rho, \mu, \lambda, \Omega, \omega, \theta, \alpha, \beta, \gamma, \eta$);
+  - Unități și mărimi standard ($\Delta T$, $^\circ\text{C}$, $m/s$, $m/s^2$, $kg$, $N$, $J$, $W$, $V$, $A$, $mol$, $c_p$, $pV=\nu RT$).
+- Motorul tipografic `formateazaMateHTML` a fost extins pentru a reda impecabil formulele chimice, indicii, săgețile de reacție și simbolurile specifice științelor naturii.
+
+### 4. Validare, Cache & Obsidian Vault
+- Verificare conținut: `node tools/verifica-continut.mjs` — 52 module, 973 lecții, 0 erori.
+- Teste comportamentale: `node tools/test-comportament.mjs` — 33/33 pass.
+- Service Worker actualizat la cache `stiinte01-v23`, `index.html` actualizat cu `?v=23`.
+- Versiune înregistrată în `data/versiuni.json`: v19 (cache 23).
+- Obsidian Vault regenerat cu succes: 1170 note, 7944 wikilink-uri, 0 legături rupte, 0 note orfane.
+

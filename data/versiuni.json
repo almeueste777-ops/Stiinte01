@@ -1,7 +1,21 @@
 {
-  "curenta": "18",
+  "curenta": "19",
   "actualizat": "2026-09-07",
   "versiuni": [
+    {
+      "v": "19",
+      "nume": "Fizică și Chimie Reconstruite (Clasele VI–XIII), 72 de Table Pas-cu-Pas Fără Etape Omise, Video YouTube și Tastatură Extinsă de Științe",
+      "data": "2026-09-07",
+      "cache": 23,
+      "schimbari": [
+        "Extinse materiile Fizică și Chimie pentru a acoperi progresiv întregul parcurs educațional de la noțiunile fundamentale de gimnaziu (clasele VI–VIII) până la nivelul complet de Bacalaureat tehnologic și real (clasele IX–XIII).",
+        "Introduse 72 de Table Negre explicative pas-cu-pas (36 la Fizică și 36 la Chimie) în data/mate-didactic.json, cu rezolvări de probleme și ecuații chimice ultra-detaliate (6–9 pași fiecare), unde nu se sare absolut peste nicio etapă (transformări detaliate de unități în SI, egalarea atomilor, izolarea necunoscutei și calcule aritmetice intermediate pas cu pas ca pentru clasa 1).",
+        "Optimizată integrarea video educațională YouTube pentru toate cele 72 de teme din Fizică și Chimie, prin căutare inteligentă dedicată ce afișează exclusiv materiale active și disponibile pe YouTube.",
+        "Extinsă tastatura nativă și ciorna din aplicație cu tabul dedicat «🧪 Fizică & Chimie», adăugând elemente chimice uzuale (H, C, O, N, Cl, Na, S), săgeți de reacție (→, ⇌, ↑, ↓), litere grecești (ρ, μ, λ, Ω) și unități de măsură din Sistemul Internațional.",
+        "Actualizat motorul tipografic formateazaMateHTML pentru redarea corectă a formulelor chimice, indicilor, săgeților și simbolurilor științifice.",
+        "Actualizat Service Worker-ul la cache stiinte01-v23 și sincronizat indexul de conținut."
+      ]
+    },
     {
       "v": "18",
       "nume": "Tablă Matematică Didactică Pas-cu-Pas (Nivel Elementar Fără Pași Omiși) & Căutare Inteligentă Videoclipuri Disponibile YouTube",

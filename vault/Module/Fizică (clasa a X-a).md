@@ -18,7 +18,7 @@ cssclasses: fisa
 > **Arie curriculară:** [[Arie - Matematică și științe ale naturii|Matematică și științe ale naturii]]
 > **La bacalaureat:** nu
 
-Termodinamică, electricitate și magnetism, optică și unde: fenomene, legi și aplicații în viața de zi cu zi.
+Fizică aprofundată și pregătire Bacalaureat (clasele X–XIII): termodinamică și gaze ideale, calorimetrie, electrocinetică și circuite electrice, electromagnetism, optică geometrică și ondulatorie, unde și fizică modernă.
 
 ## Capitole (6)
 

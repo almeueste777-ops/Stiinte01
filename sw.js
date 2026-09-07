@@ -1,15 +1,15 @@
 /* Service worker: precache + strategii de cache.
    IMPORTANT: crește CACHE la fiecare modificare a fișierelor, ca utilizatorii să primească versiunea nouă. */
-const CACHE = 'stiinte01-v22';  // v18 — Tablă Matematică Didactică Pas-cu-Pas & Căutare Videoclipuri Disponibile YouTube
+const CACHE = 'stiinte01-v23';  // v19 — Fizică și Chimie (VI-XIII), Tablă Pas-cu-Pas Ecuații Detaliate & Video YouTube
 /* Scheletul aplicației: FĂRĂ el aplicația nu pornește, deci se cere atomic. */
 const SHELL = [
   './',
   './index.html',
   /* ?v= trebuie să fie IDENTIC cu cel din index.html (cache-ul SW potrivește
      URL-ul exact, cu tot cu query) — CI-ul verifică sincronizarea. */
-  './assets/app.css?v=22',
-  './assets/tema-aurora.css?v=22',
-  './assets/app.js?v=22',
+  './assets/app.css?v=23',
+  './assets/tema-aurora.css?v=23',
+  './assets/app.js?v=23',
   './assets/emblema.png',
   './manifest.webmanifest',
   './data/curriculum.json',

@@ -18,7 +18,7 @@ cssclasses: fisa
 > **Arie curriculară:** [[Arie - Matematică și științe ale naturii|Matematică și științe ale naturii]]
 > **La bacalaureat:** nu
 
-Structura atomului, tabelul periodic, legături chimice, soluții și reacții chimice fundamentale.
+Chimie anorganică de la zero (clasele VII–IX): structura atomului, tabelul periodic al elementelor, legături chimice, soluții și concentrații, tipuri de reacții, oxizi, acizi, baze, săruri și stoechiometrie Bac.
 
 ## Capitole (6)
 

@@ -18,7 +18,7 @@ cssclasses: fisa
 > **Arie curriculară:** [[Arie - Matematică și științe ale naturii|Matematică și științe ale naturii]]
 > **La bacalaureat:** nu
 
-Chimie organică: hidrocarburi, compuși cu grupe funcționale, substanțe naturale și chimia vieții cotidiene.
+Chimie organică și biochimie pentru Bacalaureat (clasele X–XIII): catene de carbon, hidrocarburi (alcani, alchene, alchine, arene), compuși cu funcțiuni (alcooli, acizi, esteri, amine, aminoacizi), zaharuri, polimeri și aplicații cotidiene.
 
 ## Capitole (6)
 

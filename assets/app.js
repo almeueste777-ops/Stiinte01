@@ -1242,7 +1242,7 @@
 
     /* .two-col: pe telefon curge normal; ≥900px textul stă la stânga,
        notițele la dreapta (lipicioase), ca să nu derulezi ca să notezi. */
-    const esteMate = modId.startsWith('mat') || modId.startsWith('mass') || ix.materie.includes('Matematică');
+    const esteStiintaExacta = modId.startsWith('mat') || modId.startsWith('mass') || modId.startsWith('fiz') || modId.startsWith('chim') || ix.materie.includes('Matematică') || ix.materie.includes('Fizic') || ix.materie.includes('Chim');
     view.innerHTML = `
       <div class="two-col">
         <div class="card">
@@ -1265,8 +1265,8 @@
             <textarea id="nota" rows="4" placeholder="Scrie aici...">${esc(nota)}</textarea>
             <p class="muted" id="nota-stare" style="margin:6px 0 0">Salvate automat pe acest dispozitiv.</p>
           </div>
-          ${esteMate ? `
-            <button class="btn ghost" id="btn-ciorna-lectie" style="margin-bottom:10px; width:100%;">⌨️ Ciornă & Tastatură matematică</button>
+          ${esteStiintaExacta ? `
+            <button class="btn ghost" id="btn-ciorna-lectie" style="margin-bottom:10px; width:100%;">⌨️ Ciornă & Tastatură formule & calcule</button>
           ` : ''}
           <button class="btn" id="marcheaza">${state.lectiiCitite[lec.id] ? '✓ Marcată ca citită — anulează' : 'Marchează drept citită'}</button>
           <div class="grid2" style="margin-top:12px">
@@ -3396,6 +3396,29 @@
     out = out.replace(/\\Rightarrow|=&gt;/g, '&rArr;');
     out = out.replace(/\\Leftrightarrow|&lt;=&gt;/g, '&hArr;');
 
+    out = out.replace(/\\rightarrow|-->|&rarr;/g, '&rarr;');
+    out = out.replace(/\\leftarrow|&larr;/g, '&larr;');
+    out = out.replace(/\\rightleftharpoons|\\xrightleftharpoons\{[^}]*\}/g, '&#8652;');
+    out = out.replace(/\\xrightarrow\{([^}]+)\}/g, '&rarr;<sup>$1</sup>');
+    out = out.replace(/\\uparrow/g, '&uarr;');
+    out = out.replace(/\\downarrow/g, '&darr;');
+    out = out.replace(/\\cdot/g, '&middot;');
+    out = out.replace(/\\rho/g, '&rho;');
+    out = out.replace(/\\mu/g, '&mu;');
+    out = out.replace(/\\lambda/g, '&lambda;');
+    out = out.replace(/\\Omega/g, '&Omega;');
+    out = out.replace(/\\omega/g, '&omega;');
+    out = out.replace(/\\theta/g, '&theta;');
+    out = out.replace(/\\alpha/g, '&alpha;');
+    out = out.replace(/\\beta/g, '&beta;');
+    out = out.replace(/\\gamma/g, '&gamma;');
+    out = out.replace(/\\eta/g, '&eta;');
+    out = out.replace(/\\nu/g, '&nu;');
+    out = out.replace(/\\quad|\\qquad|\\;/g, ' &nbsp; ');
+    out = out.replace(/\\text\{([^{}]+)\}/g, '$1');
+    out = out.replace(/\\mathbf\{([^{}]+)\}/g, '<strong>$1</strong>');
+    out = out.replace(/\\circ/g, '&deg;');
+
     let lim = 0;
     while (lim++ < 15 && /\\sqrt\{([^{}]+)\}/.test(out)) {
       out = out.replace(/\\sqrt\{([^{}]+)\}/g, '<span class="math-rad"><span class="math-rad-sym">&radic;</span><span class="math-rad-line">$1</span></span>');
@@ -3436,6 +3459,12 @@
     functii: [
       { k: 'f(x)', i: 'f(x)' }, { k: 'f\'(x)', i: 'f\'(x)' }, { k: 'log_a', i: '\\log_{ }( )', c: -4 }, { k: 'ln', i: '\\ln(' }, { k: 'lim', i: '\\lim_{x \\to }', c: -1 }, { k: '∑', i: '\\sum' }, { k: '∫', i: '\\int' },
       { k: 'e', i: 'e' }, { k: '1/x', i: '\\frac{1}{x}' }, { k: 'x₂', i: 'x_2' }, { k: 'x_n', i: 'x_n' }, { k: '√Δ', i: '\\sqrt{\\Delta}' }, { k: 'V(xv,yv)', i: 'V(-b/2a, -\\Delta/4a)' }, { k: 'i²', i: 'i^2 = -1' }
+    ],
+    stiinte: [
+      { k: 'H', i: 'H' }, { k: 'C', i: 'C' }, { k: 'O', i: 'O' }, { k: 'N', i: 'N' }, { k: 'Cl', i: 'Cl' }, { k: 'Na', i: 'Na' }, { k: 'S', i: 'S' },
+      { k: '→', i: ' \\rightarrow ' }, { k: '⇌', i: ' \\rightleftharpoons ' }, { k: '↑', i: ' \\uparrow ' }, { k: '↓', i: ' \\downarrow ' }, { k: 'ρ', i: '\\rho' }, { k: 'μ', i: '\\mu' }, { k: 'λ', i: '\\lambda' },
+      { k: 'Ω', i: '\\Omega' }, { k: 'ΔT', i: '\\Delta T' }, { k: '°C', i: '^\\circ\\text{C}' }, { k: 'm/s', i: '\\text{ m/s}' }, { k: 'm/s²', i: '\\text{ m/s}^2' }, { k: 'kg', i: '\\text{ kg}' }, { k: 'N', i: '\\text{ N}' },
+      { k: 'J', i: '\\text{ J}' }, { k: 'W', i: '\\text{ W}' }, { k: 'V', i: '\\text{ V}' }, { k: 'A', i: '\\text{ A}' }, { k: 'mol', i: '\\text{ mol}' }, { k: 'cp%', i: 'c_p = \\frac{m_d}{m_s} \\cdot 100' }, { k: 'pV=νRT', i: 'p \\cdot V = \\nu \\cdot R \\cdot T' }
     ]
   };
 
@@ -3454,7 +3483,7 @@
 
     sheet.innerHTML = `
       <div class="mate-modal-header">
-        <h3 id="mate-titlu"><span>⌨️</span> Tastatură Matematică & Ciornă</h3>
+        <h3 id="mate-titlu"><span>⌨️</span> Tastatură Formule & Ciornă</h3>
         <button class="icon-btn" id="mate-inchide" aria-label="Închide" style="font-size:1.1rem; padding:4px 8px;">✕</button>
       </div>
       <div class="mate-preview-box" id="mate-preview" aria-live="polite"></div>
@@ -3464,6 +3493,7 @@
         <button class="mate-tab-btn" data-cat="multimi" role="tab">📐 Mulțimi & Relații</button>
         <button class="mate-tab-btn" data-cat="algebra" role="tab">🏛️ Litere & Simboluri</button>
         <button class="mate-tab-btn" data-cat="functii" role="tab">📈 Funcții & Bac</button>
+        <button class="mate-tab-btn" data-cat="stiinte" role="tab">🧪 Fizică & Chimie</button>
       </div>
       <div class="mate-grid" id="mate-grid"></div>
       <div class="mate-actions">
